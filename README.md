@@ -35,23 +35,6 @@ cp .env.example .env.local   # set your own SITE_USER / SITE_PASS
 npm run dev                  # http://localhost:3000
 ```
 
-## Deploy to Vercel
-
-1. Push this repo to GitHub (Private is recommended).
-2. On https://vercel.com → **Add New… → Project** → **Import** the repo.
-3. The framework is auto-detected as **Next.js** — no extra config needed.
-4. Add these **Environment Variables** (required):
-
-   | Name | Value |
-   |------|-------|
-   | `SITE_USER` | your login id |
-   | `SITE_PASS` | a strong password |
-
-5. **Deploy**. After ~1 minute you get `https://<project>.vercel.app`.
-6. Visiting the site prompts for the id/password set above — only you get in.
-
-> Changing the environment variables requires a **Redeploy** in Vercel to take effect.
-
 ## Adding a new day
 
 1. Create `data/YYYY-MM-DD/` with an `index.json` and one JSON file per edition.
