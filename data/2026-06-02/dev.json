@@ -1,0 +1,215 @@
+{
+  "name": "개발 / 엔지니어링",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "instagram-exploit-goofy",
+      "title": "역대급으로 '어이없는' 인스타그램 익스플로잇",
+      "summary": "Meta 지원 AI에 위치 위장+이메일 변경 요청 → 검증 없이 탈취.",
+      "source": "0xsid",
+      "url": "https://www.0xsid.com/blog/meta-account-takeover-fiasco",
+      "report": {
+        "tldr": "복잡한 해킹이 아니라, AI 고객지원을 말로 속여 인스타 계정을 빼앗은 어이없는 사건입니다.",
+        "what": "공격자는 VPN으로 표적과 가까운 위치를 만든 뒤, Meta 지원 AI에 '계정이 해킹당했으니 인증 코드를 다른 이메일로 보내달라'고 요청했습니다. 그 이메일이 실제 계정 소유자의 것인지 확인하는 절차가 전혀 없었습니다. 취약점은 패치된 것으로 보이지만, 계정을 되팔거나 선전용으로 쓰기 위해 악용됐습니다.",
+        "points": [
+          "기술적 정교함이 아니라 'AI에 권한을 너무 많이 준 설계'가 문제였습니다.",
+          "보안(InfoSec) 에디션에도 같은 사건이 다른 관점으로 실렸습니다."
+        ],
+        "why": [
+          "AI 고객지원이 민감한 작업(계정 복구)을 수행할 때 신원 검증이 빠지면 곧바로 대형 사고로 이어집니다.",
+          "'AI 에이전트에 무엇을 허용할 것인가'가 보안의 새 화두임을 단적으로 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "process-memory-file",
+      "title": "주말 트리비아: 프로세스 메모리도 파일이다",
+      "summary": "리눅스 /proc//mem으로 프로세스 주소공간에 파일식 접근.",
+      "source": "lcamtuf",
+      "url": "https://lcamtuf.substack.com/p/weekend-trivia-your-process-memory",
+      "report": {
+        "tldr": "유닉스의 '모든 것은 파일' 통념의 예외와, 리눅스에서 프로세스 메모리를 파일처럼 다루는 방법을 소개합니다.",
+        "what": "유닉스는 흔히 '모든 것을 파일로 다룬다'고 하지만, 네트워크 연결·프로세스 식별자 같은 핵심 기능은 표준 파일 인터페이스가 아니라 별도 시스템 콜에 의존하는 경우가 많습니다. 다만 리눅스에는 /proc//mem 인터페이스라는 주목할 예외가 있어, 프로세스의 주소 공간에 파일 같은 방식으로 직접 접근할 수 있습니다.",
+        "points": [
+          "운영체제의 추상화가 일관되지 않은 지점을 보여주는 흥미로운 사례입니다."
+        ],
+        "why": [
+          "디버깅·보안·시스템 프로그래밍에서 알아두면 유용한 저수준 지식입니다."
+        ]
+      }
+    },
+    {
+      "id": "code-cheap",
+      "title": "코드가 싸지면, 무엇이 남는가",
+      "summary": "병목이 작성→리뷰·테스트로 이동. 목표 정의·이해가 핵심.",
+      "source": "Atomic Object",
+      "url": "https://spin.atomicobject.com/code-cheap-whats-left/",
+      "report": {
+        "tldr": "AI로 코드 작성이 싸지면서, 개발의 병목과 가치가 '쓰기'에서 '판단'으로 옮겨갑니다.",
+        "what": "AI 도구가 코드 작성을 훨씬 빠르게 만들면서 이제 병목은 리뷰·테스트에 있습니다. 명확한 목표를 정의하고 코드를 제대로 이해(grok)하는 능력이 과거보다 훨씬 중요해졌습니다.",
+        "points": [
+          "코드 생산량이 아니라 '무엇을 만들지·맞게 만들었는지 판단'이 핵심 역량이 됩니다."
+        ],
+        "why": [
+          "AI 시대 개발자의 역할 변화를 압축적으로 보여줍니다 — 작성자에서 검증자·설계자로."
+        ]
+      }
+    },
+    {
+      "id": "prototyping-speed-ai",
+      "title": "AI 시대 프로토타이핑의 속도",
+      "summary": "초기 셋업 병목 제거 → 고수준 설계·성공지표로 초점 이동.",
+      "source": "darylcecile",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "report": {
+        "tldr": "AI가 초기 셋업 병목을 없애면서 프로토타이핑이 빨라지고, 엔지니어의 초점이 상위 설계로 옮겨갑니다.",
+        "what": "AI는 초기 셋업 병목을 제거해, 과거엔 너무 복잡하다고 여겨지던 기능적 PoC(개념 증명) 제작을 훨씬 빠르게 만들었습니다. 이로써 현대 엔지니어링의 초점이 고수준 아키텍처 설계와 AI 에이전트의 성공 지표 정의로 이동합니다.",
+        "points": [
+          "'만들 수 있는가'보다 '무엇을·왜 만드는가'가 더 중요해집니다."
+        ],
+        "why": [
+          "앞의 '코드가 싸지면' 글과 같은 맥락 — AI가 실행을 가속하니 판단·설계의 비중이 커집니다."
+        ]
+      }
+    },
+    {
+      "id": "flowsint",
+      "title": "Flowsint (GitHub) — OSINT 그래프 도구",
+      "summary": "도메인·IP·소셜 프로필 관계를 시각화하는 오픈소스 정찰 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/reconurge/flowsint",
+      "report": {
+        "tldr": "공개 정보(OSINT) 조사를 위해 엔티티 관계를 그래프로 시각화하는 오픈소스 도구입니다.",
+        "what": "Flowsint는 OSINT 조사와 시각적 데이터 탐색을 위한 그래프 기반 정찰 도구로, 도메인·IP·소셜 미디어 프로필 같은 다양한 엔티티 간 관계를 매핑합니다.",
+        "points": [
+          "흩어진 단서를 관계망으로 묶어 보여줍니다."
+        ],
+        "why": [
+          "보안 조사·위협 인텔리전스·디지털 포렌식에서 단서 연결에 유용합니다."
+        ]
+      }
+    },
+    {
+      "id": "sandcastle",
+      "title": "Sandcastle (GitHub) — AI 에이전트 샌드박스",
+      "summary": "Docker·Podman·Vercel 등 격리 환경에서 코딩 에이전트 오케스트레이션.",
+      "source": "GitHub (Matt Pocock)",
+      "url": "https://github.com/mattpocock/sandcastle",
+      "report": {
+        "tldr": "AI 코딩 에이전트를 격리된 안전한 환경에서 돌리도록 돕는 TypeScript 라이브러리입니다.",
+        "what": "Sandcastle은 Docker·Podman·Vercel 같은 격리 샌드박스 환경에서 AI 코딩 에이전트를 오케스트레이션·실행하도록 설계된 프로바이더 비종속 TS 라이브러리입니다.",
+        "points": [
+          "에이전트가 실제 호스트가 아닌 샌드박스에서 코드를 실행하게 합니다."
+        ],
+        "why": [
+          "에이전트가 코드를 직접 실행하는 시대에 '안전한 실행 환경'은 필수 인프라입니다(Prempti·Pipelock과 같은 흐름)."
+        ]
+      }
+    },
+    {
+      "id": "frost-ssd-tracking",
+      "title": "SSD 활동으로 방문자 추적하는 'FROST'",
+      "summary": "JS로 SSD 접근 타이밍을 신경망 분석 → 열린 앱·탭 추정.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/05/websites-have-a-new-way-to-spy-on-visitors-analyzing-their-ssd-activity/",
+      "report": {
+        "tldr": "웹사이트가 방문자의 SSD 동작 타이밍을 분석해 무엇을 쓰고 있는지 엿보는 새 추적 기법입니다.",
+        "what": "FROST 추적 기법은 JavaScript로 SSD 상호작용의 타이밍을 분석해, 호스트 시스템에 대한 정보를 드러내는 사이드 채널을 만듭니다. 타이밍 패턴을 신경망으로 처리하면 악성 사이트가 사용자의 열린 애플리케이션·브라우저 탭을 식별할 수 있습니다.",
+        "points": [
+          "다만 큰 저장 파일에 의존하는 공격이라 탐지 가능성이 있습니다."
+        ],
+        "why": [
+          "쿠키 없이도 하드웨어 동작만으로 프라이버시를 침해할 수 있는 사이드채널 위협을 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "game-engine-d",
+      "title": "도구와 싸우지 않고 D로 게임엔진을 만들었다",
+      "summary": "D 언어 게임엔진 'Parin' — GC 우회로 깊은 메모리 제어.",
+      "source": "D Blog",
+      "url": "https://blog.dlang.org/2026/05/29/i-stopped-fighting-my-tools-and-built-a-game-engine-in-d/",
+      "report": {
+        "tldr": "한 개발자가 더 코드 중심적인 환경을 원해 D 언어로 자체 게임 엔진을 만든 이야기입니다.",
+        "what": "D 언어로 만든 커스텀 게임 엔진 'Parin'은 더 코드 주도적이고 덜 강압적인 워크플로를 위해 제작됐습니다. 아레나 할당자·정적 데이터 구조 같은 기능으로 가비지 컬렉터를 우회해 핵심 성능을 확보하며, 깊은 메모리 제어, 서브초 컴파일, 모든 개발에 단일 언어 사용을 가능케 합니다.",
+        "points": [
+          "주류가 아닌 언어로 '내 방식대로' 만든 사례입니다."
+        ],
+        "why": [
+          "도구가 개발자를 제약할 때 직접 만드는 선택지를 보여주는 흥미로운 엔지니어링 사례입니다."
+        ]
+      }
+    },
+    {
+      "id": "scenarios-not-happen",
+      "title": "일어나지 않을 시나리오에 대하여",
+      "summary": "데이터 모델의 극단 케이스 무시가 나중에 큰 성능 문제로.",
+      "source": "radekmie",
+      "url": "https://radekmie.dev/blog/on-scenarios-that-will-not-happen/",
+      "report": {
+        "tldr": "'설마 그런 일이'라며 무시한 극단 케이스가 나중에 큰 성능 문제로 돌아온다는 교훈입니다.",
+        "what": "데이터 모델에서 극단적 엣지 케이스를 고려하지 않으면, 초기 계획 때 '일어날 리 없다'고 치부했더라도 나중에 큰 성능 문제로 이어질 수 있습니다.",
+        "points": [
+          "초기 설계의 가정이 시스템 성장 후 발목을 잡는 사례입니다."
+        ],
+        "why": [
+          "데이터 모델·시스템 설계 시 엣지 케이스를 진지하게 다뤄야 함을 일깨웁니다."
+        ]
+      }
+    },
+    {
+      "id": "interested-in-company",
+      "title": "왜 내가 당신 회사에 관심 있나 (채용)",
+      "summary": "임의 질문·자동 필터로는 인재 못 거름 → 직접적 인간 연결로.",
+      "source": "jjmojojjmojo",
+      "url": "https://jjmojojjmojo.github.io/why-am-i-interested-in-your-company.html",
+      "report": {
+        "tldr": "표준화된 채용 절차가 좋은 인재를 놓치며, 직접적인 인간 연결이 더 낫다는 주장입니다.",
+        "what": "표준 채용 지원은 종종 임의적인 질문과 자동 필터에 의존해 최고 인재를 효과적으로 식별하지 못합니다. 더 나은 채용은 직접적인 인간 연결로 나아가야 합니다.",
+        "points": [
+          "기계적 스크리닝의 한계를 지적합니다."
+        ],
+        "why": [
+          "채용 담당자·구직자 모두에게 채용 절차의 본질을 돌아보게 합니다."
+        ]
+      }
+    },
+    {
+      "id": "ai-meteor",
+      "title": "AI는 운석이다, 공룡이 되지 마라",
+      "summary": "변화하는 경제 환경에서 최우선 과제는 AI에 익숙해지는 것.",
+      "source": "Windows on Theory",
+      "url": "https://windowsontheory.org/2026/05/30/ai-is-a-meteor-dont-be-a-dinosaur/",
+      "report": {
+        "tldr": "AI를 거대한 환경 변화(운석)에 비유하며, 적응하지 못하면 도태된다는 글입니다.",
+        "what": "오늘날 변화하는 경제 환경에서 성공하려면 최우선 과제로 AI에 익숙해져야 한다는 주장입니다.",
+        "points": [
+          "AI 적응을 '선택'이 아니라 '생존' 문제로 봅니다."
+        ],
+        "why": [
+          "개인·조직의 AI 역량 확보가 시급함을 강조하는 관점입니다."
+        ]
+      }
+    },
+    {
+      "id": "jujutsu-review",
+      "title": "Jujutsu(jj)로 큰 변경 리뷰하기",
+      "summary": "커밋 복제 후 리뷰한 파일을 점진적으로 스쿼시하는 워크플로.",
+      "source": "ben.gesoff.uk",
+      "url": "https://ben.gesoff.uk/posts/reviewing-large-changes-with-jj/",
+      "report": {
+        "tldr": "차세대 버전관리 도구 Jujutsu로 거대한 변경을 효율적으로 로컬 리뷰하는 방법입니다.",
+        "what": "Jujutsu(jj)를 쓰면 커밋을 복제하고 리뷰한 파일을 전용 추적 커밋으로 점진적으로 스쿼시하는 방식으로, 큰 변경을 효율적으로 로컬에서 코드 리뷰할 수 있습니다.",
+        "points": [
+          "Git 위에서 동작하는 jj의 실용적 활용 사례입니다."
+        ],
+        "why": [
+          "대규모 PR 리뷰의 피로를 줄이려는 개발자에게 실전 팁을 줍니다."
+        ]
+      }
+    }
+  ]
+}

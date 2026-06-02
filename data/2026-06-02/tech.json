@@ -1,0 +1,201 @@
+{
+  "name": "빅테크 / 하드웨어 / 과학",
+  "source": "TLDR (Tech)",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "nvidia-ai-pcs",
+      "title": "NVIDIA, AI 에이전트용 PC 첫 공개",
+      "summary": "새 AI 칩 탑재, 40개 모델(노트북 30·데스크톱 10), 프리미엄 타깃.",
+      "source": "TLDR (Tech)",
+      "url": "https://links.tldrnewsletter.com/PUHfnI",
+      "report": {
+        "tldr": "엔비디아가 'AI 에이전트를 돌리기 위한' 새 세대 PC 프로토타입을 공개했습니다.",
+        "what": "엔비디아의 시그니처 AI 칩을 새로 설계한 버전을 탑재한 PC들로, Dell·Lenovo·Microsoft·HP·Asus·MSI에서 노트북 약 30종·데스크톱 약 10종이 나옵니다. 프리미엄 시장을 겨냥합니다.",
+        "points": [
+          "IT 에디션의 'RTX Spark(구 N1X)'와 같은 제품군으로, 소비자 PC 관점의 발표입니다.",
+          "AI를 클라우드가 아니라 '로컬 기기'에서 돌리는 온디바이스 흐름을 반영합니다."
+        ],
+        "why": [
+          "PC가 'AI 에이전트를 상시 구동하는 단말'로 재정의되며, PC 시장의 새 업그레이드 사이클을 노립니다."
+        ]
+      }
+    },
+    {
+      "id": "intel-crescent-island",
+      "title": "Intel Crescent Island GPU",
+      "summary": "저렴한 메모리·냉각으로 엔비디아·AMD보다 싸고 시원한 추론칩 표방.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/intel-our-upcoming-ai-chip-will-be-cheaper-run-cooler-than-nvidia-amd-options/",
+      "report": {
+        "tldr": "Intel이 엔비디아·AMD보다 싸고 발열이 적은 AI 추론 가속칩을 예고했습니다.",
+        "what": "Intel의 신제품 Crescent Island GPU는 더 저렴한 메모리·냉각 기술로 추론(inference) 작업 속도를 높입니다.",
+        "points": [
+          "학습이 아닌 '추론' 시장을 겨냥해 가성비·전력효율로 차별화하려 합니다."
+        ],
+        "why": [
+          "AI 칩 시장이 엔비디아 일변도에서 '추론 특화·저비용' 대안으로 다변화될 수 있음을 보여줍니다.",
+          "데이터센터 운영비에서 전력·냉각이 큰 비중이라 발열 우위는 실질적 장점입니다."
+        ]
+      }
+    },
+    {
+      "id": "byd-solid-state",
+      "title": "BYD, 2027년 전고체 배터리 EV",
+      "summary": "주행거리 1,000km+. 고급 서브브랜드부터 적용.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/06/01/byd-all-solid-state-batteries-evs-by-2027/",
+      "report": {
+        "tldr": "BYD가 2027년 전고체 배터리를 탑재한 전기차를 내놓겠다고 밝혔고, 경쟁사도 가세 중입니다.",
+        "what": "여러 EV 제조사가 수개월 내 전고체 배터리 차량 배치를 계획 중입니다. 이 기술은 1회 충전 1,000km 이상 주행을 가능케 하며, BYD는 고급 서브브랜드부터 적용 후 대중차로 확대할 전망입니다.",
+        "points": [
+          "SAIC·창안 등도 차세대 배터리 경쟁에 뛰어들고 있습니다."
+        ],
+        "why": [
+          "전고체 배터리는 주행거리·안전성·충전속도를 크게 개선하는 'EV 게임체인저'로 꼽힙니다.",
+          "중국 업체들이 이 분야 상용화를 주도하는 점이 주목됩니다."
+        ]
+      }
+    },
+    {
+      "id": "moderna-ebola",
+      "title": "Moderna, mRNA 에볼라 백신에 5천만 달러",
+      "summary": "CEPI 지원, 분디부교 변종 대상. 콩고민주공화국 확산 중.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/health/2026/06/moderna-gets-50-million-to-develop-mrna-ebola-vaccine-against-bundibugyo/",
+      "report": {
+        "tldr": "Moderna가 기존 백신이 못 막는 에볼라 변종(분디부교)용 mRNA 백신 개발 자금을 받습니다.",
+        "what": "전염병대비혁신연합(CEPI)이 분디부교 에볼라바이러스(BDBV) 백신 후보 3종 개발 가속을 위해 6천만 달러 이상을 약정했습니다. 현재 허가된 에볼라 백신 2종은 모두 다른 변종을 겨냥합니다.",
+        "points": [
+          "의료 대응 부재로 콩고민주공화국에서 통제 불능으로 확산 중입니다.",
+          "확산 지역은 무력 분쟁·대규모 인구 이동·인도적 지원 필요가 겹쳐 있습니다."
+        ],
+        "why": [
+          "mRNA 기술의 신속 개발 강점을 신종·변종 감염병 대응에 적용하는 사례입니다."
+        ]
+      }
+    },
+    {
+      "id": "s3-multi-tenancy",
+      "title": "멀티테넌시의 수학 (S3)",
+      "summary": "버킷 마이그레이션이 503 에러 폭주 유발. 통계 모델로 원인 설명.",
+      "source": "bitsxpages",
+      "url": "https://www.bitsxpages.com/p/the-mathematics-of-multi-tenancy",
+      "report": {
+        "tldr": "한 고객의 S3 버킷 이전이 왜 대량 503 에러를 일으켰는지, S3가 왜 파티션을 직접 못 정하게 하는지 수학으로 풉니다.",
+        "what": "어떤 S3 고객의 버킷 마이그레이션이 503(Slow Down) 에러 폭주를 유발했습니다. S3는 사용자가 파티션을 명시적으로 지정하지 못하게 하는데, 그러면 예측 불가한 사용 패턴이 생기기 때문입니다. 글은 멀티테넌시가 S3에서 작동하는 이유를 통계 모델로 설명합니다.",
+        "points": [
+          "수많은 고객의 부하를 한 시스템이 공유하는 멀티테넌시의 트레이드오프를 다룹니다."
+        ],
+        "why": [
+          "대규모 클라우드 시스템 설계자가 알아야 할 '공유 자원 배분'의 원리를 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "ipo-race-matters",
+      "title": "OpenAI vs Anthropic, IPO 선점이 왜 중요한가",
+      "summary": "IPO는 클러스터로 발생, 늦으면 성과 저조 → 먼저 가는 쪽이 자본 흡수.",
+      "source": "TLDR (Tech)",
+      "url": "https://links.tldrnewsletter.com/eDdg5c",
+      "report": {
+        "tldr": "AI 대표 기업 중 '누가 먼저 상장하느냐'가 실제 성과를 가른다는 분석입니다.",
+        "what": "연구에 따르면 IPO는 산업별 클러스터로 몰려서 나오며, 사이클 후반에 상장한 기업은 상대적으로 성과가 좋지 않은 경향이 있습니다. 뜨거운 시장이라도 돌아다니는 자본은 한정적이기 때문입니다.",
+        "points": [
+          "먼저 상장하는 기업이 점점 희소해지는 자본을 더 많이 흡수합니다."
+        ],
+        "why": [
+          "오늘자 'Anthropic IPO' 빅스토리의 의미를 보강하는 분석으로, OpenAI와의 상장 타이밍 경쟁이 핵심임을 설명합니다."
+        ]
+      }
+    },
+    {
+      "id": "blue-origin-launchpad",
+      "title": "Blue Origin 발사대, 2028년까지 복구 지연 우려",
+      "summary": "로켓 폭발 손상. NASA·Amazon·AST SpaceMobile 고객 영향.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/01/blue-origin-launchpad-may-not-be-restored-until-2028-nasas-isaacman.html",
+      "report": {
+        "tldr": "Blue Origin의 로켓 폭발로 손상된 발사대가 2028년까지 복구되지 못할 수 있습니다.",
+        "what": "로켓 폭발로 발사대가 손상됐고, NASA의 Isaacman에 따르면 복구가 2028년까지 지연될 수 있습니다.",
+        "points": [
+          "이 차질은 NASA·Amazon·AST SpaceMobile 등 고객에 영향을 줍니다."
+        ],
+        "why": [
+          "발사 인프라 병목은 위성 배치·우주 사업 일정 전반을 늦춥니다.",
+          "SpaceX 대비 Blue Origin의 경쟁 일정에 부담으로 작용합니다."
+        ]
+      }
+    },
+    {
+      "id": "spacex-ipo-stock",
+      "title": "SpaceX, IPO 물량 최대 5% 임직원·지인 배정",
+      "summary": "friends & family 리스트는 락업 제한 면제.",
+      "source": "TLDR (Tech)",
+      "url": "https://links.tldrnewsletter.com/dp6WEB",
+      "report": {
+        "tldr": "SpaceX가 IPO 주식의 최대 5%를 임직원·지인에게 배정하며, 이들은 보호예수(락업) 제한을 받지 않습니다.",
+        "what": "SpaceX의 friends & family 배정 물량은 상장 후 일정 기간 매도를 막는 락업 제한에서 면제됩니다.",
+        "points": [
+          "통상 IPO에서 내부자 물량은 락업이 걸리는데, 이 면제는 이례적입니다."
+        ],
+        "why": [
+          "사상 최대 규모로 예상되는 SpaceX IPO의 세부 조건으로, 상장 직후 유통 물량·주가에 영향을 줄 수 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "ms-google-ai-coding",
+      "title": "MS·Google, AI 코딩 늦었지만 '필수' 경쟁",
+      "summary": "AI 코드 도구 시장 2031년 약 300억 달러 전망.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/01/microsoft-and-google-take-on-anthropic-and-openai-in-ai-coding-models.html",
+      "report": {
+        "tldr": "Microsoft·Google이 AI 코딩 모델 경쟁에 늦었지만 반드시 뛰어들어야 한다는 분석입니다.",
+        "what": "AI 코드 도구 시장이 2031년 약 300억 달러로 커질 전망이라, 성장 동력 확보를 위해 두 회사의 참전이 '절대적으로 중요'하다는 내용입니다.",
+        "points": [
+          "현재 코딩 AI는 Anthropic·OpenAI가 주도하고 있습니다."
+        ],
+        "why": [
+          "코딩은 AI가 가장 빠르게 실질 매출을 내는 분야라, 빅테크 전원이 사활을 겁니다."
+        ]
+      }
+    },
+    {
+      "id": "remote-work-grads",
+      "title": "원격근무(AI 아님)가 신입 졸업생 밀어냈다",
+      "summary": "기업이 원격 가능 직무에 신입 채용을 꺼린다는 연구.",
+      "source": "NPR",
+      "url": "https://text.npr.org/nx-s1-5843076",
+      "report": {
+        "tldr": "최근 대졸 신입의 취업난 원인이 'AI'가 아니라 '원격근무'라는 연구 결과입니다.",
+        "what": "기업이 원격으로 수행 가능한 직무에는 갓 졸업한 신입을 채용할 가능성이 낮다는 연구입니다.",
+        "points": [
+          "원격 직무는 대면 멘토링·온보딩이 어려워 경력자를 선호하게 됩니다."
+        ],
+        "why": [
+          "'신입난=AI 탓'이라는 통념을 반박하며, 근무 형태 변화가 고용 구조에 미치는 영향을 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "lean-not-backpressure",
+      "title": "Lean, not backpressure",
+      "summary": "린 제조는 낭비 감소와 불안정한 인력 입력 관리에 초점.",
+      "source": "Entropic Thoughts",
+      "url": "https://entropicthoughts.com/lean-not-backpressure",
+      "report": {
+        "tldr": "린(lean) 제조의 본질은 '백프레셔(병목 제어)'가 아니라 낭비 감소와 불안정한 인적 입력 관리라는 글입니다.",
+        "what": "소프트웨어에서 흔히 쓰는 '백프레셔' 개념과 린 제조를 구분하며, 린은 낭비를 줄이고 사람이라는 불안정한 입력을 관리하는 데 초점이 있다고 설명합니다.",
+        "points": [
+          "제조 개념을 소프트웨어/시스템 사고에 잘못 대입하는 오해를 바로잡습니다."
+        ],
+        "why": [
+          "엔지니어링 조직의 흐름·생산성을 사고할 때 개념을 정확히 쓰도록 돕습니다."
+        ]
+      }
+    }
+  ]
+}

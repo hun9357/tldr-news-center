@@ -1,0 +1,265 @@
+{
+  "name": "디자인 / 제품",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "ms365-copilot-redesign",
+      "title": "MS 365 Copilot 새 디자인",
+      "summary": "로딩 50%↑ 빨라짐, 'Work IQ' 레이어. 사용량 대폭 증가.",
+      "source": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
+      "report": {
+        "tldr": "Microsoft 365 Copilot이 더 빠르고 앱 간 연결이 강화된 디자인으로 개편됐습니다.",
+        "what": "업무 흐름에 맞춰 더 깔끔하고 빠르게, 앱 전반에 더 잘 연결되도록 재설계됐습니다. 새 앱은 50% 이상 빠르게 로드되고, 작업 인식 프롬프트 작업공간과 이메일·파일·채팅·회의를 끌어오는 'Work IQ' 레이어를 갖췄습니다.",
+        "points": [
+          "새 인앱 경험 도입 후 사용량이 Word +27%, Excel +33%, PowerPoint +43%, Outlook +30% 증가했습니다."
+        ],
+        "why": [
+          "'AI 비서'가 별도 앱이 아니라 기존 오피스 작업 흐름에 녹아드는 방향이 강화되고 있습니다.",
+          "사용량 증가는 UX 개선이 실제 채택을 끌어올린다는 신호입니다."
+        ]
+      }
+    },
+    {
+      "id": "autodesk-maintainx",
+      "title": "Autodesk, MaintainX 36억 달러 인수",
+      "summary": "설계→운영(operate) 확장. 50만 현장 작업자 + AI용 데이터.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/autodesk-maintainx-36bn-acquisition",
+      "report": {
+        "tldr": "설계 SW 강자 Autodesk가 유지보수·운영 플랫폼 MaintainX를 36억 달러에 인수합니다.",
+        "what": "전액 현금 인수입니다. 2018년 설립된 MaintainX는 직전 25억 달러 평가를 받았고, 50만 명 이상의 현장 작업자에게 모바일 우선 유지보수 SW를 제공합니다. 이번 인수로 Autodesk의 '설계→운영' 전략에서 빠졌던 '운영(operate)' 단계를 채우고, AI에 쓸 유지보수 데이터도 확보합니다.",
+        "points": [
+          "설계(Design)에서 끝나던 가치사슬을 '현장 운영'까지 연장합니다."
+        ],
+        "why": [
+          "SW 기업이 '데이터 확보'를 위해 인접 운영 영역을 사들이는 전형적 AI 시대 M&A입니다."
+        ]
+      }
+    },
+    {
+      "id": "iphone-18-pro-colors",
+      "title": "iPhone 18 Pro 더미 — 4색 유출",
+      "summary": "다크체리·블랙·실버·라이트블루. 코스믹오렌지 제외 추정.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/05/29/iphone-18-pro-dummy-units-reveal-four-color-options-gallery/",
+      "report": {
+        "tldr": "iPhone 18 Pro의 색상으로 추정되는 4종이 더미 유닛을 통해 유출됐습니다.",
+        "what": "유출된 iPhone 18 Pro 더미 유닛은 다크체리(깊은 와인레드)·블랙·실버·라이트블루 4색을 시사합니다. 인기였던 iPhone 17 Pro의 코스믹오렌지는 빠진 것으로 보입니다.",
+        "points": [
+          "더미는 액세서리 제조사용이라 실제 출시 색과 정확히 일치하지 않을 수 있습니다."
+        ],
+        "why": [
+          "색상은 디자인·마케팅 관점에서 제품 인상을 좌우하는 요소라 매년 주목받습니다."
+        ]
+      }
+    },
+    {
+      "id": "design-like-1999",
+      "title": "AI 디자인은 '1999년처럼' 하라",
+      "summary": "초기 웹과 유사. 생성AI 파일럿 95%가 측정가능 성과 없음.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/NyN1cJ",
+      "report": {
+        "tldr": "AI 디자인의 혼란스러운 현재가 표준이 정해지기 전의 '1999년 초기 웹'과 닮았다는 통찰입니다.",
+        "what": "AI 디자인은 표준이 유동적이고, 아직 킬러앱이 없으며, 비즈니스 모델도 입증되지 않은 상태로 초기 웹을 닮았습니다. 채팅이 현재 기본 인터페이스지만, 생성AI 파일럿의 95%가 여전히 측정 가능한 사업 성과를 못 내고 있어 채팅은 임시방편일 가능성이 큽니다.",
+        "points": [
+          "이 시기를 '새로운 관습을 발명할 기회'로 보는 디자이너가 성공할 것이라고 봅니다."
+        ],
+        "why": [
+          "AI 제품 디자인의 정답이 아직 없다는 것은, 곧 지금이 표준을 만들 기회임을 뜻합니다."
+        ]
+      }
+    },
+    {
+      "id": "agile-imperfect-work",
+      "title": "애자일에서 디자이너가 가장 두려워하는 것: 불완전한 작업",
+      "summary": "팀이 반복 없이 넘어가는 게 문제. MVP의 'viable'이 'minimum'에 밀림.",
+      "source": "UX Magazine",
+      "url": "https://uxmag.com/articles/the-part-of-agile-designers-fear-the-most-imperfect-work",
+      "report": {
+        "tldr": "애자일의 '불완전한 작업 출시' 공포는 진짜 문제가 아니며, 반복(iteration) 부재가 진짜 문제라는 글입니다.",
+        "what": "애자일의 지속적 개선 약속이 디자이너의 가장 깊은 두려움(불완전한 작업 출시)을 자극합니다. 팀이 출시한 기능을 반복 개선하지 않고 그냥 넘어가기 때문입니다. MVP의 'viable(쓸만한)'이 'minimum(최소)'에 밀리면, 형편없는 릴리스는 신뢰할 수 없는 피드백을 낳습니다(사용자가 아이디어가 아니라 경험을 거부).",
+        "points": [
+          "진짜 반복(출시·관찰·구조적 개선의 사이클)이 있어야 초기 릴리스가 가치 있습니다."
+        ],
+        "why": [
+          "'빠르게 내고 고친다'는 애자일이 실제로 작동하려면 '고치는 단계'를 보장해야 함을 짚습니다."
+        ]
+      }
+    },
+    {
+      "id": "designers-master-ai",
+      "title": "디자이너가 AI를 마스터하는 법 설계 (Salesforce UX)",
+      "summary": "고정 워크플로보다 개인별 작업방식 개발이 핵심.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/Fh15rK",
+      "report": {
+        "tldr": "AI 도구 숙달은 정해진 워크플로 학습이 아니라 '자기만의 방식'을 만드는 것이라는 Salesforce UX 팀의 경험담입니다.",
+        "what": "Salesforce UX 팀은 AI 도구 마스터가 고정 워크플로 학습보다 개인의 강점·경험·사고방식을 증폭하는 자기만의 작업 방식 개발에 가깝다는 것을 발견했습니다. 6개월의 동료 주도 학습 세션에서, 가장 값진 지식은 공식 교육이 아니라 동료가 공유한 실제 실험·실패·워크플로에서 나왔습니다.",
+        "points": [
+          "'누군가의 사고 과정을 들여다보는 창'이 학습을 돕습니다."
+        ],
+        "why": [
+          "조직이 AI 역량을 키울 때 '교육 과정'보다 '동료 간 실전 공유'가 효과적임을 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "pitch-tool",
+      "title": "Pitch — AI 프레젠테이션 워크스페이스 (툴)",
+      "summary": "브랜드 유지하며 슬라이드덱을 협업·제작·배포.",
+      "source": "Pitch",
+      "url": "https://pitch.com/",
+      "report": {
+        "tldr": "팀이 브랜드를 유지하며 슬라이드덱을 함께 만들고 배포하는 AI 프레젠테이션 도구입니다.",
+        "what": "Pitch는 전문가들이 협업해 발표 자료를 만들고 전달하는 AI 워크스페이스로, 작업 내내 브랜드 일관성을 유지합니다.",
+        "points": [
+          "개인 슬라이드 작성보다 '팀 협업·브랜드 통일'에 초점이 있습니다."
+        ],
+        "why": [
+          "발표 자료 제작이 AI로 빨라지는 흐름의 대표 도구입니다."
+        ]
+      }
+    },
+    {
+      "id": "emoji-autocomplete",
+      "title": "Emoji Autocomplete (툴)",
+      "summary": "콜론 입력 후 어디서나 이모지·기호·숏코드 검색.",
+      "source": "mojito",
+      "url": "https://mojito.wells.ee/",
+      "report": {
+        "tldr": "어떤 앱에서든 콜론(:)을 입력해 이모지·기호를 빠르게 찾는 맥용 유틸입니다.",
+        "what": "콜론을 입력하면 TextEdit·iMessage·터미널 등 어디서나 이모지·기호·숏코드를 즉시 검색할 수 있습니다.",
+        "points": [
+          "특정 앱에 한정되지 않고 시스템 전역에서 동작합니다."
+        ],
+        "why": [
+          "작은 생산성 도구지만 글쓰기·메시징 흐름을 끊지 않게 해줍니다."
+        ]
+      }
+    },
+    {
+      "id": "rezonant-tool",
+      "title": "Rezonant — 제품 비전을 엔지니어링 작업으로 (툴)",
+      "summary": "흐트러진 영감을 형태 갖춘 실행가능 작업으로 전환.",
+      "source": "Rezonant",
+      "url": "https://www.rezonant.app/",
+      "report": {
+        "tldr": "막연한 아이디어를 곧바로 개발 가능한 작업으로 다듬어주는 도구입니다.",
+        "what": "Rezonant는 흐트러진 영감을 형태를 갖춘, 출시 가능한 작업으로 빠르게 전환합니다.",
+        "points": [
+          "기획↔개발 사이의 '구체화' 단계를 단축합니다."
+        ],
+        "why": [
+          "제품 비전을 엔지니어링이 바로 착수할 형태로 옮기는 마찰을 줄여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "figma-idea-to-product",
+      "title": "AI 툴로 아이디어→제품, 4가지 새 방식 (Figma)",
+      "summary": "코드 우선·캔버스 탐색·스펙 전 프로토타입·디자인시스템 유지.",
+      "source": "Figma",
+      "url": "https://www.figma.com/blog/4-new-ways-to-go-from-idea-to-product-with-ai-tools/",
+      "report": {
+        "tldr": "AI 도구로 아이디어를 제품으로 옮기는 4가지 워크플로를 실제 팀 사례로 보여줍니다.",
+        "what": "FloQast·Merkle·Affirm·Accor의 제품팀이 AI로 아이디어→프로덕션을 진행하는 4가지 방식입니다. ①디자인 전에 코드로 테스트, ②캔버스에서 레이아웃 변형을 대량 탐색, ③스펙 작성 전에 프로토타입, ④디자인 시스템 맥락을 유지한 채 출시.",
+        "points": [
+          "고정된 순서가 아니라, 답하려는 질문에 따라 시작점을 고르고 도구를 유연하게 오갑니다."
+        ],
+        "why": [
+          "'디자인→개발'의 선형 절차가 AI로 유연해지고 있음을 실제 사례로 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "ey-studio-alemagna",
+      "title": "Ey Studio, 이탈리아 파네토네 'Alemagna' 리브랜드",
+      "summary": "전후 모더니즘 영감. 럭셔리·실험 트렌드 배제, 진정성 추구.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/ey-studio-alemagna-branding-project-010625",
+      "report": {
+        "tldr": "이탈리아 디자인 스튜디오가 상징적 제과 브랜드를 '트렌드 배제·진정성' 방향으로 리브랜딩했습니다.",
+        "what": "Ey Studio가 상징적 과자 브랜드 Alemagna를 이탈리아 전후 모더니즘 디자인에서 영감받아 리브랜딩했습니다. 수공 기하 타이포그래피, 아카이브 이미지, 업데이트된 패키지로 헤리티지를 기리면서 현대적으로 만들었습니다.",
+        "points": [
+          "럭셔리·실험적 트렌드를 의도적으로 피하고, 일상 이탈리아 문화와의 오랜 연결을 반영한 진정성·접근성을 추구했습니다."
+        ],
+        "why": [
+          "'트렌드 추종'이 아닌 '브랜드 본질'에 충실한 리브랜딩의 좋은 사례입니다."
+        ]
+      }
+    },
+    {
+      "id": "apple-sports-dataviz",
+      "title": "Apple Sports 앱, 데이터 시각화 모범사례",
+      "summary": "170개국 확대. 복잡한 실시간 정보를 명확한 위계로.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/inspiration/this-new-app-from-apple-has-something-important-to-teach-us-about-designing-data/",
+      "report": {
+        "tldr": "Apple Sports 앱이 복잡한 스포츠 데이터를 한눈에 보이게 만든 정보 디자인의 모범 사례입니다.",
+        "what": "Apple이 2026 FIFA 월드컵을 앞두고 Apple Sports 앱을 170개국 이상으로 확대하며, 대진표 뷰·시각적 팀 포메이션·라이브 액티비티·위젯을 도입했습니다. 명확한 위계, 시각적 단서, 단순함으로 대량의 실시간 데이터를 부담 없이 보여줍니다.",
+        "points": [
+          "효과적 정보 디자인의 교과서적 예시로 꼽힙니다."
+        ],
+        "why": [
+          "이 '데일리 다이제스트'처럼 정보를 한눈에 보여주려는 디자인에 직접 참고가 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "theater-architecture",
+      "title": "건축이 비켜선 극장",
+      "summary": "뉴욕 개리슨의 Scripps Theater Center — 첫 영구 보금자리.",
+      "source": "Yanko Design",
+      "url": "https://www.yankodesign.com/2026/05/27/this-is-what-a-theater-looks-like-when-architecture-gets-out-of-the-way/",
+      "report": {
+        "tldr": "건축이 주인공이 아니라 공연을 위해 '비켜선' 극장 사례입니다.",
+        "what": "뉴욕 개리슨의 Samuel H. Scripps Theater Center는 Hudson Valley Shakespeare의 첫 영구 보금자리로, 수십 년간의 계절용 텐트를 대체합니다.",
+        "points": [
+          "건축이 공연 경험을 압도하지 않도록 설계된 점이 특징입니다."
+        ],
+        "why": [
+          "'기능을 위해 절제하는 디자인' 철학을 보여주는 건축 사례입니다."
+        ]
+      }
+    },
+    {
+      "id": "ai-ui-problems",
+      "title": "AI는 진짜 UI 문제를 찾나, 환각인가?",
+      "summary": "두 LLM이 인간 발견 문제의 절반 일치, 못 본 11개도 발견.",
+      "source": "MeasuringU",
+      "url": "https://measuringu.com/does-ai-find-real-ui-problems-or-just-hallucinations/",
+      "report": {
+        "tldr": "AI가 사용성(UI) 문제를 실제로 찾는지 실험한 결과, 절반은 인간과 일치하고 일부는 새로 발견했습니다.",
+        "what": "두 LLM이 인간 연구자가 찾은 사용성 문제의 약 절반을 동일하게 짚었고, 인간이 발견하지 못한 11개 문제도 추가로 플래그했습니다.",
+        "points": [
+          "AI가 인간 평가를 '대체'까지는 아니어도 '보완'할 수 있음을 시사합니다."
+        ],
+        "why": [
+          "UX 리서치에 AI를 보조 도구로 쓰는 실용적 가능성을 데이터로 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "fifa-posters-mucho",
+      "title": "Mucho의 FIFA 월드컵 포스터",
+      "summary": "48개국 문화·정체성에서 영감받은 디자인 포스터.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/poster-design/these-slick-fifa-world-cup-posters-are-a-work-of-art",
+      "report": {
+        "tldr": "디자인 에이전시 Mucho가 2026 월드컵 48개 참가국을 위한 포스터를 만들었습니다.",
+        "what": "Mucho가 2026 FIFA 월드컵에 참가하는 모든 국가의 문화·정체성에서 영감받아 48개의 장난기 있는 디자인 포스터를 제작, 축구와 그래픽 디자인의 교차점을 기립니다.",
+        "points": [
+          "국가별 정체성을 그래픽으로 표현한 시리즈입니다."
+        ],
+        "why": [
+          "스포츠 이벤트와 그래픽 디자인 결합의 영감 사례입니다."
+        ]
+      }
+    }
+  ]
+}

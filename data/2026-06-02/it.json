@@ -1,0 +1,214 @@
+{
+  "name": "IT / 인프라",
+  "source": "TLDR IT",
+  "icon": "🛠️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "workday-google-cloud",
+      "title": "Workday + Google Cloud, AI 에이전트 확대",
+      "summary": "Gemini로 재무·HR에 대화형 정책 질의·경비 처리 임베드.",
+      "source": "Fintech News",
+      "url": "https://fintechnews.ch/aifintech/workday-google-cloud-finance-ai-integration/83792/",
+      "report": {
+        "tldr": "Workday가 Google Cloud와 손잡고 재무·HR 앱에 AI 에이전트를 깊게 넣습니다.",
+        "what": "Workday가 Gemini Enterprise를 활용해 엔터프라이즈 재무 애플리케이션에 AI 에이전트를 임베드합니다. Sana Self-Service Agent를 포함해 대화형 정책 질의, 법인카드 자격 확인, 경비 요청 생성 등을 지원하며, Workday Data Cloud를 제로카피로 BigQuery에 연결합니다.",
+        "points": [
+          "'제로카피 데이터 공유'로 데이터를 복제하지 않고 분석에 활용합니다."
+        ],
+        "why": [
+          "백오피스(재무·HR) 업무가 'AI 에이전트가 대신 수행'하는 영역으로 이동하고 있음을 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "broadcom-samsung-wifi8",
+      "title": "Broadcom + Samsung, Wi-Fi 8 + 5G 고정무선",
+      "summary": "광케이블급 무선 브로드밴드. 속도보다 안정성·저지연 초점.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4179519/broadcom-samsung-team-for-wireless-soc.html",
+      "report": {
+        "tldr": "Broadcom과 Samsung이 Wi-Fi 8 + 5G를 결합한 '고정무선' 플랫폼을 만듭니다.",
+        "what": "Broadcom의 Wi-Fi 8 SoC와 Samsung의 5G 모뎀을 결합한 고정무선접속(FWA) 플랫폼으로, 통신사가 광케이블급 브로드밴드를 무선으로 제공하도록 돕습니다. Wi-Fi 8은 아직 초기지만 초점이 '속도'에서 '안정성·저지연·혼잡 환경 성능'으로 이동 중입니다.",
+        "points": [
+          "가정·지점·엣지 연결의 다음 물결을 보는 IT 팀에 참고가 됩니다."
+        ],
+        "why": [
+          "유선 인프라가 어려운 지역에 광케이블급 인터넷을 무선으로 보급하는 길이 넓어집니다."
+        ]
+      }
+    },
+    {
+      "id": "cio-ai-roi",
+      "title": "CIO들, AI 과열에서 ROI로 전환",
+      "summary": "실험에서 거버넌스·KPI로 이동. 측정가능 가치 압박.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4178006/state-of-the-cio-2026-cios-set-the-course-for-ai-roi.html",
+      "report": {
+        "tldr": "기업 IT 리더들이 'AI 실험' 단계를 끝내고 '실질 성과(ROI)' 입증 단계로 넘어가고 있습니다.",
+        "what": "AI 실험이 거버넌스, 운영위원회, 공식 승인 절차, 명확한 KPI로 대체되고 있습니다. IT 리더들이 측정 가능한 사업 가치를 보여줘야 한다는 압박을 받기 때문입니다.",
+        "points": [
+          "'일단 도입'에서 '효과 증명'으로 무게중심이 이동했습니다."
+        ],
+        "why": [
+          "AI 도입의 성숙기 진입을 보여주며, 향후 예산은 ROI가 검증된 사용처로 집중될 전망입니다."
+        ]
+      }
+    },
+    {
+      "id": "endpoint-sprawl",
+      "title": "엔드포인트 스프롤의 숨은 비용",
+      "summary": "가시성 부족·중복 도구·패치 공백으로 비용 증가.",
+      "source": "Anunta",
+      "url": "https://www.anunta.com/blog/the-hidden-cost-of-endpoint-sprawl-what-cios-are-systematically-underestimating/",
+      "report": {
+        "tldr": "관리되지 않는 기기 증가(엔드포인트 스프롤)가 조용히 IT 비용을 끌어올립니다.",
+        "what": "엔드포인트 스프롤은 가시성 부족, 중복 도구, 패치 공백, 지원 피로, 관리 안 되는 기기 생애주기를 통해 비용을 늘립니다. '그냥 기기 문제'처럼 보이지만 생산성·컴플라이언스·거버넌스 문제로 번집니다.",
+        "points": [
+          "기기 수가 늘수록 보이지 않는 운영비가 기하급수적으로 증가합니다."
+        ],
+        "why": [
+          "원격·하이브리드 근무로 기기가 분산된 환경에서 특히 중요한 비용 관리 이슈입니다."
+        ]
+      }
+    },
+    {
+      "id": "rmm-mdm-uem",
+      "title": "RMM vs MDM vs UEM, 2026년 차이는?",
+      "summary": "RMM=모니터링, MDM=정책, UEM=기기 전반 거버넌스. 경계 흐려짐.",
+      "source": "getprimo",
+      "url": "https://www.getprimo.com/blog-infos/rmm-vs-mdm-vs-uem-whats-the-difference-in-2026",
+      "report": {
+        "tldr": "기기 관리 도구 3종(RMM·MDM·UEM)의 차이와 융합 흐름을 정리한 글입니다.",
+        "what": "RMM은 모니터링·원격지원, MDM은 등록·정책 적용, UEM은 다양한 기기 유형에 걸친 더 넓은 엔드포인트 거버넌스를 담당합니다. 아이덴티티·SaaS 접근·컴플라이언스·기기 생애주기 관리가 수렴하며 경계가 흐려지고 있습니다.",
+        "points": [
+          "도구 선택보다 '무엇을 통합 관리할 것인가'가 더 중요해지고 있습니다."
+        ],
+        "why": [
+          "엔드포인트 도구를 새로 도입·통합하려는 IT 팀의 의사결정에 직접 도움이 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "rtx-spark",
+      "title": "NVIDIA RTX Spark — Arm 윈도우 SoC",
+      "summary": "구 'N1X'. 20코어·Blackwell GPU·128GB. 가을 출시.",
+      "source": "ServeTheHome",
+      "url": "https://www.servethehome.com/nvida-introduces-rtx-spark-an-arm-soc-for-windows-pcs/",
+      "report": {
+        "tldr": "엔비디아가 윈도우 PC용 Arm 기반 SoC 'RTX Spark'를 컴퓨텍스에서 공개했습니다.",
+        "what": "RTX Spark(소문 단계 명칭 N1X)는 마이크로소프트와 협력한 윈도우 PC용 Arm SoC입니다. 14~16인치 프리미엄 노트북과 소형 데스크톱을 겨냥하며, 최대 20 CPU 코어, 6144 CUDA 코어(약 1 PFLOP FP4)의 Blackwell 기반 GPU, 최대 128GB LPDDR5X를 지원합니다. 가을 출시 예정입니다.",
+        "points": [
+          "빅테크/하드웨어 에디션의 'AI PC' 발표와 같은 제품군의 IT·하드웨어 관점입니다.",
+          "x86이 지배하던 윈도우 PC에 Arm SoC가 본격 진입합니다."
+        ],
+        "why": [
+          "엔비디아+MS의 Arm 윈도우 PC는 애플 실리콘에 대응하는 윈도우 진영의 승부수입니다."
+        ]
+      }
+    },
+    {
+      "id": "merge-gatekeeper",
+      "title": "Merge, 직장 AI 에이전트용 IT 게이트키퍼",
+      "summary": "직원·그룹별 승인 AI 툴 매핑, 로깅·DLP 추가. 섀도우 IT 방지.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/01/merge-launches-agent-handler-employees-gatekeeper-workplace-ai-agents/",
+      "report": {
+        "tldr": "직원들이 쓰는 AI 에이전트를 IT가 통제할 수 있게 해주는 게이트키퍼가 나왔습니다.",
+        "what": "'Agent Handler for Employees'는 ID 제공자와 연동해 직원·그룹을 승인된 AI 도구·액션에 매핑하고, 로깅·데이터유출방지(DLP) 통제를 더하는 IT 제어 계층입니다. 직원이 업무 앱 전반에서 AI 에이전트를 쓰되 또 다른 섀도우 IT·접근 거버넌스 문제를 만들지 않게 합니다.",
+        "points": [
+          "'누가 어떤 AI로 무엇을 할 수 있는지'를 IT가 정책으로 관리합니다."
+        ],
+        "why": [
+          "직원들이 승인 없이 AI를 업무에 연결하는 '섀도우 AI'가 보안 리스크로 떠오른 데 대한 대응책입니다."
+        ]
+      }
+    },
+    {
+      "id": "sap-s4hana-migration",
+      "title": "SAP S/4HANA ERP 마이그레이션 교훈 (독일 제조)",
+      "summary": "성공은 기술보다 프로세스 준비·통합·추적성에 달림.",
+      "source": "Kai Waehner",
+      "url": "https://www.kai-waehner.de/blog/2026/06/01/erp-migration-to-sap-s-4hana-and-beyond-lessons-learned-from-german-manufacturing/",
+      "report": {
+        "tldr": "독일 제조 3개사 사례에서, ERP 현대화 성공은 기술이 아니라 준비·통합·추적성에 달려 있었습니다.",
+        "what": "세 독일 제조사의 ERP 현대화 사례가 보여주는 교훈입니다. 성공은 ERP 기술 자체보다 프로세스 준비도, 통합 아키텍처, 추적성에 더 좌우됩니다. 기업들은 마이그레이션 전에 프로세스를 최적화하고, ERP–MES–PLM–현장을 양방향으로 통합하며, ERP 현대화를 단순 이전이 아니라 전략적 재정렬로 다뤘습니다.",
+        "points": [
+          "'리프트 앤 시프트(그대로 옮기기)'는 실패 패턴입니다."
+        ],
+        "why": [
+          "대규모 ERP 전환을 앞둔 기업에 실패를 줄이는 실전 교훈을 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "containers-on-fire",
+      "title": "컨테이너가 불탄다 — 탈출부터 공급망 공격까지",
+      "summary": "런타임 익스플로잇·컨테이너 탈출·이미지 오염 등 다단계 공격.",
+      "source": "Securelist (Kaspersky)",
+      "url": "https://securelist.com/container-attack-vectors/120010/",
+      "report": {
+        "tldr": "컨테이너 환경을 노리는 주요 공격 경로를 정리한 글입니다.",
+        "what": "컨테이너 환경에 대한 핵심 공격 벡터는 런타임 익스플로잇, 컨테이너 탈출, 오케스트레이션 API 남용, 그리고 이미지 오염·CI/CD 침해 같은 공급망 공격입니다. 이들은 종종 결합돼 쿠버네티스 클러스터·시크릿 탈취를 노리는 다단계 공격이 됩니다.",
+        "points": [
+          "단일 취약점이 아니라 여러 단계가 연쇄되는 점이 특징입니다."
+        ],
+        "why": [
+          "컨테이너·쿠버네티스가 표준 인프라가 된 만큼, 이 공격면을 이해하는 것이 방어의 출발점입니다."
+        ]
+      }
+    },
+    {
+      "id": "cxmt-memory",
+      "title": "메모리 부족이 中 CXMT에 기회",
+      "summary": "DRAM 공급난 속 CXMT가 DDR5 공급사로 주목.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4179526/can-chinese-memory-maker-cxmt-help-relieve-the-memory-shortage.html",
+      "report": {
+        "tldr": "DRAM 공급난이 이어지며 중국 메모리 업체 CXMT가 대안으로 주목받고 있습니다.",
+        "what": "DRAM 공급이 빠듯한 가운데 중국의 CXMT가 DDR5 공급사로 부상하며, 삼성·SK하이닉스·마이크론이 지배하던 메모리 시장에 압력을 더할 수 있습니다.",
+        "points": [
+          "AI 수요 폭증으로 메모리 부족이 장기화되는 배경이 있습니다."
+        ],
+        "why": [
+          "중국 메모리 굴기가 가격·공급망·지정학 모두에 변수를 더합니다."
+        ]
+      }
+    },
+    {
+      "id": "kubecolor",
+      "title": "Kubecolor — kubectl 출력 색칠",
+      "summary": "내용 변경 없이 kubectl 출력에 색을 입히는 래퍼.",
+      "source": "GitHub",
+      "url": "https://github.com/kubecolor/kubecolor",
+      "report": {
+        "tldr": "쿠버네티스 명령(kubectl) 출력을 읽기 쉽게 색칠해주는 작은 도구입니다.",
+        "what": "Kubecolor는 kubectl 래퍼로, 출력 내용은 그대로 두고 색만 입혀 가독성을 높입니다.",
+        "points": [
+          "기존 워크플로를 바꾸지 않고 바로 끼워 쓸 수 있습니다."
+        ],
+        "why": [
+          "쿠버네티스를 다루는 엔지니어의 일상 생산성을 소소하게 높여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "drive-organize-files",
+      "title": "Google Drive 'Organize My Files' 정식 출시",
+      "summary": "Gemini가 파일 이동·폴더 그룹화 제안(승인 후 실행).",
+      "source": "Google Workspace",
+      "url": "https://workspaceupdates.googleblog.com/2026/06/organize-my-files-in-drive-now-generally-available.html",
+      "report": {
+        "tldr": "Gemini가 구글 드라이브의 흩어진 파일을 알아서 정리해주는 기능이 정식 출시됐습니다.",
+        "what": "Google이 드라이브의 'Organize My Files'를 일반 출시(GA)했습니다. Gemini가 파일 이동·폴더 그룹화를 제안하고, 사용자가 승인하면 정리를 실행합니다(이동 전 승인 필요).",
+        "points": [
+          "AI가 제안하되 실제 이동은 사용자 승인 후에만 이뤄집니다."
+        ],
+        "why": [
+          "파일 정리 같은 잡무를 AI가 대행하는 '생산성 에이전트'의 실사용 사례입니다."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "aio-reading-sessions",
+      "title": "AI Overview가 검색을 '읽기 세션'으로",
+      "summary": "AIO 등장 시 42~48.5%가 약 21초 뒤에도 결과페이지 잔류.",
+      "source": "Growth Memo",
+      "url": "https://www.growth-memo.com/p/traditional-intents-can-no-longer",
+      "report": {
+        "tldr": "구글 AI 개요(AIO)가 검색 행동을 균질하게 만들어, 기존 '검색 의도' 신호가 약해지고 있습니다.",
+        "what": "AI 개요가 질의 유형에 상관없이 사용자 행동을 비슷하게 만들고 있습니다. AIO가 뜨면 의도와 무관하게 사용자의 42~48.5%가 약 21초 후에도 결과 페이지에 머뭅니다. 이제 최적화는 'AI 답변과 경쟁'하는 것, 특히 스크롤백 시의 '두 번째 노출'에 초점을 둡니다.",
+        "points": [
+          "검색이 '클릭해서 떠나는 행위'에서 '결과 페이지에서 읽는 세션'으로 바뀌고 있습니다."
+        ],
+        "why": [
+          "SEO·콘텐츠 전략이 '클릭 유도'에서 'AI 답변 안에서·옆에서 존재감 확보'로 재편되어야 함을 시사합니다."
+        ]
+      }
+    },
+    {
+      "id": "dancing-ads",
+      "title": "광고 속 '춤'이 늘어나는 이유",
+      "summary": "Apple·Gap이 안무를 핵심 크리에이티브로. 수초 안에 브랜드 전달.",
+      "source": "Dance Magazine",
+      "url": "https://dancemagazine.com/dancing-advertisements/",
+      "report": {
+        "tldr": "최근 광고에 춤이 늘어나는 건, 안무가 수초 안에 브랜드 특성을 전달하기 때문입니다.",
+        "what": "춤이 광고에 점점 더 쓰이는 이유는 브랜드 특성을 순식간에 전달하기 때문입니다. Apple·Gap은 안무를 장식이 아니라 핵심 크리에이티브로 씁니다. 소셜 플랫폼이 움직임에 반응하도록 훈련시켜, 춤이 피드에 자연스럽게 어울립니다.",
+        "points": [
+          "대규모 군무는 공유할 만한 순간을 만들고, 대사 없이 제품 이점·문화·포용성을 전달합니다.",
+          "다양한 캐스팅과 크레딧 명시 안무가는 진정성을 높입니다."
+        ],
+        "why": [
+          "짧은 영상 중심 소셜 시대에 '움직임'이 강력한 마케팅 언어가 됐음을 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "category-aware",
+      "title": "카테고리 인지 vs 비인지 포지셔닝",
+      "summary": "성숙시장=차별화, 신규시장=카테고리 창출. 잘못 고르면 메시지 모호.",
+      "source": "LinkedIn (Anthony Pierri)",
+      "url": "https://www.linkedin.com/posts/anthonypierri_category-aware-vs-category-unaware-ugcPost-7467246286077915136-6B2v/",
+      "report": {
+        "tldr": "포지셔닝의 출발점은 '내 제품이 어떤 카테고리인지', 그리고 '구매자가 그 카테고리를 아는지'를 정하는 것입니다.",
+        "what": "한 길은 카테고리를 이미 아는 구매자를 겨냥해 기존 경쟁자 대비 차별화를 요구합니다. 다른 길은 기존 도구로 문제를 해결 중인 '카테고리 비인지' 구매자를 겨냥해, 먼저 카테고리 자체를 소개해야 합니다. 성숙 시장은 카테고리 인지형으로, 신규 시장은 경쟁 이전에 카테고리 창출이 필요한 경우가 많습니다.",
+        "points": [
+          "어느 쪽인지 잘못 고르면 메시지가 모호해집니다."
+        ],
+        "why": [
+          "제품 메시징·GTM 전략의 가장 기본적인 갈림길을 명확히 정리해줍니다."
+        ]
+      }
+    },
+    {
+      "id": "attribution-dark",
+      "title": "어트리뷰션 깜깜이 시대, 마케팅 효과 증명법",
+      "summary": "GA4·Search Console·시계열로 '증거 스택' 구축.",
+      "source": "MarTech",
+      "url": "https://martech.org/how-to-prove-marketing-impact-when-attribution-goes-dark/",
+      "report": {
+        "tldr": "추적 데이터가 사라지는 시대에 마케팅 효과를 '증거 스택'으로 증명하는 방법입니다.",
+        "what": "프라이버시 변화·AI 검색으로 유입 경로 데이터가 사라지면서, 효과를 GA4·Search Console·시계열 비교로 쌓은 증거 스택으로 측정합니다. 트래픽이 안정적이고 지출이 적은 조용한 기간에 깨끗한 기준선을 잡고, 캠페인 시작일과 예상 지연 구간을 고정한 뒤, 브랜드 검색 상승·직접 유입 급증·랜딩 방문·재방문 사용자를 함께 추적합니다.",
+        "points": [
+          "이 신호들이 기준선 변동을 넘어 동반 상승하고 시기적으로 정합되면 효과로 봅니다."
+        ],
+        "why": [
+          "쿠키·추적이 무력화되는 환경에서 마케터가 ROI를 입증하는 실전 방법론입니다."
+        ]
+      }
+    },
+    {
+      "id": "pricing-pages",
+      "title": "Pricing Pages (웹사이트)",
+      "summary": "실제 SaaS 가격 페이지 모음 — 스크린샷·태깅·분석.",
+      "source": "Pricing Pages",
+      "url": "https://pricingpages.com/",
+      "report": {
+        "tldr": "실제 SaaS 제품의 가격 페이지를 모아 분석한 레퍼런스 사이트입니다.",
+        "what": "실제 SaaS 제품의 가격 페이지를 모아 스크린샷과 기능 태그를 제공하고, 무엇이 효과적인지 분석합니다. 기능·티어 수·디자인 요소로 필터링해 내가 만드는 것에 가까운 예시를 찾을 수 있습니다.",
+        "points": [
+          "가격 페이지를 설계할 때 바로 참고할 사례 데이터베이스입니다."
+        ],
+        "why": [
+          "전환율에 직접 영향을 주는 가격 페이지를 벤치마킹하는 데 유용합니다."
+        ]
+      }
+    },
+    {
+      "id": "gtm-prompts-claude",
+      "title": "Claude Opus 4.8용 GTM 프롬프트 15선",
+      "summary": "GTM 단계별 프롬프트. 실제 데이터 삽입이 효과의 관건.",
+      "source": "Google Docs",
+      "url": "https://docs.google.com/document/d/13E1a7oX31dKBKEoxicuYg7NyvYkSq77951qMIk_KXTs/edit",
+      "report": {
+        "tldr": "마케팅/세일즈(GTM) 작업에 바로 쓰는 Claude 프롬프트 15개 모음입니다.",
+        "what": "AI를 더 효과적으로 쓰기 위해 출력을 더 실행 가능하게 만든 프롬프트들입니다. 리서치·포지셔닝·메시징·세일즈 인에이블먼트·시장 창출 등 GTM 단계 전반의 작업을 안내합니다.",
+        "points": [
+          "효과는 '실제 비즈니스 데이터를 넣어 출력을 구체화하는 것'에 달려 있습니다."
+        ],
+        "why": [
+          "GTM 실무자가 AI를 즉시 업무에 적용할 수 있는 실전 자료입니다."
+        ]
+      }
+    },
+    {
+      "id": "trend-strategy",
+      "title": "트렌드 전략 ≠ 트렌드 추격 (Anu Lingala)",
+      "summary": "핵심 가치로 문화 신호 필터링. 단기=캠페인, 장기=제품.",
+      "source": "Substack",
+      "url": "https://embeddedbrandstrategy.substack.com/p/brand-confessional-trend-strategist",
+      "report": {
+        "tldr": "트렌드 전략은 모든 유행을 좇는 게 아니라, 핵심 가치로 문화 신호를 걸러내는 것입니다.",
+        "what": "브랜드가 모든 새 아이디어를 좇는 대신 핵심 가치로 문화 신호를 필터링할 때 트렌드 전략이 작동합니다. 3~12개월 단기 트렌드는 캠페인에, 12~24개월 이상 장기 트렌드는 제품 개발에 적합합니다. 실행은 제품·마케팅 팀의 긴밀한 정렬에 달려 있습니다(리서치만으론 ROI가 안 나옴).",
+        "points": [
+          "소비자가 알고리즘 의존을 줄이려 하면서, 브랜드는 유기적 지지를 만드는 경험·채널에 더 투자하고 있습니다."
+        ],
+        "why": [
+          "'트렌드를 언제, 어디에 반영할지'를 시간 지평으로 구분하는 실용 프레임을 줍니다."
+        ]
+      }
+    },
+    {
+      "id": "phone-scrolling",
+      "title": "폰이 당신을 계속 스크롤하게 만드는 법",
+      "summary": "도박업계 기법 차용. 'dark flow' 4요소.",
+      "source": "NPR",
+      "url": "https://www.npr.org/transcripts/nx-s1-5823736",
+      "report": {
+        "tldr": "소셜 미디어가 사람을 붙잡아두는 기법은 도박 산업에서 거의 그대로 가져온 것입니다.",
+        "what": "사람을 소셜에 붙잡아두는 기능들은 수십 년간 수백만 명을 대상으로 디지털 슬롯머신을 다듬어온 도박 산업에서 거의 직접 차용됐습니다. 연구는 사용자가 시간 감각을 잃고 화면과 하나가 되는 'dark flow' 상태를 만드는 4요소를 짚습니다.",
+        "points": [
+          "4요소: ①혼자 하는 사용, ②끝없이 자동 로딩되는 콘텐츠, ③마찰을 없앤 빠른 스크롤, ④원하는 '바로 그것'에 근접한 것을 의도적으로 제시하는 AI 알고리즘."
+        ],
+        "why": [
+          "이런 설계가 의도적 중독 유발임을 이해하면, 디지털 웰빙·제품 윤리 관점에서 중요합니다."
+        ]
+      }
+    },
+    {
+      "id": "demo-pages-psychology",
+      "title": "성공하는 데모 페이지의 심리학",
+      "summary": "데모 페이지는 구매 여정의 연속처럼 느껴져야 함.",
+      "source": "LinkedIn (Jeffrey Gapinski)",
+      "url": "https://www.linkedin.com/posts/jeffrey-gapinski_the-best-demo-pages-dont-feel-like-a-sales-share-7465817188810280960-wTBv/",
+      "report": {
+        "tldr": "좋은 데모 페이지는 갑자기 '세일즈 모드'로 바뀌는 게 아니라 구매 여정의 자연스러운 연속처럼 느껴집니다.",
+        "what": "최고의 데모 페이지는 사용자가 느끼기에 영업으로의 급격한 전환이 아니라 구매 여정의 연장선입니다.",
+        "points": [
+          "맥락 단절 없이 흐름을 이어가는 것이 전환의 핵심입니다."
+        ],
+        "why": [
+          "데모 신청·전환을 설계하는 마케터·디자이너에게 실용적 원칙입니다."
+        ]
+      }
+    },
+    {
+      "id": "salesforce-contentful",
+      "title": "Salesforce, Contentful 인수",
+      "summary": "Agentforce에 콘텐츠 레이어 추가 — 1:1 경험 대량 제공.",
+      "source": "MarTech",
+      "url": "https://martech.org/agentforce-needed-a-content-layer-so-salesforce-is-buying-contentful/",
+      "report": {
+        "tldr": "Salesforce가 AI 에이전트(Agentforce)에 콘텐츠 공급 계층을 붙이기 위해 Contentful을 인수합니다.",
+        "what": "Salesforce가 채널별 콘텐츠를 버리고 대규모의 1:1 경험을 제공하기 위해 헤드리스 CMS인 Contentful을 인수합니다.",
+        "points": [
+          "AI 에이전트가 개인화된 콘텐츠를 동적으로 조립·전달하려면 구조화된 콘텐츠 소스가 필요합니다."
+        ],
+        "why": [
+          "마케팅의 미래가 '채널별 제작'에서 'AI가 개인별로 조립'으로 이동하고 있음을 보여주는 M&A입니다."
+        ]
+      }
+    }
+  ]
+}

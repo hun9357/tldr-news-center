@@ -1,0 +1,226 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "house-tokenization",
+      "title": "美 하원 금융위, 다음 입법 우선순위 '토큰화'",
+      "summary": "스테이블코인·시장구조 다음 의제로 자산 토큰화 지목.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/05/31/how-the-house-financial-services-committee-is-taking-on-tokenization-state-of-crypto",
+      "report": {
+        "tldr": "미 하원 금융위가 스테이블코인·시장구조 입법에 이어 '자산 토큰화'를 다음 우선 과제로 지목했습니다.",
+        "what": "위원장 French Hill이 자산 토큰화를 '법적 변화'가 아니라 '시스템 변화'로 규정하며, 새 법을 만들기보다 기존 규제 틀 안에서 실물자산(RWA) 시장을 수용하는 방향을 제시했습니다. 상업은행의 예금 토큰화도 중개자 없는 직접 결제 수단으로 검토 중입니다.",
+        "points": [
+          "Hill은 T+5→T+1 결제 단축 같은 효율 개선에 비유했습니다.",
+          "최대 과제는 기술 구현보다 시스템 간 상호운용성·컴플라이언스 조율입니다.",
+          "임박한 법안은 없고 초당적 지지 속 탐색 단계입니다."
+        ],
+        "why": [
+          "토큰화가 규제권의 핵심 의제로 올라오며, 전통 금융과 블록체인의 결합이 제도화 단계에 진입하고 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "binance-us-stocks",
+      "title": "Binance, 美 주식·ETF 7,000종 추가",
+      "summary": "비미국 사용자 대상. 소수점 $5부터, 수수료 0. 'bStocks' 토큰화 예정.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/74Jcog",
+      "report": {
+        "tldr": "Binance가 미국 외 사용자에게 미국 주식·ETF 거래를 추가하며 '크립토 슈퍼앱'을 노립니다.",
+        "what": "Binance가 미국 외 사용자 대상으로 7,000종 이상의 미국 주식·ETF 거래를 출시했습니다. 소수점 거래 $5부터, 수수료 0(최소 $0.35), USDC·USDT·BNB로 결제합니다.",
+        "points": [
+          "체결은 Nest Trading, 수탁·배당·기업행위는 Alpaca가 담당합니다.",
+          "BNB 체인에서 발행되는 토큰화 버전 'bStocks'도 수 주 내 출시 예정입니다."
+        ],
+        "why": [
+          "거래소가 '코인'을 넘어 주식·결제까지 묶는 슈퍼앱 전략으로 진화하고 있습니다.",
+          "토큰화 주식(bStocks)은 전통 자산과 온체인의 경계를 흐립니다."
+        ]
+      }
+    },
+    {
+      "id": "coinbase-inr",
+      "title": "Coinbase, 인도 INR 직접 입출금",
+      "summary": "IMPS 지원으로 P2P 우회 불필요. 30억 달러 시장 공략.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/05/31/coinbase-makes-a-major-play-for-india-s-booming-usd3-billion-crypto-market-with-local-currency-launch",
+      "report": {
+        "tldr": "Coinbase가 인도에서 루피(INR) 직접 입출금을 지원하며 본격 진출했습니다.",
+        "what": "6월 1일부터 IMPS를 통한 INR 입출금을 지원해, 인도 개인 투자자가 처음으로 P2P 중개·제3자 램프 없이 거래할 수 있게 됐습니다. 현물·무기한 선물과 TradingView 통합·전용 INR 호가창을 갖춘 Coinbase Advanced를 제공하며, FIU-IND 등록을 마쳤습니다.",
+        "points": [
+          "인도 크립토 시장은 2025년 30.4억 달러, 2034년 142억 달러(CAGR 18.66%) 전망이며 채택지수 세계 1위입니다.",
+          "2022년 UPI 연동 실패 이후 재도전이며, 현지 거래소 CoinDCX 지분·Base L2 개발자 그랜트 등 사전 포석을 활용합니다."
+        ],
+        "why": [
+          "세계 최대 채택 시장인 인도에서 현지통화 직접 결제는 큰 진입 장벽을 허무는 조치입니다."
+        ]
+      }
+    },
+    {
+      "id": "utexo-rgb-lightning",
+      "title": "Utexo — RGB + Lightning B2B 비공개 결제",
+      "summary": "비트코인+Lightning+RGB를 단일 API로 결합, USDT 고정 수수료.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/qSUf9c",
+      "report": {
+        "tldr": "비트코인 기반에서 프라이빗한 기업간(B2B) 스테이블코인 결제를 가능케 하는 첫 구현입니다.",
+        "what": "그동안 비트코인을 떠나 이더리움·트론(현재 공급의 92%)으로 이동하던 USDT의 흐름을 되돌리려는 시도입니다. ①결제 보안은 비트코인 베이스, ②즉시성·확장성은 Lightning, ③거래를 공개 멤풀 밖에서 프라이빗하게 검증하는 RGB 프로토콜을 결합합니다. Utexo가 이 셋을 단일 API로 묶은 첫 사례입니다.",
+        "points": [
+          "PSP·거래소·트레저리 팀을 겨냥하며, USDT 고정 수수료·설계상 자가수탁·가스 변동성 무노출이 특징입니다."
+        ],
+        "why": [
+          "스테이블코인 결제의 '프라이버시'와 '비트코인 정착'을 동시에 노리는 흐름을 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "fx-onchain",
+      "title": "FX가 온체인으로 가는 이유",
+      "summary": "온체인 FX는 약 0.8% 비용·24/7 즉시 정산. 라틴아메리카가 핵심.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/TO3SjB",
+      "report": {
+        "tldr": "외환(FX) 거래가 온체인으로 옮겨가면 비용이 크게 줄고 24/7 즉시 정산이 된다는 분석입니다.",
+        "what": "온체인 FX는 1,000 BRL 스왑을 약 0.8% 전체비용·즉시 정산으로 처리해, 주말 정산 지연이 있는 Wise 대비 약 29,331 ARS를 더 남깁니다. 통화별로 별도 계좌·선충전이 필요하던 구조를 '통화당 1개 램프'로 단순화하고, FX 자체를 회사가 아닌 시장으로 만듭니다.",
+        "points": [
+          "현재 한계는 풀 깊이(유동성): BRL/ARS 스왑이 $200에선 중간가에 가깝지만 $2만에선 슬리피지가 큽니다.",
+          "아르헨티나의 스테이블코인 비중(약 62%)과 라틴아메리카의 분절된 결제 흐름이 핵심 수요입니다."
+        ],
+        "why": [
+          "송금·급여·B2B 결제가 많은 신흥시장에서 온체인 FX가 실질적 비용 절감 수단이 될 수 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "eth-mispriced",
+      "title": "이더리움이 심각하게 저평가된 이유",
+      "summary": "보안비용 모델로 공정가 약 $6,900 (현물 ~$2,070).",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/fWuqHA",
+      "report": {
+        "tldr": "ETH를 '수수료'가 아니라 '지키는 자산 가치'로 평가하면 현재가보다 훨씬 비싸야 한다는 주장입니다.",
+        "what": "보안비용 기반 가치평가 모델입니다. 이더리움이 보호하는 자산은 약 2,500억 달러(스테이블코인 1,600억, L2 브리지 담보 350억, 토큰화 RWA 200억, 랩드 BTC 120억 등)인데, 이를 지키는 스테이킹 ETH는 720억 달러뿐이라 '공격 비용 < 위험 자산'입니다.",
+        "points": [
+          "약 30% ETH가 스테이킹된 상태에서 모델은 스테이킹 가치가 보호 자산에 근접해야 한다고 보며, 시총 ≈ 보호자산의 3.3배 → 공정가 약 $6,900(현물 ~$2,070).",
+          "거래 수수료가 2021년 $50+에서 현재 ~$0.20로 떨어진 것(L2가 처리량의 85% 담당)은 '정산 레이어' 논지를 뒷받침합니다."
+        ],
+        "why": [
+          "스테이블코인이 1조 달러에 근접하고 RWA가 수조 달러로 커지면, 이 모델은 ETH 공정가를 수만 달러로 시사합니다.",
+          "이는 투자 권유가 아니라 하나의 평가 프레임이며, 실제 가격은 여러 변수에 좌우됩니다."
+        ]
+      }
+    },
+    {
+      "id": "cex-op-stack",
+      "title": "OP Stack 위의 중앙화 거래소 물결",
+      "summary": "Coinbase·Kraken·OKX·Upbit·Bitpanda가 OP Stack 체인 배포.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/poaDDi",
+      "report": {
+        "tldr": "주요 거래소들이 잇따라 OP Stack 기반 자체 블록체인을 띄우고 있습니다.",
+        "what": "최근 2년간 Coinbase·Kraken·OKX·Upbit·Bitpanda 5곳이 각각 OP Stack 체인을 배포했습니다. Base는 TVL 약 45억 달러로 전체 L2 DeFi의 약 51%를 차지하며, 비이더리움 체인 전체보다 13배 많은 수수료를 냅니다.",
+        "points": [
+          "Kraken의 Ink는 1월 기준 TVL 4.8억 달러·월 거래 170억 달러, Aave V3 라이선스 대출 Tydro가 24시간에 1.24억 달러 예치.",
+          "OKX는 ICE/NYSE로부터 250억 밸류에 2억 달러 투자 유치, Bitpanda는 유로 스테이블코인을 가스로 쓰는 첫 MiCA 준수 체인.",
+          "OP Stack 시퀀서 구조는 거래소가 블록 진입 전 TRM·Chainalysis 스크리닝을 돌리고 개별 자산만 중지할 수 있게 해줍니다."
+        ],
+        "why": [
+          "규제 친화적 통제가 가능한 'L2 자체 체인'이 거래소의 새 인프라 표준이 되고 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "why-i-bought-eth",
+      "title": "내가 ETH를 더 산 이유 (Sam Tabar)",
+      "summary": "ETH=정산 레이어+컴퓨트 결합. Q1 스테이킹 마진 94.7%.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/wcB30e",
+      "report": {
+        "tldr": "한 상장사 CEO가 ETH를 '수탁자적 가치 판단'으로 추가 매수했다고 공개했습니다.",
+        "what": "Bit Digital·WhiteFiber의 CEO Sam Tabar가 ETH 축적 포지션을 밝혔습니다. 그는 ETH가 이미 스테이블코인 발행·트레저리 토큰화·AI 에이전트 거래를 기관 규모로 처리하는 정산 레이어라는 점을 근거로 듭니다.",
+        "points": [
+          "WhiteFiber의 컴퓨트 인프라 + ETH의 정산 레일을 결합한 '이중 프리미티브' 논지로, 두 자산이 기관 금융이 온체인에서 필요로 하는 것을 함께 충족한다고 봅니다.",
+          "Q1 스테이킹 마진 94.7%, ETH가 '지키는 인프라 가치 대비 할인' 거래 중이라고 주장합니다.",
+          "이 논지는 ETH가 '화폐 준비자산'이 될 필요 없이 현재 기능만 유지하면 성립한다고 봅니다."
+        ],
+        "why": [
+          "기관이 ETH를 '투기'가 아니라 '자본 배분' 관점으로 보기 시작했음을 보여주는 사례입니다(투자 권유 아님)."
+        ]
+      }
+    },
+    {
+      "id": "strategy-sells-btc",
+      "title": "Strategy, 사상 첫 비트코인 매도",
+      "summary": "32 BTC를 평균 $77,135에 약 250만 달러 매도. 보유 843,706 BTC.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/dgcgrN",
+      "report": {
+        "tldr": "최대 비트코인 보유 기업 Strategy가 처음으로 비트코인을 일부 팔았습니다.",
+        "what": "Strategy(옛 MicroStrategy)가 우선주 배당 재원 마련을 위해 32 BTC를 평균 $77,135에 약 250만 달러어치 매도했습니다. 이는 회사 최초의 비트코인 매도이며, 보유량은 843,706 BTC입니다.",
+        "points": [
+          "매도 규모(32 BTC)는 전체 보유량 대비 극히 일부입니다.",
+          "매도 목적이 '배당 지급'이라는 점이 주목됩니다."
+        ],
+        "why": [
+          "'절대 안 판다'던 기업의 첫 매도라 상징성이 큽니다. 배당 의무가 비트코인 축적 전략과 충돌할 수 있음을 시사합니다."
+        ]
+      }
+    },
+    {
+      "id": "aave-ath",
+      "title": "Aave, 펀더멘털 ATH인데 고점 대비 80%↓",
+      "summary": "시총 12.7억 달러, TVL 145억 달러.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2060937067048391071.html",
+      "report": {
+        "tldr": "대출 프로토콜 Aave의 사용 지표는 최고치인데 토큰 가격은 고점 대비 80% 낮다는 지적입니다.",
+        "what": "AAVE는 시총 12.7억 달러에 예치자산(TVL) 145억 달러를 기록 중입니다. 펀더멘털(실사용)은 역대 최고인데 토큰 가격은 크게 빠진 상태라는 대비를 보여줍니다.",
+        "points": [
+          "TVL 대비 시총이 낮아 '저평가' 주장의 근거로 인용됩니다."
+        ],
+        "why": [
+          "DeFi 토큰의 '사용 지표 vs 가격' 괴리를 보여주는 사례입니다(투자 권유 아님)."
+        ]
+      }
+    },
+    {
+      "id": "polygon-a2a",
+      "title": "Polygon, 다음 결제 카테고리는 A2A에 베팅",
+      "summary": "에이전트 간(agent-to-agent) 결제 레일이 만들어지는 중.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2061441134698913838.html",
+      "report": {
+        "tldr": "Polygon이 'AI 에이전트끼리 주고받는 결제(A2A)'를 다음 큰 결제 시장으로 봅니다.",
+        "what": "다음 주요 결제 카테고리가 agent-to-agent(A2A)이며, 그 레일이 지금 구축되고 있다는 주장입니다.",
+        "points": [
+          "사람이 아니라 AI 에이전트가 서로 자동으로 결제하는 시나리오를 전제합니다."
+        ],
+        "why": [
+          "자율 에이전트가 늘면 '기계 간 마이크로결제' 수요가 새로 생기고, 블록체인이 그 정산 레일을 노립니다."
+        ]
+      }
+    },
+    {
+      "id": "tokenized-deposits",
+      "title": "토큰화 예금이 스테이블코인을 대체할 것",
+      "summary": "스테이블코인 관심이 식으면 토큰화 은행 예금이 주도권.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2061398602233381142.html",
+      "report": {
+        "tldr": "장기적으로 스테이블코인보다 '토큰화된 은행 예금'이 우위를 점할 것이라는 전망입니다.",
+        "what": "스테이블코인에 대한 관심이 식으면, 규제권 안의 토큰화 은행 예금이 결국 주도권을 잡을 것이라는 견해입니다.",
+        "points": [
+          "은행 예금은 예금보호·규제 신뢰 등 제도적 이점을 가집니다."
+        ],
+        "why": [
+          "앞선 '하원 금융위 토큰화' 항목과 맞물려, 제도권 금융의 토큰화가 스테이블코인과 경쟁할 수 있음을 시사합니다."
+        ]
+      }
+    }
+  ]
+}

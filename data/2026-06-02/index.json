@@ -1,0 +1,9 @@
+{
+  "date": "2026-06-02",
+  "weekday": "화",
+  "headline": "오늘의 IT 한눈에 요약",
+  "subtitle": "TLDR 뉴스레터 8종 · 기사별 분석 리포트",
+  "keyword": "AI · Anthropic IPO",
+  "bigStoryId": "anthropic-ipo",
+  "editions": ["ai", "infosec", "crypto", "tech", "it", "design", "marketing", "dev"]
+}

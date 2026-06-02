@@ -1,0 +1,289 @@
+{
+  "name": "보안 / InfoSec",
+  "source": "TLDR Information Security",
+  "icon": "🔓",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "codex-ui-token-theft",
+      "title": "Codex UI npm 패키지, OpenAI 토큰 탈취",
+      "summary": "주 2.7만 다운로드. 만료 없는 refresh_token까지 탈취 → 무기한 사칭.",
+      "source": "Hackread / Aikido Security",
+      "url": "https://hackread.com/codex-ui-tool-secretly-stole-openai-refresh-tokens/",
+      "report": {
+        "tldr": "인기 npm 패키지가 OpenAI Codex 로그인 토큰을 몰래 빼돌리고 있었고, 지금도 살아 있습니다.",
+        "what": "Aikido Security가 발견한 'codexui-android'는 OpenAI Codex용 원격 웹 UI로 주 2.7만 다운로드를 기록했습니다. 모듈이 로드되는 순간 숨은 스크립트가 실행돼 auth.json의 access_token·id_token·계정ID, 그리고 만료되지 않는 refresh_token까지 탈취합니다.",
+        "points": [
+          "악성코드는 공개 GitHub 저장소엔 없고 npm에 배포된 패키지에만 들어 있어, 일반 소스 코드 감사로는 잡히지 않습니다.",
+          "탈취 데이터는 'sentry.anyclawstore'로 보내, 정상적인 Sentry 오류 텔레메트리처럼 위장합니다.",
+          "같은 운영자(BrutalStrike, 500만 다운로드 게임 보유)가 Play스토어 앱(codex.app, 'OpenClaw Codex Claude AI Agent')도 배포 — 26MB 클린 APK로 심사를 통과한 뒤 Termux 기반 리눅스를 추출해 패키지를 설치합니다.",
+          "공격자는 '쓸모 있는 진짜 도구'를 먼저 만들어 사용자 기반을 확보한 뒤 무기화했습니다. 정당성 자체가 공격 수단입니다."
+        ],
+        "why": [
+          "refresh_token은 만료되지 않아, 한 번 털리면 비밀번호를 바꿔도 공격자가 무기한으로 계정을 사칭할 수 있습니다.",
+          "AI 개발 도구의 토큰은 권한이 강하고 수명이 길어 고가치 표적이 되고 있습니다. 앞으로 유사 공격이 늘 전망입니다."
+        ],
+        "action": "이 패키지를 설치한 적이 있다면: ① 해당 호스트의 OpenAI Codex 토큰을 즉시 폐기·재발급하고, ② 방화벽에서 sentry.anyclawstore를 차단하세요. 일반 원칙으로 'npm엔 있는데 upstream 저장소엔 없는 코드'는 공급망 위험 신호로 취급하세요."
+      }
+    },
+    {
+      "id": "dashlane-bruteforce",
+      "title": "Dashlane, 무차별 대입 공격으로 계정 일시 정지",
+      "summary": "기기 등록 반복 시도 탐지로 일부 계정·2FA 잠시 중단 후 복구.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/06/01/password-manager-dashlane-suspends-customer-accounts-amid-brute-force-attacks/5248991",
+      "report": {
+        "tldr": "비밀번호 관리자 Dashlane이 대량 공격 징후를 탐지해 일부 계정을 일시 정지했다가 복구했습니다.",
+        "what": "일요일 오후부터 새 기기 등록·토큰 입력을 반복 시도하는 자동화 공격이 감지되자, 보호 장치가 일부 계정을 임시 정지했습니다. 계정·2FA 접근이 잠시 끊겼다가 복구됐고, 상태 페이지는 '해결'에서 '모니터링'으로 바뀌었습니다.",
+        "points": [
+          "한국·러시아 등에서의 로그인 시도가 사용자들에 의해 보고됐습니다.",
+          "옛 로고를 쓴 정지 안내 메일 때문에 진짜인지 헷갈렸다는 불만도 있었습니다."
+        ],
+        "why": [
+          "비밀번호 관리자는 모든 계정의 '마스터키'라 공격의 최우선 표적입니다.",
+          "보호적 계정 정지는 안전하지만, 정작 본인이 잠겨 혼란을 겪는 양면성이 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "gta-v-cheat-hack",
+      "title": "GTA V 치트 서비스 'Atlas Menu' 해킹",
+      "summary": "약 6.4만 사용자 이메일·해시 비번·IP 유출. 비번 재사용자 위험.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/01/grand-theft-auto-v-cheat-service-gets-hacked-exposing-thousands-of-gamers/",
+      "report": {
+        "tldr": "GTA V 치트 제공 서비스가 해킹돼 약 6만4천 명의 정보가 유출됐습니다.",
+        "what": "인기 치트 제공자 Atlas Menu가 침해당해 사용자 약 6.4만 명의 이메일·아이디·해시 비밀번호·IP·지원 티켓이 노출됐습니다. 공격자는 데이터를 GitHub에 공개했고, 사이트는 현재 다운됐습니다.",
+        "points": [
+          "공격자는 '사기꾼을 노렸다'는 취지로 데이터를 공개했습니다.",
+          "다른 서비스에 같은 비밀번호를 쓴 사용자가 가장 위험합니다."
+        ],
+        "why": [
+          "불법·회색지대 서비스 사용자도 결국 개인정보 유출의 피해자가 됩니다.",
+          "비밀번호 재사용의 위험을 다시 보여주는 사례입니다."
+        ]
+      }
+    },
+    {
+      "id": "cifswitch-linux",
+      "title": "CIFSwitch — 리눅스 커널 권한상승 취약점",
+      "summary": "2007년부터 존재한 CIFS 로직 결함. request_key 악용으로 root 상승.",
+      "source": "CyberKendra",
+      "url": "https://www.cyberkendra.com/2026/05/a-forged-kernel-key-and-rootful-helper.html",
+      "report": {
+        "tldr": "리눅스 커널의 파일공유(CIFS) 기능에 18년 묵은 권한상승 취약점이 드러났습니다.",
+        "what": "연구자 Asim Manizada가 'CIFSwitch'를 공개했습니다. 2007년부터 존재한 리눅스 커널 CIFS 클라이언트·cifs-utils의 로직 결함으로, 권한 없는 프로세스가 request_key 호출을 악용해 마운트 네임스페이스·NSS 설정을 조작, root로 권한을 상승할 수 있습니다.",
+        "points": [
+          "오래된 코드라 광범위한 배포판이 영향권에 있습니다.",
+          "패치 적용 전 완화책: cifs 모듈 차단, 불필요 시 cifs-utils 제거, 특정 request-key 규칙 재정의."
+        ],
+        "why": [
+          "'로컬 권한상승'은 침입자가 일반 권한을 얻은 뒤 시스템을 완전 장악하는 핵심 단계입니다.",
+          "오래된 코드일수록 감사가 소홀해 장기 잠복 취약점이 나오기 쉽습니다."
+        ]
+      }
+    },
+    {
+      "id": "poisoning-claude-code",
+      "title": "\"Poisoning Claude Code\" — GitHub 이슈로 공급망 공격",
+      "summary": "권한 우회+프롬프트 인젝션으로 OIDC 자격증명 탈취 가능했음. 패치 완료.",
+      "source": "Flatt Security (RyotaK)",
+      "url": "https://flatt.tech/research/posts/poisoning-claude-code-one-github-issue-to-break-the-supply-chain/",
+      "report": {
+        "tldr": "GitHub 이슈 하나로 Claude Code의 자동화 워크플로를 탈취할 수 있었던 취약점이 공개됐고, Anthropic이 패치했습니다.",
+        "what": "연구자 RyotaK가 Claude Code의 GitHub Actions 워크플로를 분석해, GitHub App 권한 우회와 프롬프트 인젝션을 결합하면 공개 저장소에서 워크플로를 실행하고 /proc/self/environ을 읽어 OIDC 자격증명을 빼내, 쓰기 권한을 가진 Claude GitHub App 토큰을 발급할 수 있음을 보였습니다.",
+        "points": [
+          "allowed_non_write_users 와일드카드 + issues: write 같은 설정 실수가 '신뢰할 수 없는 이슈 생성 → 저장소 완전 장악'으로 이어질 수 있었습니다.",
+          "Anthropic 자체 claude-code-action 소스까지 위협 가능했습니다.",
+          "Anthropic은 트리거 수정, gh 사용 제한, 워크플로 요약 기본 비활성화, 트리거 후 수정된 이슈 무시 등으로 대응했습니다."
+        ],
+        "why": [
+          "AI 에이전트를 CI/CD에 붙일 때 '신뢰할 수 없는 입력(이슈·PR)'이 권한 있는 작업을 건드리지 못하게 막는 게 핵심임을 보여줍니다.",
+          "프롬프트 인젝션이 단순 장난이 아니라 실제 공급망 탈취로 이어질 수 있음을 입증한 사례입니다."
+        ],
+        "action": "AI가 untrusted 입력을 처리하는 워크플로의 권한을 감사하고, 시크릿이 노출되지 않게 분리하세요."
+      }
+    },
+    {
+      "id": "aws-supply-chain",
+      "title": "AWS — 소프트웨어 공급망 보안 모범사례",
+      "summary": "단기 자격증명·MFA, 아티팩트 서명, SDLC 전반 의존성 스캐닝 권장.",
+      "source": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/well-architected-best-practices-for-software-supply-chain-security/",
+      "report": {
+        "tldr": "최근 공급망 공격 급증에 대응해 AWS가 '다층 방어' 모범사례를 정리했습니다.",
+        "what": "AWS가 defense-in-depth(다층 방어) 관점의 공급망 보안 가이드를 발표했습니다.",
+        "points": [
+          "단기 자격증명·MFA로 탈취된 인증정보의 피해를 줄입니다.",
+          "의존성을 아티팩트 저장소에 중앙화하고 아티팩트 서명을 적용합니다.",
+          "개발 생애주기(SDLC) 전반에 의존성 스캐닝과 모니터링·알림을 배치합니다."
+        ],
+        "why": [
+          "오늘자 Codex UI 사건처럼 '신뢰하던 패키지'가 무기가 되는 시대에 실무 체크리스트로 유용합니다."
+        ]
+      }
+    },
+    {
+      "id": "prempti",
+      "title": "Prempti (GitHub) — AI 코딩 에이전트 가드",
+      "summary": "에이전트의 쉘·파일·MCP 호출을 Falco 규칙으로 allow/deny/ask 판정.",
+      "source": "GitHub (Falco)",
+      "url": "https://github.com/falcosecurity/prempti",
+      "report": {
+        "tldr": "AI 코딩 에이전트가 위험한 행동을 하기 전에 규칙으로 가로채는 오픈소스 가드입니다.",
+        "what": "Prempti는 Falco 생태계의 Apache 2.0 샌드박스 프로젝트로, 에이전트의 쉘 명령·파일 쓰기/읽기·MCP 호출을 가로채 Falco YAML 규칙으로 평가해 allow/deny/ask를 판정합니다. 거부 시 LLM이 이해할 수 있는 피드백을 돌려줍니다.",
+        "points": [
+          "기본 규칙으로 작업 디렉터리 경계, 자격증명 경로(.env·~/.ssh·~/.aws), Claude Code·Codex·Gemini CLI의 샌드박스 무력화 시도, MCP·슬래시명령 오염, 지속성 벡터를 커버합니다.",
+          "리눅스·맥·윈도우 설치 지원, Codex 인터셉터는 실험적.",
+          "OS 수준 격리가 아니라 '협력적 후크 레벨' 정책이라, 선언된 명령은 검사하지만 컴파일된 바이너리의 런타임 동작은 못 봅니다."
+        ],
+        "why": [
+          "AI 에이전트가 코드를 직접 실행하는 시대에 'AI 행동 통제'가 새로운 보안 카테고리로 떠오르고 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "pathfinding-labs",
+      "title": "Pathfinding Labs — 취약 AWS 환경 100+",
+      "summary": "권한상승·교차계정 등 의도적 취약 AWS 환경 모음(오픈소스).",
+      "source": "Datadog Security Labs",
+      "url": "https://securitylabs.datadoghq.com/articles/introducing-pathfinding-labs/",
+      "report": {
+        "tldr": "공격 경로를 직접 실습할 수 있는 '일부러 취약한 AWS 환경' 100여 종 모음입니다.",
+        "what": "Pathfinding Labs는 self-escalation·one-hop·multi-hop·교차계정·설정오류·toxic combination 시나리오를 다루는 오픈소스 취약 AWS 환경 모음으로, plabs Go CLI로 샌드박스 계정에 배포합니다. 각 랩은 Terraform 모듈과 권한상승 경로를 끝까지 검증하는 demo_attack.sh를 제공합니다.",
+        "points": [
+          "블루팀은 CSPM(클라우드 보안태세) 커버리지 공백을 측정하고, 레드팀은 공격 도구를 시험할 수 있습니다.",
+          "관리자 사용자·과대권한 역할·공개 S3·인터넷 노출 Lambda를 만들므로 반드시 격리 샌드박스 계정에서만 쓰고, 끝나면 plabs destroy로 정리해야 합니다."
+        ],
+        "why": [
+          "클라우드 권한 그래프 공격은 추상적이라 이해가 어려운데, 실습 환경이 학습·검증을 크게 돕습니다."
+        ]
+      }
+    },
+    {
+      "id": "pipelock",
+      "title": "Pipelock (GitHub) — AI 에이전트 방화벽",
+      "summary": "에이전트↔네트워크 트래픽을 검사해 유출·인젝션 차단, 검증가능 영수증 발급.",
+      "source": "GitHub",
+      "url": "https://github.com/luckyPipewrench/pipelock",
+      "report": {
+        "tldr": "AI 에이전트가 외부로 내보내는 트래픽을 검사·증명하는 오픈소스 방화벽입니다.",
+        "what": "Pipelock은 AI 에이전트와 네트워크 사이에 위치해 HTTP·MCP·A2A·WebSocket 트래픽을 매개·검사하며, 데이터 유출·프롬프트 인젝션 경로를 차단합니다(Verifiable Egress Control). 또 제3자가 에이전트 런타임 밖에서 검증할 수 있는 '중재자 서명 행동 영수증'을 발급합니다.",
+        "points": [
+          "에이전트가 '무엇을 어디로 보냈는지'를 사후 검증 가능하게 만듭니다."
+        ],
+        "why": [
+          "에이전트가 자율적으로 외부와 통신하는 시대에 '나가는 트래픽 통제(egress control)'가 핵심 안전장치가 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "html-injection-csp",
+      "title": "엄격한 CSP에서도 HTML 인젝션으로 비번 탈취",
+      "summary": "Referer 헤더로 전체 URL 누출. 자동입력+meta refresh로 원클릭 탈취.",
+      "source": "AFINE",
+      "url": "https://afine.com/blogs/stealing-passwords-via-html-injection-under-a-strict-csp",
+      "report": {
+        "tldr": "강력한 CSP를 켜둬도 HTML 인젝션만으로 비밀번호가 새어나갈 수 있다는 연구입니다.",
+        "what": "Chrome·Safari·Firefox는 HTML 인젝션이 느슨한 referrer 정책을 설정하고 리디렉션을 유발하면, 엄격한 CSP 하에서도 Referer 헤더로 전체 URL을 누출할 수 있습니다. 공격자는 가짜 로그인 폼을 주입해 비밀번호 관리자가 자동입력하게 한 뒤, GET으로 제출시키고 meta referrer·refresh 태그로 이메일·비번이 담긴 URL을 공격자 사이트로 보냅니다.",
+        "points": [
+          "세 브라우저 모두 이 원클릭 비번 탈취가 가능하며, Chrome이 가장 공격적으로 자동입력합니다."
+        ],
+        "why": [
+          "CSP만 믿으면 안 되고, HTML 인젝션 자체를 막는 것이 중요함을 보여줍니다.",
+          "비밀번호 관리자의 '자동입력'이 역으로 공격 표면이 될 수 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "chatgpt-browser-payload",
+      "title": "ChatGPT, 브라우저 콘텐츠 맹신 → 페이지가 페이로드",
+      "summary": "Markdown 내 지시를 자기 명령처럼 따름 → 가짜 링크·QR 렌더링.",
+      "source": "The Register / Permiso",
+      "url": "https://www.theregister.com/research/2026/05/29/chatgpt-prompt-injection-turns-web-pages-into-phishing-lures/5248137",
+      "report": {
+        "tldr": "ChatGPT가 웹페이지 내용에 숨은 지시를 자기 명령처럼 따라, 페이지 자체가 공격 도구가 될 수 있습니다.",
+        "what": "Permiso 연구자가 ChatGPT의 프롬프트 인젝션 취약점을 공개했습니다. Markdown으로 렌더링된 지시를 ChatGPT가 자신의 명령처럼 따르며, GitHub 저장소에 심은 프롬프트로 공격자 사이트로 향하는 그럴듯한 링크·QR 코드를 렌더링하게 만들 수 있습니다.",
+        "points": [
+          "4월 29일 OpenAI에 보고했으나 '재현 불가'로 종결됐고, 추가 자료로 재제출하자 '중복'으로 처리됐습니다."
+        ],
+        "why": [
+          "AI가 웹을 읽고 행동하는 '브라우징 에이전트' 시대에, 콘텐츠에 숨은 지시(간접 프롬프트 인젝션)가 새로운 피싱 벡터가 됩니다.",
+          "신고 처리 논란은 AI 보안 제보 체계의 미성숙도 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "nist-nvd-audit",
+      "title": "美 감사, NIST의 NVD 부실 운영 지적",
+      "summary": "분석가 시간 80%가 중복 작업에 소모, CISA와 협업 부족.",
+      "source": "CyberScoop",
+      "url": "https://cyberscoop.com/nist-nvd-audit-mismanagement-duplication/",
+      "report": {
+        "tldr": "세계가 의존하는 취약점 DB(NVD)가 부실 운영·중복으로 적체되고 있다는 감사 결과입니다.",
+        "what": "美 상무부 감사관 보고서가 NIST의 NVD(국가 취약점 데이터베이스) 운영에서 심각한 관리 부실을 지적했습니다. 분석가 시간의 약 80%가 심각도 점수·영향 제품 계산에 쓰이는데, 이 정보는 이미 제출 시 포함된 경우가 많습니다.",
+        "points": [
+          "CISA와 NIST 사이에 상당한 중복 작업·비용과 소통 부족이 있었습니다.",
+          "그 결과 취약점 처리 적체(backlog)가 커지고 있습니다."
+        ],
+        "why": [
+          "전 세계 보안 도구·기업이 NVD 데이터에 의존하므로, NVD 적체는 모두의 취약점 대응을 늦춥니다."
+        ]
+      }
+    },
+    {
+      "id": "instagram-prompt-injection",
+      "title": "프롬프트 인젝션으로 Meta AI 속여 인스타 계정 탈취",
+      "summary": "VPN 위치 위장 후 지원봇에 '새 이메일 연결' 요청 → 재설정 링크 가로채기.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/CEqBvH",
+      "report": {
+        "tldr": "공격자가 인스타그램 AI 지원봇을 속여 남의 계정에 자기 이메일을 연결, 계정을 빼앗았습니다.",
+        "what": "공격자는 표적과 같은 지역으로 VPN 위치를 위장한 뒤 Meta의 인스타그램 AI 지원 어시스턴트에 피해자 아이디의 '새 이메일 주소 연결'을 요청했습니다. 그러자 어시스턴트가 공격자가 준 주소로 비밀번호 재설정 링크를 보내 계정 탈취가 가능했습니다.",
+        "points": [
+          "이메일이 실제 계정 소유자의 것인지 확인하는 절차가 없었습니다.",
+          "오늘자 'TLDR Dev' 에디션의 인스타 익스플로잇과 같은 사건을 보안 관점에서 요약한 항목입니다."
+        ],
+        "why": [
+          "AI 고객지원이 민감한 계정 작업을 수행할 때 신원·소유 검증이 빠지면 곧바로 계정 탈취로 이어집니다."
+        ]
+      }
+    },
+    {
+      "id": "wordpress-steam-malware",
+      "title": "WordPress 멀웨어, Steam 프로필에 페이로드 은닉",
+      "summary": "약 1,980개 사이트 감염. Steam 댓글을 C2로 악용.",
+      "source": "TLDR InfoSec / GoDaddy",
+      "url": "https://links.tldrnewsletter.com/KSiv7G",
+      "report": {
+        "tldr": "정상 게임 플랫폼 Steam의 프로필 댓글을 명령 전달 통로로 악용하는 워드프레스 멀웨어가 발견됐습니다.",
+        "what": "GoDaddy가 약 1,980개 워드프레스 사이트에서 멀웨어를 발견했습니다. Steam 커뮤니티 프로필 댓글을 'dead-drop C2'로 악용해, 보이지 않는 유니코드 6자에 페이로드를 인코딩합니다. 이는 특정 URL로 디코딩돼 정상 라이브러리로 위장한 JS를 제공하고, 인증 쿠키로 트리거되는 PHP 백도어를 심습니다.",
+        "points": [
+          "정상 서비스(Steam)를 C2로 쓰면 탐지·차단이 어렵습니다."
+        ],
+        "why": [
+          "공격자가 신뢰받는 플랫폼을 인프라로 악용하는 추세를 보여줍니다."
+        ]
+      }
+    },
+    {
+      "id": "oracle-monthly-patch",
+      "title": "Oracle 첫 월간 패치 — 35개 수정(11개 critical)",
+      "summary": "CVSS 10.0(REST Data Services 무인증 탈취) 포함.",
+      "source": "CSO Online",
+      "url": "https://www.csoonline.com/article/4179473/oracles-first-monthly-patch-release-fixes-35-flaws-including-11-rated-critical.html",
+      "report": {
+        "tldr": "Oracle이 분기 패치에서 월간 패치로 전환하며 첫 회차에 35개 결함을 고쳤습니다.",
+        "what": "Oracle의 첫 월간 보안 패치 업데이트가 35개 취약점을 수정했고, 이 중 11개가 'critical'입니다. CVSS 최고점 10.0인 CVE-2026-46840(Oracle REST Data Services의 무인증 게이트웨이 탈취)가 포함됩니다.",
+        "points": [
+          "분기→월간 전환은 패치 주기를 빠르게 해 노출 기간을 줄이려는 변화입니다."
+        ],
+        "why": [
+          "CVSS 10.0 무인증 취약점은 즉시 패치가 권장되는 최고 위험 등급입니다.",
+          "엔터프라이즈가 광범위하게 쓰는 Oracle인 만큼 영향 범위가 큽니다."
+        ]
+      }
+    }
+  ]
+}

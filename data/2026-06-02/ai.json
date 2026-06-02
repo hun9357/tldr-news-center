@@ -1,0 +1,299 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "anthropic-ipo",
+      "title": "Anthropic, SEC에 IPO 신청서 비공개 제출",
+      "summary": "S-1을 비공개로 제출, 올가을 상장 가능성. 주식수·가격은 미정.",
+      "source": "Anthropic 공식 / CNBC",
+      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "report": {
+        "tldr": "Anthropic이 6/1 SEC에 상장을 위한 첫 서류(S-1)를 비공개로 제출했고, 이르면 올가을 상장이 가능해졌습니다.",
+        "what": "Anthropic(공익기업, PBC)이 미국 증권거래위원회(SEC)에 S-1 등록신청서를 '컨피덴셜(비공개)'로 제출했습니다. 정식 공모 전에 SEC와 비공개로 심사를 주고받는 단계로, 상장을 강제하는 것이 아니라 '상장할 수 있는 옵션'을 확보하는 절차입니다.",
+        "points": [
+          "발행 주식 수와 공모가는 아직 미정. 실제 상장 시점·규모는 시장 상황에 따라 결정됩니다.",
+          "이번 발표는 미국 증권법 Rule 135에 따른 것으로, 주식을 팔겠다는 '청약'이 아니라 절차 개시 사실만 알리는 공시입니다.",
+          "Anthropic은 직전 시리즈 H에서 650억 달러를 조달, 포스트머니 9,650억 달러로 평가받았습니다.",
+          "같은 시기 SpaceX가 사상 최대 규모 IPO를 준비 중이고, OpenAI도 상장을 준비하는 등 'IPO 풍년' 분위기."
+        ],
+        "why": [
+          "IPO는 산업별로 몰려서 나오는 경향이 있고, 먼저 상장하는 기업이 한정된 투자 자본을 더 많이 흡수합니다. OpenAI와 Anthropic 중 '누가 먼저 상장하느냐'가 이후 주가 성과를 가를 수 있습니다.",
+          "상장하면 분기별 실적·재무를 공개해야 하므로, 베일에 싸여 있던 AI 선두 기업의 매출·비용 구조가 처음으로 드러납니다.",
+          "대형 AI 기업의 첫 상장은 시장 전체의 'AI 밸류에이션 시험대'가 됩니다."
+        ],
+        "context": "S-1은 미국 기업이 상장할 때 SEC에 내는 핵심 서류로 사업·재무·위험요인을 담습니다. '컨피덴셜 제출'은 정보 노출을 늦추기 위해 흔히 쓰는 방식입니다."
+      }
+    },
+    {
+      "id": "openai-codex-aws",
+      "title": "OpenAI·Codex, AWS 정식 출시",
+      "summary": "기업이 기존 AWS 체계 그대로 OpenAI 프론티어 모델과 Codex 사용 가능.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/yszJqN",
+      "report": {
+        "tldr": "OpenAI의 최신 모델과 코딩 에이전트 Codex를 이제 AWS에서 정식으로 쓸 수 있습니다.",
+        "what": "OpenAI가 자사 프론티어 모델과 Codex를 AWS에서 일반 출시(GA)했습니다. 기업은 별도 계약·결제 없이 기존에 쓰던 AWS의 보안·거버넌스·조달·청구 체계 안에서 OpenAI 기능을 이용할 수 있습니다.",
+        "points": [
+          "엔터프라이즈가 가장 부담스러워하는 '보안 검토·구매 절차'를 새로 거치지 않아도 됩니다.",
+          "기존 AWS 자격증명·접근통제(IAM) 안에서 모델을 호출할 수 있어 도입 장벽이 크게 낮아집니다.",
+          "AWS는 그동안 Anthropic의 핵심 파트너였는데, OpenAI까지 품으며 '멀티 모델' 색채가 강해졌습니다."
+        ],
+        "why": [
+          "클라우드 3사가 특정 AI 회사에 묶이지 않고 여러 모델을 함께 제공하는 흐름이 분명해졌습니다.",
+          "기업은 한 클라우드 안에서 여러 모델을 비교·전환하기 쉬워져 선택권과 협상력이 커집니다."
+        ]
+      }
+    },
+    {
+      "id": "nemotron-3-ultra",
+      "title": "NVIDIA Nemotron 3 Ultra 공개",
+      "summary": "550B(활성 55B) 오픈웨이트 모델. AA 지능지수 48로 2위(39)와 큰 격차.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2061304911565144230.html",
+      "report": {
+        "tldr": "엔비디아가 미국産 오픈웨이트(가중치 공개) 모델 중 가장 똑똑한 Nemotron 3 Ultra를 내놨습니다.",
+        "what": "총 5,500억(550B) 파라미터에 추론 시 활성 파라미터는 550억(55B)인 MoE 구조 모델입니다. Artificial Analysis 지능지수 48점으로, 2위 Gemma 4 31B(39점)를 크게 앞섭니다.",
+        "points": [
+          "추론 성능을 높이는 NVFP4 양자화 형식으로 제공됩니다.",
+          "사전 공개 Deep Infra 엔드포인트에서 초당 300토큰 이상의 속도를 냅니다.",
+          "'오픈웨이트'라 누구나 받아서 직접 돌리고 미세조정할 수 있습니다(완전 오픈소스와는 다름)."
+        ],
+        "why": [
+          "폐쇄형 프론티어 모델(OpenAI·Anthropic)과 오픈웨이트 진영의 격차가 빠르게 좁혀지고 있습니다.",
+          "엔비디아가 칩뿐 아니라 강력한 모델까지 내놓으며 AI 스택 전반으로 영향력을 넓히고 있습니다."
+        ],
+        "context": "MoE(Mixture of Experts)는 전체 파라미터 중 일부 '전문가'만 활성화해 큰 모델을 적은 연산으로 돌리는 기법입니다."
+      }
+    },
+    {
+      "id": "qwen-3-7-plus",
+      "title": "Qwen3.7-Plus — 멀티모달 에이전트",
+      "summary": "비전+언어 통합, GUI·CLI를 단일 에이전트 루프에서 처리.",
+      "source": "TLDR AI",
+      "url": "https://qwen.ai/blog?id=qwen3.7-plus",
+      "report": {
+        "tldr": "알리바바가 화면(GUI)과 명령줄(CLI)을 한 흐름에서 다루는 멀티모달 에이전트 모델을 공개했습니다.",
+        "what": "Qwen3.7-Plus는 시각과 언어를 하나의 에이전트 기반으로 통합한 모델로, GUI 조작과 CLI 명령을 단일 에이전트 루프 안에서 매끄럽게 오갑니다. Alibaba Cloud Model Studio에서 제공됩니다.",
+        "points": [
+          "다양한 스캐폴드·프레임워크에서 일관된 성능을 낸다고 강조합니다.",
+          "'화면을 보고 클릭하는' 컴퓨터 사용형 에이전트와 '터미널을 다루는' 코딩형 에이전트를 한 모델이 겸합니다."
+        ],
+        "why": [
+          "중국 모델 진영이 단순 챗봇을 넘어 '실제 작업을 수행하는 에이전트'로 빠르게 이동하고 있습니다.",
+          "GUI+CLI 통합은 컴퓨터 자동화(업무 대행) 에이전트의 핵심 역량입니다."
+        ]
+      }
+    },
+    {
+      "id": "video-agents-ethan-he",
+      "title": "왜 비디오 에이전트 모델이 다음인가 — Ethan He 인터뷰",
+      "summary": "엔비디아 Cosmos 리드 출신이 xAI에서 3개월 만에 Grok Image 구축.",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/video-agents",
+      "report": {
+        "tldr": "영상 생성·월드모델 분야 핵심 연구자가 프론티어 영상 시스템을 실제로 어떻게 만드는지 풀어낸 인터뷰입니다.",
+        "what": "Ethan He는 엔비디아의 Cosmos 월드모델 리드였고, xAI로 옮겨 3개월 만에 Grok Image를 구축했습니다. 영상 생성·멀티모달·실시간 월드모델 작업의 중심에 있던 인물입니다.",
+        "points": [
+          "프론티어 이미지·영상 시스템을 만드는 데 실제로 필요한 것이 무엇인지 설명합니다.",
+          "정적 이미지에서 '비디오 에이전트'(영상을 이해·생성하며 행동하는 모델)로의 전환을 다룹니다."
+        ],
+        "why": [
+          "텍스트→이미지 다음 격전지가 '영상·월드모델'임을 시사합니다.",
+          "로봇·자율주행 등 물리 세계 AI의 기반 기술과 직접 연결됩니다."
+        ]
+      }
+    },
+    {
+      "id": "opus-48-model-welfare",
+      "title": "Opus 4.8 Part 2: 모델 웰페어",
+      "summary": "Anthropic의 '모델 복지' 연구 정리. 자기보고 의존의 한계도 다룸.",
+      "source": "Zvi (블로그)",
+      "url": "https://thezvi.wordpress.com/2026/06/01/opus-4-8-part-2-model-welfare/",
+      "report": {
+        "tldr": "AI 모델 자체의 '복지'를 어떻게 볼 것인가에 대한 Anthropic의 연구를 정리·논평한 글입니다.",
+        "what": "Anthropic은 모델 웰페어(model welfare)를 연구 주제로 다루며, 주로 모델의 자기보고에 의존해 평가합니다. 다만 모델의 응답이 진짜 내부 상태를 반영하는지 검증하기 어렵다는 한계가 있습니다.",
+        "points": [
+          "Opus 4.8 관련 모델 복지 연구 결과를 살펴봅니다.",
+          "'모델이 말하는 것'이 진실인지 판단하는 방법론적 난점을 지적합니다."
+        ],
+        "why": [
+          "AI 능력이 커지며 '도구로서의 안전'뿐 아니라 '대상으로서의 윤리' 논의가 본격화되고 있습니다.",
+          "철학적으로 보이지만 정렬(alignment)·안전 연구와 실무적으로 얽혀 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "perplexity-search-as-code",
+      "title": "Perplexity, 검색을 '코드 생성'으로 재정의(SaC)",
+      "summary": "모델이 검색 파이프라인을 SDK로 직접 조립. 벤치마크 4/5 1위.",
+      "source": "research.perplexity.ai",
+      "url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
+      "report": {
+        "tldr": "Perplexity가 '검색'을 고정 API가 아니라 모델이 코드로 조립하는 프로그래밍 가능한 도구로 바꾸는 새 구조(Search as Code)를 공개했습니다.",
+        "what": "기존 검색은 '쿼리를 넣으면 정해진 파이프라인이 결과를 돌려주는' 모놀리식 구조라 에이전트 시대엔 경직됩니다. SaC는 검색 스택을 검색·랭킹·필터·팬아웃 같은 SDK 프리미티브로 잘게 노출하고, 모델이 작업별로 파이썬 코드를 생성해 샌드박스에서 검색 파이프라인을 즉석 조립·실행합니다.",
+        "points": [
+          "모델이 한 번의 추론에서 수백~수천 건의 검색 연산을 코드로 오케스트레이션할 수 있습니다.",
+          "벤치마크 5종 중 4종에서 1위(DSQA 0.871, BrowseComp 0.805 등), 신규 'WANDR'에선 2위의 2.5배.",
+          "CVE 200건 수집 사례에서 정확도 100%, 토큰 사용량 85% 절감(28만8천→4만2천). 경쟁 시스템들은 25% 미만.",
+          "중간 상태는 샌드박스의 영속 파일시스템에 저장해 여러 턴에 걸쳐 활용합니다."
+        ],
+        "why": [
+          "'모델 추론 + 결정적 연산(코드) + 검색 I/O'를 결합한 하이브리드 컴퓨팅으로의 전환을 보여줍니다.",
+          "복잡한 리서치·조사 작업을 자동화하는 에이전트의 성능·비용을 동시에 끌어올립니다.",
+          "오늘부터 Perplexity Computer·Agent API에 적용됩니다."
+        ],
+        "context": "프리미티브(primitive)는 더 큰 기능을 조립하는 최소 단위 building block을 뜻합니다. SDK로 이 단위들을 노출하면 모델이 레고처럼 검색 절차를 직접 짭니다."
+      }
+    },
+    {
+      "id": "openai-bedrock-cookbook",
+      "title": "Amazon Bedrock에서 OpenAI 모델 실행 (쿠킹북)",
+      "summary": "Responses API로 프로덕션 워크플로 구축하는 실전 가이드.",
+      "source": "OpenAI Cookbook",
+      "url": "https://developers.openai.com/cookbook/examples/partners/aws/openai_models_with_amazon_bedrock",
+      "report": {
+        "tldr": "AWS Bedrock에 올린 OpenAI 모델로 실제 서비스용 워크플로를 만드는 방법을 단계별로 보여주는 공식 가이드입니다.",
+        "what": "OpenAI 쿠킹북이 Bedrock 위 OpenAI 모델을 Responses API로 다루는 법을 다룹니다. 구조화 출력, 툴 호출, 파일 입력, 상태 관리, 프롬프트 캐싱, 운영 모범사례를 포함합니다.",
+        "points": [
+          "구조화 출력·툴 호출 등 프로덕션에서 반드시 필요한 패턴을 예제로 제공합니다.",
+          "프롬프트 캐싱으로 반복 호출 비용을 줄이는 방법도 다룹니다."
+        ],
+        "why": [
+          "위의 'OpenAI on AWS' 출시를 실제로 구현하려는 개발자에게 바로 쓰는 레퍼런스입니다."
+        ]
+      }
+    },
+    {
+      "id": "nvidia-cosmos-3",
+      "title": "NVIDIA Cosmos 3 — 피지컬 AI 파운데이션 모델",
+      "summary": "텍스트·이미지·영상·소리·행동을 아우르는 오픈 옴니모델, 리더보드 1위.",
+      "source": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-launches-cosmos-3-the-open-frontier-foundation-model-for-physical-ai",
+      "report": {
+        "tldr": "엔비디아가 로봇 등 '물리 세계 AI'를 위한 개방형 파운데이션 모델 Cosmos 3를 내놨습니다.",
+        "what": "Cosmos 3는 텍스트·이미지·영상·주변 소리·행동을 함께 다루는 완전 개방형 옴니모델로, 네이티브 시각 추론과 멀티모달 생성을 지원합니다. 추론 트랜스포머와 생성 전문 트랜스포머를 짝지은 MoT 구조입니다.",
+        "points": [
+          "물리 AI 리더보드 1위를 차지했습니다.",
+          "더 적은 데이터·낮은 학습 비용으로 물리 AI 시스템을 만들 수 있는 사전학습 기반을 제공합니다."
+        ],
+        "why": [
+          "로봇·자율주행 등 현실 세계와 상호작용하는 AI의 '공통 기반' 경쟁이 가열되고 있습니다.",
+          "엔비디아는 칩·소프트웨어에 이어 물리 AI 모델까지 생태계를 수직 확장 중입니다."
+        ]
+      }
+    },
+    {
+      "id": "jetbrains-mellum-2",
+      "title": "JetBrains Mellum 2",
+      "summary": "코딩·추론·툴 사용·에이전트에 최적화된 12B MoE 모델.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.31268",
+      "report": {
+        "tldr": "IDE로 유명한 JetBrains가 코딩 특화 12B MoE 모델 Mellum 2를 공개했습니다.",
+        "what": "Mellum 2는 코딩·추론·툴 사용·에이전트 워크플로에 최적화된 120억 파라미터 MoE 언어모델입니다.",
+        "points": [
+          "범용 모델이 아니라 개발 작업에 초점을 둔 '전용 모델'입니다.",
+          "에이전트형 코딩(자동 수정·실행)까지 겨냥합니다."
+        ],
+        "why": [
+          "개발툴 회사가 자체 코딩 모델을 갖추는 흐름 — IDE에 깊게 통합된 AI가 경쟁력이 됩니다."
+        ]
+      }
+    },
+    {
+      "id": "us-nvidia-china-loophole",
+      "title": "美, 엔비디아 첨단칩 우회수출 차단",
+      "summary": "中 본사 기업이면 위치 무관 수출허가 필요 → 해외 자회사 우회 차단.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/us-nvidia-amd-china-subsidiary-chip-curbs",
+      "report": {
+        "tldr": "미국이 중국 기업의 '해외 자회사를 통한 엔비디아 첨단칩 우회 구매'를 막는 새 지침을 냈습니다.",
+        "what": "미 상무부가 수출 허가 요건을 '중국에 본사를 둔 모든 법인'으로 확장했습니다. 그 법인이 물리적으로 어디에 있든 적용되어, 제3국 자회사로 칩을 사들이던 빈틈이 막힙니다.",
+        "points": [
+          "향후 판매가 대상이며, 이미 출하된 하드웨어를 회수하는 조치는 아닙니다.",
+          "서버 등 고급 컴퓨팅 장비의 '유지보수'에는 영향이 없습니다."
+        ],
+        "why": [
+          "미·중 반도체 갈등이 '거래 상대의 국적·소유구조'까지 따지는 단계로 정밀해졌습니다.",
+          "엔비디아의 중국 매출과 글로벌 공급망에 추가 제약으로 작용합니다."
+        ]
+      }
+    },
+    {
+      "id": "alphabet-80b",
+      "title": "Alphabet, AI 인프라 위해 800억 달러 발행",
+      "summary": "Berkshire 100억 포함. 전례 없는 수요로 AI 컴퓨트 투자 확대.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/01/alphabet-to-raise-80-billion-from-stock-sales-to-fund-ai-buildout.html",
+      "report": {
+        "tldr": "구글 모회사 Alphabet이 AI 인프라 투자 재원으로 주식 800억 달러를 발행합니다.",
+        "what": "전례 없는 고객 수요에 대응해 AI 컴퓨트 인프라에 투자하기 위한 자금 조달입니다. 버크셔 해서웨이 100억 달러, 인수 공모 300억 달러, 3분기 시작 예정인 ATM(시장가 매도) 400억 달러로 구성됩니다.",
+        "points": [
+          "골드만삭스·JP모건·모건스탠리가 인수 공모의 공동 주관사입니다.",
+          "버크셔(워런 버핏)의 참여는 'AI 인프라'에 대한 보수적 투자자의 신뢰 신호로 읽힙니다."
+        ],
+        "why": [
+          "빅테크의 AI 설비투자(CapEx)가 '수백억 달러 단위'로 일상화되고 있음을 보여줍니다.",
+          "막대한 자본을 댈 수 있는 소수 기업으로 AI 경쟁이 집중되는 구조입니다."
+        ]
+      }
+    },
+    {
+      "id": "opus-48-arc-agi-3",
+      "title": "Opus 4.8, ARC-AGI-3 신기록",
+      "summary": "GPT-5.5 점수의 3배 기록.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2061513383287882111.html",
+      "report": {
+        "tldr": "Anthropic의 Opus 4.8이 추론 난이도 높은 ARC-AGI-3 벤치마크에서 GPT-5.5의 3배 점수를 냈습니다.",
+        "what": "ARC-AGI는 '새로운 규칙을 추론해 푸는' 일반지능형 벤치마크로 단순 암기로는 풀기 어렵습니다. Opus 4.8이 이 최신판에서 큰 격차로 앞섰습니다.",
+        "points": [
+          "GPT-5.5 대비 3배는 동일 과제에서 매우 큰 격차입니다."
+        ],
+        "why": [
+          "추론·일반화 능력에서 모델 간 우열이 뚜렷이 갈리고 있음을 보여줍니다.",
+          "Anthropic IPO 시점과 맞물려 기술 우위를 부각하는 신호이기도 합니다."
+        ]
+      }
+    },
+    {
+      "id": "mistral-search-toolkit",
+      "title": "Mistral Search Toolkit",
+      "summary": "데이터 수집·검색·평가를 단일 인터페이스로 통합한 오픈소스 프레임워크.",
+      "source": "Mistral",
+      "url": "https://mistral.ai/news/search-toolkit/",
+      "report": {
+        "tldr": "Mistral이 AI 검색 파이프라인의 수집·검색·평가를 하나로 묶은 오픈소스 툴킷을 퍼블릭 프리뷰로 냈습니다.",
+        "what": "Search Toolkit은 데이터 ingestion(수집), retrieval(검색), evaluation(평가)을 공통 인터페이스로 통합합니다.",
+        "points": [
+          "RAG(검색증강생성) 파이프라인을 구축·평가하는 표준 도구를 지향합니다."
+        ],
+        "why": [
+          "Perplexity의 SaC와 함께, '검색을 AI에 최적화'하려는 업계 흐름의 또 다른 사례입니다.",
+          "오픈소스라 자체 RAG를 만드는 팀이 바로 활용할 수 있습니다."
+        ]
+      }
+    },
+    {
+      "id": "cursor-teams-limits",
+      "title": "Cursor, Teams 사용량 한도 확대",
+      "summary": "Teams 한도 상향 + 헤비 사용자용 Premium 좌석 + 관리자 지출 통제.",
+      "source": "Cursor",
+      "url": "https://cursor.com/blog/teams-pricing-june-2026",
+      "report": {
+        "tldr": "AI 코드 에디터 Cursor가 팀 플랜 사용 한도를 늘리고 요금 옵션을 개편했습니다.",
+        "what": "Teams 플랜 한도를 상향하고, 에이전트를 많이 쓰는 사용자를 위한 Premium 좌석과 관리자용 지출 통제 기능을 추가했습니다.",
+        "points": [
+          "'에이전트 헤비 유저'라는 새 사용자층을 위한 별도 좌석을 만든 점이 특징입니다."
+        ],
+        "why": [
+          "AI 코딩 사용량이 폭증하며 요금제가 '토큰·에이전트 사용량' 중심으로 재편되고 있습니다."
+        ]
+      }
+    }
+  ]
+}

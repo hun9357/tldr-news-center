@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+.env
+.env.local
+.DS_Store
+*.log
+.vercel
+next-env.d.ts
+
+# dev artifacts (not part of the app)
+/*.png
+/preview*.html
+/tc.tmp.json
+/tsconfig.tsbuildinfo
+/data/2026-06-02.json
