@@ -1,0 +1,309 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "wix-layoffs",
+      "title": "Wix, AI발 감원으로 1,000명 해고",
+      "summary": "전체 인력의 20%로, 셰켈 강세와 AI 급변을 이유로 들었다.",
+      "source": "Mashable",
+      "url": "https://mashable.com/tech/wix-cuts-1000-employees-in-latest-ai-fueled-layoff",
+      "report": {
+        "tldr": "Wix가 셰켈 강세와 AI 급변을 이유로 인력의 20%인 1,000명을 감원했다.",
+        "what": "Wix가 이스라엘 셰켈의 달러 대비 강세와 AI 역량의 급속한 진화를 이유로 전체 인력의 20%에 해당하는 1,000명을 감원했다. 아비샤이 아브라하미 CEO는 비용 대부분이 셰켈인데 매출은 달러여서 환율 압박이 구조적 도전을 만든다고 설명했다. 이는 AI 발전에 적응하려 인력을 줄이는 대형 테크 흐름의 연장선으로, 지난해 AI는 5만 건의 감원과 연관됐다.",
+        "points": [
+          "인력의 20%인 1,000명 감원",
+          "셰켈 강세 + AI 급변이 배경",
+          "지난해 AI 연관 감원 5만 건"
+        ],
+        "why": [
+          "디자인·웹 플랫폼 업계의 AI 구조조정",
+          "환율·AI가 겹친 비용 압박"
+        ]
+      }
+    },
+    {
+      "id": "canva-editing-tools",
+      "title": "Canva, 새 편집 도구·결제·미리보기 추가",
+      "summary": "이미지-투-비디오에 사람 얼굴 애니메이션과 라이브 모바일 미리보기를 더했다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/computing/canva-adds-new-editing-tools-payments-and-previews-to-save-you-from-embarrassing-crops/",
+      "report": {
+        "tldr": "Canva가 얼굴 애니메이션·라이브 미리보기·게시 통합 등으로 디자인 도구를 넘어선다.",
+        "what": "Canva가 이미지-투-비디오 도구를 사람 얼굴 애니메이션 지원으로 업그레이드하고, 라이브 모바일 미리보기와 AI 발표자 노트 같은 워크플로 개선도 더했다. 페이스북·핀터레스트·클라우드 게시 통합과 허브스팟·메타 광고용 마케팅 앱으로 Canva를 떠나지 않고 제작·게시가 가능하다. 디자인 도구를 넘어 경쟁하려는 야심이지만, 단순함을 유지하며 전문 기능을 더하는 균형이 과제로 남는다.",
+        "points": [
+          "얼굴 애니메이션·라이브 미리보기·AI 노트",
+          "페이스북·핀터레스트·허브스팟 등 게시·마케팅 통합",
+          "단순함 유지가 핵심 과제"
+        ],
+        "why": [
+          "디자인 툴의 올인원 플랫폼화",
+          "제작-게시-마케팅 통합 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "apple-watch-oled-hmo",
+      "title": "차세대 애플워치, 배터리 늘리는 OLED 화면 가능성",
+      "summary": "LG디스플레이가 개발 중인 HMO 기술로 전력·제조비 절감 기대.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/wearables/next-gen-apple-watch-could-get-an-upgraded-oled-screen-with-a-battery-life-boost/",
+      "report": {
+        "tldr": "애플이 차세대 워치용으로 전력·비용을 줄일 HMO OLED 기술을 검토 중이다.",
+        "what": "애플이 차세대 애플워치용으로 고이동도 산화물(HMO)이라는 새 OLED 디스플레이 기술을 탐색 중일 수 있다. 오늘의 LTPO 대비 HMO는 전력 소비와 제조 복잡성을 줄여 배터리 수명 연장과 생산비 절감으로 이어질 수 있다. LG디스플레이가 개발 중이라 알려졌으나 애플이 요구하는 속도·신뢰성 달성엔 기술 과제가 남아, 잘 풀리면 2027년 이후 애플워치에, 이후 아이폰에도 적용 가능하다.",
+        "points": [
+          "HMO가 LTPO 대비 전력·제조비 절감",
+          "LG디스플레이 개발, 속도·신뢰성 과제",
+          "2027년 이후 워치 적용 가능성"
+        ],
+        "why": [
+          "웨어러블 디스플레이 기술의 진화 방향",
+          "배터리 수명·원가 개선 기대"
+        ]
+      }
+    },
+    {
+      "id": "why-ai-cant-match-creative",
+      "title": "AI가 인간 창작을 못 따라가는 이유",
+      "summary": "사람이 만든 광고가 단기 매출·장기 브랜드에서 더 높은 성과를 냈다.",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4178383/why-ai-cant-match-human-creative-work.html",
+      "report": {
+        "tldr": "사람이 만든 광고·글이 AI보다 일관되게 더 나은 성과를 낸다는 연구.",
+        "what": "한 연구에서 AI 생성 광고를 확실히 식별한 사람은 25%뿐이었지만, 사람이 만든 광고가 단기 매출 영향에서 14%, 장기 브랜드 건강에서 17% 더 높은 성과를 일관되게 냈다. 웹 콘텐츠 연구에서는 사람이 쓴 글이 구글 검색 1위에 오른 비율이 80%로, AI 생성 9%를 크게 앞섰다. 데이터는 AI가 기존 패턴을 복제할 뿐 진정한 창의적 돌파나 감정적 연결을 만들지 못해, 사람들이 무의식적으로 인간 창의를 선호함을 시사한다.",
+        "points": [
+          "사람 광고: 단기 매출 +14%, 장기 브랜드 +17%",
+          "사람 글의 검색 1위 비율 80% vs AI 9%",
+          "AI는 패턴 복제, 창의적 돌파엔 한계"
+        ],
+        "why": [
+          "창작에서 인간 가치의 측정 가능한 우위",
+          "AI 콘텐츠 전략의 한계 환기"
+        ]
+      }
+    },
+    {
+      "id": "ai-changed-ux-patterns",
+      "title": "AI가 조용히 바꾼 현대 UX 패턴",
+      "summary": "지능형 기능이 UI에 스며들며 상호작용 방식을 바꿨다.",
+      "source": "HackerNoon",
+      "url": "https://hackernoon.com/how-ai-quietly-changed-modern-ux-patterns",
+      "report": {
+        "tldr": "AI가 지능형 기능을 UI에 통합하며 현대 UX 패턴을 조용히 바꿔놓았다.",
+        "what": "AI가 지능형 기능을 사용자 인터페이스에 통합하며 현대 UX 패턴을 조용히 변형시켰다. 개선된 워크플로와 디자인 접근을 통해 사용자가 디지털 제품과 상호작용하는 방식이 바뀌었다. 이는 더 사용자 친화적 경험을 만드는 제품 디자인의 중요한 진화다.",
+        "points": [
+          "지능형 기능의 UI 통합",
+          "워크플로·상호작용 방식 변화",
+          "제품 디자인의 진화"
+        ],
+        "why": [
+          "AI 시대 UX 설계의 변화 인식",
+          "디자이너의 패턴 업데이트 필요"
+        ]
+      }
+    },
+    {
+      "id": "product-discovery-decision",
+      "title": "제품 발견에서 가장 조용하지만 중대한 결정",
+      "summary": "어떤 고객 신호를 조사할 가치가 있는지 가리는 것이 출발점.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/W3vxR3",
+      "report": {
+        "tldr": "제품 발견은 어떤 고객 신호가 조사할 가치가 있는지 평가하는 데서 시작된다.",
+        "what": "효과적인 제품 발견은 고객 신호가 애초에 조사할 가치가 있는지 평가하는 데서 출발한다. 연구·개발에 착수하기 전, 신호가 진짜 유의미한지, 기능 요청이 아니라 근본 니즈를 반영하는지, 전략적 우선순위와 맞는지 평가해야 한다. 많은 팀이 이 단계를 건너뛰어 잘못된 문제를 푼다. AI가 패턴 식별을 도울 수 있지만, 어떤 신호가 의미 있는 기회인지 판단하는 데는 여전히 인간의 판단이 필요하다.",
+        "points": [
+          "신호의 유의미성·근본 니즈·전략 적합성 평가",
+          "이 단계 누락이 잘못된 문제 해결로 이어짐",
+          "AI는 패턴 식별, 판단은 인간 몫"
+        ],
+        "why": [
+          "제품 발견 프로세스의 핵심 게이트",
+          "리소스 낭비를 막는 의사결정 원칙"
+        ]
+      }
+    },
+    {
+      "id": "huegrid",
+      "title": "HueGrid — 22개+ 모드의 그라데이션 생성기 (웹사이트)",
+      "summary": "2D·3D·메시·노이즈·오로라 등 다양한 그라데이션 유형 제공.",
+      "source": "HueGrid",
+      "url": "https://huegrid.app/",
+      "report": {
+        "tldr": "HueGrid는 2D·3D·메시·노이즈·오로라 등 22가지 이상 모드의 그라데이션을 만든다.",
+        "what": "HueGrid는 2D 패턴, 3D 효과, 메시 블렌딩, 노이즈 기반 유기적 그라데이션, 오로라 효과, 그리고 리퀴드 크롬·파티클 필드 같은 특화 기능을 포함한 다양한 그라데이션 유형을 제공한다.",
+        "points": [
+          "2D·3D·메시·노이즈·오로라 그라데이션",
+          "리퀴드 크롬·파티클 필드 등 특화 기능",
+          "웹 기반 무료 그라데이션 생성"
+        ],
+        "why": [
+          "디자이너의 그라데이션 제작 효율화",
+          "비주얼 자산 생성 도구"
+        ]
+      }
+    },
+    {
+      "id": "greyscaler",
+      "title": "Greyscaler (웹사이트)",
+      "summary": "강도별 그레이스케일 팔레트 11단계를 생성한다.",
+      "source": "Greyscaler",
+      "url": "https://www.greyscala.xyz/",
+      "report": {
+        "tldr": "Greyscaler는 강도가 다른 11단계 그레이스케일 색 팔레트를 생성한다.",
+        "what": "Greyscaler는 강도가 다양한 그레이스케일 색 팔레트를 생성하는 도구로, 매우 밝은 톤부터 매우 어두운 톤까지 11가지 음영을 제공한다.",
+        "points": [
+          "11단계 그레이스케일 음영 생성",
+          "밝음~어두움 강도 범위",
+          "디자인 시스템용 회색조 팔레트"
+        ],
+        "why": [
+          "UI·디자인 시스템의 회색조 설계 보조",
+          "팔레트 제작 도구"
+        ]
+      }
+    },
+    {
+      "id": "letters-made-of-letters",
+      "title": "Letters Made of Letters (웹사이트)",
+      "summary": "텍스트로 글자를 만드는 타이포 실험 도구.",
+      "source": "Letterbox",
+      "url": "https://www.letterbox.sh/",
+      "report": {
+        "tldr": "텍스트로 글자 형태를 만드는 타이포그래피 놀이 도구다.",
+        "what": "글자를 글자로 빚는 도구로, 폰트를 고르고 색을 정하면 타입이 살아 움직이는 모습을 볼 수 있다.",
+        "points": [
+          "텍스트로 글자 형태 구성",
+          "폰트·색 선택형 타이포 실험",
+          "폰트·색 커스터마이즈 지원"
+        ],
+        "why": [
+          "타이포그래피 창작·실험 도구",
+          "디자인 영감 자극"
+        ]
+      }
+    },
+    {
+      "id": "tom-chung-design-process",
+      "title": "톰 청과 개인적 디자인 프로세스의 구축",
+      "summary": "트렌드보다 재료의 정직함과 생산 제약을 중시하는 디자인 이론.",
+      "source": "DesignWanted",
+      "url": "https://designwanted.com/tom-chung-design-process-theory/",
+      "report": {
+        "tldr": "톰 청은 자발적 프로젝트로 재료의 정직함과 생산 제약을 중시하는 디자인 이론을 다진다.",
+        "what": "톰 청은 트렌드가 아니라 재료의 정직함과 생산 제약을 강조하는 자발적 프로젝트를 통해 자신의 디자인 이론을 쌓는다. 움브라에서 독립 실무로 전환하며 장식보다 기능·명료함을 우선하는 개념 주도 접근을 발전시켰다. 토론토의 제한된 디자인 생태계에서 지역 재료·생산 기법을 자원으로 바꿔 독자적 디자인 언어를 형성했다.",
+        "points": [
+          "재료의 정직함·생산 제약 중시",
+          "기능·명료함 우선의 개념 주도 접근",
+          "지역 자원을 디자인 언어로 전환"
+        ],
+        "why": [
+          "산업·제품 디자이너의 철학 사례",
+          "독립 실무 전환의 인사이트"
+        ]
+      }
+    },
+    {
+      "id": "variable-fonts-guide",
+      "title": "가변 폰트 만들기: 타입 디자이너 가이드",
+      "summary": "하나의 OpenType 파일에 연속적 디자인 변형을 담는다.",
+      "source": "WE AND THE COLOR",
+      "url": "https://weandthecolor.com/how-to-create-variable-fonts-a-complete-guide-for-type-designers/210054",
+      "report": {
+        "tldr": "가변 폰트는 단일 OpenType 파일에 연속적 디자인 변형을 담아 여러 폰트를 대체한다.",
+        "what": "가변 폰트는 연속적 디자인 변형 범위를 담은 단일 OpenType 파일로, 여러 개별 폰트 파일을 무게·폭 등 사이를 보간하는 하나의 파일로 대체한다. 무게·폭·이탤릭·기울기·광학 크기 같은 변동 축을 사용해 타이포그래피를 무한히 제어한다. 브라우저 호환성 92%, 웹사이트 채택률 40%로 가변 폰트는 타입 디자인의 전문 표준이 됐다.",
+        "points": [
+          "단일 OpenType 파일에 연속 변형 수록",
+          "무게·폭·이탤릭 등 변동 축 활용",
+          "브라우저 호환 92%, 채택 40%"
+        ],
+        "why": [
+          "타입 디자이너의 핵심 역량",
+          "웹 타이포그래피 표준화"
+        ]
+      }
+    },
+    {
+      "id": "velvele-omnui-logo",
+      "title": "벨벨레, 장수 브랜드 옴누이에 5가지 값의 로고 시스템",
+      "summary": "점 기반 시각 시스템으로 평가·움직임·회복 등 개념을 표현한다.",
+      "source": "The Brand Identity",
+      "url": "https://the-brandidentity.com/project/velvele-gives-longevity-brand-omnui-a-logo-system-with-five-values",
+      "report": {
+        "tldr": "벨벨레가 옴누이에 점 기반의 유연한 시각 시스템으로 다섯 가치를 담은 아이덴티티를 만들었다.",
+        "what": "벨벨레가 토착 상징과 디지털 그래픽에서 영감을 받은 유연한 점 기반 시각 시스템으로 옴누이의 아이덴티티를 구축해, 아이콘이 평가·움직임·회복·영양·연결 같은 개념을 표현하면서 유기적·인간적·기술적으로 동시에 느껴지게 했다. 브랜드명과 시각 언어가 함께 진화하며 장수·과학·공동체·자기발견 테마를 강화한다. 'Subtle Yellow'와 'Offline Black' 팔레트, 지오메트릭 산세리프 ABC Favorit로 명료함을 더했다.",
+        "points": [
+          "점 기반 유연 아이콘 시스템으로 5가지 가치 표현",
+          "Subtle Yellow·Offline Black 차별화 팔레트",
+          "ABC Favorit로 명료함 강화"
+        ],
+        "why": [
+          "브랜드 아이덴티티 설계 사례 연구",
+          "유연 시각 시스템의 실전 적용"
+        ]
+      }
+    },
+    {
+      "id": "apple-icons-manual",
+      "title": "애플에게: 새 아이콘에 설명서가 필요하면 실패한 것",
+      "summary": "크리에이터 스튜디오 새 아이콘이 혼란스러워 사용 가이드까지 만들었다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/logos-icons/dear-apple-if-your-new-icons-need-a-manual-theyre-not-working",
+      "report": {
+        "tldr": "애플의 크리에이터 스튜디오 새 아이콘이 너무 혼란스러워 사용 가이드가 필요해졌다.",
+        "what": "애플이 크리에이터 스튜디오용 새 앱 아이콘을 내놨는데 너무 혼란스러워, 사용자가 아이콘을 구분하도록 돕는 사용 가이드를 회사가 만들어야 했다.",
+        "points": [
+          "혼란스러운 새 아이콘 디자인",
+          "구분용 사용 가이드까지 제작",
+          "사용성 떨어지는 아이콘 디자인 비판"
+        ],
+        "why": [
+          "아이콘·시각 명료성의 기본 원칙 환기",
+          "디자인 비평 사례"
+        ]
+      }
+    },
+    {
+      "id": "dee-juusan-manga",
+      "title": "디 주산, 흑백 스토리텔링으로 감정 풍부한 만화를 그리다",
+      "summary": "요르단 기반의 수상 경력 만화가.",
+      "source": "Design You Trust",
+      "url": "https://designyoutrust.com/2026/05/artist-dee-juusan-draws-emotionally-rich-manga-through-black-and-white-storytelling/",
+      "report": {
+        "tldr": "요르단 기반 수상 만화가 디 주산이 고대비 흑백 이미지로 감정 풍부한 이야기를 만든다.",
+        "what": "디 주산은 요르단을 기반으로 활동하는 수상 경력의 만화가로, 고대비 흑백 이미지를 통해 감정적으로 풍부한 이야기를 만들어낸다.",
+        "points": [
+          "요르단 기반 수상 만화가",
+          "고대비 흑백 스토리텔링",
+          "감정 중심의 흑백 작화 스타일"
+        ],
+        "why": [
+          "흑백 비주얼 내러티브의 표현력",
+          "일러스트·만화 영감"
+        ]
+      }
+    },
+    {
+      "id": "wwdc-wallpaper",
+      "title": "WWDC 배경화면, 애플뮤직 플레이리스트와 함께 무료 배포",
+      "summary": "6월 8일 WWDC 2026와 iOS 27 공개를 앞둔 프로모션.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/06/01/wwdc-wallpaper-released-as-free-download-alongside-apple-music-playlist-and-more/",
+      "report": {
+        "tldr": "애플이 WWDC 2026를 앞두고 'Glow all out' 배경화면과 애플뮤직 플레이리스트를 공개했다.",
+        "what": "6월 8일 WWDC 2026를 앞두고 애플이 iOS 27 등 업데이트 공개에 대한 기대를 높이려 새 프로모 영상, 'Glow all out' 테마 배경화면, 공식 애플뮤직 플레이리스트를 내놨다.",
+        "points": [
+          "WWDC 2026는 6월 8일",
+          "'Glow all out' 테마 배경화면",
+          "프로모 영상·애플뮤직 플레이리스트"
+        ],
+        "why": [
+          "애플 디자인 언어·마케팅 톤 엿보기",
+          "WWDC 시즌 비주얼 트렌드"
+        ]
+      }
+    }
+  ]
+}

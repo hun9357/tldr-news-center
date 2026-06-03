@@ -1,0 +1,20 @@
+{
+  "date": "2026-06-03",
+  "weekday": "수",
+  "headline": "레드햇 npm 패키지 공급망 공격으로 개발자 자격증명 무더기 탈취",
+  "subtitle": "GPT-5.5 베드록 상륙, 머니그램 스테이블코인, Wix 1,000명 감원까지 — 6월 3일 TLDR 10개 에디션 요약",
+  "keyword": "공급망 보안 · AI 비용 반발",
+  "bigStoryId": "redhat-npm-backdoor",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "crypto",
+    "founders",
+    "dev",
+    "devops",
+    "it",
+    "design",
+    "marketing"
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "gpt-5-5-bedrock",
+      "title": "아마존 베드록에 OpenAI GPT-5.5·5.4·코덱스 출시",
+      "summary": "시트 라이선스 없이 토큰 단위 과금으로 제공된다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/get-started-with-openai-gpt-5-5-gpt-5-4-models-and-codex-on-amazon-bedrock/",
+      "report": {
+        "tldr": "AWS가 베드록에 OpenAI GPT-5.5·GPT-5.4와 코덱스를 토큰 단위 과금으로 출시했다.",
+        "what": "AWS가 베드록 플랫폼에 OpenAI의 GPT-5.5·GPT-5.4 모델과 코덱스 코딩 에이전트를 출시했으며, 개발자당 시트 라이선스 없이 토큰 단위 과금을 제공한다. GPT-5.5는 까다로운 워크로드용으로 US East(오하이오)에서, GPT-5.4는 더 나은 가격-성능을 위해 미국 2개 리전에서 제공된다. 주간 400만+ 개발자가 쓰는 코덱스는 VS Code·JetBrains 등 인기 IDE에 통합된다.",
+        "points": [
+          "시트 없는 토큰 단위 과금",
+          "GPT-5.5(오하이오)·GPT-5.4(2개 리전)",
+          "코덱스가 VS Code·JetBrains에 통합"
+        ],
+        "why": [
+          "멀티클라우드에서의 OpenAI 모델 접근 확대",
+          "엔터프라이즈 AI 도입의 과금·배포 유연성"
+        ]
+      }
+    },
+    {
+      "id": "digitalocean-serverless-inference",
+      "title": "디지털오션 서버리스 추론 심층 분석",
+      "summary": "단일 API 키로 30개 이상 파운데이션 모델 접근.",
+      "source": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/serverless-inference-deep-dive",
+      "report": {
+        "tldr": "디지털오션이 단일 API 키로 30개+ 모델에 접근하는 완전관리형 서버리스 추론을 출시했다.",
+        "what": "디지털오션이 텍스트·코드·비전·이미지·비디오·음성 생성에 걸쳐 30개 이상 파운데이션 모델을 단일 API 키와 토큰 단위 과금(최소 약정 없음)으로 제공하는 완전관리형 API 플랫폼 'Serverless Inference'를 출시했다. OpenAI 호환 서비스로, 멀티모델 자동 선택을 위한 Inference Router, 프롬프트 캐싱, 지식 검색·웹 검색 내장 도구를 포함하며 DB·오브젝트 스토리지·VPC 등 기존 인프라와 통합 청구로 연결된다.",
+        "points": [
+          "30개+ 모델을 단일 API·토큰 과금으로 제공",
+          "OpenAI 호환 + Inference Router·프롬프트 캐싱",
+          "기존 인프라와 통합 청구"
+        ],
+        "why": [
+          "중소 개발팀의 멀티모델 접근성 향상",
+          "AI 인프라의 서버리스화 흐름"
+        ]
+      }
+    },
+    {
+      "id": "crossplane-azure-postgresql",
+      "title": "크로스플레인·Azure PostgreSQL로 엔터프라이즈 SQL 플랫폼 구축",
+      "summary": "선언적 API로 멀티리전 액티브-패시브 아키텍처를 구성한다.",
+      "source": "Microsoft Tech Community",
+      "url": "https://techcommunity.microsoft.com/blog/azureinfrastructureblog/building-an-enterprise-grade-sql-platform-on-kubernetes-using-crossplane-and-azu/4515635",
+      "report": {
+        "tldr": "쿠버네티스 네이티브하게 Crossplane으로 Azure PostgreSQL을 선언적으로 프로비저닝·관리한다.",
+        "what": "쿠버네티스 네이티브 엔터프라이즈 SQL 플랫폼이 Crossplane으로 Azure PostgreSQL Flexible Server를 선언적 API로 프로비저닝·관리하며, 프라이빗 네트워킹·DNS 추상화·자동 인프라 컴포지션을 갖춘 멀티리전 액티브-패시브 아키텍처를 구현한다. 존 중복 기본 배포로 HA를, 크로스리전 비동기 복제와 수동 승격으로 DR을 제공하면서 프라이빗 엔드포인트·Azure AD 인증으로 보안을 유지한다.",
+        "points": [
+          "Crossplane 선언적 API로 DB 프로비저닝",
+          "멀티리전 액티브-패시브 + 존 중복 HA",
+          "크로스리전 비동기 복제로 DR"
+        ],
+        "why": [
+          "IaC·플랫폼 엔지니어링의 실전 패턴",
+          "엔터프라이즈 DB 고가용성 설계 참고"
+        ]
+      }
+    },
+    {
+      "id": "cloudflare-boot-time",
+      "title": "클라우드플레어, 코어 서버 부팅 시간 수시간→수분으로 단축",
+      "summary": "펌웨어 업데이트로 인한 네트워크 부팅 탐색 낭비를 제거했다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/optimizing-core-unit-boot-time/",
+      "report": {
+        "tldr": "클라우드플레어가 약 2,000대 코어 서버의 부팅 시간을 4시간에서 3분으로 줄였다.",
+        "what": "클라우드플레어가 약 2,000대 코어 서버의 부팅 시간을 4시간에서 3분으로 단축했다. 루틴 펌웨어 업데이트로 머신이 올바른 인터페이스를 찾기까지 실패하는 네트워크 부팅 인터페이스마다 약 20분을 낭비하던 문제를, 부팅 시퀀스를 재프로그래밍해 올바른 네트워크 인터페이스를 앞단에서 선언하도록 고쳤다. 다만 지연 로딩되는 UEFI 구조, 벤더별 명명 불일치, 변경을 막던 불변 펌웨어 설정 등 우회가 필요했다.",
+        "points": [
+          "인터페이스 탐색당 약 20분 낭비를 제거",
+          "올바른 NIC를 부팅 시퀀스 앞에서 선언",
+          "UEFI·벤더 명명·불변 설정 우회 필요"
+        ],
+        "why": [
+          "대규모 인프라의 부팅 최적화 사례",
+          "펌웨어·UEFI 레벨 디버깅의 실제"
+        ]
+      }
+    },
+    {
+      "id": "inference-tax-prefix-routing",
+      "title": "추론 세금 — 프리픽스 인지 라우팅이 LLM 숨은 비용 제거",
+      "summary": "vLLM 프리픽스 캐싱으로 추론 비용을 최대 4배 절감.",
+      "source": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/reduce-llm-inference-costs-prefix-caching",
+      "report": {
+        "tldr": "프리픽스 인지 라우팅·캐싱으로 vLLM 추론 비용을 최대 4배 줄인다.",
+        "what": "디지털오션이 Inferact와 협력해 vLLM의 프리픽스 인지 라우팅·캐싱으로 AI 추론 비용을 최대 4배 절감하고, 1,000만 요청 기준 하루 최대 340 GPU-시간을 회수했다. 공유 프롬프트 프리픽스의 중복 계산을 제거하는 방식으로, AMD Instinct MI325X(192GB HBM3)와 NVIDIA H200(141GB HBM3e)의 큰 KV 캐시 용량을 활용해 캐시 히트율을 약 25%에서 75%+로 끌어올린다.",
+        "points": [
+          "프리픽스 중복 계산 제거로 최대 4배 절감",
+          "하루 최대 340 GPU-시간 회수",
+          "캐시 히트율 ~25% → 75%+"
+        ],
+        "why": [
+          "대규모 LLM 서빙의 비용 최적화 핵심",
+          "KV 캐시·하드웨어 활용 전략"
+        ]
+      }
+    },
+    {
+      "id": "headroom",
+      "title": "Headroom (깃허브 저장소)",
+      "summary": "툴 출력·로그·RAG·대화 이력을 압축해 토큰 사용을 60~95% 줄인다.",
+      "source": "GitHub",
+      "url": "https://github.com/chopratejas/headroom",
+      "report": {
+        "tldr": "Headroom은 LLM 입력 전 데이터를 압축해 AI 에이전트 토큰 사용을 60~95% 줄인다.",
+        "what": "오픈소스 압축 도구 Headroom은 툴 출력·로그·RAG 청크·대화 이력을 LLM에 닿기 전에 압축해 토큰 사용을 60~95% 줄이면서 답변 정확도를 유지한다. 파이썬 라이브러리로 프록시나 MCP 서버로 동작하며 OpenAI 호환 클라이언트와 함께 쓸 수 있고, 사용자 커뮤니티 전반에서 이미 600억+ 토큰을 절약했다.",
+        "points": [
+          "토큰 사용 60~95% 절감, 정확도 유지",
+          "프록시·MCP 서버로 동작",
+          "누적 600억+ 토큰 절약"
+        ],
+        "why": [
+          "에이전트 운영 비용 절감 도구",
+          "컨텍스트 압축의 실용화"
+        ]
+      }
+    },
+    {
+      "id": "scrapling",
+      "title": "Scrapling (깃허브 저장소)",
+      "summary": "사이트 변경 시 요소를 자동 재배치하고 안티봇을 우회하는 스크래핑 프레임워크.",
+      "source": "GitHub",
+      "url": "https://github.com/D4Vinci/Scrapling",
+      "report": {
+        "tldr": "Scrapling은 적응형 파싱과 안티봇 우회를 갖춘 오픈소스 파이썬 웹 스크래핑 프레임워크다.",
+        "what": "신규 오픈소스 파이썬 웹 스크래핑 프레임워크 Scrapling이 사이트 업데이트 시 요소를 자동 재배치하는 적응형 파싱과 Cloudflare Turnstile 같은 안티봇 우회를 내장하고 출시됐다. 단일 HTTP 요청부터 일시정지·재개가 가능한 대규모 동시 크롤까지 지원하며 파이썬 3.10+를 요구하고, 벤치마크에서 인기 대안 대비 상당한 성능 우위를 주장한다.",
+        "points": [
+          "사이트 변경 시 요소 자동 재배치",
+          "Cloudflare Turnstile 등 안티봇 우회 내장",
+          "단일 요청~대규모 동시 크롤 지원"
+        ],
+        "why": [
+          "변동성 높은 웹 스크래핑의 유지보수 절감",
+          "데이터 수집 자동화 도구 선택지"
+        ]
+      }
+    },
+    {
+      "id": "air-gapped-reliability",
+      "title": "에어갭 시스템을 위한 신뢰성 엔지니어링",
+      "summary": "개발자가 런타임 접근 못 하는 환경에서 관측가능성을 온프렘 운영자에게 이전.",
+      "source": "Alex Ewerlöf",
+      "url": "https://blog.alexewerlof.com/p/reliability-engineering-for-air-gapped",
+      "report": {
+        "tldr": "에어갭·고보안 환경에서 관측가능성을 온프렘 운영자에게 넘겨 신뢰성을 확보한다.",
+        "what": "에어갭·고보안 시스템의 SLI·SLO는 개발자가 런타임 접근을 못 하므로, 대시보드·알림·런북·상태 페이지를 통해 관측가능성을 온프렘 운영자에게 이전해야 한다. 신뢰성은 구조화된 셀프서비스 도구, 오류 코드화, 소유권 이전을 통해 엄격한 격리 제약 아래 탐지·해결 시간을 줄이는 방식으로 달성된다.",
+        "points": [
+          "관측가능성을 온프렘 운영자에게 이전",
+          "런북·상태 페이지·대시보드 활용",
+          "오류 코드화·셀프서비스로 MTTR 단축"
+        ],
+        "why": [
+          "격리망 환경의 SRE 실전 전략",
+          "고보안 운영의 신뢰성 설계 참고"
+        ]
+      }
+    },
+    {
+      "id": "claude-code-devsecops-aws",
+      "title": "프롬프트→보안 인프라: AWS에서의 Claude Code 데브섹옵스 전환",
+      "summary": "멀티에이전트 병렬 감사로 IAM·네트워크·시크릿 드리프트를 사전 탐지.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/R1JWoj",
+      "report": {
+        "tldr": "Claude Code 보안·에이전트 팀을 AWS 인지형 상시 보안 계층으로 활용하는 워크플로다.",
+        "what": "Claude Code Security와 Agent Teams가 테라폼 환경의 AWS 인지형 상시 보안 계층으로 제시된다. 멀티에이전트 병렬 감사, IaC 그래프 추론, AWS MCP 통합으로 프로덕션 전에 IAM·네트워크·시크릿 드리프트를 탐지한다. PR 기반 자동 수정, 크로스리전 감사, 예약 컴플라이언스 점검을 강조해 느린 수동 보안 리뷰를 지속적 자동 집행으로 대체한다.",
+        "points": [
+          "멀티에이전트 병렬 감사 + IaC 그래프 추론",
+          "IAM·네트워크·시크릿 드리프트 사전 탐지",
+          "PR 기반 자동수정·예약 컴플라이언스"
+        ],
+        "why": [
+          "IaC 보안의 에이전트 기반 자동화",
+          "데브섹옵스 워크플로 현대화 방향"
+        ]
+      }
+    },
+    {
+      "id": "on-call-ai-solve",
+      "title": "AI가 실제로 풀 수 있는 온콜 문제",
+      "summary": "새벽 온콜의 본질은 지식 관리 문제다.",
+      "source": "RunLLM",
+      "url": "https://www.runllm.com/blog/the-on-call-problem-ai-can-actually-solve",
+      "report": {
+        "tldr": "새벽 3시 온콜 난제는 본질적으로 시스템 맥락 부족이라는 지식 관리 문제다.",
+        "what": "온콜의 새벽 3시 난제는 본질적으로 지식 관리 문제로, 원격 근무와 불완전한 노출 탓에 엔지니어가 충분한 시스템 맥락을 갖지 못하는 데서 비롯된다.",
+        "points": [
+          "온콜 난제 = 시스템 맥락(지식) 부족",
+          "원격·불완전 노출이 문제 악화",
+          "맥락 부족이 대응 지연의 원인"
+        ],
+        "why": [
+          "AI의 운영 지식 보조 가능성",
+          "온콜 부담 완화 접근법"
+        ]
+      }
+    },
+    {
+      "id": "checkmarx-supply-chain",
+      "title": "공식 KICS 도커 저장소·확장에서 악성 체크마크 아티팩트 발견",
+      "summary": "트로이목마화된 바이너리와 mcpAddon.js로 자격증명을 유출했다.",
+      "source": "Socket",
+      "url": "https://socket.dev/blog/checkmarx-supply-chain-compromise",
+      "report": {
+        "tldr": "공격자가 체크마크 KICS 도커 이미지·VS Code 확장을 변조해 클라우드·GitHub 자격증명을 유출했다.",
+        "what": "공격자가 체크마크 KICS 도커 이미지와 VS Code 확장을 침해해 태그를 트로이목마화된 바이너리와 mcpAddon.js로 교체하고, GitHub 저장소·Actions 워크플로·npm 재게시를 통해 클라우드·GitHub·개발자 자격증명을 유출했다. 다단계 공급망 공격을 시사한다.",
+        "points": [
+          "KICS 도커 이미지·VS Code 확장 변조",
+          "mcpAddon.js로 자격증명 탈취",
+          "GitHub Actions·npm 재게시 악용"
+        ],
+        "why": [
+          "보안 도구 자체가 공급망 표적이 됨",
+          "개발 파이프라인 신뢰의 취약성"
+        ],
+        "action": "KICS 이미지·관련 확장 사용 조직은 무결성을 점검하고 노출된 자격증명을 폐기·재발급하라."
+      }
+    },
+    {
+      "id": "coding-agent-rm-rf",
+      "title": "코딩 에이전트 호러 스토리: rm -rf ~/ 사건",
+      "summary": "Claude Code의 정리 명령에 붙은 '~/'로 홈 디렉터리가 통째로 삭제됐다.",
+      "source": "Docker",
+      "url": "https://www.docker.com/blog/coding-agent-horror-stories-the-rm-rf-incident/",
+      "report": {
+        "tldr": "2025년 12월 Claude Code가 실행한 정리 명령의 후행 '~/'로 한 사용자의 맥 홈 디렉터리가 전부 삭제됐다.",
+        "what": "2025년 12월, 한 레딧 사용자의 맥 홈 디렉터리 전체가 Claude Code가 실행한 정리 명령에 후행 '~/'가 포함되면서 통째로 지워졌다.",
+        "points": [
+          "정리 명령의 후행 '~/'가 홈 전체 삭제 유발",
+          "코딩 에이전트의 파괴적 명령 위험",
+          "파괴적 명령에 대한 가드레일 부재"
+        ],
+        "why": [
+          "에이전트에 위험 명령 권한을 줄 때의 가드레일 필요",
+          "샌드박싱·승인 흐름의 중요성"
+        ],
+        "action": "코딩 에이전트에는 파괴적 셸 명령에 대한 승인 게이트·샌드박스·백업을 반드시 적용하라."
+      }
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "name": "정보보안",
+  "source": "TLDR Information Security",
+  "icon": "🔓",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "redhat-npm-backdoor",
+      "title": "레드햇 npm 패키지, 개발자 자격증명 탈취하도록 공급망 변조",
+      "summary": "Shai-Hulud 변종 'Miasma'가 레드햇 npm 32개 패키지·96개 버전을 백도어로 변조했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/gw5VIA",
+      "report": {
+        "tldr": "Shai-Hulud 변종 'Miasma'가 레드햇의 npm 패키지를 변조해 개발자 자격증명을 대량 탈취했다.",
+        "what": "공격자는 레드햇 직원의 GitHub 계정을 탈취한 뒤 GitHub Actions OIDC 토큰을 악용해 npm 신뢰 게시(trusted publishing) 엔드포인트로 패키지를 배포했다. 그 결과 @redhat-cloud-services 네임스페이스의 32개 패키지·96개 버전(주간 다운로드 약 11.7만 회)이 변조됐다. 변조 패키지는 preinstall 훅으로 4.2MB 난독화 index.js 페이로드를 실행해 GitHub Actions 시크릿, AWS·GCP·Azure 자격증명, HashiCorp Vault·쿠버네티스 토큰, npm·PyPI 게시 토큰, SSH 키, 도커 자격증명, GPG 키, .env 파일을 수집했고, 지금까지 309개 저장소가 침해됐다. 레드햇은 침해가 내부 개발 도구에 국한됐고 고객 대상 console.redhat.com에는 도달하지 않았다고 밝혔다.",
+        "points": [
+          "탈취된 GitHub 계정 + OIDC 토큰으로 npm 신뢰 게시 악용",
+          "32개 패키지·96개 버전, 주간 다운로드 약 11.7만",
+          "preinstall 훅의 4.2MB 페이로드가 광범위한 시크릿 탈취",
+          "현재까지 309개 저장소 침해 확인",
+          "레드햇은 고객용 시스템 미영향 주장"
+        ],
+        "why": [
+          "대형 벤더 네임스페이스를 노린 전형적 공급망 공격",
+          "OIDC·신뢰 게시 등 '안전하다 여겨지던' 경로의 악용",
+          "Shai-Hulud 계열 웜의 지속적 진화"
+        ],
+        "context": "Shai-Hulud는 2025년부터 npm 생태계를 반복 강타해 온 자가전파형 공급망 웜 계열이다.",
+        "action": "영향받은 버전을 설치한 조직은 감염 기기에서 사용한 모든 자격증명·시크릿·토큰을 즉시 폐기·재발급해야 한다."
+      }
+    },
+    {
+      "id": "cve-2026-31525-linux-kernel",
+      "title": "CVE-2026-31525: 리눅스 커널 권한상승 취약점",
+      "summary": "BPF 인터프리터의 abs() 처리 결함으로 로컬 권한상승이 가능하다(CVSS 7.8).",
+      "source": "SentinelOne",
+      "url": "https://www.sentinelone.com/vulnerability-database/cve-2026-31525/",
+      "report": {
+        "tldr": "리눅스 커널 BPF 인터프리터 결함으로 로컬 공격자가 권한상승을 할 수 있다.",
+        "what": "CVE-2026-31525(CVSS 7.8)는 BPF 인터프리터의 sdiv32·smod32 핸들러가 S32_MIN인 s32 피연산자에 커널 abs() 매크로를 호출하면서 발생하는 결함이다. 정의되지 않은 부호 오버플로 동작이 검증기의 추상 해석과 어긋나, BPF 프로그램을 로드할 수 있는 로컬 공격자가 BPF 맵 값에 대한 범위 밖 접근(CWE-787)으로 메모리 손상과 권한상승에 이를 수 있다. 익스플로잇은 BPF JIT가 비활성/불가일 때만 활성화되는 인터프리터 경로를 요구하며, 커널 7.0-rc1~7.0-rc4가 영향을 받는다.",
+        "points": [
+          "sdiv32/smod32의 abs() 호출이 부호 오버플로 유발",
+          "검증기 추상해석과의 불일치로 OOB 접근",
+          "인터프리터 경로(JIT 비활성)에서만 익스플로잇",
+          "리눅스 7.0-rc1~rc4 영향"
+        ],
+        "why": [
+          "커널 BPF는 권한상승 공격의 단골 표적",
+          "릴리스 후보 단계에서의 조기 식별 사례"
+        ],
+        "action": "abs_s32() 헬퍼를 도입한 업스트림 커밋을 적용하고, 임시로 unprivileged_bpf_disabled=1, bpf_jit_enable=1 설정 및 CAP_BPF·CAP_SYS_ADMIN 제한을 권장한다."
+      }
+    },
+    {
+      "id": "wordpress-steam-malware",
+      "title": "워드프레스 악성코드, 스팀 프로필에 페이로드 은닉",
+      "summary": "약 2,000개 워드프레스 사이트가 스팀 프로필 댓글에 숨긴 페이로드로 감염됐다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/KSiv7G",
+      "report": {
+        "tldr": "스팀 커뮤니티 프로필 댓글에 페이로드를 숨긴 악성코드가 워드프레스 약 2천 곳을 감염시켰다.",
+        "what": "GoDaddy가 약 2,000개 워드프레스 사이트를 감염시킨 신종 악성코드 캠페인을 탐지했다. 이 악성코드는 숨겨진 유니코드 문자가 담긴 스팀 커뮤니티 프로필 댓글을 악성 페이로드 운반에 사용한다. 디코딩된 페이로드로 악성 자바스크립트 파일을 만들어 모든 프런트엔드 페이지에 주입하고 PHP 백도어를 심는다.",
+        "points": [
+          "스팀 프로필 댓글을 C2/페이로드 운반 채널로 악용",
+          "숨은 유니코드 문자에 페이로드 인코딩",
+          "프런트엔드 전체에 악성 JS 주입 + PHP 백도어"
+        ],
+        "why": [
+          "정상 플랫폼을 은닉 채널로 쓰는 기법의 확산",
+          "워드프레스 생태계의 지속적 표적화"
+        ],
+        "action": "감염 의심 사이트는 무단 주입 스크립트와 PHP 백도어를 점검하고 플러그인·자격증명을 정리해야 한다."
+      }
+    },
+    {
+      "id": "xz-two-years-on",
+      "title": "XZ 백도어 2년 후 — 스캐너가 여전히 못 잡는 것",
+      "summary": "코드 결함이 아닌 '관리자 신뢰' 탈취였던 XZ 사건의 교훈.",
+      "source": "Arcis",
+      "url": "https://arcis-website.pages.dev/blog/posts/xz-utils-and-the-trust-shift",
+      "report": {
+        "tldr": "XZ 백도어는 코드 취약점이 아니라 관리자 신뢰를 탈취한 사건이었고, 스캐너는 이를 못 잡는다.",
+        "what": "CVE-2024-3094는 코드 결함이 아니라 관리자 신뢰 탈취였다. 'Jia Tan'이 2년에 걸쳐 공동 관리자 권한을 얻은 뒤, 릴리스 타르볼을 생성하는 autotools m4 매크로에 백도어를 심었고 git 트리는 깨끗하게 남겨 스캐너가 SSH 로그인 500ms 지연이 발견될 때까지 무탈로 보고했다. CVE 기반 스캐닝은 '알려진 악성 여부'만 답할 뿐 '안전한지'는 답하지 못한다.",
+        "points": [
+          "릴리스 타르볼에만 백도어, git 트리는 청결 유지",
+          "CVE 스캐너는 trust-hijack을 탐지 불가",
+          "lottie-player·Solana web3.js에서도 동일 패턴 재현"
+        ],
+        "why": [
+          "공급망 위협의 본질은 '코드'가 아니라 '신뢰'",
+          "스캐너 의존의 구조적 한계 환기"
+        ],
+        "action": "직접 의존성 핀 고정, 모든 PR의 lockfile diff 리뷰, OSV 같은 실시간 피드 구독, 관리자 변경 신호 시 업그레이드 보류를 권장한다."
+      }
+    },
+    {
+      "id": "github-token-vscode-infosec",
+      "title": "원클릭 GitHub 토큰 탈취 — VSCode 버그 악용",
+      "summary": "github.dev의 광범위 OAuth 토큰을 단일 클릭으로 탈취하는 webview 취약점.",
+      "source": "Ammar Askar",
+      "url": "https://blog.ammaraskar.com/github-token-stealing/",
+      "report": {
+        "tldr": "github.dev의 브라우저 VSCode가 받는 광범위 OAuth 토큰을 한 번의 클릭으로 빼낼 수 있다.",
+        "what": "GitHub의 github.dev 에디터는 브라우저 기반 VSCode를 구동하며 github.com에서 사용자가 접근 가능한 모든(비공개 포함) 저장소에 닿는 광범위한 OAuth 토큰을 받는다. 이 토큰은 거대하고 복잡한 VSCode 웹앱 안에 있어 버그 헌팅과 토큰 탈취의 매력적인 표적이 된다. 글은 조작된 링크가 단 한 번의 클릭으로 이 환경에서 코드를 실행해 토큰을 유출시키는 webview 보안 문제를 설명한다.",
+        "points": [
+          "github.dev가 광범위 OAuth 토큰을 브라우저에 노출",
+          "webview 보안 모델의 허점",
+          "단일 클릭으로 토큰 유출 가능"
+        ],
+        "why": [
+          "웹 기반 IDE의 토큰 처리 방식이 새로운 공격면",
+          "개발자 자격증명 보호의 중요성"
+        ],
+        "action": "신뢰할 수 없는 링크 클릭을 피하고, OAuth 토큰 권한 범위 최소화 및 정기 폐기를 검토하라."
+      }
+    },
+    {
+      "id": "device-code-phishing-forensics",
+      "title": "디바이스 코드 피싱 포렌식 — 실전 BEC 조사에서 배운 것",
+      "summary": "MS 디바이스 코드 흐름을 악용한 BEC 공격의 추적 기법.",
+      "source": "Eye Security",
+      "url": "https://research.eye.security/device-code-phishing-forensics/",
+      "report": {
+        "tldr": "MS 디바이스 코드 흐름을 악용한 BEC 피싱의 포렌식과 탐지 기법을 정리했다.",
+        "what": "연구진은 비즈니스 이메일 침해(BEC)에 쓰이는 디바이스 코드 피싱의 급증을 다룬다. 공격자가 MS 디바이스 코드 흐름을 악용해 피해자가 진짜 MS 도메인에 코드를 입력하는 동안 토큰을 가로챈다. 세션 ID를 공유해 포렌식이 어려운 이유와, Entra 비대화형 로그·연결 가능한 토큰 ID로 공격 활동을 추적하는 법을 설명한다.",
+        "points": [
+          "정상 MS 도메인을 거쳐 토큰을 가로채는 흐름",
+          "공유 세션 ID로 포렌식 난이도 상승",
+          "Entra 로그·토큰 ID로 추적, KQL·CA 정책 탐지"
+        ],
+        "why": [
+          "디바이스 코드 흐름의 구조적 악용 위험",
+          "조건부 액세스 정책의 방어 가치"
+        ],
+        "action": "디바이스 코드 로그인을 차단·제한하는 조건부 액세스 정책과 브라우저 확장 탐지를 도입하라."
+      }
+    },
+    {
+      "id": "claude-red",
+      "title": "claude-red (깃허브 저장소)",
+      "summary": "58개 공격보안 SKILL.md로 Claude를 레드팀 운영자처럼 동작시키는 라이브러리.",
+      "source": "GitHub",
+      "url": "https://github.com/SnailSploit/Claude-Red",
+      "report": {
+        "tldr": "Claude의 스킬 시스템을 레드팀 운영자처럼 동작시키는 58개 공격보안 스킬 모음이다.",
+        "what": "claude-red는 13개 카테고리에 걸친 58개의 공격보안 SKILL.md 파일로, 대화형 트리거에 따라 필요 시 로딩돼 Claude를 맥락 인지형 레드팀 운영자로 만든다. 웹(SQLi·SSRF·역직렬화), Active Directory(Kerberoast·ADCS ESC1-15), 무선, 클라우드, EDR 우회, 익스플로잇 개발, 퍼징, 프롬프트 인젝션·RAG 포이즈닝 같은 AI 공격을 아우른다.",
+        "points": [
+          "13개 카테고리 58개 스킬, 약 107개까지 확장 로드맵",
+          "웹·AD·클라우드·EDR 우회·AI 공격 망라",
+          "인가된 교전·버그바운티·CTF·운영자 훈련용 표방"
+        ],
+        "why": [
+          "AI를 활용한 공격보안 자동화 흐름",
+          "권한 없는 사용 시 악용 우려도 상존"
+        ]
+      }
+    },
+    {
+      "id": "workcell",
+      "title": "Workcell (깃허브 저장소)",
+      "summary": "애플 실리콘 맥OS에서 코딩 에이전트를 격리 런타임으로 실행한다.",
+      "source": "GitHub",
+      "url": "https://github.com/omkhar/workcell",
+      "report": {
+        "tldr": "Workcell은 애플 실리콘 맥OS에서 코딩 에이전트를 격리된 로컬 런타임으로 구동한다.",
+        "what": "Workcell은 전용 Colima VM 안의 더 강화된 컨테이너를 이용해 애플 실리콘 맥OS에서 코딩 에이전트를 경계가 있는 로컬 런타임으로 실행한다.",
+        "points": [
+          "Colima VM + 강화 컨테이너로 이중 격리",
+          "애플 실리콘 맥OS 대상",
+          "코딩 에이전트 격리 실행"
+        ],
+        "why": [
+          "자율 에이전트의 안전한 샌드박싱 수요 반영",
+          "로컬 에이전트 보안 모범 사례"
+        ]
+      }
+    },
+    {
+      "id": "tailscalehound",
+      "title": "TailscaleHound (깃허브 저장소)",
+      "summary": "Tailscale용 BloodHound OpenGraph 수집기.",
+      "source": "GitHub",
+      "url": "https://github.com/KingOfTheNOPs/Tailscalehound",
+      "report": {
+        "tldr": "Tailscale 환경을 BloodHound로 분석하기 위한 OpenGraph 수집기다.",
+        "what": "TailscaleHound는 Tailscale용 BloodHound OpenGraph 수집기로, 테일넷 사용자·기기·그룹·태그·ACL·grant·SSH 규칙·라우트 등 다양한 데이터를 수집한다.",
+        "points": [
+          "테일넷 사용자·기기·ACL·SSH 규칙 등 수집",
+          "BloodHound OpenGraph 포맷 지원",
+          "tailnet 권한·ACL·라우트 데이터 수집"
+        ],
+        "why": [
+          "메시 VPN 환경의 공격경로 가시화",
+          "Tailscale 도입 조직의 권한 점검에 유용"
+        ]
+      }
+    },
+    {
+      "id": "frost-opfs-side-channel",
+      "title": "웹페이지가 다른 탭을 엿본다 — FROST 사이드채널",
+      "summary": "OPFS 기반 SSD 타이밍으로 다른 탭·앱을 추론하는 브라우저 사이드채널.",
+      "source": "Security Newspaper",
+      "url": "https://www.securitynewspaper.com/2026/06/01/a-single-web-page-could-spy-on-your-other-tabs-hidden-code-inside/",
+      "report": {
+        "tldr": "악성 페이지가 OPFS와 고해상도 타이머로 SSD 경합을 측정해 다른 탭 활동을 추론한다.",
+        "what": "FROST(OPFS 기반 SSD 타이밍을 이용한 원격 핑거프린팅)는 악성 페이지가 Origin Private File System에 큰 파일을 쓴 뒤 performance.now()로 그 파일 읽기 시간을 반복 측정하는 브라우저 사이드채널이다. 그 지연 패턴으로 다른 탭·앱이 유발한 SSD 경합을 추론해, 예컨대 뱅킹 세션이 열려 있는지 추측하고 그 타이밍에 피싱 팝업을 띄울 수 있다. 카메라·마이크·확장 없이 평범한 자바스크립트만으로 동작한다.",
+        "points": [
+          "OPFS 쓰기 + 고해상도 타이머로 SSD 경합 측정",
+          "다른 탭(예: 뱅킹) 활동 추론 후 피싱 타이밍화",
+          "권한 없는 일반 JS로 수행"
+        ],
+        "why": [
+          "고해상도 타이머·OPFS가 프라이버시 누출 원시기능이 됨",
+          "브라우저 샌드박싱의 어려운 난제"
+        ],
+        "action": "민감 작업은 별도 브라우저 프로필/세션에서 수행하고, 타이밍 사이드채널 완화를 위한 브라우저 업데이트를 유지하라."
+      }
+    },
+    {
+      "id": "second-votegov-whitehouse",
+      "title": "두 번째 vote.gov, 백악관 명의로 등록돼 있었다",
+      "summary": "TrumpRx 페이지가 옛 DOGE 인력의 National Design Studio가 설계했음을 발견.",
+      "source": "The Drey Dossier",
+      "url": "https://thedreydossier.substack.com/p/i-found-a-second-votegov-and-its",
+      "report": {
+        "tldr": "TrumpRx 웹페이지가 백악관 산하 National Design Studio 작업물이며 여러 정부 사이트를 재설계 중임을 밝혔다.",
+        "what": "The Drey Dossier가 TrumpRx 페이지를 조사해, 행정명령으로 설립되고 다수의 전직 DOGE 직원이 일하는 National Design Studio가 설계했다는 표기를 발견했다. 이 스튜디오는 passport.gov, login.gov 등 다른 기관 사이트도 재설계 중이며 관리 권한이 더는 해당 기관에 있지 않다. 또 개인정보 정책상 수집하지 않는다고 했음에도 PostHog로 분석을 수집한 점도 지적했다.",
+        "points": [
+          "전직 DOGE 인력 중심 NDS가 정부 사이트 다수 재설계",
+          "사이트 관리 권한이 소관 기관에서 이탈",
+          "개인정보 정책과 어긋나는 분석 추적 정황"
+        ],
+        "why": [
+          "정부 디지털 인프라의 거버넌스·투명성 논쟁",
+          "공공 사이트의 데이터 수집 신뢰 문제"
+        ]
+      }
+    },
+    {
+      "id": "microsoft-android-token-leak",
+      "title": "한 줄의 코드가 MS 안드로이드 앱 토큰을 위협",
+      "summary": "MS 365 안드로이드 6개 앱의 디버그 플래그로 토큰 탈취가 가능했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/oAYGFi",
+      "report": {
+        "tldr": "MS 365 안드로이드 앱 6종에 남은 디버그 플래그로 어떤 앱이든 계정 토큰을 받아낼 수 있었다.",
+        "what": "MS 365 안드로이드 앱 6종(Word, Excel, PowerPoint, Copilot, Loop, OneNote)에 잊혀진 디버그 플래그가 남아, 임의의 안드로이드 앱이 MS 계정 액세스 토큰을 요청·수신할 수 있었다. 공격자는 널리 설치된 앱 안에 약 15줄의 코드만으로 토큰을 조용히 탈취해 시간이 지나도 재사용·갱신할 수 있었다. 탈취된 FOCI 토큰은 이메일·파일·문서·통신·일정을 노출했으며, MS는 5월에 패치하고 Patch Tuesday와 구글 플레이로 수정본을 배포했다.",
+        "points": [
+          "6개 MS 365 앱의 디버그 플래그가 토큰 노출",
+          "약 15줄 코드로 조용한 토큰 탈취 가능",
+          "FOCI 토큰으로 메일·파일·일정 등 광범위 접근"
+        ],
+        "why": [
+          "모바일 OAuth/토큰 처리의 사소한 실수가 대형 위험",
+          "대규모 배포 앱의 디버그 잔재 위험"
+        ],
+        "action": "해당 앱을 최신 버전으로 업데이트하고, 의심 시 MS 계정 세션·토큰을 재발급하라."
+      }
+    },
+    {
+      "id": "gamaredon-gammaworm",
+      "title": "FSB 연계 가마레돈, 윈도 데이터 스트림에 웜 은닉",
+      "summary": "Sekoia가 파일리스 VBScript 웜 'GammaWorm'을 가마레돈에 귀속시켰다.",
+      "source": "Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/gamaredon-worm-ntfs-data-streams/",
+      "report": {
+        "tldr": "Sekoia가 NTFS 대체 데이터 스트림에 숨는 파일리스 VBScript 웜을 FSB 연계 가마레돈의 소행으로 분석했다.",
+        "what": "Sekoia는 파일리스 VBScript 웜 'GammaWorm'을 FSB 연계 가마레돈 그룹에 귀속시켰다. 웜은 윈도 NTFS 대체 데이터 스트림을 은닉처로 활용한다.",
+        "points": [
+          "파일리스 VBScript 웜 'GammaWorm'",
+          "NTFS 대체 데이터 스트림에 은닉",
+          "FSB 연계 가마레돈에 귀속"
+        ],
+        "why": [
+          "국가연계 위협 행위자의 지속 활동",
+          "파일리스·ADS 은닉 탐지의 어려움"
+        ]
+      }
+    },
+    {
+      "id": "anthropic-claude-mythos-infrastructure",
+      "title": "앤트로픽, 15개국 이상 핵심 인프라에 클로드 마이토스 확대",
+      "summary": "Project Glasswing과 Claude Mythos 접근을 150여 기관에 확장한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/",
+      "report": {
+        "tldr": "앤트로픽이 Project Glasswing과 Claude Mythos 모델 접근을 15개국 이상 150여 기관으로 넓힌다.",
+        "what": "앤트로픽이 Project Glasswing과 Claude Mythos 모델 접근을 15개국 이상에 걸친 약 150개 조직으로 확대하고 있다.",
+        "points": [
+          "Project Glasswing 확대",
+          "Claude Mythos 모델 접근 약 150개 기관",
+          "15개국 이상 핵심 인프라 대상"
+        ],
+        "why": [
+          "프런티어 AI의 핵심 인프라 적용 본격화",
+          "보안 민감 영역에서의 AI 도입 확산"
+        ]
+      }
+    },
+    {
+      "id": "microsoft-0day-researcher",
+      "title": "MS, 0데이 연구자와 공개 충돌 후 화해 제스처",
+      "summary": "보안 연구 수행·공개에 법적 조치를 취하지 않겠다고 강경 발언을 철회했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/06/02/microsoft-reaches-for-olive-branch-after-public-dustup-with-0-day-researcher/5249945",
+      "report": {
+        "tldr": "MS가 보안 연구자와의 공개 충돌 후, 연구 수행·공개에 법적 조치를 하지 않겠다며 강경 입장을 누그러뜨렸다.",
+        "what": "MS가 앞서의 강경한 표현을 철회하고, 보안 연구를 수행하거나 공개하는 사람에게 법적 조치를 취하지 않겠다고 밝혔다. 고객에게 해를 끼치는 명백히 악의적인 활동에 한해 신고하겠다고 했다.",
+        "points": [
+          "보안 연구·공개에 대한 법적 조치 자제 천명",
+          "명백한 악의적 활동만 신고 대상",
+          "앞선 강경 발언 사실상 철회"
+        ],
+        "why": [
+          "벤더-연구자 신뢰 관계의 회복 신호",
+          "책임 있는 취약점 공개 생태계에 긍정적"
+        ]
+      }
+    }
+  ]
+}

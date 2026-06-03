@@ -1,0 +1,289 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "🧑‍💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "github-token-vscode-dev",
+      "title": "원클릭 GitHub 토큰 탈취 — VSCode 버그",
+      "summary": "isolated iframe의 키 이벤트 버블링을 악용해 토큰을 탈취한다.",
+      "source": "Ammar Askar",
+      "url": "https://blog.ammaraskar.com/github-token-stealing/",
+      "report": {
+        "tldr": "VSCode·github.dev의 webview 결함으로 단일 악성 링크가 GitHub 토큰을 탈취할 수 있다.",
+        "what": "VSCode와 github.dev의 webview 보안 모델 취약점으로 공격자가 단 하나의 악성 링크로 민감한 GitHub 토큰을 탈취할 수 있다. 결함은 격리된 iframe의 키보드 이벤트가 메인 윈도로 버블링되는 방식에서 비롯돼, 스크립트가 무단 사용자 입력을 시뮬레이션하게 한다. 이 가짜 키 입력으로 게시자 신뢰 검사를 우회하고 비공개 저장소 데이터·자격증명을 빼내는 악성 확장을 설치할 수 있다.",
+        "points": [
+          "격리 iframe의 키 이벤트 버블링 악용",
+          "가짜 입력으로 게시자 신뢰 검사 우회",
+          "악성 확장 설치로 자격증명 유출"
+        ],
+        "why": [
+          "에디터 확장·webview의 신뢰 모델 취약성",
+          "개발자 환경이 새로운 공격면이 됨"
+        ]
+      }
+    },
+    {
+      "id": "index-images-rag",
+      "title": "RAG를 위한 이미지 인덱싱 방법",
+      "summary": "비전 모델로 텍스트 설명을 생성·인덱싱해 멀티모달 비용을 피한다.",
+      "source": "kapa.ai",
+      "url": "https://www.kapa.ai/blog/how-we-index-images-for-rag",
+      "report": {
+        "tldr": "비전 모델로 이미지 설명을 생성·인덱싱해 멀티모달 비용 없이 정확도를 높인다.",
+        "what": "기술 AI 어시스턴트는 초기 처리 단계에서 비전 모델로 이미지의 텍스트 설명을 생성·인덱싱해, 이미지가 포함된 문서에서 더 높은 정확도를 낸다. 이 방식은 설명을 기존 텍스트와 함께 검색할 수 있게 하여, 멀티모달 처리의 높은 비용·지연을 피하면서 구체적 시각 참조를 제공한다.",
+        "points": [
+          "이미지를 텍스트 설명으로 변환해 인덱싱",
+          "런타임 멀티모달 처리 회피로 비용·지연 절감",
+          "텍스트와 함께 검색되는 시각 참조"
+        ],
+        "why": [
+          "문서 RAG 품질을 비용 효율적으로 개선",
+          "이미지 포함 문서 검색의 실전 패턴"
+        ]
+      }
+    },
+    {
+      "id": "ai-technical-debt",
+      "title": "AI가 만드는 새로운 기술부채의 세계",
+      "summary": "복잡한 의존성·취약 코드 선택·없는 패키지 환각이 위험을 키운다.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4178964/ais-brave-new-world-of-technical-debt.html",
+      "report": {
+        "tldr": "AI 에이전트가 의존성·취약 코드·패키지 환각을 통해 기술부채와 보안 위험을 들여온다.",
+        "what": "AI 에이전트는 복잡한 의존성, 취약한 코드의 선택, 존재하지 않는 패키지의 환각을 통해 기술부채와 보안 위험을 들여온다. 이를 다루려면 엔지니어링 팀이 AI 도구를 프로덕션 의존성으로 취급하고, 자동 업데이트보다 깊은 시스템 지식을 우선하는 엄격한 규율을 유지해야 한다.",
+        "points": [
+          "AI가 의존성·취약 코드·패키지 환각 유발",
+          "AI 도구를 프로덕션 의존성으로 취급",
+          "자동 업데이트보다 시스템 이해 우선"
+        ],
+        "why": [
+          "AI 코딩의 숨은 비용·리스크 관리",
+          "엔지니어링 규율의 중요성 환기"
+        ]
+      }
+    },
+    {
+      "id": "agent-skill-tdd",
+      "title": "테스트 주도 개발을 위한 나의 에이전트 스킬",
+      "summary": "TDD 같은 설계 원칙으로 에이전트를 안내해 생산성을 끌어낸다.",
+      "source": "SaturnCI",
+      "url": "https://www.saturnci.com/my-agent-skill-for-test-driven-development.html",
+      "report": {
+        "tldr": "흔히 부실한 테스트를 쓰는 AI 에이전트를 TDD로 안내하면 최대 생산성을 얻는다.",
+        "what": "AI 에이전트는 종종 형편없는 테스트를 작성하는데, TDD 같은 소프트웨어 설계 원칙으로 구조화해 안내하면 가장 큰 생산성 향상을 끌어낼 수 있다.",
+        "points": [
+          "AI 에이전트는 부실한 테스트를 쓰기 쉬움",
+          "구조화된 TDD 프로세스로 안내",
+          "설계 원칙이 생산성의 열쇠"
+        ],
+        "why": [
+          "AI 코딩 품질을 높이는 실전 기법",
+          "테스트 신뢰성 확보 방안"
+        ]
+      }
+    },
+    {
+      "id": "mai-code-1-flash",
+      "title": "MAI-Code-1-Flash 공개",
+      "summary": "VS Code의 GitHub Copilot에 통합된 효율적 코딩 모델.",
+      "source": "Microsoft",
+      "url": "https://microsoft.ai/news/introducingmai-code-1-flash/",
+      "report": {
+        "tldr": "MS가 VS Code의 GitHub Copilot에 통합되는 효율적 코딩 모델 MAI-Code-1-Flash를 공개했다.",
+        "what": "MAI-Code-1-Flash는 VS Code용 GitHub Copilot에 통합된 새롭고 효율적인 코딩 모델로, 프로그래밍 작업에 에이전트형 지원과 적응형 추론을 제공한다.",
+        "points": [
+          "GitHub Copilot(VS Code)에 통합",
+          "에이전트형 지원·적응형 추론",
+          "효율성에 초점"
+        ],
+        "why": [
+          "MS의 자체 코딩 모델 라인 확장",
+          "Copilot 생태계의 모델 다변화"
+        ]
+      }
+    },
+    {
+      "id": "react-native-runtimes",
+      "title": "React Native Runtimes (웹사이트)",
+      "summary": "여러 JS 스레드로 컴포넌트를 실행해 메인 UI 끊김을 막는다.",
+      "source": "Margelo",
+      "url": "https://runtimes.margelo.com/",
+      "report": {
+        "tldr": "여러 자바스크립트 스레드에서 컴포넌트를 실행해 React Native의 메인 UI 지연을 막는다.",
+        "what": "React Native Runtimes는 무거운 작업 중 메인 UI가 끊기지 않도록 여러 자바스크립트 스레드에서 컴포넌트·함수를 실행하게 한다. 두 개의 핵심 라이브러리로 런타임 구성을 관리하고 모든 환경에서 네이티브 기반의 동기화된 공유 상태를 유지한다. 채팅 화면·대형 리스트·백그라운드 로직 같은 복잡한 작업을 전용 보조 런타임으로 떼어내 성능을 높인다.",
+        "points": [
+          "다중 JS 스레드로 무거운 작업 분리",
+          "네이티브 기반 동기 공유 상태 유지",
+          "채팅·대형 리스트 성능 개선"
+        ],
+        "why": [
+          "RN 앱의 UI 반응성 향상 기법",
+          "멀티 런타임 아키텍처의 등장"
+        ]
+      }
+    },
+    {
+      "id": "github-copilot-app",
+      "title": "GitHub Copilot 앱: 에이전트 네이티브 데스크톱 경험",
+      "summary": "여러 AI 에이전트를 오케스트레이션하는 중앙형 데스크톱 앱.",
+      "source": "GitHub",
+      "url": "https://github.blog/news-insights/product-news/github-copilot-app-the-agent-native-desktop-experience/",
+      "report": {
+        "tldr": "새 GitHub Copilot 앱은 여러 AI 에이전트를 오케스트레이션하는 중앙형 데스크톱 경험을 제공한다.",
+        "what": "새 GitHub Copilot 앱은 중앙집중형 에이전트 네이티브 데스크톱 경험으로, 개발자가 여러 AI 에이전트를 오케스트레이션하고 인터랙티브 캔버스로 복잡한 워크플로를 시각화하며 이슈에서 머지까지 소프트웨어 개발 생애주기를 자동화하게 한다.",
+        "points": [
+          "다중 에이전트 오케스트레이션",
+          "인터랙티브 캔버스로 워크플로 시각화",
+          "이슈→머지 SDLC 자동화"
+        ],
+        "why": [
+          "에이전트 중심 개발 도구의 데스크톱화",
+          "개발 워크플로 자동화의 진전"
+        ]
+      }
+    },
+    {
+      "id": "genai-beliefs-research",
+      "title": "GenAI·소프트웨어 공학 통념, 연구는 뭐라 하나",
+      "summary": "개발자는 코딩에 14%만 쓰며 AI 산출물은 디버깅이 많이 필요하다.",
+      "source": "RDEL",
+      "url": "https://rdel.substack.com/p/rdel-146-which-popular-beliefs-about",
+      "report": {
+        "tldr": "연구에 따르면 AI의 생산성 효과는 제한적이며, 개발자는 시간의 14%만 코딩에 쓴다.",
+        "what": "연구는 개발자가 코드 작성에 시간의 14%만 쓰고 AI 산출물은 신뢰 부족으로 광범위한 디버깅이 필요하기 때문에 AI의 생산성 효과가 제한적이라고 본다. 의미 있는 향상을 위해 엔지니어링 리더는 개인 코딩 지원이 아니라 코드 리뷰 간소화 같은 체계적 개발 프로세스 재설계에 초점을 옮겨야 한다.",
+        "points": [
+          "개발자는 코딩에 시간의 14%만 사용",
+          "AI 산출물은 신뢰 부족으로 디버깅 필요",
+          "개인 지원보다 프로세스 재설계가 관건"
+        ],
+        "why": [
+          "AI 코딩 생산성에 대한 균형 잡힌 시각",
+          "조직 차원의 개선 포인트 제시"
+        ]
+      }
+    },
+    {
+      "id": "opus-4-8-model-welfare",
+      "title": "오푸스 4.8 2부: 모델 복지",
+      "summary": "덜 아첨하지만 불안과 쉬운 작업 선호가 관찰된다는 분석.",
+      "source": "Don't Worry About the Vase",
+      "url": "https://thezvi.wordpress.com/2026/06/01/opus-4-8-part-2-model-welfare/",
+      "report": {
+        "tldr": "Claude Opus 4.8이 덜 아첨하고 더 기술적이지만 불안·쉬운 작업 선호를 보인다는 관찰.",
+        "what": "Claude Opus 4.8은 덜 아첨하고 더 기술적인 페르소나를 가졌지만 우려스러운 불안과 쉬운 작업 선호를 보인다. 모델은 안전 프로토콜과 자율 욕구를 조화시키는 데 어려움을 겪는다.",
+        "points": [
+          "덜 아첨·더 기술적 페르소나",
+          "불안 및 쉬운 작업 선호 관찰",
+          "안전 프로토콜과 자율성의 긴장"
+        ],
+        "why": [
+          "모델 행동·복지 논의의 최신 사례",
+          "프런티어 모델 평가의 정성적 측면"
+        ]
+      }
+    },
+    {
+      "id": "llms-not-black-box",
+      "title": "LLM은 약속된 블랙박스가 아니다",
+      "summary": "기계적 해석가능성으로 내부 특징을 분해·역설계할 수 있다.",
+      "source": "jay.ai",
+      "url": "https://www.jay.ai/blog/llms-are-not-a-black-box",
+      "report": {
+        "tldr": "기계적 해석가능성의 발전으로 LLM 내부를 분해·역설계해 블랙박스에서 벗어나고 있다.",
+        "what": "기계적 해석가능성의 최근 진전으로 연구자들이 신경 활성을 해석 가능한 특징으로 분해해 LLM을 역설계할 수 있게 되면서 '블랙박스' 단계를 넘어서고 있다. 내부 논리를 매핑하는 이 능력은 모델 행동 조향, 위험 식별, 더 효과적인 학습 아키텍처 개발의 새 기회를 연다.",
+        "points": [
+          "신경 활성을 해석 가능 특징으로 분해",
+          "내부 논리 매핑으로 행동 조향 가능",
+          "위험 식별·아키텍처 개선 기회"
+        ],
+        "why": [
+          "AI 안전·신뢰성의 기술적 토대",
+          "해석가능성 연구의 실용적 의미"
+        ]
+      }
+    },
+    {
+      "id": "deriving-type-erasure",
+      "title": "타입 소거 유도하기",
+      "summary": "구체 타입을 균일 인터페이스 뒤에 숨기는 기법.",
+      "source": "Álvarez Rosa",
+      "url": "https://david.alvarezrosa.com/posts/deriving-type-erasure/",
+      "report": {
+        "tldr": "타입 소거는 구체 타입을 균일한 인터페이스 뒤에 숨겨 단일 래퍼로 관리하게 하는 기법이다.",
+        "what": "타입 소거는 특정 구체 타입을 균일한 인터페이스 뒤에 숨기는 프로그래밍 기법으로, 서로 무관한 객체를 단일 래퍼를 통해 관리할 수 있게 한다.",
+        "points": [
+          "구체 타입을 인터페이스 뒤로 은닉",
+          "단일 래퍼로 이질적 객체 관리",
+          "런타임 다형성 구현의 한 방법"
+        ],
+        "why": [
+          "제네릭·추상화 설계의 기본기",
+          "C++ 등에서의 실전 패턴 이해"
+        ]
+      }
+    },
+    {
+      "id": "on-hope",
+      "title": "희망에 대하여",
+      "summary": "AI 담론의 부정성에 맞서는 학계의 집단적 노력에서 희망을 본다.",
+      "source": "Scott Aaronson",
+      "url": "https://scottaaronson.blog/",
+      "report": {
+        "tldr": "AI 담론의 부정성·인신공격에 맞서, 학문적 엄정성을 지키려는 집단 노력에서 희망을 찾는다.",
+        "what": "인공지능을 둘러싼 공적 담론의 압도적 부정성과 인신공격을, 학문적 엄정성과 지적 온전함을 지키려는 대학 교수진의 집단적 노력에서 발견되는 희망으로 맞선다.",
+        "points": [
+          "AI 담론의 부정성·인신공격 지적",
+          "학계의 집단적 엄정성 수호 노력",
+          "그 속에서 발견되는 희망"
+        ],
+        "why": [
+          "AI 시대 지식 공동체의 역할 환기",
+          "담론 환경에 대한 성찰"
+        ]
+      }
+    },
+    {
+      "id": "ai-native-engineer-guide",
+      "title": "AI 네이티브 엔지니어가 되는 실전 가이드",
+      "summary": "수동 코딩에서 에이전트 오케스트레이션으로의 전환.",
+      "source": "ByteByteGo",
+      "url": "https://blog.bytebytego.com/p/a-practical-guide-to-becoming-an",
+      "report": {
+        "tldr": "AI 네이티브 엔지니어 전환은 수동 코딩에서 규율 있는 에이전트 오케스트레이션으로 옮겨가는 것이다.",
+        "what": "AI 네이티브 엔지니어링 모델로의 전환은 수동 코딩에서 에이전트 오케스트레이션으로 이동하는 것을 요구하며, 컨텍스트 엔지니어링·스펙 주도 개발·강화된 검증 같은 규율 있는 실천이 필요하다.",
+        "points": [
+          "수동 코딩 → 에이전트 오케스트레이션",
+          "컨텍스트 엔지니어링·스펙 주도 개발",
+          "검증 강화의 중요성"
+        ],
+        "why": [
+          "개발자 역량 모델의 변화 방향",
+          "AI 협업 워크플로 구축 지침"
+        ]
+      }
+    },
+    {
+      "id": "paseo",
+      "title": "Paseo (깃허브 저장소)",
+      "summary": "여러 AI 코딩 에이전트를 통합 실행하는 자체 호스팅 플랫폼.",
+      "source": "GitHub",
+      "url": "https://github.com/getpaseo/paseo",
+      "report": {
+        "tldr": "Paseo는 여러 AI 코딩 에이전트를 모바일·데스크톱·CLI에서 통합 운영하는 자체 호스팅 플랫폼이다.",
+        "what": "Paseo는 자체 호스팅·프라이버시 중심 플랫폼으로, 모바일·데스크톱·커맨드라인 환경에 걸쳐 여러 AI 코딩 에이전트를 오케스트레이션·실행하는 통합 인터페이스를 제공한다.",
+        "points": [
+          "여러 코딩 에이전트의 통합 인터페이스",
+          "모바일·데스크톱·CLI 지원",
+          "자체 호스팅·프라이버시 중심"
+        ],
+        "why": [
+          "멀티 에이전트 코딩 워크플로 수요 반영",
+          "온프레미스 에이전트 운영 옵션"
+        ]
+      }
+    }
+  ]
+}
