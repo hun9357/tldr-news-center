@@ -9,8 +9,21 @@
       "id": "redhat-npm-backdoor",
       "title": "레드햇 npm 패키지, 개발자 자격증명 탈취하도록 공급망 변조",
       "summary": "Shai-Hulud 변종 'Miasma'가 레드햇 npm 32개 패키지·96개 버전을 백도어로 변조했다.",
-      "source": "TLDR",
+      "source": "Red Hat Security Blog",
       "url": "https://links.tldrnewsletter.com/gw5VIA",
+      "originalDate": "2026-06-02",
+      "intel": {
+        "impact": "High",
+        "confidence": "92%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "npm · CI/CD"
+      },
+      "related": [
+        "공급망 공격 타임라인",
+        "유지자 보안 체크리스트",
+        "2FA 시드 탈취 리스크"
+      ],
       "report": {
         "tldr": "Shai-Hulud 변종 'Miasma'가 레드햇의 npm 패키지를 변조해 개발자 자격증명을 대량 탈취했다.",
         "what": "공격자는 레드햇 직원의 GitHub 계정을 탈취한 뒤 GitHub Actions OIDC 토큰을 악용해 npm 신뢰 게시(trusted publishing) 엔드포인트로 패키지를 배포했다. 그 결과 @redhat-cloud-services 네임스페이스의 32개 패키지·96개 버전(주간 다운로드 약 11.7만 회)이 변조됐다. 변조 패키지는 preinstall 훅으로 4.2MB 난독화 index.js 페이로드를 실행해 GitHub Actions 시크릿, AWS·GCP·Azure 자격증명, HashiCorp Vault·쿠버네티스 토큰, npm·PyPI 게시 토큰, SSH 키, 도커 자격증명, GPG 키, .env 파일을 수집했고, 지금까지 309개 저장소가 침해됐다. 레드햇은 침해가 내부 개발 도구에 국한됐고 고객 대상 console.redhat.com에는 도달하지 않았다고 밝혔다.",

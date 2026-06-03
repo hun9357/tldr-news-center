@@ -1367,24 +1367,3 @@ button {
     padding: 16px 0 0;
   }
 }
-
-/* ---- app additions ---- */
-.site-footer {
-  margin-top: 48px;
-  padding: 24px 0;
-  border-top: 1px solid var(--line);
-  color: var(--faint);
-  font-size: 13px;
-  text-align: center;
-}
-
-.empty-state {
-  padding: 64px 0;
-  text-align: center;
-  color: var(--muted);
-}
-
-.queue-row {
-  text-decoration: none;
-  color: inherit;
-}

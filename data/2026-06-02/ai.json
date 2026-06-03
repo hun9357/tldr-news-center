@@ -11,6 +11,19 @@
       "summary": "S-1을 비공개로 제출, 올가을 상장 가능성. 주식수·가격은 미정.",
       "source": "Anthropic 공식 / CNBC",
       "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
+      "originalDate": "2026-06-01",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 자본시장"
+      },
+      "related": [
+        "S-1 비공개 제출 절차란",
+        "OpenAI vs Anthropic 상장 순서",
+        "AI 밸류에이션 시험대"
+      ],
       "report": {
         "tldr": "Anthropic이 6/1 SEC에 상장을 위한 첫 서류(S-1)를 비공개로 제출했고, 이르면 올가을 상장이 가능해졌습니다.",
         "what": "Anthropic(공익기업, PBC)이 미국 증권거래위원회(SEC)에 S-1 등록신청서를 '컨피덴셜(비공개)'로 제출했습니다. 정식 공모 전에 SEC와 비공개로 심사를 주고받는 단계로, 상장을 강제하는 것이 아니라 '상장할 수 있는 옵션'을 확보하는 절차입니다.",

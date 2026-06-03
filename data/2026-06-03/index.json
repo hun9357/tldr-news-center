@@ -16,5 +16,30 @@
     "it",
     "design",
     "marketing"
+  ],
+  "lastUpdated": "10:01 CDT",
+  "syncedAt": "09:42",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "6,045.26", "change": "▲ 0.62%" },
+  "stats": { "companies": 18, "security": 7, "deals": 5, "policy": 4 },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "공급망 공격이 개발자 인증 체계로 확장 중",
+      "body": "단순 악성 패키지 배포가 아니라 토큰, 2FA 시드, 세션 쿠키까지 노리는 형태입니다. 내부 레지스트리와 CI/CD secret 회전 여부를 함께 확인해야 합니다.",
+      "severity": "8.7",
+      "velocity": "Rising",
+      "action": "Rotate keys"
+    },
+    {
+      "kind": "market",
+      "title": "AI 비용 반발이 제품 전략 리스크로 이동",
+      "body": "GPT-5.5 Bedrock, 모델 비용, 인력 감축 이슈가 함께 나타나며 AI 도입 ROI 검증 요구가 커지고 있습니다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "npm package takedown, Red Hat 후속 권고, 주요 클라우드 provider의 credential exposure 공지를 추적합니다."
+    }
   ]
 }

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ko" data-preview-suite="news-center">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>All Previews | TLDR Daily Briefing</title>
+    <link rel="stylesheet" href="./news-center.css">
+    <script type="application/json" id="preview-metadata">
+      {
+        "suite": "news-center",
+        "purpose": "Static HTML/CSS preview references for later app conversion.",
+        "pages": [
+          { "name": "home", "sourceRoute": "/", "targetFile": "app/page.tsx", "previewPath": "home/preview.html" },
+          { "name": "daily", "sourceRoute": "/[date]", "targetFile": "app/[date]/page.tsx", "previewPath": "daily/preview.html" },
+          { "name": "report", "sourceRoute": "/[date]/[id]", "targetFile": "app/[date]/[id]/page.tsx", "previewPath": "report/preview.html" }
+        ]
+      }
+    </script>
+  </head>
+  <body data-preview-page="index" data-preview-role="page-registry">
+    <main class="preview-index">
+      <div class="category">Intelligence product preview</div>
+      <h1>TLDR Daily Intelligence</h1>
+      <p>대기업 내부에서 쓰는 기술 인텔리전스 제품처럼, 출처 신뢰도와 영향도, 액션 오너가 보이는 브리핑 경험으로 구현했습니다. 아래 카드를 열면 이미지가 아니라 실제 HTML/CSS 화면을 볼 수 있습니다.</p>
+      <p class="preview-note">모든 카드는 변환용 레퍼런스입니다. 각 페이지는 단독 `preview.html`로 열리고, 공통 스타일은 `news-center.css`를 공유합니다.</p>
+
+      <section class="preview-cards" aria-label="Page previews">
+        <a class="preview-card" href="./home/preview.html" data-preview-page="home" data-source-route="/">
+          <div class="mini-page">
+            <div class="mini-bar"></div>
+            <div class="mini-mast">TLDR Daily</div>
+            <div class="mini-body"><div><div class="mini-line red"></div><div class="mini-line"></div><div class="mini-line" style="width: 80%"></div></div><div class="mini-panel"></div></div>
+          </div>
+          <h2>Home archive</h2>
+          <p>최신 브리핑, 읽기 큐, 지표 스트립, 아카이브 테이블.</p>
+          <div class="preview-meta"><span>Source route</span><strong>/</strong></div>
+          <div class="preview-meta"><span>Target file</span><strong>app/page.tsx</strong></div>
+        </a>
+        <a class="preview-card" href="./daily/preview.html" data-preview-page="daily" data-source-route="/[date]">
+          <div class="mini-page">
+            <div class="mini-bar"></div>
+            <div class="mini-mast">TLDR Daily</div>
+            <div class="mini-body"><div><div class="mini-line red"></div><div class="mini-line" style="width: 90%"></div><div class="mini-line" style="width: 66%"></div></div><div class="mini-panel"></div></div>
+          </div>
+          <h2>Date digest</h2>
+          <p>날짜별 이슈, 에디션 탭, 오늘의 빅스토리, 기사 묶음.</p>
+          <div class="preview-meta"><span>Source route</span><strong>/[date]</strong></div>
+          <div class="preview-meta"><span>Target file</span><strong>app/[date]/page.tsx</strong></div>
+        </a>
+        <a class="preview-card" href="./report/preview.html" data-preview-page="report" data-source-route="/[date]/[id]">
+          <div class="mini-page">
+            <div class="mini-bar"></div>
+            <div class="mini-mast">TLDR Daily</div>
+            <div class="mini-body"><div><div class="mini-line red"></div><div class="mini-line"></div><div class="mini-line"></div><div class="mini-line" style="width: 72%"></div></div><div class="mini-panel" style="background: transparent; border-left: 1px solid var(--line-strong)"></div></div>
+          </div>
+          <h2>Article report</h2>
+          <p>본문 분석 리포트, 목차와 메타 정보를 담은 우측 레일.</p>
+          <div class="preview-meta"><span>Source route</span><strong>/[date]/[id]</strong></div>
+          <div class="preview-meta"><span>Target file</span><strong>app/[date]/[id]/page.tsx</strong></div>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

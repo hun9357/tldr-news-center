@@ -9,12 +9,37 @@ export type Report = {
   context?: string;
   action?: string;
 };
+export type Intel = {
+  impact?: string;
+  confidence?: string;
+  owner?: string;
+  status?: string;
+  affectedSurface?: string;
+};
+export type Signal = {
+  kind: "primary" | "market" | "watchlist";
+  title: string;
+  body: string;
+  severity?: string;
+  velocity?: string;
+  action?: string;
+};
+export type Market = { index: string; value: string; change: string };
+export type DayStats = {
+  companies?: number;
+  security?: number;
+  deals?: number;
+  policy?: number;
+};
 export type Item = {
   id: string;
   title: string;
   summary: string;
   source: string;
   url: string;
+  originalDate?: string;
+  intel?: Intel;
+  related?: string[];
   report: Report;
 };
 export type Edition = {
@@ -34,6 +59,12 @@ export type IndexMeta = {
   keyword: string;
   bigStoryId: string;
   editions: string[];
+  lastUpdated?: string;
+  syncedAt?: string;
+  subscribers?: number;
+  market?: Market;
+  stats?: DayStats;
+  signals?: Signal[];
 };
 export type Digest = Omit<IndexMeta, "editions"> & { editions: Edition[] };
 
@@ -87,4 +118,41 @@ export function getAllArticleParams(): { date: string; id: string }[] {
     for (const e of d.editions) for (const it of e.items) out.push({ date, id: it.id });
   }
   return out;
+}
+
+export function allItems(d: Digest): { edition: Edition; item: Item }[] {
+  return d.editions.flatMap((edition) => edition.items.map((item) => ({ edition, item })));
+}
+
+export function readingQueue(d: Digest, n = 5): { edition: Edition; item: Item }[] {
+  const big = findArticle(d, d.bigStoryId);
+  const rest = allItems(d).filter(({ item }) => item.id !== d.bigStoryId);
+  return [...(big ? [big] : []), ...rest].slice(0, n);
+}
+
+export function sideHeadlines(d: Digest, n = 4): { edition: Edition; item: Item }[] {
+  return allItems(d)
+    .filter(({ item }) => item.id !== d.bigStoryId)
+    .slice(0, n);
+}
+
+export function topEditionNames(d: Digest, n = 3): string[] {
+  return d.editions.slice(0, n).map((e) => e.name);
+}
+
+export function headlineTitles(d: Digest, n = 3): string[] {
+  const big = findArticle(d, d.bigStoryId);
+  const titles = [
+    ...(big ? [big.item.title] : []),
+    ...sideHeadlines(d, n).map(({ item }) => item.title),
+  ];
+  return Array.from(new Set(titles)).slice(0, n);
+}
+
+export function countReports(d: Digest): number {
+  return allItems(d).filter(({ item }) => Boolean(item.report?.what)).length;
+}
+
+export function countInsights(d: Digest): number {
+  return allItems(d).filter(({ item }) => (item.report?.why?.length ?? 0) > 0).length;
 }

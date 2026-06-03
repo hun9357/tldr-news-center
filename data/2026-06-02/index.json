@@ -5,5 +5,30 @@
   "subtitle": "TLDR 뉴스레터 8종 · 기사별 분석 리포트",
   "keyword": "AI · Anthropic IPO",
   "bigStoryId": "anthropic-ipo",
-  "editions": ["ai", "infosec", "crypto", "tech", "it", "design", "marketing", "dev"]
+  "editions": ["ai", "infosec", "crypto", "tech", "it", "design", "marketing", "dev"],
+  "lastUpdated": "09:12 CDT",
+  "syncedAt": "09:05",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "6,045.26", "change": "▲ 0.62%" },
+  "stats": { "companies": 16, "security": 5, "deals": 4, "policy": 3 },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "AI 선두기업의 자본시장 진입이 본격화",
+      "body": "Anthropic의 S-1 비공개 제출로 대형 AI 기업의 첫 상장 레이스가 시작됐습니다. OpenAI와의 상장 순서가 이후 AI 밸류에이션의 기준점이 됩니다.",
+      "severity": "8.2",
+      "velocity": "Rising",
+      "action": "Watch IPO order"
+    },
+    {
+      "kind": "market",
+      "title": "클라우드–모델 멀티벤더 구도 강화",
+      "body": "OpenAI·Codex의 AWS 정식 출시로 클라우드 3사가 특정 AI 회사에 묶이지 않는 멀티 모델 제공 흐름이 분명해졌습니다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "Anthropic IPO 후속 공시, 오픈웨이트 모델(Nemotron 3 Ultra) 반응, 미국의 대중 반도체 우회수출 규제 후속을 추적합니다."
+    }
+  ]
 }

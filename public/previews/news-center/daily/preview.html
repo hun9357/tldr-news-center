@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ko" data-preview-suite="news-center" data-preview-page="daily">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daily Digest Preview | TLDR Daily Briefing</title>
+    <link rel="stylesheet" href="../news-center.css">
+    <script type="application/json" id="preview-metadata">
+      {
+        "page": "daily",
+        "sourceRoute": "/[date]",
+        "exampleRoute": "/2026-06-03",
+        "targetFile": "app/[date]/page.tsx",
+        "previewFormat": "standalone-html-css",
+        "sections": ["global-status", "masthead", "section-navigation", "executive-hero", "reading-queue", "metrics-strip", "signal-board", "edition-tabs", "big-story", "article-grid"]
+      }
+    </script>
+  </head>
+  <body data-preview-page="daily" data-source-route="/[date]" data-target-file="app/[date]/page.tsx">
+    <div class="breaking-bar">
+      <div class="breaking-label">SYNCED</div>
+      <div class="breaking-copy">Intelligence brief synced · 10 sources normalized · 3 high-priority signals</div>
+      <time class="breaking-time">09:42</time>
+    </div>
+
+    <header class="masthead">
+      <div class="masthead-inner">
+        <button class="menu-button" aria-label="메뉴">☰</button>
+        <a class="brand-lockup" href="../preview.html" aria-label="preview index">
+          <strong>TLDR Daily</strong>
+          <span>Technology intelligence workspace</span>
+        </a>
+        <div class="date-stamp">2026-06-03 수요일<small>10:01 KST 업데이트</small></div>
+      </div>
+    </header>
+
+    <nav class="section-nav" aria-label="뉴스 섹션">
+      <div class="section-nav-inner">
+        <a class="active" href="#">Executive brief</a>
+        <a href="#">Signals</a>
+        <a href="#">Risk</a>
+        <a href="#">AI</a>
+        <a href="#">Infra</a>
+        <a href="#">Markets</a>
+        <a href="#">Policy</a>
+        <a href="#">Sources</a>
+        <a href="#">Saved</a>
+      </div>
+    </nav>
+
+    <main class="page" data-preview-role="date-digest">
+      <section class="issue-hero" aria-label="오늘의 브리핑">
+        <article class="lead-story">
+          <span class="category">Executive intelligence</span>
+          <h1 class="lead-title">레드햇 npm 패키지 공급망 공격으로 개발자 자격증명 무더기 탈취</h1>
+          <p class="lead-summary">핵심 이슈를 먼저 읽고, 에디션별 기사로 빠르게 내려갈 수 있게 정리했습니다. GPT-5.5 베드록, 머니그램 스테이블코인, Wix 감원까지 한 화면에서 훑어보세요.</p>
+          <div class="intel-strip" aria-label="브리핑 인텔리전스 지표">
+            <div class="intel-card"><span>Impact level</span><strong>High</strong><small>developer credentials</small></div>
+            <div class="intel-card"><span>Confidence</span><strong>92%</strong><small>5 corroborated sources</small></div>
+            <div class="intel-card"><span>Affected surface</span><strong>npm · CI/CD</strong><small>tokens, 2FA seeds</small></div>
+            <div class="intel-card"><span>Recommended owner</span><strong>Security Ops</strong><small>review within 24h</small></div>
+          </div>
+          <div class="keyword-line">공급망 보안 · AI 비용 반발</div>
+          <div class="actions">
+            <a class="button primary" href="../report/preview.html">먼저 읽기 →</a>
+            <a class="button" href="#editions">에디션 둘러보기</a>
+          </div>
+        </article>
+
+        <aside class="queue-panel" aria-labelledby="daily-queue-title">
+          <div class="queue-head"><h2 id="daily-queue-title">읽기 큐 <span class="queue-count">6</span></h2><span>전체 보기</span></div>
+          <div class="queue-list">
+            <div class="queue-row"><span><b>보안</b>레드햇 npm 패키지 공급망 공격으로 개발자 자격증명 무더기 탈취</span><time>10:01</time><button aria-label="읽기 큐에서 제거">×</button></div>
+            <div class="queue-row"><span><b style="color: var(--blue)">AI</b>아마존, GPT-5.5 ‘베드록’ 모델 사전보기 공개</span><time>09:15</time><button aria-label="읽기 큐에서 제거">×</button></div>
+            <div class="queue-row"><span><b style="color: var(--green)">핀테크</b>머니그램, 스테이블코인 ‘MGUSD’ 발표</span><time>08:40</time><button aria-label="읽기 큐에서 제거">×</button></div>
+            <div class="queue-row"><span><b>기업</b>Wix, 1,000명 감원 및 글로벌 인력 14% 감축 발표</span><time>07:58</time><button aria-label="읽기 큐에서 제거">×</button></div>
+            <div class="queue-row"><span><b style="color: var(--orange)">정책/법률</b>EU, AI 규제 ‘AI Act’ 세부 가이드라인 초안 공개</span><time>07:20</time><button aria-label="읽기 큐에서 제거">×</button></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="metrics-strip" aria-label="오늘 브리핑 요약">
+        <div class="metric"><span>오늘의 뉴스레터</span><strong>10 <small>발행</small></strong></div>
+        <div class="metric"><span>오늘의 기사</span><strong>32 <small>건</small></strong></div>
+        <div class="metric"><span>대표 키워드</span><strong style="font-size: 20px">공급망 보안 · AI 비용 반발</strong></div>
+        <div class="metric"><span>분석 리포트</span><strong>3 <small>건</small></strong></div>
+        <div class="metric"><span>인사이트 코멘트</span><strong>5 <small>건</small></strong></div>
+        <div class="metric"><span>구독자</span><strong style="font-size: 30px">128,842 <small>명</small></strong></div>
+      </section>
+
+      <section class="signal-board" aria-label="인텔리전스 신호 요약">
+        <article class="signal-card primary">
+          <span class="signal-label">Primary signal</span>
+          <h3>공급망 공격이 개발자 인증 체계로 확장 중</h3>
+          <p>단순 악성 패키지 배포가 아니라 토큰, 2FA 시드, 세션 쿠키까지 노리는 형태입니다. 내부 레지스트리와 CI/CD secret 회전 여부를 함께 확인해야 합니다.</p>
+          <div class="score-row">
+            <span class="score-chip">Severity <strong>8.7</strong></span>
+            <span class="score-chip">Velocity <strong>Rising</strong></span>
+            <span class="score-chip">Action <strong>Rotate keys</strong></span>
+          </div>
+        </article>
+        <article class="signal-card">
+          <span class="signal-label">Market signal</span>
+          <h3>AI 비용 반발이 제품 전략 리스크로 이동</h3>
+          <p>GPT-5.5 Bedrock, 모델 비용, 인력 감축 이슈가 함께 나타나며 AI 도입 ROI 검증 요구가 커지고 있습니다.</p>
+        </article>
+        <article class="signal-card">
+          <span class="signal-label">Watchlist</span>
+          <h3>다음 48시간 모니터링</h3>
+          <p>npm package takedown, Red Hat 후속 권고, 주요 클라우드 provider의 credential exposure 공지를 추적합니다.</p>
+        </article>
+      </section>
+
+      <nav class="edition-tabs" id="editions" aria-label="에디션 빠른 이동">
+        <a href="#big-story">빅테크 &amp; 스타트업</a>
+        <a href="#">AI</a>
+        <a href="#">정보보안</a>
+        <a href="#">크립토</a>
+        <a href="#">개발</a>
+        <a href="#">DevOps</a>
+        <a href="#">디자인</a>
+      </nav>
+
+      <section id="big-story" aria-labelledby="big-story-title">
+        <div class="section-title-row">
+          <h2 id="big-story-title">오늘의 빅스토리</h2>
+          <div class="tools"><span>Impact: High</span><span>Confidence: 92%</span></div>
+        </div>
+        <a class="big-story" href="../report/preview.html">
+          <div class="story-visual">RED HAT</div>
+          <div>
+            <span class="category">보안</span>
+            <h2>레드햇 npm 패키지 공급망 공격으로 개발자 자격증명 무더기 탈취</h2>
+            <p>공격자는 악성 패키지로 다단계 감염 체인을 구축하고, npm 토큰과 2FA 시드를 탈취해 지속적인 접근을 유지한 것으로 분석됐다. 레드햇은 토큰 무효화 및 패키지 폐기, 사용자 보안 강화 권고를 시행했다.</p>
+          </div>
+          <aside class="related">
+            <h3>관련 읽기</h3>
+            <ul>
+              <li>공급망 공격 타임라인</li>
+              <li>유지자 보안 체크리스트</li>
+              <li>2FA 시드 탈취 리스크</li>
+            </ul>
+          </aside>
+        </a>
+      </section>
+
+      <section aria-label="에디션 기사 목록">
+        <div class="article-grid">
+          <a class="article-card" href="#"><b>AI</b><h3>아마존, GPT-5.5 ‘베드록’ 모델 사전보기 공개</h3><p>코딩 성능과 비용 효율을 강화한 신규 모델을 베드록에서 테스트 제공한다.</p></a>
+          <a class="article-card" href="#"><b style="color: var(--green)">핀테크</b><h3>머니그램, 스테이블코인 ‘MGUSD’ 발표 · 지갑 서비스 출시</h3><p>글로벌 송금과 디지털 자산을 연결하는 스테이블코인 전략을 본격화한다.</p></a>
+          <a class="article-card" href="#"><b>기업</b><h3>Wix, 1,000명 감원 및 글로벌 인력 14% 감축 발표</h3><p>수익성 개선과 비용 효율화를 위한 구조조정에 나섰다.</p></a>
+          <a class="article-card" href="#"><b style="color: var(--orange)">정책/법률</b><h3>EU, AI 규제 ‘AI Act’ 세부 가이드라인 초안 공개</h3><p>고위험 AI 분류와 투명성 의무에 대한 해석을 구체화했다.</p></a>
+          <a class="article-card" href="#"><b style="color: var(--orange)">하드웨어</b><h3>TSMC, 2nm 공정 수율 개선으로 양산 확대</h3><p>모바일과 HPC 수요 대응을 위해 생산 계획을 상향 조정했다.</p></a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

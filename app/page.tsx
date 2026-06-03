@@ -1,20 +1,20 @@
 import Link from "next/link";
-import { countArticles, findArticle, getAllDates, getDigest, type Digest } from "@/lib/digest";
+import Chrome from "@/components/Chrome";
+import {
+  countArticles,
+  findArticle,
+  getAllDates,
+  getDigest,
+  headlineTitles,
+  readingQueue,
+  sideHeadlines,
+  topEditionNames,
+} from "@/lib/digest";
 
 export const dynamic = "force-static";
 
-function getReadingQueue(digest: Digest) {
-  const big = findArticle(digest, digest.bigStoryId);
-  const items = digest.editions.flatMap((edition) =>
-    edition.items.map((item) => ({ edition, item }))
-  );
-  const rest = items.filter(({ item }) => item.id !== digest.bigStoryId);
-  return [...(big ? [big] : []), ...rest].slice(0, 3);
-}
-
 export default function Home() {
-  const dates = getAllDates();
-  const archives = dates
+  const archives = getAllDates()
     .map((date) => {
       const digest = getDigest(date);
       if (!digest) return null;
@@ -25,81 +25,131 @@ export default function Home() {
         total: countArticles(digest),
       };
     })
-    .filter((archive): archive is NonNullable<typeof archive> => archive !== null);
+    .filter((a): a is NonNullable<typeof a> => a !== null);
+
   const latest = archives[0];
-  const queue = latest ? getReadingQueue(latest.digest) : [];
+
+  if (!latest) {
+    return (
+      <>
+        <Chrome dateLabel="아카이브" sync={{ sources: 0, signals: 0, at: "--:--" }} active="archive" />
+        <main className="page">
+          <div className="empty-state">아직 요약이 없습니다.</div>
+        </main>
+      </>
+    );
+  }
+
+  const d = latest.digest;
+  const big = latest.big;
+  const intel = big?.item.intel;
+  const queue = readingQueue(d, 5);
+  const side = sideHeadlines(d, 4);
 
   return (
-    <div className="archive-shell">
-      <section className="home-hero">
-        <div className="hero-copy">
-          <div className="eyebrow"><span className="status-dot" />개인용 데일리 브리핑</div>
-          <h1><span>매일 도착한</span><span>기술 흐름</span></h1>
-          <p className="lead">
-            TLDR 뉴스레터를 한국어 분석 리포트로 정리한 개인 아카이브입니다.
-            날짜별 빅스토리와 기사 묶음을 빠르게 다시 열 수 있습니다.
-          </p>
-          <div className="hero-actions">
-            {latest && <Link className="button primary" href={`/${latest.date}`}>최신 브리핑 보기 <span>→</span></Link>}
-            <a className="button secondary" href="#archive-index">아카이브 인덱스</a>
-          </div>
-        </div>
+    <>
+      <Chrome
+        dateLabel={`${d.date} (${d.weekday})`}
+        lastUpdated={d.lastUpdated}
+        sync={{ sources: d.editions.length, signals: d.signals?.length ?? 0, at: d.syncedAt ?? "09:00" }}
+        active="archive"
+        navDate={d.date}
+      />
+      <main className="page">
+        <section className="lead-grid" aria-label="최신 브리핑">
+          {big && (
+            <article className="lead-story">
+              <span className="category">Priority intelligence</span>
+              <h1 className="lead-title">{big.item.title}</h1>
+              <p className="lead-summary">{big.item.report.tldr}</p>
+              {intel && (
+                <div className="intel-strip" aria-label="인텔리전스 지표">
+                  <div className="intel-card"><span>Impact</span><strong>{intel.impact ?? "—"}</strong><small>{intel.affectedSurface ?? big.edition.name}</small></div>
+                  <div className="intel-card"><span>Confidence</span><strong>{intel.confidence ?? "—"}</strong><small>verified sources</small></div>
+                  <div className="intel-card"><span>Owner</span><strong>{intel.owner ?? "—"}</strong><small>review</small></div>
+                  <div className="intel-card"><span>Status</span><strong>{intel.status ?? "Tracking"}</strong><small>follow-up</small></div>
+                </div>
+              )}
+              <div className="byline">
+                <span>TLDR Daily</span>
+                <time>{d.lastUpdated ?? d.date}</time>
+                <Link href={`/${d.date}/${big.item.id}`}>리포트 →</Link>
+              </div>
+              <div className="keyword-line">{d.keyword}</div>
+            </article>
+          )}
 
-        {latest && (
-          <aside className="brief-panel" aria-labelledby="home-queue-title">
-            <div className="panel-head">
-              <h2 id="home-queue-title">최신 읽기 큐</h2>
-              <span>{latest.digest.date}</span>
+          <aside className="side-headlines" aria-label="주요 헤드라인">
+            {side.map(({ edition, item }) => (
+              <Link key={item.id} className="side-headline" href={`/${d.date}/${item.id}`}>
+                <span className="tag" style={{ color: edition.color }}>{edition.name}</span>
+                <h2>{item.title}</h2>
+                <time>{item.source}</time>
+              </Link>
+            ))}
+          </aside>
+
+          <aside className="queue-panel" aria-labelledby="home-queue-title">
+            <div className="queue-head">
+              <h2 id="home-queue-title">읽기 큐 <span className="queue-count">{queue.length}</span></h2>
+              <span>전체 보기</span>
             </div>
             <div className="queue-list">
-              {queue.map(({ edition, item }, index) => (
-                <Link key={item.id} href={`/${latest.date}/${item.id}`} className="queue-item">
-                  <span className="rank">{index + 1}</span>
-                  <span className="queue-copy">
-                    <span className="queue-title">{item.title}</span>
-                    <span className="queue-meta">{edition.name} · {item.source}</span>
-                  </span>
-                  <span className="category-badge" style={{ color: edition.color, background: edition.color + "18" }}>{edition.name}</span>
+              {queue.map(({ edition, item }) => (
+                <Link key={item.id} className="queue-row" href={`/${d.date}/${item.id}`}>
+                  <span><b style={{ color: edition.color }}>{edition.name}</b>{item.title}</span>
+                  <time>{item.source}</time>
                 </Link>
               ))}
             </div>
           </aside>
-        )}
-      </section>
+        </section>
 
-      <section className="metric-grid" aria-label="아카이브 요약">
-        <div className="metric"><strong>{archives.length}</strong><span>아카이브 날짜</span></div>
-        <div className="metric"><strong>{latest ? latest.digest.editions.length : 0}</strong><span>뉴스레터 / 최신일</span></div>
-        <div className="metric"><strong>{latest ? latest.total : 0}</strong><span>분석 기사 / 최신일</span></div>
-      </section>
+        <section className="metrics-strip" aria-label="아카이브 요약">
+          <div className="metric"><span>오늘의 브리핑</span><strong>{latest.total} <small>건</small></strong></div>
+          <div className="metric"><span>주요 기업</span><strong>{d.stats?.companies ?? "—"} <small>개</small></strong></div>
+          <div className="metric"><span>보안 이슈</span><strong>{d.stats?.security ?? "—"} <small>건</small></strong></div>
+          <div className="metric"><span>투자/인수</span><strong>{d.stats?.deals ?? "—"} <small>건</small></strong></div>
+          <div className="metric"><span>글로벌 정책</span><strong>{d.stats?.policy ?? "—"} <small>건</small></strong></div>
+          {d.market ? (
+            <div className="metric"><span>시장 요약</span><strong style={{ fontSize: 18 }}>{d.market.index}<br /><small>{d.market.value} {d.market.change}</small></strong></div>
+          ) : (
+            <div className="metric"><span>아카이브</span><strong>{archives.length} <small>일</small></strong></div>
+          )}
+        </section>
 
-      <section className="section-band" id="archive-index" aria-labelledby="archive-title">
-        <div className="section-title">
-          <div>
-            <h2 id="archive-title">아카이브 인덱스</h2>
-            <p>날짜별 브리핑과 핵심 키워드를 이어서 볼 수 있습니다.</p>
+        <section aria-label="아카이브 인덱스">
+          <div className="section-title-row">
+            <h2>아카이브</h2>
+            <div className="tools"><span>날짜 내림차순 ▾</span></div>
           </div>
-        </div>
-
-        {archives.length === 0 ? (
-          <div className="empty-state">아직 요약이 없습니다.</div>
-        ) : (
-          <div className="archive-grid">
-            {archives.map(({ date, digest, big, total }) => (
-              <Link key={date} href={`/${date}`} className="archive-card">
-                <span className="archive-date">{date}<small>{digest.weekday}요일</small></span>
-                <span className="archive-story">{big ? big.item.title : digest.headline}</span>
-                <span className="archive-meta">
+          <div className="archive-table">
+            <div className="archive-head">
+              <span>날짜</span><span>주요 뉴스</span><span>카테고리</span><span>브리핑</span><span>보안 이슈</span><span>투자/인수</span>
+            </div>
+            {archives.map(({ date, digest, big: b, total }) => {
+              const heads = headlineTitles(digest, 3);
+              const cats = topEditionNames(digest, 3);
+              return (
+                <Link key={date} className="archive-row" href={`/${date}`}>
+                  <time>{date} ({digest.weekday})</time>
+                  <p>
+                    {(heads.length ? heads : [b ? b.item.title : digest.headline]).map((h, i, arr) => (
+                      <span key={i}>{h}{i < arr.length - 1 ? <br /> : null}</span>
+                    ))}
+                  </p>
+                  <div className="dot-list">{cats.map((c) => <span key={c}>{c}</span>)}</div>
                   <span>{total}건</span>
-                  <span>{digest.keyword}</span>
-                </span>
-              </Link>
-            ))}
+                  <span>{digest.stats?.security ?? "—"}건</span>
+                  <span>{digest.stats?.deals ?? "—"}건</span>
+                </Link>
+              );
+            })}
           </div>
-        )}
-      </section>
+        </section>
 
-      <footer className="site-footer">개인용 TLDR 요약 아카이브 · 비공개</footer>
-    </div>
+        <footer className="site-footer">개인용 TLDR 인텔리전스 아카이브 · 비공개</footer>
+      </main>
+    </>
   );
 }
