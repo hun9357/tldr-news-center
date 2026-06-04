@@ -1,0 +1,279 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "deepseek-maiden-funding",
+      "title": "딥시크, 첫 펀딩 라운드서 약 70억 달러 조달 추진",
+      "summary": "창업자가 200억 위안을 자비로 투입하고 10곳 미만의 투자자가 참여하는 첫 외부 자금 조달.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/03/deepseek-slated-to-draw-7-billion-in-maiden-fundraising-sources-say.html",
+      "report": {
+        "tldr": "딥시크가 약 500억 위안 규모의 첫 펀딩 라운드를 수 주 내 마무리할 전망이다.",
+        "what": "딥시크가 설립 이후 첫 외부 펀딩 라운드를 진행 중이며 규모는 약 500억 위안(약 70억 달러)으로 알려졌다. 창업자가 직접 200억 위안을 출자하고 나머지는 10곳 미만의 투자자가 채운다. 라운드는 향후 수 주 안에 종료될 예정이며, IPO 계획에 대해서는 아직 공식 입장이 없다.",
+        "points": [
+          "창업자 본인이 200억 위안을 자비로 투입",
+          "투자자 수는 10곳 미만으로 제한적",
+          "수 주 내 라운드 마감 예상"
+        ],
+        "why": [
+          "오픈웨이트 진영의 대표 주자가 대규모 자본을 확보하며 프런티어 경쟁에 본격 합류",
+          "중국 AI 스타트업에 대한 자본 집중도를 보여주는 신호"
+        ]
+      }
+    },
+    {
+      "id": "meta-model-delay",
+      "title": "메타, 신규 AI 모델 개발자 공개를 거듭 연기",
+      "summary": "OpenAI·앤트로픽과 견줄 만하다는 'Muse Spark' 모델이 외부 평가도 못 받은 채 출시가 미뤄지고 있다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/TxV9zE",
+      "report": {
+        "tldr": "메타가 최신 AI 모델의 개발자 공개 일정을 확정하지 못하고 계속 미루고 있다.",
+        "what": "메타는 최신 모델을 이달 공개할 계획이었으나 확정 일자를 잡지 못하고 파트너 대상 API 테스트만 진행 중이다. 'Muse Spark' 모델은 OpenAI·앤트로픽 수준이라고 알려졌지만 아직 외부 기관 평가를 받지 못했다.",
+        "points": [
+          "출시 목표였던 이달 공개가 사실상 무산",
+          "외부 평가 부재로 성능 검증이 안 된 상태",
+          "파트너 대상 비공개 API 테스트 단계"
+        ],
+        "why": [
+          "대규모 AI 투자 회수(수익화) 속도에 의문을 키우는 사건",
+          "프런티어 모델 경쟁에서 메타의 입지 약화 우려"
+        ]
+      }
+    },
+    {
+      "id": "google-dreambeans",
+      "title": "구글 랩스, 개인 데이터로 스토리를 큐레이션하는 '드림빈스'",
+      "summary": "Gmail·캘린더 등 구글 앱 데이터를 활용해 관심사 맞춤 콘텐츠를 추천하는 앱.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans/",
+      "report": {
+        "tldr": "구글이 개인 데이터 기반으로 맞춤 스토리를 만들어 주는 AI 앱 드림빈스를 공개했다.",
+        "what": "드림빈스는 Gmail·캘린더 등 구글 앱 데이터를 활용해 사용자 관심사에 맞춘 스토리를 생성한다. 디지털 잡음을 줄이고 영감을 주는 것이 목표로, 예컨대 캘린더 일정에 맞춰 반려견 동반 식당을 추천한다.",
+        "points": [
+          "개인 구글 앱 데이터를 입력으로 사용",
+          "관심사·일정 기반 맞춤 추천",
+          "'디지털 잡음 줄이기'를 표방"
+        ],
+        "why": [
+          "개인 데이터 활용 범위 확대에 따른 프라이버시 논쟁 가능성",
+          "AI 큐레이션이 소비형 피드를 대체하려는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "openai-opal-electronics",
+      "title": "오픈AI, 오팔 일렉트로닉스 투자로 하드웨어 행보 확대",
+      "summary": "웹캠을 넘어 창작용 AI 네이티브 기기로 제품군을 넓히는 라운드를 주도.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/openai-makes-its-next-hardware-move-with-opal-electronics/",
+      "report": {
+        "tldr": "오픈AI가 오팔 일렉트로닉스 펀딩을 주도하며 AI 하드웨어로 발을 넓힌다.",
+        "what": "오픈AI가 오팔 일렉트로닉스 투자 라운드를 이끌었다. 오팔은 웹캠을 넘어 창작 작업용 AI 네이티브 기기로 제품군을 확장 중이다. 자체 앰비언트 컴퓨팅 프로젝트가 지연되는 가운데 나온 하드웨어 행보다.",
+        "points": [
+          "웹캠을 넘어선 AI 네이티브 기기 지향",
+          "오픈AI의 하드웨어 진출 전략과 일치",
+          "자체 기기 프로젝트 지연 속 외부 투자"
+        ],
+        "why": [
+          "소프트웨어를 넘어 디바이스 생태계로 영역 확장 시도"
+        ]
+      }
+    },
+    {
+      "id": "world-models-taxonomy",
+      "title": "월드 모델의 기능적 분류학",
+      "summary": "컴퓨터비전·로보틱스·강화학습을 아우르는 '월드 모델' 개념을 정리한 분석.",
+      "source": "Fei-Fei Li (Substack)",
+      "url": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+      "report": {
+        "tldr": "언어 모델과 달리 공간·시간을 다루는 '월드 모델'의 구성 요소를 정리한 글이다.",
+        "what": "언어 모델이 개념·어휘·추론에 강하다면 물리 세계는 공간·시간이라는 다른 기반 위에서 작동한다. '월드 모델'은 컴퓨터비전, 로보틱스, 강화학습, 생성 AI를 아우르는 폭넓고 다의적인 용어다. 이 글은 월드 모델이 무엇이고 어떤 요소로 구성되는지 분석한다.",
+        "points": [
+          "언어 모델과 물리 세계 모델의 기반 차이",
+          "CV·로보틱스·RL·생성AI를 포괄하는 개념",
+          "월드 모델의 구성 요소를 분류"
+        ],
+        "why": [
+          "물리 세계를 다루는 차세대 AI 방향성을 이해하는 틀 제공"
+        ]
+      }
+    },
+    {
+      "id": "ai-native-engineering-org",
+      "title": "Claude Code 팀의 AI 네이티브 엔지니어링 조직 운영기",
+      "summary": "적시 계획·AI 보조 코딩 도입으로 로드맵과 역할을 재구성한 사례.",
+      "source": "Anthropic",
+      "url": "https://claude.com/blog/running-an-ai-native-engineering-org",
+      "report": {
+        "tldr": "Claude Code 팀이 AI 보조 코딩에 맞춰 프로세스와 역할을 재설계한 경험을 공유했다.",
+        "what": "팀은 적시(just-in-time) 계획과 AI 보조 코딩을 도입하며 낡은 프로세스를 걷어내고 로드맵·역할을 재구성했다. 자동화 도구가 스타일·버그를 처리하면서 코드 리뷰는 인간 전문성이 필요한 영역에 집중한다. 자사 제품 도그푸딩, 수평적 팀 구조, 프로세스 재점검을 강조한다.",
+        "points": [
+          "적시 계획으로 로드맵 재구성",
+          "리뷰는 인간 전문성 필요 영역에 집중",
+          "도그푸딩·수평 구조 강조"
+        ],
+        "why": [
+          "AI 시대 엔지니어링 조직 운영의 구체적 참고 사례"
+        ]
+      }
+    },
+    {
+      "id": "llm-hack-vulnerable-app",
+      "title": "취약 앱에 1,500달러 들여 'LLM이 해킹할 수 있나' 실험",
+      "summary": "GPT-5.5가 10회 중 7회 성공, Claude Sonnet 4.6은 가드레일·예산 한계로 2회 성공.",
+      "source": "kasra.blog",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/",
+      "report": {
+        "tldr": "한 개발자가 취약한 앱을 만들어 LLM들이 실제로 익스플로잇을 재현하는지 실험했다.",
+        "what": "개발자가 일부러 취약한 도서 리뷰 앱을 만들고, 비공개 리뷰 속 플래그를 LLM이 찾아낼 수 있는지 테스트했다. GPT-5.5가 10회 중 7회로 가장 우수했고, DeepSeek-V4-Pro가 3회로 2위였다. Claude Sonnet 4.6은 실행 비용이 가장 비쌌고 2회만 성공했는데 5회는 예산 상한으로 중단됐으며, 다수 모델은 보안 가드레일 때문에 완수하지 못했다.",
+        "points": [
+          "GPT-5.5: 10회 중 7회 성공으로 1위",
+          "Claude Sonnet 4.6: 비용 최고, 가드레일·예산으로 2회 성공",
+          "상당수 모델이 보안 가드레일로 작업 거부"
+        ],
+        "why": [
+          "LLM의 공격 역량과 가드레일의 실효성을 동시에 보여줌",
+          "모델별 비용·성공률 트레이드오프 확인"
+        ]
+      }
+    },
+    {
+      "id": "ideogram-4",
+      "title": "이데오그램 4, 처음부터 학습한 오픈웨이트 텍스트→이미지 모델",
+      "summary": "구조화 JSON 프롬프트, 다국어 텍스트 렌더링, 2K 네이티브 해상도 지원.",
+      "source": "GitHub",
+      "url": "https://github.com/ideogram-oss/ideogram4",
+      "report": {
+        "tldr": "이데오그램 4가 기존 모델 파인튜닝이 아닌 처음부터 학습한 오픈웨이트 이미지 모델로 공개됐다.",
+        "what": "이데오그램 4는 어떤 기존 모델의 파인튜닝도 아닌, 처음부터 학습된 오픈웨이트 텍스트→이미지 모델이다. 새로운 구조화 JSON 프롬프트 인터페이스를 도입했고, 최상급 다국어 텍스트 렌더링, 바운딩 박스 레이아웃·색상 팔레트 제어, 2K 네이티브 해상도를 제공한다.",
+        "points": [
+          "from-scratch 학습한 오픈웨이트 모델",
+          "구조화 JSON 프롬프트 인터페이스",
+          "2K 네이티브 해상도·다국어 텍스트 렌더링"
+        ],
+        "why": [
+          "오픈 이미지 생성 생태계의 선택지 확대"
+        ]
+      }
+    },
+    {
+      "id": "sleep-continual-learning",
+      "title": "지속 학습을 위한 'Sleep' 패러다임",
+      "summary": "단기 인컨텍스트 지식을 증류·리플레이로 장기 파라미터에 통합하는 구글 연구.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.03979",
+      "report": {
+        "tldr": "구글 연구진이 단기 지식을 장기 파라미터로 통합하는 'Sleep' 학습 패러다임을 제안했다.",
+        "what": "구글 연구진은 모델이 단기 인컨텍스트 지식을 증류와 리플레이를 통해 장기 파라미터로 통합하는 'Sleep' 패러다임을 제안했다. 추가로 강화학습을 활용한 'Dreaming' 단계로 자기 개선용 합성 커리큘럼을 생성한다.",
+        "points": [
+          "증류·리플레이로 단기→장기 지식 통합",
+          "'Dreaming' 단계에서 RL 기반 합성 커리큘럼 생성",
+          "지속 학습(continual learning) 지향"
+        ],
+        "why": [
+          "맥락 학습의 한계를 넘어 영구 학습으로 가는 연구 방향"
+        ]
+      }
+    },
+    {
+      "id": "anthropic-partner-network",
+      "title": "앤트로픽, IPO 앞두고 엔터프라이즈 파트너 프로그램 강화",
+      "summary": "제3자 판매사 대상 Claude Partner Network 확대로 사업 성숙도 신호.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/IpgBj0",
+      "report": {
+        "tldr": "앤트로픽이 IPO를 앞두고 Claude 파트너 네트워크를 강화하며 사업 성숙도를 부각한다.",
+        "what": "Claude Partner Network는 앤트로픽 제품의 제3자 판매사를 위한 프로그램으로, 일정 요건을 충족한 기업에 기업 대상 판매 신뢰도를 부여한다. 최근 비공개 IPO 신청을 한 앤트로픽이 규모 확장 의지를 시장에 보여주려는 행보다.",
+        "points": [
+          "제3자 판매사 대상 공식 파트너 프로그램",
+          "참여 요건 충족 시 판매 신뢰도 확보",
+          "올가을 상장 경로와 맞물린 성숙도 신호"
+        ],
+        "why": [
+          "투자자에게 사업 성숙도를 입증하려는 IPO 사전 정지작업"
+        ]
+      }
+    },
+    {
+      "id": "intelligence-per-dollar",
+      "title": "MS, '달러당 지능' 강조하는 평균 토큰 사용량 지표 도입",
+      "summary": "모델 카드에 평균 토큰 사용량을 표기해 성능 대비 비용 경쟁을 유도.",
+      "source": "Tomasz Tunguz",
+      "url": "https://tomtunguz.com/tokens-per-result/",
+      "report": {
+        "tldr": "마이크로소프트가 모델 출시 카드에 '평균 토큰 사용량'을 넣어 효율 경쟁을 촉진한다.",
+        "what": "마이크로소프트가 모델 출시 카드에 '평균 토큰 사용량'을 도입해 달러당 지능을 강조한다. 이제 모델은 성능뿐 아니라 그 지능을 달성하는 비용으로도 벤치마크된다. 이 지표는 기업들이 효율로 경쟁하게 만들고 가격을 완료된 작업 같은 실질 성과에 맞춘다.",
+        "points": [
+          "모델 카드에 평균 토큰 사용량 표기",
+          "성능과 비용을 함께 벤치마킹",
+          "효율 중심 경쟁 유도"
+        ],
+        "why": [
+          "성능 일변도에서 비용효율 중심으로 평가 축이 이동"
+        ]
+      }
+    },
+    {
+      "id": "morgan-stanley-ai-agents",
+      "title": "모건스탠리, 1조 달러 자산관리 플랫폼을 AI 에이전트에 개방",
+      "summary": "수천 기업의 AI 에이전트가 ShareWorks·Equity Edge에 접근 가능해진다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/03/ai-agents-morgan-stanley-wealth-management-funnel.html",
+      "report": {
+        "tldr": "모건스탠리가 자산관리 플랫폼을 수천 기업의 AI 에이전트에 개방한다.",
+        "what": "모건스탠리는 수천 개 기업의 AI 에이전트가 ShareWorks, Equity Edge 같은 자산관리 플랫폼에 접근하도록 허용할 예정이다. 1조 달러 규모 자산관리 퍼널을 에이전트에 여는 셈이다.",
+        "points": [
+          "수천 기업의 AI 에이전트에 플랫폼 개방",
+          "ShareWorks·Equity Edge 등 핵심 시스템 접근",
+          "1조 달러 규모 자산관리 퍼널 대상"
+        ],
+        "why": [
+          "에이전틱 AI가 금융 서비스 워크플로에 직접 진입하는 사례"
+        ]
+      }
+    },
+    {
+      "id": "meta-business-agent-ai",
+      "title": "메타 비즈니스 에이전트, WhatsApp·메신저·인스타 고객 응대 자동화",
+      "summary": "기업이 메시징 플랫폼에서 고객 상호작용을 효율적으로 관리하는 새 AI 도구.",
+      "source": "Meta",
+      "url": "https://about.fb.com/news/2026/06/meta-business-agent/",
+      "report": {
+        "tldr": "메타가 메시징 플랫폼에서 기업 고객 응대를 자동화하는 비즈니스 에이전트를 공개했다.",
+        "what": "메타 비즈니스 에이전트는 기업이 WhatsApp·메신저·인스타그램에서 고객 상호작용을 효율적으로 관리하도록 돕는 새 AI 도구다.",
+        "points": [
+          "WhatsApp·메신저·인스타 통합 응대",
+          "고객 상호작용 관리 자동화",
+          "메타의 비즈니스용 AI 확장"
+        ],
+        "why": [
+          "메타의 메시징 자산을 수익화하는 AI 진입로"
+        ]
+      }
+    },
+    {
+      "id": "meta-ai-catch-up",
+      "title": "메타의 AI 추격전 내부를 들여다보다",
+      "summary": "Alexandr Wang의 험난한 출발과 이후 자리를 잡아가는 과정을 조명.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/06/inside-metas-attempts-to-play-catch-up-with-ai/",
+      "report": {
+        "tldr": "메타가 AI 경쟁에서 따라잡으려는 내부 움직임을 다룬 심층 기사다.",
+        "what": "Alexandr Wang은 메타에서 험난하게 출발했지만 점차 자리를 잡아가는 것으로 보인다. 기사는 메타의 AI 추격 시도 내부를 들여다본다.",
+        "points": [
+          "Alexandr Wang의 초기 난항",
+          "점진적 안착",
+          "메타의 AI 따라잡기 전략 조명"
+        ],
+        "why": [
+          "프런티어 경쟁에서 메타의 조직·인사 동학을 이해하는 단서"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "amazon-ai-product-images",
+      "title": "아마존, 검색 시 AI 생성 제품 이미지 노출",
+      "summary": "자동완성 아래 가짜 시각 옵션 표시 — 실제 판매품으로 오인 위험.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/amazon-will-show-ai-product-images-when-you-search-for-some-reason/",
+      "report": {
+        "tldr": "아마존이 검색 자동완성에 AI 생성 제품 이미지를 노출하기 시작했다.",
+        "what": "아마존이 쇼핑 앱 검색 결과에 AI 생성 제품 이미지를 추가해, 자동완성 제안 아래 가짜 시각 옵션을 보여 드레스 스타일·가구 소재 같은 모호한 질의를 다듬게 한다. 시각 검색으로 관련성을 높이려는 의도지만, 사진 속 상품이 실제 판매품이라 기대하는 고객을 오인시킬 위험이 있다. 리뷰 요약·AI 오디오 개요·Lens Live 등 광범위한 AI 도입의 일환이다.",
+        "points": [
+          "자동완성 아래 AI 생성 이미지 표시",
+          "모호한 질의 정제 목적",
+          "실제 판매품 오인 위험"
+        ],
+        "why": [
+          "AI 생성 콘텐츠가 커머스 UX의 신뢰를 시험"
+        ]
+      }
+    },
+    {
+      "id": "schweppes-rebrand",
+      "title": "슈웹스, 헤리티지 기반 대규모 리브랜드",
+      "summary": "'With Time Comes Taste' 플랫폼과 레오파드 마스코트 Clive 복귀.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/news/with-time-comes-taste-schweppes-reimagines-the-brand-it-invented/",
+      "report": {
+        "tldr": "슈웹스가 240여 년 헤리티지에 기반한 세대급 리브랜드를 단행했다.",
+        "what": "슈웹스가 여러 세대 만에 최대 규모 리브랜드를 공개하며 새 글로벌 아이덴티티, 헤리티지 기반 플랫폼 'With Time Comes Taste', 레오파드 마스코트 Clive의 복귀를 선보였다. 240년 넘는 혁신에 뿌리를 둔 프리미엄 음료로 재정립하려는 시도로, 역사적 디자인 요소를 활용해 패키징·마케팅을 현대화하고 정교한 무알코올 음료 수요를 강조한다.",
+        "points": [
+          "새 글로벌 아이덴티티·'With Time Comes Taste'",
+          "레오파드 마스코트 Clive 복귀",
+          "헤리티지 기반 프리미엄 재정립"
+        ],
+        "why": [
+          "전통 브랜드의 헤리티지 활용 리브랜딩 사례"
+        ]
+      }
+    },
+    {
+      "id": "google-dreambeans-cartoon",
+      "title": "구글 드림빈스, 당신의 삶을 만화로",
+      "summary": "Gmail·캘린더·사진 등으로 하루 10~14개 카툰풍 '스토리' 생성.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/googles-dreambeans-its-weirdest-named-ai-tool-to-date-will-turn-your-life-into-a-cartoon/",
+      "report": {
+        "tldr": "구글 랩스가 개인 데이터를 카툰풍 스토리로 바꾸는 드림빈스를 출시했다.",
+        "what": "구글 랩스가 Gmail·캘린더·사진·유튜브·검색 기록 등 구글 서비스 데이터로 매일 소량의 맞춤 카툰풍 '스토리'를 생성하는 드림빈스를 출시했다. 도파민 스크롤의 해독제를 표방하며 관심사·일정에 기반한 하루 10~14개 라이프스타일 제안·추천·뉴스·아이디어를 제공한다. 현재 미국 Google AI Ultra 구독자로 제한되며 대기자 명단을 운영한다.",
+        "points": [
+          "구글 서비스 데이터로 카툰 스토리 생성",
+          "하루 10~14개 추천 제공",
+          "미국 AI Ultra 구독자 한정"
+        ],
+        "why": [
+          "AI 큐레이션이 소비형 피드를 대체하려는 시도"
+        ]
+      }
+    },
+    {
+      "id": "ai-first-ux",
+      "title": "AI 우선 UX는 어떤 모습일까",
+      "summary": "챗봇·텍스트 프롬프트에서 대화·시각 워크스페이스·에이전틱 오케스트레이션 결합으로.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4178415/what-will-ai-first-ux-look-like.html",
+      "report": {
+        "tldr": "AI 우선 UX가 기본 챗봇을 넘어 통합 경험으로 진화한다는 전망이다.",
+        "what": "AI 우선 UX는 기본 챗봇·텍스트 프롬프트에서 대화형 인터페이스·시각 워크스페이스·에이전틱 오케스트레이션을 결합한 통합 경험으로 진화한다. AI 에이전트가 워크플로 전반에 맥락을 이어가며 엔터프라이즈 앱 난립을 줄이고, 폼·대시보드 기반 전통 인터페이스는 협상·인터럽션 같은 자연스러운 협업 패턴을 반영한 인간 중심 설계로 대체된다.",
+        "points": [
+          "챗봇→통합 경험으로 진화",
+          "에이전트가 워크플로 맥락 유지",
+          "협업 패턴 반영 인간 중심 설계"
+        ],
+        "why": [
+          "AI 시대 UX 설계 방향성 제시"
+        ]
+      }
+    },
+    {
+      "id": "overcome-imposter-syndrome",
+      "title": "가면 증후군 극복하기",
+      "summary": "자기 의심을 정체성이 아닌 성장 동기로 재구성.",
+      "source": "Why Design is Hard",
+      "url": "https://whydesignishard.substack.com/p/overcome-imposter-syndrome",
+      "report": {
+        "tldr": "가면 증후군을 정체성이 아닌 성장 신호로 다루라는 디자이너 조언이다.",
+        "what": "가면 증후군은 모든 직군이 겪는 정상적 감정이지만, 정체성으로 굳어지면 해롭다. 저자는 디자이너가 예술적 인정 추구 대신 고객 문제 해결에 집중하고, 불건전한 비교를 피하며, 멘토에게 배우고, 안목과 실력의 격차를 성장의 자연스러운 일부로 인식하며, 의심을 학습 동기로 재구성하면 자기 의심을 줄일 수 있다고 본다.",
+        "points": [
+          "의심을 성장 신호로 재구성",
+          "고객 문제 해결에 집중",
+          "불건전한 비교 회피"
+        ],
+        "why": [
+          "창작 직군의 심리적 지속가능성 조언"
+        ]
+      }
+    },
+    {
+      "id": "default-bias",
+      "title": "디폴트 편향: 누가 당신의 설정을 골랐나",
+      "summary": "디폴트 설정의 윤리적 책임 — 프라이버시·알림·구독 결과를 좌우.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/tI4AeG",
+      "report": {
+        "tldr": "디폴트가 행동을 좌우하며 디자이너에게 윤리적 책임이 있다는 글이다.",
+        "what": "디폴트 편향은 변경에 노력·주의·정당화가 필요해 사람들이 사전 선택지를 그대로 두게 만들며, 디폴트를 행동 형성의 강력한 힘으로 만든다. 프라이버시·알림·구독 등 디폴트 선택이 대다수 사용자의 결과를 결정하므로 디자이너는 윤리적 책임을 진다.",
+        "points": [
+          "디폴트가 행동을 강하게 좌우",
+          "대다수는 설정을 바꾸지 않음",
+          "디자이너의 윤리적 책임"
+        ],
+        "why": [
+          "설계 윤리와 사용자 자기결정권 논의"
+        ]
+      }
+    },
+    {
+      "id": "apimage",
+      "title": "APImage: 텍스트 프롬프트를 프로덕션 비주얼로",
+      "summary": "이미지 생성·인페인팅·객체 제거를 제공하는 AI 이미지 플랫폼.",
+      "source": "APImage",
+      "url": "https://apimage.org/",
+      "report": {
+        "tldr": "APImage는 텍스트 프롬프트로 프로덕션용 비주얼을 만드는 AI 플랫폼이다.",
+        "what": "APImage는 텍스트 프롬프트에서 몇 초 만에 프로덕션용 비주얼을 생성하는 AI 이미지 플랫폼이다. 이미지 생성·인페인팅·객체 제거 기능을 제공하며 이커머스·기업팀·크리에이터를 겨냥한다.",
+        "points": [
+          "텍스트→프로덕션 비주얼",
+          "인페인팅·객체 제거",
+          "이커머스·기업·크리에이터 대상"
+        ],
+        "why": [
+          "디자인 워크플로의 AI 이미지 도구 옵션"
+        ]
+      }
+    },
+    {
+      "id": "storymotion",
+      "title": "StoryMotion: 몇 분 만에 애니메이션 설명 영상",
+      "summary": "문서·다이어그램·아이디어를 AI 에디터에 넣어 애니메이션 생성.",
+      "source": "StoryMotion",
+      "url": "https://storymotion.video/",
+      "report": {
+        "tldr": "StoryMotion은 몇 분 만에 애니메이션 설명 영상을 만든다.",
+        "what": "StoryMotion은 문서·다이어그램·아이디어를 AI 기반 에디터에 넣으면 애니메이션 비주얼을 생성해 몇 분 만에 설명 영상을 만들 수 있게 한다.",
+        "points": [
+          "문서·다이어그램 입력",
+          "AI가 애니메이션 생성",
+          "몇 분 만에 설명 영상"
+        ],
+        "why": [
+          "콘텐츠 제작 자동화 도구"
+        ]
+      }
+    },
+    {
+      "id": "notioly",
+      "title": "Notioly: 노션 스타일 일러스트레이션 모음",
+      "summary": "500+ 커스터마이즈 가능한 노션풍 일러스트, 매월 추가.",
+      "source": "Notioly",
+      "url": "https://www.notioly.com/",
+      "report": {
+        "tldr": "Notioly는 500개 이상의 커스터마이즈 가능한 노션풍 일러스트 모음이다.",
+        "what": "Notioly는 매월 새 디자인이 추가되는 500개 이상의 커스터마이즈 가능한 노션 스타일 일러스트레이션 모음이다.",
+        "points": [
+          "500+ 노션풍 일러스트",
+          "커스터마이즈 가능",
+          "매월 신규 추가"
+        ],
+        "why": [
+          "디자이너·콘텐츠 제작자용 무료 일러스트 리소스"
+        ]
+      }
+    },
+    {
+      "id": "design-systems-document-ai",
+      "title": "AI를 문서화하는 디자인 시스템",
+      "summary": "공개 디자인 시스템 156개 중 26개만 AI 다룸 — 4대 원칙으로 수렴.",
+      "source": "The Design System Guide",
+      "url": "https://learn.thedesignsystem.guide/p/design-systems-that-document-ai",
+      "report": {
+        "tldr": "공개 디자인 시스템 대부분이 AI를 다루지 않으며 일부만 4대 원칙으로 수렴했다.",
+        "what": "조사한 공개 디자인 시스템 156개 중 26개만 라벨·챗 패턴·설명가능성·윤리 가이드라인으로 AI를 의미 있게 다룬다. 조율 없이도 IBM·AWS·GitLab·MS 등 선도 팀은 4대 원칙으로 수렴했다: AI 생성 콘텐츠 표시, 계층적 설명, 인간 통제 유지, 실패 대비 설계. 신뢰도·환각 복구·사용자 수정 루프·에이전트 권한 등 중대한 공백이 거의 모든 시스템에 남아 있다.",
+        "points": [
+          "156개 중 26개만 AI 의미 있게 다룸",
+          "4대 원칙으로 독립 수렴",
+          "신뢰도·환각 복구 등 공백 잔존"
+        ],
+        "why": [
+          "디자인 시스템의 AI 가이드라인 미비를 진단"
+        ]
+      }
+    },
+    {
+      "id": "ux-hierarchy-2026",
+      "title": "UX 위계: 2026년 사용자는 실제로 어떻게 페이지를 훑나",
+      "summary": "F·Z 패턴 대신 목표 지향·AI 요약 선행 행동으로 변화.",
+      "source": "Webdesigner Depot",
+      "url": "https://webdesignerdepot.com/ux-hierarchy-how-users-actually-scan-pages-in-2026/",
+      "report": {
+        "tldr": "전통적 F·Z 스캔 패턴이 AI 시대 새 행동으로 대체됐다는 분석이다.",
+        "what": "F·Z 패턴 같은 전통 스캔 패턴은 AI 브라우징·AR 환경·적응형 인터페이스가 만든 새 행동으로 대체됐다. 사용자는 사전 목표를 갖고 도착해 관례적 레이아웃을 건너뛰고 동적 앵커에 착지하며, AI 오버레이 요약 탓에 대부분 원본 페이지 전에 알고리즘 생성 다이제스트를 훑는다. 현대 UX 위계는 시선 반응 요소·시맨틱 헤더·사실 기반 콘텐츠를 우선해야 한다.",
+        "points": [
+          "F·Z 패턴 대신 목표 지향 행동",
+          "AI 요약을 원본보다 먼저 소비",
+          "시선 반응·시맨틱 헤더 우선"
+        ],
+        "why": [
+          "AI 검색 시대의 UX 설계 원칙 변화"
+        ]
+      }
+    },
+    {
+      "id": "who-survives-ai-terruso",
+      "title": "AI 시대에 누가 살아남나 — 발터 테루소의 통찰",
+      "summary": "'아웃라이어 경제'로 탁월한 디자이너만 생존, 중간층은 고전 경고.",
+      "source": "DesignWanted",
+      "url": "https://designwanted.com/walter-terruso-interview-ai-insights-designers/",
+      "report": {
+        "tldr": "이탈리아 디자이너 테루소가 AI가 '아웃라이어 경제'를 만들 것이라 경고한다.",
+        "what": "20년 경력 이탈리아 인테리어 디자이너 발터 테루소는 AI가 예외적으로 창의적인 디자이너만 살아남고 중간층은 고전하는 '아웃라이어 경제'를 만들 것이라 경고한다. 그는 스튜디오에 에이전틱 AI 워크플로 통합을 자문하고 강의하며, 비범한 재능·기회가 없는 중간층 창작자에 대한 진정한 우려에서 동기를 얻는다고 말한다.",
+        "points": [
+          "'아웃라이어 경제' 경고",
+          "탁월한 디자이너만 생존",
+          "중간층 창작자 고전 우려"
+        ],
+        "why": [
+          "AI가 창작 직군에 미칠 양극화 전망"
+        ]
+      }
+    },
+    {
+      "id": "oneplus-cultural-excavation",
+      "title": "디자인 스튜디오 Oneplus, 브랜딩을 '문화적 발굴'로",
+      "summary": "발명이 아닌 깊은 문화·시각 리서치로 독특한 미학 창출.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/oneplus-graphic-design-discover-020626",
+      "report": {
+        "tldr": "밀라노 스튜디오 Oneplus가 브랜딩을 발명이 아닌 문화적 발굴로 접근한다.",
+        "what": "밀라노 기반 디자인 스튜디오 Oneplus는 브랜딩을 발명이 아닌 '문화적 발굴'로 접근해, 각 프로젝트의 문화·시각 핵심을 깊이 리서치해 독특한 미학을 만든다.",
+        "points": [
+          "브랜딩을 '문화적 발굴'로",
+          "깊은 문화·시각 리서치",
+          "독특한 미학 창출"
+        ],
+        "why": [
+          "리서치 중심 브랜딩 철학 사례"
+        ]
+      }
+    },
+    {
+      "id": "minimalism-arab-design",
+      "title": "미니멀리즘이 진정한 아랍 디자인을 억누른다",
+      "summary": "진보를 가장한 미니멀 미학이 지역 고유 표현을 억압.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/the-view-from-cairo-minimalist-aesthetics-arab-design-critique-creative-industry-020626",
+      "report": {
+        "tldr": "미니멀 미학이 진보를 가장해 아랍 디자인 고유성을 억누른다는 비평이다.",
+        "what": "진보를 가장해 아랍 디자인에 미니멀 미학이 강요되며 진정한 지역 디자인 표현이 억눌리고 있다는 비평이다.",
+        "points": [
+          "미니멀리즘이 진보로 포장",
+          "지역 고유 표현 억압",
+          "아랍 디자인 정체성 문제"
+        ],
+        "why": [
+          "디자인의 문화적 다양성·식민주의 논의"
+        ]
+      }
+    },
+    {
+      "id": "too-old-at-28",
+      "title": "28세, 이 업계에 결코 늙지 않았다",
+      "summary": "나이보다 경험·역량·전략적 커리어 이동이 중요.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-advice-010626",
+      "report": {
+        "tldr": "28세 디자이너가 업계에서 결코 늙지 않았다는 커리어 조언이다.",
+        "what": "커리어 전문가는 28세 디자이너가 업계에서 전혀 늙지 않았으며, 더 큰 창작 기회를 좇을 때 나이보다 에이전시 경험·전문 역량·전략적 커리어 이동이 더 중요하다고 주장한다.",
+        "points": [
+          "28세는 늙지 않았다",
+          "경험·역량·전략이 나이보다 중요",
+          "큰 창작 기회 추구 가능"
+        ],
+        "why": [
+          "창작 커리어 불안에 대한 현실적 조언"
+        ]
+      }
+    }
+  ]
+}

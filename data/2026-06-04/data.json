@@ -1,0 +1,275 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "dbt-core-v2",
+      "title": "dbt Core v2.0 알파 — Fusion 런타임 오픈소스화",
+      "summary": "Rust 기반 Fusion 런타임을 Apache 2.0으로 공개, Core와 Fusion 통합.",
+      "source": "dbt Labs",
+      "url": "https://docs.getdbt.com/blog/dbt-core-v2-is-here",
+      "report": {
+        "tldr": "dbt Core v2.0 알파가 Fusion 엔진 Rust 런타임을 오픈소스로 공개했다.",
+        "what": "dbt Core v2.0 알파는 Fusion 엔진의 Rust 기반 런타임을 Apache 2.0으로 오픈소스화해 Core와 Fusion을 공유 기반으로 통합한다. 더 빠른 파싱, Parquet 아티팩트, 개선된 로컬 문서, 간편한 설치, 더 엄밀한 언어 스펙을 제공한다. Fusion은 대부분 사용자에게 권장 무료 CLI로 남고, Core v2는 완전 오픈소스 코드나 커스텀 OSS 빌드가 필요한 팀을 위한 것이다.",
+        "points": [
+          "Fusion Rust 런타임 Apache 2.0 공개",
+          "Core·Fusion 공유 기반 통합",
+          "빠른 파싱·Parquet 아티팩트"
+        ],
+        "why": [
+          "Fivetran·dbt Labs 합병과 맞물린 오픈 데이터 인프라 행보"
+        ]
+      }
+    },
+    {
+      "id": "zepto-cart-model",
+      "title": "제프토, 장바구니를 '문장'처럼 읽는 Cart Contextual Model",
+      "summary": "Transformer MLM으로 실시간 사용자 의도 추론, 롱테일 아이템 처리.",
+      "source": "Zepto",
+      "url": "https://blog.zeptonow.com/your-cart-has-a-story-heres-how-we-learned-to-read-it-10ba9188f534",
+      "report": {
+        "tldr": "제프토가 장바구니를 문장처럼 다뤄 사용자 의도를 실시간 추론하는 모델을 만들었다.",
+        "what": "제프토는 장바구니를 '문장'으로 보고 Transformer 기반 마스크드 언어 모델(MLM)로 아이템 추가 시 사용자 의도를 실시간 추론하는 Cart Contextual Model을 구축했다. 시간·지리·상품 신호와 역빈도 마스킹으로 롱테일 아이템을 처리하며 학습해, 사용자가 다음에 살 것을 예측한다.",
+        "points": [
+          "장바구니를 '문장'으로 모델링",
+          "Transformer MLM으로 실시간 의도 추론",
+          "역빈도 마스킹으로 롱테일 처리"
+        ],
+        "why": [
+          "커머스 추천에 NLP 기법을 적용한 사례"
+        ]
+      }
+    },
+    {
+      "id": "ray-data-vs-daft",
+      "title": "멀티모달 데이터 레이크: Ray Data vs Daft 필드 저널",
+      "summary": "8개 프로덕션 유사 사례 비교 후 안정성·복원력에서 Ray Data 선택.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/AoMmw4",
+      "report": {
+        "tldr": "8개 사례를 비교해 대규모 안정성에서 Ray Data를 Daft보다 선택한 기록이다.",
+        "what": "8개 프로덕션 유사 사례를 나란히 실행한 뒤, 특히 복잡한 비동기 LLM 추론에서 대규모 안정성·복원력이 우수해 Ray Data를 Daft보다 선택했다. 다만 Daft의 네이티브 멀티모달 프리미티브와 더 깔끔한 코드의 강점도 인정했다.",
+        "points": [
+          "대규모 안정성·복원력은 Ray Data 우위",
+          "비동기 LLM 추론에서 특히 강점",
+          "Daft는 멀티모달 프리미티브·코드 간결성 강점"
+        ],
+        "why": [
+          "멀티모달 데이터 처리 엔진 선택의 실전 비교"
+        ]
+      }
+    },
+    {
+      "id": "manticore-vector-search",
+      "title": "Manticore Search 벡터 검색 심층 분석",
+      "summary": "벡터 검색을 프로덕션 검색 시스템처럼 튜닝하라는 권고.",
+      "source": "Manticore Search",
+      "url": "https://manticoresearch.com/blog/vector-search-deep-dive/",
+      "report": {
+        "tldr": "벡터 검색을 기본 임베딩 기능이 아닌 프로덕션 검색 시스템으로 튜닝하라는 글이다.",
+        "what": "Manticore Search는 벡터 검색을 기본 임베딩 기능으로 취급하지 말고 프로덕션 검색 시스템처럼 튜닝해야 한다고 주장한다. 유사도 지표를 모델과 정렬하고, 재현율·지연·메모리에 맞춰 HNSW를 튜닝하며, 배칭·청크 최적화·물리 백업으로 인덱스 일관성을 유지하라고 권고한다.",
+        "points": [
+          "유사도 지표를 모델과 정렬",
+          "재현율·지연·메모리 맞춤 HNSW 튜닝",
+          "배칭·청크 최적화·백업"
+        ],
+        "why": [
+          "RAG·검색 품질을 위한 벡터 인덱스 운영 가이드"
+        ]
+      }
+    },
+    {
+      "id": "multi-query-engines",
+      "title": "멀티 쿼리 엔진의 부상",
+      "summary": "AI 에이전트의 잦은 소규모 쿼리에 멀티엔진 라우팅으로 비용 절감.",
+      "source": "DataOps Leadership",
+      "url": "https://dataopsleadership.substack.com/p/the-rise-of-multi-query-engines-how",
+      "report": {
+        "tldr": "AI 에이전트가 만드는 잦은 소규모 쿼리에 멀티엔진 라우팅이 부상한다.",
+        "what": "AI 에이전트가 작고 폭증하는 데이터 쿼리를 늘려 단일 웨어하우스 비용 관리가 어려워진다. 멀티엔진 라우팅은 각 쿼리를 최적 엔진으로 보내 비용을 줄이면서 익숙한 워크플로를 유지한다.",
+        "points": [
+          "에이전트發 소규모·폭증 쿼리 증가",
+          "쿼리별 최적 엔진 라우팅",
+          "비용 절감+워크플로 유지"
+        ],
+        "why": [
+          "에이전트 시대의 데이터 비용 구조 변화"
+        ]
+      }
+    },
+    {
+      "id": "liquid-clustering-myths",
+      "title": "데이터 레이아웃 8대 오해: 왜 Liquid Clustering이 파티셔닝을 앞서나",
+      "summary": "동적 클러스터링 키·행 수준 동시성·메타데이터 전용 작업의 이점.",
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/debunking-8-data-layout-myths-why-liquid-clustering-outperforms-partitioning",
+      "report": {
+        "tldr": "Databricks가 Liquid Clustering이 전통 파티셔닝보다 우수하다고 8가지 오해를 반박한다.",
+        "what": "Databricks는 데이터 레이아웃에 대한 8가지 흔한 오해를 반박하며, 현대 레이크하우스에서 Liquid Clustering이 Hive식 파티셔닝보다 우수하다고 주장한다. 경직된 파티셔닝과 달리 시간에 따라 진화하는 클러스터링 키로 데이터를 동적 구성하고, 행 수준 동시성·메타데이터 전용 작업을 지원하며 오픈 테이블 포맷 전반에서 매끄럽게 작동한다.",
+        "points": [
+          "동적 클러스터링 키로 데이터 구성",
+          "행 수준 동시성·메타데이터 전용 작업",
+          "오픈 테이블 포맷 호환"
+        ],
+        "why": [
+          "레이크하우스 데이터 레이아웃 최적화 방향"
+        ]
+      }
+    },
+    {
+      "id": "ingestr",
+      "title": "ingestr: 코드 없는 CLI ELT 도구",
+      "summary": "여러 DB·SaaS에서 웨어하우스로 간단한 플래그로 데이터 이동.",
+      "source": "GitHub",
+      "url": "https://github.com/bruin-data/ingestr",
+      "report": {
+        "tldr": "ingestr은 코드 없이 데이터를 옮기는 CLI ELT 도구다.",
+        "what": "ingestr은 여러 데이터베이스·SaaS 앱에서 웨어하우스나 스토리지로 데이터를 간단한 플래그로 옮기는 CLI ELT 도구로, 백엔드나 커스텀 코드가 필요 없다. 증분 로드, 손쉬운 설치, 폭넓은 커넥터를 지원한다.",
+        "points": [
+          "코드 없는 CLI ELT",
+          "증분 로드 지원",
+          "폭넓은 커넥터 커버리지"
+        ],
+        "why": [
+          "데이터 이동 파이프라인 구축 간소화"
+        ]
+      }
+    },
+    {
+      "id": "redis-array-type",
+      "title": "Redis의 새 배열 데이터 타입 심층 분석",
+      "summary": "Redis 8.8 도입, 상수 시간 위치 접근·밀집/희소 배열 효율 지원.",
+      "source": "Redis",
+      "url": "https://redis.io/blog/diving-deep-into-rediss-new-array-data-type/",
+      "report": {
+        "tldr": "Redis 8.8에 인덱스 기반 상수 시간 접근을 지원하는 배열 타입이 추가됐다.",
+        "what": "Redis Array는 Redis 8.8에 도입된 신규 네이티브 타입으로, 인덱스별 상수 시간 위치 접근을 위해 설계돼 위치·인덱스가 의미를 갖는 경우의 오랜 공백을 메운다. 계층적 그룹 구조로 밀집·극희소 배열을 모두 효율 지원해 빠른 임의 접근, 범위 쿼리, 링버퍼 의미, 희소 데이터 패턴 매칭, 고정 메모리 사용을 가능케 한다.",
+        "points": [
+          "상수 시간 인덱스 접근",
+          "밀집·극희소 배열 효율 지원",
+          "링버퍼·범위 쿼리·고정 메모리"
+        ],
+        "why": [
+          "Redis의 데이터 모델링 표현력 확장"
+        ]
+      }
+    },
+    {
+      "id": "queryflux-iceberg",
+      "title": "QueryFlux: Iceberg 위 멀티 쿼리 엔진 라우팅",
+      "summary": "Rust 기반 SQL 라우팅 프록시로 Trino·Spark·DuckDB 등 지능적 분배.",
+      "source": "lakeops.dev",
+      "url": "https://lakeops.dev/blog/routing-multiple-query-engines-with-iceberg",
+      "report": {
+        "tldr": "QueryFlux는 Iceberg 테이블을 공유하는 여러 엔진으로 쿼리를 라우팅하는 프록시다.",
+        "what": "QueryFlux는 같은 Iceberg 테이블을 공유하는 여러 쿼리 엔진(Trino·Spark·DuckDB·Snowflake·Athena·Flink 등)으로 쿼리를 지능적으로 보내는 오픈소스 Rust 기반 SQL 라우팅 프록시다. 프로토콜 변환, SQLGlot를 통한 방언 변환, 비용 인식 라우팅, 동시성 제어, 헬스 기반 페일오버를 처리한다.",
+        "points": [
+          "Iceberg 공유 멀티엔진 라우팅",
+          "SQLGlot 방언 변환·비용 인식 라우팅",
+          "동시성 제어·헬스 페일오버"
+        ],
+        "why": [
+          "멀티엔진 레이크하우스 운영을 단순화"
+        ]
+      }
+    },
+    {
+      "id": "mongodb-stored-procedures",
+      "title": "MongoDB와 저장 프로시저",
+      "summary": "ACID 트랜잭션·bulkWrite·검증·인덱스로 저장 프로시저 없이 저지연 처리.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/YcUOf2",
+      "report": {
+        "tldr": "MongoDB가 저장 프로시저 없이 저지연 트랜잭션 로직을 수행하는 법을 보여준다.",
+        "what": "MongoDB는 ACID 트랜잭션·bulkWrite·검증·인덱스·파이프라인 업데이트를 결합해 저장 프로시저 없이 저지연 트랜잭션 로직을 실행할 수 있다. 카드·벤더 확인, 한도, 중복 방지, 원장 기록을 포함한 결제 처리 예제로 시연한다.",
+        "points": [
+          "저장 프로시저 없이 트랜잭션 로직",
+          "ACID·bulkWrite·검증·인덱스 결합",
+          "결제 처리 예제로 시연"
+        ],
+        "why": [
+          "문서형 DB의 트랜잭션 처리 패턴 제시"
+        ]
+      }
+    },
+    {
+      "id": "opentelemetry-blueprints",
+      "title": "OpenTelemetry, 관측성 도입 단순화 'Blueprints' 출시",
+      "summary": "쿠버네티스·인프라·앱·중앙 텔레메트리용 표준 패턴·레퍼런스 구현.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/06/opentelemetry-blueprints-launch/",
+      "report": {
+        "tldr": "OpenTelemetry가 관측성 도입을 쉽게 하는 Blueprints를 출시했다.",
+        "what": "OpenTelemetry가 쿠버네티스·인프라·앱·중앙 집중 텔레메트리 플랫폼을 위한 표준 패턴과 레퍼런스 구현으로 관측성 도입을 단순화하는 'Blueprints'를 출시했다.",
+        "points": [
+          "표준 패턴·레퍼런스 구현 제공",
+          "K8s·인프라·앱 대상",
+          "중앙 텔레메트리 플랫폼 지원"
+        ],
+        "why": [
+          "엔터프라이즈 관측성 도입 장벽 완화"
+        ]
+      }
+    },
+    {
+      "id": "authz-ai-agents-eu",
+      "title": "AI 에이전트 인가: EU AI Act 마감 전 구축할 것",
+      "summary": "최소권한 에이전트 호출을 외부 집행하는 신원·정책·감사 패턴.",
+      "source": "Cerbos",
+      "url": "https://cerbos.dev/blog/authorization-for-ai-agents-what-to-build-before-eu-ai-act-deadline",
+      "report": {
+        "tldr": "규제 대비 AI 에이전트의 최소권한 인가 패턴을 정리한다.",
+        "what": "다가오는 규제 하에서 최소권한 에이전트 호출을 외부에서 집행하기 위해 팀이 갖춰야 할 신원·정책·감사 패턴을 설명한다.",
+        "points": [
+          "신원·정책·감사 패턴",
+          "최소권한 외부 집행",
+          "EU AI Act 대비"
+        ],
+        "why": [
+          "에이전트 거버넌스의 규제 준비"
+        ]
+      }
+    },
+    {
+      "id": "dlthub-dq-toolkit",
+      "title": "dltHub AI 워크벤치 데이터 품질 툴킷",
+      "summary": "스키마 인식 검사로 빠르게 실패하고 자동 수정 라우팅.",
+      "source": "dltHub",
+      "url": "https://dlthub.com/blog/dq-toolkit-preview",
+      "report": {
+        "tldr": "dltHub가 스키마 인식 데이터 품질 검사·자동 수정 툴킷 프리뷰를 공개했다.",
+        "what": "프리뷰는 dlt 파이프라인에서 빠르게 실패하고 수정을 자동 라우팅하는 지속적·메타데이터 기반 데이터 품질 데코레이터를 추가한다.",
+        "points": [
+          "메타데이터 기반 품질 데코레이터",
+          "빠른 실패(fail fast)",
+          "자동 수정 라우팅"
+        ],
+        "why": [
+          "데이터 파이프라인 품질 자동화"
+        ]
+      }
+    },
+    {
+      "id": "pluto-1-0",
+      "title": "Pluto 1.0 릴리스",
+      "summary": "줄리아 노트북 환경 안정화, 재현성·반응성·공유 개선.",
+      "source": "Julia Discourse",
+      "url": "https://discourse.julialang.org/t/pluto-1-0-release/137296",
+      "report": {
+        "tldr": "줄리아 노트북 환경 Pluto가 1.0으로 안정화됐다.",
+        "what": "Pluto 1.0은 줄리아 노트북 환경을 안정 단계로 표시하며 재현성·반응성·공유·접근성·교육·문서·에디터 도구를 크게 개선했다.",
+        "points": [
+          "줄리아 노트북 환경 안정화",
+          "재현성·반응성 개선",
+          "공유·교육·문서 강화"
+        ],
+        "why": [
+          "줄리아 데이터 과학 생태계의 성숙"
+        ]
+      }
+    }
+  ]
+}

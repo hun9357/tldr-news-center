@@ -1,0 +1,279 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "spacex-largest-ipo",
+      "title": "스페이스X, 사상 최대 규모 IPO 가격 확정 (가치 1.77조 달러)",
+      "summary": "주당 135달러에 744억 달러 조달 추진, 다음 주 나스닥에 SPCX로 상장 전망.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/ruTU5x",
+      "report": {
+        "tldr": "스페이스X가 주당 135달러로 사상 최대 규모 IPO 가격을 확정했다.",
+        "what": "스페이스X가 IPO 공모가를 주당 135달러로 책정해 기업가치 1.77조 달러를 매겼다. 744억 달러를 조달하려는 이번 공모는 역대 최대 IPO가 될 전망이다. 다음 주 나스닥에서 SPCX 티커로 거래가 시작될 가능성이 크다. 조달 자금은 궤도 AI 데이터센터, 달 공장, 화성 유인 탐사 등 문샷에 쓰일 계획이다.",
+        "points": [
+          "공모가 주당 135달러, 기업가치 1.77조 달러",
+          "조달 목표 744억 달러로 역대 최대 IPO",
+          "나스닥 SPCX 티커, 다음 주 거래 개시 전망",
+          "자금 용처: 궤도 데이터센터·달 공장·화성"
+        ],
+        "why": [
+          "역대 최대 IPO로 자본시장과 우주산업의 분수령",
+          "AI·우주 인프라 투자 사이클을 보여주는 상징적 거래"
+        ]
+      }
+    },
+    {
+      "id": "zuckerberg-meta-agents-business",
+      "title": "저커버그, '메타 AI 에이전트가 사업 전체를 운영하게' 구상",
+      "summary": "WhatsApp·인스타·메신저용 에이전트가 문의 응대·예약·판매를 수행, 향후 유료화.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/754653",
+      "report": {
+        "tldr": "메타가 비즈니스용 AI 에이전트를 출시하고 궁극적으로 사업 운영 전반으로 확장하려 한다.",
+        "what": "메타가 WhatsApp·인스타그램·메신저에서 기업용 AI 에이전트를 출시했다. 이 에이전트는 고객 문의 응대, 예약, 판매 성사 등을 수행하며 메타는 결국 사업 전체를 운영하도록 기능을 확장할 계획이다. 현재 무료지만 향후 등급별 유료 구독으로 전환할 예정이다.",
+        "points": [
+          "문의 응대·예약·판매 등 수행",
+          "사업 전체 운영으로 확장 목표",
+          "현재 무료, 추후 등급별 유료 구독화"
+        ],
+        "why": [
+          "메타 메시징 생태계의 새 수익 모델",
+          "중소기업 대상 에이전틱 커머스 경쟁 가열"
+        ]
+      }
+    },
+    {
+      "id": "blue-origin-new-glenn",
+      "title": "블루 오리진, 연말까지 뉴 글렌 발사 재개 다짐",
+      "summary": "지난주 폭발 피해가 우려보다 작다며 연내 복귀 공언, 원인은 미규명.",
+      "source": "Spaceflight Now",
+      "url": "https://spaceflightnow.com/2026/06/03/blue-origin-vows-to-resume-new-glenn-flights-by-years-end/",
+      "report": {
+        "tldr": "블루 오리진이 뉴 글렌 로켓 발사를 연말까지 재개하겠다고 밝혔다.",
+        "what": "블루 오리진은 연말까지 뉴 글렌 발사를 재개할 수 있다고 주장한다. 지난주 폭발 피해가 당초 우려만큼 심각하지 않다는 입장이다. 폭발 원인은 아직 밝혀지지 않았다. 연내 재개 계획은 근본 원인이 중대한 설계 결함은 아님을 시사한다.",
+        "points": [
+          "연말 발사 재개 공언",
+          "폭발 피해는 우려보다 경미하다는 입장",
+          "폭발 원인은 아직 미규명"
+        ],
+        "why": [
+          "스페이스X 대항마의 발사 일정 회복 여부가 관건"
+        ]
+      }
+    },
+    {
+      "id": "china-robot-training-data",
+      "title": "중국, 셔츠 한 장씩 접으며 '로봇의 미래' 학습",
+      "summary": "낮은 인건비·정부 지원·대중 관심으로 가정 내 로보틱스 데이터 수집을 대규모 동원.",
+      "source": "Rest of World",
+      "url": "https://restofworld.org/2026/china-ai-robotics-training-data/",
+      "report": {
+        "tldr": "중국이 대규모 인력을 동원해 가정 환경 로보틱스 데이터를 수집하고 있다.",
+        "what": "중국의 낮은 인건비, 정부 지원, 로보틱스에 대한 대중적 열기가 데이터 수집 인력 대규모 동원을 가능하게 한다. 올해 들어 전 세계 로보틱스 개발사가 실제 가정에서 데이터 수집을 늘렸다. 미국 기업은 높은 인건비로 개도국에 수집을 외주하는 반면, 중국은 국내에서 대규모 데이터를 모아 자국 환경에 맞는 로봇을 만든다.",
+        "points": [
+          "가정 환경 데이터 수집에 대규모 인력 동원",
+          "미국은 개도국에 데이터 수집 외주",
+          "국내 대량 데이터로 자국 맞춤형 로봇"
+        ],
+        "why": [
+          "로보틱스 경쟁의 핵심 자원인 실세계 데이터 확보 우위",
+          "미·중 로봇 개발 구조 차이를 드러냄"
+        ]
+      }
+    },
+    {
+      "id": "microsoft-coreutils-windows",
+      "title": "마이크로소프트, 코어유틸리티(Coreutils)를 윈도우에 도입",
+      "summary": "유닉스식 명령줄 도구를 윈도우에서 제공, WinGet으로 설치 가능.",
+      "source": "OSNews",
+      "url": "https://www.osnews.com/story/145206/microsoft-brings-coreutils-to-windows/",
+      "report": {
+        "tldr": "마이크로소프트가 유닉스식 CLI 유틸리티를 윈도우로 가져왔다.",
+        "what": "coreutils for Windows는 유닉스식 명령줄 도구를 윈도우에 제공해 개발자가 익숙한 도구로 스크립팅·자동화·텍스트 처리를 하도록 돕는다. 윈도우 경로 구분자 사용 등 다른 버전과 차이가 있고, 윈도우에서 불필요한 명령은 제외됐다. WinGet으로 설치할 수 있다.",
+        "points": [
+          "유닉스식 CLI 도구를 윈도우에 제공",
+          "윈도우 경로 구분자 등 일부 차이",
+          "WinGet으로 설치"
+        ],
+        "why": [
+          "크로스플랫폼 개발자 경험 개선"
+        ]
+      }
+    },
+    {
+      "id": "sandboxed-engine",
+      "title": "Sandboxed: AI 앱빌더용 오픈소스 샌드박스 엔진",
+      "summary": "샌드박스를 만들고 코딩 에이전트를 실행해 개발 서버 URL을 제공.",
+      "source": "GitHub",
+      "url": "https://github.com/tastyeffectco/sandboxes",
+      "report": {
+        "tldr": "AI 앱빌더 제품을 위한 오픈소스 샌드박스 실행 엔진이다.",
+        "what": "sandboxed는 AI 앱빌더 제품을 위한 오픈소스 엔진으로, 샌드박스를 생성하고 그 안에서 AI 코딩 에이전트를 실행한 뒤 내부 개발 서버에 접근할 URL을 제공한다. AI 앱빌더, 에이전트 플랫폼, 코딩 플레이그라운드, 제품 프리뷰 인프라로 활용되며 다수 사용자용 대량 샌드박스에 적합하다.",
+        "points": [
+          "샌드박스 생성 후 코딩 에이전트 실행",
+          "개발 서버 접근 URL 제공",
+          "앱빌더·에이전트 플랫폼 인프라용"
+        ],
+        "why": [
+          "에이전틱 코딩 제품의 실행 격리 인프라 표준화 흐름"
+        ]
+      }
+    },
+    {
+      "id": "macbook-neo-production",
+      "title": "맥북 네오 인기에 애플, 생산량 2배 증산",
+      "summary": "출하 목표를 500만→1,000만 대로 상향, 첫 맥 구매자 급증.",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/06/03/macbook-neo-production-doubled-says-kuo/",
+      "report": {
+        "tldr": "맥북 네오 수요 폭증으로 애플이 출하 목표를 두 배로 늘렸다.",
+        "what": "애플이 고객 반응에 힘입어 맥북 네오 출하 목표를 500만 대에서 1,000만 대로 상향했다. 수요는 지난 분기 사상 최다 첫 맥 구매자 유입을 견인했다. 2세대 맥북 네오는 내년 출시 예정으로 A19 Pro 칩과 12GB 램을 탑재한다.",
+        "points": [
+          "출하 목표 500만→1,000만 대",
+          "첫 맥 구매자 기록적 증가",
+          "2세대는 A19 Pro·12GB 램 탑재 예정"
+        ],
+        "why": [
+          "맥 신규 사용자 확대와 라인업 성공 신호"
+        ]
+      }
+    },
+    {
+      "id": "gemma-4-12b",
+      "title": "구글 Gemma 4 12B, 16GB 램 노트북에서 돌아가는 모델",
+      "summary": "새 멀티모달 접근으로 26B MoE에 근접한 성능을 소비자 노트북에서 구현.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/06/googles-new-gemma-4-open-ai-model-is-sized-for-your-laptop/",
+      "report": {
+        "tldr": "구글 Gemma 4 12B가 일반 노트북에서 품질 저하 없이 구동되도록 설계됐다.",
+        "what": "구글의 새 Gemma 4 12B는 품질 손실 없이 다수 소비자 노트북에서 실행된다. 구글은 이 모델이 Gemma 4 26B MoE에 거의 근접한 성능이라고 주장한다. 효율 향상은 새로운 멀티모달 접근 덕분이며, Kaggle과 Hugging Face에서 내려받을 수 있다.",
+        "points": [
+          "16GB 램 노트북에서 구동",
+          "26B MoE에 근접한 성능 주장",
+          "Kaggle·Hugging Face 배포"
+        ],
+        "why": [
+          "온디바이스·로컬 LLM 접근성 확대"
+        ]
+      }
+    },
+    {
+      "id": "apple-vision-roadmap-scaled-back",
+      "title": "존 터너스, 애플 비전 제품 로드맵 축소",
+      "summary": "7종이던 헤드마운트 웨어러블이 2종(2027 AI 글라스, 2029 AR 스마트글라스)으로 정리.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/06/03/john-ternus-scaled-back-apples-vision-products-roadmap-report/",
+      "report": {
+        "tldr": "애플이 헤드마운트 웨어러블 로드맵을 7종에서 2종으로 축소했다.",
+        "what": "지난 6월 애플은 다양한 단계의 헤드마운트 웨어러블 7종을 개발 중이었으나 지금은 2종만 남았다. 2027년 출시 예정의 디스플레이 없는 AI 글라스와 2029년 예정의 디스플레이 탑재 AR/XR 스마트글라스다.",
+        "points": [
+          "개발 라인 7종→2종으로 축소",
+          "2027 디스플레이 없는 AI 글라스",
+          "2029 AR/XR 스마트글라스"
+        ],
+        "why": [
+          "애플 공간컴퓨팅 전략의 현실적 재조정"
+        ]
+      }
+    },
+    {
+      "id": "dns-not-for-infrastructure",
+      "title": "\"DNS는 사람을 위한 것이지 IT 인프라를 위한 것이 아니다\"",
+      "summary": "내부 인프라에서 DNS 의존을 줄여 신뢰성과 견고성을 높이자는 주장.",
+      "source": "louwrentius.com",
+      "url": "https://louwrentius.com/dns-is-for-people-not-for-it-infrastructure.html",
+      "report": {
+        "tldr": "내부 인프라에서 DNS를 가급적 피해 신뢰성을 높이자는 의견 글이다.",
+        "what": "조직은 내부 인프라에서 DNS를 회피할 수 있는지 검토해 신뢰성과 견고성을 높여야 한다는 주장이다.",
+        "points": [
+          "내부 인프라의 DNS 의존 재검토",
+          "신뢰성·견고성 향상 목적",
+          "운영 단순화·장애 표면 축소 관점 제시"
+        ],
+        "why": [
+          "대규모 시스템 운영의 장애 표면 축소 관점"
+        ]
+      }
+    },
+    {
+      "id": "google-ai-search-opt-out",
+      "title": "구글, 웹사이트의 'AI 검색 결과' 옵트아웃 제공",
+      "summary": "생성형 AI 검색 노출 여부를 사이트가 선택, 일반 검색 순위에는 영향 없다고 약속.",
+      "source": "OSNews",
+      "url": "https://www.osnews.com/story/145194/google-offers-opt-out-of-ai-search-results-for-websites-promises-it-wont-affect-regular-search-rankings/",
+      "report": {
+        "tldr": "구글이 생성형 AI 검색 노출 여부를 웹사이트가 선택하도록 옵트아웃을 제공한다.",
+        "what": "웹사이트는 이제 자사 콘텐츠가 구글 생성형 AI 검색 기능에 표시될지 선택할 수 있다. 구글은 이 선택이 일반 검색 순위에는 영향을 주지 않는다고 약속했다.",
+        "points": [
+          "AI 검색 노출 옵트아웃 제공",
+          "일반 검색 순위 무영향 약속",
+          "퍼블리셔의 콘텐츠 통제권 강화"
+        ],
+        "why": [
+          "퍼블리셔의 콘텐츠 통제권과 AI 검색 갈등 완화 시도"
+        ]
+      }
+    },
+    {
+      "id": "made-out-of-weights",
+      "title": "\"AI 모델은 결국 가중치 덩어리다\"",
+      "summary": "화려해 보이는 AI도 곱해지는 부동소수점 층일 뿐이라는 설명 글.",
+      "source": "maxleiter.com",
+      "url": "https://maxleiter.com/blog/weights",
+      "report": {
+        "tldr": "AI 모델이 본질적으로 곱해지는 부동소수점 가중치 층임을 설명한다.",
+        "what": "AI 모델은 놀라워 보이지만 결국 서로 곱해지는 부동소수점 숫자의 층일 뿐이라는 점을 풀어낸다.",
+        "points": [
+          "모델의 본질은 부동소수점 가중치",
+          "곱연산 층의 누적",
+          "AI 작동 원리를 단순화해 설명"
+        ],
+        "why": [
+          "과장된 AI 인식을 기술 본질로 환원하는 관점"
+        ]
+      }
+    },
+    {
+      "id": "road-to-wwdc-2026",
+      "title": "WWDC 2026 가는 길: '개발자란 무엇인가'",
+      "summary": "AI로 앱 제작이 쉬워졌지만 애플 개발자 도구는 여전히 만만찮은 장벽.",
+      "source": "Six Colors",
+      "url": "https://sixcolors.com/post/2026/06/road-to-wwdc-2026-whats-a-developer/",
+      "report": {
+        "tldr": "AI 시대에 애플 플랫폼의 '개발자' 정의를 되묻는 글이다.",
+        "what": "AI 도구로 애플 플랫폼 앱 제작이 쉬워졌지만, 개발자 도구는 여전히 만만치 않은 장벽으로 남아 있다는 진단이다.",
+        "points": [
+          "AI로 앱 제작 진입장벽 하락",
+          "그러나 개발 도구 자체는 여전한 장벽",
+          "WWDC 2026을 앞둔 관전 포인트 제시"
+        ],
+        "why": [
+          "WWDC를 앞두고 애플 개발자 생태계의 변화 가늠"
+        ]
+      }
+    },
+    {
+      "id": "python-315-whatsnew",
+      "title": "파이썬 3.15의 새로운 기능",
+      "summary": "파이썬 3.15 신규 기능을 정리한 해설.",
+      "source": "Python Docs",
+      "url": "https://docs.python.org/3.15/whatsnew/3.15.html",
+      "report": {
+        "tldr": "파이썬 3.15의 새 기능을 정리한 공식 해설 문서다.",
+        "what": "파이썬 3.15에서 추가된 새 기능을 설명하는 문서다.",
+        "points": [
+          "3.15 신규 기능 정리",
+          "공식 What's New 문서",
+          "공식 릴리스 노트 형식의 해설"
+        ],
+        "why": [
+          "파이썬 사용자에게 업그레이드 참고 자료"
+        ]
+      }
+    }
+  ]
+}

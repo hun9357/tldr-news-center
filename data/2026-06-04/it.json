@@ -1,0 +1,219 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "cisco-agenticops",
+      "title": "시스코, AI 에이전트 동료·프런티어 모델 위협 대비",
+      "summary": "Cisco Live 2026서 AgenticOps 공개 — 에이전트가 작업당 광역 트래픽 450% 증가.",
+      "source": "The Next Platform",
+      "url": "https://www.nextplatform.com/ai/2026/06/03/cisco-preps-for-a-world-of-ai-agent-coworkers-frontier-model-threats/5250406",
+      "report": {
+        "tldr": "시스코가 에이전틱 AI 시대를 겨냥한 AgenticOps 플랫폼 전략을 공개했다.",
+        "what": "시스코는 Cisco Live 2026에서 에이전틱 AI·프런티어 모델을 위한 AgenticOps 플랫폼과 엔터프라이즈 AI 인프라 전략을 제시했다. 에이전트는 작업당 광역 트래픽을 450% 늘리고, Claude Mythos Preview 같은 프런티어 모델은 취약점-패치 격차를 키울 수 있어 시스코는 'Live Protect' 디지털 면역체계 보안 접근을 채택했다.",
+        "points": [
+          "AgenticOps 플랫폼 전략 공개",
+          "에이전트가 작업당 광역 트래픽 450% 증가",
+          "'Live Protect' 디지털 면역체계 도입"
+        ],
+        "why": [
+          "에이전틱 AI가 네트워크·보안 인프라 요구를 근본적으로 바꿈"
+        ]
+      }
+    },
+    {
+      "id": "eu-reduce-us-cloud",
+      "title": "EU, 미국 클라우드 의존 축소 계획 발표",
+      "summary": "공공부문 민감 워크로드에 주권 기준 추가, 전면 금지는 아님.",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4180801/eu-sets-out-plans-to-reduce-reliance-on-us-cloud-providers.html",
+      "report": {
+        "tldr": "EU가 미·중 기술 공급 의존을 줄이는 클라우드·AI·반도체 방안을 제시했다.",
+        "what": "유럽위원회는 클라우드·AI·반도체 전반에서 미국·중국 기술 공급 의존을 줄이는 조치를 제안했다. 미국 클라우드 제공사 전면 금지에는 미치지 못하지만, 특정 EU 공공부문 클라우드 조달, 특히 민감 워크로드에 주권 기준을 추가한다.",
+        "points": [
+          "미·중 공급 의존 축소 목표",
+          "공공부문 민감 워크로드에 주권 기준",
+          "전면 금지는 아님"
+        ],
+        "why": [
+          "클라우드 전략이 비용·규모를 넘어 데이터 주권·지정학으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "endpoint-security-ai-age",
+      "title": "AI 시대, 엔드포인트 보안은 어떻게 바뀌나",
+      "summary": "엔드포인트 에이전트가 '교통경찰'로, IT 관리와 InfoSec 경계가 흐려진다.",
+      "source": "Frankly Speaking",
+      "url": "https://franklyspeaking.substack.com/p/what-happens-to-endpoint-security",
+      "report": {
+        "tldr": "AI가 로컬 코드 실행을 늘리며 엔드포인트 보안이 구조적으로 바뀐다는 전망이다.",
+        "what": "AI 도입이 개발자 노트북에서 자율 코드 실행을 늘리면서 엔드포인트 보안이 구조적으로 변한다. 엔드포인트 에이전트는 엘리트 글로벌 프록시·검사 인프라로 집행을 라우팅하는 경량 '교통경찰'이 될 수 있고, 에이전트가 로컬에서 특권 작업을 수행하면서 IT 관리와 InfoSec 보안의 경계가 흐려진다.",
+        "points": [
+          "엔드포인트 에이전트가 경량 '교통경찰'로",
+          "집행은 글로벌 프록시·검사 인프라로",
+          "IT 관리·InfoSec 경계 흐려짐"
+        ],
+        "why": [
+          "로컬 자율 실행 증가가 보안 아키텍처를 재편"
+        ]
+      }
+    },
+    {
+      "id": "cio-deliver-bad-news",
+      "title": "CIO가 신뢰를 잃지 않고 나쁜 소식을 전하는 7가지 방법",
+      "summary": "조기 투명성·핵심 우선·사업 영향 설명·추측 자제·책임 표명.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4177020/7-ways-for-cios-to-deliver-bad-news-without-losing-trust.html",
+      "report": {
+        "tldr": "기술 리더가 나쁜 소식을 신뢰를 해치지 않고 전하는 실무 조언이다.",
+        "what": "프로젝트 실패·장애·예산 초과·기한 지연 등에서 기술 리더가 신뢰를 해치지 않고 나쁜 소식을 전하는 법을 정리한다. 조기 투명성, 핵심부터 말하기, 사업 영향 설명, 추측 자제, 명확한 해결 경로와 함께 책임 표명이 핵심이다.",
+        "points": [
+          "조기에 투명하게 알리기",
+          "핵심 이슈와 사업 영향 먼저",
+          "추측 자제·책임과 해결 경로 제시"
+        ],
+        "why": [
+          "리더십 커뮤니케이션의 실무 가이드"
+        ]
+      }
+    },
+    {
+      "id": "workday-agent-passport",
+      "title": "워크데이, 엔터프라이즈 AI 에이전트 검증 'Agent Passport' 출시",
+      "summary": "배포 전 안전 검증·런타임 정책 집행, Q3 얼리액세스.",
+      "source": "Workday",
+      "url": "https://newsroom.workday.com/2026-06-02-Workday-Launches-Agent-Passport-to-Test,-Verify,-and-Continuously-Monitor-Every-AI-Agent-in-the-Enterprise",
+      "report": {
+        "tldr": "워크데이가 기업 AI 에이전트를 검증·모니터링하는 Agent Passport를 공개했다.",
+        "what": "워크데이가 기업 내 AI 에이전트를 테스트·지속 모니터링하는 보안·컴플라이언스 시스템 Agent Passport를 공개했다. 배포 전 안전성을 검증하고 런타임에 정책을 집행한다. 또한 Developer Agent와 Agent-Ready Tools를 출시해 에이전트를 프롬프트에서 프로덕션으로 옮기도록 돕는다. Q3 얼리액세스 후 2026년 후반 광범위 제공 예정이다.",
+        "points": [
+          "배포 전 안전 검증·런타임 정책 집행",
+          "Developer Agent·Agent-Ready Tools 동반",
+          "Q3 얼리액세스 예정"
+        ],
+        "why": [
+          "에이전트 거버넌스가 엔터프라이즈 핵심 과제로 부상"
+        ]
+      }
+    },
+    {
+      "id": "google-workspace-third-party-protection",
+      "title": "구글 워크스페이스, 관리형 서드파티 앱 데이터 보호 확대",
+      "summary": "승인된 관리 앱으로의 데이터 이동은 허용, 개인·비관리 앱은 차단.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/06/enhanced-data-protection-for-managed-third-party-apps.html",
+      "report": {
+        "tldr": "구글이 관리형 서드파티 앱에 대한 유연한 데이터 보호 제어를 추가했다.",
+        "what": "구글이 관리형 서드파티 앱에 대한 더 유연한 데이터 보호 제어를 추가해, 관리자가 승인된 관리 앱으로는 기업 워크스페이스 데이터 이동을 허용하면서 개인·비관리 앱으로의 이동은 차단할 수 있게 했다. SaaS·모바일·엔드포인트 전반에서 전부-아니면-전무가 아닌 실용적 데이터 이동 관리가 가능해진다.",
+        "points": [
+          "승인 관리 앱으로의 이동만 허용",
+          "개인·비관리 앱 이동은 차단",
+          "전부-아니면-전무 방식 탈피"
+        ],
+        "why": [
+          "기업 데이터 이동 통제의 실용성 향상"
+        ]
+      }
+    },
+    {
+      "id": "8x8-resolve",
+      "title": "8x8, 중요 커뮤니케이션용 'Resolve' 출시",
+      "summary": "분산·데스크리스 인력용 모바일 우선 사고 관리 도구.",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20260603488922/en/8x8-Announces-8x8-Resolve-a-Critical-Communications-Solution-Built-for-the-Deskless-Workforce",
+      "report": {
+        "tldr": "8x8이 데스크리스 인력을 위한 모바일 우선 사고 관리 도구를 출시했다.",
+        "what": "8x8이 분산·데스크리스 인력을 위한 모바일 우선 중요 커뮤니케이션·사고 관리 도구 8x8 Resolve를 선보였다. UC·컨택센터 플랫폼을 운영 커뮤니케이션으로 확장해 현장 팀 간 긴급 업데이트 조율 옵션을 제공한다.",
+        "points": [
+          "모바일 우선 사고 관리",
+          "데스크리스·현장 인력 대상",
+          "UC·컨택센터 플랫폼 확장"
+        ],
+        "why": [
+          "현장 인력의 긴급 커뮤니케이션 수요 대응"
+        ]
+      }
+    },
+    {
+      "id": "netflix-service-map",
+      "title": "넷플릭스, 실시간 서비스 토폴로지 맵 구축기",
+      "summary": "사일로·수작업을 대체하는 실시간 의존성·서비스 그래프.",
+      "source": "Netflix Tech Blog",
+      "url": "https://netflixtechblog.com/from-silos-to-service-topology-why-netflix-built-a-real-time-service-map-0165ba13a7bc",
+      "report": {
+        "tldr": "넷플릭스가 실시간 서비스 토폴로지 맵으로 서비스 상호작용 파악을 개선했다.",
+        "what": "넷플릭스는 사일로화되고 수작업이며 느린 방식을 대체하기 위해 실시간 서비스 토폴로지 맵을 구축했다. 정확하고 최신인 의존성·서비스 그래프는 대규모 분산 시스템을 효과적으로 운영하게 하며, 넷플릭스는 이 맵을 생성·유지해 서비스 관계를 항상 가시화한다.",
+        "points": [
+          "사일로·수작업 방식 대체",
+          "실시간 의존성·서비스 그래프",
+          "대규모 분산 시스템 운영 지원"
+        ],
+        "why": [
+          "복잡한 마이크로서비스 운영의 가시성 확보 사례"
+        ]
+      }
+    },
+    {
+      "id": "ultrahuman-breach",
+      "title": "울트라휴먼, 내부 도구 통해 고객 웰니스 데이터 유출",
+      "summary": "악성코드 감염 노트북서 직원 자격증명 탈취, 약 0.1% 사용자 영향.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/03/ultrahuman-says-hackers-accessed-customers-wellness-data-via-internal-tool/",
+      "report": {
+        "tldr": "울트라휴먼이 내부 분석 도구를 통한 고객 웰니스 데이터 접근 사고를 공개했다.",
+        "what": "울트라휴먼은 악성코드에 감염된 노트북에서 직원 자격증명을 탈취당하고 내부 분석 도구를 이용당해 소량의 고객 웰니스 데이터가 접근됐다고 밝혔다. 약 0.1% 사용자가 영향을 받았고 비밀번호·결제 데이터·프로덕션 시스템·링 기기는 침해되지 않았으나, 데이터 유출 여부는 확인하지 못했다.",
+        "points": [
+          "감염 노트북서 직원 자격증명 탈취",
+          "약 0.1% 사용자 영향",
+          "유출 여부는 미확인"
+        ],
+        "why": [
+          "광범위 읽기 권한의 내부 도구가 고위험 노출 경로가 됨"
+        ],
+        "action": "내부 분석·관리 도구의 접근 권한을 최소화하고 직원 엔드포인트·자격증명 위생을 점검하라."
+      }
+    },
+    {
+      "id": "eks-kubernetes-136",
+      "title": "아마존 EKS, 쿠버네티스 1.36 지원",
+      "summary": "콘솔·eksctl·IaC로 신규 생성·업그레이드, GovCloud 포함 전 리전.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/amazon-eks-distro-kubernetes-version-1-36/",
+      "report": {
+        "tldr": "아마존 EKS와 EKS Distro가 쿠버네티스 1.36을 지원한다.",
+        "what": "오늘부터 신규 EKS 클러스터를 1.36으로 생성할 수 있고 기존 클러스터는 EKS 콘솔·eksctl·IaC 도구로 업그레이드할 수 있다. AWS GovCloud(US)를 포함한 모든 EKS 리전에서 가능하다.",
+        "points": [
+          "1.36으로 신규 생성·업그레이드",
+          "콘솔·eksctl·IaC 지원",
+          "GovCloud 포함 전 리전"
+        ],
+        "why": [
+          "쿠버네티스 운영자의 버전 업그레이드 경로 제공"
+        ]
+      }
+    },
+    {
+      "id": "workspace-dlp-attachments-ga",
+      "title": "구글 워크스페이스, 파일 첨부 DLP 정식 출시(GA)",
+      "summary": "비워크스페이스 첨부·근접 조건 기반 민감정보 탐지 제어 추가.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/06/new-data-loss-prevention-capabilities-for-file-attachments-and-proximity-conditions-are-generally-available.html",
+      "report": {
+        "tldr": "구글이 파일 첨부 대상 DLP 기능을 정식 출시했다.",
+        "what": "구글이 비워크스페이스 파일 첨부와 근접 기반 조건에 대한 DLP 기능을 정식 출시(GA)해, 관리자가 파일 내 민감 데이터를 더 세밀하게 탐지·제어할 수 있게 했다.",
+        "points": [
+          "비워크스페이스 첨부 DLP 지원",
+          "근접 기반 조건 추가",
+          "세밀한 민감정보 제어"
+        ],
+        "why": [
+          "기업 데이터 유출 방지 제어 강화"
+        ]
+      }
+    }
+  ]
+}

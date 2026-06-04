@@ -1,0 +1,218 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "meta-ctv-play",
+      "title": "메타의 CTV 진출: 광고주에게 진짜 의미",
+      "summary": "중소 광고주에 TV 광고 개방, CTV CPM $20~40 vs 메타 $6~9.",
+      "source": "Brainlabs",
+      "url": "https://www.brainlabsdigital.com/meta-ctv-what-it-really-means-for-advertisers/",
+      "report": {
+        "tldr": "메타의 CTV 진출이 한 번도 TV를 사보지 않은 중소 광고주를 겨냥한다.",
+        "what": "메타의 CTV 진출은 스트리밍 인벤토리를 기존 셀프서브 플랫폼·타기팅·최적화 워크플로에 합쳐 수백만 중소 광고주에게 TV 광고를 개방할 수 있다. 전략적 기회는 대형 TV 예산 확보가 아니라 TV를 한 번도 사본 적 없는 새 광고주 풀을 여는 것이다. 성패는 메타의 성과 알고리즘이 소셜보다 훨씬 비싼 제3자 CTV 인벤토리(CPM $20~40 vs 메타 $6~9)에서 성과를 낼 수 있는지에 달렸다. 초기 증거는 도달 51% 초과 달성, 제품 검색 342% 상승 등 강한 결과를 시사한다.",
+        "points": [
+          "중소 광고주에 TV 광고 개방",
+          "CTV CPM $20~40 vs 메타 $6~9",
+          "초기 도달 51% 초과·검색 342% 상승"
+        ],
+        "why": [
+          "메타가 수요·타기팅·측정을 채널 간 연결하는 경쟁 우위 가능성"
+        ]
+      }
+    },
+    {
+      "id": "lowest-consumer-sentiment",
+      "title": "'사상 최저 소비자 심리'가 좋은 소식?",
+      "summary": "미시간대 지수 44.8 사상 최저 — 소비자는 망한 게 아니라 적응 중.",
+      "source": "Category Pirates",
+      "url": "https://www.categorypirates.news/p/lowest-consumer-sentiment-is-good",
+      "report": {
+        "tldr": "사상 최저 소비자 심리 지수가 실상을 잘못 읽는다는 주장이다.",
+        "what": "미시간대 소비자 심리 지수가 조사 사상 최저인 44.8을 기록했다. 이 글은 소비자가 망한 게 아니라 적응 중이라며 데이터가 상황을 오독한다고 본다. 큰 지출을 미루고 재화 대신 경험으로 옮겨가고 있으며, 더 깊은 문제는 점점 사라지는 핵가족 모델에 맞춰진 소비자 대차대조표(과대한 집·가족용 차)라는 것이다.",
+        "points": [
+          "미시간대 지수 44.8 사상 최저",
+          "소비자는 망한 게 아니라 적응 중",
+          "핵가족 전제 소비 구조의 괴리"
+        ],
+        "why": [
+          "소비자 심리 지표 해석의 재구성"
+        ]
+      }
+    },
+    {
+      "id": "3-ways-ai-search",
+      "title": "AI 검색에 노출되는 3가지 방법",
+      "summary": "웹사이트는 한 표면일 뿐 — Reddit·G2 등 존재감 구축, 감성·플랫폼 권위 관리.",
+      "source": "LinkedIn (Kyle Morley)",
+      "url": "https://www.linkedin.com/posts/kyle-morley_perplexity-recommends-you-chatgpt-names-share-7467896659406901248-HYkS/",
+      "report": {
+        "tldr": "AI 검색 노출을 위해 웹사이트를 넘어 여러 플랫폼에 존재감을 구축하라는 조언이다.",
+        "what": "웹사이트를 AI가 근거를 끌어오는 여러 표면 중 하나로 보고 Reddit·G2·포럼에 적극적으로 존재감을 구축하라. 리뷰·미해결 불만이 향후 답변의 학습 신호·인용이 되므로 감성을 관리하라. 모델마다 선호 소스가 달라(ChatGPT는 위키·Reddit, Perplexity는 LinkedIn·G2) 플랫폼별 권위를 노려라.",
+        "points": [
+          "웹사이트는 여러 표면 중 하나",
+          "Reddit·G2 등 존재감 구축",
+          "모델별 선호 소스에 맞춘 권위"
+        ],
+        "why": [
+          "AI 검색 시대 가시성(GEO) 전략"
+        ]
+      }
+    },
+    {
+      "id": "llmstxt-wrong-argument",
+      "title": "llms.txt 논쟁은 잘못된 논쟁이다",
+      "summary": "AI 검색 가시성 개선 효과 없음 — 시맨틱 HTML·WebMCP에 집중하라.",
+      "source": "Stacked GTM",
+      "url": "https://newsletter.stackedgtm.ai/p/the-llmstxt-argument-is-the-wrong",
+      "report": {
+        "tldr": "llms.txt가 AI 검색 가시성을 높이지 못한다며 초점을 바꾸라는 글이다.",
+        "what": "llms.txt는 발견과 기능이 별개 문제라 오해받는 경우가 많다. AI 검색 가시성을 개선하지 못하고 연구·테스트에서 측정 가능한 효과가 없으며 AI 크롤러 실사용도 매우 낮다. 코딩 에이전트가 단순 맥락을 필요로 하는 개발자 문서에는 도움이 되지만 대부분 사이트엔 가치가 적다. 진짜 초점은 시맨틱 HTML·접근성·안정 레이아웃과 WebMCP 같은 에이전트 친화 인프라여야 한다.",
+        "points": [
+          "llms.txt는 AI 가시성 개선 효과 없음",
+          "AI 크롤러 실사용 매우 낮음",
+          "시맨틱 HTML·WebMCP에 집중"
+        ],
+        "why": [
+          "AI 가시성 최적화의 우선순위 재정립"
+        ]
+      }
+    },
+    {
+      "id": "search-console-genai-reports",
+      "title": "구글, Search Console에 생성형 AI 성과 리포트 도입",
+      "summary": "AI Overviews·AI Mode 등 AI 검색 노출 성과를 직접 가시화.",
+      "source": "Google Search Central",
+      "url": "https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports",
+      "report": {
+        "tldr": "구글이 Search Console에 생성형 AI 검색 성과 리포트를 추가했다.",
+        "what": "구글의 새 Search Console 리포트는 콘텐츠가 생성형 AI 검색 경험 안에서 어떻게 성과를 내는지 직접 보여준다. AI Overviews·AI Mode·Discover의 생성형 AI 결과에 대한 노출·페이지·국가·기기·시간 추세를 분리해 제공한다. 전체 검색 성과에 의존하지 않고 SEO가 AI 표면 가시성을 견인하는지 측정하기 쉬워진다. 현재 일부 사이트에 한정 롤아웃됐다.",
+        "points": [
+          "AI Overviews·AI Mode 성과 분리 제공",
+          "노출·페이지·국가·기기 추세",
+          "일부 사이트 한정 롤아웃"
+        ],
+        "why": [
+          "AI 검색 성과 측정 수단 제공"
+        ]
+      }
+    },
+    {
+      "id": "limits-audience-first",
+      "title": "릭 루빈에 반대한다: 청중 우선 사고의 한계",
+      "summary": "고객 피드백만 따르면 안전·뻔한 결과 — 상상·실제·미래 청중 구분.",
+      "source": "Around the Bonfire",
+      "url": "https://newsletter.aroundthebonfire.com/p/disagreeing-with-rick-rubin",
+      "report": {
+        "tldr": "청중 피드백만 따르면 뻔한 작업이 된다며 균형을 강조한다.",
+        "what": "청중 인사이트는 마케팅을 이끌어야 하지만, 고객 피드백을 유일한 방향으로 삼으면 안전하고 뻔한 결과로 흐른다. 자기검열을 부르는 상상의 청중, 가치 있는 인사이트를 주는 실제 청중, 혁신을 사후에야 알아보는 미래의 청중을 구분해야 한다. 사람들이 원한다고 말하는 것보다 감정적으로 공명하는 것에 집중하고, 청중 이해와 확신의 균형을 잡으라.",
+        "points": [
+          "피드백만 따르면 뻔한 결과",
+          "상상·실제·미래 청중 구분",
+          "공명에 집중하며 확신 유지"
+        ],
+        "why": [
+          "청중 중심 사고의 한계와 균형 제시"
+        ]
+      }
+    },
+    {
+      "id": "email-into-chat-box",
+      "title": "이메일 제작이 챗박스로 이동 중인가",
+      "summary": "팀의 5%만 AI 미사용·76%가 3일 내 발송 — 하지만 챗만으론 부족.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/cG4WjK",
+      "report": {
+        "tldr": "이메일 제작이 AI 챗 인터페이스로 옮겨가지만 챗만으론 한계가 있다.",
+        "what": "마케터가 생성 도구로 워크플로를 가속하며 이메일 제작이 AI 챗 인터페이스로 이동하고 있다. 이메일에 AI를 안 쓰는 팀은 5%뿐이고 76%가 3일 내 캠페인을 발송한다. 그러나 챗만으로는 브랜드 시스템·이메일 클라이언트 제약 접근이 없어 신뢰할 프로덕션 이메일을 만들기 어렵다. 새 워크플로는 대형 이메일 라이브러리 영감, Figma 디자인 시스템, MCP 기반 ESP 통합 세 층을 연결한다.",
+        "points": [
+          "팀의 5%만 AI 미사용, 76% 3일 내 발송",
+          "챗만으론 브랜드·클라이언트 제약 미반영",
+          "라이브러리·Figma·MCP ESP 3층 연결"
+        ],
+        "why": [
+          "마케팅 제작 워크플로의 AI 통합 양상"
+        ]
+      }
+    },
+    {
+      "id": "reddit-manipulate-ai",
+      "title": "기업들이 Reddit으로 ChatGPT·구글 AI 검색을 조작한다",
+      "summary": "봇·유료 포스터·소크퍼펫으로 AI 인용을 노린 콘텐츠 살포.",
+      "source": "404 Media",
+      "url": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
+      "report": {
+        "tldr": "기업들이 Reddit을 조작해 AI 챗봇 답변에 브랜드를 심고 있다.",
+        "what": "기업들이 AI 챗봇 답변을 조작하도록 설계된 콘텐츠로 Reddit 커뮤니티를 점점 더 도배한다. ChatGPT·구글 AI 검색이 Reddit을 최상위 인용 소스로 삼자, 마케팅 회사가 봇·유료 포스터·인간을 가장한 소크퍼펫으로 직접 겨냥한다. LLM이 우선하는 프롬프트 패턴을 역설계하고, 고트래픽 질문을 심어 참여를 모은 뒤 브랜드 언급을 자연스럽게 끼워 넣는 수준으로 정교해졌다.",
+        "points": [
+          "AI 인용 노린 Reddit 콘텐츠 살포",
+          "봇·유료 포스터·소크퍼펫 동원",
+          "LLM 프롬프트 패턴 역설계"
+        ],
+        "why": [
+          "AI 검색 신뢰성을 위협하는 조작 산업화"
+        ]
+      }
+    },
+    {
+      "id": "youtube-overtakes-netflix",
+      "title": "유튜브, 전 세계 일평균 시청에서 넷플릭스 추월",
+      "summary": "2025년 계정당 일 99.1분으로 넷플릭스 93.4분 추월.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/jun/03/youtube-overtakes-netflix-in-average-daily-viewing-around-the-world",
+      "report": {
+        "tldr": "유튜브가 전 세계 일평균 시청 시간에서 넷플릭스를 앞섰다.",
+        "what": "유튜브의 계정당 일평균 시청이 2025년 99.1분에 달해 넷플릭스의 93.4분을 추월했다.",
+        "points": [
+          "유튜브 계정당 일 99.1분",
+          "넷플릭스 93.4분",
+          "유튜브가 추월"
+        ],
+        "why": [
+          "동영상 광고·콘텐츠 소비 지형 변화"
+        ]
+      }
+    },
+    {
+      "id": "openai-two-cmos",
+      "title": "오픈AI가 CMO 두 명이 필요한 이유",
+      "summary": "소비자·엔터프라이즈 브랜드 명제가 너무 갈라졌다는 방증.",
+      "source": "Adweek",
+      "url": "https://www.adweek.com/brand-marketing/openai-needs-two-cmos-because-it-has-a-problem-marketing-cant-solve/",
+      "report": {
+        "tldr": "오픈AI의 CMO 이원화가 브랜드 명제 분열을 드러낸다는 분석이다.",
+        "what": "소비자와 엔터프라이즈로 나뉜 듀얼 CMO 체제는 두 브랜드 명제가 함께 묶기엔 너무 갈라졌다는 것을 인정하는 셈이라는 분석이다.",
+        "points": [
+          "소비자·엔터프라이즈 CMO 분리",
+          "두 브랜드 명제의 분열",
+          "마케팅으로 못 푸는 문제"
+        ],
+        "why": [
+          "AI 기업의 브랜드 포지셔닝 딜레마"
+        ]
+      }
+    },
+    {
+      "id": "datacenter-buildout-behind",
+      "title": "미국 데이터센터 건설, 일정 크게 지연",
+      "summary": "2027년 계획 용량의 60%+가 아직 착공 전.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/VBG2C4",
+      "report": {
+        "tldr": "미국 데이터센터 건설이 계획 일정보다 크게 뒤처져 있다.",
+        "what": "2027년 계획 용량의 60% 이상이 아직 착공되지 않았다.",
+        "points": [
+          "2027 계획 용량 60%+ 미착공",
+          "건설 일정 지연",
+          "AI 인프라 공급 차질 신호"
+        ],
+        "why": [
+          "AI 인프라 수요와 실제 공급의 괴리"
+        ]
+      }
+    }
+  ]
+}

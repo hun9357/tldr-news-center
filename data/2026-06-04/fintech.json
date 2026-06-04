@@ -1,0 +1,238 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💳",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "anthropic-ipo",
+      "title": "앤트로픽, 비공개로 IPO 신청 — OpenAI와 상장 경쟁",
+      "summary": "9,650억 달러 가치 라운드 후 신청, 6월까지 연 500억 달러 런레이트 전망.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/SmNrvs",
+      "report": {
+        "tldr": "앤트로픽이 비공개로 IPO를 신청해 OpenAI보다 먼저 상장할 수 있게 됐다.",
+        "what": "앤트로픽이 비공개로 IPO를 신청해 OpenAI보다 먼저 공개시장에 진입할 수 있게 됐고, 이는 프런티어 AI 상업화 경쟁의 주요 이정표다. 신청은 9,650억 달러 가치를 매긴 대규모 라운드, 6월까지 연 500억 달러 런레이트를 넘을 수 있다는 매출 성장, 코딩·보안·지식노동용 Claude의 기업 채택 확대에 뒤이은 것이다.",
+        "points": [
+          "9,650억 달러 가치 라운드 직후 신청",
+          "6월까지 연 500억 달러 런레이트 전망",
+          "코딩·보안·지식노동 기업 채택 확대"
+        ],
+        "why": [
+          "AI 산업이 벤처 자금에서 공개시장 경쟁으로 전환하는 신호",
+          "공개 투자자에게 선두 AI 랩 직접 노출 제공"
+        ]
+      }
+    },
+    {
+      "id": "apple-wallet-bill-splitting",
+      "title": "애플 월렛, 영수증 촬영 기반 더치페이 기능 추가",
+      "summary": "iOS 27에서 공개, 사진으로 품목 배분·세금·팁 포함 분담액 계산.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/1AHJMm",
+      "report": {
+        "tldr": "애플이 영수증 사진으로 청구서를 나누는 월렛 기능을 준비 중이다.",
+        "what": "애플은 영수증을 촬영해 청구서를 나눌 수 있는 아이폰 기능을 준비 중이며, 다음 주 iOS 27 공개 때 함께 발표한다. 월렛·메시지 앱에서 영수증을 찍어 품목을 사람별로 배정하고 결제 요청을 생성한다. 품목 비용·세금·팁을 포함한 분담액을 계산해 준다.",
+        "points": [
+          "iOS 27과 함께 공개 예정",
+          "월렛·메시지 앱에서 사용",
+          "세금·팁 포함 분담액 자동 계산"
+        ],
+        "why": [
+          "P2P 결제 경쟁에서 애플의 일상 결제 강화"
+        ]
+      }
+    },
+    {
+      "id": "visa-backs-replit",
+      "title": "비자, 리플릿 투자 — 개발자 워크플로에 에이전틱 결제",
+      "summary": "리플릿 개발자·에이전트가 Visa Intelligent Commerce로 결제 수용.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/28/visa-invests-in-replit-to-power-agentic-payments-for-developers/",
+      "report": {
+        "tldr": "비자가 리플릿에 투자해 AI 개발 환경에 결제 인프라를 심는다.",
+        "what": "비자가 AI 네이티브 소프트웨어 개발 환경에 결제 인프라를 내장하려는 더 넓은 시도의 일환으로 리플릿에 투자했다. 양사는 리플릿 개발자와 그들이 만든 에이전트가 Visa Intelligent Commerce와 Trusted Agent Protocol로 결제를 수용하는 방안을 모색한다.",
+        "points": [
+          "AI 개발 환경에 결제 인프라 내장",
+          "개발자·에이전트가 결제 수용",
+          "Trusted Agent Protocol 활용"
+        ],
+        "why": [
+          "바이브 코딩과 에이전틱 커머스의 수렴"
+        ]
+      }
+    },
+    {
+      "id": "banks-stablecoins-opportunity",
+      "title": "은행, 스테이블코인을 예금 위협이 아닌 24/7 수익 기회로",
+      "summary": "'쉬는 돈' 토큰화 예금 vs '움직이는 돈' 스테이블코인의 보완적 공존 전망.",
+      "source": "Fintech Brainfood",
+      "url": "https://www.fintechbrainfood.com/p/stablecoin-business-case",
+      "report": {
+        "tldr": "사이먼 테일러는 은행이 스테이블코인을 위협이 아닌 인프라 기회로 다뤄야 한다고 본다.",
+        "what": "사이먼 테일러는 은행이 스테이블코인을 예금 이탈 위협이 아니라 입출금 램프·코레스 은행 대체·영업외 시간 정산에 유리한 수익형 인프라 기회로 봐야 한다고 주장한다. 토큰화 예금은 은행 벽 안에 '쉬는 돈', 스테이블코인은 개방 플랫폼에서 24/7 '움직이는 돈'이라는 구분이 핵심이다. SoFi·Standard Chartered 등이 실험하며 보완적 24/7 자금 순환이 귀결점이라고 본다.",
+        "points": [
+          "'쉬는 돈' vs '움직이는 돈' 구분",
+          "입출금 램프·정산에서 기회",
+          "은행이 스테이블코인 흐름을 수익화"
+        ],
+        "why": [
+          "은행과 스테이블코인의 대립 프레임을 보완 관계로 재구성"
+        ]
+      }
+    },
+    {
+      "id": "wise-belgium-investigation",
+      "title": "와이즈, 벨기에 자금세탁 조사로 주가 10%+ 급락",
+      "summary": "5억 유로+ 의심 거래 관련 유럽 법인 조사, 와이즈는 협조 입장.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/KEaMuw",
+      "report": {
+        "tldr": "와이즈가 벨기에의 자금세탁 조사 소식에 주가가 10% 넘게 떨어졌다.",
+        "what": "벨기에 검찰이 5억 유로 이상 의심 거래와 관련해 와이즈 유럽 법인의 잠재적 자금세탁 혐의를 조사한다고 밝히자 주가가 10% 넘게 하락했다. 조사는 와이즈 유럽의 서비스가 사기·부패·마약 거래 관련 범죄 조직에 이용됐는지를 본다. 와이즈는 협조 중이며 컴플라이언스 투자를 지속한다고 밝혔다.",
+        "points": [
+          "5억 유로+ 의심 거래 관련 조사",
+          "사기·부패·마약 연계 여부 검토",
+          "와이즈는 협조·컴플라이언스 투자 강조"
+        ],
+        "why": [
+          "핀테크의 자금세탁 컴플라이언스 리스크 부각"
+        ]
+      }
+    },
+    {
+      "id": "klarna-healthcare",
+      "title": "클라르나, 멤버십에 헬스케어 추가",
+      "summary": "영국 디지털 헬스케어 Kry Livi와 제휴해 온디맨드 진료 제공.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/FQy5U7",
+      "report": {
+        "tldr": "클라르나가 영국 멤버십에 온디맨드 진료를 더한다.",
+        "what": "영국 선도 디지털 헬스케어 제공사 Kry Livi가 클라르나와 제휴해 클라르나 영국 회원에게 온디맨드 임상 상담을 제공한다.",
+        "points": [
+          "Kry Livi와 제휴",
+          "영국 회원 대상 온디맨드 진료",
+          "디지털 우선 헬스케어 확산"
+        ],
+        "why": [
+          "핀테크 멤버십의 비금융 서비스 확장"
+        ]
+      }
+    },
+    {
+      "id": "mastercard-stablecoin-settlement",
+      "title": "마스터카드, 스테이블코인 정산 지원 도입",
+      "summary": "여러 블록체인의 미국 스테이블코인 정산과 휴일·주말 카드 정산 확대.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/9pw4B5",
+      "report": {
+        "tldr": "마스터카드가 미국 스테이블코인 정산 지원을 확대한다.",
+        "what": "마스터카드가 여러 블록체인 플랫폼에서 운용되는 다양한 미국 스테이블코인에 대한 정산 지원을 도입한다. 정산 네트워크 확장에는 인트라데이·주말·휴일 카드 정산이 포함되며, 법정화폐와 규제 스테이블코인을 통한 온체인 카드 정산을 모두 지원한다.",
+        "points": [
+          "다중 체인 미국 스테이블코인 정산",
+          "주말·휴일 카드 정산 확대",
+          "법정화폐+온체인 정산 병행"
+        ],
+        "why": [
+          "결제 대기업의 스테이블코인 인프라 채택 가속"
+        ]
+      }
+    },
+    {
+      "id": "deel-stablecoin-wallet",
+      "title": "딜(Deel), 글로벌 계약자용 스테이블코인 지갑 출시",
+      "summary": "150여 개국 팀 운영 플랫폼이 계약자용 지갑 제공.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/CcTf2Y",
+      "report": {
+        "tldr": "딜이 글로벌 계약자를 위한 스테이블코인 지갑을 출시했다.",
+        "what": "4만+ 기업이 150여 개국에서 팀을 채용·관리·지급하는 데 쓰는 글로벌 인력 플랫폼 딜이 계약자용 스테이블코인 지갑을 출시했다.",
+        "points": [
+          "계약자 대상 스테이블코인 지갑",
+          "150여 개국 지원",
+          "글로벌 인력 지급 간소화"
+        ],
+        "why": [
+          "크로스보더 프리랜서 지급의 스테이블코인 활용"
+        ]
+      }
+    },
+    {
+      "id": "gartner-cfo-ai-operating-model",
+      "title": "가트너, CFO에 'AI는 운영 모델 문제지 파일럿 예산이 아니다'",
+      "summary": "AI 투자 성과 측정과 전사적 측정·자본 배분 규율 강조.",
+      "source": "CFO.com",
+      "url": "https://www.cfo.com/news/gartner-finance-symposiums-ai-message-trial-balance/821576/",
+      "report": {
+        "tldr": "가트너가 CFO에게 AI를 운영 모델 차원의 문제로 다루라고 조언했다.",
+        "what": "가트너 재무 심포지엄 2026에서 CFO 논의는 기본 AI 도입에서 AI 투자가 실제 사업 성과를 내는지 측정하는 쪽으로 옮겨갔다. '효율적 성장' 기업은 백오피스 생산성뿐 아니라 제품 혁신·고객 대면 성장 전반에 AI를 배치할 가능성이 높다. AI ROI는 운영 모델 설계, 전사적 측정, 도구·워크플로·토큰 사용에 대한 규율 있는 자본 배분에 점점 좌우된다.",
+        "points": [
+          "AI 투자 성과 측정으로 초점 이동",
+          "'효율적 성장' 기업은 고객 대면까지 AI 배치",
+          "토큰 사용 포함 자본 배분 규율 강조"
+        ],
+        "why": [
+          "AI ROI를 운영 모델 차원에서 보는 재무 리더십 관점"
+        ]
+      }
+    },
+    {
+      "id": "goldman-ai-datacenter-financing",
+      "title": "골드만, M&A 회복 대기 속 'AI 데이터센터 금융'에 집중",
+      "summary": "AI 시설 관련 200억 달러+ 정크본드 발행, 앤트로픽 인프라에 360억 달러 제안.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/FA3M7z",
+      "report": {
+        "tldr": "AI 인프라가 레버리지드 파이낸스의 지배적 테마로 부상했다.",
+        "what": "데이터센터·전력·칩이 막대한 자본 수요를 만들며 AI 인프라가 레버리지드 파이낸스의 지배 테마가 됐고, 전통적 M&A 기반 부채 발행은 고르지 못하다. 최근 AI 시설 관련 200억 달러+ 미국 정크본드 발행과, 앤트로픽 인프라 구축을 위한 아폴로·블랙스톤의 360억 달러 금융 제안이 있다. 골드만은 수요가 강하게 유지되겠지만 공급 증가로 실행 목표를 놓친 차입자는 비용이 높아질 수 있다고 경고한다.",
+        "points": [
+          "AI 시설 관련 정크본드 200억 달러+",
+          "앤트로픽 인프라에 360억 달러 금융 제안",
+          "공급 증가 시 실행 리스크 경고"
+        ],
+        "why": [
+          "AI 인프라가 부채 시장의 핵심 동력으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "fintech-outcome-obsession",
+      "title": "핀테크, '제품 집착'에서 '성과 집착'으로",
+      "summary": "지난 10년 제품 혁신 중심에서 성과 중심으로의 전환.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/aFeKRO",
+      "report": {
+        "tldr": "핀테크의 성공 공식이 제품 혁신에서 고객 성과로 이동하고 있다.",
+        "what": "지난 10년간 핀테크 성공은 제품 혁신이 이끌었으나, 이제 성과 중심으로 전환하고 있다는 분석이다.",
+        "points": [
+          "지난 10년은 제품 혁신 중심",
+          "이제 성과 중심으로 이동",
+          "고객 성과 지표 중심 운영을 강조"
+        ],
+        "why": [
+          "핀테크 성장 전략의 패러다임 전환 논의"
+        ]
+      }
+    },
+    {
+      "id": "openfx-acquires-embed",
+      "title": "OpenFX, 암스테르담 결제사 Embed 인수",
+      "summary": "EEA·영국 내 첫 규제 거점 확보.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/1XXkkd",
+      "report": {
+        "tldr": "OpenFX가 네덜란드 결제사 Embed를 인수해 유럽 규제 거점을 확보한다.",
+        "what": "외환 인프라 기업 OpenFX가 네덜란드 결제 처리사 Embed를 인수하며 EEA와 영국 내 첫 규제 거점을 마련한다.",
+        "points": [
+          "네덜란드 결제사 Embed 인수",
+          "EEA·영국 첫 규제 거점",
+          "외환 인프라 확장"
+        ],
+        "why": [
+          "크로스보더 결제사의 유럽 규제 진입"
+        ]
+      }
+    }
+  ]
+}

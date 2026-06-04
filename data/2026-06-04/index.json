@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-04",
+  "weekday": "목",
+  "headline": "AI IPO 레이스 본격화, 사상 최대 IPO도 등장",
+  "subtitle": "앤트로픽이 비공개로 IPO를 신청해 OpenAI와의 상장 경쟁에 불을 붙였고, 스페이스X는 1.77조 달러 가치로 사상 최대 규모 IPO 가격을 확정했다. — 6월 4일 TLDR 10개 에디션 요약",
+  "keyword": "IPO 레이스 · 에이전트 거버넌스",
+  "bigStoryId": "spacex-largest-ipo",
+  "editions": [
+    "ai",
+    "tech",
+    "infosec",
+    "crypto",
+    "fintech",
+    "it",
+    "dev",
+    "data",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "10:07 CDT",
+  "syncedAt": "10:07",
+  "stats": {
+    "companies": 51,
+    "security": 13,
+    "deals": 13,
+    "policy": 11
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "AI 랩들이 공개시장으로 향한다",
+      "body": "앤트로픽이 비공개로 IPO를 신청하며 OpenAI와의 상장 경쟁이 가시화됐고, 골드만은 앤트로픽 인프라에 360억 달러 금융을 검토 중입니다. AI 산업이 벤처 자금에서 공개시장 경쟁 단계로 넘어가는 분기점입니다.",
+      "action": "IPO·자본조달 동향 추적"
+    },
+    {
+      "kind": "market",
+      "title": "사상 최대 IPO와 AI 인프라 자금 사이클",
+      "body": "스페이스X가 1.77조 달러 가치·744억 달러 규모로 역대 최대 IPO 가격을 확정했습니다. AI 데이터센터·전력·칩 수요가 부채·자본 시장의 지배 테마로 부상하고 있습니다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "오라클 웹로직(CVE-2024-21182) 패치 마감, OpenAI Codex가 찾은 HTTP/2 Bomb 대응 패치 적용, 메타 신규 모델·iOS 27 발표를 추적합니다."
+    }
+  ]
+}

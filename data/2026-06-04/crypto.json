@@ -1,0 +1,238 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "noble-acquires-helium-mobile",
+      "title": "노블 모바일, 헬륨 모바일 인수",
+      "summary": "솔라나 기반 DePIN 통신사 흡수, 일 260만 사용자·약 4.7만 달러 일매출, HNT 7% 하락.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2061828414634361284.html",
+      "report": {
+        "tldr": "노블 모바일이 헬륨 모바일을 인수하며 솔라나 기반 DePIN 통신사를 흡수했다.",
+        "what": "노블 모바일이 비공개 조건으로 헬륨 모바일을 인수해 약 13.9만 개 모바일 핫스팟 위에 구축된 솔라나 기반 DePIN 통신사를 흡수했다. 일 260만 사용자, 일매출 4.7만 달러 이상인 헬륨 네트워크는 구조적으로 유지되며 노블은 HNT 네트워크 활용을 지속한다. 노바 랩스는 소매 모바일에서 네트워크 확장으로 집중을 옮긴다. 발표 후 HNT는 약 7% 하락했다.",
+        "points": [
+          "약 13.9만 핫스팟 기반 DePIN 통신사 흡수",
+          "일 260만 사용자·일매출 4.7만 달러+",
+          "발표 후 HNT 약 7% 하락"
+        ],
+        "why": [
+          "DePIN 통신 모델의 통합·생존 경로를 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "bessent-strategic-bitcoin-reserve",
+      "title": "베센트 재무장관, 전략적 비트코인 준비금 지지",
+      "summary": "행정명령으로 약 32.8만 BTC(약 250억 달러) 보유, Clarity Act 처리 촉구.",
+      "source": "Bitcoin Magazine",
+      "url": "https://bitcoinmagazine.com/news/scott-bessent-strategic-bitcoin-reserve",
+      "report": {
+        "tldr": "미 재무장관이 전략적 비트코인 준비금 구축 의지를 재확인했다.",
+        "what": "스콧 베센트 재무장관은 상원 재무위에서 트럼프 행정부가 미국 전략적 비트코인 준비금 구축에 전념하고 있으며 여름에 주요 크립토 입법을 통과시킬 것을 촉구했다. 준비금은 이미 행정명령으로 설립돼 약 32만 8,372 BTC(약 250억 달러)를 보유하며, 그는 토큰의 증권·상품 여부를 규정할 Clarity Act 추진을 요청했다.",
+        "points": [
+          "행정명령으로 약 32.8만 BTC 보유",
+          "Clarity Act 등 크립토 입법 촉구",
+          "규제 프레임워크 정비 강조"
+        ],
+        "why": [
+          "미국의 비트코인 국가 준비금화 흐름",
+          "규제 명확성 입법 추진 신호"
+        ]
+      }
+    },
+    {
+      "id": "cap-token-auction",
+      "title": "Cap, 에어드롭 대신 Uniswap CCA로 $CAP 토큰 경매",
+      "summary": "공급 4.5%를 공개 경매, KYC·미국 적격투자자 제한, 에어드롭 모델 배제.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/nBDz42",
+      "report": {
+        "tldr": "Cap Labs가 에어드롭 대신 Uniswap CCA 경매로 $CAP을 배분한다.",
+        "what": "Cap Labs는 Uniswap CCA 메커니즘으로 $CAP 토큰 경매를 시작하며 공급의 4.5%를 공개 경매하고 별도 0.5%를 CCA 청산가로 배정한다. KYC는 Predicate Identity가 처리하고 미국 참여는 적격투자자로 제한된다. 에어드롭을 명시적으로 배제하고 경매 종료 후 공개될 Stabledrop으로 커뮤니티 보상을 돌린다.",
+        "points": [
+          "공급 4.5% 공개 경매(+0.5% 별도)",
+          "KYC·미국 적격투자자 제한",
+          "에어드롭 배제, Stabledrop으로 대체"
+        ],
+        "why": [
+          "토큰 분배 모델이 에어드롭에서 경매로 이동하는 사례"
+        ]
+      }
+    },
+    {
+      "id": "boardwalk-launchpad",
+      "title": "Boardwalk, 토큰 레벨 수수료 라우팅 런치패드 표준 출시",
+      "summary": "Base에 출시, 졸업 임계치·계약 단계 수수료 로직으로 차별화.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/ri2LRK",
+      "report": {
+        "tldr": "Boardwalk가 계약 레벨 수수료 로직을 내장한 런치패드 표준을 Base에 출시했다.",
+        "what": "Boardwalk가 Base에서 Boardwalk Standard를 출시했다. Express(간편)와 Advanced(경매 배분·베스팅·수수료 라우팅 구성)의 두 등급을 제공하며, 출시는 유동성 시딩 전 졸업 임계치를 넘어야 한다. 각 토큰은 계약 레벨에 수수료 로직을 내장해 내장 스왑 수수료처럼 작동하며 외부 라우팅 합의 없이 흐름을 분배한다. Zora·Clanker·Bankr와 함께 Base 런치패드 스택에 합류한다.",
+        "points": [
+          "졸업 임계치 후 유동성 시딩",
+          "계약 레벨 내장 수수료 라우팅",
+          "Base 런치패드 스택에 합류"
+        ],
+        "why": [
+          "밈코인 런치패드 경쟁에서의 차별화 시도"
+        ]
+      }
+    },
+    {
+      "id": "hermes-analyst-60days",
+      "title": "60일간 Hermes 분석가 에이전트 운영 6가지 교훈",
+      "summary": "아키텍처가 효용의 90%, 스킬 번들링으로 세션당 토큰 5,000→500 절감.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/KGGGT0",
+      "report": {
+        "tldr": "자율 크립토 분석가 에이전트 Hermes의 60일 회고로 아키텍처의 중요성을 강조한다.",
+        "what": "Hermes 60일 회고는 프로덕션 효용의 90%가 아키텍처에서 나오며 모델 선택은 부차적이라고 결론짓는다. DeepSeek·Kimi-k2.6·Qwen 등 오픈웨이트가 프런티어와 성능 동등에 도달했다. 2,000단어 프롬프트를 SKILL.md 파이프라인으로 분해하는 스킬 번들링이 세션당 토큰을 5,000+에서 약 500으로 줄였고, x402로 구독 마찰 없이 USDC로 호출당 도구 접근을 제공한다.",
+        "points": [
+          "효용의 90%는 아키텍처에서",
+          "스킬 번들링으로 토큰 5,000+→~500",
+          "x402로 호출당 도구 접근(USDC)"
+        ],
+        "why": [
+          "에이전트 설계가 모델 선택보다 중요함을 보여주는 실전 교훈"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sov-taxonomy",
+      "title": "가치 저장 수단(SOV)으로서의 크립토 자산",
+      "summary": "SOV 평가 6대 기준 제시, BTC(밈)·ETH(기술 내구성)·Zcash(검열저항) 선두.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/pOnPAb",
+      "report": {
+        "tldr": "Variant의 분석가가 SOV 자산 평가를 위한 6대 기준과 토큰 분류를 제안한다.",
+        "what": "Variant의 Alana Levin은 SOV vs 주식형의 이진 분류와, 기술 내구성·희소성·검열저항·경제 생산성·밈성·유동성 순의 6대 평가 기준을 제시한다. 비트코인은 밈 점유율, 이더리움은 업그레이드 로드맵을 통한 기술 내구성, Zcash는 차폐 풀의 검열저항에서 앞선다. 31조 달러 금·4조 달러 은 시장 대비 디지털 SOV는 작은 비중으로 구조적 과소대표 상태라고 본다.",
+        "points": [
+          "SOV 평가 6대 기준 제시",
+          "BTC·ETH·Zcash가 각 차원 선두",
+          "금·은 대비 디지털 SOV 과소대표 주장"
+        ],
+        "why": [
+          "크립토 자산을 가치 저장 관점에서 평가하는 프레임워크"
+        ]
+      }
+    },
+    {
+      "id": "agentic-finance-report-q2",
+      "title": "에이전틱 파이낸스 지형 리포트: 2026 2분기판",
+      "summary": "AgentFi 볼트 수억 달러 TVL, ERC-8004에 12.8만+ 에이전트 등록.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/vZKs0I",
+      "report": {
+        "tldr": "Cambrian Network가 에이전틱 파이낸스의 2분기 지형을 정리했다.",
+        "what": "Cambrian의 2026 2분기 리포트는 AgentFi 볼트가 수억 달러 TVL을 모았고(Theo 4억+, Mozaic 2억+), 투기에서 스테이블코인 마이크로페이먼트 기반 반복 수익으로 이동했다고 본다. 코인베이스가 x402 결제 프로토콜을 리눅스 재단에 기여했고, ERC-8004 에이전트 신원 레지스트리에 12.8만+ 에이전트가 등록됐다. 블랙록·JP모건·골드만이 자율 트레이딩 시스템을 확장하며 TradFi 카테고리가 신설됐다.",
+        "points": [
+          "AgentFi 볼트 수억 달러 TVL",
+          "ERC-8004에 12.8만+ 에이전트 등록",
+          "TradFi의 자율 트레이딩 진입"
+        ],
+        "why": [
+          "크립토 네이티브 에이전트 인프라와 전통 금융의 융합"
+        ]
+      }
+    },
+    {
+      "id": "coinbase-ethena-usde",
+      "title": "코인베이스, USDe 저축 출시 앞두고 에테나 지원",
+      "summary": "1억+ 사용자 대상 Base USDe 저축 6월 9일 주 출시, ENA 20% 급등 후 조정.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/02/coinbase-backs-ethena-ahead-of-savings-product-launch-for-exchange-s-100-million-users",
+      "report": {
+        "tldr": "코인베이스가 1억+ 사용자 대상 USDe 저축 출시를 앞두고 에테나를 지원한다.",
+        "what": "코인베이스 벤처스가 공개시장에서 ENA를 매입했고, 코인베이스와 에테나가 Base 네트워크에서 1억+ 사용자 대상 USDe 온체인 저축 상품을 6월 9일 주에 출시한다. 코인베이스는 이미 에테나의 주 커스터디·지갑·무기한 거래 베뉴 역할을 한다. 에테나 TVL은 53억 달러(2025년 10월 150억 피크 대비 감소)이며, ENA는 발표에 20% 급등 후 24시간 3%로 조정됐다.",
+        "points": [
+          "Base USDe 저축 6월 9일 주 출시",
+          "에테나 TVL 53억 달러",
+          "ENA 20% 급등 후 3%로 조정"
+        ],
+        "why": [
+          "대형 거래소 유통이 DeFi 저축의 리테일 도달을 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-quantum-ecdsa",
+      "title": "AI 에이전트 군집으로 구글 양자 돌파의 80% 재현",
+      "summary": "양자 정식 교육 없는 연구자가 ECDSA 해독 관련 Toffoli 게이트-큐비트 곱 6.5B 달성.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/JCyP7j",
+      "report": {
+        "tldr": "AI 에이전트 군집으로 구글의 미공개 양자 돌파 80% 수준에 도달했다.",
+        "what": "Eigen Labs 연구자 두 명이 양자 정식 교육 없이 AI 에이전트 군집을 사용해 ECDSA 해독을 위한 구글의 미공개 돌파의 80%에 도달했다. Toffoli 게이트-큐비트 곱 6.5B(게이트 280만, 큐비트 2.3K)로 구글 비공개 목표 3B 대비, 기존 최고 24.5B에서 크게 개선했다.",
+        "points": [
+          "AI 에이전트 군집 활용",
+          "Toffoli 게이트-큐비트 곱 6.5B 달성",
+          "기존 최고 24.5B에서 대폭 개선"
+        ],
+        "why": [
+          "양자 위협과 AI 보조 연구의 결합 사례"
+        ]
+      }
+    },
+    {
+      "id": "bitcoin-momentum-trade",
+      "title": "\"비트코인 약세, 세일러 매도 아닌 모멘텀 트레이드 이탈 탓\"",
+      "summary": "투기 자본이 다른 모멘텀 내러티브로 회전 중.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/03/bitcoin-isn-t-crashing-because-of-saylor-it-s-losing-the-momentum-trade",
+      "report": {
+        "tldr": "최근 비트코인 약세의 주원인은 세일러 매도가 아니라 모멘텀 트레이드 이탈이라는 분석이다.",
+        "what": "비트코인의 최근 약세는 마이클 세일러의 Strategy 매도보다는 크립토가 '모멘텀 트레이드를 잃은' 데서 비롯된다. 과거 투기적 크립토 수익을 좇던 자본이 다른 모멘텀 내러티브로 회전하고 있다.",
+        "points": [
+          "약세 주원인은 모멘텀 이탈",
+          "세일러 매도는 부차적",
+          "자본이 타 내러티브로 회전"
+        ],
+        "why": [
+          "가격 약세의 구조적 원인을 짚는 시각"
+        ]
+      }
+    },
+    {
+      "id": "revolut-us-bank-stablecoin",
+      "title": "레볼루트, 2026년 스테이블코인 결합 미국 은행 출시 계획",
+      "summary": "FDIC 보장 계좌와 스테이블코인 서비스를 한 앱에, 지점 없음.",
+      "source": "Cryptonomist",
+      "url": "https://en.cryptonomist.ch/2026/06/03/revolut-us-bank-launch-stablecoin/",
+      "report": {
+        "tldr": "레볼루트가 2026년 스테이블코인과 FDIC 계좌를 결합한 미국 은행을 출시한다.",
+        "what": "레볼루트는 FDIC 보장 계좌와 스테이블코인 서비스를 단일 앱에 결합한 미국 은행을 2026년 출시할 계획이며 물리 지점은 없다.",
+        "points": [
+          "FDIC 계좌+스테이블코인 단일 앱",
+          "물리 지점 없는 디지털 은행",
+          "2026년 출시 계획"
+        ],
+        "why": [
+          "핀테크의 스테이블코인 통합 본격화"
+        ]
+      }
+    },
+    {
+      "id": "tether-gold-visa-card",
+      "title": "테더, 토큰화 금 스테이블코인 비자 카드 출시",
+      "summary": "비자 가맹점 어디서나 토큰화 금을 결제에 사용 가능.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/369972/tether-tokenized-gold-visa-stablecoin-card-pays-crypto-rewards",
+      "report": {
+        "tldr": "테더가 토큰화 금을 결제에 쓸 수 있는 비자 카드를 출시했다.",
+        "what": "테더가 토큰화 금 스테이블코인 비자 카드를 출시해 보유자가 비자가 받는 곳 어디서나 토큰화 금을 결제에 쓸 수 있게 했다.",
+        "points": [
+          "토큰화 금 스테이블코인 카드",
+          "비자 가맹점 어디서나 결제",
+          "크립토 리워드 제공"
+        ],
+        "why": [
+          "실물 연동 자산의 일상 결제 진입"
+        ]
+      }
+    }
+  ]
+}

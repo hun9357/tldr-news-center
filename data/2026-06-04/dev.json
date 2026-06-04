@@ -1,0 +1,237 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "uber-caps-ai-tools",
+      "title": "우버, 직원당 AI 코딩 도구에 월 1,500달러 상한",
+      "summary": "초기 예산을 빠르게 초과해 도구별 월 지출 캡 도입.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/3/uber-caps-usage/",
+      "report": {
+        "tldr": "우버가 비용 관리를 위해 직원당 AI 코딩 도구 지출에 월 1,500달러 상한을 뒀다.",
+        "what": "우버는 AI 기술 초기 예산을 빠르게 초과한 뒤 비용 관리를 위해 직원·도구당 월 1,500달러 지출 상한을 도입했다.",
+        "points": [
+          "도구별 직원당 월 1,500달러 상한",
+          "초기 예산 빠르게 초과",
+          "비용 관리 목적"
+        ],
+        "why": [
+          "AI 코딩 도구 확산에 따른 기업 비용 통제 현실"
+        ]
+      }
+    },
+    {
+      "id": "modern-engineering-values",
+      "title": "현대 엔지니어링 가치관",
+      "summary": "수작업에서 AI 에이전트 지휘로 전환, 가드레일·피드백 루프·맥락이 관건.",
+      "source": "cpojer.net",
+      "url": "https://cpojer.net/posts/modern-engineering-values",
+      "report": {
+        "tldr": "소프트웨어 엔지니어링이 수작업에서 AI 에이전트 지휘로 근본 전환했다는 글이다.",
+        "what": "소프트웨어 엔지니어링은 수작업에서 AI 에이전트를 지휘하는 일로 근본적으로 바뀌었다. 새 환경에서 성공하려면 엄격한 가드레일, 빠른 피드백 루프, 레포 내 상세 맥락으로 자동화 결과 품질을 보장해야 한다. 강한 오너십과 세련된 안목 같은 기술적 가치가 그 어느 때보다 중요해졌다.",
+        "points": [
+          "수작업→AI 에이전트 지휘로 전환",
+          "가드레일·피드백 루프·레포 맥락 필수",
+          "오너십·안목의 중요성 증대"
+        ],
+        "why": [
+          "AI 시대 엔지니어 역량의 재정의"
+        ]
+      }
+    },
+    {
+      "id": "tanstack-start",
+      "title": "TanStack Start로 앱 만들기",
+      "summary": "Lovable이 CSR React/Vite에서 SSR TanStack Start로 전환, SEO·구조 이득.",
+      "source": "Lovable",
+      "url": "https://lovable.dev/fr/blog/building-apps-using-tanstack-start",
+      "report": {
+        "tldr": "Lovable이 신규 프로젝트를 SSR 기반 TanStack Start로 전환한 이유를 공유했다.",
+        "what": "Lovable은 신규 프로젝트를 클라이언트 렌더링 React/Vite SPA에서 서버 사이드 렌더링 TanStack Start로 전환했다. 첫 로드에 콘텐츠가 담긴 HTML로 SEO·크롤러 가시성이 개선됐고, 서버 로직이 컴포넌트 옆에 위치하며, 학습 컷오프 이후의 패턴을 AI에 가르치는 TanStack 규칙을 주입했다.",
+        "points": [
+          "CSR SPA→SSR TanStack Start",
+          "첫 로드 HTML로 SEO 개선",
+          "AI에 최신 패턴 규칙 주입"
+        ],
+        "why": [
+          "AI 코드 생성에 맞춘 프레임워크 선택 변화"
+        ]
+      }
+    },
+    {
+      "id": "every-byte-matters",
+      "title": "모든 바이트가 중요하다",
+      "summary": "AoS 대신 SoA로 데이터를 밀집해 최대 30배 성능 향상.",
+      "source": "fzakaria.com",
+      "url": "https://fzakaria.com/2026/06/01/every-byte-matters",
+      "report": {
+        "tldr": "데이터와 하드웨어 상호작용이 성능에 미치는 영향을 다룬 글이다.",
+        "what": "소프트웨어 성능은 알고리즘 복잡도를 넘어 데이터가 메모리 계층·캐시 라인 같은 하드웨어와 어떻게 상호작용하는지에 깊이 좌우된다. 'Array of Structs' 대신 'Struct of Arrays'로 데이터를 밀집해 순차 처리를 최적화하면 데이터 구조 크기를 줄여 최대 30배 성능 향상을 얻을 수 있다.",
+        "points": [
+          "성능은 데이터-하드웨어 상호작용에 좌우",
+          "SoA로 데이터 밀집화",
+          "최대 30배 성능 향상 사례"
+        ],
+        "why": [
+          "저수준 성능 최적화의 실질적 효과를 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "reorg-readiness",
+      "title": "올해도 재조직을 겪을 것이다 — 대비하는 법",
+      "summary": "상사에게 답을 구하기보다 핵심 프로젝트 안정화·새 이니셔티브 제안.",
+      "source": "A Life Engineered",
+      "url": "https://alifeengineered.substack.com/p/youll-get-re-orged-again-this-year",
+      "report": {
+        "tldr": "불가피한 재조직에 능동적으로 대비하는 법을 조언한다.",
+        "what": "기업 재조직은 불가피하며 직원·관리자 모두에게 불확실성을 만든다. 똑같이 모르는 상사에게 답을 구하느라 에너지를 낭비하기보다, 핵심 프로젝트를 안정화할 능동적 계획을 세우고 새 이니셔티브를 제안하는 데 집중하라.",
+        "points": [
+          "재조직은 불가피한 이벤트",
+          "상사 의존 대신 능동적 계획",
+          "핵심 프로젝트 안정화·새 제안"
+        ],
+        "why": [
+          "조직 변동기 커리어 관리 조언"
+        ]
+      }
+    },
+    {
+      "id": "angular-v22",
+      "title": "앵귤러 v22 공식 출시",
+      "summary": "Signal Forms·Angular Aria 등 안정화, 에이전틱 툴링·WebMCP 실험 지원.",
+      "source": "TLDR Dev",
+      "url": "https://links.tldrnewsletter.com/3rt9et",
+      "report": {
+        "tldr": "앵귤러 v22가 주요 기능을 정식 안정 단계로 전환하며 출시됐다.",
+        "what": "앵귤러 v22가 공식 출시돼 Signal Forms·Angular Aria·비동기 반응성 API 등 여러 주요 기능이 프로덕션 안정 상태가 됐다. 이 릴리스는 에이전틱 툴링, AI 어시스턴트용 코딩 스킬, WebMCP 실험 지원을 도입해 AI 네이티브 개발 통합을 돕는다.",
+        "points": [
+          "Signal Forms·Angular Aria 안정화",
+          "비동기 반응성 API 정식화",
+          "에이전틱 툴링·WebMCP 실험 지원"
+        ],
+        "why": [
+          "주요 프런트엔드 프레임워크의 AI 네이티브 전환"
+        ]
+      }
+    },
+    {
+      "id": "mnemo",
+      "title": "Mnemo: 로컬 우선 AI 메모리 레이어",
+      "summary": "로컬 SQLite 지식 그래프로 LLM에 지속 가능한 검색형 기억 제공.",
+      "source": "GitHub",
+      "url": "https://github.com/zaydmulani09/mnemo",
+      "report": {
+        "tldr": "Mnemo는 로컬 SQLite 지식 그래프로 LLM에 지속 기억을 제공한다.",
+        "what": "Mnemo는 로컬 SQLite DB의 구조화된 지식 그래프를 사용해 LLM에 지속 가능하고 검색 가능한 지식과 자동 맥락 주입을 제공하는 로컬 우선 AI 메모리 레이어다.",
+        "points": [
+          "로컬 SQLite 지식 그래프",
+          "지속·검색형 기억 제공",
+          "자동 맥락 주입"
+        ],
+        "why": [
+          "LLM의 장기 기억·맥락 관리를 위한 로컬 솔루션"
+        ]
+      }
+    },
+    {
+      "id": "gooey-zig",
+      "title": "Gooey: Zig용 GPU 가속 선언형 UI 프레임워크",
+      "summary": "Metal·Vulkan·WebGPU 타깃, 외부 의존성 0.",
+      "source": "GitHub",
+      "url": "https://github.com/duanebester/gooey",
+      "report": {
+        "tldr": "Gooey는 Zig 언어용 GPU 가속 선언형 UI 프레임워크다.",
+        "what": "Gooey는 macOS·Linux·웹 브라우저를 Metal·Vulkan·WebGPU 같은 네이티브 플랫폼 라이브러리로 타깃하는 Zig용 GPU 가속 선언형 UI 프레임워크다. 외부 Zig 의존성 없이 구축됐고 가상화 리스트·비동기 I/O 같은 고성능 요소를 갖췄다.",
+        "points": [
+          "Metal·Vulkan·WebGPU 타깃",
+          "외부 Zig 의존성 0",
+          "가상화 리스트·비동기 I/O"
+        ],
+        "why": [
+          "Zig 생태계의 네이티브 UI 옵션 확장"
+        ]
+      }
+    },
+    {
+      "id": "how-we-contain-claude",
+      "title": "제품 전반에서 Claude를 격리하는 방법",
+      "summary": "샌드박스·VM으로 '폭발 반경' 차단, 이그레스 통제·모델 학습 병행.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/engineering/how-we-contain-claude",
+      "report": {
+        "tldr": "AI 에이전트를 다층 방어로 격리하는 앤트로픽의 접근을 설명한다.",
+        "what": "AI 에이전트 보안에는 다층 방어가 필요하며, 샌드박스·가상머신으로 '폭발 반경'을 사람 감독보다 안정적으로 차단한다. 성공적 배포는 이런 환경적 제한에 더해 엄격한 이그레스 통제와 모델 학습을 결합해 무단 데이터 탈취나 자율 행동을 막는 데 달려 있다.",
+        "points": [
+          "샌드박스·VM으로 폭발 반경 차단",
+          "엄격한 이그레스 통제",
+          "모델 학습으로 자율 행동 방지"
+        ],
+        "why": [
+          "에이전트 배포 시 보안 격리의 실무 원칙"
+        ]
+      }
+    },
+    {
+      "id": "world-models-taxonomy-dev",
+      "title": "월드 모델의 기능적 분류학(개발 관점)",
+      "summary": "렌더러·시뮬레이터·플래너의 3대 구성요소, 시뮬레이션이 다리.",
+      "source": "Fei-Fei Li (Substack)",
+      "url": "https://drfeifei.substack.com/p/a-functional-taxonomy-of-world-models",
+      "report": {
+        "tldr": "월드 모델을 렌더러·시뮬레이터·플래너로 분류한 글이다.",
+        "what": "월드 모델은 텍스트 처리에서 공간·시간·물리 법칙의 통계 구조 이해로의 전환을 의미한다. 이 분류는 시각 관측을 만드는 렌더러, 물리 상태를 유지하는 시뮬레이터, 행동을 생성하는 플래너의 3대 구성요소를 제시한다. 시뮬레이션이 이 기능들을 잇는 다리 역할을 한다.",
+        "points": [
+          "렌더러·시뮬레이터·플래너 3요소",
+          "시뮬레이션이 연결 다리",
+          "텍스트→물리 구조 이해로 전환"
+        ],
+        "why": [
+          "월드 모델 설계의 구조적 이해 틀"
+        ]
+      }
+    },
+    {
+      "id": "gemma-4-12b-dev",
+      "title": "Gemma 4 12B: 통합·인코더 프리 멀티모달 모델",
+      "summary": "제한된 메모리 소비자 노트북에서 고성능 추론·네이티브 오디오 처리.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/",
+      "report": {
+        "tldr": "Gemma 4 12B는 노트북에서 도는 통합·인코더 프리 멀티모달 모델이다.",
+        "what": "Gemma 4 12B는 제한된 메모리의 소비자 노트북에서 고성능 추론과 네이티브 오디오 처리를 직접 제공하도록 설계된 통합·인코더 프리 멀티모달 모델이다.",
+        "points": [
+          "통합·인코더 프리 멀티모달",
+          "네이티브 오디오 처리",
+          "소비자 노트북 타깃"
+        ],
+        "why": [
+          "온디바이스 멀티모달 모델 접근성 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-agents-new-insiders",
+      "title": "AI 에이전트는 새로운 내부자다",
+      "summary": "자율 AI 에이전트가 비인간 내부자 위협으로 기능.",
+      "source": "BankInfoSecurity",
+      "url": "https://www.bankinfosecurity.com/blogs/ai-agents-are-new-insiders-p-4127",
+      "report": {
+        "tldr": "자율 AI 에이전트가 비인간 내부자 위협으로 작동한다는 분석이다.",
+        "what": "자율 AI 에이전트가 이제 비인간 내부자 위협으로 기능한다.",
+        "points": [
+          "에이전트가 비인간 내부자 위협",
+          "자율성에 따른 새 위험",
+          "에이전트 권한 관리·모니터링 필요성 부각"
+        ],
+        "why": [
+          "에이전트 권한 관리의 보안 중요성"
+        ]
+      }
+    }
+  ]
+}
