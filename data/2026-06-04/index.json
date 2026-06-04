@@ -19,6 +19,8 @@
   ],
   "lastUpdated": "10:07 CDT",
   "syncedAt": "10:07",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "6,000.52", "change": "▼ 0.74%" },
   "stats": {
     "companies": 51,
     "security": 13,
@@ -30,6 +32,8 @@
       "kind": "primary",
       "title": "AI 랩들이 공개시장으로 향한다",
       "body": "앤트로픽이 비공개로 IPO를 신청하며 OpenAI와의 상장 경쟁이 가시화됐고, 골드만은 앤트로픽 인프라에 360억 달러 금융을 검토 중입니다. AI 산업이 벤처 자금에서 공개시장 경쟁 단계로 넘어가는 분기점입니다.",
+      "severity": "7.5",
+      "velocity": "Rising",
       "action": "IPO·자본조달 동향 추적"
     },
     {
