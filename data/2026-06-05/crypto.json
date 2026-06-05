@@ -6,142 +6,192 @@
   "bg": "#332a12",
   "items": [
     {
-      "id": "doj-anti-scam-coinbase-spacex-meta",
-      "title": "코인베이스·스페이스X·메타, DOJ 반사기 작전 합류…380만 달러 동결",
-      "summary": "주요 테크 기업이 법집행과 공조해 동남아 사기 네트워크를 분쇄하고 380만 달러 암호화폐를 동결했다.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/403608/coinbase-spacex-meta-join-doj-anti-scam-operation-that-froze-3-8-million-in-crypto",
-      "originalDate": "2026-06-04",
+      "id": "cr-doj-antiscam",
+      "title": "코인베이스·스페이스X·메타, DOJ 반(反)사기 작전 참여",
+      "summary": "동남아 사기망 겨냥 '디스럽션 위크', 380만 달러 동결·63명 체포·140만 계정 차단.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/ApWuep",
       "report": {
-        "tldr": "테크 기업들이 DOJ 반사기 작전에 합류해 380만 달러를 동결했다.",
-        "what": "코인베이스·스페이스X·메타 등 주요 테크 기업이 법집행기관과 공조해 동남아 사기 네트워크를 분쇄했다. 380만 달러 이상의 암호화폐를 동결하고 소셜미디어·이메일 전반의 수천 개 불법 계정을 차단했다.",
+        "tldr": "DOJ가 주도한 범부문 단속에 코인베이스·스페이스X·메타 등이 참여했다.",
+        "what": "DOJ가 동남아 사기망을 겨냥한 범부문 '디스럽션 위크'를 조율했고, 코인베이스·스페이스X·메타·애플·구글·마이크로소프트·TRM Labs가 호주·캐나다·뉴질랜드·태국·영국 법집행기관과 함께했다. 민간 기업이 380만 달러 이상의 가상자산을 자발적으로 동결했으며(코인베이스만 300만 달러), 메타·태국 경찰이 63명을 체포하고, 스타링크가 불법 사용 키트 수천 개의 연결을 차단했으며, 당국은 140만 개 이상의 소셜·이메일·인터넷 계정을 무력화했다.",
         "points": [
-          "380만 달러 암호화폐 동결",
-          "동남아 사기 네트워크 분쇄",
-          "수천 개 불법 계정 차단"
+          "코인베이스 300만 달러 등 380만+ 동결",
+          "63명 체포·스타링크 키트 차단",
+          "140만+ 계정 무력화"
         ],
         "why": [
-          "민관 공조형 온체인 사기 단속의 확산"
+          "가상자산·빅테크가 초국가 사기 대응에 합류한 사례"
         ]
       }
     },
     {
-      "id": "coinbase-spacex-pre-ipo-perp",
-      "title": "코인베이스, 스페이스X 프리-IPO 무기한 선물 출시",
-      "summary": "스페이스X 밸류에이션을 추종하는 레버리지 무기한 선물 SPCX-PERP를 상장, 상장 시 자동 전환.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/403620/coinbase-pre-ipo-perpetual-futures-spacex",
-      "originalDate": "2026-06-04",
+      "id": "cr-banks-stablecoins",
+      "title": "은행, 스테이블코인을 위협이 아닌 24/7 수익 기회로",
+      "summary": "온·오프램프, 코레스 은행 대체, 영업외 시간 결제에서 기회.",
+      "source": "Fintech Brainfood",
+      "url": "https://www.fintechbrainfood.com/p/stablecoin-business-case?utm_source=tldrcrypto",
       "report": {
-        "tldr": "코인베이스가 스페이스X 프리-IPO 무기한 선물을 출시했다.",
-        "what": "코인베이스가 스페이스X 밸류에이션을 추종하는 레버리지 무기한 선물 SPCX-PERP를 도입했다. 상장 시 자동 전환되며, 리테일 트레이더에게 프리-IPO 파생상품 접근을 확대한다.",
+        "tldr": "은행이 스테이블코인을 예금 이탈 위협이 아닌 인프라 기회로 다뤄야 한다는 분석이다.",
+        "what": "은행은 스테이블코인을 예금 이탈 위협이 아니라 부가적 인프라 기회로, 특히 법정화폐 온·오프램프, 코레스 은행 대체, 영업외 시간 결제에서 다뤄야 한다. 토큰화 예금은 은행 내부에 머물지만 스테이블코인은 개방 플랫폼에서 전 세계로 24/7 이동한다. SoFi·Coastal·스탠다드차타드·소시에테제네랄 등이 실험하면서, 결국 은행이 스테이블코인 흐름을 수익화하는 보완적 24/7 자금 루프가 형성될 것으로 본다.",
         "points": [
-          "SPCX-PERP 무기한 선물 출시",
-          "상장 시 자동 전환",
-          "리테일 프리-IPO 파생 접근 확대"
+          "온·오프램프·코레스 대체·영업외 결제 기회",
+          "토큰화 예금 vs 개방형 스테이블코인",
+          "은행의 보완적 24/7 자금 루프 전망"
         ],
         "why": [
-          "비상장 메가 IPO에 대한 투기 수요를 파생으로 흡수"
+          "전통 은행과 스테이블코인의 공존 모델 논의"
         ]
       }
     },
     {
-      "id": "mastercard-stablecoin-settlement",
-      "title": "마스터카드, 온체인 결제를 6개 스테이블코인·8개 네트워크로 확장",
-      "summary": "은행 영업시간을 넘어 당일·휴일 결제가 가능한 블록체인 결제 인프라를 확대.",
+      "id": "cr-coinbase-spacex-perp",
+      "title": "코인베이스, SpaceX 프리-IPO 무기한 선물 'SPCX-PERP' 상장",
+      "summary": "최대 5배 레버리지·USDC 정산, 상장 시 표준 선물로 자동 전환.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/yQN5Jr",
+      "report": {
+        "tldr": "코인베이스가 SpaceX의 프리-IPO 밸류를 추종하는 무기한 선물을 상장했다.",
+        "what": "코인베이스가 SpaceX의 프리-IPO 가치를 추종하는 무기한 선물 SPCX-PERP를 상장했다. 최대 5배 레버리지, USDC 정산, 만기·롤오버 없이 24/7 거래된다. SpaceX 상장 시 표준 무기한 선물로 자동 전환되며, 현재 주당 135달러·약 750억 달러 IPO를 가정한다. 포지션 한도는 2배 35만 달러, 5배 20만 달러까지다. 코인베이스는 밸류 기반 인덱스 가격 의존·표준 perp 대비 낮은 유동성 리스크를 명시했고, 테크·AI·에너지·우주 기업의 추가 프리-IPO 계약을 계획한다.",
+        "points": [
+          "최대 5배 레버리지·USDC 정산·24/7 거래",
+          "상장 시 표준 선물로 자동 전환",
+          "인덱스 의존·낮은 유동성 리스크 명시"
+        ],
+        "why": [
+          "사모 시장 파생상품 수요 증가의 신호"
+        ]
+      }
+    },
+    {
+      "id": "cr-deel-stablecoin-wallet",
+      "title": "Deel, 글로벌 계약자용 스테이블코인 지갑 출시",
+      "summary": "달러 기반 통화로 수령·보유·전 세계 지출, 중남미부터 출시.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/5EgtG1",
+      "report": {
+        "tldr": "Deel이 글로벌 계약자가 달러 기반 통화로 급여를 받는 스테이블코인 지갑을 내놨다.",
+        "what": "Deel이 계약자가 안정적 통화로 수입을 보유하고 자동으로 리워드를 받으며 전 세계에서 지출할 수 있는 스테이블코인 지갑을 출시했다. 여러 앱·거래소 계정·환전 수수료를 관리할 필요 없이 달러 기반 통화로 급여를 받게 한다. Deel은 150개국 이상에서 수백만 노동자를 채용·관리·지급하는 4만+ 기업이 사용한다. 지갑은 중남미부터 출시되며 APAC·MENA·아프리카가 뒤따른다.",
+        "points": [
+          "달러 기반 통화로 급여 수령·보유·지출",
+          "환전 수수료·다중 계정 부담 제거",
+          "중남미 우선, APAC·MENA·아프리카 확대"
+        ],
+        "why": [
+          "글로벌 긱·원격 노동의 급여 인프라로서 스테이블코인"
+        ]
+      }
+    },
+    {
+      "id": "cr-mastercard-onchain",
+      "title": "마스터카드, 온체인 결제를 6개 스테이블코인·8개 네트워크로 확대",
+      "summary": "USDC·PYUSD 등 6종, 이더리움·솔라나 등 8개 체인, 24/7 결제 지원.",
       "source": "CoinDesk",
-      "url": "https://www.coindesk.com/markets/2026/06/03/mastercard-expands-on-chain-settlement-in-bet-on-stablecoins-and-always-on-finance",
-      "originalDate": "2026-06-03",
+      "url": "https://www.coindesk.com/markets/2026/06/03/mastercard-expands-on-chain-settlement-in-bet-on-stablecoins-and-always-on-finance?utm_source=tldrcrypto",
       "report": {
-        "tldr": "마스터카드가 온체인 결제를 6개 스테이블코인·8개 네트워크로 확장했다.",
-        "what": "마스터카드가 6개 스테이블코인을 8개 네트워크에서 지원하는 블록체인 결제 인프라를 확장했다. 전통 은행 영업시간 제약을 넘어 당일·휴일 거래가 가능해진다.",
+        "tldr": "마스터카드가 온체인 결제 프레임워크를 6개 스테이블코인·8개 네트워크로 확장했다.",
+        "what": "마스터카드가 기존 법정화폐 레일과 함께 일중·주말·공휴일·24/7 결제를 지원하도록 온체인 결제 프레임워크를 확장했다. USDC·PYUSD·USDG·USDP·RLUSD·SoFiUSD 6종을 이더리움·솔라나·폴리곤·베이스·아비트럼·XRP 레저와 보도상 Canton·Tempo에서 지원한다. 전통 은행 영업시간이 강제하는 결제 타이밍·유동성 제약을 겨냥해 스테이블코인 레일을 실용 인프라로 자리매김한다. 초기 도입사는 Cross River·Lead Bank·CBW Bank·ARQ·Nuvei다.",
         "points": [
           "6개 스테이블코인·8개 네트워크 지원",
-          "당일·휴일 결제 가능",
-          "상시 가동(Always-on) 금융 베팅"
+          "24/7·주말·공휴일 결제",
+          "Cross River 등 초기 도입"
         ],
         "why": [
-          "결제 대기업의 스테이블코인 정산 본격 채택"
+          "스테이블코인 결제의 제도권 인프라 편입 가속"
         ]
       }
     },
     {
-      "id": "deel-stablecoin-wallet",
-      "title": "딜(Deel), 글로벌 계약직용 스테이블코인 지갑 출시",
-      "summary": "150개국 이상 근로자가 환전 수수료 없이 안정 통화로 수령·적립·지출할 수 있는 지갑을 배포.",
-      "source": "Finextra",
-      "url": "https://www.finextra.com/pressarticle/110015/deel-launches-stablecoin-wallet-for-global-contractors",
-      "originalDate": "2026-06-04",
-      "report": {
-        "tldr": "딜이 글로벌 계약직을 위한 스테이블코인 지갑을 출시했다.",
-        "what": "계약직 결제 플랫폼 딜이 스테이블코인 지갑을 배포했다. 150개국 이상 근로자가 환전 수수료 없이 안정 통화로 급여를 받고 리워드를 적립하며 글로벌하게 지출할 수 있다.",
-        "points": [
-          "150개국+ 근로자 대상",
-          "환전 수수료 없는 안정 통화 수령",
-          "리워드 적립·글로벌 지출"
-        ],
-        "why": [
-          "스테이블코인의 실수요 결제 활용 확대"
-        ]
-      }
-    },
-    {
-      "id": "ethereum-post-quantum-bls",
-      "title": "이더리움, BLS를 포스트퀀텀 서명으로 교체 계획",
-      "summary": "검증자 서명을 BLS에서 양자내성 해시 기반(LeanSig)으로 전환해 미래 양자 위협에 대비.",
+      "id": "cr-ethereum-pq-signatures",
+      "title": "이더리움, BLS를 포스트양자 서명으로 교체 계획",
+      "summary": "양자 취약 BLS를 해시 기반 LeanSig로 대체, leanVM으로 집계.",
       "source": "HashCloak",
-      "url": "https://hashcloak.com/blog/how-ethereum-plans-to-replace-bls-with-post-quantum-signatures",
-      "originalDate": "2026-06-04",
+      "url": "https://hashcloak.com/blog/how-ethereum-plans-to-replace-bls-with-post-quantum-signatures?utm_source=tldrcrypto",
       "report": {
-        "tldr": "이더리움이 검증자 서명을 양자내성 방식으로 교체할 계획이다.",
-        "what": "이더리움 개발자들이 검증자 서명을 BLS에서 양자내성 해시 기반 암호로 전환하는 LeanSig 시스템을 추진한다. 미래의 양자컴퓨팅 위협으로부터 네트워크를 보호하기 위함이다.",
+        "tldr": "Lean Ethereum 팀이 양자에 취약한 BLS를 해시 기반 서명으로 교체하려 한다.",
+        "what": "Lean Ethereum 팀은 약 100만 검증자의 합의를 떠받치지만 양자 컴퓨터의 쇼어 알고리즘에 취약한 BLS 서명을 해시 기반 LeanSig로 교체하는 작업을 하고 있다. LeanSig는 XMSS·머클 트리에 기반해 타원곡선 페어링 대신 해시 함수만 쓰는 상태 보존형 다회 서명 구조를 제공해 설계상 양자 내성을 가진다. BLS처럼 대수적으로 합쳐지지 않는 서명의 집계는 Cairo에서 영감받고 Lean 증명 보조기로 정형 검증한 해시 기반 zkVM 'leanVM'이 처리한다.",
         "points": [
-          "BLS → 해시 기반 서명 전환",
-          "LeanSig 시스템 도입",
-          "양자 위협 대비"
+          "양자 취약 BLS를 LeanSig로 대체",
+          "XMSS·머클 기반 해시 서명",
+          "leanVM으로 서명 집계"
         ],
         "why": [
-          "주요 L1의 선제적 포스트퀀텀 마이그레이션 사례"
+          "블록체인 합의의 양자 내성 전환 연구"
         ]
       }
     },
     {
-      "id": "near-worldcoin-gains",
-      "title": "NEAR·월드코인, 7.14억 달러 청산 속 두 자릿수 상승",
-      "summary": "시장 변동성으로 7.14억 달러 청산이 발생했지만 실용성·수익 메커니즘을 갖춘 토큰으로 자금이 이동.",
+      "id": "cr-near-worldcoin",
+      "title": "NEAR·월드코인 두 자릿수 상승, 7.14억 달러 청산 속",
+      "summary": "비트코인 6.9만 달러로 4%+ 하락, 유틸리티 토큰으로 자본 회전.",
       "source": "Decrypt",
-      "url": "https://decrypt.co/369708/near-worldcoin-post-double-digit-gains-as-market-sees-714m-in-liquidations",
-      "originalDate": "2026-06-04",
+      "url": "https://decrypt.co/369708/near-worldcoin-post-double-digit-gains-as-market-sees-714m-in-liquidations?utm_source=tldrcrypto",
       "report": {
-        "tldr": "청산 폭증 속에서 NEAR·월드코인이 두 자릿수 상승했다.",
-        "what": "시장 변동성으로 7.14억 달러 규모의 청산이 발생했으나, 실용성과 수익 메커니즘을 갖춘 일부 토큰은 크게 올랐다. 유틸리티·수익을 입증한 프로젝트로 자본이 회전했다.",
+        "tldr": "시장 청산 속에서도 NEAR·월드코인 등 일부 토큰이 두 자릿수 상승했다.",
+        "what": "비트코인이 24시간 4%+ 하락해 6만9,034달러로 밀렸고 시장 전반에서 7억1,400만 달러 레버리지 포지션이 청산됐으며 6월 1일에도 별도 6.5억+ 달러 청산이 있었다. NEAR는 프라이버시·AI 관련 개발로 15%, 월드코인은 고래 매집·파생 미결제약정 증가·라이브 음악 티켓팅용 World ID 채택으로 약 20% 급등했다. Hyperliquid는 바이백 번 토크노믹스·기관 유입, Injective는 AI 내러티브 자본을 흡수했다. 애널리스트는 실효 유틸리티·수익 메커니즘·기술 차별화가 있는 토큰으로 자본이 회전하는 후기 사이클 선별성으로 해석했다.",
         "points": [
-          "7.14억 달러 청산 발생",
-          "유틸리티 토큰으로 자금 회전",
-          "NEAR·월드코인 두 자릿수 상승"
+          "BTC 6.9만 달러로 4%+ 하락, 7.14억 청산",
+          "NEAR +15%·월드코인 +20%",
+          "유틸리티 토큰으로 자본 회전"
         ],
         "why": [
-          "변동성 국면에서 펀더멘털 기반 토큰 선호 강화"
+          "하락장 속 차별적 자본 회전(후기 사이클 선별성)"
         ]
       }
     },
     {
-      "id": "spacecoin-100m-depin",
-      "title": "스페이스코인, 1억 달러 규모 DePIN 위성 배치 계약 체결",
-      "summary": "탈중앙 인터넷 연결 프로젝트가 베트남 전역에 위성 인프라를 배치하는 계약을 확보했다.",
-      "source": "Thread Reader",
-      "url": "https://threadreaderapp.com/thread/2062494842446569815.html",
-      "originalDate": "2026-06-04",
+      "id": "cr-binance-bstocks",
+      "title": "바이낸스 bStocks, 핵심은 기초자산 '소유권' 여부",
+      "summary": "BNB 체인 자체 발행 토큰화 주식, 의결권·소유권 불확실.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2062490054761894342.html?utm_source=tldrcrypto",
       "report": {
-        "tldr": "스페이스코인이 1억 달러 DePIN 위성 배치 계약을 맺었다.",
-        "what": "탈중앙 인터넷 연결 프로젝트 스페이스코인이 베트남 전역에 위성 인프라를 배치하는 계약을 확보했다. 동남아 DePIN 광대역 접근을 확대한다.",
+        "tldr": "바이낸스의 진짜 관전 포인트는 7천 종목이 아니라 자체 토큰화 주식 bStocks의 소유 구조다.",
+        "what": "바이낸스가 비미국 사용자에게 7,000+ 미국 주식을 제공한다는 헤드라인은, 기반 브로커리지가 어떤 핀테크든 복제 가능한 화이트라벨 Nest·Alpaca 구성이라 사실상 주의를 분산시킨다. 정작 주목할 것은 BNB 체인에서 거의 즉시 정산되고 DeFi 담보로 쓰일 수 있는 바이낸스 자체 발행 토큰화 주식 bStocks다. 핵심 쟁점은 보유자가 기초 주식을 소유하는지 아니면 가격 노출만 갖는지다. 2월 Ondo 통한 토큰화 주식에는 의결권이 없었고, bStocks는 규제 승인 대기 중인 ADGM을 통해 역외 발행될 예정이다.",
         "points": [
-          "1억 달러 위성 배치 계약",
-          "베트남 전역 인프라",
-          "동남아 DePIN 광대역 확대"
+          "bStocks: BNB 체인 자체 발행 토큰화 주식",
+          "DeFi 담보 활용 가능성",
+          "소유권·의결권 불확실, 규제 승인 대기"
         ],
         "why": [
-          "DePIN의 실물 인프라 확장 사례"
+          "토큰화 주식의 권리·규제 구조가 진짜 쟁점"
+        ]
+      }
+    },
+    {
+      "id": "cr-arthur-hayes-exit",
+      "title": "아서 헤이스, HYPE·NEAR 포지션 전량 청산",
+      "summary": "공개 베팅 며칠 만에 1,800만 달러 HYPE를 마켓메이커에 이전.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/6m2Hkg",
+      "report": {
+        "tldr": "아서 헤이스가 HYPE·NEAR 보유분을 전량 청산했다.",
+        "what": "아서 헤이스가 HYPE·NEAR 보유분을 전량 청산했으며, 약 1,800만 달러 상당 HYPE를 마켓메이커 Flowdesk로 이전했다. 연말까지 HYPE가 상위 10개 자산을 모두 능가한다는 데 10만 달러를 공개적으로 건 지 며칠 만이다.",
+        "points": [
+          "HYPE·NEAR 전량 청산",
+          "약 1,800만 달러 HYPE를 마켓메이커로 이전",
+          "공개 베팅 며칠 만의 반전"
+        ],
+        "why": [
+          "유명 트레이더의 행보와 시장 내러티브의 괴리"
+        ]
+      }
+    },
+    {
+      "id": "cr-spacecoin-depin",
+      "title": "스페이스코인, 1억 달러 규모 DePIN 위성 배치 계약",
+      "summary": "베트남 DETI Technology와 탈중앙 위성통신·라우팅·엣지 AI 배치 MoU.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2062494842446569815.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "위성 기반 DePIN 프로젝트 스페이스코인이 베트남 전역 배치 계약을 체결했다.",
+        "what": "탈중앙 인터넷 연결을 구축하는 위성 기반 DePIN 프로젝트 스페이스코인이 베트남 기술기업 DETI Technology와 독점 MoU를 체결했다. 베트남 전역에 탈중앙 위성통신, 소버린 라우팅, 블록체인, 엣지 AI 인프라를 배치한다.",
+        "points": [
+          "베트남 DETI와 독점 MoU",
+          "탈중앙 위성통신·소버린 라우팅",
+          "블록체인·엣지 AI 인프라 배치"
+        ],
+        "why": [
+          "DePIN과 위성 인프라가 결합하는 신흥 영역"
         ]
       }
     }

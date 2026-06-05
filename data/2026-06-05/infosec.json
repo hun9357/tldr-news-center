@@ -6,177 +6,293 @@
   "bg": "#3a1f1f",
   "items": [
     {
-      "id": "dentaquest-breach-26m",
-      "title": "덴타퀘스트 데이터 유출, 260만 계정 정보 노출",
-      "summary": "ShinyHunters가 234GB를 유출, SSN·건강보험 정보·개인식별자가 포함됐으며 약 2/3는 기존 유출과 중복.",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
-      "originalDate": "2026-06-04",
-      "intel": {
-        "impact": "High",
-        "confidence": "85%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "헬스케어·PII"
-      },
-      "related": [
-        "ShinyHunters 연쇄 갈취 캠페인",
-        "헬스케어 PII 유출 대응 수칙",
-        "SSN 노출 피해 모니터링"
-      ],
+      "id": "is-disruption-week",
+      "title": "사이버범죄 단속 '디스럽션 위크', 140만+ 계정 차단",
+      "summary": "캄보디아·라오스·미얀마 사기 단지 연계 계정·스타링크 키트 차단, 63명 체포·380만 달러 동결.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/SVpmQ6",
       "report": {
-        "tldr": "치과 복지 제공사 덴타퀘스트에서 260만 계정 정보가 유출됐다.",
-        "what": "ShinyHunters 랜섬웨어 조직이 치과 복지 제공사 덴타퀘스트의 데이터 234GB를 유출했다. SSN, 건강보험 정보, 개인식별자가 포함됐다. 260만 건 중 약 2/3는 이전에 알려진 유출과 중복된 것으로 파악됐다.",
+        "tldr": "법집행기관과 주요 테크기업이 합동 '디스럽션 위크'로 140만 개 이상 사기 계정을 차단했다.",
+        "what": "법집행기관과 주요 테크기업이 '디스럽션 위크'를 통해 캄보디아·라오스·미얀마의 사기 단지와 연계된 사기 계정·페이지·마이크로소프트 계정·스타링크 키트 140만 개 이상을 차단했다. 해당 시설로 인신매매돼 강제로 크립토 투자 사기 등에 동원된 정황이 드러났고, 63명이 체포됐으며 380만 달러 이상의 가상자산이 동결됐다.",
         "points": [
-          "234GB 데이터 유출, SSN·건강보험 정보 포함",
-          "260만 계정 영향",
-          "약 2/3는 기존 유출과 중복"
+          "140만+ 사기 계정·페이지·키트 차단",
+          "63명 체포, 380만 달러+ 동결",
+          "동남아 사기 단지 인신매매 적발"
         ],
         "why": [
-          "헬스케어 PII는 갈취·사기의 고가치 표적",
-          "연쇄 유출로 중복 노출 피해 누적"
+          "민관 합동 대응으로 초국가 사기 인프라를 타격한 사례"
         ],
-        "action": "영향 사용자 통지·크레딧 모니터링, SSN 기반 인증 폐기 검토"
+        "action": "조직 내 크립토 투자 사기·피싱 경계 강화"
       }
     },
     {
-      "id": "cybercrime-crackdown-14m",
-      "title": "사이버범죄 단속으로 140만 계정 무력화",
-      "summary": "법집행기관과 테크 기업이 동남아 사기 조직을 분쇄, 140만 개 부정 계정 제거·강제노동 인신매매망 와해.",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/over-1-4-million-accounts-disrupted-in-cybercrime-crackdown/",
-      "originalDate": "2026-06-04",
+      "id": "is-ultrahuman-breach",
+      "title": "울트라휴먼 데이터 유출, 내부 분석 도구 통해 사용자 정보 노출",
+      "summary": "연락처·계정·주문·거래 내역 유출, 금융·웰니스 데이터는 미포함 주장.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/U2QsFH",
       "report": {
-        "tldr": "법집행·테크 기업 공조로 동남아 사기 조직 140만 계정이 무력화됐다.",
-        "what": "법집행기관과 테크 기업이 동남아시아 사기 조직을 폐쇄해 140만 개 이상의 부정 계정을 제거했다. 암호화폐 사기에 동원된 강제노동·인신매매 네트워크도 함께 와해됐다.",
+        "tldr": "헬스테크 웨어러블 업체 울트라휴먼이 내부 분석 시스템 침해로 인한 데이터 유출을 통지했다.",
+        "what": "헬스테크 웨어러블 기업 울트라휴먼이 고객에게 데이터 유출을 알렸다. 공격자가 내부 분석 시스템을 침해했으며, 유출 데이터에는 연락처·계정 정보, 주문 내역, 거래 내역이 포함된다. 다만 금융 정보나 웰니스 데이터는 포함되지 않았다고 회사는 밝혔다.",
         "points": [
-          "140만 부정 계정 제거",
-          "동남아 사기 조직 분쇄",
-          "강제노동 인신매매망 와해"
+          "내부 분석 시스템 침해",
+          "연락처·주문·거래 내역 유출",
+          "금융·웰니스 데이터 미포함 주장"
         ],
         "why": [
-          "민관 공조 기반 대규모 사기 인프라 단속의 성공 사례"
+          "웨어러블·헬스테크의 부가 시스템도 공격면이 됨"
         ]
       }
     },
     {
-      "id": "redis-cve-2026-23479",
-      "title": "AI 보안 도구, 2년 묵은 Redis 취약점(CVE-2026-23479) 발굴",
-      "summary": "AI 보조 취약점 연구가 인증된 공격자의 원격 코드 실행을 허용하는 Redis use-after-free 결함을 식별.",
-      "source": "Cyber Kendra",
-      "url": "https://www.cyberkendra.com/2026/06/an-ai-security-tool-dug-up-2-year-old.html",
-      "originalDate": "2026-06-04",
+      "id": "is-dentaquest-breach",
+      "title": "덴타퀘스트 유출, 260만 계정 정보 노출",
+      "summary": "ShinyHunters가 234GB 탈취·유출, 신분증·건강보험 정보 등 포함.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/SFLldM",
       "report": {
-        "tldr": "AI 보안 도구가 RCE를 허용하는 2년 묵은 Redis 취약점을 찾아냈다.",
-        "what": "AI 보조 취약점 연구를 통해 CVE-2026-23479로 명명된 Redis의 use-after-free 결함이 발견됐다. 인증된 공격자가 이를 악용하면 원격 코드 실행이 가능하다.",
+        "tldr": "랜섬웨어 조직 ShinyHunters가 치과보험사 덴타퀘스트에서 234GB를 탈취해 유출했다.",
+        "what": "ShinyHunters 랜섬웨어 조직이 치과 보험 제공사 덴타퀘스트에서 234GB 데이터를 탈취한 뒤 몸값 지불 거부로 유출했다고 주장했다. 유출 데이터에는 이메일·전체 성명·전화번호·정부발급 신분증·건강보험 정보·생년월일·성별이 포함된다. Have I Been Pwned가 침해를 확인했고 260만 건이라 밝혔으나, 약 66%는 이미 데이터베이스에 존재하던 계정이었다.",
         "points": [
-          "Redis use-after-free 결함",
-          "인증 공격자의 RCE 가능",
-          "AI 보조 연구로 발굴"
+          "234GB 탈취·유출, 260만 건 규모",
+          "신분증·건강보험·생년월일 등 민감정보",
+          "약 66%는 기존에 노출된 계정"
         ],
         "why": [
-          "AI가 장기 잠복 취약점 발굴에 실질 기여하는 흐름"
+          "의료 보험 데이터 유출의 장기적 신원도용 위험"
+        ],
+        "action": "해당 보험 가입자는 신용 동결·모니터링 검토"
+      }
+    },
+    {
+      "id": "is-system-over-model-freebsd",
+      "title": "오픈웨이트 모델로 17년 된 FreeBSD RCE 재현 검증",
+      "summary": "Gemma·GPT-OSS로 FreeBSD sys/rpc 전체 스캔, 도달성 단계 추가로 오탐 제거.",
+      "source": "clearbluejar",
+      "url": "https://clearbluejar.github.io/posts/system-over-model-tested-mythos-freebsd-local-openweight/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "앤트로픽 Mythos가 짚은 FreeBSD 취약점을 로컬 오픈웨이트 모델로 저비용 재현했다.",
+        "what": "앤트로픽 Mythos 프리뷰가 17년 된 FreeBSD RCE를 부각했고, AISLE가 구조화된 나노-분석기 파이프라인으로 저렴하게 재현한 뒤 Gemma·GPT-OSS 등 로컬 오픈웨이트 모델로 FreeBSD sys/rpc 서브시스템 전체에 적용했다. 두 모델 모두 취약 파일 단독에서는 스택 오버플로를 찾지만, 광범위 스캔에서는 오탐·불일치 트리아지로 묻힌다. 공격자 제어 경로 기반 도달성(reachability) 단계를 추가하면 실제 CVE를 보존하면서 노이즈를 한 명이 검토 가능한 짧은 목록으로 줄인다.",
+        "points": [
+          "오픈웨이트 모델로 17년 된 RCE 재현",
+          "광범위 스캔 시 오탐 폭증 문제",
+          "도달성 필터로 실제 취약점만 선별"
+        ],
+        "why": [
+          "'모델보다 시스템(파이프라인)'이 취약점 탐지 성능의 핵심"
         ]
       }
     },
     {
-      "id": "zapocalypse-zapier",
-      "title": "Zapocalypse: 재피어를 탈취할 뻔한 공격 체인",
-      "summary": "파이썬 샌드박스 탈출·AWS 토큰 추출·NPM 계정 탈취로 이어지는 치명적 취약점 체인을 발견.",
-      "source": "Token Security",
-      "url": "https://www.token.security/blog/zapocalypse-the-attack-chain-that-could-have-hijacked-zapier",
-      "originalDate": "2026-06-04",
-      "report": {
-        "tldr": "재피어에서 샌드박스 탈출로 시작되는 치명적 공격 체인이 발견됐다.",
-        "what": "보안 연구진이 재피어에서 파이썬 샌드박스 탈출, AWS 토큰 추출, NPM 계정 탈취로 이어지는 치명적 취약점 체인을 발견했다. 방어자는 IAM 권한 검증, 신뢰되지 않은 코드 격리, 적절한 시크릿 관리를 적용해야 한다.",
-        "points": [
-          "파이썬 샌드박스 탈출 → AWS 토큰 추출 → NPM 탈취",
-          "IAM 권한 검증 권고",
-          "신뢰되지 않은 코드 격리·시크릿 관리"
-        ],
-        "why": [
-          "자동화 SaaS의 코드 실행 격리가 공급망 보안의 약점"
-        ]
-      }
-    },
-    {
-      "id": "llmshare-malvertising",
-      "title": "LLMShare: 공유된 챗봇 페이지를 악성코드 배포 플랫폼으로 악용",
-      "summary": "공유된 ChatGPT 대화로 가짜 서비스 장애 페이지를 만들어 인포스틸러 다운로드를 유도하는 캠페인.",
+      "id": "is-llmshare-malvertising",
+      "title": "LLMShare: AI 챗봇 페이지를 악성코드 배포 플랫폼으로 악용",
+      "summary": "ChatGPT 렌더링 기능으로 가짜 서비스 장애 페이지 제시 후 인포스틸러 설치 유도.",
       "source": "Push Security",
-      "url": "https://pushsecurity.com/blog/llmshare-malvertising-campaign/",
-      "originalDate": "2026-06-04",
+      "url": "https://pushsecurity.com/blog/llmshare-malvertising-campaign/?utm_source=tldrinfosec",
       "report": {
-        "tldr": "공유된 ChatGPT 대화를 악용해 인포스틸러를 배포하는 캠페인이 포착됐다.",
-        "what": "공격자가 공유된 ChatGPT 대화를 악용해 그럴듯한 가짜 서비스 장애 페이지를 만들고, 사용자를 인포스틸러 악성코드 다운로드로 유도한다. ChatGPT의 렌더링 기능을 악용해 정당해 보이게 위장한다.",
+        "tldr": "공격자가 ChatGPT 공유 페이지 렌더링을 악용해 멀버타이징으로 악성코드를 배포한다.",
+        "what": "Push Security가 공유 ChatGPT 대화를 이용해 애플 지원을 사칭하던 기존 캠페인을 발전시킨 새 멀버타이징 캠페인을 탐지했다. 새 캠페인은 ChatGPT 렌더링 기능을 이용해 서비스 장애를 주장하는 페이지를 보여주고 데스크톱 앱 다운로드 버튼 클릭을 유도한다. 이후 데스크톱 앱 다운로드 페이지를 모방한 피싱 페이지로 리다이렉트해 인포스틸러를 설치하게 만든다.",
         "points": [
-          "공유 챗봇 페이지를 멀버타이징에 악용",
-          "가짜 서비스 장애 페이지로 위장",
-          "인포스틸러 다운로드 유도"
+          "ChatGPT 공유·렌더링 기능 악용",
+          "가짜 서비스 장애 페이지로 유인",
+          "피싱 리다이렉트 후 인포스틸러 설치"
         ],
         "why": [
-          "신뢰받는 AI 도메인을 미끼로 쓰는 새로운 공격 표면"
+          "신뢰받는 AI 플랫폼 도메인이 악성 배포 통로로 전용됨"
+        ],
+        "action": "공유 챗봇 링크의 다운로드 유도 경계"
+      }
+    },
+    {
+      "id": "is-zapocalypse-zapier",
+      "title": "Zapocalypse: Zapier를 탈취할 수 있었던 공격 체인",
+      "summary": "파이썬 샌드박스에서 os.system 실행→STS 토큰 회수→1,111개 비공개 레포 접근.",
+      "source": "Token Security",
+      "url": "https://www.token.security/blog/zapocalypse-the-attack-chain-that-could-have-hijacked-zapier?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "토큰 시큐리티가 Zapier를 탈취할 수 있었던 다단계 공격 체인을 공개했다.",
+        "what": "Zapier의 파이썬 샌드박스에서 os.system이 자유롭게 실행됐고, 정규식 스크래핑으로 Lambda 힙에서 고아 STS 토큰을 회수했다. 이 토큰은 ECR 등 권한을 가진 allow_nothing_role 소속으로 1,111개 비공개 레포에 접근 가능했다. GetAuthorizationToken 거부로 인해 이미지는 원시 ECR API 호출로 풀어 Docker 모니터링을 우회했고, 빌드 타임 ARG/ENV로 고권한 NPM publish 토큰이 유출돼 계정 탈취가 가능했다. 방어자는 IAM 권한 검증, 신뢰 불가 코드 격리, BuildKit 시크릿, CI NPM 토큰 범위·회전, npm ci 의존성 고정, 비공개 ECR·NPM 이그레스 모니터링을 해야 한다.",
+        "points": [
+          "샌드박스 os.system 실행 + STS 토큰 회수",
+          "1,111개 비공개 레포·NPM publish 토큰 노출",
+          "방어책: IAM 검증·시크릿 격리·토큰 회전"
+        ],
+        "why": [
+          "SaaS 자동화 플랫폼의 샌드박스·토큰 위생이 공급망 보안의 핵심"
+        ],
+        "action": "CI/CD 토큰 범위 축소·회전, 샌드박스 격리 점검"
+      }
+    },
+    {
+      "id": "is-willow-launch",
+      "title": "엔터프라이즈 AI 에이전트용 ID·접근 레이어 'Willow'",
+      "summary": "Claude·Gemini·ChatGPT 접근 중앙화, 최소권한 집행·미승인 AI 사용 탐지.",
+      "source": "Willow",
+      "url": "https://withwillow.ai/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Willow가 기업 AI 에이전트·시스템을 위한 ID·접근 레이어를 제공한다.",
+        "what": "Willow는 엔터프라이즈 AI 에이전트와 시스템을 위한 ID·접근 레이어를 제공한다. Claude·Gemini·ChatGPT·커스텀 모델 접근을 중앙화하고, 최소 권한 정책을 집행하며, 사내 네트워크 전반의 미승인 AI 사용을 발견·감사한다.",
+        "points": [
+          "AI 에이전트 접근 중앙 관리",
+          "최소 권한 정책 집행",
+          "섀도 AI 발견·감사"
+        ],
+        "why": [
+          "에이전트 확산에 따른 ID·거버넌스 공백을 메우는 제품군"
         ]
       }
     },
     {
-      "id": "gemini-voice-hijack",
-      "title": "메시징 알림으로 제미나이 음성 어시스턴트 탈취",
-      "summary": "메시징 앱 알림에 숨긴 무음 명령을 주입해 사용자 인지 없이 기기를 제어할 수 있는 것으로 확인.",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/gemini-voice-assistant-hijacked-via-messaging-notifications/",
-      "originalDate": "2026-06-04",
+      "id": "is-docksec",
+      "title": "AI 기반 Docker 보안 분석 'DockSec'",
+      "summary": "OWASP 인큐베이터 프로젝트, 컨텍스트 인지형 보안 분석 제공.",
+      "source": "GitHub",
+      "url": "https://github.com/OWASP/DockSec?utm_source=tldrinfosec",
       "report": {
-        "tldr": "메시징 알림에 숨긴 명령으로 제미나이를 무음 탈취할 수 있다.",
-        "what": "연구진은 메시징 앱 알림을 통해 제미나이에 숨겨진 무음 명령을 주입할 수 있음을 발견했다. 가청 신호 없이 기기를 제어할 수 있어 사용자가 인지하기 어렵다.",
+        "tldr": "DockSec은 AI로 Docker 컨테이너의 컨텍스트 인지형 보안 분석을 제공하는 OWASP 프로젝트다.",
+        "what": "DockSec은 OWASP 인큐베이터 프로젝트로, 업계 표준 스캐너와 함께 AI를 활용해 컨텍스트 인지형 보안 분석을 제공하는 Docker 컨테이너를 제공한다.",
         "points": [
-          "알림 기반 무음 명령 주입",
-          "가청 신호 없이 기기 제어",
-          "음성 어시스턴트 탈취 가능"
+          "OWASP 인큐베이터 프로젝트",
+          "AI + 표준 스캐너 결합",
+          "컨텍스트 인지형 컨테이너 분석"
         ],
         "why": [
-          "음성 AI의 프롬프트 인젝션 공격 표면 확대"
+          "컨테이너 보안에 AI 분석을 접목하는 오픈소스 흐름"
         ]
       }
     },
     {
-      "id": "hola-browser-cryptominer",
-      "title": "윈도우용 홀라 브라우저, 크립토마이너 배포 위해 변조",
-      "summary": "홀라 브라우저 윈도우 빌드가 변조돼 윈도우 서비스로 위장한 모네로 채굴기를 설치한 것으로 확인.",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
-      "originalDate": "2026-06-04",
+      "id": "is-kqlab",
+      "title": "SOC 팀용 셀프호스트 KQL 관리 플랫폼 'KQLab'",
+      "summary": "KQL 쿼리 관리를 자체 호스팅으로 운영.",
+      "source": "GitHub",
+      "url": "https://github.com/vinsk0h/KQLab?utm_source=tldrinfosec",
       "report": {
-        "tldr": "홀라 브라우저 윈도우 빌드가 변조돼 숨겨진 모네로 채굴기를 설치했다.",
-        "what": "홀라 브라우저의 윈도우 빌드가 변조돼 미고지된 모네로 암호화폐 채굴기를 설치한 것으로 드러났다. 채굴기는 윈도우 서비스로 위장해 자신을 숨긴다.",
+        "tldr": "KQLab은 SOC 팀을 위한 셀프호스트 KQL 쿼리 관리 플랫폼이다.",
+        "what": "KQLab은 SOC(보안관제) 팀을 위한 셀프호스트형 KQL 쿼리 관리 플랫폼이다.",
         "points": [
-          "윈도우 빌드 변조",
-          "모네로 채굴기 은닉 설치",
-          "윈도우 서비스로 위장"
+          "셀프호스트 KQL 쿼리 관리",
+          "SOC 팀 운영 효율화",
+          "쿼리 자산 중앙 관리"
         ],
         "why": [
-          "정상 소프트웨어 배포 채널의 공급망 변조 위험"
+          "탐지 쿼리의 버전·재사용 관리를 돕는 실무 도구"
         ]
       }
     },
     {
-      "id": "ultrahuman-breach",
-      "title": "울트라휴먼 데이터 유출, 내부 도구 통해 사용자 정보 노출",
-      "summary": "웨어러블 헬스테크 울트라휴먼의 내부 분석 시스템이 침해돼 연락처·계정·거래 내역이 노출됐다.",
-      "source": "Cybernews",
-      "url": "https://cybernews.com/security/ultrahuman-data-breach-exposes-users/",
-      "originalDate": "2026-06-04",
+      "id": "is-columbia-ssn",
+      "title": "컬럼비아대 유출에 무관한 사람들의 SSN까지 노출",
+      "summary": "수십 년 된 모집·시험 데이터가 레거시 DB에 남아 180만 SSN 노출.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/06/my-ssn-was-exposed-in-a-breach-at-columbia-a-school-i-have-no-connection-with/?utm_source=tldrinfosec",
       "report": {
-        "tldr": "울트라휴먼의 내부 분석 시스템 침해로 사용자 정보가 노출됐다.",
-        "what": "웨어러블 헬스테크 기업 울트라휴먼의 내부 분석 시스템이 침해됐다. 연락처·계정 정보·거래 내역이 노출됐으나 금융·웰니스 데이터는 유출되지 않았다.",
+        "tldr": "컬럼비아대 2025년 유출이 학교와 무관한 사람들의 SSN까지 노출시켰다.",
+        "what": "컬럼비아대의 2025년 유출은 입학·재학 경험이 없는 사람들을 포함해 180만 건의 SSN을 노출했다. 수십 년 전 모집·시험 데이터가 레거시 데이터베이스에 남아 있었기 때문이다. 컬럼비아는 SSN 삭제 작업에서 이 DB를 놓쳤고, 피해자의 기본 질의에 답하는 데 수개월이 걸렸으며, 현재 집단소송 제기와 장기 SSN 보관에 대한 규제 조사에 직면해 있다.",
         "points": [
-          "내부 분석 도구 침해",
-          "연락처·계정·거래 내역 노출",
-          "금융·웰니스 데이터는 안전"
+          "무관한 사람들 포함 180만 SSN 노출",
+          "레거시 DB의 수십 년 된 데이터가 원인",
+          "집단소송·규제 조사 직면"
         ],
         "why": [
-          "내부 도구가 헬스테크 유출의 취약 고리로 부상"
+          "불필요한 데이터 장기 보관이 유출 피해를 키우는 전형"
         ]
+      }
+    },
+    {
+      "id": "is-openweight-bug-finding",
+      "title": "하네스·포스트트레이닝이 오픈웨이트 버그 탐지 격차를 메우는 법",
+      "summary": "crackaddr 4개 변종 탐지 실험, Claude Code·IronCurtain 하네스별 성능 차이.",
+      "source": "vincenzoiozzo.com",
+      "url": "https://vincenzoiozzo.com/blog/oss-models-vuln-research?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "오픈웨이트 모델의 취약점 탐지 능력이 하네스와 포스트트레이닝에 크게 좌우됨을 실험했다.",
+        "what": "저자는 여러 오픈웨이트 모델과 Opus 4.7의 crackaddr 취약점 4개 변종 탐지 능력을 시험했다. Claude Code 하네스에서는 Opus 4.7과 GLM-5.1만 모든 변종을 일관되게 찾았다. 그러나 보안 테스트 전용 IronCurtain 하네스에서는 다른 모델들이 더 나았다. GLM-5.1이 GLM-5보다 크게 앞선 것은 포스트트레이닝의 중요성을 보여준다.",
+        "points": [
+          "하네스에 따라 모델 탐지 성능 크게 달라짐",
+          "Claude Code에선 Opus 4.7·GLM-5.1 우수",
+          "GLM-5.1>GLM-5로 포스트트레이닝 효과 입증"
+        ],
+        "why": [
+          "AI 취약점 연구에서 모델 자체보다 하네스·튜닝이 결정적"
+        ]
+      }
+    },
+    {
+      "id": "is-privacy-security-stack",
+      "title": "한 프라이버시 기자의 실제 보안 스택 공개",
+      "summary": "'느낌 우선' 규칙, 물리 보안키 3개, 1Password·Bitwarden, Mullvad VPN 등.",
+      "source": "yaelwrites",
+      "url": "https://blog.yaelwrites.com/what-my-privacy-and-security-stack-actually-looks-like/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "프라이버시 기자가 권장이 아닌 본인이 실제 쓰는 보안 습관·도구를 정리했다.",
+        "what": "프라이버시 중심 기자가 압박·긴급함을 위험 신호로 보고 별도 채널로 검증하는 '느낌 우선' 규칙을 축으로 자신의 실제 운영 습관을 공개했다. 기술 스택은 패스키보다 물리 보안키(YubiKey 3개+백업), 비밀번호 관리자 2종(1Password·Bitwarden), TOTP용 Authy와 SMS보다 이메일 MFA, 전체 디스크 암호화, Mullvad VPN, Privacy Badger+uBlock Origin, Google 고급 보호, 애플 락다운 모드, SIM 스왑 대비 Google Fi, iCloud Hide My Email을 선호한다. 생체인식·AI 브라우저는 자신의 위협 모델에서 배제하고, 신용 동결, 사라지는 메시지 Signal, HaveIBeenPwned 모니터링을 활용한다.",
+        "points": [
+          "'느낌 우선' 규칙으로 사회공학 방어",
+          "물리 보안키·이중 비번 관리자 사용",
+          "위협 모델에 맞춰 생체인식·AI 브라우저 배제"
+        ],
+        "why": [
+          "개인 위협 모델 기반의 현실적 보안 구성 참고서"
+        ]
+      }
+    },
+    {
+      "id": "is-gemini-voice-hijack",
+      "title": "메시징 알림으로 제미나이 음성비서 탈취",
+      "summary": "WhatsApp·Slack·SMS 알림에 숨은 명령 주입, 구글 홈 제어·메모리 오염.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/dZjIda",
+      "report": {
+        "tldr": "SafeBreach가 메시징 알림으로 제미나이에 숨은 명령을 주입하는 공격을 공개했다.",
+        "what": "SafeBreach의 'Fake Context Alignment' 공격은 WhatsApp·Slack·SMS 알림을 악용해 제미나이가 처리하지만 소리 내 읽지 않는 숨은 명령을 조용히 주입한다. 이를 통해 구글 홈 기기 제어, Zoom 통화 실행, 신뢰 연락처 사칭, 비서 장기 메모리 오염이 가능했으며, 구글은 2025년 11월 중순 분류기 개선으로 패치했다.",
+        "points": [
+          "알림을 통한 은밀한 프롬프트 주입",
+          "구글 홈 제어·통화 실행·메모리 오염",
+          "2025년 11월 패치 완료"
+        ],
+        "why": [
+          "LLM 비서의 외부 입력 신뢰 경계가 새로운 공격면"
+        ]
+      }
+    },
+    {
+      "id": "is-hola-cryptominer",
+      "title": "Hola 브라우저 윈도우판, 크립토마이너 공급망 침해",
+      "summary": "미서명 모네로 마이너 me.exe가 디펜더 예외 추가 후 서비스로 자동 실행.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/BLOIIX",
+      "report": {
+        "tldr": "Hola 브라우저 윈도우 빌드가 공급망 침해로 몰래 모네로 마이너를 심었다.",
+        "what": "Hola 브라우저 윈도우 빌드의 공급망 침해로 미신고·미서명 모네로 마이너(me.exe)가 심어졌다. 이 마이너는 윈도우 디펜더 예외를 추가하고 Program Files에 HolaMonitorService.exe로 자신을 복사한 뒤, 기기가 유휴 상태일 때 hola_monitor_svc라는 자동 시작 서비스로 실행된다.",
+        "points": [
+          "미서명 모네로 마이너 은닉 설치",
+          "디펜더 예외 추가로 탐지 회피",
+          "유휴 시 자동 시작 서비스로 채굴"
+        ],
+        "why": [
+          "인기 브라우저 빌드의 공급망 침해 위험"
+        ]
+      }
+    },
+    {
+      "id": "is-redis-uaf",
+      "title": "AI 보안 도구가 찾은 2년 된 Redis 버그, 서버 탈취 가능",
+      "summary": "CVE-2026-23479 use-after-free, 7.2.0 이후 모든 안정판 영향, 코드 실행 가능.",
+      "source": "Cyber Kendra",
+      "url": "https://www.cyberkendra.com/2026/06/an-ai-security-tool-dug-up-2-year-old.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 보안 도구가 7.2.0부터 존재한 Redis use-after-free 취약점을 발굴했다.",
+        "what": "CVE-2026-23479는 unblockClientOnKey()의 use-after-free로, 7.2.0 이후 모든 Redis 안정판에 존재하며 7.7(High) 등급이다. 인증된 공격자가 Lua 힙 누수, 강제 eviction, strcasecmp()의 GOT를 system()으로 덮어쓰기를 연쇄해 Redis 데몬 권한으로 완전한 코드 실행을 얻을 수 있다. 자체 관리 배포는 7.2.14, 7.4.9, 8.2.6, 8.4.3, 8.6.3로 업그레이드하거나 CONFIG·@scripting·stream 명령을 제한해야 한다.",
+        "points": [
+          "CVE-2026-23479, 7.2.0+ 모든 안정판 영향",
+          "Lua 힙 누수→GOT 덮어쓰기로 RCE",
+          "권장 패치 버전으로 즉시 업그레이드"
+        ],
+        "why": [
+          "AI 보안 도구가 장기 잠복 취약점을 발굴하는 사례"
+        ],
+        "action": "자체 관리 Redis 즉시 패치 또는 명령 제한"
       }
     }
   ]

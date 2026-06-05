@@ -1,147 +1,273 @@
 {
-  "name": "창업가",
+  "name": "창업",
   "source": "TLDR Founders",
   "icon": "🚀",
-  "color": "#ffb27a",
-  "bg": "#33240f",
+  "color": "#ffb86c",
+  "bg": "#332615",
   "items": [
     {
-      "id": "asana-agentic-work-management",
-      "title": "아사나, 에이전틱 업무관리 플랫폼 출시",
-      "summary": "조직 기억과 역할 명료성 인프라로 엔터프라이즈 AI 에이전트 실패를 해결, Dash·AI Teammates 포함.",
-      "source": "The Letter Two",
-      "url": "https://thelettertwo.com/2026/06/04/asana-agentic-work-management-platform/",
-      "originalDate": "2026-06-04",
-      "report": {
-        "tldr": "아사나가 조직 기억 기반의 에이전틱 업무관리 플랫폼을 출시했다.",
-        "what": "아사나가 엔터프라이즈 AI 에이전트 실패를 조직 기억과 역할 명료성 인프라로 해결하는 플랫폼을 공개했다. 비서실장 역할의 Dash 에이전트, AI Teammates, IT·전문서비스용 수직 애플리케이션을 포함한다.",
-        "points": [
-          "조직 기억·역할 명료성 인프라 제공",
-          "Dash 비서실장 에이전트·AI Teammates",
-          "IT·전문서비스 수직 앱"
-        ],
-        "why": [
-          "에이전트 실패의 원인을 '맥락 부재'로 보고 인프라로 접근"
-        ]
-      }
-    },
-    {
-      "id": "creator-to-expert-economy",
-      "title": "\"크리에이터 경제는 끝났다…전문가 경제가 대체한다\"",
-      "summary": "AI가 상단 퍼널 콘텐츠를 상품화하면서 도달보다 입증된 전문성·진정성 있는 경험에 가치가 쏠린다는 분석.",
-      "source": "Strategy Breakdowns",
-      "url": "https://strategybreakdowns.com/p/kajabi",
-      "originalDate": "2026-06-04",
-      "report": {
-        "tldr": "AI 시대에는 도달 규모보다 입증된 전문성이 가치를 만든다.",
-        "what": "AI가 상단 퍼널 콘텐츠를 상품화하면서, 청중이 넓은 도달보다 입증된 전문성과 진정성 있는 경험을 더 높이 평가한다는 분석이다. 작고 참여도 높은 커뮤니티가 대규모 팔로워보다 나은 사업 성과를 낸다.",
-        "points": [
-          "AI가 상단 퍼널 콘텐츠 상품화",
-          "전문성·진정성에 가치 집중",
-          "소규모 고참여 커뮤니티가 우위"
-        ],
-        "why": [
-          "콘텐츠 과잉 시대의 차별화 전략 전환"
-        ]
-      }
-    },
-    {
-      "id": "outcome-based-pricing",
-      "title": "성과 기반 가격제 설계법 12가지",
-      "summary": "진짜 성과 가격제와 사용량 모델을 구분하는 12가지 설계 결정을 제시(Intercom Fin·HubSpot Breeze 예시).",
-      "source": "The SaaS CFO",
-      "url": "https://www.thesaascfo.com/how-to-build-outcome-based-pricing/",
-      "originalDate": "2026-06-04",
-      "report": {
-        "tldr": "성과 기반 가격제를 설계하는 12가지 핵심 결정을 정리했다.",
-        "what": "SaaS CFO 벤 머레이가 진정한 성과 기반 가격제와 단순 사용량 모델을 구분하는 12가지 설계 결정을 제시했다. Intercom Fin은 성과당 0.99달러, HubSpot Breeze는 해결 대화당 0.50~1.00달러를 예시로 들었다.",
-        "points": [
-          "성과 vs 사용량 가격제 구분",
-          "12가지 설계 결정 제시",
-          "Intercom Fin·HubSpot Breeze 사례"
-        ],
-        "why": [
-          "AI 제품 과금 모델 설계의 실무 지침"
-        ]
-      }
-    },
-    {
-      "id": "top-saas-vendors-ramp",
-      "title": "램프 선정 인기 SaaS 벤더(2026년 6월): 딥시크 선두",
-      "summary": "딥시크가 6월 트렌딩 소프트웨어 선두, 기업들이 OpenAI·앤트로픽 외 오픈소스 AI 플랫폼으로 이동.",
+      "id": "fo-ramp-saas-vendors",
+      "title": "Ramp의 6월 톱 SaaS 벤더 — 딥시크 급부상",
+      "summary": "미국 기업의 오픈소스 AI·Fireworks·DeepInfra 사용 증가, Figma 여전.",
       "source": "Ramp",
-      "url": "https://ramp.com/leading-indicators/top-saas-vendors-on-ramp-june-2026",
-      "originalDate": "2026-06-04",
+      "url": "https://ramp.com/leading-indicators/top-saas-vendors-on-ramp-june-2026?utm_source=tldrfounders",
       "report": {
-        "tldr": "램프 데이터에서 딥시크가 6월 트렌딩 SaaS 선두에 올랐다.",
-        "what": "램프의 지출 데이터에서 딥시크가 6월 트렌딩 소프트웨어 선두를 차지했다. 기업들이 OpenAI·앤트로픽에만 의존하기보다 Fireworks AI·DeepInfra 같은 오픈소스 AI 플랫폼으로 이동하는 양상이다.",
+        "tldr": "Ramp 지출 데이터에서 딥시크가 6월 톱 트렌딩 소프트웨어로 떠올랐다.",
+        "what": "Ramp는 6월 톱 트렌딩 소프트웨어로 딥시크를 꼽으며, 과거 보안 우려에도 미국 기업의 관심이 되살아났음을 보여준다. 기업들은 오픈소스 AI 모델과 Fireworks AI·DeepInfra 같은 플랫폼을 점점 더 사용하며 OpenAI·앤트로픽에서 이동하고 있다. AI 발전에도 Figma·Paper 같은 디자인 도구는 여전히 인기로, 새 AI 솔루션에 대한 회복력을 보인다.",
         "points": [
-          "딥시크 6월 트렌딩 선두",
-          "오픈소스 AI 플랫폼 채택 증가",
-          "Fireworks AI·DeepInfra 부상"
+          "딥시크가 6월 톱 트렌딩",
+          "오픈소스·Fireworks·DeepInfra로 이동",
+          "Figma 등 디자인 도구는 견조"
         ],
         "why": [
-          "기업 AI 지출의 멀티벤더·오픈소스 분산 신호"
+          "기업 소프트웨어 지출의 오픈소스 AI 전환 신호"
         ]
       }
     },
     {
-      "id": "google-search-profiles",
-      "title": "구글 검색, 웹사이트·크리에이터용 프로필 페이지 추가",
-      "summary": "크리에이터·퍼블리셔가 지식 패널과 전용 URL로 노출되는 검색 프로필을 커스터마이즈할 수 있게 됐다.",
-      "source": "9to5Google",
-      "url": "https://9to5google.com/2026/06/04/google-search-profiles/",
-      "originalDate": "2026-06-04",
+      "id": "fo-apps-as-memes",
+      "title": "앱이 밈이 되고 있다",
+      "summary": "소프트웨어 제작이 밈만큼 싸지면 제품이 아닌 '드롭'이 됨.",
+      "source": "dead.online",
+      "url": "https://www.dead.online/p/apps-as-memes?utm_source=tldrfounders",
       "report": {
-        "tldr": "구글 검색이 크리에이터·퍼블리셔용 프로필 페이지를 도입했다.",
-        "what": "구글이 크리에이터·퍼블리셔가 검색 노출을 직접 꾸밀 수 있는 프로필 페이지를 제공한다. 지식 패널과 전용 URL로 접근 가능하며 소셜 링크·동영상·게시물을 담을 수 있고 기능이 추가될 예정이다.",
+        "tldr": "소프트웨어 제작 비용이 급감하며 앱이 일회성 '드롭'처럼 다뤄진다는 분석이다.",
+        "what": "소프트웨어 만들기가 밈 올리는 것만큼 싸지면, 단위는 제품이 아니라 빠르게 만들고 반응으로 평가받고 금요일이면 잊히는 '드롭'이 된다. 로드맵은 덜 중요해지고 취향·타이밍·청중이 중요해진다. 그래서 일부 VC는 레이블이 뮤지션을 발굴하듯 창업자를 발굴한다 — 히트를 만들 수 있는가, 그리고 반복할 수 있는가.",
         "points": [
-          "검색 프로필 페이지 제공",
-          "지식 패널·전용 URL 접근",
-          "소셜 링크·동영상·게시물 포함"
+          "앱이 일회성 '드롭'화",
+          "로드맵보다 취향·타이밍·청중",
+          "VC의 창업자 발굴 방식 변화"
         ],
         "why": [
-          "AI 검색 시대 퍼블리셔의 노출 통제권 강화"
+          "AI 시대 제품·창업의 본질 변화론"
         ]
       }
     },
     {
-      "id": "sentry-non-eng-ship",
-      "title": "센트리 비개발 팀이 '배포'를 배운 방법",
-      "summary": "센트리 마케팅 팀이 코딩 경험 없이 2,500개 웹페이지를 코드 기반 시스템으로 이전한 사례.",
+      "id": "fo-linkedin-influence-buyers",
+      "title": "링크드인 콘텐츠로 구매자에게 영향 주기",
+      "summary": "외부 목소리가 구매위원회에 영향, 교육형 콘텐츠로 신뢰 구축.",
+      "source": "Pierre Herubel (Substack)",
+      "url": "https://pierreherubel.substack.com/p/how-to-influence-buyers-with-linkedin?utm_source=tldrfounders",
+      "report": {
+        "tldr": "외부 목소리가 구매 결정에 영향력을 키우며 링크드인을 영향 채널로 쓰는 법을 다룬다.",
+        "what": "외부 목소리가 구매위원회에 미치는 영향이 커지고 있다. 의사결정자는 영업 담당보다 팟캐스트·커뮤니티·소트리더·온라인 트렌드를 더 신뢰한다. 이를 이해하는 기업은 단순 판매자에서 벗어나 자기 산업의 교육형 콘텐츠를 만든다. 이 글은 링크드인을 구매자 영향 채널로 활용하는 법을 논한다.",
+        "points": [
+          "외부 목소리의 영향력 증가",
+          "영업보다 소트리더·커뮤니티 신뢰",
+          "교육형 콘텐츠로 영향"
+        ],
+        "why": [
+          "B2B 구매 영향의 채널 전환"
+        ]
+      }
+    },
+    {
+      "id": "fo-outcome-pricing",
+      "title": "성과 기반 가격제 설계 12가지 결정",
+      "summary": "Intercom Fin·Help Scout·HubSpot·Zendesk 등 실제 성과 단가 사례.",
+      "source": "The SaaS CFO",
+      "url": "https://www.thesaascfo.com/how-to-build-outcome-based-pricing/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "SaaS CFO가 진짜 성과 기반 가격제를 위한 12가지 설계 결정을 제시한다.",
+        "what": "SaaS CFO Ben Murray가 진짜 성과 기반 가격제를 위한 12가지 설계 결정을 정리하며, 성과를 가장한 소비량과 진짜 성과를 가르는 Sierra식 기준선을 긋는다. 실제 사례로 Intercom Fin(성과당 $0.99), Help Scout(AI 해결당 $0.75, 무료 3개월 학습 창), HubSpot Breeze(해결 대화당 $0.50·추천 리드당 $1.00), Zendesk의 72시간 LLM 검증 해결 창, EVE CoreGuard의 $37.5K~$1.2M 리스크 회피 사다리를 든다.",
+        "points": [
+          "성과 vs 소비량 구분 기준선",
+          "Intercom·HubSpot·Zendesk 실제 단가",
+          "12가지 설계 결정 정리"
+        ],
+        "why": [
+          "AI 제품의 성과 기반 가격 책정 실무"
+        ]
+      }
+    },
+    {
+      "id": "fo-complex-buying-groups",
+      "title": "복잡한 구매 그룹에 영향 주기",
+      "summary": "제품·재무·보안·법무·임원을 하나의 이야기로, 사람별 조정.",
+      "source": "GTM SOS (Substack)",
+      "url": "https://gtmsos.substack.com/p/b2b-buying-group-messaging-strategy?utm_source=tldrfounders",
+      "report": {
+        "tldr": "한 명의 챔피언으로는 부족한 복잡한 구매 그룹 설득법을 다룬다.",
+        "what": "이제 흥분한 챔피언 한 명으로는 거래를 닫을 수 없다. 중간 규모 거래도 제품·재무·보안·법무·임원을 거쳐야 하며 각자 관심사가 다르다. 제품은 명확성, 재무는 수치, 보안은 안전, 챔피언은 선택이 망신이 되지 않기를 원한다. 비결은 일곱 개의 다른 피치가 아니라 하나의 명확한 이야기를 사람별로 조정하는 것이다. 어떤 메시지를 좋아하는지 묻기보다, 기존 고객이 실제로 어떻게 구매를 결정했는지 보라.",
+        "points": [
+          "챔피언 한 명으로는 부족",
+          "하나의 이야기를 사람별 조정",
+          "고객의 실제 구매 경로 분석"
+        ],
+        "why": [
+          "복잡한 B2B 구매위원회 설득 전략"
+        ]
+      }
+    },
+    {
+      "id": "fo-sentry-learned-to-ship",
+      "title": "센트리 비(非)엔지니어 팀이 배포를 배우다",
+      "summary": "비엔지니어 팀이 4개월간 마케팅 사이트 2,500페이지를 마크다운·코드로 이전.",
       "source": "Technically",
-      "url": "https://read.technically.dev/p/how-matt-learned-to-ship",
-      "originalDate": "2026-06-04",
+      "url": "https://read.technically.dev/p/how-matt-learned-to-ship?utm_source=tldrfounders",
       "report": {
-        "tldr": "센트리 마케팅 팀이 코딩 없이 2,500개 페이지를 코드 기반으로 이전했다.",
-        "what": "센트리의 마케팅 팀이 사전 코딩 경험 없이 2,500개 웹페이지를 코드 기반 시스템으로 이전하는 데 성공했다. 비기술 팀도 실전 구현을 통해 기술 역량을 키울 수 있음을 보여준다.",
+        "tldr": "센트리가 비엔지니어 팀에 마케팅 사이트 코드 이전을 맡긴 경험을 공유한다.",
+        "what": "센트리는 비엔지니어 팀이 4개월에 걸쳐 마케팅 사이트 약 2,500페이지를 git 저장소의 마크다운·코드로 이전하게 했다. 프로젝트 전에는 팀원 대부분이 코드를 작성한 적이 없었다. 이 글은 왜 비엔지니어 팀에 이 작업을 맡겼는지와 이전 과정에서 회사가 배운 교훈을 논한다.",
         "points": [
-          "비개발 팀의 코드 기반 이전",
-          "2,500개 페이지 마이그레이션",
-          "실전 기반 기술 역량 습득"
+          "비엔지니어 팀의 2,500페이지 코드 이전",
+          "대부분 코딩 경험 없던 팀",
+          "이전 과정의 교훈 공유"
         ],
         "why": [
-          "AI 도구로 비개발 직군의 기술 진입장벽 하락"
+          "비기술 인력의 코드 역량 확장 사례"
         ]
       }
     },
     {
-      "id": "ai-treadmill",
-      "title": "'AI 러닝머신': 효율이 만든 시간을 어떻게 쓸 것인가",
-      "summary": "AI 효율로 생긴 여유를 일을 더 채우는 대신 사고할 공간으로 보호해야 창의성이 나온다는 에세이.",
-      "source": "Deb Liu",
-      "url": "https://debliu.substack.com/p/the-ai-treadmill",
-      "originalDate": "2026-06-03",
+      "id": "fo-google-search-profiles",
+      "title": "구글 검색, 웹사이트·크리에이터용 프로필 페이지 추가",
+      "summary": "'검색 프로필'로 검색 내 존재감 직접 형성, 미국 우선.",
+      "source": "9to5Google",
+      "url": "https://9to5google.com/2026/06/04/google-search-profiles/?utm_source=tldrfounders",
       "report": {
-        "tldr": "AI 효율이 만든 시간을 사고의 공간으로 보호해야 한다는 주장이다.",
-        "what": "AI 효율 향상이 업무량 확대와 의미 있는 사고 시간 사이의 선택을 만든다는 에세이다. 창의성은 여유를 추가 업무로 채울 때가 아니라 성찰을 위한 보호된 공간에서 나온다고 본다.",
+        "tldr": "구글이 웹사이트·크리에이터가 검색 내 존재감을 형성하는 '검색 프로필'을 추가한다.",
+        "what": "구글의 새 '검색 프로필'은 웹사이트 소유자·크리에이터가 검색 내 자기 존재감을 직접 형성하게 한다. 크리에이터·퍼블리셔의 지식 패널, Discover 피드, 또는 직접 URL로 접근할 수 있고 페이지·소셜 링크·동영상·게시물을 담을 수 있다. 향후 더 많은 기능이 추가되며, 먼저 미국에 도입된 뒤 전 세계 퍼블리셔·크리에이터로 확대된다.",
         "points": [
-          "효율이 만든 시간의 활용 딜레마",
-          "추가 업무 vs 사고 시간",
-          "창의성은 보호된 여유에서"
+          "검색 내 존재감 직접 형성",
+          "지식 패널·Discover·직접 URL 접근",
+          "미국 우선 후 글로벌 확대"
         ],
         "why": [
-          "AI 생산성 담론의 인간 중심 균형 관점"
+          "검색 가시성 관리 도구의 변화"
+        ]
+      }
+    },
+    {
+      "id": "fo-asana-agentic-platform",
+      "title": "아사나, 에이전틱 업무관리 플랫폼 출시",
+      "summary": "Dash·AI 팀메이트·3개 수직 앱으로 인간·에이전트 정렬.",
+      "source": "The Letter Two",
+      "url": "https://thelettertwo.com/2026/06/04/asana-agentic-work-management-platform/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "아사나가 인간과 에이전트를 같은 계획·맥락에 정렬하는 플랫폼을 내놨다.",
+        "what": "에이전트는 조직 기억과 역할·책임 이해 부족으로 기업에서 실패한다. 아사나는 에이전트가 존재하기 전부터 이를 해결하는 인프라를 구축해왔다. 에이전틱 업무관리 플랫폼은 인간과 에이전트를 같은 계획·맥락·거버넌스로 정렬하는 시스템으로, 치프오브스태프 에이전트 Dash, 차세대 AI 팀메이트, IT·소프트웨어 개발·전문 서비스를 겨냥한 3개 수직 애플리케이션으로 구성된다.",
+        "points": [
+          "조직 기억·역할 이해 부족이 에이전트 실패 원인",
+          "인간·에이전트 동일 계획에 정렬",
+          "Dash·AI 팀메이트·3개 수직 앱"
+        ],
+        "why": [
+          "엔터프라이즈 에이전트 거버넌스 인프라 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "fo-investors-shape-markets",
+      "title": "어떤 투자자는 시장을 만들고, 어떤 투자자는 휘둘린다",
+      "summary": "Hunter Walk, '경쟁사가 더 키우니 나도' 반사작용에 반박.",
+      "source": "Hunter Walk",
+      "url": "https://hunterwalk.com/2026/06/03/some-investors-shape-markets-while-others-are-shaped-by-them/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Homebrew의 Hunter Walk가 펀드 규모 경쟁의 반사작용을 비판한다.",
+        "what": "Homebrew의 Hunter Walk는 레거시·신생 VC에게 듣는 '경쟁사가 더 큰 펀드를 모으니 나도 해야 한다'는 반사작용에 반박하며, 이 합창이 자본의 범용화와 더 큰 수수료를 챙기며 평범함으로 회귀하는 신호라고 주장한다. AUM을 키우기 전 VC가 물어야 할 일차 원칙 질문: 왜 이 펌이 존재하는가, 어떤 플레이북에 가장 적합한가, 이미 가진 자원은 무엇이며 무엇을 확보·버려야 하는가.",
+        "points": [
+          "'남이 키우니 나도' 반사작용 비판",
+          "자본 범용화·평범함 회귀 경고",
+          "AUM 확장 전 일차 원칙 질문"
+        ],
+        "why": [
+          "VC 펀드 규모 경쟁에 대한 성찰"
+        ]
+      }
+    },
+    {
+      "id": "fo-ai-treadmill",
+      "title": "AI 트레드밀",
+      "summary": "AI가 만든 여유를 무엇에 쓸 것인가 — 생각·창의의 공간.",
+      "source": "debliu (Substack)",
+      "url": "https://debliu.substack.com/p/the-ai-treadmill?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI가 만든 여유를 어떻게 쓸지가 핵심이라는 에세이다.",
+        "what": "AI는 반복적·지루한 일을 줄이고 많은 일을 더 잘하게 해줄 것이다. 이제 문제는 그것이 만든 공간을 무엇에 쓸 것인가다. 효율 이득으로 더 많은 일을 더하거나, 정말 중요한 것을 신중하고 의미 있게 생각하는 데 시간을 쓸 수 있다. 창의성과 독창성은 생각하고 공상하고 궁금해할 공간을 만드는 데서 나온다.",
+        "points": [
+          "AI가 만든 여유의 활용이 관건",
+          "더 많은 일 vs 깊은 사고",
+          "창의성은 여백에서 나온다"
+        ],
+        "why": [
+          "AI 생산성 향상의 진짜 가치에 대한 성찰"
+        ]
+      }
+    },
+    {
+      "id": "fo-market-to-developers",
+      "title": "스타트업에서 개발자에게 마케팅하는 법",
+      "summary": "청중 리서치로 예산 낭비를 막고 개발자가 주목하는 곳 찾기.",
+      "source": "SparkToro",
+      "url": "https://sparktoro.com/blog/how-wed-market-to-software-developers-at-startups/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "개발자 대상 마케팅에서 청중 리서치의 가치를 강조한다.",
+        "what": "청중 리서치가 개발자를 마케팅 애호가로 만들진 못해도 예산 낭비를 막고 그들이 실제로 주목하는 곳을 가리켜준다.",
+        "points": [
+          "개발자 마케팅의 난점",
+          "리서치로 예산 낭비 방지",
+          "주목 채널 파악"
+        ],
+        "why": [
+          "개발자 대상 GTM의 현실적 접근"
+        ]
+      }
+    },
+    {
+      "id": "fo-skin-in-game",
+      "title": "AI 자금 홍수 속, '스킨 인 더 게임'만으론 부족",
+      "summary": "세컨더리·SPV 등 손쉬운 수익화로 인센티브 구조 변화.",
+      "source": "Hunter Walk (Medium)",
+      "url": "https://hunterwalk.medium.com/with-all-the-ai-money-sloshing-around-skin-in-the-game-isnt-enough-anymore-18b324e6b942?utm_source=tldrfounders",
+      "report": {
+        "tldr": "인센티브 변화로 '스킨 인 더 게임'만 의존할 수 없게 됐다는 글이다.",
+        "what": "스타트업은 세컨더리·SPV처럼 손쉽게 수익화 가능한 옵션으로 인센티브가 바뀌면서 더 이상 '스킨 인 더 게임'에만 의존할 수 없다.",
+        "points": [
+          "손쉬운 수익화 옵션 증가",
+          "세컨더리·SPV로 인센티브 변화",
+          "'스킨 인 더 게임' 한계"
+        ],
+        "why": [
+          "AI 자금 과잉기의 창업자·투자자 인센티브"
+        ]
+      }
+    },
+    {
+      "id": "fo-shipping-faster-worse",
+      "title": "빨리 출시할수록 제품이 나빠지는 이유",
+      "summary": "AI로 더 빨리 출시하는 것이 오히려 제품을 악화시킬 수 있음.",
+      "source": "dianastepner (Substack)",
+      "url": "https://dianastepner.substack.com/p/the-faster-you-ship-the-less-your?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI로 빠른 출시가 제품을 나쁘게 만들 수 있다는 주장이다.",
+        "what": "AI로 더 빨리 출시하는 것이 실제로는 제품을 더 나쁘게 만들 수 있다.",
+        "points": [
+          "빠른 출시의 역효과",
+          "AI 가속의 품질 리스크",
+          "속도 vs 깊이"
+        ],
+        "why": [
+          "AI 시대 제품 개발 속도의 균형"
+        ]
+      }
+    },
+    {
+      "id": "fo-3-years-ai-agent",
+      "title": "AI 에이전트를 3년간 개선하며",
+      "summary": "오늘의 모델이 아니라 내년의 모델을 위해 만들어라.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/LxJyo0",
+      "report": {
+        "tldr": "AI 에이전트를 3년간 개선한 교훈을 공유한다.",
+        "what": "핵심 교훈은 오늘의 모델이 아니라 내년의 모델을 위해 만들라는 것이다.",
+        "points": [
+          "3년간의 에이전트 개선 경험",
+          "내년 모델을 염두에 둔 설계",
+          "장기 관점의 제품 구축"
+        ],
+        "why": [
+          "빠르게 진화하는 모델에 대비한 설계 철학"
         ]
       }
     }

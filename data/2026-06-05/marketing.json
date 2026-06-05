@@ -6,142 +6,249 @@
   "bg": "#163021",
   "items": [
     {
-      "id": "meta-enterprise-business-agent",
-      "title": "메타, 엔터프라이즈 AI 경쟁 진입…신규 비즈니스 에이전트 출시",
-      "summary": "WhatsApp·메신저에서 예약 등 업무를 자동화하는 비즈니스 에이전트를 무료로 시작, 유료 등급 예정.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/business/meta-launches-enterprise-focused-ai-business-agent-automate-daily-operations-2026-06-03/",
-      "originalDate": "2026-06-03",
+      "id": "mk-expert-economy",
+      "title": "크리에이터 경제는 죽었다, 전문가 경제가 대체했다",
+      "summary": "도달 극대화에서 전문성·제품화된 지식 기반 신뢰 구축으로 이동.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/TNj4fS",
       "report": {
-        "tldr": "메타가 메시징 기반 비즈니스 에이전트로 엔터프라이즈 AI에 진입했다.",
-        "what": "메타의 비즈니스 에이전트가 WhatsApp·메신저에서 예약 등 업무를 자동화한다. 기존 챗봇 사용 기반을 확장하며 초기 무료로 제공하고 유료 등급을 도입할 계획이다.",
+        "tldr": "마케터·크리에이터가 도달이 아닌 전문성 기반 신뢰로 이동해야 한다는 주장이다.",
+        "what": "마케터와 크리에이터는 도달 극대화에서 입증된 전문성·제품화된 지식을 통한 신뢰 구축으로 이동해야 한다. AI가 상단 퍼널 콘텐츠 복제를 쉽게 만들면서, 청중은 독특한 관점·실제 경험·말한 바를 실천한다는 증거를 더 높이 평가한다. 작지만 고관여 커뮤니티가 구매·추천·장기 충성도를 만들어 대규모 청중을 능가하는 경우가 많다. Kajabi는 전문가 주도 비즈니스의 인프라로 자리매김하며 이 흐름에 베팅한다.",
         "points": [
-          "WhatsApp·메신저 업무 자동화",
-          "기존 챗봇 기반 확장",
-          "무료 시작·유료 등급 예정"
+          "도달에서 전문성 기반 신뢰로",
+          "AI가 상단 퍼널 콘텐츠 복제 쉽게 함",
+          "고관여 소규모 커뮤니티의 우위"
         ],
         "why": [
-          "메타 메시징 생태계의 에이전틱 커머스 수익화"
+          "AI 시대 콘텐츠 차별화 전략의 전환"
         ]
       }
     },
     {
-      "id": "ai-citations-off-site",
-      "title": "B2B SaaS의 AI 인용 90% 가까이가 외부 소스에서 발생",
-      "summary": "AI 인용의 10%만 브랜드 도메인에서 나와, 레딧·유튜브·링크드인이 AI 벤더 발견의 핵심 소스로 부상.",
-      "source": "Foundation",
-      "url": "https://foundationinc.co/lab/ai-visibility-off-site-sources/",
-      "originalDate": "2026-06-04",
+      "id": "mk-cautious-shoppers",
+      "title": "신중한 소비자는 명확한 가치에 보답한다",
+      "summary": "명확한 가치 메시지가 전환을 앞당겨 CAC를 낮춤.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/U1D0BK",
       "report": {
-        "tldr": "B2B SaaS의 AI 인용 대부분이 외부 소스에서 발생한다.",
-        "what": "B2B 브랜드의 AI 인용 중 약 10%만 자사 도메인에서 나오고, 90% 가까이가 외부 소스에서 발생한다. 레딧·유튜브·링크드인이 AI 주도 벤더 발견의 핵심 소스로 떠올랐다.",
+        "tldr": "명확한 가치 메시지가 고객 획득 비용을 낮춘다는 분석이다.",
+        "what": "명확한 가치 메시지는 소비자가 구매 가치를 즉시 이해할 때 더 빨리 전환하므로 고객 획득 비용을 낮춘다. 월마트·코스트코·달러트리는 가치 제안을 이해하기 쉽게 만들어 강한 분기 성장을 기록했다. 브랜드는 제품 기능보다 내구성·절약·편의·장기 성능 같은 결과에 집중해야 한다. 제품 페이지·콘텐츠·리뷰·후기·보증이 망설임과 반대를 줄여 전환율을 높이고 모든 광고 클릭을 더 효과적으로 만든다.",
         "points": [
-          "AI 인용의 10%만 브랜드 도메인",
-          "외부 소스가 90% 차지",
-          "레딧·유튜브·링크드인 중요"
+          "명확한 가치가 전환 가속·CAC 절감",
+          "월마트·코스트코·달러트리 사례",
+          "기능 아닌 결과 중심 메시지"
         ],
         "why": [
-          "AI 검색 가시성(AEO)의 오프사이트 전략 필요성"
+          "불황기 소비에서 가치 커뮤니케이션의 중요성"
         ]
       }
     },
     {
-      "id": "cautious-shoppers-clear-value",
-      "title": "신중한 소비자는 명확한 가치를 보상한다",
-      "summary": "명확한 가치 메시지가 전환을 앞당겨 고객 획득 비용을 낮춘다, 월마트·코스트코는 성과 중심 메시지로 성장.",
-      "source": "Practical Ecommerce",
-      "url": "https://www.practicalecommerce.com/cautious-shoppers-reward-clear-value",
-      "originalDate": "2026-06-04",
+      "id": "mk-linkedin-leadgen",
+      "title": "효과 있는 링크드인 리드젠 캠페인",
+      "summary": "DACH C-레벨 B2B 타깃에 화이트페이퍼·소트리더 광고, 리타깃 없이 빈도로 도달.",
+      "source": "LinkedIn (Maximilian Herczeg)",
+      "url": "https://www.linkedin.com/posts/maximilianherczeg_im-not-a-fan-of-running-lead-gen-campaigns-share-7464975694972833792-ZYbH/?utm_source=tldrmarketing",
       "report": {
-        "tldr": "명확한 가치 메시지가 전환을 앞당기고 획득 비용을 낮춘다.",
-        "what": "명확한 가치 메시지가 더 빠른 전환을 가능하게 해 고객 획득 비용을 줄인다. 월마트·코스트코는 기능보다 내구성·절약 같은 성과를 강조해 성장을 끌어올린다.",
+        "tldr": "소규모 정밀 타깃 링크드인 리드젠이 멀티터치 전략과 결합하면 작동한다는 사례다.",
+        "what": "작고 정밀하게 타깃된 링크드인 리드젠 캠페인은 적절한 크리에이티브와 폭넓은 멀티터치 전략과 결합하면 효과를 낼 수 있다. 기업·역할 기반 필터로 DACH 지역 B2B C-레벨을 좁게 정의한 뒤, 직설적 화이트페이퍼 광고와 소트리더·단일 이미지 캠페인으로 친숙도를 쌓았다. 소규모 청중이라 리타깃 대신 빈도로 도달·전환을 끌었고, 리드는 직접 영업이 아니라 너처·소셜셀링에 활용했다.",
         "points": [
-          "명확한 가치 → 빠른 전환",
-          "획득 비용 절감",
-          "기능보다 성과 강조"
+          "DACH C-레벨 정밀 타깃",
+          "화이트페이퍼+소트리더로 친숙도",
+          "리타깃 없이 빈도로 도달"
         ],
         "why": [
-          "불확실 소비 환경의 메시징 전략 시사점"
+          "소규모 정밀 B2B 캠페인의 실전 전술"
         ]
       }
     },
     {
-      "id": "migrated-marketing-site-cms",
-      "title": "우리가 마케팅 사이트를 CMS에서 코드로 이전한 이유",
-      "summary": "콘텐츠를 코드로 옮겨 AI 에이전트가 대규모로 테스트·최적화하게 하니 전환이 약 4배 개선됐다.",
-      "source": "Matthew Henderson",
-      "url": "https://hendersonmatthew.substack.com/p/why-we-migrated-our-marketing-site",
-      "originalDate": "2026-06-04",
-      "report": {
-        "tldr": "마케팅 사이트를 코드로 이전해 AI 최적화로 전환을 4배 높였다.",
-        "what": "콘텐츠를 CMS에서 코드로 옮기자 AI 에이전트가 페이지를 대규모로 테스트·최적화할 수 있게 됐다. 그 결과 사이트 전환이 약 4배 개선되고 CMS 병목이 줄었다.",
-        "points": [
-          "콘텐츠를 코드로 이전",
-          "AI 에이전트 대규모 최적화",
-          "전환 약 4배 개선"
-        ],
-        "why": [
-          "AI 기반 그로스 최적화를 위한 인프라 전환 사례"
-        ]
-      }
-    },
-    {
-      "id": "content-machine-11-steps",
+      "id": "mk-content-machine",
       "title": "11단계로 콘텐츠 머신 구축하기",
-      "summary": "아이디어 소싱·리서치·작성·재가공을 자동화하되 핵심 결정 지점엔 인간 검토를 유지하는 워크플로.",
-      "source": "Alex Lieberman",
-      "url": "https://www.linkedin.com/posts/alex-lieberman_i-built-a-content-machine-it-turned-me-share-7468039164828065793-w2Ld/",
-      "originalDate": "2026-06-04",
+      "summary": "AI가 아이디어 소싱·리서치·초안·재가공, 핵심 결정엔 인간 유지.",
+      "source": "LinkedIn (Alex Lieberman)",
+      "url": "https://www.linkedin.com/posts/alex-lieberman_i-built-a-content-machine-it-turned-me-share-7468039164828065793-w2Ld/?utm_source=tldrmarketing",
       "report": {
-        "tldr": "아이디어부터 재가공까지 자동화하되 인간 검토를 유지하는 콘텐츠 워크플로다.",
-        "what": "아이디어 소싱, 리서치, 크리에이터 보이스 기반 초안 작성, 다양한 포맷 재가공을 자동화하는 콘텐츠 머신을 11단계로 정리했다. 핵심 결정 지점에는 인간 검토를 유지한다.",
+        "tldr": "한 사람을 미디어 회사로 확장하는 AI 콘텐츠 시스템을 설명한다.",
+        "what": "이 글은 워크플로 대부분을 자동화하되 핵심 결정 지점에 인간을 유지해 한 사람을 확장된 미디어 회사로 만드는 AI 콘텐츠 시스템을 설명한다. AI가 내부 도구·외부 피드에서 아이디어를 소싱하고, 팩트체크와 함께 리서치를 돌리며, 인터뷰로 구체적 이야기·데이터를 추출한다. 크리에이터의 목소리로 초안을 쓰고 AI 리뷰 루프를 거친 뒤 여러 형식으로 재가공하며, 최종 인간 검토 후 발행한다. 피드백 루프가 향후 산출을 개선한다.",
         "points": [
-          "아이디어·리서치·작성·재가공 자동화",
-          "크리에이터 보이스 유지",
-          "핵심 지점 인간 검토"
+          "AI가 소싱·리서치·초안·재가공",
+          "핵심 결정엔 인간 유지",
+          "피드백 루프로 지속 개선"
         ],
         "why": [
-          "AI 콘텐츠 생산의 실무 파이프라인 참고"
+          "1인 미디어의 AI 기반 스케일업 워크플로"
         ]
       }
     },
     {
-      "id": "w3c-advertising-measurement",
-      "title": "W3C의 광고 효과 측정 접근, 중대한 실수",
-      "summary": "어트리뷰션은 인과를 증명하지 못하고 TV·라디오 같은 브랜드 채널을 과소평가해 예산을 왜곡한다는 비판.",
+      "id": "mk-ai-citations-offsite",
+      "title": "B2B SaaS AI 인용 90% 가까이가 오프사이트에서",
+      "summary": "브랜드 도메인 인용 10%뿐, Reddit·유튜브·링크드인이 핵심 출처.",
+      "source": "Foundation Inc",
+      "url": "https://foundationinc.co/lab/ai-visibility-off-site-sources/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 가시성이 웹사이트 방문 전 구매 결정을 좌우하며 오프사이트 전략이 필요하다는 연구다.",
+        "what": "AI 가시성은 구매자가 웹사이트를 방문하기도 전에 B2B 벤더 선택을 좌우하므로, 브랜드는 그 과정에 영향을 주는 오프사이트 전략이 필요하다. 연구에 따르면 AI 인용의 10.15%만 브랜드 소유 도메인에서 나오고, AI 답변의 68%는 브랜드 콘텐츠를 전혀 인용하지 않는다. 그래서 Reddit(인용의 21%)·유튜브(13%)·링크드인(13%)이 핵심 영향 출처다. 브랜드는 AI 가시성을 SEO가 아니라 유통 과제로 다뤄야 한다.",
+        "points": [
+          "브랜드 도메인 인용은 10%뿐",
+          "Reddit 21%·유튜브·링크드인 13%",
+          "AI 가시성은 유통 과제"
+        ],
+        "why": [
+          "AI 검색 시대의 브랜드 가시성 전략"
+        ]
+      }
+    },
+    {
+      "id": "mk-dreambeans",
+      "title": "구글 랩스 'Dreambeans', 중요한 것과 연결",
+      "summary": "무한 피드 대신 맞춤형 일일 스토리 모음 생성.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/dreambeans/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "구글 랩스가 무한 피드 대신 맞춤형 일일 스토리를 만드는 실험 앱을 공개했다.",
+        "what": "구글 랩스가 끝없는 피드 대신 개인화된 일일 스토리 모음을 만드는 실험적 AI 앱 Dreambeans를 공개했다. 허가를 받아 구글 앱에 연결해 일상 활동 기반의 맥락적 스토리·영감을 생성한다. 스크롤을 줄이고 가장 중요한 것에 집중한, 유한하고 관련성 있으며 실행 가능한 콘텐츠를 전달하는 것이 목표다.",
+        "points": [
+          "무한 피드 대신 유한한 일일 스토리",
+          "구글 앱 데이터로 맥락 생성",
+          "스크롤 감소·집중 지향"
+        ],
+        "why": [
+          "AI 큐레이션이 소비형 피드를 대체하려는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "mk-meta-business-agent",
+      "title": "메타, 비즈니스 에이전트로 엔터프라이즈 AI 경쟁 진입",
+      "summary": "예약·결제까지 자율 수행, WhatsApp·메신저·인스타 연동.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/hs6AOu",
+      "report": {
+        "tldr": "메타가 자율 행동이 가능한 비즈니스 에이전트로 기업 AI 경쟁에 뛰어든다.",
+        "what": "메타가 규칙 기반 챗봇을 넘어 예약·결제 완료 같은 자율 행동을 WhatsApp·메신저·인스타그램에서 수행하는 비즈니스 에이전트를 출시했다. 100만 개 이상 기업이 이미 이전 챗봇 버전을 사용 중이었고, 새 에이전트는 초기 무료에 유료 등급이 예정돼 있다. 더 넓은 비즈니스 에이전트 플랫폼은 Shopify·Zendesk 등 수백 개 서드파티 시스템과 연결된다.",
+        "points": [
+          "예약·결제까지 자율 수행",
+          "WhatsApp·메신저·인스타 연동",
+          "초기 무료·유료 등급 예정"
+        ],
+        "why": [
+          "메시징 기반 커머스 자동화 경쟁 본격화"
+        ]
+      }
+    },
+    {
+      "id": "mk-cms-migration",
+      "title": "마케팅 사이트를 CMS에서 코드로 이전한 이유",
+      "summary": "AI 에이전트가 직접 업데이트·테스트, 전환율 약 4배 증가.",
+      "source": "hendersonmatthew (Substack)",
+      "url": "https://hendersonmatthew.substack.com/p/why-we-migrated-our-marketing-site?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "마케팅 사이트를 CMS에서 코드로 옮겨 AI 기반 실험을 가속한 사례다.",
+        "what": "마케팅 사이트를 CMS 밖으로 옮기자 AI 에이전트가 콘텐츠를 직접 업데이트·최적화·테스트할 수 있어 실험이 빨라졌다. 콘텐츠를 코드로 옮긴 뒤 사이트 성능이 개선되고 전환율이 이전의 약 4배로 늘었다. 웹사이트는 트래픽 유입원이 아니라 전환 엔진·AI 신호원이 됐다. 콘텐츠를 코드에 저장하면 CMS 병목 없이 전사 메시징·SEO·랜딩 실험을 빠르게 띄울 수 있고, SEO·현지화·전환 최적화 자동화를 위한 AI 워크플로·기술 역량 채택을 촉진한다.",
+        "points": [
+          "AI 에이전트의 직접 콘텐츠 운영",
+          "전환율 약 4배 증가",
+          "CMS 병목 제거·실험 가속"
+        ],
+        "why": [
+          "AI 친화적 마케팅 사이트 아키텍처 전환"
+        ]
+      }
+    },
+    {
+      "id": "mk-w3c-attribution",
+      "title": "W3C의 광고 효과 측정 표준, 중대한 실수",
+      "summary": "어트리뷰션이 인과를 추정한다는 함의로 측정 편향 고착 우려.",
       "source": "AdExchanger",
-      "url": "https://www.adexchanger.com/data-driven-thinking/the-w3c-is-making-a-critical-mistake-about-measuring-advertising-effectiveness/",
-      "originalDate": "2026-06-04",
+      "url": "https://www.adexchanger.com/data-driven-thinking/the-w3c-is-making-a-critical-mistake-about-measuring-advertising-effectiveness/?utm_source=tldrmarketing",
       "report": {
-        "tldr": "어트리뷰션 중심 측정이 브랜드 채널을 과소평가한다는 비판이다.",
-        "what": "어트리뷰션 시스템은 인과관계를 증명하지 못하고 TV·라디오 같은 브랜드 구축 채널을 체계적으로 과소평가한다. 그 결과 예산이 수요 창출보다 수요 수확 쪽으로 쏠릴 수 있다는 지적이다.",
+        "tldr": "W3C 어트리뷰션 표준이 측정 편향을 고착시킬 위험이 있다는 비판이다.",
+        "what": "W3C의 제안된 어트리뷰션 표준은 어트리뷰션 시스템이 어떤 광고·크리에이티브가 가장 성과가 좋은지 식별할 수 있다는 함의로 디지털 광고의 고질적 측정 문제를 고착시킬 위험이 있다. 어트리뷰션은 노출과 이후 행동을 관찰할 뿐 광고가 실제로 전환을 일으켰는지는 추정하지 못해, 구매 활동에 가까운 채널에 구조적으로 편향된다. TV·오디오·옥외 같은 브랜드 빌딩 미디어는 효과가 지연·확률적이라 체계적으로 과소 평가되며, 어트리뷰션 신호에 최적화하는 광고주는 수요 창출이 아닌 수요 수확으로 예산을 몰 위험이 있다.",
         "points": [
-          "어트리뷰션은 인과 증명 불가",
-          "브랜드 채널 과소평가",
-          "예산 왜곡 우려"
+          "어트리뷰션은 인과를 추정 못함",
+          "구매 근접 채널로 구조적 편향",
+          "브랜드 미디어 과소평가 위험"
         ],
         "why": [
-          "측정 표준이 마케팅 예산 배분에 미치는 영향"
+          "광고 측정 표준의 구조적 한계 논쟁"
         ]
       }
     },
     {
-      "id": "transparent-packaging",
+      "id": "mk-transparent-packaging",
       "title": "포장을 투명하게 만들어라",
-      "summary": "투명 포장이 심리적 소유감을 높여 제품 선택을 4배 늘린다, 단 매력 없는 제품엔 역효과 위험.",
+      "summary": "투명 포장 시 선택 4배·매력 67%·구매의향 41% 증가.",
       "source": "Science Says",
-      "url": "https://app.sciencesays.com/p/make-your-packaging-transparent",
-      "originalDate": "2026-06-04",
+      "url": "https://app.sciencesays.com/p/make-your-packaging-transparent?utm_source=tldrmarketing",
       "report": {
-        "tldr": "투명 포장이 심리적 소유감으로 제품 선택을 4배 높인다.",
-        "what": "투명 포장이 심리적 소유감을 높여 제품 선택을 4배 늘린다는 연구다. 시각적으로 매력적인 품목에 가장 효과적이며, 매력이 떨어지는 제품에는 역효과가 날 수 있다.",
+        "tldr": "투명 포장이 제품 선택을 크게 높인다는 실험 결과다.",
+        "what": "투명 포장은 쇼퍼와 제품 사이 심리적 장벽을 줄여 제품 선택을 크게 높일 수 있다. 7개 실험에서 소비자는 투명 포장 제품을 4배 더 많이 선택했고, 67.2% 더 매력적으로 느꼈으며, 41% 더 높은 구매 의향을 보였다. 효과는 심리적 소유감 증가에서 비롯되는 것으로 보인다. 마케터는 시각적으로 매력적인 제품에 투명 포장·제품 창을 테스트하되, 식욕을 떨어뜨리는 제품에는 피해야 한다.",
         "points": [
-          "투명 포장 → 소유감 상승",
-          "제품 선택 4배 증가",
-          "매력 없는 제품엔 역효과"
+          "투명 포장 시 선택 4배",
+          "매력 67%·구매의향 41% 증가",
+          "심리적 소유감이 동인"
         ],
         "why": [
-          "패키징 설계의 행동심리 레버리지"
+          "패키징 디자인의 행동경제학적 효과"
+        ]
+      }
+    },
+    {
+      "id": "mk-oops-correction-email",
+      "title": "잘 처리한 '앗, 정정' 이메일",
+      "summary": "Customer.io가 제목 줄 실수를 다룬 좋은 사례.",
+      "source": "LinkedIn (Maggie Glascott)",
+      "url": "https://www.linkedin.com/posts/maggie-glascott-47612731_if-youve-worked-in-email-long-enough-youve-share-7468000699004555276-BiS2/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "Customer.io가 이메일 제목 실수를 잘 정정한 사례를 소개한다.",
+        "what": "Customer.io가 이메일 제목 줄 실수를 처리한 좋은 사례를 보여준다.",
+        "points": [
+          "이메일 제목 실수 정정 사례",
+          "Customer.io의 대응",
+          "위기 커뮤니케이션 참고"
+        ],
+        "why": [
+          "실수 대응도 브랜드 신뢰의 기회"
+        ]
+      }
+    },
+    {
+      "id": "mk-reddit-linkedin-youtube",
+      "title": "고관여 질문 인용, Reddit·링크드인·유튜브가 지배",
+      "summary": "각 플랫폼 맞춤 제품 콘텐츠로 인용을 확보.",
+      "source": "LinkedIn (AJ Frost)",
+      "url": "https://www.linkedin.com/posts/ajafrost_hubspot-found-more-than-half-of-citations-share-7467952312573964288-zna5/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "허브스팟이 고관여 인용 대부분이 Reddit·링크드인·유튜브에서 나온다고 분석했다.",
+        "what": "허브스팟은 고관여 인용의 대부분이 Reddit·링크드인·유튜브에서 나오며, 브랜드는 각 플랫폼에 맞춘 제품 중심 콘텐츠를 발행해 이를 확보한다고 밝혔다.",
+        "points": [
+          "고관여 인용은 Reddit·링크드인·유튜브 중심",
+          "플랫폼별 맞춤 제품 콘텐츠",
+          "AI 가시성 확보 전략"
+        ],
+        "why": [
+          "커뮤니티·영상 채널의 AI 인용 영향력"
+        ]
+      }
+    },
+    {
+      "id": "mk-instore-digital-ads",
+      "title": "쇼퍼, 매장 내 디지털 광고에 점점 수용적",
+      "summary": "식료품 쇼퍼 60%+가 매장 화면 광고 직후 제품 구매.",
+      "source": "Supermarket News",
+      "url": "https://www.supermarketnews.com/retail-media/shoppers-increasingly-receptive-to-in-store-digital-advertising-study-finds?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "식료품 쇼퍼의 60% 이상이 매장 화면 광고 직후 제품을 구매했다는 연구다.",
+        "what": "식료품 쇼퍼의 60% 이상이 매장 내 화면에 광고된 제품을 본 직후 구매한 적이 있다.",
+        "points": [
+          "쇼퍼 60%+가 매장 광고 후 구매",
+          "매장 내 디지털 사이니지 효과",
+          "리테일 미디어 성장 신호"
+        ],
+        "why": [
+          "리테일 미디어·매장 내 광고의 부상"
         ]
       }
     }

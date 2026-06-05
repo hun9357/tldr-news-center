@@ -1,49 +1,47 @@
 {
   "date": "2026-06-05",
   "weekday": "금",
-  "headline": "앤트로픽 'AI가 스스로를 만든다' 경고…개발 일시중단 촉구",
-  "subtitle": "앤트로픽이 재귀적 자기개선 위험을 들어 글로벌 AI 개발 중단을 제안한 가운데, 신규 코드의 80%를 Claude가 작성한다고 공개했고 봇 트래픽이 인간을 추월했다. — 6월 5일 TLDR 9개 에디션 요약",
-  "keyword": "재귀적 자기개선 · AI 거버넌스 · 에이전틱 코딩",
-  "bigStoryId": "ai-recursive-self-improvement",
+  "headline": "AI가 스스로를 만든다: 앤트로픽, '재귀적 자기개선' 경고",
+  "subtitle": "앤트로픽이 AI의 재귀적 자기개선이 임박했다며 글로벌 개발 중단을 촉구했고, 자사 신규 코드의 80%를 Claude가 작성한다고 밝혔다. — 6월 5일 TLDR 10개 에디션 요약",
+  "keyword": "재귀적 자기개선 · 에이전트",
+  "bigStoryId": "ai-builds-itself",
   "editions": [
     "ai",
-    "tech",
     "infosec",
+    "it",
     "crypto",
-    "founders",
-    "dev",
-    "devops",
+    "tech",
     "design",
-    "marketing"
+    "dev",
+    "marketing",
+    "founders",
+    "devops"
   ],
-  "lastUpdated": "08:50 CDT",
-  "syncedAt": "08:50",
-  "subscribers": 128842,
-  "market": { "index": "S&P 500", "value": "6,024.52", "change": "▲ 0.40%" },
+  "lastUpdated": "08:35 CDT",
+  "syncedAt": "08:35",
   "stats": {
-    "companies": 32,
-    "security": 13,
-    "deals": 5,
-    "policy": 6
+    "companies": 94,
+    "security": 15,
+    "deals": 10,
+    "policy": 11
   },
   "signals": [
     {
       "kind": "primary",
-      "title": "AI 자기개선이 거버넌스 화두로",
-      "body": "앤트로픽이 AI의 재귀적 자기개선이 임박했다며 안전성을 이유로 글로벌 개발 일시 중단을 제안했습니다. 동시에 자사 신규 프로덕션 코드의 80%를 Claude가 작성한다고 밝혀, 자율 R&D 가속과 통제 가능성 논쟁이 정면으로 부딪쳤습니다.",
-      "severity": "8.2",
-      "velocity": "Rising",
-      "action": "AI 정책·안전 가이드라인 추적"
+      "title": "AI 자기개선이 담론의 중심에 서다",
+      "body": "앤트로픽이 AI가 후속 모델을 자율 설계하는 '재귀적 자기개선'을 공개하고 동시에 글로벌 개발 중단을 촉구했습니다. 자사 신규 프로덕션 코드의 80%를 Claude가 작성하며 엔지니어당 코드량이 8배 늘었다고도 밝혔는데, 일각에서는 안전 경고가 경쟁 견제용 마케팅이라는 반론도 나옵니다.",
+      "action": "AI 안전·거버넌스 논의와 모델 출시 동향 추적"
     },
     {
       "kind": "market",
-      "title": "S&P 반등 속 메가 IPO 규정 유지",
-      "body": "S&P 500이 전일 0.4% 올라 6,024선을 회복했습니다. S&P 다우존스는 스페이스X 등 대형 IPO의 신속 지수 편입 요구를 거부하고 12개월 시즈닝 요건을 유지해 패시브 자금 유입 시점을 미뤘습니다."
+      "title": "사모 시장 파생상품과 메가 IPO",
+      "body": "코인베이스가 SpaceX 프리-IPO 무기한 선물(SPCX-PERP)을 상장하며 사모 시장 파생상품 수요를 보여줬고, S&P는 메가 IPO의 빠른 지수 편입을 거부했습니다. 마스터카드·Deel·은행권의 스테이블코인 결제 인프라 편입도 가속되고 있습니다."
     },
     {
       "kind": "watchlist",
-      "title": "다음 48시간 모니터링",
-      "body": "DentaQuest 260만 건 유출(ShinyHunters)·Redis RCE(CVE-2026-23479) 대응, 메타 스마트글라스 휴면 얼굴인식 파이프라인 논란, WWDC 2026을 앞둔 애플 발표를 추적합니다."
+      "title": "다음 48시간 보안 모니터링",
+      "body": "AI 보안 도구가 발굴한 Redis use-after-free(CVE-2026-23479) 패치 적용, 덴타퀘스트 260만 건 유출 대응, Zapier 공격 체인 교훈에 따른 CI 토큰 위생 점검을 추적합니다.",
+      "action": "Redis 즉시 패치, CI/CD 토큰 범위 축소·회전"
     }
   ]
 }
