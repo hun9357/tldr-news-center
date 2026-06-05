@@ -1,0 +1,183 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🔓",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "dentaquest-breach-26m",
+      "title": "덴타퀘스트 데이터 유출, 260만 계정 정보 노출",
+      "summary": "ShinyHunters가 234GB를 유출, SSN·건강보험 정보·개인식별자가 포함됐으며 약 2/3는 기존 유출과 중복.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/",
+      "originalDate": "2026-06-04",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "헬스케어·PII"
+      },
+      "related": [
+        "ShinyHunters 연쇄 갈취 캠페인",
+        "헬스케어 PII 유출 대응 수칙",
+        "SSN 노출 피해 모니터링"
+      ],
+      "report": {
+        "tldr": "치과 복지 제공사 덴타퀘스트에서 260만 계정 정보가 유출됐다.",
+        "what": "ShinyHunters 랜섬웨어 조직이 치과 복지 제공사 덴타퀘스트의 데이터 234GB를 유출했다. SSN, 건강보험 정보, 개인식별자가 포함됐다. 260만 건 중 약 2/3는 이전에 알려진 유출과 중복된 것으로 파악됐다.",
+        "points": [
+          "234GB 데이터 유출, SSN·건강보험 정보 포함",
+          "260만 계정 영향",
+          "약 2/3는 기존 유출과 중복"
+        ],
+        "why": [
+          "헬스케어 PII는 갈취·사기의 고가치 표적",
+          "연쇄 유출로 중복 노출 피해 누적"
+        ],
+        "action": "영향 사용자 통지·크레딧 모니터링, SSN 기반 인증 폐기 검토"
+      }
+    },
+    {
+      "id": "cybercrime-crackdown-14m",
+      "title": "사이버범죄 단속으로 140만 계정 무력화",
+      "summary": "법집행기관과 테크 기업이 동남아 사기 조직을 분쇄, 140만 개 부정 계정 제거·강제노동 인신매매망 와해.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/over-1-4-million-accounts-disrupted-in-cybercrime-crackdown/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "법집행·테크 기업 공조로 동남아 사기 조직 140만 계정이 무력화됐다.",
+        "what": "법집행기관과 테크 기업이 동남아시아 사기 조직을 폐쇄해 140만 개 이상의 부정 계정을 제거했다. 암호화폐 사기에 동원된 강제노동·인신매매 네트워크도 함께 와해됐다.",
+        "points": [
+          "140만 부정 계정 제거",
+          "동남아 사기 조직 분쇄",
+          "강제노동 인신매매망 와해"
+        ],
+        "why": [
+          "민관 공조 기반 대규모 사기 인프라 단속의 성공 사례"
+        ]
+      }
+    },
+    {
+      "id": "redis-cve-2026-23479",
+      "title": "AI 보안 도구, 2년 묵은 Redis 취약점(CVE-2026-23479) 발굴",
+      "summary": "AI 보조 취약점 연구가 인증된 공격자의 원격 코드 실행을 허용하는 Redis use-after-free 결함을 식별.",
+      "source": "Cyber Kendra",
+      "url": "https://www.cyberkendra.com/2026/06/an-ai-security-tool-dug-up-2-year-old.html",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "AI 보안 도구가 RCE를 허용하는 2년 묵은 Redis 취약점을 찾아냈다.",
+        "what": "AI 보조 취약점 연구를 통해 CVE-2026-23479로 명명된 Redis의 use-after-free 결함이 발견됐다. 인증된 공격자가 이를 악용하면 원격 코드 실행이 가능하다.",
+        "points": [
+          "Redis use-after-free 결함",
+          "인증 공격자의 RCE 가능",
+          "AI 보조 연구로 발굴"
+        ],
+        "why": [
+          "AI가 장기 잠복 취약점 발굴에 실질 기여하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "zapocalypse-zapier",
+      "title": "Zapocalypse: 재피어를 탈취할 뻔한 공격 체인",
+      "summary": "파이썬 샌드박스 탈출·AWS 토큰 추출·NPM 계정 탈취로 이어지는 치명적 취약점 체인을 발견.",
+      "source": "Token Security",
+      "url": "https://www.token.security/blog/zapocalypse-the-attack-chain-that-could-have-hijacked-zapier",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "재피어에서 샌드박스 탈출로 시작되는 치명적 공격 체인이 발견됐다.",
+        "what": "보안 연구진이 재피어에서 파이썬 샌드박스 탈출, AWS 토큰 추출, NPM 계정 탈취로 이어지는 치명적 취약점 체인을 발견했다. 방어자는 IAM 권한 검증, 신뢰되지 않은 코드 격리, 적절한 시크릿 관리를 적용해야 한다.",
+        "points": [
+          "파이썬 샌드박스 탈출 → AWS 토큰 추출 → NPM 탈취",
+          "IAM 권한 검증 권고",
+          "신뢰되지 않은 코드 격리·시크릿 관리"
+        ],
+        "why": [
+          "자동화 SaaS의 코드 실행 격리가 공급망 보안의 약점"
+        ]
+      }
+    },
+    {
+      "id": "llmshare-malvertising",
+      "title": "LLMShare: 공유된 챗봇 페이지를 악성코드 배포 플랫폼으로 악용",
+      "summary": "공유된 ChatGPT 대화로 가짜 서비스 장애 페이지를 만들어 인포스틸러 다운로드를 유도하는 캠페인.",
+      "source": "Push Security",
+      "url": "https://pushsecurity.com/blog/llmshare-malvertising-campaign/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "공유된 ChatGPT 대화를 악용해 인포스틸러를 배포하는 캠페인이 포착됐다.",
+        "what": "공격자가 공유된 ChatGPT 대화를 악용해 그럴듯한 가짜 서비스 장애 페이지를 만들고, 사용자를 인포스틸러 악성코드 다운로드로 유도한다. ChatGPT의 렌더링 기능을 악용해 정당해 보이게 위장한다.",
+        "points": [
+          "공유 챗봇 페이지를 멀버타이징에 악용",
+          "가짜 서비스 장애 페이지로 위장",
+          "인포스틸러 다운로드 유도"
+        ],
+        "why": [
+          "신뢰받는 AI 도메인을 미끼로 쓰는 새로운 공격 표면"
+        ]
+      }
+    },
+    {
+      "id": "gemini-voice-hijack",
+      "title": "메시징 알림으로 제미나이 음성 어시스턴트 탈취",
+      "summary": "메시징 앱 알림에 숨긴 무음 명령을 주입해 사용자 인지 없이 기기를 제어할 수 있는 것으로 확인.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/gemini-voice-assistant-hijacked-via-messaging-notifications/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "메시징 알림에 숨긴 명령으로 제미나이를 무음 탈취할 수 있다.",
+        "what": "연구진은 메시징 앱 알림을 통해 제미나이에 숨겨진 무음 명령을 주입할 수 있음을 발견했다. 가청 신호 없이 기기를 제어할 수 있어 사용자가 인지하기 어렵다.",
+        "points": [
+          "알림 기반 무음 명령 주입",
+          "가청 신호 없이 기기 제어",
+          "음성 어시스턴트 탈취 가능"
+        ],
+        "why": [
+          "음성 AI의 프롬프트 인젝션 공격 표면 확대"
+        ]
+      }
+    },
+    {
+      "id": "hola-browser-cryptominer",
+      "title": "윈도우용 홀라 브라우저, 크립토마이너 배포 위해 변조",
+      "summary": "홀라 브라우저 윈도우 빌드가 변조돼 윈도우 서비스로 위장한 모네로 채굴기를 설치한 것으로 확인.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/hola-browser-for-windows-compromised-to-deliver-cryptominer/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "홀라 브라우저 윈도우 빌드가 변조돼 숨겨진 모네로 채굴기를 설치했다.",
+        "what": "홀라 브라우저의 윈도우 빌드가 변조돼 미고지된 모네로 암호화폐 채굴기를 설치한 것으로 드러났다. 채굴기는 윈도우 서비스로 위장해 자신을 숨긴다.",
+        "points": [
+          "윈도우 빌드 변조",
+          "모네로 채굴기 은닉 설치",
+          "윈도우 서비스로 위장"
+        ],
+        "why": [
+          "정상 소프트웨어 배포 채널의 공급망 변조 위험"
+        ]
+      }
+    },
+    {
+      "id": "ultrahuman-breach",
+      "title": "울트라휴먼 데이터 유출, 내부 도구 통해 사용자 정보 노출",
+      "summary": "웨어러블 헬스테크 울트라휴먼의 내부 분석 시스템이 침해돼 연락처·계정·거래 내역이 노출됐다.",
+      "source": "Cybernews",
+      "url": "https://cybernews.com/security/ultrahuman-data-breach-exposes-users/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "울트라휴먼의 내부 분석 시스템 침해로 사용자 정보가 노출됐다.",
+        "what": "웨어러블 헬스테크 기업 울트라휴먼의 내부 분석 시스템이 침해됐다. 연락처·계정 정보·거래 내역이 노출됐으나 금융·웰니스 데이터는 유출되지 않았다.",
+        "points": [
+          "내부 분석 도구 침해",
+          "연락처·계정·거래 내역 노출",
+          "금융·웰니스 데이터는 안전"
+        ],
+        "why": [
+          "내부 도구가 헬스테크 유출의 취약 고리로 부상"
+        ]
+      }
+    }
+  ]
+}

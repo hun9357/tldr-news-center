@@ -1,0 +1,184 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-recursive-self-improvement",
+      "title": "앤트로픽, 'AI가 스스로를 만든다'…재귀적 자기개선 경고와 글로벌 개발 중단 촉구",
+      "summary": "앤트로픽이 AI가 곧 인간 감독 없이 스스로를 개선하는 단계에 진입한다며 재귀적 자기개선 위험을 경고하고 글로벌 개발 일시 중단을 제안했다.",
+      "source": "Anthropic / WSJ",
+      "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+      "originalDate": "2026-06-04",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "AI 거버넌스·정책"
+      },
+      "related": [
+        "AI 자기개선 안전성 논쟁",
+        "앤트로픽 80% 코드 자동작성 사례",
+        "프런티어 랩 자율 R&D 경쟁"
+      ],
+      "report": {
+        "tldr": "앤트로픽이 AI의 재귀적 자기개선이 임박했다며 안전성을 이유로 글로벌 개발 중단을 촉구했다.",
+        "what": "앤트로픽은 AI 시스템이 곧 인간 감독 없이 스스로 후속 모델을 설계·개선하는 '재귀적 자기개선' 단계에 도달한다고 경고했다. 사내에서는 이미 AI 기반 개발 프로세스가 엔지니어의 연간 코드 산출을 크게 늘렸다고 밝혔다. WSJ 보도에 따르면 회사는 이를 사회적 혼란을 부를 수 있는 위험으로 규정하고 글로벌 차원의 개발 일시 중단을 제안했다.",
+        "points": [
+          "AI가 스스로 후속 모델을 설계하는 재귀적 자기개선 임박 경고",
+          "사내 개발 자동화로 코드 산출이 대폭 증가",
+          "글로벌 개발 일시 중단·감독 체계 마련 촉구"
+        ],
+        "why": [
+          "프런티어 AI의 자율 R&D가 안전·거버넌스의 핵심 쟁점으로 부상",
+          "안전 경고가 동시에 경쟁 우위 메시지로도 읽히는 양면성"
+        ],
+        "context": "재귀적 자기개선(recursive self-improvement)은 AI가 자신의 학습·설계 과정을 자동화해 성능을 가속 향상시키는 개념으로, 통제 가능성 논쟁의 핵심이다.",
+        "action": "AI 정책·안전 가이드라인과 프런티어 랩 자율화 동향을 함께 추적"
+      }
+    },
+    {
+      "id": "anthropic-80-percent-code",
+      "title": "앤트로픽, '신규 프로덕션 코드의 80%를 이제 Claude가 작성'",
+      "summary": "Claude가 프로덕션 코드의 약 4/5를 생성하며 개발자당 코드 산출이 8배로 증가했다고 밝혔다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-says-80-of-its-new-production-code-is-now-authored-by-claude-how-your-enterprise-can-keep-up",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "앤트로픽은 신규 프로덕션 코드의 80%를 Claude가 작성하며 생산성이 급증했다고 공개했다.",
+        "what": "앤트로픽은 Claude가 현재 자사 신규 프로덕션 코드의 약 80%를 생성하며, 개발자 1인당 코드 산출이 8배 늘었다고 밝혔다. 기업이 유사한 생산성을 얻으려면 AI를 단순 보조도구가 아니라 자동화된 코드 생산 아키텍처로 재구성해야 한다고 조언했다.",
+        "points": [
+          "프로덕션 코드의 약 80%를 Claude가 생성",
+          "개발자당 코드 산출 8배 증가",
+          "AI를 '코드 생산 아키텍처'로 재설계할 것을 권고"
+        ],
+        "why": [
+          "에이전틱 코딩의 실질 도입 효과를 보여주는 벤치마크 사례"
+        ]
+      }
+    },
+    {
+      "id": "chatgpt-dreaming-v3",
+      "title": "OpenAI, ChatGPT 'Dreaming V3' 메모리 합성 기능 출시",
+      "summary": "장기 대화에서 맥락 유지력을 높이는 메모리 합성 시스템을 미국 프리미엄 구독자에 우선 배포.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-memory-dreaming/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "OpenAI가 ChatGPT의 장기 맥락 유지력을 높이는 메모리 합성 기능을 도입했다.",
+        "what": "OpenAI는 ChatGPT의 메모리 합성 시스템 'Dreaming V3'를 공개했다. 긴 대화 전반에서 관련성과 맥락 유지력을 강화하며, 미국 프리미엄 구독자를 대상으로 우선 롤아웃됐다.",
+        "points": [
+          "장기 대화 맥락 유지력 강화",
+          "메모리 합성 방식의 새 접근",
+          "미국 프리미엄 구독자 우선 배포"
+        ],
+        "why": [
+          "개인화·장기기억은 어시스턴트 락인의 핵심 경쟁 요소"
+        ]
+      }
+    },
+    {
+      "id": "generalist-ai-400m",
+      "title": "제너럴리스트 AI, 피지컬 AI에 4억 달러 투자 유치",
+      "summary": "Radical Ventures·엔비디아 등이 참여해 물리적 AI 다음 단계 가속을 위한 4억 달러를 조달.",
+      "source": "Generalist AI",
+      "url": "https://generalistai.com/blog/accelerating-the-next-phase-of-physical-ai",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "제너럴리스트 AI가 피지컬 AI 개발을 위해 4억 달러를 유치했다.",
+        "what": "제너럴리스트 AI가 물리적 AI(피지컬 AI)의 다음 단계를 가속하기 위해 4억 달러를 조달했다. Radical Ventures와 엔비디아 등 유력 투자자가 참여했다.",
+        "points": [
+          "피지컬 AI에 4억 달러 투자 유치",
+          "엔비디아·Radical Ventures 참여",
+          "로보틱스·실세계 AI 가속 목표"
+        ],
+        "why": [
+          "로보틱스·실세계 AI로 자본이 집중되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "nemotron-35-content-safety",
+      "title": "엔비디아, 멀티모달·다국어 콘텐츠 안전 모델 Nemotron 3.5 공개",
+      "summary": "감사 가능한 추론을 통합한 통합형 콘텐츠 안전 모델로 기존 모더레이션 파이프라인에 통합 가능.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-5-content-safety",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "엔비디아가 멀티모달·다국어 콘텐츠 안전을 지원하는 Nemotron 3.5를 출시했다.",
+        "what": "엔비디아가 멀티모달·다국어 콘텐츠 안전 집행을 지원하는 통합 모델을 공개했다. 감사 가능한 추론을 통합해 기존 프로덕션 모더레이션 워크플로에 그대로 적용할 수 있다.",
+        "points": [
+          "멀티모달·다국어 안전 집행 지원",
+          "감사 가능한 추론 통합",
+          "기존 모더레이션 파이프라인 호환"
+        ],
+        "why": [
+          "규제 강화 환경에서 콘텐츠 안전 인프라 수요 증가"
+        ]
+      }
+    },
+    {
+      "id": "defending-code-reference-harness",
+      "title": "앤트로픽, 자율 취약점 탐지·교정 레퍼런스 하니스 공개",
+      "summary": "Claude 기반 코드 취약점 탐지·수정 레퍼런스 구현으로 자체호스팅·매니지드 옵션 제공.",
+      "source": "GitHub",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "앤트로픽이 Claude로 코드 취약점을 자동 탐지·교정하는 레퍼런스 하니스를 배포했다.",
+        "what": "앤트로픽이 Claude를 활용해 코드 취약점을 자율적으로 탐지하고 교정하는 레퍼런스 구현을 공개했다. 자체호스팅과 매니지드 서비스 옵션을 모두 제공한다.",
+        "points": [
+          "Claude 기반 자율 취약점 탐지·교정",
+          "자체호스팅·매니지드 옵션",
+          "방어용 보안 자동화 레퍼런스"
+        ],
+        "why": [
+          "AI 보안 자동화의 실전 적용 템플릿 제시"
+        ]
+      }
+    },
+    {
+      "id": "claude-oceanus-redteam",
+      "title": "앤트로픽, 신규 모델 체크포인트 'claude-oceanus-v1-p' 레드팀 공개",
+      "summary": "Oceanus 모델을 레드팀에 공개했으나 한 참가자가 중국 API로 접근권을 재판매하려다 일시 중단.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2062548860308730061.html",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "앤트로픽이 신규 모델 Oceanus를 레드팀에 공개했고, 접근권 재판매 시도로 잠시 중단됐다.",
+        "what": "앤트로픽이 새 모델 체크포인트 'Oceanus'를 레드팀 검증용으로 제공했다. 테스트 그룹의 한 인원이 중국 API 서비스를 통해 접근권을 재판매하려 시도하면서 프로그램이 일시 중단됐다.",
+        "points": [
+          "신규 모델 Oceanus 레드팀 공개",
+          "접근권 재판매 시도 적발",
+          "프로그램 일시 중단"
+        ],
+        "why": [
+          "프런티어 모델 사전 공개의 통제·유출 리스크를 부각"
+        ]
+      }
+    },
+    {
+      "id": "eva-bench-data-2",
+      "title": "EVA-Bench Data 2.0 공개: 3개 도메인·121개 도구·213개 시나리오",
+      "summary": "항공 고객서비스·IT 서비스관리·헬스케어 HR 등 엔터프라이즈 평가 프레임워크를 확장.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva-bench-data",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "EVA-Bench Data 2.0이 엔터프라이즈 에이전트 평가 범위를 3개 도메인으로 확장했다.",
+        "what": "EVA-Bench Data가 평가 프레임워크를 항공 고객서비스, IT 서비스관리, 헬스케어 인사 등 3개 엔터프라이즈 도메인으로 확장했다. 121개 도구와 213개 시나리오를 포함한다.",
+        "points": [
+          "3개 엔터프라이즈 도메인 커버",
+          "121개 도구·213개 시나리오",
+          "에이전트 실무 역량 평가 지향"
+        ],
+        "why": [
+          "엔터프라이즈 에이전트의 실전 신뢰성 측정 기준 정교화"
+        ]
+      }
+    }
+  ]
+}

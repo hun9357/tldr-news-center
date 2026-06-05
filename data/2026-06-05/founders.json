@@ -1,0 +1,149 @@
+{
+  "name": "창업가",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb27a",
+  "bg": "#33240f",
+  "items": [
+    {
+      "id": "asana-agentic-work-management",
+      "title": "아사나, 에이전틱 업무관리 플랫폼 출시",
+      "summary": "조직 기억과 역할 명료성 인프라로 엔터프라이즈 AI 에이전트 실패를 해결, Dash·AI Teammates 포함.",
+      "source": "The Letter Two",
+      "url": "https://thelettertwo.com/2026/06/04/asana-agentic-work-management-platform/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "아사나가 조직 기억 기반의 에이전틱 업무관리 플랫폼을 출시했다.",
+        "what": "아사나가 엔터프라이즈 AI 에이전트 실패를 조직 기억과 역할 명료성 인프라로 해결하는 플랫폼을 공개했다. 비서실장 역할의 Dash 에이전트, AI Teammates, IT·전문서비스용 수직 애플리케이션을 포함한다.",
+        "points": [
+          "조직 기억·역할 명료성 인프라 제공",
+          "Dash 비서실장 에이전트·AI Teammates",
+          "IT·전문서비스 수직 앱"
+        ],
+        "why": [
+          "에이전트 실패의 원인을 '맥락 부재'로 보고 인프라로 접근"
+        ]
+      }
+    },
+    {
+      "id": "creator-to-expert-economy",
+      "title": "\"크리에이터 경제는 끝났다…전문가 경제가 대체한다\"",
+      "summary": "AI가 상단 퍼널 콘텐츠를 상품화하면서 도달보다 입증된 전문성·진정성 있는 경험에 가치가 쏠린다는 분석.",
+      "source": "Strategy Breakdowns",
+      "url": "https://strategybreakdowns.com/p/kajabi",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "AI 시대에는 도달 규모보다 입증된 전문성이 가치를 만든다.",
+        "what": "AI가 상단 퍼널 콘텐츠를 상품화하면서, 청중이 넓은 도달보다 입증된 전문성과 진정성 있는 경험을 더 높이 평가한다는 분석이다. 작고 참여도 높은 커뮤니티가 대규모 팔로워보다 나은 사업 성과를 낸다.",
+        "points": [
+          "AI가 상단 퍼널 콘텐츠 상품화",
+          "전문성·진정성에 가치 집중",
+          "소규모 고참여 커뮤니티가 우위"
+        ],
+        "why": [
+          "콘텐츠 과잉 시대의 차별화 전략 전환"
+        ]
+      }
+    },
+    {
+      "id": "outcome-based-pricing",
+      "title": "성과 기반 가격제 설계법 12가지",
+      "summary": "진짜 성과 가격제와 사용량 모델을 구분하는 12가지 설계 결정을 제시(Intercom Fin·HubSpot Breeze 예시).",
+      "source": "The SaaS CFO",
+      "url": "https://www.thesaascfo.com/how-to-build-outcome-based-pricing/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "성과 기반 가격제를 설계하는 12가지 핵심 결정을 정리했다.",
+        "what": "SaaS CFO 벤 머레이가 진정한 성과 기반 가격제와 단순 사용량 모델을 구분하는 12가지 설계 결정을 제시했다. Intercom Fin은 성과당 0.99달러, HubSpot Breeze는 해결 대화당 0.50~1.00달러를 예시로 들었다.",
+        "points": [
+          "성과 vs 사용량 가격제 구분",
+          "12가지 설계 결정 제시",
+          "Intercom Fin·HubSpot Breeze 사례"
+        ],
+        "why": [
+          "AI 제품 과금 모델 설계의 실무 지침"
+        ]
+      }
+    },
+    {
+      "id": "top-saas-vendors-ramp",
+      "title": "램프 선정 인기 SaaS 벤더(2026년 6월): 딥시크 선두",
+      "summary": "딥시크가 6월 트렌딩 소프트웨어 선두, 기업들이 OpenAI·앤트로픽 외 오픈소스 AI 플랫폼으로 이동.",
+      "source": "Ramp",
+      "url": "https://ramp.com/leading-indicators/top-saas-vendors-on-ramp-june-2026",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "램프 데이터에서 딥시크가 6월 트렌딩 SaaS 선두에 올랐다.",
+        "what": "램프의 지출 데이터에서 딥시크가 6월 트렌딩 소프트웨어 선두를 차지했다. 기업들이 OpenAI·앤트로픽에만 의존하기보다 Fireworks AI·DeepInfra 같은 오픈소스 AI 플랫폼으로 이동하는 양상이다.",
+        "points": [
+          "딥시크 6월 트렌딩 선두",
+          "오픈소스 AI 플랫폼 채택 증가",
+          "Fireworks AI·DeepInfra 부상"
+        ],
+        "why": [
+          "기업 AI 지출의 멀티벤더·오픈소스 분산 신호"
+        ]
+      }
+    },
+    {
+      "id": "google-search-profiles",
+      "title": "구글 검색, 웹사이트·크리에이터용 프로필 페이지 추가",
+      "summary": "크리에이터·퍼블리셔가 지식 패널과 전용 URL로 노출되는 검색 프로필을 커스터마이즈할 수 있게 됐다.",
+      "source": "9to5Google",
+      "url": "https://9to5google.com/2026/06/04/google-search-profiles/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "구글 검색이 크리에이터·퍼블리셔용 프로필 페이지를 도입했다.",
+        "what": "구글이 크리에이터·퍼블리셔가 검색 노출을 직접 꾸밀 수 있는 프로필 페이지를 제공한다. 지식 패널과 전용 URL로 접근 가능하며 소셜 링크·동영상·게시물을 담을 수 있고 기능이 추가될 예정이다.",
+        "points": [
+          "검색 프로필 페이지 제공",
+          "지식 패널·전용 URL 접근",
+          "소셜 링크·동영상·게시물 포함"
+        ],
+        "why": [
+          "AI 검색 시대 퍼블리셔의 노출 통제권 강화"
+        ]
+      }
+    },
+    {
+      "id": "sentry-non-eng-ship",
+      "title": "센트리 비개발 팀이 '배포'를 배운 방법",
+      "summary": "센트리 마케팅 팀이 코딩 경험 없이 2,500개 웹페이지를 코드 기반 시스템으로 이전한 사례.",
+      "source": "Technically",
+      "url": "https://read.technically.dev/p/how-matt-learned-to-ship",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "센트리 마케팅 팀이 코딩 없이 2,500개 페이지를 코드 기반으로 이전했다.",
+        "what": "센트리의 마케팅 팀이 사전 코딩 경험 없이 2,500개 웹페이지를 코드 기반 시스템으로 이전하는 데 성공했다. 비기술 팀도 실전 구현을 통해 기술 역량을 키울 수 있음을 보여준다.",
+        "points": [
+          "비개발 팀의 코드 기반 이전",
+          "2,500개 페이지 마이그레이션",
+          "실전 기반 기술 역량 습득"
+        ],
+        "why": [
+          "AI 도구로 비개발 직군의 기술 진입장벽 하락"
+        ]
+      }
+    },
+    {
+      "id": "ai-treadmill",
+      "title": "'AI 러닝머신': 효율이 만든 시간을 어떻게 쓸 것인가",
+      "summary": "AI 효율로 생긴 여유를 일을 더 채우는 대신 사고할 공간으로 보호해야 창의성이 나온다는 에세이.",
+      "source": "Deb Liu",
+      "url": "https://debliu.substack.com/p/the-ai-treadmill",
+      "originalDate": "2026-06-03",
+      "report": {
+        "tldr": "AI 효율이 만든 시간을 사고의 공간으로 보호해야 한다는 주장이다.",
+        "what": "AI 효율 향상이 업무량 확대와 의미 있는 사고 시간 사이의 선택을 만든다는 에세이다. 창의성은 여유를 추가 업무로 채울 때가 아니라 성찰을 위한 보호된 공간에서 나온다고 본다.",
+        "points": [
+          "효율이 만든 시간의 활용 딜레마",
+          "추가 업무 vs 사고 시간",
+          "창의성은 보호된 여유에서"
+        ],
+        "why": [
+          "AI 생산성 담론의 인간 중심 균형 관점"
+        ]
+      }
+    }
+  ]
+}

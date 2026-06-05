@@ -1,0 +1,169 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "apple-messages-first-ai-agent",
+      "title": "애플, 메시지 비즈니스 챗 최초의 서드파티 AI 에이전트 'Poke' 승인",
+      "summary": "Poke가 애플 메시지에서 이메일 발송·리마인더·이미지 생성을 수행하며 Outlook·Gmail·GitHub와 연동된다.",
+      "source": "AppleInsider",
+      "url": "https://appleinsider.com/articles/26/06/04/first-ai-agent-for-messages-business-chat-approved-by-apple",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "애플이 메시지 비즈니스 챗에 첫 서드파티 AI 에이전트 Poke를 승인했다.",
+        "what": "AI 어시스턴트 Poke가 애플 '메시지 비즈니스 챗'을 통해 제공된다. 이메일 발송, 리마인더 설정, 이미지 생성을 수행하고 Outlook·Gmail·GitHub와 연동된다. 기본 작업은 무료, 집약적 요청은 유료다.",
+        "points": [
+          "애플 메시지 첫 서드파티 AI 에이전트",
+          "이메일·리마인더·이미지 생성 수행",
+          "Outlook·Gmail·GitHub 연동, 기본 무료"
+        ],
+        "why": [
+          "애플 메시징을 에이전트 플랫폼으로 개방하는 신호"
+        ]
+      }
+    },
+    {
+      "id": "amazon-proteus-autonomous",
+      "title": "아마존, 완전 자율 창고 로봇 '프로테우스' 신형 공개",
+      "summary": "작업자의 평이한 자연어 지시를 받아 창고 작업을 자율 수행, 2027년 상반기 유럽 배치 예정.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2187338/amazons-new-proteus-warehouse-robot-is-fully-autonomous/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "아마존의 신형 프로테우스는 자연어 지시로 창고 작업을 자율 수행한다.",
+        "what": "아마존이 업그레이드한 프로테우스 로봇은 작업자의 평이한 언어 지시를 받아 창고 업무를 자율적으로 완수한다. 현재 실험실 테스트 중이며 2027년 상반기 유럽 배치를 시작할 예정이다.",
+        "points": [
+          "자연어 지시 기반 자율 작업",
+          "현재 실험실 테스트 단계",
+          "2027 상반기 유럽 배치 예정"
+        ],
+        "why": [
+          "물류 자동화에서 자연어 인터페이스 로봇의 상용화 진전"
+        ]
+      }
+    },
+    {
+      "id": "voidzero-joins-cloudflare",
+      "title": "VoidZero, 클라우드플레어에 합류 (Vite·Vitest·Oxc 팀 인수)",
+      "summary": "Vite·Vitest·Rolldown·Oxc 개발팀이 클라우드플레어 산하로 편입되며 100만 달러 생태계 펀드도 조성.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/voidzero-joins-cloudflare/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "클라우드플레어가 Vite·Vitest 등을 만든 VoidZero 팀을 인수했다.",
+        "what": "클라우드플레어가 Vite, Vitest, Rolldown, Oxc 등 인기 도구를 만든 VoidZero 팀을 인수했다. 이들 도구는 오픈소스·벤더 중립으로 유지되며, 메인테이너 지원을 위한 100만 달러 생태계 펀드가 조성된다.",
+        "points": [
+          "Vite·Vitest·Rolldown·Oxc 팀 인수",
+          "오픈소스·벤더 중립 유지 약속",
+          "100만 달러 생태계 펀드 조성"
+        ],
+        "why": [
+          "프런트엔드 빌드 툴체인의 지배력 재편"
+        ]
+      }
+    },
+    {
+      "id": "spacex-mega-ipo-index-denied",
+      "title": "S&P, 스페이스X 등 메가 IPO의 신속 지수 편입 불허",
+      "summary": "12개월 시즈닝·수익성 요건을 유지하기로 해 대형 IPO의 즉시 지수 편입 요구를 거부했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-04/s-p-dow-jones-keeps-megacap-ipo-rules-as-is-after-consultation",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "S&P가 메가 IPO의 신속 지수 편입을 허용하지 않기로 했다.",
+        "what": "S&P 다우존스 인덱스가 의견수렴 끝에 12개월 시즈닝 요건과 수익성 기준을 그대로 유지하기로 했다. 대형 IPO 후보들의 즉시 지수 편입 압박에도 규정을 바꾸지 않았다.",
+        "points": [
+          "12개월 시즈닝 요건 유지",
+          "수익성 기준 유지",
+          "메가 IPO 즉시 편입 요구 거부"
+        ],
+        "why": [
+          "스페이스X 등 대형 IPO의 패시브 자금 유입 시점에 영향"
+        ]
+      }
+    },
+    {
+      "id": "bots-pass-human-traffic",
+      "title": "온라인 트래픽, 봇이 인간을 추월",
+      "summary": "에이전트 트래픽이 예상보다 1년 앞서 인간 생성 웹 트래픽을 넘어섰다고 클라우드플레어가 밝혔다.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/bots-have-now-passed-human-traffic-online-cloudflare-boss-laments-says-agentic-traffic-wasnt-expected-to-eclipse-real-people-until-next-year",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "AI 에이전트 트래픽이 인간 웹 트래픽을 추월했다.",
+        "what": "작업을 수행하는 AI 에이전트가 만든 트래픽이 인간 생성 웹 트래픽을 넘어섰다. 업계는 내년에야 역전될 것으로 봤으나 예상보다 일찍 도달했다고 클라우드플레어 측이 전했다.",
+        "points": [
+          "에이전트 트래픽이 인간 트래픽 추월",
+          "예상보다 약 1년 빠른 역전",
+          "웹 인프라·봇 관리 부담 증가"
+        ],
+        "why": [
+          "에이전틱 웹 시대의 인프라·과금·보안 재설계 필요성"
+        ]
+      }
+    },
+    {
+      "id": "meta-glasses-face-recognition",
+      "title": "메타 스마트글라스 동반 앱에 휴면 상태의 얼굴인식 파이프라인 탑재",
+      "summary": "메타 스마트글라스 앱에 현재 비활성 상태이지만 완전 동작 가능한 얼굴인식 시스템이 포함된 것으로 확인.",
+      "source": "buchodi.com",
+      "url": "https://www.buchodi.com/meta-glasses-facial-recognition/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "메타 스마트글라스 앱에 비활성 상태의 얼굴인식 파이프라인이 발견됐다.",
+        "what": "메타 스마트글라스의 동반 앱에 현재 작동하지 않지만 완전한 얼굴인식 시스템이 내장돼 있는 것으로 확인됐다. 활성 식별의 증거는 없으나 인프라 자체는 이미 존재한다.",
+        "points": [
+          "휴면 상태의 완전한 얼굴인식 파이프라인",
+          "현재 활성 식별 증거는 없음",
+          "프라이버시 우려 촉발"
+        ],
+        "why": [
+          "웨어러블 얼굴인식의 잠재적 프라이버시 리스크"
+        ]
+      }
+    },
+    {
+      "id": "nadella-core-competencies",
+      "title": "사티아 나델라 인터뷰: 마이크로소프트의 핵심 역량 찾기",
+      "summary": "Build 컨퍼런스 이후 인프라 투자, 깃허브 코파일럿 전략, 파트너십 등 MS의 방향성을 논의.",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "나델라가 MS의 AI 인프라·코파일럿 전략과 경쟁 포지셔닝을 설명했다.",
+        "what": "사티아 나델라가 Build 개발자 컨퍼런스 이후 마이크로소프트의 경쟁 포지셔닝, 인프라 투자, 깃허브 코파일럿 전략, 파트너십을 논의했다. AI 인프라와 소프트웨어 서비스 전반의 전략 방향이 주제다.",
+        "points": [
+          "AI 인프라 투자 방향",
+          "깃허브 코파일럿 전략",
+          "핵심 역량 중심 포지셔닝"
+        ],
+        "why": [
+          "빅테크 AI 플랫폼 전략의 비교 기준 제공"
+        ]
+      }
+    },
+    {
+      "id": "code-is-cheaper",
+      "title": "\"코드는 (더) 싸졌다\"…엔지니어는 빼는 사람이 돼야",
+      "summary": "코드 생성이 쉬워질수록 LLM 산출물을 정제·삭제하는 역량이 핵심 우선순위가 된다는 주장.",
+      "source": "htmx.org",
+      "url": "https://htmx.org/essays/code-is-cheap/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "코드 생성이 저렴해질수록 정제와 삭제가 엔지니어링의 핵심이 된다.",
+        "what": "코드 생성이 보편화되면서 엔지니어링의 우선순위가 새로 짜는 것에서 LLM 산출물을 정제·축소하는 쪽으로 이동해야 한다는 에세이다. 성공은 전략적 코드 삭제와 증식 억제에 달려 있다고 본다.",
+        "points": [
+          "코드 생성 비용 하락",
+          "정제·삭제 역량이 핵심",
+          "엔지니어는 '빼는 게이트키퍼'"
+        ],
+        "why": [
+          "AI 코딩 시대의 엔지니어 역할 재정의"
+        ]
+      }
+    }
+  ]
+}

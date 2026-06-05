@@ -1,0 +1,149 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "meta-enterprise-business-agent",
+      "title": "메타, 엔터프라이즈 AI 경쟁 진입…신규 비즈니스 에이전트 출시",
+      "summary": "WhatsApp·메신저에서 예약 등 업무를 자동화하는 비즈니스 에이전트를 무료로 시작, 유료 등급 예정.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/meta-launches-enterprise-focused-ai-business-agent-automate-daily-operations-2026-06-03/",
+      "originalDate": "2026-06-03",
+      "report": {
+        "tldr": "메타가 메시징 기반 비즈니스 에이전트로 엔터프라이즈 AI에 진입했다.",
+        "what": "메타의 비즈니스 에이전트가 WhatsApp·메신저에서 예약 등 업무를 자동화한다. 기존 챗봇 사용 기반을 확장하며 초기 무료로 제공하고 유료 등급을 도입할 계획이다.",
+        "points": [
+          "WhatsApp·메신저 업무 자동화",
+          "기존 챗봇 기반 확장",
+          "무료 시작·유료 등급 예정"
+        ],
+        "why": [
+          "메타 메시징 생태계의 에이전틱 커머스 수익화"
+        ]
+      }
+    },
+    {
+      "id": "ai-citations-off-site",
+      "title": "B2B SaaS의 AI 인용 90% 가까이가 외부 소스에서 발생",
+      "summary": "AI 인용의 10%만 브랜드 도메인에서 나와, 레딧·유튜브·링크드인이 AI 벤더 발견의 핵심 소스로 부상.",
+      "source": "Foundation",
+      "url": "https://foundationinc.co/lab/ai-visibility-off-site-sources/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "B2B SaaS의 AI 인용 대부분이 외부 소스에서 발생한다.",
+        "what": "B2B 브랜드의 AI 인용 중 약 10%만 자사 도메인에서 나오고, 90% 가까이가 외부 소스에서 발생한다. 레딧·유튜브·링크드인이 AI 주도 벤더 발견의 핵심 소스로 떠올랐다.",
+        "points": [
+          "AI 인용의 10%만 브랜드 도메인",
+          "외부 소스가 90% 차지",
+          "레딧·유튜브·링크드인 중요"
+        ],
+        "why": [
+          "AI 검색 가시성(AEO)의 오프사이트 전략 필요성"
+        ]
+      }
+    },
+    {
+      "id": "cautious-shoppers-clear-value",
+      "title": "신중한 소비자는 명확한 가치를 보상한다",
+      "summary": "명확한 가치 메시지가 전환을 앞당겨 고객 획득 비용을 낮춘다, 월마트·코스트코는 성과 중심 메시지로 성장.",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/cautious-shoppers-reward-clear-value",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "명확한 가치 메시지가 전환을 앞당기고 획득 비용을 낮춘다.",
+        "what": "명확한 가치 메시지가 더 빠른 전환을 가능하게 해 고객 획득 비용을 줄인다. 월마트·코스트코는 기능보다 내구성·절약 같은 성과를 강조해 성장을 끌어올린다.",
+        "points": [
+          "명확한 가치 → 빠른 전환",
+          "획득 비용 절감",
+          "기능보다 성과 강조"
+        ],
+        "why": [
+          "불확실 소비 환경의 메시징 전략 시사점"
+        ]
+      }
+    },
+    {
+      "id": "migrated-marketing-site-cms",
+      "title": "우리가 마케팅 사이트를 CMS에서 코드로 이전한 이유",
+      "summary": "콘텐츠를 코드로 옮겨 AI 에이전트가 대규모로 테스트·최적화하게 하니 전환이 약 4배 개선됐다.",
+      "source": "Matthew Henderson",
+      "url": "https://hendersonmatthew.substack.com/p/why-we-migrated-our-marketing-site",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "마케팅 사이트를 코드로 이전해 AI 최적화로 전환을 4배 높였다.",
+        "what": "콘텐츠를 CMS에서 코드로 옮기자 AI 에이전트가 페이지를 대규모로 테스트·최적화할 수 있게 됐다. 그 결과 사이트 전환이 약 4배 개선되고 CMS 병목이 줄었다.",
+        "points": [
+          "콘텐츠를 코드로 이전",
+          "AI 에이전트 대규모 최적화",
+          "전환 약 4배 개선"
+        ],
+        "why": [
+          "AI 기반 그로스 최적화를 위한 인프라 전환 사례"
+        ]
+      }
+    },
+    {
+      "id": "content-machine-11-steps",
+      "title": "11단계로 콘텐츠 머신 구축하기",
+      "summary": "아이디어 소싱·리서치·작성·재가공을 자동화하되 핵심 결정 지점엔 인간 검토를 유지하는 워크플로.",
+      "source": "Alex Lieberman",
+      "url": "https://www.linkedin.com/posts/alex-lieberman_i-built-a-content-machine-it-turned-me-share-7468039164828065793-w2Ld/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "아이디어부터 재가공까지 자동화하되 인간 검토를 유지하는 콘텐츠 워크플로다.",
+        "what": "아이디어 소싱, 리서치, 크리에이터 보이스 기반 초안 작성, 다양한 포맷 재가공을 자동화하는 콘텐츠 머신을 11단계로 정리했다. 핵심 결정 지점에는 인간 검토를 유지한다.",
+        "points": [
+          "아이디어·리서치·작성·재가공 자동화",
+          "크리에이터 보이스 유지",
+          "핵심 지점 인간 검토"
+        ],
+        "why": [
+          "AI 콘텐츠 생산의 실무 파이프라인 참고"
+        ]
+      }
+    },
+    {
+      "id": "w3c-advertising-measurement",
+      "title": "W3C의 광고 효과 측정 접근, 중대한 실수",
+      "summary": "어트리뷰션은 인과를 증명하지 못하고 TV·라디오 같은 브랜드 채널을 과소평가해 예산을 왜곡한다는 비판.",
+      "source": "AdExchanger",
+      "url": "https://www.adexchanger.com/data-driven-thinking/the-w3c-is-making-a-critical-mistake-about-measuring-advertising-effectiveness/",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "어트리뷰션 중심 측정이 브랜드 채널을 과소평가한다는 비판이다.",
+        "what": "어트리뷰션 시스템은 인과관계를 증명하지 못하고 TV·라디오 같은 브랜드 구축 채널을 체계적으로 과소평가한다. 그 결과 예산이 수요 창출보다 수요 수확 쪽으로 쏠릴 수 있다는 지적이다.",
+        "points": [
+          "어트리뷰션은 인과 증명 불가",
+          "브랜드 채널 과소평가",
+          "예산 왜곡 우려"
+        ],
+        "why": [
+          "측정 표준이 마케팅 예산 배분에 미치는 영향"
+        ]
+      }
+    },
+    {
+      "id": "transparent-packaging",
+      "title": "포장을 투명하게 만들어라",
+      "summary": "투명 포장이 심리적 소유감을 높여 제품 선택을 4배 늘린다, 단 매력 없는 제품엔 역효과 위험.",
+      "source": "Science Says",
+      "url": "https://app.sciencesays.com/p/make-your-packaging-transparent",
+      "originalDate": "2026-06-04",
+      "report": {
+        "tldr": "투명 포장이 심리적 소유감으로 제품 선택을 4배 높인다.",
+        "what": "투명 포장이 심리적 소유감을 높여 제품 선택을 4배 늘린다는 연구다. 시각적으로 매력적인 품목에 가장 효과적이며, 매력이 떨어지는 제품에는 역효과가 날 수 있다.",
+        "points": [
+          "투명 포장 → 소유감 상승",
+          "제품 선택 4배 증가",
+          "매력 없는 제품엔 역효과"
+        ],
+        "why": [
+          "패키징 설계의 행동심리 레버리지"
+        ]
+      }
+    }
+  ]
+}
