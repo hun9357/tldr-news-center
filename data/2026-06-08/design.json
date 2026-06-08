@@ -1,0 +1,302 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-ios27-redesign",
+      "title": "iOS 27, 카메라·이미지 플레이그라운드 등 재설계",
+      "summary": "카메라 커스텀 컨트롤·Siri 비주얼 인텔리전스, Liquid Glass 정교화.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/06/05/new-ios-27-designs-reportedly-coming-to-these-iphone-apps/",
+      "report": {
+        "tldr": "iOS 27이 카메라·이미지 플레이그라운드 등 주요 앱의 디자인을 대대적으로 손본다.",
+        "what": "iOS 27은 카메라 앱(커스텀 컨트롤, Siri 기반 비주얼 인텔리전스 모드)과 이미지 플레이그라운드(갤러리 재설계, 편집 도구 간소화)에 큰 재설계를 가져올 전망이며, Find My·날씨·사파리에도 소규모 업데이트가 따른다. Liquid Glass 인터페이스도 다듬으며, 다수 기본 앱에서 검색을 다시 앱 탭바로 옮긴다.",
+        "points": [
+          "카메라·이미지 플레이그라운드 재설계",
+          "Siri 비주얼 인텔리전스 모드",
+          "검색을 탭바로 복귀"
+        ],
+        "why": [
+          "애플 UI 패러다임 변화 신호",
+          "WWDC 발표 맥락의 디자인 방향"
+        ]
+      }
+    },
+    {
+      "id": "design-netflix-genai-discovery",
+      "title": "넷플릭스, 스스로 만든 문제를 생성 AI로 해결",
+      "summary": "방대한 라이브러리 탐색난을 무드 추천·음성 인터페이스로.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/netflix-generative-ai-content-overload",
+      "report": {
+        "tldr": "넷플릭스가 콘텐츠 과잉으로 인한 선택 마비를 생성 AI로 풀려 한다.",
+        "what": "넷플릭스가 생성 AI와 자연어 처리로 구독자의 방대한 콘텐츠 라이브러리 탐색을 돕는다. 무드 기반 추천과 테스트 중인 음성 인터페이스가 그 예다. 최고제품책임자 엘리자베스 스톤은 AI가 풀려는 선택 마비가 넷플릭스의 다년간 대량 콘텐츠 발주가 만든 것이라는 아이러니를 인정했다. 출시 일정은 미정이지만, 유튜브와의 경쟁 속에서 앱을 열고 재생까지의 간극을 좁히려는 방향은 분명하다.",
+        "points": [
+          "무드 추천·음성 인터페이스 도입",
+          "선택 마비는 자체 초래한 문제",
+          "앱→재생 간극 단축 목표"
+        ],
+        "why": [
+          "추천 UX가 스트리밍 경쟁의 핵심",
+          "콘텐츠 과잉 시대의 발견 설계"
+        ]
+      }
+    },
+    {
+      "id": "design-cameron-stereotec",
+      "title": "제임스 카메론 3D 스튜디오, STEREOTEC 인수",
+      "summary": "독일 3D 카메라 제조사 통합해 입체 콘텐츠 파이프라인 강화.",
+      "source": "Road to VR",
+      "url": "https://roadtovr.com/james-cameron-acquires-stereotec",
+      "report": {
+        "tldr": "제임스 카메론의 Lightstorm Vision이 독일 3D 카메라 제조사 STEREOTEC을 인수했다.",
+        "what": "제임스 카메론의 3D 제작 스튜디오 Lightstorm Vision이 영화·스포츠 중계·몰입형 콘서트에 쓰이는 독일 카메라 제조사 STEREOTEC을 인수했다. STEREOTEC의 정밀 3D 리그를 파이프라인에 직접 통합해 입체 콘텐츠의 촬영·처리·전달을 간소화한다. 2024년 설립된 Lightstorm Vision은 27편 이상의 장편과 140건 스포츠 중계를 지원했고, STEREOTEC은 '듄: 파트2'와 빌리 아일리시 콘서트 3D 등을 작업했다.",
+        "points": [
+          "독일 3D 카메라 제조사 인수",
+          "정밀 3D 리그 파이프라인 통합",
+          "영화·스포츠·몰입형 전반 지원"
+        ],
+        "why": [
+          "입체·몰입형 콘텐츠 수직 통합",
+          "3D 제작 생태계의 통합 흐름"
+        ]
+      }
+    },
+    {
+      "id": "design-rhetorical-mask-innovation",
+      "title": "혁신이라는 수사의 가면",
+      "summary": "혁신은 '새로움'일 뿐 '더 나음'이 아니다—가설로 다뤄야.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/4KHoYk",
+      "report": {
+        "tldr": "혁신은 새로움을 뜻할 뿐 더 나음을 보장하지 않으며, 진보는 장기 결과로만 판단된다.",
+        "what": "혁신은 단지 새로운 무언가의 도입을 뜻하지 진보를 보장하지 않는다. 진정한 진보는 장기적 결과와 증거로만 판단할 수 있다. 항생제·스마트폰·AI 같은 신기술은 종종 개선의 약속에 싸여 도착하지만, 실제 이익과 해악은 이해하는 데 수년이 걸려 혁신을 진보의 증거가 아닌 가설로 다뤄야 한다.",
+        "points": [
+          "혁신=새로움, 더 나음 아님",
+          "진보는 장기 결과로 판단",
+          "혁신을 가설로 취급"
+        ],
+        "why": [
+          "기술 도입의 비판적 사고 환기",
+          "AI 과대광고 시대의 균형추"
+        ]
+      }
+    },
+    {
+      "id": "design-behavioral-econ-ux",
+      "title": "숨은 '왜': UX를 위한 행동경제학",
+      "summary": "3B 프레임워크로 마찰·동기 파악해 전환 설계.",
+      "source": "NN/g",
+      "url": "https://www.nngroup.com/articles/behavioral-economics-for-ux/",
+      "report": {
+        "tldr": "행동경제학은 사용자가 의도대로 행동하지 못하는 심리·감정·사회적 요인을 이해하게 돕는다.",
+        "what": "행동경제학은 사용자가 왜 의도대로 행동하지 못하는지를, 의사결정에 영향을 주는 심리·감정·사회적 요인을 통해 이해하게 해 준다. 3B 프레임워크(Behavior, Barriers, Benefits) 같은 도구는 마찰 지점을 식별하고 동기를 발굴해, 가입 완료 같은 원하는 행동을 더 일어나게 하는 타깃 개입을 설계하는 구조적 방법을 제공한다.",
+        "points": [
+          "행동 격차의 심리·사회 요인 분석",
+          "3B 프레임워크로 마찰·동기 식별",
+          "타깃 개입으로 전환 유도"
+        ],
+        "why": [
+          "전환 최적화의 이론적 토대",
+          "UX 의사결정의 근거 기반화"
+        ]
+      }
+    },
+    {
+      "id": "design-font-pairing-mistakes",
+      "title": "흔한 폰트 페어링 실수 6가지",
+      "summary": "대비·위계·역할이 핵심, 때론 한 글꼴 가족이 더 강하다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/fonts-typography/six-common-font-pairing-mistakes-and-how-to-avoid-them",
+      "report": {
+        "tldr": "효과적 폰트 페어링은 명확한 대비·위계·목적에 달려 있다.",
+        "what": "효과적 폰트 페어링은 명확한 대비, 위계, 목적에 의존한다. 너무 비슷하거나 너무 표현적이거나 역할이 모호한 글꼴 조합을 피하고, 각 글꼴이 시스템 안에서 특정 역할을 갖게 해야 한다. 많은 경우 여러 굵기·스타일·옵티컬 사이즈를 가진 잘 고른 단일 글꼴 가족이 여러 글꼴을 섞는 것보다 더 강하고 일관된 정체성을 만든다.",
+        "points": [
+          "대비·위계·역할이 핵심",
+          "유사·과표현·역할 모호 조합 회피",
+          "단일 글꼴 가족도 강력한 선택"
+        ],
+        "why": [
+          "타이포그래피 기본기 점검",
+          "브랜드 일관성 강화"
+        ]
+      }
+    },
+    {
+      "id": "design-complexity-ceiling",
+      "title": "복잡성이 천장이다: AI 코딩 시대의 소프트웨어 설계",
+      "summary": "AI 작성 커밋 결함 90%가 구조적 코드 스멜.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/complexity-is-the-ceiling-software-design-in-the-age-of-ai-coding",
+      "report": {
+        "tldr": "AI가 코드 작성은 빠르게 했지만, 복잡한 시스템 이해·수정이라는 진짜 병목은 여전히 인간의 몫이다.",
+        "what": "AI 코딩 도구가 코드 작성을 그 어느 때보다 빠르게 만들었지만, 복잡한 시스템을 이해하고 안전하게 수정하는 진짜 병목은 전적으로 인간에게 남아 있다. 30만 건 이상 AI 작성 커밋을 분석한 2026년 연구는 도입된 문제의 약 90%가 구조적 코드 스멜임을 발견했는데, 이는 모델이 유지보수성보다 동작하는 출력에 최적화함을 보여준다. 깔끔한 코드베이스는 AI의 이점을 키우고 엉킨 코드베이스는 그것을 제한한다.",
+        "points": [
+          "진짜 병목은 시스템 이해·수정",
+          "AI 커밋 결함 약 90%가 구조적",
+          "깨끗한 설계가 AI 이점 증폭"
+        ],
+        "why": [
+          "AI 시대 소프트웨어 설계의 중요성 증대",
+          "코드 품질이 AI 생산성의 상한"
+        ]
+      }
+    },
+    {
+      "id": "design-daily-designer",
+      "title": "Daily Designer (웹사이트)",
+      "summary": "존경받는 디자이너들의 명언을 매일 모은 모음집.",
+      "source": "arun.is",
+      "url": "https://arun.is/blog/daily-designer/",
+      "report": {
+        "tldr": "업계에서 존경받는 디자이너들의 매일의 명언을 모은 컬렉션이다.",
+        "what": "업계에서 가장 존경받는 디자이너들의 명언을 매일 모은 컬렉션 웹사이트다.",
+        "points": [
+          "디자이너 명언 일일 큐레이션",
+          "영감용 리소스"
+        ],
+        "why": [
+          "디자이너를 위한 영감 소스"
+        ]
+      }
+    },
+    {
+      "id": "design-test-ads-scale",
+      "title": "Test Ads at Scale (웹사이트)",
+      "summary": "제품 링크와 크리에이터만 고르면 60초 만에 광고 생성.",
+      "source": "ClipLoft",
+      "url": "https://cliploft.com/",
+      "report": {
+        "tldr": "제품 링크를 붙이고 크리에이터를 고르면 60초 만에 바로 쓸 광고를 만든다.",
+        "what": "제품 링크를 붙여넣고 크리에이터를 선택하면 60초 안에 실행 가능한 광고를 받는 도구다.",
+        "points": [
+          "제품 링크 기반 광고 생성",
+          "60초 내 즉시 실행 가능"
+        ],
+        "why": [
+          "AI 광고 제작 자동화 도구 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-anime-short-series",
+      "title": "Make Anime Short Series in Minutes (웹사이트)",
+      "summary": "애니 아트·영상·캐릭터·스토리보드 올인원 AI 도구.",
+      "source": "Arcloop",
+      "url": "https://arcloop.ai/",
+      "report": {
+        "tldr": "애니메이션 아트·영상·캐릭터·스토리보드를 만드는 올인원 AI 창작 도구다.",
+        "what": "애니메이션 아트, 영상, 캐릭터, 스토리보드를 위한 올인원 AI 창작 도구다.",
+        "points": [
+          "애니 아트·영상·캐릭터·스토리보드",
+          "올인원 AI 창작 도구"
+        ],
+        "why": [
+          "생성 AI 기반 애니 제작 도구 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-studio-patten",
+      "title": "Studio Patten, 시각적 정직함과 호기심의 결합",
+      "summary": "빈티지 인쇄·건축·문학에서 영감, 고정 스타일 거부.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/inspiration/studio-patten-blends-visual-honesty-and-curiosity-across-illustration-and-graphic-design/",
+      "report": {
+        "tldr": "Studio Patten은 고정된 비주얼 스타일을 거부하고 협업과 진화를 강조한다.",
+        "what": "Aida Novoa와 Carlos Egan이 설립한 Studio Patten은 빈티지 인쇄물, 건축, 문학 등 여러 창작 분야에서 영감을 받아 실험과 접근성의 균형을 맞춘 디자인·일러스트 작업을 만든다. 고정된 비주얼 스타일을 거부하고 협업, 사려 깊은 타이포그래피, 지속적 진화를 강조하며, 추상적 형태의 개인 책부터 청소년을 위한 철학 교과서까지 폭넓은 프로젝트를 보여준다.",
+        "points": [
+          "빈티지 인쇄·건축·문학 영감",
+          "고정 스타일 거부, 협업 강조",
+          "실험과 접근성의 균형"
+        ],
+        "why": [
+          "스튜디오 운영·창작 철학 참고 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-web-components-agnostic",
+      "title": "웹 컴포넌트가 디자인 시스템을 프레임워크 독립적으로?",
+      "summary": "JS 강화층만 담당, 템플릿·데이터·스타일은 스택에 종속.",
+      "source": "Adam Silver",
+      "url": "https://adamsilver.io/blog/do-web-components-make-your-design-system-framework-agnostic/",
+      "report": {
+        "tldr": "웹 컴포넌트는 JS 강화층만 다룰 뿐, '프레임워크 독립적'이라는 표현은 오해를 부른다.",
+        "what": "웹 컴포넌트는 디자인 시스템의 자바스크립트 강화층만 처리하고, 템플릿·데이터 주입·스타일링은 특정 스택에 묶여 있다. AJAX 데이터 페칭이나 컴포넌트 간 이벤트 조율 같은 JS 오케스트레이션은 웹 컴포넌트와 무관하게 여전히 라이브러리나 커스텀 코드를 요구한다. 이 접근을 '프레임워크 독립적'이라 부르는 것은 상당한 구현 부담을 소비 팀에 떠넘기는 것이라 오해를 부른다.",
+        "points": [
+          "웹 컴포넌트는 JS 강화층만 담당",
+          "템플릿·데이터·스타일은 스택 종속",
+          "'독립적' 표현은 오해 소지"
+        ],
+        "why": [
+          "디자인 시스템 아키텍처 선택의 함정",
+          "프레임워크 종속성의 현실 인식"
+        ]
+      }
+    },
+    {
+      "id": "design-system-ai-ready",
+      "title": "디자인 시스템을 AI 친화적으로 만드는 법",
+      "summary": "디자인 결정을 인프라처럼 구조화·토큰화·감사 스크립트로 검증.",
+      "source": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+      "report": {
+        "tldr": "AI 프로토타입의 실패는 결정을 인프라처럼 문서화·검증하면 줄일 수 있다.",
+        "what": "AI 생성 프로토타입은 미문서화된 결정, 하드코딩된 값, AI가 가이드 없이 디자인 흐름을 해석하는 과도한 의존 때문에 자주 부족하다. 디자인 시스템을 AI 친화적으로 만들려면 디자인 결정을 인프라처럼—구조화된 마크다운 스펙 파일에 담고, 토큰 레이어로 유지하고, 불일치를 잡는 감사 스크립트로 검증—다뤄야 한다. FigmaLint 같은 도구가 문서를 깨끗이 유지하고, 싱크 루틴이 AI가 항상 최신 스펙을 읽게 한다.",
+        "points": [
+          "결정을 마크다운 스펙으로 문서화",
+          "토큰 레이어로 일관성 유지",
+          "감사 스크립트로 불일치 검증"
+        ],
+        "why": [
+          "AI 협업을 위한 디자인 시스템 설계",
+          "프로토타입 품질의 구조적 개선"
+        ]
+      }
+    },
+    {
+      "id": "design-parody-google-icons",
+      "title": "새 구글 아이콘보다 나은 패러디 아이콘들",
+      "summary": "X에서 스큐어모픽 패러디 유행—Sheets는 구겨진 침대보로.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/logos-icons/these-parody-google-icons-are-better-than-the-new-update",
+      "report": {
+        "tldr": "구글 앱 아이콘 재설계가 X에서 스큐어모픽 패러디 유행을 촉발했다.",
+        "what": "구글의 최근 앱 아이콘 재설계가 X에서 창의적 트렌드를 촉발해, 사용자들이 유머러스하고 문자 그대로의 스큐어모픽 대안을 공유했다. 구글 시트는 구겨진 침대보로, 어스는 흙더미로, 슬라이드는 샌들로 바꾸는 식이다.",
+        "points": [
+          "아이콘 재설계가 패러디 촉발",
+          "스큐어모픽 대안 유행",
+          "X 중심의 창작 트렌드"
+        ],
+        "why": [
+          "브랜드 리디자인의 대중 반응 사례",
+          "아이콘 디자인 논쟁"
+        ]
+      }
+    },
+    {
+      "id": "design-web-performance-brand",
+      "title": "웹사이트 성능은 브랜드 경험의 문제",
+      "summary": "느리고 불안정한 사이트는 신뢰를 깎고 인식을 바꾼다.",
+      "source": "Branding Strategy Insider",
+      "url": "https://brandingstrategyinsider.com/why-website-performance-is-a-brand-experience-issue/",
+      "report": {
+        "tldr": "웹사이트 성능은 기술적 문제가 아니라 본질적으로 브랜드 경험의 문제다.",
+        "what": "웹사이트 성능은 단순한 기술적 사안이 아니라 본질적으로 브랜드 경험의 문제다. 느리고 불안정한 사이트는 신뢰를 갉아먹고 고객이 회사를 인식하는 방식을 바꾼다.",
+        "points": [
+          "성능은 브랜드 경험 사안",
+          "느린 사이트는 신뢰 훼손",
+          "고객 인식에 직접 영향"
+        ],
+        "why": [
+          "성능 최적화의 비즈니스 정당화",
+          "브랜드와 기술의 연결"
+        ]
+      }
+    }
+  ]
+}

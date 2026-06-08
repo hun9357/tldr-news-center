@@ -1,0 +1,248 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-htx-delist-usd1",
+      "title": "HTX, WLFI가 주소 동결하자 USD1 상장폐지",
+      "summary": "World Liberty Financial의 일방적 동결에 USD1을 USDT로 강제 전환.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/X5MZMn",
+      "report": {
+        "tldr": "HTX가 World Liberty Financial의 일방적 주소 동결에 반발해 USD1 거래를 중단하고 USDT로 강제 전환한다.",
+        "what": "HTX는 World Liberty Financial(WLFI)이 경고 없이, 영국 제재 컴플라이언스 검토를 이유로 HTX 연계 온체인 주소를 일방 동결하자 모든 WLFI·USD1 거래쌍을 중단하고 사용자 USD1 보유분을 USDT로 강제 전환한다. 거래소는 동결된 주소가 제재 대상이나 HTX 자체가 아니라 합법적으로 매수한 일반 소매 사용자의 것이라며 즉시 동결 해제를 공식 요구했다.",
+        "points": [
+          "WLFI의 일방적 온체인 주소 동결",
+          "USD1 → USDT 강제 전환",
+          "HTX, 동결 해제 공식 요구"
+        ],
+        "why": [
+          "정치 연계 스테이블코인의 컴플라이언스 통제 충돌",
+          "중앙화 스테이블코인의 동결 리스크 부각"
+        ]
+      }
+    },
+    {
+      "id": "crypto-zcash-infinite-mint",
+      "title": "Zcash Orchard 회로서 무한발행 버그 발견",
+      "summary": "흔적 없이 ZEC 무제한 발행 가능했던 취약점, 수일 내 패치.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2062677164865228948.html",
+      "report": {
+        "tldr": "Zcash Orchard 회로에서 흔적 없이 ZEC를 무제한 발행할 수 있던 취약점이 발견·패치됐다.",
+        "what": "Shielded Labs가 의뢰한 보안 연구자가 Zcash Orchard 회로를 감사하다, 온체인 흔적 없이 ZEC를 무제한 발행할 수 있는 취약점을 찾았다. 결함은 공급 무결성을 강제하는 Orchard 차폐 풀의 영지식 증명 시스템 안에 있어, 사용자를 보호하는 프라이버시 속성이 동시에 인플레이션을 공개 탐지로부터 숨기게 된다. 버그는 수일 내 패치됐으나 과거 발견·악용 가능성은 배제할 수 없다. 연구자는 이후 Monero도 감사 범위에 추가했다.",
+        "points": [
+          "흔적 없는 무한 ZEC 발행 가능",
+          "영지식 증명 회로 내부 결함",
+          "수일 내 패치, 과거 악용은 불확실"
+        ],
+        "why": [
+          "프라이버시 체인의 ZK 회로 리스크 부각",
+          "공급 무결성 검증의 중요성"
+        ],
+        "action": "프라이버시 체인 ZK 회로 감사·검증 강화"
+      }
+    },
+    {
+      "id": "crypto-morpho-midnight",
+      "title": "Morpho, '오픈 크레딧 네트워크'로 리브랜딩",
+      "summary": "고정금리·만기 대출 Morpho Midnight 공개, $200조 신용 온체인 목표.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/Gx76ds",
+      "report": {
+        "tldr": "Morpho가 '오픈 크레딧 네트워크'로 리브랜딩하고 고정금리 대출 프로토콜 Midnight을 공개했다.",
+        "what": "Morpho가 '세계를 위한 오픈 크레딧 네트워크'로 리브랜딩하고, Morpho Blue와 동일한 격리·불변·무허가 아키텍처 위에 고정금리·고정만기 대출 프로토콜 Morpho Midnight의 백서·코드베이스를 공개했다. 명시적 목표는 전 세계 신용 $200조의 온체인화다. 핵심 메커니즘 'offered capital'은 고정금리 오퍼가 매칭될 때까지 대출자 자금을 Morpho Blue의 변동금리로 운용하고, 만기를 공유한 포지션을 대체가능하게 만들어 조기 청산·후발 진입을 허용한다. 5월 통합에는 Kraken Bitcoin Vault, Trezor, Circle Arc 등이 포함된다.",
+        "points": [
+          "'오픈 크레딧 네트워크'로 리브랜딩",
+          "고정금리·만기 Midnight 프로토콜",
+          "$200조 신용 온체인화 목표"
+        ],
+        "why": [
+          "DeFi 고정금리 대출의 구조적 난제 해결 시도",
+          "전통 신용의 온체인 통합 흐름"
+        ]
+      }
+    },
+    {
+      "id": "crypto-perc20",
+      "title": "pERC20: 이더리움용 프라이버시 네이티브 토큰 표준",
+      "summary": "공개 balanceOf 제거, ZK 노트 기반 인터페이스로 ERC-20 비호환.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2062459401802314025.html",
+      "report": {
+        "tldr": "pERC20은 공개 잔액·승인 함수를 ZK 노트 인터페이스로 대체하는 프라이버시 네이티브 토큰 표준 제안이다.",
+        "what": "pERC20은 ERC-20 호환을 의도적으로 깨고, 공개 balanceOf·approve·allowance·transferFrom을 Orchard 스타일 Groth16 증명을 쓰는 ZK 노트 기반 인터페이스로 대체하는 이더리움 토큰 표준 제안이다. 토큰은 암호화된 ZK-UTXO 노트로만 존재하며 공개→비공개 차폐 단계가 필요 없고, 노트 간 전송은 금액·상대방을 온체인에서 숨긴다. totalSupply는 공개로 유지되고 valueBalance==0 제약이 은밀한 인플레이션을 차단한다. 컴플라이언스는 frozen-root 바인딩으로 통합돼 타깃 동결이 가능하다.",
+        "points": [
+          "공개 잔액·승인 함수 제거",
+          "ZK-UTXO 노트 기반 전송",
+          "totalSupply 공개·인플레이션 차단 유지"
+        ],
+        "why": [
+          "온체인 프라이버시와 컴플라이언스 양립 시도",
+          "이더리움 토큰 프라이버시 표준 논의"
+        ]
+      }
+    },
+    {
+      "id": "crypto-intent-payment-routing",
+      "title": "인텐트 기반 결제 라우팅의 작동 원리",
+      "summary": "Polygon, 사용자가 '무엇'만 선언하면 솔버가 '어떻게'를 처리.",
+      "source": "Polygon",
+      "url": "https://polygon.technology/learn/payment/how-intent-based-payment-routing-works-for-cross-chain-money-movement",
+      "report": {
+        "tldr": "인텐트 기반 라우팅은 사용자가 원하는 결과만 선언하면 인프라가 크로스체인 경로를 보이지 않게 해결한다.",
+        "what": "Polygon의 설명서는 Open Money Stack과 Trails 오케스트레이션을 떠받치는 인텐트 기반 라우팅이, 사용자가 '무엇'(어떤 체인이든 Y에 X 전송)을 선언하면 인프라가 '어떻게'를 보이지 않게 해결해 크로스체인 결제 문제를 푸는 방식을 다룬다. 16개 이상 EVM 체인을 가로질러 라우팅하며 브리지 복잡성을 개발자·사용자에게 노출하지 않는다. 솔버가 최적 이행을 경쟁한다.",
+        "points": [
+          "사용자는 '무엇'만 선언",
+          "솔버가 라우팅·브리지·실행 처리",
+          "16+ EVM 체인 추상화"
+        ],
+        "why": [
+          "크로스체인 UX 단순화의 핵심 패턴",
+          "결제 인프라의 인텐트 추상화 흐름"
+        ]
+      }
+    },
+    {
+      "id": "crypto-10-sectors-h2-2026",
+      "title": "H2 2026 생존·성장 가능성 높은 크립토 10개 섹터",
+      "summary": "AI 에이전트 토큰 80~90% 폭락에도 온체인 사용 기반 프로젝트는 선전.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/3qRjcP",
+      "report": {
+        "tldr": "AI 에이전트 토큰이 폭락했지만 온체인 사용에 기반한 AI-크립토 섹터는 성장했다.",
+        "what": "2026년 1분기 AI 에이전트 토큰이 80~90% 급락했음에도, AI-크립토 섹터 전체는 2025년 초 약 $9B에서 2026년 5월 $22~27B로 성장했다. 온체인 사용에 뒷받침된 프로젝트가 가치를 지킨 반면 사용 없는 토큰은 붕괴했다. 'Agentic Finance'가 H2 최상위 생존군으로 꼽히며 EIP-7702, Base AgentKit, 저비용 추론(Kimi·DeepSeek·Qwen), MCP 등을 기반으로 한다. AI 컴퓨트 DePIN은 약 $9.4B 시총(+25%)으로 비교적 견조했고 Render·Bittensor가 매출을 견인했다.",
+        "points": [
+          "AI 에이전트 토큰 1분기 80~90% 급락",
+          "온체인 사용 기반 프로젝트는 선전",
+          "Agentic Finance·컴퓨트 DePIN 주목"
+        ],
+        "why": [
+          "사용량이 토큰 가치의 핵심 변수로 부상",
+          "AI-크립토 섹터의 옥석 가리기"
+        ]
+      }
+    },
+    {
+      "id": "crypto-uniswap-defi-inevitable",
+      "title": "유니스왑 헤이든 애덤스: DeFi는 필연이다",
+      "summary": "베어장에서 또 한 번 빌드하며 DeFi의 불가피성 증명 주장.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2062932478545854637.html",
+      "report": {
+        "tldr": "헤이든 애덤스는 2018년처럼 베어장에서 빌드하며 DeFi가 '가능'이 아닌 '필연'임을 증명하겠다고 말한다.",
+        "what": "헤이든 애덤스는 이더리움 베어 심리가 정점이던 2018년 유니스왑 출범과 오늘을 직접 비교하며, 다시 침체기를 뚫고 빌드해 이번엔 DeFi가 단지 가능한 게 아니라 필연임을 증명하는 것이 길이라 주장한다. 그는 기존 자산의 토큰화와 새 크립토 네이티브 자산이 함께 등장하고, DeFi가 결제 처리사·증권사·자산 발행사에 통합되며 결국 글로벌 금융 스택 전체를 흡수할 것으로 본다.",
+        "points": [
+          "베어장에서 다시 빌드 전략",
+          "기존 자산 토큰화 확대 전망",
+          "DeFi의 전통 금융 통합 가속"
+        ],
+        "why": [
+          "DeFi 장기 내러티브의 방향성",
+          "시장 침체기의 빌더 관점"
+        ]
+      }
+    },
+    {
+      "id": "crypto-four-ideologies-bitcoin",
+      "title": "비트코인의 네 가지 이념 (Saylor)",
+      "summary": "맥시멀리스트·캐피탈리스트·기술주의·근본주의 4개 진영으로 분류.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/ETOj2l",
+      "report": {
+        "tldr": "세일러는 성숙해진 비트코인 커뮤니티를 네 가지 이념 진영으로 나눈다.",
+        "what": "세일러의 에세이는 비트코인의 우위에 대한 확신은 공유하되 궤적에선 갈라지는 네 진영으로 커뮤니티를 매핑한다. 맥시멀리스트는 탈중앙화와 화폐 가치 훼손 방어를 중심에 두고 비트코인을 단일 화폐 혁신으로 본다. 캐피탈리스트는 기업 재무·신용 상품·자본시장 등 전통 금융 통합으로만 잠재력이 실현된다고 본다. 기술주의자는 프로토콜 개선을, 근본주의자는 핵심 속성을 위협하는 변화에 저항한다. 세일러는 이를 분파가 아닌 중첩된 분석 렌즈로 본다.",
+        "points": [
+          "네 이념 진영으로 커뮤니티 분류",
+          "탈중앙화 vs 전통 금융 통합 긴장",
+          "프로토콜 개선 vs 보수적 유지"
+        ],
+        "why": [
+          "비트코인 다음 단계 논쟁의 지형도",
+          "채택 방향성에 대한 시각 차이"
+        ]
+      }
+    },
+    {
+      "id": "crypto-lubin-eth-move",
+      "title": "루빈 연계 지갑, 11만 ETH 이동해 $259M DAI 방어",
+      "summary": "3년 만의 첫 유출, MakerDAO 금고에 담보 추가.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/zVejK8",
+      "report": {
+        "tldr": "이더리움 공동창업자 조셉 루빈 연계 지갑이 11만 ETH를 옮겨 대규모 DAI 부채 포지션을 방어했다.",
+        "what": "이더리움 공동창업자이자 Consensys CEO 조셉 루빈과 연관된 지갑이 3년여 만에 첫 유출로 11만 ETH를 30k·40k·40k 세 차례에 걸쳐 MakerDAO로 이체해, 약 $259M DAI를 빌린 13.7만 WETH 이상 보유 금고에 담보를 추가했다.",
+        "points": [
+          "3년여 만의 첫 ETH 유출",
+          "11만 ETH를 3회 분할 이체",
+          "$259M DAI 포지션 담보 보강"
+        ],
+        "why": [
+          "대형 보유자의 청산 방어 움직임",
+          "DeFi 대출 포지션 리스크 관리 사례"
+        ]
+      }
+    },
+    {
+      "id": "crypto-bridge-not-2022",
+      "title": "Bridge 공동창업자: 이번 침체는 2022가 아니다",
+      "summary": "Terra·FTX 붕괴기 출범 경험과 현재 국면 비교.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2063275751563293180.html",
+      "report": {
+        "tldr": "Bridge 공동창업자 잭 에이브럼스는 현재 침체가 2022년과 다르다고 말한다.",
+        "what": "Bridge가 출범했을 때 Terra-Luna가 붕괴하고 FTX가 무너졌으며 비트코인이 75% 이상 빠지고 크립토 자산군 전체가 사실상 투자 불가 상태였다.",
+        "points": [
+          "출범기 Terra·FTX 붕괴 경험",
+          "비트코인 75%+ 하락 국면",
+          "현재와 2022년 국면 비교"
+        ],
+        "why": [
+          "시장 사이클 비교를 통한 관점 제공"
+        ]
+      }
+    },
+    {
+      "id": "crypto-zeller-etherfi-cash",
+      "title": "마크 젤러, ether.fi Cash를 주력 카드로 전환",
+      "summary": "장기 사용 후 Gnosis Pay를 대체, 네 가지 장점 제시.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2063332932576743712.html",
+      "report": {
+        "tldr": "Aave Chan 창업자 마크 젤러가 ether.fi Cash를 Gnosis Pay 대신 주력 카드로 삼았다.",
+        "what": "Aave Chan Initiative 창업자 마크 젤러는 장기 사용 끝에 ether.fi Cash가 Gnosis Pay를 제치고 주력 카드가 됐다며 네 가지 장점을 꼽았다.",
+        "points": [
+          "ether.fi Cash가 Gnosis Pay 대체",
+          "장기 사용 후 전환",
+          "네 가지 장점 제시"
+        ],
+        "why": [
+          "크립토 결제 카드 경쟁 동향"
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-preipo-spacex",
+      "title": "코인베이스, SpaceX로 프리-IPO 무기한 선물 출시",
+      "summary": "비미국 사용자 대상 24/7, USDC 정산·무만기.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2062475039358816625.html",
+      "report": {
+        "tldr": "코인베이스가 SpaceX를 시작으로 프리-IPO 무기한 선물을 출시했다.",
+        "what": "코인베이스가 SpaceX를 첫 대상으로 프리-IPO 무기한 선물을 출시했다. 적격 비미국 사용자에게 24/7 제공되며 USDC로 정산되고 만기가 없다.",
+        "points": [
+          "SpaceX 첫 프리-IPO 무기한 선물",
+          "비미국 사용자 24/7 제공",
+          "USDC 정산·무만기"
+        ],
+        "why": [
+          "사모 시장 파생상품 수요 부각",
+          "SpaceX IPO 임박과 맞물린 상품"
+        ]
+      }
+    }
+  ]
+}

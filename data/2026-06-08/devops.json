@@ -1,0 +1,251 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-aws-resilience-hub",
+      "title": "차세대 AWS Resilience Hub 공개",
+      "summary": "생성 AI 기반 장애모드 분석·의존성 발견·조직 단위 리포팅.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-the-next-generation-of-aws-resilience-hub-for-generative-ai-based-sre-resilience-journey/",
+      "report": {
+        "tldr": "차세대 AWS Resilience Hub가 생성 AI 기반의 비즈니스 중심 복원력 관리 플랫폼을 선보였다.",
+        "what": "차세대 AWS Resilience Hub는 모듈형 복원력 정책, 애플리케이션 토폴로지 모델링, AI 기반 장애 모드 분석, 의존성 발견, 조직 전반 리포팅을 결합한 비즈니스 중심 복원력 관리 플랫폼을 도입한다. 팀이 복원력 목표를 정의하고, 서비스·의존성을 자동 매핑하며, 리스크·복구 공백을 식별하고, 중앙화된 평가로 대규모 컴플라이언스를 검증하도록 돕는다.",
+        "points": [
+          "AI 기반 장애 모드 분석",
+          "의존성 자동 발견·토폴로지 모델링",
+          "조직 단위 복원력 리포팅"
+        ],
+        "why": [
+          "SRE 복원력 관리의 AI 자동화",
+          "대규모 환경 복구 거버넌스"
+        ]
+      }
+    },
+    {
+      "id": "devops-crossplane-v2-upgrade",
+      "title": "당신의 컨트롤 플레인은 Crossplane v2 준비됐나",
+      "summary": "`beta upgrade check`가 v2 호환성 자동 점검.",
+      "source": "Crossplane Blog",
+      "url": "https://blog.crossplane.io/v2-upgrade-check/",
+      "report": {
+        "tldr": "Crossplane v1.20.9가 v2 업그레이드 전 호환성을 자동 점검하는 명령을 추가했다.",
+        "what": "Crossplane v1.20.9는 v2 업그레이드 전 v1.x 컨트롤 플레인의 호환성 깨짐을 스캔하는 `crossplane beta upgrade check` 명령을 도입했다. 비호환 리소스를 자동 식별하고 각 이슈에 구체적 수정안을 제공한다. 이 읽기 전용 도구는 수동 문서 검토를 컴포지션·패키지·리소스 자동 스캔으로 대체해, 대부분 v1.x가 변경 없이 v2로 업그레이드 가능하지만 엣지 케이스가 있는 상황에서 유용하다.",
+        "points": [
+          "v2 호환성 자동 스캔 명령",
+          "비호환 리소스·수정안 제시",
+          "읽기 전용·안전한 점검"
+        ],
+        "why": [
+          "메이저 업그레이드 망설임 해소",
+          "컨트롤 플레인 마이그레이션 도구"
+        ]
+      }
+    },
+    {
+      "id": "devops-bedrock-console",
+      "title": "Amazon Bedrock 새 콘솔 경험",
+      "summary": "GPT·Claude·오픈웨이트 지원, 최대 3개 모델 비교.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/",
+      "report": {
+        "tldr": "AWS가 OpenAI·앤트로픽 호환 API에 최적화된 Bedrock 콘솔을 재설계했다.",
+        "what": "AWS가 Amazon Bedrock의 콘솔 경험을 재설계해, 새 bedrock-mantle 추론 엔진 위 OpenAI·앤트로픽 API를 통해 GPT·Claude·오픈웨이트 모델 배포를 간소화한다. 새 인터페이스는 최대 3개 모델을 나란히 비교하는 프로젝트 기반 대시보드, 자격증명이 미리 채워진 통합 API 문서, AI 코딩 어시스턴트 연결을 제공하며, 미국·유럽·아태 등 12개 리전에서 사용 가능하다.",
+        "points": [
+          "GPT·Claude·오픈웨이트 지원",
+          "최대 3개 모델 나란히 비교",
+          "12개 리전 제공"
+        ],
+        "why": [
+          "멀티모델 배포·평가 워크플로 개선",
+          "클라우드 추론 플랫폼 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "devops-terraform-vs-spacelift",
+      "title": "Terraform Cloud(HCP) 프로젝트 vs Spacelift Spaces",
+      "summary": "평면 조직 vs 계층·다중 IaC—조직 규모별 적합성.",
+      "source": "Spacelift",
+      "url": "https://spacelift.io/blog/terraform-cloud-hcp-projects-vs-spacelift-spaces",
+      "report": {
+        "tldr": "HCP Terraform Projects와 Spacelift Spaces는 조직 규모·복잡성에 따라 적합성이 갈린다.",
+        "what": "HCP Terraform Projects는 평면적 워크스페이스 조직, 공유 권한·변수·정책을 제공해 거버넌스 요구가 단순한 Terraform 중심 팀에 적합하다. Spacelift Spaces는 상속을 가진 계층 모델, 세분화된 접근 제어, 멀티테넌시, 다중 IaC 도구 지원을 제공해 복잡한 인프라 관리가 필요한 대규모 조직에 더 알맞다.",
+        "points": [
+          "HCP: 평면·단순 거버넌스",
+          "Spacelift: 계층·세분 권한·멀티 IaC",
+          "조직 규모별 선택"
+        ],
+        "why": [
+          "IaC 거버넌스 플랫폼 선택 가이드",
+          "대규모 인프라 관리 전략"
+        ]
+      }
+    },
+    {
+      "id": "devops-mcp-load-testing",
+      "title": "Locust·Azure Load Testing으로 호스티드 MCP 부하 테스트",
+      "summary": "MCP 라이프사이클을 충실히 모델링하는 재사용 하네스.",
+      "source": "Microsoft Tech Community",
+      "url": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/load-testing-hosted-mcp-servers-with-locust-and-azure-load-testing/4522691",
+      "report": {
+        "tldr": "파이썬·Locust 하네스로 호스티드 MCP 서버의 부하를 현실적으로 테스트하는 가이드다.",
+        "what": "이 가이드는 초기화, 도구 발견, 도구 호출, 인증, 세션 정리를 포함한 MCP 라이프사이클을 충실히 모델링하는 재사용 가능한 파이썬·Locust 하네스로 호스티드 MCP 서버를 부하 테스트하는 법을 보여준다. 스테이트풀·스테이트리스 MCP 서버와 다양한 인증 패턴을 지원하고, 로컬과 Azure Load Testing 모두에서 실행돼 현실적 AI 에이전트 워크로드 하의 지연·동시성·실패 특성을 측정하게 한다.",
+        "points": [
+          "MCP 라이프사이클 충실 모델링",
+          "스테이트풀·스테이트리스 지원",
+          "로컬·Azure 양쪽 실행"
+        ],
+        "why": [
+          "MCP 서버 운영 성능 검증 방법론",
+          "에이전트 워크로드 부하 테스트"
+        ]
+      }
+    },
+    {
+      "id": "devops-dependency-supply-chain",
+      "title": "추가하는 모든 의존성은 공급망 공격 대기열",
+      "summary": "dev 전용 도구도 소스·자격증명·릴리스에 접근.",
+      "source": "Ben Hoyt",
+      "url": "https://benhoyt.com/writings/dependencies/",
+      "report": {
+        "tldr": "모든 의존성과 자동 업데이트는 공급망 공격면을 넓힌다.",
+        "what": "모든 의존성과 자동 의존성 업데이트는 프로젝트의 공급망 공격면을 넓히며, 소스 코드·자격증명·릴리스 워크플로에 접근하는 dev 전용 도구도 예외가 아니다. XZ, Trivy, LiteLLM 같은 최근 침해 사례는 자동 업데이트 파이프라인을 더 의심하고, 의존성 변경을 신중히 검토하며, 사소한 기능을 위해 패키지를 추가하기보다 소량의 코드 복사를 선호해야 하는 이유를 보여준다.",
+        "points": [
+          "의존성·자동 업데이트가 공격면 확대",
+          "dev 전용 도구도 위험",
+          "XZ·Trivy·LiteLLM 침해 교훈"
+        ],
+        "why": [
+          "공급망 보안의 실천 원칙",
+          "의존성 위생 관리 필요"
+        ],
+        "action": "자동 업데이트 검토·의존성 최소화"
+      }
+    },
+    {
+      "id": "devops-turbovec",
+      "title": "Turbovec (깃허브 레포)",
+      "summary": "Rust 벡터 검색, 31GB→4GB 압축하며 FAISS보다 빠름.",
+      "source": "GitHub",
+      "url": "https://github.com/RyanCodrai/turbovec",
+      "report": {
+        "tldr": "Turbovec는 16배 압축으로 FAISS보다 빠른 Rust 기반 벡터 검색 라이브러리다.",
+        "what": "파이썬 바인딩을 가진 새 Rust 기반 벡터 검색 라이브러리 Turbovec는 구글 리서치의 TurboQuant 알고리즘으로 1천만 문서 코퍼스를 31GB에서 4GB로 압축하면서 FAISS보다 빠르게 검색한다. 임베딩 16배 압축을 달성하고, OpenAI의 1536·3072차원 임베딩에서 FAISS IndexPQ를 리콜 0.4~3.4%p 앞서며, 필터 검색과 삭제에도 살아남는 안정 ID를 내장 지원한다.",
+        "points": [
+          "16배 압축·31GB→4GB",
+          "FAISS보다 빠른 검색·높은 리콜",
+          "필터 검색·안정 ID 지원"
+        ],
+        "why": [
+          "대규모 벡터 검색 비용·성능 개선",
+          "RAG 인프라 도구 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-pg-durable",
+      "title": "pg_durable (깃허브 레포)",
+      "summary": "MS 오픈소스, 외부 서비스 없이 Postgres에 지속 실행 워크플로.",
+      "source": "GitHub",
+      "url": "https://github.com/microsoft/pg_durable",
+      "report": {
+        "tldr": "마이크로소프트가 외부 서비스 없이 Postgres에 지속 실행 워크플로를 넣는 확장을 오픈소스화했다.",
+        "what": "마이크로소프트가 cron·큐·별도 오케스트레이션 같은 외부 서비스 없이 지속 실행(durable execution) 워크플로를 Postgres에 직접 가져오는 확장 pg_durable을 오픈소스로 공개했다. pgrx로 만들어졌고 이미 Azure HorizonDB 서비스에 통합돼 있으며, 개발자가 진행을 자동 체크포인트하고 크래시 후 마지막 성공 단계부터 재개하는 다단계 SQL 워크플로를 정의하게 한다.",
+        "points": [
+          "외부 서비스 없이 Postgres 내 워크플로",
+          "자동 체크포인트·재개",
+          "Azure HorizonDB에 통합"
+        ],
+        "why": [
+          "지속 실행 패턴의 DB 내재화",
+          "오케스트레이션 단순화"
+        ]
+      }
+    },
+    {
+      "id": "devops-what-is-ai-governance",
+      "title": "AI 거버넌스란 무엇인가",
+      "summary": "60%가 에이전트 프로덕션 운영, 40%는 보안·컴플라이언스가 장벽.",
+      "source": "Docker",
+      "url": "https://www.docker.com/blog/what-is-ai-governance/",
+      "report": {
+        "tldr": "대규모 AI 활용 조직에 AI 거버넌스는 더 이상 선택이 아니다.",
+        "what": "Docker의 State of Agentic AI 리포트에 따르면 60%의 조직이 이미 AI 에이전트를 프로덕션에 두고 있지만, 40%는 보안·컴플라이언스를 확장의 최대 장벽으로 꼽아, 전 AI 라이프사이클에 규칙·역할·검토 프로세스를 세우는 거버넌스 프레임워크의 필요성을 부각한다. 가이드는 대규모 AI 사용 조직에 거버넌스가 더 이상 선택이 아니며, 시니어 리더십이 AI 전략에 깊이 관여한 기업이 기술팀에만 맡긴 곳보다 훨씬 큰 가치를 얻는다는 Deloitte 연구를 강조한다.",
+        "points": [
+          "60% 에이전트 프로덕션 운영",
+          "40% 보안·컴플라이언스가 장벽",
+          "리더십 관여가 성과 좌우"
+        ],
+        "why": [
+          "에이전트 확장의 거버넌스 요건",
+          "조직 차원의 AI 관리 필요"
+        ],
+        "action": "AI 라이프사이클 규칙·역할·검토 체계 수립"
+      }
+    },
+    {
+      "id": "devops-agentgateway",
+      "title": "agentgateway: AI·API 트래픽 통합 게이트웨이",
+      "summary": "Solo.io가 AAIF에 기증, Rust 기반 500k QPS.",
+      "source": "Solo.io",
+      "url": "https://www.solo.io/blog/designing-agentgateway-a-unified-high-performance-gateway-for-ai-and-api-traffic",
+      "report": {
+        "tldr": "Solo.io가 HTTP·gRPC·MCP·A2A·LLM 트래픽을 처리하는 Rust 게이트웨이 agentgateway를 AAIF에 기증했다.",
+        "what": "Solo.io가 agentgateway 프로젝트를 Agentic AI Infrastructure Foundation(AAIF)에 Growth 단계 프로젝트로 기증했다. HTTP·gRPC·MCP·A2A·LLM 트래픽을 다루며 벤치마크에서 500k QPS를 달성하는 통합 Rust 기반 게이트웨이다. 2월 이후 주간 다운로드가 10만에서 100만 이상으로 늘었고 마이크로소프트·애플·어도비·T-Mobile·익스피디아 등이 채택했다. xDS 컨트롤 플레인 아키텍처를 쓰고 Istio ambient 메시 구축 경험을 살려 다중 서비스·API와 상호작용하는 AI 에이전트 운영 과제를 푼다.",
+        "points": [
+          "AI·API 트래픽 통합 게이트웨이",
+          "500k QPS, 주간 100만+ 다운로드",
+          "대기업 다수 채택"
+        ],
+        "why": [
+          "에이전트 인프라 표준화 움직임",
+          "AI 트래픽 게이트웨이 부상"
+        ]
+      }
+    },
+    {
+      "id": "devops-feature-flags-visibility",
+      "title": "파이프라인 가시성 없는 피처 플래그는 리스크",
+      "summary": "플래그·CI/CD 단절이 인시던트 대응·감사 지연.",
+      "source": "CloudBees",
+      "url": "https://www.cloudbees.com/blog/flag-tool-pipeline-visibility-gap",
+      "report": {
+        "tldr": "피처 플래그와 CI/CD 파이프라인의 단절은 가시성 공백을 만들어 리스크를 키운다.",
+        "what": "분리된 피처 플래그 도구와 CI/CD 파이프라인은 가시성 공백을 만들어, 배포와 피처 노출 데이터를 서로 다른 시스템에서 대조하게 만든다. 이는 인시던트 대응을 늦추고, 감사를 복잡하게 하며, 롤백 리스크를 높이고, 릴리스 신뢰도를 떨어뜨린다.",
+        "points": [
+          "플래그·파이프라인 단절",
+          "인시던트 대응·감사 지연",
+          "롤백 리스크·낮은 릴리스 신뢰"
+        ],
+        "why": [
+          "릴리스 가시성 통합의 필요성",
+          "배포 안정성 개선"
+        ]
+      }
+    },
+    {
+      "id": "devops-dashboard-to-headlamp",
+      "title": "Kubernetes Dashboard에서 Headlamp로",
+      "summary": "멀티클러스터·플러그인·AI 보조 트러블슈팅 지원.",
+      "source": "Kubernetes.io",
+      "url": "https://kubernetes.io/blog/2026/06/01/dashboard-to-headlamp/",
+      "report": {
+        "tldr": "Headlamp는 익숙한 워크플로를 유지하면서 멀티클러스터·플러그인·AI 보조를 더한 마이그레이션 경로를 제공한다.",
+        "what": "Headlamp는 익숙한 Kubernetes 관리 워크플로를 보존하면서 멀티클러스터 지원, 애플리케이션 중심 Projects, 플러그인 확장성, AI 보조 트러블슈팅, 데스크톱 또는 인클러스터 배포 옵션을 더하는 마이그레이션 경로를 제공한다.",
+        "points": [
+          "멀티클러스터·플러그인 확장",
+          "AI 보조 트러블슈팅",
+          "데스크톱·인클러스터 배포"
+        ],
+        "why": [
+          "K8s 대시보드 전환 가이드",
+          "운영 도구 현대화"
+        ]
+      }
+    }
+  ]
+}
