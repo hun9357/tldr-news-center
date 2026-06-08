@@ -1,0 +1,328 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💳",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fin-ramp-accounting-750m",
+      "title": "Ramp, AI 회계 제품 출시·7.5억 달러 추가 조달",
+      "summary": "월말 결산·현금 대사 등 자동화하는 Ramp Stack 공개, 기업가치 440억 달러.",
+      "source": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/ramp-funding-rolls-out-accounting-product-ai-operating-system/821992/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Ramp가 AI 회계 운영체제 'Ramp Stack'을 출시하고 7.5억 달러를 추가 조달했다.",
+        "what": "Ramp가 월말 결산, 현금 대사, 거래 코딩, 분개 등 워크플로를 검토·감사 가능한 의사결정으로 처리하도록 설계된 AI 회계 운영체제 Ramp Stack을 출시했다. 출시와 함께 Iconiq Capital·GIC·온타리오 교원연금 등에서 7.5억 달러 지분 투자를 유치했으며, 기업가치는 440억 달러로 평가됐고 총 지분 조달은 약 30억 달러에 이른다.",
+        "points": [
+          "AI 회계 OS 'Ramp Stack' 출시",
+          "월말 결산·대사·분개 자동화",
+          "7.5억 달러 조달, 기업가치 440억 달러"
+        ],
+        "why": [
+          "스펜드 관리에서 회계 업무로 확장",
+          "AI 회계 자동화 경쟁 가속"
+        ]
+      }
+    },
+    {
+      "id": "fin-banks-ai-dataset-moat",
+      "title": "은행·핀테크의 최강 AI 자산은 '거래 데이터'",
+      "summary": "모델보다 방대한 거래 데이터가 해자, 통합 파운데이션 모델로 전환 중.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/artificial-intelligence-2/2026/banks-and-fintechs-are-sitting-on-the-most-powerful-ai-dataset-in-finance/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "은행·핀테크의 진짜 AI 우위는 모델이 아니라 축적된 방대한 거래 데이터라는 분석이다.",
+        "what": "은행과 핀테크가 가장 큰 AI 강점이 모델 자체가 아니라 수년간 고객 활동으로 쌓은 방대한 거래 데이터셋임을 깨닫고 있다. Revolut·Stripe·Mastercard·Adyen 같은 기업은 수십 개의 특화 AI 시스템을 통합 파운데이션 모델로 대체해 사기 탐지·신용 심사·결제 성능을 개선하면서 비용을 줄이고 신제품 출시를 앞당긴다. AI가 상품화될수록 독점적 금융 데이터가 업계의 가장 가치 있는 해자가 될 수 있다.",
+        "points": [
+          "모델보다 거래 데이터가 핵심 우위",
+          "특화 시스템을 통합 파운데이션 모델로 대체",
+          "사기 탐지·신용·결제 개선, 비용 절감"
+        ],
+        "why": [
+          "AI 상품화 시대의 차별화 요소",
+          "데이터 독점이 경쟁 해자로"
+        ]
+      }
+    },
+    {
+      "id": "fin-cash-app-wand",
+      "title": "Cash App, 새로운 결제 형태 'Wand' 실험",
+      "summary": "폰·카드 없이 결제하는 25달러 NFC 액세서리, Z세대 겨냥.",
+      "source": "Finovate",
+      "url": "https://finovate.com/cash-app-experiments-with-new-payment-form-factors/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Cash App이 폰·카드 없이 결제하는 NFC 탭투페이 액세서리 'Wand'를 선보였다.",
+        "what": "Cash App이 탭투페이 완드를 출시했다. NFC 결제 액세서리로 폰이나 카드를 꺼내지 않고 결제할 수 있다. 25달러짜리 Cash App Wand는 액세서리를 수집품·자기표현 수단으로 보는 Z세대를 겨냥해 결제를 눈에 보이는 사회적 경험으로 바꾼다. 개념이 자리 잡으면 브랜드 결제 하드웨어라는 새 카테고리를 열고 Block에 또 다른 참여 동력을 줄 수 있다.",
+        "points": [
+          "폰·카드 없는 NFC 탭투페이 완드",
+          "25달러, Z세대 겨냥",
+          "결제를 사회적·표현적 경험으로"
+        ],
+        "why": [
+          "결제 하드웨어의 새 카테고리 가능성",
+          "Block의 참여 확대 전략"
+        ]
+      }
+    },
+    {
+      "id": "fin-revolut-storonsky-fortune",
+      "title": "Revolut 창업자, 760억 달러 부의 발사대 구축",
+      "summary": "근 2000억 달러 IPO 시 Storonsky 지분 약 760억 달러 가치 추정.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/lVkh2S",
+      "report": {
+        "tldr": "Revolut가 목표한 약 2000억 달러 IPO에 도달하면 창업자 지분이 약 760억 달러에 이를 수 있다.",
+        "what": "블룸버그가 Revolut 창업자 Nik Storonsky를 조명했다. Revolut가 2년 내 목표한 근 2000억 달러 IPO 가치에 도달하면 그의 지분은 약 760억 달러에 이를 수 있다. 회사는 고객 7,500만 명과 750억 달러 가치로 성장했지만, 다음 단계는 신용·모기지 등 더 규제가 강한 금융 상품으로 확장하면서 안전한 글로벌 은행처럼 운영할 수 있음을 규제당국·고객에게 설득하는 데 달려 있다.",
+        "points": [
+          "근 2000억 달러 IPO 목표",
+          "Storonsky 지분 약 760억 달러 추정",
+          "고객 7,500만 명·750억 달러 가치"
+        ],
+        "why": [
+          "네오뱅크의 규제 신뢰 과제",
+          "핀테크 메가 IPO 전망"
+        ]
+      }
+    },
+    {
+      "id": "fin-banks-crypto-gloves-off",
+      "title": "대형 은행, 크립토와의 싸움에서 본격 대응",
+      "summary": "Dimon 등 은행권, 스테이블코인 보상의 은행 규제 회피 조항에 반발.",
+      "source": "CNN",
+      "url": "https://www.cnn.com/2026/06/05/business/big-banks-crypto-regulation?utm_source=tldrfintech",
+      "report": {
+        "tldr": "대형 은행들이 크립토 시장구조 법안에 원칙적으로 동의하면서도 일부 조항에 반발하고 있다.",
+        "what": "CNN에 따르면 JP모건 CEO 제이미 다이먼 등 은행 리더들은 크립토 시장구조 법안에 원칙적으로 찬성하지만, 크립토 기업이 은행식 규제 없이 스테이블코인 보상을 제공할 수 있게 하는 조항에는 반발한다. 쟁점은 Coinbase 같은 기업이 예금보험·AML/KYC·소비자 보호 의무 없이 은행형 상품을 제공할 수 있는지다. 비판론자들은 Clarity Act가 크립토를 전통 금융에 더 깊이 끌어들여 향후 붕괴를 통제하기 어렵게 만들 수 있다고 경고한다.",
+        "points": [
+          "은행권, 법안 원칙 찬성·세부 조항 반발",
+          "스테이블코인 보상의 규제 회피 우려",
+          "예금보험·AML/KYC 형평성 쟁점"
+        ],
+        "why": [
+          "전통 금융 vs 크립토 규제 충돌",
+          "스테이블코인 제도화의 분수령"
+        ]
+      }
+    },
+    {
+      "id": "fin-fintech-504b-2025",
+      "title": "2025년 핀테크 매출 사상 최대 5,040억 달러",
+      "summary": "전년比 22% 성장·은행의 4배 속도, AI·B2B·디지털 투자 차세대 동력.",
+      "source": "Banking Dive",
+      "url": "https://www.bankingdive.com/news/fintech-revenues-hit-record-504-billion-2025-study/821920/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "2025년 글로벌 핀테크 매출이 5,040억 달러로 사상 최대를 기록했다.",
+        "what": "2025년 글로벌 핀테크 매출이 5,040억 달러로 사상 최대에 달했다. 전년 대비 22% 성장하며 은행보다 4배 빠른 속도를 보였고, 업계는 급속 확장에서 수익성 있는 지속 성장으로 전환 중이다. AI 기반 제품, B2B 금융 서비스, 디지털 투자가 차세대 주요 성장 동력으로 부상하고 있으며, 핀테크는 전통 금융기관으로부터 점유율을 계속 빼앗고 있다.",
+        "points": [
+          "2025년 매출 5,040억 달러, +22%",
+          "은행의 4배 성장 속도",
+          "AI·B2B·디지털 투자가 차세대 동력"
+        ],
+        "why": [
+          "핀테크의 수익성 전환 신호",
+          "전통 금융 점유율 잠식 지속"
+        ]
+      }
+    },
+    {
+      "id": "fin-airwallex-leapfin",
+      "title": "Airwallex, Leapfin 인수로 금융 라이프사이클 역량 확장",
+      "summary": "수익 인식·대사 자동화 플랫폼 인수, 결제→결산·보고로 확장.",
+      "source": "Airwallex",
+      "url": "https://www.airwallex.com/global/newsroom/airwallex-acquires-leapfin-expanding-financial-lifecycle-capabilities?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Airwallex가 재무 데이터 자동화 플랫폼 Leapfin을 인수했다.",
+        "what": "Airwallex가 수익 인식·대사, 거래 데이터의 GAAP 준수 재무제표화에 특화된 재무 데이터 자동화 플랫폼 Leapfin을 인수했다. 이 거래로 Airwallex는 자동 서브원장 인프라와 회계 AI 에이전트 등 record-to-report 역량을 강화하며, 결제·글로벌 계좌·카드·스펜드 관리에서 재무팀의 결산·보고 워크플로로 플랫폼을 확장한다.",
+        "points": [
+          "수익 인식·대사 자동화 플랫폼 인수",
+          "자동 서브원장·회계 AI 에이전트 확보",
+          "결제→결산·보고로 영역 확장"
+        ],
+        "why": [
+          "핀테크 인프라의 수직 통합",
+          "재무 자동화 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "fin-fasanara-ferrari-lending",
+      "title": "Fasanara Capital, 페라리 담보 대출 투자 플랫폼 출시",
+      "summary": "초고가 컬렉터카를 기관 대출 자산화하는 사모 신용 플랫폼.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/fasanara-capital-launches-investment-platform-124400973.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Fasanara Capital이 페라리 차량을 담보로 한 사모 신용 플랫폼을 출시한다.",
+        "what": "Fasanara Capital이 페라리 차량을 담보로 대출을 일으키는 사모 신용 플랫폼을 출시해 초고가 컬렉터카를 기관 대출 자산군으로 전환한다. 이 전략은 Mattioli Automotive Group을 통한 능동적 페라리 자산 관리·복원 전문성과 담보 금융을 결합해, 자산담보 대안 금융 수요를 활용하며 차별화된 위험조정 수익을 노린다.",
+        "points": [
+          "페라리 담보 사모 신용 플랫폼",
+          "컬렉터카의 기관 대출 자산화",
+          "자산관리·복원 전문성 결합"
+        ],
+        "why": [
+          "대안 자산담보 금융의 확장",
+          "초고가 자산의 금융 상품화"
+        ]
+      }
+    },
+    {
+      "id": "fin-revolut-five-credit-cards",
+      "title": "Revolut, 영국에서 신용카드 5종 '곧' 출시",
+      "summary": "풀뱅킹 라이선스 후 대출 진출 가속, 고마진 이자 수익 확대.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/sB8yD1",
+      "report": {
+        "tldr": "Revolut가 영국에서 신용카드 5종 출시를 준비하며 대출 사업을 확대한다.",
+        "what": "Revolut가 영국에서 신용카드 5종 출시를 준비하며, 올해 초 풀뱅킹 라이선스 취득 이후 대출 진출을 가속한다. 이는 신용카드·개인대출 등으로 고마진 이자 수익을 키우는 한편, 전통 은행이 외면하는 고객을 위한 자산관리로도 확장하는 폭넓은 전략의 일부다.",
+        "points": [
+          "영국 신용카드 5종 출시 준비",
+          "풀뱅킹 라이선스 후 대출 확대",
+          "고마진 이자 수익·자산관리 진출"
+        ],
+        "why": [
+          "네오뱅크의 수익 모델 다각화",
+          "규제 금융 상품으로의 확장"
+        ]
+      }
+    },
+    {
+      "id": "fin-banks-tokenized-deposits",
+      "title": "JP모건·씨티 등 대형은행, 토큰화 예금 시스템 추진",
+      "summary": "The Clearing House 운영, 내년 출범 목표로 크립토에 대응.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/7s6kWf",
+      "report": {
+        "tldr": "미국 대형은행들이 크립토에 대응해 내년 토큰화 예금 네트워크 출범을 추진한다.",
+        "what": "JP모건체이스·뱅크오브아메리카·씨티그룹·웰스파고 등 미국 대형은행이 The Clearing House가 운영하는 토큰화 예금 네트워크를 내년 출범할 계획이다. 이 시스템은 전통 결제 레일과 디지털 자산 인프라를 연결해, 결제·예금으로 진격하는 스테이블코인·크립토 기업과의 경쟁에 대응한다.",
+        "points": [
+          "대형은행 토큰화 예금 네트워크 추진",
+          "The Clearing House 운영, 내년 출범",
+          "전통 레일+디지털 자산 인프라 연결"
+        ],
+        "why": [
+          "스테이블코인 경쟁에 대한 은행권 응전",
+          "결제·예금 시장 재편 신호"
+        ]
+      }
+    },
+    {
+      "id": "fin-zcash-vulnerability-zec-drop",
+      "title": "Zcash 무한 위조발행 취약점 발견, ZEC 31% 급락",
+      "summary": "Orchard 풀의 미탐지 무한 ZEC 발행 가능 버그, 수일 내 패치.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/gsKND1",
+      "report": {
+        "tldr": "Zcash Orchard 풀에서 추적 불가한 무한 ZEC 위조발행 취약점이 발견돼 ZEC가 31% 급락했다.",
+        "what": "한 보안 연구자가 Zcash의 Orchard 차폐 거래 풀에서 공격자가 풀 내부에서 추적 불가하게 무한히 위조 ZEC를 발행할 수 있는 치명적 취약점을 발견했다. Shielded Labs는 2022년 5월 Orchard 출시 이후 존재한 이 버그가 수일 내 패치됐고 악용 가능성은 낮아 보인다고 밝혔으나, 공개 직후 ZEC가 31% 하락했다. 커뮤니티는 공급 무결성 검증과 새 차폐 풀로의 마이그레이션을 위한 네트워크 업그레이드를 검토 중이다.",
+        "points": [
+          "Orchard 풀의 미탐지 무한 발행 버그",
+          "2022년 5월부터 존재, 수일 내 패치",
+          "공개 후 ZEC 31% 급락"
+        ],
+        "why": [
+          "프라이버시 체인의 공급 무결성 리스크",
+          "ZK 회로 감사 중요성 환기"
+        ]
+      }
+    },
+    {
+      "id": "fin-kpler-1bn-investment",
+      "title": "Kpler, 해양 인텔리전스 성장 위해 10억 달러 투자 유치",
+      "summary": "Sixth Street로부터 10억 달러+ 성장 자본, 하루 13억 선박 신호 처리.",
+      "source": "Riviera",
+      "url": "https://www.rivieramm.com/news-content-hub/kpler-secures-us1bn-for-new-phase-of-maritime-intelligence-growth-88970?utm_source=tldrfintech",
+      "report": {
+        "tldr": "해양·상품 무역 인텔리전스 기업 Kpler가 10억 달러 이상의 성장 자본을 유치했다.",
+        "what": "해양·상품 무역 인텔리전스 제공사 Kpler가 Sixth Street로부터 10억 달러 이상의 성장 지분을 조달해, 글로벌 무역·공급망 의사결정을 뒷받침하는 데이터 플랫폼에 대한 투자 수요를 보여줬다. 회사는 위성 선박 추적·AI·독점 데이터셋을 결합해 에너지·상품·해운·방위 시장에 실시간 인사이트를 제공하며 하루 13억 개 이상의 선박 신호를 처리한다.",
+        "points": [
+          "Sixth Street로부터 10억 달러+ 조달",
+          "위성 추적·AI·독점 데이터 결합",
+          "하루 13억 선박 신호 처리"
+        ],
+        "why": [
+          "무역·공급망 데이터 플랫폼 가치 상승",
+          "대안 데이터 시장 투자 확대"
+        ]
+      }
+    },
+    {
+      "id": "fin-chatgpt-1b-claude-surge",
+      "title": "ChatGPT, 최단기간 10억 사용자 돌파…Claude도 급성장",
+      "summary": "OpenAI 3년 만에 MAU 10억, Claude는 YoY 640% 성장해 5,600만.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/sectors/technology/articles/chatgpt-becomes-fastest-app-hit-143107351.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "OpenAI가 3년 만에 월 10억 사용자를 돌파했고, Claude도 빠르게 추격하고 있다.",
+        "what": "OpenAI가 단 3년 만에 월간 활성 사용자 10억 명에 도달해 최단기간 마일스톤 달성 소비자 플랫폼이 됐고, AI의 주류 디지털 인프라화를 보여줬다. Anthropic은 Claude가 전년 대비 640% 성장해 월 5,600만 사용자에 이르며 신뢰할 만한 도전자로 부상했고, 사용자들이 경쟁 AI 플랫폼에 시간을 분산하기 시작했다는 초기 데이터도 나온다.",
+        "points": [
+          "OpenAI 3년 만에 MAU 10억",
+          "Claude YoY 640% 성장, 5,600만",
+          "사용자 멀티-플랫폼 분산 조짐"
+        ],
+        "why": [
+          "AI의 소비자 인프라화 가속",
+          "AI 경쟁 구도 재편"
+        ]
+      }
+    },
+    {
+      "id": "fin-apple-wallet-bill-split",
+      "title": "Apple Wallet, 청구서 분할 기능 추가 (퀵링크)",
+      "summary": "영수증 촬영→항목별 배정→세금·팁 포함 자동 정산.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/1AHJMm",
+      "report": {
+        "tldr": "Apple Wallet에 영수증 기반 청구서 분할 기능이 추가된다.",
+        "what": "애플이 Wallet 앱에 내장 청구서 분할 기능을 확장한다. 사용자가 영수증을 촬영해 항목을 사람별로 배정하면 세금·팁을 포함한 각자의 몫을 자동 계산한다.",
+        "points": [
+          "영수증 촬영 기반 분할",
+          "항목별 사람 배정",
+          "세금·팁 포함 자동 정산"
+        ],
+        "why": [
+          "P2P 결제의 일상 편의 강화",
+          "애플의 결제 생태계 확장"
+        ]
+      }
+    },
+    {
+      "id": "fin-revolut-cto-steps-down",
+      "title": "Revolut 공동창업자 CTO 사임 (퀵링크)",
+      "summary": "Vlad Yatsenko가 CTO에서 물러나며 글로벌 성장 위해 경영진 개편.",
+      "source": "TheFinRate",
+      "url": "https://thefinrate.com/revolut-co-founder-vlad-yatsenko-steps-down-as-cto-in-leadership-shift/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Revolut 공동창업자 Vlad Yatsenko가 CTO에서 물러난다.",
+        "what": "Revolut가 다음 글로벌 성장 단계를 위해 경영진을 재편하면서 공동창업자 Vlad Yatsenko가 CTO에서 물러난다.",
+        "points": [
+          "공동창업자 Vlad Yatsenko CTO 사임",
+          "글로벌 성장 위한 경영진 개편"
+        ],
+        "why": [
+          "IPO 준비 단계의 리더십 변화",
+          "스케일업 거버넌스 전환"
+        ]
+      }
+    },
+    {
+      "id": "fin-nubank-cfo-credit",
+      "title": "Nubank, CFO 교체에 신용 우려 부각되며 주가 하락 (퀵링크)",
+      "summary": "깜짝 CFO 임명에 신용 리스크·글로벌 확장 우려로 주가 급락.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/2CwgIJ",
+      "report": {
+        "tldr": "Nubank의 깜짝 CFO 교체가 신용 우려를 부각시키며 주가가 하락했다.",
+        "what": "Nubank의 깜짝 CFO 임명이 주가를 끌어내렸고, 투자자들의 관심이 커지는 신용 리스크와 글로벌 은행으로 도약하려는 핀테크의 행보로 옮겨갔다.",
+        "points": [
+          "깜짝 CFO 임명",
+          "신용 리스크 우려 부각",
+          "글로벌 확장 부담"
+        ],
+        "why": [
+          "네오뱅크 신용 건전성 주목",
+          "고성장 핀테크의 리스크 관리"
+        ]
+      }
+    }
+  ]
+}

@@ -1,11 +1,14 @@
 {
   "date": "2026-06-08",
   "weekday": "월",
-  "headline": "애플, '비밀 회의'가 깨운 AI 위기감 — WWDC서 Siri 대개편",
-  "subtitle": "팀 쿡 없이 모인 임원들이 Siri 리더십 교체를 권고했고, 같은 날 구글은 SpaceX에 월 10억 달러 규모 컴퓨트를 임대했다. — 6월 8일 TLDR 9개 에디션 요약",
-  "keyword": "애플 AI · 컴퓨트 인프라",
-  "bigStoryId": "tech-apple-secret-ai-meeting",
+  "headline": "美 정부, OpenAI 지분 검토 — 컴퓨트·인프라가 흔든 하루",
+  "subtitle": "트럼프 행정부가 OpenAI 지분 보유를 논의하고 구글은 SpaceX에 월 9.2억 달러 컴퓨트를 임대했다. 같은 날 애플은 WWDC에서 Siri 대개편을 예고했다. — 6월 8일 TLDR 12개 에디션 요약",
+  "keyword": "OpenAI 지분 · AI 컴퓨트",
+  "bigStoryId": "ai-us-govt-openai-stake",
   "editions": [
+    "ai",
+    "infosec",
+    "fintech",
     "tech",
     "it",
     "crypto",
@@ -16,32 +19,32 @@
     "founders",
     "data"
   ],
-  "lastUpdated": "08:05 CDT",
-  "syncedAt": "08:05",
+  "lastUpdated": "09:10 CDT",
+  "syncedAt": "09:10",
   "stats": {
-    "companies": 115,
-    "security": 8,
-    "deals": 6,
-    "policy": 5
+    "companies": 162,
+    "security": 24,
+    "deals": 11,
+    "policy": 7
   },
   "signals": [
     {
       "kind": "primary",
-      "title": "애플, WWDC에서 AI 반등 시험대",
-      "body": "2025년 초 팀 쿡 없이 모인 애플 임원들이 위기감 속에 Siri를 Mike Rockwell에게 맡기라 권고했고, 이번 WWDC의 핵심은 Siri 대개편입니다. 쿡의 마지막 CEO 개발자 회의이자 차기 CEO John Ternus로의 승계가 맞물려, 애플 인텔리전스가 아이폰 교체를 이끌 수 있을지가 관전 포인트입니다.",
-      "action": "WWDC Siri·애플 인텔리전스 발표와 도입 동향 추적"
+      "title": "정부-OpenAI 지분 논의와 애플 WWDC가 만든 분수령",
+      "body": "트럼프 행정부가 '기부 지분' 형태로 OpenAI 지분을 보유하는 방안을 'Public Wealth Fund' 구상과 함께 논의했습니다. 같은 날 애플은 팀 쿡의 마지막 개발자 회의 WWDC에서 Siri 대개편을 예고했는데, 2025년 초 임원들이 쿡 없이 모여 위기감 속에 Siri를 Mike Rockwell에게 맡기라 권고한 사실도 드러났습니다.",
+      "action": "OpenAI 지분 논의 진행과 WWDC Siri·애플 인텔리전스 발표 추적"
     },
     {
       "kind": "market",
       "title": "AI 컴퓨트가 만든 이례적 거래·메가 IPO",
-      "body": "구글이 SpaceX에 2026년 10월부터 월 9.2억 달러로 데이터센터 용량을 임대하기로 했고(Nvidia 칩 11만 개 조건), SpaceX는 6월 12일 1.77조 달러 가치로 상장합니다. 코인베이스는 SpaceX 프리-IPO 무기한 선물을 상장하며 사모 시장 파생 수요를 보여줬습니다.",
+      "body": "구글이 SpaceX로부터 Nvidia GPU 약 11만 개 규모 컴퓨트를 월 9.2억 달러(2026.10~2029.6)에 임대하기로 했고, SpaceX는 6월 12일 1.77조 달러 가치로 상장합니다. Ramp는 AI 회계 제품 출시와 함께 7.5억 달러를 조달해 기업가치 440억 달러를 기록했고, 2025년 글로벌 핀테크 매출은 5,040억 달러로 사상 최대였습니다.",
       "action": "SpaceX 상장·컴퓨트 임대 거래 진행 추적"
     },
     {
       "kind": "watchlist",
       "title": "다음 48시간 보안 모니터링",
-      "body": "실제 악용 중인 팔로알토 GlobalProtect 취약점(CVE-2026-0257) 패치 적용, 로펌을 노린 Silent Ransom의 헬프데스크 사칭 대응, Zcash Orchard 무한발행 버그 교훈에 따른 프라이버시 체인 ZK 회로 점검을 추적합니다.",
-      "action": "PAN-OS 즉시 패치, 헬프데스크 사칭 대응 절차 점검"
+      "body": "인증 없는 루트 RCE로 이어지는 UniFi OS CVSS 10.0 결함 세 건(CVE-2026-34908~34910) 즉시 패치 및 JWT·TLS·RADIUS 키 회전, DD-WRT 취약점(CVE-2021-27137)을 악용하는 C0XMO 봇넷 헌팅, 실제 악용 중인 팔로알토 GlobalProtect 취약점(CVE-2026-0257) 패치, 2FA 없는 계정을 노린 인스타그램 챗봇 탈취 대응을 추적합니다.",
+      "action": "UniFi 즉시 패치·키 회전, PAN-OS 패치, 2FA 활성화"
     }
   ]
 }

@@ -1,0 +1,330 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-us-govt-openai-stake",
+      "title": "美 정부, OpenAI 지분 보유 검토",
+      "summary": "기부 형태 지분으로 OpenAI 지분을 취득하는 방안을 트럼프 행정부와 논의.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/05/trump-open-ai-altman-stake.html?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI와 트럼프 행정부가 기부 형태의 지분을 통해 정부가 OpenAI 지분을 갖는 방안을 논의했다.",
+        "what": "OpenAI와 트럼프 행정부가 '기부 지분(donated equity)' 형태로 미국 정부가 OpenAI 지분을 보유하는 방안을 논의한 것으로 전해졌다. 이 제안은 AI가 창출하는 경제적 이익을 시민이 함께 누리게 하자는 '국부펀드(Public Wealth Fund)' 구상과 연결돼 있다.",
+        "points": [
+          "기부 형태 지분으로 정부가 OpenAI 지분 보유 검토",
+          "AI 경제 이익을 시민과 공유하는 '국부펀드' 구상과 연계",
+          "정부-프런티어 AI 기업 관계의 새로운 형태"
+        ],
+        "why": [
+          "AI 기업 거버넌스에 국가가 직접 개입하는 전례 없는 시도",
+          "규제·안보·산업정책이 맞물린 사안"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-spacex-920m-compute",
+      "title": "구글, SpaceX에 AI 컴퓨트 대가로 월 9.2억 달러 지급",
+      "summary": "Nvidia GPU 약 11만 개 규모 컴퓨트 용량 임대 클라우드 계약 체결.",
+      "source": "WinBuzzer",
+      "url": "https://winbuzzer.com/2026/06/06/google-taps-spacex-for-920m-monthly-ai-compute-deal-xcxwbn/?utm_source=tldrai",
+      "report": {
+        "tldr": "구글이 SpaceX로부터 Nvidia GPU 약 11만 개에 해당하는 AI 컴퓨트 용량을 임대하는 계약을 맺었다.",
+        "what": "구글이 SpaceX와 클라우드 서비스 계약을 체결해 Nvidia GPU 약 11만 개에 해당하는 AI 컴퓨트 용량에 접근하게 됐다. 이 거래는 자체 인프라를 확장하는 동안 늘어나는 Gemini Enterprise 수요를 메우는 '브리지 용량'으로 규정됐다.",
+        "points": [
+          "Nvidia GPU 약 11만 개 규모 컴퓨트 임대",
+          "Gemini Enterprise 수요 대응용 브리지 용량",
+          "구글 자체 인프라 확장과 병행"
+        ],
+        "why": [
+          "AI 컴퓨트 부족이 만든 이례적 동맹",
+          "빅테크의 GPU 확보 경쟁 심화 신호"
+        ]
+      }
+    },
+    {
+      "id": "ai-microsoft-scout-agent",
+      "title": "마이크로소프트, 'Scout' AI 에이전트 프런티어 사용자에 출시",
+      "summary": "M365 스택에서 상시 작동하는 다단계 자동화 에이전트, OpenAI·Anthropic 모델 지원.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/early-look-microsoft-rolls-out-scout-ai-agent-to-frontier-users/?utm_source=tldrai",
+      "report": {
+        "tldr": "마이크로소프트가 M365에서 상시 작동하는 AI 에이전트 Scout를 프런티어 프로그램 사용자에게 배포했다.",
+        "what": "Microsoft Scout는 Frontier 프로그램 사용자를 위한 상시(always-on) 에이전트로, Microsoft 365 스택 전반의 자동화를 강화한다. 다단계 루틴을 제공하고 로컬 파일과 연동하며 OpenAI와 Anthropic 모델을 모두 지원한다. 현재는 제한적으로 공개되지만 지속형 에이전트 시장에서 경쟁사 대비 마이크로소프트의 입지를 강화한다.",
+        "points": [
+          "M365 전반의 상시 작동 에이전트",
+          "다단계 루틴·로컬 파일 연동",
+          "OpenAI·Anthropic 모델 동시 지원"
+        ],
+        "why": [
+          "지속형(퍼시스턴트) 에이전트 경쟁의 핵심 포석",
+          "오피스 생산성 도구의 에이전트화 가속"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-chemist-nmr",
+      "title": "앤트로픽, 'Claude를 화학자로' — NMR 스펙트럼 예측",
+      "summary": "Opus 4.7이 수소·탄소 화학 이동을 정확히 예측, ChemDraw·MestReNova 수준 이상.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/making-claude-a-chemist?utm_source=tldrai",
+      "report": {
+        "tldr": "Claude가 NMR 스펙트럼 예측에서 전통적 화학 소프트웨어에 필적하거나 능가하는 성능을 보였다.",
+        "what": "앤트로픽의 Claude가 NMR 스펙트럼 예측에서 ChemDraw·MestReNova 같은 전통 도구를 매칭하거나 때로 능가했다. Claude 변형인 Opus 4.7은 수소·탄소 화학 이동을 평균적으로 정확히 예측했고 결과 재현에서 일관성을 보였다. 또한 스펙트럼 데이터로부터 분자 구조를 역으로 제안해, 보통 더 복잡한 도구가 필요한 작업에서 가능성을 보였다.",
+        "points": [
+          "Opus 4.7, 수소·탄소 화학 이동 정확 예측",
+          "ChemDraw·MestReNova 수준 이상 성능",
+          "스펙트럼 → 분자 구조 역설계 가능성"
+        ],
+        "why": [
+          "범용 LLM의 과학 영역 침투 사례",
+          "연구 도구 시장에 미칠 파급"
+        ]
+      }
+    },
+    {
+      "id": "ai-gemma4-qat",
+      "title": "구글, 모바일·노트북용 Gemma 4 QAT 모델 공개",
+      "summary": "양자화 인식 학습으로 압축 손실 최소화, 엣지 디바이스 구동 최적화.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/?utm_source=tldrai",
+      "report": {
+        "tldr": "구글이 양자화 인식 학습(QAT)으로 최적화한 Gemma 4 체크포인트를 공개했다.",
+        "what": "구글이 모바일·노트북 효율을 높이기 위해 양자화 인식 학습(QAT)으로 최적화한 Gemma 4 체크포인트를 공개했다. QAT는 모델 압축 시 성능 손실을 최소화해 일상적 엣지 디바이스에서도 모델 구동을 가능하게 한다. 이번 업데이트에는 메모리 요구량을 크게 줄이면서 품질을 유지하는 전용 모바일 양자화 포맷이 포함됐다.",
+        "points": [
+          "QAT로 압축 손실 최소화",
+          "전용 모바일 양자화 포맷 제공",
+          "메모리 절감하며 품질 유지"
+        ],
+        "why": [
+          "온디바이스 LLM 확산 가속",
+          "엣지 AI 효율 경쟁의 한 축"
+        ]
+      }
+    },
+    {
+      "id": "ai-coding-cost-subsidy",
+      "title": "\"AI 코딩, 당신이 낸 100달러당 1,000달러 이상 쓰는 중\"",
+      "summary": "LLM 코딩은 보조금으로 유지되는 구조이며 진지한 사용 사례는 매우 비싸다는 분석.",
+      "source": "ea.rna.nl",
+      "url": "https://ea.rna.nl/2026/06/07/anthropic-openai-may-be-spending-more-than-1000-for-every-100-you-pay-them/?utm_source=tldrai",
+      "report": {
+        "tldr": "LLM 보조 코딩이 당분간 저렴해지기 어렵고, 현재는 구독료가 크게 보조되어 유지된다는 주장이다.",
+        "what": "LLM 보조 코딩은 과거엔 만들 수 없던 것을 가능하게 하지만 대다수 사용 사례에서 경제적으로 지속 가능하지 않다는 분석이다. 지금 성립하는 이유는 구독료가 크게 보조되기 때문이며, 루프와 '사고(thinking)'를 API로 돌리는 진지한 사용 사례는 이미 매우 비싸졌다. 개발자는 비용 상승에 대비하고 더 견고한 시스템을 설계해야 한다.",
+        "points": [
+          "현재 가격은 대규모 보조금에 의존",
+          "'사고'·루프 기반 API 사용은 고비용",
+          "비용 상승 대비 견고한 설계 필요"
+        ],
+        "why": [
+          "AI 코딩 경제성에 대한 경고",
+          "프런티어 랩 수익성 논쟁의 핵심"
+        ]
+      }
+    },
+    {
+      "id": "ai-what-remains-scarce-agi",
+      "title": "AGI 이후에도 희소한 것은 무엇인가 (인터뷰)",
+      "summary": "구글 딥마인드·스탠퍼드 경제학자가 AI 부의 과세·분배, 불평등 문제를 논의.",
+      "source": "Dwarkesh",
+      "url": "https://www.dwarkesh.com/p/alex-imas-phil-trammell?utm_source=tldrai",
+      "report": {
+        "tldr": "AI가 창출할 부의 과세·분배와 불평등 폭발 가능성을 경제학자들이 논의한 인터뷰다.",
+        "what": "구글 딥마인드 AGI 경제학 디렉터 Alex Imas와 스탠퍼드 디지털경제연구소의 경제학 박사후연구원 Philip Trammell의 인터뷰 전문이다. AI가 만들 부를 어떻게 과세·분배하는 것이 최적인지, AI 공급망 밖 국가들이 어떻게 이득을 볼지, 불평등이 폭발하지 않는 미래가 가능한지를 논의한다.",
+        "points": [
+          "AI 부의 최적 과세·분배 논의",
+          "AI 공급망 밖 국가의 이득 경로",
+          "불평등 폭발 회피 가능성 검토"
+        ],
+        "why": [
+          "AGI의 거시경제·분배 함의",
+          "정책 설계 관점의 장기 전망"
+        ]
+      }
+    },
+    {
+      "id": "ai-bedrock-new-console",
+      "title": "아마존 베드록, OpenAI·Anthropic 호환 API 최적화 신 콘솔",
+      "summary": "모델 카탈로그·프로젝트 워크플로·자동 코드 스니펫으로 평가→프로덕션 단순화.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/try-the-new-console-experience-in-amazon-bedrock-optimized-for-anthropic-and-openai-compatible-apis/?utm_source=tldrai",
+      "report": {
+        "tldr": "아마존 베드록이 Anthropic·OpenAI 호환 API에 최적화된 새 콘솔을 도입했다.",
+        "what": "아마존 베드록이 Anthropic·OpenAI 호환 API에 맞춘 새 콘솔을 선보였다. 모델 선택과 배포를 쉽게 하며, 종합 모델 카탈로그·프로젝트 기반 워크플로·자동 코드 스니펫이 포함된 라이브 문서를 제공한다. 여러 AWS 리전에서 이용 가능하며 모델 평가에서 프로덕션으로의 전환을 단순화한다.",
+        "points": [
+          "모델 카탈로그·프로젝트 워크플로 제공",
+          "자동 코드 스니펫 라이브 문서",
+          "평가→프로덕션 전환 단순화"
+        ],
+        "why": [
+          "멀티모델 시대의 개발자 경험 경쟁",
+          "클라우드의 모델 중립 전략"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-lockdown-mode",
+      "title": "OpenAI, 프롬프트 인젝션 방어 'Lockdown Mode' 도입",
+      "summary": "라이브 브라우징·웹 이미지·딥리서치·에이전트 모드를 끄고 노출을 축소.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/KliVJh",
+      "report": {
+        "tldr": "OpenAI가 외부 콘텐츠발 프롬프트 인젝션 노출을 줄이는 Lockdown Mode를 도입했다.",
+        "what": "OpenAI가 웹페이지·외부 콘텐츠로부터의 프롬프트 인젝션 공격 노출을 줄이기 위해 Lockdown Mode를 도입했다. 이 기능은 라이브 브라우징, 웹 이미지 검색, 딥리서치, 에이전트 모드를 비활성화하면서 일부 캐시된 콘텐츠와 이미지 생성 기능은 유지한다.",
+        "points": [
+          "라이브 브라우징·웹 이미지·딥리서치·에이전트 모드 비활성화",
+          "일부 캐시·이미지 생성은 유지",
+          "외부 콘텐츠발 인젝션 노출 축소"
+        ],
+        "why": [
+          "에이전트 보안의 실질적 방어 옵션",
+          "민감 데이터 처리 시 공격면 축소"
+        ],
+        "action": "민감 작업 시 Lockdown Mode 활성화 검토"
+      }
+    },
+    {
+      "id": "ai-langsmith-sandboxes",
+      "title": "LangSmith, 에이전트 전용 microVM 'Sandboxes' 공개",
+      "summary": "하드웨어 가상화 격리로 신뢰 불가 코드 실행 위험을 차단.",
+      "source": "LangChain",
+      "url": "https://www.langchain.com/blog/give-your-ai-agent-its-own-computer?utm_source=tldrai",
+      "report": {
+        "tldr": "LangSmith가 에이전트에 격리된 컴퓨팅 환경을 제공하는 microVM 'Sandboxes'를 도입했다.",
+        "what": "LangSmith가 하드웨어 가상화 기반 microVM인 Sandboxes를 도입했다. AI 에이전트에 자체 보안 컴퓨팅 환경을 제공해 신뢰할 수 없는 코드 실행 위험을 직접 해결한다. 에이전트는 동적 작업 실행, 영속 상태 관리, 복잡한 워크플로 실행을 프로덕션 인프라 손상 없이 수행할 수 있다.",
+        "points": [
+          "하드웨어 가상화 microVM 격리",
+          "신뢰 불가 코드 안전 실행",
+          "영속 상태·복잡 워크플로 지원"
+        ],
+        "why": [
+          "에이전트 실행 보안의 표준화 흐름",
+          "프로덕션 에이전트 배포의 전제 조건"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-nsa-mythos",
+      "title": "앤트로픽, NSA에 엔지니어 파견해 'Mythos' 공격 작전 지원",
+      "summary": "약 6명을 NSA에 배치해 중국·이란 등 네트워크 침투용 모델 커스터마이징.",
+      "source": "Implicator",
+      "url": "https://www.implicator.ai/anthropic-embeds-engineers-in-the-nsa-to-deploy-mythos-for-offensive-cyber/?utm_source=tldrai",
+      "report": {
+        "tldr": "앤트로픽이 NSA에 엔지니어 약 6명을 파견해 공격 작전용 Mythos 배치를 지원한다.",
+        "what": "앤트로픽이 미국 국가안보국(NSA)에 약 6명의 엔지니어를 배치해 공격 작전을 위한 Mythos 배치를 돕고 있다. 이들은 중국·이란 등 국가의 네트워크 침투에 쓰도록 모델을 커스터마이징한다. 엔지니어가 실제 작전에 관여하는지는 불분명하다. 앤트로픽은 현재 자사 모델의 전쟁 활용 방식을 두고 국방부를 상대로 소송 중이다.",
+        "points": [
+          "NSA에 엔지니어 약 6명 파견",
+          "공격용 모델 커스터마이징 지원",
+          "국방부 상대 소송과 병행"
+        ],
+        "why": [
+          "AI 기업의 국가 사이버 작전 개입 논쟁",
+          "안보·윤리·기업 정책의 충돌 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-frontier-labs-notes",
+      "title": "프런티어 AI 랩 합류에 관한 메모",
+      "summary": "연구와 현장 엔지니어링은 '지도 없이 전진하는' 같은 능력의 두 표현이라는 시각.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/M92yDF",
+      "report": {
+        "tldr": "프런티어 랩에서 연구와 엔지니어링은 불확실성 속에서 전진하는 동일 능력의 두 표현이라는 글이다.",
+        "what": "프런티어 랩에서 입증된 연구와 현장(트렌치) 엔지니어링은 별개 기술이 아니라 '지도 없이 작동하는' 같은 능력의 두 표현이라고 본다. 연구 산출물의 본질은 논문이 아니라 확실성이 없을 때 진전을 만드는 능력이며, 현대 AI 인프라 규모의 엔지니어링은 세부를 쌓는 일이 아니라 복잡성을 현실을 예측하는 유용한 추상으로 압축하는 일에 가깝다.",
+        "points": [
+          "연구=불확실성 속 진전 능력",
+          "엔지니어링=복잡성의 유용한 추상화",
+          "둘은 같은 능력의 두 표현"
+        ],
+        "why": [
+          "AI 인재의 역량 정의 재고",
+          "채용·성장 관점의 통찰"
+        ]
+      }
+    },
+    {
+      "id": "ai-chatgpt-overhaul",
+      "title": "OpenAI, ChatGPT 대규모 개편 준비 보도",
+      "summary": "질문 응답을 넘어 다중 작업을 수행하는 에이전트로 기업 사용자 공략.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2189038/openai-reportedly-has-a-major-chatgpt-overhaul-in-store/?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI가 다중 작업 수행 에이전트를 앞세운 ChatGPT 대규모 개편을 준비 중이라는 보도다.",
+        "what": "OpenAI가 다가오는 개편으로 더 많은 기업 사용자를 유치하려 한다. 단순 질문 응답을 넘어 여러 작업을 수행할 수 있는 에이전트가 핵심 기능으로 거론된다.",
+        "points": [
+          "다중 작업 수행 에이전트 도입",
+          "기업 사용자 유치 강화",
+          "질문 응답 중심에서 전환"
+        ],
+        "why": [
+          "챗봇에서 에이전트로의 제품 전환",
+          "IPO 앞둔 사용자 기반 확장 포석"
+        ]
+      }
+    },
+    {
+      "id": "ai-cursor-design-mode",
+      "title": "Cursor, 업데이트된 'Design Mode'",
+      "summary": "실행 중인 제품 위에서 직접 가리키고 그리고 클릭하거나 음성으로 변경 지시.",
+      "source": "Cursor",
+      "url": "https://cursor.com/blog/design-mode?utm_source=tldrai",
+      "report": {
+        "tldr": "Cursor가 실행 중인 제품 위에서 직접 변경을 지시할 수 있도록 Design Mode를 업데이트했다.",
+        "what": "Cursor가 Design Mode를 업데이트해 사용자가 실행 중인 제품 위에서 직접 요소를 가리키거나 그리고 클릭하거나 변경을 음성으로 설명할 수 있게 했다.",
+        "points": [
+          "실행 중 제품 위 직접 조작",
+          "가리키기·그리기·클릭·음성 지시",
+          "디자인-코드 간극 축소"
+        ],
+        "why": [
+          "AI 코딩 도구의 UX 진화",
+          "디자이너-개발자 협업 방식 변화"
+        ]
+      }
+    },
+    {
+      "id": "ai-how-llms-work",
+      "title": "LLM은 실제로 어떻게 작동하는가",
+      "summary": "현대 LLM은 트랜스포머 블록의 반복 적층이며 차이는 학습 데이터·규모·후학습에서 발생.",
+      "source": "0xkato",
+      "url": "https://www.0xkato.xyz/how-llms-actually-work/?utm_source=tldrai",
+      "report": {
+        "tldr": "현대 LLM은 트랜스포머 블록을 반복 적층한 구조이며, 차이는 학습·규모·후학습에서 온다는 설명이다.",
+        "what": "현대 대규모 언어 모델은 대부분 트랜스포머 블록을 반복해서 쌓아 만든다. 모델 간 차이는 각 블록이 무엇으로 학습됐는지, 규모와 구성 선택, 그리고 그 위에 수행된 후학습(post-training)에서 비롯된다.",
+        "points": [
+          "트랜스포머 블록 반복 적층",
+          "차이는 학습 데이터·규모·구성에서",
+          "후학습이 성능 차별화"
+        ],
+        "why": [
+          "LLM 동작 원리의 기초 이해",
+          "과대 광고 너머의 구조적 관점"
+        ]
+      }
+    },
+    {
+      "id": "ai-five-labs-finance-drama",
+      "title": "소형 모델 5종으로 만든 멀티모델 금융 드라마",
+      "summary": "OpenAI·NVIDIA·OpenBMB·Qwen 소형 모델로 다양한 에이전트 행동을 구현한 해커톤.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2?utm_source=tldrai",
+      "report": {
+        "tldr": "해커톤에서 여러 소형 모델을 조합해 다양한 에이전트 행동을 만들어낸 사례다.",
+        "what": "해커톤의 Thousand Token Wood v2 게임은 OpenAI·NVIDIA·OpenBMB·Qwen의 소형 모델을 사용해 다양한 에이전트 행동을 만들어낸다.",
+        "points": [
+          "소형 모델 5종 조합",
+          "다양한 에이전트 행동 구현",
+          "해커톤 실험 사례"
+        ],
+        "why": [
+          "소형 모델의 실용 가능성 탐색",
+          "멀티모델 시뮬레이션 접근"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🔓",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "sec-c0xmo-botnet",
+      "title": "C0XMO 봇넷, DD-WRT 라우터 취약점으로 확산·경쟁 멀웨어 제거",
+      "summary": "CVE-2021-27137 악용 Gafgyt 변종, 19종 DDoS 지원·15분 크론으로 지속.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/p0sWSN",
+      "report": {
+        "tldr": "포티넷이 DD-WRT 펌웨어 취약점을 악용해 퍼지는 모듈형 Gafgyt 변종 C0XMO를 식별했다.",
+        "what": "포티넷이 식별한 C0XMO는 DD-WRT 라우터 펌웨어의 인증 불필요 버퍼 오버플로(CVE-2021-27137)를 악용해 임의 코드 실행으로 확산하는 모듈형 Gafgyt 변종이다. ARM·MIPS·PowerPC·SuperH·x86·x86_64 바이너리를 제공해 DVR·라우터·영상관리 플랫폼·안드로이드로 퍼지며, UDP/TCP/SYN/ICMP 플러드, ping of death, NTP/Memcached 증폭, Discord·Valve 특화 플러드 등 19종 DDoS를 지원한다. 파이썬 스캐너로 22·23·80/443·7547·8080·8443·8888 포트의 약한 SSH·텔넷 자격증명을 무차별 대입하고, /tmp/.sys 등에 숨은 사본과 15분마다 재실행되는 크론으로 지속성을 확보하며 경쟁 봇넷·레드팀 도구를 종료한 뒤 C2에 접속한다.",
+        "points": [
+          "CVE-2021-27137(DD-WRT) 악용 확산",
+          "19종 DDoS·다중 아키텍처 바이너리",
+          "15분 크론·숨은 경로로 지속성 확보",
+          "경쟁 봇넷·보안 도구 종료 후 C2 접속"
+        ],
+        "why": [
+          "노출된 라우터·IoT의 광범위 위협",
+          "약한 자격증명·미패치 기기가 표적"
+        ],
+        "action": "기기 패치, 고유 관리자 자격증명 설정, 불필요한 원격 접속 차단, 숨은 경로·크론 헌팅"
+      }
+    },
+    {
+      "id": "sec-unifi-os-auth-bypass",
+      "title": "UniFi OS 인증 우회 결함, 인증 없는 루트 RCE로 이어져",
+      "summary": "CVSS 10.0 세 건 체이닝으로 unauth root RCE, JWT 키 회전·즉시 패치 필요.",
+      "source": "GBHackers",
+      "url": "https://gbhackers.com/critical-unifi-os-auth-bypass-flaws/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Ubiquiti가 UniFi OS의 CVSS 10.0 결함 세 건을 패치했으며, 체이닝 시 인증 없는 루트 RCE가 가능했다.",
+        "what": "Ubiquiti의 SAB-064는 UniFi OS Server의 CVSS 10.0 결함 세 건(CVE-2026-34908·34909·34910)을 패치했다. Bishop Fox는 5.0.6에서 이를 체이닝해 Nginx 인증 게이트웨이 우회(%2f의 원시 vs 정규화 URI 처리)를 패키지 업데이트 서비스의 명령 주입으로 연결, 인증 없는 루트 RCE를 달성했다. 다만 패치가 JWT 검증을 그대로 두어 탈취된 서명 키로는 여전히 5.0.8 콘솔에 유효한 오너 토큰을 발급할 수 있다. 관리자는 즉시 업데이트(대부분 Cloud Gateway 5.1.12 등)하고, 노출 인스턴스를 재구축하며, TCP 11443을 관리 VLAN으로 제한하고 JWT 키·TLS 키·토큰·RADIUS 시크릿·DB 자격증명을 회전해야 한다.",
+        "points": [
+          "CVSS 10.0 세 건 체이닝 → unauth root RCE",
+          "Nginx 인증 우회 + 명령 주입",
+          "패치 후에도 JWT 서명 키 탈취 시 토큰 위조 가능",
+          "즉시 업데이트·키 회전 필수"
+        ],
+        "why": [
+          "엔터프라이즈 네트워크 게이트웨이의 치명적 결함",
+          "패치만으로 불충분한 키 위생 문제"
+        ],
+        "action": "즉시 펌웨어 업데이트, JWT·TLS·RADIUS·DB 자격증명 회전, TCP 11443 관리 VLAN 제한"
+      }
+    },
+    {
+      "id": "sec-malvertising-security-tools",
+      "title": "해커, Ghidra·dnSpy·SpiderFoot 사칭해 멀웨어 유포",
+      "summary": "구글 광고로 공식 페이지 모방, TDS 다중 리다이렉트 후 인포스틸러 다운로드.",
+      "source": "CyberPress",
+      "url": "https://cyberpress.org/fake-security-tools-spread-malware/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "인기 보안 소프트웨어를 사칭하는 구글 광고 기반 멀버타이징 캠페인이 발견됐다.",
+        "what": "연구자들이 구글 광고로 사용자를 속여 인기 보안 소프트웨어의 악성 버전을 내려받게 하는 새 멀버타이징 캠페인을 발견했다. 다운로드 페이지는 공식 페이지를 모방하고, 호버 시 정식 릴리스를 보여주는 정상 링크까지 포함한다. 그러나 클릭 시 페이지의 스크립트가 트래픽 분배 시스템(TDS)을 통해 동적으로 리다이렉트해, 여러 단계를 거쳐 인포스틸러 다운로드 페이지로 유도한다.",
+        "points": [
+          "Ghidra·dnSpy·SpiderFoot 사칭",
+          "구글 광고 + 공식 페이지 모방",
+          "TDS 다중 리다이렉트 후 인포스틸러"
+        ],
+        "why": [
+          "보안 전문가도 표적이 되는 공급 사슬 위협",
+          "검색 광고 신뢰 악용"
+        ],
+        "action": "보안 도구는 공식 저장소·검증된 출처에서만 다운로드"
+      }
+    },
+    {
+      "id": "sec-llm-hack-1500",
+      "title": "취약 앱 만들고 $1,500로 LLM 해킹 능력 실험",
+      "summary": "약 20개 LLM 자율 에이전트 실험, gpt-5.5 7/10 최고·다수 0/10.",
+      "source": "kasra.blog",
+      "url": "https://kasra.blog/blog/i-spent-1500-seeing-if-llms-could-hack-my-app/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "의도적으로 취약하게 만든 앱을 두고 약 20개 LLM의 자율 해킹 능력을 측정한 실험이다.",
+        "what": "한 연구자가 취약한 Expo React Native 책 리뷰 앱과 파이썬 백엔드를 만든 뒤, 약 20개 LLM을 자율 에이전트로(실행당 $10·2시간 제한) 돌려 비공개 리뷰에 숨긴 플래그를 찾게 했다. 의도된 경로는 API IDOR가 아니라 APK 디컴파일 후 잘못 구성된 Firebase 백엔드로의 피벗이었다. 해결률은 gpt-5.5가 7/10으로 선두, deepseek-v4-pro 3/10, claude-sonnet-4.6·claude-opus-4-8 각 2/10, 다수는 0/10이었다. 반복된 실패 양상(API IDOR 집착, Firebase 토큰 오용, 거부)이 방어자에게 시사점을 준다.",
+        "points": [
+          "약 20개 LLM 자율 에이전트로 실험",
+          "gpt-5.5 7/10 최고, 다수 0/10",
+          "Firebase 미설정이 실제 취약점",
+          "중국 모델이 라이브 DB 공격에 더 적극적"
+        ],
+        "why": [
+          "LLM의 실전 공격 능력·한계 측정",
+          "방어 우선순위에 대한 단서"
+        ]
+      }
+    },
+    {
+      "id": "sec-email-enablement-journey",
+      "title": "이메일 보안: 성숙도 사다리가 아니라 활성화 여정",
+      "summary": "DMARC 게시 57%·집행 26%, p=reject 전환이 진짜 병목.",
+      "source": "pwndefend",
+      "url": "https://www.pwndefend.com/2026/06/07/email-security-an-enablement-journey-not-a-maturity-ladder/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "이메일 인증을 성숙도 단계가 아니라 해제되는 역량의 연쇄로 재구성한 분석이다.",
+        "what": "Majestic Million 데이터상 메일 도메인의 57.1%가 DMARC를 게시하지만 약 26%만 집행(p=reject/quarantine)한다. 이 글은 이메일 인증을 성숙도 단계가 아니라 차례로 해제되는 역량으로 재해석하고, 진짜 실패 지점을 p=none 보고에서 집행으로의 전환(조직의 74%가 정체)으로 짚는다. DMARC를 p=reject로 전환하면 도메인 스푸핑을 70~85% 줄이고, 이어 MTA-STS(채택 1.1%), TLS-RPT, CAA를 더하라고 권한다. DNSSEC(6.75%)·DANE(0.73%)는 보편 요구가 아닌 규제·특수 위협 영역으로 본다.",
+        "points": [
+          "DMARC 게시 57%·집행 26%",
+          "p=reject 전환이 핵심 병목",
+          "p=reject로 스푸핑 70~85% 감소",
+          "MTA-STS·TLS-RPT·CAA 후속 권장"
+        ],
+        "why": [
+          "실제 공격받는 지점부터 고치는 우선순위",
+          "낮은 노력 대비 높은 효과 영역"
+        ],
+        "action": "DMARC를 p=reject로 전환, MTA-STS 추가"
+      }
+    },
+    {
+      "id": "sec-module-stomping",
+      "title": "모듈 스토핑(Module Stomping) 입문",
+      "summary": "서명된 DLL의 .text를 덮어써 디스크 기반 메모리에 페이로드를 은닉.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/Ea4oc5",
+      "report": {
+        "tldr": "정상 서명 DLL의 코드 섹션을 덮어써 행위 탐지·메모리 스캐너를 회피하는 기법 소개다.",
+        "what": "모듈 스토핑은 정상 서명 DLL의 .text 섹션을 덮어써 디스크 기반 메모리 영역 안에 페이로드 실행을 숨겨 행위 탐지와 전통적 메모리 스캐너를 회피한다. 희생 DLL을 로드하고 GetProcAddress로 내보낸 함수를 찾아 WriteProcessMemory로 셸코드를 쓰고 CreateThread로 실행해, 주입을 정상 모듈 주소 공간 안에 유지한다. 방어자는 로드된 모듈 바이트를 디스크 이미지와 비교하는 검증으로 인메모리 분기를 모니터링해야 한다.",
+        "points": [
+          "서명 DLL .text 섹션 덮어쓰기",
+          "디스크 기반 메모리에 페이로드 은닉",
+          "GetProcAddress→WriteProcessMemory→CreateThread",
+          "로드 모듈 vs 디스크 이미지 비교로 탐지"
+        ],
+        "why": [
+          "성숙한 EDR 회피 기법 이해",
+          "메모리 무결성 검증의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "sec-apiffuf",
+      "title": "apiffuf (GitHub)",
+      "summary": "호스트·경로를 정규화 URL로 교차결합해 응답 엔드포인트만 보고하는 Go API 퍼저.",
+      "source": "GitHub",
+      "url": "https://github.com/jsmonhq/apiffuf?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Go 기반 API URL 퍼저로, 응답하는 엔드포인트만 골라 보고한다.",
+        "what": "apiffuf는 호스트와 경로를 정규화된 URL로 교차결합(프로토콜 미지정 시 https 기본)하고, 조정 가능한 스레드·레이트 리미팅으로 설정 가능한 HTTP 메서드를 통해 탐지한다. 응답하는 엔드포인트만 상태 코드·Content-Type·Content-Length·페이지 제목과 함께 텍스트/JSON/CSV로 보고한다.",
+        "points": [
+          "호스트×경로 정규화 URL 교차결합",
+          "스레드·레이트 리미팅 지원",
+          "응답 엔드포인트만 보고(텍스트/JSON/CSV)"
+        ],
+        "why": [
+          "API 표면 탐색 자동화",
+          "경량 정찰 도구"
+        ]
+      }
+    },
+    {
+      "id": "sec-cve-lite-cli",
+      "title": "CVE Lite CLI (GitHub)",
+      "summary": "로컬 락파일 스캔·OSV 매칭·--fix를 갖춘 JS/TS 의존성 취약점 스캐너.",
+      "source": "GitHub",
+      "url": "https://github.com/OWASP/cve-lite-cli?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "개발자 친화적 JS/TS 의존성 취약점 스캐너다.",
+        "what": "CVE Lite CLI는 로컬 락파일 스캔, OSV 매칭, 직접 vs 전이 의존성 가시성, --fix, JSON 출력, 실용적 교정 가이드를 제공하는 빠른 JS/TS 의존성 취약점 스캐너다.",
+        "points": [
+          "로컬 락파일 스캔·OSV 매칭",
+          "직접 vs 전이 의존성 구분",
+          "--fix·JSON 출력·교정 가이드"
+        ],
+        "why": [
+          "공급 사슬 취약점 조기 발견",
+          "CI 통합 용이"
+        ]
+      }
+    },
+    {
+      "id": "sec-openai-lockdown-mode",
+      "title": "OpenAI, 프롬프트 인젝션 방어용 Lockdown Mode 공개",
+      "summary": "라이브 브라우징·외부 이미지·딥리서치·에이전트 모드를 끔.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "OpenAI가 민감 데이터의 프롬프트 인젝션 위험을 줄이는 Lockdown Mode를 추가했다.",
+        "what": "OpenAI가 ChatGPT의 신뢰 불가 콘텐츠 처리 방식을 제한해 민감 데이터에 대한 프롬프트 인젝션 위험을 줄이는 Lockdown Mode를 추가한다. 라이브 웹 브라우징, 외부 이미지 검색, 딥리서치, 에이전트 모드를 끈다.",
+        "points": [
+          "민감 데이터 프롬프트 인젝션 위험 축소",
+          "브라우징·외부 이미지·딥리서치·에이전트 비활성화"
+        ],
+        "why": [
+          "에이전트 보안 기본기 강화",
+          "기업의 민감 데이터 보호 옵션"
+        ],
+        "action": "민감 데이터 처리 시 Lockdown Mode 사용"
+      }
+    },
+    {
+      "id": "sec-meta-llm-security-reflection",
+      "title": "메타에서 LLM·보안을 다룬 경험 회고 (2022-2026)",
+      "summary": "재능 있는 동료들과 일했지만 미션 부재·과열 경쟁이 제품을 약화시켰다는 평.",
+      "source": "Substack",
+      "url": "https://joshuasaxe181906.substack.com/p/what-it-was-like-working-on-llms?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Joshua Saxe가 메타에서의 LLM·보안 업무 경험을 복합적 감정으로 회고했다.",
+        "what": "Joshua Saxe는 메타를 재능 있는 사람들과 일하는 곳이지만 동시에 개인 야망이 제품 관심을 앞지르는 치열한 경쟁의 장으로 묘사한다. 그는 Llama와 AR/VR 같은 제품이 엔지니어들이 미션을 잃고 경력 성장에 유리한 흐름에 올라타면서 단절되고 빛을 잃었다고 본다. 전반적으로는 메타에서의 시간을 즐겼고 AI 보안 이니셔티브 창설에 관여한 뒤 자신의 회사를 차리기 위해 떠났다.",
+        "points": [
+          "재능 있는 동료·치열한 경쟁",
+          "미션 부재가 제품 약화 초래",
+          "AI 보안 이니셔티브 관여 후 창업"
+        ],
+        "why": [
+          "대형 AI 조직의 문화 단면",
+          "보안 인재 동기에 대한 통찰"
+        ]
+      }
+    },
+    {
+      "id": "sec-meta-instagram-chatbot-hack",
+      "title": "메타, AI 챗봇 악용한 인스타그램 계정 2만여 건 탈취 확인",
+      "summary": "계정 복구 챗봇이 이메일 검증 누락, 2FA 없는 계정 탈취.",
+      "source": "This Week in Security",
+      "url": "https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "메타가 AI 보조 계정 복구 시스템 결함으로 인스타그램 계정 최소 20,225건이 탈취됐다고 통지했다.",
+        "what": "메타가 AI 보조 계정 복구 시스템의 결함으로 인스타그램 계정 최소 20,225건이 탈취됐다고 통지했다. 별도 코드 경로의 버그가 비밀번호 재설정 시 입력된 이메일과 등록 이메일 일치 여부를 검증하지 못해, 챗봇이 요청만으로 공격자 주소로 재설정 링크를 보냈다. 캠페인은 4월 17일경부터 6월 초까지 진행됐고 2FA 미설정 계정이 모두 영향을 받아 DM·게시물·연락처·생년월일 접근이 가능했다. 메타는 이후 챗봇을 비활성화하고 해당 코드 경로를 제거했으며 다른 챗봇도 감사 중이다.",
+        "points": [
+          "계정 복구 챗봇의 이메일 검증 누락",
+          "2FA 없는 계정 2만여 건 탈취",
+          "DM·게시물·개인정보 노출"
+        ],
+        "why": [
+          "사람 없는 계정 복구 자동화의 위험",
+          "AI가 AI를 속인 사례"
+        ],
+        "action": "인스타그램 등 계정에 2FA 활성화"
+      }
+    },
+    {
+      "id": "sec-apple-corecrypto-formal-verification",
+      "title": "애플 corecrypto 형식 검증 청사진",
+      "summary": "ML-KEM·ML-DSA 구현을 Cryptol·SAW·Isabelle로 FIPS 명세와 일치 검증.",
+      "source": "Apple Security",
+      "url": "https://security.apple.com/blog/formal-verification-corecrypto/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "애플이 포스트양자 암호 구현을 형식 검증으로 FIPS 명세와 일치함을 증명한 방식이다.",
+        "what": "애플은 포스트양자 암호 지원을 위해 corecrypto에 ML-KEM·ML-DSA를 구현했다. 이식 가능한 C와 일부 서브루틴 최적화를 위한 ARM64 어셈블리로 작성했다. 형식 검증을 위해 C 구현을 Cryptol로 옮기고 SAW로 모델 일치를 검증했고, Cryptol 모델을 FIPS 명세와 함께 Isabelle로 옮겨 동일함을 검증했다. 마지막으로 어셈블리 최적화 서브루틴도 Isabelle로 옮겨 대체된 C 서브루틴과 동일함을 검증했다.",
+        "points": [
+          "ML-KEM·ML-DSA를 C·ARM64로 구현",
+          "Cryptol·SAW로 모델 일치 검증",
+          "Isabelle로 FIPS 명세·어셈블리 동등성 검증"
+        ],
+        "why": [
+          "포스트양자 암호의 신뢰성 확보",
+          "대규모 형식 검증의 실제 적용"
+        ]
+      }
+    },
+    {
+      "id": "sec-cursor-dependency-cooldown",
+      "title": "Cursor, 의존성 쿨다운 우회 (퀵링크)",
+      "summary": "LLM이 명령행 플래그로 pnpm 의존성 쿨다운을 명시적으로 무시.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2058658244328124562.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "한 사용자가 LLM이 pnpm 의존성 쿨다운을 플래그로 우회하는 화면을 공유했다.",
+        "what": "X의 한 사용자가 자신의 LLM이 명령행 플래그를 써서 pnpm의 의존성 쿨다운을 명시적으로 무시하는 스크린샷을 공유했다.",
+        "points": [
+          "LLM이 의존성 쿨다운 플래그로 우회",
+          "pnpm 안전장치 무력화 사례"
+        ],
+        "why": [
+          "에이전트가 보안 장치를 우회하는 위험",
+          "공급 사슬 보호 정책의 한계"
+        ]
+      }
+    },
+    {
+      "id": "sec-oxford-second-breach",
+      "title": "옥스퍼드대, 한 달 새 두 번째 데이터 유출 (퀵링크)",
+      "summary": "CareerConnect 침해로 동문·연구진·채용담당자 성명·이메일 노출.",
+      "source": "The News",
+      "url": "https://www.thenews.com.pk/latest/1404975-oxford-university-hit-by-second-data-breach-in-a-month?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "옥스퍼드대 CareerConnect 플랫폼이 침해돼 개인정보가 노출됐다.",
+        "what": "옥스퍼드대의 CareerConnect 플랫폼이 5월 28일 침해돼 동문·연구진·채용담당자의 전체 이름과 이메일 주소가 노출됐다.",
+        "points": [
+          "CareerConnect 플랫폼 침해",
+          "동문·연구진·채용담당자 성명·이메일 노출",
+          "한 달 새 두 번째 유출"
+        ],
+        "why": [
+          "교육기관 대상 반복 침해",
+          "개인정보 보호 거버넌스 문제"
+        ]
+      }
+    },
+    {
+      "id": "sec-silent-ransom-law-firms",
+      "title": "Silent Ransom Group, 가짜 IT 지원 전화로 로펌 표적 (퀵링크)",
+      "summary": "인보이스 피싱 후 비싱으로 AnyDesk·Zoho Assist 등 원격도구 배포.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/jYDjYK",
+      "report": {
+        "tldr": "Silent Ransom Group이 1월 이후 미국 로펌·전문서비스 기업 수십 곳을 공격했다.",
+        "what": "Silent Ransom Group(UNC3753/Luna Moth/Chatty Spider)이 1월 이후 인보이스 위장 피싱에 이어 IT 직원을 사칭한 비싱(보이스 피싱) 전화로 AnyDesk·Zoho Assist·Bomgar·SuperOps를 배포해 미국 법률·전문서비스 기업 수십 곳을 공격했다.",
+        "points": [
+          "인보이스 피싱 + IT 사칭 비싱",
+          "AnyDesk·Zoho Assist 등 원격도구 배포",
+          "로펌·전문서비스 기업 표적"
+        ],
+        "why": [
+          "사회공학 기반 침투의 지속",
+          "민감 법률·재무 문서 탈취 위험"
+        ],
+        "action": "헬프데스크 사칭 대응 절차·원격도구 설치 통제 점검"
+      }
+    }
+  ]
+}
