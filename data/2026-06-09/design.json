@@ -1,0 +1,291 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-airbnb-ai-lab",
+      "title": "에어비앤비 CEO, 다른 AI 미래에 베팅",
+      "summary": "범용 챗봇 대신 디자인·사용자경험 중심 독립 AI 랩 설립.",
+      "source": "Storyboard18",
+      "url": "https://www.storyboard18.com/brand-makers/airbnb-ceo-bets-on-different-ai-future-focuses-on-design-and-user-experience-100312.htm?utm_source=tldrdesign",
+      "report": {
+        "tldr": "에어비앤비 CEO 브라이언 체스키가 범용 챗봇이 아닌 디자인·UX 중심의 독립 AI 랩을 설립한다.",
+        "what": "에어비앤비 CEO 브라이언 체스키가 범용 챗봇이 아닌 디자인과 사용자경험에 초점을 둔 독립 AI 랩을 출범한다. 대화형 모델에 의존하기보다 여행 계획 같은 특정 용도에 맞춘 전문화·직관적 AI 시스템을 강조한다. 보편적 인터페이스보다 우수한 사용자 상호작용을 갖춘 여러 전문 도구에 AI의 미래가 있다는 믿음이다.",
+        "points": [
+          "디자인·UX 중심 독립 AI 랩 설립",
+          "범용 챗봇과 차별화",
+          "여행 계획 등 특정 용도 전문화"
+        ],
+        "why": [
+          "빅테크 트렌드와 다른 AI 제품 철학",
+          "UX 중심 AI 설계 담론에 무게"
+        ]
+      }
+    },
+    {
+      "id": "design-iphone-fold-dummy",
+      "title": "새 더미 유닛, 아이폰 폴드 가장 가까운 모습",
+      "summary": "7.8인치 내부·5.5인치 외부, 측면 Touch ID, 무주름 힌지 루머.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/06/07/dummy-unit-iphone-fold-ultra-new-look/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "유출된 더미 유닛이 애플 첫 폴더블 아이폰의 형태를 가장 가깝게 보여준다.",
+        "what": "올해 말 예상되는 애플 첫 폴더블 아이폰은 7.8인치 내부 디스플레이, 5.5인치 외부 화면, 측면 버튼 Touch ID, 후면 듀얼 카메라, 거의 주름 없는 폴더블 설계가 루머로 돈다. 유출된 더미 유닛은 콤팩트한 여권형 폼팩터를 시사하며, 애플은 한두 가지 색상으로만 출시하고 빌드 품질·힌지 설계를 핵심 차별점으로 둘 가능성이 높다.",
+        "points": [
+          "7.8인치 내부·5.5인치 외부 화면",
+          "측면 버튼 Touch ID",
+          "무주름 폴더블·여권형 폼팩터",
+          "빌드·힌지가 차별점"
+        ],
+        "why": [
+          "애플 폴더블 진입의 디자인 단서",
+          "폴더블 폼팩터 경쟁 본격화"
+        ]
+      }
+    },
+    {
+      "id": "design-figma-check-designs",
+      "title": "Figma 'Check designs' 출시",
+      "summary": "디자인 시스템과 대조해 불일치를 잡고 원클릭 수정 제공.",
+      "source": "Figma",
+      "url": "https://www.figma.com/release-notes/?title=check-designs-catch-whats-off-ship-whats-right&utm_source=tldrdesign",
+      "report": {
+        "tldr": "Figma가 디자인을 디자인 시스템과 대조해 불일치를 잡아내는 'Check designs'를 출시했다.",
+        "what": "Figma가 6월 4일 'Check designs'를 출시했다. 디자인을 디자인 시스템과 비교해 불일치를 표시하고 변수/스타일 불일치, 접근성 위반, 라이브러리 불일치, 분리된 컴포넌트에 원클릭 수정을 제공한다. Organization·Enterprise 플랜에서 사용 가능하다.",
+        "points": [
+          "디자인 시스템과 자동 대조",
+          "원클릭 수정 제공",
+          "접근성·라이브러리·컴포넌트 검사",
+          "Org·Enterprise 플랜"
+        ],
+        "why": [
+          "디자인 시스템 일관성 자동화",
+          "대규모 팀의 품질 관리 효율화"
+        ]
+      }
+    },
+    {
+      "id": "design-validate-before-production",
+      "title": "프로덕션 코드 전에 디자인 결정 검증하기",
+      "summary": "Slack 디렉터가 AI 프로토타입으로 결정을 사전 테스트.",
+      "source": "Slack Design",
+      "url": "https://slack.design/articles/how-i-validated-design-decisions-before-writing-production-code/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "Slack의 시니어 디렉터가 AI 보조 코딩으로 프로덕션 전에 디자인 결정을 검증했다.",
+        "what": "Slack의 시니어 디렉터가 AI 보조 코딩으로 인터랙티브 프로토타입을 만들어, 이미 정해진 선택을 보여주기보다 프로덕션 전에 디자인 결정을 테스트했다. 실제 데이터 분포로 갤러리 레이아웃 알고리즘과 max-width 전략을 탐색하는 도구를 만들어, 수주의 프로덕션 반복을 며칠의 프로토타이핑으로 대체했다. '어떤 옵션이 맞아 보이나'에서 '어떤 옵션이 어디서나 견디나'로 초점을 옮겼다.",
+        "points": [
+          "AI 프로토타입으로 결정 사전 검증",
+          "실제 데이터로 레이아웃·max-width 탐색",
+          "수주 반복을 며칠로 단축"
+        ],
+        "why": [
+          "AI 프로토타이핑의 실무 활용 사례",
+          "'보기 좋음'에서 '견고함'으로의 평가 전환"
+        ]
+      }
+    },
+    {
+      "id": "design-speed-of-prototyping",
+      "title": "AI 시대의 프로토타이핑 속도",
+      "summary": "AI로 일상 엔지니어링 4배 가속, 작업의 본질이 전략으로 이동.",
+      "source": "Daryl Cecile",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI가 프로토타이핑을 극적으로 가속하며 엔지니어링의 본질을 전략적 사고로 옮긴다.",
+        "what": "저자는 AI가 프로토타이핑 워크플로를 극적으로 가속해 아이디어를 단순 개념이 아닌 작동 프로토타입으로 빠르게 전환하게 해준다고 말한다. AI는 작업 속도뿐 아니라 본질도 바꿔, 시스템 아키텍처·경계·위임을 더 전략적으로 사고하게 만든다. 일상 엔지니어링이 약 4배 빨라졌고 이전엔 너무 오래 걸려 포기했을 프로젝트도 다룰 수 있게 됐다.",
+        "points": [
+          "아이디어를 빠르게 작동 프로토타입으로",
+          "일상 엔지니어링 약 4배 가속",
+          "아키텍처·경계·위임의 전략적 사고 요구"
+        ],
+        "why": [
+          "AI가 바꾸는 작업의 속도와 본질",
+          "프로토타이핑 민주화의 실제 체감"
+        ]
+      }
+    },
+    {
+      "id": "design-four-ai-design-jobs",
+      "title": "AI가 만든 네 가지 디자인 직무",
+      "summary": "AI 활용·AI 제품 설계·에이전트용 설계·모델 행동 설계로 구분.",
+      "source": "NN/g",
+      "url": "https://www.nngroup.com/articles/design-jobs-ai-created/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "'AI 디자인'은 이제 네 가지 별개의 일을 포괄한다고 NN/g가 정리했다.",
+        "what": "'AI 디자인'은 디자인 프로세스 개선에 AI 활용, AI 기반 제품·기능 설계, AI 에이전트가 상호작용할 콘텐츠·시스템 설계, AI 모델 행동 자체 설계의 네 가지로 나뉜다. 대부분 디자이너는 앞 두 가지에 집중하지만 에이전트·AI 시스템 설계 수요가 빠르게 늘고 있다. 각기 다른 기술·책임·성공 척도가 필요하므로 어떤 AI 디자인인지 구체적으로 말해야 한다는 주장이다.",
+        "points": [
+          "AI 활용 / AI 제품 설계 / 에이전트용 설계 / 모델 행동 설계",
+          "대부분 앞 두 유형에 집중",
+          "에이전트·시스템 설계 수요 급증"
+        ],
+        "why": [
+          "AI 디자인 직무의 분화·전문화",
+          "채용·역량 정의의 명확성 필요"
+        ]
+      }
+    },
+    {
+      "id": "design-dramapixel",
+      "title": "DramaPixel – AI 이미지·영상·음악 생성기",
+      "summary": "이미지·비디오·음악 생성을 한 워크스페이스에 결합한 AI 스튜디오.",
+      "source": "DramaPixel",
+      "url": "https://dramapixel.ai/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "DramaPixel은 AI 이미지·비디오·음악 생성을 한 워크스페이스에 결합한 창작 스튜디오다.",
+        "what": "DramaPixel은 AI 이미지 생성기, AI 비디오 생성기, AI 음악 생성기를 하나의 워크스페이스에 결합한 AI 창작 스튜디오다.",
+        "points": [
+          "이미지·비디오·음악 생성 통합",
+          "단일 워크스페이스 제공",
+          "창작자용 올인원 생성 도구"
+        ],
+        "why": [
+          "멀티모달 창작 도구 통합 트렌드",
+          "콘텐츠 제작 워크플로 단순화"
+        ]
+      }
+    },
+    {
+      "id": "design-moodloom",
+      "title": "Moodloom – 광고 없는 핀터레스트 대안",
+      "summary": "AI 필터링 기반 광고 없는 영감 보드, 쇼핑 기능 포함.",
+      "source": "Moodloom",
+      "url": "https://moodloom.xyz/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "Moodloom은 AI 필터링을 쓰는 광고 없는 핀터레스트 대안이다.",
+        "what": "Moodloom은 AI 필터링 기술을 사용하는 광고 없는 핀터레스트 대안이다. 광고 없는 더 깔끔한 브라우징 경험과 쇼핑 기능을 제공한다.",
+        "points": [
+          "광고 없는 영감 보드",
+          "AI 필터링 기반 큐레이션",
+          "쇼핑 기능 포함"
+        ],
+        "why": [
+          "광고 피로에 대한 대안 서비스",
+          "디자이너 영감 수집 도구 선택지"
+        ]
+      }
+    },
+    {
+      "id": "design-data-color-picker",
+      "title": "차트·대시보드용 색상 팔레트 생성기",
+      "summary": "차트·지도·대시보드용 시각적 등간격 색상 팔레트 생성.",
+      "source": "Learn UI Design",
+      "url": "https://www.learnui.design/tools/data-color-picker.html?utm_source=tldrdesign",
+      "report": {
+        "tldr": "차트·지도·대시보드용으로 시각적 등간격 색상 팔레트를 생성하는 도구다.",
+        "what": "이 도구는 차트·지도·대시보드 같은 데이터 시각화를 위해 시각적으로 등간격인 색상 팔레트를 생성한다.",
+        "points": [
+          "데이터 시각화용 색상 팔레트",
+          "시각적 등간격 색상 생성",
+          "무료 웹 기반 도구"
+        ],
+        "why": [
+          "데이터 시각화 가독성 향상",
+          "실무 디자인 도구 추천"
+        ]
+      }
+    },
+    {
+      "id": "design-canva-design-intelligence",
+      "title": "AI 개인화가 이끄는 Canva 디자인 인텔리전스",
+      "summary": "데이터 전략 재편으로 MAU 2.65억·연환산 매출 40억 달러.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/04/ai-personalization-canva-design-intelligence-snowflakesummit/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "Canva가 전사 데이터 전략을 재편해 AI 개인화를 확장, MAU 2.65억·연환산 매출 40억 달러를 달성했다.",
+        "what": "Canva가 모든 기능에 걸쳐 데이터 전략을 재구성해 대규모 AI 개인화를 구현, 월 활성 사용자 2억 6,500만 명과 연환산 매출 40억 달러로 성장했다. Snowflake와의 파트너십으로 제품·마케팅·세일즈 데이터를 통합해 사용자를 세분화하고 엔터프라이즈 고객을 우선하며 실시간 개인화 메시지를 전달한다. 내부 'AI 영웅'을 찾는 것을 강조한다.",
+        "points": [
+          "전사 데이터 전략 재편",
+          "MAU 2.65억·연환산 매출 40억 달러",
+          "Snowflake로 데이터 통합·실시간 개인화"
+        ],
+        "why": [
+          "디자인 플랫폼의 AI 개인화 사례",
+          "데이터 인프라가 제품 차별화로"
+        ]
+      }
+    },
+    {
+      "id": "design-fonts-xyz",
+      "title": "Fonts.xyz, 모두를 위한 폰트 마켓플레이스",
+      "summary": "무료 파운드리 개설, 80% 로열티·기업규모 기반 단순 라이선스.",
+      "source": "The Brand Identity",
+      "url": "https://the-brandidentity.com/interview/meet-fonts-xyz-the-type-marketplace-that-really-is-built-for-everyone?utm_source=tldrdesign",
+      "report": {
+        "tldr": "Fonts.xyz는 디자이너가 무료로 자기 파운드리를 운영하게 하고 80% 로열티를 주는 폰트 마켓플레이스다.",
+        "what": "Fonts.xyz는 디자이너가 무료로 온라인 파운드리를 만들고 운영하게 해주는 새 타입 마켓플레이스로, 이례적으로 높은 80% 로열티와 회사 규모만 기준으로 한 단순·포괄 라이선스를 제공한다. 노코드 도구·맞춤 스토어프런트·창작자 친화 모델로 전통적 폰트 유통의 비용·복잡성·게이트키핑을 없애려 한다. 아직 점진적 출시 단계지만 초기 관심이 높다.",
+        "points": [
+          "무료 파운드리 개설",
+          "80% 로열티·기업규모 기반 라이선스",
+          "노코드 도구·맞춤 스토어프런트"
+        ],
+        "why": [
+          "폰트 유통의 창작자 친화 재편",
+          "게이트키핑 없는 마켓플레이스 실험"
+        ]
+      }
+    },
+    {
+      "id": "design-bads-framework",
+      "title": "AI 디자인 시스템에 윤리·접근성·기억을 부여하다",
+      "summary": "컴포넌트 모음을 넘어 규칙 기반 시스템으로 진화하는 BADS 제안.",
+      "source": "Design Systems Collective",
+      "url": "https://www.designsystemscollective.com/building-bads-the-behavioral-agentic-design-system-5698ff721db1?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 에이전트 시대에 디자인 시스템은 컴포넌트 모음에서 규칙 기반 시스템으로 진화해야 한다는 BADS 제안이다.",
+        "what": "AI 에이전트가 점점 인터페이스를 만들면서 디자인 시스템은 컴포넌트 모음에서 브랜드·접근성·윤리·디자인 결정을 인코딩한 규칙 기반 시스템으로 진화해야 한다. 제안된 BADS 프레임워크는 AI 에이전트에 필요한 가이던스를 줘 일반적 AI 생성 UI 대신 독창적·일관된 결과를 내게 한다. 핵심은 화면을 만드는 것보다 에이전트를 안내하는 시스템·규칙·피드백 루프를 만드는 데 디자인의 미래가 있다는 것이다.",
+        "points": [
+          "컴포넌트 모음→규칙 기반 시스템",
+          "브랜드·접근성·윤리 인코딩",
+          "에이전트 안내용 BADS 프레임워크"
+        ],
+        "why": [
+          "에이전트가 UI를 만드는 시대의 디자인 시스템론",
+          "디자이너 역할의 메타 레벨 이동"
+        ]
+      }
+    },
+    {
+      "id": "design-christa-jarrold-3d",
+      "title": "Christa Jarrold의 어둡고 손맛 나는 3D 세계",
+      "summary": "Cinema 4D·Redshift로 일부러 거칠고 수제 느낌의 디지털 세계 제작.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/inspiration/christa-jarrold-crafts-3d-worlds-that-look-messy-hand-made-and-tinged-with-darkness/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "Christa Jarrold는 일부러 거칠고 수제 느낌의 디지털 3D 세계를 만드는 애니메이션 감독·일러스트레이터다.",
+        "what": "Christa Jarrold는 Cinema 4D와 Redshift를 사용해 의도적으로 지저분하고 수제처럼 보이는 디지털 세계를 만드는 3D 애니메이션 감독이자 일러스트레이터다.",
+        "points": [
+          "Cinema 4D·Redshift 활용",
+          "의도적으로 거칠고 수제 느낌",
+          "어둠이 깃든 3D 세계"
+        ],
+        "why": [
+          "완벽함을 거스르는 3D 미학",
+          "디자이너 영감·레퍼런스"
+        ]
+      }
+    },
+    {
+      "id": "design-wendys-rebrand",
+      "title": "웬디스의 새 브랜딩, 디자인의 금기를 범하다",
+      "summary": "상징적 빨강을 연한 파랑으로 교체, 'Future Fresh' 일환.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/branding/wendys-new-branding-commits-a-cardinal-design-sin?utm_source=tldrdesign",
+      "report": {
+        "tldr": "웬디스가 상징적인 빨강을 연한 파랑으로 바꾸는 리브랜딩을 진행한다.",
+        "what": "웬디스가 'Future Fresh' 이니셔티브의 일환으로 전 세계 매장에서 상징적인 빨강을 연한 파랑으로 교체하고 있다. 필리핀에서 처음 선보였다.",
+        "points": [
+          "상징적 빨강→연한 파랑 교체",
+          "'Future Fresh' 이니셔티브",
+          "필리핀에서 첫 공개"
+        ],
+        "why": [
+          "브랜드 자산을 바꾸는 리브랜딩 논쟁",
+          "컬러 아이덴티티 변경의 위험"
+        ]
+      }
+    }
+  ]
+}

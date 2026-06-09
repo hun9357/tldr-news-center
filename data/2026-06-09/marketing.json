@@ -1,0 +1,236 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-no-logo-2-death-of-branding",
+      "title": "No Logo 2.0: 미학적 추구로서 브랜딩의 죽음",
+      "summary": "AI가 발견을 장악하며 브랜딩이 미학에서 기계가독 구조로 이동.",
+      "source": "SE Ranking",
+      "url": "https://seranking.com/blog/branding-in-ai-search/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI가 발견을 장악하면서 브랜딩이 미학적 스토리텔링에서 기계가독 구조로 이동하고 있다.",
+        "what": "AI 시스템이 발견을 장악하면서 브랜딩이 미학적 스토리텔링에서 기계가독 구조로 옮겨가고 있다. 생성 엔진은 구조화된 의미 사실을 추출하고 웹사이트를 목적지보다 데이터 소스로 취급한다. 모델이 계산 가능한 신호를 디자인보다 우선하므로 시각 정체성과 브랜드 '바이브'의 비중이 줄어든다. 이 환경에서 가시성은 정보가 얼마나 명확히 파싱·연결되는지에 달려 있다.",
+        "points": [
+          "브랜딩이 미학→기계가독 구조로",
+          "생성 엔진이 구조화 사실 추출",
+          "웹사이트를 데이터 소스로 취급",
+          "가시성은 파싱 가능성에 의존"
+        ],
+        "why": [
+          "AI 검색 시대 브랜딩 전략 재정의",
+          "구조화 데이터·스키마의 중요성 증대"
+        ]
+      }
+    },
+    {
+      "id": "mkt-retail-media-acquisitions",
+      "title": "리테일 미디어 붐에 에이전시들 아마존·월마트 전문가 인수 경쟁",
+      "summary": "리테일 미디어 역량 확보 위해 전문업체를 빠르게 인수.",
+      "source": "Storyboard18",
+      "url": "https://www.storyboard18.com/brand-marketing/agencies-rush-to-acquire-amazon-walmart-specialists-amid-retail-media-boom-100516.htm?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "리테일 미디어가 성장하면서 에이전시들이 아마존·월마트 전문 업체를 인수 대상으로 삼고 있다.",
+        "what": "리테일 미디어가 중요해지면서 에이전시들이 아마존·월마트 전문성을 성장 자산이자 인수 대상으로 본다. 독립 에이전시들이 아마존·월마트 전문 업체를 인수해 리테일 미디어 구매, 마켓플레이스 최적화, 퍼포먼스 마케팅, 퍼스트파티 데이터 활성화 역량을 빠르게 더한다. 브랜드들이 결제에 가까운 채널로 예산을 옮기면서 엔드투엔드 커머스 서비스를 제공하려는 움직임이다.",
+        "points": [
+          "아마존·월마트 전문업체 인수 경쟁",
+          "리테일 미디어·마켓플레이스 역량 확보",
+          "퍼스트파티 데이터 활성화",
+          "결제 인접 채널로 예산 이동"
+        ],
+        "why": [
+          "리테일 미디어의 급성장",
+          "에이전시 M&A·역량 재편 흐름"
+        ]
+      }
+    },
+    {
+      "id": "mkt-pricing-page-doubt",
+      "title": "가격 페이지 의구심 해소로 전환율 8% 상승",
+      "summary": "가격만 보여주는 대신 사회적 증거·안심 요소 추가가 핵심.",
+      "source": "Conversion Rate Experts",
+      "url": "https://conversion-rate-experts.com/pricing-page-doubt-win-report/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "가격 페이지에 안심 요소를 추가해 전환율이 8% 상승했다.",
+        "what": "가격만 보여주는 대신 가격 페이지에 안심 요소를 더해 8% 전환 상승이 나왔다. 사용자 조사에서 참가자 절반 이상이 가격 페이지에서 멈췄고, 기존 고객에게는 리뷰·추천이 가장 큰 구매 동인이었다. 승리한 테스트는 혜택 중심 헤드라인, 사진·출처가 있는 고객 후기, 가격표 위 구글 별 5개 평점을 추가했다. 퍼널의 핵심 결정 지점에 사회적 증거·가치 메시지를 배치해야 한다는 결론이다.",
+        "points": [
+          "가격 페이지 안심 요소로 전환 8%↑",
+          "절반 이상이 가격 페이지에서 멈춤",
+          "후기·별점·혜택 헤드라인 추가",
+          "결정 지점에 사회적 증거 배치"
+        ],
+        "why": [
+          "전환율 최적화(CRO) 실무 사례",
+          "사회적 증거 배치의 효과 입증"
+        ]
+      }
+    },
+    {
+      "id": "mkt-owning-your-category",
+      "title": "카테고리를 소유하는 법",
+      "summary": "기능 나열 대신 카테고리 전체 해법으로 포지셔닝.",
+      "source": "Marketing Ideas",
+      "url": "https://www.marketingideas.com/p/how-to-become-the-no-brainer-choice?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "주류 구매자를 잡으려면 기능 나열이 아니라 카테고리 전체의 해법으로 포지셔닝해야 한다.",
+        "what": "주류 구매자 확보는 제품을 기능 목록이 아니라 카테고리 전체의 완전한 해법으로 포지셔닝하는 데 달려 있다. 'all'이나 'everything' 같은 단순 신호가 카테고리 소유권을 강화해 제품을 당연한 선택으로 만든다. Wiz가 'in the Cloud'를 뺀 것처럼 한정 표현을 없애면 인식되는 범위가 확장된다.",
+        "points": [
+          "카테고리 전체 해법으로 포지셔닝",
+          "'all'·'everything' 신호로 소유권 강화",
+          "한정 표현 제거로 범위 확장"
+        ],
+        "why": [
+          "카테고리 리더십 포지셔닝 전략",
+          "메시징이 인식 범위를 좌우"
+        ]
+      }
+    },
+    {
+      "id": "mkt-accessibility-tree",
+      "title": "페이지의 접근성 트리 찾는 법",
+      "summary": "구글이 'AI 에이전트용 고충실도 지도'라 부른 접근성 트리 확인법.",
+      "source": "LinkedIn (Chris Long)",
+      "url": "https://www.linkedin.com/posts/chris-long-marketing_seo-tip-google-states-that-the-accessibility-share-7469728241990316032-Zp0Y/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "구글이 'AI 에이전트용 고충실도 지도'라 부른 접근성 트리를 Chrome DevTools에서 확인하는 법이다.",
+        "what": "구글은 접근성 트리가 AI 에이전트를 위한 '고충실도 지도' 역할을 한다고 밝혔다. Chrome DevTools에서 페이지를 'inspect'한 뒤 'elements' → 'accessibility'를 선택하고 'Show Accessibility Tree'를 켜면 어떤 페이지든 접근성 트리를 확인해 AI 에이전트용 포맷을 빠르게 분석할 수 있다.",
+        "points": [
+          "접근성 트리 = AI 에이전트용 고충실도 지도",
+          "DevTools inspect→elements→accessibility",
+          "Show Accessibility Tree 토글"
+        ],
+        "why": [
+          "AI 에이전트 가시성을 위한 실무 팁",
+          "접근성·구조가 AEO의 핵심 요소"
+        ]
+      }
+    },
+    {
+      "id": "mkt-prompt-tracking-accuracy",
+      "title": "프롬프트 추적 정확도 높이기",
+      "summary": "단일 실행 대신 반복·신뢰구간·페르소나로 폴링하듯 측정.",
+      "source": "Growth Memo",
+      "url": "https://www.growth-memo.com/p/how-to-make-prompt-tracking-much?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 가시성 추적은 키워드 순위가 아니라 여론조사처럼 반복 측정해야 정확하다.",
+        "what": "AI 가시성 추적은 키워드 순위 추적보다 폴링처럼 다룰 때 가장 잘 작동한다. AI 응답 편차가 커 단일 프롬프트 실행은 오해를 부르며, 동일 ChatGPT 3회 실행 후 인용의 2.2%만 일관됐다. 더 강한 접근은 반복 프롬프트 실행, 신뢰구간, 페르소나별 프롬프트, 플랫폼 단위 리포팅을 사용한다. 단일 프롬프트보다 문제 발견부터 벤더 선택까지 전체 구매 여정의 지속성이 더 강한 가시성을 시사한다.",
+        "points": [
+          "키워드 순위가 아닌 폴링처럼 측정",
+          "동일 3회 실행 시 인용 2.2%만 일관",
+          "반복·신뢰구간·페르소나 프롬프트",
+          "전체 구매 여정 지속성 중시"
+        ],
+        "why": [
+          "AI 검색 가시성 측정의 방법론",
+          "변동성 큰 AI 응답의 신뢰성 확보"
+        ]
+      }
+    },
+    {
+      "id": "mkt-consideration-illusion",
+      "title": "고려의 환상: 브랜드는 선호가 아닌 자격을 두고 경쟁한다",
+      "summary": "소비자는 비교 전에 회상·신뢰·안전으로 브랜드를 탈락시킨다.",
+      "source": "Brandingmag",
+      "url": "https://www.brandingmag.com/marty-marion/the-consideration-illusion-brands-compete-for-eligibility-not-preference/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "소비자는 브랜드를 비교하기보다 먼저 탈락시키며, 브랜드는 선호가 아닌 '자격'을 두고 경쟁한다.",
+        "what": "소비자는 브랜드 사이에서 고르기보다 탈락시킨다. 비교 훨씬 전에 회상·신뢰·안전을 기준으로 옵션을 걸러 소수의 '자격 있는' 브랜드만 경쟁에 남긴다. 대부분의 마케팅은 이 좁은 집합 안에서 설득에 너무 늦게 집중해 비용 상승과 성장 정체를 부른다. 진짜 우위는 더 일찍 자격을 형성하고 재고려를 촉발하는 데서 온다.",
+        "points": [
+          "구매자는 비교 전에 브랜드를 탈락",
+          "회상·신뢰·안전으로 자격 필터링",
+          "늦은 설득 집중이 비용·정체 유발",
+          "우위는 자격 형성·재고려에서"
+        ],
+        "why": [
+          "퍼널 상단 브랜드 전략의 중요성",
+          "'고려 집합' 진입 자체가 관건"
+        ]
+      }
+    },
+    {
+      "id": "mkt-google-ai-brief",
+      "title": "구글 AI Brief, 키워드의 대체재 될까",
+      "summary": "키워드 목록 대신 자연어 브리프로 타기팅 의도를 기술.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/google-ai-brief-replacement-keywords-479576?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "구글 AI Brief가 키워드 목록을 자연어 프롬프트 기반 브리프로 대체한다.",
+        "what": "Google Marketing Live에서 발표된 구글 AI Brief는 키워드 목록을 프롬프트 기반 브리프로 대체해 광고주가 타기팅 의도와 청중 파라미터를 평문으로 기술하게 한다. AI Mode는 월 10억 사용자를 넘었고 평균 쿼리 길이는 전통 검색의 3배이며, exact match는 2022년 이후 지출 점유율을 거의 10%p 잃었다. 짧은 거래성 키워드는 퍼널 하단에 여전히 역할이 있지만, 그 위 대화 계층에 부재한 브랜드는 그 볼륨이 잠식된다.",
+        "points": [
+          "키워드 목록→자연어 브리프 대체",
+          "AI Mode 월 10억 사용자",
+          "exact match 지출 점유 10%p 하락",
+          "대화 계층 부재 브랜드는 볼륨 잠식"
+        ],
+        "why": [
+          "검색 광고의 패러다임 전환",
+          "키워드 기반 마케팅의 종말 논의"
+        ]
+      }
+    },
+    {
+      "id": "mkt-experiential-marketing",
+      "title": "지금이 체험 마케팅의 적기인 이유",
+      "summary": "시각 플랫폼·대면 복귀·라이브 스포츠가 체험 마케팅 부상 견인.",
+      "source": "Marketing Dive",
+      "url": "https://www.marketingdive.com/news/why-the-time-is-now-for-experiential-marketing-and-how-to-get-it-right/820588/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "시각 플랫폼·대면 복귀·라이브 스포츠가 겹치며 체험 마케팅이 부상하고 있다.",
+        "what": "세 가지 힘이 체험 마케팅의 부상을 가속한다. 시각 플랫폼이 공유 가능한 현실 순간을 보상하고, 팬데믹 이후 행동이 대면 연결로 강하게 회귀했으며, 라이브 스포츠가 분산된 주의가 안정적으로 모이는 마지막 맥락으로 떠올랐다. 연구는 라이브 브랜드 이벤트의 구매 상승을 85%로, 브랜드 경험을 TV 광고보다 거의 90% 더 기억에 남는 것으로 본다. 측정은 여전히 뒤처지며 직접 반응 프록시보다 고려·충성 같은 브랜드 지표로 회귀한다.",
+        "points": [
+          "시각 플랫폼·대면 복귀·라이브 스포츠 견인",
+          "라이브 이벤트 구매 상승 85%",
+          "브랜드 경험, TV 광고보다 90% 기억",
+          "측정은 브랜드 지표로 회귀"
+        ],
+        "why": [
+          "체험 마케팅 투자 근거 제시",
+          "브랜드 지표 중심 측정 회귀"
+        ]
+      }
+    },
+    {
+      "id": "mkt-schema-org-dataset",
+      "title": "Schema.org 사용 통계 데이터셋 공개",
+      "summary": "구글과 협력해 인기 태그를 보여주는 데이터셋 출시.",
+      "source": "Schema.org",
+      "url": "https://blog.schema.org/2026/06/04/announcing-the-schema-org-usage-statistics-dataset/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "Schema.org가 구글과 협력해 인기 있는 태그를 보여주는 사용 통계 데이터셋을 공개했다.",
+        "what": "구글과 협력해 출시된 이 데이터셋은 어떤 태그가 인기 있고 웹사이트에 추가할 가치가 있는지 보여준다.",
+        "points": [
+          "구글과 협력해 출시",
+          "인기 schema 태그 확인 가능",
+          "웹사이트 구조화 데이터 참고"
+        ],
+        "why": [
+          "AI 검색 시대 구조화 데이터 최적화",
+          "스키마 우선순위 결정 지원"
+        ]
+      }
+    },
+    {
+      "id": "mkt-hyper-personalization",
+      "title": "마케팅의 초개인화, 지나쳤나",
+      "summary": "완벽 추구 대신 단순·데이터 기반 적합성이 더 가치 있다.",
+      "source": "CX Today",
+      "url": "https://www.cxtoday.com/marketing-sales-technology/hyper-personalization-marketing-shift/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "완벽을 좇는 초개인화보다 단순·데이터 기반 적합성이 더 큰 가치와 속도를 준다.",
+        "what": "완벽을 추구하며 개인화를 과도하게 복잡하게 만들지 말고, 더 단순하고 데이터 기반인 적합성(relevance)이 더 큰 가치와 속도를 제공한다는 주장이다.",
+        "points": [
+          "초개인화의 과도한 복잡성 경계",
+          "단순·데이터 기반 적합성 강조",
+          "가치와 속도 우선"
+        ],
+        "why": [
+          "개인화 ROI에 대한 재고",
+          "실행 가능한 적합성 중심 접근"
+        ]
+      }
+    }
+  ]
+}

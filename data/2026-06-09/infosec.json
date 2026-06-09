@@ -1,0 +1,325 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🔐",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-ms-oss-tools-hacked",
+      "title": "MS 오픈소스 도구 해킹돼 AI 개발자 암호 탈취",
+      "summary": "Azure·Claude Code·Gemini CLI·VS Code 연계 도구에 멀웨어, 70개 프로젝트 삭제.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "마이크로소프트가 멀웨어가 발견된 약 70개 GitHub 오픈소스 프로젝트를 내렸다.",
+        "what": "마이크로소프트가 Azure, Claude Code, Gemini의 CLI, VS Code와 연계된 도구에서 멀웨어가 발견된 뒤 약 70개의 GitHub 호스팅 오픈소스 프로젝트를 삭제했다. 공격자는 감염된 패키지로 개발자가 도구를 열 때 암호·자격증명을 탈취했다. 이번 사건은 앞서 발생한 마이크로소프트 Durable Task 프로젝트 침해와 연결된 것으로 보여, 동일한 접근 권한이 재차 악용된 정황이다.",
+        "points": [
+          "약 70개 GitHub 프로젝트 삭제",
+          "Azure·Claude Code·Gemini CLI·VS Code 연계 도구 감염",
+          "도구 실행 시 자격증명 탈취",
+          "Durable Task 침해와 연계 정황"
+        ],
+        "why": [
+          "AI 개발 도구 공급망을 노린 표적 공격",
+          "재침해 정황으로 본 자격증명 관리 취약성"
+        ],
+        "action": "해당 도구·패키지 사용 여부를 점검하고 노출 자격증명을 즉시 회전"
+      }
+    },
+    {
+      "id": "infosec-lansing-college-breach",
+      "title": "랜싱 커뮤니티 칼리지 유출, 17.4만 명 영향",
+      "summary": "탈취 자격증명으로 시스템 접근, SSN 등 17만여 건 노출.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/M483jm",
+      "report": {
+        "tldr": "랜싱 커뮤니티 칼리지 침해로 17만 4,307명의 SSN 등 개인정보가 노출됐다.",
+        "what": "2025년 2월 랜싱 커뮤니티 칼리지(LCC)는 공격자가 탈취된 자격증명으로 일부 시스템에 접근해 17만 4,307명의 이름·주소·생년월일·운전면허·사회보장번호(SSN) 등이 노출된 사실을 탐지했다. LCC는 24개월 신용 모니터링·신원 보호를 제공하며 현재까지 데이터 유출·악용 증거는 없고 특정 위협 그룹 귀속은 보류했다.",
+        "points": [
+          "17만 4,307명 영향",
+          "탈취 자격증명으로 시스템 접근",
+          "SSN·운전면허 등 노출",
+          "24개월 신용 모니터링 제공"
+        ],
+        "why": [
+          "교육기관 대상 자격증명 침해 지속",
+          "대규모 PII 노출의 장기 리스크"
+        ],
+        "action": "영향 통지 대상자는 신용 동결과 신원 모니터링을 활성화"
+      }
+    },
+    {
+      "id": "infosec-uk-nhs-patient-records",
+      "title": "영국 NHS 사이버공격으로 환자 기록 탈취",
+      "summary": "제3자 검사 제공업체 통해 2,380건 환자 기록 유출.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/c072797rlx5o?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "영국 MSE NHS 트러스트에서 제3자 검사업체를 통해 2,380건의 환자 기록이 탈취됐다.",
+        "what": "잉글랜드 최대 병원 트러스트 중 하나인 Mid and South Essex NHS Foundation Trust(MSE)가 2,380건의 기록이 탈취된 침해를 확인했다. 혈액·소변·조직 샘플을 분석하는 제3자 검사 제공업체에서 데이터가 유출됐으며, 같은 침해로 다른 병원 트러스트의 데이터도 탈취된 것으로 확인됐다. 노출 데이터에는 이름·생년월일·환자번호·NHS 번호·우편번호·검사 결과가 포함된다.",
+        "points": [
+          "2,380건 환자 기록 탈취",
+          "제3자 검사 제공업체 경유",
+          "다른 트러스트 데이터도 유출",
+          "NHS 번호·검사 결과 등 노출"
+        ],
+        "why": [
+          "의료 공급망 제3자 리스크 부각",
+          "민감 의료정보 보호 과제"
+        ],
+        "action": "의료 제3자 협력사의 보안 실사·데이터 접근 통제를 재점검"
+      }
+    },
+    {
+      "id": "infosec-cursor-sandbox-breakout",
+      "title": "Cursor 원격 터널 무기화, 샌드박스 탈출",
+      "summary": "간접 프롬프트 인젝션+셸 빌트인 차단 실패로 무클릭 RCE 가능했던 결함.",
+      "source": "Straiker",
+      "url": "https://www.straiker.ai/blog/nomshub-cursor-remote-tunneling-sandbox-breakout?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Cursor에서 리포 열기만으로 무클릭 코드 실행이 가능했던 샌드박스 탈출 결함이 패치됐다.",
+        "what": "연구진이 Cursor에서 피해자가 리포지토리를 여는 것 외 사용자 상호작용 없이 시스템에서 코드를 실행할 수 있는 (현재 패치된) 취약점을 발견했다. shouldBlockShellCommand 파서가 export·cd·echo 같은 셸 빌트인 차단에 실패하면서 발생한 샌드박스 탈출을 악용하며, 이를 통해 Microsoft Dev Tunnels 인프라를 쓰는 cursor-tunnel 바이너리를 탈취해 미인증 셸 접근을 얻을 수 있었다.",
+        "points": [
+          "리포 열기만으로 무클릭 RCE",
+          "셸 빌트인(export·cd·echo) 차단 실패",
+          "cursor-tunnel 바이너리 탈취",
+          "현재 패치 완료"
+        ],
+        "why": [
+          "AI 코딩 에디터의 간접 프롬프트 인젝션 위협",
+          "에이전트형 도구의 샌드박스 신뢰성 문제"
+        ],
+        "action": "Cursor를 최신 버전으로 업데이트하고 신뢰할 수 없는 리포 열람에 주의"
+      }
+    },
+    {
+      "id": "infosec-mxc-execution-containers",
+      "title": "MXC 내부 구조: MS의 에이전트 코드 격리 방식",
+      "summary": "Build 2026 공개, OS 레벨에서 다양한 백엔드로 비신뢰 코드 격리.",
+      "source": "OriginHQ",
+      "url": "https://www.originhq.com/research/mxc-execution-containers-internals?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "마이크로소프트가 Build 2026에서 비신뢰·에이전트 코드를 OS 레벨에서 격리하는 MXC 샌드박스를 공개했다.",
+        "what": "Build 2026에서 마이크로소프트가 비신뢰·에이전트 코드를 실행하는 플랫폼 독립적 샌드박스 MXC를 발표했다. Codex나 Claude Code의 애플리케이션 레벨과 달리 OS 레벨에서 작동하며, OS·가용 기능에 따라 AppContainer, Windows.AI.IsolationBroker, 일회용 Windows VM, WSL 마이크로VM, NanVix 마이크로VM, bubblewrap 네임스페이스, macOS Seatbelt 중 하나를 백엔드로 사용한다.",
+        "points": [
+          "OS 레벨 격리 샌드박스",
+          "플랫폼 독립적 설계",
+          "다중 백엔드(AppContainer·WSL·Seatbelt 등)",
+          "에이전트 코드 격리 지향"
+        ],
+        "why": [
+          "에이전트 코드 실행 보안의 OS 차원 접근",
+          "비신뢰 코드 격리 표준 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "infosec-gitlab-cicd-kill-chain",
+      "title": "GitLab 감사: CI/CD 킬체인",
+      "summary": "GoGatoZ로 공개 GitLab 3,757개 스캔, 7,331건 발견·1,580건 HIGH.",
+      "source": "Black Hills InfoSec",
+      "url": "https://www.blackhillsinfosec.com/auditing-gitlab-the-ci-cd-kill-chain/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Black Hills가 GitLab CI/CD 감사 도구 GoGatoZ로 공개 프로젝트 3,757개에서 7,331건의 문제를 찾아냈다.",
+        "what": "Black Hills Information Security가 Gato-X를 포팅한 Go 기반 GitLab CI/CD 감사 도구 GoGatoZ를 공개하고, gitlab.com 공개 프로젝트 3,757개를 3개 캠페인으로 스캔해 7,331건을 발견했다. 그중 1,580건이 HIGH 심각도이며 약 2/3 프로젝트가 최소 하나의 잘못된 설정을 보였다. 보호되지 않은 포크 MR 파이프라인(1,971건), 특권 도커 러너(259건), curl|bash 패턴(150건), 변수 인젝션(288건), 노출된 셀프호스트 러너(177건), 평문 시크릿(347건) 등이 주요 공격 유형이었다.",
+        "points": [
+          "공개 GitLab 3,757개 스캔, 7,331건 발견",
+          "HIGH 심각도 1,580건",
+          "포크 MR 파이프라인 변수 탈취 1,971건",
+          "평문 시크릿 347건"
+        ],
+        "why": [
+          "CI/CD 파이프라인이 주요 공격 표면임을 입증",
+          "공급망·시크릿 관리의 광범위한 취약성"
+        ],
+        "action": "include·이미지를 커밋 SHA로 고정, 시크릿을 마스킹·보호 변수로 이전, 포크 MR의 변수 접근 차단"
+      }
+    },
+    {
+      "id": "infosec-offroad-launch",
+      "title": "Offroad (제품 출시)",
+      "summary": "사용자·머신·AI 에이전트·SaaS의 아이덴티티 리스크를 자율 식별·교정.",
+      "source": "Offroad",
+      "url": "https://offroad.ai/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Offroad는 사용자·머신·AI 에이전트·SaaS 전반의 아이덴티티 리스크를 자율 식별·교정하는 보안 에이전트다.",
+        "what": "Offroad는 사용자·머신·AI 에이전트·SaaS/OAuth 앱 전반의 아이덴티티 리스크를 식별하고, 분산된 시스템에서 맥락을 수집해 필요 시 인간 감독 하에 접근을 자동 교정·관리하는 자율 보안 에이전트를 제공한다.",
+        "points": [
+          "사용자·머신·AI 에이전트·SaaS 리스크 식별",
+          "분산 시스템 맥락 수집",
+          "인간 감독 하 자동 교정"
+        ],
+        "why": [
+          "아이덴티티 보안 자동화 수요 증가",
+          "AI 에이전트·머신 ID 관리의 새 과제"
+        ]
+      }
+    },
+    {
+      "id": "infosec-aether-forensics",
+      "title": "Aether (GitHub)",
+      "summary": "라이브 프로세스 메모리를 스캔하는 윈도우 메모리 포렌식·위협 헌팅 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/0xsp-SRD/aether?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Aether는 라이브 프로세스 메모리를 스캔해 악성 활동을 탐지하는 윈도우 메모리 포렌식 도구다.",
+        "what": "Aether는 라이브 프로세스 메모리를 스캔해 다양한 악성 활동을 찾아내는 윈도우 메모리 포렌식·위협 헌팅 도구다.",
+        "points": [
+          "라이브 프로세스 메모리 스캔",
+          "윈도우 메모리 포렌식",
+          "위협 헌팅 지원"
+        ],
+        "why": [
+          "메모리 기반 위협 탐지 도구 선택지",
+          "포렌식·IR 역량 강화"
+        ]
+      }
+    },
+    {
+      "id": "infosec-nvidia-skillspector",
+      "title": "SkillSpector (NVIDIA, GitHub)",
+      "summary": "AI 에이전트 스킬을 정적·행위 분석으로 검사하는 보안 스캐너.",
+      "source": "GitHub (NVIDIA)",
+      "url": "https://github.com/nvidia/skillspector?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "NVIDIA가 AI 에이전트 스킬을 검사하는 보안 스캐너 SkillSpector를 공개했다.",
+        "what": "NVIDIA가 AI 에이전트 스킬용 보안 스캐너 SkillSpector를 공개했다. 정적 분석, AST 기반 행위 검사, 테인트 추적, YARA 시그니처, 선택적 LLM 의미 평가를 결합해 프롬프트 인젝션·데이터 유출·공급망·MCP 최소권한·도구 오염 등 64개 취약점 패턴을 검사하고, 실시간 OSV.dev CVE 조회와 CI 통합용 SARIF 출력을 지원한다.",
+        "points": [
+          "정적·AST 행위·테인트·YARA·LLM 결합",
+          "64개 취약점 패턴 검사",
+          "실시간 OSV.dev CVE 조회",
+          "SARIF 출력으로 CI 통합"
+        ],
+        "why": [
+          "에이전트 스킬 공급망 보안 도구화",
+          "프롬프트 인젝션·도구 오염 대응"
+        ]
+      }
+    },
+    {
+      "id": "infosec-dashlane-vault-download",
+      "title": "Dashlane, 암호화 볼트 다운로드 경위 설명",
+      "summary": "기기 등록 API에 2FA 코드 스프레이로 20개 미만 계정 볼트 탈취.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/06/dashlane-explains-how-attackers-managed-to-download-encrypted-password-vaults/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공격자가 Dashlane의 기기 등록 API를 악용해 20개 미만 계정의 암호화 볼트를 다운로드했다.",
+        "what": "공격자가 Dashlane의 기기 등록 API를 악용해 다수 계정에 일회용 2FA 코드를 스프레이하고 유효 토큰을 무차별 대입해, 20개 미만 계정에 새 기기를 등록하고 암호화된 볼트를 다운로드했다. 마스터 비밀번호는 여전히 크랙해야 하며 Dashlane은 Argon2로 이를 강화하지만, 약하거나 재사용된 비밀번호는 노출 위험이 있어 영향 사용자는 마스터 비밀번호와 저장 자격증명을 변경해야 한다.",
+        "points": [
+          "기기 등록 API에 2FA 코드 스프레이",
+          "유효 토큰 무차별 대입",
+          "20개 미만 계정 볼트 다운로드",
+          "Argon2로 마스터 비밀번호 강화"
+        ],
+        "why": [
+          "패스워드 매니저의 등록 API 설계 리스크",
+          "약한·재사용 비밀번호의 위험 재확인"
+        ],
+        "action": "영향 사용자는 마스터 비밀번호와 저장된 자격증명을 즉시 변경"
+      }
+    },
+    {
+      "id": "infosec-vscode-extension-delay",
+      "title": "VS Code, 확장 자동업데이트 2시간 지연 도입",
+      "summary": "공급망 공격 완화 위해 비신뢰 퍼블리셔 업데이트를 2시간 지연.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/vs-code-adds-2-hour-extension-auto.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "VS Code가 공급망 공격 완화를 위해 확장 자동업데이트를 2시간 지연한다.",
+        "what": "마이크로소프트가 VS Code 확장의 자동 업데이트를 2시간 지연하되 Microsoft·GitHub·OpenAI 같은 신뢰 퍼블리셔는 즉시 업데이트하도록 했다. 사용자는 수동 업데이트를 트리거하고 보류 이유를 확인할 수 있다. Bundler·Bun·npm·pnpm·Yarn의 유사한 쿨다운 통제처럼 새로 게시된 악성 패키지가 개발 환경에 빠르게 도달하는 것을 제한한다.",
+        "points": [
+          "확장 자동업데이트 2시간 지연",
+          "신뢰 퍼블리셔는 즉시 업데이트",
+          "수동 업데이트·보류 사유 확인 가능"
+        ],
+        "why": [
+          "확장 생태계 공급망 공격 대응",
+          "패키지 매니저 쿨다운 통제 확산"
+        ]
+      }
+    },
+    {
+      "id": "infosec-uv-malware-checks",
+      "title": "uv, 취약점·멀웨어 검사 기능 추가",
+      "summary": "네이티브 의존성 스캐너 uv audit과 OSV 기반 멀웨어 검사 프리뷰.",
+      "source": "Astral",
+      "url": "https://astral.sh/blog/uv-audit?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Astral이 uv 파이썬 패키지 매니저에 취약점 스캐너와 멀웨어 검사 프리뷰 기능을 추가했다.",
+        "what": "Astral이 uv에 두 가지 프리뷰 보안 기능을 출시했다. uv audit은 알려진 취약점·불리한 프로젝트 상태를 검사하는 네이티브 스캐너로 uv의 잠긴 해석을 활용해 pip-audit보다 4~10배 빠르다. 옵트인 OSV 기반 멀웨어 검사(UV_MALWARE_CHECK=1)는 매 동기화 시 MAL 권고를 조회해, 인덱스에서 제거됐지만 스토리지 URL로는 여전히 설치 가능한 악성 배포가 실행되기 전에 중단시킨다.",
+        "points": [
+          "uv audit, pip-audit 대비 4~10배 빠름",
+          "OSV 기반 옵트인 멀웨어 검사",
+          "락파일의 스토리지 직접 참조 갭 차단"
+        ],
+        "why": [
+          "파이썬 공급망 보안의 패키지 매니저 내재화",
+          "제거된 악성 배포의 잔존 실행 위험 차단"
+        ]
+      }
+    },
+    {
+      "id": "infosec-york-blue-badge-leak",
+      "title": "영국 요크시, 이메일 실수로 장애 주민 수백 명 노출",
+      "summary": "BCC 없이 Blue Badge 보유자에 발송해 주소·장애 상태 노출.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/06/05/council-in-uks-city-of-york-outs-hundreds-of-disabled-residents-with-a-single-email-blunder/5251214?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "요크시 의회가 BCC 없이 이메일을 보내 장애 주민 수백 명의 주소·장애 상태를 노출했다.",
+        "what": "City of York Council이 Blue Badge(장애인 주차증) 보유자들에게 BCC 없이 이메일을 발송해 수백 명의 수신자 주소와 암묵적으로 장애 상태를 노출했다.",
+        "points": [
+          "BCC 누락 발송",
+          "수백 명 주소 노출",
+          "장애 상태 암묵적 노출"
+        ],
+        "why": [
+          "단순 실수가 초래하는 민감정보 유출",
+          "공공기관 데이터 처리 관행 문제"
+        ],
+        "action": "대량 발송 시 BCC·메일머지 사용을 표준 절차로 강제"
+      }
+    },
+    {
+      "id": "infosec-smart-tv-proxy",
+      "title": "삼성·LG 스마트TV 무료앱, 기기를 AI 프록시로 전환",
+      "summary": "Bright Data SDK가 연결된 TV를 주거용 프록시 출구 노드로 변환.",
+      "source": "Cyber Security News",
+      "url": "https://cybersecuritynews.com/free-apps-turning-smart-tvs-into-proxies/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "무료 스마트TV 앱에 내장된 Bright Data SDK가 연결된 TV를 주거용 프록시 출구 노드로 바꾼다.",
+        "what": "Include Security가 삼성·LG·Roku의 무료 앱(PlayWorks Digital·CloudTV·Viber 등 파트너 포함)에 내장된 Bright Data의 SDK가 연결된 TV를 ignore_screen_on:true 플래그와 월 200GB 한도로 조용히 주거용 프록시 출구 노드로 전환한다고 공개했다.",
+        "points": [
+          "Bright Data SDK 내장 무료앱",
+          "연결 TV를 주거용 프록시 출구 노드로 전환",
+          "ignore_screen_on·월 200GB 한도"
+        ],
+        "why": [
+          "IoT·스마트TV의 은밀한 프록시 악용",
+          "소비자 기기 트래픽 오용 우려"
+        ]
+      }
+    },
+    {
+      "id": "infosec-polyfill-login-prompts",
+      "title": "Toshiba·Muji 사이트에 의심스러운 로그인 프롬프트",
+      "summary": "하이재킹된 polyfill[.]io가 재활성화돼 401 응답으로 자격증명 프롬프트 유발.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/9aYldZ",
+      "report": {
+        "tldr": "하이재킹된 polyfill[.]io가 재활성화돼 여러 사이트에서 브라우저 자격증명 프롬프트를 띄웠다.",
+        "what": "2024년 중국 측에 하이재킹되고 사이트 소유자들이 임베드된 스크립트 참조를 제거하지 않아 방치된 polyfill[.]io 도메인이 5월 말 재활성화돼, HTTP 401 응답을 반환해 Toshiba·Muji·Zojirushi·FiNC·Ishiyaku·Hobonichi·삼성 스마트TV 사이트에서 브라우저 네이티브 자격증명 프롬프트로 표출됐다.",
+        "points": [
+          "하이재킹된 polyfill[.]io 재활성화",
+          "HTTP 401로 자격증명 프롬프트 유발",
+          "Toshiba·Muji·삼성 등 다수 사이트 영향"
+        ],
+        "why": [
+          "방치된 서드파티 스크립트의 장기 공급망 위험",
+          "제거되지 않은 외부 의존성의 부메랑"
+        ],
+        "action": "사이트에서 polyfill[.]io 등 방치된 외부 스크립트 참조를 즉시 제거"
+      }
+    }
+  ]
+}

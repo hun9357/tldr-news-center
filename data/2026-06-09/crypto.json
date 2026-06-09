@@ -1,0 +1,257 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-btc-etf-outflows",
+      "title": "비트코인 ETF, 2025년 이후 최대 주간 유출",
+      "summary": "한 주 34억 달러 유출, 13일 연속 총 43.7억 달러 빠져나가.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/qYLeAJ",
+      "report": {
+        "tldr": "현물 비트코인 ETF가 한 주 34억 달러 유출로 2025년 출시 이후 최대 인출을 기록했다.",
+        "what": "현물 비트코인 ETF가 단일 주에 34억 달러 유출을 기록하며 13일 연속 유출(총 43.7억 달러)을 마감했다. 2025년 초 출시 이래 최대 지속 인출이다. 이번 매도세는 기관 크립토 포지셔닝의 광범위한 리스크오프 심리를 반영하며, 인출 규모가 ETF 투자자 기반의 안정성에 의문을 제기한다.",
+        "points": [
+          "주간 34억 달러 유출",
+          "13일 연속·총 43.7억 달러 유출",
+          "출시 이후 최대 지속 인출",
+          "리스크오프 심리 반영"
+        ],
+        "why": [
+          "기관 크립토 수요의 약화 신호",
+          "ETF 투자자 기반의 점착성 시험"
+        ]
+      }
+    },
+    {
+      "id": "crypto-week-ahead-cpi-ecb",
+      "title": "크립토 주간 전망: 미 CPI·ECB 금리 주목",
+      "summary": "6/10 미 CPI(컨센서스 4.2%), 6/11 ECB 금리 결정이 주요 촉매.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/08/u-s-inflation-european-central-bank-rate-decision-crypto-week-ahead?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "이번 주 크립토 리스크 캘린더는 미 CPI와 ECB 금리 결정이 좌우한다.",
+        "what": "이번 주 크립토 리스크 캘린더는 매크로 데이터가 지배한다. 6월 10일 미 CPI(컨센서스 전년比 4.2%, 직전 3.8%에서 상승; 근원 2.9%)와 6월 11일 ECB 금리 결정(25bp 인상해 2.25% 예상)이 주요 촉매다. 컨센서스 이상의 CPI는 긴축적 Fed 기조를 강화해 이미 진행 중인 현물 ETF 유출을 가속할 수 있다. 6월 9일 중국 지표(CPI 1.3%·PPI 3.8%)가 선행하고, 프로토콜 측면에서 Starknet STRK20 프라이버시 표준이 6월 8일 출시되며 DeFi 규제 프레임워크를 만드는 Clarity Act가 상원에서 6월 12일까지 진전된다.",
+        "points": [
+          "6/10 미 CPI 컨센서스 4.2%",
+          "6/11 ECB +25bp 예상",
+          "CPI 상회 시 ETF 유출 가속 가능",
+          "Clarity Act 상원 진전"
+        ],
+        "why": [
+          "매크로가 크립토 단기 방향을 좌우",
+          "규제·프로토콜 이벤트가 변동성 촉매"
+        ]
+      }
+    },
+    {
+      "id": "crypto-zcash-ironwood",
+      "title": "Zcash, 버그 공개 후 Ironwood 업그레이드 제안",
+      "summary": "Orchard 풀의 2022년부터 미탐지 위조 취약점 대응, ZEC 45% 반등.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/08/zcash-bounces-45-as-developers-propose-new-ironwood-upgrade?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Zcash 개발진이 Orchard 풀의 위조 취약점 공개 후 Ironwood 업그레이드를 제안하며 ZEC가 45% 반등했다.",
+        "what": "Shielded Labs가 2022년부터 미탐지된 Zcash Orchard 프라이버시 풀의 치명적 위조 취약점을 공개했다. 무제한 ZEC 발행이나 실드 풀 자금 탈취가 가능했던 결함이다. ZEC는 금요일 저점(약 300달러)에서 월요일 약 437달러로 45% 반등했으나 주간으로는 22% 하락했다. Shielded Labs·Zcash 재단·ZODL이 공동으로 Ironwood 업그레이드를 제안했는데, 수정 코드의 새 프라이버시 풀을 만들고 손상된 Orchard 풀의 신규 발행을 차단하며 모든 노드 운영자가 총공급량 초과 여부를 검증할 수 있게 한다.",
+        "points": [
+          "Orchard 풀 위조 취약점(2022년부터 미탐지)",
+          "무제한 발행·자금 탈취 가능했던 결함",
+          "ZEC 저점 대비 45% 반등",
+          "Ironwood로 새 풀·공급량 검증 도입"
+        ],
+        "why": [
+          "프라이버시 코인의 검증 가능성 과제",
+          "장기 미탐지 취약점의 신뢰 리스크"
+        ]
+      }
+    },
+    {
+      "id": "crypto-cme-bvx-futures",
+      "title": "CME, 비트코인 변동성 지수 선물 출시",
+      "summary": "BVX 지수 연동 선물로 방향성 없이 4주 변동성에 베팅.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/08/cme-has-a-new-bitcoin-product-monarq-and-dv-chain-made-their-first-bet?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "CME가 4주 BTC 변동성에 방향성 없이 베팅하는 비트코인 변동성 지수 선물을 출시했다.",
+        "what": "CME 그룹이 CME CF Bitcoin Volatility Index(BVX)에 연동된 비트코인 변동성 지수 선물을 출시해, 방향성 델타 없이 예상 4주 BTC 가격 변동에 포지션을 잡게 했다. Monarq와 DV Chain이 첫 블록 거래를 체결했다. CME 크립토 파생 부문은 올해 26만 6,900계약(전년比 +38%), 일평균 미결제약정 27만 4,500계약(+18%)을 기록했다. CPI 같은 매크로 촉매 전후 변동성 노출을 규제된 거래소 구조에서 헤지할 수 있게 한다.",
+        "points": [
+          "BVX 지수 연동 변동성 선물",
+          "방향성 없이 4주 변동성 베팅",
+          "Monarq·DV Chain 첫 거래",
+          "크립토 파생 거래량 전년比 +38%"
+        ],
+        "why": [
+          "기관용 변동성 헤지 수단 확대",
+          "규제 거래소 내 크립토 파생 성장"
+        ]
+      }
+    },
+    {
+      "id": "crypto-stablecoin-neobanks-ai",
+      "title": "빅 스테이블코인 베팅, 톱 네오뱅크, AI 패권 경쟁",
+      "summary": "Stripe·Visa·Mastercard 동반 지원설, 스테이블코인 시장 3,200억 달러로 성장.",
+      "source": "P. Kriaris",
+      "url": "https://pkriaris.substack.com/p/1-the-big-stablecoin-play-2-top-neobanks?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Stripe·Visa·Mastercard가 같은 스테이블코인 플랫폼을 지원한다는 보도와 함께 시장이 3,200억 달러로 성장했다.",
+        "what": "Stripe·Visa·Mastercard가 같은 스테이블코인 플랫폼을 지원한다는 보도는 어떤 단일 기업도 새 금융 인프라를 혼자 구축할 수 없다는 점에서 합리적이며, 시장은 2020년 40억 달러에서 현재 3,200억 달러로 성장했다. 글로벌 네오뱅크는 Revolut(수익화 폭), Nubank(금융 포용), WeBank(중국 생태계 분배)로 차별화됐다. 영국의 새 UKPI 결제 스킴은 경쟁 은행·핀테크를 묶어 Open Banking이 갖추지 못한 상거래 규칙·반복결제를 만든다. AI 밸류에이션 경쟁에서는 Anthropic이 엔터프라이즈·개발자 워크플로에 베팅해 OpenAI를 추월, 2026년 첫 5개월 5배 성장으로 연환산 매출 470억 달러에 도달했다.",
+        "points": [
+          "Stripe·Visa·Mastercard 동반 지원설",
+          "스테이블코인 시장 3,200억 달러",
+          "네오뱅크 차별화: Revolut·Nubank·WeBank",
+          "Anthropic 연환산 매출 470억 달러"
+        ],
+        "why": [
+          "스테이블코인·결제 인프라 합종연횡",
+          "핀테크·AI 밸류에이션 지형 변화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-hayes-dumps-worldcoin",
+      "title": "아서 헤이즈, 하루 만에 월드코인 전량 매각",
+      "summary": "보유 선언 24시간 만에 WLD 청산, SpaceX 사전상장 급락이 신호.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/06/wld-plunges-20-as-hayes-dumps-token-a-day-after-saying-he-would-keep-holding-it?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "아서 헤이즈가 보유 선언 24시간 만에 펀드의 월드코인 전량을 청산했다.",
+        "what": "Maelstrom CIO 아서 헤이즈가 6월 6일 24시간도 안 돼 공개적 WLD 확신을 뒤집고 펀드의 월드코인 포지션 전량을 청산했다. SpaceX의 6월 12일 나스닥 데뷔를 앞두고 Hyperliquid의 SpaceX 사전상장 호가가 최근 50% 넘게 하락한 데 따른 것이다. 헤이즈는 WLD를 SpaceX의 AI·연결성 서사에 묶인 AI 트레이드 유동 프록시로 보유했었다. WLD는 24시간 약 10% 하락해 30일 상승폭을 70%에서 약 45%로 줄였고, 약 3,900억 달러 시총을 날린 광범위한 매도세와 70억 달러 청산이 겹쳤다.",
+        "points": [
+          "보유 선언 24시간 만에 전량 매각",
+          "SpaceX 사전상장 호가 50%+ 급락이 신호",
+          "WLD 24시간 약 10% 하락",
+          "시장 전반 70억 달러 청산"
+        ],
+        "why": [
+          "AI 내러티브와 연동된 토큰의 변동성",
+          "유명 투자자 입장 번복의 시장 영향"
+        ]
+      }
+    },
+    {
+      "id": "crypto-banks-tokenized-deposits",
+      "title": "미 대형은행, 공동 토큰화 예금 네트워크 구축",
+      "summary": "JPMorgan·BofA·Citi 등 24/7 블록체인 결제망, 2027년 상반기 목표.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/06/06/america-s-largest-banks-are-building-a-new-digital-currency-network-to-stop-a-massive-deposit-drain?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "미 대형은행들이 The Clearing House를 통해 공동 토큰화 예금 네트워크를 2027년 상반기 목표로 구축한다.",
+        "what": "JPMorgan·Bank of America·Citigroup 등 주요 대출기관이 The Clearing House를 통해 공동 토큰화 예금 네트워크를 구축하며, 규제 은행 시스템 내에 자금을 유지하면서 고객 예금의 24/7 블록체인 결제를 2027년 상반기 목표로 한다. 스테이블코인이 5년간 핵심 은행 예금의 3~5%를 빼내 평균 은행 수익을 약 3% 줄일 수 있다는 추정에 대한 방어적 대응이다. GENIUS Act 통과로 스테이블코인·토큰화 예금·토큰화 MMF 간 3파전이 격화됐다. 별도로 미 지역은행은 ZKsync 위에 경쟁 플랫폼 Cari Network를 구축 중이다.",
+        "points": [
+          "JPMorgan·BofA·Citi 공동 네트워크",
+          "24/7 블록체인 결제, 2027년 상반기 목표",
+          "스테이블코인 예금 유출 방어",
+          "GENIUS Act로 3파전 격화"
+        ],
+        "why": [
+          "은행권의 토큰화 결제 방어전",
+          "스테이블코인 vs 예금 vs MMF 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "crypto-top-10-neobanks-2026",
+      "title": "2026년 톱 10 크립토 네오뱅크",
+      "summary": "RedotPay가 약 58억 달러 온체인 카드 거래량으로 선두.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/tZtrIm",
+      "report": {
+        "tldr": "Paymentscan 데이터 기준 RedotPay가 약 58억 달러 거래량으로 2026년 크립토 네오뱅크 1위다.",
+        "what": "온체인 카드 거래량에 대한 Paymentscan 데이터가 RedotPay를 약 58억 달러 추적 거래량과 94만 1,000개 활성 주소로 2026년 크립토 네오뱅크 1위에 올렸다. 다음 경쟁자의 약 10배다. KAST(약 5.4억 달러, 170개국 가맹점)와 EtherFi Cash(약 5.05억 달러, 보유자산 담보 차입소비)가 2·3위다. 카드 표면 뒤에서 경쟁은 스테이블코인 잔액 관리·셀프커스터디·FX·KYC·결제 인프라에 집중된다. 분배와 글로벌 머니앱 포지셔닝이 아키텍처 우아함을 앞서는 핵심 해자다.",
+        "points": [
+          "RedotPay 약 58억 달러로 선두",
+          "활성 주소 94만 1,000개",
+          "KAST·EtherFi Cash 2·3위",
+          "분배·머니앱 포지셔닝이 핵심 해자"
+        ],
+        "why": [
+          "크립토 네오뱅크 경쟁 지형",
+          "온체인 결제 채택의 실측 데이터"
+        ]
+      }
+    },
+    {
+      "id": "crypto-stablecoin-rails-phases",
+      "title": "스테이블코인 레일: 지금은 분배, 나중엔 인프라",
+      "summary": "근시일 Visa·Stripe·Mastercard 우위, 장기엔 Circle 같은 인프라가 승리.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2063598531076661355.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "스테이블코인 레일 경쟁은 단기 분배 우위와 장기 인프라 가치의 두 국면으로 전개된다.",
+        "what": "스테이블코인 레일 경쟁은 두 국면으로 펼쳐진다. 단기엔 Visa·Stripe·Mastercard 같은 분배 계층 강자가 기존 가맹점·소비자 네트워크에 스테이블코인 기능을 임베드해 승리하고, 장기엔 Circle 같은 인프라 제공자가 결제 계층의 네트워크 효과 누적으로 지속 가능한 가치를 확보한다.",
+        "points": [
+          "단기엔 분배 계층 강자 우위",
+          "장기엔 인프라 제공자 가치 확보",
+          "네트워크 효과가 결제 계층 누적"
+        ],
+        "why": [
+          "스테이블코인 가치사슬의 단계적 전망",
+          "결제 인프라 투자 관점 제시"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ny-judge-40k-wallets",
+      "title": "뉴욕 판사, 4만 비트코인 지갑 소유권 소송 보류",
+      "summary": "3.9만 휴면 지갑 소유권 소송, 7/14 청문 전까지 정지.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/BFlB1V",
+      "report": {
+        "tldr": "뉴욕 연방 판사가 3만 9,069개 휴면 비트코인 지갑 소유권 소송을 보류했다.",
+        "what": "뉴욕 연방 판사가 3만 9,069개 휴면 비트코인 지갑의 소유권을 주장하는 소송을 보류하고, 사건 진행 전 제안된 아미쿠스 브리프 검토를 위해 7월 14일 청문을 잡았다.",
+        "points": [
+          "3만 9,069개 휴면 지갑 소유권 소송",
+          "7월 14일 청문 예정",
+          "아미쿠스 브리프 검토 후 진행"
+        ],
+        "why": [
+          "대규모 휴면 자산의 법적 소유권 쟁점",
+          "비트코인 소유권·상속 법리 시험대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-non-usd-stablecoins-base",
+      "title": "Base에서 비달러 스테이블코인 증가",
+      "summary": "주간 거래 주소가 2025년 중반 0에서 2026년 1.5~2.5만으로.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2063726950431228320.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Base에서 비달러 스테이블코인의 주간 거래 주소가 꾸준히 1.5~2.5만으로 늘었다.",
+        "what": "Dune 차트에 따르면 Base의 비달러 스테이블코인 주간 거래 주소가 2025년 중반 거의 0에서 2026년 주당 1만 5,000~2만 5,000으로 꾸준히 상승했다.",
+        "points": [
+          "비달러 스테이블코인 거래 증가",
+          "주간 1.5~2.5만 주소로 성장",
+          "Base 체인 중심"
+        ],
+        "why": [
+          "스테이블코인 다통화화 흐름",
+          "비달러 결제 수요 확대 신호"
+        ]
+      }
+    },
+    {
+      "id": "crypto-vitalik-formal-verification",
+      "title": "비탈릭, 형식 검증 입문서 발표",
+      "summary": "스마트 컨트랙트 동작을 사양 대비 수학적으로 증명하는 실무 입문.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2062826816427983030.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "비탈릭 부테린이 스마트 컨트랙트의 형식 검증 입문서를 발표했다.",
+        "what": "비탈릭 부테린이 스마트 컨트랙트 동작을 사양에 대해 수학적으로 증명하는 관행인 형식 검증(formal verification) 입문서를 발표했다.",
+        "points": [
+          "형식 검증 입문서 발표",
+          "사양 대비 동작의 수학적 증명",
+          "스마트 컨트랙트 안전성 강화"
+        ],
+        "why": [
+          "스마트 컨트랙트 보안 방법론 확산",
+          "형식 검증 대중화 시도"
+        ]
+      }
+    }
+  ]
+}

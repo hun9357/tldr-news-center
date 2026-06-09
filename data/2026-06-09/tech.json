@@ -1,0 +1,293 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-apple-siri-ai-reveal",
+      "title": "애플, AI 기반 새 Siri 공개",
+      "summary": "콘서트 티켓 검색·레시피 구상 등 처리, 구글 모델·클라우드로 구동.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/4ussGE",
+      "report": {
+        "tldr": "애플이 개선된 AI 기반 Siri와 Apple Intelligence 신기능을 공개했다.",
+        "what": "애플이 더 똑똑해진 Siri와 Apple Intelligence 신기능을 발표했다. Siri는 이제 콘서트 티켓을 알아보거나 파티 레시피를 구상하는 등의 작업을 처리한다. 애플은 구글의 AI 모델과 클라우드를 활용해 Siri와 Apple Intelligence를 구동하며, 기능은 애플 앱 전반에 통합돼 사진 편집이나 촬영 대상에 대한 질문도 가능해진다. 다만 컴퓨트 제약으로 이미지 생성 기능에는 일일 한도가 있다.",
+        "points": [
+          "Siri가 멀티스텝 작업 처리",
+          "구글 모델·클라우드로 구동",
+          "애플 앱 전반에 AI 통합",
+          "이미지 생성은 일일 한도 적용"
+        ],
+        "why": [
+          "수년 지연된 애플 AI 전략의 본격 가동",
+          "구글 의존이라는 전략적 선택 주목",
+          "오늘의 가장 중요한 빅테크 발표"
+        ]
+      }
+    },
+    {
+      "id": "tech-openai-confidential-ipo",
+      "title": "OpenAI, SEC에 비공개 IPO 신청",
+      "summary": "시점은 미정, 8,520억 달러 밸류로 직원 주식 매각 텐더오퍼 추진.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/08/openai-confidentially-files-for-ipo-prepping-wall-street-for-ai-debut.html?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "OpenAI가 SEC에 비공개로 IPO를 신청했으며, 8,520억 달러 밸류로 직원 주식 매각을 추진한다.",
+        "what": "OpenAI가 SEC에 비공개로 IPO를 신청했다. 상장 시점은 아직 정하지 않았고, 비상장 상태에서 더 쉬운 일들이 남아 실제 상장까지는 시간이 걸릴 수 있으나 필요 시 더 일찍 상장할 옵션을 확보했다. OpenAI는 직원들이 최신 8,520억 달러 포스트머니 밸류로 주식을 매각할 수 있는 텐더오퍼를 추진해 단기 유동성 압박을 완화할 계획이다.",
+        "points": [
+          "비공개 IPO 신청, 시점 미정",
+          "포스트머니 밸류 8,520억 달러",
+          "직원 주식 매각 텐더오퍼 추진"
+        ],
+        "why": [
+          "역대 최대급 AI IPO 가능성",
+          "직원 유동성 압박 해소가 단기 동인"
+        ]
+      }
+    },
+    {
+      "id": "tech-samsung-spacex-satellite-chip",
+      "title": "삼성, SpaceX·xAI 위성 칩 프로젝트 참여 보도",
+      "summary": "우주에서 데이터를 처리·송신하는 위성용 AI 컴퓨팅 칩 초기 생산.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/fzI0PI",
+      "report": {
+        "tldr": "삼성이 SpaceX의 위성 칩 야망을 위한 AI 우주 컴퓨팅 칩을 초기 단계에서 생산하고 있다는 보도다.",
+        "what": "삼성이 SpaceX의 위성 칩 구상을 위한 AI 우주 컴퓨팅 칩 생산 초기 단계에 있다는 보도다. SpaceX는 우주에서 데이터를 처리해 지구로 송신하는 위성을 구축할 계획이며, TSMC도 제조 파트너로 거명됐다. 초기 생산은 프로토타입 실리콘부터 제한적 인증 런까지 포함될 수 있다.",
+        "points": [
+          "위성용 AI 컴퓨팅 칩 초기 생산",
+          "TSMC도 제조 파트너로 거명",
+          "우주에서 데이터 처리·송신 구상"
+        ],
+        "why": [
+          "우주 AI 인프라 경쟁의 공급망 단서",
+          "삼성·TSMC의 차세대 수주 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "tech-commonwealth-fusion-validated",
+      "title": "게이츠 투자 Commonwealth Fusion, 기술 검증 발표",
+      "summary": "상용 규모 발전소 물리 검증을 5편 동료심사 논문으로 입증, 2030년대 초 목표.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/uV1BRv",
+      "report": {
+        "tldr": "Commonwealth Fusion이 상용 규모 발전소의 물리를 동료심사 논문 5편으로 검증했다고 밝혔다.",
+        "what": "Commonwealth Fusion Systems가 상용 규모 발전소의 물리가 5편의 동료심사 논문으로 검증됐다고 발표했다. 2030년대 초 전력망 공급을 목표로 버지니아에 400MW 시설, 매사추세츠에 실증기를 짓고 있다. 빌 게이츠의 Breakthrough Energy Ventures와 엔비디아 벤처 부문 등에서 약 30억 달러를 조달했다.",
+        "points": [
+          "발전소 물리, 동료심사 논문 5편으로 검증",
+          "버지니아 400MW 시설 건설",
+          "약 30억 달러 조달, 2030년대 초 목표"
+        ],
+        "why": [
+          "핵융합 상용화 로드맵의 진전",
+          "AI·데이터센터 전력 수요와 맞물린 청정에너지 기대"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-core-ai",
+      "title": "애플, 온디바이스 AI 프레임워크 'Core AI' 공개",
+      "summary": "Apple 실리콘에서 모델을 빌드·실행·배포하는 Swift API.",
+      "source": "Apple Developer",
+      "url": "https://developer.apple.com/documentation/coreai/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Core AI는 Apple 실리콘에서 AI 모델을 빌드·실행·배포하는 애플의 새 프레임워크다.",
+        "what": "애플의 Core AI 프레임워크는 개발자가 Apple 실리콘 기반 앱에서 AI 모델을 빌드·실행·배포하게 해준다. CPU·GPU·Neural Engine에 걸쳐 최신 모델 아키텍처와 추론 기법에 접근할 수 있고, Swift API로 모델 특화·캐싱·추론 성능을 제어하면서 일반 작업은 단순하게 만든다. Xcode·개발 툴체인과 통합된다.",
+        "points": [
+          "Apple 실리콘에서 모델 빌드·실행·배포",
+          "CPU·GPU·Neural Engine 활용",
+          "Swift API로 특화·캐싱·성능 제어",
+          "Xcode 통합"
+        ],
+        "why": [
+          "애플 온디바이스 AI 생태계 확장",
+          "개발자에게 Siri AI 시대의 도구 제공"
+        ]
+      }
+    },
+    {
+      "id": "tech-loop-engineering",
+      "title": "루프 엔지니어링",
+      "summary": "개발자가 직접 프롬프트하는 대신 에이전트를 프롬프트하는 시스템을 설계.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/hw6fq7",
+      "report": {
+        "tldr": "루프 엔지니어링은 개발자가 에이전트에 프롬프트를 넣는 역할을 대신할 시스템을 만드는 것이다.",
+        "what": "루프 엔지니어링은 개발자가 에이전트를 프롬프트하는 사람의 역할을 그 일을 대신하는 시스템으로 대체하는 것이다. 루프는 사용자가 목적을 정의하면 AI가 완료될 때까지 반복하는 재귀적 목표 구조다. 토큰 비용과 품질 모니터링이 여전히 과제이지만 코딩 에이전트와 일하는 미래 방식으로 평가된다.",
+        "points": [
+          "사람의 프롬프트 역할을 시스템으로 대체",
+          "목적 정의 후 완료까지 반복하는 재귀 루프",
+          "토큰 비용·품질 모니터링이 과제"
+        ],
+        "why": [
+          "에이전트 활용의 다음 패러다임 제시",
+          "개발자 워크플로의 구조적 변화 예고"
+        ]
+      }
+    },
+    {
+      "id": "tech-chatgpt-failed-kill-google",
+      "title": "ChatGPT는 구글 검색을 죽이지 못했다",
+      "summary": "구글 검색 쿼리 사상 최대, AI Mode 월 10억·AI Overviews 25억 사용자.",
+      "source": "Sherwood",
+      "url": "https://sherwood.news/tech/chatgpt-failed-to-kill-google-search/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "구글 검색 쿼리가 사상 최대치를 기록하며 AI가 오히려 검색 참여를 끌어올리고 있다.",
+        "what": "지난 분기 구글 검색 쿼리가 사상 최대에 도달했다. AI Overviews와 AI Mode가 사용자 참여를 끌어올리고 AI 기반 광고 도구가 광고주 ROI를 개선했다. AI Mode는 월 10억 활성 사용자, AI Overviews는 25억 활성 사용자를 넘었고 검색 매출은 전년 대비 19% 성장했다.",
+        "points": [
+          "검색 쿼리 사상 최대",
+          "AI Mode 월 10억·AI Overviews 25억 사용자",
+          "검색 매출 전년比 19% 성장"
+        ],
+        "why": [
+          "'AI가 검색을 대체한다'는 서사에 대한 반론",
+          "구글 AI 통합 전략의 성과 입증"
+        ]
+      }
+    },
+    {
+      "id": "tech-aschenbrenner-situational-awareness",
+      "title": "제인스트리트가 투자한 24세 AI 투자 신동",
+      "summary": "Leopold Aschenbrenner의 Situational Awareness, 2년 만에 200억 달러 운용.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/x5XC2L",
+      "report": {
+        "tldr": "투자 경력이 없던 24세 Leopold Aschenbrenner의 AI 펀드가 2년도 안 돼 200억 달러를 운용한다.",
+        "what": "전문 투자 경력이 없던 Leopold Aschenbrenner가 세운 AI 중심 투자사 Situational Awareness의 자산이 2년도 안 돼 수억 달러에서 200억 달러 이상으로 급증했다. 가장 성공적인 베팅 중 하나가 Anthropic 지분이다. 외부 자금을 거의 맡기지 않는 퀀트 트레이딩사 제인스트리트가 투자자로 참여했다.",
+        "points": [
+          "2년 만에 운용자산 200억 달러 돌파",
+          "Anthropic 지분이 핵심 베팅",
+          "제인스트리트가 이례적으로 투자"
+        ],
+        "why": [
+          "AI 투자 열기의 상징적 사례",
+          "스타 펀드로 본 AI 밸류에이션 과열 논쟁"
+        ]
+      }
+    },
+    {
+      "id": "tech-llms-and-the-web",
+      "title": "LLM과 웹에 대한 내 생각",
+      "summary": "진입 장벽이 사라지며 웹의 황금기일 수 있다는 관점.",
+      "source": "Paul Kinlan",
+      "url": "https://paul.kinlan.me/where-my-head-is-at-with-llms-and-the-web/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "많은 진입 장벽이 제거되면서 웹이 잠재적 황금기에 들어섰다는 관점이다.",
+        "what": "저자는 LLM 덕분에 웹 제작의 주요 진입 장벽이 사라지면서 우리가 웹의 황금기에 있을 수 있다고 본다.",
+        "points": [
+          "LLM이 웹 제작 진입 장벽 제거",
+          "개인·소규모 제작자에게 기회 확대",
+          "제작 비용·시간 장벽 완화"
+        ],
+        "why": [
+          "AI 시대 웹 생태계의 낙관적 전망",
+          "콘텐츠·도구 제작의 민주화 논의"
+        ]
+      }
+    },
+    {
+      "id": "tech-ask-hn-tools-since-ai",
+      "title": "Ask HN: AI 등장 이후 스스로 만든 도구는?",
+      "summary": "개발자들이 AI 코딩 도구로 만든 다양한 자작 프로젝트 모음.",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=H449187&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 코딩 도구의 등장 이후 개발자들이 스스로 만든 도구들을 공유하는 HN 스레드다.",
+        "what": "AI 코딩 도구가 등장한 뒤 개발자들이 자신을 위해 만든 다양한 프로젝트를 살펴보는 Hacker News 스레드다.",
+        "points": [
+          "AI 코딩 도구로 만든 자작 프로젝트 모음",
+          "개인 생산성 도구 사례 다수",
+          "커뮤니티가 공유한 실사용 사례"
+        ],
+        "why": [
+          "AI가 바꾼 개인 개발 문화 단면",
+          "실용적 자작 도구 아이디어 참고"
+        ]
+      }
+    },
+    {
+      "id": "tech-flying-cars-radius",
+      "title": "일상의 반경을 넓히다",
+      "summary": "플라잉카가 거주·근무·방문지 선택의 폭을 넓힌다는 장문 에세이.",
+      "source": "Not Boring",
+      "url": "https://www.notboring.co/p/expanding-the-radius-of-daily-life?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "플라잉카가 사람들이 거주·근무·방문할 곳의 선택지를 넓히는 미래를 그린다.",
+        "what": "플라잉카가 인간이 어디서 살고 일하고 방문할지에 대해 더 많은 선택지를 갖는 미래를 약속한다는 장문 에세이다.",
+        "points": [
+          "플라잉카가 이동 반경을 확장",
+          "거주·근무·여가 입지 선택 자유 확대",
+          "도시·교통 구조의 장기 재구성 상상"
+        ],
+        "why": [
+          "도시·교통의 장기적 재구성 상상",
+          "이동성 혁신의 사회적 함의 탐색"
+        ]
+      }
+    },
+    {
+      "id": "tech-sbf-trump-pardon",
+      "title": "FTX 창업자 SBF, 트럼프에 사면 공식 요청",
+      "summary": "샘 뱅크먼-프리드가 대통령 사면을 공식 신청.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/08/sam-bankman-fried-files-formal-request-for-presidential-pardon-.html?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "유죄 판결을 받은 FTX 창업자 샘 뱅크먼-프리드가 트럼프에게 사면을 공식 요청했다.",
+        "what": "유죄 판결을 받은 FTX 창업자 샘 뱅크먼-프리드가 대통령 사면을 공식 신청했다. 트럼프는 이전에 그를 사면할 의향이 없다고 밝힌 바 있다.",
+        "points": [
+          "SBF, 대통령 사면 공식 신청",
+          "트럼프는 사면 의향 없다고 밝힌 바 있음",
+          "암호화폐 업계 정치 지형과 연결"
+        ],
+        "why": [
+          "암호화폐 사기 사건의 정치적 후속 국면",
+          "규제·사법 리스크에 대한 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-gemini-architecture",
+      "title": "애플, 구글 Gemini 기반 새 AI 아키텍처 공개",
+      "summary": "구글과 공동개발한 파운데이션 모델을 온디바이스·프라이빗 클라우드에서 구동.",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/06/08/apple-reveals-new-ai-architecture/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "애플의 새 AI 아키텍처가 구글과 공동개발한 파운데이션 모델을 온디바이스·클라우드에서 구동한다.",
+        "what": "애플의 새 AI 아키텍처는 구글과 공동개발한 Apple 파운데이션 모델을 온디바이스와 애플의 Private Cloud Compute 인프라 양쪽에서 구동한다.",
+        "points": [
+          "구글과 공동개발한 파운데이션 모델",
+          "온디바이스 + Private Cloud Compute 병행",
+          "Siri AI의 기술적 토대"
+        ],
+        "why": [
+          "애플-구글 AI 동맹의 구조적 실체",
+          "온디바이스·프라이버시와 성능의 절충"
+        ]
+      }
+    },
+    {
+      "id": "tech-1000-breaches-disclosure-lag",
+      "title": "1,000건의 유출, 더 나빠진 공개 지연",
+      "summary": "기업이 고객 통지보다 주주 가치 보호를 우선한다는 분석.",
+      "source": "Troy Hunt",
+      "url": "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "기업들이 고객에게 유출을 알리기보다 주주 가치 보호를 우선하면서 공개 지연이 더 심해지고 있다.",
+        "what": "보안 연구자 Troy Hunt가 1,000건 이상의 데이터 유출을 다룬 경험을 토대로, 기업들이 고객에게 침해 사실을 알리는 것보다 주주 가치를 보호하려 하면서 공개 지연이 그 어느 때보다 악화됐다고 지적한다.",
+        "points": [
+          "유출 공개 지연이 역대 최악",
+          "고객 통지보다 주주 가치 보호 우선",
+          "피해자 보호 공백 확대"
+        ],
+        "why": [
+          "데이터 유출 통지 제도의 구조적 결함",
+          "규제 강화 필요성에 대한 논거"
+        ],
+        "action": "본인 계정의 유출 노출 여부를 점검하고 비밀번호·2FA를 갱신"
+      }
+    }
+  ]
+}
