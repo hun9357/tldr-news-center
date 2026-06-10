@@ -1,0 +1,269 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "fnd-llms-picking-winners",
+      "title": "LLM이 승자를 고른다 — 승자가 되는 법",
+      "summary": "Posthog의 LLM 유입 2년간 41배, 거의 모든 채널보다 높은 전환.",
+      "source": "TLDR Founders",
+      "url": "https://newsletter.posthog.com/p/llms-are-picking-winners-heres-how",
+      "report": {
+        "tldr": "Posthog의 LLM 유입 트래픽이 2년간 41배 늘며 거의 모든 채널보다 잘 전환됐다.",
+        "what": "Posthog의 LLM 유입 트래픽이 지난 2년간 41배 성장했고, Posthog가 운영하는 거의 모든 채널보다 잘 전환됐다. 이 글은 Posthog가 'Answer Engine Optimization(AEO)'이라는 새로운 분야를 활용해 모델이 자사와 제품을 알게 만든 방법을 살핀다.",
+        "points": [
+          "LLM 유입 2년간 41배",
+          "최고 수준 전환율",
+          "AEO로 모델 인지도 확보"
+        ],
+        "why": [
+          "AI 검색 시대의 유입 전략",
+          "AEO의 부상과 중요성"
+        ]
+      }
+    },
+    {
+      "id": "fnd-ai-rollup",
+      "title": "실리콘밸리의 새 바이아웃 플레이북, 월가에",
+      "summary": "VC가 레거시 기업 인수해 AI 통합, 헬스케어·회계 등 저SW 산업 타깃.",
+      "source": "TLDR Founders",
+      "url": "https://www.cnbc.com/2026/06/08/silicon-valleys-new-buyout-playbook-is-hitting-wall-street.html",
+      "report": {
+        "tldr": "VC가 레거시 기업을 인수해 AI를 통합하는 'AI 롤업' 전략이 부상하고 있다.",
+        "what": "벤처캐피털이 레거시 기업을 인수해 AI를 통합하며 전통 엔터프라이즈 SW 판매를 우회한다. 'AI 롤업'으로 불리는 이 전략은 헬스케어·회계처럼 SW 채택이 낮은 산업을 겨냥한다. General Catalyst·Thrive Capital 같은 VC는 이 기업들을 영구히 변모시켜 성장을 노리며, 재무공학에 집중하는 전통 PE와 대비된다.",
+        "points": [
+          "VC의 레거시 기업 인수·AI 통합",
+          "저SW 산업(헬스·회계) 타깃",
+          "전통 PE와 다른 변모형 접근"
+        ],
+        "why": [
+          "VC 투자 모델의 진화",
+          "AI 통합 바이아웃 확산"
+        ]
+      }
+    },
+    {
+      "id": "fnd-market-of-zero",
+      "title": "'제로 시장'을 위해 만들어라",
+      "summary": "엔비디아처럼 수요를 추론해 먼저 짓는 방법론, 미래를 역산하라.",
+      "source": "TLDR Founders",
+      "url": "https://www.the-ai-corner.com/p/jensen-huang-stanford-cs153-playbook-2026",
+      "report": {
+        "tldr": "엔비디아처럼 고객이 요청하기 전 세계가 필요로 할 것을 추론해 먼저 만들라는 방법론이다.",
+        "what": "엔비디아는 한때 고객이 정확히 0명인 시장을 위해 수십억 달러를 들여 기계를 만들었다. 젠슨 황은 스탠퍼드 강의에서 이것이 방법 그 자체라고 말했다 — 오늘 고객에게 무엇을 원하는지 묻기보다, 세상이 무엇을 필요로 할지 추론해 누가 요청하기 전에 짓는 것이다. 창업자에게 그의 조언은 '무엇이 참이어야 하는가'로 미래를 역산하라는 것인데, 고객 리서치는 현재만 묘사할 수 있기 때문이다.",
+        "points": [
+          "수요를 추론해 먼저 구축",
+          "고객 리서치는 현재만 묘사",
+          "미래를 역산하는 사고"
+        ],
+        "why": [
+          "선행 베팅형 창업 전략",
+          "비전 주도 제품 개발"
+        ]
+      }
+    },
+    {
+      "id": "fnd-gross-profit-market",
+      "title": "시장을 매출이 아닌 매출총이익으로 재라",
+      "summary": "AI 마진은 음수~90% 변동, 매출 대신 GP로 시장 규모 산정.",
+      "source": "TLDR Founders",
+      "url": "https://insights.euclid.vc/p/how-to-stress-test-a-vertical-ai-startup-kyle-lui-bling-capital",
+      "report": {
+        "tldr": "Bling Capital은 AI 시대엔 매출이 아니라 매출총이익으로 시장을 재라고 말한다.",
+        "what": "Bling Capital은 AI 시대에 스타트업을 판단하던 옛 SaaS 규칙이 깨진다고 본다. AI 마진은 음수에서 90%까지 출렁이고, 큰 톱다운 시장 규모는 실제 차지 가능한 몫을 가린다. 해법은 매출 대신 매출총이익(GP)으로 사업 규모를 재는 것 — 얼마를 내는 고객이 몇이면 $1억 GP에 도달하고 그게 시장의 몇 %인지 계산한다. 또 핵심 문제를 구체적 전후 단계와 실제 달러 ROI로 적어내라 요구하는데, 종이에 못 적으면 제품의 가치를 진짜로 이해 못 한 것이기 때문이다.",
+        "points": [
+          "매출총이익(GP)으로 시장 산정",
+          "$1억 GP 역산 프레임",
+          "문제를 달러 ROI로 명문화"
+        ],
+        "why": [
+          "AI 스타트업 평가 기준 변화",
+          "마진 변동성 반영 분석"
+        ]
+      }
+    },
+    {
+      "id": "fnd-weekly-plan",
+      "title": "거의 아무도 안 내놓는 주간 요금제",
+      "summary": "구독앱 15% 미만만 주간제, 그러나 주간이 매출 55% 차지.",
+      "source": "TLDR Founders",
+      "url": "https://www.the-diff.com/p/why-7-day-plans-are-winning",
+      "report": {
+        "tldr": "구독앱의 15% 미만만 주간제를 제공하지만 주간제가 매출의 55%를 차지한다.",
+        "what": "구독앱의 15% 미만만 주간 요금제를 제공하지만, 주간제가 이제 모든 구독앱 매출의 55%를 견인한다 — 소수가 대부분의 돈을 가져간다. 신규 사용자는 대개 이번 주 $6을 걸어볼 가치가 있는지만 알고 싶어 하고, 그 작은 요청이 연 $60 약정보다 훨씬 잘 전환되기 때문이다. 주간 티어 추가는 약 20분이면 되고, 결국 월간·연간을 고르는 사람조차 주간 옵션이 있어 다른 선택이 더 저렴해 보여 전환이 개선된다.",
+        "points": [
+          "구독앱 15% 미만만 주간제",
+          "주간제가 매출 55% 견인",
+          "20분이면 티어 추가 가능"
+        ],
+        "why": [
+          "구독 수익화 미개척 기회",
+          "앵커링으로 전환율 개선"
+        ]
+      }
+    },
+    {
+      "id": "fnd-fable-pushes-back",
+      "title": "처음으로 맞받아치는 모델 (Fable)",
+      "summary": "5일 테스트 후 '세계 최고 코딩 모델', 테스터를 밀어붙인 첫 모델.",
+      "source": "TLDR Founders",
+      "url": "https://every.to/vibe-check/anthropic-mythos-our-fable-vibe-check",
+      "report": {
+        "tldr": "Anthropic이 출시한 Fable 5가 닷새 테스트 후 세계 최고 코딩 모델로 평가받는다.",
+        "what": "Anthropic이 오늘 새 Mythos급 모델의 첫 주자인 Claude Fable 5를 출시했고, 닷새간의 강도 높은 테스트 끝에 세계 최고의 코딩 모델로 불린다. 가장 두드러진 반응은 테스터가 모델을 밀어붙이는 게 아니라 모델이 테스터를 밀어붙인 첫 모델이라는 점으로, 이전 모델이 못 다루던 야심 찬 코딩·글쓰기·에이전트 작업을 해낸다. 한 사람이 만들 수 있는 것의 기준이 다시 올라갔다.",
+        "points": [
+          "닷새 테스트 후 '세계 최고 코딩'",
+          "테스터를 밀어붙인 첫 모델",
+          "개인 역량의 기준 상향"
+        ],
+        "why": [
+          "프런티어 코딩 모델 경쟁",
+          "개인 빌더의 가능성 확장"
+        ]
+      }
+    },
+    {
+      "id": "fnd-aws-agent-toolkit",
+      "title": "AWS용 에이전트 툴킷 (GitHub)",
+      "summary": "AI 코딩 에이전트가 AWS 서비스를 다루도록 도구·지식·가드레일 제공.",
+      "source": "TLDR Founders",
+      "url": "https://github.com/aws/agent-toolkit-for-aws",
+      "report": {
+        "tldr": "AWS용 에이전트 툴킷이 AI 코딩 에이전트에 AWS 작업용 도구·지식·가드레일을 제공한다.",
+        "what": "AWS용 에이전트 툴킷은 AI 코딩 에이전트가 AWS 서비스를 다루는 데 필요한 도구·지식·가드레일을 제공해, 에이전트가 AWS에서 앱을 빌드·배포·관리하도록 돕는다. Claude Code·Codex·Cursor·Kiro 등 개발자가 이미 쓰는 코딩 에이전트와 호환되며, 시간이 지나며 AWS Labs의 우수 MCP 서버·스킬·플러그인이 이 툴킷으로 통합될 예정이다.",
+        "points": [
+          "AWS 작업용 도구·지식·가드레일",
+          "주요 코딩 에이전트와 호환",
+          "AWS Labs 자산 통합 예정"
+        ],
+        "why": [
+          "클라우드 에이전트 개발 표준화",
+          "AWS 에이전트 생태계 강화"
+        ]
+      }
+    },
+    {
+      "id": "fnd-datadog-dash-2026",
+      "title": "DASH 2026: Datadog 신규 발표 가이드",
+      "summary": "Bits AI의 개발·운영 지원, 자율 탐지·교정·릴리스 검증 등.",
+      "source": "TLDR Founders",
+      "url": "https://www.datadoghq.com/blog/dash-2026-new-feature-roundup-keynote/",
+      "report": {
+        "tldr": "Datadog의 DASH 2026 키노트가 Bits AI와 수십 개 신기능을 공개했다.",
+        "what": "Datadog의 올해 DASH 키노트는 개발·운영 워크플로 모두를 지원하는 Bits AI를 선보였다. 자율 탐지·교정, AI 기반 릴리스 검증·테스트, 통합 여정 모니터링 등 수십 개 신기능도 소개됐다. 이 글은 주요 키노트 발표를 정리한다.",
+        "points": [
+          "Bits AI 개발·운영 지원",
+          "자율 탐지·교정·릴리스 검증",
+          "통합 여정 모니터링"
+        ],
+        "why": [
+          "관측·운영의 AI 통합 흐름",
+          "Datadog 제품 전략 파악"
+        ]
+      }
+    },
+    {
+      "id": "fnd-hn-vs-ph",
+      "title": "해커뉴스가 10배 트래픽을 보냈지만, 설치 못 하는 기기로",
+      "summary": "HN은 모바일 유입, Franz는 데스크톱 앱이라 전환 실패.",
+      "source": "TLDR Founders",
+      "url": "https://adlk.io/blog/hacker-news-vs-product-hunt/",
+      "report": {
+        "tldr": "Franz가 HN·Product Hunt에 동시 소개됐으나 HN 모바일 트래픽은 가치가 낮았다.",
+        "what": "데스크톱 앱 Franz가 같은 주에 해커뉴스와 Product Hunt에 모두 소개됐다. 해커뉴스가 Product Hunt보다 약 10배 트래픽을 보냈지만, 그 대부분이 모바일이었던 반면 Product Hunt 유입은 노트북에서 봤다. Franz는 데스크톱 앱이고 모바일에서는 직접 다운로드 링크를 노출하지 않아, 해커뉴스 트래픽은 가치가 낮았다.",
+        "points": [
+          "HN이 PH 대비 약 10배 트래픽",
+          "HN은 모바일 위주 유입",
+          "데스크톱 앱이라 전환 실패"
+        ],
+        "why": [
+          "트래픽 양보다 적합성",
+          "채널-제품 정합의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "fnd-you-commission-work",
+      "title": "이제 당신은 작업을 발주한다",
+      "summary": "Fable이 단일 브리프로 최대 9시간 자율 작업, 보조 에이전트 생성.",
+      "source": "TLDR Founders",
+      "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "report": {
+        "tldr": "한 테스터가 Fable이 단일 브리프로 최대 9시간 자율 작업하는 것을 지켜봤다.",
+        "what": "한 초기 테스터가 Fable에 접근해 단일 브리프로 최대 9시간 동안 스스로 작업하며 연구·코딩·상호 검증을 하는 보조 에이전트를 띄우는 것을 지켜봤다. 그가 묘사하는 변화는, 이제 자신은 목표를 정하고 결과를 판단하며 모델이 그 사이 모든 단계를 처리한다는 점이다. 힘은 실재하고 불안도 실재한다 — 수백 개의 선택이 결코 보이지 않는 블랙박스에서 일어나므로, 중요한 기술은 날카로운 브리프를 쓰고 좋은 결과를 알아보는 능력이 된다.",
+        "points": [
+          "단일 브리프로 최대 9시간 자율",
+          "보조 에이전트 생성·상호 검증",
+          "목표 설정·결과 판단으로 역할 이동"
+        ],
+        "why": [
+          "에이전트 위임 업무 방식 전환",
+          "브리프 작성·판단 역량 부상"
+        ]
+      }
+    },
+    {
+      "id": "fnd-google-zero-click",
+      "title": "2026년, 구글 검색 1/3 미만만 클릭 (파운더스 관점)",
+      "summary": "AI 기능·즉답·UI로 2년간 무클릭 쿼리 12.5% 증가.",
+      "source": "TLDR Founders",
+      "url": "https://sparktoro.com/blog/in-2026-less-than-one-third-of-google-searches-still-send-a-click/",
+      "report": {
+        "tldr": "AI 기능 등으로 지난 2년간 무클릭 쿼리가 12.5% 늘었다.",
+        "what": "AI 기능, 즉답, 검색 결과에 머물게 하는 UI 요소, 사용자 선호 변화로 지난 2년간 무클릭 쿼리가 12.5% 증가했다.",
+        "points": [
+          "무클릭 쿼리 2년간 12.5%↑",
+          "AI 기능·즉답·UI 요인",
+          "검색 내 체류 유도"
+        ],
+        "why": [
+          "창업자의 검색 유입 전략 재고",
+          "제로클릭 대응 필요"
+        ]
+      }
+    },
+    {
+      "id": "fnd-get-a-life",
+      "title": "인생을 챙겨라 — 그것도 커리어 전략",
+      "summary": "규칙이 바뀌는 창업은 단일 기술이 아닌 폭넓음이 유리.",
+      "source": "TLDR Founders",
+      "url": "https://thestillwandering.substack.com/p/get-a-life",
+      "report": {
+        "tldr": "체스·골프 같은 안정 환경엔 전문화가, 창업 같은 혼돈엔 폭이 유리하다.",
+        "what": "체스·골프처럼 안정적이고 피드백이 빠른 세계에서는 전문화가 이긴다. 하지만 회사를 세우는 일은 그 반대로, 규칙이 바뀌고 어떤 단일 기술도 전부를 커버하지 못하는 어수선한 곳이다.",
+        "points": [
+          "안정 환경=전문화 유리",
+          "창업=폭넓음 유리",
+          "규칙이 바뀌는 환경의 특성"
+        ],
+        "why": [
+          "창업자 역량·삶의 균형 시각",
+          "제너럴리스트의 가치"
+        ]
+      }
+    },
+    {
+      "id": "fnd-why-companies-go-bad",
+      "title": "좋은 회사가 나빠지는 이유",
+      "summary": "린 스타트업 저자의 신간 'Incorruptible', 고객→주가로의 표류 분석.",
+      "source": "TLDR Founders",
+      "url": "https://steveblank.substack.com/p/incorruptible",
+      "report": {
+        "tldr": "린 스타트업 저자의 신간 'Incorruptible'이 좋은 회사가 나빠지는 이유를 다룬다.",
+        "what": "The Lean Startup 저자가 쓴 신간 'Incorruptible'은 좋은 회사가 서서히 나빠지며 고객 봉사에서 오직 주가 봉사로 표류하는 이유를 파고든다.",
+        "points": [
+          "고객→주가로의 표류",
+          "조직 부패의 메커니즘",
+          "린 스타트업 저자 신간"
+        ],
+        "why": [
+          "창업·경영의 장기 건강성",
+          "미션 유지의 어려움"
+        ]
+      }
+    }
+  ]
+}

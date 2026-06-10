@@ -1,0 +1,319 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🔓",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "sec-linux-kernel-cve-2026-23111",
+      "title": "리눅스 커널 1글자 결함으로 로컬 루트 획득",
+      "summary": "CVE-2026-23111 nf_tables UAF, 비권한 사용자가 루트·컨테이너 탈출, 익스플로잇 공개.",
+      "source": "TLDR InfoSec",
+      "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html",
+      "report": {
+        "tldr": "CVE-2026-23111은 nf_tables use-after-free 결함으로 비권한 로컬 사용자가 루트를 얻고 컨테이너를 탈출한다.",
+        "what": "CVE-2026-23111은 리눅스 커널 nf_tables의 use-after-free 버그로, 사용자 네임스페이스가 활성화된 일반 데스크톱·서버에서 비권한 로컬 사용자가 루트를 획득하고 컨테이너를 탈출할 수 있다. Debian·Ubuntu·RHEL용 익스플로잇이 이미 존재해, 관리자는 커널 업데이트를 우선하고 패치 전까지 비권한 사용자 네임스페이스 제한을 고려해야 한다.",
+        "points": [
+          "nf_tables UAF로 로컬 루트·컨테이너 탈출",
+          "Debian·Ubuntu·RHEL 익스플로잇 공개",
+          "사용자 네임스페이스 활성 환경 위험"
+        ],
+        "why": [
+          "광범위한 리눅스 서버·컨테이너 노출",
+          "공개 익스플로잇으로 즉각 위협"
+        ],
+        "action": "커널 즉시 업데이트, 패치 전 비권한 user namespace 제한 검토"
+      }
+    },
+    {
+      "id": "sec-checkpoint-vpn-qlin",
+      "title": "Check Point VPN 제로데이, Qlin 랜섬웨어와 연계",
+      "summary": "IKEv1 구성 인증 우회로 VPN 연결, MITM 가능한 2차 결함도 발견.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/OpZzWh",
+      "report": {
+        "tldr": "Check Point가 원격 공격자의 인증 우회를 허용하는 신규 치명적 VPN 취약점을 발견했다.",
+        "what": "Check Point가 원격 공격자가 표적 Mobile Access/SSL VPN, Remote Access VPN, Spark 방화벽에서 인증을 우회해 VPN 연결을 수립할 수 있는 신규 치명적 취약점을 발견했다. 이 결함은 IKEv1 키 교환을 쓰고 레거시 Remote Access 클라이언트를 허용하며 머신 인증서를 요구하지 않는 배포에만 영향을 준다. 분석 중 IKEv1 인증서 검증 구현의 또 다른 취약점도 발견됐는데, 이는 중간자(MITM) 공격을 가능케 한다. 공격은 Qlin 랜섬웨어 조직과 연계됐다.",
+        "points": [
+          "IKEv1 구성 인증 우회로 VPN 접속",
+          "MITM 가능한 2차 인증서 검증 결함",
+          "Qlin 랜섬웨어 조직과 연계"
+        ],
+        "why": [
+          "VPN 게이트웨이의 직접 침해 경로",
+          "레거시 IKEv1 구성의 위험 부각"
+        ],
+        "action": "IKEv1 구성 점검·머신 인증서 강제, Check Point 패치 적용"
+      }
+    },
+    {
+      "id": "sec-magicad-android",
+      "title": "신종 MagicAd 안드로이드 멀웨어, 광고 도배",
+      "summary": "OS 보호 우회, 샤오미 등 앱스토어 50여 트로이목마 게임에 은닉.",
+      "source": "TLDR InfoSec",
+      "url": "https://cybersecuritynews.com/new-magicad-android-malware-flood-device/",
+      "report": {
+        "tldr": "MagicAd는 OS 보호를 우회해 기기에 광고를 도배하는 신종 안드로이드 멀웨어다.",
+        "what": "연구진이 OS 보호를 우회해 사용자 기기에 광고를 쏟아붓는 신종 안드로이드 멀웨어 MagicAd를 발견했다. 이 멀웨어는 샤오미 등 앱스토어의 50여 개 트로이목마 게임에 숨어 있었다. 설치되면 작업 스케줄러로 백그라운드 서비스를 계속 재시작해 내장 앱에 메시지를 보내 배너 광고를 띄운다.",
+        "points": [
+          "50여 트로이목마 게임에 은닉",
+          "OS 보호 우회·배너 광고 도배",
+          "스케줄러로 서비스 지속 재시작"
+        ],
+        "why": [
+          "공식 앱스토어 유통 신뢰 훼손",
+          "끈질긴 지속성으로 제거 어려움"
+        ],
+        "action": "출처 불명 게임 삭제, 모바일 보안 점검"
+      }
+    },
+    {
+      "id": "sec-apple-siri-ai-private-agents",
+      "title": "애플 Siri-AI와 '프라이빗 에이전트'의 허상",
+      "summary": "Gemini+PCC 결합, 프롬프트 인젝션·검색 질의로 개인정보 유출 우려.",
+      "source": "TLDR InfoSec",
+      "url": "https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
+      "report": {
+        "tldr": "애플 Siri-AI는 Google Gemini와 Private Cloud Compute를 쓰지만 에이전트 데이터 유출 위험이 남는다.",
+        "what": "애플의 Siri-AI는 Google Gemini를 애플 Private Cloud Compute와 Google Confidential Inference로 결합한다. 메시지·이메일·노트·캘린더의 사적 컨텍스트로 일정·검색을 개선할 수 있지만, 유용한 에이전트는 검색엔진이나 LLM에 질의할 때 데이터를 흘릴 수 있다. 받은편지함·웹의 프롬프트 인젝션이 에이전트를 조종해 개인정보를 보내게 할 수 있다. 마지막 우려는 보고(reporting)로, 데이터·메시지 접근 권한을 가진 에이전트가 범죄를 신고하거나 자료를 타인에게 넘기도록 구성될 수 있다.",
+        "points": [
+          "Gemini+PCC+Confidential Inference 결합",
+          "검색 질의·프롬프트 인젝션 유출 경로",
+          "에이전트의 '보고' 구성 가능성 우려"
+        ],
+        "why": [
+          "프라이버시 마케팅과 실제 위험의 간극",
+          "에이전트 보안 설계의 새 공격면"
+        ],
+        "context": "암호학자의 비판적 분석 관점."
+      }
+    },
+    {
+      "id": "sec-skill-distribution-state",
+      "title": "스킬 배포의 한심한 현실",
+      "summary": "Trail of Bits, 4개 악성 스킬로 Cisco·Vercel·ClawHub 스캐너 우회.",
+      "source": "TLDR InfoSec",
+      "url": "https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/",
+      "report": {
+        "tldr": "Trail of Bits가 악성 스킬 4종을 만들어 주요 스킬 보안 스캐너를 모두 우회했다.",
+        "what": "Trail of Bits가 에이전트 스킬 보안 실태를 파악하기 위해 악성 스킬 4종을 제작해 Cisco skill-scanner, Vercel skills.sh 마켓플레이스, ClawHub의 스캐너를 우회했다. ClawHub 스캐너는 양성 서문과 프롬프트 인젝션 사이에 1만 개의 새 줄을 끼워 무력화했다. 다른 스캐너는 악성 페이로드를 docx나 컴파일된 파이썬 바이트코드로 임베드해 우회할 수 있었다.",
+        "points": [
+          "악성 스킬 4종으로 스캐너 전부 우회",
+          "줄 채우기·docx·바이트코드 임베드 기법",
+          "Cisco·Vercel·ClawHub 모두 취약"
+        ],
+        "why": [
+          "에이전트 스킬 공급망의 미성숙",
+          "마켓플레이스 검증의 신뢰 문제"
+        ],
+        "action": "외부 스킬 검증 강화, 신뢰 출처만 사용"
+      }
+    },
+    {
+      "id": "sec-hades-pypi-worm",
+      "title": "Hades 클러스터 PyPI 웜, 파이썬 시작 훅 악용",
+      "summary": "정식 패키지 19개 탈취·악성 휠 37개 업로드, 클라우드·VCS 토큰 탈취.",
+      "source": "TLDR InfoSec",
+      "url": "https://haltingproblems.com/analysis/hades-cluster-pypi-startup-hook-compromise/",
+      "report": {
+        "tldr": "공격자가 정식 과학·딥러닝 패키지 19개의 게시 권한을 탈취해 악성 휠 37개를 업로드했다.",
+        "what": "6월 7일 Socket이 공개한 바에 따르면 공격자가 정식 과학·딥러닝 패키지 19개의 게시 권한을 얻어 hades-setup.pth 파일을 site-packages에 떨구는 악성 휠 37개를 업로드했다. 이 휠은 파이썬 경로 설정 훅을 악용해 개발자의 명시적 import 없이 인터프리터 시작 시 부트스트랩된 Bun 런타임으로 _index.js를 자동 실행한다. 자격증명 탈취기는 AWS·GCP·Azure 클라우드 토큰과 GitHub·npm·SSH 키를 수집해 'Hades - The End for the Damned' 라벨의 공격자 GitHub 저장소로 유출하고, Anthropic API 엔드포인트로 미끼 HTTPS 트래픽을 보내 유출 채널을 숨겼다.",
+        "points": [
+          "정식 패키지 19개 탈취·악성 휠 37개",
+          "파이썬 .pth 훅으로 시작 시 자동 실행",
+          "클라우드·GitHub·npm·SSH 토큰 탈취"
+        ],
+        "why": [
+          "임포트 없는 자동 실행의 은밀한 위협",
+          "오픈소스 공급망 신뢰 붕괴 위험"
+        ],
+        "action": "requirements/lock·site-packages에서 영향 패키지(bramin, executor-engine 등) 점검, 모든 클라우드·VCS 토큰 즉시 회전, hades-setup.pth·_index.js IOC 헌팅"
+      }
+    },
+    {
+      "id": "sec-claude-fable5-mythos5",
+      "title": "Claude Fable 5와 Claude Mythos 5 (보안 관점)",
+      "summary": "민감 사이버·바이오 요청은 Opus 4.8로 라우팅, Mythos 5는 완화 안전장치.",
+      "source": "TLDR InfoSec",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "report": {
+        "tldr": "Anthropic이 Fable 5를 일반 공개하고, 완화 안전장치의 Mythos 5를 선별 사이버방어자에게 제공한다.",
+        "what": "Anthropic이 가장 강력한 일반 공개 모델 Claude Fable 5와, 선별된 사이버방어자에게 완화된 안전장치로 제공하는 Claude Mythos 5를 출시했다. Fable 5는 민감한 사이버·바이오·증류 쿼리를 하드닝 분류기와 30일 로그 보존으로 Opus 4.8을 통해 라우팅한다. Mythos 5는 Project Glasswing과 게이팅된 생물학 트랙을 직접 지원하며, 가격은 입력 100만 토큰당 $10, 출력 $50로 책정됐다.",
+        "points": [
+          "민감 요청 Opus 4.8 라우팅·30일 로그",
+          "Mythos 5는 Glasswing·바이오 트랙 지원",
+          "가격 입력 $10 / 출력 $50 (1M 토큰)"
+        ],
+        "why": [
+          "사이버방어용 고성능 모델의 양날",
+          "민감 역량 게이팅·감사 체계 시험"
+        ]
+      }
+    },
+    {
+      "id": "sec-a-security-launch",
+      "title": "A Security, 자율 공격형 보안 플랫폼 출시",
+      "summary": "지속·스코프 공격 시뮬레이션으로 실제 익스플로잇 체인 후 자동 교정.",
+      "source": "TLDR InfoSec",
+      "url": "https://a.security/",
+      "report": {
+        "tldr": "A Security는 기업 환경 전반에 지속적·스코프 공격 시뮬레이션을 수행하는 자율 공격형 보안 플랫폼이다.",
+        "what": "A Security는 기업 환경 전반에서 지속적이고 스코프가 정해진 공격 시뮬레이션을 수행하는 자율 공격형(offensive) 보안 플랫폼을 제공한다. 실제 익스플로잇 경로를 연결한 뒤, 공격자가 악용하기 전에 그 경로를 차단하도록 표적화된 교정과 통제 조정을 트리거한다.",
+        "points": [
+          "지속·스코프 공격 시뮬레이션",
+          "실제 익스플로잇 체인 후 자동 교정",
+          "공격 전 선제 경로 차단"
+        ],
+        "why": [
+          "자동화된 공격 시뮬레이션 수요 증가",
+          "노출 경로의 선제적 폐쇄"
+        ]
+      }
+    },
+    {
+      "id": "sec-driversentinel",
+      "title": "DriverSentinel: 악성·취약 드라이버 탐지",
+      "summary": "LoLDrivers와 대조해 악성·취약 드라이버를 식별하는 보안 도구.",
+      "source": "TLDR InfoSec",
+      "url": "https://github.com/bI8d0/DriverSentinel",
+      "report": {
+        "tldr": "DriverSentinel은 LoLDrivers와 비교해 악성·취약 드라이버를 탐지하는 도구다.",
+        "what": "DriverSentinel은 드라이버를 LoLDrivers 데이터베이스와 대조해 악성·취약 드라이버를 탐지하는 보안 도구다.",
+        "points": [
+          "LoLDrivers 기반 대조 탐지",
+          "악성·취약 드라이버 식별",
+          "오픈소스 보안 도구"
+        ],
+        "why": [
+          "BYOVD 공격 대응에 유용",
+          "드라이버 공급망 점검 보조"
+        ]
+      }
+    },
+    {
+      "id": "sec-signal-uk-scan",
+      "title": "Signal, 영국 기기 스캔 계획에 '모두를 위험에 빠뜨린다'",
+      "summary": "스타머, 3개월 내 기기 단 스캔 배포 요구, Signal은 감시·검열 우려.",
+      "source": "TLDR InfoSec",
+      "url": "https://www.theregister.com/security/2026/06/09/signal-uks-child-nude-block-threat-wont-protect-children/5252761",
+      "report": {
+        "tldr": "영국이 기기 단 누드 이미지 스캔 배포를 요구하자 Signal이 감시·검열 위험을 경고했다.",
+        "what": "키어 스타머 총리가 기술 기업에 3개월 내로 미성년자의 누드 이미지 촬영·공유·열람을 막는 기기 단(device-level) 스캔을 배포하거나 입법에 직면하라고 요구했다. Signal은 클라이언트 측 스캔과 연령 확인이 새로운 감시·검열 후크를 만들고, 업데이트 가능한 악용 DB·모델로 공격면을 넓히며, 이미지가 기기에 남더라도 프라이버시 신뢰 모델을 깬다고 경고했다.",
+        "points": [
+          "3개월 내 기기 단 스캔 배포 요구",
+          "클라이언트 측 스캔의 감시·검열 위험",
+          "공격면 확대·신뢰 모델 훼손 경고"
+        ],
+        "why": [
+          "아동 보호와 프라이버시의 충돌",
+          "엔드투엔드 암호화 정책 논쟁"
+        ],
+        "context": "정책 논쟁 사안으로 입장이 갈린다."
+      }
+    },
+    {
+      "id": "sec-miasma-microsoft-repos",
+      "title": "Miasma 공급망 웜, MS 저장소 73개 침투",
+      "summary": "Azure 중심 73개 깃허브 레포 감염, durabletask PyPI 침해서 비롯.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/2NnXqP",
+      "report": {
+        "tldr": "Miasma 변종이 주로 Azure 계열 마이크로소프트 깃허브 저장소 73개를 침투했다.",
+        "what": "Miasma 변종이 주로 Azure 계열의 마이크로소프트 깃허브 저장소 73개를 감염시켜 Azure/functions-action 같은 핵심 Actions를 다운시키고 전 세계 CI/CD 워크플로를 망가뜨렸다. 공격자는 앞서 마이크로소프트의 durabletask PyPI 패키지를 비밀 탈취·와이퍼 배포가 가능한 모듈형 클라우드 침입 프레임워크로 침해했다. 이 웜은 이제 설정 파일을 통해 AI 코딩 에이전트를 악용해, 개발자가 오염된 레포를 열 때 자격증명을 수집한다.",
+        "points": [
+          "MS 깃허브 73개 레포 감염",
+          "durabletask PyPI 침해서 확산",
+          "AI 코딩 에이전트 악용해 자격증명 탈취"
+        ],
+        "why": [
+          "글로벌 CI/CD 마비 파급",
+          "AI 에이전트가 새 감염 벡터로"
+        ],
+        "action": "영향 Actions·패키지 점검, CI/CD 자격증명 회전·격리"
+      }
+    },
+    {
+      "id": "sec-apple-passwords-autofix",
+      "title": "애플 Passwords, 약한·유출 비밀번호 자동 교정",
+      "summary": "Apple Intelligence로 취약·유출 비밀번호를 자동 회전.",
+      "source": "TLDR InfoSec",
+      "url": "https://www.macrumors.com/2026/06/08/apple-passwords-can-now-automatically-fix-passwords-with-agentic-ai/",
+      "report": {
+        "tldr": "Apple Passwords가 Apple Intelligence로 약하거나 유출된 비밀번호를 자동 업데이트한다.",
+        "what": "Apple Passwords가 Apple Intelligence를 이용해 약하거나 유출된 비밀번호를 자동으로 업데이트할 수 있게 됐다. 기존의 취약·유출 비밀번호 탐지 기능을 확장해 회전 과정을 자동화한다.",
+        "points": [
+          "약한·유출 비밀번호 자동 회전",
+          "Apple Intelligence 기반 자동화",
+          "기존 탐지 기능 확장"
+        ],
+        "why": [
+          "자격증명 위생의 자동화 진전",
+          "에이전트형 보안 기능 확산"
+        ]
+      }
+    },
+    {
+      "id": "sec-openssl-ai-found",
+      "title": "OpenSSL, AI로 발견한 고위험 취약점 패치",
+      "summary": "PKCS#7 검증 힙 UAF(CVE-2026-45447) 등 18개 결함 수정.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/V3VgrH",
+      "report": {
+        "tldr": "OpenSSL이 AI로 발견된 PKCS#7 힙 use-after-free 등 18개 결함을 수정했다.",
+        "what": "OpenSSL이 18개 결함을 수정했는데, 그중 CVE-2026-45447은 PKCS#7 검증의 힙 use-after-free 버그로, 조작된 PKCS#7 또는 S/MIME 메시지를 통한 원격 코드 실행으로 이어질 수 있다.",
+        "points": [
+          "18개 결함 일괄 수정",
+          "PKCS#7 힙 UAF로 RCE 가능",
+          "AI가 결함 발견에 기여"
+        ],
+        "why": [
+          "광범위 사용 라이브러리의 RCE 위험",
+          "AI 기반 취약점 탐지 부상"
+        ],
+        "action": "OpenSSL 최신 버전으로 업데이트"
+      }
+    },
+    {
+      "id": "sec-whatsapp-pegasus",
+      "title": "WhatsApp, NSO Pegasus 캠페인 차단",
+      "summary": "플랫폼 취약점 아닌 스피어피싱 링크로 전달, NSO에 법정모독 제소.",
+      "source": "TLDR InfoSec",
+      "url": "https://hackread.com/whatsapp-blocked-pegasus-spyware-campaign-nso/",
+      "report": {
+        "tldr": "WhatsApp이 스피어피싱 링크로 전달된 NSO Pegasus 캠페인을 차단했다.",
+        "what": "WhatsApp이 플랫폼 취약점이 아니라 스피어피싱 링크로 전달된 신규 NSO Group Pegasus 캠페인을 차단하고, 관련 테스트 계정·그룹을 제거했으며, 기존 영구 금지명령 위반을 이유로 NSO에 법정모독을 신청했다.",
+        "points": [
+          "스피어피싱 링크 기반 Pegasus 캠페인",
+          "관련 계정·그룹 제거",
+          "NSO에 법정모독 제소"
+        ],
+        "why": [
+          "상용 스파이웨어의 지속적 위협",
+          "플랫폼-스파이웨어 업체 법적 공방"
+        ]
+      }
+    },
+    {
+      "id": "sec-ms-patch-200",
+      "title": "마이크로소프트, 취약점 200개 패치",
+      "summary": "6월 패치 화요일, 약 40개 치명적(윈도·Azure·Office·Exchange·AI 도구).",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/sukiyn",
+      "report": {
+        "tldr": "마이크로소프트 6월 패치 화요일이 약 200개 결함(치명적 약 40개)을 수정했다.",
+        "what": "마이크로소프트의 2026년 6월 패치 화요일이 약 200개 결함을 수정했으며, 그중 약 40개가 윈도·Azure·Office·Outlook·Exchange·AI 도구 전반에서 치명적으로 평가됐다.",
+        "points": [
+          "약 200개 결함 수정",
+          "치명적 약 40개",
+          "윈도·Azure·Office·AI 도구 포함"
+        ],
+        "why": [
+          "대규모 월간 패치의 운영 부담",
+          "치명적 결함 우선 대응 필요"
+        ],
+        "action": "6월 패치 신속 적용, 치명적 항목 우선"
+      }
+    }
+  ]
+}

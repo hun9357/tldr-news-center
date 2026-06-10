@@ -1,0 +1,290 @@
+{
+  "name": "빅테크 & 스타트업",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-fable5-first-impressions",
+      "title": "Claude Fable 5 첫인상 (Simon Willison)",
+      "summary": "100만 토큰 컨텍스트·12.8만 출력, 가이드레일 발동 알림·자동 폴백 옵션.",
+      "source": "TLDR",
+      "url": "https://simonwillison.net/2026/Jun/9/claude-fable-5/",
+      "report": {
+        "tldr": "Anthropic은 Fable 5가 Mythos 5와 동일 성능에 더 엄격한 가이드레일을 갖는다고 주장한다.",
+        "what": "Anthropic은 Claude Fable 5가 Mythos 5와 동일한 성능에 더 엄격한 가이드레일을 갖는다고 밝혔다. 100만 토큰 컨텍스트 윈도와 최대 12.8만 출력 토큰을 지원하며, 가격은 Opus의 두 배인 입력 100만 토큰당 $10, 출력 $50다. Claude API에는 가이드레일 발동 시 사용자에게 알리는 새 메커니즘과, 거절 시 자동으로 다른 모델로 폴백을 요청하는 옵션이 추가됐다.",
+        "points": [
+          "100만 토큰 컨텍스트·12.8만 출력",
+          "입력 $10 / 출력 $50 (1M 토큰)",
+          "가이드레일 알림·자동 폴백 옵션"
+        ],
+        "why": [
+          "플래그십 모델의 실사용 스펙 공개",
+          "투명성 메커니즘 도입 평가"
+        ]
+      }
+    },
+    {
+      "id": "tech-spacex-ai1-orbital-dc",
+      "title": "스페이스X AI1, 보잉747보다 넓은 궤도 데이터센터",
+      "summary": "70m 날개폭·150kW 피크 연산, 교체형 칩 페이로드, 약 600km 운용.",
+      "source": "TLDR",
+      "url": "https://www.tomshardware.com/tech-industry/spacex-details-its-ai1-compute-satellite",
+      "report": {
+        "tldr": "스페이스X의 AI1 위성은 70m 전개 날개폭에 150kW 피크 연산 페이로드를 싣는다.",
+        "what": "스페이스X의 AI1 위성은 전개 시 70미터 날개폭에 150kW 피크 연산 페이로드를 탑재한다. 여러 칩 제조사가 프로세서를 공급할 수 있는 교체형 하드웨어 설계를 채택하고 약 600km 고도에서 운용된다. 스페이스X는 이미 최대 100만 기의 궤도 데이터센터 위성 발사를 FCC에 신청했다.",
+        "points": [
+          "70m 날개폭·150kW 피크 연산",
+          "교체형 칩 페이로드 설계",
+          "약 600km 운용·100만 기 FCC 신청"
+        ],
+        "why": [
+          "궤도 데이터센터 경쟁의 본격화",
+          "우주 기반 AI 인프라 비전"
+        ]
+      }
+    },
+    {
+      "id": "tech-nasa-artemis3",
+      "title": "NASA 아르테미스 3, '러브 골드버그식' 임무",
+      "summary": "Orion·Blue Moon·Starship을 3일간 연쇄 탑승, 2028년 유인 착륙 토대.",
+      "source": "TLDR",
+      "url": "https://futurism.com/space/nasa-moon-mission-corporate-failure-points",
+      "report": {
+        "tldr": "NASA가 Orion·Blue Moon·Starship을 연쇄 이용하는 복잡한 아르테미스 3 임무 승무원을 발표했다.",
+        "what": "NASA가 아르테미스 3 임무 승무원을 발표했다. 우주인들은 NASA Orion 캡슐로 지구 궤도에 올라가 사흘에 걸쳐 Blue Origin의 Blue Moon 착륙선과 스페이스X의 Starship에 차례로 탑승해야 한다. 2028년으로 잠정 예정된 유인 달 착륙의 토대를 놓는 임무다. NASA는 최근 발사대에 큰 손상을 입힌 폭발에도 Blue Origin의 New Glenn이 준비될 것이라 자신한다.",
+        "points": [
+          "Orion·Blue Moon·Starship 연쇄 탑승",
+          "3일간 다단계 도킹·환승",
+          "2028 유인 착륙 토대"
+        ],
+        "why": [
+          "다수 민간 업체 의존의 리스크",
+          "아르테미스 일정의 불확실성"
+        ],
+        "context": "제목은 다수 실패 가능 지점을 빗댄 비판적 표현."
+      }
+    },
+    {
+      "id": "tech-underwater-datacenter-china",
+      "title": "세계 최초 풍력 수중 데이터센터, 중국서 가동",
+      "summary": "상하이 린강 24MW, 수심 10m·해상 풍력 구동, 자연 냉각으로 에너지 절감.",
+      "source": "TLDR",
+      "url": "https://www.theguardian.com/world/2026/jun/09/worlds-first-wind-powered-underwater-datacentre-starts-operating-in-china",
+      "report": {
+        "tldr": "상하이 린강 수중 데이터센터가 해상 풍력으로 구동되며 가동을 시작했다.",
+        "what": "상하이 린강 수중 데이터센터 실증 프로젝트는 HiCloud Technology와 국유기업 중국교통건설(CCCC)의 합작이다. 용량 24MW로 수면 아래 10m에 잠겨 있으며 인근 해상 풍력단지로 구동된다. 해수에 잠긴 자연 냉각 효과 덕분에 육상 데이터센터보다 에너지를 덜 쓴다.",
+        "points": [
+          "24MW·수심 10m 수중 DC",
+          "해상 풍력으로 구동",
+          "자연 냉각으로 에너지 절감"
+        ],
+        "why": [
+          "저탄소 데이터센터 실증",
+          "AI 시대 냉각·전력 해법 모색"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-container",
+      "title": "container: 맥용 경량 리눅스 컨테이너 (GitHub)",
+      "summary": "OCI 호환 이미지 소비·생산, 표준 레지스트리에서 풀·실행.",
+      "source": "TLDR",
+      "url": "https://github.com/apple/container",
+      "report": {
+        "tldr": "container는 맥에서 경량 가상 리눅스 컨테이너를 만들고 실행하는 애플의 도구다.",
+        "what": "container는 맥에서 경량 가상 리눅스 컨테이너를 생성·실행하는 도구다. OCI 호환 이미지를 소비·생산하며 표준 컨테이너 레지스트리에서 이미지를 풀·실행할 수 있다. 저수준 컨테이너·이미지·프로세스 관리에 Containerization Swift 패키지를 사용한다.",
+        "points": [
+          "맥용 경량 리눅스 컨테이너",
+          "OCI 호환·표준 레지스트리 지원",
+          "Containerization Swift 패키지 활용"
+        ],
+        "why": [
+          "맥 개발자의 컨테이너 워크플로 개선",
+          "애플 생태계 컨테이너 도구 강화"
+        ]
+      }
+    },
+    {
+      "id": "tech-ktx",
+      "title": "ktx: 데이터 에이전트용 실행 컨텍스트 레이어 (GitHub)",
+      "summary": "에이전트가 데이터를 정확·맥락 있게 질의하도록 시맨틱 레이어 구축.",
+      "source": "TLDR",
+      "url": "https://github.com/Kaelio/ktx",
+      "report": {
+        "tldr": "ktx는 데이터·분석 에이전트가 정확하게 데이터를 질의하도록 돕는 실행 컨텍스트 레이어다.",
+        "what": "ktx는 AI 에이전트가 완전한 맥락으로 데이터를 정확히 질의하게 하는 실행 컨텍스트 레이어다. 자기개선형으로, 회사 지식에서 학습해 데이터 스택을 매핑하고 시맨틱 레이어를 구축해 실행 시점에 에이전트에 제공함으로써 데이터 웨어하우스 질의 정확도를 높인다.",
+        "points": [
+          "에이전트용 실행 컨텍스트 레이어",
+          "회사 지식 학습·데이터 스택 매핑",
+          "시맨틱 레이어로 질의 정확도 향상"
+        ],
+        "why": [
+          "데이터 에이전트의 정확성 문제 대응",
+          "텍스트-투-SQL 신뢰성 개선"
+        ]
+      }
+    },
+    {
+      "id": "tech-working-with-mythos",
+      "title": "Mythos와 함께 일한다는 것",
+      "summary": "Mythos급 Fable이 공개 모델 대비 상당한 도약, 단일 프롬프트로도 강력.",
+      "source": "TLDR",
+      "url": "https://www.oneusefulthing.org/p/what-it-feels-like-to-work-with-mythos",
+      "report": {
+        "tldr": "Mythos급 모델 Fable은 과거 모델 대비 실질적 도약을 보인다.",
+        "what": "Anthropic의 Mythos급 AI 모델 Fable은 과거 모델 대비 매우 실질적인 도약을 보인다. 비공식 실험에서 다른 모든 공개 모델을 상당한 격차로 능가한다. 사이버보안 같은 용도를 막는 가이드레일이 있지만, 단일 프롬프트만으로도 인상적인 결과를 낸다. 이 글은 모델 출력 사례 여러 개를 통해 작업 경험을 설명한다.",
+        "points": [
+          "공개 모델 대비 상당한 도약",
+          "단일 프롬프트로도 강력한 결과",
+          "용도 제한 가이드레일 존재"
+        ],
+        "why": [
+          "프런티어 모델 체감 성능의 진전",
+          "실사용 사례로 본 역량"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-wins-consumer-ai",
+      "title": "애플, 기본값으로 소비자 AI를 이긴다",
+      "summary": "늦게 진입해 더 나은 UX로 AI를 대중화하는 애플의 전형적 전략.",
+      "source": "TLDR",
+      "url": "https://spyglass.org/siri-ai/",
+      "report": {
+        "tldr": "애플이 늦은 진입에도 더 나은 사용자 경험으로 소비자 AI를 가져갈 것이라는 분석이다.",
+        "what": "애플이 소비자 관점에서 AI를 가져갈 태세다. AI 경쟁에 늦어 보이지만, 신제품·서비스가 발전하는 것을 지켜본 뒤 더 나은 사용자 경험으로 나중에 진입하는 애플의 전형적 방식이다. 최신 발표가 AI 최전선의 사람들에게는 평범해 보일 수 있으나, 대부분의 사람은 그런 것을 필요로 하지도 원하지도 않는다. 애플은 Apple Intelligence와 새 Siri AI로 AI 사용을 주류화할 수 있다 — WWDC에서 보여준 것을 실제로 출시한다면.",
+        "points": [
+          "늦은 진입·우월한 UX 전략",
+          "Apple Intelligence·Siri AI로 대중화",
+          "실제 출시 여부가 관건"
+        ],
+        "why": [
+          "소비자 AI 주도권 경쟁 구도",
+          "대중 수요와 최전선 기능의 괴리"
+        ]
+      }
+    },
+    {
+      "id": "tech-gm-battery-data-centers",
+      "title": "GM, AI 데이터센터·에너지저장에 신 배터리 화학",
+      "summary": "차량-그리드 확대·차세대 나트륨이온 배터리 개발 추진.",
+      "source": "TLDR",
+      "url": "https://www.cnbc.com/2026/06/09/gm-batteries-data-centers-energy-storage-business.html",
+      "report": {
+        "tldr": "GM이 차량-그리드 역량 확대와 차세대 나트륨이온 배터리 개발을 추진한다.",
+        "what": "제너럴모터스가 차량-그리드(V2G) 역량을 확대하고, 능동 냉각 없이도 작동하며 시스템 복잡성이 훨씬 낮을 잠재력을 가진 차세대 나트륨이온 배터리를 개발할 계획이다. AI 데이터센터·에너지저장 사업 성장을 겨냥한다.",
+        "points": [
+          "V2G 역량 확대",
+          "차세대 나트륨이온 배터리 개발",
+          "능동 냉각 불필요·저복잡성 지향"
+        ],
+        "why": [
+          "AI 데이터센터 전력 수요 대응",
+          "자동차사의 에너지 사업 확장"
+        ]
+      }
+    },
+    {
+      "id": "tech-iphone-last-stand",
+      "title": "아이폰의 마지막 보루",
+      "summary": "타사가 AI 인프라를 짓는 동안 애플은 아이폰을 Siri의 진짜 코어로.",
+      "source": "TLDR",
+      "url": "https://stratechery.com/2026/the-iphones-last-stand/",
+      "report": {
+        "tldr": "애플은 막대한 자본지출 대신 아이폰을 Siri의 진짜 코어로 삼는다.",
+        "what": "다른 기업들이 AI 인프라를 구축하는 동안, 애플은 아이폰을 Siri의 진짜 코어로 만들어 수십억 달러의 자본지출을 들이지 않는다. 온디바이스 중심 전략으로 차별화를 꾀한다.",
+        "points": [
+          "인프라 자본지출 최소화",
+          "아이폰을 Siri의 코어로",
+          "온디바이스 중심 전략"
+        ],
+        "why": [
+          "빅테크 AI 자본지출 경쟁과 대비",
+          "온디바이스 AI의 사업적 의미"
+        ]
+      }
+    },
+    {
+      "id": "tech-test-case-reducers",
+      "title": "테스트케이스 리듀서, 과소평가된 디버깅 도구",
+      "summary": "테스트케이스 축소를 자동화해 디버깅을 크게 쉽게 만든다.",
+      "source": "TLDR",
+      "url": "https://tratt.net/laurie/blog/2026/test_case_reducers_are_underappreciated_debugging_tools.html",
+      "report": {
+        "tldr": "테스트케이스 리듀서는 테스트케이스 축소를 자동화해 디버깅을 쉽게 한다.",
+        "what": "테스트케이스 리듀서는 테스트케이스를 줄이는 과정을 자동화하는 도구로, 종종 디버깅을 훨씬 쉽게 만든다. 실패를 유발하는 최소 입력을 찾아내 문제 원인 파악을 돕는다.",
+        "points": [
+          "테스트케이스 축소 자동화",
+          "최소 재현 입력 도출",
+          "디버깅 효율 향상"
+        ],
+        "why": [
+          "복잡 버그의 원인 격리에 유용",
+          "과소평가된 실용 도구 재조명"
+        ]
+      }
+    },
+    {
+      "id": "tech-datatype-font",
+      "title": "Datatype: 텍스트를 차트로 바꾸는 가변 폰트",
+      "summary": "텍스트를 차트로 변환하는 가변 폰트.",
+      "source": "TLDR",
+      "url": "https://franktisellano.github.io/datatype/",
+      "report": {
+        "tldr": "Datatype은 텍스트를 차트로 바꾸는 가변 폰트다.",
+        "what": "Datatype은 텍스트를 차트로 바꾸는 가변(variable) 폰트다. 타이포그래피와 데이터 시각화를 결합한 실험적 시도다.",
+        "points": [
+          "텍스트→차트 가변 폰트",
+          "타이포+데이터 시각화 결합",
+          "실험적 디자인 도구"
+        ],
+        "why": [
+          "데이터 표현의 새로운 형식",
+          "가변 폰트의 창의적 활용"
+        ]
+      }
+    },
+    {
+      "id": "tech-wwdc26-small-things",
+      "title": "WWDC26 — 작은 것들",
+      "summary": "WWDC에서 발표된 사소한 변경 사항 모음.",
+      "source": "TLDR",
+      "url": "https://blog.oneberri.com/posts/wwdc26-the-small-things",
+      "report": {
+        "tldr": "WWDC에서 발표된 사소한 변경 사항들을 모은 글이다.",
+        "what": "이 글은 WWDC에서 발표된 더 작은 변경 사항들을 목록으로 정리한다. 키노트에서 부각되지 않은 세부 기능들을 다룬다.",
+        "points": [
+          "WWDC 소규모 변경 모음",
+          "키노트 외 세부 기능 정리",
+          "개발자 관점 디테일"
+        ],
+        "why": [
+          "대형 발표에 가린 실용 변경 파악",
+          "애플 생태계 업데이트 디테일"
+        ]
+      }
+    },
+    {
+      "id": "tech-llms-write-blog-posts",
+      "title": "개발자가 LLM으로 블로그를 쓰는 이유",
+      "summary": "다수가 상당한 편집을 하지만 LLM이 자기 목소리를 담지는 못한다 느낌.",
+      "source": "TLDR",
+      "url": "https://writethatblog.substack.com/p/report-llms-tech-blogs",
+      "report": {
+        "tldr": "LLM으로 글을 쓰는 다수는 상당히 편집하지만 자기 목소리를 담지 못한다고 느낀다.",
+        "what": "LLM으로 글을 쓰는 많은 사람은 이전에 글을 써본 적이 없으며, 대부분 상당한 편집을 하지만 LLM이 자신의 목소리나 아이디어를 포착하지는 못한다고 느낀다.",
+        "points": [
+          "다수는 비(非)작가 출신",
+          "상당한 편집을 동반",
+          "자기 목소리 미포착 인식"
+        ],
+        "why": [
+          "AI 글쓰기의 실제 활용 양상",
+          "콘텐츠 진정성·저자성 논의"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-checkpoint-vpn-exploited",
+      "title": "Check Point VPN 결함, 실제 공격에 악용",
+      "summary": "CISA가 연방기관에 3일 내 패치 명령, IKEv1 구성 인증 우회.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/agVKBO",
+      "report": {
+        "tldr": "CISA가 활성 악용 증거 이후 연방기관에 Check Point VPN 인증 우회를 3일 내 패치하라 명령했다.",
+        "what": "CISA가 활성 악용 증거가 나온 뒤 연방기관에 Check Point VPN 인증 우회 결함을 사흘 내로 패치하라고 명령했다. 이 결함은 폐기된 IKEv1 구성을 쓰는 게이트웨이에 영향을 주며, 비인증 공격자가 원격 접속 VPN 연결을 수립할 수 있게 한다.",
+        "points": [
+          "CISA 3일 내 패치 명령",
+          "IKEv1 구성 게이트웨이 영향",
+          "비인증 원격 VPN 연결 가능"
+        ],
+        "why": [
+          "실제 악용된 긴급 결함",
+          "연방·기업 VPN 노출 위험"
+        ],
+        "action": "IKEv1 게이트웨이 즉시 패치·구성 점검"
+      }
+    },
+    {
+      "id": "it-cios-ai-control",
+      "title": "CIO, 통제 못 하는 AI 시스템에 책임",
+      "summary": "IBM 조사: CIO/CTO 2/3가 통제 못 하는 AI에 책임, 11%만 대규모 배포 준비.",
+      "source": "TLDR IT",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/cios-and-ctos-are-making-high-stakes-decisions-with-incomplete-information-ibm-survey-reveals",
+      "report": {
+        "tldr": "IBM 조사에서 CIO/CTO의 2/3가 완전히 통제하지 못하는 AI 시스템에 책임을 진다고 나타났다.",
+        "what": "IBM 조사에 따르면 CIO·CTO의 3분의 2가 완전히 통제하지 못하는 AI 시스템에 책임을 지며, 대규모 AI 배포에 '완전히 준비됐다'고 느끼는 비율은 11%에 불과했다. AI 에이전트 사용은 급증할 전망이지만, 대다수 리더는 거버넌스 프레임워크가 준비되지 않았다고 답했다.",
+        "points": [
+          "CIO/CTO 2/3가 미통제 AI에 책임",
+          "11%만 대규모 배포 준비 완료",
+          "거버넌스 프레임워크 미비"
+        ],
+        "why": [
+          "AI 책임-통제의 괴리 심화",
+          "에이전트 거버넌스 시급"
+        ]
+      }
+    },
+    {
+      "id": "it-ms-azure-repos-github",
+      "title": "MS, 기업에 Azure Repos→GitHub 이전 권유",
+      "summary": "GitHub가 Copilot·에이전트 워크플로의 AI 네이티브 거점이라 주장.",
+      "source": "TLDR IT",
+      "url": "https://thenewstack.io/azure-repos-github-migration/",
+      "report": {
+        "tldr": "마이크로소프트가 기업 고객에 Azure Repos에서 GitHub로 이전하라고 권유한다.",
+        "what": "마이크로소프트가 기업 고객에 Azure Repos에서 GitHub로 이전하라고 권하며, GitHub가 Copilot과 에이전트형 개발 워크플로의 AI 네이티브 거점이라 주장한다. 다운타임을 줄이는 방법으로 Enterprise Live Migrations(ELM)를 제시해 레포를 동기화하고 보통 30분 미만의 컷오버를 목표하지만, 이전이 Git 히스토리·브랜치 이상의 작업임을 인정한다. GitHub의 불안정한 신뢰성 이력에도 불구한 권유다.",
+        "points": [
+          "Azure Repos→GitHub 이전 권유",
+          "GitHub를 AI 네이티브 거점으로 포지셔닝",
+          "ELM으로 30분 미만 컷오버 목표"
+        ],
+        "why": [
+          "MS 개발 플랫폼 통합 전략",
+          "GitHub 신뢰성 우려와의 긴장"
+        ]
+      }
+    },
+    {
+      "id": "it-enterprise-ai-roi-gap",
+      "title": "기업 AI ROI 격차, 인프라 문제로 번지다",
+      "summary": "PoC 이후 정체 원인은 인프라·비용·데이터 위치·역량 과소평가.",
+      "source": "TLDR IT",
+      "url": "https://www.techradar.com/pro/the-ai-roi-gap-why-enterprise-intelligence-is-stalling-at-the-infrastructure-level",
+      "report": {
+        "tldr": "많은 AI 프로젝트가 PoC 이후 인프라·비용 과소평가로 정체된다.",
+        "what": "많은 AI 프로젝트가 PoC(개념증명) 이후 정체되는데, 기업이 확장에 필요한 인프라·비용·데이터 위치·역량을 과소평가하기 때문이다. 기업 AI는 일회성 클라우드 실험보다 안전한 유틸리티처럼 다뤄야 한다.",
+        "points": [
+          "PoC 이후 확장 정체",
+          "인프라·비용·데이터·역량 과소평가",
+          "AI를 '유틸리티'처럼 운영해야"
+        ],
+        "why": [
+          "AI 투자 대비 성과 격차 진단",
+          "프로덕션 확장 전략의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "it-postgresql-19-beta-rds",
+      "title": "PostgreSQL 19 Beta 1, Amazon RDS 프리뷰 제공",
+      "summary": "그래프 쿼리(SQL/PGQ)·동시 테이블 리팩·논리적 복제 개선 포함.",
+      "source": "TLDR IT",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/postgresql-19-beta-1-amazon-rds-database-preview-environment/",
+      "report": {
+        "tldr": "Amazon이 PostgreSQL 19 Beta 1을 RDS 데이터베이스 프리뷰 환경에 추가했다.",
+        "what": "Amazon이 PostgreSQL 19 Beta 1을 Amazon RDS Database Preview Environment에 추가해, 완전관리형 서비스에서 사전 릴리스 PostgreSQL 19를 평가할 수 있게 했다. 프리뷰에는 네이티브 그래프 쿼리 지원(SQL/PGQ), 동시 테이블 리팩(repacking), 논리적 복제 개선(시퀀스 동기화·동적 활성화 포함) 등이 담겼다.",
+        "points": [
+          "RDS 프리뷰에 PG19 Beta1 추가",
+          "SQL/PGQ 그래프 쿼리 지원",
+          "동시 테이블 리팩·논리적 복제 개선"
+        ],
+        "why": [
+          "관리형 DB에서 신기능 조기 평가",
+          "PostgreSQL 19 신기능 미리보기"
+        ]
+      }
+    },
+    {
+      "id": "it-kpmg-microsoft-agent365",
+      "title": "KPMG·MS, Agent 365·Copilot 파트너십 확대",
+      "summary": "KPMG가 Agent 365로 AI 에이전트 관리·보안, M365 Copilot 전사 배포.",
+      "source": "TLDR IT",
+      "url": "https://news.microsoft.com/source/2026/06/09/kpmg-and-microsoft-scale-trusted-enterprise-ai-agents-globally-through-deployment-of-agent-365-and-copilot/",
+      "report": {
+        "tldr": "KPMG가 Microsoft Agent 365로 고객의 AI 에이전트를 관리·모니터·보안한다.",
+        "what": "KPMG가 Microsoft Agent 365를 활용해 고객 조직 전반의 AI 에이전트를 관리·모니터링·보안한다. 또한 Microsoft 365 Copilot을 전 세계 임직원에게 배포한다.",
+        "points": [
+          "Agent 365로 AI 에이전트 관리·보안",
+          "M365 Copilot 전사 배포",
+          "글로벌 컨설팅 파트너십 확대"
+        ],
+        "why": [
+          "기업 에이전트 거버넌스 수요 확인",
+          "MS 에이전트 플랫폼 확산"
+        ]
+      }
+    },
+    {
+      "id": "it-salesforce-headless",
+      "title": "세일즈포스, 헤드리스 IT 운영으로 전환",
+      "summary": "'Salesforce Headless 360'로 백엔드 로직 분리, Slack에 운영 임베드.",
+      "source": "TLDR IT",
+      "url": "https://www.salesforce.com/blog/salesforce-headless-it-operations/",
+      "report": {
+        "tldr": "세일즈포스가 백엔드 로직을 표준 UI에서 분리하는 '헤드리스 360'으로 전환했다.",
+        "what": "세일즈포스의 IT·엔지니어링 팀이 브라우저에 묶인 워크플로에서 벗어나 'Salesforce Headless 360'을 도입했다. 백엔드 로직을 표준 세일즈포스 UI에서 분리해, Slack 같은 도구에 직접 임베드된 헤드리스·옴니채널 운영으로 빠른 접근 요청·티켓 지원·실시간 인프라 트리아지를 수동 부담 없이 수행한다.",
+        "points": [
+          "Headless 360으로 UI-로직 분리",
+          "Slack에 운영 임베드",
+          "접근 요청·티켓·트리아지 자동화"
+        ],
+        "why": [
+          "내부 IT 운영의 효율화 사례",
+          "헤드리스 아키텍처 적용 확대"
+        ]
+      }
+    },
+    {
+      "id": "it-lightstep-promql",
+      "title": "Lightstep UQL→PromQL 변환기 공개",
+      "summary": "Zalando가 Dash0 전환 위해 Go 기반 프로덕션 변환기 구축.",
+      "source": "TLDR IT",
+      "url": "https://engineering.zalando.com/posts/2026/06/introducing-lightstep-uql-to-promql-translator.html",
+      "report": {
+        "tldr": "Zalando가 Lightstep UQL을 PromQL로 변환하는 프로덕션급 Go 변환기를 만들었다.",
+        "what": "Zalando가 텔레메트리 인프라를 Dash0(PromQL 기반)으로 전환하며 Lightstep을 종료한다. 수천 개의 Lightstep UQL 쿼리를 안정적으로 이전하기 위해, 렉서→파서→AST→옵티마이저→코드젠 파이프라인을 갖춘 프로덕션급 Go 변환기를 구축했다.",
+        "points": [
+          "Lightstep 종료·Dash0 전환",
+          "UQL→PromQL Go 변환기 구축",
+          "렉서~코드젠 풀 파이프라인"
+        ],
+        "why": [
+          "관측 인프라 벤더 이전 실전 사례",
+          "대규모 쿼리 마이그레이션 기법"
+        ]
+      }
+    },
+    {
+      "id": "it-k8s-runtime-security-guide",
+      "title": "쿠버네티스 런타임 보안 가이드",
+      "summary": "실행 중 워크로드를 지속 보호하는 방법을 다룬 기술 가이드.",
+      "source": "TLDR IT",
+      "url": "https://cilium.io/blog/2026/06/07/kubernetes-runtime-security-the-guide/",
+      "report": {
+        "tldr": "실행 중인 쿠버네티스 워크로드를 지속적으로 보호하는 방법을 다룬 기술 가이드다.",
+        "what": "쿠버네티스 런타임 보안을 다룬 기술 가이드로, 워크로드가 실제 실행 중일 때 이를 지속적으로 보호하는 방법을 설명한다.",
+        "points": [
+          "실행 중 워크로드 지속 보호",
+          "런타임 보안 기법 정리",
+          "쿠버네티스 운영 보안 가이드"
+        ],
+        "why": [
+          "배포 후 위협 대응 강화",
+          "런타임 보안의 실무 지침"
+        ]
+      }
+    },
+    {
+      "id": "it-cisa-kev-two",
+      "title": "CISA, 악용 취약점 2건 KEV 카탈로그 추가",
+      "summary": "활성 악용 취약점 2건 추가, 연방기관에 새 교정 기한 부여.",
+      "source": "TLDR IT",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/06/08/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "report": {
+        "tldr": "CISA가 활성 악용 취약점 2건을 KEV 카탈로그에 추가했다.",
+        "what": "CISA가 활성 악용 중인 취약점 2건을 Known Exploited Vulnerabilities(KEV) 카탈로그에 추가하고, 연방기관에 새로운 교정 기한을 부여했다.",
+        "points": [
+          "악용 취약점 2건 KEV 추가",
+          "연방기관 교정 기한 부여",
+          "활성 악용 확인"
+        ],
+        "why": [
+          "KEV 기반 우선 패치 신호",
+          "연방 보안 준수 의무"
+        ],
+        "action": "KEV 추가 항목 우선 패치"
+      }
+    }
+  ]
+}

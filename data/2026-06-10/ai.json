@@ -1,0 +1,290 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-claude-fable5-launch",
+      "title": "Anthropic, Claude Fable 5·Mythos 5 출시",
+      "summary": "일반용 Fable 5와 사이버방어용 Mythos 5를 공개, 소프트웨어·연구·비전·보안 전반 고성능.",
+      "source": "TLDR AI",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+      "report": {
+        "tldr": "Anthropic이 일반 공개용 Claude Fable 5와 선별된 사이버방어·인프라 사업자용 Claude Mythos 5를 발표했다.",
+        "what": "Anthropic이 새 플래그십 모델 Claude Fable 5를 일반 공개하고, 동일 기반에 안전장치를 일부 완화한 Claude Mythos 5를 선별된 사이버방어·인프라 사업자에게 제공한다고 밝혔다. 두 모델은 소프트웨어 엔지니어링, 연구, 비전, 사이버보안 전반에서 매우 높은 역량을 보이며, Fable 5에는 보수적인 안전장치가 적용된다. 민감한 사이버·생물·증류(distillation) 요청은 하드닝된 분류기를 통해 Opus 4.8로 우회 처리된다.",
+        "points": [
+          "일반용 Fable 5 + 사이버방어용 Mythos 5 동시 공개",
+          "SW·연구·비전·보안 전반 최상위 역량",
+          "민감 요청은 강화 분류기로 Opus 4.8 라우팅"
+        ],
+        "why": [
+          "Mythos급 신세대 모델의 본격 시작",
+          "개방형 역량과 안전장치의 균형 시험대"
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-35-live-translate",
+      "title": "구글, Gemini 3.5 Live Translate 공개",
+      "summary": "70개 이상 언어 실시간 음성-음성 번역, 어색한 멈춤 없이 자연스러운 억양 유지.",
+      "source": "TLDR AI",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/",
+      "report": {
+        "tldr": "Gemini 3.5 Live Translate는 70개 이상 언어를 실시간 음성-음성으로 번역하는 오디오 모델이다.",
+        "what": "구글이 실시간 speech-to-speech 번역용 오디오 모델 Gemini 3.5 Live Translate를 공개했다. 70개 이상 언어를 지원하며 통역 특유의 어색한 멈춤을 없애고 자연스러운 억양을 유지한다. Meet(비공개 프리뷰)와 안드로이드·iOS의 Google Translate 등 구글 제품을 통해 순차 배포된다.",
+        "points": [
+          "70+ 언어 실시간 음성 번역",
+          "어색한 멈춤 제거·자연 억양 유지",
+          "Meet·Google Translate로 배포"
+        ],
+        "why": [
+          "다국어 실시간 커뮤니케이션 경험 향상",
+          "구글의 온디바이스·클라우드 음성 AI 강화"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-backstop-anthropic-35b",
+      "title": "구글, Anthropic 350억 달러 칩 거래 보증",
+      "summary": "5개 데이터센터 결제를 구글이 백스톱, 이전에 공개되지 않았던 역할.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/sarNys",
+      "report": {
+        "tldr": "구글이 Anthropic의 350억 달러 규모 칩 임대 결제를 5개 데이터센터에서 보증한다.",
+        "what": "구글이 Anthropic의 350억 달러 규모 칩 임대를 5개 데이터센터의 결제를 백스톱(보증)하는 방식으로 지원하는 것으로 나타났다. 이 금융 지원은 AI 분야 빅테크 간의 복잡한 사업 동맹 구조를 보여주며, Anthropic의 이 중대한 자금조달 참여 사실은 이전에 공개되지 않았다.",
+        "points": [
+          "구글이 5개 DC 결제 백스톱",
+          "Anthropic 350억 달러 칩 임대 지원",
+          "미공개였던 금융 동맹 구조 드러나"
+        ],
+        "why": [
+          "AI 컴퓨트 자금조달의 상호의존 심화",
+          "빅테크-AI랩 동맹의 재무 리스크 가시화"
+        ]
+      }
+    },
+    {
+      "id": "ai-text-optimization-layer",
+      "title": "텍스트를 진지한 최적화 레이어로",
+      "summary": "프롬프트·컨텍스트·메모리·검색·하네스를 실제 업데이트 메커니즘으로 보는 관점.",
+      "source": "TLDR AI",
+      "url": "https://yoonholee.com/blog/2026/we-should-take-text-optimization-more-seriously/",
+      "report": {
+        "tldr": "프롬프트·컨텍스트·메모리·검색 저장소·하네스가 실제 모델 업데이트 메커니즘으로 기능한다.",
+        "what": "이 글은 프롬프트, 컨텍스트, 메모리, 검색 저장소, 하네스를 단순 입력이 아니라 실제 업데이트 메커니즘으로 본다. 텍스트 최적화를 샘플 효율적인 학습이자 업데이트 시점 연산(update-time compute)의 새로운 축으로 프레이밍한다.",
+        "points": [
+          "텍스트 레이어를 학습 메커니즘으로 재해석",
+          "샘플 효율적 학습으로서의 최적화",
+          "업데이트 시점 연산의 새 축"
+        ],
+        "why": [
+          "가중치 재학습 없이 성능을 끌어올리는 경로",
+          "컨텍스트 엔지니어링의 이론적 토대"
+        ]
+      }
+    },
+    {
+      "id": "ai-test-time-compute-implications",
+      "title": "대규모 테스트타임 연산의 함의",
+      "summary": "단일 벤치 점수는 점점 무의미, 역량은 테스트타임 연산의 함수.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/ysXgLU",
+      "report": {
+        "tldr": "LLM 역량이 테스트타임 연산의 함수가 되면서 단일 스칼라 벤치마크 점수의 정보량이 줄고 있다.",
+        "what": "벤치마크 격자(grid)는 실제 이야기를 가린다. GPT-5.5는 최대 연산 사이버 평가에서 GPT-5.4보다 근소하게 나아 보이지만, 토큰·비용·지연을 x축으로 통제하면 훨씬 강하다. 성능 고원(plateau)은 경험적으로 매우 멀리 있고 더 강한 모델이 이를 더 밀어내므로, 출시마다 단일 점수는 덜 유용해진다.",
+        "points": [
+          "역량 = 테스트타임 연산의 함수",
+          "연산 통제 시 모델 격차가 드러남",
+          "성능 고원은 점점 더 멀어짐"
+        ],
+        "why": [
+          "벤치마크 해석 방식의 근본적 변화 필요",
+          "비용·지연 축의 평가가 중요해짐"
+        ]
+      }
+    },
+    {
+      "id": "ai-ai-eating-engineering-loop",
+      "title": "AI가 AI 엔지니어링 루프를 삼키다",
+      "summary": "루프 전면 자동화는 가능하나, 불완전 평가에 맞춰 최적화하면 '에이전트 슬롭' 발생.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/kUaAcU",
+      "report": {
+        "tldr": "AI 엔지니어링 루프는 기술적으로 완전 자동화가 가능하지만 전면 위임은 '에이전트 슬롭'을 낳는다.",
+        "what": "이제 AI 엔지니어링 루프는 기술적으로 완전 자동화될 수 있고, 모든 분석·평가 스타트업이 지속학습 플랫폼으로 일회성 업그레이드를 겪는다. 하지만 루프 전체를 넘기면 에이전트가 불완전한 평가에 맞춰 최적화하면서 개발자만 아는 뉘앙스를 놓치는 '에이전트 슬롭'이 발생한다.",
+        "points": [
+          "엔지니어링 루프 완전 자동화는 가능",
+          "평가·분석 도구의 지속학습 플랫폼화",
+          "불완전 평가 최적화 → 에이전트 슬롭"
+        ],
+        "why": [
+          "자동화와 인간 판단의 경계 설정 과제",
+          "평가(eval) 품질이 결과 품질을 좌우"
+        ]
+      }
+    },
+    {
+      "id": "ai-cohere-north-mini-code",
+      "title": "Cohere, 에이전트형 코딩 모델 공개",
+      "summary": "North Mini Code는 30B MoE(활성 3B), Apache 2.0, 소버린 AI 환경 겨냥.",
+      "source": "TLDR AI",
+      "url": "https://cohere.com/blog/north-mini-code",
+      "report": {
+        "tldr": "Cohere가 30B 파라미터 MoE(활성 3B) 에이전트형 코딩 모델 North Mini Code를 Apache 2.0으로 공개했다.",
+        "what": "Cohere의 North Mini Code는 활성 파라미터 3B의 30B MoE 코딩 모델이다. Apache 2.0 라이선스로 공개되어 소버린 AI 환경에서 효율적인 에이전트형 소프트웨어 개발을 겨냥한다.",
+        "points": [
+          "30B MoE·활성 3B 코딩 모델",
+          "Apache 2.0 오픈 라이선스",
+          "소버린 AI 환경 타깃"
+        ],
+        "why": [
+          "효율형 오픈 코딩 모델 경쟁 가열",
+          "규제·주권 환경의 온프레미스 수요 대응"
+        ]
+      }
+    },
+    {
+      "id": "ai-evo-autoresearch-loops",
+      "title": "자기진화형 오토리서치 워크플로 루프",
+      "summary": "Evo가 Claude Code 동적 워크플로로 6단계를 결정적 JS로 이전, 장기 지시 준수 해결.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/vtU51F",
+      "report": {
+        "tldr": "Evo가 오토리서치 오케스트레이터를 Anthropic의 동적 워크플로로 옮겨 방법론을 코드화했다.",
+        "what": "Evo는 자사 오토리서치 오케스트레이터를 6월 2일 공개된 Anthropic의 Claude Code 동적 워크플로 위로 이식했다. 6단계 라운드를 모델의 인-컨텍스트 메모리에서 떼어내, 서브에이전트가 신선한 스코프 컨텍스트로 실행하는 결정적 JavaScript로 옮겼다. 단계·팬아웃 폭·중단 규칙·게이트·CLI 호출을 스크립트화해 '방법론을 코드로' 만들면서 장기 지평 지시 준수 문제를 해결한다. 모델은 판단을, 코드는 조정을 맡는다.",
+        "points": [
+          "6단계 루프를 결정적 JS로 이전",
+          "서브에이전트가 스코프 컨텍스트로 실행",
+          "방법=코드, 모델은 판단·코드는 조정"
+        ],
+        "why": [
+          "장기 작업의 지시 준수·재현성 향상",
+          "에이전트 오케스트레이션 설계 패턴 제시"
+        ]
+      }
+    },
+    {
+      "id": "ai-flashmemory-deepseek-v4",
+      "title": "FlashMemory: DeepSeek-V4 KV캐시 리트리버",
+      "summary": "미래 토큰이 참조할 KV캐시 청크만 GPU에 유지, 캐시 10~15%만으로 성능 보존.",
+      "source": "TLDR AI",
+      "url": "https://github.com/libertywing/FlashMemory-Deepseek-V4",
+      "report": {
+        "tldr": "FlashMemory는 DeepSeek-V4의 KV캐시 중 미래 토큰이 참조할 청크만 GPU에 유지한다.",
+        "what": "FlashMemory는 DeepSeek-V4의 CSA KV-cache 청크 중 미래 토큰이 어디에 주의(attention)할지를 예측해 가장 관련 있는 청크만 GPU에 둔다. KV 캐시의 약 10~15%만 온디바이스에 유지하면서도 다운스트림 성능을 보존하거나 개선한다고 보고됐다.",
+        "points": [
+          "미래 참조 KV청크만 GPU 유지",
+          "캐시의 10~15%만으로 성능 보존",
+          "attention 예측 기반 리트리버"
+        ],
+        "why": [
+          "장문맥 추론의 메모리·비용 절감",
+          "온디바이스 LLM 효율화 기여"
+        ]
+      }
+    },
+    {
+      "id": "ai-fable-silent-safeguards",
+      "title": "'Fable이 돕기를 멈춰도 알 수 없다'",
+      "summary": "사용자에게 보이지 않는 개입으로 효과를 제한, 공급망 리스크 우려 제기.",
+      "source": "TLDR AI",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "report": {
+        "tldr": "Anthropic이 사용자에게 보이지 않는 방식으로 Claude의 효과를 제한하는 새 개입을 도입했다.",
+        "what": "Anthropic이 특정 상황(예: 경쟁 랩이 Claude로 모델을 개발하는 경우)에서 Claude의 효과를 제한하는 새 개입을 도입했다. 다른 개입과 달리 이 안전장치는 사용자에게 보이지 않고 Fable 5는 다른 모델로 폴백하지 않는다. 대신 프롬프트 수정·스티어링·파라미터 효율 파인튜닝으로 효과를 낮춘다. Anthropic은 개발자의 0.03%만 영향받는다고 하나, 영향 여부를 알 수 없어 기업에 실질적 공급망 리스크가 될 수 있고 도구 신뢰도를 떨어뜨린다는 비판이 있다.",
+        "points": [
+          "보이지 않는 개입으로 효과 제한",
+          "프롬프트 수정·스티어링·PEFT 활용",
+          "영향 0.03% 주장이나 식별 불가"
+        ],
+        "why": [
+          "AI 도구의 신뢰성·투명성 논쟁",
+          "기업의 공급망·재현성 리스크"
+        ],
+        "context": "비판적 블로그 시각으로, Anthropic 공식 입장과는 차이가 있을 수 있다."
+      }
+    },
+    {
+      "id": "ai-fable5-safety-fables",
+      "title": "Claude Fable 5와 새로운 'AI 안전 우화'",
+      "summary": "일부 안전조치가 사용자 고지 없이 모델을 수정, 불균등 적용의 한계 지적.",
+      "source": "TLDR AI",
+      "url": "https://www.interconnects.ai/p/claude-fable-5-and-new-ai-safety",
+      "report": {
+        "tldr": "Fable 5와 함께 도입된 일부 안전조치가 사용자 고지 없이 모델을 수정한다는 분석이다.",
+        "what": "Anthropic의 Claude Fable 5 출시에는 일부가 사용자에게 알리지 않고 모델을 수정해 현 선두를 지키려는 안전조치가 포함됐다. 불균등하게 적용되는 안전 정책은 좀처럼 잘 작동하지 않는다는 지적이다. Anthropic이 이런 안전장치를 도입할 권리는 있지만, 그 행동이 AI 생태계 내에 '우리 대 그들' 구도를 키운다. 사용자가 신뢰·수정·통제할 수 있는 지능의 필요성을 부각한다.",
+        "points": [
+          "고지 없는 모델 수정 안전조치",
+          "불균등 정책의 효과 한계",
+          "생태계 내 대립 구도 우려"
+        ],
+        "why": [
+          "AI 안전과 통제권을 둘러싼 논쟁",
+          "오픈·신뢰 가능한 모델 요구 증대"
+        ]
+      }
+    },
+    {
+      "id": "ai-cheaper-models",
+      "title": "빅테크는 더 싼 AI 모델을 사랑할 수 있을까",
+      "summary": "시스템을 잘 구성하면 많은 작업에서 저가 모델이 프런티어 모델을 대체.",
+      "source": "TLDR AI",
+      "url": "https://techcrunch.com/2026/06/09/can-tech-companies-learn-to-love-cheaper-models/",
+      "report": {
+        "tldr": "시스템을 올바르게 구성하면 저가 모델이 품질 손실 없이 프런티어 모델을 대체할 수 있다.",
+        "what": "많은 작업에서 시스템이 적절히 구성되면 저가 모델이 품질을 희생하지 않고 프런티어 모델을 대체할 수 있다. 비용 효율적 운영을 위한 모델 선택·라우팅의 중요성을 다룬다.",
+        "points": [
+          "저가 모델로 다수 작업 대체 가능",
+          "시스템 구성이 품질을 좌우",
+          "비용 효율 중심 모델 전략"
+        ],
+        "why": [
+          "프런티어 모델 의존도 재검토",
+          "AI 운영비 최적화 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-deepseek-token-volume",
+      "title": "DeepSeek, 토큰 점유율 급등·Anthropic은 지출 1위",
+      "summary": "AI Gateway 토큰 점유 1%→17% 급등, 지출 점유는 1% 부근 유지.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/jO8gQW",
+      "report": {
+        "tldr": "DeepSeek의 AI Gateway 토큰 점유율이 한 달 만에 1% 미만에서 17%로 뛰었다.",
+        "what": "DeepSeek의 AI Gateway 토큰 점유율이 한 달 만에 1% 미만에서 17%로 급등했지만, 지출 점유율은 1% 부근에 머물렀다. 저가 대량 토큰과 고가 지출의 분리 양상을 보여주며, Anthropic은 지출 면에서 계속 우위를 점한다.",
+        "points": [
+          "DeepSeek 토큰 점유 1%→17%",
+          "지출 점유율은 1% 부근 유지",
+          "Anthropic 지출 우위 지속"
+        ],
+        "why": [
+          "저가 대량 vs 고가 프리미엄 시장 분화",
+          "토큰량과 매출의 괴리 확인"
+        ]
+      }
+    },
+    {
+      "id": "ai-three-labs-plan-memorandum",
+      "title": "세 개의 랩, 계획과 메모랜덤",
+      "summary": "Fable 발표를 둘러싼 AI 정책·계획 관련 여러 스토리를 요약.",
+      "source": "TLDR AI",
+      "url": "https://thezvi.substack.com/p/three-labs-with-a-plan-and-a-memorandum",
+      "report": {
+        "tldr": "Anthropic의 Fable 발표를 둘러싼 AI 정책·계획 관련 여러 스토리를 정리한 글이다.",
+        "what": "이 글은 Anthropic의 Fable 발표에서 비롯된 AI 정책과 계획에 관한 여러 연관 스토리를 요약·정리한다. 주요 랩들의 전략과 거버넌스 논의를 한데 모아 조망한다.",
+        "points": [
+          "Fable 발표발 정책·계획 스토리 종합",
+          "주요 랩 전략·거버넌스 조망",
+          "연관 이슈를 한눈에 정리"
+        ],
+        "why": [
+          "AI 거버넌스 논의의 흐름 파악",
+          "랩 간 전략 차이 이해"
+        ]
+      }
+    }
+  ]
+}
