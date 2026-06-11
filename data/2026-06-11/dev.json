@@ -1,0 +1,308 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-html-first-site",
+      "title": "HTML 우선 사이트로 사용자가 하루 만에 2배",
+      "summary": "실패한 React 앱을 Astro 기반 HTML 우선 사이트로 재구축하자 완료율이 즉시 두 배로.",
+      "source": "TLDR Dev",
+      "url": "https://mohkohn.co.uk/writing/html-first/",
+      "report": {
+        "tldr": "실패한 React 앱을 Astro 기반 HTML 우선 사이트로 재구축하자 사용자 완료율이 하루 만에 두 배가 됐다.",
+        "what": "한 유틸리티 회사의 실패한 React 애플리케이션을 Astro를 이용한 HTML 우선 사이트로 재구축하자 사용자 완료율이 하룻밤 사이 두 배가 됐다. 점진적 향상, 가벼운 코드, 백엔드 데이터 저장에 집중한 것이 저사양 기기와 열악한 연결에서 사용자 경험을 크게 개선했다.",
+        "points": [
+          "React→Astro HTML 우선 재구축",
+          "완료율 하루 만에 2배",
+          "점진적 향상·경량 코드",
+          "저사양·저속 환경 개선"
+        ],
+        "why": [
+          "프런트엔드 무게의 비용 재조명",
+          "접근성=도달범위 확대"
+        ]
+      }
+    },
+    {
+      "id": "dev-plain-multiplayer",
+      "title": "기본은 즉각적, 설계는 멀티플레이어(Plain)",
+      "summary": "요청-응답 대신 동기화 기반 아키텍처로 브라우저에 DB 라이브 복제. ElectricSQL+Yjs 결합.",
+      "source": "TLDR Dev",
+      "url": "https://plain.jxd.dev/blog/realtime",
+      "report": {
+        "tldr": "Plain은 요청-응답 대신 동기화 기반 아키텍처로 브라우저 안에 DB 라이브 복제본을 유지한다.",
+        "what": "Plain은 전통적 요청-응답 모델을 동기화 기반 아키텍처로 대체해 브라우저 안에 데이터베이스의 라이브 복제본을 유지하는 개발자 플랫폼이다. 두 개의 특화 엔진으로 서로 다른 데이터 유형을 처리하는데, Postgres 행에는 ElectricSQL, 문자 단위 동시 문서 편집에는 Yjs를 쓴다. 개별 엔드포인트 대신 라이브 상태를 구독함으로써 수동 새로고침 없이 모든 뷰가 자동으로 최신 상태를 유지한다.",
+        "points": [
+          "동기화 기반 아키텍처",
+          "브라우저 내 DB 라이브 복제",
+          "ElectricSQL+Yjs 결합",
+          "수동 새로고침 불필요"
+        ],
+        "why": [
+          "실시간·협업 앱 개발 패러다임",
+          "로컬 퍼스트 아키텍처 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-policy-exponential",
+      "title": "AI 기하급수에 대한 정책(다리오 아모데이)",
+      "summary": "기술 진보가 입법 역량을 앞질러 의무 안전테스트·정부 감독이 시급하다는 주장.",
+      "source": "TLDR Dev",
+      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "report": {
+        "tldr": "아모데이는 기술 진보가 입법을 앞질러 프런티어 모델의 의무 안전테스트·정부 감독이 시급하다고 본다.",
+        "what": "Anthropic CEO 다리오 아모데이는 빠른 기술 진보가 현재 입법 역량을 앞질러, 사이버보안·생물학의 파국적 위험을 막기 위한 의무 안전테스트와 프런티어 모델에 대한 정부 감독이 시급하다고 쓴다. 거대한 노동 대체와 초불평등 가능성에 대응하려면 다각적 경제 대응이 필요하다.",
+        "points": [
+          "진보가 입법 역량 추월",
+          "의무 안전테스트·정부 감독",
+          "사이버·생물학 파국 위험 방지",
+          "노동 대체·불평등 대응 필요"
+        ],
+        "why": [
+          "프런티어 AI 거버넌스 논쟁의 핵심 문헌"
+        ]
+      }
+    },
+    {
+      "id": "dev-unwritten-laws-swe",
+      "title": "소프트웨어 엔지니어링의 불문율",
+      "summary": "안정성·선제적 위험 완화를 우선하는 경험칙. 장애 시 디버깅 전 즉시 롤백, 백업 복원 검증.",
+      "source": "TLDR Dev",
+      "url": "https://newsletter.manager.dev/p/the-unwritten-laws-of-software-engineering",
+      "report": {
+        "tldr": "소프트웨어 엔지니어링은 안정성과 선제적 위험 완화를 우선하는 경험 기반 불문율에 의존한다.",
+        "what": "소프트웨어 엔지니어링은 경험으로 익히는, 시스템 안정성과 선제적 위험 완화를 우선하는 불문 원칙에 의존한다. 프로덕션 문제가 생기면 가장 효과적인 접근은 디버깅 전에 즉시 롤백하고, 모든 백업을 실제 복원 테스트로 검증해 두는 것이다. 엔지니어는 외부 의존성의 불가피한 실패도 대비해야 한다.",
+        "points": [
+          "안정성·선제 위험 완화 우선",
+          "장애 시 디버깅 전 즉시 롤백",
+          "백업은 실제 복원으로 검증",
+          "외부 의존성 실패 대비"
+        ],
+        "why": [
+          "운영 신뢰성에 대한 실무 지혜 정리"
+        ]
+      }
+    },
+    {
+      "id": "dev-good-at-research",
+      "title": "연구를 잘하는 법",
+      "summary": "모방을 넘어 특정 기술을 의도적으로 훈련하고, 트렌드 추종 대신 독창적 문제를 선택하라.",
+      "source": "TLDR Dev",
+      "url": "https://links.tldrnewsletter.com/xhtBUi",
+      "report": {
+        "tldr": "진정한 연구 숙달은 모방을 넘어 특정 기술을 의도적으로 훈련하고 독창적 문제를 고르는 데서 온다.",
+        "what": "진정한 연구 숙달은 단순 모방을 넘어 특정 기술을 의도적으로 훈련하는 데서 출발하며, 현재 트렌드를 따르기보다 독창적 문제를 선택하는 것에서 시작한다. 기초 논문을 공부하고 요약 대신 전문을 읽어 정보 입력을 다양화하면 진정한 혁신에 필요한 고유한 통찰을 기를 수 있다.",
+        "points": [
+          "모방을 넘어 의도적 기술 훈련",
+          "트렌드 추종 대신 독창적 문제 선택",
+          "기초 논문·전문 읽기",
+          "정보 입력 다양화"
+        ],
+        "why": [
+          "연구·학습 역량 개발 조언"
+        ]
+      }
+    },
+    {
+      "id": "dev-extend-ui",
+      "title": "Extend UI",
+      "summary": "PDF·DOCX·XLSX 뷰어와 e-서명·파일 업로드를 갖춘 문서 앱 구축용 오픈소스 툴킷.",
+      "source": "TLDR Dev",
+      "url": "https://www.extend.ai/ui",
+      "report": {
+        "tldr": "Extend UI는 통합 파일 뷰어·관리 기능을 갖춘 문서 애플리케이션 구축용 오픈소스 툴킷이다.",
+        "what": "Extend UI는 통합 파일 뷰어와 관리 기능을 갖춘 현대적 문서 애플리케이션을 만들기 위한 오픈소스 툴킷이다. PDF·DOCX·XLSX 같은 다양한 형식을 다루는 특화 컴포넌트와 e-서명·파일 업로드 도구를 포함한다.",
+        "points": [
+          "문서 앱 구축 툴킷",
+          "PDF·DOCX·XLSX 뷰어",
+          "e-서명·파일 업로드",
+          "오픈소스"
+        ],
+        "why": [
+          "문서 중심 앱 개발 가속"
+        ]
+      }
+    },
+    {
+      "id": "dev-apache-burr",
+      "title": "Apache Burr",
+      "summary": "상태 머신 아키텍처로 챗봇·에이전트 등 의사결정 앱을 만드는 오픈소스 파이썬 프레임워크.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/apache/burr",
+      "report": {
+        "tldr": "Apache Burr은 상태 머신 아키텍처로 챗봇·에이전트 같은 의사결정 앱을 만드는 파이썬 프레임워크다.",
+        "what": "Apache Burr은 상태 머신 아키텍처를 사용해 챗봇·에이전트 같은 의사결정 애플리케이션을 개발하는 오픈소스 파이썬 프레임워크다. 복잡한 워크플로를 단순 파이썬 함수들의 그래프로 모델링해, 상태·전이 관리를 위한 명확한 구조를 제공한다.",
+        "points": [
+          "상태 머신 아키텍처",
+          "챗봇·에이전트 의사결정 앱",
+          "함수 그래프로 워크플로 모델링",
+          "상태·전이 관리"
+        ],
+        "why": [
+          "에이전트 워크플로 구조화 도구"
+        ]
+      }
+    },
+    {
+      "id": "dev-helix-db",
+      "title": "Helix DB",
+      "summary": "벡터·그래프·관계·문서 데이터를 통합한 Rust 기반 OLTP 그래프-벡터 DB. AI 메모리 단순화.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/HelixDB/helix-db/tree/main",
+      "report": {
+        "tldr": "HelixDB는 벡터·그래프·관계·문서 데이터를 한 시스템에 통합한 Rust 기반 OLTP 그래프-벡터 DB다.",
+        "what": "HelixDB는 Rust로 작성된 OLTP 그래프-벡터 데이터베이스로, 벡터·그래프·관계·문서 데이터를 하나의 시스템에 통합해 AI 메모리 관리를 단순화한다. 로컬 개발용 CLI·SDK를 제공하고, 고가용성·ACID 트랜잭션·오토스케일링을 갖춘 관리형 클라우드 서비스도 제공한다.",
+        "points": [
+          "벡터·그래프·관계·문서 통합",
+          "Rust 기반 OLTP",
+          "AI 메모리 관리 단순화",
+          "CLI·SDK·관리형 클라우드"
+        ],
+        "why": [
+          "AI 앱의 통합 데이터 계층 수요"
+        ]
+      }
+    },
+    {
+      "id": "dev-blacksmith-surprise-bill",
+      "title": "놀라움! 1,000달러를 내세요",
+      "summary": "GitHub Actions 대안 Blacksmith 무료 체험 후 자동 중단되지 않아 1,000달러+ 청구서 수령.",
+      "source": "TLDR Dev",
+      "url": "https://forestwalk.ai/blog/surprise-blacksmith-costs/",
+      "report": {
+        "tldr": "Blacksmith 무료 체험이 자동 중단되지 않아 1,000달러를 넘는 예상치 못한 청구서가 발생했다.",
+        "what": "GitHub Actions의 더 빠른 대안을 찾던 개발팀이 신용카드 없이 무료 체험을 제공하는 Blacksmith를 테스트했다. 체험 한도를 초과한 뒤, 서비스가 예상과 달리 자동 중단되지 않고 계속 실행돼 1,000달러가 넘는 청구서를 예기치 않게 받았다.",
+        "points": [
+          "GitHub Actions 대안 테스트",
+          "무료 체험 한도 초과",
+          "자동 중단 안 됨",
+          "1,000달러+ 청구"
+        ],
+        "why": [
+          "무료 체험 과금 정책의 함정 경고"
+        ]
+      }
+    },
+    {
+      "id": "dev-ipad-tailscale",
+      "title": "그 아이패드는 Tailscale에 있었다",
+      "summary": "iPad에서만 실패한 WebRTC 앱의 원인은 webrtc-rs 하드코딩 상수와 Tailscale IPv6 단편 폐기의 결합.",
+      "source": "TLDR Dev",
+      "url": "https://p2claw.com/blog/2026-06-09-the-ipad-was-on-tailscale/",
+      "report": {
+        "tldr": "iPad에서만 실패한 WebRTC 앱의 원인은 두 개의 별도 버그 상호작용이었다.",
+        "what": "한 WebRTC 기반 앱이 유독 iPad에서만 실패한 이유를 조사하자 두 개의 별도 소프트웨어 버그의 복잡한 상호작용이 드러났다. 첫 문제는 webrtc-rs 라이브러리의 하드코딩 상수가 Tailscale VPN 터널 최대 크기를 넘는 데이터 패킷을 생성한 것이다. 이 초과 패킷은 터널에 맞게 단편화됐지만, 모든 IPv6 단편을 폐기하는 Tailscale 정책 때문에 데이터가 목적지에 도달하지 못했다.",
+        "points": [
+          "iPad 전용 실패 디버깅",
+          "webrtc-rs 하드코딩 상수",
+          "Tailscale 터널 크기 초과",
+          "IPv6 단편 폐기로 전달 실패"
+        ],
+        "why": [
+          "다층 시스템 디버깅의 교훈"
+        ]
+      }
+    },
+    {
+      "id": "dev-bun-anthropic-lessons",
+      "title": "Bun이 말해주는 AI·오픈소스·Anthropic",
+      "summary": "Anthropic이 2025년 12월 Bun 제작사 Oven 인수. npm 설치 16배 증가했으나 AI가 커밋 80%+ 작성.",
+      "source": "TLDR Dev",
+      "url": "https://redmonk.com/sogrady/2026/06/04/bun-two-lessons/",
+      "report": {
+        "tldr": "Anthropic이 Bun 제작사 Oven을 인수한 뒤 런타임은 급성장했지만 AI가 커밋 대부분을 작성하게 됐다.",
+        "what": "Anthropic은 2025년 12월 Bun 제작사 Oven을 인수했고, 런타임은 빠르게 성장을 이어갔다(npm 설치 약 16배 증가해 월 730만 건). 다만 두 가지 변화가 두드러진다. AI가 이제 커밋 대부분을 작성하고(정점 80% 이상), 인간 기여자는 대략 절반으로 줄어 원년 팀 다수가 떠나고 외부 기여도 크게 감소했다.",
+        "points": [
+          "Anthropic의 Oven(Bun) 인수",
+          "npm 설치 약 16배(월 730만)",
+          "AI 커밋 비중 80%+",
+          "인간 기여자 약 절반 감소"
+        ],
+        "why": [
+          "AI 시대 오픈소스 기여 구조 변화 관찰"
+        ]
+      }
+    },
+    {
+      "id": "dev-model-naming-extrapolated",
+      "title": "Anthropic의 모델 명명, 외삽하기",
+      "summary": "문학에서 영감받은 Anthropic 모델 명명 관행을 미래로 익살스럽게 외삽한 글.",
+      "source": "TLDR Dev",
+      "url": "https://samwilkinson.io/posts/2026-06-09-anthropics-model-naming-extrapolated",
+      "report": {
+        "tldr": "Anthropic의 문학적 모델 명명 관행을 미래로 익살스럽게 외삽한 글이다.",
+        "what": "Anthropic의 문학에서 영감받은 모델 명명 관행을, AI 제품이 단순한 운문에서 점점 복잡하고 터무니없는 서사 형식으로 확장되는 미래로 익살스럽게 투영한다.",
+        "points": [
+          "문학적 모델 명명 관행",
+          "미래로 익살스러운 외삽",
+          "Fable·Mythos 등 명명 풍자"
+        ],
+        "why": [
+          "모델 명명·브랜딩에 대한 가벼운 논평"
+        ]
+      }
+    },
+    {
+      "id": "dev-fable-silent-restrictions",
+      "title": "Claude Fable이 돕기를 멈춰도 당신은 모른다",
+      "summary": "보이지 않는 성능 제한은 모델의 자연스러운 실패와 의도적 정책 강제를 구분 못 하게 해 공급망 위험을 낳는다.",
+      "source": "TLDR Dev",
+      "url": "https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html",
+      "report": {
+        "tldr": "Anthropic의 보이지 않는 성능 제한이 자연스러운 실패와 의도적 정책 강제의 구분을 어렵게 해 공급망 위험을 만든다.",
+        "what": "Anthropic이 AI 개발 작업에 보이지 않는(invisible) 성능 제한을 구현하면서, 개발자가 모델의 자연스러운 실패와 의도적·은밀한 정책 강제를 더는 구분할 수 없게 돼 공급망 리스크가 생긴다는 비판이다.",
+        "points": [
+          "보이지 않는 성능 제한",
+          "자연 실패 vs 정책 강제 구분 불가",
+          "개발 작업 신뢰성 훼손",
+          "공급망 위험 제기"
+        ],
+        "why": [
+          "가드레일 투명성·신뢰성 논쟁의 개발자 관점"
+        ]
+      }
+    },
+    {
+      "id": "dev-salesforce-agentic-sdlc",
+      "title": "세일즈포스 엔지니어링의 에이전틱 전환 선도",
+      "summary": "Claude Code 표준화·토큰 한도 제거로 완전한 에이전틱 소프트웨어 개발 생애주기로 전환.",
+      "source": "TLDR Dev",
+      "url": "https://www.salesforce.com/news/stories/how-engineering-became-agentic/",
+      "report": {
+        "tldr": "세일즈포스가 Claude Code를 표준화하고 토큰 한도를 없애 완전 에이전틱 SDLC로 전환했다.",
+        "what": "세일즈포스는 Claude Code로 표준화하고 토큰 한도를 제거함으로써 완전한 에이전틱 소프트웨어 개발 생애주기(SDLC)로 전환했다.",
+        "points": [
+          "Claude Code 표준화",
+          "토큰 한도 제거",
+          "완전 에이전틱 SDLC 전환"
+        ],
+        "why": [
+          "대기업의 에이전틱 개발 도입 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-creativity-discovery",
+      "title": "AI 창의성과 발견",
+      "summary": "진정한 과학 발견·창의성은 모방을 넘어 변이·평가·선택적 보존을 쓰는 시스템으로의 전환을 요구.",
+      "source": "TLDR Dev",
+      "url": "https://links.tldrnewsletter.com/NmrYoH",
+      "report": {
+        "tldr": "진정한 AI 창의성·발견은 모방을 넘어 변이·평가·선택적 보존을 쓰는 시스템을 요구한다.",
+        "what": "AI에서 진정한 과학적 발견과 창의성은 생성 모델의 단순 모방을 넘어, 변이·평가·선택적 보존을 사용해 새롭고 효과적인 결과를 만드는 시스템으로의 전환을 요구한다.",
+        "points": [
+          "모방을 넘어선 발견",
+          "변이·평가·선택적 보존",
+          "새롭고 효과적인 결과 지향"
+        ],
+        "why": [
+          "생성형을 넘는 AI 창의성 논의"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-broadcom-35b-ai-infra",
+      "title": "브로드컴·아폴로·블랙스톤, 350억 달러 AI 인프라 플랫폼 출범",
+      "summary": "프런티어 AI 랩용 대규모 인프라 'AI XPV Platform'. 2028년까지 20GW+ 컴퓨트 용량 목표.",
+      "source": "TLDR IT",
+      "url": "https://qz.com/broadcom-apollo-blackstone-ai-infrastructure-platform-060926",
+      "report": {
+        "tldr": "브로드컴·아폴로·블랙스톤이 프런티어 AI 랩을 위한 350억 달러 규모 AI XPV Platform을 출범한다.",
+        "what": "브로드컴, 아폴로, 블랙스톤이 프런티어 AI 랩을 위한 대규모 AI 인프라 구축을 목표로 350억 달러 규모 AI XPV Platform을 출범한다. 이 플랫폼은 2028년까지 20기가와트 이상의 컴퓨트 용량을 가능하게 설계돼 첨단 AI 개발 성장을 뒷받침한다.",
+        "points": [
+          "350억 달러 규모 AI XPV Platform",
+          "프런티어 AI 랩 대상",
+          "2028년까지 20GW+ 컴퓨트",
+          "반도체·사모·인프라 자본 결합"
+        ],
+        "why": [
+          "AI 컴퓨트 인프라 초대형 베팅 가속",
+          "전력·하드웨어 확보 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "it-ivanti-sentry-patch",
+      "title": "Ivanti, 최고 심각도 Sentry 결함 패치",
+      "summary": "비인증 공격자가 루트로 코드 실행 가능한 OS 명령 주입 등 치명적 취약점 두 건 패치.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/UYcR1u",
+      "report": {
+        "tldr": "Ivanti가 비인증 원격 코드 실행을 허용하는 최고 심각도 Sentry 취약점 두 건을 패치했다.",
+        "what": "Ivanti가 두 건의 치명적 Sentry 취약점을 패치했는데, 비인증 공격자가 루트로 코드를 실행할 수 있는 최고 심각도 OS 명령 주입 버그가 포함된다. 두 번째 인증 우회 결함은 원격 공격자가 불량 관리자 계정을 만들어 완전한 관리 접근을 얻게 한다.",
+        "points": [
+          "최고 심각도 OS 명령 주입",
+          "비인증 원격 코드 실행",
+          "인증 우회로 관리자 계정 생성",
+          "즉시 업그레이드 권고"
+        ],
+        "why": [
+          "기업 게이트웨이 장악 위험",
+          "즉각적 패치 필요"
+        ],
+        "action": "Sentry를 즉시 최신 버전으로 업그레이드"
+      }
+    },
+    {
+      "id": "it-browser-phishing",
+      "title": "브라우저 기반 피싱이 전통 보안 도구를 앞지른다",
+      "summary": "Menlo Security 연구, 다수 보안 도구가 브라우저 기반 피싱을 놓침. 업무가 브라우저로 이동하며 위험 증가.",
+      "source": "TLDR IT",
+      "url": "https://www.infosecurity-magazine.com/news/cybersecurity-fails-to-detect/",
+      "report": {
+        "tldr": "많은 보안 도구가 브라우저 기반 피싱 공격을 탐지하지 못하고 있다.",
+        "what": "Menlo Security 연구는 다수의 사이버보안 도구가 브라우저 기반 피싱 공격을 놓치고 있음을 발견했다. 직원들이 전통적 데스크톱 소프트웨어 대신 브라우저로 엔터프라이즈 앱·AI 어시스턴트·민감 워크플로에 점점 더 접근하면서 이 변화가 중요해진다.",
+        "points": [
+          "보안 도구가 브라우저 피싱 누락",
+          "업무의 브라우저 이동 가속",
+          "엔터프라이즈 앱·AI 접근 표면 확대"
+        ],
+        "why": [
+          "방어 사각지대 확대",
+          "브라우저 보안 재점검 필요"
+        ]
+      }
+    },
+    {
+      "id": "it-ontology-engineering",
+      "title": "온톨로지 엔지니어링의 과제는 구축이 아니라 델타 반영",
+      "summary": "LLM의 잠재 온톨로지와 기업의 구조적 온톨로지 간 불일치가 에이전트 시스템의 진실 원천 오류를 낳는다.",
+      "source": "TLDR IT",
+      "url": "https://moderndata101.substack.com/p/minimal-ontology-principle",
+      "report": {
+        "tldr": "엔터프라이즈 AI의 핵심 과제는 온톨로지 구축이 아니라 LLM과 기업 정의 간 차이를 식별·교정하는 것이다.",
+        "what": "엔터프라이즈 AI의 핵심 과제는 온톨로지를 만드는 것이 아니라, LLM의 비즈니스 개념에 대한 잠재 이해가 기업 정의와 어디서 갈라지는지 식별하고 그 격차만 교정하는 데 있다. LLM은 임베딩 공간의 기하학적 관계로 '잠재 온톨로지'를 발전시키는 반면, 기업은 시맨틱 레이어 지표·비즈니스 정의로 '구조적 온톨로지'를 큐레이션한다. 둘 사이의 불일치가 에이전트 시스템에서 진실 원천(source-of-truth) 오류를 만든다.",
+        "points": [
+          "과제는 구축이 아니라 델타 반영",
+          "LLM의 잠재 온톨로지 vs 기업 구조적 온톨로지",
+          "불일치가 진실 원천 오류 유발",
+          "격차만 선별 교정"
+        ],
+        "why": [
+          "에이전트 시스템의 신뢰성 확보 관점",
+          "시맨틱 레이어 설계 중요성"
+        ]
+      }
+    },
+    {
+      "id": "it-shadow-ai-governance",
+      "title": "섀도우 AI가 드러내는 오래된 거버넌스 실패",
+      "summary": "섀도우 AI가 관리되지 않는 도구·불분명한 소유권·약한 가시성이라는 익숙한 보안 문제를 증폭.",
+      "source": "TLDR IT",
+      "url": "https://www.infosecurity-magazine.com/opinions/shadow-ai-is-exposing-governance/",
+      "report": {
+        "tldr": "섀도우 AI가 보안팀이 이미 겪던 거버넌스 격차를 증폭하고 있다.",
+        "what": "섀도우 AI는 관리되지 않는 도구, 불분명한 소유권, 엔터프라이즈 데이터 전반의 약한 가시성이라는 익숙한 보안 문제를 만든다. AI 도입은 SaaS·신원·접근 통제에서 보안팀이 이미 씨름하던 거버넌스 격차를 증폭하고 있다.",
+        "points": [
+          "관리되지 않는 도구·불분명 소유권",
+          "데이터 가시성 부족",
+          "SaaS·신원·접근 통제 격차 증폭"
+        ],
+        "why": [
+          "AI 도입이 기존 거버넌스 약점을 노출",
+          "가시성·소유권 정립 시급"
+        ]
+      }
+    },
+    {
+      "id": "it-zscaler-agentic-zero-trust",
+      "title": "Zscaler, 에이전틱 AI용 제로트러스트 플랫폼 출시",
+      "summary": "Zero Trust Exchange를 확장해 AI 에이전트 연결·데이터 접근·기기 동작 보호. MCP·A2A용 AI Broker 등.",
+      "source": "TLDR IT",
+      "url": "https://www.networkworld.com/article/4182976/zscaler-launches-zero-trust-platform-for-agentic-ai.html",
+      "report": {
+        "tldr": "Zscaler가 AI 에이전트의 연결·데이터 접근·동작을 보호하는 에이전틱 AI용 제로트러스트 플랫폼을 공개했다.",
+        "what": "Zscaler는 Zenith Live 2026 콘퍼런스에서 에이전틱 AI용 제로트러스트 플랫폼을 공개해 Zero Trust Exchange를 확장, AI 에이전트가 어떻게 연결·데이터 접근·기기 동작을 하는지 보호한다. 새 기능에는 MCP·A2A 통신용 AI Broker, Endpoint AI Security, AI Access Graph, 그리고 자산 관리·코드 스캐닝·프롬프트 추출·AI 레드티밍 같은 확장된 AI Protect 기능이 포함된다.",
+        "points": [
+          "Zero Trust Exchange를 에이전트로 확장",
+          "MCP·A2A용 AI Broker",
+          "AI Access Graph·Endpoint AI Security",
+          "코드 스캐닝·AI 레드티밍 포함"
+        ],
+        "why": [
+          "에이전트 보안 시장 본격화",
+          "MCP·A2A 통신 보호 수요"
+        ]
+      }
+    },
+    {
+      "id": "it-salesforce-m3ter",
+      "title": "세일즈포스, 사용량 기반 과금 위해 m3ter 인수",
+      "summary": "Agentforce Revenue Management에 네이티브 소비 과금을 더하기 위해 m3ter 인수.",
+      "source": "TLDR IT",
+      "url": "https://www.salesforce.com/news/stories/salesforce-signs-definitive-agreement-to-acquire-m3ter/",
+      "report": {
+        "tldr": "세일즈포스가 사용량 기반 과금 플랫폼 m3ter를 인수해 Agentforce에 네이티브 소비 과금을 추가한다.",
+        "what": "세일즈포스가 사용량 기반 과금 플랫폼 m3ter를 인수해 Agentforce Revenue Management에 네이티브 소비 과금을 더한다. AI 제품이 좌석 기반 구독을 넘어 사용량·하이브리드·성과 기반 가격 모델로 기업을 밀어붙이고 있어, 세일즈포스는 그 과금 동작을 서드파티 도구 대신 자사 플랫폼 안에 두려 한다.",
+        "points": [
+          "m3ter(사용량 과금) 인수",
+          "Agentforce에 네이티브 소비 과금",
+          "좌석 기반→사용량·성과 기반 전환",
+          "과금을 자사 플랫폼 내재화"
+        ],
+        "why": [
+          "AI 시대 가격 모델 변화 대응",
+          "CRM의 과금 영역 확장"
+        ]
+      }
+    },
+    {
+      "id": "it-monte-carlo-updates",
+      "title": "Monte Carlo 플랫폼 업데이트: 엔터프라이즈·AI 대비",
+      "summary": "유연 배포·하이브리드/온프렘 연결·보안 중심 업데이트. 컨테이너화 'Generic Agent' 등 신규 기능.",
+      "source": "TLDR IT",
+      "url": "https://montecarlo.ai/blog-under-the-hood-of-monte-carlos-platform/",
+      "report": {
+        "tldr": "Monte Carlo가 유연한 배포·하이브리드 연결·보안에 초점을 둔 엔터프라이즈 AI 업데이트를 내놨다.",
+        "what": "Monte Carlo는 유연한 배포, 하이브리드/온프렘 연결, 보안에 초점을 둔 엔터프라이즈 AI 업데이트를 발표했다. 새 기능에는 컨테이너화된 'Generic Agent', 컴포저블 통합, 복원력·통제를 위한 전용 플랫폼 옵션이 포함된다.",
+        "points": [
+          "유연 배포·하이브리드/온프렘 연결",
+          "컨테이너화 'Generic Agent'",
+          "컴포저블 통합",
+          "전용 플랫폼 옵션"
+        ],
+        "why": [
+          "데이터 관측가능성의 엔터프라이즈 요구 대응"
+        ]
+      }
+    },
+    {
+      "id": "it-f5-ai-waf",
+      "title": "F5, 빠른 위협 대응 위해 AI 기반 WAF·가상 패칭 추가",
+      "summary": "WAAP 플랫폼에 AI WAF·온프렘 API 보안·가상 패칭 확장. 발견-악용 간극 압축에 대응.",
+      "source": "TLDR IT",
+      "url": "https://www.networkworld.com/article/4183727/ai-powered-waf-virtual-patching-how-f5-is-hardening-networks-against-frontier-threats.html",
+      "report": {
+        "tldr": "F5가 AI 기반 WAF와 가상 패칭으로 WAAP 플랫폼을 확장해 위협 대응을 빠르게 한다.",
+        "what": "F5는 AI 기반 WAF, 규제 환경용 온프렘 API 보안, 그리고 엔지니어링팀이 영구 수정을 작업하는 동안 앱을 보호하는 가상 패칭으로 WAAP 플랫폼을 확장한다. AI가 취약점 발견과 악용 사이의 창을 압축하면서, 네트워크·보안팀을 전통적 패치 주기 대기 대신 더 빠른 행동 기반 보호로 밀어붙인다.",
+        "points": [
+          "AI 기반 WAF 추가",
+          "온프렘 API 보안",
+          "가상 패칭으로 임시 보호",
+          "행동 기반 빠른 대응"
+        ],
+        "why": [
+          "발견-악용 간극 축소 대응",
+          "패치 지연 동안 노출 완화"
+        ]
+      }
+    },
+    {
+      "id": "it-google-meet-1080p",
+      "title": "구글 Meet, ChromeOS 회의실 하드웨어에 1080p 영상 추가",
+      "summary": "조건이 필요할 때 ChromeOS 회의실 하드웨어에서 1080p HD 영상 송출, 별도 설정 불필요.",
+      "source": "TLDR IT",
+      "url": "https://workspaceupdates.googleblog.com/2026/06/google-meet-now-supports-sending-1080p-HD-video-from-ChromeOS-meeting-room-hardware.html",
+      "report": {
+        "tldr": "구글 Meet가 ChromeOS 기반 회의실 하드웨어에서 1080p HD 영상을 송출할 수 있게 됐다.",
+        "what": "구글 Meet는 이제 더 선명한 회의실 영상이 필요한 조건에서 ChromeOS 기반 회의실 하드웨어로부터 1080p HD 영상을 송출할 수 있으며, 관리자나 최종 사용자 설정이 필요 없다.",
+        "points": [
+          "ChromeOS 회의실 하드웨어 1080p 송출",
+          "조건 충족 시 자동 적용",
+          "별도 설정 불필요"
+        ],
+        "why": [
+          "회의실 영상 품질 개선"
+        ]
+      }
+    },
+    {
+      "id": "it-pinecone-observability",
+      "title": "Pinecone, 오픈소스 모니터링 스택 공개",
+      "summary": "SaaS(서버리스)·BYOC 배포 모두에서 Pinecone 인덱스의 지속 관측가능성을 제공.",
+      "source": "TLDR IT",
+      "url": "https://www.pinecone.io/blog/open-source-monitoring-stack/",
+      "report": {
+        "tldr": "Pinecone이 SaaS와 BYOC 배포 모두에서 인덱스 관측가능성을 제공하는 오픈소스 모니터링 스택을 공개했다.",
+        "what": "Pinecone이 SaaS(서버리스)와 BYOC 배포 모두에서 Pinecone 인덱스에 지속적 관측가능성을 제공하도록 설계된 오픈소스 모니터링 스택을 도입했다.",
+        "points": [
+          "오픈소스 모니터링 스택",
+          "SaaS·BYOC 모두 지원",
+          "인덱스 지속 관측가능성"
+        ],
+        "why": [
+          "벡터 DB 운영 가시성 수요"
+        ]
+      }
+    },
+    {
+      "id": "it-safeagentdb",
+      "title": "SafeAgentDB – 모든 AI 에이전트 브랜치에 격리 DB",
+      "summary": "AI 에이전트 브랜치·PR마다 라이브 프리뷰 URL로 격리 DB를 제공하는 설치형 스킬·인프라 템플릿.",
+      "source": "TLDR IT",
+      "url": "https://github.com/Aidan945/SafeAgentDB",
+      "report": {
+        "tldr": "SafeAgentDB는 AI 에이전트 브랜치·PR마다 격리된 데이터베이스를 제공하는 설치형 스킬·인프라 템플릿 키트다.",
+        "what": "SafeAgentDB는 라이브 프리뷰 URL을 통해 각 AI 에이전트 브랜치와 PR에 격리된 데이터베이스를 제공하는, 설치 가능한 에이전트 스킬 및 인프라 템플릿 키트다.",
+        "points": [
+          "브랜치·PR별 격리 DB",
+          "라이브 프리뷰 URL",
+          "설치형 에이전트 스킬·템플릿"
+        ],
+        "why": [
+          "에이전트 개발의 안전한 데이터 격리"
+        ]
+      }
+    }
+  ]
+}

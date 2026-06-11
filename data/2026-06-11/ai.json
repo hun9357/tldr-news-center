@@ -1,0 +1,279 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-policy-exponential",
+      "title": "다리오 아모데이, 'AI 기하급수에 대한 정책' 발표",
+      "summary": "AI 발전 속도가 입법을 앞지르고 있어 FAA식 규제·의무 안전테스트가 필요하다는 장문 에세이.",
+      "source": "TLDR AI",
+      "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+      "report": {
+        "tldr": "Anthropic CEO 다리오 아모데이가 AI의 기하급수적 발전에 맞춘 규제·경제·바이오·민주주의 정책 프레임을 제시했다.",
+        "what": "아모데이는 AI 발전이 입법 역량을 크게 앞질러, 사이버보안·생물학 분야의 파국적 위험과 대규모 일자리 대체 위험이 커지고 있다고 진단한다. 그는 항공 안전을 관장하는 FAA처럼 프런티어 모델에 의무 안전테스트와 정부 감독을 도입할 것을 권고한다. 더불어 AI 주도 성장에 맞춘 거시경제·세제 개편, 바이오메디컬 효과를 높이기 위한 규제 개혁, 그리고 AI가 전 세계적으로 민주적 가치에 부합하도록 하는 방안을 함께 제안한다.",
+        "points": [
+          "AI 발전 속도가 정책 수립 속도를 추월",
+          "FAA식 의무 안전테스트·정부 감독 권고",
+          "사이버·생물학 분야 파국적 위험 경계",
+          "노동 대체·초불평등에 대한 다각적 경제 대응 필요",
+          "민주적 가치 정렬을 글로벌 과제로 제시"
+        ],
+        "why": [
+          "프런티어 AI 거버넌스 논쟁의 기준점이 되는 에세이",
+          "규제와 혁신의 균형을 둘러싼 업계 입장 정리"
+        ],
+        "context": "같은 날 Anthropic 공개 모델 Fable 5의 사이버 가드레일을 둘러싼 신뢰성 논쟁이 동시에 불거졌다."
+      }
+    },
+    {
+      "id": "ai-diffusiongemma",
+      "title": "구글, 텍스트 생성 4배 빠른 DiffusionGemma 공개",
+      "summary": "26B MoE 텍스트 확산 모델로 GPU에서 최대 4배 빠른 블록 동시 생성, 저지연 로컬 추론 지향.",
+      "source": "TLDR AI",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/",
+      "report": {
+        "tldr": "DiffusionGemma는 텍스트 확산 방식을 쓰는 26B Mixture-of-Experts 모델로 GPU에서 최대 4배 빠른 생성을 제공한다.",
+        "what": "구글이 텍스트 블록을 동시에 생성하는 확산(diffusion) 기법으로 속도를 끌어올린 26B MoE 모델 DiffusionGemma를 공개했다. 저지연과 양방향 어텐션이 강점이며, 양자화 시 고급 소비자용 GPU에도 적재된다. 표준 모델 대비 품질을 일부 희생하지만 효율적인 로컬 추론에 최적화돼 있고 NVIDIA 하드웨어에 맞춰졌다.",
+        "points": [
+          "텍스트 확산으로 블록 동시 생성",
+          "GPU에서 최대 4배 속도 향상",
+          "양자화 시 소비자 GPU 적재 가능",
+          "속도-품질 트레이드오프 존재"
+        ],
+        "why": [
+          "속도가 중요한 로컬 추론 시나리오의 새 선택지",
+          "확산 기반 텍스트 생성의 실용화 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-hidden-state-probes",
+      "title": "LLM에게 말 시키지 말고 hidden state를 직접 탐침하라",
+      "summary": "마지막 프롬프트 토큰의 hidden state를 작은 MLP에 넣어 생성 없이 분류기처럼 활용하는 기법.",
+      "source": "TLDR AI",
+      "url": "https://blog.j11y.io/2026-06-10_hidden-state-probes/",
+      "report": {
+        "tldr": "답은 토큰을 생성하기 전 LLM의 hidden state에 이미 존재하며, 이를 탐침해 생성 단계를 건너뛸 수 있다.",
+        "what": "LLM은 한 토큰도 생성하기 전에 이미 내부 hidden state에 답을 담고 있는 경우가 많다. 마지막 프롬프트 토큰의 hidden state를 가져와 작은 다층 퍼셉트론(MLP)에 넣고 출력을 보정하면 생성 과정을 통째로 생략할 수 있다. 그 결과 동결된 모델이 영어로 기술 가능한 임의의 분류기처럼 동작하게 된다.",
+        "points": [
+          "hidden state에 답이 선재(先在)",
+          "생성 없이 last-token state→소형 MLP",
+          "보정 후 임의 분류기로 활용",
+          "동결 모델 재학습 불필요"
+        ],
+        "why": [
+          "추론 비용·지연을 크게 줄일 잠재력",
+          "LLM 내부 표현의 해석가능성 연구에 시사"
+        ]
+      }
+    },
+    {
+      "id": "ai-llm-nday-exploits",
+      "title": "LLM이 N-day 익스플로잇에 미치는 영향 측정",
+      "summary": "패치에서 취약점을 역설계하는 작업을 AI가 가속·자동화해, 패치 갭에 놓인 기기 위협이 커진다.",
+      "source": "TLDR AI",
+      "url": "https://red.anthropic.com/2026/n-days/",
+      "report": {
+        "tldr": "AI가 패치 기반 취약점 역설계를 가속하면서 패치되지 않은 기기(N-day)의 위협이 과거보다 훨씬 커졌다.",
+        "what": "N-day는 이미 공개·일부만 패치된 취약점으로, 패치 자체가 버그로 가는 로드맵을 제공하기 때문에 제로데이보다 위험할 수 있다. 패치로부터 취약점을 역설계하는 작업은 전통적으로 느리고 전문적이었지만, AI가 이 과정을 가속·자동화할 수 있다. 따라서 오늘날 패치 갭에 놓인 사용자는 이전보다 훨씬 큰 위협에 직면한다.",
+        "points": [
+          "N-day는 패치가 공격 로드맵을 노출",
+          "패치 역설계의 AI 가속·자동화",
+          "패치 갭 기기 위협 급증",
+          "제로데이보다 위험할 수 있음"
+        ],
+        "why": [
+          "패치 적용 속도(SLA)의 중요성 재확인",
+          "AI 보조 공격 시대의 방어 전략 재정립 필요"
+        ],
+        "action": "공개된 N-day는 즉시 패치하고 패치 갭 노출 자산을 우선 점검"
+      }
+    },
+    {
+      "id": "ai-moats-need-models",
+      "title": "해자(moat)에는 모델이 필요하다",
+      "summary": "모델·하네스·워크플로·평가 루프는 분리된 스택이 아니라 함께 복리로 작동하는 공동 설계면이다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/LktVYs",
+      "report": {
+        "tldr": "방어가능성은 프런티어 역량을 임대하는 데서가 아니라 전체 피드백 루프를 소유하는 데서 나온다.",
+        "what": "모델, 하네스, 워크플로, 평가 루프는 더 이상 별개의 스택 조각이 아니라 함께 복리로 작동하는 공동 설계면(co-design surface)이다. 진정한 방어가능성은 공급자가 제한·재가격·회수할 수 있는 프런티어 역량을 빌리는 데서가 아니라, 전체 피드백 루프를 직접 소유하는 데서 비롯된다.",
+        "points": [
+          "모델·하네스·워크플로·평가는 공동 설계면",
+          "역량 임대는 공급자 리스크에 노출",
+          "전체 피드백 루프 소유가 해자",
+          "요소들이 복리로 결합"
+        ],
+        "why": [
+          "AI 제품의 지속가능한 경쟁우위 논의",
+          "모델 공급자 의존 전략의 한계 지적"
+        ]
+      }
+    },
+    {
+      "id": "ai-fable5-system-prompt-leak",
+      "title": "Fable 5 시스템 프롬프트 유출",
+      "summary": "Anthropic Fable 5의 시스템 프롬프트가 약 12만 자 분량으로 유출돼 스레드에 전문 공개.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/iHUGuo",
+      "report": {
+        "tldr": "Anthropic Fable 5 모델의 시스템 프롬프트가 약 12만 자 분량으로 유출됐다.",
+        "what": "Anthropic의 Fable 5 모델 시스템 프롬프트가 유출됐으며, 총 약 120,000자에 달한다. 유출된 프롬프트 전문이 해당 스레드에 공개됐다.",
+        "points": [
+          "시스템 프롬프트 약 12만 자",
+          "전문이 공개 스레드에 게시",
+          "Fable 5 동작 규칙 일부 노출"
+        ],
+        "why": [
+          "대형 모델 시스템 프롬프트 규모·구조 단면",
+          "가드레일 논쟁과 맞물린 투명성 이슈"
+        ]
+      }
+    },
+    {
+      "id": "ai-cursor-bugbot",
+      "title": "Cursor의 Bugbot, 코드 리뷰 3배 빨라져",
+      "summary": "Bugbot가 3배 이상 빠르고 22% 저렴하며 리뷰당 버그를 10% 더 찾는다. 대부분 3분 내 완료.",
+      "source": "TLDR AI",
+      "url": "https://cursor.com/blog/bugbot-updates-june-2026",
+      "report": {
+        "tldr": "Cursor가 Bugbot를 업데이트해 3배 이상 빠르고 22% 저렴하며 더 많은 버그를 찾도록 개선했다.",
+        "what": "Cursor가 코드 리뷰 도구 Bugbot를 3배 이상 빠르게, 22% 더 저렴하게 업데이트하고 리뷰당 버그 발견을 10% 늘렸다. 대부분의 실행이 3분 이내에 끝나 개발자의 리뷰 루프를 단축한다.",
+        "points": [
+          "속도 3배 이상 향상",
+          "비용 22% 절감",
+          "리뷰당 버그 발견 10% 증가",
+          "대부분 3분 내 완료"
+        ],
+        "why": [
+          "AI 코드 리뷰 도구의 실사용 효율 개선",
+          "개발 생산성·리뷰 병목 완화"
+        ]
+      }
+    },
+    {
+      "id": "ai-palantir-karp-unhappy",
+      "title": "팔란티어 카프 \"기업들은 프런티어 AI 랩에 불만\"",
+      "summary": "알렉스 카프는 프런티어 랩들이 토큰 소진으로 생산성을 과시할 뿐이라며 비용 급증에 경고.",
+      "source": "TLDR AI",
+      "url": "https://www.cnbc.com/2026/06/10/palantir-karp-enterprise-ai.html",
+      "report": {
+        "tldr": "팔란티어 CEO 알렉스 카프가 엔터프라이즈 고객들이 프런티어 AI 랩의 운영 방식에 불만이라고 밝혔다.",
+        "what": "팔란티어 CEO 알렉스 카프는 자사 엔터프라이즈 고객들이 프런티어 AI 랩의 운영 방식에 불만을 갖고 있다고 말했다. 그는 이들 랩이 생산성을 신호하기 위해 AI 토큰을 소진하는 데만 관심이 있다고 주장한다. 가속되는 비용이 기업들 사이에 경각심을 키우고 효율성 우려를 부추기고 있다.",
+        "points": [
+          "엔터프라이즈 고객의 프런티어 랩 불만",
+          "\"토큰 소진으로 생산성 과시\" 비판",
+          "AI 비용 급증에 대한 경계감",
+          "효율성 우려 확산"
+        ],
+        "why": [
+          "AI 가격·비용 논쟁의 기업 관점",
+          "곧 다가올 가격 전쟁의 배경"
+        ]
+      }
+    },
+    {
+      "id": "ai-eu-meta-whatsapp-bots",
+      "title": "EU, 메타에 왓츠앱 경쟁 AI 챗봇 차단 중단 명령",
+      "summary": "EU가 메타에 왓츠앱을 경쟁사 챗봇에 무료 개방하라 명령. 메타는 규제 과잉이라며 항소 예정.",
+      "source": "TLDR AI",
+      "url": "https://www.engadget.com/2191213/eu-orders-meta-to-stop-blocking-rival-ai-chatbots-on-whatsapp/",
+      "report": {
+        "tldr": "EU가 메타에 왓츠앱을 경쟁사 AI 챗봇에 무료로 개방하라고 명령했다.",
+        "what": "EU가 메타에 왓츠앱을 경쟁사 챗봇에 무료로 개방하라고 명령했다. 메타는 작년 10월 WhatsApp for Business API에서 서드파티 AI 챗봇을 차단했는데, EU는 메타가 경쟁 어시스턴트의 API 사용을 막아 메시징 앱 시장의 지배적 지위를 남용했다고 봤다. 메타는 세계 최대 기업들에게 무상 API 접근을 주는 규제 과잉이라며 항소할 계획이다.",
+        "points": [
+          "왓츠앱을 경쟁 챗봇에 무료 개방 명령",
+          "메타의 작년 10월 서드파티 차단이 발단",
+          "지배적 지위 남용 판단",
+          "메타 항소 예고"
+        ],
+        "why": [
+          "AI 어시스턴트 유통 채널을 둘러싼 규제 격화",
+          "플랫폼 개방·반독점 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-ohio-datacenter",
+      "title": "오픈AI, 엔비디아 지원 10GW 오하이오 데이터센터 임대 검토",
+      "summary": "오픈AI가 2028년 가동 예정 사이트의 컴퓨팅 장비를 20년 임대로 통제하는 방안 검토.",
+      "source": "TLDR AI",
+      "url": "https://www.networkworld.com/article/4183513/openai-weighs-nvidia-backed-lease-for-10-gw-ohio-data-center-campus.html",
+      "report": {
+        "tldr": "오픈AI가 엔비디아가 뒷받침하는 10GW 규모 오하이오 데이터센터 캠퍼스 임대를 검토 중이다.",
+        "what": "오픈AI는 2028년 가동이 예상되는 오하이오 데이터센터 캠퍼스의 컴퓨팅 장비를 20년 임대 형태로 통제하는 방안을 검토하고 있다. 엔비디아가 이 거래를 뒷받침한다.",
+        "points": [
+          "10GW급 데이터센터 캠퍼스",
+          "2028년 가동 목표",
+          "20년 장기 임대 구조",
+          "엔비디아 백스톱"
+        ],
+        "why": [
+          "AI 컴퓨트 인프라 대형 베팅 가속",
+          "전력·하드웨어 확보 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "ai-ramp-applied-ai",
+      "title": "Ramp, Applied AI Solutions 출시",
+      "summary": "재무팀에 엔지니어를 배치해 맞춤형 AI 솔루션을 만들도록 돕는 서비스.",
+      "source": "TLDR AI",
+      "url": "https://ramp.com/blog/introducing-ramp-applied-ai-solutions",
+      "report": {
+        "tldr": "Ramp가 재무팀에 엔지니어를 임베드해 맞춤형 AI 솔루션을 구축하도록 돕는 Applied AI Solutions를 내놨다.",
+        "what": "Ramp Applied AI Solutions는 엔지니어를 재무팀에 배치해 맞춤형 솔루션을 만들도록 함으로써 기업이 AI를 효과적으로 배포할 수 있게 한다.",
+        "points": [
+          "엔지니어를 재무팀에 임베드",
+          "맞춤형 AI 솔루션 구축 지원",
+          "AI 도입 실효성 제고"
+        ],
+        "why": [
+          "엔터프라이즈 AI 도입의 실행 격차 해소 시도"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-managed-agents",
+      "title": "Claude Managed Agents로 에이전트 표면 진화",
+      "summary": "인프라가 통합된 컴포저블 API로 프로덕션급 에이전트 구축을 단순화.",
+      "source": "TLDR AI",
+      "url": "https://claude.com/blog/building-with-claude-managed-agents",
+      "report": {
+        "tldr": "Claude Managed Agents는 인프라가 통합된 컴포저블 API로 프로덕션급 에이전트 구축을 간소화한다.",
+        "what": "Claude Managed Agents는 통합 인프라를 갖춘 컴포저블 API를 제공해 프로덕션급 에이전트를 더 쉽게 만들 수 있게 한다.",
+        "points": [
+          "컴포저블 API 제공",
+          "인프라 통합 내장",
+          "프로덕션급 에이전트 구축 단순화"
+        ],
+        "why": [
+          "에이전트 개발 생산성 향상",
+          "관리형 에이전트 인프라 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "ai-codex-black-hole",
+      "title": "블랙홀 시뮬레이션에 Codex 활용",
+      "summary": "천체물리학자가 Codex로 블랙홀 주변 플라스마·입자 거동 시뮬레이션 알고리즘을 정교화.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/seWTEE",
+      "report": {
+        "tldr": "천체물리학자 Chi-kwan Chan이 Codex로 블랙홀 주변 플라스마·입자 거동 시뮬레이션 알고리즘을 개선했다.",
+        "what": "천체물리학자 Chi-kwan Chan이 블랙홀 주변의 플라스마와 입자 거동을 시뮬레이션하는 알고리즘을 다듬고 테스트하는 데 Codex를 사용했다.",
+        "points": [
+          "Codex로 과학 시뮬레이션 코드 정교화",
+          "블랙홀 주변 플라스마·입자 거동 대상",
+          "알고리즘 개선·테스트에 활용"
+        ],
+        "why": [
+          "AI 코딩 도구의 과학 연구 적용 사례"
+        ]
+      }
+    }
+  ]
+}

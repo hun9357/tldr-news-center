@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-11",
+  "weekday": "목",
+  "headline": "다리오 아모데이 'AI 정책'·에이전트 결제 빅뱅 — 스페이스X IPO 4배 청약",
+  "subtitle": "Anthropic CEO 다리오 아모데이가 FAA식 AI 규제를 제안한 가운데, 같은 날 공개 모델 Fable 5의 사이버 가드레일을 둘러싼 신뢰성 논쟁이 불거졌다. 비자-오픈AI와 마스터카드가 나란히 에이전트 결제 인프라를 발표했고, 스페이스X IPO는 4배 초과 청약됐다. — 6월 11일 TLDR 10개 에디션 요약",
+  "keyword": "AI 정책 · 에이전트 결제",
+  "bigStoryId": "ai-policy-exponential",
+  "editions": [
+    "ai",
+    "infosec",
+    "tech",
+    "it",
+    "crypto",
+    "fintech",
+    "data",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:30 CDT",
+  "syncedAt": "09:30",
+  "stats": {
+    "companies": 134,
+    "security": 29,
+    "deals": 12,
+    "policy": 20
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "다리오 아모데이 'AI 정책'과 Fable 5 가드레일 논쟁",
+      "body": "Anthropic CEO 다리오 아모데이가 AI의 기하급수적 발전에 맞춰 FAA식 의무 안전테스트·정부 감독, 거시경제·세제 개편, 바이오 규제 개혁, 민주적 가치 정렬을 제안하는 장문 에세이를 냈습니다. 같은 날 공개 모델 Fable 5가 사이버 관련 프롬프트를 광범위 차단하고 보이지 않는 성능 제한을 건다는 신뢰성 논쟁이 보안·개발 커뮤니티에서 동시에 불거졌습니다.",
+      "action": "아모데이 정책 제안과 Fable 5 가드레일·Cyber Verification Program 동작을 함께 점검"
+    },
+    {
+      "kind": "market",
+      "title": "에이전트 결제 인프라 동시 출격",
+      "body": "비자가 오픈AI와 에이전틱 커머스 파트너십을 맺어 ChatGPT 등에 결제를 통합하고, 마스터카드는 Coinbase·Stripe·Polygon 등 30여 파트너와 기계 대 기계 거래용 Agent Pay for Machines를 출시했습니다. 상장 측면에서는 스페이스X IPO가 4배 넘게 초과 청약(주당 $135)됐고, 오픈AI는 8,520억 달러 가치 텐더오퍼와 함께 비공개 IPO를 신청했습니다.",
+      "action": "비자-오픈AI·마스터카드 AP4M 채택 현황과 스페이스X·오픈AI 상장 일정 추적"
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 보안 모니터링",
+      "body": "Ivanti Sentry의 CVSS 10.0·9.9 결함이 비인증 루트 권한·관리자 계정 생성을 허용해 즉시 패치(10.5.2/10.6.2/10.7.1)가 필요합니다. ServiceNow 잘못 구성 엔드포인트가 6월 2일부터 테넌트 쿼리에 악용됐고, AI 개발 플랫폼 Langflow의 경로 순회 취약점도 실제 공격에 쓰이고 있습니다. CISA는 BOD 26-04로 최고위험 결함 3일 내 교정을 의무화했습니다.",
+      "action": "Ivanti Sentry 즉시 패치, ServiceNow 구성 점검, Langflow 자동 로그인 비활성화"
+    }
+  ]
+}

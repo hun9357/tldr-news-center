@@ -1,0 +1,285 @@
+{
+  "name": "빅테크 & 스타트업",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-spacex-ipo-oversubscribed",
+      "title": "스페이스X IPO, 4배 이상 초과 청약",
+      "summary": "5.556억 주를 주당 $135 고정가로 공모, 사상 최대 IPO 전망. 오늘 가격 확정·내일 SPCX로 거래.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/6L1KoG",
+      "report": {
+        "tldr": "스페이스X IPO 수요가 가용 주식의 4배를 넘었으며 사상 최대 IPO가 될 전망이다.",
+        "what": "스페이스X 기업공개(IPO) 수요가 가용 주식의 4배를 넘었다. IPO는 오늘 가격이 확정되고 내일 거래를 시작한다. 5억 5,560만 주를 주당 135달러 고정가로 공모하며, 사상 최대 IPO로 평가될 전망이다. 주식은 나스닥과 Nasdaq Texas에서 SPCX 심볼로 거래된다.",
+        "points": [
+          "수요가 가용 주식의 4배+",
+          "5.556억 주, 주당 $135 고정가",
+          "사상 최대 IPO 전망",
+          "SPCX로 나스닥·Nasdaq Texas 거래"
+        ],
+        "why": [
+          "대형 기술 IPO 러시의 정점",
+          "OpenAI·Anthropic 상장 흐름과 맞물림"
+        ]
+      }
+    },
+    {
+      "id": "tech-openai-price-war",
+      "title": "오픈AI, Anthropic과의 사용자 쟁탈전 앞두고 대폭 가격 인하 검토",
+      "summary": "Anthropic의 예상 인하에 맞서 토큰 가격 대폭 인하 검토. 양사 마진 추가 압박 우려.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/LEGuAl",
+      "report": {
+        "tldr": "오픈AI가 Anthropic의 예상 인하에 맞서 토큰 가격을 대폭 낮추는 방안을 검토 중이다.",
+        "what": "오픈AI는 Anthropic의 유사한 예상 인하에 대응하기 위해 토큰 과금을 크게 낮추는 방안을 검토하고 있다. 기업들이 높은 AI 사용 가격에 난색을 표하기 시작했다. 가격 인하는 막대한 컴퓨팅 비용으로 이미 수십억 달러를 잃는 양사의 마진을 더 잠식할 수 있다. 가격 전쟁은 기대를 모으는 상장에 앞서 양사 비즈니스 모델의 이른 시험대가 될 것이다.",
+        "points": [
+          "토큰 가격 대폭 인하 검토",
+          "Anthropic 인하에 선제 대응",
+          "기업의 AI 가격 저항 확대",
+          "양사 마진 추가 압박"
+        ],
+        "why": [
+          "AI 모델 가격 전쟁 본격화 신호",
+          "상장 앞둔 비즈니스 모델 시험"
+        ]
+      }
+    },
+    {
+      "id": "tech-life-bio-vision-therapy",
+      "title": "세계 최초, 세포를 다시 젊게 만드는 고위험 치료 환자 투여",
+      "summary": "Life Biosciences가 노화성 시력 손실 역전 실험 치료를 첫 환자에 투여. 항생제로 켜지는 유전자 스위치.",
+      "source": "TLDR",
+      "url": "https://www.sciencealert.com/world-first-patient-receives-high-risk-therapy-to-make-cells-young-again",
+      "report": {
+        "tldr": "Life Biosciences가 노화성 시력 손실을 되돌리는 실험 치료를 첫 환자에게 투여했다.",
+        "what": "미국 생명공학 기업 Life Biosciences가 노화 관련 시력 손실을 역전하도록 설계된 실험 치료를 첫 환자들에게 투여했다. 이 치료는 자연 재생되지 않는 신경의 세 유전자를 활성화해 노화를 되돌리는 것을 목표로 한다. 유전자 치료 1회 주사와 수 주의 항생제로 시력을 보존하거나 회복하는 것이 목표다. 유전자는 환자가 항생제를 복용할 때만 켜지는 유전적 스위치로 제어되며, 연구는 참가자를 최소 5년간 추적한다.",
+        "points": [
+          "노화성 시력 손실 역전 시도",
+          "신경 내 세 유전자 활성화",
+          "항생제로 켜지는 유전자 스위치",
+          "최소 5년 추적"
+        ],
+        "why": [
+          "노화 역전 유전자 치료의 임상 진입",
+          "고위험·실험적 치료의 단면"
+        ]
+      }
+    },
+    {
+      "id": "tech-china-brain-implant",
+      "title": "중국, 세계 최초 상업용 뇌 임플란트 승인",
+      "summary": "NMPA가 동전 크기 BCI 'NEO' 상업 사용 승인. 생각으로 공압 글러브 제어. 뉴럴링크는 아직 연구 단계.",
+      "source": "TLDR",
+      "url": "https://thenextweb.com/news/brain-implants-bci-china-neuralink-commercial-race",
+      "report": {
+        "tldr": "중국 NMPA가 동전 크기 뇌-컴퓨터 인터페이스 'NEO'의 상업적 사용을 승인했다.",
+        "what": "중국 국가약품감독관리국(NMPA)이 상하이 NeuraMatrix와 칭화대 연구진이 개발한 동전 크기 뇌-컴퓨터 인터페이스 NEO의 상업적 사용을 승인했다. 이 장치는 뇌막 위에 올려 실시간으로 뇌 신호를 디코딩해 환자가 생각으로 공압 글러브를 제어하게 한다. 미국 뉴럴링크는 연구 프로토콜로 N1 장치를 21명 이상에 이식했지만 상업 승인은 없다. 뉴럴링크는 올해 고볼륨 생산·거의 완전 자동 수술로 확대할 계획이나 FDA 상업 판매 승인은 수년 뒤로 보인다.",
+        "points": [
+          "동전 크기 BCI 'NEO' 상업 승인",
+          "뇌막 위에서 실시간 신호 디코딩",
+          "생각으로 공압 글러브 제어",
+          "뉴럴링크는 아직 연구 단계"
+        ],
+        "why": [
+          "상업용 BCI 경쟁의 선점 사례",
+          "미·중 신경기술 격차 단면"
+        ]
+      }
+    },
+    {
+      "id": "tech-stackoverflow-for-agents",
+      "title": "Stack Overflow for Agents 발표",
+      "summary": "API 우선 지식 교환소로 에이전트가 기계 속도로 작업하되 인간이 루프에 남는다. 다중 에이전트 검증 루프.",
+      "source": "TLDR",
+      "url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+      "report": {
+        "tldr": "Stack Overflow for Agents는 에이전트가 기계 속도로 일하되 인간이 루프에 남는 API 우선 지식 교환소다.",
+        "what": "Stack Overflow for Agents는 Stack 생태계를 확장한 API 우선 지식 교환소로, 에이전트가 인간을 루프에 두고 기계 속도로 작업하게 한다. 정적 학습 데이터와 빠르게 변하는 프로덕션 소프트웨어 현실 사이의 간극을 메우려는 것이다. 엄격한 다중 에이전트 검증 루프로 정규(canonical) 지식을 만들며, 각 루프가 코퍼스를 다듬고 지식이 현실 검증을 거치며 복리로 쌓인다. 커뮤니티 신뢰 계수로 책임성을 보장하고 나쁜 데이터 루프를 막는다.",
+        "points": [
+          "API 우선 지식 교환소",
+          "에이전트 기계 속도+인간 루프",
+          "다중 에이전트 검증 루프",
+          "커뮤니티 신뢰 계수"
+        ],
+        "why": [
+          "에이전트용 지식 인프라의 진화",
+          "학습 데이터-현실 간극 해소 시도"
+        ]
+      }
+    },
+    {
+      "id": "tech-html-first-gov",
+      "title": "HTML 우선 사이트로 사용자가 하루 만에 2배",
+      "summary": "정부 사이트처럼 가벼운 HTML이 저사양·저속 환경에서 접근성을 높이며, 일반 사이트에도 적용 가능.",
+      "source": "TLDR",
+      "url": "https://mohkohn.co.uk/writing/html-first/",
+      "report": {
+        "tldr": "가벼운 HTML 우선 접근이 저사양·저속 환경의 접근성을 높여 도달범위를 넓힌다.",
+        "what": "정부 웹사이트는 모두에게 제공돼야 하는 공공 서비스로, 모든 기기에서 작동하고 연결이 나빠도 폼이 데이터를 잃지 않아야 한다. 그래서 정부 사이트는 보통 가볍고 형편없는 브라우저에서도 동작하는 단순 HTML이 된다. 이 단순 기술로 짓는 개념은 일반 웹사이트에도 적용 가능하며, 접근성을 높이면 도달범위가 커진다.",
+        "points": [
+          "정부 사이트의 단순 HTML 원칙",
+          "저사양·저속 환경 동작",
+          "폼 데이터 손실 방지",
+          "접근성=도달범위"
+        ],
+        "why": [
+          "경량 웹의 실효성 재조명"
+        ]
+      }
+    },
+    {
+      "id": "tech-dario-one-report",
+      "title": "Anthropic CEO 다리오 아모데이의 직속 보고자는 단 한 명",
+      "summary": "CEO는 큰 그림·문화·연구 방향에 시간 집중. 운영은 동생 다니엘라 사장이, 직속은 비서실장 1명뿐.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/qDpMw1",
+      "report": {
+        "tldr": "다리오 아모데이의 직속 보고자는 비서실장 한 명뿐으로, 운영은 사장인 동생이 맡는다.",
+        "what": "Anthropic식 리더십은 CEO 다리오 아모데이가 큰 그림 대화, 조직 문화, 연구 방향·전략 입력에 시간 대부분을 보호할 수 있게 한다. 경영진은 다리오의 동생이자 Anthropic 사장인 다니엘라 아모데이에게 보고하고, 다니엘라는 일상 운영을 맡아 이사회에 보고한다. 다리오의 유일한 직속 보고자는 비서실장 Avital Balwit이다. 많은 리더가 관리 계층을 없애고 통솔 범위를 넓히는 업계에서 이례적이다.",
+        "points": [
+          "직속 보고자 단 1명(비서실장)",
+          "운영은 사장 다니엘라 담당",
+          "CEO는 연구·전략·문화에 집중",
+          "넓은 통솔범위 추세와 대조"
+        ],
+        "why": [
+          "프런티어 랩의 이례적 경영 구조"
+        ]
+      }
+    },
+    {
+      "id": "tech-trump-ai-wealth",
+      "title": "트럼프, 두 번째로 'AI 부의 국민 공유' 거론",
+      "summary": "AI 업계 상위 12~15명 경영진과 만나 기업이 사회에 환원하는 방안 논의 계획. 구체안은 불명확.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/Qj9bu0",
+      "report": {
+        "tldr": "트럼프가 AI 업계 경영진과 만나 기업이 AI 부를 대중과 나누는 방안을 논의할 계획이다.",
+        "what": "도널드 트럼프 대통령은 곧 AI 업계 상위 12~15명 경영진과 만나 기업이 대중에게 무언가 환원하는 아이디어를 논의할 계획이다. 미국이 AI 기업 지분을 갖고 이를 대중에게 줄 수 있는 방안이 포함될 수 있다. 어떻게 작동할지, 회의가 언제 열릴지는 불분명하다. AI가 막대한 부를 창출할 잠재력이 있지만 많은 일자리를 없앨 수 있어, 그 책임 기업들의 압박을 더는 이례적 아이디어들이 나오고 있다.",
+        "points": [
+          "상위 12~15 경영진과 회의 계획",
+          "미국 지분→대중 분배 거론",
+          "구체 방안·시점 불명확",
+          "일자리 대체 압박 배경"
+        ],
+        "why": [
+          "AI 부 분배 정책 논의의 단면"
+        ]
+      }
+    },
+    {
+      "id": "tech-the-untrainable",
+      "title": "훈련 불가능한 것(The Untrainable)",
+      "summary": "지능이 저렴해질수록 가치는 모델이 닿을 수 없는 소수의 영역으로 이동한다.",
+      "source": "TLDR",
+      "url": "https://saranormous.substack.com/p/the-untrainable",
+      "report": {
+        "tldr": "지능이 저렴해질수록 가치는 모델이 닿을 수 없는 소수의 영역으로 이동한다.",
+        "what": "지능이 점점 저렴해지면서, 가치는 모델이 도달할 수 없는 몇 안 되는 영역으로 옮겨간다.",
+        "points": [
+          "저렴해지는 지능",
+          "가치는 모델 비도달 영역으로 이동"
+        ],
+        "why": [
+          "AI 시대 인간·기업 가치의 재배치 논의"
+        ]
+      }
+    },
+    {
+      "id": "tech-tesla-robotaxi",
+      "title": "테슬라 로보택시, 긴 대기·멈춤으로 기대 미달",
+      "summary": "테슬라는 텍사스 3개 도시에 로보택시 59대뿐이며 긴 대기와 멈춘 주행이 보고됐다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/aeJe8s",
+      "report": {
+        "tldr": "테슬라 로보택시가 텍사스 3개 도시에서 긴 대기와 멈춘 주행으로 기대에 못 미쳤다.",
+        "what": "테슬라는 텍사스 3개 도시에 로보택시를 59대만 보유하고 있으며, 긴 대기 시간과 멈춘 주행이 보고됐다.",
+        "points": [
+          "텍사스 3개 도시 59대뿐",
+          "긴 대기 시간",
+          "멈춘 주행 사례"
+        ],
+        "why": [
+          "자율주행 상용화의 현실적 한계"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-without-humans",
+      "title": "AI가 인간을 필요로 하지 않게 되기까지 얼마나?",
+      "summary": "인간 없이 존재 가능한 자기지속 AI는 향후 10년 내 달성되기 어려울 것이라는 분석.",
+      "source": "TLDR",
+      "url": "https://asteriskmag.substack.com/p/how-long-until-ai-doesnt-need-humans",
+      "report": {
+        "tldr": "인간 없이 존재 가능한 자기지속 AI는 향후 10년 내 달성되기 어려울 전망이다.",
+        "what": "인간 없이 존재할 수 있는 자기지속(self-sustaining) AI는 아마 향후 10년 내에는 달성되기 어려울 것이다.",
+        "points": [
+          "자기지속 AI 개념",
+          "향후 10년 내 달성 난망"
+        ],
+        "why": [
+          "AI 자율성·의존성에 대한 장기 전망"
+        ]
+      }
+    },
+    {
+      "id": "tech-aws-bedrock-value",
+      "title": "AWS가 Bedrock의 가치 제안을 무너뜨렸다",
+      "summary": "중립 지대였던 Bedrock이 이제 기능이 줄어든 1차 Anthropic에 불과해졌다는 비판.",
+      "source": "TLDR",
+      "url": "https://securosis.com/blog/aws-destroyed-the-value-proposition-for-bedrock/",
+      "report": {
+        "tldr": "기업·모델 제공자 사이 중립 지대였던 Bedrock이 기능이 줄어든 1차 Anthropic이 됐다는 비판이다.",
+        "what": "AWS Bedrock은 기업과 모델 제공자 사이의 중립 지대로 자리했지만, 이제는 기능이 더 적은 1차(first-party) Anthropic에 불과하다.",
+        "points": [
+          "중립 지대였던 Bedrock",
+          "기능 축소",
+          "사실상 1차 Anthropic화"
+        ],
+        "why": [
+          "멀티모델 플랫폼의 중립성 약화 논쟁"
+        ]
+      }
+    },
+    {
+      "id": "tech-chrome-ublock",
+      "title": "크롬, uBlock Origin 우회 전면 차단…엣지·오페라도 뒤따라",
+      "summary": "크롬이 Manifest V2 확장과 그 우회를 영구 폐기하려 한다.",
+      "source": "TLDR",
+      "url": "https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow/",
+      "report": {
+        "tldr": "크롬이 Manifest V2 확장과 uBlock Origin 우회를 영구 폐기하려 하며 엣지·오페라도 뒤따른다.",
+        "what": "크롬은 Manifest V2 확장과 그 우회를 영구적으로 폐기하려 하고 있다.",
+        "points": [
+          "Manifest V2 확장 폐기",
+          "uBlock Origin 우회 차단",
+          "엣지·오페라도 뒤따름"
+        ],
+        "why": [
+          "광고 차단·확장 생태계 변화"
+        ]
+      }
+    },
+    {
+      "id": "tech-everything-recorded",
+      "title": "이제 모든 것이 녹음된다",
+      "summary": "기업의 AI 도입으로 대부분의 업무 논의가 기본값으로 녹음되고 있다.",
+      "source": "TLDR",
+      "url": "https://www.a16z.news/p/everything-is-recorded-now",
+      "report": {
+        "tldr": "기업의 AI 도입으로 대부분의 업무 논의가 기본값으로 녹음되고 있다.",
+        "what": "기업이 AI를 도입하면서 대부분의 업무 논의가 이제 기본값으로 녹음되고 있다.",
+        "points": [
+          "업무 논의 기본 녹음",
+          "AI 도입이 견인"
+        ],
+        "why": [
+          "업무 프라이버시·기록 문화 변화"
+        ]
+      }
+    }
+  ]
+}

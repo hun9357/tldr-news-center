@@ -1,0 +1,253 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-ny-stablecoin-rules",
+      "title": "뉴욕, 스테이블코인 규정 개정안 제안",
+      "summary": "기존 프레임을 연방 GENIUS Act에 정렬, 1:1 고품질 준비자산·단일 수탁자 한도·리스크관리 의무화.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/B8kqHK",
+      "report": {
+        "tldr": "뉴욕 DFS가 기존 스테이블코인 프레임을 연방 GENIUS Act에 맞추는 규정 개정안을 제안했다.",
+        "what": "뉴욕 금융서비스부(DFS)는 기존 스테이블코인 프레임워크를 연방 GENIUS Act에 정렬하는 규정을 제안해, 재무부 프레임 아래 주 단위 규제기관 인증을 받을 수 있는 위치를 노린다. 초안은 인가 발행자가 발행 토큰을 고품질 유동자산으로 1:1 백킹하도록 요구하고, 단일 수탁자에 둘 수 있는 준비자산 한도를 새로 도입하며, 내부통제·정보보안·감사·자산성장·수익·내부자 거래·서비스 제공자 감독을 아우르는 리스크관리 프로그램을 의무화한다.",
+        "points": [
+          "GENIUS Act에 기존 프레임 정렬",
+          "1:1 고품질 유동자산 백킹",
+          "단일 수탁자 준비금 한도 도입",
+          "리스크관리 프로그램 의무화"
+        ],
+        "why": [
+          "연방 프레임 시대 주 규제기관의 생존 청사진",
+          "스테이블코인 제도화 가속"
+        ]
+      }
+    },
+    {
+      "id": "crypto-japan-project-pax",
+      "title": "일본 3대 메가뱅크, 공동 엔화 스테이블코인 'Project Pax'",
+      "summary": "MUFG·미즈호·SMBC가 신탁 구조로 엔화 스테이블코인 공동 발행, 2027년 3월기 내 실거래 목표.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/hTorgO",
+      "report": {
+        "tldr": "MUFG·미즈호·SMBC가 결제·국경 간 송금용 엔화 스테이블코인을 공동 발행하기로 MOU를 맺었다.",
+        "what": "MUFG, 미즈호, SMBC는 결제와 국경 간 송금을 위한 엔화 표시 스테이블코인을 공동 발행하는 MOU에 서명했으며, 2027년 3월 종료 회계연도 내 실거래를 'Project Pax'라는 가칭으로 목표한다. 토큰은 신탁은행이 수탁자, 3개 메가뱅크가 공동 위탁자가 되는 신탁 구조로 발행되며, 일본 블록체인 인프라 Progmat(이더리움·폴리곤·아발란체·코스모스 지원) 위에서 운영된다. 세 은행은 30만 개 이상 법인 고객을 보유해 1조 엔(약 65억 달러) 규모 거래를 노린다.",
+        "points": [
+          "3대 메가뱅크 공동 발행",
+          "신탁 구조·Progmat 인프라",
+          "2027년 3월기 내 실거래 목표",
+          "법인 30만+ 기반, 1조 엔 목표"
+        ],
+        "why": [
+          "일본 공급망 결제의 스테이블코인 도입 신호",
+          "대형 은행 주도 스테이블코인 사례"
+        ]
+      }
+    },
+    {
+      "id": "crypto-mastercard-ap4m",
+      "title": "마스터카드, 30여 파트너와 Agent Pay for Machines 출시",
+      "summary": "AI 에이전트·기계 간 연속·고빈도·소액 거래를 권한·정산하는 서비스. Coinbase·Stripe·Polygon 등 참여.",
+      "source": "TLDR Crypto",
+      "url": "https://www.mastercard.com/us/en/news-and-trends/press/2026/june/mastercard-launches-agent-pay-for-machines.html",
+      "report": {
+        "tldr": "마스터카드가 AI 에이전트·기계 간 연속·고빈도 거래를 권한·정산하는 Agent Pay for Machines(AP4M)를 출시했다.",
+        "what": "마스터카드는 글로벌 네트워크 전반에서 AI 에이전트와 기계 간의 연속적·고빈도(종종 1센트 미만) 거래를 권한 부여·오케스트레이션·정산하는 Agent Pay for Machines(AP4M)를 도입했다. 에이전트에 검증 가능한 신원을 부여하고, 권한·지출 한도를 프로그램적으로 강제하며, 카드·계좌·스테이블코인을 아우르는 다중 레일 보증 정산을 제공한다. 2025년 Agent Pay를 기계 대 기계 상거래로 확장한 것으로, Aave·Adyen·Coinbase·OKX·Polygon·Solana Foundation·Stripe·Tempo 등 30여 파트너가 첫날부터 참여한다.",
+        "points": [
+          "에이전트·기계 간 소액·고빈도 거래 정산",
+          "검증 가능한 에이전트 신원·지출 한도",
+          "카드·계좌·스테이블코인 다중 레일",
+          "30+ 파트너(Coinbase·Stripe·Polygon 등)"
+        ],
+        "why": [
+          "에이전트 상거래 인프라 표준 경쟁",
+          "Visa-OpenAI 협력과 같은 날 맞물린 흐름"
+        ]
+      }
+    },
+    {
+      "id": "crypto-brookwell-neobank",
+      "title": "Brookwell: FDIC 패스스루를 갖춘 스테이블코인 네이티브 네오뱅크",
+      "summary": "Erebor Bank 위에 구축, 150여 개국 온보딩·USDC/USDT/USAT 0bp 온오프램프·ACH 결제 지원.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/kDXK6w",
+      "report": {
+        "tldr": "Brookwell은 1차 계좌 지위를 노리는 스테이블코인 네이티브 네오뱅크로 FDIC 패스스루 보험을 제공한다.",
+        "what": "Brookwell은 Erebor Bank 위에 구축된 스테이블코인 네이티브 네오뱅크로, 대다수 크립토 지갑이 차지하는 보조 결제카드 역할이 아니라 1차 계좌 지위를 노린다. 150여 개국 온보딩을 지원하고 USDC·USDT·USAT에 0bp 온오프램프를, 적격 법정화폐 잔액에 FDIC 패스스루 보험을 제공한다(스테이블코인 자체는 예금 보험 대상 아님). 지갑 기반 제품과 달리 임대료·청구서·대출·카드 결제를 ACH와 은행 레일로 처리해 기존 당좌계좌를 대체할 구조적 공백을 메운다. 이번 주 공개 대기자 명단으로 얼리 액세스를 시작한다.",
+        "points": [
+          "Erebor Bank 위 스테이블코인 네오뱅크",
+          "150+ 개국 온보딩, 0bp 온오프램프",
+          "FDIC 패스스루(스테이블코인 제외)",
+          "ACH·은행 레일로 일상 결제 처리"
+        ],
+        "why": [
+          "스테이블코인 계좌의 당좌계좌 대체 시도",
+          "규제 보험과 결합한 차별화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-decentralized-ai-2026",
+      "title": "2026 탈중앙 AI 현황",
+      "summary": "GPU 희소성·모델 집중·검증 불가 출력이 AI에 블록체인을 요구. x402가 Base·Solana서 1.7억+ 거래.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/HT4l5e",
+      "report": {
+        "tldr": "탈중앙 AI 스택은 애플리케이션·미들웨어·인프라 3계층에 걸쳐 있으며 점차 실질 인프라로 진화 중이다.",
+        "what": "탈중앙 AI 스택은 세 계층에 걸쳐 있다. AI가 블록체인을 필요로 하는 이유는 GPU 컴퓨트의 구조적 희소성, 소수 기업에 집중된 모델 통제, 독립 검증 불가한 AI 출력, 프라이버시 규제로 조이는 학습 데이터 접근 때문이다. 애플리케이션 계층은 에이전트 금융·결제를 다루며, x402는 Base와 Solana에서 1억 7,300만 건 이상을 처리했고 회원으로 구글·Visa·AWS·Circle·Anthropic·Stripe가 있다. 미들웨어는 에이전트 신원·조정(ERC-8004, Bittensor의 128개 활성 서브넷)을, 인프라는 탈중앙 컴퓨트·검증 가능 추론·분산 학습·저장·프라이버시를 다룬다. 아직 토큰 인센티브가 매출을 앞서는 초기 단계지만 투기 서사에서 실질 인프라로 진화하고 있다.",
+        "points": [
+          "GPU 희소성·모델 집중이 블록체인 수요 견인",
+          "x402, Base·Solana서 1.7억+ 거래",
+          "ERC-8004·Bittensor 128개 서브넷",
+          "아직 토큰 인센티브가 매출 앞서는 초기"
+        ],
+        "why": [
+          "에이전트 결제·신원의 온체인 표준 형성",
+          "탈중앙 AI 인프라 투자 지형도"
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-payments",
+      "title": "코인베이스, 엔드투엔드 스테이블코인 결제 인프라",
+      "summary": "수용·가상계좌·KYC/KYB·온오프램프·트레저리·커스터디를 단일 API로 통합. x402 내장.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/vleGUl",
+      "report": {
+        "tldr": "코인베이스가 스테이블코인 결제 요소를 단일 API로 묶은 Coinbase Payments를 출시했다.",
+        "what": "코인베이스가 Developer Platform을 통해 Coinbase Payments를 출시해, 스테이블코인 수용·가상계좌·KYC/KYB·법정화폐 온오프램프·트레저리 관리·기관 커스터디를 단일 API 계층으로 통합했다. Base는 2026년 연초 이후 19조 달러 이상의 스테이블코인 볼륨(2025년 연간 6.6조의 약 3배)을 처리했고, 코인베이스는 연 약 1조 달러 볼륨과 약 200억 달러 USDC를 보유한다. 에이전트 결제 프로토콜 x402가 내장돼 지난 1년 1.6억+ 자율 결제를 처리했다. USDC·USDT·PYUSD와 EURC·AUDD·XSGD·tGBP 등 지역 통화 페그를 지원하며 80여 개 규제 라이선스로 뒷받침된다.",
+        "points": [
+          "결제 요소를 단일 API로 통합",
+          "Base, 연초 이후 19조 달러 처리",
+          "x402 내장, 1.6억+ 자율 결제",
+          "다중 체인·다중 스테이블코인 지원"
+        ],
+        "why": [
+          "스테이블코인 결제의 통합 인프라 경쟁",
+          "에이전트 결제를 별도 유스케이스로 정립"
+        ]
+      }
+    },
+    {
+      "id": "crypto-visa-mastercard-swipe-settlement",
+      "title": "비자·마스터카드, 20년 스와이프 수수료 소송 380억 달러 합의",
+      "summary": "약 1,200만 가맹점과 380억 달러 합의 예비 승인. 'Honor All Cards' 규칙 약화로 카드 등급 거부 가능.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2064642214618444089.html",
+      "report": {
+        "tldr": "비자·마스터카드가 약 1,200만 가맹점과 380억 달러 규모 스와이프 수수료 소송 합의에 예비 승인을 받았다.",
+        "what": "브루클린 연방 판사가 비자·마스터카드와 약 1,200만 가맹점 간 380억 달러 합의를 예비 승인해 2005년 시작된 스와이프 수수료 분쟁을 해소했다. 네트워크는 5년간 인터체인지 수수료를 0.1%p 낮추고 8년간 표준 소비자 요율을 1.25%로 제한한다. 더 구조적으로 중요한 변화는 한 네트워크의 모든 카드 등급을 동일 요율로 받게 하던 'Honor All Cards' 규칙이 약화된 것이다. 가맹점은 이제 등급(상업·프리미엄 소비자·표준 소비자) 전체를 거부할 수 있게 됐다(등급 내 개별 발행사는 불가).",
+        "points": [
+          "380억 달러 합의 예비 승인",
+          "인터체인지 0.1%p·5년, 요율 1.25%·8년",
+          "'Honor All Cards' 규칙 약화",
+          "카드 등급 단위 거부 가능"
+        ],
+        "why": [
+          "가맹점-카드망 수수료 구조의 분기점",
+          "리워드 카드 비중 탓 실효성엔 한계"
+        ]
+      }
+    },
+    {
+      "id": "crypto-tokenized-startups",
+      "title": "토큰화 스타트업: 프리-IPO 접근성 복원",
+      "summary": "스트라이프·스페이스X·오픈AI가 장기 비상장. 세컨더리 SPV 볼륨 2년간 545%+ 성장.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/1BAJwq",
+      "report": {
+        "tldr": "비상장 장기화로 프리-IPO 성장이 사모에 집중되자 토큰화가 접근성 복원의 대안으로 부상한다.",
+        "what": "스트라이프·스페이스X·오픈AI처럼 기업들이 10년 이상 비상장을 유지하며 프리-IPO 성장이 사모 자본에 집중되는데, 과거 아마존은 창업 3년 만에 4억 3,800만 달러 가치로 상장했다. 세컨더리 SPV 볼륨은 2년간 545% 이상 늘었고 Hiive의 상위 50 세컨더리 바스켓은 2025년 49.1% 수익으로 S&P 500을 능가해, 현 인프라가 충족 못 하는 리테일 수요를 보여준다. 토큰화 RWA는 2026년 1분기 약 3,200억 달러에 달했고, TradeXYZ·HIP-3 같은 주식·상품 perp가 온체인 자산 스택의 주식형 노출 확장을 시사한다.",
+        "points": [
+          "주요 기업 10년+ 비상장 장기화",
+          "세컨더리 SPV 볼륨 2년간 545%+",
+          "RWA 1분기 약 3,200억 달러",
+          "토큰-지분 권리 분리 문제 해소 과제"
+        ],
+        "why": [
+          "프리-IPO 노출 수요의 온체인 해법 모색",
+          "리테일 접근성 확대 가능성"
+        ]
+      }
+    },
+    {
+      "id": "crypto-eth-staking-queue",
+      "title": "ETH 스테이킹 출구 큐 0, 입장 큐는 300만 ETH·52일 대기",
+      "summary": "언스테이킹 출구 큐가 0으로, 입장 큐는 약 300만 ETH(약 50억 달러)·52일 대기.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2064640214799421482.html",
+      "report": {
+        "tldr": "ETH 언스테이킹 출구 큐가 0으로 떨어진 반면 입장 큐는 약 300만 ETH로 52일 대기다.",
+        "what": "ETH 언스테이킹 출구 큐가 0으로 줄었고, 입장 큐는 현재 약 300만 ETH(약 50억 달러)를 담아 스테이킹까지 52일을 기다려야 한다.",
+        "points": [
+          "출구 큐 0",
+          "입장 큐 약 300만 ETH(약 50억 달러)",
+          "스테이킹 대기 52일"
+        ],
+        "why": [
+          "ETH 스테이킹 수요 강세 신호"
+        ]
+      }
+    },
+    {
+      "id": "crypto-rain-agent-control",
+      "title": "Rain, AI 에이전트 지출 통제 'Agent Control Layer' 출시",
+      "summary": "가맹점 범위 카드 한도·수취인 화이트리스트로 AI 에이전트 지출을 제약하는 결제 인프라.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2064335295655420129.html",
+      "report": {
+        "tldr": "Rain의 Agent Control Layer는 가맹점 범위 카드 한도와 수취인 화이트리스트로 AI 에이전트 지출을 제약한다.",
+        "what": "Rain의 Agent Control Layer는 운영자에게 가맹점 범위 카드 한도와 수취인 화이트리스트 이체를 제공해 AI 에이전트의 지출을 제약하는 결제 인프라 제품이다.",
+        "points": [
+          "가맹점 범위 카드 한도",
+          "수취인 화이트리스트 이체",
+          "AI 에이전트 지출 제약"
+        ],
+        "why": [
+          "에이전트 결제의 통제·안전장치 수요"
+        ]
+      }
+    },
+    {
+      "id": "crypto-btc-etf-slide",
+      "title": "비트코인 ETF 자산 776억 달러로 하락, 트럼프 당선 이후 최저",
+      "summary": "11개 미국 현물 BTC ETF 순자산 775.8억 달러, 2025년 10월 1,695억 달러 정점에서 급감.",
+      "source": "TLDR Crypto",
+      "url": "https://www.coindesk.com/markets/2026/06/10/bitcoin-etfs-are-no-bigger-today-than-when-trump-won-the-election",
+      "report": {
+        "tldr": "미국 현물 비트코인 ETF 순자산이 6월 9일 기준 775.8억 달러로 트럼프 당선 이후 최저로 떨어졌다.",
+        "what": "11개 미국 현물 비트코인 ETF의 순자산은 6월 9일 기준 775.8억 달러로, 2025년 10월 1,695.4억 달러 정점에서 크게 줄었다.",
+        "points": [
+          "현물 BTC ETF 순자산 775.8억 달러",
+          "2025년 10월 1,695억 달러 정점 대비 급감",
+          "트럼프 당선 이후 최저 수준"
+        ],
+        "why": [
+          "위험자산 재평가·ETF 유출 흐름"
+        ]
+      }
+    },
+    {
+      "id": "crypto-kraken-fifa",
+      "title": "크라켄, FIFA 월드컵 2026 공식 크립토 거래소 선정",
+      "summary": "크라켄이 월드컵 2026 공식 크립토 거래소 서포터 지위 확보, 104경기·16개 도시 노출.",
+      "source": "TLDR Crypto",
+      "url": "https://decrypt.co/370536/kraken-named-official-crypto-exchange-fifa-world-cup-2026",
+      "report": {
+        "tldr": "크라켄이 FIFA 월드컵 2026 공식 크립토 거래소 서포터 지위를 확보했다.",
+        "what": "크라켄은 FIFA 월드컵 2026 공식 크립토 거래소 서포터 지정을 받아, 104경기와 16개 개최 도시에 걸쳐 60억+ 글로벌 시청자에게 노출된다.",
+        "points": [
+          "월드컵 2026 공식 크립토 거래소 서포터",
+          "104경기·16개 도시",
+          "60억+ 시청자 노출"
+        ],
+        "why": [
+          "크립토 거래소의 대형 스포츠 마케팅"
+        ]
+      }
+    }
+  ]
+}

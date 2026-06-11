@@ -1,0 +1,269 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-amazon-data-loop",
+      "title": "아마존의 데이터 루프가 더 강해졌다",
+      "summary": "상거래 타깃팅+프리미엄 스트리밍+B2B 데이터 결합. 넷플릭스 시청자에 아마존 쇼핑 신호 타깃팅, LinkedIn 데이터 통합.",
+      "source": "TLDR Marketing",
+      "url": "https://www.brainlabsdigital.com/amazons-data-loop-just-got-stronger/",
+      "report": {
+        "tldr": "아마존이 상거래 타깃팅과 프리미엄 스트리밍·B2B 데이터를 결합해 CTV 우위를 확장했다.",
+        "what": "아마존은 상거래 기반 타깃팅을 프리미엄 스트리밍 인벤토리·새 B2B 오디언스 데이터와 결합해 CTV 우위를 확장했다. 광고주는 이제 아마존 쇼핑·구매 의도 신호로 넷플릭스 시청자를 타깃팅할 수 있어, 노출을 제품 조회·장바구니·구매와 연결해 CTV를 더 측정 가능한 채널로 만든다. 아마존은 또 LinkedIn의 10억+ 회원 데이터셋을 DSP에 통합해 B2B 마케터에게 역할·직급·산업 타깃팅을 대규모로 제공한다.",
+        "points": [
+          "상거래 신호로 넷플릭스 시청자 타깃팅",
+          "노출↔구매 연결로 측정성 강화",
+          "LinkedIn 10억+ 데이터 DSP 통합",
+          "B2B 역할·직급·산업 타깃팅"
+        ],
+        "why": [
+          "CTV 광고의 측정·정밀도 경쟁",
+          "아마존 광고 생태계 확장"
+        ]
+      }
+    },
+    {
+      "id": "mkt-instacart-stockout",
+      "title": "인스타카트, 품절 정직성이 지출 5.8% 높여",
+      "summary": "약 120만 쇼퍼 실험에서 저재고 사전 경고가 6개월간 지출을 5.8% 증가시켜. 주문 빈도 상승이 주효.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/hOPNZP",
+      "report": {
+        "tldr": "저재고 품목을 사전 경고하자 인스타카트 쇼퍼 지출이 6개월간 5.8% 증가했다.",
+        "what": "약 120만 인스타카트 쇼퍼를 대상으로 한 현장 실험에서, 저재고 품목을 사전 경고하자 6개월간 지출이 5.8% 늘었으며 이는 더 큰 장바구니가 아니라 더 잦은 주문에서 비롯됐다. 경고받은 쇼퍼는 표시 품목을 선택할 확률이 25% 낮아 더 잘 갖춰진 대안으로 전환했고, 이는 품절 환불을 2.6% 줄였다. 품절 경고를 전환 위험이 아닌 신뢰 신호로 재구성한 결과다.",
+        "points": [
+          "품절 사전 경고 실험(120만 쇼퍼)",
+          "지출 5.8% 증가",
+          "주문 빈도 상승이 견인",
+          "품절 환불 2.6% 감소"
+        ],
+        "why": [
+          "투명성이 신뢰·재방문을 높이는 사례",
+          "UX·마케팅의 신뢰 설계"
+        ]
+      }
+    },
+    {
+      "id": "mkt-b2b-youtube",
+      "title": "B2B 데모 파이프라인의 80%는 이미 유튜브에 있다",
+      "summary": "SaaS 8,566개 키워드 분석: 'demo' 검색의 80.2%에 유튜브가 1페이지 노출. 고가 검색광고 대체 기회.",
+      "source": "TLDR Marketing",
+      "url": "https://foundationinc.co/lab/b2b-youtube-data/",
+      "report": {
+        "tldr": "유튜브가 'demo' 검색의 80.2%에서 1페이지에 노출돼 고비용 검색광고를 대체할 B2B 채널이 됐다.",
+        "what": "유튜브는 인지 플랫폼을 넘어 고의도 B2B 획득 채널이 됐는데, 많은 SaaS 브랜드가 비싼 유료 검색과 직접 경쟁하는 오가닉 비디오 기회를 놓친다. SaaS 키워드 8,566개 분석 결과 유튜브는 'demo' 검색의 80.2%에서 1페이지에 나타났고, 구매자가 벤더를 평가하는 'review'·'vs'·'best' 쿼리의 약 20%에도 등장했다. 전략은 데모·비교·리뷰·체험·교육 검색에 유튜브 콘텐츠를 우선하고, 비디오 주제를 SEO·구글 광고의 고가치 키워드와 정렬하는 것이다.",
+        "points": [
+          "'demo' 검색 80.2%에 유튜브 1페이지",
+          "리뷰·vs·best 쿼리 약 20% 노출",
+          "CPC $20~49 의존 축소 기회",
+          "롱테일 콘텐츠가 최대 기회"
+        ],
+        "why": [
+          "오가닉 비디오의 B2B 획득 가치",
+          "검색광고 비용 절감 전략"
+        ]
+      }
+    },
+    {
+      "id": "mkt-brand-pillar-template",
+      "title": "브랜드 필러 템플릿: 검증된 것 vs 새로 시도",
+      "summary": "Jack Appleby의 이중 트랙 콘텐츠 필러. 60~80% 검증된 필러, 20~40% 실험 필러로 위험 분산.",
+      "source": "TLDR Marketing",
+      "url": "https://express.adobe.com/publishedV2/urn:aaid:sc:US:59738897-f69a-5bf7-b7b1-880a84f45d08",
+      "report": {
+        "tldr": "Jack Appleby의 이중 트랙 콘텐츠 필러 시스템은 검증된 아이디어와 실험적 아이디어를 분리한다.",
+        "what": "Jack Appleby의 이중 트랙 콘텐츠 필러 시스템은 검증된 아이디어와 실험적 아이디어를 나눈다. 과거 성과·확립된 업계 패턴에 기반한 '검증된(tried and true)' 필러에 콘텐츠의 60~80%를, 브랜드에 맞되 더 탐험적인 '새로 시도(trying new)' 필러에 20~40%를 배분한다. 이 구도는 핵심 콘텐츠의 안정적 성과를 보장하면서 창의적 테스트를 정당화해 인지 위험을 낮춘다. 분기마다 결과를 평가해 성공한 실험을 핵심으로 승격하고 실험 세트를 새로 채운다.",
+        "points": [
+          "검증·실험 이중 트랙",
+          "검증 60~80%, 실험 20~40%",
+          "위험 분산·창의 테스트 정당화",
+          "분기별 평가·승격"
+        ],
+        "why": [
+          "콘텐츠 전략의 균형 잡힌 프레임"
+        ]
+      }
+    },
+    {
+      "id": "mkt-prime-day-prep",
+      "title": "막판 프라임 데이 준비",
+      "summary": "6월 23일 프라임 데이는 AI 개요가 상거래 검색을 흡수해 더 좁아진 제휴 기회. 허브 페이지·실시간 업데이트 우선.",
+      "source": "TLDR Marketing",
+      "url": "https://www.seoforjournalism.com/p/last-minute-prime-day-prep",
+      "report": {
+        "tldr": "6월 23일 프라임 데이는 AI 개요가 상거래 검색을 흡수하며 과거보다 좁아진 제휴 기회다.",
+        "what": "6월 23일 프라임 데이는 AI 개요(AI Overviews)가 상거래 검색 의도를 흡수하면서 과거보다 좁은 제휴 기회가 됐다. 이미 시장에 있는 퍼블리셔는 깔끔한 내부 링크의 허브 페이지, 보통 행사 10일 전 정점에 달하는 관심을 노린 세밀한 키워드 모니터링, 세일 중 콘텐츠를 신선하게 유지하는 실시간 업데이트를 우선해야 한다. 확립된 제휴 버티컬이 없다면 단일 텐트폴 이벤트로 새로 구축하는 것은 유효한 전략이 아니다.",
+        "points": [
+          "AI 개요가 상거래 검색 흡수",
+          "허브 페이지·내부 링크 우선",
+          "관심 정점은 행사 약 10일 전",
+          "실시간 업데이트로 신선도 유지"
+        ],
+        "why": [
+          "제휴 마케팅의 AI 검색 시대 적응"
+        ]
+      }
+    },
+    {
+      "id": "mkt-preferred-sources",
+      "title": "Preferred Sources 링크 만드는 법",
+      "summary": "구글의 선호 소스 기능으로 AI 개요·AI 모드 노출 확률을 높이는 링크 생성·배포 방법.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/darrenshawwhitespark_google-just-gave-us-the-ultimate-shortcut-share-7470488750398021632-X4xK/",
+      "report": {
+        "tldr": "구글의 Preferred Sources 기능으로 AI 개요·AI 모드에 사이트 노출 확률을 높일 수 있다.",
+        "what": "구글의 Preferred Sources 기능은 사용자가 웹사이트를 선호 소스로 표시해 AI 개요·AI 모드에 나타날 가능성을 높이게 한다. 결과에서 'Preferred' 라벨도 얻을 수 있다. 'google.com/preferences/source?q=yourwebsite.com' 형식으로 선호 링크를 만든 뒤 뉴스레터·소셜·웹사이트에 배포하면, 사용자가 클릭해 체크박스로 사이트를 선호 소스로 선택하고 구글에 더 자주 노출하라는 신호를 준다.",
+        "points": [
+          "선호 소스 표시로 AI 노출 ↑",
+          "'Preferred' 라벨 획득",
+          "preferences/source 링크 생성",
+          "뉴스레터·소셜에 배포"
+        ],
+        "why": [
+          "AI 검색 가시성 확보 실전 팁"
+        ]
+      }
+    },
+    {
+      "id": "mkt-optimizely-test-learn",
+      "title": "Optimizely Test + Learn (가상 이벤트)",
+      "summary": "6월 17일 2시간 무료 이벤트. AI가 제품·성장팀의 실험을 어떻게 재편하는지 라이브 데모.",
+      "source": "TLDR Marketing",
+      "url": "https://www.optimizely.com/insights/test-and-learn/",
+      "report": {
+        "tldr": "6월 17일 Optimizely 가상 이벤트가 AI가 실험을 재편하는 방식을 다룬다.",
+        "what": "6월 17일 열리는 이 2시간 무료 이벤트는 AI가 제품·성장팀의 실험을 어떻게 재편하는지 탐구한다. 아이디어 발상·테스트 구축·우선순위화·결과 분석을 돕는 AI 에이전트의 라이브 데모를 선보이고, 팀이 즉시 적용할 실용 프레임을 공유한다. 키노트는 Elena Verna가 맡아 AI 과장과 실제 실험 사이의 간극을 다룬다.",
+        "points": [
+          "6월 17일 2시간 무료 이벤트",
+          "실험을 돕는 AI 에이전트 데모",
+          "즉시 적용 프레임 공유",
+          "Elena Verna 키노트"
+        ],
+        "why": [
+          "실험·그로스에 AI 적용 동향"
+        ]
+      }
+    },
+    {
+      "id": "mkt-ai-messages-backfire",
+      "title": "AI가 쓴 메시지가 역효과를 낼 때",
+      "summary": "브랜드가 감정적 메시지에 AI를 썼음을 알면 부정 반응. 6개 실험서 추천 의향 최대 24.6%↓, 도덕적 혐오 58.4%↑.",
+      "source": "TLDR Marketing",
+      "url": "https://app.sciencesays.com/p/when-ai-written-messages-backfire",
+      "report": {
+        "tldr": "브랜드가 감정적 메시지에 AI를 썼다는 사실을 알면 사람들은 부정적으로 반응한다.",
+        "what": "사람들은 브랜드가 감정적 마케팅 메시지(특히 공지·사과·창업자 노트)를 AI로 작성했음을 알면 부정적으로 반응한다. 2,200명 이상이 참여한 6개 실험에서 AI가 쓴 감정 메시지는 브랜드 추천 의향을 최대 24.6% 낮추고 도덕적 혐오감을 58.4% 높였다. 반발은 AI 생성 카피를 실제 사람이 쓴 것처럼 제시할 때 가장 강하다. 감정적 소통에는 AI 사용을 피하고, 가벼운 편집 도구로만 쓰되 최종 목소리는 인간적이고 구체적이며 진정성 있게 유지하라.",
+        "points": [
+          "감정 메시지 AI 사용에 부정 반응",
+          "추천 의향 최대 24.6% 감소",
+          "도덕적 혐오 58.4% 증가",
+          "사람 행세 시 반발 최대"
+        ],
+        "why": [
+          "AI 카피 사용의 신뢰 리스크",
+          "감정 소통의 인간 목소리 유지"
+        ]
+      }
+    },
+    {
+      "id": "mkt-comedy-collective",
+      "title": "다섯 친구의 코미디, 단일 스타 없는 크리에이터 브랜드 입증",
+      "summary": "What Happened Last Night, 전면 크리에이터 없이 주 1회 고품질 영상으로 인스타 10만+ 성장.",
+      "source": "TLDR Marketing",
+      "url": "https://www.netinfluencer.com/five-friends-making-comedy-together-prove-a-creator-brand-doesnt-need-a-single-star/",
+      "report": {
+        "tldr": "다섯 명의 코미디 집단이 단일 스타 없이 크리에이터 브랜드를 키울 수 있음을 보여줬다.",
+        "what": "What Happened Last Night는 전면에 나서는 단일 크리에이터 없이 인스타그램 팔로워 10만+로 성장한 5인 코미디 집단이다. 팀은 오랜 친구들이 만든 주 1회 고품질 영상에 의존했다. 출시 전 몇 달간 백로그를 쌓은 뒤, 분량보다 시네마틱 스토리텔링을 우선하는 긴밀한 작성·촬영 사이클에 안착했다.",
+        "points": [
+          "단일 스타 없는 크리에이터 브랜드",
+          "주 1회 고품질 영상",
+          "사전 백로그 구축",
+          "분량보다 스토리텔링 우선"
+        ],
+        "why": [
+          "집단형 크리에이터 브랜드 전략 사례"
+        ]
+      }
+    },
+    {
+      "id": "mkt-ap-x-swatch",
+      "title": "오데마 피게 × 스와치 브랜드 아키텍처",
+      "summary": "AP의 헤리티지·희소성과 스와치의 접근성을 결합한 '관리된 욕망'의 코브랜딩.",
+      "source": "TLDR Marketing",
+      "url": "https://brandingstrategyinsider.com/2026/06/the-brand-architecture-behind-audemars-piguet-x-swatch/",
+      "report": {
+        "tldr": "오데마 피게 × 스와치 컬렉션은 '관리된 욕망'의 코브랜딩 사례다.",
+        "what": "오데마 피게 × 스와치 Royal Pop 컬렉션은 AP의 헤리티지·희소성과 스와치의 접근성·문화적 파격을 짝지은 '관리된 욕망(managed desirability)' 연습이다. 핵심 제품을 건드리지 않으면서 럭셔리 브랜드로의 통제된 진입점을 만들었다. 아직 Royal Oak에 접근하지 못하는 젊은 층에게, 이 협업은 동경의 거리를 훼손하지 않고 보존하는 가격대에서 브랜드와의 문화적 근접성을 제공한다.",
+        "points": [
+          "헤리티지·희소성+접근성 결합",
+          "핵심 제품 비훼손 진입점",
+          "젊은 층 문화적 근접성",
+          "동경의 거리 보존"
+        ],
+        "why": [
+          "럭셔리 코브랜딩 전략 분석"
+        ]
+      }
+    },
+    {
+      "id": "mkt-slate-social-edits",
+      "title": "Slate 마케팅 책임자의 소셜 영상 편집법",
+      "summary": "Blackmagic Camera와 Slate로 '움직이는 엽서'를 편집하는 과정 워크스루.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/thesechapters_new-thing-im-doing-every-so-often-i-find-ugcPost-7470480765441519616-wOnK/",
+      "report": {
+        "tldr": "Blackmagic Camera와 Slate로 '움직이는 엽서' 영상을 편집하는 과정을 보여주는 워크스루다.",
+        "what": "Slate 마케팅 책임자가 Blackmagic Camera와 Slate를 이용해 '움직이는 엽서(moving postcard)'를 편집하는 방법을 보여주는 워크스루다.",
+        "points": [
+          "Blackmagic Camera + Slate",
+          "'움직이는 엽서' 편집",
+          "실전 워크스루 영상"
+        ],
+        "why": [
+          "소셜 영상 제작 실무 팁"
+        ]
+      }
+    },
+    {
+      "id": "mkt-google-sponsored-shops",
+      "title": "구글, SERP에 스폰서 매장 테스트",
+      "summary": "단일 소매업체의 여러 제품을 매장 평점·브랜드 신호와 함께 한 브랜드 유닛으로 묶는 새 쇼핑 광고 포맷.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/ymU3xU",
+      "report": {
+        "tldr": "구글이 단일 소매업체 제품을 한 브랜드 유닛으로 묶는 스폰서 매장 광고 포맷을 테스트한다.",
+        "what": "새 쇼핑 광고 포맷은 단일 소매업체의 여러 제품을 매장 평점·브랜드 신호와 함께 하나의 브랜드 유닛으로 묶어, 경쟁을 제품 수준에서 소매업체 수준으로 옮긴다.",
+        "points": [
+          "단일 소매업체 제품 묶음",
+          "매장 평점·브랜드 신호 포함",
+          "제품→소매업체 수준 경쟁 전환"
+        ],
+        "why": [
+          "쇼핑 광고 경쟁 구도 변화"
+        ]
+      }
+    },
+    {
+      "id": "mkt-ny-ai-performers",
+      "title": "뉴욕, 광고 내 AI 출연자 공개 의무화",
+      "summary": "뉴욕이 광고에서 AI 생성 출연자 공개를 법적으로 요구한 첫 주(州)가 됐다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.marketingbrew.com/stories/new-york-ai-performers-disclosure-advertising-transparency-effects",
+      "report": {
+        "tldr": "뉴욕이 광고에서 AI 생성 출연자 공개를 법적으로 요구한 최초의 주가 됐다.",
+        "what": "뉴욕은 광고에서 AI 생성 출연자의 공개(disclosure)를 법적으로 요구한 미국 최초의 주가 됐다.",
+        "points": [
+          "광고 내 AI 출연자 공개 의무",
+          "미국 최초 주 법제화"
+        ],
+        "why": [
+          "AI 광고 투명성 규제 흐름"
+        ]
+      }
+    }
+  ]
+}
