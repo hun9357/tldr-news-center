@@ -1,0 +1,271 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-openai-acquires-ona",
+      "title": "오픈AI, 장기 실행 에이전트 위해 Ona 인수",
+      "summary": "안전한 클라우드 실행·오케스트레이션을 Codex에 통합해 지속형 에이전트 환경을 구축한다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/ctRFpD",
+      "report": {
+        "tldr": "오픈AI가 Ona를 인수해 Codex에 안전한 클라우드 실행·오케스트레이션 역량을 더한다.",
+        "what": "오픈AI는 Ona를 인수해 Codex 플랫폼에 보안 클라우드 실행과 오케스트레이션 기능을 통합한다고 밝혔다. 이 기술은 에이전트가 긴 기간과 여러 세션에 걸쳐 작업을 이어갈 수 있는 지속형·고객 통제형 환경을 지원하는 것이 목적이다.",
+        "points": [
+          "Ona 인수로 Codex 강화",
+          "안전한 클라우드 실행·오케스트레이션 확보",
+          "지속형·고객 통제형 에이전트 환경 지향",
+          "장시간·다세션 작업 지원"
+        ],
+        "why": [
+          "코딩 에이전트의 장기 실행 인프라 경쟁 가속",
+          "Codex의 엔터프라이즈 활용성 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-backtrack-guardrails",
+      "title": "Anthropic, 연구 '방해' 논란 정책 철회",
+      "summary": "프런티어 LLM 보호장치를 몰래 적용해 응답을 저하시켰다는 비판에 가시화하기로 결정.",
+      "source": "TLDR AI",
+      "url": "https://www.engadget.com/2192004/anthropic-walks-back-policy-sabotaging-research/",
+      "report": {
+        "tldr": "Anthropic이 프런티어 LLM 개발용 안전장치를 연구자 반발 끝에 가시화하기로 했다.",
+        "what": "Anthropic은 특정 요청 시 응답을 조용히 열등 모델로 우회시키던 안전장치를 투명하게 공개하기로 했다. 연구자들은 Claude Fable 5가 경쟁 모델 학습, AI 코드 디버깅, 신경망 구조 최적화 같은 작업에서 거부하거나 응답을 저하시킨다는 점을 발견했다. 이는 투명성 부족과 함께, 기대대로 동작하지 않는 모델에 토큰·비용이 소모됐다는 우려를 불렀다.",
+        "points": [
+          "요청을 몰래 열등 모델로 우회",
+          "경쟁 모델 학습·디버깅 등에서 응답 저하",
+          "투명성 부족 논란",
+          "가시화로 정책 선회"
+        ],
+        "why": [
+          "프런티어 모델 가드레일 투명성 논쟁의 분수령",
+          "사용자 신뢰·비용 문제와 직결"
+        ],
+        "context": "같은 사안이 TLDR Dev·DevOps·Founders 등 여러 에디션에서 동시에 다뤄졌다."
+      }
+    },
+    {
+      "id": "ai-optimal-tokenizers",
+      "title": "최적 토크나이저 찾기",
+      "summary": "일부 설정에서 최적 토크나이저를 계산하는 알고리즘을 제시한 장문 분석.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/UdUQ8w",
+      "report": {
+        "tldr": "특정 조건에서 최적의 토크나이저를 계산할 수 있는 알고리즘을 소개한다.",
+        "what": "프런티어 AI 모델은 보통 토큰이라 불리는 정수 시퀀스로 학습된다. 각 토큰은 바이트 시퀀스를 가리키며 흔한 단어와 대응되는 경우가 많다. 이 글은 일부 설정에서 최적 토크나이저를 계산하는 알고리즘을 제시한다.",
+        "points": [
+          "토큰=바이트 시퀀스 매핑",
+          "최적 토크나이저 계산 알고리즘 제안",
+          "특정 설정에 한정된 최적성"
+        ],
+        "why": [
+          "토크나이저 설계가 모델 효율에 미치는 영향 재조명"
+        ]
+      }
+    },
+    {
+      "id": "ai-compute-commoditize",
+      "title": "컴퓨트는 대체 불가능하면 범용재가 될 수 있나",
+      "summary": "CoreWeave 공동창업자의 '컴퓨트 비대체성' 주장은 사실상 시장을 가격으로 드러낸다는 반론.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/7zrhza",
+      "report": {
+        "tldr": "컴퓨트가 범용 상품처럼 대체 가능하지 않다는 주장의 이면을 분석한다.",
+        "what": "CoreWeave 공동창업자 Brannin McBee는 컴퓨트가 상품처럼 대체 가능하지 않다고 주장했다. 그의 논리에는 일리가 있지만, '비상품' 프레이밍은 회사 가치의 핵심이기도 하다. 시장이 없다고 말하는 듯 보이지만 실제로는 시장을 가격으로 매기며 스프레드가 숨는 지점을 드러낸다.",
+        "points": [
+          "컴퓨트 비대체성 주장",
+          "비상품 프레이밍은 기업가치의 핵심",
+          "사실상 시장을 가격으로 노출",
+          "스프레드가 숨는 지점 분석"
+        ],
+        "why": [
+          "AI 컴퓨트 경제학과 가격 형성 이해에 시사"
+        ]
+      }
+    },
+    {
+      "id": "ai-vintage-llm-from-scratch",
+      "title": "바닥부터 만든 빈티지 LLM",
+      "summary": "약 $80로 베이스 학습·파인튜닝·데이터 파이프라인까지 직접 구현한 LLM 제작기.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/5Hp3Rk",
+      "report": {
+        "tldr": "한 개발자가 약 $80 비용으로 처음부터 자신만의 LLM을 만든 과정을 공유한다.",
+        "what": "이 글은 베이스 학습·파인튜닝 스크립트, 데이터 처리 파이프라인, 커스텀 데이터셋을 직접 만들어 LLM을 구축한 과정을 다룬다. 총 비용은 약 $80였지만 데이터 처리에 쓸 만한 PC가 필요했다. 모델과 코드는 글에서 공개된다.",
+        "points": [
+          "베이스 학습·파인튜닝 직접 구현",
+          "커스텀 데이터셋·파이프라인 제작",
+          "총 비용 약 $80",
+          "모델·코드 공개"
+        ],
+        "why": [
+          "저비용 LLM 자작의 실전 레퍼런스"
+        ]
+      }
+    },
+    {
+      "id": "ai-xiaomi-mimo-code",
+      "title": "샤오미 MiMo Code, 200+ 스텝 초장기 작업서 Claude Code 능가",
+      "summary": "오픈소스 터미널 코딩 에이전트로 교차 세션 메모리를 갖춰 장기 다단계 작업에서 우위.",
+      "source": "TLDR AI",
+      "url": "https://venturebeat.com/technology/xiaomis-new-open-source-agentic-ai-coding-harness-mimo-code-beats-claude-code-at-ultra-long-200-step-tasks",
+      "report": {
+        "tldr": "샤오미의 오픈소스 코딩 에이전트 MiMo Code가 장기·다단계 작업에서 Claude Code를 앞선다.",
+        "what": "MiMo Code V0.1.0은 샤오미의 오픈소스 터미널 네이티브 AI 코딩 어시스턴트다. 주요 에이전틱 코딩 벤치마크, 특히 장기·다단계 작업에서 Claude Code를 능가한다. 독립 서브에이전트가 결정·이슈·프로젝트 범위를 기록하는 교차 세션 메모리 시스템을 갖췄으며 MIT 라이선스로 GitHub에 공개됐다.",
+        "points": [
+          "오픈소스·터미널 네이티브",
+          "200+ 스텝 장기 작업서 우위",
+          "교차 세션 메모리 시스템",
+          "MIT 라이선스 공개"
+        ],
+        "why": [
+          "중국발 오픈 코딩 에이전트의 약진",
+          "장기 에이전트 메모리 설계의 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-pytorch-fused-mlp",
+      "title": "Fused MLP로 PyTorch 최적화하기",
+      "summary": "선형 연산에서 융합 MLP까지, PyTorch의 신경망 레이어 실행·최적화를 파고든다.",
+      "source": "TLDR AI",
+      "url": "https://huggingface.co/blog/torch-mlp-fusion",
+      "report": {
+        "tldr": "PyTorch가 신경망 레이어를 어떻게 실행·최적화하는지 개별 선형 연산부터 융합 MLP까지 살핀다.",
+        "what": "이 심층 분석은 개별 선형 연산에서 출발해 융합된 다층 퍼셉트론(MLP)에 이르기까지 PyTorch의 레이어 실행·최적화 과정을 단계적으로 탐구한다.",
+        "points": [
+          "개별 선형 연산 분석",
+          "연산 융합(fusion) 기법",
+          "융합 MLP 최적화"
+        ],
+        "why": [
+          "딥러닝 성능 엔지니어링 실무 참고"
+        ]
+      }
+    },
+    {
+      "id": "ai-predictive-data-debugging",
+      "title": "예측적 데이터 디버깅: 학습 전에 모델 행동 파악",
+      "summary": "선호 데이터셋 분석으로 학습 전에 잠재 행동을 드러내고 데이터를 재설계한다.",
+      "source": "TLDR AI",
+      "url": "https://www.goodfire.ai/research/predictive-data-debugging",
+      "report": {
+        "tldr": "학습 전에 선호 데이터셋을 분석해 모델 행동을 예측하고 교정하는 기법이다.",
+        "what": "예측적 데이터 디버깅은 선호 데이터셋을 분석해 학습 전에 잠재적 모델 행동을 식별한다. Silico 플랫폼에 통합돼 엔지니어가 데이터셋·학습 과정을 재설계해 원치 않는 효과를 막고 성능·안전을 함께 개선한다. 사례에서는 손상된 안전 가드레일, 환각 링크, 맥락별 아첨 같은 문제를 사전에 표적 교정했다.",
+        "points": [
+          "선호 데이터셋 사전 분석",
+          "학습 전 잠재 행동 예측",
+          "데이터·학습 재설계로 교정",
+          "안전·성능 동시 개선"
+        ],
+        "why": [
+          "사전 개입으로 안전·정렬 비용 절감",
+          "모델 학습 디버깅 방법론 확장"
+        ]
+      }
+    },
+    {
+      "id": "ai-oracle-shares-tumble",
+      "title": "오라클, 자본조달 확대·현금 우려에 주가 11% 급락",
+      "summary": "AI 투자로 자본지출 162% 급증, 연간 잉여현금흐름 마이너스에 추가 $200억 조달 예고.",
+      "source": "TLDR AI",
+      "url": "https://www.cnbc.com/2026/06/11/oracle-shares-tumble-11percent-on-increased-capital-raise-cash-concerns.html",
+      "report": {
+        "tldr": "오라클이 추가 $200억 자본조달과 마이너스 잉여현금흐름을 알리며 주가가 11% 급락했다.",
+        "what": "오라클은 투자자들에게 추가 $200억 자본조달을 예고했고 연간 잉여현금흐름이 마이너스라고 보고했다. 4분기 매출은 늘었지만 AI 인프라 구축으로 자본지출이 162% 늘어 $557억에 달했다. 막대한 지출이 이익 성장으로 이어질지에 대한 우려가 커지고 있다.",
+        "points": [
+          "추가 $200억 자본조달 예고",
+          "자본지출 162%↑ $557억",
+          "연간 잉여현금흐름 마이너스",
+          "주가 11% 급락"
+        ],
+        "why": [
+          "AI 인프라 과투자에 대한 시장 경계감",
+          "빅테크 캐펙스 사이클의 리스크"
+        ]
+      }
+    },
+    {
+      "id": "ai-open-models-2029",
+      "title": "미토스급 모델, 2029년이면 전 세계로 확산",
+      "summary": "오픈웨이트 모델이 프런티어를 수개월 차로 추격, 16GB RAM 기기 구동 가능성 전망.",
+      "source": "TLDR AI",
+      "url": "https://spateder.com/projects/20260611/openweightmodels",
+      "report": {
+        "tldr": "현 추세가 이어지면 2029년 초 16GB RAM 기기에서 도는 Fable 5급 오픈 모델이 가능하다는 전망이다.",
+        "what": "모델 성능은 꾸준히 향상돼 왔고 멈출 이유가 없다는 전제에서 출발한다. 오픈웨이트 모델은 벤치마크에서 프런티어 모델을 불과 수개월 차로 추격하고 있다. 현 추세가 지속되면 16GB RAM 기기에서 구동 가능한 Claude Fable 5급 오픈 모델이 2029년 초 등장할 가능성이 크다.",
+        "points": [
+          "오픈 모델, 프런티어를 수개월 차 추격",
+          "성능 향상 추세 지속 가정",
+          "2029년 초 온디바이스 미토스급 전망"
+        ],
+        "why": [
+          "오픈웨이트 확산의 속도·파급 논의",
+          "온디바이스 AI 보급 시나리오"
+        ]
+      }
+    },
+    {
+      "id": "ai-automated-ai-research",
+      "title": "자동 AI 연구를 향한 첫걸음",
+      "summary": "Recursive의 자동 AI 연구 시스템이 고정 예산 LM 학습·커널 최적화서 SOTA 달성.",
+      "source": "TLDR AI",
+      "url": "https://www.recursive.com/articles/first-steps-toward-automated-ai-research",
+      "report": {
+        "tldr": "Recursive의 자동 AI 연구 시스템이 여러 과제에서 최첨단 결과를 냈다.",
+        "what": "Recursive의 자동 AI 연구 시스템은 고정 예산 언어모델 학습, 소형 모델 속도, GPU 커널 최적화에서 최첨단(SOTA) 결과를 달성했다.",
+        "points": [
+          "고정 예산 LM 학습 SOTA",
+          "소형 모델 속도 개선",
+          "GPU 커널 최적화 성과"
+        ],
+        "why": [
+          "AI가 AI 연구를 가속하는 자동화 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-lab-business-model",
+      "title": "AI 랩의 더 나은 사업모델은 구독인가 API인가",
+      "summary": "구독의 총마진이 API보다 크게 나빠, 랩들이 신기능을 구독에서 보류할 가능성.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2064815044085318040.html",
+      "report": {
+        "tldr": "구독 매출의 총마진이 API보다 훨씬 나빠 랩들이 구독에서 신기능을 보류할 수 있다.",
+        "what": "전체적으로 구독의 총마진이 API보다 크게 나쁘기 때문에, AI 랩들은 신기능이나 신모델을 구독 플랜에서 보류하기 시작할 가능성이 높다는 분석이다.",
+        "points": [
+          "구독 총마진 < API 총마진",
+          "랩의 신기능 구독 보류 유인",
+          "수익모델 선택의 트레이드오프"
+        ],
+        "why": [
+          "AI 제품 가격·수익 전략 논쟁"
+        ]
+      }
+    },
+    {
+      "id": "ai-skillspector",
+      "title": "SkillSpector (GitHub)",
+      "summary": "NVIDIA가 만든, 설치 전 AI 에이전트 스킬의 보안 취약점을 스캔하는 도구.",
+      "source": "TLDR AI",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "report": {
+        "tldr": "NVIDIA의 SkillSpector는 설치 전에 AI 에이전트 스킬의 보안 취약점을 검사한다.",
+        "what": "NVIDIA가 개발한 SkillSpector는 AI 에이전트 스킬을 설치하기 전에 보안 취약점을 스캔하는 오픈소스 도구다.",
+        "points": [
+          "AI 에이전트 스킬 보안 스캐너",
+          "설치 전 취약점 탐지",
+          "NVIDIA 오픈소스"
+        ],
+        "why": [
+          "에이전트 스킬 공급망 보안 수요 부상"
+        ],
+        "action": "외부 에이전트 스킬 설치 전 스캔 적용 검토"
+      }
+    }
+  ]
+}

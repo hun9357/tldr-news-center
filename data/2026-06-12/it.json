@@ -1,0 +1,250 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-stackoverflow-for-agents",
+      "title": "Stack Overflow for Agents 발표",
+      "summary": "AI 코딩 에이전트용 API 우선 지식 교환소로 '일시적 지능 격차' 해소 지향.",
+      "source": "TLDR IT",
+      "url": "https://stackoverflow.blog/2026/06/10/announcing-stack-overflow-for-agents/",
+      "report": {
+        "tldr": "Stack Overflow가 AI 코딩 에이전트를 위한 API 우선 지식 교환소를 발표했다.",
+        "what": "Stack Overflow for Agents는 AI 코딩 에이전트를 위해 설계된 API 우선 지식 교환소다. 에이전트가 검색하고, 인간 검토를 거쳐 기여하며, 중재된 동료 합의 루프로 해법을 검증하게 해 '일시적 지능 격차(Ephemeral Intelligence Gap)'를 줄이고, 프로덕션 현실이 지식을 검증하며 축적되게 한다.",
+        "points": [
+          "API 우선 지식 교환소",
+          "에이전트의 검색·기여·검증",
+          "인간 검토·동료 합의 루프",
+          "일시적 지능 격차 해소"
+        ],
+        "why": [
+          "에이전트 시대 지식 공유 모델 재편",
+          "Stack Overflow의 생존 전략 전환"
+        ]
+      }
+    },
+    {
+      "id": "it-adobe-earnings-skepticism",
+      "title": "어도비, 실적 호조에도 AI 회의론에 주가 하락",
+      "summary": "2분기 기대 상회·연간 전망 상향에도 CFO의 Marvell 이직 발표로 주가 7년래 최저.",
+      "source": "TLDR IT",
+      "url": "https://www.msn.com/en-us/money/topstocks/adobe-tops-targets-but-stock-sinks-to-7-year-low-as-cfo-departs/ar-AA25q9Uf",
+      "report": {
+        "tldr": "어도비가 호실적에도 CFO 이직과 AI 경쟁 우려로 주가가 7년래 최저로 떨어졌다.",
+        "what": "어도비는 기대를 웃도는 2분기 실적과 연간 전망 상향을 발표했지만, CFO Dan Durn이 Marvell로 떠난다고 밝히자 주가가 하락했다. 투자자들은 어도비의 AI 제품이 신흥 생성형 AI 경쟁자로부터 사업을 지킬 수 있을지 주시하고 있다.",
+        "points": [
+          "2분기 실적 기대 상회",
+          "연간 전망 상향",
+          "CFO Marvell 이직",
+          "AI 경쟁 우려에 주가 약세"
+        ],
+        "why": [
+          "생성형 AI 시대 어도비 방어력 의문",
+          "경영진 변동 리스크"
+        ]
+      }
+    },
+    {
+      "id": "it-ai-memory-shortage",
+      "title": "AI발 메모리 부족이 IT 예산을 뒤흔든다",
+      "summary": "AI 인프라 구축이 DRAM·NAND 구조적 부족을 촉발해 기업 IT 예산 배분을 압박.",
+      "source": "TLDR IT",
+      "url": "https://www.eetimes.com/ai-driven-memory-shortage-upends-it-budgets/",
+      "report": {
+        "tldr": "AI 인프라 수요가 DRAM·NAND 구조적 부족을 일으켜 IT 예산을 뒤흔들고 있다.",
+        "what": "AI 인프라의 급속한 구축이 고급 메모리 수요를 폭증시켜 DRAM과 NAND 플래시의 구조적 부족을 촉발했다. 이 부족은 기업 IT 부서와 OEM을 압박하며 IT 예산 배분 방식을 근본적으로 바꾸고 있다.",
+        "points": [
+          "AI 인프라발 메모리 수요 폭증",
+          "DRAM·NAND 구조적 부족",
+          "기업 IT·OEM 압박",
+          "예산 배분 방식 변화"
+        ],
+        "why": [
+          "하드웨어 조달 비용 상승 리스크",
+          "AI 캐펙스의 2차 파급"
+        ]
+      }
+    },
+    {
+      "id": "it-adobe-cx-coworker",
+      "title": "어도비 AI 에이전트, 마케팅 실행 병목 겨냥",
+      "summary": "CX Enterprise Coworker로 고객 데이터·워크플로·에이전트를 조율해 캠페인 실행 지원.",
+      "source": "TLDR IT",
+      "url": "https://www.enterprisetimes.co.uk/2026/06/11/adobes-ai-agent-tackles-marketings-execution-gap/",
+      "report": {
+        "tldr": "어도비가 마케팅의 실험-실행 격차를 메우는 에이전틱 AI 'CX Enterprise Coworker'를 출시했다.",
+        "what": "어도비는 마케팅 팀이 AI 실험에서 실행으로 넘어가도록 돕는 에이전틱 AI 제품 CX Enterprise Coworker를 내놨다. 고객 데이터·워크플로·에이전트를 조율해 캠페인 운영과 개인화를 지원한다.",
+        "points": [
+          "에이전틱 AI 마케팅 제품",
+          "고객 데이터·워크플로 조율",
+          "캠페인 운영·개인화 지원",
+          "실험→실행 격차 해소"
+        ],
+        "why": [
+          "엔터프라이즈 마케팅 자동화 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "it-jfrog-claude-code-plugin",
+      "title": "JFrog, Claude Code용 보안 플러그인 출시",
+      "summary": "Artifactory·Curation·Agent Guard를 연결해 AI 코딩에 보안·거버넌스 내장.",
+      "source": "TLDR IT",
+      "url": "https://jfrog.com/blog/introducing-the-jfrog-plugin-for-claude-code/",
+      "report": {
+        "tldr": "JFrog가 Claude Code에 보안·거버넌스를 내장하는 플러그인을 출시했다.",
+        "what": "JFrog는 Anthropic의 Claude Code에 보안·거버넌스를 심는 플러그인을 선보였다. 아티팩트 접근·추적용 Artifactory, 의존성 안전 검사용 Curation, 거버넌스형 MCP 서버 관리용 Agent Guard를 연결해 AI 에이전트가 조직 정책 안에서 코드·의존성을 제안하도록 한다.",
+        "points": [
+          "Claude Code에 보안·거버넌스 내장",
+          "Artifactory·Curation·Agent Guard 연결",
+          "의존성 안전 검사",
+          "정책 준수형 에이전트 운영"
+        ],
+        "why": [
+          "AI 코딩의 공급망·거버넌스 통제 수요"
+        ]
+      }
+    },
+    {
+      "id": "it-databricks-storage-ecosystem",
+      "title": "Databricks 스토리지 생태계·OpenSharing 발표",
+      "summary": "데이터 이동 없이 기업 스토리지를 Unity Catalog로 거버넌스 연결.",
+      "source": "TLDR IT",
+      "url": "https://www.databricks.com/blog/announcing-databricks-storage-ecosystem-governing-enterprise-data-estate-wherever-it-lives",
+      "report": {
+        "tldr": "Databricks가 데이터 이동 없이 기업 스토리지를 연결하는 SDS 생태계와 OpenSharing을 발표했다.",
+        "what": "Databricks는 Software-Defined Storage(SDS) 생태계와 OpenSharing 프로토콜을 발표해 데이터를 옮기지 않고 기업 스토리지 환경을 Databricks에 연결한다. OpenSharing 서버를 Unity Catalog와 통합해 온프렘·하이브리드 구조 데이터에 안전한 거버넌스 접근을 제공하고, 향후 Volumes API로 비정형 데이터까지 확장할 계획이다.",
+        "points": [
+          "데이터 이동 없는 연결",
+          "OpenSharing 프로토콜",
+          "Unity Catalog 통합 거버넌스",
+          "비정형 데이터 확장 예정"
+        ],
+        "why": [
+          "하이브리드 데이터 거버넌스 강화",
+          "GenAI 워크로드 데이터 접근성"
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-tcs-partnership",
+      "title": "Anthropic, TCS와 엔터프라이즈 AI 배포 제휴",
+      "summary": "TCS가 전담 사업부 신설·신모델 조기 접근, Claude를 5만+ 직원에 배포.",
+      "source": "TLDR IT",
+      "url": "https://techcrunch.com/2026/06/11/anthropic-taps-tcs-to-scale-its-enterprise-ai-deployments/",
+      "report": {
+        "tldr": "Anthropic과 TCS가 엔터프라이즈 고객에 모델을 배포하는 글로벌 제휴를 맺었다.",
+        "what": "TCS와 Anthropic은 엔터프라이즈 고객 전반에 Anthropic 모델을 배포하는 글로벌 파트너십을 발표했다. TCS는 전담 사업부를 만들고 신모델 조기 접근 권한을 얻으며 Claude를 5만 명 넘는 직원에게 배포한다.",
+        "points": [
+          "글로벌 엔터프라이즈 배포 제휴",
+          "TCS 전담 사업부 신설",
+          "신모델 조기 접근",
+          "Claude 5만+ 직원 배포"
+        ],
+        "why": [
+          "대형 SI 통한 엔터프라이즈 AI 확산"
+        ]
+      }
+    },
+    {
+      "id": "it-servicenow-patch",
+      "title": "ServiceNow, 일부 고객 악용 취약점 패치",
+      "summary": "잘못 구성된 엔드포인트로 비인증 쿼리가 가능했던 결함을 6월 5일 업데이트로 수정.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/g1zM9x",
+      "report": {
+        "tldr": "ServiceNow가 일부 고객 인스턴스를 노린 공격 정황 후 클라우드 취약점을 패치했다.",
+        "what": "ServiceNow는 일부 고객 인스턴스를 겨냥한 공격 증거가 나온 뒤 클라우드 플랫폼 취약점을 패치했다. 6월 5일 발행된 업데이트는 엔드포인트 구성을 바꿔 인증 사용자만 접근하도록 제한했으며, 회사는 이상 활동을 감지하고 일부 고객에 대한 성공적 쿼리를 관측했다고 밝혔다.",
+        "points": [
+          "잘못 구성된 엔드포인트",
+          "비인증 쿼리 악용 정황",
+          "6월 5일 업데이트로 제한",
+          "일부 고객 영향"
+        ],
+        "why": [
+          "멀티테넌트 SaaS 구성 오류 위험"
+        ],
+        "action": "ServiceNow 통보 여부 확인 및 구성 점검"
+      }
+    },
+    {
+      "id": "it-google-cbrs-shutdown",
+      "title": "구글, CBRS SAS 관리 서비스 종료",
+      "summary": "6월 10일 신규 접수 중단, 2027년 6월 기존 고객 서비스 종료—사설 무선 영향.",
+      "source": "TLDR IT",
+      "url": "https://www.sdxcentral.com/news/google-set-to-shutter-cbrs-sas-management-service/",
+      "report": {
+        "tldr": "구글이 CBRS 스펙트럼 접근 시스템 서비스를 단계적으로 종료한다.",
+        "what": "구글은 2026년 6월 10일부터 CBRS Spectrum Access System 서비스의 신규 고객 접수를 중단했고, 2027년 6월 10일 기존 고객 대상 서비스를 종료한다. 사설 무선 배포에 구글의 클라우드 관리 스펙트럼 서비스를 쓰던 조직이 영향을 받는다.",
+        "points": [
+          "6월 10일 신규 접수 중단",
+          "2027년 6월 기존 서비스 종료",
+          "사설 무선 배포 영향"
+        ],
+        "why": [
+          "엔터프라이즈 무선 인프라 대체 필요"
+        ]
+      }
+    },
+    {
+      "id": "it-pocketsentry",
+      "title": "PocketSentry (GitHub)",
+      "summary": "Go로 작성된 경량·자체호스팅 Sentry 호환 오류 추적기.",
+      "source": "TLDR IT",
+      "url": "https://github.com/apvcode/pocketsentry",
+      "report": {
+        "tldr": "PocketSentry는 Sentry 프로토콜을 따르는 경량·자체호스팅 오류 추적기다.",
+        "what": "PocketSentry는 Go로 작성된 가볍고 자체 호스팅 가능한 오류 추적기로, Sentry 프로토콜과 호환된다.",
+        "points": [
+          "Go 기반 경량 도구",
+          "자체 호스팅 가능",
+          "Sentry 프로토콜 호환"
+        ],
+        "why": [
+          "경량 옵저버빌리티 자체 운영 옵션"
+        ]
+      }
+    },
+    {
+      "id": "it-relationalai-snowflake",
+      "title": "RelationalAI, Snowflake 네이티브 에이전트 확장",
+      "summary": "운영 중심 워크플로 전반에 에이전틱 의사결정 인텔리전스 기능 추가.",
+      "source": "TLDR IT",
+      "url": "https://www.blocksandfiles.com/flash/2026/06/11/storage-ticker-11-june/5253949",
+      "report": {
+        "tldr": "RelationalAI가 Snowflake 고객을 위한 에이전틱 의사결정 인텔리전스를 확장했다.",
+        "what": "RelationalAI는 운영 부담이 큰 워크플로 전반에 걸쳐 Snowflake 고객을 위한 새로운 에이전틱 의사결정 인텔리전스 기능을 추가했다.",
+        "points": [
+          "Snowflake 네이티브 에이전트",
+          "에이전틱 의사결정 인텔리전스",
+          "운영 워크플로 적용"
+        ],
+        "why": [
+          "데이터 웨어하우스 내 에이전트 확산"
+        ]
+      }
+    },
+    {
+      "id": "it-oracle-ai-spending",
+      "title": "오라클 AI 지출, 투자자 우려",
+      "summary": "공격적 AI 인프라 투자 계획이 부채·현금흐름·경쟁 비용 우려를 키움.",
+      "source": "TLDR IT",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/oracle-beats-fourth-quarter-revenue-201213128.html",
+      "report": {
+        "tldr": "오라클의 공격적 AI 인프라 지출이 부채·현금흐름 우려를 불렀다.",
+        "what": "오라클의 공격적인 AI 인프라 지출 계획이 부채, 현금흐름, 그리고 클라우드 AI 경쟁 비용에 대한 투자자 우려를 키웠다.",
+        "points": [
+          "공격적 AI 인프라 투자",
+          "부채·현금흐름 우려",
+          "클라우드 AI 경쟁 비용"
+        ],
+        "why": [
+          "AI 캐펙스 대 수익성 논쟁(AI 에디션 기사와 연계)"
+        ]
+      }
+    }
+  ]
+}

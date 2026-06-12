@@ -1,0 +1,283 @@
+{
+  "name": "빅테크 & 스타트업",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-bezos-prometheus",
+      "title": "제프 베이조스, '인공 일반 엔지니어' 만든다",
+      "summary": "신생기업 Prometheus가 거의 모든 기기 설계·제조를 개선하는 엔지니어링 도구 개발 추진.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/0TwxBA",
+      "report": {
+        "tldr": "베이조스의 신생기업 Prometheus가 제품 설계·제조를 가속하는 엔지니어링 도구를 만든다.",
+        "what": "제프 베이조스의 새 스타트업 Prometheus는 사실상 모든 기기의 설계·제조를 개선하는 새 엔지니어링 도구를 만들려 한다. 컴퓨터·자동차·우주선 등 물리 제품을 설계·제작하는 기업의 효율을 높이고 '발명 루프'를 가속하는 것이 목표이며, 베이조스의 다른 회사들도 수혜를 볼 수 있다.",
+        "points": [
+          "거의 모든 기기 설계·제조 대상",
+          "발명 루프 가속 지향",
+          "'인공 일반 엔지니어' 비전",
+          "베이조스 계열사 시너지"
+        ],
+        "why": [
+          "물리 제조에 AI를 접목하는 빅베팅"
+        ]
+      }
+    },
+    {
+      "id": "tech-spacex-ipo",
+      "title": "스페이스X IPO, 역대 최대 $750억 조달",
+      "summary": "공모주 4배 초과 청약, 나스닥·나스닥 텍사스 상장—머스크 조만장자 가능성 거론.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/vnDRq0",
+      "report": {
+        "tldr": "스페이스X가 IPO로 역대 최대 규모인 $750억을 조달했다.",
+        "what": "스페이스X는 IPO로 $750억을 조달했다. 역대 최대 규모인 이번 공모는 가용 주식의 4배 넘는 수요를 끌어모았다. 주식은 금요일 나스닥과 나스닥 텍사스에 데뷔하며, 성공적 데뷔는 일론 머스크를 조만장자로 만들 수 있다.",
+        "points": [
+          "역대 최대 IPO $750억",
+          "4배 초과 청약",
+          "나스닥·나스닥 텍사스 상장",
+          "머스크 조만장자 가능성"
+        ],
+        "why": [
+          "자본시장 사상 최대 데뷔",
+          "민간 우주·기술 IPO 분위기 가늠자"
+        ]
+      }
+    },
+    {
+      "id": "tech-house-robots-cute",
+      "title": "집안 로봇이 온다—'위험할 만큼 귀엽게'",
+      "summary": "룸바 창업자가 만든 털복숭이 로봇 'The Familiar', 광고·인게이지먼트 없이 기본 오프라인.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/nF7jqw",
+      "report": {
+        "tldr": "룸바 창업자가 만든 가정용 로봇 The Familiar는 데이터를 기본적으로 클라우드에 보내지 않는다.",
+        "what": "The Familiar는 룸바를 만든 Colin Angle의 회사가 개발한, 개 크기의 부드럽고 털 있는 로봇이다. AI로 소통하며 가족과 친밀한 유대를 형성한다. 관심이 아닌 '존재감'을 포착하도록 설계돼 광고 모델·인게이지먼트 피드·체류시간 보상 구조가 없다. 인터넷에 연결될 수 있지만 기본값은 데이터를 클라우드에 보내지 않고 온라인 접근 전 허락을 구한다.",
+        "points": [
+          "룸바 창업자의 가정용 로봇",
+          "친밀한 유대 형성 지향",
+          "광고·인게이지먼트 모델 없음",
+          "기본 오프라인·동의 기반"
+        ],
+        "why": [
+          "프라이버시 우선 소비자 로봇 실험",
+          "빅테크 인게이지먼트 모델 대안"
+        ]
+      }
+    },
+    {
+      "id": "tech-nasa-dsn-artemis",
+      "title": "NASA 심우주통신망, 아르테미스 II서 '잘 작동'",
+      "summary": "아르테미스 I서 한계 노출 후 조율·스케줄링 개선으로 더 높은 데이터 요구에도 선방.",
+      "source": "TLDR",
+      "url": "https://arstechnica.com/space/2026/06/after-nearly-breaking-nasas-deep-space-network-worked-well-on-artemis-ii/",
+      "report": {
+        "tldr": "NASA의 심우주통신망(DSN)이 개선 끝에 아르테미스 II에서 더 나은 성능을 냈다.",
+        "what": "NASA의 DSN은 4년 전 아르테미스 I 당시 과학 미션의 일상 수요조차 못 따라가 다운링크를 줄이거나 지연시켰다. 이후 조율·스케줄링 중심의 새 절차를 도입했고, 더 높은 데이터 요구를 가진 아르테미스 II에서 더 나은 결과를 냈다. 다만 망의 한계와 높은 수요는 여전히 과제다.",
+        "points": [
+          "아르테미스 I서 한계 노출",
+          "조율·스케줄링 절차 개선",
+          "II서 더 높은 요구에도 선방",
+          "수요·용량 과제 지속"
+        ],
+        "why": [
+          "유인 달 미션 통신 인프라 신뢰성"
+        ]
+      }
+    },
+    {
+      "id": "tech-good-vertical-agent",
+      "title": "좋은 버티컬 에이전트 만들기",
+      "summary": "맥락을 메모리 계층처럼 구축해 정확도를 높여라—데이터 과다는 노이즈를 부른다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/pmphV4",
+      "report": {
+        "tldr": "버티컬 에이전트는 맥락을 메모리 계층처럼 설계해 정확도를 끌어올려야 한다.",
+        "what": "과거 모델은 커스텀 도구와 일일이 명시된 지시가 필요했지만, 오늘날 모델은 방대한 맥락을 흡수해 원시 데이터를 추론한다. 큰 컨텍스트 윈도가 더 많은 데이터를 넣고 싶게 하지만 노이즈는 정확도를 떨어뜨린다. 맥락을 메모리 계층처럼 구축해 정확도를 높이라는 조언이다.",
+        "points": [
+          "모델의 맥락 흡수 능력 향상",
+          "데이터 과다는 노이즈로 정확도↓",
+          "맥락=메모리 계층 설계",
+          "원시 데이터 추론 활용"
+        ],
+        "why": [
+          "에이전트 컨텍스트 엔지니어링 실무 원칙"
+        ]
+      }
+    },
+    {
+      "id": "tech-homebrew-6",
+      "title": "Homebrew 6.0.0",
+      "summary": "탭 신뢰(tap trust) 보안 기제, 기본 JSON API, 리눅스 샌드박싱, macOS 27 초기 지원.",
+      "source": "TLDR",
+      "url": "https://brew.sh/2026/06/11/homebrew-6.0.0/",
+      "report": {
+        "tldr": "Homebrew 6.0은 탭 신뢰 보안 기제와 기본 JSON API, 리눅스 샌드박싱을 도입했다.",
+        "what": "Homebrew 6.0.0의 핵심은 새 탭 신뢰(tap trust) 보안 기제, 기본 내부 JSON API, 리눅스 샌드박싱, 개선된 기본값과 brew bundle 개선, 성능 향상, macOS 27 초기 지원이다. 이제 탭은 코드 평가·실행 전에 명시적으로 신뢰돼야 해 악성·손상 탭 위험을 줄인다.",
+        "points": [
+          "탭 신뢰 보안 기제",
+          "기본 JSON API 전환",
+          "리눅스 샌드박싱",
+          "macOS 27 초기 지원"
+        ],
+        "why": [
+          "패키지 관리자 공급망 보안 강화"
+        ]
+      }
+    },
+    {
+      "id": "tech-my-ai-opinions",
+      "title": "나의 AI 견해 (Scott Alexander)",
+      "summary": "AI 타임라인·안전·지정학 등에 대한 장문 에세이.",
+      "source": "TLDR",
+      "url": "https://www.astralcodexten.com/p/my-ai-opinions",
+      "report": {
+        "tldr": "Scott Alexander가 AI 타임라인·안전·지정학에 대한 견해를 장문으로 풀어낸다.",
+        "what": "미국 서부 해안의 의사이자 Lorien Psychiatry에서 정신건강 새 모델을 연구하는 Scott Alexander가 AI 타임라인, AI 안전, 지정학 등에 대한 자신의 생각을 담은 글이다.",
+        "points": [
+          "AI 타임라인 전망",
+          "AI 안전 관점",
+          "지정학적 함의"
+        ],
+        "why": [
+          "영향력 있는 논평가의 AI 종합 견해"
+        ]
+      }
+    },
+    {
+      "id": "tech-why-ai-not-replace-engineers",
+      "title": "AI가 소프트웨어 엔지니어를 대체 못 한 이유",
+      "summary": "코딩은 병목이 아니었다—결정·명세·검증·책임이라는 핵심은 AI가 얇게 만들지 못한다.",
+      "source": "TLDR",
+      "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+      "report": {
+        "tldr": "진짜 병목은 코딩이 아니라 무엇을 만들지 결정·명세하고 검증·책임지는 일이라는 주장이다.",
+        "what": "코드 작성은 애초에 소프트웨어 개발의 병목이 아니었다. 개발자는 코딩에 의외로 적은 시간을 쓰며, 에이전트로 코드를 짜도 전체 생산성에는 큰 영향이 없었다는 연구도 있다. 진짜 병목은 무엇을 만들지 결정·명세하고, 결과를 검증·책임지며, 그 둘에 필요한 깊은 인간 이해다. AI가 '결정' 층을 얇게 만들지 못하고, 결정이 위임 가능해지는 순간 그것은 더 이상 경쟁우위가 아니다.",
+        "points": [
+          "코딩은 병목이 아님",
+          "결정·명세·검증·책임이 핵심",
+          "에이전트의 생산성 영향 제한적",
+          "결정의 위임=경쟁우위 소멸"
+        ],
+        "why": [
+          "AI 대체론에 대한 균형 잡힌 반론"
+        ]
+      }
+    },
+    {
+      "id": "tech-waymo-premier",
+      "title": "웨이모, 월 $29.99 프리미어 구독 출시",
+      "summary": "우선 매칭, 월 5회 무료 취소, 탑승당 10% 로열티 적립—일부 도시 시작.",
+      "source": "TLDR",
+      "url": "https://www.cnbc.com/2026/06/11/waymo-launches-premier-subscription-tier-for-29point99-a-month.html",
+      "report": {
+        "tldr": "웨이모가 우선 매칭 등 혜택을 담은 월 $29.99 프리미어 구독을 일부 도시에서 시작한다.",
+        "what": "웨이모 프리미어 구독자는 우선 매칭, 월 최대 5회 무료 취소, 탑승당 10% 로열티 적립 혜택을 받는다.",
+        "points": [
+          "월 $29.99 구독",
+          "우선 매칭 제공",
+          "월 5회 무료 취소",
+          "탑승당 10% 적립"
+        ],
+        "why": [
+          "로보택시의 구독형 수익화 실험"
+        ]
+      }
+    },
+    {
+      "id": "tech-greyscale-iphone",
+      "title": "일상에서 통하는 흑백 아이폰 설정",
+      "summary": "화면을 흑백으로 바꾸면 스크린타임을 크게 줄일 수 있다.",
+      "source": "TLDR",
+      "url": "https://www.fabianhemmert.com/opinions/a-greyscale-iphone-setup-that-works-in-everyday-life",
+      "report": {
+        "tldr": "아이폰을 흑백으로 설정하면 스크린타임을 의미 있게 줄일 수 있다.",
+        "what": "휴대폰을 흑백(greyscale)으로 설정하는 것이 스크린타임을 크게 줄이는 데 도움이 된다는 실용 가이드다.",
+        "points": [
+          "흑백 설정으로 스크린타임 감소",
+          "일상에서 지속 가능한 방법"
+        ],
+        "why": [
+          "디지털 웰빙 실천 팁"
+        ]
+      }
+    },
+    {
+      "id": "tech-terry-tao-ai-math",
+      "title": "테렌스 타오, 수학 AI 전도사가 되기까지",
+      "summary": "수천 개 소문제로 쪼갤 수 있는 수학 문제 해결에 AI가 적합하다고 본 수학자.",
+      "source": "TLDR",
+      "url": "https://www.quantamagazine.org/how-terry-tao-became-an-evangelist-for-ai-in-math-20260608/",
+      "report": {
+        "tldr": "테렌스 타오는 AI가 수학자를 대체하진 않지만 큰 문제를 잘게 쪼개 푸는 데 적합하다고 본다.",
+        "what": "테렌스 타오는 AI가 가까운 시일에 인간 수학자를 대체하리라 보지 않았지만, 수천 개의 작고 다루기 쉬운 소문제로 분해 가능한 수학 문제를 푸는 데 이 기술이 잘 맞는다고 판단했다.",
+        "points": [
+          "AI가 수학자 대체는 회의적",
+          "문제 분해 해결에 적합",
+          "대규모 소문제 병렬 처리"
+        ],
+        "why": [
+          "선도 수학자의 AI 활용 관점"
+        ]
+      }
+    },
+    {
+      "id": "tech-doing-nothing-at-work",
+      "title": "직장에서 아무것도 안 하기",
+      "summary": "성과는 아웃라이어 작업이 좌우—항상 100%로 갈지 말고 기회 탐색에 힘을 아껴라.",
+      "source": "TLDR",
+      "url": "https://www.seangoedecke.com/doing-nothing-at-work/",
+      "report": {
+        "tldr": "테크 기업 성과는 아웃라이어 작업이 지배하므로 기회 탐색을 위해 에너지를 아끼라는 조언이다.",
+        "what": "테크 기업에서의 성과는 아웃라이어 작업에 의해 지배된다. 그래서 항상 100% 노력으로 갈아 넣기보다, 에너지와 시간을 아껴 그런 큰 기회를 찾는 데 쓰라는 주장이다.",
+        "points": [
+          "성과는 아웃라이어 작업이 좌우",
+          "상시 풀가동의 비효율",
+          "기회 탐색에 에너지 배분"
+        ],
+        "why": [
+          "커리어 에너지 관리 관점"
+        ]
+      }
+    },
+    {
+      "id": "tech-deltadb-commits",
+      "title": "소프트웨어는 커밋과 커밋 사이에서 만들어진다",
+      "summary": "DeltaDB는 에이전트와의 대화와 워크트리를 공유 아티팩트로 바꾸는 버전관리 시스템.",
+      "source": "TLDR",
+      "url": "https://zed.dev/blog/introducing-deltadb",
+      "report": {
+        "tldr": "DeltaDB는 대화와 편집을 하나의 일관된 추상화로 묶는 버전관리 시스템이다.",
+        "what": "DeltaDB는 에이전트와의 대화와 그들이 편집하는 워크트리를 공유 아티팩트로 변환하는 단일 일관 추상화 위에 구축된 버전관리 시스템이다.",
+        "points": [
+          "커밋 사이 모든 작업 추적",
+          "대화·워크트리를 공유 아티팩트화",
+          "단일 일관 추상화"
+        ],
+        "why": [
+          "에이전트 협업 시대의 버전관리 재구상"
+        ]
+      }
+    },
+    {
+      "id": "tech-rivian-r2",
+      "title": "첫 시승: 2027 리비안 R2, EV 게임을 바꾸다",
+      "summary": "기대작 리비안 R2의 고객 인도가 이번 달 시작됐다.",
+      "source": "TLDR",
+      "url": "https://arstechnica.com/cars/2026/06/first-drive-the-2027-rivian-r2-entirely-changes-the-ev-game/",
+      "report": {
+        "tldr": "기대를 모은 리비안 R2의 고객 인도가 이번 달 시작됐다.",
+        "what": "오래 기다려온 리비안 R2의 고객 인도가 이번 달 시작됐다는 첫 시승기다.",
+        "points": [
+          "리비안 R2 인도 시작",
+          "대중형 EV 기대작"
+        ],
+        "why": [
+          "보급형 전기차 경쟁 본격화"
+        ]
+      }
+    }
+  ]
+}

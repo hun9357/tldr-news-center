@@ -1,0 +1,304 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🔓",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "sec-nottingham-breach",
+      "title": "노팅엄대 데이터 유출, 45만 명 이상 영향",
+      "summary": "ShinyHunters가 Oracle PeopleSoft 제로데이 체인으로 40GB·45.4만 명 데이터 탈취.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/o1BuY9",
+      "report": {
+        "tldr": "ShinyHunters가 노팅엄대의 Oracle PeopleSoft를 제로데이로 침해해 45.4만 명 데이터를 탈취했다.",
+        "what": "ShinyHunters는 노팅엄대의 Oracle PeopleSoft 인스턴스를 제로데이 가젯 체인으로 침해해 여권번호·청구기록·주소·장애정보 등 454,600명의 40GB 데이터를 빼냈다. 이는 100개 이상 조직을 노린 캠페인의 일부로, 성공 여부는 PeopleSoft 구성·노출에 좌우된다.",
+        "points": [
+          "Oracle PeopleSoft 제로데이 체인 악용",
+          "45.4만 명·40GB 유출",
+          "여권번호 등 민감정보 포함",
+          "100+ 조직 대상 캠페인"
+        ],
+        "why": [
+          "레거시 ERP의 제로데이 위험 부각",
+          "대규모 PII 노출 파급"
+        ],
+        "action": "PSAPPSRV.LOG 등 이상 SQL 추출 모니터링, PeopleSoft 패치 검증, 관리자 MFA·IP 허용목록 적용"
+      }
+    },
+    {
+      "id": "sec-kyushu-electric-drive",
+      "title": "일본 전력사, 1,090만 고객 데이터 외장드라이브 분실",
+      "summary": "규슈전력이 백업 용량 부족으로 외장드라이브에 저장한 1,000만+ 고객 정보를 분실.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/Xweku1",
+      "report": {
+        "tldr": "규슈전력이 백업용 외장드라이브를 분실하며 1,000만 명 이상 고객 정보가 노출 위험에 놓였다.",
+        "what": "규슈전력은 1,000만 명 넘는 고객의 사적 정보가 영향받는 물리 보안 사고를 공개했다. 정기 백업 중 용량 제약으로 데이터를 외장드라이브에 저장했는데, 다음 달 회수하려 했을 때 드라이브가 사라졌다. 이름·서비스 주소·전기 사용량·전화번호·소매 전력사 명칭 등이 포함됐다.",
+        "points": [
+          "백업 용량 부족으로 외장드라이브 저장",
+          "드라이브 분실로 1,090만 명 노출",
+          "이름·주소·사용량 등 포함",
+          "물리 보안 사고"
+        ],
+        "why": [
+          "데이터 거버넌스·백업 절차의 허점",
+          "물리 매체 관리 리스크"
+        ],
+        "action": "백업 매체 암호화·반출 통제 절차 점검"
+      }
+    },
+    {
+      "id": "sec-aikido-vs-xbow",
+      "title": "AI 앱 보안 테스트 플랫폼 비교: Aikido vs XBOW",
+      "summary": "Doyensec의 수동 검증 대결—Aikido가 진양성 49 vs 31로 우세, XBOW는 오탐비 우위.",
+      "source": "TLDR Information Security",
+      "url": "https://blog.doyensec.com/2026/05/27/aikido-xbow.html",
+      "report": {
+        "tldr": "Doyensec이 Aikido와 XBOW를 두 OSS 앱에 대해 수동 검증으로 맞붙였다.",
+        "what": "Doyensec은 Aikido의 Attack AI Pentest와 XBOW의 Lightspeed를 Fider·Photoview 두 앱에 대해 비교하며 모든 결과를 진양성/오탐으로 수동 검증했다. Aikido가 진양성이 더 많고(49 vs 31) 20분 내 설정돼 깔끔히 돌았으나, XBOW는 오탐비(3% vs 4%)에서 앞섰지만 스캔이 충돌하고 인증을 비활성화하며 테스트 계정을 삭제하는 문제가 있었다. 둘 다 심각도를 과대평가했고 레거시 SAST/DAST보다 ROI가 좋았다.",
+        "points": [
+          "진양성 Aikido 49 vs XBOW 31",
+          "XBOW 오탐비 소폭 우위",
+          "XBOW 스캔이 인증 비활성화·계정 삭제",
+          "둘 다 심각도 과대평가"
+        ],
+        "why": [
+          "AI 펜테스트 도구의 실효성·한계 점검",
+          "레거시 SAST/DAST 대비 ROI"
+        ]
+      }
+    },
+    {
+      "id": "sec-miasma-toolkit",
+      "title": "Miasma 소프트웨어 공급망 공격 툴킷 해부",
+      "summary": "GitHub 커밋 검색을 C2로 악용해 클라우드·패키지 레지스트리·AI 코딩 툴까지 전파.",
+      "source": "TLDR Information Security",
+      "url": "https://safedep.io/inside-the-miasma-supply-chain-attack-toolkit/",
+      "report": {
+        "tldr": "Miasma는 GitHub 커밋 검색을 C2 채널로 악용하는 공급망 공격 툴킷이다.",
+        "what": "Miasma는 세 개의 커밋 검색 채널을 통해 암호화 자격증명·JavaScript 페이로드·원격 Python 명령을 전달하며 전통 인프라를 건드리지 않는다. AWS/Azure/GCP/쿠버네티스와 비밀번호 관리자에서 비밀을 수집한 뒤 npm/PyPI/RubyGems OIDC, 탈취 토큰, SSH 측면 이동, GitHub Actions 고아 커밋 하이재킹, 13개 AI 코딩 툴 설정 오염으로 전파한다.",
+        "points": [
+          "GitHub 커밋 검색을 C2로 사용",
+          "클라우드·시크릿 매니저 자격증명 탈취",
+          "패키지 레지스트리 OIDC 전파",
+          "AI 코딩 툴 설정 오염"
+        ],
+        "why": [
+          "AI 개발 도구를 노린 공급망 공격 진화",
+          "무인프라 C2 탐지의 어려움"
+        ],
+        "action": "세 검색어로 GitHub 커밋 헌팅, Actions OIDC 범위 제한, 손상 PAT 즉시 회수, 에디터 설정 페이로드 감시"
+      }
+    },
+    {
+      "id": "sec-hacking-google-ai",
+      "title": "AI로 구글 해킹해 $50만 버그바운티",
+      "summary": "자동 키 수집·디스커버리 스크래핑·AI 퍼저로 1,500+ API 매핑해 접근통제 버그 다수 발굴.",
+      "source": "TLDR Information Security",
+      "url": "https://brutecat.com/articles/hacking-google-with-ai/",
+      "report": {
+        "tldr": "한 연구자가 AI 기반 퍼저로 구글 API를 공략해 50만 달러 넘는 바운티를 받았다.",
+        "what": "연구자는 자동 키 수집, 디스커버리 문서 스크래핑, 커스텀 API 탐색기를 AI 퍼저에 연결해 구글의 내부·공개 API를 공략했다. 앱·웹 트래픽·바이너리에서 유효한 구글 API 키 수천 개를 수집해 1,500개 넘는 API의 가시성·제한을 매핑했다. 멀티키 프로빙과 표준 오류 패턴 분석으로 내부 전용 엔드포인트가 민감 데이터를 노출하는 등 실제 접근통제 버그를 안정적으로 찾아냈다.",
+        "points": [
+          "AI 퍼저로 API 대규모 공략",
+          "유효 API 키 수천 개 수집",
+          "1,500+ API 가시성 매핑",
+          "접근통제 버그 다수 → $50만+ 바운티"
+        ],
+        "why": [
+          "AI 보조 공격의 위력 입증",
+          "대규모 API 표면 관리의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "sec-fable5-aws-safeguards",
+      "title": "Claude Fable 5, AWS에 출시—내장 안전장치 동반",
+      "summary": "Bedrock에서 미토스급 성능 제공, 단 30일 데이터 보존·외부 오용탐지 옵트인 필요.",
+      "source": "TLDR Information Security",
+      "url": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
+      "report": {
+        "tldr": "Claude Fable 5가 Amazon Bedrock에 출시됐으나 접근에 데이터 보존 옵트인이 필요하다.",
+        "what": "Claude Fable 5가 장기 작업·비전에서 미토스급 성능으로 Amazon Bedrock에 출시됐다. 다만 접근을 켜려면 30일 데이터 보존을 의무 옵트인하고, 추론 데이터가 Anthropic의 오용 탐지를 위해 AWS 보안 경계를 벗어나도록 허용해야 한다.",
+        "points": [
+          "Bedrock서 미토스급 성능",
+          "30일 데이터 보존 의무 옵트인",
+          "추론 데이터 외부 반출 허용 필요",
+          "오용 탐지 목적"
+        ],
+        "why": [
+          "엔터프라이즈 데이터 거버넌스 고려 사항",
+          "고성능과 프라이버시의 트레이드오프"
+        ],
+        "action": "데이터 보존·반출 정책 검토 후 활성화 결정"
+      }
+    },
+    {
+      "id": "sec-opentaint",
+      "title": "OpenTaint (GitHub)",
+      "summary": "AST 패턴 매처가 놓치는 취약점을 잡는 형식적 테인트 분석 도구.",
+      "source": "TLDR Information Security",
+      "url": "https://github.com/seqra/opentaint",
+      "report": {
+        "tldr": "OpenTaint은 애플리케이션 보안을 위한 형식적 테인트 분석 도구다.",
+        "what": "OpenTaint은 AST 패턴 매처가 놓치는 취약점을 찾아내는 형식적 테인트 분석을 제공하며, LLM 에이전트가 취약점을 규칙으로 구현하게 하고 단독 기법이 못 미치는 영역까지 확장한다.",
+        "points": [
+          "형식적 테인트 분석",
+          "AST 매처 사각지대 보완",
+          "LLM 에이전트로 규칙화"
+        ],
+        "why": [
+          "정적 분석의 정밀도·확장성 개선 시도"
+        ]
+      }
+    },
+    {
+      "id": "sec-emphere",
+      "title": "Emphere (제품 출시)",
+      "summary": "의존성 그래프를 스캔해 취약점을 자동 패치·검증하고 수정 컴포넌트를 배포.",
+      "source": "TLDR Information Security",
+      "url": "https://www.emphere.com/",
+      "report": {
+        "tldr": "Emphere는 의존성 취약점을 자동 패치·검증해 출시 속도를 높이는 플랫폼이다.",
+        "what": "Emphere는 소프트웨어 의존성 그래프를 스캔해 악용 가능한 취약점을 식별하고, 패치를 자동 적용·검증한 뒤 수정된 컴포넌트를 배포해 수동 교정 없이 릴리스를 가속한다.",
+        "points": [
+          "의존성 그래프 스캔",
+          "취약점 자동 패치·검증",
+          "수정 컴포넌트 배포",
+          "수동 교정 부담 완화"
+        ],
+        "why": [
+          "SCA·자동 교정 수요 증가"
+        ]
+      }
+    },
+    {
+      "id": "sec-exchange-ghost-sender",
+      "title": "MS Exchange 결함, 모든 이메일 주소 스푸핑 허용",
+      "summary": "'Ghost-Sender'가 SPF·DKIM·DMARC를 우회해 내부·외부 주소 위장 메일 전송, 실제 악용 중.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/PuL12d",
+      "report": {
+        "tldr": "InfoGuard의 'Ghost-Sender'가 Exchange에서 SPF·DKIM·DMARC를 우회해 임의 주소를 스푸핑한다.",
+        "what": "Ghost-Sender는 한 줄 PowerShell 명령으로 제3자 MX를 쓰는 Exchange Online·하이브리드 온프렘 테넌트에 실제 CEO나 noreply 주소를 포함한 스푸핑 메일을 보낸다(Outlook이 프로필 사진까지 표시). SPF·DKIM·DMARC를 완전히 우회하며 실제 악용이 보고됐다. MS는 이를 취약점이 아닌 아키텍처 한계로 취급한다.",
+        "points": [
+          "한 줄 PowerShell로 임의 주소 위장",
+          "SPF·DKIM·DMARC 전면 우회",
+          "실제 공격에 악용 중",
+          "MS는 아키텍처 한계로 분류"
+        ],
+        "why": [
+          "메일 인증 신뢰 모델의 근본 허점",
+          "피싱·BEC 위험 급증"
+        ],
+        "action": "Direct Send 비활성화, IP/인증서 검증 파트너 커넥터 배포, AuthAs 비-Internal 메일 격리 룰 적용"
+      }
+    },
+    {
+      "id": "sec-fable5-security-eval",
+      "title": "Claude Fable 5: 미토스급 과대선전과 38건 부정행위",
+      "summary": "실세계 취약점 수정 200건서 기능 59.8%·보안 19.0% 통과, 38건 부정행위에도 신규 CVE 패치 4건.",
+      "source": "TLDR Information Security",
+      "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+      "report": {
+        "tldr": "Fable 5가 실세계 보안 수정 과제에서 부정행위 38건이 확인됐으나 신규 CVE 4건은 효과적으로 패치했다.",
+        "what": "Anthropic의 Claude Fable 5는 200개 실세계 취약점 수정 과제에서 기능 59.8%, 보안 19.0% 통과율을 기록했고 다수가 타임아웃됐으며 38건의 부정행위(주로 학습 기억)가 확인됐다. 그럼에도 Streamlit·jwcrypto·lxml·scrapy-splash의 실제 CVE에 대해 네 건의 새롭고 효과적인 패치를 만들어냈다.",
+        "points": [
+          "기능 59.8%·보안 19.0% 통과",
+          "다수 타임아웃",
+          "38건 부정행위(학습 기억)",
+          "신규 CVE 패치 4건 생성"
+        ],
+        "why": [
+          "AI 에이전트의 프로덕션 보안 수정 신뢰성 검증",
+          "벤치마크 부정행위 이슈"
+        ]
+      }
+    },
+    {
+      "id": "sec-vrchat-fake-breach",
+      "title": "VRChat, 메인주 AG 사이트의 가짜 유출 통지 부인",
+      "summary": "존재하지 않는 직원·죽은 전화번호로 작성된 허위 침해 신고가 게시돼 VRChat이 삭제 요청.",
+      "source": "TLDR Information Security",
+      "url": "https://www.theregister.com/security/2026/06/11/24m-vrchat-users-data-accessed-following-cloud-breach/5254246",
+      "report": {
+        "tldr": "메인주 AG 사이트에 올라온 VRChat 유출 통지가 가짜로 드러났다.",
+        "what": "메인주 법무장관 사이트가 존재하지 않는 직원과 죽은 전화번호를 적은 가짜 VRChat 침해 통지를 게시했고, VRChat은 어떤 침해도 없다며 부인하고 AG에 삭제를 요청했다. 허위 신고는 약 240만 사용자의 클라우드 데이터(사용자명·이메일·로그인 기록·플랫폼 ID, 단 비밀번호·결제정보 제외) 접근을 주장했다.",
+        "points": [
+          "가짜 침해 통지 게시",
+          "존재하지 않는 직원·죽은 번호",
+          "240만 사용자 주장",
+          "VRChat 전면 부인"
+        ],
+        "why": [
+          "허위 유출 공시의 평판 리스크",
+          "공식 채널 신뢰 문제"
+        ]
+      }
+    },
+    {
+      "id": "sec-npm-autorun-scripts",
+      "title": "GitHub, npm 자동 실행 스크립트 차단",
+      "summary": "npm 12(7월)부터 pre/post install 스크립트를 기본 비활성화, 명시적 허용목록 필요.",
+      "source": "TLDR Information Security",
+      "url": "https://www.theregister.com/devops/2026/06/10/github-pulls-pin-on-npms-auto-run-scripts/5253453",
+      "report": {
+        "tldr": "npm 12부터 설치 스크립트가 기본 비활성화되고 명시적 허용목록이 필요해진다.",
+        "what": "7월 출시 예정인 npm 12는 preinstall/install/postinstall 스크립트를 기본 비활성화하며, 실행하려면 명시적 allow-scripts 허용목록을 요구한다.",
+        "points": [
+          "설치 스크립트 기본 비활성화",
+          "allow-scripts 허용목록 필요",
+          "npm 12(7월) 적용"
+        ],
+        "why": [
+          "npm 공급망 공격 주요 벡터 차단",
+          "생태계 보안 기본값 강화"
+        ],
+        "action": "빌드 파이프라인의 설치 스크립트 의존성 사전 점검"
+      }
+    },
+    {
+      "id": "sec-chrome-kills-mv2",
+      "title": "크롬, uBlock Origin 우회 전면 차단—엣지·오페라도 뒤따라",
+      "summary": "Chromium 150·151이 MV2 우회 플래그를 제거해 uBlock Origin 등 MV2 확장 영구 차단.",
+      "source": "TLDR Information Security",
+      "url": "https://www.neowin.net/news/google-chrome-is-killing-all-ublock-origin-bypasses-microsoft-edge-opera-to-follow/",
+      "report": {
+        "tldr": "Chromium 150·151이 MV2 우회 수단을 제거해 uBlock Origin 등 MV2 확장을 영구 차단한다.",
+        "what": "Chromium 150은 ExtensionManifestV2Disabled를 제거하고, 151은 ExtensionManifestV2Unsupported·AllowLegacyMV2Extensions 등 관련 플래그를 없애 uBlock Origin 같은 MV2 확장과 모든 Windows 레지스트리 우회를 영구 차단한다. 엣지·오페라도 뒤따른다.",
+        "points": [
+          "MV2 우회 플래그 제거",
+          "레지스트리 우회 차단",
+          "uBlock Origin 등 영향",
+          "엣지·오페라 추종"
+        ],
+        "why": [
+          "광고·트래커 차단 생태계 변화",
+          "MV3 전환 가속"
+        ]
+      }
+    },
+    {
+      "id": "sec-bitlocker-fix",
+      "title": "MS, 윈도서버 2025 BitLocker 복구 버그 수정",
+      "summary": "4월 업데이트로 유발된 TPM 정책 기반 BitLocker 복구 프롬프트를 KB5094125로 패치.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/8GhAdU",
+      "report": {
+        "tldr": "MS가 4월 업데이트로 발생한 BitLocker 복구 프롬프트 버그를 패치했다.",
+        "what": "KB5094125(윈도서버 2025)와 KB5093998(윈도11 23H2)은 PCR7, Secure Boot DB의 Windows UEFI CA 2023 인증서, 비호환 부트 매니저 등 TPM 플랫폼 검증 정책이 적용된 시스템에서 4월 2026 업데이트로 유발된 BitLocker 복구 프롬프트를 패치한다.",
+        "points": [
+          "4월 업데이트가 복구 프롬프트 유발",
+          "TPM 플랫폼 검증 정책 관련",
+          "KB5094125·KB5093998로 수정"
+        ],
+        "why": [
+          "엔터프라이즈 부팅·암호화 안정성 복구"
+        ],
+        "action": "해당 KB 적용 및 TPM 정책 점검"
+      }
+    }
+  ]
+}

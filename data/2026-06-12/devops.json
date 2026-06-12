@@ -1,0 +1,247 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "do-fable5-aws-bedrock",
+      "title": "Claude Fable 5, AWS Bedrock·Claude Platform 출시",
+      "summary": "위험 프롬프트는 Opus 4.8로 자동 라우팅, 접근에 30일 보존·인간검토 옵트인 필요.",
+      "source": "TLDR DevOps",
+      "url": "https://aws.amazon.com/blogs/aws/anthropic-claude-fable-5-on-aws-mythos-class-capabilities-with-built-in-safeguards-now-available/",
+      "report": {
+        "tldr": "Claude Fable 5가 AWS에 출시되며 위험 프롬프트를 구형 Opus 4.8로 자동 라우팅한다.",
+        "what": "Anthropic의 Claude Fable 5가 Amazon Bedrock과 AWS의 Claude Platform에 출시됐다. 소프트웨어 엔지니어링·지식 작업서 최고 성능을 내면서 사이버·생물·화학·건강 관련 잠재 유해 프롬프트는 구형 Opus 4.8로 자동 라우팅한다. US East(버지니아북부)·유럽(스톡홀름) 리전서 제공되며, 접근에는 Bedrock Data Retention API를 통한 30일 보존·인간 검토 옵트인이 필요하다.",
+        "points": [
+          "Bedrock·Claude Platform 출시",
+          "위험 프롬프트 Opus 4.8 라우팅",
+          "버지니아·스톡홀름 리전",
+          "30일 보존·인간검토 옵트인"
+        ],
+        "why": [
+          "엔터프라이즈 배포 시 데이터 정책 고려"
+        ]
+      }
+    },
+    {
+      "id": "do-agent-substrate-kagent",
+      "title": "Agent Substrate, kagent으로 쿠버네티스서 에이전트 구동",
+      "summary": "Solo.io·구글 협업 오픈소스—샌드박스 에이전트를 0으로 스케일·50~200ms 재개.",
+      "source": "TLDR DevOps",
+      "url": "https://www.solo.io/blog/agent-substrate-powers-kubernetes-agents-with-kagent",
+      "report": {
+        "tldr": "Solo.io와 구글이 쿠버네티스서 샌드박스 AI 에이전트를 돌리는 오픈소스 Agent Substrate를 공개했다.",
+        "what": "Solo.io는 구글과 협업한 Agent Substrate 프로젝트를 발표했다. 샌드박스 AI 에이전트를 쿠버네티스에서 실행하며 0으로 스케일하고, 유휴 에이전트를 스토리지로 일시중단했다가 50~200ms에 재개하며, 엄격한 테넌트 격리로 여러 에이전트 인스턴스를 단일 파드에 담는다. Solo.io는 Bubblewrap·Landlock·seccomp·Firecracker 마이크로VM 기반 자체 기술을 오픈소스화하려다 구글의 겹치는 아키텍처를 발견해 합치기로 했다.",
+        "points": [
+          "쿠버네티스서 샌드박스 에이전트",
+          "0으로 스케일·50~200ms 재개",
+          "단일 파드 다중 에이전트",
+          "Solo.io·구글 협업"
+        ],
+        "why": [
+          "에이전트 런타임 인프라 표준화 시도"
+        ]
+      }
+    },
+    {
+      "id": "do-nitro-formally-verified",
+      "title": "형식 검증으로 AWS Nitro, 최초의 형식검증 클라우드 하이퍼바이저",
+      "summary": "Graviton5 상시 기능, 33만 줄 기계검증 증명으로 EC2 VM 격리 수학적 보장.",
+      "source": "TLDR DevOps",
+      "url": "https://www.amazon.science/blog/ec2s-formally-verified-isolation-engine-provides-mathematical-assurance-of-virtual-machine-isolation",
+      "report": {
+        "tldr": "AWS Nitro Isolation Engine이 EC2 VM 간 격리를 수학적으로 검증한 최초 사례다.",
+        "what": "새 AWS Nitro Isolation Engine은 EC2 가상머신 간 격리를 수학적으로 검증해 제공하며 Graviton5 사용자에게 상시 기능으로 탑재된다. 핵심 격리 로직은 Isabelle/HOL·μRust·Separation Logic으로 검증된 소형 Rust 분리 커널을 거치며, 기밀성·무결성·기능적 정확성·런타임·메모리 안전을 아우르는 33만 줄의 기계 검증 증명이 뒷받침한다.",
+        "points": [
+          "EC2 VM 격리 수학적 검증",
+          "Graviton5 상시 기능",
+          "Rust 분리 커널",
+          "33만 줄 기계검증 증명"
+        ],
+        "why": [
+          "클라우드 멀티테넌시 신뢰성 진전"
+        ]
+      }
+    },
+    {
+      "id": "do-formal-methods-jane-street",
+      "title": "형식 방법과 프로그래밍의 미래 (제인스트리트)",
+      "summary": "에이전틱 코딩이 검증의 비용-편익을 바꿔, 형식 방법 팀을 신설한다.",
+      "source": "TLDR DevOps",
+      "url": "https://blog.janestreet.com/formal-methods-at-jane-street-index/",
+      "report": {
+        "tldr": "제인스트리트가 에이전틱 코딩 시대에 맞춰 형식 방법 팀을 만든다.",
+        "what": "제인스트리트는 에이전틱 코딩이 소프트웨어 검증의 비용-편익을 바꿨기 때문에 형식 방법 팀을 구축하고 있다. AI 에이전트는 유용한 코드를 빠르게 생성하지만 과도하게 복잡하고 미묘한 버그·놓친 불변식을 만드는 경향이 있어, 형식 방법이 인간 리뷰어를 위한 검증 도구이자 에이전트가 더 안전·고품질 코드를 내게 하는 피드백 기제로 더 매력적이 됐다.",
+        "points": [
+          "에이전틱 코딩이 검증 경제 변화",
+          "에이전트는 복잡·미묘 버그 유발",
+          "형식 방법=검증 도구 겸 피드백",
+          "안전·품질 향상"
+        ],
+        "why": [
+          "AI 코딩 시대 형식 검증 재부상"
+        ]
+      }
+    },
+    {
+      "id": "do-terraform-autoapply",
+      "title": "conftest로 안전한 Terraform 자동 적용",
+      "summary": "plan을 JSON으로 내보내 Rego 정책 검사 통과 시에만 자동 적용해 블래스트 반경 제한.",
+      "source": "TLDR DevOps",
+      "url": "https://www.bejarano.io/terraform-autoapply/",
+      "report": {
+        "tldr": "Terraform plan을 결정론적 정책 검사로 통과시킬 때만 안전하게 자동 적용할 수 있다.",
+        "what": "Terraform plan은 서두른 인간 리뷰나 비결정적 AI 판단 대신 결정론적 정책-as-코드 검사를 통과할 때 안전하게 자동 적용할 수 있다. plan을 JSON으로 내보내 conftest/Rego로 평가하면, 생성만 허용·블래스트 반경 제한·리소스 타입 제한·프로덕션 변경의 인간 검토 게이팅 같은 안전 규칙을 명시적으로 정의할 수 있다.",
+        "points": [
+          "결정론적 정책 검사로 자동 적용",
+          "plan→JSON→conftest/Rego",
+          "블래스트 반경·타입 제한",
+          "프로덕션 변경 인간 게이팅"
+        ],
+        "why": [
+          "IaC 자동화의 안전 가드레일 패턴"
+        ]
+      }
+    },
+    {
+      "id": "do-agentsview",
+      "title": "AgentsView (GitHub)",
+      "summary": "20+ AI 코딩 에이전트의 비용·사용량을 로컬서 추적, ccusage 대비 100배 빠르다 주장.",
+      "source": "TLDR DevOps",
+      "url": "https://github.com/kenn-io/agentsview",
+      "report": {
+        "tldr": "AgentsView는 20개 넘는 AI 코딩 에이전트의 비용·사용량을 로컬에서 추적한다.",
+        "what": "AgentsView는 Claude Code·Codex 등 20개 넘는 AI 코딩 에이전트의 비용·사용량을 추적하는 오픈소스 도구로, 계정 없이 전적으로 로컬에서 돌며 SQLite 인덱싱으로 ccusage 대비 100배 빠르다고 주장한다. 머신의 에이전트 세션을 자동 발견해 토큰 소비·컴퓨트 비용을 웹 UI로 보여주며, 팀 대시보드용 PostgreSQL·DuckDB 백엔드도 지원하되 기본은 데이터를 로컬에 유지한다.",
+        "points": [
+          "20+ 에이전트 비용·사용량 추적",
+          "로컬·계정 불필요",
+          "SQLite로 100배 빠름 주장",
+          "팀 대시보드 백엔드 지원"
+        ],
+        "why": [
+          "에이전트 비용 가시성 수요"
+        ]
+      }
+    },
+    {
+      "id": "do-skillspector",
+      "title": "SkillSpector (GitHub)",
+      "summary": "AI 에이전트 스킬의 취약점·악성코드를 설치 전 탐지—스킬 26.1%가 취약 연구 대응.",
+      "source": "TLDR DevOps",
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "report": {
+        "tldr": "SkillSpector는 AI 에이전트 스킬의 취약점·악성코드를 설치 전에 탐지한다.",
+        "what": "SkillSpector는 스킬의 26.1%가 취약점을, 5.2%가 악성 의도를 보인다는 연구에 대응해 설치 전 취약점·악성코드를 탐지하는 오픈소스 보안 스캐너다. Apache 라이선스 도구로 LLM 기반 의미 분석과 패턴 매칭의 2단계 파이프라인으로 16개 범주의 64개 취약점 유형을 식별하고 OSV.dev로 의존성을 검사한다.",
+        "points": [
+          "스킬 26.1% 취약·5.2% 악성",
+          "2단계 탐지 파이프라인",
+          "64개 취약점 유형 식별",
+          "OSV.dev 의존성 검사"
+        ],
+        "why": [
+          "에이전트 스킬 공급망 보안 도구"
+        ],
+        "action": "외부 스킬 설치 전 스캔 도입"
+      }
+    },
+    {
+      "id": "do-discord-voice-edge",
+      "title": "디스코드 음성을 엣지로 옮긴 과정",
+      "summary": "음성·영상 트래픽 80%+를 Cloudflare 300+ 도시망으로 이전, 프랑크푸르트 핑 34%↓.",
+      "source": "TLDR DevOps",
+      "url": "https://discord.com/blog/how-we-moved-discord-voice-to-the-edge",
+      "report": {
+        "tldr": "디스코드가 음성·영상 트래픽 80% 이상을 Cloudflare 엣지망으로 옮겨 품질을 개선했다.",
+        "what": "디스코드는 음성·영상 트래픽의 80% 이상을 전통 클라우드에서 Cloudflare의 300+ 도시 네트워크로 이전해 70% 지역에서 품질을 개선했고 프랑크푸르트는 핑 34%·패킷 손실 42%를 줄였다. 1년에 걸친 이전은 Cloudflare의 임시 컨테이너 아키텍처를 다룰 커스텀 인프라 구축과, 프랑스 ISP 피어링 병목, NIC 큐 경쟁, Rust 이벤트 루프 기아 등 난제 해결을 요구했다.",
+        "points": [
+          "음성·영상 80%+ 엣지 이전",
+          "Cloudflare 300+ 도시망",
+          "프랑크푸르트 핑 34%↓",
+          "1년간 인프라 난제 해결"
+        ],
+        "why": [
+          "대규모 실시간 트래픽 엣지 이전 사례"
+        ]
+      }
+    },
+    {
+      "id": "do-deltadb-commits",
+      "title": "소프트웨어는 커밋 사이에서 만들어진다",
+      "summary": "DeltaDB가 커밋 사이 모든 연산을 기록해 코드 변경과 대화를 영구 연결.",
+      "source": "TLDR DevOps",
+      "url": "https://zed.dev/blog/introducing-deltadb",
+      "report": {
+        "tldr": "DeltaDB는 커밋 사이 모든 연산을 기록해 코드와 그 변경을 만든 대화를 연결한다.",
+        "what": "DeltaDB는 커밋 사이의 모든 연산을 기록해 코드 변경과 그것을 만든 대화가 시간이 지나도 연결되게 하는 버전관리 시스템이다. 미세 델타마다 안정적 식별자를 부여하고, 다중 사용자·다중 에이전트 편집을 위한 충돌 없는 복제 워크트리를 지원하며, 어떤 코드 라인이든 그것을 만든 에이전트·동료 대화로 추적할 수 있게 한다.",
+        "points": [
+          "커밋 사이 모든 연산 기록",
+          "델타에 안정적 식별자",
+          "CRDT 워크트리 지원",
+          "코드↔대화 추적"
+        ],
+        "why": [
+          "에이전트 협업 버전관리 모델"
+        ]
+      }
+    },
+    {
+      "id": "do-datadog-infinite-cardinality",
+      "title": "Datadog 무한 카디널리티 메트릭",
+      "summary": "커스텀 메트릭을 시계열 수가 아닌 메트릭 이름 단위로 과금해 차원 무제한 추가.",
+      "source": "TLDR DevOps",
+      "url": "https://www.datadoghq.com/blog/infinite-cardinality-metrics/",
+      "report": {
+        "tldr": "Datadog가 커스텀 메트릭을 시계열이 아닌 메트릭 이름 단위로 과금하는 모델을 내놨다.",
+        "what": "Datadog의 Infinite Cardinality Metrics는 커스텀 메트릭을 태그 조합으로 생긴 고유 시계열 수가 아니라 메트릭 이름 단위로 과금하는 새 가격 모델로, 엔지니어가 비용의 기하급수적 증가 걱정 없이 차원을 무제한 추가할 수 있게 한다.",
+        "points": [
+          "메트릭 이름 단위 과금",
+          "차원 무제한 추가",
+          "시계열 폭증 비용 회피"
+        ],
+        "why": [
+          "관측가능성 비용 구조 개선"
+        ]
+      }
+    },
+    {
+      "id": "do-graviton5-ec2",
+      "title": "AWS Graviton5 기반 EC2 M9g·M9gd 출시",
+      "summary": "Graviton5 프로세서로 Graviton4 대비 최대 25% 향상된 컴퓨트 성능.",
+      "source": "TLDR DevOps",
+      "url": "https://aws.amazon.com/blogs/aws/now-available-amazon-ec2-m9g-and-m9gd-instances-powered-by-new-aws-graviton5-processors/",
+      "report": {
+        "tldr": "Graviton5 기반 EC2 M9g·M9gd 인스턴스가 Graviton4 대비 최대 25% 빠르다.",
+        "what": "Graviton5 프로세서로 구동되는 Amazon EC2 M9g·M9gd 인스턴스는 Graviton4 대비 최대 25% 더 나은 컴퓨트 성능을 제공한다.",
+        "points": [
+          "Graviton5 기반 신규 인스턴스",
+          "Graviton4 대비 최대 25%↑",
+          "M9g·M9gd 제공"
+        ],
+        "why": [
+          "Arm 서버 칩 세대 교체"
+        ]
+      }
+    },
+    {
+      "id": "do-static-types-shovels",
+      "title": "정적 타입과 삽",
+      "summary": "널 안전·합/유니온 타입·타입 추론으로 주류 타입 시스템이 더 유용해졌다.",
+      "source": "TLDR DevOps",
+      "url": "https://carefully.understood.systems/blog-2026-06-10-static-type-shovel.html",
+      "report": {
+        "tldr": "주류 타입 시스템이 발전하며 정적 타이핑의 유용성이 커졌다.",
+        "what": "정적 타이핑은 주류 타입 시스템이 장황하고 가치 낮은 '종이 삽'에서 널 가능성·합(union) 타입·타입 추론을 갖춘 현대 시스템으로 개선되며 더 유용해졌다.",
+        "points": [
+          "타입 시스템의 발전",
+          "널 안전·유니온 타입·추론",
+          "정적 타이핑 가치 상승"
+        ],
+        "why": [
+          "타입 시스템 진화의 실무 함의"
+        ]
+      }
+    }
+  ]
+}

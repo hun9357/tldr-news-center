@@ -1,0 +1,302 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "fdr-everything-recorded",
+      "title": "이제 직장에서 하는 모든 말은 녹음된다고 가정하라",
+      "summary": "AI 노트테이커가 기본값이 된 시대, AI를 문서가 아닌 신입처럼 회의에 넣어 온보딩하라.",
+      "source": "TLDR Founders",
+      "url": "https://www.a16z.news/p/everything-is-recorded-now",
+      "report": {
+        "tldr": "AI 노트테이커가 녹음을 기본값으로 만든 만큼, AI를 신입처럼 회의에 넣어 온보딩하라는 조언이다.",
+        "what": "AI 노트테이커가 조용히 녹음을 기본값으로 만들었고, 영리한 대응은 이를 영구적이라 여기고 AI를 문서가 아닌 신입처럼 온보딩하는 것이다. 신입에게 위키만 주고 떠나지 않듯, AI도 회의에 넣어야 문화와 실제 판단이 학습된다. Shopify·OpenAI처럼 말이 많은 회사는 사라지던 맥락이 포착되며 복리 우위를 얻는다.",
+        "points": [
+          "AI 노트테이커가 녹음을 기본값화",
+          "AI를 신입처럼 회의에 투입",
+          "문화·판단은 대화에서 학습",
+          "말 많은 조직이 복리 우위"
+        ],
+        "why": [
+          "AI 시대 조직 지식 축적 전략"
+        ]
+      }
+    },
+    {
+      "id": "fdr-vc-liquidity-crisis",
+      "title": "VC의 장부상 부(富)는 최고, 통장은 텅 비었다",
+      "summary": "출구가 막혀 1,500+ 유니콘 $6조가 갇혔고, 세컨더리는 공식가 대비 40~60% 할인.",
+      "source": "TLDR Founders",
+      "url": "https://www.thevccorner.com/p/vc-liquidity-crisis-doom-loop",
+      "report": {
+        "tldr": "장부상 가치는 사상 최고지만 IPO·인수 출구가 막혀 실제 현금 회수가 메말랐다.",
+        "what": "데모데이는 붐비고 $5억 펀드 발표가 이어지지만, 투자자에게 돌아가는 현금은 수년째 막힌 IPO·인수 출구 탓에 거의 끊겼다. 갈 곳 없는 유니콘이 1,500개 넘고 가치는 약 $6조에 달하며, 현 속도로는 적체 해소에 49년이 걸린다는 추정도 있다. 세컨더리 시장에서 지분은 공식 평가 대비 40~60% 낮게 거래된다.",
+        "points": [
+          "출구 봉쇄로 현금 회수 급감",
+          "1,500+ 유니콘·$6조 적체",
+          "적체 해소 추정 49년",
+          "세컨더리 40~60% 할인"
+        ],
+        "why": [
+          "벤처 생태계 유동성 위기 경고"
+        ]
+      }
+    },
+    {
+      "id": "fdr-rebuilt-customer-success",
+      "title": "가장 빠른 AI 기업들의 고객성공 재설계",
+      "summary": "CSM 채용은 정체, FDE는 1,000%+ 성장—NPS 폐기·구현성공 임계 도입으로 이탈 급감.",
+      "source": "TLDR Founders",
+      "url": "https://www.saastr.com/lovable-harvey-assembly-ai-how-the-fastest-ai-companies-rebuilt-customer-success/",
+      "report": {
+        "tldr": "빠른 AI 기업들은 CS를 FDE 중심으로 재편하고 NPS를 폐기하며 이탈을 크게 줄였다.",
+        "what": "CSM 채용이 4년째 정체하는 동안 Forward Deployed Engineering은 1,000% 넘게 성장했다. Assembly AI는 직함을 FDE로 바꾸자 파이프라인이 하룻밤에 채워졌고, Lovable은 Gainsight를 대체해 CS를 재구축했으며, Harvey는 법률 파트너 대상이라 현장 EBR을 유지했다. 패널은 NPS를 만장일치로 폐기했고 CSM 활동의 50%+가 리텐션과 무관하다는 데 동의했다. Weave 사례는 구현 성공 임계 도입으로 월 이탈을 4%→0.5%로 낮추며 ARR을 $8M→$200M로 키웠다.",
+        "points": [
+          "CSM 정체 vs FDE 1,000%↑",
+          "직함 변경으로 파이프라인 확보",
+          "NPS 만장일치 폐기",
+          "구현성공 임계로 이탈 4%→0.5%"
+        ],
+        "why": [
+          "AI 시대 고객성공 조직 재설계 사례"
+        ]
+      }
+    },
+    {
+      "id": "fdr-ai-bill-exploding",
+      "title": "AI 청구서가 계속 폭증하는 이유",
+      "summary": "모든 작업에 프런티어 모델을 돌리는 탓—라우팅으로 쉬운 일은 저가 모델로 보내라.",
+      "source": "TLDR Founders",
+      "url": "https://www.linkedin.com/pulse/7-deadly-sins-ai-spend-max-brodeur-urbas-unuic/",
+      "report": {
+        "tldr": "대부분의 AI 비용 폭증은 모든 일에 프런티어 모델을 쓰기 때문이며 라우팅이 즉효다.",
+        "what": "많은 AI 청구서는 단순한 이유로 부푼다—오픈소스 모델이 이제 거의 비슷하고 종종 90% 저렴한데도 모든 작업에 프런티어 모델을 돌리는 것이다. 한 팀은 Opus에서 갈아타 비용을 93% 줄였는데 아무도 눈치채지 못했다. 가장 빠른 승부수는 라우팅으로, 진짜 어려운 일만 비싼 모델에 보내고 나머지는 싼 모델로 넘기면 그날 바로 비용이 떨어진다. 또 다른 돈 먹는 함정은 사용량 보상이다—토큰 최다 사용 리더보드를 걸면 돈을 태운다.",
+        "points": [
+          "모든 작업에 프런티어 모델=낭비",
+          "오픈소스 모델 ~90% 저렴",
+          "라우팅으로 즉시 절감",
+          "사용량 보상 지양, 영향으로 평가"
+        ],
+        "why": [
+          "AI 비용 최적화 실전 가이드"
+        ]
+      }
+    },
+    {
+      "id": "fdr-buyers-buy-point-of-view",
+      "title": "혼란한 시장에서 바이어는 당신의 관점을 산다",
+      "summary": "빠르게 변하는 시장에선 명확한 시장 전망이 구매를 안심시킨다—거인들도 자기 강점 중심 미래를 민다.",
+      "source": "TLDR Founders",
+      "url": "https://aprildunford.substack.com/p/in-the-age-of-ai-you-need-a-point",
+      "report": {
+        "tldr": "빠르게 변하는 시장에서 바이어를 움직이는 것은 당신의 명확한 시장 전망이다.",
+        "what": "시장이 빠르게 변하면 바이어는 5년 뒤 후회할 선택을 두려워해 망설인다. 이들을 안심시키는 것은 시장 전체가 어디로 가는지에 대한 당신의 명확한 관점이다. 거인들은 각자 자기 강점을 중심에 둔 미래를 민다—OpenAI는 AI가 종량제 유틸리티라 하고, MS는 모델은 상품이고 맥락이 왕이라 하며, ServiceNow는 워크플로·거버넌스가 전부라 한다. 당신의 관점도 그만큼 의도적으로 정하라.",
+        "points": [
+          "불확실성이 구매를 멈추게 함",
+          "명확한 시장 전망이 안심 요소",
+          "관점은 차별적 강점에 기반",
+          "거인들의 자기중심 미래 프레이밍"
+        ],
+        "why": [
+          "AI 시대 포지셔닝·메시징 전략"
+        ]
+      }
+    },
+    {
+      "id": "fdr-stripe-projects",
+      "title": "Stripe Projects: 새 에이전트 통합·개발자 제어",
+      "summary": "오픈소스 자가개선 에이전트 Hermes의 스킬로 제공, 며칠~몇 주 작업에 지속형 협업자 제공.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/oNU5Op",
+      "report": {
+        "tldr": "Stripe Projects가 새 에이전트 통합·제공자·개발자 제어를 더하고 Hermes 스킬로 제공된다.",
+        "what": "Stripe는 Stripe Projects에 새 에이전트 통합, 추가 제공자, 새 개발자 제어를 더해 확장한다. 이제 오픈소스 자가개선 AI 에이전트 Hermes의 스킬로도 제공된다. Stripe Projects가 인프라 프로비저닝·관리를 맡고 Hermes가 세션 간 맥락을 이어, 며칠~몇 주에 걸친 복잡한 작업에 인간 개발자처럼 돌아오는 지속형 AI 협업자를 제공한다.",
+        "points": [
+          "새 에이전트 통합·제공자 추가",
+          "Hermes 스킬로 제공",
+          "인프라 프로비저닝 자동화",
+          "세션 간 맥락 유지"
+        ],
+        "why": [
+          "에이전트 기반 개발 인프라 확장"
+        ]
+      }
+    },
+    {
+      "id": "fdr-gemini-business-tools",
+      "title": "새 Gemini 도구로 사업 운영 효율화",
+      "summary": "Google 비즈니스 프로필과 연결해 리뷰·문의·성과 데이터 기반으로 작업을 위임.",
+      "source": "TLDR Founders",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-features-for-businesses/",
+      "report": {
+        "tldr": "구글이 비즈니스 프로필과 연동되는 사업주용 Gemini 기능을 이달 글로벌 출시한다.",
+        "what": "구글은 AI를 사업을 깊이 이해하는 '주머니 속 파트너'로 만드는 사업주 전용 Gemini 기능을 선보인다. 사용자의 Google 비즈니스 프로필에 직접 연결해 고객 리뷰·문의·성과 데이터 같은 실세계 맥락에 접근하고, 인사이트를 실행으로 옮기는 복잡하고 시간 드는 작업을 위임하게 한다. 이달 전 세계 순차 출시.",
+        "points": [
+          "비즈니스 프로필 연동",
+          "리뷰·문의·성과 데이터 활용",
+          "시간 드는 작업 위임",
+          "이달 글로벌 출시"
+        ],
+        "why": [
+          "소상공인 대상 AI 도구 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "fdr-above-the-model",
+      "title": "모델 위에서",
+      "summary": "진짜 가치는 AI가 복제 못 하는 인간 창의성·판단을 어떻게 활용하느냐에 있다.",
+      "source": "TLDR Founders",
+      "url": "https://www.emcap.com/thoughts/above-the-model",
+      "report": {
+        "tldr": "AI가 화이트칼라를 바꾸지만 진짜 가치는 복제 불가한 인간 창의성·판단의 활용에 있다.",
+        "what": "AI는 화이트칼라 업무를 변혁하겠지만, 진짜 가치는 AI가 복제할 수 없는 인간의 창의성과 판단을 기업이 어떻게 활용하느냐에 달려 있다. 이 변혁을 선도하는 기업은 AI를 내부 지식·의사결정 강화에 통합해 개인의 통찰을 조직의 우위로 바꾼다.",
+        "points": [
+          "AI가 화이트칼라 변혁",
+          "가치는 인간 창의성·판단 활용",
+          "AI로 내부 지식·의사결정 강화",
+          "개인 통찰→조직 우위"
+        ],
+        "why": [
+          "AI 도입의 차별화 원천 논의"
+        ]
+      }
+    },
+    {
+      "id": "fdr-ai-glass-ceiling",
+      "title": "AI 유리천장",
+      "summary": "Fable AI의 가드레일이 안정성을 보장하는 가운데, 빠른 변화에 적응 전략이 필요.",
+      "source": "TLDR Founders",
+      "url": "https://tomtunguz.com/upper-bound-corporate-ai/",
+      "report": {
+        "tldr": "Fable AI는 강력한 성능과 가드레일을 동시에 제공하며 적응 전략을 요구한다.",
+        "what": "Anthropic의 Fable AI는 전례 없는 성능과 함께 핵심 가드레일을 부과하며, 이는 Stripe의 빠른 Ruby 코드베이스 마이그레이션과 향상된 벤치마크 점수에서 드러난다. 이 구도는 기술·금융의 안정성을 보장하지만, 빠르게 변하는 AI 환경에서 도구를 안전히 극대화하려면 적응 전략이 필요하다.",
+        "points": [
+          "강력한 성능 + 가드레일",
+          "Stripe 마이그레이션 사례",
+          "기술·금융 안정성",
+          "적응 전략 필요"
+        ],
+        "why": [
+          "기업 AI 활용의 상한과 제약 논의"
+        ]
+      }
+    },
+    {
+      "id": "fdr-earned-opinion-ai",
+      "title": "당신의 AI 견해, 정말 '얻은' 것인가",
+      "summary": "도구를 실제로 써서 얻은 견해만 가치 있다—무엇이 마음을 바꿀지 자문하라.",
+      "source": "TLDR Founders",
+      "url": "https://theengineeringmanager.substack.com/p/the-right-kind-of-ai-sceptic",
+      "report": {
+        "tldr": "AI에 대한 견해는 도구를 실제로 써서 얻었을 때만 가치가 있다.",
+        "what": "AI에 대한 당신의 견해는 주변에서 입장을 흡수해 응원하는 팀처럼 방어하는 게 아니라, 도구를 실제로 써서 얻었을 때만 가치가 있다. 무엇이 마음을 바꿀지 자문하라—정직한 답이 '아무것도 없다'라면 당신은 견해가 아니라 정체성을 방어하고 있다. 일찍 시작한 것보다 명료함을 유지하고 증거에 따라 갱신하는 게 더 중요하다.",
+        "points": [
+          "체험으로 얻은 견해의 가치",
+          "'무엇이 마음을 바꿀까' 자문",
+          "정체성 방어 경계",
+          "증거 기반 갱신"
+        ],
+        "why": [
+          "AI 담론의 인식론적 태도 점검"
+        ]
+      }
+    },
+    {
+      "id": "fdr-sales-customer-clock",
+      "title": "세일즈는 고객의 시계다",
+      "summary": "세일즈 워크플로가 점점 자동화 가능해지고 있고 시장도 이를 안다.",
+      "source": "TLDR Founders",
+      "url": "https://hari.computer/sales-is-the-customer-clock",
+      "report": {
+        "tldr": "세일즈 워크플로가 점점 자동화 가능해지고 있다.",
+        "what": "세일즈 워크플로는 점점 자동화 가능해지고 있으며 시장도 이를 인식하고 있다는 짧은 논평이다.",
+        "points": [
+          "세일즈 워크플로 자동화 추세",
+          "시장의 인식"
+        ],
+        "why": [
+          "세일즈 자동화의 함의"
+        ]
+      }
+    },
+    {
+      "id": "fdr-ramp-vs-bill",
+      "title": "같은 사업, 한 곳은 20배 더 비싸다",
+      "summary": "Bill은 매출 2배, Ramp는 $440억(약 15~30배)—유사 사업의 밸류 격차.",
+      "source": "TLDR Founders",
+      "url": "https://lex.substack.com/p/analysis-44b-ramp-is-becoming-the",
+      "report": {
+        "tldr": "유사한 사업을 하는 Bill과 Ramp의 밸류에이션이 크게 갈린다.",
+        "what": "Bill과 Ramp는 알아볼 수 있을 만큼 비슷한 일을 하지만, Bill은 매출의 약 2배에 거래되는 반면 Ramp는 방금 $440억(매출 대비 약 15~30배)에 자금을 조달했다.",
+        "points": [
+          "Bill 매출 2배 vs Ramp 15~30배",
+          "Ramp $440억 조달",
+          "유사 사업의 밸류 격차"
+        ],
+        "why": [
+          "성장 내러티브가 밸류에 미치는 영향"
+        ]
+      }
+    },
+    {
+      "id": "fdr-achilles-heel",
+      "title": "우리의 아킬레스건",
+      "summary": "많은 사람이 확률을 이해하지 못해 스트레스·기대 불일치를 겪는다.",
+      "source": "TLDR Founders",
+      "url": "https://collabfund.com/blog/our-achilles-heel/",
+      "report": {
+        "tldr": "확률에 대한 이해 부족이 스트레스와 기대 불일치를 낳는다.",
+        "what": "많은 사람이 확률을 이해하는 데 어려움을 겪어, 특히 대학 입시·투자 같은 영역에서 스트레스와 어긋난 기대를 경험한다.",
+        "points": [
+          "확률 이해의 어려움",
+          "입시·투자에서의 오판",
+          "기대 불일치"
+        ],
+        "why": [
+          "의사결정 편향에 대한 통찰"
+        ]
+      }
+    },
+    {
+      "id": "fdr-fast-moving-water",
+      "title": "빠르게 흐르는 물",
+      "summary": "스타트업 성장은 실행보다 빠르게 팽창하는 시장에 있느냐에 달렸다.",
+      "source": "TLDR Founders",
+      "url": "https://substack.gauravvohra.com/p/fast-moving-water",
+      "report": {
+        "tldr": "스타트업 성장은 잘 실행하는 것보다 빠르게 팽창하는 시장에 있느냐가 좌우한다.",
+        "what": "스타트업 성장은 단지 실행을 잘하는 데 있는 게 아니라 빠르게 팽창하는 시장 안에 있느냐에 달려 있다는 주장이다.",
+        "points": [
+          "시장 성장률이 핵심",
+          "실행만으론 부족",
+          "팽창 시장 선택의 중요성"
+        ],
+        "why": [
+          "창업 시장 선택 전략"
+        ]
+      }
+    },
+    {
+      "id": "fdr-selection-debt",
+      "title": "선택 부채: 중요하지 않은 일을 하는 비용",
+      "summary": "잘못된 전제 위에서 빠르게 움직이는 데 드는 비용을 경계하라.",
+      "source": "TLDR Founders",
+      "url": "https://reecegriffiths.substack.com/p/selection-debt-on-doing-things-that",
+      "report": {
+        "tldr": "선택 부채는 잘못된 기반 전제 위에서 빠르게 움직이는 데 드는 비용이다.",
+        "what": "선택 부채(selection debt)는 부실한 기초 전제 위에서 빠르게 움직일 때 누적되는 비용이다.",
+        "points": [
+          "잘못된 전제의 누적 비용",
+          "속도와 방향의 트레이드오프"
+        ],
+        "why": [
+          "전략적 우선순위 설정의 함정"
+        ]
+      }
+    }
+  ]
+}
