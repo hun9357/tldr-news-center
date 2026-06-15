@@ -1,0 +1,185 @@
+{
+  "name": "빅테크 / 하드웨어 / 과학",
+  "source": "TLDR (Tech)",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-anthropic-shutdown-trump",
+      "title": "Anthropic, 트럼프 행정부 지시로 Fable·Mythos 차단",
+      "summary": "상무부 수출통제로 美 외 사용 제한, 전면 접근 차단.",
+      "source": "TLDR (Tech)",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-shuts-down-fable-mythos-models-following-trump-admin-directive/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "美 상무부 수출통제 지시로 Anthropic이 Mythos 5·Fable 5 접근을 완전히 차단했다.",
+        "what": "상무부가 신규 모델을 美 외 사용 제한 수출통제 대상으로 지정하자, Anthropic은 준수를 위한 유일한 방법으로 사안 해결 시까지 접근을 완전히 끊었다. 다른 Anthropic 모델은 영향을 받지 않는다.",
+        "points": [
+          "상무부 수출통제 지시",
+          "美 외 사용 제한",
+          "해결 시까지 전면 차단",
+          "기타 모델은 영향 없음"
+        ],
+        "why": [
+          "프런티어 AI가 수출통제 대상이 된 첫 사례",
+          "美 AI 정책·산업 가용성의 직접 충돌"
+        ],
+        "action": "수출통제 적용 범위·복구 일정에 대한 공식 발표 모니터링"
+      }
+    },
+    {
+      "id": "tech-musk-first-trillionaire",
+      "title": "일론 머스크, 세계 첫 조만장자 등극",
+      "summary": "SpaceX 주가 IPO가 $135 대비 20%↑, 美 GDP 3% 초과 가치.",
+      "source": "TLDR (Tech)",
+      "url": "https://links.tldrnewsletter.com/qb1O5j",
+      "report": {
+        "tldr": "SpaceX 상장 주가가 공모가 $135 대비 20% 오르며 머스크가 세계 첫 조만장자가 됐다.",
+        "what": "이미 세계 최고 부자였던 머스크의 순자산이 美 GDP의 3% 이상에 해당하는 규모로 불어났다. 이는 전형적인 미국 가정의 약 500만 배에 달한다.",
+        "points": [
+          "SpaceX IPO 후 주가 20%↑",
+          "순자산 美 GDP 3% 초과",
+          "2021년 베이조스 추월 후 1위 유지"
+        ],
+        "why": [
+          "민간 우주기업 상장이 부의 규모를 새로 정의",
+          "SpaceX 상장의 시장 파급"
+        ]
+      }
+    },
+    {
+      "id": "tech-nuclear-clocks-tick",
+      "title": "핵시계, 처음으로 '째깍'",
+      "summary": "중국·유럽 연구팀이 토륨-229로 작동 핵시계 독립 구현.",
+      "source": "TLDR (Tech)",
+      "url": "https://links.tldrnewsletter.com/0cxDla",
+      "report": {
+        "tldr": "중국·유럽 연구팀이 토륨-229 원자핵을 이용한 작동 핵시계를 각각 구현했다.",
+        "what": "두 팀 모두 토륨-229 핵으로 극히 정밀하게 시간을 측정했다. 필요한 레이저 광이 생성·제어가 까다로운 스펙트럼 영역에 있어 난제였는데, 중국팀은 더 강한 레이저를, 유럽팀은 토륨 농도가 높은 결정을 사용했다.",
+        "points": [
+          "토륨-229 핵 이용",
+          "중국·유럽 독립적 성공",
+          "고난도 레이저 영역 극복"
+        ],
+        "why": [
+          "초정밀 시간 측정·기초물리 발전의 분수령"
+        ]
+      }
+    },
+    {
+      "id": "tech-crispr-shreds-cancer",
+      "title": "새 CRISPR 기법, '치료 불가' 암세포 선택적 파괴",
+      "summary": "암 절반서 발견되는 종양억제 변이 세포를 표적 절단.",
+      "source": "TLDR (Tech)",
+      "url": "https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "새 CRISPR 접근법이 특정 종양억제 변이를 지닌 암세포를 선택적으로 파괴한다.",
+        "what": "거의 절반의 암, 일부 난치암에서는 70~90%에 나타나는 종양억제 변이를 가진 세포를 CRISPR의 변이 탐지·절단 능력으로 선택 제거한다. 소분자 약물·항체보다 제작이 빠르지만 전달이 과제이며, 일부 암에는 병용요법이 유용할 수 있다.",
+        "points": [
+          "종양억제 변이 세포 선택 파괴",
+          "암 절반, 난치암 70~90% 해당",
+          "약물·항체보다 빠른 제작",
+          "전달이 남은 과제"
+        ],
+        "why": [
+          "난치암 치료의 새로운 전략 제시"
+        ]
+      }
+    },
+    {
+      "id": "tech-the-log-is-the-agent",
+      "title": "로그가 곧 에이전트다",
+      "summary": "에이전트의 본질은 모델·런타임이 아니라 이벤트 이력.",
+      "source": "TLDR (Tech)",
+      "url": "https://links.tldrnewsletter.com/YNZszp",
+      "report": {
+        "tldr": "에이전트의 본질은 모델·루프가 아니라 데이터를 이루는 이벤트 이력(로그)이라는 관점이다.",
+        "what": "모델·런타임·루프가 중요하지만 그 자체가 에이전트는 아니며, 에이전트는 이벤트 이력이다. 이 로그가 에이전트를 정확히 재구성·재개하게 하고, 고급 사용 사례를 더 쉽게 추론·구현하게 한다.",
+        "points": [
+          "에이전트 = 이벤트 이력",
+          "로그로 재구성·재개 가능",
+          "일상 앱 내장 용이"
+        ],
+        "why": [
+          "에이전트 아키텍처를 보는 새로운 추상화"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-new-siri",
+      "title": "애플의 새 Siri, AI 위기 진정시킬 '딱 충분한' 수준",
+      "summary": "6개월 전 선두 챗봇 수준이지만 기본 탑재로 경쟁력.",
+      "source": "TLDR (Tech)",
+      "url": "https://links.tldrnewsletter.com/X5LYSz",
+      "report": {
+        "tldr": "애플의 새 Siri가 비로소 제대로 작동하며 AI 위기를 진정시키고 있다.",
+        "what": "혁신적이진 않지만 애플이 현대 AI 시장에 진입했음을 보여준다. 선두 챗봇의 약 6개월 전 수준과 견줄 만하며, 기본 탑재 기능이 충분히 유능해 많은 사용자는 경쟁 AI 서비스가 필요 없을 정도다.",
+        "points": [
+          "Siri 정상 작동",
+          "선두 챗봇 6개월 전 수준",
+          "기본 탑재로 경쟁력 확보"
+        ],
+        "why": [
+          "애플의 AI 따라잡기 진전 평가"
+        ]
+      }
+    },
+    {
+      "id": "tech-meta-ai-gulag",
+      "title": "\"메타 AI 부서는 영혼을 갉는 강제수용소\" — 내부 엔지니어들",
+      "summary": "Applied AI팀 반발 조짐, 사내 발표 중 폭언 사태.",
+      "source": "TLDR (Tech)",
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "메타 Applied AI팀 일부가 반발 직전이라는 내부 증언이 나왔다.",
+        "what": "수년간 이어진 감원 속에 사기가 낮으며, 사내 전용 라이브 발표가 고위 임원을 겨냥한 욕설 섞인 항의로 중단됐다. 많은 직원이 선택권 없이 부서에 배치됐고 업무가 '영혼을 갉는다'고 토로했다.",
+        "points": [
+          "Applied AI팀 반발 조짐",
+          "사내 발표 중 폭언 사태",
+          "비자발적 배치·낮은 사기"
+        ],
+        "why": [
+          "빅테크 AI 인재 조직의 내부 긴장 노출"
+        ]
+      }
+    },
+    {
+      "id": "tech-spacex-tesla-merger",
+      "title": "SpaceX 사장, 테슬라 합병 가능성 시사",
+      "summary": "상장 시작과 함께 미래 합병 배제 안 해.",
+      "source": "TLDR (Tech)",
+      "url": "https://links.tldrnewsletter.com/Lga7f6",
+      "report": {
+        "tldr": "그윈 숏웰 SpaceX 사장이 테슬라와의 미래 합병 가능성을 배제하지 않았다.",
+        "what": "SpaceX가 거래를 시작하는 가운데 숏웰은 시기에 대한 기대는 누그러뜨리면서도 향후 합병을 부정하지 않았다.",
+        "points": [
+          "테슬라 합병 배제 안 함",
+          "시기 기대는 진정",
+          "상장 직후 발언"
+        ],
+        "why": [
+          "머스크 제국 재편 가능성에 시장 촉각"
+        ]
+      }
+    },
+    {
+      "id": "tech-software-multiplayer",
+      "title": "소프트웨어는 1인용 게임이 아니다",
+      "summary": "오래 가는 소프트웨어 개발은 협업·코드리뷰가 중심.",
+      "source": "TLDR (Tech)",
+      "url": "https://www.davidpoll.com/2026/06/software-is-not-a-single-player-game/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "신뢰할 수 있고 오래 가는 소프트웨어 개발은 본질적으로 '멀티플레이어' 게임이다.",
+        "what": "코드 리뷰가 엔지니어링 판단의 중심에 있으며, 소프트웨어 개발은 협업적 노력으로 남는다.",
+        "points": [
+          "개발은 협업적 활동",
+          "코드 리뷰가 판단의 핵심",
+          "장기 유지보수 중시"
+        ],
+        "why": [
+          "AI 코딩 시대에도 협업의 가치 강조"
+        ]
+      }
+    }
+  ]
+}

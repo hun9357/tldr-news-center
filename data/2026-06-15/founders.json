@@ -1,0 +1,283 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-frontier-without-ecosystem",
+      "title": "생태계 없는 프런티어는 불안정하다",
+      "summary": "가치가 모든 기업·산업·국가로 흐르는 생태계 구축 주장.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/5Fw6I2",
+      "report": {
+        "tldr": "AI 산업은 가치가 모든 기업·산업·국가로 폭넓게 흐르는 프런티어 생태계를 만들어야 한다.",
+        "what": "이 생태계는 제도적 지식을 인코딩하는 학습 루프를 소유해 인적·토큰 자본을 복리화한다. 플랫폼은 내부에서 포착하는 것보다 더 많은 가치를 위에서 창출하게 하며, 구현되면 기업은 자신과 주변 경제 모두에 가치를 만든다.",
+        "points": [
+          "가치가 널리 흐르는 생태계",
+          "학습 루프 소유",
+          "인적+토큰 자본 복리",
+          "플랫폼이 외부 가치 확대"
+        ],
+        "why": [
+          "AI 시대 기업 전략의 생태계 관점"
+        ]
+      }
+    },
+    {
+      "id": "founders-not-everyone-using-ai",
+      "title": "아니, 모두가 모든 것에 AI를 쓰지는 않는다",
+      "summary": "대부분 간헐 사용자, 6개월~1년간 큰 변화 없음.",
+      "source": "TLDR Founders",
+      "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI를 써본 대부분은 간헐 사용자이며, 상당수는 아예 쓰지 않는다.",
+        "what": "지난 6개월~1년간 AI 사용은 크게 변하지 않았고, 유의미하게 바뀐 것은 AI에 대한 부정적 정서가 크게 높아졌다는 점이다. 많은 이가 실제 우려와 인지된 가치 부족 때문에 사용을 주저한다.",
+        "points": [
+          "대부분 간헐 사용",
+          "미사용 인구 상당",
+          "사용률 정체, 부정 정서↑",
+          "우려·가치 부족이 주저 원인"
+        ],
+        "why": [
+          "AI 제품의 실제 수용도에 대한 현실 인식"
+        ]
+      }
+    },
+    {
+      "id": "founders-who-sets-price-intelligence",
+      "title": "가격/지능을 누가 정할 것인가",
+      "summary": "AI 투자는 변수가 많고 비균일 결합돼 패턴매칭이 깨진다.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/bRwAmu",
+      "report": {
+        "tldr": "AI 투자는 변수가 많고 비균일하게 결합돼 소프트웨어식 패턴매칭을 깨뜨린다.",
+        "what": "각 변수가 독립적 곡선의 하위 변수로 분해되어, 한 제약을 풀면 어떤 제약이 중요해지는지가 바뀐다.",
+        "points": [
+          "변수 다수·비균일 결합",
+          "하위 변수가 독립 곡선",
+          "제약 해결이 다음 제약을 바꿈"
+        ],
+        "why": [
+          "AI 투자·전략의 비선형성 이해"
+        ]
+      }
+    },
+    {
+      "id": "founders-half-gtm-team",
+      "title": "같은 성장, 절반의 GTM 팀",
+      "summary": "AI 선도사는 GTM 20명으로 $10~25M 매출 달성.",
+      "source": "TLDR Founders",
+      "url": "https://www.saastr.com/dear-saastr-whats-really-changed-in-gtm-in-2026/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 선도 기업은 약 20명 GTM 인력으로 $10~25M 매출에 도달한다(타사는 ~35명 필요).",
+        "what": "기준선도 바뀌어 중앙값 순매출유지율 약 108~110%, 상위 25%는 123% 이상이며, 보상안은 순신규 반복매출에 연동되는 경우가 늘었다. 가격은 성과·사용량 기반 모델이 확산돼 전달 가치를 추적하고 총마진을 90%까지 끌어올린다.",
+        "points": [
+          "GTM 20명으로 $10~25M",
+          "NRR 중앙값 108~110%",
+          "상위 25% NRR 123%+",
+          "성과·사용량 기반 과금 확산"
+        ],
+        "why": [
+          "AI 시대 GTM 효율·과금 모델 벤치마크"
+        ]
+      }
+    },
+    {
+      "id": "founders-ai-chat-beats-voice",
+      "title": "세일즈에서 AI 채팅이 여전히 음성을 이긴다",
+      "summary": "약 85% 잠재고객이 채팅 선호, 배포·관리도 쉬움.",
+      "source": "TLDR Founders",
+      "url": "https://www.saastr.com/why-ai-sdrs-take-2-weeks-to-deploy-and-why-most-people-still-prefer-chat/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 세일즈 에이전트는 음성부터 찾지만 데이터는 채팅 우위를 보여준다.",
+        "what": "약 85%의 잠재고객이 채팅을 선호하며 배포·모니터링·수정도 쉽다. 성과를 내는 팀은 AI를 깔때기 상단의 자격 검증·분류에 쓰고, 뉘앙스가 필요한 순간 인간에게 넘긴다.",
+        "points": [
+          "잠재고객 85% 채팅 선호",
+          "채팅이 배포·관리 용이",
+          "AI는 상단 자격검증·분류",
+          "뉘앙스는 인간에게 이관"
+        ],
+        "why": [
+          "AI 세일즈 자동화의 채널 설계 지침"
+        ]
+      }
+    },
+    {
+      "id": "founders-crazyideas-stripe",
+      "title": "스트라이프의 #crazyideas",
+      "summary": "누구나 '틀릴 수 있는' 아이디어를 던지는 슬랙 채널.",
+      "source": "TLDR Founders",
+      "url": "https://kenneth.io/post/crazyideas-at-stripe?utm_source=tldrfounders",
+      "report": {
+        "tldr": "스트라이프는 직원이 회사가 만들 만한 아이디어를 던지는 #crazyideas 슬랙 채널을 운영했다.",
+        "what": "유일한 규칙은 아이디어가 '틀릴 실제 가능성'을 담아야 한다는 것(아니면 그냥 당연한 할 일)이다. 직급·직무 무관 누구나 제출할 수 있었고, 사람들이 자기 영역에 집착하지 않아 좋은 아이디어를 낸 사람이 해당 팀으로 옮겨 함께 만드는 식으로 작동했다.",
+        "points": [
+          "누구나 아이디어 제출",
+          "'틀릴 가능성'이 규칙",
+          "영역 집착 없는 문화",
+          "좋은 아이디어 → 팀 이동"
+        ],
+        "why": [
+          "혁신 문화·아이디어 발굴 사례"
+        ]
+      }
+    },
+    {
+      "id": "founders-fusion-api",
+      "title": "OpenRouter, Fusion API 공개",
+      "summary": "모델 패널로 Fable급 지능을 절반 가격에.",
+      "source": "TLDR Founders",
+      "url": "https://fandf.co/4fBNzYK",
+      "report": {
+        "tldr": "Fusion API는 OpenRouter 사용자가 Fable급 지능을 절반 가격에 달성하게 한다.",
+        "what": "모델 패널이 개별 모델을 일관되게 능가한다는 전제로, 웹 검색·bash 도구를 켠 여러 모델의 패널을 구성한다. 심사 모델이 모든 응답을 읽어 구조를 추출하고, 합성기가 분석에 근거한 최종 답을 작성한다.",
+        "points": [
+          "모델 패널로 프런티어 초과 성능",
+          "비용은 절반 수준",
+          "웹검색·bash 도구 활성",
+          "심사+합성 단계"
+        ],
+        "why": [
+          "멀티모델 앙상블로 비용·성능 최적화"
+        ]
+      }
+    },
+    {
+      "id": "founders-open-knowledge-format",
+      "title": "Open Knowledge Format 발표",
+      "summary": "LLM-위키 패턴을 이식 가능 표준으로 형식화.",
+      "source": "TLDR Founders",
+      "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Open Knowledge Format(OKF)은 LLM-위키 패턴을 이식 가능·상호운용 표준으로 형식화한다.",
+        "what": "벤더 중립이며 에이전트·사람 친화적으로 메타데이터·컨텍스트·큐레이션 지식을 표현한다. LLM 위키 패턴을 상호운용 가능하게 하는 최소 규약을 형식화하며, 조직에 어떤 문제를 풀어주는지와 시작법을 다룬다.",
+        "points": [
+          "LLM-위키 패턴 표준화",
+          "벤더 중립·상호운용",
+          "메타데이터·지식 표현"
+        ],
+        "why": [
+          "조직 지식의 이식성·상호운용성"
+        ]
+      }
+    },
+    {
+      "id": "founders-no-one-cares-launch",
+      "title": "아무도 당신만큼 런칭을 신경 쓰지 않는다",
+      "summary": "군중 극대화가 아니라 '제대로 된 사람들'을 모아야.",
+      "source": "TLDR Founders",
+      "url": "https://seths.blog/2026/06/the-nature-of-launch-day/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "런칭일에 기획자만큼 투자하는 사람은 거의 없으며, 거창한 개막은 실망으로 이어지기 쉽다.",
+        "what": "진짜 일은 군중을 극대화하는 게 아니라, 호의를 갖고 남에게 전파할 '제대로 된 사람들'을 모으는 것이다. Newton은 당대 최대 런칭 중 하나였지만 아무도 이후 추천하지 않아 사라졌다.",
+        "points": [
+          "기획자만큼 투자하는 이 없음",
+          "군중보다 적합한 사람",
+          "추천이 확산의 핵심",
+          "Newton 사례의 교훈"
+        ],
+        "why": [
+          "제품 런칭 전략의 현실적 조언"
+        ]
+      }
+    },
+    {
+      "id": "founders-best-ai-win-consumer-enterprise",
+      "title": "최고의 AI 기업은 소비자와 기업을 동시에 이긴다",
+      "summary": "한쪽 선택의 공식이 깨지고 양쪽을 동시 공략.",
+      "source": "TLDR Founders",
+      "url": "https://insights.euclid.vc/p/vertical-ai-is-blurring-enterprise-and-consumer-nikhil-basu-trivedi-footwork-vc?utm_source=tldrfounders",
+      "report": {
+        "tldr": "가장 빠르게 크는 AI 네이티브 기업들이 소비자·기업 양쪽을 동시에 이기며 기존 공식을 흔든다.",
+        "what": "수십 년간 기업은 B2B 아니면 B2C를 골랐지만, 이들은 어느 쪽 상자에도 들어맞지 않아 가격·판매·방어 방식을 재편한다. 버티는 해자는 화려하지 않은 것들—독점 데이터, 사람들이 사는 워크플로 루프, 네트워크 효과, 브랜드(모델이 상품화될 때 선택받게 하는 신뢰)다.",
+        "points": [
+          "소비자·기업 동시 공략",
+          "B2B/B2C 경계 붕괴",
+          "가격·판매·방어 재편",
+          "해자: 데이터·워크플로·네트워크·브랜드"
+        ],
+        "why": [
+          "AI 네이티브 비즈니스 모델의 변화"
+        ]
+      }
+    },
+    {
+      "id": "founders-ai-search-grounding",
+      "title": "AI 검색 그라운딩 작동 원리: 구글 vs OpenAI vs Anthropic",
+      "summary": "각 플랫폼이 보는 데이터와 고려 요소 비교.",
+      "source": "TLDR Founders",
+      "url": "https://dejan.ai/blog/grounding/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "구글·OpenAI·Anthropic의 AI 검색 그라운딩이 무엇을 보고 고려하는지 비교한다.",
+        "what": "각 플랫폼이 참조하는 데이터와 고려 요소를 들여다본다.",
+        "points": [
+          "플랫폼별 그라운딩 데이터",
+          "고려 요소 비교",
+          "검색 노출 시사점"
+        ],
+        "why": [
+          "AI 검색 시대 가시성 전략"
+        ]
+      }
+    },
+    {
+      "id": "founders-how-to-earn-billion",
+      "title": "10억 달러를 버는 법",
+      "summary": "사용자가 친구에게 전할 만큼 좋은 것을 만들고 확장.",
+      "source": "TLDR Founders",
+      "url": "https://paulgraham.com/earn.html?utm_source=tldrfounders",
+      "report": {
+        "tldr": "사용자가 친구에게 전할 만큼 좋아하는 것을 만들고 사업을 확장하라는 조언이다.",
+        "what": "억만장자 달성은 지수 성장에 기반한 합법적 과정이라는 폴 그레이엄의 에세이다.",
+        "points": [
+          "추천될 만한 제품",
+          "지수 성장",
+          "확장 가능한 사업"
+        ],
+        "why": [
+          "창업 성장의 본질"
+        ]
+      }
+    },
+    {
+      "id": "founders-software-multiplayer",
+      "title": "소프트웨어는 1인용 게임이 아니다",
+      "summary": "코드 리뷰가 핵심인 협업적 개발.",
+      "source": "TLDR Founders",
+      "url": "https://www.davidpoll.com/2026/06/software-is-not-a-single-player-game/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "소프트웨어 개발은 코드 리뷰가 엔지니어링 판단의 중심에 있는 협업적 '멀티플레이어' 노력이다.",
+        "what": "코드 리뷰가 중심 역할을 하며 협업이 본질로 남는다.",
+        "points": [
+          "협업적 개발",
+          "코드 리뷰 중심",
+          "엔지니어링 판단 강조"
+        ],
+        "why": [
+          "AI 시대 협업 개발의 가치"
+        ]
+      }
+    },
+    {
+      "id": "founders-pivot-cost",
+      "title": "다음 피벗은 생각보다 비싸다",
+      "summary": "피벗 비용이 5년 전보다 커졌다.",
+      "source": "TLDR Founders",
+      "url": "https://www.productcoalition.com/p/the-pivot-tax-what-changing-direction?utm_source=tldrfounders",
+      "report": {
+        "tldr": "방향 전환(피벗) 비용이 5년 전보다 더 커졌다는 분석이다.",
+        "what": "피벗에 드는 '세금'이 과거보다 높아진 이유를 다룬다.",
+        "points": [
+          "피벗 비용 상승",
+          "과거 대비 부담 증가",
+          "방향 전환의 대가"
+        ],
+        "why": [
+          "스타트업 의사결정의 비용 인식"
+        ]
+      }
+    }
+  ]
+}

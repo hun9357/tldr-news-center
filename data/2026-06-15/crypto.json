@@ -1,0 +1,250 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-wlf-ufc-usd1",
+      "title": "월드리버티파이낸셜, UFC 보너스를 USD1 스테이블코인으로 지급",
+      "summary": "백악관 남쪽 잔디서 열린 UFC 행사에 USD1 보너스 풀 후원.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/IYkImM",
+      "report": {
+        "tldr": "트럼프 일가가 공동설립한 WLF가 UFC 보너스를 자사 USD1 스테이블코인으로 지급했다.",
+        "what": "WLF는 백악관 남쪽 잔디에서 트럼프 80세 기념으로 열린 UFC Freedom 250의 메인 스폰서로, '퍼포먼스 오브 더 나이트'에 USD1로 $25만 보너스 풀을 약정했다. USD1은 美 국채·현금성 자산으로 뒷받침되며 커스터디는 BitGo가 맡는다.",
+        "points": [
+          "트럼프 일가 공동설립 WLF 후원",
+          "보너스 풀 $25만 USD1로 지급",
+          "USD1: 국채·현금 담보 달러 페그",
+          "커스터디 BitGo"
+        ],
+        "why": [
+          "정치 인사 연계 스테이블코인의 가시성 부각",
+          "스테이블코인의 실생활 결제 사례 확대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-tokenized-spacex-cancelled",
+      "title": "바이낸스·바이비트·비트겟, 토큰화 SpaceX IPO 배정 취소",
+      "summary": "파트너 xStocks의 주식 미인도로 10억달러+ 주문 전액 환불.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/JZN97f",
+      "report": {
+        "tldr": "세 거래소가 xStocks의 기초주식 미인도로 토큰화 SpaceX IPO 캠페인을 취소하고 전액 환불했다.",
+        "what": "수요가 공급을 약 4대1로 초과한 가운데 xStocks가 주식을 인도하지 못해 캠페인이 붕괴됐고, 플랫폼 전반에서 10억달러 넘는 주문이 모였으나 배정은 0이었다. 바이낸스만 약 5.57억달러 온체인 청약을 받았고, 세 거래소 모두 환불에 더해 바이비트는 4일간 연 10% 보너스, 비트겟은 가스 바우처와 향후 캠페인 접근을 제공했다.",
+        "points": [
+          "xStocks 기초주식 미인도",
+          "수요/공급 약 4:1 초과",
+          "10억달러+ 주문, 배정 0",
+          "전액 환불 + 보상 제공"
+        ],
+        "why": [
+          "토큰화 주식의 결제·인도 리스크 노출",
+          "RWA 토큰화 신뢰도에 타격"
+        ]
+      }
+    },
+    {
+      "id": "crypto-qivalis-euro-stablecoin",
+      "title": "Qivalis, 유럽 은행 컨소시엄의 유로 스테이블코인",
+      "summary": "BNP·ING·UniCredit 등 참여, 분배 문제 해결 겨냥.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/6gdhTe",
+      "report": {
+        "tldr": "유럽 은행 컨소시엄이 분배 내장형 유로 스테이블코인 Qivalis를 출범한다.",
+        "what": "유로 스테이블코인은 달러 페그 대비 미미한 규모이며 관건은 사용 유도다. BNP Paribas·ING·UniCredit·CaixaBank·KBC·SEB·Danske 등 은행 컨소시엄이 예금·결제 인프라·수백만 고객을 활용한 내장 분배로 광범위 유통을 노린다. 이는 즉시 국경 간 결제, 24시간 기업 재무, 영업외 시간 담보 이동 등을 가능케 한다.",
+        "points": [
+          "유럽 주요 은행 컨소시엄 주도",
+          "은행 채널 통한 내장 분배",
+          "국경 간 결제·24시간 재무 활용"
+        ],
+        "why": [
+          "달러 패권 속 유로 스테이블코인 도전",
+          "은행 주도 모델의 채택 가능성"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sphincs-evm-pq",
+      "title": "SPHINCS-: EVM 최적화 포스트양자 서명 검증",
+      "summary": "SHAKE256→Keccak256 교체로 온체인 검증 ~127K 가스.",
+      "source": "TLDR Crypto",
+      "url": "https://ethresear.ch/t/sphincs-minus-efficient-stateless-post-quantum-signature-verification-on-the-evm/25165?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "SPHINCS-는 프로토콜 변경 없이 온체인 포스트양자 서명 검증을 실용화한 EVM 최적화 변종이다.",
+        "what": "SHAKE256을 Keccak256로 바꿔 새 프리컴파일 없이 검증을 가능케 한다. 최적 변종 C13은 약 127K 가스·3,704바이트 서명, Keccak 튜닝 SLH-DSA는 94K 가스로 현 블록 제약 내 양자 내성 지갑 보안을 구현한다.",
+        "points": [
+          "Keccak256로 교체, 프로토콜 변경 불필요",
+          "C13: ~127K 가스, 3,704B 서명",
+          "SLH-DSA 변종: 94K 가스",
+          "가스 모델로 최적 파라미터 도출"
+        ],
+        "why": [
+          "양자 위협 대비 온체인 서명의 현실성 제시"
+        ]
+      }
+    },
+    {
+      "id": "crypto-japan-tax-55-to-20",
+      "title": "일본, 암호자산 세율 55%→20% 인하 법안 통과",
+      "summary": "금융상품으로 재분류, 2027년 시행·국내 ETF 길 열어.",
+      "source": "TLDR Crypto",
+      "url": "https://www.coindesk.com/policy/2026/06/11/japan-passes-sweeping-bill-regulating-crypto-like-stocks-with-lower-taxes-to-drive-growth?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "일본 중의원이 암호자산을 금융상품으로 재분류해 세율을 55%에서 20%로 낮추는 법안을 통과시켰다.",
+        "what": "금융상품거래법 아래로 옮겨 디지털 자산을 주식처럼 다루며, 2027년 시행 시 세율을 전통 증권 수준(20%)으로 맞추고 국내 암호 ETF 경로를 연다. 주식형 내부자거래 금지·공시 강화·미감사 토큰 투자 한도도 도입되며, 미등록 업자 처벌은 최대 10년·벌금 1천만엔으로 상향된다.",
+        "points": [
+          "금융상품으로 재분류",
+          "세율 55%→20%, 2027년 시행",
+          "국내 암호 ETF 경로 개설",
+          "내부자거래 금지·공시 강화"
+        ],
+        "why": [
+          "주요국의 친화적 세제 전환 신호",
+          "아시아 암호 시장 경쟁 가열"
+        ],
+        "action": "일본 거주 투자자·사업자는 2027년 시행 대비 세무·컴플라이언스 점검"
+      }
+    },
+    {
+      "id": "crypto-q2-defi-hack-ath",
+      "title": "2026 2분기, DeFi 해킹 건수 사상 최대",
+      "summary": "약 70건 익스플로잇·$7.46억 손실, 고빈도·저액 공격으로 이동.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/UZStPU",
+      "report": {
+        "tldr": "2026 2분기 DeFi 익스플로잇이 약 70건으로 분기 기준 사상 최대를 기록했다.",
+        "what": "건수는 이전 기록의 약 2배지만 총손실 $7.46억은 로닌 브리지 $6.25억 같은 단일 대형 사고에는 못 미쳐, 드문 대형 침해에서 고빈도·저액 공격으로의 구조적 전환을 시사한다. 더 넓은 프로토콜에 분산된 분포는 공격면 확대 또는 익스플로잇 도구의 상품화를 의미한다.",
+        "points": [
+          "약 70건, 분기 사상 최대",
+          "총손실 $7.46억(대형 단일사고 미만)",
+          "고빈도·저액 공격으로 이동",
+          "공격 도구 상품화 가능성"
+        ],
+        "why": [
+          "방어 모델이 다수 벡터 상시 모니터링으로 전환 필요"
+        ],
+        "action": "소수 고가치 표적 방어보다 다수 벡터 연속 모니터링으로 전환"
+      }
+    },
+    {
+      "id": "crypto-solana-app-layer",
+      "title": "솔라나 앱 레이어가 SOL보다 빠르게 달군다",
+      "summary": "주피터 거래량 30일 238%↑, 인프라 레이어 재평가 가능성.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2066166777965629477.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "'솔라나 시즌' 서사보다 앞서 솔라나 애플리케이션 레이어가 달아오르고 있다.",
+        "what": "주피터 애그리게이터 거래량이 30일간 238% 늘어 $183억, 오르카 DEX 거래량 20%↑, 레이디움 $43억, Pump.fun 수수료 $2,640만을 기록했다. 밸류에이션상 Pump.fun은 연환산 $3.16억 수수료에 시총 $5.37억, 오르카는 $4,100만 런레이트에 $7천만으로, 수수료 10배 재평가 시 ORCA ~$6.75·JUP ~$0.59로 인프라 레이어가 SOL보다 먼저 리프라이싱될 수 있다.",
+        "points": [
+          "주피터 거래량 30일 238%↑ ($183억)",
+          "Pump.fun 수수료 $2,640만",
+          "오르카·레이디움 거래량 강세",
+          "인프라 레이어 선행 재평가 가능성"
+        ],
+        "why": [
+          "체인 토큰보다 앱 레이어 수익에 주목하는 시각"
+        ]
+      }
+    },
+    {
+      "id": "crypto-decaying-vote-weight",
+      "title": "가중 합의의 투표 가중치 감쇠 — 세 수정, 세 새 공격",
+      "summary": "감쇠 설계가 드리프트·정지·이클립스 공격을 각각 연다.",
+      "source": "TLDR Crypto",
+      "url": "https://ethresear.ch/t/three-fixes-three-new-attacks-decaying-vote-weight-in-a-weighted-consensus/25164?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "다중 자원 가중 합의의 종결 설계에서 직관적 수정 셋이 각각 새 공격을 연다는 분석이다.",
+        "what": "작업·기여만 감쇠하면 라이브 가중치가 자본으로 드리프트하고, 모든 자원을 균일 감쇠하면 수집 가능 가중치가 2/3 미만으로 떨어져 체인이 멈출 수 있으며, 현재 유효 가중치 기준 측정은 이클립스·검열로 분모를 줄여 소수로 초다수에 도달하게 한다. 제안된 해법은 정족수 하한을 '현재 유효 가중치와 기본 가중치 일정 비율 중 큰 값'으로 설정하는 것이다.",
+        "points": [
+          "작업/기여만 감쇠 → 자본 드리프트",
+          "균일 감쇠 → 체인 정지 위험",
+          "현재 유효 가중치 기준 → 이클립스 공격",
+          "정족수 하한으로 세 실패 동시 차단"
+        ],
+        "why": [
+          "라이브니스·이클립스 저항이 같은 분모에 의존"
+        ]
+      }
+    },
+    {
+      "id": "crypto-latam-stablecoins",
+      "title": "중남미 스테이블코인, 엇갈린 성장 패턴",
+      "summary": "브라질 BRLA/BRZ 안정 vs 멕시코 MXNB 변동성 큼.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/XapBEG",
+      "report": {
+        "tldr": "중남미 현지통화 스테이블코인 4종의 주간 거래량이 성숙도에 따라 갈렸다.",
+        "what": "12월~6월 분석에서 브라질 BRLA·BRZ는 주당 $270만~$400만으로 성숙한 양상을, 멕시코 MXNB는 최고 약 $100만에서 거의 비는 주까지 크게 출렁였다.",
+        "points": [
+          "브라질 BRLA/BRZ 안정적",
+          "멕시코 MXNB 변동성 큼",
+          "현지통화 스테이블코인 성숙도 격차"
+        ],
+        "why": [
+          "신흥시장 스테이블코인 채택의 불균형"
+        ]
+      }
+    },
+    {
+      "id": "crypto-aerodrome-predictive-allocation",
+      "title": "에어로드롬, 'Predictive Allocation' 도입 예고",
+      "summary": "7월부터 유동성 수요 예측에 보상하는 인센티브로 전환.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2066213645097513138.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Base 최대 DEX 에어로드롬이 7월 'Predictive Allocation' 메커니즘을 도입한다.",
+        "what": "과거 성과 기반 인센티브를 대체해, 유동성이 다음에 어디서 필요할지 정확히 예측하는 참여자에게 보상하는 방식이다.",
+        "points": [
+          "Base 최대 DEX",
+          "7월 도입 예정",
+          "유동성 수요 예측에 보상"
+        ],
+        "why": [
+          "DEX 인센티브 설계의 실험적 전환"
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-1t-stablecoin",
+      "title": "코인베이스, 연 $1조 스테이블코인 결제 처리",
+      "summary": "USDC 온플랫폼 $200억, x402로 1.6억+ 자율 거래.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/0MgLFN",
+      "report": {
+        "tldr": "브라이언 암스트롱이 연 $1조 스테이블코인 이동 등 플랫폼 지표를 공개했다.",
+        "what": "연간 약 $1조 스테이블코인 이동, 플랫폼 보유 USDC $200억, 지난 1년간 x402 에이전트 결제 프로토콜로 1.6억 건 이상 자율 거래를 처리했다고 밝혔다.",
+        "points": [
+          "연 $1조 스테이블코인 이동",
+          "USDC 온플랫폼 $200억",
+          "x402로 1.6억+ 자율 거래"
+        ],
+        "why": [
+          "에이전트 결제·스테이블코인 인프라의 규모 입증"
+        ]
+      }
+    },
+    {
+      "id": "crypto-btc-etf-inflow",
+      "title": "비트코인 ETF, 5일 유출 끊고 금요일 $8,580만 유입",
+      "summary": "IBIT $5,770만·FBTC $1,800만 주도, 순유출 펀드 없음.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/0MgLFN",
+      "report": {
+        "tldr": "현물 비트코인 ETF가 5거래일 유출을 끊고 금요일 $8,580만 순유입을 기록했다.",
+        "what": "블랙록 IBIT $5,770만, 피델리티 FBTC $1,800만이 유입을 이끌었고 당일 순유출을 보고한 펀드는 없었다.",
+        "points": [
+          "5일 유출 종료",
+          "금요일 $8,580만 순유입",
+          "IBIT·FBTC 주도, 순유출 0"
+        ],
+        "why": [
+          "기관 자금 흐름의 단기 반전 신호"
+        ]
+      }
+    }
+  ]
+}

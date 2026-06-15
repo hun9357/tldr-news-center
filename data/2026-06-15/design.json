@@ -1,0 +1,262 @@
+{
+  "name": "디자인 / 제품",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-icon-composer-sf-symbols",
+      "title": "애플, Icon Composer 2·SF Symbols 8 베타 공개",
+      "summary": "WWDC26 후속, 7,000+ 심볼·Liquid Glass 디자인 도구.",
+      "source": "TLDR Design",
+      "url": "https://9to5mac.com/2026/06/12/icon-composer-2-and-sf-symbols-8-now-available-as-betas/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "애플이 WWDC26 후속으로 SF Symbols 8과 Icon Composer 2 베타를 공개했다.",
+        "what": "SF Symbols 8은 최신 OS 전반에 심볼을 추가해 총 7,000개 이상으로 늘리고 애니메이션·효과·가변 렌더링을 지원한다. Icon Composer 2는 빛 왜곡용 Refraction, 향상된 스페큘러 하이라이트, 현·구형 OS 아이콘 미리보기를 보는 Extended Preview 등 Liquid Glass 도구를 도입한다.",
+        "points": [
+          "심볼 총 7,000개+",
+          "애니메이션·가변 렌더링",
+          "Liquid Glass: Refraction·스페큘러",
+          "Extended Preview 모드"
+        ],
+        "why": [
+          "애플 디자인 언어 'Liquid Glass' 확산"
+        ]
+      }
+    },
+    {
+      "id": "design-figma-web-capture",
+      "title": "피그마 크롬 확장: 웹페이지를 편집 가능 레이어로 캡처",
+      "summary": "전체/선택 요소를 복사해 피그마에 붙여넣기.",
+      "source": "TLDR Design",
+      "url": "https://www.figma.com/release-notes/?title=figma-chrome-extension&utm_source=tldrdesign",
+      "report": {
+        "tldr": "피그마가 웹페이지를 편집 가능한 레이어로 캡처하는 크롬 확장을 출시했다.",
+        "what": "전체 페이지나 선택 요소를 복사해 피그마에 붙여넣어, 코딩 없이 웹 콘텐츠를 참조·수정한다. 유료 플랜 한정 베타이며 디자인 시스템 통합이 곧 추가된다.",
+        "points": [
+          "웹→편집 가능 레이어 캡처",
+          "전체/선택 요소 복사",
+          "유료 플랜 한정 베타"
+        ],
+        "why": [
+          "디자이너의 웹 레퍼런스 워크플로 단축"
+        ]
+      }
+    },
+    {
+      "id": "design-pinterest-amazon",
+      "title": "핀터레스트, 아마존 스토어프론트 통합으로 크리에이터 공략",
+      "summary": "제휴 링크 자동 적용, AI 콘텐츠 불만 대응.",
+      "source": "TLDR Design",
+      "url": "https://techcrunch.com/2026/06/10/pinterest-bets-on-creators-with-amazon-storefront-integration/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "핀터레스트가 아마존과 손잡고 크리에이터의 스토어프론트를 프로필에 통합한다.",
+        "what": "적격 아마존 제품 태깅 시 제휴 링크를 자동 적용해, 인스타그램·틱톡 위주 크리에이터를 끌어들이고 쇼핑 목적지로 재부상하려 한다. AI 생성 콘텐츠 불만에 맞서 실제 크리에이터 추천에 집중하려는 움직임이기도 하다.",
+        "points": [
+          "아마존 스토어프론트 프로필 통합",
+          "제휴 링크 자동 적용",
+          "크리에이터 유치·쇼핑 재부상",
+          "AI 콘텐츠 불만 대응"
+        ],
+        "why": [
+          "크리에이터 커머스·진정성 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "design-ai-became-internet",
+      "title": "우리는 클릭을 멈췄고, AI가 인터넷이 됐다",
+      "summary": "제로클릭이 독자-창작자 연결과 개방형 웹을 약화.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/Ste7Uc",
+      "report": {
+        "tldr": "AI·봇·제로클릭이 매개하면서 개방형 웹을 지탱하던 독자-창작자 연결이 약화되고 있다.",
+        "what": "AI는 정보 접근을 편리하게 하지만 호기심·사고 다양성과 원작 콘텐츠의 경제적 유인을 약화시킬 수 있다. 문제는 AI가 웹을 대체했다는 게 아니라 사람과 원천 지식 사이에 점점 끼어든다는 것이며, 글은 출처 투명성·AI 중립성·발견과 사용자 주체성을 높이는 설계를 주장한다.",
+        "points": [
+          "제로클릭이 연결 약화",
+          "원작 경제적 유인 위협",
+          "AI가 사람과 원천 사이에 개입",
+          "출처 투명성·발견 중심 설계 제안"
+        ],
+        "why": [
+          "콘텐츠 생태계·검색 설계의 근본 질문"
+        ]
+      }
+    },
+    {
+      "id": "design-ai-accessibility-test",
+      "title": "당신의 AI는 접근성 테스트를 통과하는가?",
+      "summary": "워크플로에 접근성 없으면 AI가 장벽을 가속 생산.",
+      "source": "TLDR Design",
+      "url": "https://www.aaron-gustafson.com/notebook/can-your-ai-pass-the-accessibility-test/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI는 기존 프로세스를 가속하므로 접근성이 없으면 장애 사용자 대상 장벽도 확대 생산한다.",
+        "what": "접근성 이슈는 늦게 잡을수록 기하급수적으로 비싸지므로 기획부터 릴리스까지 단계마다 점검해야 한다. 핵심은 장애인을 기획 단계에 참여시켜 실제 필요를 이해하는 것이다.",
+        "points": [
+          "AI가 접근성 장벽도 가속",
+          "전 단계 접근성 점검 필요",
+          "늦은 수정일수록 고비용",
+          "장애인 기획 참여가 관건"
+        ],
+        "why": [
+          "AI 시대 포용적 디자인의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "design-component-is-promise",
+      "title": "디자인 시스템의 모든 컴포넌트는 약속이다",
+      "summary": "우버 uSpec, 잘 구조화된 시스템을 읽어 문서 자동 생성.",
+      "source": "TLDR Design",
+      "url": "https://blog.murphytrueman.com/every-component-in-your-design-system-is-a-promise/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "우버의 uSpec은 잘 구조화된 디자인 시스템을 프로그램적으로 읽어 컴포넌트 문서를 분 단위로 생성한다.",
+        "what": "디자인 시스템은 컴포넌트 동작·토큰 의미·사용 지침을 약속하는 계약이지만, 대부분 AI가 정확히 해석할 만큼 명시적이지 않다. 문서가 사람을 위한 의도를 기술한다면, 계약은 기계가 해석 없이 파싱할 규칙을 명세·강제한다는 차이가 있다.",
+        "points": [
+          "uSpec: 문서 자동 생성",
+          "디자인 시스템 = 계약",
+          "명시적 구조 부족 문제",
+          "문서(의도) vs 계약(규칙) 구분"
+        ],
+        "why": [
+          "AI가 읽을 수 있는 디자인 시스템 설계"
+        ]
+      }
+    },
+    {
+      "id": "design-css-buttons",
+      "title": "CSS Buttons (웹사이트)",
+      "summary": "100개+ 고유 버튼 스타일과 코드 모음.",
+      "source": "TLDR Design",
+      "url": "https://cssbuttons.io/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "100개 이상의 고유 버튼 스타일과 코드를 제공하는 모음 사이트다.",
+        "what": "웹 프로젝트에 바로 쓸 수 있는 스타일리시하고 기능적인 버튼 코드를 제공한다.",
+        "points": [
+          "100개+ 버튼 스타일",
+          "즉시 사용 가능한 코드"
+        ],
+        "why": [
+          "프런트엔드 작업 가속 리소스"
+        ]
+      }
+    },
+    {
+      "id": "design-virtual-os-museum",
+      "title": "The Virtual OS Museum (웹사이트)",
+      "summary": "1948년~현재 1,700개+ OS를 에뮬레이션.",
+      "source": "TLDR Design",
+      "url": "https://virtualosmuseum.org/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "1948년부터 현재까지 1,700개 이상의 역사적 운영체제를 에뮬레이션하는 리눅스 VM이다.",
+        "what": "메인프레임, 유닉스 변종, 가정용 컴퓨터, 모바일 시스템까지 폭넓게 다룬다.",
+        "points": [
+          "1,700개+ OS 에뮬레이션",
+          "1948년~현재",
+          "메인프레임~모바일 망라"
+        ],
+        "why": [
+          "UI/UX 역사 학습 자료"
+        ]
+      }
+    },
+    {
+      "id": "design-context-architecture",
+      "title": "컨텍스트 아키텍처 (NN/g)",
+      "summary": "프롬프트 엔지니어링에서 정보 환경 설계로 진화.",
+      "source": "TLDR Design",
+      "url": "https://www.nngroup.com/articles/context-architecture/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 제품 디자인이 프롬프트 엔지니어링에서 '컨텍스트 아키텍처'로 진화하고 있다.",
+        "what": "에이전트가 자율화될수록 성능은 프롬프트가 아니라 지시·지식·도구·메모리·상태를 어떻게 조직하느냐에 좌우된다. 위계·라벨링·분류·메모리 설계 같은 정보 아키텍처 원리가 올바른 정보 검색과 도구 선택, 신뢰성을 돕는다.",
+        "points": [
+          "프롬프트→컨텍스트 설계 전환",
+          "지시·지식·도구·메모리·상태 조직",
+          "IA 원리 적용",
+          "핵심은 정보 환경 설계"
+        ],
+        "why": [
+          "에이전트 UX 설계의 새 패러다임"
+        ]
+      }
+    },
+    {
+      "id": "design-videogame-ux",
+      "title": "비디오게임 UX가 2026 온라인 디자인을 바꿨다",
+      "summary": "온라인 카지노가 라이브서비스 게임 패턴 차용.",
+      "source": "TLDR Design",
+      "url": "https://www.gamegrin.com/articles/how-videogame-ux-quietly-reshaped-2026-online-design/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "온라인 카지노가 2018~2026년 사이 비디오게임 디자이너를 영입해 UI를 대폭 바꿨다.",
+        "what": "튜토리얼 플로, 일일 퀘스트, 진행 시스템, 업적 메커니즘을 콘솔·모바일 게임에서 그대로 들여왔다. 근본 도박 메커니즘은 그대로지만 디자인 틀은 전통 슬롯이 아니라 부분유료 게임을 닮았다.",
+        "points": [
+          "게임 디자이너 영입",
+          "퀘스트·진행·업적 메커니즘",
+          "부분유료 게임형 UI"
+        ],
+        "why": [
+          "게임화 UX의 산업 간 확산"
+        ]
+      }
+    },
+    {
+      "id": "design-worldcup-ticketing-fail",
+      "title": "월드컵 티켓팅은 다섯 가지로 디자인 실패",
+      "summary": "긴 대기·글리치·블라인드 좌석·동적 가격에 4개 주 조사.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/nP1kO4",
+      "report": {
+        "tldr": "FIFA 월드컵 티켓팅 시스템이 허위광고·가격 부풀리기로 4개 美 주의 조사를 받고 있다.",
+        "what": "긴 대기열, 글리치, 블라인드 좌석 선택, 수익 우선 동적 가격으로 팬을 좌절시킨다. 장애 팬과 단체는 더 비싼 접근 좌석과 동반 착석 미보장 등 추가 장벽에 부딪힌다.",
+        "points": [
+          "4개 주 조사",
+          "대기·글리치·블라인드 좌석",
+          "수익 우선 동적 가격",
+          "장애 팬 추가 장벽"
+        ],
+        "why": [
+          "대규모 이벤트 UX·접근성 실패 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-dollhouse-oddity",
+      "title": "Dollhouse Oddity, 블라이스 인형을 고딕 초상으로",
+      "summary": "다크·스푸키 감성의 일점물 커스텀 스튜디오.",
+      "source": "TLDR Design",
+      "url": "https://designyoutrust.com/2026/06/dollhouse-oddity-turns-blythe-dolls-into-gothic-one-of-a-kind-character-portraits/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "Dollhouse Oddity는 블라이스 인형을 고딕·일점물 캐릭터 초상으로 커스텀하는 스튜디오다.",
+        "what": "다크하고 스푸키한 여성적 미학으로 인형을 재해석한다.",
+        "points": [
+          "블라이스 인형 커스텀",
+          "고딕·일점물",
+          "다크 페미닌 미학"
+        ],
+        "why": [
+          "크래프트·아트 디자인 영감"
+        ]
+      }
+    },
+    {
+      "id": "design-3d-portfolio-no-model",
+      "title": "3D 모델 없이 만든 수상 3D 포트폴리오",
+      "summary": "평면 지오메트리에 손그림 텍스처, R3F·Three.js 활용.",
+      "source": "TLDR Design",
+      "url": "https://tympanus.net/codrops/2026/06/11/sketching-the-impossible-a-3d-portfolio-built-without-a-single-3d-model/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "개발자가 3D 모델링 없이 평면 지오메트리와 손그림 텍스처로 수상 3D 포트폴리오를 만들었다.",
+        "what": "Tomasz Szmajda가 React Three Fiber와 Three.js로 평면 지오메트리를 손그림 텍스처로 감싸 전체를 구성했다.",
+        "points": [
+          "3D 모델 없이 제작",
+          "평면 지오메트리 + 손그림 텍스처",
+          "R3F·Three.js 사용"
+        ],
+        "why": [
+          "웹 3D 표현의 창의적 접근"
+        ]
+      }
+    }
+  ]
+}

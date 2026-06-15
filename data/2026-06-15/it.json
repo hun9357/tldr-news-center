@@ -1,0 +1,221 @@
+{
+  "name": "IT / 인프라",
+  "source": "TLDR IT",
+  "icon": "🛠️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-us-orders-anthropic-suspend",
+      "title": "美, Anthropic에 Fable 5·Mythos 5 접근 중단 명령",
+      "summary": "국가안보 이유 외국인 차단 요구에 글로벌 비활성화로 대응.",
+      "source": "TLDR IT",
+      "url": "https://www.businessinsider.com/why-white-house-ordered-export-controls-anthropic-mythos-fable-2026-6?utm_source=tldrit",
+      "report": {
+        "tldr": "美 정부가 국가안보를 이유로 Anthropic 최상위 모델의 외국인 접근 차단을 명령했다.",
+        "what": "국적별 제한 대신 Anthropic은 모델을 글로벌 비활성화했고, 다음 주 백악관과 만나 분쟁을 해결할 예정이다.",
+        "points": [
+          "외국인 접근 차단 명령",
+          "국적 제한 대신 글로벌 비활성화",
+          "다음 주 백악관 협의"
+        ],
+        "why": [
+          "기업 IT의 AI 모델 가용성에 규제 리스크 직접 영향"
+        ],
+        "action": "사내 Fable/Mythos 의존 워크플로의 대체 경로·복구 일정 점검"
+      }
+    },
+    {
+      "id": "it-oracle-federal-hr",
+      "title": "오라클, 美 연방정부 전체 HR 소프트웨어 수주",
+      "summary": "100개+ 기관 시스템을 단일 클라우드로, 200만 공무원 대상.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/qHev9Q",
+      "report": {
+        "tldr": "오라클이 美 연방정부 전체 HR 소프트웨어를 운영하는 10년 계약을 따냈다.",
+        "what": "100개 이상 분산된 기관 HR 시스템을 약 200만 공무원을 위한 단일 클라우드 플랫폼으로 대체하며, 인사관리처(OPM)를 위해 운영된다.",
+        "points": [
+          "10년 계약",
+          "100개+ 기관 시스템 통합",
+          "약 200만 공무원 대상",
+          "OPM 관리"
+        ],
+        "why": [
+          "대형 공공 클라우드 전환의 상징적 수주",
+          "벤더 종속·전환 리스크 부각"
+        ]
+      }
+    },
+    {
+      "id": "it-cisa-three-day-patch",
+      "title": "CISA, 최고위험 취약점 '3일 패치' 시한 부여",
+      "summary": "위험 기반 마감으로 연방 취약점 관리 전환.",
+      "source": "TLDR IT",
+      "url": "https://www.cisa.gov/news-events/news/cisa-issues-new-directive-improving-how-federal-agencies-prioritize-mitigation-cyber-vulnerabilities?utm_source=tldrit",
+      "report": {
+        "tldr": "CISA 새 지침이 최고위험 취약점에 최단 3일 내 조치를 요구한다.",
+        "what": "연방 취약점 관리를 위험 기반 마감으로 전환해, 자동화·악용 가능 취약점이 빠르게 광범위 침해로 번지는 현실을 반영했다.",
+        "points": [
+          "위험 기반 마감 도입",
+          "최고위험 3일 내 조치",
+          "자동 악용 속도 반영"
+        ],
+        "why": [
+          "공공·민간 패치 운영 기준 강화 신호"
+        ],
+        "action": "위험 등급별 패치 SLA를 재정비하고 자동화 파이프라인 점검"
+      }
+    },
+    {
+      "id": "it-clearinghouses-agents-era",
+      "title": "SaaS는 시스템 오브 레코드, 에이전트 시대는 '클리어링하우스'",
+      "summary": "메모리·컨텍스트·실행·거버넌스를 관장하는 계층이 해자.",
+      "source": "TLDR IT",
+      "url": "https://cloudedjudgement.substack.com/p/systems-of-record-won-the-saas-era?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 시대의 해자는 자율 에이전트를 위한 '클리어링하우스'가 될 것이라는 분석이다.",
+        "what": "내구성 있는 SaaS가 시스템 오브 레코드로 승리했듯, AI 시대 해자는 메모리·컨텍스트·실행·거버넌스/감사 네 요소를 관장하며 벤더·데이터 소스 전반의 에이전트 행위에 대한 권한·정책을 통제하는 데서 나온다.",
+        "points": [
+          "해자 = 에이전트 클리어링하우스",
+          "메모리·컨텍스트·실행·거버넌스 관장",
+          "권한·정책·감사 통제"
+        ],
+        "why": [
+          "에이전트 시대 플랫폼 경쟁의 새 축 제시"
+        ]
+      }
+    },
+    {
+      "id": "it-ciso-ispm-ai-agents",
+      "title": "CISO는 AI 에이전트용 신원 태세 관리를 재고해야",
+      "summary": "'에이전틱 ISPM'으로 폐루프·정책 한정 자동 조치 전환.",
+      "source": "TLDR IT",
+      "url": "https://softwareanalyst.substack.com/p/why-cisos-must-re-think-identity?utm_source=tldrit",
+      "report": {
+        "tldr": "대다수 ISPM이 AI 에이전트가 들어온 위협 환경에 구조적으로 맞지 않는다는 지적이다.",
+        "what": "에이전트가 신원·권한을 갖고 워크플로에 진입하면서, '에이전틱 ISPM' 단계는 태세 발견을 폐루프·정책 한정 조치(제안→승인→실행→검증→감사 증거)로 전환해 수동 티켓을 기다리지 않게 한다.",
+        "points": [
+          "기존 ISPM의 구조적 부정합",
+          "에이전트 신원·권한 관리 필요",
+          "폐루프·정책 한정 자동 조치"
+        ],
+        "why": [
+          "AI 에이전트 확산에 따른 신원 보안 재설계"
+        ]
+      }
+    },
+    {
+      "id": "it-intel-thermald-arm",
+      "title": "Intel Thermald 2.5.12, ARM 초기 지원 추가",
+      "summary": "퀄컴이 플랫폼 비종속 백엔드로 리팩터링.",
+      "source": "TLDR IT",
+      "url": "https://www.phoronix.com/news/Intel-Thermald-2.5.12-Released?utm_source=tldrit",
+      "report": {
+        "tldr": "Intel Thermald 2.5.12가 ARM 플랫폼 초기 지원을 추가했다.",
+        "what": "퀄컴이 데몬을 리팩터링하고 플랫폼 비종속 백엔드를 추가해 Intel 전용을 넘어 동작하게 했으며, Intel은 신형 CPU 지원·RAPL 처리·보안 강화를 이어간다.",
+        "points": [
+          "ARM 초기 지원",
+          "퀄컴의 플랫폼 비종속 백엔드",
+          "Intel 신형 CPU·RAPL·보안 개선"
+        ],
+        "why": [
+          "리눅스 열관리 데몬의 ARM 확장"
+        ]
+      }
+    },
+    {
+      "id": "it-aws-finops-agent",
+      "title": "AWS, FinOps 에이전트 퍼블릭 프리뷰",
+      "summary": "클라우드 비용 이상 조사·질의를 워크플로 내에서 처리.",
+      "source": "TLDR IT",
+      "url": "https://aws.amazon.com/blogs/aws-cloud-financial-management/aws-finops-agent-is-now-public-preview/?utm_source=tldrit",
+      "report": {
+        "tldr": "AWS가 클라우드 비용 이상을 조사하고 질문에 답하는 에이전틱 도구를 공개했다.",
+        "what": "엔지니어링 팀이 청구 대시보드를 수동으로 뒤지지 않고 기존 워크플로 안에서 비용 이상을 조사·질의하도록 설계됐다.",
+        "points": [
+          "비용 이상 자동 조사",
+          "워크플로 내 질의응답",
+          "대시보드 수작업 대체"
+        ],
+        "why": [
+          "클라우드 비용 거버넌스의 에이전트화"
+        ]
+      }
+    },
+    {
+      "id": "it-api-hidden-mcp-server",
+      "title": "당신의 API는 이미 숨은 MCP 서버다",
+      "summary": "OpenAPI 스펙을 MCP 툴 정의로 매핑해 에이전트 노출.",
+      "source": "TLDR IT",
+      "url": "https://shiftmag.dev/api-mcp-server-infobip-filip-srnec-10118/?utm_source=tldrit",
+      "report": {
+        "tldr": "Infobip이 OpenAPI REST API를 프로덕션급 MCP 서버로 전환했다.",
+        "what": "OpenAPI MCP Spring Boot Starter로 OpenAPI 오퍼레이션을 MCP 툴 정의에 매핑하고, 스펙에서 동적 갱신하며 노출 도구를 필터링하고 기존 API/OAuth 인증을 전달해 에이전트가 실제 엔드포인트를 안전 호출하게 한다.",
+        "points": [
+          "OpenAPI→MCP 툴 자동 매핑",
+          "스펙 기반 동적 갱신·필터링",
+          "기존 인증 전달"
+        ],
+        "why": [
+          "기존 API 자산의 에이전트 통합 경로"
+        ]
+      }
+    },
+    {
+      "id": "it-ms-june-patch-tuesday",
+      "title": "MS 6월 패치 화요일, 약 200개 결함 수정",
+      "summary": "제로데이·치명적 이슈 다수 포함한 대형 패치.",
+      "source": "TLDR IT",
+      "url": "https://www.techradar.com/pro/security/microsoft-breaks-patch-tuesday-record-with-fixes-for-over-200-security-flaws?utm_source=tldrit",
+      "report": {
+        "tldr": "MS의 6월 패치 화요일이 윈도우 등에서 약 200개 취약점을 이례적으로 대거 수정했다.",
+        "what": "여러 제로데이와 치명적 이슈를 포함해 IT 팀에 고우선 패치 주기가 됐다.",
+        "points": [
+          "약 200개 취약점 수정",
+          "제로데이·치명 이슈 다수",
+          "고우선 패치 주기"
+        ],
+        "why": [
+          "대규모 패치로 즉시 대응 필요"
+        ],
+        "action": "제로데이 포함 항목 우선순위로 패치 배포"
+      }
+    },
+    {
+      "id": "it-oracle-cloud-free-halving",
+      "title": "오라클 클라우드, 'Always Free' 자원 반감",
+      "summary": "홈 리전 평생 무료 자원 정책 변경.",
+      "source": "TLDR IT",
+      "url": "https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm?utm_source=tldrit",
+      "report": {
+        "tldr": "오라클 클라우드 인프라가 'Always Free' 자원을 절반으로 줄인다.",
+        "what": "콘솔에서 'Always Free-eligible'로 표시된 자원은 홈 리전의 모든 테넌시에 계정 수명 동안 제공된다.",
+        "points": [
+          "Always Free 자원 반감",
+          "홈 리전·계정 수명 적용"
+        ],
+        "why": [
+          "무료 티어 의존 사용자에 영향"
+        ]
+      }
+    },
+    {
+      "id": "it-ms-build-security",
+      "title": "MS Build 보안 업데이트, 코드·에이전트·모델 보호 초점",
+      "summary": "AI 개발 워크플로 전반 보안 역량 신설.",
+      "source": "TLDR IT",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/?utm_source=tldrit",
+      "report": {
+        "tldr": "마이크로소프트가 코드·모델·에이전트 전반을 보호하는 새 보안 역량을 제시했다.",
+        "what": "AI 개발 워크플로 전반을 보호하기 위한 보안 기능을 발표했다.",
+        "points": [
+          "코드·모델·에이전트 보호",
+          "개발 라이프사이클 전반 적용"
+        ],
+        "why": [
+          "AI 개발 보안 표준화 흐름"
+        ]
+      }
+    }
+  ]
+}

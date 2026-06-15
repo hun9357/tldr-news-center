@@ -1,0 +1,384 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-anthropic-fable-mythos-suspended",
+      "title": "Anthropic, Fable 5·Mythos 5 접근 전면 중단",
+      "summary": "美 수출통제 지시에 따라 최상위 모델을 전 사용자 대상으로 차단했다.",
+      "source": "TLDR AI",
+      "url": "https://www.anthropic.com/news/fable-mythos-access?utm_source=tldrai",
+      "report": {
+        "tldr": "Anthropic이 美 정부의 수출통제 지시와 탈옥 위험 보고를 이유로 Fable 5·Mythos 5를 모든 사용자에게 차단했다.",
+        "what": "Anthropic은 미국 정부로부터 국가안보를 이유로 한 수출통제 지시를 받은 뒤, 가장 강력한 모델인 Fable 5와 Mythos 5의 접근을 전 사용자 대상으로 비활성화했다. 국적별로 제한을 적용하는 대신 글로벌 차단을 택했고, 다음 주 백악관 관계자들과 만나 사안을 해결할 예정이다.",
+        "points": [
+          "美 수출통제 지시 + 탈옥 위험 보고가 발단",
+          "국적 기반 제한 대신 전면 차단 선택",
+          "나머지 Anthropic 모델은 영향 없음",
+          "다음 주 백악관과 협의 예정"
+        ],
+        "why": [
+          "프런티어 모델이 처음으로 수출통제 대상이 된 분수령",
+          "규제·안보 리스크가 상용 AI 가용성을 직접 좌우",
+          "기업의 Fable/Mythos 의존 워크플로 중단 위험"
+        ],
+        "context": "같은 사안이 AI·IT·빅테크·보안·개발 에디션에서 동시에 다뤄진 오늘의 최대 뉴스다.",
+        "action": "Fable/Mythos 의존 기능의 대체 모델 경로를 점검하고 복구 일정 공지를 모니터링"
+      }
+    },
+    {
+      "id": "ai-amazon-jassy-triggered-crackdown",
+      "title": "아마존 CEO의 정부 접촉이 Anthropic 모델 규제 촉발",
+      "summary": "아마존 연구진이 Fable 5에서 사이버공격 정보 추출에 성공한 게 단초였다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/7RhdZU",
+      "report": {
+        "tldr": "앤디 재시 아마존 CEO와 美 당국 간 대화가 Anthropic 최상위 모델의 외국 사용 전면 중단으로 이어졌다.",
+        "what": "아마존 연구진이 일련의 프롬프트로 Fable 5에서 사이버공격에 활용될 수 있는 정보를 끌어냈고, 백악관은 Anthropic에 취약점 수정 또는 모델 내림을 요구했다. Anthropic은 이를 준수해 Mythos·Fable 접근을 차단했으나, 지적된 취약점은 비교적 기초적이며 다른 공개 모델도 같은 정보를 도출할 수 있다고 반박했다.",
+        "points": [
+          "재시 CEO와 당국 대화가 트럼프 행정부 조치 촉발",
+          "아마존 연구진의 탈옥 프롬프트가 증거로 제시",
+          "Anthropic은 '기초적 취약점'이라며 반박",
+          "외국 사용 전면 중단으로 비화"
+        ],
+        "why": [
+          "빅테크 간 경쟁이 규제 트리거로 작동한 이례적 사례",
+          "모델 안전성 평가 기준을 둘러싼 업계 갈등 노출"
+        ],
+        "action": "공급사 간 안전성 분쟁이 가용성에 미치는 영향을 리스크로 관리"
+      }
+    },
+    {
+      "id": "ai-glm-5-2",
+      "title": "Z.ai, 플래그십 GLM-5.2 공개",
+      "summary": "강력한 코딩 성능과 실사용 가능한 100만 토큰 컨텍스트, MIT 라이선스 오픈소스 예정.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2065704919299235870.html?utm_source=tldrai",
+      "report": {
+        "tldr": "Z.ai의 새 플래그십 GLM-5.2가 GLM 코딩 플랜 전 사용자에게 제공되기 시작했다.",
+        "what": "GLM-5.2는 강력한 코딩 역량, 실사용 가능한 100만 토큰 컨텍스트, 장기 과제 처리 강점을 제공한다. API와 챗봇 서비스는 다음 주 출시되며, 모델은 MIT 라이선스로 오픈소스화될 예정이다.",
+        "points": [
+          "GLM 코딩 플랜 사용자 우선 제공",
+          "100만 토큰 장기 컨텍스트 지원",
+          "API·챗봇은 다음 주 공개",
+          "MIT 라이선스 오픈소스 예고"
+        ],
+        "why": [
+          "오픈웨이트 코딩 모델 경쟁 심화",
+          "상용 프런티어 대비 비용 우위 가능성"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-gemini-skills-marketplace",
+      "title": "구글, Gemini 비즈니스용 '스킬 마켓플레이스' 개발",
+      "summary": "사전 정의된 최적화 스킬로 대시보드·리포팅을 엔지니어링 지연 없이 구축.",
+      "source": "TLDR AI",
+      "url": "https://www.testingcatalog.com/google-is-working-on-skills-marketplace-for-gemini-business/?utm_source=tldrai",
+      "report": {
+        "tldr": "구글이 Gemini Enterprise에 사전 정의된 스킬을 모은 '스킬 마켓플레이스' 탭을 준비 중이다.",
+        "what": "구글은 제품군을 Gemini Enterprise로 통합하면서, 구글이 최적화한 사전 정의 스킬을 제공하는 마켓플레이스 탭을 추가한다. 스킬 관리 UI, 스킬 빌더, 마켓플레이스를 포함해 팀이 긴 엔지니어링 지연 없이 대시보드·리포팅 도구를 만들도록 돕는 것이 목표다.",
+        "points": [
+          "Gemini Enterprise로 제품 통합",
+          "스킬 관리 UI·빌더·마켓플레이스 구성",
+          "대시보드·리포팅 자체 제작 지원"
+        ],
+        "why": [
+          "엔터프라이즈 에이전트 생태계의 '스킬' 표준 경쟁",
+          "노코드 사내 도구 제작 수요 공략"
+        ]
+      }
+    },
+    {
+      "id": "ai-inference-cost-napkin-math",
+      "title": "냅킨 계산으로 보는 대규모 추론 비용",
+      "summary": "GPU 사양·컨텍스트·활성 파라미터로 사용자당 단가를 손으로 추정.",
+      "source": "TLDR AI",
+      "url": "https://injuly.in/blog/napkin-inference-cost/index.html?utm_source=tldrai",
+      "report": {
+        "tldr": "사용자당 달러 단가는 GPU 사양·컨텍스트 길이·활성 파라미터 수·제품 요인으로 추정할 수 있다.",
+        "what": "이 글은 추론 비용의 사용자당 단가를 종이 위에서 계산하는 법을 보여준다. 디퓨전처럼 완전히 다른 구조가 아니라면 모델 아키텍처의 세부는 의외로 영향이 작으며, 추론 엔진의 최적화가 SaaS 제품 수익성을 어떻게 지켜주는지 드러난다.",
+        "points": [
+          "필요 변수: GPU 사양·컨텍스트·활성 파라미터·제품 요인",
+          "아키텍처 세부의 영향은 생각보다 작음",
+          "추론 최적화가 SaaS 수익성의 핵심"
+        ],
+        "why": [
+          "AI 제품 단가·마진 설계의 직관 제공"
+        ]
+      }
+    },
+    {
+      "id": "ai-frontier-companies-never-exceed",
+      "title": "오늘의 프런티어 AI 기업은 다시 정상에 못 오른다",
+      "summary": "소형 모델 네트워크가 속도·정확도·비용에서 거대 단일 모델을 앞선다는 주장.",
+      "source": "TLDR AI",
+      "url": "https://andrewtrask.substack.com/p/breaking-todays-frontier-ai-companies?utm_source=tldrai",
+      "report": {
+        "tldr": "작은 모델들의 네트워크가 모든 프런티어 시스템을 속도·정확도·비용에서 능가하고 있다는 도발적 주장이다.",
+        "what": "글쓴이는 1960년대 메인프레임에 대한 통념이 틀렸듯 중앙집중형 AI에 대한 현재의 믿음도 틀렸다고 본다. 미래는 신경망들의 네트워크라는 것이다.",
+        "points": [
+          "소형 모델 네트워크가 단일 프런티어 능가 주장",
+          "메인프레임→분산 컴퓨팅 역사에 비유",
+          "미래는 '신경망의 네트워크'"
+        ],
+        "why": [
+          "중앙집중형 LLM 투자 논리에 대한 반론 시각"
+        ]
+      }
+    },
+    {
+      "id": "ai-physics-of-a-fable",
+      "title": "Fable의 물리학: 해자는 아키텍처가 아닌 '환경 파운드리'",
+      "summary": "검증 가능한 보상이 희소한 결정 변수가 됐다는 리버스 엔지니어링 분석.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/SvVmqj",
+      "report": {
+        "tldr": "Mythos·Fable의 진짜 해자는 모델 구조가 아니라 등급화 신호를 만드는 '환경 파운드리'라는 분석이다.",
+        "what": "라파 슈빙거는 역량을 '기반 모델 × 그 위에서 추출한 등급화 신호'로 분해하며, 텍스트와 원시 연산이 더 이상 희소하지 않은 지금 검증 가능한 보상이 결정적 입력이 됐다고 본다. 밀집 사전학습, 보상 해킹 견고성이 핵심 제약이 되는 GRPO식 검증자 RL, 32K 활성으로 100만 토큰 윈도를 이기는 컨텍스트 폴딩, best-of-N 테스트타임 연산을 '노력 다이얼'로 노출하는 레시피를 제시한다.",
+        "points": [
+          "역량 = 기반 모델 × 등급화 신호",
+          "검증 가능한 보상이 새로운 희소 자원",
+          "보상 해킹 견고성이 RL의 실제 제약",
+          "컨텍스트 폴딩 + best-of-N 테스트타임 연산"
+        ],
+        "why": [
+          "프런티어 모델 우위의 원천에 대한 기술적 통찰"
+        ]
+      }
+    },
+    {
+      "id": "ai-kimi-k2-7-code",
+      "title": "Moonshot, Kimi K2.7 Code 공개",
+      "summary": "1조 파라미터 MoE 코딩 특화 에이전트 모델, 토큰 효율 개선.",
+      "source": "TLDR AI",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.7-Code?utm_source=tldrai",
+      "report": {
+        "tldr": "Kimi K2.7 Code는 복잡한 소프트웨어 작업의 종단 완수력과 토큰 효율을 높인 코딩 특화 에이전트 모델이다.",
+        "what": "K2.6 대비 종단 과제 완수력과 토큰 효율이 향상된 1조 파라미터 규모의 Mixture-of-Experts 모델이다. Moonshot의 OpenAI/Anthropic 호환 API로 접근할 수 있고, Kimi Code CLI를 에이전트 프레임워크로 쓸 때 가장 잘 동작한다.",
+        "points": [
+          "1조 파라미터 MoE 코딩 모델",
+          "K2.6 대비 완수력·토큰 효율 개선",
+          "OpenAI/Anthropic 호환 API 제공",
+          "Kimi Code CLI와 최적 호환"
+        ],
+        "why": [
+          "오픈 코딩 모델 경쟁에 중국발 강자 가세"
+        ]
+      }
+    },
+    {
+      "id": "ai-open-knowledge-format",
+      "title": "Open Knowledge Format 발표",
+      "summary": "LLM-위키 패턴을 이식 가능·상호운용 포맷으로 표준화한 사양.",
+      "source": "TLDR AI",
+      "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/?utm_source=tldrai",
+      "report": {
+        "tldr": "Open Knowledge Format은 LLM-위키 패턴을 벤더 중립·상호운용 포맷으로 형식화한 오픈 사양이다.",
+        "what": "에이전트·사람 모두 친화적이며 메타데이터, 컨텍스트, 큐레이션된 지식을 표현할 수 있다. 복잡한 압축 방식이나 새 런타임, 필수 SDK 없이 익숙한 패턴을 사용한다.",
+        "points": [
+          "벤더 중립·이식 가능 표준",
+          "메타데이터·컨텍스트·지식 표현",
+          "새 런타임/SDK 불필요"
+        ],
+        "why": [
+          "AI 지식 베이스의 상호운용성 표준 시도"
+        ]
+      }
+    },
+    {
+      "id": "ai-olmo-eval",
+      "title": "olmo-eval: 모델 개발 루프용 평가 워크벤치",
+      "summary": "OLMES 표준을 확장해 에이전트·멀티턴 평가와 체크포인트 비교 지원.",
+      "source": "TLDR AI",
+      "url": "https://huggingface.co/blog/allenai/olmo-eval?utm_source=tldrai",
+      "report": {
+        "tldr": "olmo-eval은 반복적 LLM 개발을 위한 평가 워크벤치다.",
+        "what": "OLMES 표준을 확장해 벤치마크 추가를 간소화하고 에이전트·멀티턴 평가를 지원하며, 모델 체크포인트 간 변화를 비교 분석한다. Harbor와 달리 공개 벤치마킹보다 개발에 초점을 두고 자원 사용을 최소화한다.",
+        "points": [
+          "OLMES 표준 확장",
+          "에이전트·멀티턴 평가 지원",
+          "체크포인트 간 비교 분석",
+          "개발 중심·저자원 지향"
+        ],
+        "why": [
+          "내부 모델 개발 반복 속도 향상 도구"
+        ]
+      }
+    },
+    {
+      "id": "ai-minimax-sparse-attention",
+      "title": "MiniMax Sparse Attention 공개",
+      "summary": "그룹별 Top-k 블록 선택으로 100만 토큰에서 연산 ~30배 절감.",
+      "source": "TLDR AI",
+      "url": "https://github.com/MiniMax-AI/MSA?utm_source=tldrai",
+      "report": {
+        "tldr": "MiniMax Sparse Attention은 긴 컨텍스트 추론을 품질 손실 없이 확장하는 희소 어텐션 구조다.",
+        "what": "그룹별 Top-k 블록 선택을 사용해 109B 멀티모달 모델에서 GQA 성능을 유지하면서 100만 토큰 시 어텐션 연산을 약 30배 줄였다.",
+        "points": [
+          "그룹별 Top-k 블록 선택",
+          "GQA 성능 유지",
+          "100만 토큰서 연산 ~30배 절감"
+        ],
+        "why": [
+          "장문 추론 비용 절감 아키텍처"
+        ]
+      }
+    },
+    {
+      "id": "ai-count-anything",
+      "title": "Count Anything: 범용 텍스트 가이드 객체 카운팅",
+      "summary": "카테고리·도메인·밀도를 넘나드는 일반화 카운팅 모델.",
+      "source": "TLDR AI",
+      "url": "https://arxiv.org/abs/2605.30846?utm_source=tldrai",
+      "report": {
+        "tldr": "도메인 특화에 갇혀 있던 객체 카운팅을 범용 텍스트 가이드 모델로 일반화한 연구다.",
+        "what": "기존 카운팅 모델은 특정 시나리오에 맞춰져 카테고리·시각 도메인·객체 스케일·밀도 분포 전반의 일반화에 약했다. 이 논문은 강한 정확도와 다중 도메인 일반화를 달성하는 범용 모델을 제시한다.",
+        "points": [
+          "텍스트 가이드 범용 카운팅",
+          "다중 도메인 일반화",
+          "스케일·밀도 전반 대응"
+        ],
+        "why": [
+          "비전 카운팅의 파편화 문제 해소 시도"
+        ]
+      }
+    },
+    {
+      "id": "ai-oracle-and-the-firm",
+      "title": "OpenAI vs Anthropic: 엇갈린 컨텍스트 관리 전략",
+      "summary": "압축(compaction) 대 서브에이전트 분할의 트레이드오프.",
+      "source": "TLDR AI",
+      "url": "https://calv.info/the-oracle-and-the-firm?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI는 압축으로 한 스레드의 일관성을, Anthropic은 서브에이전트 분할을 택했다.",
+        "what": "OpenAI는 컨텍스트를 압축해 관련 정보만 남기는 compaction으로 긴 단일 스레드의 일관성을 유지한다. Anthropic은 컨텍스트 윈도를 여러 에이전트로 분할해 각 에이전트가 자기 윈도에서 하위 문제를 처리하고 핵심만 부모에 전달하는데, 중복 작업·정보 망각·토큰 낭비가 생길 수 있다.",
+        "points": [
+          "OpenAI: 압축으로 일관성 유지",
+          "Anthropic: 서브에이전트 분할",
+          "분할 방식은 중복·망각·토큰 낭비 우려"
+        ],
+        "why": [
+          "에이전트 설계의 컨텍스트 전략 선택지 비교"
+        ]
+      }
+    },
+    {
+      "id": "ai-apple-third-party-ai-siri",
+      "title": "애플, 서드파티 Siri AI를 만들고도 WWDC서 숨겼다",
+      "summary": "iOS 27 베타에 확장 시스템·App Store 섹션 내장됐으나 비활성화.",
+      "source": "TLDR AI",
+      "url": "https://thenextweb.com/news/apple-siri-extensions-third-party-ai-missing-wwdc?utm_source=tldrai",
+      "report": {
+        "tldr": "iOS 27 베타에 서드파티 AI용 확장 시스템이 들어있지만 백엔드에서 꺼져 있다.",
+        "what": "iOS 27 베타에는 설정 패널과 전용 App Store 섹션을 갖춘 서드파티 AI 확장 시스템이 구축돼 있으나 비활성 상태다. 애플은 주요 AI 제공사와 권한 부여를 논의했지만 당장 기능 발표는 보류한 것으로 보인다.",
+        "points": [
+          "iOS 27 베타에 확장 시스템·App Store 섹션 존재",
+          "둘 다 만들어졌으나 백엔드서 토글 오프",
+          "주요 AI 제공사와 권한 논의 중 보류"
+        ],
+        "why": [
+          "애플의 개방형 AI 전략 향방 가늠자"
+        ]
+      }
+    },
+    {
+      "id": "ai-devin-10m-output",
+      "title": "Devin, 고객당 $1천만 산출 보장 주장",
+      "summary": "비용보다 큰 산출을 독립 데이터로 검증한다고 강조.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/nl1WTP",
+      "report": {
+        "tldr": "Devin이 비용을 초과하는 엔지니어링 산출을 고객당 $1천만 규모로 보장한다고 밝혔다.",
+        "what": "Devin의 엔지니어링 시스템은 비용보다 큰 산출을 보장하며 그 효과를 독립 데이터로 검증한다고 주장한다. 엔지니어링 생산성에 대한 신뢰를 끌어올리려는 대담한 마케팅이다.",
+        "points": [
+          "고객당 $1천만 산출 약속",
+          "독립 데이터로 효과 검증 주장",
+          "생산성 신뢰 제고 목적"
+        ],
+        "why": [
+          "코딩 에이전트의 ROI 입증 경쟁 가열"
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-blackwell-agentperf",
+      "title": "NVIDIA 블랙웰, 첫 에이전트 AI 인프라 벤치마크 선두",
+      "summary": "Blackwell Ultra NVL72가 메가와트당 처리량서 Hopper 대비 20배.",
+      "source": "TLDR AI",
+      "url": "https://blogs.nvidia.com/blog/nvidia-blackwell-agentperf-artificial-analysis/?utm_source=tldrai",
+      "report": {
+        "tldr": "NVIDIA Blackwell Ultra NVL72가 AgentPerf 벤치마크에서 메가와트당 에이전트 처리량을 Hopper 대비 20배로 끌어올렸다.",
+        "what": "첫 에이전트 AI 인프라 벤치마크인 AgentPerf에서 블랙웰 울트라 플랫폼이 메가와트당 처리량 20배 우위로 선두를 차지했다.",
+        "points": [
+          "AgentPerf 벤치마크 선두",
+          "메가와트당 처리량 Hopper 대비 20배",
+          "에이전트 인프라 효율 강조"
+        ],
+        "why": [
+          "에이전트 워크로드의 전력당 성능이 새 경쟁축"
+        ]
+      }
+    },
+    {
+      "id": "ai-ramp-swe-bench",
+      "title": "Ramp, 프로덕션 기반 비공개 SWE-Bench 공개",
+      "summary": "실제 금융 SW 엔지니어링 문제로 코딩 모델을 평가.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/nl1WTP",
+      "report": {
+        "tldr": "Ramp가 실제 사내 엔지니어링 문제로 구성한 비공개 SWE-Bench를 공개했다.",
+        "what": "Ramp는 자사 금융 소프트웨어 생태계 안에서 코딩 모델을 평가하기 위해 실제 엔지니어링 문제 기반의 비공개 벤치마크를 만들었다.",
+        "points": [
+          "실제 사내 문제로 구성",
+          "금융 SW 맥락서 코딩 모델 평가",
+          "비공개 벤치마크"
+        ],
+        "why": [
+          "범용 벤치마크의 한계를 보완하는 도메인 평가 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-frontier-ecosystem-nadella",
+      "title": "프런티어엔 생태계가 필요하다 — 나델라",
+      "summary": "모든 기업이 인적 자본과 토큰 자본을 함께 키워야 한다는 주장.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/h1YDVi",
+      "report": {
+        "tldr": "사티아 나델라는 모든 기업이 인적 자본과 '토큰 자본'을 동시에 구축해야 한다고 본다.",
+        "what": "생태계 없는 프런티어는 불안정하며, 기업은 워크플로·평가·제도적 지식을 직접 소유해 가치가 소수 모델로만 흐르는 미래를 피해야 한다는 논지다.",
+        "points": [
+          "인적 자본 + 토큰 자본 동시 구축",
+          "워크플로·평가·지식의 자체 소유",
+          "가치 집중 회피"
+        ],
+        "why": [
+          "기업 AI 전략에서 '소유'의 중요성 강조"
+        ]
+      }
+    },
+    {
+      "id": "ai-deepseek-10t-strategy",
+      "title": "딥시크의 $10조 장기 전략론",
+      "summary": "오픈소스·연구 공유가 기반 인프라가 되려는 큰 그림이라는 가설.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/9Vbj0g",
+      "report": {
+        "tldr": "딥시크의 오픈소스·연구 공유 전략이 소비자 경쟁이 아닌 기반 AI 인프라화를 노린다는 가설을 다룬다.",
+        "what": "이 스레드는 딥시크가 오픈소스 모델, 연구 공유, 인프라 개발에 집중하는 것이 소비자 제품 직접 경쟁보다 토대 인프라가 되려는 더 큰 전략의 일부라는 이론을 탐구한다.",
+        "points": [
+          "오픈소스·연구 공유 집중",
+          "소비자 제품 직접경쟁 회피",
+          "기반 인프라화 노림"
+        ],
+        "why": [
+          "중국발 오픈 AI 전략의 의도 해석"
+        ]
+      }
+    }
+  ]
+}

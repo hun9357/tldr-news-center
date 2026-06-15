@@ -1,0 +1,286 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-linkedin-muse-semantic-search",
+      "title": "링크드인 MUSE: 대규모 AI 에이전트용 시맨틱 검색",
+      "summary": "듀얼타워 Matryoshka 임베딩으로 Hiring Assistant 검색.",
+      "source": "TLDR Data",
+      "url": "https://www.linkedin.com/blog/engineering/ai/semantic-search-for-ai-agents-at-scale-retrieval-and-ranking-for-linkedins-hiring-assistant?utm_source=tldrdata",
+      "report": {
+        "tldr": "링크드인이 Hiring Assistant의 시맨틱 검색을 위해 MUSE 임베딩 모델을 구축했다.",
+        "what": "제품 정책에 기반한 LLM Teacher의 수백만 고품질 라벨로 학습한 듀얼타워 Matryoshka 임베딩 모델을 사용해, 임베딩 기반 검색과 참여 최적화 랭커를 결합한다.",
+        "points": [
+          "MUSE 듀얼타워 임베딩",
+          "Matryoshka 구조",
+          "LLM Teacher 라벨 학습",
+          "검색+참여 최적화 랭커"
+        ],
+        "why": [
+          "대규모 채용 에이전트의 검색 인프라 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-spotify-vedder-context",
+      "title": "스포티파이 Vedder: 데이터 어시스턴트의 컨텍스트 레이어",
+      "summary": "177개 클러스터·7만 데이터셋, 마이닝 쿼리쌍 12.5%만 채택.",
+      "source": "TLDR Data",
+      "url": "https://engineering.atspotify.com/2026/6/encoding-your-domain-expert-the-context-layer-behind-spotifys-data-assistant/?utm_source=tldrdata",
+      "report": {
+        "tldr": "스포티파이가 스키마 전용 RAG를 넘어서기 위해 데이터 어시스턴트 Vedder를 구축했다.",
+        "what": "2,100명+ 사용자, 177개 클러스터, 7만 데이터셋 규모로, 도메인 전문가가 각 클러스터를 데이터셋·검증된 질문-SQL 쌍·비즈니스 문서로 큐레이션한다. 마이닝된 쿼리 쌍의 12.5%만 채택돼, 헬스 스코어링이 드리프트·유효성·커버리지·재현성을 추적해 컨텍스트 신뢰성을 유지한다.",
+        "points": [
+          "177개 클러스터·7만 데이터셋",
+          "도메인 전문가 큐레이션",
+          "마이닝 쿼리쌍 12.5%만 채택",
+          "헬스 스코어링으로 드리프트 추적"
+        ],
+        "why": [
+          "엔터프라이즈 데이터 어시스턴트의 컨텍스트 품질 관리"
+        ]
+      }
+    },
+    {
+      "id": "data-feldera-ivm",
+      "title": "Feldera: 진정한 증분 뷰 유지 엔진",
+      "summary": "DBSP로 델타만 전파, 배치형 SQL 의미를 연속 파이프라인에.",
+      "source": "TLDR Data",
+      "url": "https://www.junaideffendi.com/p/how-feldera-works-a-true-incremental?utm_source=tldrdata",
+      "report": {
+        "tldr": "Feldera는 스트림을 증분 SQL 뷰로 다뤄 조인·집계를 재계산하지 않고 델타만 전파한다.",
+        "what": "DBSP를 사용해 삽입·삭제·갱신을 Z-set 변경으로 만들어 영향받은 행만 갱신한다. 결과적으로 연속 파이프라인에 배치 SQL 같은 의미를 주며 CPU·메모리 부담이 낮고 지연이 예측 가능하다.",
+        "points": [
+          "증분 SQL 뷰",
+          "DBSP로 델타 전파",
+          "Z-set 변경, 영향 행만 갱신",
+          "낮은 CPU·예측 가능 지연"
+        ],
+        "why": [
+          "스트리밍 처리의 효율적 IVM 접근"
+        ]
+      }
+    },
+    {
+      "id": "data-frontier-without-ecosystem",
+      "title": "생태계 없는 프런티어는 불안정하다",
+      "summary": "최고 모델 의존이 아닌 인적·AI 역량의 복리화.",
+      "source": "TLDR Data",
+      "url": "https://snscratchpad.com/posts/frontier-ecosystem/?utm_source=tldrdata",
+      "report": {
+        "tldr": "기업은 최고 모델에만 의존하지 말고 인간 전문성과 AI 역량을 복리로 키워야 한다.",
+        "what": "워크플로·평가·제도적 지식을 직접 소유함으로써 계속 개선하고, 가치가 소수 프런티어 모델로만 흐르는 미래를 피할 수 있다.",
+        "points": [
+          "최고 모델 의존 탈피",
+          "인적+AI 역량 복리화",
+          "워크플로·평가·지식 소유"
+        ],
+        "why": [
+          "데이터 조직의 모델 종속 회피 전략"
+        ]
+      }
+    },
+    {
+      "id": "data-mythical-agent-month",
+      "title": "신화 속의 '에이전트-월'",
+      "summary": "AI 코딩 에이전트는 가장 어려운 부분을 줄이지 못한다.",
+      "source": "TLDR Data",
+      "url": "https://wesmckinney.com/blog/mythical-agent-month/?utm_source=tldrdata",
+      "report": {
+        "tldr": "AI 코딩 에이전트는 코딩 노동은 줄이지만 설계 판단·범위 통제·테스트·유지보수는 줄이지 못한다.",
+        "what": "우발적 복잡성은 줄이되 기술 부채·아키텍처 드리프트·비대한 코드베이스를 기계 속도로 만들 수 있다. 우위는 모델을 조종하고 '아니오'라 말하며 시스템을 프로덕션 준비 상태로 유지하는 전문가에게 옮겨간다.",
+        "points": [
+          "코딩 노동만 감소",
+          "설계·테스트·유지보수는 그대로",
+          "기술부채·드리프트 양산 위험",
+          "전문가의 조종력이 우위"
+        ],
+        "why": [
+          "에이전트 코딩의 한계와 인간 역할"
+        ]
+      }
+    },
+    {
+      "id": "data-agentic-ai-costs",
+      "title": "청구서가 도착했다: 대규모 에이전틱 AI 비용 관리",
+      "summary": "우버, Claude Code 84% 채택에 4월 중순 연예산 소진.",
+      "source": "TLDR Data",
+      "url": "https://cockroachlabs.com/blog/agentic-ai-costs-at-scale?utm_source=tldrdata",
+      "report": {
+        "tldr": "우버 사례는 에이전틱 AI가 토큰 가격이 아닌 작업 경제학 문제임을 보여준다.",
+        "what": "Claude Code 채택이 5,000명 엔지니어 중 84%에 달해 4월 중순 연간 AI 예산을 소진했다. 재전송 컨텍스트·검색·오케스트레이션·거버넌스·재시도에 비용이 숨어 있어, 작업당 가치를 측정하고 컨텍스트를 통제하며 상태 보존형 에이전트 인프라를 구축해야 한다.",
+        "points": [
+          "Claude Code 84% 채택",
+          "4월 중순 연예산 소진",
+          "비용은 컨텍스트·재시도에 숨음",
+          "작업당 가치 측정 필요"
+        ],
+        "why": [
+          "에이전틱 AI의 비용 거버넌스 과제"
+        ],
+        "action": "작업당 가치 측정·컨텍스트 통제·상태 보존 인프라로 비용 관리"
+      }
+    },
+    {
+      "id": "data-omnigent-meta-harness",
+      "title": "Databricks Omnigent: 에이전트 통합 메타 하네스",
+      "summary": "Claude Code·Codex·Pi 등을 한 계층에서 협업.",
+      "source": "TLDR Data",
+      "url": "https://www.databricks.com/blog/introducing-omnigent-meta-harness-combine-control-and-share-your-agents?utm_source=tldrdata",
+      "report": {
+        "tldr": "Omnigent은 Claude Code·Codex·Pi·커스텀 에이전트를 하나의 공유 계층에서 협업시키는 오픈소스 메타 하네스다.",
+        "what": "팀이 에이전트를 조합하고 보안·비용 통제를 더하며 라이브 세션을 공유하고, 도구가 바뀌어도 워크플로를 이식 가능하게 유지하도록 돕는다.",
+        "points": [
+          "다종 에이전트 통합 계층",
+          "보안·비용 통제",
+          "라이브 세션 공유",
+          "워크플로 이식성"
+        ],
+        "why": [
+          "에이전트 오케스트레이션 표준 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "data-motherduck-flights",
+      "title": "MotherDuck Flights: 에이전트 네이티브 인제스트",
+      "summary": "AI 에이전트가 파이썬 런타임서 인제스트·변환 구축.",
+      "source": "TLDR Data",
+      "url": "https://motherduck.com/blog/flights-agent-native-ingest/?utm_source=tldrdata",
+      "report": {
+        "tldr": "Flights는 AI 에이전트가 인제스트·변환 워크로드를 쉽게 구축·실행·스케줄링하는 MotherDuck의 새 기능이다.",
+        "what": "안전한 범용 파이썬 런타임에서 dlt 파이프라인 네이티브 지원, 직접 DuckDB 실행, 로깅·스케줄링·버저닝을 제공한다. 에이전트는 MCP 서버, SQL 테이블 함수, UI로 Flights를 만들 수 있다.",
+        "points": [
+          "에이전트 네이티브 데이터 파이프라인",
+          "파이썬 런타임·dlt 지원",
+          "DuckDB 직접 실행",
+          "MCP·SQL·UI로 생성"
+        ],
+        "why": [
+          "에이전트 주도 데이터 파이프라인 도구화"
+        ]
+      }
+    },
+    {
+      "id": "data-datafusion-54",
+      "title": "Apache DataFusion 54.0.0 출시",
+      "summary": "LATERAL 조인·SQL 람다·Avro 리더, 일부 조인 20~50배↑.",
+      "source": "TLDR Data",
+      "url": "https://datafusion.apache.org/blog/2026/06/12/datafusion-54.0.0?utm_source=tldrdata",
+      "report": {
+        "tldr": "Apache DataFusion 54.0.0이 주요 SQL 업그레이드와 큰 성능 향상을 추가했다.",
+        "what": "LATERAL 조인, 배열용 SQL 람다 함수, 새 Arrow 기반 Avro 리더, 메모리 부담 큰 중첩 루프 조인의 spill-to-disk를 더했다. 거의 고유한 LEFT/FULL 정렬-병합 조인은 최대 20~50배, 리파티션 중심 연산은 최대 50% 빨라졌다.",
+        "points": [
+          "LATERAL 조인·SQL 람다",
+          "Arrow 기반 Avro 리더",
+          "spill-to-disk 지원",
+          "일부 조인 20~50배 가속"
+        ],
+        "why": [
+          "오픈소스 쿼리 엔진의 기능·성능 도약"
+        ]
+      }
+    },
+    {
+      "id": "data-ai-parse-document-cost",
+      "title": "프로덕션에서 ai_parse_document의 숨은 비용",
+      "summary": "재실행마다 비용·비결정성으로 감사성 저하.",
+      "source": "TLDR Data",
+      "url": "https://xebia.com/blog/hidden-cost-ai-parse-document-production-databricks/?utm_source=tldrdata",
+      "report": {
+        "tldr": "Databricks의 ai_parse_document+ai_query는 편리하지만 대규모 신뢰성이 관건이다.",
+        "what": "재실행마다 파싱·LLM 비용이 다시 들고, 수정 문서가 중복을 만들며, temperature 0에서도 비결정적 출력이 감사성을 해친다. 체크포인트·버전 프롬프트·중복제거를 갖춘 파이프라인이 재처리 비용을 줄이고 재현성을 높이며, 템플릿이 일정하면 OpenDataLoader PDF 같은 결정적 파서가 더 적합하다.",
+        "points": [
+          "재실행마다 비용 발생",
+          "비결정적 출력이 감사성 저하",
+          "체크포인트·버전·중복제거 필요",
+          "일정 템플릿엔 결정적 파서"
+        ],
+        "why": [
+          "LLM 문서 파싱의 프로덕션 신뢰성 설계"
+        ]
+      }
+    },
+    {
+      "id": "data-opensharing-linux-foundation",
+      "title": "리눅스 재단, AI 자산·데이터 교환 표준 'OpenSharing'",
+      "summary": "Databricks가 Delta Sharing을 재단에 이관.",
+      "source": "TLDR Data",
+      "url": "https://www.linuxfoundation.org/press/linux-foundation-announces-opensharing-project-to-standardize-ai-asset-and-data-exchange?utm_source=tldrdata",
+      "report": {
+        "tldr": "Databricks가 Delta Sharing 프로토콜을 리눅스 재단에 넘겨 OpenSharing으로 확장했다.",
+        "what": "OpenSharing은 Delta Sharing을 AI 모델·에이전트 스킬·비정형 데이터로 확장하고, 발견·인가·접근 표준 API를 추가하며 기존 Delta Sharing 수신자와 Apache Iceberg/REST Catalog 클라이언트를 지원한다. 독점 마켓플레이스를 단일 표준으로 대체하려는 목표다.",
+        "points": [
+          "Delta Sharing 재단 이관",
+          "AI 모델·스킬·비정형 데이터로 확장",
+          "발견·인가·접근 표준 API",
+          "Iceberg/REST 클라이언트 지원"
+        ],
+        "why": [
+          "엔터프라이즈 AI 자산 배포 표준화"
+        ]
+      }
+    },
+    {
+      "id": "data-auditing-machine-unlearning",
+      "title": "머신 언러닝 감사를 위한 새 프레임워크",
+      "summary": "구글, 정규화 f-발산 커널 테스트 도입.",
+      "source": "TLDR Data",
+      "url": "https://research.google/blog/new-framework-for-auditing-machine-unlearning/?utm_source=tldrdata",
+      "report": {
+        "tldr": "구글 리서치가 머신 언러닝·프라이버시 누출을 더 신뢰성 있게 감사하는 방법을 도입했다.",
+        "what": "표준 양표본 검정보다 신뢰성 높은 정규화 f-발산 커널 테스트(Regularized f-Divergence Kernel Tests)를 제시했다.",
+        "points": [
+          "머신 언러닝 감사",
+          "정규화 f-발산 커널 테스트",
+          "표준 검정 대비 신뢰성↑"
+        ],
+        "why": [
+          "프라이버시·잊혀질 권리 검증 도구"
+        ]
+      }
+    },
+    {
+      "id": "data-feature-stores-scratch",
+      "title": "밑바닥부터 만드는 피처 스토어",
+      "summary": "DuckDB+Redis로 학습-서빙 스큐 방지 5요소 구현.",
+      "source": "TLDR Data",
+      "url": "https://www.kdnuggets.com/feature-stores-from-scratch-a-minimal-working-implementation?utm_source=tldrdata",
+      "report": {
+        "tldr": "DuckDB+Redis로 학습-서빙 스큐를 막는 5요소 DIY 피처 스토어를 만든다.",
+        "what": "실시간 ML·RAG 시스템을 위한 최소 동작 구현을 제시한다.",
+        "points": [
+          "DuckDB+Redis 조합",
+          "학습-서빙 스큐 방지",
+          "5요소 최소 구현"
+        ],
+        "why": [
+          "실시간 ML 피처 인프라 학습 자료"
+        ]
+      }
+    },
+    {
+      "id": "data-sql-to-er-diagram",
+      "title": "SQL to ER Diagram (도구)",
+      "summary": "브라우저 전용·무가입으로 스키마를 ER 다이어그램화.",
+      "source": "TLDR Data",
+      "url": "https://sqltoerdiagram.com/?utm_source=tldrdata",
+      "report": {
+        "tldr": "붙여넣은 SQL 스키마를 깔끔한 인터랙티브 ER 다이어그램으로 바꾸는 무료 오픈소스 도구다.",
+        "what": "데이터 업로드나 가입 없이 브라우저에서만 동작한다.",
+        "points": [
+          "SQL→ER 다이어그램",
+          "브라우저 전용·무가입",
+          "무료 오픈소스"
+        ],
+        "why": [
+          "데이터 모델링 시각화 도구"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-15",
+  "weekday": "월",
+  "headline": "美, Anthropic Fable 5·Mythos 5 전면 차단 — 머스크 첫 조만장자·토큰화 SpaceX IPO 붕괴",
+  "subtitle": "미국 정부의 수출통제 지시로 Anthropic이 최상위 모델 Fable 5·Mythos 5 접근을 전 사용자 대상으로 끊었다. 같은 날 SpaceX 상장으로 일론 머스크가 세계 첫 조만장자가 됐고, 거래소들의 토큰화 SpaceX IPO는 주식 미인도로 붕괴됐다. — 6월 15일 TLDR 12개 에디션 요약",
+  "keyword": "Fable·Mythos 차단 · SpaceX IPO",
+  "bigStoryId": "ai-anthropic-fable-mythos-suspended",
+  "editions": [
+    "ai",
+    "infosec",
+    "tech",
+    "it",
+    "founders",
+    "crypto",
+    "devops",
+    "dev",
+    "data",
+    "design",
+    "marketing",
+    "fintech"
+  ],
+  "lastUpdated": "09:05 CDT",
+  "syncedAt": "09:05",
+  "stats": {
+    "companies": 160,
+    "security": 23,
+    "deals": 7,
+    "policy": 10
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "美 수출통제로 Anthropic Fable 5·Mythos 5 전면 차단",
+      "body": "미국 정부가 국가안보를 이유로 외국인 접근 차단을 명령하자 Anthropic은 국적별 제한 대신 Fable 5·Mythos 5를 전 사용자 대상으로 비활성화했다. 아마존 연구진이 Fable 5에서 사이버공격 정보를 끌어낸 사실과 재시 CEO의 당국 접촉이 단초가 됐으며, Anthropic은 '기초적 취약점'이라 반박하고 다음 주 백악관과 협의한다. AI·IT·빅테크·보안·개발 5개 에디션에서 동시에 다뤄진 오늘의 최대 사안이다.",
+      "action": "Fable/Mythos 의존 워크플로의 대체 모델 경로와 복구 일정 공지를 점검"
+    },
+    {
+      "kind": "market",
+      "title": "SpaceX 상장으로 머스크 첫 조만장자, 토큰화 IPO는 붕괴",
+      "body": "SpaceX 주가가 공모가 $135 대비 20% 오르며 머스크 순자산이 美 GDP의 3%를 넘어 세계 첫 조만장자가 됐다. 반면 바이낸스·바이비트·비트겟의 토큰화 SpaceX IPO는 파트너 xStocks의 기초주식 미인도로 무너져 10억달러+ 주문이 전액 환불됐다. 핀테크에서는 아디옌이 Orb를 $3.35억에 인수하고 Current가 $8천만을 유치하는 등 거래가 이어졌다.",
+      "action": "SpaceX 상장 추이와 토큰화 주식(RWA)의 결제·인도 리스크를 함께 추적"
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 보안 모니터링",
+      "body": "Splunk Enterprise의 CVE-2026-20253(CVSS 9.8) 프리오스 RCE가 PostgreSQL 사이드카를 통해 splunk 사용자 권한 코드 실행을 허용하고, LangGraph 영속화 계층의 3개 연쇄 취약점(월 5천만+ 다운로드)이 SQLi에서 RCE로 이어진다. CISA는 최고위험 취약점에 최단 3일 패치 시한을 부과했고, 노보 노디스크 임상 데이터 유출과 약 1,500개 AUR 패키지 장악(Atomic Arch)도 진행 중이다.",
+      "action": "Splunk 10.0.7/10.2.4 패치·/__raw/ 차단, LangGraph 체크포인터 패치, 위험 등급별 패치 SLA 재정비"
+    }
+  ]
+}

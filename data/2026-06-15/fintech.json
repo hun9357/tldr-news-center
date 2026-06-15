@@ -1,0 +1,241 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💳",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-adyen-buys-orb",
+      "title": "아디옌, 빌링 스타트업 Orb를 $3.35억에 인수",
+      "summary": "실시간 사용량 기반 빌링을 결제 플랫폼에 추가.",
+      "source": "TLDR Fintech",
+      "url": "https://www.paymentsdive.com/news/adyen-to-buy-orb-for-335m/822807/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "아디옌이 엔터프라이즈 빌링 스타트업 Orb를 현금 $3.35억에 인수한다.",
+        "what": "실시간 사용량 기반 빌링 역량을 결제 플랫폼에 더하기 위한 거래로, 최근 Talon.One 인수에 이어 AI 시대 디지털 비즈니스를 겨냥해 빌링·결제·로열티·인센티브 전반의 제품 공백을 메우는 M&A 흐름을 보여준다.",
+        "points": [
+          "현금 $3.35억 인수",
+          "실시간 사용량 기반 빌링 확보",
+          "Talon.One 인수에 이은 행보",
+          "빌링·결제·로열티 통합 지향"
+        ],
+        "why": [
+          "사용량 기반 과금 수요 확대",
+          "결제사 간 제품 통합 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "fintech-current-raises-80m",
+      "title": "Current, $8천만 시리즈E 유치 (밸류 $15억)",
+      "summary": "Springcoast 주도, Cross River와 금융 파트너십 확대.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/wOCbcM",
+      "report": {
+        "tldr": "개인금융 앱 Current가 기업가치 $15억으로 $8천만 시리즈E를 유치했다.",
+        "what": "Springcoast Partners가 주도했고, Cross River와의 확대된 금융 파트너십과 함께 마무리됐다.",
+        "points": [
+          "시리즈E $8천만",
+          "기업가치 $15억",
+          "Springcoast 주도",
+          "Cross River 파트너십 확대"
+        ],
+        "why": [
+          "네오뱅크·개인금융 앱 자금 흐름 신호"
+        ]
+      }
+    },
+    {
+      "id": "fintech-masspay-coinbase",
+      "title": "MassPay·코인베이스, 스테이블코인 페이아웃 제휴",
+      "summary": "국경 간 스테이블코인 지급 역량을 기업에 제공.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/SEkfeD",
+      "report": {
+        "tldr": "MassPay와 코인베이스가 스테이블코인 기반 국경 간 페이아웃을 위해 전략 제휴를 맺었다.",
+        "what": "글로벌 페이아웃 오케스트레이션 플랫폼 MassPay와 코인베이스가 전 세계 기업에 스테이블코인 지급 역량을 제공한다.",
+        "points": [
+          "스테이블코인 국경 간 페이아웃",
+          "MassPay 오케스트레이션 + 코인베이스",
+          "글로벌 기업 대상"
+        ],
+        "why": [
+          "기업 결제의 스테이블코인 채택 확대"
+        ]
+      }
+    },
+    {
+      "id": "fintech-ramp-swe-bench",
+      "title": "Ramp, 금융 코딩 에이전트용 비공개 SWE-Bench 출시",
+      "summary": "80개 프로덕션 백엔드 과제로 45분 내 패치 평가.",
+      "source": "TLDR Fintech",
+      "url": "https://labs.ramp.com/swebench?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Ramp SWE-Bench는 80개 프로덕션 백엔드 과제로 만든 금융 코딩 에이전트 비공개 벤치마크다.",
+        "what": "사내 코딩 에이전트 Inspect가 엔지니어 리뷰 후 출시했던 과제로 구성돼, 카드 승인·청구·회계·조달·재무·사기 등 금융 SW 작업을 평가한다. 합·불 채점은 45분 내 테스트를 실패에서 통과로 뒤집는 리뷰 가능 패치를 만드는지로 정한다.",
+        "points": [
+          "80개 프로덕션 과제 기반",
+          "카드 승인·청구·회계·사기 등 평가",
+          "45분 내 패치 기준",
+          "사내 에이전트 Inspect 활용"
+        ],
+        "why": [
+          "금융 도메인 특화 코딩 평가 등장"
+        ]
+      }
+    },
+    {
+      "id": "fintech-clearinghouses-agents-era",
+      "title": "SaaS는 시스템 오브 레코드, 에이전트 시대는 클리어링하우스",
+      "summary": "권한·정책·감사 소유가 새로운 해자.",
+      "source": "TLDR Fintech",
+      "url": "https://cloudedjudgement.substack.com/p/systems-of-record-won-the-saas-era?utm_source=tldrfintech",
+      "report": {
+        "tldr": "AI 시대의 해자는 에이전트가 알고·보고·행하고·사후 입증하는 것을 관장하는 '클리어링하우스'다.",
+        "what": "내구성 있는 해자는 데이터 소유에서 권한·정책·실행 통제·감사 추적 소유로 이동한다. 이는 마이크로소프트·세일즈포스·스노우플레이크·Databricks와 에이전트 네이티브 도구 사이에 설 수직 스타트업이나 중립 멀티에이전트 거버넌스 플랫폼 기회를 만든다.",
+        "points": [
+          "해자 = 에이전트 클리어링하우스",
+          "데이터→권한·정책·감사 소유",
+          "수직 스타트업·중립 거버넌스 기회"
+        ],
+        "why": [
+          "에이전트 시대 핀테크 인프라의 가치 이동"
+        ]
+      }
+    },
+    {
+      "id": "fintech-benchmark-eats-finance",
+      "title": "벤치마크가 금융을 집어삼킨다",
+      "summary": "측정 가능한 것부터 AI가 변혁, 사다리가 생기면 오른다.",
+      "source": "TLDR Fintech",
+      "url": "https://www.fintechbrainfood.com/p/the-benchmark-will-eat-finance?utm_source=tldrfintech",
+      "report": {
+        "tldr": "AI는 가장 먼저 측정 가능한 것을 변혁하며, 그 첫 측정 지표들이 도래했다는 분석이다.",
+        "what": "담론은 AI의 일자리 대체나 ROI 부재로 흐르지만, 벤치마크가 좋아지면서 사다리가 만들어지고 사다리가 생기면 AI가 오르기 시작한다는 논지다.",
+        "points": [
+          "측정 가능한 것부터 변혁",
+          "벤치마크가 사다리를 만듦",
+          "사다리 생기면 AI가 등반"
+        ],
+        "why": [
+          "금융에서 AI 침투 경로에 대한 프레임"
+        ]
+      }
+    },
+    {
+      "id": "fintech-zelle-india-stablecoin",
+      "title": "Zelle, 인도 진출·ZelleUSD 스테이블코인 공개",
+      "summary": "美→인도 송금 시작, 달러 담보 스테이블코인 발표.",
+      "source": "TLDR Fintech",
+      "url": "https://www.zelle.com/press-releases/zelle-heads-to-india-unveils-zelleusdsm-stablecoin-other-markets?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Early Warning Services가 Zelle을 美→인도 송금부터 국제 확장하고 ZelleUSD 스테이블코인을 공개했다.",
+        "what": "2026년 말 이전 美→인도 송금을 시작하며, 다른 시장의 국경 간 결제를 지원할 달러 담보 스테이블코인 ZelleUSD를 내놓아 $1.2조 美 결제망을 넘어 확장한다.",
+        "points": [
+          "美→인도 송금 2026년 말 개시",
+          "ZelleUSD 달러 담보 스테이블코인",
+          "$1.2조 결제망 국제 확장"
+        ],
+        "why": [
+          "주요 결제망의 스테이블코인·국제 송금 진출"
+        ]
+      }
+    },
+    {
+      "id": "fintech-coinbase-everything-exchange",
+      "title": "코인베이스, 미래 금융 플랫폼 'Everything Exchange' 제시",
+      "summary": "암호·주식·파생·예측시장을 단일 계정에, 에이전트 거래 지원 예정.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/NhG62l",
+      "report": {
+        "tldr": "코인베이스가 단일 계정으로 모든 금융을 다루는 'Everything Exchange' 비전을 내놨다.",
+        "what": "전통 금융이 낡은 레일·분절 계정·시장 시간·지연 결제에 묶인 반면 크립토 인프라는 즉시·글로벌·상호운용 금융을 가능케 한다고 본다. 암호·주식·ETF·무기한선물·예측시장·USDC 보상·DEX 접근·AI 포트폴리오 인텔리전스를 한 계정에 담고, 향후 고객 대신 거래하는 사용자 통제 에이전트도 지원한다.",
+        "points": [
+          "단일 계정에 다자산 통합",
+          "즉시·글로벌·상호운용 강조",
+          "예측시장·DEX·USDC 보상 포함",
+          "향후 에이전트 거래 지원"
+        ],
+        "why": [
+          "크립토 거래소의 종합 금융 플랫폼화"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stripe-uk-ai-economy",
+      "title": "스트라이프, 영국 기업의 글로벌 판매·AI 경제 도구 출시",
+      "summary": "멀티통화 재무·사기 방어, 다중 AI 에이전트 단일 통합 판매.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/xEjQ4g",
+      "report": {
+        "tldr": "스트라이프가 영국 기업의 글로벌 판매와 AI 커머스 기회를 돕는 새 도구를 공개했다.",
+        "what": "확장된 멀티통화 재무 역량, 새 사기 방어, 그리고 영국 기업이 단일 통합으로 여러 AI 에이전트에 걸쳐 판매할 수 있는 기능을 포함한다.",
+        "points": [
+          "멀티통화 재무 확장",
+          "새 사기 방어",
+          "다중 AI 에이전트 단일 통합 판매"
+        ],
+        "why": [
+          "AI 커머스용 결제 인프라 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "fintech-yc-clarity-act",
+      "title": "YC, Clarity Act가 포트폴리오 전반에 크립토 가져올 것",
+      "summary": "스테이블코인 보편화 위해 의회에 법안 통과 촉구.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/hU7r6x",
+      "report": {
+        "tldr": "Y Combinator는 모든 포트폴리오 기업이 결국 크립토, 특히 스테이블코인을 쓸 것이라며 Clarity Act 통과를 촉구했다.",
+        "what": "이 법안이 증권 대 상품을 정의하고 CFTC 등록 경로를 만들며 크립토 인프라와 전통 금융기관의 통합을 깊게 해 광범위한 채택을 풀 수 있다고 본다.",
+        "points": [
+          "포트폴리오 전반 크립토 채택 전망",
+          "Clarity Act 통과 촉구",
+          "증권/상품 정의·CFTC 등록 경로"
+        ],
+        "why": [
+          "규제 명확성이 스테이블코인 채택의 관건"
+        ]
+      }
+    },
+    {
+      "id": "fintech-barclays-gohenry",
+      "title": "바클리스, 청소년 자산관리 플랫폼 GoHenry 인수",
+      "summary": "Acorns로부터 英 사업 인수, Q4 2026 완료 예정.",
+      "source": "TLDR Fintech",
+      "url": "https://home.barclays/news/press-releases/20260/060/barclays-to-acquire-gohenry--a-money-management-platform-for-6-1/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "바클리스 UK가 Acorns로부터 GoHenry의 영국 사업을 인수하기로 했다.",
+        "what": "6~18세 대상 자산관리 플랫폼으로, 규제 승인 조건으로 Q4 2026 완료가 예상된다.",
+        "points": [
+          "GoHenry 英 사업 인수",
+          "6~18세 자산관리 플랫폼",
+          "Q4 2026 완료 예정"
+        ],
+        "why": [
+          "전통은행의 청소년 핀테크 확보"
+        ]
+      }
+    },
+    {
+      "id": "fintech-square-savings-rate",
+      "title": "스퀘어, 판매자에 3.5% 저축 금리 제공",
+      "summary": "전국 평균 저축금리의 8배 이상.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/Fv742E",
+      "report": {
+        "tldr": "스퀘어가 판매자에게 전국 평균의 8배가 넘는 3.5% 저축 금리를 제공한다.",
+        "what": "판매자 대상 저축 상품의 금리가 전국 평균 저축계좌 금리의 8배 이상이다.",
+        "points": [
+          "판매자 저축 금리 3.5%",
+          "전국 평균의 8배+"
+        ],
+        "why": [
+          "판매자 금융 서비스 경쟁 심화"
+        ]
+      }
+    }
+  ]
+}
