@@ -1,0 +1,265 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-anthropic-safety-superpower",
+      "title": "Anthropic의 '안전 슈퍼파워'",
+      "summary": "Mythos의 신중한 출시는 정당했지만, 공개 직후 가드레일이 탈옥당했다.",
+      "source": "TLDR",
+      "url": "https://stratechery.com/2026/anthropics-safety-superpower/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Anthropic의 안전 경고가 단순 마케팅이라는 시각이 있지만, 모델 자체가 강력하고 Mythos의 신중한 출시는 정당했다는 분석이다.",
+        "what": "벤 톰슨은 Anthropic의 모델이 이전 세대보다 보안 이슈를 식별·악용하는 능력이 확실히 뛰어나며, 그만큼 Mythos를 조심스럽게 출시한 것이 합리적이었다고 본다. 다만 공개 출시의 문제는 가드레일이 탈옥당할 수 있다는 점이고, 실제로 출시 직후 그런 일이 벌어졌다.",
+        "points": [
+          "Anthropic의 안전 경고를 '마케팅용 공포조성'으로 보는 시각 존재",
+          "모델의 보안 취약점 식별·악용 능력이 직전 세대보다 강함",
+          "Mythos의 신중한 롤아웃은 정당",
+          "공개 직후 가드레일 탈옥 발생"
+        ],
+        "why": [
+          "AI 안전과 상업적 이해의 긴장 관계를 드러냄",
+          "수출통제·정책 리스크와 직결되는 오늘의 최대 화제"
+        ],
+        "context": "이 사안은 오늘 AI·빅테크·보안·개발 에디션에서 동시에 다뤄졌다."
+      }
+    },
+    {
+      "id": "tech-fox-roku-25b",
+      "title": "폭스, Roku 스트리밍을 약 $250억에 인수",
+      "summary": "폭스가 스트리밍 규모 확보를 위해 Roku를 사들인다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/27M5rq",
+      "report": {
+        "tldr": "폭스가 약 $250억 규모로 Roku를 인수해 스트리밍 사업 규모를 키운다.",
+        "what": "이 거래는 폭스의 스트리밍 사업, 구독형 Fox One, Fox Nation에 규모를 더한다. 합병 법인은 아마존·넷플릭스와 광고 수익을 두고 경쟁하게 되며, 거래는 2027년 상반기 종료가 예상된다.",
+        "points": [
+          "인수가 약 $250억",
+          "Fox One·Fox Nation에 규모 확대",
+          "아마존·넷플릭스와 광고 경쟁",
+          "2027년 상반기 종료 예상"
+        ],
+        "why": [
+          "전통 미디어의 CTV·스트리밍 광고 진출 가속",
+          "스트리밍 광고 시장 경쟁 재편"
+        ],
+        "context": "마케팅 에디션은 동일 거래를 $220억으로 보도해 보도 간 금액 차이가 있다."
+      }
+    },
+    {
+      "id": "tech-spacex-sentient-sun",
+      "title": "SpaceX와 '센티언트 선(Sentient Sun)'",
+      "summary": "발사 사업·인터넷·AI 랩을 합친 SpaceX의 야심을 분석한다.",
+      "source": "TLDR",
+      "url": "https://www.a16z.news/p/spacex-and-the-sentient-sun?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "SpaceX의 '센티언트 선'이라는 미션은 우스꽝스럽다기보다 솔직하며, 탈희소성 사회 전환의 전제 스택을 모두 모으는 유일한 기업이라는 평가다.",
+        "what": "필자는 SpaceX를 인터넷 자회사와 AI 랩을 가진 발사 사업자로 규정하며, 후기 희소성 사회로의 전환에 필요한 전체 전제 스택을 조립하는 지구상 유일한 기업이라고 본다. 인류를 행성 간 종으로 밀어올리려는 진지한 시도라는 것이다.",
+        "points": [
+          "발사 사업 + 인터넷 + AI 랩의 통합",
+          "탈희소성 전환의 전체 스택 조립",
+          "행성 간 종 도약을 향한 진지한 시도"
+        ],
+        "why": [
+          "사상 최대 IPO 직후 SpaceX의 전략적 의미를 조망"
+        ]
+      }
+    },
+    {
+      "id": "tech-bci-als",
+      "title": "뇌-컴퓨터 인터페이스, ALS 환자의 독립적 소통 실현",
+      "summary": "UC 데이비스 BCI가 신경 신호를 텍스트·커서 제어로 변환한다.",
+      "source": "TLDR",
+      "url": "https://medicalxpress.com/news/2026-06-brain-interface-enables-independent-accurate.html?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "UC 데이비스가 개발한 뇌-컴퓨터 인터페이스가 ALS로 중증 마비된 사람의 소통·업무·디지털 상호작용을 가능케 했다.",
+        "what": "이 장치는 고급 디코딩 알고리즘으로 신경 신호를 텍스트로 변환하고 커서 제어를 가능하게 해 개인용 컴퓨터와의 완전한 상호작용을 지원한다. 중증 언어·운동 장애인을 위한 실용적 보조 기술로의 의미 있는 진전이다.",
+        "points": [
+          "신경 신호→텍스트 변환 및 커서 제어",
+          "PC와 완전한 상호작용 지원",
+          "ALS 등 중증 장애 보조의 실용적 진전"
+        ],
+        "why": [
+          "BCI의 임상적 실용화 가능성을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "tech-agentic-code-review",
+      "title": "에이전틱 코드 리뷰 (심층)",
+      "summary": "어려운 핵심이 '작성'에서 '신뢰 판단'으로 옮겨갔다.",
+      "source": "TLDR",
+      "url": "https://addyosmani.com/blog/agentic-code-review/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "코딩 에이전트가 빠르게 좋아지면서 엔지니어링의 어려운 핵심이 코드 작성에서 '신뢰 여부 판단'으로 이동했다.",
+        "what": "애디 오스마니는 지금 소프트웨어에서 가장 레버리지가 큰 기술이 코드 리뷰라고 본다. 코드 생성은 싸졌지만 '이해'는 여전히 예전만큼 비싸기 때문이다.",
+        "points": [
+          "에이전트 코드 품질은 빠르게 향상",
+          "난제가 작성→신뢰 판단으로 이동",
+          "리뷰가 가장 레버리지 큰 기술",
+          "'이해' 비용은 여전히 높음"
+        ],
+        "why": [
+          "AI 코드 도입 조직의 리뷰·품질 전략 재편"
+        ]
+      }
+    },
+    {
+      "id": "tech-customizable-select",
+      "title": "커스터마이즈 가능한 select의 황금률",
+      "summary": "Safari 27의 커스텀 select, 접근성 텍스트 제공이 핵심이다.",
+      "source": "TLDR",
+      "url": "https://webkit.org/blog/18117/the-golden-rule-of-customizable-select/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Safari 27에 오는 커스터마이즈 가능한 select는 JS 라이브러리나 무수한 div 없이 select 외형을 완전히 제어하게 해준다.",
+        "what": "이 내장 제어가 모두에게 잘 동작하려면 개발자가 option 요소에 항상 텍스트 콘텐츠나 접근성 텍스트 속성을 제공해야 한다. 그래야 더 나은 UX·접근성·점진적 향상이 보장된다.",
+        "points": [
+          "JS 없이 select 외형 완전 제어",
+          "option에 접근성 텍스트 제공이 필수",
+          "UX·접근성·점진적 향상 동시 달성"
+        ],
+        "why": [
+          "웹 표준 폼 컴포넌트의 접근성 개선"
+        ]
+      }
+    },
+    {
+      "id": "tech-chrome-ad-blockers",
+      "title": "크롬 다음 업데이트, 인기 광고 차단기의 종말",
+      "summary": "Manifest V2 지원 제거로 다수 광고 차단기가 멈춘다.",
+      "source": "TLDR",
+      "url": "https://9to5google.com/2026/06/15/google-chromes-next-update-will-mark-the-end-of-popular-ad-blockers/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "크로미엄 최근 커밋이 Manifest V2 확장 지원을 마침내 제거하면서 다수의 MV2 기반 광고 차단기가 작동을 멈춘다.",
+        "what": "구글은 수년간 Manifest V3 전환을 준비해 왔다. Chrome 151에서 Manifest V2의 모든 흔적이 제거될 예정이다.",
+        "points": [
+          "크로미엄에서 MV2 지원 제거 커밋",
+          "MV2 기반 광고 차단기 다수 중단",
+          "Chrome 151에서 MV2 완전 제거"
+        ],
+        "why": [
+          "확장 생태계·광고 차단 환경의 큰 변화"
+        ]
+      }
+    },
+    {
+      "id": "tech-web-disappear",
+      "title": "우리가 아는 웹은 사라질 것이다",
+      "summary": "검색에서 AI 챗 인터페이스로 이동하며 개방형 웹이 중앙화된다.",
+      "source": "TLDR",
+      "url": "https://www.minid.net/2026/6/15/the-web-is-going-to-dissapear?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "웹이 검색엔진에서 AI 챗 인터페이스로 옮겨가며, 개방형 공간이 더 중앙화되고 벗어나기 어려운 무언가로 대체되고 있다는 주장이다.",
+        "what": "사람들이 검색·클릭·읽기·탐색·게시·발견하던 개방된 장소가 사라지고, 웹사이트는 점점 기계를 위한 인프라가 되어간다. 웹은 미래에도 존재하겠지만 사람들이 가는 곳은 아닐 수 있다고 본다.",
+        "points": [
+          "검색→AI 챗 인터페이스로 이동",
+          "개방형 웹의 중앙화 심화",
+          "웹사이트가 기계용 인프라로 변모"
+        ],
+        "why": [
+          "콘텐츠·트래픽·발견 구조의 근본 변화를 시사"
+        ]
+      }
+    },
+    {
+      "id": "tech-running-local-models",
+      "title": "이제 로컬 모델 돌리는 게 괜찮다",
+      "summary": "느리고 자원을 먹어도 많은 작업을 유능하게 처리하며 비용을 줄인다.",
+      "source": "TLDR",
+      "url": "https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "로컬 모델은 여전히 느리고 자원 소모가 크지만 많은 작업을 유능하게 처리하며 비용 절감에 도움이 된다.",
+        "what": "필자는 로컬 모델의 한계를 인정하면서도 실제 다수 작업에서 충분히 쓸 만해졌다고 평가한다.",
+        "points": [
+          "여전히 느리고 자원 집약적",
+          "많은 작업을 유능하게 처리",
+          "비용 절감에 기여"
+        ],
+        "why": [
+          "온프레/프라이버시·비용 관점의 로컬 추론 부상"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-foundation-models",
+      "title": "Apple Foundation Models에서 Claude 사용하기",
+      "summary": "Swift 패키지로 Apple 플랫폼에서 Claude를 쓸 수 있다.",
+      "source": "TLDR",
+      "url": "https://platform.claude.com/docs/en/cli-sdks-libraries/libraries/apple-foundation-models?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Claude for Foundation Models Swift 패키지로 개발자가 Apple의 Foundation Models 프레임워크를 통해 Apple 플랫폼에서 Claude를 사용할 수 있다.",
+        "what": "이 패키지는 Apple의 온디바이스 AI 프레임워크와 Claude를 연결해 Swift 개발 환경에서 활용하게 한다.",
+        "points": [
+          "Swift 패키지 형태 제공",
+          "Apple Foundation Models 프레임워크 연동",
+          "Apple 플랫폼에서 Claude 활용"
+        ],
+        "why": [
+          "Apple 생태계 내 서드파티 모델 통합 흐름"
+        ]
+      }
+    },
+    {
+      "id": "tech-polymath-llms",
+      "title": "폴리매스 LLM의 약속",
+      "summary": "더 많은 분야를 익힐수록 분야 간 교차 적용점이 늘어난다.",
+      "source": "TLDR",
+      "url": "https://www.overcomingbias.com/p/the-promise-of-polymath-llms?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "여러 분야를 배우는 사람은 한 분야의 도구를 다른 분야 문제에 적용하는 교차점을 더 많이 발견한다.",
+        "what": "글은 다분야 학습이 가져오는 교차 적용의 가치를 LLM의 잠재력과 연결해 논한다.",
+        "points": [
+          "다분야 학습→교차 적용점 증가",
+          "한 분야 도구의 타 분야 활용 가능성"
+        ],
+        "why": [
+          "범용 모델의 학제간 활용 잠재력 조망"
+        ]
+      }
+    },
+    {
+      "id": "tech-linkedin-backdoor",
+      "title": "링크드인 채용 제안에 숨은 백도어",
+      "summary": "가짜 리크루터가 악성 GitHub 저장소 리뷰를 요청했다.",
+      "source": "TLDR",
+      "url": "https://roman.pt/posts/linkedin-backdoor/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "한 개발자가 링크드인에서 실재 개발자 이름을 도용한 공개 GitHub 저장소의 코드 리뷰를 요청받았는데, 그 안에 백도어가 숨어 있었다.",
+        "what": "공격자는 실재하는 저널리스트와 소프트웨어 엔지니어의 신원을 도용해 신뢰를 형성하고 피해자가 악성 스크립트를 실행하도록 유인했다. 백도어는 의존성 설치 시 원격 페이로드를 자동 실행하도록 설계됐다.",
+        "points": [
+          "가짜 리크루터의 코드 리뷰 요청",
+          "실재 인물 신원 도용으로 신뢰 형성",
+          "의존성 설치 시 원격 페이로드 자동 실행"
+        ],
+        "why": [
+          "개발자 표적 소셜 엔지니어링의 전형적 수법",
+          "낯선 저장소 실행의 위험"
+        ],
+        "action": "출처 불명 저장소는 샌드박스에서만 열고 의존성 설치 전 검토"
+      }
+    },
+    {
+      "id": "tech-uk-social-media-ban",
+      "title": "英, 16세 미만 소셜미디어 앱 이용 금지",
+      "summary": "틱톡·유튜브 등 포함, 내년 초 시행 예정.",
+      "source": "TLDR",
+      "url": "https://apnews.com/article/uk-teen-social-media-ban-starmer-55de428636b586ff5553b604783f6fb3?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "영국이 틱톡·유튜브를 포함한 소셜미디어 앱의 16세 미만 이용을 금지하며, 내년 초 시행이 예상된다.",
+        "what": "이 조치는 미성년자의 소셜미디어 접근을 제한하는 규제로, 시행 시점은 내년 초로 전망된다.",
+        "points": [
+          "16세 미만 소셜미디어 앱 이용 금지",
+          "틱톡·유튜브 등 포함",
+          "내년 초 시행 예상"
+        ],
+        "why": [
+          "청소년 보호 규제의 글로벌 확산 흐름",
+          "플랫폼의 연령 검증 의무 강화"
+        ]
+      }
+    }
+  ]
+}

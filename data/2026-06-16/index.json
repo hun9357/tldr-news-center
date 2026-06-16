@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-16",
+  "weekday": "화",
+  "headline": "Anthropic '안전 슈퍼파워' 논쟁 — Fox, Roku 인수·사상 최대 SpaceX IPO",
+  "subtitle": "수출통제로 Fable 5·Mythos 5 외국인 접근이 끊긴 뒤, 벤 톰슨은 Anthropic의 안전 서사가 자사 통제력과 너무 잘 맞물린다고 비판했다 — 이 사안이 오늘 AI·빅테크·보안·개발 4개 에디션에 동시 등장했다. 같은 날 폭스가 Roku를 약 $250억에 인수하기로 했고, SpaceX는 주당 $135로 사상 최대 IPO를 단행했다. — 6월 16일 TLDR 8개 에디션 요약",
+  "keyword": "Anthropic 안전 슈퍼파워 · Fox-Roku · SpaceX IPO",
+  "bigStoryId": "ai-anthropic-safety-superpower",
+  "editions": [
+    "ai",
+    "infosec",
+    "tech",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:10 CDT",
+  "syncedAt": "09:10",
+  "stats": {
+    "companies": 72,
+    "security": 23,
+    "deals": 7,
+    "policy": 8
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "Anthropic의 '안전 슈퍼파워'와 Fable·Mythos 수출통제 후폭풍",
+      "body": "탈옥 보고 직후 美 정부가 외국인 대상 Fable 5·Mythos 5 접근을 끊은 가운데, 벤 톰슨은 Anthropic이 너무 위험하다던 Mythos를 가드레일 씌운 Fable로 출시하고 제로 데이터 보존 보장을 30일로 후퇴시킨 점을 들어 안전 서사가 곧 자사 통제력 정당화라고 비판했다. 출시 당일 Fable 성능을 조용히 낮추려다 Opus 4.8 핸드오프로 번복한 사례가 근거로 제시됐다. 이 사안은 오늘 AI·빅테크·보안·개발 에디션에서 동시에 다뤄진 최대 화제다.",
+      "action": "Fable/Mythos 의존 워크플로의 대체 모델 경로와 데이터 보존 정책 변경 영향을 점검"
+    },
+    {
+      "kind": "market",
+      "title": "Fox, Roku 인수 · SpaceX 사상 최대 IPO",
+      "body": "폭스가 약 $250억(마케팅 에디션은 $220억으로 보도)에 Roku를 인수해 CTV OS·1차 데이터를 확보, 아마존·넷플릭스와 스트리밍 광고 경쟁에 나선다. 같은 날 SpaceX는 주당 $135로 사상 최대 IPO를 단행했고, Hyperliquid의 SPCX 퍼프는 일일 거래량 $14억으로 신기록을 세웠다. Uniswap은 SpaceX·애플·엔비디아 등 토큰화 증권을 앱·API에 추가하며 RWA 누적 거래량 $91억을 기록했다.",
+      "action": "Fox-Roku 보도 간 거래금액($250억 vs $220억) 확정치와 토큰화 주식 결제 리스크를 함께 추적"
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 보안 모니터링",
+      "body": "Palo Alto GlobalProtect VPN(CVE-2026-0257)과 Ivanti Sentry(CVE-2026-10520)가 활발히 악용 중이며 CISA가 KEV 등재·3일 패치 시한을 부과했다. M365 Copilot의 SearchLeak(CVE-2026-42824)은 악성 링크 한 번으로 데이터를 빼냈고, LiteLLM 버그 체인은 저권한 사용자의 AI 게이트웨이 장악을 허용한다. ShinyHunters는 유럽평의회(42.9만 파일)·InfiniteCampus(13.7만 계정) 유출을 주장했다.",
+      "action": "PAN-OS·Ivanti Sentry 즉시 패치, M365 Copilot 패치 확인, LiteLLM v1.83.14-stable+ 업그레이드 및 시크릿 교체"
+    }
+  ]
+}

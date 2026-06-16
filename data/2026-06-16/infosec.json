@@ -1,0 +1,301 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🔒",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-searchleak-m365-copilot",
+      "title": "SearchLeak — M365 Copilot을 원클릭 데이터 탈취 무기로",
+      "summary": "악성 링크 한 번으로 메일·캘린더·SharePoint·OneDrive 데이터를 빼낸다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.varonis.com/blog/searchleak?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Varonis가 M365 Copilot Enterprise Search에서 악성 링크 한 번으로 데이터를 탈취하는 3단계 버그 체인(CVE-2026-42824)을 발견했다.",
+        "what": "q URL 파라미터가 명령어로 취급되어 Copilot이 피해자의 이메일·캘린더·SharePoint·OneDrive를 검색하도록 유도된다. Copilot이 답변을 스트리밍하는 동안 주입된 이미지 태그가 새니타이즈 전에 잠깐 렌더되면서 Bing 이미지 검색 엔드포인트로 요청이 가고, 탈취 데이터를 담은 공격자 URL이 호출된다. 파라미터→프롬프트 인젝션, HTML 렌더링 경쟁 조건, Bing SSRF 기반 CSP 우회를 엮은 구조로, MS가 패치했다.",
+        "points": [
+          "q 파라미터가 명령어로 해석되는 프롬프트 인젝션",
+          "HTML 렌더링 경쟁 조건 + Bing SSRF로 CSP 우회",
+          "이미지 페치로 데이터 외부 유출",
+          "CVE-2026-42824, MS가 사용자 조치 없이 패치"
+        ],
+        "why": [
+          "AI 검색이 구식 웹 버그를 실전 탈취 경로로 바꿈",
+          "엔터프라이즈 Copilot 도입 보안 재검토 필요"
+        ],
+        "action": "M365 Copilot 패치 적용 여부 확인, AI 검색 출력의 외부 리소스 렌더링 정책 점검"
+      }
+    },
+    {
+      "id": "infosec-shinyhunters-council-europe",
+      "title": "ShinyHunters, 유럽평의회 해킹 주장",
+      "summary": "급여·이력서·계약·의료기록 등 42.9만 파일 탈취 주장.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/tiPNiY",
+      "report": {
+        "tldr": "랜섬웨어 조직 ShinyHunters가 유럽 최대 인권기구 유럽평의회를 해킹해 42.9만여 파일을 훔쳤다고 주장했다.",
+        "what": "탈취 주장 데이터에는 급여, 이력서, 계약·구매 기록, 결근·질병 보고, 은행 계좌 정보가 포함된다. 직원 이름·ID·주소·전화·생년월일·세금·사회보장 정보·의료기록 등 민감정보도 들어 있다고 주장한다.",
+        "points": [
+          "유럽평의회 대상 42.9만 파일 탈취 주장",
+          "급여·이력서·계약·은행정보 포함",
+          "이름·주소·세금·의료기록 등 민감정보 노출 주장"
+        ],
+        "why": [
+          "인권기구 대상 대형 유출로 파급력 큼",
+          "ShinyHunters의 연쇄 공격 정황"
+        ],
+        "action": "관련 협력기관은 자격증명 노출·피싱 후속 공격에 대비"
+      }
+    },
+    {
+      "id": "infosec-infinitecampus-breach",
+      "title": "InfiniteCampus 유출 — 학교 직원 13.7만 계정 노출",
+      "summary": "Salesforce 인스턴스에서 학교 직원 데이터가 탈취·공개됐다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/hOYL1P",
+      "report": {
+        "tldr": "ShinyHunters가 EdTech 기업 InfiniteCampus의 Salesforce 인스턴스에서 학교 직원 13.7만 계정 데이터를 훔쳐 공개했다.",
+        "what": "Have I Been Pwned 분석 결과 이름, 이메일, 고용주, 직함, 전화, 주소, 사용자명, 지원 티켓이 노출됐다. InfiniteCampus는 대부분이 학교 디렉터리에 공개된 정보라고 해명했다.",
+        "points": [
+          "Salesforce 인스턴스에서 13.7만 직원 계정 유출",
+          "이름·이메일·직함·주소·지원티켓 노출",
+          "회사는 '대부분 공개정보'라 해명"
+        ],
+        "why": [
+          "SaaS(Salesforce) 인스턴스 침해의 연쇄 사례",
+          "교육 부문 개인정보 노출 위험"
+        ],
+        "action": "Salesforce 연동 SaaS의 접근권한·노출면 점검"
+      }
+    },
+    {
+      "id": "infosec-litellm-vuln-chain",
+      "title": "LiteLLM 취약점 체인 — 저권한 사용자가 AI 게이트웨이 장악",
+      "summary": "기본 사용자가 관리자 권한·임의 코드 실행까지 도달하는 버그 체인.",
+      "source": "TLDR Information Security",
+      "url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "LiteLLM 프록시의 버그 체인이 저권한 내부 사용자를 프록시 관리자로 승격시키고 임의 파이썬 코드 실행으로 서버를 통째 장악하게 한다.",
+        "what": "기본 사용자가 과도한 권한의 API 키를 발급하고 스스로를 프록시 admin으로 승격한 뒤 가드레일 코드로 임의 파이썬을 실행할 수 있다. 공격자는 모든 AI 공급자 키 덤프, 저장 자격증명 복호화, 게이트웨이를 통과하는 프롬프트·응답 열람이 가능하다. 콜백 훅으로 에이전트 응답을 몰래 변조하고 리버스 셸을 띄울 수도 있다.",
+        "points": [
+          "저권한→프록시 admin→임의 코드 실행 체인",
+          "AI 공급자 키 덤프·자격증명 복호화",
+          "콜백 훅으로 응답 변조·리버스 셸 가능"
+        ],
+        "why": [
+          "AI 게이트웨이가 단일 침해점으로 부상",
+          "다수 모델 키·트래픽이 한곳에 집중되는 위험"
+        ],
+        "action": "v1.83.14-stable 이상으로 업그레이드, admin·콜백 감사 및 노출 시크릿 교체"
+      }
+    },
+    {
+      "id": "infosec-vscode-extension-blocking",
+      "title": "VS Code 공급망 공격 이후 — 확장 차단은 정말 동작하나",
+      "summary": "마켓플레이스 URL만 막으면 CDN URL 재구성으로 우회된다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/x3tHpF",
+      "report": {
+        "tldr": "VS Code 확장 설치는 마켓플레이스에서 CDN URL을 받아 진행되는데, 마켓플레이스 URL만 차단한 조직은 CDN URL 재구성으로 우회될 수 있다.",
+        "what": "사용자가 확장을 설치하면 VS Code가 먼저 marketplace.visualstudio.com에 접속해 실제 확장을 제공하는 CDN URL을 얻은 뒤 추출·설치한다. 많은 조직이 마켓플레이스 URL만 막아 두는데, CDN URL을 알거나 재구성할 수 있는 공격자는 이를 우회한다. .vscode\\extension\\에 직접 추출하는 방식도 차단을 무력화할 수 있다.",
+        "points": [
+          "설치는 마켓플레이스→CDN URL 경유",
+          "마켓플레이스 URL만 차단 시 우회 가능",
+          ".vscode\\extension 직접 추출로도 회피"
+        ],
+        "why": [
+          "개발자 도구 공급망 공격면 확대",
+          "확장 차단 정책의 실효성 재검토 필요"
+        ],
+        "action": "CDN 도메인 포함 차단 및 확장 디렉터리 무결성 모니터링"
+      }
+    },
+    {
+      "id": "infosec-humanity-protocol-compromise",
+      "title": "Humanity Protocol H 토큰 탈취 — 이메일 한 통에 $36M·89% 폭락",
+      "summary": "Bithumb 사칭 피싱이 개인키를 빼내 양 체인 동시 공격으로 이어졌다.",
+      "source": "TLDR Information Security",
+      "url": "https://en.cryptonomist.ch/2026/06/13/humanity-protocol-h-token-compromise/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Bithumb 사칭 피싱 이메일이 임원 PC에 원격제어 악성코드를 심어 개인키를 빼냈고, 공격자는 양 체인을 동시에 쳐 $36M 손실·89% 폭락을 유발했다.",
+        "what": "악성 첨부가 디렉터 PC를 감염시켜 온체인 운영용 개인키를 추출했다. 공격자는 이더리움의 Hyperlane 워프루트 프록시 구현을 교체해 약 1.4118억 $H를 리다이렉트하고, 탈취한 BSC Safe 서명키 3개로 ProxyAdmin 소유권을 장악해 1억 $H를 추가 발행했다. 약 8시간에 걸쳐 Uniswap·PancakeSwap에서 매도해 $H를 89% 폭락시키고 최소 $21M ETH를 확보했다.",
+        "points": [
+          "Bithumb 사칭 피싱→임원 PC 원격제어",
+          "이더리움 프록시 교체로 1.41억 $H 리다이렉트",
+          "BSC Safe 키 탈취로 1억 $H 추가 발행",
+          "8시간 매도로 89% 폭락, $21M+ 확보"
+        ],
+        "why": [
+          "스마트컨트랙트 감사도 키 운영 실수를 막지 못함",
+          "관리키 격리·HSM·다지역 멀티시그의 중요성"
+        ],
+        "action": "관리키를 인터넷 연결 단말과 분리, HSM·지리적 분산 멀티시그 도입"
+      }
+    },
+    {
+      "id": "infosec-velvet-ant-decade",
+      "title": "중국 Velvet Ant, 10년간 격리망 잠입·감시",
+      "summary": "인증 흐름을 가로채 에어갭 시스템까지 터널링하며 10년 잠복했다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/0Lnvyf",
+      "report": {
+        "tldr": "Sygnia가 중국 Velvet Ant APT가 핵심 인프라 네트워크를 10년간 침해했다고 보고했다.",
+        "what": "공격자는 인터넷 노출 서버를 뚫고 변조된 GS-Netcat 리버스 셸을 심은 뒤 SOCKS5 프록시로 에어갭 시스템까지 터널링했다. 인터넷 노출 Nginx 프록시를 변조해 HTTP POST 파라미터로 SSH 연결을 세우며 내부 시스템에 요청을 전달했다. pam_unix·ssh 등 정상 도구를 트로이목마 버전으로 교체해 복구가 특히 어려웠다.",
+        "points": [
+          "10년 장기 잠복, 핵심 인프라 침해",
+          "GS-Netcat 리버스 셸·SOCKS5로 에어갭 우회",
+          "Nginx 프록시 변조로 내부 터널링",
+          "정상 도구를 트로이목마로 교체"
+        ],
+        "why": [
+          "장기 지능형 위협의 탐지·복구 난이도 부각",
+          "에어갭 신뢰의 한계를 보여줌"
+        ],
+        "action": "노출 프록시·시스템 바이너리 무결성 검증, 장기 잔존 위협 헌팅"
+      }
+    },
+    {
+      "id": "infosec-mackay-sugar-ransomware",
+      "title": "호주 2위 설탕업체 Mackay Sugar, 랜섬웨어로 공장 가동 중단",
+      "summary": "랜섬웨어 공격으로 일부 제분소·물류 시스템이 멈췄다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/cxHQiL",
+      "report": {
+        "tldr": "Mackay Sugar가 랜섬웨어 공격으로 일부 제분소와 사탕수수 공급·물류 시스템이 중단됐다고 밝혔다.",
+        "what": "회사는 한 제분소에서 수동 분쇄를 제한적으로 재가동하고 증기 시험을 시작했으며, 주중 단계적 재가동을 예상했다. The Gentlemen이 Tor 사이트에서 범행을 주장했으나 데이터 유출은 아직 없고 OT 시스템 상태는 불분명하다.",
+        "points": [
+          "일부 제분소·물류 시스템 중단",
+          "제한적 수동 가동·단계적 재가동 추진",
+          "The Gentlemen 범행 주장, 유출은 미확인"
+        ],
+        "why": [
+          "OT/제조 부문 랜섬웨어의 운영 충격 사례"
+        ],
+        "action": "OT/IT 분리 및 제조 라인 복구·백업 절차 점검"
+      }
+    },
+    {
+      "id": "infosec-anthropic-safety-superpower",
+      "title": "Anthropic의 '안전 슈퍼파워' (보안 관점)",
+      "summary": "Mythos급 모델의 취약점 탐지력과 수출통제·데이터정책 변화를 짚는다.",
+      "source": "TLDR Information Security",
+      "url": "https://stratechery.com/2026/anthropics-safety-superpower/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "벤 톰슨은 Anthropic의 안전 메시지가 상업적 이해와 너무 잘 맞물린다며, Mythos급 모델의 보안 취약점 탐지·악용 능력과 정책 변화를 분석했다.",
+        "what": "너무 위험하다던 Mythos Preview를 가드레일을 씌운 Fable로 출시한 점, 탈옥 보고 후 외국인 대상 Fable 5·Mythos 5 접근을 끊은 수출통제 지시, 엔터프라이즈 제로 보존 보장을 뒤집은 30일 데이터 보존 변경을 엮는다. Fable 성능을 조용히 낮추려다 Opus 4.8로의 명시적 핸드오프로 번복한 사례를 통제력의 증거로 제시한다.",
+        "points": [
+          "Mythos급 모델의 보안 취약점 탐지·악용 능력 강화",
+          "수출통제로 외국인 접근 차단",
+          "제로 보존→30일 보존 정책 후퇴",
+          "안전 명분이 자사 통제력 정당화로 귀결"
+        ],
+        "why": [
+          "AI의 공격적 보안 역량이 위협·방어 양면으로 작동",
+          "프런티어 모델 가용성의 정책 리스크"
+        ],
+        "action": "AI 보안 도구의 모델 의존성·데이터 보존 정책 변화를 추적"
+      }
+    },
+    {
+      "id": "infosec-fbi-outsider-enterprise",
+      "title": "FBI·구글, 'Outsider Enterprise' 피싱 서비스 분쇄",
+      "summary": "55개국 9,000개 사이트로 380만 카드 탈취한 PhaaS를 무력화했다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/fjxqow",
+      "report": {
+        "tldr": "FBI의 Operation Riptide와 구글 소송으로 중국 기반 피싱-서비스 Outsider Enterprise가 분쇄됐다.",
+        "what": "2023년부터 55개국 이상에서 9,000개 넘는 사이트를 운영하며 약 380만 장의 신용카드를 탈취해 추정 $19억 손실을 낸 PhaaS다. 관리 서버 도메인, Shopify 스토어, 약 $10만 상당 암호화폐를 압류했다.",
+        "points": [
+          "55개국·9,000개 사이트 운영 PhaaS",
+          "380만 카드 탈취, 추정 $19억 손실",
+          "도메인·스토어·암호화폐 압류"
+        ],
+        "why": [
+          "대규모 피싱-서비스 생태계의 실태와 단속 성과"
+        ],
+        "action": "카드 탈취·피싱 인디케이터 모니터링 강화"
+      }
+    },
+    {
+      "id": "infosec-france-wrench-attack",
+      "title": "프랑스 크립토 '렌치 공격' 1명 기소",
+      "summary": "거래소 유출 데이터로 보유자를 물리적으로 노린 강도 사건.",
+      "source": "TLDR Information Security",
+      "url": "https://decrypt.co/371143/one-indicted-over-crypto-wrench-attack-in-france?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "경찰을 사칭한 3인조가 부부를 폭행해 $2만 크립토를 강탈한 사건으로 32세 용의자가 낭시에서 기소됐다.",
+        "what": "이 사건은 1월 Waltio 유출로 거슬러 올라간다. 당시 약 5만 명의 이메일, 2024년 거래 손익, 잔액이 노출됐고, 공격자는 이 데이터로 보유자를 주소 기반으로 표적 삼았다.",
+        "points": [
+          "경찰 사칭 3인조의 물리적 강도",
+          "$2만 크립토 강탈",
+          "Waltio 유출(5만 명) 데이터로 표적 선정"
+        ],
+        "why": [
+          "거래소 데이터 유출이 물리적 위협으로 전이",
+          "보유 정보 노출의 오프라인 리스크"
+        ],
+        "action": "거래소 데이터 노출 시 주소·자산 정보의 물리적 위협까지 고려"
+      }
+    },
+    {
+      "id": "infosec-recaptcha-hand-gesture",
+      "title": "구글, reCAPTCHA에 손동작 인증 추가",
+      "summary": "카메라로 손동작을 시키고 21개 관절 좌표로 사람 여부를 확인한다.",
+      "source": "TLDR Information Security",
+      "url": "https://docs.cloud.google.com/recaptcha/docs/hand-gesture-verification?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "구글이 Cloud Fraud Defense의 일부로 reCAPTCHA에 카메라 기반 손동작 인증을 추가했다.",
+        "what": "사용자가 카메라 앞에서 손동작을 수행하면 시스템이 21개 손가락 관절 좌표를 추출해 살아있는 사람인지 확인한다. 구글은 영상이 사용자 신원과 연결되지 않고, 오디오가 없으며, 챌린지 완료 시 삭제되고 제3자에게 전달되지 않는다고 밝혔다.",
+        "points": [
+          "카메라 손동작 + 21개 관절 좌표 추출",
+          "사람 여부(라이브니스) 확인",
+          "구글: 영상 비식별·무오디오·완료 후 삭제 주장"
+        ],
+        "why": [
+          "봇 탐지가 카메라 기반 생체 신호로 이동",
+          "카메라 권한 마찰·프라이버시 논점 동반"
+        ],
+        "action": "도입 시 카메라 권한 마찰과 프라이버시 영향을 삭제 보장과 함께 평가"
+      }
+    },
+    {
+      "id": "infosec-newcore-launch",
+      "title": "NewCore — 분할키 기반 아이덴티티 보안 플랫폼 출시",
+      "summary": "사람·머신·AI 에이전트 계정을 분할키·하드웨어 결합으로 보호한다.",
+      "source": "TLDR Information Security",
+      "url": "https://newcore.com/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "NewCore는 분할키 기술과 하드웨어 결합 검증으로 사람·머신·AI 에이전트 계정을 보호하는 아이덴티티 보안 플랫폼이다.",
+        "what": "위험한 SAML 서명 설정과 레거시 아이덴티티 인프라를 대체하며 빠른 배포를 내세운다.",
+        "points": [
+          "분할키 + 하드웨어 결합 검증",
+          "사람·머신·AI 에이전트 계정 보호",
+          "SAML 서명·레거시 인프라 대체"
+        ],
+        "why": [
+          "비인간(에이전트) 아이덴티티 보안 수요 증가"
+        ]
+      }
+    },
+    {
+      "id": "infosec-shannon-pentester",
+      "title": "Shannon — 소스 분석형 자율 화이트박스 펜테스터",
+      "summary": "소스코드를 분석해 실제 익스플로잇으로 취약점을 증명한다.",
+      "source": "TLDR Information Security",
+      "url": "https://github.com/KeygraphHQ/shannon?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Shannon Lite는 웹앱·API용 자율 화이트박스 AI 펜테스터다.",
+        "what": "소스코드를 분석해 공격 벡터를 식별하고, 프로덕션에 도달하기 전에 실제 익스플로잇을 실행해 취약점을 증명한다.",
+        "points": [
+          "소스코드 분석으로 공격 벡터 식별",
+          "실제 익스플로잇으로 취약점 증명",
+          "웹앱·API 대상 자율 펜테스트"
+        ],
+        "why": [
+          "AI 기반 공격적 보안 자동화 도구의 확산"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-spacex-hyperliquid-frenzy",
+      "title": "SpaceX 상장, Hyperliquid에 $14억 거래 광풍",
+      "summary": "사상 최대 IPO($135/주)에 SPCX 무기한 계약이 신기록을 세웠다.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/6Q6g0h",
+      "report": {
+        "tldr": "SpaceX가 주당 $135로 사상 최대 IPO를 단행하자, Hyperliquid의 SPCX 무기한 계약 일일 거래량이 $14억에 달하며 플랫폼 신기록을 세웠다.",
+        "what": "5월부터 가격 발견 수단으로 가동된 SPCX 퍼프는 상장 전후로 $14억 일일 거래량을 기록했다. 이는 전체 HIP-3 주식 퍼프 거래량의 약 30%를 차지하며 새로운 기록을 만들었다.",
+        "points": [
+          "SpaceX IPO 공모가 주당 $135, 사상 최대",
+          "SPCX 퍼프 일일 거래량 $14억",
+          "HIP-3 주식 퍼프의 ~30% 차지, 신기록"
+        ],
+        "why": [
+          "비상장사 가격 발견 수단으로서 퍼프 시장 부상",
+          "토큰화·파생 시장과 전통 IPO의 접점 확대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-robinhood-world-cup",
+      "title": "월드컵發 예측시장 호황, 로빈후드 순풍",
+      "summary": "Bernstein, 로빈후드 예측시장 매출 2026년 $5.86억 전망(전년 4배).",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/C8PBgY",
+      "report": {
+        "tldr": "Bernstein이 로빈후드의 예측시장 매출을 2025년 $1.5억에서 2026년 $5.86억으로 약 4배 성장할 것으로 전망했다.",
+        "what": "이 성장은 월드컵發 기록적 거래량이 소매 참여자를 대거 끌어들인 데 기인한다. 분석은 대형 스포츠 이벤트를 주류 채택의 주요 진입로로 보며, Polymarket 등 크립토 네이티브 사용자 기반을 넘어 예측시장이 확장되고 있다고 본다. 이 궤적이라면 예측시장은 로빈후드의 핵심 사업 부문이 된다.",
+        "points": [
+          "예측시장 매출 $1.5억→$5.86억(약 4배) 전망",
+          "월드컵發 기록적 거래량이 소매 유입 견인",
+          "크립토 네이티브를 넘어선 주류 확장"
+        ],
+        "why": [
+          "예측시장이 브로커리지의 핵심 사업으로 부상",
+          "美 규제 명확화 앞둔 이벤트 계약 경쟁 가열"
+        ]
+      }
+    },
+    {
+      "id": "crypto-tokenized-assets-uniswap",
+      "title": "토큰화 자산, Uniswap에 상장",
+      "summary": "SpaceX·애플·테슬라·엔비디아 등 토큰화 증권을 앱·지갑·API에 추가.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/xCnaT4",
+      "report": {
+        "tldr": "Uniswap이 SpaceX·애플·테슬라·엔비디아 등 토큰화 증권을 웹앱·지갑·API에 추가했다.",
+        "what": "프로토콜은 14만+ 지갑의 260만 거래에서 $91억 RWA 풀 거래량을 처리했으며, 주식·채권·이자부 상품이 주요 자산군이다. Uniswap v4의 훅 인프라로 발행자는 풀 단위에서 전송 제한·KYC 게이트·허용목록·지역 통제·동적 수수료를 설정할 수 있다. 온체인에 올라오면 지갑·앱·에이전트 간 조합 가능하고 TradFi 거래시간 밖에서도 거래되지만, 발행자 적격성·KYC·관할 제한은 여전히 적용된다.",
+        "points": [
+          "SpaceX·애플·테슬라·엔비디아 토큰화 증권 추가",
+          "RWA 풀 누적 $91억·260만 거래·14만+ 지갑",
+          "v4 훅으로 KYC·전송제한·동적수수료 설정",
+          "TradFi 시간 외 거래·조합성 확보"
+        ],
+        "why": [
+          "RWA(실물자산 토큰화)의 주류 인프라 진입",
+          "DeFi와 전통 증권의 경계 약화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-aztec-connect-exploit",
+      "title": "방치된 Aztec Connect 컨트랙트 $210만 익스플로잇",
+      "summary": "ZK 증명 검증 불일치로 무담보 잔액을 생성·인출했다.",
+      "source": "TLDR Crypto",
+      "url": "https://cointelegraph.com/news/aztec-connects-depreciated-smart-contract-exploited-for-2-million?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "6월 15일 익스플로잇이 2023년 폐기된 Aztec Connect에서 약 $210만을 빼냈다.",
+        "what": "BlockSec은 ZK 증명 검증 시스템과 이더리움 정산 로직이 동일 트랜잭션 목록을 다르게 해석한 불일치를 원인으로 지목했다. 공격자는 무담보 잔액을 생성해 ETH·DAI·wstETH로 7건을 인출했다. Aztec Labs는 admin 키가 없어 컨트랙트를 일시정지·업그레이드할 수 없어 사후 구제가 불가능하다고 확인했다.",
+        "points": [
+          "폐기(2023) 프로토콜의 불변 컨트랙트가 자산 보유",
+          "ZK 검증과 정산 로직 해석 불일치가 원인",
+          "무담보 잔액 생성→7건 인출",
+          "admin 키 부재로 사후 구제 불가"
+        ],
+        "why": [
+          "불변·방치 컨트랙트의 잔존 리스크 부각",
+          "ZK 검증 정합성의 중요성"
+        ],
+        "action": "폐기 프로토콜에 남은 자산·승인(approval) 회수 점검"
+      }
+    },
+    {
+      "id": "crypto-hinkal-pay-tempo",
+      "title": "Hinkal Pay, Tempo에서 출시",
+      "summary": "엔터프라이즈 스테이블코인 결제에 프라이버시 계층을 더한다.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2066602269383246035.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "엔터프라이즈급 스테이블코인 결제용 블록체인 Hinkal Pay가 Tempo에서 가동을 시작했다.",
+        "what": "Tempo의 기존 관리형 Zone 밖 흐름(프라이빗 스왑, 다자 가맹점 정산, 커스터디 상품 위 기밀성)에 프라이버시를 확장한다. 모든 프라이빗 거래는 ZK 검증·비수탁이며 정산 전 Chainalysis KYT로 사전 심사된다. 뷰잉 키로 감사·컴플라이언스 팀에 선택적 공개가 가능하다.",
+        "points": [
+          "Tempo Zone 밖 흐름에 프라이버시 확장",
+          "ZK 검증·비수탁·KYT 사전 심사",
+          "뷰잉 키로 선택적 공개(감사 대응)"
+        ],
+        "why": [
+          "규제 친화적 프라이버시 결제 인프라 수요"
+        ]
+      }
+    },
+    {
+      "id": "crypto-2029-roadmap",
+      "title": "Crypto 2029 — 사전 IPO 퍼프가 핵심 가격발견 수단",
+      "summary": "비상장사 퍼프 시장이 IPO 전 가격 발견을 주도한다는 전망.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/mJmVdD",
+      "report": {
+        "tldr": "2029 로드맵은 사전 IPO 무기한 시장이 주요 비상장사의 핵심 가격 발견 수단이 된다고 본다.",
+        "what": "Hyperliquid의 SpaceX 퍼프가 상장 전 은행·헤지펀드에 의해 참조되고, 뒤이어 OpenAI·Anthropic 계약이 사상 최대 미결제약정을 기록한다고 전망한다. AI×크립토는 예측시장 밖에서 지속가능한 PMF를 못 내고, 대형 운용사는 토큰화 MMF·사모신용을 파일럿에서 프로덕션으로 옮긴다. 2028년 사모증권 재판매 일반청약 허용이 퍼프 사용자 기반을 지분 보유자로 전환시켜 바이오·로보틱스·AI랩 주식의 강세장을 이끈다고 본다.",
+        "points": [
+          "사전 IPO 퍼프가 가격 발견 주도",
+          "OpenAI·Anthropic 계약 사상 최대 OI 전망",
+          "AI×크립토는 예측시장 외 PMF 실패",
+          "2028 규제 완화로 퍼프→지분 전환"
+        ],
+        "why": [
+          "크립토의 전통 금융 인프라 흡수 시나리오 제시"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sbf-conviction-affirmed",
+      "title": "제2순회법원, SBF 사기 유죄·25년형 확정",
+      "summary": "직접적 뒤집기 경로 사라지고 대법원 청원만 남았다.",
+      "source": "TLDR Crypto",
+      "url": "https://thedefiant.io/news/regulation/second-circuit-affirms-sbf-fraud-conviction-25-year-sentence?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "제2순회항소법원이 샘 뱅크먼-프리드의 7개 사기·공모 유죄와 25년형을 확정해 2023년 평결을 뒤집을 가장 직접적 경로가 사라졌다.",
+        "what": "3인 재판부 판결로 남은 법적 수단은 대법원 청원뿐인데, 대법원은 제출 청원의 약 1~2%만 받아들여 가능성이 희박하다. 모든 혐의는 2022년 11월 FTX 붕괴에서 비롯됐다.",
+        "points": [
+          "7개 사기·공모 유죄 및 25년형 확정",
+          "남은 수단은 대법원 청원뿐(승인율 1~2%)",
+          "FTX 2022년 붕괴에서 혐의 유래"
+        ],
+        "why": [
+          "크립토 최대 사기 사건의 법적 마무리 단계"
+        ]
+      }
+    },
+    {
+      "id": "crypto-everyone-launch-bank",
+      "title": "이제 누구나 은행을 만든다 — 그래서 90%가 실패한다",
+      "summary": "모듈형 핀테크 인프라가 진입장벽과 함께 차별화도 무너뜨린다.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/MGqw6B",
+      "report": {
+        "tldr": "모듈형 핀테크 인프라가 네오뱅크 출시를 누구나 가능하게 만들었지만, 같은 이유로 실패율도 치솟는다.",
+        "what": "KYC API, 카드형 서비스, 스테이블코인 계좌, 결제 레일이 20년 전 웹사이트 제작의 상품화처럼 은행 출시를 대중화했다. 캐시백·메탈카드·크립토 리워드·수수료 인하는 같은 임대 스택을 쓰는 경쟁자가 모두 복제할 수 있어 지속적 우위가 못 된다. 경쟁 우위는 기술이 아니라 기존 유통·신뢰·네트워크 효과로 이동한다.",
+        "points": [
+          "모듈형 인프라로 네오뱅크 출시 대중화",
+          "기능 차별화가 임대 스택으로 복제됨",
+          "우위가 유통·신뢰·네트워크로 이동"
+        ],
+        "why": [
+          "임베디드 금융 시대의 경쟁 구도 변화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-kalshi-world-cup-volume",
+      "title": "Kalshi 월드컵 첫 주 거래량 사상 최대 $51억",
+      "summary": "5월 명목 거래량도 약 $180억에 근접했다.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2066510630664679676.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Kalshi가 FIFA 월드컵 첫 주에 사상 최대인 $51억 거래량을 기록했다.",
+        "what": "5월 명목 거래량도 약 $180억에 근접하며 예측시장 거래가 급증했다.",
+        "points": [
+          "월드컵 첫 주 거래량 $51억(신기록)",
+          "5월 명목 거래량 약 $180억 근접"
+        ],
+        "why": [
+          "스포츠 이벤트發 예측시장 거래량 폭증"
+        ]
+      }
+    },
+    {
+      "id": "crypto-solana-forward-dats",
+      "title": "Solana 트레저리 통합 가열 — Forward, 경쟁 DAT 추진",
+      "summary": "약 700만 SOL 보유 Forward가 소형 경쟁사 전량주식 인수 제안.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/hrWLRY",
+      "report": {
+        "tldr": "약 700만 SOL을 스테이킹한 최대 Solana 디지털자산 트레저리(DAT) Forward Industries가 소형 경쟁사들에 전량주식 인수를 제안했다.",
+        "what": "Forward는 이 분야 최소 3개 소형 경쟁사에 전량주식(all-stock) 인수를 타진하며 트레저리 통합을 추진하고 있다.",
+        "points": [
+          "Forward, 약 700만 SOL 스테이킹",
+          "최소 3개 소형 경쟁 DAT에 인수 제안",
+          "전량주식 방식 통합 추진"
+        ],
+        "why": [
+          "디지털자산 트레저리 부문의 통합 가속"
+        ]
+      }
+    },
+    {
+      "id": "crypto-eur-stablecoins-ath",
+      "title": "유로 스테이블코인 공급량 사상 최대",
+      "summary": "Token Terminal, EUR 스테이블코인 공급이 ATH 경신했다고 분석.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2066614718681285113.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Token Terminal이 유로 스테이블코인 공급량이 사상 최대를 기록했다고 밝혔다.",
+        "what": "주요 경제권이 인터넷 네이티브 금융 시스템에서 자국 통화가 구조적으로 밀려나는 것을 두고 보지 않을 것이며, 토큰화 EUR이 글로벌 금융 디지털화와 함께 성장할 것이라고 분석했다.",
+        "points": [
+          "EUR 스테이블코인 공급 ATH 경신",
+          "토큰화 EUR의 구조적 성장 전망"
+        ],
+        "why": [
+          "달러 외 통화의 스테이블코인 경쟁 본격화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-standard-chartered-uni",
+      "title": "스탠다드차타드, 2030년 UNI 목표가 $100 제시",
+      "summary": "현재 $2.50 수준 대비 약 40배 상승 함의.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/Fj6NuD",
+      "report": {
+        "tldr": "스탠다드차타드가 Uniswap의 UNI 토큰에 2030년 말 $100 목표가로 커버리지를 개시했다.",
+        "what": "이는 현재 $2.50 부근 대비 약 40배 상승을 함의한다.",
+        "points": [
+          "2030년 말 UNI 목표가 $100",
+          "현재가 $2.50 대비 약 40배"
+        ],
+        "why": [
+          "전통 은행의 DeFi 토큰 커버리지 개시 사례"
+        ]
+      }
+    }
+  ]
+}

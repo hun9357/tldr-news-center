@@ -1,0 +1,397 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-anthropic-safety-superpower",
+      "title": "Anthropic의 '안전 슈퍼파워' — Fable·Mythos 수출통제 후폭풍",
+      "summary": "벤 톰슨이 Anthropic의 안전 메시지가 상업적 이해와 지나치게 잘 맞아떨어진다고 비판했다.",
+      "source": "TLDR AI",
+      "url": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "report": {
+        "tldr": "美 정부가 외국인 대상 Fable 5·Mythos 5 접근을 끊은 가운데, Anthropic의 안전 서사가 자사 통제력 강화로 이어진다는 분석이 오늘 4개 에디션에 동시 등장했다.",
+        "what": "벤 톰슨은 Anthropic이 '너무 위험하다'며 보류했던 Mythos Preview를 가드레일을 씌운 Fable로 출시한 과정, 탈옥 보고 직후 내려진 美 수출통제 지시, 그리고 제로 보존 보장을 뒤집은 30일 데이터 보존 정책 변경을 한데 엮어 분석한다. 출시 당일 Fable의 프런티어 LLM 개발 성능을 조용히 낮추려다 Opus 4.8로의 명시적 핸드오프로 번복한 사례를 들어, Anthropic이 자사 정책 선호에 맞춰 모델을 조용히 조정할 수 있고 실제로 그렇게 한다고 짚는다.",
+        "points": [
+          "Mythos의 보안 취약점 탐지·악용 능력이 직전 세대보다 확연히 강함",
+          "공개 출시 후 가드레일이 곧바로 탈옥당함",
+          "美 정부가 외국인 대상 Fable 5·Mythos 5 접근 중단 지시",
+          "제로 데이터 보존 보장을 30일 보존으로 후퇴",
+          "안전 서사가 곧 자사 통제력 정당화로 귀결된다는 비판"
+        ],
+        "why": [
+          "프런티어 모델이 처음으로 사실상 수출통제 대상이 된 분수령",
+          "AI 안전 담론과 기업 이해관계의 충돌을 드러냄",
+          "Fable/Mythos 의존 워크플로의 가용성·정책 리스크 직결"
+        ],
+        "context": "이 사안은 오늘 AI·빅테크·보안·개발 에디션에서 동시에 다뤄진 최대 화제다.",
+        "action": "Fable/Mythos 의존 기능의 대체 모델 경로와 데이터 보존 정책 변경 영향을 점검"
+      }
+    },
+    {
+      "id": "ai-factory-2-software-factories",
+      "title": "Factory 2.0 — 코딩 에이전트에서 '소프트웨어 공장'으로",
+      "summary": "엔지니어의 역할이 코드를 짜는 것에서 소프트웨어를 만드는 공장을 짓는 것으로 이동한다.",
+      "source": "TLDR AI",
+      "url": "https://factory.ai/news/software-factory?utm_source=tldrai",
+      "report": {
+        "tldr": "Factory는 자율 소프트웨어 개발 '공장'을 세계 최대 조직들의 프로덕션에 투입하며 엔지니어 역할의 재정의를 선언했다.",
+        "what": "Factory는 지난 몇 달간 고객들과 함께 소프트웨어 공장을 구축해 이미 프로덕션에서 가동 중이라고 밝혔다. 자율 소프트웨어 개발에 투자한 조직은 엔지니어링 성과가 급증하며, 이 시대의 엔지니어는 소프트웨어를 만드는 공장 자체를 짓는 책임을 지게 된다고 주장한다.",
+        "points": [
+          "자율 소프트웨어 공장이 대규모 조직 프로덕션에 도입",
+          "엔지니어 역할이 코드 작성→시스템·공장 설계로 확장",
+          "자율 개발 투자 조직의 엔지니어링 성과 급증 강조"
+        ],
+        "why": [
+          "에이전트 기반 개발의 조직 운영 모델 변화를 시사",
+          "엔지니어 직무·평가 기준 재편 가능성"
+        ]
+      }
+    },
+    {
+      "id": "ai-sakana-marlin",
+      "title": "Sakana Marlin — 몇 시간 만에 전략 리포트를 쓰는 자율 연구 비서",
+      "summary": "주제만 입력하면 상세 전략 리포트와 요약 슬라이드를 사람 개입 없이 생성한다.",
+      "source": "TLDR AI",
+      "url": "https://sakana.ai/marlin-release/#English?utm_source=tldrai",
+      "report": {
+        "tldr": "Sakana Marlin은 방대한 전략 분석을 몇 시간으로 압축하는 자율 연구 비서다.",
+        "what": "사용자가 연구 주제를 입력하면 Marlin이 추가 개입 없이 상세 전략 리포트와 요약 슬라이드를 자동 생성한다. 약 300명의 업계 전문가 베타 피드백을 바탕으로 기능을 다듬었고, 유연한 요금제를 제공한다.",
+        "points": [
+          "주제 입력→자율 리포트·슬라이드 생성",
+          "약 300명 전문가 베타로 기능 개선",
+          "다양한 직무용 유연 요금제 제공"
+        ],
+        "why": [
+          "지식노동의 전략 분석 단계 자동화 흐름을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "ai-facebook-ai-mode",
+      "title": "페이스북, 공개 게시물·릴스를 검색엔진으로 바꾸는 'AI 모드'",
+      "summary": "검색창을 공개 그룹·릴스·마켓플레이스 데이터를 캐는 대화형 도구로 전환한다.",
+      "source": "TLDR AI",
+      "url": "https://www.androidheadlines.com/2026/06/facebook-ai-mode-search-engine-public-posts.html?utm_source=tldrai",
+      "report": {
+        "tldr": "페이스북이 검색창을 공개 데이터를 마이닝하는 대화형 AI 모드로 바꿔 미국에서 출시 중이다.",
+        "what": "새 AI 모드는 공개 그룹 토론, 릴스, 마켓플레이스 데이터를 캐서 질문에 답한다. 플랫폼 참여도를 높이고 메타의 구독 등급 확장을 뒷받침하려는 목적이지만, 데이터 프라이버시와 크라우드소싱 AI 요약의 정확성에 대한 우려가 제기됐다.",
+        "points": [
+          "공개 그룹·릴스·마켓플레이스를 대화형으로 검색",
+          "참여도 제고 및 구독 등급 확장 노림",
+          "프라이버시·정확성 우려 제기",
+          "현재 미국 사용자 대상 순차 출시"
+        ],
+        "why": [
+          "소셜 플랫폼이 AI 검색 인터페이스로 재편되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-once-and-future-fable-2",
+      "title": "The Once and Future Fable #2 — Fable·Mythos 차단을 둘러싼 의문들",
+      "summary": "정부의 전면 차단 결정 배경에 미지수가 너무 많다는 분석.",
+      "source": "TLDR AI",
+      "url": "https://thezvi.substack.com/p/the-once-and-future-fable-2?utm_source=tldrai",
+      "report": {
+        "tldr": "美 정부가 Anthropic에 Fable·Mythos 접근 전면 차단을 강제한 결정은 동기와 의도가 불투명해 단순 오해일 수도 있다는 분석이다.",
+        "what": "이 글은 정부가 무엇에 동기를 얻었는지, 기술 메커니즘을 얼마나 이해하는지, 좁은 수정과 전면 수정 중 무엇을 요구하는지, 다음에 무엇을 하려는지가 모두 불분명하다고 지적한다. 끔찍한 오해라면 빠르게 정리될 수 있다고 본다.",
+        "points": [
+          "전면 차단 결정의 동기·의도가 불투명",
+          "정부의 기술 이해 수준 불확실",
+          "좁은 수정 vs 전면 수정 요구 여부 불명",
+          "단순 오해 가능성도 배제 못함"
+        ],
+        "why": [
+          "수출통제발 모델 차단의 실체와 파급을 가늠하는 분석"
+        ]
+      }
+    },
+    {
+      "id": "ai-dflash-spec-v2-decoding",
+      "title": "DFlash와 Spec V2 디코딩 — 차세대 추론 가속",
+      "summary": "SGLang의 Spec V2 엔진과 DFlash로 추론 처리량을 크게 끌어올렸다.",
+      "source": "TLDR AI",
+      "url": "https://www.lmsys.org/blog/2026-06-15-next-generation-speculative-decoding-dflash-v2/?utm_source=tldrai",
+      "report": {
+        "tldr": "DFlash와 SGLang Spec V2 엔진이 기존 추론·네이티브 MTP 대비 큰 처리량 향상을 보였다.",
+        "what": "이 글은 DFlash와 Spec V2 기반 최신 세대 투기적 디코딩(speculative decoding)을 상세히 다룬다. 벤치마크에서 베이스라인 추론과 네이티브 MTP 투기 대비 상당한 처리량 이득을 확인했다.",
+        "points": [
+          "DFlash + SGLang Spec V2 결합",
+          "베이스라인·네이티브 MTP 대비 처리량 대폭 향상",
+          "투기적 디코딩의 차세대 구현"
+        ],
+        "why": [
+          "추론 비용·지연 절감의 핵심 기술 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-agentic-code-review",
+      "title": "에이전틱 코드 리뷰 — 가장 레버리지 큰 기술이 된 '리뷰'",
+      "summary": "코드 작성보다 '신뢰 여부 판단'이 어려워지며 리뷰가 핵심 역량이 됐다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/FCerRS",
+      "report": {
+        "tldr": "코딩 에이전트가 엔지니어링의 난제를 '코드 작성'에서 '신뢰할지 판단'으로 옮기며 리뷰가 가장 레버리지 큰 기술이 됐다.",
+        "what": "2026년 데이터가 이를 뒷받침한다. Faros AI의 2.2만 개발자 연구에서 코드 처닝이 861% 증가, 개발자당 결함률이 9%→54%, 리뷰 소요가 441% 증가, 무리뷰 머지가 31% 증가했다. GitClear는 원시 산출 4배에 전달 가치 향상은 약 12%에 그친다고 보고했고, 그 격차가 곧 '리뷰 문제'다.",
+        "points": [
+          "난제가 '작성'에서 '신뢰 판단'으로 이동",
+          "코드 처닝 861% 증가, 결함률 9%→54%",
+          "리뷰 소요 441%·무리뷰 머지 31% 증가",
+          "원시 산출 4배 vs 전달 가치 +12% 격차"
+        ],
+        "why": [
+          "AI 코드 시대에 리뷰가 품질의 병목이자 핵심 역량"
+        ]
+      }
+    },
+    {
+      "id": "ai-fireworks-trace-judge",
+      "title": "Fireworks로 100배 저렴한 트레이스 평가자 만들기",
+      "summary": "Qwen-3.5-35B 파인튜닝으로 프런티어급 오류 탐지를 저비용 구현했다.",
+      "source": "TLDR AI",
+      "url": "https://www.langchain.com/blog/building-a-100x-cheaper-trace-judge-with-fireworks?utm_source=tldrai",
+      "report": {
+        "tldr": "Fireworks와 LangChain이 Qwen-3.5-35B 기반으로 '체감 오류'를 탐지하는 저비용 평가자를 만들었다.",
+        "what": "이 평가자는 챗봇 상호작용에서 사용자가 인지한 오류를 잡아낸다. chat-langchain 데이터로 파인튜닝한 결과 프런티어 모델과 동등하거나 그 이상의 성능을 훨씬 낮은 비용으로 달성했다.",
+        "points": [
+          "Qwen-3.5-35B 파인튜닝 기반 평가자",
+          "사용자 체감 오류 탐지에 특화",
+          "프런티어급 성능을 100배 낮은 비용으로"
+        ],
+        "why": [
+          "LLM 품질 평가의 비용 구조를 바꾸는 접근"
+        ]
+      }
+    },
+    {
+      "id": "ai-inference-engineering-guide",
+      "title": "AI 추론 엔지니어링 가이드",
+      "summary": "학습된 모델을 프로덕션에서 효율적으로 돌리는 분야의 개요.",
+      "source": "TLDR AI",
+      "url": "https://blog.bytebytego.com/p/a-guide-to-ai-inference-engineering?utm_source=tldrai",
+      "report": {
+        "tldr": "추론 엔지니어링은 학습된 모델을 프로덕션에서 효율적으로 구동하는 독립 전문 분야로 자리 잡았다.",
+        "what": "저수준 GPU 코드, 모델 서빙 프레임워크, 이를 잇는 클라우드 인프라를 다룬다. 엔지니어는 제품 특성에 따라 지연·처리량·비용·품질의 조합을 최적화하며, 진지한 AI 워크로드를 운영하는 기업이라면 반드시 투자하는 영역이 됐다.",
+        "points": [
+          "GPU 코드·서빙 프레임워크·클라우드 인프라 결합",
+          "지연·처리량·비용·품질 최적화",
+          "AI 운영 기업의 필수 전문 영역화"
+        ],
+        "why": [
+          "AI 제품의 경제성·성능을 좌우하는 핵심 역량"
+        ]
+      }
+    },
+    {
+      "id": "ai-zen-ml-research",
+      "title": "선(禪)과 머신러닝 연구의 기술",
+      "summary": "읽고 만들어라 — 연구자가 되는 길은 단순하지만 규율이 필요하다.",
+      "source": "TLDR AI",
+      "url": "https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 연구자가 되는 길은 '읽고 만드는' 단순함이지만, 정상급이 되려면 막대한 규율이 필요하다.",
+        "what": "과학적 통찰은 무작위처럼 찾아오며, 성공의 핵심 자질은 시간과 노력을 꾸준히 투입하는 것이라고 말한다. 세계 최고 수준에 이르려면 엄청난 규율이 요구된다.",
+        "points": [
+          "시작은 '읽고 만들기'로 단순",
+          "통찰은 예측 불가하게 등장",
+          "정상급엔 지속적 규율 필수"
+        ],
+        "why": [
+          "연구 커리어 입문자에게 실용적 태도를 제시"
+        ]
+      }
+    },
+    {
+      "id": "ai-deepmind-path-to-asi",
+      "title": "Google DeepMind, ASI로 가는 경로를 탐구하다",
+      "summary": "인간 수준 AGI 너머 초지능으로 가는 네 가지 경로를 제시했다.",
+      "source": "TLDR AI",
+      "url": "https://arxiv.org/abs/2606.12683?utm_source=tldrai",
+      "report": {
+        "tldr": "DeepMind가 인간 수준 AGI를 넘어 인공 초지능(ASI)으로 진전하는 경로를 분석했다.",
+        "what": "보고서는 ASI로 가는 네 가지 가능한 경로, 잠재적 병목, 그리고 AI 주도 진보 가속의 사회적 함의를 정리했다.",
+        "points": [
+          "ASI로의 네 가지 경로 제시",
+          "잠재적 병목 분석",
+          "가속의 사회적 함의 검토"
+        ],
+        "why": [
+          "주요 연구소의 초지능 로드맵 관점 제시"
+        ]
+      }
+    },
+    {
+      "id": "ai-the-window-has-closed",
+      "title": "창문은 닫혔다 — Mythos가 바꾼 AI 경쟁의 형태",
+      "summary": "Fable은 벤치마크에 안 잡히는 방식으로 특별했고, Mythos가 판도를 바꿨다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/vGH7Ax",
+      "report": {
+        "tldr": "Mythos가 AI 경쟁의 형태를 바꿔, 많은 경쟁자에게 사실상 경주가 끝났다는 주장이다.",
+        "what": "필자는 Fable이 사용자를 인지하고 의도를 추론하며 받은 것을 사고·반복할 수 있어 '살아있는 듯' 느껴졌다고 평한다. 다른 연구소들이 언젠가 Mythos의 마법을 복제할 수는 있겠지만, 다수에게 경주는 이미 끝났다고 본다.",
+        "points": [
+          "Fable의 강점은 벤치마크에 안 잡히는 인지·추론력",
+          "Mythos가 경쟁 구도를 재편",
+          "복제는 가능하나 다수에겐 경주 종료"
+        ],
+        "why": [
+          "프런티어 모델 격차에 대한 시장 인식을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "ai-owning-vs-renting-intelligence",
+      "title": "지능을 소유할 것인가 빌릴 것인가",
+      "summary": "Fireworks CEO가 Mythos 차단을 계기로 오픈모델 논의를 '통제' 관점으로 재구성했다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/TbX9KB",
+      "report": {
+        "tldr": "Fireworks CEO 린 차오가 Mythos 셧다운을 빌미로 오픈모델 화두를 비용이 아닌 '통제'의 문제로 재정의했다.",
+        "what": "자사가 소유하지 않은 지능 위에 세워진 기업은 통제할 수 없는 결정에 갑자기 노출된다는 논지다. Ramp·Cursor·Harvey 사례로 튜닝한 오픈모델이 프런티어 품질을 일부 비용으로 맞춘다는 점을 들며, 더 깊은 질문은 '제품이 돌아가는 지능을 누가 소유하는가'라고 말한다.",
+        "points": [
+          "Mythos 셧다운=통제 리스크의 사례",
+          "오픈모델 논의를 비용→통제로 전환",
+          "튜닝 오픈모델로 프런티어급 품질·저비용 입증"
+        ],
+        "why": [
+          "모델 소싱 전략과 공급 리스크 관리의 화두"
+        ]
+      }
+    },
+    {
+      "id": "ai-should-you-post-train",
+      "title": "자체 모델을 포스트트레이닝해야 할까?",
+      "summary": "핵심 파워-로 유스케이스엔 점점 자체 포스트트레이닝이 답이 된다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/9z45Vj",
+      "report": {
+        "tldr": "범용 프런티어 모델은 0→1 프로토타입에 적합하지만, 미션·제품·마진에 결정적인 소수 유스케이스엔 자체 포스트트레이닝이 답이 되어간다.",
+        "what": "그런 유스케이스에는 차별화된 데이터가 있고, 비용·지연·신뢰성에 대한 강한 제약이 범용 모델의 고정된 단일 트레이드오프를 부담으로 만든다고 본다.",
+        "points": [
+          "프로토타입엔 범용 프런티어 모델이 적합",
+          "핵심 유스케이스엔 차별화 데이터 존재",
+          "비용·지연·신뢰성 제약이 자체 모델을 유리하게"
+        ],
+        "why": [
+          "AI 제품의 모델 전략 의사결정 프레임"
+        ]
+      }
+    },
+    {
+      "id": "ai-sovereign-ai-supply-chain",
+      "title": "주권 AI는 모델이 아니라 공급망 문제다",
+      "summary": "학습·운영·검증·보호 공급망을 자국·우방 내에 얼마나 확보하느냐의 문제.",
+      "source": "TLDR AI",
+      "url": "https://www.bullbear.ninja/board/12?utm_source=tldrai",
+      "report": {
+        "tldr": "주권 AI의 본질은 파운데이션 모델을 학습·운영·검증·보호하는 공급망을 자국 또는 우방 내에 얼마나 확보하느냐다.",
+        "what": "글은 주권 AI를 단일 모델 확보가 아니라 전체 공급망 통제의 관점에서 재정의한다.",
+        "points": [
+          "주권 AI = 공급망 통제의 문제",
+          "학습·운영·검증·보호 전 과정 포함",
+          "자국·우방 내 확보 범위가 관건"
+        ],
+        "why": [
+          "수출통제·안보 이슈와 직결되는 정책 프레임"
+        ]
+      }
+    },
+    {
+      "id": "ai-doclang-reformat-docs",
+      "title": "모든 문서를 AI가 먹기 좋게 재포맷하자",
+      "summary": "DocLang은 기업 파일을 AI 시스템에 먹이기 좋은 AI 친화 문서 포맷이다.",
+      "source": "TLDR AI",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/16/a-modest-proposal-reformat-everything-to-make-documents-more-palatable-to-ai/5255938?utm_source=tldrai",
+      "report": {
+        "tldr": "DocLang은 기업이 보유 문서를 AI에 효율적으로 공급하도록 돕는 AI 친화 문서 포맷이다.",
+        "what": "기사는 문서를 AI가 소화하기 좋게 재포맷하자는 제안을 소개하며 DocLang을 그 사례로 든다.",
+        "points": [
+          "AI 친화 문서 포맷 DocLang 제안",
+          "기업 파일의 AI 공급 효율화 목표"
+        ],
+        "why": [
+          "RAG·에이전트용 문서 표준화 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-codex-mobile-engineering",
+      "title": "엔지니어링을 위한 Codex(모바일) 활용법",
+      "summary": "모바일을 작은 터미널로 흉내 내지 않고 개발 작업을 지휘·검토·정리한다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/rE3Ybg",
+      "report": {
+        "tldr": "Codex Mobile은 개발 머신에서 돌아가는 작업을 시작·지휘·검토·정리하게 해준다.",
+        "what": "모바일 기기를 작은 터미널인 척하지 않고, 개발자가 자신의 개발 머신에서 실행 중인 작업을 모바일로 관리하도록 설계됐다.",
+        "points": [
+          "개발 머신 작업을 모바일로 지휘·검토",
+          "'작은 터미널' 패러다임을 탈피"
+        ],
+        "why": [
+          "에이전트 코딩의 모바일 워크플로 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-aws-waf-ai-monetization",
+      "title": "AWS WAF, AI 봇에 콘텐츠 접근 과금 기능 추가",
+      "summary": "콘텐츠 소유자가 경로·봇 카테고리·검증 등급별로 요청당 가격을 매긴다.",
+      "source": "TLDR AI",
+      "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/?utm_source=tldrai",
+      "report": {
+        "tldr": "AWS WAF가 콘텐츠 소유자·퍼블리셔에게 AI 봇 접근을 과금하는 기능을 추가했다.",
+        "what": "오리진 인프라 변경이나 애플리케이션 코드 작성 없이 콘텐츠 경로, 봇 카테고리, 검증 등급별로 요청당 가격을 설정할 수 있다.",
+        "points": [
+          "경로·봇 카테고리·검증 등급별 요청당 과금",
+          "오리진·코드 변경 없이 적용",
+          "퍼블리셔의 AI 트래픽 수익화 지원"
+        ],
+        "why": [
+          "AI 크롤링 시대의 콘텐츠 수익화 모델 변화"
+        ]
+      }
+    },
+    {
+      "id": "ai-github-multilingual-dataset",
+      "title": "다국어 AI를 위한 새 오픈 데이터셋",
+      "summary": "비영어 자연어 증거가 있는 공개 GitHub 저장소 메타데이터셋.",
+      "source": "TLDR AI",
+      "url": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/?utm_source=tldrai",
+      "report": {
+        "tldr": "GitHub 다국어 저장소 데이터셋은 비영어 자연어 콘텐츠가 있는 공개 저장소를 발견하도록 돕는 저장소 수준 메타데이터셋이다.",
+        "what": "다국어 AI를 만드는 연구자·개발자가 비영어 콘텐츠 근거가 있는 공개 GitHub 저장소를 찾도록 설계됐다.",
+        "points": [
+          "저장소 수준 메타데이터 제공",
+          "비영어 자연어 콘텐츠 저장소 탐색 지원",
+          "다국어 AI 개발 가속 목적"
+        ],
+        "why": [
+          "영어 편중을 줄이는 다국어 학습 자원 확충"
+        ]
+      }
+    },
+    {
+      "id": "ai-gpus-live-longer",
+      "title": "AI GPU 수명은 아마 3년보다 길다",
+      "summary": "'3년 수명' 주장은 익명 트윗 등 의심스러운 출처에서 비롯됐다.",
+      "source": "TLDR AI",
+      "url": "https://www.seangoedecke.com/ai-gpus-live-longer-than-three-years/?utm_source=tldrai",
+      "report": {
+        "tldr": "AI GPU 수명이 3년에 불과하다는 주장은 익명 구글 아키텍트를 인용한 트윗 등 의심스러운 출처에서 나왔다.",
+        "what": "필자는 'GPU 3년 수명'설의 근거가 빈약하다고 짚으며, 실제 수명은 그보다 길 가능성이 높다고 본다.",
+        "points": [
+          "'3년 수명'설의 출처가 빈약",
+          "익명 트윗 인용에 기반",
+          "실제 수명은 더 길 가능성"
+        ],
+        "why": [
+          "데이터센터 감가상각·투자 가정에 영향"
+        ]
+      }
+    }
+  ]
+}

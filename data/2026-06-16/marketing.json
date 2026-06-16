@@ -1,0 +1,222 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-reddit-manipulate-ai-search",
+      "title": "레딧으로 AI 검색을 조작하기는 너무 쉽다",
+      "summary": "13단어 스니펫만으로 AI 출력이 바뀔 수 있다는 연구.",
+      "source": "TLDR Marketing",
+      "url": "https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 검색·딥리서치 도구가 레딧·위키피디아·쿼라 같은 사이트의 아주 작은 UGC에 좌우될 수 있다는 연구다.",
+        "what": "13단어짜리 스니펫만으로도 AI 출력이 흔들리고 모델이 스팸성 주장을 반복·인용하게 만들 수 있다. 이 시스템들은 검색을 위해 사용자 생성 소스에 크게 의존해, 가볍게 편집된 홍보성 게시물을 통한 표적 조작에 취약하다.",
+        "points": [
+          "13단어 스니펫으로 AI 출력 변경 가능",
+          "UGC 의존이 표적 조작 취약성 유발",
+          "잘 배치된 댓글이 답변 왜곡"
+        ],
+        "why": [
+          "GEO/AI 검색 시대의 신뢰성·조작 리스크",
+          "브랜드 평판·오정보 양면의 함의"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-honesty-backfires",
+      "title": "직장에서 AI 사용을 솔직히 밝히면 역효과",
+      "summary": "동일 산출물에도 AI 사용 공개 시 '10배 게으르다' 평가.",
+      "source": "TLDR Marketing",
+      "url": "https://www.atlassian.com/blog/ai-at-work/new-research-shows-honesty-about-ai-use-at-work-is-backfiring?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "지식노동자의 94%가 AI를 쓰지만, 사용 사실을 공개하면 산출물이 동일해도 평가에 손해를 본다는 연구다.",
+        "what": "통제 실험에서 참가자들은 AI 사용자를 10배 더 게으르다고 평가했고, AI를 썼다는 말을 들으면 고가시성 업무 추천 가능성이 24%포인트 낮아졌다. AI를 '팀에 도움' 프레임으로 제시하면 평가가 나아지지만, 여전히 AI를 언급하지 않은 노동자보다 낮았다.",
+        "points": [
+          "지식노동자 94% AI 사용",
+          "공개 시 '10배 게으르다' 평가",
+          "고가시성 업무 추천 24%p 하락",
+          "'팀 기여' 프레임도 미언급보다 낮음"
+        ],
+        "why": [
+          "AI 사용 공개·투명성 정책의 딜레마"
+        ]
+      }
+    },
+    {
+      "id": "marketing-third-party-authority",
+      "title": "주제별 제3자 권위 신호가 중요하다",
+      "summary": "AI는 주제마다 신뢰 소스가 달라, 니치 내 깊이가 관건.",
+      "source": "TLDR Marketing",
+      "url": "https://www.growth-memo.com/p/topics-matter-for-third-party-authority?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI는 주제마다 다른 신뢰 소스를 끌어오므로 광범위한 오프사이트 권위 구축은 비효율적이다.",
+        "what": "일반 고권위 사이트에 멘션을 퍼뜨리기보다, 모델이 이미 신뢰하는 니치 내 소스에서의 깊이가 필요하다. 인용은 백링크 총량보다 주제별 평판과 신뢰할 만한 제3자 멘션에 더 의존하며, 소수의 상위·주제 적합 소스에 집중하는 것이 분산 노출보다 가시성을 더 끌어올린다.",
+        "points": [
+          "AI는 주제별로 신뢰 소스가 다름",
+          "니치 내 깊이가 광범위 노출보다 효과적",
+          "백링크 총량보다 주제별 평판이 인용 좌우"
+        ],
+        "why": [
+          "AI 검색 가시성(GEO) 전략의 우선순위 제시"
+        ]
+      }
+    },
+    {
+      "id": "marketing-llmstxt-study",
+      "title": "13.7만 사이트 분석 — llms.txt의 97%는 읽히지 않는다",
+      "summary": "5월 한 달 llms.txt 파일 97%가 독자 0명.",
+      "source": "TLDR Marketing",
+      "url": "https://ahrefs.com/blog/llmstxt-study/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "Ahrefs 분석에서 llms.txt 파일의 97%가 5월에 독자가 전혀 없었다.",
+        "what": "도입은 늘었지만 실제 트래픽의 77%는 비-AI 봇이었고, AI 접근 대부분은 검색 도구가 아니라 Claude Code 같은 코딩 에이전트에서 왔다. Perplexity와 ChatGPT를 합쳐도 요청의 1.1%에 불과했으며, 파일이 없을 때 능동적으로 찾는 AI 시스템도 없었다.",
+        "points": [
+          "llms.txt 97%가 5월 독자 0명",
+          "트래픽 77%는 비-AI 봇",
+          "AI 접근 대부분 코딩 에이전트",
+          "Perplexity+ChatGPT 합쳐 1.1%"
+        ],
+        "why": [
+          "llms.txt 도입의 실효성에 대한 데이터 기반 회의"
+        ]
+      }
+    },
+    {
+      "id": "marketing-youtube-keyword",
+      "title": "유튜브 키워드 기회를 정량화하기",
+      "summary": "검색량 대신 MMVV로 발견 기반 수요를 측정한다.",
+      "source": "TLDR Marketing",
+      "url": "https://moz.com/blog/quantifying-youtube-keyword-opportunities-whiteboard-friday?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "유튜브 키워드 리서치는 조회 대부분이 검색이 아닌 발견에서 오므로 전통 SEO와 다른 지표를 쓴다.",
+        "what": "검색량 대신 상위 영상들의 중앙 월간 조회 속도(MMVV)로 수요를 추정한다. 경쟁은 랭킹 채널의 중앙 구독자 수로, 콘텐츠 수명은 중앙 영상 연령으로 측정한다. 조회 속도가 강하고 구독자 경쟁이 낮으며 수명이 긴 키워드가 더 큰 잠재력을 신호한다.",
+        "points": [
+          "검색량 대신 MMVV로 수요 추정",
+          "경쟁=랭킹 채널 중앙 구독자 수",
+          "수명=중앙 영상 연령"
+        ],
+        "why": [
+          "유튜브 채널 성장의 키워드 전략 프레임"
+        ]
+      }
+    },
+    {
+      "id": "marketing-g2-trust-layer",
+      "title": "G2 리뷰가 B2B AI 검색의 '신뢰 계층'을 만든다",
+      "summary": "ChatGPT·Perplexity가 소프트웨어 추천에 G2를 점점 인용.",
+      "source": "TLDR Marketing",
+      "url": "https://foundationinc.co/lab/g2-reviews-ai-trust/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "ChatGPT와 Perplexity가 전통 검색보다도 G2를 인용해 소프트웨어를 추천하는 사례가 늘고 있다.",
+        "what": "G2 인용은 Perplexity에서 약 23,700건, ChatGPT에서 12,000건으로 급증했고, B2B 구매자의 71%가 리서치에 AI를 쓴다. 모델은 답변 근거로 신선한 리뷰·평점·비교에 의존해, 최근의 고품질 고객 피드백이 검색 순위보다 더 영향력을 갖는다.",
+        "points": [
+          "G2 인용: Perplexity ~23,700·ChatGPT 12,000",
+          "B2B 구매자 71%가 AI로 리서치",
+          "신선한 리뷰·평점이 검색 순위보다 영향력"
+        ],
+        "why": [
+          "B2B 마케팅에서 리뷰 자산의 전략적 중요성"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ea-advertising",
+      "title": "EA, 게임 내 광고 사업 'EA Advertising' 출시",
+      "summary": "스타디움 사이니지·스코어보드 등 실시간 인게임 광고.",
+      "source": "TLDR Marketing",
+      "url": "https://www.cnbc.com/2026/06/15/electronic-arts-launches-a-new-way-to-advertise-directly-into-gameplay.html?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "EA Advertising은 브랜드가 실시간 인게임 배치를 통해 게임플레이 안에 직접 노출되게 하는 새 사업부다.",
+        "what": "스타디움 사이니지, 스코어보드, 오버레이, 인게임 챌린지 등으로 EA의 월 1.2억+ 활성 사용자에 도달한다. EA SPORTS FC만 월 10억+ 경기를 생성한다. 새 광고 서버가 프라이버시 안전 타기팅을 지원하고, 라이브 이벤트·커뮤니티 활성화 파트너십도 함께한다.",
+        "points": [
+          "스타디움·스코어보드·오버레이 등 인게임 광고",
+          "월 1.2억+ MAU, FC 월 10억+ 경기",
+          "프라이버시 안전 타기팅 광고 서버"
+        ],
+        "why": [
+          "게임 내 광고 시장의 본격 확장"
+        ]
+      }
+    },
+    {
+      "id": "marketing-anthropic-programmatic-seo",
+      "title": "현대판 미쉐린 가이드 — Anthropic의 프로그래매틱 SEO 기회",
+      "summary": "Claude로 무료 도구·계산기를 대량 생성해 검색 수요를 포획.",
+      "source": "TLDR Marketing",
+      "url": "https://patrickstox.com/anthropic-programmatic-seo/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "Anthropic이 Claude로 수백만 개의 무료 도구·계산기·위젯을 프로그래매틱하게 생성해 검색 수요를 포획할 수 있다는 제안이다.",
+        "what": "미쉐린·기네스 같은 플레이를 재현하는 아이디어로, 임베드 가능하게 만들면 사용 자체가 유통 채널이 되어 커스터마이징을 원할 때 사용자를 Claude로 되돌린다. 지속적 반복·사용자 입력과 결합한 이 '아티팩트 갤러리'가 대규모 오가닉 트래픽을 만들고 가입으로 전환할 수 있다고 본다.",
+        "points": [
+          "Claude로 무료 도구·위젯 대량 생성",
+          "임베드=유통 채널화",
+          "아티팩트 갤러리로 오가닉 트래픽·가입 전환"
+        ],
+        "why": [
+          "AI 기업의 프로그래매틱 SEO·성장 전략 사례"
+        ]
+      }
+    },
+    {
+      "id": "marketing-replaced-by-19yo",
+      "title": "당신은 19세에게 대체될 것이다",
+      "summary": "AI가 스킬 격차를 평탄화해 경험의 가치를 낮춘다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.marketingideas.com/p/you-will-be-replaced-by-a-19-year?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI는 마케터를 대체하기보다 스킬 격차를 평탄화해 경험의 중요성을 낮춘다는 주장이다.",
+        "what": "10년 걸려 배우던 것이 싸고 접근 가능해지면서 젊은 창작자가 즉시 경쟁력을 갖는다. 이들의 강점은 도구가 아니라 온라인에서 자란 본능과 청중 친화력이며, 더 많이 위험을 감수하고 과도한 고민 없이 출시한다. 경험 많은 마케터는 신중함에 발목 잡히므로, 채용은 경험보다 '갈망'과 인터넷 본능을 우선해야 한다는 게 요지다.",
+        "points": [
+          "AI가 스킬 격차를 평탄화",
+          "젊은 창작자의 본능·청중 친화력이 강점",
+          "채용은 경험보다 갈망·인터넷 본능 우선"
+        ],
+        "why": [
+          "AI 시대 마케팅 인재·역량관의 변화"
+        ]
+      }
+    },
+    {
+      "id": "marketing-fox-roku-22b",
+      "title": "폭스, Roku를 $220억에 인수 (스트리밍 광고 가속)",
+      "summary": "콘텐츠와 CTV OS·1차 데이터를 결합한다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.marketingdive.com/news/fox-acquires-roku-for-22b-to-accelerate-streaming-advertising-business/822890/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "폭스의 Roku 인수는 콘텐츠와 CTV OS, 그리고 미국 방송 가구 절반 이상의 1차 데이터를 결합한다.",
+        "what": "마케팅 다이브는 이 거래 규모를 $220억으로 보도하며, 스트리밍·라이브 스포츠 지배력을 노린 움직임이라고 분석한다.",
+        "points": [
+          "콘텐츠 + CTV OS + 1차 데이터 결합",
+          "美 방송 가구 절반 이상의 데이터 확보",
+          "스트리밍·라이브 스포츠 지배 노림"
+        ],
+        "why": [
+          "CTV 광고·1차 데이터 경쟁 가속"
+        ],
+        "context": "빅테크 에디션은 동일 거래를 $250억으로 보도해 보도 간 금액 차이가 있다."
+      }
+    },
+    {
+      "id": "marketing-7-newish-books",
+      "title": "내가 사랑하는 새 책 7권",
+      "summary": "테스트·AI 콘텐츠 워크플로·창의적 언러닝 관련 도서 추천.",
+      "source": "TLDR Marketing",
+      "url": "https://annhandley.com/new-books-i-love/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "앤 핸들리가 추천하는 마케팅·창의성 관련 새 책 7권 목록이다.",
+        "what": "테스트로 두드러진 성과를 내는 법(Jay Schwedelson), AI 콘텐츠 워크플로(Erika Heald), 창의적 언러닝(Austin Kleon) 등이 포함된다.",
+        "points": [
+          "테스트 기반 성과(Jay Schwedelson)",
+          "AI 콘텐츠 워크플로(Erika Heald)",
+          "창의적 언러닝(Austin Kleon)"
+        ],
+        "why": [
+          "마케터를 위한 실무·창의성 학습 자료"
+        ]
+      }
+    }
+  ]
+}
