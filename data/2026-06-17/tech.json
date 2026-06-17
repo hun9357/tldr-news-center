@@ -11,6 +11,19 @@
       "summary": "스페이스X가 IPO 직후 Cursor(Anysphere)를 600억 달러 전량 주식 거래로 인수한다.",
       "source": "TLDR",
       "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+      "originalDate": "2026-06-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "AI 코딩 · M&A · 엔터프라이즈"
+      },
+      "related": [
+        "오픈AI·Anthropic과의 AI 코딩 경쟁 구도",
+        "Cursor, 2022년 출시 후 ARR 10억 달러 돌파",
+        "xAI Grok 통합 및 스페이스X IPO 직후 행보"
+      ],
       "report": {
         "tldr": "스페이스X가 IPO 직후 AI 코딩 스타트업 Cursor를 600억 달러 규모 주식 거래로 인수한다.",
         "what": "2022년 설립된 Cursor는 폭발적으로 성장한 AI 코딩 도구로, 지난 11월 연환산 매출 10억 달러를 넘겼다. 스페이스X는 아직 투자자에게 Cursor의 고객 명단·성장세·매출 세부를 제공하지 않았다. 합병은 규제 승인을 전제로 3분기 중 종료될 전망이다. 이번 인수는 xAI 중심의 AI 사업을 강화하고 OpenAI·Anthropic과의 격차를 좁히려는 포석이다.",
