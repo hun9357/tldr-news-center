@@ -1,0 +1,332 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-glm-5-2",
+      "title": "Z.ai, 코딩 특화 GLM-5.2 출시 — 100만 토큰 컨텍스트",
+      "summary": "GLM-5.2는 100만 토큰 컨텍스트와 새로운 추론 제어로 코드베이스 전반의 장기 코딩 작업을 노린다.",
+      "source": "TLDR AI",
+      "url": "https://z.ai/blog/glm-5.2",
+      "report": {
+        "tldr": "Z.ai가 코딩 우선 업그레이드인 GLM-5.2를 공개하고 Coding Plan 사용자에게 즉시 제공했다.",
+        "what": "GLM-5.2는 100만 토큰 컨텍스트 윈도우, 새로운 추론 제어, 전체 코드베이스에 걸친 장기(long-horizon) 코딩 작업 지원을 갖췄다. Z.ai는 다음 주 중 API 접근, 챗봇 지원, 기술 문서, MIT 라이선스 오픈 웨이트를 공개할 예정이다. 출시 시점에 벤치마크 결과는 공개하지 않았다.",
+        "points": [
+          "100만 토큰 컨텍스트 윈도우 지원",
+          "새로운 추론 제어 옵션 추가",
+          "전체 코드베이스 대상 에이전트형 SW 엔지니어링에 초점",
+          "Coding Plan 사용자에게 즉시 제공",
+          "다음 주 MIT 오픈 웨이트·API 공개 예정"
+        ],
+        "why": [
+          "오픈 웨이트 코딩 모델 경쟁이 격화되는 신호",
+          "장기 컨텍스트가 에이전트형 개발 워크플로의 핵심 변수로 부상"
+        ],
+        "context": "벤치마크 미공개로 실제 성능은 다음 주 기술 문서 공개 후 검증 필요."
+      }
+    },
+    {
+      "id": "ai-deepseek-7-4b-raise",
+      "title": "딥시크, $74억 조달로 중국 최고 가치 AI 스타트업 등극",
+      "summary": "딥시크가 500억 달러 이상 기업가치로 74억 달러를 조달했다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/KKpLIp",
+      "report": {
+        "tldr": "딥시크가 74억 달러 이상을 조달하며 기업가치 500억 달러를 넘겨 중국 최고 가치 AI 스타트업이 됐다.",
+        "what": "창업자 량원펑(Liang Wenfeng)이 이번 라운드에 약 30억 달러를 직접 투자했다. 그는 이전까지 회사 지분의 약 90%를 보유했다. 정부 연계 펀드가 약 1억 5천만 달러를 투자했으며, 딥시크는 새 자금을 R&D 고도화와 컴퓨팅 인프라 확장에 쓸 계획이다.",
+        "points": [
+          "기업가치 500억 달러 이상으로 평가",
+          "창업자 량원펑이 약 30억 달러 직접 투자",
+          "정부 연계 펀드 약 1.5억 달러 참여",
+          "자금 용도는 R&D·컴퓨팅 인프라 확장"
+        ],
+        "why": [
+          "중국 AI 자본 집중과 정부 개입의 단면을 보여줌",
+          "글로벌 프런티어 모델 경쟁에서 중국 진영의 실탄 확보"
+        ]
+      }
+    },
+    {
+      "id": "ai-android-17-agents",
+      "title": "안드로이드 17, AI 에이전트 통합 확대 — AppFunctions·Android MCP",
+      "summary": "안드로이드 17이 온디바이스 에이전트가 앱 도구를 탐색·실행하는 AppFunctions와 Android MCP를 도입했다.",
+      "source": "TLDR AI",
+      "url": "https://android-developers.googleblog.com/2026/06/Android-17.html",
+      "report": {
+        "tldr": "안드로이드 17이 AppFunctions와 Android MCP로 온디바이스 에이전트가 앱 기능을 오케스트레이션할 수 있게 했다.",
+        "what": "앱이 도구를 노출하면 온디바이스 에이전트가 이를 발견하고 실행할 수 있다. 구글은 이번 릴리스를 플랫폼 전반에 AI를 깊게 통합하는 '인텔리전스 시스템'으로의 전환의 일부로 규정했다.",
+        "points": [
+          "AppFunctions로 앱이 오케스트레이션 가능한 도구 노출",
+          "Android MCP로 에이전트가 도구 발견·실행",
+          "온디바이스 에이전트 중심 설계",
+          "플랫폼 전반 AI 통합 '인텔리전스 시스템' 비전"
+        ],
+        "why": [
+          "MCP가 모바일 OS 레벨로 확산되는 신호",
+          "앱 생태계의 에이전트 상호운용성 표준 경쟁 가속"
+        ]
+      }
+    },
+    {
+      "id": "ai-leviathan-waking",
+      "title": "리바이어던의 각성 — 美 정부의 강경 AI 규제 선회",
+      "summary": "AI 규제에 안일했던 美 정부가 Anthropic 모델을 계기로 돌연 극도로 위험회피적 대응에 나섰다.",
+      "source": "TLDR AI",
+      "url": "https://www.hyperdimensional.co/p/leviathan-waking",
+      "report": {
+        "tldr": "오랫동안 AI 규제에 안일했던 美 정부가 Anthropic의 고성능 모델을 계기로 돌연 극도로 강경하고 위험회피적인 태도로 돌아섰다는 분석이다.",
+        "what": "행정부의 대응은 과거 업계 리스크에 관대했던 태도에 비춰 이해하기 어려울 만큼 엄격했다. 정책 방향이 불명확한 가운데 행정부와 Anthropic 사이의 정책·정치 분쟁은 미해결로 남아 있다.",
+        "points": [
+          "과거 관대했던 美 규제 기조의 급격한 선회",
+          "Anthropic 모델 발전이 촉발한 정책 충돌",
+          "행정부 정책 방향의 불투명성",
+          "행정부-Anthropic 간 분쟁 미해결"
+        ],
+        "why": [
+          "프런티어 모델이 사실상 수출통제 대상이 되는 전환점",
+          "오늘 AI·빅테크·개발 에디션에 공통으로 등장한 핵심 사안"
+        ],
+        "context": "같은 사안이 개발(Mythos·Fable 옹호)·빅테크(Anthropic-트럼프 협상) 에디션에서도 동시에 다뤄졌다."
+      }
+    },
+    {
+      "id": "ai-deployment-simulation",
+      "title": "OpenAI, 출시 전 '배포 시뮬레이션' 평가법 공개",
+      "summary": "실제 대화 맥락을 후보 모델로 재생해 배포 시점 행동과 신규 안전 이슈를 사전 추정한다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/CO61UW",
+      "report": {
+        "tldr": "OpenAI가 실제 대화 맥락을 후보 모델로 재생해 배포 시점 행동을 미리 추정하는 Deployment Simulation 평가법을 소개했다.",
+        "what": "이 방법은 실제 대화 컨텍스트를 후보 모델로 리플레이해 배포 후 나타날 행동을 추정하고 새로운 안전 문제를 사전에 발굴한다. 출시 전 단계에서 모델의 실제 운영 거동을 예측하는 데 초점을 둔다.",
+        "points": [
+          "실제 대화 맥락을 후보 모델로 재생",
+          "배포 시점 행동을 사전 추정",
+          "신규 안전 이슈를 출시 전 발굴"
+        ],
+        "why": [
+          "벤치마크 포화 시대에 실전형 안전 평가의 필요성 부각",
+          "출시 전 리스크 예측 방법론의 진화"
+        ]
+      }
+    },
+    {
+      "id": "ai-rethinking-frontier-evals",
+      "title": "프런티어 AI 평가 재고하기 (45분 영상)",
+      "summary": "기존 벤치마크가 쉬워지면서 프런티어 평가 설계가 어떻게 진화하는지 OpenAI 연구자가 논했다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/vcD8D0",
+      "report": {
+        "tldr": "OpenAI의 Tejal Patwardhan이 벤치마크 포화 시대의 프런티어 평가 설계 변화를 논했다.",
+        "what": "대담은 벤치마크 포화, 평가 설계, 모델 진보 예측, 점점 더 유능해지는 AI를 측정하는 어려움을 다뤘다. 기존 벤치마크가 고성능 모델에게 너무 쉬워지는 문제를 핵심으로 짚었다.",
+        "points": [
+          "벤치마크 포화 문제",
+          "평가 설계와 진보 예측",
+          "고성능 AI 측정의 난제"
+        ],
+        "why": [
+          "모델 역량이 측정 도구를 앞지르는 평가 위기"
+        ]
+      }
+    },
+    {
+      "id": "ai-cursor-origin",
+      "title": "Cursor Origin — 에이전트 네이티브 깃허브 대항마",
+      "summary": "수많은 AI 에이전트가 병렬로 작업하는 것을 전제로 설계된 Git 호환 포지(forge).",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/FWgGLq",
+      "report": {
+        "tldr": "Cursor Origin은 다수의 AI 에이전트가 병렬로 클론·브랜치·커밋·리베이스·리뷰·수정하는 것을 가정한 에이전트 네이티브 깃허브 대항마다.",
+        "what": "GitHub가 인간 규모 개발을 위해 만들어진 반면, Origin은 에이전트 규모를 위해 설계됐다. Cursor는 AI 소프트웨어 팩토리 전체를 장악하려 한다.",
+        "points": [
+          "Git 호환 포지로 설계",
+          "AI 에이전트 병렬 작업 전제",
+          "인간 규모가 아닌 '에이전트 규모' 지향",
+          "AI 소프트웨어 팩토리 수직 통합 야심"
+        ],
+        "why": [
+          "SpaceX의 600억 달러 Cursor 인수와 맞물려 전략적 의미 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-codex-cdp-browser",
+      "title": "OpenAI Codex, 브라우저 사용 위한 CDP 지원 추가",
+      "summary": "Codex가 Chrome DevTools Protocol을 지원해 실시간 브라우저 접근으로 JS 성능 프로파일링이 가능해졌다.",
+      "source": "TLDR AI",
+      "url": "https://www.testingcatalog.com/icmi-openai-released-cdp-support-for-browser-use-on-codex/",
+      "report": {
+        "tldr": "OpenAI Codex가 Chrome DevTools Protocol을 지원해 라이브 브라우저 접근으로 JS 성능 프로파일링과 실시간 사이트 수정을 가능케 했다.",
+        "what": "옵트인 설정으로 제공되는 초기 단계 기능으로 EEA·英·스위스에서는 제외된다. 성능 문제가 있고 신중한 프롬프팅이 필요하다. Ona 인수 등 최근 움직임은 지속형 클라우드 환경을 만들어 AI 주도 웹으로 나아가려는 흐름을 보여준다.",
+        "points": [
+          "Chrome DevTools Protocol 라이브 브라우저 접근",
+          "JS 성능 프로파일링·실시간 사이트 수정",
+          "옵트인·EEA/英/스위스 제외",
+          "성능 이슈 존재, 신중한 프롬프팅 필요"
+        ],
+        "why": [
+          "에이전트의 실제 브라우저 제어 역량 확장",
+          "AI 주도 웹 인프라 경쟁의 단면"
+        ]
+      }
+    },
+    {
+      "id": "ai-blackwell-mlperf-6",
+      "title": "엔비디아 블랙웰, MLPerf Training 6.0 석권",
+      "summary": "블랙웰이 8,192 GPU 최대 규모 학습과 최단 학습 시간으로 MLPerf 6.0을 휩쓸었다.",
+      "source": "TLDR AI",
+      "url": "https://blogs.nvidia.com/blog/blackwell-mlperf-training-6-0/",
+      "report": {
+        "tldr": "엔비디아 블랙웰 플랫폼이 MLPerf Training 6.0에서 최단 학습 시간과 8,192 GPU 최대 규모 학습을 달성하며 벤치마크를 지배했다.",
+        "what": "NVLink와 NVFP4 혁신이 MoE 모델 라우팅을 효율화하고 대규모 학습을 빠르게 만든다. RAS 엔진과 Resiliency Extension 같은 신뢰성 기능이 대규모 AI 환경의 다운타임을 최소화하고 복구를 빠르게 한다.",
+        "points": [
+          "최단 학습 시간 기록",
+          "8,192 GPU 최대 규모 학습",
+          "NVLink·NVFP4로 MoE 라우팅 효율화",
+          "RAS 엔진·Resiliency로 다운타임 최소화"
+        ],
+        "why": [
+          "대규모 학습 하드웨어에서 엔비디아 우위 재확인"
+        ]
+      }
+    },
+    {
+      "id": "ai-qwen-robotworld",
+      "title": "Qwen의 임베디드 월드 모델링 — Qwen-RobotWorld",
+      "summary": "자연어를 로보틱스·내비게이션·주행 등 임베디드 도메인의 통합 행동 인터페이스로 쓰는 월드 모델.",
+      "source": "TLDR AI",
+      "url": "https://arxiv.org/abs/2606.17030",
+      "report": {
+        "tldr": "Qwen-RobotWorld는 자연어를 로보틱스·내비게이션·주행 등 임베디드 도메인 전반의 통합 행동 인터페이스로 사용하는 언어 조건부 비디오 월드 모델이다.",
+        "what": "여러 임베디드 도메인에 걸쳐 자연어를 단일 액션 인터페이스로 활용한다. 비디오 기반 월드 모델로 로봇·자율주행 등 물리 AI 영역을 아우른다.",
+        "points": [
+          "언어 조건부 비디오 월드 모델",
+          "자연어를 통합 행동 인터페이스로 사용",
+          "로보틱스·내비게이션·주행 등 다도메인"
+        ],
+        "why": [
+          "물리 AI의 통합 제어 인터페이스 연구 진전"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-sdk-billing-pause",
+      "title": "Anthropic, Claude Agent SDK 토큰 과금 변경 '일시 중단'",
+      "summary": "발효 직전 SDK 사용을 표준 Claude 사용과 분리하려던 가격 변경을 보류했다.",
+      "source": "TLDR AI",
+      "url": "https://arstechnica.com/ai/2026/06/anthropic-pauses-token-based-billing-for-its-claude-agent-sdk/",
+      "report": {
+        "tldr": "Anthropic이 발효 직전에 Claude Agent SDK의 토큰 기반 과금 변경을 일시 중단했다.",
+        "what": "이 변경은 Claude Agent SDK 사용을 표준 Claude 사용과 분리해 과금하려던 것이었다. 외부 SDK 사용은 이제 Anthropic의 일반 API 요율로 청구된다. Anthropic은 사용자가 Claude 구독으로 빌드하는 방식을 더 잘 지원하도록 요금제를 업데이트하고 있다.",
+        "points": [
+          "발효 직전 가격 변경 보류",
+          "SDK 사용을 표준 사용과 분리하려던 계획",
+          "외부 SDK 사용은 일반 API 요율로 청구",
+          "구독 기반 빌드 지원 위해 요금제 재설계 중"
+        ],
+        "why": [
+          "에이전트 개발자 비용 구조에 직접 영향"
+        ],
+        "action": "Claude Agent SDK 기반 워크플로의 과금 변경 가능성을 모니터링"
+      }
+    },
+    {
+      "id": "ai-qualcomm-post-smartphone",
+      "title": "퀄컴, '포스트 스마트폰' 칩 노린 두 제품 발표",
+      "summary": "MR 글래스용 Snapdragon Reality Elite와 AI 기기용 Scalable Turnkey 툴킷을 공개했다.",
+      "source": "TLDR AI",
+      "url": "https://techcrunch.com/2026/06/16/qualcomm-wants-to-be-the-chip-inside-whatever-replaces-your-smartphone-and-it-just-announced-two-products-toward-that-end/",
+      "report": {
+        "tldr": "퀄컴이 스마트폰 이후를 노리고 MR 글래스용 플랫폼과 AI 기기용 턴키 툴킷을 발표했다.",
+        "what": "퀄컴은 40여 종의 AI 웨어러블을 개발 중이며, 혼합현실 글래스용 Snapdragon Reality Elite와 하드웨어 모델·소프트웨어 스택을 결합한 Scalable Turnkey AI-Ready 툴킷을 내놨다. 스마트폰 다음 폼팩터의 기반 실리콘 계층을 차지하려는 포석이다.",
+        "points": [
+          "40여 종 AI 웨어러블 개발 중",
+          "MR 글래스용 Snapdragon Reality Elite",
+          "AI 기기용 Scalable Turnkey 툴킷",
+          "포스트 스마트폰 기반 칩 지향"
+        ],
+        "why": [
+          "AR/AI 웨어러블 폼팩터 경쟁의 실리콘 선점"
+        ]
+      }
+    },
+    {
+      "id": "ai-never-waste-token",
+      "title": "토큰을 낭비하지 마라 (15분 읽기)",
+      "summary": "프로바이더 연결을 크래시하는 대상 밖으로 분리해 토큰 낭비를 막아라.",
+      "source": "TLDR AI",
+      "url": "https://sunilpai.dev/posts/never-waste-a-token/",
+      "report": {
+        "tldr": "프로바이더 연결이 크래시하는 컴포넌트 안에 있으면 크래시가 토큰을 낭비하므로, 연결을 밖으로 빼라는 조언이다.",
+        "what": "크래시 시 진행 중이던 작업과 토큰이 함께 날아가는 구조적 문제를 지적한다. 프로바이더 연결을 크래시 영향권 밖으로 분리해 복원력을 높이는 패턴을 제시한다.",
+        "points": [
+          "크래시가 토큰 낭비로 직결되는 구조",
+          "프로바이더 연결을 크래시 대상 밖으로 분리",
+          "복원력 있는 에이전트 아키텍처 패턴"
+        ],
+        "why": [
+          "LLM 비용 효율화의 실무 패턴"
+        ]
+      }
+    },
+    {
+      "id": "ai-gpt-bidi-1",
+      "title": "OpenAI, 챗GPT 음성 대규모 업그레이드 GPT-Bidi-1 준비",
+      "summary": "듣기와 말하기를 동시에 하고 끼어들기를 흡수하며 문장 중간에 조정하는 양방향 오디오 모델.",
+      "source": "TLDR AI",
+      "url": "https://www.testingcatalog.com/openai-prepares-major-chatgpt-voice-upgrade-with-gpt-bidi-1/",
+      "report": {
+        "tldr": "GPT-Bidi-1은 챗GPT 음성 모드용 양방향 오디오 모델로, 듣기와 말하기를 동시에 처리한다.",
+        "what": "끼어들기를 흡수하고 문장 중간에도 발화를 조정하도록 설계됐다. 기존 턴 기반 음성 대화의 한계를 넘는 자연스러운 실시간 대화를 목표로 한다.",
+        "points": [
+          "듣기·말하기 동시 처리(양방향)",
+          "끼어들기 흡수",
+          "문장 중간 실시간 조정"
+        ],
+        "why": [
+          "음성 인터페이스의 자연스러움 경쟁 가속"
+        ]
+      }
+    },
+    {
+      "id": "ai-vibethinker-3b",
+      "title": "웨이보의 3B 모델 VibeThinker, 벤치마크 논쟁 재점화",
+      "summary": "30억 파라미터 모델이 Claude Opus 4.5급 코딩 벤치마크 점수를 냈다.",
+      "source": "TLDR AI",
+      "url": "https://venturebeat.com/technology/why-weibos-tiny-vibethinker-3b-has-the-ai-world-arguing-over-benchmarks-again",
+      "report": {
+        "tldr": "웨이보의 30억 파라미터 VibeThinker-3B가 Claude Opus 4.5와 같은 급의 코딩 벤치마크 점수를 내며 벤치마크 신뢰성 논쟁을 다시 불러왔다.",
+        "what": "작은 모델이 대형 모델급 점수를 내면서 벤치마크가 실제 역량을 제대로 반영하는지에 대한 논쟁이 재점화됐다. 모델 크기와 성능의 상관관계에 의문을 던진다.",
+        "points": [
+          "3B 파라미터로 Opus 4.5급 코딩 점수",
+          "벤치마크 신뢰성 논쟁 재점화",
+          "모델 크기-성능 통념에 의문"
+        ],
+        "why": [
+          "소형 모델 효율화와 벤치마크 측정의 한계 부각"
+        ]
+      }
+    },
+    {
+      "id": "ai-phi-silica-nvidia",
+      "title": "MS, 윈도우 AI용 Phi Silica를 엔비디아 GPU에서 테스트",
+      "summary": "Copilot+ PC의 NPU용으로 설계된 소형 언어 모델 Phi Silica를 GPU에서도 시험한다.",
+      "source": "TLDR AI",
+      "url": "https://winbuzzer.com/2026/06/15/microsoft-tests-phi-silica-for-windows-ai-on-nvidia-gpus-xcxwbn/",
+      "report": {
+        "tldr": "MS가 Copilot+ PC의 NPU용으로 설계된 Phi Silica 소형 언어 모델을 엔비디아 GPU에서 테스트하고 있다.",
+        "what": "Phi Silica SLM은 윈도우 Copilot+ PC의 NPU에서 로컬 실행되도록 명시적으로 설계됐다. MS는 이를 GPU 환경에서도 구동하는 실험을 진행 중이다.",
+        "points": [
+          "Phi Silica는 NPU 로컬 실행용 SLM",
+          "엔비디아 GPU 구동 테스트 진행",
+          "윈도우 온디바이스 AI 확장"
+        ],
+        "why": [
+          "온디바이스 AI의 하드웨어 이식성 실험"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-sql-migrations-tests",
+      "title": "테스트에서 SQL 마이그레이션을 돌리지 마라 — 테스트 2배 가속",
+      "summary": "마이그레이션 스크립트를 해싱한 '골든' DB를 콘텐츠 주소화로 즉시 클론해 테스트를 가속한다.",
+      "source": "TLDR Dev",
+      "url": "https://gaultier.github.io/blog/I_sped_up_the_test_suite_by_x2.html",
+      "report": {
+        "tldr": "대형 Go 테스트 스위트에서 모든 테스트마다 수천 개 SQL 마이그레이션을 직렬 적용하는 병목을 콘텐츠 주소화로 해결했다.",
+        "what": "필요한 마이그레이션 스크립트 전체의 콘텐츠를 해싱해 '골든' DB 파일을 식별한다. 일치하는 DB가 있으면 백업 API로 즉시 클론하고, 없는 버전은 지연 생성·캐시해 이후 실행에 재사용한다.",
+        "points": [
+          "테스트별 직렬 마이그레이션이 병목",
+          "마이그레이션 해싱으로 '골든' DB 식별",
+          "백업 API로 즉시 클론",
+          "지연 생성·캐시로 재사용"
+        ],
+        "why": [
+          "대규모 테스트 스위트 가속 실무 패턴"
+        ]
+      }
+    },
+    {
+      "id": "dev-bc-timezones-postgres",
+      "title": "브리티시컬럼비아, 시간대, 그리고 Postgres",
+      "summary": "BC의 2026년 영구 UTC-7 전환은 미래 일정의 UTC 저장 위험을 드러낸다.",
+      "source": "TLDR Dev",
+      "url": "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
+      "report": {
+        "tldr": "브리티시컬럼비아의 2026년 영구 UTC-7 전환은 미래 약속을 UTC 기반 컬럼에 저장할 때의 위험을 보여준다.",
+        "what": "이런 컬럼은 입력 시점의 규칙으로 타임스탬프를 변환하므로, 이후 시간대 데이터가 갱신되면 저장된 UTC 값이 사용자의 의도한 벽시계 시간과 더 이상 맞지 않게 된다. 결과적으로 예기치 않은 1시간 이동이 발생할 수 있다.",
+        "points": [
+          "BC 2026 영구 UTC-7 전환",
+          "미래 일정 UTC 저장의 함정",
+          "시간대 규칙 갱신 시 1시간 어긋남"
+        ],
+        "why": [
+          "시간대 데이터 저장 설계의 교훈"
+        ]
+      }
+    },
+    {
+      "id": "dev-svg-pdf-interactive",
+      "title": "SVG와 PDF 모두 인터랙티브할 수 있다",
+      "summary": "두 포맷 모두 문서 내부에 인터랙티브 레이어·스크립트를 넣는 미활용 스펙을 가졌다.",
+      "source": "TLDR Dev",
+      "url": "https://vexlio.com/blog/svgs-and-pdfs-can-both-be-interactive/",
+      "report": {
+        "tldr": "SVG와 PDF 모두 문서 내부에 인터랙티브 레이어와 프로그래밍 가능한 스크립트를 통합하는 미활용 스펙을 갖고 있다.",
+        "what": "SVG는 임베디드 자바스크립트로 자체 완결형 애플리케이션을 호스팅할 수 있다. PDF는 전용 API를 쓰지만 뷰어 간 호환성 문제로 종종 어려움을 겪는다.",
+        "points": [
+          "SVG는 임베디드 JS로 앱 호스팅",
+          "PDF는 전용 스크립트 API 보유",
+          "PDF는 뷰어 호환성 한계"
+        ],
+        "why": [
+          "문서 포맷의 미활용 인터랙티브 잠재력"
+        ]
+      }
+    },
+    {
+      "id": "dev-mythos-fable-safer",
+      "title": "Mythos와 Fable은 우리를 더 안전하게 한다 — 차단은 무모하다",
+      "summary": "美 정부의 수출통제식 Mythos 5 셧다운이 방어자에게서 필수 도구를 빼앗는다는 비판.",
+      "source": "TLDR Dev",
+      "url": "https://www.transformernews.ai/p/mythos-fable-anthropic-safery-cybersecurity",
+      "report": {
+        "tldr": "美 정부가 수출통제 권한으로 Mythos 5 같은 강력한 AI 모델의 셧다운을 강제한 것은 무모하다는 보안 전문가들의 비판이다.",
+        "what": "이 모델들은 방어자가 글로벌 SW 인프라의 취약점을 식별·패치하는 데 필요한 도구다. 비교 가능한 역량이 이미 해외 랩에서 출시되고 있어, 국내 셧다운은 위험을 없애지 못하고 오히려 국내 개발자에게서 대응 자원을 박탈한다.",
+        "points": [
+          "수출통제로 Mythos 5 셧다운 강제",
+          "방어자의 취약점 탐지·패치 도구 상실",
+          "해외 랩이 유사 역량 이미 출시",
+          "국내 개발자만 자원 박탈"
+        ],
+        "why": [
+          "AI 안전 규제와 방어 역량의 충돌",
+          "오늘 AI·빅테크 에디션과 연결된 핵심 사안"
+        ]
+      }
+    },
+    {
+      "id": "dev-stop-using-jwts",
+      "title": "JWT 사용을 멈춰라",
+      "summary": "JWT는 세션 관리에 부적합하며 전통적 쿠키 세션이 더 안전·유연하다는 주장.",
+      "source": "TLDR Dev",
+      "url": "https://gist.github.com/samsch/0d1f3d3b4745d778f78b230cf6061452",
+      "report": {
+        "tldr": "JSON Web Token은 사용자 세션 관리에 부적합하며 장기 인증용으로 설계되지 않았다는 주장이다.",
+        "what": "전통적 쿠키 세션이 더 유연하고 일반적 보안 취약점에 강하다. 진정한 무상태 인증은 비현실적인데, 안전한 토큰 관리는 보통 폐기·만료 처리를 위한 영속 저장소를 필요로 하기 때문이다.",
+        "points": [
+          "JWT는 세션 관리에 부적합",
+          "쿠키 세션이 더 안전·유연",
+          "무상태 인증은 사실상 비현실적",
+          "폐기·만료에 영속 저장소 필요"
+        ],
+        "why": [
+          "인증 설계의 통념에 대한 반론"
+        ]
+      }
+    },
+    {
+      "id": "dev-web-disappear",
+      "title": "우리가 아는 웹은 사라질 것이다",
+      "summary": "정보가 열린 웹·앱에서 중앙집중형 AI 인터페이스로 이동하며 웹은 배경 인프라가 된다.",
+      "source": "TLDR Dev",
+      "url": "https://www.minid.net/2026/6/15/the-web-is-going-to-dissapear",
+      "report": {
+        "tldr": "정보가 물리 디스크·게시판에서 열린 웹·모바일 앱을 거쳐 이제 중앙집중형 AI 인터페이스로 이동하고 있다는 전망이다.",
+        "what": "이 새 모델은 전통적 검색-클릭 습관을 직접적·대화형 답변으로 대체한다. AI가 주된 게이트키퍼가 되면서 웹사이트는 인간 목적지에서 기계학습 모델에 데이터를 공급하는 배경 인프라로 전환된다.",
+        "points": [
+          "정보 매체의 역사적 이동",
+          "검색-클릭→대화형 답변",
+          "AI가 주 게이트키퍼화",
+          "웹사이트의 배경 인프라화"
+        ],
+        "why": [
+          "AI 시대 웹의 구조적 변화 전망"
+        ]
+      }
+    },
+    {
+      "id": "dev-nubase",
+      "title": "Nubase (GitHub 저장소)",
+      "summary": "AI 생성 코드를 빠르게 라이브 앱으로 바꾸는 오픈소스 AI 네이티브 백엔드 플랫폼.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/OtterMind/Nubase",
+      "report": {
+        "tldr": "Nubase는 AI 생성 코드를 빠르게 라이브 애플리케이션으로 바꾸는 오픈소스 AI 네이티브 백엔드 플랫폼이다.",
+        "what": "DB, 인증, 스토리지, 엣지 함수 등 8개 핵심 모듈을 단일 셀프호스팅 서비스로 통합한다. MCP 도구로 코딩 에이전트가 인프라를 직접 관리하고 로직을 배포하며 데이터 모델링을 처리할 수 있다.",
+        "points": [
+          "AI 네이티브 셀프호스팅 백엔드",
+          "DB·인증·스토리지·엣지 함수 통합",
+          "MCP로 에이전트가 인프라 직접 관리"
+        ],
+        "why": [
+          "AI 코딩 워크플로용 백엔드 자동화"
+        ]
+      }
+    },
+    {
+      "id": "dev-likec4",
+      "title": "LikeC4 (GitHub 저장소)",
+      "summary": "코드로 시스템을 기술하면 항상 최신인 아키텍처 다이어그램을 자동 생성하는 오픈소스 도구.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/likec4/likec4",
+      "report": {
+        "tldr": "LikeC4는 엔지니어가 DSL로 소프트웨어 시스템을 기술하면 항상 최신인 라이브 아키텍처 다이어그램을 자동 생성하는 오픈소스 '아키텍처 as 코드' 플랫폼이다.",
+        "what": "코드에 시스템 구조를 선언하면 다이어그램이 자동으로 생성·갱신된다. 문서와 실제 구조의 불일치를 줄인다.",
+        "points": [
+          "DSL로 아키텍처 기술",
+          "항상 최신 다이어그램 자동 생성",
+          "오픈소스 '아키텍처 as 코드'"
+        ],
+        "why": [
+          "아키텍처 문서 유지보수 자동화"
+        ]
+      }
+    },
+    {
+      "id": "dev-meta-engineering",
+      "title": "메타는 왜 자사 엔지니어링 조직을 파괴하는가",
+      "summary": "AI 우선 정책 강행으로 메타가 강했던 엔지니어링 문화를 빠르게 해체하고 있다.",
+      "source": "TLDR Dev",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "report": {
+        "tldr": "메타가 AI 이니셔티브를 공격적으로 우선시하며 역사적으로 강했던 엔지니어링 문화를 빠르게 해체하고 있다.",
+        "what": "엔지니어를 데이터 라벨링 작업으로 내몰고, 직원 활동을 추적하며, 인사평가를 AI 사용과 연계하고, 회사를 매력적으로 만들던 자율성을 줄였다. 이런 변화는 낮은 사기, 인재 이탈, 조직 혼란, 그리고 AI 생성·부실 검토 코드와 연관된 인스타그램 계정 탈취 같은 보안·신뢰성 실패로 이어졌다.",
+        "points": [
+          "데이터 라벨링 강제·활동 추적",
+          "인사평가-AI 사용 연계",
+          "자율성 축소로 사기 저하·인재 이탈",
+          "보안·신뢰성 실패 사례 발생"
+        ],
+        "why": [
+          "빅테크 엔지니어링 문화 변동의 상징",
+          "오늘 빅테크 에디션과 동시 등장"
+        ]
+      }
+    },
+    {
+      "id": "dev-spacex-cursor-60b",
+      "title": "스페이스X, 600억 달러 Cursor 인수로 AI 코딩 격차 좁힌다",
+      "summary": "스페이스X가 Cursor 운영사 Anysphere를 600억 달러 전량 주식으로 인수한다.",
+      "source": "TLDR Dev",
+      "url": "https://links.tldrnewsletter.com/uXz8qG",
+      "report": {
+        "tldr": "스페이스X가 인기 AI 코딩 에이전트 Cursor의 운영사 Anysphere를 600억 달러 전량 주식 거래로 인수하기로 했다.",
+        "what": "이번 인수는 엔터프라이즈 AI 시장에서 스페이스X의 입지를 높이고 OpenAI·Anthropic 같은 선두와의 격차를 좁힌다. xAI의 Grok도 개선할 것으로 기대된다.",
+        "points": [
+          "Anysphere(Cursor) 600억 달러 인수",
+          "전량 주식 거래",
+          "엔터프라이즈 AI 입지 강화",
+          "xAI Grok 개선 기대"
+        ],
+        "why": [
+          "AI 코딩 도구 인수 경쟁",
+          "오늘 빅테크·디자인 에디션과 동시 등장"
+        ]
+      }
+    },
+    {
+      "id": "dev-claireon-unreal-mcp",
+      "title": "Claireon — 언리얼 엔진 MCP 플러그인 (GitHub)",
+      "summary": "에디터 내 MCP 서버로 AI 에이전트가 언리얼 개발 전반을 검색·검사·수정·자동화한다.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/believer-oss/claireon",
+      "report": {
+        "tldr": "Claireon은 에디터 내부에 MCP 서버를 둔 오픈소스 언리얼 엔진 플러그인이다.",
+        "what": "Claude Code 같은 AI 에이전트가 언리얼 개발의 거의 모든 부분을 검색·검사·수정·자동화할 수 있게 한다. 게임 개발 워크플로에 에이전트를 통합한다.",
+        "points": [
+          "에디터 내 MCP 서버",
+          "AI 에이전트의 언리얼 개발 제어",
+          "검색·검사·수정·자동화"
+        ],
+        "why": [
+          "게임 개발의 에이전트 자동화 확산"
+        ]
+      }
+    },
+    {
+      "id": "dev-humiliating-iis",
+      "title": "재미와 징역을 위한 IIS 서버 망신주기",
+      "summary": "자주 간과되는 Microsoft IIS 환경의 오설정·정보 노출을 찾는 버그바운티 가이드.",
+      "source": "TLDR Dev",
+      "url": "https://mll.sh/humiliating-iis-servers-for-fun-and-jail-time/",
+      "report": {
+        "tldr": "버그바운티 관점에서 Microsoft IIS 서버를 찾고 테스트하는 가이드다.",
+        "what": "IIS 환경은 자주 간과되지만 오설정, 정보 누출, 민감 데이터 노출로 이어지는 공격 경로를 빈번히 드러낸다. 이를 찾는 실무 기법을 다룬다.",
+        "points": [
+          "IIS 서버 탐지·테스트 기법",
+          "오설정·정보 누출 빈번",
+          "버그바운티 실무 가이드"
+        ],
+        "why": [
+          "간과되는 IIS 자산의 보안 점검 필요"
+        ]
+      }
+    },
+    {
+      "id": "dev-bash-dev-tcp",
+      "title": "curl 없는 컨테이너에서 bash /dev/tcp로 HTTP 요청하기",
+      "summary": "bash 내장 /dev/tcp 리다이렉션으로 외부 도구 없이 TCP 소켓 통신을 수행한다.",
+      "source": "TLDR Dev",
+      "url": "https://mareksuppa.com/til/bash-dev-tcp-http-without-curl/",
+      "report": {
+        "tldr": "bash가 최소 컨테이너에서 내장 /dev/tcp 리다이렉션으로 수동 HTTP 요청과 연결 확인을 가능케 한다.",
+        "what": "curl·wget 같은 외부 도구 없이 TCP 소켓을 열고 통신할 수 있다. 디버깅·헬스체크가 필요한 미니멀 컨테이너에서 유용하다.",
+        "points": [
+          "bash 내장 /dev/tcp 활용",
+          "외부 도구 없이 HTTP 요청",
+          "미니멀 컨테이너 디버깅"
+        ],
+        "why": [
+          "도구 없는 환경의 네트워크 디버깅 팁"
+        ]
+      }
+    },
+    {
+      "id": "dev-reviews-rewrites",
+      "title": "리뷰는 비싸지고, 재작성은 싸졌다",
+      "summary": "AI의 과잉설계 경향이 수동 리뷰 비용을 높여 사전 계획의 가치를 키웠다.",
+      "source": "TLDR Dev",
+      "url": "https://ishmeetbindra.com/posts/reviews-have-become-expensive-rewrites-have-become-cheap/",
+      "report": {
+        "tldr": "AI가 과잉설계된 코드를 만드는 경향이 수동 리뷰를 더 비싸게 만들어 사전 계획이 더 필요해졌다는 분석이다.",
+        "what": "코드 생성·재작성 비용은 낮아진 반면 사람이 검토하는 비용은 상대적으로 높아졌다. 따라서 작성 전 계획과 준비의 가치가 커진다.",
+        "points": [
+          "AI 과잉설계로 리뷰 비용 상승",
+          "재작성 비용은 하락",
+          "사전 계획·준비 가치 증가"
+        ],
+        "why": [
+          "AI 시대 개발 워크플로의 경제학 변화"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-spacex-cursor-60b",
+      "title": "스페이스X, Cursor를 600억 달러에 인수",
+      "summary": "스페이스X가 IPO 직후 AI 코딩 스타트업 Cursor를 600억 달러 주식 거래로 인수한다.",
+      "source": "TLDR Design",
+      "url": "https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/",
+      "report": {
+        "tldr": "스페이스X가 블록버스터 IPO 직후 AI 코딩 스타트업 Cursor를 600억 달러 주식 거래로 인수하기로 했다.",
+        "what": "이번 인수는 xAI를 중심으로 한 스페이스X의 AI 부문을 강화해, Grok 관련 리더십 이탈·제품 논란·법적 리스크에서 회복하려는 시도다. Cursor의 빠른 성장과 코딩 AI 전문성이 AI 인프라·엔터프라이즈 앱이 거대한 새 시장을 연다는 스페이스X의 피치 중심에 놓였다.",
+        "points": [
+          "600억 달러 주식 거래",
+          "xAI 중심 AI 부문 강화",
+          "Grok 리더십 이탈·법적 리스크 회복 시도",
+          "Cursor 코딩 AI 전문성 활용"
+        ],
+        "why": [
+          "오늘 빅테크·개발 에디션과 동시 등장한 최대 화제"
+        ],
+        "context": "빅테크·개발 에디션도 같은 인수를 다뤘다."
+      }
+    },
+    {
+      "id": "design-apple-wallet-ios27",
+      "title": "iOS 27, 애플 월렛 대폭 확장",
+      "summary": "실물 로열티 카드 디지털화, AI 영수증 스캔, 재설계된 애플페이 체크아웃 등을 추가한다.",
+      "source": "TLDR Design",
+      "url": "https://www.digitaltrends.com/phones/everything-new-coming-to-apple-wallet-with-ios-27/",
+      "report": {
+        "tldr": "iOS 27이 애플 월렛을 더 포괄적인 디지털 허브로 대폭 확장한다.",
+        "what": "실물 로열티·멤버십 카드 디지털화, 실시간 업데이트되는 인터랙티브 패스, 여행·편의 정보를 주는 스마트 호텔 키, AI 영수증 스캔 기반 더치페이, 재설계된 애플페이 체크아웃, 결제·로열티 정보를 교환하는 Tap to Share를 추가한다. 더 많은 바코드 포맷 지원, 월렛에서 직접 카드 충전, 애플워치 통합 개선도 포함된다.",
+        "points": [
+          "실물 로열티·멤버십 카드 디지털화",
+          "AI 영수증 스캔 더치페이",
+          "재설계된 애플페이 체크아웃",
+          "Tap to Share·애플워치 통합 개선"
+        ],
+        "why": [
+          "디지털 월렛 경험의 통합·확장"
+        ]
+      }
+    },
+    {
+      "id": "design-snap-specs-ar",
+      "title": "스냅 CEO와 함께 보는 Specs AR 글래스",
+      "summary": "스피겔이 AWE 2026에서 테더·퍽 없는 독립형 $2,195 Specs AR 글래스를 공개했다.",
+      "source": "TLDR Design",
+      "url": "https://mashable.com/tech/exclusive-snap-ceo-evan-spiegel-interview-specs-ar-glasses",
+      "report": {
+        "tldr": "스냅 CEO 에반 스피겔이 AWE 2026에서 새 Specs AR 글래스를 공개했다.",
+        "what": "개발자를 먼저 겨냥하고 업무·게임·리테일·번역·스포츠 훈련 등 특정 용도의 얼리어답터로 확장한다. $2,195 글래스는 테더나 컴퓨팅 퍽 없는 독립형 AR 기기로, 스냅 자체 디스플레이 기술로 몰입형 오버레이·대화면 사적 시청·공유 3D 컴퓨팅을 지원한다.",
+        "points": [
+          "독립형(테더·퍽 없음) AR 글래스",
+          "$2,195, 개발자 우선",
+          "자체 디스플레이 기술",
+          "몰입형 오버레이·공유 3D 컴퓨팅"
+        ],
+        "why": [
+          "착용성과 성능을 겸한 AR 글래스 선점 시도"
+        ]
+      }
+    },
+    {
+      "id": "design-ui-not-the-point",
+      "title": "UI는 여전히 핵심이 아니다",
+      "summary": "AI가 의도만으로 인터페이스를 생성하면서 디자이너의 일은 에이전트를 유도하는 제약 설계로 이동한다.",
+      "source": "TLDR Design",
+      "url": "https://marieclairedean.substack.com/p/the-ui-is-still-not-the-point",
+      "report": {
+        "tldr": "AI 도구가 의도만으로 인터페이스를 생성하면서 '기계가 화면을 디자인할 수 있나'라는 질문은 무의미해졌다.",
+        "what": "진짜 변화는 각 사용자·순간에 맞춰 실시간으로 조립되는 일시적·적응형 UI로의 이동이다. 디자이너의 새 기예는 에이전트를 가치 있는 결과로 유도하는 컴포넌트·제약·명문화된 의도를 만드는 것이다.",
+        "points": [
+          "의도 기반 UI 생성의 보편화",
+          "일시적·적응형 UI로 이동",
+          "디자이너 역할: 컴포넌트·제약·의도 설계"
+        ],
+        "why": [
+          "AI 시대 디자인 직무의 재정의"
+        ]
+      }
+    },
+    {
+      "id": "design-brain-myths",
+      "title": "뇌 신화가 아닌 진짜 사람을 위해 디자인하라",
+      "summary": "금붕어 집중력·좌우뇌 분리 같은 뇌 신화가 디자이너를 잘못된 해법으로 이끈다.",
+      "source": "TLDR Design",
+      "url": "https://ixdf.org/literature/article/design-for-real-people-not-brain-myths",
+      "report": {
+        "tldr": "널리 퍼진 뇌 신화가 디자이너를 사용자 경험을 해치는 잘못된 해법으로 이끈다는 분석이다.",
+        "what": "게임 UX 전략가 셀리아 호던트가 가장 비용이 큰 오해와 뇌의 실제 작동에 대한 과학적 사실을 설명한다. 뉴로하이프와 동료심사 연구를 구분하는 디자이너는 더 나은 UX 결정을 내리고 헛수고를 줄인다.",
+        "points": [
+          "금붕어 집중력·좌우뇌 신화 비판",
+          "비용 큰 오해 식별",
+          "근거 기반 UX 결정의 중요성"
+        ],
+        "why": [
+          "증거 기반 디자인의 가치"
+        ]
+      }
+    },
+    {
+      "id": "design-flashy-new-names",
+      "title": "디자인은 살아있다 — 화려한 새 직함을 얻었을 뿐",
+      "summary": "AI가 임베디드 AI 디자인 컨설턴트, 에이전틱 UX 아키텍트 같은 전문 역할을 낳고 있다.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/SbeQSZ",
+      "report": {
+        "tldr": "AI는 디자인을 죽이는 게 아니라 임베디드 AI 디자인 컨설턴트, 에이전틱 UX 아키텍트, 트러스트 디자이너 같은 전문 역할을 낳고 있다.",
+        "what": "디자이너를 대체하기보다 기예의 무게를 픽셀 생산에서 인지심리학·시스템 사고·비즈니스 오케스트레이션으로 옮긴다. 다음 10년의 프리미엄 디자이너는 인간과 지능형 에이전트의 협업을 안무하는 능력으로 평가받는다.",
+        "points": [
+          "AI가 디자인 전문 역할 분화",
+          "픽셀 생산→인지심리·시스템 사고",
+          "인간-에이전트 협업 안무가 핵심 역량"
+        ],
+        "why": [
+          "디자인 직무의 진화 방향"
+        ]
+      }
+    },
+    {
+      "id": "design-vetted",
+      "title": "Vetted — 세계 최고 영상 인재 네트워크 (웹사이트)",
+      "summary": "최고 성과의 크리에이티브 영상 인재를 큐레이션한 네트워크.",
+      "source": "TLDR Design",
+      "url": "https://www.vetted.cv/",
+      "report": {
+        "tldr": "Vetted는 세계 최고 성과의 크리에이티브 영상 인재를 큐레이션한 네트워크다.",
+        "what": "검증된 상위 영상 제작 인재를 모았다. 고품질 영상 협업 인재를 찾는 데 활용할 수 있다.",
+        "points": [
+          "큐레이션된 영상 인재 네트워크",
+          "검증된 상위 크리에이터"
+        ],
+        "why": [
+          "영상 제작 인재 소싱 도구"
+        ]
+      }
+    },
+    {
+      "id": "design-barkod",
+      "title": "BARKOD — 예술적 바코드 생성기 (웹사이트)",
+      "summary": "기능적 데이터를 구름·야자수 등 창의적 형태의 스캔 가능한 SVG 바코드로 변환한다.",
+      "source": "TLDR Design",
+      "url": "https://barkod.studio/",
+      "report": {
+        "tldr": "BARKOD는 기능적 데이터를 브루탈리스트 아트로 바꾸는 바코드 생성기다.",
+        "what": "구름·야자수 등 창의적 형태로 고유하고 스캔 가능한 SVG 바코드를 생성한다. 기능성과 예술성을 결합한다.",
+        "points": [
+          "스캔 가능한 SVG 바코드",
+          "구름·야자수 등 창의적 형태",
+          "브루탈리스트 아트 스타일"
+        ],
+        "why": [
+          "디자인과 기능을 잇는 창의적 도구"
+        ]
+      }
+    },
+    {
+      "id": "design-words-of-type",
+      "title": "Words of Type (웹사이트)",
+      "summary": "타이포그래피 용어를 여러 언어로 일러스트·설명하는 자료.",
+      "source": "TLDR Design",
+      "url": "https://wiki.wordsoftype.com",
+      "report": {
+        "tldr": "Words of Type은 타이포그래피에서 쓰이는 용어를 여러 언어로 일러스트와 함께 설명한다.",
+        "what": "타이포그래피 용어를 모아 시각적으로 설명한다. 다국어 지원으로 학습·참조에 유용하다.",
+        "points": [
+          "타이포그래피 용어집",
+          "일러스트 기반 설명",
+          "다국어 지원"
+        ],
+        "why": [
+          "타이포그래피 학습 레퍼런스"
+        ]
+      }
+    },
+    {
+      "id": "design-a11y-vibe-coding",
+      "title": "접근성 디자이너의 바이브 코딩 사례",
+      "summary": "깃허브 접근성 디자이너가 LLM 개발로 접근성 작업을 며칠~몇 시간으로 압축한다.",
+      "source": "TLDR Design",
+      "url": "https://ericwbailey.website/published/the-case-for-an-accessibility-designer-vibe-coding-when-all-his-coworkers-are-also-vibe-coding/",
+      "report": {
+        "tldr": "깃허브의 접근성 디자이너가 접근성 개선을 위해 구조적으로 바이브 코딩(LLM 기반 개발)을 할 수밖에 없는 상황을 설명한다.",
+        "what": "이 방식은 역사적으로 자원 집약적이던 작업을 며칠~몇 시간으로 압축해 트리뷰, F6 내비게이션, 더 똑똑한 aria-label 로직 같은 법적 최소 준수를 넘는 개선을 가능케 한다. LLM 기반 개발이 전반적으로 웹을 덜 접근 가능하게 만드는 동시에, 좁고 실용적인 범위에서 장애 접근성을 진전시키는 가장 현실적인 경로이기도 하다.",
+        "points": [
+          "구조적으로 바이브 코딩 필요",
+          "접근성 작업 시간 대폭 단축",
+          "법적 최소 준수 넘는 개선",
+          "양가적: 전체 접근성 저하 vs 실용적 진전"
+        ],
+        "why": [
+          "접근성 작업에서 LLM 개발의 두 얼굴"
+        ]
+      }
+    },
+    {
+      "id": "design-big-details",
+      "title": "큰 디테일",
+      "summary": "단순한 제품일수록 작은 디테일이 가장 중요하며, 품질은 복잡성 축소로 개선된다.",
+      "source": "TLDR Design",
+      "url": "https://pjonori.blog/posts/big-details/",
+      "report": {
+        "tldr": "단순한 제품에서는 주의를 끄는 경쟁이 적어 작은 디테일이 가장 중요하다는 분석이다.",
+        "what": "소프트웨어가 복잡해질수록 수많은 사소한 품질 문제가 쌓이고 신기능 추구 속에 간과된다. 품질은 더 많은 프로세스·도구·생산성이 아니라 복잡성을 줄이고 덜 만드는 데서 개선된다. 대기업은 받아들이기 어렵지만 더 단순하고 높은 품질의 제품을 만드는 독립 제작자에게 기회가 커진다.",
+        "points": [
+          "단순 제품일수록 디테일이 결정적",
+          "복잡성 누적이 품질 저하",
+          "품질=복잡성 축소·적게 만들기",
+          "독립 제작자의 기회"
+        ],
+        "why": [
+          "제품 품질에 대한 본질적 관점"
+        ]
+      }
+    },
+    {
+      "id": "design-festival-posters",
+      "title": "왜 페스티벌 라인업 포스터는 점점 읽기 어려워질까",
+      "summary": "아티스트 배치 협상 마찰을 줄이려 비관습적 디자인을 채택하는 흐름.",
+      "source": "TLDR Design",
+      "url": "https://www.wallpaper.com/art/why-are-festival-line-up-poster-designs-getting-so-hard-to-read",
+      "report": {
+        "tldr": "페스티벌 라인업 포스터가 아티스트 배치 협상의 마찰을 줄이려 점점 비관습적 디자인을 채택하고 있다.",
+        "what": "누가 더 크게·먼저 표기되느냐를 둘러싼 협상이 복잡해지면서, 가독성을 희생하더라도 배치 갈등을 완화하는 디자인이 늘었다. 디자인 트렌드 이면의 비즈니스 동인을 짚는다.",
+        "points": [
+          "비관습적 라인업 포스터 증가",
+          "아티스트 배치 협상 마찰 완화 목적",
+          "가독성 희생 경향"
+        ],
+        "why": [
+          "디자인 결정 이면의 협상 역학"
+        ]
+      }
+    },
+    {
+      "id": "design-liquid-glass-adjustable",
+      "title": "애플, Liquid Glass를 조절 가능하게 만들다",
+      "summary": "iOS 27·macOS가 Liquid Glass 반투명도 슬라이더를 도입해 효과를 줄일 수 있게 했다.",
+      "source": "TLDR Design",
+      "url": "https://www.digitaltrends.com/computing/apple-made-liquid-glass-adjustable-which-says-plenty-about-liquid-glass/",
+      "report": {
+        "tldr": "iOS 27과 macOS Golden Gate가 시스템 전반의 글래스 UI 미학인 Liquid Glass에 반투명도 슬라이더를 도입했다.",
+        "what": "사용자가 효과를 줄일 수 있게 했다. 조절 옵션의 도입 자체가 Liquid Glass 미학에 대한 시사점을 던진다.",
+        "points": [
+          "Liquid Glass 반투명도 슬라이더",
+          "iOS 27·macOS 도입",
+          "사용자가 효과 조절 가능"
+        ],
+        "why": [
+          "논쟁적 UI 미학에 대한 사용자 통제 제공"
+        ]
+      }
+    },
+    {
+      "id": "design-preview-liquid-glass",
+      "title": "iOS 27 미리보기 앱, Liquid Glass 이스터에그 계승",
+      "summary": "확대경을 끌어 화면을 실시간 왜곡·확대하는 인터랙티브 루페를 추가했다.",
+      "source": "TLDR Design",
+      "url": "https://9to5mac.com/2026/06/15/preview-on-ios-27-inherits-fun-liquid-glass-easter-egg-from-ipados-26/",
+      "report": {
+        "tldr": "iOS 27이 미리보기(Preview) 앱에 장난스러운 인터랙티브 루페를 추가했다.",
+        "what": "사용자가 화면 위로 확대경을 끌어 콘텐츠를 실시간으로 왜곡·확대할 수 있다. iPadOS 26의 Liquid Glass 이스터에그를 계승한 기능이다.",
+        "points": [
+          "인터랙티브 루페(확대경)",
+          "실시간 왜곡·확대",
+          "iPadOS 26 이스터에그 계승"
+        ],
+        "why": [
+          "재미 요소를 통한 UI 디테일"
+        ]
+      }
+    }
+  ]
+}

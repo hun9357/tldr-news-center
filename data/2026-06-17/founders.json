@@ -1,0 +1,264 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-crowded-ai-markets",
+      "title": "'붐비는' AI 시장에서 경쟁하는 법",
+      "summary": "Decagon CEO는 소수만 이길 수 있어 모든 AI 시장이 붐벼 보인다며 출시 속도는 지속적 우위가 아니라고 말한다.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/vAg3wO",
+      "report": {
+        "tldr": "Decagon CEO 제시 장은 소수만 이길 수 있어 모든 AI 시장이 붐벼 보인다고 주장한다.",
+        "what": "고객 서비스 AI 세일즈 사이클에서 Decagon은 세일즈포스·구글의 AI 추가, pre-AI 인터컴, Sierra 같은 AI 네이티브, 그리고 고객 자체 MVP와 비교당한다. 출시 속도는 우위지만 지속적이지 않은데, AI 도구가 빌드-카피 타임라인을 너무 압축해 거래에서 진 기능이 곧장 모든 경쟁사 로드맵에 오르기 때문이다.",
+        "points": [
+          "소수만 이겨서 시장이 붐벼 보임",
+          "다양한 유형의 경쟁자와 동시 비교",
+          "출시 속도는 비지속적 우위",
+          "빌드-카피 타임라인 압축"
+        ],
+        "why": [
+          "AI 스타트업 차별화 전략의 현실"
+        ]
+      }
+    },
+    {
+      "id": "founders-csuite-magic-thinking",
+      "title": "AI는 당신 C-suite의 마법적 사고에서 살아남지 못한다",
+      "summary": "데이터 정제가 의사결정 개선이 아닌 비즈니스에 맞추는 일이 되며 경영진이 마법적 사고에 기댄다.",
+      "source": "TLDR Founders",
+      "url": "https://vinvashishta.substack.com/p/ai-cant-survive-your-c-suites-magic",
+      "report": {
+        "tldr": "기업 문화와 어젠다 설정이 엔지니어링 조직을 실패시켰다는 분석이다.",
+        "what": "데이터 정제·클렌징이 의사결정을 개선하기 위한 것이 아니라 데이터를 비즈니스에 맞추는 일이 되어버렸다. 경영진이 마법적 사고에 지나치게 기대고 있다. 이제 주주와 이사회가 CEO에게 편안함 대신 증거를 택하도록 책임을 묻는다.",
+        "points": [
+          "데이터 정제가 비즈니스 정렬용으로 변질",
+          "경영진의 마법적 사고",
+          "증거보다 편안함 선택의 문제",
+          "주주·이사회의 책임 추궁"
+        ],
+        "why": [
+          "AI 도입 실패의 조직·문화적 원인"
+        ]
+      }
+    },
+    {
+      "id": "founders-how-to-pivot-well",
+      "title": "잘 피벗하는 법",
+      "summary": "AI가 더 빠른 피벗을 가능케 하면서 언제·얼마나 빨리·무엇으로 피벗할지가 핵심 역량이 됐다.",
+      "source": "TLDR Founders",
+      "url": "https://speedrun.substack.com/p/how-to-pivot-well",
+      "report": {
+        "tldr": "AI가 더 빠른 피벗을 가능케 하면서, 언제·얼마나 빨리·무엇을 향해 피벗할지 아는 것이 AI 시대 창업자의 핵심 역량이 됐다.",
+        "what": "Web 2.0 시대의 상징적 이야기들은 상상 못 할 부가 한 번의 반복 거리에 있다는 희망을 창업자에게 준다. 이 글은 창업자가 피벗을 고민할 때 무엇을 생각해야 하는지 다룬다.",
+        "points": [
+          "AI로 피벗 속도 상승",
+          "타이밍·속도·방향이 핵심",
+          "피벗 의사결정 프레임 제시"
+        ],
+        "why": [
+          "AI 시대 피벗 역량의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "founders-learning-loop",
+      "title": "자신만의 학습 루프 구축 기술 가이드",
+      "summary": "최고 모델 위에 학습 루프를 쌓아 데이터·사용을 누구도 빼앗을 수 없는 IP로 복리화한다.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/Ep3F2a",
+      "report": {
+        "tldr": "AI에서 이기는 수는 최고 모델 위에 학습 루프를 쌓는 것이라는 주장이다.",
+        "what": "이렇게 하면 데이터와 사용이 누구도 다시 빌려줄 수 없는 IP로 복리화된다. 이 글은 왜 이를 해야 하는지와 승리하는 학습 루프를 만드는 청사진을 제공한다.",
+        "points": [
+          "최고 모델 위에 학습 루프 구축",
+          "데이터·사용의 IP 복리화",
+          "구축 청사진 제시"
+        ],
+        "why": [
+          "AI 제품의 지속 가능한 해자 전략"
+        ]
+      }
+    },
+    {
+      "id": "founders-rivian-planning",
+      "title": "리비안은 아직 없는 것을 어떻게 계획하는가",
+      "summary": "더 싼 SUV용 신공장 대신 기존 공장에서 생산해 22.5억 달러를 아꼈다.",
+      "source": "TLDR Founders",
+      "url": "https://www.mostlymetrics.com/p/how-rivian-plans-for-stuff-that-doesn-t-exist-yet",
+      "report": {
+        "tldr": "리비안이 더 싼 SUV용 신공장 대신 기존 공장에서 생산해 22.5억 달러를 아꼈다.",
+        "what": "CFO의 규칙은 콘크리트를 붓기 전 이미 가진 것을 마지막 한 방울까지 짜내는 것으로, 바라는 일이 아닌 가진 일에 맞춰 인력을 두는 하드웨어판이다. 신모델은 공장 공유로 고정비를 더 많은 차에 분산해 기존 라인도 싸게 만들며 수익성을 앞당겼다. 2년간 매출은 3배 늘고 운영비는 평탄하게 유지됐다.",
+        "points": [
+          "신공장 대신 기존 공장 생산으로 $22.5억 절감",
+          "가진 자원을 끝까지 활용",
+          "공장 공유로 고정비 분산",
+          "매출 3배·운영비 평탄"
+        ],
+        "why": [
+          "자본 효율적 성장 전략 사례"
+        ]
+      }
+    },
+    {
+      "id": "founders-glm-5-2-hf",
+      "title": "GLM-5.2 (허깅페이스 저장소)",
+      "summary": "GLM-5.1 대비 장기 역량이 도약한 Z.ai 플래그십, 100만 토큰 컨텍스트·MIT 라이선스.",
+      "source": "TLDR Founders",
+      "url": "https://huggingface.co/zai-org/GLM-5.2",
+      "report": {
+        "tldr": "Z.ai의 GLM-5.2 플래그십 모델이 GLM-5.1 대비 장기(long-horizon) 역량에서 상당한 도약을 이뤘다.",
+        "what": "견고한 100만 토큰 컨텍스트 윈도우와 새 기능을 갖췄다. 개선된 아키텍처는 토큰당 FLOP를 2.9배 재사용하며, MIT 오픈소스 라이선스로 공개됐다.",
+        "points": [
+          "GLM-5.1 대비 장기 역량 도약",
+          "100만 토큰 컨텍스트",
+          "토큰당 FLOP 2.9배 재사용",
+          "MIT 오픈소스 라이선스"
+        ],
+        "why": [
+          "오픈웨이트 플래그십 모델 경쟁",
+          "오늘 AI 에디션과 동시 등장"
+        ]
+      }
+    },
+    {
+      "id": "founders-chatgpt-ads-all",
+      "title": "챗GPT, 모든 광고주에 광고 개방 — 이 변화에 어떻게 대응할까",
+      "summary": "美 셀프서브 ChatGPT Ads가 전면 개방되고 6주 만에 연환산 광고 매출 1억 달러를 넘었다.",
+      "source": "TLDR Founders",
+      "url": "https://neilpatel.com/blog/chatgpt-ads-manager/",
+      "report": {
+        "tldr": "美 모든 광고주에게 셀프서브 ChatGPT Ads 접근이 개방됐다.",
+        "what": "OpenAI는 6주 만에 연환산 광고 매출 1억 달러를 넘겼으며, 적격 사용자의 20% 미만만 매일 광고를 본다. 무료·Go 티어 사용자의 85%가 광고 노출 대상이다. 캐나다·호주·뉴질랜드·英·일본·한국·브라질·멕시코로 확대를 확정했다.",
+        "points": [
+          "美 셀프서브 ChatGPT Ads 전면 개방",
+          "6주 만에 연환산 $1억 광고 매출",
+          "무료·Go 티어 85% 노출 대상",
+          "한국 등 다국가 확대"
+        ],
+        "why": [
+          "AI 챗봇 광고 채널의 부상과 대응 필요"
+        ]
+      }
+    },
+    {
+      "id": "founders-20-year-tax",
+      "title": "20년 고객을 신규 고객보다 더 홀대하고 있진 않은가",
+      "summary": "이미 락인된 충성 고객이 압박당하고 신규 로고만 특별 대우받는 '20년 세금' 패턴.",
+      "source": "TLDR Founders",
+      "url": "https://www.saastr.com/do-you-treat-your-20-year-customers-worse-than-your-new-ones/",
+      "report": {
+        "tldr": "Lemkin이 충성 고객이 이미 계약·통합·교육을 마쳐 압박당하는 반면 신규 로고는 특별 대우받는 '20년 세금'을 지적한다.",
+        "what": "신규 고객은 워룸, CEO 관여, 무료 커스텀 통합을 받는다. CSM이 14개월마다 바뀌고 아무도 케이스 스터디나 추천을 기억하지 못하는, 거의 모든 pre-AI B2B 기업에 흐르는 패턴이다.",
+        "points": [
+          "충성 고객 압박, 신규만 우대",
+          "신규에 워룸·CEO 관여·무료 통합",
+          "CSM 잦은 교체로 관계 단절",
+          "광범위한 B2B 패턴"
+        ],
+        "why": [
+          "고객 유지·LTV 관점의 경고"
+        ]
+      }
+    },
+    {
+      "id": "founders-business-configurations",
+      "title": "작동하는 사업 구성은 여러 가지가 있다",
+      "summary": "벤처 로켓십은 하나의 방식일 뿐, 파타고니아·버크셔처럼 다른 길도 많다.",
+      "source": "TLDR Founders",
+      "url": "https://commoncog.com/there-are-many-configurations-of-business-that-work/",
+      "report": {
+        "tldr": "벤처 백드 로켓십은 회사를 짓는 하나의 방식일 뿐이며, 무의식적으로 흡수된 각본이라는 분석이다.",
+        "what": "파타고니아는 성장을 좇길 멈추고 고객이 속도를 정하게 하며 비용이 드는 미션을 더해 현금 위기가 사라졌다. 워런 버핏은 죽어가는 방직공장의 현금으로 주식을 사 벤처 자금 없이 버크셔를 거대 기업으로 키웠다. '조달·고속성장·엑싯'은 법칙이 아닌 각본이며, 이기는 길은 모두가 베끼는 하나보다 훨씬 많다.",
+        "points": [
+          "로켓십은 하나의 구성일 뿐",
+          "파타고니아: 성장 대신 미션",
+          "버핏: 벤처 자금 없는 성장",
+          "'조달·성장·엑싯'은 각본이지 법칙 아님"
+        ],
+        "why": [
+          "창업 경로에 대한 대안적 관점"
+        ]
+      }
+    },
+    {
+      "id": "founders-compute-adjusted-ltv",
+      "title": "컴퓨트 조정 LTV 계산법",
+      "summary": "고정·준고정 AI 매출과 가변 컴퓨트 비용을 측정하는 새 지표.",
+      "source": "TLDR Founders",
+      "url": "https://www.thesaascfo.com/how-to-calculate-compute-adjusted-ltv/",
+      "report": {
+        "tldr": "Compute-Adjusted LTV는 고정·준고정 AI 매출과 가변 컴퓨트 비용을 함께 측정하는 새 지표다.",
+        "what": "전통 LTV가 포착하지 못하는 AI 사업의 가변 추론 비용을 반영한다. AI 제품의 단위 경제성을 더 정확히 평가하게 해준다.",
+        "points": [
+          "고정 매출 + 가변 컴퓨트 비용 측정",
+          "AI 사업 단위 경제성 반영",
+          "전통 LTV의 한계 보완"
+        ],
+        "why": [
+          "AI 제품 재무 지표의 진화"
+        ]
+      }
+    },
+    {
+      "id": "founders-rule-of-40-hardware",
+      "title": "Rule of 40은 하드웨어에 통할까",
+      "summary": "SaaS용 Rule of 40이 긴 개발 사이클·선행 비용 탓에 하드웨어를 왜곡한다.",
+      "source": "TLDR Founders",
+      "url": "https://feld.com/archives/2026/06/does-the-rule-of-40-work-for-hardware/",
+      "report": {
+        "tldr": "성장과 수익성을 균형 잡는 SaaS의 Rule of 40이 하드웨어 기업에는 종종 들어맞지 않는다는 분석이다.",
+        "what": "하드웨어는 더 긴 개발 사이클과 선행 비용 때문에 이 지표가 회사를 잘못 표현한다. SaaS 프레임을 하드웨어에 그대로 적용하는 위험을 짚는다.",
+        "points": [
+          "Rule of 40은 SaaS 지표",
+          "하드웨어의 긴 개발 사이클·선행 비용",
+          "지표 왜곡 위험"
+        ],
+        "why": [
+          "사업 유형별 재무 지표 적용의 주의"
+        ]
+      }
+    },
+    {
+      "id": "founders-slop-bad-story",
+      "title": "슬롭은 나쁜 이야기다",
+      "summary": "슬롭은 AI가 아니라 스토리의 문제라는 관점.",
+      "source": "TLDR Founders",
+      "url": "https://www.workingtheorys.com/p/slop",
+      "report": {
+        "tldr": "슬롭(slop)은 AI와 무관하고 전적으로 스토리의 문제라는 주장이다.",
+        "what": "저품질 콘텐츠를 AI 탓으로 돌리는 통념을 반박한다. 본질은 이야기의 부재·빈약함에 있다는 관점을 제시한다.",
+        "points": [
+          "슬롭은 AI가 아닌 스토리 문제",
+          "통념 반박",
+          "이야기의 본질 강조"
+        ],
+        "why": [
+          "콘텐츠 품질에 대한 관점 전환"
+        ]
+      }
+    },
+    {
+      "id": "founders-climbing-wrong-mountain",
+      "title": "잘못된 산 오르기 — 창업자가 익숙한 문제만 좇을 때",
+      "summary": "눈앞의 산에 모든 것을 쏟다 그 뒤에 다른 산들이 있음을 뒤늦게 깨닫는 패턴.",
+      "source": "TLDR Founders",
+      "url": "https://www.thisisgoingtobebig.com/blog/2026/6/16/climbing-the-wrong-mountain-when-founders-build-around-familiar-problems",
+      "report": {
+        "tldr": "창업자가 눈앞의 산에 집착해 모든 것을 쏟아붓다가 그 뒤에 다른 산들이 있음을 뒤늦게 깨닫는 '산의 연속'을 다룬다.",
+        "what": "익숙한 문제 주위에서만 빌드하면 더 큰 기회를 놓칠 수 있다. 눈앞의 문제에 고착되는 위험을 경고한다.",
+        "points": [
+          "눈앞의 산에 고착",
+          "익숙한 문제만 좇는 위험",
+          "더 큰 기회 간과"
+        ],
+        "why": [
+          "창업 방향 설정의 통찰"
+        ]
+      }
+    }
+  ]
+}

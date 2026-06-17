@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-17",
+  "weekday": "수",
+  "headline": "스페이스X, Cursor 600억 달러 인수 — Anthropic 수출통제 후폭풍·딥시크 $74억 조달",
+  "subtitle": "스페이스X가 블록버스터 IPO 직후 AI 코딩 스타트업 Cursor를 600억 달러에 인수하며 오늘 빅테크·디자인·개발 3개 에디션에 동시 등장했다. 같은 날 美 정부의 Fable·Mythos 수출통제 후폭풍이 AI·개발·빅테크에서 다뤄졌고, 딥시크는 $74억을 조달해 중국 최고 가치 AI 스타트업이 됐다. — 6월 17일 TLDR 10개 에디션, 총 132건 요약",
+  "keyword": "스페이스X-Cursor · Anthropic 수출통제 · 딥시크 $74억",
+  "bigStoryId": "tech-spacex-cursor-60b",
+  "editions": [
+    "ai",
+    "infosec",
+    "tech",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing",
+    "devops",
+    "founders"
+  ],
+  "lastUpdated": "08:45 CDT",
+  "syncedAt": "08:45",
+  "stats": {
+    "companies": 58,
+    "security": 31,
+    "deals": 22,
+    "policy": 12
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "스페이스X, Cursor 600억 달러 인수",
+      "body": "스페이스X가 블록버스터 IPO 직후 AI 코딩 스타트업 Cursor(운영사 Anysphere)를 600억 달러 전량 주식으로 인수한다. Cursor는 지난 11월 연환산 매출 10억 달러를 넘겼고, 합병은 규제 승인을 전제로 3분기 중 종료 예정이다. xAI 중심 AI 부문을 강화해 OpenAI·Anthropic과의 격차를 좁히려는 포석으로, 오늘 빅테크·디자인·개발 3개 에디션에 동시 등장한 최대 화제다.",
+      "action": "Cursor 의존 워크플로의 대체 도구 경로와 거래 종료(3분기) 규제 리스크를 추적"
+    },
+    {
+      "kind": "market",
+      "title": "Anthropic 수출통제 후폭풍 · 딥시크 $74억 조달",
+      "body": "美 정부가 Fable 가드레일 우회 발견 직후 외국인 대상 Fable·Mythos 접근을 끊었고, Anthropic과 트럼프 측이 접근 복원을 협상 중이다. 보안계는 셧다운이 방어자에게서 취약점 탐지 도구를 빼앗는다고 비판한다. 같은 날 딥시크는 기업가치 500억 달러 이상으로 $74억을 조달해 중국 최고 가치 AI 스타트업이 됐다.",
+      "action": "Fable·Mythos 의존 보안 워크플로의 대체 모델 경로와 접근 복원 협상 추이를 점검"
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 보안 모니터링",
+      "body": "M365 Copilot의 SearchLeak(원클릭 데이터 탈취)와 구글 Vertex AI SDK 버킷 스쿼팅(v1.148.0에서 완전 수정)이 주요 패치 대상이다. 악성 JetBrains 플러그인이 AI API 키를 탈취 중이며, FIFA 월드컵 생중계 송출 제어 노출과 iRhythm 환자 데이터 랜섬도 보고됐다. 공격자들은 CTF·CVE 프레이밍으로 LLM을 탈옥시켜 익스플로잇을 생성하고 있다.",
+      "action": "Vertex AI SDK v1.148.0+ 업그레이드, M365 Copilot 패치 확인, 노출된 AI API 키 즉시 폐기·교체"
+    }
+  ]
+}

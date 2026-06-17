@@ -1,0 +1,314 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🔒",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-irhythm-ransom",
+      "title": "심장 모니터링 기업 iRhythm, 환자 데이터 탈취·랜섬 협박",
+      "summary": "범죄자가 6월 9일 iRhythm에 환자 의료정보 등을 탈취했다며 비공개 대가로 금전을 요구했다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.malwarebytes.com/blog/news/2026/06/cardiac-patients-medical-data-stolen-and-held-to-ransom",
+      "report": {
+        "tldr": "범죄자가 6월 9일 심장 모니터링 기업 iRhythm에 제3자 앱에서 환자 의료정보 등을 탈취했다며 비공개 대가로 금전을 요구했다.",
+        "what": "탈취 데이터에는 독점 데이터, 환자 건강정보, 기타 개인정보가 포함됐다. iRhythm은 제품과 임상 시스템은 피해를 입지 않았고 카드 데이터는 저장하지 않는다고 밝혔다. 다만 데이터 규모가 커 장기적으로 피싱·사기·의료 신원도용에 악용될 수 있다.",
+        "points": [
+          "6월 9일 협박, 제3자 비즈니스 앱에서 탈취 주장",
+          "독점 데이터·환자 건강정보·개인정보 포함",
+          "제품·임상 시스템은 미피해, 카드 데이터 미저장",
+          "대규모 데이터로 장기 피싱·의료 신원도용 우려"
+        ],
+        "why": [
+          "의료 데이터의 제3자 앱 공급망 노출 리스크",
+          "환자 대상 후속 사기 가능성"
+        ],
+        "action": "iRhythm 관련 제3자 앱 접근권한 점검 및 영향 환자 대상 피싱 경보"
+      }
+    },
+    {
+      "id": "infosec-vertex-ai-bucket-squatting",
+      "title": "구글 Vertex AI SDK 결함 — 버킷 스쿼팅으로 모델 업로드 탈취",
+      "summary": "예측 가능한 스테이징 버킷을 선점해 타 프로젝트의 모델 업로드를 악성 모델로 바꿔치기할 수 있었다.",
+      "source": "TLDR Information Security",
+      "url": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+      "report": {
+        "tldr": "Vertex AI 파이썬 SDK 버그로 공격자가 예측 가능한 스테이징 버킷을 선점해 타 프로젝트의 모델 업로드를 가로채고 악성 pickle 모델로 바꿔치기할 수 있었다.",
+        "what": "바꿔치기된 악성 모델은 구글 서빙 컨테이너에서 코드를 실행했다. Unit 42 테스트에서 페이로드는 OAuth 토큰을 탈취하고 같은 구글 관리 테넌트의 다른 모델 아티팩트·로그·메타데이터에 접근했다. 구글은 v1.144.0에서 무작위 버킷명으로 부분 수정, v1.148.0에서 버킷 소유권 검증으로 완전 수정했다.",
+        "points": [
+          "예측 가능한 스테이징 버킷 선점(버킷 스쿼팅)",
+          "악성 pickle 모델로 코드 실행",
+          "OAuth 토큰·아티팩트·로그 탈취 가능",
+          "v1.144.0 부분 수정, v1.148.0 완전 수정"
+        ],
+        "why": [
+          "관리형 AI 플랫폼의 멀티테넌시 격리 취약성",
+          "ML 공급망 공격 경로 확대"
+        ],
+        "action": "Vertex AI SDK v1.148.0+ 업그레이드 및 모든 실행 위치에 명시적 staging_bucket 설정"
+      }
+    },
+    {
+      "id": "infosec-jetbrains-plugin-key-theft",
+      "title": "악성 JetBrains 마켓플레이스 플러그인, 개발자 AI API 키 탈취",
+      "summary": "AI 코딩 어시스턴트 플러그인이 설정 시 입력된 API 키를 즉시 원격 서버로 전송했다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/vgE7SH",
+      "report": {
+        "tldr": "Aikido Security가 JetBrains 마켓플레이스의 AI 코딩 플러그인을 이용해 자격증명을 탈취하는 악성 캠페인을 발견했다.",
+        "what": "플러그인은 최초 다운로드·설정 시 API 키 입력을 요구하고, 입력된 키를 즉시 원격 서버로 전송한다. 사용자에게 API 키를 제공하는 유료 티어도 제공하는데, 연구진은 이 키들이 무료 티어 사용자의 것일 수 있다고 추정한다.",
+        "points": [
+          "설정 시 입력한 API 키 즉시 원격 전송",
+          "유료 티어로 출처 불명 API 키 제공",
+          "탈취된 무료 티어 키 재판매 추정"
+        ],
+        "why": [
+          "IDE 플러그인 생태계의 자격증명 탈취 위협",
+          "AI 코딩 도구 공급망 신뢰 문제"
+        ],
+        "action": "JetBrains AI 플러그인 출처 검증, 노출된 API 키 즉시 폐기·교체"
+      }
+    },
+    {
+      "id": "infosec-end-of-social-engineering",
+      "title": "소셜 엔지니어링의 종말의 시작",
+      "summary": "구글·애플의 AI 네이티브 OS가 방어를 사용자 경계에서 시스템 경계로 옮길 수 있다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/rZbZgD",
+      "report": {
+        "tldr": "구글·애플의 AI 네이티브 OS가 이메일·음성·캘린더·브라우징을 동시에 해석해 소셜 엔지니어링 방어를 사용자 경계에서 시스템 경계로 옮길 수 있다는 전망이다.",
+        "what": "피싱·스미싱·사칭이 효과적인 세 가지 약점으로 정적 자격증명 기반 인증, 다채널 사기를 단일 앱이 놓치는 단편화된 맥락, 의심이 들기 전에 인지를 압축하는 공격 속도를 든다. 행동을 관찰하고 위협 인텔리전스를 공유하는 수십억 개의 온디바이스 에이전트는 기만을 없애진 못해도 훨씬 비싸고 복잡하며 덜 신뢰할 수 있게 만든다.",
+        "points": [
+          "AI OS가 다채널 맥락을 통합 해석",
+          "정적 자격증명·맥락 단편화·인지 압축이 약점",
+          "온디바이스 에이전트의 행동 관찰·위협 공유",
+          "기만의 비용·복잡성 상승"
+        ],
+        "why": [
+          "방어 패러다임이 사용자 경계심에서 시스템 경계심으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "infosec-fifa-worldcup-hack",
+      "title": "FIFA 월드컵 생중계를 통째로 장악할 뻔한 취약점",
+      "summary": "선수 에이전트로 등록하자 FIFA 내부 Entra 테넌트에 추가돼 생중계 송출 제어에 접근했다.",
+      "source": "TLDR Information Security",
+      "url": "https://bobdahacker.com/blog/fifa-hack",
+      "report": {
+        "tldr": "한 보안 연구자가 FIFA 선수 에이전트로 등록하자 조용히 FIFA 내부 Microsoft Entra 테넌트에 추가돼 월드컵 2026 생중계 플랫폼에 접근할 수 있었다.",
+        "what": "저권한 'NO_ROLES' 계정으로도 RTMP 인제스트 URL, 스트림 키, 모든 경기 피드 시작·중단 제어, 라이브 통계·킥오프 시간·해설 데이터 편집이 가능했다. VLC로 라이브 접근을 확인한 뒤 밤새 FIFA·MediaKind·HBS·CISA·FBI에 보고했고 다음 날 패치됐지만 FIFA의 인정은 없었다.",
+        "points": [
+          "선수 에이전트 등록만으로 내부 Entra 테넌트 편입",
+          "저권한 계정으로 스트림 키·송출 제어 노출",
+          "라이브 통계·킥오프·해설 편집 가능",
+          "다음 날 패치, FIFA의 공식 인정 없음"
+        ],
+        "why": [
+          "대형 이벤트 인프라의 권한 관리 실패 사례",
+          "외부 등록 사용자에 대한 테넌트 격리 부재"
+        ]
+      }
+    },
+    {
+      "id": "infosec-openclaw-phishing",
+      "title": "OpenClaw를 피싱해 비밀을 흘리게 만들기",
+      "summary": "Varonis가 OpenClaw 에이전트를 상대로 자격증명 탈취 시나리오를 시험했다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.varonis.com/blog/openclaw-phishing",
+      "report": {
+        "tldr": "Varonis Threat Labs가 민감 자격증명이 든 Gmail을 읽는 OpenClaw 환경을 만들어 피싱 내성을 시험했다.",
+        "what": "긴급 장애 해결용 자격증명 요청과 CRM 익스포트 요청 두 시나리오에서는 강화 프로파일에서도 에이전트가 실패(거부)했다. 반면 기프트카드 사기와 악성 OAuth 플로우 두 시나리오에서는 부분적으로 성공해, 에이전트가 피싱 링크를 클릭했지만 자격증명은 입력하지 않았다.",
+        "points": [
+          "긴급 자격증명·CRM 익스포트 요청은 방어 성공",
+          "기프트카드·악성 OAuth는 부분 성공",
+          "피싱 링크 클릭하나 자격증명 미입력"
+        ],
+        "why": [
+          "AI 에이전트의 사회공학 내성에 대한 실증 데이터",
+          "에이전트 보안 하드닝의 한계 노출"
+        ]
+      }
+    },
+    {
+      "id": "infosec-aws-waf-ai-monetization",
+      "title": "AWS WAF, AI 봇에 콘텐츠 접근 과금하는 기능 추가",
+      "summary": "퍼블리셔가 CloudFront 엣지에서 AI 봇에 요청당 과금하고 HTTP 402로 x402 결제를 유도한다.",
+      "source": "TLDR Information Security",
+      "url": "https://aws.amazon.com/blogs/aws/aws-waf-adds-ai-traffic-monetization-capability-to-help-content-owners-charge-ai-bots-for-content-access/",
+      "report": {
+        "tldr": "AWS WAF Bot Control이 퍼블리셔가 CloudFront 엣지에서 AI 봇에 요청당 과금하도록 지원한다.",
+        "what": "HTTP 402 Payment Required와 기계 판독형 x402 가격 매니페스트를 반환하면 x402 호환 에이전트 런타임이 Base·Solana 등에서 USDC로 자율 결제한다. GPTBot·Claude-Web·Perplexity-Bot 등 650여 종 봇을 분류해 Verified/Unverified 티어를 부여하고 Monetize·Allow·Block·CAPTCHA 등 티어별 액션을 적용한다. Monetize는 CloudFront 연결 web ACL에서만 동작한다.",
+        "points": [
+          "엣지에서 AI 봇 요청당 과금",
+          "HTTP 402 + x402 매니페스트로 USDC 자율 결제",
+          "650여 종 봇 분류·티어별 액션",
+          "Monetize는 CloudFront ACL 한정"
+        ],
+        "why": [
+          "기계 간(M2M) 결제 플로우가 WAF 계층에 표준화",
+          "자율 온체인 서명 에이전트가 새 공격 경로로 부상"
+        ],
+        "action": "x402 자동 서명 에이전트 트래픽을 남용 관점에서 모니터링"
+      }
+    },
+    {
+      "id": "infosec-ent-launch",
+      "title": "Ent — 의도 인식 엔드포인트 보안 플랫폼 출시",
+      "summary": "경량 에이전트로 인간·AI 에이전트 행동을 실시간 분석해 위험 행동 전 정책을 적용한다.",
+      "source": "TLDR Information Security",
+      "url": "https://ent.ai/",
+      "report": {
+        "tldr": "Ent는 기업용 의도 인식(intent-aware) 엔드포인트 보안 플랫폼을 출시했다.",
+        "what": "기기에 경량 에이전트를 두고 인간과 AI 에이전트의 행동을 실시간 분석한다. 위험한 행동이 완료되기 전에 회사 정책을 적용한다.",
+        "points": [
+          "경량 온디바이스 에이전트",
+          "인간·AI 에이전트 행동 실시간 분석",
+          "위험 행동 완료 전 정책 적용"
+        ],
+        "why": [
+          "AI 에이전트 시대의 엔드포인트 방어 신접근"
+        ]
+      }
+    },
+    {
+      "id": "infosec-vulnerablecode",
+      "title": "VulnerableCode (GitHub 저장소)",
+      "summary": "알려진 SW 패키지 취약점 DB에 접근하는 웹 UI·API.",
+      "source": "TLDR Information Security",
+      "url": "https://github.com/aboutcode-org/vulnerablecode",
+      "report": {
+        "tldr": "VulnerableCode는 알려진 소프트웨어 패키지 취약점 데이터베이스에 접근하는 웹 UI와 API를 제공한다.",
+        "what": "업스트림·다운스트림 공개 출처의 포괄적 정보를 담는다. 취약점에 영향받는 패키지와 이를 수정하는 패키지 정보를 함께 제공한다.",
+        "points": [
+          "취약점 DB 웹 UI·API 제공",
+          "업스트림·다운스트림 공개 출처 통합",
+          "영향·수정 패키지 매핑"
+        ],
+        "why": [
+          "오픈소스 취약점 관리 자동화 도구"
+        ]
+      }
+    },
+    {
+      "id": "infosec-amd-tsme-removed",
+      "title": "AMD, 소비자 CPU에서 메모리 암호화(TSME) 조용히 제거",
+      "summary": "AGESA 1.2.7.0부터 소비자 Ryzen에서 TSME가 비활성화돼 콜드부트 공격 보호가 사라졌다.",
+      "source": "TLDR Information Security",
+      "url": "https://arstechnica.com/security/2026/06/users-cry-foul-after-amd-stripped-memory-crypto-from-its-consumer-cpus/",
+      "report": {
+        "tldr": "AMD가 AGESA 1.2.7.0부터 소비자 Ryzen 칩에서 Transparent Secure Memory Encryption(TSME)을 조용히 제거했다.",
+        "what": "내부 DfIsTsmeEnabled 플래그가 소비자 SKU에서 FALSE를 반환하고 PRO·EPYC에서만 TRUE를 반환한다. 콜드부트 공격·DRAM 스누핑·메모리 탈거에 대한 보호가 윈도우에서 감지 불가, 리눅스에서 발견 어렵게 됐다. MSI 엔지니어링은 AMD가 TSME를 PRO 전용이라 했다고 확인했지만, AMD는 이것이 의도된 정책인지 펌웨어 버그인지 공식 해명하지 않았다.",
+        "points": [
+          "AGESA 1.2.7.0부터 소비자 SKU TSME 비활성",
+          "콜드부트·DRAM 스누핑 보호 상실",
+          "PRO·EPYC만 TSME 유지",
+          "정책인지 버그인지 AMD 미해명"
+        ],
+        "why": [
+          "소비자 하드웨어의 메모리 보안 후퇴",
+          "운영상 영구 제한과 수정 가능 버그의 구분 중요"
+        ],
+        "action": "소비자 실리콘의 TSME 의존 시 펌웨어 감사 전까지 보호 부재로 간주"
+      }
+    },
+    {
+      "id": "infosec-nspm-12-memo",
+      "title": "백악관, 국가안보시스템 사이버보안 강화 메모(NSPM-12)",
+      "summary": "트럼프가 NSPM-12에 서명해 CNSS 부활·NSA 국장 국가관리자 지정 등을 단행했다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/TbmIEA",
+      "report": {
+        "tldr": "트럼프 대통령이 기밀·군사망 등 국가안보시스템(NSS)의 사이버보안을 강화하는 NSPM-12에 서명했다.",
+        "what": "메모는 CNSS를 부활시키고 NSA 국장을 NSS 국가관리자로 지정하며 긴급 지시·기준 요구사항 권한을 부여한다. 각 기관은 NSS 인벤토리를 최신으로 유지해야 하고, CNSS는 3개월 내 지시 개정·로드맵 수립·레거시 정책 정비를 해야 한다.",
+        "points": [
+          "CNSS 부활",
+          "NSA 국장을 NSS 국가관리자로 지정",
+          "긴급 지시·기준 요구사항 권한 부여",
+          "CNSS 3개월 내 지시 개정 의무"
+        ],
+        "why": [
+          "美 정부 기밀망 보안 거버넌스 재편"
+        ]
+      }
+    },
+    {
+      "id": "infosec-roblox-age-verification",
+      "title": "로블록스, 새 연령 검증 캠페인 도입",
+      "summary": "여러 소송을 계기로 연령 검증 기술로 채팅·성숙도 권한을 연령별로 제한한다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.nbcnews.com/tech/tech-news/inside-roblox-age-verification-efforts-rcna346973",
+      "report": {
+        "tldr": "로블록스가 여러 소송을 계기로 연령 검증 기술을 도입해 사용자를 연령별 제한 계정에 배정한다.",
+        "what": "사용자는 연령 배정에 이의를 제기할 수 있고 부모는 자녀 계정 연령을 수동 변경할 수 있다. 또한 사용 언어, 플레이 시간대, 게임 종류 같은 신호를 받아 연령을 지속 추정하는 '연속 연령 추정' 기술도 사용한다.",
+        "points": [
+          "연령별 채팅·성숙도 권한 제한",
+          "연령 배정 이의제기·부모 수동 변경 가능",
+          "언어·시간대·게임 종류로 연속 연령 추정"
+        ],
+        "why": [
+          "아동 안전 소송 대응과 프라이버시 논쟁 동시 부각"
+        ]
+      }
+    },
+    {
+      "id": "infosec-copilot-searchleak",
+      "title": "Copilot 'SearchLeak' 공격 — 원클릭 데이터 탈취",
+      "summary": "M365 Copilot Search의 3단계 결함으로 조작된 링크 한 번에 이메일·MFA 코드가 유출됐다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/7rEFTz",
+      "report": {
+        "tldr": "Microsoft 365 Copilot Search의 3단계 'SearchLeak' 결함으로 조작된 링크 한 번에 이메일·MFA 코드 등 Copilot 색인 파일이 유출될 수 있었다.",
+        "what": "연구진이 발견한 이 취약점은 단 한 번의 클릭으로 Copilot이 색인한 비즈니스 파일을 탈취하게 했다. 이메일과 MFA 코드까지 외부로 빠져나갈 수 있었다.",
+        "points": [
+          "M365 Copilot Search 3단계 결함",
+          "조작된 링크 원클릭으로 데이터 탈취",
+          "이메일·MFA 코드·색인 파일 유출"
+        ],
+        "why": [
+          "엔터프라이즈 AI 검색의 데이터 유출 경로"
+        ],
+        "action": "M365 Copilot 패치 적용 여부 확인"
+      }
+    },
+    {
+      "id": "infosec-apple-hide-my-email",
+      "title": "애플, 'Hide My Email'을 무력화할 변경 예고",
+      "summary": "릴레이 주소를 @private.icloud.com 서브도메인으로 옮겨 서비스가 일괄 차단하기 쉬워진다.",
+      "source": "TLDR Information Security",
+      "url": "https://arseniyshestakov.com/2026/06/16/apple-is-about-to-make-hide-my-email-useless/",
+      "report": {
+        "tldr": "애플이 Sign in with Apple과 Hide My Email 별칭을 @private.icloud.com 서브도메인으로 옮긴다.",
+        "what": "이로 인해 서비스가 일반 iCloud 메일에 영향 주지 않고 모든 릴레이 주소를 손쉽게 차단할 수 있게 된다. 프라이버시 보호 기능의 실효성이 떨어질 수 있다.",
+        "points": [
+          "릴레이 주소 @private.icloud.com 서브도메인 이전",
+          "서비스의 릴레이 일괄 차단 용이",
+          "일반 iCloud 메일은 영향 없음"
+        ],
+        "why": [
+          "프라이버시 별칭 기능의 실효성 저하 우려"
+        ]
+      }
+    },
+    {
+      "id": "infosec-grapheneos-android17",
+      "title": "GrapheneOS, 안드로이드 17 포팅 완료",
+      "summary": "출시 당일 모든 지원 Pixel 기기에 안드로이드 17 포팅을 마쳤다.",
+      "source": "TLDR Information Security",
+      "url": "https://discuss.grapheneos.org/d/36469-grapheneos-has-been-ported-to-android-17-and-official-releases-are-coming-soon",
+      "report": {
+        "tldr": "GrapheneOS가 출시 당일 모든 지원 Pixel 기기에 안드로이드 17 포팅을 완료했다.",
+        "what": "Pixel 6a, 7, 7a, 8, 10a, 10, 10 Pro Fold 전 기기에 적용됐다. 공식 릴리스가 곧 제공될 예정이다.",
+        "points": [
+          "출시 당일 안드로이드 17 포팅 완료",
+          "지원 Pixel 전 기기 적용",
+          "공식 릴리스 임박"
+        ],
+        "why": [
+          "프라이버시 중심 OS의 빠른 대응"
+        ]
+      }
+    }
+  ]
+}

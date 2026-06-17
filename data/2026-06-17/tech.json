@@ -1,0 +1,253 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-spacex-cursor-60b",
+      "title": "스페이스X, AI 코딩 스타트업 Cursor를 600억 달러에 인수",
+      "summary": "스페이스X가 IPO 직후 Cursor(Anysphere)를 600억 달러 전량 주식 거래로 인수한다.",
+      "source": "TLDR",
+      "url": "https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html",
+      "report": {
+        "tldr": "스페이스X가 IPO 직후 AI 코딩 스타트업 Cursor를 600억 달러 규모 주식 거래로 인수한다.",
+        "what": "2022년 설립된 Cursor는 폭발적으로 성장한 AI 코딩 도구로, 지난 11월 연환산 매출 10억 달러를 넘겼다. 스페이스X는 아직 투자자에게 Cursor의 고객 명단·성장세·매출 세부를 제공하지 않았다. 합병은 규제 승인을 전제로 3분기 중 종료될 전망이다. 이번 인수는 xAI 중심의 AI 사업을 강화하고 OpenAI·Anthropic과의 격차를 좁히려는 포석이다.",
+        "points": [
+          "600억 달러 전량 주식 거래",
+          "Cursor 연환산 매출 11월 10억 달러 돌파",
+          "3분기 중 규제 승인 전제로 종료 예상",
+          "xAI 기반 엔터프라이즈 AI 강화 목적",
+          "스페이스X 블록버스터 IPO 직후 단행"
+        ],
+        "why": [
+          "AI 코딩 도구를 둘러싼 빅테크 인수 경쟁 격화",
+          "오늘 빅테크·디자인·개발 3개 에디션에 동시 등장한 최대 화제",
+          "Grok 관련 리더십 이탈·법적 리스크 속 반전 카드"
+        ],
+        "context": "디자인·개발 에디션도 같은 인수를 다뤘으며, 인수 대상 법인명은 Cursor 운영사 Anysphere다."
+      }
+    },
+    {
+      "id": "tech-apple-camera-airpods",
+      "title": "애플, 2027년 카메라 탑재 에어팟·폴더블 아이폰 계획",
+      "summary": "카메라 에어팟이 폴더블 아이폰·20주년 아이폰과 함께 2027년 말 출시 예정이다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/2onbhd",
+      "report": {
+        "tldr": "애플의 카메라 탑재 에어팟이 2027년 말 폴더블 아이폰·20주년 아이폰과 함께 출시될 예정이다.",
+        "what": "세 제품 모두 개발 후반 단계에 도달했다. 애플은 이 출시를 자사 사상 최대 규모의 신제품 물결로 삼으려 한다.",
+        "points": [
+          "카메라 에어팟 2027년 말 출시",
+          "폴더블 아이폰·20주년 아이폰 동반 출시",
+          "세 제품 모두 개발 후반 단계",
+          "사상 최대 신제품 물결 목표"
+        ],
+        "why": [
+          "웨어러블·폼팩터 혁신으로 성장 동력 모색"
+        ]
+      }
+    },
+    {
+      "id": "tech-genesis-ai-eno",
+      "title": "에릭 슈미트 후원 Genesis AI, 범용 로봇 Eno·LG 협업 공개",
+      "summary": "Genesis AI가 추론·적응하는 범용 로봇 Eno를 공개하고 LG와 산업 고객 배치를 추진한다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/IvOWmK",
+      "report": {
+        "tldr": "전 구글 CEO 에릭 슈미트가 후원한 Genesis AI가 범용 로봇 Eno를 공개했다.",
+        "what": "Eno는 사전 정의된 작업을 넘어 추론·적응하고 결과에 책임지는 능력을 갖췄다. Genesis AI는 LG 그룹의 컨설팅·서비스 부문과 협업해 연말까지 산업 고객에 로봇을 배치하려 하며, 다음 단계 자금을 조달 중이다.",
+        "points": [
+          "범용 로봇 Eno 공개",
+          "추론·적응·결과 책임 역량",
+          "LG와 산업 고객 연말 배치 추진",
+          "차기 자금 조달 진행"
+        ],
+        "why": [
+          "범용 로보틱스 상용화 경쟁 가세"
+        ]
+      }
+    },
+    {
+      "id": "tech-snap-ar-glasses",
+      "title": "스냅, 2,195달러 AR 글래스 'Specs' 공개",
+      "summary": "스피겔 CEO가 포스트 스마트폰을 노린 $2,195 AR 글래스 Specs를 발표했다.",
+      "source": "TLDR",
+      "url": "https://www.cnbc.com/2026/06/16/snap-unveils-2195-specs-ar-glasses-spiegel-bets-on-post-smartphone.html",
+      "report": {
+        "tldr": "스냅이 2,195달러(환불 가능 보증금 200달러)의 AR 글래스 Specs를 공개했다.",
+        "what": "올해 말 미국·영국·프랑스에서 출시 예정이다. 디지털 영상을 시야에 띄워 현실 속 공유 경험으로 컴퓨팅을 쓰는 새 방식을 제시한다. 2016년의 130달러 카메라 전용 Spectacles는 흥행에 실패했으며, 메타는 Ray-Ban Meta로 일부 성공을 거뒀고 구글은 삼성과 AI 글래스를 준비 중이다.",
+        "points": [
+          "$2,195, 보증금 $200",
+          "올해 말 美·英·佛 출시",
+          "현실 속 공유형 AR 컴퓨팅",
+          "메타·구글과 AR 글래스 경쟁"
+        ],
+        "why": [
+          "포스트 스마트폰 폼팩터 경쟁 본격화"
+        ]
+      }
+    },
+    {
+      "id": "tech-s3-annotations",
+      "title": "아마존 S3 어노테이션 — 객체에 쿼리 가능한 풍부한 맥락 부착",
+      "summary": "객체당 최대 1,000개·각 1MB 어노테이션을 JSON·XML 등으로 부착·수정할 수 있다.",
+      "source": "TLDR",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+      "report": {
+        "tldr": "AWS가 S3 객체에 풍부한 비즈니스 맥락을 직접 부착하는 새 메타데이터 기능 어노테이션을 내놨다.",
+        "what": "객체당 최대 1,000개의 명명된 어노테이션을 각 1MB까지 저장할 수 있고 JSON·XML·YAML·plain text 등 유연한 포맷을 지원한다. 객체를 다시 쓰지 않고 언제든 수정·삭제할 수 있으며, 전 AWS 리전에서 즉시 사용 가능하다.",
+        "points": [
+          "객체당 최대 1,000개 어노테이션, 각 1MB",
+          "JSON·XML·YAML·텍스트 지원",
+          "객체 재작성 없이 수정·삭제",
+          "전 리전 즉시 제공"
+        ],
+        "why": [
+          "AI·분석을 위한 객체 메타데이터 관리 강화"
+        ]
+      }
+    },
+    {
+      "id": "tech-meta-engineering",
+      "title": "메타는 왜 자사 엔지니어링 조직을 파괴하는가",
+      "summary": "AI 우선 정책 강행으로 메타가 강했던 엔지니어링 문화를 빠르게 해체하고 있다.",
+      "source": "TLDR",
+      "url": "https://newsletter.pragmaticengineer.com/p/why-is-meta-destroying-its-engineering",
+      "report": {
+        "tldr": "메타가 지난 수십 년간 자랑하던 고성과 엔지니어링 문화를 최근 몇 주 만에 해체하고 있다는 분석이다.",
+        "what": "'빠르게 움직이고 깨뜨려라' 문화에서 엔지니어가 임팩트에 집중하며 비즈니스와 엔지니어링을 균형 잡던 조직이 4월 이후 급변했다. 이 글은 리더십의 사고, 검증된 성공 문화를 가장 효율적으로 무너뜨리는 요인들을 분석한다.",
+        "points": [
+          "AI 우선 정책 강행",
+          "데이터 라벨링 강제·활동 추적·AI 사용 인사평가 연계",
+          "자율성 축소로 사기 저하·인재 이탈",
+          "조직 혼란과 보안·신뢰성 실패"
+        ],
+        "why": [
+          "빅테크 엔지니어링 문화 변동의 상징적 사례",
+          "오늘 개발 에디션에도 동시 등장"
+        ]
+      }
+    },
+    {
+      "id": "tech-openai-losing-billions",
+      "title": "유출 재무 문서, OpenAI 연간 수십억 달러 적자 확인",
+      "summary": "2025년 매출 130.7억 달러로 급증했으나 비용은 191.8억 달러로 더 빠르게 늘었다.",
+      "source": "TLDR",
+      "url": "https://arstechnica.com/ai/2026/06/leaked-financial-docs-show-openai-is-losing-billions-of-dollars-a-year/",
+      "report": {
+        "tldr": "독립 기자가 입수한 감사 재무제표에서 OpenAI가 매출 급증에도 연간 수십억 달러 적자임이 드러났다.",
+        "what": "매출은 2024년 37억 달러에서 2025년 130.7억 달러로 늘었지만, 비용은 2024년 78.1억 달러에서 2025년 191.8억 달러로 더 크게 증가했다. 새 모델 학습에 든 높은 비용이 반영된 수치다. 2030년 흑자 전환을 투자자에게 약속한 회사로서는 우려스러운 방향이다.",
+        "points": [
+          "2025년 매출 130.7억 달러(전년 37억)",
+          "2025년 비용 191.8억 달러(전년 78.1억)",
+          "모델 학습 비용이 적자 견인",
+          "2030년 흑자 목표와 괴리"
+        ],
+        "why": [
+          "AI 선두 기업의 수익성 지속가능성 의문"
+        ]
+      }
+    },
+    {
+      "id": "tech-anthropic-trump-deal",
+      "title": "Anthropic·트럼프 측, 강력 모델 접근 복원 협상",
+      "summary": "Fable 가드레일 우회 발견으로 백악관이 제한한 모델 접근을 양측이 빠르게 풀려 한다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/FMoz6v",
+      "report": {
+        "tldr": "Anthropic과 트럼프 행정부가 백악관의 최신 모델 접근 제한을 둘러싼 보안 우려를 해소하려 협상 중이다.",
+        "what": "양측은 빠른 해결을 위해 움직이고 있다. 백악관은 급성장하는 AI 산업을 책임 있게 감독할 수 있음을 보여야 하는 압박을 받고 있다. 이번 사안은 아마존 연구진이 발견한 Fable 가드레일 우회에서 비롯됐다.",
+        "points": [
+          "백악관의 최신 모델 접근 제한 배경",
+          "Fable 가드레일 우회가 발단",
+          "양측 신속 해결 모색",
+          "AI 감독 책임론 압박"
+        ],
+        "why": [
+          "프런티어 모델 수출통제 사안의 정치적 전개",
+          "AI·개발 에디션과 연결된 핵심 사안"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-keylogger-appstore",
+      "title": "애플, iOS 앱스토어에 타깃 광고용 키로거 추가 논란",
+      "summary": "앱스토어가 모든 탭을 기록해 계정과 연결된 채 비암호화로 애플에 전송한다는 지적이다.",
+      "source": "TLDR",
+      "url": "https://www.osnews.com/story/145322/apple-adds-keylogger-to-ios-app-store-for-targeted-advertising-tied-to-your-account-and-unencrypted/",
+      "report": {
+        "tldr": "iOS 앱스토어가 사용자의 모든 탭을 기록해 비암호화 상태로 애플에 전송하며 계정과 완전히 연결한다는 지적이 제기됐다.",
+        "what": "보고에 따르면 앱스토어는 모든 탭과 다수의 기타 정보를 수집한다. 수집 데이터는 암호화 없이 전송되고 사용자 계정에 전면 연동된다.",
+        "points": [
+          "앱스토어 내 모든 탭 기록",
+          "비암호화 전송",
+          "사용자 계정과 완전 연동",
+          "타깃 광고 목적"
+        ],
+        "why": [
+          "프라이버시를 내세운 애플의 데이터 수집 논란"
+        ]
+      }
+    },
+    {
+      "id": "tech-aws-blocks",
+      "title": "AWS Blocks — AWS 백엔드 구성용 오픈소스 프레임워크(프리뷰)",
+      "summary": "인프라 도구 학습 없이 AWS 백엔드를 구성하는 오픈소스 타입스크립트 프레임워크.",
+      "source": "TLDR",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-blocks-preview/",
+      "report": {
+        "tldr": "AWS Blocks는 인프라 도구 학습 없이 AWS 백엔드 기능을 구성하게 해주는 오픈소스 타입스크립트 프레임워크다.",
+        "what": "애플리케이션 개발자가 AWS에서 백엔드 역량을 원할 때 인프라 도구를 배우는 부담을 없앤다. 현재 프리뷰로 제공된다.",
+        "points": [
+          "오픈소스 타입스크립트 프레임워크",
+          "인프라 도구 학습 불필요",
+          "앱 개발자용 백엔드 구성",
+          "프리뷰 단계"
+        ],
+        "why": [
+          "AWS 백엔드 개발 진입장벽 완화"
+        ]
+      }
+    },
+    {
+      "id": "tech-cms-unbundling",
+      "title": "AI와 거대한 CMS 언번들링",
+      "summary": "AI가 생성과 통제를 분리하며 콘텐츠가 시스템 간 공유·승인·신뢰되는 곳에서 CMS 중요성이 커진다.",
+      "source": "TLDR",
+      "url": "https://dri.es/ai-and-the-great-cms-unbundling",
+      "report": {
+        "tldr": "AI가 콘텐츠 생성과 통제를 분리(언번들링)하면서 CMS의 역할이 재정의된다는 분석이다.",
+        "what": "콘텐츠가 시스템 전반에서 공유·재사용·승인·신뢰되는 모든 지점에서 CMS가 더 중요해진다. 생성은 AI로 분리되지만 거버넌스·통제 계층의 가치는 상승한다.",
+        "points": [
+          "AI가 생성과 통제 분리",
+          "공유·재사용·승인·신뢰 지점에서 CMS 부상",
+          "콘텐츠 거버넌스 가치 상승"
+        ],
+        "why": [
+          "AI 시대 콘텐츠 인프라의 재편 관점"
+        ]
+      }
+    },
+    {
+      "id": "tech-android-17-pixel",
+      "title": "안드로이드 17, 오늘부터 Pixel 폰·워치에 배포 시작",
+      "summary": "소수의 새 기능과 함께 미래를 위한 기반을 다지는 업데이트.",
+      "source": "TLDR",
+      "url": "https://arstechnica.com/gadgets/2026/06/android-17-starts-hitting-pixel-phones-and-watches-today/",
+      "report": {
+        "tldr": "안드로이드 17이 오늘부터 Pixel 폰과 워치에 배포되기 시작했다.",
+        "what": "소수의 새 기능을 추가하면서 향후 발전을 위한 기반을 마련한다. AppFunctions·Android MCP 등 AI 에이전트 통합이 핵심 토대다.",
+        "points": [
+          "Pixel 폰·워치 배포 시작",
+          "소규모 신기능",
+          "향후 AI 통합 기반 마련"
+        ],
+        "why": [
+          "온디바이스 AI 에이전트 시대의 OS 토대"
+        ]
+      }
+    }
+  ]
+}
