@@ -11,6 +11,19 @@
       "summary": "ChatGPT 점유율이 처음으로 50% 밑으로 떨어지고 사용자가 Gemini·Claude·Grok로 이동 중이다.",
       "source": "TLDR AI",
       "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "originalDate": "2026-06-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 어시스턴트 시장 · 벤더 전략"
+      },
+      "related": [
+        "멀티 어시스턴트 전제로 도구·벤더 전략 재점검",
+        "작업별 모델 성능·비용 비교 정례화",
+        "ChatGPT·Gemini·Claude·Grok 점유율 추세 모니터링"
+      ],
       "report": {
         "tldr": "ChatGPT의 AI 어시스턴트 시장 점유율이 처음으로 50% 아래로 내려갔다.",
         "what": "사용자들이 구글 Gemini, Anthropic Claude, xAI Grok 등 다른 어시스턴트로 분산되고 있다. ChatGPT는 역대 가장 빠르게 월 10억 사용자를 돌파한 앱이며 여전히 세계에서 가장 인기 있는 AI 어시스턴트다. 다만 사용자들이 작업에 따라 어시스턴트를 자유롭게 갈아타는 경향이 점점 강해지고 있다.",
