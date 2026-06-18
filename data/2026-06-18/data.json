@@ -1,0 +1,287 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-openai-deployment-simulation",
+      "title": "배포 시뮬레이션으로 출시 전 모델 행동 예측",
+      "summary": "OpenAI가 과거 대화 프리픽스를 재생해 후보 모델의 실제 행동을 예측한다.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/5Frijj",
+      "report": {
+        "tldr": "OpenAI의 Deployment Simulation은 출시 전 안전 기법으로 모델의 실제 행동을 예측한다.",
+        "what": "이전 배포의 비식별화된 실제 사용자 대화 프리픽스를 재생하고 후보 모델로 응답을 생성해, 프로덕션에서 어떻게 행동할지 예측한다. 전통적 평가보다 훨씬 현실적인 커버리지와 더 나은 이상 행동 발생률 추정을 제공한다.",
+        "points": [
+          "실제 대화 프리픽스 재생",
+          "후보 모델로 응답 생성",
+          "현실적 커버리지 확보",
+          "이상 행동률 추정 개선"
+        ],
+        "why": [
+          "출시 전 안전 평가의 현실성 강화"
+        ]
+      }
+    },
+    {
+      "id": "data-rippling-ai-database",
+      "title": "에이전트형 GTM을 위한 AI 데이터베이스 구축",
+      "summary": "Rippling이 레이크하우스 위에 통합 인텔리전스 계층으로 GTM 데이터를 재구축했다.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/6oCNbG",
+      "report": {
+        "tldr": "Rippling이 에이전트형 운영을 위해 GTM 데이터 기반을 레이크하우스 위 AI 데이터베이스로 재구축했다.",
+        "what": "분절된 웨어하우스와 수작업을 통합 인텔리전스 계층으로 대체했다. 핵심 요소는 제3자 소스 전반의 ML 기반 엔티티 해소, 메달리온 아키텍처, 보강된 대화 데이터에 대한 시맨틱 검색, AI 에이전트가 쓰는 자연어 Genie 인터페이스다.",
+        "points": [
+          "레이크하우스 기반 AI DB",
+          "ML 엔티티 해소",
+          "메달리온 아키텍처·시맨틱 검색",
+          "자연어 Genie 인터페이스"
+        ],
+        "why": [
+          "에이전트 운영을 위한 데이터 기반 재설계"
+        ]
+      }
+    },
+    {
+      "id": "data-instacart-ads-retrieval",
+      "title": "점수에서 철자로: 인스타카트 광고 검색 재구축",
+      "summary": "인스타카트가 BERT 점수 모델에서 토큰 단위 생성 방식으로 전환했다.",
+      "source": "TLDR Data",
+      "url": "https://tech.instacart.com/from-scoring-to-spelling-rebuilding-ads-retrieval-at-instacart-cf36b4e8d1bb",
+      "report": {
+        "tldr": "인스타카트가 광고 검색 시스템을 점수 기반 BERT에서 생성 방식으로 재구축했다.",
+        "what": "모든 제품 ID를 점수화하던 방식에서, Instacart Semantic ID로 추천을 토큰 단위로 '철자화'하는 생성 접근으로 옮겼다. 이로써 어휘 병목, 콜드스타트, 구조적 드리프트를 해결하고 더 나은 일반화와 전체 카탈로그 커버리지를 달성했다.",
+        "points": [
+          "BERT 점수→생성 방식 전환",
+          "Semantic ID로 토큰 단위 생성",
+          "어휘 병목·콜드스타트 해결",
+          "전체 카탈로그 커버리지"
+        ],
+        "why": [
+          "추천·검색의 생성형 아키텍처 전환 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-guidewire-federated-query",
+      "title": "대규모 ML용 페더레이션 쿼리 플랫폼",
+      "summary": "Guidewire가 Trino로 Iceberg·Redshift·OpenSearch·S3를 페더레이션했다.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/JmhIBi",
+      "report": {
+        "tldr": "Guidewire가 Apache Trino로 여러 저장소에 걸친 SQL을 페더레이션해 탐색적 ML 워크플로를 가속했다.",
+        "what": "Iceberg, Redshift, OpenSearch, 고객 S3 버킷에 걸쳐 SQL을 페더레이션했다. 도메인 카탈로그와 Lake Formation ABAC, Trino RBAC로 격리를 처리했지만 Trino의 S3 계층에서 거버넌스 공백이 드러났다.",
+        "points": [
+          "Trino로 다중 저장소 SQL 페더레이션",
+          "Iceberg·Redshift·OpenSearch·S3",
+          "ABAC+RBAC로 격리",
+          "S3 계층 거버넌스 공백 발견"
+        ],
+        "why": [
+          "페더레이션 쿼리의 이점과 거버넌스 과제"
+        ]
+      }
+    },
+    {
+      "id": "data-hive-to-iceberg",
+      "title": "왜 Hive 스타일 데이터 레이크에서 Apache Iceberg로 옮겼나",
+      "summary": "AWS의 Iceberg 생태계 강화 후 이전하며 Hive의 오랜 고질을 해결했다.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/mvGXjY",
+      "report": {
+        "tldr": "Hive 스타일 파티션 데이터 레이크에서 Apache Iceberg로 이전한 경험담이다.",
+        "what": "AWS가 S3 Tables 등 Iceberg 생태계 지원을 강화한 뒤 이전해 Hive 스타일 아키텍처의 오랜 고질을 풀었다. Iceberg는 효율적 프루닝, 매끄러운 스키마·파티션 진화, 타임 트래블, 더 나은 쿼리 계획 성능을 제공한다.",
+        "points": [
+          "Hive→Iceberg 이전",
+          "AWS S3 Tables 등 지원 강화",
+          "스키마·파티션 진화·타임 트래블",
+          "쿼리 계획 성능 개선"
+        ],
+        "why": [
+          "레이크하우스 테이블 포맷 전환 흐름"
+        ]
+      }
+    },
+    {
+      "id": "data-gpu-workload",
+      "title": "데이터 처리가 GPU 워크로드가 되고 있다",
+      "summary": "CPU 중심 SQL ETL에서 GPU 중심 추론 파이프라인으로 이동 중이다.",
+      "source": "TLDR Data",
+      "url": "https://anyscale.com/blog/data-processing-becoming-gpu-workload",
+      "report": {
+        "tldr": "데이터 처리가 CPU 중심 SQL ETL에서 영상·오디오·PDF·Slack·센서 데이터용 GPU 중심 추론 파이프라인으로 이동하고 있다.",
+        "what": "이제 모델이 데이터를 먼저 큐레이션해 임베딩·라벨·요약·구조화 레코드를 만들어 SQL·벡터 시스템에 공급한다. 이는 플랫폼을 혼합 컴퓨트, 스트리밍, API 인지 동시성 방향으로 밀어붙인다.",
+        "points": [
+          "SQL ETL→GPU 추론 파이프라인",
+          "모델이 데이터 선큐레이션",
+          "임베딩·라벨·요약 생성",
+          "혼합 컴퓨트·스트리밍 필요"
+        ],
+        "why": [
+          "데이터 인프라의 GPU 중심 재편"
+        ]
+      }
+    },
+    {
+      "id": "data-entity-resolution-mdm",
+      "title": "정체성 위기: 엔티티 해소가 모든 데이터 스택의 빠진 토대",
+      "summary": "엔티티 해소와 웨어하우스 네이티브 MDM이 신뢰 데이터·AI의 핵심 인프라다.",
+      "source": "TLDR Data",
+      "url": "https://moderndata101.substack.com/p/the-identity-crisis-entity-resolution",
+      "report": {
+        "tldr": "엔티티 해소와 웨어하우스 네이티브 MDM이 신뢰할 수 있는 데이터 제품·AI·컴플라이언스의 핵심 인프라라는 글이다.",
+        "what": "엔터프라이즈 규모에서는 로컬 점검만으로 부족해 중복 고객, 유령 엔티티, 모델 오염 위험이 생긴다. 해법은 블로킹, 규칙·ML 매칭, 그래프 클러스터링, 사람 검토를 웨어하우스 내부에서 결합하는 패턴이다.",
+        "points": [
+          "엔티티 해소+웨어하우스 MDM",
+          "중복·유령 엔티티·오염 위험",
+          "블로킹·규칙/ML 매칭·그래프 클러스터링",
+          "웨어하우스 내 사람 검토"
+        ],
+        "why": [
+          "AI 신뢰성의 토대로서 엔티티 해소"
+        ]
+      }
+    },
+    {
+      "id": "data-databricks-lakehouse-rt",
+      "title": "Databricks Lakehouse//RT: 통합 레이크하우스의 실시간 성능",
+      "summary": "Reyden 기반 Lakehouse//RT가 레이크하우스 데이터에 밀리초 쿼리를 제공한다.",
+      "source": "TLDR Data",
+      "url": "https://www.databricks.com/blog/introducing-lakehousert-real-time-performance-unified-lakehouse",
+      "report": {
+        "tldr": "Databricks Lakehouse//RT는 Reyden으로 구동되는 실시간 데이터 웨어하우스다.",
+        "what": "별도 서빙 계층이나 데이터 이동 없이 레이크하우스 데이터에서 밀리초 쿼리 성능을 제공한다. 성능·거버넌스·개방형 데이터 포맷을 Databricks 레이크하우스 안에 유지하며 실시간 분석·BI·앱 서빙·관측성을 단순화하려 한다.",
+        "points": [
+          "Reyden 기반 실시간 웨어하우스",
+          "밀리초 쿼리, 데이터 이동 불필요",
+          "별도 서빙 계층 제거",
+          "거버넌스·개방 포맷 유지"
+        ],
+        "why": [
+          "레이크하우스의 실시간 분석 통합 흐름"
+        ]
+      }
+    },
+    {
+      "id": "data-datapitfalls-repo",
+      "title": "datapitfalls (GitHub): Claude 기반 데이터 오류 감사",
+      "summary": "차트·코드·분석을 추론 전 과정에 걸쳐 흔한 데이터 실수로 감사한다.",
+      "source": "TLDR Data",
+      "url": "https://github.com/bjonesdataliteracy/datapitfalls",
+      "report": {
+        "tldr": "datapitfalls는 차트·코드·서술 분석·문서를 추론 전 과정에 걸쳐 감사하는 오픈소스 Claude 기반 도구다.",
+        "what": "단순 차트 린팅을 넘어 Ben Jones의 'Avoiding Data Pitfalls' 분류 체계로 편향, 조용한 파이프라인 실패, 잘못된 집계, 통계 오류, 오해 소지 시각화, 불명확한 표현을 식별하고 심각도와 해법을 설명한다.",
+        "points": [
+          "질문 설정부터 소통까지 감사",
+          "Avoiding Data Pitfalls 분류 활용",
+          "편향·집계·통계 오류 식별",
+          "심각도·해법 설명"
+        ],
+        "why": [
+          "데이터 분석 품질 관리의 자동화"
+        ]
+      }
+    },
+    {
+      "id": "data-pg-kpart",
+      "title": "pg_kpart 1.0",
+      "summary": "파티션 키 프루닝이 안 되면 PostgreSQL 파티션 쿼리를 차단한다.",
+      "source": "TLDR Data",
+      "url": "https://www.postgresql.org/about/news/pg_kpart-version-10-3316/",
+      "report": {
+        "tldr": "pg_kpart는 플래너가 파티션 키로 프루닝하지 못하면 PostgreSQL 파티션 테이블 쿼리를 차단한다.",
+        "what": "우발적 풀스캔과 I/O 폭주를 막는다. 감사 롤아웃, 화이트/블랙리스트 스코핑, SQLSTATE 처리를 지원하며 Linux 전용이다.",
+        "points": [
+          "파티션 프루닝 강제",
+          "풀스캔·I/O 폭주 방지",
+          "감사·화이트/블랙리스트 지원",
+          "Linux 전용"
+        ],
+        "why": [
+          "PostgreSQL 파티션 성능 보호 도구"
+        ]
+      }
+    },
+    {
+      "id": "data-salesforce-data360",
+      "title": "Data 360 세그멘테이션, 월 1000조 레코드 처리",
+      "summary": "Salesforce가 임의 고객 스키마 전반에서 월 1000조 레코드를 처리한다.",
+      "source": "TLDR Data",
+      "url": "https://engineering.salesforce.com/how-data-360-segmentation-processes-a-quadrillion-records-across-arbitrary-customer-data-models/",
+      "report": {
+        "tldr": "Salesforce의 Data 360 세그멘테이션이 임의 고객 스키마·관계 그래프·저장소 전반에서 월 1000조(quadrillion) 레코드를 처리한다.",
+        "what": "월 약 300만 개의 Spark 작업을 돌린다. 메타데이터가 병목이 됐는데, 일부 환경은 3,000~6,000개 테이블, 500MB+ 메타데이터 페이로드, 수십억 개의 후보 쿼리 계획에 달했다.",
+        "points": [
+          "월 1000조 레코드 처리",
+          "월 약 300만 Spark 작업",
+          "메타데이터가 병목",
+          "최대 500MB+ 메타데이터 페이로드"
+        ],
+        "why": [
+          "초대규모 세그멘테이션의 메타데이터 확장 과제"
+        ]
+      }
+    },
+    {
+      "id": "data-heidi-clinical-finetune",
+      "title": "임상 AI 모델을 프런티어 동급으로 파인튜닝",
+      "summary": "Heidi AI가 소형 임상 모델을 블라인드 선호 테스트에서 프런티어 동급으로 끌어올렸다.",
+      "source": "TLDR Data",
+      "url": "https://www.heidihealth.com/blog/clinical-ai-model-fine-tuning",
+      "report": {
+        "tldr": "Heidi AI가 소형 임상 모델을 블라인드 임상의 선호 테스트에서 프런티어 모델과 동급으로 파인튜닝했다.",
+        "what": "그 우위는 독점 임상의 피드백, 안전 점검, 실제 임상 판단에 맞춘 제품 루프에서 나온다.",
+        "points": [
+          "소형 임상 모델 파인튜닝",
+          "블라인드 선호 테스트 동급",
+          "독점 임상의 피드백 활용",
+          "안전 점검·제품 루프"
+        ],
+        "why": [
+          "도메인 데이터로 소형 모델의 경쟁력 확보"
+        ]
+      }
+    },
+    {
+      "id": "data-null-not-in",
+      "title": "NOT IN 속의 NULL",
+      "summary": "서브쿼리의 NULL 하나가 PostgreSQL NOT IN 결과를 0행으로 만든다.",
+      "source": "TLDR Data",
+      "url": "https://boringsql.com/posts/not-in-null/",
+      "report": {
+        "tldr": "PostgreSQL의 NOT IN은 고전적 함정이다.",
+        "what": "서브쿼리(또는 좌변)에 NULL이 하나만 있어도 삼치 논리(three-valued logic) 때문에 전체 쿼리가 0행을 반환한다.",
+        "points": [
+          "NOT IN의 NULL 함정",
+          "삼치 논리로 0행 반환",
+          "서브쿼리 NULL 주의"
+        ],
+        "why": [
+          "SQL 작성 시 흔한 오류 방지"
+        ]
+      }
+    },
+    {
+      "id": "data-probably-tool",
+      "title": "Probably (도구): 로컬 데이터 에이전트",
+      "summary": "파일·웨어하우스 전반의 자연어 분석을 위한 로컬 데이터 에이전트.",
+      "source": "TLDR Data",
+      "url": "https://www.probably.dev/",
+      "report": {
+        "tldr": "Probably는 파일과 웨어하우스 전반에서 자연어 분석을 수행하는 로컬 데이터 에이전트다.",
+        "what": "로컬에서 파일·웨어하우스를 대상으로 자연어 분석을 지원한다.",
+        "points": [
+          "로컬 데이터 에이전트",
+          "파일·웨어하우스 분석",
+          "자연어 질의"
+        ],
+        "why": [
+          "로컬·프라이빗 데이터 분석 도구 확산"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💳",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-apple-payments",
+      "title": "애플, 결제 영역 더 깊이 파고든다",
+      "summary": "iOS 27에서 AI로 결제·로열티·페이레이터·더치페이를 단순화한다.",
+      "source": "TLDR Fintech",
+      "url": "https://www.paymentsdive.com/news/apple-delves-deeper-into-payments-ai-iphone-siri-retail-merchants/822664/",
+      "report": {
+        "tldr": "애플이 iOS 27에서 Apple Wallet·Apple Pay의 역할을 AI로 확장한다.",
+        "what": "결제, 로열티 프로그램, 직불 잔액, 페이레이터, 더치페이를 단순화하는 새 기능을 도입한다. 결제 선택이 복잡해지는 가운데 소비자에게 더 유용하고, 가맹점·발급사·카드 네트워크에 더 영향력 있는 생태계를 만들 수 있다.",
+        "points": [
+          "iOS 27 Wallet·Pay 확장",
+          "AI로 결제·로열티·더치페이",
+          "페이레이터·직불 잔액 지원",
+          "가맹점·네트워크 영향력 확대"
+        ],
+        "why": [
+          "빅테크의 결제 생태계 영향력 심화"
+        ]
+      }
+    },
+    {
+      "id": "fintech-klarna-bolt",
+      "title": "클라르나, Bolt 모빌리티 앱에 탑재",
+      "summary": "북유럽 4개국 Bolt 앱에서 클라르나로 차량·스쿠터 요금을 결제할 수 있다.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/EpNrVh",
+      "report": {
+        "tldr": "클라르나가 유럽 공유 모빌리티 플랫폼 Bolt와 제휴해 결제 옵션을 앱에 직접 넣었다.",
+        "what": "스웨덴·독일·핀란드·노르웨이에서 사용자가 차량·스쿠터 요금을 클라르나로 결제할 수 있다.",
+        "points": [
+          "Bolt 앱에 클라르나 결제 탑재",
+          "차량·스쿠터 요금 결제",
+          "북유럽 4개국 우선 제공"
+        ],
+        "why": [
+          "임베디드 결제의 일상 서비스 확산"
+        ]
+      }
+    },
+    {
+      "id": "fintech-adyen-agentic",
+      "title": "Adyen, 에이전트형 커머스에 베팅",
+      "summary": "Adyen Agentic이 대화형 AI 채널 판매를 위한 모듈형 API를 제공한다.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/nnzLYs",
+      "report": {
+        "tldr": "Adyen이 대화형 AI 플랫폼을 통한 판매를 가능케 하는 Adyen Agentic을 발표했다.",
+        "what": "기업이 새 채널마다 커머스 시스템을 다시 짜지 않고도 대화형 AI 플랫폼에서 판매할 수 있게 하는 모듈형 API 모음이다.",
+        "points": [
+          "대화형 AI 채널 판매 지원",
+          "모듈형 API 제공",
+          "채널별 재구축 불필요"
+        ],
+        "why": [
+          "에이전트형 커머스 결제 인프라 확장"
+        ]
+      }
+    },
+    {
+      "id": "fintech-nuvei-payoneer",
+      "title": "Nuvei, Payoneer 27.5억 달러에 인수",
+      "summary": "Nuvei가 Payoneer를 인수해 대형 국경 간 결제 플랫폼을 구축한다.",
+      "source": "TLDR Fintech",
+      "url": "https://www.paymentsdive.com/news/nuvei-to-buy-payoneer-for-275b/822908/",
+      "report": {
+        "tldr": "Nuvei가 Payoneer를 27.5억 달러에 인수해 더 큰 국경 간 결제 플랫폼을 만든다.",
+        "what": "디지털 마켓플레이스, 이커머스 판매자, 프리랜서, 기업 고객을 대상으로 한다. 합병 회사는 Nuvei의 결제 수납 역량과 Payoneer의 페이아웃, 다통화 계좌, 뱅킹 네트워크, 스테이블코인-법정화폐 기능을 결합한다.",
+        "points": [
+          "Payoneer 27.5억 달러 인수",
+          "국경 간 결제 플랫폼 확대",
+          "페이아웃·다통화 계좌 결합",
+          "스테이블코인-법정화폐 기능"
+        ],
+        "why": [
+          "국경 간 결제 시장의 통합 가속"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stablecoins-embedded",
+      "title": "스테이블코인이 임베디드 금융에 두 번째 생명을",
+      "summary": "스테이블코인이 국가별 뱅킹 인프라 없이 글로벌 금융 서비스를 가능케 한다.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/KJrogN",
+      "report": {
+        "tldr": "스테이블코인이 임베디드 금융 모델을 되살리고 있다는 분석이다.",
+        "what": "소프트웨어 기업이 국가별 뱅킹 인프라 구축 없이 글로벌 잔액·결제·수익·금융 서비스를 제공하게 한다. AI가 소프트웨어 개발을 상품화하면서 전략적 우위는 독점 금융 데이터와 자금 흐름으로 이동하고, Deel·Ramp·Shopify·Block 같은 플랫폼이 거래 이력·잔액·대출 데이터로 견고한 해자를 갖는다.",
+        "points": [
+          "국가별 인프라 없이 글로벌 금융",
+          "우위가 금융 데이터·자금흐름으로 이동",
+          "Deel·Ramp·Shopify·Block 해자",
+          "임베디드 금융 재부상"
+        ],
+        "why": [
+          "스테이블코인이 핀테크 경쟁 구도를 재편"
+        ]
+      }
+    },
+    {
+      "id": "fintech-coinbase-everything",
+      "title": "코인베이스, '모든 것의 거래소' 비전 공개",
+      "summary": "거래·투자·뱅킹·결제·AI 금융관리를 아우르는 통합 플랫폼으로 확장한다.",
+      "source": "TLDR Fintech",
+      "url": "https://www.coinbase.com/blog/system-update-take-control-of-your-money-with-coinbase",
+      "report": {
+        "tldr": "코인베이스가 거래·투자·뱅킹·결제·AI 금융관리를 통합한 플랫폼으로의 대규모 확장을 발표했다.",
+        "what": "토큰화 주식, 주식·크립토 옵션, AI 투자 자문, 에이전트형 거래 도구, 스테이블코인 결제 인프라, 확대된 대출 상품, 강화된 리워드·카드 프로그램을 포함한다. 전통·디지털 자산 관리의 기본 인터페이스가 되는 것이 목표다.",
+        "points": [
+          "거래·투자·뱅킹·결제 통합",
+          "토큰화 주식·옵션·AI 자문",
+          "에이전트형 거래 도구",
+          "스테이블코인 결제 인프라"
+        ],
+        "why": [
+          "거래소의 종합 금융 플랫폼화"
+        ]
+      }
+    },
+    {
+      "id": "fintech-mercury-command",
+      "title": "Mercury, 뱅킹으로 사업 운영하는 'Command' 출시",
+      "summary": "AI 뱅킹 인터페이스로 자연어로 현금흐름·결제·인보이스를 관리한다.",
+      "source": "TLDR Fintech",
+      "url": "https://www.businesswire.com/news/home/20260616596362/en/Mercury-Launches-Command-a-New-Way-to-Run-Your-Business-Through-Banking",
+      "report": {
+        "tldr": "Mercury Command는 자연어로 금융 워크플로를 관리하는 AI 뱅킹 인터페이스다.",
+        "what": "현금 포지션 확인, 결제 송금, 거래 분류, 인보이스 생성, 계좌 규칙 변경을 자연어로 처리한다. 수동적 뱅킹 계좌를 창업자의 운영 계층으로 바꾸려는 제품이며, 모든 작업은 명시적 사용자 승인과 기존 권한·통제를 따른다.",
+        "points": [
+          "자연어 AI 뱅킹 인터페이스",
+          "현금흐름·결제·인보이스 관리",
+          "뱅킹을 운영 계층으로 전환",
+          "모든 작업 사용자 승인 필요"
+        ],
+        "why": [
+          "AI 에이전트형 비즈니스 뱅킹 등장"
+        ]
+      }
+    },
+    {
+      "id": "fintech-robinhood-layoffs",
+      "title": "로빈후드, 직원 약 300명 감원",
+      "summary": "기록적 거래량에도 로빈후드가 인력을 10%(약 295명) 줄인다.",
+      "source": "TLDR Fintech",
+      "url": "https://www.bankingdive.com/news/robinhood-300-employees-workforce-cut-reduction-tenev-10-percent/823035/",
+      "report": {
+        "tldr": "로빈후드가 강한 실적에도 인력을 10%, 약 295명 줄인다.",
+        "what": "주식·옵션·예측시장에서 기록적 거래량을 보고했음에도, CEO 블라드 테네브는 군더더기 없는 고성과 조직 유지와 제품 개발 가속을 위한 조치라고 밝혔다. 효율과 인재 밀도에 집중하는 핀테크 감원 흐름에 합류했다.",
+        "points": [
+          "인력 10%·약 295명 감원",
+          "기록적 거래량에도 단행",
+          "고성과 조직·제품 가속 명분",
+          "핀테크 감원 흐름 합류"
+        ],
+        "why": [
+          "호실적 속에서도 이어지는 핀테크 효율화"
+        ]
+      }
+    },
+    {
+      "id": "fintech-interchecks-50m",
+      "title": "A2A 결제 플랫폼 Interchecks, 5,000만 달러 조달",
+      "summary": "즉시 결제 플랫폼 Interchecks가 시리즈 C로 5,000만 달러를 유치했다.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/ox6oub",
+      "report": {
+        "tldr": "즉시 결제 플랫폼 Interchecks가 5,000만 달러 규모 시리즈 C를 확보했다.",
+        "what": "Bettor Capital, Commerce Ventures, Decades Holdings, Thayer Street Partners가 주도했다. 10년간 500억 달러 이상을 처리했고 지난 7년간 세 자릿수 순매출 성장을 달성했으며 2023년부터 흑자 운영 중이다.",
+        "points": [
+          "시리즈 C 5,000만 달러",
+          "10년간 500억 달러+ 처리",
+          "7년 연속 세 자릿수 성장",
+          "2023년부터 흑자"
+        ],
+        "why": [
+          "B2B 즉시 결제 시장의 성장"
+        ]
+      }
+    },
+    {
+      "id": "fintech-trace-finance-32m",
+      "title": "브라질 스테이블코인 인프라 Trace Finance, 3,200만 달러 조달",
+      "summary": "Trace Finance가 라틴·미국·아태 확장을 위해 시리즈 A를 유치했다.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/8Z0kqh",
+      "report": {
+        "tldr": "브라질 스테이블코인 인프라 기업 Trace Finance가 3,200만 달러 시리즈 A를 조달했다.",
+        "what": "라틴아메리카·미국·아태 확장을 위한 자금이다. CoinFund가 주도했고 Coinbase Ventures·Haun Ventures·Jump Crypto·Valor Capital·Paxos와, Circle 공동창업자 Sean Neville, Solana Labs 공동창업자 Anatoly Yakovenko 등 엔젤이 참여했다.",
+        "points": [
+          "시리즈 A 3,200만 달러",
+          "라틴·미국·아태 확장",
+          "CoinFund 주도",
+          "Circle·Solana 창업자 엔젤 참여"
+        ],
+        "why": [
+          "신흥시장 스테이블코인 인프라 투자 확대"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stripe-aws-agent-payments",
+      "title": "Stripe·AWS, 콘텐츠 소유자용 AI 에이전트 결제 지원",
+      "summary": "Stripe가 AI 에이전트의 웹 콘텐츠 결제를 위한 AWS WAF 기능의 기술 토대를 제공한다.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/pxIJCR",
+      "report": {
+        "tldr": "Stripe가 AI 에이전트가 웹에서 콘텐츠 비용을 지불할 수 있게 하는 새 AWS WAF 기능의 기술 백본을 제공한다.",
+        "what": "AI 에이전트의 웹 콘텐츠 결제를 가능케 하는 AWS Web Application Firewall 역량을 뒷받침한다.",
+        "points": [
+          "AI 에이전트 콘텐츠 결제",
+          "AWS WAF 기능 지원",
+          "Stripe가 기술 백본 제공"
+        ],
+        "why": [
+          "에이전트 결제 인프라의 빅테크 협력"
+        ]
+      }
+    },
+    {
+      "id": "fintech-paypal-venture",
+      "title": "페이팔, 벤처 투자 부문 정리",
+      "summary": "신임 CEO Enrique Lores가 경쟁·인수설 속에 벤처 부문을 폐쇄한다.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/eMBlA3",
+      "report": {
+        "tldr": "페이팔이 벤처캐피털 부문을 폐쇄한다.",
+        "what": "신임 CEO Enrique Lores가 경쟁 심화와 잠재적 인수 제안 속에서 결제 대기업을 흔들며 내린 결정이다.",
+        "points": [
+          "벤처캐피털 부문 폐쇄",
+          "신임 CEO의 구조조정",
+          "경쟁·인수설 배경"
+        ],
+        "why": [
+          "페이팔의 사업 재편 신호"
+        ]
+      }
+    }
+  ]
+}

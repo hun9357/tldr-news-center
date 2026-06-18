@@ -1,0 +1,286 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-anthropic-trump-ban",
+      "title": "Anthropic 직원들, 트럼프 행정부가 자사 표적 삼는다 주장",
+      "summary": "150+ 보안 전문가가 Anthropic 모델 차단 해제를 요구하는 공개서한에 서명했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/d3S0fi",
+      "report": {
+        "tldr": "트럼프 행정부의 Anthropic 모델 차단을 두고 보안 전문가와 직원들이 부당하다고 비판했다.",
+        "what": "150명 이상의 사이버보안 전문가가 제한 해제를 촉구하는 공개서한에 서명했다. 직원들은 Fable 모델에 공격적 사이버 용도를 막기 위한 다중 보호장치가 잘 알려져 있다는 점이 Anthropic이 부당하게 표적이 되고 있다는 증거라고 주장한다.",
+        "points": [
+          "트럼프 행정부의 Anthropic 모델 차단",
+          "150+ 보안 전문가 공개서한",
+          "Fable의 보호장치를 부당 표적의 근거로 제시",
+          "직원들 공개 반발"
+        ],
+        "why": [
+          "AI 모델 수출통제와 안보 논쟁이 정면 충돌",
+          "프런티어 모델 접근 정책이 산업·연구에 파급"
+        ],
+        "context": "전일 다룬 Fable·Mythos 수출통제 후폭풍이 이어진 사안으로, 접근 복원 협상 추이가 관건.",
+        "action": "Fable·Mythos 의존 워크플로의 대체 모델 경로 점검 및 접근 복원 협상 추적"
+      }
+    },
+    {
+      "id": "tech-iphone-air-2-2027",
+      "title": "애플, 2세대 아이폰 에어 2027년 봄 준비",
+      "summary": "2세대 아이폰 에어가 고급 테스트 단계에 들어갔고 2027년 봄 출시가 목표다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/d1qIln",
+      "report": {
+        "tldr": "2세대 아이폰 에어가 고급 테스트 단계에 진입했다.",
+        "what": "애플은 2027년 봄 출시를 계획한다. 현재 디자인을 유지하되 초광각 촬영용 후면 카메라를 추가하고 배터리 수명을 개선한다. 올가을 아이폰에 들어갈 A20 Pro 프로세서의 변형이 탑재된다.",
+        "points": [
+          "2027년 봄 출시 목표",
+          "현 디자인 유지",
+          "초광각 후면 카메라 추가",
+          "배터리 수명 개선",
+          "A20 Pro 계열 칩 탑재"
+        ],
+        "why": [
+          "애플의 얇은 폼팩터 라인업 지속 의지"
+        ]
+      }
+    },
+    {
+      "id": "tech-uneven-frontiers-biopharma",
+      "title": "고르지 않은 프런티어: AI와 바이오파마의 병목",
+      "summary": "AI는 신약 발견을 가속하지만 임상 개발은 물리적 제약으로 여전히 병목이다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/J47suO",
+      "report": {
+        "tldr": "AI는 바이오파마 일부를 빠르고 저렴하게 만들지만 다른 영역은 물리 세계의 제약에 묶여 있다는 분석이다.",
+        "what": "환자 모집, 투약, 결과 대기는 여전히 시간이 걸린다. 신약 발견은 가속되지만 임상 개발은 병목으로 남는다. 지속 가능한 입지는 발견 모델의 진보 경로가 아니라 병목 주변에 구축된다.",
+        "points": [
+          "발견은 가속, 임상은 병목",
+          "환자 모집·투약·대기의 물리적 제약",
+          "가치는 병목 주변에 형성"
+        ],
+        "why": [
+          "AI 적용 효과가 산업 단계별로 비대칭임을 시사"
+        ]
+      }
+    },
+    {
+      "id": "tech-mobileye-robotaxi",
+      "title": "모빌아이, 美 로보택시 시장에 독립 서비스로 진출",
+      "summary": "모빌아이가 2027년 약 100대로 美 로보택시 서비스를 시작해 5년 내 1.7만 대로 확장 계획이다.",
+      "source": "TLDR",
+      "url": "https://arstechnica.com/cars/2026/06/mobileye-is-entering-the-us-robotaxi-market-with-standalone-service/",
+      "report": {
+        "tldr": "모빌아이가 2027년 美 로보택시 서비스를 출시한다.",
+        "what": "수직 통합 서비스로 자사 Moovit 모빌리티 플랫폼을 통해 예약 고객과 상호작용하고 차량을 조율한다. 미공개 도시에서 약 100대로 시작해, 초기 파일럿이 성공하면 5년 내 약 1.7만 대로 확장할 계획이다.",
+        "points": [
+          "2027년 美 서비스 시작",
+          "Moovit 플랫폼 기반 수직 통합",
+          "초기 약 100대 운행",
+          "5년 내 1.7만 대 목표"
+        ],
+        "why": [
+          "로보택시 경쟁에 부품·기술 업체가 직접 참전"
+        ]
+      }
+    },
+    {
+      "id": "tech-lore-vcs",
+      "title": "Lore, 대용량 바이너리 자산용 버전관리 시스템",
+      "summary": "Lore는 코드와 대형 바이너리 자산을 함께 다루는 오픈소스 버전관리 시스템이다.",
+      "source": "TLDR",
+      "url": "https://lore.org/",
+      "report": {
+        "tldr": "Lore는 코드와 대형 바이너리 자산을 함께 다루는 프로젝트에 최적화된 버전관리 시스템이다.",
+        "what": "확장성을 목표로 개발자와 아티스트의 요구를 모두 충족한다. 검증 가능하고 변조 방지되는 단일 진실 소스, 직관적 인터페이스, 전체 서피스 API를 갖췄으며 MIT 라이선스로 완전 오픈소스다.",
+        "points": [
+          "코드+대형 바이너리 자산 대상",
+          "변조 방지 단일 진실 소스",
+          "직관적 UI·전체 API",
+          "MIT 오픈소스"
+        ],
+        "why": [
+          "게임 등 대용량 자산 워크플로의 버전관리 수요"
+        ]
+      }
+    },
+    {
+      "id": "tech-claude-design-overhaul",
+      "title": "Anthropic, Claude Design 대규모 개편",
+      "summary": "디자인 시스템 임포트와 코드 라운드트립을 추가하고 토큰 과소비 문제를 개선했다.",
+      "source": "TLDR",
+      "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "report": {
+        "tldr": "Anthropic이 Claude Design을 개편하며 토큰 소비 문제를 개선했다.",
+        "what": "이번 업데이트로 Claude Design은 프로토타입 장난감에서 엔터프라이즈 플랫폼으로 탈바꿈했다. 사용자는 GitHub 저장소, 디자인 파일, 원본 업로드에서 디자인 시스템을 가져올 수 있고, 일관된 브랜딩을 빠르게 대규모로 출력할 수 있다.",
+        "points": [
+          "토큰 과소비 문제 개선",
+          "디자인 시스템 임포트 지원",
+          "코드 라운드트립 추가",
+          "엔터프라이즈급으로 전환"
+        ],
+        "why": [
+          "AI 디자인 도구의 실무 도입 가능성 확대"
+        ]
+      }
+    },
+    {
+      "id": "tech-musk-spacex-tesla-merger",
+      "title": "머스크의 다음 수: SpaceX·테슬라 메가머저 가능성",
+      "summary": "팬·투자자들은 머스크가 SpaceX와 테슬라를 합병할 것으로 기대한다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/47pS3t",
+      "report": {
+        "tldr": "일론 머스크의 다음 행보로 SpaceX와 테슬라의 합병 기대가 나온다.",
+        "what": "두 회사는 오랫동안 임원과 자원을 공유했고 수십억 달러 프로젝트를 공동 개발해왔다. 머스크는 SpaceX를 지배하고 테슬라 최대주주여서, 합병 시 법적 문제와 소송을 부를 수 있다. 다만 공화당 후보들에게 거액을 기부해온 머스크를 막기는 어려울 전망이다.",
+        "points": [
+          "SpaceX-테슬라 합병 기대",
+          "임원·자원·프로젝트 공유 이력",
+          "이해상충·소송 리스크",
+          "정치적 영향력 변수"
+        ],
+        "why": [
+          "대형 합병 시 거버넌스·규제 논쟁 예상"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-price-hike-memory",
+      "title": "애플, 메모리 칩 공급난에 가격 인상 예고",
+      "summary": "메모리·스토리지 칩 비용 급등으로 애플이 제품 가격을 올린다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/AO14hW",
+      "report": {
+        "tldr": "메모리·스토리지 칩 비용 급등이 애플의 제품 가격 인상을 압박하고 있다.",
+        "what": "다음 주요 출시는 9월로 예상되지만 가격 인상은 더 일찍 올 수 있다. AI 인프라 구축이 메모리·스토리지 칩 공급을 잠식하면서 가격이 작년 대비 4배로 뛰었고, 2027년까지 상승이 이어질 전망이다.",
+        "points": [
+          "칩 공급난에 제품 가격 인상",
+          "AI 인프라가 메모리 공급 잠식",
+          "가격 작년 대비 4배 상승",
+          "2027년까지 상승 전망"
+        ],
+        "why": [
+          "AI 붐의 비용이 소비자 가전 가격으로 전이"
+        ]
+      }
+    },
+    {
+      "id": "tech-zuckerberg-have-fun",
+      "title": "저커버그, 대규모 해고 후 '다시 즐기라' 지시",
+      "summary": "저커버그가 7월 사내 AI 해커톤을 약속했지만 직원들은 시큰둥했다.",
+      "source": "TLDR",
+      "url": "https://futurism.com/artificial-intelligence/mark-zuckerberg-employees-fun-hackathon-layoffs",
+      "report": {
+        "tldr": "저커버그가 잔혹한 해고 이후 직원 사기를 끌어올리려 했다.",
+        "what": "그는 7월 전사 AI 해커톤 개최를 약속하며 분위기 전환을 시도했지만, 동료들이 해고된 직원들은 그럴 기분이 아니라고 답했다.",
+        "points": [
+          "해고 후 사기 진작 시도",
+          "7월 AI 해커톤 약속",
+          "직원 반응은 냉담"
+        ],
+        "why": [
+          "대규모 구조조정 이후 조직 문화 갈등"
+        ]
+      }
+    },
+    {
+      "id": "tech-you-got-faster-company-didnt",
+      "title": "당신은 빨라졌지만 회사는 그대로다",
+      "summary": "AI로 개인은 빨라지지만 실제 일은 다음 사람에게 넘어갈 뿐이라는 지적.",
+      "source": "TLDR",
+      "url": "https://terriblesoftware.org/2026/06/17/you-got-faster-your-company-didnt/",
+      "report": {
+        "tldr": "AI가 개인의 업무 속도를 높이지만 조직 전체 처리량은 그대로일 수 있다는 분석이다.",
+        "what": "개인이 빨라지면 실제 작업이 다음 사람에게 전가되며, 병목은 조직 구조에 남는다.",
+        "points": [
+          "AI로 개인 속도 향상",
+          "일은 다음 사람에게 전가",
+          "조직 처리량은 정체"
+        ],
+        "why": [
+          "AI 생산성 효과가 개인·조직 수준에서 다르게 나타남"
+        ]
+      }
+    },
+    {
+      "id": "tech-bullish-on-loops",
+      "title": "왜 우리는 '루프'에 베팅하는가",
+      "summary": "에이전트가 스스로 프롬프트하며 입력 없이 제품을 개선하는 루프에 주목.",
+      "source": "TLDR",
+      "url": "https://newsletter.posthog.com/p/why-were-bullish-on-loops",
+      "report": {
+        "tldr": "에이전트가 스스로 프롬프트해 사람 입력 없이 제품을 개선하는 '루프'에 대한 낙관론이다.",
+        "what": "루프는 에이전트가 자기 자신에게 프롬프트를 주며 개선을 반복하게 한다.",
+        "points": [
+          "에이전트의 자기 프롬프트 루프",
+          "사람 입력 없는 개선",
+          "제품 자동 개선 가능성"
+        ],
+        "why": [
+          "자율 개선 에이전트의 제품화 가능성 모색"
+        ]
+      }
+    },
+    {
+      "id": "tech-local-qwen-different-tool",
+      "title": "로컬 Qwen은 열등한 Opus가 아니라 다른 도구다",
+      "summary": "로컬 Qwen이 특정 작업·워크플로에서 기업에 실질 가치를 제공한다는 관점.",
+      "source": "TLDR",
+      "url": "https://blog.alexellis.io/local-ai-is-not-opus/",
+      "report": {
+        "tldr": "로컬 Qwen을 프런티어 모델의 열등판이 아니라 별개의 도구로 봐야 한다는 글이다.",
+        "what": "로컬 Qwen은 특정 작업과 워크플로에서 기업에 실질적 가치를 제공할 수 있다.",
+        "points": [
+          "로컬 모델의 고유 용도",
+          "특정 작업에서 실질 가치",
+          "프런티어 모델과 다른 포지셔닝"
+        ],
+        "why": [
+          "로컬·소형 모델의 실무 활용 재평가"
+        ]
+      }
+    },
+    {
+      "id": "tech-design-system-engineers-agents",
+      "title": "엔지니어와 에이전트를 위한 디자인 시스템 구축",
+      "summary": "AI로 디자인 시스템 구축 비용이 낮아져, 기반 없이 만드는 비용이 더 커졌다.",
+      "source": "TLDR",
+      "url": "https://evilmartians.com/chronicles/building-a-design-system-specced-for-engineers-and-agents",
+      "report": {
+        "tldr": "AI가 디자인 시스템 구축 비용을 낮추면서, 디자인 기반 없이 만드는 비용이 기하급수적으로 커진다는 주장이다.",
+        "what": "에이전트와 엔지니어가 함께 쓸 수 있도록 명세된 디자인 시스템의 중요성이 커진다.",
+        "points": [
+          "디자인 시스템 구축 비용 하락",
+          "기반 없는 개발 비용 급증",
+          "엔지니어·에이전트용 명세 필요"
+        ],
+        "why": [
+          "에이전트 시대 디자인 시스템의 전략적 가치 상승"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-agents-robots-gpus",
+      "title": "AI 코딩 에이전트가 로봇에 GPU 설치·케이블타이 절단 학습",
+      "summary": "Nvidia GEAR 랩이 자율 로봇 랩 하니스 ENPIRE를 오픈소스로 공개할 예정이다.",
+      "source": "TLDR",
+      "url": "https://arstechnica.com/ai/2026/06/ai-coding-agents-can-autonomously-direct-robot-training/",
+      "report": {
+        "tldr": "AI 코딩 에이전트가 로봇에게 GPU 설치와 케이블타이 절단을 가르쳤다.",
+        "what": "Nvidia GEAR 랩은 누구나 집에서 자율 로봇 랩을 운영할 수 있도록 ENPIRE 하니스를 오픈소스로 공개할 예정이다.",
+        "points": [
+          "AI 에이전트가 로봇 작업 학습 지도",
+          "GPU 설치·케이블타이 절단 시연",
+          "ENPIRE 하니스 오픈소스 예정"
+        ],
+        "why": [
+          "코딩 에이전트와 로보틱스 학습의 결합"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-grwm-index-q1",
+      "title": "Net Influencer: 2026 1분기 GRWM 지수",
+      "summary": "LTK가 무보수 어필리에이트만으로 유튜브 GRWM 영상 점유율 1위를 차지했다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/jQpBLG",
+      "report": {
+        "tldr": "LTK가 어필리에이트 링크로 설명란에만 등장했음에도 유튜브 GRWM 영상의 점유율 1위를 기록했다.",
+        "what": "이 포맷은 대부분 무보수로, 언급의 약 90%가 크리에이터 자율 선택에서 나왔다. 프레스티지 브랜드는 점유율을 잃고 Sephora는 상승, 저가 브랜드는 급증했다. ShopMy 같은 신흥 플랫폼은 크리에이터 수익화 계층의 경쟁 심화를 시사한다.",
+        "points": [
+          "LTK 점유율 1위(무보수 어필리에이트)",
+          "언급의 약 90% 크리에이터 자율",
+          "프레스티지 하락·저가 급증",
+          "ShopMy 등 신흥 경쟁"
+        ],
+        "why": [
+          "크리에이터 추천이 브랜드 가시성을 좌우하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "marketing-chatgpt-recs-search",
+      "title": "ChatGPT 제품 추천, 검색 켜면 80.2% 바뀐다",
+      "summary": "2만 응답 연구에서 검색 활성화 시 추천 제품의 80.2%가 달라졌다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/NLZRIH",
+      "report": {
+        "tldr": "ChatGPT의 제품 추천이 검색 활성화 여부에 크게 좌우된다는 연구다.",
+        "what": "2만 개 응답 연구에서 검색을 켜자 추천 제품의 80.2%가 바뀌었고, 비검색 응답에서 100% 등장하던 제품 중 15.8%만 검색 시에도 나타났다. 인용된 웹 콘텐츠가 추천에 큰 역할을 하므로, 브랜드는 학습 데이터보다 ChatGPT가 인용하는 기사·리뷰·비교 페이지에서 언급을 얻는 데 집중해야 한다.",
+        "points": [
+          "검색 시 추천의 80.2% 변경",
+          "비검색 100% 제품 중 15.8%만 잔존",
+          "인용 웹 콘텐츠가 핵심",
+          "학습 데이터보다 인용원 공략"
+        ],
+        "why": [
+          "AI 추천 시대의 브랜드 가시성 전략 변화"
+        ],
+        "action": "ChatGPT가 인용하는 리뷰·비교 페이지에서 브랜드 언급 확보에 집중"
+      }
+    },
+    {
+      "id": "marketing-paid-media-ai-visibility",
+      "title": "유료 미디어가 AI 가시성을 가속하는 법",
+      "summary": "유료 미디어가 승리 메시지·청중 신호를 가장 빠르게 식별해 AI 가시성을 키운다.",
+      "source": "TLDR Marketing",
+      "url": "https://foundationinc.co/lab/paid-media-ai-visibility/",
+      "report": {
+        "tldr": "유료 미디어가 AI 가시성에 핵심 역할을 한다는 분석이다.",
+        "what": "다른 어떤 채널보다 빠르게 승리하는 메시지와 청중 신호를 식별하게 해준다. 고성과 광고 카피는 콘텐츠·커뮤니티·소트리더십에 반영돼야 하며, 클릭을 부르는 언어가 곧 Reddit·유튜브·리뷰 사이트 등 AI가 인용하는 곳에서 통하는 언어가 된다. 유료·오가닉·SEO·커뮤니티를 연결된 시스템으로 다뤄야 한다.",
+        "points": [
+          "메시지·청중 신호 빠른 식별",
+          "광고 카피를 콘텐츠로 확장",
+          "유료가 제3자 언급·인용 촉진",
+          "채널을 연결된 시스템으로 운영"
+        ],
+        "why": [
+          "AI 가시성 확보에 유료 미디어의 역할 재평가"
+        ]
+      }
+    },
+    {
+      "id": "marketing-955-linkedin-playbook",
+      "title": "링크드인 성장을 위한 95/5 플레이북",
+      "summary": "복잡도 3단계 콘텐츠와 신호 기반 아웃바운드를 동기화하는 전략.",
+      "source": "TLDR Marketing",
+      "url": "https://pierreherubel.substack.com/p/the-955-playbook-for-linkedin-growth",
+      "report": {
+        "tldr": "대부분의 B2B 링크드인 콘텐츠가 너무 빽빽하거나 너무 얕은 양극단에서 실패한다는 진단과 해법이다.",
+        "what": "구매 여정 위치에 맞춘 3단계 복잡도 콘텐츠를, 두 가지 동기화된 동작과 짝짓는다. 제로클릭 소트리더십이 수동적 95%와 친숙도를 쌓고, 신호 기반 아웃바운드가 능동적 5%를 전환한다. 게이트 다운로드·가격 페이지 방문 같은 고관여 신호엔 정확한 리소스를 언급한 DM을, 좋아요·댓글 같은 저관여 신호엔 부드러운 답글을 먼저 보낸다.",
+        "points": [
+          "3단계 복잡도 콘텐츠",
+          "제로클릭 소트리더십으로 95% 공략",
+          "신호 기반 아웃바운드로 5% 전환",
+          "고/저관여 신호별 대응"
+        ],
+        "why": [
+          "콘텐츠와 세일즈 신호를 결합한 링크드인 성장 전략"
+        ]
+      }
+    },
+    {
+      "id": "marketing-stripo-widgets",
+      "title": "Stripo의 위젯: 채팅으로 인터랙티브 이메일 요소 제작",
+      "summary": "코드 대신 채팅으로 퀴즈·스크래치 카드 같은 요소를 만들고 수정한다.",
+      "source": "TLDR Marketing",
+      "url": "https://stripo.email/blog/ai-widgets-controlling-interactive-email-elements-through-chat/",
+      "report": {
+        "tldr": "Stripo 위젯은 코드 대신 채팅으로 인터랙티브 이메일 요소를 만들고 편집하게 한다.",
+        "what": "퀴즈·스크래치 카드 같은 위젯을 추가한 뒤 평문으로 변경을 설명하면, 어시스턴트가 설정을 처리하고 HTML·AMP·폴백을 생성한다. 변경도 즉시 적용돼 인터랙티브 이메일 제작·유지 노력을 줄인다.",
+        "points": [
+          "채팅으로 이메일 요소 제작",
+          "퀴즈·스크래치 카드 등",
+          "HTML·AMP·폴백 자동 생성",
+          "즉시 적용"
+        ],
+        "why": [
+          "이메일 마케팅 제작의 노코드·AI화"
+        ]
+      }
+    },
+    {
+      "id": "marketing-soundcore-work",
+      "title": "Soundcore Work: 대면 회의용 클립온 AI 레코더",
+      "summary": "대화를 녹음·핵심 표시하고 실시간 전사를 폰에 동기화한다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/diandraescobar_theres-one-new-ai-tool-im-taking-to-every-share-7472964176819294208-S11h/",
+      "report": {
+        "tldr": "Soundcore Work는 대면 회의용으로 설계된 클립온 AI 레코더다.",
+        "what": "대화를 녹음하고 탭으로 핵심 순간을 표시하며 전사를 실시간으로 폰에 동기화한다. 이후 한 페이지 요약을 생성하고 전사 내용을 질의할 수 있어 수기 메모 필요를 줄인다.",
+        "points": [
+          "클립온 대면 회의 레코더",
+          "탭으로 핵심 순간 표시",
+          "실시간 전사 동기화",
+          "요약 생성·질의 지원"
+        ],
+        "why": [
+          "대면 회의 기록 자동화 하드웨어 등장"
+        ]
+      }
+    },
+    {
+      "id": "marketing-hinge-community",
+      "title": "힌지 CMO: 커뮤니티는 마케팅 채널 그 이상",
+      "summary": "힌지가 'One More Hour'로 풀뿌리 모임에 200만 달러+ 보조금을 지원했다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.marketingdive.com/news/hinges-chief-marketer-on-why-community-is-more-than-a-marketing-channel/823037/",
+      "report": {
+        "tldr": "힌지가 커뮤니티를 마케팅 채널이 아니라 사용자가 의존하는 사회적 인프라로 자금 지원해 Z세대 신뢰를 쌓고 있다.",
+        "what": "'One More Hour' 이니셔티브는 뉴욕·LA·애틀랜타·런던의 풀뿌리 모임에 200만 달러 이상을 배분했고 올해 전 세계에 150만 달러를 추가 계획한다. 수혜자에게 홍보나 앱 설치를 요구하지 않는다. Z세대가 20년 전 또래보다 연간 1,000시간 적게 대면 교류한다는 행동 격차에 근거한 전략이다.",
+        "points": [
+          "커뮤니티를 사회적 인프라로 지원",
+          "200만 달러+ 보조금 배분",
+          "앱 설치·홍보 요구 없음",
+          "대면 교류 감소 격차에 근거"
+        ],
+        "why": [
+          "목적 지향 마케팅에서 차별화된 커뮤니티 전략"
+        ]
+      }
+    },
+    {
+      "id": "marketing-granola-notetaker",
+      "title": "회의에 안 들어가서 이기는 AI 노트테이커",
+      "summary": "Granola는 봇 없이 OS 레벨 녹음으로 마찰을 줄여 성장했다.",
+      "source": "TLDR Marketing",
+      "url": "https://strategybreakdowns.com/p/granola-notepad",
+      "report": {
+        "tldr": "Granola가 기능 추가가 아니라 마찰 제거로 성장한 사례다.",
+        "what": "회의 봇을 피하고 OS 레벨에서 오디오를 녹음해 Zoom·Meet·Teams·전화 등에서 통합 없이 작동한다. 가벼운 메모를 AI가 요약으로 확장해 신뢰를 높였고, 원클릭 회의 알림 같은 단순 설계로 습관 루프를 만들었다. 이후 회의 데이터를 검색 가능한 지식 베이스로 전환해 주간 리텐션 70%+와 15억 달러 가치를 달성했다.",
+        "points": [
+          "OS 레벨 녹음으로 통합 불필요",
+          "AI 요약으로 신뢰 형성",
+          "원클릭 습관 루프",
+          "리텐션 70%+·15억 달러 가치"
+        ],
+        "why": [
+          "마찰 제거 중심 제품 성장 전략"
+        ]
+      }
+    },
+    {
+      "id": "marketing-fewer-ingredients",
+      "title": "사람들은 성분이 적은 제품을 선호한다",
+      "summary": "성분이 적을수록 더 자연스럽고 건강하게 느껴 선택률이 오른다.",
+      "source": "TLDR Marketing",
+      "url": "https://app.sciencesays.com/p/people-prefer-products-with-fewer-ingredients",
+      "report": {
+        "tldr": "소비자가 성분이 적은 제품을 더 자연스럽고 건강하며 덜 가공된 것으로 인식한다는 연구다.",
+        "what": "19개 실험에서 동일한 그래놀라바를 '성분 적음'으로 표현하자 선택률이 21.6% 올랐고, 메타 광고 클릭률은 최대 44.2% 높아졌다. 패키징·광고·제품 페이지에 적은 성분 수를 강조하되, 탐닉·풍미 다양성·영양 복잡성을 위해 사는 제품에는 효과가 작으니 구매 동기에 맞춰야 한다.",
+        "points": [
+          "성분 적음=자연·건강 인식",
+          "선택률 21.6% 상승",
+          "광고 CTR 최대 44.2% 상승",
+          "구매 동기에 맞춘 메시징"
+        ],
+        "why": [
+          "식음료 브랜드의 단순성 메시징 레버"
+        ]
+      }
+    },
+    {
+      "id": "marketing-tiktok-ai-voices-ban",
+      "title": "틱톡, 쇼핑 라이브에서 AI 생성 음성 금지",
+      "summary": "틱톡이 라이브 방송에서 AI 생성 음성·녹음 사용을 금지하는 규칙을 추가했다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.socialmediatoday.com/news/tiktok-bans-ai-generated-voices-in-shopping-livestreams/822977/",
+      "report": {
+        "tldr": "틱톡이 라이브 방송에서 AI 생성 음성·녹음 사용을 금지하는 새 규칙을 추가했다.",
+        "what": "쇼핑 라이브스트림 등에서 AI 음성 사용이 제한된다.",
+        "points": [
+          "라이브에서 AI 생성 음성 금지",
+          "쇼핑 라이브스트림 대상"
+        ],
+        "why": [
+          "플랫폼의 AI 콘텐츠 규제 강화"
+        ]
+      }
+    },
+    {
+      "id": "marketing-social-leading-news",
+      "title": "소셜 미디어가 최대 뉴스 소스로",
+      "summary": "소셜 미디어가 TV·뉴스 사이트를 제치고 가장 많이 쓰이는 일일 뉴스 소스가 됐다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.socialmediatoday.com/news/social-media-is-the-leading-source-of-news-per-reuters/823110/",
+      "report": {
+        "tldr": "소셜 미디어가 TV와 뉴스 웹사이트를 넘어 가장 많이 쓰이는 일일 뉴스 소스가 됐다.",
+        "what": "틱톡·인스타그램의 영향력이 커지는 반면 X는 입지를 잃고 있다.",
+        "points": [
+          "소셜이 최대 일일 뉴스 소스",
+          "틱톡·인스타 영향력 상승",
+          "X는 입지 약화"
+        ],
+        "why": [
+          "뉴스 소비 채널 변화가 마케팅에 시사점"
+        ]
+      }
+    },
+    {
+      "id": "marketing-poekert-hot-takes",
+      "title": "네이선 준 포커트의 소셜 핫테이크 3가지",
+      "summary": "피드를 과포화시키는 것이 오히려 돌파구가 될 수 있다는 주장.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/nathanpoekert_a-lot-of-people-who-work-in-social-or-oversee-share-7472994584483053568-fjKN/",
+      "report": {
+        "tldr": "콘텐츠로 피드를 과포화시키는 것이 축소보다 나은 돌파 전략일 수 있다는 핫테이크다.",
+        "what": "소셜 운영에 대한 통념을 뒤집는 관점을 제시한다.",
+        "points": [
+          "피드 과포화 전략",
+          "축소보다 돌파 강조"
+        ],
+        "why": [
+          "소셜 콘텐츠 물량 전략에 대한 논쟁"
+        ]
+      }
+    }
+  ]
+}

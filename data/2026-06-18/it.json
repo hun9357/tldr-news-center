@@ -1,0 +1,222 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-s3-annotations",
+      "title": "아마존 S3 어노테이션: 객체에 풍부한 질의 가능 컨텍스트 부착",
+      "summary": "S3 어노테이션은 객체당 최대 1,000개 명명 어노테이션을 붙이고 Athena·Iceberg로 질의한다.",
+      "source": "TLDR IT",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-annotations-attach-rich-queryable-context-directly-to-your-objects/",
+      "report": {
+        "tldr": "S3 어노테이션은 객체에 풍부한 메타데이터를 직접 부착하는 신규 기능이다.",
+        "what": "객체당 최대 1,000개의 명명 어노테이션(각 최대 1MB)을 JSON·XML·YAML·평문 형식으로 붙일 수 있다. 어노테이션은 가변적이어서 객체를 재작성하지 않고 갱신·삭제할 수 있고, S3 Metadata 어노테이션 테이블로 노출돼 Amazon Athena와 Iceberg 엔진으로 대규모 질의가 가능하다.",
+        "points": [
+          "객체당 최대 1,000개·각 1MB",
+          "JSON·XML·YAML·평문 지원",
+          "객체 재작성 없이 가변 갱신",
+          "Athena·Iceberg로 질의"
+        ],
+        "why": [
+          "스토리지 메타데이터의 질의·거버넌스 활용 확대"
+        ]
+      }
+    },
+    {
+      "id": "it-datacenter-capacity-gap",
+      "title": "2026 美 데이터센터 계획 용량 중 절반만 실제 착공",
+      "summary": "2026·2027년 발표된 美 데이터센터 상당수가 아직 착공조차 안 했다.",
+      "source": "TLDR IT",
+      "url": "https://www.theregister.com/on-prem/2026/06/17/only-half-of-us-datacenter-capacity-planned-for-2026-is-actually-under-construction/5257781",
+      "report": {
+        "tldr": "발표된 2026·2027년 美 데이터센터 프로젝트 상당수가 아직 착공되지 않았다는 데이터다.",
+        "what": "이 격차는 AI 인프라 계획이 실제 전력·인허가·건설 일정보다 앞서 달리고 있을 가능성을 부각한다.",
+        "points": [
+          "계획 용량 중 절반만 착공",
+          "2026·2027 프로젝트 다수 미착공",
+          "전력·인허가·건설 일정이 병목"
+        ],
+        "why": [
+          "AI 인프라 기대와 물리적 현실의 괴리"
+        ]
+      }
+    },
+    {
+      "id": "it-us-ai-sovereignty",
+      "title": "세계 정상들, 美 AI는 원하지만 美 통제는 거부",
+      "summary": "G7에서 마크롱·모디 등이 美의 AI 모델 접근 차단 가능성을 우려했다.",
+      "source": "TLDR IT",
+      "url": "https://techcrunch.com/2026/06/17/world-leaders-want-american-ai-they-just-dont-want-america-to-be-able-to-turn-it-off/",
+      "report": {
+        "tldr": "G7 정상회의에서 美가 미국산 AI 모델 접근을 차단할 수 있다는 우려가 제기됐다.",
+        "what": "프랑스 마크롱, 인도 모디 등 정상들이 이를 거론했다. 이 논쟁은 기업 AI 도입, 특히 정부와 핵심 산업에 주권(sovereignty) 관점을 새로 더한다.",
+        "points": [
+          "G7서 美 AI 통제 가능성 우려",
+          "마크롱·모디 등 거론",
+          "주권 AI 관점 부상"
+        ],
+        "why": [
+          "AI 공급망의 지정학·주권 리스크 확대"
+        ]
+      }
+    },
+    {
+      "id": "it-entity-resolution-identity-crisis",
+      "title": "정체성 위기: 엔티티 해소가 데이터 제품 스택의 빠진 토대",
+      "summary": "조직 전반에서 동일 인물·엔티티를 일관 인식하는 문제가 자주 간과된다.",
+      "source": "TLDR IT",
+      "url": "https://moderndata101.substack.com/p/the-identity-crisis-entity-resolution",
+      "report": {
+        "tldr": "많은 데이터 제품 스택이 개별 시스템 내 품질에는 집중하지만 조직 전반의 엔티티 일관성은 놓친다.",
+        "what": "팀들은 정체성이 이미 해소됐다고 가정하다가, 서로 다른 시스템이 같은 사람을 다른 레코드로 취급해 고객 경험이나 AI 출력이 충돌할 때 비로소 문제를 발견한다.",
+        "points": [
+          "조직 전반 엔티티 일관성 문제",
+          "정체성 해소를 당연시하는 함정",
+          "고객 경험·AI 출력 충돌로 표면화"
+        ],
+        "why": [
+          "신뢰할 수 있는 데이터·AI의 기반으로서 엔티티 해소 중요"
+        ]
+      }
+    },
+    {
+      "id": "it-data-primacy-ai-infra",
+      "title": "데이터 우선주의가 더 신뢰할 만한 AI 인프라를 만든다",
+      "summary": "AI 신뢰성은 모델보다 깨끗하고 거버넌스된 접근 가능한 데이터에 달렸다.",
+      "source": "TLDR IT",
+      "url": "https://siliconangle.com/2026/06/17/embracing-data-primacy-build-reliable-ai-infrastructure-pureaccelerate/",
+      "report": {
+        "tldr": "기업 AI 신뢰성은 모델 자체보다 데이터 품질에 더 의존한다는 분석이다.",
+        "what": "Everpure의 AI 인프라 전략은 통합 데이터 플레인, 자동화 중심 컨트롤 플레인, 발견·거버넌스를 위한 데이터 인텔리전스 계층에 초점을 둔다.",
+        "points": [
+          "통합 데이터 플레인 중심",
+          "자동화 중심 컨트롤 플레인",
+          "데이터 인텔리전스 계층",
+          "모델보다 데이터 품질이 관건"
+        ],
+        "why": [
+          "AI 신뢰성의 핵심은 데이터 거버넌스"
+        ]
+      }
+    },
+    {
+      "id": "it-okta-google-ai-agents",
+      "title": "Okta·구글 클라우드, AI 에이전트·브라우저에 신원 연결",
+      "summary": "Auth0 for AI Agents를 출시하고 Chrome Enterprise 통합을 도입했다.",
+      "source": "TLDR IT",
+      "url": "https://www.techzine.eu/news/security/142204/okta-and-google-cloud-link-identity-to-ai-agents-and-browsers/",
+      "report": {
+        "tldr": "Okta와 구글 클라우드가 신원 플랫폼 통합을 확장했다.",
+        "what": "Auth0 for AI Agents를 출시하고, AI 기반 업무 접근과 브라우저 워크플로 보안을 위한 새 Chrome Enterprise 통합을 도입했다.",
+        "points": [
+          "Auth0 for AI Agents 출시",
+          "Chrome Enterprise 통합 추가",
+          "AI 에이전트·브라우저 보안 강화"
+        ],
+        "why": [
+          "에이전트 시대의 신원·접근 관리 수요"
+        ]
+      }
+    },
+    {
+      "id": "it-vercel-enterprise-agentic",
+      "title": "Vercel, 에이전트형 AI 인프라용 엔터프라이즈 제어 출시",
+      "summary": "Vercel이 에이전트형 AI 앱을 위한 프레임워크와 엔터프라이즈 제어를 내놓았다.",
+      "source": "TLDR IT",
+      "url": "https://siliconangle.com/2026/06/17/vercel-launches-new-framework-enterprise-controls-agentic-ai-infrastructure/",
+      "report": {
+        "tldr": "Vercel이 에이전트형 AI 애플리케이션 구축을 위한 새 프레임워크와 엔터프라이즈 제어를 도입했다.",
+        "what": "이 출시는 AI 네이티브 앱을 둘러싼 거버넌스, 관측성, 배포 프리미티브 수요 증가를 반영한다.",
+        "points": [
+          "에이전트형 AI 앱 프레임워크",
+          "거버넌스·관측성 제어",
+          "배포 프리미티브 제공"
+        ],
+        "why": [
+          "AI 네이티브 앱의 운영 표준화 흐름"
+        ]
+      }
+    },
+    {
+      "id": "it-sophos-infostealer-ai",
+      "title": "건초더미 속 바늘: AI로 인포스틸러 사냥",
+      "summary": "Sophos가 11.8조 이벤트에서 다층 AI/ML 파이프라인으로 인포스틸러를 식별한다.",
+      "source": "TLDR IT",
+      "url": "https://www.sophos.com/en-us/blog/a-needle-in-a-stack-of-needles-hunting-infostealers-with-ai",
+      "report": {
+        "tldr": "Sophos가 SOC 경보 스트림에서 인포스틸러 공격을 식별하면서 경보 피로를 줄이는 다층 AI/ML 파이프라인을 소개했다.",
+        "what": "2주간 Taegis XDR 텔레메트리 11.8조 이벤트를 활용해 규칙/ML 탐지, 중복제거·상관, 억제, 지도학습 기반 경보 우선순위화를 적용한다. 경보를 수만 건으로 좁힌 뒤 인포스틸러 활동을 정확히 짚어낸다.",
+        "points": [
+          "11.8조 이벤트 분석",
+          "다층 규칙/ML 탐지",
+          "중복제거·상관·억제",
+          "경보 우선순위화로 정밀 탐지"
+        ],
+        "why": [
+          "대규모 텔레메트리에서 AI 기반 위협 사냥 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-sentinelone-purple-ai",
+      "title": "SentinelOne, Purple AI로 위협 자율 조사 확장",
+      "summary": "Purple AI가 증거를 수집하고 텔레메트리를 연결해 공격 판정을 산출한다.",
+      "source": "TLDR IT",
+      "url": "https://siliconangle.com/2026/06/17/sentinelone-turns-purple-ai-loose-investigate-threats/",
+      "report": {
+        "tldr": "SentinelOne이 Purple AI를 확장해 위협을 자율 조사하도록 했다.",
+        "what": "Purple AI는 증거를 모으고 엔드포인트·신원·클라우드·제3자 데이터의 텔레메트리를 연결해 분석가를 위한 공격 판정을 만든다. 보안 텔레메트리를 명확한 사건 내러티브로 바꿔 조사 시간을 줄이는 것이 목표다.",
+        "points": [
+          "증거 수집·텔레메트리 연결",
+          "엔드포인트·신원·클라우드 통합",
+          "공격 판정 자동 산출",
+          "조사 시간 단축"
+        ],
+        "why": [
+          "보안 운영의 에이전트형 자동화 확산"
+        ]
+      }
+    },
+    {
+      "id": "it-lighthouse-ai-agents-repo",
+      "title": "AI 에이전트용 Lighthouse (GitHub)",
+      "summary": "웹사이트의 AI 에이전트 경험 준비도를 18개 항목으로 감사하는 Node 도구.",
+      "source": "TLDR IT",
+      "url": "https://github.com/lucioduran/ax-audit",
+      "report": {
+        "tldr": "Lighthouse for AI Agents는 웹사이트의 AI 에이전트 경험(AX) 준비도를 감사하는 Node 기반 도구다.",
+        "what": "18개 항목으로 웹사이트가 에이전트 친화적인지 점검한다.",
+        "points": [
+          "AI 에이전트 경험 준비도 감사",
+          "18개 점검 항목",
+          "Node 기반 도구"
+        ],
+        "why": [
+          "에이전트 친화 웹 최적화 수요 등장"
+        ]
+      }
+    },
+    {
+      "id": "it-gcp-mcp-gke-guide",
+      "title": "구글 클라우드, GKE에 안전한 MCP 서버 배포 가이드 공개",
+      "summary": "GKE에서 에이전트형 AI용 원격 MCP 서버를 안전하게 배포하는 워크스루.",
+      "source": "TLDR IT",
+      "url": "https://cloud.google.com/blog/topics/developers-practitioners/build-and-deploy-a-remote-mcp-server-to-gke-in-30-minutes",
+      "report": {
+        "tldr": "구글 클라우드가 GKE에 안전한 원격 MCP 서버를 배포하는 가이드를 공개했다.",
+        "what": "에이전트형 AI 워크플로를 위해 Google Kubernetes Engine에 원격 MCP 서버를 안전하게 배포하는 과정을 단계별로 설명한다.",
+        "points": [
+          "GKE에 원격 MCP 서버 배포",
+          "에이전트형 AI 워크플로 대상",
+          "보안 배포 단계 안내"
+        ],
+        "why": [
+          "MCP 서버의 프로덕션 배포 수요 증가"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-agentic-coding-expertise",
+      "title": "에이전트 코딩과 전문성의 지속적 보상",
+      "summary": "에이전트 코딩에선 사람이 계획을, AI가 기술 실행을 맡고 도메인 전문성이 성패를 가른다.",
+      "source": "TLDR Dev",
+      "url": "https://www.anthropic.com/research/claude-code-expertise",
+      "report": {
+        "tldr": "에이전트 코딩에서 사람은 계획 결정 대부분을, AI는 기술적 실행을 맡는 분업이 뚜렷하다는 분석이다.",
+        "what": "성공은 정식 프로그래밍 실력보다 사용자의 도메인 전문성에 더 의존하며, 다양한 비기술 분야 전문가가 소프트웨어 엔지니어에 준하는 결과를 낼 수 있게 한다. 최근 추세는 복잡한 엔드투엔드 에이전트 작업으로의 이동과 완료 작업의 추정 경제 가치 증가를 보여준다.",
+        "points": [
+          "사람=계획, AI=기술 실행",
+          "도메인 전문성이 성패 결정",
+          "비기술 전문가도 고품질 결과",
+          "엔드투엔드 작업·가치 증가"
+        ],
+        "why": [
+          "에이전트 코딩이 전문성의 가치를 재배치"
+        ]
+      }
+    },
+    {
+      "id": "dev-dirge-budget-harness",
+      "title": "Dirge: 똑똑한 하니스로 저가 모델 성능 끌어올리기",
+      "summary": "Rust 기반 Dirge가 최소 메모리로 저가 모델 성능을 개선한다.",
+      "source": "TLDR Dev",
+      "url": "https://yogthos.net/posts/2026-06-08-dirge-code.html",
+      "report": {
+        "tldr": "Dirge는 저가 모델 성능을 높이면서도 메모리 사용을 최소화하는 Rust 기반 코딩 하니스다.",
+        "what": "모델 능력에만 의존하는 전통적 하니스와 달리, 오류 교정·세션 연속성·메모리 관리 같은 지원 프레임워크로 다양한 맥락에서 모델 품질을 최적화한다.",
+        "points": [
+          "Rust 기반 효율적 하니스",
+          "최소 메모리 사용",
+          "오류 교정·세션 연속성",
+          "저가 모델 품질 최적화"
+        ],
+        "why": [
+          "하니스 설계로 저비용 모델의 실용성 향상"
+        ]
+      }
+    },
+    {
+      "id": "dev-cloud-browsers-cheaper",
+      "title": "클라우드 브라우저를 3배 저렴·빠르게 만든 법",
+      "summary": "Browser Use가 Firecracker로 시간당 $0.02, 1초 미만 시작을 달성했다.",
+      "source": "TLDR Dev",
+      "url": "https://browser-use.com/posts/firecracker-browser-infra",
+      "report": {
+        "tldr": "Browser Use의 클라우드 브라우저가 빠른 시작·격리·저비용을 갖추도록 최적화됐다.",
+        "what": "현재 시간당 $0.02로 운영되고 세션이 1초 미만에 시작된다. Firecracker로 경량 VM을 쓰고 동적 스케일링을 위한 컨트롤 플레인을 구현했다.",
+        "points": [
+          "시간당 $0.02 운영",
+          "1초 미만 세션 시작",
+          "Firecracker 경량 VM",
+          "동적 스케일링 컨트롤 플레인"
+        ],
+        "why": [
+          "에이전트용 브라우저 인프라의 비용·성능 개선"
+        ]
+      }
+    },
+    {
+      "id": "dev-dialogue-dividend",
+      "title": "대화의 배당",
+      "summary": "타인과의 대화는 혼자 사고할 때보다 더 나은 문제 해결과 이해를 끌어낸다.",
+      "source": "TLDR Dev",
+      "url": "https://www.thesignalist.io/s/the-dialogue-dividend/",
+      "report": {
+        "tldr": "타인과의 대화가 혼자 하는 사고보다 더 나은 문제 해결과 이해로 이어진다는 글이다.",
+        "what": "대화는 생각을 실시간으로 다듬는 피드백 루프를 만든다.",
+        "points": [
+          "대화가 문제 해결 촉진",
+          "실시간 피드백 루프",
+          "고독한 사고의 한계 보완"
+        ],
+        "why": [
+          "협업·페어링의 인지적 이점 환기"
+        ]
+      }
+    },
+    {
+      "id": "dev-yak-shaving-fun",
+      "title": "그래도 야크 셰이빙은 즐겁다",
+      "summary": "본래 목표에서 벗어난 곁가지 작업도 예상치 못한 발견과 즐거움을 준다.",
+      "source": "TLDR Dev",
+      "url": "https://parksb.github.io/en/article/32.html",
+      "report": {
+        "tldr": "야크 셰이빙(목표에서 벗어난 일련의 곁가지 작업)에 대한 글이다.",
+        "what": "처음부터 무언가를 만드는 과정이 예상치 못한 도전, 발견, 즐거움으로 이어질 수 있음을 보여준다.",
+        "points": [
+          "곁가지 작업의 가치",
+          "예상치 못한 발견",
+          "만드는 과정의 즐거움"
+        ],
+        "why": [
+          "개발 과정의 탐색적 즐거움 재조명"
+        ]
+      }
+    },
+    {
+      "id": "dev-introducing-eve",
+      "title": "eve 소개: 오픈소스 에이전트 프레임워크",
+      "summary": "eve가 내구 실행·샌드박스·사람 승인을 내장해 에이전트 구축을 쉽게 한다.",
+      "source": "TLDR Dev",
+      "url": "https://vercel.com/blog/introducing-eve",
+      "report": {
+        "tldr": "eve는 프로덕션 기능을 내장해 에이전트의 구축·실행·확장을 쉽게 하는 오픈소스 프레임워크다.",
+        "what": "내구 실행, 샌드박스 컴퓨팅, 휴먼인더루프 승인 같은 기능을 기본 제공한다. 명확한 구조로 에이전트를 컴포넌트·액션·연결을 정의하는 파일 디렉터리로 구성할 수 있다.",
+        "points": [
+          "내구 실행·샌드박스 내장",
+          "휴먼인더루프 승인",
+          "파일 디렉터리 기반 정의",
+          "오픈소스"
+        ],
+        "why": [
+          "에이전트 개발의 표준화·프로덕션화"
+        ]
+      }
+    },
+    {
+      "id": "dev-lore-vcs-repo",
+      "title": "Lore (GitHub): 대용량 자산용 오픈소스 버전관리",
+      "summary": "Lore는 게임 등 대형 바이너리 자산 프로젝트를 위한 확장형 버전관리 시스템이다.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/EpicGames/lore",
+      "report": {
+        "tldr": "Lore는 게임 등 대형 바이너리 자산이 많은 프로젝트를 위한 확장형 오픈소스 버전관리 시스템이다.",
+        "what": "콘텐츠 주소 기반의 중앙집중 아키텍처로 효율적 저장·검색을 지원하며, 불변 리비전과 저오버헤드 브랜칭을 강조한다.",
+        "points": [
+          "대형 바이너리 자산 대상",
+          "콘텐츠 주소 기반 아키텍처",
+          "불변 리비전·저오버헤드 브랜칭",
+          "오픈소스"
+        ],
+        "why": [
+          "게임·미디어 워크플로의 버전관리 수요"
+        ]
+      }
+    },
+    {
+      "id": "dev-trex-code-review",
+      "title": "TREX 구축: AI 코드 리뷰용 코드 실행·아티팩트 생성",
+      "summary": "TREX가 격리 환경에서 테스트를 실행해 정적 분석이 놓친 버그를 잡는다.",
+      "source": "TLDR Dev",
+      "url": "https://www.greptile.com/blog/trex-code-execution",
+      "report": {
+        "tldr": "TREX는 코드 실행과 AI 기반 테스트를 결합해 정적 분석만으로는 드러나지 않는 버그를 찾는 코드 리뷰 도구다.",
+        "what": "멀티에이전트 구조로, Greptile 리뷰어가 격리 환경에서 테스트를 돌리는 전문 TREX 에이전트를 조율하고 스크린샷·로그 같은 아티팩트로 발견을 검증한다.",
+        "points": [
+          "코드 실행+AI 테스트 결합",
+          "멀티에이전트 구조",
+          "격리 환경 테스트 실행",
+          "스크린샷·로그로 검증"
+        ],
+        "why": [
+          "AI 코드 리뷰의 실행 기반 검증 강화"
+        ]
+      }
+    },
+    {
+      "id": "dev-image-compression",
+      "title": "이미지 압축",
+      "summary": "손실·무손실 압축은 인간 시지각 특성을 활용해 파일 크기를 줄인다.",
+      "source": "TLDR Dev",
+      "url": "https://www.makingsoftware.com/chapters/image-compression",
+      "report": {
+        "tldr": "손실·무손실 이미지 압축 기법이 인간 시지각 특성을 이용해 파일 크기를 줄이는 원리를 설명한다.",
+        "what": "JPEG는 크로마 서브샘플링·이산코사인변환·양자화를 결합해 눈에 띄는 품질 저하 없이 압축하고, GIF는 인덱스 컬러 팔레트와 LZW 알고리즘으로 제한된 색 데이터를 저장한다.",
+        "points": [
+          "시지각 특성 활용",
+          "JPEG: DCT·양자화·서브샘플링",
+          "GIF: 인덱스 팔레트·LZW"
+        ],
+        "why": [
+          "이미지 포맷의 압축 원리 이해"
+        ]
+      }
+    },
+    {
+      "id": "dev-llm-thonking-dev",
+      "title": "거대한 두뇌: LLM이 너무 깊이 생각하나 (개발 관점)",
+      "summary": "4개 LLM 협의체가 86.2% 만장일치를 달성했지만 낮은 추론은 일관되게 부진했다.",
+      "source": "TLDR Dev",
+      "url": "https://parsiya.net/blog/llm-thonking/",
+      "report": {
+        "tldr": "보안 취약점 분류에서 여러 LLM의 추론 강도를 분석한 글이다.",
+        "what": "4개 LLM 협의체가 발견에 대해 86.2% 만장일치를 달성한 반면, 낮은 추론 강도는 일관되게 부진했다. 높은 추론이 대체로 더 나은 결과와 상관됐지만, 복잡한 작업에서 모델이 고전한 예외도 있었다.",
+        "points": [
+          "4개 LLM 협의체 86.2% 만장일치",
+          "낮은 추론 강도는 부진",
+          "높은 추론과 성능 상관",
+          "복잡 작업서 예외 존재"
+        ],
+        "why": [
+          "LLM 협의체·추론 강도 설계의 실무 시사점"
+        ]
+      }
+    },
+    {
+      "id": "dev-founders-playbook",
+      "title": "창업자 플레이북: AI 네이티브 스타트업 구축",
+      "summary": "Anthropic이 비즈니스 라이프사이클 전 단계의 실전 연습·에이전트 워크플로를 공개했다.",
+      "source": "TLDR Dev",
+      "url": "https://claude.com/blog/the-founders-playbook",
+      "report": {
+        "tldr": "Anthropic이 AI 네이티브 스타트업을 위한 플레이북을 공개했다.",
+        "what": "비즈니스 라이프사이클의 모든 단계를 헤쳐나가기 위한 실전 연습과 에이전트형 워크플로를 담았다.",
+        "points": [
+          "AI 네이티브 스타트업용 플레이북",
+          "라이프사이클 전 단계 커버",
+          "실전 연습·에이전트 워크플로"
+        ],
+        "why": [
+          "AI 네이티브 창업 방법론 확산"
+        ]
+      }
+    },
+    {
+      "id": "dev-mac-ocr",
+      "title": "mac-ocr (GitHub): 로컬 OCR CLI",
+      "summary": "애플 Vision 프레임워크로 이미지·PDF에서 텍스트를 인식해 검색 가능 PDF 생성.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/privatenumber/mac-ocr",
+      "report": {
+        "tldr": "mac-ocr는 애플 Vision 프레임워크를 로컬로 사용하는 macOS CLI 도구다.",
+        "what": "이미지·PDF에서 텍스트를 인식해 검색 가능한 PDF를 만든다.",
+        "points": [
+          "애플 Vision 로컬 활용",
+          "이미지·PDF 텍스트 인식",
+          "검색 가능 PDF 생성"
+        ],
+        "why": [
+          "로컬·프라이빗 OCR 수요"
+        ]
+      }
+    },
+    {
+      "id": "dev-gzip-language-model",
+      "title": "gzip이 언어 모델이 될 수 있을까",
+      "summary": "gzip을 압축 기반 예측으로 텍스트 생성에 활용할 수 있다.",
+      "source": "TLDR Dev",
+      "url": "https://nathan.rs/posts/gzip-lm/",
+      "report": {
+        "tldr": "gzip을 압축 기법으로 언어 모델처럼 쓸 수 있다는 글이다.",
+        "what": "주어진 맥락에서 후보 출력이 얼마나 잘 압축되는지로 점수를 매겨 텍스트 연속을 예측·생성한다.",
+        "points": [
+          "압축 기반 예측",
+          "후보 출력의 압축률로 점수",
+          "텍스트 연속 생성"
+        ],
+        "why": [
+          "압축과 언어 모델링의 이론적 연결"
+        ]
+      }
+    },
+    {
+      "id": "dev-exa-agent",
+      "title": "Exa Agent: 프런티어 모델+웹 검색 API",
+      "summary": "Exa Agent가 연구·리스트 빌딩·데이터 보강을 위한 고성능 API를 제공한다.",
+      "source": "TLDR Dev",
+      "url": "https://exa.ai/blog/exa-agent",
+      "report": {
+        "tldr": "Exa Agent는 프런티어 언어 모델과 최적화된 웹 검색 도구를 결합한 새 API다.",
+        "what": "고성능 연구, 리스트 빌딩, 데이터 보강 기능을 제공한다.",
+        "points": [
+          "모델+웹 검색 결합 API",
+          "연구·리스트 빌딩 지원",
+          "데이터 보강 기능"
+        ],
+        "why": [
+          "에이전트형 리서치 API 경쟁"
+        ]
+      }
+    }
+  ]
+}

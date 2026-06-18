@@ -1,0 +1,269 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-chatgpt-marketshare-sub50",
+      "title": "ChatGPT 시장 점유율, 사상 처음 50% 아래로",
+      "summary": "ChatGPT 점유율이 처음으로 50% 밑으로 떨어지고 사용자가 Gemini·Claude·Grok로 이동 중이다.",
+      "source": "TLDR AI",
+      "url": "https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/",
+      "report": {
+        "tldr": "ChatGPT의 AI 어시스턴트 시장 점유율이 처음으로 50% 아래로 내려갔다.",
+        "what": "사용자들이 구글 Gemini, Anthropic Claude, xAI Grok 등 다른 어시스턴트로 분산되고 있다. ChatGPT는 역대 가장 빠르게 월 10억 사용자를 돌파한 앱이며 여전히 세계에서 가장 인기 있는 AI 어시스턴트다. 다만 사용자들이 작업에 따라 어시스턴트를 자유롭게 갈아타는 경향이 점점 강해지고 있다.",
+        "points": [
+          "점유율 첫 50% 미만 하락",
+          "Gemini·Claude·Grok로 사용자 이동",
+          "여전히 단일 1위는 ChatGPT",
+          "사용자의 멀티 어시스턴트 사용 증가"
+        ],
+        "why": [
+          "AI 어시스턴트 시장이 독점에서 경쟁 구도로 전환되는 신호",
+          "전환 비용이 낮아 브랜드 충성도보다 작업별 성능이 중요해짐"
+        ],
+        "context": "점유율 산정 기준(트래픽 vs 사용자 수)에 따라 수치가 달라질 수 있어 추세로 해석하는 것이 안전하다."
+      }
+    },
+    {
+      "id": "ai-chatgpt-scheduled-tasks",
+      "title": "ChatGPT, 예약 작업 개선하고 Pulse 종료",
+      "summary": "ChatGPT가 더 빠르고 안정적인 예약 작업 기능을 도입하고 Pulse를 폐지했다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/p8SpjI",
+      "report": {
+        "tldr": "ChatGPT가 예약 작업(scheduled tasks) 기능을 개선하고 기존 Pulse를 종료했다.",
+        "what": "속도와 안정성이 향상된 새 예약 작업은 신설된 Scheduled 페이지에서 접근할 수 있다. Go, Plus, Pro, Business, Enterprise 등급 사용자에게 제공된다.",
+        "points": [
+          "속도·안정성 개선된 예약 작업",
+          "전용 Scheduled 페이지 신설",
+          "Pulse 기능은 폐지",
+          "Go·Plus·Pro·Business·Enterprise 대상"
+        ],
+        "why": [
+          "반복 자동화가 어시스턴트 핵심 기능으로 자리잡는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-llm-thonking-overreasoning",
+      "title": "거대한 두뇌: LLM이 너무 깊이 '생각'하고 있나",
+      "summary": "추론량을 늘리거나 최신 모델을 쓴다고 보안 취약점 분류 성능이 항상 좋아지지는 않았다.",
+      "source": "TLDR AI",
+      "url": "https://parsiya.net/blog/llm-thonking/",
+      "report": {
+        "tldr": "추론 강도(reasoning effort)를 높이거나 최신 모델을 쓴다고 해서 보안 결과 분류가 항상 더 나아지지는 않는다는 실험 결과다.",
+        "what": "이전 연구에서 Opus 4.6, GPT 5.4, Gemini 3.1-pro-preview, Deepseek R1-0528, Qwen 3.6-plus는 Mythos 블로그에서 다룬 취약점 2건을 노골적 힌트 없이는 찾지 못했다. 이번 연구는 Claude-4.6/4.7과 GPT-5.4/5.5의 26개 조합을 다양한 컨텍스트 크기·추론 강도로 이어서 실험했다. 그 결과 추론 강도가 높거나 모델이 최신이라고 해서 취약점 분류에 항상 유리하지는 않았다.",
+        "points": [
+          "26개 모델 조합으로 보안 취약점 분류 실험",
+          "높은 추론 강도가 늘 더 나은 결과를 주지 않음",
+          "최신 모델이 항상 우수하지도 않음",
+          "컨텍스트 크기도 변수로 작용"
+        ],
+        "why": [
+          "과도한 추론이 비용만 늘리고 성능은 정체될 수 있음을 시사",
+          "보안 자동화에서 모델·설정 선택의 신중함이 필요"
+        ]
+      }
+    },
+    {
+      "id": "ai-kimi-k27-vs-fable5",
+      "title": "Kimi K2.7 Code vs Claude Fable 5: 94% 저렴한 랜딩페이지",
+      "summary": "Kimi K2.7 Code가 랜딩페이지 생성에서 Claude Fable 5보다 16배 저렴했다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/vVmu2l",
+      "report": {
+        "tldr": "Kimi K2.7 Code와 Claude Fable 5로 각각 12개의 랜딩페이지를 생성해 비교한 실험이다.",
+        "what": "Kimi K2.7 Code는 비용을 94% 절감해 Claude Fable 5 대비 16배 저렴했다. 비용 효율 측면에서 오픈/저가 모델의 경쟁력을 보여준 사례다.",
+        "points": [
+          "각 모델로 랜딩페이지 12개 생성",
+          "Kimi K2.7 Code 비용 94% 절감",
+          "Fable 5 대비 약 16배 저렴"
+        ],
+        "why": [
+          "코드·디자인 생성에서 비용 효율이 모델 선택의 핵심 변수로 부상"
+        ],
+        "context": "품질 동등성에 대한 정량 평가는 제한적이므로 용도별 검증이 필요하다."
+      }
+    },
+    {
+      "id": "ai-vercel-connect",
+      "title": "Vercel Connect, 단기·작업범위 한정 자격증명 공개 베타",
+      "summary": "Vercel Connect가 장수명 토큰 대신 런타임에 단기·작업범위 자격증명을 발급한다.",
+      "source": "TLDR AI",
+      "url": "https://vercel.com/blog/introducing-vercel-connect",
+      "report": {
+        "tldr": "Vercel이 에이전트용 자격증명을 런타임에 교환하는 Connect를 공개 베타로 출시했다.",
+        "what": "장수명(provider) 토큰을 대체해 작업 범위로 한정된 단기 자격증명을 발급한다. 공유·영구 액세스 토큰에 따른 보안 위험을 줄이는 것이 목표다.",
+        "points": [
+          "런타임 자격증명 교환 방식",
+          "단기·작업범위 한정 토큰 발급",
+          "장수명 토큰 의존 제거",
+          "에이전트 보안 강화 초점"
+        ],
+        "why": [
+          "에이전트 확산에 따른 비밀정보 관리 위험을 구조적으로 낮춤"
+        ],
+        "action": "에이전트 파이프라인에서 장수명 토큰을 단기 자격증명 발급 방식으로 전환 검토"
+      }
+    },
+    {
+      "id": "ai-vercel-eve",
+      "title": "Vercel, 오픈소스 에이전트 프레임워크 'eve' 공개",
+      "summary": "eve는 내구 실행·샌드박스·승인·서브에이전트·평가를 내장한 오픈소스 에이전트 프레임워크다.",
+      "source": "TLDR AI",
+      "url": "https://vercel.com/blog/introducing-eve",
+      "report": {
+        "tldr": "Vercel이 프로덕션 기능을 내장한 오픈소스 에이전트 프레임워크 eve를 선보였다.",
+        "what": "eve는 내구 실행(durable execution), 샌드박스 컴퓨트, 승인(approval), 서브에이전트, 평가(evaluation) 등을 기본 제공한다. 개발자가 프로덕션 인프라 대신 에이전트 동작 자체에 집중할 수 있게 한다.",
+        "points": [
+          "내구 실행·샌드박스 컴퓨트 내장",
+          "승인·서브에이전트·평가 지원",
+          "오픈소스로 공개",
+          "에이전트 동작 설계에 집중 가능"
+        ],
+        "why": [
+          "에이전트의 프로덕션화 난제를 표준화하려는 움직임"
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-xr-ai",
+      "title": "Nvidia XR AI, AR·XR 기기용 에이전트 공개 베타",
+      "summary": "Nvidia XR AI가 XR 기기를 GPU 가속 클라우드 AI에 연결하는 오픈소스 토대를 제공한다.",
+      "source": "TLDR AI",
+      "url": "https://developer.nvidia.com/blog/building-ai-agents-for-ar-glasses-and-xr-devices-with-nvidia-xr-ai/",
+      "report": {
+        "tldr": "Nvidia XR AI는 확장현실(XR) 기기를 클라우드·데이터센터·엣지의 GPU 가속 AI에 연결하는 재사용 가능한 토대다.",
+        "what": "AI 글래스, AR 글래스, XR 헤드셋용 지능형 에이전트를 만들 수 있는 오픈소스 라이브러리를 제공한다. 이 에이전트는 사용자가 보는 장면을 보고, 음성·텍스트 의도를 이해하며, 엔터프라이즈 도구를 호출해 같은 XR 세션 안에서 응답한다. 현재 공개 베타로 제공된다.",
+        "points": [
+          "XR 기기-클라우드 AI 연결 토대",
+          "오픈소스 라이브러리 제공",
+          "시각 인식·의도 이해·도구 호출",
+          "공개 베타 제공"
+        ],
+        "why": [
+          "웨어러블·공간컴퓨팅에서 에이전트 활용 가능성 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-molmomotion",
+      "title": "MolmoMotion, 언어 기반 3D 모션 예측 모델",
+      "summary": "MolmoMotion은 언어 지시와 초기 위치로 영상 속 3D 점 궤적의 미래를 예측한다.",
+      "source": "TLDR AI",
+      "url": "https://huggingface.co/blog/allenai/molmomotion",
+      "report": {
+        "tldr": "MolmoMotion은 언어 지시와 초기 객체 위치를 입력받아 영상 속 미래 3D 점 궤적을 예측하는 모션 예측 모델이다.",
+        "what": "기존 방법을 능가하는 성능을 보였으며, 116만 개 영상에서 추출한 3D 점 궤적으로 구성된 MolmoMotion-1M 데이터셋과 정확도 벤치마크를 함께 공개했다.",
+        "points": [
+          "언어 지시 기반 3D 모션 예측",
+          "기존 기법 대비 성능 우위",
+          "116만 영상 기반 데이터셋 공개",
+          "정확도 평가 벤치마크 제공"
+        ],
+        "why": [
+          "로보틱스·영상 이해를 위한 멀티모달 모션 예측 발전"
+        ]
+      }
+    },
+    {
+      "id": "ai-cursor-new-model",
+      "title": "Cursor 신규 모델: 1.5조 파라미터·10만 GPU 학습",
+      "summary": "Cursor가 10만 개 이상 GPU로 처음부터 학습한 1.5조 파라미터급 에이전트 코딩 모델을 예고했다.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2066946225837109735.html",
+      "report": {
+        "tldr": "Cursor가 자동완성·페어프로그래밍을 넘어서는 에이전트형 소프트웨어 개발 모델을 예고했다.",
+        "what": "이 대형 모델은 10만 개 이상의 GPU로 처음부터(from scratch) 학습됐다. 1.5조 개 이상의 파라미터를 가지며 코딩을 넘어서는 지능을 제공한다고 한다. 수주 내 출시 예정이다.",
+        "points": [
+          "10만+ GPU로 처음부터 학습",
+          "1.5조+ 파라미터 규모",
+          "코딩 넘어서는 범용 지능 주장",
+          "수주 내 출시 예정"
+        ],
+        "why": [
+          "코딩 도구 업체가 자체 초대형 모델로 수직 통합하는 흐름"
+        ],
+        "context": "출시 전 성능·비용은 미공개이므로 벤치마크 공개 후 검증 필요."
+      }
+    },
+    {
+      "id": "ai-noam-shazeer-openai",
+      "title": "노암 셰이저, 구글 떠나 OpenAI 합류",
+      "summary": "'Attention Is All You Need' 공저자 노암 셰이저가 구글을 떠나 OpenAI에 합류한다.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2067400851438932297.html",
+      "report": {
+        "tldr": "트랜스포머 논문 공저자 노암 셰이저가 구글을 떠나 OpenAI로 이동한다.",
+        "what": "셰이저는 AI 지형을 바꾼 2017년 'Attention Is All You Need' 논문의 공저자 중 한 명이다. 검색 철자 교정 개선과 AdSense 핵심 알고리즘 개발에도 기여했다.",
+        "points": [
+          "트랜스포머 논문 공저자",
+          "구글 → OpenAI 이동",
+          "검색·AdSense 핵심 기여 이력"
+        ],
+        "why": [
+          "최상위 AI 인재의 이동이 연구 경쟁 구도에 영향"
+        ]
+      }
+    },
+    {
+      "id": "ai-mistral-summer-model",
+      "title": "Mistral, 올여름 신규 모델 출시 예정",
+      "summary": "Mistral이 올여름 신규 모델을 내놓고 7월 핵심 파트너 대상 얼리액세스를 연다.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2066913356548542827.html",
+      "report": {
+        "tldr": "Mistral이 이번 여름 새 모델을 출시할 예정이다.",
+        "what": "연구·정부·산업계의 핵심 파트너를 대상으로 7월에 얼리액세스 프로그램이 열린다.",
+        "points": [
+          "올여름 신규 모델 예고",
+          "7월 얼리액세스 개시",
+          "연구·정부·산업 파트너 대상"
+        ],
+        "why": [
+          "유럽발 프런티어 모델 경쟁 지속"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-lifescibench",
+      "title": "OpenAI, 생명과학 워크플로 벤치마크 LifeSciBench 공개",
+      "summary": "LifeSciBench는 생명과학 전체 워크플로를 전문가 평가로 측정하는 벤치마크다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/sEKN5q",
+      "report": {
+        "tldr": "OpenAI가 생명과학 워크플로 전반을 평가하는 전문가 채점 벤치마크 LifeSciBench를 공개했다.",
+        "what": "고립된 생물학 과제가 아니라 증거 분석, 실험 설계, 과학적 추론, 연구 커뮤니케이션 같은 엔드투엔드 워크플로를 평가한다.",
+        "points": [
+          "전문가 채점 기반 벤치마크",
+          "엔드투엔드 생명과학 워크플로 평가",
+          "증거 분석·실험 설계·추론·소통 포함"
+        ],
+        "why": [
+          "과학 연구에서 AI의 실질적 활용도를 측정하려는 시도"
+        ]
+      }
+    },
+    {
+      "id": "ai-replit-in-claude",
+      "title": "Replit, 이제 Claude에서 사용 가능",
+      "summary": "Replit이 Claude에 통합돼 디자인에서 개발로의 전환이 매끄러워졌다.",
+      "source": "TLDR AI",
+      "url": "https://replit.com/blog/replit-claude",
+      "report": {
+        "tldr": "Replit이 Claude에 통합됐다.",
+        "what": "디자인 단계에서 개발 단계로 매끄럽게 이어지는 워크플로를 제공한다.",
+        "points": [
+          "Replit-Claude 통합",
+          "디자인→개발 전환 간소화"
+        ],
+        "why": [
+          "AI 어시스턴트와 개발 플랫폼 간 통합 가속"
+        ]
+      }
+    }
+  ]
+}

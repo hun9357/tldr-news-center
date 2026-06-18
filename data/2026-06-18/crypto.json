@@ -1,0 +1,249 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-coinbase-everything-exchange",
+      "title": "코인베이스, 투자자의 날에 대규모 제품 확장 발표",
+      "summary": "코인베이스가 토큰화 주식·옵션·AI 자문·에이전트 거래 등 4개 영역 신제품을 공개했다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.coinbase.com/blog/system-update-take-control-of-your-money-with-coinbase",
+      "report": {
+        "tldr": "코인베이스가 거래, 투자, 뱅킹, 결제, AI 금융관리를 아우르는 '모든 것의 거래소' 비전을 발표했다.",
+        "what": "거래·자산 영역에서 비미국 사용자용 토큰화 주식(1:1 담보, 배당·의결권·24/7 거래·담보 활용), 옵션 거래, Anthropic·OpenAI 프리-IPO 퍼프, 주가지수 퍼프, 예측시장을 내놨다. AI·에이전트 영역에서는 SEC 등록 AI 투자자문 Coinbase Advisor와, Claude·ChatGPT가 서브계정 한도 내에서 거래할 수 있는 Coinbase for Agents(Base MCP·x402 기반)를 출시했다. 결제는 풀스택 엔터프라이즈 솔루션과 Coinbase One Card, 프라이버시는 Base Ledger를 선보였다.",
+        "points": [
+          "토큰화 주식·옵션·프리-IPO 퍼프",
+          "SEC 등록 AI 자문 Coinbase Advisor",
+          "Coinbase for Agents(Base MCP·x402)",
+          "엔터프라이즈 결제·Base Ledger"
+        ],
+        "why": [
+          "거래소를 넘어 통합 금융 플랫폼으로 확장",
+          "에이전트 결제·토큰화 자산이 핵심 축으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "crypto-btc-67k-iran",
+      "title": "비트코인, 트럼프의 美-이란 합의·호르무즈 재개 선언에 6.7만 달러 돌파",
+      "summary": "트럼프의 합의 완료·호르무즈 재개 선언에 비트코인이 2주 최고치를 기록했다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "비트코인이 트럼프의 美-이란 핵 합의 완료 및 호르무즈 해협 재개 선언 후 6만 7천 달러를 넘어 2주 최고치를 찍었다.",
+        "what": "유가는 이 소식에 약 4% 하락하며 자산 전반의 위험선호 전환을 반영했다. 가격 상승으로 약 1억 5천만 달러의 숏 포지션이 청산되며 강제 매수가 랠리를 증폭했다. 단기 가격이 크립토 고유 촉매보다 거시·지정학 흐름에 묶였다.",
+        "points": [
+          "BTC 6.7만 달러 돌파(2주 최고)",
+          "美-이란 합의·호르무즈 재개 영향",
+          "유가 약 4% 하락",
+          "숏 약 1.5억 달러 청산"
+        ],
+        "why": [
+          "거시·지정학 이벤트가 단기 크립토 가격을 좌우"
+        ]
+      }
+    },
+    {
+      "id": "crypto-confidential-defi-vault",
+      "title": "이더리움 최초 기밀 DeFi 수익 볼트 출시",
+      "summary": "Steakhouse Confidential USDC Prime 볼트가 FHE로 잔액·전략을 숨긴 채 운용한다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "세 팀이 공동으로 Steakhouse Confidential USDC Prime 볼트를 출시했다.",
+        "what": "Zama의 완전동형암호(FHE)로 표준 USDC를 차폐된 cUSDC로 이더리움 상에서 변환하고 Morpho 대출 인프라로 라우팅하면서 잔액·전송액·전략을 공개 시야에서 숨긴다. DeFi의 투명성 때문에 진입을 꺼리던 기관을 겨냥하지만, 최근 연방 판사가 약 1,260만 달러 유입을 이유로 Circle에 Zama cUSDC 계약 블랙리스트를 명령해 컴플라이언스 논란이라는 복잡한 배경 속에 등장했다.",
+        "points": [
+          "FHE로 잔액·전략 비공개",
+          "USDC→차폐 cUSDC 변환",
+          "Morpho 대출 인프라 활용",
+          "기관 진입 겨냥, 컴플라이언스 논란"
+        ],
+        "why": [
+          "기관용 프라이버시 DeFi의 가능성과 규제 긴장"
+        ]
+      }
+    },
+    {
+      "id": "crypto-blockrun-x402",
+      "title": "BlockRun, 에이전트 커머스의 AWS 구축",
+      "summary": "x402로 에이전트가 USDC로 결제하는 머신 네이티브 결제 레일을 집약한다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "BlockRun이 x402 위에 에이전트 커머스의 집약·발견 계층을 구축한다.",
+        "what": "x402는 1997년부터 미사용이던 HTTP 402 상태코드를 머신 네이티브 결제 레일로 되살린다. 에이전트가 자원을 요청하면 서버가 가격과 지갑 주소를 반환하고, 에이전트가 USDC로 결제하면 API 키·구독·사람 승인 없이 자원을 받는다. BlockRun은 통합 지갑과 인증 게이트웨이로 GPT-4·Claude·Grok·DeepSeek·Gemini 등 30+ 모델과 이미지·데이터 서비스를 제공한다.",
+        "points": [
+          "HTTP 402 기반 머신 결제",
+          "USDC 즉시 결제, 키·승인 불필요",
+          "30+ 모델·서비스 집약",
+          "에이전트·서비스 평판 점수 개발 중"
+        ],
+        "why": [
+          "에이전트 자율 결제가 거래 규모를 폭증시킬 잠재력"
+        ]
+      }
+    },
+    {
+      "id": "crypto-agents-untrusted-participants",
+      "title": "자율 에이전트를 신뢰할 수 없는 참가자로 다루기",
+      "summary": "에이전트 시스템의 신뢰성은 모델 능력이 아닌 제약 인프라에서 나온다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "프로덕션 에이전트 시스템의 신뢰성은 모델 능력이 아니라 제약 인프라에서 나온다는 주장이다.",
+        "what": "기본 거부 권한, 프로세스 격리, 승인 체크포인트가 메커니즘 설계 원리(정산 규칙, 교차 에이전트 간섭 방지, 약속 장치)에 깔끔히 대응된다. 온체인 메커니즘은 참가자의 정직성에 의존하지 말고 이탈이 구조적으로 무익하도록 인센티브와 제약을 바꿔야 한다.",
+        "points": [
+          "신뢰성은 제약 인프라에서",
+          "기본 거부·격리·승인 체크포인트",
+          "메커니즘 설계 원리에 대응",
+          "정직성 아닌 인센티브 의존"
+        ],
+        "why": [
+          "에이전트 기반 온체인 설계의 새로운 보안 원칙"
+        ]
+      }
+    },
+    {
+      "id": "crypto-com-eth-namespace",
+      "title": ".com/.eth, 기관 표준 네임스페이스가 될까",
+      "summary": "기관들이 DNS와 ENS를 짝지은 듀얼레일 신원을 등록하고 있다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "GENIUS Act 통과와 OCC 규칙 제정이 기관의 .com/.eth 짝 등록을 촉발하고 있다.",
+        "what": "DNS는 법적 참조 가능한 신고·규제 통신용, ENS는 네이티브 스마트컨트랙트 조합성용으로 쓰는 듀얼레일 방식이다. .com 도메인은 법적 지위는 있지만 온체인 컨트랙트가 직접 호출할 수 없고, .eth 이름은 EVM에서 네이티브로 해석되지만 규제 신고에는 인정되지 않는 구조적 비호환을 해소한다.",
+        "points": [
+          "DNS+ENS 듀얼레일 신원",
+          "GENIUS Act·OCC 규칙이 촉발",
+          "법적 지위 vs 온체인 조합성",
+          "탈중앙화 이념과 긴장"
+        ],
+        "why": [
+          "규제 주도 ENS 채택이 프로토콜 성격을 바꿀 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-banks-stablecoin-pilots",
+      "title": "은행은 지금 스테이블코인 파일럿을 돌려야 한다",
+      "summary": "수요가 폭발하기 전에 핵심뱅킹 통합·AML·트레저리 역량을 쌓아야 한다는 권고.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "은행이 고객 수요가 급증하기 전 운영 역량을 쌓기 위해 지금 스테이블코인 파일럿을 시작해야 한다는 분석이다.",
+        "what": "토큰화 예금은 발행 은행 경계 안에 머물러 정산·담보·일중 유동성에 적합하고, 스테이블코인은 체인·지갑을 넘나들며 국경 간 결제·송금·에이전트 결제에 적합하다. 권장 진입점은 은행 간 정산이며, 수요가 명확해질 때까지 기다린 은행은 압박 속에 역량을 구축하게 된다.",
+        "points": [
+          "핵심뱅킹·AML·트레저리 역량 선제 구축",
+          "토큰화 예금 vs 스테이블코인 구분",
+          "은행 간 정산이 권장 진입점",
+          "선발자 우위 강조"
+        ],
+        "why": [
+          "스테이블코인 제도화에 따른 은행권 대응 시급"
+        ]
+      }
+    },
+    {
+      "id": "crypto-korea-usdt-laundering",
+      "title": "한국 경찰, 1,110만 달러 USDT 세탁 23명 검거",
+      "summary": "2024년 2월~2025년 4월 거래소에서 USDT를 사들여 자금을 세탁한 23명이 검거됐다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "한국 경찰이 USDT를 이용해 1,110만 달러를 세탁한 혐의로 23명을 검거했다.",
+        "what": "이들은 2024년 2월부터 2025년 4월까지 거래소에서 반복적으로 USDT를 매입해 14개월간 불법 수익을 레이어링하고 출처를 숨겼다. 2024년 7월 가상자산이용자보호법 시행 이후 한국 당국의 크립토 기소가 늘었고, USDT는 거래소 접근성과 달러 페그 안정성으로 지역 사건에 반복 등장한다.",
+        "points": [
+          "23명 검거, 1,110만 달러 세탁",
+          "거래소 USDT 반복 매입",
+          "14개월간 자금 레이어링",
+          "가상자산이용자보호법 이후 기소 증가"
+        ],
+        "why": [
+          "스테이블코인이 자금세탁 수단으로 악용되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "crypto-usdgo-500m",
+      "title": "엔터프라이즈 스테이블코인 USDGO, 유통량 5억 달러 돌파",
+      "summary": "Anchorage 발행·OSL 유통의 USDGO가 출시 약 4개월 만에 5억 달러를 넘겼다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "엔터프라이즈용 스테이블코인 USDGO의 유통 공급량이 5억 달러를 넘었다.",
+        "what": "연방 인가 Anchorage Digital Bank가 발행하고 OSL이 유통하는 USDGO는 2월 출시 약 4개월 만에 5억 달러를 돌파했으며, 출시 2개월 만에 1억 달러를 기록했다.",
+        "points": [
+          "유통량 5억 달러 돌파",
+          "Anchorage 발행·OSL 유통",
+          "출시 약 4개월 만 달성"
+        ],
+        "why": [
+          "기관용 스테이블코인 수요의 빠른 성장"
+        ]
+      }
+    },
+    {
+      "id": "crypto-btc-lth-supply",
+      "title": "장기 보유 공급 사상 최고, BTC 약세장 종료 임박 시사",
+      "summary": "비트코인 유통량의 약 79%를 장기 투자자가 보유 중이다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "비트코인 유통량의 약 79%가 장기 투자자(155일 이상 보유) 손에 있어 사상 최고를 기록했다.",
+        "what": "이는 역사적으로 매도 소진이 일어나며 중기 가격 바닥에 선행해온 지표다.",
+        "points": [
+          "장기 보유 비중 약 79%",
+          "155일 이상 보유 기준",
+          "과거 중기 바닥에 선행"
+        ],
+        "why": [
+          "보유 구조 변화가 약세장 종료 가능성 시사"
+        ],
+        "context": "온체인 지표는 추세 참고용이며 단기 가격을 보장하지 않는다."
+      }
+    },
+    {
+      "id": "crypto-plasma-one-neobank",
+      "title": "Plasma One, 스테이블코인 네오뱅크로 출범",
+      "summary": "Plasma의 비트코인 보안 L1 기반 소비자 제품이 Visa 카드 라인업으로 출시됐다.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "Plasma One이 스테이블코인 네오뱅크로 출시됐다.",
+        "what": "Plasma의 비트코인 보안 L1 스테이블코인 체인 위에 구축된 소비자 제품으로, Visa가 지원하고 Rain이 발행하는 Lite·Core·Platinum 3단계 카드 라인업을 갖췄다.",
+        "points": [
+          "스테이블코인 네오뱅크 출범",
+          "비트코인 보안 L1 기반",
+          "Visa 지원·Rain 발행",
+          "3단계 카드 라인업"
+        ],
+        "why": [
+          "스테이블코인 기반 소비자 금융 제품 확산"
+        ]
+      }
+    },
+    {
+      "id": "crypto-private-ai-stack-sovereignty",
+      "title": "한 빌더의 완전 프라이빗 AI 스택과 데이터 주권",
+      "summary": "ChatGPT·Claude를 16GB 맥북에서 돌아가는 자가호스팅 스택으로 대체한 사례.",
+      "source": "TLDR Crypto",
+      "url": "https://www.tldr.tech/",
+      "report": {
+        "tldr": "한 크립토 네이티브 개발자가 ChatGPT·Claude·Perplexity를 자가호스팅 AI 스택으로 완전히 대체한 사례다.",
+        "what": "16GB 맥북 프로에서 Venice 프라이빗 추론 API, 장기 기억용 Honcho, 지식 금고 Obsidian, 로컬 검색 엔진, 자율 웹 브라우징용 CDP 브라우저 자동화 계층을 조합했다.",
+        "points": [
+          "자가호스팅 프라이빗 AI 스택",
+          "16GB 맥북에서 구동",
+          "Venice·Honcho·Obsidian 조합",
+          "데이터 주권 강조"
+        ],
+        "why": [
+          "프라이버시·데이터 주권 중심의 로컬 AI 흐름"
+        ]
+      }
+    }
+  ]
+}
