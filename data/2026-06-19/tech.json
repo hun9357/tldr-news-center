@@ -1,0 +1,420 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📰",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-midjourney-scanner",
+      "title": "미드저니, 헬스로 피벗 — 전신 초음파 스캐너",
+      "summary": "물에 부분 침수한 채 스캔하는 전신 초음파 기기 '미드저니 스캐너'로 5만 대 규모 함대를 계획한다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/wMh7p6",
+      "originalDate": "2026-06-19",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "헬스케어 하드웨어"
+      },
+      "related": [
+        "미드저니 하드웨어 다각화 추적",
+        "스파 기반 검진 모델의 규제 점검"
+      ],
+      "report": {
+        "tldr": "미드저니가 전신 초음파 스캐너로 헬스케어에 진출한다.",
+        "what": "미드저니 스캐너는 사용자가 물에 부분 침수한 상태로 작동하며, 회사는 5만 대 함대를 계획하고 첫 기기를 샌프란시스코 '미드저니 스파'에 둘 예정이다. 이 스캐너 자체는 AI를 쓰지 않는다. 미드저니는 4개 하드웨어·4개 소프트웨어 이니셔티브를 진행 중이며 곧 최소 2개 하드웨어를 출시할 계획이다.",
+        "points": [
+          "전신 초음파, 부분 침수 방식",
+          "5만 대 함대 계획",
+          "첫 기기는 SF '미드저니 스파'",
+          "스캐너 자체는 AI 미사용"
+        ],
+        "why": [
+          "이미지 생성 기업의 의외의 하드웨어·헬스 확장"
+        ]
+      }
+    },
+    {
+      "id": "tech-amazon-trainium-sell",
+      "title": "아마존, 트레이니엄 칩 외부 판매로 엔비디아에 정면 도전 검토",
+      "summary": "AWS가 자체 트레이니엄 AI 칩을 타사 데이터센터에 판매하는 방안을 논의 중이다.",
+      "source": "TLDR",
+      "url": "https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/",
+      "originalDate": "2026-06-18",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 반도체"
+      },
+      "related": [
+        "트레이니엄 외부 판매가 기존 고객 공급에 미칠 영향 점검"
+      ],
+      "report": {
+        "tldr": "AWS가 트레이니엄 칩을 외부에 판매하는 방안을 논의 중이다.",
+        "what": "AWS는 자체 트레이니엄 AI 칩을 타사 데이터센터용으로 판매하는 협의를 진행 중이다. 지금까지는 현재 칩의 컴퓨트 용량이 이미 매진돼 판매를 자제해 왔다. 외부 판매 시 추가 생산이 가능하지 않는 한 기존 고객이 대기하게 될 수 있다.",
+        "points": [
+          "트레이니엄 외부 판매 협의",
+          "현재 컴퓨트 용량 매진 상태",
+          "기존 고객 공급 지연 우려",
+          "엔비디아 정면 도전 시도"
+        ],
+        "why": [
+          "자체 칩 외판은 엔비디아 지배 구도에 대한 직접 도전"
+        ]
+      }
+    },
+    {
+      "id": "tech-nasa-relativity-mars",
+      "title": "NASA, 에릭 슈미트의 로켓 기업에 화성 미션 맡겨 — 스페이스X와 경쟁",
+      "summary": "NASA가 Relativity Space에 화성 궤도 관측 우주선 Aeolus(2028 발사 예정) 제작을 맡겼다.",
+      "source": "TLDR",
+      "url": "https://techcrunch.com/2026/06/17/nasa-picks-eric-schmidts-rocket-company-for-mars-mission-setting-up-a-race-with-spacex/",
+      "originalDate": "2026-06-17",
+      "intel": {
+        "impact": "Low",
+        "confidence": "80%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "우주·과학"
+      },
+      "related": [
+        "민간 화성 미션 경쟁 추적"
+      ],
+      "report": {
+        "tldr": "NASA가 Relativity Space에 화성 관측 미션을 맡겼다.",
+        "what": "NASA는 Relativity Space에 과학 장비를 탑재한 우주선을 만들어 화성으로 보내도록 의뢰했다. Aeolus 미션은 4개 장비로 화성을 궤도에서 측정·촬영해 먼지·바람·기온의 첫 일일 전지구 관측을 제공한다. 2028년 발사 예정이다.",
+        "points": [
+          "Relativity Space가 제작 담당",
+          "Aeolus, 4개 관측 장비 탑재",
+          "먼지·바람·기온 일일 전지구 관측",
+          "2028년 발사 목표"
+        ],
+        "why": [
+          "민간 우주기업의 심우주 임무 확대, 스페이스X와 경쟁 구도"
+        ]
+      }
+    },
+    {
+      "id": "tech-meter-pricing-ai-economics",
+      "title": "미터링 가격제, AI 경제성을 시험하다",
+      "summary": "플랫 구독에서 사용량 기반 과금으로의 전환이 기업의 AI 투자 수익을 직시하게 만든다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/3zduJz",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Operations",
+        "status": "Watch",
+        "affectedSurface": "AI 가격·예산"
+      },
+      "related": [
+        "사용량 기반 AI 과금 전환의 예산 영향 점검"
+      ],
+      "report": {
+        "tldr": "AI 서비스가 사용량 기반 과금으로 옮겨가며 경제성이 시험대에 올랐다.",
+        "what": "점점 더 많은 기술 기업이 플랫 구독 대신 AI 서비스에 사용량 기반 옵션을 도입하고 있다. 이 전환은 더 선별적인 사용을 유도하고, 기업이 AI 지출과 그 투자 수익을 직시하게 만든다.",
+        "points": [
+          "플랫 구독→사용량 기반 전환",
+          "선별적 사용 유도",
+          "AI 지출·ROI 재검토 촉발"
+        ],
+        "why": [
+          "과금 모델 변화가 도구 채택·예산 전략을 좌우"
+        ]
+      }
+    },
+    {
+      "id": "tech-agent-loop-architecture",
+      "title": "에이전트 루프 아키텍처",
+      "summary": "루프 하부 실행 계층의 내구성이 핵심이며, 내구성 있는 오케스트레이션이 에이전트 루프의 기반이다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/8ngZvj",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 아키텍처"
+      },
+      "related": [
+        "내구성 있는 오케스트레이션 설계 검토"
+      ],
+      "report": {
+        "tldr": "내구성 있는 오케스트레이션이 에이전트 루프 아키텍처의 기반이다.",
+        "what": "내구성은 루프 아래 전체 실행 계층의 속성이다. 이 글은 에이전트 루프 아키텍처를 분해해 루프가 흔히 깨지는 지점, 깨질 때 벌어지는 일, 스스로 스킬을 만드는 에이전트 구축법 등을 설명한다.",
+        "points": [
+          "내구성=실행 계층 전체의 속성",
+          "루프가 깨지는 지점 분석",
+          "자기 스킬 구축 에이전트 설계"
+        ],
+        "why": [
+          "실패에 강한 에이전트 설계의 실용 지침"
+        ]
+      }
+    },
+    {
+      "id": "tech-clear-language",
+      "title": "Clear — 명세와 구현이 한 파일에 있는 언어",
+      "summary": "문서와 동작이 동일 아티팩트인 에이전트 친화 프로그래밍 언어.",
+      "source": "TLDR",
+      "url": "https://sahin.io/clear/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "프로그래밍 언어"
+      },
+      "related": [
+        "에이전트 친화 언어·스펙 동기화 도구 검토"
+      ],
+      "report": {
+        "tldr": "Clear는 명세와 구현이 같은 파일에 있는 언어다.",
+        "what": "Clear는 명세와 구현이 동일 파일에 있어 문서와 동작 사이의 번역 단계나 드리프트가 없다. 에이전트가 읽고 실행하도록 설계됐고 팀 누구나 읽을 수 있으며, 명세 변경 없이 어떤 타깃으로도 컴파일된다.",
+        "points": [
+          "명세=구현, 단일 파일",
+          "문서-동작 드리프트 없음",
+          "에이전트가 읽고 실행 가능",
+          "타깃 무관 컴파일"
+        ],
+        "why": [
+          "에이전트 시대의 스펙·코드 정합성 실험"
+        ]
+      }
+    },
+    {
+      "id": "tech-intel-apple-trump",
+      "title": "인텔 주가 급등 — 트럼프, 애플 파트너십 발표",
+      "summary": "트럼프·애플이 인텔과 미국 내 칩 설계·생산 협력을 발표하며 인텔 주가가 뛰었다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/SwCbyR",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "반도체·정책"
+      },
+      "related": [
+        "미국 내 반도체 생산 정책·동맹 추적"
+      ],
+      "report": {
+        "tldr": "인텔이 애플·트럼프 협력 발표로 주가가 급등했다.",
+        "what": "트럼프 대통령과 애플이 인텔과 협력해 미국에서 칩을 설계·생산하기로 합의했다고 발표하자 인텔 주가가 뛰었다. 인텔은 2025년 3월 Lip-Bu Tan이 CEO가 되기 전까지 수년간 부진했다.",
+        "points": [
+          "애플·인텔 미국 내 칩 협력",
+          "주가 급등",
+          "Lip-Bu Tan CEO 체제",
+          "트럼프 행정부 지원"
+        ],
+        "why": [
+          "미국 반도체 자립 정책과 빅테크 동맹의 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-infinite-workweek",
+      "title": "미국은 '무한 근무 주간'으로 향하는가",
+      "summary": "코딩 에이전트가 시간을 벌어줄 것 같지만 감독 필요성 탓에 오히려 쉴 틈이 사라진다는 분석.",
+      "source": "TLDR",
+      "url": "https://www.theatlantic.com/technology/2026/06/ai-agents-jobs-exhaustion/687596/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "People",
+        "status": "Watch",
+        "affectedSurface": "업무 방식"
+      },
+      "related": [
+        "에이전트 감독 부담과 번아웃 위험 점검"
+      ],
+      "report": {
+        "tldr": "코딩 에이전트가 쉴 틈을 늘리기는커녕 줄인다는 분석이다.",
+        "what": "코딩 에이전트는 이론상 시간을 벌어 깊은 작업과 휴식을 늘려야 하지만, 일부 개발자는 반대 경험을 한다. 에이전트는 더 많은 일을 하지만 여전히 사람의 감독이 필요하고, 방치하면 큰 혼란을 낼 수 있다. 동시에 여러 에이전트를 돌리면 쉴 틈이 없어진다.",
+        "points": [
+          "에이전트=더 많은 산출, 그러나 감독 필수",
+          "방치 시 혼란 위험",
+          "다수 에이전트 운영=휴식 부재"
+        ],
+        "why": [
+          "생산성 도구가 업무 강도를 높이는 역설"
+        ]
+      }
+    },
+    {
+      "id": "tech-employee-equity-volatility",
+      "title": "직원 지분 가치는 변동성에 크게 좌우된다",
+      "summary": "표준 베스팅은 투자자가 지불하려는 가격의 수배 가치를 갖는 내재 콜옵션을 직원에게 준다.",
+      "source": "TLDR",
+      "url": "https://devanshpanda.com/writing/volatility/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "People",
+        "status": "Watch",
+        "affectedSurface": "보상·지분"
+      },
+      "related": [
+        "스타트업 지분 보상 가치 평가 검토"
+      ],
+      "report": {
+        "tldr": "표준 베스팅은 직원에게 가치 큰 내재 콜옵션을 준다.",
+        "what": "표준 베스팅은 직원에게 스타트업 지분에 대한 내재 콜옵션을 주는데, 이는 투자자가 지불하려는 가격의 수배 가치를 가진다.",
+        "points": [
+          "베스팅=내재 콜옵션",
+          "변동성이 가치 좌우",
+          "투자자 지불가의 수배 가치"
+        ],
+        "why": [
+          "지분 보상의 진짜 가치를 변동성 관점에서 재해석"
+        ]
+      }
+    },
+    {
+      "id": "tech-meta-ai-chief-departs",
+      "title": "메타 내부 AI 개편 이끌던 임원, 두 달 만에 떠나",
+      "summary": "Emily Dalton Smith가 후임 인계 완료까지 Andrew Bosworth와 협업하며 잔류한다.",
+      "source": "TLDR",
+      "url": "https://thenextweb.com/news/meta-ai-for-work-chief-departs",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "빅테크 인사"
+      },
+      "related": [
+        "메타 AI 조직 재편 동향 추적"
+      ],
+      "report": {
+        "tldr": "메타의 내부 AI 개편 책임자가 두 달 만에 떠난다.",
+        "what": "메타의 내부 AI 개편을 이끌던 Emily Dalton Smith가 두 달 만에 떠난다. 후임 인계가 완료될 때까지 Andrew Bosworth와 함께 일하며 잔류한다.",
+        "points": [
+          "AI 개편 책임자 두 달 만 사임",
+          "인계까지 잔류"
+        ],
+        "why": [
+          "메타 AI 조직의 불안정성 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-satellite-rescue",
+      "title": "기록적 속도로 성사된 대담한 위성 구조 미션",
+      "summary": "Katalyst 우주선이 Swift 위성에 도킹해 안전 궤도로 끌어올린다.",
+      "source": "TLDR",
+      "url": "https://arstechnica.com/space/2026/06/a-bold-satellite-rescue-mission-came-together-in-record-time-but-will-it-work/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "우주"
+      },
+      "related": [
+        "궤도 서비싱·위성 구조 기술 추적"
+      ],
+      "report": {
+        "tldr": "Katalyst가 Swift 위성을 도킹해 안전 궤도로 끌어올리는 구조 미션을 추진한다.",
+        "what": "Katalyst의 우주선이 Swift 위성에 부착·고정한 뒤 궤도를 안전한 운용 고도로 다시 끌어올린다.",
+        "points": [
+          "Swift 위성 도킹·고정",
+          "궤도 재상승",
+          "기록적으로 빠른 준비"
+        ],
+        "why": [
+          "궤도 서비싱이 실제 구조 임무로 진화"
+        ]
+      }
+    },
+    {
+      "id": "tech-genome-confound-ai",
+      "title": "인간 게놈의 얽힌 물성, AI를 혼란시킬 수 있다",
+      "summary": "게놈은 청사진·알고리즘이 아니어서 단순 입출력 접근을 따르지 않을 수 있다는 분석.",
+      "source": "TLDR",
+      "url": "https://www.quantamagazine.org/why-the-human-genomes-tangled-physicality-may-confound-ai-20260618/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "바이오·AI"
+      },
+      "related": [
+        "생물학 AI 모델의 한계 검토"
+      ],
+      "report": {
+        "tldr": "게놈의 물리적 얽힘이 AI의 단순 입출력 가정을 무너뜨릴 수 있다.",
+        "what": "인간 게놈은 청사진이나 알고리즘이 아니기 때문에, 그러한 AI 모델이 전제하는 단순한 입력-출력 접근에 순응하지 않을 수 있다.",
+        "points": [
+          "게놈≠청사진/알고리즘",
+          "단순 입출력 가정의 한계",
+          "물리적 얽힘이 변수"
+        ],
+        "why": [
+          "생물학에 대한 AI 적용의 근본적 난제"
+        ]
+      }
+    },
+    {
+      "id": "tech-gemma4-browser",
+      "title": "브라우저에서 도는 Gemma 4",
+      "summary": "Gemma 4 E2B(QAT Mobile)가 WebGPU로 온디바이스에서 완전 구동된다.",
+      "source": "TLDR",
+      "url": "https://huggingface.co/spaces/webml-community/gemma-4-webgpu-kernels",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "온디바이스 AI"
+      },
+      "related": [
+        "WebGPU 온디바이스 추론 활용 검토"
+      ],
+      "report": {
+        "tldr": "Gemma 4가 WebGPU로 브라우저에서 완전 온디바이스 구동된다.",
+        "what": "Gemma 4 E2B(QAT Mobile)가 WebGPU로 기기에서 완전히 구동된다.",
+        "points": [
+          "WebGPU 온디바이스 구동",
+          "Gemma 4 E2B QAT Mobile"
+        ],
+        "why": [
+          "서버 없이 브라우저에서 LLM 실행 가능성 확대"
+        ]
+      }
+    },
+    {
+      "id": "tech-open-source-invisible-hand",
+      "title": "오픈소스 대 보이지 않는 손",
+      "summary": "오픈소스의 경제학은 수지가 맞지 않는다는 분석.",
+      "source": "TLDR",
+      "url": "https://nesbitt.io/2026/06/18/open-source-vs-the-invisible-hand.html",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "오픈소스 지속가능성"
+      },
+      "related": [
+        "오픈소스 유지보수 자금 모델 검토"
+      ],
+      "report": {
+        "tldr": "오픈소스의 경제학이 지속가능하지 않다는 분석이다.",
+        "what": "오픈소스의 경제학은 수지가 맞지 않는다는 관점을 제시한다.",
+        "points": [
+          "오픈소스 경제 모델의 한계"
+        ],
+        "why": [
+          "핵심 인프라의 지속가능성 논쟁"
+        ]
+      }
+    }
+  ]
+}

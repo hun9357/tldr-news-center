@@ -1,0 +1,48 @@
+{
+  "date": "2026-06-19",
+  "weekday": "금",
+  "headline": "오픈AI 다음 주 GPT-5.6 출시 — 코인베이스 '에이전트 거래' 선언·앤트로픽 Claude Design 대개편",
+  "subtitle": "오픈AI가 1.5M 토큰 컨텍스트의 GPT-5.6를 다음 주 출시할 전망으로 Anthropic을 가격으로 압박한다. 코인베이스는 SEC 등록 AI 자문과 외부 에이전트 거래 API로 '에이전트를 새 거래 인터페이스'로 선언했고, 앤트로픽은 Claude Design을 디자인 시스템 임포트·양방향 Claude Code 통합으로 대개편했다. 보안에서는 WebAssembly 멀웨어 GlassWASM이 Open VSX 확장에 숨어 발견됐다. — 6월 19일 TLDR 10개 에디션, 총 131건 요약",
+  "keyword": "GPT-5.6 다음 주 출시 · 코인베이스 에이전트 거래 · Claude Design 대개편",
+  "bigStoryId": "ai-gpt56-models",
+  "editions": [
+    "ai",
+    "tech",
+    "infosec",
+    "crypto",
+    "it",
+    "design",
+    "marketing",
+    "dev",
+    "devops",
+    "founders"
+  ],
+  "lastUpdated": "08:30 CDT",
+  "syncedAt": "08:30",
+  "stats": {
+    "companies": 131,
+    "security": 25,
+    "deals": 11,
+    "policy": 14
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "오픈AI, 다음 주 GPT-5.6 출시 전망",
+      "body": "오픈AI가 1.5M 토큰 컨텍스트, 향상된 장기 코딩, 더 빠른 Codex 응답을 갖춘 GPT-5.6를 다음 주 출시할 전망이다. Mini·Pro 변형 포함 가능성이 있으며, 美 규제로 Claude 가용성이 흔들리는 가운데 경쟁적 가격으로 Anthropic을 압박한다.",
+      "action": "GPT-5.6 출시 후 코딩 도구·모델 벤치마크를 재점검하고 컨텍스트 1.5M 활용 시나리오를 검토"
+    },
+    {
+      "kind": "market",
+      "title": "에이전트가 거래·업무 인터페이스로 전면화",
+      "body": "코인베이스가 SEC 등록 AI 자문 Coinbase Advisor와 외부 에이전트 거래 API를 묶어 리서치-실행 루프를 선언했고 로빈후드·Kraken·Gemini도 합류했다. 마이크로소프트 Copilot Cowork도 장시간 멀티툴 작업 실행으로 정식 출시되며 에이전트형 커머스·업무가 동시에 부상했다.",
+      "action": "에이전트 거래·결제 레일(x402 등)과 업무 자동화 도입 시나리오, 권한·승인 게이트를 점검"
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 보안 모니터링",
+      "body": "WebAssembly 멀웨어 GlassWASM이 트로이목마화된 Open VSX 확장에 숨어 Solana 데드드롭으로 C2를 회전시켰고, 침해된 Klue 앱으로 세일즈포스 CRM 데이터가 절취됐다. GitHub 1만 개 리포 멀웨어 유포, 아마존 내부 에이전트 Kiro의 프로덕션 삭제 13시간 장애도 보고됐다.",
+      "action": "Open VSX 악성 확장 제거·실행체인 탐지, Klue 등 통합 자격증명 회전, 에이전트 운영자 권한 격리·승인 게이트 적용"
+    }
+  ]
+}

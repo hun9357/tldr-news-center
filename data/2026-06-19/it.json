@@ -1,0 +1,389 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-databricks-panther",
+      "title": "데이터브릭스, AI 위협탐지 위해 Panther 인수 추진",
+      "summary": "AI 기반 SOC 플랫폼 Panther를 인수해 보안 소프트웨어 전략을 강화한다.",
+      "source": "TLDR IT",
+      "url": "https://www.techmonitor.ai/news/databricks-targets-ai-driven-threat-detection-with-panther-deal",
+      "originalDate": "2026-06-19",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "보안 SW·M&A"
+      },
+      "related": [
+        "데이터브릭스 보안 포트폴리오 확장 추적"
+      ],
+      "report": {
+        "tldr": "데이터브릭스가 AI SOC 플랫폼 Panther 인수를 추진한다.",
+        "what": "데이터브릭스가 AI 기반 보안 운영(SOC) 플랫폼 Panther를 인수해 보안 소프트웨어 전략을 진전시킬 계획이다. AI 위협 탐지 역량으로 자사 보안 접근을 강화하려는 행보로 평가된다.",
+        "points": [
+          "AI SOC 플랫폼 Panther 인수",
+          "AI 위협 탐지 역량 확보",
+          "보안 소프트웨어 전략 강화"
+        ],
+        "why": [
+          "데이터 플랫폼의 보안 영역 확장 신호"
+        ]
+      }
+    },
+    {
+      "id": "it-aws-continuum",
+      "title": "AWS Continuum — 머신 속도의 보안",
+      "summary": "가드레일 내에서 코드 취약점을 발견·우선순위화·검증·교정하는 보안 서비스.",
+      "source": "TLDR IT",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/aws-continuum/",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "클라우드 보안 자동화"
+      },
+      "related": [
+        "자동 취약점 교정 파이프라인 검토"
+      ],
+      "report": {
+        "tldr": "AWS Continuum이 가드레일 내에서 취약점을 자동 교정한다.",
+        "what": "AWS Continuum은 사용자 정의 가드레일 내에서 코드 취약점을 머신 속도로 발견·우선순위화·검증·교정하는 보안 서비스다. 환경/비즈니스 컨텍스트 그래프로 발견을 우선순위화하고, 격리 샌드박스에서 익스플로잇 가능성을 검증한 뒤 빠른 가역 완화를 적용하고, 지속적 수정은 기존 검토·배포 프로세스로 라우팅한다.",
+        "points": [
+          "가드레일 내 자동 발견·교정",
+          "컨텍스트 그래프로 우선순위화",
+          "샌드박스에서 익스플로잇 검증",
+          "가역 완화 후 기존 프로세스 라우팅"
+        ],
+        "why": [
+          "취약점 대응을 머신 속도로 자동화하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "it-cloudflare-hosting",
+      "title": "클라우드플레어가 웹 호스팅 산업을 조용히 죽이는가?",
+      "summary": "Pages·Workers·R2로 전통 공유 호스팅 없이 배포가 가능해지며 산업이 재편된다.",
+      "source": "TLDR IT",
+      "url": "https://webhosting.today/2026/06/17/is-cloudflare-silently-killing-the-web-hosting-industry/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "웹 호스팅"
+      },
+      "related": [
+        "Cloudflare 배포 스택 전환 영향 검토"
+      ],
+      "report": {
+        "tldr": "클라우드플레어가 웹 호스팅 산업을 재편하고 있다.",
+        "what": "클라우드플레어가 AI 보조 개발·현대 배포 워크플로에 맞춰 웹 호스팅 산업을 재편하고 있다. 레거시 호스팅에서 멀어지며 Pages·Workers·R2로 개발자가 전통 공유 호스팅 없이 사이트를 빌드·배포할 수 있게 한다.",
+        "points": [
+          "Pages·Workers·R2 중심",
+          "전통 공유 호스팅 대체",
+          "AI 보조 개발 정렬"
+        ],
+        "why": [
+          "배포 패러다임 전환이 호스팅 시장을 압박"
+        ]
+      }
+    },
+    {
+      "id": "it-gartner-operating-model",
+      "title": "IT 운영 모델, 여전히 AI 시대에 부적합",
+      "summary": "CIO의 24%만 현재 IT 운영 모델이 변화에 효과적으로 적응한다고 본다(가트너).",
+      "source": "TLDR IT",
+      "url": "https://www.ciodive.com/news/gartner-operating-model-AI-software/823290/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Operations",
+        "status": "Watch",
+        "affectedSurface": "IT 운영 모델"
+      },
+      "related": [
+        "IT 운영 모델 현대화 점검"
+      ],
+      "report": {
+        "tldr": "가트너: CIO의 24%만 현 IT 운영 모델이 적응 가능하다고 본다.",
+        "what": "가트너에 따르면 CIO의 24%만이 현재 IT 운영 모델이 변하는 비즈니스 요구에 효과적으로 적응할 수 있다고 본다. AI, 분산된 기술 소유권, 빨라진 기대치가 낡은 중앙 IT 구조의 한계를 드러낸다.",
+        "points": [
+          "적응 가능 응답 CIO 24%",
+          "AI·분산 소유권이 압박",
+          "중앙 IT 구조의 노후화"
+        ],
+        "why": [
+          "AI 시대 IT 거버넌스 재설계 필요성"
+        ]
+      }
+    },
+    {
+      "id": "it-hpe-connectivity-bottleneck",
+      "title": "HPE, 연결성이 간과된 AI 데이터센터 병목",
+      "summary": "공간·전력에 집중하지만 GPU 클러스터·분산 워크로드로 네트워크가 세 번째 병목이 된다.",
+      "source": "TLDR IT",
+      "url": "https://www.sdxcentral.com/news/hpe-networking-chief-touts-force-multiplier-advantages-for-ai-data-centers/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Operations",
+        "status": "Watch",
+        "affectedSurface": "AI 인프라"
+      },
+      "related": [
+        "AI 데이터센터 네트워크 용량 점검"
+      ],
+      "report": {
+        "tldr": "HPE는 연결성이 AI 데이터센터의 간과된 병목이라고 본다.",
+        "what": "AI 데이터센터 구축자들이 공간과 전력에 집중하지만, GPU 클러스터·분산 워크로드·고처리량 AI 트래픽이 네트워크에 부담을 주며 연결성이 세 번째 주요 병목이 되고 있다.",
+        "points": [
+          "공간·전력 외 세 번째 병목=연결성",
+          "GPU 클러스터·분산 워크로드 부담",
+          "고처리량 AI 트래픽 증가"
+        ],
+        "why": [
+          "AI 인프라 설계에서 네트워크의 중요성 부상"
+        ]
+      }
+    },
+    {
+      "id": "it-vercel-connect",
+      "title": "Vercel Connect 출시",
+      "summary": "앱·에이전트가 외부 데이터·시스템에 단기·정밀 스코프 토큰으로 안전 접근하게 한다.",
+      "source": "TLDR IT",
+      "url": "https://vercel.com/blog/introducing-vercel-connect",
+      "intel": {
+        "impact": "Low",
+        "confidence": "80%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "앱·에이전트 접근"
+      },
+      "related": [
+        "단기 토큰 기반 접근 통제 검토"
+      ],
+      "report": {
+        "tldr": "Vercel Connect가 앱·에이전트의 안전한 외부 접근을 돕는다.",
+        "what": "Vercel Connect는 애플리케이션과 에이전트가 외부 데이터·시스템에 안전하게 접근하도록 돕는다. 정밀한 스코프를 가진 단기 토큰으로 접근 권한을 제어한다.",
+        "points": [
+          "앱·에이전트 외부 접근",
+          "단기 토큰 발급",
+          "정밀 스코프 권한 제어"
+        ],
+        "why": [
+          "에이전트 시대의 안전한 접근 관리 수요"
+        ]
+      }
+    },
+    {
+      "id": "it-iru-config-as-code",
+      "title": "Iru, 기기 관리에 'Config as Code' 도입",
+      "summary": "Mac 프로필·스크립트·앱을 Git·PR·GitHub Actions로 관리한다.",
+      "source": "TLDR IT",
+      "url": "https://www.iru.com/blog/config-as-code-for-device-management",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Operations",
+        "status": "Watch",
+        "affectedSurface": "기기 관리(MDM)"
+      },
+      "related": [
+        "엔드포인트 설정의 IaC화 검토"
+      ],
+      "report": {
+        "tldr": "Iru가 기기 관리에 Config as Code를 도입한다.",
+        "what": "Iru는 IT 팀이 Mac 커스텀 프로필·스크립트·앱을 콘솔 변경 대신 Git 리포·PR·GitHub Actions·iructl로 관리하게 한다. 완전한 MDM-as-code는 아니지만 엔드포인트 설정을 버전·검토·감사·복구 가능한 인프라처럼 다루는 의미 있는 진전이다.",
+        "points": [
+          "Git·PR·GitHub Actions로 관리",
+          "Mac 프로필·스크립트·앱 대상",
+          "버전·검토·감사·복구 가능",
+          "완전 MDM-as-code는 아직 아님"
+        ],
+        "why": [
+          "엔드포인트 구성을 IaC 원칙으로 다루는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "it-cisco-nvidia-secure-ai",
+      "title": "시스코+엔비디아, AI 팩토리용 보안 네트워킹 강화",
+      "summary": "Secure AI Factory로 AI 네트워킹·검증 인프라·관측·보안 통제를 결합한다.",
+      "source": "TLDR IT",
+      "url": "https://blogs.cisco.com/datacenter/powering-the-future-of-ai-ciscos-breakthroughs-in-secure-ai-networking-with-nvidia",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Operations",
+        "status": "Watch",
+        "affectedSurface": "AI 인프라 보안"
+      },
+      "related": [
+        "프로덕션 AI 인프라의 풀스택 보안 점검"
+      ],
+      "report": {
+        "tldr": "시스코·엔비디아가 AI 팩토리용 보안 네트워킹을 확장한다.",
+        "what": "시스코가 Secure AI Factory를 중심으로 엔비디아 파트너십을 확장해, 프로덕션 AI 워크로드를 구축하는 기업을 위한 AI 네트워킹·검증 인프라·관측성·보안 통제를 결합한다.",
+        "points": [
+          "Secure AI Factory 중심",
+          "AI 네트워킹+검증 인프라",
+          "관측성·보안 통제 결합"
+        ],
+        "why": [
+          "AI 인프라는 GPU 조달을 넘어 풀스택 네트워킹·보안 문제"
+        ]
+      }
+    },
+    {
+      "id": "it-supply-chain-attacks",
+      "title": "공급망 공격: 서드파티 위험으로부터 비즈니스 보호",
+      "summary": "신뢰 벤더 침해로 고객 시스템에 접근하는 공급망 공격, SMB가 특히 취약하다.",
+      "source": "TLDR IT",
+      "url": "https://proton.me/business/blog/supply-chain-attack",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "공급망 보안"
+      },
+      "related": [
+        "벤더 인벤토리·접근 권한 검토"
+      ],
+      "report": {
+        "tldr": "공급망 공격은 신뢰 벤더를 침해해 고객 시스템에 침투한다.",
+        "what": "공급망 공격은 공격자가 신뢰받는 벤더·소프트웨어 제공자·서드파티 통합을 침해해 고객 시스템에 접근할 때 발생한다. SMB는 벤더 감독이 약하고 과도한 서드파티 접근으로 특히 취약하다.",
+        "points": [
+          "신뢰 벤더 침해로 침투",
+          "SMB가 특히 취약",
+          "벤더 인벤토리·권한 검토 필요",
+          "자격증명·접근 통제 강화"
+        ],
+        "why": [
+          "서드파티 의존이 늘수록 공급망 통제가 필수"
+        ]
+      }
+    },
+    {
+      "id": "it-snowflake-ard",
+      "title": "스노우플레이크, 에이전틱 리소스 디스커버리(ARD) 지원",
+      "summary": "기업 AI 에이전트·도구를 카탈로그·검색·발견하는 개방 프로토콜을 지원한다.",
+      "source": "TLDR IT",
+      "url": "https://www.snowflake.com/en/blog/agentic-resource-discovery-specification/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 도구 발견"
+      },
+      "related": [
+        "ARD 표준 도입·도구 카탈로깅 검토"
+      ],
+      "report": {
+        "tldr": "스노우플레이크가 ARD 명세를 지원한다.",
+        "what": "스노우플레이크가 기업 AI 에이전트/도구를 카탈로그·검색·발견하는 방식을 표준화하는 개방 프로토콜 ARD를 지원한다고 발표했다. ARD는 describe·curate·search·execute 4단계를 정의해 AI 클라이언트가 수동 연결 없이 승인된 역량을 자동으로 찾아 호출하게 한다.",
+        "points": [
+          "에이전트/도구 카탈로그·검색 표준",
+          "describe·curate·search·execute 4단계",
+          "수동 연결 없이 자동 발견·호출"
+        ],
+        "why": [
+          "에이전트 생태계의 도구 발견 표준화 시도"
+        ]
+      }
+    },
+    {
+      "id": "it-system-design-cheatsheet",
+      "title": "시스템 설계 치트시트",
+      "summary": "확장 가능한 시스템 설계의 기본 단계와 스케일링 기법을 정리한 기술 레퍼런스.",
+      "source": "TLDR IT",
+      "url": "https://gist.github.com/SuyashDive2005/be5865a9755ca1dd50523f7aeeae4417",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "시스템 설계"
+      },
+      "related": [
+        "시스템 설계 레퍼런스 참고"
+      ],
+      "report": {
+        "tldr": "확장 가능 시스템 설계를 위한 치트시트다.",
+        "what": "확장 가능한 시스템 설계를 위한 구조적 접근을 정리한 기술 레퍼런스로, 기본 단계와 일반적 스케일링 기법을 다룬다.",
+        "points": [
+          "구조적 시스템 설계 접근",
+          "기본 단계·스케일링 기법"
+        ],
+        "why": [
+          "설계 면접·실무 참고 자료"
+        ]
+      }
+    },
+    {
+      "id": "it-ferc-datacenter-fastlane",
+      "title": "AI 데이터센터, 전력망 연결 '패스트레인' 확보",
+      "summary": "FERC가 미국 그리드 운영자에게 AI 데이터센터 연결 검토 가속과 잉여 발전 용량 공개를 명령했다.",
+      "source": "TLDR IT",
+      "url": "https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "전력·데이터센터 정책"
+      },
+      "related": [
+        "전력 가용성 제약과 데이터센터 입지 점검"
+      ],
+      "report": {
+        "tldr": "FERC가 AI 데이터센터의 전력망 연결을 가속하도록 명령했다.",
+        "what": "FERC가 미국 그리드 운영자에게 AI 데이터센터 연결(interconnection) 검토를 가속하고 잉여 발전 용량을 공개하라고 명령해, 전기 가용성이 여전히 진짜 제약인 가운데 전력으로 가는 더 빠른 경로를 만들었다.",
+        "points": [
+          "연결 검토 가속 명령",
+          "잉여 발전 용량 공개",
+          "전력 가용성은 여전히 제약"
+        ],
+        "why": [
+          "AI 인프라 성장의 전력 병목에 정책이 개입"
+        ]
+      }
+    },
+    {
+      "id": "it-saas-pricing-ai",
+      "title": "SaaS 가격, AI 시대에 더 복잡해진다",
+      "summary": "좌석당 과금에서 사용량·토큰·성과 기반으로 이동하며 CIO가 예측·예산을 재고한다.",
+      "source": "TLDR IT",
+      "url": "https://www.ciodive.com/news/software-pricing-changes-SaaS-AI/823170/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Operations",
+        "status": "Watch",
+        "affectedSurface": "SaaS 조달"
+      },
+      "related": [
+        "사용량 기반 SaaS 예산·협상 전략 점검"
+      ],
+      "report": {
+        "tldr": "SaaS가 AI 기능을 사용량·성과 기반으로 과금하기 시작했다.",
+        "what": "SaaS 벤더들이 AI 기능을 단순 좌석당 과금에서 사용량·토큰·성과 기반 모델로 옮기면서, CIO가 실제 소비를 중심으로 예측·예산·벤더 협상을 재고하게 만든다.",
+        "points": [
+          "좌석당→사용량·토큰·성과 기반",
+          "예측·예산 재검토",
+          "벤더 협상 변화"
+        ],
+        "why": [
+          "AI 과금 변화가 IT 예산 관리를 복잡하게 함"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "sec-glasswasm-openvsx",
+      "title": "GlassWASM: 트로이목마화된 Open VSX 확장의 WebAssembly 멀웨어",
+      "summary": "TinyGo 컴파일 WASM 페이로드가 두 개의 가짜 Open VSX 확장에 숨어 Solana 데드드롭으로 C2를 회전시킨다.",
+      "source": "TLDR Information Security",
+      "url": "https://socket.dev/blog/glasswasm-malware-open-vsx-extensions",
+      "originalDate": "2026-06-19",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Action",
+        "affectedSurface": "VS Code 계열 에디터·공급망"
+      },
+      "related": [
+        "Open VSX 기본 에디터에서 해당 패키지 즉시 제거",
+        "실행 체인 기반 탐지 도입",
+        "활성화 호스트를 2차 페이로드 실행으로 간주"
+      ],
+      "report": {
+        "tldr": "GlassWASM은 가짜 Open VSX 확장에 숨은 WASM 멀웨어다.",
+        "what": "TinyGo로 컴파일된 WebAssembly 페이로드가 사칭 계정 zaitoona43이 게시한 두 개의 트로이목마 확장(ExarGD.vsblack@0.0.1, noellee-doc/flint-debug@0.1.1)에 숨어 있다. 평문 IOC가 없고 런타임에 ChaCha20으로 문자열을 복호화하며, Solana 지갑의 SPL Memo 데드드롭을 폴링해 회전 C2 호스트를 해석한 뒤 Node child_process로 크로스플랫폼 다운로드·실행을 수행한다.",
+        "points": [
+          "두 개 Open VSX 확장에 WASM 페이로드 은닉",
+          "평문 IOC 0, ChaCha20 런타임 복호화",
+          "Solana SPL Memo 데드드롭으로 C2 회전",
+          "Node child_process 다운로드·실행"
+        ],
+        "why": [
+          "GlassWorm 운영자와 medium confidence 연계",
+          "회전 호스트가 아닌 실행 체인 탐지가 필요"
+        ],
+        "action": "두 패키지 즉시 제거, 활성화 호스트는 미상 2차 스테이지 실행으로 처리하고 실행 체인 기반 탐지 적용"
+      }
+    },
+    {
+      "id": "sec-salesforce-klue-oauth",
+      "title": "Klue 앱 침해로 세일즈포스 데이터 절취 지속",
+      "summary": "침해된 Klue 통합 계정으로 OAuth 토큰을 발급해 약 24시간 동안 CRM 데이터를 대량 조회·절취했다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/tIMcQk",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Action",
+        "affectedSurface": "SaaS 통합·OAuth"
+      },
+      "related": [
+        "Klue 관련 시크릿 전량 폐기",
+        "API 쿼리 패턴 검토",
+        "통합 계정 IP 허용목록 강제"
+      ],
+      "report": {
+        "tldr": "침해된 Klue 통합 계정으로 세일즈포스 CRM 데이터가 절취됐다.",
+        "what": "공격자는 침해된 Klue 통합 계정으로 OAuth 토큰을 발급해 세일즈포스 REST API를 약 24시간 동안 조회했고, 15분에 거의 1,000건의 버스트도 있었다. Huntress는 연락처·견적·메시징이 복사됐다고 보고하며 오래 쓰이지 않던 Klue 자격증명과 Icarus 협박 그룹을 연결했다.",
+        "points": [
+          "Klue 계정으로 OAuth 토큰 발급",
+          "24시간 동안 REST API 대량 조회",
+          "연락처·견적·메시징 복사",
+          "Icarus 협박 그룹 연계"
+        ],
+        "why": [
+          "미사용 통합 자격증명이 침투 경로가 됨"
+        ],
+        "action": "Klue 관련 시크릿 전량 회전·폐기, API 쿼리 패턴 점검, 통합 계정 IP 허용목록 적용"
+      }
+    },
+    {
+      "id": "sec-fake-boots-phishing",
+      "title": "가짜 Boots 이메일, 890만 명 대상 피싱 캠페인",
+      "summary": "루마니아 연계 위협 행위자가 무료 샘플 미끼로 가짜 결제·설문 페이지에서 정보를 수집했다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.scworld.com/brief/fake-boots-emails-target-millions-in-large-phishing-campaign",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "피싱·브랜드 사칭"
+      },
+      "related": [
+        "브랜드 사칭 피싱 사용자 교육",
+        "침해된 호스팅 인프라 탐지"
+      ],
+      "report": {
+        "tldr": "가짜 Boots 이메일이 890만 명을 노린 피싱에 사용됐다.",
+        "what": "약 890만 명이 영국 헬스·뷰티 소매업체 Boots를 사칭한 이메일을 받았다. 무료 뷰티 샘플팩을 미끼로 가짜 결제 절차와 설문으로 유도해 정보를 수집했다. 결제 페이지는 침해된 볼리비아 정부 웹페이지에, 대량 메일 서비스는 침해된 영국 기업 터미널 서버에 호스팅됐다.",
+        "points": [
+          "890만 명 대상 사칭 이메일",
+          "무료 샘플 미끼",
+          "침해된 정부·기업 인프라 활용",
+          "루마니아 연계 추정"
+        ],
+        "why": [
+          "대규모 사칭 피싱의 인프라 재활용 패턴"
+        ]
+      }
+    },
+    {
+      "id": "sec-dropping-elephant-loader",
+      "title": "Dropping Elephant — 중국 테마 로더 체인 추적",
+      "summary": "중국 에너지 미끼 LNK로 시작해 정상 바이너리 Fondue.exe 사이드로딩과 인메모리 RAT로 이어진다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.rapid7.com/blog/post/tr-malware-tracking-dropping-elephant-tradecraft-china-themed-loader-chain/",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "APT 로더 체인"
+      },
+      "related": [
+        "IOC보다 행위 기반 헌팅",
+        "chinagreenenergy[.]org·gcl-power[.]org 차단"
+      ],
+      "report": {
+        "tldr": "Rapid7이 Dropping Elephant의 중국 테마 로더 체인을 추적했다.",
+        "what": "캠페인은 중국 에너지 부문 미끼(GRES3001.lnk)로 난독화 PowerShell을 띄우고, C:\\Users\\Public에 페이로드를 두며 정상 MS 바이너리 Fondue.exe로 APPWIZ.cpl을 사이드로딩(RunFODW)한다. 이후 editor.dat를 AES-256-CBC 복호화해 Donut 로더로 32비트 RAT를 메모리에 매핑하고 AMSI·WLDP·ETW를 패치한다.",
+        "points": [
+          "LNK→난독 PowerShell 시작",
+          "Fondue.exe로 APPWIZ.cpl 사이드로딩",
+          "Donut 로더로 인메모리 RAT",
+          "AMSI/WLDP/ETW 변조, HTTPS C2"
+        ],
+        "why": [
+          "Diaphora가 명령 핸들러·스크린샷 패턴으로 계보 확인"
+        ],
+        "action": "LNK의 PowerShell 생성, 1분 주기 GoogleErrorReport 작업, AMSI/WLDP/ETW 변조 등 행위 헌팅"
+      }
+    },
+    {
+      "id": "sec-honeypot-hunting",
+      "title": "레드팀의 허니팟 사냥",
+      "summary": "인증 없이 MS-SAMR·LSA 호출로 AD 허니토큰·디코이 계정을 행위적으로 식별하는 기법.",
+      "source": "TLDR Information Security",
+      "url": "https://offsec.cypfer.com/blog/Honeypot-detection",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "Active Directory 디셉션"
+      },
+      "related": [
+        "허니팟에 디렉터리 쿼리 모니터링 레이어 추가",
+        "lastLogon 비복제 속성 다중 DC 확인"
+      ],
+      "report": {
+        "tldr": "레드팀이 인증 없이 AD 디코이 계정을 식별하는 방법을 다룬다.",
+        "what": "인증하지 않고도 MS-SAMR·LSA 호출(SamConnect, LsaLookupNames2, NetUserEnum 등 RPC 445)로 계정 메타데이터를 조용히 읽어 허니토큰·디코이 컴퓨터 계정을 핑거프린팅한다. 디코이는 이름·Tier 0 멤버십은 위조해도 이력은 못 꾸미므로, lastLogon=0(1600/1601로 표시)과 채워진 logonCount·pwdLastSet의 불일치가 미끼를 드러낸다.",
+        "points": [
+          "조용한 SAMR/LSA 호출로 메타데이터 열람",
+          "LDAP 스윕 대비 저신호",
+          "lastLogon=0 vs logonCount 불일치가 단서",
+          "머신 계정은 등록 시 1회 인증 강제"
+        ],
+        "why": [
+          "방어자는 단일 트립와이어에 의존하지 말고 다층 디셉션+쿼리 모니터링 필요"
+        ]
+      }
+    },
+    {
+      "id": "sec-cve-without-slop",
+      "title": "슬롭 없이 CVE 받기 — Claude Code+Ghidra MCP로 ASUS 드라이버 분석",
+      "summary": "AI로 ASUS 드라이버를 분석해 두 건의 CVE를 PoC로 검증, 저품질 보고 없이 보고한 사례.",
+      "source": "TLDR Information Security",
+      "url": "https://www.credrelay.com/p/getting-a-cve-without-shipping-slop",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "취약점 연구·AI 보조"
+      },
+      "related": [
+        "AI 생성 취약점 보고의 PoC 검증 원칙 수립"
+      ],
+      "report": {
+        "tldr": "AI 보조로 ASUS 드라이버에서 두 건의 검증된 CVE를 도출했다.",
+        "what": "Jeff Barron은 Ghidra MCP와 통합된 Claude Code로 ASUS Windows 드라이버를 분석해 두 발견을 검증된 CVE로 전환했다. CVE-2026-3508은 AsusWmiAcpi.sys의 OOB read, CVE-2026-6737은 AsusPTPFilter.sys가 보안 디스크립터 없이 디바이스 객체를 만들어 일반 사용자에게 IOCTL을 노출한 문제다.",
+        "points": [
+          "Claude Code+Ghidra MCP로 분석",
+          "CVE-2026-3508 OOB read",
+          "CVE-2026-6737 IOCTL 노출",
+          "PoC로 항상 검증·보고서 재작성"
+        ],
+        "why": [
+          "AI 보조 취약점 연구에서 품질 관리의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "sec-homebrew-6",
+      "title": "Homebrew 6.0 — 탭 신뢰·리눅스 샌드박스·취약점 검사",
+      "summary": "서드파티 탭 실행 전 명시 동의, Bubblewrap 빌드 샌드박스, brew vulns 명령을 추가했다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.theregister.com/devops/2026/06/17/homebrew_60_released_with_new_security_mechanism_linux_sandbox_and_more/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "85%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "패키지 관리 보안"
+      },
+      "related": [
+        "brew vulns로 OSV 대조 점검",
+        "Intel macOS 지원 종료 일정 대비"
+      ],
+      "report": {
+        "tldr": "Homebrew 6.0이 탭 신뢰·리눅스 샌드박스·취약점 검사 기능을 추가했다.",
+        "what": "Homebrew 6.0은 서드파티 탭이 임의 Ruby를 실행하기 전 사용자 동의를 요구하는 '탭 신뢰', 리눅스 Bubblewrap 빌드 샌드박스(기본 활성), OSV DB 대조 brew vulns, brew install/upgrade 확인 프롬프트를 더했다.",
+        "points": [
+          "탭 신뢰: 서드파티 실행 전 동의",
+          "리눅스 빌드 샌드박스 기본 활성",
+          "brew vulns로 OSV 대조",
+          "ask-mode 확인 프롬프트"
+        ],
+        "why": [
+          "공급망 위협 속 패키지 관리자의 방어 강화"
+        ],
+        "context": "릴리스는 공개·인간 검토 정책 하에 AI 코딩을 많이 활용했고, Intel macOS 지원은 2027년 9월 완전 종료 예정."
+      }
+    },
+    {
+      "id": "sec-tenet-runtime",
+      "title": "Tenet — AI 에이전트 런타임 보안 (제품 출시)",
+      "summary": "경량 센서로 OS 활동·네트워크·API·모델 추론을 감시해 위험·탈취 에이전트를 실행 전 차단한다.",
+      "source": "TLDR Information Security",
+      "url": "https://tenetsecurity.ai/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "에이전트 런타임 보안"
+      },
+      "related": [
+        "에이전트 런타임 모니터링 솔루션 평가"
+      ],
+      "report": {
+        "tldr": "Tenet은 AI 에이전트용 런타임 보안을 제공한다.",
+        "what": "Tenet은 경량 센서로 OS 활동, 네트워크 트래픽, API 호출, 모델 추론을 감시해 위험하거나 탈취된 에이전트가 해로운 행동을 실행하기 전에 막는다.",
+        "points": [
+          "경량 센서 기반 감시",
+          "OS·네트워크·API·추론 관찰",
+          "해로운 행동 실행 전 차단"
+        ],
+        "why": [
+          "에이전트 자율성 증가에 따른 런타임 통제 수요"
+        ]
+      }
+    },
+    {
+      "id": "sec-warpgate",
+      "title": "Warpgate — 클라이언트 불필요 배스천 호스트 (GitHub)",
+      "summary": "SSH·HTTPS·Kubernetes·MySQL·PostgreSQL을 투명하게 중계하는 배스천 호스트.",
+      "source": "TLDR Information Security",
+      "url": "https://github.com/warp-tech/warpgate",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "접근 통제"
+      },
+      "related": [
+        "배스천·접근 게이트웨이 도입 검토"
+      ],
+      "report": {
+        "tldr": "Warpgate는 클라이언트 앱 없이 동작하는 투명 배스천 호스트다.",
+        "what": "Warpgate는 클라이언트 앱이나 SSH 래퍼 없이 SSH, HTTPS, Kubernetes, MySQL, PostgreSQL을 투명하게 중계하는 배스천 호스트다.",
+        "points": [
+          "다중 프로토콜 중계",
+          "클라이언트 앱·래퍼 불필요",
+          "투명한 접근 통제"
+        ],
+        "why": [
+          "접근 경로 통제·감사 단순화"
+        ]
+      }
+    },
+    {
+      "id": "sec-operation-escaneo",
+      "title": "Operation Escaneo — 멕시코 연방기관·금융기관 대상 고급 침투",
+      "summary": "노출된 오픈 디렉터리로 MexicanMafia의 전체 툴체인(Kimera·Chisel·GRE 터널)이 재구성됐다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.cloudsek.com/blog/operation-escaneo-mexican-government-financial-institutions-cyberattack",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "LATAM 공공·금융 부문"
+      },
+      "related": [
+        "Fortinet/Ivanti/Cisco 경계 장비 패치",
+        "네트워크 계층 터널 탐지"
+      ],
+      "report": {
+        "tldr": "노출된 디렉터리로 Operation Escaneo의 전체 툴체인이 드러났다.",
+        "what": "62.171.185[.]97의 노출된 오픈 디렉터리로 CloudSEK이 MexicanMafia(PanchoVilla)에 medium confidence로 귀속되는 전체 툴체인을 재구성했다. 맞춤 분산 정찰 엔진(Kimera), Fortinet/Ivanti/Cisco 대상 익스플로잇 armory, Neo-reGeorg 웹셸·Chisel 터널(13일간 3,708 세션)·Cisco 라우터 GRE 터널을 통한 다층 지속성이 포함됐다.",
+        "points": [
+          "오픈 디렉터리로 툴체인 노출",
+          "Kimera 분산 정찰 엔진",
+          "웹셸·Chisel·GRE 다층 지속성",
+          "경계 장비 익스플로잇 armory"
+        ],
+        "why": [
+          "금전 동기 범죄조직이 APT급 운영 규율을 갖춤"
+        ]
+      }
+    },
+    {
+      "id": "sec-youtube-crypto-clipper",
+      "title": "AI 생성 유튜브 내레이터로 크립토 클리퍼 멀웨어 유포",
+      "summary": "GitHub·SourceForge 유령 계정과 AI 내레이션 튜토리얼로 Rust 클립보드 하이재커를 배포했다.",
+      "source": "TLDR Information Security",
+      "url": "https://gbhackers.com/ai-generated-youtube-narrators/",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "멀웨어 유포·SEO 남용"
+      },
+      "related": [
+        "클립보드 하이재킹 탐지",
+        "가짜 OSS 리포 신뢰성 점검"
+      ],
+      "report": {
+        "tldr": "AI 유튜브 내레이터를 활용해 크립토 클리퍼 멀웨어가 유포됐다.",
+        "what": "Checkpoint가 Rust 기반 클립보드 하이재커를 배포하는 정교한 광고 캠페인을 적발했다. GitHub·SourceForge에 유령 계정으로 다운로드·기여자 수를 부풀리고, 튜토리얼·긍정 댓글을 만드는 유튜브 계정과 크립토 포럼 게시글로 홍보했다. 멀웨어는 클립보드의 지갑 주소를 공격자 지갑으로 바꾼다.",
+        "points": [
+          "Rust 클립보드 하이재커",
+          "유령 계정으로 신뢰도 조작",
+          "AI 내레이션 유튜브 튜토리얼",
+          "지갑 주소 치환"
+        ],
+        "why": [
+          "AI 콘텐츠로 멀웨어 신뢰도를 위조하는 수법"
+        ]
+      }
+    },
+    {
+      "id": "sec-agentic-pentesting-legal",
+      "title": "새로운 법적 쟁점: 에이전틱 펜테스팅",
+      "summary": "에이전트는 인간의 직관(레이트 리미팅·중단 시점)이 없어 권한·인젝션·귀속에서 선례 없는 문제를 낳는다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.bcs.org/articles-opinion-and-research/new-legal-questions-agentic-pen-testing/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "펜테스트 거버넌스"
+      },
+      "related": [
+        "에이전트 펜테스트 계약·권한 범위 정의"
+      ],
+      "report": {
+        "tldr": "에이전틱 펜테스팅이 권한·인젝션·귀속의 새 법적 쟁점을 제기한다.",
+        "what": "에이전틱 펜테스팅 위험의 상당수는 기존 계약 보호로 커버될 수 있으나, 에이전트는 인간 펜테스터의 레이트 리미팅·중단 직관이 없다는 근본 차이가 있다. 대상 경유 프롬프트 인젝션, 권한, 교차 계약 오염, 비결정성 등은 명확한 선례가 없다.",
+        "points": [
+          "기존 보호로 일부 커버",
+          "레이트 리미팅·중단 직관 부재",
+          "인젝션·권한·교차오염 선례 부족",
+          "에이전트 신원=귀속·감사 난제"
+        ],
+        "why": [
+          "자율 펜테스트의 책임·감사 체계 정립 필요"
+        ]
+      }
+    },
+    {
+      "id": "sec-globalsign-revokes-ev",
+      "title": "GlobalSign, 제재 대상 기업의 EV 인증서 폐기",
+      "summary": "벨기에 CA GlobalSign이 EU 제재 러시아 기업의 EV TLS 인증서를 6월 13일부터 단계 폐기했다.",
+      "source": "TLDR Information Security",
+      "url": "https://www.altusintel.com/public-yyr53j",
+      "intel": {
+        "impact": "Low",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "PKI·인증서"
+      },
+      "related": [
+        "제재 대상 인증서 영향 점검"
+      ],
+      "report": {
+        "tldr": "GlobalSign이 제재 대상 러시아 기업의 EV 인증서를 폐기했다.",
+        "what": "GMO 그룹 소유의 벨기에 CA GlobalSign이 CA/Browser Forum 규칙(제재 대상 발급 금지)을 들어 EU 제재 러시아 기업에 발급된 EV TLS 인증서를 6월 13일 단계적으로 폐기하기 시작했다.",
+        "points": [
+          "EU 제재 러시아 기업 대상",
+          "EV TLS 인증서 단계 폐기",
+          "CA/Browser Forum 규칙 근거"
+        ],
+        "why": [
+          "제재가 PKI 신뢰 체계에 직접 반영"
+        ]
+      }
+    },
+    {
+      "id": "sec-kodak-breach",
+      "title": "코닥, ShinyHunters 해킹 주장 후 데이터 유출 인정",
+      "summary": "ShinyHunters가 220만+ 고객 기록 절취를 주장하며 6월 18일까지 미지급 시 유출 위협.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/v3hUTS",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "데이터 유출·협박"
+      },
+      "related": [
+        "코닥 고객 데이터 영향 모니터링"
+      ],
+      "report": {
+        "tldr": "코닥이 ShinyHunters 해킹 후 데이터 유출을 인정했다.",
+        "what": "ShinyHunters는 코닥 고객 기록 220만 건 이상과 기업 데이터를 절취했다고 주장하며 6월 18일까지 지급하지 않으면 유출하겠다고 위협했다.",
+        "points": [
+          "220만+ 고객 기록 주장",
+          "기업 데이터 포함",
+          "6월 18일 시한 협박"
+        ],
+        "why": [
+          "대규모 고객 데이터 협박 사례 지속"
+        ]
+      }
+    },
+    {
+      "id": "sec-dragonforce-teams-c2",
+      "title": "DragonForce, MS Teams 릴레이로 Backdoor.Turn C2 은닉",
+      "summary": "Go 기반 RAT의 C2를 정상 Teams TURN 릴레이에 숨겨 1~2개월간 접근을 유지했다.",
+      "source": "TLDR Information Security",
+      "url": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "C2 은닉·내부 침투"
+      },
+      "related": [
+        "Teams TURN 트래픽 이상 탐지"
+      ],
+      "report": {
+        "tldr": "DragonForce가 Teams TURN 릴레이에 C2를 숨겼다.",
+        "what": "DragonForce는 미국 대형 서비스 기업을 상대로 Go 기반 RAT Backdoor.Turn을 배포해, 정상 Microsoft Teams TURN 릴레이 안에 C2 트래픽을 숨기고 실제 서버로의 QUIC 세션으로 1~2개월간 접근을 유지했다.",
+        "points": [
+          "Go 기반 RAT Backdoor.Turn",
+          "Teams TURN 릴레이에 C2 은닉",
+          "QUIC 세션 사용",
+          "1~2개월 지속 접근"
+        ],
+        "why": [
+          "신뢰 서비스 트래픽에 C2를 숨기는 회피 기법"
+        ]
+      }
+    }
+  ]
+}

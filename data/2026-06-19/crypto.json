@@ -1,0 +1,372 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "₿",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-kentucky-kalshi-polymarket",
+      "title": "켄터키, Kalshi·Polymarket 제소 — 예측시장 vs 주(州) 도박법",
+      "summary": "켄터키 AG가 무면허 도박 운영 혐의로 제소, CFTC 연방 우선권 방어가 핵심 쟁점이다.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/H0Fp0U",
+      "originalDate": "2026-06-19",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Policy",
+        "status": "Tracking",
+        "affectedSurface": "예측시장 규제"
+      },
+      "related": [
+        "예측시장 규제 리스크 점검",
+        "CFTC 연방 우선권 판례 추적"
+      ],
+      "report": {
+        "tldr": "켄터키가 Kalshi·Polymarket을 무면허 도박 혐의로 제소했다.",
+        "what": "켄터키 AG Russell Coleman이 Franklin Circuit Court에 제소하며, 면허 없이 경기 결과·점수차·선수 통계 베팅을 허용해 불법 도박을 운영한다고 주장했다. 기업들은 CFTC 연방 우선권에 기대 'CFTC가 규제자이지 주가 아니다'라고 방어해, 주 도박법이 연방 규제 예측시장에 미칠 수 있는지를 직접 시험한다.",
+        "points": [
+          "무면허 도박 운영 혐의 제소",
+          "CFTC 연방 우선권이 방어 논리",
+          "12개+ 주가 유사 조치",
+          "켄터키 신법 7/15 발효"
+        ],
+        "why": [
+          "주 도박법과 연방 규제의 충돌을 가르는 시금석"
+        ]
+      }
+    },
+    {
+      "id": "crypto-cbdc-ban-2030",
+      "title": "美 의회, 주택법안에 연준 CBDC 2030년까지 금지 합의",
+      "summary": "초당적 21st Century ROAD to Housing Act에 연준 소매 디지털달러 금지(~2030.12.31)를 부착했다.",
+      "source": "TLDR Crypto",
+      "url": "https://thedefiant.io/converge/regulation/congress-housing-bill-cbdc-ban-through-2030",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "CBDC·통화정책"
+      },
+      "related": [
+        "스테이블코인·CBDC 규제 동향 추적"
+      ],
+      "report": {
+        "tldr": "의회가 주택법안에 연준 소매 CBDC 금지를 부착했다.",
+        "what": "의회 협상단이 초당적 21st Century ROAD to Housing Act에 연준 소매 디지털달러 금지 조항을 부착해 2030년 12월 31일까지 개발을 차단했다. 금지는 연준 소매 디지털달러에 한정되며 도매 CBDC와 민간 스테이블코인 발행은 범위 밖이다. 법안은 상원 본회의 표결로 향한다.",
+        "points": [
+          "연준 소매 CBDC 금지(~2030)",
+          "도매·민간 스테이블코인은 제외",
+          "초당적 주요 법안 첫 사례",
+          "상원 표결 예정"
+        ],
+        "why": [
+          "CBDC 정책 방향이 입법으로 고착되는 신호"
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-agents",
+      "title": "코인베이스, 에이전트를 새 거래 인터페이스로",
+      "summary": "SEC 등록 AI 자문 Coinbase Advisor와 외부 에이전트 거래 API를 묶어 리서치-실행 루프를 만든다.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/bd5JYg",
+      "originalDate": "2026-06-19",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "리테일 거래·에이전트"
+      },
+      "related": [
+        "에이전트 거래·결제 레일 도입 시나리오 점검",
+        "x402 스테이블코인 결제 모니터링"
+      ],
+      "report": {
+        "tldr": "코인베이스가 에이전트를 주요 거래 인터페이스로 만든다.",
+        "what": "코인베이스의 Take Control 스위트는 Coinbase One 회원 대상 SEC 등록 AI 자문 Coinbase Advisor와, 외부 에이전트가 거래소에서 거래하게 하는 Coinbase for Agents API를 묶어 리서치-실행 루프를 만든다. 로빈후드도 월요일 자체 에이전트 거래 상품을 냈고 Kraken·Gemini가 뒤를 이으며, 비즈니스 모델은 계정 계층 락인에 있다.",
+        "points": [
+          "SEC 등록 AI 자문 Coinbase Advisor",
+          "외부 에이전트 거래 API",
+          "로빈후드·Kraken·Gemini도 합류",
+          "x402 스테이블코인 데이터 결제"
+        ],
+        "why": [
+          "에이전트가 리테일 거래 의사결정 루프 전체를 흡수",
+          "계정 락인·고마진 구독 유도 모델"
+        ],
+        "context": "더 정보화된 투자자를 만드는지, 이해 없는 거래량만 늘리는지는 열린 질문."
+      }
+    },
+    {
+      "id": "crypto-ethereum-glamsterdam",
+      "title": "이더리움 Glamsterdam, 최종 devnet 단계 진입",
+      "summary": "ePBS·BAL 등 10개 EIP를 묶고 가스 한도 2억 하한으로 처리량을 두 배로, H2 2026 메인넷 목표.",
+      "source": "TLDR Crypto",
+      "url": "https://thedefiant.io/news/blockchains/ethereum-glamsterdam-final-devnet-200m-gas-limit-target",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "이더리움 프로토콜"
+      },
+      "related": [
+        "ePBS·가스 한도 변화의 밸리데이터 영향 점검"
+      ],
+      "report": {
+        "tldr": "이더리움 Glamsterdam이 최종 devnet 단계에 들어갔다.",
+        "what": "Glamsterdam이 ePBS(enshrined PBS)와 Block-Level Access Lists를 포함한 10개 EIP를 묶어 최종 devnet에 진입했고 H2 2026 메인넷 활성화를 목표로 한다. 가스 한도 2억 하한을 고정해 처리량을 두 배로 늘리며 Dencun blobs 이후 가장 큰 베이스 레이어 스케일링이다.",
+        "points": [
+          "10개 EIP 번들, ePBS 포함",
+          "가스 한도 2억 하한",
+          "처리량 2배",
+          "H2 2026 메인넷 목표"
+        ],
+        "why": [
+          "ePBS가 MEV-Boost 릴레이를 프로토콜에 내재화, 중앙화 리스크 완화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sponsor-banks-stablecoin",
+      "title": "스폰서 뱅크를 위한 스테이블코인 기회",
+      "summary": "약 3,000억 달러 유통·3,900억 달러 연간 결제량의 스테이블코인 레일에서 번들링 기회가 형성된다.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/7wZVxw",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "핀테크·스테이블코인"
+      },
+      "related": [
+        "스테이블코인 스택 번들링 기회 검토",
+        "GENIUS Act·MiCA 규제 영향 점검"
+      ],
+      "report": {
+        "tldr": "스폰서 뱅크가 스테이블코인 스택을 번들링할 기회가 열린다.",
+        "what": "Bancorp·Sutton·Cross River 같은 스폰서 뱅크가 지난 핀테크 10년을 떠받쳤듯, 약 3,000억 달러 유통·3,900억 달러 연간 결제량·비자의 70억 달러 스테이블코인 카드 결제(YoY ~200%)로 스테이블코인 레일에서 같은 번들링 기회가 형성된다. 분산된 커스터디·온램프·카드·컴플라이언스를 하나의 API로 통합할 수 있다.",
+        "points": [
+          "스테이블코인 유통 ~3,000억 달러",
+          "연간 결제량 ~3,900억 달러",
+          "비자 스테이블코인 카드 70억 달러",
+          "GENIUS Act·MiCA로 규제 명확성"
+        ],
+        "why": [
+          "스폰서 뱅크가 단일 API·컴플라이언스로 스택 통합 가능"
+        ]
+      }
+    },
+    {
+      "id": "crypto-l1-ailab-comparison",
+      "title": "L1 블록체인 ↔ AI 랩 비교",
+      "summary": "OpenAI=비트코인, Anthropic=이더리움, 신생 랩=알트코인으로 매핑하는 분석.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/hMyExd",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI·크립토 투자"
+      },
+      "related": [
+        "AI 랩 유동성·출구 구조 비교"
+      ],
+      "report": {
+        "tldr": "AI 랩 펀딩 사이클을 L1 블록체인 시대에 빗댄 분석이다.",
+        "what": "OpenAI를 비트코인(선발·단일 기원), Anthropic을 이더리움(전 OpenAI 인재·초기 차별화), 신생 랩들을 알트코인(리서치 백서 기반 대형 라운드)으로 매핑한다. 인프라 측면(마이너→네오클라우드)도 평행하며, 대부분 알트랩은 출시 못 하거나 유의미해지지 못할 것이라는 역사적 결론을 적용한다.",
+        "points": [
+          "OpenAI=BTC, Anthropic=ETH",
+          "신생 랩=알트코인",
+          "마이너→네오클라우드 평행",
+          "대부분 알트랩 실패 전망"
+        ],
+        "why": [
+          "AI 랩은 토큰 유동성 없이 M&A·세컨더리로만 출구 — 유동성이 제약"
+        ]
+      }
+    },
+    {
+      "id": "crypto-karta-credit",
+      "title": "Karta, 세계 부유층 비미국인에 美 신용 제공",
+      "summary": "자산 기반 언더라이팅의 프리미엄 美 발급 카드로 1.4억 달러 조달.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2067551754019881226.html",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "핀테크·신용"
+      },
+      "related": [
+        "자산 기반 신용·스테이블코인 레일 모델 검토"
+      ],
+      "report": {
+        "tldr": "Karta가 부유층 비미국인 대상 美 신용카드로 1.4억 달러를 조달했다.",
+        "what": "Karta는 SSN·FICO가 없어 美 신용 시스템에 보이지 않지만 미국 기관에 자산을 가진 고액자산가를 겨냥한 프리미엄 美 발급 카드로 1.4억 달러(1,500만 시리즈 A + 1.25억 신용시설)를 조달했다. 신용 이력 대신 파트너 기관의 검증된 자산으로 언더라이팅하고 내부적으로 스테이블코인 레일을 쓴다.",
+        "points": [
+          "부유층 비미국인 타깃",
+          "자산 기반 언더라이팅",
+          "스테이블코인 레일 사용",
+          "80개+ 프라이빗 뱅크로 유통"
+        ],
+        "why": [
+          "전통 신용에서 소외된 고액자산가 시장 개척"
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-advisor-legal",
+      "title": "SEC 등록 Coinbase Advisor의 법적 구조",
+      "summary": "AI를 투자자문으로 SEC 등록한 새로운 컴플라이언스 구조 — 별도 RIA 법인+PM 검증.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2067371239979520247.html",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "AI 투자자문 규제"
+      },
+      "related": [
+        "AI 투자자문 RIA 등록 구조 검토"
+      ],
+      "report": {
+        "tldr": "Coinbase Advisor는 AI를 SEC 등록 투자자문으로 만든 구조다.",
+        "what": "Coinbase Advisor는 美 Coinbase One 회원에 멀티자산 추천과 자동 세금 손실 수확을 제공하는 SEC 등록 AI 투자자문이다. AI를 투자자문으로 SEC 규정하에 등록하는 것은 새로운 구조로, 별도 RIA 법인을 등록하고 포트폴리오 매니저의 검증을 거쳐 자문을 제공한다.",
+        "points": [
+          "SEC 등록 AI 투자자문",
+          "멀티자산 추천·세금 손실 수확",
+          "별도 RIA 법인 등록",
+          "PM 검증 병행"
+        ],
+        "why": [
+          "AI 자문의 규제 적합 구조에 대한 선례"
+        ]
+      }
+    },
+    {
+      "id": "crypto-tether-ausdt",
+      "title": "테더, 금 담보 합성달러 aUSDT 종료",
+      "summary": "XAUT를 초과담보로 달러 유동성을 발행하던 Alloy by Tether와 aUSDT를 종료한다.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/kQ5F3Z",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "스테이블코인"
+      },
+      "related": [
+        "합성 스테이블코인 동향 추적"
+      ],
+      "report": {
+        "tldr": "테더가 금 담보 합성달러 aUSDT를 종료한다.",
+        "what": "테더가 2024년 6월 출시한 Alloy by Tether와 aUSDT 토큰을 종료한다. 이 합성달러는 사용자가 XAUT(테더 금 담보 토큰)를 초과담보로 예치해 금 노출을 팔지 않고 달러 페그 유동성을 발행하게 했다.",
+        "points": [
+          "Alloy·aUSDT 종료",
+          "XAUT 초과담보 기반",
+          "2024년 6월 출시"
+        ],
+        "why": [
+          "합성 스테이블코인 실험의 정리"
+        ]
+      }
+    },
+    {
+      "id": "crypto-grayscale-defi-tokens",
+      "title": "그레이스케일, '실질 가치' DeFi 토큰 5종 지목",
+      "summary": "HYPE·AAVE·UNI·SKY·MAPLE을 펀더멘털 기반 상대가치 우수 토큰으로 꼽았다.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2067523963274821972.html",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "DeFi"
+      },
+      "related": [
+        "DeFi 펀더멘털·수수료 추세 점검"
+      ],
+      "report": {
+        "tldr": "그레이스케일이 DeFi 토큰 5종을 실질 가치로 지목했다.",
+        "what": "그레이스케일은 펀더멘털 기반 상대가치가 양호한 DeFi 토큰으로 HYPE·AAVE·UNI·SKY·MAPLE을 지목하며, DeFi 프로토콜이 2023년 이후 약 250억 달러 수수료를 창출했다고 밝혔다.",
+        "points": [
+          "HYPE·AAVE·UNI·SKY·MAPLE",
+          "펀더멘털 기반 상대가치",
+          "DeFi 수수료 ~250억 달러(2023~)"
+        ],
+        "why": [
+          "기관의 DeFi 펀더멘털 평가 관점"
+        ]
+      }
+    },
+    {
+      "id": "crypto-aztec-exploit",
+      "title": "Aztec, 폐기된 Connect 컨트랙트 210만 달러 익스플로잇 조사",
+      "summary": "2023년 종료된 zk-롤업 브리지에서 증명 검증과 L1 정산 불일치로 자금이 유출됐다.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/IW946T",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "DeFi 보안"
+      },
+      "related": [
+        "폐기 컨트랙트 잔여 위험 점검"
+      ],
+      "report": {
+        "tldr": "폐기된 Aztec Connect에서 210만 달러가 유출됐다.",
+        "what": "공격자가 2023년 3월 종료된 zk-롤업 브리지 Aztec Connect에서 롤업 증명 검증 로직과 L1 정산 처리 간 불일치를 악용해 잠겨 있어야 할 자금 약 210만 달러를 빼냈다.",
+        "points": [
+          "폐기된 zk-롤업 브리지 대상",
+          "증명 검증·L1 정산 불일치",
+          "약 210만 달러 유출"
+        ],
+        "why": [
+          "폐기 컨트랙트도 잔여 공격면이 될 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-stablecoin-reversible",
+      "title": "스테이블코인 결제도 되돌릴 수 있다",
+      "summary": "스마트 컨트랙트가 에스크로·지연 정산·차지백·분쟁해결을 네이티브로 인코딩할 수 있다.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2067352248053862460.html",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "스테이블코인 결제"
+      },
+      "related": [
+        "조건부 스테이블코인 결제 설계 검토"
+      ],
+      "report": {
+        "tldr": "스테이블코인 결제 최종성은 고정 제약이 아니다.",
+        "what": "스마트 컨트랙트가 에스크로, 지연 정산, 차지백, 분쟁 해결, 지출 통제를 네이티브로 인코딩할 수 있어 스테이블코인 결제 최종성은 고정된 제약이 아니다.",
+        "points": [
+          "에스크로·지연 정산 인코딩",
+          "차지백·분쟁 해결 가능",
+          "지출 통제"
+        ],
+        "why": [
+          "스테이블코인 결제의 유연성 확대 가능성"
+        ]
+      }
+    }
+  ]
+}

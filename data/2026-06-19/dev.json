@@ -1,0 +1,447 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "👨‍💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-agent-memory-elasticsearch",
+      "title": "Elasticsearch 기반 지속 에이전트 메모리 (0.89 recall·테넌트 누출 0)",
+      "summary": "에피소딕·시맨틱·절차 메모리를 별도 인덱스로 관리해 높은 recall과 테넌트 격리를 달성.",
+      "source": "TLDR Dev",
+      "url": "https://www.elastic.co/search-labs/blog/agent-memory-elasticsearch",
+      "originalDate": "2026-06-19",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 메모리"
+      },
+      "related": [
+        "멀티인덱스 메모리 아키텍처 검토",
+        "메모리 감쇠·모순 처리 설계"
+      ],
+      "report": {
+        "tldr": "Elasticsearch 멀티인덱스로 지속 에이전트 메모리를 구축했다.",
+        "what": "Elasticsearch 기반 지속 메모리 계층이 멀티인덱스 시스템으로 에이전트의 장기 메모리를 개선해 높은 recall과 테넌트 격리를 달성한다. 에피소딕·시맨틱·절차 메모리를 별도 인덱스로 두어 메모리 감쇠·데이터 모순 같은 문제를 일관된 갱신으로 처리한다.",
+        "points": [
+          "멀티인덱스 메모리 구조",
+          "0.89 recall, 테넌트 누출 0",
+          "에피소딕·시맨틱·절차 분리",
+          "감쇠·모순 일관 처리"
+        ],
+        "why": [
+          "장기 에이전트 메모리의 실전 아키텍처 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-amex-cell-architecture",
+      "title": "복원력 있는 결제 시스템을 위한 셀 기반 아키텍처",
+      "summary": "아멕스가 독립 단위로 장애를 격리하는 셀 기반 아키텍처로 고가용성을 유지한다.",
+      "source": "TLDR Dev",
+      "url": "https://americanexpress.io/cell-based-architecture-for-resilient-payment-systems/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "시스템 아키텍처"
+      },
+      "related": [
+        "셀 기반 장애 격리 설계 검토"
+      ],
+      "report": {
+        "tldr": "아멕스가 셀 기반 아키텍처로 결제 복원력을 높인다.",
+        "what": "아메리칸 익스프레스는 핵심 결제 생태계에 셀 기반 아키텍처를 사용해 복원력과 고가용성을 유지한다. 이 아키텍처는 독립 단위 안에 장애를 격리해, 각 셀이 자율적으로 작동하고 문제를 가두어 전체 시스템에 영향을 주지 않게 한다.",
+        "points": [
+          "셀 단위 장애 격리",
+          "각 셀 자율 작동",
+          "고가용성 유지"
+        ],
+        "why": [
+          "대규모 결제 시스템의 복원력 설계 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-securing-ai-agents",
+      "title": "AI 에이전트의 미래 보안 (구글 딥마인드)",
+      "summary": "2030년 美 2.9조 달러 가치 전망 속, 비정렬 위협에 대응하는 AI Control Roadmap.",
+      "source": "TLDR Dev",
+      "url": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "에이전트 보안"
+      },
+      "related": [
+        "에이전트 보안 로드맵 검토"
+      ],
+      "report": {
+        "tldr": "딥마인드가 AI Control Roadmap으로 에이전트 보안을 다룬다.",
+        "what": "AI 에이전트는 여러 부문 생산성을 높이며 2030년까지 美에서 2.9조 달러 경제 가치를 낼 수 있다는 전망이 있다. 점점 유능해지고 비정렬될 수 있는 AI 문제에 대응하기 위해 구글 딥마인드는 표준 정렬을 넘어선 보안 조치에 집중하는 AI Control Roadmap을 만들었다.",
+        "points": [
+          "2030년 美 2.9조 달러 전망",
+          "비정렬 위협 대응",
+          "표준 정렬 넘는 보안 조치"
+        ],
+        "why": [
+          "에이전트 확산에 따른 시스템 보안 필요"
+        ]
+      }
+    },
+    {
+      "id": "dev-emacs-start",
+      "title": "Emacs, 내게 모든 게 시작된 방식",
+      "summary": "여러 에디터를 거쳐 Emacs를 주 편집기로 받아들이게 된 개인 여정.",
+      "source": "TLDR Dev",
+      "url": "https://xvw.lol/en/articles/emacs-start.html",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "개발 도구"
+      },
+      "related": [
+        "에디터 워크플로 참고"
+      ],
+      "report": {
+        "tldr": "여러 에디터를 거쳐 Emacs에 정착한 여정이다.",
+        "what": "코딩에 워드를 쓰던 어설픈 초기 경험에서 시작해 Notepad++·Sublime Text 등을 거쳐, 결국 Emacs가 뛰어난 지원과 기능을 제공한다는 결론에 이른 여정을 담았다.",
+        "points": [
+          "초기 어설픈 코딩 경험",
+          "여러 에디터 탐색",
+          "Emacs 정착"
+        ],
+        "why": [
+          "개발 도구 선택에 대한 개인 회고"
+        ]
+      }
+    },
+    {
+      "id": "dev-bullish-on-loops",
+      "title": "우리가 루프에 강세인 이유",
+      "summary": "목표·맥락·평가·운영 에이전트 네 요소로 구성된 루프가 자율 작업 수행을 가능케 한다.",
+      "source": "TLDR Dev",
+      "url": "https://newsletter.posthog.com/p/why-were-bullish-on-loops",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 설계"
+      },
+      "related": [
+        "에이전트 루프 구성 요소 검토"
+      ],
+      "report": {
+        "tldr": "루프가 에이전트의 자율 작업 수행을 가능케 한다.",
+        "what": "루프는 엔지니어의 수동 프롬프트에 의존하지 않고 에이전트가 자율적으로 작업을 완료하게 한다. 루프 구성의 네 요소는 명확한 목표, 충분한 맥락, 평가 메커니즘, 운영 에이전트다. 비판도 있지만 루프는 자율 구동 제품으로의 전환을 의미한다.",
+        "points": [
+          "수동 프롬프트 의존 탈피",
+          "목표·맥락·평가·운영 4요소",
+          "자율 구동 제품으로 전환"
+        ],
+        "why": [
+          "에이전트 자율성 설계의 핵심 관점"
+        ]
+      }
+    },
+    {
+      "id": "dev-i-hate-compilers",
+      "title": "나는 컴파일러가 싫다 (재현 가능 빌드의 난관)",
+      "summary": "동일 입력에도 비결정적 출력이 나오는 WASM 컴파일러 문제와 재현성 확보 노력.",
+      "source": "TLDR Dev",
+      "url": "https://xeiaso.net/notes/2026/anubis-wasm-vendor-binary/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "빌드 재현성"
+      },
+      "related": [
+        "재현 가능 빌드·체크섬 검증 검토"
+      ],
+      "report": {
+        "tldr": "WASM 컴파일러의 비결정성과 재현성 확보 노력을 다룬다.",
+        "what": "컴파일러 동작의 복잡성은 동일 입력 바이트에도 비결정적 출력을 낳아 재현 가능 빌드를 어렵게 한다. Anubis(WASM 기반 PoW) 개발 중 도구 버전·주소 레이아웃 차이로 인한 출력 불일치 문제가 생겼고, 아키텍처 간 체크섬 검증으로 빌드를 안정화·재현성 검증했다.",
+        "points": [
+          "동일 입력에도 비결정적 출력",
+          "도구 버전·주소 레이아웃 차이",
+          "체크섬으로 재현성 검증"
+        ],
+        "why": [
+          "재현 가능 빌드의 현실적 어려움 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-flue",
+      "title": "Flue — 자율 에이전트 프레임워크 (GitHub)",
+      "summary": "프로그래밍 가능한 TypeScript 환경에서 맥락 유지·워크플로 실행·샌드박스 운영.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/withastro/flue",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 프레임워크"
+      },
+      "related": [
+        "TypeScript 에이전트 프레임워크 검토"
+      ],
+      "report": {
+        "tldr": "Flue는 자율 에이전트 구축용 TypeScript 프레임워크다.",
+        "what": "Flue는 프로그래밍 가능한 TypeScript 환경에서 복잡한 작업을 효율적으로 수행하는 자율 에이전트를 만들기 위한 프레임워크다. 맥락을 유지하고 워크플로를 실행하며 샌드박스에서 안전하게 동작해 사전 정의된 행동 시퀀스 없이 실제 작업을 가능케 한다.",
+        "points": [
+          "TypeScript 환경",
+          "맥락 유지·워크플로 실행",
+          "샌드박스 안전 운영"
+        ],
+        "why": [
+          "코드 기반 에이전트 구축 도구"
+        ]
+      }
+    },
+    {
+      "id": "dev-agent-native",
+      "title": "Agent-Native — 에이전트·UI 통합 프레임워크 (GitHub)",
+      "summary": "에이전트가 헤드리스 API·챗·풀 앱으로 동작하며 실시간 동기화·맥락 인식을 유지한다.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/BuilderIO/agent-native",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 프레임워크"
+      },
+      "related": [
+        "에이전트-UI 통합 패턴 검토"
+      ],
+      "report": {
+        "tldr": "Agent-Native는 에이전트와 UI가 함께 동작하는 프레임워크다.",
+        "what": "Agent-Native는 에이전트와 사용자 인터페이스가 매끄럽게 함께 작동하는 상호연결 애플리케이션 구축용 오픈소스 프레임워크다. 헤드리스 API, 풍부한 챗 경험, 풀 애플리케이션 어느 형태로도 동작하는 다재다능한 에이전트를 실시간 동기화·맥락 인식과 함께 만들 수 있다.",
+        "points": [
+          "에이전트+UI 통합",
+          "헤드리스/챗/풀앱 형태",
+          "실시간 동기화·맥락 인식"
+        ],
+        "why": [
+          "에이전트 네이티브 앱 설계 도구"
+        ]
+      }
+    },
+    {
+      "id": "dev-github-malware-10k",
+      "title": "GitHub 대규모 멀웨어 유포 적발 (1만 리포)",
+      "summary": "다양한 이름의 트로이목마를 담은 1만 개 리포가 README로 악성 zip 링크를 유포.",
+      "source": "TLDR Dev",
+      "url": "https://orchidfiles.com/github-repositories-distributing-malware/",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "OSS 공급망"
+      },
+      "related": [
+        "리포 신뢰성·README 링크 점검"
+      ],
+      "report": {
+        "tldr": "GitHub에서 1만 개 리포 규모 멀웨어 유포가 적발됐다.",
+        "what": "GitHub에서 다양한 이름의 트로이목마를 담은 1만 개 리포가 관련된 대규모 멀웨어 유포 캠페인이 드러났다. 이 리포들은 README를 계속 갱신해 악성 zip 링크를 넣고, 같은 커밋을 자주 삭제·재추가해 탐지를 어렵게 한다.",
+        "points": [
+          "1만 개 리포 연루",
+          "README로 악성 zip 링크",
+          "커밋 삭제·재추가로 회피"
+        ],
+        "why": [
+          "OSS 플랫폼을 노린 대규모 유포 위협"
+        ]
+      }
+    },
+    {
+      "id": "dev-agent-readiness",
+      "title": "'에이전트 레디니스'는 진짜 카테고리인가, 스네이크 오일인가?",
+      "summary": "Cloudflare·구글의 사이트 평가 점수 시스템이 실효성으로 이어지지 않을 수 있다는 분석.",
+      "source": "TLDR Dev",
+      "url": "https://nekuda.substack.com/p/is-agent-readiness-a-real-category",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 호환성"
+      },
+      "related": [
+        "에이전트 호환성 평가의 실효성 검토"
+      ],
+      "report": {
+        "tldr": "'에이전트 레디니스'의 실효성에 의문을 제기한다.",
+        "what": "Cloudflare·구글이 사이트의 AI 에이전트 호환성을 평가하는 점수 시스템을 도입하며 '에이전트 레디니스' 개념이 주목받지만, 상당 부분이 실질 이익으로 이어지지 않을 수 있다. 이 용어는 AI 추천 여부와 도착 후 거래 사용성이라는 두 별개 과제를 뒤섞는다.",
+        "points": [
+          "사이트 점수 시스템 등장",
+          "실효성 의문",
+          "추천 가능성 vs 거래 사용성 혼동"
+        ],
+        "why": [
+          "과장된 카테고리에 대한 비판적 시각"
+        ]
+      }
+    },
+    {
+      "id": "dev-elkjop-forced-consent",
+      "title": "강제 동의는 불법 — 5년 뒤 Elkjop에 180만 유로",
+      "summary": "멤버십 혜택 대가로 마케팅 수신을 강제해 GDPR·ePrivacy 위반으로 180만 유로 벌금.",
+      "source": "TLDR Dev",
+      "url": "https://www.thatprivacyguy.com/blog/elkjop-forced-consent-fine/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "프라이버시·동의"
+      },
+      "related": [
+        "동의 모델의 자유성 점검"
+      ],
+      "report": {
+        "tldr": "강제 동의 모델로 Elkjop이 180만 유로 벌금을 받았다.",
+        "what": "Elkjop은 멤버십 혜택 대가로 고객에게 마케팅 수신 동의를 강제해 GDPR·ePrivacy를 위반, 180만 유로 벌금을 받았다. 노르웨이 데이터보호청 판결은 동의가 자유롭게 주어져야 함을 재확인하며 강제적 동의 모델에 의존하는 기업에 경고를 보낸다.",
+        "points": [
+          "혜택 대가 강제 동의",
+          "GDPR·ePrivacy 위반",
+          "180만 유로 벌금",
+          "동의는 자유롭게"
+        ],
+        "why": [
+          "강제 동의 관행에 대한 규제 경고"
+        ]
+      }
+    },
+    {
+      "id": "dev-mcp-enterprise-auth",
+      "title": "엔터프라이즈 관리형 인가: MCP용 제로터치 OAuth",
+      "summary": "IdP 통한 중앙·제로터치 SSO로 MCP 서버 접근을 간소화하는 안정 확장.",
+      "source": "TLDR Dev",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "75%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "MCP 인증"
+      },
+      "related": [
+        "MCP 엔터프라이즈 SSO 도입 검토"
+      ],
+      "report": {
+        "tldr": "MCP용 엔터프라이즈 관리형 인가가 제로터치 SSO를 제공한다.",
+        "what": "MCP용 Enterprise-Managed Authorization 확장의 안정 버전이 IdP를 통한 중앙·제로터치 SSO로 MCP 서버 접근을 제공해 보안을 강화하고 사용자 경험을 개선한다.",
+        "points": [
+          "MCP 서버 제로터치 SSO",
+          "IdP 통한 중앙 관리",
+          "보안·UX 동시 개선"
+        ],
+        "why": [
+          "MCP의 엔터프라이즈 채택 기반"
+        ]
+      }
+    },
+    {
+      "id": "dev-noam-shazeer-openai",
+      "title": "구글 제미니 공동리드 노암 셰이저, IPO 앞둔 오픈AI 합류",
+      "summary": "Transformers 논문 주저자이자 제미니 공동리드가 구글을 떠나 오픈AI로 향한다.",
+      "source": "TLDR Dev",
+      "url": "https://links.tldrnewsletter.com/sjjSxV",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 인재"
+      },
+      "related": [
+        "AI 핵심 인재 이동 추적"
+      ],
+      "report": {
+        "tldr": "노암 셰이저가 구글을 떠나 오픈AI에 합류한다.",
+        "what": "LLM 시대를 연 Transformers 논문 주저자이자 구글 제미니 프로젝트 공동리드인 노암 셰이저가 IPO를 앞둔 오픈AI에 합류하기 위해 구글을 떠난다.",
+        "points": [
+          "Transformers 주저자",
+          "제미니 공동리드",
+          "IPO 앞둔 오픈AI 합류"
+        ],
+        "why": [
+          "핵심 연구자 이동이 경쟁 구도에 영향"
+        ]
+      }
+    },
+    {
+      "id": "dev-outbox-pattern",
+      "title": "아웃박스 패턴",
+      "summary": "아웃박스 테이블에 메시지를 기록해 트랜잭션이 이메일 전송을 기다리지 않고 성공하게 한다.",
+      "source": "TLDR Dev",
+      "url": "https://www.jakeworth.com/tils/the-outbox-pattern/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "마이크로서비스"
+      },
+      "related": [
+        "아웃박스 패턴 적용 검토"
+      ],
+      "report": {
+        "tldr": "아웃박스 패턴은 트랜잭션과 후속 이벤트를 분리한다.",
+        "what": "마이크로서비스의 아웃박스 패턴은 트랜잭션 완료 후 이메일 전송 같은 이벤트를 독립 처리하게 한다. 메시지를 아웃박스 테이블에 기록해 이메일 전달을 기다리지 않고 트랜잭션이 성공하도록 한다.",
+        "points": [
+          "아웃박스 테이블에 메시지 기록",
+          "트랜잭션과 이벤트 분리",
+          "전달 지연 무관 성공"
+        ],
+        "why": [
+          "분산 시스템의 신뢰성 있는 이벤트 처리"
+        ]
+      }
+    },
+    {
+      "id": "dev-kubernetes-age-of-ai",
+      "title": "AI 시대의 쿠버네티스",
+      "summary": "컨테이너 오케스트레이션을 넘어 생성·에이전틱 AI 워크로드의 기반 플랫폼으로 진화.",
+      "source": "TLDR Dev",
+      "url": "https://www.oreilly.com/radar/kubernetes-in-the-age-of-ai/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "인프라"
+      },
+      "related": [
+        "쿠버네티스 기반 AI 워크로드 관리 검토"
+      ],
+      "report": {
+        "tldr": "쿠버네티스가 AI 인프라 기반 플랫폼으로 진화했다.",
+        "what": "쿠버네티스는 컨테이너 오케스트레이션 도구에서 근본적인 AI 인프라 플랫폼으로 진화해, 조직이 생성·에이전틱 AI 워크로드를 효율적으로 관리하게 한다.",
+        "points": [
+          "오케스트레이션→AI 플랫폼",
+          "생성·에이전틱 워크로드 관리"
+        ],
+        "why": [
+          "AI 운영의 표준 인프라로 부상"
+        ]
+      }
+    }
+  ]
+}

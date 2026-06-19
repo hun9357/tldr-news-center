@@ -1,0 +1,338 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-prompt-to-purchase",
+      "title": "프롬프트-투-구매 파이프라인: AI가 구매 행동에 미치는 영향",
+      "summary": "AI가 브랜드를 추천하면 검색 182%·방문 117%·제품 조회 185%가 증가한다는 연구.",
+      "source": "TLDR Marketing",
+      "url": "https://scrunch.com/blog/prompt-to-purchase-pipeline-how-ai-influences-buyer-behavior/",
+      "originalDate": "2026-06-19",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "AI 검색·수요 생성"
+      },
+      "related": [
+        "AI 가시성을 수요생성 지표로 추적",
+        "추천 배치 최적화(콘텐츠·리뷰·비교)"
+      ],
+      "report": {
+        "tldr": "AI 추천이 검색·방문·제품 조회를 크게 끌어올린다.",
+        "what": "AI 검색은 애널리틱스가 인정하지 못해도 측정 가능한 상단 퍼널 채널이 되고 있다. 연구에 따르면 AI 플랫폼이 신규 잠재고객에게 브랜드를 추천하면 1주 내 검색 182%·웹사이트 방문 117%·제품 조회 185% 증가한다. 추천은 단순 언급의 약 2배 영향을 준다.",
+        "points": [
+          "AI 추천 시 검색 +182%",
+          "방문 +117%, 제품 조회 +185%",
+          "추천은 언급의 ~2배 영향",
+          "ChatGPT 등에서 추천 배치가 핵심"
+        ],
+        "why": [
+          "가시성보다 '추천되는 것'이 중요",
+          "라스트클릭 대신 AI 가시성을 수요 지표로"
+        ]
+      }
+    },
+    {
+      "id": "mkt-mission-mindset-reddit",
+      "title": "미션 마인드셋: 인간 대화가 구매 확신을 만든다",
+      "summary": "사람들이 Reddit 등에서 실제 경험을 비교하며 검증하는 '검증 계층'이 구매를 좌우한다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.business.reddit.com/blog/the-mission-mindset-how-human-conversations-build-buyer-confidence",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "구매 여정"
+      },
+      "related": [
+        "커뮤니티 검증 계층 전략 검토"
+      ],
+      "report": {
+        "tldr": "인간 대화가 구매 전 검증 계층으로 작동한다.",
+        "what": "구매 결정은 더 이상 광고만으로 이뤄지지 않는다. 사람들은 행동 전 고려 대상을 검증하기 위해 인간 대화에 의존한다. Reddit에서 옵션을 비교하고 질문하며 실제 경험을 읽어 위험을 줄이고 확신을 쌓는다.",
+        "points": [
+          "광고만으로 구매 안 함",
+          "Reddit 등에서 검증",
+          "검증 계층이 신뢰 형성",
+          "실제 경험이 구매 좌우"
+        ],
+        "why": [
+          "관심과 행동 사이 검증 계층의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "mkt-linkedin-outbound-test",
+      "title": "49일간 링크드인 아웃리치 3,645건 실험",
+      "summary": "한 계정으로 3,645건을 보내 적격 데모 21건(174건당 1건)을 확보한 실험.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/9uoJSv",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "아웃바운드"
+      },
+      "related": [
+        "고의도 리스트 빌딩·개인화 전략 검토"
+      ],
+      "report": {
+        "tldr": "49일 링크드인 아웃바운드로 적격 데모 21건을 확보했다.",
+        "what": "49일 동안 한 계정으로 3,645건을 보내 적격 데모 21건(174건당 1건)을 예약했고 하루 약 15분이 들었다. 의도 신호가 있는 최근 게시글에서 리드를 소싱하고, 신호·인사이트·소프트 애스크 구조로 메시지를 보냈다. 연결 요청 2,756건(수락 26.5%)과 InMail 1,570건을 보냈다.",
+        "points": [
+          "3,645건→데모 21건",
+          "하루 ~15분 소요",
+          "신호·인사이트·소프트 애스크 구조",
+          "연결 수락률 26.5%"
+        ],
+        "why": [
+          "고의도 리스트와 일관된 개인화가 핵심"
+        ]
+      }
+    },
+    {
+      "id": "mkt-copywriting-prompt",
+      "title": "카피라이팅 프롬프트의 해부학",
+      "summary": "시각 참조·명확한 메시지·명시적 카피 기법을 담은 프롬프트가 더 강한 결과를 만든다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/shlomogenchin_copywriting-prompts-usually-sound-like-this-share-7472927409491800065-DsoJ/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "AI 카피"
+      },
+      "related": [
+        "구조화된 카피 프롬프트 템플릿 적용"
+      ],
+      "report": {
+        "tldr": "맥락이 풍부한 프롬프트가 더 나은 카피를 만든다.",
+        "what": "'전문가처럼 써라' 같은 일반 프롬프트는 맥락이 없어 성과가 떨어진다. 더 나은 구조는 시각 참조, 제품 맥락이 담긴 명확한 평이한 메시지, 스타일을 안내하는 명시적 카피 기법을 포함한다.",
+        "points": [
+          "일반 프롬프트의 한계",
+          "시각 참조 포함",
+          "제품 맥락+명확한 메시지",
+          "명시적 카피 기법"
+        ],
+        "why": [
+          "AI에 적절한 입력을 주면 결과가 강해짐"
+        ]
+      }
+    },
+    {
+      "id": "mkt-targeting-vs-reach",
+      "title": "대량 발송 vs 좁은 타기팅",
+      "summary": "고도 세분화 이메일은 50%+ 오픈·40~90% CTOR, 광범위 발송은 2~5% 오픈에 그친다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/elainezelby_if-you-know-who-you-sell-to-and-why-they-share-7473051541562646529-XqU8/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "이메일 마케팅"
+      },
+      "related": [
+        "세분화 기반 이메일 전략 검토"
+      ],
+      "report": {
+        "tldr": "좁은 타기팅이 넓은 도달을 거의 항상 이긴다.",
+        "what": "고도 세분화 이메일은 50% 이상 오픈과 40~90% 클릭-투-오픈을 달성하는 반면, 광범위 발송은 2~5% 오픈·약 1% CTR로 떨어진다.",
+        "points": [
+          "세분화 이메일 오픈 50%+",
+          "CTOR 40~90%",
+          "광범위 발송 오픈 2~5%",
+          "작고 촘촘한 세그먼트 우위"
+        ],
+        "why": [
+          "타기팅 정밀도가 성과를 좌우"
+        ]
+      }
+    },
+    {
+      "id": "mkt-mmm-choices",
+      "title": "MMM이 실제로 작동하게 하는 선택들",
+      "summary": "MMM 성공은 모델링 기법보다 설계에 달렸다 — 18개월 데이터·지출 변동·20~30% 채널 기여가 전제.",
+      "source": "TLDR Marketing",
+      "url": "https://www.021newsletter.com/p/the-choices-that-determine-whether",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "마케팅 측정"
+      },
+      "related": [
+        "MMM 전제조건·결과지표 설계 점검"
+      ],
+      "report": {
+        "tldr": "MMM 성공은 기법보다 모델 설계에 달렸다.",
+        "what": "MMM 구축 전 18개월 이상 데이터, 의미 있는 지출 변동, 상단 퍼널의 20~30%를 차지하는 유료 채널의 세 요건을 검증해야 한다. 가장 중요한 결정은 올바른 결과 지표 선택, 셀프서브와 영업주도 모션 분리, 사용자 정렬이며 이것이 ROI·포화·예산 권고를 결정한다.",
+        "points": [
+          "18개월+ 데이터 필요",
+          "의미 있는 지출 변동",
+          "유료 채널 20~30% 기여",
+          "결과 지표·세분화·정렬이 핵심"
+        ],
+        "why": [
+          "단기 adstock으로 브랜드 투자 판단 금물, 결과는 범위로 제시"
+        ]
+      }
+    },
+    {
+      "id": "mkt-critical-thinking-gap",
+      "title": "더 많은 교육으로는 마케팅의 비판적 사고 격차를 못 메운다",
+      "summary": "지식과 그것을 변호하는 능력 사이 격차가 문제 — 10명 중 9명이 결정 이유를 설명 못 한다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.marketingweek.com/marketings-critical-thinking-gap/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "마케팅 역량"
+      },
+      "related": [
+        "전략적 판단력 개발 검토"
+      ],
+      "report": {
+        "tldr": "교육 추가가 아니라 판단력 개발이 필요하다.",
+        "what": "마케팅의 가면 증후군은 아는 것과 변호할 수 있는 것 사이의 격차에서 나온다. 강좌·자격증을 더하는 표준 해법은 판단력 없이 지식만 쌓아 악순환을 강화한다. 한 리더는 10명 중 9명이 결정 이유를 설명하지 못한다고 보고한다.",
+        "points": [
+          "지식 vs 변호 능력 격차",
+          "교육 추가는 악순환",
+          "결정 이유 설명 못 하는 다수",
+          "AI 시대 전략적 추론의 중요성"
+        ],
+        "why": [
+          "실행이 대체 가능해질수록 전략적 추론 능력이 생존 요소"
+        ]
+      }
+    },
+    {
+      "id": "mkt-state-of-beauty",
+      "title": "2030 성장을 형성하는 뷰티 카테고리·채널",
+      "summary": "틱톡이 아마존·울타·세포라와 함께 美 뷰티 시장 절반 가까이를 차지하며 소셜 커머스가 급성장.",
+      "source": "TLDR Marketing",
+      "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/state-of-beauty",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "이커머스·뷰티"
+      },
+      "related": [
+        "AI 추천 엔진용 제품 콘텐츠 구조화 검토"
+      ],
+      "report": {
+        "tldr": "틱톡이 美 뷰티 시장의 핵심 채널로 부상했다.",
+        "what": "틱톡은 아마존·울타·세포라와 함께 美 뷰티 시장의 절반 가까이를 차지하는 네 소매처 중 하나다. 소셜 커머스가 가장 빠르게 성장하며 아마존+틱톡이 올해 세포라+울타를 넘을 수 있다. AI 플랫폼은 3~5년 내 이커머스 거래의 최대 35%를 이끌 전망이다.",
+        "points": [
+          "틱톡, 4대 뷰티 소매처 진입",
+          "소셜 커머스 최고 성장",
+          "AI가 이커머스 35% 견인 전망",
+          "제품 콘텐츠의 AI 추천 최적화 필요"
+        ],
+        "why": [
+          "검색 키워드보다 AI 추천 엔진 구조화가 중요"
+        ]
+      }
+    },
+    {
+      "id": "mkt-20-copywriting-rules",
+      "title": "20가지 카피라이팅 규칙",
+      "summary": "훌륭한 카피는 모든 문장을 베낄 수 없을 때까지 헤드라인부터 고쳐 쓰는 것.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/zayd-syed-ali-4201101a9_i-once-rewrote-valleys-homepage-24-times-ugcPost-7472626568083935232-yEFh/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "카피"
+      },
+      "related": [
+        "카피 리라이팅 원칙 참고"
+      ],
+      "report": {
+        "tldr": "훌륭한 카피는 헤드라인부터 끝없이 고쳐 쓴다.",
+        "what": "훌륭한 카피는 모든 줄이 베낄 수 없어질 때까지, 헤드라인부터 시작해 다시 쓰는 것이다.",
+        "points": [
+          "헤드라인부터 리라이팅",
+          "베낄 수 없을 때까지 다듬기"
+        ],
+        "why": [
+          "카피 품질은 반복 수정에서 나옴"
+        ]
+      }
+    },
+    {
+      "id": "mkt-nobody-knows-brand",
+      "title": "아무도 당신 브랜드를 싫어하지 않는다 — 존재조차 모른다",
+      "summary": "상위 B2B 브랜드는 거부하는 사람보다 모르는 사람이 1.6배, 소형 브랜드는 8~16배 많다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/weinbergpeter_allora-i-have-good-news-and-bad-news-share-7473008372854730752-hr98/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "브랜드 인지"
+      },
+      "related": [
+        "브랜드 인지도 확대 전략 검토"
+      ],
+      "report": {
+        "tldr": "문제는 거부가 아니라 인지 부족이다.",
+        "what": "상위 B2B 브랜드는 거부하는 사람보다 모르는 사람이 1.6배 많고, 소형 브랜드는 그 격차가 8~16배로 커진다.",
+        "points": [
+          "거부보다 무인지가 많음",
+          "상위 B2B 1.6배",
+          "소형 브랜드 8~16배"
+        ],
+        "why": [
+          "인지도 확대가 우선 과제"
+        ]
+      }
+    },
+    {
+      "id": "mkt-tiktok-ai-slop",
+      "title": "틱톡 피드, 유튜브보다 3배 많은 AI 슬롭",
+      "summary": "신규 계정에 제공되는 영상의 59%가 AI 생성으로 유튜브(21%)의 약 3배.",
+      "source": "TLDR Marketing",
+      "url": "https://www.digitaltrends.com/social-media/tiktok-feeds-show-3-times-more-ai-slop-than-youtube-study-reveals/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "콘텐츠 플랫폼"
+      },
+      "related": [
+        "AI 생성 콘텐츠 비중과 브랜드 안전 점검"
+      ],
+      "report": {
+        "tldr": "틱톡 신규 피드의 59%가 AI 생성 콘텐츠다.",
+        "what": "새 틱톡 계정에 제공되는 영상의 59%가 AI 생성으로 유튜브의 21%보다 약 3배 높으며, 아동 콘텐츠가 57%로 가장 타격이 크다.",
+        "points": [
+          "틱톡 신규 피드 59% AI",
+          "유튜브 21%",
+          "아동 콘텐츠 57%"
+        ],
+        "why": [
+          "AI 슬롭 확산이 플랫폼·브랜드 안전에 영향"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-claude-design-overhaul",
+      "title": "앤트로픽, Claude Design 대대적 개편",
+      "summary": "디자인 시스템 임포트·양방향 Claude Code 통합·9개 익스포트 파트너 추가, 토큰 과소비 문제 해결.",
+      "source": "TLDR Design",
+      "url": "https://venturebeat.com/technology/anthropic-ships-major-claude-design-overhaul-with-design-system-imports-code-round-trips-and-a-fix-for-its-token-burning-problem",
+      "originalDate": "2026-06-19",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "디자인 도구"
+      },
+      "related": [
+        "Claude Design의 엔터프라이즈 브랜드 컴플라이언스 활용 검토"
+      ],
+      "report": {
+        "tldr": "앤트로픽이 Claude Design을 대대적으로 개편했다.",
+        "what": "앤트로픽이 바이럴 출시 두 달 만에 Claude Design을 개편해 디자인 시스템 임포트, 양방향 Claude Code 통합, 9개 신규 익스포트 파트너를 추가했다. 초기 사용자가 단일 프로토타입에 30분 내 주간 Pro 할당량 대부분을 소진하던 심각한 토큰 과소비 문제를 직접 해결했다.",
+        "points": [
+          "디자인 시스템 임포트",
+          "양방향 Claude Code 통합",
+          "9개 익스포트 파트너",
+          "토큰 과소비 문제 해결"
+        ],
+        "why": [
+          "화려한 생성 도구에서 엔터프라이즈 브랜드 컴플라이언스 계층으로 재포지셔닝"
+        ]
+      }
+    },
+    {
+      "id": "design-framer-3",
+      "title": "Framer 3.0 — AI 에이전트·브랜칭·커뮤니티",
+      "summary": "전체 페이지 디자인·브레이크포인트·컴포넌트·코드·CMS를 다루는 AI 에이전트를 탑재했다.",
+      "source": "TLDR Design",
+      "url": "https://www.framer.com/updates/framer-3",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "웹 빌더"
+      },
+      "related": [
+        "AI 에이전트 기반 웹 빌더 비교"
+      ],
+      "report": {
+        "tldr": "Framer 3.0이 AI 에이전트와 브랜칭을 도입했다.",
+        "what": "Framer 3.0은 전체 페이지 디자인, 브레이크포인트, 컴포넌트 빌드, 코드 작성, CMS 연결 등 캔버스 레벨 작업을 하는 AI 에이전트를 탑재했다. 대규모 팀은 안전하게 반복·협업하는 Branching을 얻고, 창작자가 작업을 공유·수익화하는 Community 플랫폼이 추가됐다.",
+        "points": [
+          "AI 에이전트가 페이지·컴포넌트·코드 처리",
+          "Branching으로 안전한 협업",
+          "Community 플랫폼",
+          "CMS 연결"
+        ],
+        "why": [
+          "디자인 도구의 에이전트화 가속"
+        ]
+      }
+    },
+    {
+      "id": "design-siri-iphone18",
+      "title": "Siri AI 디자인, 아이폰 18 Pro 변화 암시",
+      "summary": "iOS 27 베타의 구형 Siri 오브 디자인이 약 35% 작은 다이내믹 아일랜드를 시사한다.",
+      "source": "TLDR Design",
+      "url": "https://9to5mac.com/2026/06/16/siri-ai-hints-at-new-iphone-18-pro-design-change/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "하드웨어 디자인"
+      },
+      "related": [
+        "다이내믹 아일랜드 디자인 변화 추적"
+      ],
+      "report": {
+        "tldr": "iOS 27 베타의 Siri 디자인이 아이폰 18 Pro 변화를 암시한다.",
+        "what": "iOS 27 베타의 새 Siri AI 디자인이 아이폰 18 Pro의 더 작은 다이내믹 아일랜드 계획을 드러낼 수 있다. 아이폰에서 Siri는 현 다이내믹 아일랜드 폭에 맞춰 길쭉한 타원으로 보이지만, 아이패드·맥의 오브 형태는 약 35% 작은 컷아웃을 시사한다.",
+        "points": [
+          "iOS 27 베타 Siri 디자인 단서",
+          "약 35% 작은 컷아웃 시사",
+          "오브 형태 지향"
+        ],
+        "why": [
+          "UI 디자인이 미래 하드웨어 방향을 노출"
+        ]
+      }
+    },
+    {
+      "id": "design-tiktok-ux-systems",
+      "title": "틱톡의 3가지 알고리즘 기반 UX 시스템",
+      "summary": "개인화 피드·즉시 전달·행동 학습 엔진이 소비-데이터-예측 루프로 참여를 극대화한다.",
+      "source": "TLDR Design",
+      "url": "https://raw.studio/blog/how-tiktok-uses-3-algorithm-driven-ux-systems-to-maximize-engagement/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "제품 UX"
+      },
+      "related": [
+        "참여 설계 원칙의 책임 있는 적용 검토"
+      ],
+      "report": {
+        "tldr": "틱톡 참여는 3개 상호강화 UX 시스템이 이끈다.",
+        "what": "틱톡의 참여는 개인화된 'For You' 피드, 로딩 마찰을 없앤 즉시 전달, 실제 행동으로 추천을 계속 정제하는 행동 학습 엔진의 세 시스템이 이끈다. 소비가 데이터를 만들고, 데이터가 예측을 개선하며, 더 나은 예측이 소비를 끌어내는 루프다.",
+        "points": [
+          "개인화 For You 피드",
+          "마찰 없는 즉시 전달",
+          "행동 학습 엔진",
+          "소비-데이터-예측 루프"
+        ],
+        "why": [
+          "인터페이스 복제 없이 원리 적용 가능, 책임 있는 설계 필요"
+        ]
+      }
+    },
+    {
+      "id": "design-haptics",
+      "title": "햅틱 디자인과 구현",
+      "summary": "윈도우 11이 InputHapticsManager API로 마우스·터치패드·펜에 컨텍스트 햅틱을 제공한다.",
+      "source": "TLDR Design",
+      "url": "https://microsoft.design/articles/haptics-design-and-implementation/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "인터랙션 디자인"
+      },
+      "related": [
+        "햅틱 피드백 가이드라인 적용 검토"
+      ],
+      "report": {
+        "tldr": "윈도우 11이 컨텍스트 햅틱 피드백을 지원한다.",
+        "what": "윈도우 11이 InputHapticsManager API로 호환 마우스·터치패드·펜에서 터치 기반 반응을 제공한다. 햅틱은 명확성·포용·즐거움의 세 목적을 가지며 Align·Collide·Step·Success 같은 사전 정의 파형으로 특정 상호작용 순간에 매칭된다.",
+        "points": [
+          "InputHapticsManager API",
+          "마우스·터치패드·펜 지원",
+          "명확성·포용·즐거움 목적",
+          "사전 정의 파형 활용"
+        ],
+        "why": [
+          "저지연·일관 햅틱이 신호의 의미를 유지"
+        ]
+      }
+    },
+    {
+      "id": "design-agile-trap",
+      "title": "디자이너가 빠지는 애자일 함정: 비스트 먹이기",
+      "summary": "디자인 시스템이 반복적 시각 작업을 줄여 디자이너가 UX에 집중하게 한다.",
+      "source": "TLDR Design",
+      "url": "https://uxmag.com/articles/the-agile-trap-designers-fall-into-feeding-the-beast",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "디자인 프로세스"
+      },
+      "related": [
+        "디자인 시스템으로 반복 작업 절감 검토"
+      ],
+      "report": {
+        "tldr": "디자인 시스템이 애자일 팀의 반복 시각 작업을 줄인다.",
+        "what": "디자인 시스템은 재사용 가능한 인터페이스 컴포넌트를 표준화해 애자일 팀이 더 빠르게 움직이고, 디자이너의 시간을 잡아먹는 반복적 시각 디자인 작업을 줄인다. 버튼·폼·내비게이션을 미리 정의해 UX에 더 집중하게 한다.",
+        "points": [
+          "컴포넌트 표준화",
+          "반복 시각 작업 감소",
+          "UX 집중·조기 협업",
+          "증분 릴리스 일관성 유지"
+        ],
+        "why": [
+          "애자일 속도와 디자인 일관성의 균형"
+        ]
+      }
+    },
+    {
+      "id": "design-autoedit-premiere",
+      "title": "프리미어 프로용 AI 자동 편집 (AutoEdit)",
+      "summary": "콘텐츠를 이해해 프리미어 프로 안에서 러프컷을 자동 생성한다.",
+      "source": "TLDR Design",
+      "url": "https://www.autoeditai.net/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "영상 편집 도구"
+      },
+      "related": [
+        "AI 영상 편집 워크플로 검토"
+      ],
+      "report": {
+        "tldr": "AutoEdit이 프리미어 프로에서 러프컷을 자동 생성한다.",
+        "what": "AutoEdit Creator Mode는 콘텐츠를 이해해 프리미어 프로 안에서 러프컷을 자동으로 만든다.",
+        "points": [
+          "콘텐츠 이해 기반 자동 편집",
+          "프리미어 프로 내장",
+          "러프컷 자동 생성"
+        ],
+        "why": [
+          "영상 편집의 초기 작업 자동화"
+        ]
+      }
+    },
+    {
+      "id": "design-dropmatico-resizer",
+      "title": "무료 이미지 리사이저 Dropmatico",
+      "summary": "마스터 하나를 올리면 인스타·아마존·링크드인 등 30+ 플랫폼용으로 자동 변환한다.",
+      "source": "TLDR Design",
+      "url": "https://dropmatico.com/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "디자인 도구"
+      },
+      "related": [
+        "다채널 이미지 자동화 도구 검토"
+      ],
+      "report": {
+        "tldr": "Dropmatico가 목적지를 자동 선택하는 이미지 리사이저다.",
+        "what": "Dropmatico는 마스터 이미지 하나를 올리면 인스타그램·아마존·링크드인·Etsy 등 30개 이상 플랫폼용으로 알맞은 크기·포맷·처리로 자동 변환한다.",
+        "points": [
+          "마스터 1개→다채널 변환",
+          "30+ 플랫폼 지원",
+          "크기·포맷 자동 최적화"
+        ],
+        "why": [
+          "멀티채널 자산 제작 효율화"
+        ]
+      }
+    },
+    {
+      "id": "design-storied-colors",
+      "title": "Storied Colors — 색의 역사 컬렉션",
+      "summary": "각 색이 어디서 처음 만들어지고 언제 금지됐는지의 이력을 담은 컬렉션.",
+      "source": "TLDR Design",
+      "url": "https://storiedcolors.com/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "디자인 레퍼런스"
+      },
+      "related": [
+        "색채 역사 레퍼런스 참고"
+      ],
+      "report": {
+        "tldr": "Storied Colors는 색의 역사를 담은 컬렉션이다.",
+        "what": "각 색이 어디서 처음 갈렸는지, 누구의 작업실·캔버스에서 말랐는지, 언제 금지되고 무엇이 대체했는지의 이력을 담은 색 컬렉션이다.",
+        "points": [
+          "색의 기원·이력 기록",
+          "금지·대체 역사 포함"
+        ],
+        "why": [
+          "색채에 대한 영감·교육 자료"
+        ]
+      }
+    },
+    {
+      "id": "design-better-lou",
+      "title": "A Better Lou — 인지 부하를 줄이는 디자인",
+      "summary": "임상 서비스가 아닌 사람들이 찾는 결과 중심으로 콘텐츠를 조직한 남성 헬스케어 플랫폼.",
+      "source": "TLDR Design",
+      "url": "https://tympanus.net/codrops/2026/06/16/designing-a-better-lou-reducing-cognitive-load-through-design-content-and-systems/",
+      "intel": {
+        "impact": "Low",
+        "confidence": "65%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "제품 디자인"
+      },
+      "related": [
+        "결과 중심 정보 구조 설계 검토"
+      ],
+      "report": {
+        "tldr": "A Better Lou는 결과 중심으로 콘텐츠를 조직한 헬스케어 플랫폼이다.",
+        "what": "A Better Lou는 임상 서비스·치료가 아닌 사람들이 찾는 결과를 중심으로 콘텐츠를 조직하는 원칙으로 설계됐다. 의료 클리셰와 공격적 남성 건강 미학을 모두 피하고 에디토리얼·라이프스타일·헬스케어가 섞인 정체성을 택했으며, Webflow·GSAP·Vimeo로 확장성을 고려해 구축됐다.",
+        "points": [
+          "결과 중심 콘텐츠 구조",
+          "의료 클리셰 회피",
+          "Webflow·GSAP·Vimeo",
+          "장기 확장성 설계"
+        ],
+        "why": [
+          "인지 부하를 줄이는 정보 설계 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-arrows",
+      "title": "화살표 디자인하는 법",
+      "summary": "단순해 보이는 타이포그래픽 화살표가 서체 전체를 비추는 거울 역할을 한다.",
+      "source": "TLDR Design",
+      "url": "https://pangrampangram.com/blogs/journal/arrows",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "타이포그래피"
+      },
+      "related": [
+        "타이포그래피 디테일 참고"
+      ],
+      "report": {
+        "tldr": "타이포그래픽 화살표는 서체 전체를 비추는 거울이다.",
+        "what": "타이포그래픽 화살표는 시각적으로 단순하지만 서체 전체를 비추는 거울처럼 기능한다.",
+        "points": [
+          "화살표=서체의 거울",
+          "단순하지만 핵심 디테일"
+        ],
+        "why": [
+          "작은 요소가 디자인 일관성을 드러냄"
+        ]
+      }
+    },
+    {
+      "id": "design-worldcup-fraud-ux",
+      "title": "월드컵 크립토 사기 — 베팅 시장의 팬 안전 UX 필요",
+      "summary": "2026 월드컵을 노린 가짜 티켓·승부조작 사기가 팬 안전 UX의 필요성을 부각한다.",
+      "source": "TLDR Design",
+      "url": "https://cryptodaily.co.uk/2026/06/world-cup-crypto-fraud-betting-safety-ux",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "안전 UX"
+      },
+      "related": [
+        "팬 안전·사기 방지 UX 검토"
+      ],
+      "report": {
+        "tldr": "월드컵 크립토 사기가 팬 안전 UX의 필요를 부각한다.",
+        "what": "크립토 사기꾼들이 2026 월드컵을 가짜 티켓 사이트와 '승부조작' 제안으로 악용하고 있다.",
+        "points": [
+          "가짜 티켓 사이트",
+          "승부조작 사기",
+          "팬 안전 UX 필요"
+        ],
+        "why": [
+          "대형 이벤트 노린 사기에 대한 디자인 대응"
+        ]
+      }
+    },
+    {
+      "id": "design-louise-laborie",
+      "title": "Louise Laborie의 조용한 네온 아메리카나",
+      "summary": "외로운 고속도로·교외를 수채화로 그려 일시성과 변위를 탐구하는 일러스트.",
+      "source": "TLDR Design",
+      "url": "https://www.itsnicethat.com/articles/louise-laborie-highway-61-illustration-discover-170626",
+      "intel": {
+        "impact": "Low",
+        "confidence": "55%",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "일러스트레이션"
+      },
+      "related": [
+        "일러스트레이션 영감 참고"
+      ],
+      "report": {
+        "tldr": "Louise Laborie가 수채화로 조용한 네온 아메리카나를 그린다.",
+        "what": "Louise Laborie는 외로운 고속도로·교외·환승 공간을 수채화 기반 일러스트로 그려 일시성, 변위, 상상한 꿈과 현실의 간극을 탐구한다.",
+        "points": [
+          "수채화 기반 일러스트",
+          "고속도로·교외 모티프",
+          "일시성·변위 테마"
+        ],
+        "why": [
+          "서사적 일러스트레이션의 사례"
+        ]
+      }
+    }
+  ]
+}
