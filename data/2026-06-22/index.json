@@ -21,6 +21,8 @@
   ],
   "lastUpdated": "09:24 CDT",
   "syncedAt": "09:24",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "7,500.58", "change": "▲ 1.08%" },
   "stats": {
     "companies": 156,
     "security": 22,
