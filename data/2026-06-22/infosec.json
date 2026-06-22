@@ -1,0 +1,434 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-usbliter8-a12-a13",
+      "title": "애플 A12·A13 칩, 패치 불가 BootROM 익스플로잇 'usbliter8'",
+      "summary": "USB 컨트롤러 버그를 악용한 마스크 ROM 결함으로 iPhone XS~11이 영구 취약.",
+      "url": "https://www.macrumors.com/2026/06/18/a12-and-a13-chips-facing-exploit/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Investigate",
+        "affectedSurface": "모바일 하드웨어"
+      },
+      "related": [
+        "구형 iOS 기기 물리 보안 정책 재검토",
+        "Secure Enclave 공격면 영향 평가"
+      ],
+      "report": {
+        "tldr": "Paradigm Shift가 A12·A13 칩의 패치 불가 BootROM 익스플로잇을 공개했다.",
+        "what": "'usbliter8'은 부팅 중 비정상적으로 작은 패킷을 연속 전송해 내부 하드웨어 포인터를 메모리 뒤로 이동시켜 OOB 쓰기를 유발한다. 결함이 마스크 ROM에 있어 패치가 불가능하며 iPhone XS~11이 영구 취약하다. A11은 패킷마다 포인터를 리셋해 안전하고, A14 이후는 부팅 시 메모리 보호를 올바로 구성한다. A13은 PAC 우회를 위한 다단계 과정이 필요했다.",
+        "points": [
+          "마스크 ROM 결함으로 패치 불가",
+          "USB 패킷으로 포인터 후진·OOB 쓰기",
+          "iPhone XS~11 영구 취약",
+          "재부팅 생존 핸들러 설치·미서명 코드 부팅"
+        ],
+        "why": [
+          "구형 기기 영구 취약, 물리 접근 위협 모델 재검토 필요"
+        ],
+        "action": "구형 A12/A13 기기의 분실·도난 대응 및 민감 데이터 격리 정책 점검"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-texas-3m-breach",
+      "title": "텍사스 데이터 유출 300만 명: 운전면허·여권번호 탈취",
+      "summary": "수렵·낚시 면허 시스템 벤더 침해로 약 309만 명 정보 노출.",
+      "url": "https://www.techtimes.com/articles/318790/20260621/texas-data-breach-hits-3-million-drivers-licenses-passport-numbers-stolen-hunting-vendor.htm",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Monitor",
+        "affectedSurface": "공급망·SaaS"
+      },
+      "related": [
+        "공유 SaaS 벤더 보안 실사 강화"
+      ],
+      "report": {
+        "tldr": "텍사스 수렵·낚시 면허 시스템 벤더가 침해돼 약 309만 명 정보가 유출됐다.",
+        "what": "공격자가 텍사스 공원·야생동물국의 면허 시스템을 운영하는 벤더를 침해해 운전면허번호, 여권번호, 연락처를 노출시켰다. 데이터는 버지니아 야생동물 침해와 연관된 위협 행위자가 판매 중이며, 공유 SaaS 플랫폼이 표적이 되고 있음을 시사한다.",
+        "points": [
+          "벤더 침해로 309만 명 노출",
+          "운전면허·여권번호 탈취",
+          "공유 SaaS 플랫폼 표적화"
+        ],
+        "why": [
+          "서드파티·SaaS 공급망 리스크"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-fortibleed",
+      "title": "FortiBleed: 포티넷 장비 자격증명 8.6만 건 유출",
+      "summary": "194개국 인터넷 노출 포티넷 방화벽·VPN 로그인 8.6만+ 건 탈취.",
+      "url": "https://links.tldrnewsletter.com/4a0GsV",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Investigate",
+        "affectedSurface": "네트워크·VPN"
+      },
+      "related": [
+        "포티넷 VPN 자격증명 회전·MFA 강제",
+        "SSL VPN 인증 로그 점검"
+      ],
+      "report": {
+        "tldr": "FortiBleed 캠페인이 포티넷 방화벽·VPN 로그인 8.6만 건 이상을 노출시켰다.",
+        "what": "FortiBleed는 194개국 인터넷 노출 포티넷 방화벽·VPN의 유효 로그인 8.6만 건 이상을 노출시켜 정부·핵심 인프라 포함 수천 조직에 영향을 줬다. 공격자는 SSL VPN 인증을 가로채고 45-GPU 클러스터로 해시를 크랙했으며, 32만 FortiGate 대상 약 11.6억 회 시도 후 내부 AD로 침투했다.",
+        "points": [
+          "8.6만+ 유효 자격증명 노출",
+          "SSL VPN 인증 가로채기",
+          "GPU 클러스터 해시 크랙",
+          "AD 측면 이동"
+        ],
+        "why": [
+          "대규모 자격증명 탈취·측면 이동 위협"
+        ],
+        "action": "포티넷 장비 자격증명 전수 회전, MFA·ZTNA 적용, 비정상 로그인 탐지"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-novo-nordisk",
+      "title": "노보 노디스크 침해: 유출된 GitHub 토큰이 오젬픽 처방 노출",
+      "summary": "단일 PAT로 내부 레포 클론, 약 두 달 잠복 후 700만+ 파일(~1.3TB) 유출.",
+      "url": "https://www.pentesty.co/blog/novo-nordisk-ozempic-fulcrumsec-breach-2026",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Investigate",
+        "affectedSurface": "자격증명·시크릿"
+      },
+      "related": [
+        "PAT 단기 만료·범위 축소·IP 허용목록",
+        "대량 클론·유출 패턴 경보 구축",
+        "레포 시크릿 스캔"
+      ],
+      "report": {
+        "tldr": "유출된 GitHub PAT 하나가 노보 노디스크의 대규모 데이터 탈취로 이어졌다.",
+        "what": "FulcrumSec은 3월 단일 GitHub PAT로 내부 레포를 클론하고 약 두 달간 탐지 없이 잠복한 뒤 700만+ 파일(~1.3TB)을 유출했다고 주장한다. 노보 노디스크는 6월 11일 제한적 침입을 확인하고 2,500만 달러 협박을 거부했으며, 이후 264GB 유출에는 소스코드·임상시험 기록·오젬픽 처방이 포함됐다고 한다. 탐지 신호는 수백 레포를 조용히 클론한 토큰과 대량 유출 트래픽이었으나 경보되지 않았다.",
+        "points": [
+          "단일 PAT로 내부 레포 클론",
+          "두 달 무탐지 잠복",
+          "700만+ 파일·1.3TB 유출",
+          "대량 클론·유출 미경보(OWASP A07)"
+        ],
+        "why": [
+          "PAT·배포키·CI 토큰을 베어러 자격증명으로 관리해야"
+        ],
+        "action": "PAT/CI 토큰 범위·만료 강화, 비정상 bulk-clone·아웃바운드 경보, 시크릿 스캐닝 도입"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-github-secret-scanning",
+      "title": "시크릿 스캐닝 신뢰도 향상: 대규모 오탐 감축",
+      "summary": "컨텍스트 인식 LLM 추론으로 오탐을 75.76% 감축(목표 65%).",
+      "url": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "시크릿 스캐닝"
+      },
+      "related": [
+        "시크릿 스캐닝 오탐 튜닝 검토"
+      ],
+      "report": {
+        "tldr": "GitHub가 LLM 추론을 검증 단계에 더해 시크릿 스캐닝 오탐을 75.76% 줄였다.",
+        "what": "GitHub는 파일 전체 대신 고신호 사용 컨텍스트(값이 API 요청·인증 헤더·DB 클라이언트·클라우드 SDK로 흐르는지)를 추출해 실제 노출과 플레이스홀더·테스트값·UUID를 저지연으로 구분한다. 고객 확인 오탐 수백 건 평가에서 65% 목표 대비 75.76% 감축을 달성했고 상류 탐지 로직은 그대로 두었다.",
+        "points": [
+          "컨텍스트 인식 LLM 검증",
+          "고신호 사용 맥락 추출",
+          "오탐 75.76% 감축(목표 65%)",
+          "탐지 커버리지 불변"
+        ],
+        "why": [
+          "경보 정밀도 향상으로 운영 부담 감소"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-threat-brief-credential",
+      "title": "위협 브리핑: 대규모 자격증명 공격 완화",
+      "summary": "포티넷·소포스·MSSQL 대상 스프레이·탈취 다단계 체인.",
+      "url": "https://unit42.paloaltonetworks.com/large-scale-credential-attacks/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "자격증명 공격"
+      },
+      "related": [
+        "MFA·ZTNA·점프박스 도입, 기본 자격증명 회전"
+      ],
+      "report": {
+        "tldr": "FortiBleed류 대규모 패스워드 스프레이·자격증명 탈취 캠페인 대응 가이드.",
+        "what": "FortiBleed는 인터넷 노출 포티넷·소포스·MSSQL을 노린 대규모 스프레이·탈취 캠페인으로, 스프레이→권한상승→설정 추출→오프라인 크랙이 다음 라운드를 먹이는 다단계 체인을 쓴다. Exploit.in의 IAB가 6월 16일자로 책임을 주장하며 자격증명을 판매한다(미검증).",
+        "points": [
+          "다단계 스프레이·크랙 체인",
+          "포티넷·소포스·MSSQL 표적",
+          "IAB의 자격증명 판매(미검증)"
+        ],
+        "why": [
+          "고볼륨 실패 후 성공 로그인 감사 필요"
+        ],
+        "action": "원격접속 로그 감사, MFA 강제, 관리 인터페이스 비공개화"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-vaultsort-v4",
+      "title": "VaultSort V4: 하드웨어 바운드 파일 암호화·터치ID",
+      "summary": "macOS에서 Secure Enclave 경로로 지문을 1급 키로 사용.",
+      "url": "https://www.vaultsort.com/blog/vaultsort-v4-hardware-bound-encryption-touch-id",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "암호화 도구"
+      },
+      "related": [],
+      "report": {
+        "tldr": "VaultSort V4가 파일 암호화를 하드웨어 바운드로 만들고 터치ID를 1급 키로 추가했다.",
+        "what": "V4는 하드웨어 PRF 출력에서 HKDF-SHA-256으로 파일별 래핑키를 유도하고, 256비트 파일키를 AES-256-KWP로 봉인하며 본문을 AES-256-GCM으로 암호화한다. 이는 터치가 앱 계층 게이트였던 V3 갭을 닫는다. 다만 벤더 자체 공개인 폐쇄소스 24.99달러 제품으로, 보장은 독립 검토가 아닌 자체 문서에 의존한다.",
+        "points": [
+          "Secure Enclave 기반 키 경로",
+          "HKDF·AES-KWP·AES-GCM 체인",
+          "V3 앱 계층 게이트 갭 보완",
+          "벤더 자체 공개·독립검토 부재"
+        ],
+        "why": [
+          "하드웨어 바운드 암호화의 설계와 한계"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-quantum-bridge",
+      "title": "Quantum Bridge: 양자 안전 키 분배 플랫폼",
+      "summary": "DSKE 프로토콜에 PQC·QKD를 결합한 크립토 어자일 시스템.",
+      "url": "https://qubridge.io/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "암호·PQC"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Quantum Bridge가 정부·금융·인프라·통신용 양자 안전 키 분배 플랫폼을 선보였다.",
+        "what": "Quantum Bridge는 DSKE 프로토콜에 PQC와 QKD를 결합한 크립토 어자일 시스템으로, 정부·금융·핵심 인프라·통신 고객을 위한 양자 안전 키 분배를 제공한다.",
+        "points": [
+          "DSKE+PQC+QKD 결합",
+          "크립토 어자일 설계",
+          "규제 산업 타깃"
+        ],
+        "why": [
+          "양자 대비 키 관리 옵션"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-visa-vvah",
+      "title": "Visa Vulnerability Agent Harness (VVAH)",
+      "summary": "프런티어 모델로 취약점 발견을 자동화하는 비자의 하니스.",
+      "url": "https://github.com/visa/visa-vulnerability-agentic-harness",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "취약점 관리"
+      },
+      "related": [
+        "AI 취약점 발견 하니스 도입 검토"
+      ],
+      "report": {
+        "tldr": "VVAH는 프런티어 모델을 활용한 비자의 자동 취약점 발견 하니스다.",
+        "what": "VVAH는 분석 전 위협 모델링으로 공격면을 좁히고, 멀티에이전트 결정적 투표로 오탐을 줄이며, 구조화된 트리아지 산출물로 AI 발견 약점에서 실행 가능한 결과까지 라이프사이클을 압축한다.",
+        "points": [
+          "위협 모델링 선행",
+          "멀티에이전트 결정적 투표",
+          "구조화 트리아지 산출물"
+        ],
+        "why": [
+          "AI 기반 취약점 발견 자동화 사례"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-white-house-voting",
+      "title": "백악관, 중간선거 앞두고 美 투표기 연구 공개 지연",
+      "summary": "ODNI 보고서가 투표기 보안 취약점을 기록했으나 조작 증거는 없음.",
+      "url": "https://links.tldrnewsletter.com/WLckfb",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Policy",
+        "status": "Monitor",
+        "affectedSurface": "선거 인프라"
+      },
+      "related": [],
+      "report": {
+        "tldr": "백악관이 투표기 보안 취약점을 기록한 ODNI 보고서 공개를 수개월 보류했다.",
+        "what": "보고서는 구식 소프트웨어와 인터넷 연결 등 공격 가능 보안 갭을 기록하지만 표 조작 증거나 표가 뒤집혔다는 주장은 없다. ODNI는 6개월간 발표 권한 없이 백악관에 브리핑했고, 별도 미공개 보고서도 해킹 증거를 찾지 못했다. 일부 관계자는 공개가 유권자 신뢰를 흔들 수 있다고 주장한 것으로 전해진다.",
+        "points": [
+          "투표기 보안 갭 기록",
+          "조작 증거는 없음",
+          "수개월 공개 지연",
+          "권고 개선책 미이행"
+        ],
+        "why": [
+          "선거 인프라 보안과 정책의 긴장"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-crypto-clipper",
+      "title": "MS, 암호화폐 탈취 경량 백도어 'Crypto Clipper' 발견",
+      "summary": "USB의 .lnk와 번들 Tor로 전파, 클립보드 지갑주소·시드구문 탈취.",
+      "url": "https://arstechnica.com/security/2026/06/microsoft-spots-new-self-propagating-malware-for-stealing-cryptocurrency/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Investigate",
+        "affectedSurface": "멀웨어·엔드포인트"
+      },
+      "related": [
+        "localhost:9050 프록시·주소 치환 탐지"
+      ],
+      "report": {
+        "tldr": "Crypto Clipper는 USB로 자가전파하며 클립보드의 지갑주소·시드구문을 탈취한다.",
+        "what": "Crypto Clipper는 .lnk 파일과 번들 Tor 클라이언트로 로컬 SOCKS5 프록시를 거쳐 USB로 전파된다. 클립보드에서 지갑주소와 12·24단어 시드구문을 감시해 스크린샷과 함께 Tor로 유출하고, 복사된 암호화폐 주소를 공격자 주소로 바꿔치기한다.",
+        "points": [
+          "USB·.lnk 자가전파",
+          "Tor·SOCKS5 유출 경로",
+          "클립보드 주소·시드 탈취·바꿔치기"
+        ],
+        "why": [
+          "엔드포인트·클립보드 모니터링 필요"
+        ],
+        "action": "USB 실행 정책·EDR 탐지(스크립트 인터프리터, Tor 프록시, 클립보드 치환) 점검"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-cloud-logging-evasion",
+      "title": "감시자 눈멀게 하기: 클라우드 로깅 악용한 방어 회피",
+      "summary": "공격자가 로깅 비활성화·삭제·암호화·오염으로 가시성 차단.",
+      "url": "https://unit42.paloaltonetworks.com/cloud-logging-defense-evasion/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "클라우드 보안"
+      },
+      "related": [
+        "로그 대상 변경·삭제 탐지·불변 로그 적용"
+      ],
+      "report": {
+        "tldr": "공격자가 클라우드 로깅을 표적해 방어자 가시성을 무력화하고 패시브 감시를 구축한다.",
+        "what": "클라우드에서 공격자는 로깅 비활성화, 라우터·대상 삭제, 공격자 키로 로그 암호화, 직접 수정에 의한 로그 오염으로 로깅을 무력화한다. 또 추가 로그 대상을 구성하거나 로그를 공격자 계정으로 우회시켜 패시브 가시성을 확보한다.",
+        "points": [
+          "로깅 비활성화·삭제·암호화·오염",
+          "공격자 계정으로 로그 우회",
+          "패시브 감시 구축"
+        ],
+        "why": [
+          "클라우드 로깅 무결성·이중화 점검"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-linux-strncpy",
+      "title": "리눅스, 6년 만에 strncpy API 제거 (360+ 패치)",
+      "summary": "버그 유발 strncpy()를 제거하고 안전한 대체 함수로 전환.",
+      "url": "https://www.phoronix.com/news/Linux-7.2-Drops-strncpy",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "시스템 보안"
+      },
+      "related": [],
+      "report": {
+        "tldr": "리눅스 7.2가 6년·약 362커밋 끝에 버그 유발 strncpy() API를 제거했다.",
+        "what": "리눅스 7.2는 약 362커밋의 작업 끝에 strncpy()를 제거하고, NUL 종료·패딩 요구에 따라 strscpy(), strscpy_pad(), strtomem_pad(), memcpy_and_pad(), memcpy()로 코드를 전환했다.",
+        "points": [
+          "strncpy 제거",
+          "약 362커밋·6년 작업",
+          "안전한 대체 함수 전환"
+        ],
+        "why": [
+          "메모리 안전 개선 사례"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-nginx-reverse-proxy",
+      "title": "Nginx 리버스 프록시 사용법",
+      "summary": "예제 포함 Nginx 리버스 프록시 심층 튜토리얼.",
+      "url": "https://sanyamserver.online/posts/nginx-reverse-proxy/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "인프라"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Nginx를 리버스 프록시로 쓰는 방법을 예제와 함께 다룬 튜토리얼.",
+        "what": "이해하기 쉽고 깊이 있는 Nginx 리버스 프록시 튜토리얼로, 예제가 포함돼 있다.",
+        "points": [
+          "리버스 프록시 구성",
+          "예제 기반 설명",
+          "실무 적용 예제 제공"
+        ],
+        "why": [
+          "인프라 운영 참고 자료"
+        ]
+      },
+      "source": "TLDR Information Security"
+    }
+  ]
+}

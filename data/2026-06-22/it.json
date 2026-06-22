@@ -1,0 +1,302 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "💻",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-accenture-dragos",
+      "title": "액센추어, 42억 달러에 Dragos·runZero·NetRise 인수",
+      "summary": "OT 보안 역량 확장 위해 Dragos 과반·runZero·NetRise 100% 인수.",
+      "url": "https://www.helpnetsecurity.com/2026/06/19/accenture-dragos-runzero-netrise-acquisition/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "OT 보안·M&A"
+      },
+      "related": [
+        "OT 보안 벤더 통합 동향 추적"
+      ],
+      "report": {
+        "tldr": "액센추어가 약 42억 달러 규모로 사이버보안 3사를 인수한다.",
+        "what": "액센추어는 Dragos 과반 지분과 runZero·NetRise 100%를 약 42억 달러에 인수한다. 핵심 인프라·산업 환경을 위한 종단 간 OT 보안 역량 확장이 목표이며, Dragos는 독립성을 유지하고 운영 단위로 기능한다.",
+        "points": [
+          "42억 달러 사이버보안 딜",
+          "OT 보안 역량 확장",
+          "Dragos 독립성 유지"
+        ],
+        "why": [
+          "OT·핵심 인프라 보안 시장 재편"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-free-vpn-proxy",
+      "title": "무료 VPN·스트리밍 앱이 사내망을 주거용 프록시 트래픽으로 오염",
+      "summary": "Infoblox: 클라우드 고객 65%+가 주거 프록시 도메인에 DNS 질의, 월 5천억+ 건.",
+      "url": "https://www.techradar.com/pro/security/popular-free-vpn-streaming-apps-bombard-business-networks-with-laundered-traffic-used-by-criminals-to-blend-into-normal-consumer-noise-heres-how-to-keep-safe",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "네트워크·DNS"
+      },
+      "related": [
+        "주거 프록시 도메인 DNS 탐지·차단"
+      ],
+      "report": {
+        "tldr": "무료 VPN·스트리밍 앱이 사내 기기를 프록시 인프라로 바꿔 망을 오염시킨다.",
+        "what": "Infoblox Threat Intel에 따르면 2026년 클라우드 고객의 65% 이상이 주거 프록시 도메인에 DNS 질의를 했고 월 5천억 건을 넘었다. 무료 VPN·스트리밍 앱·브라우저 확장이 직원·비관리 기기를 조용히 프록시 인프라로 바꿔 법적·평판·보안 리스크를 만든다.",
+        "points": [
+          "65%+ 고객 주거 프록시 질의",
+          "월 5천억+ DNS 질의",
+          "기기가 프록시 인프라로 전락"
+        ],
+        "why": [
+          "네트워크·DNS 탐지 필요성"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-amazon-hitl",
+      "title": "아마존은 왜 '휴먼 인 더 루프' 거버넌스를 싫어하나",
+      "summary": "반복 승인이 판단력 저하를 부른다며 에이전트 정체성·권한 기반 통제 선호.",
+      "url": "https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "AI 거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "아마존은 에이전트 시스템에서 반복 승인형 휴먼 인 더 루프가 신뢰·확장성이 없다고 본다.",
+        "what": "아마존 보안 VP는 반복 승인 결정이 판단력 저하를 부른다며 휴먼 인 더 루프가 에이전트 시스템에 부적합하다고 주장한다. 대신 에이전트 정체성에 묶인 종단 간 책임과 위험 기반 범위 권한으로 '목표 추구 행위'를 줄이는 방식을 선호한다.",
+        "points": [
+          "반복 승인의 판단력 저하",
+          "에이전트 정체성 기반 책임",
+          "위험 기반 범위 권한"
+        ],
+        "why": [
+          "에이전트 거버넌스 설계 방향"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-cisco-sse",
+      "title": "시스코 SSE 롤아웃이 보여준 제로트러스트의 실제 작업",
+      "summary": "내부 SSE 전환으로 헬프데스크 18% 감소·레거시 VPN 20+종 제거.",
+      "url": "https://blogs.cisco.com/cisco-on-cisco/engineering-resilience-lessons-from-the-front-lines-of-ciscos-sse-deployment",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "제로트러스트·SSE"
+      },
+      "related": [
+        "SSE 단계적 마이그레이션 계획 수립"
+      ],
+      "report": {
+        "tldr": "시스코가 내부 SSE 전환 교훈을 공유했다: 단계적 마이그레이션이 핵심.",
+        "what": "시스코는 단편화된 하드웨어 중심 VPN/보안을 통합 클라우드 SSE로 전환했다. 롤아웃으로 헬프데스크 케이스를 18% 줄이고 레거시 VPN 20종 이상을 제거했으며, 인증서 기반 제로트러스트 액세스를 확장하고 DLP용 GenAI 트래픽 검사를 추가했다. 교훈은 '뜯어 교체'보다 단계적 마이그레이션이라는 것.",
+        "points": [
+          "통합 클라우드 SSE 전환",
+          "헬프데스크 18%↓·VPN 20+종 제거",
+          "인증서 기반 ZTA 확장",
+          "단계적 마이그레이션 강조"
+        ],
+        "why": [
+          "제로트러스트 도입의 현실적 교훈"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-mcp-ema",
+      "title": "엔터프라이즈 관리 인가(EMA): MCP용 제로터치 OAuth",
+      "summary": "기업이 어떤 사용자가 어떤 MCP 서버에 접근할지 중앙 관리.",
+      "url": "https://blog.modelcontextprotocol.io/posts/enterprise-managed-auth/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "IT",
+        "status": "Watch",
+        "affectedSurface": "MCP·아이덴티티"
+      },
+      "related": [
+        "MCP EMA 도입 시 IdP 연동 검토"
+      ],
+      "report": {
+        "tldr": "MCP의 EMA 확장이 안정화돼 MCP 서버 접근을 중앙에서 관리할 수 있다.",
+        "what": "MCP EMA 확장이 안정화돼 조직이 사용자별 MCP 서버 접근을 중앙 관리한다. 사용자는 기업 IdP로 한 번 로그인하면 관리자가 허용한 서버에 자동 접근해 서버별 OAuth 동의를 피한다. Okta, 앤트로픽, VS Code와 Asana·Atlassian·Slack 등에서 채택되고 있다.",
+        "points": [
+          "MCP 서버 접근 중앙 관리",
+          "IdP 단일 로그인",
+          "서버별 OAuth 동의 제거",
+          "주요 IdP·클라이언트 채택"
+        ],
+        "why": [
+          "엔터프라이즈 MCP 거버넌스 진전"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-chatgpt-spend",
+      "title": "ChatGPT, 기업용 사용 분석·지출 통제 추가",
+      "summary": "관리자가 팀별 소비 추적·예산 설정, 중앙 대시보드 제공.",
+      "url": "https://links.tldrnewsletter.com/hrenZS",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "IT",
+        "status": "Watch",
+        "affectedSurface": "AI 거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "OpenAI가 ChatGPT Enterprise에 지출 통제와 사용 분석을 도입했다.",
+        "what": "OpenAI는 관리자가 AI 도입을 모니터링하고 팀별 소비를 추적하며 예산을 설정하도록 ChatGPT Enterprise에 지출 통제와 사용 분석을 추가했다. 중앙 대시보드로 가시성을 제공한다.",
+        "points": [
+          "기업용 지출 통제",
+          "팀별 소비 추적",
+          "중앙 대시보드"
+        ],
+        "why": [
+          "엔터프라이즈 AI 비용 거버넌스"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-qubot-analytics-agent",
+      "title": "사내 데이터 분석 에이전트 구축기 (Qubot)",
+      "summary": "Copilot 기반 에이전트가 자연어 질문에 수초 내 답, MCP로 Kusto·Trino 연결.",
+      "url": "https://github.blog/ai-and-ml/github-copilot/how-we-built-an-internal-data-analytics-agent/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "데이터 분석"
+      },
+      "related": [
+        "MCP 기반 사내 분석 에이전트 검토"
+      ],
+      "report": {
+        "tldr": "Qubot은 자연어 질문에 수초 내 답하는 Copilot 기반 사내 데이터 분석 에이전트다.",
+        "what": "Qubot은 직원이 평문으로 탐색 질문을 하면 수초 내 답한다. 브론즈·실버·골드로 연합된 컨텍스트 계층과, MCP 서버로 Kusto·Trino에 연결해 질문에 따라 자동 전환하는 쿼리 엔진을 쓴다. 팀은 광범위한 채택과 전담 분석 수요 감소를 보고했고, 고품질 구조화 컨텍스트가 정확도·속도를 높였다고 한다.",
+        "points": [
+          "자연어 탐색 질의",
+          "연합 컨텍스트 계층",
+          "MCP로 Kusto·Trino 자동 전환",
+          "구조화 컨텍스트가 정확도↑"
+        ],
+        "why": [
+          "사내 분석 셀프서비스 사례"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-ms-ai-beta",
+      "title": "마이크로소프트 AI 푸시, IT팀엔 베타 테스트처럼 느껴진다",
+      "summary": "Copilot이 윈도·오피스에 더 깊이 들어오며 마찰 발생.",
+      "url": "https://www.windowscentral.com/microsoft/microsofts-ai-strategy-feels-like-a-beta-test-at-the-expense-of-windows-and-office",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "IT",
+        "status": "Watch",
+        "affectedSurface": "엔드포인트·생산성"
+      },
+      "related": [],
+      "report": {
+        "tldr": "MS의 공격적 AI 전략이 윈도·오피스 전반에 마찰을 일으킨다.",
+        "what": "Copilot이 제품에 더 깊이 밀려 들어오는 가운데 핵심 사용자·관리자 우려는 미해결로 남았다. 엔터프라이즈 AI가 깔끔히 거버넌스된 롤아웃이 아니라 기본 동작으로 도착하고 있다.",
+        "points": [
+          "Copilot 강제 통합 마찰",
+          "관리자 우려 미해결",
+          "거버넌스 부재 롤아웃"
+        ],
+        "why": [
+          "엔터프라이즈 AI 도입 거버넌스 필요"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-lightfield-crm",
+      "title": "Lightfield, 무대 위에서 작동하는 CRM을 즉석 조립",
+      "summary": "AI 네이티브 CRM이 실데이터로 레코드 조립·정체된 딜 진단·자동화 코드화.",
+      "url": "https://www.saastr.com/lightfield-just-assembled-a-working-crm-live-on-stage-then-unstuck-a-stalled-deal-in-3-minutes/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "업무 자동화"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Lightfield가 실데이터로 CRM을 즉석 조립하고 정체된 딜을 3분 만에 풀었다.",
+        "what": "Lightfield 창업자는 실데이터로 종단 간 CRM 데모를 선보여, AI 네이티브 CRM이 레코드를 조립하고 정체된 딜을 진단한 뒤 그 해법을 자동화로 코드화하는 모습을 보여줬다.",
+        "points": [
+          "AI 네이티브 CRM 라이브 데모",
+          "레코드 조립·딜 진단",
+          "해법의 자동화 코드화"
+        ],
+        "why": [
+          "AI 네이티브 업무 도구 사례"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-samsung-chatgpt",
+      "title": "삼성, 전사에 ChatGPT·Codex 배포",
+      "summary": "한국 전 직원과 전 세계 DX 직원에 ChatGPT Enterprise·Codex 배포.",
+      "url": "https://links.tldrnewsletter.com/PrbXch",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "IT",
+        "status": "Watch",
+        "affectedSurface": "엔터프라이즈 AI"
+      },
+      "related": [],
+      "report": {
+        "tldr": "삼성전자가 ChatGPT Enterprise·Codex를 대규모로 배포한다.",
+        "what": "삼성전자는 한국 전 직원과 전 세계 Device eXperience 직원에게 ChatGPT Enterprise와 Codex를 배포해 OpenAI 최대 규모 기업 배포 중 하나가 됐다.",
+        "points": [
+          "전사 ChatGPT·Codex 배포",
+          "OpenAI 최대급 기업 배포",
+          "대규모 라이선스 배포"
+        ],
+        "why": [
+          "대기업 AI 전면 도입 신호"
+        ]
+      },
+      "source": "TLDR IT"
+    }
+  ]
+}

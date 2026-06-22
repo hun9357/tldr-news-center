@@ -1,0 +1,358 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-polymarket-offshore",
+      "title": "폴리마켓, 해외 클리퍼·가짜 사이트로 美 홍보",
+      "summary": "WSJ 조사: CFTC 금지 우회 위해 해외 크리에이터에 비용 지급·미러 사이트 구축.",
+      "url": "https://threadreaderapp.com/thread/2068507004222464327.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "Monitor",
+        "affectedSurface": "예측시장·규제"
+      },
+      "related": [],
+      "report": {
+        "tldr": "WSJ 조사 결과 폴리마켓이 CFTC 금지를 우회해 美 시장을 겨냥해 홍보했다.",
+        "what": "폴리마켓은 美 트레이더 금지를 우회하려 해외 콘텐츠 크리에이터에 비용을 지급해 자사 예측시장을 홍보했다. 플랫폼을 복제한 미러 사이트를 만들고 크리에이터가 가짜 사이트에서 수익을 시뮬레이션하게 했으며, 스트리머 Adin Ross는 美 겨냥 홍보로 수백만 달러를 받았다. 이는 CFTC 집행과 플랫폼 제한 위험에 노출시킨다.",
+        "points": [
+          "CFTC 금지 우회 홍보",
+          "미러 사이트·가짜 수익 연출",
+          "해외 크리에이터 비용 지급",
+          "CFTC 집행 리스크"
+        ],
+        "why": [
+          "예측시장 규제 리스크 부각"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-mev-bot-15m",
+      "title": "MEV 봇, 가짜 토큰 경로 공격으로 1,500만 달러 탈취",
+      "summary": "위조 토큰 컨트랙트로 봇이 실제 WETH 승인을 하도록 유도.",
+      "url": "https://threadreaderapp.com/thread/2068459102741909968.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Investigate",
+        "affectedSurface": "DeFi·MEV"
+      },
+      "related": [
+        "MEV 봇 라우트 토큰 진위 검증 로직 강화"
+      ],
+      "report": {
+        "tldr": "MEV 봇 jaredfromsubway이 가짜 토큰 경로 공격으로 1,500만 달러 넘게 털렸다.",
+        "what": "공격자는 위조 토큰(가짜 fWETH·fCAP)을 배포·민팅해 거래쌍에 라우팅하고, 봇이 정식 WETH 컨트랙트의 실제 WETH를 가짜 래퍼 주소에 승인하도록 유도했다. MEV 봇은 경로 수익성·실행 수학·프런트런 저항은 검증하지만 토큰 진위는 인증하지 않는 맹점을 노렸다. 공격 특이성은 봇 로직을 사전 분석했음을 시사한다.",
+        "points": [
+          "위조 토큰 경로 공격",
+          "실제 WETH 승인 유도",
+          "토큰 진위 미검증 맹점",
+          "새로운 MEV 공격 클래스"
+        ],
+        "why": [
+          "MEV 인프라 가정 자체를 노린 신종 공격"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-aave-v4-securities",
+      "title": "Aave V4 위에 증권금융 재구축",
+      "summary": "일 12.6조 달러 레포 등 거대 증권금융이 온체인 발판을 마련할 가능성.",
+      "url": "https://links.tldrnewsletter.com/fGLcw1",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "65%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "DeFi·RWA"
+      },
+      "related": [
+        "RWA·온체인 증권금융 동향 추적"
+      ],
+      "report": {
+        "tldr": "Aave V4의 허브-스포크 구조가 다조 달러 증권금융을 온체인으로 옮길 수 있다는 분석.",
+        "what": "일 12.6조 달러 레포, 1.3조 달러 마진 대출, 4.6조 달러 증권대여(2025년 150억 달러 매출)의 증권금융은 아직 의미 있는 온체인 발판이 없다. V4의 공유 유동성과 모듈형 시장 분리 구조는 증권금융 세분화에 들어맞아 중개 계층을 대체할 수 있다. Aave는 약 230억 달러 유동성을 확보했고 Horizon은 RWA 담보 대출에 5억 달러를 넘겼다.",
+        "points": [
+          "허브-스포크 유동성 구조",
+          "증권금융 세분화에 매핑",
+          "중개 계층 대체 잠재력",
+          "RWA 담보 대출 5억 달러+"
+        ],
+        "why": [
+          "다조 달러 시장의 온체인 이전 가능성"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-morpho-zama-fhe",
+      "title": "Morpho, Zama FHE로 기밀 대출 출시",
+      "summary": "완전동형암호로 잔액·활동을 암호화하면서 컴포저빌리티 유지.",
+      "url": "https://links.tldrnewsletter.com/yFwuIE",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "DeFi·기밀성"
+      },
+      "related": [
+        "기관용 기밀 DeFi 동향 점검"
+      ],
+      "report": {
+        "tldr": "Morpho와 Zama가 FHE로 기밀 대출을 출시해 기관 자본을 겨냥한다.",
+        "what": "온체인 투명성은 예치 규모·타이밍·상대방·청산 활동을 실시간 노출해 전략 비공개가 필요한 기관·마켓메이커를 막는다. Morpho와 Zama는 완전동형암호(FHE)로 잔액·활동을 암호화하면서 DeFi 컴포저빌리티를 유지한다. Steakhouse가 초기 Zama 통합의 USDC Prime 볼트를 큐레이션해 첫 기관용 기밀 대출 경로를 만든다.",
+        "points": [
+          "FHE로 잔액·활동 암호화",
+          "컴포저빌리티 유지",
+          "격리 시장+큐레이션 볼트",
+          "기관 자본 타깃"
+        ],
+        "why": [
+          "기관 DeFi 채택 장벽 완화 시도"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-jpmorgan-canton",
+      "title": "JPMorgan은 Canton에서 무엇을 하나?",
+      "summary": "예금 토큰 JPMD를 Canton 네트워크에 단계적 네이티브 발행.",
+      "url": "https://links.tldrnewsletter.com/MnaO6l",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "기관 토큰화"
+      },
+      "related": [],
+      "report": {
+        "tldr": "JPMorgan이 예금 토큰 JPMD를 Canton 네트워크에 단계적으로 네이티브 발행한다.",
+        "what": "JPMorgan의 Kinexys(전 Onyx)는 기관용 예금 토큰 JPMD를 2026년 단계적으로 Canton에 네이티브 발행한다. Canton은 거래 단위 프라이버시를 갖춘 규제기관용 퍼블릭·퍼미션리스 L1이다. JPMD는 JPMorgan Chase 실제 USD 예금을 나타내는 토큰으로 USDC·테더 같은 비은행 스테이블코인과 구조가 다르다. Canton 토큰(CC)은 6월 중순 기준 약 0.16달러·시총 약 63억 달러로 코인마켓캡 14위권이다.",
+        "points": [
+          "JPMD 예금 토큰 네이티브 발행",
+          "Canton의 거래 단위 프라이버시",
+          "은행 예금 보호 적용",
+          "CC 시총 약 63억 달러"
+        ],
+        "why": [
+          "기관 토큰화 예금의 진전"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-onchain-compliance",
+      "title": "온체인 결제가 확장하려면 컴플라이언스가 필요",
+      "summary": "맥킨지 추정 연 3,900억 달러 스테이블코인 결제, 은행 참여엔 제재 스크리닝 필요.",
+      "url": "https://links.tldrnewsletter.com/YM5Zh4",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Compliance",
+        "status": "Watch",
+        "affectedSurface": "스테이블코인·규제"
+      },
+      "related": [],
+      "report": {
+        "tldr": "스테이블코인 결제 확장은 프로토콜 수준 컴플라이언스 없이는 은행 참여가 어렵다.",
+        "what": "맥킨지는 지난 1년 3,900억 달러 스테이블코인 결제를 추정하지만, 은행은 OFAC·EU·UN 제재 스크리닝, 자금세탁 모니터링, SAR 제출 없이는 합류할 수 없다. 프로토콜 수준 도구가 KYC 주소 허용목록과 제재 주소 차단으로 스크리닝·차단을 다루며 Tempo가 사례로 꼽힌다. 다만 동결 권한 갭(은행은 중지는 가능하나 회수는 발행사 필요)이 채택을 막는다.",
+        "points": [
+          "연 3,900억 달러 결제 규모",
+          "제재 스크리닝·SAR 필요",
+          "허용·차단목록 도구",
+          "동결 권한 갭 미해결"
+        ],
+        "why": [
+          "스테이블코인 은행 채택의 규제 병목"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-ethereum-decentralization",
+      "title": "이더리움의 탈중앙화가 결정적 강점",
+      "summary": "EF가 신뢰 중립성 보호에 독보적이며 추가 중립 조직 등장 전망.",
+      "url": "https://threadreaderapp.com/thread/2068470353429397857.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "L1 거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "이더리움의 신뢰 중립성을 EF가 보호하며, 추가 중립 조직이 곧 등장한다는 시각.",
+        "what": "이더리움은 유일하게 신뢰 가능한 중립적 글로벌 조정·정산 플랫폼이며 EF가 그 속성을 지키도록 구성됐다는 주장이다. EF 외에도 자금력 있는 중립 조직들이 메인넷·L2·프라이빗 이더리움 성장을 지원하며 ETH가 세 계층을 흐를 것이라 본다. 현 거버넌스 재편 논쟁은 약화가 아니라 더 큰 생태계의 전조라는 관점.",
+        "points": [
+          "신뢰 중립성 강조",
+          "추가 중립 조직 등장 전망",
+          "거버넌스 재편을 긍정 해석"
+        ],
+        "why": [
+          "이더리움 거버넌스 논쟁의 한 관점"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-secret-axelar",
+      "title": "시크릿 네트워크 Axelar 브리지, 467만 달러 탈취",
+      "summary": "2023년부터 존재한 ICS-20 검증 누락 결함을 위조 IBC 패킷으로 악용.",
+      "url": "https://links.tldrnewsletter.com/IiBNZw",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security",
+        "status": "Investigate",
+        "affectedSurface": "브리지·IBC"
+      },
+      "related": [],
+      "report": {
+        "tldr": "시크릿 네트워크 ICS-20 검증 누락 결함으로 브리지가 467만 달러 털렸다.",
+        "what": "공격자는 2023년 3월 배포 이후 존재하고 2026년 3월 마이그레이션에도 보존된 검증 누락 결함을 악용했다. 가짜 코스모스 체인을 띄워 시크릿으로 IBC 채널을 열고 위조 패킷을 자가 릴레이해 미담보 토큰을 민팅, 에스크로의 실자산을 빼냈다. 6월 10일 발생해 빈 에스크로로 인한 전송 실패 전까지 7일간 미탐지됐다.",
+        "points": [
+          "ICS-20 검증 누락 결함",
+          "가짜 체인·위조 IBC 패킷",
+          "미담보 토큰 민팅·에스크로 탈취",
+          "7일간 미탐지"
+        ],
+        "why": [
+          "크로스체인 브리지 검증의 취약성"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-ef-restructuring",
+      "title": "이더리움 재단 재편, 장기적으로 ETH에 긍정",
+      "summary": "EF의 진행 중인 변화가 장기적으로 ETH에 건설적이라는 평가.",
+      "url": "https://threadreaderapp.com/thread/2068356416734142957.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "L1 거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "EF의 진행 중인 변화가 장기적으로 ETH에 건설적이라는 의견.",
+        "what": "이더리움 재단의 진행 중인 재편이 장기적으로 ETH에 건설적이라는 시각이다.",
+        "points": [
+          "EF 재편의 장기 긍정 평가",
+          "재단 변화에 대한 시장 우려",
+          "장기 펀더멘털 관점"
+        ],
+        "why": [
+          "거버넌스 변화의 시장 해석"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-andre-cronje-sonic",
+      "title": "안드레 크론제 등 3인, 소닉랩스 이사회 사임",
+      "summary": "크론제·콩·리처드슨이 한꺼번에 소닉랩스 이사직에서 물러남.",
+      "url": "https://links.tldrnewsletter.com/YOViOi",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "안드레 크론제와 두 공동창업자가 소닉랩스 이사회에서 동시 사임했다.",
+        "what": "안드레 크론제, 마이클 콩, 데이비드 리처드슨이 소닉랩스 이사회에서 한꺼번에 물러났다.",
+        "points": [
+          "창업자 3인 동시 사임",
+          "소닉랩스 거버넌스 변화",
+          "프로젝트 방향성 불확실"
+        ],
+        "why": [
+          "프로젝트 거버넌스 변동 신호"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-msusd-drop",
+      "title": "MSUSD, 준비금 증명 제공자 계약 종료로 85% 급락",
+      "summary": "Accountable이 검증 계약을 종료하며 MSUSD가 최대 85% 하락.",
+      "url": "https://threadreaderapp.com/thread/2068478264767901741.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Strategy",
+        "status": "Monitor",
+        "affectedSurface": "스테이블코인"
+      },
+      "related": [],
+      "report": {
+        "tldr": "MainStreet Finance 연계 MSUSD가 검증 계약 종료로 최대 85% 급락했다.",
+        "what": "MainStreet Finance에 연계된 토큰 MSUSD가 Accountable이 프로토콜과의 검증 계약을 종료한 뒤 최대 85% 하락했다.",
+        "points": [
+          "준비금 증명 계약 종료",
+          "MSUSD 최대 85% 급락",
+          "검증 신뢰가 페그를 좌우"
+        ],
+        "why": [
+          "스테이블코인 준비금 신뢰 리스크"
+        ]
+      },
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-aerodrome-no-raise",
+      "title": "Aerodrome, 토큰 모금·판매를 한 적 없다",
+      "summary": "펀드레이즈·토큰 판매·팀 유동 베스팅 없이 공정한 출발.",
+      "url": "https://threadreaderapp.com/thread/2068426942504710508.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "토크노믹스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Aerodrome는 펀드레이즈·토큰 판매·팀 유동 베스팅 없이 시작했다.",
+        "what": "Aerodrome는 펀드레이즈를 하지 않았고 토큰을 판 적도, 팀에 청산 가능한 베스팅 AERO를 준 적도 없어 코인베이스·윈터뮤트·리테일 간 첫날부터 공정한 운동장을 만들었다.",
+        "points": [
+          "무모금·무판매 출발",
+          "팀 유동 베스팅 없음",
+          "공정한 분배 구조"
+        ],
+        "why": [
+          "토큰 분배 공정성 관점"
+        ]
+      },
+      "source": "TLDR Crypto"
+    }
+  ]
+}

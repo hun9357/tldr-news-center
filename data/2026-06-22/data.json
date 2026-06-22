@@ -1,0 +1,410 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "🧱",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-lyft-metric-layer",
+      "title": "메트릭 시맨틱 레이어: Lyft의 핵심 데이터 정의 거버넌스",
+      "summary": "정의 드리프트를 막는 '골든 메트릭'·이중 오너십·버전 관리.",
+      "url": "https://eng.lyft.com/metric-semantic-layer-how-lyft-governs-and-scales-key-data-definitions-56bee3643c29",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "메트릭 거버넌스"
+      },
+      "related": [
+        "시맨틱 레이어·골든 메트릭 도입 검토"
+      ],
+      "report": {
+        "tldr": "Lyft가 메트릭 정의 드리프트를 막는 메트릭 시맨틱 레이어를 구축했다.",
+        "what": "Lyft는 팀 간 일관된 비즈니스 로직을 위해 메트릭 시맨틱 레이어를 만들었다. '골든 메트릭', 이중 오너십(비즈니스+운영), 버전 관리 업데이트로 거버넌스를 강제하고, Python API·셀프서비스 UI·Amundsen 카탈로그·AI 에이전트로 접근해 변경을 자동 전파하는 단일 진실 원천을 제공한다.",
+        "points": [
+          "메트릭 정의 드리프트 해결",
+          "골든 메트릭·이중 오너십",
+          "버전 관리·자동 전파",
+          "다중 접근 경로"
+        ],
+        "why": [
+          "메트릭 거버넌스의 실전 아키텍처"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-openai-kepler",
+      "title": "OpenAI의 데이터 이해 AI 에이전트 (Kepler)",
+      "summary": "text-to-SQL을 넘어 600PB+를 다루는 컨텍스트 풍부 분석가.",
+      "url": "https://www.infoq.com/presentations/data-aware-ai-agents/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "분석 에이전트"
+      },
+      "related": [
+        "컨텍스트·메모리 기반 분석 에이전트 검토"
+      ],
+      "report": {
+        "tldr": "OpenAI의 Kepler가 600PB+ 데이터를 다루는 컨텍스트 풍부 분석 에이전트로 진화했다.",
+        "what": "Kepler는 text-to-SQL을 넘어 600PB 이상을 다루는 컨텍스트 풍부 분석가가 됐다. 매일 Codex 작업이 코드를 크롤해 그레인·리니지·신선도·사용·숨은 시맨틱을 추론하고, 사용자·팀·전역 수준 스코프 메모리가 수정을 포착하며 AST 정규화 LLM 채점이 SQL·결과 동등성을 검사한다.",
+        "points": [
+          "600PB+ 컨텍스트 분석",
+          "코드 크롤로 시맨틱 추론",
+          "스코프 메모리·AST 채점"
+        ],
+        "why": [
+          "대규모 데이터 분석 에이전트 사례"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-doordash-wail",
+      "title": "Write-Ahead Intent Log: 대규모 효율적 CDC 기반",
+      "summary": "Debezium 한계 후 DoorDash가 WAIL로 변경 의도를 Kafka·DB에 기록.",
+      "url": "https://www.infoq.com/presentations/write-ahead-intent-log/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "CDC·파이프라인"
+      },
+      "related": [
+        "CDC 한계 시 의도 로그 패턴 검토"
+      ],
+      "report": {
+        "tldr": "DoorDash가 취약한 CDC 파이프라인을 WAIL로 교체해 복구·확장을 개선했다.",
+        "what": "Debezium이 Cassandra 스케일 한계에 부딪힌 뒤 DoorDash는 WAIL로 전환했다. WAIL은 변경 의도를 Kafka와 DB에 기록하고, 스마트 컨슈머가 상태를 검증·스키마 규칙을 적용해 이벤트를 발행하여 복구와 확장을 개선한다.",
+        "points": [
+          "취약 CDC 파이프라인 교체",
+          "변경 의도 로깅",
+          "스마트 컨슈머 검증·발행"
+        ],
+        "why": [
+          "대규모 CDC 아키텍처 패턴"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-zepto-clickhouse",
+      "title": "ClickHouse 대규모 적재: Zepto 엔지니어링 이야기",
+      "summary": "Kafka Connect 커넥터 최적화로 처리량 45% 향상·GC 정지 제거.",
+      "url": "https://blog.zepto.com/clickhouse-ingestion-at-scale-an-open-source-zepto-engineering-story-7f57309e2175",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "데이터 적재"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Zepto가 Kafka Connect 커넥터를 최적화해 ClickHouse 적재 처리량을 45% 높였다.",
+        "what": "Zepto는 오픈소스 Kafka Connect 커넥터를 최적화해 고스케일 ClickHouse 적재를 개선했다. 핵심 내부를 다시 작성해 처리량을 45% 높이고 심각한 GC 정지를 제거했으며, 스마트 배칭을 더하고 두 가지 주요 수정을 업스트림에 기여했다.",
+        "points": [
+          "커넥터 내부 재작성",
+          "처리량 45%↑·GC 정지 제거",
+          "스마트 배칭·업스트림 기여"
+        ],
+        "why": [
+          "고스케일 적재 최적화 사례"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-databricks-summit",
+      "title": "Databricks Data + AI Summit 2026 리뷰",
+      "summary": "Lakehouse//RT와 LTAP로 데이터 아키텍처 단순화 지향.",
+      "url": "https://dataengineeringcentral.substack.com/p/review-of-databricks-data-ai-summit",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "레이크하우스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Databricks의 2026 발표는 데이터 아키텍처 단순화에 초점을 맞춘다.",
+        "what": "Databricks의 2026 주요 발표는 아키텍처 단순화다. Lakehouse//RT는 레이크하우스에서 실시간 앱·대시보드를 직접 서빙하려 하고, LTAP는 별도 DB·CDC·ETL·서빙 계층에 의존하지 않고 거버넌스된 단일 데이터 사본에서 트랜잭션·분석 워크로드를 통합하려 한다.",
+        "points": [
+          "Lakehouse//RT 실시간 서빙",
+          "LTAP 트랜잭션·분석 통합",
+          "아키텍처 단순화"
+        ],
+        "why": [
+          "레이크하우스 진화 방향"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-duckdb-agent",
+      "title": "DuckDB의 에이전트 모멘트",
+      "summary": "로컬-퍼스트 단일 노드 설계가 격리 환경을 띄우는 에이전트에 적합.",
+      "url": "https://roundup.getdbt.com/p/duckdbs-agent-moment-jordan-tigani",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "65%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "분석 DB"
+      },
+      "related": [],
+      "report": {
+        "tldr": "MotherDuck은 DuckDB의 로컬-퍼스트 설계가 에이전트 워크로드에 맞는다고 본다.",
+        "what": "MotherDuck은 DuckDB의 로컬-퍼스트 단일 노드 설계가 격리 환경을 띄우고 워크로드를 분기하며 분석 쿼리를 돌리는 에이전트에 적합하다고 주장한다. 약 3ms 중앙 지연을 보고하고 시간당 2.40달러 인스턴스가 ClickBench에서 64달러 Snowflake 2XL을 약 5배 능가한다고 한다. 비전은 프로파일링·품질 평가·컨텍스트·이상·리니지를 다루는 에이전트 군집이다.",
+        "points": [
+          "로컬-퍼스트 단일 노드",
+          "약 3ms 지연·비용 우위 주장",
+          "에이전트 군집 비전"
+        ],
+        "why": [
+          "에이전트 시대 분석 DB 포지셔닝"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-self-healing-barriers",
+      "title": "데이터팀과 자가치유 아키텍처 사이 7가지 장벽",
+      "summary": "컨텍스트·거버넌스·상호운용성이 여전히 어렵다.",
+      "url": "https://dataopsleadership.substack.com/p/7-crucial-barriers-between-data-teams",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "데이터 운영"
+      },
+      "related": [],
+      "report": {
+        "tldr": "자가치유 파이프라인은 유망하나 컨텍스트·거버넌스·상호운용성이 난제로 남는다.",
+        "what": "Genie Ops는 자가치유 파이프라인을 가리키지만 컨텍스트·거버넌스·상호운용성은 여전히 어렵다. 팀은 더 명확한 자격증명 관리, 이벤트 오케스트레이션, 에이전트 통제, 클로닝·롤백·샌드박스 편집 같은 '데이터용 git' 패턴이 필요하다. 표준이 없으면 혼란스러워진다.",
+        "points": [
+          "컨텍스트·거버넌스 난제",
+          "에이전트 통제 필요",
+          "'데이터용 git' 패턴"
+        ],
+        "why": [
+          "자가치유 데이터 운영의 현실"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-duckdb-154",
+      "title": "DuckDB 1.5.4 출시",
+      "summary": "버그 수정·보안 강화·성능 개선에 집중한 패치 릴리스.",
+      "url": "https://duckdb.org/2026/06/17/announcing-duckdb-154",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "분석 DB"
+      },
+      "related": [],
+      "report": {
+        "tldr": "DuckDB 1.5.4는 버그 수정·보안 강화·성능 개선에 집중한 패치 릴리스다.",
+        "what": "DuckDB 1.5.4는 VARIANT 처리, MERGE INTO, JSON, Parquet, Arrow, gzip, CLI 동작 등 여러 영역의 버그 수정·보안 강화·성능 개선에 집중한 패치 릴리스다.",
+        "points": [
+          "패치 릴리스",
+          "버그 수정·보안 강화",
+          "다영역 성능 개선"
+        ],
+        "why": [
+          "DuckDB 유지보수 업데이트"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-data-juicer",
+      "title": "Data-Juicer: 파운데이션 모델 시대의 데이터 OS",
+      "summary": "200+ 합성 가능한 데이터 큐레이션 연산자, Ray 네이티브.",
+      "url": "https://datajuicer.github.io/data-juicer/en/main/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "데이터 큐레이션"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Data-Juicer는 200+ 큐레이션 연산자를 제공하는 Ray 네이티브 데이터 프레임워크다.",
+        "what": "Ray 네이티브 프레임워크가 텍스트·이미지·오디오·비디오·멀티모달 학습 데이터를 정제·중복제거·합성·분석하는 200개 이상 합성 가능 연산자를 제공한다. 팀은 재사용 파이프라인을 YAML 레시피로 정의하고 연산자를 조합해 로컬에서 대규모 분산 클러스터까지 확장한다.",
+        "points": [
+          "200+ 큐레이션 연산자",
+          "멀티모달 데이터 처리",
+          "YAML 레시피·분산 확장"
+        ],
+        "why": [
+          "학습 데이터 큐레이션 도구"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-aws-context",
+      "title": "AWS, 에이전트에서 학습하는 컨텍스트 그래프로 경쟁 합류",
+      "summary": "AWS Context·S3 Annotations·Glue 스킬 자산으로 지식 그래프 구축.",
+      "url": "https://venturebeat.com/data/aws-enters-the-context-layer-race-with-a-graph-that-learns-from-agents-not-manual-curation",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "컨텍스트 레이어"
+      },
+      "related": [
+        "AWS 컨텍스트 스택 동향 추적"
+      ],
+      "report": {
+        "tldr": "AWS가 수동 큐레이션이 아닌 에이전트에서 학습하는 컨텍스트 스택을 발표했다.",
+        "what": "AWS는 AI 에이전트용 컨텍스트 스택(AWS Context, S3 Annotations, Glue 데이터 카탈로그 스킬 자산)을 발표했다. AWS Context는 기업 데이터·규칙·도메인 지식으로 지식 그래프를 구축·개선하며 IAM·Lake Formation 접근 제어를 적용한다. 메타데이터는 S3 Tables의 Iceberg에 두고 Athena·Redshift·Spark·MCP 도구로 노출된다.",
+        "points": [
+          "에이전트 학습 컨텍스트 그래프",
+          "IAM·Lake Formation 제어",
+          "Iceberg·MCP 노출"
+        ],
+        "why": [
+          "컨텍스트 레이어 경쟁 가속"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-dq-traffic-lights",
+      "title": "데이터 품질 신호등",
+      "summary": "Nordnet의 Looker 실시간 데이터 품질 헬스 배지(녹·황·적).",
+      "url": "https://robertsahlin.substack.com/p/data-quality-traffic-lights",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "데이터 품질"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Nordnet이 Looker에 실시간 데이터 품질 헬스 배지를 추가했다.",
+        "what": "Nordnet은 Looker에 녹·황·적 신뢰 신호를 보이는 실시간 데이터 품질 헬스 배지를 더했다. dbt 실패, 조용한 충돌, 신선도 문제, 볼륨 이상을 잡아내고 반복 경보를 통합하며, dbt와 Looker 리니지로 영향 범위를 보여준다.",
+        "points": [
+          "실시간 품질 헬스 배지",
+          "dbt 실패·신선도·이상 탐지",
+          "리니지로 영향 범위 표시"
+        ],
+        "why": [
+          "대시보드 신뢰 신호 사례"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-clickhouse-10yr",
+      "title": "ClickHouse 오픈소스 10년",
+      "summary": "내부 웹 분석 실험에서 주요 오픈소스 분석 DB로 성장.",
+      "url": "https://clickhouse.com/blog/open-source-10",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "데이터베이스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "ClickHouse가 오픈소스 10년을 맞아 성장 여정을 돌아본다.",
+        "what": "ClickHouse는 오픈소스화 10년을 맞아, 내부 웹 분석 실험에서 실시간·고볼륨 워크로드와 오픈 기여를 위해 처음부터 만들어진 주요 오픈소스 분석 DB로 성장한 과정을 돌아본다.",
+        "points": [
+          "10년 회고",
+          "웹 분석 실험서 출발",
+          "실시간·고볼륨 설계"
+        ],
+        "why": [
+          "오픈소스 분석 DB 성장사"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-dbt-structure",
+      "title": "AI 친화 dbt 프로젝트 구조",
+      "summary": "레포가 작동 방식·컨벤션·도구를 설명하면 AI가 더 잘 작동.",
+      "url": "https://www.linkedin.com/posts/oleg-agapov_heres-my-ai-enabled-dbt-project-structure-share-7473967204418338816-aZuf/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "dbt·AI"
+      },
+      "related": [],
+      "report": {
+        "tldr": "레포가 프로젝트 작동 방식·컨벤션을 설명하면 dbt에서 AI가 더 잘 작동한다.",
+        "what": "dbt 프로젝트에서 AI는 레포가 프로젝트 작동 방식, 따라야 할 컨벤션, 사용할 도구를 설명할 때 더 잘 작동한다.",
+        "points": [
+          "프로젝트 맥락 명문화",
+          "컨벤션·도구 설명",
+          "AI 작동 향상"
+        ],
+        "why": [
+          "AI 친화 레포 구조화"
+        ]
+      },
+      "source": "TLDR Data"
+    },
+    {
+      "id": "data-analytics-engineer-2026",
+      "title": "2026년 애널리틱스 엔지니어: 시스템 설계자·거버넌스 오너·AI 컨텍스트 제공자",
+      "summary": "AI가 SQL·테스트·dbt 스캐폴딩을 자동화하며 역할이 이동.",
+      "url": "https://www.getdbt.com/blog/the-analytics-engineer-in-2026-system-designer-governance-owner-ai-context-provider",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Data",
+        "status": "Watch",
+        "affectedSurface": "데이터 직무"
+      },
+      "related": [],
+      "report": {
+        "tldr": "애널리틱스 엔지니어 역할이 모델 생산에서 시스템 설계·거버넌스·AI 컨텍스트로 이동한다.",
+        "what": "2026년 애널리틱스 엔지니어링은 모델 생산에서 시스템 설계, 거버넌스, AI 컨텍스트 엔지니어링으로 이동한다. AI가 SQL·테스트·dbt 스캐폴딩의 상당 부분을 자동화하며, 이미 엔지니어의 72%가 AI 보조 코딩을 쓴다.",
+        "points": [
+          "역할의 시스템 설계 이동",
+          "거버넌스·AI 컨텍스트 중심",
+          "72% AI 보조 코딩"
+        ],
+        "why": [
+          "데이터 직무의 AI 시대 재정의"
+        ]
+      },
+      "source": "TLDR Data"
+    }
+  ]
+}

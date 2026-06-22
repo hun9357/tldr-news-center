@@ -1,0 +1,346 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "🏦",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-kalshi-ipo",
+      "title": "칼시, 투자은행과 조기 IPO 논의",
+      "summary": "연환산 매출 20억 달러 돌파·5월 10억 달러 조달 후 비공식 IPO 논의 시작.",
+      "url": "https://links.tldrnewsletter.com/gaqW7D",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Monitor",
+        "affectedSurface": "예측시장·IPO"
+      },
+      "related": [],
+      "report": {
+        "tldr": "예측시장 칼시가 투자은행과 비공식 IPO 논의를 시작했다.",
+        "what": "칼시는 연환산 매출 20억 달러를 넘기고 5월 220억 달러 밸류로 10억 달러를 조달한 뒤 비공식 IPO 논의를 시작했다. 5월 거래량 168억 달러로 빠르게 확장 중이나, 스포츠·카지노형 예측 계약이 불법 도박인지에 대한 주·게이밍 단체의 감시가 커지고 있다.",
+        "points": [
+          "연환산 매출 20억 달러+",
+          "220억 밸류·10억 달러 조달",
+          "5월 거래량 168억 달러",
+          "규제·도박 논란"
+        ],
+        "why": [
+          "예측시장의 제도권 진입과 규제 리스크"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-robinhood-cuts",
+      "title": "로빈후드, 직원 약 300명 감원",
+      "summary": "기록적 거래에도 10% 감원으로 약 295명 정리.",
+      "url": "https://www.bankingdive.com/news/robinhood-300-employees-workforce-cut-reduction-tenev-10-percent/823035/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "핀테크·인력"
+      },
+      "related": [],
+      "report": {
+        "tldr": "로빈후드가 기록적 거래에도 인력 10%(약 295명)를 감원한다.",
+        "what": "로빈후드는 주식·옵션·예측시장 전반의 기록적 거래에도 더 슬림한 구조를 위해 인력을 10% 줄여 약 295개 직책을 없앤다.",
+        "points": [
+          "10% 감원·약 295명",
+          "기록적 거래 와중 감원",
+          "슬림 구조 지향"
+        ],
+        "why": [
+          "성장기 비용 효율화 신호"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-orbital-insurance",
+      "title": "우주 스타트업, 궤도 AI 데이터센터 보험 모색",
+      "summary": "보험으로 부채 금융 확보 추진, 우주 AI 하드웨어 리스크 모델링 과제.",
+      "url": "https://www.insurancejournal.com/news/international/2026/06/19/874489.htm",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "우주·인프라 금융"
+      },
+      "related": [],
+      "report": {
+        "tldr": "궤도 AI 데이터센터 기업들이 자금조달을 위해 보험사와 논의를 시작했다.",
+        "what": "궤도에 AI 데이터센터를 개발하는 기업들이 보험사와 논의에 들어갔다. 보험은 Orbital·Starcloud·Lonestar·Cowboy Space 같은 스타트업이 값비싼 우주 인프라용 부채 금융을 확보하는 데 도움을 주며, 업계는 우주에서 운용되는 AI 하드웨어 리스크 모델링을 풀어가는 중이다.",
+        "points": [
+          "궤도 데이터센터 보험 논의",
+          "부채 금융 확보 발판",
+          "우주 AI 리스크 모델링 과제"
+        ],
+        "why": [
+          "우주 AI 인프라의 금융화 초기 단계"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-ai-trust-accounting",
+      "title": "AI가 신뢰를 잠식한다, 회계·재무가 재건할 수 있다",
+      "summary": "재무 전문가가 자동화에 거버넌스·판단을 더해 AI의 인간 통제 계층이 될 수 있다.",
+      "url": "https://www.cfo.com/news/ai-is-eroding-trust-accounting-and-finance-professionals-can-rebuild-it/822931/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Finance",
+        "status": "Watch",
+        "affectedSurface": "재무·거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "재무 전문가가 AI의 인간 통제 계층이 되어 신뢰를 재건할 수 있다는 분석.",
+        "what": "AI는 도입 속도·산출 품질·보안·컴플라이언스·재무정보 신뢰 우려로 회계·재무팀 압박을 키운다. 재무 전문가는 자동화에 거버넌스·판단·실무 역량강화·감독을 더해 AI의 인간 통제 계층이 될 수 있으며, 데이터 보고에서 AI 산출 검증·전략 권고로 역할이 이동한다.",
+        "points": [
+          "AI발 재무 신뢰 압박",
+          "인간 통제 계층 역할",
+          "검증·전략 권고로 이동"
+        ],
+        "why": [
+          "재무 직무의 AI 시대 재정의"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-stablecoin-kyc",
+      "title": "스테이블코인 발행사 KYC 규칙 제안",
+      "summary": "연방 규제기관이 GENIUS 준수 발행사에 CIP 유지 의무 제안.",
+      "url": "https://www.fintechbrainfood.com/p/stablecoin-issuer-kyc",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Compliance",
+        "status": "Watch",
+        "affectedSurface": "스테이블코인·규제"
+      },
+      "related": [],
+      "report": {
+        "tldr": "규제기관이 스테이블코인 발행사에 은행 수준 고객확인(CIP)을 요구하는 규칙을 제안했다.",
+        "what": "연방 규제기관은 GENIUS 준수 스테이블코인 발행사가 효과적인 고객확인프로그램(CIP)을 유지하도록 규칙을 제안했다. 발행사는 은행과 유사하게 CIP를 유지해야 하며, 온·오프램프는 주 감독하 MTL 라이선스 주체인 경우가 많다.",
+        "points": [
+          "발행사 CIP 유지 의무",
+          "은행 수준 KYC",
+          "GENIUS 준수 프레임"
+        ],
+        "why": [
+          "스테이블코인 규제 정비 진전"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-zelle-stablecoin",
+      "title": "Zelle가 스테이블코인을 출시하려는 이유",
+      "summary": "대형 은행들의 P2P 브랜드 Zelle, 국제 결제용 Zelle USD 발표.",
+      "url": "https://www.fintechbrainfood.com/p/zelle-stablecoin",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "스테이블코인·결제"
+      },
+      "related": [],
+      "report": {
+        "tldr": "대형 은행 컨소시엄의 Zelle가 국제 결제용 스테이블코인 Zelle USD를 발표했다.",
+        "what": "대형 은행들이 만든 P2P 결제 브랜드 Zelle가 국제 결제용 스테이블코인 Zelle USD를 발표했다. 이는 또 다른 은행 컨소시엄 TCH가 토큰화 예금으로 가겠다고 발표한 지 일주일 만이다.",
+        "points": [
+          "Zelle USD 국제 결제용",
+          "은행 주도 스테이블코인",
+          "TCH 토큰화 예금과 대비"
+        ],
+        "why": [
+          "은행권 스테이블코인 경쟁 본격화"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-wise-expatica",
+      "title": "Wise, 해외거주 정보 사업 Expatica 인수",
+      "summary": "2000년 설립 Expatica, 2025년 700만+ 방문, 프랑스·독일·포르투갈·스페인 주력.",
+      "url": "https://links.tldrnewsletter.com/yvjQPB",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "핀테크·M&A"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Wise가 해외거주자 정보 사업 Expatica를 인수했다.",
+        "what": "2000년 설립된 Expatica는 이주·주거·의료·이민·금융 등 해외거주 실용 정보를 제공한다. 2025년 700만 회 이상 방문을 기록했으며 프랑스·독일·포르투갈·스페인에서 청중이 가장 크다.",
+        "points": [
+          "Expatica 인수",
+          "해외거주 정보 사업",
+          "유럽 주요국 청중"
+        ],
+        "why": [
+          "Wise의 해외거주자 생태계 확장"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-repay-stablecoin-poc",
+      "title": "Repay, 스테이블코인 결제 PoC 완료",
+      "summary": "수직 통합 결제 솔루션에 스테이블코인 결제 역량 입증.",
+      "url": "https://links.tldrnewsletter.com/C3HpAA",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "결제"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Repay가 자사 플랫폼에서 스테이블코인 결제 PoC를 성공적으로 완료했다.",
+        "what": "수직 통합 결제 솔루션 제공사 Repay Holdings가 자사 플랫폼에서 스테이블코인 결제 역량을 입증하는 개념증명(PoC)을 성공적으로 완료했다고 발표했다.",
+        "points": [
+          "스테이블코인 결제 PoC",
+          "수직 통합 결제 플랫폼",
+          "상용화 전 단계"
+        ],
+        "why": [
+          "전통 결제사의 스테이블코인 실험"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-deluxe-celero",
+      "title": "Deluxe, Celero Commerce를 6.25억 달러에 인수",
+      "summary": "결제 프로세서 인수로 종이수표에서 디지털 결제·데이터로 전환 가속.",
+      "url": "https://www.paymentsdive.com/news/deluxe-makes-625m-acquisition/823276/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "결제·M&A"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Deluxe가 결제 프로세서 Celero Commerce를 현금 6.25억 달러에 인수한다.",
+        "what": "Deluxe는 결제 프로세서 Celero Commerce를 현금 6.25억 달러에 인수해 레거시 종이수표 매출에서 디지털 결제·데이터 서비스로의 전환을 가속한다. 합병 회사는 작년 약 700억 달러 총거래를 처리해 美 10대 비은행 머천트 인수사 중 하나가 된다고 한다.",
+        "points": [
+          "6.25억 달러 현금 인수",
+          "디지털 결제 전환 가속",
+          "약 700억 달러 총거래 처리"
+        ],
+        "why": [
+          "전통 결제사의 디지털 전환 M&A"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-jpmorgan-claude-hk",
+      "title": "JPMorgan, 홍콩에서 Claude 사용 제한",
+      "summary": "골드만에 이어 라이선스·지정학 우려로 승인 AI 목록에서 Claude 제외.",
+      "url": "https://finance.yahoo.com/technology/ai/articles/jpmorgan-limits-claude-hong-kong-122432362.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Compliance",
+        "status": "Monitor",
+        "affectedSurface": "금융 AI 규제"
+      },
+      "related": [],
+      "report": {
+        "tldr": "JPMorgan이 홍콩 직원의 승인 AI 도구 목록에서 Claude를 제외했다.",
+        "what": "JPMorgan은 홍콩 직원용 승인 AI 도구 목록에서 앤트로픽 Claude를 제외했다. AI 도입이 규제·지정학 우려와 충돌하며 글로벌 은행의 신중함이 커지는 신호로, 골드만삭스의 유사 결정에 뒤이은 것이며 라이선스 조건과 연관된 것으로 보인다.",
+        "points": [
+          "승인 AI 목록서 Claude 제외",
+          "라이선스·지정학 우려",
+          "골드만에 이은 결정"
+        ],
+        "why": [
+          "금융권의 AI 모델 사용 규제 강화"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-meter-pricing",
+      "title": "미터 가격제가 AI의 경제성을 시험한다",
+      "summary": "에이전트 워크로드 부담으로 정액제에서 사용량 기반 가격으로 이동.",
+      "url": "https://links.tldrnewsletter.com/GWRtk2",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 가격모델"
+      },
+      "related": [],
+      "report": {
+        "tldr": "AI 기업들이 정액 구독에서 사용량 기반 가격으로 이동하고 있다.",
+        "what": "무거운 에이전트 워크로드, 코딩 에이전트, 토큰맥싱이 무제한 접근을 경제적으로 지속 불가능하게 만들면서 AI 기업들이 정액 구독에서 사용량 기반 가격으로 옮겨가고 있다.",
+        "points": [
+          "정액제→사용량 기반 전환",
+          "에이전트 워크로드 부담",
+          "무제한 접근의 비지속성"
+        ],
+        "why": [
+          "AI 비즈니스 모델의 가격 재편"
+        ]
+      },
+      "source": "TLDR Fintech"
+    },
+    {
+      "id": "fintech-onchain-compliance",
+      "title": "온체인 결제 확장엔 컴플라이언스가 필수",
+      "summary": "스테이블코인·온체인 결제 레일은 핵심 컴플라이언스 기능 내장 시에만 은행과 확장.",
+      "url": "https://links.tldrnewsletter.com/V8jrUz",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Compliance",
+        "status": "Watch",
+        "affectedSurface": "결제·규제"
+      },
+      "related": [],
+      "report": {
+        "tldr": "스테이블코인·온체인 결제 레일은 컴플라이언스 내장 없이는 은행과 확장될 수 없다.",
+        "what": "스테이블코인과 온체인 결제 레일은 핵심 컴플라이언스 기능을 네이티브로 지원할 때에만 은행과 함께 확장될 수 있다.",
+        "points": [
+          "컴플라이언스 내장 필요",
+          "은행 연계 확장 조건",
+          "규제 친화 설계 필요"
+        ],
+        "why": [
+          "온체인 결제 제도권 편입 조건"
+        ]
+      },
+      "source": "TLDR Fintech"
+    }
+  ]
+}

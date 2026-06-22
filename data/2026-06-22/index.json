@@ -1,0 +1,50 @@
+{
+  "date": "2026-06-22",
+  "weekday": "월",
+  "headline": "앤트로픽 격변의 하루 — 노벨상 점퍼 합류·트럼프 '안보위협 아님' 선회·Fable/Mythos 배포 중단",
+  "subtitle": "노벨상 수상자 존 점퍼가 딥마인드를 떠나 앤트로픽에 합류하고, 트럼프는 G7 회동 후 앤트로픽을 더 이상 국가안보 위협으로 보지 않는다고 밝혔다(제재는 미해제). 한편 수출통제로 Claude Fable 5·Mythos 5 배포가 일주일 넘게 중단됐고 JPMorgan은 홍콩에서 Claude 사용을 제한했다. 보안에서는 패치 불가 A12/A13 익스플로잇, FortiBleed 자격증명 8.6만 건 유출, 노보 노디스크 GitHub 토큰 침해가 부각됐다. — 6월 22일 TLDR 12개 에디션, 총 156건 요약",
+  "keyword": "앤트로픽 격변 · 점퍼 합류 · 트럼프 선회 · FortiBleed",
+  "bigStoryId": "ai-jumper-deepmind-anthropic",
+  "editions": [
+    "ai",
+    "tech",
+    "infosec",
+    "crypto",
+    "it",
+    "fintech",
+    "dev",
+    "devops",
+    "data",
+    "design",
+    "marketing",
+    "founders"
+  ],
+  "lastUpdated": "09:24 CDT",
+  "syncedAt": "09:24",
+  "stats": {
+    "companies": 156,
+    "security": 22,
+    "deals": 7,
+    "policy": 8
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "앤트로픽을 둘러싼 인재·규제 격변",
+      "body": "알파폴드를 이끈 노벨상 수상자 존 점퍼가 딥마인드를 떠나 앤트로픽에 합류했고, 트럼프는 G7 CEO 회동 후 앤트로픽을 더 이상 안보 위협으로 보지 않는다고 밝혔다. 다만 수출통제발 Claude Fable 5·Mythos 5 배포 중단은 일주일 넘게 이어지고 제재도 공식 철회되지 않았으며, JPMorgan은 홍콩에서 Claude 사용을 제한했다.",
+      "action": "주요 모델 가용성 시나리오·대체재를 점검하고, 앤트로픽 제재 철회 여부·가드레일 변경을 추적"
+    },
+    {
+      "kind": "market",
+      "title": "에이전트가 거래·결제·배포 인터페이스로 전면화",
+      "body": "칼시가 조기 IPO 논의에 들어가고 Zelle가 국제 결제용 스테이블코인 Zelle USD를 발표하는 등 결제 레일이 재편된다. 동시에 Cloudflare 임시 계정과 AWS DevOps Agent(GA)처럼 에이전트가 가입 없이 배포하고 자율로 장애를 해결하는 인프라가 부상했다.",
+      "action": "스테이블코인·온체인 결제의 컴플라이언스 요건과 에이전트 자율 배포·운영 권한 게이트를 점검"
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 보안 모니터링",
+      "body": "패치 불가 A12/A13 BootROM 익스플로잇 'usbliter8'이 iPhone XS~11을 영구 취약하게 했고, FortiBleed가 포티넷 자격증명 8.6만 건을 노출시켰다. 노보 노디스크는 단일 GitHub 토큰 침해로 1.3TB가 유출됐고, USB로 전파되는 Crypto Clipper가 클립보드 지갑주소·시드구문을 노린다.",
+      "action": "포티넷 자격증명 회전·MFA 강제, PAT/CI 토큰 범위·만료 강화와 대량 클론·유출 경보, 클립보드 치환 탐지를 적용"
+    }
+  ]
+}

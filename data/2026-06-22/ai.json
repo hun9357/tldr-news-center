@@ -1,0 +1,451 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-jumper-deepmind-anthropic",
+      "title": "노벨상 수상자 존 점퍼, 딥마인드 떠나 앤트로픽으로",
+      "summary": "알파폴드 공동 리더이자 노벨상 수상자 존 점퍼가 9년 만에 딥마인드를 떠나 앤트로픽 합류.",
+      "url": "https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "AI 인재·연구"
+      },
+      "related": [
+        "앤트로픽 과학 연구 로드맵 모니터링",
+        "경쟁사 핵심 인재 유출 동향 추적"
+      ],
+      "report": {
+        "tldr": "알파폴드를 이끈 노벨상 수상자 존 점퍼가 딥마인드를 떠나 앤트로픽으로 이적한다.",
+        "what": "단백질 구조 예측으로 노벨상을 받은 존 점퍼가 9년간 몸담은 딥마인드를 떠나 경쟁사 앤트로픽에 합류한다. 그의 이적은 딥마인드가 코딩 도구를 기업에 판매하는 데 어려움을 겪은 뒤 나온 것이다.",
+        "points": [
+          "알파폴드 공동 리더의 경쟁사 이적",
+          "9년 만의 딥마인드 퇴사",
+          "딥마인드의 기업용 코딩 도구 판매 부진 배경",
+          "앤트로픽 과학·연구 역량 강화 신호"
+        ],
+        "why": [
+          "최정상급 AI 연구 인재 이동은 연구소 간 경쟁 구도를 바꾸는 신호"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-sakana-fugu",
+      "title": "사카나 Fugu, 단일 모델처럼 동작하는 멀티에이전트",
+      "summary": "직접 처리할지 전문가 모델 팀을 조율할지 스스로 결정하는 OpenAI 호환 단일 API.",
+      "url": "https://threadreaderapp.com/thread/2068862070062485867.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "멀티에이전트"
+      },
+      "related": [
+        "오케스트레이션 모델 도입 시 비용·지연 평가"
+      ],
+      "report": {
+        "tldr": "사카나 Fugu는 하나의 호출로 전문가 모델 팀을 조율하는 멀티에이전트 시스템이다.",
+        "what": "사카나 Fugu는 요청을 직접 처리할지 전문가 모델 팀을 조율할지 스스로 판단한다. 모델 선택·위임·검증·합성을 관리하며, 사용자는 단일 모델을 호출하면 조율된 전문가 시스템이 작업을 수행한다. Fugu와 Fugu Ultra는 OpenAI 호환 API로 오늘부터 제공된다.",
+        "points": [
+          "오케스트레이션을 모델 내부로 추상화",
+          "모델 선택·위임·검증·합성 자동화",
+          "OpenAI 호환 단일 API",
+          "Fugu / Fugu Ultra 두 버전"
+        ],
+        "why": [
+          "복잡한 에이전트 오케스트레이션을 단일 호출로 감추는 접근"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-mercury2-diffusion",
+      "title": "Inception Labs Mercury 2, 초당 1,000토큰 확산형 추론 모델",
+      "summary": "디퓨전 기법으로 초당 약 1,000토큰 생성, 속도 민감 워크로드에 최적.",
+      "url": "https://decrypt.co/371722/inception-labs-mercury-2-ai-beats-googles-diffusiongemma",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "추론 모델"
+      },
+      "related": [
+        "속도 민감 워크로드에 확산형 모델 PoC"
+      ],
+      "report": {
+        "tldr": "Mercury 2는 디퓨전 기반으로 초당 약 1,000토큰을 생성하는 추론 모델이다.",
+        "what": "Mercury 2는 이미지 생성기의 디퓨전 기법을 적용해 초당 약 1,000토큰을 만든다. 최고난도 프런티어 추론보다는 속도가 중요한 대량 워크로드 구간에 적합하며, API/클라우드로만 제공된다.",
+        "points": [
+          "디퓨전 기반 텍스트 생성",
+          "초당 약 1,000토큰",
+          "속도 민감·대량 처리 구간 강점",
+          "API/클라우드 전용"
+        ],
+        "why": [
+          "지연이 중요한 파이프라인 구간에서 속도 이점"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-ai-pauses-fable-mythos",
+      "title": "Claude Fable 5·Mythos 5, 백악관 수출통제로 배포 중단",
+      "summary": "백악관이 수출통제로 두 모델 배포를 중단, 일주일 넘게 미해결.",
+      "url": "https://thezvi.substack.com/p/ai-173-ai-pauses",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "75%",
+        "owner": "Policy",
+        "status": "Monitor",
+        "affectedSurface": "모델 가용성·규제"
+      },
+      "related": [
+        "주요 모델 가용성 시나리오·대체재 점검"
+      ],
+      "report": {
+        "tldr": "백악관이 수출통제를 부과해 Claude Fable 5·Mythos 5 배포가 중단됐다.",
+        "what": "트럼프 행정부는 Fable의 '탈옥'을 이유로 들었으나 실제로는 '이 코드를 고쳐라' 수준이었다고 전해진다. 앤트로픽은 사실상 불가능한 '탈옥' 수정을 요구받았고, 배포 중단은 일주일이 넘도록 개선되지 않고 있다.",
+        "points": [
+          "수출통제발 모델 배포 중단",
+          "'탈옥' 사유의 모호성",
+          "사실상 불가능한 수정 요구",
+          "장기 미해결 상태"
+        ],
+        "why": [
+          "규제·정책 리스크가 모델 가용성에 직접 영향"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-diffusiongemma-transparency",
+      "title": "DiffusionGemma 투명성 감사",
+      "summary": "디퓨전 구조에도 Gemma 수준의 모니터링 가능성을 유지한다는 분석.",
+      "url": "https://www.lesswrong.com/posts/zoYXpdaMgFT43Wc24/how-transparent-is-diffusiongemma-and-why-it-matters",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "해석가능성"
+      },
+      "related": [],
+      "report": {
+        "tldr": "투명성 감사 결과 DiffusionGemma는 Gemma와 비슷한 수준으로 모니터링 가능했다.",
+        "what": "감사는 디퓨전 기반 아키텍처임에도 DiffusionGemma가 Gemma와 유사하게 관찰 가능함을 확인했다. 변수 투명성과 알고리즘 투명성 사이 간극을 짚으며 비순차적 추론, 토큰 스미어링, 중간 컨텍스트 추론 같은 현상을 탐구했다.",
+        "points": [
+          "디퓨전 구조의 모니터링 가능성",
+          "변수 vs 알고리즘 투명성 간극",
+          "비순차적 추론·토큰 스미어링 관찰"
+        ],
+        "why": [
+          "새 아키텍처의 해석가능성 평가 사례"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-codegen-speed",
+      "title": "코드 생성 속도를 위한 모델 최적화 (Morph LLM 3.07배)",
+      "summary": "코딩 출력으로 드래프터를 학습해 투기적 디코딩 3.07배 가속.",
+      "url": "https://www.morphllm.com/blog/codegen-inference-research",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "추론 최적화"
+      },
+      "related": [
+        "투기적 디코딩·커널 튜닝 적용 검토"
+      ],
+      "report": {
+        "tldr": "Morph LLM은 코딩 특화 드래프터로 코드 생성 속도를 3.07배 높였다.",
+        "what": "Morph LLM은 인터넷이 아닌 코딩 출력으로 드래프터를 학습해 투기적 디코딩을 가속하며 3.07배 속도 향상을 달성했다. Autoresearch는 저사양 GPU용 커널 튜닝을 자동화해 162 tok/s를 내고, PCIe 인터커넥트로 NVLink를 대체하며 TTFT를 84% 줄인다.",
+        "points": [
+          "코딩 출력 기반 드래프터 학습",
+          "투기적 디코딩 3.07배",
+          "저사양 GPU 커널 튜닝 162 tok/s",
+          "PCIe로 NVLink 대체, TTFT 84%↓"
+        ],
+        "why": [
+          "저비용 하드웨어에서의 코드 생성 가속 기법"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-loop-engineering",
+      "title": "프롬프트 엔지니어링에서 루프 엔지니어링으로",
+      "summary": "측정 가능한 목표 달성까지 반복 프롬프트·평가·재프롬프트하는 시스템으로 전환.",
+      "url": "https://links.tldrnewsletter.com/OvGkNl",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 워크플로"
+      },
+      "related": [
+        "루프·평가 기반 코딩 파이프라인 설계"
+      ],
+      "report": {
+        "tldr": "AI 코딩 워크플로가 프롬프트 엔지니어링에서 루프 엔지니어링으로 이동한다.",
+        "what": "개발자는 에이전트를 반복적으로 프롬프트하고 평가한 뒤 재프롬프트하는 시스템을 구축해, 측정 가능한 목표가 달성될 때까지 루프를 돌린다.",
+        "points": [
+          "단발 프롬프트에서 반복 루프로",
+          "프롬프트–평가–재프롬프트 사이클",
+          "측정 가능한 목표 중심 설계"
+        ],
+        "why": [
+          "에이전트 신뢰성을 높이는 워크플로 패턴"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-nvidia-enpire",
+      "title": "NVIDIA ENPIRE, 자율 로보틱스 연구 프레임워크",
+      "summary": "자동 리셋·평가·검증·개선으로 실제 로봇 정책을 반복 개선하는 폐루프 프레임워크.",
+      "url": "https://research.nvidia.com/labs/gear/enpire/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "로보틱스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "NVIDIA ENPIRE는 코딩 에이전트가 실제 로봇 정책을 반복 개선하는 폐루프 프레임워크다.",
+        "what": "ENPIRE는 자동 리셋, 평가, 검증, 개선을 통해 코딩 에이전트가 현실 로봇 정책을 점진적으로 향상시키도록 한다.",
+        "points": [
+          "폐루프 자율 개선 프레임워크",
+          "자동 리셋·평가·검증·개선",
+          "실제 로봇 정책 반복 향상"
+        ],
+        "why": [
+          "에이전트 기반 로보틱스 정책 개선 사례"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-europe-2031",
+      "title": "바이럴 '유럽 2031' 시나리오, 유럽 AI 안일함에 경종",
+      "summary": "데이터센터 투자 부족으로 유럽이 미·중에 크게 뒤처지는 사고실험.",
+      "url": "https://www.theguardian.com/technology/2026/jun/20/europe-sleepwalking-ai-disaster-us-china",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "정책·투자"
+      },
+      "related": [],
+      "report": {
+        "tldr": "'유럽 2031' 사고실험이 데이터센터 투자 부족 시 유럽의 추락을 그린다.",
+        "what": "브뤼셀 싱크탱커들이 쓴 '유럽 2031'은 데이터센터 투자 부족으로 유럽이 미·중에 크게 뒤처지는 세계를 묘사한다. 경제가 흔들리고 포퓰리즘이 부상하며 유로가 불안정해지고 사이버 공격이 기업을 위협하는 모습으로, 유럽의회 의원들도 읽고 영·독 당국 논의에서 거론됐다.",
+        "points": [
+          "AI 인프라 투자 부족 시나리오",
+          "미·중 대비 유럽 격차 경고",
+          "정책 담론에 실제 영향"
+        ],
+        "why": [
+          "AI 인프라 투자 정책 담론을 자극"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-job-search-notes",
+      "title": "산업계 구직 여정에 대한 기록",
+      "summary": "불완전한 정보 속 큰 의사결정을 다루는 구직 경험과 감정 관리.",
+      "url": "https://alisawuffles.github.io/blog/job-search/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "People",
+        "status": "Watch",
+        "affectedSurface": "커리어"
+      },
+      "related": [],
+      "report": {
+        "tldr": "구직 여정의 상당 부분은 함께 따라오는 감정을 관리하는 일이다.",
+        "what": "구직에는 사회적 인식을 헤쳐 나가는 과정이 따른다. 불완전한 정보로 거대한 결정 공간을 다루는 일은 스트레스가 크며, 작은 선택이 큰 영향을 미친다. 이 글은 지금의 구직 경험이 어떤지를 들여다본다.",
+        "points": [
+          "구직의 감정적 측면",
+          "불완전 정보·큰 의사결정",
+          "작은 선택의 큰 파급"
+        ],
+        "why": [
+          "현 시점 기술직 구직 환경에 대한 통찰"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-open-models-switch",
+      "title": "오픈 모델 전환의 단점은 미미하다",
+      "summary": "최신 모델의 안전장치 강화로 사설 머신에서 오픈 모델 운용이 매력적.",
+      "url": "https://www.marble.onl/posts/cancel_claude.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "모델 운영"
+      },
+      "related": [
+        "오픈 모델 사설 호스팅 PoC"
+      ],
+      "report": {
+        "tldr": "최신 모델 안전장치 덕분에 오픈 모델을 직접 돌리는 선택이 더 매력적이다.",
+        "what": "최근 모델들의 새로운 안전장치는 사설 머신에서 오픈 모델을 운용하는 아이디어를 훨씬 매력적으로 만든다.",
+        "points": [
+          "오픈 모델 자체 운용 부상",
+          "안전장치 강화 영향",
+          "프라이버시·통제 이점"
+        ],
+        "why": [
+          "벤더 종속 완화와 데이터 통제 관점"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-llms-complicated",
+      "title": "LLM은 이제 복잡하다",
+      "summary": "현대 모델은 다양한 어텐션 변형을 사용한다.",
+      "url": "https://ianbarber.blog/2026/06/19/llms-are-complicated-now/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "모델 구조"
+      },
+      "related": [],
+      "report": {
+        "tldr": "어텐션이면 충분하다지만, 현대 모델은 수많은 어텐션 변형을 쓴다.",
+        "what": "현대 모델은 단일 어텐션이 아니라 여러 변형을 조합해 사용하며, 그만큼 구조가 복잡해졌다.",
+        "points": [
+          "다양한 어텐션 변형 활용",
+          "모델 구조 복잡도 증가",
+          "성능·효율 균형 추구"
+        ],
+        "why": [
+          "모델 내부 구조 이해의 중요성"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-linear-a",
+      "title": "AI 엔지니어, 선형문자 A 해독 주장",
+      "summary": "기원전 1800년경 청동기 문자 선형문자 A 해독을 주장.",
+      "url": "https://aiclambake.com/clamtakes/linear-a/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "50%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "응용 연구"
+      },
+      "related": [],
+      "report": {
+        "tldr": "한 AI 엔지니어가 미해독 청동기 문자 선형문자 A를 해독했다고 주장한다.",
+        "what": "선형문자 A는 기원전 1800년경 등장해 1450년경까지 쓰인 청동기 시대 문자 체계다. 해당 주장은 이 미해독 문자에 대한 것이다.",
+        "points": [
+          "미해독 고대 문자 도전",
+          "AI 기반 해독 주장(검증 필요)",
+          "고대 문헌 해독에 AI 적용"
+        ],
+        "why": [
+          "AI의 고문자 해독 응용 사례"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-ard-protocol",
+      "title": "AI의 ARD 문제: 에이전트 자원 발견",
+      "summary": "구글·MS·시스코 등이 에이전트 자원 발견(ARD) 프로토콜 개발 중.",
+      "url": "https://www.infoworld.com/article/4187305/solving-an-ard-problem-in-ai-agentic-resource-discovery.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 표준"
+      },
+      "related": [
+        "ARD 등 에이전트 표준 동향 추적"
+      ],
+      "report": {
+        "tldr": "테크 대기업들이 에이전트 자원 발견(ARD) 프로토콜을 개발 중이다.",
+        "what": "구글, 마이크로소프트, 시스코를 포함한 빅테크가 에이전트가 자원을 발견하는 ARD 프로토콜을 만들고 있다.",
+        "points": [
+          "빅테크 공동 ARD 프로토콜",
+          "에이전트 자원 발견 표준화 시도",
+          "에이전트 인프라 상호운용 지향"
+        ],
+        "why": [
+          "에이전트 인프라 표준 경쟁"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-ideology-systemic-risk",
+      "title": "이념이 시스템 리스크가 될 때",
+      "summary": "고도로 이념적인 창업자가 이끄는 기업은 영향력 확대 시 규제·투자자 저항 유발.",
+      "url": "https://links.tldrnewsletter.com/GN8vji",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "이념 색채가 강한 창업자 기업은 결국 규제·투자자·고객의 저항을 부른다.",
+        "what": "고도로 이념적인 창업자가 이끄는 기업은 영향력이 전통적 제도 통제를 넘어 커질수록 규제 당국, 투자자, 고객, 정부의 저항을 결국 유발한다.",
+        "points": [
+          "이념형 창업자의 리스크",
+          "제도 통제 초과 시 반작용",
+          "규제·투자자·고객 저항"
+        ],
+        "why": [
+          "거버넌스·평판 리스크 관점"
+        ]
+      },
+      "source": "TLDR AI"
+    }
+  ]
+}

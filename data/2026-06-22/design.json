@@ -1,0 +1,439 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-apple-music-ios27",
+      "title": "애플 뮤직, iOS 27에서 두 핵심 영역 디자인 변경",
+      "summary": "아티스트 페이지 아트워크가 페이지에 녹아들고 핵심 컨트롤이 부각.",
+      "url": "https://9to5mac.com/2026/06/19/apple-music-in-ios-27-introduces-new-design-changes-in-two-key-areas/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "제품 디자인"
+      },
+      "related": [],
+      "report": {
+        "tldr": "iOS 27 애플 뮤직이 아티스트 페이지를 새 디자인으로 개편한다.",
+        "what": "iOS 27은 애플 뮤직 디자인을 새롭게 하며 베타에서 아티스트 페이지가 이미 제공된다. 아티스트 아트워크가 페이지에 더 매끄럽게 녹아 전체 색 구성에 영향을 주고, 재생·즐겨찾기·정보 같은 컨트롤이 더 부각된다. 앨범 페이지 재설계도 확정됐으나 아직 베타엔 없으며, iOS 26의 Liquid Glass 언어를 다듬는 노력의 일환이다.",
+        "points": [
+          "아티스트 페이지 새 디자인",
+          "아트워크 기반 색 구성",
+          "핵심 컨트롤 부각",
+          "Liquid Glass 언어 연장"
+        ],
+        "why": [
+          "애플 디자인 언어의 점진 진화"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-midjourney-medical",
+      "title": "미드저니의 새 시대: 의료 영상 벤처",
+      "summary": "물에 잠겨 60초 내 MRI급 3D 영상 만드는 전신 초음파 스캐너.",
+      "url": "https://www.midjourney.com/medical/blogpost",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "60%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 헬스케어"
+      },
+      "related": [
+        "AI 의료 영상 주장 검증 추적"
+      ],
+      "report": {
+        "tldr": "미드저니가 60초 내 MRI급 3D 영상을 만드는 전신 초음파 스캐너를 발표했다.",
+        "what": "미드저니가 사용자를 물에 잠그고 60초 내 MRI급 3D 영상을 만드는 전신 초음파 스캐너 '미드저니 메디컬'을 발표했다. 50만 개 센서로 초음파를 송수신해 대규모 병렬 컴퓨팅으로 신체 구성 맵을 재구성한다. 2027년 샌프란시스코 첫 스파 개설, 2031년까지 5만 대 이상 확대, 조기 발견으로 전 세계 사망 30% 예방·의료비 절반 목표를 내걸었다.",
+        "points": [
+          "전신 초음파 스캐너",
+          "60초 MRI급 3D 영상",
+          "50만 센서·병렬 컴퓨팅",
+          "대규모 확장 야심"
+        ],
+        "why": [
+          "AI 기업의 헬스케어 하드웨어 진출"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-adobe-ai",
+      "title": "어도비, 포토샵부터 디즈니월드까지 최대 규모 AI 푸시",
+      "summary": "사흘간 5개 AI 이니셔티브, Firefly 어시스턴트 공개 베타·브랜드 가시성 도구.",
+      "url": "https://thenextweb.com/news/adobe-ai-week-firefly-agent-disney-semrush-genstudio-linkedin",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "크리에이티브 AI"
+      },
+      "related": [
+        "크리에이티브 워크플로 AI 통합 동향 추적"
+      ],
+      "report": {
+        "tldr": "어도비가 사흘간 5개 AI 이니셔티브를 쏟아내며 최대 규모 AI 푸시에 나섰다.",
+        "what": "어도비는 포토샵·프리미어·일러스트레이터 등에서 공개 베타로 도는 Firefly AI 어시스턴트와 디즈니 이매지니어링과의 맞춤 생성 모델 계약 등 사흘간 5개 AI 이니셔티브를 내놨다. 신규 브랜드 가시성 도구는 Semrush 데이터의 약 3억 실제 AI 검색 프롬프트로 ChatGPT·Copilot 등에서 기업 노출을 추적한다. 모든 발표에서 인간의 창작 통제(85%가 최종 결정은 자신이어야 한다고 응답)를 강조했다.",
+        "points": [
+          "사흘간 5개 AI 이니셔티브",
+          "Firefly 어시스턴트 공개 베타",
+          "브랜드 가시성 도구",
+          "인간 창작 통제 강조"
+        ],
+        "why": [
+          "크리에이티브 도구의 AI 전면화"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-folding-iphone",
+      "title": "애플 폴딩 아이폰은 너무 늦었나?",
+      "summary": "스마트폰이 강력해졌지만 신제품 흥분은 줄었고 초점은 AI·소프트웨어로 이동.",
+      "url": "https://www.creativebloq.com/design/product-design/is-apples-folding-iphone-too-little-too-late",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "제품 전략"
+      },
+      "related": [],
+      "report": {
+        "tldr": "폴딩 아이폰의 과제는 폴더블 자체가 아니라 하드웨어로 흥분을 되살리는 일이다.",
+        "what": "스마트폰은 어느 때보다 강력하지만 많은 사용자가 신제품에 흥분하지 않는다. 폴더블은 더는 새롭지 않고, 업계 초점은 AI·소프트웨어로 옮겨갔다. 애플의 진짜 과제는 매력적 폴더블을 만드는 것이 아니라, 새 하드웨어가 소프트웨어·AI만큼 혁신적일 수 있음을 설득하는 것이다.",
+        "points": [
+          "하드웨어 흥분의 정체",
+          "폴더블의 신선도 하락",
+          "초점의 AI·소프트웨어 이동"
+        ],
+        "why": [
+          "하드웨어 혁신 서사의 변화"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-color-language",
+      "title": "색의 언어를 말하다",
+      "summary": "색은 감정·문화와 얽힌 심리 언어, 브랜드는 의도적으로 색을 골라야.",
+      "url": "https://www.figma.com/blog/pantone-speaking-the-language-of-color/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "브랜딩"
+      },
+      "related": [],
+      "report": {
+        "tldr": "색은 심리적 언어이며 브랜드는 정체성을 위해 색을 의도적으로 선택해야 한다.",
+        "what": "색은 감정·문화·자연과 얽힌 심리 언어다. 에어비앤비의 2014년 베이비블루→연어핑크 전환은 인간미를, '브랫 그린'은 진정성·대담함을 담았다. 팬톤은 2026 올해의 색으로 부드러운 흰색 '클라우드 댄서'를 지명해 차분함·명료함에 대한 갈망을 반영했다.",
+        "points": [
+          "색의 심리·문화 의미",
+          "의도적 브랜드 색 선택",
+          "2026 올해의 색 클라우드 댄서"
+        ],
+        "why": [
+          "브랜드 색채 전략 인사이트"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-design-system-agents",
+      "title": "엔지니어와 에이전트를 위한 디자인 시스템 구축",
+      "summary": "Evil Martians·Currents, 7주 만에 디자인 시스템 구축, 791파일서 236색 발견.",
+      "url": "https://evilmartians.com/chronicles/building-a-design-system-specced-for-engineers-and-agents",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "디자인 시스템"
+      },
+      "related": [
+        "에이전트 가독 디자인 시스템 검토"
+      ],
+      "report": {
+        "tldr": "Evil Martians가 7주 만에 엔지니어·에이전트가 읽을 수 있는 디자인 시스템을 만들었다.",
+        "what": "Evil Martians는 Currents와 협업해 디자인 기반 없는 AI 코딩이 부른 UI 불일치를 7주 만에 풀었다. LLM 보조로 평소 3분의 1 시간에 끝낸 감사에서 791파일에 걸쳐 고유 색 236개, 경쟁 폰트 2종, 중복 아이콘 라이브러리를 발견했다. 결과 시스템은 엔지니어와 AI 에이전트 모두가 읽을 수 있게 설계돼 일상 결정에 디자이너가 필요 없게 했다.",
+        "points": [
+          "7주 디자인 시스템 구축",
+          "236색·중복 라이브러리 감사",
+          "엔지니어·에이전트 가독 설계"
+        ],
+        "why": [
+          "AI 시대 디자인 시스템 사례"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-taste-lab",
+      "title": "에이전트를 위한 디자인 DNA (/taste)",
+      "summary": "URL을 AI 에이전트용 완전한 디자인 컨텍스트로 변환.",
+      "url": "https://www.tastelab.xyz/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "디자인 도구"
+      },
+      "related": [],
+      "report": {
+        "tldr": "/taste는 URL을 AI 에이전트용 디자인 컨텍스트로 바꾼다.",
+        "what": "/taste는 어떤 URL이든 AI 에이전트용 완전한 디자인 컨텍스트로 변환한다. 디자인 맵, 테이스트 DNA, 그리고 각 선택의 근거를 제공한다.",
+        "points": [
+          "URL→디자인 컨텍스트",
+          "디자인 맵·테이스트 DNA",
+          "선택 근거까지 제공"
+        ],
+        "why": [
+          "에이전트용 디자인 컨텍스트 도구"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-notra",
+      "title": "더 적게 쓰고 더 많이 배포 (Notra)",
+      "summary": "배포한 작업을 체인지로그·런치 포스트·마케팅 자산으로 변환.",
+      "url": "https://www.usenotra.com/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "제품 도구"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Notra는 배포한 작업을 체인지로그·런치 포스트·마케팅 자산으로 바꾼다.",
+        "what": "Notra는 배포한 작업을 사용자의 목소리로 체인지로그, 런치 포스트, 마케팅 자산, 소셜 업데이트로 변환한다.",
+        "points": [
+          "작업→체인지로그·런치 포스트",
+          "사용자 톤 유지",
+          "멀티 채널 자산 생성"
+        ],
+        "why": [
+          "릴리스 커뮤니케이션 자동화"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-yoroll",
+      "title": "AI 네이티브 인터랙티브 비디오 게임 플랫폼 (Yoroll.ai)",
+      "summary": "텍스트·사진·클립으로 분기형 스토리 게임을 제작.",
+      "url": "https://yoroll.ai/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "게임·툴"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Yoroll.ai는 텍스트·사진·클립으로 분기형 스토리 게임을 만들게 한다.",
+        "what": "LinearGame의 Yoroll.ai는 텍스트 프롬프트·사진·짧은 클립으로 플레이 가능한 분기형 스토리 게임을 만들게 해, 게임 프로그래밍보다 영화 연출에 가깝다.",
+        "points": [
+          "프롬프트로 게임 제작",
+          "분기형 스토리",
+          "연출에 가까운 경험"
+        ],
+        "why": [
+          "AI 네이티브 게임 제작 도구"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-pentagram-hiut",
+      "title": "펜타그램, 데님 브랜드 Hiut의 새 정체성",
+      "summary": "웨일스 유산을 담은 새 워드마크·올빼미 로고·타이포그래피.",
+      "url": "https://www.designweek.co.uk/pentagrams-new-identity-for-denim-label-hiut-embraces-its-welsh-heritage/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "브랜딩"
+      },
+      "related": [],
+      "report": {
+        "tldr": "펜타그램이 Hiut Denim의 웨일스 유산을 담은 새 비주얼 정체성을 만들었다.",
+        "what": "2011년 설립된 Hiut Denim은 카디건(웨일스)의 데님 제작 유산을 되살리려 만들어졌다. 펜타그램과 함께 공장·노동자·풍경을 중심으로 한 새 정체성을 개발했고, 웨일스 지명을 담은 워드마크, 업데이트된 올빼미 로고, 산업·수공예 결합 타이포그래피, 지역 환경에서 영감받은 색 팔레트를 포함한다.",
+        "points": [
+          "웨일스 유산 정체성",
+          "공장·노동자 중심 서사",
+          "워드마크·올빼미 로고"
+        ],
+        "why": [
+          "헤리티지 브랜딩 사례"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-displaay-post",
+      "title": "Displaay 첫 텍스트 서체 'Post', 4패밀리 56스타일",
+      "summary": "텍스트 서체와 타자기 폰트의 구분이 디지털 시대에 유효한지 탐구.",
+      "url": "https://the-brandidentity.com/typeface/displaays-first-text-typeface-post-spans-4-families-and-56-styles",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "타이포그래피"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Displaay의 첫 텍스트 서체 'Post'가 가독성 우선 설계로 출시됐다.",
+        "what": "디자이너는 디지털 시대에 텍스트 서체와 타자기 폰트 구분이 유효한지 탐구했다. 열화된 Courier 스캔이 의외로 읽기 쉬웠던 데서 영감을 받아 가독에 핵심인 글자 특징을 강조하고 덜 중요한 디테일을 줄였다. 체코슬로바키아 타입 디자인 등 영향 아래 다중 패밀리·웨이트·스타일·가변 축을 갖춘 유연한 서체를 완성했다.",
+        "points": [
+          "텍스트 vs 타자기 구분 탐구",
+          "가독성 우선 설계",
+          "4패밀리·56스타일"
+        ],
+        "why": [
+          "서체 디자인 사례"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-atlassian-designmd",
+      "title": "아틀라시안의 DESIGN.md 실전 테스트 교훈",
+      "summary": "포터블 디자인 컨텍스트가 슬롭을 줄이나 토큰 92% 더 소비·변동 큼.",
+      "url": "https://www.atlassian.com/blog/ai-at-work/atlassians-design-md-is-here-what-we-learned-testing-portable-design-context-in-practice",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "디자인·에이전트"
+      },
+      "related": [],
+      "report": {
+        "tldr": "DESIGN.md는 생성 UI의 슬롭을 줄이지만 토큰을 92% 더 쓰고 변동이 컸다.",
+        "what": "구글의 DESIGN.md 형식(에이전트에 포터블 브랜드·UI 컨텍스트를 주는 오픈소스 마크다운)은 생성 인터페이스의 '슬롭'을 줄일 수 있다. 다만 아틀라시안 자체 MCP 서버·에이전트 스킬과 비교해 토큰을 약 92% 더 소비하고 산출 변동이 컸다. 빠른 프로토타이핑·고객 테마·툴 상호운용엔 빛나지만 프로덕션 대체로는 부족하다.",
+        "points": [
+          "포터블 디자인 컨텍스트",
+          "슬롭 감소 효과",
+          "토큰 92%↑·변동 큼",
+          "프로토타이핑 적합"
+        ],
+        "why": [
+          "에이전트 디자인 컨텍스트의 트레이드오프"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-iphone-fireworks",
+      "title": "아이폰, 생일에 전화하면 화면 불꽃놀이",
+      "summary": "연락처에 생일이 저장돼 있으면 통화 시 불꽃 애니메이션 표시.",
+      "url": "https://www.digitaltrends.com/phones/did-you-know-that-your-iphone-bursts-on-screen-fireworks-when-you-call-a-person-on-their-birthday/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "UX 디테일"
+      },
+      "related": [],
+      "report": {
+        "tldr": "iOS 27은 생일인 사람에게 전화하면 화면에 불꽃 애니메이션을 띄운다.",
+        "what": "iOS 27에는 연락처에 생일이 저장돼 있으면, 상대가 아이폰이든 안드로이드든 통화 시 미묘한 불꽃 애니메이션과 생일 배너를 표시하는 숨은 기능이 있다.",
+        "points": [
+          "생일 통화 불꽃 효과",
+          "연락처 생일 기반",
+          "플랫폼 무관 동작"
+        ],
+        "why": [
+          "디테일 중심 UX 사례"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-cocacola-fifa",
+      "title": "코카콜라, FIFA '26 비주얼 정체성·패키징",
+      "summary": "쉐브론·다이아몬드·지역 색 팔레트의 한정판 캔·12팩.",
+      "url": "https://www.designweek.co.uk/coca-colas-vibrant-visual-identity-and-packaging-for-fifa-26/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "패키징"
+      },
+      "related": [],
+      "report": {
+        "tldr": "코카콜라가 FIFA 월드컵 26 공식 비주얼 정체성을 공개했다.",
+        "what": "코카콜라는 FIFA 월드컵 26 공식 비주얼 정체성을 공개했다. 쉐브론·다이아몬드 등 대담한 기하 패턴과 지역 색 팔레트로 참가국을 표현한 한정판 캔·12팩이 'Collect The Whole Squad' 태그라인 아래 출시된다.",
+        "points": [
+          "FIFA 26 비주얼 정체성",
+          "기하 패턴·지역 색",
+          "한정판 패키징"
+        ],
+        "why": [
+          "스포츠 이벤트 브랜딩 사례"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-osaka-art-2026",
+      "title": "오사카 아트 & 디자인 2026, 거대 알파벳·고양이 조각",
+      "summary": "야노베 켄지의 4m '배의 고양이'와 이가라시의 대형 알파벳 조형.",
+      "url": "https://www.designboom.com/art/osaka-art-and-design-highlights-2026/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Design",
+        "status": "Watch",
+        "affectedSurface": "아트"
+      },
+      "related": [],
+      "report": {
+        "tldr": "오사카 아트 & 디자인 2026이 거대 알파벳·고양이 조각으로 도시를 장식한다.",
+        "what": "오사카 아트 & 디자인 2026의 하이라이트는 그랜드 그린 오사카의 야노베 켄지의 약 4m '배의 고양이' 조각부터 PARCO의 이가라시 다케노부의 목재·콘크리트·금속 대형 알파벳 조형까지 이어진다.",
+        "points": [
+          "거대 고양이 조각",
+          "대형 알파벳 조형",
+          "도시 규모 전시"
+        ],
+        "why": [
+          "공공 아트·디자인 사례"
+        ]
+      },
+      "source": "TLDR Design"
+    }
+  ]
+}

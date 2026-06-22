@@ -1,0 +1,410 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-trump-anthropic",
+      "title": "트럼프, G7 CEO 회동 후 '앤트로픽은 안보 위협 아니다'",
+      "summary": "트럼프가 앤트로픽을 더 이상 국가안보 위협으로 보지 않는다고 발언, 다만 제재는 미해제.",
+      "url": "https://thenextweb.com/news/trump-anthropic-not-national-security-threat-axios-interview",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "High",
+        "confidence": "75%",
+        "owner": "Policy",
+        "status": "Monitor",
+        "affectedSurface": "규제·모델 가용성"
+      },
+      "related": [
+        "앤트로픽 제재 철회 여부·가드레일 변경 추적"
+      ],
+      "report": {
+        "tldr": "트럼프가 G7 CEO 회동 후 앤트로픽을 더 이상 안보 위협으로 보지 않는다고 밝혔다.",
+        "what": "트럼프는 앤트로픽에 대한 시각을 누그러뜨렸으나 관련 제재는 아직 공식 철회되지 않았다. 앤트로픽도 가드레일 정책 수정 여부를 공개적으로 밝히지 않았다.",
+        "points": [
+          "대통령의 입장 선회 발언",
+          "제재 공식 철회는 아직",
+          "가드레일 정책 변경 불확실"
+        ],
+        "why": [
+          "모델 배포 중단 사태의 향방을 가를 정치 신호"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-apple-design",
+      "title": "애플 새 CEO, 길 잃은 디자인 팀 재건 과제",
+      "summary": "한때 애플의 심장이던 산업디자인 조직이 경영진 자리에서 밀려난 쇠퇴 서사.",
+      "url": "https://links.tldrnewsletter.com/6XNbkk",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "제품·조직"
+      },
+      "related": [],
+      "report": {
+        "tldr": "애플의 산업디자인 조직이 영향력을 잃었고, 새 CEO가 재건에 나선다.",
+        "what": "한때 애플의 심장이자 영혼이던 산업디자인 조직은 이제 경영진 테이블에서 진정한 자리를 잃었고, 다른 팀이 필요한 것만 받아 가는 곳이 됐다. 기사는 이 조직의 쇠퇴 과정과 회사에 미친 영향, 애플의 재건 계획을 다룬다.",
+        "points": [
+          "디자인 조직의 위상 하락",
+          "경영 의사결정에서의 소외",
+          "쇠퇴 원인과 영향 분석",
+          "재건 계획 전망"
+        ],
+        "why": [
+          "제품 차별화 원천인 디자인 역량의 향방"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-tesla-megapod",
+      "title": "테슬라, 모듈형 AI 데이터센터 'Megapod' 추진",
+      "summary": "서버·네트워킹·전력·냉각을 갖춘 턴키 AI 데이터센터 블록 상표 출원.",
+      "url": "https://electrek.co/2026/06/21/tesla-megapod-ai-data-center-hardware/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 인프라"
+      },
+      "related": [
+        "AI 데이터센터 하드웨어 공급 경쟁 추적"
+      ],
+      "report": {
+        "tldr": "테슬라가 턴키 AI 데이터센터 블록 'Megapod' 상표를 출원했다.",
+        "what": "출원서는 AI 워크로드용 완결형 컴퓨팅 시스템을 설명한다. 서버·네트워킹·전력·냉각을 포함한 랙-룸 단위의 턴키 AI 데이터센터 빌딩블록으로 보이며, 엔비디아의 지배적 플랫폼과 경쟁할 전망이다.",
+        "points": [
+          "턴키 AI 데이터센터 하드웨어",
+          "서버·네트워킹·전력·냉각 통합",
+          "엔비디아 플랫폼과 경쟁"
+        ],
+        "why": [
+          "AI 인프라 하드웨어 경쟁 확대 신호"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-universe-learn",
+      "title": "우주는 그저 배우고 싶어 한다",
+      "summary": "DNA도 신경망 가중치도 외부 과정이 활성화해야 의미가 생긴다는 비유.",
+      "url": "https://dayafter.substack.com/p/the-universe-just-wants-to-learn",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "개념·에세이"
+      },
+      "related": [],
+      "report": {
+        "tldr": "정보는 외부 과정이 활성화할 때 비로소 의미를 갖는다는 에세이.",
+        "what": "DNA는 효소가 나선을 풀어 mRNA로 복제하고 해독될 때 의미가 된다. 신경망 가중치도 그 자체로는 무의미하며 순전파(추론) 중에만 의미를 갖는다. 두 경우 모두 수동적 정보 기질이 외부 과정에 의해 살아난다.",
+        "points": [
+          "정보 기질과 활성화 과정",
+          "DNA와 신경망의 평행",
+          "추론 시점의 의미 발생"
+        ],
+        "why": [
+          "AI·생명 정보 처리에 대한 개념적 통찰"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-shinkei-fish",
+      "title": "파운더스 펀드의 베팅: 인도적으로 도살하는 생선 로봇",
+      "summary": "컴퓨터 비전으로 어종·뇌 위치를 찾아 즉시 도살, 신선도·풍미 향상.",
+      "url": "https://techcrunch.com/2026/06/20/founders-funds-outlier-bet-on-humanely-killed-fish/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "푸드테크"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Shinkei는 생선을 스캔해 즉시 인도적으로 도살하는 냉장고 크기 로봇이다.",
+        "what": "Shinkei의 로봇은 컴퓨터 비전으로 어종을 식별하고 뇌 위치를 찾아 뇌를 관통하고 아가미를 절단해 생선이 몸부림치거나 질식하기 전에 죽인다. 느린 죽음이 유발하는 스트레스 호르몬·젖산을 막아 풍미와 보존성을 높이고, 숙성 기간을 늘려 고급 사시미의 감칠맛을 살린다.",
+        "points": [
+          "컴퓨터 비전 기반 어종·뇌 식별",
+          "즉시 도살로 스트레스 감소",
+          "신선도·숙성·풍미 향상"
+        ],
+        "why": [
+          "식품 기술 자동화의 틈새 응용"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-maintainer-ai-pilled",
+      "title": "메인테이너가 AI에 빠졌을 때",
+      "summary": "소프트웨어 장인정신을 가진 사람이 잘 감독하면 에이전트가 PR을 크게 가속.",
+      "url": "https://octet-stream.net/b/scb/2026-06-22-when-its-the-maintainer-whos-ai-pilled.html",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "개발 생산성"
+      },
+      "related": [
+        "에이전트 보조 PR 워크플로 시범 도입"
+      ],
+      "report": {
+        "tldr": "장인정신 있는 메인테이너가 감독하면 에이전트가 PR 과정을 극적으로 가속한다.",
+        "what": "잘 감독된 에이전트는 소프트웨어와 장인정신을 중시하고 명확한 목표를 가진 사람과 짝을 이룰 때 큰 속도 향상을 준다. 에이전트는 이슈를 프롬프트로 바꾸고 해결책을 생성·편집해 머지 가능 기준을 맞춘 뒤 스스로 커밋해, 이슈를 식별 후 몇 시간 만에 고칠 수 있다.",
+        "points": [
+          "감독된 에이전트의 PR 가속",
+          "이슈→프롬프트→해결 자동화",
+          "머지 가능 기준 충족 후 커밋"
+        ],
+        "why": [
+          "에이전트 보조 개발의 실전 효과"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-agent-hooks",
+      "title": "지시에 의존하지 말고 에이전트 훅으로 가드레일을 강제하라",
+      "summary": "작업 중간에 개입하는 에이전트 훅으로 100% 결정적 검증을 적용.",
+      "url": "https://zarar.dev/agent-hooks-deterministic-guardrails-for-ai-generated-code/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 가드레일"
+      },
+      "related": [
+        "에이전트 훅으로 CI 가드레일 구성"
+      ],
+      "report": {
+        "tldr": "에이전트 훅은 작업 도중 개입해 규칙 위반을 100% 결정적으로 막는다.",
+        "what": "에이전트 훅은 작업이 끝난 뒤가 아니라 진행 중에 개입해 에이전트가 규칙을 무시하지 못하게 한다. 글은 'input' 태그 직접 사용 금지, 테스트 실패 중 완료 주장 금지를 강제하는 두 가지 훅 작성법을 다룬다.",
+        "points": [
+          "작업 중 개입형 훅",
+          "결정적 규칙 강제",
+          "완료 거짓 주장 방지"
+        ],
+        "why": [
+          "에이전트 신뢰성 확보 기법"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-jane-street",
+      "title": "월가의 비밀 강자 제인스트리트, AI 스포트라이트로",
+      "summary": "올해 500명+ 채용 추진하며 AI 투자·트레이딩 강화 위해 전면 부상.",
+      "url": "https://links.tldrnewsletter.com/36JvDA",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 투자·인재"
+      },
+      "related": [],
+      "report": {
+        "tldr": "제인스트리트가 AI 인재·투자를 노리며 비밀주의를 벗고 전면에 나선다.",
+        "what": "제인스트리트는 올해 500명 이상을 채용하려 한다. 과거 비밀스럽던 이 회사는 AI 스타트업·인재의 관심을 끌기 위해 더 전면에 나서고 있으며, 주요 AI 투자자가 되고 트레이딩을 AI로 강화하려 한다.",
+        "points": [
+          "대규모 AI 인재 채용",
+          "비밀주의 탈피·전면 부상",
+          "AI 투자·트레이딩 강화"
+        ],
+        "why": [
+          "금융권의 AI 인재·컴퓨트 경쟁 심화"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-flat-curve",
+      "title": "평탄 곡선 사회",
+      "summary": "AI 역량은 지수적으로 성장하지만 대다수는 진보를 체감하지 못한다는 주장.",
+      "url": "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "60%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 전망"
+      },
+      "related": [],
+      "report": {
+        "tldr": "AI는 지수적으로 발전하지만 대부분은 진보를 더 이상 체감하지 못할 것이라는 전망.",
+        "what": "앤트로픽은 AI 모델 지능이 위험해졌다고 주장한다. AI 역량은 지수적으로 성장하지만 대다수는 진보를 못 느끼고, 소수만 올해 본 수준을 넘는 초지능에 접근하게 된다. 거대한 컴퓨트 요구와 정부 통제로 오픈 모델은 Fable급을 넘기 어렵다는 시각이다.",
+        "points": [
+          "지수적 발전 vs 체감 정체",
+          "초지능 접근의 양극화",
+          "오픈 모델 성능 한계 전망"
+        ],
+        "why": [
+          "AI 접근 불평등과 정책 통제 논점"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-big-egos",
+      "title": "빅테크 엔지니어는 큰 자아가 필요하다",
+      "summary": "최고의 엔지니어는 상황에 따라 높은 자아와 낮은 자아를 오간다.",
+      "url": "https://www.seangoedecke.com/big-tech-needs-big-egos/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "People",
+        "status": "Watch",
+        "affectedSurface": "조직·문화"
+      },
+      "related": [],
+      "report": {
+        "tldr": "가장 효과적인 엔지니어는 상황에 따라 자아의 크기를 달리한다.",
+        "what": "가장 효과적인 엔지니어는 어떤 상황에서는 높은 자아를, 다른 상황에서는 놀랍도록 낮은 자아를 동시에 보인다.",
+        "points": [
+          "상황별 자아 조절",
+          "높은 자아와 낮은 자아의 균형",
+          "자기 확신과 경청의 공존"
+        ],
+        "why": [
+          "효과적 협업·의사결정 관점"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-hackquisitions",
+      "title": "그 '핵쿼지션'들에 대하여",
+      "summary": "구글이 27억 달러로 데려온 인재가 2년도 안 돼 떠난 사례 분석.",
+      "url": "https://spyglass.org/failed-hackquisitions/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "M&A·인재"
+      },
+      "related": [],
+      "report": {
+        "tldr": "거액 인재 영입(핵쿼지션)이 종종 실패로 끝난다는 분석.",
+        "what": "구글은 노암 셰이저를 다시 데려오려 27억 달러를 썼지만 그는 2년도 안 돼 OpenAI로 떠났다.",
+        "points": [
+          "거액 인재 영입의 한계",
+          "고비용 핵쿼지션의 실패 사례",
+          "계약 구조와 리텐션의 한계"
+        ],
+        "why": [
+          "인재 영입 전략의 위험"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-amazon-hitl",
+      "title": "아마존이 '휴먼 인 더 루프' AI 거버넌스를 싫어하는 이유",
+      "summary": "사람은 일관적이지 않고 시간이 갈수록 성능이 떨어진다는 주장.",
+      "url": "https://www.theregister.com/security/2026/06/20/why-amazon-hates-human-in-the-loop-ai-governance/5258639",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "AI 거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "아마존은 반복 승인 기반 휴먼 인 더 루프가 확장성이 없다고 본다.",
+        "what": "사람은 일관적이지 않고 실수하며 시간이 지날수록 성능이 떨어진다. 아마존은 반복 승인 결정이 판단력 저하를 부른다며, 에이전트 정체성에 묶인 종단 간 책임과 범위 기반 권한을 선호한다.",
+        "points": [
+          "반복 승인의 판단력 저하",
+          "사람 개입의 확장성 한계",
+          "에이전트 정체성·권한 기반 통제"
+        ],
+        "why": [
+          "에이전트 거버넌스 설계 논점"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-lighthouse-agentic",
+      "title": "Lighthouse 에이전트 브라우징 스코어링",
+      "summary": "사이트가 기계 상호작용에 얼마나 잘 구성됐는지 결정적 감사로 평가.",
+      "url": "https://developer.chrome.com/docs/lighthouse/agentic-browsing/scoring",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 웹"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Lighthouse가 사이트의 기계 상호작용 적합성을 결정적 감사로 평가한다.",
+        "what": "Lighthouse 에이전트 브라우징 카테고리는 사이트가 기계 상호작용에 얼마나 잘 만들어졌는지를 결정적 감사 세트로 평가한다.",
+        "points": [
+          "에이전트 친화도 평가",
+          "결정적·재현 가능 감사",
+          "CI/CD 통합 가능한 감사"
+        ],
+        "why": [
+          "에이전트 웹 대응 준비도 점검"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-midjourney-scanner",
+      "title": "미드저니 스캐너에 대한 예비 고찰",
+      "summary": "기술은 멋지지만 현재 대부분의 진지한 의료 응용엔 유용하지 않을 가능성.",
+      "url": "https://www.astralcodexten.com/p/preliminary-thoughts-on-the-midjourney",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "60%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 헬스케어"
+      },
+      "related": [],
+      "report": {
+        "tldr": "미드저니 의료 스캐너 기술은 흥미롭지만 실용성엔 의문이 제기된다.",
+        "what": "기술 자체는 멋지지만, 현재 대부분의 진지한 의료 응용에는 유용하지 않을 가능성이 높다는 분석이다.",
+        "points": [
+          "기술적 흥미 vs 임상 유용성",
+          "현 단계 실용성 의문",
+          "과대 마케팅 경계 필요"
+        ],
+        "why": [
+          "AI 의료 영상 과대평가 경계"
+        ]
+      },
+      "source": "TLDR"
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#7fd1c1",
+  "bg": "#163029",
+  "items": [
+    {
+      "id": "devops-chatgpt-analytics",
+      "title": "기업용 신규 사용 분석·지출 통제",
+      "summary": "ChatGPT·Codex 사용 데이터를 글로벌 관리 콘솔에서 통합.",
+      "url": "https://links.tldrnewsletter.com/CigtyQ",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "IT",
+        "status": "Watch",
+        "affectedSurface": "AI 거버넌스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "ChatGPT Enterprise가 ChatGPT·Codex 사용을 통합한 분석·지출 통제를 도입했다.",
+        "what": "ChatGPT Enterprise는 글로벌 관리 콘솔에서 ChatGPT·Codex 사용 데이터를 통합해 도입·모델별 소비·상위 사용자 가시성을 제공한다. 관리자는 워크스페이스·그룹·개인 한도를 오버라이드·요청과 함께 설정해 비용 거버넌스를 개선하면서 유연한 접근을 유지한다.",
+        "points": [
+          "ChatGPT·Codex 사용 통합",
+          "워크스페이스·개인 한도",
+          "비용 거버넌스 개선"
+        ],
+        "why": [
+          "엔터프라이즈 AI 비용 관리"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-cloudflare-one-stack",
+      "title": "Cloudflare One 스택: 에이전트 기반 배포",
+      "summary": "제로트러스트 전문성을 인코딩한 에이전트 스킬로 계획·마이그레이션·구성·문제해결 자동화.",
+      "url": "https://blog.cloudflare.com/cloudflare-one-stack/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "제로트러스트·자동화"
+      },
+      "related": [
+        "에이전트 기반 SASE 마이그레이션 검토"
+      ],
+      "report": {
+        "tldr": "Cloudflare One 스택이 제로트러스트 배포를 자동화하는 에이전트 스킬을 제공한다.",
+        "what": "Cloudflare One 스택은 제로트러스트 전문성을 인코딩한 에이전트 레디 스킬로 Access·Gateway·Tunnel·WAN 등 보안 서비스의 계획·마이그레이션·구성·문제해결을 자동화한다. 벤더 간 마이그레이션, MCP 통합 기반 실시간 API 관리, 기존 네트워크·SASE 구성의 구조화 변환을 지원한다.",
+        "points": [
+          "제로트러스트 에이전트 스킬",
+          "계획·마이그레이션·구성 자동화",
+          "MCP 기반 실시간 관리",
+          "벤더 간 마이그레이션"
+        ],
+        "why": [
+          "보안 운영의 에이전트 자동화"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-temp-cloudflare",
+      "title": "AI 에이전트용 임시 Cloudflare 계정",
+      "summary": "wrangler deploy --temporary로 가입 없이 60분간 즉시 배포.",
+      "url": "https://blog.cloudflare.com/temporary-accounts/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 배포"
+      },
+      "related": [
+        "에이전트 자율 배포 파이프라인 검토"
+      ],
+      "report": {
+        "tldr": "Cloudflare 임시 계정으로 에이전트가 가입 없이 60분간 즉시 배포·검증한다.",
+        "what": "Cloudflare는 AI 코딩 에이전트가 `wrangler deploy --temporary`로 가입·인증 없이 즉시 사이트·API를 배포하게 했다. 배포는 60분간 유지되며 개발자가 클레임해 영구화할 수 있어, 에이전트가 사람 개입 없이 코드 변경을 반복·검증한다.",
+        "points": [
+          "--temporary 즉시 배포",
+          "60분 유지·클레임 영구화",
+          "에이전트 자율 반복"
+        ],
+        "why": [
+          "에이전트 자율 배포·검증 인프라"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-aws-devops-agent",
+      "title": "AWS DevOps Agent(GA)·Datadog MCP로 자율 장애 대응",
+      "summary": "모니터링·인프라 상관분석으로 대응 시간을 시간→분으로 단축.",
+      "url": "https://aws.amazon.com/blogs/devops/production-ready-autonomous-incident-resolution-with-aws-devops-agent-now-ga-and-datadog-mcp-server/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "DevOps",
+        "status": "Watch",
+        "affectedSurface": "인시던트 대응"
+      },
+      "related": [
+        "에이전트 기반 인시던트 자동화 검토"
+      ],
+      "report": {
+        "tldr": "AWS DevOps Agent가 GA로 출시돼 Datadog MCP와 자율 장애 해결을 제공한다.",
+        "what": "AWS DevOps Agent가 Datadog MCP Server와 함께 GA가 되어, AWS·멀티클라우드·온프레 인프라와 모니터링 데이터를 자동 상관분석해 대응 시간을 시간에서 분으로 줄인다. Slack·PagerDuty·ServiceNow 자동 조율과 AI 생성 완화 계획, 선제 예방 권고를 포함한다.",
+        "points": [
+          "자율 장애 해결 GA",
+          "Datadog MCP 상관분석",
+          "대응 시간 시간→분",
+          "Slack·PagerDuty·ServiceNow 연동"
+        ],
+        "why": [
+          "MTTR 단축형 에이전트 운영"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-llm-incident-report",
+      "title": "LLM이 쓰는 인시던트 리포트 미래가 두렵다",
+      "summary": "데이터 수집은 줄이되 리포트 작성은 인간 종합을 우회해 학습을 약화시킬 위험.",
+      "url": "https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "DevOps",
+        "status": "Watch",
+        "affectedSurface": "인시던트 문화"
+      },
+      "related": [],
+      "report": {
+        "tldr": "LLM이 인시던트 리포트를 직접 쓰면 인간 종합을 우회해 조직 학습이 약화된다.",
+        "what": "LLM은 인시던트 데이터 수집의 수고를 줄일 수 있으나, 리포트 작성 자체를 맡기면 설명이 증거와 맞는지 검증하게 하는 인간 종합을 우회한다. AI 작성 리포트는 그럴듯해 보여도 핵심 시스템 상호작용을 지어내거나 누락할 수 있고, 코드·실시간 대응 같은 즉각적 정합성 점검이 없어 학습을 줄인다.",
+        "points": [
+          "수집 보조엔 유용",
+          "작성 위임의 위험",
+          "그럴듯함 vs 정합성",
+          "조직 학습 약화 우려"
+        ],
+        "why": [
+          "AI 도입 시 인간 종합 보존 필요"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-turso",
+      "title": "Turso (GitHub 레포)",
+      "summary": "SQLite 호환 Rust 인프로세스 DB, 네이티브 async·벡터 검색 실험적 지원.",
+      "url": "https://github.com/tursodatabase/turso",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "데이터베이스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Turso는 SQLite 호환 Rust 인프로세스 DB로 베타에서 async·벡터 검색을 실험 지원한다.",
+        "what": "Rust로 작성된 SQLite 호환 인프로세스 DB Turso가 네이티브 async·벡터 검색 등 실험 기능과 함께 베타로 출시됐다. SQLite의 다음 진화를 지향하며 Turso Cloud·Kin AI 등 프로덕션을 이미 구동하나, SQLite급 신뢰성까진 주의·백업이 권장된다.",
+        "points": [
+          "SQLite 호환 Rust DB",
+          "async·벡터 검색 실험",
+          "프로덕션 구동·베타 단계"
+        ],
+        "why": [
+          "임베디드 DB의 새 옵션"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-jcode",
+      "title": "Jcode (GitHub 레포)",
+      "summary": "10배 빠른 부팅과 자기수정 모드를 갖춘 오픈소스 코딩 에이전트 프레임워크.",
+      "url": "https://github.com/1jehuang/jcode",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "에이전트 프레임워크"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Jcode는 10배 빠른 부팅과 자기수정 모드를 갖춘 오픈소스 코딩 에이전트 프레임워크다.",
+        "what": "Jcode는 경쟁 대비 10배 빠른 부팅과 AI가 자기 소스코드를 실시간 수정하는 '셀프 데브 모드'로 출시됐다. 인간 유사 시맨틱 메모리 검색, 자동 충돌 해결 기반 네이티브 멀티에이전트 협업, 로컬 포함 다중 AI 제공자 지원을 갖췄으며 커스텀 Rust 라이브러리로 머메이드 다이어그램을 매우 빠르게 렌더한다.",
+        "points": [
+          "10배 빠른 부팅",
+          "셀프 데브 모드",
+          "멀티에이전트 협업·충돌 해결"
+        ],
+        "why": [
+          "코딩 에이전트 프레임워크 실험"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-gitlab-191",
+      "title": "GitLab 19.1: 단일 취약점 뷰와 AI 거버넌스",
+      "summary": "서드파티 스캐너 통합 관리와 AI 에이전트 감사·승인 가드레일.",
+      "url": "https://about.gitlab.com/blog/one-vulnerability-view/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "DevOps",
+        "status": "Watch",
+        "affectedSurface": "DevSecOps"
+      },
+      "related": [
+        "에이전트 행위 감사·승인 게이트 도입"
+      ],
+      "report": {
+        "tldr": "GitLab 19.1이 스캐너 통합 관리와 AI 에이전트 거버넌스 기능을 추가했다.",
+        "what": "GitLab 19.1은 서드파티 보안 스캐너의 중앙 집행과 통합 취약점 관리, AI 기반 교정을 더하고, 전체 브랜치 스캔·오탐 감축으로 시크릿 탐지를 개선한다. 에이전트 행위 감사 스트리밍과 승인 가드레일 같은 AI 거버넌스로 에이전트 활동을 가시화·통제한다.",
+        "points": [
+          "스캐너 통합·취약점 관리",
+          "AI 교정·시크릿 탐지 개선",
+          "에이전트 감사·승인 가드레일"
+        ],
+        "why": [
+          "DevSecOps의 AI 거버넌스 진전"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-clickhouse-10yr",
+      "title": "ClickHouse 오픈소스 10년",
+      "summary": "실시간 웹스케일 분석 시스템에서 인기 오픈소스 분석 DB로 성장.",
+      "url": "https://clickhouse.com/blog/open-source-10",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "데이터베이스"
+      },
+      "related": [],
+      "report": {
+        "tldr": "ClickHouse가 컬럼나·스트리밍 쿼리 기반으로 10년간 성장한 여정을 정리했다.",
+        "what": "ClickHouse는 실시간 웹스케일 리포팅용 내부 분석 시스템에서 기여자 2000명 이상의 인기 오픈소스 분석 DB로 성장했다. 컬럼나 스토리지, 스트리밍 쿼리 파이프라인, MergeTree, 복제 멀티-DC 요구를 중심으로 처음부터 설계됐으며, 진정한 오픈 개발은 공개 로드맵·기여 프로세스·CI·문서·지원·기여자 크레딧을 뜻한다.",
+        "points": [
+          "10년·기여자 2000명+",
+          "컬럼나·MergeTree 설계",
+          "오픈 개발 원칙"
+        ],
+        "why": [
+          "오픈소스 분석 DB 성장사"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-fastly-waf",
+      "title": "Fastly 차세대 WAF, 구글 클라우드 서비스 익스텐션 배포",
+      "summary": "로드밸런서 파이프라인 내에서 악성 트래픽 검사·차단.",
+      "url": "https://www.fastly.com/blog/deploying-fastly-next-gen-waf-google-cloud-service-extensions-secure-traffic",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "WAF·엣지"
+      },
+      "related": [],
+      "report": {
+        "tldr": "Fastly 차세대 WAF가 구글 클라우드 서비스 익스텐션과 통합해 로드밸런서에서 트래픽을 보호한다.",
+        "what": "Fastly 차세대 WAF는 구글 클라우드 서비스 익스텐션과 통합해 로드밸런서 파이프라인 내에서 악성 트래픽을 검사·차단한다. 애플리케이션 성능에 영향 없이 봇·크리덴셜 스터핑·SQL 인젝션 같은 위협을 실시간 방어한다.",
+        "points": [
+          "로드밸런서 내 WAF",
+          "실시간 위협 차단",
+          "성능 영향 최소화"
+        ],
+        "why": [
+          "엣지 보안 통합 사례"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-newrelic-kiro",
+      "title": "New Relic AI + AWS Kiro로 에이전트 개발·장애 해결 가속",
+      "summary": "MCP 서버와 Kiro 원클릭 통합으로 관측 데이터를 개발 워크플로에 직접 투입.",
+      "url": "https://newrelic.com/blog/news/new-relic-ai-aws",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "DevOps",
+        "status": "Watch",
+        "affectedSurface": "관측성"
+      },
+      "related": [],
+      "report": {
+        "tldr": "New Relic이 MCP 서버와 AWS Kiro를 원클릭 통합해 관측 데이터를 개발에 직결한다.",
+        "what": "New Relic은 MCP Server와 AWS Kiro 간 원클릭 통합을 출시해 메트릭·로그·이벤트·트레이스 같은 실시간 관측 데이터를 AI 개발 워크플로에 직접 가져온다. 코드 품질 향상, 문제해결 가속, MTTR 단축이 목표다.",
+        "points": [
+          "MCP·Kiro 원클릭 통합",
+          "관측 데이터를 개발에 직결",
+          "MTTR 단축 목표"
+        ],
+        "why": [
+          "관측성·에이전트 개발 결합"
+        ]
+      },
+      "source": "TLDR DevOps"
+    },
+    {
+      "id": "devops-ec2-g7",
+      "title": "Amazon EC2 G7 인스턴스 GA (NVIDIA RTX PRO 4500 Blackwell)",
+      "summary": "AWS가 NVIDIA RTX PRO 4500 Blackwell 서버 에디션 GPU를 최초 지원.",
+      "url": "https://aws.amazon.com/blogs/aws/announcing-amazon-ec2-g7-instances-accelerated-by-nvidia-rtx-pro-4500-blackwell-server-edition-gpus/",
+      "originalDate": "2026-06-22",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Engineering",
+        "status": "Watch",
+        "affectedSurface": "클라우드 GPU"
+      },
+      "related": [],
+      "report": {
+        "tldr": "AWS가 EC2 G7 인스턴스를 GA로 출시해 NVIDIA RTX PRO 4500 Blackwell GPU를 지원한다.",
+        "what": "AWS가 EC2 G7 인스턴스를 정식 출시해, NVIDIA RTX PRO 4500 Blackwell 서버 에디션 GPU를 지원하는 첫 주요 클라우드 제공사가 됐다.",
+        "points": [
+          "EC2 G7 GA",
+          "RTX PRO 4500 Blackwell 지원",
+          "주요 클라우드 최초"
+        ],
+        "why": [
+          "GPU 인스턴스 옵션 확대"
+        ]
+      },
+      "source": "TLDR DevOps"
+    }
+  ]
+}
