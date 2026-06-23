@@ -1,0 +1,429 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-ternus-apple-ceo",
+      "title": "존 터너스, CEO 취임 시 애플 디자인팀 위상 재정립",
+      "summary": "차기 CEO 존 터너스가 디자인 주도 제품 개발로의 복귀 준비.",
+      "url": "https://9to5mac.com/2026/06/21/john-ternus-apple-design-team-influence/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "제품 디자인"
+      },
+      "related": [
+        "애플 디자인 리더십 변화 추적",
+        "폴더블 아이폰 디자인 동향 점검"
+      ],
+      "report": {
+        "tldr": "차기 애플 CEO 존 터너스가 디자인 주도 개발로의 복귀를 준비한다.",
+        "what": "애플은 차기 CEO 존 터너스 아래 디자인 주도 제품 개발로의 전환을 준비하는 것으로 전해진다. 조니 아이브 퇴사 후 운영·재무가 더 큰 영향력을 갖던 수년을 지나서다. 터너스는 애플 산업디자인팀과 긴밀히 협력하며 그 권한을 되살리려 하고, 이는 디자인이 제품을 지배적으로 형성하던 시대에 가까운 철학을 반영한다. 그는 폴더블 아이폰 등 주요 하드웨어 출시의 공개 얼굴이 될 전망이며, 애플 제품이 고객이 소유한 가장 아름답게 디자인된 물건으로 남아야 한다고 강조해 왔다.",
+        "points": [
+          "디자인 주도 개발로 복귀 준비",
+          "아이브 퇴사 후 운영·재무 영향력 역전",
+          "산업디자인팀 권한 복원",
+          "폴더블 아이폰 등 출시의 공개 얼굴"
+        ],
+        "why": [
+          "애플 리더십의 디자인 우선 회귀는 제품 철학과 산업 디자인 트렌드에 영향"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-whatsapp-animation",
+      "title": "왓츠앱, iOS에 새 메시지 애니메이션 출시",
+      "summary": "메시지가 즉시 나타나는 대신 부드럽게 페이드·스케일되며 등장.",
+      "url": "https://wabetainfo.com/whatsapp-is-rolling-out-a-new-message-animation-on-ios/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "UI 모션"
+      },
+      "related": [
+        "메시징 앱 모션 디자인 동향 점검"
+      ],
+      "report": {
+        "tldr": "왓츠앱이 iOS에서 메시지가 부드럽게 페이드·스케일되는 애니메이션을 시험한다.",
+        "what": "왓츠앱은 보낸·받은 메시지가 즉시 나타나는 대신 부드럽게 페이드·스케일되며 등장하는 재설계된 iOS 메시지 애니메이션을 시험하고 있다. 현재 일부 베타 테스터에게 제공되며, 설정 → 채팅 → 애니메이션에 새 토글을 추가해 아이폰에서 처음으로 메시지 애니메이션을 켜고 끌 수 있게 해 iOS 경험을 안드로이드에 더 맞춘다.",
+        "points": [
+          "메시지가 페이드·스케일로 등장",
+          "설정에 애니메이션 토글 추가",
+          "iOS 최초 메시지 애니메이션 제어",
+          "안드로이드 경험과 정렬"
+        ],
+        "why": [
+          "미세 인터랙션 디테일이 메시징 앱의 체감 품질을 좌우함"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-odyssey-valuation",
+      "title": "월드모델 스타트업 오디세이, 아마존 등 투자로 14.5억 달러 가치",
+      "summary": "자율주행 베테랑이 세운 오디세이가 3.1억 달러 시리즈B 유치.",
+      "url": "https://techcrunch.com/2026/06/17/world-model-maker-odyssey-nabs-1-45b-valuation-backed-by-amazon-and-other-big-names/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "월드모델·AI"
+      },
+      "related": [
+        "월드모델 스타트업 동향 추적",
+        "생성형 환경·게임 제작 도구 점검"
+      ],
+      "report": {
+        "tldr": "월드모델 스타트업 오디세이가 14.5억 달러 가치로 3.1억 달러를 유치했다.",
+        "what": "자율주행 베테랑 올리버 캐머런과 제프 호크가 공동 창업한 AI 월드모델 스타트업 오디세이가 아마존·AMD 벤처스·GV 등을 투자자로 3.1억 달러 시리즈B를 14.5억 달러 가치에 유치했다. 2023년 설립된 이 회사는 비디오 게임 제작부터 로보틱스까지 쓰이는 월드모델을 만들며, 차량이 아닌 카메라를 단 사람을 통해 실세계 물리 데이터를 수집한다. 아마존 파트너십으로 AWS가 선호 클라우드 제공사가 되고 AWS Trainium 칩 최적화가 계획됐다.",
+        "points": [
+          "3.1억 달러 시리즈B, 14.5억 달러 가치",
+          "아마존·AMD 벤처스·GV 투자",
+          "카메라 단 사람으로 물리 데이터 수집",
+          "AWS 선호 클라우드·Trainium 최적화"
+        ],
+        "why": [
+          "월드모델이 게임·로보틱스·디자인 도구의 새로운 기반 기술로 부상"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-vibe-architects",
+      "title": "바이브 아키텍트: 에이전틱 바이브 코더",
+      "summary": "비개발자가 직관에 의존해 복잡한 에이전틱 AI 시스템을 구축.",
+      "url": "https://www.nngroup.com/articles/vibe-architects/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Reference",
+        "affectedSurface": "AI UX"
+      },
+      "related": [
+        "노코드·에이전트 빌드 도구 UX 점검",
+        "비개발자 온보딩 설계 참조"
+      ],
+      "report": {
+        "tldr": "비개발자가 직관으로 에이전틱 AI 시스템을 만드는 '바이브 아키텍트' 연구.",
+        "what": "비개발자들이 기술 지식보다 시행착오·유튜브·레딧으로 다듬은 직관에 의존해 복잡한 에이전틱 AI 시스템을 구축하고 있다. 그런 '바이브 아키텍트' 7명을 연구한 결과, 수백 시간을 들였음에도 깊은 불투명성이 남았다. 참가자들은 최소한의 감독으로 클로드에 결정을 위임했고, 부정확한 멘탈 모델을 가졌으며, 수주에 걸쳐 시스템이 부패하는 것을 겪었다. 연구는 원시 역량만으로는 이 시장을 열 수 없으며, 더 명확한 온보딩과 사용 가능한 진입점 없이는 도구가 이미 기술에 충분히 가까운 이들에게만 유리할 것이라 결론짓는다.",
+        "points": [
+          "비개발자가 직관으로 에이전틱 시스템 구축",
+          "최소 감독으로 클로드에 결정 위임",
+          "부정확한 멘탈 모델·시스템 부패",
+          "온보딩·진입점 개선 필요"
+        ],
+        "why": [
+          "AI 빌드 도구의 대중화엔 UX·온보딩 설계가 역량만큼 중요함"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-skill-md",
+      "title": "SKILL.md란 무엇이며 웹 디자이너가 왜 신경 써야 하나",
+      "summary": "AI 코딩 에이전트에 전문 표준대로 작업을 가르치는 구조화 지시 세트.",
+      "url": "https://1stwebdesigner.com/what-is-skill-md-and-why-should-web-designers-care/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Tools",
+        "status": "Adopt",
+        "affectedSurface": "디자인 시스템"
+      },
+      "related": [
+        "SKILL.md 작성·공유 워크플로 점검",
+        "디자인 토큰·접근성 자동화 참조"
+      ],
+      "report": {
+        "tldr": "SKILL.md는 AI 에이전트에 전문 표준을 가르치는 구조화 지시 세트다.",
+        "what": "SKILL.md 파일은 AI 코딩 에이전트에 특정 작업을 전문 표준에 맞게 수행하도록 가르치는 구조화된 지시 세트로, 원시 AI 출력과 프로덕션급 작업 사이 간극을 좁힌다. 일회성 프롬프트와 달리 스킬은 지속적이고 버전 관리되며 팀 간 공유 가능하고, CSS 그리드 선호·디자인 토큰 사용·접근성 검사 강제 같은 판단을 인코딩한다. 명확한 지침 없는 AI는 표준에서 벗어나므로, SKILL.md는 한 번 정의해 일관되게 적용하는 실무적 방법이라 웹 디자이너가 주목해야 한다.",
+        "points": [
+          "AI 에이전트에 전문 표준 학습",
+          "지속·버전관리·공유 가능",
+          "CSS 그리드·디자인 토큰·접근성 인코딩",
+          "한 번 정의해 일관 적용"
+        ],
+        "why": [
+          "디자인 표준을 코드화한 스킬이 AI 산출물 품질을 끌어올림"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-polymath-architect",
+      "title": "T자형 UX 전문가, 폴리매스 아키텍트에 자리 내주다",
+      "summary": "AI가 좁은 전문성의 가치를 낮추며 폭넓은 역량·판단을 가진 사람 수요 증가.",
+      "url": "https://links.tldrnewsletter.com/qzty6N",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Reference",
+        "affectedSurface": "커리어·UX"
+      },
+      "related": [
+        "AI 시대 디자이너 역량 변화 점검"
+      ],
+      "report": {
+        "tldr": "AI가 좁은 전문성 가치를 낮추며 폭넓은 폴리매스형 인재 수요가 커진다.",
+        "what": "AI는 한때 여러 전문가가 필요하던 작업을 개인이 수행하기 쉽게 만들어 좁은 전문성의 가치를 낮추고, 전체 워크플로를 감독하며 폭넓은 역량과 강한 판단을 결합하는 전문가로 수요를 옮긴다. 품질 평가·의사결정·실수 포착엔 깊은 전문성이 여전히 중요하지만, 가장 가치 있는 사람은 점점 분야를 넘나들며 AI 도구를 효과적으로 지휘하고 단일 역할·기예가 아닌 결과에 집중하는 이들이 될 것이다.",
+        "points": [
+          "AI가 좁은 전문성 가치 하락 유발",
+          "워크플로 감독형 인재 수요 증가",
+          "깊은 전문성은 평가·판단에 여전히 중요",
+          "결과 중심·교차 분야 역량 강조"
+        ],
+        "why": [
+          "AI 시대 UX·디자인 커리어가 폴리매스형으로 재편됨"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-igenflow-guides",
+      "title": "단계별 가이드·화면 캡처·SOP (웹사이트)",
+      "summary": "웹 워크플로를 단계별 가이드와 빠른 워크스루 영상으로 변환.",
+      "url": "https://www.igenflow.ai/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Tools",
+        "status": "Reference",
+        "affectedSurface": "문서·온보딩"
+      },
+      "related": [
+        "SOP·가이드 자동화 도구 비교"
+      ],
+      "report": {
+        "tldr": "웹 워크플로를 단계별 가이드와 워크스루 영상으로 바꾸는 도구.",
+        "what": "어떤 웹 워크플로든 단계별 가이드와 빠른 워크스루 영상으로 바꿔준다.",
+        "points": [
+          "웹 워크플로를 단계별 가이드로",
+          "빠른 워크스루 영상 생성",
+          "SOP 문서화 지원"
+        ],
+        "why": [
+          "문서·온보딩 콘텐츠 제작을 자동화하는 디자인 도구"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-ai-image-tools",
+      "title": "AI 이미지 도구 (웹사이트)",
+      "summary": "AI 이미지·투명 PNG·로고·썸네일·헤드샷·복원·업스케일을 한 워크스페이스에서.",
+      "url": "https://tiktomato.com/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Tools",
+        "status": "Reference",
+        "affectedSurface": "이미지 도구"
+      },
+      "related": [
+        "AI 이미지 생성·편집 도구 비교"
+      ],
+      "report": {
+        "tldr": "AI 이미지·로고·썸네일·업스케일을 한 워크스페이스에서 만드는 도구.",
+        "what": "AI 이미지, 투명 PNG 컷아웃, 로고, 썸네일, 헤드샷, 복원 사진, 업스케일 이미지, 영상을 한 워크스페이스에서 만든다.",
+        "points": [
+          "AI 이미지·로고·썸네일 생성",
+          "투명 PNG 컷아웃·헤드샷",
+          "사진 복원·업스케일",
+          "영상 생성 포함"
+        ],
+        "why": [
+          "디자이너의 반복 이미지 작업을 통합 워크스페이스로 묶음"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-vimi",
+      "title": "사진을 살아 있는 순간으로 (웹사이트)",
+      "summary": "사진을 영상으로 바꾸는 올인원 AI 이미지-영상 생성기 Vimi.",
+      "url": "https://vimi.art/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Tools",
+        "status": "Reference",
+        "affectedSurface": "영상 생성"
+      },
+      "related": [
+        "이미지-투-비디오 도구 비교"
+      ],
+      "report": {
+        "tldr": "Vimi는 사진을 살아 있는 영상으로 바꾸는 올인원 AI 도구다.",
+        "what": "Vimi는 사진을 살아 있는 순간으로 바꾸는 올인원 AI 이미지-영상 생성기다. 좋아하는 필터를 고르고 사진을 올리면 즉시 멋진 영상을 생성한다.",
+        "points": [
+          "사진→영상 변환",
+          "필터 선택·즉시 생성",
+          "올인원 이미지-영상 도구"
+        ],
+        "why": [
+          "정적 이미지를 모션 콘텐츠로 바꾸는 캐주얼 제작 도구"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-tatil-vanto",
+      "title": "타틸 디자인, 글로벌 컨설팅 반토 그룹에 지각변동 리브랜드",
+      "summary": "'제3의 영토' 포지셔닝과 지진 운동 메타포의 새 아이덴티티.",
+      "url": "https://www.designweek.co.uk/tatil-design-gives-global-consultancy-vanto-group-a-seismic-rebrand/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Miscellaneous",
+        "status": "Reference",
+        "affectedSurface": "브랜딩"
+      },
+      "related": [
+        "B2B 컨설팅 리브랜드 사례 참조"
+      ],
+      "report": {
+        "tldr": "타틸 디자인이 반토 그룹에 '제3의 영토' 포지셔닝의 리브랜드를 입혔다.",
+        "what": "디자인 에이전시 타틸 디자인은 반토 그룹의 독특한 컨설팅 접근을 더 잘 전달하기 위해 새 아이덴티티를 만들어, 일반적 업계 메시징을 대화·언어로 미래를 짓도록 돕는 '제3의 영토' 포지셔닝으로 대체했다. 리브랜드는 지진 운동을 시각 메타포로 삼아 모듈형 도트그리드 시스템, 유동적 V자 로고, 커스텀 타이포그래피, 새 전략 어휘를 특징으로 하며, 부티크 컨설팅의 더 개인적·인간적 접근을 강조하면서 반토가 가치를 명확히 설명하게 돕는다.",
+        "points": [
+          "'제3의 영토' 포지셔닝 도입",
+          "지진 운동 시각 메타포",
+          "모듈형 도트그리드·V자 로고",
+          "커스텀 타이포·전략 어휘"
+        ],
+        "why": [
+          "전략적 포지셔닝과 비주얼 시스템을 결합한 B2B 리브랜드 사례"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-frood-brand",
+      "title": "레귤러 프랙티스, 홀푸드 브랜드 '프루드'에 즐거움의 아이덴티티",
+      "summary": "'건강식' 미학에 기대지 않고 즐거움 중심의 대담한 아이덴티티.",
+      "url": "https://www.creativeboom.com/news/regular-practice-gives-whole-food-brand-frood-an-identity-built-for-joy-not-worthiness/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Miscellaneous",
+        "status": "Reference",
+        "affectedSurface": "브랜딩"
+      },
+      "related": [
+        "식품 브랜드 아이덴티티 사례 참조"
+      ],
+      "report": {
+        "tldr": "레귤러 프랙티스가 홀푸드 브랜드 프루드에 즐거움 중심 아이덴티티를 입혔다.",
+        "what": "프리다 레드냅이 만든 건강 식사 블렌드 신제품 프루드는 전형적 '건강식' 미학에 기대지 않고 영양 있는 집밥을 빠르고 즐겁게 만들려 한다. 레귤러 프랙티스가 디자인한 이 브랜드는 대담하고 다채로운 아이덴티티, 단순한 메시징, 식욕 돋우는 음식 사진으로 풍미·편의·진짜 재료를 강조해, 건강한 식사를 설교조가 아닌 친근하고 즐겁게 느끼게 하며 붐비는 시장에서 두드러진다.",
+        "points": [
+          "'건강식' 미학 탈피",
+          "대담·다채로운 아이덴티티",
+          "단순 메시징·식욕 돋우는 사진",
+          "즐거움·친근함 강조"
+        ],
+        "why": [
+          "카테고리 관습을 깨는 브랜드 아이덴티티가 차별화를 만듦"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-hidden-ux-payments",
+      "title": "결제의 숨은 UX",
+      "summary": "확인 화면·로딩 상태·되돌릴 수 없는 행동 같은 작은 순간이 신뢰를 좌우.",
+      "url": "https://links.tldrnewsletter.com/LxWfcg",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Opinions",
+        "status": "Reference",
+        "affectedSurface": "결제 UX"
+      },
+      "related": [
+        "결제 플로우 마찰·피드백 설계 점검"
+      ],
+      "report": {
+        "tldr": "결제 신뢰는 큰 기능이 아니라 작은 불확실성의 순간이 좌우한다는 글.",
+        "what": "금융 제품에 대한 신뢰는 주요 기능이나 시각 디자인이 아니라 확인 화면, 로딩 상태, 되돌릴 수 없는 행동 같은 작은 불확실성의 순간에서 형성되곤 한다. 의도적 마찰, 가시적 시스템 피드백, 명확한 소통은 빠른 거래를 더 안전하게, 고위험 행동을 더 통제된 것으로, 복잡한 기능을 더 손에 잡히게 만든다. 핵심은 사용자가 무슨 일이 일어나는지 이해하고 통제감을 느낄 때, 특히 중대한 순간에 신뢰가 쌓인다는 것이며, 이런 사소해 보이는 인터랙션이 제품 경험에서 가장 중요하면서도 가장 간과되는 부분이다.",
+        "points": [
+          "신뢰는 작은 불확실성의 순간에서 형성",
+          "의도적 마찰·가시적 피드백 활용",
+          "중대한 순간의 통제감이 핵심",
+          "사소한 인터랙션이 가장 중요"
+        ],
+        "why": [
+          "결제·금융 UX에서 미세 인터랙션 설계가 신뢰의 결정 요인"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-fifa-typography",
+      "title": "FIFA 월드컵 타이포그래피 반칙: UI 디자인 교훈",
+      "summary": "월드컵 2026 스코어보드 커스텀 서체 FWC26이 작은 크기에서 가독성 저하.",
+      "url": "https://pimpmytype.com/fifa-2026-font/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Quick Links",
+        "status": "Reference",
+        "affectedSurface": "타이포그래피"
+      },
+      "related": [
+        "가변 크기 가독성 타이포 설계 참조"
+      ],
+      "report": {
+        "tldr": "FIFA 월드컵 2026 커스텀 서체가 작은 크기에서 읽기 어렵다는 분석.",
+        "what": "FIFA 월드컵 2026 스코어보드는 알리스테어 맥크리디가 디자인한 FWC26이라는 커스텀 서체를 쓰는데, 큰 크기에서는 대담하고 역동적이지만 작거나 저해상도 맥락에서는 읽기 어려워진다.",
+        "points": [
+          "월드컵 2026 커스텀 서체 FWC26",
+          "큰 크기엔 대담·역동적",
+          "작거나 저해상도엔 가독성 저하"
+        ],
+        "why": [
+          "대형 디스플레이용 서체도 다양한 크기·해상도 가독성을 고려해야 함"
+        ]
+      },
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-uk-ban-design-hiring",
+      "title": "영국 소셜미디어 금지가 그래픽 디자인 채용을 바꿀 수 있다",
+      "summary": "16세 미만 금지가 크리에이티브 에이전시의 디자이너 채용 방식을 재편할 가능성.",
+      "url": "https://www.creativebloq.com/design/social-media/how-the-uks-social-media-ban-could-transform-graphic-design-hiring",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Quick Links",
+        "status": "Watch",
+        "affectedSurface": "디자인 채용"
+      },
+      "related": [
+        "소셜 규제의 크리에이티브 산업 영향 점검"
+      ],
+      "report": {
+        "tldr": "영국의 미성년 소셜 금지가 디자인 에이전시 채용 방식을 바꿀 수 있다는 전망.",
+        "what": "영국의 16세 미만 소셜미디어 금지는 젊은 사람을 보호하는 것을 넘어, 크리에이티브 에이전시가 디자이너를 채용하는 방식을 조용히 재편할 수 있다.",
+        "points": [
+          "16세 미만 소셜 금지의 파급",
+          "크리에이티브 에이전시 채용 영향",
+          "디자인 채용 방식 재편 가능성"
+        ],
+        "why": [
+          "규제 변화가 크리에이티브 인재 파이프라인에 간접 영향을 줄 수 있음"
+        ]
+      },
+      "source": "TLDR Design"
+    }
+  ]
+}

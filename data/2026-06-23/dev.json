@@ -1,0 +1,422 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "👨‍💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-senior-engineer-llm",
+      "title": "시니어 엔지니어가 알아야 할 LLM 내부의 모든 것",
+      "summary": "트랜스포머의 자기어텐션·위치 인코딩·아키텍처 설계를 폭넓게 해설.",
+      "url": "https://www.pathtostaff.com/p/everything-a-senior-engineer-needs",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Reference",
+        "affectedSurface": "LLM 기초"
+      },
+      "related": [
+        "트랜스포머 아키텍처 학습 자료 참조"
+      ],
+      "report": {
+        "tldr": "트랜스포머 구성요소를 시니어 엔지니어 관점에서 정리한 장문 해설.",
+        "what": "LLM은 트랜스포머로 이뤄지며, 자기어텐션 메커니즘으로 처리 효율을 높이고 순차 병목·장거리 정보 감쇠 같은 전통적 RNN 문제를 해결한다. 이 글은 위치 인코딩, 어텐션 메커니즘, 모델 성능을 높이는 아키텍처 설계의 중요성 등 트랜스포머의 다양한 구성요소를 다룬다.",
+        "points": [
+          "트랜스포머의 자기어텐션으로 RNN 한계 극복",
+          "위치 인코딩·어텐션 메커니즘 해설",
+          "아키텍처 설계의 중요성 강조"
+        ],
+        "why": [
+          "LLM 내부 이해는 엔지니어의 실무 의사결정과 디버깅 역량을 높임"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-go-padding-optimization",
+      "title": "최적화 카탈로그: 4바이트 패딩이 배열 클리어를 49% 빠르게",
+      "summary": "Go 구조체 필드 사이 4바이트 패딩이 인텔 머신에서 배열 클리어 성능을 최대 49% 향상.",
+      "url": "https://blog.andr2i.com/posts/2026-06-22-optimization-catalog-how-4-bytes-of-padding-make-array-clearing-49-faster",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Reference",
+        "affectedSurface": "성능 최적화"
+      },
+      "related": [
+        "Go 메모리 정렬 최적화 사례 참조"
+      ],
+      "report": {
+        "tldr": "Go 구조체에 4바이트 패딩을 넣으면 배열 클리어가 최대 49% 빨라진다.",
+        "what": "Go에서 구조체 필드 사이에 4바이트 패딩을 추가하면 더 나은 명령 최적화 덕에 인텔 머신에서 배열 클리어 성능이 최대 49% 향상될 수 있다. 배열 요소가 정렬되지 않으면 프로세서의 최적화된 메모리 처리를 온전히 쓰지 못해 성능이 떨어진다.",
+        "points": [
+          "4바이트 패딩으로 배열 클리어 최대 49% 가속",
+          "인텔 명령 최적화 활용",
+          "요소 미정렬 시 성능 저하"
+        ],
+        "why": [
+          "메모리 정렬·패딩이 핫패스 성능에 큰 영향을 줄 수 있음"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-autocomplete-domains",
+      "title": "2억 4천만 도메인에 대한 p99 0ms 자동완성",
+      "summary": "클라이언트 프리페칭과 최적화 API로 최소 지연 자동완성 달성.",
+      "url": "https://ruurtjan.com/articles/p99-0ms-autocomplete-for-240-million-domain-names",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Reference",
+        "affectedSurface": "프런트엔드 성능"
+      },
+      "related": [
+        "자동완성·프리페칭 최적화 기법 참조"
+      ],
+      "report": {
+        "tldr": "Wirewiki가 2억 4천만 도메인에 대해 거의 0ms 자동완성을 구현했다.",
+        "what": "Wirewiki는 도메인 등 인터넷 인프라를 들여다보는 웹사이트로, 사용자에게 빠르고 효율적인 자동완성을 제공하려 한다. 클라이언트 측 프리페칭과 최적화된 API로 최소 지연 제안을 전달하며, 사용자가 키를 떼기 전에 결과가 준비되는 비율이 99%에 달한다.",
+        "points": [
+          "클라이언트 프리페칭으로 지연 최소화",
+          "최적화 API로 제안 전달",
+          "99%가 키를 떼기 전 준비"
+        ],
+        "why": [
+          "대규모 자동완성의 체감 지연을 프리페칭으로 사실상 제거"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-memcached",
+      "title": "memcached 예찬",
+      "summary": "Redis보다 단순·고성능인 캐싱 대안으로서의 memcached.",
+      "url": "https://jchri.st/blog/in-praise-of-memcached/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Reference",
+        "affectedSurface": "캐싱"
+      },
+      "related": [
+        "memcached vs Redis 선택 기준 점검"
+      ],
+      "report": {
+        "tldr": "memcached가 단순성과 성능 면에서 Redis의 강력한 캐싱 대안이라는 글.",
+        "what": "memcached는 영속성·복잡성 관련 문제를 피하기에 캐싱에서 Redis보다 단순하고 고성능인 대안이다. 무상태 특성 덕에 쿼리 최적화만 잘 관리하면 동적 웹앱에 강력한 선택지가 된다.",
+        "points": [
+          "memcached는 단순·고성능 캐시",
+          "영속성·복잡성 문제 회피",
+          "무상태 특성으로 동적 웹앱에 적합"
+        ],
+        "why": [
+          "캐싱 요구가 단순하면 memcached가 운영 부담을 줄일 수 있음"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-ai-code-review",
+      "title": "거대한 디프일수록 AI로 코드 리뷰하라",
+      "summary": "라인 단위 트집보다 고수준 이슈에 집중하도록 AI 활용.",
+      "url": "https://simianwords.bearblog.dev/you-should-use-ai-for-reviewing-code-especially-when-the-diff-is-huge/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Adopt",
+        "affectedSurface": "코드 리뷰"
+      },
+      "related": [
+        "AI 코드 리뷰 도입 워크플로 검토"
+      ],
+      "report": {
+        "tldr": "큰 코드 변경에 AI 리뷰를 써서 고수준 이슈에 집중하라는 조언.",
+        "what": "AI로 큰 코드 변경을 리뷰하면 라인 단위 세부 트집보다 고수준 이슈에 집중하기 쉬워진다. 리뷰어는 최근 논의에서 얻은 통찰이나 코드베이스 특유의 원칙처럼 작성자나 AI가 갖지 못한 고유 지식을 기여해야 한다.",
+        "points": [
+          "큰 디프에 AI 리뷰가 효과적",
+          "고수준 이슈 집중 가능",
+          "리뷰어는 고유 지식 기여"
+        ],
+        "why": [
+          "AI 리뷰 도입 시 사람 리뷰어의 역할을 재정의해야 함"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-deno-desktop",
+      "title": "Deno Desktop",
+      "summary": "Deno 프로젝트로 자체 완결형 데스크톱 앱을 만드는 소형 바이너리.",
+      "url": "https://docs.deno.com/runtime/desktop/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Adopt",
+        "affectedSurface": "데스크톱 앱"
+      },
+      "related": [
+        "Deno Desktop vs 일렉트론 비교 검토"
+      ],
+      "report": {
+        "tldr": "Deno Desktop으로 Deno 프로젝트를 자체 완결형 데스크톱 앱으로 빌드한다.",
+        "what": "Deno Desktop은 Deno 런타임과 웹 렌더링 엔진을 포함한 소형 바이너리로 Deno 프로젝트에서 자체 완결형 데스크톱 앱을 만들 수 있게 한다. 다양한 웹 프레임워크를 지원하고, 효율적인 백엔드-UI 상호작용을 위한 인프로세스 통신을 제공한다.",
+        "points": [
+          "Deno 런타임+렌더 엔진 소형 바이너리",
+          "자체 완결형 데스크톱 앱 생성",
+          "다양한 웹 프레임워크 지원",
+          "인프로세스 통신 제공"
+        ],
+        "why": [
+          "일렉트론 대안으로 경량 데스크톱 앱 빌드 옵션 확대"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-orca",
+      "title": "Orca (깃허브 레포)",
+      "summary": "여러 코딩 에이전트를 병렬로 관리·실행하는 AI 오케스트레이션 도구.",
+      "url": "https://github.com/stablyai/orca",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Adopt",
+        "affectedSurface": "에이전트 오케스트레이션"
+      },
+      "related": [
+        "다중 에이전트 오케스트레이션 도구 비교"
+      ],
+      "report": {
+        "tldr": "Orca는 다중 코딩 에이전트를 병렬 관리하는 오케스트레이션 도구다.",
+        "what": "Orca는 사용자 친화적 인터페이스로 여러 코딩 에이전트를 병렬 관리·실행하는 고급 AI 오케스트레이션 도구다. 터미널 분할, 디자인 모드, 모바일 컴패니언 앱 같은 기능으로 에이전트를 모니터링하고 워크플로를 간소화한다.",
+        "points": [
+          "다중 코딩 에이전트 병렬 관리",
+          "터미널 분할·디자인 모드",
+          "모바일 컴패니언 앱",
+          "워크플로 간소화"
+        ],
+        "why": [
+          "다중 에이전트 운영 도구가 코딩 에이전트 활용을 본격화"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-glm52-best-open",
+      "title": "GLM-5.2는 새로운 최강 오픈 모델",
+      "summary": "강력한 성능 지표를 보이지만 높은 비용·비전 부재·벤치마크 과적합 우려.",
+      "url": "https://thezvi.wordpress.com/2026/06/22/glm-5-2-is-the-new-best-open-model/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Reference",
+        "affectedSurface": "오픈 모델"
+      },
+      "related": [
+        "GLM-5.2 실무 활용 사례 점검",
+        "오픈 모델 비용·성능 비교"
+      ],
+      "report": {
+        "tldr": "GLM-5.2가 최강 오픈 모델이지만 비용·비전 부재 등 한계가 있다는 평가.",
+        "what": "GLM-5.2는 최근 출시돼 가장 강력한 공개 모델로 자리매김하는 인상적인 성능 지표를 보였다. 특정 영역에서는 뛰어나지만, 높은 비용과 비전 능력 부재, 벤치마크 과적합 경향 같은 한계가 다양한 작업에서 실용성을 떨어뜨릴 수 있다.",
+        "points": [
+          "최강 오픈 모델급 성능",
+          "높은 비용이 단점",
+          "비전 능력 부재",
+          "벤치마크 과적합 우려"
+        ],
+        "why": [
+          "오픈 모델 선택 시 벤치마크 성능과 실무 한계를 함께 따져야 함"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-llm-feature-discovery",
+      "title": "LLM 기반 특성 발견",
+      "summary": "채팅 트랜스크립트 데이터셋을 분석해 모델 행동 관련 특성을 생성·군집화.",
+      "url": "https://www.alignmentforum.org/posts/WAZWA6FPQvH8okouJ/llm-driven-feature-discovery",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Reference",
+        "affectedSurface": "모델 해석성"
+      },
+      "related": [
+        "모델 행동 분석·해석 기법 참조"
+      ],
+      "report": {
+        "tldr": "모델 내부 접근 없이 채팅 트랜스크립트로 모델 행동 특성을 발견하는 방법.",
+        "what": "LLM 기반 특성 발견은 채팅 트랜스크립트 데이터셋을 분석해 모델 행동 관련 특성을 생성·군집화하는 것이다. 모델 내부 접근이 필요 없는 이 방법은 고수준 특성을 식별하고 사용자 입력 기반으로 모델 응답의 일부 측면을 예측하지만, 예측 정확도는 제한적이다.",
+        "points": [
+          "채팅 트랜스크립트로 특성 생성·군집화",
+          "모델 내부 접근 불필요",
+          "고수준 특성 식별",
+          "예측 정확도는 제한적"
+        ],
+        "why": [
+          "모델 해석성 연구에 내부 접근 없는 행동 분석 접근을 제시"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-glm52-vs-opus",
+      "title": "GLM-5.2 vs 클로드 Opus",
+      "summary": "3D WebGL 플랫포머 원샷 빌드 비교: Opus가 더 빠르고 정확, GLM-5.2는 저렴하나 거침.",
+      "url": "https://techstackups.com/comparisons/glm-5.2-vs-opus/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Reference",
+        "affectedSurface": "모델 비교"
+      },
+      "related": [
+        "GLM-5.2 분석 기사 교차 참조",
+        "비용 대비 정확성 기준 점검"
+      ],
+      "report": {
+        "tldr": "3D 게임 원샷 빌드에서 Opus가 더 정확하고 GLM-5.2는 더 저렴했다.",
+        "what": "Tech Stackups는 오픈웨이트 GLM-5.2를 클로드 Opus 4.8과 '맨바닥에서 3D WebGL 플랫포머 만들기' 원샷 과제로 비교했다. Opus는 더 빠르고 더 깔끔하고 정확한 게임을 내놨고, GLM-5.2는 훨씬 저렴했지만 거칠었으며 텍스트 전용이라 작업을 시각적으로 자가 점검하지 못했다. 결론: 텍스트·로직 작업에 비용·개방성이 중요하면 GLM-5.2, 정확성·완성도·시각적 판단이 중요하면 Opus.",
+        "points": [
+          "3D 게임 원샷 빌드 비교",
+          "Opus가 더 빠르고 정확·깔끔",
+          "GLM-5.2는 저렴하나 거칠고 텍스트 전용",
+          "용도별 선택 권고"
+        ],
+        "why": [
+          "오픈 모델과 프런티어 모델의 실무 트레이드오프를 구체 사례로 제시"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-agent-for-claude",
+      "title": "이제 내가 클로드의 에이전트다",
+      "summary": "Aha! 엔지니어가 클로드를 지원 워크플로에 통합해 효율 개선.",
+      "url": "https://www.aha.io/engineering/articles/im-the-for-claude-now",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Reference",
+        "affectedSurface": "AI 워크플로"
+      },
+      "related": [
+        "AI 지원 자동화 통합 사례 참조"
+      ],
+      "report": {
+        "tldr": "Aha! 엔지니어가 클로드를 지원 워크플로에 통합해 효율을 높였다.",
+        "what": "Aha! 엔지니어가 AI 도구 클로드를 지원 워크플로에 성공적으로 통합해, 프로덕션 로그 등 도구에서 데이터 검색·분석을 자동화하며 효율을 개선했다.",
+        "points": [
+          "클로드를 지원 워크플로에 통합",
+          "프로덕션 로그 데이터 검색·분석 자동화",
+          "효율 개선"
+        ],
+        "why": [
+          "AI 에이전트를 운영 지원에 결합하는 실무 통합 사례"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-claude-thinking-authentic",
+      "title": "클로드 코드의 '확장 사고' 출력은 진짜가 아니다",
+      "summary": "추론이 서명으로 암호화돼 요약만 제공되어 감사 추적이 어렵다.",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "모델 투명성"
+      },
+      "related": [
+        "AI 사고 출력 투명성 정책 추적"
+      ],
+      "report": {
+        "tldr": "클로드 코드가 추론을 암호화해 요약만 제공한다는 분석.",
+        "what": "앤트로픽의 클로드 코드는 추론 과정을 서명으로 암호화하고 실제 통찰이 아닌 요약만 제공해, 모델 의사결정 로직의 감사 추적을 원하는 사용자에게 어려움을 만든다.",
+        "points": [
+          "추론을 서명으로 암호화",
+          "실제 통찰 아닌 요약만 제공",
+          "감사 추적 어려움"
+        ],
+        "why": [
+          "AI 의사결정 투명성·감사 요구가 커지는 가운데 한계로 지적됨"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-ten-years-tos",
+      "title": "약관 10년의 기록",
+      "summary": "10년간 821개 약관에서 3,066,332단어를 기록.",
+      "url": "https://henryach.com/blog/tsandcs/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Reference",
+        "affectedSurface": "UX·법무"
+      },
+      "related": [
+        "약관 길이·가독성 개선 사례 참조"
+      ],
+      "report": {
+        "tldr": "10년간 821개 약관에서 300만 단어 넘게 기록한 프로젝트.",
+        "what": "저자는 10년에 걸쳐 821개 약관에서 3,066,332단어를 기록하며, 이 긴 법적 문서를 읽는 데 드는 상당하지만 종종 간과되는 부담을 보여줬다.",
+        "points": [
+          "10년간 821개 약관 기록",
+          "총 3,066,332단어",
+          "약관 독해 부담 가시화"
+        ],
+        "why": [
+          "약관의 누적 분량이 사용자 동의의 실효성 문제를 드러냄"
+        ]
+      },
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-tanstack-table-v9",
+      "title": "TanStack Table V9의 타입스크립트 성능",
+      "summary": "내부 코드 구조 단순화로 타입체크 성능 개선.",
+      "url": "https://tanstack.com/blog/tanstack-table-v9-typescript-performance",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Reference",
+        "affectedSurface": "타입스크립트 성능"
+      },
+      "related": [
+        "TS 제네릭 타입 성능 최적화 사례 참조"
+      ],
+      "report": {
+        "tldr": "TanStack Table V9가 내부 구조 단순화로 타입체크 속도를 개선했다.",
+        "what": "TanStack Table V9는 처음에 검증·타입체크가 매우 느렸으나, 팀이 라이브러리 내부 코드 구조를 단순화해 성능을 개선했다.",
+        "points": [
+          "초기 타입체크가 매우 느림",
+          "내부 코드 구조 단순화",
+          "타입체크 성능 개선"
+        ],
+        "why": [
+          "복잡한 제네릭 타입이 빌드 성능에 미치는 영향과 단순화 효과를 보여줌"
+        ]
+      },
+      "source": "TLDR Dev"
+    }
+  ]
+}

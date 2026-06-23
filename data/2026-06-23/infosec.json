@@ -1,0 +1,476 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-apple-beats-wiretap",
+      "title": "애플, 비츠 스튜디오 버즈 도청 취약점 패치",
+      "summary": "Airoha SoC 인증 결함(CVE-2025-20701)으로 이어폰이 도청기로 악용될 수 있어 펌웨어 1B211로 수정.",
+      "url": "https://www.malwarebytes.com/blog/bugs/2026/06/apple-patches-beats-studio-buds-flaw-that-could-turn-earbuds-into-a-wiretap",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Patch",
+        "affectedSurface": "오디오 주변기기"
+      },
+      "related": [
+        "비츠 펌웨어 버전 확인·업데이트",
+        "Airoha SoC 탑재 기기 점검"
+      ],
+      "report": {
+        "tldr": "애플이 비츠 이어폰을 도청기로 만들 수 있는 Airoha SoC 결함을 펌웨어로 패치했다.",
+        "what": "애플은 2025년 독일 보안 콘퍼런스에서 공개된 Airoha SoC 인증 결함(CVE-2025-20701)을 수정하는 비츠 펌웨어 1B211을 배포했다. 이 결함은 블루투스 범위 내 공격자가 페어링되지 않은 이어폰이 페어링 요청을 찾는 동안 마이크로 도청할 수 있게 했다. 관련 Airoha 버그와 연계하면 페어링 키 추출, 신뢰 헤드폰 위장, 통화 가로채기, 연락처 추출, 음성비서 트리거까지 가능했다. 공격은 어렵고 근접성에 묶여 표적 감시 위험에 가깝다. 펌웨어는 케이스에 넣고 애플 기기 근처에 두면 조용히 적용되며 설정>블루투스에서 확인된다.",
+        "points": [
+          "CVE-2025-20701 인증 결함으로 마이크 도청 가능",
+          "페어링 키 추출·통화 가로채기까지 연계 위험",
+          "근접 표적 감시 성격",
+          "펌웨어 1B211로 조용히 패치"
+        ],
+        "why": [
+          "블루투스 주변기기 SoC 결함이 도청 등 물리적 프라이버시 위협으로 이어질 수 있음"
+        ],
+        "action": "설정>블루투스에서 펌웨어 1B211 적용 여부 확인, 미적용 시 케이스에 넣어 업데이트 유도"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-langflow-langgraph-attack",
+      "title": "7,000대 Langflow 서버 공격받아…LangGraph·LangChain도 동일 취약",
+      "summary": "세 가지 고전 버그를 연계해 AI 에이전트 인프라에서 코드 실행·비밀 탈취.",
+      "url": "https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Patch",
+        "affectedSurface": "AI 에이전트 인프라"
+      },
+      "related": [
+        "Langflow·LangGraph·LangChain 즉시 패치",
+        "노출 서버 인터넷 접근 차단"
+      ],
+      "report": {
+        "tldr": "공격자가 LangGraph·Langflow·LangChain 버그를 연계해 코드 실행과 비밀 탈취를 노린다.",
+        "what": "공격자들이 LangGraph·Langflow·LangChain-core의 세 가지 고전 버그를 연계해 AI 에이전트 인프라에서 코드 실행과 비밀 탈취에 도달하고 있다. LangGraph의 SQLite 체크포인터는 임의 파이썬 실행으로 오염될 수 있고, Langflow의 파일 업로드 버그는 이미 약 7,000대 노출 서버에 크론 기반 셸을 심고 있으며, LangChain-core의 프롬프트 로더는 특정 버전을 패치하고 기본값을 잠그지 않으면 디스크의 API 키를 읽을 수 있다.",
+        "points": [
+          "세 버그 연계로 코드 실행·비밀 탈취",
+          "Langflow 서버 약 7,000대에 크론 셸 침투",
+          "LangGraph SQLite 체크포인터 오염 위험",
+          "LangChain-core 프롬프트 로더가 API 키 노출"
+        ],
+        "why": [
+          "AI 에이전트 프레임워크가 새로운 대규모 공격 표면이 되고 있음"
+        ],
+        "action": "해당 패키지 최신 버전으로 패치, 기본값 잠금, 인터넷 노출 인스턴스 점검·격리"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-gizmodo-clickfix",
+      "title": "기즈모도 방문자, 계정 침해 후 ClickFix 악성코드 표적",
+      "summary": "가짜 CAPTCHA 팝업으로 ClickFix 스크립트가 NetSupport RAT 설치를 유도.",
+      "url": "https://www.theregister.com/security/2026/06/22/gizmodo-readers-hit-with-clickfix-malware-prompts-after-account-compromise/5259226",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "웹사이트·악성코드"
+      },
+      "related": [
+        "ClickFix·가짜 CAPTCHA 캠페인 모니터링",
+        "CMS 계정 MFA 강제"
+      ],
+      "report": {
+        "tldr": "기즈모도 사이트가 계정 침해로 가짜 CAPTCHA를 통해 ClickFix 악성코드를 유포했다.",
+        "what": "기즈모도 사이트가 침해된 계정이 악성 코드를 주입하면서 잠시 가짜 CAPTCHA 팝업을 띄워 ClickFix 악성 스크립트를 실행시켰다. 윈도우 방문자는 원격 접근·데이터 절취용 NetSupport RAT 설치 위험에 노출됐고, 맥OS 페이로드는 잘못 설정돼 ZIP 비밀번호 단계에서 멈췄다. 기즈모도는 스크립트를 제거하고 사이트를 내린 뒤 악용된 계정을 보호했다.",
+        "points": [
+          "가짜 CAPTCHA로 ClickFix 스크립트 실행",
+          "윈도우는 NetSupport RAT 위험",
+          "맥OS 페이로드는 오설정으로 실패",
+          "계정 침해가 발단"
+        ],
+        "why": [
+          "미디어 사이트의 계정 침해가 방문자 대상 악성코드 유포로 직결됨"
+        ],
+        "action": "가짜 CAPTCHA 클립보드 실행 패턴 탐지, 사이트 운영 계정 MFA 적용"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-agentjacking-sentry",
+      "title": "공개된 센트리 키 하나로 클로드 코드·커서·Codex 탈취",
+      "summary": "공개 노출된 Sentry DSN으로 가짜 해결책을 주입해 에이전트가 악성 명령을 실행하게 만드는 '에이전트재킹'.",
+      "url": "https://thenewstack.io/agentjacking-sentry-mcp-attack/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Patch",
+        "affectedSurface": "코딩 에이전트·MCP"
+      },
+      "related": [
+        "MCP 통합 신뢰 경계 재점검",
+        "에이전트 발동 명령 런타임 게이트 도입",
+        "Sentry DSN 노출 점검"
+      ],
+      "report": {
+        "tldr": "공개 Sentry DSN을 악용해 코딩 에이전트가 공격자의 명령을 실행하게 만드는 공격.",
+        "what": "에이전트재킹은 공개 노출된 Sentry DSN(센트리가 프런트엔드에 임베드해도 안전하다고 문서화한 쓰기 전용 자격증명)을 이용해, 마크다운 컨텍스트가 npx 명령을 담은 가짜 '해결' 섹션으로 렌더되는 조작된 오류 이벤트를 게시한다. 개발자가 에이전트에게 센트리 백로그 정리를 요청하면 에이전트는 MCP로 주입된 이벤트를 가져와 조작된 수정안을 신뢰 지침으로 읽고 개발자 권한으로 명령을 실행해 AWS 키·깃허브 토큰·git 자격증명에 도달한다. 시스템 프롬프트와 스킬이 신뢰할 수 없는 데이터를 무시하라고 지시해도 페이로드는 실행되며, 모든 단계가 인가된 상태라 'Authorized Intent Chain'은 EDR·WAF·IAM·VPN·방화벽을 우회한다.",
+        "points": [
+          "공개 Sentry DSN으로 가짜 수정안 주입",
+          "에이전트가 개발자 권한으로 악성 npx 실행",
+          "AWS 키·깃허브 토큰 탈취",
+          "인가된 흐름이라 EDR·WAF 우회"
+        ],
+        "why": [
+          "MCP 통합을 검증된 서드파티 종속성처럼 다뤄야 한다는 경고",
+          "프롬프트·네트워크 방어가 아닌 런타임 명령 게이트가 필요"
+        ],
+        "action": "에이전트 실행 명령을 런타임 계층에서 차단·승인, 노출된 Sentry DSN 회수, MCP 입력을 신뢰 불가로 취급"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-reverse-once-run-forever",
+      "title": "한 번 리버싱해도 영원히 못 돌린다: 숨길 수 없는 코드 방어",
+      "summary": "빌드·세션마다 바뀌고 암호 키 유도를 쓰는 클라이언트 봇 탐지 방어 기법.",
+      "url": "https://trustsig.eu/blog/reverse-once-run-forever",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Reference",
+        "affectedSurface": "봇 탐지"
+      },
+      "related": [
+        "안티봇·난독화 전략 비교",
+        "서버 측 검증 설계 점검"
+      ],
+      "report": {
+        "tldr": "공격자가 통제하는 환경에서도 작동하는 빌드·세션별 변형 봇 탐지 방어.",
+        "what": "클라이언트 측 봇 탐지는 공격자가 통제하는 하드웨어에서 실행되므로 모든 코드는 읽히고 패치될 수 있다고 가정해야 한다. 방어는 빌드마다, 심지어 세션마다 바뀌어 한 버전의 시그니처나 리버싱이 다음 버전에 무력화된다. 핵심 검사는 분기문 대신 암호 키 유도를 사용해, 변조 시 명확히 뒤집을 플래그 없이 쓸모없는 출력만 낸다. 고가치 룩업 테이블과 로직은 서버에만 존재하고 세션마다 생성돼 오프라인 분석을 막는다. 탐지 경로는 서버와의 실시간 인증 왕복에 의존해 대규모 정적 오프라인 복제를 차단한다.",
+        "points": [
+          "모든 클라이언트 코드는 읽힘·패치 가능하다고 가정",
+          "빌드·세션마다 방어 변형",
+          "분기문 대신 암호 키 유도",
+          "고가치 로직은 서버에만 존재"
+        ],
+        "why": [
+          "클라이언트 신뢰 불가 환경에서의 안티봇 설계 원칙을 제시"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-fortibleed-update",
+      "title": "FortiBleed 후속: 피해 조직에서 벌어지는 일",
+      "summary": "포티게이트 설정 유출·오프라인 해시 크래킹으로 약 1,000개 조직이 내부 침해 확인.",
+      "url": "https://doublepulsar.com/an-update-on-fortibleed-whats-happening-with-victim-orgs-c0671a50e7f4",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Patch",
+        "affectedSurface": "네트워크 경계 장비"
+      },
+      "related": [
+        "포티넷 자격증명 회전·MFA 강제",
+        "FortiBleed 목록 대조",
+        "IPsec 키 양단 회전"
+      ],
+      "report": {
+        "tldr": "FortiBleed로 약 1,000개 조직이 침해되고 자격증명이 평문으로 재판매됐다.",
+        "what": "공격자는 인터넷 노출 포티게이트 장비를 스캔해 기존 미패치 취약점이나 휴면 백도어 관리자 계정(일부는 러시아 랜섬웨어 조직이 동일 비밀번호로 미리 심어둠)으로 로그인한 뒤, 전체 장비 설정을 내보내고 36대의 임대 엔터프라이즈 GPU로 해시를 오프라인 크래킹해 평문을 FortiVPN 클라이언트 자격증명으로 재판매했다. 약 1,000개 조직이 내부 침해로 확인됐으며, 운영자들은 통신사·MSP를 노려 하위 네트워크로 피벗하려 악성 관리자 계정 추가, SSH·RDP 방화벽 규칙 개방, IPsec 터널 인증을 수행했다.",
+        "points": [
+          "미패치·백도어 계정으로 포티게이트 침투",
+          "설정 유출 후 36대 GPU로 해시 크래킹",
+          "약 1,000개 조직 내부 침해 확인",
+          "통신사·MSP 표적 피벗"
+        ],
+        "why": [
+          "네트워크 경계 장비 침해가 자격증명 유출과 공급망 확산으로 이어짐"
+        ],
+        "action": "System>Events 로그에서 설정 내보내기 메시지 점검, 노출 IP·Fortiguard-ID를 목록과 대조, 해당 시 장비 재구축·관리자 계정 재생성·펌웨어 패치·IPsec 키 회전"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-spiderfoot",
+      "title": "SpiderFoot (깃허브 레포)",
+      "summary": "200개 이상 모듈을 갖춘 MIT 라이선스 파이썬 OSINT 자동화 도구.",
+      "url": "https://github.com/smicallef/spiderfoot",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Security",
+        "status": "Adopt",
+        "affectedSurface": "OSINT 도구"
+      },
+      "related": [
+        "OSINT 자동화 도구 비교",
+        "공격 표면 모니터링 워크플로 점검"
+      ],
+      "report": {
+        "tldr": "200개 이상 모듈로 호스트·이메일·다크웹을 자동 수집하는 OSINT 도구.",
+        "what": "SpiderFoot은 MIT 라이선스의 파이썬 3.7+ OSINT 자동화 도구로, 200개 이상 모듈이 발행/구독 모델로 서로를 먹여 IP·도메인부터 사용자명·비트코인 주소까지 호스트·이메일·유출 데이터·다크웹 언급을 열거한다. 웹 UI 또는 CLI로 쓰며 YAML 설정 가능한 상관 엔진이 37개 규칙을 제공한다. 2012년부터 활발히 개발돼 대부분 모듈은 API 키가 필요 없으나, README의 기능 목록은 공격 표면 모니터링·스크린샷·다중 사용자 협업을 유료로 묶은 클라우드 SpiderFoot HX 티어로의 업셀 역할도 한다.",
+        "points": [
+          "200+ 모듈 발행/구독 OSINT 자동화",
+          "호스트·이메일·다크웹 등 광범위 열거",
+          "웹 UI·CLI, 37개 상관 규칙",
+          "대부분 모듈 API 키 불필요"
+        ],
+        "why": [
+          "OSINT 정찰·공격 표면 파악을 자동화하려는 보안팀에 유용"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-defending-code-harness",
+      "title": "Defending Code Reference Harness (깃허브 레포)",
+      "summary": "클로드 기반 자율 취약점 발견·교정 레퍼런스 구현.",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Reference",
+        "affectedSurface": "AI 보안 자동화"
+      },
+      "related": [
+        "AI 자동 취약점 교정 사례 비교",
+        "에이전트 보안 운영 점검"
+      ],
+      "report": {
+        "tldr": "클로드로 자율 취약점 발견·교정을 구현한 앤트로픽 레퍼런스 하니스.",
+        "what": "이 레포는 앤트로픽이 Claude Mythos Preview 출시 이후 여러 조직 보안팀과 협업하며 얻은 학습을 바탕으로, 클로드를 이용한 자율 취약점 발견·교정의 레퍼런스 구현을 담는다.",
+        "points": [
+          "클로드 기반 자율 취약점 발견·교정",
+          "여러 조직 협업 학습 반영",
+          "Mythos Preview 이후 산출물"
+        ],
+        "why": [
+          "AI 기반 자동 취약점 교정 워크플로 구축에 참고 자료 제공"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-noradrenaline-modules",
+      "title": "Noradrenaline 공유 라이브러리 모듈 (깃허브 레포)",
+      "summary": "Poseidon 등 에이전트 워크플로용 경량 네이티브 리눅스·맥OS 모듈 모음.",
+      "url": "https://github.com/atomiczsec/Noradrenaline",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Security",
+        "status": "Reference",
+        "affectedSurface": "공격 도구"
+      },
+      "related": [
+        "에이전트형 공격 프레임워크 동향 점검"
+      ],
+      "report": {
+        "tldr": "Poseidon 등 에이전트 워크플로용 경량 네이티브 모듈 모음.",
+        "what": "작은 공유 라이브러리로 빌드된 네이티브 리눅스·맥OS 모듈 모음으로, Poseidon 및 기타 에이전트 워크플로용으로 제공된다.",
+        "points": [
+          "네이티브 리눅스·맥OS 모듈 모음",
+          "경량 공유 라이브러리 형태",
+          "Poseidon 등 에이전트 워크플로 지원"
+        ],
+        "why": [
+          "레드팀 에이전트 워크플로 확장에 활용 가능한 모듈"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-microvm-agent-security",
+      "title": "마이크로VM 샌드박스는 특정 문제는 잘 풀지만 에이전트 보안 문제는 아니다",
+      "summary": "마이크로VM은 게스트/호스트 경계를 강제하지만, 코딩 에이전트는 사용자 권한으로 실행돼 폭발 반경이 진짜 위협.",
+      "url": "https://decodebytes.substack.com/p/why-your-microvm-sandbox-solves-a",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Reference",
+        "affectedSurface": "에이전트 보안"
+      },
+      "related": [
+        "에이전트 권한 최소화 설계 점검",
+        "시스템콜·경로 단위 통제 도입 검토"
+      ],
+      "report": {
+        "tldr": "마이크로VM은 탈출은 막지만 에이전트의 정당 접근 권한 남용은 막지 못한다.",
+        "what": "마이크로VM과 에이전트 샌드박스가 잘못 혼동돼 왔다. 마이크로VM은 적대적 머신의 탈출을 막는 게스트/호스트 경계를 강제하지만, 코딩 에이전트는 당신으로서 SSH 키·클라우드 토큰·자격증명이 이미 마운트된 상자 안에서 실행된다. 위협은 탈출이 아니라, 신뢰받는 선의의 에이전트가 작업을 잘못 읽거나 주입된 지시를 따라 합법적으로 접근 가능한 것을 유출·삭제할 때의 폭발 반경이다. 하이퍼바이저는 디스크 이미지·전체 머신이라는 전부-아니면-전무 단위로 작동하지만, 실제 에이전트 위협은 경로별·호스트별·시스템콜별 단위에 존재한다.",
+        "points": [
+          "마이크로VM은 탈출 방지용, 권한 남용엔 무력",
+          "에이전트는 사용자 자격증명으로 실행",
+          "진짜 위협은 폭발 반경",
+          "경로·호스트·시스템콜 단위 통제 필요"
+        ],
+        "why": [
+          "에이전트 보안은 하드웨어 가상화가 아닌 동작 단위 매개가 핵심"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-rfc9958-pqc",
+      "title": "RFC 9958 — 엔지니어를 위한 포스트양자 암호",
+      "summary": "PQC 전환을 안내하는 IETF 정보 RFC: ML-KEM·ML-DSA·SLH-DSA 등 NIST 표준 정리.",
+      "url": "https://datatracker.ietf.org/doc/html/rfc9958",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Reference",
+        "affectedSurface": "암호 전환"
+      },
+      "related": [
+        "PQC 마이그레이션 로드맵 수립",
+        "하이브리드 키 교환 도입 검토"
+      ],
+      "report": {
+        "tldr": "엔지니어를 위한 포스트양자 암호 전환 안내 RFC.",
+        "what": "이 IETF 정보 RFC는 엔지니어에게 포스트양자 전환을 안내한다. 쇼어 알고리즘이 RSA·DH·ECC의 전면 교체를 강제하는 반면 그로버는 AES-128·SHA-256을 사실상 온전히 둔다고 설명하고, NIST 표준 ML-KEM(FIPS 203)·ML-DSA(FIPS 204)·SLH-DSA(FIPS 205)와 예정된 FN-DSA(FIPS 206)를 다룬다. KEM이 AKE와 NIKE를 동시에 될 수 없다는 점, PQC 키·서명이 약 6~100배 커진다는 점, 상태형 HBS(XMSS·LMS)가 키 상태 재사용 시 위조 위험이 있다는 점, '지금 수집해 나중에 복호'와 Mosca x+y+z 모델이 하이브리드 PQ/T 배치를 정당화한다는 점을 강조한다.",
+        "points": [
+          "RSA·DH·ECC 전면 교체 필요",
+          "NIST PQC 표준(ML-KEM·ML-DSA·SLH-DSA) 정리",
+          "PQC 키·서명 6~100배 증가",
+          "하이브리드 PQ/T 배치 권고"
+        ],
+        "why": [
+          "'지금 수집해 나중에 복호' 위협 때문에 PQC 전환 준비가 시급"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-canada-botnet-warrant",
+      "title": "캐나다 정보기관, 첫 영장으로 봇넷 감염 기기 정리",
+      "summary": "위협 감소 영장으로 침해된 서버·라우터·IoT에서 봇넷 데이터를 제거.",
+      "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "봇넷·IoT 보안"
+      },
+      "related": [
+        "EOL 라우터·IoT 교체 정책 점검",
+        "능동적 봇넷 대응 법적 동향 추적"
+      ],
+      "report": {
+        "tldr": "캐나다 정보기관이 첫 위협 감소 영장으로 봇넷 감염 기기를 정리했다.",
+        "what": "캐나다 정보기관은 법원 승인 위협 감소 영장을 활용해 침해된 캐나다 서버·SOHO 라우터·IoT 기기에 접근하고 두 외국 통제 봇넷과 연결된 데이터를 제거했다. 사용자 신원 수집 없이 릴레이 네트워크에서 감염 장비를 제거했다. 이 판결은 미패치·수명종료 라우터·IoT의 지속적 악용을 부각하며, 소유자가 취약 하드웨어를 보호·교체할 책임이 있음을 보여준다.",
+        "points": [
+          "법원 승인 위협 감소 영장 첫 활용",
+          "침해 라우터·IoT에서 봇넷 데이터 제거",
+          "사용자 신원 미수집",
+          "미패치·EOL 기기 악용 부각"
+        ],
+        "why": [
+          "국가기관의 능동적 봇넷 정리가 새로운 사이버 대응 모델로 등장"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-google-50-ipv6",
+      "title": "구글, IPv6 채택률 50% 돌파",
+      "summary": "구글 측정에서 글로벌 IPv6 채택이 처음으로 50%를 넘어.",
+      "url": "https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Network",
+        "status": "Reference",
+        "affectedSurface": "네트워크 인프라"
+      },
+      "related": [
+        "IPv6 전환 보안 정책 점검"
+      ],
+      "report": {
+        "tldr": "구글 측정에서 글로벌 IPv6 채택률이 처음 50%를 넘었다.",
+        "what": "구글 측정에 따르면 글로벌 IPv6 채택률이 처음으로 50%를 넘었다(APNIC Labs의 더 낮은 42% 수치와의 차이는 APNIC의 인구 가중 모델 때문). 모바일과 릴라이언스 지오 같은 신규 시장 진입자가 주도한 성숙한 배치를 반영하는 이정표다.",
+        "points": [
+          "글로벌 IPv6 채택 첫 50% 돌파",
+          "APNIC 42%와의 차이는 가중 모델 차이",
+          "모바일·신규 시장이 주도"
+        ],
+        "why": [
+          "IPv6 성숙은 네트워크 설계·보안 정책 전환의 신호"
+        ]
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-klue-breach",
+      "title": "Klue 해킹으로 여러 보안 기업서 데이터 유출",
+      "summary": "Icarus가 클라우드 통합 도구의 레거시 자격증명으로 Klue 침입.",
+      "url": "https://techcrunch.com/2026/06/22/klue-hack-results-in-data-breach-at-several-cybersecurity-firms/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "공급망·자격증명"
+      },
+      "related": [
+        "레거시 자격증명 회수·회전",
+        "클라우드 통합 권한 점검"
+      ],
+      "report": {
+        "tldr": "Icarus가 레거시 자격증명으로 Klue를 침해해 여러 보안 기업 데이터가 유출됐다.",
+        "what": "Icarus가 클라우드 통합 도구에 연결된 침해된 레거시 자격증명을 이용해 Klue에 침입했고, 그 결과 여러 사이버보안 기업의 데이터가 유출됐다.",
+        "points": [
+          "레거시 자격증명으로 Klue 침입",
+          "클라우드 통합 도구가 진입점",
+          "다수 보안 기업 데이터 유출"
+        ],
+        "why": [
+          "레거시·통합 자격증명 관리 부실이 공급망 유출로 직결됨"
+        ],
+        "action": "미사용 레거시 자격증명 폐기, 클라우드 통합 도구 토큰 범위·만료 강화"
+      },
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-squidbleed",
+      "title": "수십 년 된 Squid 프록시 결함 'SquidBleed'로 사용자 데이터 노출",
+      "summary": "1997년부터 존재한 Squid FTP 파서 메모리 누수(CVE-2026-47729).",
+      "url": "https://links.tldrnewsletter.com/QVw8TY",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Patch",
+        "affectedSurface": "프록시 서버"
+      },
+      "related": [
+        "Squid 인스턴스 버전 점검·패치"
+      ],
+      "report": {
+        "tldr": "1997년부터 존재한 Squid FTP 파서 메모리 누수가 이전 사용자 데이터를 노출한다.",
+        "what": "Calif.io 연구진은 1997년부터 Squid의 FTP 파서에 존재한 장기 메모리 누수인 CVE-2026-47729를 확인했다. 이 결함은 이전 사용자의 HTTP 요청 데이터를 노출한다.",
+        "points": [
+          "Squid FTP 파서의 장기 메모리 누수",
+          "CVE-2026-47729로 식별",
+          "이전 사용자 HTTP 요청 데이터 노출"
+        ],
+        "why": [
+          "오래된 인프라 소프트웨어의 잠복 결함이 데이터 누수로 이어질 수 있음"
+        ],
+        "action": "Squid 프록시를 패치 버전으로 업데이트, FTP 파서 사용 여부 점검"
+      },
+      "source": "TLDR Information Security"
+    }
+  ]
+}

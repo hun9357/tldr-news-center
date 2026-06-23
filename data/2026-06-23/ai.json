@@ -1,0 +1,433 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-spacex-reflection-compute",
+      "title": "스페이스X, 오픈소스 AI 스타트업 리플렉션과 최대 63억 달러 컴퓨팅 계약",
+      "summary": "스페이스X가 슈퍼컴퓨터 '프로젝트 콜로서스' 접근권을 두고 리플렉션 AI와 최대 63억 달러 규모 계약을 체결.",
+      "url": "https://www.cnbc.com/2026/06/22/spacex-ai-colossus-data-center-reflection.html",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "High",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "AI 인프라·컴퓨팅"
+      },
+      "related": [
+        "엔비디아 GB300 공급망 동향 추적",
+        "오픈소스 모델 학습용 컴퓨팅 시장 모니터링",
+        "스페이스X의 데이터센터 사업 확장 점검"
+      ],
+      "report": {
+        "tldr": "스페이스X가 슈퍼컴퓨터 콜로서스 사용권을 리플렉션 AI에 제공하는 최대 63억 달러 규모 계약을 맺었다.",
+        "what": "스페이스X는 자사 슈퍼컴퓨터 '프로젝트 콜로서스' 접근권을 리플렉션 AI에 제공하는 최대 63억 달러 규모의 계약에 서명했다. 이 계약으로 리플렉션은 엔비디아 GB300을 활용해 오픈소스 AI 모델을 학습할 수 있다. AI 개발에서 컴퓨팅 수요가 급증하는 흐름을 반영하며, 스페이스X는 외부 AI 기업에 인프라를 빌려주며 AI·데이터센터 영역에서 입지를 강화하려 한다.",
+        "points": [
+          "스페이스X가 자체 슈퍼컴퓨터를 외부에 임대하는 첫 대형 계약",
+          "리플렉션은 GB300으로 오픈소스 모델 학습",
+          "최대 63억 달러 규모로 컴퓨팅 수요 급증 방증",
+          "우주기업의 AI 인프라 사업 확장 신호"
+        ],
+        "why": [
+          "컴퓨팅 자원이 AI 경쟁의 핵심 병목이 되며 비전통 사업자까지 인프라 공급에 뛰어드는 흐름"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-openai-gpt55-cyber-daybreak",
+      "title": "오픈AI, 신규 보안 도구 출시·GPT-5.5-Cyber 업데이트",
+      "summary": "오픈AI가 Codex Security 플러그인, GPT-5.5-Cyber(제한 출시), Daybreak 파트너 프로그램, 오픈소스 'Patch the Planet'를 공개.",
+      "url": "https://www.testingcatalog.com/openai-launches-new-security-tools-and-updates-gpt-5-5-cyber/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "AI 보안"
+      },
+      "related": [
+        "GPT-5.5-Cyber 접근 정책 변화 추적",
+        "파트너형 보안 모델 보급 사례 비교",
+        "Patch the Planet 채택률 모니터링"
+      ],
+      "report": {
+        "tldr": "오픈AI가 방어형 사이버 스택 Daybreak를 확장하고 GPT-5.5-Cyber를 제한 공개했다.",
+        "what": "오픈AI는 업데이트된 Codex Security 플러그인, 제한 출시 형태의 GPT-5.5-Cyber, Daybreak Cyber 파트너 프로그램, 오픈소스 보안 이니셔티브 'Patch the Planet'를 내놓았다. Daybreak는 AI 시대를 위한 방어형 사이버 스택으로, 오픈AI는 모델을 직접 광범위하게 푸는 대신 파트너 모델을 통해 보급한다. 신뢰 접근권이 적용된 GPT-5.5를 기존 보안 제품·서비스에 임베드하되 접근은 파트너 시스템으로 통제한다.",
+        "points": [
+          "Codex Security·GPT-5.5-Cyber·Daybreak 파트너 프로그램 동시 공개",
+          "방어형 사이버 스택을 파트너 경유로 제한 보급",
+          "신뢰 접근권으로 모델 오남용 통제",
+          "오픈소스 'Patch the Planet' 병행"
+        ],
+        "why": [
+          "고성능 사이버 모델의 양날성 때문에 접근 통제형 보급 모델이 업계 표준이 될 수 있음"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-alibaba-happyhorse-video",
+      "title": "알리바바 AI 영상 모델, 글로벌 2위로 부상…소라·시댄스 밀려나",
+      "summary": "알리바바 HappyHorse 1.1이 API 기반 상용 영상 생성으로 글로벌 랭킹 2위에 올라.",
+      "url": "https://venturebeat.com/technology/alibabas-ai-video-model-rises-to-no-2-in-global-rankings-as-openais-sora-and-bytedances-seedance-fall-away",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "생성형 영상"
+      },
+      "related": [
+        "영상 생성 모델 랭킹 변화 추적",
+        "엔터프라이즈 영상 API 시장 모니터링"
+      ],
+      "report": {
+        "tldr": "알리바바 HappyHorse 1.1이 상용 영상 생성 모델 글로벌 2위로 올라섰다.",
+        "what": "알리바바의 HappyHorse 1.1은 기업 소프트웨어 스택에 통합되도록 설계된 API로 프로덕션급 영상을 제공한다. 알리바바 클라우드 Model Studio에서 첫 2주간 40% 할인과 함께 출시됐다. 텍스트·이미지·주제 기반 영상 생성과 편집을 지원하며, 기획부터 제작·후반작업까지 상업 영상 수요 전반을 커버한다.",
+        "points": [
+          "텍스트·이미지·주제 기반 영상 생성 및 편집 지원",
+          "알리바바 클라우드 Model Studio에서 40% 출시 할인",
+          "기업 통합용 API 설계",
+          "소라·시댄스 대비 랭킹 역전"
+        ],
+        "why": [
+          "중국 빅테크의 상용 영상 모델이 빠르게 서구 선도 모델을 추격하는 신호"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-glm52-open-model",
+      "title": "GLM-5.2, 오픈 모델의 기준을 끌어올리다",
+      "summary": "TheZvi가 GLM-5.2의 벤치마크를 분석하며 가장 강력한 공개 모델 중 하나로 평가.",
+      "url": "https://thezvi.wordpress.com/2026/06/22/glm-5-2-is-the-new-best-open-model/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Reference",
+        "affectedSurface": "오픈 모델"
+      },
+      "related": [
+        "GLM-5.2 vs Claude Opus 비교 기사 참조",
+        "오픈 모델 벤치마크 신뢰성 점검"
+      ],
+      "report": {
+        "tldr": "GLM-5.2가 공개 모델 가운데 최상위급 성능을 보였다는 분석.",
+        "what": "TheZvi는 GLM-5.2의 역량과 벤치마크 결과를 검토하며 이전 오픈 모델 대비 의미 있는 진전을 이뤘다고 평가했다. 공개적으로 이용 가능한 모델 중 가장 강력한 축에 들지만 여전히 선도 프런티어 시스템에는 못 미친다고 짚었다.",
+        "points": [
+          "이전 오픈 모델 대비 뚜렷한 성능 향상",
+          "공개 모델 중 최상위권 평가",
+          "프런티어 시스템과는 여전히 격차"
+        ],
+        "why": [
+          "오픈 모델 경쟁이 프런티어 모델과의 간격을 좁히는 추세"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-claude-thinking-not-authentic",
+      "title": "클로드 코드의 '확장 사고' 출력은 진짜가 아니다",
+      "summary": "클로드 코드의 추론 과정은 암호화돼 있으며 API는 요약만 반환.",
+      "url": "https://patrickmccanna.net/the-text-in-claude-codes-extended-thinking-output-is-not-authentic/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "모델 투명성"
+      },
+      "related": [
+        "엔터프라이즈 사고 출력 접근 정책 확인",
+        "감사 추적 요구 규제 동향 점검"
+      ],
+      "report": {
+        "tldr": "클로드 코드의 확장 사고 출력은 실제 추론이 아닌 암호화된 요약이다.",
+        "what": "클로드 코드의 '확장 사고' 추론은 암호화돼 있고 키는 앤트로픽이 보유하며 사용자 기기에는 전달되지 않는다. API는 추론 자체가 아니라 추론의 요약을 반환한다. 전체 사고 출력을 받으려면 엔터프라이즈 계약이 필요하다.",
+        "points": [
+          "추론 과정은 암호화, 키는 앤트로픽 보유",
+          "API는 요약만 제공",
+          "원본 사고는 엔터프라이즈 계약 필요"
+        ],
+        "why": [
+          "AI 의사결정 감사 추적을 원하는 사용자에게 투명성 한계로 작용"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-model-size-scaling",
+      "title": "2023~2031 모델 크기 스케일링 전망",
+      "summary": "토큰 생성 속도 목표가 총 파라미터를 제약하며 연도별 실현 가능한 모델 규모를 추정.",
+      "url": "https://www.lesswrong.com/posts/yLHiQGCPdvzL9fBn3/model-size-scaling-in-2023-2031",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Reference",
+        "affectedSurface": "모델 스케일링"
+      },
+      "related": [
+        "컴퓨팅 공급 전망과 교차 검증",
+        "추정 가정의 민감도 점검"
+      ],
+      "report": {
+        "tldr": "토큰 생성 속도 제약 하에서 연도별 실현 가능한 모델 규모를 추정한 분석.",
+        "what": "특정 토큰 생성 속도를 목표로 하면 모델의 총 파라미터 수에 제약이 생긴다. 사전학습 컴퓨팅이 부족하면 모델은 더 작게 유지된다. 이 글은 이런 고려를 바탕으로 2023~2031년 각 연도에 실현 가능한 모델 크기를 추정하며, 여러 가정 하에 2031년 총 파라미터가 1.4쿼드릴리언에 이를 것으로 본다.",
+        "points": [
+          "토큰 생성 속도가 파라미터 규모를 제약",
+          "사전학습 컴퓨팅 부족 시 모델 소형화",
+          "2031년 1.4쿼드릴리언 파라미터 전망"
+        ],
+        "why": [
+          "미래 모델 규모와 인프라 투자 계획 수립에 참고 가능한 추정"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-knowledge-agents",
+      "title": "지식 에이전트: 구조 개선으로 프런티어 모델 능가",
+      "summary": "지식을 구조화·주입해 더 작은 모델로도 대형 프런티어 모델 성능에 근접.",
+      "url": "https://weightythoughts.com/p/knowledge-agents-beat-frontier-models",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Engineering",
+        "status": "Adopt",
+        "affectedSurface": "에이전트 설계"
+      },
+      "related": [
+        "RAG·지식 구조화 기법 비교",
+        "소형 모델 활용 비용 효율 점검"
+      ],
+      "report": {
+        "tldr": "구조화된 지식 주입으로 소형 모델이 프런티어 모델 성능에 근접한 사례.",
+        "what": "앤트로픽이 Mythos 모델을 회수한 가운데, 저자는 '지식 에이전트'라 부르는 더 작은 에이전트형 모델로 대형 모델에 맞먹는 성능을 냈다. 이 에이전트는 특정하고 관련성 높은 지식을 주입해 Qwen 3.6 27B 같은 소형 모델에서도 잘 작동한다. 임베딩, 데이터 구조화, 다중 검색 패스를 통해 전문 질의와 독점 데이터에 대해 LLM을 효과적으로 보강한다.",
+        "points": [
+          "지식 주입으로 소형 모델 성능 강화",
+          "Qwen 3.6 27B 등에서 효과 입증",
+          "임베딩·구조화·다중 검색 패스 활용",
+          "독점 데이터 특화 질의에 강점"
+        ],
+        "why": [
+          "모델 크기보다 지식 구조 설계가 실무 성능을 좌우할 수 있음"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-moebius-inpainting",
+      "title": "Moebius: 경량 고효율 인페인팅 프레임워크",
+      "summary": "0.22B 모델로 11.9B FLUX.1-Fill-Dev를 능가하며 15배 이상 추론 가속.",
+      "url": "https://hustvl.github.io/Moebius/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Engineering",
+        "status": "Adopt",
+        "affectedSurface": "이미지 생성"
+      },
+      "related": [
+        "경량 생성 모델 품질·속도 비교",
+        "온디바이스 인페인팅 적용 검토"
+      ],
+      "report": {
+        "tldr": "0.22B 경량 모델 Moebius가 대형 산업 모델 수준의 인페인팅 품질을 낸다.",
+        "what": "Moebius는 매우 효율적인 경량 인페인팅 프레임워크다. 0.22B 모델이 11.9B 산업용 범용 모델 FLUX.1-Fill-Dev의 생성 품질에 맞먹거나 능가하며, 총 추론 시간을 15배 이상 단축한다. 실세계 이미지 인페인팅과 AI 객체 제거를 파라미터 과잉에서 해방시킨다.",
+        "points": [
+          "0.22B 모델로 11.9B급 품질 달성",
+          "총 추론 시간 15배 이상 가속",
+          "실세계 인페인팅·객체 제거에 적용"
+        ],
+        "why": [
+          "경량 모델이 대형 모델 품질을 대체하며 온디바이스·저비용 적용 가능성 확대"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-codex-long-running",
+      "title": "장기 프로젝트를 위한 Codex 활용법",
+      "summary": "Codex를 지속적 작업공간으로 다뤄 확장된 프로젝트에서 컨텍스트를 유지하는 전략.",
+      "url": "https://links.tldrnewsletter.com/sFNfjC",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Engineering",
+        "status": "Reference",
+        "affectedSurface": "코딩 에이전트"
+      },
+      "related": [
+        "에이전트 컨텍스트 유지 기법 비교",
+        "장기 프로젝트 자동화 사례 점검"
+      ],
+      "report": {
+        "tldr": "Codex를 지속적 작업공간으로 운영해 장기 프로젝트 컨텍스트를 유지하는 가이드.",
+        "what": "이 가이드는 Codex를 장기 프로젝트 전반에서 컨텍스트를 유지하는 지속적 작업공간으로 다루는 전략을 정리한다. 워크플로 관리, 작업 분해, 자율 실행과 사람 감독의 균형 기법을 다룬다.",
+        "points": [
+          "Codex를 지속적 작업공간으로 운용",
+          "작업 분해와 워크플로 관리",
+          "자율 실행과 인간 감독의 균형"
+        ],
+        "why": [
+          "코딩 에이전트를 장기 운영하려는 팀에 실무 워크플로 지침 제공"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-anthropic-id-verification",
+      "title": "앤트로픽, 일부 사용자에게 신분증 요구할 수 있다",
+      "summary": "7월 8일부터 특정 상황에서 신원 확인 요구 가능, 제공사는 Persona.",
+      "url": "https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "계정 정책"
+      },
+      "related": [
+        "신원 확인 적용 범위 공지 추적",
+        "Persona 데이터 처리 정책 점검"
+      ],
+      "report": {
+        "tldr": "앤트로픽이 7월 8일부터 일부 플래그된 계정에 신원 확인을 요구할 수 있다.",
+        "what": "앤트로픽은 7월 8일부터 특정 상황에서 신원 확인을 요구할 수 있다. 회사는 언제 정부 발급 서류를 요청할지 구체적 예시는 제시하지 않았다. 대변인은 이 변경이 차단되진 않았지만 플래그된 소수 계정에만 적용된다고 밝혔다. 신원 확인 제공사로 Persona를 사용한다.",
+        "points": [
+          "7월 8일부터 신원 확인 도입 가능",
+          "플래그된 소수 계정 대상",
+          "구체적 적용 기준 미공개",
+          "Persona를 확인 제공사로 사용"
+        ],
+        "why": [
+          "AI 서비스의 신원 확인 도입은 오남용 방지와 프라이버시 사이 긴장을 키움"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-loop-engineering",
+      "title": "루프 엔지니어링, 명확히 설명하다",
+      "summary": "수동 프롬프팅에서 스스로 작업을 정하고 실행·검증·개선하는 자율 시스템 설계로 전환.",
+      "url": "https://links.tldrnewsletter.com/Vjfg7N",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Engineering",
+        "status": "Adopt",
+        "affectedSurface": "에이전트 설계"
+      },
+      "related": [
+        "에이전트 검증·종료 조건 설계 사례 참조",
+        "컨텍스트 관리 기법 점검"
+      ],
+      "report": {
+        "tldr": "루프 엔지니어링은 자율적으로 작업·실행·검증·개선하는 에이전트 시스템 설계다.",
+        "what": "루프 엔지니어링은 에이전트를 일일이 프롬프트하던 방식에서, 무엇을 작업할지 스스로 정하고 실행·검증·개선하는 자율 시스템 설계로 AI 개발을 옮긴다. 핵심 에이전트 루프는 단순하지만, 어려운 문제는 신뢰할 수 있는 종료 조건 정의, 컨텍스트 부패 방지, 에이전트 친화적 도구 설계, 성공을 독립적으로 판단하는 검증 메커니즘 구축이다.",
+        "points": [
+          "수동 프롬프팅→자율 루프 시스템 전환",
+          "종료 조건·검증 메커니즘이 핵심 난제",
+          "컨텍스트 부패 방지 필요",
+          "에이전트 친화적 도구 설계 강조"
+        ],
+        "why": [
+          "에이전트 시스템의 신뢰성은 루프·검증 설계 품질에 좌우됨"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-claude-sonnet-5",
+      "title": "'claude-sonnet-5' 슬러그 포착",
+      "summary": "앤트로픽 파트너 제공사에 claude-sonnet-5 슬러그가 등장.",
+      "url": "https://links.tldrnewsletter.com/RJev82",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "모델 출시"
+      },
+      "related": [
+        "앤트로픽 차기 모델 공지 추적"
+      ],
+      "report": {
+        "tldr": "앤트로픽 파트너 제공사에서 claude-sonnet-5 모델 슬러그가 발견됐다.",
+        "what": "한 앤트로픽 파트너 제공사에서 'claude-sonnet-5' 슬러그가 나타났다. 차기 Sonnet 모델 출시 가능성을 시사하는 단서다.",
+        "points": [
+          "파트너 제공사에 claude-sonnet-5 슬러그 등장",
+          "차기 Sonnet 출시 가능성 단서"
+        ],
+        "why": [
+          "모델 슬러그 노출은 임박한 출시의 비공식 신호가 되곤 함"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-anthropic-cowork-mobile",
+      "title": "앤트로픽, 코워크 모바일 지원 준비",
+      "summary": "코워크 시스템을 모바일 앱으로 확장해 기기 간 작업 예약·조회 지원 계획.",
+      "url": "https://www.testingcatalog.com/anthropic-prepares-cowork-support-for-mobile-apps/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "제품 확장"
+      },
+      "related": [
+        "코워크 모바일 기능 공개 추적"
+      ],
+      "report": {
+        "tldr": "앤트로픽이 코워크를 모바일 앱으로 확장할 계획이다.",
+        "what": "앤트로픽은 코워크 시스템을 모바일 앱으로 확장해 기기 전반에서 작업 예약과 조회를 가능하게 할 계획이다.",
+        "points": [
+          "코워크 모바일 앱 확장 추진",
+          "기기 간 작업 예약·조회 지원"
+        ],
+        "why": [
+          "에이전트 워크플로의 모바일 확장은 일상 업무 자동화 접근성을 높임"
+        ]
+      },
+      "source": "TLDR AI"
+    },
+    {
+      "id": "ai-tencent-xiaowei-wechat",
+      "title": "텐센트, 위챗에 AI 비서 '샤오웨이' 테스트",
+      "summary": "중국 최대 앱 위챗에 AI 비서를 시험하며 알리바바 등 경쟁사 추격.",
+      "url": "https://www.cnbc.com/2026/06/22/tencent-ai-assistant-wechat-china.html",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "AI 비서"
+      },
+      "related": [
+        "중국 AI 비서 경쟁 동향 추적",
+        "위챗 AI 기능 채택률 점검"
+      ],
+      "report": {
+        "tldr": "텐센트가 위챗에 AI 비서 샤오웨이를 시험하며 경쟁사 추격에 나섰다.",
+        "what": "텐센트는 위챗 안에서 AI 비서 '샤오웨이'를 테스트하며 사용자 상호작용을 강화하고 중국 내 알리바바 같은 AI 경쟁사에 맞서려 한다.",
+        "points": [
+          "위챗 내 AI 비서 샤오웨이 시험",
+          "사용자 상호작용 강화 목표",
+          "알리바바 등 경쟁사 추격"
+        ],
+        "why": [
+          "중국 최대 메신저의 AI 비서 도입은 거대 사용자 기반 AI 경쟁의 분수령"
+        ]
+      },
+      "source": "TLDR AI"
+    }
+  ]
+}

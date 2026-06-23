@@ -1,0 +1,46 @@
+{
+  "date": "2026-06-23",
+  "weekday": "화",
+  "headline": "스페이스X·리플렉션 63억 달러 컴퓨팅 계약 — 오픈AI GPT-5.5-Cyber·에이전트 보안 위협 부상",
+  "subtitle": "스페이스X가 슈퍼컴퓨터 콜로서스를 리플렉션 AI에 최대 63억 달러에 빌려주며 AI 컴퓨팅 수요 급증을 보여줬고, 오픈AI는 GPT-5.5-Cyber와 Daybreak로 취약점 패치 자동화를 확장했다. 보안에서는 공개 Sentry 키를 악용한 '에이전트재킹', 7,000대 Langflow 서버 공격, 애플 비츠 도청 취약점, FortiBleed 후속 피해가 부각됐다. 크립토는 일본 기업연금의 1% 암호화폐 배분과 젤 스테이블코인이, 빅테크는 엔비디아 로봇 안전 랩과 메타 직원추적 중단이 눈에 띄었다. — 6월 23일 TLDR 8개 에디션, 총 106건 요약",
+  "keyword": "스페이스X 컴퓨팅 계약 · GPT-5.5-Cyber · 에이전트재킹 · 일본 연금 크립토",
+  "bigStoryId": "ai-spacex-reflection-compute",
+  "editions": [
+    "ai",
+    "tech",
+    "infosec",
+    "crypto",
+    "it",
+    "dev",
+    "marketing",
+    "design"
+  ],
+  "lastUpdated": "09:10 CDT",
+  "syncedAt": "09:10",
+  "stats": {
+    "companies": 106,
+    "security": 20,
+    "deals": 10,
+    "policy": 5
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "AI 컴퓨팅·보안 스택의 동시 확장",
+      "body": "스페이스X가 콜로서스를 리플렉션 AI에 최대 63억 달러에 빌려주며 비전통 사업자까지 AI 컴퓨팅 공급에 뛰어들었고, 오픈AI는 GPT-5.5-Cyber·Codex Security·Daybreak로 보안 발견에서 패치까지 자동화를 파트너 통제형으로 확장했다. 알리바바 HappyHorse는 영상 모델 2위로 올라서며 중국 빅테크의 상용 모델 추격을 보여줬다.",
+      "action": "컴퓨팅 공급원 다변화와 AI 보안 자동화 도입을 검토하고, 모델 접근 통제·가용성 시나리오를 점검"
+    },
+    {
+      "kind": "watchlist",
+      "title": "에이전트·AI 인프라 보안 모니터링",
+      "body": "공개 Sentry DSN을 악용한 '에이전트재킹'이 클로드 코드·커서·Codex를 개발자 권한으로 탈취할 수 있고, 7,000대 Langflow 서버가 공격받으며 LangGraph·LangChain도 동일 취약점을 안고 있다. 애플 비츠 도청 취약점(CVE-2025-20701)과 FortiBleed 자격증명 유출도 진행형이다.",
+      "action": "MCP 통합을 검증된 종속성으로 다루고 에이전트 명령을 런타임에서 게이트, Langflow·포티넷 즉시 패치와 자격증명 회전을 적용"
+    },
+    {
+      "kind": "market",
+      "title": "결제·금융 레일 재편",
+      "body": "일본 전국기업연금기금이 자산 1%를 암호화폐에 배분하고, 젤이 스테이블코인 출시·인도 확장을 예고하는 등 제도권 자금과 기존 금융기관이 디지털 자산으로 이동한다. 베이스 베릴의 B20 토큰 표준과 Tempo의 M2M 결제 급증도 온체인 결제 인프라 성숙을 보여준다.",
+      "action": "스테이블코인·토큰화 자산의 컴플라이언스 요건과 온체인 결제 통합 기회를 점검"
+    }
+  ]
+}

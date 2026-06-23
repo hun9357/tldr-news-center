@@ -1,0 +1,424 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-nvidia-robot-safety",
+      "title": "엔비디아, 휴머노이드 AI 로봇을 사람 주변에서 더 안전하게",
+      "summary": "로봇 제조사·고객이 규제 인증 전 안전 테스트를 할 수 있는 랩 구축.",
+      "url": "https://links.tldrnewsletter.com/NwTThb",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "로보틱스"
+      },
+      "related": [
+        "휴머노이드 안전 인증 표준 추적",
+        "로봇 안전 테스트 인프라 동향 점검"
+      ],
+      "report": {
+        "tldr": "엔비디아가 규제 인증 전 로봇 안전 테스트를 위한 랩을 만들었다.",
+        "what": "엔비디아는 로봇 제조사와 고객이 규제기관에 가서 필요한 인증을 받기 전에 안전 테스트를 돌릴 수 있는 랩을 만들었다. 랩 엔지니어는 사전 검사 작업과 엔지니어링 조정을 도울 수 있다. 로봇 안전 설계는 일반적으로 사람·사물과의 접촉 회피에 그치는 자율주행차보다 훨씬 복잡하다. 로봇은 무엇을 만지거나 옮기거나 힘을 가해도 되는지 알아야 한다.",
+        "points": [
+          "인증 전 안전 테스트용 랩 구축",
+          "사전 검사·엔지니어링 조정 지원",
+          "로봇 안전은 자율주행보다 복잡",
+          "접촉 가능 대상 판단이 핵심"
+        ],
+        "why": [
+          "휴머노이드 상용화의 병목인 안전 인증을 인프라로 지원하려는 시도"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-instagram-streaming-tv",
+      "title": "인스타그램, 장편·에피소드·라이브로 스트리밍 서비스에 도전",
+      "summary": "릴스용 시리즈 기능과 삼성 TV용 인스타그램 TV 앱 시험.",
+      "url": "https://techcrunch.com/2026/06/22/instagram-looks-to-take-on-streaming-services-with-longer-form-episodic-and-live-formats-for-its-tv-app/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "소셜·스트리밍"
+      },
+      "related": [
+        "인스타그램 TV 앱 기능 확장 추적",
+        "소셜-스트리밍 경쟁 동향 점검"
+      ],
+      "report": {
+        "tldr": "인스타그램이 장편·에피소드·라이브 포맷으로 TV 앱을 확장한다.",
+        "what": "인스타그램은 장편 콘텐츠, 에피소드 시리즈, 라이브 TV를 실험하고 있다. 직렬화 콘텐츠를 따라가기 쉽게 하는 릴스용 시리즈 기능을 시험 중이다. 인스타그램 TV 앱은 삼성 TV로 출시되고 있으며, 채널, 모바일 기기에서 캐스트, 가로 영상·스토리 지원 등 여러 기능이 추가됐다.",
+        "points": [
+          "릴스용 시리즈 기능 시험",
+          "삼성 TV용 인스타그램 TV 앱 출시",
+          "채널·캐스트·가로 영상 지원",
+          "장편·라이브 포맷 실험"
+        ],
+        "why": [
+          "소셜 플랫폼의 장편·TV 확장은 스트리밍 경쟁 구도를 흔들 수 있음"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-spacex-starfall",
+      "title": "스페이스X, 우주 제조를 바꿀 비밀 우주선 발사",
+      "summary": "최대 2,200파운드 화물을 궤도에서 귀환시키는 재진입 캡슐 Starfall.",
+      "url": "https://www.teslarati.com/spacex-starfall-spacecraft-demo-launch/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Science",
+        "status": "Watch",
+        "affectedSurface": "우주 제조"
+      },
+      "related": [
+        "Starfall 첫 비행 결과 추적",
+        "우주 제조·회수 경제성 점검"
+      ],
+      "report": {
+        "tldr": "스페이스X의 재진입 캡슐 Starfall이 궤도 화물 귀환을 노린다.",
+        "what": "스페이스X의 Starfall은 최대 2,200파운드 화물을 궤도에서 귀환시킬 수 있는 재진입 캡슐이다. 원반형 기하구조로 질량 대비 구조 효율과 화물 부피를 극대화한다. 대량 생산되도록 설계됐고 팰컨 9 또는 스타십에 실어 발사한다. 스페이스X는 오늘 SLC-40에서 Starfall 첫 비행을 발사할 계획이다.",
+        "points": [
+          "최대 2,200파운드 궤도 화물 귀환",
+          "원반형으로 구조 효율 극대화",
+          "팰컨 9·스타십 호환, 대량 생산 설계",
+          "SLC-40에서 첫 비행 예정"
+        ],
+        "why": [
+          "저비용 궤도 화물 귀환은 우주 제조·실험 회수 경제성을 바꿀 수 있음"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-how-to-win-space-war",
+      "title": "우주 전쟁에서 이기는 법",
+      "summary": "GPS 재밍·탄도미사일·스타링크 위협 등 우주에서 벌어지는 전쟁의 수단과 목표 분석.",
+      "url": "https://www.a16z.news/p/how-to-win-a-space-war",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Science",
+        "status": "Reference",
+        "affectedSurface": "우주 안보"
+      },
+      "related": [
+        "위성 인프라 안보 정책 동향 점검"
+      ],
+      "report": {
+        "tldr": "우주에서 벌어지는 전쟁의 수단·방법·목표를 실무적으로 분석한 장문 글.",
+        "what": "전쟁은 이제 우주에서도 벌어진다. 러시아는 동유럽 대부분에서 GPS 위성 수신기를 재밍하고, 이란은 우주 공간을 통해 수백 발의 탄도미사일을 발사했으며, 중국은 스타링크 위성 파괴를 공공연히 검토해 왔다. 이 글은 우주 전쟁에서 이기는 데 필요한 수단·방법·목표를 실무적으로 살핀다.",
+        "points": [
+          "GPS 재밍이 동유럽 광범위 확산",
+          "탄도미사일이 우주 공간 경유",
+          "중국의 스타링크 파괴 검토",
+          "우주전 수단·방법·목표 분석"
+        ],
+        "why": [
+          "우주가 군사 충돌의 전장이 되며 위성 인프라 안보가 핵심 의제로 부상"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-optimal-slop",
+      "title": "최적의 슬롭 양은 0이 아니다",
+      "summary": "소프트웨어 용도에 따라 허용 가능한 AI 슬롭 수준이 달라진다.",
+      "url": "https://www.slater.dev/2026/06/the-optimal-amount-of-slop-is-non-zero/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Programming",
+        "status": "Reference",
+        "affectedSurface": "AI 코딩 품질"
+      },
+      "related": [
+        "AI 코드 검증 수준 정책 점검",
+        "리스크 기반 품질 기준 수립"
+      ],
+      "report": {
+        "tldr": "소프트웨어 용도별로 허용 가능한 AI 슬롭 수준이 다르다는 주장.",
+        "what": "소프트웨어는 용도에 따라 다른 수준의 검증을 요한다. 캐주얼 소프트웨어는 배포 범위가 좁고 품질 제약이 느슨하다. 비즈니스 소프트웨어는 작동해야 하며, 그렇지 않으면 조직이 손실을 본다. 중대(acute) 소프트웨어는 미션 크리티컬해 최고 수준의 검증이 필요하다. 소프트웨어 실패 위험이 커질수록 허용 가능한 AI 슬롭은 줄어든다.",
+        "points": [
+          "용도별로 검증 수준이 달라짐",
+          "캐주얼·비즈니스·중대 소프트웨어 구분",
+          "실패 위험↑일수록 허용 슬롭↓"
+        ],
+        "why": [
+          "AI 코드 활용의 적정 검증 수준을 위험 기반으로 판단해야 함"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-ai-code-review",
+      "title": "거대한 디프일수록 AI로 코드 리뷰하라 (빅테크판)",
+      "summary": "라인 단위 트집보다 고수준 이슈에 집중하도록 AI 활용.",
+      "url": "https://simianwords.bearblog.dev/you-should-use-ai-for-reviewing-code-especially-when-the-diff-is-huge/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Programming",
+        "status": "Adopt",
+        "affectedSurface": "코드 리뷰"
+      },
+      "related": [
+        "AI 코드 리뷰 워크플로 도입 검토"
+      ],
+      "report": {
+        "tldr": "거대한 코드 변경일수록 AI 리뷰로 고수준 이슈에 집중하라는 조언.",
+        "what": "코드 몇 줄을 AI로 트집 잡는 건 실수다. LLM이 이제 고심각도 취약점을 잡아내므로 개별 라인 리뷰는 불필요하다. 사람 리뷰어의 역할은 AI가 모르는 지식을 전달하는 것으로 바뀌었다. 이 워크플로는 각 라인이 신성하지 않은 곳에서 가장 잘 작동한다.",
+        "points": [
+          "거대한 디프에 AI 리뷰가 유리",
+          "LLM이 고심각도 취약점 포착",
+          "사람은 AI가 모르는 지식 전달",
+          "라인 단위 트집은 비효율"
+        ],
+        "why": [
+          "AI 코드 리뷰가 사람 리뷰어의 역할을 재정의함"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-google-a24",
+      "title": "구글, '백룸스' 스튜디오 A24에 투자",
+      "summary": "AI 연구 파트너십의 일환으로 독립영화사 A24에 투자.",
+      "url": "https://links.tldrnewsletter.com/yWaFTd",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "미디어·AI"
+      },
+      "related": [
+        "빅테크-스튜디오 AI 제휴 동향 점검"
+      ],
+      "report": {
+        "tldr": "구글이 영화 제작 AI 도구를 위해 A24에 투자한다.",
+        "what": "구글은 히트작 '백룸스'를 낸 독립영화사 A24에 투자한다. 이 투자는 양사 간 새로운 AI 연구 파트너십의 일환으로, 영화 제작·배급용 새 도구 개발을 목표로 한다. 다년·비독점 계약으로 스튜디오의 아티스트 진용이 관여할 가능성이 높지만 구글이 A24의 데이터에 접근하지는 않는다. A24는 이미 AI 생성 스토리보드 애플리케이션을 개발 중이다.",
+        "points": [
+          "구글, 독립영화사 A24 투자",
+          "영화 제작·배급 AI 도구 개발 목표",
+          "다년·비독점, 데이터 미접근",
+          "A24는 AI 스토리보드 앱 개발 중"
+        ],
+        "why": [
+          "빅테크-스튜디오 제휴는 영화 제작 워크플로의 AI 전환을 가속"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-meta-employee-tracking",
+      "title": "메타, 전사 민감 데이터 노출 후 직원 추적 프로그램 '일시중단'",
+      "summary": "키 입력·마우스 추적 AI 학습 프로그램이 사적 대화·성과 데이터를 전사에 노출.",
+      "url": "https://www.engadget.com/2199458/meta-is-pausing-employee-tracking-program-after-it-let-the-whole-company-see-sensitive-data/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "직원 데이터"
+      },
+      "related": [
+        "사내 직원 모니터링·AI 학습 정책 점검"
+      ],
+      "report": {
+        "tldr": "메타가 민감 데이터 노출 후 직원 추적 AI 학습 프로그램을 중단했다.",
+        "what": "메타는 직원의 키 입력과 마우스 움직임을 추적하는 AI 학습 프로그램 'Model Capability Initiative'를 중단했다. 이 프로그램은 사적 대화·성과 데이터·녹취가 전체 메타 직원에게 공개되게 만들었다. 메타는 데이터가 부적절하게 접근됐다는 징후는 없다고 밝혔다.",
+        "points": [
+          "키 입력·마우스 추적 AI 학습 프로그램 중단",
+          "사적 대화·성과 데이터가 전사 노출",
+          "부적절 접근 징후는 없다고 주장"
+        ],
+        "why": [
+          "직원 행동 데이터의 AI 학습 활용은 프라이버시·신뢰 리스크를 키움"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-lg-tv-proxies",
+      "title": "LG 스마트TV 앱 절반 가까이에 프록시 내장",
+      "summary": "스크린세이버·게임·시계·novelty 앱에 주거용 프록시가 임베드.",
+      "url": "https://spur.us/blog/smart-tv-apps-residential-proxy-sdks",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Programming",
+        "status": "Watch",
+        "affectedSurface": "스마트TV·프록시"
+      },
+      "related": [
+        "스마트TV 앱 프록시 SDK 동향 점검"
+      ],
+      "report": {
+        "tldr": "LG 스마트TV 앱의 약 절반에 주거용 프록시가 내장돼 있다.",
+        "what": "주거용 프록시가 스크린세이버, 게임, 시계, novelty 앱 안에 임베드되고 있다.",
+        "points": [
+          "LG TV 앱 다수에 주거용 프록시 내장",
+          "스크린세이버·게임·시계 앱이 매개"
+        ],
+        "why": [
+          "가전 앱이 프록시 네트워크 노드로 악용되며 새로운 공급망 위험을 만듦"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-cloudflare-pact",
+      "title": "클라우드플레어, 크롬·파이어폭스·엣지와 프라이버시 우선 안티봇 프로토콜",
+      "summary": "사용자 추적 없이 트래픽 정당성을 검증하는 PACT 프로토콜.",
+      "url": "https://thenextweb.com/news/cloudflare-pact-browser-privacy-bot-traffic-protocol",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Programming",
+        "status": "Watch",
+        "affectedSurface": "웹 보안·표준"
+      },
+      "related": [
+        "PACT 표준화·채택 동향 추적"
+      ],
+      "report": {
+        "tldr": "클라우드플레어가 브라우저들과 프라이버시 우선 안티봇 프로토콜 PACT를 추진한다.",
+        "what": "PACT는 사용자를 추적하지 않고 웹 트래픽이 정당한지 검증하는 인터넷 프로토콜이다.",
+        "points": [
+          "사용자 추적 없는 트래픽 정당성 검증",
+          "크롬·파이어폭스·엣지와 협력",
+          "PACT 프로토콜로 표준화 시도"
+        ],
+        "why": [
+          "프라이버시 보존형 안티봇 표준은 웹 트래픽 검증 방식을 바꿀 수 있음"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-whatsapp-kunal-shah",
+      "title": "메타 왓츠앱 수장 사임, 인도 핀테크 창업자 쿠날 샤가 후임",
+      "summary": "Cred 창업자 쿠날 샤가 왓츠앱 책임자로.",
+      "url": "https://www.cnbc.com/2026/06/22/meta-kunal-shah-whatsapp-will-cathcart.html",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "리더십·메시징"
+      },
+      "related": [
+        "왓츠앱 결제·핀테크 전략 변화 추적"
+      ],
+      "report": {
+        "tldr": "왓츠앱 수장이 물러나고 Cred 창업자 쿠날 샤가 후임이 된다.",
+        "what": "쿠날 샤는 제때 청구서를 결제하는 사용자에게 보상하는 신용카드 결제 플랫폼 Cred를 창업했다.",
+        "points": [
+          "왓츠앱 수장 교체",
+          "Cred 창업자 쿠날 샤 후임",
+          "핀테크 배경 리더십 합류"
+        ],
+        "why": [
+          "핀테크 창업자의 왓츠앱 합류는 메시징-결제 통합 가속 신호일 수 있음"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-trump-quantum-eo",
+      "title": "트럼프, 양자컴퓨팅 촉진 행정명령 서명",
+      "summary": "고급 양자컴퓨터 개발 가속과 보안 위협 완화를 겨냥.",
+      "url": "https://links.tldrnewsletter.com/amPhzj",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "양자·정책"
+      },
+      "related": [
+        "양자 정책·PQC 전환 동향 점검"
+      ],
+      "report": {
+        "tldr": "트럼프가 양자컴퓨팅 개발 촉진 행정명령 두 건에 서명했다.",
+        "what": "도널드 트럼프 대통령이 고급 양자컴퓨터 개발 속도를 높이고 그 보안 위협을 완화하기 위한 행정명령 두 건에 서명했다.",
+        "points": [
+          "양자컴퓨팅 개발 가속 행정명령",
+          "보안 위협 완화 병행",
+          "행정명령 두 건 서명"
+        ],
+        "why": [
+          "국가 차원의 양자 정책은 PQC 전환·연구 투자 우선순위에 영향"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-agent-capability-library",
+      "title": "에이전트 능력 라이브러리",
+      "summary": "에이전트가 할 수 있는 일을 짧은 설명·문서 포인터와 함께 목록화한 색인.",
+      "url": "https://samihonkonen.com/posts/an-agent-capability-library/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Programming",
+        "status": "Reference",
+        "affectedSurface": "에이전트 설계"
+      },
+      "related": [
+        "에이전트 능력·스킬 관리 패턴 참조"
+      ],
+      "report": {
+        "tldr": "에이전트가 할 수 있는 일을 색인화한 능력 라이브러리 개념.",
+        "what": "AI 능력 색인은 에이전트가 할 수 있는 일들을 나열하고, 각 항목에 언제 쓰는지에 대한 짧은 설명과 사용법을 설명하는 문서 포인터를 붙인다.",
+        "points": [
+          "에이전트 능력을 색인화",
+          "항목별 사용 시점 설명",
+          "사용법 문서 포인터 연결"
+        ],
+        "why": [
+          "에이전트 능력의 구조적 관리가 자율 워크플로 신뢰성을 높임"
+        ]
+      },
+      "source": "TLDR"
+    },
+    {
+      "id": "tech-data-centers-power",
+      "title": "미국 데이터센터가 전력에 연결되지 못하는 이유",
+      "summary": "AI 인프라 구축 전력은 있지만 그리드 연결이 크게 적체.",
+      "url": "https://worksinprogress.co/issue/why-american-data-centers-cant-plug-in/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Programming",
+        "status": "Reference",
+        "affectedSurface": "에너지·인프라"
+      },
+      "related": [
+        "데이터센터 전력 연계 정책·적체 동향 점검"
+      ],
+      "report": {
+        "tldr": "미국은 AI용 전력은 있지만 그리드 연결 적체로 데이터센터가 막혀 있다.",
+        "what": "미국은 AI 인프라 구축을 뒷받침할 에너지는 있지만 그리드 운영사들이 크게 적체돼 있다.",
+        "points": [
+          "AI 인프라용 전력은 충분",
+          "그리드 연결이 심각하게 적체",
+          "데이터센터 가동 지연"
+        ],
+        "why": [
+          "전력 그리드 연결 적체가 AI 인프라 확장의 실질 병목으로 부상"
+        ]
+      },
+      "source": "TLDR"
+    }
+  ]
+}

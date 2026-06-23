@@ -1,0 +1,309 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "💻",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-whatsapp-phishing-docs",
+      "title": "왓츠앱 피싱 캠페인, 가짜 비즈니스 문서로 윈도우 PC 해킹",
+      "summary": "침해된 왓츠앱 계정으로 난독화 VBScript를 퍼뜨려 원격 관리자 접근 획득.",
+      "url": "https://links.tldrnewsletter.com/Vk69fs",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Patch",
+        "affectedSurface": "엔드포인트 보안"
+      },
+      "related": [
+        "왓츠앱 문서 첨부 실행 차단",
+        "ManageEngine 비정상 설치 탐지"
+      ],
+      "report": {
+        "tldr": "침해된 왓츠앱 계정이 가짜 문서로 VBScript를 퍼뜨려 윈도우 PC를 장악한다.",
+        "what": "침해된 왓츠앱 계정을 통해 난독화된 VBScript 파일을 전달하는 가짜 비즈니스·금융 문서로 악성코드 캠페인이 확산되고 있다. 윈도우에서 열면 스크립트가 ManageEngine Endpoint Central을 설치하고 공격자 통제 서버를 가리키게 해, 피해자 PC에 원격 관리자 접근 권한을 부여한다.",
+        "points": [
+          "침해된 왓츠앱 계정이 확산 경로",
+          "가짜 비즈니스·금융 문서로 VBScript 전달",
+          "ManageEngine Endpoint Central 악용",
+          "원격 관리자 접근 획득"
+        ],
+        "why": [
+          "정상 도구를 악용한 합법 위장 공격이 탐지를 우회함"
+        ],
+        "action": "출처 불명 문서의 VBScript 실행 차단, 비인가 ManageEngine 설치·외부 서버 연결 탐지"
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-cisco-widefield",
+      "title": "시스코, AI 에이전트·비인간 정체성 보안 위해 WideField 인수",
+      "summary": "Splunk에 통합해 사용자·NHI·세션·워크로드·AI 에이전트 가시성 강화.",
+      "url": "https://www.crn.com/news/security/2026/cisco-bets-on-widefield-security-acquisition-to-tackle-agentic-ai-security-gap",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "정체성 보안"
+      },
+      "related": [
+        "NHI·AI 에이전트 보안 솔루션 동향 점검",
+        "Splunk 통합 로드맵 추적"
+      ],
+      "report": {
+        "tldr": "시스코가 WideField를 인수해 Splunk의 AI 에이전트·NHI 가시성을 강화한다.",
+        "what": "시스코는 WideField Security를 인수해 Splunk에 통합하고 인간 사용자·비인간 정체성(NHI)·세션·워크로드·AI 에이전트 전반의 가시성을 높일 계획이다. 목표는 Splunk가 정체성·엔드포인트·네트워크·클라우드 텔레메트리를 상관시켜, 인증된 사용자나 승인된 AI 에이전트라도 위험한 행동을 할 때 보안팀이 탐지하게 돕는 것이다.",
+        "points": [
+          "WideField 인수해 Splunk에 통합",
+          "사용자·NHI·AI 에이전트 가시성 강화",
+          "정체성·엔드포인트·네트워크·클라우드 상관",
+          "승인된 에이전트의 위험 행동 탐지"
+        ],
+        "why": [
+          "에이전틱 AI 보안 격차를 정체성 가시성으로 메우려는 인수"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-minimum-viable-saas",
+      "title": "판매 가능한 소프트웨어의 최소 단위",
+      "summary": "LLM으로 개발이 싸져도 SaaS 구매가 재구축보다 비용 효율적인 '생존 구간'이 존재.",
+      "url": "https://brandur.org/minimum-viable-unit",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Strategy",
+        "status": "Reference",
+        "affectedSurface": "SaaS 경제학"
+      },
+      "related": [
+        "빌드 vs 바이 의사결정 기준 점검"
+      ],
+      "report": {
+        "tldr": "LLM 시대에도 SaaS 구매가 재구축보다 합리적인 '생존 구간'이 있다는 분석.",
+        "what": "LLM이 소프트웨어 구축을 싸게 만들어도, SaaS를 사는 것이 재구축보다 여전히 더 비용 효율적인 '생존 구간(zone of viability)'이 남는다. 신규성과 지속적 유지보수 때문에 일부 제품은 구매가 합리적이다.",
+        "points": [
+          "LLM이 개발 비용을 낮춤",
+          "그래도 구매가 합리적인 '생존 구간' 존재",
+          "신규성·유지보수가 구매 정당화"
+        ],
+        "why": [
+          "AI가 빌드 비용을 낮춰도 SaaS 구매 결정의 경제학은 유효함"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-identiverse-2026",
+      "title": "Identiverse 2026, AI 에이전트 뒤의 정체성 격차 드러내",
+      "summary": "대부분 도구가 쉬운 부분만 보고, 에이전트 거버넌스는 앱 수준 가시성·실시간 인가 필요.",
+      "url": "https://www.scworld.com/perspective/lessons-from-identiverse-2026",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Reference",
+        "affectedSurface": "정체성·거버넌스"
+      },
+      "related": [
+        "에이전트 정체성 거버넌스 도구 비교",
+        "실시간 인가 아키텍처 점검"
+      ],
+      "report": {
+        "tldr": "Identiverse 2026이 AI 에이전트 거버넌스의 정체성 격차를 부각했다.",
+        "what": "Identiverse 2026은 기업들이 AI 에이전트 거버넌스에 분주하지만 대부분 도구가 등록된 에이전트, 알려진 스튜디오, Entra Agent ID, OBO 이벤트, 관리형 SaaS 같은 쉬운 부분만 본다는 점을 분명히 했다. 더 큰 문제는 에이전트 거버넌스에 앱 수준 가시성, 실시간 인가, 그리고 모든 행위자·접근 경로·앱·위임 자격증명에 걸친 더 나은 정체성 기반이 필요하다는 것이다.",
+        "points": [
+          "대부분 도구는 쉬운 부분만 가시화",
+          "앱 수준 가시성·실시간 인가 필요",
+          "모든 행위자·위임 자격증명 포괄 필요"
+        ],
+        "why": [
+          "AI 에이전트 확산이 정체성·인가 인프라의 근본 재설계를 요구함"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-flic-mic",
+      "title": "Flic Mic for AI - 무선 음성 버튼",
+      "summary": "Flic 버튼 플랫폼 기반의 '눌러서 말하기' 무선 마이크.",
+      "url": "https://mic.flic.io/",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Reference",
+        "affectedSurface": "하드웨어"
+      },
+      "related": [
+        "AI 음성 입력 하드웨어 동향 점검"
+      ],
+      "report": {
+        "tldr": "Flic Mic은 누를 때만 듣는 AI용 무선 푸시투토크 마이크다.",
+        "what": "Flic Mic은 Flic 버튼 플랫폼 위에 만든 새 무선 '눌러서 말하기' 마이크다. 누르는 동안에만 듣고, AI 비서·홈 자동화용 구성 가능한 버튼을 지원하며, 교체 가능한 코인셀 배터리로 작동하고, 구독 없이 오픈 API를 사용한다.",
+        "points": [
+          "누를 때만 듣는 푸시투토크",
+          "AI 비서·홈 자동화 버튼 구성",
+          "코인셀 배터리·오픈 API",
+          "구독 불필요"
+        ],
+        "why": [
+          "프라이버시 친화적 음성 입력 하드웨어로 AI 비서 활용 확장"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-zoom-rooms-dashboard",
+      "title": "Zoom Rooms 대시보드, 기기 수준 상태 강화",
+      "summary": "방의 가용·오프라인·회의 중 등 확장된 상태를 관리·대시보드에서 확인.",
+      "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060437",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Reference",
+        "affectedSurface": "협업 인프라"
+      },
+      "related": [
+        "회의실 모니터링 기능 점검"
+      ],
+      "report": {
+        "tldr": "Zoom Rooms 대시보드가 더 상세한 방 상태를 보여준다.",
+        "what": "Zoom 관리자는 이제 Room Management와 대시보드에서 확장된 Zoom Rooms 상태를 볼 수 있다. 방이 가용·오프라인·회의 중·캘린더 일정 중·발표 중·통화 중·공사 중인지 등이 포함된다.",
+        "points": [
+          "Room Management·대시보드 상태 확장",
+          "가용·오프라인·회의 중 등 세분화",
+          "관리 가시성 향상"
+        ],
+        "why": [
+          "회의실 운영 가시성 강화로 IT 관리 효율 개선"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-mdfried",
+      "title": "Show HN: MdFried, 궁극의 마크다운 뷰어",
+      "summary": "헤더를 실제로 더 큰 텍스트로 렌더하는 터미널 마크다운 뷰어.",
+      "url": "https://github.com/benjajaja/mdfried",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Reference",
+        "affectedSurface": "개발 도구"
+      },
+      "related": [
+        "터미널 마크다운 뷰어 비교"
+      ],
+      "report": {
+        "tldr": "mdfried는 헤더를 실제 큰 텍스트로 렌더하는 터미널 마크다운 뷰어다.",
+        "what": "mdfried는 단순 볼드가 아니라 지원되는 터미널 그래픽/텍스트 크기 프로토콜을 통해 헤더를 실제로 더 큰 텍스트로 렌더하는 터미널 기반 마크다운 뷰어다. 다중 터미널 프로토콜의 이미지 미리보기, 검색·링크가 있는 페이징, URL 열기·변환, 코드 구문 강조, Mermaid 렌더링, 선택적 PDF 지원, 테마·설정 지원을 포함한다.",
+        "points": [
+          "헤더를 실제 큰 텍스트로 렌더",
+          "이미지 미리보기·Mermaid 렌더링",
+          "코드 강조·페이징·검색",
+          "테마·설정 지원"
+        ],
+        "why": [
+          "터미널 중심 워크플로의 문서 가독성을 높이는 도구"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-openai-daybreak",
+      "title": "오픈AI, 취약점 패치 자동화 위해 Daybreak 출시",
+      "summary": "Codex Security·GPT-5.5-Cyber·'Patch the Planet'로 발견에서 패치까지 자동화.",
+      "url": "https://links.tldrnewsletter.com/uD0htB",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "보안 자동화"
+      },
+      "related": [
+        "Daybreak·Codex Security 채택 추적",
+        "AI 자동 패치 신뢰성 점검"
+      ],
+      "report": {
+        "tldr": "오픈AI가 Daybreak로 취약점 발견에서 패치까지 자동화를 확장했다.",
+        "what": "오픈AI는 Daybreak를 Codex Security, GPT-5.5-Cyber, 보안 파트너 프로그램, 'Patch the Planet'으로 확장해 AI 보안을 취약점 발견에서 종단 간 패치 자동화로 옮기려 한다. Codex Security는 이미 3만 개 이상 코드베이스에서 3천만 건 이상 커밋을 스캔했고, GPT-5.5-Cyber는 사이버 벤치마크 성능을 높이면서 더 강한 접근 통제로 신뢰받는 방어자에게 제한된다.",
+        "points": [
+          "발견에서 패치까지 종단 간 자동화",
+          "Codex Security가 3천만+ 커밋 스캔",
+          "GPT-5.5-Cyber는 신뢰 방어자에 제한",
+          "'Patch the Planet' 병행"
+        ],
+        "why": [
+          "AI 보안의 초점이 취약점 발견에서 자동 교정으로 이동"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-helmsniff",
+      "title": "'Helmsniff' - Helm 보안 스캐너 (깃허브 레포)",
+      "summary": "렌더된 쿠버네티스/Helm 매니페스트의 보안 오설정을 스캔하는 Go CLI.",
+      "url": "https://github.com/VahidR/helmsniff",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Security",
+        "status": "Adopt",
+        "affectedSurface": "쿠버네티스 보안"
+      },
+      "related": [
+        "매니페스트 보안 스캐너 비교"
+      ],
+      "report": {
+        "tldr": "Helmsniff는 Helm 매니페스트의 보안 오설정을 스캔하는 오픈소스 Go CLI다.",
+        "what": "Helmsniff는 렌더된 쿠버네티스/Helm 매니페스트의 보안 오설정을 스캔해 CSV 또는 JSON 리포트를 출력하는 오픈소스 Go CLI 도구다.",
+        "points": [
+          "Helm/쿠버네티스 매니페스트 보안 스캔",
+          "오설정 탐지",
+          "CSV·JSON 리포트 출력"
+        ],
+        "why": [
+          "IaC·매니페스트 단계의 보안 오설정 조기 탐지에 유용"
+        ]
+      },
+      "source": "TLDR IT"
+    },
+    {
+      "id": "it-cisco-ccna",
+      "title": "시스코 CCNA 성공기: 미셸 슈클라르스카",
+      "summary": "제품 오너에서 네트워크 엔지니어로 전환, CCNA의 실무적 가치 부각.",
+      "url": "https://blogs.cisco.com/learning/ccna-success-story-michelle-szklarska",
+      "originalDate": "2026-06-23",
+      "intel": {
+        "impact": "Low",
+        "owner": "Career",
+        "status": "Reference",
+        "affectedSurface": "인증·커리어"
+      },
+      "related": [
+        "네트워킹 인증 커리어 경로 참조"
+      ],
+      "report": {
+        "tldr": "CCNA 취득으로 제품 오너에서 네트워크 엔지니어로 전환한 사례.",
+        "what": "미셸 슈클라르스카는 CCNA를 취득한 뒤 제품 오너에서 네트워크 엔지니어로 옮기며, 네트워킹 커리어의 실무적 기반으로서 이 인증의 지속적 가치를 보여줬다.",
+        "points": [
+          "CCNA로 직무 전환",
+          "제품 오너→네트워크 엔지니어",
+          "인증의 실무적 가치 부각"
+        ],
+        "why": [
+          "기초 네트워킹 인증이 커리어 전환의 실질 발판이 될 수 있음"
+        ]
+      },
+      "source": "TLDR IT"
+    }
+  ]
+}
