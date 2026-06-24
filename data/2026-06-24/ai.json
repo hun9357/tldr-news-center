@@ -12,13 +12,15 @@
       "url": "https://www.anthropic.com/news/introducing-claude-tag",
       "intel": {
         "impact": "High",
+        "confidence": "88%",
         "owner": "Product",
-        "status": "Act",
+        "status": "New",
         "affectedSurface": "협업·에이전트"
       },
       "related": [
         "엔터프라이즈 슬랙 통합 보안 검토",
-        "사내 에이전트 운영 정책 수립"
+        "사내 에이전트 운영 정책 수립",
+        "에이전트 자율 행동 권한·감사 로그 점검 및 기존 클로드 슬랙 앱 마이그레이션"
       ],
       "report": {
         "tldr": "앤트로픽이 슬랙에서 클로드에게 작업을 맡기는 클로드 태그를 출시했다.",
