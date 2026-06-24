@@ -1,0 +1,443 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-getty-chatgpt-partner",
+      "title": "AI를 '도둑'이라던 게티, 이제 챗GPT 공식 이미지 파트너",
+      "summary": "AI 비판 선봉이던 게티가 오픈AI와 라이선스 계약, 법적 대결 대신 정식 라이선싱으로 전환.",
+      "url": "https://www.digitaltrends.com/cool-tech/getty-images-accused-ai-of-wholesale-theft-its-now-an-official-chatgpt-image-partner/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "콘텐츠 라이선싱"
+      },
+      "related": [
+        "권리자-AI 라이선싱 동향",
+        "이미지 유통 채널 변화"
+      ],
+      "report": {
+        "tldr": "AI를 도둑이라 비판하던 게티가 오픈AI와 라이선스 계약을 맺었다.",
+        "what": "한때 AI 기업의 무단 콘텐츠 사용을 강하게 비판한 게티 이미지가 오픈AI와 라이선스 계약을 맺어 전문 라이선스 사진·시각 자산을 챗GPT의 검색·디스커버리 경험에 통합한다. 권리자와 AI 기업이 법적 대결 대신 정식 라이선싱으로 향하는 업계 변화를 보여준다. 게티에겐 새 유통 채널이자 라이선스 콘텐츠 입장의 정당화이고, 오픈AI에겐 세계 최대 전문 이미지 라이브러리 접근을 뜻한다.",
+        "points": [
+          "AI 비판하던 게티의 전환",
+          "오픈AI와 라이선스 계약",
+          "법적 대결→정식 라이선싱",
+          "새 유통 채널·입장 정당화"
+        ],
+        "why": [
+          "AI-콘텐츠 갈등이 라이선싱 협력으로 전환되는 업계 변화"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-higgsfield-agents",
+      "title": "히그스필드, 엔비디아 기반 엔터프라이즈 마케팅 에이전트 출시",
+      "summary": "슈퍼컴퓨터 2.0이 기획부터 게시까지 캠페인 자율 실행, 35개 모델·20개 파이프라인 오케스트레이션.",
+      "url": "https://thenextweb.com/news/higgsfield-supercomputer-enterprise-marketing-nvidia",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "마케팅 자동화"
+      },
+      "related": [
+        "자율 마케팅 에이전트 동향",
+        "엔터프라이즈 안전 통제 검토"
+      ],
+      "report": {
+        "tldr": "히그스필드가 캠페인을 자율 실행하는 엔비디아 기반 마케팅 에이전트를 출시했다.",
+        "what": "13억 달러 가치 AI 영상 스타트업 히그스필드가 엔비디아 툴킷 기반의 자율 마케팅 에이전트 슈퍼컴퓨터 2.0을 출시했다. 기획부터 게시까지 전체 캠페인을 실행하며 포춘 500의 78%를 고객으로 주장한다(독립 검증 안 됨). 35개 이상 미디어 모델을 20개 이상 제작 파이프라인에서 오케스트레이션하고 엔터프라이즈 안전 통제를 포함하나 감사 계층은 로드맵에 있다. 15명 팀이 14일간 50만 달러 미만으로 95분 장편을 제작해 시연했다.",
+        "points": [
+          "캠페인 기획~게시 자율 실행",
+          "35개 모델·20개 파이프라인 조율",
+          "포춘500 78% 주장(미검증)",
+          "14일·50만 달러 미만 장편 제작"
+        ],
+        "why": [
+          "마케팅 전 과정을 자율 에이전트로 대체하려는 시도"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-fire-tv-redesign",
+      "title": "아마존, 새 파이어 TV 인터페이스 더 많은 기기로 확대",
+      "summary": "더 빠른 성능·깔끔한 레이아웃·콘텐츠 중심 섹션과 알렉사+ 통합으로 발견 허브 지향.",
+      "url": "https://www.digitaltrends.com/home-theater/amazons-new-fire-tv-interface-is-finally-rolling-out-to-more-devices/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Info",
+        "affectedSurface": "TV UX"
+      },
+      "related": [
+        "TV 플랫폼 발견 전략",
+        "알렉사+ 통합 동향"
+      ],
+      "report": {
+        "tldr": "아마존이 콘텐츠 중심으로 재설계한 파이어 TV 인터페이스를 확대 배포한다.",
+        "what": "아마존이 현재 파이어 TV 기기·스마트 TV에 재설계된 파이어 TV 인터페이스를 배포하기 시작했다. 더 빠른 성능, 깔끔한 레이아웃, 앱을 옮겨 다니지 않고 볼거리를 찾게 하는 콘텐츠 중심 섹션(영화·TV쇼·스포츠·라이브·뉴스)을 갖췄다. 알렉사+를 깊이 통합해, 개별 앱이 아닌 파이어 TV 자체를 콘텐츠 발견의 주 무대로 만들려는 전략을 반영하며 구글 TV·로쿠 등에서 본 흐름을 따른다.",
+        "points": [
+          "콘텐츠 중심 섹션 재설계",
+          "더 빠른 성능·깔끔한 레이아웃",
+          "알렉사+ 깊은 통합",
+          "플랫폼을 발견 허브로"
+        ],
+        "why": [
+          "TV 플랫폼이 개별 앱 대신 자체를 발견 허브로 만드는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-ux-soft-skills",
+      "title": "UX 디자이너로 성공하는 핵심 소프트 스킬",
+      "summary": "소통·문제해결·협업·스토리텔링이 필수, 채용 담당 73%가 도구보다 소통·문제해결 우선.",
+      "url": "https://ixdf.org/literature/article/key-soft-skills-to-succeed-as-a-ux-designer",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "디자인 커리어"
+      },
+      "related": [
+        "UX 채용 기준 동향",
+        "전이 가능 스킬 논의"
+      ],
+      "report": {
+        "tldr": "소통·문제해결 같은 소프트 스킬이 UX 디자이너의 필수 역량이다.",
+        "what": "소통·문제해결·협업·스토리텔링 같은 소프트 스킬은 UX 디자이너에게 선택이 아닌 필수다. 2022년 인터랙션 디자인 파운데이션 조사에서 채용 담당자 73%가 도구 숙련(13%)보다 소통·문제해결을 우선했다. 이 무형의 스킬은 UX 활동을 묶어주고 직군을 넘어 대체로 전이 가능하다.",
+        "points": [
+          "소통·문제해결·협업·스토리텔링 필수",
+          "채용 73%가 소통·문제해결 우선",
+          "도구 숙련은 13%",
+          "전이 가능한 역량"
+        ],
+        "why": [
+          "도구보다 소프트 스킬이 UX 경쟁력을 좌우한다는 관점"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-cost-of-low-taste",
+      "title": "낮은 취향의 조직적 비용",
+      "summary": "조직은 전략보다 '취향'(나쁜 선택을 거르는 공유 기준) 부재로 실패한다는 분석.",
+      "url": "https://links.tldrnewsletter.com/PW3kks",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "조직·판단"
+      },
+      "related": [
+        "판단력의 조직 가치",
+        "AI 시대 의사결정"
+      ],
+      "report": {
+        "tldr": "조직은 전략이 아니라 나쁜 선택을 거르는 '취향'의 부재로 실패한다는 분석이다.",
+        "what": "조직은 형편없는 전략이 아니라, 정당화를 요구하기 전에 나쁜 선택지를 걸러내는 공유 기준인 '취향'의 약함 때문에 실패한다. 그것이 없으면 의사결정 마비가 오고 정치가 명료함을 대체하며 무분별한 추가로 복잡성이 쌓인다. AI가 창작을 거의 공짜로 만들면서 판단이 가장 희소하고 결정적인 조직 자원이 된다.",
+        "points": [
+          "전략 아닌 취향 부재로 실패",
+          "취향=나쁜 선택 거르는 기준",
+          "부재 시 결정 마비·정치",
+          "AI 시대 판단이 희소 자원"
+        ],
+        "why": [
+          "창작 비용이 낮아질수록 판단력이 조직의 핵심 자산이 되는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-apple-ternus",
+      "title": "존 터너스가 애플 디자인에 재미를 되돌릴까",
+      "summary": "지난 10년 균일해진 애플 디자인, 컬러풀 맥북 네오 성공·터너스의 디자인팀 강화로 변화 기대.",
+      "url": "https://www.creativebloq.com/design/product-design/can-john-ternus-bring-the-fun-back-to-apple-design",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Info",
+        "affectedSurface": "제품 디자인"
+      },
+      "related": [
+        "애플 디자인 방향 추적",
+        "제품 차별화 동향"
+      ],
+      "report": {
+        "tldr": "새 애플 CEO 존 터너스가 디자인 변화를 이끌지 주목된다는 분석이다.",
+        "what": "애플 제품 디자인은 지난 10년간 점점 균일해지며 2000년대의 대담하고 컬러풀하고 독특한 디자인에서 멀어졌다. 컬러풀한 맥북 네오의 성공과 차기 CEO 존 터너스가 애플 디자인팀 역할을 강화할 계획이라는 보도 등이 의미 있는 디자인 쇄신 가능성에 대한 추측을 키웠다. 그렇다면 미래 제품은 개성·시각적 차별화·세대 간 더 극적인 변화에 무게를 둘 수 있다.",
+        "points": [
+          "10년간 균일해진 디자인",
+          "맥북 네오 컬러 성공",
+          "터너스의 디자인팀 강화 보도",
+          "개성·차별화 쇄신 기대"
+        ],
+        "why": [
+          "대형 제조사의 디자인 방향 전환 가능성에 대한 관심"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-adam-cad",
+      "title": "아담: 하드웨어 팀을 위한 CAD 코파일럿",
+      "summary": "CADAM·온셰이프·오토데스크 퓨전 전반에서 작동하는 하드웨어 팀용 CAD 코파일럿.",
+      "url": "https://adam.new/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "CAD"
+      },
+      "related": [
+        "CAD AI 도구 비교",
+        "하드웨어 설계 자동화"
+      ],
+      "report": {
+        "tldr": "아담은 여러 CAD 도구 전반에서 작동하는 하드웨어 팀용 코파일럿이다.",
+        "what": "아담은 CADAM·온셰이프·오토데스크 퓨전 전반에서 작동하는 하드웨어 팀용 CAD 코파일럿이다.",
+        "points": [
+          "하드웨어 팀용 CAD 코파일럿",
+          "CADAM·온셰이프·퓨전 지원",
+          "설계 작업 보조",
+          "도구 전반 호환"
+        ],
+        "why": [
+          "하드웨어 설계에도 AI 코파일럿이 확산되는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-moondream",
+      "title": "문드림: 어디서나 쓰는 프로덕션급 비전 모델",
+      "summary": "강력한 이미지 이해와 작은 풋프린트를 결합한 효율적 오픈소스 비전 언어 모델.",
+      "url": "https://moondream.ai/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "비전 AI"
+      },
+      "related": [
+        "경량 비전 모델 비교",
+        "엣지 배포 검토"
+      ],
+      "report": {
+        "tldr": "문드림은 작은 풋프린트의 효율적 오픈소스 비전 언어 모델이다.",
+        "what": "문드림은 강력한 이미지 이해 능력과 놀랍도록 작은 풋프린트를 결합한 매우 효율적인 오픈소스 비전 언어 모델이다.",
+        "points": [
+          "오픈소스 비전 언어 모델",
+          "강력한 이미지 이해",
+          "작은 풋프린트",
+          "프로덕션급 효율"
+        ],
+        "why": [
+          "경량·효율 비전 모델로 다양한 환경에 배포하려는 수요"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-aippy",
+      "title": "아이피: AI 게임 메이커",
+      "summary": "AI로 인터랙티브 창작물을 만들고 공유·탐색하는 공간.",
+      "url": "https://aippy.ai/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Info",
+        "affectedSurface": "창작 도구"
+      },
+      "related": [
+        "AI 게임 제작 도구",
+        "인터랙티브 창작 동향"
+      ],
+      "report": {
+        "tldr": "아이피는 AI로 인터랙티브 창작물을 만들고 공유하는 공간이다.",
+        "what": "아이피는 AI로 인터랙티브 창작물을 만들고 공유하고 탐색하는 활기찬 공간이다.",
+        "points": [
+          "AI 게임·창작 제작",
+          "공유·탐색 지원",
+          "인터랙티브 창작",
+          "활기찬 커뮤니티 공간"
+        ],
+        "why": [
+          "AI로 인터랙티브 콘텐츠 제작을 대중화하려는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-creative-eye",
+      "title": "지금 스튜디오에서 가장 가치 있는 건 당신의 창의적 안목",
+      "summary": "AI가 제작을 빠르고 싸게 만들수록 창의적 판단·안목이 가장 희소하고 가치 있는 자산.",
+      "url": "https://www.creativeboom.com/resources/why-your-creative-eye-is-the-most-valuable-thing-in-the-studio-right-now/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "크리에이티브"
+      },
+      "related": [
+        "AI 시대 창의적 판단 가치",
+        "윤리적 AI 도구 동향"
+      ],
+      "report": {
+        "tldr": "AI가 제작을 싸게 만들수록 창의적 안목이 가장 가치 있는 자산이 된다.",
+        "what": "AI 도구가 콘텐츠 제작을 빠르고 싸게 만들수록 창의적 판단과 안목이 전문가가 제공할 수 있는 가장 희소하고 가치 있는 자산이 된다. 거의 10억 개 라이선스 자산으로 구축된 어도비 스톡의 AI 스튜디오는 배경 제거·리사이징 같은 반복 작업을 처리해 크리에이터가 진짜 솜씨가 필요한 결정에 집중하게 한다. 파이어플라이 학습에 기여한 작품의 창작자는 보너스를 받아, 대부분이 공개 웹을 스크래핑한 환경에서 더 윤리적인 선택지로 꼽힌다.",
+        "points": [
+          "AI로 제작 빠르고 저렴해짐",
+          "창의적 판단이 희소 자산",
+          "어도비 AI 스튜디오 반복 작업 처리",
+          "기여 창작자에 보너스 지급"
+        ],
+        "why": [
+          "제작 자동화 시대에 안목·판단이 차별화 요소가 되는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-quality-bar",
+      "title": "누가 품질 기준을 정하는가",
+      "summary": "대부분의 AI 제품이 품질 기준을 정의하지 않아 일관성 저하·소유권 불명 문제 발생.",
+      "url": "https://marieclairedean.substack.com/p/who-sets-the-quality-bar",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Info",
+        "affectedSurface": "제품 품질"
+      },
+      "related": [
+        "AI 제품 품질 기준 정의",
+        "디자인 조기 참여"
+      ],
+      "report": {
+        "tldr": "대부분의 AI 제품이 품질 기준을 정의하지 않는다는 문제를 짚는다.",
+        "what": "대부분의 AI 제품은 정의된 품질 기준이 없으며, 디자이너 펀드의 2026 AI 인 디자인 리포트가 일관성 없는 출력·팀 협업 감소·불명확한 소유권 데이터로 이를 드러낸다. 속도와 AI가 만든 시각적 완성도가 더 깊은 실패를 가린다. 제품이 좋아 보여도 사용자 의도를 놓치거나 불확실성을 잘 전달하지 못하거나 중요한 순간에 잘못 동작할 수 있다. 디자인팀은 빌드 시작 전에 품질 기준을 명세하면 고칠 수 있지만, 충분히 일찍 참여할 때만 가능하다.",
+        "points": [
+          "AI 제품의 품질 기준 부재",
+          "일관성·협업·소유권 문제",
+          "시각적 완성도가 실패 은폐",
+          "빌드 전 기준 명세 필요"
+        ],
+        "why": [
+          "AI 제품의 품질을 디자인 조기 참여로 확보하려는 관점"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-nonlinear-career",
+      "title": "비선형 커리어는 결격 사유가 아니다",
+      "summary": "창의 산업에서 지그재그 커리어가 더 넓은 경험·관점·네트워크를 주는 강점이 될 수 있음.",
+      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-advice-230626",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "커리어"
+      },
+      "related": [
+        "창의 커리어 경로 논의",
+        "의도적 커리어 이동"
+      ],
+      "report": {
+        "tldr": "창의 산업에서 비선형 커리어는 약점이 아니라 강점이 될 수 있다.",
+        "what": "창의 산업에서 비선형 또는 지그재그 커리어는 더 넓은 경험·스킬·관점·네트워크에 노출시켜 약점이 아닌 강점이 될 수 있다. 핵심은 개인 성장을 뒷받침하는 의도적 이동을 하고 결과를 내며 강한 관계를 유지하는 평판을 쌓는 것이다. 잦은 이직은 의미 있는 임팩트 없는 짧은 재직 패턴을 시사할 때만 우려가 된다.",
+        "points": [
+          "지그재그 커리어가 강점 될 수 있음",
+          "넓은 경험·관점·네트워크",
+          "의도적 이동이 핵심",
+          "임팩트 없는 단기 재직만 우려"
+        ],
+        "why": [
+          "전통적 승진 사다리 대신 실험·관심 기반 커리어를 긍정하는 관점"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-350-projects",
+      "title": "350개 프로젝트 후, 디지털 제품이 실패하는 같은 3가지 이유",
+      "summary": "과부하 온보딩, 시각 위계 없는 어수선한 대시보드, 신뢰를 깎는 작은 불일치.",
+      "url": "https://www.einpresswire.com/article/920433546/after-350-projects-design-studio-ui-ux-says-most-digital-products-fail-for-the-same-three-reasons",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Info",
+        "affectedSurface": "UX"
+      },
+      "related": [
+        "온보딩 설계 개선",
+        "대시보드 시각 위계"
+      ],
+      "report": {
+        "tldr": "디지털 제품이 사용자를 잃는 세 가지 반복 이유를 짚는다.",
+        "what": "10년간 350개 프로젝트를 거친 디자인 스튜디오 UI/UX가 디지털 제품이 사용자를 잃는 세 가지 반복 이유를 식별했다: 과부하된 온보딩, 시각적 위계 없는 어수선한 대시보드, 신뢰를 깎는 작은 불일치들.",
+        "points": [
+          "과부하된 온보딩",
+          "위계 없는 어수선한 대시보드",
+          "신뢰 깎는 작은 불일치",
+          "350개 프로젝트 기반 분석"
+        ],
+        "why": [
+          "반복되는 UX 실패 패턴을 경험적으로 정리한 실무 통찰"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    },
+    {
+      "id": "design-victoria-beckham",
+      "title": "빅토리아 베컴과 작가 피비 콜링스-제임스의 협업",
+      "summary": "빅토리아 베컴 뷰티가 신제품 블러시 스타일러스에서 영감받은 유일한 작품을 의뢰.",
+      "url": "https://www.wallpaper.com/fashion-beauty/victoria-beckham-on-phoebe-collings-james-collaboration",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "브랜드·아트"
+      },
+      "related": [
+        "브랜드-아티스트 협업 사례",
+        "뷰티 마케팅 동향"
+      ],
+      "report": {
+        "tldr": "빅토리아 베컴 뷰티가 작가 피비 콜링스-제임스에 협업 작품을 의뢰했다.",
+        "what": "빅토리아 베컴 뷰티가 조각가이자 도예가 피비 콜링스-제임스에게 브랜드 신제품 블러시 스타일러스에서 영감받은 유일한 작품을 제작하도록 의뢰했다.",
+        "points": [
+          "빅토리아 베컴 뷰티 협업",
+          "조각·도예가 콜링스-제임스",
+          "신제품 블러시 스타일러스 영감",
+          "유일한 작품 제작"
+        ],
+        "why": [
+          "브랜드가 예술가 협업으로 제품 서사를 강화하는 마케팅 사례"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Design"
+    }
+  ]
+}

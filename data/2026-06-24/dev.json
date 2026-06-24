@@ -1,0 +1,443 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "👨‍💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-elden-ring-ai",
+      "title": "엘든 링의 로우테크 AI",
+      "summary": "스택 기반 목표 관리 시스템으로 동적·계층적 상태 실행을 구현한 단순한 게임 AI 설계.",
+      "url": "https://nega.tv/posts/low-tech-ai-of-elden-ring.html",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "게임 AI"
+      },
+      "related": [
+        "행동 트리 대안 설계 비교",
+        "스택 기반 상태 머신 활용"
+      ],
+      "report": {
+        "tldr": "엘든 링은 스택 기반 목표 관리로 복잡한 행동을 단순하게 구현한다.",
+        "what": "엘든 링의 AI는 스택 기반 목표 관리 시스템을 사용하는 단순한 설계에 의존해 동적·계층적 상태 실행을 가능케 한다. 각 액터는 맥락과 무작위성에 따라 적응하는 '목표'를 사용해 복잡한 구조 없이 복잡한 행동을 구현한다. 행동 트리 같은 전통 프레임워크와 달리 게임플레이 중 행동 선택과 상태 전이를 직관적인 메커니즘으로 처리한다.",
+        "points": [
+          "스택 기반 목표 관리 시스템",
+          "동적·계층적 상태 실행",
+          "맥락·무작위 기반 적응형 목표",
+          "행동 트리와 다른 단순 설계"
+        ],
+        "why": [
+          "단순한 구조로 풍부한 행동을 만든 실전 게임 AI 설계 사례"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-agent-harness-debt",
+      "title": "AI 시스템의 숨은 기술 부채: 에이전트 하니스",
+      "summary": "모델 발전으로 상당수 하니스 코드가 폐기될 예정이라 영구 솔루션으로 다루면 기술 부채가 된다.",
+      "url": "https://leehanchung.github.io/blogs/2026/05/08/hidden-technical-debt-agent-harness/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Eng",
+        "status": "Watch",
+        "affectedSurface": "에이전트 개발"
+      },
+      "related": [
+        "프로덕션/훈련 하니스 분리 설계",
+        "모델 발전 대비 아키텍처 검토"
+      ],
+      "report": {
+        "tldr": "에이전트 하니스를 영구 솔루션으로 다루면 기술 부채가 된다는 분석이다.",
+        "what": "에이전트 제품 구축은 AI 모델과 다양한 환경의 상호작용을 관리하는 하니스 코드를 만드는 일이다. 그러나 상당수 하니스 작업은 모델 역량 발전으로 폐기될 전망이라, 영구 솔루션으로 취급하면 기술 부채에 직면한다. 프로덕션 하니스는 안전 운영을 위해 제약적으로, 훈련 하니스는 탐색·학습을 위해 설계해 서로 다른 목적을 지녀야 한다.",
+        "points": [
+          "하니스는 모델-환경 상호작용 관리",
+          "모델 발전으로 폐기 예정",
+          "영구 솔루션화하면 기술 부채",
+          "프로덕션/훈련 하니스 분리"
+        ],
+        "why": [
+          "빠르게 변하는 모델 위에서 하니스 설계 원칙을 제시"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-ex-meta-l8-setup",
+      "title": "전 메타 L8의 에이전틱 엔지니어링 셋업",
+      "summary": "솔로 접근으로 전환해 생산성 향상, 명확한 계획·음성 입력·맞춤 도구로 병렬 작업 관리.",
+      "url": "https://blog.bytebytego.com/p/an-ex-meta-l8s-agentic-engineering",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "개발 워크플로"
+      },
+      "related": [
+        "에이전트 기반 개발 워크플로 사례",
+        "병렬 작업 관리 기법"
+      ],
+      "report": {
+        "tldr": "전 메타 L8 엔지니어가 솔로 에이전틱 셋업으로 생산성을 높인 경험담이다.",
+        "what": "엔지니어링 조직의 에이전트 도입을 이끈 경험을 바탕으로, 솔로 접근으로 전환한 뒤 생산성이 향상됐다. 워크플로를 다듬고 에이전트를 받아들이는 지저분하지만 통찰력 있는 과정에서 직접 코딩을 줄이고 개발 과정을 전략적으로 관리하게 됐다. 명확한 계획 구조, 음성 입력, 마찰을 없애는 맞춤 도구, 병렬 작업 관리가 핵심이다.",
+        "points": [
+          "솔로 에이전틱 접근으로 생산성↑",
+          "직접 코딩 감소, 전략 관리↑",
+          "명확한 계획·음성 입력",
+          "맞춤 도구로 병렬 작업"
+        ],
+        "why": [
+          "숙련 엔지니어의 에이전트 활용 셋업을 구체적으로 보여주는 사례"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-coming-loop",
+      "title": "다가오는 루프",
+      "summary": "코딩 자동화가 점점 복잡한 '루프'로 확장되나 이해·유지보수 어려운 코드 우려.",
+      "url": "https://lucumr.pocoo.org/2026/6/23/the-coming-loop/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Eng",
+        "status": "Watch",
+        "affectedSurface": "개발 방식"
+      },
+      "related": [
+        "에이전트 루프 유지보수성 점검",
+        "코드 포팅 자동화 사례"
+      ],
+      "report": {
+        "tldr": "코딩 에이전트의 루프 확장이 효율적이지만 코드 이해·유지보수를 해칠 수 있다는 분석이다.",
+        "what": "최근 코딩 자동화는 코딩 에이전트의 기능을 확장하는 점점 복잡한 '루프'로 이동하고 있다. 코드 포팅·성능 탐색 같은 작업에 이점이 있지만, 손을 떼는 접근이 덜 이해되고 유지보수 어려운 코드로 이어질 수 있다는 우려가 있다.",
+        "points": [
+          "코딩 자동화의 루프 확장",
+          "코드 포팅·성능 탐색에 유리",
+          "핸즈오프 접근의 부작용",
+          "이해·유지보수성 저하 우려"
+        ],
+        "why": [
+          "에이전트 루프의 생산성과 코드 품질 트레이드오프를 짚는 시각"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-collaborative-coding",
+      "title": "협업형 코딩 시대의 빌드",
+      "summary": "코딩이 거의 공짜가 되며 인간 리뷰가 병목, 팀 전체가 에이전트와 병렬 협업하는 모델 제안.",
+      "url": "https://www.builder.io/blog/building-in-the-age-of-collaborative-coding",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Eng",
+        "status": "Watch",
+        "affectedSurface": "개발 프로세스"
+      },
+      "related": [
+        "검증 앞당기기 도입",
+        "에이전트 병렬 운영 프로세스"
+      ],
+      "report": {
+        "tldr": "코드가 거의 공짜가 되며 인간 리뷰가 병목이 되어 협업형 코딩 모델이 필요하다는 분석이다.",
+        "what": "코딩 에이전트가 충분히 좋아져 코드 작성이 거의 공짜가 되고, 팀이 다수 에이전트를 병렬로 돌리면서 인간 리뷰가 진짜 병목이 된다. AI를 핸드오프 중심의 낡은 워터폴 워크플로에 붙이면 전달 속도가 정체된다. 해법은 PM·디자인·QA를 포함한 팀 전체가 에이전트와 직접·병렬로 일하고 검증을 앞당겨 최종 PR 리뷰는 코드만 보게 하는 협업형 코딩 모델이다.",
+        "points": [
+          "코드 작성 거의 공짜",
+          "인간 리뷰가 병목",
+          "워터폴에 AI 붙이면 정체",
+          "팀 전체 병렬 협업·검증 앞당기기"
+        ],
+        "why": [
+          "에이전트 시대에 맞춰 개발 프로세스 재설계를 촉구"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-daybreak",
+      "title": "데이브레이크: 전 세계 조직 보안을 위한 도구",
+      "summary": "취약점 패치 자동화·협업 강화 도구, 코덱스 시큐리티 플러그인과 GPT-5.5-Cyber 공개.",
+      "url": "https://links.tldrnewsletter.com/lVTGVh",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "보안 자동화"
+      },
+      "related": [
+        "코덱스 시큐리티 도입 검토",
+        "취약점 패치 자동화 동향"
+      ],
+      "report": {
+        "tldr": "오픈AI 데이브레이크가 취약점 패치 자동화·협업 강화 도구를 선보였다.",
+        "what": "사이버보안을 개선하기 위한 새 도구·이니셔티브가 취약점 패치 자동화와 업계 이해관계자 협업에 초점을 맞춰 도입되고 있다. 핵심으로 취약점 발견·패치 생성을 가속하는 코덱스 시큐리티 플러그인 출시와, 방어자가 소프트웨어를 관리·보호하도록 돕는 고급 GPT-5.5-Cyber 모델의 완전 공개가 있다.",
+        "points": [
+          "취약점 패치 자동화 도구",
+          "코덱스 시큐리티 플러그인",
+          "GPT-5.5-Cyber 완전 공개",
+          "업계 협업 강화"
+        ],
+        "why": [
+          "보안 자동화가 개발 파이프라인에 통합되는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-hunk",
+      "title": "헝크: 에이전트 변경셋용 터미널 diff 뷰어",
+      "summary": "리뷰 우선 접근의 터미널 diff 뷰어, 다중 파일 리뷰·인라인 AI 주석 지원.",
+      "url": "https://github.com/modem-dev/hunk",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "코드 리뷰"
+      },
+      "related": [
+        "에이전트 코드 리뷰 도구 비교",
+        "Git 통합 워크플로 검토"
+      ],
+      "report": {
+        "tldr": "헝크는 에이전트가 작성한 변경셋을 리뷰 우선으로 보는 터미널 diff 뷰어다.",
+        "what": "헝크는 에이전트가 작성한 변경셋에 맞춘 터미널 diff 뷰어로 리뷰 우선 접근을 강조한다. 다중 파일 리뷰 스트림·인라인 AI 주석 같은 기능을 갖추고 Git과 통합되며 다양한 시스템을 지원해, 스킬 파일로 에이전트와의 피드백 세션을 자동화할 수 있다.",
+        "points": [
+          "에이전트 변경셋용 diff 뷰어",
+          "리뷰 우선 접근",
+          "다중 파일 리뷰·인라인 AI 주석",
+          "Git 통합·스킬 파일 자동화"
+        ],
+        "why": [
+          "에이전트가 만든 코드의 리뷰 효율을 높이려는 도구 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-mistral-ocr-4",
+      "title": "미스트랄 OCR 4: 문서 인텔리전스용 SOTA OCR",
+      "summary": "바운딩 박스·블록 분류·인라인 신뢰도 점수 지원, 자체 호스팅 가능할 만큼 컴팩트.",
+      "url": "https://mistral.ai/news/ocr-4/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "문서 처리"
+      },
+      "related": [
+        "자체 호스팅 OCR 비교",
+        "문서 파이프라인 통합"
+      ],
+      "report": {
+        "tldr": "미스트랄 OCR 4는 바운딩 박스·신뢰도 점수를 갖춘 컴팩트한 고정확 OCR이다.",
+        "what": "미스트랄 OCR 4는 바운딩 박스·블록 분류·인라인 신뢰도 점수 같은 고급 기능을 갖췄다. 다른 선도 시스템 대비 성능이 우수하며 높은 정확도를 유지하면서 자체 호스팅 배포가 가능할 만큼 컴팩트하다.",
+        "points": [
+          "바운딩 박스·블록 분류",
+          "인라인 신뢰도 점수",
+          "높은 정확도",
+          "자체 호스팅 가능 컴팩트 크기"
+        ],
+        "why": [
+          "자체 호스팅 가능한 고정확 OCR로 문서 파이프라인 통제력 강화"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-will-it-mythos",
+      "title": "미토스를 능가할 수 있을까: 벤치마크 프로젝트",
+      "summary": "미토스의 취약점 발견 성능을 다른 AI 모델이 따라잡는지 확인한 벤치마크.",
+      "url": "https://swelljoe.com/post/will-it-mythos/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Security",
+        "status": "Info",
+        "affectedSurface": "AI 보안"
+      },
+      "related": [
+        "AI 취약점 발견 벤치마크",
+        "보안 모델 성능 비교"
+      ],
+      "report": {
+        "tldr": "다른 AI 모델이 미토스의 취약점 발견을 따라잡는지 검증한 벤치마크다.",
+        "what": "미토스는 취약점 발견에 뛰어나다고 여겨지지만 주장의 타당성과 운영 비용에 대한 회의가 있다. 이에 미토스가 앞서 찾은 확정 취약점 모음으로 다른 AI 모델이 성능을 따라잡는지 테스트하는 벤치마크 프로젝트가 시작됐다. 예비 결과는 일부 모델이 놀랍게 잘했지만 어느 것도 미토스를 일관되게 능가하지 못했음을 보여준다.",
+        "points": [
+          "미토스 성능 주장에 회의",
+          "확정 취약점으로 벤치마크",
+          "일부 모델 선전",
+          "미토스 일관 능가 모델 없음"
+        ],
+        "why": [
+          "AI 보안 도구의 실제 역량을 독립 벤치마크로 검증하려는 시도"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-post-training-agents",
+      "title": "AI 포스트트레이닝 에이전트의 현주소",
+      "summary": "클로드 페이블5·오푸스4.8·GPT-5.5가 베이스 모델 개선 능력서 향상, 페이블5가 최고.",
+      "url": "https://thoughtfullab.com/the-state-of-ai-post-training-agents.html",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "모델 학습"
+      },
+      "related": [
+        "포스트트레이닝 자동화 동향",
+        "RL 전략 비교"
+      ],
+      "report": {
+        "tldr": "클로드 페이블5 등 첨단 모델이 베이스 모델을 개선하는 포스트트레이닝 능력에서 향상됐다.",
+        "what": "클로드 페이블5·오푸스4.8·GPT-5.5를 포함한 첨단 AI 모델 평가는, FrogsGame 같은 포스트트레이닝 작업으로 고정 베이스 모델을 개선하는 능력이 좋아졌음을 보여준다. 데이터 품질 생성 향상, 효과적인 강화학습 전략, 자기 평가 보정 능력이 진전됐고, 페이블5가 고품질 훈련 트레이스를 만들고 시간을 효과적으로 써 최고였다.",
+        "points": [
+          "고정 베이스 개선 능력 향상",
+          "데이터 품질 생성 진전",
+          "RL 전략·자기평가 보정",
+          "페이블5가 최고 성능"
+        ],
+        "why": [
+          "모델이 모델을 학습시키는 포스트트레이닝 자동화의 진척 상황"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-fired-workspace-cli",
+      "title": "구글 워크스페이스 CLI 만들고 구글서 해고된 사연",
+      "summary": "화제가 된 워크스페이스 CLI를 만든 뒤 해고된 창작자가 혁신과 기업 두려움의 갈등을 회고.",
+      "url": "https://xcancel.com/JPoehnelt/status/2069482265953087602",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "개발 문화"
+      },
+      "related": [
+        "사내 혁신과 거버넌스 긴장",
+        "오픈소스 도구 정책"
+      ],
+      "report": {
+        "tldr": "화제의 워크스페이스 CLI를 만든 개발자가 구글에서 해고된 사연을 회고한다.",
+        "what": "상당한 주목과 사용량을 모은 바이럴 구글 워크스페이스 CLI를 만든 뒤 구글에서 해고된 창작자가, 혁신과 파괴에 대한 기업의 두려움 사이 갈등, 그리고 약 7년 재직 동안의 경험과 받은 지원에 대한 감사를 회고한다.",
+        "points": [
+          "바이럴 워크스페이스 CLI 제작",
+          "제작 후 해고",
+          "혁신 대 기업 두려움 갈등",
+          "약 7년 재직 회고"
+        ],
+        "why": [
+          "사내 혁신과 조직 통제 사이 긴장을 보여주는 사례"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-claude-tag",
+      "title": "클로드 태그 소개",
+      "summary": "슬랙에 통합된 협업 도구로 상호작용에서 학습하며 팀과 비동기로 작업.",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "협업"
+      },
+      "related": [
+        "슬랙 에이전트 통합 검토",
+        "비동기 작업 위임 사례"
+      ],
+      "report": {
+        "tldr": "클로드 태그는 슬랙에 통합돼 팀이 작업을 위임하는 협업 도구다.",
+        "what": "클로드 태그는 슬랙에 통합된 새 협업 도구로, 팀이 상호작용에서 학습하고 팀원과 비동기로 함께 일하는 AI에게 작업을 쉽게 위임하게 한다.",
+        "points": [
+          "슬랙 통합 협업 도구",
+          "상호작용에서 학습",
+          "비동기 작업 수행",
+          "작업 위임 간소화"
+        ],
+        "why": [
+          "협업 도구에 AI 에이전트가 내장되는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-vuln-reports",
+      "title": "이제 취약점 보고는 특별하지 않다",
+      "summary": "LLM 발전으로 인간 연구자처럼 보안 이슈를 식별하게 되며 보고의 희소성이 사라짐.",
+      "url": "https://words.filippo.io/vuln-reports/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "보안 연구"
+      },
+      "related": [
+        "LLM 취약점 발견 영향",
+        "보고 분류 체계 점검"
+      ],
+      "report": {
+        "tldr": "LLM 발전으로 취약점 보고가 더 이상 특별하지 않게 됐다.",
+        "what": "2026년 기준 LLM이 인간 연구자와 유사하게 보안 이슈를 식별할 수 있게 되면서 취약점 보고는 더 이상 특별하게 여겨지지 않는다.",
+        "points": [
+          "LLM이 보안 이슈 식별",
+          "취약점 보고 희소성 소멸",
+          "진위 평가가 관건",
+          "보안 운영 변화"
+        ],
+        "why": [
+          "AI가 보안 연구 진입장벽을 낮추며 처리 체계 변화를 촉발"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    },
+    {
+      "id": "dev-glm-52-local",
+      "title": "GLM-5.2 로컬 실행 방법",
+      "summary": "언슬로스 스튜디오 웹 UI로 GLM-5.2 등 고급 모델을 OS 전반서 효율적으로 로컬 실행.",
+      "url": "https://unsloth.ai/docs/models/glm-5.2",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "로컬 LLM"
+      },
+      "related": [
+        "로컬 추론 도구 비교",
+        "모델 파라미터 튜닝"
+      ],
+      "report": {
+        "tldr": "언슬로스 스튜디오로 GLM-5.2 같은 모델을 로컬에서 효율적으로 실행할 수 있다.",
+        "what": "언슬로스 스튜디오는 로컬 AI용 웹 UI로, GLM-5.2 같은 고급 모델을 다양한 OS에서 효율적으로 실행하게 한다. 모델 다운로드·파라미터 튜닝·빠른 추론 같은 기능을 제공한다.",
+        "points": [
+          "로컬 AI용 웹 UI",
+          "GLM-5.2 등 고급 모델 실행",
+          "OS 전반 지원",
+          "다운로드·튜닝·빠른 추론"
+        ],
+        "why": [
+          "고급 모델의 로컬 실행 수요가 커지는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Dev"
+    }
+  ]
+}

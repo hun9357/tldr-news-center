@@ -1,0 +1,381 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-sell-inference",
+      "title": "추론을 팔고 싶다면",
+      "summary": "추론 판매는 제로마진·원가가산 딜레마, 결과 기반 가치 가격책정과 비용 최적화로 마진 개선.",
+      "url": "https://tomtunguz.com/so-you-want-to-sell-inference/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Finance",
+        "status": "Watch",
+        "affectedSurface": "AI 비즈니스"
+      },
+      "related": [
+        "가치 기반 가격책정 검토",
+        "모델 라우팅·캐싱 비용 최적화"
+      ],
+      "report": {
+        "tldr": "추론 판매의 제로마진 딜레마를 가치 기반 가격책정으로 풀라는 분석이다.",
+        "what": "추론을 파는 AI 기업은 제로마진·원가가산 가격 딜레마에 직면한다. 원가가 아닌 결과에 기반해 과금하는 가치 기반 가격책정으로 더 나은 마진을 얻을 수 있다. 모델 라우팅·캐싱·디스틸레이션으로 추론 비용을 최적화하면 마진을 높이고 경쟁 우위를 얻을 수 있다.",
+        "points": [
+          "추론 판매의 제로마진 딜레마",
+          "결과 기반 가치 가격책정",
+          "라우팅·캐싱·디스틸레이션으로 비용 최적화",
+          "마진과 경쟁 우위 확보"
+        ],
+        "why": [
+          "AI 인프라 사업의 수익성 구조를 가격 전략으로 재설계하는 관점"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-companies-build-companies",
+      "title": "회사를 만드는 회사들",
+      "summary": "직원 대신 AI 에이전트로 운영하는 폴시아가 연 매출 1,000만 달러 주장, 회사 양산 모델 부상.",
+      "url": "https://mondaymorning.substack.com/p/companies-that-build-companies",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "창업 모델"
+      },
+      "related": [
+        "AI 에이전트 기반 회사 동향",
+        "쇼피파이형 벤처 양산 모델"
+      ],
+      "report": {
+        "tldr": "AI 에이전트로 회사를 양산하는 모델이 부상한다는 분석이다.",
+        "what": "직원 대신 AI 에이전트를 둔 스타트업 폴시아가 연 매출 1,000만 달러를 주장하며 AI로 회사를 만드는 회사의 부상을 보여준다. 폴시아와 YC 지원 토마스 모두 스타트업 창출을 혁신하겠다는 AI 기반 비즈니스 모델에 집중한다. 대부분의 벤처는 실패할 수 있지만 소수의 성공이 큰 수익을 낼 수 있어, 소수만 크게 성공하는 쇼피파이 모델을 닮았다.",
+        "points": [
+          "폴시아, AI 에이전트로 연 매출 1,000만 달러",
+          "회사를 만드는 회사 부상",
+          "폴시아·토마스가 AI 모델 집중",
+          "쇼피파이형 소수 성공 구조"
+        ],
+        "why": [
+          "AI가 스타트업 생성 방식 자체를 바꾸려는 실험적 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-steal-customer-base",
+      "title": "고객 기반을 빼앗는 법",
+      "summary": "커서가 VS코드를 포크해 전환 비용을 없앤 카운터포지셔닝 전략 분석.",
+      "url": "https://www.the-diff.com/p/how-to-steal-a-customer-base",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "전략"
+      },
+      "related": [
+        "카운터포지셔닝 전략 사례",
+        "전환 비용 제거 전략"
+      ],
+      "report": {
+        "tldr": "경쟁사 고객을 빼앗는 가장 빠른 길은 떠날 이유를 없애는 것이라는 분석이다.",
+        "what": "경쟁사 고객을 빼앗는 가장 빠른 방법은 떠날 게 없게 만드는 것이다. 커서는 개발자에게 VS코드를 끄라고 요구하지 않고 VS코드를 포크해 모든 확장·단축키·근육 기억을 공짜로 가져온 뒤 그 아래 엔진을 AI 중심으로 재구축했다. 마이크로소프트는 그것을 그대로 되받아치기 어려운데, VS코드를 그 정도로 재구축하면 자사 확장 생태계 전체가 위험해지기 때문이다. 그 거부가 문을 열어두는 카운터포지셔닝이다.",
+        "points": [
+          "떠날 이유를 없애는 전략",
+          "커서가 VS코드 포크",
+          "확장·습관 그대로 흡수",
+          "MS의 대응 딜레마=카운터포지셔닝"
+        ],
+        "why": [
+          "기존 강자의 약점을 구조적으로 활용하는 경쟁 전략 사례"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-first-deals-mistakes",
+      "title": "첫 거래를 좇을 때 창업자가 저지르는 7가지 실수",
+      "summary": "제품 완벽주의로 판매 지연, 저가책정, 단일 고객 의존 등 초기 영업의 흔한 실수와 교정법.",
+      "url": "https://speedrun.substack.com/p/7-mistakes-founders-make-when-chasing-their-first-deals",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "영업"
+      },
+      "related": [
+        "초기 영업 전략 점검",
+        "창업자 직접 판매 사례"
+      ],
+      "report": {
+        "tldr": "창업자는 초기 영업에서 완벽주의·저가책정·단일 고객 의존을 피해야 한다.",
+        "what": "창업자는 제품 완벽을 위해 판매를 미루고, 제품을 저평가하며, 단일 고객에 지나치게 의존하는 실수를 흔히 한다. 의사결정자를 식별하고 말하기보다 듣고 피칭을 계속 조정해야 한다. 초기 기술 창업자는 전담 영업을 고용하기 전에 직접 영업을 맡아 접근을 다듬어야 한다.",
+        "points": [
+          "완벽주의로 판매 지연",
+          "제품 저가책정",
+          "단일 고객 과의존",
+          "창업자 직접 영업 권장"
+        ],
+        "why": [
+          "초기 매출 확보의 흔한 함정과 교정 방법을 정리"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-claude-tag",
+      "title": "클로드 태그 소개",
+      "summary": "슬랙에서 클로드를 태그해 도구·데이터에 연결하고 작업을 수행, 엔터프라이즈·팀 베타.",
+      "url": "https://www.anthropic.com/news/introducing-claude-tag",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Product",
+        "status": "Watch",
+        "affectedSurface": "협업 도구"
+      },
+      "related": [
+        "슬랙 AI 통합 동향",
+        "팀 생산성 도구 검토"
+      ],
+      "report": {
+        "tldr": "슬랙에서 클로드를 태그해 작업을 맡기는 클로드 태그가 베타로 공개됐다.",
+        "what": "슬랙 사용자는 선택한 채널에서 클로드를 태그할 수 있다. 봇은 도구·데이터에 연결해 요청 작업을 완료하고, 채널에서 관련 정보를 기억해 맥락을 쌓으며 향후 작업을 계획할 수 있다. 클로드 태그는 클로드 엔터프라이즈·팀 고객 대상 베타로 제공된다.",
+        "points": [
+          "채널에서 클로드 태그",
+          "도구·데이터 연결 작업",
+          "맥락 기억·작업 계획",
+          "엔터프라이즈·팀 베타"
+        ],
+        "why": [
+          "AI 에이전트가 팀 협업 도구에 내장되는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-linkedin-collab",
+      "title": "링크드인에 오는 협업 게시물",
+      "summary": "두 명 이상이 한 게시물을 공동 게시하며 모든 협업자가 상단에 표기되는 베타 기능.",
+      "url": "https://buffer.com/resources/linkedin-collab-posts/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "소셜"
+      },
+      "related": [
+        "링크드인 신기능 활용",
+        "공동 게시 전략"
+      ],
+      "report": {
+        "tldr": "링크드인이 여러 명이 한 게시물을 공동 게시하는 협업 게시물을 도입한다.",
+        "what": "링크드인이 곧 두 명 이상이 한 게시물을 함께 공유하고 모든 협업자가 상단에 표기되는 기능을 도입한다. 현재 크리에이터·브랜드 대상 베타이며 향후 수개월에 걸쳐 출시될 예정이다.",
+        "points": [
+          "여러 명이 한 게시물 공동 게시",
+          "협업자 상단 표기",
+          "크리에이터·브랜드 베타",
+          "수개월 내 출시"
+        ],
+        "why": [
+          "소셜 플랫폼의 공동 게시가 도달·신뢰 확장 수단으로 부상"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-lambda-microvms",
+      "title": "람다 마이크로VM에 대해 알아야 할 것",
+      "summary": "VM급 격리·빠른 시작·상태 유지 세션으로 AI 생성 코드 실행·에이전트 샌드박스에 유용.",
+      "url": "https://theburningmonk.com/2026/06/what-you-need-to-know-about-lambda-microvms/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "서버리스"
+      },
+      "related": [
+        "에이전트 샌드박스 적용",
+        "유휴 자동 일시중지 검토"
+      ],
+      "report": {
+        "tldr": "람다 마이크로VM은 VM급 격리와 빠른 시작으로 AI 코드 실행에 유용하다.",
+        "what": "람다 마이크로VM은 VM급 격리와 빠른 시작, 상태 유지 세션을 제공한다. AI 생성 코드를 안전히 실행해야 하는 코딩 어시스턴트, 인터랙티브 AI 노트북, 에이전트 샌드박스, 취약점 스캐너에 유용하다. 유휴 시 자동 일시중지되고 트래픽이 오면 재개되며 마이크로VM 내 수직 확장이 자동화된다.",
+        "points": [
+          "VM급 격리·빠른 시작",
+          "상태 유지 세션",
+          "에이전트 샌드박스에 적합",
+          "유휴 자동 일시중지/재개"
+        ],
+        "why": [
+          "AI 코드 실행 환경의 안전·효율 요구를 충족하는 인프라"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-ai-agent-churn",
+      "title": "AI 에이전트 과대광고와 현실: 제품이 작동하지 않으면 이탈이 온다",
+      "summary": "모든 걸 하는 슈퍼에이전트 대신 초점을 좁히고 실환경 테스트로 검증하라는 조언.",
+      "url": "https://tremendous.blog/2026/06/23/ai-agent-hype-meets-reality-the-product-doesnt-work-and-churn-is-coming/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Product",
+        "status": "Info",
+        "affectedSurface": "제품"
+      },
+      "related": [
+        "에이전트 제품 검증 전략",
+        "이탈 방지 설계"
+      ],
+      "report": {
+        "tldr": "초점을 좁히고 실환경 테스트로 검증하지 않으면 이탈이 온다는 경고다.",
+        "what": "모든 걸 하는 슈퍼에이전트를 만드는 대신 초점을 최대한 좁혀라. 제품이 충분히 테스트되고 실제 조건에서 작동하는지 확인하라. 모든 걸 약속하지만 AI 슬롭을 내놓는 회사는 고객을 빠르게 잃는다. 이런 이탈은 성장을 유지 불가능하게 만든다.",
+        "points": [
+          "슈퍼에이전트보다 좁은 초점",
+          "실환경 테스트로 검증",
+          "과약속+슬롭은 이탈 유발",
+          "이탈이 성장 저해"
+        ],
+        "why": [
+          "에이전트 제품의 신뢰성 부재가 사업 지속성을 위협한다는 현실론"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-every-moat-moot",
+      "title": "모든 해자는 무의미해진다",
+      "summary": "해자는 정적 벽이 아니라 경쟁자가 안 하는 불편한 반복을 계속하는 엔진이라는 재정의.",
+      "url": "https://investing101.substack.com/p/every-moat-becomes-moot",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "전략"
+      },
+      "related": [
+        "해자 개념 재정의",
+        "아마존 박마진 전략 분석"
+      ],
+      "report": {
+        "tldr": "해자는 정적 벽이 아니라 경쟁자가 꺼리는 반복을 계속하는 엔진이라는 재정의다.",
+        "what": "해자가 실제로 무엇인지에 대한 좋은 재구성이다. 특허·네트워크 효과 같은 정적 벽이 아니라, 경쟁자가 하지 않는 불편하고 반복적인 일을 계속할 의지가 있어야만 작동하는 엔진이다. 아마존이 예로, 약점처럼 보이는 박마진이 곧 벽인데 두꺼운 마진은 경쟁자의 R&D 자금이 되기 때문이다. 오래가는 해자는 단일 우위가 아니라 현재 우위가 침식되는 속도보다 빠르게 다음 것을 만드는 능력이다.",
+        "points": [
+          "해자=정적 벽 아닌 엔진",
+          "불편한 반복 의지 필요",
+          "아마존 박마진=벽",
+          "다음 우위 빠르게 구축"
+        ],
+        "why": [
+          "지속 가능한 경쟁 우위의 본질을 재해석하는 관점"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-dead-players",
+      "title": "죽은 플레이어들",
+      "summary": "별을 겨냥하는 일이 그 어느 때보다 비인격적이고 저위험으로 느껴진다는 에세이.",
+      "url": "https://text-incubation.com/startup-ennui-and-the-forgetten-art-of-risk-taking",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "창업 문화"
+      },
+      "related": [
+        "위험 감수 문화 변화",
+        "무모한 도전 동기"
+      ],
+      "report": {
+        "tldr": "별을 겨냥하는 일이 더 비인격적·저위험으로 느껴진다는 에세이다.",
+        "what": "별을 겨냥하는 일이 지금 그 어느 때보다 비인격적이고 저위험하게 느껴진다는 점을 다룬다.",
+        "points": [
+          "별을 겨냥하는 도전",
+          "비인격적이 됨",
+          "저위험으로 느껴짐",
+          "위험 감수 동기 변화"
+        ],
+        "why": [
+          "창업 위험 감수 문화의 변화를 짚는 짧은 통찰"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-heros-journey",
+      "title": "영웅의 여정 6개월",
+      "summary": "VC에서 창업자로의 전환이 새로운 자율성을 준다는 회고.",
+      "url": "https://www.robin-guo.com/p/six-months-into-the-heros-journey",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "창업"
+      },
+      "related": [
+        "VC→창업자 전환 사례",
+        "창업 자율성 논의"
+      ],
+      "report": {
+        "tldr": "VC에서 창업자로의 전환이 새로운 자율성을 준다는 회고다.",
+        "what": "VC에서 창업자로의 전환이 새로운 자율성의 감각을 제공한다는 점을 다룬다.",
+        "points": [
+          "VC→창업자 전환",
+          "새로운 자율성",
+          "6개월 회고",
+          "역할 변화 성찰"
+        ],
+        "why": [
+          "투자자에서 창업자로의 전환 경험을 보여주는 시각"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    },
+    {
+      "id": "founders-slop-as-service",
+      "title": "서비스로서의 슬롭",
+      "summary": "'AI 생성' 라벨이 나쁜 영상을 좋게 만들지도, 정확·윤리·도용 여부를 알려주지도 않는다는 비평.",
+      "url": "https://thecogitatingceviche.substack.com/p/slop-as-a-service",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "콘텐츠"
+      },
+      "related": [
+        "AI 생성물 라벨링 논의",
+        "콘텐츠 신뢰성"
+      ],
+      "report": {
+        "tldr": "'AI 생성' 라벨이 콘텐츠의 질이나 신뢰성을 보장하지 않는다는 비평이다.",
+        "what": "'AI 생성' 라벨은 나쁜 영상을 좋게 만들지 못하고, 피드가 정크로 채워지는 것을 막지 못하며, 무언가가 정확한지·윤리적인지·그저 도용돼 광고 수익용으로 만들어졌는지 알려주지 않는다.",
+        "points": [
+          "AI 라벨이 질 보장 못 함",
+          "정크 범람 못 막음",
+          "정확·윤리 여부 불명",
+          "도용·광고용 가능"
+        ],
+        "why": [
+          "AI 생성물 라벨링의 한계와 콘텐츠 신뢰 문제를 짚는 비평"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Founders"
+    }
+  ]
+}

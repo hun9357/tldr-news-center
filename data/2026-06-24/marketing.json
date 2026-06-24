@@ -1,0 +1,381 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-instagram-tv",
+      "title": "인스타그램, TV 앱에 롱폼·에피소드·라이브로 스트리밍 도전",
+      "summary": "삼성 TV 확장과 채널·캐스팅·가로 영상·스토리 추가로 거실 진출, 스트리밍과 경쟁.",
+      "url": "https://techcrunch.com/2026/06/22/instagram-looks-to-take-on-streaming-services-with-longer-form-episodic-and-live-formats-for-its-tv-app/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "소셜·영상"
+      },
+      "related": [
+        "릴스 시리즈 기능 추적",
+        "TV 앱 광고 기회 검토"
+      ],
+      "report": {
+        "tldr": "인스타그램이 TV 앱에 롱폼·에피소드·라이브를 도입해 스트리밍과 경쟁한다.",
+        "what": "인스타그램이 거실 진출을 위해 TV 앱에서 긴 영상·에피소드 시리즈·라이브 콘텐츠를 테스트 중이다. 삼성 TV로 확장하고 채널·캐스팅·가로 영상·스토리를 추가한다. 새 릴스 '시리즈' 기능을 토대로 스트리밍 플랫폼과 더 직접 경쟁한다.",
+        "points": [
+          "TV 앱 롱폼·에피소드·라이브 테스트",
+          "삼성 TV 확장",
+          "채널·캐스팅·가로 영상 추가",
+          "릴스 시리즈 기반 확장"
+        ],
+        "why": [
+          "소셜 영상이 거실 화면과 스트리밍으로 영역을 넓히는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-getty-openai",
+      "title": "게티 이미지, 오픈AI와 디스플레이 파트너십 발표",
+      "summary": "라이선스 이미지 라이브러리를 챗GPT 검색·디스커버리에 통합하는 다년 계약.",
+      "url": "https://newsroom.gettyimages.com/en/getty-images/getty-images-announces-display-partnership-with-openai",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "콘텐츠 라이선싱"
+      },
+      "related": [
+        "AI-콘텐츠 라이선싱 동향",
+        "권리 정리 이미지 유통"
+      ],
+      "report": {
+        "tldr": "게티가 라이선스 이미지를 챗GPT에 통합하는 다년 계약을 오픈AI와 맺었다.",
+        "what": "게티 이미지가 오픈AI와 다년 계약을 맺어 라이선스 이미지 라이브러리를 챗GPT에 통합한다. 콘텐츠는 검색·디스커버리 경험에 나타나 더 고품질의 권리 정리된 이미지로 시각 응답을 개선한다. 이 협력은 AI 결과물을 더 유용하고 신뢰할 수 있게 만들면서 게티의 콘텐츠 유통 방식을 확장하려는 것이다.",
+        "points": [
+          "라이선스 이미지 챗GPT 통합",
+          "검색·디스커버리에 노출",
+          "권리 정리된 고품질 이미지",
+          "게티 유통 채널 확장"
+        ],
+        "why": [
+          "AI 기업과 권리자 간 법적 충돌이 라이선싱 협력으로 전환되는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-meeting-formats",
+      "title": "팀을 바꾸는 12가지 새로운 회의 형식",
+      "summary": "리버레이팅 스트럭처스의 25/10 크라우드소싱·나인 와이즈 등으로 더 나은 아이디어 도출.",
+      "url": "https://www.linkedin.com/posts/allisonstadd_12-fresh-meeting-formats-that-will-transform-ugcPost-7470071395046293504-uYcv/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "팀 운영"
+      },
+      "related": [
+        "회의 퍼실리테이션 기법",
+        "의사결정 구조 개선"
+      ],
+      "report": {
+        "tldr": "리버레이팅 스트럭처스 형식으로 회의를 더 생산적으로 바꾸라는 조언이다.",
+        "what": "최고의 회의는 회의처럼 보이지 않는다. 한 명이 말하고 나머지가 끄덕이는 대신, 리버레이팅 스트럭처스는 그룹 작업 방식을 바꾸는 단순한 형식을 도입한다. 25/10 크라우드소싱·나인 와이즈·민 스펙스 같은 방법이 더 나은 아이디어를 끌어내고 목적을 명확히 하며 중요한 것에 집중하게 한다. 결과적으로 빠르게 더 많은 아이디어가 나오고 조용한 목소리도 들리며 결정이 명확해진다.",
+        "points": [
+          "회의 형식을 구조화",
+          "25/10·나인 와이즈·민 스펙스",
+          "아이디어·목적 명확화",
+          "조용한 목소리 반영"
+        ],
+        "why": [
+          "개방형 토론을 가이드형 상호작용으로 바꿔 회의 생산성을 높이는 접근"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-lipton-creators",
+      "title": "립톤, 지역 크리에이터를 상시 소셜팀으로 전환",
+      "summary": "빌리언 달러 보이와 7개 시장에 창작자 주도 '소셜 허브' 구축, 시장별 채용 없이 현지 속도 확보.",
+      "url": "https://wersm.com/lipton-local-creators-social-teams/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "크리에이터 마케팅"
+      },
+      "related": [
+        "상시 크리에이터 운영 모델",
+        "글로벌-로컬 콘텐츠 전략"
+      ],
+      "report": {
+        "tldr": "립톤이 지역 크리에이터를 상시 소셜 기능으로 전환했다.",
+        "what": "립톤은 크리에이터 캠페인을 단발로 사는 대신 지역 크리에이터를 상시 소셜 기능으로 활용한다. 빌리언 달러 보이와 협업해 프랑스·터키·사우디 등 7개 시장에 창작자 주도 '소셜 허브'를 구축, 크리에이터가 립톤 채널과 자기 계정 모두를 위한 콘텐츠를 단일 관리 체계 안에서 제작한다. 시장별 소셜 인력 채용 없이 린한 글로벌 팀이 현지 문화적 속도를 확보한다.",
+        "points": [
+          "단발 대신 상시 크리에이터 운영",
+          "7개 시장 소셜 허브",
+          "오운드·크리에이터 채널 동시 제작",
+          "현지 채용 없이 문화적 속도"
+        ],
+        "why": [
+          "크리에이터를 상시 운영 모델로 통합해 글로벌-로컬 격차를 줄이는 전략"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-linkedin-collab",
+      "title": "링크드인에 오는 협업 게시물",
+      "summary": "페이지 포함 둘 이상 계정이 한 게시물을 공동 게시, 초대-수락 흐름으로 양측 통제 유지.",
+      "url": "https://buffer.com/resources/linkedin-collab-posts/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "소셜"
+      },
+      "related": [
+        "공동 게시 마케팅 전략",
+        "브랜드-크리에이터 협업"
+      ],
+      "report": {
+        "tldr": "링크드인 협업 게시물은 둘 이상 계정이 한 게시물을 공동 게시하게 한다.",
+        "what": "링크드인의 새 협업 게시물은 페이지를 포함한 둘 이상 계정이 모든 협업자 이름을 상단에 표기한 단일 게시물을 공동 게시하고 콘텐츠가 모든 네트워크에 동시에 도달하게 한다. 현재 베타이며 초대-수락 흐름으로 운영돼 수락 전엔 어떤 협업자도 게시물에 나타나지 않아 양측이 약속을 통제한다. 크리에이터는 실제로 반응하는 청중을, 브랜드는 전문적 공동 서명을 가져와 신뢰가 양방향으로 흐른다.",
+        "points": [
+          "페이지 포함 공동 게시",
+          "협업자 상단 표기·동시 도달",
+          "초대-수락 흐름",
+          "양방향 신뢰 형성"
+        ],
+        "why": [
+          "브랜드-크리에이터 협업의 신뢰와 도달을 동시에 키우는 포맷"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-ai-recommend-webinar",
+      "title": "AI가 당신의 제품을 추천하게 하는 법 (웨비나)",
+      "summary": "케빈 인디그가 AI 검색에서 제품 추천을 받는 법을 에어비앤비·쇼피파이 사례로 다루는 웨비나.",
+      "url": "https://luma.com/7dvp27pq",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "AI 검색"
+      },
+      "related": [
+        "AI 검색 최적화 동향",
+        "SEO 유효성 논의"
+      ],
+      "report": {
+        "tldr": "AI 검색에서 제품 추천을 받는 법을 다루는 케빈 인디그 웨비나다.",
+        "what": "케빈 인디그가 에어비앤비·쇼피파이·레딧·G2 같은 기업과의 작업을 바탕으로 AI 검색에서 제품이 추천되게 하는 법을 풀어내는 웨비나다. SEO가 여전히 중요한지, 스타트업이 어떻게 경쟁하는지, 어떤 전술이 가장 레버리지가 큰지 등 오늘 작동하는 것에 초점을 둔다. 하우투 가이드가 아닌 창업자·마케터를 위한 전략적 논의로, 7월 1일 오전 8시(ET)에 열린다.",
+        "points": [
+          "AI 검색 제품 추천 전략",
+          "에어비앤비·쇼피파이 사례",
+          "SEO 유효성·스타트업 경쟁",
+          "7월 1일 오전 8시 ET"
+        ],
+        "why": [
+          "AI 검색이 제품 발견 채널로 부상하며 최적화 수요가 커지는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-tiktok-ai-tools",
+      "title": "틱톡, 마케터용 새 AI 제작 도구 추가",
+      "summary": "심포니 에이전트가 텍스트·트렌드로 전체 영상 캠페인 생성, 더빙·크리에이터 발굴 기능 추가.",
+      "url": "https://www.socialmediatoday.com/news/tiktok-adds-new-ai-creation-tools-for-marketers/823463",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "광고 제작"
+      },
+      "related": [
+        "AI 광고 제작 도구 비교",
+        "트렌드 기반 캠페인 자동화"
+      ],
+      "report": {
+        "tldr": "틱톡이 심포니 에이전트로 텍스트에서 전체 영상 캠페인을 만드는 AI 도구를 추가했다.",
+        "what": "틱톡이 텍스트 프롬프트와 앱 내 트렌드 콘텐츠에서 전체 영상 캠페인을 생성하는 심포니 에이전트가 이끄는 새 AI 광고 도구를 출시한다. 아이디어를 완성형 영상으로 바꾸고 상위 성과 게시물 기반 변형을 제안하며 그 예시로 캠페인을 다듬거나 재구성하게 한다. 더빙·크리에이터 발굴·캠페인 브리프 기능도 추가해 앱에서 이미 잘 작동하는 것으로 콘텐츠를 더 쉽게 제작·확장한다.",
+        "points": [
+          "심포니 에이전트로 캠페인 생성",
+          "텍스트·트렌드에서 영상 제작",
+          "상위 성과 기반 변형 제안",
+          "더빙·크리에이터 발굴 추가"
+        ],
+        "why": [
+          "플랫폼이 트렌드 데이터로 광고 제작을 자동화하는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-ai-flywheel-ecommerce",
+      "title": "이커머스를 위한 AI 플라이휠 구축",
+      "summary": "마케팅·머천다이징·재고·가격 결정을 연결할 때 AI가 최대 가치, 4개 강화 레버로 플라이휠 형성.",
+      "url": "https://www.practicalecommerce.com/build-an-ai-flywheel-for-ecommerce",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "이커머스"
+      },
+      "related": [
+        "이커머스 AI 통합 전략",
+        "개인화-수요 신호 연계"
+      ],
+      "report": {
+        "tldr": "AI는 이커머스 결정들을 연결할 때 최대 가치를 내며 플라이휠을 형성한다.",
+        "what": "AI는 개별 작업을 자동화하기보다 마케팅·머천다이징·재고·가격 결정을 연결할 때 이커머스에서 가장 큰 가치를 낸다. 성장·생산성·가치사슬 효율·수익성이라는 4개 강화 레버가 더 나은 개인화가 수요 신호를 개선하고 강한 수요 신호가 재고·가격 결정을 개선하는 플라이휠을 만든다. AI는 제품 발견·추천·이메일 세분화·광고 크리에이티브·제품 페이지로 광고를 강화한다.",
+        "points": [
+          "결정 연결 시 최대 가치",
+          "4개 강화 레버 플라이휠",
+          "개인화↔수요 신호 선순환",
+          "발견·추천·세분화 강화"
+        ],
+        "why": [
+          "AI를 개별 자동화가 아닌 통합 의사결정 엔진으로 활용하는 관점"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-starbucks-tiktok",
+      "title": "스타벅스, 직원 생성 콘텐츠 강화 위한 틱톡 프로그램 시범",
+      "summary": "직원에게 브리프·광고 수익 분배·유료 광고 경로 제공, 직원이 동종 대비 3배 게시.",
+      "url": "https://www.marketingdive.com/news/starbucks-pilots-tiktok-program-for-boosting-employee-generated-content/823565/",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "콘텐츠 마케팅"
+      },
+      "related": [
+        "직원 생성 콘텐츠 전략",
+        "틱톡 크리에이터 네트워크"
+      ],
+      "report": {
+        "tldr": "스타벅스가 직원 생성 콘텐츠를 구조화된 마케팅 채널로 전환하는 틱톡 프로그램을 시범한다.",
+        "what": "스타벅스가 직원에게 브리프·광고 수익 분배·틱톡 크리에이터 네트워크를 통한 유료 광고 직접 경로를 제공해 직원 생성 콘텐츠를 구조화된 마케팅 채널로 바꾼다. 진정성 있는 직원 콘텐츠가 제품 발견에 영향을 준다는 점에 기반하며, Z세대 61%·전체 소비자 40%가 직원 생성 콘텐츠로 신제품을 자주 알게 된다고 답했다. 스타벅스는 직원이 동종 대비 3배로 게시하는 강한 기반을 갖췄다.",
+        "points": [
+          "직원에 브리프·수익 분배·광고 경로",
+          "직원 콘텐츠가 제품 발견에 영향",
+          "Z세대 61%가 직원 콘텐츠로 인지",
+          "직원 게시율 동종 3배"
+        ],
+        "why": [
+          "직원 생성 콘텐츠를 유료 마케팅 채널로 제도화하는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-creative-direction",
+      "title": "취향이 아니라 크리에이티브 디렉션이 필요하다",
+      "summary": "AI 포화 시장에선 기존을 큐레이션하기보다 새 아이디어를 만드는 크리에이티브 디렉션이 중요.",
+      "url": "https://embeddedbrandstrategy.substack.com/p/you-dont-need-taste-you-need-creative",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "브랜드"
+      },
+      "related": [
+        "브랜드 차별화 전략",
+        "AI 시대 창의성 논의"
+      ],
+      "report": {
+        "tldr": "AI 포화 시장에선 취향보다 새 아이디어를 만드는 크리에이티브 디렉션이 중요하다.",
+        "what": "강한 브랜드는 기존을 큐레이션하기보다 새 아이디어를 만들기 때문에 AI 포화 시장에서 취향보다 크리에이티브 디렉션이 더 중요하다. AI가 좋은 실행과 취향을 더 쉽게 만들어, 브랜드는 경쟁자가 못 베끼는 뚜렷한 관점으로 주목을 얻는다. 리퀴드 데스·밴딧 같은 브랜드는 익숙한 것을 다듬기보다 새 미감·제품·문화 경험을 만들어 돋보인다.",
+        "points": [
+          "취향보다 크리에이티브 디렉션",
+          "새 아이디어 창출이 주목 유발",
+          "경쟁자 못 베끼는 관점",
+          "리퀴드 데스·밴딧 사례"
+        ],
+        "why": [
+          "AI로 실행이 평준화된 시대에 독창성이 차별화의 핵심이 되는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-polymarket-bad-bets",
+      "title": "폴리마켓 마케팅팀의 매우 나쁜 베팅",
+      "summary": "조작된 승리를 보여주는 미공개 유료 인플루언서 광고 118건 집행, CFTC 벌금 직면.",
+      "url": "https://nymag.com/intelligencer/article/polymarkets-marketing-team-made-some-very-bad-bets.html",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Watch",
+        "affectedSurface": "광고 규제"
+      },
+      "related": [
+        "인플루언서 공시 규정",
+        "광고 컴플라이언스 점검"
+      ],
+      "report": {
+        "tldr": "폴리마켓이 미공개 조작 광고 118건으로 CFTC 벌금에 직면했다.",
+        "what": "폴리마켓이 조작된 승리를 보여주는 미공개 유료 인플루언서 광고 118건을 집행하고 인플루언서에게 협찬을 공개하지 말라고 지시했으며, 이제 잠재적 CFTC 벌금에 직면한다.",
+        "points": [
+          "미공개 유료 광고 118건",
+          "조작된 승리 노출",
+          "공개 금지 지시",
+          "CFTC 벌금 직면"
+        ],
+        "why": [
+          "인플루언서 마케팅의 공시 위반이 규제 리스크로 직결되는 사례"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    },
+    {
+      "id": "marketing-alexa-agentic-ads",
+      "title": "알렉사+ 에이전틱 광고, 광고 내 직접 구매 지원",
+      "summary": "파파존스 음식 주문·티켓마스터 콘서트 예매로 출시, 에코 쇼에서 이용 가능.",
+      "url": "https://advertising.amazon.com/library/news/alexa-agentic-ads",
+      "intel": {
+        "impact": "Low",
+        "owner": "Marketing",
+        "status": "Info",
+        "affectedSurface": "광고 포맷"
+      },
+      "related": [
+        "에이전틱 광고 동향",
+        "음성 커머스 추적"
+      ],
+      "report": {
+        "tldr": "알렉사+ 에이전틱 광고가 광고 안에서 직접 구매를 지원한다.",
+        "what": "에이전틱 광고 포맷이 파파존스 음식 주문과 티켓마스터 콘서트 예매로 출시되며 에코 쇼 기기에서 이용 가능하다.",
+        "points": [
+          "광고 내 직접 구매",
+          "파파존스·티켓마스터로 출시",
+          "에코 쇼에서 이용",
+          "음성·화면 커머스"
+        ],
+        "why": [
+          "광고가 직접 거래 지점이 되는 에이전틱 커머스 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Marketing"
+    }
+  ]
+}

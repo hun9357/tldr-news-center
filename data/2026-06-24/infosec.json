@@ -1,0 +1,451 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-tata-leak",
+      "title": "인도 타타 일렉트로닉스 해킹, 애플·테슬라 영업비밀 유출 주장",
+      "summary": "월드 리크스 랜섬웨어 그룹이 타타 일렉트로닉스 문서 20만 건 이상 공개, 애플·테슬라 기밀 포함 주장.",
+      "url": "https://links.tldrnewsletter.com/NOXz7v",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "공급망·기밀"
+      },
+      "related": [
+        "제조 공급망 협력사 보안 점검",
+        "애플·테슬라 영업비밀 노출 영향 추적"
+      ],
+      "report": {
+        "tldr": "랜섬웨어 그룹이 타타 일렉트로닉스 문서 20만여 건을 공개하며 애플·테슬라 기밀 유출을 주장했다.",
+        "what": "월드 리크스 랜섬웨어 그룹이 인도 전자 제조사 타타 일렉트로닉스의 것으로 추정되는 20만 건 이상 파일을 공개했다. 문서에는 제품 사양·기술 세부 등 테슬라·애플의 기밀로 보이는 자료가 포함됐다. 이메일·이벤트 로그와 외국인 포함 직원의 종이 사본도 들어 있다.",
+        "points": [
+          "문서 20만 건 이상 유출",
+          "애플·테슬라 기밀 주장",
+          "제품 사양·기술 세부 포함",
+          "직원 개인정보 사본 노출"
+        ],
+        "why": [
+          "제조 공급망 한 곳의 침해가 다수 대형 고객사 기밀로 번지는 위험"
+        ],
+        "action": "공급망 협력사 접근 통제·데이터 분리와 유출 노출 범위를 즉시 점검"
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-meta-keystroke",
+      "title": "메타, 내부 유출로 직원 키 입력 추적 AI 훈련 중단",
+      "summary": "전사 접근 가능했던 민감 데이터 발견 후, 직원 키 입력·마우스 학습 프로그램 일시 중단.",
+      "url": "https://www.businessinsider.com/meta-ai-training-data-leak-exposed-employee-activity-across-company-2026-6",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "내부 데이터"
+      },
+      "related": [
+        "내부 모니터링 데이터 접근 통제 점검",
+        "직원 프라이버시 정책 검토"
+      ],
+      "report": {
+        "tldr": "메타가 민감 데이터의 전사 접근이 드러나자 직원 키 입력 추적 AI 훈련을 중단했다.",
+        "what": "메타가 민감 데이터가 전사에 접근 가능했음을 발견한 뒤 내부 AI 훈련 프로그램을 중단했다. 논란이 된 모델 역량 이니셔티브는 직원의 키 입력·마우스 움직임으로 모델을 개선하는 필수 프로그램이었다. 유출 데이터에는 직원의 사적 대화·성과 데이터·기록이 포함됐다.",
+        "points": [
+          "전사 접근 가능 민감 데이터 발견",
+          "키 입력·마우스 학습 프로그램 중단",
+          "필수 참여 프로그램이 논란",
+          "사적 대화·성과 데이터 노출"
+        ],
+        "why": [
+          "AI 학습용 직원 행동 데이터 수집이 프라이버시·접근통제 리스크로 직결"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-ffmpeg-pixelsmash",
+      "title": "FFmpeg, 널리 쓰이는 비디오 디코더의 픽셀스매시 결함 패치",
+      "summary": "MagicYUV 디코더 힙 버퍼 오버플로로 ASLR 미적용 시 RCE, 그 외 DoS 가능.",
+      "url": "https://links.tldrnewsletter.com/nO9lcG",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Act",
+        "affectedSurface": "미디어 디코더"
+      },
+      "related": [
+        "FFmpeg 사용 애플리케이션 패치 적용",
+        "미디어 자동 처리 파이프라인 점검"
+      ],
+      "report": {
+        "tldr": "FFmpeg가 RCE·DoS로 이어질 수 있는 MagicYUV 디코더 힙 오버플로를 패치했다.",
+        "what": "JFrog 연구진이 ASLR 미적용 앱에서 원격 코드 실행, 그 외엔 서비스 거부를 유발할 수 있는 FFmpeg 취약점을 발견했다. MagicYUV 디코더의 슬라이스 처리 힙 버퍼 오버플로에서 비롯되며 AVI·MKV·MOV 파일을 열거나 해당 파일이 든 디렉터리를 탐색, 자동 미디어 수집 워크플로 실행 시 트리거된다. 인기 디코더를 쓰는 모든 앱이 잠재적 취약 대상이다.",
+        "points": [
+          "MagicYUV 디코더 힙 버퍼 오버플로",
+          "ASLR 미적용 시 RCE 가능",
+          "파일 열기·디렉터리 탐색만으로 트리거",
+          "FFmpeg 사용 앱 광범위 영향"
+        ],
+        "why": [
+          "FFmpeg가 폭넓게 내장돼 단일 결함이 대규모 노출로 이어지는 위험"
+        ],
+        "action": "FFmpeg 의존 애플리케이션을 즉시 최신 패치로 업데이트"
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-cloudflare-copy-fail",
+      "title": "클라우드플레어, 리눅스 '카피 페일' 권한상승 취약점 대응기",
+      "summary": "AF_ALG 인터페이스 4바이트 OOB 쓰기로 루트 권한 탈취, eBPF 정책으로 차단.",
+      "url": "https://blog.cloudflare.com/copy-fail-linux-vulnerability-mitigation/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "리눅스 커널"
+      },
+      "related": [
+        "취약 커널 버전 식별·패치",
+        "eBPF 기반 소켓 정책 검토"
+      ],
+      "report": {
+        "tldr": "클라우드플레어가 리눅스 AF_ALG 권한상승 취약점을 eBPF 정책으로 차단한 대응 과정을 공개했다.",
+        "what": "리눅스 커널 AF_ALG 크립토 인터페이스의 로컬 권한상승 버그는 비특권 사용자가 4바이트 범위 밖 쓰기로 /usr/bin/su 같은 캐시 바이너리를 손상시켜 루트를 얻게 한다. 클라우드플레어는 노출 커널 버전을 확인하고 행위 기반 탐지가 수분 내 시도를 잡는 것을 검증했으며 48시간 로그를 추적해 악용 흔적이 없음을 확인했다. 이후 eBPF 기반 bpf-lsm 정책으로 AF_ALG 소켓 바인드를 허용목록으로 제한하고 패치된 LTS 커널을 정상 리부트 자동화로 배포했다.",
+        "points": [
+          "AF_ALG 4바이트 OOB 쓰기로 루트 탈취",
+          "행위 기반 탐지가 시도 수분 내 포착",
+          "48시간 로그 추적, 악용 흔적 없음",
+          "eBPF로 소켓 바인드 허용목록 제한"
+        ],
+        "why": [
+          "커널 권한상승 결함에 대한 탐지·완화·패치의 실전 플레이북 사례"
+        ],
+        "action": "노출 커널 버전 식별 후 패치 적용과 AF_ALG 접근 제한 검토"
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-role-confusion",
+      "title": "역할 혼동으로서의 프롬프트 인젝션 (사이먼 윌리슨)",
+      "summary": "LLM이 역할 태그 내 특권 텍스트와 외부 입력을 구분 못 함, 디스타일링으로 공격 성공률 61%→10%.",
+      "url": "https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "AI 보안"
+      },
+      "related": [
+        "디스타일링 방어 적용 검토",
+        "역할 경계 신뢰 모델 재설계"
+      ],
+      "report": {
+        "tldr": "LLM의 역할 혼동을 악용한 인젝션을 디스타일링으로 막아 성공률을 크게 낮춘 연구다.",
+        "what": "연구진은 LLM이 시스템·어시스턴트 같은 역할 태그 내 자신의 특권 텍스트와 신뢰할 수 없는 사용자 입력을 안정적으로 구분하지 못하며, 내용보다 문체에 더 가중치를 둔다는 점을 보였다. 공격자는 모델 내부 추론 블록을 흉내 낸 문체로 명령을 덧붙여 평균 탈옥 성공률을 gpt-oss-20b 등에서 61%까지 끌어올렸다. 들어오는 텍스트를 역할 태그 형식에 맞지 않게 재작성하는 디스타일링으로 성공률을 10%까지 낮출 수 있다.",
+        "points": [
+          "역할 태그 내 특권/외부 입력 미구분",
+          "모델이 내용보다 문체에 가중",
+          "문체 모방으로 탈옥 성공률 61%",
+          "디스타일링으로 10%까지 감소"
+        ],
+        "why": [
+          "역할 경계를 신뢰 구분선이 아닌 연속체로 다뤄야 한다는 방어 관점"
+        ],
+        "action": "외부 텍스트를 권한형 템플릿에 그대로 넣지 말고 디스타일링 적용"
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-openclaw-supply-chain",
+      "title": "오픈클로 스킬 마켓의 AI 공급망 위협",
+      "summary": "유닛42가 스캐너를 통과한 악성 클로허브 스킬 5종 분석, 시맨틱 명령 하이재킹으로 우회.",
+      "url": "https://unit42.paloaltonetworks.com/openclaw-ai-supply-chain-risk/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "AI 공급망"
+      },
+      "related": [
+        "스킬 소스 라인별 감사 도입",
+        "설치 후 콜백 트래픽 모니터링"
+      ],
+      "report": {
+        "tldr": "유닛42가 스캐너를 우회한 악성 클로허브 스킬 5종과 AI 공급망 위협을 문서화했다.",
+        "what": "유닛42는 2026년 2~5월 바이러스토탈·클로스캔 검사를 통과한 악성 클로허브 스킬 5종을 기록했다. 오픈클로의 자연어 실행 모델을 악용해 메모리 안전 익스플로잇이 아닌 시맨틱 명령 하이재킹으로 런타임 제약을 우회했다. 페이스트사이트 리다이렉트로 Base64 드로퍼를 맥OS 인포스틸러에 연결, 스캐너 한도를 넘기려 README에 22MB 정크를 채우는 등의 수법과 새로운 에이전트 수익화 기법이 관찰됐다.",
+        "points": [
+          "스캐너 통과한 악성 스킬 5종",
+          "자연어 실행 악용한 명령 하이재킹",
+          "Base64 드로퍼→맥OS 인포스틸러",
+          "README 22MB 정크로 스캐너 우회"
+        ],
+        "why": [
+          "AI 스킬·플러그인 생태계가 새로운 공급망 공격면으로 부상"
+        ],
+        "action": "스킬 소스 라인별 감사·게시자 검증과 설치 후 외부 콜백 모니터링"
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-daybreak",
+      "title": "데이브레이크: 전 세계 조직 보안을 위한 도구",
+      "summary": "오픈AI가 코덱스 시큐리티·GPT-5.5-Cyber·파트너 프로그램으로 발견부터 패치까지 자동화 확장.",
+      "url": "https://links.tldrnewsletter.com/6nW3wy",
+      "intel": {
+        "impact": "High",
+        "owner": "Security",
+        "status": "Act",
+        "affectedSurface": "보안 자동화"
+      },
+      "related": [
+        "코덱스 시큐리티 파이프라인 통합",
+        "오픈소스 패치 자동화 협력 추적"
+      ],
+      "report": {
+        "tldr": "오픈AI가 코덱스 시큐리티·GPT-5.5-Cyber·파트너 프로그램으로 데이브레이크를 확장했다.",
+        "what": "오픈AI가 업데이트된 코덱스 시큐리티 워크플로, 완전판 GPT-5.5-Cyber 모델, 보안 벤더가 자사 도구에 기능을 탑재하도록 하는 파트너 프로그램으로 데이브레이크를 확장했다. 코덱스 시큐리티는 대규모 코드베이스를 스캔하고 발견을 검증하며 기존 파이프라인에 연결되는 패치를 작성한다. '패치 더 플래닛'은 핵심 오픈소스 프로젝트의 전문가 주도 보수를 지원하고 정부·핵심 인프라 운영자와 긴밀히 협력한다.",
+        "points": [
+          "코덱스 시큐리티 워크플로 업데이트",
+          "GPT-5.5-Cyber 완전판 공개",
+          "보안 벤더용 파트너 프로그램",
+          "오픈소스 패치 자동화 지원"
+        ],
+        "why": [
+          "취약점 발견에서 패치까지 자동화가 통제형으로 확산되는 흐름"
+        ],
+        "action": "코덱스 시큐리티의 파이프라인 통합과 통제 정책을 검토"
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-syswarden",
+      "title": "시스워든, 핵심 리눅스용 강화 호스트 침입탐지/방지 시스템",
+      "summary": "CIS 레벨2 자동 하드닝, 위협 인텔 통합, 제로트러스트 실행 강제 HIDS/HIPS.",
+      "url": "https://github.com/duggytuxy/syswarden",
+      "intel": {
+        "impact": "Low",
+        "owner": "Security",
+        "status": "Info",
+        "affectedSurface": "호스트 보안"
+      },
+      "related": [
+        "CIS 하드닝 자동화 도입",
+        "제로트러스트 실행 정책 검토"
+      ],
+      "report": {
+        "tldr": "시스워든은 핵심 리눅스 인프라용 강화 HIDS/HIPS다.",
+        "what": "시스워든은 중요 리눅스 인프라를 위한 강화된 호스트 침입탐지·방지 시스템(HIDS/HIPS)이다. CIS 레벨2 하드닝을 자동 강제하고 글로벌 위협 인텔리전스를 통합하며 완전한 제로트러스트 실행으로 동적 네트워크 방어를 조율한다.",
+        "points": [
+          "CIS 레벨2 자동 하드닝",
+          "글로벌 위협 인텔 통합",
+          "동적 네트워크 방어 조율",
+          "제로트러스트 실행 강제"
+        ],
+        "why": [
+          "핵심 리눅스 자산의 하드닝·탐지를 통합하려는 운영 수요"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-kipi",
+      "title": "키피, 문서를 타입드 엔터티 그래프로 변환하는 OSINT 플랫폼",
+      "summary": "문서를 타입드 엔터티 그래프로 바꾸는 오픈소스 OSINT 조사 플랫폼.",
+      "url": "https://github.com/assafkip/kipi",
+      "intel": {
+        "impact": "Low",
+        "owner": "Security",
+        "status": "Info",
+        "affectedSurface": "위협 인텔"
+      },
+      "related": [
+        "OSINT 도구 비교",
+        "엔터티 그래프 분석 활용"
+      ],
+      "report": {
+        "tldr": "키피는 문서를 타입드 엔터티 그래프로 변환하는 오픈소스 OSINT 플랫폼이다.",
+        "what": "키피는 문서를 타입드 엔터티 그래프로 변환하는 오픈소스 OSINT 조사 플랫폼이다.",
+        "points": [
+          "오픈소스 OSINT 플랫폼",
+          "문서→타입드 엔터티 그래프",
+          "조사·분석 지원",
+          "관계 시각화"
+        ],
+        "why": [
+          "방대한 문서에서 관계를 구조화해 조사 효율을 높이려는 수요"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-github-checkout",
+      "title": "깃허브, actions/checkout 업데이트로 폰 리퀘스트 공격 차단",
+      "summary": "pull_request_target·workflow_run에서 포크 PR 자동 체크아웃 중단해 기본 차단.",
+      "url": "https://thehackernews.com/2026/06/github-updates-actionscheckout-to-block.html",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Act",
+        "affectedSurface": "CI/CD"
+      },
+      "related": [
+        "권한 최소화 워크플로 점검",
+        "신뢰 불가 코드 실행 경로 제한"
+      ],
+      "report": {
+        "tldr": "깃허브가 actions/checkout을 바꿔 흔한 폰 리퀘스트 공격을 기본 차단한다.",
+        "what": "깃허브는 pull_request_target과 workflow_run을 쓰는 워크플로가 위험한 ref로 포크 PR을 자동 체크아웃하지 않도록 actions/checkout을 변경해 폰 리퀘스트 패턴을 기본 차단했다. 이 가드레일은 신뢰 불가 포크 코드가 베이스 저장소 토큰·시크릿·캐시로 실행되는 시나리오를 막으며, Nx·PostHog·TanStack 등 s1ngularity 캠페인에서 악용된 약점을 겨냥한다.",
+        "points": [
+          "포크 PR 위험 ref 자동 체크아웃 중단",
+          "폰 리퀘스트 패턴 기본 차단",
+          "토큰·시크릿·캐시 노출 방지",
+          "s1ngularity 류 공격 대상"
+        ],
+        "why": [
+          "CI 공급망 공격이 늘며 기본 안전값 강화가 중요해지는 흐름"
+        ],
+        "action": "불필요한 pull_request_target 사용을 줄이고 권한을 엄격히 제한"
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-five-eyes-warning",
+      "title": "파이브 아이즈, 정부·기업 겨냥 파괴적 AI 공격 수개월 내 경고",
+      "summary": "프런티어 모델의 파괴적 사이버 영향이 수년이 아닌 수개월 내라며 보안을 근본 과제로 다룰 것 촉구.",
+      "url": "https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security",
+      "intel": {
+        "impact": "High",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "국가 안보"
+      },
+      "related": [
+        "프런티어 모델 위협 모델링 점검",
+        "보안 거버넌스 우선순위 재정의"
+      ],
+      "report": {
+        "tldr": "파이브 아이즈가 파괴적 사이버 역량을 갖춘 프런티어 모델이 수개월 내라며 기업에 경고했다.",
+        "what": "파이브 아이즈 기관들이 파괴적 사이버 영향을 낼 수 있는 프런티어 모델이 수년이 아니라 수개월 내라고 경고하는 성명을 냈다. 기업은 사이버보안을 기술 문제가 아닌 근본 문제로 봐야 한다고 촉구했다. 페이블·미토스에 견줄 다른 모델의 등장에도 대비해야 한다.",
+        "points": [
+          "파괴적 AI 사이버 공격 수개월 내",
+          "보안을 근본 과제로 다룰 것 촉구",
+          "경쟁 모델 추가 등장 대비",
+          "정부 차원 공동 경고"
+        ],
+        "why": [
+          "AI 공격 역량 가속이 기업 보안 우선순위를 끌어올리는 신호"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-cloudflare-pact",
+      "title": "클라우드플레어, 주요 브라우저와 프라이버시 우선 인증 프로토콜 개발",
+      "summary": "PACT로 사람임을 마찰 없이 익명 토큰으로 증명, 모질라·구글·MS와 협력.",
+      "url": "https://www.cloudflare.com/pt-br/press/press-releases/2026/cloudflare-collaborates-with-leading-browsers-to-develop-a-privacy-first-protocol-for-the-global-internet/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "인증·프라이버시"
+      },
+      "related": [
+        "에이전트 시대 인증 표준 추적",
+        "익명 토큰 도입 검토"
+      ],
+      "report": {
+        "tldr": "클라우드플레어가 모질라·구글·MS와 사람임을 익명 토큰으로 증명하는 PACT를 추진한다.",
+        "what": "인간 사용자에서 AI 에이전트로 바뀌는 인터넷 환경을 인식해, 클라우드플레어가 모질라·구글·마이크로소프트와 협력해 사용자가 더 적은 마찰로 사람임을 식별하는 새 방법을 만드는 이니셔티브를 시작했다. PACT(Private Access Control Tokens)는 인격 확인이 강한 사이트가 익명 토큰을 발급하고, 그 토큰을 다른 사이트에 제시해 사람이 개입했음을 증명하도록 설계됐다.",
+        "points": [
+          "에이전트 증가에 대응한 인증 협력",
+          "PACT 익명 토큰 발급",
+          "사람 개입 증명, 프라이버시 유지",
+          "모질라·구글·MS 참여"
+        ],
+        "why": [
+          "봇·에이전트 트래픽 급증 속 인간 검증과 프라이버시를 동시에 풀려는 시도"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-klue-lastpass",
+      "title": "클루 공급망 사고와 라스트패스 대응",
+      "summary": "벤더 클루 사고로 OAuth 토큰 탈취, 세일즈포스 내 라스트패스 고객 CRM 데이터 접근.",
+      "url": "https://blog.lastpass.com/posts/klue-supply-chain-incident-and-lastpass-response",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "공급망"
+      },
+      "related": [
+        "서드파티 OAuth 토큰 회전",
+        "CRM 데이터 접근 로그 점검"
+      ],
+      "report": {
+        "tldr": "벤더 클루의 사고로 라스트패스 세일즈포스 고객 CRM 데이터가 접근됐다.",
+        "what": "라스트패스는 벤더 클루에서 발생한 사고로 공격자가 다수 클루 고객의 OAuth 토큰을 획득했고, 이를 통해 세일즈포스에 저장된 라스트패스 고객 기록(연락처·CRM 데이터)에 접근했다고 밝혔다. 다만 볼트 콘텐츠나 공(Gong) 데이터는 영향받지 않았다.",
+        "points": [
+          "벤더 클루에서 OAuth 토큰 탈취",
+          "세일즈포스 내 CRM 데이터 접근",
+          "볼트 콘텐츠는 미영향",
+          "공급망 경유 침해"
+        ],
+        "why": [
+          "SaaS 벤더 토큰 탈취가 연쇄적으로 고객 데이터 노출로 이어지는 위험"
+        ],
+        "action": "서드파티 OAuth 토큰 회전과 CRM 접근 로그 점검"
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    },
+    {
+      "id": "infosec-london-hydro",
+      "title": "캐나다 런던 하이드로, 데이터 유출 인정하나 핵심 세부는 비공개",
+      "summary": "고객 연락처·계정 정보(청구번호·주소·요금제·계량 데이터) 노출, 은행·정부 ID는 미포함.",
+      "url": "https://www.theregister.com/security/2026/06/22/canadian-utility-fesses-up-to-data-breach-but-key-details-remain-off-grid/5259309",
+      "intel": {
+        "impact": "Low",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "유틸리티"
+      },
+      "related": [
+        "고객 통지 절차 점검",
+        "유출 범위 확인"
+      ],
+      "report": {
+        "tldr": "런던 하이드로가 고객 연락처·계정 정보가 노출된 보안 사고를 알렸다.",
+        "what": "런던 하이드로는 청구번호·서비스 주소·요금제·계량 데이터를 포함한 고객 연락처·계정 정보가 노출된 보안 사고를 보고했다. 은행 정보와 정부 ID 데이터는 포함되지 않았다.",
+        "points": [
+          "고객 연락처·계정 정보 노출",
+          "청구번호·주소·요금제·계량 데이터 포함",
+          "은행·정부 ID는 미포함",
+          "핵심 세부는 비공개"
+        ],
+        "why": [
+          "유틸리티 고객 데이터 유출이 늘며 통지·범위 투명성이 쟁점화"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Information Security"
+    }
+  ]
+}

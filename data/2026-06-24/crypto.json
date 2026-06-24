@@ -1,0 +1,381 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-derivatives-skepticism",
+      "title": "현물 상승 속 파생상품은 랠리 지속에 회의적",
+      "summary": "BTC 1.4%·ETH 2.4% 상승했지만 미결제약정 감소·청산 41% 증가, 옵션은 하방 보호에 무게.",
+      "url": "https://www.coindesk.com/markets/2026/06/22/as-bitcoin-altcoin-prices-gain-derivatives-signal-skepticism-over-a-sustained-rally",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Finance",
+        "status": "Watch",
+        "affectedSurface": "디지털 자산 시장"
+      },
+      "related": [
+        "BTC 저항·지지선 모니터링",
+        "파생상품 포지셔닝 추적"
+      ],
+      "report": {
+        "tldr": "현물은 올랐지만 파생상품 지표는 지속 랠리에 회의적이다.",
+        "what": "비트코인이 1.4% 오른 6만2,310달러, 이더는 2.4% 상승했고 유가 완화와 이란-미국 외교 기대가 위험 선호를 끌어올렸다. 분석가들은 6만6,000~6만8,000달러를 단기 저항으로 보고 6만 달러 지지 붕괴 시 5만4,000달러를 겨냥한 약세 패턴을 경고한다. 24시간 BTC 거래량은 30% 급증한 1,299억 달러였지만 미결제약정은 6월 초 80.1만에서 72.2만 BTC로 줄고 청산은 41% 늘어 2.12억 달러를 기록했다. 옵션 시장은 상방보다 하방 보호에 더 큰 가격을 매긴다.",
+        "points": [
+          "BTC 1.4%·ETH 2.4% 상승",
+          "미결제약정 80.1만→72.2만 BTC 감소",
+          "청산 41% 증가, 2.12억 달러",
+          "옵션은 하방 보호에 무게"
+        ],
+        "why": [
+          "가격 상승에도 포지셔닝은 추세 확신보다 레인지 매매를 시사"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-cbdc-ban",
+      "title": "미 상원, CBDC 4년 금지 담은 주택법안 통과",
+      "summary": "21세기 ROAD to Housing Act 85-5 통과, 연준의 CBDC 발행을 4년간 금지하는 조항 포함.",
+      "url": "https://links.tldrnewsletter.com/iFJQdy",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Policy",
+        "status": "Watch",
+        "affectedSurface": "통화 정책"
+      },
+      "related": [
+        "하원 처리 경과 추적",
+        "CBDC 정책 동향 모니터링"
+      ],
+      "report": {
+        "tldr": "미 상원이 연준의 CBDC 발행을 4년간 금지하는 조항이 담긴 주택법안을 통과시켰다.",
+        "what": "상원이 21세기 ROAD to Housing Act를 85-5로 통과시켰고, 연준이나 연방준비은행이 중개자를 통하든 직접이든 CBDC를 발행·생성하는 것을 4년간 금지하는 조항이 포함됐다. 막을 활성 연준 CBDC 프로젝트는 없지만 공화당 의원들이 상징적 반감시 조치로 포함을 밀어붙였고, 법안은 하원을 빠르게 통과해 입법될 전망이다.",
+        "points": [
+          "주택법안 85-5 통과",
+          "연준 CBDC 4년 금지 조항",
+          "활성 CBDC 프로젝트는 없음",
+          "상징적 반감시 조치"
+        ],
+        "why": [
+          "디지털 통화 정책 방향을 둘러싼 정치적 신호"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-ethlabs",
+      "title": "이더랩스, 이더리움 인프라 비영리 R&D 랩으로 출범",
+      "summary": "이더리움을 글로벌 금융의 중립 결제 계층으로 만들겠다는 비영리 R&D 조직 출범.",
+      "url": "https://threadreaderapp.com/thread/2069104073245159573.html",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Research",
+        "status": "Watch",
+        "affectedSurface": "이더리움 생태계"
+      },
+      "related": [
+        "이더리움 거버넌스 조직 동향",
+        "프로토콜-앱 계층 연계 추적"
+      ],
+      "report": {
+        "tldr": "이더랩스가 이더리움을 글로벌 금융의 중립 결제 계층으로 만들려는 비영리 R&D 랩으로 출범했다.",
+        "what": "이더랩스가 이더리움을 글로벌 금융의 중립 결제 계층으로 확립하겠다는 사명을 내걸고 비영리 R&D 조직으로 출범했다. 지갑·L2·기관·프런티어 빌더 등 애플리케이션 계층과 코어 프로토콜 개발자를 잇는 다리 역할을 하며 실사용 요구를 프로토콜 작업·표준·제품으로 전환한다. ETH를 프로그래머블 가치저장 수단으로 보는 친-ETH 입장을 명시했고, 약 10년 경력의 코어 기여자들이 설립했으며 소수 정예팀을 채용 중이다.",
+        "points": [
+          "이더리움을 중립 결제 계층으로",
+          "앱 계층-코어 개발자 가교",
+          "친-ETH 자산 입장 명시",
+          "약 10년 경력자 설립"
+        ],
+        "why": [
+          "이더리움의 미래를 단일 재단이 아닌 연합 체제로 재편하려는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-ethgent-testnet",
+      "title": "ETHgent 테스트넷 출범, ICP 기반 EVM 호환 앱체인",
+      "summary": "온체인 난수·HTTP 아웃콜·임계 ECDSA 등 내장한 ICP 기반 EVM 호환 앱체인 테스트넷.",
+      "url": "https://ethresear.ch/t/the-ethgent-testnet-officially-launches-today/25279",
+      "intel": {
+        "impact": "Low",
+        "owner": "Eng",
+        "status": "Info",
+        "affectedSurface": "온체인 에이전트"
+      },
+      "related": [
+        "온체인 에이전트 인프라 비교",
+        "임계 ECDSA 활용 검토"
+      ],
+      "report": {
+        "tldr": "ETHgent 테스트넷이 ICP 기반 EVM 호환 앱체인으로 출범했다.",
+        "what": "ETHgent 테스트넷이 ICP 인프라 위에 구축된 EVM 호환 애플리케이션 체인으로 출범했다. 온체인 난수 생성·HTTP 아웃콜·비동기 서브레이어·임계 ECDSA 등 암호 프리미티브를 내장해, 저렴하고 지리적으로 분산된 실행이 필요한 개발자를 겨냥한다. 하드햇 지원·코드 샘플·에이전트 배포 스킬 파일을 제공해 온체인 에이전트 구축의 마찰을 줄인다.",
+        "points": [
+          "ICP 기반 EVM 호환 앱체인",
+          "온체인 난수·HTTP 아웃콜 내장",
+          "임계 ECDSA 등 암호 프리미티브",
+          "하드햇 지원·에이전트 스킬 파일"
+        ],
+        "why": [
+          "온체인 에이전트·앱이 네이티브 암호 기능을 프로토콜 계층에서 요구하는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-proof-of-nothing",
+      "title": "프루프 오브 낫씽: 준비금 증명의 허점",
+      "summary": "준비금 증명은 자산 존재만 입증할 뿐 법적 청구권을 보장하지 않아 RWA 구조에서 위험.",
+      "url": "https://links.tldrnewsletter.com/NORIkG",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Finance",
+        "status": "Watch",
+        "affectedSurface": "RWA·디파이"
+      },
+      "related": [
+        "RWA 청구권 구조 점검",
+        "준비금 증명 표준 개선 추적"
+      ],
+      "report": {
+        "tldr": "준비금 증명은 자산 존재만 입증할 뿐 법적 청구권을 보장하지 못한다는 분석이다.",
+        "what": "준비금 증명은 자산 풀의 존재를 확인하지만 토큰 보유자가 그 자산에 법적 청구권을 갖는지는 입증하지 못하며, 발행자·수탁자·법적 래퍼가 무너질 때 이 간극이 치명적이 된다. 다수 RWA 구조에서 사용자는 직접 소유가 아닌 발행자에 대한 청구권 토큰을 가져 분리 실패·담보 설정·파산 위험에 노출된다. 메인스트리트 파이낸스 붕괴가 이를 보여줬고, 해법으로 솔벤시 증명+권리 증명을 더한 복합 표준이 제시된다.",
+        "points": [
+          "준비금 증명은 자산 존재만 입증",
+          "법적 청구권 미보장",
+          "메인스트리트 붕괴로 위험 현실화",
+          "솔벤시+권리 증명 복합 표준 제안"
+        ],
+        "why": [
+          "RWA·스테이블코인 확산 속 투자자 보호의 구조적 한계 부각"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-ethereum-coalition",
+      "title": "이더리움의 미래를 만드는 조직 연합",
+      "summary": "이더리움 재단이 이더랩스·EAG·EEZ·아르고 콜렉티브 등 독립 조직 4곳을 조명.",
+      "url": "https://threadreaderapp.com/thread/2069138527493747139.html",
+      "intel": {
+        "impact": "Low",
+        "owner": "Research",
+        "status": "Info",
+        "affectedSurface": "이더리움 생태계"
+      },
+      "related": [
+        "L2 단편화 해소 동향",
+        "솔리디티 유지보수 주체 추적"
+      ],
+      "report": {
+        "tldr": "이더리움 재단이 생태계를 강화하는 독립 조직 4곳을 연합으로 조명했다.",
+        "what": "이더리움 재단이 지난 1년간 생긴 독립 조직 4곳을 조명하며 생태계의 미래를 단일 재단이 아닌 연합 노력으로 규정했다. 이더랩스는 이더리움을 글로벌 경제의 결제 계층으로 만드는 비영리 R&D 랩, EAG는 신흥시장에서 이더리움 네이티브 앱의 실사용을 추진하는 비영리, EEZ는 동기적 합성 가능 롤업으로 유동성 단편화를 줄이는 이니셔티브, 아르고 콜렉티브는 솔리디티·컴파일러 툴링을 유지하는 자치 집단이다.",
+        "points": [
+          "재단이 독립 조직 4곳 조명",
+          "이더랩스·EAG·EEZ·아르고",
+          "연합형 생태계 강조",
+          "솔리디티·컴파일러 유지 포함"
+        ],
+        "why": [
+          "이더리움 거버넌스가 분산·연합 모델로 진화하는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-goldfinch-winddown",
+      "title": "골드핀치, 1억 달러 대출 후 청산 절차 돌입",
+      "summary": "a16z 투자 RWA 대출 프로토콜이 거버넌스 투표로 유지보수 모드 전환, GFI 99.8% 폭락.",
+      "url": "https://www.cryptopolitan.com/goldfinch-shuts-down-credit-platform/",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Finance",
+        "status": "Watch",
+        "affectedSurface": "RWA 대출"
+      },
+      "related": [
+        "무담보 온체인 대출 실패 패턴 추적",
+        "RWA 오프체인 집행 리스크 점검"
+      ],
+      "report": {
+        "tldr": "a16z 투자 RWA 대출 프로토콜 골드핀치가 청산 절차에 들어갔다.",
+        "what": "워블러 랩스가 6월 12일 골드핀치 프라임 청산 거버넌스 제안을 냈고 스냅샷 투표가 100% 찬성으로 통과해 a16z 투자 RWA 대출 프로토콜이 유지보수 모드로 전환됐다. 골드핀치는 신흥시장 차주에게 1억 달러 이상을 대출했으나 연쇄 디폴트로 예치 자본이 잠식돼 GFI가 2022년 1월 고점 대비 99.8% 폭락했다. 예치자는 2년 이상 회수 기간에 직면한다.",
+        "points": [
+          "청산 제안 100% 찬성 통과",
+          "누적 대출 1억 달러 이상",
+          "연쇄 디폴트로 자본 잠식",
+          "GFI 고점 대비 99.8% 하락"
+        ],
+        "why": [
+          "오프체인 집행에 의존한 무담보 대출 모델의 구조적 취약성 노출"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-secret-axelar",
+      "title": "시크릿 네트워크 액셀라 브리지, 무한 발행 결함으로 467만 달러 유출",
+      "summary": "수년 된 CW20-ICS20 무한 민트 결함 악용, 7일간 7개 자산서 467만 달러 탈취.",
+      "url": "https://thedefiant.io/news/hacks/secret-network-axelar-bridge-drained-4-67m-infinite-mint-flaw",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Security",
+        "status": "Watch",
+        "affectedSurface": "브리지 보안"
+      },
+      "related": [
+        "브리지 온체인 모니터링 강화",
+        "래핑 토큰 담보 검증"
+      ],
+      "report": {
+        "tldr": "시크릿 네트워크 액셀라 브리지가 무한 발행 결함으로 467만 달러를 탈취당했다.",
+        "what": "공격자가 시크릿 네트워크의 CW20-ICS20 컨트랙트에 있던 수년 된 무한 민트 결함을 악용해 6월 10~17일 사이 7개 자산에서 액셀라 래핑 토큰 467만 달러를 빼냈다. 익스플로잇은 7일간 탐지되지 않아 브리지 유동성에 대한 온체인 모니터링 공백을 드러냈다. 결함은 담보 없이 래핑 토큰을 발행하게 해 경고 없이 준비금을 소진시켰고, 시크릿 네트워크는 액셀라 브리지를 중단하고 수정 중이다.",
+        "points": [
+          "CW20-ICS20 무한 민트 결함 악용",
+          "7개 자산서 467만 달러 유출",
+          "7일간 미탐지",
+          "담보 없는 래핑 토큰 발행"
+        ],
+        "why": [
+          "크로스체인 브리지가 여전히 대규모 익스플로잇의 표적이 되는 현실"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-thorchain-resume",
+      "title": "토르체인, 1,070만 달러 익스플로잇 후 거래 재개",
+      "summary": "새로 합류한 노드 운영자가 GG20 임계 서명 취약점 악용해 약 1,070만 달러 탈취.",
+      "url": "https://links.tldrnewsletter.com/f43KRZ",
+      "intel": {
+        "impact": "Low",
+        "owner": "Security",
+        "status": "Info",
+        "affectedSurface": "디파이"
+      },
+      "related": [
+        "임계 서명 스킴 보안 점검",
+        "볼트 운영 모니터링"
+      ],
+      "report": {
+        "tldr": "토르체인이 1,070만 달러 익스플로잇 이후 거래를 재개했다.",
+        "what": "토르체인은 새로 합류한 노드 운영자가 GG20 임계 서명 스킴 취약점을 악용해 5개 볼트 중 하나에서 약 1,070만 달러를 빼낸 뒤 5월에 거래를 중단했었다.",
+        "points": [
+          "GG20 임계 서명 취약점 악용",
+          "5개 볼트 중 1곳서 유출",
+          "약 1,070만 달러 탈취",
+          "5월 중단 후 재개"
+        ],
+        "why": [
+          "탈중앙 거래 프로토콜의 서명 스킴 보안이 반복적 약점으로 노출"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-sofi-stablecoin",
+      "title": "소파이, 솔라나에 SOFIUSD 스테이블코인 출시",
+      "summary": "상장 핀테크 소파이가 첫 온체인 달러 자산 SOFIUSD를 솔라나에 배포.",
+      "url": "https://threadreaderapp.com/thread/2069223862655492407.html",
+      "intel": {
+        "impact": "Medium",
+        "owner": "Finance",
+        "status": "Watch",
+        "affectedSurface": "스테이블코인"
+      },
+      "related": [
+        "기관 스테이블코인 출시 동향",
+        "솔라나 온체인 결제 추적"
+      ],
+      "report": {
+        "tldr": "상장 핀테크 소파이가 솔라나에 첫 스테이블코인 SOFIUSD를 출시했다.",
+        "what": "상장 핀테크 기업 소파이가 솔라나에 스테이블코인 SOFIUSD를 배포해 자사 첫 온체인 달러 표시 자산을 선보였다.",
+        "points": [
+          "소파이 첫 온체인 달러 자산",
+          "솔라나에 배포",
+          "상장 핀테크의 스테이블코인 진입",
+          "기관 자금 온체인 이동"
+        ],
+        "why": [
+          "전통 금융기관이 스테이블코인으로 온체인 결제에 진입하는 흐름"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-bitmine-eth",
+      "title": "비트마인, 472만 ETH 스테이킹으로 연 2.23억 달러 수익",
+      "summary": "총 공급량 4.7%인 472만 ETH 보유, 평단 3,440달러로 95억 달러 평가손, 연 수익 2.23억.",
+      "url": "https://threadreaderapp.com/thread/2069164451388133700.html",
+      "intel": {
+        "impact": "Low",
+        "owner": "Finance",
+        "status": "Info",
+        "affectedSurface": "디지털 자산"
+      },
+      "related": [
+        "기관 ETH 스테이킹 동향",
+        "평가손 대비 수익 구조 분석"
+      ],
+      "report": {
+        "tldr": "비트마인이 472만 ETH를 스테이킹해 연 2.23억 달러 수익을 낸다.",
+        "what": "비트마인은 총 공급량의 약 4.7%인 472만 ETH를 보유하며 평균 단가 3,440달러로 미실현 기준 95억 달러 평가손 상태지만, 연 2.23억 달러 스테이킹 수익을 창출하고 있다.",
+        "points": [
+          "472만 ETH(공급 4.7%) 보유",
+          "평단 3,440달러",
+          "미실현 95억 달러 평가손",
+          "연 스테이킹 수익 2.23억 달러"
+        ],
+        "why": [
+          "대규모 기관 ETH 보유와 스테이킹 수익 구조를 보여주는 사례"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    },
+    {
+      "id": "crypto-hut8-settlement",
+      "title": "허트8, US 비트코인 합병 관련 투자자 소송 235만 달러 합의",
+      "summary": "2023~2024년 주식 매입 투자자들의 증권 집단소송을 235만 달러에 합의 제안.",
+      "url": "https://links.tldrnewsletter.com/ONxWtb",
+      "intel": {
+        "impact": "Low",
+        "owner": "Finance",
+        "status": "Info",
+        "affectedSurface": "규제·소송"
+      },
+      "related": [
+        "채굴사 소송 동향",
+        "합병 관련 공시 리스크 점검"
+      ],
+      "report": {
+        "tldr": "허트8이 US 비트코인 합병 관련 투자자 소송을 235만 달러에 합의 제안했다.",
+        "what": "허트8이 2023년 2월~2024년 1월 주식을 매입한 투자자들이 제기한 증권 집단소송을 해결하기 위해 뉴욕 남부지방법원에 235만 달러 합의안을 제출했다. 이 기간은 US 비트코인 코퍼레이션과의 전액 주식 합병 전후를 포함한다.",
+        "points": [
+          "235만 달러 합의안 제출",
+          "증권 집단소송 대상",
+          "2023~2024년 주식 매입자",
+          "US 비트코인 합병 관련"
+        ],
+        "why": [
+          "채굴사 합병·공시를 둘러싼 법적 리스크 사례"
+        ]
+      },
+      "originalDate": "2026-06-24",
+      "source": "TLDR Crypto"
+    }
+  ]
+}
