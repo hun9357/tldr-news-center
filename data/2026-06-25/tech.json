@@ -1,121 +1,288 @@
 {
-  "name": "빅테크",
-  "source": "TLDR",
-  "icon": "📱",
-  "color": "#6ec7b2",
-  "bg": "#15302a",
-  "items": [
-    {
-      "id": "tech-openai-jalapeno",
-      "title": "오픈AI, 브로드컴과 'Jalapeño' 추론 칩 공개",
-      "summary": "9개월 만에 설계한 첫 자체 추론 칩으로 모델 배포·제품을 아우르는 풀스택 전략의 분기점이 됐다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "오픈AI가 자체 실리콘으로 수직통합을 본격화했다.",
-        "what": "오픈AI와 브로드컴이 9개월 만에 추론 칩 Jalapeño를 설계해 풀스택 AI 전략의 핵심 단계를 밟았다.",
-        "points": ["추론 전용 가속기", "브로드컴과 공동 설계"],
-        "why": ["엔비디아 의존 축소", "추론 단가 자체 통제"]
-      }
-    },
-    {
-      "id": "tech-tesla-sunrun-vpp",
-      "title": "테슬라·선런, 16GW 가상발전소 가동",
-      "summary": "가정용 배터리·기기를 묶어 미국 최대 분산 발전소를 구성, 버지니아에 300MW+ 확보하며 데이터센터 전력 수요에 대응.",
-      "source": "Electrek",
-      "url": "https://electrek.co/2026/06/24/tesla-sunrun-16gw-vpp-data-centers/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "분산 가상발전소가 데이터센터 전력난의 새 해법으로 떠올랐다.",
-        "what": "테슬라·선런·리뉴홈이 가정용 배터리를 집합해 16GW 규모 분산 발전소를 띄웠고, 버지니아에 300MW+가 준비됐으며 2030년 500MW+를 목표로 한다.",
-        "points": ["미국 최대 분산 가상발전소(VPP)", "2030년 500MW+ 목표"],
-        "why": ["AI 데이터센터 전력 수요 급증 대응", "전력망 유연성 자원으로 부상"]
-      }
-    },
-    {
-      "id": "tech-qualcomm-dragonfly-meta",
-      "title": "퀄컴 드래곤플라이 칩, 첫 고객으로 메타 확보",
-      "summary": "메타가 퀄컴 드래곤플라이 C1000 데이터센터 프로세서의 첫 공개 고객이 됐으며 2028년 출시 예정.",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/qualcomm-dragonfly-meta-ai-data-center-chips-modular",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "퀄컴이 데이터센터 AI 칩으로 메타라는 대형 앵커 고객을 잡았다.",
-        "what": "메타가 퀄컴 드래곤플라이 C1000 데이터센터 프로세서의 첫 공개 고객으로 발표됐으며 칩은 2028년 출시된다.",
-        "points": ["메타가 첫 명시 고객", "2028년 출시 로드맵"],
-        "why": ["퀄컴의 데이터센터 진입 신호", "엔비디아 대안 다변화"]
-      }
-    },
-    {
-      "id": "tech-intercept-fund",
-      "title": "5억 달러 '인터셉트 펀드', 감기 박멸 도전",
-      "summary": "스트라이프·앤트로픽이 후원하는 연구 이니셔티브가 공기 정화·치료제 개발로 감기·독감 등 호흡기 감염 박멸을 노린다.",
-      "source": "Time",
-      "url": "https://time.com/article/2026/06/24/500-million-intercept-fund-eliminate-common-cold/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "테크 자본이 호흡기 감염 박멸이라는 공중보건 문제에 베팅했다.",
-        "what": "스트라이프·앤트로픽이 후원하는 5억 달러 인터셉트 펀드가 공기 여과와 치료제 개발로 감기·독감 박멸을 추진한다.",
-        "points": ["5억 달러 규모", "공기 정화 + 치료제 개발"],
-        "why": ["테크 거물의 바이오·공중보건 투자 확대", "팬데믹 대비 인프라 관점"]
-      }
-    },
-    {
-      "id": "tech-familiar-robot",
-      "title": "전 아이로봇 CEO, 케어 로봇 '패밀리어' 출시",
-      "summary": "콜린 앵글이 클라우드 전송 없이 로컬 AI로 가족을 살피는 표현형 로봇 패밀리어 머신스를 선보였다.",
-      "source": "Wall Street Journal",
-      "url": "https://www.wsj.com/tech/ai/familiar-machines-and-magic-robot-c8711e45",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "온디바이스 AI 기반 가정용 케어 로봇이 등장했다.",
-        "what": "아이로봇 전 CEO 콜린 앵글이 로컬 AI 모델로 데이터를 클라우드에 보내지 않고 가족을 모니터링하는 로봇 패밀리어를 만들었다.",
-        "points": ["로컬 AI로 프라이버시 보존", "가족 케어·모니터링 용도"],
-        "why": ["가정용 소셜 로봇 시장 재도전", "온디바이스 AI 프라이버시 차별화"]
-      }
-    },
-    {
-      "id": "tech-aws-garman-jobs",
-      "title": "AWS CEO \"AI는 일자리를 없애기보다 바꾼다\"",
-      "summary": "매트 가먼이 AI가 직무를 변형시킬 뿐이라며 아마존이 1만1천 명의 인턴·주니어를 채용하는 이유를 설명했다.",
-      "source": "Platformer",
-      "url": "https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "AWS 수장은 AI를 일자리 대체가 아닌 변형으로 본다.",
-        "what": "매트 가먼 AWS CEO가 AI는 일자리를 없애기보다 바꾼다고 보며 아마존의 1만1천 인턴·주니어 채용 배경을 설명했다.",
-        "points": ["AI = 직무 변형론", "주니어 인재 1만1천 채용"],
-        "why": ["AI 시대 고용 담론의 반례 제시", "주니어 인력 가치 재평가"]
-      }
-    },
-    {
-      "id": "tech-amazon-bribery",
-      "title": "아마존 '그림자 뇌물 시장' 폭로",
-      "summary": "암호화 메신저에서 중개인이 대가를 받고 아마존 직원 접근권을 파는 시장이 드러났다.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-24/inside-the-shadow-market-selling-access-to-amazon-employees",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "플랫폼 권력이 커질수록 내부자 접근권이 거래된다.",
-        "what": "암호화 메신저에서 중개인들이 비용을 받고 아마존 직원 접근을 알선하는 그림자 시장이 조사로 폭로됐다.",
-        "points": ["내부자 접근권 거래", "암호화 메신저 활용"],
-        "why": ["마켓플레이스 무결성·내부 통제 리스크", "셀러 생태계 공정성 훼손"]
-      }
-    },
-    {
-      "id": "tech-anthropic-whitehouse",
-      "title": "앤트로픽-백악관 협상, 궤도 회복",
-      "summary": "리더십 교체 후 톰 브라운·세라 헥이 협상을 이끌며 앤트로픽과 백악관의 외교적 대화가 개선됐다.",
-      "source": "Gizmodo",
-      "url": "https://gizmodo.com/anthropics-white-house-negotiations-are-reportedly-on-track",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "앤트로픽과 행정부의 관계가 협상 채널 개편으로 풀렸다.",
-        "what": "리더십 변화 이후 톰 브라운·세라 헥이 협상을 맡으면서 앤트로픽과 백악관 간 대화가 정상 궤도에 올랐다.",
-        "points": ["협상 담당 리더십 교체", "관계 개선"],
-        "why": ["AI 규제·조달의 정책 변수", "프런티어 랩-정부 관계 재편"]
-      }
-    }
-  ]
+ "name": "빅테크",
+ "source": "TLDR",
+ "icon": "📱",
+ "color": "#6ec7b2",
+ "bg": "#15302a",
+ "items": [
+  {
+   "id": "tech-openai-broadcom-jalapeno-first-chip",
+   "title": "오픈AI, 브로드컴과 협력해 첫 AI 칩 '할라페뇨' 공개",
+   "summary": "오픈AI와 브로드컴이 추론용으로 설계한 첫 칩 '할라페뇨'를 공개했다.",
+   "source": "TLDR",
+   "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "오픈AI가 브로드컴과 손잡고 추론에 특화된 첫 AI 칩 '할라페뇨'를 선보였다.",
+    "what": "오픈AI와 브로드컴의 할라페뇨 칩은 AI 모델을 사용자에게 제공하는 연산 집약적 과정인 추론을 위해 설계됐다. 두 회사가 칩을 처음부터 끝까지 설계하는 데 9개월이 걸렸으며, 오픈AI의 AI 모델 활용이 그 과정을 가속화하는 데 도움이 됐다. 할라페뇨는 오픈AI가 자사 모델과 제품의 풀스택을 구축하려는 계획에서 중요한 진전이다.",
+    "points": [
+     "할라페뇨는 모델 서빙에 쓰이는 추론용 칩으로 설계됐다.",
+     "두 회사가 칩을 end-to-end로 설계하는 데 9개월이 소요됐다.",
+     "오픈AI의 AI 모델 활용이 설계 과정을 앞당겼다.",
+     "오픈AI의 풀스택 구축 전략에서 주요 단계로 평가된다."
+    ],
+    "why": [
+     "오픈AI가 모델 인프라를 직접 통제하려는 수직 통합 흐름을 보여준다.",
+     "AI를 칩 설계에 적용해 개발 속도를 높인 사례다."
+    ]
+   }
+  },
+  {
+   "id": "tech-tesla-sunrun-16gw-virtual-power-plant",
+   "title": "테슬라·선런, 데이터센터용 16GW 가상발전소 구축 협력",
+   "summary": "선런·테슬라·리뉴홈이 16GW 규모의 미국 최대 분산형 발전소를 구축한다.",
+   "source": "TLDR",
+   "url": "https://electrek.co/2026/06/24/tesla-sunrun-16gw-vpp-data-centers/?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "선런, 테슬라, 리뉴홈이 가정용 배터리 16GW 이상을 묶어 데이터센터 전력 수요에 대응한다.",
+    "what": "선런, 테슬라, 리뉴홈이 16기가와트가 넘는 가정용 배터리와 기기를 모아 미국 최대 분산형 발전소를 만들기로 합의했다. 이 프로젝트는 데이터센터에서 급증하는 전력 수요에 대응하는 것을 목표로 한다. 세 회사는 이미 버지니아에 즉시 배치 가능한 300메가와트 이상의 용량을 확보했으며, 2030년까지 최소 500메가와트로 늘릴 것으로 기대한다.",
+    "points": [
+     "16GW 이상의 가정용 배터리·기기를 묶은 미국 최대 분산형 발전소다.",
+     "급증하는 데이터센터 전력 수요 대응이 목표다.",
+     "버지니아에 300MW 이상 용량을 즉시 배치 가능하다.",
+     "2030년까지 최소 500MW로 용량 확대를 기대한다."
+    ],
+    "why": [
+     "AI 데이터센터 전력난의 새로운 해법으로 분산형 자원이 부상하고 있다.",
+     "가정용 배터리를 가상발전소로 통합하는 모델의 규모를 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "tech-intercept-500m-fund-eliminate-common-cold",
+   "title": "5억 달러 신규 펀드 '인터셉트', 감기 퇴치에 도전",
+   "summary": "스트라이프·앤트로픽 등이 참여한 5억 달러 펀드가 감기·독감 퇴치를 노린다.",
+   "source": "TLDR",
+   "url": "https://time.com/article/2026/06/24/500-million-intercept-fund-eliminate-common-cold/?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "5억 달러 규모의 '인터셉트' 프로젝트가 감기와 독감 같은 호흡기 감염병 종식을 목표로 한다.",
+    "what": "인터셉트는 감기와 독감 같은 호흡기 감염을 과거의 일로 만드는 것을 목표로 하는 프로젝트다. 6월 24일 출범했으며, 공기 중 병원체를 직접 제거하는 공기 여과 기술 등의 도입 연구를 지원한다. 이 프로젝트는 스트라이프와 앤트로픽을 포함한 다양한 출처로부터 5억 달러의 투자를 받았다. 자금은 여러 바이러스로부터 한 번에 사람들을 보호할 수 있는 치료법 개발을 지원하는 데 쓰일 예정이다.",
+    "points": [
+     "6월 24일 출범한 호흡기 감염 종식 프로젝트다.",
+     "공기 여과 등 병원체 직접 제거 기술 연구를 지원한다.",
+     "스트라이프, 앤트로픽 등 다양한 출처에서 5억 달러를 투자받았다.",
+     "여러 바이러스를 한 번에 막는 치료법 개발에 자금을 투입한다."
+    ],
+    "why": [
+     "민간 자본이 공중보건 인프라 혁신에 대규모로 투자하는 사례다.",
+     "백신을 넘어 광범위 예방 기술로 접근 방식을 확장한다."
+    ]
+   }
+  },
+  {
+   "id": "tech-roomba-creator-familiar-snuggle-robot",
+   "title": "룸바 창업자의 두 번째 도전: 껴안고 싶은 로봇",
+   "summary": "iRobot을 이끌던 콜린 앵글이 정서 교감형 반려 로봇 '패밀리어'를 선보였다.",
+   "source": "TLDR",
+   "url": "https://links.tldrnewsletter.com/nFeSKW",
+   "report": {
+    "tldr": "룸바를 만든 콜린 앵글이 사랑하는 이를 돌보도록 돕는 감성 로봇 '패밀리어'를 개발 중이다.",
+    "what": "iRobot을 약 30년간 이끈 콜린 앵글이 '패밀리어 머신스 앤 매직'이라는 새 스타트업을 통해 가족을 살피도록 돕는 로봇을 선보인다. '패밀리어'라 불리는 이 로봇은 사람의 행동과 감정에 정서적으로 지능적으로 반응하는 표현력 있는 털복숭이 생물 형태다. 아직 초기 프로토타입 단계라 가격이나 출시 정보는 없지만, 기사에서 현재 제품의 영상을 볼 수 있다. 패밀리어는 로컬 소형 모델로 요청을 처리하며 데이터를 클라우드로 전송하지 않는다.",
+    "points": [
+     "iRobot을 약 30년 이끈 콜린 앵글의 새 스타트업 제품이다.",
+     "사람의 행동·감정에 정서적으로 반응하는 털복숭이 로봇이다.",
+     "초기 프로토타입 단계로 가격·출시 정보는 미정이다.",
+     "로컬 소형 모델로 요청을 처리해 데이터를 클라우드로 보내지 않는다."
+    ],
+    "why": [
+     "프라이버시를 중시한 온디바이스 처리 방식이 차별점이다.",
+     "정서적 돌봄을 노린 소비자 로봇 시장의 새로운 시도다."
+    ]
+   }
+  },
+  {
+   "id": "tech-case-for-language-native-software",
+   "title": "'언어 네이티브 소프트웨어'를 향한 주장",
+   "summary": "자연어가 인터페이스가 되며 사용자의 의도를 구조화된 작업으로 변환한다.",
+   "source": "TLDR",
+   "url": "https://robenglander.com/writing/the-case-for-language-native-software/?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "자연어 자체가 소프트웨어의 인터페이스가 되는 '언어 네이티브 소프트웨어' 시대를 논한다.",
+    "what": "자연어가 인터페이스가 되고 있으며, 소프트웨어가 인간 언어로 된 지시를 이해하기 시작했다. 언어 네이티브 소프트웨어는 사용자가 이미 사용하는 언어로 의도를 받아들이고, 이를 구조화된 작업으로 변환해 결정론적으로 실행한다. 이로써 언어 자체가 인터페이스가 된다.",
+    "points": [
+     "자연어가 소프트웨어의 새로운 인터페이스로 부상하고 있다.",
+     "소프트웨어가 인간 언어 지시를 이해하기 시작했다.",
+     "사용자 의도를 구조화된 작업으로 변환해 결정론적으로 실행한다.",
+     "결과적으로 언어 자체가 인터페이스가 된다."
+    ],
+    "why": [
+     "GUI 중심 소프트웨어 패러다임의 전환 가능성을 제시한다.",
+     "LLM 시대의 새로운 소프트웨어 설계 방향을 제안한다."
+    ]
+   }
+  },
+  {
+   "id": "tech-aws-ceo-amazon-hiring-11000-interns",
+   "title": "AWS CEO가 말하는 아마존의 인턴·신입 1만1000명 채용 이유",
+   "summary": "맷 가먼 AWS CEO는 AI가 일자리를 없애기보다 바꿀 것이라고 본다.",
+   "source": "TLDR",
+   "url": "https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "맷 가먼 AWS CEO는 AI가 일자리를 대거 없앨 것이라 걱정하지 않으며 일이 바뀔 뿐이라고 말한다.",
+    "what": "아마존은 점점 더 사무직 업무를 수행하는 소프트웨어를 판매하는 사업을 키우고 있다. 그러나 맷 가먼 AWS CEO는 AI가 막대한 일자리를 파괴할 것이라 걱정하지 않는다고 말한다. 그는 일자리가 바뀔 수는 있어도 사라지지는 않을 것이라 믿는다. 이 기사는 가먼이 기술이 일을 어떻게 바꾸는지 논한 인터뷰의 주요 내용을 담고 있다.",
+    "points": [
+     "아마존은 사무직 업무를 수행하는 소프트웨어 판매를 확대하고 있다.",
+     "가먼은 AI가 일자리를 대거 없앨 것이라 걱정하지 않는다.",
+     "일자리는 사라지기보다 변화할 것이라고 본다.",
+     "기술이 일을 어떻게 바꾸는지에 대한 인터뷰 주요 내용을 다룬다."
+    ],
+    "why": [
+     "AI 시대 고용 전망에 대한 빅테크 경영진의 관점을 보여준다.",
+     "AI 자동화와 신규 인력 채용을 동시에 추진하는 전략이 주목된다."
+    ]
+   }
+  },
+  {
+   "id": "tech-anthropic-white-house-talks-amodei-replaced",
+   "title": "앤트로픽-백악관 협상, 아모데이 교체 후 정상 궤도로",
+   "summary": "다리오 아모데이 대신 공동창업자 톰 브라운이 나서며 백악관 협상이 진척됐다.",
+   "source": "TLDR",
+   "url": "https://gizmodo.com/anthropics-white-house-negotiations-are-reportedly-on-track-after-weirdo-dario-amodei-was-replaced-2000777207?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "다리오 아모데이가 협상에서 빠지고 톰 브라운이 합류하면서 앤트로픽-백악관 협상이 정상 궤도에 올랐다.",
+    "what": "다리오 아모데이는 백악관과 앤트로픽 간 협상에서 다루기 어렵고 별나다는 평을 받은 것으로 전해진다. 이제 그의 역할이 또 다른 앤트로픽 공동창업자 톰 브라운으로 대체되면서 협상이 정상 궤도에 올랐다. 브라운은 더 따뜻하고 전통적으로 친화적인 태도를 지녔다. 그는 앤트로픽 공공정책 책임자 세라 헥과 함께 협상을 진행하고 있으며, 헥은 절제되고 신중하면서도 열정적이고 일관된 메시지를 전달한다.",
+    "points": [
+     "아모데이는 협상에서 별나고 다루기 어렵다는 평을 받았다.",
+     "공동창업자 톰 브라운이 그의 역할을 대체했다.",
+     "브라운은 더 따뜻하고 친화적인 태도로 평가된다.",
+     "공공정책 책임자 세라 헥과 함께 협상을 진행한다."
+    ],
+    "why": [
+     "AI 기업과 정부 간 관계에서 인적 요인의 중요성을 드러낸다.",
+     "앤트로픽의 대정부 전략 변화를 시사한다."
+    ]
+   }
+  },
+  {
+   "id": "tech-stop-programming-in-markdown",
+   "title": "마크다운으로 프로그래밍하지 말라",
+   "summary": "일반 코드가 더 적합한 상황에서 LLM을 부적절하게 쓰는 경우가 많다.",
+   "source": "TLDR",
+   "url": "https://structural.chat/articles/programming-in-markdown/?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "일반 코드가 훨씬 나은 상황에서 사람들이 LLM을 부적절하게 사용하고 있다.",
+    "what": "사람들이 일반 코드로 처리하는 편이 훨씬 나은 상황에서 LLM을 부적절하게 사용하고 있다.",
+    "points": [
+     "일반 코드가 더 적합한 영역에 LLM을 잘못 적용하는 사례가 많다.",
+     "도구 선택의 적절성에 대한 문제 제기다."
+    ],
+    "why": [
+     "LLM 남용에 대한 실무적 경고를 제공한다."
+    ]
+   }
+  },
+  {
+   "id": "tech-qualcomm-meta-dragonfly-data-center-chips",
+   "title": "퀄컴, 드래곤플라이 데이터센터 칩 첫 고객으로 메타 확보",
+   "summary": "퀄컴의 범용 서버 프로세서 드래곤플라이 C1000은 2028년 출시 예정이다.",
+   "source": "TLDR",
+   "url": "https://thenextweb.com/news/qualcomm-dragonfly-meta-ai-data-center-chips-modular?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "퀄컴이 드래곤플라이 데이터센터 칩의 첫 공개 고객으로 메타를 확보했다.",
+    "what": "드래곤플라이 C1000은 범용 서버 프로세서로 2028년 출시될 것으로 예상된다.",
+    "points": [
+     "드래곤플라이 C1000은 범용 서버 프로세서다.",
+     "메타가 첫 명시적 고객으로 확보됐다.",
+     "2028년 출시가 예상된다."
+    ],
+    "why": [
+     "퀄컴이 데이터센터 칩 시장에 본격 진입하는 신호다."
+    ]
+   }
+  },
+  {
+   "id": "tech-amazon-seller-shadow-bribery-market",
+   "title": "아마존 셀러가 드러낸 그림자 뇌물 시장",
+   "summary": "텔레그램·위챗·왓츠앱의 중개인이 아마존 내부자 접근을 돈을 받고 알선한다.",
+   "source": "TLDR",
+   "url": "https://links.tldrnewsletter.com/THIHOY",
+   "report": {
+    "tldr": "메시징 앱의 중개인들이 돈을 받고 아마존 내부자 접근을 알선하는 그림자 뇌물 시장이 드러났다.",
+    "what": "텔레그램, 위챗, 왓츠앱 같은 메시징 앱의 중개인들이 일을 해결해 줄 수 있는 아마존 내부자에 대한 접근을 돈을 받고 제공하고 있다.",
+    "points": [
+     "메시징 앱 중개인들이 아마존 내부자 접근을 알선한다.",
+     "대가를 받고 내부 영향력을 거래하는 구조다.",
+     "텔레그램·위챗·왓츠앱 등이 통로로 쓰인다."
+    ],
+    "why": [
+     "대형 플랫폼 내부의 부패와 거버넌스 취약성을 드러낸다."
+    ]
+   }
+  },
+  {
+   "id": "tech-writing-loops-not-prompts",
+   "title": "프롬프트가 아닌 루프를 작성하라",
+   "summary": "반복되는 프롬프트 부분은 자동화하고 중요한 판단은 사람 가까이에 둬라.",
+   "source": "TLDR",
+   "url": "https://rico.codes/loops-not-prompts?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "반복적인 프롬프트는 자동화하고 핵심 판단은 사람이 가까이에서 통제하라는 조언이다.",
+    "what": "계속 반복하는 프롬프트 작업의 일부는 자동화하고, 중요한 부분의 판단은 사람 가까이에 두라는 내용이다.",
+    "points": [
+     "반복되는 프롬프트 작업은 자동화 대상이다.",
+     "중요한 판단은 사람이 가까이에서 유지해야 한다.",
+     "루프 기반 접근으로 효율과 통제를 균형 있게 가져간다."
+    ],
+    "why": [
+     "LLM 워크플로 설계의 실용적 원칙을 제시한다."
+    ]
+   }
+  },
+  {
+   "id": "tech-build-agents-that-open-prs",
+   "title": "챗봇 그만 만들고 PR을 여는 에이전트를 만들어라",
+   "summary": "PR은 사람이 검토하거나 거부할 수 있는 산출물이다.",
+   "source": "TLDR",
+   "url": "https://zackproser.com/blog/build-agents-that-open-prs?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "챗봇 대신 PR을 여는 에이전트를 만들라는 주장이다.",
+    "what": "PR은 사람이 검토하거나 거부할 수 있는 산출물이다.",
+    "points": [
+     "PR은 사람이 검토·거부할 수 있는 명확한 산출물이다.",
+     "에이전트의 결과물을 검증 가능한 형태로 만드는 것이 중요하다."
+    ],
+    "why": [
+     "AI 에이전트를 기존 개발 워크플로에 안전하게 통합하는 방향을 제시한다."
+    ]
+   }
+  },
+  {
+   "id": "tech-70x-faster-sql-parser-claude-code",
+   "title": "코드를 거의 보지 않고 70배 빠른 SQL 파서를 작성했다",
+   "summary": "여러 클로드 코드 세션을 병렬로 돌려 PostHog SQL 파서를 재작성한 교훈.",
+   "source": "TLDR",
+   "url": "https://posthog.com/blog/sql-parser?utm_source=tldrnewsletter",
+   "report": {
+    "tldr": "여러 클로드 코드 세션을 병렬로 활용해 PostHog의 SQL 파서를 70배 빠르게 재작성한 경험을 공유한다.",
+    "what": "여러 클로드 코드 세션을 병렬로 실행해 PostHog의 SQL 파서를 재작성하면서 얻은 교훈을 다룬다.",
+    "points": [
+     "PostHog SQL 파서를 70배 빠르게 재작성했다.",
+     "여러 클로드 코드 세션을 병렬로 실행했다.",
+     "코드를 거의 직접 보지 않고도 작업을 진행했다."
+    ],
+    "why": [
+     "AI 에이전트 병렬 활용의 실전 생산성 사례를 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "tech-llm-code-style-token-costs",
+   "title": "LLM 코드 스타일과 토큰 비용에 관한 발견",
+   "summary": "LLM은 명시적 지시가 없으면 코드를 새로 작성해 토큰 비용을 부풀린다.",
+   "source": "TLDR",
+   "url": "https://www.jimmont.com/llm-style-token-costs",
+   "report": {
+    "tldr": "LLM에게 기존 코드와 라이브러리 재사용을 명시하면 토큰 비용을 의미 있게 줄일 수 있다.",
+    "what": "LLM은 기존 코드와 라이브러리를 재사용하라고 명시적으로 지시하지 않으면 코드를 처음부터 작성하는 경향이 있어 토큰 사용량과 비용을 부풀린다. 코드 스타일과 재사용에 대해 명확히 지시하면 토큰 비용을 의미 있게 줄일 수 있다.",
+    "points": [
+     "LLM은 지시가 없으면 코드를 처음부터 작성하는 경향이 있다.",
+     "이로 인해 토큰 사용량과 비용이 증가한다.",
+     "재사용을 명시하면 토큰 비용이 의미 있게 줄어든다.",
+     "코드 스타일을 명확히 지정하는 것이 효과적이다."
+    ],
+    "why": [
+     "LLM 활용 시 비용 최적화의 실용적 방법을 제시한다."
+    ]
+   }
+  }
+ ]
 }

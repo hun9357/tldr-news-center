@@ -1,0 +1,304 @@
+{
+ "name": "데이터",
+ "source": "TLDR Data",
+ "icon": "📊",
+ "color": "#f0a868",
+ "bg": "#332414",
+ "items": [
+  {
+   "id": "data-netflix-kueue-batch-compute",
+   "title": "넷플릭스, Kueue로 배치 컴퓨팅을 단순화하다",
+   "summary": "넷플릭스가 기존 배치 시스템을 쿠버네티스 네이티브 큐잉 시스템 Kueue로 교체했다.",
+   "source": "TLDR Data",
+   "url": "https://netflixtechblog.com/how-netflix-simplified-batch-compute-with-kueue-87860682629c",
+   "report": {
+    "tldr": "넷플릭스가 자체 배치 시스템을 Kueue로 교체하면서 API 호환성을 그대로 유지했다.",
+    "what": "넷플릭스는 자체 Compute Managed Batch 시스템을 쿠버네티스 네이티브 작업 큐잉 및 스케줄링 시스템인 Kueue로 교체했다. 기존 테넌트 계층 구조를 Kueue Cohorts와 ClusterQueues/LocalQueues로 변환하면서 완전한 API 호환성을 유지했다. 또한 선점 기반의 공정 공유(fair sharing)를 추가했다.",
+    "points": [
+     "기존 Compute Managed Batch 시스템을 Kueue로 대체",
+     "완전한 API 호환성을 유지하여 기존 사용자 영향 최소화",
+     "테넌트 계층 구조를 Kueue Cohorts + ClusterQueues/LocalQueues로 변환",
+     "선점(preemption) 기반의 공정 공유 메커니즘 추가"
+    ],
+    "why": [
+     "쿠버네티스 네이티브 표준 도구로 전환해 자체 시스템 유지보수 부담을 줄일 수 있다.",
+     "API 호환성 유지는 대규모 마이그레이션의 위험을 크게 낮추는 핵심 전략이다."
+    ]
+   }
+  },
+  {
+   "id": "data-long-running-coding-agents",
+   "title": "장시간 실행 코딩 에이전트를 다루는 한 엔지니어의 여정",
+   "summary": "장시간 코딩 에이전트는 구조화된 컨텍스트와 영속적 산출물에 기반할 때 더 잘 작동한다.",
+   "source": "TLDR Data",
+   "url": "https://careersatdoordash.com/blog/engineers-journey-long-running-ai-agents/",
+   "report": {
+    "tldr": "장시간 실행 코딩 에이전트는 구조화된 컨텍스트와 영속적 산출물에 의해 안정화된다.",
+    "what": "장시간 실행 코딩 에이전트는 저장소 리서치, 지식 베이스, 계획, 진행 파일, 검증 보고서 같은 구조화된 컨텍스트와 영속적 산출물에 기반할 때 더 잘 작동한다. Agentic Orchestrator는 핸드오프를 상태 머신 워크플로로 전환해 에이전트가 일관성을 잃지 않고 더 큰 작업을 처리하도록 한다.",
+    "points": [
+     "저장소 리서치, 지식 베이스, 계획, 진행 파일, 검증 보고서 등 구조화된 컨텍스트 활용",
+     "영속적 산출물(persistent artifacts)이 에이전트의 작업 기반이 됨",
+     "Agentic Orchestrator가 핸드오프를 상태 머신 워크플로로 전환",
+     "에이전트가 일관성을 유지하며 더 큰 작업을 수행 가능"
+    ],
+    "why": [
+     "구조화된 컨텍스트는 에이전트가 장시간 작업에서 맥락을 잃지 않게 하는 핵심이다.",
+     "상태 머신 기반 핸드오프는 복잡한 작업의 안정성과 확장성을 높인다."
+    ]
+   }
+  },
+  {
+   "id": "data-zepto-real-time-personalisation",
+   "title": "Zepto의 대규모 실시간 개인화 시스템",
+   "summary": "Zepto가 장기 이력과 세션 내 행동을 결합한 Dual Sequence ReRanker를 구축했다.",
+   "source": "TLDR Data",
+   "url": "https://blog.zepto.com/real-time-personalisation-at-scale-how-zepto-understands-what-you-want-right-now-d743b13367c8",
+   "report": {
+    "tldr": "Zepto가 장기 이력과 현재 세션 행동을 결합한 Dual Sequence ReRanker로 실시간 개인화를 구현했다.",
+    "what": "Zepto는 사용자의 장기 이력과 현재 세션 내 행동을 결합하는 Dual Sequence ReRanker를 구축했다. 별도의 트랜스포머 인코더, 후보 아이템마다 사용자 프로필을 재구성하는 타깃 인지 풀링(target-aware pooling), 학습된 융합 게이트(fusion gate), 그리고 실시간 신호를 활용한다.",
+    "points": [
+     "장기 이력과 세션 내 행동을 결합하는 Dual Sequence ReRanker",
+     "두 시퀀스를 위한 별도의 트랜스포머 인코더 사용",
+     "후보 아이템마다 사용자 프로필을 재구성하는 타깃 인지 풀링",
+     "학습된 융합 게이트와 실시간 신호 결합"
+    ],
+    "why": [
+     "장기 선호와 즉각적 의도를 함께 반영해 추천 정확도를 높인다.",
+     "후보별 프로필 재구성은 더 정밀한 개인화를 가능하게 한다."
+    ]
+   }
+  },
+  {
+   "id": "data-zalando-client-side-load-balancing",
+   "title": "초당 100만 요청을 처리하는 클라이언트 측 로드 밸런싱",
+   "summary": "Zalando가 초당 100만 요청 이상을 처리하는 인프로세스 클라이언트 측 로드 밸런서를 구축했다.",
+   "source": "TLDR Data",
+   "url": "https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html",
+   "report": {
+    "tldr": "Zalando가 초당 100만 요청 이상의 내부 팬아웃 트래픽을 처리하는 클라이언트 측 로드 밸런서를 만들었다.",
+    "what": "Zalando는 Product Read API를 위해 초당 100만 요청(1M req/s) 이상의 내부 팬아웃 트래픽을 처리하는 인프로세스 클라이언트 측 로드 밸런서를 구축했다. 일관된 해싱, 쿠버네티스 watch 기반 디스커버리, 부드러운 스케일업을 위한 N-ring 페이드인, 그리고 AZ 인지 라우팅을 적용했다.",
+    "points": [
+     "Product Read API용 인프로세스 클라이언트 측 로드 밸런서",
+     "초당 100만 요청(1M req/s) 이상의 내부 팬아웃 트래픽 처리",
+     "일관된 해싱(consistent hashing)과 쿠버네티스 watch 기반 디스커버리",
+     "부드러운 스케일업을 위한 N-ring 페이드인과 AZ 인지 라우팅"
+    ],
+    "why": [
+     "초대규모 내부 트래픽에서는 클라이언트 측 분산이 지연과 부하를 효과적으로 줄인다.",
+     "AZ 인지 라우팅과 페이드인은 안정성과 비용 효율을 동시에 개선한다."
+    ]
+   }
+  },
+  {
+   "id": "data-broken-windows-of-data",
+   "title": "데이터의 깨진 유리창 이론",
+   "summary": "데이터 웨어하우스 품질은 최종 리뷰가 아니라 개발 전 과정에 내재시켜야 한다.",
+   "source": "TLDR Data",
+   "url": "https://links.tldrnewsletter.com/KMPBhY",
+   "report": {
+    "tldr": "데이터 품질은 개발 생애주기 전반에 내재시켜야 하며, 작은 불일치를 조기에 차단해야 한다.",
+    "what": "데이터 웨어하우스 품질은 최종 검토 단계에 맡길 것이 아니라 전체 개발 생애주기에 내재시켜야 한다. 팀은 모델링 리뷰, 로컬 검증, CI/CD, AI 지원 리뷰, 모니터링을 통해 검사를 더 앞단으로 이동시킴으로써 작은 불일치가 확산되는 것을 막는다.",
+    "points": [
+     "데이터 품질을 개발 생애주기 전반에 내재화",
+     "검사를 앞단으로 이동(shift-left)해 작은 불일치 확산 방지",
+     "모델링 리뷰와 로컬 검증 활용",
+     "CI/CD, AI 지원 리뷰, 모니터링 결합"
+    ],
+    "why": [
+     "작은 데이터 결함도 방치하면 빠르게 확산되어 신뢰를 무너뜨린다.",
+     "조기 검증은 후반 단계의 비용과 위험을 크게 줄인다."
+    ]
+   }
+  },
+  {
+   "id": "data-excellent-data-teams-still-fail",
+   "title": "기술적으로 뛰어난 데이터 팀이 여전히 실패하는 이유",
+   "summary": "강한 실행력만으로는 부족하며, 명확한 관점과 행동으로 의사결정을 이끌어야 가치가 생긴다.",
+   "source": "TLDR Data",
+   "url": "https://practicaldatacommunity.substack.com/p/why-technically-excellent-data-teams",
+   "report": {
+    "tldr": "기술력만으로는 부족하며, 관점과 행동으로 의사결정을 이끌어야 데이터 팀이 가치를 낸다.",
+    "what": "많은 기술적으로 뛰어난 데이터 팀이 여전히 무의미해지는 이유는 강한 실행력만으로는 더 이상 충분하지 않기 때문이다. 가치는 명확한 관점(의견이 담긴 분석)과 행동(비즈니스 성과에 대한 영향력)을 통해 의사결정을 이끌어낼 때 생긴다.",
+    "points": [
+     "강한 실행력만으로는 더 이상 충분하지 않음",
+     "명확한 관점, 즉 의견이 담긴 분석이 필요",
+     "비즈니스 성과에 영향을 주는 행동이 중요",
+     "데이터 팀의 가치는 의사결정을 이끌어내는 데서 나옴"
+    ],
+    "why": [
+     "기술 역량이 상향 평준화된 시대에는 차별화 요소가 영향력으로 이동한다.",
+     "의사결정에 기여하지 못하는 데이터 팀은 조직에서 무의미해질 위험이 있다."
+    ]
+   }
+  },
+  {
+   "id": "data-storage-workload-architecture-taxonomy",
+   "title": "스토리지/워크로드 아키텍처 분류 체계에 합의할 수 있을까",
+   "summary": "데이터 스토리지 아키텍처를 시스템 수, 워크로드, 데이터 가시성, 복제본 수로 분류하는 체계 제안.",
+   "source": "TLDR Data",
+   "url": "https://jack-vanlightly.com/blog/2026/6/21/can-we-agree-on-a-storage/workload-architecture-taxonomy",
+   "report": {
+    "tldr": "데이터 스토리지 아키텍처를 네 가지 기준으로 다섯 가지 모델로 분류하는 체계를 제안한다.",
+    "what": "데이터 스토리지 아키텍처(OLTP, OLAP, HTAP, LTAP)는 시스템 수, 워크로드, 데이터 가시성, 내구성 있는 복제본 수에 따라 분류할 수 있다. 이를 Single Tier, Internal Tiering, Hybrid, Materializing, Shared Tiering 모델로 구분하며, Databricks LTAP과 Apache Fluss가 그 예시다.",
+    "points": [
+     "OLTP, OLAP, HTAP, LTAP 아키텍처를 대상으로 함",
+     "시스템 수, 워크로드, 데이터 가시성, 내구성 복제본 수를 분류 기준으로 사용",
+     "Single Tier, Internal Tiering, Hybrid, Materializing, Shared Tiering 다섯 모델 제시",
+     "Databricks LTAP과 Apache Fluss를 Shared Tiering 예시로 제시"
+    ],
+    "why": [
+     "공통 분류 체계는 아키텍처 비교와 의사소통을 명확하게 만든다.",
+     "다양한 신규 시스템을 일관된 틀로 이해하는 데 도움이 된다."
+    ]
+   }
+  },
+  {
+   "id": "data-sql-concepts-lab",
+   "title": "SQL Concepts Lab (도구)",
+   "summary": "DuckDB-WASM 기반의 브라우저 내 인터랙티브 SQL 학습 튜토리얼.",
+   "source": "TLDR Data",
+   "url": "https://oluies.github.io/sql-concepts-lab/",
+   "report": {
+    "tldr": "DuckDB-WASM으로 만든, 설치 없이 브라우저에서 SQL 핵심 개념을 학습하는 인터랙티브 튜토리얼이다.",
+    "what": "SQL Concepts Lab은 DuckDB-WASM으로 구축된 인터랙티브 브라우저 기반 튜토리얼이다. 별도 설치 없이 브라우저에서 직접 핵심 SQL 개념을 학습하고 실험할 수 있게 해주며, 실습 연습과 즉각적인 피드백을 제공한다.",
+    "points": [
+     "DuckDB-WASM 기반의 브라우저 내 SQL 학습 도구",
+     "설치 없이 브라우저에서 바로 실행",
+     "핵심 SQL 개념을 직접 실험 가능",
+     "실습 연습과 즉각적인 피드백 제공"
+    ],
+    "why": [
+     "설치 부담이 없어 SQL 초보자가 쉽게 학습을 시작할 수 있다.",
+     "즉각적 피드백은 개념 학습의 효율을 높인다."
+    ]
+   }
+  },
+  {
+   "id": "data-dbtrail-mysql-pitr",
+   "title": "dbtrail (GitHub 저장소)",
+   "summary": "binlog 스트리밍과 행 변경 인덱싱으로 MySQL 시점 복구(PITR)를 제공하는 도구.",
+   "source": "TLDR Data",
+   "url": "https://github.com/dbtrail/dbtrail",
+   "report": {
+    "tldr": "dbtrail은 binlog 스트리밍과 행 변경 인덱싱으로 MySQL 시점 복구를 제공한다.",
+    "what": "dbtrail은 binlog를 스트리밍하고 변경 전후(before-and-after) 이미지로 행 변경을 인덱싱하여 MySQL 시점 복구(point-in-time recovery)를 제공한다. 팀은 변경 사항을 검사하고, 되돌리기 SQL을 생성하며, 히스토리를 탐색하거나 타임 트래블 쿼리를 실행할 수 있고, AI 복구를 위한 MCP를 지원한다.",
+    "points": [
+     "binlog 스트리밍으로 MySQL 시점 복구(PITR) 제공",
+     "변경 전후 이미지로 행 변경을 인덱싱",
+     "변경 검사, 되돌리기 SQL 생성, 히스토리 탐색, 타임 트래블 쿼리 지원",
+     "AI 복구를 위한 MCP 지원"
+    ],
+    "why": [
+     "행 단위 변경 추적은 정밀한 데이터 복구와 감사에 유용하다.",
+     "MCP 지원으로 AI 기반 복구 워크플로에 통합할 수 있다."
+    ]
+   }
+  },
+  {
+   "id": "data-sqlbuild-dbt-change-aware",
+   "title": "SQLBuild (GitHub 저장소)",
+   "summary": "모델 핑거프린팅과 프로덕션 테이블 재사용으로 dbt에 변경 인지 실행을 더하는 도구.",
+   "source": "TLDR Data",
+   "url": "https://github.com/chio-labs/sqlbuild",
+   "report": {
+    "tldr": "SQLBuild는 모델 핑거프린팅으로 dbt에 변경 인지(change-aware) 실행을 추가한다.",
+    "what": "SQLBuild는 모델을 핑거프린팅하고 프로덕션 테이블을 재사용함으로써 dbt에 변경 인지 실행을 추가한다. 웨어하우스 상태를 저장하며 감사, 증분 작업, Python 노드, 리니지, 컨트랙트, 어댑터, DuckDB CI 지원을 제공한다.",
+    "points": [
+     "모델 핑거프린팅과 프로덕션 테이블 재사용으로 변경 인지 실행 구현",
+     "웨어하우스 상태를 저장",
+     "감사, 증분 작업, Python 노드 지원",
+     "리니지, 컨트랙트, 어댑터, DuckDB CI 지원"
+    ],
+    "why": [
+     "변경된 모델만 실행하면 빌드 시간과 비용을 절감할 수 있다.",
+     "리니지와 컨트랙트 지원은 데이터 파이프라인의 신뢰성을 높인다."
+    ]
+   }
+  },
+  {
+   "id": "data-clustering-text-llm-embeddings-hdbscan",
+   "title": "LLM 임베딩과 HDBSCAN으로 비정형 텍스트 군집화하기",
+   "summary": "임베딩, UMAP 차원 축소, HDBSCAN 밀도 기반 군집화를 결합해 비정형 텍스트의 토픽을 발견한다.",
+   "source": "TLDR Data",
+   "url": "https://machinelearningmastery.com/clustering-unstructured-text-with-llm-embeddings-and-hdbscan/",
+   "report": {
+    "tldr": "임베딩, UMAP, HDBSCAN을 결합한 파이프라인으로 라벨 없는 텍스트에서 토픽을 발견한다.",
+    "what": "sentence-transformers 임베딩, 차원 축소를 위한 UMAP, 밀도 기반 군집화를 위한 HDBSCAN을 결합한 파이프라인이 라벨이 없는 텍스트에서 토픽을 발견한다. 의미적 의미를 포착하고, 군집 개수를 자동으로 결정하며, 노이즈를 우아하게 처리한다.",
+    "points": [
+     "sentence-transformers 임베딩으로 의미 포착",
+     "UMAP으로 차원 축소 수행",
+     "HDBSCAN으로 밀도 기반 군집화 수행",
+     "군집 개수 자동 결정 및 노이즈 처리"
+    ],
+    "why": [
+     "라벨 없는 데이터에서도 자동으로 토픽을 추출할 수 있어 활용도가 높다.",
+     "군집 개수를 사전에 지정할 필요가 없어 탐색적 분석에 적합하다."
+    ]
+   }
+  },
+  {
+   "id": "data-ly-corp-analytics-ai-agents",
+   "title": "GenAI 시대, 분석과 AI 에이전트의 결합",
+   "summary": "LY Corp가 생성형 AI 에이전트로 분석 리드 타임을 2주에서 10분으로 단축했다.",
+   "source": "TLDR Data",
+   "url": "https://techblog.lycorp.co.jp/en/techverse2026-105",
+   "report": {
+    "tldr": "LY Corp의 PJ One Piece가 생성형 AI 에이전트로 분석 리드 타임을 2주에서 10분으로 줄였다.",
+    "what": "LY Corp의 PJ One Piece는 생성형 AI 에이전트로 분석 리드 타임을 2주에서 10분으로 단축했다. 단계적 메타데이터, SQL 가드레일, 와이드 분석 테이블, 슈퍼바이저 에이전트를 활용하며, 데이터 과학자들이 탐색과 재사용 가능한 Skills에 집중할 수 있도록 했다.",
+    "points": [
+     "분석 리드 타임을 2주에서 10분으로 단축",
+     "단계적 메타데이터와 SQL 가드레일 활용",
+     "와이드 분석 테이블과 슈퍼바이저 에이전트 구성",
+     "데이터 과학자가 탐색과 재사용 가능한 Skills에 집중하도록 지원"
+    ],
+    "why": [
+     "리드 타임의 급격한 단축은 의사결정 속도를 비약적으로 끌어올린다.",
+     "반복 작업의 자동화로 데이터 인력이 고부가가치 업무에 집중할 수 있다."
+    ]
+   }
+  },
+  {
+   "id": "data-postgres-time-zones-british-columbia",
+   "title": "브리티시컬럼비아, 타임존, 그리고 Postgres",
+   "summary": "미래 일정은 UTC만이 아니라 사용자의 의도된 현지 시각과 타임존을 함께 저장해야 한다.",
+   "source": "TLDR Data",
+   "url": "https://www.crunchydata.com/blog/british-columbia-and-time-zone-changes",
+   "report": {
+    "tldr": "미래 일정은 UTC만이 아니라 사용자의 의도된 현지 시각과 타임존을 함께 저장해야 한다.",
+    "what": "미래의 캘린더 일정은 UTC만이 아니라 사용자가 의도한 현지 시각과 타임존을 저장해야 한다. 타임존 규칙이 바뀌면 UTC 기반의 timestamptz 약속이 나중에 한 시간 어긋나 보일 수 있기 때문이다.",
+    "points": [
+     "미래 일정은 의도된 현지 시각과 타임존을 함께 저장해야 함",
+     "UTC만 저장하면 타임존 규칙 변경 시 문제가 발생",
+     "timestamptz 약속이 나중에 한 시간 어긋나 보일 수 있음",
+     "브리티시컬럼비아의 타임존 변경 사례로 설명"
+    ],
+    "why": [
+     "타임존 규칙은 정치적 결정으로 변경될 수 있어 UTC 고정은 위험하다.",
+     "미래 일정의 정확성은 현지 시각 의도를 보존해야 보장된다."
+    ]
+   }
+  },
+  {
+   "id": "data-running-ai-agents-safely-kubernetes",
+   "title": "쿠버네티스 내에서 AI 에이전트를 안전하게 실행하기",
+   "summary": "NetworkPolicy, gVisor/Kata 런타임, 최소 권한 RBAC로 프롬프트 기반 워크로드를 격리하는 보안 체크리스트.",
+   "source": "TLDR Data",
+   "url": "https://kodekloud.com/blog/running-ai-agents-safely-inside-kubernetes/",
+   "report": {
+    "tldr": "프롬프트 기반 워크로드를 쿠버네티스에서 안전하게 격리하는 실전 보안 체크리스트다.",
+    "what": "프롬프트 기반 워크로드를 격리하기 위한 실전 보안 체크리스트다. NetworkPolicy, gVisor/Kata 런타임, 최소 권한 RBAC를 활용해 AI 에이전트를 쿠버네티스 안에서 안전하게 실행하는 방법을 다룬다.",
+    "points": [
+     "NetworkPolicy로 네트워크 수준의 격리 적용",
+     "gVisor/Kata 런타임으로 워크로드 샌드박싱",
+     "최소 권한 RBAC로 권한 범위 최소화",
+     "프롬프트 기반 워크로드를 위한 실전 보안 체크리스트 제공"
+    ],
+    "why": [
+     "AI 에이전트는 예측 불가능한 동작을 할 수 있어 강한 격리가 필요하다.",
+     "최소 권한 원칙은 침해 시 피해 범위를 제한하는 핵심 방어선이다."
+    ],
+    "action": "쿠버네티스에서 AI 에이전트를 운영한다면 NetworkPolicy, gVisor/Kata 샌드박스 런타임, 최소 권한 RBAC를 적용해 워크로드를 격리하라."
+   }
+  }
+ ]
+}

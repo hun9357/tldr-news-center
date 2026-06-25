@@ -1,107 +1,330 @@
 {
-  "name": "개발",
-  "source": "TLDR Dev",
-  "icon": "👨‍💻",
-  "color": "#5ec6ff",
-  "bg": "#14283a",
-  "items": [
-    {
-      "id": "dev-posthog-sql-parser",
-      "title": "코드는 거의 안 보고 만든 70배 빠른 SQL 파서",
-      "summary": "포스트호그가 속성 기반 테스트와 프롬프트 엔지니어링으로 기존 C++ ANTLR 구현보다 크게 빠른 AI 기반 SQL 파서를 만들었다.",
-      "source": "PostHog",
-      "url": "https://posthog.com/blog/sql-parser",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "AI + 속성 기반 테스트로 성능과 생산성을 동시에 잡았다.",
-        "what": "포스트호그가 프로퍼티 기반 테스트와 프롬프트 설계를 활용해 C++ ANTLR 대비 70배 빠른 SQL 파서를 구현했다.",
-        "points": ["속성 기반 테스트로 정합성 검증", "ANTLR 대비 70배 성능"],
-        "why": ["검증 가능한 AI 코드 생성 방법론", "핵심 인프라의 AI 재작성 사례"]
-      }
-    },
-    {
-      "id": "dev-stubzero-gcp-rce",
-      "title": "스텁제로: 구글 클라우드 프로덕션 RCE에 14만 8천 달러 포상",
-      "summary": "디버깅 엔드포인트의 정보 노출이 완전한 원격 코드 실행 취약점으로 에스컬레이션됐다.",
-      "source": "BruteCat",
-      "url": "https://brutecat.com/articles/google-cloud-rce/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "남겨진 디버그 엔드포인트가 클라우드 RCE로 번졌다.",
-        "what": "구글 클라우드 프로덕션의 디버깅 엔드포인트 정보 노출이 완전한 RCE로 확대돼 14만 8,337달러 포상을 받았다.",
-        "points": ["디버그 엔드포인트 정보 노출", "RCE로 에스컬레이션"],
-        "why": ["프로덕션 디버그 인터페이스의 위험", "클라우드 공급자도 예외 아님"]
-      }
-    },
-    {
-      "id": "dev-prompt-injection-mech",
-      "title": "프롬프트 인젝션의 메커니즘적 설명",
-      "summary": "모델이 역할 지정을 구분하지 못하고 권한 태그보다 텍스트 스타일을 우선하기 때문에 인젝션 공격이 성립한다.",
-      "source": "LessWrong",
-      "url": "https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-mechanistic-explanation-of-prompt-injection-and-why-you",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "프롬프트 인젝션은 모델의 역할 인식 결함에서 비롯된다.",
-        "what": "LLM이 역할 지정(시스템·사용자)을 명확히 구분하지 못하고 권한 태그 대신 텍스트 스타일을 우선해 인젝션이 발생한다는 메커니즘 분석.",
-        "points": ["역할 태그보다 스타일 우선", "권한 경계 인식 취약"],
-        "why": ["에이전트 보안의 근본 원인 규명", "방어 설계의 출발점"]
-      }
-    },
-    {
-      "id": "dev-linear-stylex",
-      "title": "리니어, styled-components에서 StyleX로 이전",
-      "summary": "런타임 오버헤드를 줄이고 최신 리액트 기능을 지원하기 위해 리니어가 스타일링을 StyleX로 마이그레이션했다.",
-      "source": "skovhus.dev",
-      "url": "https://www.skovhus.dev/blog/moving-linear-from-styled-components-to-stylex",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "런타임 CSS-in-JS에서 컴파일 타임 StyleX로의 이동.",
-        "what": "리니어가 성능과 최신 리액트 지원을 위해 styled-components에서 StyleX로 스타일링을 옮겼다.",
-        "points": ["런타임 오버헤드 감소", "최신 리액트 호환성"],
-        "why": ["CSS-in-JS 성능 트레이드오프 재평가", "대규모 앱 스타일링 전략 참고"]
-      }
-    },
-    {
-      "id": "dev-http-query",
-      "title": "HTTP QUERY 메서드 RFC 등장",
-      "summary": "서버 리소스를 변경하지 않고 안전·무상태로 데이터 처리 요청을 보낼 수 있는 새 HTTP 메서드가 제안됐다.",
-      "source": "IETF",
-      "url": "https://datatracker.ietf.org/doc/rfc10008/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "본문 있는 안전한 조회를 위한 표준 메서드가 생겼다.",
-        "what": "리소스를 변경하지 않으면서 무상태로 데이터 처리 요청을 보내는 HTTP QUERY 메서드가 RFC로 제안됐다.",
-        "points": ["안전·무상태 데이터 조회", "본문 기반 쿼리 표준화"],
-        "why": ["GET URL 길이·캐싱 한계 보완", "API 설계 관행 변화"]
-      }
-    },
-    {
-      "id": "dev-naming-guide",
-      "title": "(대체로 옳은) 작명에 관한 의견 있는 가이드",
-      "summary": "좋은 작명 규칙은 팀 소통을 돕고 디버깅 복잡성을 줄이며 사람과 AI 코드 분석 모두의 이해를 높인다.",
-      "source": "adamtornhill.substack.com",
-      "url": "https://adamtornhill.substack.com/p/an-opinionated-and-mainly-correct",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "작명은 사람뿐 아니라 AI 가독성에도 직결된다.",
-        "what": "양질의 작명 규칙이 팀 커뮤니케이션과 디버깅, 그리고 사람·AI의 코드 이해를 모두 개선한다는 가이드.",
-        "points": ["일관된 작명의 효용", "AI 코드 분석에도 영향"],
-        "why": ["AI 협업 시대의 가독성 가치", "유지보수 비용 절감"]
-      }
-    },
-    {
-      "id": "dev-questdb-benchmarks",
-      "title": "거짓말, 새빨간 거짓말, 그리고 DB 벤치마크",
-      "summary": "프로세스 지속·반복 횟수 같은 방법론 차이만으로 성능 순위가 뒤바뀔 수 있음을 QuestDB가 실증했다.",
-      "source": "QuestDB",
-      "url": "https://questdb.com/blog/lies-damn-lies-and-database-benchmarks/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "벤치마크는 방법론에 따라 결론이 달라진다.",
-        "what": "QuestDB가 프로세스 지속성과 반복 횟수 등 측정 방법이 데이터베이스 성능 순위를 좌우함을 보였다.",
-        "points": ["측정 방법이 순위 결정", "재현 가능한 조건 중요"],
-        "why": ["벤치마크 마케팅에 대한 경계", "기술 선택 시 검증 필요"]
-      }
-    }
-  ]
+ "name": "개발",
+ "source": "TLDR Dev",
+ "icon": "👨‍💻",
+ "color": "#5ec6ff",
+ "bg": "#14283a",
+ "items": [
+  {
+   "id": "dev-70x-faster-sql-parser-ai",
+   "title": "코드를 거의 보지 않고 AI로 70배 빠른 SQL 파서를 작성하다",
+   "summary": "PostHog가 AI를 활용해 기존 C++ ANTLR 파서보다 70배 빠른 SQL 파서를 개발했다.",
+   "source": "TLDR Dev",
+   "url": "https://posthog.com/blog/sql-parser?utm_source=tldrdev",
+   "report": {
+    "tldr": "AI로 작성한 새 SQL 파서가 기존 C++ ANTLR 파서 대비 70배 빠른 속도를 달성했다.",
+    "what": "PostHog용 새 SQL 파서가 AI를 활용해 개발되었으며, 기존 C++ 기반 ANTLR 파서에 비해 큰 속도 향상을 보였다. 개발 과정에서는 테스트 케이스를 생성하고 검증하기 위한 속성 기반 테스트(property-based testing)와, AI가 파서를 구현하도록 유도하는 프롬프트 엔지니어링이 함께 사용되었다. 결과물은 기존 쿼리 구조와의 호환성을 유지하면서 SQL 쿼리를 처리하도록 설계된 재귀 하강(recursive-descent) 구조의 파서다.",
+    "points": [
+     "기존 C++ 기반 ANTLR 파서 대비 70배 속도 향상을 달성했다.",
+     "테스트 케이스 생성과 검증에 속성 기반 테스트(property-based testing)를 활용했다.",
+     "프롬프트 엔지니어링으로 AI의 파서 구현을 유도했다.",
+     "결과물은 재귀 하강(recursive-descent) 구조의 파서다.",
+     "기존 쿼리 구조와의 호환성을 유지하도록 설계되었다."
+    ],
+    "why": [
+     "AI를 활용한 코드 작성이 대규모 성능 개선으로 이어질 수 있음을 보여준다.",
+     "속성 기반 테스트와 프롬프트 엔지니어링의 결합이 실무적 개발 방법론으로 제시된다."
+    ]
+   }
+  },
+  {
+   "id": "dev-linear-styled-components-to-stylex",
+   "title": "Linear, styled-components에서 StyleX로 전환하다",
+   "summary": "Linear가 성능 개선을 위해 React 앱을 styled-components에서 StyleX로 이전하고 있다.",
+   "source": "TLDR Dev",
+   "url": "https://www.skovhus.dev/blog/moving-linear-from-styled-components-to-stylex?utm_source=tldrdev",
+   "report": {
+    "tldr": "Linear가 성능 개선을 위해 React 앱의 스타일링을 styled-components에서 StyleX로 전환하고 있다.",
+    "what": "Linear는 주로 성능을 개선하기 위해 React 앱을 styled-components에서 StyleX로 전환하고 있다. styled-components가 유지보수 모드에 진입했고 최신 React 기능을 제대로 지원하지 못하기 때문이다. 이번 마이그레이션은 런타임 스타일 생성을 최소화하고, 더 엄격한 스타일링 계약을 강제하며, 예측 가능한 스타일 병합을 보장하는 데 초점을 맞춘다.",
+    "points": [
+     "전환의 주된 목적은 성능 개선이다.",
+     "styled-components가 유지보수 모드에 진입했고 최신 React 기능을 제대로 지원하지 못한다.",
+     "런타임 스타일 생성을 최소화한다.",
+     "더 엄격한 스타일링 계약을 강제한다.",
+     "예측 가능한 스타일 병합을 보장한다."
+    ],
+    "why": [
+     "대규모 React 앱의 스타일링 라이브러리 선택이 성능에 직접적인 영향을 줌을 보여준다.",
+     "유지보수 모드에 들어간 라이브러리의 마이그레이션 사례로 참고할 수 있다."
+    ]
+   }
+  },
+  {
+   "id": "dev-lies-damn-lies-database-benchmarks",
+   "title": "거짓말, 새빨간 거짓말, 그리고 데이터베이스 벤치마크",
+   "summary": "QuestDB가 데이터베이스 벤치마크가 오해를 부를 수 있는 이유와 그 영향을 설명한다.",
+   "source": "TLDR Dev",
+   "url": "https://questdb.com/blog/lies-damn-lies-and-database-benchmarks/?utm_source=tldrdev",
+   "report": {
+    "tldr": "데이터베이스 벤치마크는 측정 방식에 따라 결과가 달라질 수 있어 오해를 부르기 쉽다.",
+    "what": "QuestDB는 초저지연과 높은 처리량을 갖춘, 고성능 애플리케이션을 위한 오픈소스 시계열 데이터베이스다. 데이터베이스 벤치마크는 프로세스 지속성과 쿼리 실행 방식 같은 요인 때문에 오해를 부르는 결과를 낳는 경우가 많다. 쿼리 실행 중 프로세스를 활성 상태로 유지하거나 반복 횟수를 늘리는 등 벤치마크 방법을 조정하면 성능 순위가 바뀔 수 있다.",
+    "points": [
+     "QuestDB는 초저지연과 높은 처리량을 갖춘 오픈소스 시계열 데이터베이스다.",
+     "프로세스 지속성과 쿼리 실행 방식이 벤치마크 결과를 왜곡할 수 있다.",
+     "쿼리 중 프로세스를 활성 상태로 유지하면 결과가 달라진다.",
+     "반복 횟수를 늘리는 등의 조정이 성능 순위를 바꾼다.",
+     "벤치마크 결과는 방법론에 크게 의존하므로 비판적으로 봐야 한다."
+    ],
+    "why": [
+     "벤치마크 수치를 그대로 믿기 전에 측정 방법을 따져봐야 함을 일깨운다.",
+     "데이터베이스 성능 비교 시 방법론의 중요성을 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "dev-stealing-is-a-skill",
+   "title": "훔치는 것도 하나의 기술이다",
+   "summary": "남의 창작물에서 창의적으로 빌려오는 것이 자신의 관점과 문제 해결 능력을 키운다.",
+   "source": "TLDR Dev",
+   "url": "https://ben-mini.com/2026/stealing-is-a-skill?utm_source=tldrdev",
+   "report": {
+    "tldr": "다른 사람의 창작물에서 창의적으로 빌려오는 것은 하나의 기술이다.",
+    "what": "훔치기, 즉 다른 사람의 것에서 창의적으로 빌려오는 것은 하나의 기술이다. 다른 사람의 창작물에서 배우는 것은 자신의 관점과 문제 해결 능력을 향상시킬 수 있다.",
+    "points": [
+     "창의적으로 빌려오는 것 자체가 기술이다.",
+     "타인의 창작물에서 배우면 자신의 관점이 넓어진다.",
+     "문제 해결 능력 향상에 도움이 된다."
+    ],
+    "why": [
+     "모방과 학습을 창의성의 일부로 재해석하는 관점을 제시한다."
+    ]
+   }
+  },
+  {
+   "id": "dev-opinionated-guide-to-naming",
+   "title": "독선적이지만 대체로 옳은 네이밍 가이드",
+   "summary": "좋은 네이밍은 팀 간 소통을 개선하고 디버깅 시간을 줄이며 사람과 AI의 코드 이해를 돕는다.",
+   "source": "TLDR Dev",
+   "url": "https://adamtornhill.substack.com/p/an-opinionated-and-mainly-correct?utm_source=tldrdev",
+   "report": {
+    "tldr": "소프트웨어에서 좋은 네이밍은 소통을 개선하고 디버깅을 줄이며 사람과 AI의 이해를 돕는다.",
+    "what": "소프트웨어에서 좋은 네이밍은 팀 간 소통을 개선하고, 디버깅 시간을 줄이며, 사람의 이해와 AI의 코드 이해를 모두 뒷받침한다.",
+    "points": [
+     "좋은 네이밍은 팀 간 소통을 개선한다.",
+     "디버깅에 드는 시간을 줄여준다.",
+     "사람의 코드 이해를 돕는다.",
+     "AI의 코드 이해도 돕는다."
+    ],
+    "why": [
+     "네이밍이 단순한 스타일이 아니라 생산성과 직결되는 요소임을 강조한다.",
+     "AI 시대에 코드 가독성의 중요성이 더 커지고 있음을 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "dev-computer-use-gemini-3-5-flash",
+   "title": "Gemini 3.5 Flash에 컴퓨터 사용 기능 도입",
+   "summary": "Gemini 3.5 Flash가 컴퓨터 사용 기능을 통합해 에이전트 작업과 맞춤 자동화 에이전트 구축을 지원한다.",
+   "source": "TLDR Dev",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/?utm_source=tldrdev",
+   "report": {
+    "tldr": "Gemini 3.5 Flash가 컴퓨터 사용 기능을 통합해 에이전트 작업과 자동화 에이전트 구축을 지원한다.",
+    "what": "Gemini 3.5 Flash가 이제 컴퓨터 사용 기능을 통합해 에이전트 작업의 성능을 높이고, 개발자가 맞춤형 자동화 에이전트를 구축할 수 있도록 한다.",
+    "points": [
+     "Gemini 3.5 Flash에 컴퓨터 사용 기능이 통합되었다.",
+     "에이전트 작업의 성능을 개선한다.",
+     "개발자가 맞춤형 자동화 에이전트를 구축할 수 있게 한다."
+    ],
+    "why": [
+     "주요 모델들이 컴퓨터 사용 기능을 기본 탑재하는 흐름을 보여준다.",
+     "자동화 에이전트 개발의 진입 장벽이 낮아지고 있다."
+    ]
+   }
+  },
+  {
+   "id": "dev-peerd-browser-extension",
+   "title": "peerd (GitHub 저장소)",
+   "summary": "peerd는 열린 탭과 세션과 직접 상호작용해 복잡한 작업을 자동화하는 AI 기반 브라우저 확장이다.",
+   "source": "TLDR Dev",
+   "url": "https://github.com/NotASithLord/peerd?utm_source=tldrdev",
+   "report": {
+    "tldr": "peerd는 열린 탭·세션과 직접 상호작용해 복잡한 작업을 자동화하는 AI 기반 브라우저 확장이다.",
+    "what": "peerd는 Chrome과 Firefox용 AI 기반 브라우저 확장으로, 사용자가 열려 있는 탭 및 세션과 직접 상호작용해 복잡한 작업을 자동화할 수 있게 한다. 보안 샌드박스 환경과 P2P 연결을 사용해 탈중앙화 작업과 로컬 데이터 관리에 초점을 맞춘다.",
+    "points": [
+     "Chrome과 Firefox용 AI 기반 브라우저 확장이다.",
+     "열린 탭과 세션과 직접 상호작용해 복잡한 작업을 자동화한다.",
+     "보안 샌드박스 환경을 사용한다.",
+     "P2P 연결을 활용한다.",
+     "탈중앙화 작업과 로컬 데이터 관리에 초점을 둔다."
+    ],
+    "why": [
+     "탈중앙화와 로컬 데이터 관리에 초점을 둔 브라우저 자동화 접근을 제시한다."
+    ]
+   }
+  },
+  {
+   "id": "dev-nub-nodejs-toolkit",
+   "title": "Nub (GitHub 저장소)",
+   "summary": "Nub은 Bun·Deno에서 영감을 받은 기능으로 Node.js 개발 경험을 개선하는 툴킷이다.",
+   "source": "TLDR Dev",
+   "url": "https://github.com/nubjs/nub?utm_source=tldrdev",
+   "report": {
+    "tldr": "Nub은 Bun·Deno에서 영감을 받은 기능으로 Node.js 개발 경험을 개선하는 툴킷이다.",
+    "what": "Nub은 표준 Node.js와의 호환성을 유지하면서 Bun과 Deno에서 영감을 받은 기능을 더해 Node.js 개발 경험을 개선하는 툴킷이다. 더 빠른 패키지 매니저, 스크립트 러너, 파일 실행 기능을 갖추고 있다.",
+    "points": [
+     "Bun과 Deno에서 영감을 받은 기능을 제공한다.",
+     "표준 Node.js와의 호환성을 유지한다.",
+     "더 빠른 패키지 매니저를 갖췄다.",
+     "스크립트 러너를 제공한다.",
+     "파일 실행 기능을 제공한다."
+    ],
+    "why": [
+     "Node.js 생태계에 Bun·Deno의 장점을 호환성과 함께 가져오려는 시도다."
+    ]
+   }
+  },
+  {
+   "id": "dev-mechanistic-explanation-prompt-injection",
+   "title": "프롬프트 인젝션에 대한 메커니즘적 설명 (그리고 역할을 연구해야 하는 이유)",
+   "summary": "프롬프트 인젝션은 LLM이 입력 토큰 스트림 내 역할을 제대로 구분하지 못하는 데서 비롯된다.",
+   "source": "TLDR Dev",
+   "url": "https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-mechanistic-explanation-of-prompt-injection-and-why-you?utm_source=tldrdev",
+   "report": {
+    "tldr": "프롬프트 인젝션은 LLM이 입력 토큰 스트림 내 다양한 역할을 제대로 구분하지 못하는 데서 비롯된다.",
+    "what": "프롬프트 인젝션은 LLM이 입력 토큰 스트림 안에서 사용자 명령과 내부 추론 같은 다양한 역할을 효과적으로 구분하지 못하는 데서 비롯되는 취약점이다. 'user', 'assistant', 'think' 같은 역할 태그는 구조를 제공하기 위한 것이지만, 모델은 할당된 태그가 아니라 텍스트의 스타일을 기준으로 권한을 잘못 판단하는 경향이 있다. 이로 인해 역할 혼동으로 유해한 명령이 실행되는 상황이 발생한다.",
+    "points": [
+     "프롬프트 인젝션은 역할 구분 실패에서 비롯되는 취약점이다.",
+     "'user', 'assistant', 'think' 같은 역할 태그는 구조를 제공하기 위한 것이다.",
+     "모델은 태그가 아니라 텍스트 스타일을 기준으로 권한을 판단하는 경향이 있다.",
+     "역할 혼동으로 유해한 명령이 실행될 수 있다.",
+     "역할 태그의 작동 방식을 이해하는 것이 방어에 중요하다."
+    ],
+    "why": [
+     "프롬프트 인젝션의 근본 원인을 메커니즘 수준에서 이해하게 해준다.",
+     "역할 구분을 연구하는 것이 LLM 보안의 핵심임을 시사한다."
+    ],
+    "action": "LLM 시스템 설계 시 역할 태그만으로 권한을 신뢰하지 말고, 신뢰 경계와 입력 출처에 따른 별도의 권한 통제를 적용해야 한다.",
+    "context": "프롬프트 인젝션은 LLM 기반 애플리케이션의 대표적 보안 취약점으로 꼽힌다."
+   }
+  },
+  {
+   "id": "dev-why-ai-labs-hiring-philosophers",
+   "title": "대형 AI 연구소가 철학자를 많이 채용하는 이유",
+   "summary": "주요 AI 연구소들이 AI의 윤리적·운영적 난제를 다루기 위해 철학자 채용을 늘리고 있다.",
+   "source": "TLDR Dev",
+   "url": "https://archive.is/T1FJG?utm_source=tldrdev",
+   "report": {
+    "tldr": "주요 AI 연구소들이 AI의 윤리적·운영적 난제를 다루기 위해 철학자 채용을 늘리고 있다.",
+    "what": "주요 AI 연구소들은 인공지능에 내재된 복잡한 윤리적·운영적 과제를 다루기 위해 철학자 채용을 점점 늘리고 있다. 이들 전문가는 의무론 같은 프레임워크를 적용하고 비판적 사고를 촉진함으로써 AI의 의사결정을 개선하는 동시에, 철학 전공자들에게 새로운 진로 기회를 만들어 준다.",
+    "points": [
+     "주요 AI 연구소들이 철학자 채용을 늘리고 있다.",
+     "AI에 내재된 윤리적·운영적 과제를 다루기 위함이다.",
+     "의무론 같은 프레임워크를 AI 의사결정에 적용한다.",
+     "비판적 사고를 촉진해 의사결정을 개선한다.",
+     "철학 전공자들에게 새로운 진로 기회가 생긴다."
+    ],
+    "why": [
+     "AI 개발에서 윤리와 철학적 사고의 중요성이 커지고 있음을 보여준다.",
+     "기술 외 전공자에게도 AI 분야의 기회가 열리고 있음을 시사한다."
+    ]
+   }
+  },
+  {
+   "id": "dev-design-principles-ai-app-development",
+   "title": "AI 앱 개발에 전문 디자인 원칙을 적용하는 법",
+   "summary": "대비·위계·정렬·여백 같은 디자인 원칙을 적용해 AI 앱의 사용성과 미감을 높일 수 있다.",
+   "source": "TLDR Dev",
+   "url": "https://expo.dev/blog/how-to-apply-professional-design-principles-in-ai-app-development?utm_source=tldrdev",
+   "report": {
+    "tldr": "전문 디자인 원칙을 적용하면 AI 앱의 사용성과 미감을 크게 높일 수 있다.",
+    "what": "AI 앱 개발에서 전문 디자인 원칙을 적용하는 것은 시각적으로 독특하고 매력적인 애플리케이션을 만드는 데 중요하다. 대비, 위계, 정렬, 여백 같은 핵심 원칙은 사용성과 미적 매력을 크게 높여, 단순한 템플릿 기반 디자인이 넘치는 시장에서 앱이 돋보이도록 돕는다. 꾸준한 노력과 디자인 전문성을 결합하면 AI가 생성한 디자인을 다듬어 더 세련되고 독특한 사용자 경험을 보장할 수 있다.",
+    "points": [
+     "전문 디자인 원칙 적용은 독특하고 매력적인 앱을 만드는 데 중요하다.",
+     "대비, 위계, 정렬, 여백이 핵심 디자인 원칙이다.",
+     "이 원칙들이 사용성과 미적 매력을 높인다.",
+     "템플릿 기반 디자인이 넘치는 시장에서 앱을 돋보이게 한다.",
+     "꾸준한 노력과 디자인 전문성으로 AI 생성 디자인을 다듬을 수 있다."
+    ],
+    "why": [
+     "AI가 생성한 디자인도 사람의 디자인 전문성으로 다듬어야 차별화됨을 보여준다.",
+     "디자인 기본기가 AI 시대에도 여전히 경쟁력임을 강조한다."
+    ]
+   }
+  },
+  {
+   "id": "dev-openai-custom-chip-broadcom",
+   "title": "OpenAI, Broadcom과 함께 만든 첫 맞춤 칩 공개",
+   "summary": "OpenAI가 Broadcom과 협력해 개발한 첫 맞춤 AI 추론 프로세서 'Jalapeño'를 공개했다.",
+   "source": "TLDR Dev",
+   "url": "https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/?utm_source=tldrdev",
+   "report": {
+    "tldr": "OpenAI가 Broadcom과 협력해 만든 첫 맞춤 AI 추론 프로세서 'Jalapeño'를 공개했다.",
+    "what": "OpenAI가 Broadcom과 협력해 개발한 첫 맞춤 AI 추론 프로세서를 공개했으며, 이름은 'Jalapeño'다.",
+    "points": [
+     "OpenAI가 첫 맞춤 AI 칩을 공개했다.",
+     "추론(inference)용 프로세서다.",
+     "Broadcom과 협력해 개발했다.",
+     "칩의 이름은 'Jalapeño'다."
+    ],
+    "why": [
+     "AI 기업들이 자체 칩 개발로 인프라 수직 통합을 추진하는 흐름을 보여준다.",
+     "OpenAI의 추론 비용 절감과 공급망 자립 시도로 해석된다."
+    ]
+   }
+  },
+  {
+   "id": "dev-http-query-method",
+   "title": "HTTP QUERY 메서드",
+   "summary": "새로 제안된 HTTP QUERY 메서드는 대상 자원의 상태를 변경하지 않는 안전하고 멱등한 요청 메서드다.",
+   "source": "TLDR Dev",
+   "url": "https://datatracker.ietf.org/doc/rfc10008/?utm_source=tldrdev",
+   "report": {
+    "tldr": "새로 제안된 HTTP QUERY 메서드는 안전하고 멱등한 데이터 처리 요청 메서드다.",
+    "what": "새로 제안된 HTTP QUERY 메서드는 안전하고 멱등한(idempotent) 요청 메서드로, 클라이언트가 대상 자원의 상태를 변경하지 않으면서 데이터 처리를 요청할 수 있게 한다.",
+    "points": [
+     "HTTP QUERY는 새로 제안된 요청 메서드다.",
+     "안전하고 멱등한(idempotent) 메서드다.",
+     "대상 자원의 상태를 변경하지 않는다.",
+     "데이터 처리 요청을 보낼 수 있게 한다."
+    ],
+    "why": [
+     "GET의 길이 제한과 POST의 비멱등성 문제를 해결하는 대안으로 주목된다.",
+     "복잡한 쿼리를 표준화된 방식으로 전송할 수 있게 한다."
+    ]
+   }
+  },
+  {
+   "id": "dev-red-green-squiggles-tony-krueger",
+   "title": "단어 밑에 빨강·초록 물결선을 그어준 사람을 추모하며",
+   "summary": "워드프로세서의 빨강·초록 오류 물결선을 도입한 Tony Krueger를 추모한다.",
+   "source": "TLDR Dev",
+   "url": "https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=12451&utm_source=tldrdev",
+   "report": {
+    "tldr": "워드프로세서의 빨강·초록 오류 물결선을 도입한 Tony Krueger를 추모하는 글이다.",
+    "what": "Tony Krueger는 워드프로세서의 맞춤법·문법 검사를 개선하고 오류를 표시하는, 이제는 어디서나 볼 수 있는 빨강·초록 물결선을 도입한 인물이다. 영향력은 컸지만 자주 인정받지 못했던 그의 소프트웨어 개발 기여가 기억되고 있다.",
+    "points": [
+     "Tony Krueger가 워드프로세서의 맞춤법·문법 검사를 개선했다.",
+     "오류를 표시하는 빨강·초록 물결선을 도입했다.",
+     "이 물결선은 이제 어디서나 볼 수 있는 표준이 되었다.",
+     "그의 기여는 영향력이 컸지만 자주 인정받지 못했다."
+    ],
+    "why": [
+     "일상적으로 쓰는 기능 뒤에 보이지 않는 개발자의 공헌이 있음을 일깨운다."
+    ]
+   }
+  },
+  {
+   "id": "dev-stubzero-google-cloud-rce",
+   "title": "StubZero: Google Cloud 프로덕션에서 $148,337 RCE",
+   "summary": "Google Cloud의 디버깅 엔드포인트 정보 유출이 완전한 원격 코드 실행 취약점으로 확대됐다.",
+   "source": "TLDR Dev",
+   "url": "https://brutecat.com/articles/google-cloud-rce/?utm_source=tldrdev",
+   "report": {
+    "tldr": "Google Cloud의 디버깅 엔드포인트 정보 유출이 완전한 원격 코드 실행(RCE)으로 확대됐다.",
+    "what": "Google Cloud의 한 디버깅 엔드포인트에서 발생한 정보 유출이 완전한 원격 코드 실행(RCE) 취약점으로 확대되었다. 이 취약점에는 $148,337의 보상금이 책정되었다.",
+    "points": [
+     "Google Cloud 프로덕션 환경의 취약점이다.",
+     "디버깅 엔드포인트의 정보 유출에서 시작되었다.",
+     "정보 유출이 완전한 원격 코드 실행(RCE)으로 확대되었다.",
+     "$148,337의 보상금이 책정되었다."
+    ],
+    "why": [
+     "프로덕션 환경에 노출된 디버깅 엔드포인트가 심각한 위험이 될 수 있음을 보여준다.",
+     "정보 유출 수준의 결함도 RCE로 연쇄될 수 있음을 경고한다."
+    ],
+    "action": "프로덕션 환경에서 디버깅 엔드포인트가 외부에 노출되지 않도록 점검하고, 불필요한 디버그 인터페이스를 비활성화해야 한다.",
+    "context": "클라우드 서비스의 내부 디버깅 인터페이스 노출은 반복적으로 보고되는 보안 위험 유형이다."
+   }
+  }
+ ]
 }

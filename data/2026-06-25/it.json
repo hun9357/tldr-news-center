@@ -1,107 +1,242 @@
 {
-  "name": "IT",
-  "source": "TLDR IT",
-  "icon": "💻",
-  "color": "#b48cff",
-  "bg": "#26203a",
-  "items": [
-    {
-      "id": "it-qualcomm-modular",
-      "title": "퀄컴, 모듈러 39억 달러 인수…엔비디아 CUDA 해자 도전",
-      "summary": "AI 워크로드를 여러 칩에서 구동하는 이식성으로 엔비디아 소프트웨어 독점에 맞서기 위해 퀄컴이 모듈러를 39억 달러에 인수.",
-      "source": "Network World",
-      "url": "https://www.networkworld.com/article/4189098/qualcomms-3-9-billion-purchase-of-modular-aims-to-change-the-data-center-dynamic.html",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "퀄컴이 소프트웨어로 엔비디아 락인을 깨려 한다.",
-        "what": "퀄컴이 모듈러를 39억 달러에 인수해 AI 워크로드를 칩 간 이식 가능하게 만들어 엔비디아 CUDA 생태계에 도전한다.",
-        "points": ["39억 달러 M&A", "칩 간 이식성으로 CUDA 대항"],
-        "why": ["AI 소프트웨어 스택의 탈엔비디아 흐름", "데이터센터 칩 경쟁 구도 변화"]
-      }
-    },
-    {
-      "id": "it-claude-tag-slack",
-      "title": "앤트로픽, 슬랙 속 클로드를 상시 에이전트 동료로 재구성",
-      "summary": "기존 클로드 슬랙 커넥터를 대체하는 '클로드 태그'는 팀에 상주하며 채널을 학습하고 멘션으로 위임 작업을 처리한다.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
-      "originalDate": "2026-06-23",
-      "report": {
-        "tldr": "협업 도구 안에 상시 거주하는 AI 동료가 표준이 되어간다.",
-        "what": "앤트로픽이 클로드 슬랙 커넥터를 클로드 태그로 교체해, 팀에 합류해 채널을 학습하고 멘션 기반 위임 작업을 수행하는 상시 에이전트로 바꿨다.",
-        "points": ["상시 가동 에이전트", "채널 맥락 학습·멘션 위임"],
-        "why": ["업무 협업의 상시 AI 접점화", "접근 통제·데이터 거버넌스 필요"]
-      }
-    },
-    {
-      "id": "it-ai-coding-costs",
-      "title": "가트너 \"AI 코딩 비용, 개발자 임금 추월 가능\"",
-      "summary": "토큰 가격 상승으로 2028년이면 AI 코딩 지출이 평균 개발자 임금을 넘을 수 있어 FinOps형 거버넌스가 필요하다는 경고.",
-      "source": "CIO Dive",
-      "url": "https://www.ciodive.com/news/ai-spending-outpacing-human-developers/823690/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "AI 코딩의 토큰 비용이 새로운 통제 대상으로 떠올랐다.",
-        "what": "가트너가 토큰 가격 상승으로 2028년 AI 코딩 비용이 평균 개발자 임금을 추월할 수 있다며 FinOps식 거버넌스 도입을 권고했다.",
-        "points": ["2028년 임금 추월 전망", "FinOps형 비용 통제 필요"],
-        "why": ["AI 생산성의 숨은 비용 가시화", "토큰 예산·거버넌스 체계 요구"]
-      }
-    },
-    {
-      "id": "it-passkey-shame",
-      "title": "패스키 미지원 기업 공개 사이트 등장",
-      "summary": "보안 연구자 스콧 헬미의 새 추적기가 인스타그램·넷플릭스·스포티파이 등 패스키 로그인이 없는 주요 앱을 지목한다.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/24/new-website-names-and-shames-companies-that-still-dont-offer-passkeys-to-users/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "패스키 채택 압박을 '공개 지목'으로 가하는 도구가 나왔다.",
-        "what": "스콧 헬미가 인스타그램·넷플릭스·스포티파이 등 패스키 미지원 주요 앱을 식별하는 추적 사이트를 공개했다.",
-        "points": ["패스키 미지원 앱 명단화", "주요 소비자 서비스 다수 포함"],
-        "why": ["피싱 내성 인증 채택 가속", "기업 보안 평판 압박"]
-      }
-    },
-    {
-      "id": "it-superhuman-gptzero",
-      "title": "슈퍼휴먼, GPTZero 인수…AI 진위 검증 계층 추가",
-      "summary": "슈퍼휴먼이 GPTZero를 인수해 AI 탐지·표절 검사·콘텐츠 진위 검증을 생산성 플랫폼에 통합한다.",
-      "source": "SiliconANGLE",
-      "url": "https://siliconangle.com/2026/06/24/grammarly-parent-superhuman-buys-ai-detector-gptzero/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "AI 콘텐츠 검증이 생산성 도구의 기능으로 편입됐다.",
-        "what": "그래멀리 모회사 슈퍼휴먼이 AI 탐지기 GPTZero를 인수해 진위·표절 검증 계층을 제품에 더한다.",
-        "points": ["GPTZero 인수", "AI 탐지·표절·진위 검증 통합"],
-        "why": ["AI 생성물 범람 속 진위 수요", "생산성 스위트의 신뢰 기능 경쟁"]
-      }
-    },
-    {
-      "id": "it-bunny-dns-free",
-      "title": "버니, DNS 무료화로 엣지 플랫폼 유입 확대",
-      "summary": "버니닷넷이 DNS 쿼리 요금을 없애고 최대 500개 도메인 무료 호스팅을 제공하며 DNS를 엣지 서비스 진입점으로 삼았다.",
-      "source": "Bunny.net",
-      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "DNS를 미끼로 엣지 생태계로 끌어들이는 전략.",
-        "what": "버니닷넷이 DNS 쿼리 요금을 폐지하고 도메인 500개까지 무료 호스팅을 열어 엣지 플랫폼 진입을 유도한다.",
-        "points": ["DNS 쿼리 요금 폐지", "최대 500 도메인 무료"],
-        "why": ["엣지 서비스 유입 퍼널 확대", "CDN·DNS 가격 경쟁 심화"]
-      }
-    },
-    {
-      "id": "it-google-apps-script",
-      "title": "구글 앱스 스크립트, 워크스페이스 코어 서비스로 격상",
-      "summary": "앱스 스크립트가 엔터프라이즈급 보호·관리자 제어·공식 지원을 받는 구글 워크스페이스 코어 서비스가 됐다.",
-      "source": "Google Workspace Updates",
-      "url": "https://workspaceupdates.googleblog.com/2026/06/google-apps-script-workspace-core-service.html",
-      "originalDate": "2026-06-24",
-      "report": {
-        "tldr": "사내 자동화 도구가 정식 거버넌스 대상으로 승격됐다.",
-        "what": "구글이 앱스 스크립트를 엔터프라이즈 보호·관리자 제어·공식 지원이 적용되는 워크스페이스 코어 서비스로 지정했다.",
-        "points": ["관리자 제어·공식 지원 적용", "코어 서비스 편입"],
-        "why": ["섀도 자동화의 거버넌스 확보", "엔터프라이즈 컴플라이언스 강화"]
-      }
-    }
-  ]
+ "name": "IT",
+ "source": "TLDR IT",
+ "icon": "💻",
+ "color": "#b48cff",
+ "bg": "#26203a",
+ "items": [
+  {
+   "id": "it-anthropic-claude-slack-agentic-coworker",
+   "title": "앤트로픽, 슬랙용 Claude를 상시 작동하는 에이전트형 AI 동료로 재구상",
+   "summary": "앤트로픽이 기존 슬랙 Claude 커넥터를 폐기하고 'Claude Tag'라는 상시 작동 에이전트 동료로 전환한다.",
+   "source": "TLDR IT",
+   "url": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
+   "report": {
+    "tldr": "앤트로픽이 슬랙 Claude를 상시 작동하는 에이전트형 팀 동료 'Claude Tag'로 재설계한다.",
+    "what": "앤트로픽은 기존 슬랙 Claude 커넥터를 폐기하고, 'Claude Tag'라 불리는 상시 작동 에이전트형 슬랙 동료로 대체한다. 이 AI는 공유 팀원으로서 슬랙 조직에 합류해 채널 컨텍스트와 허용된 데이터 소스로부터 학습한다. @Claude를 통해 업무를 위임받으며, 주변 정보 업데이트와 예약된 다중 시간·다중 일자 작업도 수행한다.",
+    "points": [
+     "기존 슬랙 Claude 커넥터를 폐기하고 'Claude Tag'로 전환",
+     "공유 팀원으로서 슬랙 조직에 합류",
+     "채널 컨텍스트와 허용된 데이터 소스에서 학습",
+     "@Claude로 업무를 위임받아 처리",
+     "주변 업데이트 및 예약된 다중 시간·다중 일자 작업 수행"
+    ],
+    "why": [
+     "에이전트형 AI가 협업 도구의 상시 구성원으로 자리잡는 흐름을 보여준다.",
+     "단발성 응답을 넘어 장시간 작업을 위임하는 워크플로 변화를 시사한다."
+    ]
+   }
+  },
+  {
+   "id": "it-qualcomm-buys-modular-challenge-nvidia",
+   "title": "퀄컴, 모듈러 인수로 엔비디아 AI 소프트웨어 해자에 도전",
+   "summary": "퀄컴이 약 39억 달러에 모듈러를 인수해 엔비디아 CUDA 생태계에 맞설 AI 소프트웨어 계층을 강화한다.",
+   "source": "TLDR IT",
+   "url": "https://www.networkworld.com/article/4189098/qualcomms-3-9-billion-purchase-of-modular-aims-to-change-the-data-center-dynamic.html",
+   "report": {
+    "tldr": "퀄컴이 약 39억 달러에 모듈러를 인수해 엔비디아의 CUDA 해자에 맞선다.",
+    "what": "퀄컴이 약 39억 달러($3.9B)에 모듈러를 인수해 데이터센터, 엣지, 이기종 하드웨어 전반의 AI 소프트웨어 계층을 강화한다. 이를 통해 소프트웨어를 다시 작성하지 않고도 AI 워크로드를 서로 다른 칩에서 실행할 수 있게 함으로써 엔비디아의 CUDA 생태계와 경쟁할 발판을 마련한다.",
+    "points": [
+     "인수 규모는 약 39억 달러($3.9B)",
+     "데이터센터·엣지·이기종 하드웨어 전반의 AI 소프트웨어 계층 강화",
+     "소프트웨어 재작성 없이 다양한 칩에서 AI 워크로드 실행 가능",
+     "엔비디아 CUDA 생태계에 대한 경쟁력 확보가 목표"
+    ],
+    "why": [
+     "AI 경쟁의 핵심이 칩뿐 아니라 소프트웨어 계층으로 확장되고 있음을 보여준다.",
+     "엔비디아의 소프트웨어 종속성을 깨려는 업계의 시도를 상징한다."
+    ]
+   }
+  },
+  {
+   "id": "it-ai-coding-costs-outrun-developer-salaries",
+   "title": "AI 코딩 비용이 개발자 연봉을 넘어설 수 있다",
+   "summary": "가트너는 2028년까지 토큰 기반 과금이 정액 구독을 추월하며 AI 코딩이 평균 개발자 연봉보다 비싸질 수 있다고 전망한다.",
+   "source": "TLDR IT",
+   "url": "https://www.ciodive.com/news/ai-spending-outpacing-human-developers/823690/",
+   "report": {
+    "tldr": "가트너는 2028년까지 AI 코딩 비용이 평균 개발자 연봉을 넘어설 수 있다고 경고한다.",
+    "what": "가트너는 토큰 기반 과금이 정액 구독을 추월하면서 2028년까지 AI 코딩이 평균 개발자 연봉보다 비싸질 수 있다고 전망한다. 이에 따라 IT 리더들은 사용량 추적, 소유권 지정, 사용량 제한, 명확한 비즈니스 가치 등 핀옵스(FinOps) 방식의 거버넌스가 필요하다.",
+    "points": [
+     "토큰 기반 과금이 정액 구독을 추월하는 추세",
+     "2028년까지 AI 코딩이 평균 개발자 연봉보다 비싸질 수 있음",
+     "사용량 추적과 소유권 지정 필요",
+     "사용량 제한(스로틀링)과 명확한 비즈니스 가치 검증 요구",
+     "핀옵스(FinOps) 방식의 거버넌스 권장"
+    ],
+    "why": [
+     "AI 도입 비용이 통제되지 않으면 인건비 절감 효과를 상쇄할 수 있다.",
+     "AI 지출 거버넌스가 IT 운영의 핵심 과제로 부상하고 있다."
+    ]
+   }
+  },
+  {
+   "id": "it-data-lakehouses-foundation-enterprise-ai",
+   "title": "데이터 레이크하우스가 기업 AI의 기반으로 부상",
+   "summary": "데이터 레이크하우스가 광범위한 데이터 접근성과 거버넌스를 결합하며 기업 AI의 토대가 되고 있다.",
+   "source": "TLDR IT",
+   "url": "https://www.cio.com/article/4184051/data-lakehouses-are-becoming-foundations-for-enterprise-ai.html",
+   "report": {
+    "tldr": "데이터 레이크하우스가 데이터 접근성과 거버넌스를 결합해 기업 AI의 토대가 되고 있다.",
+    "what": "데이터 레이크하우스는 광범위한 데이터 접근성과 거버넌스, 보안, 구조를 결합하기 때문에 기업 AI의 기반이 되고 있다. 에이전트형 AI는 데이터 계층을 전략적으로 만들며, 이를 위해 시맨틱 컨텍스트, 에이전트 신원, 접근 제어, 감사 추적, 비용 통제가 요구된다.",
+    "points": [
+     "광범위한 데이터 접근성과 거버넌스·보안·구조 결합",
+     "에이전트형 AI가 데이터 계층을 전략적 자산으로 만듦",
+     "시맨틱 컨텍스트와 에이전트 신원 관리 필요",
+     "접근 제어와 감사 추적 요구",
+     "데이터 계층의 비용 통제 중요"
+    ],
+    "why": [
+     "AI 성능과 신뢰성은 결국 데이터 계층의 품질과 거버넌스에 달려 있다.",
+     "에이전트형 AI 확산으로 데이터 인프라가 전략적 우선순위가 된다."
+    ]
+   }
+  },
+  {
+   "id": "it-google-apps-script-core-workspace-service",
+   "title": "구글 앱스 스크립트, 정식 워크스페이스 핵심 서비스로 승격",
+   "summary": "구글 앱스 스크립트가 정식 워크스페이스 핵심 서비스가 되어 기업급 데이터 보호와 관리 제어를 갖추게 됐다.",
+   "source": "TLDR IT",
+   "url": "https://workspaceupdates.googleblog.com/2026/06/google-apps-script-workspace-core-service.html",
+   "report": {
+    "tldr": "구글 앱스 스크립트가 정식 워크스페이스 핵심 서비스로 승격됐다.",
+    "what": "구글 앱스 스크립트가 이제 공식 워크스페이스 핵심 서비스가 됐다. 이로써 기업급 데이터 보호, 관리자 제어, 표준 기술 지원, 워크스페이스 약관 적용 등의 혜택을 갖추게 됐다.",
+    "points": [
+     "정식 워크스페이스 핵심 서비스로 승격",
+     "기업급 데이터 보호 제공",
+     "관리자 제어 기능 추가",
+     "표준 기술 지원 및 워크스페이스 약관 적용"
+    ],
+    "why": [
+     "기업 환경에서 앱스 스크립트를 더 안심하고 도입할 수 있게 된다.",
+     "관리·보안 보장으로 자동화 도구의 기업 채택이 촉진된다."
+    ]
+   }
+  },
+  {
+   "id": "it-bunny-free-dns-edge-platform",
+   "title": "버니, DNS 무료화로 더 많은 앱을 엣지 플랫폼으로 유치",
+   "summary": "버니닷넷이 DNS 쿼리 요금을 없애고 계정당 최대 500개 도메인에 쿼리 제한 없는 무료 DNS 호스팅을 제공한다.",
+   "source": "TLDR IT",
+   "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+   "report": {
+    "tldr": "버니닷넷이 DNS를 무료화해 엣지 플랫폼 진입점으로 활용한다.",
+    "what": "버니닷넷(Bunny.net)이 DNS 쿼리 요금을 없애고, 계정당 최대 500개 도메인에 쿼리 제한 없는 무료 DNS 호스팅을 제공한다. DNS를 CDN, 엣지 보안, 라우팅, DNSSEC, IPv6를 포함한 엣지 플랫폼으로 가는 진입점으로 활용하는 전략이다.",
+    "points": [
+     "DNS 쿼리 요금 폐지",
+     "계정당 최대 500개 도메인 무료 DNS 호스팅",
+     "쿼리 수 제한 없음",
+     "DNS를 엣지 플랫폼(CDN·엣지 보안·라우팅·DNSSEC·IPv6) 진입점으로 활용"
+    ],
+    "why": [
+     "무료 DNS를 미끼로 엣지 플랫폼 전반의 사용자 유입을 노리는 전략이다.",
+     "엣지 인프라 시장의 가격 경쟁 심화를 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "it-passkey-naming-site-calls-out-companies",
+   "title": "패스키 미지원 기업을 공개 지적하는 새 사이트 등장",
+   "summary": "보안 연구자 스콧 헬미가 인스타그램·넷플릭스·스포티파이 등 패스키 로그인을 제공하지 않는 주요 서비스를 추적하는 사이트를 만들었다.",
+   "source": "TLDR IT",
+   "url": "https://techcrunch.com/2026/06/24/new-website-names-and-shames-companies-that-still-dont-offer-passkeys-to-users/",
+   "report": {
+    "tldr": "새 사이트가 패스키를 제공하지 않는 주요 기업을 공개 추적한다.",
+    "what": "보안 연구자 스콧 헬미가 만든 새 사이트는 여전히 패스키 로그인을 제공하지 않는 주요 앱과 서비스를 추적한다. 여기에는 인스타그램, 넷플릭스, 스포티파이 등이 포함되며, 패스키를 공개적 신뢰 신호로 제시한다.",
+    "points": [
+     "보안 연구자 스콧 헬미가 만든 사이트",
+     "패스키 미지원 주요 앱·서비스 추적",
+     "인스타그램·넷플릭스·스포티파이 등이 명단에 포함",
+     "패스키를 공개적 신뢰 신호로 제시"
+    ],
+    "why": [
+     "패스키 도입을 공개 압박해 비밀번호 없는 인증 확산을 촉진한다.",
+     "이용자가 서비스의 보안 수준을 비교·판단할 수 있게 한다."
+    ],
+    "action": "주요 서비스에서 패스키 지원 여부를 확인하고, 가능한 경우 비밀번호 대신 패스키 로그인으로 전환하세요."
+   }
+  },
+  {
+   "id": "it-cisco-ai-troubleshooting-industrial-networks",
+   "title": "시스코, 산업용 네트워크를 위한 AI 문제 해결 기능 추가",
+   "summary": "시스코가 공장 네트워크 신호를 모니터링하고 근본 원인을 진단하는 상시 작동 AI 에이전트를 선보였다.",
+   "source": "TLDR IT",
+   "url": "https://blogs.cisco.com/industrial-iot/maximizing-uptime-the-power-of-ai-troubleshooting-for-industrial-networks",
+   "report": {
+    "tldr": "시스코가 산업용 네트워크를 위한 상시 작동 AI 문제 해결 에이전트를 출시했다.",
+    "what": "시스코가 산업용 네트워크를 위한 'AI Troubleshooting'을 선보였다. 이는 시스코 클라우드 컨트롤(Cisco Cloud Control) 내 상시 작동 에이전트로, 공장 현장의 네트워크 신호를 모니터링하고 경보를 군집화하며 근본 원인을 진단하고 OT 팀에 해결책을 권장한다.",
+    "points": [
+     "시스코 클라우드 컨트롤 내 상시 작동 AI 에이전트",
+     "공장 현장 네트워크 신호 모니터링",
+     "경보 군집화 및 근본 원인 진단",
+     "OT 팀을 위한 해결책 권장"
+    ],
+    "why": [
+     "산업 현장의 가동 중단 시간을 줄여 운영 효율을 높인다.",
+     "OT 환경에도 에이전트형 AI 운영 자동화가 확산되고 있음을 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "it-jamf-ddm-realtime-mac-fleet-visibility",
+   "title": "잼프, 실시간 맥 플릿 가시성을 위한 DDM 강조",
+   "summary": "애플의 선언적 기기 관리(DDM)로 기기가 상태 변화를 능동 보고해 맥 플릿 가시성이 빨라진다.",
+   "source": "TLDR IT",
+   "url": "https://www.jamf.com/blog/mac-fleet-visibility-ddm-proactive-status-reporting/",
+   "report": {
+    "tldr": "애플의 선언적 기기 관리(DDM)가 맥 플릿 가시성을 더 빠르게 만든다.",
+    "what": "애플의 선언적 기기 관리(Declarative Device Management, DDM)는 기기가 MDM 명령 폴링을 기다리는 대신 상태 변화를 능동적으로 보고하게 함으로써 IT 팀에 더 빠른 맥 플릿 가시성을 제공한다.",
+    "points": [
+     "애플의 선언적 기기 관리(DDM) 활용",
+     "기기가 상태 변화를 능동적으로 보고",
+     "MDM 명령 폴링 대기 방식에서 탈피",
+     "IT 팀에 더 빠른 맥 플릿 가시성 제공"
+    ],
+    "why": [
+     "실시간 가시성으로 기기 관리 대응 속도가 빨라진다.",
+     "폴링 기반 관리의 지연 한계를 극복하는 방향을 제시한다."
+    ]
+   }
+  },
+  {
+   "id": "it-superhuman-buys-gptzero-authenticity-layer",
+   "title": "슈퍼휴먼, GPTZero 인수로 AI 진위 확인 계층 추가",
+   "summary": "그래머리의 후신 슈퍼휴먼이 GPTZero를 인수해 AI 탐지·표절 검사·인용 검증 기능을 더한다.",
+   "source": "TLDR IT",
+   "url": "https://siliconangle.com/2026/06/24/grammarly-parent-superhuman-buys-ai-detector-gptzero/",
+   "report": {
+    "tldr": "슈퍼휴먼(옛 그래머리)이 GPTZero를 인수해 AI 진위 확인 기능을 더한다.",
+    "what": "옛 그래머리인 슈퍼휴먼이 GPTZero를 인수한다. 이를 통해 AI 탐지, 표절 검사, 인용 검증, 작성 출처 확인 도구를 자사 생산성 플랫폼에 추가한다.",
+    "points": [
+     "슈퍼휴먼(옛 그래머리)이 GPTZero 인수",
+     "AI 탐지 기능 추가",
+     "표절 검사 및 인용 검증 기능 통합",
+     "작성 출처 확인 도구를 생산성 플랫폼에 결합"
+    ],
+    "why": [
+     "AI 생성 글이 늘면서 진위 확인 수요가 커지고 있음을 반영한다.",
+     "생산성 도구가 콘텐츠 신뢰성 검증으로 영역을 확장하고 있다."
+    ]
+   }
+  },
+  {
+   "id": "it-google-meet-hardware-room-codes-preview",
+   "title": "구글 미트 하드웨어, 룸 코드 기능 얼리 프리뷰 추가",
+   "summary": "구글 미트 하드웨어 관리자가 짧은 코드로 회의에 참여할 수 있는 룸 코드 얼리 프리뷰에 참여할 수 있다.",
+   "source": "TLDR IT",
+   "url": "https://workspaceupdates.googleblog.com/2026/06/room-codes-google-meet-hardware-early-preview.html",
+   "report": {
+    "tldr": "구글 미트 하드웨어가 짧은 코드로 회의에 참여하는 룸 코드 얼리 프리뷰를 시작한다.",
+    "what": "구글 미트 하드웨어 관리자는 룸 코드 얼리 프리뷰에 참여할 수 있다. 이를 통해 사용자는 초대장이나 캘린더 일정을 찾는 대신 짧은 코드로 회의실에서 회의에 참여할 수 있다.",
+    "points": [
+     "구글 미트 하드웨어 관리자 대상 얼리 프리뷰",
+     "회의실에서 짧은 코드로 회의 참여 가능",
+     "초대장이나 캘린더 일정을 찾을 필요 없음"
+    ],
+    "why": [
+     "회의 참여 절차를 단순화해 회의실 사용 편의성을 높인다."
+    ]
+   }
+  }
+ ]
 }

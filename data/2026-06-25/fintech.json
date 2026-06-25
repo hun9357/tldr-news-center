@@ -1,0 +1,234 @@
+{
+ "name": "핀테크",
+ "source": "TLDR Fintech",
+ "icon": "💰",
+ "color": "#c6e36a",
+ "bg": "#2a3012",
+ "items": [
+  {
+   "id": "fin-stablecore-credit-union-stablecoin-program",
+   "title": "Stablecore, 신용조합 대상 스테이블코인·디지털자산 프로그램 출시",
+   "summary": "Stablecore가 Circuit과 협력해 지역 은행과 신용조합을 위한 스테이블코인·디지털자산 프로그램을 선보였다.",
+   "source": "TLDR Fintech",
+   "url": "https://links.tldrnewsletter.com/Ai29g9",
+   "report": {
+    "tldr": "Stablecore가 신용조합이 스테이블코인과 디지털자산 상품을 제공하도록 돕는 프로그램을 출시했다.",
+    "what": "Stablecore는 지역 은행과 신용조합이 스테이블코인, 토큰화 예금, 디지털자산 상품을 제공할 수 있도록 돕는 플랫폼이다. 이번 프로그램은 연구개발 중심의 신용조합 서비스 조직(CUSO)인 Circuit과 함께 진행된다.",
+    "points": [
+     "Stablecore는 지역 은행·신용조합 대상 스테이블코인 플랫폼이다.",
+     "스테이블코인, 토큰화 예금, 디지털자산 상품 제공을 지원한다.",
+     "연구개발형 CUSO인 Circuit과 협력해 프로그램을 운영한다."
+    ],
+    "why": [
+     "소규모 금융기관이 디지털자산 시장에 진입할 수 있는 경로를 제공한다.",
+     "스테이블코인의 전통 금융권 확산을 보여주는 사례다."
+    ]
+   }
+  },
+  {
+   "id": "fin-mastercard-privatbank-ukraine-ai-agent-payment",
+   "title": "Mastercard·PrivatBank, 우크라이나 첫 AI 에이전트 결제 완료",
+   "summary": "Mastercard와 PrivatBank가 우크라이나에서 AI 에이전트가 실행한 첫 결제를 성사시켰다.",
+   "source": "TLDR Fintech",
+   "url": "https://links.tldrnewsletter.com/EB4gTy",
+   "report": {
+    "tldr": "Mastercard와 PrivatBank가 우크라이나 최초로 AI 에이전트가 수행한 결제를 완료했다.",
+    "what": "소비자를 대신해 쇼핑과 업무를 수행하는 AI 에이전트가 우크라이나의 온라인 쇼핑을 바꿀 전망이다. Mastercard의 에이전틱 프레임워크는 AI 에이전트를 결제 흐름에 가시적이고 통제 가능한 참여자로 편입해 각 거래가 안전하게 인증되도록 한다.",
+    "points": [
+     "에이전틱 커머스는 AI 에이전트가 소비자를 대신해 쇼핑·업무를 수행하는 방식이다.",
+     "Mastercard 프레임워크는 AI 에이전트를 가시적·통제형 결제 참여자로 다룬다.",
+     "각 거래가 안전하게 인증되도록 설계되었다.",
+     "우크라이나에서 AI 에이전트가 실행한 첫 결제 사례다."
+    ],
+    "why": [
+     "에이전틱 커머스의 실거래 적용 사례를 보여준다.",
+     "AI 결제의 보안·인증 체계 구축 방향을 시사한다."
+    ]
+   }
+  },
+  {
+   "id": "fin-modern-treasury-sardine-fraud-detection",
+   "title": "Modern Treasury, Sardine와 협력해 사기 조기 탐지 강화",
+   "summary": "Modern Treasury가 Sardine와 손잡고 기업의 거래 모니터링과 사기 방지를 강화한다.",
+   "source": "TLDR Fintech",
+   "url": "https://links.tldrnewsletter.com/mAjRcl",
+   "report": {
+    "tldr": "Modern Treasury가 Sardine와 협력해 기업 자금 이동의 거래 모니터링과 사기 방지를 강화한다.",
+    "what": "Modern Treasury는 Sardine와의 파트너십을 발표했다. 이를 통해 미국 및 전 세계로 자금을 이동하는 기업의 거래 모니터링과 사기 예방 기능을 강화한다.",
+    "points": [
+     "Modern Treasury와 Sardine의 파트너십이다.",
+     "거래 모니터링과 사기 예방 기능을 강화한다.",
+     "미국 내·국제 자금 이동 기업을 대상으로 한다."
+    ],
+    "why": [
+     "B2B 결제에서 사기 탐지를 사전 단계로 끌어올린다.",
+     "기업 자금 이동의 리스크 관리 강화 흐름을 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "fin-spacex-s1-full-analysis",
+   "title": "SpaceX S-1 전문 분석",
+   "summary": "SpaceX의 수정 S-1을 분석하며 Anthropic·Google 등과의 AI 컴퓨팅 거래와 IPO 역학을 짚는다.",
+   "source": "TLDR Fintech",
+   "url": "https://robonomics.substack.com/p/spacex-s-1-full-analysis",
+   "report": {
+    "tldr": "SpaceX의 수정 S-1을 분석하며 주요 AI 컴퓨팅 거래와 IPO 유통물량 역학에 주목한다.",
+    "what": "이 분석은 SpaceX의 수정 S-1을 분해하며 Anthropic, Google, Reflection AI와의 주요 AI 컴퓨팅 거래에 초점을 맞춘다. 추정 GPU 임대 단가, 전력 용량, 기가와트당 매출과 함께 단기 스퀴즈를 유발할 수 있는 IPO 유통물량 역학을 다룬다.",
+    "points": [
+     "Anthropic, Google, Reflection AI와의 AI 컴퓨팅 거래에 주목한다.",
+     "추정 GPU 임대 단가와 전력 용량을 분석한다.",
+     "기가와트당 매출을 산출한다.",
+     "IPO 유통물량 역학이 단기 스퀴즈를 유발할 수 있다."
+    ],
+    "why": [
+     "SpaceX의 AI 인프라 사업 비중을 가늠하게 한다.",
+     "대형 IPO의 단기 수급 리스크를 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "fin-upi-pix-public-payment-rails",
+   "title": "UPI·Pix와 공공 결제 인프라의 부상",
+   "summary": "최근 주요 결제 혁신이 민간 네트워크보다 공공 또는 공공 지원형 결제 인프라에서 나오고 있다.",
+   "source": "TLDR Fintech",
+   "url": "https://links.tldrnewsletter.com/d9KSTm",
+   "report": {
+    "tldr": "최근 가장 중요한 결제 혁신은 민간 네트워크가 아닌 공공 결제 인프라에서 나오고 있다.",
+    "what": "최근 가장 의미 있는 결제 발전 중 일부는 민간 네트워크, 카드 체계, 지갑이 아니라 공공 또는 공공 지원형 결제 인프라에서 나왔다. 인도의 UPI와 브라질의 Pix가 대표 사례다.",
+    "points": [
+     "공공·공공 지원형 결제 인프라가 혁신을 주도하고 있다.",
+     "인도 UPI와 브라질 Pix가 대표 사례로 거론된다.",
+     "민간 카드 체계·지갑과 대비되는 흐름이다."
+    ],
+    "why": [
+     "결제 인프라 주도권이 공공 부문으로 이동하는 흐름을 보여준다.",
+     "민간 카드 네트워크의 시장 지배 구도에 변화를 시사한다."
+    ]
+   }
+  },
+  {
+   "id": "fin-stripe-directory-public-preview",
+   "title": "Stripe Directory 공개 프리뷰 출시",
+   "summary": "Stripe Directory는 개발자와 AI 에이전트가 사업체·서비스·기계 결제 엔드포인트를 검색하게 하는 디렉터리다.",
+   "source": "TLDR Fintech",
+   "url": "https://docs.stripe.com/directory",
+   "report": {
+    "tldr": "Stripe Directory는 AI 에이전트와 개발자가 사업체와 기계 결제 엔드포인트를 검색하게 하는 디렉터리다.",
+    "what": "Stripe Directory는 개발자와 AI 에이전트가 사업체, 서비스, Stripe Apps, 기계 결제 엔드포인트를 검색할 수 있게 하는 검색형 네트워크 디렉터리다. 기계 결제 인프라를 통한 프로그래밍 방식 결제를 지원하며, Stripe를 에이전틱 커머스의 인프라로 자리매김한다.",
+    "points": [
+     "검색형 네트워크 디렉터리로 사업체·서비스·앱을 찾을 수 있다.",
+     "AI 에이전트가 기계 결제 엔드포인트를 발견하도록 지원한다.",
+     "기계 결제 인프라를 통한 프로그래밍 방식 결제를 제공한다.",
+     "Stripe를 에이전틱 커머스 인프라로 포지셔닝한다."
+    ],
+    "why": [
+     "AI 에이전트 기반 결제 생태계의 기반 인프라를 제시한다.",
+     "Stripe의 에이전틱 커머스 전략 방향을 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "fin-thredd-visa-cloud-connect-apac",
+   "title": "Thredd, 아시아태평양에 Visa Cloud Connect 도입",
+   "summary": "AI 우선 발급 처리 플랫폼 Thredd가 아시아태평양 지역에 Visa Cloud Connect를 구현했다.",
+   "source": "TLDR Fintech",
+   "url": "https://links.tldrnewsletter.com/cvNfoc",
+   "report": {
+    "tldr": "Thredd가 아시아태평양에 Visa Cloud Connect를 도입하며 클라우드 전환에서 지역적 이정표를 세웠다.",
+    "what": "AI 우선 발급 처리 플랫폼인 Thredd가 아시아태평양에서 Visa Cloud Connect(VCC)를 구현했다. 이는 폭넓은 클라우드 전환 전략에서 지역적 이정표가 된다.",
+    "points": [
+     "Thredd는 AI 우선 발급 처리 플랫폼이다.",
+     "아시아태평양에 Visa Cloud Connect(VCC)를 구현했다.",
+     "클라우드 전환 전략의 지역적 이정표다."
+    ],
+    "why": [
+     "카드 발급 인프라의 클라우드 전환 흐름을 보여준다.",
+     "아시아태평양 결제 인프라 현대화의 사례다."
+    ]
+   }
+  },
+  {
+   "id": "fin-visa-mastercard-fend-off-fee-foes",
+   "title": "Visa·Mastercard, 수수료 인하 압박 방어",
+   "summary": "Visa와 Mastercard가 콜로라도·일리노이의 수수료 제한과 가맹점 소송 압박을 막아냈다.",
+   "source": "TLDR Fintech",
+   "url": "https://www.paymentsdive.com/news/visa-mastercard-fend-off-fee-foes/823395/",
+   "report": {
+    "tldr": "Visa와 Mastercard가 카드 수수료 인하를 막으려는 가맹점 측 시도를 방어했다.",
+    "what": "Visa와 Mastercard가 카드 수수료를 억제하려는 가맹점 노력에 맞서 승리를 거뒀다. 콜로라도와 일리노이의 주 차원 규제가 지연되고 연방 법원이 논란이 된 가맹점 합의를 승인하면서, 두 회사는 인터체인지·네트워크 수수료에 대한 지배력을 유지했다.",
+    "points": [
+     "콜로라도·일리노이의 주 차원 수수료 제한이 지연되었다.",
+     "연방 법원이 논란이 된 가맹점 합의를 승인했다.",
+     "Visa·Mastercard가 인터체인지·네트워크 수수료 지배력을 유지했다."
+    ],
+    "why": [
+     "카드 수수료 구조를 둘러싼 규제·소송 동향을 보여준다.",
+     "가맹점과 카드사 간 수수료 갈등의 현주소를 드러낸다."
+    ]
+   }
+  },
+  {
+   "id": "fin-ice-okx-tokenized-equities-joint-venture",
+   "title": "NYSE 모회사 ICE와 OKX, 토큰화 주식 합작사 설립",
+   "summary": "ICE와 OKX가 토큰화된 NYSE 주식·ICE 선물 거래를 위한 50대 50 합작사를 설립한다.",
+   "source": "TLDR Fintech",
+   "url": "https://thedefiant.io/converge/tradfi-and-fintech/ice-okx-50-50-joint-venture-tokenized-nyse-equities-cuomo-co-chair",
+   "report": {
+    "tldr": "ICE와 OKX가 토큰화 NYSE 주식·선물을 위한 50대 50 합작사를 설립한다.",
+    "what": "Intercontinental Exchange(ICE)와 OKX가 50대 50 합작사를 설립한다. 이 합작사는 토큰화된 NYSE 주식과 ICE 선물을 위한 규제 대상 미국 브로커-딜러 및 선물중개업자(FCM)를 구축할 예정이며, 규제 승인을 기다리고 있다.",
+    "points": [
+     "ICE와 OKX의 50대 50 합작사다.",
+     "규제 대상 미국 브로커-딜러와 선물중개업자(FCM)를 구축한다.",
+     "토큰화된 NYSE 주식과 ICE 선물을 대상으로 한다.",
+     "규제 승인을 기다리고 있다."
+    ],
+    "why": [
+     "전통 거래소와 암호화폐 거래소의 결합 사례다.",
+     "주식·선물의 토큰화 흐름이 제도권으로 확산됨을 보여준다."
+    ]
+   }
+  },
+  {
+   "id": "fin-polymarket-paid-creators-deceptive-videos",
+   "title": "Polymarket, 가짜 베팅 영상 제작에 크리에이터 매수 의혹",
+   "summary": "Polymarket이 가짜 거래·수익을 보여주는 홍보 영상 제작 대가로 크리에이터에게 비용을 지불했다는 보도가 나왔다.",
+   "source": "TLDR Fintech",
+   "url": "https://techcrunch.com/2026/06/21/polymarket-reportedly-paid-creators-to-post-deceptive-videos-about-fake-bets/",
+   "report": {
+    "tldr": "Polymarket이 가짜 베팅·수익을 보여주는 홍보 영상 제작에 크리에이터를 매수했다는 보도가 나왔다.",
+    "what": "월스트리트저널 조사에 따르면 Polymarket은 온라인 크리에이터에게 비용을 지불해 홍보 영상을 게시하게 했다. 이 영상들은 자사 예측시장 사이트와 거의 동일한 복제 사이트에서 가짜 거래와 수익을 보여줬다.",
+    "points": [
+     "Polymarket이 크리에이터에게 영상 제작 대가를 지불했다는 의혹이다.",
+     "영상은 가짜 거래와 수익을 보여줬다.",
+     "거의 동일하게 복제된 예측시장 사이트가 사용되었다.",
+     "월스트리트저널 조사로 드러났다."
+    ],
+    "why": [
+     "예측시장 플랫폼의 마케팅 신뢰성 문제를 제기한다.",
+     "기만적 홍보에 따른 규제·평판 리스크를 부각한다."
+    ]
+   }
+  },
+  {
+   "id": "fin-meta-900m-cred-india-whatsapp-boss",
+   "title": "Meta, 인도 Cred에 9억 달러 투자하며 새 WhatsApp 수장 임명",
+   "summary": "Meta가 인도 핀테크 Cred에 9억 달러를 투자해 약 20% 지분을 확보하고 창업자 Kunal Shah를 WhatsApp 수장으로 임명한다.",
+   "source": "TLDR Fintech",
+   "url": "https://links.tldrnewsletter.com/IlBoIZ",
+   "report": {
+    "tldr": "Meta가 인도 핀테크 Cred에 9억 달러를 투자하며 창업자를 WhatsApp 수장으로 임명한다.",
+    "what": "Meta가 인도 핀테크 Cred에 9억 달러($900M)를 투자해 약 20% 지분을 확보한다. 동시에 Cred 창업자 Kunal Shah를 WhatsApp 책임자로 임명한다.",
+    "points": [
+     "Meta가 Cred에 9억 달러를 투자한다.",
+     "약 20% 지분을 확보한다.",
+     "Cred 창업자 Kunal Shah가 WhatsApp 수장으로 임명된다."
+    ],
+    "why": [
+     "Meta의 인도 핀테크·결제 시장 공략 의지를 보여준다.",
+     "WhatsApp의 결제·커머스 전략 강화 방향을 시사한다."
+    ]
+   }
+  }
+ ]
+}
