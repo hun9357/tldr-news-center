@@ -1,0 +1,93 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-snapchat-brands",
+      "title": "스냅챗은 어떻게 남다르게 브랜드를 키우나",
+      "summary": "단순 도달보다 의미 있는 인게이지먼트가 브랜드 구축에 효과적이며, 영상·AR·스폰서 콘텐츠의 포맷 다양화가 광고 회상·구매 의향을 높였다.",
+      "source": "Snapchat for Business",
+      "url": "https://forbusiness.snapchat.com/blog/how-snapchat-builds-brands",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "포맷 다양성이 반복 노출보다 브랜드를 더 키운다.",
+        "what": "스냅챗 연구에서 의미 있는 인게이지먼트와 영상·AR·스폰서 콘텐츠의 포맷 다양화가 단일 포맷 반복보다 광고 회상·구매 의향을 크게 높였다.",
+        "points": ["인게이지먼트 > 도달", "포맷 다양화 효과"],
+        "why": ["크리에이티브 전략의 ROI 재평가", "플랫폼별 포맷 믹스 중요"]
+      }
+    },
+    {
+      "id": "marketing-burnout",
+      "title": "소셜 미디어 마케터의 숨은 번아웃 위기",
+      "summary": "소셜 마케터의 40% 이상이 2년 내 이직을 계획하며, 전략·디자인·CS·위기관리를 한데 묶은 역할과 상시 연결성이 원인으로 꼽혔다.",
+      "source": "The Conversation",
+      "url": "https://theconversation.com/the-hidden-burnout-crisis-facing-social-media-marketers-283216",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "역할 과부하와 상시 연결이 소셜 마케터를 소진시킨다.",
+        "what": "소셜 마케터의 40%+가 2년 내 이직을 계획하며, 다역할 부담과 업무 앱 상시 연결이 단절을 막는 점이 지목됐다.",
+        "points": ["40%+ 2년 내 이직 의향", "다역할·상시 연결 부담"],
+        "why": ["팀 안정성·채용 리스크", "역할 재설계 필요"]
+      }
+    },
+    {
+      "id": "marketing-gamify",
+      "title": "제품 프로모션을 게임화하라",
+      "summary": "확률 기반 게임형 프로모션이 정보 확인 클릭을 67% 높였고 패션·간식 같은 재미 제품의 구매 관심을 크게 끌어올렸다.",
+      "source": "Science Says",
+      "url": "https://app.sciencesays.com/p/gamify-your-product-promotions",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "게임화가 참여와 구매 의향을 동시에 끌어올린다.",
+        "what": "확률 기반 게임형 프로모션이 정보 확인 클릭을 67% 높이고 재미 위주 제품의 구매 관심을 증대시켰다.",
+        "points": ["클릭 67% 증가", "재미 제품군에서 효과적"],
+        "why": ["참여형 프로모션 설계의 근거", "전환 퍼널 상단 강화"]
+      }
+    },
+    {
+      "id": "marketing-pmax-net-new",
+      "title": "퍼포먼스 맥스를 신규 고객에 집중시키는 법",
+      "summary": "구글의 1st파티 오디언스 제외 기능으로 브랜드·방문자·기존 고객을 빼 P맥스를 진짜 신규 발굴에 맞출 수 있다.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/performance-max-net-new-customers-480802",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "오디언스 제외로 P맥스의 '쉬운 전환' 편향을 교정한다.",
+        "what": "구글의 새 1st파티 오디언스 제외 기능으로 기존 고객·방문자를 제외해 퍼포먼스 맥스를 신규 고객 확보로 유도할 수 있다.",
+        "points": ["1st파티 제외 기능", "신규 고객 프로스펙팅 강화"],
+        "why": ["P맥스 효율의 착시 보정", "증분 매출 측정 개선"]
+      }
+    },
+    {
+      "id": "marketing-martech-budgets",
+      "title": "마테크 비중 줄고 페이드 미디어 늘었다",
+      "summary": "가트너 조사에서 마테크 지출이 예산의 19%(2021년 27%)로 줄고 페이드 미디어는 31%로 상승, 캠페인 성과는 하락했다.",
+      "source": "Chief Marketer",
+      "url": "https://www.chiefmarketer.com/gartner-cmo-spend-survey-budgets-reflect-increase-in-consumption-based-martech-paid-media-spend/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "예산 무게추가 마테크에서 페이드 미디어로 이동했다.",
+        "what": "가트너 CMO 조사에서 마테크가 예산의 19%로 축소되고 페이드 미디어가 31%로 늘었으며, 성과 목표 달성 CMO는 줄었다.",
+        "points": ["마테크 27%→19%", "페이드 미디어 31%"],
+        "why": ["소비 기반 마테크로의 전환", "예산 효율 압박 심화"]
+      }
+    },
+    {
+      "id": "marketing-vibe-code",
+      "title": "마케팅 리더 300+ \"AI 코드 생성이 팀을 강화\"",
+      "summary": "마케팅 리더 41%가 자동화·통합 위주로 AI 코드 생성을 워크플로에 내재화했으나, 교육 우선순위를 둔 곳은 21%에 그쳤다.",
+      "source": "User Evidence",
+      "url": "https://userevidence.com/vibe-coding-marketing-report/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "마케팅에도 '바이브 코딩'이 스며들지만 교육은 뒤처진다.",
+        "what": "마케팅 리더 41%가 AI 코드 생성을 주로 자동화·통합에 쓰고 있으나, 스킬 격차에도 21%만 교육을 우선했다.",
+        "points": ["41% 워크플로 내재화", "21%만 교육 우선"],
+        "why": ["마케팅 직무의 기술화", "역량 격차가 도입 효과 제약"]
+      }
+    }
+  ]
+}

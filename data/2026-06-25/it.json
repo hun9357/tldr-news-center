@@ -1,0 +1,107 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "💻",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-qualcomm-modular",
+      "title": "퀄컴, 모듈러 39억 달러 인수…엔비디아 CUDA 해자 도전",
+      "summary": "AI 워크로드를 여러 칩에서 구동하는 이식성으로 엔비디아 소프트웨어 독점에 맞서기 위해 퀄컴이 모듈러를 39억 달러에 인수.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4189098/qualcomms-3-9-billion-purchase-of-modular-aims-to-change-the-data-center-dynamic.html",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "퀄컴이 소프트웨어로 엔비디아 락인을 깨려 한다.",
+        "what": "퀄컴이 모듈러를 39억 달러에 인수해 AI 워크로드를 칩 간 이식 가능하게 만들어 엔비디아 CUDA 생태계에 도전한다.",
+        "points": ["39억 달러 M&A", "칩 간 이식성으로 CUDA 대항"],
+        "why": ["AI 소프트웨어 스택의 탈엔비디아 흐름", "데이터센터 칩 경쟁 구도 변화"]
+      }
+    },
+    {
+      "id": "it-claude-tag-slack",
+      "title": "앤트로픽, 슬랙 속 클로드를 상시 에이전트 동료로 재구성",
+      "summary": "기존 클로드 슬랙 커넥터를 대체하는 '클로드 태그'는 팀에 상주하며 채널을 학습하고 멘션으로 위임 작업을 처리한다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/06/23/anthropic-reimagines-claude-in-slack-as-nosy-always-on-agentic-ai-coworker/5260422",
+      "originalDate": "2026-06-23",
+      "report": {
+        "tldr": "협업 도구 안에 상시 거주하는 AI 동료가 표준이 되어간다.",
+        "what": "앤트로픽이 클로드 슬랙 커넥터를 클로드 태그로 교체해, 팀에 합류해 채널을 학습하고 멘션 기반 위임 작업을 수행하는 상시 에이전트로 바꿨다.",
+        "points": ["상시 가동 에이전트", "채널 맥락 학습·멘션 위임"],
+        "why": ["업무 협업의 상시 AI 접점화", "접근 통제·데이터 거버넌스 필요"]
+      }
+    },
+    {
+      "id": "it-ai-coding-costs",
+      "title": "가트너 \"AI 코딩 비용, 개발자 임금 추월 가능\"",
+      "summary": "토큰 가격 상승으로 2028년이면 AI 코딩 지출이 평균 개발자 임금을 넘을 수 있어 FinOps형 거버넌스가 필요하다는 경고.",
+      "source": "CIO Dive",
+      "url": "https://www.ciodive.com/news/ai-spending-outpacing-human-developers/823690/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "AI 코딩의 토큰 비용이 새로운 통제 대상으로 떠올랐다.",
+        "what": "가트너가 토큰 가격 상승으로 2028년 AI 코딩 비용이 평균 개발자 임금을 추월할 수 있다며 FinOps식 거버넌스 도입을 권고했다.",
+        "points": ["2028년 임금 추월 전망", "FinOps형 비용 통제 필요"],
+        "why": ["AI 생산성의 숨은 비용 가시화", "토큰 예산·거버넌스 체계 요구"]
+      }
+    },
+    {
+      "id": "it-passkey-shame",
+      "title": "패스키 미지원 기업 공개 사이트 등장",
+      "summary": "보안 연구자 스콧 헬미의 새 추적기가 인스타그램·넷플릭스·스포티파이 등 패스키 로그인이 없는 주요 앱을 지목한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/24/new-website-names-and-shames-companies-that-still-dont-offer-passkeys-to-users/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "패스키 채택 압박을 '공개 지목'으로 가하는 도구가 나왔다.",
+        "what": "스콧 헬미가 인스타그램·넷플릭스·스포티파이 등 패스키 미지원 주요 앱을 식별하는 추적 사이트를 공개했다.",
+        "points": ["패스키 미지원 앱 명단화", "주요 소비자 서비스 다수 포함"],
+        "why": ["피싱 내성 인증 채택 가속", "기업 보안 평판 압박"]
+      }
+    },
+    {
+      "id": "it-superhuman-gptzero",
+      "title": "슈퍼휴먼, GPTZero 인수…AI 진위 검증 계층 추가",
+      "summary": "슈퍼휴먼이 GPTZero를 인수해 AI 탐지·표절 검사·콘텐츠 진위 검증을 생산성 플랫폼에 통합한다.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/06/24/grammarly-parent-superhuman-buys-ai-detector-gptzero/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "AI 콘텐츠 검증이 생산성 도구의 기능으로 편입됐다.",
+        "what": "그래멀리 모회사 슈퍼휴먼이 AI 탐지기 GPTZero를 인수해 진위·표절 검증 계층을 제품에 더한다.",
+        "points": ["GPTZero 인수", "AI 탐지·표절·진위 검증 통합"],
+        "why": ["AI 생성물 범람 속 진위 수요", "생산성 스위트의 신뢰 기능 경쟁"]
+      }
+    },
+    {
+      "id": "it-bunny-dns-free",
+      "title": "버니, DNS 무료화로 엣지 플랫폼 유입 확대",
+      "summary": "버니닷넷이 DNS 쿼리 요금을 없애고 최대 500개 도메인 무료 호스팅을 제공하며 DNS를 엣지 서비스 진입점으로 삼았다.",
+      "source": "Bunny.net",
+      "url": "https://bunny.net/blog/were-making-bunny-dns-free/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "DNS를 미끼로 엣지 생태계로 끌어들이는 전략.",
+        "what": "버니닷넷이 DNS 쿼리 요금을 폐지하고 도메인 500개까지 무료 호스팅을 열어 엣지 플랫폼 진입을 유도한다.",
+        "points": ["DNS 쿼리 요금 폐지", "최대 500 도메인 무료"],
+        "why": ["엣지 서비스 유입 퍼널 확대", "CDN·DNS 가격 경쟁 심화"]
+      }
+    },
+    {
+      "id": "it-google-apps-script",
+      "title": "구글 앱스 스크립트, 워크스페이스 코어 서비스로 격상",
+      "summary": "앱스 스크립트가 엔터프라이즈급 보호·관리자 제어·공식 지원을 받는 구글 워크스페이스 코어 서비스가 됐다.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/06/google-apps-script-workspace-core-service.html",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "사내 자동화 도구가 정식 거버넌스 대상으로 승격됐다.",
+        "what": "구글이 앱스 스크립트를 엔터프라이즈 보호·관리자 제어·공식 지원이 적용되는 워크스페이스 코어 서비스로 지정했다.",
+        "points": ["관리자 제어·공식 지원 적용", "코어 서비스 편입"],
+        "why": ["섀도 자동화의 거버넌스 확보", "엔터프라이즈 컴플라이언스 강화"]
+      }
+    }
+  ]
+}

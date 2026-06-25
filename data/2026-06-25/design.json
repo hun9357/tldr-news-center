@@ -1,0 +1,51 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-wb-animation-logo",
+      "title": "워너브라더스 애니메이션, 손맛 살린 새 로고 공개",
+      "summary": "아네시에서 공개된 플랫 디자인 로고로, 트위티를 품은 단순화된 WB 실드가 CGI 과잉에 대한 반작용으로 전통 수작업 애니메이션을 환기한다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/art/animation/new-warner-bros-animation-logo-reveal-is-the-perfect-antidote-to-cgi-saturation",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "플랫·수작업 감성으로 CGI 피로감에 응답한 리브랜딩.",
+        "what": "워너브라더스가 아네시에서 트위티를 품은 단순화된 WB 실드의 플랫 디자인 애니메이션 로고를 공개했다.",
+        "points": ["플랫 디자인 + 수작업 감성", "CGI 과잉에 대한 반작용"],
+        "why": ["브랜드 정체성의 노스탤지어 활용", "애니메이션 미감 트렌드 전환"]
+      }
+    },
+    {
+      "id": "design-iphone-ultra-hinge",
+      "title": "애플 폴더블 '아이폰 울트라' 힌지 문제 해결…9월 출시설",
+      "summary": "3D 프린팅 힌지의 내구성·생산 이슈를 해결하고 시험 생산에 들어가, 9월 발표 직후 출시가 예상된다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/06/24/iphone-ultra-3d-printed-hinge-problems-reportedly-solved-ready-for-september-launch/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "애플 폴더블의 핵심 난제였던 힌지가 풀렸다는 신호.",
+        "what": "애플이 폴더블 아이폰 울트라의 3D 프린팅 힌지 내구성·제조 문제를 해결하고 시험 생산에 진입, 9월 발표 후 출시가 점쳐진다.",
+        "points": ["3D 프린팅 힌지 이슈 해결", "9월 발표·출시 전망"],
+        "why": ["폴더블 폼팩터 대중화의 분기점", "산업 디자인·내구성 난제 돌파"]
+      }
+    },
+    {
+      "id": "design-adobe-firefly-graph",
+      "title": "어도비 파이어플라이 그래프, 워크플로를 재사용 자산으로",
+      "summary": "AI 창작 작업을 연결해 재사용 가능한 프로세스로 묶는 노드 기반 도구로, 어도비·서드파티의 300여 노드 유형을 지원한다.",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4186410/adobe-new-firefly-graph-can-turn-creative-workflows-into-reusable-assets.html",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "노드 그래프로 AI 창작 파이프라인을 모듈화한다.",
+        "what": "어도비가 AI 창작 작업을 체이닝해 재사용 가능한 프로세스로 만드는 노드 기반 도구 파이어플라이 그래프를 출시했다.",
+        "points": ["노드 기반 워크플로", "300+ 노드 유형 지원"],
+        "why": ["크리에이티브 자동화의 재현성·확장성", "디자이너의 파이프라인 사고 확산"]
+      }
+    }
+  ]
+}

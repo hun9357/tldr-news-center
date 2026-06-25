@@ -1,0 +1,170 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-jalapeno-chip",
+      "title": "오픈AI·브로드컴, 첫 커스텀 추론 칩 'Jalapeño' 공개",
+      "summary": "AI 보조 설계로 9개월 만에 완성한 LLM 추론 가속기로, 와트당 성능을 최적화해 기가와트급 데이터센터 배치를 노린다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip/",
+      "originalDate": "2026-06-24",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Strategy / Infra",
+        "status": "Act",
+        "affectedSurface": "AI 추론 인프라 · 데이터센터 실리콘"
+      },
+      "related": [
+        "퀄컴, 모듈러 39억 달러 인수로 엔비디아 CUDA 해자 도전",
+        "퀄컴 드래곤플라이 C1000, 첫 고객으로 메타 확보",
+        "가트너: AI 코딩 비용이 개발자 임금 추월 가능"
+      ],
+      "report": {
+        "tldr": "오픈AI가 자체 추론 칩으로 풀스택 수직통합을 가속하며 엔비디아 의존을 낮춘다.",
+        "what": "오픈AI와 브로드컴이 LLM 추론 전용 가속기 Jalapeño를 9개월 만에 공동 설계해 공개했다. AI 보조 설계 기법을 활용했으며 와트당 성능에 초점을 맞춰 기가와트급 배치를 목표로 한다.",
+        "points": [
+          "추론 워크로드 전용으로 와트당 성능 최적화",
+          "AI 보조 설계로 통상보다 빠른 9개월 개발 주기",
+          "모델·제품·실리콘을 잇는 풀스택 전략의 핵심 축"
+        ],
+        "why": [
+          "엔비디아 단일 의존을 줄이고 추론 단가를 자체 통제",
+          "프런티어 랩들의 커스텀 실리콘 경쟁을 가속"
+        ],
+        "context": "추론(inference)은 학습된 모델을 실제 서비스에 돌리는 단계로, 대규모 사용자 트래픽에서 비용을 좌우한다.",
+        "action": "AI 인프라 조달 전략에서 가속기 다변화·전력 효율을 핵심 변수로 재평가."
+      }
+    },
+    {
+      "id": "ai-gemini-computer-use",
+      "title": "구글, 제미나이 3.5 플래시에 '컴퓨터 유즈' 탑재",
+      "summary": "스크린샷을 해석해 데스크톱 UI를 직접 조작하는 네이티브 기능으로 소프트웨어 전반의 에이전트 작업을 수행한다.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "제미나이가 화면을 보고 클릭·입력하는 컴퓨터 조작 에이전트로 확장됐다.",
+        "what": "구글이 제미나이 3.5 플래시에 네이티브 컴퓨터 유즈를 추가해 스크린샷 처리 기반으로 디지털 데스크톱 인터페이스를 직접 조작하게 했다.",
+        "points": ["스크린샷 인식 후 클릭·입력 등 사용자 행동 실행", "커스텀 자동화 에이전트 구축 지원"],
+        "why": ["앤트로픽·오픈AI에 이은 컴퓨터 유즈 경쟁 가열", "에이전트형 RPA 시장 확대"]
+      }
+    },
+    {
+      "id": "ai-google-talent-anthropic",
+      "title": "제미나이 핵심 연구자 2인, 구글 떠나 앤트로픽 합류",
+      "summary": "요나스 아들러·알렉산더 프리첼이 구글을 떠나며, 톱 AI 인재의 경쟁사 이탈 흐름이 이어졌다.",
+      "source": "Bloomberg (via TechCrunch)",
+      "url": "https://techcrunch.com/2026/06/24/ai-researchers-continue-to-leave-google-for-its-rivals/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "구글발 인재 이탈이 앤트로픽으로 향하는 흐름이 굳어진다.",
+        "what": "구글 제미나이 연구진 2명이 앤트로픽으로 옮기며 프런티어 랩 간 인재 쟁탈전이 계속됐다.",
+        "points": ["요나스 아들러·알렉산더 프리첼 이직", "구글 → 경쟁사 패턴 지속"],
+        "why": ["프런티어 모델 역량은 핵심 인재에 집중", "조직 간 R&D 격차에 직결"]
+      }
+    },
+    {
+      "id": "ai-anthropic-alibaba-distill",
+      "title": "앤트로픽·알리바바, AI 디스틸링 파트너십",
+      "summary": "프런티어 모델의 추론 능력을 안전 정렬을 유지한 채 경량 엣지 모델로 압축하는 공동 프레임워크를 공개했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "프런티어급 추론을 엣지로 옮기는 디스틸링 협업이 본격화됐다.",
+        "what": "앤트로픽과 알리바바가 고급 추론 능력을 경량 모델로 증류(distillation)하면서 안전 정렬을 보존하는 협력 프레임워크를 출시했다.",
+        "points": ["프런티어 → 경량 엣지 모델 능력 압축", "안전 정렬 유지가 핵심"],
+        "why": ["온디바이스·저비용 추론 수요 대응", "미·중 AI 협력의 드문 사례"]
+      }
+    },
+    {
+      "id": "ai-glm-52-open-agents",
+      "title": "GLM-5.2, 오픈소스 에이전트의 변곡점",
+      "summary": "벤치마크 향상은 소폭이지만 코딩·범용 에이전트 능력에서 호평받으며 오픈 에이전트 생태계의 도약으로 평가된다.",
+      "source": "Interconnects.ai",
+      "url": "https://interconnects.ai/p/glm-52-is-the-step-change-for-open",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "GLM-5.2가 오픈소스 에이전트의 실질 성능을 끌어올렸다.",
+        "what": "GLM-5.2가 수치상 벤치마크는 완만하게 올랐지만 코딩과 범용 에이전트 작업에서 커뮤니티의 호평을 받았다.",
+        "points": ["오픈 가중치 에이전트 성능 강화", "코딩 태스크 경쟁력 부각"],
+        "why": ["폐쇄형 프런티어 대비 오픈 대안 입지 확대", "에이전트 비용 구조 재편"]
+      }
+    },
+    {
+      "id": "ai-amazon-perplexity",
+      "title": "아마존, 퍼플렉시티 제소 — '에이전트 위장' 쟁점",
+      "summary": "퍼플렉시티 브라우저가 크롬으로 위장해 에이전트임을 명시하지 않고 아마존 스토어 약관을 위반했다는 주장.",
+      "source": "Educated Guesswork",
+      "url": "https://educatedguesswork.org/posts/notes-amazon-perplexity/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "AI 에이전트의 '신원 표시' 의무가 법적 쟁점으로 떠올랐다.",
+        "what": "아마존이 퍼플렉시티 에이전트 브라우저가 스스로를 크롬으로 식별해 약관을 위반했다며 소송을 제기했다.",
+        "points": ["에이전트의 User-Agent 위장 논란", "스토어 약관 위반 주장"],
+        "why": ["에이전트 트래픽의 식별·차단 정책 선례", "쇼핑 에이전트 생태계 규칙 형성"]
+      }
+    },
+    {
+      "id": "ai-gpt55-instant",
+      "title": "오픈AI, 챗GPT에 GPT-5.5 인스턴트 업그레이드 배포",
+      "summary": "유·무료 사용자 전반에 자연스러움과 실용성을 개선한 GPT-5.5 인스턴트 모델을 적용했다.",
+      "source": "OpenAI",
+      "url": "https://x.com/openai/status/2069843083701915755",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "기본 대화 모델의 품질을 끌어올린 점진 업데이트.",
+        "what": "오픈AI가 챗GPT의 GPT-5.5 인스턴트 모델을 업그레이드해 전 사용자 등급에 배포했다.",
+        "points": ["응답 자연스러움·유용성 개선", "유·무료 동시 적용"],
+        "why": ["기본 모델 품질이 사용자 체감에 직결", "경쟁 모델과의 일상 사용성 격차"]
+      }
+    },
+    {
+      "id": "ai-perplexity-counsel",
+      "title": "퍼플렉시티, 법무 전용 '컴퓨터 포 카운슬' 출시",
+      "summary": "리서치·문서 수집·계약 검토를 자동화하는 로펌용 법무 운영 도구를 공개했다.",
+      "source": "Perplexity",
+      "url": "https://perplexity.ai/hub/blog/introducing-computer-for-counsel",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "퍼플렉시티가 수직 도메인(법무)으로 에이전트를 확장했다.",
+        "what": "퍼플렉시티가 법무 리서치·문서 수집·계약 검토를 자동화하는 전용 도구를 출시했다.",
+        "points": ["법무 워크플로 특화 에이전트", "계약 검토 자동화"],
+        "why": ["고부가 전문 시장 공략", "버티컬 AI 경쟁 심화"]
+      }
+    },
+    {
+      "id": "ai-mirendil-funding",
+      "title": "앤트로픽 출신 미렌딜, 2억 달러 조달",
+      "summary": "과학자들이 맞춤형 AI 시스템을 만들도록 돕는 미렌딜이 2억 달러를 유치하며 AI 개발 대중화를 표방했다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/anthropic-veterans-startup-seeks-to-help-scientists-develop-their-own-ai",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "전문가용 맞춤 AI 개발 플랫폼에 대형 자금이 몰렸다.",
+        "what": "앤트로픽 출신이 창업한 미렌딜이 과학자 맞춤형 AI 구축을 돕는다며 2억 달러를 조달했다.",
+        "points": ["과학 도메인 맞춤 AI 구축 지원", "2억 달러 펀딩"],
+        "why": ["프런티어 랩 인재의 창업 확산", "도메인 특화 AI 인프라 수요"]
+      }
+    },
+    {
+      "id": "ai-power-amazon-google",
+      "title": "AI 전력 경쟁, 아마존·구글이 선두",
+      "summary": "아마존이 데이터센터·전력 캐파에서 기득 우위를 유지하나 2030년까지 구글이 격차를 크게 좁힐 전망.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/business/energy-oil/as-ai-companies-race-for-power-amazon-and-google-have-the-lead",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "AI 경쟁의 승부처가 전력 확보로 이동했다.",
+        "what": "AI 전력 확보전에서 아마존이 인프라·전력 캐파로 앞서 있으나 구글이 2030년까지 격차를 좁힐 것으로 분석됐다.",
+        "points": ["전력 캐파가 AI 확장의 병목", "구글의 추격 가속 전망"],
+        "why": ["컴퓨팅 못지않게 전력이 핵심 자원", "데이터센터 입지·전력계약 경쟁"]
+      }
+    }
+  ]
+}

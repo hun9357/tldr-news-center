@@ -1,0 +1,121 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-openai-jalapeno",
+      "title": "오픈AI, 브로드컴과 'Jalapeño' 추론 칩 공개",
+      "summary": "9개월 만에 설계한 첫 자체 추론 칩으로 모델 배포·제품을 아우르는 풀스택 전략의 분기점이 됐다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/24/openai-and-broadcom-reveal-jalapeno-first-ai-chip-in-partnership.html",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "오픈AI가 자체 실리콘으로 수직통합을 본격화했다.",
+        "what": "오픈AI와 브로드컴이 9개월 만에 추론 칩 Jalapeño를 설계해 풀스택 AI 전략의 핵심 단계를 밟았다.",
+        "points": ["추론 전용 가속기", "브로드컴과 공동 설계"],
+        "why": ["엔비디아 의존 축소", "추론 단가 자체 통제"]
+      }
+    },
+    {
+      "id": "tech-tesla-sunrun-vpp",
+      "title": "테슬라·선런, 16GW 가상발전소 가동",
+      "summary": "가정용 배터리·기기를 묶어 미국 최대 분산 발전소를 구성, 버지니아에 300MW+ 확보하며 데이터센터 전력 수요에 대응.",
+      "source": "Electrek",
+      "url": "https://electrek.co/2026/06/24/tesla-sunrun-16gw-vpp-data-centers/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "분산 가상발전소가 데이터센터 전력난의 새 해법으로 떠올랐다.",
+        "what": "테슬라·선런·리뉴홈이 가정용 배터리를 집합해 16GW 규모 분산 발전소를 띄웠고, 버지니아에 300MW+가 준비됐으며 2030년 500MW+를 목표로 한다.",
+        "points": ["미국 최대 분산 가상발전소(VPP)", "2030년 500MW+ 목표"],
+        "why": ["AI 데이터센터 전력 수요 급증 대응", "전력망 유연성 자원으로 부상"]
+      }
+    },
+    {
+      "id": "tech-qualcomm-dragonfly-meta",
+      "title": "퀄컴 드래곤플라이 칩, 첫 고객으로 메타 확보",
+      "summary": "메타가 퀄컴 드래곤플라이 C1000 데이터센터 프로세서의 첫 공개 고객이 됐으며 2028년 출시 예정.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/qualcomm-dragonfly-meta-ai-data-center-chips-modular",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "퀄컴이 데이터센터 AI 칩으로 메타라는 대형 앵커 고객을 잡았다.",
+        "what": "메타가 퀄컴 드래곤플라이 C1000 데이터센터 프로세서의 첫 공개 고객으로 발표됐으며 칩은 2028년 출시된다.",
+        "points": ["메타가 첫 명시 고객", "2028년 출시 로드맵"],
+        "why": ["퀄컴의 데이터센터 진입 신호", "엔비디아 대안 다변화"]
+      }
+    },
+    {
+      "id": "tech-intercept-fund",
+      "title": "5억 달러 '인터셉트 펀드', 감기 박멸 도전",
+      "summary": "스트라이프·앤트로픽이 후원하는 연구 이니셔티브가 공기 정화·치료제 개발로 감기·독감 등 호흡기 감염 박멸을 노린다.",
+      "source": "Time",
+      "url": "https://time.com/article/2026/06/24/500-million-intercept-fund-eliminate-common-cold/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "테크 자본이 호흡기 감염 박멸이라는 공중보건 문제에 베팅했다.",
+        "what": "스트라이프·앤트로픽이 후원하는 5억 달러 인터셉트 펀드가 공기 여과와 치료제 개발로 감기·독감 박멸을 추진한다.",
+        "points": ["5억 달러 규모", "공기 정화 + 치료제 개발"],
+        "why": ["테크 거물의 바이오·공중보건 투자 확대", "팬데믹 대비 인프라 관점"]
+      }
+    },
+    {
+      "id": "tech-familiar-robot",
+      "title": "전 아이로봇 CEO, 케어 로봇 '패밀리어' 출시",
+      "summary": "콜린 앵글이 클라우드 전송 없이 로컬 AI로 가족을 살피는 표현형 로봇 패밀리어 머신스를 선보였다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/familiar-machines-and-magic-robot-c8711e45",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "온디바이스 AI 기반 가정용 케어 로봇이 등장했다.",
+        "what": "아이로봇 전 CEO 콜린 앵글이 로컬 AI 모델로 데이터를 클라우드에 보내지 않고 가족을 모니터링하는 로봇 패밀리어를 만들었다.",
+        "points": ["로컬 AI로 프라이버시 보존", "가족 케어·모니터링 용도"],
+        "why": ["가정용 소셜 로봇 시장 재도전", "온디바이스 AI 프라이버시 차별화"]
+      }
+    },
+    {
+      "id": "tech-aws-garman-jobs",
+      "title": "AWS CEO \"AI는 일자리를 없애기보다 바꾼다\"",
+      "summary": "매트 가먼이 AI가 직무를 변형시킬 뿐이라며 아마존이 1만1천 명의 인턴·주니어를 채용하는 이유를 설명했다.",
+      "source": "Platformer",
+      "url": "https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "AWS 수장은 AI를 일자리 대체가 아닌 변형으로 본다.",
+        "what": "매트 가먼 AWS CEO가 AI는 일자리를 없애기보다 바꾼다고 보며 아마존의 1만1천 인턴·주니어 채용 배경을 설명했다.",
+        "points": ["AI = 직무 변형론", "주니어 인재 1만1천 채용"],
+        "why": ["AI 시대 고용 담론의 반례 제시", "주니어 인력 가치 재평가"]
+      }
+    },
+    {
+      "id": "tech-amazon-bribery",
+      "title": "아마존 '그림자 뇌물 시장' 폭로",
+      "summary": "암호화 메신저에서 중개인이 대가를 받고 아마존 직원 접근권을 파는 시장이 드러났다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-24/inside-the-shadow-market-selling-access-to-amazon-employees",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "플랫폼 권력이 커질수록 내부자 접근권이 거래된다.",
+        "what": "암호화 메신저에서 중개인들이 비용을 받고 아마존 직원 접근을 알선하는 그림자 시장이 조사로 폭로됐다.",
+        "points": ["내부자 접근권 거래", "암호화 메신저 활용"],
+        "why": ["마켓플레이스 무결성·내부 통제 리스크", "셀러 생태계 공정성 훼손"]
+      }
+    },
+    {
+      "id": "tech-anthropic-whitehouse",
+      "title": "앤트로픽-백악관 협상, 궤도 회복",
+      "summary": "리더십 교체 후 톰 브라운·세라 헥이 협상을 이끌며 앤트로픽과 백악관의 외교적 대화가 개선됐다.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/anthropics-white-house-negotiations-are-reportedly-on-track",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "앤트로픽과 행정부의 관계가 협상 채널 개편으로 풀렸다.",
+        "what": "리더십 변화 이후 톰 브라운·세라 헥이 협상을 맡으면서 앤트로픽과 백악관 간 대화가 정상 궤도에 올랐다.",
+        "points": ["협상 담당 리더십 교체", "관계 개선"],
+        "why": ["AI 규제·조달의 정책 변수", "프런티어 랩-정부 관계 재편"]
+      }
+    }
+  ]
+}

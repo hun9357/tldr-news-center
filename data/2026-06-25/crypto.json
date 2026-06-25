@@ -1,0 +1,93 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-eth-foundation-cuts",
+      "title": "이더리움 재단, 54명 감원…최대 규모 구조조정",
+      "summary": "전체 인력의 약 20%인 54명을 줄이며 조직 정책 개편에 나섰고, 잔류 팀이 핵심 프로토콜 개발을 맡는다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2069408300148388113.html",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "이더리움 재단이 역대 최대 규모로 조직을 슬림화했다.",
+        "what": "이더리움 재단이 인력의 약 20%(54명)를 감축하는 대규모 구조조정을 단행했다.",
+        "points": ["인력 20% 감축", "핵심 프로토콜 개발 집중"],
+        "why": ["재단 역할·자원 배분 재편", "생태계 거버넌스 신호"]
+      }
+    },
+    {
+      "id": "crypto-btc-selloff",
+      "title": "비트코인, 테크 매도세에 6만3천 달러로 후퇴",
+      "summary": "반도체·AI 주식 차익실현으로 위험자산이 동반 약세를 보이며 BTC가 6만2,840달러까지 밀려 5만9천~6만 지지선을 시험.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/23/bitcoin-slips-toward-usd63-000-as-a-tech-selloff-drags-risk-assets-lower",
+      "originalDate": "2026-06-23",
+      "report": {
+        "tldr": "테크 셀오프가 암호자산까지 끌어내렸다.",
+        "what": "반도체·AI 주식 회전 매도로 나스닥 선물이 1.3% 빠지며 비트코인이 6만2,840달러로 하락, 5만9천~6만 달러 지지선을 시험했다.",
+        "points": ["BTC 6만2,840달러", "5만9천~6만 지지선 시험"],
+        "why": ["AI 주식과 암호자산 동조화", "위험자산 전반 변동성 확대"]
+      }
+    },
+    {
+      "id": "crypto-taiko-exploit",
+      "title": "타이코, 브리지 익스플로잇 후 네트워크 중단",
+      "summary": "깃허브에 노출된 서명 키를 악용한 공격으로 170만 달러가 유출되자 이더리움 L2 타이코가 네트워크를 멈췄다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/06/22/taiko-halts-its-ethereum-layer-2-network-after-a-bridge-exploit-token-dives-10",
+      "originalDate": "2026-06-22",
+      "report": {
+        "tldr": "노출된 키 한 개가 L2 전체를 멈춰 세웠다.",
+        "what": "타이코 L2가 깃허브에 노출된 서명 키를 악용당해 170만 달러가 탈취되며 네트워크를 중단했다.",
+        "points": ["서명 키 깃허브 노출", "170만 달러 유출·토큰 10% 급락"],
+        "why": ["2026년 브리지 보안 취약 추세", "키 관리·시크릿 위생의 중요성"]
+      }
+    },
+    {
+      "id": "crypto-0x-ai-agents",
+      "title": "0x, AI 에이전트에 스왑 API 개방…요청당 0.01달러",
+      "summary": "x402 표준으로 AI 에이전트가 API 키 없이 USDC 마이크로페이먼트(요청당 0.01달러)로 DEX 집계를 이용한다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/0x-swap-api-ai-agents-usdc-payment-x402",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "에이전트가 스테이블코인으로 온체인 서비스를 사용하는 시대.",
+        "what": "0x 프로토콜이 x402 표준을 통해 AI 에이전트가 요청당 0.01달러 USDC로 DEX 집계 API를 쓸 수 있게 했다.",
+        "points": ["API 키 대신 마이크로페이먼트", "x402 결제 표준 채택"],
+        "why": ["에이전트 경제의 결제 레일 형성", "온체인-AI 통합 가속"]
+      }
+    },
+    {
+      "id": "crypto-synthetix-susd",
+      "title": "신스테틱스, sUSD 폐지…베스팅 SNX로 보상",
+      "summary": "거버넌스가 sUSD 스테이블코인을 동결·폐지하고 보유자에게 달러 페그 대신 베스팅 SNX 토큰으로 보상하기로 했다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/synthetix-governance-retire-susd-sip-423-vested-snx",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "탈중앙 스테이블코인이 페그 유지를 포기하고 청산 경로를 택했다.",
+        "what": "신스테틱스 거버넌스가 sUSD를 동결·폐지하고 보유자를 베스팅 SNX로 보상하는 제안을 통과시켰다.",
+        "points": ["sUSD 동결·폐지", "베스팅 SNX 보상"],
+        "why": ["알고리즘·과담보 스테이블코인 모델 한계", "DeFi 페그 자산 신뢰 이슈"]
+      }
+    },
+    {
+      "id": "crypto-bitmine-eth",
+      "title": "비트마인, ETH 52,203개 추가 매입…최대 기업 보유자",
+      "summary": "톰 리가 '크립토 최고의 해는 아직'이라 밝힌 가운데 비트마인이 ETH를 추가해 567만 개(공급의 4.7%)를 보유했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/405595/tom-lee-says-best-years-for-crypto-remain-ahead-as-bitmine-buys-another-52203-eth",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "기업 자금이 ETH를 대규모로 흡수하고 있다.",
+        "what": "비트마인이 ETH 52,203개를 더 사들여 567만 개(공급 4.7%)로 세계 최대 기업 ETH 보유자가 됐다.",
+        "points": ["총 567만 ETH 보유", "공급의 4.7% 차지"],
+        "why": ["기업 트레저리의 ETH 집중", "유통 공급 감소 압력"]
+      }
+    }
+  ]
+}

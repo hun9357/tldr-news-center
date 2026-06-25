@@ -1,0 +1,107 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "👨‍💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-posthog-sql-parser",
+      "title": "코드는 거의 안 보고 만든 70배 빠른 SQL 파서",
+      "summary": "포스트호그가 속성 기반 테스트와 프롬프트 엔지니어링으로 기존 C++ ANTLR 구현보다 크게 빠른 AI 기반 SQL 파서를 만들었다.",
+      "source": "PostHog",
+      "url": "https://posthog.com/blog/sql-parser",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "AI + 속성 기반 테스트로 성능과 생산성을 동시에 잡았다.",
+        "what": "포스트호그가 프로퍼티 기반 테스트와 프롬프트 설계를 활용해 C++ ANTLR 대비 70배 빠른 SQL 파서를 구현했다.",
+        "points": ["속성 기반 테스트로 정합성 검증", "ANTLR 대비 70배 성능"],
+        "why": ["검증 가능한 AI 코드 생성 방법론", "핵심 인프라의 AI 재작성 사례"]
+      }
+    },
+    {
+      "id": "dev-stubzero-gcp-rce",
+      "title": "스텁제로: 구글 클라우드 프로덕션 RCE에 14만 8천 달러 포상",
+      "summary": "디버깅 엔드포인트의 정보 노출이 완전한 원격 코드 실행 취약점으로 에스컬레이션됐다.",
+      "source": "BruteCat",
+      "url": "https://brutecat.com/articles/google-cloud-rce/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "남겨진 디버그 엔드포인트가 클라우드 RCE로 번졌다.",
+        "what": "구글 클라우드 프로덕션의 디버깅 엔드포인트 정보 노출이 완전한 RCE로 확대돼 14만 8,337달러 포상을 받았다.",
+        "points": ["디버그 엔드포인트 정보 노출", "RCE로 에스컬레이션"],
+        "why": ["프로덕션 디버그 인터페이스의 위험", "클라우드 공급자도 예외 아님"]
+      }
+    },
+    {
+      "id": "dev-prompt-injection-mech",
+      "title": "프롬프트 인젝션의 메커니즘적 설명",
+      "summary": "모델이 역할 지정을 구분하지 못하고 권한 태그보다 텍스트 스타일을 우선하기 때문에 인젝션 공격이 성립한다.",
+      "source": "LessWrong",
+      "url": "https://www.lesswrong.com/posts/d8xDGzCEYE639qqEv/a-mechanistic-explanation-of-prompt-injection-and-why-you",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "프롬프트 인젝션은 모델의 역할 인식 결함에서 비롯된다.",
+        "what": "LLM이 역할 지정(시스템·사용자)을 명확히 구분하지 못하고 권한 태그 대신 텍스트 스타일을 우선해 인젝션이 발생한다는 메커니즘 분석.",
+        "points": ["역할 태그보다 스타일 우선", "권한 경계 인식 취약"],
+        "why": ["에이전트 보안의 근본 원인 규명", "방어 설계의 출발점"]
+      }
+    },
+    {
+      "id": "dev-linear-stylex",
+      "title": "리니어, styled-components에서 StyleX로 이전",
+      "summary": "런타임 오버헤드를 줄이고 최신 리액트 기능을 지원하기 위해 리니어가 스타일링을 StyleX로 마이그레이션했다.",
+      "source": "skovhus.dev",
+      "url": "https://www.skovhus.dev/blog/moving-linear-from-styled-components-to-stylex",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "런타임 CSS-in-JS에서 컴파일 타임 StyleX로의 이동.",
+        "what": "리니어가 성능과 최신 리액트 지원을 위해 styled-components에서 StyleX로 스타일링을 옮겼다.",
+        "points": ["런타임 오버헤드 감소", "최신 리액트 호환성"],
+        "why": ["CSS-in-JS 성능 트레이드오프 재평가", "대규모 앱 스타일링 전략 참고"]
+      }
+    },
+    {
+      "id": "dev-http-query",
+      "title": "HTTP QUERY 메서드 RFC 등장",
+      "summary": "서버 리소스를 변경하지 않고 안전·무상태로 데이터 처리 요청을 보낼 수 있는 새 HTTP 메서드가 제안됐다.",
+      "source": "IETF",
+      "url": "https://datatracker.ietf.org/doc/rfc10008/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "본문 있는 안전한 조회를 위한 표준 메서드가 생겼다.",
+        "what": "리소스를 변경하지 않으면서 무상태로 데이터 처리 요청을 보내는 HTTP QUERY 메서드가 RFC로 제안됐다.",
+        "points": ["안전·무상태 데이터 조회", "본문 기반 쿼리 표준화"],
+        "why": ["GET URL 길이·캐싱 한계 보완", "API 설계 관행 변화"]
+      }
+    },
+    {
+      "id": "dev-naming-guide",
+      "title": "(대체로 옳은) 작명에 관한 의견 있는 가이드",
+      "summary": "좋은 작명 규칙은 팀 소통을 돕고 디버깅 복잡성을 줄이며 사람과 AI 코드 분석 모두의 이해를 높인다.",
+      "source": "adamtornhill.substack.com",
+      "url": "https://adamtornhill.substack.com/p/an-opinionated-and-mainly-correct",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "작명은 사람뿐 아니라 AI 가독성에도 직결된다.",
+        "what": "양질의 작명 규칙이 팀 커뮤니케이션과 디버깅, 그리고 사람·AI의 코드 이해를 모두 개선한다는 가이드.",
+        "points": ["일관된 작명의 효용", "AI 코드 분석에도 영향"],
+        "why": ["AI 협업 시대의 가독성 가치", "유지보수 비용 절감"]
+      }
+    },
+    {
+      "id": "dev-questdb-benchmarks",
+      "title": "거짓말, 새빨간 거짓말, 그리고 DB 벤치마크",
+      "summary": "프로세스 지속·반복 횟수 같은 방법론 차이만으로 성능 순위가 뒤바뀔 수 있음을 QuestDB가 실증했다.",
+      "source": "QuestDB",
+      "url": "https://questdb.com/blog/lies-damn-lies-and-database-benchmarks/",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "벤치마크는 방법론에 따라 결론이 달라진다.",
+        "what": "QuestDB가 프로세스 지속성과 반복 횟수 등 측정 방법이 데이터베이스 성능 순위를 좌우함을 보였다.",
+        "points": ["측정 방법이 순위 결정", "재현 가능한 조건 중요"],
+        "why": ["벤치마크 마케팅에 대한 경계", "기술 선택 시 검증 필요"]
+      }
+    }
+  ]
+}
