@@ -1,57 +1,201 @@
 {
   "name": "IT",
-  "source": "TLDR DevOps",
-  "icon": "💻",
+  "source": "TLDR IT",
+  "icon": "🖥️",
   "color": "#b48cff",
   "bg": "#26203a",
   "items": [
     {
-      "id": "it-argocd-35",
-      "title": "Argo CD v3.5 RC 공개…ApplicationSet UI·Helm 4 지원",
-      "summary": "Argo CD 신버전이 ApplicationSet UI 개선, 베타 임퍼소네이션, Helm 4 호환, 대규모 멀티테넌트 기능을 더했다.",
-      "source": "Argo Project",
-      "url": "https://blog.argoproj.io/argo-cd-v3-5-release-candidate-02b1fbf7b419",
-      "originalDate": "2026-06-26"
+      "id": "it-ibm-redhat-paloalto-oss-security",
+      "title": "IBM·레드햇·팔로알토, 오픈소스 보안 위해 협력",
+      "summary": "세 회사가 오픈소스 취약점 탐지와 선제 보호를 위해 가상 패치와 자동 교정을 결합한다.",
+      "source": "TLDR IT",
+      "url": "https://www.networkworld.com/article/4189077/ibm-red-hat-palo-alto-team-to-secure-open-source-software.html",
+      "report": {
+        "tldr": "IBM·레드햇·팔로알토가 오픈소스 취약점 탐지·보호를 위해 가상 패치와 자동 교정을 결합한다.",
+        "what": "IBM, 레드햇, 팔로알토 네트웍스가 기업의 오픈소스 소프트웨어 취약점 식별과 보호 배포를 돕기 위해 협력한다. 특히 AI 기반 위협에 대응해 팔로알토의 네트워크 기반 가상 패치와 IBM/레드햇의 Project Lightwell 교정 이니셔티브를 결합하고, 공유 취약점 인텔리전스와 보안 프로세스로 더 빠른 선제 방어를 추구한다.",
+        "points": [
+          "팔로알토의 네트워크 기반 가상 패치 결합",
+          "IBM/레드햇의 Project Lightwell 교정 이니셔티브 연계",
+          "공유 취약점 인텔리전스로 선제 방어",
+          "AI 기반 위협 대응에 초점"
+        ],
+        "why": [
+          "오픈소스 의존도가 높은 기업 환경에서 공동 방어 체계의 필요성이 커진다."
+        ]
+      }
     },
     {
-      "id": "it-grafana-131",
-      "title": "그라파나 13.1, '코드형 관측성' GA",
-      "summary": "그라파나가 Git Sync를 정식 출시하고 스노우플레이크·오라클 등 8개 데이터소스로 그라파나 어시스턴트 지원을 확장했다.",
-      "source": "Grafana",
-      "url": "https://grafana.com/blog/grafana-13-1-release-all-the-latest-features/",
-      "originalDate": "2026-06-26"
+      "id": "it-fcc-submarine-cable-rules",
+      "title": "FCC, 해저 인터넷 케이블 규제 강화",
+      "summary": "국제 인터넷 트래픽 대부분을 나르는 해저 케이블에 라이선스·보안 요건이 신설됐다.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/JntJ4S",
+      "report": {
+        "tldr": "FCC가 해저 통신 케이블 감독을 강화하며 핵심 단말 장비 라이선스와 운영자 보안 기준을 도입했다.",
+        "what": "FCC가 거의 모든 국제 인터넷 트래픽을 운반하는 해저 통신 케이블에 대한 감독을 강화하기로 의결했다. 핵심 단말 장비에 새로운 라이선스 요건을 부과하고 운영자에 더 엄격한 보안 기준을 적용한다. AI와 글로벌 트래픽 증가로 해저 케이블이 국가안보·클라우드 용량·인터넷 복원력 문제로 부상하고 있다.",
+        "points": [
+          "해저 케이블 단말 장비에 신규 라이선스 요건",
+          "운영자에 더 엄격한 보안 기준 부과",
+          "AI·트래픽 증가로 국가안보·복원력 이슈로 부상"
+        ],
+        "why": [
+          "해저 케이블은 글로벌 인터넷의 물리적 급소로, 규제·보안 강화가 불가피하다."
+        ]
+      }
     },
     {
-      "id": "it-cloudflare-agents",
-      "title": "클라우드플레어, 에이전트 하니스 인프라 제공",
-      "summary": "클라우드플레어 에이전트 SDK가 내구성 실행과 샌드박스 코드 실행 프리미티브를 제공해 프로덕션급 에이전트 프레임워크를 지원한다.",
-      "source": "Cloudflare",
-      "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
-      "originalDate": "2026-06-26"
+      "id": "it-enterprise-ai-agent-governance",
+      "title": "기업 AI 에이전트엔 획일적 거버넌스가 통하지 않는다",
+      "summary": "자율성이 높아지는 에이전트에는 구성요소별 비례적 통제가 필요하다는 주장이다.",
+      "source": "TLDR IT",
+      "url": "https://jfrog.com/blog/why-uniform-governance-fails-with-enterprise-ai-agents/",
+      "report": {
+        "tldr": "자율적 기업 AI 에이전트에는 MCP·툴·플러그인 등 구성요소별 비례적 통제가 필요하다.",
+        "what": "워크플로 계획, API 호출, 런타임 코드 생성, DB 수정까지 하는 자율적 기업 AI 에이전트에는 일괄(blanket) 거버넌스 정책이 통하기 어렵다. 모든 에이전트를 동일하게 다루는 대신, MCP·툴·플러그인·스킬 같은 개별 구성요소에 비례적 통제를 적용해 지나치게 제한적이거나 지나치게 허용적인 양극단의 함정을 피해야 한다.",
+        "points": [
+          "에이전트가 API 호출·런타임 코드 생성·DB 수정까지 수행",
+          "획일적 일괄 거버넌스의 한계 지적",
+          "MCP·툴·플러그인·스킬 단위의 비례적 통제 제안"
+        ],
+        "why": [
+          "에이전트 도입 확산기에 적정 수준의 통제 설계가 보안·생산성의 균형을 좌우한다."
+        ]
+      }
     },
     {
-      "id": "it-aws-transform",
-      "title": "AWS Transform 커스텀, 자연어로 코드 변환 자동화",
-      "summary": "AWS Transform 커스텀이 자연어로 기술한 코드 변환을 저장소 전반에 자동 적용한다. 에디터를 벗어나지 않고 대규모 변환이 가능하다.",
-      "source": "AWS",
-      "url": "https://aws.amazon.com/blogs/devops/building-and-running-custom-code-transformations-without-leaving-your-editor/",
-      "originalDate": "2026-06-26"
+      "id": "it-cio-after-board-meeting",
+      "title": "CIO가 이사회 회의 '이후'에 해야 할 일",
+      "summary": "발표 자체보다 후속 질문 대응과 지속적 관계 구축, 비즈니스 임팩트 연결이 진짜 가치라는 조언이다.",
+      "source": "TLDR IT",
+      "url": "https://www.cio.com/article/4184159/what-cios-must-do-after-the-board-meeting.html",
+      "report": {
+        "tldr": "CIO의 이사회 가치는 발표가 아니라 후속 대응·관계 구축·비즈니스 임팩트 연결에서 나온다.",
+        "what": "CIO는 종종 이사회 발표 자체에 과몰입하지만, 진짜 가치는 그 이후에 나온다. 질문 후속 대응, 무엇이 공감을 얻었는지 파악, 이사들과의 지속적 관계 구축, 기술 업데이트를 비즈니스 임팩트로 연결하는 일이 핵심이다. 이사회가 AI 거버넌스·사이버 리스크·복원력·대형 사업을 깊이 파고드는 만큼, 이사회 관여는 분기 1회 공연이 아니라 지속적 대화로 다뤄야 한다.",
+        "points": [
+          "발표보다 후속 질문 대응·공감 포인트 파악이 중요",
+          "이사들과의 지속적 관계 구축",
+          "기술 업데이트를 비즈니스 임팩트로 연결",
+          "이사회 관여를 분기 이벤트가 아닌 상시 대화로"
+        ],
+        "why": [
+          "이사회의 AI·사이버 리스크 관심 증대로 CIO의 커뮤니케이션 역량이 더 중요해진다."
+        ]
+      }
     },
     {
-      "id": "it-datadog-aws-incident",
-      "title": "데이터독 MCP+AWS, 자율 인시던트 해결 GA",
-      "summary": "데이터독 MCP 서버와 AWS 데브옵스 에이전트가 관측 데이터를 교차 상관해 자율적으로 인시던트를 조사·해결한다.",
-      "source": "AWS",
-      "url": "https://aws.amazon.com/blogs/devops/production-ready-autonomous-incident-resolution-with-aws-devops-agent-now-ga-and-datadog-mcp-server/",
-      "originalDate": "2026-06-26"
+      "id": "it-water-ai-datacenter-flashpoint",
+      "title": "전력에 이어 '물'이 AI 데이터센터의 다음 갈등 지점",
+      "summary": "하이퍼스케일 확장으로 물 사용에 대한 지역사회 반발이 커지며 입지·정책 문제가 부상했다.",
+      "source": "TLDR IT",
+      "url": "https://www.axios.com/2026/06/25/water-energy-ai-flashpoint",
+      "report": {
+        "tldr": "AI 데이터센터가 전력뿐 아니라 물 사용 문제로 지역사회 반발과 정책 리스크에 직면했다.",
+        "what": "AI 인프라가 전력 소비뿐 아니라 물 사용에 대한 감시 강화에 직면하고 있다. 하이퍼스케일 데이터센터가 확장되며 지역 자원 영향에 대한 지역사회의 반발이 커지고 있다. AI 인프라 계획은 이제 단순한 클라우드 용량 문제가 아니라 부동산·유틸리티·정책·평판 문제가 되고 있다.",
+        "points": [
+          "물 사용에 대한 감시·지역사회 반발 확대",
+          "전력에 이은 새로운 갈등 지점으로 부상",
+          "입지·유틸리티·정책·평판 문제로 확장"
+        ],
+        "why": [
+          "데이터센터 입지 전략에 자원·지역사회 리스크가 핵심 변수로 들어온다."
+        ]
+      }
     },
     {
-      "id": "it-jaeger-clickhouse",
-      "title": "예거, 클릭하우스 백엔드로 8.6배 압축",
-      "summary": "예거 v2.18.0이 분산 추적 저장 백엔드로 클릭하우스를 도입해 1,000만 스팬에서 8.6배 압축을 달성했다.",
-      "source": "CNCF",
-      "url": "https://www.cncf.io/blog/2026/06/23/building-jaegers-clickhouse-backend-8-6x-compression-on-10-million-spans/",
-      "originalDate": "2026-06-23"
+      "id": "it-mistral-ocr-enterprise-search",
+      "title": "미스트랄, OCR을 기업 검색용 '지도'로 — OCR 4 공개",
+      "summary": "추출 텍스트뿐 아니라 바운딩 박스·블록 라벨·신뢰점수를 좌표와 함께 반환해 감사·검색을 지원한다.",
+      "source": "TLDR IT",
+      "url": "https://www.implicator.ai/mistral-makes-ocr-a-map-for-enterprise-search/",
+      "report": {
+        "tldr": "미스트랄 OCR 4가 페이지 좌표 기반 구조(바운딩 박스·블록 라벨·신뢰점수)를 반환해 기업 문서 AI를 바꾼다.",
+        "what": "미스트랄의 OCR 4는 추출된 텍스트뿐 아니라 페이지 인지 구조, 즉 바운딩 박스·블록 라벨·페이지 좌표에 연결된 신뢰점수를 반환해 기업 문서 AI를 바꾼다. 170개 언어를 지원하며, 평탄화된 텍스트에 의존하는 대신 사용된 정확한 차트·서명·표를 인용할 수 있게 해 기업 검색과 컴플라이언스·감사 워크플로를 가능하게 한다고 소개됐다.",
+        "points": [
+          "텍스트 + 바운딩 박스·블록 라벨·신뢰점수를 좌표와 함께 반환",
+          "170개 언어 지원",
+          "정확한 차트·서명·표 단위 인용으로 감사·컴플라이언스 지원"
+        ],
+        "why": [
+          "문서 출처를 좌표 단위로 추적할 수 있어 규제·감사 환경의 신뢰성을 높인다."
+        ]
+      }
+    },
+    {
+      "id": "it-magnum-post-unilever-stack",
+      "title": "매그넘 아이스크림, 유니레버 분리 후 6개 벤더로 기술 스택 구축",
+      "summary": "액센추어·HCLTech·키낙시스·MS·세일즈포스·SAP를 선정해 2027년까지 독립 IT 스택을 구축한다.",
+      "source": "TLDR IT",
+      "url": "https://www.ciodive.com/news/magnum-ice-cream-company-enlists-six-vendors-build-tech-stack/823816/",
+      "report": {
+        "tldr": "매그넘 아이스크림이 6개 벤더를 선정해 유니레버에서 분리되는 AI 준비형 독립 기술 스택을 구축한다.",
+        "what": "매그넘 아이스크림 컴퍼니가 2027년 말까지 유니레버 IT 시스템에서 벗어나기 위해 액센추어, HCLTech, 키낙시스, 마이크로소프트, 세일즈포스, SAP를 선정해 독립형 기술 스택을 구축한다. 핵심은 대기업이 분리(separation)를 레거시 커스터마이징을 피하고 ERP·CRM·공급망·클라우드·데이터·보안·엔드유저 서비스 전반에 AI 준비형 기반을 세우는 기회로 삼는다는 점이다.",
+        "points": [
+          "6개 벤더(액센추어·HCLTech·키낙시스·MS·세일즈포스·SAP) 선정",
+          "2027년 말까지 유니레버 IT에서 분리",
+          "분리를 레거시 회피·AI 준비형 기반 구축 기회로 활용"
+        ],
+        "why": [
+          "기업 분사·분리가 레거시를 벗고 AI 친화 아키텍처로 재설계하는 계기가 된다."
+        ]
+      }
+    },
+    {
+      "id": "it-google-groups-stricter-classifications",
+      "title": "구글 그룹스, 데이터 보안 위한 분류 강화",
+      "summary": "위험한 그룹 구성을 줄이기 위해 더 엄격한 분류가 적용된다.",
+      "source": "TLDR IT",
+      "url": "https://workspaceupdates.googleblog.com/2026/06/stricter-classifications-for-google-groups-to-enhance-data-security-and-privacy.html",
+      "report": {
+        "tldr": "구글이 그룹스에 더 엄격한 분류를 적용해 위험한 그룹 구성과 데이터 노출을 줄인다.",
+        "what": "구글이 데이터 보안·프라이버시 개선을 위해 더 엄격한 구글 그룹스 분류를 도입하며 위험한 그룹 구성을 줄이고 민감 협업 공간을 보호하려는 흐름을 이어간다. 그룹 오설정은 기업이 내부 데이터를 실수로 노출하는 가장 쉬운 경로 중 하나이기에 실용적인 워크스페이스 관리 항목이다.",
+        "points": [
+          "더 엄격한 구글 그룹스 분류 도입",
+          "위험한 그룹 구성 축소·민감 공간 보호",
+          "그룹 오설정은 내부 데이터 노출의 주요 경로"
+        ],
+        "why": [
+          "협업 도구의 기본 권한 설정이 데이터 유출 방지의 첫 단추다."
+        ]
+      }
+    },
+    {
+      "id": "it-web-data-infra-layer-ai",
+      "title": "AI를 위한 웹 데이터 인프라 계층의 부상",
+      "summary": "최신·신뢰 가능한 웹 데이터 수요가 커지며 실시간 웹 콘텐츠 탐색·매핑 인프라가 등장하고 있다.",
+      "source": "TLDR IT",
+      "url": "https://www.technologyreview.com/2026/06/24/1139202/the-emergence-of-the-web-data-infrastructure-layer-for-ai/",
+      "report": {
+        "tldr": "AI 수요로 신선한 웹 데이터에 대한 요구가 커지며 실시간 웹 데이터 인프라 계층이 부상하고 있다.",
+        "what": "AI 도입이 신선하고 신뢰 가능한 웹 데이터 수요를 키우면서, 대규모 최신 정보가 필요한 기업에 과제를 안기고 있다. 새로운 세대의 웹 데이터 인프라는 거의 실시간으로 웹 콘텐츠를 탐색·매핑해, AI 시스템이 최신 정보에 출력을 근거하게 하면서 거버넌스·컴플라이언스 요건도 충족하려 한다.",
+        "points": [
+          "신선·신뢰 가능한 웹 데이터 수요 급증",
+          "거의 실시간 웹 콘텐츠 탐색·매핑 인프라 등장",
+          "최신 정보 그라운딩과 거버넌스·컴플라이언스 동시 충족"
+        ],
+        "why": [
+          "RAG·에이전트의 최신성·정확성을 좌우하는 데이터 공급 계층이 핵심 인프라가 된다."
+        ]
+      }
+    },
+    {
+      "id": "it-microsoft-windows-developer-platform",
+      "title": "마이크로소프트, 윈도우를 다시 개발자 플랫폼으로",
+      "summary": "Coreutils·Windows Developer Config·WSL Comfort 등으로 재현 가능한 개발 환경 구성을 추진한다.",
+      "source": "TLDR IT",
+      "url": "https://www.infoworld.com/article/4188967/making-windows-a-developer-platform-again.html",
+      "report": {
+        "tldr": "마이크로소프트가 winget·DSC 기반의 재현 가능한 개발 환경 도구로 윈도우를 개발 워크스테이션으로 되돌린다.",
+        "what": "마이크로소프트가 Coreutils for Windows, Windows Developer Config, WSL Comfort 스크립트, winget·desired-state configuration 기반의 재현 가능한 설정 도구로 윈도우를 진지한 개발자 워크스테이션 플랫폼으로 되돌리려 한다. 엔드포인트 팀은 일회성 노트북 설정 문서에 의존하지 않고 윈도우 PC·WSL·클라우드 Dev Box 전반에서 로컬 개발 환경을 표준화하는 더 깔끔한 방법을 얻을 수 있다.",
+        "points": [
+          "Coreutils·Windows Developer Config·WSL Comfort 도입",
+          "winget·DSC 기반의 재현 가능한 환경 구성",
+          "윈도우 PC·WSL·클라우드 Dev Box 전반 표준화"
+        ],
+        "why": [
+          "개발 환경 표준화는 온보딩·보안·일관성 측면에서 엔드포인트 관리에 도움을 준다."
+        ]
+      }
     }
   ]
 }

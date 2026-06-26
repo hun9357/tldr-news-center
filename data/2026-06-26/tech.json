@@ -6,59 +6,258 @@
   "bg": "#15302a",
   "items": [
     {
-      "id": "tech-apple-price-hike",
-      "title": "애플, 맥·아이패드 가격 200달러 이상 인상…AI發 메모리 품귀",
-      "summary": "애플이 맥 가격을 15~20%, 아이패드를 15~25% 올렸다. AI 하이퍼스케일러 수요로 메모리·스토리지 칩 가격이 4배로 뛴 것이 직접 원인으로, AI 붐이 소비자 가격에 전이되기 시작했다.",
-      "source": "Wall Street Journal",
-      "url": "https://www.wsj.com",
-      "originalDate": "2026-06-26",
-      "intel": {
-        "impact": "High",
-        "confidence": "85%",
-        "owner": "Strategy / Procurement",
-        "status": "New",
-        "affectedSurface": "소비자 하드웨어 · 메모리 공급망"
+      "id": "tech-trump-openai-stagger-gpt56",
+      "title": "트럼프 행정부, 오픈AI에 GPT-5.6 단계적 공개 요청",
+      "summary": "미 정부가 GPT-5.6을 신뢰 파트너 명단에 먼저 풀라고 요청했고 초기엔 베드록 통해 20곳에 제공된다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/CDE0nJ",
+      "report": {
+        "tldr": "미 정부가 GPT-5.6을 우선 20개 신뢰 파트너에게만 공개하라고 요청했고 오픈AI가 협력에 나섰다.",
+        "what": "미 정부가 오픈AI에 GPT-5.6을 더 넓은 공개 전에 신뢰 파트너 명단에 먼저 풀라고 요청했다. 오픈AI 직원들은 안전·제한에 관한 당국의 입력에 대해 트럼프 행정부와 협력하라는 지시를 받았다. GPT-5.6은 초기에 아마존 베드록 플랫폼을 통해 20개 파트너에게 제공되며, 행정부는 기술 스케일링 과제에 대한 공동 접근을 위해 프런티어 AI 랩들과 계속 협력하고 있다.",
+        "points": [
+          "GPT-5.6을 신뢰 파트너 명단에 먼저 공개 요청",
+          "오픈AI, 안전·제한 관련 행정부와 협력 지시",
+          "초기엔 아마존 베드록 통해 20개 파트너 제공",
+          "행정부, 프런티어 랩들과 공동 접근 모색"
+        ],
+        "why": [
+          "정부가 프런티어 모델 배포 방식에 직접 관여하는 새로운 국면이다.",
+          "앤트로픽의 모델 제한과 함께 AI 안보 거버넌스 흐름이 강화된다."
+        ]
       }
     },
     {
-      "id": "tech-ibm-sub1nm",
-      "title": "IBM, 세계 첫 '1나노 이하' 칩 기술 발표",
-      "summary": "IBM이 트랜지스터를 엇갈리게 쌓는 0.7나노 나노스택 구조를 공개했다. 전통적 미세화 한계를 넘어 집적도와 연산 성능을 높인다고 주장했다.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com",
-      "originalDate": "2026-06-26"
+      "id": "tech-apple-mac-ipad-price-hikes",
+      "title": "애플, 맥·아이패드 가격 인상 — 일부 모델 200달러 이상",
+      "summary": "메모리·스토리지 칩값이 AI 수요로 1년간 4배 뛰며 맥 15~20%, 아이패드 15~25% 인상됐다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/erJX1l",
+      "report": {
+        "tldr": "애플이 부품값 상승으로 맥 15~20%, 아이패드 15~25% 가격을 인상했다.",
+        "what": "애플이 맥·아이패드 가격을 올렸다. 맥 컴퓨터는 약 15~20%, 아이패드는 15~25% 인상됐다. 아이폰 가격은 그대로지만 인상이 임박했을 가능성이 있다. 인상의 원인은 부품값 상승으로, 메모리·스토리지 칩 가격이 AI 하이퍼스케일러의 수요 급증으로 지난 1년간 4배로 뛰었다.",
+        "points": [
+          "맥 약 15~20%, 아이패드 15~25% 인상",
+          "아이폰은 유지하나 인상 가능성",
+          "메모리·스토리지 칩값이 1년간 4배 상승",
+          "AI 하이퍼스케일러 수요가 부품값 급등 원인"
+        ],
+        "why": [
+          "AI 인프라 수요가 소비자 전자제품 가격으로 전가되는 양상을 보여준다.",
+          "메모리 가격 상승은 PC·기기 전반의 가격 압력으로 확산될 수 있다."
+        ]
+      }
     },
     {
-      "id": "tech-spacex-starmind",
-      "title": "스페이스X '스타마인드', 궤도 위 AI 데이터센터 구상",
-      "summary": "스페이스X가 온보드 프로세서로 궤도에서 연산하는 AI 위성 군집 스타마인드를 계획 중이다. 스타십 1회 발사당 위성 30~50기를 올려 우주에서 추론·질의 처리를 노린다.",
-      "source": "Teslarati",
-      "url": "https://www.teslarati.com",
-      "originalDate": "2026-06-26"
+      "id": "tech-ibm-sub1nm-chip",
+      "title": "IBM, 세계 첫 1나노미터 미만 칩 기술 주장",
+      "summary": "스태거드 적층 나노스택으로 0.7나노급 노드의 성능을 구현했다고 밝혔다.",
+      "source": "TLDR",
+      "url": "https://arstechnica.com/gadgets/2026/06/ibm-claims-worlds-first-sub-1-nanometer-chip-technology/",
+      "report": {
+        "tldr": "IBM이 나노스택 적층 구조로 0.7나노급 노드의 성능을 내는 1나노 미만 칩 기술을 주장했다.",
+        "what": "IBM이 1나노미터 미만 칩 기술을 만들었다고 주장했다. 나노스택 아키텍처가 물리적 피처가 1나노미터보다 작은 이론적 칩에서 기대되는 컴퓨팅 성능을 낼 수 있다는 것이다. 설계는 트랜지스터를 스태거드 레이아웃으로 적층해 같은 공간에 더 많은 트랜지스터를 담는다. IBM은 이를 0.7나노 노드로 설명하지만, 노드 숫자가 실제 물리적 치수와는 무관하다는 점을 기억해야 한다.",
+        "points": [
+          "나노스택 아키텍처로 1나노 미만급 성능 주장",
+          "트랜지스터 스태거드 적층으로 밀도 향상",
+          "0.7나노 '노드'는 실제 물리 치수와 무관"
+        ],
+        "why": [
+          "미세공정 한계 돌파 경쟁이 칩 성능·전력 효율의 다음 단계를 좌우한다."
+        ]
+      }
     },
     {
-      "id": "tech-openai-ipo",
-      "title": "오픈AI, IPO 내년으로 연기 검토",
-      "summary": "오픈AI 경영진이 시장 변동성과 약세장, 스페이스X 상장의 교훈을 들어 IPO를 2027년으로 미루는 쪽으로 기울었다.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com",
-      "originalDate": "2026-06-26"
+      "id": "tech-spacex-starmind-orbit-datacenter",
+      "title": "스페이스X 'Starmind' — 궤도에서 AI 추론하는 위성 컴퓨팅",
+      "summary": "온보드 프로세서와 대형 태양광으로 우주에서 AI 추론·쿼리 처리를 목표로 한다.",
+      "source": "TLDR",
+      "url": "https://www.teslarati.com/spacex-starmind-ai-satellite-vs-starlink/",
+      "report": {
+        "tldr": "스페이스X가 궤도에서 AI 추론을 수행하는 위성 컴퓨팅 별자리 Starmind를 계획했다.",
+        "what": "스페이스X의 계획된 AI 위성 별자리는 Starmind로 불린다. Starmind는 대형 태양광 어레이로 구동되는 온보드 프로세서로 궤도에서 직접 데이터를 연산해, AI 모델이 우주에서 추론을 돌리고 쿼리를 처리하며 출력을 생성하게 한다. 스타십은 발사당 30~50기의 Starmind AI1 위성을 실어 나를 수 있다.",
+        "points": [
+          "궤도에서 직접 연산하는 AI 위성 별자리 Starmind",
+          "대형 태양광 구동 온보드 프로세서로 추론 수행",
+          "스타십이 발사당 30~50기 운반"
+        ],
+        "why": [
+          "우주 기반 컴퓨팅은 지상 데이터센터의 전력·물 제약에 대한 대안으로 거론된다."
+        ]
+      }
     },
     {
-      "id": "tech-apple-m7",
-      "title": "애플, 고성능 M6 건너뛰고 'AI 중심' M7 라인으로",
-      "summary": "애플이 M6 칩을 생략하고 2027년 말 AI에 초점을 둔 M7 프로·M7 맥스를, 2028년 M7 울트라를 내놓을 계획이다.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com",
-      "originalDate": "2026-06-26"
+      "id": "tech-repricing-software-engineering",
+      "title": "소프트웨어 엔지니어링 노동의 재가격화",
+      "summary": "'AI 엔지니어'는 해자가 아니며, 프로덕션을 아는 깊은 전문성이 더 가치 있다는 분석이다.",
+      "source": "TLDR",
+      "url": "https://blog.grandimam.com/posts/repricing-of-software-engineering-labor/",
+      "report": {
+        "tldr": "'AI 엔지니어'는 해자가 아니며 신뢰성·확장·보안을 아는 프로덕션 전문성이 가장 큰 보상을 받는다.",
+        "what": "AI 네이티브 툴링 계층이 빠르게 늘어 이미 붐비고 있어 'AI 엔지니어'라는 것 자체는 해자가 아니다. AI는 프로토타입 구축을 도울 수 있지만, 프로덕션은 신뢰성·확장·보안·성능·관측성·운영 트레이드오프를 이해하는 엔지니어를 요구하는 다른 영역이다. 가장 큰 보상은 한 가지 어려운 것을 탁월하게 아는 데서 나올 수 있다.",
+        "points": [
+          "'AI 엔지니어'라는 라벨 자체는 해자가 아님",
+          "프로토타입과 프로덕션은 다른 영역",
+          "신뢰성·확장·보안·관측성 이해가 핵심",
+          "한 가지 어려운 영역의 깊은 전문성이 가장 가치"
+        ],
+        "why": [
+          "AI 시대에도 깊은 시스템 전문성이 엔지니어 가치의 핵심임을 시사한다."
+        ]
+      }
     },
     {
-      "id": "tech-builderx-remote",
-      "title": "6,400km 밖 노동자가 현장 기계 조종한다…빌더X 로보틱스",
-      "summary": "빌더X 로보틱스가 5G·위성으로 원격 운영자가 물리적 기계를 제어하게 했다. 멀리 떨어진 인력이 현지 일자리를 채우는 길을 연다.",
-      "source": "Singularity Hub",
-      "url": "https://www.singularityhub.com",
-      "originalDate": "2026-06-26"
+      "id": "tech-gemini-flash-android-computer-use",
+      "title": "제미나이 3.5 플래시의 Computer Use로 안드로이드 제어",
+      "summary": "스크린샷과 목표를 받아 구조화된 액션을 반환하는 내장 도구로 모바일 자동화를 구현한다.",
+      "source": "TLDR",
+      "url": "https://www.philschmid.de/gemini-android-use",
+      "report": {
+        "tldr": "제미나이 3.5 플래시의 내장 Computer Use 도구가 스크린샷·목표 기반으로 안드로이드를 자동화한다.",
+        "what": "제미나이 3.5 플래시에는 Computer Use라는 내장 도구가 있어, 모델이 스크린샷과 목표를 보고 구조화된 액션을 반환한다. 사용자는 그 액션을 실행하고 과제가 끝날 때까지 과정을 반복할 수 있다. 제미나이는 데스크톱·모바일·브라우저 자동화를 지원하며, 이 가이드는 모바일 자동화 설정 방법을 안내한다.",
+        "points": [
+          "스크린샷+목표 → 구조화된 액션 반환하는 Computer Use",
+          "데스크톱·모바일·브라우저 자동화 지원",
+          "모바일(안드로이드) 자동화 설정 가이드 제공"
+        ],
+        "why": [
+          "컴퓨터 유즈 능력의 확산은 에이전트의 실제 GUI 자동화 활용을 넓힌다."
+        ]
+      }
+    },
+    {
+      "id": "tech-openai-ipo-next-year",
+      "title": "오픈AI, IPO를 내년으로 미루는 쪽으로 기울어",
+      "summary": "스페이스X IPO 후 주가 급락과 변동성 큰 시장이 상장 연기 검토의 배경이다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/wga2cI",
+      "report": {
+        "tldr": "오픈AI 경영진이 시장 변동성 등을 이유로 IPO를 내년으로 미루는 쪽으로 기울고 있다.",
+        "what": "최근 일련의 전개로 오픈AI 경영진이 기업공개를 내년으로 미루는 쪽으로 기울고 있다. 스페이스X의 IPO는 역대 최대였지만 주가가 빠르게 하락했다. 최근 몇 주간 글로벌 시장이 출렁였고 기술주가 지수를 끌어내렸다. 이런 요인들로 개인 투자자들이 오픈AI 주식에 큰 열의를 보이지 않을 수 있다.",
+        "points": [
+          "IPO를 내년으로 미루는 쪽으로 기울어",
+          "스페이스X IPO 후 주가 급락이 참고 사례",
+          "기술주 약세·시장 변동성 확대",
+          "개인 투자자 열의 약화 우려"
+        ],
+        "why": [
+          "대형 AI 기업의 상장 타이밍은 시장 환경과 투자 심리에 크게 좌우된다."
+        ]
+      }
+    },
+    {
+      "id": "tech-glm-5-2-closes-gap",
+      "title": "중국 AI 모델, 앤트로픽·오픈AI와 격차 좁혀 — GLM-5.2",
+      "summary": "Z.ai의 GLM-5.2가 앤트로픽 모델에 근접한 성능을 훨씬 낮은 비용·무규제로 제공한다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/jJawIV",
+      "report": {
+        "tldr": "Z.ai GLM-5.2가 앤트로픽 Fable·Mythos에 근접한 성능을 낮은 비용·오픈소스로 제공한다.",
+        "what": "Z.ai가 앤트로픽이 미 정부 요구로 최강 AI 시스템을 셧다운한 며칠 뒤 GLM-5.2를 공개했다. GLM-5.2는 앤트로픽의 Fable·Mythos 모델에 거의 맞먹는 성능이면서 사용 비용이 훨씬 싸고 미국에서 누구도 제한을 걸지 않는다. 현재 세계 상위 10대 인기 모델 중 하나이며 오픈소스라 누구나 무료로 쓰고 수정할 수 있다.",
+        "points": [
+          "GLM-5.2가 앤트로픽 Fable·Mythos에 근접한 성능",
+          "훨씬 낮은 비용·미국 내 무규제",
+          "세계 상위 10대 인기 모델, 오픈소스"
+        ],
+        "why": [
+          "미국의 모델 제한과 대비되며 중국 오픈소스 모델의 경쟁력이 부각된다.",
+          "규제·비용 차이가 글로벌 모델 채택 구도에 영향을 줄 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-m7-ai-chips",
+      "title": "애플, 고급 M6 건너뛰고 AI 중심 M7 라인으로",
+      "summary": "M7 Pro·Max는 2027년 말, M7 Ultra는 2028년 출시가 목표다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/ItquE7",
+      "report": {
+        "tldr": "애플이 고급 M6를 건너뛰고 AI 중심 M7 칩 라인으로 직행한다.",
+        "what": "애플이 고급 M6 맥 칩을 건너뛰고 AI 중심 M7 라인을 택한다. M7 Pro·Max는 이르면 2027년 말, M7 Ultra는 2028년 출시가 예정돼 있다.",
+        "points": [
+          "고급 M6 건너뛰고 AI 중심 M7로 직행",
+          "M7 Pro·Max 2027년 말 목표",
+          "M7 Ultra 2028년 목표"
+        ],
+        "why": [
+          "칩 로드맵의 AI 우선 전환이 애플 실리콘 전략의 방향을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "tech-figma-dylan-field-interview",
+      "title": "피그마 CEO 딜런 필드 인터뷰 — 디자인과 AI",
+      "summary": "거의 성사될 뻔한 인수, IPO, 차별화 발견 과정, 창의성과 AI를 논한다.",
+      "source": "TLDR",
+      "url": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "report": {
+        "tldr": "딜런 필드가 피그마의 인수 무산, IPO, 차별화, 창의성과 AI를 폭넓게 이야기한다.",
+        "what": "피그마 공동창업자 겸 CEO 딜런 필드가 거의 성사될 뻔한 인수, IPO, 회사의 차별화 발견 과정, 창의성과 디자인의 본질, 그리고 AI를 논한다.",
+        "points": [
+          "거의 성사된 인수와 IPO 회고",
+          "피그마의 차별화 발견 과정",
+          "창의성·디자인의 본질과 AI에 대한 견해"
+        ],
+        "why": [
+          "디자인 도구 선도 기업의 전략·AI 관점은 업계 방향성을 가늠하게 한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-permanent-underclass-ai",
+      "title": "누구도 '영구 하층계급'을 피하지 못한다",
+      "summary": "AI가 대부분의 노동을 대체하고 기존 권력·정부마저 무력화한다는 비관적 전망이다.",
+      "source": "TLDR",
+      "url": "https://borretti.me/article/no-one-escapes-the-permanent-underclass",
+      "report": {
+        "tldr": "AI가 대다수 노동을 대체하고 기존 권력·정부마저 무력화할 수 있다는 비관적 에세이다.",
+        "what": "AI의 장악이 대부분의 노동자를 대체하고, '영구 과잉계급(overclass)'과 정부마저 권력을 잃게 만들 것이라는 비관적 전망을 담은 글이다.",
+        "points": [
+          "AI가 대부분의 노동 대체 전망",
+          "기존 권력·정부마저 무력화 가능성",
+          "노동·권력 구조 전반의 비관적 시나리오"
+        ],
+        "why": [
+          "AI의 사회·경제 구조 영향에 대한 비관론도 균형 있게 검토할 필요가 있다."
+        ]
+      }
+    },
+    {
+      "id": "tech-remote-physical-labor-robots",
+      "title": "4,000마일 밖 원격 노동자가 '현지' 일자리 채운다",
+      "summary": "중국 BuilderX 로보틱스 기술로 5G·위성 연결을 통한 물리 기계 원격 조종이 가능해진다.",
+      "source": "TLDR",
+      "url": "https://singularityhub.com/2026/06/25/companies-could-soon-staff-stubbornly-local-jobs-with-workers-4000-miles-away/",
+      "report": {
+        "tldr": "중국 BuilderX 로보틱스 기술이 5G·위성으로 물리 기계의 원격 조종을 가능케 한다.",
+        "what": "중국 기술기업 BuilderX 로보틱스의 기술은 원격 운영자가 5G 또는 위성 연결로 물리적 기계를 제어하게 한다. 이를 통해 '완고하게 현지(stubbornly local)'였던 물리 노동 일자리를 4,000마일 떨어진 노동자가 채울 수 있게 된다.",
+        "points": [
+          "5G·위성 연결로 물리 기계 원격 조종",
+          "현지 물리 노동을 원격 노동자가 수행 가능",
+          "BuilderX 로보틱스의 기술"
+        ],
+        "why": [
+          "물리 노동의 원격화는 글로벌 노동시장 구조에 새로운 변화를 예고한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-akrites-oss-cyber-defense",
+      "title": "리눅스 재단·업계, AI 사이버위협 대응 'Akrites' 출범",
+      "summary": "기밀 우선 원칙의 표준화된 협력적 취약점 공개(CVD) 프로세스를 제공한다.",
+      "source": "TLDR",
+      "url": "https://www.linuxfoundation.org/press/linux-foundation-and-industry-leaders-launch-akrites-to-defend-critical-open-source-software-against-ai-enabled-cyber-threats",
+      "report": {
+        "tldr": "리눅스 재단·업계 리더들이 핵심 오픈소스를 AI 사이버위협에서 지킬 Akrites를 출범했다.",
+        "what": "리눅스 재단과 업계 리더들이 핵심 오픈소스 소프트웨어를 AI 기반 사이버위협으로부터 방어하기 위해 Akrites를 출범했다. Akrites는 기밀 우선 원칙과 업계의 확립된 표준·도구 위에 구축된 단일 표준화 협력적 취약점 공개(CVD) 프로세스를 제공한다.",
+        "points": [
+          "핵심 오픈소스의 AI 사이버위협 방어 목적",
+          "기밀 우선 원칙 기반",
+          "표준화된 협력적 취약점 공개(CVD) 프로세스 제공"
+        ],
+        "why": [
+          "AI가 취약점 탐색·악용을 가속하는 시대에 오픈소스 공동 방어가 중요해진다."
+        ]
+      }
     }
   ]
 }
