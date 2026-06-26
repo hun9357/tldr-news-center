@@ -1,0 +1,49 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-ai-citation-shelf",
+      "title": "AI 인용의 수명은 11~15일…라이트소닉 데이터",
+      "summary": "AI 생성 인용이 보통 11~15일 내 사라지고 44%는 단 한 번만 등장한다. 인용 총량보다 원천 연구·제3자 보도로 지속성을 확보하라는 제언이다.",
+      "source": "Foundation Inc.",
+      "url": "https://foundationinc.co/lab/vol-298/",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "marketing-cmo-coworkers",
+      "title": "마케팅의 다음 타깃은 '동료'…CMO 최단 임기",
+      "summary": "CMO가 포춘500 C레벨 중 평균 4.3년으로 최단 임기다. 내부 가치 입증을 위해 조기 협업과 기여를 보여주는 사내 비즈니스 케이스가 해법으로 꼽힌다.",
+      "source": "Marketing Dive",
+      "url": "https://www.marketingdive.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "marketing-producthunt",
+      "title": "프로덕트헌트 94위→20위, 오디언스 없이 끌어올린 법",
+      "summary": "한 창업자가 기존 청중 없이 X에서 다른 창작자와 교류하고 피드백을 요청해 프로덕트헌트 순위를 끌어올렸다. 랭킹이 기존 사용자 영향력에 취약하다고 주장했다.",
+      "source": "Indie Hackers",
+      "url": "https://www.indiehackers.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "marketing-influencer-playbook",
+      "title": "프리시리즈A 창업자를 위한 린 인플루언서 마케팅",
+      "summary": "B2B 인플루언서 프로그램은 성과 기반 보상이 주류다. 전환 추적이 붙는 제휴 우선 딜로 초기 창업자의 비용을 관리한다.",
+      "source": "Content Grip",
+      "url": "https://contentgrip.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "marketing-pioneer-dj",
+      "title": "DJ 부스가 다 똑같은 이유…파이오니어의 70% 지배",
+      "summary": "파이오니어가 포맷 변화에도 호환성과 생태계 통합을 유지하며 약 70% 점유율을 지킨다. 기술 우위보다 락인이 핵심이라는 분석이다.",
+      "source": "Strategy Breakdowns",
+      "url": "https://strategybreakdowns.com",
+      "originalDate": "2026-06-26"
+    }
+  ]
+}

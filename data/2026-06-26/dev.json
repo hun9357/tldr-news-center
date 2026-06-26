@@ -1,0 +1,57 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "👨‍💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-drizzle-npm",
+      "title": "드리즐 ORM, NPM 100MB 한도에 한 달간 배포 중단",
+      "summary": "드리즐 ORM이 NPM의 100MB 패키지먼트 한도에 걸려 한 달간 신규 릴리스를 못 냈고, 구버전 제거와 NPM 지원으로 해소했다.",
+      "source": "vlt.io",
+      "url": "https://vlt.io",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "dev-jnj-exploit",
+      "title": "존슨앤드존슨 웹앱 취약점 악용 사례 공개",
+      "summary": "J&J 시스템에서 API 키 오용으로 학생 데이터가 노출된 채용 플랫폼과, 비인증 접근이 가능한 감사 시스템 등 두 결함이 드러났다.",
+      "source": "eaton-works.com",
+      "url": "https://eaton-works.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "dev-ai-native-divide",
+      "title": "'AI 네이티브냐, 도태냐'…벌어지는 격차",
+      "summary": "AI 도입자와 회의론자 사이 생산성·혁신 격차가 커지며, AI를 외면하는 쪽의 좌절이 심화한다는 진단이다.",
+      "source": "danielmiessler.com",
+      "url": "https://danielmiessler.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "dev-deepseek-v4-cheap",
+      "title": "오픈 웨이트 모델의 '견딜 수 없는 저렴함'",
+      "summary": "딥시크 V4 가격이 앤트로픽·오픈AI 대비 약 50배 비용 우위를 보여, 상용 모델의 경쟁력에 의문을 던진다.",
+      "source": "jamesoclaire.com",
+      "url": "https://jamesoclaire.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "dev-google-ai-liability",
+      "title": "獨 법원, 구글 AI 요약 부정확성에 책임 인정",
+      "summary": "독일 법원이 AI 생성 검색 요약의 부정확성에 구글의 책임을 인정해 AI 산출물 책임의 선례를 세웠다.",
+      "source": "Schneier on Security",
+      "url": "https://www.schneier.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "dev-pytorch-loop",
+      "title": "주석으로 보는 파이토치 학습 루프",
+      "summary": "모델 설정·그래디언트 관리·학습률 스케줄링 등 파이토치 학습 루프의 연산 순서를 짚어 수렴 실패·메모리 문제를 피하는 법을 정리했다.",
+      "source": "idlemachines.co.uk",
+      "url": "https://idlemachines.co.uk",
+      "originalDate": "2026-06-26"
+    }
+  ]
+}

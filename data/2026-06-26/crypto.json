@@ -1,0 +1,57 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-btc-60k",
+      "title": "비트코인 6만 달러 재돌파, AI주 반등에 ETH·SOL 회복",
+      "summary": "비트코인이 하락 후 6만 달러를 회복했으나 주요 토큰은 주간 기준 약세다. 스팟 ETF 자금 유출, 연준 매파 기조, 7개월 최고치 달러가 부진의 배경으로 꼽힌다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/06/25/bitcoin-back-above-usd60-000-eth-sol-recoup-losses-as-ai-stocks-stage-rebound",
+      "originalDate": "2026-06-25"
+    },
+    {
+      "id": "crypto-rwa-51b",
+      "title": "토큰화 RWA 시총 40%↑, 510억 달러 돌파",
+      "summary": "토큰화 실물자산(RWA) 시장이 510억 달러에 이르렀고 주식 토큰화가 연초 대비 130% 성장을 주도했다. 브로커-딜러 수탁과 SEC 등록 이전대리인 모델로 산업이 갈라지고 있다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/405578/tokenized-rwa-market-cap-rises-51-billion-industry-races-define-equity-tokenization-model-bernstein",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "crypto-kraken-maple",
+      "title": "크라켄, 메이플과 온체인 창고형 OTC 대출 확대",
+      "summary": "크라켄과 메이플파이낸스가 자산담보부 증권화 모델로 OTC 대출을 확대했다. 메이플이 선순위 자금을, 크라켄이 대출 조성을 맡는다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406054/kraken-expands-otc-lending-onchain-warehouse-facility-maple",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "crypto-pq-eth",
+      "title": "이더리움, '네이티브 포스트양자 프라이빗 ETH' 제안",
+      "summary": "이더리움 리서치에서 해시 기반 증명과 ML-KEM 암호화를 L1에 선제 도입해 미래 양자 복호화로부터 차폐 거래를 보호하자는 제안이 나왔다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/towards-native-post-quantum-private-eth/25291",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "crypto-fed-payment-accounts",
+      "title": "연준, 크립토·핀테크용 '결제 계좌' 신설 제안",
+      "summary": "연준이 비은행 핀테크·크립토 기업에 10억 달러 한도로 연준 접근을 허용하는 새 계좌 범주를 제안했다. 의견 수렴은 7월 27일 마감된다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406050/who-gets-direct-line-to-fed-congress-weighs-risks-fed-skinny-accounts-crypto-fintech-firms",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "crypto-sbi-bitbank",
+      "title": "SBI홀딩스, 일본 거래소 비트뱅크 2.886억 달러에 인수",
+      "summary": "일본 금융그룹 SBI홀딩스가 크립토 거래소 비트뱅크를 약 2.886억 달러에 인수하기로 합의했다. 10월 완료 예정이다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406105/sbi-holdings-agrees-to-acquire-japanese-crypto-exchange-bitbank-in-288-6-million-deal",
+      "originalDate": "2026-06-26"
+    }
+  ]
+}

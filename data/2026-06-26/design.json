@@ -1,0 +1,49 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-figma-config",
+      "title": "피그마 Config 2026, 새 소재·도구로 표현력 확장",
+      "summary": "피그마가 코드 레이어, 모션, 셰이더 필, 생성형 플러그인 등 창작 소재·도구를 공개했다. 디자인과 타 분야 간 전환 비용을 줄이는 것이 목표다.",
+      "source": "Figma",
+      "url": "https://www.figma.com/blog",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "design-krea2",
+      "title": "크레아 2 Raw·Turbo, 2초 만에 엔터프라이즈급 이미지 생성",
+      "summary": "크레아가 더 빠른 생성과 정교한 제어를 제공하는 오픈 웨이트 이미지 모델 2종을 내놨다. Turbo는 2초 만에 이미지를 만들며 개인은 무료, 대형 조직은 엔터프라이즈 라이선스다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "design-directed-generation",
+      "title": "'바이브 코딩' 넘어…디자이너를 위한 '디렉티드 제너레이션'",
+      "summary": "AI 워크플로를 '바이브 코딩'이 아닌 '디렉티드 제너레이션'으로 재정의해야 한다는 주장이다. 의도적이고 인간 주도적인 창작 과정을 더 잘 담는다.",
+      "source": "UX Magazine",
+      "url": "https://uxmag.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "design-tokens-semantic",
+      "title": "토큰 파일 50개의 문제…에이전트가 '의미'를 못 읽는다",
+      "summary": "디자인 토큰에 시맨틱 메타데이터가 없어 AI 에이전트가 안정적으로 동작하지 못한다. 설명과 기계가독 규칙을 더하면 AI 디자인 결정이 개선된다.",
+      "source": "The Design System Guide",
+      "url": "https://thedesignsystem.guide",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "design-every-frame",
+      "title": "'모든 프레임이 완벽해야 한다'…UI 애니메이션론",
+      "summary": "UI 애니메이션은 시작·끝뿐 아니라 모든 프레임에서 다듬어져야 한다. 어설픈 중간 동작은 부주의의 신호이며 사용자 신뢰를 떨어뜨린다.",
+      "source": "tonsky.me",
+      "url": "https://tonsky.me",
+      "originalDate": "2026-06-26"
+    }
+  ]
+}

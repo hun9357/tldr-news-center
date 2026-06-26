@@ -1,0 +1,57 @@
+{
+  "name": "IT",
+  "source": "TLDR DevOps",
+  "icon": "💻",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-argocd-35",
+      "title": "Argo CD v3.5 RC 공개…ApplicationSet UI·Helm 4 지원",
+      "summary": "Argo CD 신버전이 ApplicationSet UI 개선, 베타 임퍼소네이션, Helm 4 호환, 대규모 멀티테넌트 기능을 더했다.",
+      "source": "Argo Project",
+      "url": "https://blog.argoproj.io/argo-cd-v3-5-release-candidate-02b1fbf7b419",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "it-grafana-131",
+      "title": "그라파나 13.1, '코드형 관측성' GA",
+      "summary": "그라파나가 Git Sync를 정식 출시하고 스노우플레이크·오라클 등 8개 데이터소스로 그라파나 어시스턴트 지원을 확장했다.",
+      "source": "Grafana",
+      "url": "https://grafana.com/blog/grafana-13-1-release-all-the-latest-features/",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "it-cloudflare-agents",
+      "title": "클라우드플레어, 에이전트 하니스 인프라 제공",
+      "summary": "클라우드플레어 에이전트 SDK가 내구성 실행과 샌드박스 코드 실행 프리미티브를 제공해 프로덕션급 에이전트 프레임워크를 지원한다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/agents-platform-flue-sdk/",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "it-aws-transform",
+      "title": "AWS Transform 커스텀, 자연어로 코드 변환 자동화",
+      "summary": "AWS Transform 커스텀이 자연어로 기술한 코드 변환을 저장소 전반에 자동 적용한다. 에디터를 벗어나지 않고 대규모 변환이 가능하다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/devops/building-and-running-custom-code-transformations-without-leaving-your-editor/",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "it-datadog-aws-incident",
+      "title": "데이터독 MCP+AWS, 자율 인시던트 해결 GA",
+      "summary": "데이터독 MCP 서버와 AWS 데브옵스 에이전트가 관측 데이터를 교차 상관해 자율적으로 인시던트를 조사·해결한다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/devops/production-ready-autonomous-incident-resolution-with-aws-devops-agent-now-ga-and-datadog-mcp-server/",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "it-jaeger-clickhouse",
+      "title": "예거, 클릭하우스 백엔드로 8.6배 압축",
+      "summary": "예거 v2.18.0이 분산 추적 저장 백엔드로 클릭하우스를 도입해 1,000만 스팬에서 8.6배 압축을 달성했다.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/blog/2026/06/23/building-jaegers-clickhouse-backend-8-6x-compression-on-10-million-spans/",
+      "originalDate": "2026-06-23"
+    }
+  ]
+}

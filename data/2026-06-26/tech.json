@@ -1,0 +1,64 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-apple-price-hike",
+      "title": "애플, 맥·아이패드 가격 200달러 이상 인상…AI發 메모리 품귀",
+      "summary": "애플이 맥 가격을 15~20%, 아이패드를 15~25% 올렸다. AI 하이퍼스케일러 수요로 메모리·스토리지 칩 가격이 4배로 뛴 것이 직접 원인으로, AI 붐이 소비자 가격에 전이되기 시작했다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com",
+      "originalDate": "2026-06-26",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Strategy / Procurement",
+        "status": "New",
+        "affectedSurface": "소비자 하드웨어 · 메모리 공급망"
+      }
+    },
+    {
+      "id": "tech-ibm-sub1nm",
+      "title": "IBM, 세계 첫 '1나노 이하' 칩 기술 발표",
+      "summary": "IBM이 트랜지스터를 엇갈리게 쌓는 0.7나노 나노스택 구조를 공개했다. 전통적 미세화 한계를 넘어 집적도와 연산 성능을 높인다고 주장했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "tech-spacex-starmind",
+      "title": "스페이스X '스타마인드', 궤도 위 AI 데이터센터 구상",
+      "summary": "스페이스X가 온보드 프로세서로 궤도에서 연산하는 AI 위성 군집 스타마인드를 계획 중이다. 스타십 1회 발사당 위성 30~50기를 올려 우주에서 추론·질의 처리를 노린다.",
+      "source": "Teslarati",
+      "url": "https://www.teslarati.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "tech-openai-ipo",
+      "title": "오픈AI, IPO 내년으로 연기 검토",
+      "summary": "오픈AI 경영진이 시장 변동성과 약세장, 스페이스X 상장의 교훈을 들어 IPO를 2027년으로 미루는 쪽으로 기울었다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "tech-apple-m7",
+      "title": "애플, 고성능 M6 건너뛰고 'AI 중심' M7 라인으로",
+      "summary": "애플이 M6 칩을 생략하고 2027년 말 AI에 초점을 둔 M7 프로·M7 맥스를, 2028년 M7 울트라를 내놓을 계획이다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "originalDate": "2026-06-26"
+    },
+    {
+      "id": "tech-builderx-remote",
+      "title": "6,400km 밖 노동자가 현장 기계 조종한다…빌더X 로보틱스",
+      "summary": "빌더X 로보틱스가 5G·위성으로 원격 운영자가 물리적 기계를 제어하게 했다. 멀리 떨어진 인력이 현지 일자리를 채우는 길을 연다.",
+      "source": "Singularity Hub",
+      "url": "https://www.singularityhub.com",
+      "originalDate": "2026-06-26"
+    }
+  ]
+}
