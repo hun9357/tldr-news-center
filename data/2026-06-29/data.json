@@ -1,0 +1,209 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-flink-23-materialized",
+      "title": "Apache Flink 2.3.0 출시 — 선언적 스트리밍과 머티리얼라이즈드 테이블",
+      "summary": "DDL로 진화하면서 불필요한 재처리를 피하는 머티리얼라이즈드 테이블과 체인지로그 변환·네이티브 S3 지원을 도입했다.",
+      "source": "Apache Flink",
+      "url": "https://flink.apache.org/2026/06/26/announcing-native-s3-fs/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "Flink 2.3이 선언적 스트리밍으로 이동하며 DDL 기반 머티리얼라이즈드 테이블과 네이티브 S3를 도입했다.",
+        "what": "Apache Flink 2.3이 선언적 스트리밍으로 무게중심을 옮긴다. DDL을 통해 진화하면서 불필요한 재처리를 피하는 머티리얼라이즈드 테이블을 도입했고, 체인지로그 변환과 하둡 의존성 없는 네이티브 S3 지원 같은 새 SQL 기능을 추가했다.",
+        "points": [
+          "선언적 스트리밍으로 전환",
+          "DDL 기반 머티리얼라이즈드 테이블",
+          "체인지로그 변환·네이티브 S3"
+        ],
+        "why": [
+          "스트림 처리의 진입 장벽이 SQL·선언형으로 낮아진다."
+        ]
+      }
+    },
+    {
+      "id": "data-pinterest-schema-evolution",
+      "title": "핀터레스트, 차세대 DB 인제스천에 자동 스키마 진화 도입",
+      "summary": "Kafka·Flink·Spark·Iceberg 전반의 CDC에 드리프트 탐지와 PR 감사성, SLA 기반 복구를 적용했다.",
+      "source": "Pinterest Engineering",
+      "url": "https://medium.com/pinterest-engineering",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "핀터레스트가 CDC에 드리프트 탐지·PR 감사성·SLA 기반 복구를 갖춘 자동 스키마 진화를 도입했다.",
+        "what": "핀터레스트가 Kafka, Flink, Spark, Iceberg 전반의 변경 데이터 캡처(CDC)에 대해 드리프트 탐지를 포함한 스키마 진화를 개발했다. 롤아웃에 PR 감사성과 SLA 기반 복구 메커니즘을 포함한다.",
+        "points": [
+          "CDC 전반 자동 스키마 진화",
+          "스키마 드리프트 탐지",
+          "PR 감사성·SLA 기반 복구"
+        ],
+        "why": [
+          "대규모 데이터 파이프라인의 스키마 변경 운영이 자동화·감사 가능해진다."
+        ]
+      }
+    },
+    {
+      "id": "data-razorpay-cdp",
+      "title": "레이저페이, 5억+ 프로필 처리하는 자체 고객데이터플랫폼 구축",
+      "summary": "Airflow·Spark·Temporal로 5억+ 사용자 프로필을 처리하며, 프라이버시 보존 조회와 무중단 버저닝으로 실시간 세분화를 제공한다.",
+      "source": "Razorpay Engineering",
+      "url": "https://engineering.razorpay.com/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "레이저페이가 Airflow·Spark·Temporal로 5억+ 프로필을 처리하는 실시간 세분화 CDP를 구축했다.",
+        "what": "레이저페이가 5억 명 이상의 사용자 프로필을 처리하는 자체 고객데이터플랫폼(CDP)을 만들었다. Airflow, Spark, Temporal 워크플로를 활용하며, 프라이버시 보존 조회와 무중단 버저닝으로 실시간 오디언스 세분화를 가능하게 한다.",
+        "points": [
+          "5억+ 사용자 프로필 처리",
+          "Airflow·Spark·Temporal 활용",
+          "프라이버시 보존·무중단 버저닝"
+        ],
+        "why": [
+          "대규모 실시간 고객 데이터 처리가 자체 구축으로도 가능해진다."
+        ]
+      }
+    },
+    {
+      "id": "data-smithdb-inverted-index",
+      "title": "SmithDB의 전문 검색용 역색인 구축기",
+      "summary": "문자열 인터닝·래딕스 정렬·스트리밍 컴팩션으로 효율적 전문 검색을 구현하고, 로컬 SSD와 클라우드 세그먼트를 병합해 1초 미만 신선도를 달성한다.",
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "SmithDB가 문자열 인터닝·래딕스 정렬·스트리밍 컴팩션으로 1초 미만 신선도의 전문 검색을 구현했다.",
+        "what": "SmithDB가 문자열 인터닝, 래딕스 정렬, 스트리밍 컴팩션을 통해 효율적인 전문 검색을 엔지니어링했다. 로컬 SSD 색인과 클라우드 스토리지 세그먼트를 병합해 1초 미만의 쿼리 신선도를 달성한다.",
+        "points": [
+          "문자열 인터닝·래딕스 정렬",
+          "스트리밍 컴팩션",
+          "로컬 SSD + 클라우드 병합으로 1초 미만 신선도"
+        ],
+        "why": [
+          "전문 검색 엔진의 신선도·비용 균형을 새롭게 끌어올린다."
+        ]
+      }
+    },
+    {
+      "id": "data-hardwood-parquet",
+      "title": "Hardwood 1.0 — JVM용 빠르고 가벼운 Parquet 리더",
+      "summary": "Java 21+용 프로덕션급 Parquet 리더로 병렬 페이지 디코딩과 최소 의존성으로 1,650만 행/초, 푸시다운 17~18배 개선을 보였다.",
+      "source": "Morling.dev",
+      "url": "https://www.morling.dev/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "Hardwood 1.0이 병렬 페이지 디코딩으로 1,650만 행/초, 선택적 푸시다운 17~18배 개선을 달성했다.",
+        "what": "Hardwood가 Java 21+용 프로덕션급 Parquet 리더를 선보였다. 병렬 페이지 디코딩과 최소한의 의존성으로, 벤치마크에서 초당 1,650만 행 처리와 선택적 푸시다운 약 17~18배 성능 개선을 보였다.",
+        "points": [
+          "Java 21+ 프로덕션급 Parquet 리더",
+          "병렬 페이지 디코딩",
+          "1,650만 행/초, 푸시다운 17~18배"
+        ],
+        "why": [
+          "분석 워크로드의 컬럼형 읽기 성능이 JVM 생태계에서 크게 개선된다."
+        ]
+      }
+    },
+    {
+      "id": "data-manticore-onnx-embeddings",
+      "title": "14배 빠른 임베딩 — Manticore의 ONNX 경로 재구축",
+      "summary": "ONNX 런타임으로 임베딩 파이프라인을 재작성해 최대 14배 처리량을 달성했으며, 스레드 안전 세션 공유로 잠금 경쟁을 줄였다.",
+      "source": "Manticore Search",
+      "url": "https://manticoresearch.com/blog/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "Manticore가 ONNX 런타임으로 임베딩 파이프라인을 재구축해 최대 14배 처리량을 달성했다.",
+        "what": "Manticore가 ONNX 런타임을 사용해 임베딩 파이프라인을 다시 구축했다. 스레드 안전 세션 공유와 개별 문서 처리로 잠금 경쟁을 줄여 최대 14배의 처리량 개선을 달성했다.",
+        "points": [
+          "ONNX 런타임 기반 재작성",
+          "스레드 안전 세션 공유",
+          "최대 14배 처리량 향상"
+        ],
+        "why": [
+          "벡터 검색의 임베딩 처리량이 인프라 비용을 직접 좌우한다."
+        ]
+      }
+    },
+    {
+      "id": "data-wix-skills-vs-docs",
+      "title": "Wix, 250회 AI 에이전트 평가로 '스킬 vs 문서' 검증",
+      "summary": "에이전트 최적화 문서가 CLI 과제 완료율을 87%로 높이고 토큰을 35% 줄였으며, API 과제는 양측 모두 80% 완료에 문서가 31% 빨랐다.",
+      "source": "Wix Engineering",
+      "url": "https://www.wix.engineering/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "Wix가 250회 에이전트 평가로 에이전트 최적화 문서가 CLI 완료율 87%·토큰 35% 절감을 가져옴을 확인했다.",
+        "what": "Wix의 평가에서 에이전트 최적화 문서가 CLI 과제 완료율을 87%로 끌어올리고 토큰 사용을 35% 줄였다. API 과제에서는 두 접근 모두 80% 완료에 도달했으나 문서가 31% 더 빨랐다.",
+        "points": [
+          "에이전트 문서로 CLI 완료율 87%",
+          "토큰 사용 35% 절감",
+          "API 과제는 문서가 31% 더 빠름"
+        ],
+        "why": [
+          "에이전트용 문서 설계가 도구 사용 성능의 실질 레버가 된다."
+        ]
+      }
+    },
+    {
+      "id": "data-snowflake-real-workload",
+      "title": "진짜 중요한 지표는 실제 워크로드 성능",
+      "summary": "동시성·지연·규모·비용 변동을 다루는 실제 시스템에서는 헤드라인 벤치마크보다 프로덕션 성능이 중요하다는 분석이다.",
+      "source": "Snowflake",
+      "url": "https://www.snowflake.com/blog/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "헤드라인 벤치마크보다 동시성·지연·비용을 다루는 프로덕션 성능이 진짜 지표라는 주장이다.",
+        "what": "프로덕션 성능이 헤드라인 벤치마크보다 중요하다. 실제 시스템은 동시성, 지연, 규모, 비용 변동성을 다루기 때문이다. 성능 주장은 실제 워크로드에 맞는 프로덕션 준비 구성을 반영해야 한다.",
+        "points": [
+          "동시성·지연·규모·비용 변동 반영",
+          "벤치마크보다 실워크로드 우선",
+          "프로덕션 준비 구성 기준"
+        ],
+        "why": [
+          "데이터 플랫폼 선택에서 벤치마크 과신을 경계해야 한다."
+        ]
+      }
+    },
+    {
+      "id": "data-dropbox-dspy",
+      "title": "드롭박스, DSPy로 AI 평가를 더 나은 응답으로 전환",
+      "summary": "DSPy와 LLM-as-judge 평가, 사람 라벨 예시로 Dash 챗 응답을 개선해 불완전 답변을 줄이고 토큰 소비를 낮췄다.",
+      "source": "Dropbox Engineering",
+      "url": "https://dropbox.tech/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "드롭박스가 DSPy와 LLM-as-judge 평가로 Dash 챗 응답을 개선하고 토큰 소비를 줄였다.",
+        "what": "드롭박스가 DSPy와 LLM-as-judge 평가, 사람이 라벨링한 예시를 활용해 Dash 챗 응답을 개선했다. 품질을 유지하면서 불완전한 답변을 줄이고 토큰 소비를 낮췄다.",
+        "points": [
+          "DSPy + LLM-as-judge 평가",
+          "사람 라벨 예시 활용",
+          "불완전 답변·토큰 동시 감소"
+        ],
+        "why": [
+          "체계적 평가 루프가 LLM 제품 품질 개선의 표준 방법으로 자리잡는다."
+        ]
+      }
+    },
+    {
+      "id": "data-common-crawl-web-graphs",
+      "title": "커먼크롤, 4~6월 호스트·도메인 웹 그래프 공개",
+      "summary": "60억 개 이상 엣지를 담은 호스트·도메인 그래프로 독자 크롤 없이 대규모 링크 분석이 가능하다.",
+      "source": "Common Crawl",
+      "url": "https://commoncrawl.org/blog",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "커먼크롤이 60억+ 엣지의 4~6월 호스트·도메인 웹 그래프를 공개했다.",
+        "what": "커먼크롤이 2026년 4·5·6월 호스트 및 도메인 수준 웹 그래프를 업데이트했다. 60억 개 이상의 엣지를 담아, 독자적 크롤러 없이도 대규모 링크 분석을 수행할 수 있다.",
+        "points": [
+          "호스트·도메인 수준 그래프",
+          "60억+ 엣지 포함",
+          "독자 크롤 없이 링크 분석"
+        ],
+        "why": [
+          "대규모 웹 구조 분석의 공개 인프라가 연구·검색을 뒷받침한다."
+        ]
+      }
+    }
+  ]
+}

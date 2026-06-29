@@ -1,0 +1,189 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-flink-native-s3",
+      "title": "Flink 네이티브 S3 파일시스템 공개 — 체크포인트 약 2배 빠르게",
+      "summary": "Flink 2.3의 네이티브 S3 플러그인이 하둡 의존성을 제거하고 더 깔끔한 구성으로 약 2배 빠른 체크포인트를 달성한다.",
+      "source": "Apache Flink",
+      "url": "https://flink.apache.org/2026/06/26/announcing-native-s3-fs/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "Flink 2.3 네이티브 S3 플러그인이 하둡 의존성을 없애고 약 2배 빠른 체크포인트를 제공한다.",
+        "what": "Flink 2.3의 새 네이티브 S3 플러그인이 하둡 의존성을 제거하고, 상태 저장 작업에 대해 더 깔끔한 구성과 약 2배 빠른 체크포인트를 달성한다.",
+        "points": [
+          "하둡 의존성 제거",
+          "약 2배 빠른 체크포인트",
+          "상태 저장 작업 구성 단순화"
+        ],
+        "why": [
+          "스트리밍 인프라의 운영 단순화·성능 개선이 동시에 진전된다."
+        ]
+      }
+    },
+    {
+      "id": "devops-eks-vpc-egress",
+      "title": "아마존 EKS, VPC 경유 컨트롤 플레인 이그레스 지원",
+      "summary": "API 서버 트래픽을 고객 VPC로 라우팅해 웹훅·OIDC 조회 등에 기존 컴플라이언스·보안 통제를 적용할 수 있다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/containers/amazon-eks-now-supports-control-plane-egress-through-your-vpc/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "EKS가 API 서버 트래픽을 고객 VPC로 라우팅해 기존 보안·컴플라이언스 통제를 적용할 수 있게 했다.",
+        "what": "아마존 EKS가 API 서버 트래픽을 고객 VPC를 통해 라우팅할 수 있게 됐다. 이로써 웹훅, OIDC 조회, 집계 요청 등에 기존 컴플라이언스·보안 통제를 적용할 수 있다.",
+        "points": [
+          "API 서버 트래픽 VPC 경유 라우팅",
+          "웹훅·OIDC 조회에 기존 통제 적용",
+          "규제 환경 적합성 향상"
+        ],
+        "why": [
+          "관리형 쿠버네티스의 네트워크 거버넌스 요구가 제품에 반영된다."
+        ]
+      }
+    },
+    {
+      "id": "devops-victorialogs-columnar",
+      "title": "VictoriaLogs의 컬럼형 로그 저장 방식",
+      "summary": "일·스트림 단위로 분할된 불변 컬럼형 저장으로 선택적 필드 읽기와 압축을 통해 비용 효율적 보존·빠른 쿼리를 구현한다.",
+      "source": "VictoriaMetrics",
+      "url": "https://victoriametrics.com/blog/victorialogs-internals-columnar-storage-on-disk/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "VictoriaLogs는 일·스트림 단위 불변 컬럼형 저장으로 비용 효율적 보존과 빠른 쿼리를 구현한다.",
+        "what": "VictoriaLogs는 일과 스트림으로 분할된 불변의 컬럼형 저장을 사용한다. 선택적 필드 읽기와 압축을 통해 비용 효율적인 보존과 빠른 쿼리를 동시에 달성한다.",
+        "points": [
+          "일·스트림 단위 불변 컬럼형 저장",
+          "선택적 필드 읽기·압축",
+          "비용 효율 보존 + 빠른 쿼리"
+        ],
+        "why": [
+          "로그 보존 비용이 관측가능성 도구 선택의 핵심 변수로 부상한다."
+        ]
+      }
+    },
+    {
+      "id": "devops-gcp-sql-alerting",
+      "title": "구글 클라우드 모니터링, SQL 기반 알림 프리뷰",
+      "summary": "로그·트레이스에 SQL 쿼리를 작성해 Slack·PagerDuty로 맞춤 라우팅되는 정교한 알림을 만들 수 있다.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/management-tools/alert-with-sql-in-cloud-monitoring-observability-analytics/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "구글 클라우드가 로그·트레이스에 SQL 쿼리로 정교한 알림을 만드는 기능을 프리뷰했다.",
+        "what": "구글 클라우드가 SQL 기반 알림을 프리뷰했다. 개발자가 로그와 트레이스에 대해 쿼리를 작성해 정교한 알림을 만들고, Slack이나 PagerDuty로 맞춤 라우팅할 수 있다.",
+        "points": [
+          "로그·트레이스에 SQL 쿼리 작성",
+          "정교한 조건 기반 알림",
+          "Slack·PagerDuty 맞춤 라우팅"
+        ],
+        "why": [
+          "관측가능성의 알림 표현력이 SQL 수준으로 확장된다."
+        ]
+      }
+    },
+    {
+      "id": "devops-spo-v1",
+      "title": "보안 프로파일 오퍼레이터 v1 — 안정 API·보안 강화",
+      "summary": "쿠버네티스 보안 프로파일 오퍼레이터가 안정 API와 함께 v1.0.0에 도달했고 보안 감사에서 치명적 취약점이 없었다.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/blog/2026/06/26/security-profiles-operator-v1-stable-apis-security-hardened-and-shaping-upstream-kubernetes/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "쿠버네티스 보안 프로파일 오퍼레이터가 안정 API와 함께 v1.0.0에 도달하고 보안 감사를 통과했다.",
+        "what": "쿠버네티스 보안 프로파일 오퍼레이터(SPO)가 안정 API를 갖추고 v1.0.0에 도달했다. 보안 감사에서 치명적 취약점이 발견되지 않았으며 업스트림 쿠버네티스에도 영향을 주고 있다.",
+        "points": [
+          "v1.0.0 안정 API 도달",
+          "보안 감사 치명 취약점 0건",
+          "업스트림 쿠버네티스에 반영"
+        ],
+        "why": [
+          "워크로드 보안 프로파일의 프로덕션 성숙도가 한 단계 올라선다."
+        ]
+      }
+    },
+    {
+      "id": "devops-octopus-ephemeral-env",
+      "title": "깃허브 PR 라벨로 선택적 임시 환경 구성",
+      "summary": "옥토퍼스 디플로이가 깃허브 라벨로 저위험 변경의 불필요한 배포를 건너뛰게 해 인프라 비용을 줄인다.",
+      "source": "Octopus",
+      "url": "https://octopus.com/blog/optional-ephemeral-environments-gh-label",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "옥토퍼스 디플로이가 깃허브 라벨로 저위험 변경의 배포를 건너뛰어 인프라 비용을 줄인다.",
+        "what": "옥토퍼스 디플로이가 깃허브 라벨을 활용해 저위험 변경에 대한 불필요한 배포를 건너뛸 수 있게 한다. 브랜치 보호를 유지하면서 인프라 비용을 절감한다.",
+        "points": [
+          "깃허브 라벨로 임시 환경 토글",
+          "저위험 변경 배포 생략",
+          "브랜치 보호 유지·비용 절감"
+        ],
+        "why": [
+          "CI/CD 비용 최적화가 개발자 워크플로에 자연스럽게 녹아든다."
+        ]
+      }
+    },
+    {
+      "id": "devops-newrelic-autopilot",
+      "title": "뉴렐릭 6월 라운드업 — 자율 인시던트 조사 'Autopilot'",
+      "summary": "자율 인시던트 조사를 위한 Autopilot과 AI 최적화 관측 접근 'Ground Truth'를 선보였다.",
+      "source": "New Relic",
+      "url": "https://newrelic.com/blog/news/new-relic-now-june-2026-round-up",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "뉴렐릭이 자율 인시던트 조사 'Autopilot'과 AI 최적화 관측 'Ground Truth'를 공개했다.",
+        "what": "뉴렐릭이 자율 인시던트 조사를 위한 Autopilot과 AI 최적화 관측 접근 Ground Truth를 선보였다. 확장된 컴플라이언스 약정도 함께 발표했다.",
+        "points": [
+          "자율 인시던트 조사 'Autopilot'",
+          "AI 최적화 관측 'Ground Truth'",
+          "컴플라이언스 약정 확대"
+        ],
+        "why": [
+          "관측가능성에 자율 조사 에이전트가 결합되며 온콜 부담이 줄어든다."
+        ]
+      }
+    },
+    {
+      "id": "devops-grafana-k8s-alerting",
+      "title": "그라파나 쿠버네티스 모니터링, 알림 방식 변경",
+      "summary": "데이터소스 관리 알림 대신 그라파나 관리형 알림을 사용해, 업그레이드 후 알림 재구성이 필요하다.",
+      "source": "Grafana",
+      "url": "https://grafana.com/blog/the-inside-scoop-on-alerting-changes-in-kubernetes-monitoring/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "그라파나 클라우드 쿠버네티스 모니터링이 그라파나 관리형 알림으로 전환돼 업그레이드 후 재구성이 필요하다.",
+        "what": "그라파나 클라우드의 쿠버네티스 모니터링이 데이터소스 관리 알림 대신 그라파나 관리형 알림을 사용하도록 바뀌었다. 라우팅 문제를 피하려면 업그레이드 후 알림을 재구성해야 한다.",
+        "points": [
+          "데이터소스 관리 → 그라파나 관리형 알림",
+          "업그레이드 후 알림 재구성 필요",
+          "라우팅 누락 주의"
+        ],
+        "why": [
+          "관측 플랫폼의 알림 모델 변경이 운영팀의 마이그레이션 부담으로 이어진다."
+        ]
+      }
+    },
+    {
+      "id": "devops-cpu-data-access",
+      "title": "CPU를 정말 화나게 하는 데이터 접근 패턴",
+      "summary": "메모리 접근 순서가 캐시 지역성·프리페칭을 통해 CPU 성능에 큰 영향을 주며, 데이터 배치가 연산 수만큼 중요함을 보여준다.",
+      "source": "weineng.me",
+      "url": "https://blog.weineng.me/posts/slowest_add/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "메모리 접근 순서가 캐시 지역성·프리페칭으로 CPU 성능을 좌우하며 데이터 배치의 중요성을 보여준다.",
+        "what": "메모리 접근 순서가 캐시 지역성과 프리페칭을 통해 CPU 성능에 극적인 영향을 준다. 데이터 배치가 연산 횟수만큼이나 성능에 중요함을 실증한다.",
+        "points": [
+          "접근 순서가 캐시 지역성 좌우",
+          "프리페칭 효과 차이",
+          "데이터 배치 ≈ 연산 횟수만큼 중요"
+        ],
+        "why": [
+          "저수준 성능 최적화에서 데이터 레이아웃의 가치가 재조명된다."
+        ]
+      }
+    }
+  ]
+}

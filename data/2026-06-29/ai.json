@@ -1,0 +1,223 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-gpt56-preview",
+      "title": "OpenAI, GPT-5.6 'Sol·Terra·Luna' 프리뷰 공개",
+      "summary": "세 모델 구성에 Sol을 플래그십으로 두고, 더 강한 사이버·바이오 안전 평가와 새 안전장치를 거쳐 단계적 출시에 들어간다.",
+      "source": "OpenAI",
+      "url": "https://deploymentsafety.openai.com/gpt-5-6-preview",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "High",
+        "confidence": "78%",
+        "owner": "AI Platform · Strategy",
+        "status": "Watch",
+        "affectedSurface": "프런티어 모델 · 안전 평가"
+      },
+      "related": [
+        "WSJ — 트럼프 행정부, 앤트로픽 모델 금지 일부 해제",
+        "CNBC — 구글, 컴퓨트 부족으로 메타의 제미나이 사용 제한",
+        "X(머스크) — Grok 4.5 비공개 베타 진입"
+      ],
+      "report": {
+        "tldr": "OpenAI가 GPT-5.6 프리뷰를 Sol·Terra·Luna 3종으로 공개하고, 강화된 사이버·바이오 안전 평가를 전제로 단계적 출시에 들어갔다.",
+        "what": "OpenAI가 GPT-5.6 프리뷰를 공개했다. Sol을 플래그십으로 Terra·Luna까지 세 모델로 구성되며, '더 강한 사이버·바이오 안전 평가와 새로운 안전장치'를 거친 뒤 더 넓게 배포한다는 방침이다. 같은 주 트럼프 행정부의 앤트로픽 모델 금지 일부 해제와 맞물려, 프런티어 모델의 출시 속도·범위가 안전 평가와 정부 승인에 점점 더 좌우되는 흐름을 보여준다.",
+        "points": [
+          "Sol(플래그십)·Terra·Luna 3종 구성",
+          "강화된 사이버·바이오 안전 평가 + 새 안전장치",
+          "전면 공개 전 단계적(프리뷰) 출시"
+        ],
+        "why": [
+          "프런티어 모델 출시가 역량뿐 아니라 안전 평가·규제 승인에 묶이는 시대를 굳힌다.",
+          "기업 로드맵에 모델 가용 시점의 불확실성이 추가된다."
+        ],
+        "action": "GPT-5.6 프리뷰의 가용 범위·레이트리밋을 모니터링하고, 안전 평가 통과 전 의존 설계를 피한다."
+      }
+    },
+    {
+      "id": "ai-grok45-beta",
+      "title": "머스크, Grok 4.5 비공개 베타 진입 발표",
+      "summary": "스페이스X·테슬라에서 비공개 테스트 중이며, 1.5T 규모 V9 파운데이션 모델 기반으로 'Opus 수준 이상' 성능을 주장한다.",
+      "source": "X",
+      "url": "https://x.com/elonmusk/status/2071184354756477041",
+      "originalDate": "2026-06-28",
+      "report": {
+        "tldr": "Grok 4.5가 1.5T V9 기반으로 비공개 베타에 진입했고 'Opus 근접~상회' 성능을 주장한다.",
+        "what": "일론 머스크가 Grok 4.5가 비공개 베타에 진입했다고 밝혔다. 스페이스X·테슬라에서 테스트 중이며, 1.5조 파라미터 규모의 V9 파운데이션 모델 위에 구축돼 'Opus에 근접하거나 이를 상회하는' 성능을 낸다고 주장했다.",
+        "points": [
+          "1.5T V9 파운데이션 모델 기반",
+          "스페이스X·테슬라서 비공개 테스트",
+          "'Opus 수준 이상' 성능 주장(미검증)"
+        ],
+        "why": [
+          "프런티어 경쟁이 OpenAI·앤트로픽·구글에 xAI까지 4파전으로 격화된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-dwarkesh-next-paradigm",
+      "title": "다음 패러다임 — RL 스케일링의 한계와 가중치 학습으로의 전환",
+      "summary": "AI 랩들이 다양한 과제에 RL 스케일링을 추구하나, 시뮬레이터가 없는 영역의 한계로 인컨텍스트에서 가중치 학습으로의 전환이 필요하다는 분석이다.",
+      "source": "Dwarkesh",
+      "url": "https://www.dwarkesh.com/p/the-next-paradigm",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "RL 스케일링이 시뮬레이터 부재 영역에서 막히며, 인컨텍스트 학습에서 가중치 학습으로의 전환이 다음 패러다임으로 지목된다.",
+        "what": "AI 랩들이 다양한 과제 전반에 강화학습 스케일링을 추진하고 있으나, 시뮬레이터가 없는 도메인에서 한계에 부딪힌다. 인컨텍스트 학습에서 가중치 기반 학습으로의 전환이 다음 단계로 필요하다는 분석이다.",
+        "points": [
+          "다양한 과제 RL 스케일링의 부상",
+          "시뮬레이터 부재 영역의 구조적 한계",
+          "인컨텍스트→가중치 학습 전환 제안"
+        ],
+        "why": [
+          "스케일링 다음 단계의 방향성이 모델 투자·연구 우선순위를 가른다."
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-economic-index",
+      "title": "앤트로픽 경제지수 6월 보고서 — 고임금 직군일수록 토큰을 더 쓴다",
+      "summary": "AI 연산 비용과 과제의 경제적 가치를 연결해, 고임금 직업이 훨씬 많은 토큰을 소비한다는 상관을 제시했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "앤트로픽 경제지수가 고임금 직군일수록 AI 토큰 소비가 크다는 상관을 제시했다.",
+        "what": "앤트로픽 경제지수 6월 보고서가 AI 연산 비용과 과제의 경제적 가치를 연결했다. 더 높은 임금의 직업일수록 훨씬 많은 토큰을 소비한다는 상관이 관찰됐다.",
+        "points": [
+          "연산 비용과 과제 경제가치 연결",
+          "고임금 직군일수록 토큰 소비 큼",
+          "AI 활용의 경제적 분포 정량화"
+        ],
+        "why": [
+          "AI 도입의 가치 분포가 직군·임금별로 비대칭임을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-reward-models-too-sensitive",
+      "title": "보상 모델이 지나치게 민감할 수 있다 — 메타, 몬테카를로 드롭아웃 군집화 제안",
+      "summary": "동등하게 타당한 응답 간의 사소한 차이에 보상 모델이 과적합할 수 있어, 더 안전한 보상 신호를 위한 기법을 제안했다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.21795",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "메타 연구진이 보상 모델의 과민 과적합 문제를 지적하고 몬테카를로 드롭아웃 군집화를 제안했다.",
+        "what": "메타 연구진은 보상 모델이 동등하게 타당한 응답들 사이의 사소한 차이에 과적합할 수 있음을 발견했다. 더 안전한 보상 신호를 위해 몬테카를로 드롭아웃 군집화 기법을 제안했다.",
+        "points": [
+          "동등 응답 간 미세 차이 과적합",
+          "보상 신호 왜곡 위험",
+          "몬테카를로 드롭아웃 군집화로 완화"
+        ],
+        "why": [
+          "RLHF 파이프라인의 보상 모델 신뢰성이 정렬 품질을 좌우한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-nano-mtp",
+      "title": "구글, 픽셀에서 제미나이 나노에 동결 다중토큰예측 적용",
+      "summary": "동결된 제미나이 나노 모델에 MTP를 후행 적용해 모바일 엣지 환경 성능을 최적화했다.",
+      "source": "Google Research",
+      "url": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "구글이 동결 제미나이 나노에 다중토큰예측(MTP)을 적용해 픽셀 엣지 추론을 가속했다.",
+        "what": "구글이 동결된 제미나이 나노 모델에 다중토큰예측(MTP)을 후행 적용해 모바일 엣지 컴퓨팅 환경의 성능을 최적화했다. 재학습 없이 추론 속도를 끌어올리는 접근이다.",
+        "points": [
+          "동결 모델에 MTP 후행 적용",
+          "재학습 없이 추론 가속",
+          "픽셀 등 온디바이스 엣지 최적화"
+        ],
+        "why": [
+          "온디바이스 AI의 속도·전력 효율이 모바일 경험의 차별화 요소가 된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-vision-pro-exec-openai",
+      "title": "애플 비전 프로 임원, OpenAI 하드웨어 부문으로 이직 보도",
+      "summary": "폴 미드가 OpenAI의 하드웨어 사업부에 합류한 것으로 전해지며 OpenAI의 디바이스 야심을 뒷받침한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "애플 비전 프로 임원 폴 미드가 OpenAI 하드웨어 부문으로 옮긴 것으로 보도됐다.",
+        "what": "애플 비전 프로 임원 폴 미드(Paul Meade)가 OpenAI의 하드웨어 사업부에 합류한 것으로 전해졌다. OpenAI가 자체 AI 디바이스를 준비하는 정황을 강화하는 인사다.",
+        "points": [
+          "폴 미드, OpenAI 하드웨어 부문 합류 보도",
+          "애플 비전 프로 핵심 인력 유출",
+          "OpenAI 디바이스 야심 뒷받침"
+        ],
+        "why": [
+          "AI 네이티브 하드웨어 경쟁에서 인재 쟁탈전이 본격화한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-son-vs-orbital-datacenter",
+      "title": "손정의, 머스크의 우주 데이터센터 구상에 베팅 반대",
+      "summary": "궤도 데이터센터의 재무적 타당성에 의문을 제기하며 기술계 큰손이 회의론을 폈다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/why-one-of-techs-biggest-gamblers-is-betting-against-elon-musks-ai-vision-7529f5c2",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "손정의가 머스크의 궤도 데이터센터 구상의 재무 타당성에 의문을 제기했다.",
+        "what": "기술계의 대표적 베팅가인 손정의가 AI 인프라용 궤도 데이터센터의 재무적 실현 가능성에 의문을 제기하며 머스크의 비전에 반대 입장을 폈다.",
+        "points": [
+          "궤도 데이터센터의 재무 타당성 의문",
+          "머스크 우주 AI 인프라 구상에 반론",
+          "기술계 큰손 간 비전 충돌"
+        ],
+        "why": [
+          "AI 인프라의 차세대 형태를 둘러싼 자본 배분 논쟁이 가시화된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-lean-scaling",
+      "title": "린(Lean) 소프트웨어 스케일링 법칙 — AI 이해도에 유리한 언어 구조",
+      "summary": "Lean 언어가 AI 모델 이해에 더 나은 스케일링 특성을 보여, 대규모 코드베이스 재작성을 정당화할 잠재 이점이 있다는 주장이다.",
+      "source": "gwern.net",
+      "url": "https://gwern.net/lean-scaling",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "Lean 언어가 AI 모델 이해에 유리한 스케일링 특성을 보인다는 분석이다.",
+        "what": "Lean 프로그래밍 언어가 AI 모델 이해 측면에서 우월한 스케일링 특성을 보여준다는 분석이다. 잠재 이점이 대규모 코드베이스 재작성을 정당화할 수 있다는 주장이다.",
+        "points": [
+          "Lean의 형식적 구조가 AI 이해에 유리",
+          "스케일링 특성에서 우위",
+          "대규모 재작성의 비용-편익 논쟁"
+        ],
+        "why": [
+          "형식 검증 언어가 AI 코드 생성·검증의 기반으로 재조명된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-qwen-image-agent",
+      "title": "Qwen 이미지 에이전트 — 계획·추론으로 텍스트-이미지 생성 강화",
+      "summary": "계획과 추론을 결합해 텍스트-이미지 생성을 개선하고, 에이전트형 이미지 생성 벤치마크 IA-Bench를 함께 제시했다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2606.26907",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "Qwen-Image-Agent가 계획·추론을 더해 텍스트-이미지 생성을 강화하고 IA-Bench를 도입했다.",
+        "what": "Qwen-Image-Agent는 계획과 추론을 통해 텍스트-이미지 생성을 향상시키며, 에이전트형 이미지 생성 역량을 벤치마킹하는 IA-Bench를 함께 제시했다.",
+        "points": [
+          "계획·추론 결합 이미지 생성",
+          "에이전트형 이미지 생성 접근",
+          "IA-Bench 벤치마크 도입"
+        ],
+        "why": [
+          "멀티모달 생성에 에이전트형 추론이 결합되며 품질 경쟁이 심화된다."
+        ]
+      }
+    }
+  ]
+}

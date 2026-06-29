@@ -1,0 +1,129 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💰",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-airwallex-11b",
+      "title": "에어월렉스, AI 금융 진출 속 110억 달러 밸류 달성",
+      "summary": "3억 2천만 달러를 조달하고 재무 운영 자동화 T:0와 에이전트형 소비자 지갑 Airi를 출시했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/26/airwallex-series-h-funding-11-billion-valuation-ai-finance.html",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "에어월렉스가 3.2억 달러를 조달해 110억 달러 밸류에 오르고 AI 재무 자동화 제품을 출시했다.",
+        "what": "핀테크 기업 에어월렉스가 3억 2천만 달러를 조달하며 110억 달러 밸류에이션에 도달했다. 재무 운영을 자동화하는 'T:0'와 자동 결제 관리를 돕는 에이전트형 소비자 지갑 'Airi'를 출시했다.",
+        "points": [
+          "3.2억 달러 조달, 110억 달러 밸류",
+          "재무 운영 자동화 'T:0' 출시",
+          "에이전트형 지갑 'Airi' 공개"
+        ],
+        "why": [
+          "AI 에이전트가 기업·소비자 금융 운영의 실행 주체로 들어온다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-meta-prediction-market",
+      "title": "저커버그, 메타 자체 예측시장 '아레나' 추진",
+      "summary": "초기에는 포인트로 보상하는 예측 앱으로, 수십억 달러 거래량의 핀테크 카테고리 진입을 노린다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/23/mark-zuckerberg-wants-meta-to-launch-its-own-prediction-market/",
+      "originalDate": "2026-06-23",
+      "report": {
+        "tldr": "메타가 포인트 기반 예측 앱 '아레나'로 급성장하는 예측시장 카테고리에 진입하려 한다.",
+        "what": "메타가 '아레나'라는 예측시장 앱을 개발 중이다. 초기에는 포인트로 사용자에게 보상하며, 수십억 달러 거래량으로 빠르게 커지는 핀테크 카테고리에 진입하려는 포석이다.",
+        "points": [
+          "포인트 기반 예측 앱 '아레나'",
+          "수십억 달러 거래량 카테고리 진입",
+          "폴리마켓·칼시와 경쟁/제휴 모색"
+        ],
+        "why": [
+          "소셜 플랫폼의 예측시장 진출이 핀테크 경쟁 구도를 재편한다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-x-payments-expand",
+      "title": "머스크, 지연 끝에 X 페이먼츠 사용자 확대 시작",
+      "summary": "X 머니가 미국 프리미엄 사용자에 P2P 결제·현금 보관·캐시백·경쟁력 있는 이자율을 제공하며 확대된다.",
+      "source": "Finai News",
+      "url": "https://finainews.com/payments/musk-starts-expanding-x-payments-to-more-users-after-delay/",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "X 머니가 지연 끝에 미국 프리미엄 사용자 대상 P2P 결제·현금 보관·캐시백을 제공하며 확대된다.",
+        "what": "X 머니가 지연 끝에 미국 프리미엄 사용자로 확대된다. P2P 결제, 현금 보관, 캐시백 보상, 경쟁력 있는 이자율을 제공하며, 소셜 플랫폼을 잠재적 금융 서비스 경쟁자로 자리매김한다.",
+        "points": [
+          "미 프리미엄 사용자로 확대",
+          "P2P 결제·현금 보관·캐시백 제공",
+          "소셜 플랫폼의 금융 서비스화"
+        ],
+        "why": [
+          "슈퍼앱 전략이 결제·예금 영역으로 본격 진입한다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-fed-skinny-accounts",
+      "title": "누가 연준 직통 계좌를 갖나 — 의회, '스키니 계좌' 위험 검토",
+      "summary": "크립토·핀테크 기업의 연준 제한 계좌 접근을 두고 현대화 이점과 소비자 보호·규제 공백을 저울질한다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406050/who-gets-direct-line-to-fed-congress-weighs-risks-fed-skinny-accounts-crypto-fintech-firms",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "의회가 크립토·핀테크 기업의 연준 '스키니 계좌' 접근을 두고 현대화와 규제 공백을 저울질한다.",
+        "what": "의회가 크립토·핀테크 기업이 제한적 '스키니 계좌'를 통해 연준에 직접 접근해야 하는지를 논의하고 있다. 현대화 이점과 잠재적 소비자 보호·규제 공백을 균형 있게 따진다.",
+        "points": [
+          "연준 제한 계좌 접근 논의",
+          "현대화 이점 vs 규제 공백",
+          "소비자 보호 쟁점"
+        ],
+        "why": [
+          "연준 인프라 접근권이 핀테크·크립토의 제도권 편입을 가른다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-binance-greece-exit",
+      "title": "바이낸스, 그리스 라이선스 시도 철회 — 일부 유럽 고객 영향 가능",
+      "summary": "규제 시한을 앞두고 EU 인가 시도를 접으며, 유럽 거래소들의 컴플라이언스 접근 분화가 드러났다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/26/binance-to-stop-providing-services-to-european-clients-after-failing-to-obtain-license-ft.html",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "바이낸스가 그리스를 통한 EU 인가 시도를 철회하며 일부 유럽 고객이 영향을 받을 수 있다.",
+        "what": "바이낸스가 규제 시한을 앞두고 그리스를 통한 EU 인가 시도를 접었다. 일부 유럽 고객이 영향을 받을 수 있으며, 유럽 규제를 헤쳐 나가는 암호화폐 거래소들의 컴플라이언스 접근이 분화하고 있음을 보여준다.",
+        "points": [
+          "그리스 경유 EU 인가 시도 철회",
+          "일부 유럽 고객 영향 가능",
+          "거래소별 컴플라이언스 분화"
+        ],
+        "why": [
+          "MiCA 체제 아래 글로벌 거래소의 유럽 전략이 재편된다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-ai-off-switch",
+      "title": "AI의 '오프 스위치'는 누가 쥐고 있나",
+      "summary": "앤트로픽의 모델 접근 제한이 벤더 종속 리스크를 부각하며, 기업들이 내부 모델·전용 인프라 전략을 모색한다.",
+      "source": "Fintech Brainfood",
+      "url": "https://www.fintechbrainfood.com/p/ai-off-switch",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "앤트로픽의 모델 접근 제한이 벤더 종속 리스크를 부각하며 기업들이 통제권 확보 전략을 찾는다.",
+        "what": "앤트로픽의 모델 접근 제한이 AI 벤더 종속을 둘러싼 기업 리스크를 부각했다. 기업들은 내부 모델과 전용 인프라 같은 전략으로 AI 운영의 통제권을 유지하려 한다. 트럼프 행정부의 모델 금지 일부 해제와 직접 맞닿은 이슈다.",
+        "points": [
+          "벤더 종속 리스크 부각",
+          "내부 모델·전용 인프라 모색",
+          "AI 운영 통제권 확보 과제"
+        ],
+        "why": [
+          "금융 기관에 AI 공급 연속성·통제권이 새로운 운영 리스크로 부상한다."
+        ]
+      }
+    }
+  ]
+}

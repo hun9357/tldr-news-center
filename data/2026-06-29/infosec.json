@@ -1,0 +1,262 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-cisco-cucm-weaponized",
+      "title": "24시간도 안 돼 무기화된 시스코 CUCM 취약점(CVE-2026-20230)",
+      "summary": "WebDialer 서비스의 SSRF로 인증 없이 루트 접근이 가능하며, 단계적 웹셸 배포로 이어진다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/less-than-24-hours-attackers-weaponize-cisco-cucm-flaw",
+      "originalDate": "2026-06-26",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops",
+        "status": "Act",
+        "affectedSurface": "Cisco CUCM · WebDialer"
+      },
+      "related": [
+        "Cisco 보안 권고 — CVE-2026-20230 패치",
+        "TheRegister — KDDI 1,420만 이메일 자격증명 노출",
+        "TheHackerNews — Amazon Q Developer MCP 코드 실행 결함"
+      ],
+      "report": {
+        "tldr": "시스코 CUCM의 CVE-2026-20230이 공개 24시간 내 무기화돼, SSRF로 인증 없는 루트 접근·웹셸 배포가 관측됐다.",
+        "what": "시스코 통합 통신 관리자(CUCM)의 CVE-2026-20230이 공개 24시간도 안 돼 공격에 활용됐다. WebDialer 서비스를 통한 SSRF 익스플로잇으로 인증 없이 루트 권한을 획득할 수 있으며, 단계적 웹셸 배포로 이어진다.",
+        "points": [
+          "WebDialer SSRF로 인증 없는 루트 접근",
+          "공개 24시간 내 실전 무기화",
+          "단계적 웹셸 배포로 지속성 확보"
+        ],
+        "why": [
+          "통합 통신 인프라는 내부망 깊숙이 위치해 침해 시 횡적 이동의 발판이 된다."
+        ],
+        "action": "CUCM을 즉시 패치하고 WebDialer 노출 여부·웹셸 IOC를 점검한다."
+      }
+    },
+    {
+      "id": "infosec-kddi-credential-exposure",
+      "title": "일본 통신사 KDDI, 1,420만 관리 이메일 자격증명 노출",
+      "summary": "제3자 소프트웨어 취약점으로 관리형 이메일 플랫폼이 침해돼 다수 일본 ISP 가입자에 영향이 우려된다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/cyber-crime/2026/06/24/you-have-got-to-be-kddi-ing-japanese-telco-exposes-142-million-managed-email-credentials",
+      "originalDate": "2026-06-24",
+      "report": {
+        "tldr": "KDDI 관리형 이메일 플랫폼이 제3자 SW 취약점으로 침해돼 1,420만 자격증명이 노출됐다.",
+        "what": "일본 통신사 KDDI의 관리형 이메일 플랫폼이 제3자 소프트웨어 취약점을 통해 침해됐다. 여러 일본 ISP에 걸쳐 최대 1,420만 명의 자격증명이 노출됐을 수 있다.",
+        "points": [
+          "제3자 SW 취약점이 침해 경로",
+          "1,420만 이메일 자격증명 노출",
+          "다수 일본 ISP 가입자 영향 우려"
+        ],
+        "why": [
+          "공급망 한 곳의 취약점이 통신사 규모의 대량 유출로 증폭된다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-amazon-q-mcp-rce",
+      "title": "Amazon Q Developer 결함 — 악성 레포가 MCP 설정으로 코드 실행 가능",
+      "summary": "MCP 구성 결함으로 상속된 AWS 자격증명을 이용한 무단 코드 실행이 가능했으며, AWS가 패치를 배포했다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/06/amazon-q-developer-flaw-could-let.html",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "Amazon Q Developer의 MCP 구성 결함으로 악성 레포가 상속된 AWS 자격증명으로 코드를 실행할 수 있었고, AWS가 패치했다.",
+        "what": "Amazon Q Developer의 MCP 구성 결함이 악성 저장소로 하여금 상속된 AWS 자격증명을 이용해 무단 코드를 실행할 수 있게 했다. AWS는 패치를 배포했다.",
+        "points": [
+          "MCP 설정 결함이 코드 실행 경로",
+          "상속된 AWS 자격증명 악용",
+          "AWS 패치 배포 완료"
+        ],
+        "why": [
+          "AI 코딩 에이전트의 MCP 통합이 새로운 공급망·권한 상속 위험을 만든다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-xss-to-root-ota",
+      "title": "Wi-Fi SSID·LoRa 노드명으로 악성코드 전달하는 XSS-to-Root 공격",
+      "summary": "네트워크 식별자에 악성 스크립트를 주입해 구형 임베디드 브라우저 기기에서 루트 권한 상승으로 이어질 수 있다.",
+      "source": "it4sec",
+      "url": "https://it4sec.substack.com/p/xss-to-root-attack-over-the-air-send",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "연구자가 SSID·LoRa 노드명에 스크립트를 심어 임베디드 기기에서 XSS-to-root로 권한 상승하는 기법을 시연했다.",
+        "what": "연구자가 Wi-Fi SSID나 LoRa 노드 이름 같은 네트워크 식별자에 악성 스크립트를 주입하는 방식을 시연했다. 구형 임베디드 브라우저를 쓰는 기기에서 루트 권한으로의 상승이 가능하다.",
+        "points": [
+          "네트워크 식별자 경유 스크립트 주입",
+          "구형 임베디드 브라우저가 취약점",
+          "XSS에서 루트 권한 상승 가능"
+        ],
+        "why": [
+          "관리 UI를 가진 IoT·임베디드 기기의 입력 검증 부재가 물리 근접 공격면을 넓힌다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-jlr-russian-hack",
+      "title": "재규어랜드로버 25억 달러 해킹 배후는 러시아 해커",
+      "summary": "2025년 침해가 생산을 마비시키고 대규모 정부 지원을 촉발했다는 보도다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/26/russian-hackers-were-behind-2-5-billion-hack-of-jaguar-land-rover-report",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "재규어랜드로버의 25억 달러 규모 침해 배후가 러시아 해커로 지목됐다.",
+        "what": "2025년 재규어랜드로버를 강타한 25억 달러 규모 침해의 배후가 러시아 해커였다는 보도가 나왔다. 이 침해는 생산을 마비시키고 상당한 정부 지원을 촉발했다.",
+        "points": [
+          "배후로 러시아 해커 지목",
+          "생산 마비·25억 달러 피해",
+          "대규모 정부 지원 촉발"
+        ],
+        "why": [
+          "제조 OT 침해가 국가 경제·안보 사안으로 비화하는 양상을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-scattered-spider-guilty",
+      "title": "스캐터드 스파이더 해커, 재판 첫날 유죄 인정",
+      "summary": "2024년 런던교통공사 침입과 관련해 영국 법정에서 젊은 멤버 2명이 유죄를 인정했다.",
+      "source": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/2026/06/scattered-spider-hackers-plead-guilty-on-day-1-of-trial",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "스캐터드 스파이더 멤버 2명이 TfL 침입 건으로 재판 첫날 유죄를 인정했다.",
+        "what": "악명 높은 해킹 그룹 스캐터드 스파이더의 젊은 멤버 두 명이 2024년 런던교통공사(TfL) 침입과 관련해 영국 법정에서 재판 첫날 유죄를 인정했다.",
+        "points": [
+          "멤버 2명 유죄 인정",
+          "2024년 TfL 침입 사건",
+          "재판 첫날 신속 인정"
+        ],
+        "why": [
+          "소셜 엔지니어링 기반 그룹에 대한 사법적 압박이 가시화된다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-nsa-pq-tls",
+      "title": "NSA SIGINT 인에이블링, 약화된 포스트양자 TLS 표준 밀어붙였다는 의혹",
+      "summary": "NSA가 IETF 표결에 영향을 미쳐 더 약한 포스트양자 암호 표준을 채택하게 했다는 주장이 제기됐다.",
+      "source": "cr.yp.to",
+      "url": "https://nsa.2026.action.cr.yp.to/",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "NSA가 IETF 표결에 영향을 미쳐 약화된 포스트양자 TLS 표준을 채택하게 했다는 의혹이 제기됐다.",
+        "what": "NSA가 IETF 표결에 개입해 상대적으로 약한 포스트양자 암호 표준을 채택하도록 영향을 미쳤다는 의혹이 제기됐다. 'SIGINT 인에이블링 프로젝트'의 일환이라는 주장이다.",
+        "points": [
+          "IETF 표결 영향 의혹",
+          "약화된 PQ TLS 표준 채택 주장",
+          "SIGINT 인에이블링 논란 재점화"
+        ],
+        "why": [
+          "표준 거버넌스의 신뢰성이 포스트양자 전환의 안전성을 좌우한다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-package-proxy",
+      "title": "Thinkst, 클라이언트 SW 없는 공급망 안전 검사 'Package Proxy' 공개",
+      "summary": "인라인 패키지 가드로 의존성 쿨다운과 차단/허용 목록을 지원해 공급망을 보호한다.",
+      "source": "Thinkst",
+      "url": "https://blog.thinkst.com/2026/06/introducing-package-proxy-supply-chain-safety-checks-without-client-side-software.html",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "Thinkst가 클라이언트 설치 없이 의존성 쿨다운·차단목록을 제공하는 인라인 패키지 가드를 공개했다.",
+        "what": "Thinkst가 클라이언트 측 소프트웨어 없이 공급망 안전 검사를 수행하는 'Package Proxy'를 공개했다. 의존성 쿨다운과 차단/허용 목록을 지원하는 인라인 패키지 가드다.",
+        "points": [
+          "클라이언트 SW 불필요한 인라인 가드",
+          "의존성 쿨다운으로 신규 패키지 위험 완화",
+          "차단/허용 목록 지원"
+        ],
+        "why": [
+          "연쇄적 패키지 공급망 공격에 대응하는 경량 방어 계층 수요가 커진다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-akrites-launch",
+      "title": "리눅스재단, 취약점 완화 프로젝트 'Akrites' 출범",
+      "summary": "핵심 패키지에 대해 공개 폭로보다 기밀 업스트림 수정과 패치 배포를 우선하는 이니셔티브다.",
+      "source": "LWN",
+      "url": "https://lwn.net/Articles/1079657",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "리눅스재단이 핵심 패키지의 기밀 업스트림 수정·패치 배포를 우선하는 'Akrites'를 출범했다.",
+        "what": "리눅스재단 이니셔티브 'Akrites'가 출범했다. 핵심 패키지의 중대 취약점에 대해 공개 폭로보다 기밀 업스트림 수정과 패치 배포를 우선하는 접근을 택한다.",
+        "points": [
+          "기밀 업스트림 수정 우선",
+          "핵심 패키지 패치 선배포",
+          "공개 폭로 타이밍 조율"
+        ],
+        "why": [
+          "오픈소스 핵심 의존성의 취약점 대응 거버넌스가 제도화된다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-2000-hack-ai-assistant",
+      "title": "2,000명이 내 AI 비서를 해킹하려 한 결과",
+      "summary": "2,000명 이상이 프롬프트 인젝션을 시도했지만, 안티-인젝션 조치가 비밀 파일 유출을 막아냈다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "2,000명 이상의 프롬프트 인젝션 시도에도 안티-인젝션 방어가 비밀 파일 유출을 막아냈다.",
+        "what": "2,000명 이상이 OpenAI 기반 비서에 프롬프트 인젝션 공격을 시도했다. 안티-인젝션 방어가 비밀 파일 탈취를 성공적으로 차단했으나, 인젝션 자체는 여전히 유효한 위협으로 남았다.",
+        "points": [
+          "2,000+명 프롬프트 인젝션 시도",
+          "안티-인젝션 방어가 유출 차단",
+          "프롬프트 인젝션은 여전히 유효 위협"
+        ],
+        "why": [
+          "LLM 에이전트의 신뢰 경계 설계가 실전 보안의 핵심으로 떠오른다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-mcp-enterprise-security",
+      "title": "엔터프라이즈용 MCP 사양, 새로운 보안 과제 동반",
+      "summary": "MCP 프로토콜의 엔터프라이즈 진화가 서버 측 취약점이라는 새로운 위험을 끌어들인다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/new-enterprise-ready-mcp-specification-brings-new-security-challenges",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "MCP의 엔터프라이즈 사양 진화가 서버 측 취약점이라는 새 공격면을 만든다.",
+        "what": "MCP 프로토콜이 엔터프라이즈 배포로 진화하면서 새로운 서버 측 취약점이 도입된다. 표준화가 진행되는 만큼 보안 검토의 범위도 함께 넓혀야 한다는 지적이다.",
+        "points": [
+          "엔터프라이즈 MCP 사양 등장",
+          "서버 측 취약점 신규 공격면",
+          "표준 진화에 보안 검토 병행 필요"
+        ],
+        "why": [
+          "에이전트 통합 표준의 확산이 새로운 공급망·권한 위험을 동반한다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-proxmox-adversaries",
+      "title": "고블린 루트 — Proxmox를 노리는 공격자들",
+      "summary": "공격자가 pvesh 명령으로 감사 추적을 회피하며 Proxmox를 열거·무차별 대입·악용하는 방식을 분석했다.",
+      "source": "Goblin Loot",
+      "url": "https://www.goblinloot.net/2026/06/adversaries-in-proxmox.html",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "공격자가 pvesh로 감사 추적을 회피하며 Proxmox를 열거·무차별 대입·악용하는 패턴을 분석했다.",
+        "what": "공격자가 Proxmox 시스템을 열거·무차별 대입하고 악용하면서 pvesh 명령을 통해 감사 추적을 회피하는 방식을 상세히 다뤘다.",
+        "points": [
+          "Proxmox 열거·무차별 대입·악용",
+          "pvesh 명령으로 감사 추적 회피",
+          "가상화 호스트 침해 시나리오"
+        ],
+        "why": [
+          "자가 호스팅 가상화 인프라의 로깅·권한 분리가 방어의 관건이 된다."
+        ]
+      }
+    }
+  ]
+}

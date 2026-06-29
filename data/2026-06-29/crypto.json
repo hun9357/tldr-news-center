@@ -1,0 +1,189 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-strategy-mnav-below-1",
+      "title": "스트래티지, mNAV 1 미만으로 비트코인 프리미엄 상실",
+      "summary": "부채·자기자본의 시장가치가 보유 비트코인 가치 아래로 처음 떨어졌고, 보통주는 2024년 11월 고점 대비 85% 하락했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406438/strategy-loses-bitcoin-premium-enterprise-mnav-dips-below-1",
+      "originalDate": "2026-06-28",
+      "report": {
+        "tldr": "스트래티지의 mNAV가 1 아래로 떨어지며 비트코인 프리미엄을 잃었고, 보통주는 고점 대비 85% 하락했다.",
+        "what": "스트래티지(옛 마이크로스트래티지)의 부채·자기자본 시장가치가 보유 비트코인 가치 아래로 처음 떨어졌다. 보통주는 2024년 11월 고점 대비 85% 급락하며 비트코인 축적 모델의 지속성에 의문이 제기된다.",
+        "points": [
+          "기업 mNAV 1 미만 진입",
+          "보통주 고점 대비 85% 하락",
+          "비트코인 축적 모델 회의론"
+        ],
+        "why": [
+          "레버리지 기반 BTC 축적 전략의 구조적 취약성이 드러난다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-chainlink-pangea",
+      "title": "체인링크, 프로젝트 판게아로 T+0 외환 결제 가동",
+      "summary": "16개국 50개 이상 은행이 체인링크 인프라를 도입해 전통적 이틀 주기를 당일 결제로 단축했다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/chainlink-project-pangea-50-banks-16-countries-t0-fx-settlement",
+      "originalDate": "2026-06-28",
+      "report": {
+        "tldr": "체인링크 프로젝트 판게아로 16개국 50여 은행이 외환 결제를 T+2에서 T+0으로 단축했다.",
+        "what": "16개국 50개 이상 규제 은행이 체인링크 인프라를 도입해 외환 거래를 당일(T+0) 결제할 수 있게 됐다. 전통적인 이틀(T+2) 주기를 무너뜨려 거래상대방 위험과 자본 묶임을 줄인다.",
+        "points": [
+          "16개국 50+ 은행 도입",
+          "T+2 → T+0 당일 결제",
+          "거래상대방 위험·자본 묶임 축소"
+        ],
+        "why": [
+          "블록체인 결제 인프라가 전통 금융의 핵심 배관으로 진입한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-kalshi-40b",
+      "title": "칼시, 220억 달러 라운드 7주 만에 400억 달러 밸류 추진",
+      "summary": "10억 달러 펀딩 마감 수주 만에 밸류 두 배 가까이를 노리며, 규제 순풍을 동력으로 삼는다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/cefi/kalshi-seeks-40b-valuation-seven-weeks-after-22b-raise",
+      "originalDate": "2026-06-28",
+      "report": {
+        "tldr": "칼시가 220억 달러 평가 7주 만에 400억 달러 밸류를 추진하며 규제 순풍을 동력으로 삼는다.",
+        "what": "예측시장 플랫폼 칼시가 10억 달러 펀딩 라운드를 마감한 지 수주 만에 밸류에이션을 두 배 가까이 끌어올리려 한다. 규제 순풍이 추진력이다.",
+        "points": [
+          "7주 만에 밸류 두 배 추진",
+          "직전 10억 달러 라운드 마감",
+          "규제 순풍이 동력"
+        ],
+        "why": [
+          "예측시장이 빅테크·VC 자금이 몰리는 고성장 카테고리로 부상한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-base-outage",
+      "title": "베이스, 이틀간 두 차례 메인넷 중단 — 단일 시퀀서 리스크 노출",
+      "summary": "합의 버그로 약 116분·20분 두 차례 블록 생성이 멈추며 단일 시퀀서 L2 설계의 운영 취약성이 드러났다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406409/base-suffers-second-mainnet-stall-in-two-days",
+      "originalDate": "2026-06-28",
+      "report": {
+        "tldr": "베이스가 이틀간 두 차례(약 116분·20분) 블록 생성이 멈추며 단일 시퀀서 L2의 취약성을 드러냈다.",
+        "what": "코인베이스의 L2 베이스가 합의 버그로 이틀 연속 두 차례 블록 생성이 중단됐다. 각각 약 116분, 20분 지속됐으며, 단일 시퀀서 레이어2 설계에 내재된 운영 취약성을 부각했다.",
+        "points": [
+          "이틀간 두 차례 메인넷 중단",
+          "중단 약 116분·20분",
+          "단일 시퀀서 구조 리스크 노출"
+        ],
+        "why": [
+          "L2의 탈중앙화·복원력이 기관 채택의 전제 조건으로 부상한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-ripple-ceo-saylor",
+      "title": "리플 CEO, '세일러가 크립토 시장에 해를 끼쳤다'",
+      "summary": "스트래티지의 우선주가 액면가 밑에서 거래되는 점을 들어, 금융공학 전략이 생태계를 훼손했다고 비판했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406432/ripple-ceo-says-michael-saylor-has-hurt-crypto-market-as-strategys-strc-trades-25-below-par",
+      "originalDate": "2026-06-28",
+      "report": {
+        "tldr": "리플 CEO 갈링하우스가 스트래티지 우선주의 액면가 미달을 들어 세일러의 금융공학을 비판했다.",
+        "what": "브래드 갈링하우스 리플 CEO가 스트래티지의 우선주가 액면가 아래에서 거래되는 점을 지적하며, 금융공학 전략이 더 넓은 암호화폐 생태계를 훼손한다고 비판했다.",
+        "points": [
+          "스트래티지 우선주 액면가 미달 지적",
+          "금융공학 전략 비판",
+          "생태계 신뢰 훼손 우려"
+        ],
+        "why": [
+          "레버리지·금융공학 의존 모델에 대한 업계 내부 경계가 커진다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-ibit-investors-down-40",
+      "title": "평균 IBIT 투자자, 이제 약 40% 손실",
+      "summary": "블랙록 비트코인 ETF 투자자가 초기 이익을 반납하며 역대 둘째로 나쁜 주간을 기록했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406451/average-ibit-investor-down-about-40-as-spot-bitcoin-etfs-cap-second-worst-week-on-record",
+      "originalDate": "2026-06-28",
+      "report": {
+        "tldr": "평균 IBIT 투자자가 약 40% 손실을 보며 스팟 비트코인 ETF가 역대 둘째로 나쁜 주간을 마감했다.",
+        "what": "블랙록의 비트코인 ETF(IBIT) 투자자들이 초기 이익을 반납하고 평균 약 40% 손실 상태가 됐다. 가격 고점 이후 대규모 유입을 반영한 결과로, 스팟 비트코인 ETF가 역대 두 번째로 나쁜 주간을 기록했다.",
+        "points": [
+          "평균 IBIT 투자자 약 40% 손실",
+          "고점 이후 대규모 유입 반영",
+          "역대 둘째로 나쁜 ETF 주간"
+        ],
+        "why": [
+          "ETF 채널 유입 타이밍이 개인 투자자 손익을 좌우함을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-x402-500k",
+      "title": "x402 에이전트 커머스, 일일 50만 건 돌파",
+      "summary": "AI 에이전트용 HTTP 402 마이크로페이먼트 프로토콜이 6월 일평균 약 50만 건을 처리하며 5배 성장했다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2070033027842085118.html",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "x402 마이크로페이먼트가 6월 일평균 50만 건을 처리하며 5배 성장했다.",
+        "what": "AI 에이전트를 위한 HTTP 402 마이크로페이먼트 프로토콜 x402가 6월 일평균 약 50만 건의 거래를 처리했다. 5배 증가한 수치로 에이전트 커머스의 실사용이 빠르게 늘고 있다.",
+        "points": [
+          "일평균 약 50만 건 처리",
+          "전월 대비 5배 성장",
+          "에이전트 커머스 실사용 확대"
+        ],
+        "why": [
+          "에이전트 결제 인프라가 실거래량을 동반한 카테고리로 성장한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-qday-trump-eo",
+      "title": "Q-Day 긴급성 고조 — 트럼프 행정명령이 일정 앞당겨",
+      "summary": "트럼프의 양자 컴퓨팅 행정명령이 2030~2031년 연방 포스트양자 전환 시한을 설정하며 비트코인의 양자 취약성을 둘러싼 긴장이 커졌다.",
+      "source": "X",
+      "url": "https://x.com/wowens/status/2070567785340542988",
+      "originalDate": "2026-06-27",
+      "report": {
+        "tldr": "트럼프의 양자 행정명령이 2030~2031년 연방 PQ 전환 시한을 정하며 Q-Day 긴급성이 커졌다.",
+        "what": "트럼프의 양자 컴퓨팅 행정명령이 연방 기관의 포스트양자 암호 전환 시한을 2030~2031년으로 설정했다. 비트코인의 양자 공격 취약성을 둘러싼 긴급성이 부각된다.",
+        "points": [
+          "연방 PQ 전환 시한 2030~2031년",
+          "양자 컴퓨팅 행정명령 발효",
+          "비트코인 양자 취약성 부각"
+        ],
+        "why": [
+          "포스트양자 전환 일정이 암호자산·인프라 보안의 핵심 변수로 들어온다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-hyper-usdh-grants",
+      "title": "하이퍼 재단, USDH 마이그레이션 위해 1,000만 달러 보조금 배정",
+      "summary": "USDH 스테이블코인 종료를 관리하도록 개발자에 약 1,000만 달러를 배분하며 7월 말 완료 시한을 뒀다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071263440451084628.html",
+      "originalDate": "2026-06-28",
+      "report": {
+        "tldr": "하이퍼 재단이 USDH 스테이블코인 종료를 돕기 위해 약 1,000만 달러 보조금을 배정했다.",
+        "what": "하이퍼 재단이 USDH 스테이블코인의 단계적 종료를 관리하도록 개발자에 약 1,000만 달러의 보조금을 배분한다. 완료 시한은 7월 말로 설정됐다.",
+        "points": [
+          "약 1,000만 달러 보조금 배정",
+          "USDH 스테이블코인 단계적 종료",
+          "7월 말 완료 시한"
+        ],
+        "why": [
+          "스테이블코인 라이프사이클 관리가 생태계 리스크 요인으로 부상한다."
+        ]
+      }
+    }
+  ]
+}
