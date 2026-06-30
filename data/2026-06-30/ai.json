@@ -6,204 +6,262 @@
   "bg": "#1d2942",
   "items": [
     {
-      "id": "ai-sakana-fugu",
-      "title": "사카나 Fugu Ultra, 클로드 차단 틈 파고들며 93.2 LiveCodeBench 기록",
-      "summary": "사카나가 클로드를 벤치마크에서 앞서는 코딩 모델 Fugu Ultra를 출시했다. 가격은 100만 입력 토큰당 5달러부터로 경쟁력 있다.",
-      "source": "Implicator AI",
-      "url": "https://www.implicator.ai/sakana-fugu-launches-with-93-2-livecodebench-score-after-claude-ban/",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "High",
-        "confidence": "75%",
-        "owner": "Eng",
-        "status": "Tracking",
-        "affectedSurface": "코딩 모델 · 모델 조달"
-      },
-      "report": {
-        "tldr": "사카나가 클로드를 벤치마크에서 앞서는 저가 코딩 모델 Fugu Ultra를 내놨다.",
-        "what": "사카나가 코딩 모델 Fugu Ultra를 출시했다. LiveCodeBench 93.2를 기록하며 클로드를 벤치마크에서 앞섰고, 가격은 100만 입력 토큰당 5달러부터로 책정해 가격 경쟁력을 내세웠다.",
-        "points": [
-          "LiveCodeBench 93.2 기록",
-          "벤치마크에서 클로드 추월",
-          "100만 토큰당 5달러부터"
-        ],
-        "why": [
-          "앤트로픽 수출·차단 공백을 아시아 모델이 빠르게 메우고 있다.",
-          "코딩 모델의 가격·성능 경쟁이 격화된다."
-        ]
-      }
-    },
-    {
-      "id": "ai-salesforce-claude-tag",
-      "title": "세일즈포스 직원들 '왜 슬랙에서 경쟁사를 홍보하나' 혼란",
-      "summary": "세일즈포스가 자사 AI와 경쟁하는 클로드 태그를 슬랙 안에서 홍보 중이다. 연 3억 달러 규모 앤트로픽 토큰 약정과 지분이 배경으로 꼽힌다.",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/salesforce-employees-anthropic-claude-tag-slack-tension",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "75%",
-        "owner": "Strategy",
-        "status": "Tracking",
-        "affectedSurface": "엔터프라이즈 AI · 파트너십"
-      },
-      "report": {
-        "tldr": "세일즈포스가 슬랙 안에서 경쟁 제품 클로드 태그를 홍보해 내부 혼선이 일었다.",
-        "what": "세일즈포스가 자사 AI 제품과 경쟁하는 클로드 태그(Claude Tag)를 슬랙 내부에서 홍보하면서 직원들이 의문을 제기했다. 연 3억 달러 규모의 앤트로픽 토큰 약정과 앤트로픽 지분 보유가 배경으로 지목된다.",
-        "points": [
-          "슬랙 내 클로드 태그 홍보",
-          "연 3억 달러 토큰 약정",
-          "앤트로픽 지분 보유"
-        ],
-        "why": [
-          "대규모 토큰 약정이 플랫폼의 제품 우선순위까지 좌우한다."
-        ]
-      }
-    },
-    {
-      "id": "ai-deepseek-dspark",
-      "title": "딥시크, LLM 추론 최대 85% 가속 프레임워크 DSpark 오픈소스화",
-      "summary": "딥시크가 토큰 시퀀스를 추측적으로 예측하고 빠르게 검증하는 방식으로 추론 속도를 최대 85% 끌어올리는 DSpark를 공개했다.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "80%",
-        "owner": "Eng",
-        "status": "New",
-        "affectedSurface": "LLM 추론 · 서빙 스택"
-      },
-      "report": {
-        "tldr": "딥시크가 추론을 최대 85% 가속하는 오픈소스 프레임워크 DSpark를 공개했다.",
-        "what": "딥시크가 LLM 추론을 최대 85%까지 가속하는 오픈소스 프레임워크 DSpark를 출시했다. 토큰 시퀀스를 추측적으로(speculatively) 예측하고 모델이 이를 빠르게 검증하도록 해 처리량을 높인다.",
-        "points": [
-          "추론 최대 85% 가속",
-          "추측적 토큰 예측·검증",
-          "오픈소스 공개"
-        ],
-        "why": [
-          "추론 비용이 AI 경제의 병목인 가운데 서빙 효율 혁신이 경쟁력을 가른다."
-        ]
-      }
-    },
-    {
       "id": "ai-devin-fusion",
-      "title": "코그니션, 다중 모델 라우팅으로 추론비 35~41% 절감하는 Devin Fusion 공개",
-      "summary": "프런티어 모델과 저비용 모델 사이를 동적으로 라우팅해 성능을 유지하면서 추론 비용을 35~41% 낮추는 시스템이다.",
+      "title": "Cognition 'Devin Fusion' — 멀티모델 하니스로 비용 35%↓",
+      "summary": "프런티어·저비용 모델을 혼합하는 듀얼 에이전트 구조로 FrontierCode 비용 35% 절감.",
       "source": "Cognition",
       "url": "https://cognition.com/blog/devin-fusion",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "코그니션이 동적 모델 라우팅으로 추론비를 35~41% 줄이는 Devin Fusion을 선보였다.",
-        "what": "코그니션이 다중 모델 시스템 Devin Fusion을 공개했다. 프런티어 모델과 비용 효율 모델 사이를 동적으로 라우팅해 성능을 유지하면서 추론 비용을 35~41% 절감한다.",
+        "tldr": "Cognition의 Devin Fusion이 모델 라우팅으로 성능을 유지하며 코딩 비용을 35%(Fable 5 연동 시 41%) 절감했다.",
+        "what": "Devin Fusion은 Cognition의 멀티모델 하니스로, 프런티어 모델과 비용 효율 모델을 혼합해 FrontierCode 벤치마크에서 최상위 성능을 유지하면서 비용을 35% 줄인다. 메인 에이전트와 '사이드킥'으로 구성된 듀얼 에이전트 구조로 동적 모델 라우팅을 수행해 비싼 캐시 미스를 피한다. Fable 5 연동 시 비용을 추가로 41% 절감한다.",
         "points": [
-          "다중 모델 동적 라우팅",
-          "추론비 35~41% 절감",
-          "성능 유지"
+          "듀얼 에이전트(메인+사이드킥) 동적 모델 라우팅",
+          "FrontierCode 비용 35% 절감, 성능 유지",
+          "Fable 5 연동 시 41% 추가 절감"
         ],
         "why": [
-          "토큰 단가 상승 국면에서 라우팅 기반 비용 최적화가 핵심 무기가 된다."
+          "에이전트 코딩의 핵심 경쟁축이 '비용 효율'로 이동한다.",
+          "모델 혼합·라우팅이 단일 프런티어 의존을 대체한다."
+        ]
+      },
+      "intel": {
+        "impact": "High",
+        "confidence": "72%",
+        "owner": "AI Platform",
+        "status": "Watch",
+        "affectedSurface": "코딩 에이전트 · 모델 라우팅"
+      },
+      "related": [
+        "TLDR — DeepSeek, DSpark 오픈소스로 추론 최대 85% 가속",
+        "TLDR IT — 앤트로픽 수출 통제 속 아시아 모델 부상"
+      ]
+    },
+    {
+      "id": "ai-gemini-free-image-gen",
+      "title": "제미나이 개인화 이미지 생성, 美 사용자 무료화",
+      "summary": "Nano Banana 기반 개인화 이미지 생성을 미국 사용자에게 무료 제공.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "구글이 Nano Banana 기반 개인화 이미지 생성을 미국 제미나이 사용자에게 무료로 풀었다.",
+        "what": "미국 내 모든 자격 사용자가 제미나이 앱에서 Nano Banana 기반 이미지 생성 기능을 무료로 쓸 수 있다. 사용자가 프롬프트로 명시하지 않아도 AI가 취향·선호를 이해해 이미지를 생성하며, 'Personal Intelligence'는 옵트인이고 어떤 앱에 접근할지 사용자가 정한다. 구글은 'Daily Brief', 개편된 인터페이스, 영상 모델 Gemini Omni, 개인 AI 에이전트 Gemini Spark 등 후속 업데이트를 예고했다.",
+        "points": [
+          "Nano Banana 기반 개인화 이미지 생성 무료",
+          "Personal Intelligence는 옵트인·앱 접근 제어",
+          "Daily Brief·Gemini Omni·Spark 등 예고"
+        ],
+        "why": [
+          "개인화 생성 AI가 무료 전략으로 사용자 기반을 넓힌다.",
+          "프라이버시 옵트인 설계가 개인화 확산의 조건이 된다."
         ]
       }
     },
     {
       "id": "ai-cursor-ios",
-      "title": "커서, iOS 앱 공개 베타 — 어디서나 코딩",
-      "summary": "커서가 클라우드·로컬 에이전트로 프로젝트를 원격 관리하는 iOS 앱을 공개 베타로 출시했다. 라이브 액티비티 업데이트와 PR 병합도 지원한다.",
+      "title": "Cursor for iOS 공개 베타",
+      "summary": "클라우드·로컬 에이전트로 어디서나 프로젝트 관리, 이동 중 PR 머지.",
       "source": "Cursor",
       "url": "https://cursor.com/blog/ios-mobile-app",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "커서가 원격 에이전트 코딩을 지원하는 iOS 앱을 공개 베타로 내놨다.",
-        "what": "커서가 iOS 앱을 공개 베타로 출시했다. 개발자가 클라우드 또는 로컬 에이전트로 프로젝트를 원격 관리할 수 있고, 라이브 액티비티 업데이트와 PR 병합 같은 기능을 제공한다.",
+        "tldr": "Cursor iOS 앱(공개 베타)으로 모바일에서 에이전트를 띄우고 PR을 머지할 수 있다.",
+        "what": "공개 베타에 들어간 Cursor for iOS는 클라우드 또는 로컬 에이전트로 어디서나 프로젝트를 관리하게 해준다. 모바일 앱에서 에이전트를 실행·제어하고 Live Activities로 업데이트를 받으며 이동 중 PR을 머지할 수 있다. 인시던트 대응, 고객 이슈 해결, 사용자 피드백 반영 등 워크플로를 지원한다.",
         "points": [
-          "iOS 공개 베타",
-          "클라우드·로컬 에이전트 원격 관리",
-          "라이브 액티비티·PR 병합"
+          "클라우드·로컬 에이전트 모바일 제어",
+          "Live Activities로 진행 상황 추적",
+          "이동 중 PR 머지 지원"
         ],
         "why": [
-          "에이전트 코딩이 데스크톱을 벗어나 모바일·비동기 워크플로로 확장된다."
+          "코딩 에이전트의 사용 맥락이 데스크톱을 벗어난다.",
+          "'언제 어디서나' 에이전트 운영이 표준이 된다."
         ]
       }
     },
     {
-      "id": "ai-gemini-free-image",
-      "title": "제미나이 개인화 AI 이미지 생성, 미국 사용자에 무료 개방",
-      "summary": "구글이 Nano Banana 기반 개인화 이미지 생성을 미국에서 무료화했다. 데일리 브리프와 개인 AI 에이전트 '제미나이 스파크'도 예고했다.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
-      "originalDate": "2026-06-29",
+      "id": "ai-rl-beyond-verifiable",
+      "title": "검증 가능성을 넘어선 RL",
+      "summary": "검증 가능한 영역의 RL 성공을 검증이 어려운 영역으로 확장하는 접근을 조망.",
+      "source": "Tanay Jaipuria",
+      "url": "https://www.tanayj.com/p/rl-beyond-the-verifiable",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "구글이 Nano Banana 기반 개인화 이미지 생성을 미국 사용자에 무료로 풀었다.",
-        "what": "구글이 Nano Banana로 구동되는 개인화 이미지 생성 기능을 미국 사용자에게 무료로 제공한다. 곧 제미나이 앱에 데일리 브리프와 개인 AI 에이전트 '제미나이 스파크(Gemini Spark)'를 추가할 예정이다.",
+        "tldr": "다음 도약은 검증이 어려운 과제로 RL의 성과를 확장하는 데서 온다는 분석.",
+        "what": "검증 가능한 영역에서 RL은 분명히 작동하고 있다. 다음 큰 도약은 같은 성과를 검증이 어려운 과제로 가져오는 접근에서 나올 것이다. 이 글은 검증 가능성이 왜 제약인지, 현재 작동하는 기법들, 그리고 이 문제를 공략하는 기업들을 살핀다.",
         "points": [
-          "개인화 이미지 생성 무료화",
-          "Nano Banana 기반",
-          "데일리 브리프·제미나이 스파크 예고"
+          "검증 가능 영역의 RL은 이미 성숙",
+          "검증 난이도가 핵심 제약",
+          "비검증 영역 공략 기법·기업 조망"
         ],
         "why": [
-          "소비자 AI 기능을 무료화해 사용자 락인과 에이전트 확장을 노린다."
+          "AI 역량 확장의 다음 프런티어를 가리킨다.",
+          "평가·보상 설계가 모델 발전의 관건임을 재확인한다."
         ]
       }
     },
     {
-      "id": "ai-google-cloud-science",
-      "title": "구글 클라우드, 과학용 전문 AI 모델 판매 — SandboxAQ와 제휴",
-      "summary": "구글 클라우드가 SandboxAQ와 손잡고 신약 개발·소재 과학에 쓰이는 과학 데이터 학습 정량 AI 모델을 제공한다.",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/google-cloud-science-ai-models-sandboxaq",
-      "originalDate": "2026-06-29",
+      "id": "ai-economy-of-tokens",
+      "title": "토큰의 경제학",
+      "summary": "표준 인터페이스가 AI를 모듈식 생태계로 분해해 오픈웨이트의 경쟁력을 키운다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/C2Xi1U",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "구글 클라우드가 SandboxAQ와 제휴해 과학 특화 AI 모델을 판매한다.",
-        "what": "구글 클라우드가 SandboxAQ와 제휴해 과학 데이터로 학습한 전문 정량 AI 모델을 제공한다. 신약 개발과 소재 과학 등 응용 분야를 겨냥한다.",
+        "tldr": "트랜스포머·추론 API 같은 표준 인터페이스가 AI를 모듈화하며 오픈웨이트 모델의 경쟁력을 끌어올린다.",
+        "what": "AI가 폐쇄적·수직 통합 시스템에서 표준 인터페이스(트랜스포머 아키텍처, 추론 API)로 지탱되는 모듈식 생태계로 이행하고 있다. 이런 아키텍처 분해는 오픈웨이트 모델이 폐쇄형과 효과적으로 경쟁하게 하고, 비용을 크게 낮추며 스택 전반의 혁신을 가속한다.",
         "points": [
-          "과학 특화 정량 모델",
-          "SandboxAQ 제휴",
-          "신약·소재 과학 응용"
+          "표준 인터페이스가 아키텍처 분해를 촉진",
+          "오픈웨이트가 폐쇄형과 경쟁 가능해짐",
+          "비용 절감과 스택 전반 혁신 가속"
         ],
         "why": [
-          "범용 LLM을 넘어 도메인 특화 과학 AI가 클라우드 상품으로 자리잡는다."
+          "AI 산업 구조가 통합형에서 모듈형으로 재편된다.",
+          "개방형 생태계가 비용·혁신 양면에서 유리해진다."
+        ]
+      }
+    },
+    {
+      "id": "ai-deepseek-dspark",
+      "title": "DeepSeek, 추론 최대 85% 가속 프레임워크 'DSpark' 오픈소스",
+      "summary": "앞서 경로를 추측하는 스카우트 방식으로 모델 출력 의미를 바꾸지 않고 가속.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "DeepSeek가 출력 의미를 바꾸지 않고 LLM 추론을 최대 85% 가속하는 DSpark를 오픈소스로 공개했다.",
+        "what": "DSpark는 기반 모델이 말하려는 바를 바꾸지 않으면서 LLM이 더 빨리 답하게 하는 시스템이다. 대부분의 모델은 한 번에 작은 텍스트 조각을 쓰는데, DSpark는 몇 단계 앞서 달리는 '스카우트'처럼 가능성 높은 경로를 추측하고 큰 모델이 안전한 단계를 빠르게 검증하게 한다. 추측이 좋으면 더 빨라지고, 약하면 검증에 시간을 낭비하지 않으려 한다.",
+        "points": [
+          "스카우트 방식의 추측 디코딩으로 가속",
+          "출력 의미 보존, 최대 85% 속도 향상",
+          "오픈소스로 공개"
+        ],
+        "why": [
+          "추론 비용·지연을 낮추는 오픈 기술이 확산된다.",
+          "오픈웨이트 진영의 효율 경쟁력을 강화한다."
         ]
       }
     },
     {
       "id": "ai-roadmapbench",
-      "title": "RoadmapBench, 버전 업그레이드 전반의 장기 에이전트 개발 평가",
-      "summary": "여러 파일·저장소에 걸쳐 수천 줄 수정을 요구하는 복잡한 코딩 과제로 AI 에이전트를 시험하는 벤치마크다.",
+      "title": "RoadmapBench — 버전 업그레이드 장기 에이전트 코딩 평가",
+      "summary": "17개 저장소·115개 과제로 다파일·다언어 장기 코딩을 실제 업그레이드 기반 평가.",
       "source": "arXiv",
       "url": "https://arxiv.org/abs/2605.15846",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "RoadmapBench가 다중 파일·저장소 장기 코딩 과제로 AI 에이전트를 평가한다.",
-        "what": "RoadmapBench는 여러 파일과 저장소에 걸친 복잡한 코딩 작업으로 AI 에이전트를 시험하는 벤치마크다. 과제들은 수천 줄에 걸친 수정을 요구한다.",
+        "tldr": "RoadmapBench가 실제 버전 업그레이드 기반으로 장기·다파일 에이전트 코딩을 평가한다.",
+        "what": "RoadmapBench는 여러 파일·언어에 걸친 장기 코딩 과제를 17개 저장소의 실제 버전 업그레이드에 기반해 평가한다. 115개 과제로 구성되며, 에이전트는 51개 파일에 걸쳐 중앙값 3,700줄을 수정해 기능을 구현해야 한다.",
         "points": [
-          "장기·다중 파일 과제",
-          "버전 업그레이드 시나리오",
-          "수천 줄 수정 요구"
+          "실제 버전 업그레이드 기반 과제",
+          "115개 과제, 17개 저장소",
+          "중앙값 51개 파일·3,700줄 수정 요구"
         ],
         "why": [
-          "에이전트 코딩 평가가 단발 함수에서 실제 유지보수 규모로 확장된다."
+          "장기 에이전트 코딩의 현실적 난이도를 측정한다.",
+          "벤치마크가 단발 과제에서 장기 작업으로 진화한다."
         ]
       }
     },
     {
       "id": "ai-discoformer",
-      "title": "DiScoFormer, 밀도와 스코어를 하나의 트랜스포머로",
-      "summary": "밀도와 스코어를 동시에 추정하는 트랜스포머로, 고차원 공간의 생성 모델링에서 고전 기법을 크게 앞선다.",
-      "source": "Hugging Face/Allen AI",
+      "title": "DiScoFormer — 밀도와 스코어를 한 번에 추정하는 트랜스포머",
+      "summary": "재학습 없이 단일 패스로 밀도·스코어 추정, 고차원에서 KDE 대비 오차 대폭 감소.",
+      "source": "Hugging Face",
       "url": "https://huggingface.co/blog/allenai/discoformer",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "DiScoFormer가 밀도·스코어를 동시 추정해 고차원 생성 모델링에서 고전 기법을 앞선다.",
-        "what": "DiScoFormer는 밀도(density)와 스코어(score)를 동시에 추정하는 트랜스포머 모델이다. 고차원 공간의 생성 모델링에서 고전적 방법을 크게 능가한다.",
+        "tldr": "DiScoFormer가 단일 패스로 밀도·스코어를 추정하며 고차원에서 KDE를 크게 앞선다.",
+        "what": "DiScoFormer는 데이터로부터 밀도와 스코어를 단일 패스로 추정하는 트랜스포머로, 재학습 없이 특히 고차원에서 고전적 커널 밀도 추정(KDE)을 능가한다. 크로스 어텐션으로 새 분포에 즉석 적응해 생성 모델링·베이즈 추론 정확도를 높인다. 가우시안 혼합으로 학습해 100차원에서 스코어 오차 6.5배, 밀도 오차 37배 이상 감소시켰다.",
         "points": [
-          "밀도·스코어 동시 추정",
-          "단일 트랜스포머 구조",
-          "고차원 생성 모델링 우수"
+          "단일 패스로 밀도·스코어 동시 추정",
+          "크로스 어텐션으로 새 분포 즉석 적응",
+          "100차원에서 스코어 6.5배·밀도 37배+ 오차 감소"
         ],
         "why": [
-          "생성 모델의 통계적 기반을 단일 아키텍처로 통합하려는 연구 흐름이다."
+          "생성 모델·베이즈 추론의 기반 추정 기법을 개선한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-google-sandboxaq",
+      "title": "구글 클라우드, 과학 특화 AI 모델 판매",
+      "summary": "SandboxAQ의 대형 정량 모델을 구글 클라우드에서 제공, 신약·소재·반도체 연구 지원.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/google-cloud-science-ai-models-sandboxaq",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "구글 클라우드가 SandboxAQ의 과학 특화 정량 모델을 제공해 연구 접근성을 넓힌다.",
+        "what": "구글이 SandboxAQ의 전문 AI 모델을 구글 클라우드를 통해 제공하기 시작한다. SandboxAQ의 대형 정량 모델은 과학 방정식과 실험실 데이터로 학습됐다. 이를 통해 신약 개발·소재 과학·반도체 제조용 AI에 대한 기업·연구 접근이 넓어진다. 연구자는 추론·인터페이스에 제미나이를, 기반 과학에 정량 모델을 결합할 수 있다.",
+        "points": [
+          "과학 방정식·실험실 데이터로 학습한 정량 모델",
+          "신약·소재·반도체 연구 대상",
+          "제미나이와 결합한 하이브리드 활용"
+        ],
+        "why": [
+          "범용 LLM과 과학 특화 모델의 결합이 연구 워크플로를 바꾼다."
+        ]
+      }
+    },
+    {
+      "id": "ai-salesforce-claude-tag",
+      "title": "세일즈포스, 슬랙 안에서 경쟁사 'Claude Tag' 홍보로 혼선",
+      "summary": "앤트로픽 지분·토큰 지출 탓에 자사 Agentforce와 충돌하는 Claude Tag를 홍보.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/salesforce-employees-anthropic-claude-tag-slack-tension",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "세일즈포스가 슬랙 안에서 앤트로픽의 Claude Tag를 홍보해 직원들 사이 혼선이 일었다.",
+        "what": "세일즈포스가 Claude Tag 출시를 도왔는데, 슬랙에는 자체 Slackbot과 (Claude로 구동되는) Agentforce 플랫폼이 있어 직원들 사이에 혼란이 생겼다. Claude Tag는 같은 플랫폼 안에서 병렬적 경험을 제공한다. 세일즈포스는 올해 앤트로픽 토큰에 약 3억 달러를 쓸 전망이고 앤트로픽 지분을 약 1% 보유해, 경쟁 긴장에도 Claude Tag를 홍보할 재무적 이유가 있다.",
+        "points": [
+          "슬랙 내 Agentforce·Slackbot과 기능 중첩",
+          "세일즈포스, 올해 앤트로픽 토큰에 약 3억 달러 지출",
+          "앤트로픽 지분 약 1% 보유"
+        ],
+        "why": [
+          "플랫폼 기업과 모델 기업의 이해관계가 얽히며 충돌한다.",
+          "자사 제품과 파트너 제품의 경쟁이 표면화된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-mistral-workflows",
+      "title": "Mistral Workflows — 멀티에이전트 파이프라인 오케스트레이션",
+      "summary": "내결함성 있는 멀티에이전트 AI 파이프라인 실행·모니터링 플랫폼.",
+      "source": "Mistral",
+      "url": "https://links.tldrnewsletter.com/jYyOfM",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "Mistral Workflows는 멀티에이전트 AI 파이프라인을 위한 내구·내결함성 오케스트레이션 플랫폼이다.",
+        "what": "Mistral Workflows는 멀티에이전트 AI 파이프라인을 실행·모니터링하기 위한 내구성·내결함성 오케스트레이션 플랫폼이다. 약 30분 만에 문서 처리 워크플로를 구축하는 예시가 소개됐다.",
+        "points": [
+          "멀티에이전트 파이프라인 오케스트레이션",
+          "내구·내결함성 실행/모니터링",
+          "문서 처리 워크플로 30분 구축 예시"
+        ],
+        "why": [
+          "에이전트 파이프라인의 운영·관측성 도구가 성숙한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-sakana-fugu",
+      "title": "Sakana, 클로드 차단 후 'Fugu' 출시 — LiveCodeBench 93.2",
+      "summary": "Fugu Ultra가 LiveCodeBench에서 Fable을 앞서며 입력 100만 토큰당 5달러로 시작.",
+      "source": "Implicator AI",
+      "url": "https://www.implicator.ai/sakana-fugu-launches-with-93-2-livecodebench-score-after-claude-ban/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "도쿄 Sakana AI가 클로드 차단 이후 Fugu를 출시, LiveCodeBench 93.2로 Fable을 앞섰다.",
+        "what": "Sakana AI의 Fugu Ultra가 LiveCodeBench에서 Fable을 능가했고, 입력 100만 토큰당 5달러로 시작한다. 미국의 앤트로픽 모델 수출 제한 속에서 등장한 아시아권 프런티어 모델 사례다.",
+        "points": [
+          "Fugu Ultra, LiveCodeBench 93.2로 Fable 상회",
+          "입력 100만 토큰당 5달러",
+          "앤트로픽 수출 제한 공백을 겨냥"
+        ],
+        "why": [
+          "수출 통제가 아시아권 대체 모델 확산을 촉발한다.",
+          "가격·코딩 성능을 앞세운 신규 진입자가 늘어난다."
         ]
       }
     }

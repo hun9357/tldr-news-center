@@ -6,242 +6,282 @@
   "bg": "#14283a",
   "items": [
     {
-      "id": "dev-react-hooks-zustand",
-      "title": "리액트 훅이 확장에 한계일 때: 복잡한 상태를 Zustand로",
-      "summary": "여러 컴포넌트에 걸친 공유 상태 관리에서 리액트 훅이 부족해지는 지점을 짚고, 전용 상태 관리 도구로 Zustand를 추천한다.",
-      "source": "orizens.com",
-      "url": "https://orizens.com/blog/2026-06-18-zustand/?utm_source=tldrdev",
-      "originalDate": "2026-06-18",
-      "report": {
-        "tldr": "공유 상태가 커지면 리액트 훅이 한계에 이르며 Zustand가 대안이라는 글이다.",
-        "what": "여러 컴포넌트에 걸친 공유 상태를 관리할 때 리액트 훅이 부적절해지는 지점을 분석한다. 전용 상태 관리 라이브러리로 Zustand를 권한다.",
-        "points": [
-          "훅의 공유 상태 한계",
-          "Zustand로 전환",
-          "복잡한 상태 관리"
-        ],
-        "why": [
-          "상태 관리 도구 선택의 실무 기준을 제시한다."
-        ]
-      }
-    },
-    {
-      "id": "dev-cuda-kernel",
+      "id": "dev-cuda-kernel-walkthrough",
       "title": "CUDA 커널을 실행하면 무슨 일이 일어나는가",
-      "summary": "간단한 CUDA 프로그램의 컴파일·실행 과정을 CPU-GPU 상호작용, 메모리 관리, GPU 명령 실행까지 설명한다.",
-      "source": "fergusfinn.com",
-      "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/?utm_source=tldrdev",
-      "originalDate": "2026-06-29",
+      "summary": "두 벡터를 더하는 CUDA 프로그램의 컴파일·실행을 워프·QMD까지 추적.",
+      "source": "Fergus Finn",
+      "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "CUDA 프로그램의 컴파일부터 GPU 실행까지 전 과정을 해부한다.",
-        "what": "간단한 CUDA 프로그램이 컴파일·실행되는 과정을 설명한다. CPU-GPU 상호작용, 메모리 관리, GPU 명령 실행을 단계별로 다룬다.",
+        "tldr": "두 벡터를 더하는 CUDA 프로그램을 nvcc 컴파일부터 GPU 워프 실행까지 단계별로 따라간다.",
+        "what": "이 글은 두 벡터를 더하는 간단한 CUDA 프로그램의 컴파일·실행 과정을 설명한다. nvcc 컴파일부터 GPU 실행까지, 호스트 CPU가 GPU와 인터페이스하고 메모리를 관리하며 푸시버퍼와 QMD(Queue Meta Data) 같은 메커니즘으로 커널 실행을 트리거하는 방법을 다룬다. 워프 스케줄링과 메모리 접근 최적화 등 GPU 명령 실행 모델까지 상세히 설명한다.",
         "points": [
-          "컴파일·실행 흐름",
-          "CPU-GPU 상호작용",
-          "메모리·명령 실행"
+          "nvcc 컴파일→GPU 실행 전 과정",
+          "푸시버퍼·QMD로 커널 실행 트리거",
+          "워프 스케줄링·메모리 접근 최적화"
         ],
         "why": [
-          "GPU 프로그래밍의 내부 동작을 이해하는 데 도움을 준다."
+          "GPU 컴퓨팅의 저수준 동작을 깊이 이해하게 한다."
         ]
       }
     },
     {
       "id": "dev-fokosdb",
-      "title": "FokosDB: Cloudflare Durable Objects 위의 강한 일관성 무한 스토리지 DB",
-      "summary": "Cloudflare Durable Objects를 활용한 실험적 DB로, 파티셔닝·분산 트랜잭션·캐싱으로 확장성을 노린다.",
-      "source": "lambrospetrou.com",
-      "url": "https://www.lambrospetrou.com/articles/fokosdb/?utm_source=tldrdev",
-      "originalDate": "2026-06-29",
+      "title": "FokosDB — Cloudflare Durable Objects 위 강한 일관성 무한 저장 DB",
+      "summary": "해시·레인지 키 파티셔닝과 분산 트랜잭션으로 강한 일관성·확장성 제공.",
+      "source": "Lambros Petrou",
+      "url": "https://www.lambrospetrou.com/articles/fokosdb/",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "FokosDB는 Cloudflare Durable Objects 위에 강한 일관성과 무한 스토리지를 올린 실험 DB다.",
-        "what": "Cloudflare Durable Objects를 기반으로 한 실험적 데이터베이스다. 파티셔닝, 분산 트랜잭션, 캐싱을 결합해 확장성을 추구한다.",
+        "tldr": "FokosDB는 Cloudflare Durable Objects 위에 무한 저장·강한 일관성을 제공하는 실험적 DB다.",
+        "what": "FokosDB는 Cloudflare Durable Objects 위에 구축된 실험적 데이터베이스로, 무한 저장과 강한 일관성을 제공한다. 해시·레인지 키 파티셔닝 시스템으로 확장성·성능을 확보하고, 분산 트랜잭션·토폴로지 인코딩·캐싱으로 대용량 데이터 처리와 요청 최적화를 수행한다.",
         "points": [
-          "Durable Objects 기반",
-          "강한 일관성",
-          "파티셔닝·분산 트랜잭션"
+          "Durable Objects 기반 무한 저장",
+          "해시·레인지 키 파티셔닝",
+          "분산 트랜잭션·토폴로지 인코딩·캐싱"
         ],
         "why": [
-          "엣지 런타임 위에서 데이터베이스를 구축하는 새로운 접근을 보여준다."
+          "엣지 런타임 위 강한 일관성 DB의 설계 사례를 보여준다."
         ]
       }
     },
     {
-      "id": "dev-working-with-ai",
-      "title": "AI와 함께 일하기: 구체적 사례",
-      "summary": "실제 디버깅 시나리오로 AI의 이점과 한계를 함께 짚으며, 기술 부채를 막으려면 개발자 전문성이 필요하다고 강조한다.",
-      "source": "htmx.org",
-      "url": "https://htmx.org/essays/working-with-ai/?utm_source=tldrdev",
-      "originalDate": "2026-06-29",
+      "id": "dev-react-hooks-zustand",
+      "title": "React 훅이 확장되지 않을 때 — Zustand로 복잡 상태 이전",
+      "summary": "여러 컴포넌트·외부 소스가 공유 상태에 접근할 때 Zustand로 관리 단순화.",
+      "source": "Orizens",
+      "url": "https://orizens.com/blog/2026-06-18-zustand/",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "실제 디버깅 사례로 AI의 이점과 한계, 개발자 전문성의 필요를 짚는다.",
-        "what": "실제 디버깅 시나리오를 통해 AI의 장점과 한계를 함께 검토한다. 기술 부채를 막기 위해 개발자의 전문성이 여전히 필수임을 강조한다.",
+        "tldr": "공유 상태가 여러 곳에서 접근될 때 React 훅 대신 Zustand로 상태 관리를 단순화한다.",
+        "what": "React 훅은 UI 가까이의 상태 관리에는 효율적이지만, 공유 상태가 여러 컴포넌트나 외부 소스에서 접근·갱신돼야 할 때 부적합해질 수 있다. Zustand 같은 전용 상태 관리 솔루션으로 전환하면 공유 상태 관리가 쉬워진다.",
         "points": [
-          "구체적 디버깅 사례",
-          "AI 이점과 한계 병기",
-          "개발자 전문성 필수"
+          "훅은 UI 인접 상태에 적합",
+          "공유 상태 확장 시 한계",
+          "Zustand로 공유 상태 관리 단순화"
         ],
         "why": [
-          "AI 보조 개발에서 인간 판단의 역할을 현실적으로 짚는다."
+          "프런트엔드 상태 관리의 적절한 도구 선택 기준을 제시한다."
         ]
       }
     },
     {
       "id": "dev-formal-verification",
-      "title": "당신은 형식 검증에 대해 아무것도 모른다",
-      "summary": "AI 도구가 증명 작성 비용을 낮춰 형식 검증을 대중화하고, 비즈니스 규칙에 수학적 확실성을 부여할 수 있게 한다는 글이다.",
+      "title": "당신은 형식 검증을 모른다",
+      "summary": "AI가 증명 작성 비용을 낮춰 형식 검증을 더 접근 가능하게 만든다.",
       "source": "ACM Queue",
-      "url": "https://queue.acm.org/detail.cfm?id=3819084&utm_source=tldrdev",
-      "originalDate": "2026-06-29",
+      "url": "https://queue.acm.org/detail.cfm?id=819084",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "AI가 증명 비용을 낮춰 형식 검증을 대중화한다는 ACM Queue 글이다.",
-        "what": "AI 도구가 증명 작성 비용을 줄여 형식 검증(formal verification)을 대중화하는 방식을 탐구한다. 비즈니스 규칙에 수학적 확실성을 부여할 수 있게 한다.",
+        "tldr": "AI가 증명 작성의 진입 장벽을 낮춰 소프트웨어 형식 검증을 실용화한다.",
+        "what": "AI 도구의 접근성 향상이 증명 작성의 과거 높은 비용을 없애 소프트웨어 개발의 형식 검증을 개선한다. 이 변화로 개발자는 복잡한 비즈니스 규칙이 수학적 확실성으로 지켜지도록 보장할 수 있다.",
         "points": [
-          "AI가 증명 비용 절감",
-          "형식 검증 대중화",
-          "비즈니스 규칙에 수학적 확실성"
+          "AI가 증명 작성 비용을 낮춤",
+          "형식 검증 진입 장벽 하락",
+          "비즈니스 규칙을 수학적으로 보장"
         ],
         "why": [
-          "전문가 영역이던 형식 검증이 일반 개발로 확산될 가능성을 시사한다."
+          "AI가 고비용 검증 기법을 주류로 끌어올린다."
         ]
       }
     },
     {
-      "id": "dev-claude-code-spend",
-      "title": "클로드 코드 비용 이해하기: 실제로 무엇이 비용을 키우나",
-      "summary": "세션 시작 오버헤드와 누적된 설정이 클로드 코드 사용 비용의 주요 동인임을 짚는다.",
-      "source": "Comet",
-      "url": "https://www.comet.com/site/blog/claude-code-context-bloat/?utm_source=tldrdev",
-      "originalDate": "2026-06-29",
+      "id": "dev-astryx-meta-design-system",
+      "title": "Astryx — 메타가 8년간 개발한 오픈소스 디자인 시스템",
+      "summary": "1.3만+ 앱을 구동하는 150+ 접근성 컴포넌트, 사람·AI가 같은 도구로 빌드.",
+      "source": "GitHub",
+      "url": "https://github.com/facebook/astryx",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "세션 시작 오버헤드와 누적 설정이 클로드 코드 비용을 키우는 핵심 동인이다.",
-        "what": "클로드 코드 사용 비용의 주요 동인을 분석한다. 세션 시작 시의 오버헤드와 누적된 설정·컨텍스트 비대화가 비용을 끌어올린다고 짚는다.",
+        "tldr": "Astryx는 메타가 8년간 개발해 1.3만+ 앱을 구동하는 오픈소스 디자인 시스템이다.",
+        "what": "Astryx는 메타에서 8년간 개발된 오픈소스 디자인 시스템으로, 150개 이상의 접근성 컴포넌트와 다양한 테마 라이브러리로 1만 3,000개 이상의 애플리케이션을 구동한다. 개방된 내부 구조, 스타일링 잠금 없음, 사람과 AI 어시스턴트가 같은 도구로 빌드할 수 있는 협업 API 아키텍처를 갖췄다.",
         "points": [
-          "세션 시작 오버헤드",
-          "컨텍스트 비대화",
-          "누적 설정의 비용"
+          "150+ 접근성 컴포넌트·다양한 테마",
+          "1.3만+ 앱 구동 실적",
+          "사람·AI 공용 협업 API"
         ],
         "why": [
-          "에이전트 코딩 도구의 비용 최적화 실무 포인트를 제공한다."
+          "대규모 검증된 디자인 시스템이 오픈소스로 공개된다."
         ]
       }
     },
     {
-      "id": "dev-data-quality-fundamentals",
-      "title": "데이터 품질에 관하여 — 기초",
-      "summary": "세분·집계·비즈니스 성과 관점을 통해 데이터 품질을 이해하는 계층형 프레임워크를 제시한다.",
-      "source": "pivotal.substack.com",
-      "url": "https://pivotal.substack.com/p/on-data-quality-1-basics?utm_source=tldrdev",
-      "originalDate": "2026-06-29",
+      "id": "dev-craft-agents-oss",
+      "title": "Craft Agents OSS — 에이전트-API 연동 프레임워크",
+      "summary": "외부 데이터 연결·워크플로 자동화·다중 AI 제공사 연동 지원.",
+      "source": "GitHub",
+      "url": "https://github.com/craft-ai-agents/craft-agents-oss",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "세분·집계·비즈니스 성과의 계층으로 데이터 품질을 보는 프레임워크다.",
-        "what": "데이터 품질을 이해하기 위한 계층형 프레임워크를 제시한다. 세분(granular), 집계(aggregate), 비즈니스 성과 관점을 단계적으로 다룬다.",
+        "tldr": "Craft Agents는 에이전트와 다양한 API·서비스의 효율적 연동을 돕는 오픈소스다.",
+        "what": "Craft Agents는 에이전트가 다양한 API·서비스와 효율적으로 상호작용하도록 돕는다. 외부 데이터 소스 연결, 워크플로 자동화, 다수 AI 제공사와의 연동 등 다양한 작업을 지원한다.",
         "points": [
-          "계층형 품질 프레임워크",
-          "세분·집계·성과 관점",
-          "기초 정리"
+          "외부 데이터 소스 연결",
+          "워크플로 자동화",
+          "다중 AI 제공사 연동"
         ],
         "why": [
-          "데이터 품질을 체계적으로 진단하는 출발점을 제공한다."
+          "에이전트 통합 프레임워크 생태계가 넓어진다."
+        ]
+      }
+    },
+    {
+      "id": "dev-qwen-36-local",
+      "title": "Qwen 3.6 27B — 로컬 개발의 스위트 스폿",
+      "summary": "과거 로컬 모델을 능가하는 범용 지능, llama.cpp로 커스터마이즈 가능.",
+      "source": "Quesma",
+      "url": "https://quesma.com/blog/qwen-36-is-awesome/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "Qwen 3.6 27B가 과거 로컬 모델을 능가하며 로컬 개발의 스위트 스폿으로 평가된다.",
+        "what": "Qwen 3.6 27B는 인상적인 범용 지능을 갖춘 로컬 AI 모델로, 과거 로컬 모델을 능가하며 다양한 창의·실용 작업에서 좋은 결과를 낸다. llama.cpp 같은 도구로 로컬 기기에서 효과적으로 실행·커스터마이즈할 수 있다.",
+        "points": [
+          "과거 로컬 모델 능가하는 범용 지능",
+          "창의·실용 작업서 양호한 결과",
+          "llama.cpp로 로컬 실행·커스터마이즈"
+        ],
+        "why": [
+          "로컬 구동 모델의 실용성이 개발 워크플로에 다가선다."
+        ]
+      }
+    },
+    {
+      "id": "dev-working-with-ai-example",
+      "title": "AI와 함께 일하기 — 구체적 사례",
+      "summary": "디버깅·테스트엔 유용하나 인간 감독 없인 한계, HTMX 하이퍼스크립트 버그 수정 예시.",
+      "source": "htmx.org",
+      "url": "https://htmx.org/essays/working-with-ai/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "AI는 디버깅·테스트에 유용하지만 인간 감독 없이는 좋은 해법을 내기 어렵다는 실전 사례.",
+        "what": "이 개발자는 AI에 50/50 입장이다. 디버깅·테스트 생성에는 훌륭하지만 인간 감독 없이는 좋은 해법을 내는 데 한계가 있다. HTMX 하이퍼스크립트 파서 관련 특정 버그 수정 사례는 기술 부채를 막기 위해 AI를 안내하는 숙련된 개발자의 중요성을 보여준다.",
+        "points": [
+          "디버깅·테스트 생성에 유용",
+          "감독 없이는 해법 품질 한계",
+          "숙련 개발자의 안내가 기술 부채 방지"
+        ],
+        "why": [
+          "AI 코딩의 효용과 한계를 균형 있게 보여준다."
         ]
       }
     },
     {
       "id": "dev-free-the-icons",
       "title": "아이콘을 해방하라",
-      "summary": "macOS의 획일적 스퀘어클 디자인 대신 앱 식별을 돕는 뚜렷한 아이콘 형태의 복원을 옹호한다.",
+      "summary": "macOS 앱 아이콘의 균일한 스퀘어클 디자인이 식별을 어렵게 한다는 비판.",
       "source": "Rogue Amoeba",
-      "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/?utm_source=tldrdev",
-      "originalDate": "2026-06-26",
+      "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "macOS의 획일적 스퀘어클 대신 식별성 높은 아이콘 형태를 되살리자는 글이다.",
-        "what": "macOS가 모든 아이콘을 균일한 스퀘어클(둥근 사각형)로 통일한 데 반대하며, 앱 식별성을 높이는 뚜렷한 아이콘 형태의 복원을 주장한다.",
+        "tldr": "애플이 macOS 앱 아이콘에 고유 형태를 되살려야 한다는 사용성 관점.",
+        "what": "애플이 macOS에서 앱 아이콘에 고유한 형태 사용을 되살려 사용성과 창의성을 높여야 한다는 주장이다. 현재의 균일한 스퀘어클 디자인은 애플리케이션을 구분하기 어렵게 만든다.",
         "points": [
-          "획일적 스퀘어클 비판",
-          "뚜렷한 형태 복원 주장",
-          "앱 식별성 강조"
+          "균일 스퀘어클이 앱 식별 저해",
+          "고유 형태 복원이 사용성↑",
+          "창의성 측면도 강조"
         ],
         "why": [
-          "디자인 일관성과 식별성 사이의 트레이드오프를 환기한다."
-        ]
-      }
-    },
-    {
-      "id": "dev-qwen-36-local",
-      "title": "Qwen 3.6 27B, 로컬 개발의 스위트 스폿",
-      "summary": "Qwen 3.6 27B를 이전 세대를 능가하는 효율적 로컬 AI 모델로 평가하며 창의·실무 작업에 적합하다고 본다.",
-      "source": "quesma.com",
-      "url": "https://quesma.com/blog/qwen-36-is-awesome/?utm_source=tldrdev",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "Qwen 3.6 27B가 이전 세대를 능가하는 효율적 로컬 개발 모델로 평가됐다.",
-        "what": "Qwen 3.6 27B를 효율적인 로컬 AI 모델로 리뷰한다. 이전 세대 시스템을 능가하며 창의·실무 작업에 적합하다고 본다.",
-        "points": [
-          "27B 로컬 모델",
-          "이전 세대 능가",
-          "창의·실무에 적합"
-        ],
-        "why": [
-          "로컬 개발 환경의 현실적 모델 선택지를 보여준다."
+          "디자인 일관성과 식별성의 균형 문제를 제기한다."
         ]
       }
     },
     {
       "id": "dev-personal-brand",
-      "title": "개인 브랜드를 쌓는 법에 관하여",
-      "summary": "테크 커뮤니티에서 효과적인 개인 브랜딩의 토대로 진정성과 진심 어린 도움을 강조한다.",
-      "source": "nextplayso.substack.com",
-      "url": "https://nextplayso.substack.com/p/on-building-your-personal-brand?utm_source=tldrdev",
-      "originalDate": "2026-06-29",
+      "title": "개인 브랜드 구축에 관하여",
+      "summary": "진정성과 타인에 대한 실질적 도움이 영향력 있는 개인 브랜드의 핵심.",
+      "source": "NextPlay",
+      "url": "https://nextplayso.substack.com/p/on-building-your-personal-brand",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "진정성과 진심 어린 도움이 효과적 개인 브랜딩의 토대라는 글이다.",
-        "what": "테크 커뮤니티에서 개인 브랜드를 쌓는 법을 다룬다. 진정성과 진심 어린 도움을 효과적 브랜딩의 기반으로 강조한다.",
+        "tldr": "진정성과 타인을 돕는 태도가 개발자 개인 브랜드의 핵심이라는 조언.",
+        "what": "영향력 있는 개인 브랜드를 만들려면 진정성 있고 타인에게 실질적으로 도움이 되는 데 집중해야 한다. 많은 사람이 개인 가치와 타인을 돕는 일의 중요성을 깊이 성찰하지 않아, 직장과 개발 커뮤니티에서 브랜딩의 진정성과 효과를 잃는다.",
         "points": [
-          "진정성 강조",
-          "진심 어린 도움",
-          "커뮤니티 신뢰"
+          "진정성·실질적 도움이 핵심",
+          "가치 성찰 부족이 진정성 훼손",
+          "커뮤니티 기여가 브랜드 강화"
         ],
         "why": [
-          "엔지니어의 커리어·영향력 확장 관점에서 참고할 만하다."
+          "기술 커리어에서 평판 형성의 원칙을 짚는다."
+        ]
+      }
+    },
+    {
+      "id": "dev-claude-code-spend",
+      "title": "Claude Code 비용, 무엇이 실제로 좌우하나",
+      "summary": "비용 대부분은 대화 이력·모델 선택이 아닌 세션 시작 오버헤드·누적 설정에서 발생.",
+      "source": "Comet",
+      "url": "https://www.comet.com/site/blog/claude-code-context-bloat/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "Claude Code의 예상 외 비용은 세션 시작 오버헤드와 누적 설정에서 주로 발생한다.",
+        "what": "Claude Code 사용 시 예상치 못한 비용 대부분은 대화 이력이나 모델 선택보다 세션 시작 오버헤드와 누적된 설정에서 발생한다.",
+        "points": [
+          "비용 주범은 세션 시작 오버헤드",
+          "누적 설정이 컨텍스트 비대화",
+          "대화 이력·모델 선택은 부차적"
+        ],
+        "why": [
+          "에이전트 코딩 비용 최적화의 실제 레버를 짚는다."
         ]
       }
     },
     {
       "id": "dev-rebuilding-computer-room",
-      "title": "컴퓨터 방 다시 짓기",
-      "summary": "휴대 기기가 컴퓨팅 접근성을 높였지만 지속적인 디지털 산만함을 들여왔다는 성찰이다.",
-      "source": "alexwlchan.net",
-      "url": "https://alexwlchan.net/2026/computer-room/?utm_source=tldrdev",
-      "originalDate": "2026-06-29",
+      "title": "컴퓨터실 다시 짓기",
+      "summary": "휴대 기기로의 이동이 편의를 높였지만 끊임없는 디지털 방해도 늘렸다.",
+      "source": "alexwlchan",
+      "url": "https://alexwlchan.net/2026/computer-room/",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "휴대 기기가 접근성을 높였지만 디지털 산만함도 함께 들여왔다는 성찰이다.",
-        "what": "휴대 기기가 컴퓨팅 접근성을 향상시킨 한편 지속적인 디지털 산만함을 가져왔다는 점을 성찰한다.",
+        "tldr": "휴대 기기 전환이 편의와 함께 디지털 방해를 늘렸다는 성찰.",
+        "what": "데스크톱에서 노트북·스마트폰 같은 휴대 기기로의 전환은 컴퓨팅의 편의와 접근성을 높였지만, 동시에 끊임없는 디지털 방해를 낳았다. 컴퓨터실이 사라진 것은 더 큰 편의와 적은 마찰을 원했기 때문이지만, 그 마찰이 늘 나쁜 것은 아니다.",
         "points": [
-          "접근성 향상",
-          "디지털 산만함 증가",
-          "전용 공간의 의미"
+          "휴대 기기로 편의·접근성↑",
+          "끊임없는 디지털 방해↑",
+          "마찰이 늘 나쁜 건 아님"
         ],
         "why": [
-          "기술 편의성의 양면을 돌아보게 한다."
+          "기술 편의의 이면인 집중력 비용을 환기한다."
         ]
       }
     },
     {
-      "id": "dev-hccf-self-domain",
-      "title": "디지털 자아 되찾기: 인간 중심 최상위 도메인 비전",
-      "summary": "인간 중심 컴퓨팅 재단(HCCF)이 자체 호스팅 서비스를 지원하는 .self 최상위 도메인을 제안한다.",
-      "source": "hccf.onmy.cloud",
-      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/?utm_source=tldrdev",
-      "originalDate": "2026-06-21",
+      "id": "dev-data-quality-fundamentals",
+      "title": "데이터 품질의 기본기",
+      "summary": "입도·집계·적합성·비즈니스 성과의 계층 프레임워크로 데이터 품질을 이해.",
+      "source": "Pivotal",
+      "url": "https://pivotal.substack.com/p/on-data-quality-1-basics",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "HCCF가 자체 호스팅을 지원하는 .self 최상위 도메인을 제안한다.",
-        "what": "인간 중심 컴퓨팅 재단(HCCF)이 자체 호스팅 서비스를 지원하는 .self 최상위 도메인 제안을 설명한다.",
+        "tldr": "데이터 품질은 입도·집계·적합성·비즈니스 성과의 계층 프레임워크로 이해하는 게 좋다.",
+        "what": "데이터 품질은 일반적으로 사용 사례에 따라 달라지는 개념으로, 입도(granular)·집계(aggregate)·목적 적합성(fitness-for-purpose)·비즈니스 성과 품질을 아우르는 계층 프레임워크로 가장 잘 이해된다. 그 가치는 데이터가 비즈니스 성과를 이끄는 효과성에 뿌리를 둔다.",
         "points": [
-          ".self 최상위 도메인 제안",
-          "자체 호스팅 지원",
-          "디지털 자기주권"
+          "사용 사례 의존적 개념",
+          "입도·집계·적합성·성과의 계층 구조",
+          "가치는 비즈니스 성과 견인력에 근거"
         ],
         "why": [
-          "플랫폼 종속에서 벗어나려는 자기주권형 웹 움직임을 보여준다."
+          "데이터 품질을 맥락 의존적·계층적으로 재정의한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-hccf-self-tld",
+      "title": "HCCF, 인간 중심 최상위 도메인 '.self' 비전",
+      "summary": "자가 호스팅을 지원하기 위한 새 TLD '.self'를 만들려는 시도.",
+      "source": "HCCF",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "Human-Centered Computing Foundation이 자가 호스팅 지원용 신규 TLD '.self'를 추진한다.",
+        "what": "Human-Centered Computing Foundation이 자가 호스팅을 지원하도록 설계된 새 최상위 도메인 '.self'를 만들려 하고 있다.",
+        "points": [
+          "자가 호스팅 지원용 신규 TLD",
+          "'.self' 도메인 추진",
+          "인간 중심 컴퓨팅 지향"
+        ],
+        "why": [
+          "탈중앙·자가 호스팅을 위한 도메인 인프라 시도를 보여준다."
         ]
       }
     }

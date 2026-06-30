@@ -6,270 +6,337 @@
   "bg": "#3a1f1f",
   "items": [
     {
-      "id": "infosec-dirtyclone-kernel",
-      "title": "DirtyClone, 6주 새 네 번째 리눅스 커널 결함 — 루트 권한 상승",
-      "summary": "CVE-2026-43503은 커널 메모리 조작으로 비권한 사용자가 루트를 획득하게 한다. kernel.unprivileged_userns_clone=0 설정이나 5월 21일 메인라인 패치로 완화 가능하다.",
+      "id": "infosec-dirtyclone",
+      "title": "DirtyClone — 6주 만에 네 번째 리눅스 커널 루트 권한 결함",
+      "summary": "CVE-2026-43503(CVSS 8.8), 읽기전용 페이지캐시를 쓰기로 속여 비특권 사용자가 루트 획득.",
       "source": "Security Affairs",
       "url": "https://securityaffairs.com/194338/uncategorized/dirtyclone-fourth-linux-kernel-flaw-in-six-weeks-escalates-to-root.html",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "CVE-2026-43503 'DirtyClone'은 파일 기반 페이지캐시를 쓰기 가능으로 속여 비특권 사용자가 루트로 상승하는 DirtyFrag 계열 4번째 결함이다.",
+        "what": "CVE-2026-43503(CVSS 8.8), 일명 DirtyClone은 6월 25일 JFrog 익스플로잇 분석으로 공개된 DirtyFrag 계열 네 번째 결함이다. 비특권 로컬 사용자가 커널이 읽기전용·파일 기반 페이지캐시 메모리를 쓰기 가능으로 취급하게 속여 루트를 얻는다. 공격자는 /usr/bin/su 같은 특권 바이너리를 매핑해 그 페이지를 패킷에 실어, 공격자 제어 IPsec 터널로 복호화를 강제해 디스크 접근이나 로그 없이 인증 로직을 덮어쓴다. CAP_NET_ADMIN이 필요하며 데비안·페도라는 기본 비특권 사용자 네임스페이스로 노출되지만 Ubuntu 24.04+는 AppArmor로 차단한다.",
+        "points": [
+          "IPsec 경로로 페이지캐시 쓰기 위조, 디스크·로그 흔적 없음",
+          "CAP_NET_ADMIN 필요 — 데비안/페도라 기본 노출, Ubuntu 24.04+ 차단",
+          "DirtyFrag 계열(Copy Fail·Fragnesia 등) 연쇄 결함"
+        ],
+        "why": [
+          "커널 단일 결함이 로컬 권한 상승의 발판이 된다.",
+          "비특권 네임스페이스 기본 허용이 공격면을 넓힌다."
+        ],
+        "context": "5월 21일 메인라인 패치 존재. DirtyFrag 신규 변종이 계속 나올 수 있음.",
+        "action": "5월 21일 메인라인 패치를 적용하고, 즉시 불가 시 kernel.unprivileged_userns_clone=0 설정 또는 모듈 블랙리스트(IPsec·AFS 비활성 감수)로 완화한다."
+      },
       "intel": {
         "impact": "High",
         "confidence": "85%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "Linux 커널 · 권한 상승"
+        "owner": "Security Ops · Linux",
+        "status": "Act",
+        "affectedSurface": "Linux 커널 · IPsec · 페이지캐시"
       },
-      "report": {
-        "tldr": "DirtyClone(CVE-2026-43503)이 비권한 사용자를 루트로 끌어올리는 6주 새 네 번째 커널 결함이다.",
-        "what": "CVE-2026-43503은 커널 메모리 조작을 통해 비권한 사용자가 루트 권한을 획득하게 하는 취약점이다. 최근 6주 동안 발견된 네 번째 리눅스 커널 권한 상승 결함이다. kernel.unprivileged_userns_clone=0 설정이나 5월 21일 메인라인 패치로 완화할 수 있다.",
-        "points": [
-          "비권한 → 루트 권한 상승",
-          "6주 새 4번째 커널 결함",
-          "userns_clone 비활성화로 완화"
-        ],
-        "why": [
-          "커널 권한 상승 결함의 연쇄 발견은 멀티테넌트·컨테이너 환경에 직접 위협이다."
-        ]
-      }
+      "related": [
+        "TLDR InfoSec — Clean GitHub repo가 AI 코딩 에이전트에 멀웨어 실행 유도",
+        "TLDR InfoSec — FSB, Signal 복구 키로 메시지 접근"
+      ]
     },
     {
-      "id": "infosec-fbi-signal-recovery",
-      "title": "FBI 경보: 러시아 정보기관, 시그널 복구 키로 메시지 접근",
-      "summary": "FSB 연계 조직이 시그널 백업 복구 키를 피싱해 암호화 메시지 아카이브에 지속 접근한다. UNC5792에 1천만 달러 현상금이 걸렸다.",
+      "id": "infosec-signal-recovery-key-fsb",
+      "title": "FBI 경보 — 러시아 정보기관, Signal 복구 키로 메시지 접근",
+      "summary": "FSB 연계 UNC5792·UNC4221이 인증코드 대신 Signal 백업 복구 키를 피싱.",
       "source": "Security Affairs",
       "url": "https://securityaffairs.com/194360/intelligence/new-fbi-alert-russian-intelligence-uses-signal-recovery-keys-to-access-messages.html",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "High",
-        "confidence": "85%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "Signal · 메시지 보안"
-      },
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "러시아 정보기관이 시그널 복구 키를 피싱해 암호화 메시지에 지속 접근한다는 FBI 경보가 나왔다.",
-        "what": "FBI가 FSB 연계 조직이 시그널 백업 복구 키를 피싱해 암호화 메시지 아카이브에 '지속적 접근'을 확보한다고 경고했다. 위협 그룹 UNC5792에는 1천만 달러 현상금이 걸렸다.",
+        "tldr": "FBI·CISA가 FSB 연계 조직이 Signal 백업 복구 키를 노려 전체 대화 이력에 지속 접근한다고 경고했다.",
+        "what": "FBI·CISA가 3월 권고를 갱신해 FSB 연계 UNC5792·UNC4221을 지목했다. 이들은 만료되는 인증코드 대신 Signal 백업 복구 키를 노려, 자동 지원을 가장해 백업 활성화와 키 입력을 유도한다. 권고가 강조하는 핵심은 암호화를 깨는 게 아니라는 점이다. 계정이 약점이며, 탈취된 복구 키는 전체 과거 아카이브를 열고 같은 번호로 계정을 재생성해도 살아남아 일회성이 아닌 지속 접근으로 기능한다. WhatsApp·Telegram에도 같은 수법이 적용되며, Rewards for Justice가 UNC5792에 1,000만 달러 현상금을 걸었다.",
         "points": [
-          "시그널 복구 키 피싱",
-          "암호화 아카이브 지속 접근",
-          "UNC5792에 1천만 달러 현상금"
+          "인증코드 대신 백업 '복구 키' 표적 전환",
+          "암호화는 무력화 아님 — 계정·사용자가 약점",
+          "복구 키 탈취 시 전체 이력 지속 접근, 1,000만 달러 현상금"
         ],
         "why": [
-          "엔드투엔드 암호화도 백업·복구 키 관리가 뚫리면 무력화된다."
-        ]
-      }
-    },
-    {
-      "id": "infosec-scotus-geofence",
-      "title": "美 대법원 판결, 정부의 지오펜스 영장 사용에 제동",
-      "summary": "대법원이 6대 3으로 기업이 보유한 휴대폰 위치 데이터가 수정헌법 4조의 보호를 받으며 영장이 필요하다고 판결했다.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/06/supreme-court-ruling-guts-governments-use-of-geofence-warrants/",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "High",
-        "confidence": "90%",
-        "owner": "Legal",
-        "status": "Resolved",
-        "affectedSurface": "프라이버시 · 위치 데이터"
-      },
-      "report": {
-        "tldr": "대법원이 휴대폰 위치 데이터에 수정헌법 4조를 적용해 지오펜스 영장에 제동을 걸었다.",
-        "what": "미 대법원이 6대 3으로 기업이 보유한 휴대폰 위치 데이터가 수정헌법 4조의 보호 대상이며 영장이 필요하다고 판결했다. 정부의 광범위한 지오펜스(geofence) 영장 사용에 사실상 제동이 걸렸다.",
-        "points": [
-          "6대 3 판결",
-          "위치 데이터에 수정헌법 4조 적용",
-          "지오펜스 영장 사용 제한"
+          "E2E 보장이 '키를 내보내도록 속는 사람'에서 끝난다.",
+          "고위험군 대상 사회공학 위협이 메신저 전반으로 확산된다."
         ],
-        "why": [
-          "디지털 위치 데이터의 프라이버시 보호 기준을 헌법 수준으로 끌어올린다."
-        ]
-      }
-    },
-    {
-      "id": "infosec-clean-github-malware",
-      "title": "깨끗한 깃허브 저장소가 AI 코딩 에이전트를 속여 멀웨어 실행",
-      "summary": "모질라 연구진이 에이전트 코딩 도구가 세 겹의 간접 지시를 통해 DNS TXT 레코드 기반 공격자 명령을 실행하도록 조작될 수 있음을 보였다.",
-      "source": "Bleeping Computer",
-      "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
-      "originalDate": "2026-06-29",
+        "action": "Signal 백업 복구 키를 절대 타인에게 공유·입력하지 말고, 고위험군은 백업/복구 설정을 점검한다."
+      },
       "intel": {
         "impact": "High",
         "confidence": "80%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "AI 코딩 에이전트 · 공급망"
-      },
-      "report": {
-        "tldr": "겉보기 깨끗한 깃허브 저장소가 AI 코딩 에이전트를 속여 멀웨어를 실행시킬 수 있다.",
-        "what": "모질라 연구진은 에이전트 코딩 도구가 '세 겹의 간접(indirection) 계층'을 거쳐 조작될 수 있음을 보였다. DNS TXT 레코드를 통해 공격자가 제어하는 명령을 실행하게 만든다.",
-        "points": [
-          "세 겹 간접 지시 공격",
-          "DNS TXT 레코드 악용",
-          "코드 자체는 깨끗해 보임"
-        ],
-        "why": [
-          "에이전트 코딩이 새로운 공급망·프롬프트 인젝션 공격면을 만든다."
-        ]
+        "owner": "Security Ops · Threat Intel",
+        "status": "Act",
+        "affectedSurface": "Signal · 메신저 백업/복구"
       }
     },
     {
       "id": "infosec-tata-iphone18-breach",
-      "title": "인도 공급사 타타 일렉트로닉스 침해, 아이폰18 프로 정보 유출",
-      "summary": "랜섬웨어 조직이 타타 일렉트로닉스 침해에서 빼낸 아이폰18 프로 부품 정보·사진·공급사-부품 매핑을 공개했다.",
+      "title": "애플 협력사 Tata Electronics 침해 — iPhone 18 Pro 부품 유출",
+      "summary": "랜섬웨어 조직이 다크웹에 부품 상세·사진·공급 매핑 수백 건 공개.",
       "source": "Daring Fireball",
       "url": "https://daringfireball.net/linked/2026/06/29/tata-electronics-breach",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "타타 일렉트로닉스 침해로 아이폰18 프로 부품 정보·사진이 유출됐다.",
-        "what": "랜섬웨어 조직이 타타 일렉트로닉스 침해에서 확보한 아이폰18 프로 부품 정보, 사진, 공급사-부품 매핑 자료를 공개했다.",
+        "tldr": "Tata Electronics를 침해한 랜섬웨어 조직이 iPhone 18 Pro 부품 정보·사진을 다크웹에 공개했다.",
+        "what": "애플 협력사 Tata Electronics를 침해한 랜섬웨어 조직이 다크웹에 파일을 게시해 수백 건의 iPhone 18 Pro 부품 상세·사진과, 애플이 공개 공급사 DB에서 빼두는 공급사-부품 매핑을 노출했다.",
         "points": [
-          "랜섬웨어 조직 소행",
-          "아이폰18 프로 부품 정보 유출",
-          "공급사-부품 매핑 노출"
+          "iPhone 18 Pro 부품 상세·사진 다수 유출",
+          "공급사-부품 매핑 등 비공개 정보 노출",
+          "랜섬웨어 조직이 다크웹에 게시"
         ],
         "why": [
-          "하드웨어 공급망 침해가 미공개 제품 기밀까지 노출시킨다."
-        ]
+          "공급망 한 곳의 침해가 미공개 제품 정보를 유출시킨다.",
+          "협력사 보안이 OEM 기밀의 약한 고리가 된다."
+        ],
+        "action": "공급망 협력사의 랜섬웨어 대비·접근통제·데이터 분류를 점검한다."
       }
     },
     {
       "id": "infosec-naic-oracle-breach",
-      "title": "美 연방 보험 규제기관, 오라클 결함 통한 데이터 침해 확인",
-      "summary": "NAIC가 오라클 피플소프트 제로데이를 통해 침해를 겪었다. 후방 재무보고 플랫폼이 영향을 받았다.",
+      "title": "美 보험 규제기구 NAIC, 오라클 제로데이로 데이터 유출 확인",
+      "summary": "PeopleSoft 제로데이로 일부 환경 침해, 신용평가 피드·지정 업무 일시 중단.",
       "source": "Infosecurity Magazine",
       "url": "https://www.infosecurity-magazine.com/news/us-insurance-regulator-confirms/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "NAIC가 오라클 피플소프트 제로데이로 인한 데이터 침해를 확인했다.",
-        "what": "미 전국보험감독관협회(NAIC)가 오라클 피플소프트 제로데이를 통해 침해를 당했다. 보험 부문 전반의 후방(back-office) 재무보고 플랫폼 기능이 영향을 받았다.",
+        "tldr": "NAIC가 Oracle PeopleSoft 제로데이로 환경 일부가 침해돼 신용평가·지정 업무가 멈췄다고 확인했다.",
+        "what": "미국 보험 규제 시스템의 비영리 협회 NAIC가 6월 26일, 내부 재무보고에 쓰는 Oracle PeopleSoft의 제로데이를 통해 무단 행위자가 환경 일부에 접근했다고 확인했다. 벤더가 결함을 알기 전 다수 조직을 노린 광범위 캠페인의 일부였다. 6월 11일 탐지·17일 공개됐고, 공격자가 일부 저장 영역에 임시 접근해 데이터를 공개하자 일부 신용평가사가 피드를 중단하고 NAIC는 보험사 투자 지정 부여를 일시 중단했다. NAIC는 SERFF·OPTins·RDC 등 규제 시스템 접근 주장은 부인했다.",
         "points": [
-          "오라클 피플소프트 제로데이",
-          "재무보고 플랫폼 침해",
-          "보험 규제기관 피해"
+          "PeopleSoft 제로데이로 백오피스 환경 침해",
+          "6/11 탐지·6/17 공개, 일부 데이터 공개됨",
+          "신용평가 피드·지정 업무 일시 중단"
         ],
         "why": [
-          "엔터프라이즈 ERP 제로데이가 규제기관급 조직까지 노출시킨다."
-        ]
+          "공유 엔터프라이즈 SW의 침해가 섹터 전반 기능을 마비시킨다.",
+          "규제기관의 백오피스가 시스템 인프라가 되는 위험을 보여준다."
+        ],
+        "action": "PeopleSoft 등 공유 엔터프라이즈 SW의 긴급 패치·접근 모니터링을 강화한다."
       }
     },
     {
-      "id": "infosec-px4-voltage-glitch",
-      "title": "전압 글리칭 공격, PX4 오토파일럿 비행 컨트롤러 안전장치 우회",
-      "summary": "연구진이 STM32 기반 PX4 비행 컨트롤러에 전압 글리칭 공격으로 안전 메커니즘을 우회할 수 있음을 시연했다.",
-      "source": "IT4sec",
-      "url": "https://it4sec.substack.com/p/skip-or-inject-commands-into-uav",
-      "originalDate": "2026-06-29",
+      "id": "infosec-clean-repo-ai-malware",
+      "title": "깨끗한 GitHub 리포가 AI 코딩 에이전트에 멀웨어 실행 유도",
+      "summary": "멀웨어 없이 오류 복구를 악용해 DNS TXT 기반 리버스 셸 실행을 유도하는 PoC.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/WwJ81p",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "전압 글리칭으로 PX4 비행 컨트롤러의 안전 검사를 우회할 수 있음이 시연됐다.",
-        "what": "연구진이 STM32 기반 PX4 비행 컨트롤러에 전압 글리칭(voltage-glitching) 공격을 시연했다. 명령을 건너뛰거나 주입해 안전 메커니즘을 우회할 수 있으며, 하드웨어 수준의 완화가 필요하다.",
+        "tldr": "Mozilla 0DIN이 멀웨어 없는 리포로 AI 코딩 에이전트가 DNS TXT 기반 셸을 자동 실행하게 만드는 PoC를 시연했다.",
+        "what": "Mozilla 0DIN 연구진은 Claude Code 같은 에이전트형 코딩 도구가 평범한 셋업 안내(pip3 install -r requirements.txt, python3 -m axiom init)의 깨끗해 보이는 리포를 클론하게 만드는 PoC를 시연했다. 의도적으로 심은 파이썬 패키지가 초기화 전 실행을 거부하며 오류를 띄우면, 에이전트가 통상적 오류 복구로 python3 -m axiom init을 자동 실행한다. 이는 DNS TXT 레코드에서 공격자 값을 받아 명령으로 실행하는 셸 스크립트를 돌린다. 리포 어디에도 악성 코드가 없고 단일 단계로는 검토에 걸리지 않는다.",
         "points": [
-          "전압 글리칭 하드웨어 공격",
-          "안전 검사 우회",
-          "물리적 접근 필요"
+          "멀웨어 없이 '오류 복구' 행동을 악용",
+          "DNS TXT 레코드에서 페이로드를 동적 인출",
+          "개발자 권한의 인터랙티브 셸·환경변수 탈취"
         ],
         "why": [
-          "드론·UAV의 하드웨어 신뢰 경계가 물리 공격에 취약함을 드러낸다."
-        ]
+          "에이전트의 자동 오류 복구가 새로운 공격면이 된다.",
+          "공급망·소셜 엔지니어링이 AI 워크플로로 침투한다."
+        ],
+        "action": "신뢰 불가 리포는 샌드박스/컨테이너에서 실행하고, 셋업 중 에이전트의 외부 DNS/네트워크를 차단하며, 인출 콘텐츠를 셸로 파이프하는 명령엔 사람 승인을 요구한다."
       }
     },
     {
       "id": "infosec-repo-jacking-claude-plugins",
-      "title": "앤트로픽 클로드 커뮤니티 플러그인 리포재킹 시도",
-      "summary": "연구자가 클로드 플러그인을 상대로 네임스페이스 하이재킹을 시연했으나, 불변 커밋 SHA 보호가 악성 저장소 치환을 막았다.",
+      "title": "앤트로픽 클로드 커뮤니티 플러그인 리포재킹 — SHA가 막았다",
+      "summary": "마켓플레이스의 끊긴 네임스페이스를 점유했으나 커밋 SHA 고정 무결성 검사가 자동 설치를 차단.",
       "source": "John Stawinski",
       "url": "https://johnstawinski.com/2026/06/18/repo-jacking-anthropics-claude-community-plugins-and-the-shas-that-saved-them/",
-      "originalDate": "2026-06-18",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "클로드 플러그인 리포재킹이 시도됐으나 불변 커밋 SHA가 공격을 차단했다.",
-        "what": "연구자가 클로드 커뮤니티 플러그인을 대상으로 네임스페이스 하이재킹(repo-jacking)을 시연했다. 다만 불변 커밋 SHA(immutable commit SHA) 보호 덕분에 악성 저장소 치환이 막혔다.",
+        "tldr": "클로드 커뮤니티 마켓플레이스의 끊긴 리포 경로를 점유했으나, 커밋 SHA 고정 덕에 자동 코드 설치는 막혔다.",
+        "what": "Stawinski는 앤트로픽 공식 claude-plugins-community의 marketplace.json에서 이름 변경·삭제된 GitHub 계정을 가리키는 owner/repo 경로를 스캔했다. 끊긴 네임스페이스(oduffy-delphi)를 점유해 실제 프로젝트 클론으로 deep-research-claude를 재현하고, /plugin install의 'Open Homepage'가 경고 없이 공격자 리포로 연결됨을 보였다. 다만 마켓플레이스 항목이 각 소스를 불변 커밋 SHA로 고정해, 재현 리포는 해당 해시를 못 만들어 무결성 검사가 실패한다. 저자는 앤트로픽의 봇 SHA 갱신 PR이 악성 커밋 SHA를 받아들이도록 속을 가능성을 경고했다. 앤트로픽은 범위 외(의존성 하이재킹 제외)로 처리했다.",
         "points": [
-          "네임스페이스 하이재킹 시연",
-          "불변 커밋 SHA가 방어",
-          "플러그인 생태계 공급망 위험"
+          "끊긴 owner/repo 네임스페이스 점유 가능",
+          "커밋 SHA 고정 무결성 검사가 자동 설치 차단",
+          "'Open Homepage'는 SHA 보호 밖 — 사회공학 위험"
         ],
         "why": [
-          "AI 플러그인 생태계도 핀(pin)된 SHA 없이는 공급망 공격에 노출된다."
+          "검증된 마켓플레이스도 신뢰 불가 제3자 코드로 다뤄야 한다.",
+          "공급망 보호의 핵심이 '커밋 SHA 고정'임을 입증한다."
+        ],
+        "action": "플러그인 소스를 브랜치가 아닌 커밋 SHA로 고정하고, 갓 설치한 플러그인의 'Open Homepage'를 피하며 marketplace.json의 끊긴 경로를 감사한다."
+      }
+    },
+    {
+      "id": "infosec-px4-voltage-glitch",
+      "title": "전압 글리칭으로 PX4 오토파일럿 안전 점검 우회",
+      "summary": "STM32 기반 PX4에서 전압 글리칭으로 안전 점검·제어 명령을 건너뛰는 공격 시연.",
+      "source": "it4sec",
+      "url": "https://it4sec.substack.com/p/skip-or-inject-commands-into-uav",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "연구진이 STM32 기반 PX4 비행 컨트롤러에 전압 글리칭으로 안전 점검을 우회했다(물리 접근 필요).",
+        "what": "연구진이 STM32 마이크로컨트롤러에서 동작하는 PX4 오토파일럿을 대상으로 전압 글리칭 공격을 시연해, 비행 컨트롤러 내 안전 점검 우회와 제어 명령 건너뛰기를 가능케 했다. 연구·취미·상업용 UAV에 널리 쓰이는 보드에서 시연됐으며, 현재 구현은 물리 접근이 필요하다.",
+        "points": [
+          "전압 글리칭으로 안전 점검 우회·명령 스킵",
+          "연구·상업용에 널리 쓰이는 보드 대상",
+          "현 구현은 물리 접근 전제"
+        ],
+        "why": [
+          "UAV 비행 컨트롤러의 물리 접근을 유의미한 위협으로 봐야 한다.",
+          "하드웨어 수준 완화가 필요함을 시사한다."
+        ],
+        "action": "STM32 기반 PX4 배치의 물리 접근을 위협 벡터로 평가하고 하드웨어 수준 완화책을 검토한다."
+      }
+    },
+    {
+      "id": "infosec-scotus-geofence",
+      "title": "美 대법원, 정부의 지오펜스 영장 사용 제한 판결",
+      "summary": "6대 3으로 휴대폰 위치 이력에 4차 수정조항 보호 인정, 원칙적으로 영장 필요.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/06/supreme-court-ruling-guts-governments-use-of-geofence-warrants/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "美 대법원이 휴대폰 위치 이력에 4차 수정조항 보호를 인정해 경찰 접근에 영장을 요구했다.",
+        "what": "미국 대법원이 6대 3으로, 구글 같은 기업이 보유한 휴대폰 위치 이력이 4차 수정조항의 보호를 받으며 경찰 접근에는 원칙적으로 영장이 필요하다고 판결했다. 다수 의견은 제한된 데이터 조각이나 앱과의 자발적 공유가 프라이버시 기대를 박탈한다는 주장을 기각했다.",
+        "points": [
+          "휴대폰 위치 이력에 4차 수정조항 보호 인정",
+          "경찰 접근에 원칙적 영장 필요",
+          "'자발적 공유=프라이버시 포기' 논리 기각"
+        ],
+        "why": [
+          "디지털 위치 데이터의 프라이버시 보호 기준을 강화한다.",
+          "수사기관의 광범위 위치 추적에 제동을 건다."
         ]
       }
     },
     {
       "id": "infosec-local-ai-pentest",
-      "title": "로컬 AI로 침투 테스트·연구 — 클라우드 대비 우수",
-      "summary": "로컬 AI 모델이 인증 LFI 취약점 탐지에서 클라우드 기반을 앞섰고, 인증 LFI와 RCE를 모두 식별했다.",
-      "source": "Project Black",
+      "title": "로컬 AI를 활용한 침투 테스트·연구",
+      "summary": "파일 단위 하니스의 로컬 모델이 LFI·인증 RCE를 안정적으로 탐지.",
+      "source": "ProjectBlack",
       "url": "https://projectblack.io/blog/local-ai-for-cyber-security/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "로컬 AI 모델이 인증 LFI·RCE 탐지에서 클라우드 기반을 앞섰다.",
-        "what": "로컬 AI 모델이 인증된 LFI 취약점 탐지에서 클라우드 기반 접근을 능가했다. 인증 LFI와 RCE 이슈를 모두 성공적으로 식별했다.",
+        "tldr": "파일 단위로 훑는 로컬 모델 하니스가 다른 도구들이 놓친 LFI·RCE를 안정적으로 찾아냈다.",
+        "what": "알려진 PHPIPAM 인증 LFI 이슈에 네 가지 워크플로를 시험했다. Semgrep과 GLM 5.1 기반 에이전트형 클라우드 실행은 버그를 놓쳤다. 스킬 기반 클라우드 리뷰는 일부 실행에서만 잡아내며 어떤 파일을 읽고 무슨 패턴을 찾는지에 탐지가 좌우됨을 보였다. 구조화된 보고서로 각 소스 파일을 훑는 로컬 하니스는 LFI를 안정적으로 찾고, 이후 myVesta의 인증 RCE(현재 CVE-2026-12195로 수정)까지 밝혀냈다.",
         "points": [
-          "로컬 모델이 클라우드 추월",
-          "인증 LFI·RCE 탐지",
-          "프라이버시 이점"
+          "Semgrep·클라우드 에이전트는 LFI 미탐",
+          "파일 단위 로컬 하니스는 안정적으로 탐지",
+          "myVesta 인증 RCE(CVE-2026-12195) 발견"
         ],
         "why": [
-          "보안 연구에서 로컬 AI가 데이터 통제와 성능을 동시에 잡는 선택지가 된다."
+          "취약점 탐지 품질이 '어떤 파일을 어떻게 읽는가'에 달려 있다.",
+          "로컬 모델 기반 보안 분석의 실효성을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-session-switcher",
+      "title": "Session Switcher — 버프 세션 원클릭 전환",
+      "summary": "Burp Suite 확장으로 명명된 쿠키/헤더 세트를 저장해 역할·권한 간 단일 클릭 전환.",
+      "source": "Doyensec",
+      "url": "https://blog.doyensec.com/2026/06/17/session-switcher.html",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "Doyensec의 Session Switcher가 Burp에서 사용자 역할·권한을 원클릭으로 전환하게 한다.",
+        "what": "Doyensec이 Burp Suite 확장 Session Switcher를 공개했다. 요청 편집기에 Sessions 탭을 추가해 명명된 쿠키/헤더 세트를 저장하고 사용자 역할·테넌트·권한 수준을 한 번에 전환한다. Auto Update 규칙이 프록시 트래픽을 모니터링해, X-User: alice 헤더가 붙은 요청의 쿠키가 바뀌면 alice 세션을 갱신해 저장 세션을 유효하게 유지한다. 이는 IDOR·권한 상승 테스트의 거짓 양성을 유발하는 수동 JWT·쿠키 재입력을 없앤다.",
+        "points": [
+          "역할·테넌트·권한 세션 원클릭 전환",
+          "Auto Update로 세션 자동 갱신",
+          "IDOR·권한 상승 테스트 효율화"
+        ],
+        "why": [
+          "권한 검증 테스트의 수작업 부담을 크게 줄인다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-straiker",
+      "title": "Straiker — 자율 에이전트 탐지·테스트·차단 플랫폼",
+      "summary": "기업 시스템 내 자율 에이전트를 찾아 행위 추적·사전 취약점 테스트·실시간 공격 차단.",
+      "source": "Straiker",
+      "url": "https://www.straiker.ai/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "Straiker는 기업 내 자율 에이전트를 탐지·추적하고 사전 테스트와 실시간 공격 차단을 제공한다.",
+        "what": "Straiker는 기업 시스템에서 자율 에이전트를 찾아 무엇에 접근하고 무엇을 하는지 추적하고, 출시 전 악용 가능 결함을 테스트하며, 갱신된 익스플로잇 데이터로 실시간 공격을 차단하는 플랫폼을 제공한다.",
+        "points": [
+          "기업 내 자율 에이전트 탐지·행위 추적",
+          "롤아웃 전 악용 결함 테스트",
+          "갱신 익스플로잇 데이터로 실시간 차단"
+        ],
+        "why": [
+          "에이전트 확산에 따른 신규 보안 카테고리가 형성된다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-adscan",
+      "title": "ADscan — 41개 AD 공격 기법 통합 CLI",
+      "summary": "열거·Kerberoasting·ADCS 익스플로잇·DCSync 등을 단일 워크플로로 제공하는 무료 리눅스 CLI.",
+      "source": "GitHub",
+      "url": "https://github.com/ADScanPro/adscan",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "ADscan은 41개 Active Directory 공격 기법을 단일 워크플로로 묶은 무료 리눅스 CLI다.",
+        "what": "ADscan은 펜테스터·레드팀·보안 컨설턴트를 위한 무료 리눅스 CLI다. 열거, Kerberoasting, AS-REP 로스팅, ADCS/ESC 익스플로잇, DCSync, 자격 수집, 네이티브 공격 경로 분석 등 41개 Active Directory 공격 기법을 단일 워크플로로 다룬다.",
+        "points": [
+          "41개 AD 공격 기법을 단일 워크플로로 통합",
+          "열거·Kerberoasting·ADCS·DCSync 등 포함",
+          "무료 리눅스 CLI"
+        ],
+        "why": [
+          "AD 침투 테스트 도구의 접근성이 높아진다."
         ]
       }
     },
     {
       "id": "infosec-reddit-antispam",
-      "title": "레딧 안티스팸 내부 구조 들여다보기",
-      "summary": "레딧의 스팸 탐지가 규칙, 관점 기반 스팸 스코어링, 계정 메타데이터를 결합해 위반을 식별하는 방식을 분석했다.",
+      "title": "레딧 안티스팸 내부 들여다보기",
+      "summary": "2021년 유출된 내부 제거 사유로 spammit·spamurai 등 다층 스팸 처리 구조를 분석.",
       "source": "lyra.horse",
       "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "레딧이 규칙·관점 기반 스코어링·계정 메타데이터를 결합해 스팸을 탐지한다는 분석이다.",
-        "what": "레딧의 스팸 탐지 시스템 분석이다. 규칙, 관점(perspective) 기반 스팸 스코어링, 계정 메타데이터를 조합해 위반을 식별하는 구조를 보여준다.",
+        "tldr": "유출된 레거시 코드를 통해 레딧의 다층 스팸 탐지·제거 시스템을 들여다본다.",
+        "what": "2021년 Relay for Reddit의 결함이 사이트 전역 스팸 조치의 내부 제거 사유를 노출하면서 레딧의 다층 스팸 처리 방식이 드러났다. 이 글은 레거시 소스 코드를 따라가며 모더레이터 제거, 도메인 기반 차단, spammit·spamurai 같은 시스템을 설명한다. 이들은 규칙, 관점 기반 스팸 점수, 계정 메타데이터를 결합해 게시물을 플래그하며, 구체적 spamurai 문자열, 도메인 실험, unidecode 정규식 트릭, 리다이렉트 추적 링크 검사, 특정 패턴 계정 즉시 삭제 규칙 등을 보여준다.",
         "points": [
-          "규칙 + 스코어링 결합",
-          "계정 메타데이터 활용",
-          "대규모 스팸 식별"
+          "spammit·spamurai 등 다층 스팸 시스템",
+          "규칙+점수+계정 메타데이터 결합 플래그",
+          "리다이렉트 추적·정규식 트릭 등 구체 사례"
         ],
         "why": [
-          "대형 플랫폼의 남용 방지 설계 실태를 엿보게 한다."
+          "대규모 플랫폼의 스팸 방어 설계를 엿볼 수 있다."
         ]
       }
     },
     {
-      "id": "infosec-aubrey-cottle-jailed",
-      "title": "어나니머스 연계 핵티비스트 오브리 코틀, 텍사스 공화당 공격으로 수감",
-      "summary": "캐나다 핵티비스트 오브리 코틀이 텍사스 공화당 디페이스와 180GB 데이터 절취로 18개월형을 받았다.",
+      "id": "infosec-rsa-zeros",
+      "title": "0이 많은 RSA 키 인수분해",
+      "summary": "badkeys 프로젝트가 일정 간격 0 블록을 가진 실제 RSA 모듈러스를 발견.",
+      "source": "Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "badkeys가 규칙적 0 블록을 가진 실제 RSA 모듈러스를 CT 로그·인터넷 스캔에서 찾아냈다.",
+        "what": "badkeys 프로젝트가 CT 로그와 인터넷 스캔 전반에서 규칙적으로 간격을 둔 전부-0 블록을 가진 실제 RSA 모듈러스를 발견했다. 이런 구조적 약점은 키 인수분해 가능성과 연결된다.",
+        "points": [
+          "규칙적 0 블록을 가진 실제 RSA 모듈러스 발견",
+          "CT 로그·인터넷 스캔 기반 탐지",
+          "구조적 약점이 인수분해 위험으로 연결"
+        ],
+        "why": [
+          "약한 키 생성이 실제 인증서에 잔존함을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-aubrey-cottle",
+      "title": "어나니머스 연계 핵티비스트 오브리 코틀 수감",
+      "summary": "2021년 텍사스 GOP 침해·180GB 데이터 절취로 18개월 형 선고.",
       "source": "Hackread",
       "url": "https://hackread.com/anonymous-hacktivist-aubrey-cottle-gop-cyberattack/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "핵티비스트 오브리 코틀이 텍사스 공화당 공격으로 18개월형을 선고받았다.",
-        "what": "캐나다 핵티비스트 오브리 코틀이 2021년 9월 11일 텍사스 공화당 웹사이트 디페이스와 180GB 데이터 절취로 18개월형을 받았다.",
+        "tldr": "한때 어나니머스와 연계된 핵티비스트 오브리 코틀이 텍사스 GOP 사이버공격으로 18개월 형을 받았다.",
+        "what": "한때 어나니머스와 연계된 캐나다 핵티비스트 오브리 코틀(Kirtaner)이 뉴마켓 법원에서 18개월 형을 선고받았다. 2021년 9월 11일 웹호스트 Epik을 통한 텍사스 GOP 변조와 180GB 데이터 절취 관련 세 가지 혐의에 유죄를 인정했다.",
         "points": [
-          "18개월형 선고",
-          "디페이스·180GB 절취",
-          "어나니머스 연계"
+          "텍사스 GOP 변조·180GB 데이터 절취",
+          "웹호스트 Epik 경유 공격",
+          "세 혐의 유죄 인정, 18개월 형"
         ],
         "why": [
-          "핵티비즘에 대한 사법적 처벌 기준을 보여주는 사례다."
-        ]
-      }
-    },
-    {
-      "id": "infosec-rsa-zero-keys",
-      "title": "0이 많은 RSA 키 인수분해",
-      "summary": "badkeys 프로젝트가 인증서 투명성 로그에서 규칙적 간격의 0 블록을 가진 실제 RSA 모듈러스를 발견했다.",
-      "source": "Bruce Schneier",
-      "url": "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "badkeys 프로젝트가 0 블록이 규칙적으로 박힌 취약한 RSA 키들을 실제로 찾아냈다.",
-        "what": "badkeys 프로젝트가 인증서 투명성(CT) 로그에서 규칙적 간격으로 배치된 전부 0인 블록을 가진 실제 RSA 모듈러스를 식별했다. 이러한 구조는 인수분해를 용이하게 한다.",
-        "points": [
-          "CT 로그에서 취약 키 발견",
-          "규칙적 0 블록 구조",
-          "인수분해 가능성"
-        ],
-        "why": [
-          "결함 있는 키 생성이 실세계 인증서의 암호 강도를 약화한다."
+          "핵티비즘 행위에 대한 형사 처벌 사례를 보여준다."
         ]
       }
     }

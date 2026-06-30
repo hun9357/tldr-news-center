@@ -6,109 +6,245 @@
   "bg": "#163021",
   "items": [
     {
-      "id": "marketing-chatgpt-picks-sources",
-      "title": "ChatGPT는 실제로 출처를 어떻게 고르나 (네트워크 트래픽 분석)",
-      "summary": "ChatGPT 가시성은 자바스크립트보다 일반 HTML 같은 기술적 구현에 좌우되며, 브랜드 사이트보다 제3자 출처를 선호한다. 브랜드는 외부 신뢰도와 권위 페이지에 집중해야 한다.",
-      "source": "Suganthan.com",
-      "url": "https://suganthan.com/blog/how-chatgpt-picks-sources/",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "70%",
-        "owner": "Marketing",
-        "status": "Tracking",
-        "affectedSurface": "AI 검색 가시성 · SEO"
-      },
-      "report": {
-        "tldr": "ChatGPT는 일반 HTML·제3자 출처를 선호하므로 브랜드는 외부 신뢰도에 집중해야 한다.",
-        "what": "네트워크 트래픽을 직접 분석한 결과, ChatGPT 가시성은 자바스크립트보다 일반 HTML 같은 기술 구현에 좌우되고 브랜드 자체 사이트보다 제3자 출처를 선호한다. 브랜드는 외부 신뢰도와 권위 있는 페이지 구축에 집중해야 한다.",
-        "points": [
-          "일반 HTML 선호",
-          "제3자 출처 우대",
-          "외부 권위 페이지 중요"
-        ],
-        "why": [
-          "AI 검색 시대의 가시성 확보 전략이 전통 SEO와 달라진다."
-        ]
-      }
-    },
-    {
-      "id": "marketing-in-defense-of-softness",
-      "title": "부드러움을 옹호하며: 확실성이 권위이던 시대의 종말",
-      "summary": "최적화 중심 브랜딩이 과포화되며 소비자가 끊임없는 자기개선 메시지를 거부한다. 브랜드는 코치가 아닌 동반자로, 권위보다 감정의 폭을 강조해야 한다는 주장이다.",
-      "source": "Branding Magazine",
-      "url": "https://www.brandingmag.com/sara-bernat/in-defense-of-softness-brands-communication-and-the-end-of-certainty-as-authority/",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "최적화·자기개선 메시지가 과포화돼 브랜드는 코치 아닌 동반자가 되어야 한다는 주장이다.",
-        "what": "최적화 중심 브랜딩이 과포화되며 소비자가 끊임없는 자기개선 메시지에 피로를 느낀다. 브랜드는 코치가 아닌 동반자로 스스로를 자리매김하고 권위보다 감정의 폭을 강조해야 한다고 본다.",
-        "points": [
-          "최적화 브랜딩 과포화",
-          "코치 아닌 동반자로",
-          "권위보다 감정의 폭"
-        ],
-        "why": [
-          "성과·확실성 중심 메시징의 피로가 브랜드 톤의 전환을 부른다."
-        ]
-      }
-    },
-    {
       "id": "marketing-gen-z-tired-marketing",
-      "title": "Z세대가 영화·맥주·탄산을 죽인 게 아니라, 지친 마케팅이 죽였다",
-      "summary": "쇠퇴하는 제품 카테고리는 세대 선호가 아닌 진부한 마케팅의 결과라는 마크 릿슨의 주장이다. 신선하고 독창적인 콘텐츠는 젊은 층에 통한다.",
+      "title": "Gen Z가 영화·맥주·탄산을 죽인 게 아니라 '지친 마케팅'이 죽였다",
+      "summary": "쇠퇴하는 카테고리는 세대 문제가 아니라 반복적 확장에 기댄 마케팅 문제.",
       "source": "The Drum",
       "url": "https://www.thedrum.com/opinion/mark-ritson-gen-z-didn-t-kill-cinema-beer-or-soda-tired-marketing-did",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "카테고리 쇠퇴는 세대 탓이 아니라 진부한 마케팅 탓이라는 마크 릿슨의 주장이다.",
-        "what": "쇠퇴하는 제품 카테고리는 세대적 선호가 아니라 진부한 마케팅을 반영한다는 주장이다. 인디 영화와 신생 음료 브랜드가 보여주듯 신선하고 독창적인 콘텐츠·제품은 젊은 층에 실제로 통한다.",
+        "tldr": "쇠퇴 카테고리는 Gen Z가 아니라 새 아이디어 없이 반복 확장에 기댄 마케팅 탓이라는 분석.",
+        "what": "쇠퇴하는 카테고리는 Gen Z 문제가 아니라 마케팅 문제다. 레거시 브랜드는 새 아이디어 대신 반복적 확장에 의존한다. 미국 영화 관람 매출은 2019년 13억 달러에서 2023년 7억 7,700만 달러로 줄었다. 그러나 오리지널 저예산 영화가 부상해 Backrooms가 3억 달러를 벌고 관객의 43%가 18~24세였다. CPG도 같은 패턴으로, 펩시의 북미 물량은 2% 줄고 신생 탄산 브랜드는 급증했다. 젊은 소비자는 더 적은 게 아니라 다른 제품을 원한다.",
         "points": [
-          "쇠퇴 = 세대 아닌 마케팅 탓",
-          "신선·독창 콘텐츠는 통함",
-          "인디 영화·신생 음료 사례"
+          "쇠퇴는 세대 아닌 마케팅의 문제",
+          "영화 매출 13억→7.77억 달러(美)",
+          "Backrooms 3억 달러·신생 탄산 급증"
         ],
         "why": [
-          "'Z세대가 죽였다'는 통념을 마케팅 책임론으로 뒤집는다."
+          "젊은 소비자는 '덜'이 아니라 '다름'을 원한다.",
+          "레거시 브랜드의 반복 확장 전략이 한계에 봉착한다."
         ]
       }
     },
     {
-      "id": "marketing-what-can-i-get-away-with",
-      "title": "'내가 어디까지 해도 될까?'",
-      "summary": "마케팅 관습은 검증보다 답습되는 경우가 많다. 정립된 관행을 의심하면 더 차별적이고 효과적인 작업이 가능하다는 글이다.",
-      "source": "Around the Bonfire",
-      "url": "https://newsletter.aroundthebonfire.com/p/what-can-i-get-away-with",
-      "originalDate": "2026-06-29",
+      "id": "marketing-pricing-page-for-robots",
+      "title": "모두가 '로봇을 위한 가격 페이지'를 쓰고 있다",
+      "summary": "AI 에이전트가 파싱할 수 있도록 /pricing.md 평문 페이지를 두는 전략 부상.",
+      "source": "Marketing Ideas",
+      "url": "https://www.marketingideas.com/p/everyone-is-writing-a-pricing-page",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "검증 없이 답습된 마케팅 관습을 의심할 때 더 차별적인 작업이 나온다는 글이다.",
-        "what": "마케팅 관습은 검증되기보다 그대로 답습되는 경우가 많다. 정립된 관행에 질문을 던지면 더 차별적이고 효과적인 작업이 가능해진다고 주장한다.",
+        "tldr": "AI 에이전트가 가격을 파싱하도록 /pricing.md 평문 페이지를 두는 전략이 부상한다.",
+        "what": "AI 에이전트가 대부분의 가격 페이지가 대비하지 못한 구매자 페르소나가 되고 있다. 에이전트가 카테고리 최저가 도구를 찾으라는 요청을 받으면 가격 페이지를 읽고 승자를 고르는데, 표준 페이지는 가격이 렌더된 코드 안에 묻혀 있어 파싱이 어렵다. 해법은 yoursite.com/pricing.md에 두는 /pricing.md 파일로, 로그인·렌더링 없이 플랜·초과·청구를 표로 담은 평문이다. 여러 기업이 이미 어디에도 링크하지 않은 채 이를 호스팅하며, 에이전트가 도메인마다 자동으로 /pricing.md를 찾을 것이라는 데 베팅한다.",
         "points": [
-          "관습은 답습되는 경향",
-          "관행에 질문 던지기",
-          "차별화의 기회"
+          "AI 에이전트가 새 구매자 페르소나",
+          "표준 페이지는 가격이 코드에 묻힘",
+          "/pricing.md 평문으로 에이전트 대응"
         ],
         "why": [
-          "관성적 마케팅 관행을 깨는 사고 전환을 권한다."
+          "마케팅이 사람뿐 아니라 AI 에이전트를 독자로 고려해야 한다.",
+          "검색·구매 결정의 주체가 에이전트로 확장된다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-how-chatgpt-picks-sources",
+      "title": "ChatGPT는 실제로 어떻게 출처를 고르는가",
+      "summary": "네트워크 트래픽 분석: 스크랩 쉬운 평문 HTML·제3자 출처를 선호.",
+      "source": "Suganthan",
+      "url": "https://suganthan.com/blog/how-chatgpt-picks-sources/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "ChatGPT는 스크랩하기 쉬운 평문 HTML과 레딧·리뷰 등 제3자 출처를 선호한다는 분석.",
+        "what": "ChatGPT 가시성은 콘텐츠 품질만큼 기술적 설정에 좌우된다. 스크랩하기 쉬운 페이지를 선호하므로 브랜드는 가격·사양 같은 핵심 정보를 자바스크립트·이미지·PDF 대신 평문 HTML로 게시해야 한다. 또 브랜드 콘텐츠를 쓸 때조차 레딧·리뷰 사이트 같은 제3자 출처를 브랜드 웹사이트보다 자주 인용한다. 가시성을 높이려면 신뢰 가능한 외부 노출을 쌓고, 결과가 도메인별로 중복 제거되므로 더 적고 권위 있는 페이지에 집중해야 한다.",
+        "points": [
+          "스크랩 쉬운 평문 HTML 선호",
+          "제3자(레딧·리뷰) 출처 우선 인용",
+          "도메인별 중복 제거 → 권위 페이지 집중"
+        ],
+        "why": [
+          "AI 검색 가시성(AEO)이 새로운 마케팅 과제가 된다.",
+          "외부 평판·기술 설정이 노출을 좌우한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-tiktok-mini-dramas",
+      "title": "틱톡, 'Growth Max for Mini Dramas'로 에피소드 콘텐츠 확장",
+      "summary": "브랜드가 광고·유료 잠금으로 수익화하는 에피소드 시리즈, 증분 도달 52%↑.",
+      "source": "TikTok for Business",
+      "url": "https://ads.tiktok.com/business/en/blog/tiktok-growth-max-mini-series",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "틱톡이 에피소드형 미니 드라마를 광고·유료 잠금으로 수익화하는 Growth Max를 출시했다.",
+        "what": "틱톡이 브랜드가 광고·유료 잠금·인앱 참여로 발행·수익화하는 에피소드 시리즈 'Mini Dramas'를 출시한다. Growth Max는 이 포맷을 성과 캠페인과 묶어, 오프플랫폼 활동과 결합 시 증분 도달 52% 상승과 최대 10배 확장을 보고했다. 에피소드 콘텐츠를 발견과 성과 인벤토리 양쪽으로 자리매김한다.",
+        "points": [
+          "에피소드 미니 드라마를 광고·유료 잠금으로 수익화",
+          "증분 도달 +52%, 최대 10배 확장 보고",
+          "발견+성과 인벤토리로 포지셔닝"
+        ],
+        "why": [
+          "숏폼 플랫폼이 에피소드형 수익화 모델로 확장한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-abandoned-cart-timing",
+      "title": "첫 장바구니 이탈 이메일은 언제 보내야 하나",
+      "summary": "회수 매출 대부분은 첫 1시간에 발생, 1·24·48~72시간 3단계 시퀀스가 최선.",
+      "source": "Drip",
+      "url": "https://www.drip.com/blog/abandoned-cart-email-timing",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "장바구니 회수 매출 대부분은 첫 1시간에 발생하며 3단계 이메일 시퀀스가 가장 효과적이다.",
+        "what": "회수 가능한 장바구니 매출 대부분은 첫 1시간에 발생하고 24시간 후 회수율이 급락한다. 너무 일찍 보내면 침해적으로 느껴지거나 완료된 구매를 놓치고, 너무 늦으면 의도를 잃는다. 1시간 리마인더, 24시간 사회적 증거, 48~72시간 긴급성·인센티브로 구성된 3단계 시퀀스가 가장 성과가 좋다. 72시간 후엔 대부분 떠난다.",
+        "points": [
+          "회수 매출 대부분 첫 1시간",
+          "3단계: 1h 리마인더·24h 증거·48~72h 인센티브",
+          "72시간 후 회수 어려움"
+        ],
+        "why": [
+          "이커머스 이메일 타이밍의 실증적 가이드를 제공한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-defense-of-softness",
+      "title": "'부드러움'의 옹호 — 권위로서의 확신의 종말",
+      "summary": "최적화 강박에 지친 소비자를 위한 '덜 요구하는' 브랜드의 여백.",
+      "source": "Brandingmag",
+      "url": "https://www.brandingmag.com/sara-bernat/in-defense-of-softness-brands-communication-and-the-end-of-certainty-as-authority",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "최적화 강박에 지친 소비자에게 '덜 요구하는' 브랜드가 새 여백을 연다는 관점.",
+        "what": "최적화 우선 브랜딩이 포화 상태다. 사람들이 끊임없는 자기계발과 성과 압박에 반발하면서, 덜 요구하는 느낌의 브랜드를 위한 여백이 생긴다. '부드러움'은 미감이 아니라 더 낮은 압박과 더 넓은 감정 범위로의 행동 전환이다. 대부분 브랜드가 여전히 권위·최적화로 경쟁하므로, 코치가 아닌 동반자처럼 행동하는 데 기회가 있다.",
+        "points": [
+          "최적화 우선 브랜딩의 포화",
+          "'부드러움'은 미감 아닌 행동 전환",
+          "코치 아닌 동반자 포지셔닝"
+        ],
+        "why": [
+          "브랜드 톤이 권위·성과에서 공감·여백으로 이동한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-chatseo",
+      "title": "ChatSEO — GSC 데이터와 대화하는 도구",
+      "summary": "구글·AI 검색 순위를 위해 무엇을 최적화·우선할지 알려주는 도구.",
+      "source": "ChatSEO",
+      "url": "https://chatseo.app/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "ChatSEO는 구글 서치 콘솔 데이터와 대화하며 최적화 우선순위를 알려준다.",
+        "what": "ChatSEO는 GSC 데이터와 직접 대화하게 해준다. 구글·AI 검색에서 순위를 올리기 위해 무엇을 최적화·우선해야 하는지 알려준다. 크레딧 한도까지 무료이고 이후 프리미엄 플랜이 필요하다.",
+        "points": [
+          "GSC 데이터 대화형 분석",
+          "최적화·우선순위 제안",
+          "크레딧 한도까지 무료"
+        ],
+        "why": [
+          "SEO·AEO 분석이 대화형 AI 도구로 이동한다."
         ]
       }
     },
     {
       "id": "marketing-olipop-creator-marketing",
-      "title": "올리팝 임원 '브랜드들이 크리에이터 마케팅을 오독한다'",
-      "summary": "효과적 크리에이터 파트너십은 단일 영상이 아닌 지속적 투자와 테스트를 요구한다. 제품-크리에이터 정합성과 반복 노출이 장기 연상을 만든다.",
-      "source": "NetInfluencer",
+      "title": "OLIPOP: 브랜드들은 크리에이터 마케팅을 오해한다",
+      "summary": "영상 하나는 테스트가 아니다 — 1~3개월·2.5만~5만 달러·다수 크리에이터 필요.",
+      "source": "Net Influencer",
       "url": "https://www.netinfluencer.com/olipop-steven-vigilante-says-brands-are-misreading-creator-marketing-one-video-is-not-a-test/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "크리에이터 마케팅은 단일 영상이 아닌 지속 투자·반복 노출로 성과를 낸다는 주장이다.",
-        "what": "올리팝의 스티븐 비질란테가 효과적 크리에이터 파트너십에는 단일 영상이 아닌 지속적 투자와 테스트가 필요하다고 말한다. 제품-크리에이터 정합성과 반복 노출이 장기 브랜드 연상을 구축한다.",
+        "tldr": "OLIPOP은 영상 하나를 테스트로 보는 게 크리에이터 마케팅의 흔한 오해라고 말한다.",
+        "what": "대부분 브랜드는 영상 하나를 테스트로 취급하지만, 실제로는 1~3개월에 걸쳐 2.5만~5만 달러를 쓰고 다수 크리에이터를 써야 뭔가 배울 수 있다. OLIPOP의 플레이북은 단순한 제품, 진짜 크리에이터 적합성, 시간에 걸쳐 연상을 쌓는 반복 노출이 통한다고 본다. 이제 인스타그램보다 큰 투자가 된 유튜브조차, 단순 조회수가 아니라 전환 같은 지속적 주목·측정 가능한 성과를 주기에 성과를 낸다.",
         "points": [
-          "단일 영상은 테스트 아님",
-          "지속 투자·반복 노출",
-          "제품-크리에이터 정합성"
+          "영상 하나는 테스트가 아님",
+          "1~3개월·2.5만~5만 달러·다수 크리에이터 필요",
+          "반복 노출이 브랜드 연상 형성"
         ],
         "why": [
-          "인플루언서 마케팅의 ROI를 단발이 아닌 장기 관점으로 재정의한다."
+          "크리에이터 마케팅을 단발이 아닌 지속 투자로 봐야 한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-what-can-i-get-away-with",
+      "title": "무엇까지 해도 될까?",
+      "summary": "대부분의 마케팅 '모범 사례'는 검증된 게 아니라 물려받은 것이라는 환기.",
+      "source": "Around the Bonfire",
+      "url": "https://newsletter.aroundthebonfire.com/p/what-can-i-get-away-with",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "마케팅 '모범 사례' 대부분은 검증이 아니라 관습이며 기본값을 의심하라는 글.",
+        "what": "대부분의 마케팅 '모범 사례'는 검증된 게 아니라 물려받은 것이다. 이 글은 끊임없는 성장이나 정형화된 콘텐츠 같은 기본값을 의심하라는 환기다. 이런 규범에 도전하는 마케터는 더 독창적인 작업을 만들고, 그럴듯해 보이는 것 대신 실제로 통하는 것에 집중할 수 있다. 결과는 더 적은 범용 산출과 더 효과적·차별적인 마케팅이다.",
+        "points": [
+          "'모범 사례'는 관습일 수 있음",
+          "기본값(성장·정형 콘텐츠) 의심",
+          "규범 도전이 차별화 산출"
+        ],
+        "why": [
+          "마케팅 관행을 비판적으로 재검토하도록 자극한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-button-microcopy-29",
+      "title": "버튼 마이크로카피가 매출을 29% 늘렸다",
+      "summary": "주요 CTA 버튼 안에 안심 문구를 넣으면 인근에 같은 메시지가 있어도 전환 상승.",
+      "source": "Conversion Rate Experts",
+      "url": "https://conversion-rate-experts.com/button-microcopy-win-report/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "주요 CTA 버튼 안에 안심 문구를 넣으면 전환이 오른다(매출 +29%).",
+        "what": "주요 CTA 버튼 안에 안심 문구를 더하면, 인근에 같은 메시지가 이미 있어도 전환을 높일 수 있다.",
+        "points": [
+          "CTA 버튼 내 안심 문구 추가",
+          "인근 동일 메시지 있어도 효과",
+          "매출 29% 증가 사례"
+        ],
+        "why": [
+          "미세한 카피 변화가 전환에 큰 영향을 준다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-whatsapp-usernames",
+      "title": "왓츠앱, 사용자명 사전 예약 시작",
+      "summary": "전화번호 공유 없이 채팅하도록 출시 전 핸들을 미리 예약.",
+      "source": "WhatsApp",
+      "url": "https://blog.whatsapp.com/its-time-to-reserve-your-whatsapp-username",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "왓츠앱이 전화번호 없이 채팅하도록 사용자명 사전 예약을 시작했다.",
+        "what": "왓츠앱이 사용자명을 추가하며 사전 예약을 받는다. 사용자가 출시 전 핸들을 선점해 전화번호를 공유하지 않고 채팅하고 프라이버시를 더 통제하게 한다.",
+        "points": [
+          "사용자명 사전 예약 시작",
+          "전화번호 공유 없이 채팅",
+          "프라이버시 통제 강화"
+        ],
+        "why": [
+          "메신저의 신원·프라이버시 모델이 핸들 기반으로 진화한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-content-strategy-3-loops",
+      "title": "콘텐츠 전략 만드는 법 — 3개의 루프",
+      "summary": "소셜 바이럴·SEO/AEO 발견·뉴스레터 관계의 3개 루프 프레임워크.",
+      "source": "Brendan Hufford",
+      "url": "https://www.linkedin.com/posts/brendanhufford_in-2016-i-was-a-burned-out-teacher-with-share-7477349077966569474-bjRC/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "콘텐츠 전략을 바이럴·발견·관계의 3개 루프로 설계하는 프레임워크.",
+        "what": "소셜의 바이럴, SEO·AEO를 통한 발견, 뉴스레터·롱폼을 통한 관계라는 3개 루프 위에 세운 콘텐츠 전략 프레임워크다.",
+        "points": [
+          "바이럴(소셜)",
+          "발견(SEO·AEO)",
+          "관계(뉴스레터·롱폼)"
+        ],
+        "why": [
+          "콘텐츠 전략을 채널별 목적 루프로 구조화한다."
         ]
       }
     }

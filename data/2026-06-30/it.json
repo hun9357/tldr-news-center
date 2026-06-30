@@ -6,223 +6,259 @@
   "bg": "#26203a",
   "items": [
     {
-      "id": "it-datacenter-850b",
-      "title": "빅테크 AI 데이터센터 약정, 8,500억 달러 돌파",
-      "summary": "주요 클라우드·테크 기업들이 AI 인프라 수요 확대로 8,500억 달러 넘는 미래 데이터센터 임대 의무를 약정했다. 메타·MS가 특히 공격적이다.",
-      "source": "NY Post",
-      "url": "https://nypost.com/2026/06/24/business/big-tech-spending-on-data-centers-balloons-to-850b-with-meta-and-microsoft-investing-tens-of-billions/",
-      "originalDate": "2026-06-24",
-      "intel": {
-        "impact": "High",
-        "confidence": "80%",
-        "owner": "Strategy",
-        "status": "Tracking",
-        "affectedSurface": "AI 인프라 · 자본지출"
-      },
-      "report": {
-        "tldr": "빅테크의 미래 데이터센터 임대 약정이 8,500억 달러를 넘어섰다.",
-        "what": "주요 클라우드·테크 기업들이 AI 인프라 수요 증가에 따라 8,500억 달러가 넘는 미래 데이터센터 임대 의무를 약정했다. 메타와 마이크로소프트가 특히 공격적으로 수백억 달러를 투자하고 있다.",
-        "points": [
-          "임대 약정 8,500억 달러 돌파",
-          "메타·MS 공격적 투자",
-          "AI 인프라 수요 견인"
-        ],
-        "why": [
-          "AI 호황이 막대한 장기 임대 부채로 전환되며 자본지출 리스크를 키운다."
-        ]
-      }
-    },
-    {
-      "id": "it-asian-mythos-models",
-      "title": "아시아 AI 스타트업들, 'Mythos급' 모델 출시 — 앤트로픽 수출 금지 장기화",
-      "summary": "미국의 앤트로픽 고급 AI 수출 제한이 길어지자 중국·일본 스타트업이 그 공백을 메우는 경쟁 프런티어 모델을 내놓고 있다.",
+      "id": "it-asian-mythos-rivals",
+      "title": "앤트로픽 수출 금지 장기화 속 아시아 AI 스타트업, 'Mythos급' 모델 출시",
+      "summary": "중국 360의 Tulongfeng, 도쿄 Sakana의 Fugu 등 미국 수출 통제 공백을 겨냥한 모델 잇따라.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
-      "originalDate": "2026-06-27",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "앤트로픽 수출 금지가 길어지자 중국 360·도쿄 Sakana 등 아시아 스타트업이 Mythos급 프런티어 모델을 잇따라 내놓는다.",
+        "what": "중국 사이버보안 기업 360이 앤트로픽의 Mythos에 견줄 수 있다고 주장하는 AI 도구 Tulongfeng을, 사이버 방어·인시던트 대응용 Yitianzhen과 함께 공개한 것으로 전해진다. 별도로 도쿄 기반 Sakana AI가 에이전트 역량을 갖춘 프런티어 모델 Fugu를 출시하며 앤트로픽의 Fable 5/Mythos Preview에 비견된다고 포지셔닝했다. 미국 수출 금지가 비미국인의 Mythos 및 관련 버전 접근을 제한하는 가운데 나온 흐름이다.",
+        "points": [
+          "중국 360, Mythos 대항 주장 'Tulongfeng' 공개",
+          "Sakana AI 'Fugu'로 에이전트 프런티어 모델 진입",
+          "美 수출 금지가 비미국인 Mythos 접근 제한"
+        ],
+        "why": [
+          "수출 통제가 아시아권 대체 모델 생태계를 키운다.",
+          "프런티어 모델 경쟁이 규제 지위·지역 가용성으로 옮겨간다.",
+          "사이버보안 특화 모델의 지정학적 분기를 촉발한다."
+        ]
+      },
       "intel": {
         "impact": "High",
         "confidence": "75%",
-        "owner": "Strategy",
-        "status": "Tracking",
+        "owner": "Strategy · AI Platform",
+        "status": "Watch",
         "affectedSurface": "프런티어 모델 · 수출 통제"
       },
+      "related": [
+        "TLDR AI — Sakana Fugu, 클로드 차단 후 LiveCodeBench 93.2",
+        "TLDR — 아마존, 앤트로픽 토큰 과금 전환에 대안 모색"
+      ]
+    },
+    {
+      "id": "it-bigtech-datacenter-850b",
+      "title": "빅테크 AI 데이터센터 약정 8,500억 달러 돌파",
+      "summary": "메타·MS 등 하이퍼스케일러의 미래 데이터센터 임대 약정이 8,500억 달러를 넘어섰다.",
+      "source": "NY Post",
+      "url": "https://nypost.com/2026/06/24/business/big-tech-spending-on-data-centers-balloons-to-850b-with-meta-and-microsoft-investing-tens-of-billions/",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "앤트로픽 수출 금지 장기화로 아시아 스타트업이 Mythos급 경쟁 모델을 쏟아낸다.",
-        "what": "미국의 앤트로픽 고급 AI 시스템 수출 제한이 길어지면서 생긴 공백을 중국·일본 스타트업이 경쟁 프런티어 모델로 메우고 있다.",
+        "tldr": "AI 인프라 수요로 빅테크의 미래 데이터센터 임대 약정이 8,500억 달러를 넘었다.",
+        "what": "주요 클라우드·테크 기업의 미래 데이터센터 임대 의무가 8,500억 달러를 넘어섰다. AI 인프라 수요가 계속 오르는 가운데 메타와 마이크로소프트의 증가폭이 특히 컸고, 하이퍼스케일러가 얼마나 공격적으로 컴퓨트 용량을 선점하는지를 보여준다.",
         "points": [
-          "수출 통제 공백 공략",
-          "중·일 스타트업 주도",
-          "Mythos급 모델 경쟁"
+          "미래 임대 약정 8,500억 달러+",
+          "메타·MS 증가폭 두드러짐",
+          "하이퍼스케일러의 공격적 컴퓨트 선점"
         ],
         "why": [
-          "수출 통제가 오히려 비미국권 모델 생태계의 자생력을 키운다."
+          "AI 컴퓨트 확보 경쟁이 거대한 고정 비용 약정으로 이어진다.",
+          "데이터센터가 AI 시대의 핵심 전략 자산이 된다."
         ]
       }
     },
     {
       "id": "it-okta-ai-agent-governance",
-      "title": "옥타, 규제 환경용 AI 에이전트 거버넌스 출시",
-      "summary": "옥타가 FedRAMP·HIPAA 환경을 위한 에이전트 거버넌스 도구를 내놨다. AI 에이전트를 신원으로 취급해 최소 권한·감사 로깅·격리를 적용한다.",
-      "source": "Okta Newsroom",
+      "title": "Okta, 규제 환경용 AI 에이전트 거버넌스 GA",
+      "summary": "FedRAMP·HIPAA 환경에 에이전트 생애주기 거버넌스를 제공하는 'Okta for AI Agents – Core'.",
+      "source": "Okta",
       "url": "https://www.okta.com/newsroom/press-releases/okta-for-ai-agents-core-brings-lifecycle-governance-to-regulated-environments/",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "80%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "AI 에이전트 · 신원 거버넌스"
-      },
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "옥타가 AI 에이전트를 신원으로 다뤄 최소 권한·감사를 적용하는 거버넌스 도구를 냈다.",
-        "what": "옥타가 FedRAMP·HIPAA 등 규제 환경을 위한 AI 에이전트 거버넌스 도구를 출시했다. 에이전트를 하나의 신원으로 취급해 최소 권한 접근, 감사 로깅, 격리(containment) 통제를 적용한다.",
+        "tldr": "Okta가 FedRAMP·HIPAA 환경에 AI 에이전트를 일급 신원으로 등록·통제하는 거버넌스를 정식 출시했다.",
+        "what": "Okta가 'Okta for AI Agents – Core'를 FedRAMP·HIPAA 규제 환경에 정식 제공하며, 연방 컴플라이언스 경계 안에서 AI 에이전트 생애주기 거버넌스를 가져온 첫 독립 신원 플랫폼으로 자리매김했다. 에이전트를 Universal Directory의 일급 신원으로 등록하고, 범위가 제한된 단기 토큰으로 최소 권한 접근을 적용하며, 지속적 감사 로깅/SIEM 스트리밍과 오프미션·민감 데이터 접근을 차단하는 킬 스위치를 제공한다.",
         "points": [
-          "에이전트를 신원으로 관리",
-          "최소 권한·감사 로깅",
-          "FedRAMP·HIPAA 대응"
+          "에이전트를 일급 신원으로 등록·관리",
+          "단기 토큰 기반 최소 권한 접근",
+          "감사 로깅·SIEM·킬 스위치 제공"
         ],
         "why": [
-          "AI 에이전트의 무분별한 권한이 새 보안 리스크가 되며 IAM이 이를 흡수한다."
+          "에이전트 신원·권한 관리가 규제 산업의 필수 통제로 부상한다.",
+          "AI 거버넌스가 컴플라이언스 경계 안으로 들어온다."
         ]
       }
     },
     {
-      "id": "it-enterprise-ai-budgets",
-      "title": "엔터프라이즈 AI 예산, 비용 우려에도 계속 성장",
-      "summary": "RBC 설문에서 기업 AI 지출이 가속 중이다. 기존 예산을 대체하기보다 새 지출로 다루며, OpenAI가 선호 제공자로 앞선다.",
+      "id": "it-enterprise-ai-budgets-growing",
+      "title": "기업 AI 예산, 비용 우려에도 계속 성장",
+      "summary": "RBC 설문: 대부분 기업이 AI를 기존 SW 대체가 아닌 신규 지출로 취급, OpenAI 최다 사용.",
       "source": "Business Insider",
       "url": "https://www.businessinsider.com/enterprise-ai-spending-grows-openai-leads-rbc-reveals-2026-6",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "기업 AI 지출이 비용 우려에도 가속되고 OpenAI가 선호 제공자로 앞선다.",
-        "what": "RBC 설문에 따르면 엔터프라이즈 AI 지출이 가속되고 있다. 기업들은 AI를 기존 예산 대체가 아닌 신규 지출로 다루며, OpenAI가 선호 제공자로 선두를 달린다.",
+        "tldr": "RBC 설문에서 기업 AI 지출이 가속되며 대부분 신규 지출로 취급되고 OpenAI가 최다 사용 제공사로 나타났다.",
+        "what": "새 RBC 설문에 따르면 기업 AI 지출이 가속되고 있으며, 대부분의 기업이 AI 예산을 기존 소프트웨어 예산 대체가 아닌 신규 지출로 취급한다. OpenAI는 설문에 응한 CIO·테크 리더 사이에서 가장 많이 쓰이는 제공사로 남았다.",
         "points": [
-          "AI 지출 가속",
-          "기존 예산 대체 아닌 신규",
-          "OpenAI 선호 1위"
+          "AI 예산은 기존 SW 대체 아닌 '신규 지출'",
+          "지출 가속세 지속",
+          "OpenAI가 최다 사용 제공사"
         ],
         "why": [
-          "AI가 IT 예산을 잠식이 아닌 순증으로 확장시키는 단계임을 보여준다."
+          "AI가 기존 IT 예산을 잠식하지 않고 시장을 키운다.",
+          "엔터프라이즈 AI 채택이 비용 우려를 넘어선다."
+        ]
+      }
+    },
+    {
+      "id": "it-ai-native-enterprise-sales",
+      "title": "AI 네이티브 기업의 직접 엔터프라이즈 영업 전략",
+      "summary": "제품 주도 성장 대신 포워드 엔지니어를 투입해 통합·구현을 보장하는 영업 모델.",
+      "source": "The GTM Newsletter",
+      "url": "https://thegtmnewsletter.substack.com/p/ai-enterprise-sales-motion-direct-plg",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "AI 네이티브 기업들이 직접 영업과 포워드 엔지니어 투입으로 엔터프라이즈 구현을 보장한다.",
+        "what": "여러 'AI 네이티브' 기업이 직접 엔터프라이즈 영업으로 빠르게 계약을 닫은 뒤, 엔지니어를 고객 환경에 투입해 구현 성공을 보장한다. 제품 주도 성장(PLG)은 개인이 몇 분 만에 도입하는 AI 도구에 잘 맞지만, 엔터프라이즈 배포는 CRM·빌링·컴플라이언스 통합을 요구한다. 전통적 영업 프로세스에 포워드 엔지니어를 결합하면 이 간극을 메우고 엔터프라이즈 제품을 차별화할 수 있다.",
+        "points": [
+          "PLG는 개인 도입형 도구에 적합",
+          "엔터프라이즈는 CRM·빌링·컴플라이언스 통합 필요",
+          "직접 영업+포워드 엔지니어로 간극 해소"
+        ],
+        "why": [
+          "AI 제품의 엔터프라이즈 확장 공식이 재정의된다.",
+          "구현 보장이 핵심 차별화 요소가 된다."
+        ]
+      }
+    },
+    {
+      "id": "it-perimeter-to-proof-email-security",
+      "title": "경계에서 증거로 — 이메일 보안의 새 아키텍처",
+      "summary": "이메일 보안을 콘텐츠 필터링이 아닌 신원 그래프·감사 가능한 신뢰 문제로 재정의.",
+      "source": "Software Analyst",
+      "url": "https://softwareanalyst.substack.com/p/from-perimeter-to-proof-the-new-architecture",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "이메일 보안을 경계 콘텐츠 필터링이 아닌 신원 그래프·감사 가능 신뢰 문제로 다뤄야 한다는 분석.",
+        "what": "이메일 보안은 단순한 경계 콘텐츠 필터링이 아니라 감사 가능한 증거를 갖춘 신원 그래프·신뢰 문제로 다뤄야 한다. 현대 공격은 점점 맥락적이고 워크플로·협업 플랫폼에 걸쳐 다층적이며, 조달 단계에서 설명 가능성을 요구한다.",
+        "points": [
+          "콘텐츠 필터링→신원·신뢰 그래프 전환",
+          "맥락적·다층적 공격 증가",
+          "조달이 설명 가능성을 요구"
+        ],
+        "why": [
+          "이메일 보안의 패러다임이 경계 방어에서 증거 기반으로 이동한다."
         ]
       }
     },
     {
       "id": "it-enterprise-ai-cost-control",
-      "title": "엔터프라이즈 AI가 비용 통제 방식의 재고를 강요한다",
-      "summary": "부서 전반의 AI 도입이 IT 거버넌스 역량을 앞지르면서, 토큰 소비가 아닌 비즈니스 성과에 연동된 비용 통제가 필요해졌다.",
-      "source": "TechRadar Pro",
+      "title": "엔터프라이즈 AI가 비용 통제를 재고하게 만든다",
+      "summary": "AI 확산 속도가 거버넌스를 앞질러, 토큰 지출이 아닌 비즈니스 성과 연계 통제가 필요.",
+      "source": "TechRadar",
       "url": "https://www.techradar.com/pro/why-enterprise-ai-is-forcing-a-rethink-in-cost-control",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "부서 전반의 AI 도입 속도가 IT 거버넌스를 앞질러 성과 연동 비용 통제가 필요해졌다.",
-        "what": "부서 전반에 걸친 AI 도입이 IT 거버넌스 역량을 추월하고 있다. 단순 토큰 소비량이 아니라 비즈니스 성과에 연동된 비용 통제 체계가 요구된다.",
+        "tldr": "AI가 부서 전반으로 빠르게 퍼지며 토큰 지출이 아닌 성과 연계 비용 통제가 요구된다.",
+        "what": "AI 사용이 많은 IT·재무 팀의 거버넌스 속도보다 빠르게 부서 전반으로 확산되고 있다. 기업은 단순 토큰 지출이 아니라 사용 지표를 비즈니스 성과에 연결하는 AI 비용 통제가 필요하다.",
         "points": [
-          "AI 도입이 거버넌스 추월",
-          "성과 연동 비용 통제",
-          "토큰 소비 ≠ 가치"
+          "AI 확산이 거버넌스 속도를 추월",
+          "토큰 지출만으로는 통제 불충분",
+          "사용 지표를 성과에 연결해야"
         ],
         "why": [
-          "AI 비용 관리가 단가가 아닌 ROI 중심으로 재편된다."
+          "AI 비용 관리가 FinOps의 새 영역으로 떠오른다."
         ]
       }
     },
     {
-      "id": "it-ai-native-sales-motion",
-      "title": "AI 네이티브 기업들의 직접 엔터프라이즈 영업 스케일링",
-      "summary": "AI 기업들이 직접 영업과 고객 환경에 투입되는 필드 엔지니어를 결합해 복잡한 엔터프라이즈 통합과 성공적 구현을 관리한다.",
-      "source": "GTM Newsletter",
-      "url": "https://thegtmnewsletter.substack.com/p/ai-enterprise-sales-motion-direct-plg",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "AI 네이티브 기업이 직접 영업과 현장 엔지니어를 결합해 엔터프라이즈를 공략한다.",
-        "what": "AI 기업들이 직접 영업(direct sales)에 고객 환경으로 투입되는 필드 엔지니어를 결합한다. 복잡한 엔터프라이즈 통합을 관리하고 성공적 구현을 보장하려는 전략이다.",
-        "points": [
-          "직접 영업 + 필드 엔지니어",
-          "고객 환경 투입",
-          "복잡한 통합 관리"
-        ],
-        "why": [
-          "AI 제품의 도입 난도가 높아 GTM이 셀프서브에서 고터치로 회귀한다."
-        ]
-      }
-    },
-    {
-      "id": "it-email-security-proof",
-      "title": "경계에서 증명으로: 이메일 보안의 새 아키텍처",
-      "summary": "이메일 보안이 경계 필터링에서 감사 가능한 증거를 갖춘 신원 기반 접근으로 옮겨가야 한다는 주장이다.",
-      "source": "Software Analyst",
-      "url": "https://softwareanalyst.substack.com/p/from-perimeter-to-proof-the-new-architecture",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "이메일 보안이 경계 필터링에서 신원·증거 기반 접근으로 전환해야 한다는 주장이다.",
-        "what": "이메일 보안이 경계 필터링에서 감사 가능한 증거를 동반한 신원 기반 접근으로 이동해야 한다고 본다. 현대 협업 플랫폼 전반의 맥락적·다층 공격에 대응하기 위함이다.",
-        "points": [
-          "경계 필터링의 한계",
-          "신원 기반·증거 중심",
-          "다층 공격 대응"
-        ],
-        "why": [
-          "이메일이 여전히 침해의 주요 진입점인 가운데 방어 모델이 재설계된다."
-        ]
-      }
-    },
-    {
-      "id": "it-ec2-ami-watermarks",
-      "title": "AWS EC2, 이미지 거버넌스용 AMI 워터마크 추가",
-      "summary": "AWS가 복사·리전 간에도 유지되는 머신 이미지 워터마크를 도입해 승인된 프라이빗 이미지에 대한 거버넌스를 강제할 수 있게 했다.",
+      "id": "it-aws-ami-watermarks",
+      "title": "아마존 EC2, 이미지 거버넌스용 AMI 워터마크 추가",
+      "summary": "승인된 비공개 머신 이미지에 식별자를 새겨 복사·리전·계정 간 출처 추적 강화.",
       "source": "AWS",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "AWS가 복사·리전 간에도 남는 AMI 워터마크로 이미지 거버넌스를 강화했다.",
-        "what": "AWS가 EC2 머신 이미지(AMI) 워터마크를 도입했다. 복사와 리전 이동에도 워터마크가 유지돼 조직이 승인된 프라이빗 이미지에 대한 거버넌스를 강제할 수 있다.",
+        "tldr": "AWS가 AMI 워터마크를 도입해 승인 이미지의 출처·거버넌스를 추적하게 했다.",
+        "what": "AWS가 조직이 승인된 비공개 머신 이미지에 식별자를 심을 수 있는 AMI 워터마크를 도입했다. 워터마크는 파생 AMI를 따라 복사·리전·공유 계정 전반으로 이어져 출처와 거버넌스 집행을 쉽게 만든다.",
         "points": [
-          "AMI 워터마크 도입",
-          "복사·리전 간 유지",
-          "이미지 거버넌스 강제"
+          "승인 비공개 이미지에 식별자 삽입",
+          "파생 AMI 복사·리전·계정 추적",
+          "출처·거버넌스 집행 강화"
         ],
         "why": [
-          "클라우드 이미지의 출처·승인 추적이 컴플라이언스 요건으로 부상한다."
+          "클라우드 이미지의 출처 관리가 컴플라이언스 도구로 자리잡는다."
         ]
       }
     },
     {
-      "id": "it-ai-coding-delivery",
-      "title": "AI 코딩 도구는 코드를 빠르게, 배포를 빠르게 하진 않는다",
-      "summary": "깃랩 조사에서 AI가 코드 생성은 가속하지만 리뷰·테스트·배포 워크플로에 병목을 만든다는 점이 드러났다.",
-      "source": "InfoQ",
-      "url": "https://www.infoq.com/news/2026/06/xcode-27-agents-device-hub/",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "깃랩 조사: AI가 코드 생성은 가속하지만 리뷰·테스트·배포에 병목을 만든다.",
-        "what": "깃랩 연구에 따르면 AI는 코드 생성을 가속하지만 리뷰·테스트·배포 워크플로에 병목을 만든다. 팀은 이에 맞춰 후속 단계를 현대화해야 한다.",
-        "points": [
-          "코드 생성은 빨라짐",
-          "리뷰·테스트·배포 병목",
-          "워크플로 현대화 필요"
-        ],
-        "why": [
-          "AI의 생산성 이득이 배포 파이프라인 개선 없이는 가치로 이어지지 않는다."
-        ]
-      }
-    },
-    {
-      "id": "it-ablo-agent-collab",
-      "title": "Ablo — AI 에이전트를 위한 협업 계층",
-      "summary": "AI 에이전트와 사람이 공유 데이터에서 안전하게 작업하도록 클레임 기반 워크플로로 동시 수정 충돌을 막는 오픈소스 도구다.",
+      "id": "it-ablo-collaboration-layer",
+      "title": "Ablo — AI 에이전트 협업 레이어",
+      "summary": "에이전트·사람이 같은 DB 행을 충돌 없이 다루도록 클레임 기반 워크플로 제공.",
       "source": "GitHub",
       "url": "https://github.com/Abloatai/ablo",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "Ablo는 클레임 기반 워크플로로 에이전트·사람의 동시 수정 충돌을 막는 오픈소스 협업 계층이다.",
-        "what": "Ablo는 AI 에이전트와 사람이 공유 데이터에서 안전하게 협업하도록 돕는 오픈소스 도구다. 클레임(claim) 기반 워크플로로 동시 수정 충돌을 방지한다.",
+        "tldr": "Ablo는 AI 에이전트와 사람이 같은 DB 행을 충돌 없이 다루게 하는 오픈소스 협업 레이어다.",
+        "what": "Ablo는 AI 에이전트와 사람이 같은 데이터베이스 행을 서로 덮어쓰지 않고 작업하게 하는 오픈소스 '협업 레이어'다. 느린 에이전트 작업을 위한 클레임 기반 워크플로를 도입해, 에이전트가 읽기/사고/호출/쓰기 시퀀스 전에 행을 클레임하고 경합을 기다린 뒤 최신 데이터를 다시 읽어 갱신이 낡지 않게 한다.",
         "points": [
-          "에이전트-사람 협업 계층",
-          "클레임 기반 잠금",
-          "동시 수정 충돌 방지"
+          "클레임 기반 행 잠금 워크플로",
+          "읽기→사고→호출→쓰기 시퀀스 보호",
+          "경합 후 재읽기로 낡은 갱신 방지"
         ],
         "why": [
-          "다수 에이전트가 같은 데이터에 작업하는 시대의 동시성 문제를 다룬다."
+          "다중 에이전트·인간 협업의 데이터 정합성 문제를 다룬다."
+        ]
+      }
+    },
+    {
+      "id": "it-ai-coding-speed-not-delivery",
+      "title": "AI 코딩 도구, 코드는 빨라도 '딜리버리'는 아니다",
+      "summary": "GitLab 연구: 리뷰·테스트·거버넌스·딜리버리가 새 병목, SDLC 현대화 필요.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/06/xcode-27-agents-device-hub/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "GitLab 연구에 따르면 AI가 코드 생산은 가속하지만 리뷰·테스트·딜리버리가 새 병목이 된다.",
+        "what": "GitLab 연구는 AI가 개발자의 코드 생산을 빠르게 하지만, 리뷰·테스트·거버넌스·딜리버리 워크플로가 새로운 병목이 되고 있음을 시사한다. 소프트웨어 팀은 코딩 어시스턴트를 도입하는 데 그치지 않고 AI 생성 코드를 중심으로 SDLC를 현대화해야 한다.",
+        "points": [
+          "코드 생산은 가속, 딜리버리는 병목",
+          "리뷰·테스트·거버넌스가 새 제약",
+          "SDLC 전반 현대화 필요"
+        ],
+        "why": [
+          "AI 도입 효과가 코딩 속도만으로 실현되지 않음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "it-agent-swarm",
+      "title": "agent-swarm — 에이전트 군집 오케스트레이션",
+      "summary": "리드 에이전트와 도커 컨테이너의 다중 워커 에이전트 간 작업을 조율하는 오픈소스.",
+      "source": "agent-swarm",
+      "url": "https://www.agent-swarm.dev/",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "agent-swarm은 리드·워커 에이전트 군집을 조율하는 오픈소스 오케스트레이션 시스템이다.",
+        "what": "agent-swarm은 리드 에이전트와 도커 컨테이너에서 동작하는 다수 워커 에이전트 간 작업을 조율하는 '에이전트 군집'을 만드는 오픈소스 오케스트레이션 시스템이다.",
+        "points": [
+          "리드+워커 에이전트 군집 구조",
+          "도커 컨테이너 기반 워커 실행",
+          "오픈소스 오케스트레이션"
+        ],
+        "why": [
+          "멀티에이전트 조율 패턴이 오픈 도구로 보편화된다."
+        ]
+      }
+    },
+    {
+      "id": "it-google-open-knowledge-format",
+      "title": "구글 클라우드, AI 대비 데이터 공유용 'Open Knowledge Format' 제안",
+      "summary": "메타데이터·맥락·큐레이션 지식을 사람과 AI 모두 쓸 수 있게 패키징하는 개방 명세.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "구글 클라우드의 Open Knowledge Format은 메타데이터·맥락을 사람·AI가 함께 쓰도록 패키징하는 개방 명세다.",
+        "what": "구글 클라우드의 Open Knowledge Format은 메타데이터·맥락·큐레이션된 지식을 사람과 AI 시스템 모두 사용할 수 있는 방식으로 패키징하는 개방형 명세다.",
+        "points": [
+          "메타데이터·맥락·지식 패키징 개방 명세",
+          "사람·AI 공동 사용 지향",
+          "데이터 공유 상호운용성 강화"
+        ],
+        "why": [
+          "AI 시대 데이터 공유 표준화 경쟁을 보여준다."
         ]
       }
     }

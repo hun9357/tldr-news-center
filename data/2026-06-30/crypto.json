@@ -6,176 +6,253 @@
   "bg": "#332a12",
   "items": [
     {
-      "id": "crypto-bitcoin-june-low",
-      "title": "비트코인, 6월 5만9,500달러 아래 마감 — 월간 19% 하락",
-      "summary": "비트코인이 6월을 5만9,500달러 아래에서 19% 하락 마감했다. 일부 기술 지표는 바닥 형성 가능성을, 7월 계절성은 회복 촉매를 시사한다.",
+      "id": "crypto-bitcoin-worst-month-2022",
+      "title": "비트코인, 6월 19% 하락 — 2022년 약세장 이후 최악",
+      "summary": "6만 달러가 지지에서 저항으로, RSI 강세 다이버전스와 바닥 신호 동시 출현.",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/markets/btc-price-rsi-prints-key-2026-signal-five-things-to-know-in-bitcoin-this-week",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "70%",
-        "owner": "Markets",
-        "status": "Tracking",
-        "affectedSurface": "BTC · 크립토 시장"
-      },
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "비트코인이 6월을 5만9,500달러 아래, 월간 19% 하락으로 마감했다.",
-        "what": "비트코인이 6월을 5만9,500달러 아래에서 마감하며 월간 19% 하락했다. 다만 기술적 지표는 바닥 형성 가능성을 시사하고, 2022년 약세장 신호와 7월 계절성을 잠재 회복 촉매로 보는 분석이 나온다.",
+        "tldr": "비트코인이 6월 19% 하락하며 2022년 이후 최악의 달을 기록했고, 동시에 바닥 신호도 형성됐다.",
+        "what": "비트코인이 6월을 5만 9,500달러 아래에서 마감하며 19% 월간 손실로 2022년 약세장 이후 최악을 기록했고, 6만 달러는 지지에서 저항으로 바뀌었다. 다수 시간대에서 RSI 강세 다이버전스가, 4시간 차트에서 이중 바닥 구조가 형성 중인데 이는 2022년 사이클 바닥 등 주요 추세 반전에 앞섰던 패턴이다. CryptoQuant의 UTXO 블록 손익 비율이 5.9로 2022년 약세장 저점과 일치해 광범위한 실현 손실과 첫 의미 있는 바닥 국면을 시사한다. 분기 말 Q2 비농업고용·제조업 PMI가 촉매이며, 2013년 이래 7월은 세 번을 빼면 6월 약세를 되돌렸다.",
         "points": [
-          "월간 19% 하락",
-          "5만9,500달러 아래 마감",
-          "바닥 형성·7월 계절성 주목"
+          "6월 -19%, 2022년 이후 최악의 달",
+          "RSI 강세 다이버전스·이중 바닥 형성",
+          "UTXO 손익비 5.9 — 2022년 저점과 일치"
         ],
         "why": [
-          "약세 지속 속 기관·ETF 투자자 손실 폭이 시장 심리를 짓누른다."
+          "약세장 심화 속 바닥 신호가 엇갈려 변동성이 크다.",
+          "계절성·매크로 지표가 7월 반등 여부를 가른다."
+        ]
+      },
+      "intel": {
+        "impact": "High",
+        "confidence": "60%",
+        "owner": "Markets",
+        "status": "Watch",
+        "affectedSurface": "BTC · 시장 심리"
+      }
+    },
+    {
+      "id": "crypto-clarity-act-odds",
+      "title": "Galaxy, CLARITY 법안 통과 확률 50%로 하향",
+      "summary": "상원 일정 축소·통합안 부재로 3주 전 60%에서 50%로 하향.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/EL0kzB",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "Galaxy Research가 CLARITY 법안의 2026년 통과 확률을 60%에서 50%로 낮췄다.",
+        "what": "Galaxy Research가 CLARITY 법안의 2026년 통과 추정치를 3주 전 60%에서 50대 50으로 낮췄다. 상원 본회의 일정 축소, 은행·농업위 통합 법안 부재, 표결 일정 없음, 지도부의 본회의 시간 배정 공개 약속 부재를 근거로 들었다. 위원회가 통합 법안에 합의하고 지도부가 7월 행동을 약속하면 개선될 수 있으나, SAVE 법안 대치 등 경쟁 입법 우선순위가 남은 시간을 압박한다.",
+        "points": [
+          "상원 일정 축소·통합 법안 부재",
+          "표결 일정·지도부 약속 없음",
+          "SAVE 법안 등 경쟁 우선순위가 압박"
+        ],
+        "why": [
+          "크립토 규제 명확성의 입법 동력이 약화된다.",
+          "규제 불확실성이 시장 심리에 부담을 준다."
         ]
       }
     },
     {
-      "id": "crypto-franklin-templeton",
-      "title": "프랭클린 템플턴, 기관용 'Franklin Crypto' 출범",
-      "summary": "1조7,800억 달러 AUM 운용사가 규제 비히클을 통해 기관 디지털 자산 서비스를 제공하는 Franklin Crypto를 신설했다. 250 Digital 인수에 뒤이은 행보다.",
+      "id": "crypto-franklin-crypto",
+      "title": "프랭클린 템플턴, 기관 대상 'Franklin Crypto' 출범",
+      "summary": "250 Digital 인수를 기반으로 커스터디·트레이딩·자문을 한 지붕 아래 통합.",
       "source": "The Defiant",
       "url": "https://thedefiant.io/converge/tradfi-and-fintech/franklin-templeton-closes-250-digital-launches-franklin-crypto",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "80%",
-        "owner": "Strategy",
-        "status": "New",
-        "affectedSurface": "기관 디지털 자산"
-      },
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "프랭클린 템플턴이 기관용 디지털 자산 사업부 Franklin Crypto를 출범했다.",
-        "what": "1조7,800억 달러 AUM의 프랭클린 템플턴이 신설 사업부 Franklin Crypto를 통해 규제 비히클 기반 기관 디지털 자산 서비스를 제공한다. 250 Digital 인수에 이은 행보다.",
+        "tldr": "프랭클린 템플턴이 250 Digital 인수를 토대로 기관용 디지털 자산 부문 Franklin Crypto를 출범했다.",
+        "what": "프랭클린 템플턴이 250 Digital 인수를 마무리하고 이를 구조적 기반으로 기관 배분자용 규제 디지털 자산 부문 Franklin Crypto를 만들었다. 1조 7,800억 달러 AUM 운용사로, 블록체인 토큰화 MMF인 BENJI와 배당-비트코인 ETF 제안을 보유하며 Franklin Crypto가 이를 커스터디·트레이딩·자문으로 확장한다. 단일 규제 카운터파티로 온체인 익스포저를 원하는 기관을 겨냥하며, 블랙록·피델리티처럼 자체 크립토 인프라를 구축한 TradFi 운용사 대열에 합류한다.",
         "points": [
-          "기관용 디지털 자산 사업부",
-          "250 Digital 인수 이후",
-          "규제 비히클 기반"
+          "250 Digital 인수를 구조적 기반으로 활용",
+          "커스터디·트레이딩·자문 통합",
+          "블랙록·피델리티 대열 합류"
         ],
         "why": [
-          "대형 전통 자산운용사의 크립토 진입이 기관 채택을 제도권으로 끌어들인다."
+          "대형 TradFi 운용사의 자체 크립토 인프라 구축이 확산된다.",
+          "기관 온체인 진입이 단일 규제 창구로 통합된다."
         ]
       }
     },
     {
-      "id": "crypto-galaxy-clarity-act",
-      "title": "갤럭시, CLARITY 법안 통과 확률 50%로 하향",
-      "summary": "갤럭시 리서치가 2026년 CLARITY 법안 통과 전망을 60%에서 50%로 낮췄다. 상원 일정 부족과 단일 위원회 안 부재가 이유다.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/406497/galaxy-cuts-clarity-act-passage-odds-50",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "갤럭시가 CLARITY 법안 통과 확률을 60%에서 50%로 낮췄다.",
-        "what": "갤럭시 리서치가 2026년 CLARITY 법안 통과 전망을 60%에서 50대 50으로 하향했다. 제한된 상원 일정, 단일 위원회 텍스트 부재, SAVE 법안 대치 같은 경쟁 입법 우선순위를 이유로 들었다.",
-        "points": [
-          "통과 확률 60% → 50%",
-          "상원 일정 부족",
-          "단일 위원회 안 부재"
-        ],
-        "why": [
-          "크립토 시장 구조 입법 지연이 미국 규제 불확실성을 연장한다."
-        ]
-      }
-    },
-    {
-      "id": "crypto-loopring-sunset",
-      "title": "루프링, TVL 99% 폭락에 DEX 종료",
-      "summary": "루프링이 2021년 11월 정점 대비 TVL이 약 99% 줄자 탈중앙 거래소를 닫았다. 신형 zkEVM 롤업 대비 아키텍처 한계를 이유로 들었다.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/406492/loopring-sunsets-dex",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "루프링이 TVL 99% 폭락에 DEX를 종료했다.",
-        "what": "루프링이 2021년 11월 정점 대비 약 99% 감소한 TVL을 이유로 탈중앙 거래소를 종료했다. 신형 zkEVM 롤업 대비 아키텍처 한계를 원인으로 꼽았다.",
-        "points": [
-          "TVL 정점 대비 99% 감소",
-          "DEX 서비스 종료",
-          "zkEVM 롤업에 밀림"
-        ],
-        "why": [
-          "초기 zk롤업 프로젝트가 신세대 기술에 밀려나는 세대 교체를 보여준다."
-        ]
-      }
-    },
-    {
-      "id": "crypto-strc-100",
-      "title": "STRC, 100달러에 거래될 근거 없다",
-      "summary": "스트래티지의 우선주가 만기나 실효적 바이백 메커니즘 없이 액면가 회복을 뒷받침할 구조적 장치가 부족하다는 분석이다.",
-      "source": "100y_eth (X)",
-      "url": "https://x.com/100y_eth/status/2071206028411347213",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "스트래티지 우선주 STRC가 액면 회복을 뒷받침할 구조가 없어 100달러 근거가 약하다는 분석이다.",
-        "what": "스트래티지의 우선주(STRC)가 만기일이나 실효적 바이백 메커니즘 없이 액면가(par) 회복을 지지할 구조적 장치가 부족하다는 분석이다.",
-        "points": [
-          "만기일 부재",
-          "실효적 바이백 부재",
-          "액면 회복 근거 약함"
-        ],
-        "why": [
-          "BTC 트레저리 기업의 자본구조 리스크를 환기한다."
-        ]
-      }
-    },
-    {
-      "id": "crypto-eth-memory-layer",
+      "id": "crypto-ethereum-memory-layer",
       "title": "이더리움의 네 번째 프로토콜 계층: 메모리",
-      "summary": "트랜잭션 시퀀싱과 MEV 추출을 관장하는 메모리 계층을 더해 현재 롤업 설계의 검열 취약성을 다루자는 제안이다.",
-      "source": "Ethereum Research",
+      "summary": "합의·실행·데이터에 '메모리 계층'을 추가해 MEV·검열 취약성을 다루는 아키텍처 제안.",
+      "source": "ethresear.ch",
       "url": "https://ethresear.ch/t/ethereums-fourth-protocol-layer-memory/25305",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "이더리움에 시퀀싱·MEV를 관장하는 '메모리 계층'을 더하자는 제안이다.",
-        "what": "연구진이 이더리움 아키텍처에 트랜잭션 시퀀싱과 MEV 추출을 관장하는 추가 '메모리 계층'을 도입하자고 제안했다. 현재 롤업 설계의 검열 취약성을 다루기 위함이다.",
+        "tldr": "이더리움을 4계층으로 재정의해 트랜잭션 순서·멤풀을 다루는 '메모리 계층'을 제안한다.",
+        "what": "한 아키텍처 제안이 이더리움을 합의·실행·데이터에 메모리 계층을 더한 4계층 프로토콜로 재정의한다. 메모리 계층은 트랜잭션 순서, 멤풀 형성, 강제 포함, 계정 추상화를 관장한다. 이 계층의 방치가 MEV 추출·검열 취약성의 원인이며, 롤업 시퀀서가 L1 책임 밖에서 빌더에게 순서·포함 결정의 일방 통제권을 준다고 본다. 가상 샤딩 멤풀, FOCIL, based 시퀀싱, 암호화 멤풀, 프레임 트랜잭션 기반 계정 추상화로 시퀀서 행동을 동질화하자고 제안한다.",
         "points": [
-          "메모리 계층 추가 제안",
-          "시퀀싱·MEV 관장",
-          "검열 저항성 강화"
+          "메모리 계층이 순서·멤풀·강제포함 관장",
+          "MEV·검열 취약성의 근원으로 지목",
+          "FOCIL·암호화 멤풀 등 해법 제시"
         ],
         "why": [
-          "롤업 중심 로드맵의 검열·MEV 문제를 프로토콜 차원에서 풀려는 시도다."
+          "L1·롤업의 검열 저항·MEV 문제를 구조적으로 다룬다."
         ]
       }
     },
     {
-      "id": "crypto-vitalik-obfuscation",
-      "title": "비탈릭 부테린, 암호학의 '최종 보스' 난독화 (1부)",
-      "summary": "구별 불가능성 난독화를 가장 강력한 암호 프리미티브로 보고 구성 방식을 설명하되, 현 구현이 비현실적 연산 비용을 가진다고 인정한다.",
-      "source": "Vitalik Buterin",
+      "id": "crypto-obfuscation-final-boss",
+      "title": "Vitalik: 난독화 — 암호학의 최종 보스 (Part I)",
+      "summary": "불구별 난독화(iO)를 블록체인과 결합한 '신뢰 없는 신뢰된 제3자'로 설명하는 구축 스택.",
+      "source": "vitalik.eth.limo",
       "url": "https://vitalik.eth.limo/general/2026/06/29/obfuscation1.html",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "부테린이 구별 불가능성 난독화를 암호학의 최강 프리미티브로 다루는 1부 글을 냈다.",
-        "what": "비탈릭 부테린이 구별 불가능성 난독화(iO)를 가장 강력한 암호 프리미티브로 탐구한다. 그 구성 방식을 설명하면서도 현재 구현이 비현실적인 연산 오버헤드를 가진다고 인정한다.",
+        "tldr": "Vitalik이 불구별 난독화(iO)를 암호학의 가장 강력한 원시 기능으로 보고 바닥부터 구축 스택을 해설한다.",
+        "what": "Vitalik Buterin은 프로그램의 내부 로직을 숨기면서 출력은 보존하는 불구별 난독화(iO)가 암호학의 가장 강력한 원시 기능이며, 블록체인과 결합하면 거의 모든 프로토콜에 '신뢰 없는 신뢰된 제3자'를 제공한다고 주장한다. 가블드 회로·GSW FHE가 속성 기반 암호화로, 이것이 간결 함수 암호화로, XiO와 합쳐 준선형 컴팩트 무작위 인코딩으로, 최종적으로 iO로 재귀하는 전체 스택을 설명한다. 현재 런타임은 다항식이지만 '은하급' 오버헤드로 실배포는 멀고, XiO 보안 가정은 평이한 격자보다 공격적이다. 2010년 SNARK에 빗대며 세 갈래 전진 경로를 제시한다.",
         "points": [
-          "구별 불가능성 난독화 탐구",
-          "최강 암호 프리미티브",
-          "현 구현은 비현실적 비용"
+          "iO=출력 보존·로직 은닉의 강력 원시 기능",
+          "가블드 회로→ABE→FE→XiO→iO 스택",
+          "현 런타임은 '은하급' 오버헤드로 실배포 난망"
         ],
         "why": [
-          "차세대 암호학의 가능성과 한계를 동시에 짚는 교육적 자료다."
+          "장기적으로 암호 프로토콜의 범용 기반이 될 잠재력을 짚는다.",
+          "SNARK의 2010년처럼 초기 단계임을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-strc-no-reason-100",
+      "title": "STRC가 100달러에 거래될 이유는 없다",
+      "summary": "만기 없는 Strategy 우선주의 구조적 약점과 적정가 57.5달러 추정.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/dxr5pX",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "만기 없는 Strategy STRC 우선주는 par 회복 장치가 부족해 적정가가 57.5달러까지 내려간다는 분석.",
+        "what": "Strategy의 STRC 우선주는 100달러 액면 대비 75달러에 거래되며, 만기일이 없어 채권의 구조적 장치가 없다. 보유자는 자사주 매입이나 파산으로만 par를 회복할 수 있다. 파산 바닥은 11% 순레버리지 비율상 BTC가 약 6,600달러까지 떨어져야 해 멀고, 그조차 후순위 우선주는 100달러 미만을 받는다. 배당률 조정은 이사회 재량 리스크와 재무 악화를 수반하고, 현 mNAV 수준의 ATM 발행은 BTC/주를 희석해 지속 불가능하다. 75달러에서 STRC 수익률은 15.3%이며, 시장이 20%를 적정으로 본다면 함의 가격은 57.5달러로 떨어진다.",
+        "points": [
+          "만기 없어 par 회복 장치 부재",
+          "파산 바닥은 BTC ~6,600달러로 원거리",
+          "적정가 함의 57.5달러"
+        ],
+        "why": [
+          "크립토 자산 운용사의 우선주 구조 리스크를 분석한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-loopring-sunsets-dex",
+      "title": "루프링, DEX 종료 — TVL 정점 대비 99% 감소",
+      "summary": "낮은 채택과 VM 부재로 릴레이어 종료, TVL 7.6억→약 800만 달러.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/v3JFIR",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "루프링이 채택 저조·VM 부재로 DEX를 종료하며 TVL이 정점 대비 99% 줄었다.",
+        "what": "루프링이 릴레이어를 오프라인으로 내리며 DEX를 종료했다. 만성적 낮은 채택과 가상머신이 없는 아키텍처로 zkEVM 호환 신형 롤업에 밀린 점을 들었다. TVL은 2021년 11월 7억 6,000만 달러 정점에서 약 800만 달러로 ~99% 줄었고, LRC는 사상 최고 3.75달러 대비 약 0.01달러에 거래된다. 팀은 최종 잔액 목록을 공개하고 가스를 부담해 L1 주소로 자금을 반환할 예정이다.",
+        "points": [
+          "채택 저조·VM 부재로 종료",
+          "TVL 7.6억→약 800만 달러(-99%)",
+          "L1 주소로 자금 반환 예정"
+        ],
+        "why": [
+          "zkEVM 호환성 부재가 초기 zk 롤업의 쇠퇴 요인임을 보여준다."
         ]
       }
     },
     {
       "id": "crypto-price-of-forgery",
-      "title": "위조의 가격: 시빌 저항성을 달러로 측정하기",
-      "summary": "신원 검증 시스템의 시빌 저항성을 평가하는 객관적·시장 기반 지표로 'Price of Forgery'를 제안한다.",
-      "source": "Ethereum Research",
+      "title": "위조의 가격 — 시빌 저항을 달러로 측정",
+      "summary": "사용자가 자기 신원을 시빌로 신고해 받는 보상으로 위조 비용을 시장에서 드러내는 PoF 지표.",
+      "source": "ethresear.ch",
       "url": "https://ethresear.ch/t/the-price-of-forgery-measuring-sybil-resistance-in-dollars-a-paper/25316",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "시빌 저항성을 달러로 측정하는 시장 기반 지표 'Price of Forgery'가 제안됐다.",
-        "what": "연구진이 신원 검증 시스템의 시빌 저항성을 평가할 객관적·시장 파생 지표로 'Price of Forgery(위조의 가격)'를 제안했다.",
+        "tldr": "새 논문이 시빌 저항을 달러로 측정하는 시장 기반 지표 'Price of Forgery'를 제안한다.",
+        "what": "새 논문은 시빌 저항을 시장에서 도출한 달러 표시 지표 'Price of Forgery(PoF)'로 제안하며, 전문가 위원회·주관적 평가로는 인간 검증 시스템의 객관적 보안 기준을 만들 수 없다고 본다. Upala 프로토콜은 사용자가 보상을 받고 자기 신원을 자발적으로 시빌로 표시하게 해, 인정된 신원을 위조하는 실제 비용을 드러내는 시장 조건을 만든다. 발견은 점수·풀 크기에 대한 이중 경매인 Gentle Methodology로 위조자가 경제적으로 참여하게 되는 가격 임계를 점진적으로 찾는다.",
         "points": [
-          "시빌 저항성 정량화",
-          "시장 기반 달러 지표",
-          "신원 검증 평가"
+          "시빌 저항을 달러로 측정하는 PoF",
+          "자발적 시빌 신고로 위조 비용 노출",
+          "이중 경매로 가격 임계 탐색"
         ],
         "why": [
-          "탈중앙 신원·증명 시스템의 보안을 비교 가능한 수치로 만든다."
+          "신원 검증 시스템의 보안을 정량화하는 접근을 제시한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-india-usdt-premium",
+      "title": "인도 USDT 공급 경색 — 스테이블코인 프리미엄 8.5%↑",
+      "summary": "현지 USDT 공급이 줄며 프리미엄이 통상 3~4%에서 8.5% 이상으로 급등.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071456346139238584.html",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "인도의 USDT 공급 경색으로 현지 스테이블코인 프리미엄이 8.5% 이상으로 급등했다.",
+        "what": "인도의 USDT 공급이 급격히 경색되며 현지 스테이블코인 프리미엄이 통상 3~4% 범위에서 8.5% 이상으로 올랐다.",
+        "points": [
+          "인도 USDT 공급 급격 경색",
+          "프리미엄 3~4%→8.5%+",
+          "현지 수급 불균형 심화"
+        ],
+        "why": [
+          "지역별 스테이블코인 수급이 가격 괴리를 키운다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-card-competition",
+      "title": "크립토 카드 경쟁 격화",
+      "summary": "이번 주 크립토 카드 분야에 제품 업데이트가 쏟아졌다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071552010953048488.html",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "크립토 카드 분야에 제품 업데이트가 잇따르며 경쟁이 격화됐다.",
+        "what": "이번 주 크립토 카드 분야에 제품 업데이트가 한꺼번에 쏟아지며 경쟁이 거세졌다.",
+        "points": [
+          "크립토 카드 제품 업데이트 다수",
+          "분야 경쟁 격화",
+          "결제 접점 확대 흐름"
+        ],
+        "why": [
+          "크립토의 일상 결제 접점 경쟁이 가열된다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-kiwoom-bithumb",
+      "title": "키움증권, 빗썸 지분 인수 추진",
+      "summary": "제3자 배정 신주로 한국 2위 거래소 빗썸 지분 확보 논의.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071442090014457933.html",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "한국 키움증권이 제3자 배정 신주로 빗썸 지분 인수를 논의 중이다.",
+        "what": "한국 키움증권이 제3자 배정 신주 방식으로 국내 2위 크립토 거래소 빗썸의 지분 인수를 논의하고 있다.",
+        "points": [
+          "키움증권, 빗썸 지분 인수 논의",
+          "제3자 배정 신주 방식",
+          "한국 2위 거래소 대상"
+        ],
+        "why": [
+          "전통 증권사의 크립토 거래소 진출 시도를 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-intelligence-age",
+      "title": "암스트롱: 코인베이스는 '지능 시대의 금융 계좌'",
+      "summary": "코인베이스를 AI 에이전트·AI 경제의 기본 금융 인프라로 포지셔닝.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071281723967721794.html",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "브라이언 암스트롱이 코인베이스를 AI 에이전트 시대의 기본 금융 인프라로 포지셔닝했다.",
+        "what": "브라이언 암스트롱이 코인베이스를 '지능 시대의 금융 계좌'로 규정하며, AI 에이전트와 더 넓은 AI 주도 경제의 기본 금융 인프라로 자리매김하려 했다.",
+        "points": [
+          "코인베이스='지능 시대의 금융 계좌'",
+          "AI 에이전트 결제 인프라 지향",
+          "AI 경제 연계 포지셔닝"
+        ],
+        "why": [
+          "크립토 거래소가 AI 에이전트 경제로 영역을 확장한다."
         ]
       }
     }

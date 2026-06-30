@@ -6,304 +6,237 @@
   "bg": "#15302a",
   "items": [
     {
-      "id": "tech-anthropic-token-pricing",
-      "title": "앤트로픽, 토큰 종량제로 전환 — 최대 후원자 아마존도 '더 싼 대안' 찾는다",
-      "summary": "재협상된 계약에서 앤트로픽이 사용량 기반 토큰 과금으로 옮겨가면서 비용이 크게 오를 수 있게 되자, 아마존이 OpenAI 등 더 저렴한 AI 대안을 모색하고 있다.",
-      "source": "TheNextWeb",
-      "url": "https://thenextweb.com/news/amazon-anthropic-token-pricing-openai-alternative",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "High",
-        "confidence": "80%",
-        "owner": "Strategy",
-        "status": "Tracking",
-        "affectedSurface": "AI 벤더 계약 · 클라우드 추론 비용"
-      },
-      "related": [
-        "세일즈포스, 슬랙 내 클로드 태그 홍보 — 3억 달러 토큰 약정",
-        "사카나 Fugu, 클로드 차단 틈 파고들며 벤치마크 추월",
-        "아시아 스타트업, 수출 통제 공백에 Mythos급 모델 출시"
-      ],
-      "report": {
-        "tldr": "앤트로픽의 토큰 종량제 전환으로 비용 급등 우려가 커지자 최대 후원자 아마존마저 대안을 찾는다.",
-        "what": "아마존이 앤트로픽과 재협상한 계약은 고정형이 아닌 사용량 기반 토큰 과금으로 바뀌었다. 이 구조에서 대규모 추론 비용이 크게 늘 수 있어, 아마존은 OpenAI를 비롯한 더 저렴한 AI 대안을 모색하는 것으로 알려졌다.",
-        "points": [
-          "고정 계약 → 토큰 종량제 전환",
-          "대규모 추론 시 비용 급등 가능",
-          "최대 후원자 아마존도 대안 검토"
-        ],
-        "why": [
-          "프런티어 AI의 단가 구조 변화가 도입 기업의 마진과 벤더 종속을 직접 흔든다.",
-          "수출 통제·차단 국면과 맞물려 경쟁 모델로의 이탈을 가속한다."
-        ],
-        "context": "앞서 트럼프 행정부의 앤트로픽 모델 수출·배포 제한 국면이 이어지는 가운데 나온 상업적 후폭풍이다.",
-        "action": "핵심 워크플로의 단일 AI 벤더 종속과 토큰 단가 민감도를 재점검하고 대체·다중 모델 전략을 검증."
-      }
-    },
-    {
-      "id": "tech-rocket-lab-iridium",
-      "title": "로켓랩, 위성 사업자 이리듐 인수로 스페이스X에 도전장",
-      "summary": "로켓랩이 이리듐 커뮤니케이션스를 인수해 저궤도 위성 66기와 스펙트럼 권리를 확보하며 스페이스X와의 경쟁에 본격 뛰어든다.",
-      "source": "Wall Street Journal",
-      "url": "https://www.wsj.com/business/telecom/rocket-lab-buys-satellite-operator-iridium-in-bid-to-challenge-spacex-d3a35be7",
-      "originalDate": "2026-06-29",
-      "intel": {
-        "impact": "High",
-        "confidence": "85%",
-        "owner": "Strategy",
-        "status": "Tracking",
-        "affectedSurface": "위성 통신 · 발사 시장"
-      },
-      "report": {
-        "tldr": "로켓랩이 이리듐을 인수해 저궤도 위성 66기와 스펙트럼을 확보, 스페이스X에 맞선다.",
-        "what": "로켓랩이 이리듐 커뮤니케이션스를 인수했다. 저궤도(LEO) 위성 66기와 값진 스펙트럼 권리를 손에 넣어, 발사부터 위성 운영까지 수직 통합한 통신 사업자로 스페이스X·스타링크에 도전한다.",
-        "points": [
-          "이리듐의 LEO 위성 66기 확보",
-          "스펙트럼 권리 인수",
-          "발사+운영 수직 통합"
-        ],
-        "why": [
-          "발사 기업이 위성 통신 자산을 직접 보유하며 우주 인프라 경쟁이 재편된다."
-        ]
-      }
-    },
-    {
-      "id": "tech-apple-rabbit-swift",
-      "title": "애플, 디자인 어워드 수상사 'Rabbit 3 Times' 인수 — 스위프트 비주얼 도구 확보",
-      "summary": "비주얼 스위프트 개발 도구 Play를 만든 Rabbit 3 Times를 애플이 인수했다. 인재·자산 중심의 인수로 보인다.",
-      "source": "AppleInsider",
-      "url": "https://appleinsider.com/articles/26/06/29/apple-design-award-winner-acquired-by-apple-for-new-swift-tools",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "애플이 비주얼 스위프트 도구 Play 개발사 Rabbit 3 Times를 인수했다.",
-        "what": "비주얼 스위프트 개발 도구 Play를 만든 애플 디자인 어워드 수상사 Rabbit 3 Times를 애플이 인수했다. 자산·인재 인수 성격으로 보이며 차세대 스위프트 개발 도구에 활용될 전망이다.",
-        "points": [
-          "비주얼 스위프트 도구 Play 확보",
-          "애플 디자인 어워드 수상사",
-          "자산·인재 인수 성격"
-        ],
-        "why": [
-          "애플이 AI·비주얼 개발 도구 역량을 사내로 빨아들이는 흐름을 보여준다."
-        ]
-      }
-    },
-    {
-      "id": "tech-iphone18-a20-leak",
-      "title": "A20 Pro 유출, 아이폰18 프로의 빠르고 시원한 발열 설계 시사",
-      "summary": "유출된 메인보드 이미지에서 A20 칩이 향상된 발열 관리, A19 Pro와 비슷한 크기, 메모리·AI 성능 업그레이드를 갖춘 것으로 나타났다.",
-      "source": "AppleInsider",
-      "url": "https://appleinsider.com/articles/26/06/29/a20-pro-leak-shows-how-iphone-18-pro-will-run-faster-and-cooler",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "아이폰18 프로의 A20 칩이 발열 개선·메모리·AI 업그레이드를 갖췄다는 유출이 나왔다.",
-        "what": "유출된 메인보드 이미지에 따르면 아이폰18 프로의 A20 칩은 향상된 발열 관리, A19 Pro와 유사한 물리 크기, 메모리·AI 역량 업그레이드를 특징으로 한다.",
-        "points": [
-          "발열 관리 개선",
-          "A19 Pro와 유사 크기",
-          "메모리·AI 성능 강화"
-        ],
-        "why": [
-          "온디바이스 AI 수요가 칩 설계의 발열·메모리 우선순위를 끌어올린다."
-        ]
-      }
-    },
-    {
-      "id": "tech-openai-codex-hardware",
-      "title": "OpenAI의 Codex 전용 키보드 하드웨어 공개",
-      "summary": "OpenAI가 AI Engineer World Fair에서 Work Louder와 함께 만든 Codex Micro 키보드를 선보였다.",
+      "id": "tech-codex-micro",
+      "title": "OpenAI, 'Codex Micro' 하드웨어 공개",
+      "summary": "Codex 사용에 특화된 키보드형 기기를 Work Louder와 협업해 AI Engineer World Fair에서 전시.",
       "source": "The Verge",
       "url": "https://www.theverge.com/ai-artificial-intelligence/959269/heres-a-photo-of-openais-codex-hardware",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "OpenAI가 Codex 사용을 돕는 전용 키보드 Codex Micro를 공개했다.",
-        "what": "OpenAI가 AI Engineer World Fair에서 Work Louder와 협업해 만든 Codex Micro 키보드를 전시했다. Codex 워크플로를 강화하기 위한 전용 하드웨어다.",
+        "tldr": "OpenAI가 코딩 에이전트 Codex 전용 키보드형 기기 'Codex Micro'를 공개 전시했다.",
+        "what": "OpenAI가 AI Engineer World Fair에서 'Codex Micro'라는 하드웨어를 전시했다. 액세서리 업체 Work Louder와의 협업으로 만든 키보드형 기기로, Codex 사용을 강화하기 위해 설계됐다. 기사에는 실물 사진이 포함돼 있다.",
         "points": [
-          "Codex 전용 키보드",
-          "Work Louder와 협업",
-          "AI Engineer World Fair 공개"
+          "Work Louder와 협업한 키보드형 기기",
+          "Codex 워크플로 전용으로 설계",
+          "AI Engineer World Fair에서 실물 전시"
         ],
         "why": [
-          "AI 코딩 도구가 전용 하드웨어로 확장되는 초기 신호다."
+          "AI 코딩 도구가 전용 하드웨어로 확장되는 흐름을 보여준다.",
+          "에이전트 코딩의 입력·제어 방식 변화를 시사한다."
+        ]
+      },
+      "intel": {
+        "impact": "Medium",
+        "confidence": "60%",
+        "owner": "Dev Tools",
+        "status": "Watch",
+        "affectedSurface": "코딩 에이전트 · 하드웨어"
+      }
+    },
+    {
+      "id": "tech-a20-iphone18-leak",
+      "title": "A20 Pro 유출 — iPhone 18 Pro 더 빠르고 시원하게",
+      "summary": "주말 유출된 메인보드 이미지로 A20 칩의 발열 관리·메모리·NPU 개선이 드러났다.",
+      "source": "AppleInsider",
+      "url": "https://appleinsider.com/articles/26/06/29/a20-pro-leak-shows-how-iphone-18-pro-will-run-faster-and-cooler",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "iPhone 18 Pro·Pro Max에 쓰일 A20 메인보드 추정 이미지가 유출돼 발열 관리·AI 성능 개선이 시사됐다.",
+        "what": "iPhone 18 Pro와 Pro Max에 사용될 것으로 보이는 메인보드 추정 이미지가 주말 사이 유출됐다. 새 설계는 A20을 강력하면서도 발열 관리가 뛰어난 칩으로 만들고 생산 비용도 절감할 전망이다. 칩 전체 크기는 A19 Pro와 비슷하며, 메모리·NPU 업그레이드로 대역폭과 AI 성능이 향상된다.",
+        "points": [
+          "A20, A19 Pro와 유사한 크기에 발열·비용 개선",
+          "메모리·NPU 업그레이드로 대역폭·AI 성능 향상",
+          "유출 출처는 비공식 유출 이미지(미확정)"
+        ],
+        "why": [
+          "온디바이스 AI 성능이 차기 아이폰의 핵심 차별점이 된다.",
+          "공급망 유출이 출시 전 사양 윤곽을 드러낸다."
         ]
       }
     },
     {
-      "id": "tech-meta-brain2qwerty",
-      "title": "메타 Brain2Qwerty v2, 수술 없이 뇌파를 문장으로",
-      "summary": "비침습 뇌 기록에서 문장을 61% 단어 정확도로 디코딩하며, 자원자 2만2천 문장으로 학습했다.",
+      "id": "tech-brain2qwerty-v2",
+      "title": "Brain2Qwerty v2 — 수술 없는 비침습 문장 해독",
+      "summary": "비침습 뇌 기록에서 실시간 문장 해독, 단어 정확도 61% 달성.",
       "source": "Meta AI",
       "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "메타 Brain2Qwerty v2가 비침습 뇌파에서 문장을 61% 정확도로 디코딩한다.",
-        "what": "메타의 Brain2Qwerty v2는 수술이 필요 없는 비침습 뇌 기록에서 문장을 디코딩한다. 자원자들의 2만2천 문장으로 학습해 61% 단어 정확도를 달성했다.",
+        "tldr": "Meta의 Brain2Qwerty v2가 비침습 뇌 기록만으로 실시간 문장 해독에서 단어 정확도 61%를 기록했다.",
+        "what": "Brain2Qwerty v2는 비침습 뇌 기록에서 실시간으로 문장을 해독하는 모델이다. 자기뇌파(MEG) 장비를 착용하고 직접 타이핑한 9명의 참가자가 각 10시간씩 기록한 약 2만 2천 개 문장으로 학습됐다. 단어 정확도 61%로, 기존 비침습 방식의 8%보다 크게 높다. v1·v2 학습 코드와 v1 데이터셋이 Hugging Face에 공개됐다.",
         "points": [
-          "비침습(무수술) 방식",
-          "61% 단어 정확도",
-          "2만2천 문장 학습"
+          "참가자 9명·약 22,000개 문장으로 학습",
+          "단어 정확도 61% (기존 비침습 8% 대비)",
+          "v1/v2 코드·v1 데이터셋 Hugging Face 공개"
         ],
         "why": [
-          "비침습 BCI가 의료·접근성 커뮤니케이션의 실용화 문턱을 낮춘다."
+          "수술 없는 뇌-컴퓨터 인터페이스의 실용 가능성을 끌어올린다.",
+          "의사소통 보조 기술의 접근성을 넓힌다."
         ]
       }
     },
     {
-      "id": "tech-sf-tech-salaries",
-      "title": "샌프란시스코, 18만 달러 테크 연봉도 더는 충분하지 않다",
-      "summary": "치솟는 생활비로 6자리 테크 연봉이 부족해졌고, AI 신흥 부유층이 새로운 부의 격차를 만들고 있다.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/06/29/technology/san-francisco-tech-salaries.html",
-      "originalDate": "2026-06-29",
+      "id": "tech-rocketlab-iridium",
+      "title": "로켓랩, 위성사업자 이리듐 인수 — 스페이스X에 도전",
+      "summary": "저궤도 위성 66기와 스펙트럼 권리를 확보해 위성 통신 시장 진입.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/98xb9i",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "샌프란시스코의 생활비 급등으로 18만 달러 연봉도 부족해지고 AI 부유층발 격차가 커진다.",
-        "what": "샌프란시스코의 치솟는 생활비가 6자리 테크 연봉마저 충분치 않게 만들었다. AI로 부를 쌓은 신흥 엘리트가 등장하며 새로운 부의 양극화가 나타나고 있다.",
+        "tldr": "로켓랩이 이리듐을 인수해 스페이스X의 위성 사업에 맞선다.",
+        "what": "로켓랩이 이리듐 커뮤니케이션을 인수해 스페이스X의 위성 서비스와 경쟁한다. 이 거래로 로켓랩은 위성 함대와 무선 자원을 확보한다. 이리듐은 현재 저궤도에 66기의 위성을 운용하며, 단말기·기기를 위성에 연결하는 가치 있는 스펙트럼 권리를 보유한다. 로켓랩은 이리듐의 현 별자리를 대체할 업그레이드 함대를 개발할 계획이다.",
         "points": [
-          "18만 달러 연봉도 부족",
-          "AI 신흥 부유층 등장",
-          "지역 내 부의 격차 심화"
+          "이리듐 저궤도 위성 66기 인수",
+          "핸드셋 연결용 스펙트럼 권리 확보",
+          "현 별자리 대체 신형 함대 개발 계획"
         ],
         "why": [
-          "AI 호황의 부가 특정 계층에 집중되며 인재·주거 비용 압력을 키운다."
+          "발사체 기업이 위성 운용·통신으로 수직 확장한다.",
+          "스페이스X 중심 위성 통신 시장에 경쟁 구도를 형성한다."
         ]
       }
     },
     {
-      "id": "tech-consultants-billing",
-      "title": "컨설턴트들의 혼란스러운 시간당 과금 탈피",
-      "summary": "AI가 시간 기반 가격 구조를 흔들면서 전통적 시간당 컨설팅 과금 모델이 빠르게 낡아가고 있다.",
-      "source": "Wall Street Journal",
-      "url": "https://www.wsj.com/cfo-journal/inside-consultants-messy-shift-from-hourly-billing-7bd9b802",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "AI가 시간 기반 가격을 흔들며 컨설팅의 시간당 과금 모델이 낡아가고 있다.",
-        "what": "AI가 작업 시간을 압축하면서 전통적인 시간당 컨설팅 과금이 무의미해지고 있다. 컨설팅 업계는 성과·가치 기반 가격으로 혼란스럽게 이행 중이다.",
-        "points": [
-          "시간당 과금 모델 붕괴",
-          "AI가 작업 시간 압축",
-          "성과·가치 기반 전환"
-        ],
-        "why": [
-          "AI가 지식 노동의 과금 단위를 '시간'에서 '결과'로 옮긴다."
-        ]
-      }
-    },
-    {
-      "id": "tech-qwen-36-local",
-      "title": "Qwen 3.6 27B, 로컬 개발의 스위트 스폿",
-      "summary": "Qwen 3.6 27B 모델이 프런티어 기준으로는 평범하지만 로컬 개발 작업에는 효과적인 균형점으로 평가됐다.",
-      "source": "Quesma",
-      "url": "https://quesma.com/blog/qwen-36-is-awesome/",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "Qwen 3.6 27B가 로컬 개발에 적합한 효율·성능 균형점으로 꼽혔다.",
-        "what": "Qwen 3.6 27B 모델은 현재 프런티어 기준으로는 두드러지지 않지만, 로컬 개발 작업에는 충분히 효과적인 '스위트 스폿'으로 평가됐다.",
-        "points": [
-          "27B 규모 로컬 모델",
-          "프런티어 대비 평범하나 실용적",
-          "로컬 개발에 적합"
-        ],
-        "why": [
-          "비용·프라이버시를 이유로 한 로컬 AI 개발의 현실적 선택지를 보여준다."
-        ]
-      }
-    },
-    {
-      "id": "tech-eval-smell",
-      "title": "'평가하기 어렵다'는 것은 제품의 냄새다",
-      "summary": "전통 워크플로에서 검증은 부수적으로 일어나지만 AI 시스템에서는 핵심이 된다며 평가 설계 원칙을 짚는다.",
-      "source": "hamel.dev",
+      "id": "tech-eval-product-smell",
+      "title": "\"평가하기 어렵다\"는 제품의 냄새다",
+      "summary": "Eval 사고가 좋은 제품 설계와 일치하며, AI 시대엔 검증이 병목.",
+      "source": "Hamel Husain",
       "url": "https://hamel.dev/blog/posts/eval-smell/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "AI 시스템에선 검증이 핵심이 되며 '평가하기 어렵다'는 신호는 제품 결함의 징후라는 글이다.",
-        "what": "AI 개발 관점에서 평가 설계 원칙을 짚는다. 전통 워크플로에서는 검증이 부수적으로 일어나지만, AI 시스템에서는 평가가 결정적으로 중요해진다고 주장한다.",
+        "tldr": "Eval 설계는 좋은 제품 설계와 통하며, AI 시대에는 검증이 핵심 병목이 된다.",
+        "what": "이 글은 'eval 사고'가 좋은 제품 설계와 정렬돼 있다고 주장한다. 데이터를 모으고 워크플로를 작은 단위로 쪼개면 자동 채점이 쉬워진다. AI 이전에는 검증이 작업 산출 과정에서 부수적으로 일어났지만, AI에서는 검증 자체가 병목이 된다.",
         "points": [
-          "AI에서 평가가 핵심",
-          "검증이 부수적이면 위험",
-          "'평가 난이도'는 제품 냄새"
+          "워크플로를 작은 단위로 분해하면 자동 평가가 쉬워진다",
+          "검증 용이성은 좋은 제품 설계의 신호",
+          "AI 산출물은 검증이 새로운 병목"
         ],
         "why": [
-          "AI 제품의 신뢰성은 명시적 평가 설계에 달려 있다."
+          "AI 제품 품질의 관건이 '생성'에서 '검증'으로 이동한다.",
+          "평가 설계가 곧 제품 설계 역량이 된다."
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-rabbit3times",
+      "title": "애플, 디자인 어워드 수상사 'Rabbit 3 Times' 인수",
+      "summary": "Swift 시각 개발 도구 Play 제작사 인수, 앱은 사실상 종료 수순.",
+      "source": "AppleInsider",
+      "url": "https://appleinsider.com/articles/26/06/29/apple-design-award-winner-acquired-by-apple-for-new-swift-tools",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "애플이 비주얼 Swift 도구 Play를 만든 Rabbit 3 Times를 인수했고, 앱은 사라질 전망이다.",
+        "what": "애플이 시각적 Swift 개발 도구 Play를 만들어 혁신 부문 애플 디자인 어워드를 수상한 Rabbit 3 Times를 인수했다. 인수는 인재·기술 흡수(애셋 스트리핑)에 가까워 보인다. 애플은 Play를 자사 Apple Creator Studio에 통합할 수 있으나, 현재로선 앱이 사라진 상태이며 Rabbit 3 Times의 웹사이트도 내려갔다.",
+        "points": [
+          "Play는 비주얼 Swift 개발 도구",
+          "Apple Creator Studio 통합 가능성",
+          "앱·웹사이트 모두 종료 수순"
+        ],
+        "why": [
+          "애플의 개발자 도구 내재화 전략을 보여준다.",
+          "독립 개발 도구의 인수 후 종료 패턴이 반복된다."
         ]
       }
     },
     {
       "id": "tech-technological-involution",
-      "title": "기술적 인볼루션",
-      "summary": "자본주의가 발전보다 추출 기반 모델로 옮겨가며 기술 혁신이 둔화됐다는 분석이다.",
+      "title": "기술적 인볼루션(involution)",
+      "summary": "인간 구상의 상한에 다다랐고, 자본주의가 더는 혁신을 압박하지 않는다는 비평.",
       "source": "rohan.ga",
       "url": "https://rohan.ga/blog/technological-involution/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "자본주의의 추출 중심 전환으로 기술 혁신이 둔화됐다는 분석이다.",
-        "what": "기술 혁신이 정체됐다는 주장을 담은 분석이다. 자본주의가 진보보다 추출(extraction) 기반 모델로 이동하면서 혁신의 동력이 약해졌다고 본다.",
+        "tldr": "기술 정체의 원인을 자본주의의 혁신 압력 약화로 진단하는 에세이.",
+        "what": "이 글은 인간이 구상할 수 있는 것의 상한에 근접하고 있다고 본다. 자본주의가 더는 혁신으로의 압력을 가하지 않으면서 기술이 정체됐고, 기업은 대중을 '채굴' 대상으로 다루기 시작했다는 주장이다. '그냥 해내는' 능력에 깊은 믿음을 가진 사람들이 이 흐름을 바꿀 힘이 있으며, 충분히 좋은 아이디어는 퍼진다고 결론짓는다.",
         "points": [
-          "혁신 둔화 주장",
-          "추출 기반 모델로 전환",
-          "발전 동력 약화"
+          "기술 정체를 자본주의의 혁신 압력 약화로 해석",
+          "기업이 사용자를 '채굴' 대상으로 본다는 비판",
+          "개인의 실행력과 좋은 아이디어의 확산력을 강조"
         ],
         "why": [
-          "테크 산업의 성장 서사에 대한 비판적 관점을 제시한다."
+          "AI 시대 혁신의 본질과 동력에 대한 회의적 시각을 제공한다."
         ]
       }
     },
     {
-      "id": "tech-economy-of-tokens",
-      "title": "토큰의 경제학",
-      "summary": "안정적인 토큰 인터페이스가 모듈형 AI 생태계의 전문화와 독립적 혁신을 가능케 한다는 분석이다.",
-      "source": "Vipul Ved (X)",
-      "url": "https://x.com/vipulved/status/2071404852908081211",
-      "originalDate": "2026-06-29",
+      "id": "tech-sf-salaries",
+      "title": "샌프란시스코, 18만 달러 연봉으로도 부족하다",
+      "summary": "주거·생활비 급등과 AI 엘리트 등장으로 젊은 테크 노동자의 박탈감 확산.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/DEjOdq",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "안정적 토큰 인터페이스가 모듈형 AI 생태계의 전문화·독립 혁신을 촉진한다는 분석이다.",
-        "what": "토큰이라는 안정적 인터페이스가 어떻게 모듈형 AI 생태계의 전문화를 가능케 하는지 분석한다. 각 계층이 독립적으로 혁신할 수 있는 구조를 만든다고 본다.",
+        "tldr": "AI 부의 집중과 생활비 급등으로 SF의 18만 달러 연봉도 충분치 않다는 인식이 퍼진다.",
+        "what": "실리콘밸리의 꿈을 좇던 젊은 테크 노동자들이 감당 가능한 미래가 점점 멀어진다고 토로한다. 부동산·공공요금·교통·식료품 비용이 크게 올랐다. 다른 테크 노동자를 압도하는 새로운 'AI 엘리트' 계층이 등장했고, OpenAI·앤트로픽·스페이스X의 IPO가 합쳐지면 현·전직 직원 중 20명 이상의 신규 억만장자가 나올 수 있다.",
         "points": [
-          "토큰 = 안정적 인터페이스",
-          "모듈형 생태계 전문화",
-          "독립적 혁신 가능"
+          "주거·교통·식료품 등 생활비 전반 급등",
+          "AI 엘리트 계층의 소비력이 격차를 키움",
+          "대형 IPO로 신규 억만장자 20명+ 전망"
         ],
         "why": [
-          "AI 가치사슬이 표준 인터페이스를 축으로 분업화된다."
+          "AI 호황의 부가 소수에 집중되는 양극화를 드러낸다.",
+          "고임금조차 고비용 도시에서 무력해지는 현실을 보여준다."
         ]
       }
     },
     {
-      "id": "tech-rebuilding-computer-room",
-      "title": "컴퓨터 방 다시 짓기",
-      "summary": "컴퓨팅의 편의성이 전용 컴퓨터 공간을 없앴지만, 설계상의 마찰이 때로 중요한 목적을 한다는 글이다.",
-      "source": "alexwlchan.net",
-      "url": "https://alexwlchan.net/2026/computer-room/",
-      "originalDate": "2026-06-29",
+      "id": "tech-consultants-hourly-billing",
+      "title": "컨설턴트, 시간당 과금에서 벗어나는 혼란스러운 전환",
+      "summary": "AI 확산으로 인간 시간 기반 과금 모델이 더는 작동하지 않을 수 있다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/ZzEq7G",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "컴퓨팅 편의성이 전용 공간을 없앴지만 의도된 마찰이 가치를 가질 수 있다는 글이다.",
-        "what": "컴퓨팅이 편리해지면서 전용 컴퓨터 공간이 사라졌다. 그러나 설계상의 마찰(friction)이 때로는 집중·의도성 같은 중요한 목적을 한다고 짚는다.",
+        "tldr": "AI가 확산되며 컨설팅의 시간당 과금 모델이 흔들리고 있다.",
+        "what": "AI가 성장하면서 인간의 시간을 청구하는 전통적 모델이 더는 작동하지 않을 수 있다. 컨설팅 업계가 시간당 과금에서 벗어나는 과정은 혼란스럽게 진행되고 있다.",
         "points": [
-          "전용 컴퓨터 공간의 소멸",
-          "편의성의 이면",
-          "의도된 마찰의 가치"
+          "시간당 과금 모델의 전제가 흔들림",
+          "AI로 산출 속도가 빨라지며 가치 측정 기준 변화",
+          "전환 과정은 업계 전반에서 혼선"
         ],
         "why": [
-          "무마찰 설계가 항상 최선은 아니라는 디자인 관점을 환기한다."
+          "서비스업의 가격 책정이 '시간'에서 '성과'로 이동한다."
         ]
       }
     },
     {
       "id": "tech-service-worker",
-      "title": "서비스 워커가 필요 없을지도 모른다",
-      "summary": "서비스 워커는 특정 문제를 풀지만 대부분의 웹 개발 시나리오에서는 최적 해법이 아니라는 분석이다.",
+      "title": "서비스 워커가 필요 없을 수도 있다",
+      "summary": "서비스 워커만 할 수 있는 일은 적으며 대개 최선의 해법이 아니다.",
       "source": "Jay Freestone",
       "url": "https://www.jayfreestone.com/writing/you-might-not-need-a-service-worker/",
-      "originalDate": "2026-06-29",
+      "originalDate": "2026-06-30",
       "report": {
-        "tldr": "서비스 워커는 특정 상황에만 적합하며 대부분의 경우 최적이 아니라는 분석이다.",
-        "what": "서비스 워커가 특정 문제를 해결하긴 하지만 대부분의 웹 개발 시나리오에서는 최선의 선택이 아니라고 분석한다. 더 단순한 대안을 우선 고려하라고 제안한다.",
+        "tldr": "대부분의 상황에서 서비스 워커는 최적의 해법이 아니라는 웹 개발 관점.",
+        "what": "서비스 워커만이 할 수 있는 일이 몇 가지 있지만, 대부분의 상황에서는 최선의 해법이 아니다. 이 글은 서비스 워커 도입 전에 더 단순한 대안을 검토할 것을 권한다.",
         "points": [
-          "서비스 워커의 적용 한계",
-          "대부분 시나리오엔 과함",
-          "더 단순한 대안 권장"
+          "서비스 워커 전용 기능은 제한적",
+          "대부분 더 단순한 대안이 존재",
+          "복잡성 추가 전 필요성 재검토 권고"
         ],
         "why": [
-          "복잡한 PWA 기술을 무조건 도입하는 관행을 재고하게 한다."
+          "웹 성능·오프라인 기능 구현 시 과잉 엔지니어링을 경계한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-amazon-anthropic-token-pricing",
+      "title": "아마존, 앤트로픽 토큰 과금 전환에 더 싼 대안 모색",
+      "summary": "재협상 계약으로 앤트로픽 과금이 토큰 단위로 바뀌며 아마존 비용 급증 우려.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/amazon-anthropic-token-pricing-openai-alternative",
+      "originalDate": "2026-06-30",
+      "report": {
+        "tldr": "앤트로픽과의 재협상으로 토큰 단위 과금이 도입되며 아마존이 더 싼 AI 대안을 찾는다.",
+        "what": "아마존과 앤트로픽의 재협상 계약은 앤트로픽 과금을 토큰당 가격으로 전환하며, 이는 아마존의 비용을 상당히 늘릴 수 있다. 이 때문에 아마존은 더 저렴한 AI 대안을 모색하고 있다.",
+        "points": [
+          "앤트로픽 과금이 토큰 단위로 전환",
+          "아마존 비용 부담 증가 우려",
+          "아마존, 대체 모델 검토"
+        ],
+        "why": [
+          "프런티어 모델 의존 기업의 비용 구조 리스크를 부각한다.",
+          "과금 모델 변화가 멀티벤더 전략을 자극한다."
         ]
       }
     }
