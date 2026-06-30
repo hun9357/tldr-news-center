@@ -1,0 +1,116 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-chatgpt-picks-sources",
+      "title": "ChatGPT는 실제로 출처를 어떻게 고르나 (네트워크 트래픽 분석)",
+      "summary": "ChatGPT 가시성은 자바스크립트보다 일반 HTML 같은 기술적 구현에 좌우되며, 브랜드 사이트보다 제3자 출처를 선호한다. 브랜드는 외부 신뢰도와 권위 페이지에 집중해야 한다.",
+      "source": "Suganthan.com",
+      "url": "https://suganthan.com/blog/how-chatgpt-picks-sources/",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Marketing",
+        "status": "Tracking",
+        "affectedSurface": "AI 검색 가시성 · SEO"
+      },
+      "report": {
+        "tldr": "ChatGPT는 일반 HTML·제3자 출처를 선호하므로 브랜드는 외부 신뢰도에 집중해야 한다.",
+        "what": "네트워크 트래픽을 직접 분석한 결과, ChatGPT 가시성은 자바스크립트보다 일반 HTML 같은 기술 구현에 좌우되고 브랜드 자체 사이트보다 제3자 출처를 선호한다. 브랜드는 외부 신뢰도와 권위 있는 페이지 구축에 집중해야 한다.",
+        "points": [
+          "일반 HTML 선호",
+          "제3자 출처 우대",
+          "외부 권위 페이지 중요"
+        ],
+        "why": [
+          "AI 검색 시대의 가시성 확보 전략이 전통 SEO와 달라진다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-in-defense-of-softness",
+      "title": "부드러움을 옹호하며: 확실성이 권위이던 시대의 종말",
+      "summary": "최적화 중심 브랜딩이 과포화되며 소비자가 끊임없는 자기개선 메시지를 거부한다. 브랜드는 코치가 아닌 동반자로, 권위보다 감정의 폭을 강조해야 한다는 주장이다.",
+      "source": "Branding Magazine",
+      "url": "https://www.brandingmag.com/sara-bernat/in-defense-of-softness-brands-communication-and-the-end-of-certainty-as-authority/",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "최적화·자기개선 메시지가 과포화돼 브랜드는 코치 아닌 동반자가 되어야 한다는 주장이다.",
+        "what": "최적화 중심 브랜딩이 과포화되며 소비자가 끊임없는 자기개선 메시지에 피로를 느낀다. 브랜드는 코치가 아닌 동반자로 스스로를 자리매김하고 권위보다 감정의 폭을 강조해야 한다고 본다.",
+        "points": [
+          "최적화 브랜딩 과포화",
+          "코치 아닌 동반자로",
+          "권위보다 감정의 폭"
+        ],
+        "why": [
+          "성과·확실성 중심 메시징의 피로가 브랜드 톤의 전환을 부른다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-gen-z-tired-marketing",
+      "title": "Z세대가 영화·맥주·탄산을 죽인 게 아니라, 지친 마케팅이 죽였다",
+      "summary": "쇠퇴하는 제품 카테고리는 세대 선호가 아닌 진부한 마케팅의 결과라는 마크 릿슨의 주장이다. 신선하고 독창적인 콘텐츠는 젊은 층에 통한다.",
+      "source": "The Drum",
+      "url": "https://www.thedrum.com/opinion/mark-ritson-gen-z-didn-t-kill-cinema-beer-or-soda-tired-marketing-did",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "카테고리 쇠퇴는 세대 탓이 아니라 진부한 마케팅 탓이라는 마크 릿슨의 주장이다.",
+        "what": "쇠퇴하는 제품 카테고리는 세대적 선호가 아니라 진부한 마케팅을 반영한다는 주장이다. 인디 영화와 신생 음료 브랜드가 보여주듯 신선하고 독창적인 콘텐츠·제품은 젊은 층에 실제로 통한다.",
+        "points": [
+          "쇠퇴 = 세대 아닌 마케팅 탓",
+          "신선·독창 콘텐츠는 통함",
+          "인디 영화·신생 음료 사례"
+        ],
+        "why": [
+          "'Z세대가 죽였다'는 통념을 마케팅 책임론으로 뒤집는다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-what-can-i-get-away-with",
+      "title": "'내가 어디까지 해도 될까?'",
+      "summary": "마케팅 관습은 검증보다 답습되는 경우가 많다. 정립된 관행을 의심하면 더 차별적이고 효과적인 작업이 가능하다는 글이다.",
+      "source": "Around the Bonfire",
+      "url": "https://newsletter.aroundthebonfire.com/p/what-can-i-get-away-with",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "검증 없이 답습된 마케팅 관습을 의심할 때 더 차별적인 작업이 나온다는 글이다.",
+        "what": "마케팅 관습은 검증되기보다 그대로 답습되는 경우가 많다. 정립된 관행에 질문을 던지면 더 차별적이고 효과적인 작업이 가능해진다고 주장한다.",
+        "points": [
+          "관습은 답습되는 경향",
+          "관행에 질문 던지기",
+          "차별화의 기회"
+        ],
+        "why": [
+          "관성적 마케팅 관행을 깨는 사고 전환을 권한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-olipop-creator-marketing",
+      "title": "올리팝 임원 '브랜드들이 크리에이터 마케팅을 오독한다'",
+      "summary": "효과적 크리에이터 파트너십은 단일 영상이 아닌 지속적 투자와 테스트를 요구한다. 제품-크리에이터 정합성과 반복 노출이 장기 연상을 만든다.",
+      "source": "NetInfluencer",
+      "url": "https://www.netinfluencer.com/olipop-steven-vigilante-says-brands-are-misreading-creator-marketing-one-video-is-not-a-test/",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "크리에이터 마케팅은 단일 영상이 아닌 지속 투자·반복 노출로 성과를 낸다는 주장이다.",
+        "what": "올리팝의 스티븐 비질란테가 효과적 크리에이터 파트너십에는 단일 영상이 아닌 지속적 투자와 테스트가 필요하다고 말한다. 제품-크리에이터 정합성과 반복 노출이 장기 브랜드 연상을 구축한다.",
+        "points": [
+          "단일 영상은 테스트 아님",
+          "지속 투자·반복 노출",
+          "제품-크리에이터 정합성"
+        ],
+        "why": [
+          "인플루언서 마케팅의 ROI를 단발이 아닌 장기 관점으로 재정의한다."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-winter-olympics-2030-logo",
+      "title": "2030 동계 올림픽 로고 리브랜드, '핀테크 같다' 평가",
+      "summary": "알프 2030 동계 올림픽 로고가 미니멀·기하학적 디자인으로 현대적 완성도는 호평받지만, 스포츠보다 핀테크 브랜딩에 가깝고 지역 특수성을 잃었다는 지적이다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/logos-icons/no-you-havent-accidentally-downloaded-a-banking-app-that-really-is-the-new-winter-olympics-2030-logo",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "Low",
+        "confidence": "70%",
+        "owner": "Brand",
+        "status": "Tracking",
+        "affectedSurface": "브랜드 아이덴티티"
+      },
+      "report": {
+        "tldr": "2030 동계 올림픽 로고가 현대적이지만 핀테크처럼 보이고 지역색을 잃었다는 평가다.",
+        "what": "알프 2030 동계 올림픽 로고가 미니멀·기하학적 디자인을 채택했다. 현대적 완성도는 호평받지만, 스포츠 아이덴티티보다 핀테크 브랜딩에 가깝고 범용성을 위해 지리적 특수성을 희생했다는 지적이 나온다.",
+        "points": [
+          "미니멀·기하학적 디자인",
+          "핀테크 브랜딩 같다는 비판",
+          "지역 특수성 희생"
+        ],
+        "why": [
+          "범용 시스템화 트렌드가 행사 고유의 정체성을 흐리는 사례다."
+        ]
+      }
+    },
+    {
+      "id": "design-macbook-pro-oled",
+      "title": "맥북 프로 OLED 리디자인, 예상된 칩은 건너뛸 수도",
+      "summary": "차기 맥북 프로가 노치 대신 더 작은 홀펀치 카메라의 OLED 디스플레이를 채택하고, M6가 아닌 M5 Pro/Max 칩을 탑재할 전망이다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/computing/apples-biggest-macbook-pro-redesign-in-years-may-skip-the-chip-everyone-expected/",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "차기 맥북 프로가 OLED·홀펀치로 리디자인되며 M5 Pro/Max를 탑재할 전망이다.",
+        "what": "애플의 차기 맥북 프로가 노치 대신 더 작은 홀펀치 카메라를 둔 OLED 디스플레이를 채택할 전망이다. 예상됐던 M6 세대 대신 M5 Pro/Max 칩이 들어간다.",
+        "points": [
+          "OLED 디스플레이 채택",
+          "노치 → 홀펀치",
+          "M5 Pro/Max 탑재 전망"
+        ],
+        "why": [
+          "수년 만의 최대 맥북 프로 디자인 변화가 예고된다."
+        ]
+      }
+    },
+    {
+      "id": "design-kobo-storygraph",
+      "title": "코보, StoryGraph 통합 정식 출시",
+      "summary": "코보의 StoryGraph 동기화 기능으로 독자가 플랫폼 간 독서 진행 상황을 자동 공유할 수 있게 됐다. '킨들의 굿리즈 같은 이점'을 제공한다.",
+      "source": "Android Authority",
+      "url": "https://www.androidauthority.com/kobo-storygraph-integration-live-3682595/",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "코보가 StoryGraph 동기화로 플랫폼 간 독서 진행 공유 기능을 정식 출시했다.",
+        "what": "코보의 StoryGraph 동기화 기능이 정식 출시됐다. 독자가 플랫폼 간 독서 진행 상황을 자동 공유할 수 있어 '킨들의 굿리즈 같은 이점'을 사회적 독서 기능으로 제공한다.",
+        "points": [
+          "StoryGraph 동기화",
+          "독서 진행 자동 공유",
+          "사회적 독서 강화"
+        ],
+        "why": [
+          "전자책 플랫폼이 소셜 독서 기능으로 차별화를 노린다."
+        ]
+      }
+    }
+  ]
+}

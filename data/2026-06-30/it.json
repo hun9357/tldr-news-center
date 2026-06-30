@@ -1,0 +1,230 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-datacenter-850b",
+      "title": "빅테크 AI 데이터센터 약정, 8,500억 달러 돌파",
+      "summary": "주요 클라우드·테크 기업들이 AI 인프라 수요 확대로 8,500억 달러 넘는 미래 데이터센터 임대 의무를 약정했다. 메타·MS가 특히 공격적이다.",
+      "source": "NY Post",
+      "url": "https://nypost.com/2026/06/24/business/big-tech-spending-on-data-centers-balloons-to-850b-with-meta-and-microsoft-investing-tens-of-billions/",
+      "originalDate": "2026-06-24",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 인프라 · 자본지출"
+      },
+      "report": {
+        "tldr": "빅테크의 미래 데이터센터 임대 약정이 8,500억 달러를 넘어섰다.",
+        "what": "주요 클라우드·테크 기업들이 AI 인프라 수요 증가에 따라 8,500억 달러가 넘는 미래 데이터센터 임대 의무를 약정했다. 메타와 마이크로소프트가 특히 공격적으로 수백억 달러를 투자하고 있다.",
+        "points": [
+          "임대 약정 8,500억 달러 돌파",
+          "메타·MS 공격적 투자",
+          "AI 인프라 수요 견인"
+        ],
+        "why": [
+          "AI 호황이 막대한 장기 임대 부채로 전환되며 자본지출 리스크를 키운다."
+        ]
+      }
+    },
+    {
+      "id": "it-asian-mythos-models",
+      "title": "아시아 AI 스타트업들, 'Mythos급' 모델 출시 — 앤트로픽 수출 금지 장기화",
+      "summary": "미국의 앤트로픽 고급 AI 수출 제한이 길어지자 중국·일본 스타트업이 그 공백을 메우는 경쟁 프런티어 모델을 내놓고 있다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "originalDate": "2026-06-27",
+      "intel": {
+        "impact": "High",
+        "confidence": "75%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "프런티어 모델 · 수출 통제"
+      },
+      "report": {
+        "tldr": "앤트로픽 수출 금지 장기화로 아시아 스타트업이 Mythos급 경쟁 모델을 쏟아낸다.",
+        "what": "미국의 앤트로픽 고급 AI 시스템 수출 제한이 길어지면서 생긴 공백을 중국·일본 스타트업이 경쟁 프런티어 모델로 메우고 있다.",
+        "points": [
+          "수출 통제 공백 공략",
+          "중·일 스타트업 주도",
+          "Mythos급 모델 경쟁"
+        ],
+        "why": [
+          "수출 통제가 오히려 비미국권 모델 생태계의 자생력을 키운다."
+        ]
+      }
+    },
+    {
+      "id": "it-okta-ai-agent-governance",
+      "title": "옥타, 규제 환경용 AI 에이전트 거버넌스 출시",
+      "summary": "옥타가 FedRAMP·HIPAA 환경을 위한 에이전트 거버넌스 도구를 내놨다. AI 에이전트를 신원으로 취급해 최소 권한·감사 로깅·격리를 적용한다.",
+      "source": "Okta Newsroom",
+      "url": "https://www.okta.com/newsroom/press-releases/okta-for-ai-agents-core-brings-lifecycle-governance-to-regulated-environments/",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "AI 에이전트 · 신원 거버넌스"
+      },
+      "report": {
+        "tldr": "옥타가 AI 에이전트를 신원으로 다뤄 최소 권한·감사를 적용하는 거버넌스 도구를 냈다.",
+        "what": "옥타가 FedRAMP·HIPAA 등 규제 환경을 위한 AI 에이전트 거버넌스 도구를 출시했다. 에이전트를 하나의 신원으로 취급해 최소 권한 접근, 감사 로깅, 격리(containment) 통제를 적용한다.",
+        "points": [
+          "에이전트를 신원으로 관리",
+          "최소 권한·감사 로깅",
+          "FedRAMP·HIPAA 대응"
+        ],
+        "why": [
+          "AI 에이전트의 무분별한 권한이 새 보안 리스크가 되며 IAM이 이를 흡수한다."
+        ]
+      }
+    },
+    {
+      "id": "it-enterprise-ai-budgets",
+      "title": "엔터프라이즈 AI 예산, 비용 우려에도 계속 성장",
+      "summary": "RBC 설문에서 기업 AI 지출이 가속 중이다. 기존 예산을 대체하기보다 새 지출로 다루며, OpenAI가 선호 제공자로 앞선다.",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/enterprise-ai-spending-grows-openai-leads-rbc-reveals-2026-6",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "기업 AI 지출이 비용 우려에도 가속되고 OpenAI가 선호 제공자로 앞선다.",
+        "what": "RBC 설문에 따르면 엔터프라이즈 AI 지출이 가속되고 있다. 기업들은 AI를 기존 예산 대체가 아닌 신규 지출로 다루며, OpenAI가 선호 제공자로 선두를 달린다.",
+        "points": [
+          "AI 지출 가속",
+          "기존 예산 대체 아닌 신규",
+          "OpenAI 선호 1위"
+        ],
+        "why": [
+          "AI가 IT 예산을 잠식이 아닌 순증으로 확장시키는 단계임을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "it-enterprise-ai-cost-control",
+      "title": "엔터프라이즈 AI가 비용 통제 방식의 재고를 강요한다",
+      "summary": "부서 전반의 AI 도입이 IT 거버넌스 역량을 앞지르면서, 토큰 소비가 아닌 비즈니스 성과에 연동된 비용 통제가 필요해졌다.",
+      "source": "TechRadar Pro",
+      "url": "https://www.techradar.com/pro/why-enterprise-ai-is-forcing-a-rethink-in-cost-control",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "부서 전반의 AI 도입 속도가 IT 거버넌스를 앞질러 성과 연동 비용 통제가 필요해졌다.",
+        "what": "부서 전반에 걸친 AI 도입이 IT 거버넌스 역량을 추월하고 있다. 단순 토큰 소비량이 아니라 비즈니스 성과에 연동된 비용 통제 체계가 요구된다.",
+        "points": [
+          "AI 도입이 거버넌스 추월",
+          "성과 연동 비용 통제",
+          "토큰 소비 ≠ 가치"
+        ],
+        "why": [
+          "AI 비용 관리가 단가가 아닌 ROI 중심으로 재편된다."
+        ]
+      }
+    },
+    {
+      "id": "it-ai-native-sales-motion",
+      "title": "AI 네이티브 기업들의 직접 엔터프라이즈 영업 스케일링",
+      "summary": "AI 기업들이 직접 영업과 고객 환경에 투입되는 필드 엔지니어를 결합해 복잡한 엔터프라이즈 통합과 성공적 구현을 관리한다.",
+      "source": "GTM Newsletter",
+      "url": "https://thegtmnewsletter.substack.com/p/ai-enterprise-sales-motion-direct-plg",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "AI 네이티브 기업이 직접 영업과 현장 엔지니어를 결합해 엔터프라이즈를 공략한다.",
+        "what": "AI 기업들이 직접 영업(direct sales)에 고객 환경으로 투입되는 필드 엔지니어를 결합한다. 복잡한 엔터프라이즈 통합을 관리하고 성공적 구현을 보장하려는 전략이다.",
+        "points": [
+          "직접 영업 + 필드 엔지니어",
+          "고객 환경 투입",
+          "복잡한 통합 관리"
+        ],
+        "why": [
+          "AI 제품의 도입 난도가 높아 GTM이 셀프서브에서 고터치로 회귀한다."
+        ]
+      }
+    },
+    {
+      "id": "it-email-security-proof",
+      "title": "경계에서 증명으로: 이메일 보안의 새 아키텍처",
+      "summary": "이메일 보안이 경계 필터링에서 감사 가능한 증거를 갖춘 신원 기반 접근으로 옮겨가야 한다는 주장이다.",
+      "source": "Software Analyst",
+      "url": "https://softwareanalyst.substack.com/p/from-perimeter-to-proof-the-new-architecture",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "이메일 보안이 경계 필터링에서 신원·증거 기반 접근으로 전환해야 한다는 주장이다.",
+        "what": "이메일 보안이 경계 필터링에서 감사 가능한 증거를 동반한 신원 기반 접근으로 이동해야 한다고 본다. 현대 협업 플랫폼 전반의 맥락적·다층 공격에 대응하기 위함이다.",
+        "points": [
+          "경계 필터링의 한계",
+          "신원 기반·증거 중심",
+          "다층 공격 대응"
+        ],
+        "why": [
+          "이메일이 여전히 침해의 주요 진입점인 가운데 방어 모델이 재설계된다."
+        ]
+      }
+    },
+    {
+      "id": "it-ec2-ami-watermarks",
+      "title": "AWS EC2, 이미지 거버넌스용 AMI 워터마크 추가",
+      "summary": "AWS가 복사·리전 간에도 유지되는 머신 이미지 워터마크를 도입해 승인된 프라이빗 이미지에 대한 거버넌스를 강제할 수 있게 했다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/ec2-image-watermarks-allowed-images",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "AWS가 복사·리전 간에도 남는 AMI 워터마크로 이미지 거버넌스를 강화했다.",
+        "what": "AWS가 EC2 머신 이미지(AMI) 워터마크를 도입했다. 복사와 리전 이동에도 워터마크가 유지돼 조직이 승인된 프라이빗 이미지에 대한 거버넌스를 강제할 수 있다.",
+        "points": [
+          "AMI 워터마크 도입",
+          "복사·리전 간 유지",
+          "이미지 거버넌스 강제"
+        ],
+        "why": [
+          "클라우드 이미지의 출처·승인 추적이 컴플라이언스 요건으로 부상한다."
+        ]
+      }
+    },
+    {
+      "id": "it-ai-coding-delivery",
+      "title": "AI 코딩 도구는 코드를 빠르게, 배포를 빠르게 하진 않는다",
+      "summary": "깃랩 조사에서 AI가 코드 생성은 가속하지만 리뷰·테스트·배포 워크플로에 병목을 만든다는 점이 드러났다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/06/xcode-27-agents-device-hub/",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "깃랩 조사: AI가 코드 생성은 가속하지만 리뷰·테스트·배포에 병목을 만든다.",
+        "what": "깃랩 연구에 따르면 AI는 코드 생성을 가속하지만 리뷰·테스트·배포 워크플로에 병목을 만든다. 팀은 이에 맞춰 후속 단계를 현대화해야 한다.",
+        "points": [
+          "코드 생성은 빨라짐",
+          "리뷰·테스트·배포 병목",
+          "워크플로 현대화 필요"
+        ],
+        "why": [
+          "AI의 생산성 이득이 배포 파이프라인 개선 없이는 가치로 이어지지 않는다."
+        ]
+      }
+    },
+    {
+      "id": "it-ablo-agent-collab",
+      "title": "Ablo — AI 에이전트를 위한 협업 계층",
+      "summary": "AI 에이전트와 사람이 공유 데이터에서 안전하게 작업하도록 클레임 기반 워크플로로 동시 수정 충돌을 막는 오픈소스 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/Abloatai/ablo",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "Ablo는 클레임 기반 워크플로로 에이전트·사람의 동시 수정 충돌을 막는 오픈소스 협업 계층이다.",
+        "what": "Ablo는 AI 에이전트와 사람이 공유 데이터에서 안전하게 협업하도록 돕는 오픈소스 도구다. 클레임(claim) 기반 워크플로로 동시 수정 충돌을 방지한다.",
+        "points": [
+          "에이전트-사람 협업 계층",
+          "클레임 기반 잠금",
+          "동시 수정 충돌 방지"
+        ],
+        "why": [
+          "다수 에이전트가 같은 데이터에 작업하는 시대의 동시성 문제를 다룬다."
+        ]
+      }
+    }
+  ]
+}

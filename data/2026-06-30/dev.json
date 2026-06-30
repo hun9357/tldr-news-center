@@ -1,0 +1,249 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-react-hooks-zustand",
+      "title": "리액트 훅이 확장에 한계일 때: 복잡한 상태를 Zustand로",
+      "summary": "여러 컴포넌트에 걸친 공유 상태 관리에서 리액트 훅이 부족해지는 지점을 짚고, 전용 상태 관리 도구로 Zustand를 추천한다.",
+      "source": "orizens.com",
+      "url": "https://orizens.com/blog/2026-06-18-zustand/?utm_source=tldrdev",
+      "originalDate": "2026-06-18",
+      "report": {
+        "tldr": "공유 상태가 커지면 리액트 훅이 한계에 이르며 Zustand가 대안이라는 글이다.",
+        "what": "여러 컴포넌트에 걸친 공유 상태를 관리할 때 리액트 훅이 부적절해지는 지점을 분석한다. 전용 상태 관리 라이브러리로 Zustand를 권한다.",
+        "points": [
+          "훅의 공유 상태 한계",
+          "Zustand로 전환",
+          "복잡한 상태 관리"
+        ],
+        "why": [
+          "상태 관리 도구 선택의 실무 기준을 제시한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-cuda-kernel",
+      "title": "CUDA 커널을 실행하면 무슨 일이 일어나는가",
+      "summary": "간단한 CUDA 프로그램의 컴파일·실행 과정을 CPU-GPU 상호작용, 메모리 관리, GPU 명령 실행까지 설명한다.",
+      "source": "fergusfinn.com",
+      "url": "https://fergusfinn.com/blog/what-happens-when-you-run-a-gpu-kernel/?utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "CUDA 프로그램의 컴파일부터 GPU 실행까지 전 과정을 해부한다.",
+        "what": "간단한 CUDA 프로그램이 컴파일·실행되는 과정을 설명한다. CPU-GPU 상호작용, 메모리 관리, GPU 명령 실행을 단계별로 다룬다.",
+        "points": [
+          "컴파일·실행 흐름",
+          "CPU-GPU 상호작용",
+          "메모리·명령 실행"
+        ],
+        "why": [
+          "GPU 프로그래밍의 내부 동작을 이해하는 데 도움을 준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-fokosdb",
+      "title": "FokosDB: Cloudflare Durable Objects 위의 강한 일관성 무한 스토리지 DB",
+      "summary": "Cloudflare Durable Objects를 활용한 실험적 DB로, 파티셔닝·분산 트랜잭션·캐싱으로 확장성을 노린다.",
+      "source": "lambrospetrou.com",
+      "url": "https://www.lambrospetrou.com/articles/fokosdb/?utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "FokosDB는 Cloudflare Durable Objects 위에 강한 일관성과 무한 스토리지를 올린 실험 DB다.",
+        "what": "Cloudflare Durable Objects를 기반으로 한 실험적 데이터베이스다. 파티셔닝, 분산 트랜잭션, 캐싱을 결합해 확장성을 추구한다.",
+        "points": [
+          "Durable Objects 기반",
+          "강한 일관성",
+          "파티셔닝·분산 트랜잭션"
+        ],
+        "why": [
+          "엣지 런타임 위에서 데이터베이스를 구축하는 새로운 접근을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-working-with-ai",
+      "title": "AI와 함께 일하기: 구체적 사례",
+      "summary": "실제 디버깅 시나리오로 AI의 이점과 한계를 함께 짚으며, 기술 부채를 막으려면 개발자 전문성이 필요하다고 강조한다.",
+      "source": "htmx.org",
+      "url": "https://htmx.org/essays/working-with-ai/?utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "실제 디버깅 사례로 AI의 이점과 한계, 개발자 전문성의 필요를 짚는다.",
+        "what": "실제 디버깅 시나리오를 통해 AI의 장점과 한계를 함께 검토한다. 기술 부채를 막기 위해 개발자의 전문성이 여전히 필수임을 강조한다.",
+        "points": [
+          "구체적 디버깅 사례",
+          "AI 이점과 한계 병기",
+          "개발자 전문성 필수"
+        ],
+        "why": [
+          "AI 보조 개발에서 인간 판단의 역할을 현실적으로 짚는다."
+        ]
+      }
+    },
+    {
+      "id": "dev-formal-verification",
+      "title": "당신은 형식 검증에 대해 아무것도 모른다",
+      "summary": "AI 도구가 증명 작성 비용을 낮춰 형식 검증을 대중화하고, 비즈니스 규칙에 수학적 확실성을 부여할 수 있게 한다는 글이다.",
+      "source": "ACM Queue",
+      "url": "https://queue.acm.org/detail.cfm?id=3819084&utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "AI가 증명 비용을 낮춰 형식 검증을 대중화한다는 ACM Queue 글이다.",
+        "what": "AI 도구가 증명 작성 비용을 줄여 형식 검증(formal verification)을 대중화하는 방식을 탐구한다. 비즈니스 규칙에 수학적 확실성을 부여할 수 있게 한다.",
+        "points": [
+          "AI가 증명 비용 절감",
+          "형식 검증 대중화",
+          "비즈니스 규칙에 수학적 확실성"
+        ],
+        "why": [
+          "전문가 영역이던 형식 검증이 일반 개발로 확산될 가능성을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-claude-code-spend",
+      "title": "클로드 코드 비용 이해하기: 실제로 무엇이 비용을 키우나",
+      "summary": "세션 시작 오버헤드와 누적된 설정이 클로드 코드 사용 비용의 주요 동인임을 짚는다.",
+      "source": "Comet",
+      "url": "https://www.comet.com/site/blog/claude-code-context-bloat/?utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "세션 시작 오버헤드와 누적 설정이 클로드 코드 비용을 키우는 핵심 동인이다.",
+        "what": "클로드 코드 사용 비용의 주요 동인을 분석한다. 세션 시작 시의 오버헤드와 누적된 설정·컨텍스트 비대화가 비용을 끌어올린다고 짚는다.",
+        "points": [
+          "세션 시작 오버헤드",
+          "컨텍스트 비대화",
+          "누적 설정의 비용"
+        ],
+        "why": [
+          "에이전트 코딩 도구의 비용 최적화 실무 포인트를 제공한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-data-quality-fundamentals",
+      "title": "데이터 품질에 관하여 — 기초",
+      "summary": "세분·집계·비즈니스 성과 관점을 통해 데이터 품질을 이해하는 계층형 프레임워크를 제시한다.",
+      "source": "pivotal.substack.com",
+      "url": "https://pivotal.substack.com/p/on-data-quality-1-basics?utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "세분·집계·비즈니스 성과의 계층으로 데이터 품질을 보는 프레임워크다.",
+        "what": "데이터 품질을 이해하기 위한 계층형 프레임워크를 제시한다. 세분(granular), 집계(aggregate), 비즈니스 성과 관점을 단계적으로 다룬다.",
+        "points": [
+          "계층형 품질 프레임워크",
+          "세분·집계·성과 관점",
+          "기초 정리"
+        ],
+        "why": [
+          "데이터 품질을 체계적으로 진단하는 출발점을 제공한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-free-the-icons",
+      "title": "아이콘을 해방하라",
+      "summary": "macOS의 획일적 스퀘어클 디자인 대신 앱 식별을 돕는 뚜렷한 아이콘 형태의 복원을 옹호한다.",
+      "source": "Rogue Amoeba",
+      "url": "https://weblog.rogueamoeba.com/2026/06/26/free-the-icons/?utm_source=tldrdev",
+      "originalDate": "2026-06-26",
+      "report": {
+        "tldr": "macOS의 획일적 스퀘어클 대신 식별성 높은 아이콘 형태를 되살리자는 글이다.",
+        "what": "macOS가 모든 아이콘을 균일한 스퀘어클(둥근 사각형)로 통일한 데 반대하며, 앱 식별성을 높이는 뚜렷한 아이콘 형태의 복원을 주장한다.",
+        "points": [
+          "획일적 스퀘어클 비판",
+          "뚜렷한 형태 복원 주장",
+          "앱 식별성 강조"
+        ],
+        "why": [
+          "디자인 일관성과 식별성 사이의 트레이드오프를 환기한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-qwen-36-local",
+      "title": "Qwen 3.6 27B, 로컬 개발의 스위트 스폿",
+      "summary": "Qwen 3.6 27B를 이전 세대를 능가하는 효율적 로컬 AI 모델로 평가하며 창의·실무 작업에 적합하다고 본다.",
+      "source": "quesma.com",
+      "url": "https://quesma.com/blog/qwen-36-is-awesome/?utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "Qwen 3.6 27B가 이전 세대를 능가하는 효율적 로컬 개발 모델로 평가됐다.",
+        "what": "Qwen 3.6 27B를 효율적인 로컬 AI 모델로 리뷰한다. 이전 세대 시스템을 능가하며 창의·실무 작업에 적합하다고 본다.",
+        "points": [
+          "27B 로컬 모델",
+          "이전 세대 능가",
+          "창의·실무에 적합"
+        ],
+        "why": [
+          "로컬 개발 환경의 현실적 모델 선택지를 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-personal-brand",
+      "title": "개인 브랜드를 쌓는 법에 관하여",
+      "summary": "테크 커뮤니티에서 효과적인 개인 브랜딩의 토대로 진정성과 진심 어린 도움을 강조한다.",
+      "source": "nextplayso.substack.com",
+      "url": "https://nextplayso.substack.com/p/on-building-your-personal-brand?utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "진정성과 진심 어린 도움이 효과적 개인 브랜딩의 토대라는 글이다.",
+        "what": "테크 커뮤니티에서 개인 브랜드를 쌓는 법을 다룬다. 진정성과 진심 어린 도움을 효과적 브랜딩의 기반으로 강조한다.",
+        "points": [
+          "진정성 강조",
+          "진심 어린 도움",
+          "커뮤니티 신뢰"
+        ],
+        "why": [
+          "엔지니어의 커리어·영향력 확장 관점에서 참고할 만하다."
+        ]
+      }
+    },
+    {
+      "id": "dev-rebuilding-computer-room",
+      "title": "컴퓨터 방 다시 짓기",
+      "summary": "휴대 기기가 컴퓨팅 접근성을 높였지만 지속적인 디지털 산만함을 들여왔다는 성찰이다.",
+      "source": "alexwlchan.net",
+      "url": "https://alexwlchan.net/2026/computer-room/?utm_source=tldrdev",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "휴대 기기가 접근성을 높였지만 디지털 산만함도 함께 들여왔다는 성찰이다.",
+        "what": "휴대 기기가 컴퓨팅 접근성을 향상시킨 한편 지속적인 디지털 산만함을 가져왔다는 점을 성찰한다.",
+        "points": [
+          "접근성 향상",
+          "디지털 산만함 증가",
+          "전용 공간의 의미"
+        ],
+        "why": [
+          "기술 편의성의 양면을 돌아보게 한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-hccf-self-domain",
+      "title": "디지털 자아 되찾기: 인간 중심 최상위 도메인 비전",
+      "summary": "인간 중심 컴퓨팅 재단(HCCF)이 자체 호스팅 서비스를 지원하는 .self 최상위 도메인을 제안한다.",
+      "source": "hccf.onmy.cloud",
+      "url": "https://hccf.onmy.cloud/2026/06/21/reclaiming-our-digital-selves-hccfs-vision-for-a-human-centered-top-level-domain/?utm_source=tldrdev",
+      "originalDate": "2026-06-21",
+      "report": {
+        "tldr": "HCCF가 자체 호스팅을 지원하는 .self 최상위 도메인을 제안한다.",
+        "what": "인간 중심 컴퓨팅 재단(HCCF)이 자체 호스팅 서비스를 지원하는 .self 최상위 도메인 제안을 설명한다.",
+        "points": [
+          ".self 최상위 도메인 제안",
+          "자체 호스팅 지원",
+          "디지털 자기주권"
+        ],
+        "why": [
+          "플랫폼 종속에서 벗어나려는 자기주권형 웹 움직임을 보여준다."
+        ]
+      }
+    }
+  ]
+}

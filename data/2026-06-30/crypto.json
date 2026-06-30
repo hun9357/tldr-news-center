@@ -1,0 +1,183 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-bitcoin-june-low",
+      "title": "비트코인, 6월 5만9,500달러 아래 마감 — 월간 19% 하락",
+      "summary": "비트코인이 6월을 5만9,500달러 아래에서 19% 하락 마감했다. 일부 기술 지표는 바닥 형성 가능성을, 7월 계절성은 회복 촉매를 시사한다.",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/markets/btc-price-rsi-prints-key-2026-signal-five-things-to-know-in-bitcoin-this-week",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Markets",
+        "status": "Tracking",
+        "affectedSurface": "BTC · 크립토 시장"
+      },
+      "report": {
+        "tldr": "비트코인이 6월을 5만9,500달러 아래, 월간 19% 하락으로 마감했다.",
+        "what": "비트코인이 6월을 5만9,500달러 아래에서 마감하며 월간 19% 하락했다. 다만 기술적 지표는 바닥 형성 가능성을 시사하고, 2022년 약세장 신호와 7월 계절성을 잠재 회복 촉매로 보는 분석이 나온다.",
+        "points": [
+          "월간 19% 하락",
+          "5만9,500달러 아래 마감",
+          "바닥 형성·7월 계절성 주목"
+        ],
+        "why": [
+          "약세 지속 속 기관·ETF 투자자 손실 폭이 시장 심리를 짓누른다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-franklin-templeton",
+      "title": "프랭클린 템플턴, 기관용 'Franklin Crypto' 출범",
+      "summary": "1조7,800억 달러 AUM 운용사가 규제 비히클을 통해 기관 디지털 자산 서비스를 제공하는 Franklin Crypto를 신설했다. 250 Digital 인수에 뒤이은 행보다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/franklin-templeton-closes-250-digital-launches-franklin-crypto",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "기관 디지털 자산"
+      },
+      "report": {
+        "tldr": "프랭클린 템플턴이 기관용 디지털 자산 사업부 Franklin Crypto를 출범했다.",
+        "what": "1조7,800억 달러 AUM의 프랭클린 템플턴이 신설 사업부 Franklin Crypto를 통해 규제 비히클 기반 기관 디지털 자산 서비스를 제공한다. 250 Digital 인수에 이은 행보다.",
+        "points": [
+          "기관용 디지털 자산 사업부",
+          "250 Digital 인수 이후",
+          "규제 비히클 기반"
+        ],
+        "why": [
+          "대형 전통 자산운용사의 크립토 진입이 기관 채택을 제도권으로 끌어들인다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-galaxy-clarity-act",
+      "title": "갤럭시, CLARITY 법안 통과 확률 50%로 하향",
+      "summary": "갤럭시 리서치가 2026년 CLARITY 법안 통과 전망을 60%에서 50%로 낮췄다. 상원 일정 부족과 단일 위원회 안 부재가 이유다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406497/galaxy-cuts-clarity-act-passage-odds-50",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "갤럭시가 CLARITY 법안 통과 확률을 60%에서 50%로 낮췄다.",
+        "what": "갤럭시 리서치가 2026년 CLARITY 법안 통과 전망을 60%에서 50대 50으로 하향했다. 제한된 상원 일정, 단일 위원회 텍스트 부재, SAVE 법안 대치 같은 경쟁 입법 우선순위를 이유로 들었다.",
+        "points": [
+          "통과 확률 60% → 50%",
+          "상원 일정 부족",
+          "단일 위원회 안 부재"
+        ],
+        "why": [
+          "크립토 시장 구조 입법 지연이 미국 규제 불확실성을 연장한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-loopring-sunset",
+      "title": "루프링, TVL 99% 폭락에 DEX 종료",
+      "summary": "루프링이 2021년 11월 정점 대비 TVL이 약 99% 줄자 탈중앙 거래소를 닫았다. 신형 zkEVM 롤업 대비 아키텍처 한계를 이유로 들었다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406492/loopring-sunsets-dex",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "루프링이 TVL 99% 폭락에 DEX를 종료했다.",
+        "what": "루프링이 2021년 11월 정점 대비 약 99% 감소한 TVL을 이유로 탈중앙 거래소를 종료했다. 신형 zkEVM 롤업 대비 아키텍처 한계를 원인으로 꼽았다.",
+        "points": [
+          "TVL 정점 대비 99% 감소",
+          "DEX 서비스 종료",
+          "zkEVM 롤업에 밀림"
+        ],
+        "why": [
+          "초기 zk롤업 프로젝트가 신세대 기술에 밀려나는 세대 교체를 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-strc-100",
+      "title": "STRC, 100달러에 거래될 근거 없다",
+      "summary": "스트래티지의 우선주가 만기나 실효적 바이백 메커니즘 없이 액면가 회복을 뒷받침할 구조적 장치가 부족하다는 분석이다.",
+      "source": "100y_eth (X)",
+      "url": "https://x.com/100y_eth/status/2071206028411347213",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "스트래티지 우선주 STRC가 액면 회복을 뒷받침할 구조가 없어 100달러 근거가 약하다는 분석이다.",
+        "what": "스트래티지의 우선주(STRC)가 만기일이나 실효적 바이백 메커니즘 없이 액면가(par) 회복을 지지할 구조적 장치가 부족하다는 분석이다.",
+        "points": [
+          "만기일 부재",
+          "실효적 바이백 부재",
+          "액면 회복 근거 약함"
+        ],
+        "why": [
+          "BTC 트레저리 기업의 자본구조 리스크를 환기한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-eth-memory-layer",
+      "title": "이더리움의 네 번째 프로토콜 계층: 메모리",
+      "summary": "트랜잭션 시퀀싱과 MEV 추출을 관장하는 메모리 계층을 더해 현재 롤업 설계의 검열 취약성을 다루자는 제안이다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/ethereums-fourth-protocol-layer-memory/25305",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "이더리움에 시퀀싱·MEV를 관장하는 '메모리 계층'을 더하자는 제안이다.",
+        "what": "연구진이 이더리움 아키텍처에 트랜잭션 시퀀싱과 MEV 추출을 관장하는 추가 '메모리 계층'을 도입하자고 제안했다. 현재 롤업 설계의 검열 취약성을 다루기 위함이다.",
+        "points": [
+          "메모리 계층 추가 제안",
+          "시퀀싱·MEV 관장",
+          "검열 저항성 강화"
+        ],
+        "why": [
+          "롤업 중심 로드맵의 검열·MEV 문제를 프로토콜 차원에서 풀려는 시도다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-vitalik-obfuscation",
+      "title": "비탈릭 부테린, 암호학의 '최종 보스' 난독화 (1부)",
+      "summary": "구별 불가능성 난독화를 가장 강력한 암호 프리미티브로 보고 구성 방식을 설명하되, 현 구현이 비현실적 연산 비용을 가진다고 인정한다.",
+      "source": "Vitalik Buterin",
+      "url": "https://vitalik.eth.limo/general/2026/06/29/obfuscation1.html",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "부테린이 구별 불가능성 난독화를 암호학의 최강 프리미티브로 다루는 1부 글을 냈다.",
+        "what": "비탈릭 부테린이 구별 불가능성 난독화(iO)를 가장 강력한 암호 프리미티브로 탐구한다. 그 구성 방식을 설명하면서도 현재 구현이 비현실적인 연산 오버헤드를 가진다고 인정한다.",
+        "points": [
+          "구별 불가능성 난독화 탐구",
+          "최강 암호 프리미티브",
+          "현 구현은 비현실적 비용"
+        ],
+        "why": [
+          "차세대 암호학의 가능성과 한계를 동시에 짚는 교육적 자료다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-price-of-forgery",
+      "title": "위조의 가격: 시빌 저항성을 달러로 측정하기",
+      "summary": "신원 검증 시스템의 시빌 저항성을 평가하는 객관적·시장 기반 지표로 'Price of Forgery'를 제안한다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/the-price-of-forgery-measuring-sybil-resistance-in-dollars-a-paper/25316",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "시빌 저항성을 달러로 측정하는 시장 기반 지표 'Price of Forgery'가 제안됐다.",
+        "what": "연구진이 신원 검증 시스템의 시빌 저항성을 평가할 객관적·시장 파생 지표로 'Price of Forgery(위조의 가격)'를 제안했다.",
+        "points": [
+          "시빌 저항성 정량화",
+          "시장 기반 달러 지표",
+          "신원 검증 평가"
+        ],
+        "why": [
+          "탈중앙 신원·증명 시스템의 보안을 비교 가능한 수치로 만든다."
+        ]
+      }
+    }
+  ]
+}

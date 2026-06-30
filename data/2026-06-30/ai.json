@@ -1,0 +1,211 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-sakana-fugu",
+      "title": "사카나 Fugu Ultra, 클로드 차단 틈 파고들며 93.2 LiveCodeBench 기록",
+      "summary": "사카나가 클로드를 벤치마크에서 앞서는 코딩 모델 Fugu Ultra를 출시했다. 가격은 100만 입력 토큰당 5달러부터로 경쟁력 있다.",
+      "source": "Implicator AI",
+      "url": "https://www.implicator.ai/sakana-fugu-launches-with-93-2-livecodebench-score-after-claude-ban/",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "High",
+        "confidence": "75%",
+        "owner": "Eng",
+        "status": "Tracking",
+        "affectedSurface": "코딩 모델 · 모델 조달"
+      },
+      "report": {
+        "tldr": "사카나가 클로드를 벤치마크에서 앞서는 저가 코딩 모델 Fugu Ultra를 내놨다.",
+        "what": "사카나가 코딩 모델 Fugu Ultra를 출시했다. LiveCodeBench 93.2를 기록하며 클로드를 벤치마크에서 앞섰고, 가격은 100만 입력 토큰당 5달러부터로 책정해 가격 경쟁력을 내세웠다.",
+        "points": [
+          "LiveCodeBench 93.2 기록",
+          "벤치마크에서 클로드 추월",
+          "100만 토큰당 5달러부터"
+        ],
+        "why": [
+          "앤트로픽 수출·차단 공백을 아시아 모델이 빠르게 메우고 있다.",
+          "코딩 모델의 가격·성능 경쟁이 격화된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-salesforce-claude-tag",
+      "title": "세일즈포스 직원들 '왜 슬랙에서 경쟁사를 홍보하나' 혼란",
+      "summary": "세일즈포스가 자사 AI와 경쟁하는 클로드 태그를 슬랙 안에서 홍보 중이다. 연 3억 달러 규모 앤트로픽 토큰 약정과 지분이 배경으로 꼽힌다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/salesforce-employees-anthropic-claude-tag-slack-tension",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "엔터프라이즈 AI · 파트너십"
+      },
+      "report": {
+        "tldr": "세일즈포스가 슬랙 안에서 경쟁 제품 클로드 태그를 홍보해 내부 혼선이 일었다.",
+        "what": "세일즈포스가 자사 AI 제품과 경쟁하는 클로드 태그(Claude Tag)를 슬랙 내부에서 홍보하면서 직원들이 의문을 제기했다. 연 3억 달러 규모의 앤트로픽 토큰 약정과 앤트로픽 지분 보유가 배경으로 지목된다.",
+        "points": [
+          "슬랙 내 클로드 태그 홍보",
+          "연 3억 달러 토큰 약정",
+          "앤트로픽 지분 보유"
+        ],
+        "why": [
+          "대규모 토큰 약정이 플랫폼의 제품 우선순위까지 좌우한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-deepseek-dspark",
+      "title": "딥시크, LLM 추론 최대 85% 가속 프레임워크 DSpark 오픈소스화",
+      "summary": "딥시크가 토큰 시퀀스를 추측적으로 예측하고 빠르게 검증하는 방식으로 추론 속도를 최대 85% 끌어올리는 DSpark를 공개했다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/deepseek-open-sources-dspark-a-new-framework-to-speed-up-llm-inference-by-up-to-85",
+      "originalDate": "2026-06-29",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Eng",
+        "status": "New",
+        "affectedSurface": "LLM 추론 · 서빙 스택"
+      },
+      "report": {
+        "tldr": "딥시크가 추론을 최대 85% 가속하는 오픈소스 프레임워크 DSpark를 공개했다.",
+        "what": "딥시크가 LLM 추론을 최대 85%까지 가속하는 오픈소스 프레임워크 DSpark를 출시했다. 토큰 시퀀스를 추측적으로(speculatively) 예측하고 모델이 이를 빠르게 검증하도록 해 처리량을 높인다.",
+        "points": [
+          "추론 최대 85% 가속",
+          "추측적 토큰 예측·검증",
+          "오픈소스 공개"
+        ],
+        "why": [
+          "추론 비용이 AI 경제의 병목인 가운데 서빙 효율 혁신이 경쟁력을 가른다."
+        ]
+      }
+    },
+    {
+      "id": "ai-devin-fusion",
+      "title": "코그니션, 다중 모델 라우팅으로 추론비 35~41% 절감하는 Devin Fusion 공개",
+      "summary": "프런티어 모델과 저비용 모델 사이를 동적으로 라우팅해 성능을 유지하면서 추론 비용을 35~41% 낮추는 시스템이다.",
+      "source": "Cognition",
+      "url": "https://cognition.com/blog/devin-fusion",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "코그니션이 동적 모델 라우팅으로 추론비를 35~41% 줄이는 Devin Fusion을 선보였다.",
+        "what": "코그니션이 다중 모델 시스템 Devin Fusion을 공개했다. 프런티어 모델과 비용 효율 모델 사이를 동적으로 라우팅해 성능을 유지하면서 추론 비용을 35~41% 절감한다.",
+        "points": [
+          "다중 모델 동적 라우팅",
+          "추론비 35~41% 절감",
+          "성능 유지"
+        ],
+        "why": [
+          "토큰 단가 상승 국면에서 라우팅 기반 비용 최적화가 핵심 무기가 된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-cursor-ios",
+      "title": "커서, iOS 앱 공개 베타 — 어디서나 코딩",
+      "summary": "커서가 클라우드·로컬 에이전트로 프로젝트를 원격 관리하는 iOS 앱을 공개 베타로 출시했다. 라이브 액티비티 업데이트와 PR 병합도 지원한다.",
+      "source": "Cursor",
+      "url": "https://cursor.com/blog/ios-mobile-app",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "커서가 원격 에이전트 코딩을 지원하는 iOS 앱을 공개 베타로 내놨다.",
+        "what": "커서가 iOS 앱을 공개 베타로 출시했다. 개발자가 클라우드 또는 로컬 에이전트로 프로젝트를 원격 관리할 수 있고, 라이브 액티비티 업데이트와 PR 병합 같은 기능을 제공한다.",
+        "points": [
+          "iOS 공개 베타",
+          "클라우드·로컬 에이전트 원격 관리",
+          "라이브 액티비티·PR 병합"
+        ],
+        "why": [
+          "에이전트 코딩이 데스크톱을 벗어나 모바일·비동기 워크플로로 확장된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-free-image",
+      "title": "제미나이 개인화 AI 이미지 생성, 미국 사용자에 무료 개방",
+      "summary": "구글이 Nano Banana 기반 개인화 이미지 생성을 미국에서 무료화했다. 데일리 브리프와 개인 AI 에이전트 '제미나이 스파크'도 예고했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/geminis-personalized-ai-image-generation-is-now-free-for-u-s-users/",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "구글이 Nano Banana 기반 개인화 이미지 생성을 미국 사용자에 무료로 풀었다.",
+        "what": "구글이 Nano Banana로 구동되는 개인화 이미지 생성 기능을 미국 사용자에게 무료로 제공한다. 곧 제미나이 앱에 데일리 브리프와 개인 AI 에이전트 '제미나이 스파크(Gemini Spark)'를 추가할 예정이다.",
+        "points": [
+          "개인화 이미지 생성 무료화",
+          "Nano Banana 기반",
+          "데일리 브리프·제미나이 스파크 예고"
+        ],
+        "why": [
+          "소비자 AI 기능을 무료화해 사용자 락인과 에이전트 확장을 노린다."
+        ]
+      }
+    },
+    {
+      "id": "ai-google-cloud-science",
+      "title": "구글 클라우드, 과학용 전문 AI 모델 판매 — SandboxAQ와 제휴",
+      "summary": "구글 클라우드가 SandboxAQ와 손잡고 신약 개발·소재 과학에 쓰이는 과학 데이터 학습 정량 AI 모델을 제공한다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/google-cloud-science-ai-models-sandboxaq",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "구글 클라우드가 SandboxAQ와 제휴해 과학 특화 AI 모델을 판매한다.",
+        "what": "구글 클라우드가 SandboxAQ와 제휴해 과학 데이터로 학습한 전문 정량 AI 모델을 제공한다. 신약 개발과 소재 과학 등 응용 분야를 겨냥한다.",
+        "points": [
+          "과학 특화 정량 모델",
+          "SandboxAQ 제휴",
+          "신약·소재 과학 응용"
+        ],
+        "why": [
+          "범용 LLM을 넘어 도메인 특화 과학 AI가 클라우드 상품으로 자리잡는다."
+        ]
+      }
+    },
+    {
+      "id": "ai-roadmapbench",
+      "title": "RoadmapBench, 버전 업그레이드 전반의 장기 에이전트 개발 평가",
+      "summary": "여러 파일·저장소에 걸쳐 수천 줄 수정을 요구하는 복잡한 코딩 과제로 AI 에이전트를 시험하는 벤치마크다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.15846",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "RoadmapBench가 다중 파일·저장소 장기 코딩 과제로 AI 에이전트를 평가한다.",
+        "what": "RoadmapBench는 여러 파일과 저장소에 걸친 복잡한 코딩 작업으로 AI 에이전트를 시험하는 벤치마크다. 과제들은 수천 줄에 걸친 수정을 요구한다.",
+        "points": [
+          "장기·다중 파일 과제",
+          "버전 업그레이드 시나리오",
+          "수천 줄 수정 요구"
+        ],
+        "why": [
+          "에이전트 코딩 평가가 단발 함수에서 실제 유지보수 규모로 확장된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-discoformer",
+      "title": "DiScoFormer, 밀도와 스코어를 하나의 트랜스포머로",
+      "summary": "밀도와 스코어를 동시에 추정하는 트랜스포머로, 고차원 공간의 생성 모델링에서 고전 기법을 크게 앞선다.",
+      "source": "Hugging Face/Allen AI",
+      "url": "https://huggingface.co/blog/allenai/discoformer",
+      "originalDate": "2026-06-29",
+      "report": {
+        "tldr": "DiScoFormer가 밀도·스코어를 동시 추정해 고차원 생성 모델링에서 고전 기법을 앞선다.",
+        "what": "DiScoFormer는 밀도(density)와 스코어(score)를 동시에 추정하는 트랜스포머 모델이다. 고차원 공간의 생성 모델링에서 고전적 방법을 크게 능가한다.",
+        "points": [
+          "밀도·스코어 동시 추정",
+          "단일 트랜스포머 구조",
+          "고차원 생성 모델링 우수"
+        ],
+        "why": [
+          "생성 모델의 통계적 기반을 단일 아키텍처로 통합하려는 연구 흐름이다."
+        ]
+      }
+    }
+  ]
+}
