@@ -1,0 +1,73 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-uk-framework",
+      "title": "英 FCA, 암호화폐 시장남용 규칙 등 포괄 규제안 확정",
+      "summary": "거래소·수탁·스테이블코인 발행사를 정식 인가 체제로 편입하고 시장남용을 금지한다. 신청은 9/30 개시, 시행은 2027/10/25.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406546/uk-sets-capital-market-abuse-rules-landmark-crypto-framework",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "crypto-open-usd",
+      "title": "Open Standard, 140여 개 기업 지지 속 'Open USD' 출시",
+      "summary": "발행·상환 수수료가 없고 준비금 수익을 파트너와 공유하며 파트너 이사회가 거버넌스를 맡는 스테이블코인. Visa·BlackRock·Google·Coinbase 등이 지지한다.",
+      "source": "Open Standard",
+      "url": "https://joinopenstandard.com/blog/introducing-open-usd/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "crypto-ethena-aladdin",
+      "title": "Ethena, BlackRock 'Aladdin'에 USDe 통합",
+      "summary": "20조 달러 이상 자산을 다루는 Aladdin 플랫폼에 USDe를 통합하고, BUIDL을 담보로 쓰는 화이트라벨 상품과 유동성 지원도 포함한다.",
+      "source": "Ethena (X)",
+      "url": "https://threadreaderapp.com/thread/2071579878282174586.html",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "crypto-bitmine-russell",
+      "title": "Bitmine, 이더 보유 570만 개로 확대… Russell 1000 편입",
+      "summary": "약 4,300만 달러어치 2.7만 ETH를 추가해 평균 단가 $1,569에 570만 개를 채웠다. 6/27 Russell 1000 편입으로 기관 유입을 기대한다.",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/bitmine-lifts-ethereum-holdings-to-57m-as-it-joins-russell-1000",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "crypto-central-banks-gold",
+      "title": "중앙은행들, 향후 10년 금 비중 확대·달러 축소 계획",
+      "summary": "지정학 리스크 상승에 순 30%의 중앙은행이 금 배분 확대를, 더 많은 곳이 달러 축소와 유로 확대를 계획한다.",
+      "source": "설문 (X)",
+      "url": "https://threadreaderapp.com/thread/2071909224666276251.html",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "crypto-eth-state-access",
+      "title": "이더리움 상태 접근 해부: 쓰기 슬롯 55%는 1회 후 방치",
+      "summary": "쓰기 저장 슬롯의 55%가 한 번 생성 후 버려지고, 상위 1% 계정이 읽기 접근의 96~98%를 차지해 상태 계층화 제안을 뒷받침한다.",
+      "source": "ethresear.ch",
+      "url": "https://ethresear.ch/t/the-anatomy-of-ethereum-s-state-access/25317",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "crypto-sharplink-eth",
+      "title": "SharpLink, 1만 ETH 매입·213만 주 자사주 재매입",
+      "summary": "평균 약 $1,611에 1만 ETH를 사들여 총 886,725 ETH를 보유하게 됐다. 7,500만 달러 규모 직접 공모에 뒤이은 조치다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406721/sharplink-buys-10000-eth-repurchases-2-13-million-shares-latest-buyback",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "crypto-pumpfun-buyback",
+      "title": "Pump.fun, PUMP 자사주 매입 4억 달러 넘겼지만 가격 정체",
+      "summary": "2025년 중반 이후 4억 달러 넘게 PUMP를 되샀으나 토큰은 사상 최고가 대비 약 83% 낮은 채 반응이 미미하다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/pump-fun-s-pump-buybacks-top-usd400m-as-token-stays-flat",
+      "originalDate": "2026-07-01"
+    }
+  ]
+}

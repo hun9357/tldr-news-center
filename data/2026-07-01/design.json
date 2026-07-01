@@ -1,0 +1,73 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-trump-passport",
+      "title": "트럼프의 새 美 여권 디자인, 기관 브랜딩을 개인 홍보처럼",
+      "summary": "본인 이미지와 서명을 넣은 한정판 '패트리엇 여권'으로, 생존한 전직 국가원수가 여권에 등장하는 유례없는 사례다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/graphic-design/trumps-new-us-passport-makes-institutional-design-look-like-a-personal-hustle",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "design-windows-screen-tint",
+      "title": "윈도우 11, 새 '스크린 틴트' 모드 시험",
+      "summary": "색온도 설정을 건드리지 않고 눈의 피로를 줄이는 맞춤형 색 오버레이 접근성 기능을 테스트 중이다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/computing/windows-11-is-getting-a-new-screen-tint-mode-and-your-eyes-might-thank-microsoft/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "design-iphone-18-leak",
+      "title": "아이폰 18 Pro 유출… 아이폰 4 이후 최대 규모",
+      "summary": "Tata Electronics발로 알려진 유출 이미지는 17 Pro와 거의 동일한 디자인에 색 매칭 개선과 새 딥레드 옵션 가능성을 보여준다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/product-design/the-iphone-18-pro-just-leaked-and-it-might-be-the-single-biggest-apple-leak-since-the-iphone-4",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "design-principles-in-motion",
+      "title": "Principles in Motion: 시간을 디자인 재료로",
+      "summary": "모션 디자이너들이 시간을 디자인 재료로 이해할 때 리듬·페이싱·물리 기반 전환으로 움직임이 의미 있는 커뮤니케이션이 된다고 설명한다.",
+      "source": "Figma",
+      "url": "https://www.figma.com/blog/principles-in-motion/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "design-maker-to-mender",
+      "title": "디자인 역할의 변화: '메이커'로 남는 법",
+      "summary": "아이디어에서 AI 다듬기로 옮겨가는 것을 우려하는 크리에이티브는 개인 프로젝트를 유지하고 AI를 대체가 아닌 탐색 도구로 쓰라는 제언.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/tips/design-roles-are-changing-so-how-do-you-stay-a-maker-when-your-job-becomes-a-mender/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "design-system-agent-author",
+      "title": "당신의 디자인 시스템, 새 저자는 '에이전트'",
+      "summary": "디자인 시스템 에이전트가 캔버스를 수정하고 토큰을 편집하며 문서를 작성함에 따라 버전 관리 API와 명확한 소유·검토 절차가 필요하다.",
+      "source": "murphytrueman",
+      "url": "https://blog.murphytrueman.com/your-design-systems-newest-author-is-an-agent/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "design-webster-brand",
+      "title": "01-20, 매직 리얼리즘으로 The Webster 브랜드 구축",
+      "summary": "매직 리얼리즘에서 출발해 각 자산의 건축·커뮤니티에 뿌리내린 감성적 호스피탈리티 경험을 만든 새 브랜드 아이덴티티.",
+      "source": "The Brand Identity",
+      "url": "https://the-brandidentity.com/project/01-20-designs-the-websters-brand-on-presence-wonder-and-connection",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "design-reading-disabilities",
+      "title": "읽기 장애가 있는 사용자를 위한 디자인",
+      "summary": "쉬운 언어, 왼쪽 정렬 텍스트, 뚜렷한 타이포그래피, 설명적 링크가 난독증 등 독자의 인지 부하를 줄인다.",
+      "source": "Tetralogical",
+      "url": "https://tetralogical.com/blog/2026/06/25/designing-for-reading-disabilities/",
+      "originalDate": "2026-06-25"
+    }
+  ]
+}

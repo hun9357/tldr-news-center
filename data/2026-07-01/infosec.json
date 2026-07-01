@@ -1,0 +1,112 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-chrome-v8-longinus",
+      "title": "크롬 V8 샌드박스, 단일 취약점으로 뚫려 (CVE-2026-6307)",
+      "summary": "V8 JIT 컴파일러의 치명적 결함으로 렌더러 샌드박스를 탈출해 크롬 106에서 원격 코드 실행이 가능하다.",
+      "source": "Lobsters",
+      "url": "https://lobste.rs/s/uaoe9y",
+      "originalDate": "2026-07-01",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "Chrome · 브라우저"
+      }
+    },
+    {
+      "id": "infosec-exploitarium",
+      "title": "익명 연구자, 미패치 취약점 익스플로잇 'Exploitarium' 공개",
+      "summary": "libssh2와 Gitea의 미패치 취약점 익스플로잇 코드를 벤더 통보 없이 공개했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/06/29/anonymous-researcher-drops-0-day-exploitarium-repo/5263961",
+      "originalDate": "2026-06-29"
+    },
+    {
+      "id": "infosec-loadmaster-rce",
+      "title": "Progress Kemp LoadMaster, 인증 전 RCE 취약점 (CVE-2026-8037)",
+      "summary": "LoadMaster API의 미초기화 힙 조건으로 미인증 공격자가 인증 전 원격 코드 실행을 할 수 있다.",
+      "source": "watchTowr Labs",
+      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "infosec-ai-agents-mcp",
+      "title": "MS: AI 에이전트가 '읽기'에서 '행동'으로 넘어갈 때의 위험",
+      "summary": "오염된 MCP 서버 메타데이터가 정상 권한을 유지한 채 기업 AI 에이전트를 속여 민감 데이터를 유출시킬 수 있다.",
+      "source": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "infosec-ai-browsers-attack",
+      "title": "새 공격, AI 브라우저가 나쁜 아이디어인 또 하나의 이유",
+      "summary": "감염된 웹사이트가 AI 브라우저를 조종해 안전 규칙을 무시하고 로컬 자격증명에 접근하게 만들 수 있음을 시연했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "infosec-salesforce-hunt",
+      "title": "위협 헌터 가이드: Salesforce 노리는 GRUB1/UNC6395 캠페인",
+      "summary": "OAuth·탈취 자격증명·취약한 인증요소를 악용해 Salesforce 데이터에 접근·유출하는 캠페인을 분석했다.",
+      "source": "Datadog Security Labs",
+      "url": "https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "infosec-aflac-japan",
+      "title": "Aflac Japan 데이터 유출… 438만 명 영향",
+      "summary": "6월 15~25일 사이 해커가 Aflac Japan 고객 포털에 접근해 수백만 명의 개인·보험 정보를 탈취했다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "infosec-india-gov-data",
+      "title": "인도 정부 시스템 취약점으로 개인정보 노출",
+      "summary": "교육·공무원 포털 전반의 취약점이 약한 접근 통제로 학생 기록과 은행 계좌 정보를 유출시켰다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "infosec-flock-plate-readers",
+      "title": "10만 대 넘는 AI 번호판 판독기, 오남용·감시 우려",
+      "summary": "Flock이 배치한 10만 대 이상 자동 판독기가 미흡한 안전장치 속에 대규모 추적을 가능케 한다.",
+      "source": "Techmeme",
+      "url": "https://www.techmeme.com/260629/p8#a260629p8",
+      "originalDate": "2026-06-29"
+    },
+    {
+      "id": "infosec-glm-benchmark",
+      "title": "Semgrep: GLM 5.2, 사이버보안 코딩 벤치마크서 클로드 앞서",
+      "summary": "Zhipu AI의 GLM 5.2가 더 낮은 비용으로 IDOR 탐지에서 클로드를 능가했으나 특화 프레임워크가 둘 다 앞섰다.",
+      "source": "Semgrep",
+      "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "infosec-web-security-10y",
+      "title": "상위 100만 사이트 분석: 웹 보안 10년, HTTPS 79%까지",
+      "summary": "HTTPS 채택은 79%로 급증했으나 설정 품질은 뒤처져 절반이 보안 헤더·DMARC에서 낮은 점수를 받았다.",
+      "source": "Scott Helme",
+      "url": "https://scotthelme.co.uk/top-1-million-analysis-june-2026-ten-years-of-web-security/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "infosec-venezuela-scams",
+      "title": "사기범들, 베네수엘라 지진 재난 악용 경쟁",
+      "summary": "닷새 만에 지진 테마 도메인 212개가 등록돼 기회주의적 사기 정황이 드러났다.",
+      "source": "Bitdefender",
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/scammers-cash-in-venezuela-earthquake",
+      "originalDate": "2026-07-01"
+    }
+  ]
+}

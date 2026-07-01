@@ -1,0 +1,57 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-fable-ban-lifted",
+      "title": "연방정부, Anthropic AI 모델 수출통제 해제… Fable 복귀",
+      "summary": "美 상무부가 2주 중단 끝에 Fable 5·Mythos 5 수출 제한을 풀었다. Anthropic은 안전 프로토콜·표준 협력에 합의했다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/anthropic-fable-ban-lifted/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "it-aws-fde-org",
+      "title": "AWS, 10억 달러 포워드 배치 엔지니어링 조직 출범",
+      "summary": "고객 팀에 엔지니어를 상주시켜 프로덕션 에이전트 출시를 돕는 AI 조직을 신설, OpenAI·Anthropic 행보를 따랐다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "it-mai-code-flash",
+      "title": "MS, GitHub Copilot에 'MAI-Code-1-Flash' 정식 출시",
+      "summary": "저지연 코드 생성과 에이전트 워크플로에 방점을 둔 자체 코딩 모델을 Copilot 구독자에게 일반 공개했다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/microsoft-launches-mai-code-1-flash-on-github-copilot/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "it-bigquery-conversational",
+      "title": "구글 클라우드, BigQuery 대화형 분석 정식 출시(GA)",
+      "summary": "자연어로 데이터를 질의하고 리포트를 생성하는 기능을 GA로 전환했다. Gemini와 BigQuery 거버넌스를 활용한다.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-bigquery-now-ga/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "it-teams-bot-bouncer",
+      "title": "MS, Teams 회의서 봇 차단하는 '바운서' 도입",
+      "summary": "봇을 로비에 대기시켜 사람 검증을 거치게 하는 검증 시스템을 도입하고, 알려진 봇용 ISV 등록 경로도 계획 중이다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/software/2026/06/30/microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings/5264199",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "it-privacyhawk-enterprise",
+      "title": "PrivacyHawk Enterprise, 섀도 IT·제3자 리스크 최소화 GA",
+      "summary": "섀도 IT 계정과 방치된 SaaS 구독을 식별하는 기업용 솔루션을 일반 공개해 간과되던 제3자 서비스 위험을 다룬다.",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/06/29/privacyhawk-enterprise/",
+      "originalDate": "2026-06-29"
+    }
+  ]
+}

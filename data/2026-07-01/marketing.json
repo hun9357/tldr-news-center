@@ -1,0 +1,65 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-everything-works",
+      "title": "마케팅은 여전히 통한다, 다만 더 이상 차별화가 안 될 뿐",
+      "summary": "AI가 마케팅 실행을 상품화하면서 경쟁 우위는 물량·모범사례가 아닌 장인정신·취향·채널 전문성에서 나온다. 가장 효과적인 일일수록 대시보드로 측정하기 어렵다.",
+      "source": "The State of Brand",
+      "url": "https://www.thestateofbrand.com/news/everything-in-marketing-still-works-with-no-differentiation",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "mkt-retail-media-vibe",
+      "title": "리테일 미디어의 '분위기 전환' 해부",
+      "summary": "아마존·월마트가 리테일 미디어 시장의 85%를 장악했고, 월마트의 14억 달러 Vibe 인수로 집중이 심화됐다. 소규모 네트워크는 데이터 협동조합이나 매각 외엔 생존이 어렵다.",
+      "source": "Mike Shields",
+      "url": "https://mikeshields.substack.com/p/breaking-down-retail-medias-vibe",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "mkt-buyers-ask-ai",
+      "title": "구매자가 AI에 무엇을 묻는지 찾아라",
+      "summary": "AI Overview 클릭 추적 대신, 고객이 실제로 AI에 던지는 질문을 파악하라. 템플릿 프롬프트로 반복되는 질문을 캠페인·오퍼 전략에 반영한다.",
+      "source": "LinkedIn (Schwedelson)",
+      "url": "https://www.linkedin.com/posts/schwedelson_whats-up-this-week-one-ai-prompt-could-ugcPost-7477703921679937536-uamr/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "mkt-proprietary-data-citation",
+      "title": "독점 데이터가 가장 방어력 있는 AI 인용 자산인 이유",
+      "summary": "고유 데이터 15개 이상을 담은 페이지가 더 강한 AI 인용을 얻는다. ChatGPT 인용의 44.2%가 앞부분에서 나오므로 핵심 발견을 콘텐츠 상위 30%에 배치하라.",
+      "source": "Growth Memo",
+      "url": "https://www.growth-memo.com/p/why-proprietary-data-is-your-most",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "mkt-ai-mentions-citations",
+      "title": "AI는 당신의 브랜드를 어떻게 언급·인용하는가",
+      "summary": "AI 브랜드 언급의 23.1%만 브랜드 도메인을 인용한다. 단일 브랜드 질의는 39% 인용률이지만 개방형 질의는 7.2%로 떨어져 SEO·PR 공백을 드러낸다.",
+      "source": "BuzzStream",
+      "url": "https://www.buzzstream.com/blog/ai-mentions-vs-citations-study/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "mkt-bad-data",
+      "title": "나쁜 데이터는 나쁜 결정을 부른다",
+      "summary": "단일 어트리뷰션 모델은 모든 매출원을 포착하지 못해 잘못된 결정을 낳는다. 증분성 연구·MMM·플랫폼 데이터를 비교하고 하나를 절대시하지 말라.",
+      "source": "Brainlabs",
+      "url": "https://www.brainlabsdigital.com/bad-data-means-bad-decisions/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "mkt-em-dash",
+      "title": "그 잘난 엠대시(—), 대체 왜 신경 쓰나",
+      "summary": "AI 의심을 피하려 표준 문장부호를 기피하며 잘못된 자기검열을 만든다. 부호 금지가 아니라 뚜렷한 글쓰기 기준을 세우는 것이 답이다.",
+      "source": "Ann Handley",
+      "url": "https://annhandley.com/why-care-about-the-stupid-em-dash-anyway/",
+      "originalDate": "2026-07-01"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-reddit-antispam",
+      "title": "레딧 안티스팸 내부 들여다보기",
+      "summary": "내부 결함으로 드러난 레딧의 스팸 탐지 메커니즘을 Spamurai, Perspective API 등 알고리즘까지 심층 분석했다.",
+      "source": "lyra.horse",
+      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-production-ai-agents",
+      "title": "프로덕션급 AI 에이전트의 진짜 관건: 모델보다 데이터·API 품질",
+      "summary": "프로덕션 AI 에이전트는 모델 한계보다 인터페이스 문제로 실패한다. 데이터 품질·API 설계·실행 신뢰성이 성공을 좌우한다.",
+      "source": "Postman",
+      "url": "https://blog.postman.com/how-we-really-build-production-grade-ai-agents-beyond-models-toward-data-and-api-quality/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-linkedin-qa-agent",
+      "title": "링크드인, 비전-언어 모델 기반 자율 QA 에이전트 공개",
+      "summary": "다양한 UI 조합에서 앱을 테스트하는 자율 QA 에이전트를 빠른/느린 추론 하이브리드 구조로 구축했다.",
+      "source": "LinkedIn Engineering",
+      "url": "https://www.linkedin.com/blog/engineering/ai/qa-agent-reimagining-software-quality-with-ai-driven-autonomous-testing",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-github-stacked-prs",
+      "title": "깃허브, 스택형 PR 기능 도입",
+      "summary": "큰 변경을 순차적 풀 리퀘스트로 쪼개고 UI·CLI로 관리하는 기능을 선보였다.",
+      "source": "GitHub",
+      "url": "https://github.github.com/gh-stack/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-expo-57",
+      "title": "Expo SDK 57 출시… React Native 0.86 반영",
+      "summary": "React Native 0.86 업그레이드를 담은 비파괴적 변경 위주 릴리스로, 향후 업데이트 주기를 단순화했다.",
+      "source": "Expo",
+      "url": "https://expo.dev/changelog/sdk-57",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-apple-webkit-ai",
+      "title": "애플, AI 도구 도움으로 iOS·macOS WebKit 결함 패치",
+      "summary": "익스플로잇 개발을 앞지르기 위해 AI 도구로 속도를 낸 네 건의 WebKit 취약점 보안 업데이트를 배포했다.",
+      "source": "Security Affairs",
+      "url": "https://securityaffairs.com/194476/security/apple-fixes-webkit-flaws-in-ios-and-macos-with-help-from-ai-tools.html",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-webernetes",
+      "title": "쿠버네티스를 브라우저에 이식하다: Webernetes",
+      "summary": "파드 라이프사이클과 네트워킹을 시뮬레이션하며 브라우저에서 클러스터를 돌리는 TypeScript 구현체.",
+      "source": "ngrok",
+      "url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-ai-busier",
+      "title": "AI가 팀을 더 낫게 만드나, 그저 더 바쁘게 만드나",
+      "summary": "AI 도입이 새 역량 없이 도구 사용만 늘리는 경우가 많다. 효과 측정은 이전엔 불가능했던 성과에 초점을 둬야 한다.",
+      "source": "Ably",
+      "url": "https://ably.com/blog/measure-ai-effectiveness-teams",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-worse-is-better",
+      "title": "'열등한 것이 낫다(Worse is better)'",
+      "summary": "기술적으로 우월한 대안보다 열등한 기술이 승리하곤 한다. '완벽'이 실용적 채택을 가로막기 때문이다.",
+      "source": "ploeh blog",
+      "url": "https://blog.ploeh.dk/2026/06/29/worse-is-better/",
+      "originalDate": "2026-06-29"
+    }
+  ]
+}

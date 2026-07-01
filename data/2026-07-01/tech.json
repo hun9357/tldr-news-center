@@ -1,0 +1,73 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-claude-sonnet-5",
+      "title": "Anthropic, 저가형 '클로드 소넷 5' 출시로 엔터프라이즈 공략",
+      "summary": "최상위 모델 대비 대폭 할인된 가격에 근접 성능을 제공하며 IPO 레이스를 가속한다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "tech-aws-fde-1b",
+      "title": "AWS, 10억 달러 규모 '포워드 배치 엔지니어링' 조직 신설",
+      "summary": "고객사에 엔지니어를 상주시켜 프로덕션 AI 에이전트 구축을 돕는 조직을 출범, OpenAI·Anthropic의 흐름에 합류했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/30/aws-amazon-ai-forward-deployed-engineers.html",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "tech-tesla-cybercab",
+      "title": "테슬라, 핸들·페달 없는 '사이버캡' 오스틴서 시험 주행",
+      "summary": "3만 달러 미만 소매가와 연 200만 대 생산을 장기 목표로 삼는 자율주행 사이버캡을 시험 중이다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/tesla-cybercab-no-steering-wheel-pedals-austin-testing",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "tech-realta-fusion",
+      "title": "Realta Fusion, 핵융합 반응서 전기 직접 생성 '세계 첫 사례'",
+      "summary": "핵융합 스타트업이 실증로에서 직접 수확한 전기로 전구를 밝혔다. 추정 효율은 90%다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "tech-conception-eggs",
+      "title": "Conception, 줄기세포로 초기 인간 난자 세포 첫 생성",
+      "summary": "줄기세포에서 초기 인간 난자 세포를 만들어, IVF용 외과적 채취로 나아가는 진전을 이뤘다.",
+      "source": "Conception",
+      "url": "https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "tech-google-tenor",
+      "title": "구글, Tenor GIF API 종료… X·디스코드 등 변경 불가피",
+      "summary": "구글이 Tenor GIF API를 중단하면서 여러 플랫폼이 Klipy 등 대체 서비스로 이전하게 됐다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "tech-meta-kalshi",
+      "title": "메타, 자체 예측시장 앱 개발 전 Kalshi 인수 검토",
+      "summary": "저커버그가 Kalshi CEO와 인수를 논의했으나 예측시장의 합법성·윤리 우려로 협상이 교착됐다.",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5875468/meta-kalshi-prediction-market-acquisition-talks",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "tech-anthropic-fable-deal",
+      "title": "Anthropic, 트럼프 행정부와 합의해 Fable 모델 접근 복구",
+      "summary": "보안 우회 문제를 해결하고 정부 시험 조직과 협력해 Fable 모델 접근을 되살리기로 했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/anthropic-nears-deal-with-trump-administration-to-restore-access-to-fable-ai-model-6f4177f3",
+      "originalDate": "2026-07-01"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-claude-sonnet-5",
+      "title": "Anthropic, 저가 공세 '클로드 소넷 5' 출시… IPO 레이스 가속",
+      "summary": "Opus 4.8에 근접한 에이전트 성능을 중간 가격대에 제공하는 소넷 5를 공개했다. 비용에 민감한 엔터프라이즈 개발자를 겨냥하며 블록버스터 IPO를 준비 중이다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo",
+      "originalDate": "2026-07-01",
+      "intel": {
+        "impact": "High",
+        "confidence": "90%",
+        "owner": "Strategy / Eng",
+        "status": "Tracking",
+        "affectedSurface": "AI 모델·API 시장"
+      },
+      "related": [
+        "Opus 4.8 대비 벤치마크·비용 비교",
+        "Anthropic IPO 준비 상황",
+        "엔터프라이즈 에이전트 도입 비용 재산정"
+      ],
+      "report": {
+        "tldr": "플래그십에 근접한 성능을 대폭 낮은 가격에 풀어 엔터프라이즈 에이전트 시장을 정조준했다.",
+        "what": "Anthropic이 Opus 4.8에 근접한 에이전트 능력을 갖춘 소넷 5를 최상위 모델 대비 큰 폭 할인가로 출시했다.",
+        "points": [
+          "자율 코딩·브라우징 등 에이전트 작업 성능 강화",
+          "최상위 모델 대비 큰 폭의 가격 인하",
+          "IPO를 앞둔 매출·점유율 확대 포석"
+        ],
+        "why": [
+          "가격 대비 성능이 좋아지며 벤더 선택·비용 구조가 재편될 수 있다",
+          "OpenAI·Google과의 중간가격대 경쟁이 격화된다"
+        ],
+        "context": "같은 날 Anthropic은 Claude Science 워크벤치 공개, 신약 발굴 프로그램, Fable·Mythos 수출통제 해제 등 뉴스를 쏟아냈다.",
+        "action": "현재 사용 중인 AI 모델·API 비용을 소넷 5 기준으로 재평가할 것."
+      }
+    },
+    {
+      "id": "ai-claude-science",
+      "title": "Anthropic, 과학자용 AI 워크벤치 '클로드 사이언스' 베타 공개",
+      "summary": "Pro/Max/Team/Enterprise 사용자를 위한 macOS·Linux 워크벤치로, 3D 단백질 구조와 화합물을 네이티브로 렌더링하고 과학 도구를 통합했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "originalDate": "2026-07-01",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "85%",
+        "owner": "R&D",
+        "status": "New",
+        "affectedSurface": "생명과학·연구 워크플로"
+      }
+    },
+    {
+      "id": "ai-fable-mythos-export",
+      "title": "美 상무부, 클로드 Fable 5·Mythos 5 수출통제 해제",
+      "summary": "상무부가 Anthropic 두 모델에 대한 수출 제한을 철회했고, 접근 복구는 다음 날부터 시작된다. 2주간의 중단 끝에 안전 협력 조건으로 풀렸다.",
+      "source": "AnthropicAI (X)",
+      "url": "https://x.com/AnthropicAI/status/2072106151890809341",
+      "originalDate": "2026-07-01",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Policy / Legal",
+        "status": "Tracking",
+        "affectedSurface": "모델 수출·규제"
+      }
+    },
+    {
+      "id": "ai-nano-banana-2-lite",
+      "title": "구글, 'Nano Banana 2 Lite'와 Gemini Omni Flash 공개",
+      "summary": "구글이 가장 빠르고 비용 효율적인 Gemini 이미지 모델이라는 Nano Banana 2 Lite와 영상 작업용 Gemini Omni Flash를 함께 선보였다.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "ai-meituan-longcat",
+      "title": "메이투안, 1.6조 파라미터 MoE 모델 'LongCat-2.0' 출시",
+      "summary": "다단계 워크플로와 장문맥 작업에 최적화한 1.6조 파라미터 Mixture-of-Experts 모델을 API로 공개했다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/meituan-launches-longcat-2-0-1-6t-parameter-model-on-apis/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "ai-genebench-pro",
+      "title": "OpenAI, 계산생물학 에이전트 벤치마크 'GeneBench-Pro' 공개",
+      "summary": "반복적 추론이 필요한 연구 수준의 계산생물학 과제에서 에이전트 성능을 평가하는 벤치마크를 내놨다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-genebench-pro/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "ai-etched-5b",
+      "title": "엔비디아 도전자 Etched, 50억 달러 가치 평가… 수주 10억 달러",
+      "summary": "AI 칩 스타트업 Etched가 10억 달러 규모의 시스템 계약을 확보하며 50억 달러 기업가치에 도달했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "ai-openai-guest-cost",
+      "title": "OpenAI, 게스트 ChatGPT 응답 비용 절반 이상 절감",
+      "summary": "게스트 사용자 대상 운영 비용을 50% 넘게 줄였다고 보도됐으나, 제한된 기능 접근으로 성능 평가는 어렵다.",
+      "source": "The Decoder",
+      "url": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "ai-base44-model",
+      "title": "바이브코딩 플랫폼 Base44, 자체 모델 출시",
+      "summary": "AI 스타트업들이 차별화를 좇는 가운데 Base44가 방어력 확보를 위해 독자 모델을 공개했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
+      "originalDate": "2026-06-29"
+    },
+    {
+      "id": "ai-anthropic-drug-discovery",
+      "title": "Anthropic, AI 신약 발굴 프로그램 시작",
+      "summary": "소외 질환을 겨냥해 제약사를 위한 AI 도구를 개발하는 내부 이니셔티브를 클로드 사이언스와 함께 출범했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/30/anthropic-launches-ai-drug-discovery-program-claude-science.html",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "ai-gpu-bubble",
+      "title": "'GPU 버블 터뜨리기'… 토큰 생성 유휴시간 줄이는 파이프라인 디코딩",
+      "summary": "토큰 생성 과정에서 GPU 유휴 시간을 줄이기 위한 파이프라인 디코딩 기법을 심층 분석했다.",
+      "source": "Moondream",
+      "url": "https://moondream.ai/blog/popping-the-gpu-bubble",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "ai-specialization-inevitable",
+      "title": "전문화는 불가피하다… 도메인 특화 모델이 범용을 앞선다",
+      "summary": "자원 제약과 효율성의 수학 때문에 도메인 특화 AI 모델이 범용 대안을 꾸준히 능가한다는 주장.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "originalDate": "2026-07-01"
+    }
+  ]
+}

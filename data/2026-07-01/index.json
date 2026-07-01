@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-01",
+  "weekday": "수",
+  "headline": "Anthropic, 저가형 '클로드 소넷 5'로 엔터프라이즈 AI 정조준",
+  "subtitle": "美, 클로드 Fable·Mythos 수출통제 해제 · AWS 10억 달러 FDE 조직 · 크롬 V8 샌드박스 RCE",
+  "keyword": "Claude Sonnet 5 · Anthropic · AI 에이전트 · 수출통제",
+  "bigStoryId": "ai-claude-sonnet-5",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:04 CDT",
+  "syncedAt": "09:04",
+  "subscribers": 128842,
+  "market": {
+    "index": "S&P 500",
+    "value": "7,449.36",
+    "change": "▲ 0.79%"
+  },
+  "stats": {
+    "companies": 16,
+    "security": 12,
+    "deals": 5,
+    "policy": 4
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "Anthropic 저가 모델 공세 + 배치형 조직 확산",
+      "body": "소넷 5가 플래그십 근접 성능을 대폭 낮은 가격에 풀며 엔터프라이즈 에이전트 시장을 겨냥했다. AWS도 10억 달러 규모 포워드 배치 엔지니어링 조직을 신설해 벤더 간 '상주 엔지니어' 경쟁이 격화됐다.",
+      "severity": "8.4",
+      "velocity": "Rising",
+      "action": "AI 모델·비용 전략 재점검"
+    },
+    {
+      "kind": "market",
+      "title": "S&P 500 사상 최고 마감, 2020년래 최고 분기",
+      "body": "6월 30일 S&P 500이 7,449.36으로 약 0.79% 올라 기록적으로 마감하며 2020년 이후 최고의 분기를 완성했다. 기술주 강세와 인플레 위험 완화가 뒷받침했다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "크롬 V8 샌드박스 RCE(CVE-2026-6307) 패치 배포, MCP 서버 메타데이터 오염을 통한 AI 에이전트 데이터 유출, Fable·Mythos 접근 복구 진행, 英 FCA 암호화폐 규제 시행 일정."
+    }
+  ]
+}
