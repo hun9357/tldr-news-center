@@ -6,52 +6,224 @@
   "bg": "#26203a",
   "items": [
     {
-      "id": "it-fable-ban-lifted",
-      "title": "연방정부, Anthropic AI 모델 수출통제 해제… Fable 복귀",
-      "summary": "美 상무부가 2주 중단 끝에 Fable 5·Mythos 5 수출 제한을 풀었다. Anthropic은 안전 프로토콜·표준 협력에 합의했다.",
+      "id": "it-fable-coming-back",
+      "title": "Fable 복귀 — 연방정부, 앤트로픽 모델 수출통제 해제",
+      "summary": "2주 정지 후 Fable 5·Mythos 5 통제 해제, 안전 프로토콜 협력.",
       "source": "The New Stack",
       "url": "https://thenewstack.io/anthropic-fable-ban-lifted/",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "미 상무부가 Fable 5·Mythos 5 수출통제를 해제하며 Fable이 돌아온다.",
+        "what": "미 상무부가 앤트로픽의 Fable 5·Mythos 5 수출통제를 해제해 2주 정지 후 Fable 복귀 길이 열렸다. 앤트로픽은 Mythos·Fable 및 향후 모델의 안전 프로토콜·표준을 미 정부와 협력하기로 합의했다.",
+        "points": [
+          "2주 정지 후 통제 해제",
+          "안전 프로토콜 정부 협력",
+          "Fable 복귀"
+        ],
+        "why": [
+          "기업의 AI 모델 공급 안정성과 규제 관계가 직결된다."
+        ]
+      }
     },
     {
-      "id": "it-aws-fde-org",
-      "title": "AWS, 10억 달러 포워드 배치 엔지니어링 조직 출범",
-      "summary": "고객 팀에 엔지니어를 상주시켜 프로덕션 에이전트 출시를 돕는 AI 조직을 신설, OpenAI·Anthropic 행보를 따랐다.",
+      "id": "it-aws-1b-fde",
+      "title": "AWS, 10억 달러 Forward-Deployed 엔지니어링 조직 출범",
+      "summary": "고객팀에 상주해 프로덕션 에이전트 구축 지원.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/06/30/amazon-launches-new-1-billion-fde-org-following-openai-and-anthropic/",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AWS가 고객팀에 상주해 프로덕션 에이전트 구축을 돕는 FDE 조직을 세웠다.",
+        "what": "AWS가 고객팀에 상주해 프로덕션 에이전트 출시를 돕는 새 AI 중심 Forward-Deployed 엔지니어링 그룹을 출범했다. 이는 OpenAI·앤트로픽의 유사한 기업 AI 배포 움직임을 뒤따른 것이다.",
+        "points": [
+          "FDE 조직 출범",
+          "고객팀 상주로 에이전트 구축",
+          "OpenAI·앤트로픽 뒤따름"
+        ],
+        "why": [
+          "클라우드 경쟁이 배포·통합 지원 중심으로 이동한다."
+        ]
+      }
     },
     {
-      "id": "it-mai-code-flash",
-      "title": "MS, GitHub Copilot에 'MAI-Code-1-Flash' 정식 출시",
-      "summary": "저지연 코드 생성과 에이전트 워크플로에 방점을 둔 자체 코딩 모델을 Copilot 구독자에게 일반 공개했다.",
+      "id": "it-mai-code-1-flash",
+      "title": "MS, GitHub Copilot에 MAI-Code-1-Flash 출시",
+      "summary": "저지연 코드 생성용 자체 모델, Copilot Business·Enterprise GA.",
       "source": "TestingCatalog",
       "url": "https://www.testingcatalog.com/microsoft-launches-mai-code-1-flash-on-github-copilot/",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "마이크로소프트가 저지연 코딩 모델 MAI-Code-1-Flash를 Copilot에 GA로 출시했다.",
+        "what": "마이크로소프트가 자체 AI 코딩 모델 MAI-Code-1-Flash를 GitHub Copilot Business·Enterprise 구독자 대상 정식 출시했다. 관리자가 Copilot 설정에서 해당 정책을 활성화해야 한다. 빠른 저지연 코드 생성과 에이전트 워크플로용으로 설계됐고 Copilot 가격에 맞춘 사용량 기반 과금이 적용된다.",
+        "points": [
+          "MS 자체 코딩 모델",
+          "Copilot Business·Enterprise GA",
+          "저지연·에이전트 워크플로용"
+        ],
+        "why": [
+          "MS가 코딩 모델 스택을 자체화하며 경쟁이 심화된다."
+        ]
+      }
     },
     {
-      "id": "it-bigquery-conversational",
-      "title": "구글 클라우드, BigQuery 대화형 분석 정식 출시(GA)",
-      "summary": "자연어로 데이터를 질의하고 리포트를 생성하는 기능을 GA로 전환했다. Gemini와 BigQuery 거버넌스를 활용한다.",
-      "source": "Google Cloud",
-      "url": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-bigquery-now-ga/",
-      "originalDate": "2026-07-01"
+      "id": "it-ontology-everywhere",
+      "title": "Ontology Everywhere! — LLM 시대의 온톨로지",
+      "summary": "OWL·RDFS 등으로 기계 추론 지원, ERD와 달리 관계 추론 가능.",
+      "source": "Hands-on Data",
+      "url": "https://handsondata.substack.com/p/ontology-everywhere",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "LLM 부상으로 온톨로지가 기계 추론을 위한 공유 지식 모델로 재조명된다.",
+        "what": "온톨로지는 LLM 부상과 함께 다시 주목받으며 OWL·RDFS 같은 표준으로 기계 추론을 지원하는 형식적·공유 지식 모델을 제공한다. 전통 데이터 모델이나 ERD와 달리 온톨로지는 AI 시스템이 새 관계를 추론하고 비즈니스 시맨틱 위에서 사고하게 해준다.",
+        "points": [
+          "OWL·RDFS로 기계 추론 지원",
+          "ERD와 달리 관계 추론 가능",
+          "비즈니스 시맨틱 기반 사고"
+        ],
+        "why": [
+          "AI 시스템의 지식 표현·추론 계층 수요가 커진다."
+        ]
+      }
+    },
+    {
+      "id": "it-aws-fde-analysis",
+      "title": "AWS Forward Deployed Engineering (분석)",
+      "summary": "벤더가 '플랫폼 판매'서 '성과 구축'으로 이동하는 이유.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/aws-forward-deployed-engineering/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AWS의 10억 달러 FDE는 벤더가 '성과 구축'으로 이동하는 신호다.",
+        "what": "AWS가 10억 달러를 들여 AWS 엔지니어를 기업 고객에 직접 상주시켜 에이전트 AI 워크플로를 구축하고 파일럿을 프로덕션으로 빠르게 옮기는 FDE 조직을 만든다. 기업들이 통합·거버넌스·라스트마일 배포에서 막히기 때문에 클라우드 벤더가 '플랫폼 판매'에서 '성과 구축 지원'으로 이동하고 있다.",
+        "points": [
+          "엔지니어 고객사 상주",
+          "파일럿→프로덕션 가속",
+          "통합·거버넌스 병목 해소"
+        ],
+        "why": [
+          "엔터프라이즈 AI의 라스트마일이 새 경쟁 축이 된다."
+        ]
+      }
     },
     {
       "id": "it-teams-bot-bouncer",
-      "title": "MS, Teams 회의서 봇 차단하는 '바운서' 도입",
-      "summary": "봇을 로비에 대기시켜 사람 검증을 거치게 하는 검증 시스템을 도입하고, 알려진 봇용 ISV 등록 경로도 계획 중이다.",
+      "title": "MS, Teams 회의 봇 차단 '바운서' 도입",
+      "summary": "봇을 로비에 두고 사람이 ID 검증, CAPTCHA 대체 예정.",
       "source": "The Register",
       "url": "https://www.theregister.com/software/2026/06/30/microsoft-builds-a-bouncer-to-keep-bots-out-of-teams-meetings/5264199",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "마이크로소프트가 Teams 회의에서 봇을 걸러내는 '봇 바운서'를 도입한다.",
+        "what": "마이크로소프트가 Teams 회의용 '봇 바운서'를 선보였다. 봇을 로비에 두고 사람이 봇의 ID를 검증하며, 행위·인프라 신호로 봇과 사람을 구별한다. 알려진 서드파티 봇이 자기 식별할 수 있는 ISV 등록 경로도 계획한다. 롤아웃이 시작됐고 새 메커니즘 정착 후 CAPTCHA 방식은 폐기할 예정이다.",
+        "points": [
+          "봇을 로비에 격리·사람이 검증",
+          "행위·인프라 신호로 구별",
+          "ISV 등록 경로 계획"
+        ],
+        "why": [
+          "회의 플랫폼의 봇 남용 대응이 새 표준이 된다."
+        ]
+      }
     },
     {
-      "id": "it-privacyhawk-enterprise",
-      "title": "PrivacyHawk Enterprise, 섀도 IT·제3자 리스크 최소화 GA",
-      "summary": "섀도 IT 계정과 방치된 SaaS 구독을 식별하는 기업용 솔루션을 일반 공개해 간과되던 제3자 서비스 위험을 다룬다.",
+      "id": "it-bigquery-conversational",
+      "title": "BigQuery 대화형 분석 GA",
+      "summary": "자연어로 데이터 질의·분석·리포트, Gemini 기반.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/data-analytics/conversational-analytics-in-bigquery-now-ga/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "구글 클라우드가 BigQuery 대화형 분석을 정식 출시했다.",
+        "what": "구글 클라우드가 BigQuery의 Conversational Analytics를 GA로 전환해 자연어로 데이터 질의·분석·리포트 생성을 가능케 했다. Gemini와 BigQuery 기존 거버넌스 모델 위에 구축됐다.",
+        "points": [
+          "자연어 데이터 질의·분석",
+          "Gemini 기반",
+          "기존 거버넌스 준수"
+        ],
+        "why": [
+          "데이터 분석 접근성이 비전문가로 확대된다."
+        ]
+      }
+    },
+    {
+      "id": "it-guardian-framework",
+      "title": "Guardian-framework — 실행 가능한 아키텍처 제약",
+      "summary": "아키텍처를 CI에서 검증, 위반 시 머지 차단.",
+      "source": "GitHub",
+      "url": "https://github.com/arman-jalili/guardian-framework",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Guardian-framework는 아키텍처를 실행 가능한 제약으로 만들어 CI에서 강제한다.",
+        "what": "Guardian-framework는 소프트웨어 아키텍처를 실행 가능한 제약으로 바꿔 구현이 아키텍처 결정과 일치하는지 CI에서 지속 검증하는 도구다. 단일 .pi/ 디렉터리를 아키텍처 소스오브트루스로 삼아 스펙·ADR·CI 정책·에이전트 워크플로를 생성하고, 검증 스크립트로 아키텍처 위반 시 머지를 차단한다.",
+        "points": [
+          ".pi/ 디렉터리를 소스오브트루스로",
+          "스펙·ADR·CI 정책 자동 생성",
+          "위반 시 머지 차단"
+        ],
+        "why": [
+          "아키텍처를 문서가 아닌 실행 가능한 규칙으로 강제한다."
+        ]
+      }
+    },
+    {
+      "id": "it-totalsecure",
+      "title": "TotalSecure — 보안 '핸드브레이크' 없이 AI 도입",
+      "summary": "Purview DSPM·Sentinel 연동으로 지속적 AI 데이터 보안.",
+      "source": "TechCentral",
+      "url": "https://techcentral.co.za/totalsecure-helps-business-adopt-ai-without-the-security-handbrake/283160/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "TotalSecure는 기업 AI 도입의 '보안 핸드브레이크'를 제거하는 관리형 서비스다.",
+        "what": "TotalSecure는 기업 AI 도입에서 '보안 핸드브레이크'를 없애는 관리형 보안 서비스다. AI 특화 버전 TotalSecure AI는 Microsoft Purview DSPM과 Sentinel/Defender XDR과 연동해 지속적 AI 데이터 보안, 코드형 정책 강제, 실시간 위험 모니터링, 규제 대응 지표를 제공한다.",
+        "points": [
+          "관리형 AI 데이터 보안",
+          "Purview DSPM·Sentinel 연동",
+          "코드형 정책·실시간 모니터링"
+        ],
+        "why": [
+          "보안 우려가 기업 AI 도입의 병목이 되는 문제에 대응한다."
+        ]
+      }
+    },
+    {
+      "id": "it-privacyhawk",
+      "title": "PrivacyHawk Enterprise — 섀도 IT·서드파티 위험 최소화",
+      "summary": "섀도 IT 계정·방치 SaaS 구독·간과된 서드파티 식별·제거.",
       "source": "Help Net Security",
       "url": "https://www.helpnetsecurity.com/2026/06/29/privacyhawk-enterprise/",
-      "originalDate": "2026-06-29"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "PrivacyHawk Enterprise가 섀도 IT와 서드파티 위험을 식별·제거한다.",
+        "what": "PrivacyHawk가 섀도 IT 계정, 취소·방치된 SaaS 구독, 간과된 서드파티 서비스를 식별·제거하는 PrivacyHawk Enterprise의 정식 출시를 발표했다.",
+        "points": [
+          "섀도 IT 계정 식별·제거",
+          "방치 SaaS 구독 정리",
+          "서드파티 위험 최소화"
+        ],
+        "why": [
+          "SaaS 확산 속 공급망·데이터 노출 위험을 줄인다."
+        ]
+      }
+    },
+    {
+      "id": "it-first-floor-second",
+      "title": "1층에 살며 2층을 짓기 — AI 재무 전환",
+      "summary": "CFO·CIO가 단계적 압축 실행으로 조기 ROI 확보.",
+      "source": "CIO",
+      "url": "https://www.cio.com/article/4190714/live-on-the-first-floor-while-building-the-second.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AI 재무 전환은 단계를 순차 압축해 조기 ROI를 내는 방식이 최선이다.",
+        "what": "AI 재무 전환은 CFO와 CIO가 데이터·프로세스·통제·툴링 작업을 복리적으로 쌓이는 단계로 순차화해, 먼 다년치 성과에 올인하기보다 조기에 ROI를 내는 방식이 가장 효과적이다.",
+        "points": [
+          "데이터·프로세스·통제·툴링 순차화",
+          "복리적 단계 설계",
+          "조기 ROI 확보"
+        ],
+        "why": [
+          "대규모 전환의 실패 위험을 단계적 실행으로 낮춘다."
+        ]
+      }
     }
   ]
 }

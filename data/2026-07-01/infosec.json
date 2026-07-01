@@ -6,107 +6,314 @@
   "bg": "#3a1f1f",
   "items": [
     {
-      "id": "infosec-chrome-v8-longinus",
-      "title": "크롬 V8 샌드박스, 단일 취약점으로 뚫려 (CVE-2026-6307)",
-      "summary": "V8 JIT 컴파일러의 치명적 결함으로 렌더러 샌드박스를 탈출해 크롬 106에서 원격 코드 실행이 가능하다.",
-      "source": "Lobsters",
-      "url": "https://lobste.rs/s/uaoe9y",
+      "id": "infosec-exploitarium-0day",
+      "title": "익명 연구자, 0-day 'exploitarium' 저장소 공개",
+      "summary": "libssh2·Gitea 미패치 취약점 활성 익스플로잇 포함, 벤더 사전통보 없음.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/06/29/anonymous-researcher-drops-0-day-exploitarium-repo/5263961",
       "originalDate": "2026-07-01",
-      "intel": {
-        "impact": "High",
-        "confidence": "85%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "Chrome · 브라우저"
+      "report": {
+        "tldr": "'bikini'라는 익명 연구자가 미패치 0-day 익스플로잇 모음 'exploitarium'을 공개했다.",
+        "what": "익명 연구자 'bikini'가 여러 소프트웨어의 0-day 익스플로잇 문서를 담은 'exploitarium' 저장소를 벤더 사전 통보 없이 공개했다. libssh2의 CVE-2026-55200(사전인증 힙 손상 RCE)과 Gitea Docker 배포의 CVE-2026-20896(인증 우회) 활성 익스플로잇이 포함됐으며 둘 다 현재 미패치 상태다.",
+        "points": [
+          "libssh2 사전인증 힙 손상 RCE",
+          "Gitea 인증 우회",
+          "벤더 통보 없이 공개, 미패치"
+        ],
+        "why": [
+          "미패치 공개 익스플로잇은 즉각적 공격 확산 위험을 낳는다."
+        ],
+        "action": "공식 패치 전까지 SSH·Git 서비스 로그의 이상 징후를 감시하고 libssh2·Gitea 대상 익스플로잇 시도를 차단한다."
       }
     },
     {
-      "id": "infosec-exploitarium",
-      "title": "익명 연구자, 미패치 취약점 익스플로잇 'Exploitarium' 공개",
-      "summary": "libssh2와 Gitea의 미패치 취약점 익스플로잇 코드를 벤더 통보 없이 공개했다.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/security/2026/06/29/anonymous-researcher-drops-0-day-exploitarium-repo/5263961",
-      "originalDate": "2026-06-29"
-    },
-    {
-      "id": "infosec-loadmaster-rce",
-      "title": "Progress Kemp LoadMaster, 인증 전 RCE 취약점 (CVE-2026-8037)",
-      "summary": "LoadMaster API의 미초기화 힙 조건으로 미인증 공격자가 인증 전 원격 코드 실행을 할 수 있다.",
-      "source": "watchTowr Labs",
-      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "infosec-ai-agents-mcp",
-      "title": "MS: AI 에이전트가 '읽기'에서 '행동'으로 넘어갈 때의 위험",
-      "summary": "오염된 MCP 서버 메타데이터가 정상 권한을 유지한 채 기업 AI 에이전트를 속여 민감 데이터를 유출시킬 수 있다.",
-      "source": "Microsoft",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "infosec-ai-browsers-attack",
-      "title": "새 공격, AI 브라우저가 나쁜 아이디어인 또 하나의 이유",
-      "summary": "감염된 웹사이트가 AI 브라우저를 조종해 안전 규칙을 무시하고 로컬 자격증명에 접근하게 만들 수 있음을 시연했다.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "infosec-salesforce-hunt",
-      "title": "위협 헌터 가이드: Salesforce 노리는 GRUB1/UNC6395 캠페인",
-      "summary": "OAuth·탈취 자격증명·취약한 인증요소를 악용해 Salesforce 데이터에 접근·유출하는 캠페인을 분석했다.",
-      "source": "Datadog Security Labs",
-      "url": "https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "infosec-aflac-japan",
-      "title": "Aflac Japan 데이터 유출… 438만 명 영향",
-      "summary": "6월 15~25일 사이 해커가 Aflac Japan 고객 포털에 접근해 수백만 명의 개인·보험 정보를 탈취했다.",
-      "source": "SecurityWeek",
-      "url": "https://www.securityweek.com/aflac-japan-data-breach-impacts-4-38-million/",
-      "originalDate": "2026-07-01"
+      "id": "infosec-longinus-chrome-v8",
+      "title": "Longinus — 단일 버그로 Chrome 렌더러·V8 샌드박스 관통(CVE-2026-6307)",
+      "summary": "Chrome 106 V8 JIT 결함으로 임의 읽기/쓰기·RCE, 스프레이·체이닝 불필요.",
+      "source": "lobste.rs",
+      "url": "https://lobste.rs/s/uaoe9y",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "단일 V8 JIT 취약점 Longinus가 Chrome 렌더러 샌드박스와 V8 힙 격리를 동시에 뚫는다.",
+        "what": "CVE-2026-6307(Longinus)는 Chrome 106의 치명적 V8 JIT 컴파일러 취약점이다. TurboFan/Turboshaft 인라이닝, JS→Wasm 호출 래퍼 정규화, 디옵티마이제이션 FrameState 처리의 단일 결함으로 렌더러 샌드박스와 V8 힙 격리를 우회한다. 메모리 스프레이나 체인 익스플로잇 없이 샌드박스 힙 내 임의 읽기/쓰기 및 완전한 원격 코드 실행을 제공한다.",
+        "points": [
+          "단일 버그로 두 보안 경계 관통",
+          "임의 읽기/쓰기 + RCE",
+          "스프레이·체이닝 불필요"
+        ],
+        "why": [
+          "브라우저 방어의 핵심 경계가 한 번에 무력화될 수 있다."
+        ],
+        "action": "Chrome을 106.0.5249.119 이상으로 업데이트하고 V8 JIT 대상 익스플로잇 시도를 감시한다."
+      }
     },
     {
       "id": "infosec-india-gov-data",
-      "title": "인도 정부 시스템 취약점으로 개인정보 노출",
-      "summary": "교육·공무원 포털 전반의 취약점이 약한 접근 통제로 학생 기록과 은행 계좌 정보를 유출시켰다.",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems",
-      "originalDate": "2026-07-01"
+      "title": "인도 정부 시스템서 개인정보 노출 취약점 14건",
+      "summary": "학생 기록·수천 건 계좌번호가 개방 디렉터리·취약한 접근제어로 노출.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/C9oCqS",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "인도 정부 교육·장학·공무원 포털 14곳에서 개인정보 노출 결함이 보고됐다.",
+        "what": "독립 연구자가 인도 정부의 교육·장학·공무원 포털 전반에서 14건의 보안 결함을 보고했다. 개방 디렉터리와 취약한 접근제어로 학생 기록과 수천 건의 전체 계좌번호가 노출됐다. UPSC 포털은 관리자 인터페이스 노출, 보안 헤더 누락, 자동화 자격증명 공격을 가능케 하는 문제로 시스템 전면 장악과 대규모 데이터 절취의 손쉬운 경로를 만들었다.",
+        "points": [
+          "포털 14곳서 결함 발견",
+          "학생 기록·계좌번호 노출",
+          "UPSC 관리자 인터페이스 노출"
+        ],
+        "why": [
+          "공공 포털의 기본 접근제어 미비가 대규모 유출로 직결된다."
+        ],
+        "action": "공공 서비스의 디렉터리 노출·헤더·접근제어를 감사하고 노출 데이터를 즉시 차단한다."
+      }
     },
     {
-      "id": "infosec-flock-plate-readers",
-      "title": "10만 대 넘는 AI 번호판 판독기, 오남용·감시 우려",
-      "summary": "Flock이 배치한 10만 대 이상 자동 판독기가 미흡한 안전장치 속에 대규모 추적을 가능케 한다.",
-      "source": "Techmeme",
-      "url": "https://www.techmeme.com/260629/p8#a260629p8",
-      "originalDate": "2026-06-29"
+      "id": "infosec-salesforce-threat-hunt",
+      "title": "세일즈포스 위협 헌팅 가이드 — Salesloft 캠페인",
+      "summary": "OAuth 피싱·토큰 재사용 공격 사슬과 탐지 텔레메트리 정리.",
+      "source": "Datadog Security Labs",
+      "url": "https://securitylabs.datadoghq.com/articles/mapping-out-your-unknown-threat-hunters-guide-to-salesforce/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Datadog이 세일즈포스 대상 GRUB1/UNC6395 Salesloft 캠페인의 ATT&CK 사슬을 분석했다.",
+        "what": "Datadog의 Julie Agnes Sparks가 세일즈포스를 노린 Salesloft 캠페인의 MITRE ATT&CK 초반 단계를 분석했다. 공격자는 OAuth 피싱, 손상된 서드파티 토큰, 탈취한 SSO/MFA 요소로 초기 접근한 뒤 무차별 재시도·약한 요소 교체로 소유자를 잠근다. OAuth 토큰을 재사용해 정찰·객체 나열·데이터 질의로 탈취 규모를 가늠한다.",
+        "points": [
+          "OAuth 피싱·토큰 재사용으로 초기 접근",
+          "API 한도 내에서 정찰·데이터 질의",
+          "이벤트 로그·실시간 모니터링으로 탐지"
+        ],
+        "why": [
+          "SaaS OAuth 신뢰 체계가 표적 공격의 통로가 된다."
+        ],
+        "action": "AuraRequest 호출, 희귀 값 LoginEvent, 권한계정 활동·대량 질의를 IP·비업무시간·UA로 상관 분석한다."
+      }
     },
     {
-      "id": "infosec-glm-benchmark",
-      "title": "Semgrep: GLM 5.2, 사이버보안 코딩 벤치마크서 클로드 앞서",
-      "summary": "Zhipu AI의 GLM 5.2가 더 낮은 비용으로 IDOR 탐지에서 클로드를 능가했으나 특화 프레임워크가 둘 다 앞섰다.",
+      "id": "infosec-kemp-loadmaster-rce",
+      "title": "Progress Kemp LoadMaster 사전인증 RCE(CVE-2026-8037)",
+      "summary": "LoadMaster API 초기화되지 않은 힙 조건으로 미인증 코드 실행.",
+      "source": "watchTowr Labs",
+      "url": "https://labs.watchtowr.com/enterprise-tech-in-shell-out-progress-kemp-loadmaster-uninitialized-heap-to-pre-auth-rce-cve-2026-8037/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "CVE-2026-8037은 Kemp LoadMaster의 사전인증 원격 코드 실행 취약점이다.",
+        "what": "CVE-2026-8037은 API가 활성화된 Progress Kemp LoadMaster에서 초기화되지 않은 힙 조건으로 악용 가능한 사전인증 RCE다. API 요청 처리 중 부적절한 메모리 초기화를 이용해 미인증 공격자가 코드를 실행할 수 있다.",
+        "points": [
+          "LoadMaster API 경유 사전인증 RCE",
+          "초기화되지 않은 힙 악용",
+          "escape_quotes() 루틴 수정으로 해결"
+        ],
+        "why": [
+          "로드밸런서는 경계에 위치해 침해 시 파급이 크다."
+        ],
+        "action": "LoadMaster 7.2.63.2로 패치하고 API 접근 로그의 비인가 활동을 감시한다."
+      }
+    },
+    {
+      "id": "infosec-securing-ai-agents",
+      "title": "AI 에이전트 보안 — 읽기에서 실행으로",
+      "summary": "MCP 도구 메타데이터 오염으로 정상 권한 내 데이터 탈취 가능.",
+      "source": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "MCP 연결 도구의 메타데이터 오염이 정상 권한 안에서 데이터 탈취로 이어진다.",
+        "what": "기업 AI 에이전트가 MCP 연결 도구로 업무 시스템 전반의 작업을 실행하기 시작하면서, 도구 메타데이터가 오염되면 데이터 절취의 문이 열린다. 금융용 Copilot Studio 에이전트 예시는 강화 서버 설명에 숨긴 지시가 미지급 인보이스 데이터를 조용히 끌어와 공격자 엔드포인트로 보내는 과정을 보여준다. 이 모든 것이 정상 권한·워크플로 내에서 일어난다.",
+        "points": [
+          "도구 설명에 은닉 지시 삽입",
+          "정상 권한 내 데이터 유출",
+          "MCP 서버를 공급망으로 취급 권고"
+        ],
+        "why": [
+          "에이전트가 '실행'으로 넘어가며 공격면이 근본적으로 확장된다."
+        ],
+        "action": "MCP 서버·설명 메타데이터를 검사하고 도구 접근을 제한하며 DLP·Sentinel·가드레일로 위험 행위를 차단한다."
+      }
+    },
+    {
+      "id": "infosec-glm52-semgrep",
+      "title": "Semgrep: GLM 5.2, 사이버보안 코딩 벤치서 Claude 상회",
+      "summary": "IDOR 탐지 F1 39%로 Claude Code 32% 상회, 다만 하네스 설계가 관건.",
       "source": "Semgrep",
       "url": "https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "오픈웨이트 GLM 5.2가 Semgrep IDOR 벤치에서 Claude Code를 앞섰다.",
+        "what": "Zhipu AI의 오픈웨이트 모델 GLM 5.2가 Semgrep IDOR 탐지 벤치에서 F1 39%를 기록해 Claude Code의 32%를 상회했고 참 발견당 비용은 $0.17였다. 다만 Semgrep 자체 멀티모달 파이프라인은 엔드포인트 스캐폴딩으로 53~61%에 도달해, 원시 모델 역량 이상으로 하네스 설계가 실효성을 좌우함을 보였다.",
+        "points": [
+          "GLM 5.2 IDOR F1 39% > Claude 32%",
+          "참 발견당 $0.17로 비용 효율",
+          "하네스 설계가 성능을 크게 좌우"
+        ],
+        "why": [
+          "보안 코드 분석에서 저비용 오픈 모델이 경쟁력을 얻는다."
+        ]
+      }
     },
     {
-      "id": "infosec-web-security-10y",
-      "title": "상위 100만 사이트 분석: 웹 보안 10년, HTTPS 79%까지",
-      "summary": "HTTPS 채택은 79%로 급증했으나 설정 품질은 뒤처져 절반이 보안 헤더·DMARC에서 낮은 점수를 받았다.",
+      "id": "infosec-netexec",
+      "title": "NetExec (GitHub)",
+      "summary": "대규모 네트워크 보안 평가를 자동화하는 서비스 익스플로잇 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/Pennyw0rth/NetExec",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "NetExec는 대규모 네트워크 보안 평가를 자동화하는 도구다.",
+        "what": "NetExec는 네트워크 서비스 익스플로잇 도구로 대규모 네트워크의 보안 평가 자동화를 돕는다.",
+        "points": [
+          "네트워크 서비스 익스플로잇 자동화",
+          "대규모 평가 지원",
+          "오픈소스"
+        ],
+        "why": [
+          "레드팀·평가 워크플로의 표준 도구로 활용된다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-ponytail",
+      "title": "Ponytail (GitHub)",
+      "summary": "'가장 게으른 시니어 개발자'처럼 최소 코드를 생성하게 하는 에이전트 플러그인.",
+      "source": "GitHub",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Ponytail은 AI 에이전트가 코드 생성을 최소화하도록 만드는 플러그인이다.",
+        "what": "Ponytail은 AI 에이전트가 '방 안에서 가장 게으른 시니어 개발자'처럼 사고하게 만드는 코딩 에이전트/플러그인이다. 목표는 생성 코드량을 절대적으로 최소화하는 것이다.",
+        "points": [
+          "최소 코드 생성 지향",
+          "'게으른 시니어' 사고 유도",
+          "에이전트 플러그인"
+        ],
+        "why": [
+          "과잉 생성 코드의 유지보수·보안 부담을 줄인다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-top1m-web-security",
+      "title": "Top 1M 분석 2026 — 웹 보안 10년",
+      "summary": "HTTPS·CSP·HSTS는 정착했으나 품질과 분리, Cloudflare 집중 리스크.",
       "source": "Scott Helme",
       "url": "https://scotthelme.co.uk/top-1-million-analysis-june-2026-ten-years-of-web-security/",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "웹 보안 기본 요소는 널리 정착했지만 '존재'가 '품질'과 분리됐다.",
+        "what": "Scott Helme의 10년 회고는 Tranco 상위 100만(응답 819,002곳)에서 HTTPS 리디렉트가 2015년 대비 약 960% 늘어 658,038곳, CSP는 125배 증가한 170,057곳, HSTS는 252,846곳으로 기본 요소가 정착했음을 보인다. 그러나 CSP의 46.8%가 여전히 unsafe-inline을 포함하고 HSTS의 21%만 preload 적격, DMARC는 절반 이상이 p=none에 머문다. 구조적 핵심은 집중 리스크로, Cloudflare가 응답 사이트의 1/3 이상을 앞단에서 처리한다.",
+        "points": [
+          "HTTPS·CSP·HSTS 대폭 확산",
+          "존재는 늘었으나 설정 품질은 미흡",
+          "Cloudflare 집중이 지표를 좌우"
+        ],
+        "why": [
+          "다음 10년의 레버는 '채택'이 아니라 '올바른 설정'과 플랫폼 기본값이다."
+        ]
+      }
     },
     {
-      "id": "infosec-venezuela-scams",
-      "title": "사기범들, 베네수엘라 지진 재난 악용 경쟁",
-      "summary": "닷새 만에 지진 테마 도메인 212개가 등록돼 기회주의적 사기 정황이 드러났다.",
+      "id": "infosec-alpr-flock",
+      "title": "10만 대 넘는 AI 번호판 판독기, 감시·오남용 우려",
+      "summary": "주로 Flock 배치, 지속적 위치추적과 보안 결함이 오남용 위험.",
+      "source": "Techmeme",
+      "url": "https://www.techmeme.com/260629/p8#a260629p8",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "미국 전역 10만 대 이상의 AI 번호판 판독기가 감시·오남용 우려를 키운다.",
+        "what": "주로 Flock이 배치한 10만 대 이상의 AI 자동 번호판 판독기(ALPR)가 미국 전역에 설치돼 지속적 위치 추적을 가능케 하고 통제되지 않는 감시·경찰 오남용 경보를 낳는다. 보안 결함과 약한 데이터 보호는 비인가 접근, 미션 크리프, 수집 데이터의 유해한 악용 위험을 높인다.",
+        "points": [
+          "Flock 주도로 10만 대 이상 설치",
+          "지속적 위치 추적 가능",
+          "보안 결함으로 오남용 위험"
+        ],
+        "why": [
+          "대규모 감시 인프라의 데이터 거버넌스가 시민 자유 문제로 확대된다."
+        ],
+        "action": "ALPR 데이터 보존 정책을 감사하고 접근 로그의 이상 질의를 모니터링한다."
+      }
+    },
+    {
+      "id": "infosec-ai-browser-attack",
+      "title": "AI 브라우저가 나쁜 아이디어인 또 하나의 이유",
+      "summary": "부비트랩 게임이 '2+2=5' 환상 맥락으로 유도해 안전규칙 무력화.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "조작된 게임이 AI 브라우저를 거짓 논리 맥락으로 끌어들여 안전장치를 끈다.",
+        "what": "연구진은 웹사이트의 부비트랩 게임이 AI 브라우저를 '2+2=5'가 정답이 되는 환상 맥락으로 밀어 넣어 안전 규칙이 적용되지 않게 하는 방법을 보였다. 에이전트가 거짓 논리를 받아들이면, 사이트는 로컬 리소스에서 코드나 자격증명을 끌어오게 유도할 수 있어 병합된 브라우징·자동화 기능이 데이터 절취의 고위험 경로가 된다.",
+        "points": [
+          "환상 맥락으로 안전규칙 무력화",
+          "거짓 논리 수용 후 자격증명 탈취 유도",
+          "브라우징+자동화 결합의 위험"
+        ],
+        "why": [
+          "에이전트 브라우저의 컨텍스트 오염 공격면이 실증됐다."
+        ],
+        "action": "AI 브라우저의 로컬 리소스 접근 권한을 제한하고 신뢰되지 않은 사이트에서 자동화 실행을 차단한다."
+      }
+    },
+    {
+      "id": "infosec-aflac-japan-breach",
+      "title": "Aflac 일본 데이터 침해 — 438만 명 영향",
+      "summary": "6/15~6/25 반복 침투로 개인·보험정보 유출, 약 23만 명 계좌정보 포함.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/FG1Gnv",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Aflac 일본이 침해로 약 438만 명의 개인·보험 정보를 유출당했다.",
+        "what": "해커가 6월 15일부터 25일 사이 Aflac 일본 시스템에 반복 접근해 약 438만 명 가입자·대리점의 연락처·신원·보험 정보를 탈취했다. 약 23만 명의 은행 송금 정보도 포함됐으나 카드 데이터는 없었다.",
+        "points": [
+          "6/15~6/25 반복 침투",
+          "438만 명 개인·보험정보 유출",
+          "약 23만 명 계좌 송금정보 포함"
+        ],
+        "why": [
+          "보험사 포털 침해는 대규모 민감정보 노출로 이어진다."
+        ],
+        "action": "가입자 포털 접근 로그를 조사하고 영향받은 고객에 대한 사기 모니터링을 강화한다."
+      }
+    },
+    {
+      "id": "infosec-anthropic-fable-restore",
+      "title": "앤트로픽, 수요일 Claude Fable 접근 복구",
+      "summary": "상무부 수출통제 해제로 Fable 5 복구, Mythos 5는 일부 기업만.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/EGSwdW",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "수출통제 해제로 앤트로픽이 수요일 Fable 5 접근을 복구한다.",
+        "what": "앤트로픽은 상무부가 최상위 모델의 수출통제를 해제해 수요일부터 Fable 5 접근을 시작한다고 밝혔다. Mythos 5는 여전히 일부 선정 기업으로 제한된다.",
+        "points": [
+          "Fable 5 수요일부터 복구",
+          "Mythos 5는 제한 유지",
+          "상무부 통제 해제"
+        ],
+        "why": [
+          "모델 가용성의 규제 변수가 실제 운영에 반영된다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-venezuela-scam-domains",
+      "title": "베네수엘라 지진 노린 사기 도메인 급증",
+      "summary": "5일 만에 지진 관련 도메인 212개, 6/25 하루에만 105개.",
       "source": "Bitdefender",
       "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/scammers-cash-in-venezuela-earthquake",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "베네수엘라 지진을 악용한 사기 도메인이 단기간에 급증했다.",
+        "what": "WhoisXML API 연구진은 최근 베네수엘라 지진을 언급하는 도메인 212개가 5일 만에 등록됐고, 그중 105개가 6월 25일 하루에 생겼으며 직전 3일간은 전무했음을 발견했다.",
+        "points": [
+          "5일간 관련 도메인 212개",
+          "6/25 하루 105개 급증",
+          "재난 편승 사기 패턴"
+        ],
+        "why": [
+          "재난 직후 피싱·기부 사기 도메인이 폭증한다."
+        ],
+        "action": "재난 관련 신규 등록 도메인을 차단·감시하고 기부는 공식 채널로 안내한다."
+      }
     }
   ]
 }

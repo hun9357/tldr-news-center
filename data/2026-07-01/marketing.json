@@ -6,60 +6,244 @@
   "bg": "#163021",
   "items": [
     {
-      "id": "mkt-everything-works",
-      "title": "마케팅은 여전히 통한다, 다만 더 이상 차별화가 안 될 뿐",
-      "summary": "AI가 마케팅 실행을 상품화하면서 경쟁 우위는 물량·모범사례가 아닌 장인정신·취향·채널 전문성에서 나온다. 가장 효과적인 일일수록 대시보드로 측정하기 어렵다.",
-      "source": "The State of Brand",
-      "url": "https://www.thestateofbrand.com/news/everything-in-marketing-still-works-with-no-differentiation",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "mkt-retail-media-vibe",
-      "title": "리테일 미디어의 '분위기 전환' 해부",
-      "summary": "아마존·월마트가 리테일 미디어 시장의 85%를 장악했고, 월마트의 14억 달러 Vibe 인수로 집중이 심화됐다. 소규모 네트워크는 데이터 협동조합이나 매각 외엔 생존이 어렵다.",
+      "id": "marketing-retail-media-vibe",
+      "title": "리테일 미디어의 '바이브 시프트'",
+      "summary": "아마존·월마트가 85% 장악, 월마트의 $1.4B Vibe 인수로 격차 확대.",
       "source": "Mike Shields",
       "url": "https://mikeshields.substack.com/p/breaking-down-retail-medias-vibe",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "아마존·월마트가 리테일 미디어 85%를 장악하며 격차가 더 벌어진다.",
+        "what": "아마존과 월마트가 리테일 미디어 시장의 85%를 장악한다. 월마트의 14억 달러 Vibe 인수는 1자 커머스 데이터를 DSP에 연결하고 프리미엄 스트리머와 제휴하는 아마존 플레이북을 따른다. 월마트는 20만 마켓플레이스 리셀러를 즉시 CTV 광고주로 전환할 수 있다. 나머지 15%를 나눠 가진 200여 네트워크는 데이터 협동조합이나 인수가 유일한 현실적 길이다.",
+        "points": [
+          "아마존·월마트 85% 장악",
+          "월마트 $1.4B Vibe 인수",
+          "군소 네트워크는 협동·인수만 남아"
+        ],
+        "why": [
+          "리테일 미디어의 과점화가 광고 예산 배분을 재편한다."
+        ]
+      }
     },
     {
-      "id": "mkt-buyers-ask-ai",
-      "title": "구매자가 AI에 무엇을 묻는지 찾아라",
-      "summary": "AI Overview 클릭 추적 대신, 고객이 실제로 AI에 던지는 질문을 파악하라. 템플릿 프롬프트로 반복되는 질문을 캠페인·오퍼 전략에 반영한다.",
-      "source": "LinkedIn (Schwedelson)",
-      "url": "https://www.linkedin.com/posts/schwedelson_whats-up-this-week-one-ai-prompt-could-ugcPost-7477703921679937536-uamr/",
-      "originalDate": "2026-07-01"
+      "id": "marketing-everything-works-differentiate",
+      "title": "마케팅은 다 통한다, 다만 차별화가 안 될 뿐",
+      "summary": "AI가 실행을 평준화, 남은 해자는 'craft'.",
+      "source": "The State of Brand",
+      "url": "https://www.thestateofbrand.com/news/everything-in-marketing-still-works-with-no-differentiation",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AI가 실행을 평준화하며 남은 유일한 해자는 취향·관점·집중이라는 'craft'다.",
+        "what": "AI가 실행을 평준화하면서 채널·물량·베스트 프랙티스는 더 이상 신호가 되지 못한다. 남은 유일한 해자는 craft다. 취향, 날카로운 관점, 얕게 퍼지기보다 한 채널에 깊이 파는 판단이다. 지금 성과를 내는 일은 가장 측정하기 어렵다. 시간이 지나며 복리로 쌓이는 브랜드·소트리더십·오운드 미디어가 실제로 구매자를 움직인다.",
+        "points": [
+          "AI가 실행 평준화",
+          "해자는 취향·관점·집중",
+          "브랜드·오운드 미디어가 복리로 작동"
+        ],
+        "why": [
+          "차별화의 원천이 실행에서 판단·취향으로 이동한다."
+        ]
+      }
     },
     {
-      "id": "mkt-proprietary-data-citation",
-      "title": "독점 데이터가 가장 방어력 있는 AI 인용 자산인 이유",
-      "summary": "고유 데이터 15개 이상을 담은 페이지가 더 강한 AI 인용을 얻는다. ChatGPT 인용의 44.2%가 앞부분에서 나오므로 핵심 발견을 콘텐츠 상위 30%에 배치하라.",
+      "id": "marketing-proprietary-data-citation",
+      "title": "자사 데이터가 가장 방어적인 AI 인용 자산",
+      "summary": "1자 데이터 공개가 AI 인용·가시성 높이나 페이지 구조가 관건.",
       "source": "Growth Memo",
       "url": "https://www.growth-memo.com/p/why-proprietary-data-is-your-most",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "자사 1자 데이터 공개가 AI 인용을 얻지만, 인용은 페이지 구조가 좌우한다.",
+        "what": "자사 1자 데이터를 게시하면 콘텐츠가 AI 인용·유기적 가시성을 얻을 가능성이 커지지만, 누가 인용받는지는 페이지 구조가 결정한다. 한 연구에서 고유 데이터 포인트 15개 이상 페이지는 정보 이득 점수 평균 62.1로 1개 이하(40.2)를 앞섰다. 최강 통계·방법론·핵심 발견을 페이지 상위 30%에 두라(ChatGPT 인용의 44.2%가 이 구간에서 나온다).",
+        "points": [
+          "1자 데이터가 AI 인용 자산",
+          "데이터 포인트 많을수록 정보이득↑",
+          "상위 30%에 핵심 통계 배치"
+        ],
+        "why": [
+          "AI 검색 시대의 콘텐츠 최적화(GEO) 방향을 제시한다."
+        ]
+      }
     },
     {
-      "id": "mkt-ai-mentions-citations",
-      "title": "AI는 당신의 브랜드를 어떻게 언급·인용하는가",
-      "summary": "AI 브랜드 언급의 23.1%만 브랜드 도메인을 인용한다. 단일 브랜드 질의는 39% 인용률이지만 개방형 질의는 7.2%로 떨어져 SEO·PR 공백을 드러낸다.",
-      "source": "BuzzStream",
-      "url": "https://www.buzzstream.com/blog/ai-mentions-vs-citations-study/",
-      "originalDate": "2026-07-01"
+      "id": "marketing-find-buyers-ask-ai",
+      "title": "구매자가 AI에 무엇을 묻는지 파악하라",
+      "summary": "클릭 추적 대신 반복되는 고객 질문에서 캠페인 아이디어 도출.",
+      "source": "LinkedIn (Schwedelson)",
+      "url": "https://www.linkedin.com/posts/schwedelson_whats-up-this-week-one-ai-prompt-could-ugcPost-7477703921679937536-uamr/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "클릭 추적 대신 구매자가 AI에 실제로 묻는 질문을 파악하라.",
+        "what": "AI 오버뷰 트래픽 추적이 어려워진 지금, 클릭 쫓기를 멈추고 구매자가 AI에 실제로 무엇을 묻는지 이해하라. 이 글은 실제 고객 질문을 생성하고 결과를 합쳐 겹치는 주제를 분석하는 템플릿 프롬프트를 제공한다. 반복되는 질문이 오퍼·캠페인의 고신호 아이디어가 된다.",
+        "points": [
+          "클릭 대신 질문 이해",
+          "템플릿 프롬프트로 질문 생성",
+          "반복 질문서 캠페인 도출"
+        ],
+        "why": [
+          "AI 검색으로 트래픽 신호가 흐려지며 수요 파악 방식이 바뀐다."
+        ]
+      }
     },
     {
-      "id": "mkt-bad-data",
-      "title": "나쁜 데이터는 나쁜 결정을 부른다",
-      "summary": "단일 어트리뷰션 모델은 모든 매출원을 포착하지 못해 잘못된 결정을 낳는다. 증분성 연구·MMM·플랫폼 데이터를 비교하고 하나를 절대시하지 말라.",
+      "id": "marketing-social-media-seo-workbook",
+      "title": "소셜 미디어 SEO 워크북",
+      "summary": "키워드·검색 의도·콘텐츠 기획으로 발견 최적화, 무료 플래너 포함.",
+      "source": "HubSpot",
+      "url": "https://offers.hubspot.com/view/social-media-seo-workbook",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "소셜 콘텐츠를 발견 최적화하는 방법을 담은 워크북이다.",
+        "what": "소셜 콘텐츠는 이제 발견을 위해 만들어져야 한다. 이 플레이북은 키워드 리서치, 검색 의도, 콘텐츠 기획, 프로필 최적화와 네이티브 검색 데이터 활용·포맷 매칭·인게이지먼트 신호 활용 전술을 다룬다. 무료 다운로드 소셜 SEO 콘텐츠 플래너도 포함한다.",
+        "points": [
+          "소셜 콘텐츠 발견 최적화",
+          "키워드·의도·프로필 최적화",
+          "무료 콘텐츠 플래너 제공"
+        ],
+        "why": [
+          "소셜이 검색·발견 채널로 기능하며 SEO 접근이 필요해진다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-nano-banana-2-lite",
+      "title": "Nano Banana 2 Lite·Gemini Omni Flash로 시작하기",
+      "summary": "아이디어→이미지→영상을 한 워크플로에서, 경쟁적 가격.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "구글의 두 생성형 미디어 모델로 아이디어→이미지→영상을 한 흐름에서 처리한다.",
+        "what": "구글이 크리에이티브 반복을 위한 두 생성형 미디어 모델을 내놨다. Nano Banana 2 Lite는 가장 빠르고 저렴한 이미지 모델로 대량·고속 생성에 최적화됐고, Gemini Omni Flash는 텍스트·이미지·영상 입력으로 고품질 영상 생성·대화형 편집을 제공한다. 함께 쓰면 아이디어에서 이미지, 영상까지 한 워크플로로 이어진다. AI Studio·API·소비자 제품 전반에서 경쟁적 가격에 제공된다(영상 길이·일관성 초기 제약 있음).",
+        "points": [
+          "대량·고속 이미지 생성",
+          "텍스트·이미지·영상 입력 영상 생성",
+          "아이디어→이미지→영상 통합"
+        ],
+        "why": [
+          "마케터의 크리에이티브 제작 비용·속도가 크게 개선된다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-bad-data-decisions",
+      "title": "나쁜 데이터가 나쁜 결정을 부른다",
+      "summary": "단일 어트리뷰션 의존의 위험, 인크리멘탈리티·MMM 병행 권고.",
       "source": "Brainlabs",
       "url": "https://www.brainlabsdigital.com/bad-data-means-bad-decisions/",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "단일 어트리뷰션 모델 의존은 모든 매출 원천을 놓쳐 잘못된 결정을 부른다.",
+        "what": "단일 어트리뷰션 모델 의존은 모든 매출 원천을 포착하지 못해 나쁜 마케팅 결정을 낳는다. 한 브랜드는 영상 투자를 늘린 뒤 퍼스트클릭 어트리뷰션이 뷰스루 효과를 추적하지 못해 보고 전환이 오히려 줄었다. 인크리멘탈리티 테스트는 매출 증가를 보였는데도 포스트클릭 전환은 약 80%에서 20%로 떨어졌다. 하나의 리포팅을 진실로 삼지 말고 인크리멘탈리티·MMM·플랫폼 데이터를 비교하라.",
+        "points": [
+          "단일 어트리뷰션의 맹점",
+          "뷰스루 효과 누락 사례",
+          "인크리멘탈리티·MMM 병행"
+        ],
+        "why": [
+          "측정 편향이 예산 배분을 왜곡하는 문제를 짚는다."
+        ]
+      }
     },
     {
-      "id": "mkt-em-dash",
-      "title": "그 잘난 엠대시(—), 대체 왜 신경 쓰나",
-      "summary": "AI 의심을 피하려 표준 문장부호를 기피하며 잘못된 자기검열을 만든다. 부호 금지가 아니라 뚜렷한 글쓰기 기준을 세우는 것이 답이다.",
+      "id": "marketing-em-dash",
+      "title": "그 놈의 em 대시가 뭐가 중요한가?",
+      "summary": "AI처럼 보일 두려움에 정상 문장부호를 제거하는 자기검열 경계.",
       "source": "Ann Handley",
-      "url": "https://annhandley.com/why-care-about-the-stupid-em-dash-anyway/",
-      "originalDate": "2026-07-01"
+      "url": "https://annhandley.com/why-care-about-the-em-dash/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AI처럼 보일 두려움에 문장부호를 지우는 자기검열보다 자기다운 글쓰기 기준이 답이다.",
+        "what": "AI 생성물처럼 보일 두려움이 일종의 평판 자기감시를 낳아, 마케팅 팀이 제기되지도 않은 비난을 선제 차단하려 정상 문장부호를 제거한다. AI가 특정 부호·구문에 크게 의존해 '티'처럼 느껴지는 우려는 실재한다. 대응은 문장부호 금지가 아니라, 카피가 명백히 '당신 것'이 되도록 구체적인 글쓰기 기준을 세우는 것이다.",
+        "points": [
+          "AI 티 두려움에 자기검열",
+          "문장부호 제거는 오답",
+          "자기다운 글쓰기 기준 수립"
+        ],
+        "why": [
+          "AI 시대 브랜드 보이스의 진정성 문제를 다룬다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-mentions-citations",
+      "title": "AI는 당신 브랜드를 어떻게 언급·인용하나",
+      "summary": "브랜드 언급의 23.1%만 도메인 인용 포함, 프롬프트 유형이 격차.",
+      "source": "BuzzStream",
+      "url": "https://www.buzzstream.com/blog/ai-mentions-vs-citations-study/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AI 응답의 브랜드 언급 중 23.1%만 도메인을 인용해, AI는 소싱보다 언급을 더 많이 한다.",
+        "what": "AI 응답의 브랜드 언급 중 23.1%만 브랜드 도메인 인용을 포함해, AI가 콘텐츠 소싱보다 브랜드를 훨씬 자주 다룬다. 구글 AI 모드·AI 오버뷰·Gemini·GPT-5.4-mini의 응답 12,000건 분석에서 프롬프트 유형이 최대 격차를 만들었다. 단일 브랜드 쿼리는 39% 언급-인용률, 개방형 카테고리 쿼리는 7.2%로 떨어진다. 인용 누락은 SEO·GEO 문제, 언급 누락은 PR 문제 신호다.",
+        "points": [
+          "언급의 23.1%만 인용 포함",
+          "프롬프트 유형이 격차 좌우",
+          "인용=SEO·GEO, 언급=PR 문제"
+        ],
+        "why": [
+          "AI 가시성 진단을 SEO와 PR로 나눠 접근하게 한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-two-metrics",
+      "title": "두 지표가 만나는 곳에 진단이 있다",
+      "summary": "AOV·전환율처럼 지표를 짝지어 더 정확한 결과 해석.",
+      "source": "LinkedIn (Nekrasov)",
+      "url": "https://www.linkedin.com/posts/nekrasovdy_i-put-cac%D1%85ltv-on-this-sheet-and-i-dont-share-7477709881060343808-OfRZ/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "지표를 짝지어 보면 단일 지표보다 정확한 진단이 나온다.",
+        "what": "AOV와 전환율처럼 지표를 짝지으면 하나만 볼 때보다 더 정확한 결과 그림을 얻는다.",
+        "points": [
+          "지표 페어링",
+          "AOV·전환율 예시",
+          "단일 지표의 한계 보완"
+        ],
+        "why": [
+          "단일 지표 함정을 피하는 실무 팁을 제공한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-newsletter-positioning",
+      "title": "뉴스레터 포지셔닝부터 고쳐라",
+      "summary": "포지셔닝·오디언스 기반으로 강한 뉴스레터 이름을 만드는 AI 프롬프트.",
+      "source": "LinkedIn (Busta)",
+      "url": "https://www.linkedin.com/posts/dbusta_i-just-onboarded-a-new-newsletter-client-share-7477719665637638145-wuMk/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "포지셔닝·오디언스에 기반해 강한 뉴스레터 이름을 만드는 AI 프롬프트다.",
+        "what": "포지셔닝과 오디언스를 바탕으로 강력한 뉴스레터 이름을 생성하는 AI 프롬프트를 소개한다.",
+        "points": [
+          "포지셔닝 우선",
+          "오디언스 기반 네이밍",
+          "AI 프롬프트 활용"
+        ],
+        "why": [
+          "콘텐츠 자산의 포지셔닝 설계를 돕는다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-email-habits",
+      "title": "버려야 할 낡은 이메일 마케팅 습관 10가지",
+      "summary": "오픈율 미보고, 더블 옵트인, 인박스 주목 경쟁 등 포함.",
+      "source": "LinkedIn (Queen of CRM)",
+      "url": "https://www.linkedin.com/posts/queenofcrm_10-things-i-stopped-doing-in-email-marketing-share-7474869687265210369-fZln/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "낡은 이메일 마케팅 관행 10가지를 버리라는 조언이다.",
+        "what": "버려야 할 관행 목록에는 오픈율 미보고, 더블 옵트인 사용, 인박스에서 주목을 두고 경쟁하기 등이 포함된다.",
+        "points": [
+          "오픈율 미보고",
+          "더블 옵트인 지양",
+          "인박스 주목 경쟁 탈피"
+        ],
+        "why": [
+          "변화한 이메일 환경에 맞춘 실무 업데이트다."
+        ]
+      }
     }
   ]
 }

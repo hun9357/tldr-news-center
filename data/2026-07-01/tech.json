@@ -7,67 +7,282 @@
   "items": [
     {
       "id": "tech-claude-sonnet-5",
-      "title": "Anthropic, 저가형 '클로드 소넷 5' 출시로 엔터프라이즈 공략",
-      "summary": "최상위 모델 대비 대폭 할인된 가격에 근접 성능을 제공하며 IPO 레이스를 가속한다.",
+      "title": "앤트로픽, IPO 앞두고 Claude Sonnet 5 대폭 할인 출시",
+      "summary": "준플래그십 성능을 중가로, 무료·프로 기본 모델로 지정.",
       "source": "VentureBeat",
       "url": "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "tech-aws-fde-1b",
-      "title": "AWS, 10억 달러 규모 '포워드 배치 엔지니어링' 조직 신설",
-      "summary": "고객사에 엔지니어를 상주시켜 프로덕션 AI 에이전트 구축을 돕는 조직을 출범, OpenAI·Anthropic의 흐름에 합류했다.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/06/30/aws-amazon-ai-forward-deployed-engineers.html",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "tech-tesla-cybercab",
-      "title": "테슬라, 핸들·페달 없는 '사이버캡' 오스틴서 시험 주행",
-      "summary": "3만 달러 미만 소매가와 연 200만 대 생산을 장기 목표로 삼는 자율주행 사이버캡을 시험 중이다.",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/tesla-cybercab-no-steering-wheel-pedals-austin-testing",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "tech-realta-fusion",
-      "title": "Realta Fusion, 핵융합 반응서 전기 직접 생성 '세계 첫 사례'",
-      "summary": "핵융합 스타트업이 실증로에서 직접 수확한 전기로 전구를 밝혔다. 추정 효율은 90%다.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "tech-conception-eggs",
-      "title": "Conception, 줄기세포로 초기 인간 난자 세포 첫 생성",
-      "summary": "줄기세포에서 초기 인간 난자 세포를 만들어, IVF용 외과적 채취로 나아가는 진전을 이뤘다.",
-      "source": "Conception",
-      "url": "https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "tech-google-tenor",
-      "title": "구글, Tenor GIF API 종료… X·디스코드 등 변경 불가피",
-      "summary": "구글이 Tenor GIF API를 중단하면서 여러 플랫폼이 Klipy 등 대체 서비스로 이전하게 됐다.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "앤트로픽이 블록버스터 IPO를 향해 준플래그십 성능의 Claude Sonnet 5를 저가로 내놨다.",
+        "what": "앤트로픽의 신모델 Claude Sonnet 5는 준플래그십 성능을 중가격에 제공한다. 비용 민감한 기업 개발자에게 강력한 에이전트 역량을 낮은 비용으로 주는 것이 목표다. Sonnet 5는 무료·프로 플랜의 기본 모델이 됐고, API 가격은 8월 31일까지 입력 100만 토큰당 $2, 출력 $10이며 이후 각각 $3, $15로 오른다.",
+        "points": [
+          "준플래그십 성능·중가격",
+          "무료·프로 기본 모델",
+          "API $2/$10→$3/$15(8/31 이후)"
+        ],
+        "why": [
+          "IPO를 앞둔 앤트로픽의 가격 공세가 에이전트 시장을 자극한다."
+        ]
+      }
     },
     {
       "id": "tech-meta-kalshi",
-      "title": "메타, 자체 예측시장 앱 개발 전 Kalshi 인수 검토",
-      "summary": "저커버그가 Kalshi CEO와 인수를 논의했으나 예측시장의 합법성·윤리 우려로 협상이 교착됐다.",
+      "title": "메타, 자체 예측시장 앱 전 Kalshi 인수 검토",
+      "summary": "저커버그가 CEO와 회동했으나 협상 무산, 예측시장 진출 의지.",
       "source": "NPR",
       "url": "https://www.npr.org/2026/06/30/nx-s1-5875468/meta-kalshi-prediction-market-acquisition-talks",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "메타가 자체 예측시장 앱 개발 전 Kalshi 인수를 검토했으나 협상이 진전되지 않았다.",
+        "what": "저커버그가 지난해 Kalshi CEO 타렉 만수르와 인수 가능성을 논의했으나 협상은 진전되지 않았다. 결렬 이유는 불분명하나 만수르가 매각에 응하지 않았고 메타가 사업의 법적·윤리적 문제를 우려했다는 설이 있다. 메타는 여전히 예측시장 열풍에 올라타려 하며, 예측시장은 최근 테크에서 가장 빠르게 성장하는 분야다.",
+        "points": [
+          "저커버그-Kalshi CEO 회동",
+          "협상 무산",
+          "메타 예측시장 진출 의지 유지"
+        ],
+        "why": [
+          "빅테크가 급성장하는 예측시장에 눈독을 들인다."
+        ]
+      }
+    },
+    {
+      "id": "tech-stem-cell-eggs",
+      "title": "줄기세포로 만든 첫 초기 인간 난자",
+      "summary": "Conception, 혈액세포→줄기세포→미니 난소로 초기 난자 생성.",
+      "source": "Conception",
+      "url": "https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Conception이 줄기세포에서 유래한 첫 초기 인간 난자 세포를 만들었다.",
+        "what": "줄기세포 기술 기업 Conception이 줄기세포에서 유래한 첫 초기 인간 난자 세포를 생성하는 데 성공했다. 혈액세포를 줄기세포로 전환한 뒤 이를 미니어처 인간 난소로 유도해 초기 난자를 키웠다. 다음 단계는 IVF 의사가 수술로 채취할 수 있는 수준까지 난자를 키우는 것이다.",
+        "points": [
+          "혈액세포→줄기세포→미니 난소",
+          "초기 인간 난자 생성",
+          "IVF 채취 가능 수준이 다음 목표"
+        ],
+        "why": [
+          "생식의학·불임 치료의 잠재적 전환점이 될 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "tech-realta-fusion",
+      "title": "Realta Fusion, 핵융합 반응서 직접 발전 시연(첫 사례로 보임)",
+      "summary": "직접 전기 변환으로 전구 점등, 효율 90% 추정.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/06/30/realta-fusion-generates-electricity-directly-from-a-fusion-reaction-an-apparent-first/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Realta Fusion이 핵융합 반응에서 직접 얻은 전기로 전구를 켰다.",
+        "what": "Realta Fusion이 시연용 핵융합 장치에서 직접 수확한 전기로 전구를 밝히는 데 성공했다. 회사는 직접 전기 변환으로 반응로의 플라즈마를 가열할 계획이며, 이 과정 효율은 90%로 추정된다. 샘 올트먼이 후원하는 Helion도 직접 에너지 변환을 계획하나 아직 공개 시연은 하지 않았다.",
+        "points": [
+          "직접 전기 변환으로 전구 점등",
+          "효율 90% 추정",
+          "Helion 등 경쟁사도 추진"
+        ],
+        "why": [
+          "핵융합 상용화 경로의 핵심 기술이 진전을 보인다."
+        ]
+      }
+    },
+    {
+      "id": "tech-copybara",
+      "title": "Copybara (GitHub)",
+      "summary": "저장소 간 코드 변환·이동, 비공개↔공개 저장소 동기화에 유용.",
+      "source": "GitHub",
+      "url": "https://github.com/google/copybara",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Copybara는 저장소 간 코드를 변환·이동하는 도구다.",
+        "what": "Copybara는 저장소 간 코드를 변환·이동하는 도구로, 비공개·공개 저장소를 동기화해야 하는 프로젝트에 흔히 쓰인다. 어느 저장소에도 기여할 수 있으나 하나를 권위 저장소로 지정해 항상 단일 소스오브트루스를 유지한다. 무상태(stateless)라 여러 사용자가 같은 설정으로 같은 결과를 얻는다.",
+        "points": [
+          "저장소 간 코드 변환·이동",
+          "단일 소스오브트루스 유지",
+          "무상태로 재현성 확보"
+        ],
+        "why": [
+          "오픈소스·내부 저장소 동기화 운영을 단순화한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-local-reasoning-global",
+      "title": "국소 추론 vs 전역 속성",
+      "summary": "AI는 전역 이해가 필요한 코드에 취약, 언어 설계로 해결 가능성.",
+      "source": "Laurie Tratt",
+      "url": "https://tratt.net/laurie/blog/2026/local_reasoning_for_global_properties.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AI는 프로그램 전역 이해가 필요한 코드에 취약하며, 언어 설계가 해법이 될 수 있다.",
+        "what": "AI는 국소적 코드 조각은 고품질로 생성하지만, 프로그램의 전역적 이해가 필요한 코드 생성에는 취약하다. 이 문제는 향후 한두 세대 모델에서 해결될 수 있다. 한 가지 방법은 프로그래밍 언어 설계이며, 모델 발전이 이를 못 풀면 특히 대기업이 언어 설계로 해결을 시도할 가능성이 크다.",
+        "points": [
+          "국소 코드는 강, 전역 이해는 약",
+          "언어 설계가 해법 후보",
+          "대기업 주도 가능성"
+        ],
+        "why": [
+          "AI 코딩의 근본 한계와 언어 설계의 역할을 제기한다."
+        ]
+      }
     },
     {
       "id": "tech-anthropic-fable-deal",
-      "title": "Anthropic, 트럼프 행정부와 합의해 Fable 모델 접근 복구",
-      "summary": "보안 우회 문제를 해결하고 정부 시험 조직과 협력해 Fable 모델 접근을 되살리기로 했다.",
-      "source": "WSJ",
-      "url": "https://www.wsj.com/tech/ai/anthropic-nears-deal-with-trump-administration-to-restore-access-to-fable-ai-model-6f4177f3",
-      "originalDate": "2026-07-01"
+      "title": "앤트로픽, 트럼프 행정부와 Fable 접근 복구 합의",
+      "summary": "아마존 연구진의 우회를 해소하기로, 오늘부터 접근 복구.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/bxB5hs",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "앤트로픽이 트럼프 행정부와 합의해 오늘부터 Fable 접근을 복구한다.",
+        "what": "앤트로픽이 아마존 연구진이 Fable 안전장치를 회피한 우회 방법을 해소하기로 합의했다. 모델 접근은 오늘부터 복구되기 시작한다. 이 합의에는 정부 테스트 기관인 Center for AI Standards and Innovation이 관여할 것으로 예상된다.",
+        "points": [
+          "아마존 우회 방법 해소 합의",
+          "오늘부터 접근 복구",
+          "정부 테스트 기관 관여 예상"
+        ],
+        "why": [
+          "프런티어 모델을 둘러싼 정부-기업 거버넌스 협상 사례다."
+        ]
+      }
+    },
+    {
+      "id": "tech-aws-1b-fde",
+      "title": "AWS, 10억 달러 신설 AI 조직 — 엔지니어 고객사 상주",
+      "summary": "Forward Deployed Engineering 확산 흐름에 합류.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/06/30/aws-amazon-ai-forward-deployed-engineers.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AWS가 10억 달러를 들여 엔지니어를 고객사에 상주시키는 FDE 조직을 만든다.",
+        "what": "아마존이 고객의 AI 시스템 구축·배포를 돕는 신설 Forward Deployed Engineering 조직에 10억 달러를 투자한다. FDE는 기술 전환을 가속하기 위해 다른 기업 내부에 직접 배치되는 직원이다. 용어는 10여 년 전 팔란티어가 만들었으나 AI 시대에 재부상했으며 OpenAI·앤트로픽도 자체 FDE 조직을 둔다.",
+        "points": [
+          "10억 달러 FDE 조직 신설",
+          "엔지니어 고객사 상주",
+          "OpenAI·앤트로픽도 운영"
+        ],
+        "why": [
+          "클라우드 벤더가 '플랫폼 판매'에서 '성과 구축'으로 이동한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-fenic",
+      "title": "fenic (GitHub)",
+      "summary": "시맨틱 데이터 처리를 위한 데이터프레임 쿼리 엔진.",
+      "source": "GitHub",
+      "url": "https://github.com/typedef-ai/fenic",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "fenic은 시맨틱 데이터 처리를 위한 데이터프레임 쿼리 엔진이다.",
+        "what": "fenic은 AI 보조의 정형·비정형 데이터 탐색을 재사용·검사 가능한 데이터프레임 파이프라인으로 바꾸는 시맨틱 데이터 처리용 쿼리 엔진이다.",
+        "points": [
+          "시맨틱 데이터 처리",
+          "데이터프레임 파이프라인",
+          "재사용·검사 가능"
+        ],
+        "why": [
+          "AI 데이터 탐색을 재현 가능한 파이프라인으로 정착시킨다."
+        ]
+      }
+    },
+    {
+      "id": "tech-tesla-cybercab",
+      "title": "테슬라, 핸들·페달 없는 사이버캡 프로덕션 테스트 시작",
+      "summary": "오스틴서 테스트, 목표가 3만 달러 미만·연 200만 대.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/tesla-cybercab-no-steering-wheel-pedals-austin-testing",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "테슬라가 핸들·페달 없는 프로덕션 사이버캡을 오스틴에서 테스트하기 시작했다.",
+        "what": "테슬라가 오스틴에서 핸들이나 페달이 없는 프로덕션 사이버캡을 테스트하기 시작했다. 목표 소매가는 대당 3만 달러 미만이며 장기 생산 목표는 연 200만 대다.",
+        "points": [
+          "핸들·페달 없는 로보택시",
+          "오스틴서 프로덕션 테스트",
+          "목표가 <$30,000, 연 200만 대"
+        ],
+        "why": [
+          "자율주행 로보택시 상용화 경쟁이 실차 단계로 진입한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-google-tenor-gif",
+      "title": "구글, Tenor GIF API 종료 — X·디스코드 등 변경 불가피",
+      "summary": "많은 앱이 Tenor 창업자가 만든 Klipy로 이동 조짐.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/06/google-kills-tenor-gif-api-forcing-changes-at-x-discord-and-more/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "구글이 Tenor GIF API를 종료하며 이를 쓰던 앱들이 대안을 찾는다.",
+        "what": "구글이 Tenor GIF API를 종료해 X, 디스코드 등에 변경이 불가피해졌다. 많은 앱이 Tenor 창업자 중 한 명이 만든 GIF 서비스 Klipy로 이동하는 것으로 보인다.",
+        "points": [
+          "Tenor GIF API 종료",
+          "X·디스코드 등 영향",
+          "Klipy로 이동 조짐"
+        ],
+        "why": [
+          "플랫폼 API 종료가 의존 앱 생태계를 흔든다."
+        ]
+      }
+    },
+    {
+      "id": "tech-nano-banana-2-lite",
+      "title": "Nano Banana 2 Lite — '월리를 찾아라' 생성",
+      "summary": "최속·최저가 Gemini 이미지 모델의 결과 예시.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/30/nano-banana-2-lite/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Nano Banana 2 Lite로 '월리를 찾아라' 스타일 이미지를 생성한 예시다.",
+        "what": "가장 빠르고 저렴한 Gemini 이미지 모델 Nano Banana 2 Lite로 생성한 '월리를 찾아라' 스타일 이미지를 보여준다.",
+        "points": [
+          "최속·최저가 Gemini 이미지 모델",
+          "'월리를 찾아라' 생성 예시"
+        ],
+        "why": [
+          "저가 이미지 모델의 실제 출력 품질을 가늠하게 한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-twilight-chatbots",
+      "title": "챗봇의 황혼",
+      "summary": "업무가 챗봇과 함께 일하기에서 에이전트에 업무 배정으로 이동.",
+      "source": "One Useful Thing",
+      "url": "https://www.oneusefulthing.org/p/the-twilight-of-the-chatbots",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "업무의 무게중심이 챗봇 협업에서 에이전트에 대한 업무 배정으로 옮겨간다.",
+        "what": "업무가 점점 챗봇과 함께 일하는 것이 아니라 에이전트에게 일을 배정하는 방향으로 바뀌고 있다.",
+        "points": [
+          "챗봇 협업→에이전트 배정",
+          "작업 위임 중심",
+          "상호작용 패러다임 전환"
+        ],
+        "why": [
+          "AI 사용 방식이 대화형에서 위임형으로 이동한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-let-it-crash",
+      "title": "Let It Crash — 붕괴에 대비하라",
+      "summary": "붕괴는 오게 두되, 올 때 빈손이지 말 것.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/Xplfwd",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AI 붕괴는 막기보다 대비의 문제로, 자산을 쥔 쪽이 재건을 주도한다.",
+        "what": "'붕괴는 오게 두되, 올 때 빈손이지 말라'는 관점으로, AI 버블이 터져도 남는 인프라·자산을 누가 쥐고 있느냐가 이후를 결정한다는 논지다.",
+        "points": [
+          "붕괴는 대비의 문제",
+          "자산 소유가 재건을 좌우",
+          "빈손이 되지 말 것"
+        ],
+        "why": [
+          "과열 논쟁 속 리스크·자산 전략의 프레임을 제시한다."
+        ]
+      }
     }
   ]
 }

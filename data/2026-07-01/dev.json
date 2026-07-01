@@ -8,74 +8,303 @@
     {
       "id": "dev-reddit-antispam",
       "title": "레딧 안티스팸 내부 들여다보기",
-      "summary": "내부 결함으로 드러난 레딧의 스팸 탐지 메커니즘을 Spamurai, Perspective API 등 알고리즘까지 심층 분석했다.",
+      "summary": "글리치로 드러난 삭제 사유로 spamurai·Perspective API 등 확인.",
       "source": "lyra.horse",
       "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "dev-production-ai-agents",
-      "title": "프로덕션급 AI 에이전트의 진짜 관건: 모델보다 데이터·API 품질",
-      "summary": "프로덕션 AI 에이전트는 모델 한계보다 인터페이스 문제로 실패한다. 데이터 품질·API 설계·실행 신뢰성이 성공을 좌우한다.",
-      "source": "Postman",
-      "url": "https://blog.postman.com/how-we-really-build-production-grade-ai-agents-beyond-models-toward-data-and-api-quality/",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "우연한 글리치가 레딧의 스팸 탐지 기준과 방법을 드러냈다.",
+        "what": "레딧 안티스팸 메커니즘을 심층 분석한 글로, 모더레이션 도구·프로세스가 어떻게 작동하는지 spamurai, Perspective API 등 다양한 알고리즘 사용을 포함해 보여준다. 예상치 못한 글리치로 게시물 삭제의 내부 사유가 드러나 레딧의 스팸 탐지·제거 기준과 방법에 대한 통찰을 제공했다.",
+        "points": [
+          "spamurai·Perspective API 활용",
+          "글리치로 삭제 사유 노출",
+          "탐지 기준·방법 통찰"
+        ],
+        "why": [
+          "대형 플랫폼의 콘텐츠 모더레이션 내부를 이해하게 한다."
+        ]
+      }
     },
     {
       "id": "dev-linkedin-qa-agent",
-      "title": "링크드인, 비전-언어 모델 기반 자율 QA 에이전트 공개",
-      "summary": "다양한 UI 조합에서 앱을 테스트하는 자율 QA 에이전트를 빠른/느린 추론 하이브리드 구조로 구축했다.",
+      "title": "링크드인 QA 에이전트 — 자율 테스팅",
+      "summary": "VLM 다중모델·System1/2 구조로 UI 순열 자동 테스트.",
       "source": "LinkedIn Engineering",
       "url": "https://www.linkedin.com/blog/engineering/ai/qa-agent-reimagining-software-quality-with-ai-driven-autonomous-testing",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "링크드인이 VLM 기반 자율 QA 에이전트로 방대한 UI 순열을 테스트한다.",
+        "what": "링크드인이 AI와 비전-언어 모델로 앱을 테스트하는 자율 QA 에이전트를 만들었다. 수동·스크립트 테스트가 따라잡을 수 없는 방대한 UI 순열을 다룬다. 플래닝·에러 탐지·지시를 화면 좌표로 바꾸는 파인튜닝 모델의 다중 모델 구성과, UI가 그대로면 빠른 결정론적 재생, 바뀌면 느린 에이전트 추론으로 전환하는 하이브리드 'System 1/System 2' 아키텍처를 쓴다.",
+        "points": [
+          "VLM 다중 모델 구성",
+          "지시→화면 좌표 변환",
+          "System 1/2 하이브리드"
+        ],
+        "why": [
+          "AI가 대규모 UI 테스트 자동화의 실무 해법이 된다."
+        ]
+      }
     },
     {
-      "id": "dev-github-stacked-prs",
-      "title": "깃허브, 스택형 PR 기능 도입",
-      "summary": "큰 변경을 순차적 풀 리퀘스트로 쪼개고 UI·CLI로 관리하는 기능을 선보였다.",
-      "source": "GitHub",
-      "url": "https://github.github.com/gh-stack/",
-      "originalDate": "2026-07-01"
+      "id": "dev-production-ai-agents",
+      "title": "프로덕션급 AI 에이전트 구축 — 데이터·API 품질",
+      "summary": "에이전트 실패는 대개 인터페이스 문제, 분산 시스템으로 취급.",
+      "source": "Postman",
+      "url": "https://blog.postman.com/how-we-really-build-production-grade-ai-agents-beyond-models-toward-data-and-api-quality/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "프로덕션 AI 에이전트 실패는 모델이 아니라 인터페이스 문제에서 온다.",
+        "what": "프로덕션급 AI 에이전트는 대부분 미명세 API, 모호한 데이터, 부재한 가드레일 같은 인터페이스 문제로 실패한다. 팀은 모델 지능에 과몰입하지 말고 에이전트를 데이터 품질·API 품질·실행 품질 위에 세운 분산 시스템으로 다뤄야 한다. '에이전트 준비된' API가 전반적 에이전트 품질을 높인다.",
+        "points": [
+          "실패는 인터페이스 문제",
+          "에이전트=분산 시스템",
+          "'에이전트 준비된' API가 관건"
+        ],
+        "why": [
+          "에이전트 신뢰성의 초점을 모델에서 인프라로 옮긴다."
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-shrink-teams",
+      "title": "AI는 인원이 아니라 팀 크기를 줄여야 한다",
+      "summary": "작은 팀이 더 빠른 결정·명확한 오너십·가시성을 얻는다.",
+      "source": "Miguel Carranza",
+      "url": "https://miguelcarranza.es/small-teams",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AI는 감원이 아니라 팀 축소로 작은 팀의 속도·오너십·가시성을 높여야 한다.",
+        "what": "AI는 작은 팀이 더 빠르게 결정하고, 오너십을 더 명확히 하며, 진행 상황 가시성을 높이도록 돕는다.",
+        "points": [
+          "더 빠른 결정",
+          "명확한 오너십",
+          "진행 가시성 향상"
+        ],
+        "why": [
+          "AI 도입을 감원이 아닌 조직 구조 관점으로 재프레임한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-better-busier",
+      "title": "AI가 팀을 더 낫게 만드나, 더 바쁘게 만드나",
+      "summary": "도구 사용만 늘고 역량은 그대로일 위험, 두 KPI로 측정.",
+      "source": "Ably",
+      "url": "https://ably.com/blog/measure-ai-effectiveness-teams",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "AI 도입이 역량 향상 없이 도구 사용만 늘릴 수 있어 올바른 측정이 필요하다.",
+        "what": "AI 도입은 종종 역량의 근본 향상 없이 도구 사용만 늘려 같은 작업을 더 빨리 하는 데 그친다. 좋은 AI 영향 측정은 두 KPI에 집중한다. AI가 이전에 불가능했던 결과를 가능케 하는지, 그리고 AI가 일상 워크플로에 얼마나 깊이 통합됐는지다.",
+        "points": [
+          "도구 사용만 느는 함정",
+          "'가능해진 결과'가 KPI",
+          "워크플로 통합도 측정"
+        ],
+        "why": [
+          "AI ROI 측정 기준을 활동량이 아닌 성과로 바로잡는다."
+        ]
+      }
+    },
+    {
+      "id": "dev-why-specialization",
+      "title": "전문화는 필연이다",
+      "summary": "제약 환경에서 집중된 노력이 더 나은 성능을 낸다는 증거.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "제약 환경에서는 좁게 집중한 시스템이 범용보다 낫다.",
+        "what": "전문화는 AI에서 필수 원칙으로, 시스템은 범용을 지향하기보다 특정 과제에 좁게 집중할 때 최고 성능을 낸다. 최적화 이론, 생물학, 경쟁 시장 전반의 수학적·경험적 증거가 제약 환경에서 집중된 노력이 더 나은 성능으로 이어짐을 일관되게 보인다.",
+        "points": [
+          "좁은 집중이 고성능",
+          "여러 분야서 동일 증거",
+          "제약 환경서 특화 우위"
+        ],
+        "why": [
+          "에이전트·모델 설계의 특화 방향을 뒷받침한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-claude-sonnet-5",
+      "title": "Claude Sonnet 5 소개",
+      "summary": "자율 코딩·브라우징 등 에이전트 역량 향상, 성능·안전 개선.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Claude Sonnet 5가 코딩·브라우징 등 에이전트 역량과 성능·안전을 개선했다.",
+        "what": "Claude Sonnet 5는 코딩·브라우징 같은 작업을 자율 수행하도록 에이전트 역량을 향상한 새 모델로, 이전 세대 Sonnet 4.6 대비 더 나은 성능과 안전성을 제공한다.",
+        "points": [
+          "자율 코딩·브라우징 강화",
+          "Sonnet 4.6 대비 성능↑",
+          "안전성 개선"
+        ],
+        "why": [
+          "개발자용 에이전트 코딩의 기본기가 향상된다."
+        ]
+      }
     },
     {
       "id": "dev-expo-57",
-      "title": "Expo SDK 57 출시… React Native 0.86 반영",
-      "summary": "React Native 0.86 업그레이드를 담은 비파괴적 변경 위주 릴리스로, 향후 업데이트 주기를 단순화했다.",
+      "title": "Expo 57",
+      "summary": "React Native 0.86 업그레이드, 무중단 릴리스 케이던스 지향.",
       "source": "Expo",
       "url": "https://expo.dev/changelog/sdk-57",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Expo SDK 57이 React Native 0.86 기반 무중단 업그레이드로 나왔다.",
+        "what": "Expo SDK 57이 출시돼 React Native 0.86으로 업그레이드했으며 브레이킹 체인지 없는 손쉬운 업그레이드로 설계됐다. 메이저 릴리스 사이에 더 단순하고 비파괴적인 업데이트가 가능한 새 릴리스 케이던스로의 전환을 지향한다.",
+        "points": [
+          "React Native 0.86 업그레이드",
+          "브레이킹 체인지 없음",
+          "무중단 릴리스 케이던스 지향"
+        ],
+        "why": [
+          "앱 개발자의 업그레이드 부담을 줄인다."
+        ]
+      }
     },
     {
-      "id": "dev-apple-webkit-ai",
-      "title": "애플, AI 도구 도움으로 iOS·macOS WebKit 결함 패치",
-      "summary": "익스플로잇 개발을 앞지르기 위해 AI 도구로 속도를 낸 네 건의 WebKit 취약점 보안 업데이트를 배포했다.",
-      "source": "Security Affairs",
-      "url": "https://securityaffairs.com/194476/security/apple-fixes-webkit-flaws-in-ios-and-macos-with-help-from-ai-tools.html",
-      "originalDate": "2026-07-01"
+      "id": "dev-github-stacked-prs",
+      "title": "GitHub Stacked PRs",
+      "summary": "큰 변경을 서로 쌓이는 작은 PR로 분할, UI·CLI 지원.",
+      "source": "GitHub",
+      "url": "https://github.github.com/gh-stack/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "GitHub Stacked PRs가 큰 변경을 쌓이는 작은 PR로 나눈다.",
+        "what": "Stacked PRs는 큰 변경을 서로 위에 쌓이는 작고 관리 가능한 풀리퀘스트로 분할하게 해준다. GitHub UI와 강력한 CLI 모두 지원해 여러 PR에 걸친 매끄러운 탐색, 상태 확인, 연쇄 리베이스가 가능하다.",
+        "points": [
+          "큰 변경을 작은 PR로 분할",
+          "UI·CLI 지원",
+          "연쇄 리베이스"
+        ],
+        "why": [
+          "대형 변경의 리뷰 부담과 병합 복잡성을 줄인다."
+        ]
+      }
     },
     {
       "id": "dev-webernetes",
-      "title": "쿠버네티스를 브라우저에 이식하다: Webernetes",
-      "summary": "파드 라이프사이클과 네트워킹을 시뮬레이션하며 브라우저에서 클러스터를 돌리는 TypeScript 구현체.",
+      "title": "쿠버네티스를 브라우저에 이식했다",
+      "summary": "webernetes — TS로 부분 포팅, 브라우저서 클러스터 실행.",
       "source": "ngrok",
       "url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "webernetes가 쿠버네티스를 TypeScript로 부분 포팅해 브라우저에서 돌린다.",
+        "what": "webernetes라는 새 프로젝트가 쿠버네티스를 TypeScript로 부분 포팅해 브라우저에서 클러스터를 직접 실행하게 한다. 파드 생명주기, 배포 추적, 시뮬레이션 네트워킹 환경 같은 기능을 포함한다.",
+        "points": [
+          "TS 부분 포팅",
+          "브라우저서 클러스터 실행",
+          "파드 생명주기·배포 추적"
+        ],
+        "why": [
+          "학습·실험용 쿠버네티스 접근성을 높인다."
+        ]
+      }
     },
     {
-      "id": "dev-ai-busier",
-      "title": "AI가 팀을 더 낫게 만드나, 그저 더 바쁘게 만드나",
-      "summary": "AI 도입이 새 역량 없이 도구 사용만 늘리는 경우가 많다. 효과 측정은 이전엔 불가능했던 성과에 초점을 둬야 한다.",
-      "source": "Ably",
-      "url": "https://ably.com/blog/measure-ai-effectiveness-teams",
-      "originalDate": "2026-07-01"
+      "id": "dev-apple-webkit-ai",
+      "title": "애플, AI 도구 도움으로 WebKit 결함 수정",
+      "summary": "iOS·macOS·Safari의 WebKit 취약점 4건 신속 패치.",
+      "source": "Security Affairs",
+      "url": "https://securityaffairs.com/194476/security/apple-fixes-webkit-flaws-in-ios-and-macos-with-help-from-ai-tools.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "애플이 AI 도구 도움으로 발견한 WebKit 취약점 4건을 신속 패치했다.",
+        "what": "애플이 iOS·iPadOS·macOS·Safari 보안 업데이트를 내며 AI 도구 도움으로 발견한 WebKit 취약점 4건을 해결했다. AI가 알려진 결함을 작동하는 익스플로잇으로 바꾸는 속도 때문에 수정을 서둘렀다.",
+        "points": [
+          "WebKit 취약점 4건 수정",
+          "AI 도구로 발견",
+          "익스플로잇화 속도로 신속 패치"
+        ],
+        "why": [
+          "AI가 취약점 발견·악용 속도를 동시에 끌어올린다."
+        ],
+        "action": "iOS·macOS·Safari를 최신 보안 업데이트로 갱신한다."
+      }
+    },
+    {
+      "id": "dev-flexible-gates",
+      "title": "게이트를 선택이 아닌 유연하게 만들라",
+      "summary": "필수이되 유연한 승인 절차로 속도와 위험을 균형.",
+      "source": "wakamoleguy",
+      "url": "https://wakamoleguy.com/p/flexible-gates",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "필수이되 유연한 승인 절차가 속도와 위험 감수를 양립시킨다.",
+        "what": "필수이되 유연한 승인 절차를 구현하면 팀이 속도와 자신감을 유지하면서 계산된 위험을 감수할 수 있다.",
+        "points": [
+          "게이트는 필수로 유지",
+          "유연성으로 속도 확보",
+          "계산된 위험 감수"
+        ],
+        "why": [
+          "프로세스 게이트의 경직성 문제를 해결한다."
+        ]
+      }
     },
     {
       "id": "dev-worse-is-better",
-      "title": "'열등한 것이 낫다(Worse is better)'",
-      "summary": "기술적으로 우월한 대안보다 열등한 기술이 승리하곤 한다. '완벽'이 실용적 채택을 가로막기 때문이다.",
+      "title": "'Worse is Better'",
+      "summary": "열등해 보이는 기술이 인기를 얻는 이유, '완벽은 좋음의 적'.",
       "source": "ploeh blog",
       "url": "https://blog.ploeh.dk/2026/06/29/worse-is-better/",
-      "originalDate": "2026-06-29"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "열등해 보이는 기술이 인기를 얻는 것은 '완벽이 좋음의 적'이기 때문이다.",
+        "what": "'Worse is better'는 때로 열등한 기술·관행이 더 나아 보이는 대안을 제치고 인기를 얻는다는 것으로, 이는 대개 '완벽'이 '좋음'의 적이기 때문이다.",
+        "points": [
+          "열등해 보이는 기술의 승리",
+          "단순·실용성의 힘",
+          "완벽은 좋음의 적"
+        ],
+        "why": [
+          "소프트웨어 설계 철학의 고전적 트레이드오프를 환기한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-windows-lite",
+      "title": "마이크로소프트에 'Windows Lite'가 필요하다",
+      "summary": "텔레메트리·광고 없는 경량 윈도우로 개발자·게이머 유지.",
+      "source": "Philip Bohun",
+      "url": "https://philipbohun.com/blog/0011.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "텔레메트리·광고 없는 경량 Windows Lite가 개발자·게이머를 붙잡을 수 있다.",
+        "what": "마이크로소프트가 텔레메트리나 광고 없는 경량 버전 Windows Lite를 만들어 개발자와 게이머를 유지해야 한다는 주장이다.",
+        "points": [
+          "텔레메트리·광고 제거",
+          "경량 윈도우",
+          "개발자·게이머 유지"
+        ],
+        "why": [
+          "윈도우 이탈 우려에 대한 제품 제언이다."
+        ]
+      }
+    },
+    {
+      "id": "dev-gamelift-bandwidth",
+      "title": "멀티플레이어 게임에 최고의 소식?",
+      "summary": "Amazon GameLift, 멀티플레이어 무료 네트워크 대역폭 제공.",
+      "source": "MAS Bandwidth",
+      "url": "https://mas-bandwidth.com/the-best-thing-thats-ever-happened-for-multiplayer-games/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Amazon GameLift가 멀티플레이어 게임에 무료 네트워크 대역폭을 제공한다.",
+        "what": "Amazon GameLift Servers가 플랫폼에서 호스팅되는 멀티플레이어 게임에 무료 네트워크 대역폭을 제공해 인디·소규모 팀의 호스팅 비용을 낮춘다.",
+        "points": [
+          "무료 네트워크 대역폭",
+          "멀티플레이어 호스팅 비용↓",
+          "인디·소규모 팀 수혜"
+        ],
+        "why": [
+          "게임 서버 호스팅의 비용 구조를 바꾼다."
+        ]
+      }
     }
   ]
 }

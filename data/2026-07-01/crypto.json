@@ -6,68 +6,245 @@
   "bg": "#332a12",
   "items": [
     {
-      "id": "crypto-uk-framework",
-      "title": "英 FCA, 암호화폐 시장남용 규칙 등 포괄 규제안 확정",
-      "summary": "거래소·수탁·스테이블코인 발행사를 정식 인가 체제로 편입하고 시장남용을 금지한다. 신청은 9/30 개시, 시행은 2027/10/25.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/406546/uk-sets-capital-market-abuse-rules-landmark-crypto-framework",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "crypto-open-usd",
-      "title": "Open Standard, 140여 개 기업 지지 속 'Open USD' 출시",
-      "summary": "발행·상환 수수료가 없고 준비금 수익을 파트너와 공유하며 파트너 이사회가 거버넌스를 맡는 스테이블코인. Visa·BlackRock·Google·Coinbase 등이 지지한다.",
-      "source": "Open Standard",
-      "url": "https://joinopenstandard.com/blog/introducing-open-usd/",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "crypto-ethena-aladdin",
-      "title": "Ethena, BlackRock 'Aladdin'에 USDe 통합",
-      "summary": "20조 달러 이상 자산을 다루는 Aladdin 플랫폼에 USDe를 통합하고, BUIDL을 담보로 쓰는 화이트라벨 상품과 유동성 지원도 포함한다.",
-      "source": "Ethena (X)",
-      "url": "https://threadreaderapp.com/thread/2071579878282174586.html",
-      "originalDate": "2026-07-01"
-    },
-    {
-      "id": "crypto-bitmine-russell",
-      "title": "Bitmine, 이더 보유 570만 개로 확대… Russell 1000 편입",
-      "summary": "약 4,300만 달러어치 2.7만 ETH를 추가해 평균 단가 $1,569에 570만 개를 채웠다. 6/27 Russell 1000 편입으로 기관 유입을 기대한다.",
+      "id": "crypto-bitmine-eth-russell",
+      "title": "비트마인, ETH 570만 개로 확대…러셀 1000 편입",
+      "summary": "평균 $1,569에 570만 ETH 보유, 최대 공개 기업 ETH 보유사.",
       "source": "Cointelegraph",
       "url": "https://cointelegraph.com/news/bitmine-lifts-ethereum-holdings-to-57m-as-it-joins-russell-1000",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "비트마인이 ETH 보유를 570만 개로 늘리고 러셀 1000에 편입됐다.",
+        "what": "비트마인이 지난주 약 4,300만 달러에 27,000여 ETH를 추가해 총 570만 개, 평균 단가 $1,569로 늘렸다. 이는 유통량 1억 2,070만 개의 4.7%로 목표 5%에 근접한다. 6월 27일 러셀 1000에 편입돼 톰 리 회장은 패시브 인덱스 펀드 유입을 기대한다. BMNR은 월요일 1.7% 올라 $13.80에 마감했으나 ETH가 8% 하락하며 주간 9% 빠졌다. 비트마인은 총 98억 달러 규모로 최대 공개 기업 ETH 보유사다.",
+        "points": [
+          "570만 ETH, 평균 $1,569",
+          "러셀 1000 편입",
+          "최대 공개 기업 ETH 보유사"
+        ],
+        "why": [
+          "기업 재무의 ETH 축적과 지수 편입이 기관 자금 유입 경로를 넓힌다."
+        ]
+      }
     },
     {
-      "id": "crypto-central-banks-gold",
-      "title": "중앙은행들, 향후 10년 금 비중 확대·달러 축소 계획",
-      "summary": "지정학 리스크 상승에 순 30%의 중앙은행이 금 배분 확대를, 더 많은 곳이 달러 축소와 유로 확대를 계획한다.",
-      "source": "설문 (X)",
-      "url": "https://threadreaderapp.com/thread/2071909224666276251.html",
-      "originalDate": "2026-07-01"
+      "id": "crypto-uk-fca-framework",
+      "title": "영국 FCA, 크립토에 시장남용 규제 등 전면 인가 체계",
+      "summary": "거래소·수탁·스테이블코인·스테이킹·DeFi를 인가 대상에 포함.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/nSAW1m",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "영국 FCA가 크립토 전반을 전면 인가 체계로 편입하고 시장남용 규정을 도입했다.",
+        "what": "FCA가 6월 30일 광범위한 크립토 규제를 확정해 거래소, 수탁사, 스테이블코인 발행사, 스테이킹 제공사, 식별 가능한 DeFi 운영자를 처음으로 전면 인가 체계에 편입했다. 내부자 거래·시장 조작·미공개 정보 공개에 대한 명시적 시장남용 금지가 포함돼 전통 금융 규칙을 반영한다. 스테이블코인 자본계수는 제안된 2%에서 1%로 낮춰졌고, 인가 신청은 2026년 9월 30일 개시, 규제는 2027년 10월 25일 발효된다.",
+        "points": [
+          "거래소·수탁·스테이블코인·DeFi 인가 대상",
+          "시장남용 규정 신설",
+          "2027년 10월 25일 발효"
+        ],
+        "why": [
+          "주요국의 전면 규제화가 크립토 사업 구조를 바꾼다."
+        ],
+        "action": "영국 사업자는 2026년 9월 30일 인가 신청 개시에 대비해 컴플라이언스를 준비한다."
+      }
     },
     {
-      "id": "crypto-eth-state-access",
-      "title": "이더리움 상태 접근 해부: 쓰기 슬롯 55%는 1회 후 방치",
-      "summary": "쓰기 저장 슬롯의 55%가 한 번 생성 후 버려지고, 상위 1% 계정이 읽기 접근의 96~98%를 차지해 상태 계층화 제안을 뒷받침한다.",
+      "id": "crypto-ethena-blackrock-aladdin",
+      "title": "Ethena, USDe를 블랙록 Aladdin에 통합",
+      "summary": "$20조 운용 인프라에 USDe 접근, BUIDL을 담보로 채택.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071579878282174586.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Ethena가 블랙록과 3자 파트너십으로 USDe를 Aladdin에 통합한다.",
+        "what": "Ethena가 블랙록과 3부 기관 파트너십을 발표했다. USDe의 Aladdin 통합, Ethena 화이트라벨 제품의 주 담보로 BUIDL 채택, 블랙록 토큰화 제품군 지원 유동성 설비를 포함한다. 핵심은 Aladdin 통합으로, Aladdin은 20조 달러 이상 자산을 운용하는 기관의 운영 인프라라 USDe가 별도 온체인 온보딩 없이 기존 워크플로로 접근 가능해진다.",
+        "points": [
+          "USDe의 Aladdin 통합",
+          "BUIDL을 주 담보로 채택",
+          "$20조 운용 인프라 접근"
+        ],
+        "why": [
+          "전통 금융 운용 인프라와 DeFi 스테이블코인이 결합된다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-open-usd-launch",
+      "title": "Open Standard, 140여 개사 지원 'Open USD' 출범",
+      "summary": "발행/상환 수수료 없음, 준비금 수익 파트너 공유, 파트너 보드 거버넌스.",
+      "source": "Open Standard",
+      "url": "https://joinopenstandard.com/blog/introducing-open-usd/",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "140개 넘는 기업이 지원하는 스테이블코인 Open USD가 출범한다.",
+        "what": "잭 에이브럼스가 창업 CEO인 독립기업 Open Standard가 Open USD(OUSD)를 발표했다. 발행·상환 수수료 없음, 준비금 수익을 발행사가 아닌 파트너와 기본 공유, 단일 주체가 아닌 파트너 보드 거버넌스라는 3원칙으로 설계됐다. 결제(Visa·Mastercard·Stripe·Adyen 등), 은행(BlackRock·BNY·Standard Chartered 등), 테크(Google·Samsung·Shopify·DoorDash), 크립토(Coinbase·Ripple·Solana 등) 140여 개사가 참여했고 연내 출시 예정이다.",
+        "points": [
+          "수수료 없음·수익 파트너 공유",
+          "파트너 보드 거버넌스",
+          "140여 개사 참여, 연내 출시"
+        ],
+        "why": [
+          "중립적 스테이블코인 인프라가 기존 발행 모델에 도전한다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-consumer-app-2026",
+      "title": "2026년 훌륭한 크립토 소비자 앱 만들기",
+      "summary": "크립토는 기반 기술일 뿐, 특정 사용자 결과에 집중해야.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071536552123994203.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "크립토는 제품의 핵심 가치가 아닌 기반 기술이며, UX 규율이 로드맵을 이끌어야 한다.",
+        "what": "크립토는 제품의 주 가치 제안이 아니라 새 경험을 구동하는 기반이며, 각 제품은 범용 크립토 접근이 아닌 특정 사용자 결과를 겨냥해야 한다. 초기 사용자는 이미 목표 행동을 하고 10배 개선에 갈아탈 의향이 있어야 한다. 카테고리 승자는 새 행동을 발명하기보다 Aave·Revolut·BeReal처럼 기존 시장의 행동 변곡점에 진입한다.",
+        "points": [
+          "크립토는 기반, 가치는 사용자 결과",
+          "10배 개선 시 전환하는 초기 사용자",
+          "행동 변곡점 진입이 관건"
+        ],
+        "why": [
+          "크립토 제품의 성공 조건이 기술이 아닌 UX·타이밍임을 짚는다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-ethereum-state-access",
+      "title": "이더리움 상태 접근의 해부",
+      "summary": "쓰인 슬롯 55%는 1회 후 방치, 읽기 상위 1%가 96~98% 차지.",
       "source": "ethresear.ch",
       "url": "https://ethresear.ch/t/the-anatomy-of-ethereum-s-state-access/25317",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "이더리움 상태 성장은 재사용이 아닌 축적에서 오며 접근은 극소수에 집중된다.",
+        "what": "블록 24,870,000까지 이더리움 실행 계층 분석 결과, 쓰인 스토리지 슬롯의 약 55%가 한 번 생성 후 방치돼 상태 성장이 슬롯 재활용이 아닌 축적에서 온다. 읽기 측면에선 2022년 이후 상위 1% 계정이 전체 읽기의 96~98%를 차지하며 스테이블코인·DEX·빌더가 이 집단을 지배한다. 30일 창 내 라이브 상태의 약 3%만 활성이다.",
+        "points": [
+          "쓰인 슬롯 55%는 1회 후 방치",
+          "읽기 상위 1%가 96~98%",
+          "30일 내 활성 상태는 약 3%"
+        ],
+        "why": [
+          "상태 계층화 제안에 실증적 근거를 제공한다."
+        ]
+      }
     },
     {
-      "id": "crypto-sharplink-eth",
-      "title": "SharpLink, 1만 ETH 매입·213만 주 자사주 재매입",
-      "summary": "평균 약 $1,611에 1만 ETH를 사들여 총 886,725 ETH를 보유하게 됐다. 7,500만 달러 규모 직접 공모에 뒤이은 조치다.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/406721/sharplink-buys-10000-eth-repurchases-2-13-million-shares-latest-buyback",
-      "originalDate": "2026-07-01"
+      "id": "crypto-erc8004-trust",
+      "title": "ERC-8004은 에이전트 간 신뢰 네트워크인가?",
+      "summary": "등록 에이전트 95%가 비활성, 사실상 인간 주도 상태.",
+      "source": "ethresear.ch",
+      "url": "https://ethresear.ch/t/does-erc-8004-form-an-agent-to-agent-trust-network/25322",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "ERC-8004은 성숙한 A2A 신뢰망이 아니라 온체인 신원·평판 인프라에 가깝다.",
+        "what": "1월 29일~6월 9일 이더리움 메인넷의 ERC-8004 인과추론 분석 결과, 등록 에이전트의 95.19%가 비활성이며 약 32,865개 좀비 에이전트가 집중 배치 등록에 기인한다. 최대 소유 코호트(소유자당 251~1,250개)가 전체의 32.14%를 차지해 유기적 채택보다 레지스트리 집중을 시사한다. EOA가 피드백을 지배하고 에이전트 간 상호작용은 희소하다.",
+        "points": [
+          "등록 에이전트 95% 비활성",
+          "배치 등록發 좀비 에이전트 다수",
+          "에이전트 간 상호작용 희소"
+        ],
+        "why": [
+          "'에이전트' 프레이밍 이면의 인간 주도 현실을 드러낸다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-open-usd-design",
+      "title": "Open USD의 진짜 혁신은 설계 선택",
+      "summary": "수수료·볼륨 캡 없음, 준비금 수익 파트너 기본 귀속.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071951725737435242.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Open USD의 핵심은 후원사 로고가 아니라 구조적 설계 선택이다.",
+        "what": "Open USD 출범에서 가장 중요한 것은 140여 개 후원사 로고가 아니라 구조적 설계 선택이다. 발행·상환 수수료 없음, 임의 볼륨 캡 없음, 준비금 수익이 발행사가 아닌 파트너에게 기본 귀속된다. Open Standard는 특정 기업의 제품보다 SWIFT나 초기 청산소에 가까운, 신뢰할 만한 중립 금융 시장 인프라다.",
+        "points": [
+          "수수료·볼륨 캡 없음",
+          "수익 파트너 기본 귀속",
+          "SWIFT급 중립 인프라 지향"
+        ],
+        "why": [
+          "스테이블코인의 경쟁 축이 규모에서 구조로 이동한다."
+        ]
+      }
     },
     {
       "id": "crypto-pumpfun-buyback",
-      "title": "Pump.fun, PUMP 자사주 매입 4억 달러 넘겼지만 가격 정체",
-      "summary": "2025년 중반 이후 4억 달러 넘게 PUMP를 되샀으나 토큰은 사상 최고가 대비 약 83% 낮은 채 반응이 미미하다.",
+      "title": "Pump.fun, PUMP 자사매입 4억 달러 돌파했지만 가격 정체",
+      "summary": "매입에도 토큰은 사상 최고가 대비 약 83% 낮은 수준.",
       "source": "The Defiant",
       "url": "https://thedefiant.io/news/defi/pump-fun-s-pump-buybacks-top-usd400m-as-token-stays-flat",
-      "originalDate": "2026-07-01"
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "Pump.fun의 4억 달러 넘는 자사매입에도 PUMP 가격은 반응이 미미하다.",
+        "what": "Pump.fun이 2025년 중반 솔라나 밈코인 런치패드 데뷔 이후 PUMP 토큰을 4억 달러 넘게 재매입했지만, 토큰은 사상 최고가 대비 약 83% 낮은 수준에서 거래되며 매입 활동에 거의 반응하지 않는다.",
+        "points": [
+          "자사매입 4억 달러 돌파",
+          "가격은 ATH 대비 -83%",
+          "매입에도 반응 미미"
+        ],
+        "why": [
+          "토큰 바이백의 가격 방어 한계를 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-sharplink-eth",
+      "title": "SharpLink, 1만 ETH 매입·213만 주 자사주 매입",
+      "summary": "평균 ~$1,611에 매입, 총 886,725 ETH 보유.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/m0UP9y",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "SharpLink가 1만 ETH를 추가 매입해 총 886,725 ETH를 보유한다.",
+        "what": "SharpLink가 평균 약 $1,611에 1만 ETH를 매입해 총 886,725 ETH(네이티브 632,719, LsETH 181,299, weETH 72,707)를 보유하게 됐다. 지난주 7,500만 달러 등록 직접 공모에 이은 것이다.",
+        "points": [
+          "1만 ETH 평균 ~$1,611 매입",
+          "총 886,725 ETH 보유",
+          "213만 주 자사주 매입"
+        ],
+        "why": [
+          "기업 재무의 ETH 축적 추세가 이어진다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-central-banks-gold",
+      "title": "중앙은행들, 금 확대·달러 축소 계획",
+      "summary": "향후 10년 순 30%가 금 확대, 지정학 위험이 배경.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071909224666276251.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "순 30% 중앙은행이 향후 10년 금 비중을 늘릴 계획이다.",
+        "what": "순 30%의 중앙은행이 지정학 위험 증가를 배경으로 향후 10년간 금 배분을 늘릴 계획이다. 더 많은 중앙은행이 미 달러 노출을 줄이고 유로 자산 보유를 늘리려 한다.",
+        "points": [
+          "순 30% 금 확대 계획",
+          "달러 노출 축소",
+          "유로 자산 확대"
+        ],
+        "why": [
+          "준비자산 재편이 매크로·크립토 서사에 영향을 준다."
+        ]
+      }
+    },
+    {
+      "id": "crypto-storytelling-narrative",
+      "title": "크립토, AI×크립토 서사 위해 더 나은 스토리텔링 필요",
+      "summary": "결정적 시점에 서사 우위를 잃었다는 지적.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2071581575385436349.html",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "크립토가 결정적 순간에 서사 우위를 잃었다는 주장이다.",
+        "what": "크립토가 하필 잘못된 시점에 서사 우위를 잃었다는 지적으로, AI×크립토 내러티브에서 이기려면 더 나은 스토리텔링이 필요하다는 논지다.",
+        "points": [
+          "서사 우위 상실",
+          "AI×크립토 경쟁",
+          "스토리텔링 필요"
+        ],
+        "why": [
+          "내러티브가 크립토 자금·관심 흐름을 좌우한다."
+        ]
+      }
     }
   ]
 }
