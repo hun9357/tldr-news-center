@@ -1,0 +1,120 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-openai-gov-stake",
+      "title": "오픈AI, 美 정부에 5% 지분 제안",
+      "summary": "오픈AI가 정치적 압박 완화를 위해 약 426억 달러 규모의 5% 지분을 미국 정부에 제안했다. 샘 알트먼은 'AI 혜택을 대중과 공유'하는 방안이라고 설명했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/",
+      "originalDate": "2026-07-02",
+      "report": {
+        "tldr": "AI 기업과 국가 자본이 결합되는 전례 없는 지배구조 실험이 시작됐다.",
+        "what": "오픈AI가 미국 정부에 5%(약 426억 달러) 지분을 제안하며 공공의 AI 이익 공유를 명분으로 내세웠다.",
+        "points": ["지분 5%, 가치 약 426억 달러", "샘 알트먼이 직접 명분 제시", "AI 규제·안보 논쟁과 맞물림"],
+        "why": ["민간 AI와 국가 자본의 유착 가능성", "규제 완화 협상 카드로 해석 가능"],
+        "context": "미 연방은 첨단 AI 접근 통제와 중국 견제 사이에서 균형을 모색 중이다.",
+        "action": "정부 지분 논의가 다른 프런티어 랩으로 확산되는지 주시."
+      }
+    },
+    {
+      "id": "tech-spacex-handset",
+      "title": "스페이스X, AI 스마트폰 프로토타입 공개",
+      "summary": "스페이스X가 IPO 전 투자자 대상으로 자체 소프트웨어와 퀄컴 스냅드래곤을 탑재한 스마트폰 시제품을 시연했다. 머스크는 애플의 앱 배포 정책에 대한 불만이 배경이라고 전해졌다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "tech-cheap-robots",
+      "title": "1만 달러 이하 범용 로봇 붐",
+      "summary": "노리 로보틱스의 1,400달러 양팔 로봇, 위브의 8,000달러 가정용 이동 매니퓰레이터 등 저가 범용 로봇 출시가 잇따르고 있다.",
+      "source": "It Can't Think",
+      "url": "https://itcantthink.substack.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "tech-synthetic-cell",
+      "title": "합성 세포, 성장·분열 실현",
+      "summary": "비생명 성분으로 만든 세포가 DNA를 복제하고 분열에 성공했다. 생명 기원 연구의 진전이지만 외부 영양분 공급에 의존한다.",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "tech-meta-rayban-dev",
+      "title": "메타, 레이밴 디스플레이 개발자 가이드 공개",
+      "summary": "메타가 표준 웹 API와 Claude Code·Cursor 같은 AI 코딩 도구로 레이밴 디스플레이용 웹앱을 만드는 문서를 공개했다.",
+      "source": "Meta Developer",
+      "url": "https://developers.meta.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "tech-meta-cloud",
+      "title": "메타, 잉여 AI 컴퓨팅 클라우드 사업 추진",
+      "summary": "메타가 남는 AI 연산 능력을 수익화하는 클라우드 사업을 개발 중이다. 호스팅 모델 또는 원시 컴퓨팅 제공으로 하이퍼스케일러와 경쟁할 수 있다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "originalDate": "2026-07-02",
+      "intel": {
+        "impact": "High",
+        "confidence": "78%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 인프라 · 클라우드"
+      }
+    },
+    {
+      "id": "tech-zcode-env",
+      "title": "ZCode 개발 환경 출시",
+      "summary": "GLM-5.2용 공식 개발 환경 ZCode가 macOS·윈도우·리눅스에서 출시됐으며 구독자에게 확대된 사용량을 제공한다.",
+      "source": "Zai",
+      "url": "https://zcode.z.ai/en",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "tech-ai-regulation-debate",
+      "title": "AI 규제 논쟁 격화",
+      "summary": "연방 당국이 혁신과 안보 균형을 두고 고심하는 가운데, 첨단 AI 도구 접근 통제와 대중국 경쟁력 유지 논쟁이 확대되고 있다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "tech-arxiv-independence",
+      "title": "arXiv, 독립 비영리로 전환",
+      "summary": "arXiv가 코넬대 산하 25년 운영을 마치고 7월 1일 독립 비영리 기관으로 전환했다.",
+      "source": "arXiv Blog",
+      "url": "https://blog.arxiv.org/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "tech-html-usermedia",
+      "title": "크롬, 새 HTML 'usermedia' 요소 도입",
+      "summary": "크롬이 보일러플레이트를 줄이고 미디어 접근 거부 사용자의 복구·보안을 강화하는 단순화된 HTML 요소를 도입했다.",
+      "source": "Chrome Developer Blog",
+      "url": "https://developer.chrome.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "tech-spacex-valuation",
+      "title": "스페이스X 시총 2.16조 달러 돌파",
+      "summary": "스페이스X가 6월 말 주당 164달러로 2조1,630억 달러의 시가총액을 기록했다.",
+      "source": "APNIC Blog",
+      "url": "https://blog.apnic.net/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "tech-xbox-disc-to-digital",
+      "title": "엑스박스, 물리 디스크→디지털 전환 실험",
+      "summary": "엑스박스가 물리 게임 디스크를 계정 간 이전 가능한 디지털 소유권으로 변환하는 기술을 시험 중이다.",
+      "source": "Polygon",
+      "url": "https://www.polygon.com/",
+      "originalDate": "2026-07-02"
+    }
+  ]
+}

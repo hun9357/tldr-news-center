@@ -1,0 +1,126 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-exposed-ai-endpoints",
+      "title": "노출된 AI 엔드포인트, 공격 인프라로 악용",
+      "summary": "인증이 없는 Ollama·LiteLLM 인스턴스를 악용해 자율 침투테스트 프레임워크로 공격 작전을 수행하는 사례가 확인됐다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/",
+      "originalDate": "2026-07-02",
+      "intel": {
+        "impact": "High",
+        "confidence": "82%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "Ollama · LiteLLM"
+      }
+    },
+    {
+      "id": "infosec-dhs-hsin-breach",
+      "title": "해커, DHS 정보공유망 침해",
+      "summary": "미상의 행위자가 연방·주·지방·산업 파트너가 공유하는 비기밀 민감 운영 데이터를 담은 국토안보정보네트워크(HSIN)에 접근했다.",
+      "source": "NextGov",
+      "url": "https://www.nextgov.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "infosec-azure-cli-spray",
+      "title": "애저 CLI 패스워드 스프레이, 78개 계정 탈취",
+      "summary": "8,100만 회 이상의 자동 자격증명 스프레이로 약한 MFA와 폐기된 OAuth 흐름을 악용해 64개 조직 78개 계정이 침해됐다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "originalDate": "2026-07-02",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "Azure CLI · OAuth"
+      }
+    },
+    {
+      "id": "infosec-argocd-rce",
+      "title": "Argo CD 미인증 RCE (Octopus Trap)",
+      "summary": "미인증 공격자가 Argo CD repo-server에서 명령을 실행하고 Redis 자격증명 탈취로 쿠버네티스 클러스터까지 침투 가능함을 CodeQL로 입증했다.",
+      "source": "Synacktiv",
+      "url": "https://www.synacktiv.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "infosec-slack-ai-multicloud",
+      "title": "슬랙 AI, 멀티클라우드 라우터 구축",
+      "summary": "슬랙이 AWS·GCP 등 여러 클라우드의 AI 모델 접근을 관리하는 지능형 라우터를 만들어 복원력과 모델 다양성을 높였다.",
+      "source": "Slack Engineering",
+      "url": "https://slack.engineering/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "infosec-uv-audit",
+      "title": "uv, 취약점·악성코드 점검 기능 추가",
+      "summary": "uv 패키지 매니저가 네이티브 취약점 스캔(uv audit)과 선택적 악성코드 탐지를 추가해 공급망 보호를 강화했다.",
+      "source": "Astral",
+      "url": "https://astral.sh/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "infosec-apple-hide-email",
+      "title": "애플 '이메일 가리기' 실주소 노출 버그",
+      "summary": "애플의 일회용 이메일 별칭 서비스의 버그로 공격자가 기저 실주소를 알아낼 수 있다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "infosec-fortibleed-lynx",
+      "title": "FortiBleed 자격증명 탈취, Lynx 랜섬웨어 연계",
+      "summary": "맞춤형 스니퍼로 43만 대 이상 FortiGate 방화벽을 침해했으며 약 1만1천 대가 여전히 활성 감염 상태다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/",
+      "originalDate": "2026-07-02",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "FortiGate 방화벽"
+      }
+    },
+    {
+      "id": "infosec-scattered-spider-arrest",
+      "title": "스캐터드 스파이더 조직원 체포·인도",
+      "summary": "미국-에스토니아 이중국적 피터 스톡스(19)가 핀란드에서 체포돼 스캐터드 스파이더 관련 혐의로 미국에 인도됐다.",
+      "source": "U.S. DOJ",
+      "url": "https://www.justice.gov/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "infosec-adobe-coldfusion-patch",
+      "title": "어도비, 최대 심각도 콜드퓨전·캠페인 결함 7건 패치",
+      "summary": "어도비가 원격 코드 실행이 가능한 콜드퓨전 6건과 캠페인 클래식 1건의 치명적 취약점을 패치했다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "infosec-glm-security-emergency",
+      "title": "'GLM-5.2가 진짜 보안 비상'",
+      "summary": "GLM-5.2 같은 오픈 웨이트 모델은 안전장치를 손쉽게 파인튜닝으로 제거할 수 있어 심각한 보안 위험을 제기한다는 주장이다.",
+      "source": "Joshua Saxe",
+      "url": "https://joshsaxe.substack.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "infosec-llm-role-spoofing",
+      "title": "역할 스푸핑을 통한 LLM 탈옥",
+      "summary": "추론된 LLM 역할을 악용하는 'Chain-of-Thought Forgery' 공격이 약 60% 탈옥 성공률로 유해 콘텐츠 생성을 유도했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/",
+      "originalDate": "2026-07-02"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-02",
+  "weekday": "목",
+  "headline": "오픈AI, 美 정부에 5% 지분 제안",
+  "subtitle": "유럽 MiCA 전면 발효, 애저 CLI 대규모 자격증명 스프레이, 메타 AI 클라우드 진출도 주목",
+  "keyword": "오픈AI · AI 지배구조 · MiCA · 보안",
+  "bigStoryId": "ai-openai-gov-stake",
+  "editions": ["tech", "ai", "infosec", "it", "crypto", "dev", "design", "marketing", "data", "fintech"],
+  "lastUpdated": "09:09 CDT",
+  "syncedAt": "09:09",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "7,483.23", "change": "▼ 0.22%" },
+  "stats": { "companies": 34, "security": 16, "deals": 6, "policy": 9 },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "노출된 AI 엔드포인트·자격증명 스프레이 동시 급증",
+      "body": "인증 없는 Ollama·LiteLLM 인스턴스가 공격 인프라로 악용되고, 애저 CLI에는 8,100만 회 규모 패스워드 스프레이로 64개 조직 78개 계정이 뚫렸다. 약한 MFA와 폐기된 OAuth 흐름이 공통 진입점이다.",
+      "severity": "8.4",
+      "velocity": "Rising",
+      "action": "MFA 강제·AI 엔드포인트 인증 점검"
+    },
+    {
+      "kind": "market",
+      "title": "반도체 차익실현에 S&P 소폭 하락",
+      "body": "상반기 80% 넘게 급등한 반도체주 차익실현으로 S&P 500이 7,483.23(▼0.22%)에 마감했다. 메타는 클라우드 사업 발표로 약 9% 급등하며 예외였다.",
+      "severity": "",
+      "velocity": "",
+      "action": ""
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "오픈AI 정부 지분 제안의 입법·협상 진전 여부, MiCA 발효 후 EU 거래소 상장 폐지 여파, FortiBleed 잔존 감염(약 1.1만 대)과 어도비 콜드퓨전 RCE 패치 적용 상황을 추적."
+    }
+  ]
+}

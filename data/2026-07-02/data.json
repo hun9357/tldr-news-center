@@ -1,0 +1,121 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-llm-spark-plans",
+      "title": "LLM으로 Spark SQL 플랜 분석",
+      "summary": "익스피디아가 LLM으로 Spark 실행 플랜을 분석해 비효율 조인·스큐 데이터 같은 병목을 찾아 프로덕션 장기 잡의 트러블슈팅을 가속했다.",
+      "source": "Expedia Group Tech",
+      "url": "https://medium.com/expedia-group-tech",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-ontology-everywhere",
+      "title": "온톨로지, 어디에나",
+      "summary": "AI 에이전트가 스키마를 넘어 명시적 비즈니스 의미를 요구하면서 온톨로지가 데이터 플랫폼에 실용화되고 있다. 고가치 시스템에는 사람이 큐레이션한 시맨틱이 여전히 필수다.",
+      "source": "Hands on Data",
+      "url": "https://handsondata.substack.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-meta-demate",
+      "title": "메타의 데이터 엔지니어링 어시스턴트 DEmate",
+      "summary": "메타의 DEmate가 내부 카탈로그에 대한 RAG와 다단계 추론·사람 피드백을 결합해 데이터 엔지니어의 SQL·파이프라인 생성을 돕는다.",
+      "source": "Analytics at Meta",
+      "url": "https://medium.com/analytics-at-meta",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-moving-target-indexes",
+      "title": "움직이는 대상에 인덱스 구축하기",
+      "summary": "아파치 후디가 지속 갱신 데이터셋의 인덱싱 전략을 검토하며, 고속 데이터 레이크에서 신선도·쿼리 성능·쓰기 오버헤드를 균형 잡는다.",
+      "source": "Apache Hudi Blog",
+      "url": "https://hudi.apache.org/blog",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-too-many-tables",
+      "title": "테이블이 너무 많으면 해롭다",
+      "summary": "포스트그레SQL은 테이블 과다 시 카탈로그 팽창과 느린 쿼리 플래닝으로 성능이 저하된다. 테이블 통합과 파티셔닝이 완화에 도움이 된다.",
+      "source": "Cybertec PostgreSQL",
+      "url": "https://www.cybertec-postgresql.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-ownership-problem",
+      "title": "데이터 품질 문제는 결국 소유권 문제",
+      "summary": "데이터 품질 실패는 불명확한 소유권에서 비롯된다. 명명된 소유자와 버전 관리가 있는 명시적 지표 거버넌스가 지속가능한 개선을 보장한다.",
+      "source": "Medium",
+      "url": "https://medium.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-duckdb-move",
+      "title": "DuckDB로 이전: 더 빠르고 똑똑한 쿼리",
+      "summary": "아르세시움이 아테나→트리노→DuckDB로 이전해 중소 워크로드에서 비용·런타임을 약 50% 줄이며 스키마 진화 과제를 다뤘다.",
+      "source": "Arcesium Engineering",
+      "url": "https://medium.com/arcesium-engineering-blog",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-tabfm",
+      "title": "TabFM: 표 데이터용 제로샷 파운데이션 모델",
+      "summary": "TabFM은 예측을 인컨텍스트 학습으로 프레이밍해 데이터셋별 학습과 하이퍼파라미터 튜닝을 없앤다. 구조적 인과 모델로 만든 합성 데이터로 학습됐다.",
+      "source": "Google Research Blog",
+      "url": "https://research.google/blog/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-sedonadb-04",
+      "title": "SedonaDB 0.4: GPU 가속 공간 조인",
+      "summary": "SedonaDB의 레이부스터가 엔비디아 레이트레이싱 코어로 지오메트리 쿼리를 최대 5.9배 가속해 인프라 비용을 크게 줄인다.",
+      "source": "Apache Sedona Blog",
+      "url": "https://sedona.apache.org/latest/blog/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-tidb",
+      "title": "TiDB",
+      "summary": "MySQL 호환, 수평 확장, 트랜잭션·분석·벡터 검색을 제공하는 오픈소스 분산 SQL 데이터베이스다.",
+      "source": "GitHub",
+      "url": "https://github.com/pingcap/tidb",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-sqlite-corrupt",
+      "title": "SQLite 데이터베이스 파일 손상시키는 법",
+      "summary": "SQLite는 손상에 강하지만 안전하지 않은 파일 접근·깨진 잠금·실패한 동기화·위험한 설정은 여전히 DB를 망칠 수 있다.",
+      "source": "SQLite.org",
+      "url": "https://www.sqlite.org/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-residency-infra",
+      "title": "데이터 레지던시는 법 문제가 아니라 인프라 설계 문제",
+      "summary": "데이터 레지던시는 스토리지 정책만이 아니라 저장·처리·로깅·컴퓨팅 위치를 고려하는 지역 인식 인프라를 요구한다.",
+      "source": "HackerNoon",
+      "url": "https://hackernoon.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-foundation-underperform",
+      "title": "AI가 아니라 데이터 기반이 부진한 것",
+      "summary": "조직은 실제 비즈니스 성과보다 '보이는 활동과 토큰 사용량'을 최적화할 위험이 있다.",
+      "source": "Elastic Blog",
+      "url": "https://www.elastic.co/blog/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "data-dbt-fusion",
+      "title": "dbt Fusion Wizard 고급 활용",
+      "summary": "dbt Labs가 기본 모델링을 넘어서는 dbt Fusion Wizard의 고급 사용 사례를 시연했다.",
+      "source": "dbt Labs",
+      "url": "https://docs.getdbt.com/",
+      "originalDate": "2026-07-02"
+    }
+  ]
+}

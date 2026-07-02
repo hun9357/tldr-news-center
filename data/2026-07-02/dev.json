@@ -1,0 +1,129 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-client-load-balancing",
+      "title": "초당 100만 요청 클라이언트 사이드 로드밸런싱",
+      "summary": "잘란도가 라우팅 결정을 공유 엣지 로드밸런서에서 클라이언트로 옮겨 초당 100만 요청 이상을 처리하며 지연과 비용을 줄였다.",
+      "source": "Zalando Engineering",
+      "url": "https://engineering.zalando.com/posts/2026/06/client-side-load-balancing.html",
+      "originalDate": "2026-06-30"
+    },
+    {
+      "id": "dev-graphics-programmer",
+      "title": "실시간 그래픽스 프로그래머가 되려면",
+      "summary": "CPU/GPU 렌더링, DirectX12·Vulkan, C++, 셰이더 언어, PBR 원리에 대한 지식이 필요하다.",
+      "source": "Demofox",
+      "url": "https://blog.demofox.org/2026/07/01/what-to-learn-to-be-a-graphics-programmer/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-meta-ai-storage",
+      "title": "메타의 대규모 AI 스토리지 설계",
+      "summary": "메타가 메타데이터 서브시스템을 재구축하고 프리페칭이 있는 계층형 캐싱을 도입해 AI 워크로드용 스토리지와 데이터 수집 속도를 최적화했다.",
+      "source": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "dev-dark-mode-standards",
+      "title": "웹 표준으로 다크 모드 구현",
+      "summary": "시스템 다크 모드 설정을 존중하되 사이트별 토글로 사용자 맞춤을 제공하라는 조언이다.",
+      "source": "olliewilliams.xyz",
+      "url": "https://olliewilliams.xyz/blog/dark-mode/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-rewrites-engineer",
+      "title": "대부분의 재작성은 비즈니스가 아닌 엔지니어를 위한 것",
+      "summary": "코드 재작성은 흔히 비즈니스 필요보다 엔지니어 취향을 반영하며 축적된 맥락을 희생한다. 측정 가능한 기술 문제에 한해서만 재작성하라.",
+      "source": "anatoliybabushka.com",
+      "url": "https://anatoliybabushka.com/blog/when-to-rewrite-working-code.html",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-zcode-3",
+      "title": "ZCode 3.0",
+      "summary": "AI 에이전트 협업으로 앱 계획·코딩·리뷰·배포를 지원하는 최적화 플랫폼이다.",
+      "source": "Zai",
+      "url": "https://zcode.z.ai/en",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-openwiki",
+      "title": "OpenWiki",
+      "summary": "코드베이스용 에이전트 중심 문서를 작성·유지하는 CLI 도구로 모델 설정을 커스터마이즈할 수 있다.",
+      "source": "GitHub",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-fable5-redeploy",
+      "title": "Claude Fable 5 재배포",
+      "summary": "미국 수출 통제로 잠시 중단됐던 Fable 5·Mythos 5 접근이 복원됐다. 앤스로픽은 정부와 AI 보안 프레임워크를 협력한다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-two-modems",
+      "title": "두 모뎀 이야기",
+      "summary": "애플이 미국 아이폰 18 프로에는 mmWave 지원 퀄컴 모뎀을, 해외판에는 mmWave 없는 자체 C2 모뎀을 쓴다.",
+      "source": "Daring Fireball",
+      "url": "https://daringfireball.net/2026/07/a_tale_of_two_modems",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-databricks-gpu",
+      "title": "데이터브릭스, GPU 신뢰성 유지법",
+      "summary": "GPU 장애는 잡 크래시·무증상 성능 저하·수치 손상을 유발한다. 데이터브릭스는 사전 스트레스 테스트와 상시 모니터링으로 대응한다.",
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/how-we-keep-gpus-reliable-across-databricks-ai",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-sandboxing-agent",
+      "title": "AI 에이전트 샌드박싱",
+      "summary": "자율 AI 에이전트는 감독 없는 명령 실행과 신뢰할 수 없는 데이터 접근의 위험을 줄이기 위해 샌드박스 환경이 필요하다.",
+      "source": "sajalsharma.com",
+      "url": "https://sajalsharma.com/posts/sandboxing-an-ai-agent/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-arxiv-spinout",
+      "title": "arXiv, 코넬대서 분사",
+      "summary": "arXiv가 25년 만에 7월 1일 독립 비영리 기관이 됐다.",
+      "source": "arXiv Blog",
+      "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
+      "originalDate": "2026-06-30"
+    },
+    {
+      "id": "dev-meta-token-cap",
+      "title": "메타, 내부 AI 토큰 지출 상한 도입",
+      "summary": "메타가 2026년 내부 AI 사용 비용이 수십억 달러에 근접하자 직원 AI 사용에 지출 통제를 도입했다.",
+      "source": "mlq.ai",
+      "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-gin-simple",
+      "title": "Gin 만들기: 쉬움보다 단순함",
+      "summary": "Gin은 리플렉션 기반 복잡성을 피하고 하위 호환성을 유지하며 단순성과 성능을 우선하는 Go 웹 프레임워크다.",
+      "source": "manualmeida.dev",
+      "url": "https://manualmeida.dev/articles/gin-simple-over-easy/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "dev-meta-cloud-nextplatform",
+      "title": "메타는 결국 클라우드가 된다",
+      "summary": "메타가 AI 인프라와 잉여 용량을 활용해 AWS·애저·구글 클라우드와 경쟁하는 클라우드 서비스에 진입할 계획이다.",
+      "source": "The Next Platform",
+      "url": "https://www.nextplatform.com/cloud/2026/07/01/of-course-meta-platforms-is-going-to-be-a-cloud/5265392",
+      "originalDate": "2026-07-01"
+    }
+  ]
+}

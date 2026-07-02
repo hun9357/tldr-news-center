@@ -1,0 +1,105 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-audio-branding",
+      "title": "당신의 로고는 어떤 소리가 나는가",
+      "summary": "오디오 우선 환경으로 소비가 이동하며 음향 브랜딩의 중요성이 커진다. 소리는 시각보다 강한 감정적 회상을 만들고 주의를 기울이지 않을 때도 작동한다.",
+      "source": "LBBOnline",
+      "url": "https://www.lbbonline.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-influencer-discovery",
+      "title": "미국인 4명 중 1명, 인플루언서로 제품 발견",
+      "summary": "Z세대는 인플루언서(41%)로, 베이비부머는 TV·라디오(41%)로 제품을 발견하며 세대 격차가 역전됐다. 인플루언서는 미국 성인 27%로 발견 채널 9위다.",
+      "source": "YouGov",
+      "url": "https://yougov.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-blogging-collapse",
+      "title": "연구: 블로깅의 대붕괴",
+      "summary": "성공한 블로그 대부분이 구글 알고리즘 업데이트와 AI 검색 이후 중간값 트래픽이 85% 감소했다. 독창적 경험 기반 콘텐츠 블로그만 성장 중이다.",
+      "source": "danielstanica.com",
+      "url": "https://danielstanica.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-ai-brain",
+      "title": "AI 브레인을 구축하라",
+      "summary": "마케터는 여러 도구의 인사이트를 재사용 가능한 지능 계층에 집중시켜 지식 손실을 막고 산출물을 복리로 개선해야 한다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-cursor-subreddit",
+      "title": "커서, 브랜드 서브레딧으로 BoFu 대화 장악",
+      "summary": "커서의 14만3천 명 서브레딧이 구매 의도 키워드로 랭크되고 투명한 직원 응답으로 검색 가시성을 키워 월 9,600건 오가닉 방문을 유도한다.",
+      "source": "Foundation",
+      "url": "https://foundationinc.co/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-sony-walkman",
+      "title": "소니가 워크맨 4억 대를 판 방법",
+      "summary": "소니는 기능을 더하지 않고 빼는 방식으로 성공했다. 고객이 말한 것을 만드는 대신 가격을 낮추고 제품 목적을 명확히 했다.",
+      "source": "Strategy Breakdowns",
+      "url": "https://strategybreakdowns.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-ai-visual-reports",
+      "title": "AI 팁: 데이터를 시각 리포트로",
+      "summary": "AI가 원시 마케팅 데이터를 몇 분 만에 인터랙티브 대시보드로 변환해 스프레드시트에서 놓치기 쉬운 패턴을 드러낸다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-claude-gamma",
+      "title": "Claude x Gamma: 18분 만에 덱 제작",
+      "summary": "Claude로 구조화된 콘텐츠를 생성하고 Gamma로 템플릿 디자인을 처리해 피치덱 제작을 자동화하는 워크플로다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-crisis-marketing",
+      "title": "가장 영리한 식품 마케팅은 위기에서 시작된다",
+      "summary": "킷캣·칼비 같은 브랜드는 운영 위기를 숨기지 않고 참여형 마케팅 순간으로 전환해 상당한 언드 미디어를 만들었다.",
+      "source": "Bakery and Snacks",
+      "url": "https://www.bakeryandsnacks.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-stale-data-agents",
+      "title": "AI 에이전트, 수년간 미검증 데이터로 마케팅 결정",
+      "summary": "마케팅 자동화 AI가 3~5년 전 구축된 낡은 데이터 계층에서 작동해, 사람이 검토 중 잡아냈을 도달성·파이프라인 문제를 일으킨다.",
+      "source": "AdExchanger",
+      "url": "https://www.adexchanger.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-mascot",
+      "title": "훌륭한 마케팅 마스코트의 조건",
+      "summary": "가장 흔한 마스코트 실수는 캐릭터를 브랜드보다 더 기억에 남게 만드는 것이다.",
+      "source": "The Drum",
+      "url": "https://www.thedrum.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "marketing-weak-hiring-youth",
+      "title": "약한 채용이 AI보다 청년을 더 해친다",
+      "summary": "청년 실업 증가는 AI발 스킬 격차보다 일자리 부족에서 주로 기인한다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "originalDate": "2026-07-02"
+    }
+  ]
+}

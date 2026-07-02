@@ -1,0 +1,89 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-azure-cli-spray",
+      "title": "애저 CLI 패스워드 스프레이 캠페인",
+      "summary": "8,100만 회 이상 로그인 시도로 64개 조직 78개 계정이 침해됐으며, 조건부 접근을 켠 기업도 일부 영향을 받았다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-meta-ai-cloud",
+      "title": "메타, AI 클라우드 사업 계획 보도",
+      "summary": "메타가 잉여 AI 연산과 인프라를 수익화하는 클라우드 서비스를 검토 중이며 주요 하이퍼스케일러와 직접 경쟁할 수 있다.",
+      "source": "Investors.com",
+      "url": "https://www.investors.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-operating-model",
+      "title": "운영 모델을 설계하라",
+      "summary": "전달 성과는 활동 지표보다 운영 프레임워크에 달려 있다. 잦은 배포와 작은 작업 단위 같은 관행이 도움이 된다.",
+      "source": "jimgrey.net",
+      "url": "https://dev.jimgrey.net/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-ai-fullstack-race",
+      "title": "AI 군비 경쟁, 모델에서 풀스택 인프라로",
+      "summary": "AI 경쟁이 모델 품질을 넘어 커스텀 칩·특화 인프라·수직 통합 생태계 등 여러 스택 계층 장악으로 이동했다.",
+      "source": "bdtechtalks.com",
+      "url": "https://bdtechtalks.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-ibm-bob",
+      "title": "IBM Bob: 엔터프라이즈 AI 개발 파트너",
+      "summary": "IBM Bob이 레거시·메인프레임 작업을 지원하고 개발자 온보딩을 가속한다.",
+      "source": "techcentral.co.za",
+      "url": "https://techcentral.co.za/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-aws-fde-org",
+      "title": "아마존, 10억 달러 FDE 조직 신설",
+      "summary": "AWS가 오픈AI·앤스로픽에 이어 고객사에 엔지니어를 상주시켜 프로덕션 AI 시스템을 함께 출시하는 전진 배치 엔지니어링 조직을 만들었다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-invisible-ai-ops",
+      "title": "보이지 않는 AI 시대, 엔터프라이즈 운영 대비",
+      "summary": "엔터프라이즈 AI 성공에는 강한 운영 기반·관측성·거버넌스가 필요하며, 에이전틱 AI 확장 전 레거시 현대화가 요구된다.",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-scarfbench",
+      "title": "ScarfBench: 자바 프레임워크 마이그레이션 벤치마크",
+      "summary": "Spring·Jakarta EE·Quarkus 간 자바 마이그레이션에서 AI 코딩 에이전트를 평가한 오픈 벤치마크로, 컴파일 성공이 배포 성공을 보장하지 않음을 보였다.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-google-africa",
+      "title": "구글, 10억 달러 아프리카 투자 목표 초과",
+      "summary": "구글이 5년 아프리카 투자 약속을 초과 달성했다고 밝혔다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "it-adobe-coldfusion",
+      "title": "어도비, 최대 심각도 결함 7건 패치",
+      "summary": "어도비가 콜드퓨전과 어도비 캠페인 클래식의 최대 심각도 취약점 7건을 패치했다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/",
+      "originalDate": "2026-07-02"
+    }
+  ]
+}

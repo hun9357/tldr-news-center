@@ -1,0 +1,125 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-openai-gov-stake",
+      "title": "오픈AI, 美 정부에 5% 지분 제안",
+      "summary": "오픈AI가 미국 정부의 주요 AI 기업 5% 지분 확보를 제안했다. 국부펀드 구조를 통해 대중이 AI의 재무적 이익을 공유하도록 하자는 구상이다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/",
+      "originalDate": "2026-07-02",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 지배구조 · 규제"
+      },
+      "related": [
+        "AI 규제 논쟁 격화 (WSJ)",
+        "메타, AI 컴퓨팅 클라우드 사업 추진 (Bloomberg)",
+        "제품 형태가 경쟁 해자 (X/Twitter)"
+      ],
+      "report": {
+        "tldr": "프런티어 AI에 국가 자본이 직접 들어오는 구조가 정책 테이블에 올랐다.",
+        "what": "오픈AI가 미국 정부에 국부펀드 형태로 주요 미국 AI 개발사의 5% 지분을 확보하도록 제안했다.",
+        "points": ["지분 5%, 약 426억 달러 규모", "국부펀드 구조 제안", "규제·안보 논쟁과 직접 연결"],
+        "why": ["민간 AI 리더십과 국가 이해관계가 얽힘", "향후 규제 협상의 지렛대로 작용 가능", "다른 프런티어 랩으로의 확산 신호"],
+        "context": "미 정부는 첨단 AI 접근 통제와 대중국 경쟁력 확보 사이에서 균형을 찾는 중이다.",
+        "action": "정부 지분 논의가 실제 입법·협상으로 이어지는지 48시간 내 신호를 확인."
+      }
+    },
+    {
+      "id": "ai-gemini-flash-upgrade",
+      "title": "구글, LM 아레나에서 제미나이 플래시 개선판 테스트",
+      "summary": "구글이 'Gemini 3.6 Flash' 또는 'Gemini 4 Flash'로 보이는 개선판을 테스트 중이다. 속도·비용 효율로 일상 사용자에게 인기가 높은 티어다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-meta-cloud-compute",
+      "title": "메타, AI 컴퓨팅 판매용 클라우드 사업 준비",
+      "summary": "메타가 잉여 AI 연산과 호스팅 모델을 수익화하는 클라우드 인프라를 개발하며 AWS·애저·구글 클라우드와 정면 경쟁을 예고했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-continual-harness-arc",
+      "title": "Continual Harness: ARC-AGI-3 자기개선 에이전트",
+      "summary": "지속 학습으로 에이전트가 내부 세계 모델을 스스로 개발·개선하도록 돕는 접근법이 까다로운 ARC-AGI-3 벤치마크에서 제시됐다.",
+      "source": "X/Twitter",
+      "url": "https://x.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-autoresearch-loops",
+      "title": "자기개선 에이전트의 피드백 루프",
+      "summary": "외부 루프 시스템이 피드백 신호와 사람의 지도를 통해 에이전트를 개선하는 방식을 Introspection의 인프라 사례로 분석했다.",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-portal-adapters",
+      "title": "PorTAL: LLM용 이식 가능한 태스크 어댑터",
+      "summary": "태스크 파인튜닝을 특정 모델 가중치에서 분리하는 아키텍처로, 조직이 새 모델 출시에 걸쳐 적응 비용을 분산할 수 있다.",
+      "source": "X/Twitter",
+      "url": "https://x.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-expert-judgment-finance",
+      "title": "금융 태스크에서 전문가 판단 복제 학습",
+      "summary": "독점 금융 데이터로 파인튜닝한 맞춤형 모델이 프런티어 모델을 능가하면서도 특화 용도에서 비용이 훨씬 낮았다.",
+      "source": "Thinking Machines",
+      "url": "https://thinkingmachines.ai/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-jobs-firm-level",
+      "title": "AI가 고용에 미친 영향: 기업 단위 분석",
+      "summary": "2만1천여 개 미국 기업 분석 결과, AI 지출이 높은 기업은 도입 후 전체 인력을 10.2%, 신입직을 12% 늘렸다.",
+      "source": "Ramp",
+      "url": "https://ramp.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-fable-mythos-redeploy",
+      "title": "Claude Fable 5·Mythos 5 재배포",
+      "summary": "Fable 5는 7월 7일까지 사용량 한도로, 이후 크레딧으로 제공된다. Mythos 5는 글래스윙 프로그램의 일부 미국 조직에 복원됐다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-product-shape-moat",
+      "title": "제품 형태가 경쟁 해자",
+      "summary": "애플리케이션 계층 AI 기업은 파인튜닝 같은 단순 기술 전술만으로 모델 제공자와의 경쟁에서 우위를 지속하기 어렵다.",
+      "source": "X/Twitter",
+      "url": "https://x.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-openai-voice-webrtc",
+      "title": "오픈AI의 저지연 음성 AI 아키텍처",
+      "summary": "오픈AI가 WebRTC로 9억 명 사용자에게 최소 지연 음성 기능을 제공하는 방식을 기술적으로 분석했다.",
+      "source": "ByteByteGo",
+      "url": "https://bytebytego.com/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "ai-zcode-platforms",
+      "title": "ZCode, 다중 플랫폼 출시",
+      "summary": "ZCode가 macOS·윈도우·리눅스에 출시돼 계획·코딩·리뷰·배포를 AI 에이전트와 개발 도구로 결합한다.",
+      "source": "X/Twitter",
+      "url": "https://zcode.z.ai/en",
+      "originalDate": "2026-07-02"
+    }
+  ]
+}

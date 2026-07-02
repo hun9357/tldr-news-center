@@ -1,0 +1,112 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-mica-in-force",
+      "title": "유럽 MiCA 규제 전면 발효",
+      "summary": "EU의 MiCA가 7월 1일 27개 회원국에 전면 발효돼 기존 등록 업체의 약 80%가 전환에 실패했다. 약 200개 업체만 인가를 받았고 테더 USDT는 주요 EU 플랫폼에서 상장 폐지에 직면했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406766/europes-mica-crypto-regime-is-fully-in-force-heres-who-wins-and-loses",
+      "originalDate": "2026-07-02",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Compliance",
+        "status": "New",
+        "affectedSurface": "EU 27개국 거래소"
+      }
+    },
+    {
+      "id": "crypto-circle-russell",
+      "title": "서클, 러셀 성장 지수서 제외",
+      "summary": "서클이 6월 재편에서 러셀 1000·3000·미드캡 성장 지수에서 빠지며 주가가 16.55% 급락해 62달러가 됐다. 140개사 스테이블코인 컨소시엄 경쟁도 배경이다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2072187053421531475.html",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-cloudflare-monetization",
+      "title": "클라우드플레어, 수익화 게이트웨이 발표",
+      "summary": "x402 프로토콜과 1초 미만 스테이블코인 정산으로 리소스에 과금하는 제품을 공개해, AI 에이전트의 대량 요청에 맞는 무마찰 소액결제를 지원한다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/monetization-gateway/",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-robinhood-chain",
+      "title": "로빈후드 체인 메인넷, 주식 토큰과 함께 가동",
+      "summary": "아비트럼 기반 이더리움 L2 로빈후드 체인이 120개국 이상에서 토큰화 주식, 약 7% APY DeFi 대출, 38개국 무기한 선물과 함께 출시됐다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2072391688564191320.html",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-collaborative-trust",
+      "title": "검증 가능한 탈중앙 시스템의 협력적 신뢰 재고",
+      "summary": "블록체인 경직화 문제를 비대칭 섀플리 값과 DAG 기반 가중으로 완화해 반복 담합을 벌하면서 시빌 공격을 막는 연구다.",
+      "source": "ethresear.ch",
+      "url": "https://ethresear.ch/t/rethinking-collaborative-trust-for-verifiably-decentralized-blockchain-systems/25332",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-slot0-reorg",
+      "title": "슬롯-0 리오그 비용은 고칠 수 있나",
+      "summary": "21개월 데이터에서 슬롯-0 블록 고아율이 0.58%에서 1.73%로 3배 늘었고, 연구진은 3초 증언 마감으로 84% 생존율을 제안했다.",
+      "source": "ethresear.ch",
+      "url": "https://ethresear.ch/t/is-the-slot-0-reorg-cost-fixable-epbs-attestation-deadline-study/25338",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-election-spending",
+      "title": "크립토 업계, 2026 美 선거에 1억8,900만 달러 지출",
+      "summary": "업계가 6월 30일까지 2026 선거에 1억8,900만 달러를 투입해 2024년 전체(1억7천만 달러)를 넘어섰다. Fairshake와 MAGA Inc.가 지출을 주도했다.",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/crypto-companies-spent-2026-us-election-cycle-public-citizen",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-robotics-blindspot",
+      "title": "로보틱스는 크립토의 가장 명백한 사각지대",
+      "summary": "2,630억 달러 규모 로보틱스가 머신 신원·무허가 거래·자율 협조를 위해 크립토 인프라에 구조적으로 의존함에도 크립토 담론에서 빠져 있다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2072321179483021560.html",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-morpho-coverage",
+      "title": "스탠다드차타드, 모르포 커버리지 개시",
+      "summary": "스탠다드차타드가 모르포 토큰에 2030년 말 60달러(약 33배 상승) 목표가를 제시하며 BTC·ETH 대비 아웃퍼폼을 전망했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406888/bullish-on-morpho-standard-chartered-sees-token-at-60-by-2030-outperforming-bitcoin-ether",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-world-prediction",
+      "title": "World, 솔라나 네이티브 예측 시장 출시",
+      "summary": "World가 팬텀 지갑에서 별도 설치 없이 접근 가능한 완전 온체인·셀프커스터디 예측 시장을 솔라나에 배포했다.",
+      "source": "X/Twitter",
+      "url": "https://x.com/world_xyz/status/2072306098837635377",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-symbiotic-v2",
+      "title": "Symbiotic, Core v2로 담보 시장 전환",
+      "summary": "Symbiotic이 공유 보안·리스테이킹에서 보험·신용·토큰화 자산 유동성을 아우르는 담보 시장 인프라로 전략을 전환했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406862/symbiotic-officially-pivots-to-collateral-markets-with-core-v2-launch",
+      "originalDate": "2026-07-02"
+    },
+    {
+      "id": "crypto-saylor-btc",
+      "title": "마이클 세일러, 또 비트코인 매수 시사",
+      "summary": "스트래티지의 mNAV가 처음으로 1.0 아래로 떨어져, 84만7,363 BTC 보유가치가 평균 매입가 대비 약 130억 달러 밑도는 상황에서 추가 매수를 시사했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/406460/michael-saylor-signals-another-bitcoin-buy-as-strategy-sits-about-13-billion-underwater",
+      "originalDate": "2026-07-02"
+    }
+  ]
+}

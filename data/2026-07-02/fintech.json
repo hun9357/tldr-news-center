@@ -1,0 +1,89 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💰",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-gcash-ipo",
+      "title": "핀테크 유니콘 GCash, 필리핀 최대 IPO로 15억 달러 조달",
+      "summary": "필리핀 전자지갑 운영사 민트가 15억 달러 조달을 추진하며 약 109억 달러 가치, 9천만 등록 사용자로 필리핀 최대 IPO가 될 수 있다.",
+      "source": "Forbes",
+      "url": "https://www.forbes.com/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-uk-stablecoin-capital",
+      "title": "영국, 최종 규정서 스테이블코인 자본요건 완화",
+      "summary": "FCA가 업계 의견 수렴 후 스테이블코인 발행사 자본요건을 발행 잔액의 2%에서 1%로 낮춰 소비자 보호와 글로벌 경쟁력을 절충했다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-worldcup-chargebacks",
+      "title": "월드컵發 차지백 온다",
+      "summary": "보안 업체들이 월드컵 티켓·굿즈 구매와 연계된 사기성 차지백을 예상한다. AI 강화 사기가 탐지를 어렵게 해 가맹점·소비자 위험을 키운다.",
+      "source": "Payments Dive",
+      "url": "https://www.paymentsdive.com/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-prediction-markets",
+      "title": "예측 시장, 주류로 가는 험난한 길",
+      "summary": "CFTC와 주정부 간 규제 분쟁 속에서 예측 시장이 주류 지지를 얻고 있으며 폴리마켓 같은 플랫폼이 조사를 받고 있다.",
+      "source": "Fintech Brain Food",
+      "url": "https://sytaylor.substack.com/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-open-usd",
+      "title": "비자·스트라이프 등 주류 스테이블코인 연합",
+      "summary": "비자·스트라이프·블랙록·코인베이스 등 100여 개사가 중립적 거버넌스의 달러 담보 스테이블코인 'Open USD'를 지지한다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-sofi-smb-loans",
+      "title": "소파이, 소상공인 대출 시장 진출",
+      "summary": "소파이가 수수료 없는 2,500~25만 달러 소상공인 대출을 출시하며 금융 서비스 플랫폼을 확장했다.",
+      "source": "Banking Dive",
+      "url": "https://www.bankingdive.com/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-quantifind",
+      "title": "서밋파트너스, 퀀티파인드 2억 달러 투자",
+      "summary": "리스크 인텔리전스 플랫폼 퀀티파인드가 글로벌 확장과 금융범죄 컴플라이언스용 설명가능 AI 개발을 위해 2억 달러를 조달했다.",
+      "source": "Fintech Global",
+      "url": "https://fintech.global/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-nebex-space",
+      "title": "알파벳 GV, 우주 산업 겨냥 핀테크 넥스벡스 투자",
+      "summary": "전 액시엄 스페이스 CEO가 세운 넥스벡스가 미국 우주 기업과 해외 투자자를 잇는 마켓플레이스 구축에 3천만 달러를 조달했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-google-klarna",
+      "title": "스웨덴 법원, 구글에 클라르나 15억 달러 배상 명령",
+      "summary": "법원이 구글이 검색에서 자사 쇼핑 서비스를 부당하게 우대했다며 유럽 시장 전반에 걸쳐 클라르나에 배상하라고 판결했다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/",
+      "originalDate": "2026-07-01"
+    },
+    {
+      "id": "fintech-fico-10t",
+      "title": "FICO, 패니메이·프레디맥의 10T 데이터 공개 환영",
+      "summary": "12년 이상의 모기지 성과 데이터가 공개돼 대출기관이 FICO 스코어 10T의 정확도를 평가할 수 있게 됐다.",
+      "source": "Morningstar",
+      "url": "https://www.morningstar.com/",
+      "originalDate": "2026-07-01"
+    }
+  ]
+}
