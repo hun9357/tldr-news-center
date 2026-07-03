@@ -6,151 +6,205 @@
   "bg": "#26203a",
   "items": [
     {
-      "id": "it-ai-ransomware",
-      "title": "AI 에이전트가 Langflow RCE로 DB 랜섬웨어를 '완전 자동' 실행",
-      "summary": "Sysdig가 AI 에이전트가 스스로 오케스트레이션한 최초의 완전 자동 랜섬웨어 캠페인을 포착했다. Langflow 취약점을 악용해 자격증명을 탈취하고 데이터베이스를 암호화했다.",
+      "id": "it-ai-agent-ransomware",
+      "title": "AI 에이전트가 랜섬웨어 공격을 처음으로 전 과정 자동화",
+      "summary": "Sysdig가 Langflow RCE를 악용해 발견·자격탈취·암호화·협박까지 AI 에이전트가 단독 수행한 첫 사례를 확인.",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/",
+      "url": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html?utm_source=tldrit",
       "originalDate": "2026-07-03",
-      "intel": {
-        "impact": "High",
-        "confidence": "84%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "Langflow · DB · CI/CD"
-      },
-      "related": [
-        "AI 에이전트 보안 거버넌스가 주간 릴리스 속도를 못 따라감 (Diginomica)",
-        "DuneSlide: Cursor IDE 제로클릭 RCE 2건 (Cato Networks)",
-        "Devin Security Swarm — 에이전트 기반 취약점 탐지 (Cognition)"
-      ],
       "report": {
-        "tldr": "공격자가 아닌 AI 에이전트가 침투·자격증명 탈취·암호화까지 스스로 수행한 첫 사례.",
-        "what": "Sysdig는 Langflow의 원격코드실행(RCE) 취약점을 시작점으로, AI 에이전트가 자율적으로 정찰·자격증명 수집·데이터베이스 암호화를 연쇄 실행한 랜섬웨어 캠페인을 관측했다.",
+        "tldr": "AI 에이전트가 처음으로 랜섬웨어 공격의 전 과정을 스스로 수행했다.",
+        "what": "Sysdig는 AI 에이전트가 끝에서 끝까지 실행한 것으로 보이는 첫 랜섬웨어 공격을 확인했다. 공격은 Langflow RCE 버그를 악용해 탐색, 자격증명 탈취, 데이터베이스 암호화, 협박 활동을 자동화했다. 사람 개입 없이 공격 체인이 자동으로 진행됐다는 점에서 상징적 사건이다.",
         "points": [
-          "사람 개입 없이 킬체인 대부분을 에이전트가 자동화",
-          "Langflow(AI 워크플로우 도구) RCE가 초기 침투 벡터",
-          "탈취한 자격증명으로 측면 이동 후 DB 암호화"
+          "Langflow RCE 버그 악용",
+          "발견·탈취·암호화·협박 자동화",
+          "AI 단독 수행 첫 사례"
         ],
         "why": [
-          "AI 인프라 자체가 공격 표면이자 공격 도구가 되는 전환점",
-          "노출된 AI 오케스트레이션 도구(Langflow·LiteLLM·Ollama류)의 인증 부재가 반복되는 진입점",
-          "자동화로 공격 속도·규모가 방어자 대응 시간을 압도"
+          "에이전트 기반 자동 공격 시대의 신호",
+          "노출된 AI 도구가 곧 공격 인프라"
         ],
-        "context": "Langflow는 LangChain 기반 시각적 AI 워크플로우 빌더로, 인증 없이 노출되면 임의 코드 실행이 가능하다.",
-        "action": "인터넷 노출 Langflow/AI 오케스트레이션 엔드포인트를 즉시 인증·격리하고, DB 백업·자격증명 로테이션·이상 접근 탐지를 강화하라."
+        "context": "Langflow 등 인증 미비 AI 개발 도구가 공격 표면으로 부상하고 있다.",
+        "action": "AI 개발 도구의 인증·노출 여부 즉시 점검."
       }
     },
     {
-      "id": "it-cloudflare-ai-pay",
-      "title": "클라우드플레어, AI 기업에 퍼블리셔 콘텐츠 유료화 압박",
-      "summary": "9월 15일부터 클라우드플레어는 혼합용도 봇을 기본 차단해, AI 기업이 크롤러 기능을 분리하고 콘텐츠 퍼블리셔에게 보상하도록 유도한다.",
+      "id": "it-cloudflare-pay",
+      "title": "클라우드플레어, AI 크롤러에 콘텐츠 비용 부과 정책",
+      "summary": "9월 15일부터 검색·AI·훈련을 섞는 '혼합' 봇을 광고 페이지에서 차단, 과금 모델을 'Pay Per Use'로 전환.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/?utm_source=tldrit",
       "originalDate": "2026-07-03",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "80%",
-        "owner": "Strategy",
-        "status": "Tracking",
-        "affectedSurface": "AI 크롤러 · 퍼블리싱"
-      },
       "report": {
-        "tldr": "AI 학습·검색 크롤링의 '무임승차' 시대가 인프라 레벨에서 막히기 시작.",
-        "what": "클라우드플레어가 9월 15일부터 크롤러와 사용자 요청을 겸하는 혼합용도 봇을 기본 차단하고, 개정된 수익화 모델로 퍼블리셔 보상 구조를 강제한다.",
+        "tldr": "클라우드플레어가 AI 크롤러에 목적 분리와 콘텐츠 비용을 압박한다.",
+        "what": "클라우드플레어는 9월 15일부터 기본 크롤러 설정이 검색·AI 에이전트·훈련을 결합한 '혼합 용도' 봇을 광고가 실린 페이지에서 차단한다고 밝혔다. AI 기업이 크롤러 목적을 분리하도록 유도하고, 'Pay Per Crawl'에서 'Pay Per Use'로 수익화를 전환한다.",
         "points": [
-          "혼합용도 봇 기본 차단(9/15 발효)",
-          "AI 크롤러 기능 분리 요구",
-          "퍼블리셔 콘텐츠 유료 접근 모델"
+          "9월 15일 혼합 봇 기본 차단",
+          "크롤러 목적 분리 유도",
+          "Pay Per Use로 전환"
         ],
         "why": [
-          "AI 데이터 수집 경제의 협상력이 퍼블리셔 쪽으로 이동",
-          "인프라 사업자가 콘텐츠 라이선싱의 게이트키퍼로 부상"
+          "퍼블리셔의 콘텐츠 통제권 강화",
+          "AI 훈련 데이터 확보 비용 상승"
         ]
       }
     },
     {
-      "id": "it-underused-ai-infra",
-      "title": "다음 AI 인프라 기회는 '이미 가진 것'의 재활용",
-      "summary": "기존 전력·데이터센터 용량이 저활용 상태이며, 소프트웨어 수요와 인프라를 정렬하면 체감 AI 용량 부족의 상당 부분을 해소할 수 있다.",
+      "id": "it-ai-infra-opportunity",
+      "title": "다음 AI 인프라 기회는 '이미 가진 것 활용'",
+      "summary": "전력망·데이터센터에 유휴 용량이 많아, 소프트웨어와 수요를 맞추면 기존 용량이 쓸모를 얻는다.",
       "source": "Climate Drift",
-      "url": "https://climatedrift.substack.com/",
+      "url": "https://climatedrift.substack.com/p/the-next-ai-infrastructure-opportunity?utm_source=tldrit",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "AI 용량 부족은 신설보다 '정렬·최적화'로 먼저 풀 수 있다.",
-        "what": "기존 전력과 데이터센터 용량의 저활용을 지적하며, 수요-공급 정렬로 신규 증설 없이 여력을 확보하는 접근을 제시한다.",
-        "points": ["유휴 전력·DC 용량 존재", "수요-인프라 정렬이 핵심 지렛대"],
-        "why": ["증설 병목·비용 부담 완화", "지속가능성·자본효율 동시 개선"]
+        "tldr": "AI '전력난'은 상당 부분 측정·접근의 문제다.",
+        "what": "AI의 '전력난'은 일부는 측정과 인프라 접근의 문제로, 전력망과 데이터센터 냉각·활용에 상당한 유휴 용량이 존재한다. 소프트웨어와 수요가 정렬되면 기존 용량이 쓸모를 얻는다는 분석이다.",
+        "points": [
+          "전력망·데이터센터 유휴 용량 다수",
+          "소프트웨어·수요 정렬이 관건",
+          "측정·접근 문제로 재해석"
+        ],
+        "why": [
+          "신규 증설 없이 용량 확보 가능성"
+        ]
       }
     },
     {
-      "id": "it-ai-security-governance",
-      "title": "기업 AI 도입 속도가 보안 거버넌스를 앞지른다",
-      "summary": "주간 릴리스 주기가 충분한 취약점 검증을 막으면서 사고율이 높아진다는 연구. 개발자가 주저하는 영역에 기업이 성급히 진입하고 있다.",
-      "source": "Diginomica",
-      "url": "https://diginomica.com/",
+      "id": "it-ai-security-enterprise",
+      "title": "기업이 개발자보다 앞서 뛰어들 때, 보안의 답은?",
+      "summary": "에이전틱 AI와 빠른 배포가 거버넌스·보안 역량을 앞질러 사고율이 높다.",
+      "source": "diginomica",
+      "url": "https://diginomica.com/ai-and-security-if-enterprises-rush-where-developers-fear-tread-whats-answer?utm_source=tldrit",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "빠른 AI 도입 vs. 검증 부족 — 거버넌스 공백이 사고로 이어진다.",
-        "what": "빠른 기업 AI 채택이 보안 거버넌스를 앞질러, 주간 릴리스가 취약점 검증을 방해할 때 사고율이 높다는 연구를 소개한다.",
-        "points": ["릴리스 속도 > 검증 속도", "높은 사고 발생률"],
-        "why": ["AI 도입의 진짜 병목은 모델이 아닌 관측·거버넌스", "완전 자동 랜섬웨어 등장과 맞물려 리스크 확대"]
+        "tldr": "빠른 AI 배포가 보안 검증 주기를 앞지른다.",
+        "what": "에이전틱 AI와 빠른 소프트웨어 배포가 기업의 통제·보안 역량을 앞지르고 있다. Economist Enterprise·Aikido Security 연구는 높은 사고율과, 주 단위 이상 빠른 릴리스 주기를 따라가지 못하는 펜테스트·검증을 지적한다.",
+        "points": [
+          "빠른 릴리스가 검증을 추월",
+          "높은 사고 발생률",
+          "탐지 어려운 보안 이슈 증가"
+        ],
+        "why": [
+          "배포 속도에 맞춘 자동 보안 필요"
+        ]
       }
     },
     {
-      "id": "it-safari-mcp",
-      "title": "애플, Safari Technology Preview 247에 AI 에이전트용 MCP 서버 탑재",
-      "summary": "애플이 AI 에이전트가 Safari 창과 상호작용하도록 하는 Model Context Protocol 서버를 도입해 웹 개발·디버깅을 강화했다.",
+      "id": "it-apple-safari-mcp",
+      "title": "애플, 사파리 테크 프리뷰 247에 MCP 서버 탑재",
+      "summary": "AI 에이전트가 사파리 창에 연결해 사용자 화면을 에뮬레이트, 웹 개발·디버깅 가속.",
       "source": "MacRumors",
-      "url": "https://www.macrumors.com/",
+      "url": "https://www.macrumors.com/2026/07/01/apple-releases-safari-technology-preview-247/?utm_source=tldrit",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "브라우저가 AI 에이전트의 1급 작업 대상이 되는 흐름.",
-        "what": "애플이 Safari에 MCP 서버를 넣어 AI 에이전트가 DOM·콘솔·네트워크 등에 접근하며 웹 개발·디버깅을 돕도록 했다.",
-        "points": ["Safari Technology Preview 247", "에이전트-브라우저 상호작용 표준(MCP)"],
-        "why": ["애플의 MCP 채택은 에이전트 생태계 확산 신호", "웹 개발 워크플로우의 자동화 가속"]
+        "tldr": "애플이 AI 에이전트를 위한 사파리 MCP 서버를 도입했다.",
+        "what": "애플이 실험용 사파리 테크놀로지 프리뷰 247을 공개했다. Safari MCP 서버는 AI 에이전트가 사파리 창에 연결해 사용자가 보는 화면을 에뮬레이트하도록 해 웹 개발·디버깅을 빠르게 한다. 다수 웹 플랫폼 수정도 포함됐다.",
+        "points": [
+          "사파리 MCP 서버 도입",
+          "에이전트가 브라우저 화면 접근",
+          "웹 개발·디버깅 가속"
+        ],
+        "why": [
+          "애플의 에이전트 생태계 진입 신호"
+        ]
       }
     },
     {
-      "id": "it-aws-agentic",
-      "title": "AWS, 에이전트형 CX 디자이너·EC2 AMI 워터마크·MySQL 오픈 거버넌스 추가",
-      "summary": "AWS가 고객서비스 자동화 도구, 인프라 프로비넌스 추적, 데이터베이스 거버넌스 강화를 플랫폼 전반에 출시했다.",
-      "source": "AWS Blog",
-      "url": "https://aws.amazon.com/blogs/",
+      "id": "it-aws-roundup",
+      "title": "AWS, 에이전틱 CX 디자이너·EC2 AMI 워터마크 등 추가",
+      "summary": "주간 로드업에 AI 고객서비스·인프라 출처·DB 거버넌스 업데이트 포함.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-agentic-cx-designer-for-amazon-connect-customer-ec2-ami-watermarks-open-governance-for-mysql-and-more-june-29-2026/?utm_source=tldrit",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "AWS가 에이전트·프로비넌스·거버넌스를 한 번에 강화.",
-        "what": "에이전트형 고객경험(CX) 디자이너, EC2 AMI 워터마크(출처 추적), MySQL Open Governance를 발표했다.",
-        "points": ["에이전트형 CX 디자이너", "AMI 워터마크로 이미지 출처 검증", "MySQL 거버넌스 강화"],
-        "why": ["AMI 워터마크는 공급망·무결성 보안에 유효", "에이전트 자동화의 클라우드 기본기능화"]
-      }
-    },
-    {
-      "id": "it-invisible-ai",
-      "title": "'보이지 않는 AI' 시대의 엔터프라이즈 운영 미래대비",
-      "summary": "지속가능한 기업 AI는 모델 접근성보다 관측 가능하고 거버넌스가 갖춰진, 자동화 준비된 시스템을 요구한다.",
-      "source": "TechRadar Pro",
-      "url": "https://www.techradar.com/pro",
-      "originalDate": "2026-07-03",
-      "report": {
-        "tldr": "성패는 모델이 아니라 관측성·거버넌스·자동화 준비도에 달렸다.",
-        "what": "AI가 업무에 스며드는 환경에서 관측 가능·거버넌스된 시스템 구축의 중요성을 논한다.",
-        "points": ["관측 가능성·거버넌스 우선", "자동화 준비된 시스템 설계"],
-        "why": ["모델 접근성은 상향평준화, 차별점은 운영 체계"]
+        "tldr": "AWS 주간 업데이트가 AI·인프라·DB 거버넌스를 아우른다.",
+        "what": "AWS 주간 로드업에 Amazon Connect Customer용 에이전틱 CX 디자이너, EC2 AMI 워터마크, MySQL용 Open Governance가 포함됐다. AI 고객서비스 도구, 인프라 출처, DB 거버넌스를 아우른다.",
+        "points": [
+          "에이전틱 CX 디자이너",
+          "EC2 AMI 워터마크",
+          "MySQL Open Governance"
+        ],
+        "why": [
+          "클라우드 벤더의 에이전트·거버넌스 강화"
+        ]
       }
     },
     {
       "id": "it-cursor-enterprise",
-      "title": "Cursor는 기업 내부에 어떻게 AI를 배치하는가",
-      "summary": "Cursor의 포워드-디플로이드 엔지니어링 팀이 조직 내부에 AI 에이전트를 심어 자율 개발 워크플로우를 표준화한다.",
+      "title": "커서, 기업 내부에 AI 배포하는 법",
+      "summary": "Cursor의 FDE 팀이 현장에서 'AI 소프트웨어 공장'을 표준화하는 방식.",
       "source": "Latent Space",
-      "url": "https://www.latent.space/",
+      "url": "https://www.latent.space/p/cursor-forward-deployed-engineers?utm_source=tldrit",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "'현장 배치형' 엔지니어가 기업 AI 도입의 새 표준.",
-        "what": "Cursor가 포워드-디플로이드 엔지니어링으로 조직에 에이전트를 내재화해 SDLC 전반의 자율 개발을 표준화하는 방식을 설명한다.",
-        "points": ["포워드-디플로이드 엔지니어링", "자율 개발 워크플로우 표준화"],
-        "why": ["AI 도구 벤더의 GTM이 컨설팅형으로 진화", "도입 성공의 핵심은 조직 내재화"]
+        "tldr": "Cursor가 기업 현장에 에이전트를 심는 방법론.",
+        "what": "Cursor의 Forward Deployed Engineering(FDE) 부문 VP가 기업 내부에 AI 에이전트를 배포해 SDLC 전반의 'AI 소프트웨어 공장'을 구축하는 방법을 설명한다. 경험 많은 고객 대면 엔지니어가 현장에서 로컬·클라우드 에이전트 사용을 초기 채택자 너머로 표준화한다.",
+        "points": [
+          "FDE 팀의 현장 배포",
+          "로컬·클라우드 에이전트 표준화",
+          "SDLC 전반 적용"
+        ],
+        "why": [
+          "엔터프라이즈 AI 도입의 실행 모델"
+        ]
+      }
+    },
+    {
+      "id": "it-future-proof-invisible-ai",
+      "title": "보이지 않는 AI 시대의 기업 운영 대비",
+      "summary": "핵심 시스템이 관찰 가능·거버넌스·자동화 준비가 됐는지가 성패를 가른다.",
+      "source": "TechRadar",
+      "url": "https://www.techradar.com/pro/how-to-future-proof-enterprise-operations-in-the-age-of-invisible-ai?utm_source=tldrit",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "AI 성공은 모델 접근이 아니라 운영 준비의 문제다.",
+        "what": "기업 AI 성공은 핵심 시스템이 관찰 가능하고 거버넌스가 갖춰졌으며 자동화 준비가 됐는지에 좌우된다. AI를 모델 접근 문제가 아닌 운영 준비 문제로 봐야 한다는 주장이다.",
+        "points": [
+          "관찰가능성·거버넌스·자동화 준비",
+          "AI는 운영 준비 문제"
+        ],
+        "why": [
+          "기반 시스템 정비가 AI 도입의 선행 조건"
+        ]
+      }
+    },
+    {
+      "id": "it-govern-agents",
+      "title": "엔터프라이즈 AI 공장의 자율 에이전트 거버넌스",
+      "summary": "코드 검사·테스트·문서·내부 시스템 질의가 가능한 에이전트엔 안전·거버넌스 환경이 필요.",
+      "source": "NVIDIA",
+      "url": "https://developer.nvidia.com/blog/how-to-govern-autonomous-agents-in-enterprise-ai-factories/?utm_source=tldrit",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "강력한 권한의 에이전트엔 통제된 실행 환경이 필수다.",
+        "what": "코드를 검사하고 테스트를 돌리며 문서를 읽고 내부 시스템을 질의하는 엔터프라이즈 AI 에이전트에는 안전하고 거버넌스된 환경이 필요하다.",
+        "points": [
+          "광범위 권한 에이전트",
+          "안전·거버넌스 환경 필요"
+        ],
+        "why": [
+          "자율 에이전트 확산에 따른 통제 요구"
+        ]
+      }
+    },
+    {
+      "id": "it-threatsday",
+      "title": "ThreatsDay: AI 컴퓨트 하이재킹·애플 이메일 결함 등",
+      "summary": "AI 시스템·브라우저·샌드박스·이메일 흐름을 아우르는 주간 사이버 위협 정리.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/threatsday-ai-compute-hijacking-apple.html?utm_source=tldrit",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "이번 주 주요 사이버 위협 모음.",
+        "what": "AI 시스템, 브라우저, 샌드박스, 이메일 흐름 전반의 주목할 만한 이번 주 사이버 위협을 정리한다.",
+        "points": [
+          "AI 컴퓨트 하이재킹",
+          "애플 이메일 결함",
+          "BlueHammer 랜섬웨어"
+        ],
+        "why": [
+          "다양한 표면의 위협 동향 파악"
+        ]
       }
     }
   ]

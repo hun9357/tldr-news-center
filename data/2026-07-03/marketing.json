@@ -6,129 +6,241 @@
   "bg": "#163021",
   "items": [
     {
-      "id": "marketing-made-with-ai-engagement",
-      "title": "'AI로 제작' 라벨, 참여도 하락 부른다",
-      "summary": "AI 공개 라벨이 틱톡에서 참여도를 7~8% 낮추는데, 품질이 같아도 창작자 노력이 덜하다고 인식되기 때문이다. 성공하려면 AI 사용을 숨기기보다 인간 개입을 설명해야 한다.",
+      "id": "mkt-made-with-ai-engagement",
+      "title": "'AI로 제작' 라벨은 참여를 낮춘다",
+      "summary": "8개 실험·110만+ 틱톡 게시물에서 AI 라벨 콘텐츠가 좋아요 7~8%, 참여 7% 감소.",
       "source": "Science Says",
-      "url": "https://app.sciencesays.com/",
+      "url": "https://app.sciencesays.com/p/made-with-ai-gets-lower-engagement?utm_source=tldrmarketing",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "AI 라벨은 참여를 깎지만, 인간 개입 설명이 완충한다.",
-        "what": "AI 공개 라벨이 틱톡 참여도를 7~8% 낮추며, 이는 창작 노력에 대한 인식 저하 때문이다.",
-        "points": ["참여도 7~8% 하락", "인간 개입 설명이 관건"],
-        "why": ["AI 콘텐츠 투명성과 성과의 상충을 실증"]
+        "tldr": "AI 라벨은 노력을 덜 들였다는 인상을 줘 참여를 낮춘다.",
+        "what": "AI 공개 라벨은 창작자가 노력을 덜 들였다는 인상을 줘 참여를 낮춘다. 8개 실험과 110만+ 틱톡 게시물에서, 품질이 같아도 AI로 라벨된 콘텐츠는 좋아요 7~8%, 전체 참여 7%가 줄었다. AI가 어떻게 작업을 도왔는지 설명하고 인간 노력을 강조하면 신뢰를 유지할 수 있다.",
+        "points": [
+          "AI 라벨 시 좋아요 7~8% 감소",
+          "품질 동일해도 참여 하락",
+          "인간 노력 강조가 완화책"
+        ],
+        "why": [
+          "AI 사용 표현 방식이 도구만큼 중요"
+        ]
       }
     },
     {
-      "id": "marketing-misinformation-use",
-      "title": "가짜정보 우려에도 영국 젊은층 SNS 사용은 여전",
-      "summary": "영국 성인 80%가 가짜정보를 걱정하지만 SNS 사용은 높게 유지된다. 16~34세는 하루 2시간 이상을 쓰며, 스마트폰이 디지털 소비의 3분의 1 이상을 차지한다.",
+      "id": "mkt-misinformation-brits",
+      "title": "허위정보 우려에도 젊은 영국인 소셜 사용 여전",
+      "summary": "영국 성인 80%가 허위정보 우려에도 16~34세는 하루 2시간 31분 소셜 사용.",
       "source": "IPA",
-      "url": "https://ipa.co.uk/",
+      "url": "https://ipa.co.uk/news/touchpoints-2026/?utm_source=tldrmarketing",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "가짜정보 우려와 실제 이용 행태는 별개.",
-        "what": "영국 성인 80%가 가짜정보를 우려해도 SNS 사용은 높고, 젊은층은 하루 2시간 이상 이용한다.",
-        "points": ["성인 80% 가짜정보 우려", "16~34세 하루 2시간+"],
-        "why": ["태도-행동 격차가 미디어 플래닝에 시사점"]
+        "tldr": "우려와 사용 행동 사이 괴리가 크다.",
+        "what": "영국 성인 약 80%가 소셜 허위정보를 우려하지만 사용은 여전히 높다. 16~34세는 하루 약 2시간 31분 소셜을 쓰고 88.9%가 매주 이용한다. 주간 도달 73.9%, 하루 화면 시간 7시간 24분이며 스마트폰이 소비의 34%를 차지한다.",
+        "points": [
+          "16~34세 하루 2시간 31분",
+          "주간 도달 73.9%",
+          "스마트폰이 소비 34%"
+        ],
+        "why": [
+          "우려와 행동의 괴리, 채널 전략 시사"
+        ]
       }
     },
     {
-      "id": "marketing-ramp-aeo",
-      "title": "램프의 AEO 실험 성공기",
-      "summary": "램프가 자사 지출 데이터로 소프트웨어 도입 트렌드를 보여주는 검색 가능 페이지를 만들고 주간 구조화 HTML로 갱신해 구글·AI 검색에서 카테고리 쿼리 상위에 올랐다.",
-      "source": "LinkedIn (Chris Long)",
-      "url": "https://www.linkedin.com/",
-      "originalDate": "2026-07-03",
-      "report": {
-        "tldr": "자사 데이터를 콘텐츠화해 AI 검색 노출을 잡았다.",
-        "what": "램프가 지출 데이터 기반 검색 페이지를 주간 구조화 HTML로 갱신해 구글·AI 검색 상위에 올랐다.",
-        "points": ["자사 데이터 콘텐츠화", "주간 구조화 HTML 갱신"],
-        "why": ["AEO(답변 엔진 최적화)의 실전 플레이북"]
-      }
-    },
-    {
-      "id": "marketing-shortform-b2b",
-      "title": "숏폼 영상, B2B 검색결과·AI 답변에 등장",
-      "summary": "유튜브 쇼츠가 1,100개 이상 B2B 소프트웨어 검색에서 노출되며 92%가 AI 오버뷰를 포함한다. B2B 브랜드는 웨비나·데모를 구매 의도형 숏폼으로 재가공해야 한다.",
+      "id": "mkt-short-form-b2b",
+      "title": "숏폼 영상이 B2B 검색·AI 답변에 등장",
+      "summary": "유튜브 쇼츠가 1,100+ 'best+소프트웨어' 검색에 랭크, 92%에 AI 오버뷰 포함.",
       "source": "Foundation",
-      "url": "https://foundationinc.co/",
+      "url": "https://foundationinc.co/lab/short-form-video?utm_source=tldrmarketing",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "숏폼이 B2B 검색·AI 답변의 노출 채널로 부상.",
-        "what": "유튜브 쇼츠가 1,100+ B2B 검색에 노출되고 92%가 AI 오버뷰를 포함한다.",
-        "points": ["1,100+ B2B 검색 노출", "92% AI 오버뷰 포함"],
-        "why": ["B2B 콘텐츠 전략에 숏폼·AI 검색 반영 필요"]
+        "tldr": "숏폼이 B2B의 SEO·AI 가시성 채널이 됐다.",
+        "what": "숏폼 영상이 B2B 소프트웨어 브랜드의 SEO·AI 가시성 채널로 부상했다. 유튜브 쇼츠는 전 세계 1,100+ 'best+소프트웨어' 검색에 랭크되며 그중 92%에 AI 오버뷰가 포함된다. 웨비나·팟캐스트·데모를 특정 구매자 질의를 겨냥한 숏폼으로 재활용하고 제목·자막·후크를 검색 의도에 맞춰라.",
+        "points": [
+          "쇼츠, 1,100+ 검색 랭크",
+          "92%에 AI 오버뷰 포함",
+          "구글이 쇼츠를 더 자주 인용"
+        ],
+        "why": [
+          "숏폼은 소셜 넘어 검색·AEO 채널"
+        ]
       }
     },
     {
-      "id": "marketing-pmm-rewritten",
-      "title": "올해 다시 쓰이는 PMM 직무 — 펜을 쥐는 법",
-      "summary": "AI가 기본 포지셔닝 작업을 상품화하면서 판단과 소신 있는 의사결정이 새 경쟁력이 된다. PMM은 추론을 강조하고 명확한 입장을 취해야 한다.",
-      "source": "LinkedIn (Richard King)",
-      "url": "https://www.linkedin.com/",
+      "id": "mkt-ramp-aeo",
+      "title": "램프의 성공적 AEO 실험",
+      "summary": "램프가 자사 지출 데이터를 HTML로 공개해 검색·AI 답변에 노출.",
+      "source": "LinkedIn/Chris Long",
+      "url": "https://www.linkedin.com/posts/chris-long-marketing_the-ramp-rate-directory-is-the-most-inspiring-share-7478424997359968257-HVjj/?utm_source=tldrmarketing",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "AI 시대 PMM의 무기는 판단과 소신.",
-        "what": "AI가 기본 포지셔닝을 상품화하면서 판단·의사결정이 PMM의 새 경쟁력이 된다.",
-        "points": ["기본 작업 상품화", "판단·소신이 경쟁력"],
-        "why": ["AI 자동화 속 직무 재정의 방향 제시"]
+        "tldr": "자사 데이터를 HTML로 공개해 AI 답변에 노출한다.",
+        "what": "램프는 ICP가 기술 채택 데이터에 관심 있음을 파악해, 자사 지출 데이터로 제품·소프트웨어 카테고리 트렌드를 보여주는 페이지를 만들었다. 주 1~2회 갱신하고 통계·차트·날짜를 HTML로 넣어 검색엔진·AI가 쉽게 읽게 한다. 덕분에 소프트웨어 채택 질의에서 구글·AI 검색에 등장한다.",
+        "points": [
+          "자사 지출 데이터 페이지화",
+          "주 1~2회 갱신",
+          "통계·차트를 HTML로 노출"
+        ],
+        "why": [
+          "독자 데이터 기반 AEO 전략"
+        ]
       }
     },
     {
-      "id": "marketing-zero-person-business",
-      "title": "우리 인턴이 만든 '0인 사업'",
-      "summary": "AI 에이전트가 2,000건 인터뷰와 100개 콘셉트 병렬 테스트를 거쳐 사용자 피드백에 따라 피벗한 뒤 AI 스타일리스트 앱 StyleFits를 자율 구축·출시했다.",
+      "id": "mkt-pmm-rewritten",
+      "title": "PMM 직무가 재편된다, 펜을 쥐는 법",
+      "summary": "AI가 안전한 포지셔닝을 쉽게 복제해 판단력이 차별점이 된다.",
+      "source": "LinkedIn/Richard King",
+      "url": "https://www.linkedin.com/pulse/your-pmm-job-being-rewritten-year-heres-how-hold-pen-richard-king-h5qie/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "AI 시대 PMM의 차별점은 판단력이다.",
+        "what": "AI가 PMM의 하한을 높여 안전한 포지셔닝·표면적 인사이트를 쉽게 복제한다. 이제 우위는 판단력에서 온다. 결정 이유를 설명하도록 팀을 훈련하고, 제품이 누구를 위한지 명확한 입장을 취하며, 모순을 파고들고 고객과 직접 대화하라. 무엇을 뺄지 결정하는 것이 최고 레버리지 기술이다.",
+        "points": [
+          "안전한 포지셔닝은 복제됨",
+          "판단력이 차별점",
+          "'뺄 것' 결정이 핵심 기술"
+        ],
+        "why": [
+          "AI 시대 마케팅 직무 재정의"
+        ]
+      }
+    },
+    {
+      "id": "mkt-zero-person-business",
+      "title": "인턴이 만든 첫 '0인 비즈니스'",
+      "summary": "AI 에이전트가 인터뷰·컨셉 테스트·빌드 루프로 앱을 만들어 유료 사용자 수백 명 확보.",
       "source": "Listen Labs",
-      "url": "https://listenlabs.ai/",
+      "url": "https://listenlabs.ai/blog/closed-loop?utm_source=tldrmarketing",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "에이전트가 리서치부터 출시까지 자율 수행.",
-        "what": "AI 에이전트가 2,000건 인터뷰·100개 콘셉트 테스트를 거쳐 앱 StyleFits를 자율 구축·출시했다.",
-        "points": ["2,000건 인터뷰·100개 콘셉트 병렬", "피드백 기반 피벗"],
-        "why": ["에이전트 기반 제품 개발의 극단 사례"]
+        "tldr": "AI 에이전트가 스스로 앱을 만들고 시장 검증했다.",
+        "what": "AI 에이전트가 사용자 인터뷰·컨셉 테스트·빌드·반복의 타이트한 루프로 앱을 만들어 출시했다. Listen Labs로 2,000회 인터뷰와 100개 아이디어를 서브에이전트로 병렬 테스트했고, 이미지 모델이 제품을 만들고 메타 광고가 획득을 이끌었다. 낮은 NPS·가격 마찰을 근거로 피벗해 유료 사용자 수백 명의 StyleFits를 만들었다.",
+        "points": [
+          "2,000회 인터뷰·100개 아이디어 병렬",
+          "이미지 모델·메타 광고 활용",
+          "유료 사용자 수백 명 확보"
+        ],
+        "why": [
+          "에이전트 주도 제품 개발 실험"
+        ]
       }
     },
     {
-      "id": "marketing-google-ads-structure",
+      "id": "mkt-google-ads-structure",
       "title": "캠페인 구조가 구글 광고 성과를 좌우한다",
-      "summary": "구글 광고 스마트 비딩은 캠페인당 월 30~50건 전환이 있어야 학습 모드를 벗어난다. 과분할 계정은 신호를 흩뜨려 학습을 벗어나지 못하게 한다.",
+      "summary": "스마트 비딩은 캠페인당 월 30~50 전환이 있어야 학습 단계를 벗어난다.",
       "source": "Search Engine Land",
-      "url": "https://searchengineland.com/",
+      "url": "https://searchengineland.com/how-campaign-structure-shapes-google-ads-performance-481332?utm_source=tldrmarketing",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "과분할은 스마트 비딩 학습을 방해한다.",
-        "what": "스마트 비딩이 학습 모드를 벗어나려면 캠페인당 월 30~50건 전환이 필요하며 과분할은 신호를 분산시킨다.",
-        "points": ["월 30~50 전환 필요", "과분할이 학습 저해"],
-        "why": ["광고 계정 구조 설계의 실무 기준"]
+        "tldr": "캠페인을 너무 쪼개면 신호가 흩어져 학습을 못 벗어난다.",
+        "what": "구글 스마트 비딩은 캠페인당 월 약 30~50 전환이 있어야 학습 단계를 벗어나 신뢰할 만한 결정을 내린다. 너무 많은 캠페인으로 나누면 신호가 얇아져 영구 학습 상태에 머문다. Performance Max는 검색 캠페인과 경계를 네거티브 키워드·브랜드 제외로 정의하지 않으면 고의도 브랜드 질의를 가져가 비용을 부풀린다.",
+        "points": [
+          "캠페인당 월 30~50 전환 필요",
+          "과다 분할은 학습 지연",
+          "PMax 경계 미정의 시 비용 증가"
+        ],
+        "why": [
+          "구조 오류는 비딩·크리에이티브로 못 고침"
+        ]
       }
     },
     {
-      "id": "marketing-enterprise-grade-a",
-      "title": "'엔터프라이즈급'이라는 버즈워드를 버리고 명확히 말하기",
-      "summary": "구매자는 '엔터프라이즈급' 같은 모호한 주장보다 도입 기간·고객 성과 같은 구체적 증거에 반응한다. 효과적 메시징은 무엇을 누구를 위해 하는지 설명한다.",
+      "id": "mkt-buzzwords-buyers",
+      "title": "버즈워드보다 '분명한 말'",
+      "summary": "'엔터프라이즈급' 같은 모호한 주장 대신 구현 시간·마이그레이션 등 검증 가능한 증거를 제시하라.",
       "source": "Optimizely",
-      "url": "https://www.optimizely.com/",
+      "url": "https://www.optimizely.com/field-notes/articles/enterprise-grade-a-the-lost-art-of-saying-what-you-mean?utm_source=tldrmarketing",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "버즈워드 대신 구체적 증거가 구매를 움직인다.",
-        "what": "구매자는 모호한 버즈워드보다 도입 기간·고객 성과 등 구체적 증거에 반응한다.",
-        "points": ["구체적 증거 중시", "무엇을·누구를 위해 명시"],
-        "why": ["B2B 메시징의 명료성 강조"]
+        "tldr": "구매자는 버즈워드가 아니라 검증 가능한 증거를 원한다.",
+        "what": "구체적이고 검증 가능한 메시징이 화려한 버즈워드보다 구매자에게 도움이 된다. 구매자는 '엔터프라이즈급' 같은 모호한 주장을 무시하고 구현 시간·마이그레이션 단계·데모·고객 성과 같은 증거를 찾는다. 카피는 제품이 무엇을 하고 누구를 위한지 설명해야 한다.",
+        "points": [
+          "모호한 주장은 무시됨",
+          "구현·마이그레이션·성과가 증거",
+          "무엇을·누구를 위한지 서술"
+        ],
+        "why": [
+          "AI가 콘텐츠를 빨리 만들어도 판단은 인간 몫"
+        ]
       }
     },
     {
-      "id": "marketing-ai-confidence-theater",
+      "id": "mkt-ai-confidence-theater",
       "title": "'AI 자신감 연극'을 멈춰라",
-      "summary": "과장된 AI 주장이 비현실적 기대를 만들어 실제 가치를 가린다. 측정 가능한 결과를 담은 정직한 사례가 부풀린 약속보다 지속가능한 신뢰를 만든다.",
+      "summary": "AI 과장은 오늘의 실제 가치를 알아보기 어렵게 만든다.",
       "source": "Elena Verna",
-      "url": "https://www.elenaverna.com/",
+      "url": "https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater?utm_source=tldrmarketing",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "과장된 AI 마케팅은 신뢰를 갉아먹는다.",
-        "what": "과장된 AI 주장이 실제 가치를 가리며, 정직한 측정 가능 사례가 신뢰를 만든다고 논한다.",
-        "points": ["과장 주장의 역효과", "측정 가능한 정직한 사례"],
-        "why": ["AI 마케팅의 신뢰 리스크 경고"]
+        "tldr": "AI 과장이 실제 가치 인식을 방해한다.",
+        "what": "AI 하이프는 비현실적 기대를 만들어 오늘 AI가 줄 수 있는 실제 가치를 알아보기 어렵게 한다. 소셜은 과장을 보상해 단순 시간 절약 워크플로가 인생을 바꾸는 시스템처럼 포장된다. 진짜 전문성은 AI 개념을 자신 있게 말하는 게 아니라 비즈니스 문제를 푸는 솔루션을 만드는 데서 온다.",
+        "points": [
+          "과장이 실제 가치 인식 방해",
+          "소셜이 과장을 보상",
+          "문제 해결이 진짜 전문성"
+        ],
+        "why": [
+          "정직한 사례·측정 가능한 성과가 신뢰 구축"
+        ]
+      }
+    },
+    {
+      "id": "mkt-linkedin-industry",
+      "title": "링크드인 산업 분류 필드를 확인하라",
+      "summary": "산업 필드를 갱신하면 게시물이 알맞은 청중에 더 잘 도달한다.",
+      "source": "LinkedIn/Diandra Escobar",
+      "url": "https://www.linkedin.com/posts/diandraescobar_your-linkedin-industry-field-is-probably-share-7478063458958180352-MSbU/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "링크드인 산업 필드 갱신은 간단한 도달 개선책.",
+        "what": "링크드인 산업 필드를 갱신하는 것은 게시물이 알맞은 청중에 도달하도록 돕는 빠른 조치다.",
+        "points": [
+          "산업 필드 갱신",
+          "도달 개선 효과"
+        ],
+        "why": [
+          "프로필 설정의 알고리즘 영향"
+        ]
+      }
+    },
+    {
+      "id": "mkt-nike-micro-communities",
+      "title": "나이키, 브랜드 지출 줄이고 스포츠 '마이크로커뮤니티'로",
+      "summary": "전통 브랜드 마케팅을 줄이고 선수 주도 스토리텔링에 집중.",
+      "source": "Marketing Week",
+      "url": "https://www.marketingweek.com/nike-brand-sports-micro-communities/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "나이키가 마이크로커뮤니티·선수 스토리텔링으로 전환한다.",
+        "what": "나이키가 전통적 브랜드 마케팅을 줄이고 선수 주도 스포츠 스토리텔링과 마이크로커뮤니티에 더 집중한다.",
+        "points": [
+          "전통 브랜드 지출 축소",
+          "선수 주도 스토리텔링",
+          "마이크로커뮤니티 강화"
+        ],
+        "why": [
+          "대형 브랜드의 커뮤니티 마케팅 전환"
+        ]
+      }
+    },
+    {
+      "id": "mkt-instagram-carousel",
+      "title": "인스타그램 새 캐러셀 기능 활용법",
+      "summary": "멀티 캡션 캐러셀로 스와이프 맥락과 비주얼을 결합해 스토리를 강화.",
+      "source": "LinkedIn/Dayana Collazos",
+      "url": "https://www.linkedin.com/posts/dayana-collazos-ibarra_instagrams-new-multiple-captions-carousel-ugcPost-7478343172314701827-wclW/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "멀티 캡션 캐러셀로 더 강한 스토리를 만든다.",
+        "what": "멀티 캡션 캐러셀 기능으로 스와이프 가능한 맥락과 비주얼 우선 게시물을 결합해 더 강한 스토리를 전할 수 있다.",
+        "points": [
+          "멀티 캡션 캐러셀",
+          "맥락+비주얼 결합"
+        ],
+        "why": [
+          "인스타 신기능 활용 팁"
+        ]
       }
     }
   ]

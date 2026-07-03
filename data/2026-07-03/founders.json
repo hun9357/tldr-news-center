@@ -1,0 +1,248 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "fnd-ai-employees-cost",
+      "title": "AI 직원이 사람보다 비쌀까?",
+      "summary": "토큰 단가는 3년 만에 $60→$0.60로 떨어졌지만 AI 청구액은 폭증. 4인 스타트업이 월 $113,000 청구.",
+      "source": "Lex",
+      "url": "https://lex.substack.com/p/ai-tokens-are-cheaper-but-ai-bills?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "토큰은 싸졌지만 소비량 폭증으로 AI 비용은 오히려 늘었다.",
+        "what": "토큰 단가는 3년 만에 백만당 $60에서 $0.60로 떨어졌지만 AI 청구액은 폭증했다. 4인 스타트업이 단일 공급사에서 월 $113,000을 청구받았고, 우버는 2026 AI 예산을 4개월 만에 소진했다. 에이전트가 컨텍스트를 재독해하고 자체 검증하며 응답 하나의 60~140배 토큰을 태우는 소비가 원인이다.",
+        "points": [
+          "4인 스타트업 월 $113,000 청구",
+          "우버, AI 예산 4개월 만에 소진",
+          "에이전트는 60~140배 토큰 소비"
+        ],
+        "why": [
+          "좌석당이 아닌 '완료 과제당 비용'을 추적",
+          "모델 계층을 교체 가능하게 유지"
+        ]
+      }
+    },
+    {
+      "id": "fnd-vertical-ai-ditch-labs",
+      "title": "버티컬 AI 창업자들이 모델 랩을 떠나는 이유",
+      "summary": "비용·지연·경쟁 리스크를 줄이려 Blazel 등은 자체 AI 역량 개발로 선회.",
+      "source": "Euclid",
+      "url": "https://insights.euclid.vc/p/why-vertical-ai-founders-are-breaking-up-with-the-model-labs-zain-jaffer-blazel?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "가치가 범용 모델에서 독자 데이터·워크플로로 이동한다.",
+        "what": "Zain Jaffer의 Blazel 같은 버티컬 AI 창업자들이 비용·지연·경쟁 리스크를 줄이려 모델 랩을 떠나 자체 AI 역량을 개발한다. 오픈소스 모델 발전과 컴퓨트 저렴화로 가치가 범용 모델 제공자에서 독자 데이터·특화 앱으로 이동한다는 신호다.",
+        "points": [
+          "비용·지연·경쟁 리스크 회피",
+          "도메인 데이터·워크플로 통합이 방어력",
+          "오픈소스·저렴한 컴퓨트가 배경"
+        ],
+        "why": [
+          "프런티어 랩 의존의 전략적 재고"
+        ]
+      }
+    },
+    {
+      "id": "fnd-engineering-operating-model",
+      "title": "엔지니어링 운영 모델을 설계하라",
+      "summary": "아키텍처가 소프트웨어 행동을 정하듯, 운영 모델이 엔지니어링 행동을 정한다.",
+      "source": "Jim Grey",
+      "url": "https://dev.jimgrey.net/2026/07/01/engineering-the-operating-model/?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "일 중심으로 시스템을 재설계해 엔지니어의 기여를 키워라.",
+        "what": "소프트웨어 아키텍처가 소프트웨어의 행동을 결정하듯, 엔지니어링 운영 모델은 엔지니어링의 행동을 결정한다. 엔지니어링 리더십의 역할은 팀이 만드는 가치를 극대화하는 것이며, 일 중심으로 시스템을 재설계해 엔지니어의 기여가 더 중요해지게 해야 한다.",
+        "points": [
+          "운영 모델이 조직 행동을 규정",
+          "리더십 역할은 가치 극대화",
+          "일 중심 시스템 재설계"
+        ],
+        "why": [
+          "조직 설계가 곧 생산성 레버"
+        ]
+      }
+    },
+    {
+      "id": "fnd-new-saas-playbook",
+      "title": "새로운 SaaS 플레이북",
+      "summary": "세일즈포스 Agentforce가 $1.2B ARR로 급성장했지만 주가는 52주 최저. 해자가 이동한다.",
+      "source": "The VC Corner",
+      "url": "https://www.thevccorner.com/p/the-new-saas-playbook-ai-agent-era?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "누구나 기능을 복제하는 시대, 해자는 복제 불가능한 것으로 이동한다.",
+        "what": "세일즈포스는 Agentforce를 역대 최고 속도로 키워 $1.2B ARR에 도달했지만 주가는 52주 최저를 찍었다. 기능을 주말에 복제할 수 있게 되자 소프트웨어 표면은 해자가 아니게 되고, 가치는 독자 데이터 루프·자금 이동·코드 실행 권한·에이전트가 호출하는 도구로 이동한다. 성과 기반 과금이 이를 굳힌다.",
+        "points": [
+          "Agentforce $1.2B ARR에도 주가 최저",
+          "해자는 복제 불가능한 자산으로 이동",
+          "성과 기반 과금 확산"
+        ],
+        "why": [
+          "'만들기 무료' 시대의 희소 자산 재정의"
+        ]
+      }
+    },
+    {
+      "id": "fnd-notion-html-block",
+      "title": "노션, HTML 블록 추가",
+      "summary": "노션 페이지에서 상호작용형 HTML을 직접 구성, AI가 설명·프로토타입·다이어그램 생성.",
+      "source": "Notion",
+      "url": "https://threadreaderapp.com/thread/2072354853821755822.html?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "노션에서 상호작용형 HTML을 바로 만들 수 있다.",
+        "what": "노션이 페이지에 상호작용형 HTML을 직접 구성하는 기능을 추가했다. AI가 콘텐츠를 상호작용형 설명·프로토타입·다이어그램으로 전환하고, 문서를 받아 흐름을 스케치해 경량 프로토타입을 만든다.",
+        "points": [
+          "페이지 내 상호작용형 HTML",
+          "AI가 프로토타입·다이어그램 생성",
+          "문서에서 흐름 자동 구성"
+        ],
+        "why": [
+          "문서 도구가 프로토타이핑 도구로 확장"
+        ]
+      }
+    },
+    {
+      "id": "fnd-middle-manager",
+      "title": "'미들 매니저' 스킬",
+      "summary": "이슈 트래커를 읽고 Devin 세션을 생성·관리하며 필요할 때만 사람에게 보고하는 AI 관리자.",
+      "source": "GitHub Gist",
+      "url": "https://gist.github.com/vincentmvdm/f4ad9c8977db5ceba3dfff980daf3c4d?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "AI를 자율 소프트웨어 공장의 중간관리자로 만드는 스킬.",
+        "what": "이 GitHub gist는 AI를 자율 소프트웨어 공장의 중간관리자로 바꾸는 스킬을 담았다. 에이전트는 코드를 직접 쓰지 않고 이슈 트래커를 읽어 Devin 코딩 세션을 생성·관리하며, 필요할 때만 사람 운영자에게 보고한다.",
+        "points": [
+          "코드 대신 이슈 트래커 관리",
+          "Devin 세션 생성·조율",
+          "필요 시에만 사람 개입"
+        ],
+        "why": [
+          "에이전트 오케스트레이션 패턴 사례"
+        ]
+      }
+    },
+    {
+      "id": "fnd-ask-for-help",
+      "title": "모르는 사람에게 도움을 청하는 법",
+      "summary": "좋은 소통은 수신자의 마음을 이해하는 데서 출발한다.",
+      "source": "Pradyu Prasad",
+      "url": "https://pradyuprasad.com/writings/how-to-ask-for-help/?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "도움은 프로젝트보다 사람이 먼저다.",
+        "what": "모든 좋은 소통은 수신자의 마음에 대한 이해에서 출발한다. 개인적 연결이나 제도적 신뢰를 통해 자신이 진지한 사람임을 보여 도울 가치가 있음을 드러내라. 절대 거짓말하지 말라.",
+        "points": [
+          "수신자 관점에서 소통",
+          "진지함·신뢰로 도울 가치 증명",
+          "정직 유지"
+        ],
+        "why": [
+          "네트워킹·콜드 아웃리치의 원칙"
+        ]
+      }
+    },
+    {
+      "id": "fnd-defense-ai-mandates",
+      "title": "AI 의무화(mandate)를 옹호하며",
+      "summary": "모든 의무화가 근시안적인 것은 아니며, 조직의 결정에 힘을 싣는 수단이 된다.",
+      "source": "charity.wtf",
+      "url": "https://charity.wtf/2026/07/02/in-defense-of-ai-mandates-xpost/?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "의무화는 결정에 조직적 무게를 싣는 도구다.",
+        "what": "모든 의무화가 근시안적이고 어리석은 것은 아니다. 의무화는 결정에 조직적 힘을 싣는 방식으로, 어떤 트레이드오프와 성공 기준을 기대할지 어려운 대화를 강제한다. 대형 전환 프로젝트는 결국 의무화가 필요해진다.",
+        "points": [
+          "의무화는 결정에 무게 부여",
+          "트레이드오프 논의 강제",
+          "대형 전환엔 필수적"
+        ],
+        "why": [
+          "AI 도입 추진의 조직적 지렛대"
+        ]
+      }
+    },
+    {
+      "id": "fnd-can-i-build-it",
+      "title": "'만들 수 있나'는 이제 틀린 질문",
+      "summary": "누구나 무엇이든 만들 수 있게 되면 실현 가능성은 제약이 아니다.",
+      "source": "LinkedIn/Ash Maurya",
+      "url": "https://www.linkedin.com/posts/ashmaurya_every-startup-is-a-bundle-of-assumptions-activity-7449547168451018752-lPEK?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "사업 성패는 실현 가능성이 아니라 오래된 질문들이 가른다.",
+        "what": "누구나 거의 무엇이든 만들 수 있게 되면 실현 가능성은 더 이상 제약이 아니다. 여전히 사업을 좌우하는 질문은 낡고 화려하지 않은 것들이다: 돈을 낼 것인가, 도달할 수 있는가, 문제가 실제로 아픈가. AI가 만들기를 싸게 만들어 이 가정들이 게임의 전부가 됐다.",
+        "points": [
+          "실현 가능성은 더 이상 제약 아님",
+          "지불·도달·통증이 핵심 질문",
+          "가정 검증이 승부처"
+        ],
+        "why": [
+          "AI 시대 제품 검증의 재정의"
+        ]
+      }
+    },
+    {
+      "id": "fnd-hard-tech-inevitable",
+      "title": "접근 쉬운 하드테크 스타트업의 필연성",
+      "summary": "기술 접근성이 높은 하드테크는 아이디어 포화와 창업자 관심으로 빠르게 복제된다.",
+      "source": "LessWrong",
+      "url": "https://www.lesswrong.com/posts/RAoxEANcXTvJyNstu/how-inevitable-are-most-accessible-hard-tech-startups-1?utm_source=tldrfounders",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "접근 쉬운 하드테크는 빠르게 복제된다.",
+        "what": "기술 접근성이 높은 하드테크 스타트업은 아이디어 포화와 활발한 창업자 관심으로 빠른 복제를 겪는 경우가 많다.",
+        "points": [
+          "접근성 높은 기술은 복제 빠름",
+          "아이디어 포화가 배경"
+        ],
+        "why": [
+          "차별화 없는 하드테크의 리스크"
+        ]
+      }
+    },
+    {
+      "id": "fnd-elevenlabs-seed-deck",
+      "title": "일레븐랩스 시드 덱, $2M에서 $11B까지",
+      "summary": "$11B 회사가 아직 $2M 프리시드였던 시절 투자받은 실제 시드 덱.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/mqZGWM",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "일레븐랩스가 실제로 투자받은 시드 덱 공개.",
+        "what": "$11B 기업이 되기 전, $2M 프리시드 시절 일레븐랩스가 투자를 받은 실제 시드 덱이다.",
+        "points": [
+          "실제 시드 단계 피치덱",
+          "$2M 프리시드 시절 자료"
+        ],
+        "why": [
+          "초기 피치덱 벤치마크"
+        ]
+      }
+    },
+    {
+      "id": "fnd-french-app-studio",
+      "title": "연 $60M 버는 프랑스 앱 스튜디오",
+      "summary": "MWM이 화제 없이 11개 앱으로 월 $100K+씩, 연 약 $60M 매출을 낸다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/CqzTPM",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "화제 없이 꾸준한 앱 포트폴리오로 연 $60M.",
+        "what": "MWM은 과장 없이 11개 앱이 각각 월 $100K+를 내며 연 약 $6천만 매출을 올린다.",
+        "points": [
+          "11개 앱, 각 월 $100K+",
+          "연 약 $60M 매출",
+          "하이프 없는 꾸준한 성과"
+        ],
+        "why": [
+          "앱 포트폴리오 비즈니스의 저평가된 잠재력"
+        ]
+      }
+    }
+  ]
+}

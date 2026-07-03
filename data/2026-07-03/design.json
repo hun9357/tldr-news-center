@@ -6,171 +6,280 @@
   "bg": "#3a1f33",
   "items": [
     {
-      "id": "design-iphone18-dynamic-island",
-      "title": "아이폰 18 프로, 다이내믹 아일랜드 약 35% 축소",
-      "summary": "애플이 아이폰 18 프로에서 다이내믹 아일랜드를 약 35% 줄여 화면 공간을 확보한다. 완전한 엣지투엣지 디스플레이로 가는 장기 여정의 일부다.",
-      "source": "9to5mac",
-      "url": "https://9to5mac.com/2026/06/30/this-iconic-iphone-design-will-get-closer-to-retirement-with-iphone-18-pro/",
-      "originalDate": "2026-06-30",
-      "report": {
-        "tldr": "상징적 UI 요소가 축소되며 풀스크린으로 향한다.",
-        "what": "아이폰 18 프로에서 다이내믹 아일랜드가 약 35% 축소돼 화면 공간을 되찾는다.",
-        "points": ["다이내믹 아일랜드 ~35% 축소", "엣지투엣지 지향"],
-        "why": ["모바일 UI 관습의 점진적 진화"]
-      }
-    },
-    {
-      "id": "design-figma-iso42001",
-      "title": "믿되 검증 가능하게 — 피그마, ISO 42001 인증 획득",
-      "summary": "피그마가 독립 감사를 거쳐 AI 거버넌스·위험관리·개발 관행을 검증받아 ISO/IEC 42001:2023 인증을 취득했다.",
-      "source": "Figma Blog",
-      "url": "https://www.figma.com/blog/figma-is-now-iso-42001-certified/",
+      "id": "dsn-dynamic-island-shrink",
+      "title": "아이폰 18 프로, 다이내믹 아일랜드 약 35% 축소 전망",
+      "summary": "화면 컷아웃이 처음 크게 줄며 올스크린 아이폰으로 한 걸음.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/06/30/this-iconic-iphone-design-will-get-closer-to-retirement-with-iphone-18-pro/?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "디자인 툴 대기업이 AI 거버넌스 국제표준을 인증.",
-        "what": "피그마가 독립 감사를 통해 AI 거버넌스·위험관리를 검증받아 ISO/IEC 42001 인증을 획득했다.",
-        "points": ["ISO/IEC 42001:2023 인증", "AI 거버넌스 감사 통과"],
-        "why": ["AI 거버넌스 인증이 SaaS 신뢰의 기준으로 부상"]
+        "tldr": "아이폰의 상징적 컷아웃이 축소되기 시작한다.",
+        "what": "애플이 아이폰 18 프로의 다이내믹 아일랜드를 약 35% 줄여 사용 가능한 화면을 늘리고 올스크린 아이폰으로 나아갈 전망이다. iOS 27의 시리 AI 인터페이스가 이를 암시했으며, 아이폰 14 프로 이후 첫 대규모 컷아웃 축소다. 맥북 울트라·아이폰 18e에도 더 작은 아일랜드가 예상된다.",
+        "points": [
+          "약 35% 축소 전망",
+          "14 프로 이후 첫 대규모 축소",
+          "올스크린으로 점진 이행"
+        ],
+        "why": [
+          "모바일 UI 공간·디자인 언어 변화"
+        ]
       }
     },
     {
-      "id": "design-base44-model",
-      "title": "바이브코딩 플랫폼 Base44, 자체 모델 출시로 방어력 강화",
-      "summary": "Base44가 수백만 사용자 상호작용으로 학습한 자체 모델 Base1을 출시해 경쟁사와 차별화를 꾀한다.",
+      "id": "dsn-figma-iso-42001",
+      "title": "피그마, ISO 42001 AI 거버넌스 인증 획득",
+      "summary": "독립 감사로 9개 영역 38개 통제 점검, ISO 27001·SOC 2에 더해 AI 거버넌스 검증.",
+      "source": "Figma",
+      "url": "https://www.figma.com/blog/figma-is-now-iso-42001-certified/?utm_source=tldrdesign",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "피그마가 국제 AI 거버넌스 표준 인증을 받았다.",
+        "what": "피그마가 인증기관 Schellman의 독립 감사를 거쳐 ISO/IEC 42001:2023 AI 거버넌스 인증을 획득했다. 2단계 감사에서 리스크 관리·데이터 거버넌스·인간 감독 등 9개 영역 38개 통제를 점검했다. 기존 ISO 27001·SOC 2 Type II에 더해 규제 산업 고객에게 검증된 AI 거버넌스 증거를 제공한다.",
+        "points": [
+          "ISO 42001 인증 획득",
+          "9개 영역 38개 통제 점검",
+          "규제 산업 고객 겨냥"
+        ],
+        "why": [
+          "자기보고 아닌 검증된 AI 거버넌스 수요"
+        ]
+      }
+    },
+    {
+      "id": "dsn-base44-base1",
+      "title": "바이브코딩 Base44, 자체 모델 Base1 출시",
+      "summary": "위엑스가 $80M에 인수한 Base44가 수천만 상호작용으로 학습한 Base1을 출시.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/",
-      "originalDate": "2026-06-29",
-      "report": {
-        "tldr": "AI 스타트업들이 자체 모델로 해자를 판다.",
-        "what": "Base44가 자사 사용자 데이터로 학습한 Base1 모델을 출시해 방어력을 높인다.",
-        "points": ["자체 모델 Base1 출시", "사용자 상호작용 학습"],
-        "why": ["앱 계층 AI 스타트업의 차별화 전략"]
-      }
-    },
-    {
-      "id": "design-figma-design-debt",
-      "title": "피그마가 디자인 시스템 부채를 모두의 문제로 만들었다 — 이제 활용하라",
-      "summary": "피그마 신규 도구가 팀 전반의 디자인 시스템 불일치를 노출해, 숨겨져 있던 드리프트를 이해관계자에게 가시화·측정 가능하게 만든다.",
-      "source": "UX Design",
-      "url": "https://uxdesign.cc/figma-just-made-your-design-system-debt-everyones-problem-now-use-it-2e9ecb6272bf",
+      "url": "https://techcrunch.com/2026/06/29/vibe-coding-platform-base44-launches-own-model-as-ai-startups-seek-defensibility/?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "감춰졌던 디자인 시스템 부채가 측정 가능해졌다.",
-        "what": "피그마 도구가 팀 간 디자인 시스템 불일치를 드러내 드리프트를 가시화·측정한다.",
-        "points": ["시스템 드리프트 가시화", "이해관계자 측정 가능"],
-        "why": ["디자인 시스템 유지보수의 조직적 접근 촉진"]
+        "tldr": "바이브코딩 플랫폼이 방어력 확보를 위해 자체 모델을 냈다.",
+        "what": "위엑스가 $80M에 인수한 바이브코딩 플랫폼 Base44가 수천만 사용자 상호작용으로 학습한 자체 AI 모델 Base1을 출시했다. 외부 프런티어 모델 기반 스타트업의 방어력 논쟁 속에서 특화·비용 효율로 우위를 노린다. Base44는 ARR $150M+로 성장했으나 Lovable($500M)에는 뒤진다.",
+        "points": [
+          "자체 모델 Base1 출시",
+          "수천만 상호작용 학습",
+          "ARR $150M+, Lovable엔 뒤짐"
+        ],
+        "why": [
+          "AI 스타트업의 수직 통합·방어력 경쟁"
+        ]
       }
     },
     {
-      "id": "design-accessibility-operational",
+      "id": "dsn-figma-design-system-debt",
+      "title": "피그마가 디자인 시스템 부채를 모두의 문제로 만들다",
+      "summary": "AI 에이전트·Code Connect·Make·Check가 모두 디자인 시스템에 의존해 결함이 가시화된다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/ouD9PR",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "깨진 디자인 시스템이 이제 모두에게 드러난다.",
+        "what": "피그마의 2026 릴리스(AI 에이전트·Code Connect·Make·Check designs)는 모두 팀의 디자인 시스템에 의존해, 깨진 시스템이 한 관리자에게 숨지 않고 이해관계자·개발자·마케터에게 가시적으로 실패한다. Check designs는 불일치 수를 세어 '드리프트'를 부인할 수 없는 증거로 만든다.",
+        "points": [
+          "신기능이 디자인 시스템에 의존",
+          "드리프트가 수치로 가시화",
+          "의도적 예외는 오탐 가능"
+        ],
+        "why": [
+          "시스템 건강을 배포 리스크로 제시 필요"
+        ]
+      }
+    },
+    {
+      "id": "dsn-accessibility-operational",
       "title": "접근성은 기능이 아니라 운영 역량이다",
-      "summary": "AI 생성 코드가 기본적으로 비접근성 패턴을 낳기에, 조직은 접근성을 일회성 감사가 아닌 워크플로우·자동화에 내재화해야 한다.",
+      "summary": "AI 생성 UI 코드는 기본적으로 접근성이 떨어져, 일회성 감사로는 배포 속도를 못 따라간다.",
       "source": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/",
+      "url": "https://www.smashingmagazine.com/2026/06/why-accessibility-operational-capability-not-feature/?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "접근성은 감사가 아닌 상시 운영으로 다뤄야 한다.",
-        "what": "AI 코드가 비접근성으로 기울기에 접근성을 워크플로우·자동화에 내재화해야 한다고 주장한다.",
-        "points": ["AI 기본값이 비접근성", "워크플로우·자동화에 내재화"],
-        "why": ["AI 코딩 확산이 접근성 리스크를 키움(소송 증가와 연결)"]
+        "tldr": "접근성은 디자인 시스템·CI에 내재화해야 한다.",
+        "what": "AI 생성 UI 코드는 비의미적 마크업을 학습해 기본적으로 접근성이 떨어지며, 이는 AI 코드의 보안 결함과 같은 과정 공백을 반영한다. 일회성 감사는 배포 속도에서 실패한다. 성공하는 조직은 접근성을 디자인 시스템·워크플로·CI 자동화에 내재화한다.",
+        "points": [
+          "AI UI 코드는 기본 접근성 낮음",
+          "일회성 감사는 부적합",
+          "디자인 시스템·CI에 내재화"
+        ],
+        "why": [
+          "접근성은 엔지니어링 성숙도의 지표"
+        ]
       }
     },
     {
-      "id": "design-figma-skills",
-      "title": "스킬로 피그마 에이전트를 더 나은 협업자로",
-      "summary": "피그마 Skills 기능이 자연어로 재사용 가능한 AI 워크플로우를 만들어 크리틱·요약·피드백 정리를 자동화한다.",
-      "source": "Figma Blog",
-      "url": "https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/",
+      "id": "dsn-figma-skills",
+      "title": "피그마 스킬로 에이전트를 더 나은 협업자로",
+      "summary": "평문으로 재사용 AI 워크플로를 만들어 조직 전반에 공유, 팀 프로세스를 에이전트에 적용.",
+      "source": "Figma",
+      "url": "https://www.figma.com/blog/got-skills-make-the-figma-agent-a-better-collaborator/?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "자연어 스킬로 디자인 협업을 자동화.",
-        "what": "피그마 Skills가 자연어 기반 재사용 워크플로우로 크리틱·요약·피드백 정리를 자동화한다.",
-        "points": ["자연어 워크플로우", "크리틱·요약 자동화"],
-        "why": ["디자인 도구에 에이전트 스킬 개념 확산"]
+        "tldr": "피그마가 재사용 가능한 팀 AI 워크플로 기능을 냈다.",
+        "what": "피그마의 새 스킬 기능은 평문으로 재사용 AI 워크플로를 만들어 조직 전반에 공유해, 반복 프롬프트 없이 팀 특화 프로세스·글쓰기 기준·디자인 크리틱·온보딩을 에이전트에 적용한다. 크리틱 준비·요약·피드백 정리를 자동화하고 Slack·Notion·Asana와 통합한다.",
+        "points": [
+          "평문 재사용 워크플로",
+          "팀 프로세스를 에이전트에 적용",
+          "Slack·Notion·Asana 통합"
+        ],
+        "why": [
+          "팀 지식의 에이전트화·공유"
+        ]
       }
     },
     {
-      "id": "design-hypertokens",
-      "title": "하이퍼토큰이란? 토큰과 컴포넌트 사이, 에이전트를 위한 계층",
-      "summary": "하이퍼토큰은 관련 디자인 속성을 명명된 단위로 묶어 드리프트를 줄이고, AI 에이전트가 관계를 추측하지 않고 디자인 파일을 정확히 해석하도록 돕는다.",
+      "id": "dsn-tinkerfont",
+      "title": "라이브 사이트에서 폰트 교체·테스트",
+      "summary": "스타일시트 수정이나 피그마 없이 실제 웹사이트에서 대체 서체를 시험.",
+      "source": "Mighil",
+      "url": "https://mighil.com/tinkerfont?utm_source=tldrdesign",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "실제 사이트에서 폰트를 바로 바꿔본다.",
+        "what": "실제 웹사이트에서 스타일시트를 고치거나 피그마를 열기 전에 대체 서체를 시험하는 도구다. 실제 콘텐츠·레이아웃·브레이크포인트에서 폰트가 어떻게 보이는지 확인한다.",
+        "points": [
+          "실사이트에서 폰트 교체",
+          "레이아웃·브레이크포인트 확인"
+        ],
+        "why": [
+          "타이포그래피 실험 간소화"
+        ]
+      }
+    },
+    {
+      "id": "dsn-retromac",
+      "title": "RetroMac (Website)",
+      "summary": "모던 크로미움 기반으로 90년대 말~2000년대 초 브라우저 감성을 재현한 오픈소스 브라우저.",
+      "source": "myretromac",
+      "url": "https://myretromac.app/?utm_source=tldrdesign",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "레트로 감성의 오픈소스 데스크톱 브라우저.",
+        "what": "RetroMac은 모던 크로미움 위에 90년대 말~2000년대 초 브라우저의 룩앤필을 재현한 오픈소스 데스크톱 브라우저다.",
+        "points": [
+          "레트로 브라우저 감성 재현",
+          "모던 크로미움 기반"
+        ],
+        "why": [
+          "노스탤지어 디자인 사례"
+        ]
+      }
+    },
+    {
+      "id": "dsn-hypertokens",
+      "title": "하이퍼토큰: 토큰과 컴포넌트 사이 계층",
+      "summary": "피그마의 Jake Albaugh가 제안한 개념으로 관련 스타일을 한 단위로 묶어 드리프트 해소.",
       "source": "Christine Vallaure",
-      "url": "https://christinevallaure.substack.com/p/what-are-hypertokens-the-layer-between",
+      "url": "https://christinevallaure.substack.com/p/what-are-hypertokens-the-layer-between?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "에이전트 친화적 토큰 추상화, 하이퍼토큰.",
-        "what": "하이퍼토큰이 관련 속성을 명명 단위로 묶어 드리프트를 줄이고 에이전트의 디자인 해석을 돕는다.",
-        "points": ["속성을 명명 단위로 번들", "에이전트 해석 정확도↑"],
-        "why": ["에이전트 시대에 맞춘 디자인 토큰 진화"]
+        "tldr": "AI 에이전트가 읽기 쉽도록 토큰을 묶는 개념.",
+        "what": "하이퍼토큰은 Config 2026에서 피그마의 Jake Albaugh가 제안한 개념으로, 관련 스타일 속성을 하나의 명명 단위로 묶어 모든 도구가 이를 기반으로 만들게 한다. 도구 간 드리프트를 해소하고, 현재 그룹 없는 토큰 목록을 받는 AI 에이전트가 조합을 추측 대신 정확히 읽게 한다. 아직 출시 기능은 아니다.",
+        "points": [
+          "관련 스타일을 한 단위로 묶음",
+          "도구 간 드리프트 해소",
+          "에이전트 가독성 향상"
+        ],
+        "why": [
+          "W3C 복합 토큰과 유사한 초기 탐색"
+        ]
       }
     },
     {
-      "id": "design-accessibility-complaints",
-      "title": "접근성 소송이 늘어나는 이유",
-      "summary": "규제 강화 속에 2025년 디지털 접근성 소송이 5,000건을 넘었고, 조직은 반응적 수정에서 지속가능한 거버넌스로 이동하고 있다.",
+      "id": "dsn-accessibility-complaints",
+      "title": "접근성 불만이 늘어나는 이유",
+      "summary": "2025년 미 법원에 5,000건 이상 소송, 규제·조달·인식 성숙이 배경.",
       "source": "Vispero",
-      "url": "https://vispero.com/resources/why-accessibility-complaints-are-increasing/",
+      "url": "https://vispero.com/resources/why-accessibility-complaints-are-increasing/?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "접근성 소송 급증이 거버넌스 전환을 압박.",
-        "what": "2025년 접근성 소송이 5,000건을 넘으며 조직이 지속가능 거버넌스로 이동 중이다.",
-        "points": ["2025년 소송 5,000건 초과", "거버넌스 전환"],
-        "why": ["접근성의 법적·비즈니스 리스크 부각"]
+        "tldr": "접근성 소송·불만이 빠르게 늘고 있다.",
+        "what": "디지털 접근성 불만이 법적·조달·고객경험 기대의 성숙과 함께 늘어 2025년 미 법원에 5,000건 이상 소송이 제기됐다. 규제 확대, 방대한 디지털 생태계, 공공 인식 향상이 원인이다. 반응형 개선은 장벽을 재발시켜, 지속가능한 프로그램은 거버넌스·지속 테스트·교육을 일상에 내재화한다.",
+        "points": [
+          "2025년 5,000+ 소송",
+          "규제·조달·인식 성숙이 배경",
+          "반응형 개선은 재발"
+        ],
+        "why": [
+          "접근성의 지속 운영 필요성"
+        ]
       }
     },
     {
-      "id": "design-friction-conversion",
-      "title": "마찰을 더했더니 전환율 25% 향상한 이유",
-      "summary": "사려 깊은 온보딩 단계가 가입을 25% 늘려, 과도하게 단순화된 흐름보다 적절한 마찰이 더 낫다는 것을 보여줬다.",
+      "id": "dsn-built-for-mars-friction",
+      "title": "마찰 추가로 전환율 25% 개선",
+      "summary": "사려 깊은 온보딩 단계가 가입을 약 25% 늘렸고 '뻔한' 최적화는 효과 없었다.",
       "source": "Built for Mars",
-      "url": "https://builtformars.com/case-studies/bfm",
+      "url": "https://builtformars.com/case-studies/bfm?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "적절한 마찰이 전환을 높일 수 있다.",
-        "what": "사려 깊은 온보딩 단계가 가입 전환을 25% 향상시킨 사례를 분석한다.",
-        "points": ["온보딩 마찰 추가", "전환율 +25%"],
-        "why": ["'무조건 단순화'가 답이 아님을 보여주는 UX 근거"]
+        "tldr": "마찰을 줄이는 게 항상 답은 아니다.",
+        "what": "마찰을 줄이는 것이 항상 전환을 높이지는 않는다. 사려 깊은 온보딩 단계 추가가 가입을 약 25% 늘린 반면 단순한 '뻔한' 최적화는 효과가 없었다. 선택적 질문·과도한 유연성은 심리적 반발, 낮은 품질의 개인화 데이터 같은 문제를 낳는다.",
+        "points": [
+          "온보딩 단계 추가로 +25%",
+          "단순 최적화는 무효과",
+          "과도한 유연성은 역효과"
+        ],
+        "why": [
+          "온보딩 설계의 안내·자율 균형"
+        ]
       }
     },
     {
-      "id": "design-serif-fonts-2026",
-      "title": "2026년 디자이너가 사랑하는 세리프 폰트 톱5",
-      "summary": "2026년 디자이너들 사이에서 인기 있는 세리프 서체 다섯 종을 간략히 소개한다.",
-      "source": "Pangram Pangram",
-      "url": "https://pangrampangram.com/blogs/journal/top-5-serif-fonts",
-      "originalDate": "2026-07-03",
-      "report": {
-        "tldr": "올해 주목받는 세리프 서체 큐레이션.",
-        "what": "2026년 트렌드 세리프 서체 5종을 소개한다.",
-        "points": ["세리프 폰트 5종 큐레이션"],
-        "why": ["타이포그래피 트렌드 참고 자료"]
-      }
-    },
-    {
-      "id": "design-ai-human-illustrators",
-      "title": "AI vs. 인간 일러스트레이터? AI + 인간 일러스트레이터!",
-      "summary": "Evil Martians가 둘 중 하나가 아니라 AI 생성과 인간 아티스트 다듬기를 결합해 일러스트 워크플로우를 개선했다.",
+      "id": "dsn-ai-human-illustrators",
+      "title": "AI vs 인간 일러스트레이터? AI + 인간!",
+      "summary": "Evil Martians가 블로그 커버를 순수 AI에서 AI+인간 하이브리드 파이프라인으로 전환.",
       "source": "Evil Martians",
-      "url": "https://evilmartians.com/chronicles/ai-vs-human-illustrators-ai-plus-human-illustrators",
+      "url": "https://evilmartians.com/chronicles/ai-vs-human-illustrators-ai-plus-human-illustrators?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "AI와 인간의 결합이 최선의 일러스트 워크플로우.",
-        "what": "Evil Martians가 AI 생성과 인간 다듬기를 결합해 일러스트 제작을 개선했다.",
-        "points": ["AI 생성 + 인간 다듬기", "워크플로우 개선"],
-        "why": ["창작에서 AI-인간 협업 모델 제시"]
+        "tldr": "AI와 인간 일러스트레이터를 결합한 하이브리드 워크플로.",
+        "what": "Evil Martians는 블로그 커버 제작을 계약 일러스트레이터에서 순수 AI 이미지 생성으로, 다시 AI 생성과 에이전시 KOJI의 인간 일러스트레이터가 최종 정리를 맡는 하이브리드 파이프라인으로 전환했다.",
+        "points": [
+          "순수 AI에서 하이브리드로",
+          "AI 생성+인간 최종 정리",
+          "에이전시 협업 유지"
+        ],
+        "why": [
+          "창작 워크플로의 AI-인간 협업 모델"
+        ]
       }
     },
     {
-      "id": "design-polaroid-anti-ai",
-      "title": "폴라로이드의 반(反)AI 빌보드, '풀밭을 만져라'는 리마인더",
-      "summary": "폴라로이드의 '여름의 최고는 아날로그' 캠페인이 스크린 타임 감소와 실세계 참여를 권한다.",
-      "source": "Creative Bloq",
-      "url": "https://www.creativebloq.com/design/advertising/polaroids-new-anti-ai-billboard-is-an-important-reminder-to-touch-grass",
+      "id": "dsn-serif-fonts-2026",
+      "title": "2026 디자이너가 사랑하는 세리프 5종",
+      "summary": "Pangram Pangram이 꼽은 Kyoto·Lettra Mono·Fragment Serif·Editorial Old·New.",
+      "source": "Pangram Pangram",
+      "url": "https://pangrampangram.com/blogs/journal/top-5-serif-fonts?utm_source=tldrdesign",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "AI 범람 속 아날로그를 내세운 브랜드 캠페인.",
-        "what": "폴라로이드가 '여름의 최고는 아날로그' 캠페인으로 실세계 참여를 권한다.",
-        "points": ["아날로그 강조 캠페인", "스크린 타임 감소 메시지"],
-        "why": ["반AI 정서를 활용한 브랜딩 사례"]
+        "tldr": "2026년 인기 세리프 서체 추천.",
+        "what": "Pangram Pangram Foundry가 2026년 디자이너가 선호하는 세리프 서체 5종을 꼽았다: Kyoto, Lettra Mono, Fragment Serif, Editorial Old, Editorial New.",
+        "points": [
+          "세리프 5종 추천",
+          "Kyoto·Lettra Mono 등"
+        ],
+        "why": [
+          "타이포그래피 트렌드 참고"
+        ]
+      }
+    },
+    {
+      "id": "dsn-polaroid-anti-ai",
+      "title": "폴라로이드의 안티-AI 빌보드",
+      "summary": "'The Best of Summer is Analog' 캠페인으로 스크린 밖 실세계를 권한다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/advertising/polaroids-new-anti-ai-billboard-is-an-important-reminder-to-touch-grass?utm_source=tldrdesign",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "폴라로이드가 아날로그 감성으로 AI 시대에 반기를 든다.",
+        "what": "폴라로이드의 'The Best of Summer is Analog' 캠페인은 대담하고 미니멀한 메시지로 스크린 시간을 줄이고 AI가 지배하는 세상에서 실세계 순간을 즐기라고 권한다.",
+        "points": [
+          "아날로그 감성 캠페인",
+          "미니멀 메시지",
+          "스크린 밖 실세계 강조"
+        ],
+        "why": [
+          "안티-AI 브랜딩 흐름"
+        ]
       }
     }
   ]

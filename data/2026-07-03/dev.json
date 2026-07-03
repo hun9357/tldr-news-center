@@ -7,170 +7,239 @@
   "items": [
     {
       "id": "dev-openai-voice-latency",
-      "title": "오픈AI는 9억 사용자에게 어떻게 저지연 음성 AI를 제공하나",
-      "summary": "오픈AI 아키텍처는 무상태 엣지 릴레이와 상태형 트랜시버를 분리하고, ICE ufrag에 라우팅 메타데이터를 심어 쿠버네티스 한계를 우회한다.",
+      "title": "오픈AI, 9억 사용자용 저지연 음성 AI 구현법",
+      "summary": "무상태 엣지 릴레이와 상태 트랜시버로 분리, ICE ufrag에 라우팅 메타데이터를 인코딩.",
       "source": "ByteByteGo",
-      "url": "https://blog.bytebytego.com/",
+      "url": "https://blog.bytebytego.com/p/how-openai-delivers-low-latency-voice?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "대규모 실시간 음성 AI의 인프라 설계 해부.",
-        "what": "무상태 엣지 릴레이와 상태형 트랜시버 분리, ICE ufrag 라우팅 메타데이터로 저지연 음성을 대규모 제공하는 구조를 소개한다.",
-        "points": ["엣지 릴레이/트랜시버 분리", "ICE ufrag 라우팅으로 K8s 한계 우회"],
-        "why": ["실시간 AI 서비스의 확장 설계 참고"]
-      }
-    },
-    {
-      "id": "dev-code-review-purpose",
-      "title": "코드 리뷰의 본질은 '유지보수 어려운 코드' 찾기",
-      "summary": "코드 리뷰의 핵심 기능은 버그 탐지보다 유지보수 난제를 식별하는 데 있다는 주장.",
-      "source": "mathstodon.xyz",
-      "url": "https://mathstodon.xyz/",
-      "originalDate": "2026-07-03",
-      "report": {
-        "tldr": "리뷰의 진짜 목적은 버그가 아니라 유지보수성.",
-        "what": "코드 리뷰가 버그보다 유지보수하기 어려운 코드를 찾는 데 본질이 있다고 논한다.",
-        "points": ["버그 탐지 < 유지보수성", "장기 관점의 리뷰"],
-        "why": ["AI 생성 코드 급증 시대의 리뷰 기준 재정의"]
-      }
-    },
-    {
-      "id": "dev-short-leash-ai",
-      "title": "Fable을 이기는 '짧은 목줄' AI 코딩 방법",
-      "summary": "숙련 개발자는 잦은 리뷰·정기 커밋·인간-AI 코드 리뷰 협업으로 AI 에이전트를 가까이 감독해야 한다는 조언.",
-      "source": "okturtles",
-      "url": "https://blog.okturtles.org/",
-      "originalDate": "2026-07-03",
-      "report": {
-        "tldr": "AI 에이전트는 짧은 감독 주기로 통제하라.",
-        "what": "잦은 리뷰, 정기 커밋, 인간-AI 협업 리뷰로 에이전트를 가까이 감독하는 코딩 방식을 제안한다.",
-        "points": ["잦은 리뷰·정기 커밋", "인간-AI 리뷰 협업"],
-        "why": ["에이전트 코딩의 통제·품질 확보 방법론"]
+        "tldr": "WebRTC 스택을 분리해 쿠버네티스의 상태 문제를 우회했다.",
+        "what": "오픈AI는 WebRTC 음성 AI를 주간 9억 사용자에게 제공하기 위해 패킷 라우팅용 무상태 엣지 릴레이와 무거운 WebRTC 상태를 가진 상태 트랜시버로 스택을 분리했다. 핵심은 설정 중 교환되는 ICE ufrag에 라우팅 메타데이터를 인코딩해, DB 조회 없이 초기 STUN 요청만으로 첫 패킷을 라우팅한 것이다.",
+        "points": [
+          "무상태 릴레이+상태 트랜시버 분리",
+          "ICE ufrag에 라우팅 메타 인코딩",
+          "포트 고갈·상태 고착 회피"
+        ],
+        "why": [
+          "대규모 실시간 음성 인프라 설계 사례"
+        ]
       }
     },
     {
       "id": "dev-foundationdb-flow",
-      "title": "Flow — FoundationDB의 액터 기반 동시성 C++ 확장",
-      "summary": "네이티브 코드로 컴파일되는 비동기 프리미티브로 액터 기반 동시성을 구현하는 FoundationDB의 커스텀 C++ 언어 확장.",
-      "source": "FoundationDB",
-      "url": "https://apple.github.io/foundationdb/flow.html",
+      "title": "Flow: FoundationDB의 C++ 확장 언어",
+      "summary": "Future·Promise·wait()·ACTOR로 액터 기반 동시성을 네이티브 C++로 컴파일.",
+      "source": "Apple/FoundationDB",
+      "url": "https://apple.github.io/foundationdb/flow.html?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "고성능 DB를 떠받치는 액터형 동시성 언어 확장.",
-        "what": "FoundationDB의 Flow가 네이티브 컴파일 비동기 프리미티브로 액터 기반 동시성을 제공한다.",
-        "points": ["액터 기반 동시성", "네이티브 컴파일 비동기"],
-        "why": ["분산 DB 동시성 설계의 실증 사례"]
+        "tldr": "콜백 지옥 없이 분산 비동기 시스템을 짜는 C++ 확장.",
+        "what": "Flow는 FoundationDB의 C++ 확장으로 Future·Promise·wait()·ACTOR 같은 비동기 프리미티브로 효율적 액터 동시성을 더하면서 네이티브 C++로 컴파일해 고성능·결정적 시뮬레이션을 제공한다. FutureStream/PromiseStream, choose/when 같은 구성으로 동시 이벤트를 조율한다.",
+        "points": [
+          "액터 기반 동시성 프리미티브",
+          "네이티브 C++ 컴파일",
+          "결정적 시뮬레이션 지원"
+        ],
+        "why": [
+          "분산 시스템 개발 생산성 향상"
+        ]
       }
     },
     {
-      "id": "dev-safari-mcp-server",
-      "title": "웹 개발자를 위한 Safari MCP 서버 소개",
-      "summary": "애플의 Safari MCP 서버가 AI 코딩 에이전트에게 DOM·콘솔·네트워크·성능·접근성 데이터 검사를 가능케 한다.",
-      "source": "WebKit",
-      "url": "https://webkit.org/blog/",
+      "id": "dev-short-leash-ai",
+      "title": "'짧은 목줄' AI 코딩 방법",
+      "summary": "숙련 개발자는 모든 변경을 검토하고 자주 개입·커밋하며 AI를 감독 없이 두지 말라.",
+      "source": "okturtles",
+      "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "에이전트가 Safari 내부 데이터를 직접 검사.",
-        "what": "Safari MCP 서버가 에이전트에게 DOM·콘솔·네트워크·성능·접근성 검사 기능을 제공한다.",
-        "points": ["DOM·콘솔·네트워크 검사", "성능·접근성 데이터 접근"],
-        "why": ["에이전트 기반 웹 디버깅 워크플로우 확산"]
+        "tldr": "AI 코딩 에이전트는 짧은 목줄로 관리하라.",
+        "what": "숙련 개발자는 AI 코딩 에이전트를 '짧은 목줄'로 두어 제안된 모든 변경을 검토하고 자주 개입·커밋하며 감독 없이 작업하게 두지 말아야 한다. AI를 인간 리뷰와 병행한 코드 리뷰어로 쓸 것도 권한다.",
+        "points": [
+          "모든 변경 검토·잦은 개입",
+          "자주 커밋",
+          "AI를 보조 리뷰어로 활용"
+        ],
+        "why": [
+          "에이전트 코딩의 품질 관리 원칙"
+        ]
       }
     },
     {
-      "id": "dev-valmis",
-      "title": "Valmis — 100+ 통합에 AI 에이전트 배포 플랫폼",
-      "summary": "격리된 컨테이너 실행으로 API 자격증명을 보호하며 100개 이상 통합에 AI 에이전트를 배포하는 클라우드 플랫폼.",
-      "source": "GitHub",
-      "url": "https://github.com/valmishq/valmis",
+      "id": "dev-code-review-purpose",
+      "title": "코드 리뷰의 본질은 유지보수성 점검",
+      "summary": "리뷰의 주목적은 버그 잡기가 아니라 이해하기 어려운 코드를 찾는 것.",
+      "source": "mathstodon/mjd",
+      "url": "https://mathstodon.xyz/@mjd/115096720350507897?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "격리 실행으로 자격증명을 지키는 에이전트 배포 플랫폼.",
-        "what": "Valmis가 격리 컨테이너 실행으로 자격증명을 보호하며 100+ 통합에 에이전트를 배포한다.",
-        "points": ["100+ 통합", "격리 컨테이너로 자격증명 보호"],
-        "why": ["에이전트 배포의 보안·확장 니즈 대응"]
+        "tldr": "코드 리뷰의 핵심은 유지보수 어려운 코드 발견이다.",
+        "what": "코드 리뷰의 주된 목표는 버그를 잡는 것이 아니라 이해하기 어려워 유지보수가 힘든 코드를 식별하는 것이다.",
+        "points": [
+          "리뷰의 목적은 유지보수성",
+          "버그 탐지는 부차적"
+        ],
+        "why": [
+          "리뷰 문화에 대한 관점 전환"
+        ]
       }
     },
     {
       "id": "dev-omniroute",
-      "title": "OmniRoute — 237+ AI 제공자를 잇는 오픈소스 게이트웨이",
-      "summary": "코딩 도구를 237개 이상 AI 제공자에 통합 OpenAI 호환 엔드포인트와 페일오버로 연결하는 오픈소스 게이트웨이.",
+      "title": "OmniRoute (GitHub)",
+      "summary": "Claude Code·Codex·Cursor 등을 237개 AI 제공자에 단일 엔드포인트로 연결하는 오픈소스 게이트웨이.",
       "source": "GitHub",
-      "url": "https://github.com/diegosouzapw/OmniRoute",
+      "url": "https://github.com/diegosouzapw/OmniRoute?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "여러 AI 제공자를 하나의 엔드포인트로 통합.",
-        "what": "OmniRoute가 코딩 도구를 237+ 제공자에 OpenAI 호환 엔드포인트·페일오버로 연결한다.",
-        "points": ["237+ 제공자 통합", "OpenAI 호환·페일오버"],
-        "why": ["멀티-프로바이더 라우팅으로 벤더 종속 완화"]
+        "tldr": "코딩 도구를 수백 개 AI 제공자에 연결하는 라우팅 게이트웨이.",
+        "what": "OmniRoute는 Claude Code·Codex·Cursor·Cline 같은 도구를 237개(무료 90+ 포함) AI 제공자에 단일 OpenAI 호환 엔드포인트로 연결하는 오픈소스 AI 라우팅 게이트웨이다. 장애 조치, 비용 최적화, 쿼터 관리를 자동 처리한다.",
+        "points": [
+          "단일 엔드포인트로 237개 제공자",
+          "장애 조치·비용 최적화",
+          "무료 제공자 90+ 지원"
+        ],
+        "why": [
+          "멀티 프로바이더 라우팅 표준화"
+        ]
+      }
+    },
+    {
+      "id": "dev-valmis",
+      "title": "Valmis (GitHub)",
+      "summary": "100+ 통합으로 업무 워크플로를 자동화하는 AI 에이전트 배포 플랫폼.",
+      "source": "GitHub",
+      "url": "https://github.com/valmishq/valmis?utm_source=tldrdev",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "격리 컨테이너로 안전하게 에이전트를 돌리는 플랫폼.",
+        "what": "Valmis는 채팅·예약 작업·웹훅·앱 이벤트로 100+ 통합의 업무 워크플로를 자동화하는 AI 에이전트 구축·배포 클라우드 플랫폼이다. 에이전트를 격리 컨테이너에서 실행해 AI가 API 자격증명·로컬 파일에 직접 접근하지 못하게 한다.",
+        "points": [
+          "100+ 통합 워크플로 자동화",
+          "격리 컨테이너 실행",
+          "자격증명·파일 접근 차단"
+        ],
+        "why": [
+          "에이전트 자동화의 보안 설계"
+        ]
       }
     },
     {
       "id": "dev-fable5-safeguards",
-      "title": "Fable 5의 사이버 안전장치·탈옥 프레임워크 상세",
-      "summary": "Fable 5 배포에는 능력 향상과 발견 용이성을 재는 심각도 척도로 이중용도 요청을 선별하는 강화된 사이버보안 분류기가 포함된다.",
+      "title": "Fable 5의 사이버 안전장치와 탈옥 프레임워크",
+      "summary": "고위험 이중용도 사이버 요청을 차단하는 더 엄격한 분류기와 탈옥 심각도 척도.",
       "source": "Anthropic",
-      "url": "https://www.anthropic.com/",
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "프런티어 모델의 이중용도 요청 방어를 체계화.",
-        "what": "Fable 5가 능력 향상·발견 용이성 심각도 척도로 이중용도 요청을 선별하는 사이버보안 분류기를 탑재했다.",
-        "points": ["사이버보안 분류기", "이중용도 심각도 척도"],
-        "why": ["프런티어 모델 안전 배포 기준 제시"]
+        "tldr": "Fable 5가 방어적 사용은 허용하되 위험한 사이버 요청을 차단한다.",
+        "what": "Fable 5는 명백히 방어적 사용은 허용하면서 금지·고위험 이중용도 사이버 요청을 차단하는 더 엄격한 사이버보안 분류기와 함께 재배포된다. 앤스로픽은 능력 이득·범위·무기화·발견성으로 탈옥을 평가하는 사이버 탈옥 심각도 척도를 사용한다.",
+        "points": [
+          "더 엄격한 사이버 분류기",
+          "방어적 사용은 허용",
+          "탈옥 심각도 척도 도입"
+        ],
+        "why": [
+          "모델 오용 방지 프레임워크 공개"
+        ]
       }
     },
     {
       "id": "dev-expensify-agent-device",
-      "title": "Expensify의 Agent-Device로 모바일 버그 증거·프로파일링",
-      "summary": "Expensify가 스크린샷 대신 접근성 트리를 반환하는 에이전트-디바이스 기술로 AI 에이전트에 기기 상호작용 능력을 부여한다.",
+      "title": "Expensify의 agent-device 활용법",
+      "summary": "실기기에 AI '손과 눈'을 부여, 화면을 접근성 트리로 반환해 버그 재현·프로파일링.",
       "source": "Callstack",
-      "url": "https://www.callstack.com/",
+      "url": "https://www.callstack.com/blog/how-expensify-uses-agent-device-for-mobile-bug-evidence-and-profiling?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "에이전트가 접근성 트리로 모바일 앱을 조작·검증.",
-        "what": "Expensify가 스크린샷 대신 접근성 트리를 쓰는 에이전트-디바이스로 모바일 버그 증거·프로파일링을 수행한다.",
-        "points": ["접근성 트리 기반 조작", "모바일 버그 증거 수집"],
-        "why": ["에이전트 기반 모바일 QA의 실전 접근"]
-      }
-    },
-    {
-      "id": "dev-zerofs",
-      "title": "ZeroFS — S3 스토리지를 암호화 POSIX 파일시스템으로",
-      "summary": "S3 호환 스토리지를 암호화된 POSIX 파일시스템 또는 블록 디바이스로 제공하는 오픈소스 파일시스템.",
-      "source": "ZeroFS",
-      "url": "https://zerofs.net/",
-      "originalDate": "2026-07-03",
-      "report": {
-        "tldr": "오브젝트 스토리지를 암호화 파일시스템처럼 사용.",
-        "what": "ZeroFS가 S3 호환 스토리지를 암호화 POSIX 파일시스템·블록 디바이스로 노출한다.",
-        "points": ["S3→POSIX/블록", "암호화 지원"],
-        "why": ["오브젝트 스토리지 활용 폭 확장"]
+        "tldr": "AI 에이전트가 실기기에서 버그를 재현·기록한다.",
+        "what": "Expensify는 플랫폼 파편화를 단일 API 뒤로 숨기고 화면을 스크린샷 대신 구조화된 접근성 트리로 반환하는 agent-device를 쓴다. 버그를 재현해 재생 스크립트로 만들고 PR용 전후 녹화를 남기는 스킬, Sentry 스팬 자동 측정, 원프롬프트 React 프로파일링에 적용한다.",
+        "points": [
+          "화면을 접근성 트리로 반환",
+          "버그 재현·재생 스크립트화",
+          "Sentry 측정·React 프로파일링"
+        ],
+        "why": [
+          "모바일 QA의 에이전트 자동화"
+        ]
       }
     },
     {
       "id": "dev-carplay-additive",
-      "title": "CarPlay는 '추가'다",
-      "summary": "리비안 차량의 CarPlay 통합은 네이티브 인터페이스를 대체하지 않으면서 운전자에게 수천 개 앱 접근을 제공한다는 논지.",
-      "source": "caseyliss.com",
-      "url": "https://www.caseyliss.com/",
+      "title": "'카플레이는 추가 기능이다'",
+      "summary": "리비안은 네이티브 UI를 대체하지 않고 선택적으로 카플레이를 지원해야 한다는 주장.",
+      "source": "Casey Liss",
+      "url": "https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "CarPlay는 대체가 아니라 보완이라는 관점.",
-        "what": "리비안의 CarPlay 통합이 네이티브 UI를 대체하지 않고 앱 접근을 더한다는 주장을 편다.",
-        "points": ["네이티브 UI 유지", "앱 접근성 추가"],
-        "why": ["차량 소프트웨어 통합 논쟁에 기여"]
+        "tldr": "카플레이는 대체가 아닌 선택적 추가여야 한다.",
+        "what": "리비안은 네이티브 인터페이스를 대체하지 않으면서 수천 개 익숙한 앱에 접근하게 하는 선택 기능으로 애플 카플레이를 지원해야 한다는 의견이다.",
+        "points": [
+          "카플레이는 선택적 추가 기능",
+          "네이티브 UI 대체 아님"
+        ],
+        "why": [
+          "차량 SW 생태계 개방성 논쟁"
+        ]
       }
     },
     {
       "id": "dev-theorem-economy",
       "title": "정리(定理) 경제의 몰락",
-      "summary": "수학 연구의 난도는 정리 증명 자체보다 적절한 개념을 발견하는 데서 비롯된다는 논지.",
-      "source": "davidbessis.substack.com",
-      "url": "https://davidbessis.substack.com/",
+      "summary": "수학 연구의 가장 어려운 부분은 정리 증명이 아니라 개념·언어의 발견.",
+      "source": "David Bessis",
+      "url": "https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy?utm_source=tldrdev",
       "originalDate": "2026-07-03",
       "report": {
-        "tldr": "수학의 어려움은 증명이 아니라 '개념 발견'.",
-        "what": "수학 연구의 핵심 난제가 정리 증명보다 개념 발견에 있다고 논한다.",
-        "points": ["개념 발견이 핵심 난제", "증명은 부차적"],
-        "why": ["AI 수학 추론 논쟁(라마누잔 챌린지)과 호응"]
+        "tldr": "수학의 핵심은 증명이 아니라 개념의 발견이다.",
+        "what": "수학 연구의 가장 어려운 부분은 정리를 증명하는 것이 아니라, 그 정리를 거의 필연으로 만드는 올바른 개념과 언어를 발견하는 것이다.",
+        "points": [
+          "개념·언어 발견이 핵심",
+          "증명은 그 다음"
+        ],
+        "why": [
+          "AI 수학의 한계에 대한 시사"
+        ]
+      }
+    },
+    {
+      "id": "dev-safari-mcp-webdev",
+      "title": "웹 개발자를 위한 사파리 MCP 서버 소개",
+      "summary": "AI 코딩 에이전트가 로컬 사파리에 연결해 DOM·콘솔·네트워크·성능·접근성을 검사.",
+      "source": "WebKit",
+      "url": "https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/?utm_source=tldrdev",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "사파리 MCP로 에이전트가 브라우저 내부를 검사한다.",
+        "what": "애플의 새 사파리 MCP 서버는 AI 코딩 에이전트가 로컬 사파리 브라우저에 직접 연결해 DOM·콘솔·네트워크·스크린샷·성능·접근성을 검사하게 한다.",
+        "points": [
+          "로컬 사파리에 직접 연결",
+          "DOM·콘솔·네트워크 검사",
+          "성능·접근성 점검"
+        ],
+        "why": [
+          "에이전트 웹 개발 워크플로 강화"
+        ]
+      }
+    },
+    {
+      "id": "dev-zerofs",
+      "title": "ZeroFS (Website)",
+      "summary": "S3 호환 오브젝트 스토리지를 고성능 암호화 POSIX 파일시스템처럼 동작시키는 오픈소스.",
+      "source": "ZeroFS",
+      "url": "https://www.zerofs.net/?utm_source=tldrdev",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "오브젝트 스토리지를 로컬 디스크처럼 쓰게 하는 파일시스템.",
+        "what": "ZeroFS는 S3 호환 오브젝트 스토리지를 고성능 암호화 POSIX 파일시스템 또는 블록 디바이스처럼 동작시키는 오픈소스로, 앱이 클라우드 오브젝트 스토리지를 로컬 디스크처럼 쓰게 한다.",
+        "points": [
+          "S3를 POSIX FS처럼 노출",
+          "암호화·블록 디바이스 지원",
+          "로컬 디스크 유사 사용"
+        ],
+        "why": [
+          "클라우드 스토리지 활용 유연화"
+        ]
       }
     }
   ]

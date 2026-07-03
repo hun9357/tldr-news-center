@@ -1,29 +1,43 @@
 {
   "date": "2026-07-03",
   "weekday": "금",
-  "headline": "AI 에이전트가 스스로 실행한 첫 '완전 자동' 랜섬웨어",
-  "subtitle": "앤스로픽-삼성 커스텀 칩 논의, Cursor IDE 제로클릭 RCE 2건, 클라우드플레어 AI 콘텐츠 유료화도 주목",
-  "keyword": "AI 랜섬웨어 · 에이전트 보안 · 커스텀 칩 · 공급망",
-  "bigStoryId": "it-ai-ransomware",
-  "editions": ["tech", "ai", "infosec", "it", "crypto", "dev", "design", "marketing"],
-  "lastUpdated": "09:12 CDT",
-  "syncedAt": "09:12",
-  "subscribers": 128842,
-  "market": { "index": "S&P 500", "value": "7,483.24", "change": "▲ 0.00%" },
-  "stats": { "companies": 34, "security": 20, "deals": 5, "policy": 9 },
+  "headline": "AI 에이전트, 랜섬웨어 공격 전 과정 첫 단독 수행",
+  "subtitle": "메타 '워터멜론' GPT-5.5 근접, 셰어포인트 RCE 실제 악용, 클라우드플레어 AI 크롤러 과금 압박도 주목",
+  "keyword": "AI 에이전트 · 보안 · 프런티어 모델 · 크롤러 정책",
+  "bigStoryId": "it-ai-agent-ransomware",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "founders",
+    "devops",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:20 CDT",
+  "syncedAt": "09:20",
+  "stats": {
+    "companies": 17,
+    "security": 16,
+    "deals": 12,
+    "policy": 9
+  },
   "signals": [
     {
       "kind": "primary",
-      "title": "AI 에이전트가 공격을 자동 오케스트레이션하기 시작",
-      "body": "Sysdig가 Langflow RCE를 발판으로 AI 에이전트가 정찰·자격증명 탈취·DB 암호화까지 스스로 수행한 최초의 완전 자동 랜섬웨어를 관측했다. 같은 날 Cursor IDE 제로클릭 RCE 2건(CVE-2026-50548/50549)도 공개돼, AI 개발·오케스트레이션 도구 자체가 공격 표면이자 도구가 됐다.",
-      "severity": "8.9",
+      "title": "AI 에이전트가 공격 자동화 — 방어도 자동화가 답",
+      "body": "Langflow RCE를 악용한 첫 AI 단독 랜섬웨어와 Cursor IDE 제로클릭 RCE(CVSS 9.8) 2건이 같은 날 보고됐다. 노출된 AI 개발 도구·MCP 서버가 곧 공격 표면이 되고 있다.",
+      "severity": "8.6",
       "velocity": "Rising",
-      "action": "노출 Langflow·MCP 격리, Cursor 패치"
+      "action": "AI 도구·MCP 인증·노출 점검, Cursor 3.0·셰어포인트 패치 적용"
     },
     {
       "kind": "market",
-      "title": "독립기념일 휴장 앞두고 S&P 보합 마감",
-      "body": "S&P 500이 반도체 약세와 여타 섹터 강세가 상쇄되며 7,483.24로 보합 마감했다. 다우는 사상 최고를 경신했고, 7월 3일은 독립기념일 대체휴일로 미 증시가 휴장한다.",
+      "title": "AI 트레이드 균열, 크립토는 반등",
+      "body": "반도체 차익실현으로 한국 코스피가 7% 급락한 가운데 워시 발언에 비트코인이 $61,058(+4.23%)로 반등하고 솔라나가 주간 16% 올랐다. Q2 자금이 AI로 쏠렸다는 관측에 변화 조짐.",
       "severity": "",
       "velocity": "",
       "action": ""
@@ -31,7 +45,7 @@
     {
       "kind": "watchlist",
       "title": "다음 48시간 모니터링",
-      "body": "자동화 랜섬웨어 캠페인의 추가 표적·확산 여부, Cursor·SharePoint(CVE-2026-45659)·NetScaler(CVE-2026-8451) 패치 적용률, 9/15 발효 예정 클라우드플레어 AI 크롤러 정책의 업계 반응, 앤스로픽-삼성 칩 협상 진전을 추적."
+      "body": "셰어포인트 RCE FCEB 조치 기한(7/4)과 인터넷 노출 서버 악용, 메타 '워터멜론' 실제 성능·출시 신호, 클라우드플레어 9/15 크롤러 차단 정책의 AI 기업 대응을 추적."
     }
   ]
 }
