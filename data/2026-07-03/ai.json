@@ -1,0 +1,198 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-anthropic-samsung-chip",
+      "title": "앤스로픽, 삼성과 커스텀 AI 칩 파트너십 타진",
+      "summary": "앤스로픽이 컴퓨팅 인프라 다변화를 위해 삼성과 커스텀 AI 칩 개발을 논의 중이다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "High",
+        "confidence": "72%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 반도체 · 컴퓨팅 공급망"
+      },
+      "report": {
+        "tldr": "AI 랩들이 엔비디아 의존을 줄이려 자체 실리콘으로 이동.",
+        "what": "앤스로픽이 삼성과 커스텀 AI 칩 개발을 논의하며 컴퓨팅 인프라 다변화를 모색한다.",
+        "points": ["삼성과 커스텀 칩 협의", "컴퓨팅 공급망 다변화"],
+        "why": ["'하드웨어 쿠데타' 흐름과 맞물린 커스텀 실리콘 확산", "엔비디아 단일 의존 리스크 완화"]
+      }
+    },
+    {
+      "id": "ai-hardware-coup",
+      "title": "하드웨어 쿠데타 — AI 하드웨어가 영구히 바뀐 이유",
+      "summary": "오픈AI·Etched·아마존·SambaNova의 커스텀 AI 칩이 이론에서 실제 제품으로 전환되며 산업 역량을 재편한다.",
+      "source": "X",
+      "url": "https://x.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "커스텀 AI 실리콘이 실전 제품화되며 판이 바뀐다.",
+        "what": "오픈AI·Etched·아마존·SambaNova의 커스텀 칩이 실제 제품으로 상용화되는 흐름을 분석한다.",
+        "points": ["다수 주체의 커스텀 칩 상용화", "범용 GPU 독점 구도 흔들림"],
+        "why": ["앤스로픽-삼성 협의와 함께 실리콘 다변화 신호 강화"]
+      }
+    },
+    {
+      "id": "ai-meta-watermelon",
+      "title": "메타 '워터멜론', 훈련 중에도 GPT-5.5 벤치마크에 도달",
+      "summary": "코드명 워터멜론으로 불리는 메타 신모델이 아직 훈련 중임에도 주요 벤치마크에서 GPT-5.5와 동등한 성능에 이르렀다.",
+      "source": "Let's Data Science",
+      "url": "https://letsdatascience.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "메타가 프런티어 성능 경쟁에 다시 근접.",
+        "what": "메타의 훈련 중 신모델 '워터멜론'이 주요 벤치마크에서 GPT-5.5 수준에 도달했다.",
+        "points": ["훈련 진행 중 성능 도달", "GPT-5.5 벤치마크 동등"],
+        "why": ["프런티어 경쟁 재점화", "저커버그의 '에이전트 지연' 발언과 대조되는 모델 진척"]
+      }
+    },
+    {
+      "id": "ai-devin-security-swarm",
+      "title": "코그니션, 'Devin Security Swarm' 공개",
+      "summary": "'Agentic MapReduce' 아키텍처로 복잡한 코드베이스 전반의 보안 취약점을 식별하는 취약점 탐지 시스템.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "에이전트가 대규모 코드베이스를 병렬로 훑어 취약점을 찾는다.",
+        "what": "코그니션이 Agentic MapReduce 구조로 코드베이스 전반의 보안 취약점을 탐지하는 Devin Security Swarm을 발표했다.",
+        "points": ["Agentic MapReduce 아키텍처", "대규모 코드베이스 취약점 탐지"],
+        "why": ["AI가 공격뿐 아니라 방어에도 자동화 활용(오늘의 빅스토리와 대칭)"]
+      }
+    },
+    {
+      "id": "ai-sglang-agent",
+      "title": "에이전트 보조 SGLang 개발",
+      "summary": "SGLang 팀이 에이전트 워크플로우를 재사용 가능한 스킬 파일·벤치마크 계약·프로덕션 디버깅 시스템으로 전환하는 방법을 시연했다.",
+      "source": "LMSYS Blog",
+      "url": "https://lmsys.org/blog/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "에이전트 개발을 재사용 자산으로 체계화하는 실전 패턴.",
+        "what": "SGLang 팀이 에이전트 워크플로우를 스킬 파일·벤치마크 계약·프로덕션 디버깅으로 정착시키는 방법을 공개했다.",
+        "points": ["워크플로우→스킬 파일화", "벤치마크 계약·프로덕션 디버깅"],
+        "why": ["에이전트 엔지니어링의 성숙한 운영 패턴 제시"]
+      }
+    },
+    {
+      "id": "ai-autoresearch-constrained",
+      "title": "오토리서치, Claude, 그리고 제약 최적화",
+      "summary": "오토리서치는 '견고하고 측정 가능하며 잘 제약된' 최적화 지표를 가진 문제에서 가장 잘 작동한다는 분석.",
+      "source": "Elliot C. Smith",
+      "url": "https://elliotcsmith.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "오토리서치의 성패는 '측정 가능·잘 제약된' 목표에 달렸다.",
+        "what": "오토리서치가 언제 효과적인지 탐구하며, 견고하고 측정 가능하며 잘 제약된 최적화 문제에 적합함을 밝힌다.",
+        "points": ["측정 가능한 지표 필요", "잘 제약된 문제에서 유효"],
+        "why": ["AI 자동 연구의 적용 범위를 현실적으로 규정"]
+      }
+    },
+    {
+      "id": "ai-apple-residual-diffusion",
+      "title": "애플, 잔차 컨텍스트 확산 언어모델 제안",
+      "summary": "버려지던 토큰 표현을 재활용해 최소 연산 오버헤드로 확산(Diffusion) LLM을 개선하는 기법.",
+      "source": "Apple ML Research",
+      "url": "https://machinelearning.apple.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "폐기 토큰 표현 재활용으로 확산 LLM 효율↑.",
+        "what": "애플 연구진이 버려지던 토큰 표현을 재활용해 낮은 오버헤드로 Diffusion LLM 성능을 높이는 기법을 발표했다.",
+        "points": ["폐기 토큰 표현 재활용", "최소 연산 오버헤드"],
+        "why": ["확산 기반 언어모델의 실용성 제고"]
+      }
+    },
+    {
+      "id": "ai-poolside-laguna",
+      "title": "Poolside, 'Laguna XS 2.1' 공개 — 33B MoE 코딩 모델",
+      "summary": "에이전트 코딩에 최적화한 33B 파라미터 MoE 모델이 SWE-bench Multilingual에서 63.1%를 기록했다.",
+      "source": "Poolside AI",
+      "url": "https://poolside.ai/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "소형 MoE로 에이전트 코딩 벤치마크 경쟁.",
+        "what": "Poolside가 에이전트 코딩용 33B MoE 모델 Laguna XS 2.1을 공개하며 SWE-bench Multilingual 63.1%를 달성했다.",
+        "points": ["33B 파라미터 MoE", "SWE-bench Multilingual 63.1%"],
+        "why": ["효율적 코딩 모델 경쟁 심화"]
+      }
+    },
+    {
+      "id": "ai-seed2-model-card",
+      "title": "Seed2.0 모델 카드",
+      "summary": "롱테일 지식·복잡한 지시 이행·추론·시각 이해를 평가 주도 방법론으로 강조한 모델.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "평가 주도 개발로 롱테일·추론·멀티모달 강화.",
+        "what": "Seed2.0이 롱테일 지식, 복잡한 지시 이행, 추론, 시각 이해를 평가 주도 방법론으로 강조한다.",
+        "points": ["평가 주도 개발", "롱테일·추론·시각 이해"],
+        "why": ["모델 개발의 평가 중심 전환 사례"]
+      }
+    },
+    {
+      "id": "ai-woodside-turbines",
+      "title": "우드사이드, 산업 워크플로우에 에이전트형 AI 배치",
+      "summary": "우드사이드 에너지가 'Startup Advisor' 도구로 LNG 플랜트 운영 등 산업 워크플로우에 에이전트형 AI를 도입했다.",
+      "source": "MIT Tech Review",
+      "url": "https://www.technologyreview.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "중공업 현장에 에이전트 AI가 실전 투입.",
+        "what": "우드사이드 에너지가 Startup Advisor로 LNG 플랜트 운영 등에 에이전트형 AI를 적용했다.",
+        "points": ["LNG 플랜트 운영 적용", "Startup Advisor 도구"],
+        "why": ["에이전트 AI의 중공업 실사용 확대"]
+      }
+    },
+    {
+      "id": "ai-claude-enterprise-analytics",
+      "title": "Claude 엔터프라이즈, 분석·비용 통제 기능 추가",
+      "summary": "Claude Enterprise가 관리자 분석, 모델 권한(entitlement), 지출 모니터링을 추가해 사용 관리를 강화했다.",
+      "source": "Claude Blog",
+      "url": "https://www.anthropic.com/news",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "엔터프라이즈 AI 도입의 관리·비용 통제 성숙.",
+        "what": "Claude Enterprise가 관리자 분석, 모델 권한 관리, 지출 모니터링을 도입했다.",
+        "points": ["관리자 분석 대시보드", "모델 권한·지출 모니터링"],
+        "why": ["기업 AI 거버넌스·비용 관리 수요 대응"]
+      }
+    },
+    {
+      "id": "ai-cursorbench",
+      "title": "CursorBench 3.1",
+      "summary": "실제 사용자 세션에서 나온 모호한 다중 파일 코딩 과제로 에이전트를 평가하는 커서의 프레임워크.",
+      "source": "Cursor",
+      "url": "https://cursor.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "실사용 기반 모호·멀티파일 과제로 에이전트 평가.",
+        "what": "커서가 실제 사용자 세션의 모호한 다중 파일 과제로 에이전트를 평가하는 CursorBench 3.1을 공개했다.",
+        "points": ["실사용 세션 기반 과제", "모호·다중 파일 평가"],
+        "why": ["코딩 에이전트 벤치마크의 현실성 강화"]
+      }
+    },
+    {
+      "id": "ai-ramanujan-challenge",
+      "title": "AI를 위한 라마누잔 챌린지",
+      "summary": "AI가 구체적 공식에서 유효한 증명·기호적 도출로 나아갈 수 있는지 시험하는 도전 과제.",
+      "source": "Gil Kalai",
+      "url": "https://gilkalai.wordpress.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "AI의 수학적 '발견→증명' 도약을 시험.",
+        "what": "AI가 공식에서 유효한 증명 또는 기호적 도출로 나아갈 수 있는지 검증하는 챌린지를 제안한다.",
+        "points": ["공식→증명 도약 시험", "기호적 도출 평가"],
+        "why": ["AI 수학 추론의 한계 탐색"]
+      }
+    }
+  ]
+}

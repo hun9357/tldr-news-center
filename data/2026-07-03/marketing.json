@@ -1,0 +1,135 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-made-with-ai-engagement",
+      "title": "'AI로 제작' 라벨, 참여도 하락 부른다",
+      "summary": "AI 공개 라벨이 틱톡에서 참여도를 7~8% 낮추는데, 품질이 같아도 창작자 노력이 덜하다고 인식되기 때문이다. 성공하려면 AI 사용을 숨기기보다 인간 개입을 설명해야 한다.",
+      "source": "Science Says",
+      "url": "https://app.sciencesays.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "AI 라벨은 참여를 깎지만, 인간 개입 설명이 완충한다.",
+        "what": "AI 공개 라벨이 틱톡 참여도를 7~8% 낮추며, 이는 창작 노력에 대한 인식 저하 때문이다.",
+        "points": ["참여도 7~8% 하락", "인간 개입 설명이 관건"],
+        "why": ["AI 콘텐츠 투명성과 성과의 상충을 실증"]
+      }
+    },
+    {
+      "id": "marketing-misinformation-use",
+      "title": "가짜정보 우려에도 영국 젊은층 SNS 사용은 여전",
+      "summary": "영국 성인 80%가 가짜정보를 걱정하지만 SNS 사용은 높게 유지된다. 16~34세는 하루 2시간 이상을 쓰며, 스마트폰이 디지털 소비의 3분의 1 이상을 차지한다.",
+      "source": "IPA",
+      "url": "https://ipa.co.uk/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "가짜정보 우려와 실제 이용 행태는 별개.",
+        "what": "영국 성인 80%가 가짜정보를 우려해도 SNS 사용은 높고, 젊은층은 하루 2시간 이상 이용한다.",
+        "points": ["성인 80% 가짜정보 우려", "16~34세 하루 2시간+"],
+        "why": ["태도-행동 격차가 미디어 플래닝에 시사점"]
+      }
+    },
+    {
+      "id": "marketing-ramp-aeo",
+      "title": "램프의 AEO 실험 성공기",
+      "summary": "램프가 자사 지출 데이터로 소프트웨어 도입 트렌드를 보여주는 검색 가능 페이지를 만들고 주간 구조화 HTML로 갱신해 구글·AI 검색에서 카테고리 쿼리 상위에 올랐다.",
+      "source": "LinkedIn (Chris Long)",
+      "url": "https://www.linkedin.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "자사 데이터를 콘텐츠화해 AI 검색 노출을 잡았다.",
+        "what": "램프가 지출 데이터 기반 검색 페이지를 주간 구조화 HTML로 갱신해 구글·AI 검색 상위에 올랐다.",
+        "points": ["자사 데이터 콘텐츠화", "주간 구조화 HTML 갱신"],
+        "why": ["AEO(답변 엔진 최적화)의 실전 플레이북"]
+      }
+    },
+    {
+      "id": "marketing-shortform-b2b",
+      "title": "숏폼 영상, B2B 검색결과·AI 답변에 등장",
+      "summary": "유튜브 쇼츠가 1,100개 이상 B2B 소프트웨어 검색에서 노출되며 92%가 AI 오버뷰를 포함한다. B2B 브랜드는 웨비나·데모를 구매 의도형 숏폼으로 재가공해야 한다.",
+      "source": "Foundation",
+      "url": "https://foundationinc.co/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "숏폼이 B2B 검색·AI 답변의 노출 채널로 부상.",
+        "what": "유튜브 쇼츠가 1,100+ B2B 검색에 노출되고 92%가 AI 오버뷰를 포함한다.",
+        "points": ["1,100+ B2B 검색 노출", "92% AI 오버뷰 포함"],
+        "why": ["B2B 콘텐츠 전략에 숏폼·AI 검색 반영 필요"]
+      }
+    },
+    {
+      "id": "marketing-pmm-rewritten",
+      "title": "올해 다시 쓰이는 PMM 직무 — 펜을 쥐는 법",
+      "summary": "AI가 기본 포지셔닝 작업을 상품화하면서 판단과 소신 있는 의사결정이 새 경쟁력이 된다. PMM은 추론을 강조하고 명확한 입장을 취해야 한다.",
+      "source": "LinkedIn (Richard King)",
+      "url": "https://www.linkedin.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "AI 시대 PMM의 무기는 판단과 소신.",
+        "what": "AI가 기본 포지셔닝을 상품화하면서 판단·의사결정이 PMM의 새 경쟁력이 된다.",
+        "points": ["기본 작업 상품화", "판단·소신이 경쟁력"],
+        "why": ["AI 자동화 속 직무 재정의 방향 제시"]
+      }
+    },
+    {
+      "id": "marketing-zero-person-business",
+      "title": "우리 인턴이 만든 '0인 사업'",
+      "summary": "AI 에이전트가 2,000건 인터뷰와 100개 콘셉트 병렬 테스트를 거쳐 사용자 피드백에 따라 피벗한 뒤 AI 스타일리스트 앱 StyleFits를 자율 구축·출시했다.",
+      "source": "Listen Labs",
+      "url": "https://listenlabs.ai/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "에이전트가 리서치부터 출시까지 자율 수행.",
+        "what": "AI 에이전트가 2,000건 인터뷰·100개 콘셉트 테스트를 거쳐 앱 StyleFits를 자율 구축·출시했다.",
+        "points": ["2,000건 인터뷰·100개 콘셉트 병렬", "피드백 기반 피벗"],
+        "why": ["에이전트 기반 제품 개발의 극단 사례"]
+      }
+    },
+    {
+      "id": "marketing-google-ads-structure",
+      "title": "캠페인 구조가 구글 광고 성과를 좌우한다",
+      "summary": "구글 광고 스마트 비딩은 캠페인당 월 30~50건 전환이 있어야 학습 모드를 벗어난다. 과분할 계정은 신호를 흩뜨려 학습을 벗어나지 못하게 한다.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "과분할은 스마트 비딩 학습을 방해한다.",
+        "what": "스마트 비딩이 학습 모드를 벗어나려면 캠페인당 월 30~50건 전환이 필요하며 과분할은 신호를 분산시킨다.",
+        "points": ["월 30~50 전환 필요", "과분할이 학습 저해"],
+        "why": ["광고 계정 구조 설계의 실무 기준"]
+      }
+    },
+    {
+      "id": "marketing-enterprise-grade-a",
+      "title": "'엔터프라이즈급'이라는 버즈워드를 버리고 명확히 말하기",
+      "summary": "구매자는 '엔터프라이즈급' 같은 모호한 주장보다 도입 기간·고객 성과 같은 구체적 증거에 반응한다. 효과적 메시징은 무엇을 누구를 위해 하는지 설명한다.",
+      "source": "Optimizely",
+      "url": "https://www.optimizely.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "버즈워드 대신 구체적 증거가 구매를 움직인다.",
+        "what": "구매자는 모호한 버즈워드보다 도입 기간·고객 성과 등 구체적 증거에 반응한다.",
+        "points": ["구체적 증거 중시", "무엇을·누구를 위해 명시"],
+        "why": ["B2B 메시징의 명료성 강조"]
+      }
+    },
+    {
+      "id": "marketing-ai-confidence-theater",
+      "title": "'AI 자신감 연극'을 멈춰라",
+      "summary": "과장된 AI 주장이 비현실적 기대를 만들어 실제 가치를 가린다. 측정 가능한 결과를 담은 정직한 사례가 부풀린 약속보다 지속가능한 신뢰를 만든다.",
+      "source": "Elena Verna",
+      "url": "https://www.elenaverna.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "과장된 AI 마케팅은 신뢰를 갉아먹는다.",
+        "what": "과장된 AI 주장이 실제 가치를 가리며, 정직한 측정 가능 사례가 신뢰를 만든다고 논한다.",
+        "points": ["과장 주장의 역효과", "측정 가능한 정직한 사례"],
+        "why": ["AI 마케팅의 신뢰 리스크 경고"]
+      }
+    }
+  ]
+}

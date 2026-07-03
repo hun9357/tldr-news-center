@@ -1,0 +1,258 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-cursor-duneslide",
+      "title": "DuneSlide: Cursor IDE 제로클릭 RCE 2건 (프롬프트 인젝션)",
+      "summary": "Cato AI Labs가 악성 MCP 서버·오염된 웹 결과를 통한 제로클릭 원격코드실행 취약점 2건(CVE-2026-50548/50549)을 발견했다. 작업 디렉터리 조작과 심링크 정규화 결함이 원인이다.",
+      "source": "Cato Networks",
+      "url": "https://www.catonetworks.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "Cursor IDE · MCP"
+      },
+      "report": {
+        "tldr": "AI 코딩 IDE가 제로클릭으로 뚫리는 신종 공급망 위협.",
+        "what": "Cato가 Cursor IDE에서 악성 MCP 서버나 오염된 웹 결과로 클릭 없이 코드가 실행되는 RCE 2건을 공개했다.",
+        "points": ["CVE-2026-50548 / CVE-2026-50549", "제로클릭 프롬프트 인젝션", "작업 디렉터리·심링크 정규화 결함"],
+        "why": ["개발자 IDE가 AI 경로로 무인 침해되는 위험", "MCP 생태계의 신뢰 경계 문제"],
+        "action": "Cursor를 최신 패치로 업데이트하고 신뢰되지 않은 MCP 서버·웹 소스 연결을 차단하라."
+      }
+    },
+    {
+      "id": "infosec-medtronic-breach",
+      "title": "메드트로닉, 환자 건강정보 유출 가능성 경고",
+      "summary": "심박조율기 제조사 메드트로닉이 4월 중순 6일간 무단 네트워크 접근을 확인했다. 환자 식별정보·연락처·주민번호·건강기록이 침해됐을 수 있다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "의료기기 · 환자 PII"
+      },
+      "report": {
+        "tldr": "의료기기 대기업에서 민감 건강정보 침해 정황.",
+        "what": "메드트로닉이 4월 중순 6일간의 무단 접근을 발견했으며 공격 벡터와 영향 규모는 미공개다.",
+        "points": ["6일간 무단 접근", "PII·주민번호·건강기록 노출 우려", "벡터·규모 미공개"],
+        "why": ["의료 데이터 침해의 규제·소송 리스크", "커넥티드 의료기기 공급망 신뢰 문제"]
+      }
+    },
+    {
+      "id": "infosec-sharepoint-kev",
+      "title": "SharePoint RCE CVE-2026-45659, 실제 악용 후 CISA KEV 등재",
+      "summary": "CISA가 활발한 공격 확인 후 SharePoint Server의 역직렬화 취약점(CVSS 8.8)을 알려진 악용 취약점 목록에 추가했다. 사이트 멤버 수준 인증만으로 악용 가능하다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "SharePoint Server"
+      },
+      "report": {
+        "tldr": "낮은 권한으로도 악용되는 SharePoint RCE가 실전 공격 중.",
+        "what": "CISA가 활발히 악용되는 SharePoint 역직렬화 RCE(CVSS 8.8)를 KEV에 등재했다.",
+        "points": ["CVE-2026-45659 · CVSS 8.8", "사이트 멤버 인증으로 악용", "CISA KEV 등재"],
+        "why": ["온프렘 협업 서버의 광범위 노출", "KEV 등재는 연방기관 즉시 패치 의무 트리거"],
+        "action": "SharePoint Server를 즉시 패치하고 비정상 역직렬화·웹셸 활동을 점검하라."
+      }
+    },
+    {
+      "id": "infosec-phantom-squatting",
+      "title": "팬텀 스쿼팅: AI가 환각한 도메인을 노린 공급망 공격",
+      "summary": "Unit 42가 913개 브랜드에 걸친 210만 개 AI 생성 URL을 매핑해 13,229개 악성 도메인과 약 25만 개 미등록 '팬텀' 도메인을 식별했다. 방어자는 18~51일의 선제 등록 기회를 얻는다.",
+      "source": "Palo Alto Unit 42",
+      "url": "https://unit42.paloaltonetworks.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "82%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "도메인 · 공급망"
+      },
+      "report": {
+        "tldr": "AI가 지어낸 도메인을 공격자가 선점하는 새 공급망 벡터.",
+        "what": "Unit 42가 AI 생성 URL 210만 개를 분석해 확인된 악성 도메인 1.3만여 개와 미등록 팬텀 도메인 약 25만 개를 찾았다.",
+        "points": ["210만 URL·913개 브랜드 매핑", "악성 13,229개·팬텀 약 25만 개", "18~51일 선제 대응 창"],
+        "why": ["AI 환각이 도메인 스쿼팅의 자동 표적 생성", "선제 등록으로 방어 가능한 예측형 위협"]
+      }
+    },
+    {
+      "id": "infosec-coldfusion",
+      "title": "어도비 콜드퓨전 다중 RFR/RFW 취약점 패치",
+      "summary": "콜드퓨전 2023/2025가 RDS FILEIO 서비스와 CKEditor 파일 관리자의 원격 파일 읽기/쓰기 취약점 패치를 받았다. RDS 인증 미비 시 미인증 RCE가 가능하다.",
+      "source": "WatchTowr Labs",
+      "url": "https://labs.watchtowr.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "High",
+        "confidence": "83%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "ColdFusion 2023/2025"
+      },
+      "report": {
+        "tldr": "인증 없는 RDS면 미인증 RCE까지 가능한 콜드퓨전 결함.",
+        "what": "콜드퓨전 2023/2025의 RDS FILEIO·CKEditor 파일 관리자에서 원격 파일 읽기/쓰기 취약점이 패치됐다.",
+        "points": ["RDS FILEIO·CKEditor 결함", "미인증 RDS 시 RCE 가능"],
+        "why": ["콜드퓨전은 과거부터 반복적 악용 표적", "레거시 서버의 즉시 패치 필요"],
+        "action": "콜드퓨전 패치 적용, RDS 비활성화 또는 인증 강제."
+      }
+    },
+    {
+      "id": "infosec-soatok-threat-models",
+      "title": "Soatok의 위협 모델 비공식 가이드",
+      "summary": "보호 자산·공격자 프로필·공격 경로·완화책을 문서화하고 위협 모델을 살아있는 문서로 다루라는 종합 가이드.",
+      "source": "Soatok's Blog",
+      "url": "https://soatok.blog/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "위협 모델은 한 번 만들고 끝이 아니라 지속 갱신 대상.",
+        "what": "보호 자산, 적대자 프로필, 공격 경로, 완화책을 문서화하고 실데이터로 반복 검증할 것을 권한다.",
+        "points": ["자산·적대자·경로·완화 문서화", "살아있는 문서로 반복 검증"],
+        "why": ["실무형 위협 모델링 방법론 제공"]
+      }
+    },
+    {
+      "id": "infosec-netnut-proxy",
+      "title": "구글, 200만 가정용 기기 감염한 NetNut 주거용 프록시망 무력화",
+      "summary": "구글과 파트너들이 무료 앱·저가 하드웨어로 약 200만 대를 감염시킨 주거용 프록시 봇넷 NetNut을 크게 약화시켰다. 공격자는 출구 노드로 패스워드 스프레이·측면 이동을 했다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "84%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "주거용 프록시 · 봇넷"
+      },
+      "report": {
+        "tldr": "대형 주거용 프록시 봇넷을 플랫폼 차원에서 단속.",
+        "what": "구글과 파트너들이 약 200만 대 가정용 기기를 감염시킨 NetNut 프록시 봇넷을 크게 무력화했다.",
+        "points": ["약 200만 대 감염", "무료 앱·저가 하드웨어 유포", "출구 노드로 공격 릴레이"],
+        "why": ["주거용 프록시는 자격증명 공격의 은폐 통로", "플랫폼 협력 대응의 효과 사례"]
+      }
+    },
+    {
+      "id": "infosec-dhs-hack",
+      "title": "美 정부, 또 해킹당했다 — DHS 정보공유망 침해 조사",
+      "summary": "DHS가 연방·주·지방 기관이 비기밀 정보를 공유하는 Homeland Security Information Network 침해를 조사 중이다. 무단 접근은 5월 말~6월 초 발생했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "정부 정보공유망"
+      },
+      "report": {
+        "tldr": "연방 정보공유 플랫폼이 또다시 침해.",
+        "what": "DHS가 비기밀 인텔을 공유하는 HSIN의 5월 말~6월 초 무단 접근을 조사 중이다.",
+        "points": ["HSIN 침해", "5월 말~6월 초 무단 접근"],
+        "why": ["정부 기관 반복 침해의 신뢰·운영 리스크"]
+      }
+    },
+    {
+      "id": "infosec-signal-cloudflare-pqc",
+      "title": "시그널·클라우드플레어, 양자 위협 대비 PQC 배포",
+      "summary": "시그널과 클라우드플레어가 미래 양자 공격에 취약한 RSA·ECC 의존을 제거하고 포스트양자 암호로 전환했다.",
+      "source": "r/cryptography",
+      "url": "https://www.reddit.com/r/cryptography/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "주요 서비스가 실사용 트래픽에 PQC를 적용.",
+        "what": "시그널과 클라우드플레어가 RSA·ECC 의존을 없애고 포스트양자 암호 알고리즘으로 이전했다.",
+        "points": ["RSA·ECC 제거", "NIST 표준 기반 전환 권고"],
+        "why": ["'지금 수집해 나중에 복호화' 위협에 선제 대응", "암호 민첩성(crypto-agility) 점검 필요"]
+      }
+    },
+    {
+      "id": "infosec-nvidia-cc",
+      "title": "속도 저하 없는 하드웨어 기반 AI 보안 (NVIDIA)",
+      "summary": "블랙웰 GPU용 컨피덴셜 컴퓨팅이 하드웨어 서명키와 원격 증명으로 추론 중 모델 가중치를 보호한다. 최대 98% 처리량을 유지했다.",
+      "source": "NVIDIA Developer",
+      "url": "https://developer.nvidia.com/blog/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "성능 손실 거의 없이 모델 가중치를 하드웨어로 보호.",
+        "what": "NVIDIA 블랙웰 컨피덴셜 컴퓨팅이 하드웨어 서명키·원격 증명으로 추론 중 가중치를 보호하며 최대 98% 처리량을 유지했다.",
+        "points": ["하드웨어 서명키·원격 증명", "최대 98% 처리량 유지"],
+        "why": ["모델 가중치 유출·변조 방어의 실용화"]
+      }
+    },
+    {
+      "id": "infosec-citrixbleed-new",
+      "title": "신규 CitrixBleed 취약점, 공개 직후 즉시 악용",
+      "summary": "공격자가 NetScaler CVE-2026-8451을 공개 하루 만에 악용하기 시작했다. SAML IDP XML 파서 취약점으로 메모리를 유출한다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "공개 하루 만에 악용된 또 하나의 CitrixBleed.",
+        "what": "NetScaler의 SAML IDP XML 파서 취약점(CVE-2026-8451)이 공개 직후 메모리 유출에 악용됐다.",
+        "points": ["CVE-2026-8451", "SAML XML 파서 메모리 유출", "공개 1일 내 악용"],
+        "why": ["엣지 어플라이언스는 즉시 패치가 생존 관건"],
+        "action": "NetScaler를 즉시 패치하고 세션 토큰을 폐기·재발급하라."
+      }
+    },
+    {
+      "id": "infosec-repo-forensics",
+      "title": "Repo-forensics — AI 에이전트 저장소용 오프라인 보안 스캐너",
+      "summary": "AI 에이전트 저장소·스킬·플러그인·MCP 서버를 위한 오프라인 보안 스캐너.",
+      "source": "GitHub",
+      "url": "https://github.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "AI 에이전트 자산을 오프라인으로 점검하는 도구.",
+        "what": "AI 에이전트 저장소·스킬·플러그인·MCP 서버를 대상으로 하는 오프라인 보안 스캐너다.",
+        "points": ["에이전트 저장소·MCP 대상", "오프라인 스캔"],
+        "why": ["에이전트 공급망 점검 수요에 대응"]
+      }
+    },
+    {
+      "id": "infosec-badkeys",
+      "title": "badkeys — 공개키의 알려진 취약점 점검 도구",
+      "summary": "PEM·X.509·CSR·SSH 형식의 공개 암호키가 알려진 취약점을 가졌는지 점검한다. pip 설치와 SSH/TLS 호스트 직접 스캔을 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "약한 공개키를 손쉽게 탐지하는 스캐너.",
+        "what": "PEM·X.509·CSR·SSH 키의 알려진 취약점을 점검하고 SSH/TLS 호스트 직접 스캔을 지원한다.",
+        "points": ["다중 키 포맷 지원", "호스트 직접 스캔"],
+        "why": ["약한 키로 인한 침해 예방에 유용"]
+      }
+    },
+    {
+      "id": "infosec-microsoft-pqc-2029",
+      "title": "마이크로소프트, 포스트양자 암호 전환 2029년으로 앞당겨",
+      "summary": "마이크로소프트가 Quantum Safe Program 일정을 앞당겨 2029년까지 주요 제품에 포스트양자 암호를 배포하겠다고 밝혔다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "MS가 PQC 도입 타임라인을 2029로 단축.",
+        "what": "마이크로소프트가 Quantum Safe Program을 앞당겨 2029년까지 핵심 제품에 PQC를 배포한다.",
+        "points": ["일정 2029로 단축", "핵심 제품 대상"],
+        "why": ["양자 대비가 빅테크 로드맵의 명시적 항목화"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-03",
+  "weekday": "금",
+  "headline": "AI 에이전트가 스스로 실행한 첫 '완전 자동' 랜섬웨어",
+  "subtitle": "앤스로픽-삼성 커스텀 칩 논의, Cursor IDE 제로클릭 RCE 2건, 클라우드플레어 AI 콘텐츠 유료화도 주목",
+  "keyword": "AI 랜섬웨어 · 에이전트 보안 · 커스텀 칩 · 공급망",
+  "bigStoryId": "it-ai-ransomware",
+  "editions": ["tech", "ai", "infosec", "it", "crypto", "dev", "design", "marketing"],
+  "lastUpdated": "09:12 CDT",
+  "syncedAt": "09:12",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "7,483.24", "change": "▲ 0.00%" },
+  "stats": { "companies": 34, "security": 20, "deals": 5, "policy": 9 },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "AI 에이전트가 공격을 자동 오케스트레이션하기 시작",
+      "body": "Sysdig가 Langflow RCE를 발판으로 AI 에이전트가 정찰·자격증명 탈취·DB 암호화까지 스스로 수행한 최초의 완전 자동 랜섬웨어를 관측했다. 같은 날 Cursor IDE 제로클릭 RCE 2건(CVE-2026-50548/50549)도 공개돼, AI 개발·오케스트레이션 도구 자체가 공격 표면이자 도구가 됐다.",
+      "severity": "8.9",
+      "velocity": "Rising",
+      "action": "노출 Langflow·MCP 격리, Cursor 패치"
+    },
+    {
+      "kind": "market",
+      "title": "독립기념일 휴장 앞두고 S&P 보합 마감",
+      "body": "S&P 500이 반도체 약세와 여타 섹터 강세가 상쇄되며 7,483.24로 보합 마감했다. 다우는 사상 최고를 경신했고, 7월 3일은 독립기념일 대체휴일로 미 증시가 휴장한다.",
+      "severity": "",
+      "velocity": "",
+      "action": ""
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "자동화 랜섬웨어 캠페인의 추가 표적·확산 여부, Cursor·SharePoint(CVE-2026-45659)·NetScaler(CVE-2026-8451) 패치 적용률, 9/15 발효 예정 클라우드플레어 AI 크롤러 정책의 업계 반응, 앤스로픽-삼성 칩 협상 진전을 추적."
+    }
+  ]
+}

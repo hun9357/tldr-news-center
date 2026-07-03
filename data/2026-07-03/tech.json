@@ -1,0 +1,128 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-zuck-ai-agents",
+      "title": "저커버그, '내부적으로 AI 에이전트가 기대만큼 빨리 발전 안 했다'",
+      "summary": "메타 CEO가 타운홀에서 AI 에이전트 발전 속도가 기대에 못 미쳤다고 인정했다. 다만 3~6개월 내 개선을 전망했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 에이전트 · 메타"
+      },
+      "report": {
+        "tldr": "빅테크 수장이 직접 에이전트 진척의 현실을 인정 — 하이프 조정 신호.",
+        "what": "저커버그가 타운홀에서 AI 에이전트 발전이 기대보다 느렸다고 인정하면서도 3~6개월 내 개선을 예상했다.",
+        "points": ["에이전트 발전 속도 기대 미달 인정", "3~6개월 내 개선 전망"],
+        "why": ["AI 에이전트 기대치 재조정의 대표적 발언", "동일 리스크(완전 자동 랜섬웨어)는 이미 현실화 — 역설적 대비"]
+      }
+    },
+    {
+      "id": "tech-meta-cloud",
+      "title": "메타의 불가피한 클라우드 진출",
+      "summary": "메타의 클라우드 서비스 출시는 광고를 넘어선 사업 다각화 시도로, AI 역량을 지렛대로 활용한다.",
+      "source": "Spyglass",
+      "url": "https://spyglass.org/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "광고 의존을 줄이려는 메타가 AI를 앞세워 클라우드 시장에 진입.",
+        "what": "메타의 클라우드 사업 진출을 광고 매출 편중 탈피와 AI 인프라 활용 관점에서 분석한다.",
+        "points": ["광고 외 매출 다각화", "AI 인프라를 클라우드로 상품화"],
+        "why": ["하이퍼스케일러 경쟁 구도 변화 가능성", "메타 주가 반응(전일 약 9% 급등)과 연결"]
+      }
+    },
+    {
+      "id": "tech-china-quant",
+      "title": "AI가 인간 트레이더 압도하며 中 퀀트펀드에 수십억 달러 유입",
+      "summary": "2.6조 위안 이상을 운용하는 중국 퀀트펀드가 1년도 안 돼 자산을 두 배로 늘렸다. AI 채택이 전통 트레이더를 앞선 결과다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "AI 트레이딩이 실적으로 증명되며 자금이 몰린다.",
+        "what": "AI 도입이 전통 트레이더 성과를 능가하며 중국 퀀트펀드 운용자산이 1년 내 두 배로 급증했다.",
+        "points": ["운용자산 2.6조 위안 돌파", "1년 내 자산 2배"],
+        "why": ["금융에서 AI의 실증적 성과 사례", "규제·시장 안정성 논쟁 촉발 가능"]
+      }
+    },
+    {
+      "id": "tech-faa-supersonic",
+      "title": "FAA, '조용하면' 초음속 여객기의 美 도시 상공 비행 허용 제안",
+      "summary": "소닉붐 영향이 기준치 이하이면 상업용 초음속 비행을 허용하는 규정을 FAA가 제안했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "50여 년 만에 미국 상공 초음속 여객 비행의 문이 열릴 수 있다.",
+        "what": "FAA가 소닉붐 강도가 정해진 임계값 이하이면 도시 상공 상업 초음속 비행을 허용하는 규정을 제안했다.",
+        "points": ["소음 기준 충족 시 허용", "상업 초음속 여객 부활 가능성"],
+        "why": ["Boom 등 초음속 스타트업에 청신호", "항공 산업 규제 지형 변화"]
+      }
+    },
+    {
+      "id": "tech-tesla-model-y-lwb",
+      "title": "테슬라, 6인승 롱휠베이스 모델 Y 출시",
+      "summary": "휠베이스를 늘린 6인승 모델 Y가 미국·푸에르토리코에서 판매를 시작했다. 넉넉한 좌석과 트렁크 용량을 제공한다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "테슬라가 라인업 확장으로 패밀리·다인승 수요 공략.",
+        "what": "휠베이스를 늘린 6인승 모델 Y가 미국과 푸에르토리코에서 출시됐다.",
+        "points": ["6인승·확장 휠베이스", "미국·푸에르토리코 판매"],
+        "why": ["모델 Y 파생 확장으로 판매 방어"]
+      }
+    },
+    {
+      "id": "tech-building-an-intern",
+      "title": "'인턴'을 만들다 — 슬랙용 AI 인턴 Junior 개발기",
+      "summary": "슬랙에서 업무를 수행하는 AI 인턴 도구 Junior를 4개월에 걸쳐 개발한 기술 심층기.",
+      "source": "cra.mr",
+      "url": "https://cra.mr/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "실무형 AI 에이전트를 실제 제품으로 만드는 과정의 교훈.",
+        "what": "슬랙에서 작업을 처리하는 AI 인턴 'Junior'를 4개월간 개발한 과정을 상세히 다룬다.",
+        "points": ["슬랙 통합형 에이전트", "4개월 개발 여정"],
+        "why": ["에이전트 실전 적용의 현실적 난제 조명"]
+      }
+    },
+    {
+      "id": "tech-understanding-bottleneck",
+      "title": "이제 병목은 '이해'다",
+      "summary": "AI 생성 코드에 대한 인간의 이해가 검증과 창의적 협업에 여전히 필수라는 주장.",
+      "source": "geoffreylitt.com",
+      "url": "https://www.geoffreylitt.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "코드 생성이 아니라 '이해'가 개발의 새 병목.",
+        "what": "AI가 코드를 쏟아내는 시대에 인간의 이해가 검증·협업의 핵심 병목이 된다고 논한다.",
+        "points": ["생성 속도 > 이해 속도", "검증에 인간 이해 필수"],
+        "why": ["코드 리뷰·유지보수 담론과 직결(개발 에디션과 호응)"]
+      }
+    },
+    {
+      "id": "tech-career-advice-ai",
+      "title": "AI 시대의 커리어 조언",
+      "summary": "자동화 불가능한 가치 있는 일, 문제 발굴 역량, 신흥 기회에 대한 포지셔닝을 강조하는 지침.",
+      "source": "X",
+      "url": "https://x.com/",
+      "originalDate": "2026-07-03",
+      "report": {
+        "tldr": "'문제를 찾는 능력'이 자동화 시대의 핵심 경쟁력.",
+        "what": "자동화하기 어려운 일, 문제 발굴, 신흥 기회 포지셔닝을 커리어 전략으로 제시한다.",
+        "points": ["자동화 불가 영역에 집중", "문제 발굴 역량 강조"],
+        "why": ["AI 대체 논쟁 속 개인 전략 프레임 제공"]
+      }
+    }
+  ]
+}
