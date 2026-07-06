@@ -1,0 +1,53 @@
+{
+  "date": "2026-07-06",
+  "weekday": "월",
+  "headline": "앤트로픽, 알리바바 'Claude 디스틸레이션 공격' 지목 — 모델 추출이 보안 사고로",
+  "subtitle": "알리바바 사내 Claude Code 금지, 오픈AI GPT-5.6 다음 주 출시, 아마존 Leo 위성 상용화 임박도 주목",
+  "keyword": "모델 추출 · 미·중 AI · 프런티어 모델 · 컴퓨트",
+  "bigStoryId": "infosec-anthropic-alibaba-distillation",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "founders",
+    "devops",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:04 CDT",
+  "syncedAt": "09:04",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "7,513.67", "change": "▲ 0.41%" },
+  "stats": {
+    "companies": 18,
+    "security": 13,
+    "deals": 6,
+    "policy": 8
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "모델 추출이 곧 IP 유출 — API가 새 공격 표면",
+      "body": "앤트로픽이 알리바바의 2만5천 개 가짜 계정·2,880만 회 상호작용 기반 디스틸레이션 시도를 지목했다. 프런티어 모델의 핵심 자산이 API를 통해 새어나갈 수 있음이 실증되며, 레이트리밋·계정 이상탐지가 1차 방어선으로 격상됐다.",
+      "severity": "8.2",
+      "velocity": "Rising",
+      "action": "API 이상탐지·레이트리밋 강화, 약관상 추출 금지 점검"
+    },
+    {
+      "kind": "market",
+      "title": "S&P 500 신고가권, AI로 자금 쏠림",
+      "body": "S&P 500이 7,513.67(▲0.41%)로 신고가권에 머물렀다. 크립토 투자자들은 보유를 5~10개 코어 토큰으로 응축하고 자본을 AI 주식으로 옮기는 흐름이 관측된다.",
+      "severity": "",
+      "velocity": "",
+      "action": ""
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "오픈AI GPT-5.6 출시 신호, 바이트댄스 Seedance 2.5(7/9), 알리바바 Claude Code 차단(7/10) 파장, 구글 Gemini Code Assist 소비자판 종료(7/17)를 추적."
+    }
+  ]
+}

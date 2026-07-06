@@ -1,0 +1,108 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-anthropic-alibaba-distillation",
+      "title": "앤트로픽, 알리바바의 'Claude 디스틸레이션 공격' 지목 — 가짜계정 2.5만개·2,880만 상호작용",
+      "summary": "앤트로픽은 알리바바가 4~6월 2만5천 개 가짜 계정으로 2,880만 회 상호작용을 만들어 Claude의 능력을 디스틸레이션(추출)하려 했다고 주장했다. 알리바바는 같은 시기 사내 Claude Code 사용을 금지해 갈등이 본격화됐다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Strategy / Security Ops",
+        "status": "New",
+        "affectedSurface": "LLM API · 모델 IP · 미·중"
+      },
+      "related": [
+        "알리바바, 사내 Claude Code 사용 금지(7/10)",
+        "중국 TC260, AI 에이전트 배포 보안 표준 발표",
+        "모델 디스틸레이션의 역사와 저작권 분쟁"
+      ],
+      "report": {
+        "tldr": "모델 추출이 '보안 사고'가 됐다 — API 남용이 곧 IP 유출 경로다.",
+        "what": "앤트로픽이 알리바바를 대규모 가짜 계정 기반 디스틸레이션 공격으로 지목하며, 미·중 AI 모델 IP 분쟁이 정면 충돌로 번졌다.",
+        "points": [
+          "가짜 계정 2만5천 개, 상호작용 2,880만 회(4~6월)로 능력 추출 시도 주장",
+          "알리바바는 7/10부로 사내 Claude Code 차단, Qoder로 대체 지시",
+          "모델 출력 자체가 학습 데이터로 재활용되는 추출 리스크 부각"
+        ],
+        "why": [
+          "프런티어 모델의 핵심 자산이 API를 통해 유출될 수 있음을 실증",
+          "레이트리밋·계정 이상탐지가 IP 보호의 1차 방어선으로 격상",
+          "미·중 AI 디커플링과 지정학 리스크를 공급망 전반으로 확산"
+        ],
+        "context": "디스틸레이션은 상위 모델의 출력을 하위 모델 학습에 사용해 능력을 이전하는 기법으로, 대량의 프롬프트·응답 수집이 전제된다.",
+        "action": "API 계정 검증·레이트리밋 강화, 이상 사용 패턴 탐지, 이용약관상 추출 금지 조항 점검."
+      }
+    },
+    {
+      "id": "infosec-jadepuffer-ai-ransomware",
+      "title": "JadePuffer 랜섬웨어, AI 에이전트로 공격 전 과정 자동화",
+      "summary": "LLM 기반 에이전트가 Langflow 취약점을 악용해 정찰부터 암호화까지 사람 개입 없이 랜섬웨어 캠페인을 수행했다. 앞서 보고된 AI 단독 공격의 정식 명명·확인 사례다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "75%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "Langflow · AI 개발 도구"
+      }
+    },
+    {
+      "id": "infosec-claude-mythos-glasswing",
+      "title": "앤트로픽 '글래스윙', Claude Mythos로 취약점 1만 건+ 발견",
+      "summary": "앤트로픽의 Project Glasswing이 Claude Mythos로 1만 건 넘는 취약점을 찾아내며, 취약점 체이닝을 수 주에서 수 분으로 단축했다. 설정 오류·과도 권한이 주 표적이다.",
+      "source": "Reco.ai",
+      "url": "https://www.reco.ai",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "infosec-medtronic-breach",
+      "title": "메드트로닉 데이터 유출, 380만 명 영향",
+      "summary": "ShinyHunters가 4월 메드트로닉 시스템을 침해해 380만 명의 개인·건강 데이터를 탈취했다. 회사는 신용 모니터링을 제공하고 수사에 협조 중이다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "infosec-pamstealer-macos",
+      "title": "신종 PamStealer, 전형적이지 않은 macOS 악성코드",
+      "summary": "PamStealer는 AppleScript·자바스크립트·Rust를 조합해 탐지를 회피하고 격리(quarantine)를 우회하며, 가짜 비밀번호 프롬프트로 자격증명을 수집한다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "infosec-china-ai-agent-standard",
+      "title": "중국 TC260, AI 에이전트 배포 사이버보안 표준 발표",
+      "summary": "중국 TC260이 AI 에이전트에 대해 배포 전 평가와 수명주기 권한 통제를 요구하는 가이드를 냈다. AI 리스크에 대한 체계적 규제 감독을 반영한다.",
+      "source": "GeopoliteCHS",
+      "url": "https://tldr.tech/infosec/2026-07-06",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "infosec-1m-ransom-no-encryption",
+      "title": "미 정부기관, 파일 한 개도 안 잠긴 채 해커에 100만 달러 지불",
+      "summary": "한 미 정부기관이 28일 협상 끝에 갈취조직 Kairos에 약 100만 달러를 비트코인으로 지불했으나, 실제 파일 암호화는 전혀 없었다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "infosec-avalon-crownx",
+      "title": "신종 Avalon 프레임워크, CrownX 랜섬웨어 기능 탑재",
+      "summary": "Avalon은 피싱으로 유포되는 모듈형 프레임워크로, 자격증명 수집·측면이동·파일 암호화를 수행하며 EDR 탐지를 회피한다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com",
+      "originalDate": "2026-07-06"
+    }
+  ]
+}

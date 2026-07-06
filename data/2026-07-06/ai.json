@@ -1,0 +1,77 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-openai-gpt56",
+      "title": "오픈AI, 다음 주 GPT-5.6 출시 준비 — 3개 티어·추론강도 제어",
+      "summary": "오픈AI가 GPT-5.6을 좁은 프리뷰로 진입시켰고, 3개 티어와 새로운 추론 강도(reasoning-effort) 제어 옵션을 도입했다. 광범위한 배포는 미국 정부 승인에 달렸다.",
+      "source": "testingcatalog.com",
+      "url": "https://www.testingcatalog.com",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "70%",
+        "owner": "AI Platform",
+        "status": "New",
+        "affectedSurface": "프런티어 모델 · API"
+      },
+      "report": {
+        "tldr": "GPT-5.6이 티어·추론강도 세분화로 임박했으나 정부 승인이 변수다.",
+        "what": "오픈AI가 GPT-5.6을 좁은 프리뷰로 올리고 다음 주 출시를 준비 중이다.",
+        "points": ["3개 티어 + 추론 강도 제어 신설", "광범위 배포는 미 정부 승인 필요", "메타 '워터멜론' 등 프런티어 경쟁 가열"],
+        "why": ["모델 티어링이 비용·지연 최적화의 표준이 되는 흐름", "정부 승인 게이트는 프런티어 배포의 새 병목"]
+      }
+    },
+    {
+      "id": "ai-bytedance-seedance25",
+      "title": "바이트댄스, Seedance 2.5로 3분 길이 AI 영상 — 7/9 출시 전망",
+      "summary": "바이트댄스 드리미나의 Seedance 2.5가 7월 9일 출시될 전망으로, 최대 180초 영상을 여러 플랫폼에서 생성한다. 캐릭터 정체성·동작 일관성 유지 여부는 불확실하다.",
+      "source": "testingcatalog.com",
+      "url": "https://www.testingcatalog.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "ai-alibaba-bans-claude-code",
+      "title": "알리바바, 사내 Claude Code 사용 금지 — 7/10부터 Qoder로 유도",
+      "summary": "알리바바가 보안을 이유로 7월 10일부로 직원의 Claude Code 접근을 차단하고 자사 Qoder 대안 사용을 지시한 것으로 전해졌다. 앤트로픽의 디스틸레이션 의혹 제기 직후다.",
+      "source": "techcrunch.com",
+      "url": "https://techcrunch.com",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "개발 도구 · 미·중"
+      }
+    },
+    {
+      "id": "ai-verification-loop",
+      "title": "검증 루프를 닫아라 — 이제 비싼 건 개발이 아니라 검증",
+      "summary": "에이전트가 인간의 검증 속도를 앞지르면서, 개발이 아닌 '검증'이 더 비싼 단계가 됐다는 분석이다. 자동 검증 파이프라인 설계가 병목 해소의 관건으로 제시된다.",
+      "source": "thinkroom.kieranklaassen.com",
+      "url": "https://thinkroom.kieranklaassen.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "ai-compute-scarcity-ending",
+      "title": "컴퓨트 부족 끝나나 — 메타·스페이스X, 잉여 용량 매각",
+      "summary": "메타와 스페이스X가 잉여 컴퓨트를 팔기 시작하면서 수요 불일치 가능성이 제기됐다. 다만 남는 공급은 대개 빠르게 흡수된다는 반론도 함께 나온다.",
+      "source": "cloudedjudgement.substack.com",
+      "url": "https://cloudedjudgement.substack.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "ai-model-distillation-history",
+      "title": "모델 디스틸레이션의 역사 — 압축 기법에서 핵심 사후학습으로",
+      "summary": "디스틸레이션이 단순 압축에서 사후학습의 핵심 방법으로 진화한 과정을 정리한다. 진행 중인 저작권·모델 추출 분쟁의 배경으로도 주목된다.",
+      "source": "x.com",
+      "url": "https://x.com",
+      "originalDate": "2026-07-06"
+    }
+  ]
+}

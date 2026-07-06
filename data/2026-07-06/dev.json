@@ -1,0 +1,56 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-better-models-worse-tools",
+      "title": "더 좋은 모델, 더 나쁜 도구 — 스키마 위반 툴콜 회귀",
+      "summary": "최신 앤트로픽 모델이 작업은 이해하면서도 비(非)Claude Code 스키마에서 잘못된 툴콜을 내는 회귀가 지적됐다. 자체 시스템 사후학습이 스키마 유연성 의존을 만든다는 분석이다.",
+      "source": "lucumr.pocoo.org",
+      "url": "https://lucumr.pocoo.org",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "65%",
+        "owner": "AI Eng",
+        "status": "Tracking",
+        "affectedSurface": "툴 스키마 · 에이전트"
+      }
+    },
+    {
+      "id": "dev-agentic-coding-galapagos",
+      "title": "갈라파고스에서 쓴 에이전트 코딩 노트 — 프로세스는 강하나 테스트는 약하다",
+      "summary": "코딩 에이전트가 프로세스 자동화엔 탁월하지만, 신뢰할 만한 테스트 생성과 실제 버그 원인 특정에는 자주 실패한다는 장문의 관찰기다. 효율과 신뢰성의 간극을 드러낸다.",
+      "source": "danluu.com",
+      "url": "https://danluu.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "dev-sqlite-tla",
+      "title": "16년 묵은 SQLite 버그를 TLA+로 추적 — dqlite는 안전할까",
+      "summary": "SQLite의 오래된 WAL 관련 손상 버그 해결 과정과, dqlite의 더 엄격한 잠금이 이 취약점을 피해간 이유를 기록했다.",
+      "source": "ubuntu.com",
+      "url": "https://ubuntu.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "dev-postgres-oom",
+      "title": "PostgreSQL과 OOM 킬러 — 엄격한 메모리 오버커밋을 쓰는 이유",
+      "summary": "엄격한 메모리 오버커밋이 할당 실패를 '우아하게' 처리하게 해 PostgreSQL의 치명적 시스템 장애를 막는 원리를 설명한다.",
+      "source": "ubicloud.com",
+      "url": "https://www.ubicloud.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "dev-cli-agents-2026",
+      "title": "2026년 중반 CLI 코딩 에이전트 지형",
+      "summary": "활발히 유지되는 35개 터미널 기반 코딩 에이전트를 조사해 Claude Code·Codex CLI·Omp 등 선두를 짚는다.",
+      "source": "blog.arcbjorn.com",
+      "url": "https://blog.arcbjorn.com",
+      "originalDate": "2026-07-06"
+    }
+  ]
+}

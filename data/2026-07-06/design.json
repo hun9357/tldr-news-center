@@ -1,0 +1,56 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-figma-ai-strategy",
+      "title": "피그마, AI 시대에 맞춰 전략 전환 — 코드 레이어·모션 도구 도입",
+      "summary": "피그마가 코드 레이어와 모션 도구 등 새 캔버스 기능을 내놓으며 코드 네이티브 워크플로 전환에 대응한다. 핸드오프를 건너뛰게 하는 Claude Design 같은 경쟁 압박을 받고 있다.",
+      "source": "UX Design",
+      "url": "https://uxdesign.cc",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Design / Product",
+        "status": "Tracking",
+        "affectedSurface": "디자인 툴 · 핸드오프"
+      }
+    },
+    {
+      "id": "design-midjourney-studios",
+      "title": "미드저니, 할리우드 스튜디오에 'AI 사용 공개' 요구",
+      "summary": "미드저니가 디즈니·유니버설·워너브라더스를 상대로 내부 AI 사용 관행을 밝히라며 디스커버리를 추진한다. 스튜디오가 자사 AI 사용을 숨긴 채 자신을 선별 표적화한다고 주장했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "design-apple-acquires-play",
+      "title": "애플, 스위프트 개발 도구 'Play' 인수",
+      "summary": "애플이 시각형 스위프트 도구 Play를 만든 Rabbit 3 Times를 인수했다. 인수 후 아이폰·맥용 Play는 중단되고 기존 유료 서비스는 무료로 전환됐다.",
+      "source": "AppleInsider",
+      "url": "https://appleinsider.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "design-ai-reduces-intentionality",
+      "title": "AI는 디자인을 빠르게, 그러나 의도성은 약하게",
+      "summary": "AI가 산출을 가속하지만 매끈한 결과가 엣지 케이스와 시스템 차원의 불일치를 가릴 수 있다. 핵심 문제를 실제로 푸는지 천천히 점검해야 한다는 조언이다.",
+      "source": "LogRocket",
+      "url": "https://blog.logrocket.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "design-sheffield-logo",
+      "title": "셰필드 FC 로고 현대화에 팬 반발",
+      "summary": "세계 最古 축구 클럽이 디지털 활용성을 위해 방패 문장을 단순한 원형 로고로 바꿨으나, 팬들은 169년의 개성을 잃은 '무난한' 디자인이라 비판했다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com",
+      "originalDate": "2026-07-06"
+    }
+  ]
+}

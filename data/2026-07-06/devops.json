@@ -1,0 +1,56 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-cloudflare-x402-gateway",
+      "title": "클라우드플레어 '모네타이제이션 게이트웨이' — x402로 모든 리소스 과금",
+      "summary": "클라우드플레어가 웹페이지·데이터셋·API·툴을 x402 프로토콜로 유료화하는 게이트웨이를 공개했다. 별도 결제 인프라 없이 콘텐츠 소유자가 과금할 수 있다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Platform / Eng",
+        "status": "New",
+        "affectedSurface": "웹 인프라 · AI 크롤러"
+      }
+    },
+    {
+      "id": "devops-eks-rollback",
+      "title": "아마존 EKS, 쿠버네티스 버전 롤백으로 업그레이드 안심",
+      "summary": "EKS가 실패한 클러스터 업그레이드를 7일 내 되돌리는 버전 롤백을 지원한다. 호환성 문제 시 클러스터를 재구축할 필요가 사라진다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "devops-cloudformation-express",
+      "title": "AWS 클라우드포메이션 익스프레스 모드 — 배포 최대 4배 가속",
+      "summary": "AWS가 배포 확인을 신속화하는 클라우드포메이션 익스프레스 모드를 도입했다. AI 에이전트와 개발자 모두의 반복 주기를 단축하며 전 상용 리전에서 추가 비용 없이 제공된다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "devops-eu-sovereignty",
+      "title": "데이터 주권이 클라우드 네이티브 설계를 바꾼다",
+      "summary": "EU의 '클라우드·AI 개발법' 주권 프레임워크에 따라 규제 산업들이 하이퍼스케일러 의존 대신 쿠버네티스·오픈스택·깃옵스 기반 소버린 클라우드로 이동한다.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/blog",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "devops-gcp-vpc-agent-guardrails",
+      "title": "구글 클라우드, VPC 서비스 컨트롤에 에이전트 가드레일 추가",
+      "summary": "구글 클라우드가 에이전트 아이덴티티 규칙·MCP 속성·Gemini Enterprise Agent Platform 통합을 더해 자율 워크로드 보안을 강화했다.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog",
+      "originalDate": "2026-07-06"
+    }
+  ]
+}

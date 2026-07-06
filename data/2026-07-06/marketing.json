@@ -1,0 +1,48 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-meta-feed-publisher-hit",
+      "title": "\"삼키기 힘든 알약\" — 메타 피드 개편에 퍼블리셔 트래픽 타격",
+      "summary": "메타가 퍼블리셔 링크보다 크리에이터 콘텐츠를 우선하며 추천 트래픽·광고 매출이 줄고, 구글 AI 오버뷰까지 검색 트래픽을 잠식한다. 향후 3년 매출 40%+ 감소 가능성이 거론된다.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Growth / Content",
+        "status": "Tracking",
+        "affectedSurface": "퍼블리싱 · 추천 트래픽"
+      }
+    },
+    {
+      "id": "marketing-ai-wont-save-advertising",
+      "title": "AI는 광고를 구하지 못한다",
+      "summary": "업계 과열과 달리 AI는 광고 제작을 완전 자동화하거나 인간 판단을 대체하지 못한다는 분석이다. 실질 가치는 변혁이 아니라 생산성·워크플로 향상에 있다.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "marketing-google-ai-slop-playbook",
+      "title": "구글, 'AI 슬롭'을 대규모로 죽이는 플레이북 공개",
+      "summary": "구글이 개별 페이지가 아니라 템플릿형 AI 콘텐츠를 찍어내는 조직 네트워크를 겨냥한다. 인프라 패턴과 의미 유사성을 식별해 생산자 네트워크를 통째로 제거한다.",
+      "source": "nogood.io",
+      "url": "https://nogood.io",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "marketing-b2b-personal-branding",
+      "title": "B2B 퍼스널 브랜딩에 대한 솔직한 견해",
+      "summary": "구매자가 개인 네트워크로 의사결정을 조사하는 지금, 임원의 소셜 침묵은 측정 가능한 비용이 된다. 전문성 중심 콘텐츠가 부담 없는 진입점으로 제시된다.",
+      "source": "pierreherubel.substack.com",
+      "url": "https://pierreherubel.substack.com",
+      "originalDate": "2026-07-06"
+    }
+  ]
+}

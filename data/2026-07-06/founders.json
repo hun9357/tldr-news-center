@@ -1,0 +1,48 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-saas-bifurcation",
+      "title": "소프트웨어 지출 사상 최대인데 SaaS 절반은 죽어간다",
+      "summary": "AI를 무기로 삼은 기업은 가속하고, 낡은 전략에 머문 기업은 밸류에이션 붕괴에 직면하며 시장이 양극화됐다. '지친 쪽 vs 앞선 쪽' 구도가 뚜렷하다.",
+      "source": "saastr.com",
+      "url": "https://www.saastr.com",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "SaaS · 밸류에이션"
+      }
+    },
+    {
+      "id": "founders-executive-ai-leverage",
+      "title": "경영진 AI 레버리지 리포트 — ROI 입증이 최대 관문",
+      "summary": "재무 임원들은 AI 투자 확대의 최대 장벽으로 ROI 입증을 꼽으며 6개월 내 회수를 기대한다. 창업자들은 좌석 기반과 다른 방식으로 모델 가격을 책정한다.",
+      "source": "murraynewlands.substack.com",
+      "url": "https://murraynewlands.substack.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "founders-outbound-ai",
+      "title": "아웃바운드는 죽지 않았다 — AI가 작동 방식을 바꿨을 뿐",
+      "summary": "AI가 아웃바운드를 대량 캠페인에서 '규모는 에이전트, 고가치 관계는 사람'이 결합된 구조화된 멀티채널 방식으로 바꿨다는 분석이다.",
+      "source": "saastr.com",
+      "url": "https://www.saastr.com",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "founders-segment-churn",
+      "title": "이탈은 세그먼트별로 쪼개 보라 — 안 보이던 패턴이 보인다",
+      "summary": "고객 세그먼트별로 이탈을 분류하면 각기 다른 문제와 학습이 드러나 맞춤 대응과 전환 전략이 가능해진다.",
+      "source": "saastr.com",
+      "url": "https://www.saastr.com",
+      "originalDate": "2026-07-06"
+    }
+  ]
+}

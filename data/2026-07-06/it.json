@@ -1,0 +1,56 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-meta-compute-cloud",
+      "title": "메타, 스페이스X처럼 잉여 AI 컴퓨트를 현금화",
+      "summary": "메타가 AI 컴퓨트와 모델 접근을 판매하는 클라우드 인프라 사업을 검토 중이다. AWS·애저 등 주요 사업자와 경쟁할 잠재력이 있다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "originalDate": "2026-07-01",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Infra Strategy",
+        "status": "Tracking",
+        "affectedSurface": "클라우드 · AI 컴퓨트"
+      }
+    },
+    {
+      "id": "it-chrome-extension-rules",
+      "title": "구글, 크롬 확장 프로그램 신규 규정 도입",
+      "summary": "구글이 데이터 수집 제한·이용자 고지를 의무화하고, AI 보안을 우회하거나 예측시장 베팅을 가능케 하는 확장을 금지하는 강화된 정책을 발표했다.",
+      "source": "Chrome Developers",
+      "url": "https://developer.chrome.com/blog/cws-policy-updates-2026",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "it-gemini-code-assist-shutdown",
+      "title": "구글 Gemini Code Assist, 7월 17일 종료",
+      "summary": "구글이 GitHub용 소비자 버전 Gemini Code Assist를 7월 17일 중단한다. 기업 프리뷰 버전은 유지된다.",
+      "source": "Google Developers",
+      "url": "https://developers.google.com/gemini-code-assist/docs/deprecations/consumer-code-review",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "it-google-confidential-computing",
+      "title": "구글 클라우드, 검증 가능한 프라이빗 AI로 컨피덴셜 컴퓨팅 확장",
+      "summary": "구글 클라우드가 하드웨어 기반 격리로 프라이버시 보존형 AI 추론·파인튜닝을 지원하도록 컨피덴셜 컴퓨팅을 확장했다.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/identity-security/verifiable-trust-in-the-ai-era-whats-new-in-confidential-computing",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "it-hashicorp-infragraph",
+      "title": "해시코프, Infragraph 기반 HCP Terraform 제한 출시",
+      "summary": "해시코프가 인프라 시각화를 위한 커넥터 지원을 확대한 'Infragraph 기반 HCP Terraform'을 제한적 가용성으로 출시했다.",
+      "source": "HashiCorp",
+      "url": "https://www.hashicorp.com/en/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch",
+      "originalDate": "2026-07-06"
+    }
+  ]
+}
