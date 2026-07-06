@@ -1,0 +1,249 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "ops-eks-rollbacks",
+      "title": "아마존 EKS, 쿠버네티스 버전 롤백 지원",
+      "summary": "실패한 클러스터 업그레이드를 7일 내 재구축 없이 되돌린다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/upgrade-amazon-eks-clusters-with-confidence-using-kubernetes-version-rollbacks/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "EKS가 실패한 업그레이드를 7일 내 되돌릴 수 있게 됐다.",
+        "what": "아마존 EKS가 쿠버네티스 버전 롤백을 지원해, 실패한 클러스터 업그레이드를 7일 내에 클러스터 재구축 없이 되돌릴 수 있다. 워크로드·애드온·호환성 검사가 업그레이드 후 실패할 때 버전 변경을 되돌릴 수 있어 더 안전한 업그레이드 경로를 제공한다.",
+        "points": [
+          "7일 내 버전 롤백",
+          "클러스터 재구축 불필요",
+          "안전한 업그레이드 경로"
+        ],
+        "why": [
+          "쿠버네티스 운영 리스크 감소"
+        ]
+      }
+    },
+    {
+      "id": "ops-cloudformation-express",
+      "title": "AWS 클라우드포메이션 익스프레스 모드",
+      "summary": "인프라 배포를 최대 4배 가속, 초 단위 확인 제공.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/accelerate-your-infrastructure-deployments-by-up-to-4x-with-aws-cloudformation-express-mode/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "클라우드포메이션 익스프레스가 배포를 최대 4배 빠르게 한다.",
+        "what": "AWS 클라우드포메이션 익스프레스 모드는 개발자·AI 에이전트에 초 단위 배포 확인을 제공해 인프라 변경 반복 루프를 줄인다. 모든 상용 리전에서 추가 비용 없이 제공되며 에이전트 지원·인간 주도 워크플로의 빠른 반복을 겨냥한다.",
+        "points": [
+          "배포 최대 4배 가속",
+          "초 단위 배포 확인",
+          "추가 비용 없음"
+        ],
+        "why": [
+          "에이전트 지원 인프라 반복 가속"
+        ]
+      }
+    },
+    {
+      "id": "ops-cloudflare-monetization",
+      "title": "클라우드플레어, 머니타이제이션 게이트웨이 발표",
+      "summary": "x402로 페이지·API·MCP 도구 접근을 과금.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/monetization-gateway/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "클라우드플레어가 x402로 리소스 접근을 과금하는 게이트웨이를 냈다.",
+        "what": "머니타이제이션 게이트웨이는 사이트 소유자가 자체 결제 스택 구축 없이 웹페이지·데이터셋·API·MCP 도구 접근을 과금하게 한다. 과금은 x402 프로토콜로 정산돼, 유료 에이전트·크롤러·API 접근을 위한 새 엣지 인프라 프리미티브가 된다.",
+        "points": [
+          "x402로 접근 과금",
+          "결제 스택 불필요",
+          "에이전트·크롤러 유료화"
+        ],
+        "why": [
+          "콘텐츠·API 유료 접근 인프라"
+        ]
+      }
+    },
+    {
+      "id": "ops-cdn-log-costs",
+      "title": "검색 가능 아카이브로 CDN 로그 비용 절감",
+      "summary": "데이터독 옵저버빌리티 파이프라인으로 인덱싱 비용 축소.",
+      "source": "Datadog",
+      "url": "https://www.datadoghq.com/blog/reduce-cdn-log-costs-with-searchable-archives/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "CDN 로그를 오브젝트 스토리지로 보내 인덱싱 비용을 줄인다.",
+        "what": "대용량 CDN 로그를 다루는 팀이 데이터독 옵저버빌리티 파이프라인으로 원시 로그를 오브젝트 스토리지에 라우팅하면서 메트릭만 데이터독에 보내, 인덱싱 비용과 제공자 간 정규화를 줄인다.",
+        "points": [
+          "원시 로그는 오브젝트 스토리지",
+          "메트릭만 인덱싱",
+          "제공자 간 정규화"
+        ],
+        "why": [
+          "옵저버빌리티 비용 최적화"
+        ]
+      }
+    },
+    {
+      "id": "ops-data-sovereignty",
+      "title": "데이터 주권이 바꾸는 클라우드 네이티브 설계",
+      "summary": "EU CADA 4단계 주권 프레임워크가 오픈소스 스택 전환 촉발.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/blog/2026/07/03/how-data-sovereignty-is-changing-cloud-native-infrastructure-design/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "EU CADA가 규제 기업의 주권형 오픈소스 스택 전환을 밀어붙인다.",
+        "what": "EU의 클라우드·AI 개발법(CADA)이 6월 도입한 4단계 주권 프레임워크가 규제 기업을 하이퍼스케일러 대신 쿠버네티스·오픈스택·GitOps 기반 주권형 클라우드로 이끈다. 철도·은행·통신 등 유럽 조직이 아키텍처·정책코드로 주권 요건을 이행하고 있다.",
+        "points": [
+          "CADA 4단계 주권 프레임워크",
+          "쿠버네티스·오픈스택·GitOps",
+          "운영 독립·공급망 투명성"
+        ],
+        "why": [
+          "규제발 클라우드 아키텍처 변화"
+        ]
+      }
+    },
+    {
+      "id": "ops-better-models-worse-tools",
+      "title": "더 나은 모델, 더 나쁜 도구",
+      "summary": "최신 모델이 비클로드코드 스키마를 덜 충실히 따른다.",
+      "source": "lucumr.pocoo.org",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "최신 모델이 비표준 도구 스키마를 덜 충실히 따른다.",
+        "what": "최신 앤트로픽 모델이 작업은 이해하고 올바른 편집 내용을 만들면서도 일부 비클로드코드 도구 스키마를 덜 충실히 따른다. Armin Ronacher는 Pi의 중첩 편집 도구 실패를 모델/도구 불일치로 보고, 관대한 폐쇄형 하네스 사후학습이 별칭·무시 필드에 의존하게 만든다며 엄격한 문법 제약 호출의 중요성을 강조한다.",
+        "points": [
+          "작업 이해, 스키마 준수 저하",
+          "모델/도구 불일치",
+          "엄격한 문법 제약 필요"
+        ],
+        "why": [
+          "커스텀 에이전트 하네스 신뢰성"
+        ]
+      }
+    },
+    {
+      "id": "ops-gastown",
+      "title": "Gastown (깃허브 저장소)",
+      "summary": "여러 AI 코딩 어시스턴트를 조율하는 오픈소스 멀티에이전트 시스템.",
+      "source": "GitHub",
+      "url": "https://github.com/gastownhall/gastown?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "Gastown이 여러 코딩 에이전트를 병렬 조율한다.",
+        "what": "Gas Town은 클로드 코드·코파일럿·제미나이 등 여러 AI 코딩 어시스턴트를 동시에 다른 작업에 배치하고, Git 백엔드 저장으로 크래시·재시작에도 작업 상태를 보존하는 오픈소스 멀티에이전트 오케스트레이션 시스템이다. 3단계 워치독, Bors식 머지 큐 Refinery, 연합 네트워크 Wasteland를 포함한다.",
+        "points": [
+          "다중 코딩 에이전트 조율",
+          "Git 백엔드 상태 보존",
+          "머지 큐·연합 네트워크"
+        ],
+        "why": [
+          "멀티에이전트 개발 오케스트레이션"
+        ]
+      }
+    },
+    {
+      "id": "ops-planning-with-files",
+      "title": "planning-with-files (깃허브 저장소)",
+      "summary": "마크다운 파일로 크래시 견디는 에이전트 계획을 저장.",
+      "source": "GitHub",
+      "url": "https://github.com/OthmanAdi/planning-with-files?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "planning-with-files가 에이전트 계획을 디스크 마크다운에 저장한다.",
+        "what": "이 오픈소스 도구는 작업 계획·발견·진행을 디스크의 마크다운 파일에 저장해 크래시에 강한 계획을 AI 코딩 에이전트에 제공한다. v3.0.0은 자율·게이트 모드와 조기 중단을 막는 완료 게이트를 더했고, SKILL.md 표준으로 클로드 코드·커서·코덱스 CLI 등 60개+ 플랫폼에서 동작한다.",
+        "points": [
+          "마크다운에 계획 저장",
+          "완료 게이트로 조기중단 방지",
+          "60개+ 플랫폼 지원"
+        ],
+        "why": [
+          "에이전트 컨텍스트 엔지니어링 도구"
+        ]
+      }
+    },
+    {
+      "id": "ops-vpc-service-controls",
+      "title": "에이전트 AI 경계 가드레일: VPC 서비스 컨트롤 신기능",
+      "summary": "에이전트 신원 기반 접근·MCP 속성으로 데이터 유출 방지.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/identity-security/securing-agentic-ai-whats-new-in-vpc-service-controls/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "구글 클라우드가 에이전트용 VPC 경계 통제를 강화했다.",
+        "what": "구글 클라우드가 에이전트 신원 기반 접근 규칙, MCP 속성, 제미나이 엔터프라이즈 에이전트 플랫폼 통합 등 AI 에이전트용 VPC 서비스 컨트롤 기능을 도입해, 손상된 자율 워크로드의 데이터 유출을 막고 네트워크 수준 보안을 강화한다.",
+        "points": [
+          "에이전트 신원 기반 접근",
+          "MCP 속성 지원",
+          "데이터 유출 방지"
+        ],
+        "why": [
+          "에이전트 워크로드 보안 강화"
+        ]
+      }
+    },
+    {
+      "id": "ops-azure-pipelines-ghe",
+      "title": "ghe.com에서 애저 파이프라인 앱 구성",
+      "summary": "GHE 매니지드 유저 마이그레이션 시 수동 앱 설치 필요.",
+      "source": "jessehouwing.net",
+      "url": "https://jessehouwing.net/configure-azure-pipelines-app-in-ghe-com/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "GHE 매니지드 유저로 옮길 때 애저 파이프라인 앱 수동 설치가 필요하다.",
+        "what": "애저 데브옵스 파이프라인을 깃허브 엔터프라이즈 매니지드 유저로 옮기면 OAuth 설정이 사전 설치 없이 실패하므로, 숨겨진 URL로 애저 파이프라인 깃허브 앱을 수동 설치해야 한다. 설치·서비스 연결 후 파이프라인을 깃허브 리포로 재연결한다.",
+        "points": [
+          "OAuth 설정 실패 회피",
+          "숨겨진 URL 수동 설치",
+          "서비스 연결 후 재연결"
+        ],
+        "why": [
+          "CI/CD 마이그레이션 실무 팁"
+        ]
+      }
+    },
+    {
+      "id": "ops-headlamp-knative",
+      "title": "Knative용 Headlamp 플러그인",
+      "summary": "쿠버네티스 서버리스 Knative 리소스 통합 관리.",
+      "source": "kubernetes.io",
+      "url": "https://kubernetes.io/blog/2026/06/25/headlamp-knative-plugin/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "Headlamp Knative 플러그인이 서버리스 운영을 단순화한다.",
+        "what": "Headlamp Knative 플러그인은 Knative 리소스의 통합 관리로 쿠버네티스 서버리스 운영을 간소화한다.",
+        "points": [
+          "Knative 리소스 통합 관리",
+          "서버리스 운영 단순화",
+          "오픈소스 대시보드 플러그인"
+        ],
+        "why": [
+          "쿠버네티스 서버리스 가시성"
+        ]
+      }
+    },
+    {
+      "id": "ops-wip-rust",
+      "title": "진행 중인 러스트",
+      "summary": "러스트의 엄격함이 초기 개발 속도를 늦출 수 있다.",
+      "source": "blog.dureuill.net",
+      "url": "https://blog.dureuill.net/articles/wip/?utm_source=tldrdevops",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "러스트의 엄격함이 초기 개발을 늦출 수 있다.",
+        "what": "러스트의 엄격함은 정확성에 도움이 되지만, 해피 패스가 명확해지기 전에 모든 오류 경로·소유권·미완성 분기를 해결해야 해 초기 개발을 늦출 수 있다.",
+        "points": [
+          "엄격함=정확성 이점",
+          "초기 개발 지연 가능",
+          "해피 패스 도달 지연"
+        ],
+        "why": [
+          "러스트 개발 경험 관점"
+        ]
+      }
+    }
+  ]
+}

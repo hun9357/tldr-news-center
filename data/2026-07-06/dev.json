@@ -1,0 +1,289 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-sqlite-bug-tla",
+      "title": "16년 된 SQLite 버그를 TLA+로 추적: dqlite는 영향받나",
+      "summary": "WAL 관련 오랜 버그가 dqlite에는 영향 없다고 결론.",
+      "source": "Ubuntu",
+      "url": "https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "16년 묵은 SQLite WAL 버그가 dqlite엔 영향 없다고 확인됐다.",
+        "what": "SQLite가 16년간 존재한 WAL 관련 DB 손상 버그를 최근 수정했다. dqlite 팀은 SQLite 동작을 TLA+로 모델링해 자사 구현과 비교한 결과, 동시 쓰기·체크포인트를 막는 더 엄격한 락 덕에 영향받지 않는다고 결론지었다.",
+        "points": [
+          "16년 된 WAL 버그",
+          "TLA+로 모델링 검증",
+          "dqlite 락으로 영향 없음"
+        ],
+        "why": [
+          "형식 검증의 실전 활용 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-agentic-coding-galapagos",
+      "title": "에이전트 코딩에 관한 갈라파고스 노트",
+      "summary": "AI 자동화 효율과 출력 신뢰성 사이의 괴리를 조명.",
+      "source": "danluu.com",
+      "url": "https://danluu.com/ai-coding/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "코딩 에이전트의 자동화 효율과 출력 신뢰성 사이에 괴리가 있다.",
+        "what": "코딩 에이전트와 테스트 능력 탐구는 AI 자동화의 효율과 출력 신뢰성 사이의 괴리를 보여준다. AI가 좋은 테스트로 워크플로를 빠르게 하고 코드 품질을 높일 수 있으나, 신뢰할 만한 테스트 생성과 버그 원인 식별에는 종종 어려움을 겪는다.",
+        "points": [
+          "효율 vs 신뢰성 괴리",
+          "테스트 생성이 약점",
+          "버그 원인 식별 난항"
+        ],
+        "why": [
+          "에이전트 코딩 한계 이해"
+        ]
+      }
+    },
+    {
+      "id": "dev-postgresql-oom",
+      "title": "PostgreSQL과 OOM 킬러: 엄격한 메모리 오버커밋",
+      "summary": "엄격 오버커밋이 치명적 OOM 종료를 예방.",
+      "source": "Ubicloud",
+      "url": "https://www.ubicloud.com/blog/postgresql-and-the-oom-killer-why-we-use-strict-memory-overcommit?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "엄격한 메모리 오버커밋이 PostgreSQL의 OOM 종료를 막는다.",
+        "what": "엄격한 메모리 오버커밋은 DB가 모든 연결에 영향 없이 메모리 할당 실패를 우아하게 처리하게 해 치명적 OOM 종료를 예방한다. 유비클라우드 제품의 커널 버그가 이 설정을 일시 교란한 사례는 프로덕션에서 메모리 한계를 세심히 관리해야 함을 보여준다.",
+        "points": [
+          "엄격 오버커밋으로 OOM 예방",
+          "할당 실패의 우아한 처리",
+          "커널 버그 교란 사례"
+        ],
+        "why": [
+          "프로덕션 DB 안정성 실무"
+        ]
+      }
+    },
+    {
+      "id": "dev-better-models-worse-tools",
+      "title": "더 나은 모델, 더 나쁜 도구",
+      "summary": "Opus 4.8·Sonnet 5가 Pi 편집 도구에서 잘못된 도구 호출 생성.",
+      "source": "lucumr.pocoo.org",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "최신 모델이 비표준 편집 도구에서 잘못된 도구 호출을 낸다.",
+        "what": "앤트로픽의 Opus 4.8·Sonnet 5가 Pi의 편집 도구에서 기대 스키마에 없는 필드를 자주 붙여 잘못된 도구 호출을 낸다. 이 회귀는 관대한 도구 호출을 선호하는 훈련 환경과 연관돼 보인다.",
+        "points": [
+          "Opus 4.8·Sonnet 5 사례",
+          "잉여 필드로 스키마 위반",
+          "관대한 훈련 환경 원인 추정"
+        ],
+        "why": [
+          "커스텀 하네스 스키마 강제 필요"
+        ]
+      }
+    },
+    {
+      "id": "dev-write-code-not-specs",
+      "title": "명세가 아니라 코드를 써라",
+      "summary": "자기문서화 코드와 테스트로 신뢰·효율을 확보.",
+      "source": "softwaredoug.com",
+      "url": "https://softwaredoug.com/blog/2026/07/04/write-code-not-specs.html?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "자기문서화 코드와 테스트가 별도 명세보다 낫다.",
+        "what": "좋은 코드는 광범위한 명세 없이도 기능을 이해할 수 있게 자기문서화되어야 한다. 코드와 명세를 모두 유지하기보다 패턴을 확립하는 코드를 쓰고 테스트로 기능을 검증하면 더 큰 신뢰와 효율을 얻는다.",
+        "points": [
+          "자기문서화 코드 지향",
+          "코드+명세 이중유지 회피",
+          "테스트로 기능 검증"
+        ],
+        "why": [
+          "AI 시대 문서화 방식 논쟁"
+        ]
+      }
+    },
+    {
+      "id": "dev-new-agentic-patterns",
+      "title": "몇 가지 새로운 에이전트 패턴",
+      "summary": "프라임 래디언트가 에이전트를 팀원처럼 쓰는 패턴.",
+      "source": "blog.fsck.com",
+      "url": "https://blog.fsck.com/2026/07/05/new-patterns/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "프라임 래디언트가 에이전트를 팀원처럼 협업시키는 패턴을 도입했다.",
+        "what": "프라임 래디언트는 에이전트와 인간 구현자의 협업을 강화하는 새 '에이전트' 패턴을 도입해 도구·워크플로를 개선했다. 비서가 아닌 팀원처럼 행동하는 Nora와, 여러 에이전트가 협력해 과제를 처리하는 프레임워크가 대표 사례다.",
+        "points": [
+          "에이전트를 팀원처럼",
+          "Nora 등 협업 사례",
+          "다중 에이전트 프레임워크"
+        ],
+        "why": [
+          "에이전트 협업 워크플로 진화"
+        ]
+      }
+    },
+    {
+      "id": "dev-plannotator",
+      "title": "Plannotator (깃허브 저장소)",
+      "summary": "AI 코딩 에이전트의 계획·코드 변경을 주석·리뷰하는 브라우저 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/backnotprop/plannotator?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "Plannotator가 에이전트 계획·변경을 브라우저에서 주석·리뷰한다.",
+        "what": "Plannotator는 여러 AI 코딩 에이전트의 계획·명세·코드 변경을 주석·리뷰하는 브라우저 기반 도구다. 다중 플랫폼과 통합되고 실시간 협업과 주석 공유를 지원한다.",
+        "points": [
+          "계획·변경 주석·리뷰",
+          "브라우저 기반",
+          "실시간 협업·공유"
+        ],
+        "why": [
+          "에이전트 산출물 검토 도구"
+        ]
+      }
+    },
+    {
+      "id": "dev-bramble",
+      "title": "Bramble (깃허브 저장소)",
+      "summary": "로컬 우선·오픈소스 비밀번호 관리자.",
+      "source": "GitHub",
+      "url": "https://github.com/flythenimbus/bramble?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "Bramble은 클라우드 없이 로컬에 저장하는 비밀번호 관리자다.",
+        "what": "Bramble은 클라우드 서버 없이 개인 기기에 데이터를 암호화·저장하는 로컬 우선 오픈소스 비밀번호 관리자로, 안전한 P2P 동기화와 생체인증·패스키 등 다양한 인증을 지원한다.",
+        "points": [
+          "로컬 우선·오픈소스",
+          "P2P 동기화",
+          "생체·패스키 인증"
+        ],
+        "why": [
+          "프라이버시 중시 비번 관리"
+        ]
+      }
+    },
+    {
+      "id": "dev-state-cli-agents",
+      "title": "CLI 코딩 에이전트 현황, 2026 중반",
+      "summary": "터미널이 코딩 에이전트 플랫폼으로 부상, 활성 CLI 35종.",
+      "source": "arcbjorn.com",
+      "url": "https://blog.arcbjorn.com/state-of-cli-coding-agents-2026?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "2026 중반 터미널이 코딩 에이전트의 선호 플랫폼이 됐다.",
+        "what": "2026년 중반 터미널이 코딩 에이전트의 선호 플랫폼이 되며 활성 유지되는 CLI 에이전트가 35종에 이른다. 클로드 코드·코덱스 CLI·Omp 등이 메모리·편집 정밀도·오케스트레이션을 갖춘 선두 옵션으로 부상했다.",
+        "points": [
+          "활성 CLI 에이전트 35종",
+          "터미널이 선호 플랫폼",
+          "클로드 코드·코덱스·Omp 선두"
+        ],
+        "why": [
+          "코딩 에이전트 생태계 조망"
+        ]
+      }
+    },
+    {
+      "id": "dev-perf-per-dollar",
+      "title": "달러당 성능이 더 빠르고 싸진다",
+      "summary": "GLM-5.2가 AMD MI355X서 NVIDIA 대비 2배 이상 비용효율.",
+      "source": "wafer.ai",
+      "url": "https://www.wafer.ai/blog/glm52-amd?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "GLM-5.2가 AMD에서 NVIDIA 대비 2배 비용효율을 낸다.",
+        "what": "GLM-5.2는 AMD MI355X에서 노드당 2626 tok/s로 유사 NVIDIA 대비 2배 이상 비용효율을 보인다. AMD의 소프트웨어 지원 난점에도 모델 최적화 개선이 격차를 좁히고 있다.",
+        "points": [
+          "MI355X서 2626 tok/s/node",
+          "NVIDIA 대비 2배+ 비용효율",
+          "AMD 소프트웨어 개선"
+        ],
+        "why": [
+          "추론 하드웨어 경쟁 구도"
+        ]
+      }
+    },
+    {
+      "id": "dev-jamesob-local-llm",
+      "title": "jamesob의 로컬 SOTA LLM 실행 가이드",
+      "summary": "특정 하드웨어로 최신 로컬 ML 시스템 구성법.",
+      "source": "GitHub",
+      "url": "https://github.com/jamesob/local-llm?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "로컬에서 최신 LLM을 제대로 돌리는 하드웨어 가이드.",
+        "what": "특정 하드웨어 구성으로 최신 로컬 ML 시스템을 세팅해 고급 LLM을 제대로 실행하는 상세 지침과 권고를 담았다.",
+        "points": [
+          "로컬 ML 시스템 구성",
+          "하드웨어 권고",
+          "LLM 실행 지침"
+        ],
+        "why": [
+          "온프레미스 LLM 실행 참고"
+        ]
+      }
+    },
+    {
+      "id": "dev-just-learn-sql",
+      "title": "ORM이 가르쳐 준 것: 그냥 SQL을 배워라",
+      "summary": "ORM의 편의 이면의 속성 남발·비효율 쿼리·이중 스키마.",
+      "source": "wozniak.ca",
+      "url": "https://wozniak.ca/blog/2014/08/03/1/index.html?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "ORM의 편의는 종종 데이터 관리 복잡성을 키운다.",
+        "what": "ORM은 SQL 작업에 편의를 주지만 속성 남발, 비효율적 쿼리, 이중 스키마 같은 문제로 데이터 조회·관리를 복잡하게 만드는 경우가 많다.",
+        "points": [
+          "속성 남발 문제",
+          "비효율 쿼리",
+          "이중 스키마 부담"
+        ],
+        "why": [
+          "데이터 접근 계층 설계 관점"
+        ]
+      }
+    },
+    {
+      "id": "dev-cognition-mapreduce",
+      "title": "코그니션의 에이전트 맵리듀스 재구축",
+      "summary": "코드베이스 샤딩으로 보안 발견을 병렬 처리.",
+      "source": "Matt Rickard",
+      "url": "https://blog.matt-rickard.com/p/rebuilding-cognitions-agentic-mapreduce?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "코그니션이 에이전트 맵리듀스로 보안 발견을 병렬 처리한다.",
+        "what": "코그니션은 에이전트 맵리듀스로 코드베이스를 샤딩해 보안 발견을 병렬 처리하고, 취약점을 검증하며 Git으로 통신·내결함성을 확보한다.",
+        "points": [
+          "코드베이스 샤딩",
+          "취약점 병렬 검증",
+          "Git 기반 통신·내결함성"
+        ],
+        "why": [
+          "대규모 에이전트 작업 스케일링"
+        ]
+      }
+    },
+    {
+      "id": "dev-button-one-job",
+      "title": "버튼이라면 한 가지 일만",
+      "summary": "이미지 회전 처리 차이로 상황적 장애 배려 UI를 조명.",
+      "source": "aresluna.org",
+      "url": "https://unsung.aresluna.org/if-youre-a-button-you-have-one-job/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "이미지 회전 처리 차이가 상황적 장애를 배려한 UI의 중요성을 보여준다.",
+        "what": "아이폰과 낫싱폰의 이미지 회전 처리 차이는, 불필요한 애니메이션 대기를 없애 상황적 장애를 배려하고 사용성을 높이는 인터페이스 설계의 중요성을 보여준다.",
+        "points": [
+          "기기별 회전 처리 차이",
+          "상황적 장애 배려",
+          "애니메이션 대기 제거"
+        ],
+        "why": [
+          "UI 사용성·접근성 관점"
+        ]
+      }
+    }
+  ]
+}

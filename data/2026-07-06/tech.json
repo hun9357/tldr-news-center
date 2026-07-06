@@ -1,0 +1,290 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-nvidia-revenue-share",
+      "title": "엔비디아, AI 클라우드 통해 스타트업에 컴퓨트·매출공유 제공",
+      "summary": "파트너 프로그램 참여사는 제품·클라우드 매출을 엔비디아와 공유.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/nvidia-plans-to-offer-start-up-customers-access-to-revenue-sharing-deals.html?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "엔비디아가 매출공유 조건으로 스타트업에 컴퓨트를 연결한다.",
+        "what": "엔비디아는 자사 AI 클라우드 파트너망을 통해 기업에 핵심 컴퓨트 인프라를 제공하는 프로그램을 시작했고, 참여사는 제품·클라우드 매출을 엔비디아와 공유한다. AI 기업들이 유동성 문제를 우회하려 칩 제조사와 매출·지분 공유 계약을 늘리고 있으며, 엔비디아는 최소 200억 달러 부채 조달 계획이다.",
+        "points": [
+          "파트너망 통한 컴퓨트 제공",
+          "제품·클라우드 매출 공유",
+          "엔비디아 200억 달러 부채 조달 계획"
+        ],
+        "why": [
+          "AI 자금·컴퓨트 순환구조 심화",
+          "칩 제조사 지분·매출 얽힘 확대"
+        ]
+      }
+    },
+    {
+      "id": "tech-amazon-leo",
+      "title": "아마존, 레오 위성 충분 배치로 연내 서비스 개시",
+      "summary": "궤도 위성 390기 초과로 고객 서비스 준비 완료.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/amazon-has-deployed-enough-satellites-to-launch-leo-service-this-year.html?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "아마존 레오가 위성 390기를 넘겨 연내 상용 서비스를 시작한다.",
+        "what": "아마존 레오는 고객 서비스에 충분한 위성을 궤도에 올려 별자리가 390기를 넘겼다. 지난해 일부 기업 대상 프리뷰를 시작했으며 상용 서비스는 초기엔 특정 지역에 한정될 전망이다.",
+        "points": [
+          "궤도 위성 390기 초과",
+          "연내 상용 서비스 개시",
+          "초기 특정 지역 한정"
+        ],
+        "why": [
+          "스타링크에 대한 경쟁 본격화"
+        ]
+      }
+    },
+    {
+      "id": "tech-humanoid-robot-safety",
+      "title": "인간과 함께 쓸 만큼 안전한 휴머노이드 로봇 만들기",
+      "summary": "ISO 표준은 2028년 예상, 제조사들은 자체 해법 모색.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/Mz6uvs",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "로봇이 커지고 무거워지며 인간 안전이 최대 과제가 됐다.",
+        "what": "로봇이 커지고 무거워지며 사람을 다치게 하지 않는 것이 로봇 제조사의 핵심 과제가 됐다. ISO는 2028년 중반 휴머노이드 안전 표준을 낼 예정이지만 제조사들은 이미 자체 해법을 내놓고 있다.",
+        "points": [
+          "로봇 대형화로 위험 증가",
+          "ISO 표준 2028년 예상",
+          "제조사 자체 안전 해법"
+        ],
+        "why": [
+          "휴머노이드 상용화의 전제 조건"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-superforecasters",
+      "title": "AI 슈퍼예측가가 도착했다",
+      "summary": "예측 특화 AI들이 예측시장·주식에서 큰 수익을 낸다는 주장.",
+      "source": "Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "예측에 특화된 AI들이 시장을 앞서고 있다는 주장이 나온다.",
+        "what": "AI 슈퍼예측가는 긴 리서치 과정을 안내하는 스캐폴드로 예측에 강하게 조율된 AI다. 여러 기업이 놀라운 성능을 주장하며 예측시장에서 큰 수익을 내고 주식시장을 상당폭 앞선다고 알려졌다.",
+        "points": [
+          "예측 특화 스캐폴드 활용",
+          "예측시장서 높은 수익 주장",
+          "주식시장 초과수익 주장"
+        ],
+        "why": [
+          "AI의 의사결정·예측 활용 부상"
+        ]
+      }
+    },
+    {
+      "id": "tech-agentic-autonomy-levels",
+      "title": "에이전트 자율성 레벨",
+      "summary": "낮은 자율성은 위험을 줄이고, 높은 자율성은 병렬 대규모 작업에 유리.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/H7Dut9",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트 자율성 수준별 트레이드오프를 정리한다.",
+        "what": "낮은 자율성은 위험을 줄이고 되돌리기를 쉽게 한다. 높은 자율성은 명확한 작업과 대규모 코드베이스 병렬 리팩터에 유리하다. 프런티어는 헬퍼에게 위임하면서 출력을 계속 검증하고 인간 결정만 되돌리는 매니저 에이전트로, 수백~수천 에이전트 운용이 가능하다.",
+        "points": [
+          "낮은 자율성=위험↓·복구↑",
+          "높은 자율성=대규모 병렬에 유리",
+          "검증형 매니저 에이전트가 프런티어"
+        ],
+        "why": [
+          "에이전트 운영 설계의 실무 지침"
+        ]
+      }
+    },
+    {
+      "id": "tech-field-guide-fable",
+      "title": "Fable 필드 가이드: 미지수 찾기",
+      "summary": "장기 작업 실패를 막으려 미지수를 사전에 규명.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/yCa4qs",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "시작 전 미지수를 규명해 장기 작업 실패를 예방한다.",
+        "what": "장기 작업이 잘못 돌아오지 않도록 미지수 정의에 더 많은 시간을 써야 한다. Claude를 설명·브레인스토밍·인터뷰·프로토타입·레퍼런스에 활용해 미지수를 값싸게 찾아낼 수 있다.",
+        "points": [
+          "미지수 사전 정의",
+          "Claude로 탐색 지원",
+          "값 커지기 전 문제 발견"
+        ],
+        "why": [
+          "에이전트 장기 작업 품질 향상"
+        ]
+      }
+    },
+    {
+      "id": "tech-threads-500m",
+      "title": "메타 스레드, 5억 사용자 돌파",
+      "summary": "아시아서 인기, 10억 목표…광고로 연 300억 달러 매출 가능성.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/Cl2946",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "스레드가 월 5억 사용자를 넘어 10억을 겨냥한다.",
+        "what": "스레드는 월 5억 사용자를 확보했고 특히 아시아에서 인기다. 이제 10억 사용자를 목표로 하며, 1월부터 광고를 노출해 목표 달성 시 연 최소 300억 달러 매출로 이어질 수 있다.",
+        "points": [
+          "월 5억 사용자",
+          "아시아서 강세",
+          "10억 목표·연 300억 달러 잠재"
+        ],
+        "why": [
+          "X와의 경쟁·메타 광고 매출"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-junior-programmers",
+      "title": "AI가 주니어 프로그래머 시장을 태웠다",
+      "summary": "스펙대로 코드 짜는 일은 줄고, 판단 요구 일자리는 성장.",
+      "source": "seldo.com",
+      "url": "https://seldo.com/posts/ai-has-torched-the-market-for-junior-programmers/?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI는 '스펙대로 코드 짜는' 일자리만 특정해 없애고 있다.",
+        "what": "프로그래머 채용 시장이 빠르게 위축되지만, 어떤 코드가 존재해야 하는지에 대한 판단이 산물인 일자리는 늘고 있다. AI가 없애는 것은 사양에 맞춰 코드를 작성하는 특정 유형의 일자리다.",
+        "points": [
+          "스펙 구현형 일자리 감소",
+          "판단 중심 일자리 성장",
+          "AI는 특정 유형만 대체"
+        ],
+        "why": [
+          "개발 노동시장 구조 변화"
+        ]
+      }
+    },
+    {
+      "id": "tech-better-models-worse-tools",
+      "title": "더 나은 모델, 더 나쁜 도구",
+      "summary": "최신 모델이 대체 스키마를 충실히 못 내면 하네스에 보증이 필요.",
+      "source": "lucumr.pocoo.org",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "모델이 작업엔 능해지지만 비표준 도구 스키마엔 약해진다.",
+        "what": "최신 모델이 작업 해결엔 능해지면서도 대체 도구 스키마를 충실히 방출하는 데는 약해진다면, 하네스 어딘가에 더 강한 보증이 필요하다.",
+        "points": [
+          "작업 성능↑, 스키마 준수↓",
+          "비표준 하네스에 리스크",
+          "강한 문법 제약 필요"
+        ],
+        "why": [
+          "커스텀 에이전트 하네스 설계 시사점"
+        ]
+      }
+    },
+    {
+      "id": "tech-wordpress-market-share",
+      "title": "워드프레스 점유율 41.5%로 하락",
+      "summary": "2025년 초 43.6% 정점에서 하락, 데이터셋별 해석 상이.",
+      "source": "therepository.email",
+      "url": "https://www.therepository.email/wordpress-market-share-series-data?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "워드프레스 웹 점유율이 41.5%로 정점 대비 내려왔다.",
+        "what": "워드프레스는 현재 웹의 41.5%를 구동하며, 2025년 초 43.6% 정점에서 하락했다. 세 개 데이터셋이 원인에 대해 다른 이야기를 들려준다.",
+        "points": [
+          "점유율 41.5%",
+          "정점 43.6% 대비 하락",
+          "데이터셋별 해석 차이"
+        ],
+        "why": [
+          "웹 CMS 지형 변화 관찰"
+        ]
+      }
+    },
+    {
+      "id": "tech-agentic-loops",
+      "title": "에이전트 루프",
+      "summary": "다양한 에이전트 루프 실행 전략을 조망.",
+      "source": "danluu.com",
+      "url": "https://danluu.com/ai-coding/?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트 루프를 돌리는 여러 전략을 살펴본다.",
+        "what": "글은 에이전트 루프를 실행하는 다양한 전략을 다룬다.",
+        "points": [
+          "에이전트 루프 실행 전략",
+          "여러 접근법 비교",
+          "에이전트 코딩 실무 참고"
+        ],
+        "why": [
+          "에이전트 코딩 실무 참고"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-foldable-iphone",
+      "title": "애플, 2027년까지 아이폰 5종·폴더블 추진",
+      "summary": "올해 폴더블 아이폰 약 1,000만 대 생산 지시.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/02/apple-foldable-iphone-production-memory-shortage-china-chipmakers-cxmt-ymtc.html?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "애플이 올해 폴더블 아이폰 약 1,000만 대 생산을 준비한다.",
+        "what": "애플이 공급사에 올해 약 1,000만 대의 폴더블 아이폰 생산을 준비하도록 지시했으며, 2027년까지 5종의 신형 아이폰과 중국산 칩 활용을 검토 중이다.",
+        "points": [
+          "폴더블 약 1,000만 대 준비",
+          "2027년까지 5종 신형",
+          "중국산 칩 검토"
+        ],
+        "why": [
+          "애플 폴더블 진입·공급망 변화"
+        ]
+      }
+    },
+    {
+      "id": "tech-url-prompt-llm",
+      "title": "프롬프트 속 URL이 LLM 출력을 그 내용으로 유도하나?",
+      "summary": "URL과 내용이 학습데이터에 있으면 URL 자체가 가중치의 키로 작동.",
+      "source": "aifoc.us",
+      "url": "https://aifoc.us/influencing-model-output-with-urls/?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "학습된 URL은 그 내용을 가리키는 '키'로 작동할 수 있다.",
+        "what": "URL과 그 내용이 학습데이터에 포함되면, 프롬프트의 맨 URL이 가중치 안으로 들어가는 키처럼 작동한다는 분석이다.",
+        "points": [
+          "URL이 가중치의 키로 작동",
+          "학습데이터 포함이 전제",
+          "출력 유도 가능성"
+        ],
+        "why": [
+          "프롬프트 조작·GEO 관점 시사"
+        ]
+      }
+    },
+    {
+      "id": "tech-new-agentic-patterns",
+      "title": "몇 가지 새로운 에이전트 패턴",
+      "summary": "프라임 래디언트의 에이전트 활용 방식을 조망.",
+      "source": "blog.fsck.com",
+      "url": "https://blog.fsck.com/2026/07/05/new-patterns/?utm_source=tldrnewsletter",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "프라임 래디언트가 에이전트를 쓰는 새로운 패턴들을 소개한다.",
+        "what": "글은 프라임 래디언트가 에이전트를 활용하는 방식을 살펴본다.",
+        "points": [
+          "실제 에이전트 활용 사례",
+          "협업형 에이전트 패턴",
+          "프라임 래디언트 사례"
+        ],
+        "why": [
+          "에이전트 워크플로 설계 참고"
+        ]
+      }
+    }
+  ]
+}

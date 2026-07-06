@@ -1,0 +1,289 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "dsn-ipad-macbook-2027",
+      "title": "애플, 2027년형 아이패드 프로·엔트리 맥북 프로 시험",
+      "summary": "11·13인치 아이패드 프로 4종과 재설계 14인치 맥북 프로 준비.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/07/01/apple-reportedly-testing-new-ipad-pro-models-and-redesigned-entry-level-macbook-pro-for-2027/?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "애플이 2027년형 아이패드 프로·엔트리 맥북 프로를 준비 중이다.",
+        "what": "애플은 2027년 봄 출시를 목표로 11·13인치 아이패드 프로 4종을 시험 중이며 주로 칩·베이퍼 챔버 냉각 등 내부 업그레이드에 집중한다. 재설계된 14인치 엔트리 맥북 프로는 2027년 상반기 출시 가능성이 있고, AI 워크로드용 M7 칩 출시도 앞당기고 있다.",
+        "points": [
+          "아이패드 프로 4종 시험",
+          "14인치 엔트리 맥북 프로 재설계",
+          "M7 칩 출시 가속"
+        ],
+        "why": [
+          "애플 2027 제품 사이클 전망"
+        ]
+      }
+    },
+    {
+      "id": "dsn-midjourney-hollywood",
+      "title": "미드저니, 할리우드 스튜디오의 AI 사용 공개 요구",
+      "summary": "디스니·유니버설·워너에 내부 AI 사용 디스커버리 공개 압박.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "미드저니가 스튜디오의 내부 AI 사용 공개를 요구한다.",
+        "what": "미드저니는 저작권 소송에서 디스니·유니버설·워너의 내부 AI 사용을 디스커버리로 공개하도록 압박한다. 현재 스튜디오는 '소비자 대면' 콘텐츠 관련 문서만 공유하면 되는데, 미드저니는 이 한계를 없애 스튜디오가 유사 내부 관행을 숨긴다고 주장한다.",
+        "points": [
+          "내부 AI 사용 공개 요구",
+          "'소비자 대면' 한정 철폐 주장",
+          "스튜디오는 '낚시성'이라 반박"
+        ],
+        "why": [
+          "AI 저작권 소송의 향방"
+        ]
+      }
+    },
+    {
+      "id": "dsn-apple-acquires-play",
+      "title": "애플, 디자인 어워드 수상 툴 'Play' 인수",
+      "summary": "비주얼 스위프트 개발 도구 Play 제작사 Rabbit 3 Times 인수.",
+      "source": "AppleInsider",
+      "url": "https://appleinsider.com/articles/26/06/29/apple-design-award-winner-acquired-by-apple-for-new-swift-tools?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "애플이 비주얼 스위프트 툴 Play와 제작사를 인수했다.",
+        "what": "애플이 애플 디자인 어워드를 준 지 몇 달 만에 비주얼 스위프트 개발 도구 Play 제작사 Rabbit 3 Times를 인수했다. 자산 인수와 인력 채용 옵션 형태로 알려졌으며, 이후 Play는 아이폰·맥용을 중단하고 Xcode 내보내기를 무료화한 뒤 웹사이트를 닫았다.",
+        "points": [
+          "Play 제작사 인수",
+          "자산·인력 옵션 형태",
+          "Play 제품 단계적 종료"
+        ],
+        "why": [
+          "애플의 스위프트 개발 도구 강화"
+        ]
+      }
+    },
+    {
+      "id": "dsn-figma-to-code-map",
+      "title": "피그마→코드 AI 혼돈의 명확한 지도",
+      "summary": "MCP·마크다운·스킬·매핑 4계층 스택으로 디자인-코드 이해.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/GelAY6",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "디자인-코드 AI 워크플로를 4계층 스택으로 정리한다.",
+        "what": "AI 디자인-코드 워크플로는 MCP(도구 연결)·마크다운(규칙·컨텍스트)·스킬(반복 작업 자동화)·매핑(Code Connect로 컴포넌트 연결)의 4계층으로 이해할 수 있다. 대부분 디자이너·소규모 팀은 깨끗한 피그마 파일·MCP·간단한 마크다운이면 충분하고, 성숙한 디자인 시스템만 전체 스택의 이점을 본다.",
+        "points": [
+          "MCP·마크다운·스킬·매핑 4계층",
+          "소규모는 상위 3요소면 충분",
+          "전체 스택은 성숙 시스템용"
+        ],
+        "why": [
+          "AI 디자인-코드 워크플로 이해"
+        ]
+      }
+    },
+    {
+      "id": "dsn-interface-tone",
+      "title": "당신의 인터페이스에는 톤이 있다",
+      "summary": "비난하지 않는 포용적 UX 라이팅이 인지 부담을 줄인다.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/SkGS2q",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "포용적 UX 라이팅이 사용자를 판단하지 않고 안내한다.",
+        "what": "많은 제품이 혼란스러운 인터페이스에 인내심으로 적응하는 '이상적 사용자'를 전제해, 문제가 생기면 사용자가 나쁜 디자인 대신 자신을 탓하게 만든다. 명확하고 지지적이며 비판적이지 않은 포용적 UX 라이팅은 특히 장애·불안·언어 장벽이 있는 사람의 인지 부담을 줄인다.",
+        "points": [
+          "'이상적 사용자' 전제의 함정",
+          "포용적 라이팅이 부담 감소",
+          "커브컷 효과로 모두 이득"
+        ],
+        "why": [
+          "UX 카피의 접근성·감정 설계"
+        ]
+      }
+    },
+    {
+      "id": "dsn-rethinking-figma",
+      "title": "AI 시대에 피그마 다시 생각하기",
+      "summary": "코드 레이어·모션·셰이더로 캔버스 확장, 좌석 모델은 압박.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/1m1BvI",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "피그마가 AI 코드 네이티브 흐름 속에서 위치를 재정의한다.",
+        "what": "Config 2026에서 피그마는 코드 레이어·모션·셰이더 도구로 캔버스를 확장해 AI가 코드 네이티브·에이전트형 제품 개발로 워크플로를 옮기는 가운데 관련성을 지키려 한다. 이는 좌석 기반 사업모델을 압박한다.",
+        "points": [
+          "코드 레이어·모션·셰이더 추가",
+          "좌석 기반 모델 압박",
+          "핸드오프 생략 흐름"
+        ],
+        "why": [
+          "디자인 툴의 AI 시대 생존 문제"
+        ]
+      }
+    },
+    {
+      "id": "dsn-reference-board",
+      "title": "Reference Board (도구)",
+      "summary": "아이폰·아이패드·맥용 비공개 무드보드 앱.",
+      "source": "referenceboard.app",
+      "url": "https://www.referenceboard.app/?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "Reference는 크리에이티브 레퍼런스를 모으는 무드보드 앱이다.",
+        "what": "Reference는 아이폰·아이패드·맥용 비공개 무드보드 앱으로, 영감 저장·무드보드 정리·유사 이미지 검색·레퍼런스 동기화를 지원한다.",
+        "points": [
+          "비공개 무드보드",
+          "유사 이미지 검색",
+          "멀티 기기 동기화"
+        ],
+        "why": [
+          "디자이너 레퍼런스 관리 도구"
+        ]
+      }
+    },
+    {
+      "id": "dsn-design-md",
+      "title": "design.md: AI 코딩 에이전트용 디자인 컬렉션",
+      "summary": "인기 웹사이트 디자인 시스템 분석을 코딩 에이전트에 투입.",
+      "source": "getdesign.md",
+      "url": "https://getdesign.md/?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "design.md가 디자인 시스템 분석을 코딩 에이전트에 제공한다.",
+        "what": "인기 웹사이트의 독립 디자인 시스템 분석을 둘러보고, 하나를 프로젝트에 넣어 코딩 에이전트의 디자인 레퍼런스로 쓸 수 있다.",
+        "points": [
+          "웹사이트 디자인 시스템 분석",
+          "프로젝트에 투입",
+          "코딩 에이전트 레퍼런스"
+        ],
+        "why": [
+          "디자인-코드 에이전트 연동"
+        ]
+      }
+    },
+    {
+      "id": "dsn-states-typeface",
+      "title": "1889년 '깨진 T'에서 영감 받은 서체 States",
+      "summary": "19세기 미국 산세리프의 불완전함을 담은 가변 서체.",
+      "source": "The Brand Identity",
+      "url": "https://the-brandidentity.com/typeface/why-a-bitten-t-from-1889-was-the-inspiration-for-fatypes-states?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "States는 옛 금속 활자의 불규칙함을 살린 가변 서체다.",
+        "what": "19세기 후반 미국 산세리프의 개성 있는 불완전함에서 영감을 받아 Anton이 설계한 States는 가변 Pressure 축으로 날카로움과 부드러움을 조절한다. States Grotesque·Rounded를 포함하며 빈티지 인쇄에서 영감 받은 대체 글자도 다수다.",
+        "points": [
+          "옛 금속 활자의 불규칙성 반영",
+          "가변 Pressure 축",
+          "Grotesque·Rounded 포함"
+        ],
+        "why": [
+          "타이포그래피 신작 소개"
+        ]
+      }
+    },
+    {
+      "id": "dsn-sheffield-logo",
+      "title": "세계 최고(最古) 축구클럽 로고 현대화에 팬 분노",
+      "summary": "셰필드 FC가 방패 대신 원형 로고로 교체하자 반발.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/logos-icons/the-worlds-oldest-football-club-just-modernised-its-logo-and-fans-are-furious?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "셰필드 FC의 원형 로고 교체에 팬들이 반발한다.",
+        "what": "세계에서 가장 오래된 축구클럽 셰필드 FC가 2026–27 시즌을 앞두고 방패·인물 등 전통 요소를 단순한 원형 로고로 교체했다. 클럽은 새 장이라 하지만 많은 팬이 밋밋하고 169년 정체성과 단절됐다고 비판한다.",
+        "points": [
+          "방패→원형 로고 교체",
+          "디지털 활용성 명분",
+          "팬들 '정체성 단절' 비판"
+        ],
+        "why": [
+          "브랜드 현대화와 유산의 긴장"
+        ]
+      }
+    },
+    {
+      "id": "dsn-ai-design-intentional",
+      "title": "AI가 디자인을 빠르게 했지만, 덜 의도적으로 만들었나",
+      "summary": "매끄러운 산출물이 엣지케이스·시스템 일관성을 가린다.",
+      "source": "LogRocket",
+      "url": "https://blog.logrocket.com/ux-design/maintaining-intentionality-in-ai-assisted-design/?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI가 디자인을 빠르게 했지만 판단의 중요성은 커졌다.",
+        "what": "AI가 디자인 생산을 가속했지만 매끄러운 산출물이 놓친 엣지케이스·기술 제약·시스템 일관성을 가린다. 생성이 쉬워질수록 '옳은 문제를 푸는가'를 평가하는 일이 더 어렵고 가치 있어진다.",
+        "points": [
+          "매끄러움이 결함 은폐",
+          "평가가 더 중요해짐",
+          "AI는 협업자로 활용"
+        ],
+        "why": [
+          "AI 디자인의 품질·의도성 논의"
+        ]
+      }
+    },
+    {
+      "id": "dsn-dune-macbook",
+      "title": "작은 맥북 액세서리로 회의·생산성 단축키 추가",
+      "summary": "Dune은 3개 AI·앱 인지 프로그래머블 버튼을 더하는 USB-C 액세서리.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/cool-tech/this-tiny-macbook-accessory-adds-customizable-shortcuts-for-meetings-and-productivity/?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "Dune이 맥북에 AI·앱 인지 프로그래머블 버튼 3개를 더한다.",
+        "what": "Dune은 맥북용 USB-C 액세서리로, 앱을 인지하는 AI 기반 프로그래머블 버튼 3개를 추가해 단축키를 단순화하고 반복 작업을 자동화한다.",
+        "points": [
+          "USB-C 액세서리",
+          "AI·앱 인지 버튼 3개",
+          "단축키·자동화"
+        ],
+        "why": [
+          "생산성 하드웨어 실험"
+        ]
+      }
+    },
+    {
+      "id": "dsn-liquid-glass-again",
+      "title": "애플 리퀴드 글래스, 또 문제",
+      "summary": "iOS 27 퍼블릭 베타서 새 시각 결함 지적.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/apples-liquid-glass-is-having-problems-again?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "애플 리퀴드 글래스가 iOS 27 베타서 다시 비판받는다.",
+        "what": "애플의 리퀴드 글래스 디자인이 계속 비판을 받으며, iOS 27 퍼블릭 베타에서 일부 사용자가 무시하기 힘든 새 시각 결함을 지적한다.",
+        "points": [
+          "iOS 27 베타서 결함 지적",
+          "리퀴드 글래스 지속 비판",
+          "사용자 반응 부정적"
+        ],
+        "why": [
+          "애플 디자인 언어 논쟁"
+        ]
+      }
+    },
+    {
+      "id": "dsn-indian-illustrator",
+      "title": "스토리북 같은 빛과 감정의 인도 일러스트레이터",
+      "summary": "고아 기반 알프레드 페르난데스의 서사 중심 아트.",
+      "source": "Design You Trust",
+      "url": "https://designyoutrust.com/2026/07/a-contemporary-indian-illustrator-creating-images-filled-with-storybook-light-structure-and-emotion/?utm_source=tldrdesign",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "고아 기반 일러스트레이터의 서사적 아트를 소개한다.",
+        "what": "알프레드 페르난데스는 고아 기반 일러스트레이터·컨셉 아티스트로, 비주얼 디벨롭먼트·환경 디자인·서사 중심 아트를 결합한 스토리북 같은 이미지로 알려져 있다.",
+        "points": [
+          "고아 기반 아티스트",
+          "환경·서사 중심 아트",
+          "스토리북풍 빛·구조"
+        ],
+        "why": [
+          "창작 영감 소개"
+        ]
+      }
+    }
+  ]
+}

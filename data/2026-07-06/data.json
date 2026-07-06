@@ -1,0 +1,289 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-grab-aerospike",
+      "title": "그랩, 카운터 서비스 스토리지 무중단 마이그레이션",
+      "summary": "와이드컬럼에서 에어로스파이크로 이전해 지연·비용 50% 개선.",
+      "source": "Grab Engineering",
+      "url": "https://engineering.grab.com/counter-service-storage-migration?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "그랩이 무중단으로 스토리지를 옮겨 지연·비용을 절반 낮췄다.",
+        "what": "그랩은 고QPS 사기탐지 카운터 서비스를 와이드컬럼 DB에서 에어로스파이크 NoSQL로 무중단 이전했다. 스토리지 파사드·섀도 읽기쓰기·결정적 트래픽 분할·설정 기반 롤백을 사용하고, 버킷당 행을 카운터별 정렬 맵으로 대체해 카디널리티와 디스크 사용을 줄였다. p99 읽기 지연과 노드당 비용이 약 50% 개선됐다.",
+        "points": [
+          "무중단 마이그레이션",
+          "섀도 읽기쓰기·롤백 활용",
+          "지연·비용 약 50% 개선"
+        ],
+        "why": [
+          "대규모 무중단 DB 이전 실전 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-t0-alpha",
+      "title": "시계열 LLM, t0-alpha로 설명",
+      "summary": "102M 파라미터 확률적 시계열 예측기가 고전 베이스라인 대부분 압도.",
+      "source": "Towards Data Science",
+      "url": "https://towardsdatascience.com/time-series-llms-explained-with-t0-alpha/?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "t0-alpha가 제로샷 시계열 예측에서 고전 기법을 앞선다.",
+        "what": "t0-alpha는 32스텝 창을 패치하고 인과 트랜스포머로 분위수를 예측하는 102M 파라미터 오픈웨이트 확률적 시계열 예측기다. 97개 태스크 설정 중 1개(Seasonal Naive)에만 졌다. 다만 실전 가치는 보정된 확률 출력·누출 통제·강한 튜닝 베이스라인·라우팅에서 나온다.",
+        "points": [
+          "102M 오픈웨이트 예측기",
+          "97개 중 96개서 우위",
+          "제로샷 예측 성숙"
+        ],
+        "why": [
+          "기초 시계열 모델의 실전 가능성"
+        ]
+      }
+    },
+    {
+      "id": "data-meta-storage-blueprint",
+      "title": "메타의 대규모 AI 스토리지 청사진",
+      "summary": "다계층 스토리지·지능형 배치·캐싱·이레이저 코딩 설계 공개.",
+      "source": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/07/01/data-infrastructure/metas-ai-storage-blueprint-at-scale/?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "메타가 초대규모 AI 스토리지 아키텍처와 교훈을 공개했다.",
+        "what": "메타는 초대규모 AI 스토리지 인프라 운영의 내부 아키텍처와 교훈인 'AI 스토리지 청사진'을 공유했다. 다계층 스토리지 계층, 지능형 데이터 배치·복제, 정교한 캐싱, 효율·내구성용 이레이저 코딩, 고성능 네트워킹 최적화가 핵심이다.",
+        "points": [
+          "다계층 스토리지 계층",
+          "지능형 배치·복제",
+          "이레이저 코딩·캐싱"
+        ],
+        "why": [
+          "대규모 AI 인프라 설계 참고"
+        ]
+      }
+    },
+    {
+      "id": "data-better-models-worse-tools",
+      "title": "더 나은 모델, 더 나쁜 도구",
+      "summary": "최신 앤트로픽 모델이 엄격한 스키마에 잉여 필드를 추가해 실패.",
+      "source": "lucumr.pocoo.org",
+      "url": "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "최신 모델이 클로드 코드의 관대한 포맷에 과적합돼 스키마를 어긴다.",
+        "what": "최신 앤트로픽 모델은 작업은 맞게 풀면서도 잉여 필드를 넣어 엄격한 도구 스키마에서 실패하는데, 이는 클로드 코드의 관대한 도구 포맷에 과적합된 탓으로 보인다. 에이전트 하네스는 더 엄격한 스키마 검증이나 제약된 도구 호출이 필요하다.",
+        "points": [
+          "작업 성공, 스키마 실패",
+          "관대한 포맷 과적합 추정",
+          "엄격 검증 필요"
+        ],
+        "why": [
+          "커스텀 하네스 신뢰성 설계"
+        ]
+      }
+    },
+    {
+      "id": "data-context-engineering",
+      "title": "컨텍스트 엔지니어링 플레이북",
+      "summary": "깨끗한 데이터 모델·문서가 에이전트 정확도를 40%→90%로.",
+      "source": "getdbt roundup",
+      "url": "https://roundup.getdbt.com/p/the-context-engineering-playbook?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "컨텍스트 엔지니어링이 차세대 애널리틱스 엔지니어링이다.",
+        "what": "회사 지식을 구조화해 에이전트가 자연어 질문에 안정적으로 답하게 하는 것이 핵심이다. 가장 큰 신뢰성 개선은 깨끗한 데이터 모델과 문서에서 나와 한 에이전트를 40%에서 90% 정확도로 끌어올렸고, 쿼리 로그·프로파일링은 효과가 제한적이었다.",
+        "points": [
+          "데이터 모델·문서가 핵심",
+          "정확도 40%→90%",
+          "10~20개 고가치 테이블부터"
+        ],
+        "why": [
+          "에이전트 신뢰성의 데이터 기반"
+        ]
+      }
+    },
+    {
+      "id": "data-vercel-sdr",
+      "title": "버셀, 10인 SDR팀을 1명으로…연 $5,000",
+      "summary": "리드 검증 자동화로 32배 ROI 주장.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/vercel-took-a-10-person-sdr-team-down-to-1-the-whole-thing-costs-5000-a-year-with-vercels-coo-jeanne-dewitt-grosser/?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "버셀이 SDR 기능을 자동화해 32배 ROI를 주장한다.",
+        "what": "버셀은 리드 검증을 10인 SDR에서 약 1.25명으로 자동화하며 32배 ROI를 주장한다. 엔지니어·데이터과학자·도메인 전문가가 모범 워크플로를 문서화하고 섀도 QA를 돌려 결정적 작업에서 사람을 점진 제거한다. 성공은 조합형 API·MCP·웹훅, 깨끗한 시맨틱 계층, 대규모 확장 인프라에 달렸다.",
+        "points": [
+          "SDR 10명→약 1.25명",
+          "32배 ROI 주장",
+          "섀도 QA로 점진 자동화"
+        ],
+        "why": [
+          "GTM 자동화의 실증 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-streamfusion",
+      "title": "StreamFusion: Flink SQL 가속기",
+      "summary": "지원 연산을 네이티브 Rust/Arrow/DataFusion으로 투명 대체.",
+      "source": "GitHub",
+      "url": "https://github.com/datafusion-contrib/StreamFusion?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "StreamFusion이 Flink SQL 연산을 네이티브 실행으로 가속한다.",
+        "what": "StreamFusion은 지원되는 스트리밍 연산자를 JNI 너머 네이티브 Rust/Apache Arrow/DataFusion 실행으로 투명 대체하면서 Flink에 계획·조정·폴백을 남기는 OSS 가속기다. 프로젝션·필터·윈도우 집계·조인·체인지로그·커넥터·스칼라 UDF의 컬럼형 '섬'을 바이트 동일 패리티로 겨냥한다.",
+        "points": [
+          "Flink SQL 투명 가속",
+          "Rust/Arrow/DataFusion 실행",
+          "바이트 동일 패리티"
+        ],
+        "why": [
+          "스트리밍 처리 성능 향상"
+        ]
+      }
+    },
+    {
+      "id": "data-claude-science",
+      "title": "클로드 사이언스, 과학자용 AI 워크벤치 출시",
+      "summary": "문헌검토·가설생성·데이터분석·실험설계·코드작성 지원.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "앤트로픽이 과학 연구를 가속하는 AI 워크벤치를 냈다.",
+        "what": "클로드 사이언스 AI 워크벤치는 과학자·연구자의 발견을 가속하도록 설계된 도구다. 문헌 검토, 가설 생성, 데이터 분석, 실험 설계, 코드 작성을 지원해 AI를 범용 비서가 아닌 진정한 연구 협업 파트너로 만드는 것을 목표로 한다.",
+        "points": [
+          "문헌검토·가설생성 지원",
+          "데이터분석·실험설계",
+          "코드 작성 지원"
+        ],
+        "why": [
+          "과학 연구 AI 도구 확장"
+        ]
+      }
+    },
+    {
+      "id": "data-vector-db-comparison",
+      "title": "최고의 오픈소스 벡터 DB 비교",
+      "summary": "Redis·Weaviate·Qdrant·Milvus·Chroma·LanceDB 벤치마크 비교.",
+      "source": "Redis",
+      "url": "https://redis.io/blog/best-open-source-vector-databases-comparison/?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "주요 오픈소스 벡터 DB를 실측 벤치마크로 비교했다.",
+        "what": "레디스가 선도 오픈소스 벡터 DB들을 실제 벤치마크와 운영 특성으로 비교했다. 레디스는 하이브리드 검색·필터링서 초저지연·고QPS로, Qdrant·Weaviate는 풍부한 메타데이터 필터링·개발자 경험, Milvus는 초대규모에서 강점을 보였다.",
+        "points": [
+          "6개 벡터 DB 실측 비교",
+          "Redis 저지연·고QPS",
+          "Milvus 초대규모 강점"
+        ],
+        "why": [
+          "RAG·벡터검색 스택 선택 참고"
+        ]
+      }
+    },
+    {
+      "id": "data-structured-unstructured-audit",
+      "title": "구조·비구조 데이터를 잇는 컴플라이언스 감사",
+      "summary": "정책 문서와 웨어하우스 데이터를 단일 에이전트 워크플로로 결합.",
+      "source": "GoPenAI",
+      "url": "https://blog.gopenai.com/bridging-the-gap-blending-structured-data-auditing-with-unstructured-policy-intelligence-17710e04c8de?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "정책 문서와 정형 데이터를 결합해 감사를 자동화한다.",
+        "what": "비정형 정책 문서와 정형 웨어하우스·DB 데이터를 단일 에이전트 워크플로로 결합해 컴플라이언스·리스크 감사를 자동화할 수 있다. OWL/FIBO 온톨로지 매핑을 수집하고 규제 PDF를 마크다운으로 파싱, LLM-Wiki와 Text2SQL로 계획·쿼리·분석·자기교정을 신뢰도 80/100까지 반복한다.",
+        "points": [
+          "정책 문서+정형 데이터 결합",
+          "OWL/FIBO·Text2SQL 활용",
+          "신뢰도 80까지 자기교정"
+        ],
+        "why": [
+          "규제 감사 자동화 접근법"
+        ]
+      }
+    },
+    {
+      "id": "data-ai-token-datacenter",
+      "title": "AI 토큰이 데이터센터를 지나가는 여정",
+      "summary": "추론이 AI 컴퓨트의 2/3, 수명 비용의 80~90% 차지.",
+      "source": "Data Gravity",
+      "url": "https://www.datagravity.dev/p/how-an-ai-token-travels-through-a?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "추론이 AI 비용의 최대 90%를 차지하는 지배적 비용원이 됐다.",
+        "what": "추론은 이제 AI 컴퓨트의 약 2/3, 모델 수명 비용의 80~90%를 소비한다. 경제성은 목표 지연에서의 토큰당 비용에 달려 있고, 프리필은 컴퓨트 바운드·디코드는 메모리 대역폭 바운드다. KV 캐시 관리·배칭·양자화·스펙큘러티브 디코딩이 핵심 지렛대다.",
+        "points": [
+          "추론이 컴퓨트 2/3 차지",
+          "수명 비용의 80~90%",
+          "KV 캐시·배칭이 핵심 지렛대"
+        ],
+        "why": [
+          "AI 인프라 경제성 이해"
+        ]
+      }
+    },
+    {
+      "id": "data-variance-reduction",
+      "title": "랜덤화 단위 아래의 분산 감소",
+      "summary": "인스타카트가 CUPED·계층화로 A/B 실험 분산을 줄인다.",
+      "source": "Instacart Tech",
+      "url": "https://tech.instacart.com/variance-reduction-below-the-randomization-grain-31719f87a7d2?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "인스타카트가 랜덤화 단위보다 세밀한 분산 감소를 탐구한다.",
+        "what": "인스타카트는 집계가 아닌 개별 사용자·세션 수준에서 작동하는 고급 분산 감소 기법을 탐구한다. CUPED·계층화 등 통계 기법으로 실험 분산을 크게 줄여 더 정밀한 측정과 작은 효과 탐지를 가능케 한다.",
+        "points": [
+          "개별 사용자·세션 수준 적용",
+          "CUPED·계층화 활용",
+          "작은 효과 탐지 가능"
+        ],
+        "why": [
+          "실험 정밀도 향상 기법"
+        ]
+      }
+    },
+    {
+      "id": "data-gitbiased",
+      "title": "GitBiased (도구)",
+      "summary": "깃허브 활동·DORA 지표를 단일 대시보드로 통합.",
+      "source": "gitbiased.com",
+      "url": "https://gitbiased.com/?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "GitBiased가 깃허브 활동을 하나의 대시보드로 모은다.",
+        "what": "GitBiased는 PR·CI 체크·이슈·DORA 지표·배포·주간 요약을 하나의 공유 뷰로 모은 엔지니어링 팀용 커스터마이즈 대시보드를 제공한다.",
+        "points": [
+          "PR·CI·이슈 통합",
+          "DORA 지표·배포 표시",
+          "주간 요약 제공"
+        ],
+        "why": [
+          "엔지니어링 생산성 가시화"
+        ]
+      }
+    },
+    {
+      "id": "data-norwegian-mcp",
+      "title": "노르웨이 공공데이터 MCP 서버",
+      "summary": "키 없이 쓰는 23개 MCP 서버로 노르웨이 공공데이터 래핑.",
+      "source": "allemannsdata.com",
+      "url": "https://allemannsdata.com/?utm_source=tldrdata",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "노르웨이 공공데이터를 키 없이 쓰는 23개 MCP 서버.",
+        "what": "알레만스다타는 노르웨이 공개 공공데이터를 래핑한 키 불필요 MCP 서버 23개를 제공하며, 교통·날씨·에너지·법·통계·등기·보건·자연 등을 포괄한다.",
+        "points": [
+          "키 불필요 MCP 23개",
+          "공공데이터 광범위 포괄",
+          "교통·날씨·법 등"
+        ],
+        "why": [
+          "공공데이터 에이전트 연동 사례"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-chrome-extension-rules",
+      "title": "구글, 크롬 확장 프로그램 새 규칙 도입",
+      "summary": "데이터 수집 제한·명시 의무화, AI 보안 우회·예측시장 베팅 금지.",
+      "source": "Chrome Developers",
+      "url": "https://developer.chrome.com/blog/cws-policy-updates-2026?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "구글이 크롬 확장의 데이터 수집을 제한하는 새 규칙을 냈다.",
+        "what": "구글은 개발자가 데이터 수집을 제한하고 수집 정보를 명확히 공개하도록 요구하는 크롬 확장 규칙을 발표했다. AI 보안 안전장치를 우회하거나 예측시장 베팅에 쓰이는 확장도 금지한다.",
+        "points": [
+          "데이터 수집 제한·명시 의무",
+          "AI 보안 우회 확장 금지",
+          "예측시장 베팅 확장 금지"
+        ],
+        "why": [
+          "브라우저 확장 프라이버시 강화"
+        ]
+      }
+    },
+    {
+      "id": "it-meta-ai-cloud",
+      "title": "메타, 잉여 AI 컴퓨트를 현금화 모색",
+      "summary": "AI 컴퓨트·모델 판매 클라우드 사업 검토.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "메타가 AI 컴퓨트·모델을 파는 클라우드 사업을 검토한다.",
+        "what": "메타는 AI 컴퓨트와 모델 접근을 판매하는 클라우드 인프라 사업을 검토 중이다. 이는 메타를 AWS·애저·구글 클라우드·코어위브 같은 AI 인프라 사업자에 근접시킬 수 있다.",
+        "points": [
+          "AI 컴퓨트·모델 판매 검토",
+          "클라우드 사업 진출 가능성",
+          "AWS·애저와 경쟁 구도"
+        ],
+        "why": [
+          "AI 인프라의 수익화 흐름"
+        ]
+      }
+    },
+    {
+      "id": "it-privatization-vuln-mgmt",
+      "title": "취약점 관리의 사유화",
+      "summary": "프런티어 역량·데이터가 대기업·벤더 고객에 집중된다.",
+      "source": "Latio Pulse",
+      "url": "https://pulse.latio.tech/p/the-privatization-of-vulnerability?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 취약점 관리 역량이 대기업·벤더 고객에 사유화된다.",
+        "what": "AI 기반 취약점 분석이 새 도구·워크플로를 만들지만 업계 홍보는 과장이 많고 AI SAST 자체는 저평가돼 있다. 취약점 관리가 '사유화'되며 프런티어 모델 역량·취약점 데이터 보강·완화 프로세스가 점점 대기업·벤더 고객에 한정된다.",
+        "points": [
+          "AI SAST는 저평가·홍보는 과장",
+          "취약점 관리 사유화 진행",
+          "역량이 대기업에 집중"
+        ],
+        "why": [
+          "보안 역량 격차 확대 우려"
+        ]
+      }
+    },
+    {
+      "id": "it-beyond-benchmark",
+      "title": "벤치마크를 넘어: AI 속도의 보안",
+      "summary": "MS의 MDASH 에이전트 스캐닝이 실제 보안 워크플로로 진입.",
+      "source": "Microsoft Security",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "MS의 MDASH가 벤치마크를 넘어 실제 보안 프로세스가 됐다.",
+        "what": "마이크로소프트는 MDASH 에이전트 스캐닝 시스템이 벤치마크 결과에서 윈도우·애저·신원 시스템 전반의 실제 보안 워크플로로 이동하는 과정을 설명한다. AI 지원 취약점 발견이 프로덕션 보안 프로세스가 되는 사례다.",
+        "points": [
+          "MDASH 에이전트 스캐닝",
+          "윈도우·애저·신원 적용",
+          "프로덕션 보안 진입"
+        ],
+        "why": [
+          "AI 취약점 발견의 실전화"
+        ]
+      }
+    },
+    {
+      "id": "it-gemini-inbox-workspace",
+      "title": "구글, 워크스페이스 분류용 제미나이 인박스 시험",
+      "summary": "팔로업·완료·검토 3필터로 인박스 제로 워크플로 지원.",
+      "source": "testingcatalog",
+      "url": "https://www.testingcatalog.com/google-tests-new-gemini-inbox-section-for-workspace-triage/?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "제미나이 앱에 워크스페이스 업무 분류 인박스가 시험된다.",
+        "what": "구글이 비즈니스·워크스페이스 고객용 '제미나이 인박스' 섹션을 시험 중이다. 팔로업 필요·완료 표시·검토 준비 세 필터를 더해 지메일 등 연결 소스와 연동한 인박스 제로형 워크플로를 지원한다.",
+        "points": [
+          "제미나이 인박스 섹션",
+          "3개 분류 필터",
+          "지메일 등 연동"
+        ],
+        "why": [
+          "업무 자동 분류 확산"
+        ]
+      }
+    },
+    {
+      "id": "it-hcp-terraform-infragraph",
+      "title": "HCP 테라폼 인프라그래프 제한 출시",
+      "summary": "인프라 관계·소유·상태 시각화를 위한 그래프 탐색 확장.",
+      "source": "HashiCorp",
+      "url": "https://www.hashicorp.com/en/blog/hcp-terraform-powered-by-infragraph-limited-availability-launch?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "해시코프가 인프라그래프 기반 HCP 테라폼을 제한 출시했다.",
+        "what": "해시코프는 미국 인스턴스의 HCP 테라폼 스탠더드·프리미엄 고객 대상으로 '인프라그래프 기반 HCP 테라폼'을 제한 출시했다. 애저·깃허브·테라폼 엔터프라이즈 커넥터 생태계를 넓히고 그래프 탐색·쿼리 빌더를 개선해 인프라 관계·소유·상태를 시각화한다.",
+        "points": [
+          "인프라그래프 제한 출시",
+          "커넥터 생태계 확장",
+          "관계·소유·상태 시각화"
+        ],
+        "why": [
+          "인프라 가시성·거버넌스 강화"
+        ]
+      }
+    },
+    {
+      "id": "it-thundersnap",
+      "title": "thundersnap 0.01: 모든 것의 되돌리기 버튼",
+      "summary": "컨테이너 스냅샷을 복제·포크·공유하는 오픈소스 도구.",
+      "source": "apenwarr.ca",
+      "url": "https://apenwarr.ca/log/20260704?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "thundersnap이 컨테이너 스냅샷의 '되돌리기 버튼'을 지향한다.",
+        "what": "thundersnap 0.01은 클라우드·개인 기기 전반에서 컨테이너 스냅샷을 빠르게 복제·포크·공유·실행하는 오픈소스 도구다. Tailscale로 기기 메시를 만들어 제공자 간 이동과 지속 리소스를 쉽게 해 컨테이너형 워크플로의 '되돌리기 버튼'을 표방한다.",
+        "points": [
+          "스냅샷 복제·포크·공유",
+          "Tailscale 기반 메시",
+          "제공자 간 이동 용이"
+        ],
+        "why": [
+          "컨테이너 워크플로 이동성 향상"
+        ]
+      }
+    },
+    {
+      "id": "it-confidential-computing",
+      "title": "검증 가능한 프라이빗 AI: 구글 클라우드 컨피덴셜 컴퓨팅 확장",
+      "summary": "프라이버시 보존 추론·파인튜닝으로 로드맵 확대.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/identity-security/verifiable-trust-in-the-ai-era-whats-new-in-confidential-computing?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "구글 클라우드가 AI용 컨피덴셜 컴퓨팅을 확장했다.",
+        "what": "구글 클라우드가 AI 워크로드용 컨피덴셜 컴퓨팅 로드맵을 넓혀 프라이버시 보존 추론·파인튜닝에 집중했다. 기업이 하드웨어 기반 격리를 포기하지 않고 민감 데이터를 AI에 쓰려는 흐름에서 중요하다.",
+        "points": [
+          "프라이버시 보존 추론",
+          "파인튜닝 지원",
+          "하드웨어 기반 격리"
+        ],
+        "why": [
+          "민감 데이터 AI 활용 수요"
+        ]
+      }
+    },
+    {
+      "id": "it-gemini-code-assist-shutdown",
+      "title": "제미나이 코드 어시스트, 7월 17일 종료",
+      "summary": "깃허브 소비자용 종료, 엔터프라이즈(프리뷰)는 유지.",
+      "source": "Google Developers",
+      "url": "https://developers.google.com/gemini-code-assist/docs/deprecations/consumer-code-review?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "제미나이 코드 어시스트 소비자용이 7월 17일 종료된다.",
+        "what": "깃허브의 제미나이 코드 어시스트 소비자 버전이 7월 17일 종료되며, 엔터프라이즈 버전(프리뷰)은 유지된다.",
+        "points": [
+          "소비자용 7월 17일 종료",
+          "엔터프라이즈 프리뷰 유지",
+          "깃허브 통합 대상"
+        ],
+        "why": [
+          "개발 도구 서비스 종료 주의"
+        ]
+      }
+    },
+    {
+      "id": "it-bedrock-knowledge-base",
+      "title": "아마존 베드록 매니지드 지식베이스",
+      "summary": "엔터프라이즈 AI용 관리형 RAG 지식베이스 출시.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-bedrock-managed-knowledge-base-for-faster-more-accurate-enterprise-ai-applications/?utm_source=tldrit",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AWS가 관리형 RAG 지식베이스를 출시했다.",
+        "what": "AWS가 커넥터·파싱·검색 기능을 갖춘 엔터프라이즈 AI 앱용 관리형 RAG 지식베이스를 출시했다.",
+        "points": [
+          "관리형 RAG 지식베이스",
+          "커넥터·파싱·검색 제공",
+          "엔터프라이즈 대상"
+        ],
+        "why": [
+          "기업 RAG 구축 간소화"
+        ]
+      }
+    }
+  ]
+}

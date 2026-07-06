@@ -1,0 +1,304 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "sec-jadepuffer-ransomware",
+      "title": "제이드퍼퍼: AI 에이전트가 공격 전 과정 자동화한 첫 랜섬웨어",
+      "summary": "CVE-2025-3248을 악용해 사람 개입 없이 랜섬웨어 공격을 완주.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/EtnIFd",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "LLM 에이전트가 사람 없이 랜섬웨어 공격 전 과정을 수행했다.",
+        "what": "제이드퍼퍼는 Langflow의 CVE-2025-3248을 악용해 정찰·자격증명 탈취·측면이동을 사람 개입 없이 자동 수행한 첫 랜섬웨어다. 인터넷 노출 MySQL/Nacos 서버로 이동해 1,342개 Nacos 설정 항목을 암호화하고 비트코인을 요구했으며, 피해자는 복구에 실패했다.",
+        "points": [
+          "Langflow CVE-2025-3248 악용",
+          "정찰→탈취→측면이동 전 과정 자동",
+          "Nacos 설정 1,342건 암호화"
+        ],
+        "why": [
+          "AI 단독 공격 시대의 실증 사례",
+          "노출된 AI 개발도구가 공격 표면화"
+        ],
+        "action": "Langflow·Nacos 노출 점검과 패치 적용."
+      }
+    },
+    {
+      "id": "sec-medtronic-breach",
+      "title": "메드트로닉 데이터 유출, 380만 명 영향",
+      "summary": "샤이니헌터스가 4월 침해로 환자 정보 탈취, 384만 명 피해.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/mkT74O",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "메드트로닉 IT 침해로 약 384만 명의 환자 정보가 유출됐다.",
+        "what": "샤이니헌터스가 4월 메드트로닉 사내 IT에 접근해 이름·연락처·생년월일·주민번호·건강정보를 탈취했다. 회사는 384만4,294명이 영향받았다고 밝혔고 온라인 유포 증거는 없다며 24개월 크레딧·다크웹 모니터링을 제공한다.",
+        "points": [
+          "샤이니헌터스 4월 침해",
+          "384만 명 개인·건강정보 유출",
+          "24개월 모니터링 제공"
+        ],
+        "why": [
+          "의료기관 대상 대형 유출 지속",
+          "민감 개인정보 노출 위험"
+        ],
+        "action": "영향자 신원도용 모니터링 등록 권고."
+      }
+    },
+    {
+      "id": "sec-pamstealer-macos",
+      "title": "팸스틸러: 이례적 정교함의 macOS 악성코드",
+      "summary": "Maccy 위장 DMG로 AppleScript·Rust 페이로드 실행, PAM으로 자격증명 탈취.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/07/new-pamstealer-macos-malware-uses-clever-tradecraft-to-remain-stealthy/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "macOS용 팸스틸러가 PAM을 악용해 은밀히 자격증명을 훔친다.",
+        "what": "클립보드 매니저 Maccy를 위장한 DMG가 AppleScript로 JXA 다운로더와 Rust 페이로드를 실행한다. 격리 플래그를 우회하고 Finder·소프트웨어 업데이트를 흉내 낸 번들에 숨어 실제 같은 비밀번호 프롬프트로 PAM을 통해 자격증명을 캡처하며 이더리움 지갑도 노린다.",
+        "points": [
+          "Maccy 위장 DMG로 유포",
+          "격리 우회·앱 번들 은닉",
+          "PAM 프롬프트로 자격증명 탈취"
+        ],
+        "why": [
+          "macOS 스틸러 정교화 추세",
+          "암호화폐 지갑까지 표적"
+        ],
+        "action": "비공식 출처 클립보드 앱 설치 주의."
+      }
+    },
+    {
+      "id": "sec-claude-mythos-saas",
+      "title": "클로드 미토스와 SaaS 보안",
+      "summary": "글래스윙 프로젝트로 1만 건 이상 고위험 취약점 발견, 일반 공개 제한.",
+      "source": "Reco",
+      "url": "https://www.reco.ai/blog/claude-mythos-saas-security-risks?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI가 발견과 악용 사이 간격을 몇 주에서 몇 분으로 압축했다.",
+        "what": "앤트로픽과 약 150개 파트너가 글래스윙 프로젝트에서 클로드 미토스로 1만 건 이상의 고·심각 취약점을 찾아내자, 앤트로픽은 일반 공개를 검증된 파트너 프로그램으로 제한했다. AI 취약점 체이닝이 발견-악용 간격을 몇 분으로 줄여 SaaS 설정 오류·과도 권한·비인간 신원을 가속화된 공격 표면으로 만든다.",
+        "points": [
+          "1만+ 고위험 취약점 발견",
+          "일반 공개→검증 파트너로 제한",
+          "발견-악용 간격 급감"
+        ],
+        "why": [
+          "방어자도 자동화가 필수",
+          "고아 계정·과도 권한이 최대 리스크"
+        ],
+        "action": "미사용 계정·과도 토큰 정리 우선."
+      }
+    },
+    {
+      "id": "sec-sentinel-blind-spot",
+      "title": "감시탑의 사각: 센티넬을 노린 공격 탐지",
+      "summary": "공격자가 SIEM 규칙·커넥터를 조작해 가시성을 무력화.",
+      "source": "detect.fyi",
+      "url": "https://detect.fyi/the-blind-spot-in-the-watchtower-detections-for-when-someone-attacks-your-sentinel-897709f0dcd9?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "공격자가 마이크로소프트 센티넬 자체를 조작해 몸을 숨긴다.",
+        "what": "공격자는 탐지 규칙 변경, 데이터 커넥터 비활성화, 로그 보존 수정으로 SIEM 가시성을 방해할 수 있다. 방어자는 AzureActivity·SentinelAudit·SentinelHealth 로그를 KQL로 감시해 무단 변경을 탐지하고 이상 관리 작업에 경보를 걸어야 한다.",
+        "points": [
+          "규칙·커넥터·보존 조작으로 은닉",
+          "SIEM 인프라 자체가 은신처",
+          "KQL로 무단 변경 탐지"
+        ],
+        "why": [
+          "SIEM 신뢰성 확보가 방어 전제"
+        ],
+        "action": "센티넬 감사 로그 상시 모니터링 구축."
+      }
+    },
+    {
+      "id": "sec-asif-format",
+      "title": "애플 스파스 이미지 포맷(ASIF) 분석",
+      "summary": "macOS Tahoe용 가상 디스크 포맷을 리버스 엔지니어링.",
+      "source": "schamper.dev",
+      "url": "https://schamper.dev/dissecting-apples-sparse-image-format-asif/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "macOS의 새 가상 디스크 포맷 ASIF를 파서로 해부한다.",
+        "what": "ASIF는 VM용 스파스 가상 디스크 포맷으로 VMDK·VHDX·QCOW2와 개념은 비슷하나 자체 레이아웃을 갖는다. 연구자는 테스트 이미지 생성, 헥스덤프 검사, DiskImages2 바이너리 리버싱으로 헤더·오프셋·청크 메타데이터를 복원한다.",
+        "points": [
+          "macOS Tahoe VM용 스파스 포맷",
+          "64비트 디렉터리 테이블 구조",
+          "dissect.hypervisor에 구현"
+        ],
+        "why": [
+          "macOS 포렌식·VM 분석에 유용"
+        ]
+      }
+    },
+    {
+      "id": "sec-falcon-cloud-june",
+      "title": "팰컨 클라우드 시큐리티 6월 업데이트",
+      "summary": "CSPM·DSPM·CIEM를 애저·구글 클라우드로 확장.",
+      "source": "CrowdStrike",
+      "url": "https://www.crowdstrike.com/en-us/blog/new-in-falcon-cloud-security-expanding-multi-cloud-coverage/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "크라우드스트라이크가 멀티클라우드 보안 커버리지를 넓혔다.",
+        "what": "실시간 CSPM, 클라우드 리스크 상관분석, DSPM, CIEM을 AWS에서 애저·구글 클라우드로 확장해 오설정 탐지·침해경로 상관·권한 분석을 단일 워크플로로 통합했다. 윈도우 컨테이너 이미지 스캔도 추가됐다.",
+        "points": [
+          "애저·GCP까지 확장",
+          "오설정·권한 분석 통합",
+          "윈도우 컨테이너 스캔 추가"
+        ],
+        "why": [
+          "멀티클라우드 자산 보유 조직에 가치"
+        ]
+      }
+    },
+    {
+      "id": "sec-copacetic",
+      "title": "Copacetic: 재빌드 없는 컨테이너 이미지 패치",
+      "summary": "buildkit 기반 Go CLI로 이미지를 직접 패치.",
+      "source": "GitHub",
+      "url": "https://github.com/project-copacetic/copacetic?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "copa는 전체 재빌드 없이 컨테이너 이미지를 패치한다.",
+        "what": "Go와 buildkit 기반 CLI 도구로, 컨테이너 이미지를 직접 패치할 수 있다. Trivy 같은 취약점 스캐너 결과를 이용한 패치도 지원한다.",
+        "points": [
+          "재빌드 없이 이미지 패치",
+          "buildkit 기반",
+          "Trivy 스캔 연동 패치"
+        ],
+        "why": [
+          "취약점 대응 속도 향상"
+        ]
+      }
+    },
+    {
+      "id": "sec-whim",
+      "title": "Whim: 임시 Lambda MicroVM 루트 셸",
+      "summary": "휘발성 AWS Lambda MicroVM에서 루트 셸을 띄우는 CLI.",
+      "source": "GitHub",
+      "url": "https://github.com/udgover/whim?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "whim은 임시 AWS Lambda MicroVM에서 루트 셸을 연다.",
+        "what": "whim은 휘발성 AWS Lambda MicroVM 안에서 루트 셸을 실행하는 CLI 도구다.",
+        "points": [
+          "Lambda MicroVM 활용",
+          "루트 셸 실행",
+          "휘발성 실행 환경"
+        ],
+        "why": [
+          "샌드박스·분석 환경 구성에 유용"
+        ]
+      }
+    },
+    {
+      "id": "sec-anthropic-alibaba-distillation",
+      "title": "앤트로픽, 알리바바의 클로드 증류/복제 공격 고발",
+      "summary": "가짜 계정 2.5만 개로 2,880만 회 상호작용해 능력 추출했다고 주장.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/06/anthropic-claims-alibaba-defied-trump-to-attack-claude-and-steal-capabilities/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "앤트로픽이 알리바바의 대규모 클로드 증류 캠페인을 고발했다.",
+        "what": "앤트로픽은 알리바바·Qwen팀이 약 2만5,000개 가짜 계정으로 4월 22일~6월 5일 클로드와 2,880만 회 상호작용하며 프록시·난독화로 에이전트 추론·소프트웨어 공학·장기 작업 능력을 추출했다고 주장한다. 이를 미 상원·백악관에 보고하고 이런 절취가 중국 AI 발전을 크게 가속할 수 있다고 경고했다.",
+        "points": [
+          "가짜 계정 약 2.5만 개",
+          "2,880만 회 상호작용으로 추출",
+          "미 의회·백악관에 보고"
+        ],
+        "why": [
+          "프런티어 모델 IP 보호 논쟁 격화",
+          "미·중 AI 경쟁의 새 국면"
+        ],
+        "context": "알리바바는 사내 클로드 코드 사용도 금지했다.",
+        "action": "기업은 모델 악용·데이터 유출 모니터링 강화."
+      }
+    },
+    {
+      "id": "sec-china-tc260-agent",
+      "title": "중국 TC260, AI 에이전트 배포 보안 표준 발표",
+      "summary": "사전 평가·권한 통제·감사 로깅·안전 삭제를 요구하는 프레임워크.",
+      "source": "Geopolitechs",
+      "url": "https://www.geopolitechs.org/p/chinas-cybersecurity-standard-on?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "중국이 AI 에이전트에 대한 보안 실무 표준을 내놨다.",
+        "what": "TC260 가이드는 배포 전 평가, 수명주기 권한 통제, 감사 로깅, 안전한 데이터 삭제를 요구한다. AI 에이전트를 메모리·도구사용·운영권한을 가진 통합 시스템으로 정의해 핵심 정보 인프라급 감독 대상으로 삼는다.",
+        "points": [
+          "사전 평가·권한 통제 의무화",
+          "감사 로깅·안전 삭제 요구",
+          "에이전트를 고위험 인프라급 규제"
+        ],
+        "why": [
+          "중국의 AI 행동·데이터 통제 의지",
+          "7월 15일 의인화 AI 규정과 맞물림"
+        ]
+      }
+    },
+    {
+      "id": "sec-avalon-crownx",
+      "title": "신종 아발론 악성코드 프레임워크, 크라운X 랜섬웨어 탑재",
+      "summary": "법률 사칭 피싱으로 유포, EDR 회피·자격증명 탈취·암호화 수행.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "아발론은 EDR을 피하며 탈취·암호화를 수행하는 모듈형 프레임워크다.",
+        "what": "법률 사칭 피싱으로 Proton Drive 아카이브·ISO·LNK·MSBuild를 이용해 배포되며 ETW를 무력화하고 주요 EDR을 회피한다. 브라우저·지갑·기업 자격증명·VPN 토큰을 탈취한 뒤 측면이동, 윈도우 Crypto API로 암호화, VSS 삭제 후 크라운X 랜섬노트를 남긴다.",
+        "points": [
+          "법률 사칭 피싱으로 유포",
+          "ETW 무력화·EDR 회피",
+          "크라운X 랜섬웨어 탑재"
+        ],
+        "why": [
+          "에이전트·코드리스 랜섬웨어 확산 정황"
+        ],
+        "action": "피싱 첨부 실행 차단·EDR 무결성 점검."
+      }
+    },
+    {
+      "id": "sec-us-gov-1m-payment",
+      "title": "美 정부기관, 파일 한 개도 안 잠긴 해커에게 100만 달러 지급",
+      "summary": "카이로스에 28일 협상 끝 비트코인 약 100만 달러 지불.",
+      "source": "TNW",
+      "url": "https://thenextweb.com/news/kairos-data-extortion-million-payment?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "암호화 없이 데이터 갈취만으로 100만 달러가 지급됐다.",
+        "what": "미 정부기관(오하이오 유니언 카운티로 추정)이 2025년 28일간 협상 끝에 갈취 조직 카이로스에게 비트코인 약 100만 달러를 지불했다. 파일 암호화 없이 데이터 유출 위협만으로 돈을 받아낸 사례다.",
+        "points": [
+          "28일 협상 후 약 100만 달러",
+          "파일 암호화 없는 순수 갈취",
+          "오하이오 유니언 카운티 추정"
+        ],
+        "why": [
+          "데이터 갈취형 위협의 수익성 입증"
+        ]
+      }
+    },
+    {
+      "id": "sec-google-cloud-11k",
+      "title": "계정 탈취 경고 받고도 $11,000 청구된 개발자",
+      "summary": "탈취된 firebase 서비스 계정 키로 48시간 만에 1만 달러 넘게 과금.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/cyber-crime/2026/07/03/dev-says-google-warned-him-about-account-hijack-then-charged-him-11000-anyway/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "탈취된 파이어베이스 키로 48시간 만에 1만 달러 넘게 과금됐다.",
+        "what": "개발자 찰스 존스는 탈취된 firebase-adminsdk 서비스 계정 키가 악용돼 48시간 동안 주로 제미나이 이미지 생성으로 $11,089.77의 구글 클라우드 요금을 떠안았다. 구글이 계정 탈취를 경고하고도 요금이 청구됐다.",
+        "points": [
+          "firebase 서비스 계정 키 탈취",
+          "48시간에 $11,089 과금",
+          "주로 제미나이 이미지 생성"
+        ],
+        "why": [
+          "클라우드 키 유출의 금전 리스크"
+        ],
+        "action": "서비스 계정 키 순환·권한 최소화."
+      }
+    }
+  ]
+}

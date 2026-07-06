@@ -1,0 +1,297 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-seedance-25",
+      "title": "바이트댄스, 3분 길이 AI 영상 내는 시드댄스 2.5 출시 임박",
+      "summary": "드리미나 시드댄스 2.5가 7월 9일 공개될 것으로 알려졌다.",
+      "source": "testingcatalog",
+      "url": "https://www.testingcatalog.com/bytedance-set-to-launch-seedance-2-5-with-3-minute-ai-video-output/?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "바이트댄스가 최대 180초 영상 생성 모델을 곧 내놓는다.",
+        "what": "바이트댄스는 드리미나 시드댄스 2.5를 7월 9일 드리미나·캡컷 등 파트너 플랫폼에 출시할 것으로 전해진다. 최대 180초 길이 영상을 만들 수 있지만 캐릭터 일관성·모션·카메라 논리·프롬프트 의도를 안정적으로 유지할지는 불확실하다.",
+        "points": [
+          "최대 3분(180초) 영상 출력",
+          "드리미나·캡컷 등 다중 플랫폼 제공 예상",
+          "장시간 일관성 유지 여부는 미검증"
+        ],
+        "why": [
+          "장편 AI 영상 경쟁의 분기점",
+          "크리에이터 워크플로에 직접 영향"
+        ],
+        "action": "실제 출시일과 일관성 품질을 확인."
+      }
+    },
+    {
+      "id": "ai-alibaba-claude-code",
+      "title": "알리바바, 사내 클로드 코드 사용 금지 방침",
+      "summary": "고위험 소프트웨어로 분류해 7월 10일부터 금지, Qoder로 유도.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "알리바바가 클로드 코드를 고위험으로 분류해 사내 사용을 막았다.",
+        "what": "알리바바는 7월 10일부터 직원의 클로드 코드 사용을 금지하고 자체 도구 Qoder로 전환하도록 지시한 것으로 알려졌다. 이는 앤트로픽이 무단 접근과 모델 증류를 차단하려는 움직임과 맞물려 있다.",
+        "points": [
+          "7월 10일부터 사내 사용 금지",
+          "고위험 소프트웨어로 분류",
+          "대체 도구로 Qoder 지정"
+        ],
+        "why": [
+          "미·중 AI 도구 디커플링 신호",
+          "앤트로픽–알리바바 갈등의 연장선"
+        ],
+        "context": "같은 날 앤트로픽은 알리바바의 대규모 증류 공격을 고발했다."
+      }
+    },
+    {
+      "id": "ai-gpt-56-preview",
+      "title": "오픈AI, 다음 주 GPT-5.6 출시 준비 정황",
+      "summary": "Sol·Terra·Luna 3단계로 프리뷰, 추론 강도 슬라이더 추가.",
+      "source": "testingcatalog",
+      "url": "https://www.testingcatalog.com/openai-might-be-preparing-gpt-5-6-for-next-weeks-release/?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "오픈AI가 GPT-5.6을 좁은 프리뷰로 옮기며 출시를 준비 중이다.",
+        "what": "GPT-5.6은 Sol·Terra·Luna 세 등급으로 나뉘고, 새 추론 강도(reasoning-effort) 슬라이더와 복잡 작업용 'ultra' 모드가 추가됐다. 코덱스 사용자에게 영향이 있으며 광범위한 접근은 미 정부 검토 승인에 달렸다.",
+        "points": [
+          "Sol·Terra·Luna 3개 티어",
+          "추론 강도 조절 슬라이더 신설",
+          "복잡 작업용 ultra 모드"
+        ],
+        "why": [
+          "앤트로픽 Fable 5와의 프런티어 경쟁",
+          "코덱스 등 코딩 도구 지형 변화"
+        ],
+        "action": "공식 출시·티어별 성능을 추적."
+      }
+    },
+    {
+      "id": "ai-closing-verification-loop",
+      "title": "검증 루프 닫기: 에이전트 시대의 새 비용",
+      "summary": "제작은 싸졌지만 '동작 검증' 비용이 새 병목이 됐다.",
+      "source": "Kieran Klaassen",
+      "url": "https://thinkroom.kieranklaassen.com/d/njrS5TJhis?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트가 만든 결과가 실제로 동작하는지 검증하는 비용이 커졌다.",
+        "what": "검증 루프는 주장과 증명 사이의 거리다. 대부분 팀이 사람으로 이를 메우지만 에이전트 속도가 사람을 앞지르기 시작했다. 글은 Compound Engineering의 /ce-dogfood 스킬이 페르소나 전략으로 루프를 닫는 방법을 다룬다.",
+        "points": [
+          "제작 비용은 감소, 검증 비용은 증가",
+          "사람 검증이 병목으로 이동",
+          "페르소나 기반 자동 검증 시도"
+        ],
+        "why": [
+          "에이전트 개발 생산성의 핵심 제약",
+          "QA 자동화 설계 방향 제시"
+        ]
+      }
+    },
+    {
+      "id": "ai-clouded-judgement-compute",
+      "title": "컴퓨트 희소성의 끝? 아직 이르다",
+      "summary": "메타·스페이스X의 잉여 컴퓨트 판매가 하이퍼스케일러 자본지출 하향을 시사.",
+      "source": "Clouded Judgement",
+      "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-7326-the-end-of?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "대형 구매자들이 컴퓨트를 되판다는 건 잉여 신호일 수 있다.",
+        "what": "메타와 스페이스X가 컴퓨트를 판매한다는 것은 최대 수요자들이 더는 필요치 않은 여유 용량이 있음을 뜻할 수 있다. 이는 하이퍼스케일러 자본지출 하향으로 이어질 수 있으나, 매물이 즉시 팔린다는 점에서 수요 부족 가능성은 낮다.",
+        "points": [
+          "잉여 컴퓨트 판매 = 수요 둔화 가능성",
+          "하이퍼스케일러 capex 하향 리스크",
+          "다만 매물은 즉시 소화됨"
+        ],
+        "why": [
+          "AI 인프라 투자 사이클 점검",
+          "시장 과열 여부 판단 근거"
+        ]
+      }
+    },
+    {
+      "id": "ai-pace-layers",
+      "title": "페이스 레이어로 보는 AI 생태계 역학",
+      "summary": "변화 속도가 다른 계층으로 AI 생태계를 이해하는 프레임워크.",
+      "source": "dbreunig",
+      "url": "https://www.dbreunig.com/2026/07/03/ai-ecosytem-pace-layers.html?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 생태계를 변화 속도가 다른 여러 계층으로 나눠 본다.",
+        "what": "페이스 레이어는 분야를 변화 속도별로 조직하는 틀이다. 각 계층은 독립적으로 작동하되 인접 계층과 상호 영향을 주며 전체 시스템을 회복력 있게 만든다. 글은 이 틀을 AI 생태계에 적용해 그 역학을 해석한다.",
+        "points": [
+          "변화 속도별 계층 구분",
+          "계층 간 상호작용이 회복력 형성",
+          "AI 스택 해석에 적용"
+        ],
+        "why": [
+          "빠른 변화 속에서 구조적 사고 제공"
+        ]
+      }
+    },
+    {
+      "id": "ai-jamesob-local-llm",
+      "title": "jamesob의 로컬 SOTA LLM 실행 가이드",
+      "summary": "$2,000부터 $40,000까지 로컬 구동 하드웨어 구성을 제시.",
+      "source": "GitHub",
+      "url": "https://github.com/jamesob/local-llm?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "로컬에서 최신 모델과 STT를 돌리는 하드웨어·설정 가이드.",
+        "what": "글은 로컬 SOTA 모델 구동 하드웨어와 로컬 STT 실행법, 도커 기반 즉시 실행 구성을 다룬다. 예산 $2,000이면 Qwen과 괜찮은 STT를, $40,000이면 거의 Opus급 모델을 돌릴 수 있다.",
+        "points": [
+          "$2,000: Qwen + STT",
+          "$40,000: 준-Opus급 모델",
+          "도커 기반 실행 구성 제공"
+        ],
+        "why": [
+          "온프레미스·프라이버시 중시 팀에 실용적"
+        ]
+      }
+    },
+    {
+      "id": "ai-field-guide-fable-unknowns",
+      "title": "Fable 필드 가이드: 미지수 찾기",
+      "summary": "프로젝트 시작 전에 미지수를 규명해 비용을 낮추는 법.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/H4l4KP",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "장기 작업이 잘못 돌아오는 걸 막으려면 미지수를 먼저 정의하라.",
+        "what": "지도와 영토의 차이가 곧 미지수다. Claude는 미지수를 만나면 최선의 추측으로 결정해야 하며, 작업이 길수록 미지수가 늘어난다. 시작 전 미지수를 발견하는 것은 값이 커지기 전에 문제를 찾는 저렴한 방법이다.",
+        "points": [
+          "미지수를 사전 정의",
+          "Claude로 미지수 탐색",
+          "장기 작업 실패 예방"
+        ],
+        "why": [
+          "에이전트 장기 작업 신뢰성 향상"
+        ]
+      }
+    },
+    {
+      "id": "ai-open-source-gap-map",
+      "title": "오픈소스 AI 갭 맵",
+      "summary": "오픈소스 AI 스택의 빈틈을 지도화해 협업을 유도.",
+      "source": "currentai.org",
+      "url": "https://map.currentai.org/?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "오픈소스 AI 스택의 빠진 부분을 함께 채우도록 지도화한 도구.",
+        "what": "현재 오픈소스 AI 스택은 견고하지만 파편화되고 중복이 많아 전체를 보기 어렵다. 갭 맵은 어디를 새로 만들고, 어디에 역량을 투자하며, 어디를 개방할지 식별하도록 돕는다.",
+        "points": [
+          "오픈소스 스택 전체 조망",
+          "중복·공백 식별",
+          "협업·조율 촉진"
+        ],
+        "why": [
+          "오픈 AI 생태계 조율의 기반"
+        ]
+      }
+    },
+    {
+      "id": "ai-own-the-loop-harness",
+      "title": "에이전트 하네스 필드 가이드",
+      "summary": "모델이 상품화될수록 진짜 차별점은 제어 루프인 하네스다.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/aXVCyC",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "모델 commoditize 시대엔 하네스(제어 루프)가 차별점이다.",
+        "what": "코딩 모델이 상품화되면서 도구·워크플로·오케스트레이션·모델 라우팅을 관리하는 하네스가 핵심 차별점이 된다. 벤더 종속 하네스가 지금은 최고 성능이지만, 모델이 진화하고 비용이 낮아질수록 이식 가능한 모델-불가지 루프를 소유하는 것이 더 오래가는 우위가 될 수 있다.",
+        "points": [
+          "차별점이 모델→하네스로 이동",
+          "벤더 하네스는 현재 최고 성능",
+          "이식 가능 루프가 장기 우위"
+        ],
+        "why": [
+          "에이전트 제품 전략의 핵심 논점"
+        ]
+      }
+    },
+    {
+      "id": "ai-distillation-history",
+      "title": "AI 증류의 짧은 역사",
+      "summary": "압축 기법에서 프런티어 능력 이전의 핵심 사후학습 기법으로 진화.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/Ux7eVJ",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "증류는 모델 압축에서 능력 이전의 핵심 기법으로 발전했다.",
+        "what": "증류는 대형 모델을 작고 싸게 만드는 데서 시작했지만, 이제 프런티어 모델의 지시 이행·추론 능력을 이전하는 핵심 사후학습 기법이 됐다. 딥시크·Qwen·GLM이 쓰는 방식은 오픈 모델 개발과 '독점 출력 학습이 무단 복제인가' 논쟁의 중심에 있다.",
+        "points": [
+          "압축→능력 이전으로 진화",
+          "딥시크·Qwen·GLM이 핵심 활용",
+          "무단 복제 논쟁의 중심"
+        ],
+        "why": [
+          "앤트로픽–알리바바 분쟁의 기술적 배경"
+        ]
+      }
+    },
+    {
+      "id": "ai-let-fable-judgement",
+      "title": "Fable에게 방식을 지시하기보다 판단을 맡겨라",
+      "summary": "테스트 작성·모델 선택 등은 Fable의 자체 판단에 맡기는 편이 낫다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/3/judgement/?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "작동 방식을 세세히 지시하기보다 Fable의 판단을 활용하라.",
+        "what": "테스트 작성 시점이나 작은 작업에 다른 모델을 쓸지 등은 Fable에게 자체 판단을 지시하는 편이 더 낫다는 조언이다.",
+        "points": [
+          "세부 지시보다 자율 판단 위임",
+          "테스트 작성 타이밍 위임",
+          "소작업 모델 선택 위임"
+        ],
+        "why": [
+          "최신 모델 프롬프팅 패턴 변화"
+        ]
+      }
+    },
+    {
+      "id": "ai-leanstral",
+      "title": "Leanstral: 오픈소스 정리 증명 에이전트",
+      "summary": "미스트랄 코딩 프레임워크 기반 119B 정리증명·코드검증 에이전트.",
+      "source": "GitHub",
+      "url": "https://github.com/mistralai/LeanstralSafeVerify/blob/main/LeanstralReport.pdf?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "미스트랄이 오픈소스 119B 정리증명·코드검증 에이전트를 냈다.",
+        "what": "Leanstral은 미스트랄의 범용 코딩 프레임워크 위에 구축된 오픈소스 119B 파라미터 정리 증명 및 코드 검증 에이전트다.",
+        "points": [
+          "119B 파라미터 오픈웨이트",
+          "정리 증명·코드 검증 특화",
+          "미스트랄 코딩 프레임워크 기반"
+        ],
+        "why": [
+          "형식 검증·수학 추론 오픈소스 진전"
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-inbox",
+      "title": "구글, 제미나이 인박스 섹션 테스트",
+      "summary": "제미나이 앱에 워크스페이스 업무 분류용 인박스 섹션을 시험.",
+      "source": "testingcatalog",
+      "url": "https://www.testingcatalog.com/google-tests-new-gemini-inbox-section-for-workspace-triage/?utm_source=tldrai",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "구글이 제미나이 앱에 업무 분류용 인박스 섹션을 시험 중이다.",
+        "what": "비즈니스·워크스페이스 사용자를 위한 전용 인박스 섹션을 제미나이 앱 안에서 테스트하고 있다.",
+        "points": [
+          "제미나이 앱 내 인박스 신설",
+          "비즈니스·워크스페이스 대상",
+          "업무 분류 워크플로 지원"
+        ],
+        "why": [
+          "에이전트형 업무 관리 확산 신호"
+        ]
+      }
+    }
+  ]
+}

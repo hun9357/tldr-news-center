@@ -1,0 +1,269 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-ladbible-meta",
+      "title": "랫바이블 대표, 메타 피드 개편에 트래픽 타격 토로",
+      "summary": "메타·구글 AI 개요로 퍼블리셔 트래픽·광고 매출 급감.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/media/2026/jul/05/meta-algorithm-digital-publishers-ladbible?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "퍼블리셔들이 메타·구글 양쪽에서 트래픽 압박을 받는다.",
+        "what": "메타가 퍼블리셔 링크보다 크리에이터 콘텐츠를 우선해 광고 매출을 깎고, 구글 AI 개요가 질의에 직접 답해 검색 트래픽을 줄이며 퍼블리셔가 양쪽에서 압박받는다. 일부는 CTR이 최대 89% 급락했고, 검색 트래픽은 3년간 40% 이상 하락할 전망이다.",
+        "points": [
+          "메타, 크리에이터 우선",
+          "구글 AI 개요로 트래픽 감소",
+          "일부 CTR 89% 하락"
+        ],
+        "why": [
+          "디지털 퍼블리싱 수익모델 위기"
+        ]
+      }
+    },
+    {
+      "id": "mkt-ai-wont-save-advertising",
+      "title": "AI가 광고를 구원하지 않는다",
+      "summary": "완전 자동 광고 제작은 비현실적, AI는 생산성 도구.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/podcast/959792/digitas-ceo-amy-lanzi-cannes-ad-industry-marketing-ai-creators?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 과대광고와 달리 인간 판단은 대체되지 않는다.",
+        "what": "광고에 AI 열풍이 불지만 기대가 과하다. 완전 자동 광고 제작은 비현실적이고 생태계를 해칠 위험이 있으며, 프로그래매틱처럼 AI도 인간 판단을 대체하지 못한다. 실제 가치는 생산성·워크플로 개선이며 크리에이터는 풀스택 사업으로 진화 중이다.",
+        "points": [
+          "완전 자동 제작은 비현실",
+          "가치는 생산성 개선",
+          "크리에이터의 풀스택화"
+        ],
+        "why": [
+          "광고 산업의 AI 현실론"
+        ]
+      }
+    },
+    {
+      "id": "mkt-case-studies-footer",
+      "title": "최고의 사례 연구를 푸터에 넣어라",
+      "summary": "푸터의 고객 증거가 AI의 제품 설명에 영향.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/ryancarruthers7_you-can-change-what-chatgpt-says-about-your-share-7477789233043230720-1zhS/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "푸터에 배치한 고객 증거가 AI 검색 노출을 좌우한다.",
+        "what": "웹사이트 푸터에 핵심 고객 증거를 두면 AI가 제품을 설명하는 방식에 영향을 준다. 실험에서 Clay가 사례 연구를 푸터에 노출하자 챗GPT가 '어느 브랜드가 쓰나' 질문에 그 링크의 고객을 직접 인용했다. 사례를 깊숙이 묻은 기업은 훨씬 덜 인용됐다.",
+        "points": [
+          "푸터 고객 증거의 효과",
+          "챗GPT가 직접 인용",
+          "깊이 묻으면 인용 감소"
+        ],
+        "why": [
+          "GEO(생성엔진 최적화) 전술"
+        ]
+      }
+    },
+    {
+      "id": "mkt-loyalty-silo",
+      "title": "로열티 프로그램을 사일로에 두지 않는 4가지 방법",
+      "summary": "이메일·구독·랜딩·리테일 전반에 로열티를 노출.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/nicolas-olaya-zuluaga_a-mistake-i-keep-seeing-across-brands-doing-activity-7478477613301215232-B_fH?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "로열티 프로그램은 가시성이 없으면 실패한다.",
+        "what": "대부분 로열티 프로그램은 거의 보이지 않아 실패한다. 이메일 흐름은 웰컴·구매후·상시 캠페인에서 포인트·리워드·등급을 노출하고, 구독 흐름은 마일스톤·해지 시 손실을 강조하며, 랜딩은 혜택을 앞세우고, 리테일은 온·오프라인을 연결해야 한다.",
+        "points": [
+          "이메일에 포인트·등급 노출",
+          "구독에 손실 강조",
+          "온·오프라인 연결"
+        ],
+        "why": [
+          "로열티 프로그램 가시성 전략"
+        ]
+      }
+    },
+    {
+      "id": "mkt-google-ads-invalid-clicks",
+      "title": "부정 클릭을 50% 줄인 구글 광고 타깃팅 전술",
+      "summary": "사전정의 오디언스를 타깃팅으로 설정해 부정 클릭 감소.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/google-ads-targeting-tactic-cut-invalid-clicks-481490?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "오디언스 타깃팅을 필터로 써 부정 클릭을 절반 줄인다.",
+        "what": "클릭 사기가 성과를 해칠 때 구글 광고 오디언스 타깃팅을 필터로 쓰면 부정 클릭을 줄일 수 있다. 한 계정은 수백 개 사전정의 오디언스를 추가하고 '관찰' 대신 '타깃팅'으로 설정해 부정 클릭률을 50% 낮췄다.",
+        "points": [
+          "오디언스를 필터로 활용",
+          "타깃팅 설정으로 전환",
+          "부정 클릭 50% 감소"
+        ],
+        "why": [
+          "클릭 사기 대응 실무 팁"
+        ]
+      }
+    },
+    {
+      "id": "mkt-contentgrapher",
+      "title": "ContentGrapher (도구)",
+      "summary": "AI 가시성용 웹사이트 콘텐츠 추천 도구.",
+      "source": "contentgrapher.io",
+      "url": "https://www.contentgrapher.io/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "ContentGrapher가 AI 가시성 관점의 콘텐츠 개선점을 짚어준다.",
+        "what": "URL을 넣으면 약하거나 빠진 개념, 개념 연결 정도, 별도 페이지가 필요한 요소를 지도화해 AI 가시성용 콘텐츠를 추천한다. 첫 5회 분석은 무료, 이후 $29부터다.",
+        "points": [
+          "URL 기반 콘텐츠 분석",
+          "빠진 개념·연결 지도화",
+          "5회 무료 후 $29~"
+        ],
+        "why": [
+          "AI 검색 가시성 최적화 도구"
+        ]
+      }
+    },
+    {
+      "id": "mkt-success-currencies",
+      "title": "성공한 사람들이 견디는 것 (웨비나)",
+      "summary": "성공을 '지속 가능한 트레이드오프'로 재정의하는 세션.",
+      "source": "Luma",
+      "url": "https://luma.com/4yx5b516?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "성공을 강점이 아닌 '견딜 수 있는 대가'로 재정의한다.",
+        "what": "성공을 강점·노력만이 아니라 지속 가능한 트레이드오프의 함수로 본다. 크리스틴 로우가 '성공 화폐' 개념으로 위험·거절·불확실성 같은 비용을 강조하고, 어떤 비용이 동기를 주거나 소진시키는지 자가진단을 제공한다. 7월 8일 오전 9시 PT.",
+        "points": [
+          "성공=지속 가능 트레이드오프",
+          "'성공 화폐' 개념",
+          "7/8 9AM PT 진행"
+        ],
+        "why": [
+          "마케터 자기계발 세션"
+        ]
+      }
+    },
+    {
+      "id": "mkt-personal-branding-b2b",
+      "title": "B2B 퍼스널 브랜딩에 대한 솔직한 의견",
+      "summary": "실명 발행을 피하는 CEO는 콘텐츠를 취미로 취급한다.",
+      "source": "Pierre Herubel",
+      "url": "https://pierreherubel.substack.com/p/my-honest-opinion-about-personal?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "실명 발행을 피하는 임원의 침묵은 파이프라인 손실이다.",
+        "what": "자기 이름으로 발행하지 않는 CEO는 콘텐츠를 매출 활동이 아닌 취미로 취급한다. SNS는 이제 구매자가 이미 조사·결정하는 상시 B2B 컨퍼런스처럼 작동한다. 반대 대부분은 동료 시선에 대한 두려움에서 비롯되며, 임원 침묵은 매주 실질적 파이프라인 비용을 낳는다.",
+        "points": [
+          "실명 발행 = 매출 활동",
+          "SNS는 상시 B2B 컨퍼런스",
+          "침묵의 파이프라인 비용"
+        ],
+        "why": [
+          "B2B 임원 퍼스널 브랜딩 논의"
+        ]
+      }
+    },
+    {
+      "id": "mkt-google-ai-slop",
+      "title": "구글, 대규모 AI 쓰레기 근절 플레이북 공개",
+      "summary": "단일 페이지가 아닌 조율된 AI 콘텐츠 네트워크를 표적.",
+      "source": "NoGood",
+      "url": "https://nogood.io/blog/google-ai-slop/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "구글이 개별 페이지가 아닌 조율된 콘텐츠 네트워크를 겨냥한다.",
+        "what": "구글의 새 시스템은 개별 페이지가 아니라 조율된 AI 콘텐츠를 표적한다. 공유 인프라·속도·의미 패턴으로 대량 템플릿 콘텐츠를 생산하는 계정 클러스터를 탐지해 네트워크 전체를 제거한다. 단일 페이지 최적화에서 탐지 가능한 생산 패턴 회피로 집행이 이동한다.",
+        "points": [
+          "조율된 네트워크 표적",
+          "클러스터 단위 제거",
+          "템플릿 대량 생산은 리스크"
+        ],
+        "why": [
+          "콘텐츠 SEO 전략 전환"
+        ]
+      }
+    },
+    {
+      "id": "mkt-metric-dropped",
+      "title": "지표가 떨어진 이유 찾는 법",
+      "summary": "지표 하락을 조사·설명하는 6단계 프레임워크.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/mloseva_give-me-a-dropped-metric-and-i-will-treat-share-7478506428891172864-1trN/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "지표 하락 원인을 찾는 6단계 프레임워크.",
+        "what": "지표 하락을 조사하고 설명하는 6단계 프레임워크를 제시한다.",
+        "points": [
+          "6단계 조사 프레임워크",
+          "하락 원인 규명",
+          "데이터 기반 진단"
+        ],
+        "why": [
+          "데이터 기반 문제 진단"
+        ]
+      }
+    },
+    {
+      "id": "mkt-50-creators",
+      "title": "2026년 최고 소득 크리에이터 50인",
+      "summary": "미스터비스트 1위, 다르 만·스티븐 바틀렛 뒤이어.",
+      "source": "Visual Capitalist",
+      "url": "https://www.visualcapitalist.com/50-highest-paid-creators-in-2026/?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "2026년 최고 소득 크리에이터 순위를 정리했다.",
+        "what": "미스터비스트가 순위 1위, 다르 만과 스티븐 바틀렛이 뒤를 잇는다.",
+        "points": [
+          "미스터비스트 1위",
+          "다르 만·바틀렛 상위",
+          "2026년 소득 순위"
+        ],
+        "why": [
+          "크리에이터 이코노미 지형"
+        ]
+      }
+    },
+    {
+      "id": "mkt-avoid-all-caps",
+      "title": "전부 대문자 헤드라인을 피하라",
+      "summary": "표준 대소문자로 바꿨더니 전환율 25% 상승.",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/avoid-all-caps-headlines-says-cro-pro?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "대문자 헤드라인을 표준으로 바꾸자 전환율이 올랐다.",
+        "what": "한 테스트에서 전부 대문자 헤드라인을 표준 대소문자로 바꾸자 전환율이 25% 올라 가독성의 영향을 보여줬다.",
+        "points": [
+          "대문자→표준 대소문자",
+          "전환율 25% 상승",
+          "가독성의 중요성"
+        ],
+        "why": [
+          "CRO 카피 최적화 팁"
+        ]
+      }
+    },
+    {
+      "id": "mkt-soccer-america",
+      "title": "미국에서 축구의 부상",
+      "summary": "커뮤니티·접근성·글로벌 정체성으로 전통 스포츠 앞서.",
+      "source": "Konvoy",
+      "url": "https://konvoy.beehiiv.com/p/soccer-s-ascension-in-america?utm_source=tldrmarketing",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "축구가 커뮤니티·접근성·글로벌 정체성으로 미국서 부상한다.",
+        "what": "축구가 폭력성 높은 전통 스포츠보다 커뮤니티·접근성·글로벌 정체성에서 앞서며 미국에서 부상하고 있다.",
+        "points": [
+          "커뮤니티·접근성 강점",
+          "글로벌 정체성",
+          "전통 스포츠 대비 우위"
+        ],
+        "why": [
+          "스포츠 마케팅 트렌드"
+        ]
+      }
+    }
+  ]
+}

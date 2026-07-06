@@ -1,0 +1,253 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-aave-monad-100m",
+      "title": "아베 모나드 마켓, 이틀 만에 1억 달러 돌파",
+      "summary": "V3 배포 이틀 만에 예치금 1억 달러 초과.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/yVtwWi",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "아베 모나드 마켓이 배포 이틀 만에 1억 달러 예치를 넘겼다.",
+        "what": "아베가 12개 자산을 지원하는 V3를 모나드에 배포한 지 이틀 만에 토요일 예치금이 1억 달러를 넘었다. 6월 8일 기준 TVL 약 3억5,950만 달러였던 모나드 생태계에서 이틀 만에 그 4분의 1이 넘는 자금을 끌어들인 것이다. 모나드 재단은 첫해 1,500만 달러 인센티브와 GHO 1,000만 개 매입을 약속했다.",
+        "points": [
+          "이틀 만에 예치 1억 달러+",
+          "USDT0·USDC·GHO 등 12개 자산",
+          "재단 1,500만 달러 인센티브"
+        ],
+        "why": [
+          "신생 L1로의 유동성 이동 신호",
+          "GHO 스테이블코인 채택 확대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-farage-cottrell",
+      "title": "패라지, 유죄 크립토 사기꾼의 지원 미신고",
+      "summary": "선데이타임스 조사로 코트렐의 미신고 지원 드러나.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/r5iOlo",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "패라지가 유죄 크립토 사기꾼의 미신고 지원을 받았다는 조사.",
+        "what": "선데이타임스 조사에 따르면 리폼UK 대표 나이절 패라지가 2024년 당선 전 1년간 오프쇼어 크립토 북메이커 Tether.bet와 연루된 유죄 사기꾼 조지 코트렐로부터 경호·운전·SNS 인력 등 미신고 지원을 받았다. 패라지는 이미 별도 500만 파운드 선물 관련 의회 조사를 받고 있으며 부인한다.",
+        "points": [
+          "코트렐의 미신고 지원 의혹",
+          "선데이타임스 조사 보도",
+          "의회 표준 조사 진행 중"
+        ],
+        "why": [
+          "친크립토 정치인 관련 스캔들",
+          "정책 신뢰성 논란"
+        ]
+      }
+    },
+    {
+      "id": "crypto-dydx-arcus",
+      "title": "dYdX, 아르쿠스로 리브랜딩·로빈후드와 제휴",
+      "summary": "로빈후드 체인의 주력 DEX로 0% 수수료 토큰 주식 거래.",
+      "source": "threadreader",
+      "url": "https://threadreaderapp.com/thread/2073099704204976572.html?utm_source=tldrcrypto",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "dYdX가 아르쿠스로 바꾸고 로빈후드 체인 주력 DEX가 됐다.",
+        "what": "dYdX는 아르쿠스로 리브랜딩해 로빈후드 체인의 주력 DEX로 출범, 95개 토큰 주식과 35개 RWA 무기한을 RFQ 실행·0% 수수료로 24시간 거래한다. 하이퍼리퀴드에 시장점유율을 잃은 뒤의 전환으로, 속도·단순성·유동성 깊이를 경쟁축으로 내세웠다.",
+        "points": [
+          "아르쿠스로 리브랜딩",
+          "로빈후드 체인 주력 DEX",
+          "95개 토큰주식·0% 수수료"
+        ],
+        "why": [
+          "하이퍼리퀴드와의 경쟁 심화",
+          "RWA·토큰주식 거래 확산"
+        ]
+      }
+    },
+    {
+      "id": "crypto-vitalik-lean-ethereum",
+      "title": "비탈릭의 린 이더리움 로드맵",
+      "summary": "3~4년에 걸쳐 대부분 프로토콜 구성요소를 교체하는 세 번째 대전환.",
+      "source": "threadreader",
+      "url": "https://threadreaderapp.com/thread/2073459000398463446.html?utm_source=tldrcrypto",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "린 이더리움은 3~4년에 걸친 이더리움의 세 번째 대개편이다.",
+        "what": "비탈릭의 베를린 서밋 후 글은 '린 이더리움'을 프로토콜의 세 번째 대전환으로 규정한다. 재귀 STARK 검증, 양자내성 암호, 1~2라운드 파이널리티, 다차원 가스, 2030년까지 2TB 동적 상태와 100TB 확장 상태를 아우르는 이중 계층 상태 모델을 담는다. 프라이버시는 1급 설계 제약이 됐다.",
+        "points": [
+          "재귀 STARK·양자내성 암호",
+          "1~2라운드 파이널리티",
+          "이중 계층 상태 모델(2TB/100TB)"
+        ],
+        "why": [
+          "이더리움 장기 아키텍처 방향",
+          "UTXO형 저장 시 수수료 10배+ 절감 가능"
+        ]
+      }
+    },
+    {
+      "id": "crypto-post-quantum-abandoned",
+      "title": "포스트양자 마이그레이션과 버려진 코인",
+      "summary": "코인베이스 양자자문위, 취약 지갑 처리 논쟁 촉발.",
+      "source": "Coinbase",
+      "url": "https://www.coinbase.com/blog/coinbase-quantum-advisory-council-post-quantum-migration-and-abandoned-coins?utm_source=tldrcrypto",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "양자 위협 앞에서 사토시의 100만 BTC 등 취약 지갑 처리가 쟁점이다.",
+        "what": "코인베이스가 양자자문위를 꾸려 ECDSA/secp256k1에서 격자·STARK·해시 기반 등 양자내성 방식으로의 전환을 이끈다. 가장 논쟁적인 문제는 소유자가 도달 불가능한 P2PK 노출 지갑(사토시 추정 100만 BTC)으로, 동결·소각·양자 추출 방치 등이 논의된다.",
+        "points": [
+          "ECDSA→양자내성 전환 추진",
+          "취약 P2PK 지갑이 핵심 쟁점",
+          "동결·소각·방치 옵션 논쟁"
+        ],
+        "why": [
+          "양자 시대 BTC 공급·가격 리스크"
+        ]
+      }
+    },
+    {
+      "id": "crypto-digital-asset-market",
+      "title": "현재 디지털 자산 시장에 대한 생각",
+      "summary": "포트폴리오가 5~10개 토큰으로 좁아지고 BTC·현금 선호.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/2VN6cU",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "크립토 투자자들이 알트를 접고 BTC·현금으로 좁히고 있다.",
+        "what": "크립토 네이티브 투자자 설문에서 포트폴리오가 5~10개 토큰으로 좁아지고 대부분 알트를 BTC나 현금으로 교체했다. 핵심 마찰은 기회비용으로, AI 인접 주식(추론칩·네오클라우드·포토닉스)의 복리 성장세가 한계 자본의 크립토 투입 문턱을 높인다.",
+        "points": [
+          "5~10개 토큰으로 집중",
+          "AI 주식이 기회비용 상승",
+          "Q3/Q4 사이클 저점 기대"
+        ],
+        "why": [
+          "크립토 vs AI 자본 배분 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "crypto-circle-openusd",
+      "title": "서클 CEO, OpenUSD가 USDC를 넘지 못하는 이유",
+      "summary": "USDC가 Q1 온체인 달러 거래의 80% 처리했다며 반박.",
+      "source": "threadreader",
+      "url": "https://threadreaderapp.com/thread/2072252803163255179.html?utm_source=tldrcrypto",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "서클 CEO가 OpenUSD의 세 가지 논리를 조목조목 반박했다.",
+        "what": "제러미 알레어는 아르테미스 데이터를 인용해 USDC가 2026년 1분기 온체인 30조 달러(달러 스테이블코인 거래의 80%)를 처리했다고 밝혔다. 무료 발행/소각, 참여자 수익 분배, 컨소시엄 거버넌스라는 OpenUSD의 세 명제를 각각 반박하며 USDC의 규제 시장 독점과 유동성 해자를 강조했다.",
+        "points": [
+          "USDC가 달러 스테이블 거래 80%",
+          "무료 민팅·수익분배 논리 반박",
+          "규제시장 접근·유동성 해자"
+        ],
+        "why": [
+          "스테이블코인 표준 경쟁 구도"
+        ]
+      }
+    },
+    {
+      "id": "crypto-trustless-influencer",
+      "title": "신뢰 없는 인플루언서",
+      "summary": "$ANSEM 구조가 배신 비용을 정렬 비용보다 높게 만든다.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/jC7xFp",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "$ANSEM은 배신이 협력보다 비싸도록 설계된 밈코인 구조다.",
+        "what": "익명 지갑이 $6,300으로 민팅해 공급의 65%를 인플루언서 Ansem에게 건넨 $ANSEM은 밈코인이 아니라 정당한 사업 구조일 수 있다. Ansem은 크리에이터 수수료를 홀더에게 주간 환급하며, 공급 약 60% 보유·담론 통제·환급 창구 소유로 배신 시 신뢰와 사업을 동시에 잃는다.",
+        "points": [
+          "공급 65%를 인플루언서에 이양",
+          "수수료 주간 환급 구조",
+          "배신 비용 > 정렬 비용"
+        ],
+        "why": [
+          "인센티브 정렬형 토큰 실험 사례"
+        ]
+      }
+    },
+    {
+      "id": "crypto-x402-apify",
+      "title": "x402·Apify로 USDC로 API 결제",
+      "summary": "AI 에이전트가 API 키 없이 USDC로 20,000+ 도구 실행.",
+      "source": "threadreader",
+      "url": "https://threadreaderapp.com/thread/2072787981497225653.html?utm_source=tldrcrypto",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트가 API 키 없이 USDC로 Apify 액터를 실행·결제한다.",
+        "what": "Apify의 2만 개 이상 웹 스크래핑 액터가 x402로 접근 가능해져, AI 에이전트가 사전 설정 API 키나 계정 없이 Base 위에서 USDC로 도구를 발견·실행·결제할 수 있다.",
+        "points": [
+          "Apify 2만+ 액터 x402 지원",
+          "API 키 없이 실행",
+          "Base에서 USDC 결제"
+        ],
+        "why": [
+          "에이전트 결제 인프라 확산"
+        ]
+      }
+    },
+    {
+      "id": "crypto-card-800m",
+      "title": "크립토 카드 지출, 월 8억 달러 돌파",
+      "summary": "EtherFi·Plasma One 등 네오뱅크가 다음 물결 선점.",
+      "source": "threadreader",
+      "url": "https://threadreaderapp.com/thread/2073308574894244266.html?utm_source=tldrcrypto",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "크립토 카드 월 지출이 8억 달러를 넘어섰다.",
+        "what": "크립토 카드 월간 지출이 8억 달러를 상회했고, EtherFi·Plasma One 같은 네오뱅크가 다음 성장 물결을 잡을 위치에 있다.",
+        "points": [
+          "월 지출 8억 달러 초과",
+          "네오뱅크가 성장 선점",
+          "크립토 카드 실사용 확대"
+        ],
+        "why": [
+          "크립토 결제 실사용 확대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-german-banks",
+      "title": "독일 저축·협동조합 은행, 자체 크립토 거래 출시",
+      "summary": "슈파카센·폴크스방켄이 앱 내 소매 크립토 거래 도입.",
+      "source": "threadreader",
+      "url": "https://threadreaderapp.com/thread/2073354482096955542.html?utm_source=tldrcrypto",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "독일 대형 은행망이 앱에서 직접 크립토 거래를 연다.",
+        "what": "독일 슈파카센·폴크스방켄 네트워크가 기존 뱅킹 앱 안에서 소매 고객 대상 자체 크립토 거래를 출시한다.",
+        "points": [
+          "기존 뱅킹 앱에 통합",
+          "소매 고객 대상",
+          "독일 최대 은행망 참여"
+        ],
+        "why": [
+          "전통은행의 크립토 주류화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-card-comparison",
+      "title": "크립토 카드 비교",
+      "summary": "동일 €7.65 결제로 5개 카드의 환율·캐시백 실측.",
+      "source": "threadreader",
+      "url": "https://threadreaderapp.com/thread/2073734393131151637.html?utm_source=tldrcrypto",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "5개 크립토 카드를 같은 결제로 실측 비교했다.",
+        "what": "0xVishnya가 유럽에서 동일한 €7.65 결제로 5개 크립토 카드를 환율 스프레드와 캐시백을 반영해 실시간 비교했다.",
+        "points": [
+          "동일 €7.65 결제 기준",
+          "환율 스프레드·캐시백 반영",
+          "카드 5종 실측"
+        ],
+        "why": [
+          "실사용 관점 카드 선택 참고"
+        ]
+      }
+    }
+  ]
+}

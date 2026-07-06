@@ -1,0 +1,249 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "fnd-tired-vs-wired-saas",
+      "title": "소프트웨어 지출은 최고인데 SaaS 절반은 죽는 이유",
+      "summary": "AI 예산을 잡은 그룹과 옛 플레이북 그룹으로 시장이 갈렸다.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/tired-vs-wired-our-deep-dive-on-why-software-spend-is-up-15-yet-half-of-saas-is-still-dying/?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "소프트웨어 지출은 늘지만 SaaS 시장이 둘로 갈라졌다.",
+        "what": "소프트웨어 지출은 가속하지만 다수 소프트웨어 리더의 밸류에이션은 붕괴 중이다. 시장은 AI 예산을 잡아 가속하는 그룹과 18개월 전 플레이북을 반복하는 그룹으로 나뉘었다. 글은 두 그룹의 경계와 이동 요인을 분석한다.",
+        "points": [
+          "지출↑, 밸류에이션↓",
+          "AI 예산 그룹 vs 옛 그룹",
+          "이동 요인 분석"
+        ],
+        "why": [
+          "SaaS 시장 양극화 진단"
+        ]
+      }
+    },
+    {
+      "id": "fnd-executive-ai-leverage",
+      "title": "경영진 AI 레버리지 리포트",
+      "summary": "임원 53%가 ROI 증명을 AI 지출의 최대 걸림돌로 지목.",
+      "source": "Murray Newlands",
+      "url": "https://murraynewlands.substack.com/p/the-executive-ai-leverage-report?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "임원들은 6개월 내 측정 가능한 AI ROI를 원한다.",
+        "what": "재무실 임원의 53%가 ROI 증명을 추가 AI 지출의 주된 걸림돌로 꼽고, 62%는 6개월 내 측정 가능한 수익을, 17%는 인건비를 AI로 일부 전환한다. 창업자들은 좌석 25% 대신 사용량 50%·성과 18%로 가격을 매기지만, CIO·사업부를 거쳐 CEO 서명·재무 증명 부담에서 거래가 멈춘다.",
+        "points": [
+          "53% ROI가 최대 걸림돌",
+          "62% 6개월 내 수익 기대",
+          "17% 인건비 일부 전환"
+        ],
+        "why": [
+          "AI 세일즈의 증명 부담 이해"
+        ]
+      }
+    },
+    {
+      "id": "fnd-hire-near-peer",
+      "title": "성장 창업자: 니어피어를 채용하라",
+      "summary": "역할이 바뀌어도 보고할 만큼 뛰어난 상호보완 인재.",
+      "source": "threadreader",
+      "url": "https://threadreaderapp.com/thread/2072856480336986393.html?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "니어피어는 역할이 바뀌어도 보고할 만큼 뛰어난 인재다.",
+        "what": "니어피어는 역할이 뒤바뀌어도 창업자가 기꺼이 보고할 만큼 뛰어난 사람으로, 강점이 창업자와 완벽히 보완된다. 이들은 창업자의 비전을 일상 운영 결정으로 바꿔, 창업자가 자신만 할 수 있는 일에 집중하게 한다.",
+        "points": [
+          "역할 역전 시도 보고할 인재",
+          "창업자와 강점 보완",
+          "비전을 운영으로 전환"
+        ],
+        "why": [
+          "초기 채용 전략"
+        ]
+      }
+    },
+    {
+      "id": "fnd-segment-churn",
+      "title": "이것만은: 이탈을 세분화하라",
+      "summary": "세분화로 서로 다른 이탈 문제를 개별 해결.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/nothing-else-segment-churn/?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "이탈을 세분화하면 서로 다른 이탈 문제를 개별로 풀 수 있다.",
+        "what": "이탈을 범주로 세분화하면 창업자가 서로 다른 이탈 문제를 나눠 개별 해결할 수 있다. 대형 고객 유지와 소기업의 저가 대안 이탈은 다르다. 트라이얼·POC를 제외하지 말고 세그먼트로 나눠 전환을 개선하고, 세그먼트별 NPS·CSAT를 봐 가장 만족·성장 세그먼트에 집중하라.",
+        "points": [
+          "이탈 범주로 세분화",
+          "트라이얼도 세그먼트화",
+          "세그먼트별 NPS·CSAT"
+        ],
+        "why": [
+          "이탈 관리 실무"
+        ]
+      }
+    },
+    {
+      "id": "fnd-kill-churn",
+      "title": "이탈 죽이기: 10년간 배운 것",
+      "summary": "끈적한 ICP를 알면 제품이 그들만을 위해 만들어진다.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/08GNvM",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "카테고리에 따라 이탈이 다르며, 일부는 사업을 죽인다.",
+        "what": "이탈은 카테고리에 좌우되며 모든 이탈이 나쁜 것은 아니다. 다만 어떤 유형은 사업을 죽일 수 있다. 끈적한 이상 고객(ICP)을 알면 제품의 일은 그들을 위해 철저히 만드는 것이 된다. 무료 플랜은 활성화하고 페이월은 수익화하며, 네거티브 처언이 성배다.",
+        "points": [
+          "카테고리별 이탈 상이",
+          "ICP 중심 제품",
+          "네거티브 처언이 목표"
+        ],
+        "why": [
+          "이탈·리텐션 전략"
+        ]
+      }
+    },
+    {
+      "id": "fnd-prompting-fable-5",
+      "title": "클로드 Fable 5 프롬프팅",
+      "summary": "Fable 5는 복잡·장기·모호한 작업에 특히 강하다.",
+      "source": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "Fable 5는 장기·복잡 작업에 강하며 새 프롬프팅 패턴이 필요하다.",
+        "what": "클로드 Fable 5는 이전엔 너무 복잡·장기·모호했던 문제를 다룰 수 있고, 사람이 몇 시간~몇 주 걸리는 엔드투엔드 작업에 특히 효과적이다. Opus 4.8과 여러 동작 차이가 있어 프롬프트·스캐폴딩 업데이트가 필요할 수 있다. 가이드는 Fable 5·Mythos 5용 패턴을 다룬다.",
+        "points": [
+          "장기·복잡 작업에 강점",
+          "Opus 4.8과 동작 차이",
+          "전용 스캐폴딩 패턴"
+        ],
+        "why": [
+          "최신 모델 활용 가이드"
+        ]
+      }
+    },
+    {
+      "id": "fnd-22-exit-posts",
+      "title": "사업을 판 창업자 22인의 1인칭 글 모음",
+      "summary": "자기 엑싯을 직접 쓴 창업자 블로그 큐레이션.",
+      "source": "They Got Acquired",
+      "url": "https://theygotacquired.com/resources/founder-blog-posts/?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "자기 엑싯을 직접 쓴 창업자 글 22편 모음.",
+        "what": "They Got Acquired가 개인 블로그에 자기 엑싯을 쓴 창업자들의 글을 큐레이션한 목록이다.",
+        "points": [
+          "창업자 1인칭 엑싯 글",
+          "22편 큐레이션",
+          "개인 블로그 기반"
+        ],
+        "why": [
+          "엑싯 경험 사례 학습"
+        ]
+      }
+    },
+    {
+      "id": "fnd-become-the-product",
+      "title": "당신이 제품이 될 때",
+      "summary": "콘텐츠 판매에서 창업자 판단·전문성 접근 판매로 진화.",
+      "source": "The Tilt",
+      "url": "https://www.thetilt.com/business-operations/when-you-become-the-product?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "크리에이터 사업은 콘텐츠에서 판단·전문성 접근 판매로 진화한다.",
+        "what": "성공하는 크리에이터 사업은 콘텐츠 판매에서 창업자의 판단·전문성 접근 판매로 진화한다. 무제한 창업자 가용성 대신 콘텐츠·워크숍·커뮤니티·프리미엄 자문으로 접근을 구조화해야 한다. 팔 수 있는 회사를 원한다면 신뢰를 자신에서 팀·브랜드·시스템으로 옮겨야 한다.",
+        "points": [
+          "판단·전문성 접근 판매",
+          "접근을 구조화",
+          "신뢰를 팀·시스템으로 이전"
+        ],
+        "why": [
+          "크리에이터 사업 확장·매각 전략"
+        ]
+      }
+    },
+    {
+      "id": "fnd-churn-threshold-pricing",
+      "title": "이탈 임계값은 가격 결정이다",
+      "summary": "기본 0.5 임계값이 조용히 리텐션 예산을 정한다.",
+      "source": "Towards Data Science",
+      "url": "https://towardsdatascience.com/your-churn-threshold-is-a-pricing-decision/?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "이탈 모델의 기본 0.5 임계값이 리텐션 예산을 좌우한다.",
+        "what": "이탈 모델은 기본 0.5 임계값으로 배포되는데, 분석은 이를 고객당 약 $86, 10만 구독 기준 $8.6M의 회피 가능 지출로 계산한다. 이탈자 놓침이 충성고객 과잉대응보다 약 13배 비싸, 수익 최적 임계값은 0.5보다 훨씬 낮다.",
+        "points": [
+          "기본 0.5 임계값의 비용",
+          "이탈 놓침이 13배 비쌈",
+          "최적 임계값은 0.5 미만"
+        ],
+        "why": [
+          "ML 기본값이 곧 사업 결정"
+        ]
+      }
+    },
+    {
+      "id": "fnd-most-profitable-skill",
+      "title": "21세기 가장 수익성 높은 기술(AI 아님)",
+      "summary": "인간 본성 이해가 AI 시대 최고 레버리지 기술.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/gMaTVB",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 시대 최고 레버리지 기술은 인간 본성 이해다.",
+        "what": "주의·설득·신뢰·가치 창출이 결국 기술이 아닌 사람에 달려 있기에, 인간 본성 이해가 AI 주도 세계에서 가장 레버리지 높은 기술이라는 주장이다.",
+        "points": [
+          "인간 본성 이해가 핵심",
+          "주의·설득·신뢰의 기반",
+          "기술보다 사람 중심"
+        ],
+        "why": [
+          "AI 시대 역량론"
+        ]
+      }
+    },
+    {
+      "id": "fnd-great-product-sell-itself",
+      "title": "창업자의 실수: 좋은 제품은 스스로 팔린다는 믿음",
+      "summary": "적극적 영업·마케팅 없이 팔리지 않는다.",
+      "source": "SKMurphy",
+      "url": "https://www.skmurphy.com/blog/2026/07/03/one-mistake-entrepreneurs-make-a-great-product-will-sell-itself/?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "좋은 제품이 저절로 팔린다는 믿음은 흔한 실수다.",
+        "what": "창업자들은 적극적 영업·마케팅 없이도 좋은 제품이 스스로 팔린다고 잘못 믿는다.",
+        "points": [
+          "'스스로 팔린다'는 오해",
+          "영업·마케팅 필수",
+          "적극적 GTM 필요"
+        ],
+        "why": [
+          "초기 GTM 인식 교정"
+        ]
+      }
+    },
+    {
+      "id": "fnd-outbound-not-dead",
+      "title": "아웃바운드는 죽지 않았다, AI가 방식을 바꿨다",
+      "summary": "리스트 살포에서 구조화된 멀티채널 캠페인으로 전환.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/outbound-isnt-dead-ai-just-radically-changed-how-it-works/?utm_source=tldrfounders",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI가 아웃바운드를 구조화된 멀티채널 캠페인으로 바꿨다.",
+        "what": "AI가 아웃바운드를 리스트 살포에서 규모용 에이전트와 고가치 관계용 인간을 결합한 구조화된 멀티채널 캠페인으로 바꿨다.",
+        "points": [
+          "리스트 살포 탈피",
+          "에이전트+인간 결합",
+          "멀티채널 캠페인"
+        ],
+        "why": [
+          "AI 시대 영업 전략"
+        ]
+      }
+    }
+  ]
+}

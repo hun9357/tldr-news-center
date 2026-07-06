@@ -1,0 +1,269 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "🏦",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fin-plaid-ipo",
+      "title": "플레이드, 은행들과 잠재 IPO 논의",
+      "summary": "투자은행과 예비 논의 시작, 공개시장 근접 신호.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/plaid-talks-with-banks-about-potential-ipo/?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "플레이드가 잠재 IPO를 위해 투자은행과 예비 논의를 시작했다.",
+        "what": "플레이드가 잠재 IPO를 두고 투자은행들과 예비 논의를 시작해, 수년 준비 끝에 공개시장에 근접했음을 시사한다. 최종 결정·시점은 없지만, 마지막 사모 라운드 이후 AI 기반 리스크 모델과 신제품으로 사업을 강화해 왔다.",
+        "points": [
+          "투자은행과 예비 논의",
+          "시점·결정 미정",
+          "AI 리스크 모델 등 강화"
+        ],
+        "why": [
+          "핀테크 인프라 대형 IPO 가능성"
+        ]
+      }
+    },
+    {
+      "id": "fin-world-cup-prediction",
+      "title": "월드컵, 예측시장 거래량 사상 최고로",
+      "summary": "칼시 6월 310억 달러, 폴리마켓 108억 달러 기록.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/04/2026-fifa-world-cup-boosts-prediction-market-volumes.html?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "월드컵이 예측시장 거래량을 기록적으로 끌어올렸다.",
+        "what": "2026 월드컵이 예측시장 거래를 사상 최고로 밀어올려 칼시가 6월 310억 달러, 폴리마켓이 국제 108억 달러, 신규 Rothera가 20억 달러를 넘겼다. 규제·기관이 예측시장이 지속적 고거래를 시장 무결성·소비자 보호를 지키며 감당할지 평가하는 스트레스 테스트다.",
+        "points": [
+          "칼시 6월 310억 달러",
+          "폴리마켓 국제 108억 달러",
+          "신규 Rothera 20억+"
+        ],
+        "why": [
+          "예측시장 카테고리 스트레스 테스트"
+        ]
+      }
+    },
+    {
+      "id": "fin-ai-finance-jobs",
+      "title": "기술·금융 월 2.8만 일자리 감소, AI 노동 영향",
+      "summary": "금융·정보 부문이 2026년 월평균 2.8만 개 감소.",
+      "source": "Insurance Journal",
+      "url": "https://www.insurancejournal.com/news/national/2026/07/02/875989.htm?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 도입이 은행·금융 고용을 재편하기 시작했다.",
+        "what": "금융·정보 부문이 2026년 월평균 2.8만 개 일자리를 잃으며 AI 도입이 은행·금융 고용을 재편하기 시작했다. 금융은 인력 약 4분의 1이 고객서비스·텔러·청구처리 같은 사무·행정직이라 특히 노출됐고, JP모건·씨티·골드만삭스도 AI가 일부 일자리를 없앨 것을 인정했다.",
+        "points": [
+          "월평균 2.8만 개 감소",
+          "사무·행정직 노출 큼",
+          "대형은행도 감원 인정"
+        ],
+        "why": [
+          "AI의 금융 노동 영향 가시화"
+        ]
+      }
+    },
+    {
+      "id": "fin-robinhood-7-yield",
+      "title": "로빈후드 7% 수익률은 어디서 오나",
+      "summary": "탈중앙 프라임 브로커 모델로 향하는 로빈후드 분석.",
+      "source": "Fintech Brainfood",
+      "url": "https://www.fintechbrainfood.com/p/robinhood-earn?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "로빈후드가 단순 브로커리지를 넘어 탈중앙 프라임 브로커로 향한다.",
+        "what": "사이먼 테일러가 로빈후드의 새 7% APY 상품, 스톡 토큰, 메인넷, 유럽 무기한을 분석하며 로빈후드가 또 다른 브로커리지 앱이 아니라 탈중앙 프라임 브로커 모델로 향한다고 본다. 플레이드 IPO, Erebor 예금 성장, 메타의 칼시 관심, AI 네이티브 핀테크 흐름도 다룬다.",
+        "points": [
+          "7% APY·스톡 토큰·메인넷",
+          "탈중앙 프라임 브로커 지향",
+          "AI 네이티브 핀테크 흐름"
+        ],
+        "why": [
+          "로빈후드 전략 심층 분석"
+        ]
+      }
+    },
+    {
+      "id": "fin-coin-nobody-owns",
+      "title": "아무도 소유하지 않는 코인(OpenUSD)",
+      "summary": "기존 볼륨 경쟁이 아닌 오프체인 기관 흐름 잠금해제가 목표.",
+      "source": "Fintech Brainfood",
+      "url": "https://www.fintechbrainfood.com/p/the-coin-nobody-owns?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "OpenUSD는 기존 볼륨이 아닌 오프체인 기관 흐름을 노린다.",
+        "what": "사이먼 테일러는 OpenUSD가 서클·테더의 기존 스테이블코인 볼륨을 이기려는 게 아니라, 발행사 집중·수수료·준비금 경제·중립 거버넌스 부재로 오프체인에 머문 기관·결제 흐름을 잠금해제하려 한다고 본다. 140개 기업이 뒷받침하는 공유 금융 인프라로 규정한다.",
+        "points": [
+          "기존 볼륨 경쟁 아님",
+          "오프체인 기관 흐름 겨냥",
+          "140개 기업 지원"
+        ],
+        "why": [
+          "스테이블코인 인프라 논쟁"
+        ]
+      }
+    },
+    {
+      "id": "fin-robinhood-chain",
+      "title": "로빈후드, 실물자산용 블록체인 출시",
+      "summary": "토큰화 RWA·24시간 투자용 L2 로빈후드 체인 공개.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/blockchain/2026/robinhood-launches-blockchain-designed-for-real-world-assets/?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "로빈후드가 실물자산용 L2 블록체인을 출시했다.",
+        "what": "로빈후드가 토큰화 실물자산과 24시간 투자를 위한 L2 블록체인 로빈후드 체인을 출시하며 브로커리지를 넘어선다. 스톡 토큰·크립토 대출·무기한·AI 트레이딩 계좌를 도입하고 캐나다·싱가포르·영국으로 확장하며 풀스택 금융 플랫폼 전략을 강화한다.",
+        "points": [
+          "L2 로빈후드 체인 출시",
+          "스톡 토큰·무기한 등 도입",
+          "글로벌 확장 가속"
+        ],
+        "why": [
+          "전통투자+디파이 통합 전략"
+        ]
+      }
+    },
+    {
+      "id": "fin-apple-pay-amex-points",
+      "title": "애플페이, 아멕스 포인트로 결제 지원",
+      "summary": "멤버십 리워드를 체크아웃에서 직접 사용, 포인트당 0.7센트.",
+      "source": "tldr links",
+      "url": "https://links.tldrnewsletter.com/y0GART",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "아멕스 포인트를 애플페이 체크아웃에서 바로 쓸 수 있게 된다.",
+        "what": "아멕스 카드 소지자가 애플페이 체크아웃에서 멤버십 리워드 포인트를 실시간 결제 수단으로 직접 사용할 수 있게 된다. 포인트당 0.7센트로 일반 명세서 크레딧보다 낫지만 항공·호텔 이전 가치보다는 낮다.",
+        "points": [
+          "체크아웃서 포인트 결제",
+          "포인트당 0.7센트",
+          "앱 전환·사후 적용 불필요"
+        ],
+        "why": [
+          "로열티 포인트 결제 통합"
+        ]
+      }
+    },
+    {
+      "id": "fin-square-ai-integrations",
+      "title": "스퀘어, 챗GPT·클로드 통합으로 AI 발견 지원",
+      "summary": "F&B 판매자가 AI 대화로 메뉴 노출·주문 수신.",
+      "source": "Square",
+      "url": "https://squareup.com/us/en/press/claude-chatgpt-integrations?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "스퀘어가 AI 대화로 판매자를 발견·주문받게 하는 통합을 냈다.",
+        "what": "스퀘어가 챗GPT·클로드 통합을 출시해 미국 F&B 판매자가 추가 설정·마켓플레이스 수수료 없이 AI 대화로 발견되고 메뉴를 보여주며 주문을 받게 한다. 스퀘어를 에이전트 커머스의 연결 계층으로 자리매김한다.",
+        "points": [
+          "챗GPT·클로드 통합",
+          "수수료 없이 주문 수신",
+          "에이전트 커머스 연결 계층"
+        ],
+        "why": [
+          "에이전트 커머스 확산"
+        ]
+      }
+    },
+    {
+      "id": "fin-meta-compute-cash",
+      "title": "메타, 스페이스X처럼 잉여 AI 컴퓨트 현금화",
+      "summary": "잉여 컴퓨트·호스팅 모델을 기업 고객에 판매 검토.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "메타가 잉여 AI 컴퓨트를 팔아 인프라를 수익화하려 한다.",
+        "what": "메타가 잉여 컴퓨트와 호스팅 AI 모델을 기업 고객에 팔아 대규모 AI 투자를 수익화하는 클라우드 사업을 검토한다. AI 인프라를 수익 자산으로 취급하는 흐름을 반영하며, 스페이스X·코어위브가 데이터센터·GPU 소유의 가치를 입증했다.",
+        "points": [
+          "잉여 컴퓨트 판매 검토",
+          "인프라를 수익 자산화",
+          "스페이스X·코어위브 선례"
+        ],
+        "why": [
+          "AI 인프라 수익화 트렌드"
+        ]
+      }
+    },
+    {
+      "id": "fin-tiktok-settle",
+      "title": "틱톡, 캘리포니아 SNS 재판 전 청소년 원고와 합의",
+      "summary": "중독·수면손실 주장 15세 소송을 원칙적 합의.",
+      "source": "Carrier Management",
+      "url": "https://www.carriermanagement.com/news/2026/07/02/289708.htm?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "틱톡이 청소년 원고 소송을 재판 전 원칙 합의했다.",
+        "what": "틱톡이 수년 SNS 사용으로 중독·수면손실·우울·불안을 겪었다는 15세의 소송을 원칙적으로 합의했다. 캘리포니아 주·연방에 5,900건 넘는 관련 소송이 계류 중이며, 메타·스냅챗은 7월 27일 재판을 앞두고 있다.",
+        "points": [
+          "15세 소송 원칙 합의",
+          "5,900건+ 계류",
+          "메타·스냅 7/27 재판"
+        ],
+        "why": [
+          "청소년 대상 제품 설계 법적 리스크"
+        ]
+      }
+    },
+    {
+      "id": "fin-kraken-reap",
+      "title": "크라켄 플랫폼 페이워드, 결제사 Reap 인수",
+      "summary": "카드 발행·국경 간 송금·스테이블코인 재무를 단일 플랫폼에.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/cryptocurrency/2026/kraken-platform-payward-acquires-payments-firm-reap/?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "페이워드가 Reap을 인수해 B2B 금융 인프라를 확장한다.",
+        "what": "페이워드가 임베디드 카드 발행, 국경 간 송금, 스테이블코인 기반 재무 관리를 단일 플랫폼에 더하며 B2B 금융 인프라 야망을 넓힌다.",
+        "points": [
+          "결제사 Reap 인수",
+          "카드 발행·국경 송금 추가",
+          "스테이블코인 재무 관리"
+        ],
+        "why": [
+          "크립토 거래소의 B2B 확장"
+        ]
+      }
+    },
+    {
+      "id": "fin-robinhood-expansion",
+      "title": "로빈후드, 체인 메인넷·스톡토큰·에이전트 트레이딩으로 글로벌 확장",
+      "summary": "스톡토큰 120개국+ 확대, Earn 7% APY 디파이 대출 도입.",
+      "source": "Robinhood",
+      "url": "https://robinhood.com/us/en/newsroom/robinhood-accelerates-global-expansion-robinhood-chain-mainnet-stock-tokens-agentic-trading/?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "로빈후드가 체인 메인넷과 신상품으로 글로벌 확장을 가속한다.",
+        "what": "로빈후드가 로빈후드 체인 퍼블릭 메인넷을 출범하고 스톡 토큰을 120개국 이상으로 확대했다. 로빈후드 Earn을 통한 7% APY 디파이 대출 상품을 도입하고 크립토·원자재·ETF·FX 무기한을 추가했다.",
+        "points": [
+          "체인 퍼블릭 메인넷",
+          "스톡토큰 120개국+",
+          "Earn 7% APY 대출"
+        ],
+        "why": [
+          "로빈후드 디파이 확장"
+        ]
+      }
+    },
+    {
+      "id": "fin-meta-kalshi",
+      "title": "메타, 자체 예측시장 앱 전 칼시 인수 검토",
+      "summary": "칼시 인수 대신 플레이머니 앱 Arena 개발 결정.",
+      "source": "NPR",
+      "url": "https://www.npr.org/2026/06/30/nx-s1-5875468/meta-kalshi-prediction-market-acquisition-talks?utm_source=tldrfintech",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "메타가 칼시 인수를 검토했다가 자체 앱 Arena를 만들기로 했다.",
+        "what": "메타가 칼시 인수를 검토했으나, 실제 돈이 아닌 플레이머니를 쓰는 자체 예측시장 앱 Arena를 개발하기로 결정한 것으로 전해진다.",
+        "points": [
+          "칼시 인수 검토",
+          "자체 앱 Arena 개발",
+          "플레이머니 방식"
+        ],
+        "why": [
+          "빅테크의 예측시장 진입 관측"
+        ]
+      }
+    }
+  ]
+}
