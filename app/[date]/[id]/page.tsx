@@ -17,7 +17,7 @@ export default function ReportPage({ params }: { params: { date: string; id: str
     throw new Error("not found");
   }
   const { item, edition } = found;
-  const r = item.report;
+  const r = item.report ?? { tldr: item.summary || item.title };
   const intel = item.intel;
 
   return (
