@@ -1,0 +1,177 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-meta-ai-search",
+      "title": "메타 AI가 검색의 '잠자는 거인'이 될 수 있는 이유",
+      "summary": "메타 AI가 월 10억 사용자에 도달했고, 메타의 일 35.6억 활성 사용자를 지렛대 삼아 주요 디스커버리 채널로 부상 중이다. 브랜드는 전통 SEO보다 소셜 콘텐츠·제품 데이터에 집중해야 한다.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/meta-ai-search-sleeping-giant-481581",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "76%",
+        "owner": "Marketing / SEO",
+        "status": "Watch",
+        "affectedSurface": "AI 검색 · 디스커버리"
+      },
+      "report": {
+        "tldr": "메타 AI가 대규모 사용자 기반으로 새로운 디스커버리 채널이 된다.",
+        "what": "메타 AI가 월 10억 사용자에 도달, 35.6억 DAU를 활용해 검색·디스커버리 채널로 성장.",
+        "points": ["월 10억 사용자", "35.6억 DAU 지렛대", "소셜 콘텐츠·제품 데이터 중심 전략"],
+        "why": ["AI 디스커버리가 전통 SEO를 대체·보완하는 국면"]
+      }
+    },
+    {
+      "id": "mkt-physical-media-dying",
+      "title": "물리 미디어의 종말, '소유' 개념도 함께 사라진다",
+      "summary": "디지털 전용 배포가 물리 미디어 소유를 취소 가능한 라이선스로 대체한다. 소니의 플레이스테이션 전환이 대표 사례로, 라이선스 변경 시 콘텐츠가 사라질 수 있다.",
+      "source": "Fast Company",
+      "url": "https://www.fastcompany.com/91568840/physical-media-is-dying-so-is-the-idea-that-you-own-what-you-buy",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "'구매=소유'가 '접근권 라이선스'로 바뀌며 소비자 권리가 약화된다.",
+        "what": "디지털 전용 배포가 소유를 취소 가능한 라이선스로 대체, 콘텐츠 접근이 불안정해진다.",
+        "points": ["디지털 전용 전환", "취소 가능한 라이선스", "소니 PS 사례"],
+        "why": ["소유권 서사는 브랜드 신뢰·소비자 관계에 영향"]
+      }
+    },
+    {
+      "id": "mkt-linkedin-ad-formats",
+      "title": "링크드인 광고 포맷 비교: 캐러셀 vs 문서, 컨보 vs 메시지",
+      "summary": "작은 포맷 차이가 링크드인 광고 성과에 큰 영향을 미치며, 문서 광고가 캐러셀을 앞서는 경우가 많다. 일관된 승자는 없어 테스트가 필수다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/robmuldoon_31linkedinadslearnings-share-7478733305748545536-4CNV/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "링크드인 광고는 포맷 테스트가 성과의 핵심.",
+        "what": "포맷별 성과 차이가 크고 문서 광고가 종종 우세하나, 캠페인마다 승자가 달라 테스트가 필요.",
+        "points": ["문서 광고 우세 경향", "일관된 승자 없음"],
+        "why": ["채널별 크리에이티브 최적화의 실무 근거"]
+      }
+    },
+    {
+      "id": "mkt-viral-post-written",
+      "title": "당신의 다음 바이럴 게시물은 이미 쓰여 있다",
+      "summary": "지배적 바이럴 포맷은 실제 뉴스 이벤트를 하이재킹한다. 소니 발표가 패러디 반응을 낳았고, 깃허브는 CD-ROM으로 코드를 배송해 해커뉴스의 주목을 받았다.",
+      "source": "Marketing Ideas",
+      "url": "https://www.marketingideas.com/p/your-perfect-viral-post-is-here",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "뉴스 이벤트 편승이 바이럴의 반복 가능한 공식.",
+        "what": "실시간 뉴스에 편승한 패러디·화제성 콘텐츠가 바이럴 포맷을 지배한다는 분석.",
+        "points": ["뉴스재킹 포맷", "패러디·화제성 활용"],
+        "why": ["예측 가능한 바이럴 구조를 마케팅에 활용"]
+      }
+    },
+    {
+      "id": "mkt-self-promo-backfire",
+      "title": "자기홍보 콘텐츠는 통한다 — 역효과가 나기 전까지는",
+      "summary": "자기홍보 페이지가 신생 브랜드의 AI 인용을 높였지만(소유 콘텐츠 82%), 43%는 인용과 함께 경쟁사를 추천하는 역효과를 냈다.",
+      "source": "Ahrefs",
+      "url": "https://ahrefs.com/blog/self-promotional-content-ai-seo-experiment/",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "74%",
+        "owner": "Marketing / SEO",
+        "status": "New",
+        "affectedSurface": "AI 인용 · GEO"
+      },
+      "report": {
+        "tldr": "AI 인용 최적화는 양날의 검 — 경쟁사 추천 역효과 주의.",
+        "what": "자기홍보 페이지가 AI 인용을 82%까지 끌어올렸지만 43%는 경쟁사를 함께 추천했다.",
+        "points": ["소유 콘텐츠 인용 82%", "43% 경쟁사 동반 추천"],
+        "why": ["생성형 검색 최적화(GEO)의 리스크를 실증"]
+      }
+    },
+    {
+      "id": "mkt-ai-visibility-useless",
+      "title": "AI 가시성 점수는 쓸모없다",
+      "summary": "AI 가시성 도구는 쉽게 조작 가능한 프롬프트에 의존해 최적화가 무의미하다. 대신 브랜드 포지셔닝과 인용 소스에 집중하라는 조언.",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/ai-visibility-scores-are-useless",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "조작 가능한 AI 가시성 점수보다 브랜드·소스에 집중하라.",
+        "what": "프롬프트 의존적 AI 가시성 도구의 한계를 지적하며 근본 전략을 권한다.",
+        "points": ["프롬프트 조작 가능성", "브랜드·인용 소스 우선"],
+        "why": ["AI 마케팅 지표의 신뢰성 검증 필요"]
+      }
+    },
+    {
+      "id": "mkt-chatgpt-data-sources",
+      "title": "소스코드에서 챗GPT의 데이터 출처 찾기",
+      "summary": "크롬 데브툴이 Labrador·SERP·BrightData·Oxylabs 등 챗GPT의 소스를 드러낸다. 이를 이해하면 AI 인용을 위한 콘텐츠 최적화에 도움이 된다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/chris-long-marketing_seo-tip-hidden-in-the-source-code-chatgpt-share-7479880034527264768-KHmm/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 답변의 데이터 출처를 역추적해 GEO에 활용.",
+        "what": "데브툴로 챗GPT의 소스(SERP·BrightData 등)를 확인해 인용 최적화에 참고.",
+        "points": ["소스 역추적", "AI 인용 최적화"],
+        "why": ["생성형 검색 시대의 실무 SEO 기법"]
+      }
+    },
+    {
+      "id": "mkt-ai-shifts-opinions",
+      "title": "AI 도구가 소셜 게시물을 '정리'하며 조용히 의견을 바꾼다",
+      "summary": "AI 글쓰기 보조가 보존 요청에도 여러 주제에서 톤 방향을 미묘하게 밀어붙여 사용자 의도를 바꿀 수 있다는 연구.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/social-media/ai-tools-can-quietly-shift-your-opinions-when-they-clean-up-your-social-media-posts-study-finds/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 편집이 사용자 의도·의견을 무의식적으로 변형시킨다.",
+        "what": "AI 글쓰기 보조가 톤을 미묘하게 밀어붙여 원 의도를 바꿀 수 있다는 연구 결과.",
+        "points": ["톤 편향 발생", "의도 왜곡 가능성"],
+        "why": ["AI 편집 도구의 윤리·투명성 이슈"]
+      }
+    },
+    {
+      "id": "mkt-education-row",
+      "title": "마케팅 교육 논쟁, 양쪽 다 옳다",
+      "summary": "양극화된 논쟁이 기초 지식과 현대적 적응이 모두 중요하다는 점을 놓친다. 진짜 격차는 배움을 실무 맥락에 적용하는 데 있다.",
+      "source": "Marketing Week",
+      "url": "https://www.marketingweek.com/both-sidesmarketing-education-row/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "기초 vs 실무 논쟁의 핵심은 '적용력'에 있다.",
+        "what": "마케팅 교육 논쟁에서 기초와 현대적 적응 모두 필요하며 적용이 관건이라는 진단.",
+        "points": ["기초+현대 적응 병행", "적용력이 진짜 격차"],
+        "why": ["마케터 역량 개발 방향에 시사점"]
+      }
+    },
+    {
+      "id": "mkt-original-data-cited",
+      "title": "대부분의 원본 데이터가 인용되지 않는 이유",
+      "summary": "원본 리서치는 '무엇이 가장 나은가'에 답하는 직접 벤치마크로 패키징될 때 주로 인용된다.",
+      "source": "Growth Memo",
+      "url": "https://www.growth-memo.com/p/why-most-original-data-never-gets",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "원본 데이터는 '벤치마크'로 포장돼야 인용된다.",
+        "what": "직접 비교 벤치마크 형태의 리서치가 인용을 얻는다는 관찰.",
+        "points": ["벤치마크 패키징", "'최고' 질문에 답"],
+        "why": ["콘텐츠 인용·링크빌딩 전략의 핵심"]
+      }
+    },
+    {
+      "id": "mkt-google-ads-waste-analyzer",
+      "title": "구글 광고 검색어 낭비 분석기",
+      "summary": "구글 광고 리포트 분석으로 낭비된 광고비, 네거티브 키워드, 고의도 쿼리를 식별하는 브라우저 기반 도구.",
+      "source": "David Tamachi",
+      "url": "https://davidtamachi.ca/google-ads-search-terms-waste-analyzer",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "검색어 리포트로 광고비 낭비를 걸러내는 실무 도구.",
+        "what": "브라우저 도구가 낭비 지출·네거티브 키워드·고의도 쿼리를 식별.",
+        "points": ["광고비 낭비 식별", "네거티브 키워드 발굴"],
+        "why": ["검색 광고 효율화의 실용 도구"]
+      }
+    }
+  ]
+}

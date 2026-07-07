@@ -1,0 +1,210 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-nvidia-kyber-delay",
+      "title": "엔비디아 차세대 '카이버' 랙 시스템, 제조 문제로 2028년으로 연기",
+      "summary": "엔비디아가 핵심 회로기판 부품의 제조 난항으로 카이버(Kyber) 랙-스케일 아키텍처를 1년 넘게 연기했다. 매년 신제품을 내놓겠다는 공격적 로드맵에 제동이 걸린 셈이다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/06/nvidia-kyber-rack-system-delays-manufacturing-taiwan-rubin-chips-.html",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Infra / Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 데이터센터 · GPU 공급"
+      },
+      "report": {
+        "tldr": "AI 인프라 확장의 병목이 전력·부지에서 다시 '하드웨어 양산'으로 옮겨가고 있다.",
+        "what": "엔비디아가 루빈 세대 이후 랙-스케일 아키텍처 '카이버'를 2028년으로 1년 이상 미뤘다. 대만발 회로기판 부품 수율 문제가 원인으로 지목된다.",
+        "points": [
+          "매년 아키텍처를 갱신하는 연간 릴리스 전략의 첫 대형 지연",
+          "핵심 부품 병목이 랙 전체 출하를 지연시키는 구조적 리스크",
+          "대규모 컴퓨트 리스 계약(테라울프·앤트로픽 등)의 구축 일정에도 영향 가능"
+        ],
+        "why": [
+          "하이퍼스케일러의 2027~2028 캐파 계획이 하드웨어 로드맵에 직접 묶여 있다",
+          "지연은 커스텀 ASIC(브로드컴·구글 등) 대안 채택을 가속할 수 있다"
+        ],
+        "context": "랙-스케일 아키텍처는 GPU 개별이 아닌 랙 단위로 성능을 끌어올리는 방식으로, 부품 하나의 수율이 전체 출하를 좌우한다.",
+        "action": "2027~2028 컴퓨트 조달 계획을 단일 벤더 로드맵에 고정하지 말고 ASIC·대체 공급 시나리오를 병행 검토."
+      }
+    },
+    {
+      "id": "tech-apple-iphone-ultra-price",
+      "title": "애플 폴더블 '아이폰 울트라', 17 프로 맥스의 두 배 가격 전망",
+      "summary": "9월 아이폰 18 라인업과 함께 나올 폴더블 아이폰 울트라의 예상가는 약 2,400달러로, 즉시 품절과 연말까지 배송 지연이 예상된다.",
+      "source": "Mashable",
+      "url": "https://mashable.com/tech/apple-iphone-ultra-price-rumor",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "애플이 초프리미엄 폴더블로 스마트폰 ASP를 한 단계 끌어올리려 한다.",
+        "what": "아이폰 울트라(폴더블)가 9월 출시 예정이며 가격은 2,400달러 안팎으로 추정된다. 초기 물량은 극히 제한적일 전망.",
+        "points": [
+          "프로 맥스(20~22백만 대)와 달리 초기 물량 50만~100만 대 수준 관측",
+          "높은 가격에도 초기 완판 및 배송 지연 예상"
+        ],
+        "why": [
+          "폴더블 진입은 삼성·중국 제조사와의 프리미엄 폼팩터 경쟁 격화 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-alibaba-ai-moneymaker",
+      "title": "알리바바 AI는 인기몰이 중이지만 수익화는 난제",
+      "summary": "알리바바의 자유롭게 수정 가능한 오픈소스 모델(Qwen)은 비용에서 미국 폐쇄형 경쟁자를 앞서지만, 글로벌 인기를 수익으로 전환하는 데 어려움을 겪고 있다.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/07/06/business/alibaba-ai-qwen.html",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "오픈소스 모델 · 클라우드"
+      },
+      "report": {
+        "tldr": "오픈소스 우위가 곧 수익 우위는 아니다 — 중국 AI의 수익화 과제.",
+        "what": "Qwen 계열이 저비용·개방성으로 채택을 늘리고 있으나, 매출·마진으로 이어지지 않는 구조적 한계가 부각됐다.",
+        "points": [
+          "무료·수정 가능 라이선스가 채택은 높이되 직접 매출은 낮춤",
+          "미국 폐쇄형(오픈AI·앤트로픽)과 상반된 수익 모델"
+        ],
+        "why": [
+          "오픈소스 확산은 엔터프라이즈 AI 가격을 전방위로 압박한다"
+        ]
+      }
+    },
+    {
+      "id": "tech-msft-xbox-layoffs",
+      "title": "마이크로소프트, Xbox 부문서 3,000명 이상 감원",
+      "summary": "이번 감원은 Xbox 인력의 약 20%에 해당한다. 게이밍 사업 재편이 이어지고 있다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/microsoft-layoffs-xbox-59e7f6df",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "빅테크의 비핵심·소비자 부문 구조조정이 AI 투자 재원 확보와 맞물려 계속된다.",
+        "what": "마이크로소프트가 Xbox 부문에서 3,000명 이상(약 20%)을 감원한다.",
+        "points": ["게이밍 조직의 대규모 축소", "AI·클라우드 중심 자원 재배치 흐름의 일부"],
+        "why": ["빅테크가 인력을 AI 인프라로 재배분하는 추세를 재확인"]
+      }
+    },
+    {
+      "id": "tech-ai-jobs-flip",
+      "title": "빅테크, 'AI 일자리 대량소멸' 시나리오에서 급선회",
+      "summary": "테크 경영진이 AI 일자리 대체론을 뒤집어, 대체보다 생산성 향상으로 강화되는 인간 중심 역할을 강조하기 시작했다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 일자리 담론이 '대체'에서 '증강'으로 톤을 바꾸고 있다.",
+        "what": "CEO들이 종전의 대량 감원 예측을 완화하고 AI로 강화된 인간 역할을 강조하는 방향으로 메시지를 전환했다.",
+        "points": ["대체 서사에서 증강 서사로의 프레이밍 전환", "채용 데이터(램프 등)는 AI 도입 기업의 인력 증가를 시사"],
+        "why": ["규제·여론 리스크 관리 차원의 메시지 조정 가능성"]
+      }
+    },
+    {
+      "id": "tech-price-per-token-meaningless",
+      "title": "'100만 토큰당 가격'은 무의미하다",
+      "summary": "토큰 단가 비교는 모델별 토크나이징 차이로 오도되기 쉽다. 완료 작업당 비용(cost-per-task)이 실질 경제성을 더 잘 보여준다.",
+      "source": "Janilowski Blog",
+      "url": "https://janilowski.pl/en/blog/2026/price-per-m-tokens/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 비용은 토큰 단가가 아니라 '작업당 총비용'으로 봐야 한다.",
+        "what": "모델마다 같은 텍스트를 다른 토큰 수로 처리하므로 100만 토큰당 가격은 실제 지출을 왜곡한다는 주장.",
+        "points": ["토크나이저 차이가 단가 비교를 무력화", "작업 완료당 비용이 더 정확한 지표"],
+        "why": ["모델 선택·예산 산정 기준을 재정의하는 실무 관점"]
+      }
+    },
+    {
+      "id": "tech-robots-are-here",
+      "title": "로봇이 왔다: 자본과 노동의 분리",
+      "summary": "로봇이 자본을 인간 노동에서 분리해 생산을 근본적으로 바꾼다는 분석. 로보틱스를 진정한 범용 기술로 보고 중국의 경쟁 우위를 조명한다.",
+      "source": "China Talk Media",
+      "url": "https://www.chinatalk.media/p/the-robots-are-here",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "로보틱스가 범용 기술(GPT)로 부상하며 제조 패러다임을 재편한다.",
+        "what": "로봇이 노동에 묶여 있던 생산 능력을 해방시켜 이전에 불가능했던 역량을 가능케 한다는 논지.",
+        "points": ["자본-노동 결합의 해체", "중국의 공급망·양산 우위 부각"],
+        "why": ["AI에 이어 로보틱스가 다음 산업 경쟁의 축이 될 가능성"]
+      }
+    },
+    {
+      "id": "tech-netflix-one-season",
+      "title": "넷플릭스 시청자, 시즌 1 이후 이탈 가속",
+      "summary": "넷플릭스가 시즌 1 이후 시청 유지율 하락으로 투자자 우려에 직면했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-07-05/netflix-viewers-are-abandoning-shows-after-one-season",
+      "originalDate": "2026-07-05",
+      "report": {
+        "tldr": "콘텐츠 유지율 하락이 스트리밍 성장 서사에 균열을 낸다.",
+        "what": "넷플릭스 오리지널의 시즌 지속 시청률이 떨어지며 리텐션 우려가 커지고 있다.",
+        "points": ["시즌 1 이후 이탈 심화", "콘텐츠 투자 대비 유지율 압박"],
+        "why": ["구독 성장 둔화 국면에서 리텐션은 핵심 지표"]
+      }
+    },
+    {
+      "id": "tech-egypt-new-nile",
+      "title": "이집트, '새로운 나일강'을 건설하다",
+      "summary": "이집트의 신(新)델타 프로젝트는 물 재활용과 사막 관개로 나일 델타의 압력을 완화하려 하지만, 대수층 고갈로 지속가능성 우려가 남는다.",
+      "source": "The B1M",
+      "url": "https://www.theb1m.com/video/egypt-is-building-a-new-nile",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "대형 인프라로 물 부족에 대응하지만 지속가능성이 관건.",
+        "what": "이집트가 물 재활용·관개 기반의 신델타 이니셔티브로 사막을 개간한다.",
+        "points": ["물 재활용·사막 관개 중심", "대수층 고갈 속도가 보충을 앞서는 리스크"],
+        "why": ["기후·자원 제약 하 메가 인프라의 사례"]
+      }
+    },
+    {
+      "id": "tech-100x-agentic-engineer",
+      "title": "Fable·GPT-5.6 시대의 '100배 에이전트 엔지니어'",
+      "summary": "에이전트 코딩으로 상위 엔지니어가 유지하는 생산성 격차를 분석하며, 이것이 학습 가능한 기술이자 성장 여지가 큰 역량임을 강조한다.",
+      "source": "X",
+      "url": "https://x.com/systematicls/status/2074142558595207435",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트 코딩 숙련도가 새로운 생산성 격차의 축이 된다.",
+        "what": "최상위 엔지니어가 에이전트 도구로 중위 대비 큰 격차의 생산성을 내며, 이는 학습 가능한 스킬이라는 주장.",
+        "points": ["에이전트 활용 숙련이 격차의 핵심", "학습 가능·성장 여지 강조"],
+        "why": ["조직의 AI 도입은 도구뿐 아니라 스킬 육성이 관건"]
+      }
+    },
+    {
+      "id": "tech-fde-diluted",
+      "title": "'포워드 디플로이드 엔지니어링'이 희석되고 있다",
+      "summary": "FDE 역할이 확산되면서 조직이 관련 시장 수요와 스킬 격차를 인식·대응하고 있다.",
+      "source": "Seattle Data Guy",
+      "url": "https://seattledataguy.substack.com/p/forward-deployed-engineering-is-about",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "고객 현장 밀착형 엔지니어링 역할이 대중화되며 정의가 흐려진다.",
+        "what": "FDE 수요 확대와 함께 역할 경계가 희석되는 현상을 짚는다.",
+        "points": ["FDE 수요 확산", "역할 정의·스킬 격차 부각"],
+        "why": ["엔지니어 커리어 경로 재편 신호"]
+      }
+    },
+    {
+      "id": "tech-dna-at-home",
+      "title": "집에서 내 DNA를 시퀀싱하는 법",
+      "summary": "DNA 채취·전처리·시퀀싱 실행·전산 분석까지 가정용 유전체 분석을 위한 실전 가이드.",
+      "source": "Bradley Woolf",
+      "url": "https://bradleywoolf.com/links-1/sequencing-my-own-dna-at-home",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "유전체 분석의 진입 장벽이 개인 수준으로 낮아지고 있다.",
+        "what": "가정에서 DNA를 채취해 시퀀싱하고 분석하는 전 과정을 정리한 실용 가이드.",
+        "points": ["채취·전처리·시퀀싱·분석 단계별 안내", "개인 유전체의 접근성 확대"],
+        "why": ["바이오 도구의 민주화 흐름"]
+      }
+    }
+  ]
+}

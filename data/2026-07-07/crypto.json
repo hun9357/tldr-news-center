@@ -1,0 +1,184 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-ofac-isisk-wallets",
+      "title": "OFAC, ISIS-K 크립토 지갑 134개 제재…테더는 자금 동결",
+      "summary": "연방 규제당국이 ISIS-호라산 연계 지갑 주소 134개를 제재 목록에 올렸고, 테더는 2023년 이후 140만 달러 이상이 담긴 트론 주소 131개의 잔액을 동결했다.",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/ofac-134-isis-k-crypto-wallets-tether-freezes-131",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "82%",
+        "owner": "Compliance",
+        "status": "Watch",
+        "affectedSurface": "스테이블코인 · 제재"
+      },
+      "report": {
+        "tldr": "스테이블코인 발행사의 동결 권한이 제재 집행의 도구로 부각.",
+        "what": "OFAC가 ISIS-K 연계 지갑 134개를 제재하고 테더가 트론 상 131개 주소(140만 달러+)를 동결.",
+        "points": ["지갑 134개 제재", "테더 131개 주소 동결", "테러자금 대응"],
+        "why": ["중앙화 스테이블코인의 검열·동결 능력이 재확인됨"]
+      }
+    },
+    {
+      "id": "crypto-vitalik-lean-chain",
+      "title": "비탈릭, '극도로 가벼운' 컨센서스 체인 제안",
+      "summary": "비탈릭 부테린이 예치 트리 인덱스와 일일 STARK 증명으로 검증자당 상태를 6바이트로 줄여 검증자 집합을 수백만 규모로 확장하고 프라이버시를 더하는 방안을 제안했다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/the-extremely-lean-chain/25369",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "72%",
+        "owner": "Protocol",
+        "status": "New",
+        "affectedSurface": "이더리움 컨센서스"
+      },
+      "report": {
+        "tldr": "검증자 상태를 극단적으로 압축해 탈중앙·확장·프라이버시를 동시에 노린다.",
+        "what": "검증자당 상태 6바이트, 일일 STARK 증명으로 수백만 검증자 확장과 프라이버시를 추가하는 설계.",
+        "points": ["검증자당 6바이트", "일일 STARK 증명", "검증자 수백만 확장"],
+        "why": ["대규모 탈중앙화와 검증 비용 절감의 균형을 모색"]
+      }
+    },
+    {
+      "id": "crypto-native-utxo-eth",
+      "title": "이더리움 위의 네이티브 UTXO",
+      "summary": "이더리움 계정 모델과 병행하는 UTXO 모델 제안으로, 엔트리당 상태를 100~150바이트에서 0.3바이트로 줄이고 0-ETH 수취인도 받은 UTXO를 쓸 수 있게 한다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/native-utxos-on-ethereum/25368",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "UTXO 병행 모델로 이더리움 상태 팽창 문제를 완화.",
+        "what": "계정 모델과 함께 UTXO를 도입해 엔트리당 상태를 대폭 줄이는 제안.",
+        "points": ["상태 100~150B→0.3B", "0-ETH 수취인 사용성 개선"],
+        "why": ["상태 비대화는 노드 운영·탈중앙화의 지속 과제"]
+      }
+    },
+    {
+      "id": "crypto-priority-fees-decline",
+      "title": "우선순위 수수료 하락은 좋은 신호다",
+      "summary": "이더리움 우선순위 수수료가 활동 증가에도 평탄한데, 앱들이 자체 오더링으로 MEV를 내재화하면서 베이스 수수료가 주 수익원이 되고 있다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2074050053518283170.html",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "MEV 내재화가 수수료 구조를 베이스피 중심으로 재편.",
+        "what": "앱이 자체 오더링으로 MEV를 흡수하며 우선순위 수수료가 정체, 베이스 수수료 비중이 커진다.",
+        "points": ["우선순위 수수료 정체", "앱 레벨 MEV 내재화"],
+        "why": ["수수료 시장 구조 변화가 밸류에이션 논리에 영향"]
+      }
+    },
+    {
+      "id": "crypto-bitmine-5pct-eth",
+      "title": "비트마인 트레저리, 이더리움 총공급의 5% 근접",
+      "summary": "비트마인이 42,197 ETH(약 7,400만 달러)를 추가 매입해 총 574만 ETH, 이더리움 공급의 약 4.8%를 보유하게 됐다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407283/bitmines-tom-lee-ties-ether-strength-to-clarity-act-odds-as-treasury-nears-5-of-ethereums-total-supply",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Markets",
+        "status": "Watch",
+        "affectedSurface": "ETH 트레저리"
+      },
+      "report": {
+        "tldr": "기업 트레저리의 ETH 집중이 공급의 5%에 다가선다.",
+        "what": "비트마인이 574만 ETH(공급의 ~4.8%)를 축적하며 매집을 이어간다.",
+        "points": ["누적 574만 ETH", "공급의 약 4.8%"],
+        "why": ["대형 트레저리 집중은 유통량·변동성에 구조적 영향"]
+      }
+    },
+    {
+      "id": "crypto-strategy-sells-btc",
+      "title": "스트래티지, 3,588 BTC 매각…보유분은 여전히 손실권",
+      "summary": "스트래티지가 배당·달러 준비금 마련을 위해 3,588 BTC(약 2억 1,600만 달러)를 팔아 보유량을 843,775 BTC로 줄였다. 평균 매입가는 74,476달러.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407217/strategy-bitcoin-digital-energy",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "대표적 BTC 트레저리가 유동성 확보를 위해 매각에 나섰다.",
+        "what": "스트래티지가 3,588 BTC를 매각해 843,775 BTC로 축소, 평단 74,476달러.",
+        "points": ["3,588 BTC 매각", "배당·달러 준비금 목적"],
+        "why": ["레버리지 트레저리 전략의 현금흐름 부담을 시사"]
+      }
+    },
+    {
+      "id": "crypto-dormant-btc-moves",
+      "title": "15년 잠자던 190만 달러 비트코인, 뉴욕 소송 속 이동",
+      "summary": "2011년 이후 비활성이던 비트코인 주소가 30 BTC(약 188만 달러)를 옮겼다. 뉴욕의 분실물 법령이 비활성 크립토에 적용되는지 다투는 소송의 일부다.",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/dormant-bitcoin-new-york-lawsuit-moved-15-years",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "비활성 크립토의 법적 소유권 문제가 법정으로.",
+        "what": "15년 잠자던 주소가 30 BTC를 이동, 분실물 법령의 크립토 적용 여부가 쟁점.",
+        "points": ["2011년 이후 첫 이동", "분실물 법령 적용 소송"],
+        "why": ["휴면 자산의 법적 지위는 미정의 규제 공백"]
+      }
+    },
+    {
+      "id": "crypto-sber-wallet",
+      "title": "러시아 스베르방크, 12월 크립토 지갑 출시 계획",
+      "summary": "러시아 최대 은행이 9월 1일 디지털자산 법 발효를 전제로 12월 1일까지 모바일 앱에 크립토 지갑을 통합할 계획이다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407273/russias-largest-bank-sber-targets-early-december-crypto-wallet-launch-report",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "제도권 은행이 법제화에 맞춰 크립토 지갑을 준비.",
+        "what": "스베르방크가 9/1 법 발효를 전제로 12/1 모바일 크립토 지갑 통합을 계획.",
+        "points": ["12/1 목표", "디지털자산 법 발효 전제"],
+        "why": ["제재 하 러시아의 디지털자산 제도화 움직임"]
+      }
+    },
+    {
+      "id": "crypto-x402-tweet-api",
+      "title": "트윗 한 줄로 x402 API 배포",
+      "summary": "Bankr가 자연어 트윗으로 요청당 5 USDC를 과금하는 수익형 API 엔드포인트를 코드 없이 배포하는 시연을 선보였다(상금 풀 1,000달러).",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2073993861182226760.html",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "x402 결제 표준으로 API 수익화 진입장벽을 낮춘다.",
+        "what": "Bankr가 트윗만으로 요청당 과금 API를 코드 없이 배포하는 데모를 공개.",
+        "points": ["요청당 5 USDC 과금", "노코드 배포"],
+        "why": ["온체인 마이크로페이먼트의 실사용 사례"]
+      }
+    },
+    {
+      "id": "crypto-founders-dont-care-token",
+      "title": "창업자들이 자기 토큰에 관심 없는 이유",
+      "summary": "지분과 토큰 구조를 함께 둔 프로토콜은 규제·거버넌스 리스크로 토큰이 장부가 이하로 거래되는 경우가 많아, 구조적으로 지분 투자에 유리한 인센티브가 생긴다.",
+      "source": "X (563defi)",
+      "url": "https://x.com/563defi/status/2072735728065216596",
+      "originalDate": "2026-07-04",
+      "report": {
+        "tldr": "지분·토큰 병행 구조가 토큰 가치를 구조적으로 억누른다.",
+        "what": "규제·거버넌스 리스크로 토큰이 저평가되며 창업자 인센티브가 지분으로 쏠린다는 분석.",
+        "points": ["토큰 장부가 이하 거래", "지분 우선 인센티브"],
+        "why": ["토큰 밸류에이션의 구조적 한계를 지적"]
+      }
+    },
+    {
+      "id": "crypto-spotify-kalshi-polymarket",
+      "title": "스포티파이, 조작 스트림 사건 후 칼시·폴리마켓에 브랜딩 제거 요구",
+      "summary": "50만 건 이상 인위적 스트림이 예측시장 결과에 영향을 미쳤고, 조작된 수치가 승자에게 약 30배를 안긴 칼시 마켓을 정산시켰다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407134/spotify-asks-kalshi-polymarket-to-remove-branding-after-manipulated-streams-used-to-settle-music-bets-bloomberg",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "예측시장의 오라클 조작 취약성이 드러났다.",
+        "what": "조작 스트림이 음악 베팅 예측시장 정산에 영향을 주자 스포티파이가 브랜딩 제거를 요구.",
+        "points": ["50만+ 인위 스트림", "약 30배 배당 정산"],
+        "why": ["오프체인 데이터 기반 예측시장의 정산 신뢰성 문제"]
+      }
+    }
+  ]
+}

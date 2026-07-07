@@ -1,0 +1,241 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-terawulf-anthropic-lease",
+      "title": "테라울프, 190억 달러 앤트로픽 AI 인프라 리스 계약에 급등",
+      "summary": "테라울프가 앤트로픽과 190억 달러 규모 인프라 리스 계약을 체결했다. 캐파 배치는 2027년 하반기 시작, 2028년 완전 구축이 목표다.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/terawulf-shares-surge-on-19b-anthropic-161300778.html",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Strategy / Infra",
+        "status": "Watch",
+        "affectedSurface": "AI 데이터센터 · 전력"
+      },
+      "report": {
+        "tldr": "앤트로픽이 자체 컴퓨트 확보를 위해 네오클라우드와 초대형 장기 리스를 잇는다 — bigStory는 IT판 참조.",
+        "what": "테라울프가 앤트로픽과 190억 달러 규모 AI 데이터센터 리스에 합의하며 주가가 급등했다.",
+        "points": ["2027 하반기 배치 시작·2028 완공 목표", "네오클라우드(코어위브·IREN 등) 리스 경쟁 심화"],
+        "why": ["프런티어 랩의 컴퓨트 확보 경쟁이 전력·부지·자본으로 확산"]
+      }
+    },
+    {
+      "id": "ai-anthropic-global-workspace",
+      "title": "앤트로픽, 언어모델 속 '글로벌 워크스페이스(J-space)' 발견",
+      "summary": "앤트로픽이 클로드 내부에서 추론과 다단계 문제 해결을 가능케 하는 신경 패턴 'J-space'를 규명했다. 훈련 중 자연 발생한 이 패턴은 AI 의사결정 해석의 실마리를 준다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/global-workspace",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Research / Safety",
+        "status": "New",
+        "affectedSurface": "모델 해석성 · 안전"
+      },
+      "report": {
+        "tldr": "모델 내부에 '의식적 작업공간'과 유사한 구조가 자연 발생했다는 해석성 연구.",
+        "what": "클로드의 심층 추론·사고 보고를 뒷받침하는 내부 신경 패턴 'J-space'를 앤트로픽이 식별했다.",
+        "points": ["훈련 중 자연 발생한 패턴", "다단계 추론·자기보고와 연관"],
+        "why": ["해석성 진전은 정렬·안전 통제의 토대가 된다"],
+        "context": "인지과학의 '글로벌 워크스페이스 이론'은 여러 모듈이 공유 작업공간을 통해 정보를 통합한다고 본다."
+      }
+    },
+    {
+      "id": "ai-broadcom-apple-2031",
+      "title": "브로드컴·애플, 커스텀 칩으로 2031년까지 협력 연장",
+      "summary": "브로드컴과 애플이 AI 처리용 ASIC 개발을 위해 파트너십을 2031년까지 확장했다. 애플은 2027년부터 고성능 AI 서버 배치를 계획한다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-06/broadcom-expands-work-for-apple-supplying-products-through-2031",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "82%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "AI 서버 · 커스텀 실리콘"
+      },
+      "report": {
+        "tldr": "애플이 커스텀 ASIC로 자체 AI 서버 스택을 준비한다.",
+        "what": "브로드컴-애플이 2031년까지 AI용 ASIC 개발 협력을 연장하고, 애플은 2027년 AI 서버 배치를 목표로 한다.",
+        "points": ["ASIC 기반 자체 AI 인프라 지향", "엔비디아 의존도 완화 흐름"],
+        "why": ["커스텀 실리콘 채택 확대는 GPU 단일 로드맵 리스크의 대안"]
+      }
+    },
+    {
+      "id": "ai-stargate-for-data",
+      "title": "'데이터를 위한 스타게이트' — 2030년 연 1,000억 달러 데이터 지출",
+      "summary": "AI 랩의 데이터 지출이 2030년 연 1,000억 달러를 넘어설 전망이다. 공개 인터넷 데이터가 부족해지며 비공개 데이터셋이 핵심 병목이 되고 있다.",
+      "source": "X (willdepue)",
+      "url": "https://x.com/willdepue/status/2074178395462848800",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "70%",
+        "owner": "Data / Strategy",
+        "status": "Watch",
+        "affectedSurface": "학습 데이터 · 라이선싱"
+      },
+      "report": {
+        "tldr": "AI 제약이 컴퓨트에서 '데이터 확보'로 이동한다.",
+        "what": "데이터 확보 지출이 2030년 연 1,000억 달러를 상회할 것이며, 비공개 데이터셋이 학습의 병목이 될 것이라는 전망.",
+        "points": ["공개 데이터 고갈", "비공개 데이터셋의 전략적 가치 급등"],
+        "why": ["데이터 라이선싱·독점 계약이 경쟁 우위의 새 축이 된다"]
+      }
+    },
+    {
+      "id": "ai-hy3-tencent",
+      "title": "텐센트 Hy3, 2,950억 파라미터 MoE 공개",
+      "summary": "텐센트의 Hy3는 유사 규모 경쟁 모델을 능가하는 2,950억 파라미터 MoE 모델로, 7월 21일까지 OpenRouter에서 무료 제공된다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/6/hy3/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "중국 대형 오픈 모델의 성능·개방 공세가 이어진다.",
+        "what": "텐센트가 2,950억 파라미터 MoE 'Hy3'를 공개하고 한시적 무료 제공에 나섰다.",
+        "points": ["동급 대비 우수 벤치마크 주장", "7/21까지 OpenRouter 무료"],
+        "why": ["개방형 프런티어 모델의 저가 공세가 가격을 압박"]
+      }
+    },
+    {
+      "id": "ai-terawulf-note-dup",
+      "title": "오픈소스 AI 엔터프라이즈, 모두가 틀렸다",
+      "summary": "데카곤은 고객 응대 에이전트 워크로드의 90%를 오픈소스 모델로 돌린다. 다만 엔터프라이즈 AI는 아직 초기로, 배치가 성숙하기 전까지는 프런티어 모델이 유리하다는 진단.",
+      "source": "X (thejessezhang)",
+      "url": "https://x.com/thejessezhang/status/2074154325933424861",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "오픈소스와 프런티어의 역할 분담이 워크로드 성숙도에 따라 갈린다.",
+        "what": "데카곤이 워크로드의 90%를 오픈소스로 운영하지만, 성숙 전 단계에서는 프런티어 모델이 여전히 우위라는 관점.",
+        "points": ["오픈소스로 비용 최적화", "초기 배치는 프런티어가 유리"],
+        "why": ["엔터프라이즈 모델 선택 전략의 실증 사례"]
+      }
+    },
+    {
+      "id": "ai-continual-learning-agents",
+      "title": "에이전트를 위한 지속 학습 — Replit의 ViBench·Telescope",
+      "summary": "프로덕션 에이전트는 대개 폐쇄형 모델 위에서 돌아가 컨텍스트 수준 학습이 필요하다. Replit은 평가·실패 클러스터링용 ViBench와 Telescope를 개발했다.",
+      "source": "X (pirroh)",
+      "url": "https://x.com/pirroh/status/2074118901143679414",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "폐쇄형 모델 위 에이전트는 '컨텍스트 학습'과 실패 분석 인프라가 관건.",
+        "what": "Replit이 에이전트 평가(ViBench)와 실패 클러스터링(Telescope) 도구를 공개했다.",
+        "points": ["컨텍스트 수준 학습 필요성", "실패 패턴 군집화로 개선"],
+        "why": ["에이전트 신뢰성 확보의 실무 방법론"]
+      }
+    },
+    {
+      "id": "ai-pace-eval",
+      "title": "PACE: 에이전트 역량 평가 대리지표",
+      "summary": "PACE는 원자적 평가로 에이전트 벤치마크 성능을 예측해 평가 비용을 99% 이상 절감하면서 평균 절대오차를 4% 미만으로 유지한다.",
+      "source": "Hugging Face Papers",
+      "url": "https://huggingface.co/papers/2607.02032",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "값비싼 에이전트 벤치마크를 저비용 대리지표로 근사한다.",
+        "what": "PACE 프레임워크가 원자적 평가로 에이전트 성능을 예측, 비용을 대폭 줄인다.",
+        "points": ["평가 비용 99%↓", "MAE 4% 미만 유지"],
+        "why": ["에이전트 개발의 평가 비용 병목을 완화"]
+      }
+    },
+    {
+      "id": "ai-spacexai-rebrand",
+      "title": "xAI는 죽었다, SpaceXAI 만세",
+      "summary": "xAI가 SpaceXAI로 리브랜딩하며 AI 개발을 스페이스X의 우주 인프라·탐사 서사와 연결했다.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/xai-is-dead-long-live-spacexai-2000782034",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "머스크가 AI와 우주 인프라 브랜드를 하나로 묶는다.",
+        "what": "xAI가 SpaceXAI로 개명하며 스페이스X 서사와 결합.",
+        "points": ["브랜드·서사 통합", "우주 인프라와 AI 연계 강조"],
+        "why": ["자본·컴퓨트·에너지의 수직 통합 시그널"]
+      }
+    },
+    {
+      "id": "ai-cli-agents-state",
+      "title": "2026년 중반 CLI 코딩 에이전트 현황",
+      "summary": "클로드 코드·Codex CLI·Omp는 저장소 편집과 패치 생성에서 비슷한 결과를 낸다. 차이는 품질보다 작업 명확성·권한·도구 노출에 있다.",
+      "source": "blog.arcbjorn.com",
+      "url": "https://blog.arcbjorn.com/state-of-cli-coding-agents-2026",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "CLI 코딩 에이전트의 격차는 모델 품질이 아니라 운용 설계에 있다.",
+        "what": "주요 CLI 에이전트들이 유사한 편집·패치 성능을 보이며, 차이는 권한·도구 노출·작업 정의에서 발생.",
+        "points": ["품질 수렴", "권한·도구 설계가 실효 성능을 좌우"],
+        "why": ["도입 시 모델보다 워크플로 설계가 중요"]
+      }
+    },
+    {
+      "id": "ai-even-realities-unicorn",
+      "title": "애플 출신의 중국 스마트글래스 기업, 유니콘 등극",
+      "summary": "전 애플 임원 윌 왕이 창업한 이븐 리얼리티스가 텐센트·메이투안 주도 1억 5,000만 달러 투자로 유니콘이 됐다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/06/apple-veteran-takes-on-meta-with-1-billion-smart-glasses-maker.html",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "스마트글래스 · 웨어러블"
+      },
+      "report": {
+        "tldr": "AI 웨어러블 경쟁에 애플 출신 창업사가 유니콘으로 합류.",
+        "what": "이븐 리얼리티스가 1.5억 달러를 유치해 10억 달러 밸류에이션에 도달, 메타와 경쟁 구도.",
+        "points": ["텐센트·메이투안 주도 라운드", "스마트글래스 폼팩터 경쟁 가열"],
+        "why": ["웨어러블이 AI 인터페이스의 차기 격전지로 부상"]
+      }
+    },
+    {
+      "id": "ai-pytorch-monarch-amd",
+      "title": "파이토치 Monarch, AMD GPU(ROCm)로 확장",
+      "summary": "파이토치 Monarch가 AMD GPU에서 탄력적·내결함성 분산 학습을 가능케 한다. 노드 장애 시 전체 잡을 멈추지 않고 동적으로 복구한다.",
+      "source": "PyTorch Blog",
+      "url": "https://pytorch.org/blog/bringing-pytorch-monarch-to-amd-gpus-single-controller-distributed-training-on-rocm/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AMD ROCm 생태계가 대규모 분산 학습에서 입지를 넓힌다.",
+        "what": "Monarch의 단일 컨트롤러 분산 학습이 AMD GPU에서 내결함성과 탄력성을 제공.",
+        "points": ["노드 장애 동적 복구", "엔비디아 외 학습 스택 다변화"],
+        "why": ["GPU 벤더 다변화가 컴퓨트 병목의 완충재가 된다"]
+      }
+    },
+    {
+      "id": "ai-getting-started-loops",
+      "title": "루프(Loops) 시작하기 — 에이전트 반복 실행 가이드",
+      "summary": "루프는 정지 조건이 충족될 때까지 반복하는 에이전트다. 가이드는 루프 분류, 적합한 사용 사례, 토큰 관리 전략을 다룬다.",
+      "source": "Claude Developers (X)",
+      "url": "https://x.com/ClaudeDevs/status/2074208949205881033",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "반복 실행형 에이전트 설계의 실무 지침.",
+        "what": "루프의 유형·사용 사례·토큰 예산 관리법을 정리한 개발자 가이드.",
+        "points": ["정지 조건 설계", "토큰 소비 관리"],
+        "why": ["에이전트 자동화의 비용·안정성 관리 노하우"]
+      }
+    },
+    {
+      "id": "ai-100x-engineer",
+      "title": "Fable·GPT-5.6 시대의 100배 에이전트 엔지니어",
+      "summary": "에이전트 코딩에서 상위 엔지니어와 중위권을 가르는 숙련 수준을 논한다.",
+      "source": "X",
+      "url": "https://x.com/systematicls/status/2074142558595207435",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트 활용 숙련이 생산성 격차를 만든다.",
+        "what": "최상위 실무자가 에이전트로 중위 대비 훨씬 높은 생산성을 낸다는 관찰.",
+        "points": ["숙련도가 격차의 핵심", "학습 가능한 역량"],
+        "why": ["AI 도입 성과는 스킬 육성에 달려 있다"]
+      }
+    }
+  ]
+}

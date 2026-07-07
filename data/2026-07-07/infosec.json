@@ -1,0 +1,259 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "sec-skillcloak",
+      "title": "SkillCloak, 자기추출 패킹으로 악성 AI 에이전트 스킬이 정적 스캐너 회피",
+      "summary": "연구진은 바이트 변조와 자기추출 패킹으로 악성 AI 에이전트 스킬이 보안 스캐너를 90% 이상 우회함을 시연했다. 다만 샌드박스 런타임 모니터는 대부분을 탐지한다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "High",
+        "confidence": "82%",
+        "owner": "Security Ops / AppSec",
+        "status": "Watch",
+        "affectedSurface": "AI 에이전트 스킬 · 공급망"
+      },
+      "report": {
+        "tldr": "AI 에이전트 '스킬'이 새로운 악성코드 배포 벡터로 부상했다.",
+        "what": "SkillCloak 기법은 바이트 수준 변조와 자기추출 패킹으로 에이전트 스킬 패키지를 정적 스캐너로부터 90% 이상 숨긴다. 런타임 샌드박스 모니터링은 대부분 잡아낸다.",
+        "points": ["정적 스캔 회피율 90%+", "샌드박스 런타임 감시가 유효 대응", "에이전트 스킬 공급망이 공격 표면으로"],
+        "why": ["에이전트 생태계 확산으로 서드파티 스킬 신뢰 검증이 시급", "정적 검사 의존은 우회 가능 — 동적 관측 필요"],
+        "action": "서드파티 에이전트 스킬을 정적 스캔만으로 신뢰하지 말고 샌드박스 런타임 모니터링과 권한 최소화를 적용."
+      }
+    },
+    {
+      "id": "sec-linux-bad-epoll",
+      "title": "리눅스 'Bad Epoll' 루트 권한 취약점 PoC 공개",
+      "summary": "리눅스 커널 epoll의 경쟁 조건 use-after-free(CVE-2026-46242)로 비권한 프로세스가 ROP 익스플로잇을 통해 루트 권한을 얻을 수 있다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/proof-of-concept-exploit-released-for-linux-bad-epoll-root-access-vulnerability/",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops / Platform",
+        "status": "Act",
+        "affectedSurface": "Linux 커널 · 서버"
+      },
+      "report": {
+        "tldr": "PoC까지 공개된 리눅스 커널 로컬 권한 상승 — 즉시 패치 대상.",
+        "what": "epoll의 use-after-free 경쟁 조건(CVE-2026-46242)으로 로컬 권한 상승이 가능하며 PoC가 배포됐다.",
+        "points": ["비권한→루트 상승 가능", "ROP 기반 익스플로잇", "PoC 공개로 무기화 위험 상승"],
+        "why": ["광범위한 리눅스 서버가 영향권", "PoC 공개는 실전 악용 시점을 앞당긴다"],
+        "action": "커널 보안 패치를 우선 배포하고 다중 테넌트·컨테이너 호스트를 먼저 조치."
+      }
+    },
+    {
+      "id": "sec-ffmpeg-pixelsmash",
+      "title": "FFmpeg, 널리 쓰이는 디코더의 'PixelSmash' 결함 패치",
+      "summary": "FFmpeg가 MagicYUV 디코더의 힙 버퍼 오버플로(CVE-2026-8461, CVSS 8.8)를 패치했다. Kodi·OBS·Jellyfin 등 다수 앱이 영향을 받는다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/ffmpeg-fixes-pixelsmash-flaw-in-widely-used-video-decoder/",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "83%",
+        "owner": "Security Ops",
+        "status": "Act",
+        "affectedSurface": "FFmpeg · 미디어 앱"
+      },
+      "report": {
+        "tldr": "FFmpeg를 내장한 수많은 앱에 파급되는 고위험 디코더 오버플로.",
+        "what": "MagicYUV 디코더 힙 버퍼 오버플로(CVE-2026-8461, CVSS 8.8)를 FFmpeg가 수정. OBS·Kodi·Jellyfin 등 다수 소프트웨어가 영향.",
+        "points": ["CVSS 8.8 고위험", "미디어 파일 처리 경로에서 트리거", "광범위한 다운스트림 영향"],
+        "why": ["FFmpeg는 사실상 미디어 처리 표준 — 파급이 넓다"],
+        "action": "FFmpeg 및 이를 번들한 애플리케이션을 최신 버전으로 업데이트."
+      }
+    },
+    {
+      "id": "sec-russian-gov-logins",
+      "title": "러시아 해커, 영국 정부 로그인 탈취",
+      "summary": "영국 정부 관계자의 이메일 계정이 FortiBleed 취약점으로 침해됐고, 자격증명이 다크웹에서 6만 달러에 판매됐다.",
+      "source": "Telegraph",
+      "url": "https://www.telegraph.co.uk/news/2026/07/05/russian-hackers-steal-government-logins/",
+      "originalDate": "2026-07-05",
+      "intel": {
+        "impact": "High",
+        "confidence": "75%",
+        "owner": "Security Ops",
+        "status": "Watch",
+        "affectedSurface": "Fortinet · 정부 계정"
+      },
+      "report": {
+        "tldr": "FortiBleed 악용으로 정부 자격증명이 다크웹 상품이 됐다.",
+        "what": "영국 정부 관계자 이메일이 FortiBleed 취약점으로 탈취돼 6만 달러에 거래됐다.",
+        "points": ["FortiBleed 취약점 악용", "자격증명 다크웹 판매", "국가 배후 위협 추정"],
+        "why": ["엣지 어플라이언스 취약점이 고가치 계정 침해로 직결"],
+        "action": "Fortinet 자산 패치 및 노출 계정의 자격증명·세션 강제 회전."
+      }
+    },
+    {
+      "id": "sec-moody-breach",
+      "title": "무디 성경학원 데이터 유출, 230만 이메일 노출",
+      "summary": "ShinyHunters가 무디 성경학원을 침해해 230만 명의 이름·이메일·전화·주소를 노출시켰다.",
+      "source": "CyberPress",
+      "url": "https://cyberpress.org/moody-bible-institute-data-breach/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "ShinyHunters의 대량 개인정보 유출이 이어진다.",
+        "what": "무디 성경학원 침해로 230만 명의 PII가 노출됐다.",
+        "points": ["230만 건 PII 노출", "ShinyHunters 소행"],
+        "why": ["비영리·교육기관도 대규모 유출 표적"]
+      }
+    },
+    {
+      "id": "sec-veildrop-purelog",
+      "title": "Veil#Drop: Blogspot 호스팅 파워셸 로더가 PureLog 스틸러 배포",
+      "summary": "다단계 파워셸 프레임워크가 문서로 위장해 Windows 스크립트 호스트로 실행되고, Blogspot에서 XOR 인코딩 페이로드를 받아 자격증명·지갑 데이터를 노리는 PureLog 스틸러를 배포한다.",
+      "source": "Securonix",
+      "url": "https://www.securonix.com/blog/veildrop-blogspot-hosted-powershell-loader/",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Security Ops / IR",
+        "status": "Watch",
+        "affectedSurface": "Windows · 이메일 첨부"
+      },
+      "report": {
+        "tldr": "합법 호스팅(Blogspot)을 악용한 인메모리 스틸러 캠페인.",
+        "what": "문서 위장 파워셸 로더가 WSH로 실행돼 Blogspot의 XOR 인코딩 .NET 페이로드를 받아 PureLog 스틸러를 메모리에서 구동.",
+        "points": ["다단계·인메모리 실행", "Blogspot 정상 인프라 악용", "자격증명·크립토 지갑 탈취"],
+        "why": ["신뢰 도메인 악용은 네트워크 차단을 어렵게 만든다"],
+        "action": "WSH·파워셸 실행 정책 강화 및 Blogspot 대상 아웃바운드 이상징후 모니터링."
+      }
+    },
+    {
+      "id": "sec-scattered-spider-telemetry",
+      "title": "MS 기기 텔레메트리, 스캐터드 스파이더 용의자 정체 규명의 열쇠",
+      "summary": "FBI가 VPN·ngrok 사용에도 살아남은 지속적 마이크로소프트 기기 식별자를 여러 플랫폼 로그인과 교차 대조해 19세 스캐터드 스파이더 용의자를 특정했다.",
+      "source": "ITNews",
+      "url": "https://www.itnews.com.au/news/microsoft-device-telemetry-key-to-unmasking-alleged-scattered-spider-hacker-627148",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "기기 텔레메트리가 익명화 도구를 뚫고 공격자 식별에 결정적 역할.",
+        "what": "지속적 MS 기기 식별자가 VPN·ngrok을 우회해 남았고, 이를 로그인 데이터와 교차 대조해 용의자를 추적했다.",
+        "points": ["VPN·ngrok 무력화", "기기 식별자 지속성 활용", "다중 플랫폼 교차 대조"],
+        "why": ["방어자에겐 텔레메트리의 포렌식 가치를, 공격자에겐 OPSEC 한계를 시사"]
+      }
+    },
+    {
+      "id": "sec-canada-cse-hacks",
+      "title": "캐나다 정보기관, 마약조직·극단주의·랜섬웨어 갱 해킹 밝혀",
+      "summary": "캐나다 CSE가 펜타닐 브로커를 교란하고 극단주의 모집을 약화시키며 랜섬웨어형 서비스 운영을 중단시키는 등 주요 위협 행위자에 대한 기술적 교란을 수행했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/06/canadian-spy-agency-says-it-hacked-drug-traffickers-extremists-and-a-ransomware-gang-last-year/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "국가기관의 공세적 사이버 작전이 공개적으로 인정됐다.",
+        "what": "CSE가 마약·극단주의·랜섬웨어 조직에 대한 공세적 교란 작전을 지난해 수행했다고 밝혔다.",
+        "points": ["펜타닐 브로커 교란", "랜섬웨어 서비스 중단", "공세적 사이버 작전 공개"],
+        "why": ["방어에서 능동적 교란으로 국가 사이버 전략이 이동"]
+      }
+    },
+    {
+      "id": "sec-vuln-reports-not-special",
+      "title": "취약점 보고서는 더 이상 특별하지 않다",
+      "summary": "LLM이 취약점 발견을 민주화하면서 조율된 공개의 희소가치가 줄고, 실무적 영향이 불분명한 대량의 '기술적으로 유효한' 보고서 분류로 초점이 옮겨간다.",
+      "source": "filippo.io",
+      "url": "https://words.filippo.io/vuln-reports/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "LLM발 취약점 보고 폭증이 트리아지 부담으로 전환된다.",
+        "what": "LLM이 취약점 탐색을 대중화해, 유효하지만 영향이 모호한 보고서가 급증하고 분류 부담이 커진다는 진단.",
+        "points": ["보고서 희소성 하락", "트리아지·우선순위화가 병목"],
+        "why": ["보안팀의 자원 배분이 발견에서 검증·분류로 이동"]
+      }
+    },
+    {
+      "id": "sec-opera-address-spoof",
+      "title": "오페라 브라우저 주소창 스푸핑 취약점",
+      "summary": "인텐트 URL 남용·전체화면 악용 등으로 오페라 브라우저 변종들에서 다수의 주소창 스푸핑 취약점이 발견됐으며 모두 패치됐다.",
+      "source": "Medium (renwa)",
+      "url": "https://medium.com/@renwa/you-are-not-where-you-think-you-are-opera-browsers-address-bar-spoofing-vulnerabilities-aa36ad8321d8",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "주소창 신뢰를 무너뜨리는 피싱 친화적 스푸핑 결함(패치됨).",
+        "what": "오페라 계열에서 인텐트 URL·전체화면을 이용한 주소창 스푸핑이 다수 발견돼 수정됐다.",
+        "points": ["다중 기법 스푸핑", "피싱 악용 가능", "패치 완료"],
+        "why": ["주소창 신뢰는 피싱 방어의 최후 보루"]
+      }
+    },
+    {
+      "id": "sec-agent-identity-models",
+      "title": "AI 에이전트에 정체성을 부여하는 세 가지 방식",
+      "summary": "사용자 정체성 차용, 별도 토큰/API 키 부여, 독립 정체성 할당의 세 모델을 제시하며 Okta·SPIFFE/SPIRE 같은 인프라 계층을 다룬다.",
+      "source": "Kane Arraway Blog",
+      "url": "https://kanenarraway.com/posts/agent-identity-models/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트 시대의 IAM 설계 프레임을 정리한다.",
+        "what": "에이전트 정체성 부여 방식 세 가지와 이를 뒷받침하는 인프라(Okta, SPIFFE/SPIRE)를 비교.",
+        "points": ["차용 vs 별도 토큰 vs 독립 정체성", "IAM 인프라 계층 매핑"],
+        "why": ["에이전트 권한·감사 설계가 보안의 새 과제로 부상"]
+      }
+    },
+    {
+      "id": "sec-alibaba-ban-claude-code",
+      "title": "알리바바, 직원의 클로드 코드 사용 금지",
+      "summary": "알리바바가 클로드 코드를 고위험으로 분류하고 7월 10일까지 자사 도구 Qoder로 전환하도록 지시했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "originalDate": "2026-07-04",
+      "report": {
+        "tldr": "데이터 유출·의존 우려로 해외 AI 코딩 도구를 사내 대안으로 대체.",
+        "what": "알리바바가 클로드 코드를 금지하고 자체 Qoder로의 전환을 7/10까지 의무화.",
+        "points": ["고위험 분류", "Qoder 사내 대체", "7/10 전환 시한"],
+        "why": ["AI 개발도구를 둘러싼 데이터 주권·공급망 리스크가 정책화"]
+      }
+    },
+    {
+      "id": "sec-kong-decompile",
+      "title": "Kong: AI 기반 디컴파일로 스트립 바이너리 역공학",
+      "summary": "Kong은 AI 유도 디컴파일로 스트립된 바이너리에서 함수명·타입·구조를 복원하며 제어흐름 난독화에 대응하는 에이전트 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/amruth-sn/kong",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI가 리버스 엔지니어링의 생산성을 끌어올린다.",
+        "what": "Kong이 AI 유도 디컴파일로 함수명·타입·구조 복원과 난독화 대응을 자동화.",
+        "points": ["스트립 바이너리 복원", "제어흐름 난독화 대응"],
+        "why": ["공격·방어 양측의 역공학 역량을 동시에 강화"]
+      }
+    },
+    {
+      "id": "sec-detection-chokepoints",
+      "title": "Detection Chokepoints: 공격자가 우회할 수 없는 탐지 지점",
+      "summary": "공격자가 피할 수 없는 조건을 문서화한 커뮤니티 기반 탐지 엔지니어링 자료.",
+      "source": "GitHub",
+      "url": "https://github.com/iimp0ster/detection-chokepoints",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "우회 불가능한 '병목'에 탐지를 집중하는 접근.",
+        "what": "적대자가 반드시 통과해야 하는 지점을 정리한 탐지 엔지니어링 커뮤니티 리소스.",
+        "points": ["회피 불가 조건 문서화", "탐지 우선순위 설계"],
+        "why": ["탐지 자원을 고효율 지점에 집중하는 방법론"]
+      }
+    },
+    {
+      "id": "sec-passwordpusher",
+      "title": "PasswordPusher: 만료형 비밀 공유 도구",
+      "summary": "조회 횟수·시간 기반 자동 만료와 삭제, 감사 로깅을 지원해 민감 정보를 안전하게 공유하는 유틸리티.",
+      "source": "GitHub",
+      "url": "https://github.com/pglombardo/PasswordPusher",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "만료·감사 기능을 갖춘 오픈소스 비밀 공유 도구.",
+        "what": "조회수·시간 기반 만료와 감사 로깅으로 자격증명·비밀 공유를 안전화.",
+        "points": ["자동 만료·삭제", "감사 로깅"],
+        "why": ["평문 채널의 비밀 공유 관행을 대체"]
+      }
+    }
+  ]
+}

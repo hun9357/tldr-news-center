@@ -1,0 +1,207 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-terawulf-anthropic",
+      "title": "테라울프, 앤트로픽과 190억 달러 데이터센터 리스 계약",
+      "summary": "테라울프가 켄터키 AI 데이터센터 인프라를 두고 앤트로픽과 20년 계약을 맺었다. 리스 기간 동안 약 190억 달러의 계약 매출이 발생할 전망이다.",
+      "source": "Investors.com",
+      "url": "https://www.investors.com/news/anthropic-terawulf-ai-data-center-lease-neocloud-coreweave-iren/",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Strategy / Infra",
+        "status": "Watch",
+        "affectedSurface": "AI 데이터센터 · 전력 · 네오클라우드"
+      },
+      "related": [
+        "테라울프 주가 급등 (Yahoo Finance)",
+        "코어위브·IREN 등 네오클라우드 리스 경쟁 확대",
+        "엔비디아 카이버 랙 2028 연기 — 구축 일정 변수"
+      ],
+      "report": {
+        "tldr": "프런티어 AI 랩의 컴퓨트 확보 경쟁이 20년·190억 달러급 초장기 리스로 고착화되고 있다.",
+        "what": "테라울프가 앤트로픽과 켄터키 AI 데이터센터를 위한 20년 리스에 합의했다. 총 계약 매출은 약 190억 달러로 추산되며, 캐파 배치는 2027년 하반기부터 시작해 2028년 완공을 목표로 한다.",
+        "points": [
+          "20년 장기·약 190억 달러 규모의 계약 매출",
+          "앤트로픽이 코어위브·IREN에 이어 네오클라우드 리스를 확대",
+          "2027 하반기 배치→2028 완공 로드맵",
+          "구(舊)비트코인 채굴 기업이 AI 데이터센터로 사업 전환"
+        ],
+        "why": [
+          "프런티어 랩은 자체 컴퓨트를 자본시장·전력·부지로 선점하려 한다",
+          "초장기 리스는 AI 수요를 낙관하는 강한 시그널이자, 공급과잉 시 리스크가 될 수 있다",
+          "엔비디아 카이버 지연 등 하드웨어 병목이 실제 구축 일정을 좌우한다"
+        ],
+        "context": "네오클라우드(코어위브·IREN·테라울프 등)는 GPU 집약 데이터센터를 구축해 AI 기업에 임대하는 신흥 인프라 사업자다. 다수가 기존 비트코인 채굴 인프라·전력 계약을 AI로 전용하고 있다.",
+        "action": "AI 인프라 파트너를 평가할 때 계약 기간·전력 확보·구축 일정 리스크를 함께 점검하고, 단일 하드웨어 로드맵 의존을 피할 것."
+      }
+    },
+    {
+      "id": "it-netnut-botnet",
+      "title": "구글·FBI, 200만 대 규모 NetNut 봇넷 타격",
+      "summary": "공조 단속으로 약 200만 대(주로 스트리밍 기기)를 감염시킨 NetNut 레지덴셜 프록시 네트워크가 크게 무력화됐다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/07/03/netnut_cracked_as_google_and_fbi_target_2_million_device_botnet/",
+      "originalDate": "2026-07-03",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "Watch",
+        "affectedSurface": "IoT · 레지덴셜 프록시"
+      },
+      "report": {
+        "tldr": "감염 IoT를 악용한 레지덴셜 프록시 생태계에 대형 단속.",
+        "what": "구글·FBI 공조로 약 200만 대 감염 NetNut 프록시 네트워크가 크게 붕괴됐다.",
+        "points": ["주로 스트리밍 기기 감염", "레지덴셜 프록시 악용 차단"],
+        "why": ["레지덴셜 프록시는 공격 트래픽 은닉의 핵심 인프라"]
+      }
+    },
+    {
+      "id": "it-cli-agents-adoption",
+      "title": "CLI AI 코딩 에이전트 도입, PR 병합 24% 증가",
+      "summary": "마이크로소프트 연구에 따르면 AI 코딩 에이전트를 쓰는 엔지니어가 기대치보다 약 24% 많은 PR을 병합했으며, 도입은 동료 네트워크의 영향을 받았다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Eng Leadership",
+        "status": "New",
+        "affectedSurface": "개발 생산성"
+      },
+      "report": {
+        "tldr": "에이전트 도입의 생산성 효과가 대규모 실증으로 뒷받침됐다.",
+        "what": "MS 연구가 AI 코딩 에이전트 사용자의 PR 병합이 기대 대비 약 24% 많음을 보였고, 도입 확산은 동료 영향에 좌우됐다.",
+        "points": ["PR 병합 +24%", "동료 네트워크 통한 도입 확산"],
+        "why": ["에이전트 도입 전략에 '사회적 확산' 설계가 필요"]
+      }
+    },
+    {
+      "id": "it-cloud-rebalance",
+      "title": "거대한 클라우드 리밸런싱 — 리패트리에이션 재점화",
+      "summary": "비용·성능·벤더 종속 우려로 조직들이 대형 클라우드에서 대체 인프라로 워크로드를 옮기고 있다.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4190757/cloud-repatriation-is-back-on-the-agenda.html",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "클라우드 비용·종속 문제로 리패트리에이션 논의가 다시 부상.",
+        "what": "비용·성능·락인 우려로 워크로드를 대형 클라우드 밖으로 재배치하는 흐름.",
+        "points": ["비용·성능 재평가", "벤더 종속 회피"],
+        "why": ["AI 워크로드 확산이 인프라 총소유비용 재검토를 자극"]
+      }
+    },
+    {
+      "id": "it-anthropic-enterprise-gateway",
+      "title": "앤트로픽, AWS·구글클라우드용 엔터프라이즈 게이트웨이 출시",
+      "summary": "앤트로픽이 클로드 코드 배치를 클라우드 전반에서 중앙 관리하도록 정책 시행·사용량 추적을 지원하는 셀프호스트 게이트웨이를 공개했다.",
+      "source": "DevOps.com",
+      "url": "https://devops.com/anthropic-adds-enterprise-gateway-to-simplify-claude-code-access-on-aws-and-google-cloud/",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Platform / Security",
+        "status": "New",
+        "affectedSurface": "클로드 코드 · 엔터프라이즈 거버넌스"
+      },
+      "report": {
+        "tldr": "앤트로픽이 엔터프라이즈의 AI 코딩 도구 거버넌스 수요에 응답.",
+        "what": "셀프호스트 게이트웨이로 AWS·GCP에서 클로드 코드 접근을 중앙 관리(정책·사용량 추적)한다.",
+        "points": ["셀프호스트·중앙 관리", "정책 시행·사용량 추적"],
+        "why": ["알리바바 금지 사례처럼 커지는 AI 도구 통제 요구에 대응"]
+      }
+    },
+    {
+      "id": "it-china-ai-agent-standard",
+      "title": "중국, AI 에이전트 배치 사이버보안 표준 발표",
+      "summary": "중국 표준화 기구가 평가·권한 통제·감사 역량을 요구하는 AI 에이전트 배치 보안 지침을 냈으며, 의인화 AI 서비스 규제는 7월 15일 발효된다.",
+      "source": "GeopolitEchs",
+      "url": "https://www.geopolitechs.org/p/chinas-cybersecurity-standard-on",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Policy / Compliance",
+        "status": "Watch",
+        "affectedSurface": "AI 에이전트 · 규제"
+      },
+      "report": {
+        "tldr": "중국이 에이전트·의인화 AI에 대한 규제 프레임을 선제 구축.",
+        "what": "AI 에이전트 배치에 평가·권한 통제·감사를 요구하는 표준과, 7/15 발효 의인화 AI 규정.",
+        "points": ["평가·권한·감사 의무화", "7/15 의인화 AI 규제 발효"],
+        "why": ["에이전트 규제가 글로벌 컴플라이언스 지형을 바꾼다"]
+      }
+    },
+    {
+      "id": "it-cloudflare-ai-pay",
+      "title": "클라우드플레어, AI 기업에 퍼블리셔 콘텐츠 대가 지불 압박",
+      "summary": "클라우드플레어가 9월 15일부터 특정 크롤러를 기본 차단해, AI 기업이 콘텐츠 퍼블리셔와 라이선스 협상에 나서도록 압박한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "originalDate": "2026-07-01",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Policy / Content",
+        "status": "Watch",
+        "affectedSurface": "웹 크롤링 · 콘텐츠 라이선싱"
+      },
+      "report": {
+        "tldr": "인프라 사업자가 AI 데이터 수집의 '통행료'를 부과하기 시작.",
+        "what": "클라우드플레어가 9/15부터 기본 크롤러 차단을 도입해 AI-퍼블리셔 라이선스 협상을 유도.",
+        "points": ["9/15 기본 차단", "라이선스 협상 압박"],
+        "why": ["데이터 병목 시대에 콘텐츠 접근이 유료화 국면으로"]
+      }
+    },
+    {
+      "id": "it-not-all-upgrades",
+      "title": "모든 모델 업그레이드가 업그레이드는 아니다",
+      "summary": "신형 AI 모델로 전환하면 토큰 소비가 늘어 가격 절감이 상쇄되고 출력 품질이 떨어질 수 있다.",
+      "source": "Microsoft Developer Blog",
+      "url": "https://developer.microsoft.com/blog/not-all-model-upgrades-are-upgrades",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "모델 교체는 토큰 소비·품질을 함께 검증해야 한다.",
+        "what": "신형 모델 전환이 토큰 사용 증가로 비용 이점을 없애거나 품질을 낮출 수 있다는 경고.",
+        "points": ["토큰 소비 증가 리스크", "품질 저하 가능성"],
+        "why": ["'최신=최선' 가정을 실측으로 검증할 필요"]
+      }
+    },
+    {
+      "id": "it-preset-azure",
+      "title": "Preset 관리형 프라이빗 클라우드, Azure 지원",
+      "summary": "Preset이 Azure로 확장해 데이터 격리를 유지하면서 운영 부담을 대신 처리하는 관리형 인프라를 제공한다.",
+      "source": "Preset Blog",
+      "url": "https://preset.io/blog/preset-managed-private-cloud-now-available-on-microsoft-azure/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "데이터 분석 플랫폼의 프라이빗 클라우드 옵션이 Azure로 확대.",
+        "what": "Preset이 Azure에서 데이터 격리형 관리 인프라를 제공.",
+        "points": ["Azure 확장", "데이터 격리 유지"],
+        "why": ["규제 산업의 프라이빗 배치 수요에 대응"]
+      }
+    },
+    {
+      "id": "it-fortran-modernisation",
+      "title": "포트란 현대화의 헛된 희망",
+      "summary": "포트란 현대화를 풍자적으로 살피며 언어 설계의 근본적 트레이드오프와 무한 기능 추가의 위험을 짚는다.",
+      "source": "Blog",
+      "url": "https://amenzwa.github.io/stem/PL/FortranModernisation/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "레거시 언어 현대화의 딜레마를 유머로 조명.",
+        "what": "포트란 현대화를 소재로 언어 설계 트레이드오프와 기능 비대화 위험을 논한다.",
+        "points": ["설계 트레이드오프", "기능 추가의 역설"],
+        "why": ["레거시 스택 유지·현대화 전략에 시사점"]
+      }
+    }
+  ]
+}

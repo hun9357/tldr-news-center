@@ -1,0 +1,48 @@
+{
+  "date": "2026-07-07",
+  "weekday": "화",
+  "headline": "앤트로픽, 테라울프와 190억 달러 규모 20년 데이터센터 리스",
+  "subtitle": "엔비디아 카이버 랙 2028 연기, SkillCloak 악성 AI 스킬 스캐너 회피, 리눅스 'Bad Epoll' 루트 취약점 PoC 공개도 주목",
+  "keyword": "AI 컴퓨트 확장 · 하드웨어 병목 · 에이전트 보안 · 커널 취약점",
+  "bigStoryId": "it-terawulf-anthropic",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:08 CDT",
+  "syncedAt": "09:08",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "7,537.43", "change": "▲ 0.72%" },
+  "stats": {
+    "companies": 23,
+    "security": 16,
+    "deals": 7,
+    "policy": 9
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "패치 시급: PoC 공개 커널 취약점과 회피형 AI 스킬 동시 부상",
+      "body": "리눅스 epoll의 use-after-free(CVE-2026-46242) 루트 상승 익스플로잇 PoC가 공개됐고, FFmpeg는 다수 앱에 파급되는 MagicYUV 힙 오버플로(CVE-2026-8461, CVSS 8.8)를 패치했다. 동시에 SkillCloak 기법은 악성 AI 에이전트 스킬이 정적 스캐너를 90% 이상 우회함을 시연했다.",
+      "severity": "8.3",
+      "velocity": "Rising",
+      "action": "커널·FFmpeg 패치 우선 배포, 에이전트 스킬은 샌드박스 런타임 감시로 검증"
+    },
+    {
+      "kind": "market",
+      "title": "AI 컴퓨트 확장, 초장기 리스로 고착화",
+      "body": "앤트로픽이 테라울프와 20년·190억 달러 데이터센터 리스를 맺으며 네오클라우드 리스 경쟁이 심화됐다. 반면 엔비디아는 카이버 랙 아키텍처를 2028년으로 연기해, 수요는 자본으로 선점되지만 실제 구축은 하드웨어 병목에 묶여 있다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "알리바바 사내 클로드 코드 금지 시한(7/10), 중국 의인화 AI 상호작용 규정 발효(7/15), 클라우드플레어 크롤러 기본 차단(9/15) 준비 동향, 텐센트 Hy3 무료 제공(7/21) 채택 반응을 추적."
+    }
+  ]
+}

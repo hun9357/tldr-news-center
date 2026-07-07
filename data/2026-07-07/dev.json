@@ -1,0 +1,233 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-react-compiler-broke",
+      "title": "React 컴파일러에 메모이제이션을 맡겼더니 실제로 깨진 것들",
+      "summary": "React 컴파일러가 최적화를 자동화해 메모이제이션을 간소화하지만, 켜기 전에 린트 규칙을 세워야 하고 DevTools 배지가 성공을 보장하지 않는다는 점을 이해해야 한다.",
+      "source": "LogRocket",
+      "url": "https://blog.logrocket.com/react-compiler-memoization-what-actually-broke/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "React 컴파일러 자동 메모이제이션의 현실적 함정 정리.",
+        "what": "컴파일러가 메모이제이션을 자동화하지만 린트 규칙 정비가 선행돼야 하고 배지가 성공을 보장하지 않는다.",
+        "points": ["린트 규칙 선행 필요", "DevTools 배지 ≠ 성공"],
+        "why": ["자동 최적화 도입 시 검증 절차가 필수"]
+      }
+    },
+    {
+      "id": "dev-anchor-positioning",
+      "title": "앵커 포지셔닝 시작하기",
+      "summary": "앵커 포지셔닝 API는 툴팁 같은 UI 요소를 서로 상대적으로 배치하는 작업을 단순화하며, 내장 폴백과 뷰포트 인식 조정을 지원한다.",
+      "source": "Josh W Comeau",
+      "url": "https://www.joshwcomeau.com/css/anchor-positioning/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "CSS 앵커 포지셔닝으로 툴팁·팝오버 배치가 쉬워진다.",
+        "what": "앵커 포지셔닝 API가 상대적 요소 배치와 뷰포트 인식 폴백을 제공.",
+        "points": ["상대 배치 단순화", "내장 폴백·뷰포트 조정"],
+        "why": ["JS 없이 CSS만으로 포지셔닝 문제 해결"]
+      }
+    },
+    {
+      "id": "dev-prune-rag-context",
+      "title": "작은 LLM에게 RAG 컨텍스트의 68%를 버리게 가르치다",
+      "summary": "소형 언어모델이 성능을 유지하면서 불필요한 컨텍스트 청크를 걸러내, RAG 시스템의 비용 효율 개선을 입증했다.",
+      "source": "Kapa.ai",
+      "url": "https://www.kapa.ai/blog/how-we-prune-rag-context?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "76%",
+        "owner": "ML Eng",
+        "status": "New",
+        "affectedSurface": "RAG · 추론 비용"
+      },
+      "report": {
+        "tldr": "소형 모델 프루닝으로 RAG 비용을 크게 낮춘다.",
+        "what": "컴팩트 모델이 컨텍스트의 68%를 제거하면서 성능을 유지, 비용 효율을 개선.",
+        "points": ["컨텍스트 68% 제거", "성능 유지"],
+        "why": ["RAG 운영 비용 절감의 실용 기법"]
+      }
+    },
+    {
+      "id": "dev-deterministic-ai",
+      "title": "모든 것에 토큰을 쓰지 말라: 결정론적 AI의 논거",
+      "summary": "루틴 작업은 확률적 모델에 의존할 필요가 없다. 결정론적 작업을 앱 로직에 위임하면 비용이 줄고 효율이 오른다.",
+      "source": "Vybe",
+      "url": "https://www.vybe.build/blog/learn-what-not-to-tokenize?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "결정론적 작업은 LLM이 아닌 코드로 처리하라.",
+        "what": "루틴·결정론적 작업을 앱 로직에 위임해 비용·효율을 개선하자는 주장.",
+        "points": ["확률 모델 남용 지양", "앱 로직 위임"],
+        "why": ["LLM 오남용은 비용·지연·불안정성을 키운다"]
+      }
+    },
+    {
+      "id": "dev-glm52-margin-collapse",
+      "title": "GLM 5.2와 다가오는 AI 마진 붕괴 (1부)",
+      "summary": "저비용 소형 모델이 루틴 작업에 선호되면서 AI 경제학을 근본적으로 재편할 수 있다는 분석.",
+      "source": "Martin Alderson",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "모델 경제 · 가격"
+      },
+      "report": {
+        "tldr": "저가 소형 모델의 부상이 AI 마진 구조를 흔든다.",
+        "what": "GLM 5.2 같은 저비용 모델이 루틴 작업을 잠식하며 마진 압박을 예고.",
+        "points": ["소형 모델 채택 확대", "마진 붕괴 시나리오"],
+        "why": ["프런티어 랩의 가격·수익 모델에 하방 압력"]
+      }
+    },
+    {
+      "id": "dev-price-per-token",
+      "title": "'100만 토큰당 가격'은 무의미하다",
+      "summary": "토크나이징이 모델마다 크게 달라 토큰 단가 비교는 오도된다. 완료 작업당 비용이 더 명확한 판단 기준이다.",
+      "source": "Janilowski",
+      "url": "https://janilowski.pl/en/blog/2026/price-per-m-tokens/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "작업당 비용이 진짜 비교 지표다.",
+        "what": "토큰 단가 대신 작업 완료당 비용으로 모델 경제성을 평가하라는 논지.",
+        "points": ["토크나이저 차이", "작업당 비용 우선"],
+        "why": ["모델 선택 의사결정의 기준 재정립"]
+      }
+    },
+    {
+      "id": "dev-learn-to-code-worthwhile",
+      "title": "코딩 학습은 여전히 가치 있다",
+      "summary": "프로그래밍은 수학적 이해와 문제 해결력을 기르고, 예술적 창작에 비견되는 창의적 매체 역할도 한다.",
+      "source": "Steve Krouse",
+      "url": "https://stevekrouse.com/learn-to-code?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 시대에도 코딩 학습의 본질적 가치는 유효하다.",
+        "what": "프로그래밍이 사고력·창의성을 기르는 매체라는 관점.",
+        "points": ["수학·문제해결력 함양", "창의적 매체"],
+        "why": ["'AI가 코딩을 대체한다'는 서사에 대한 균형추"]
+      }
+    },
+    {
+      "id": "dev-officecli",
+      "title": "OfficeCLI: AI 에이전트용 오피스 문서 자동화 CLI",
+      "summary": "오피스 설치 없이 AI 에이전트가 Word·Excel·PowerPoint 문서를 생성·자동화할 수 있는 오픈소스 CLI.",
+      "source": "GitHub",
+      "url": "https://github.com/iOfficeAI/OfficeCLI?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트가 오피스 문서를 무설치로 다룬다.",
+        "what": "OfficeCLI가 오피스 설치 없이 문서 생성·자동화를 지원.",
+        "points": ["무설치 문서 생성", "에이전트 친화 CLI"],
+        "why": ["문서 워크플로 자동화의 실용 도구"]
+      }
+    },
+    {
+      "id": "dev-otari-gateway",
+      "title": "Otari: 40개+ 프로바이더용 LLM 게이트웨이",
+      "summary": "모질라 AI의 Otari는 단일 엔드포인트로 40개 이상 프로바이더의 API 키와 예산을 관리하는 OpenAI 호환 게이트웨이다.",
+      "source": "GitHub (Mozilla AI)",
+      "url": "https://github.com/mozilla-ai/otari?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "멀티-프로바이더 LLM 접근을 하나로 통합·관리.",
+        "what": "Otari가 40+ 프로바이더의 키·예산을 단일 OpenAI 호환 엔드포인트로 관리.",
+        "points": ["40+ 프로바이더", "키·예산 중앙 관리"],
+        "why": ["멀티모델 운영의 거버넌스·비용 통제"]
+      }
+    },
+    {
+      "id": "dev-mapcn",
+      "title": "Mapcn: MapLibre 기반 커스터마이즈 React 지도 컴포넌트",
+      "summary": "MapLibre 위에 Tailwind 스타일링을 입힌 무료·커스터마이즈 가능한 React 지도 컴포넌트.",
+      "source": "mapcn.dev",
+      "url": "https://mapcn.dev/?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "지도 통합을 간소화하는 오픈 React 컴포넌트.",
+        "what": "MapLibre+Tailwind 기반 무료 지도 컴포넌트로 지도 통합을 단순화.",
+        "points": ["MapLibre 기반", "Tailwind 스타일링"],
+        "why": ["프런트엔드 지도 구현 진입장벽 완화"]
+      }
+    },
+    {
+      "id": "dev-stargate-for-data",
+      "title": "'데이터를 위한 스타게이트'",
+      "summary": "AI 랩이 2030년까지 데이터에 연 1,000억 달러 이상을 쓸 전망으로, 제약이 컴퓨트에서 데이터 희소성으로 옮겨가고 있다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2074178395462848800.html?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI의 병목이 데이터로 이동한다.",
+        "what": "2030년 연 1,000억 달러 데이터 지출 전망과 데이터 희소성 부각.",
+        "points": ["연 1,000억 달러 데이터 지출", "데이터 희소성 병목"],
+        "why": ["데이터 확보 전략이 경쟁력의 핵심 축"]
+      }
+    },
+    {
+      "id": "dev-global-workspace",
+      "title": "언어모델 속 글로벌 워크스페이스",
+      "summary": "앤트로픽 연구진이 언어모델의 의도적 추론과 사고 보고를 뒷받침하는 내부 신경 패턴 'J-space'를 식별했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/global-workspace?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "모델 내부의 추론 구조를 해석성 관점에서 규명.",
+        "what": "앤트로픽이 심층 추론을 뒷받침하는 내부 패턴 J-space를 발견.",
+        "points": ["의도적 추론 지원 패턴", "자기보고와 연관"],
+        "why": ["모델 내부 이해가 안전·정렬의 토대"]
+      }
+    },
+    {
+      "id": "dev-companies-hire-more-ai",
+      "title": "AI를 도입한 기업이 더 많이 채용한다",
+      "summary": "AI를 적극 도입한 조직이 2년 내 약 10%의 인력 성장을 경험한다는 램프 데이터.",
+      "source": "Ramp",
+      "url": "https://ramp.com/data/heavy-ai-adopters-hire-more?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 도입과 고용 증가가 함께 간다는 실증.",
+        "what": "AI 적극 도입 기업이 2년 내 약 10% 인력 성장을 보였다는 데이터.",
+        "points": ["2년 내 +10% 인력", "도입-성장 상관"],
+        "why": ["'AI=감원' 서사에 대한 반증 데이터"]
+      }
+    },
+    {
+      "id": "dev-software-engineering-war",
+      "title": "소프트웨어 엔지니어링 전쟁",
+      "summary": "개발자들이 빠른 배포와 코드 품질이라는 상충 철학 사이에서 균형을 잡으며, AI가 워크플로에 미치는 영향으로 갈등이 심화된다.",
+      "source": "Manager.dev",
+      "url": "https://www.manager.dev/newsletter/the-software-engineering-war?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "속도 vs 품질 갈등이 AI 시대에 재점화.",
+        "what": "빠른 배포와 품질 사이의 철학 충돌이 AI로 더 첨예해진다는 관찰.",
+        "points": ["속도 vs 품질", "AI가 갈등 증폭"],
+        "why": ["엔지니어링 문화·프로세스 재정립의 필요"]
+      }
+    },
+    {
+      "id": "dev-small-models-traction",
+      "title": "전 세계에서 힘 얻는 소형 AI 모델",
+      "summary": "컴팩트 AI 모델이 대규모 인프라 없이도 소외 지역의 의료·농업 수요를 해결하고 있다.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals?utm_source=tldrdev",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "소형 모델이 저인프라 환경의 실용 AI를 연다.",
+        "what": "소형 모델이 의료·농업 등 소외 지역 수요를 인프라 부담 없이 충족.",
+        "points": ["저인프라 배치", "의료·농업 활용"],
+        "why": ["AI 접근성의 지리적 확장"]
+      }
+    }
+  ]
+}
