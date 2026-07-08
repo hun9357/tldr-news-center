@@ -1,0 +1,49 @@
+{
+  "date": "2026-07-08",
+  "weekday": "수",
+  "headline": "마이크로소프트, 엑셀·아웃룩에서 OpenAI·앤트로픽을 자체 MAI 모델로 교체",
+  "subtitle": "GitLost 프롬프트 인젝션으로 깃허브 AI 에이전트가 비공개 저장소 유출, 16년 묵은 KVM 버그(CVE-2026-53359)로 클라우드 VM 탈출, 구글 AI 개요의 상업 검색 확산도 주목",
+  "keyword": "모델 내재화 · 에이전트 보안 · 추론 마진 · 하이퍼바이저 탈출",
+  "bigStoryId": "ai-microsoft-mai-replaces",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "devops",
+    "dev",
+    "crypto",
+    "founders",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:03 CDT",
+  "syncedAt": "09:03",
+  "subscribers": 128842,
+  "market": { "index": "S&P 500", "value": "7,503.85", "change": "▼ 0.45%" },
+  "stats": {
+    "companies": 26,
+    "security": 13,
+    "deals": 6,
+    "policy": 7
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "에이전트에 준 권한이 곧 유출 경로: GitLost·DialogFlow·Writer 동시 노출",
+      "body": "조작된 깃허브 이슈의 프롬프트 인젝션으로 AI 워크플로가 비공개 저장소 내용을 공개 코멘트에 출력했고(GitLost), DialogFlow CX는 공유 런타임 덮어쓰기로 임의 코드 실행이 가능했다. Writer의 세션 격리 결함까지 겹치며 관리형 에이전트 플랫폼의 권한 모델이 하루에 세 곳에서 무너졌다.",
+      "severity": "8.6",
+      "velocity": "Rising",
+      "action": "에이전트 토큰 스코프 최소화 + 외부 입력 트리거 게이팅"
+    },
+    {
+      "kind": "market",
+      "title": "추론 마진 압축, 최대 고객이 먼저 이탈한다",
+      "body": "마이크로소프트가 엑셀·아웃룩 일부 기능을 자체 MAI 모델로 돌리고, 중국 모델과 GLM 5.2 같은 오픈웨이트가 프리미엄 가격의 20% 미만으로 경쟁 성능을 낸다. OpenAI는 GPT-5.6 Sol·Terra·Luna로 가격 티어를 3분할하며 대응했다 — 벤치마크가 아니라 달러/토큰 곡선이 채택을 정하는 국면이다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "GPT-5.6 목요일 출시와 스페이스X·커서 공동 모델(이르면 수요일) 실측 성능, CVE-2026-53359 KVM 패치의 클라우드 사업자 롤아웃 일정, 중국의 최상위 모델 해외 접근 제한 검토 진전, 클라우드플레어 HTTP 402 게이트웨이 채택 확산을 추적."
+    }
+  ]
+}

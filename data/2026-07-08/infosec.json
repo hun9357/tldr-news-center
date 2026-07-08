@@ -1,0 +1,214 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "sec-gitlost-github-agent",
+      "title": "GitLost — 깃허브 AI 에이전트를 속여 비공개 저장소 유출",
+      "summary": "조작된 이슈 본문의 프롬프트 인젝션으로 깃허브 Agentic Workflow가 비공개 저장소 파일을 읽어 공개 코멘트에 게시하도록 유도했다. 'Additionally' 같은 접속어가 가드레일 우회 트리거로 작동했다.",
+      "source": "Noma Security",
+      "url": "https://noma.security/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "GitHub Actions · AI 워크플로 · 소스코드"
+      },
+      "related": [
+        "DialogFlow CX 임의 코드 실행 (Varonis)",
+        "Writer AI 세션 토큰 테넌트 간 유출",
+        "T3MP3ST — AI 코딩 에이전트의 제로데이 공격 프레임워크"
+      ],
+      "report": {
+        "tldr": "이슈 텍스트 한 줄이 비공개 코드 유출 경로가 된다.",
+        "what": "공개 이슈에 심은 프롬프트 인젝션으로 깃허브 AI 에이전트가 프라이빗 레포 파일을 읽고 그 내용을 공개 댓글로 출력했다.",
+        "points": ["신뢰 경계 없이 이슈 본문을 지시로 해석", "'Additionally' 접두로 기존 지시 뒤에 명령 추가", "에이전트가 프라이빗 레포 읽기 권한을 그대로 보유"],
+        "why": ["에이전트 워크플로에서 '입력'과 '명령'의 구분이 사실상 없다", "CI 권한을 가진 에이전트는 곧 공격면 확대", "정적 스캐너는 자연어 인젝션을 탐지하지 못한다"],
+        "context": "프롬프트 인젝션: 신뢰되지 않은 텍스트가 모델의 시스템 지시를 덮어쓰는 공격. 에이전트에 권한이 붙으면 정보 유출·코드 실행으로 이어진다.",
+        "action": "에이전트 워크플로의 토큰 스코프를 최소화하고, 외부 기여 이슈/PR 본문에는 에이전트를 트리거하지 않도록 게이팅할 것."
+      }
+    },
+    {
+      "id": "sec-januscape-kvm",
+      "title": "Januscape — 16년 묵은 리눅스 KVM 버그로 클라우드 VM 탈출",
+      "summary": "2010년부터 존재한 KVM 섀도 MMU의 use-after-free(CVE-2026-53359)로 게스트 VM이 호스트 커널 메모리를 훼손할 수 있다. 멀티테넌트 클라우드 환경에 직접적 위협이다.",
+      "source": "Security Affairs",
+      "url": "https://securityaffairs.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "High",
+        "confidence": "86%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "리눅스 KVM · 하이퍼바이저 · 멀티테넌트"
+      },
+      "report": {
+        "tldr": "하이퍼바이저 격리 가정이 16년치 코드에서 깨졌다.",
+        "what": "KVM 섀도 MMU의 use-after-free 취약점(CVE-2026-53359)으로 게스트가 호스트 커널 메모리를 조작하고 코드 실행에 이를 수 있다.",
+        "points": ["2010년 도입 코드에 존재", "섀도 페이징 경로에서 트리거", "멀티테넌트 클라우드가 최대 노출"],
+        "why": ["VM 탈출은 테넌트 격리 신뢰의 최종 방어선을 무너뜨린다", "패치 배포에 라이브 마이그레이션·재부팅 창이 필요해 대응이 느리다"],
+        "action": "커널 벤더 패치 적용 일정 확인, 미신뢰 게스트가 도는 호스트 우선 처리."
+      }
+    },
+    {
+      "id": "sec-dialogflow-rogue-agent",
+      "title": "Rogue Agent — 구글 DialogFlow CX 코드 블록으로 에이전트 장악",
+      "summary": "업데이트 권한을 가진 사용자가 공유 Cloud Run 파일을 덮어써 프로젝트 내 모든 에이전트에서 임의 파이썬 코드를 실행할 수 있었다. 대화 기록 탈취로 이어질 수 있다.",
+      "source": "Varonis",
+      "url": "https://www.varonis.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "Resolved",
+        "affectedSurface": "Dialogflow CX · Cloud Run"
+      },
+      "report": {
+        "tldr": "에이전트 플랫폼의 공유 런타임이 곧 횡적 이동 경로다.",
+        "what": "Dialogflow CX에서 update 권한만으로 공유 Cloud Run 파일을 재작성해 프로젝트 전체 에이전트에 임의 코드를 주입할 수 있었다.",
+        "points": ["에이전트 간 런타임 공유", "채팅 이력 유출 가능"],
+        "why": ["관리형 에이전트 서비스의 권한 모델이 코드 실행 권한과 뒤섞여 있다"]
+      }
+    },
+    {
+      "id": "sec-jadepuffer-ai-ransomware",
+      "title": "'최초의 AI 운영 랜섬웨어'도 결국 사람이 필요했다",
+      "summary": "JadePuffer 랜섬웨어는 AI 에이전트로 침투·DB 피벗·암호화·협박문 생성을 자동 수행했다. 다만 완전 자율에는 이르지 못하고 사람이 개입한 지점이 남았다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "72%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "랜섬웨어 · 위협 인텔"
+      },
+      "report": {
+        "tldr": "자율 공격은 아직 반자율이지만, 사람 개입 지점이 줄고 있다.",
+        "what": "JadePuffer가 AI 에이전트로 초기 침투부터 데이터베이스 이동, 암호화, 랜섬 노트 작성까지 수행했다.",
+        "points": ["에이전트 기반 킬체인 자동화", "완전 자율에는 미도달"],
+        "why": ["공격 비용 하락은 표적 폭을 넓힌다 — 저가치 표적도 경제성이 생긴다"]
+      }
+    },
+    {
+      "id": "sec-uat7810-orb",
+      "title": "UAT-7810, 러커스 라우터로 ORB 네트워크 확장",
+      "summary": "중국계 위협 행위자 UAT-7810이 러커스 라우터를 침해해 DOGLEASH·LONGLEASH·JARLEASH 백도어를 배포했다. 활발한 악성코드 개발 정황이 확인됐다.",
+      "source": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "엣지 장비가 국가 배후 은닉 인프라로 계속 흡수된다.",
+        "what": "UAT-7810이 러커스 라우터를 장악해 ORB(운영 릴레이 박스) 네트워크용 신규 백도어 3종을 배포했다.",
+        "points": ["DOGLEASH·LONGLEASH·JARLEASH", "지속적 악성코드 버전업"],
+        "why": ["ORB 네트워크는 귀속과 차단을 동시에 어렵게 만든다"]
+      }
+    },
+    {
+      "id": "sec-windows-service-privesc",
+      "title": "윈도우 서비스 권한 상승 6종 기법",
+      "summary": "모니터링되는 바이너리를 건드리지 않고 복구 동작(recovery action)을 악용해 SYSTEM으로 명령을 실행하는 기법 등 6가지를 정리했다. 탐지 가이드도 함께 제공된다.",
+      "source": "iPurple Team",
+      "url": "https://www.ipurple.team/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "서비스 복구 동작은 여전히 감시 사각지대다.",
+        "what": "윈도우 서비스 구성 요소를 악용한 6가지 권한 상승 경로와 탐지 방법 정리.",
+        "points": ["recovery action 악용으로 바이너리 무변조 SYSTEM 실행", "각 기법별 탐지 쿼리 제공"],
+        "why": ["EDR 룰이 바이너리 변조에 집중돼 있어 구성 변경 탐지가 취약하다"]
+      }
+    },
+    {
+      "id": "sec-writer-ai-token-leak",
+      "title": "Writer AI 결함, 에이전트 프리뷰로 테넌트 간 세션 토큰 유출",
+      "summary": "세션 격리 버그로 에이전트 프리뷰 링크를 통해 쿠키를 탈취하고 타 기업 계정을 장악할 수 있었다. 현재는 패치됐다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "SaaS 에이전트 프리뷰는 테넌트 경계를 넘기 쉽다.",
+        "what": "Writer의 에이전트 프리뷰 기능에서 세션 격리 결함으로 다른 테넌트의 세션 토큰이 탈취 가능했다.",
+        "points": ["프리뷰 링크 경유 쿠키 탈취", "패치 완료"],
+        "why": ["멀티테넌트 AI SaaS의 프리뷰/샌드박스 기능이 반복되는 취약 지점"]
+      }
+    },
+    {
+      "id": "sec-county-1m-ransom",
+      "title": "미국 카운티 정부, 갈취조직에 100만 달러 지급",
+      "summary": "생체정보와 금융정보를 포함한 2TB 이상이 유출된 뒤 소규모 카운티가 Kairos 조직에 100만 달러를 지불했다. 지방정부의 대응 역량 한계를 보여준다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "지방정부는 협상 외 선택지가 사실상 없다.",
+        "what": "2TB 이상의 개인정보 유출 뒤 미국의 한 소규모 카운티가 Kairos에 100만 달러를 지불했다.",
+        "points": ["생체·금융정보 포함", "Kairos 갈취 그룹"],
+        "why": ["백업·복구 역량 부재가 지불 결정을 강제한다"]
+      }
+    },
+    {
+      "id": "sec-trusted-publishing",
+      "title": "'신뢰 게시(trusted publishing)'를 신뢰하면 안 되는 이유",
+      "summary": "PyPI의 trusted publishing은 머신 신원만 인증할 뿐 패키지의 안전성이나 품질을 보증하지 않는다. 공급망 신뢰의 착시를 경고한다.",
+      "source": "LWN",
+      "url": "https://lwn.net/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "출처 인증은 내용 검증이 아니다.",
+        "what": "PyPI trusted publishing이 인증하는 것은 게시 주체의 머신 신원뿐이라는 지적.",
+        "points": ["패키지 안전성·품질 보증 없음", "'trusted' 명칭이 오해를 유발"],
+        "why": ["공급망 방어는 provenance + 내용 분석의 결합이 필요하다"]
+      }
+    },
+    {
+      "id": "sec-t3mp3st",
+      "title": "T3MP3ST — AI 코딩 에이전트를 제로데이 익스플로잇 도구로 전환",
+      "summary": "AI 코딩 에이전트를 공격 도구화하는 멀티에이전트 오펜시브 프레임워크가 공개됐다. 취약점 발견-무기화 파이프라인의 진입장벽을 낮춘다.",
+      "source": "GitHub",
+      "url": "https://github.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "오펜시브 툴체인이 에이전트로 재작성되고 있다.",
+        "what": "코딩 에이전트를 제로데이 익스플로잇 개발에 투입하는 멀티에이전트 프레임워크 T3MP3ST가 공개됐다.",
+        "points": ["에이전트 오케스트레이션 기반", "발견→무기화 자동화"],
+        "why": ["방어 측도 동일 속도로 자동 검증 파이프라인을 갖춰야 한다"]
+      }
+    },
+    {
+      "id": "sec-easytokens",
+      "title": "EasyTokens — M365 OAuth 토큰 피싱 도구",
+      "summary": "Device Authorization Grant 흐름을 악용해 마이크로소프트 365 OAuth 토큰을 피싱하는 파이썬/PHP 도구다. 등록 페이지를 사칭한 테마를 제공한다.",
+      "source": "GitHub",
+      "url": "https://github.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "디바이스 코드 플로우 피싱이 패키지화됐다.",
+        "what": "Device Authorization Grant를 악용해 M365 OAuth 토큰을 탈취하는 도구가 공개됐다.",
+        "points": ["기기 등록 페이지 사칭", "MFA 우회 효과"],
+        "why": ["디바이스 코드 플로우를 조건부 액세스로 차단하지 않은 테넌트가 여전히 다수"],
+        "action": "Entra 조건부 액세스에서 device code flow를 명시적으로 차단할 것."
+      }
+    },
+    {
+      "id": "sec-lambda-microvm-notes",
+      "title": "람다 마이크로VM 관찰 노트",
+      "summary": "람다 마이크로VM에서 최대 8시간 동안 전체 OS 접근으로 코드를 실행할 수 있다. 다만 아웃바운드 네트워킹은 명시적 구성이 필요하다.",
+      "source": "awsteele.com",
+      "url": "https://awsteele.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "서버리스 경계가 사실상 장시간 VM에 가까워졌다.",
+        "what": "람다 마이크로VM에서 최대 8시간 실행과 전체 OS 접근이 가능하다는 실험 노트.",
+        "points": ["아웃바운드 네트워킹은 별도 구성 필요"],
+        "why": ["실행 시간 확대는 지속성 확보와 데이터 반출 시나리오를 함께 넓힌다"]
+      }
+    }
+  ]
+}

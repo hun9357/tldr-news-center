@@ -1,0 +1,165 @@
+{
+  "name": "개발",
+  "source": "TLDR Web Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-not-all-upgrades-are-upgrades",
+      "title": "모든 모델 업그레이드가 업그레이드는 아니다",
+      "summary": "마이크로소프트 테스트에서 토큰 단가가 낮은 신형 모델이 일부 태스크에서 이전 모델보다 나쁜 결과를 냈다. 버전 번호가 아니라 태스크별 평가가 필요하다는 결론이다.",
+      "source": "Microsoft Developer Blog",
+      "url": "https://developer.microsoft.com/blog",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Eng",
+        "status": "New",
+        "affectedSurface": "모델 라우팅 · 회귀 테스트"
+      },
+      "report": {
+        "tldr": "모델 교체는 배포이지 업그레이드가 아니다.",
+        "what": "신형 모델이 저렴함에도 특정 태스크에서 품질 회귀를 보였다는 마이크로소프트의 테스트 결과.",
+        "points": ["가격 인하 ≠ 품질 향상", "태스크별 회귀 스위트 필요"],
+        "why": ["모델 라우팅이 표준이 될수록 골든셋 기반 회귀 테스트가 CI에 들어와야 한다"],
+        "action": "모델 버전 핀 고정 + 교체 전 골든셋 회귀 실행을 릴리스 게이트로."
+      }
+    },
+    {
+      "id": "dev-pgdog-pooler",
+      "title": "PgDog — 세션 기능을 보존하는 포스트그레스 커넥션 풀러",
+      "summary": "내장 SQL 파서로 커넥션 상태를 관리해 SET, LISTEN/NOTIFY 등 세션 기능을 유지한다. 러스트 Tokio 기반 멀티스레드 구조를 채택했다.",
+      "source": "pgdog.dev",
+      "url": "https://pgdog.dev/blog/why-yet-another-connection-pooler",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "SQL을 파싱하는 풀러라는 접근.",
+        "what": "PgDog가 세션 상태를 추적해 트랜잭션 풀링의 기능 손실을 줄인다.",
+        "points": ["SET·LISTEN/NOTIFY 지원", "Rust Tokio"],
+        "why": ["PgBouncer 대체 후보로 실사용 검증이 관건"]
+      }
+    },
+    {
+      "id": "dev-code-review-bottleneck",
+      "title": "제약 이론으로 본 AI 시대의 코드 리뷰",
+      "summary": "AI로 코드 생산량이 늘어난 하이퍼그로스 조직의 병목은 개인 생산성이 아니라 코드 리뷰다. 리뷰 대기열이 쌓이며 전체 처리량이 정체된다.",
+      "source": "swizec.com",
+      "url": "https://swizec.com/",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "75%",
+        "owner": "Eng",
+        "status": "Tracking",
+        "affectedSurface": "엔지니어링 프로세스"
+      },
+      "report": {
+        "tldr": "생성 속도를 올리면 병목은 검토로 이동한다.",
+        "what": "AI 코딩 확대로 PR 생성량이 늘면서 리뷰가 시스템 제약(constraint)이 된다는 분석.",
+        "points": ["개인 생산성 향상 ≠ 처리량 향상", "리뷰 대기열이 리드타임을 지배"],
+        "why": ["우버의 PR 70% 에이전트 생성 사례와 정확히 같은 문제를 예고"],
+        "action": "리뷰 용량을 늘리거나(자동 검증) PR 크기를 줄여 제약을 이동시킬 것."
+      }
+    },
+    {
+      "id": "dev-harness-engineering",
+      "title": "하네스 엔지니어링 — 자기개선 시스템의 설계",
+      "summary": "워크플로 자동화와 지속 메모리 같은 설계 패턴으로 AI 시스템이 스스로 역량을 끌어올리는 구조를 다룬다. 평가와 컨텍스트 관리가 핵심 난제다.",
+      "source": "lilianweng.github.io",
+      "url": "https://lilianweng.github.io/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "모델보다 하네스가 성능 상한을 정한다.",
+        "what": "모델을 감싸는 실행 하네스가 자기개선 루프를 만드는 설계 패턴 정리.",
+        "points": ["워크플로 자동화", "지속 메모리", "평가 병목"],
+        "why": ["에이전트 제품의 차별화가 프롬프트가 아니라 하네스 설계로 옮겨간다"]
+      }
+    },
+    {
+      "id": "dev-chatgpt-mac",
+      "title": "ChatGPT for Mac은 왜 좋은가",
+      "summary": "웹뷰 래핑 대신 네이티브 앱과 사용자 경험을 일관되게 우선한 결과라는 분석이다. 경쟁 앱 대비 체감 품질 격차의 원인을 짚는다.",
+      "source": "allenpike.com",
+      "url": "https://allenpike.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 제품의 해자 일부는 그냥 네이티브 앱 품질이다.",
+        "what": "ChatGPT macOS 앱이 네이티브 구현과 UX 우선순위로 경쟁 앱을 앞선다는 평.",
+        "points": ["웹뷰 래핑 회피", "OS 통합"],
+        "why": ["모델 성능이 수렴할수록 클라이언트 품질이 차별화 축이 된다"]
+      }
+    },
+    {
+      "id": "dev-davit",
+      "title": "Davit — 도커 데스크톱 없이 애플 실리콘에서 리눅스 컨테이너",
+      "summary": "애플 실리콘 맥에서 도커 데스크톱 없이 리눅스 컨테이너를 실행하는 무료 앱이다. 네이티브 컨테이너 관리 UI를 제공한다.",
+      "source": "davit.app",
+      "url": "https://davit.app/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "맥 컨테이너 런타임 선택지가 하나 더 늘었다.",
+        "what": "Davit는 애플 실리콘에서 도커 데스크톱 없이 리눅스 컨테이너를 구동하는 무료 macOS 앱.",
+        "points": ["네이티브 관리 UI", "무료"],
+        "why": ["도커 데스크톱 라이선스 비용 회피 수요가 꾸준하다"]
+      }
+    },
+    {
+      "id": "dev-fortress-browser",
+      "title": "Fortress — 스크래퍼 탐지를 회피하는 오픈소스 크로미움",
+      "summary": "브라우저 지문을 수정해 자동화 도구가 탐지 없이 동작하도록 만든 크로미움 변종이다. 봇 탐지 우회 논쟁을 다시 촉발한다.",
+      "source": "GitHub",
+      "url": "https://github.com/tiliondev/fortress",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "봇 탐지 군비경쟁의 오픈소스 라운드.",
+        "what": "브라우저 핑거프린트를 변조해 자동화 탐지를 우회하는 크로미움 포크.",
+        "points": ["기존 자동화 도구 무수정 사용"],
+        "why": ["클라우드플레어의 크롤러 과금 게이트웨이와 정면으로 충돌하는 방향"]
+      }
+    },
+    {
+      "id": "dev-cursor-blog-perf",
+      "title": "커서에게 블로그 성능 리뷰를 시켜봤다",
+      "summary": "Eleventy 블로그 성능 감사에서 불필요한 외부 API 호출과 과도한 파일 복사가 드러났다. 에이전트 감사의 실효 범위를 보여주는 사례다.",
+      "source": "raymondcamden.com",
+      "url": "https://www.raymondcamden.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트는 빌드 낭비 같은 '기계적' 비효율을 잘 찾는다.",
+        "what": "커서에게 Eleventy 블로그 성능 감사를 맡겨 외부 API 호출·파일 복사 낭비를 찾아낸 기록.",
+        "points": ["빌드 파이프라인 낭비 탐지"],
+        "why": ["구조적 판단보다 반복 패턴 탐지에서 에이전트 ROI가 높다"]
+      }
+    },
+    {
+      "id": "dev-software-quality-notes",
+      "title": "소프트웨어 품질에 대한 노트",
+      "summary": "복잡도 증가와 수익 체감으로 대규모에서 품질을 유지하기가 갈수록 어려워진다는 관찰이다. 품질을 조직 구조 문제로 바라본다.",
+      "source": "anthonyhobday.com",
+      "url": "https://anthonyhobday.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "품질은 개인 규율이 아니라 규모의 함수다.",
+        "what": "규모가 커질수록 품질 유지가 어려워지는 구조적 이유를 정리한 글.",
+        "points": ["복잡도 증가", "수익 체감"],
+        "why": ["AI가 코드량을 늘릴수록 이 곡선이 가팔라진다"]
+      }
+    },
+    {
+      "id": "dev-98-percent",
+      "title": "98%는 그리 높지 않다",
+      "summary": "높은 성공률 수치가 영향을 받는 소수의 피해를 가린다는 지적이다. 퍼센트 지표가 오도할 수 있음을 짚는다.",
+      "source": "whynothugo.nl",
+      "url": "https://whynothugo.nl/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "성공률 지표는 실패 절대량을 숨긴다.",
+        "what": "98% 성공률이 남기는 2%의 절대 규모와 그 영향에 대한 논지.",
+        "points": ["비율 지표의 한계", "절대량 기준 SLO"],
+        "why": ["에이전트 신뢰도 논의에도 그대로 적용된다 — 98% 성공은 50스텝 후 36%"]
+      }
+    }
+  ]
+}

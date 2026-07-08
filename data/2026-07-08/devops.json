@@ -1,0 +1,163 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-workers-cache",
+      "title": "클라우드플레어 Workers에 전용 캐시 계층 추가",
+      "summary": "코드를 실행하지 않고 캐시된 응답을 반환해 CPU 과금을 제거하는 계층형 캐시를 도입했다. stale-while-revalidate를 지원하며 모든 Worker 엔트리포인트에 적용된다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/workers-cache/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "90%",
+        "owner": "Eng",
+        "status": "New",
+        "affectedSurface": "엣지 컴퓨트 · 비용"
+      },
+      "report": {
+        "tldr": "엣지 컴퓨트 과금 모델이 캐시 히트에서 0으로 수렴한다.",
+        "what": "Workers 앞단에 계층형 캐시가 붙어 캐시 히트 시 워커 코드를 실행하지 않는다.",
+        "points": ["캐시 히트 시 CPU 과금 없음", "stale-while-revalidate 지원", "모든 엔트리포인트 적용"],
+        "why": ["엣지 함수 비용 최적화의 기본기가 CDN 캐시 튜닝으로 되돌아간다"]
+      }
+    },
+    {
+      "id": "devops-glm52-margin-collapse",
+      "title": "GLM 5.2와 다가오는 AI 마진 붕괴",
+      "summary": "GLM 5.2 같은 오픈웨이트 모델이 프리미엄 모델 가격의 20% 미만으로 유사한 코딩 성능을 낸다는 분석이다. 호환 엔드포인트 확산으로 추론 마진 압축이 가속될 수 있다.",
+      "source": "Martin Alderson",
+      "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
+      "originalDate": "2026-07-06",
+      "intel": {
+        "impact": "High",
+        "confidence": "70%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "추론 원가 · 모델 조달"
+      },
+      "report": {
+        "tldr": "코딩 워크로드에서 프리미엄 모델의 가격 프리미엄이 정당화되기 어려워진다.",
+        "what": "오픈웨이트 GLM 5.2가 프리미엄 모델 가격의 20% 미만으로 경쟁력 있는 코딩 성능을 제공한다는 분석.",
+        "points": ["OpenAI 호환 엔드포인트로 전환 마찰 최소", "마진 압축은 프런티어 랩의 자본지출과 충돌"],
+        "why": ["마이크로소프트의 MAI 전환, 중국 모델 채택 확대와 같은 방향의 신호"]
+      }
+    },
+    {
+      "id": "devops-github-6-settings",
+      "title": "깃허브 메인테이너가 이번 주 켜야 할 보안 설정 6가지",
+      "summary": "SECURITY.md, 비공개 취약점 신고, Dependabot 등 무료 기능 6종을 30분 안에 활성화하도록 안내한다. 새 'Protect Your Project' 마법사가 제공된다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/security/6-security-settings-every-github-maintainer-should-enable-this-week/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "무료 설정 6개로 오픈소스 공급망 기본선을 올린다.",
+        "what": "깃허브 시큐리티 랩이 메인테이너용 필수 보안 설정 6종과 활성화 마법사를 소개했다.",
+        "points": ["SECURITY.md·private vulnerability reporting", "Dependabot 경보/업데이트", "30분 내 완료 목표"],
+        "why": ["같은 날 GitLost 사례처럼 레포 권한이 곧 에이전트 공격면이 된다"]
+      }
+    },
+    {
+      "id": "devops-cloudwatch-service-events",
+      "title": "CloudWatch Application Signals, 오류·성능 이상·배포 이벤트 자동 수집",
+      "summary": "Service Events 기능이 계측된 애플리케이션에서 예외와 지연 데이터를 코드 수정 없이 수집한다. Java·Python·JavaScript를 지원한다.",
+      "source": "AWS News",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/06/cloudwatch-service-events/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "예외·지연·배포를 하나의 이벤트 스트림으로 묶는다.",
+        "what": "CloudWatch Application Signals에 Service Events가 추가돼 예외/지연/배포 이벤트를 자동 캡처한다.",
+        "points": ["코드 변경 불필요", "Java·Python·JS 지원"],
+        "why": ["배포와 이상 징후의 상관관계를 별도 파이프라인 없이 확인 가능"]
+      }
+    },
+    {
+      "id": "devops-cube-sandbox",
+      "title": "Cube Sandbox — 60ms 만에 뜨는 AI 에이전트용 하드웨어 격리 샌드박스",
+      "summary": "텐센트클라우드가 RustVMM·KVM 기반 경량 샌드박스를 공개했다. 60ms 이내에 하드웨어 격리 환경을 만들고 메모리 오버헤드가 낮다.",
+      "source": "GitHub (TencentCloud)",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "에이전트 실행 격리가 컨테이너에서 마이크로VM으로 내려간다.",
+        "what": "RustVMM·KVM 기반 Cube Sandbox가 60ms 이내 부팅과 낮은 메모리 오버헤드로 에이전트 격리 환경을 제공한다.",
+        "points": ["하드웨어 격리", "60ms 부팅"],
+        "why": ["프롬프트 인젝션 시대에는 에이전트 코드 실행을 커널 경계로 감싸야 한다"]
+      }
+    },
+    {
+      "id": "devops-pgdog-pooler",
+      "title": "PgDog — 또 하나의 포스트그레스 커넥션 풀러를 만든 이유",
+      "summary": "내장 SQL 파서로 세션 상태를 추적해 SET·LISTEN/NOTIFY 같은 세션 기능을 보존한다. 러스트 Tokio 기반 멀티스레드 구조로 높은 클라이언트 부하를 처리한다.",
+      "source": "PgDog",
+      "url": "https://pgdog.dev/blog/why-yet-another-connection-pooler",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "풀러가 SQL을 이해하면 세션 기능을 포기하지 않아도 된다.",
+        "what": "PgDog는 SQL 파서를 내장해 세션 상태를 관리하며 트랜잭션 풀링의 기능 손실을 줄인다.",
+        "points": ["SET / LISTEN·NOTIFY 지원", "Rust Tokio 멀티스레드"],
+        "why": ["PgBouncer 트랜잭션 모드의 오랜 제약을 우회하는 접근"]
+      }
+    },
+    {
+      "id": "devops-postgres-is-enough",
+      "title": "'Postgres Is Enough' — 하나로 합치는 데이터 스택",
+      "summary": "캐시·전문검색·벡터·시계열·분석까지 포스트그레스 하나로 대체 가능한 사례를 모은 자료다. 다중 데이터스토어 운영 부담을 줄이자는 주장이다.",
+      "source": "postgresisenough.dev",
+      "url": "https://postgresisenough.dev/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "스택 축소가 곧 운영 비용 축소다.",
+        "what": "여러 특수 목적 DB를 포스트그레스 확장으로 대체한 사례 모음.",
+        "points": ["캐시·FTS·벡터·시계열·분석"],
+        "why": ["초기 조직에서 데이터스토어 다변화는 대개 조기 최적화"]
+      }
+    },
+    {
+      "id": "devops-spacelift-intent",
+      "title": "스페이스리프트 Intelligence, 모듈 레지스트리에서 직접 배포",
+      "summary": "자연어로 프라이빗 레지스트리의 테라폼 모듈을 배포하면서 기존 정책·권한·감사 추적을 유지한다. IaC에 에이전트 인터페이스를 얹은 형태다.",
+      "source": "Spacelift",
+      "url": "https://spacelift.io/blog/spacelift-intelligence-deploys-modules-from-registry",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "IaC에 자연어 인터페이스가 붙되 정책 게이트는 유지된다.",
+        "what": "스페이스리프트 Intent가 프라이빗 모듈 레지스트리의 테라폼 모듈을 자연어로 관리·배포한다.",
+        "points": ["정책·권한·감사 추적 보존"],
+        "why": ["에이전트 IaC의 안전성은 정책 엔진이 앞단에 있느냐로 갈린다"]
+      }
+    },
+    {
+      "id": "devops-go-bound-checks",
+      "title": "unsafe로 Go 경계 검사 제거하기",
+      "summary": "Go 컴파일러가 일부 슬라이스 경계 검사를 제거하지만 성능 민감 경로에는 검사가 남는 경우가 있다. 언제 최적화가 실패하는지 사례로 정리했다.",
+      "source": "andr2i Blog",
+      "url": "https://blog.andr2i.com/posts/2026-07-06-eliminating-go-bound-checks-with-unsafe",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "BCE는 만능이 아니다 — 핫패스는 확인이 필요하다.",
+        "what": "Go의 bound check elimination이 작동하지 않는 패턴과 unsafe를 이용한 우회를 다룬다.",
+        "points": ["컴파일러 최적화 실패 패턴", "unsafe의 대가"],
+        "why": ["핫루프에서만 선택적으로 쓰고 벤치마크로 검증할 것"]
+      }
+    },
+    {
+      "id": "devops-clippy-funding",
+      "title": "러스트 Clippy, 전담 자금 없이 유지보수 위기",
+      "summary": "Clippy 린터 프로젝트가 전담 재원 부재로 유지보수 부담에 직면했다. 개발이 자원봉사 기여에 의존하고 있다.",
+      "source": "Rust Inside Blog",
+      "url": "https://blog.rust-lang.org/inside-rust/2026/07/06/unite-for-clippy/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "핵심 툴체인의 지속가능성 문제가 다시 드러났다.",
+        "what": "Clippy가 전담 유지보수 자금 없이 자원봉사에 의존하고 있다는 공지.",
+        "points": ["린터는 사실상 필수 툴체인"],
+        "why": ["기업 채택 언어의 툴 생태계 자금 조달 구조는 여전히 취약하다"]
+      }
+    }
+  ]
+}

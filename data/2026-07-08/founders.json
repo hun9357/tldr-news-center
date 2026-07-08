@@ -1,0 +1,171 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "fnd-10b-fde-boom",
+      "title": "100억 달러 규모의 FDE 붐",
+      "summary": "AI 기업들이 12개월간 포워드 디플로이드 엔지니어링(FDE) 인력에 약 100억 달러를 투입했다. 고객사 시스템에 깊게 박힌 통합이 전환 마찰을 만들어 해자로 작동한다.",
+      "source": "tomtunguz.com",
+      "url": "https://tomtunguz.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "68%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "GTM · 엔터프라이즈 세일즈"
+      },
+      "report": {
+        "tldr": "AI 기업의 해자는 모델이 아니라 배치 인력이다.",
+        "what": "AI 기업들이 FDE(포워드 디플로이드 엔지니어) 조직에 12개월간 약 100억 달러를 투입했다.",
+        "points": ["팔란티어식 FDE 모델의 확산", "재학습 마찰이 전환비용을 만든다"],
+        "why": ["모델 성능이 수렴하는 국면에서 유통·통합이 차별화 축이 된다"]
+      }
+    },
+    {
+      "id": "fnd-uber-agentic-adoption",
+      "title": "우버, 에이전트 AI 채택 폭증 — PR의 70%가 에이전트 생성",
+      "summary": "엔지니어의 99%가 AI 도구를 쓰고 PR의 70% 이상이 에이전트에 귀속된다. 핵심은 도구를 따로 만드는 게 아니라 구성원과 함께 설계한 데 있다는 설명이다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "High",
+        "confidence": "70%",
+        "owner": "Eng",
+        "status": "Tracking",
+        "affectedSurface": "엔지니어링 조직 · 코드 리뷰"
+      },
+      "report": {
+        "tldr": "대규모 조직에서 에이전트가 코드 생산의 다수를 차지하기 시작했다.",
+        "what": "우버 엔지니어 99%가 AI 도구를 사용하고 PR의 70% 이상이 에이전트로 생성된다는 내부 지표 공개.",
+        "points": ["도입 방식: 직원과 공동 설계", "PR 생성량 급증"],
+        "why": ["같은 날 '코드 리뷰가 병목' 분석과 맞물려, 다음 제약은 검토·검증 용량"],
+        "action": "PR 생성량 지표가 아니라 리드타임·결함률로 AI ROI를 측정할 것."
+      }
+    },
+    {
+      "id": "fnd-free-compute-credits",
+      "title": "AI 대기업들, 스타트업 점유율 확보 위해 무료 컴퓨트 살포",
+      "summary": "주요 AI 기업들이 스타트업에 대규모 컴퓨트 크레딧을 제공하며 고객 선점 경쟁을 벌인다. YC 참가사에는 특히 공격적인 조건이 제시된다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "고객 획득 비용을 컴퓨트로 지불한다.",
+        "what": "AI 대기업이 스타트업에 무료 컴퓨트 크레딧을 대규모 제공하며 락인 경쟁 중.",
+        "points": ["YC 코호트 집중 공략", "크레딧 소진 후 가격 노출"],
+        "why": ["크레딧 만료 시점이 곧 원가 쇼크 시점 — 마이크로소프트의 MAI 전환도 같은 원리"]
+      }
+    },
+    {
+      "id": "fnd-task-economy-data",
+      "title": "태스크 경제 — 데이터가 다음 1조 달러 카테고리",
+      "summary": "에이전트로 태스크를 자동화하려면 모든 앱·환경·직무 도메인을 아우르는 데이터 인프라가 필요하다는 주장이다. 이 데이터가 프런티어 역량과 점유율을 좌우한다고 본다.",
+      "source": "X (Everett Randle)",
+      "url": "https://x.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "에이전트 시대의 병목은 모델이 아니라 환경 데이터다.",
+        "what": "태스크 자동화를 위한 앱·환경·도메인 데이터 인프라가 새로운 거대 카테고리라는 논지.",
+        "points": ["환경(environment) 데이터의 희소성"],
+        "why": ["RL 환경 구축 기업들의 밸류에이션 급등과 궤를 같이한다"]
+      }
+    },
+    {
+      "id": "fnd-ai-native-hiring",
+      "title": "하버드 연구: AI 네이티브 스타트업은 주니어를 덜, 엘리트를 더 뽑는다",
+      "summary": "AI 중심 스타트업은 더 작은 팀을 유지하되 상위권 출신 시니어 인력에 채용을 집중한다. AI가 기회를 넓히기보다 집중시킬 수 있다는 함의다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "72%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "채용 · 인력 파이프라인"
+      },
+      "report": {
+        "tldr": "AI는 팀을 작게, 진입장벽을 높게 만든다.",
+        "what": "AI 네이티브 스타트업이 주니어 채용을 줄이고 엘리트 시니어 비중을 높인다는 하버드 연구.",
+        "points": ["소수 정예 구성", "주니어 진입 경로 축소"],
+        "why": ["5년 뒤 시니어 공급 파이프라인이 구조적으로 마른다"]
+      }
+    },
+    {
+      "id": "fnd-vungle-unlearning",
+      "title": "7.8억 달러에 회사를 판 창업자가 다시 배우는 것",
+      "summary": "라벨링된 데이터를 축적한 뒤 에이전시 모델에서 플랫폼으로 전환한 경험을 공유한다. 다수 시장을 동시에 겨냥하는 것의 위험을 짚는다.",
+      "source": "newsletter.lukesophinos.com",
+      "url": "https://newsletter.lukesophinos.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "서비스로 데이터를 모으고 제품으로 전환하는 경로.",
+        "what": "벙글 창업자가 에이전시 → 플랫폼 전환 경험과 다중 시장의 함정을 이야기한다.",
+        "points": ["라벨 데이터 축적 후 제품화", "포커스의 대가"],
+        "why": ["AI 서비스 회사가 제품 회사로 넘어가는 표준 경로로 재조명"]
+      }
+    },
+    {
+      "id": "fnd-agent-era-career",
+      "title": "에이전트 시대의 커리어",
+      "summary": "문제 정의, 해법 검증, 그리고 AI가 멈추는 지점에서 일을 끝내는 능력을 강조한다. 실행 자체보다 판단이 희소해진다는 관점이다.",
+      "source": "addyosmani.com",
+      "url": "https://addyosmani.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI가 멈추는 마지막 20%가 커리어의 정의가 된다.",
+        "what": "에이전트 시대에 남는 역량으로 문제 식별·검증·완결을 제시.",
+        "points": ["실행 대비 판단의 희소성"],
+        "why": ["주니어 채용 축소 흐름과 함께 읽으면 성장 경로 설계가 과제"]
+      }
+    },
+    {
+      "id": "fnd-pmf-emotional-cost",
+      "title": "PMF 탐색의 정서적 비용",
+      "summary": "제품-시장 적합성을 찾는 과정에서 창업자가 겪는 심리적 소모를 다룬다. 실패 신호의 지속 노출이 판단을 흐린다는 지적이다.",
+      "source": "samgerstenzang.substack.com",
+      "url": "https://samgerstenzang.substack.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "PMF 탐색은 인지 비용이 아니라 정서 비용이 크다.",
+        "what": "PMF를 찾는 기간의 심리적 소모와 판단 왜곡을 다룬 에세이.",
+        "points": ["지속적 부정 신호 노출"],
+        "why": ["번아웃 지표 상승 국면에서 창업 팀 유지 리스크"]
+      }
+    },
+    {
+      "id": "fnd-gemini-managed-agents",
+      "title": "제미나이 API, 백그라운드 태스크·원격 MCP 지원 확대",
+      "summary": "구글이 매니지드 에이전트에 비동기 백그라운드 실행과 원격 MCP 서버 연결을 추가했다. 개발 환경 안에서 독립적으로 도는 에이전트를 지원한다.",
+      "source": "blog.google",
+      "url": "https://blog.google/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "에이전트가 요청-응답이 아니라 워커로 동작한다.",
+        "what": "제미나이 API 매니지드 에이전트에 백그라운드 실행·원격 MCP·자격증명 갱신이 추가됐다.",
+        "points": ["비동기 워커 모델"],
+        "why": ["장기 실행 에이전트가 클라우드 기본 프리미티브가 되어간다"]
+      }
+    },
+    {
+      "id": "fnd-search-console-social",
+      "title": "구글 서치 콘솔, 유튜브·틱톡 등 소셜 트래픽 추적 지원",
+      "summary": "구글 검색이 소셜 계정으로 보낸 트래픽을 서치 콘솔에서 볼 수 있게 됐다. 자사 자산과 소셜 자산의 성과를 한 곳에서 본다.",
+      "source": "9to5google.com",
+      "url": "https://9to5google.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "검색→소셜 유입이 처음으로 계측된다.",
+        "what": "서치 콘솔이 인스타그램·틱톡·X·유튜브로 나가는 검색 트래픽 지표를 제공한다.",
+        "points": ["소유 자산 + 소셜 통합 측정"],
+        "why": ["AI 개요 확산으로 클릭이 줄어드는 국면에서 채널 재배분 근거가 된다"]
+      }
+    }
+  ]
+}

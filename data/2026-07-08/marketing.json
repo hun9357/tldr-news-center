@@ -1,0 +1,150 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-ai-overviews-commercial",
+      "title": "AI 개요, 상업적 의도 검색으로 확산",
+      "summary": "구글 AI 개요가 상업적 검색 결과에서 71% 더 많이 노출되고, 금융 쿼리는 231% 급증했다. 유료 광고와 지면을 경쟁하며 광고 병기 노출이 1년 전의 약 2배로 늘었다.",
+      "source": "Semrush",
+      "url": "https://www.semrush.com/blog/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "High",
+        "confidence": "82%",
+        "owner": "Marketing",
+        "status": "Tracking",
+        "affectedSurface": "SEO · 검색 광고"
+      },
+      "report": {
+        "tldr": "AI 개요가 돈이 되는 쿼리로 들어왔다.",
+        "what": "상업적 의도 검색에서 AI 개요 노출이 71% 증가하고 금융 쿼리는 231% 증가했다.",
+        "points": ["광고와 지면 경쟁 심화", "금융·보험 등 고CPC 카테고리 집중"],
+        "why": ["오가닉 클릭 감소가 유료 의존도를 높이고 CPC를 밀어 올린다", "브랜드 인용 확보(AEO)가 새 KPI로 부상"],
+        "action": "AI 개요 인용 확보 여부를 별도 지표로 추적하고, 트래픽 대신 인용·언급 기준으로 SEO KPI를 재정의할 것."
+      }
+    },
+    {
+      "id": "mkt-workforce-splitting",
+      "title": "2026년 테크 노동자: 번아웃 55.7%로 급등",
+      "summary": "번아웃이 전년 44.7%에서 55.7%로 올랐고 커리어 낙관은 하락했다. AI로 인한 대체보다 보상 없는 업무 강도 상승이 주된 스트레스원이다.",
+      "source": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 생산성 향상분이 보상으로 돌아오지 않았다.",
+        "what": "테크 노동자 설문에서 번아웃 급등과 커리어 낙관 하락이 확인됐다.",
+        "points": ["절반 이상이 업계 진입을 만류", "AI 대체보다 강도 상승이 문제"],
+        "why": ["인재 브랜드와 채용 마케팅 메시지의 전제가 흔들린다"]
+      }
+    },
+    {
+      "id": "mkt-search-console-social",
+      "title": "서치 콘솔, 소셜·영상 콘텐츠의 구글 검색 성과 제공",
+      "summary": "인스타그램·틱톡·X·유튜브 콘텐츠가 구글 검색에서 어떻게 노출되는지 서치 콘솔에서 확인할 수 있게 됐다. 소유 자산과 소셜 자산의 통합 측정이 가능해진다.",
+      "source": "Google Developers Blog",
+      "url": "https://developers.google.com/search/blog",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "90%",
+        "owner": "Marketing",
+        "status": "New",
+        "affectedSurface": "검색 분석 · 소셜"
+      },
+      "report": {
+        "tldr": "검색과 소셜의 성과를 처음으로 한 화면에서 본다.",
+        "what": "서치 콘솔이 소셜/영상 플랫폼 콘텐츠의 구글 검색 성과 지표를 제공한다.",
+        "points": ["인스타·틱톡·X·유튜브 지원"],
+        "why": ["AI 개요로 자사 도메인 클릭이 줄 때 소셜 자산의 검색 기여를 계량할 수 있다"]
+      }
+    },
+    {
+      "id": "mkt-reddit-ai-moderation",
+      "title": "레딧, AI 모더레이션으로 하루 2,300만 스팸 노출 차단",
+      "summary": "AI 기반 모더레이션이 일 2,300만 건의 스팸 노출을 차단하고 유해 콘텐츠 노출을 40% 이상 줄였다. 집행까지 걸리는 시간은 5초 미만이다.",
+      "source": "Reddit Inc.",
+      "url": "https://redditinc.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "플랫폼 신뢰도 유지가 AI 콘텐츠 시대의 방어 전략이다.",
+        "what": "레딧이 AI 모더레이션 성과(일 2,300만 스팸 노출 차단, 유해 노출 40%+ 감소)를 공개했다.",
+        "points": ["집행 시간 5초 미만"],
+        "why": ["AI 학습 데이터·검색 인용 원천으로서 레딧의 가치는 '진짜 사람' 신호에 달려 있다"]
+      }
+    },
+    {
+      "id": "mkt-microdramas",
+      "title": "브랜드가 마이크로드라마에서 콘텐츠 금맥을 본다",
+      "summary": "브랜디드 마이크로드라마는 저비용으로 엔터테인먼트 기반 인게이지먼트를 만든다. 다만 제품 노출보다 서사를 우선해야 하며, 성과는 노출이 아닌 재시청으로 측정해야 한다.",
+      "source": "Marketing Dive",
+      "url": "https://www.marketingdive.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "포맷은 싸고 실패 방식은 뻔하다 — 제품을 앞세우는 것.",
+        "what": "브랜디드 마이크로드라마의 부상과 성공 조건을 정리.",
+        "points": ["스토리 우선", "재시청률 중심 측정"],
+        "why": ["숏폼 소비가 TV 대체재가 되면서 브랜드 콘텐츠 예산이 이동한다"]
+      }
+    },
+    {
+      "id": "mkt-netflix-binge",
+      "title": "빈지워칭을 만든 넷플릭스, 이제 그것을 벗어나야 할 때",
+      "summary": "조기 종영과 시즌 간 긴 공백으로 시청자 이탈이 늘고 있다. 넷플릭스의 실질 경쟁자는 전통 TV가 아니라 숏폼 영상이다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "몰아보기 모델이 시청자 유지에 역효과를 낸다.",
+        "what": "시즌 공백과 취소로 인한 넷플릭스 시청자 이탈 증가를 다룬 분석.",
+        "points": ["경쟁 상대는 숏폼"],
+        "why": ["구독 유지율 방어를 위한 편성 전략 전환 압력"]
+      }
+    },
+    {
+      "id": "mkt-framing-partnerships",
+      "title": "결국 프레이밍의 문제다",
+      "summary": "전략적 파트너십이 제품 개선보다 브랜드 인식을 더 크게 바꾼다는 주장이다. 로빈후드-칼시 연계, 애플-에르메스 협업이 사례로 제시된다.",
+      "source": "Embedded Brand Strategy",
+      "url": "https://embeddedbrandstrategy.substack.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "제품이 아니라 맥락을 바꿔 포지셔닝을 옮긴다.",
+        "what": "파트너십을 통한 브랜드 재프레이밍 사례 분석.",
+        "points": ["로빈후드×칼시", "애플×에르메스"],
+        "why": ["카테고리 이동은 기능 추가보다 제휴로 더 빠르게 달성된다"]
+      }
+    },
+    {
+      "id": "mkt-linkedin-storm",
+      "title": "일상의 순간을 링크드인 바이럴 포스트로",
+      "summary": "일반론적 조언보다 진정성 있는 개인 서사가 피드에서 더 잘 작동한다. STORM 프레임워크로 훅에서 핵심 메시지까지 구성한다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "다듬어진 서사보다 공감 가능한 순간이 이긴다.",
+        "what": "링크드인 콘텐츠 구성을 위한 STORM 프레임워크 소개.",
+        "points": ["훅 → 서사 → 명확한 테이크어웨이"],
+        "why": ["AI 생성 포스트 범람 속에서 개인적 구체성이 희소재"]
+      }
+    },
+    {
+      "id": "mkt-ragebait-lit",
+      "title": "'레이지베이트 문학'의 부상",
+      "summary": "논쟁적인 회고록과 소설이 독서 모임과 온라인 담론을 통해 격렬한 반응을 만든다. 문화적 논쟁이 집단 불안을 처리하는 장치로 작동한다는 분석이다.",
+      "source": "Harper's Bazaar",
+      "url": "https://www.harpersbazaar.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "분노는 여전히 가장 저렴한 유통 채널이다.",
+        "what": "양극화를 의도한 출판물이 온라인 담론을 통해 확산되는 현상.",
+        "points": ["북클럽·SNS 담론 결합"],
+        "why": ["브랜드 콘텐츠의 도발 전략에도 같은 역학이 적용된다 — 위험도 함께"]
+      }
+    }
+  ]
+}

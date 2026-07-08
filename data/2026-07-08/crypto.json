@@ -1,0 +1,177 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-cloudflare-402-gateway",
+      "title": "클라우드플레어 수익화 게이트웨이, AI 봇 트래픽에 HTTP 402 과금",
+      "summary": "AI 봇 트래픽이 웹 트래픽의 50%를 넘어서며 리퍼럴 기반 수익 모델이 붕괴하고 있다. 클라우드플레어는 엣지에서 HTTP 402 결제 검증을 수행하고, AWS도 동일 프로토콜을 지원한다.",
+      "source": "X (@Jun__Yoo)",
+      "url": "https://x.com/Jun__Yoo",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "High",
+        "confidence": "74%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "웹 수익화 · 에이전트 결제"
+      },
+      "report": {
+        "tldr": "웹의 과금 단위가 광고 노출에서 요청당 결제로 이동한다.",
+        "what": "클라우드플레어가 엣지에서 HTTP 402 기반 에이전트 결제를 검증하는 게이트웨이를 운영하며, AWS도 같은 프로토콜 표준을 지원한다.",
+        "points": ["AI 봇이 웹 트래픽 50% 초과", "리퍼럴 기반 수익 붕괴", "CDN·클라우드가 동시 표준 채택"],
+        "why": ["에이전트가 주 소비자가 되면 콘텐츠 과금은 프로토콜 레이어로 내려간다", "스테이블코인 결제 레일과 직접 연결된다"]
+      }
+    },
+    {
+      "id": "crypto-gemini-0-commission-stocks",
+      "title": "제미나이(거래소), 미국 주식 0% 수수료 거래 개시",
+      "summary": "나스닥 시세와 Apex Clearing 체결로 대부분의 주에서 무료 주식 거래를 시작했다. 크립토·주식·파생·신용을 묶는 '올인원 금융 슈퍼앱' 전략이다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407449/gemini-offers-0-stock-trading-in-us-become-all-in-one-financial-super-app",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "거래소가 브로커리지로 수직 확장한다.",
+        "what": "제미나이가 미국 대부분 주에서 수수료 0% 주식 거래를 출시했다.",
+        "points": ["Nasdaq 데이터 · Apex Clearing 체결", "크립토+주식+파생+신용"],
+        "why": ["로빈후드식 슈퍼앱 경쟁이 크립토 네이티브 진영으로 확대"]
+      }
+    },
+    {
+      "id": "crypto-kraken-mazars-22m",
+      "title": "크라켄, 마자르 상대 2,200만 달러 중재 승소",
+      "summary": "크라켄 모회사 페이워드가 2022년 감사를 조기 종료한 마자르를 상대로 2,200만 달러 중재 배상을 받아냈다. 마자르는 SEC 집행에 따른 규제 불확실성을 이유로 들었다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407524/kraken-wins-22-million-arbitration-auditor-mazars-for-ditching-during-operation-choke-point-2-0",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "'초크포인트 2.0' 시기의 감사 이탈에 법적 대가가 붙었다.",
+        "what": "크라켄이 감사 계약을 조기 종료한 마자르로부터 2,200만 달러 배상 판정을 받았다.",
+        "points": ["'전문가적 분쟁 없음' 확인 후 이탈", "규제 압박이 계약 파기 사유로 인정되지 않음"],
+        "why": ["금융 서비스 제공자의 규제 리스크 회피에 계약 책임이 따른다는 선례"]
+      }
+    },
+    {
+      "id": "crypto-lean-execution",
+      "title": "저스틴 드레이크, 이더리움 'Lean Execution' 제안",
+      "summary": "SNARK로 검증과 실행 복잡도를 분리해, 저사양 검증자는 결과만 검증하고 고사양 노드가 병렬 컬럼에서 트랜잭션을 처리한다. MEV 대응을 롤업 운영자가 아닌 프로토콜 시퀀싱에 남긴다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/lean-execution-a-holistic-approach-to-secure-efficient-adaptive-and-resourceful-execution-throughput-to-scale-the-world-computer/25374",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "65%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "이더리움 L1 · MEV"
+      },
+      "report": {
+        "tldr": "L1 실행 처리량을 SNARK로 끌어올리되 시퀀싱은 프로토콜이 쥔다.",
+        "what": "검증과 실행을 분리해 저사양 검증자도 참여 가능한 병렬 실행 구조를 제안한다.",
+        "points": ["SNARK 기반 검증 분리", "병렬 컬럼 실행", "프로토콜 레벨 시퀀싱으로 MEV 대응"],
+        "why": ["L2 중심 로드맵 이후 L1 실행 확장이 다시 의제로 올라왔다"]
+      }
+    },
+    {
+      "id": "crypto-ethlabs-seed",
+      "title": "Ethlabs, 시드 라운드 마감",
+      "summary": "BitMNR·Sharplink와 이더리움 재단의 지원으로 시드를 마무리했다. 영지식 기반 크로스레이어 상호운용으로 브리지 보안과 L2 간 자산 이동을 개선하려 한다.",
+      "source": "X (@barnabemonnot)",
+      "url": "https://x.com/barnabemonnot/status/2073691519492489354",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "브리지 보안을 영지식으로 재설계하려는 시도.",
+        "what": "Ethlabs가 ZK 기반 크로스레이어 상호운용성을 목표로 시드 투자를 유치했다.",
+        "points": ["이더리움 재단 지원", "L2 간 자산 분배"],
+        "why": ["브리지는 여전히 크립토 최대 손실 벡터"]
+      }
+    },
+    {
+      "id": "crypto-priority-fees-flat",
+      "title": "이더리움 우선순위 수수료, 성장에도 4년째 정체",
+      "summary": "프로토콜과 지갑이 MEV를 내부화하면서 우선순위 수수료 수익이 연 5~6억 달러에서 4년간 정체됐다. ETH 스테이킹 경제성은 베이스 피 성장에 기대야 한다는 결론이다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2074050053518283170.html",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "MEV 내부화가 검증자 수익을 잠식했다.",
+        "what": "우선순위 수수료 수익이 4년간 연 5~6억 달러 수준에 머물렀다는 분석.",
+        "points": ["프로토콜·지갑의 MEV 내부화", "베이스 피가 더 나은 수익 논거"],
+        "why": ["스테이킹 수익 모델의 전제를 재검토해야 한다"]
+      }
+    },
+    {
+      "id": "crypto-labor-programmable-tasks",
+      "title": "노동시장, 기업에서 프로그래머블 태스크로",
+      "summary": "AI 에이전트와 스테이블코인이 결합해 고용 구조 없이 태스크 분해와 에이전트 간 소액결제가 가능해진다. 메타·AWS가 블록체인 결제 경로를 도입하고 있다는 관측이다.",
+      "source": "X (@_kinjalbshah)",
+      "url": "https://x.com/_kinjalbshah/status/2074138993336140145",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "에이전트 간 결제가 조직 없는 생산 라인을 만든다.",
+        "what": "에이전트 + 스테이블코인 조합으로 고용 계약 없이 태스크 단위 생산이 가능해진다는 논지.",
+        "points": ["에이전트-에이전트 마이크로페이먼트", "빅테크의 온체인 결제 경로 도입"],
+        "why": ["클라우드플레어 HTTP 402 게이트웨이와 같은 인프라 축에 놓인다"]
+      }
+    },
+    {
+      "id": "crypto-strike-liquidation-proof",
+      "title": "스트라이크, 청산 없는 비트코인 담보 대출 출시",
+      "summary": "가격 하락으로 인한 강제 청산을 제거한 비트코인 담보 대출 상품을 선보였다. 담보 구조의 리스크는 대출 조건에 내재화된다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "청산 리스크를 상품 설계로 흡수한다.",
+        "what": "스트라이크가 가격 트리거 청산이 없는 BTC 담보 대출을 출시했다.",
+        "points": ["강제 청산 제거"],
+        "why": ["리테일 대출 수요의 최대 마찰이 청산 공포였다"]
+      }
+    },
+    {
+      "id": "crypto-ygg-play-shutdown",
+      "title": "일드길드게임즈, YGG Play 사업부 폐쇄",
+      "summary": "35명을 감원하고 플랫폼은 7월 31일 종료된다. 게임파이 사이클 축소를 보여주는 신호다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "게임파이 사업 축소가 계속된다.",
+        "what": "YGG가 YGG Play 부문을 접고 35명을 감원, 플랫폼은 7월 31일 종료한다.",
+        "points": ["플랫폼 7/31 종료"],
+        "why": ["P2E 모델의 지속 가능성 논쟁이 사실상 결론에 근접"]
+      }
+    },
+    {
+      "id": "crypto-card-rankings",
+      "title": "미국 크립토 카드 순위 — 사용성 vs 채택률",
+      "summary": "일상 지출과 예치 APY 등 사용성 지표에서는 Plasma·EtherFi가 상위지만 채택률 순위는 크게 다르다. 약 20종 카드의 캐시백·환전 수수료·충전 수단을 비교한다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2073803903700009243.html",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "사용성 상위 카드와 실제로 쓰이는 카드는 다르다.",
+        "what": "약 20종 미국 크립토 카드를 사용성·채택률 두 축으로 랭킹한 자료.",
+        "points": ["캐시백·FX 수수료·충전 수단 비교"],
+        "why": ["결제 레일 채택은 스펙보다 유통망이 결정한다"]
+      }
+    },
+    {
+      "id": "crypto-privy-fiat-onramps",
+      "title": "Privy, 글로벌 법정화폐 온램프 출시",
+      "summary": "앱 내에서 카드로 직접 암호화폐를 구매할 수 있는 온램프를 글로벌로 제공한다. 지갑 임베딩 인프라의 결제 확장이다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "임베디드 지갑이 결제까지 흡수한다.",
+        "what": "Privy가 인앱 카드 결제 기반 글로벌 온램프를 출시했다.",
+        "points": ["앱 내 카드 구매"],
+        "why": ["온보딩 마찰 감소가 여전히 크립토 성장의 1차 변수"]
+      }
+    }
+  ]
+}

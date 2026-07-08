@@ -1,0 +1,185 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-meta-muse-image",
+      "title": "메타, 이미지 생성 모델 'Muse Image' 출시",
+      "summary": "메타 AI 앱·왓츠앱·인스타그램 스토리에서 무료로 쓸 수 있는 이미지 생성 모델을 공개했다. Advantage Plus를 통해 광고주용 이미지 생성으로 확장하고 유료 구독 티어를 붙인다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "광고 · 크리에이티브"
+      },
+      "report": {
+        "tldr": "메타는 이미지 모델을 제품이 아니라 광고 인프라로 배치한다.",
+        "what": "메타가 Muse Image를 자사 앱 전반에 무료 탑재하고, 광고주 크리에이티브 생성으로 수익화한다.",
+        "points": ["메타 AI·왓츠앱·인스타 스토리 무료 제공", "Advantage Plus 광고 크리에이티브 연계", "고급 기능은 구독 티어"],
+        "why": ["생성 이미지 유통량이 광고 단가와 직접 연결된다", "스톡 이미지·에이전시 크리에이티브 수요를 잠식"]
+      }
+    },
+    {
+      "id": "tech-xbox-layoffs",
+      "title": "엑스박스 대규모 감원의 배경 — 실패한 스트리밍 전략",
+      "summary": "마이크로소프트가 엑스박스에서 3,200명을 감원하고 스튜디오 5곳을 폐쇄했다. 회수되지 않은 콘텐츠 과투자 끝에 마인크래프트 등 검증된 프랜차이즈로 회귀한다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "85%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "게임 · 구독 사업"
+      },
+      "report": {
+        "tldr": "게임패스식 '콘텐츠 무한 공급' 모델의 청산.",
+        "what": "엑스박스가 3,200명 감원·스튜디오 5곳 폐쇄를 단행하고 프랜차이즈 중심으로 축소 운영에 들어갔다.",
+        "points": ["스트리밍/구독 전제의 콘텐츠 과투자", "마인크래프트 등 기존 IP 집중"],
+        "why": ["AI 자본지출 확대 속에서 비핵심 사업의 자본이 재배분되고 있다"]
+      }
+    },
+    {
+      "id": "tech-china-restrict-ai-models",
+      "title": "중국, 최고 성능 AI 모델 해외 접근 제한 검토",
+      "summary": "중국 당국이 첨단 모델의 국내 전용화 또는 공개 배포 금지를 검토 중이다. 오픈소스 전략이 만든 확산 우위를 스스로 포기할 수 있다는 관측이 나온다.",
+      "source": "Time",
+      "url": "https://time.com/",
+      "originalDate": "2026-07-07",
+      "intel": {
+        "impact": "High",
+        "confidence": "62%",
+        "owner": "Policy",
+        "status": "Tracking",
+        "affectedSurface": "오픈웨이트 · 수출 규제"
+      },
+      "report": {
+        "tldr": "오픈웨이트 공급의 최대 축이 닫힐 수 있다.",
+        "what": "중국이 최상위 AI 모델의 해외 접근을 국내 전용화 또는 비공개로 제한하는 방안을 검토한다는 보도.",
+        "points": ["오픈소스 확산 우위 vs 안보 통제의 상충", "미국 수출 규제의 거울상"],
+        "why": ["오픈웨이트에 원가 구조를 의존한 기업들의 공급 리스크", "모델 접근 자체가 지정학 자산이 된다"],
+        "action": "중국계 오픈웨이트 모델을 프로덕션에 쓰는 조직은 가중치 로컬 보관과 대체 모델 경로를 확보할 것."
+      }
+    },
+    {
+      "id": "tech-chinese-models-us-adoption",
+      "title": "중국 AI 모델, 미국 기업에서 채택 확대",
+      "summary": "OpenAI·앤트로픽 비용이 오르면서 중국 랩의 최신 모델이 가격 대안으로 부상하고 있다. 미국 기업들의 실사용 검토가 늘고 있다는 보도다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "가격이 신뢰보다 먼저 움직인다.",
+        "what": "중국 AI 기업의 최근 모델 릴리스가 미국 기업에 경쟁력 있는 대안으로 채택되고 있다.",
+        "points": ["프런티어 API 비용 상승이 유인", "중국 모델 규제 리스크와 동시 진행"],
+        "why": ["같은 주 중국의 모델 접근 제한 검토 보도와 정면으로 충돌하는 흐름"]
+      }
+    },
+    {
+      "id": "tech-ai-spending-war-blink",
+      "title": "AI 지출 전쟁, 누가 먼저 물러설 것인가",
+      "summary": "빅테크가 남는 컴퓨트를 서로 임대하기 시작한 정황은 AI 인프라 과잉 구축 가능성을 시사한다. 자본지출 사이클의 변곡점 논쟁이 커지고 있다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "잉여 컴퓨트 재임대는 과잉 신호다.",
+        "what": "빅테크가 초과 컴퓨트 용량을 서로 임대하는 사례가 늘며 AI 인프라 과잉 구축 우려가 제기됐다.",
+        "points": ["자본지출 vs 실사용률 괴리", "장기 리스 계약의 경직성"],
+        "why": ["앤트로픽-테라울프 20년 리스 등 초장기 계약이 하방 경직성을 만든다"]
+      }
+    },
+    {
+      "id": "tech-spacex-nuclear-satellite",
+      "title": "스페이스X, 첫 원자력 상업 위성 발사",
+      "summary": "시티랩스의 BOHR 위성이 트리튬 붕괴를 전기로 바꾸는 나노트리튬 베타볼타익으로 구동된다. 태양광 없이 지속 전력을 얻는 상업 위성이다.",
+      "source": "Space.com",
+      "url": "https://www.space.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "궤도 전력원이 태양광 밖으로 나왔다.",
+        "what": "베타볼타익 배터리로 구동되는 상업 위성 BOHR가 발사에 성공했다.",
+        "points": ["트리튬 방사성 붕괴 → 전기", "태양광 패널 비의존"],
+        "why": ["심우주·영구음영 지역 미션의 전력 제약 완화"]
+      }
+    },
+    {
+      "id": "tech-tesla-cybercab-fsd",
+      "title": "테슬라 사이버캡, 강화된 FSD 하드웨어 탑재",
+      "summary": "사이버캡이 메모리 용량을 늘린 차세대 FSD 컴퓨터를 탑재해 더 큰 자율주행 모델을 실행한다. 오스틴에서 스티어링휠·페달 없는 차량의 공도 시험이 시작됐다.",
+      "source": "NotaTeslaApp",
+      "url": "https://www.notateslaapp.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "모델 크기가 차량 하드웨어 스펙을 결정한다.",
+        "what": "사이버캡에 메모리가 증설된 FSD 컴퓨터가 들어가고, 조향장치 없는 차량이 오스틴 공도에서 시험 중이다.",
+        "points": ["온보드 모델 파라미터 확대", "무인 구성 공도 테스트"],
+        "why": ["로보택시 경제성은 온보드 추론 원가와 규제 승인 속도에 달려 있다"]
+      }
+    },
+    {
+      "id": "tech-samsung-fold8",
+      "title": "삼성, 갤럭시 Z 폴드 8로 애플 폴더블 선점",
+      "summary": "7월 출시 예정인 폴드 8은 더 짧고 넓은 폼팩터를 채택했다. 애플의 첫 폴더블 아이폰 진입을 앞둔 선제 대응이다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/",
+      "originalDate": "2026-07-07",
+      "report": {
+        "tldr": "폴더블 폼팩터 표준을 먼저 굳히려는 수순.",
+        "what": "삼성이 갤럭시 Z 폴드 8을 7월 출시하며 애플의 폴더블 아이폰 진입에 앞선다.",
+        "points": ["짧고 넓은 비율로 변경", "애플 진입 전 규격 선점"],
+        "why": ["폼팩터 관성이 앱 레이아웃과 부품 공급망을 함께 고정시킨다"]
+      }
+    },
+    {
+      "id": "tech-workforce-splitting",
+      "title": "2026년 테크 노동자, 둘로 갈라지다",
+      "summary": "AI로 역량이 증폭된 집단과 불안정해진 집단으로 분화가 뚜렷하다. 생산성 논쟁과 별개로 번아웃은 늘고 커리어 낙관은 떨어졌다.",
+      "source": "Lenny's Newsletter",
+      "url": "https://www.lennysnewsletter.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI는 일자리를 없애기 전에 일의 강도를 올렸다.",
+        "what": "테크 종사자 설문에서 번아웃이 44.7% → 55.7%로 급등하고 커리어 낙관이 하락했다.",
+        "points": ["AI 대체보다 업무 강도 상승이 주 스트레스원", "절반 이상이 업계 진입을 만류"],
+        "why": ["생산성 향상분이 보상으로 환류되지 않으면 인재 이탈이 지연 비용으로 돌아온다"]
+      }
+    },
+    {
+      "id": "tech-who-thrives-ai-age",
+      "title": "AI 시대에 살아남는 사람들",
+      "summary": "AI 도입이 업무량을 줄이기보다 강화한다는 연구 결과를 짚는다. 도구를 능동적으로 몰아붙여 새로운 문제를 잡는 사람이 성과를 낸다는 주장이다.",
+      "source": "The Atlantic",
+      "url": "https://www.theatlantic.com/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI는 여유가 아니라 기대치를 만든다.",
+        "what": "AI 채택이 업무를 줄이지 않고 집약도를 높인다는 연구를 바탕으로 한 분석.",
+        "points": ["수동적 사용자와 능동적 사용자의 성과 격차"],
+        "why": ["조직의 AI ROI는 도구 도입이 아니라 사용 패턴 설계에서 갈린다"]
+      }
+    },
+    {
+      "id": "tech-ai-agent-memory",
+      "title": "AI 에이전트를 상위 1%처럼 쓰는 법",
+      "summary": "에이전트의 실제 읽기·쓰기·조율 패턴에 맞춘 메모리 시스템 설계가 성능을 좌우한다는 정리다. 범용 벡터 저장소만으로는 부족하다는 지적이다.",
+      "source": "System Design Newsletter",
+      "url": "https://newsletter.systemdesign.one/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "에이전트 성능은 메모리 접근 패턴 설계의 함수다.",
+        "what": "에이전트의 실제 읽기/쓰기/조율 패턴에 맞춘 메모리 아키텍처가 필요하다는 가이드.",
+        "points": ["절차적/에피소딕 메모리 분리", "무차별 RAG의 한계"],
+        "why": ["컨텍스트 낭비가 곧 토큰 원가이자 실패율"]
+      }
+    }
+  ]
+}
