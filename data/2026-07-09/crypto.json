@@ -1,0 +1,104 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-jpm-usdc-vault",
+      "title": "JPMorgan, 7억 달러 USDC 볼트로 큐레이션 진출",
+      "summary": "JPMorgan 블록체인 부문이 7억 달러 규모 USDC 볼트를 출범해 단숨에 5위 볼트 큐레이터가 됐다. 다이먼의 과거 비판을 감안하면 이례적이다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2074383012939141407.html",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Strategy",
+        "status": "Watch",
+        "affectedSurface": "스테이블코인 · DeFi 볼트"
+      }
+    },
+    {
+      "id": "crypto-eu-mica-expand",
+      "title": "EU, 시행 1주 만에 MiCA 확대 검토",
+      "summary": "유럽위원회가 토큰화 증권과 비EU 스테이블코인 발행사까지 MiCA를 넓히는 방안에 의견을 수렴한다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407613/european-commission-expand-mica-tokenization-non-eu-stablecoin-report",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-collateral-dollar",
+      "title": "담보 달러: 스테이블코인과 헤어컷 채널",
+      "summary": "스테이블코인이 2단계 달러 청구권으로 작동하며 헤어컷이 토큰 통제와 은행 달러 환전 사이 거리를 반영한다는 분석.",
+      "source": "borjaneira",
+      "url": "https://x.com/borjaneira_/status/2074485951934435702",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-augmented-mechanism",
+      "title": "증강 메커니즘 설계: 하나의 운영자, 모든 기질",
+      "summary": "본딩·타임락·암호 증명 등으로 프로토콜을 강화해 공격·조작을 막는 프레임워크.",
+      "source": "ethresear.ch",
+      "url": "https://ethresear.ch/t/augmented-mechanism-design-one-operator-every-substrate/25379",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-neobank-60k",
+      "title": "네오뱅크를 0→6만 고객으로 키우는 법",
+      "summary": "획득 채널·온보딩 최적화·활성화 전술을 계좌 수보다 활성 사용자 중심으로 다룬 성장 전략 해부.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2074855389913288840.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-gambling-war",
+      "title": "우리는 우연히 도박 전쟁에서 이겼다",
+      "summary": "크립토의 낮은 수수료·높은 처리량이 전통 도박 경제를 잠식하며 잉여를 빌더·공공재로 돌리는 모델을 가능케 한다.",
+      "source": "Aaron Mars",
+      "url": "https://x.com/aaronjmars/status/2074618934205227220",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-neobank-earn",
+      "title": "네오뱅크 Earn 상품에 숨은 리스크",
+      "summary": "많은 네오뱅크 수익 상품이 인센티브성 금리로 실질 2%대 수익을 가려, 보조금이 끊기면 지속가능성이 흔들린다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2074773759873962092.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-one-dollar-audit",
+      "title": "1달러 감사 — 1 USDC 스마트컨트랙트 리뷰",
+      "summary": "AI 기반 스마트컨트랙트 보안 리뷰를 1 USDC에 제공해 보안 평가 접근성을 민주화한다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2074502643788214760.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-web3-losses",
+      "title": "2026 상반기 Web3 손실 13.1억 달러 돌파",
+      "summary": "CertiK이 상반기 344건 보안사고에서 13.1억 달러 손실이 발생했다고 보고했다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/security/certik-says-h1-2026-web3-losses-topped-1-31b-up-28-excluding-bybit-baseline",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-tether-mercado",
+      "title": "테더, 브라질 메르카도 비트코인에 2000만 달러 투자",
+      "summary": "테더가 브라질 거래소 메르카도 비트코인에 2000만 달러를 투자해 라틴아메리카 입지를 넓혔다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2074483879612936468.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-usdt-usdc",
+      "title": "USDT는 결제, USDC는 DeFi 장악",
+      "summary": "USDT가 상반기 950억 달러 B2B 결제를 처리해 USDC의 약 7배, 상업 거래의 92%를 차지했다.",
+      "source": "Threadreader",
+      "url": "https://threadreaderapp.com/thread/2074705960388673735.html",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

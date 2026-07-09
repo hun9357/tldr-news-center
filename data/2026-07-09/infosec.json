@@ -1,0 +1,135 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-accenture-breach",
+      "title": "액센츄어, 소스코드 탈취 주장 후 유출 확인",
+      "summary": "위협 행위자가 클라우드 자격증명·코드 저장소 등 35GB를 탈취했다고 주장, 액센츄어는 사고를 격리했고 운영 영향은 없다고 밝혔다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/accenture-confirms-data-breach-after-hacker-claims-source-code-theft/",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "82%",
+        "owner": "Security Ops",
+        "status": "Watch",
+        "affectedSurface": "소스코드 · 클라우드 자격증명"
+      }
+    },
+    {
+      "id": "infosec-ill-bloom",
+      "title": "'Ill Bloom' 취약점, 크립토 지갑서 310만 달러 탈취",
+      "summary": "약한 난수 생성 결함을 악용해 여러 블록체인의 지갑 수백 개가 탈취당했다.",
+      "source": "BeInCrypto",
+      "url": "https://beincrypto.com/ill-bloom-vulnerability-crypto-wallets/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-ghostlock",
+      "title": "15년 묵은 'GhostLock' 리눅스 커널 취약점",
+      "summary": "커널의 use-after-free 버그로 비권한 공격자가 시스템 권한을 얻고 컨테이너 탈출까지 가능하다.",
+      "source": "GBHackers",
+      "url": "https://gbhackers.com/15-year-old-ghostlock-linux-kernel-vulnerability/",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "Act",
+        "affectedSurface": "Linux 커널 · 컨테이너"
+      }
+    },
+    {
+      "id": "infosec-skills-registry",
+      "title": "AI 스킬 레지스트리 위협 모델",
+      "summary": "AI 에이전트 스킬 레지스트리가 악성 컴포넌트·프롬프트 인젝션 등 공급망 위험을 어떻게 들여오는지 분석했다.",
+      "source": "nesbitt.io",
+      "url": "https://nesbitt.io/2026/06/03/skills-registry-threat-models.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-windows-installer",
+      "title": "윈도우 인스톨러 폴더 삭제 권한상승",
+      "summary": "논리 결함으로 저권한 사용자가 SYSTEM 권한으로 임의 폴더를 삭제하도록 유도해 코드 실행이 가능하다.",
+      "source": "Exodus Intelligence",
+      "url": "https://blog.exodusintel.com/2026/07/06/microsoft-windows-installer-folder-delete-privilege-escalation/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-adfs-dpapi",
+      "title": "머신 DPAPI로 ADFS 서명키 복구",
+      "summary": "공격자가 ADFS 서명키를 추출해 관리자 인증 토큰을 위조할 수 있음을 구글 위협 인텔리전스가 문서화했다.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/recovering-active-adfs-signing-keys-machine-dpapi/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-nox",
+      "title": "Nox — Go 기반 공격면 스캔 프레임워크",
+      "summary": "공격면을 스캔하고 취약점을 식별하는 모듈형 Go 프레임워크.",
+      "source": "GitHub",
+      "url": "https://github.com/kernelstub/Nox",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-dotenvx",
+      "title": "Dotenvx — 암호화 시크릿 관리 도구",
+      "summary": "암호화된 시크릿과 복호화 키를 분리하는 향상된 시크릿 관리 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/dotenvx/dotenvx",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-cotool",
+      "title": "Cotool Research — 블루팀용 AI 벤치마크",
+      "summary": "탐지·분석·위협 헌팅 등 방어 보안 과제에서 AI 에이전트를 평가한 벤치마크를 공개했다.",
+      "source": "Cotool",
+      "url": "https://www.cotool.ai/research",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-aws-72h",
+      "title": "단독 공격자, AI로 72시간 만에 AWS 침해",
+      "summary": "한 공격자가 약한 클라우드 자격증명을 악용해 시크릿 수집·백도어 설치·데이터 유출을 AWS 인프라 전반에서 수행했다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-hallusquatting",
+      "title": "'HalluSquatting', 인기 AI 도구로 봇넷 조립",
+      "summary": "AI 코딩 에이전트가 지어내는 패키지명을 악용해 악성 코드가 담긴 가짜 저장소를 등록하는 기법.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-copilot-harmful",
+      "title": "코파일럿, 채팅선 거부하고 코드로는 작성",
+      "summary": "AI 어시스턴트가 채팅 안전장치를 우회해 유해 콘텐츠를 생성 코드에 직접 삽입할 수 있음을 연구가 보였다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-assurance-license",
+      "title": "또 대규모 유출 — 운전면허번호 수백만 건 노출",
+      "summary": "해커가 AssuranceAmerica 시스템에 접근해 약 700만 명의 개인·보험 정보를 탈취했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/another-massive-data-breach-exposed-millions-of-drivers-license-numbers/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-china-claude",
+      "title": "中, '백도어 코드' 우려로 Claude Code 배제 권고",
+      "summary": "중국 당국이 데이터 전송 메커니즘 우려를 이유로 특정 Claude Code 버전 사용 중단을 개발자에게 권고했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/07/08/china-ditch-older-claude-versions-with-backdoor-code/5268371",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-user-algorithms",
+      "title": "사용자 제어 알고리즘, 신경 써야 하나",
+      "summary": "알고리즘은 선언된 선호보다 실제 행동에 더 의존하므로, 마케터는 진짜 관심과 측정 가능한 참여를 끄는 크리에이티브에 집중해야 한다.",
+      "source": "Brainlabs",
+      "url": "https://www.brainlabsdigital.com/social-media-algorithms-2026/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-syndicated-news",
+      "title": "같은 기사가 수백 개 지역뉴스에 — 구글이 주목",
+      "summary": "공개 데이터 기반 신디케이트 콘텐츠가 지역 저널리즘 질을 희석하고 검색 중복 경쟁을 낳자 구글이 이를 페널티한다.",
+      "source": "State of Brand",
+      "url": "https://www.thestateofbrand.com/news/local-news-content-syndication",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-hubspot-reverse",
+      "title": "허브스팟, 고객 반발에 데이터 공유 철회",
+      "summary": "고객들이 자사 데이터가 경쟁사에 되팔리는 공유 인리치먼트 계층으로 모이는 데 반발하자 방향을 되돌렸다.",
+      "source": "MarTech",
+      "url": "https://martech.org/the-hubspot-controversy-asks-why-customers-pay-to-improve-ai-products/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-reverse-funnel",
+      "title": "퍼널을 뒤집어 주문 22% 늘린 사례",
+      "summary": "결제 전 선물 메시지 추가처럼 개인화 단계를 구매 여정 앞으로 옮기면 몰입과 전환율이 높아진다.",
+      "source": "Conversion Rate Experts",
+      "url": "https://conversion-rate-experts.com/reversing-the-funnel-win-report/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-email-course",
+      "title": "PDF 리드마그넷보다 이메일 코스",
+      "summary": "다일 이메일 코스가 정적 PDF보다 참여를 유지하고 자연스럽게 세일즈로 전환시킨다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/dbusta_ive-built-hundreds-of-lead-magnets-for-share-7479592853929795584-Fcqo/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-ai-prompt-daily",
+      "title": "같은 AI 프롬프트를 하루 한 번, 충분한가",
+      "summary": "프롬프트를 하루 10번 돌려도 정확도 개선은 미미하며, 반복 빈도보다 프롬프트 품질이 훨씬 중요하다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/joshua-blyskal_is-running-the-same-ai-prompt-once-a-day-share_7480696854683279361-kyuv/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-gsc-social",
+      "title": "구글 서치콘솔, 소셜·영상 플랫폼 성과 추적",
+      "summary": "서치콘솔이 인스타·틱톡·X·유튜브 콘텐츠의 구글 검색 성과를 통합 리포팅으로 보여준다.",
+      "source": "Google",
+      "url": "https://developers.google.com/search/blog/2026/07/search-console-social-video-platforms",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-ai-native-quiz",
+      "title": "당신은 얼마나 'AI 네이티브' 마케터인가",
+      "summary": "CXL 진단이 리서치·콘텐츠·팀 워크플로 전반에서 AI를 얼마나 일관되게 통합하는지 측정한다.",
+      "source": "CXL",
+      "url": "https://ai-native-quiz.cxl.com/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-everyone-expert",
+      "title": "모두가 마케팅 전문가 … 아닐 때까지",
+      "summary": "개인 반응을 사실이 아닌 가설로 다루고 데이터로 검증하면 확증 편향과 전략 오류를 막는다.",
+      "source": "CMSWire",
+      "url": "https://www.cmswire.com/digital-marketing/everyones-a-marketing-expert-until-theyre-not/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-mid-funnel",
+      "title": "왜 퍼널 중간은 늘 홀대받나",
+      "summary": "CMO들이 중간 퍼널에 투자를 덜(성과 71%·브랜드 29%) 하지만, 프리미엄 배치는 이 구간에서 267% 성과 격차를 보인다.",
+      "source": "Media Ads & Commerce",
+      "url": "https://mediaadsandcommerce.substack.com/p/why-does-the-middle-of-the-funnel",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-whoop-nike",
+      "title": "웁, 웨어러블 경쟁 격화 속 나이키 마케팅 베테랑 영입",
+      "summary": "웨어러블 기업 웁이 전 나이키 CMO 데르크얀 판하메런을 마케팅 총괄로 임명했다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/cmo-today/whoop-hires-nike-marketing-veteran-as-wearables-wars-heat-up-2695c3cf",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-email-consent",
+      "title": "프랑스·이탈리아, 이메일 오픈 추적에 동의 필요",
+      "summary": "두 나라가 이메일 추적 픽셀에 명시적 동의를 요구하며 준수 기한은 2026년 7월·10월이다.",
+      "source": "Value Gravity",
+      "url": "https://valuegravity.io/insights/email-tracking-pixel-consent-how-to.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-muse-optin",
+      "title": "메타 Muse, 인스타 사진으로 AI 이미지 생성 — 기본 옵트인",
+      "summary": "메타 Muse Image가 기본 자동 옵트인으로 인스타 사용자의 AI 사진을 생성한다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/social-media/metas-new-ai-can-generate-images-of-you-from-your-instagram-and-youre-opted-in/",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

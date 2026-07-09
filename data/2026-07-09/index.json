@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-09",
+  "weekday": "목",
+  "headline": "머스크 SpaceXAI, 'Opus급' Grok 4.5 공개",
+  "subtitle": "OpenAI GPT-Live 음성·Anthropic 이중용도 지식 오프스위치·타입스크립트 7.0",
+  "keyword": "Grok 4.5 · GPT-Live · AI 안전 · TypeScript 7",
+  "bigStoryId": "ai-grok-45",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing",
+    "data",
+    "fintech"
+  ],
+  "lastUpdated": "08:05 CDT",
+  "syncedAt": "08:05",
+  "subscribers": 128842,
+  "market": {
+    "index": "S&P 500",
+    "value": "7,514.73",
+    "change": "▼ 0.20%"
+  },
+  "stats": {
+    "companies": 27,
+    "security": 14,
+    "deals": 8,
+    "policy": 8
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "프런티어 모델 가격 전쟁 재점화",
+      "body": "SpaceXAI가 'Opus급' Grok 4.5를 경쟁사 절반 가격·토큰 효율 2배로 내놨다. 코딩·에이전트 시장에서 Claude·GPT·Gemini와 정면 승부가 불가피하다.",
+      "severity": "7.8",
+      "velocity": "Rising",
+      "action": "코딩 파이프라인 단가·품질 재벤치"
+    },
+    {
+      "kind": "market",
+      "title": "S&P 500, 유가 급등에 소폭 하락",
+      "body": "미·이란 긴장 재고조와 유가 상승으로 S&P 500이 7,514.73으로 0.2% 내렸다. 나스닥은 강보합, 다우·S&P는 후퇴했다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "Grok 4.5 독립 벤치마크 결과, 액센츄어·AssuranceAmerica 유출 후속 파장, GhostLock 커널 패치 배포와 CISA KEV 대응."
+    }
+  ]
+}

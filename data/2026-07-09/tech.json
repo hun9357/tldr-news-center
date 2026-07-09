@@ -1,0 +1,128 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-grok-45",
+      "title": "SpaceXAI, 'Opus급' Grok 4.5 공개",
+      "summary": "일론 머스크의 SpaceXAI가 경쟁사 대비 토큰 효율 2배, 입력 100만 토큰당 $2·출력 $6의 공격적 가격으로 'Opus급' 모델 Grok 4.5를 출시했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "Frontier LLM · 코딩 에이전트"
+      }
+    },
+    {
+      "id": "tech-gpt-live",
+      "title": "OpenAI, GPT-Live 음성 모델 공개",
+      "summary": "ChatGPT 음성이 동시 듣기·말하기(풀듀플렉스)를 지원하고, 어려운 작업은 GPT-5.5로 넘기며 1시간 넘는 대화를 유지한다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-city-labs-nuclear",
+      "title": "시티랩스, 상업용 우주 원자력 첫 성공",
+      "summary": "마이애미 기반 시티랩스가 삼중수소 붕괴로 구동되는 세계 첫 상업 원자력 위성 BOHR를 350~400마일 궤도에 올렸다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/07/miami-based-city-labs-achieves-a-first-for-commercial-nuclear-power-in-space/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-blue-origin-130b",
+      "title": "블루오리진, 첫 외부 투자서 1300억 달러 가치",
+      "summary": "블루오리진이 첫 외부 펀딩에서 1300억 달러 기업가치를 인정받았고 베이조스가 20억 달러를 보태며 연내 뉴글렌 회수를 목표한다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/08/blue-origin-bezos-fundraising.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-outer-loop",
+      "title": "'아우터 루프'는 사람이 소유해야",
+      "summary": "AI 생성 코드도 엔지니어가 제약·샘플링·감사·소유의 루프를 쥐고 설명과 책임을 유지해야 한다는 애디 오스마니의 제언.",
+      "source": "Addy Osmani",
+      "url": "https://x.com/addyosmani/status/2074927530482835916",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-bun-rust",
+      "title": "Anthropic 모델로 Bun을 Rust로 재작성",
+      "summary": "한 Bun 개발자가 Anthropic 모델을 활용해 런타임을 Rust로 재작성, 메모리 안전성을 확보하며 더 빠르고 가벼운 성능을 달성했다.",
+      "source": "Bun",
+      "url": "https://bun.com/blog/bun-in-rust",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-meta-glasses",
+      "title": "메타, 상시 녹화 스마트안경 실험",
+      "summary": "메타가 LED 표시등 없이 계속 녹화하는 스마트안경을 시제작 중이며, 서버 저장·AI 학습 활용을 두고 내부 논쟁이 이어진다.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/meta-is-toying-with-the-idea-of-smart-glasses-that-record-everything-all-the-time-2000782893",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-sf-housing",
+      "title": "AI 부(富)가 흔드는 샌프란시스코 주택시장",
+      "summary": "AI 부가 SF 주택시장을 뒤흔들며 일부 매수자가 스톡옵션으로 지불하고 매물이 호가보다 100만 달러 이상 높게 팔린다.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/07/08/technology/san-francisco-home-sales-openai-anthropic-ipo.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-entire-git",
+      "title": "전 GitHub CEO, AI 시대용 Git 플랫폼 'Entire'",
+      "summary": "전 GitHub CEO가 AI 에이전트와 운영자를 위해 설계한 경쟁 Git 호스팅 네트워크를 선보였다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/08/former-github-ceo-launches-competitor-designed-for-the-age-of-vibe-coding/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-typescript-7",
+      "title": "타입스크립트 7.0 발표",
+      "summary": "네이티브 코드 속도와 공유 메모리 멀티스레딩으로 전체 빌드에서 8~12배 속도 향상을 제공한다.",
+      "source": "Microsoft",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-ddg-videoad",
+      "title": "덕덕고 브라우저, 유튜브 포함 동영상 광고 차단",
+      "summary": "덕덕고 브라우저가 오픈소스 uBlock Origin 필터 목록을 이용해 유튜브를 포함한 동영상 광고를 차단한다.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2209932/duckduckgo-browser-can-now-block-video-ads-including-youtubes/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-cf-meerkat",
+      "title": "클라우드플레어, 합의 서비스 'Meerkat' 실험",
+      "summary": "소규모 컨트롤 플레인 상태를 관리하는 실험적 글로벌 합의 서비스 Meerkat을 공개했다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/meerkat-introduction/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-john-deere",
+      "title": "FTC, 존디어 수리권 합의 도출",
+      "summary": "FTC 합의로 존디어가 농민·독립 수리업체에 향후 10년간 공인 딜러급 수리 자원을 제공해야 한다.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2210939/ftc-reaches-settlement-that-brings-right-to-repair-to-john-deere-farm-equipment/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "tech-ownership",
+      "title": "'오너십'이란 무엇인가",
+      "summary": "문제 식별부터 영구적 해결까지 끝까지 책임지는 것이 진짜 오너십이라는 토르스텐 볼의 글.",
+      "source": "Register Spill",
+      "url": "https://registerspill.thorstenball.com/p/ownership",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

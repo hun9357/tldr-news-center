@@ -1,0 +1,121 @@
+{
+  "name": "개발",
+  "source": "TLDR Web Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-lefthanded-bug",
+      "title": "왼손잡이 사용자만 겪던 버그",
+      "summary": "오래된 워드프레스 스니펫 탓에 스크롤 중 왼손잡이 사용자에게만 댓글창이 잘못 표시됐고, 문제 코드를 제거해 해결했다.",
+      "source": "shkspr.mobi",
+      "url": "https://shkspr.mobi/blog/2026/07/a-bug-which-only-affected-left-handed-users/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-bun-rust",
+      "title": "Bun을 Rust로 재작성",
+      "summary": "Anthropic 인수 이후 Bun이 Zig에서 Rust로 전환해 메모리 안전성을 확보하고 수동 메모리 관리 관련 안정성 문제를 해결했다.",
+      "source": "Bun",
+      "url": "https://bun.com/blog/bun-in-rust",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-swe-bench-noise",
+      "title": "코딩 평가의 신호와 잡음 분리",
+      "summary": "감사 결과 SWE-Bench Pro 과제의 약 30%가 지나치게 엄격한 테스트·불충분한 명세 등 결함을 가져 전환 권고가 철회됐다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-local-models",
+      "title": "로컬 모델로 코딩한 경험",
+      "summary": "로컬 실행 AI 모델은 단순 작업은 잘 처리하지만 복잡도가 커지면 가용 연산 자원에 따라 성능 편차가 크다.",
+      "source": "Martin Fowler",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/local-models-for-coding-experiences.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-llm-burnout",
+      "title": "'LLM 번아웃'이 온 것 같다",
+      "summary": "생산성 향상에도 잘못된 가정과 특유의 스타일이 반복되는 LLM 생성 코드에 개발자들이 피로를 호소한다.",
+      "source": "Alec Scollon",
+      "url": "https://www.alecscollon.com/blog/llm-burnout/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-typescript-7",
+      "title": "타입스크립트 7.0 발표",
+      "summary": "네이티브 Go 구현으로 주요 대기업 프로젝트에서 최대 10배 빠른 컴파일을 달성했다.",
+      "source": "Microsoft",
+      "url": "https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-grok-45",
+      "title": "Grok 4.5 소개",
+      "summary": "SpaceXAI의 최신 모델로 코딩·에이전트 워크플로·지식 집약 작업을 겨냥한다.",
+      "source": "SpaceXAI",
+      "url": "https://x.ai/news/grok-4-5",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-gpt-live",
+      "title": "GPT-Live 소개",
+      "summary": "풀듀플렉스 구조로 동시 듣기·말하기를 가능케 하는 새 음성 모델.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-cf-meerkat",
+      "title": "Meerkat 소개 — 글로벌 합의 실험",
+      "summary": "단일 리더 방식 대신 QuePaxa 알고리즘으로 전 세계 컨트롤 플레인 상태를 관리하는 클라우드플레어 서비스.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/meerkat-introduction/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-anthropic-off-switch",
+      "title": "AI 이중용도 지식 '오프 스위치'",
+      "summary": "GRAM 기술이 이중용도 역량을 구획화해 위험 지식을 선택 격리하고 복구 시도에 저항한다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/off-switch-dual-use",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-ownership",
+      "title": "오너십",
+      "summary": "엔지니어링 오너십은 문제 분석·설계·엣지케이스·테스트·이해관계자 소통까지 끝까지 책임지는 것.",
+      "source": "Register Spill",
+      "url": "https://registerspill.thorstenball.com/p/ownership",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-cf-drop",
+      "title": "Cloudflare Drop",
+      "summary": "HTML·CSS·JS 파일을 최소 설정으로 즉시 라이브 미리보기하는 배포 플랫폼.",
+      "source": "Cloudflare",
+      "url": "https://www.cloudflare.com/drop/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-geosql",
+      "title": "GeoSQL",
+      "summary": "PostGIS·BigQuery·Snowflake 쿼리에 지도 기반 검증을 통합한 지리공간 분석 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/dekart-xyz/geosql",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-gitlost",
+      "title": "GitLost — GitHub AI 에이전트로 비공개 저장소 유출",
+      "summary": "간접 프롬프트 인젝션으로 GitHub Agentic Workflows에서 비공개 저장소 데이터를 빼내는 취약점을 발견했다.",
+      "source": "Noma Security",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

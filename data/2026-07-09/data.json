@@ -1,0 +1,121 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-hubspot-vectors",
+      "title": "허브스팟, 200억+ 벡터 AI 검색 인프라 구축기",
+      "summary": "쿠버네티스 운영을 자동화해 배포 시간을 수 시간에서 수 분으로 줄이며 수백 개 인덱스에 200억+ 벡터 검색을 확장했다.",
+      "source": "HubSpot",
+      "url": "https://product.hubspot.com/blog/building-the-ai-retrieval-infrastructure-behind-20-billion-vectors-at-hubspot",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-iceberg-variant",
+      "title": "아이스버그 Variant 타입: JSON을 빠른 분석으로",
+      "summary": "Iceberg v3 Variant가 반구조 데이터를 이진으로 저장하고 공통 필드를 Parquet 컬럼으로 셰딩해 잦은 마이그레이션 없이 분석을 가속한다.",
+      "source": "Iceberg Lakehouse",
+      "url": "https://iceberglakehouse.com/posts/iceberg-v3-variant-type-ai-json-payloads/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-datafusion-graph",
+      "title": "10GB RAM으로 10억 스케일 그래프 알고리즘",
+      "summary": "아파치 DataFusion이 디스크 기반 처리로 좁은 메모리에서 PageRank·연결요소를 10억 엣지 데이터셋에 효율적으로 수행한다.",
+      "source": "Semyon Sinchenko",
+      "url": "https://semyonsinchenko.github.io/ssinchenko/post/datafusion-graphs-cc-2/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-agents-correctness",
+      "title": "데이터 엔지니어링에서 AI 에이전트의 자리: 정합성 계층",
+      "summary": "프로덕션 에이전트는 모델 신뢰도에 의존하기보다 SQL 정합성·스키마·데이터 계보를 검증하는 결정적 계층을 필요로 한다.",
+      "source": "ssp.sh",
+      "url": "https://www.ssp.sh/blog/where-agents-belong-in-de/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-3-layers-agent",
+      "title": "에이전트 구축의 3계층",
+      "summary": "신뢰할 수 있는 에이전트는 언어모델, 도구·관측성을 다루는 실행 하네스, 컨텍스트·가드레일을 정의하는 구성의 세 계층을 요한다.",
+      "source": "Data from the Trenches",
+      "url": "https://medium.com/data-from-the-trenches/the-3-layers-of-agent-building-db45b52178ec",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-robust-pipelines",
+      "title": "AI로 견고한 데이터 파이프라인 만들기",
+      "summary": "AI 생성 파이프라인은 조용한 실패 위험이 있어, 배포 전 멱등성·스키마 검증·Write-Audit-Publish 원칙을 강제해야 한다.",
+      "source": "MotherDuck",
+      "url": "https://motherduck.com/blog/robust-data-pipelines-with-ai/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-malloyyo",
+      "title": "Malloyyo",
+      "summary": "AI 도구가 게시된 데이터 모델을 질의하고 분석을 공유하도록 하는 MCP 서버·웹 인터페이스, DuckDB 지원.",
+      "source": "GitHub",
+      "url": "https://github.com/malloydata/malloyyo",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-apache-ossie",
+      "title": "아파치 Ossie — 시맨틱 데이터 표준",
+      "summary": "데이터셋·필드·메트릭·관계를 모델링해 도구 간 정의를 일관화하고 AI 에이전트에 통제된 비즈니스 맥락을 제공하는 규격.",
+      "source": "Apache",
+      "url": "https://ossie.apache.org/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-hudi-vector",
+      "title": "아파치 Hudi로 레이크하우스에 벡터 검색",
+      "summary": "Hudi가 레이크하우스 테이블에 네이티브 벡터 검색을 통합해 별도 벡터 DB 없이 인덱싱·하이브리드 검색을 지원한다.",
+      "source": "Apache Hudi",
+      "url": "https://hudi.apache.org/blog/2026/07/06/bringing-vector-search-to-the-lakehouse-with-apache-hudi/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-kafka-linger",
+      "title": "아파치 카프카 성능 #1 — linger.ms",
+      "summary": "linger.ms 설정이 배치 타이밍을 제어해 카프카 프로듀싱의 처리량·지연 트레이드오프에 직접 영향을 준다.",
+      "source": "Jack Vanlightly",
+      "url": "https://jack-vanlightly.com/blog/2026/7/7/apache-kafka-performance-1-lingerms",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-grammar-data",
+      "title": "데이터의 문법: 한 번 정의, 어디서나 실행",
+      "summary": "데이터 파이프라인을 문법을 가진 형식 언어로 다루면 선언성·재사용성·유지보수성이 임시 스크립트보다 향상된다.",
+      "source": "xorq.dev",
+      "url": "https://xorq.dev/blog/grammar-for-data-engineering/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-semantic-layer",
+      "title": "시맨틱 계층이 AI 에이전트보다 중요한 이유",
+      "summary": "비즈니스 맥락을 제공하는 큐레이트된 시맨틱 계층이 신뢰할 수 있는 쿼리 생성을 가능케 해, 에이전트가 아닌 통제된 모델 자체가 제품이 된다.",
+      "source": "narendradevarasetty",
+      "url": "https://narendradevarasetty.com/articles/why-your-semantic-layer-matters",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-great-analyst",
+      "title": "AI 시대의 훌륭한 분석가란",
+      "summary": "LLM·RAG·평가 역량이 SQL과 함께 현대 데이터 전문가의 필수 역량으로 자리잡고 있다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/what-makes-great-analyst-ai-age-ben-cocker-7fw8e/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "data-raytracer",
+      "title": "RayTracer — SQL로 구현한 경로 추적기",
+      "summary": "클릭하우스의 풀 패스 트레이서가 복잡한 장면을 순수 SQL로 렌더링해 쿼리 엔진의 연산 능력을 보였다.",
+      "source": "ClickHouse",
+      "url": "https://github.com/ClickHouse/RayTracer",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

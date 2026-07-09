@@ -1,0 +1,172 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-grok-45",
+      "title": "Grok 4.5, 소프트웨어 엔지니어링 최강 주장",
+      "summary": "SpaceXAI가 코딩·자율 작업·지식 노동에 가장 유능하다고 내세운 Grok 4.5를 Cursor와 협업해 개발, 'Opus급'을 표방한다.",
+      "source": "SpaceXAI",
+      "url": "https://x.ai/news/grok-4-5",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Strategy · Eng",
+        "status": "New",
+        "affectedSurface": "Frontier LLM · 코딩/에이전트"
+      },
+      "related": [
+        "빅테크: Grok 4.5 'Opus급' 출시·공격적 가격",
+        "개발: Introducing Grok 4.5",
+        "Cognition SWE-1.7 저비용 프런티어"
+      ],
+      "report": {
+        "tldr": "머스크의 SpaceXAI가 Opus급 성능·절반 가격을 내세운 Grok 4.5로 프런티어 경쟁을 재점화했다.",
+        "what": "Grok 4.5는 입력 100만 토큰당 $2·출력 $6, 경쟁사 대비 토큰 효율 2배를 주장하며 코딩·에이전트·지식 작업을 겨냥한다. Cursor와 공동 개발됐다.",
+        "points": [
+          "'Opus급' 자체 규정",
+          "토큰 효율 2배·저가 정책",
+          "Cursor 협업으로 코딩 에이전트 최적화",
+          "자율 작업(agentic) 강조"
+        ],
+        "why": [
+          "프런티어 모델 가격 경쟁이 추론 단가를 다시 끌어내림",
+          "코딩 에이전트 시장에서 Claude·GPT·Gemini와 정면 승부",
+          "벤더 다변화 여력 확대"
+        ],
+        "context": "머스크는 Grok 4.5를 Anthropic의 Opus 등급에 빗대 마케팅했으나 독립 벤치마크는 아직 제한적이다.",
+        "action": "코딩/에이전트 파이프라인에서 단가·지연·품질을 자체 벤치로 재평가하되 자칭 벤치마크는 유보적으로 볼 것."
+      }
+    },
+    {
+      "id": "ai-gpt-live",
+      "title": "OpenAI GPT-Live, 양방향 음성 인터페이스",
+      "summary": "음성 입력과 응답을 동시 처리하고 복잡한 작업은 대화 흐름을 끊지 않은 채 GPT-5.5로 위임한다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Product",
+        "status": "New",
+        "affectedSurface": "음성 UX · 실시간 통역"
+      }
+    },
+    {
+      "id": "ai-meta-muse-image",
+      "title": "메타, 전 앱에 'Muse Image' 출시",
+      "summary": "인스타 스토리·왓츠앱·메타 AI에서 다중 참조 합성과 방 리디자인을 지원하며 비가시 워터마크를 삽입한다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/meta-launches-muse-image-across-its-apps-and-previews-muse-video/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-anthropic-off-switch",
+      "title": "Anthropic, 이중용도 지식 '오프 스위치' 연구",
+      "summary": "학습 후에도 민감 지식이 담긴 모델 구획을 선택 삭제하는 GRAM 기술로, 전체 재학습 없이 안전성을 높인다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/off-switch-dual-use",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "AI Safety",
+        "status": "New",
+        "affectedSurface": "모델 안전 · 이중용도"
+      }
+    },
+    {
+      "id": "ai-bytedance-seedream",
+      "title": "바이트댄스, 추론 강화 Seedream 5.0 Pro",
+      "summary": "다국어 입력과 프로덕션급 편집을 지원하는 디자인 중심 멀티모달 이미지 생성 도구를 공개했다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/bytedance-debuts-seedream-5-0-pro-with-advanced-reasoning/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-swe-bench-audit",
+      "title": "코딩 벤치마크 신뢰성 감사",
+      "summary": "OpenAI 분석이 SWE-Bench Pro 과제의 상당수 결함을 지적하며 '잘못된 평가가 모델 역량 판단을 왜곡'할 수 있음을 보였다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-self-evolving-agents",
+      "title": "자기진화 에이전트 분류 체계",
+      "summary": "출력·인프라·모델 파라미터 중 어디서 개선이 일어나는지에 따라 자기진화 에이전트를 세 범주로 나눈 프레임워크.",
+      "source": "Shilong Liu",
+      "url": "https://x.com/atasteoff/status/2074800880017342665",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-cognition-swe17",
+      "title": "Cognition SWE-1.7, 저비용 프런티어",
+      "summary": "인프라 개선과 정제된 학습으로 고성능을 달성한 SWE-1.7을 Devin 전반에서 이용할 수 있다.",
+      "source": "Cognition",
+      "url": "https://cognition.com/blog/swe-1-7",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-nvidia-open-data",
+      "title": "NVIDIA, 에이전트용 개방 데이터 강조",
+      "summary": "신뢰할 수 있는 AI 에이전트 개발에 개방·합성 데이터셋이 중요하며 투명성과 행동 이해를 돕는다고 강조했다.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-data-at-edge",
+      "title": "엣지의 데이터가 만드는 새 사업",
+      "summary": "저가 센서·로보틱스·멀티모달 AI 결합이 인프라·의료·산업 전반에서 물리 세계 데이터 기반 사업 기회를 창출한다.",
+      "source": "Rebecca Kaden",
+      "url": "https://x.com/rebeccakaden/status/2074862363874844903",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-sambanova-11b",
+      "title": "삼바노바, 110억 달러 가치 평가",
+      "summary": "삼바노바가 10억 달러를 유치해 110억 달러 가치를 인정받으며 추론 칩 확산을 가속, 2027년 IPO를 검토한다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/08/sambanova-ai-chip-funding-valuation.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-openai-northslope",
+      "title": "OpenAI, 응용 AI 기업 노스슬로프 인수",
+      "summary": "OpenAI가 노스슬로프를 인수해 기업 현장 배포용 엔지니어링 역량을 대폭 확충했다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/openai-northslope-acquisition-enterprise-ai-deployment",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-robostral-navigate",
+      "title": "미스트랄, 단일 카메라 내비게이션 'Robostral'",
+      "summary": "80억 파라미터 모델로 표준 카메라 입력만으로 자율 로봇 내비게이션을 구현해 하드웨어 요구를 낮췄다.",
+      "source": "Mistral",
+      "url": "https://mistral.ai/news/robostral-navigate/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-ambitious-claude",
+      "title": "'당신은 Claude에 충분히 야심차지 않다'",
+      "summary": "Claude는 반복 절차보다 조직 우선순위를 겨냥한 전략적 활용에서 최대 가치를 낸다는 분석.",
+      "source": "Christine Zhu",
+      "url": "https://x.com/christinexzhu/status/2074847461588267466",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "ai-google-photos-remix",
+      "title": "구글 포토, AI 영상 리믹스 추가",
+      "summary": "Gemini 기반 편집으로 재조명·배경 교체·수채화/유화 스타일 변환 등 빠른 영상 변형을 지원한다.",
+      "source": "Google",
+      "url": "https://blog.google/products-and-platforms/products/photos/video-remix/",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

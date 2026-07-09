@@ -1,0 +1,105 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-claude-cowork",
+      "title": "Claude Cowork, 모바일·웹으로 확장",
+      "summary": "Anthropic이 Claude Cowork를 데스크톱에서 모바일·웹으로 확장하고, 세션을 넘나드는 Dispatch로 작업을 지속시킨다.",
+      "source": "Anthropic",
+      "url": "https://claude.com/blog/cowork-web-mobile",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-google-cloud-india",
+      "title": "구글 클라우드, 인도에 AI 거점",
+      "summary": "구글 클라우드가 Gemini를 인도 인프라에 호스팅해 규제 부문의 AI·데이터 레지던시 요건을 충족한다.",
+      "source": "Economic Times",
+      "url": "https://m.economictimes.com/news/company/corporate-trends/google-cloud-plants-its-ai-flag-in-india-gemini-local-hosting-data-sovereignty-what-it-means-for-the-country/articleshow/132257905.cms",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-salesforce-slackbot",
+      "title": "세일즈포스, Slackbot을 에이전트 허브로",
+      "summary": "Slackbot이 CRM 데이터 조회·차트 생성·워크플로 실행을 채팅에서 직접 수행하며 Slack을 엔터프라이즈 제어층으로 만든다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/slacks-slackbot-can-now-pull-your-crm-data-generate-charts-and-send-docusigns-all-from-a-chat-message/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-ai-security-hard",
+      "title": "AI가 보안을 어렵게 만든 이유",
+      "summary": "AI는 새로운 위협보다 가속된 배포·어긋난 인센티브·누적된 기술부채로 기존 조직 약점을 증폭시킨다.",
+      "source": "Frankly Speaking",
+      "url": "https://franklyspeaking.substack.com/p/why-ai-has-made-security-hard",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-enterprise-ai-leaping",
+      "title": "성급했던 엔터프라이즈 AI의 후유증",
+      "summary": "설문에서 기업 78%가 AI 보안사고를 겪었고, 대부분 모델 결함이 아닌 잘못 구성된 에이전트·부실 거버넌스 탓이었다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/07/07/enterprise-ai-still-smarting-from-leaping-before-looking/5267353",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-windows-backup",
+      "title": "MS, 조직용 윈도우 설정 백업 기본 활성화",
+      "summary": "26H2 업데이트 이후 기업 기기에서 윈도우 설정 백업이 자동 활성화되며, 복원은 관리자 명시 설정이 필요하다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-windows-backup-for-organizations-by-default/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-gpt-live",
+      "title": "OpenAI, 더 자연스러운 음성 'GPT-Live'",
+      "summary": "듣기와 말하기를 동시 수행해 끼어들기 처리와 실시간 통역을 개선한 ChatGPT Voice 기능.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-live/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-ai-ready-data",
+      "title": "진짜 경쟁력은 'AI 준비된 데이터'",
+      "summary": "깨끗하고 잘 통제된 데이터가 GPU·모델을 제치고 엔터프라이즈 AI 생산의 핵심 병목이 됐다.",
+      "source": "The Next Platform",
+      "url": "https://www.nextplatform.com/store/2026/07/08/why-ai-ready-data-is-the-real-advantage/5268409",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-trusted-publishing",
+      "title": "'Trusted Publishing'을 신뢰하지 말라",
+      "summary": "PyPI의 Trusted Publishing은 CI/CD 신원만 인증할 뿐 코드 안전성·품질을 보장하지 않는다.",
+      "source": "yossarian.net",
+      "url": "https://blog.yossarian.net/2026/07/07/You-shouldnt-trust-Trusted-Publishing",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-servicedesk-attacks",
+      "title": "AI가 강화하는 서비스 데스크 공격 3가지",
+      "summary": "AI 기반 사회공학이 맞춤 스크립트·사칭으로 서비스 데스크를 노리며, 강력한 신원 검증과 에스컬레이션 절차가 핵심 방어다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-prevent-them/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-hf-foundry",
+      "title": "허깅페이스 모델, MS Foundry 관리형 컴퓨트에",
+      "summary": "MS Foundry가 허깅페이스 모델을 호스팅해 오픈소스·커스텀 가중치용 엔터프라이즈 인프라를 제공한다.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-cisa-kev",
+      "title": "CISA, KEV 카탈로그에 신규 악용 취약점 추가",
+      "summary": "CISA가 실제 악용 중인 취약점 3건을 KEV 카탈로그에 추가해 조직의 패치 우선순위 결정을 도왔다.",
+      "source": "CISA",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/07/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

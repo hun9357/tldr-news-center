@@ -1,0 +1,113 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💰",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fin-fiserv-star",
+      "title": "파이서브, STAR 데빗망 은행 매각 검토",
+      "summary": "파이서브가 JPMorgan·뱅크오브아메리카 등 대형은행과 STAR 데빗 인프라 매각을 협의 중이며, 데빗 라우팅·수수료 통제 구조를 바꿀 수 있다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-visa-travel",
+      "title": "비자, 결제 넘어 '여행 동반자'로",
+      "summary": "비자가 10개국에서 큐레이트된 경험·도시 가이드를 제공하는 모바일 여행 플랫폼을 출시하며 결제 처리 이상으로 포지셔닝을 넓혔다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-klarna-charter",
+      "title": "클라르나, BNPL 넘어 美 은행 인가 신청",
+      "summary": "클라르나가 대출·결제·예금을 내재화하려 유타주 은행 인가를 신청, 뱅킹 인프라를 직접 소유하려는 업계 흐름을 반영한다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-challenger-banks",
+      "title": "챌린저 뱅크: 셀사이드가 말하는 것",
+      "summary": "누뱅크·레볼루트 등 선두주자는 흑자를 냈지만 미국은 여전히 험난하며, 향후 성공은 멀티프로덕트 고객관계 구축에 달렸다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-open-payments",
+      "title": "오픈 페이먼츠: 오픈뱅킹을 넘어",
+      "summary": "표준화된 API가 계좌 통합·디지털 지갑·임베디드 파이낸스를 전례 없는 규모로 가능케 하며 업계가 변혁 중이다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-verification-tax",
+      "title": "재무팀, 주 13시간을 AI 출력 검증에",
+      "summary": "AI 생성 재무 콘텐츠 감사에서 '검증세'가 발생하며, 감사 추적이 명확한 설명가능 시스템 선호를 키운다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-coinbase-mifid",
+      "title": "코인베이스, 영국 MiFID 라이선스 취득",
+      "summary": "코인베이스가 크립토와 함께 파생·주식을 제공할 영국 인가를 확보하며 '만능 거래소' 전략을 진전시켰다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-privy-onramp",
+      "title": "프라이비, 글로벌 법정화폐 온램프 도입",
+      "summary": "카드로 크립토를 구매하는 통합 온램프를 출시해 앱을 벗어나 거래소 계정을 쓸 필요를 없앴다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-alipay-tap",
+      "title": "알리페이, 에이전트 커머스용 Tap! 기기 업그레이드",
+      "summary": "알리페이가 POS망에 AI 에이전트를 더해 '세계 첫 대규모 AI 오프라인 비즈니스 운영망'을 표방한다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-payment-success",
+      "title": "결제 성공률의 숨은 경제학",
+      "summary": "결제 성공률을 기술 지표가 아닌 매출·경쟁력에 직결되는 핵심 비즈니스 지표로 다뤄야 한다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-norm-1-2b",
+      "title": "AI 법률 스타트업 Norm, 12억 달러 가치 평가",
+      "summary": "Norm AI가 1.2억 달러를 유치, 기존 로펌에 팔기보다 자체 로펌을 운영하며 성과 기반 가격으로 차별화한다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-paypal-epc",
+      "title": "페이팔, 유럽결제협의회 가입",
+      "summary": "페이팔이 EPC 정식 회원이 되며 유럽 결제 인프라에 대한 관여를 심화했다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "fin-robinhood-market",
+      "title": "로빈후드, 브로커리지 넘어 시장구조 야망",
+      "summary": "로빈후드가 크립토 거래소·청산소를 포함한 수직 통합 시장 인프라를 한 플랫폼에 구축 중이다.",
+      "source": "TLDR Fintech",
+      "url": "https://tldr.tech/fintech/2026-07-09",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}
