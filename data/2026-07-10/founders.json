@@ -6,92 +6,158 @@
   "bg": "#33220f",
   "items": [
     {
-      "id": "founders-ai-value-capture",
-      "title": "AI의 가치 포획 문제",
-      "summary": "기업용 AI는 예외 로그와 의사결정 흔적에서 민감한 사내 지식을 학습한다. 고객이 소유하는 메모리와 감사 추적이 창업자에게 중요해진다.",
-      "source": "X/JayaGup10",
-      "url": "https://x.com/JayaGup10/status/2075074218065265078",
-      "originalDate": "2026-07-09"
+      "id": "fd-ai-value-capture",
+      "title": "AI의 가치 포획 문제: 진짜 지식은 예외 로그에 있다",
+      "summary": "기업의 가장 민감한 지식은 PDF가 아니라 오버라이드·의사결정 트레이스에 산다.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/7hFcN8",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "엔터프라이즈 AI의 가치 포획 문제를 '예외 로그' 관점에서 짚은 에세이.",
+        "what": "보험사의 모든 오버라이드를 지켜보는 AI 클레임 어시스턴트는 정책 문서가 아니라 회사가 규칙을 굽히는 순간, 에스컬레이션 패턴, 신뢰받는 언더라이터를 학습한다. 진지한 워크플로에 AI를 파는 파운더에게 고객 소유 메모리, 감사 추적, 학습 통제는 컴플라이언스 장식이 아니라 핵심 상품이다.",
+        "points": ["민감 지식은 결정 트레이스에 존재", "고객 소유 메모리가 셀링 포인트", "감사 추적·학습 통제 필수"],
+        "why": ["엔터프라이즈 AI 세일즈의 신뢰 설계 기준"]
+      }
     },
     {
-      "id": "founders-gamma-100m-arr",
-      "title": "감마, 50명으로 ARR 1억 달러",
-      "summary": "감마 CEO가 입소문 성장만으로 소규모 팀에서 흑자를 낸 과정과 그 사이 저지른 실수를 공유했다.",
-      "source": "SaaStr",
-      "url": "https://www.saastr.com/how-gamma-hit-100m-arr-with-a-team-of-50-grant-lees-4-lessons-at-saastr-ai-2026/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "founders-preferential-attachment",
-      "title": "승자가 계속 이기는 이유",
-      "summary": "초기의 작은 우위가 조기 모멘텀과 가시성을 거쳐 큰 성공으로 복리 증식한다는 선호적 연결 이론.",
-      "source": "E.J. Jorgenson",
-      "url": "https://www.ejorgenson.com/blog/preferential-attachment",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "founders-culture-at-scale",
-      "title": "규모가 커져도 문화를 지키는 법",
-      "summary": "머큐리가 성장기 문화 유지 원칙 네 가지를 공유했다. 진정성과 신중한 임원 채용이 핵심이다.",
-      "source": "X/immad",
-      "url": "https://x.com/immad/status/2075002604963471523",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "founders-mighty-creator",
-      "title": "막강한 크리에이터의 시대",
-      "summary": "크리에이터가 포맷을 정의하고 제품을 문화에 심는다. 전통적 인플루언서 마케팅을 넘어선 단계다.",
-      "source": "andjelicaaa",
+      "id": "fd-mighty-creator",
+      "title": "위대한 크리에이터의 시대",
+      "summary": "인플루언서는 관심을 빌리고, 크리에이터는 제품을 자신의 세계에 편입시킨다.",
+      "source": "Andjelica (Substack)",
       "url": "https://andjelicaaa.substack.com/p/the-reign-of-the-great-creator",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "브랜드가 메시지를 통제하던 중심이 무너지고 크리에이터가 문화 진입을 결정한다.",
+        "what": "크리에이터는 포맷을 만들고 시청 습관을 쥐며 제품이 문화에 들어가는 방식을 정한다. 론칭용 관심을 빌리는 인플루언서 포스트와 달리, 크리에이터는 제품을 사람들이 이미 팔로우하는 반복되는 세계의 일부로 만든다.",
+        "points": ["브랜드 중심 유통의 해체", "인플루언서≠크리에이터", "습관 기반 세계관의 힘"],
+        "why": ["마케팅 예산의 크리에이터 파트너십 이동 근거"]
+      }
     },
     {
-      "id": "founders-taste-requires-eating",
-      "title": "취향을 원하면 직접 먹어봐야 한다",
-      "summary": "AI가 생산성을 올릴수록 창작의 제약은 미적 판단으로 옮겨간다.",
-      "source": "X/jxnlco",
-      "url": "https://x.com/jxnlco/article/2073819508729684462",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "founders-chatgpt-work",
-      "title": "ChatGPT Work로 가장 야심찬 일을",
-      "summary": "팀 도구를 통합해 흩어진 메모를 완성된 결과물로 바꾼다. 전 요금제에서 제공된다.",
-      "source": "OpenAI",
-      "url": "https://openai.com/chatgpt-work/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "founders-ship-os",
-      "title": "Ship OS",
-      "summary": "노션 기반 제품 개발 셋업으로, 커스텀 에이전트와 함께 기획부터 출시까지 워크플로를 관리한다.",
-      "source": "Notion",
-      "url": "https://www.notion.com/product/ship-os",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "founders-content-system",
-      "title": "창업자 콘텐츠는 시스템이다",
-      "summary": "회사 데이터와 제품 진척에 기반한 반복 가능한 여섯 가지 포맷을 제시한다.",
-      "source": "X/ansonlin",
-      "url": "https://x.com/ansonlin/status/2074879329536774615",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "founders-neumann-iconic",
-      "title": "아이코닉한 회사를 만드는 법",
-      "summary": "고객 경험을 직접 통제하고 수십 년짜리 비전을 갖는 데서 상징적 기업이 나온다는 팟캐스트 대담.",
-      "source": "a16z Podcast",
-      "url": "https://a16z.simplecast.com/episodes/adam-neumann-this-is-how-you-build-iconic-companies-_2mqt7jy",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "founders-how-to-write-email",
+      "id": "fd-how-to-write-email",
       "title": "이메일 쓰는 법",
-      "summary": "결정을 빠르게 전달하는 명확하고 간결한 이메일 작성법.",
+      "summary": "몇 초 안에 요점 파악·빠른 결정·추가 설명 없는 전달이 가능한 이메일.",
       "source": "Danny Castonguay",
       "url": "https://blog.dannycastonguay.com/how-to-write-an-email/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "좋은 이메일은 똑똑해 보이려 하지 않고 요점을 빨리 이해시키는 이메일이다.",
+        "what": "독자가 몇 초 안에 요점을 파악하고 빠르게 결정하고 설명 없이 전달할 수 있어야 한다. 긴 핑퐁엔 전화·챗을 쓰고 결정 요약만 이메일로 남기며, 다음 액션을 명확히 하라.",
+        "points": ["초 단위 이해 가능성", "핑퐁은 콜로, 기록은 메일로", "명확한 다음 단계"],
+        "why": ["커뮤니케이션 비용 절감의 기본기"]
+      }
+    },
+    {
+      "id": "fd-preferential-attachment",
+      "title": "승자가 계속 이기는 이유 (선호적 연결)",
+      "summary": "초기 우위가 눈덩이처럼 커진다…품질보다 초기 모멘텀과 가시성.",
+      "source": "Eric Jorgenson",
+      "url": "https://www.ejorgenson.com/blog/preferential-attachment",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "선호적 연결 원리로 초기 우위의 복리 효과를 설명한다.",
+        "what": "스포츠·소셜미디어에서 보듯 초기 이점은 큰 성공으로 눈덩이처럼 불어난다. 정상권 진입엔 순수 품질보다 초기 모멘텀과 가시성이 중요할 때가 많고, 되는 것에 집중하면 초과 수익이 난다.",
+        "points": ["초기 우위의 복리화", "모멘텀>품질인 국면", "되는 것에 집중"],
+        "why": ["초기 시장 진입 타이밍·집중 전략의 이론적 근거"]
+      }
+    },
+    {
+      "id": "fd-ship-os",
+      "title": "Ship OS: 노션에서 제품 개발을 끝까지 돌리는 셋업",
+      "summary": "커스텀 에이전트만 연결하면 되는 준비된 구성…에이전트 공동 작업 공간화.",
+      "source": "Notion",
+      "url": "https://www.notion.com/product/ship-os",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "노션이 제품 개발 전 과정을 담는 Ship OS 템플릿 체계를 공개했다.",
+        "what": "모든 구성이 준비돼 있어 워크플로를 구동할 커스텀 에이전트만 연결하면 된다. 노션을 모든 에이전트가 함께 일하는 공유 워크스페이스로 만들며, 스케일 기업들의 템플릿 예시가 제공된다.",
+        "points": ["엔드투엔드 제품 개발 구성", "에이전트 공유 작업 공간", "실전 템플릿 제공"],
+        "why": ["도구가 에이전트 협업 허브로 재포지셔닝되는 흐름"]
+      }
+    },
+    {
+      "id": "fd-chatgpt-work",
+      "title": "ChatGPT Work로 가장 야심찬 업무를",
+      "summary": "팀 도구의 컨텍스트를 모아 흩어진 노트·초안을 완성된 작업물로.",
+      "source": "OpenAI",
+      "url": "https://links.tldrnewsletter.com/O3skJN",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "GPT-5.6 기반 ChatGPT Work가 팀 업무 완성 도구로 출시됐다.",
+        "what": "팀 도구들의 컨텍스트를 모아 흩어진 노트·초안·아이디어를 완성된 작업물로 바꾼다. 데스크톱 전 플랜 제공, 웹·모바일은 Plus·Pro·Business·Enterprise·Edu로 수일 내 확대된다.",
+        "points": ["팀 컨텍스트 통합", "완성물 지향", "전 플랜 순차 제공"],
+        "why": ["소규모 팀의 운영 레버리지 확대 도구"]
+      }
+    },
+    {
+      "id": "fd-mercury-culture",
+      "title": "스케일에서의 컬처: 머큐리의 4원칙",
+      "summary": "Be weird·스케일되는 일 계속하기·임원 채용 신중·프로세스에 컬처 내장.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/NbnASc",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "머큐리가 성장 속에서 컬처를 지킨 4가지 고수준 원칙.",
+        "what": "진짜다움(Be weird)이 강한 컬처의 핵심이고, 스케일되는 일을 계속하며, 컬처는 톱다운 현상이므로 임원·리더 채용에 극도로 신중하고, 프로세스에 컬처를 내장해 유기적으로 전파시킨다.",
+        "points": ["Be weird", "임원 채용 = 컬처 결정", "프로세스 내장"],
+        "why": ["스케일업 조직 설계 체크리스트"]
+      }
+    },
+    {
+      "id": "fd-gamma-100m-arr",
+      "title": "감마, 50명으로 ARR 1억 달러: 4가지 교훈과 5가지 실수",
+      "summary": "5년 만에 사용자 5천만·유료 60만…영업·마케팅 지출 제로, 흑자.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/how-gamma-hit-100m-arr-with-a-team-of-50-grant-lees-4-lessons-at-saastr-ai-2026/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "감마 CEO 그랜트 리가 50명 팀의 1억 달러 ARR 달성기를 공유했다.",
+        "what": "5년 만에 ARR 1억 달러, 사용자 5천만, 유료 구독 60만 명을 달성했고 회사는 흑자다. 영업·마케팅 지출 없이 입소문만으로 성장했다.",
+        "points": ["50명·흑자·ARR $100M", "S&M 지출 제로", "워드오브마우스 성장"],
+        "why": ["AI 시대 초효율 성장의 대표 케이스스터디"]
+      }
+    },
+    {
+      "id": "fd-founder-content-system",
+      "title": "파운더 콘텐츠는 시스템이다",
+      "summary": "회사 데이터·실패담·제품 진행 상황으로 만드는 6가지 반복 포맷.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/FLdBvH",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "성공하는 파운더 콘텐츠는 영감이 아니라 반복 가능한 포맷 시스템이다.",
+        "what": "진짜 회사 데이터, 실패, 제품 개발 진행 상황으로 만들어지는 6가지 반복 포맷을 제시한다.",
+        "points": ["6가지 반복 포맷", "데이터·실패담 기반"],
+        "why": ["파운더 브랜딩의 지속 가능한 운영법"]
+      }
+    },
+    {
+      "id": "fd-taste-eat",
+      "title": "테이스트를 원하면 먹어봐야 한다",
+      "summary": "AI가 점심 전까지 30개 버전을 만들면 테이스트가 병목이 된다.",
+      "source": "TLDR Founders",
+      "url": "https://links.tldrnewsletter.com/NtBjnv",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "생성이 무한해질수록 고르는 눈, 즉 테이스트가 희소 자원이 된다.",
+        "what": "AI가 점심 전까지 30개 버전을 만들 수 있다면 병목은 생산이 아니라 판단이라는 짧은 에세이다.",
+        "points": ["생산 과잉 시대", "판단력이 병목"],
+        "why": ["팀 역량 투자 우선순위의 전환"]
+      }
+    },
+    {
+      "id": "fd-neumann-podcast",
+      "title": "아담 노이만: 아이코닉한 회사를 만드는 법 (팟캐스트)",
+      "summary": "고객 경험의 집요한 통제, 감정적 연결, 수십 년 단위 사고.",
+      "source": "a16z Podcast",
+      "url": "https://a16z.simplecast.com/episodes/adam-neumann-this-is-how-you-build-iconic-companies-_2mqt7jy",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "아담 노이만이 말하는 아이코닉 컴퍼니의 조건.",
+        "what": "고객 경험을 집요하게 통제하고, 사람들이 감정적으로 연결되는 제품을 만들고, 수십 년 앞을 생각할 때 아이코닉한 회사가 나온다는 90분 대담이다.",
+        "points": ["고객 경험 통제", "감정적 연결", "장기 사고"],
+        "why": ["브랜드 지향 창업자의 관점 자료"]
+      }
     }
   ]
 }

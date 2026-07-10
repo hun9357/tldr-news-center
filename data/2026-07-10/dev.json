@@ -1,105 +1,206 @@
 {
   "name": "개발",
-  "source": "TLDR Web Dev",
+  "source": "TLDR Dev",
   "icon": "💻",
   "color": "#5ec6ff",
   "bg": "#14283a",
   "items": [
     {
       "id": "dev-cursor-ai-stats",
-      "title": "커서 통계: 상위 개발자는 주 4만 줄, 중앙값은 700줄",
-      "summary": "상위 사용자와 중앙값 사용자의 생산량 격차가 크게 벌어졌다. AI 토큰 사용량의 약 90%는 새 코드 작성이 아니라 기존 코드를 읽는 데 쓰인다.",
-      "source": "Pragmatic Engineer",
+      "title": "커서 리포트: 상위 1%는 주당 4만 줄, 중앙값은 700줄",
+      "summary": "AI 코딩 토큰의 약 90%가 입력 토큰…쓰기보다 읽기·이해에 시간이 쓰인다.",
+      "source": "The Pragmatic Engineer",
       "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-interesting-ai-coding-stats",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "커서 사용 데이터가 AI 코딩 생산성의 극단적 격차와 '읽기 중심' 사용 패턴을 보여준다.",
+        "what": "상위 1% 파워유저는 주당 최대 4만 줄을 생성하는 반면 중앙값 사용자는 700줄이다. 토큰 사용의 약 90%가 입력 토큰으로, 개발자들이 새 코드를 쓰기보다 기존 코드를 읽고 이해하는 데 더 많은 시간을 쓰고 있음을 시사한다.",
+        "points": ["상위 1% 주 4만 줄 vs 중앙값 700줄", "입력 토큰이 90%", "읽기·이해가 지배적 워크로드"],
+        "why": ["AI 도입 효과가 사용자 역량에 따라 크게 갈림을 시사"]
+      }
     },
     {
-      "id": "dev-token-pricing-evans",
-      "title": "토큰 가격을 생각하는 법",
-      "summary": "지금은 공급 제약이 토큰 경제를 좌우한다. 프리미엄 모델이 마진을 지킬지, 박리다매 인프라로 수렴할지는 아직 불확실하다.",
-      "source": "Benedict Evans",
-      "url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
-      "originalDate": "2026-07-09"
+      "id": "dev-ideogram-v4-subsecond",
+      "title": "Ideogram v4, 품질 손실 없이 0.44초 생성",
+      "summary": "FP4 연산·에필로그 퓨전·양자화 인지 증류로 2.75초→0.44초.",
+      "source": "fal.ai",
+      "url": "https://blog.fal.ai/serving-sub-second-ideogram-v4-without-quality-loss/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "fal.ai가 Ideogram V4 이미지 생성을 서브초로 최적화한 과정을 공개했다.",
+        "what": "FP4 연산과 에필로그 퓨전 등으로 생성 시간을 2.75초에서 0.44초로 줄였다. FP4 고유의 품질 문제는 양자화 인지 증류(quantization-aware distillation)로 색 정확도·충실도를 보완했다.",
+        "points": ["2.75초→0.44초", "FP4+에필로그 퓨전", "양자화 인지 증류로 품질 유지"],
+        "why": ["이미지 생성의 실시간 UX 기준 상향"]
+      }
     },
     {
-      "id": "dev-ai-buildout-grid",
-      "title": "AI 구축을 진짜로 막는 것은 전력망",
-      "summary": "텍사스 스타게이트를 비롯한 인프라 확장이 계통 연계 대기열에 막혔다. 발전 용량은 충분한데 낡은 접속 절차가 병목이다.",
-      "source": "Works in Progress",
-      "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
-      "originalDate": "2026-07-09"
+      "id": "dev-progressive-disclosure",
+      "title": "점진적 공개: 훈련용 바퀴에서 주 단위 AI 에이전트까지",
+      "summary": "핵심 기능만 먼저 보여주고 필요 시 고급 옵션을 여는 UI 전략의 재조명.",
+      "source": "Jakob Nielsen",
+      "url": "https://jakobnielsenphd.substack.com/p/progressive-disclosure",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "야콥 닐슨이 점진적 공개 원칙을 AI 에이전트 시대에 맞춰 다시 정리했다.",
+        "what": "초기에 핵심 기능만 제시하고 고급 옵션은 필요할 때 열게 하는 전략으로, 다수 사용자에겐 효율을, 고급 사용자에겐 낮은 마찰의 심화 경로를 제공한다.",
+        "points": ["기본은 단순, 심화는 선택", "사용성-유연성 균형"],
+        "why": ["에이전트 설정 UI 설계에 그대로 적용 가능"]
+      }
     },
     {
-      "id": "dev-fable5-vs-opus48",
-      "title": "성과 기반 평가, 프런티어 랩엔 경고음",
-      "summary": "Fable 5, Opus 4.8 같은 최상위 모델도 실제 기업 성과에서는 전환율 개선 0을 냈다. 벤치마크 점수와 무관하게 조직들은 SOTA 대신 특화 모델을 택하고 있다.",
-      "source": "Vin Vashishta",
-      "url": "https://vinvashishta.substack.com/p/fable-5-vs-opus-48-outcomes-based",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "dev-900k-lines-wrong",
-      "title": "AI로 90만 줄을 짜고 배운 것",
-      "summary": "대량의 AI 코드를 만든 뒤 저자는 도구의 실제 효용을 재평가하고, 아키텍처 결정만큼은 인간 판단을 지켜야 한다고 강조한다.",
+      "id": "dev-900k-loc-lessons",
+      "title": "AI로 90만 줄을 만들고 배운 것",
+      "summary": "AI 도구 효과의 주기적 재평가와 아키텍처에 대한 인간 감독이 최대 교훈.",
       "source": "Leadership Lighthouse",
       "url": "https://leadershiplighthouse.substack.com/p/what-900000-lines-of-ai-built-code",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "90만 줄 AI 코드 경험담의 결론은 '도구 재평가'와 '아키텍처 인간 감독'이다.",
+        "what": "신제품 개발에서 90만 줄 이상을 AI로 생성한 후, AI 도구의 실효성을 계속 재점검하고 아키텍처 결정엔 인간 감독을 유지하는 것이 핵심 교훈이었다고 말한다.",
+        "points": ["도구 효과 주기적 재평가", "아키텍처는 인간 감독"],
+        "why": ["대규모 AI 코딩 도입 팀의 운영 수칙 참고"]
+      }
+    },
+    {
+      "id": "dev-frontend-simpler",
+      "title": "당신이 안 보는 사이 프런트엔드에 생긴 일",
+      "summary": "JS 생태계 전체를 요구하던 복잡성에서 다시 단순한 접근으로 회귀 중.",
+      "source": "davidpoblador.com",
+      "url": "https://davidpoblador.com/deep-dives/what-happened-to-the-frontend/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "프런트엔드가 과잉 복잡성의 정점을 지나 단순화로 돌아가고 있다는 리뷰.",
+        "what": "단순했던 프런트엔드가 JS 생태계 전반의 지식을 요구하는 분야로 변했다가, 최근 다시 단순한 접근으로 흐름이 바뀌고 있다고 정리한다.",
+        "points": ["복잡성 정점 통과", "단순화 회귀 트렌드"],
+        "why": ["스택 선정 시 유행 좇기 경계"]
+      }
+    },
+    {
+      "id": "dev-gpt-56-launch",
+      "title": "GPT-5.6: 야심에 맞춰 확장되는 프런티어 지능",
+      "summary": "Sol 플래그십 포함 패밀리 출시…멀티에이전트·보안 역량 강화.",
+      "source": "OpenAI",
+      "url": "https://links.tldrnewsletter.com/KV6WJm",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "OpenAI의 GPT-5.6 론칭 포스트가 공개됐다.",
+        "what": "Sol을 앞세운 패밀리가 지능·효율을 높이며 비용을 낮추고, 복잡 작업용 고급 기능·사이버보안·오용 방지 안전 시스템을 도입했다.",
+        "points": ["패밀리 전 라인 성능·비용 개선", "복잡 작업 고급 기능", "안전 시스템 동반"],
+        "why": ["개발 파이프라인의 기본 모델 재선정 트리거"]
+      }
+    },
+    {
+      "id": "dev-chatgpt-work",
+      "title": "ChatGPT, 가장 야심찬 업무의 파트너로",
+      "summary": "작업 자동화·복잡 프로젝트 관리·앱 연동으로 완성 문서·분석 생성.",
+      "source": "OpenAI",
+      "url": "https://links.tldrnewsletter.com/8sPsm3",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "ChatGPT Work가 업무 자동화와 앱 연동 기반 산출물 생성을 내세운다.",
+        "what": "작업 자동화, 복잡한 프로젝트 관리, 다양한 앱 연동으로 완성된 문서와 분석을 만들어내는 기능이다.",
+        "points": ["업무 자동화", "앱 연동 산출물 생성"],
+        "why": ["개발자 외 직군까지 에이전트 사용 확대"]
+      }
+    },
+    {
+      "id": "dev-traycer",
+      "title": "Traycer (GitHub Repo)",
+      "summary": "기존 에이전트 구독을 연결해 공유 메모리로 병렬 작업을 조율하는 오픈소스 오케스트레이션.",
+      "source": "GitHub",
+      "url": "https://github.com/traycerai/traycer",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "여러 에이전트 구독을 하나로 묶는 오픈소스 오케스트레이션 앱 Traycer가 공개됐다.",
+        "what": "공유 메모리로 컨텍스트 손실 없이 병렬 작업을 돌리고, 모델 전환·에이전트 간 통신·팀 협업·기기 간 동기화를 지원한다.",
+        "points": ["구독형 에이전트 통합", "공유 메모리 병렬 실행", "팀 협업·동기화"],
+        "why": ["멀티 에이전트 운영 도구 계층의 부상"]
+      }
+    },
+    {
+      "id": "dev-token-pricing",
+      "title": "토큰 가격을 생각하는 법",
+      "summary": "공급 부족 속 프런티어 모델 가격 결정력의 지속 가능성 질문.",
+      "source": "Benedict Evans",
+      "url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "토큰 가격의 수급 역학과 커머디티화 시나리오 분석.",
+        "what": "현재 공급 부족이 가격을 지탱하지만, 프런티어 모델이 가격 결정력을 유지할지 저마진 인프라가 될지는 미지수다.",
+        "points": ["공급 부족 국면", "커머디티화 갈림길"],
+        "why": ["AI 기능의 장기 원가 계획에 직결"]
+      }
+    },
+    {
+      "id": "dev-fable-vs-opus-outcomes",
+      "title": "Fable 5 vs Opus 4.8: 성과 기반 평가의 경고",
+      "summary": "아티팩트 지표론 유능해 보여도 전환율 개선 등 실사업 성과에선 0점.",
+      "source": "Vin Vashishta",
+      "url": "https://vinvashishta.substack.com/p/fable-5-vs-opus-48-outcomes-based",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "최신 프런티어 모델들이 실제 비즈니스 성과 평가에서 낙제했다는 도발적 분석.",
+        "what": "Fable 5와 Opus 4.8이 웹사이트 전환율 개선 같은 성과 기준에선 0점을 기록했다는 평가다. 일라이릴리 등은 프런티어 대신 소형 특화 모델을 택했다고 전한다.",
+        "points": ["아티팩트 지표와 성과 지표의 괴리", "소형 특화 모델 선호 사례"],
+        "why": ["모델 선택 기준을 '성과'로 옮겨야 한다는 주장"],
+        "context": "단일 평가 기관의 방법론에 기반한 주장으로 일반화엔 주의가 필요하다."
+      }
+    },
+    {
+      "id": "dev-ai-grid-bottleneck",
+      "title": "AI 빌드아웃을 늦추는 진짜 병목: 전력망",
+      "summary": "텍사스 스타게이트도 계통연계 대기열에 발목…선착순 큐가 지연·비용 유발.",
+      "source": "Works in Progress",
+      "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "AI 인프라 확장의 최대 제약은 전력망 계통연계 절차라는 심층 분석.",
+        "what": "발전 잠재력은 풍부하지만 선착순 계통연계 큐가 낡고 비효율적이어서 신규 설비 접속이 지연되고 소비자 비용이 오른다. 텍사스 스타게이트 같은 대형 프로젝트도 영향을 받는다.",
+        "points": ["계통연계 큐 적체", "선착순 방식의 비효율", "데이터센터 확장 지연"],
+        "why": ["컴퓨트 공급 일정과 토큰 가격에 직결되는 물리적 제약"]
+      }
+    },
+    {
+      "id": "dev-glm-52-bookkeeper",
+      "title": "GLM 5.2, 인간 부기 담당자 정확도의 1% 비용",
+      "summary": "영국 SME 분기 VAT 신고에서 인간에 준하는 정확도 달성.",
+      "source": "toot-books",
+      "url": "https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "GLM 5.2가 VAT 신고 벤치마크에서 인간 부기 담당자에 근접한 정확도를 1% 미만 비용으로 냈다.",
+        "what": "영국 중소기업의 분기 VAT 신고 준비 작업에서 거의 완벽한 정확도를 보였다는 벤치마크다.",
+        "points": ["인간 수준 정확도", "비용 1% 미만"],
+        "why": ["백오피스 업무의 AI 대체 경제성 실증"]
+      }
+    },
+    {
+      "id": "dev-muse-spark-11",
+      "title": "Muse Spark 1.1 소개",
+      "summary": "툴 사용·코딩·컨텍스트 이해가 개선된 메타의 멀티모달 추론 모델.",
+      "source": "Meta",
+      "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "메타의 에이전트 특화 모델 Muse Spark 1.1이 공개됐다.",
+        "what": "에이전트 작업을 돕는 멀티모달 추론 모델로 툴 사용·코딩·컨텍스트 이해의 성능·효율이 개선됐다.",
+        "points": ["에이전트 작업 특화", "툴 사용·코딩 개선"],
+        "why": ["저가 API와 결합 시 개발 스택 대안"]
+      }
     },
     {
       "id": "dev-ai-slop-codebase",
       "title": "AI 슬롭은 코드베이스에서 시작된다",
-      "summary": "AI 코딩의 효과는 코드베이스의 구조와 일관성에 좌우된다. 표준 패턴 중심의 전략적 재작성이 결과 품질을 끌어올린다.",
+      "summary": "명확·일관된 패턴의 코드베이스가 AI 출력 품질을 좌우한다.",
       "source": "thetruthasiseeitnow.com",
       "url": "https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "dev-fal-ideogram-subsecond",
-      "title": "품질 손실 없이 1초 미만 이미지 생성",
-      "summary": "FP4 연산과 양자화 인지 증류로 Ideogram V4의 생성 시간을 2.75초에서 0.44초로 줄이면서 화질을 유지했다.",
-      "source": "Fal.ai Blog",
-      "url": "https://blog.fal.ai/serving-sub-second-ideogram-v4-without-quality-loss/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "dev-frontend-what-happened",
-      "title": "당신이 안 보는 사이 프런트엔드에 벌어진 일",
-      "summary": "자바스크립트 생태계 팽창으로 복잡도가 치솟았지만, 최근 흐름은 단순화와 기본 원칙 복원 쪽으로 돌아서고 있다.",
-      "source": "David Poblador",
-      "url": "https://davidpoblador.com/deep-dives/what-happened-to-the-frontend/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "dev-progressive-disclosure",
-      "title": "점진적 공개: 보조 바퀴에서 일주일짜리 에이전트까지",
-      "summary": "핵심 기능을 먼저 보여주고 고급 기능은 단계적으로 연다. 일반 사용자의 효율과 숙련자의 깊이를 동시에 잡는 설계 원칙이다.",
-      "source": "Jakob Nielsen PhD",
-      "url": "https://jakobnielsenphd.substack.com/p/progressive-disclosure",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "dev-traycer",
-      "title": "트레이서, 오픈소스 에이전트 오케스트레이션",
-      "summary": "기존 에이전트 서비스를 연결하고 분산 메모리로 컨텍스트를 유지한 채 동시 작업을 돌린다. 모델 선택과 팀 협업도 지원한다.",
-      "source": "GitHub",
-      "url": "https://github.com/traycerai/traycer",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "dev-glm52-vat",
-      "title": "GLM 5.2, 인간 부기사 수준 정확도를 1% 비용에",
-      "summary": "영국 중소기업의 분기 부가세 서류 작성에서 전문가급 결과를 훨씬 낮은 비용에 내놨다.",
-      "source": "Toot Books",
-      "url": "https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "dev-data-only-moat",
-      "title": "데이터가 유일한 해자",
-      "summary": "AI 제품은 사용 기록과 고객 워크플로를 독점 지식으로 바꿔야 이긴다. 문제를 풀기 어려울수록 조직의 성장 여지도 커진다.",
-      "source": "Frontier AI",
-      "url": "https://frontierai.substack.com/p/data-is-your-only-moat-884",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "AI 코딩 품질은 코드베이스의 명료함에 달렸다는 주장.",
+        "what": "리라이트 시 명확한 패턴을 우선하면 AI의 강점을 살려 출력 품질과 효율이 올라간다.",
+        "points": ["코드베이스 일관성 = AI 성능", "리라이트 시 패턴 우선"],
+        "why": ["AI 친화적 코드베이스 관리라는 새 유지보수 기준"]
+      }
     }
   ]
 }

@@ -6,100 +6,172 @@
   "bg": "#103029",
   "items": [
     {
-      "id": "devops-bun-rust",
-      "title": "Bun, 런타임을 러스트로 재작성 중",
-      "summary": "런타임 상당 부분을 Zig에서 러스트로 옮기되 JavaScriptCore 바인딩은 Zig로 남긴다.",
-      "source": "Bun Blog",
-      "url": "https://bun.com/blog/bun-in-rust",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "devops-cf-meerkat",
-      "title": "미어캣, 리더 없는 전 지구 합의 실험",
-      "summary": "클라우드플레어가 QuePaxa 알고리즘 기반 실험 서비스를 공개했다. 330여 개 데이터센터에서 리더 없이 동시 쓰기를 지원한다.",
-      "source": "Cloudflare Blog",
+      "id": "do-meerkat",
+      "title": "클라우드플레어 Meerkat: 글로벌 합의 실험",
+      "summary": "QuePaxa 기반, 단일 리더·타임아웃 없이 전 레플리카 동시 쓰기…330+ 데이터센터 규모.",
+      "source": "Cloudflare",
       "url": "https://blog.cloudflare.com/meerkat-introduction/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "클라우드플레어가 QuePaxa 알고리즘의 첫 산업 규모 배치인 분산 합의 서비스 Meerkat을 공개했다.",
+        "what": "모든 레플리카가 단일 리더나 타임아웃 없이 동시에 쓰기를 수행해, Raft 기반 시스템에서 겪던 가용성 문제를 해소한다. DB 리더십·리소스 배치 같은 소규모 컨트롤플레인 상태를 관리하며 서버·데이터센터·링크 장애에도 강한 일관성을 유지하도록 설계됐다.",
+        "points": ["QuePaxa 첫 산업 배치", "리더리스 동시 쓰기", "330+ DC 규모 컨트롤플레인 대상"],
+        "why": ["Raft 일변도였던 합의 인프라의 대안 등장"]
+      }
     },
     {
-      "id": "devops-cf-ai-search",
-      "title": "클라우드플레어, AI 검색 효율화",
-      "summary": "콘텐츠 신선도 신호로 불필요한 크롤링을 줄이고 검색 결과 품질을 높인다.",
-      "source": "Cloudflare Blog",
-      "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "devops-etcd-370",
-      "title": "etcd v3.7.0, RangeStream 도입",
-      "summary": "대용량 결과셋을 전부 버퍼링하지 않고 청크 단위로 전송한다. 오래 기다려온 기능이다.",
+      "id": "do-etcd-37",
+      "title": "etcd v3.7.0 발표: RangeStream 도입",
+      "summary": "대용량 결과를 청크 스트리밍해 지연·메모리 절감, K8s 컨트롤플레인 CPU도 감소.",
       "source": "Kubernetes Blog",
       "url": "https://kubernetes.io/blog/2026/07/08/announcing-etcd-3.7/",
-      "originalDate": "2026-07-08"
+      "originalDate": "2026-07-08",
+      "report": {
+        "tldr": "etcd 3.7이 기대를 모은 RangeStream과 대규모 성능 개선을 담고 나왔다.",
+        "what": "대용량 결과 집합을 전체 버퍼링 대신 청크로 보내 서버·클라이언트 모두의 지연과 메모리를 줄인다. 쿠버네티스 컨트롤플레인 CPU 사용량 감소, protobuf 라이브러리 전면 교체, v3.4부터 이어진 레거시 v2 스토어 의존성 완전 제거도 포함됐다.",
+        "points": ["RangeStream 청크 전송", "K8s 컨트롤플레인 CPU 절감", "v2 스토어 의존성 종결"],
+        "why": ["대규모 클러스터 운영자의 업그레이드 가치 큼"]
+      }
     },
     {
-      "id": "devops-sre-4body",
-      "title": "SRE의 4체 문제: 자율 운영은 컨텍스트에 달렸다",
-      "summary": "AI 기반 SRE가 신뢰성 있게 자율 운영하려면 코드, 인프라, 신호를 아우르는 통합 운영 컨텍스트가 필요하다.",
-      "source": "CNCF Blog",
-      "url": "https://www.cncf.io/blog/2026/07/06/the-4-body-problem-of-sre-why-autonomous-operations-depend-on-context/",
-      "originalDate": "2026-07-06"
+      "id": "do-cloudflare-ai-search",
+      "title": "클라우드플레어, AI 검색 효율화·Pay Per Use 전환",
+      "summary": "콘텐츠 신선도 신호로 불필요한 크롤링 축소, 사용 기반 창작자 보상 실험.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/making-ai-search-smarter/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "클라우드플레어가 AI 검색 크롤링 효율화와 창작자 보상 모델 진화를 발표했다.",
+        "what": "콘텐츠 신선도 신호로 불필요한 크롤링을 줄여 결과 품질을 높이고, Pay Per Crawl을 콘텐츠가 AI 검색에서 어떻게 쓰였는지 기준으로 보상하는 Pay Per Use로 발전시킨다. 실험적 파트너십과 새 애널리틱스가 따라온다.",
+        "points": ["신선도 신호 기반 크롤링 절감", "Pay Per Crawl→Pay Per Use", "창작자 보상 실험"],
+        "why": ["AI 시대 웹 콘텐츠 경제의 룰 세팅 시도"]
+      }
     },
     {
-      "id": "devops-pg-partition-pruning",
-      "title": "비파티션 컬럼으로도 파티션 프루닝하기",
-      "summary": "체크 제약으로 데이터 관계를 보장하면 파티션 키가 아닌 조건에서도 PostgreSQL 프루닝이 동작한다.",
+      "id": "do-pagerduty-shifts",
+      "title": "PagerDuty 시프트 기반 스케줄 활용법",
+      "summary": "평일 전용·격주·중첩 로테이션을 커스텀 스케줄과 Unassigned 사용자로 간소화.",
+      "source": "PagerDuty",
+      "url": "https://www.pagerduty.com/blog/insights/custom-on-call-shift-based-schedules/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "복잡한 온콜 패턴을 레이어 없이 짜는 PagerDuty 신기능 안내.",
+        "what": "평일 전용 로테이션, 격주 교대, 팀 중첩 스케줄, 일시적 부재를 Custom Schedules와 Unassigned 사용자로 처리할 수 있다.",
+        "points": ["커스텀 스케줄", "Unassigned 사용자", "복잡 레이어 제거"],
+        "why": ["온콜 운영 부담 경감"]
+      }
+    },
+    {
+      "id": "do-pg-partition-pruning",
+      "title": "비파티션 컬럼 쿼리에서도 파티션 프루닝 달성하기",
+      "summary": "체크 제약으로 데이터 관계를 인코딩하면 session_id 조회도 전체 스캔을 피한다.",
       "source": "Haki Benita",
       "url": "https://hakibenita.com/postgresql-partition-pruning",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "PostgreSQL에서 파티션 키가 아닌 필터로도 프루닝하는 기법 정리.",
+        "what": "타임스탬프로 파티션된 events 테이블에 파티션별 session_id 범위 체크 제약을 추가하면 session_id 쿼리도 전 파티션 스캔을 피할 수 있다. 파티션을 넘나드는 이상치 세션은 다중 범위 제약으로 처리한다.",
+        "points": ["체크 제약 기반 프루닝", "다중 범위 제약으로 이상치 대응"],
+        "why": ["대형 파티션 테이블의 쿼리 비용 절감 실전 팁"]
+      }
     },
     {
-      "id": "devops-ruflo",
-      "title": "Ruflo, 에이전트 메타 하네스",
-      "summary": "Claude Code와 Codex를 감싸 100개 이상의 특화 에이전트, 스웜 조율, 자가 학습 메모리를 제공하는 오픈소스다.",
-      "source": "GitHub",
-      "url": "https://github.com/ruvnet/ruflo",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "devops-desktop-commander",
-      "title": "데스크톱 커맨더 MCP",
-      "summary": "클로드 데스크톱에서 추가 API 비용 없이 터미널 명령 실행과 파일 관리를 할 수 있게 하는 MCP 서버다.",
+      "id": "do-desktop-commander",
+      "title": "Desktop Commander (GitHub Repo)",
+      "summary": "Claude Desktop에서 API 비용 없이 터미널·파일을 다루는 오픈소스 MCP 서버.",
       "source": "GitHub",
       "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Pro 구독만으로 터미널 명령·파일 관리를 시키는 MCP 서버.",
+        "what": "6가지 설치 방식과 npx·Smithery 자동 업데이트, 도커 격리를 제공하며 Cursor·VS Code·Windsurf 등 MCP 호환 클라이언트에서 동작한다.",
+        "points": ["추가 API 비용 없음", "도커 격리 지원", "멀티 클라이언트 호환"],
+        "why": ["로컬 에이전트 권한 관리의 참고 구현"]
+      }
     },
     {
-      "id": "devops-kubevirt-live-migration",
-      "title": "칼리코 v3.32.0, IP 유지 VM 라이브 마이그레이션",
-      "summary": "쿠버네티스에서 네트워크 중단 없이 IP 주소를 보존한 채 가상머신을 옮긴다.",
-      "source": "Tigera Blog",
-      "url": "https://www.tigera.io/blog/save-the-address-save-the-cloud-a-hands-on-kubevirt-live-migration-workshop/",
-      "originalDate": "2026-07-09"
+      "id": "do-ruflo",
+      "title": "Ruflo (GitHub Repo)",
+      "summary": "Claude Code·Codex를 감싸는 에이전트 메타하네스…연합 통신으로 조직 간 협업.",
+      "source": "GitHub",
+      "url": "https://github.com/ruvnet/ruflo",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "구 Claude Flow인 Ruflo가 100+ 특화 에이전트와 연합(federation) 기능을 갖췄다.",
+        "what": "조율된 스웜, 자가학습 메모리, mTLS·ed25519 검증 기반 연합 통신으로 서로 다른 머신·조직의 에이전트가 협업한다. `npx ruflo init` 한 줄로 설치되고 멀티모델 챗 웹 UI와 GOAP 인터페이스를 포함한다.",
+        "points": ["100+ 특화 에이전트", "mTLS 기반 조직 간 연합", "PII 자동 제거"],
+        "why": ["멀티 에이전트 인프라의 보안 설계 사례"]
+      }
     },
     {
-      "id": "devops-do-weaviate",
-      "title": "디지털오션, 매니지드 Weaviate 퍼블릭 프리뷰",
-      "summary": "월 20달러부터 시작하는 정액 요금의 벡터 DB 매니지드 서비스다.",
-      "source": "DigitalOcean Blog",
-      "url": "https://www.digitalocean.com/blog/public-preview-managed-weaviate",
-      "originalDate": "2026-07-09"
+      "id": "do-4-body-sre",
+      "title": "SRE의 4체 문제: 자율 운영은 컨텍스트에 달렸다",
+      "summary": "코드·인프라 상태·런타임 신호·조직 지식의 파편화가 AI SRE의 진짜 한계.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/blog/2026/07/06/the-4-body-problem-of-sre-why-autonomous-operations-depend-on-context/",
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI SRE의 제약은 모델 능력보다 운영 컨텍스트의 파편화라는 분석.",
+        "what": "신뢰할 수 있는 자율 운영엔 통합·버전 관리된 지식 그래프와 감사 가능한 의사결정 추적이 필요하다. 그래야 에이전트가 정확히 추론하고 안전하게 행동하며 프로덕션에서 신뢰를 얻는다.",
+        "points": ["4개 컨텍스트 축의 파편화", "통합 지식 그래프 필요", "감사 가능한 결정 추적"],
+        "why": ["AIOps 도입 전 데이터·지식 통합이 선행 과제"]
+      }
     },
     {
-      "id": "devops-aws-secrets-external",
-      "title": "AWS 시크릿 매니저, Paddle·GitLab 외부 시크릿 지원",
-      "summary": "Paddle API 키와 GitLab 액세스 토큰의 자동 교체를 지원한다.",
-      "source": "AWS Blog",
+      "id": "do-bun-rust",
+      "title": "Bun, 러스트로 재작성 중",
+      "summary": "런타임 대부분을 Zig→Rust로, JavaScriptCore 바인딩은 Zig 유지.",
+      "source": "Bun",
+      "url": "https://bun.com/blog/bun-in-rust",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Bun이 런타임의 상당 부분을 Rust로 다시 쓰고 있다.",
+        "what": "Rust의 생태계·툴링·안전한 동시성이 고수준 런타임 코드에 유리하다는 판단이다. 저수준 C++ 인터롭이 필요한 JavaScriptCore 바인딩엔 Zig를 유지한다.",
+        "points": ["Zig→Rust 대전환", "JSC 바인딩은 Zig 유지", "동시성 안전성 이유"],
+        "why": ["시스템 언어 선택 논쟁의 대형 사례"]
+      }
+    },
+    {
+      "id": "do-aws-secrets-paddle-gitlab",
+      "title": "AWS Secrets Manager, Paddle·GitLab 외부 시크릿 관리 추가",
+      "summary": "Paddle API 키와 GitLab 액세스 토큰의 자동 로테이션 지원.",
+      "source": "AWS",
       "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/secrets-manager-managed-external-secrets-paddle-gitlab/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Secrets Manager가 Paddle·GitLab 크리덴셜의 관리형 로테이션을 지원한다.",
+        "what": "Paddle API 키와 GitLab 개인·그룹·프로젝트 액세스 토큰을 서드파티 네이티브 API로 자동 로테이션한다.",
+        "points": ["관리형 외부 시크릿 로테이션", "GitLab 토큰 3종 지원"],
+        "why": ["장수 토큰 방치 리스크 감소"]
+      }
     },
     {
-      "id": "devops-pagerduty-shifts",
-      "title": "페이저듀티, 교대 기반 온콜 일정 개선",
-      "summary": "평일 로테이션이나 일시적 부재 처리 같은 복잡한 온콜 커버리지 패턴을 단순하게 구성할 수 있다.",
-      "source": "PagerDuty Blog",
-      "url": "https://www.pagerduty.com/blog/insights/custom-on-call-shift-based-schedules/",
-      "originalDate": "2026-07-09"
+      "id": "do-managed-weaviate",
+      "title": "디지털오션, Managed Weaviate 퍼블릭 프리뷰",
+      "summary": "월 20달러부터 정액제…쿼리·차원당 과금 없음.",
+      "source": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/public-preview-managed-weaviate",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "디지털오션이 벡터 DB Weaviate 완전관리형 서비스를 공개했다.",
+        "what": "월 20달러 시작의 정액 요금으로, 쿼리당·차원당 과금이 없다.",
+        "points": ["정액제 벡터 DB", "월 20달러 시작"],
+        "why": ["예측 가능한 비용의 벡터 검색 옵션"]
+      }
+    },
+    {
+      "id": "do-kubevirt-live-migration",
+      "title": "Calico v3.32, KubeVirt VM 무중단 라이브 마이그레이션",
+      "summary": "노드 간 이동 시 VM의 IP·아이덴티티 보존 문제 해결.",
+      "source": "Tigera",
+      "url": "https://www.tigera.io/blog/save-the-address-save-the-cloud-a-hands-on-kubevirt-live-migration-workshop/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Calico가 쿠버네티스 내 VM 라이브 마이그레이션의 네트워크 단절 문제를 풀었다.",
+        "what": "v3.32.0에서 노드 간 마이그레이션 중 VM의 IP 주소와 아이덴티티를 보존해 네트워크 중단 없는 이동이 가능해졌다.",
+        "points": ["IP 보존 라이브 마이그레이션", "핸즈온 워크숍 제공"],
+        "why": ["VM 워크로드의 K8s 이전 장벽 하나 제거"]
+      }
     }
   ]
 }

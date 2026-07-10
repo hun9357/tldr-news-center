@@ -6,92 +6,201 @@
   "bg": "#15302a",
   "items": [
     {
-      "id": "tech-meta-muse-pricing",
-      "title": "저커버그, 첫 유료 AI에 '공격적 가격' 선언",
-      "summary": "메타가 Muse Spark 1.1에 개발자용 유료 티어를 도입했다. 일정 한도까지 무료이며 API 가격은 경쟁사를 약 75% 밑돈다.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-09/meta-starts-charging-for-ai-with-muse-spark-1-1-agentic-model",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "86%",
-        "owner": "Strategy · Eng",
-        "status": "New",
-        "affectedSurface": "LLM API · 모델 조달 단가"
-      },
+      "id": "tech-gpt-56-sol-terra-luna",
+      "title": "OpenAI, GPT-5.6 Sol·Terra·Luna 앱·API 동시 출시",
+      "summary": "플래그십 Sol, 저비용 Terra, 최속 Luna 3티어에 멀티 에이전트 'ultra' 설정까지 추가됐다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/openai-launches-gpt-5-6-sol-terra-and-luna-on-apps-and-api/",
+      "originalDate": "2026-07-10",
+      "related": ["AI: GPT-5.6 상세 리포트", "AI: ARC-AGI-3 첫 클리어"],
       "report": {
-        "tldr": "메타가 첫 유료 AI를 경쟁사 대비 75% 싼 가격으로 내놓으며 프런티어 모델 가격 전쟁에 뛰어들었다.",
-        "what": "Muse Spark 1.1은 에이전틱 추론과 도구 사용에서 최상위 모델에 준하는 성능을 주장하면서, 무료 한도를 넘어서면 과금하는 구조를 택했다. 같은 날 OpenAI가 GPT-5.6을 내놓아 저가 경쟁이 정면충돌했다.",
-        "points": [
-          "무료 한도 초과분부터 과금하는 프리미엄 모델",
-          "API 가격이 경쟁사 대비 약 75% 저렴",
-          "에이전틱 추론·도구 사용 성능은 선두권 주장",
-          "Meta Model API 퍼블릭 프리뷰 동시 공개"
-        ],
-        "why": [
-          "추론 단가 하락이 다시 한 번 가속",
-          "모델 성능 격차가 좁아지면 가격이 조달 기준이 됨",
-          "벤더 종속을 줄일 협상 카드가 늘어남"
-        ],
-        "context": "메타는 그동안 모델을 무료·오픈 배포해 생태계를 넓히는 전략을 써왔다. 유료화는 그 전략의 방향 전환이다.",
-        "action": "LLM 조달 계약 갱신 전 단가·품질·지연을 자체 벤치로 재측정하고, 저가 티어를 협상 레버로 활용할 것."
+        "tldr": "GPT-5.6 패밀리가 ChatGPT Work·Codex·API 전면에 배포됐다.",
+        "what": "Sol(플래그십)·Terra(저비용 업무용)·Luna(최속·최저가) 3티어로 나왔다. 토큰당 지능 상승, 복잡 작업 비용 하락, 에이전트 성능 강화가 골자이며, 병렬 워크스트림을 조율하는 'ultra' 설정이 신설됐다.",
+        "points": ["3티어 모델 라인업", "'ultra' 멀티 에이전트 설정", "토큰 효율·에이전트 성능 개선"],
+        "why": ["프런티어 모델 경쟁 재점화로 도입 단가 재협상 여지"]
       }
     },
     {
-      "id": "tech-gpt-56-launch",
-      "title": "OpenAI, GPT-5.6 솔·테라·루나 앱·API 동시 출시",
-      "summary": "플래그십 Sol, 일상 업무용 Terra, 가장 빠르고 저렴한 Luna 3종 체계다. 복잡한 작업의 운영비를 낮추고 새 'ultra' 설정으로 멀티에이전트 협업을 강화했다.",
-      "source": "Testing Catalog",
-      "url": "https://www.testingcatalog.com/openai-launches-gpt-5-6-sol-terra-and-luna-on-apps-and-api/",
-      "originalDate": "2026-07-09"
+      "id": "tech-muse-spark-pricing",
+      "title": "저커버그, 메타 첫 유료 AI에 '공격적 가격' 공언",
+      "summary": "Muse Spark 1.1 개발자 유료 티어의 API 가격은 경쟁 상위 모델의 약 25% 수준.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/RduwBo",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "메타가 첫 pay-to-use AI에서 경쟁사 대비 약 4분의 1 가격을 내세웠다.",
+        "what": "개발자는 일정량까지 무료로 쓰고 이후 과금된다. 저커버그는 Muse Spark의 에이전트 추론·툴 사용이 최첨단이거나 그에 근접한다고 주장했다.",
+        "points": ["경쟁 모델 대비 약 25% 가격", "무료 사용량 후 과금 모델", "에이전트 추론·툴 사용 강조"],
+        "why": ["토큰 가격 전쟁이 마진 압박으로 이어질 가능성"]
+      }
     },
     {
-      "id": "tech-humanoid-surgery",
-      "title": "외과의가 조종한 휴머노이드, 세계 첫 생체 돼지 수술",
-      "summary": "원격 조종 휴머노이드 로봇이 살아있는 돼지의 담낭 절제술에 성공했다. 1만 3,500달러부터인 유니트리 G1을 써 좁은 수술실에도 배치할 수 있다.",
+      "id": "tech-robot-surgeons-pigs",
+      "title": "외과의가 조종한 휴머노이드 로봇, 살아있는 돼지 수술 성공",
+      "summary": "1만3,500달러짜리 Unitree G1으로 담낭 제거…소형 병원 보급 가능성.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/ai/2026/07/humanoid-robots-controlled-by-surgeons-did-world-first-operation-on-live-pigs/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "외과의가 원격 조종한 휴머노이드 로봇이 세계 최초로 살아있는 돼지의 담낭을 제거했다.",
+        "what": "실험에는 시작가 1만3,500달러의 Unitree G1이 사용됐다. 기존 수술 로봇 대비 공간을 크게 줄이고 배치가 쉬워, 고가 장비를 못 갖춘 소형 병원·클리닉에 쓰일 잠재력이 있다. 아직 실험 단계다.",
+        "points": ["세계 최초 휴머노이드 원격 수술 실험", "저가 범용 로봇(G1) 활용", "공간·배치 부담 대폭 감소"],
+        "why": ["수술 로봇의 가격 장벽을 낮출 수 있는 접근"]
+      }
     },
     {
-      "id": "tech-apple-prismml",
-      "title": "애플, 아이폰서 훨씬 큰 AI 모델 구동 검토",
-      "summary": "애플이 PrismML과 온디바이스 대형 모델 기술을 논의 중이다. PrismML은 알리바바 Qwen 270억 파라미터 모델을 아이폰 프로에서 전부 구동하는 데 성공했다.",
+      "id": "tech-apple-prismml-ondevice",
+      "title": "애플, 아이폰에서 대형 AI 모델 구동 모색…PrismML 접촉",
+      "summary": "PrismML은 27B 파라미터 Qwen 3.6을 아이폰 프로에서 온디바이스로 구동한 바 있다.",
       "source": "MacRumors",
       "url": "https://www.macrumors.com/2026/07/09/apple-prismml-larger-on-device-ai-models/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "애플이 대형 모델의 온디바이스 구동을 위해 스타트업 PrismML과 회동했다.",
+        "what": "PrismML은 알리바바 Qwen 3.6(27B)을 아이폰 프로에서 완전 온디바이스로 돌리는 데 성공했다. 대형 모델 온디바이스화는 애플의 비용 절감과 프라이버시 강화로 이어진다.",
+        "points": ["27B 모델 아이폰 구동 실증", "Apple Intelligence 온디바이스 확대 포석", "비용·프라이버시 이점"],
+        "why": ["온디바이스 AI가 차기 아이폰 차별화 포인트"]
+      }
     },
     {
       "id": "tech-github-repo-owner",
-      "title": "깃허브, 1만 4천 저장소에 '실존하는 주인' 부여",
-      "summary": "내부 저장소 절반이 소유자 불명이었다. 45일 만에 활성 저장소 전부에 검증된 소유자를 배정하고 나머지는 아카이브했다. 이후 보안 과제의 토대가 됐다.",
+      "title": "깃허브, 1만4천개 사내 리포에 45일 만에 '책임 소유자' 부여",
+      "summary": "절반 이하였던 소유권 명확화 후 나머지는 아카이브…거버넌스의 토대로.",
       "source": "GitHub Blog",
       "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "깃허브가 사내 전 리포지토리에 검증된 소유자를 지정한 과정을 공개했다.",
+        "what": "주력 내부 조직에 1만4천개 넘는 리포가 있었지만 절반도 소유자가 불분명했다. 45일 안에 활성 리포 전부에 검증된 소유자를 붙이고 나머지는 아카이브했으며, 이후 보안·운영 정책의 기반으로 삼았다.",
+        "points": ["45일 내 전 리포 소유자 지정", "비활성 리포 일괄 아카이브", "소유권을 거버넌스의 기초로"],
+        "why": ["보안 사고 대응·책임 추적의 선결 조건은 소유권 정리"]
+      }
     },
     {
       "id": "tech-code-review-bottleneck",
-      "title": "코드 리뷰 병목이 되지 마라",
-      "summary": "에이전트는 사람이 검토할 수 있는 속도보다 빠르게 코드를 만든다. 모든 변경을 사람이 승인하는 대신 에이전트에 리뷰를 위임하는 워크플로가 대안으로 제시됐다.",
-      "source": "PostHog Newsletter",
+      "title": "\"코드 리뷰 병목에서 벗어나라\"…PostHog의 워크플로",
+      "summary": "에이전트가 사람보다 빨리 코드를 쓰는 시대, 리뷰 루프 바깥에 사람을 두는 파이프라인 제안.",
+      "source": "PostHog",
       "url": "https://newsletter.posthog.com/p/code-review-tips",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "PostHog가 AI 생성 코드 리뷰를 빠르게 하면서 품질을 지키는 워크플로 변화를 공유했다.",
+        "what": "에이전트 산출 속도를 사람 리뷰가 못 따라가는 병목을 해소하기 위해, 태스크를 에이전트에 위임하는 파이프라인을 만들어 사람을 매 리뷰 루프 밖에 두는 접근을 제시한다.",
+        "points": ["사람은 루프 밖 감독으로", "에이전트 위임 파이프라인", "속도-품질 균형 사례"],
+        "why": ["AI 코딩 도입 팀의 리뷰 프로세스 재설계 참고"]
+      }
     },
     {
       "id": "tech-netflix-live-tv",
-      "title": "넷플릭스, 라이브 TV·번들 검토",
-      "summary": "시장 1위에도 시청 몰입도가 떨어지고 주가는 연간 40% 넘게 하락했다. 상시 라이브 채널과 스포츠 콘텐츠 확대로 이탈을 막으려 한다.",
-      "source": "Wall Street Journal",
-      "url": "https://www.wsj.com/business/media/netflix-is-exploring-live-tv-and-bundles-as-it-struggles-to-keep-viewers-hooked-e1eb28f6",
-      "originalDate": "2026-07-09"
+      "title": "넷플릭스, 시청 유지 고전에 라이브 TV·번들 검토",
+      "summary": "주가 12개월간 40% 이상 하락…라이브 채널·스포츠 추가 논의.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/4p0Zq2",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "넷플릭스가 구독자 몰입도 하락에 대응해 라이브 채널과 번들을 검토 중이다.",
+        "what": "구독 스트리밍 선두를 지키고 있지만 주가는 12개월간 40% 넘게 빠졌다. 경영진은 특정 프로그램을 계속 틀어주는 라이브 채널과 추가 스포츠 중계 편성을 논의하고 있다.",
+        "points": ["몰입도(engagement) 하락 신호", "라이브 채널 신설 검토", "스포츠 라인업 확대 모색"],
+        "why": ["스트리밍 성장 둔화가 사업 모델 다변화를 강제"]
+      }
     },
     {
       "id": "tech-brown-ai-cheating",
-      "title": "AI 부정행위 의심에 대면 시험, 평균 96→48점",
-      "summary": "브라운대 교수가 대면 기말고사를 강행하자 18명이 수강을 철회하고 9명이 시험을 건너뛰었다. 이 27명 중 22명이 중간고사 만점자였다.",
+      "title": "AI 부정행위 의심에 대면 시험 전환…평균 96점→48점",
+      "summary": "브라운대 수업서 18명 수강 철회·9명 결시, 중간 만점자 대거 이탈.",
       "source": "Ars Technica",
       "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "브라운대 교수가 기말을 대면으로 바꾸자 성적이 반토막 나며 AI 부정행위가 드러났다.",
+        "what": "테이크홈 시험에서 AI 사용을 의심한 교수가 대면 기말을 공지하자 18명이 수강을 철회하고 9명이 결시했다. 이탈자 27명 중 22명이 중간고사 만점자였고, 응시자 평균은 96점에서 48점으로 떨어졌다.",
+        "points": ["대면 전환 후 평균 96→48점", "이탈 27명 중 22명이 중간 만점", "평가 방식의 신뢰성 문제 대두"],
+        "why": ["교육 평가 체계가 AI 시대에 맞게 재설계돼야 함을 시사"]
+      }
+    },
+    {
+      "id": "tech-meta-ai-margin",
+      "title": "\"당신의 AI 마진이 메타의 기회\"",
+      "summary": "저커버그는 AI가 완전한 커머디티가 되진 않을 것으로 본다.",
+      "source": "Spyglass",
+      "url": "https://spyglass.org/meta-ai-cloud-business-model/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "메타의 저가 API 전략을 '경쟁사 마진 공략'으로 읽는 분석.",
+        "what": "저커버그는 일부 기업이 이미 기술을 게이트키핑하고 있어 AI가 순수 커머디티화되진 않는다고 본다. 메타는 낮은 가격으로 시장 점유를 노린다.",
+        "points": ["메타의 저가 침투 전략", "커머디티화 회의론"],
+        "why": ["모델 API 가격 구조 변동 가능성"]
+      }
+    },
+    {
+      "id": "tech-token-pricing",
+      "title": "토큰 가격을 생각하는 법 (베네딕트 에반스)",
+      "summary": "공급 부족 속 프런티어 모델의 가격 결정력 vs 커머디티화 갈림길.",
+      "source": "Benedict Evans",
+      "url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "AI 토큰 가격의 수급 역학을 정리한 에세이.",
+        "what": "현재는 공급 부족(supply crunch) 국면으로, 프런티어 모델이 지속 가능한 가격 결정력을 가질지 저마진 커머디티 인프라로 갈지는 불확실하다. 수급·가격 균형은 향후 수년간 계속 변할 전망이다.",
+        "points": ["공급 부족이 현 가격을 지탱", "커머디티화 여부가 핵심 변수", "장기 수급 균형 이동 전망"],
+        "why": ["AI 비용 계획 수립 시 가격 하락을 전제하기 어려운 이유"]
+      }
+    },
+    {
+      "id": "tech-salience-of-data",
+      "title": "데이터의 중요성: 다음 AI 경쟁의 단위경제",
+      "summary": "다음 국면의 경쟁 구도는 데이터 획득의 단위경제가 규정한다는 분석.",
+      "source": "MBI Deep Dives",
+      "url": "https://www.mbi-deepdives.com/data/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "AI 경쟁의 다음 라운드는 데이터 획득 비용 구조가 가른다는 분석.",
+        "what": "모델 성능이 수렴할수록 차별화는 독점적 데이터의 확보 단가에서 나온다는 주장이다.",
+        "points": ["데이터 획득 단위경제가 경쟁 변수", "모델 수렴 시 데이터가 해자"],
+        "why": ["자사 데이터 자산 가치 재평가 계기"]
+      }
+    },
+    {
+      "id": "tech-hashimoto-interview",
+      "title": "미첼 하시모토 인터뷰: 터미널, Zig, 오픈소스",
+      "summary": "Vagrant·Consul·Ghostty·Vouch 개발자가 말하는 도구의 철학.",
+      "source": "alexalejandre.com",
+      "url": "https://alexalejandre.com/programming/interview-with-mitchell-hashimoto/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "하시코프 창업자 미첼 하시모토의 심층 인터뷰.",
+        "what": "Vagrant, Packer, Consul, Ghostty, Vouch를 만든 그가 터미널 생태계, Zig 언어, 오픈소스 지속가능성에 대해 이야기한다.",
+        "points": ["터미널·개발도구 철학", "Zig 채택 경험", "오픈소스 운영론"],
+        "why": ["도구 개발자 관점의 흐름 읽기"]
+      }
+    },
+    {
+      "id": "tech-plan-a",
+      "title": "Plan A: AI가 진짜라면 어떤 미래를 설계할까",
+      "summary": "AI 시대를 항해하기 위한 긍정적 비전과 로드맵 제안.",
+      "source": "Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/introducing-plan-a",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "AI가 현실이 되는 미래를 위한 '위시리스트이자 로드맵' Plan A가 공개됐다.",
+        "what": "비관·낙관을 넘어 구체적으로 어떤 제도·기술 경로가 바람직한지 그리는 장문의 비전 문서다.",
+        "points": ["긍정적 시나리오 설계", "제도·기술 경로 제안"],
+        "why": ["AI 정책 담론의 참조점"]
+      }
+    },
+    {
+      "id": "tech-ternus-apple-ads",
+      "title": "\"터너스는 애플의 광고 미끄럼틀을 되돌려야\"",
+      "summary": "존 그루버, 애플 프라이버시 정책을 2014년 수준의 명료함으로 회귀 촉구.",
+      "source": "Daring Fireball",
+      "url": "https://daringfireball.net/2026/07/ternus_apple_slippery_slope",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "존 그루버가 존 터너스에게 애플의 광고 확대 기조 철회를 촉구했다.",
+        "what": "애플의 프라이버시 정책이 2014년의 명료함을 잃고 광고 사업 쪽으로 미끄러져 왔다는 비판이다.",
+        "points": ["애플 광고 사업 확대 비판", "프라이버시 원칙 회귀 요구"],
+        "why": ["애플 리더십 교체기 정책 방향의 풍향계"]
+      }
     }
   ]
 }

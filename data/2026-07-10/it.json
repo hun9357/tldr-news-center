@@ -6,98 +6,145 @@
   "bg": "#26203a",
   "items": [
     {
-      "id": "it-openai-northslope",
-      "title": "OpenAI 배포 자회사, 노스슬로프 인수",
-      "summary": "기업용 AI 배포 전문사를 인수한다. 토모로 인수에 이은 것으로, 프로덕션 AI 시스템 구축 역량을 강화하려는 행보다.",
+      "id": "it-openai-deployment-northslope",
+      "title": "OpenAI 디플로이먼트 컴퍼니, Northslope 인수 합의",
+      "summary": "엔터프라이즈 AI 실배치 전문사 인수로 프로덕션 AI 구축 역량 확대…Tomoro 인수에 이은 행보.",
       "source": "deploy.co",
       "url": "https://deploy.co/news/the-openai-deployment-company-to-acquire-northslope",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "80%",
-        "owner": "Strategy",
-        "status": "New",
-        "affectedSurface": "엔터프라이즈 AI 도입"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "OpenAI 디플로이먼트 컴퍼니가 응용 AI 기업 Northslope 인수에 합의했다.",
+        "what": "Northslope는 실제 비즈니스 운영을 위한 엔터프라이즈 AI 배치에 특화된 회사다. 앞선 Tomoro 인수에 이어 인력과 프로덕션 AI 시스템 구축 역량을 늘리는 딜로, 규제 승인이 남아 있다.",
+        "points": ["엔터프라이즈 AI 배치 역량 인수", "Tomoro에 이은 연쇄 인수", "규제 승인 대기"],
+        "why": ["모델 판매를 넘어 '배치·운영' 계층으로 수익 확장"]
       }
     },
     {
-      "id": "it-jetbrains-ai-governance",
-      "title": "젯브레인스, 파편화된 AI 개발에 거버넌스 스위트",
-      "summary": "Claude·Codex·Gemini를 아우르는 중앙 관리 도구다. 공유 컨텍스트, 클라우드 에이전트, 자동화, 접근 제어, 비용 추적을 제공한다.",
+      "id": "it-jetbrains-governance",
+      "title": "젯브레인스, 파편화된 AI 개발을 묶는 거버넌스 스위트",
+      "summary": "Claude·Codex·Gemini·Junie를 아우르는 중앙 관리 계층 제공.",
       "source": "InfoWorld",
       "url": "https://www.infoworld.com/article/4195002/jetbrains-seeks-to-unify-fragmented-ai-based-software-development-with-governance-suite.html",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "젯브레인스가 사내 AI 코딩 도구 전반을 관리하는 스위트를 공개했다.",
+        "what": "Claude, Codex, Gemini, Junie, 젯브레인스 IDE를 아우르는 중앙 계층으로 공유 프로젝트 컨텍스트, 클라우드 에이전트, 자동화, 접근 제어, 사용량 가시성, 비용 관리를 묶었다. 개발자는 선호 도구를 계속 쓸 수 있다.",
+        "points": ["멀티 벤더 AI 도구 중앙 관리", "접근 제어·비용 관리 내장", "개발자 도구 선택권 유지"],
+        "why": ["기업의 AI 코딩 도구 난립을 통제할 관리 계층 수요 대응"]
+      }
     },
     {
       "id": "it-business-process-ai",
-      "title": "AI를 막는 건 IT가 아니라 업무 프로세스",
-      "summary": "IT 리더의 75%가 운영 모델과 업무 프로세스를 바꿔야 한다고 답했다. 도구 도입과 프롬프트 교육만으로는 가치가 나오지 않는다.",
-      "source": "CIO.com",
+      "title": "\"AI를 막는 건 IT가 아니라 업무 프로세스\"",
+      "summary": "IT 리더 75%가 의미 있는 가치 창출엔 운영 모델·프로세스 변화가 필요하다고 답해.",
+      "source": "CIO",
       "url": "https://www.cio.com/article/4192383/its-not-the-it-holding-ai-back-its-the-business-processes.html",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "AI 가치 실현의 병목은 기술이 아니라 낡은 업무 프로세스라는 조사 결과.",
+        "what": "대부분 IT 리더는 팀의 AI 배치·거버넌스 역량을 자신하지만, 75%는 운영 모델과 업무 프로세스가 바뀌어야 가치가 나온다고 답했다. 도구 구매·프롬프트 교육보다 워크플로 재설계와 업무 리더의 직접 참여가 관건이다.",
+        "points": ["75%가 프로세스 변화 필요 응답", "워크플로 재설계가 우선", "자동화·증강·인간 유지의 구분은 업무 리더 몫"],
+        "why": ["AI ROI가 안 나오는 조직이 점검할 첫 지점"]
+      }
     },
     {
-      "id": "it-shared-api-keys",
-      "title": "기업 69%, AI 에이전트끼리 API 키를 공유한다",
-      "summary": "에이전트별 고유 관리 ID를 부여한 기업은 32%에 그친다. 54%는 이미 에이전트 관련 보안 사고를 겪었다.",
-      "source": "VentureBeat",
-      "url": "https://venturebeat.com/security/shared-api-keys-expose-ai-agent-fleets-venturebeat-research",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "84%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "에이전트 자격증명 · IAM"
+      "id": "it-postgres-is-enough",
+      "title": "Postgres Is Enough",
+      "summary": "대부분의 애플리케이션엔 다중 DB·마이크로서비스 스택이 과잉이라는 주장.",
+      "source": "postgresisenough.dev",
+      "url": "https://postgresisenough.dev/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "다른 인프라를 들이기 전에 Postgres 기능부터 소진하라는 에세이.",
+        "what": "대부분 앱은 '웹스케일' 스택이 필요 없으며, 시스템 추가는 운영 오버헤드와 유지보수 부담만 키운다는 주장이다.",
+        "points": ["단일 Postgres 우선 원칙", "시스템 추가 = 운영 부담 증가"],
+        "why": ["인프라 단순화로 비용·장애면 축소"]
       }
     },
     {
       "id": "it-lightwell",
-      "title": "IBM·레드햇, 오픈소스를 AI 공격에서 지키는 Lightwell",
-      "summary": "Lightwell Network와 Clearinghouse Premier를 상용 출시했다. AI 기반 자동 수정으로 오픈소스 의존성 보안 패치를 제공하고 업스트림 프로젝트와 조율한다.",
+      "title": "IBM·레드햇, 오픈소스 방어 'Lightwell' 상용화",
+      "summary": "AI 기반 수정·백포트로 검증된 보안 픽스를 기업 워크플로에 공급.",
       "source": "ZDNet",
       "url": "https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Lightwell이 프로젝트에서 Lightwell Network(GA)·Clearinghouse Premier 두 상용 제품으로 전환됐다.",
+        "what": "AI 기반 수정과 백포트로 오픈소스 의존성의 검증된 보안 픽스를 기업 소프트웨어 워크플로에 전달하며, 업스트림 프로젝트와 조율해 픽스를 업스트림에 유지한다.",
+        "points": ["Lightwell Network 일반 제공", "AI 수정·백포트 파이프라인", "업스트림 우선 정책"],
+        "why": ["AI發 공격 증가 속 오픈소스 의존성 방어 상용 옵션"]
+      }
     },
     {
-      "id": "it-workspace-scim",
+      "id": "it-workspace-inbound-scim",
       "title": "구글 워크스페이스, 인바운드 SCIM 지원",
-      "summary": "IdP와 HR 시스템이 사용자 생성·갱신·비활성화를 실시간으로 자동 처리할 수 있게 됐다.",
+      "summary": "IdP·HR 시스템이 사용자·그룹을 실시간 자동 프로비저닝·비활성화.",
       "source": "Google Workspace Updates",
       "url": "https://workspaceupdates.googleblog.com/2026/07/streamline-identity-lifecycle-management-in-Google-Workspace-with-new-inbound-SCIM-support.html",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "it-postgres-is-enough",
-      "title": "포스트그레스면 충분하다",
-      "summary": "많은 앱이 PostgreSQL의 한계를 다 쓰기도 전에 다중 DB 아키텍처를 도입해 운영 복잡도만 키운다.",
-      "source": "postgresisenough.dev",
-      "url": "https://postgresisenough.dev/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "워크스페이스가 인바운드 SCIM으로 계정 수명주기 자동화를 지원한다.",
+        "what": "호환 IdP·HR 시스템·커스텀 앱이 사용자와 그룹을 실시간으로 생성·갱신·비활성화할 수 있다. 커스텀 Directory API 작업이 줄고 온보딩·오프보딩·접근 보안이 개선된다.",
+        "points": ["실시간 프로비저닝/디프로비저닝", "Directory API 커스텀 코드 절감"],
+        "why": ["오프보딩 누락으로 인한 잔존 계정 리스크 축소"]
+      }
     },
     {
       "id": "it-github-agentic-docs",
-      "title": "깃허브 에이전틱 워크플로로 문서 자동화",
-      "summary": "Aspire가 광범위한 권한 없이 저장소 간 문서 작성을 자동화했다. 기능 PR 병합 후 문서 PR 지연 중앙값이 44.8시간으로 줄었다.",
+      "title": "GitHub Agentic Workflows로 리포 간 문서화 자동화",
+      "summary": "Aspire, 제품 PR 머지 후 문서 초안 PR 자동 생성…지연 중앙값 44.8시간.",
       "source": "GitHub Blog",
       "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Aspire가 넓은 쓰기 권한 없이 두 리포에 걸친 기능 문서화를 에이전트로 자동화했다.",
+        "what": "제품 PR 머지 후 문서 초안을 작성하고, 마일스톤을 문서 릴리스 브랜치에 매핑하며, 제한된 'safe-outputs' 파이프라인으로 문서 리포에 초안 PR을 만들어 SME 리뷰를 받는다. 문서 PR 지연이 기능 머지 후 중앙값 44.8시간으로 줄었다.",
+        "points": ["권한 최소화 에이전트 설계", "머지 트리거 자동 초안", "지연 중앙값 44.8시간"],
+        "why": ["에이전트에 안전한 쓰기 경로를 주는 실전 패턴"]
+      }
     },
     {
-      "id": "it-iac-after-ai",
-      "title": "AI가 들어온 뒤 IaC에 남는 것",
-      "summary": "AI가 인프라 코드 실무를 바꾸는 가운데 거버넌스는 도입 속도를 못 따라가고, 시스템 전문 지식은 여전히 필수라는 논의.",
+      "id": "it-shared-api-keys-69",
+      "title": "기업 69%, AI 에이전트 간 API 키 공유",
+      "summary": "에이전트별 관리 아이덴티티 부여는 32%뿐, 54%는 에이전트 관련 보안 사고 경험.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/security/shared-api-keys-expose-ai-agent-fleets-venturebeat-research",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "기업 대다수가 AI 에이전트 크리덴셜을 공유해 광범위한 접근·책임 추적 리스크를 안고 있다.",
+        "what": "69%가 일부라도 에이전트 간 크리덴셜을 공유하고, 에이전트마다 관리 아이덴티티를 주는 곳은 32%에 그쳤다. 54%는 에이전트 관련 보안 사고를 보고했다. 고유 아이덴티티, 최소 권한, 샌드박싱, 에이전트 단위 감사 추적이 권고된다.",
+        "points": ["69% 크리덴셜 공유", "32%만 에이전트별 아이덴티티", "54% 사고 경험"],
+        "why": ["에이전트 1개 침해가 전체 접근으로 번지는 구조"],
+        "action": "에이전트별 아이덴티티·스코프 분리와 감사 로그 도입."
+      }
+    },
+    {
+      "id": "it-iac-after-ai-podcast",
+      "title": "AI 이후 IaC에 남는 것 (팟캐스트)",
+      "summary": "'누구나 배포하는' 시대에도 심층 시스템 지식이 중요한 이유.",
       "source": "Stack Overflow Blog",
       "url": "https://stackoverflow.blog/2026/07/08/what-s-left-for-infrastructure-as-code-after-ai-moves-in/",
-      "originalDate": "2026-07-08"
+      "originalDate": "2026-07-08",
+      "report": {
+        "tldr": "AI 도입 후에도 가드레일과 시스템 지식이 IaC의 핵심이라는 논의.",
+        "what": "가드레일이 도입 속도를 못 따라가는 이유와 '누구나 배포 가능'의 실제 의미를 짚는다.",
+        "points": ["가드레일 지체 문제", "시스템 지식의 지속 가치"],
+        "why": ["플랫폼팀 역할 재정의 논의에 참고"]
+      }
     },
     {
-      "id": "it-sap-antitrust",
-      "title": "SAP, EU 반독점 조사 종결…레거시 지원 개방",
-      "summary": "재가입 수수료를 없애고 소급 유지보수 비용을 낮추며 서드파티 지원 이용을 허용하기로 했다.",
+      "id": "it-sap-eu-antitrust",
+      "title": "SAP, 레거시 지원 조건 완화로 EU 반독점 조사 종결",
+      "summary": "복원 수수료 폐지·백메인터넌스 인하·서드파티 지원 선택권 확대.",
       "source": "The Register",
-      "url": "https://www.theregister.com/software/2026/07/09/sap-makes-it-easier-for-customers-to-shop-for-legacy-product-support-ending-eu-antitrust-probe/",
-      "originalDate": "2026-07-09"
+      "url": "https://www.theregister.com/software/2026/07/09/sap-makes-it-easier-for-customers-to-shop-for-legacy-product-support-ending-eu-antitrust-probe/5269437",
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "SAP가 지원 정책 양보로 EU 반독점 조사를 끝냈다.",
+        "what": "복원 수수료를 없애고 백메인터넌스 요금을 낮추며, 고객의 서드파티 지원 이용 자유를 확대하기로 했다.",
+        "points": ["복원 수수료 폐지", "서드파티 지원 선택권 확대"],
+        "why": ["SAP 레거시 운영 기업의 지원 계약 재협상 기회"]
+      }
     }
   ]
 }

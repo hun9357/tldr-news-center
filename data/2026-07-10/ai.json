@@ -7,168 +7,245 @@
   "items": [
     {
       "id": "ai-gpt-56",
-      "title": "GPT-5.6, '야망만큼 확장되는' 프런티어 지능",
-      "summary": "OpenAI가 Sol·Terra·Luna 3종을 공개했다. Sol은 코딩·사이버보안·과학에서 최고 성능을 내면서 토큰 소비와 운영비를 줄였고 멀티에이전트 병렬 처리를 지원한다.",
+      "title": "OpenAI, GPT-5.6 패밀리(Sol·Terra·Luna) 출시",
+      "summary": "플래그십 Sol이 코딩·사이버보안·과학에서 지능·효율을 끌어올렸고, 더 적은 토큰으로 더 낮은 비용을 주장한다.",
       "source": "OpenAI",
-      "url": "https://openai.com/index/gpt-5-6/",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "92%",
-        "owner": "Strategy · Eng",
-        "status": "New",
-        "affectedSurface": "LLM API · 코딩 에이전트 · 멀티에이전트"
-      },
-      "related": [
-        "AI: Sol, ARC-AGI-3 공개 게임 최초 클리어 (ARC Prize)",
-        "AI: ChatGPT Work 동시 출시",
-        "빅테크: 메타 Muse Spark 1.1의 75% 저가 공세"
-      ],
+      "url": "https://links.tldrnewsletter.com/qmKncF",
+      "originalDate": "2026-07-10",
+      "intel": {"impact": "High", "confidence": "90%", "owner": "Strategy · Eng", "status": "New", "affectedSurface": "Frontier LLM · 코딩/보안/과학"},
+      "related": ["빅테크: GPT-5.6 Sol·Terra·Luna 앱·API 동시 출시", "개발: GPT-5.6 론칭 포스트", "AI: ARC-AGI-3 첫 게임 클리어"],
       "report": {
-        "tldr": "OpenAI가 성능은 올리고 토큰·비용은 낮춘 GPT-5.6 3종을 내놓으며 같은 날 메타의 저가 공세와 정면으로 맞붙었다.",
-        "what": "GPT-5.6은 플래그십 Sol, 일상 업무용 Terra, 최저가·최속 Luna로 나뉜다. Sol은 코딩·사이버보안·과학 작업에서 앞선 성능을 보이면서 더 적은 토큰을 쓰고, 새 'ultra' 설정으로 여러 에이전트를 병렬 조율한다. 같은 날 GPT-5.6 기반 협업 도구 ChatGPT Work도 출시됐다.",
-        "points": [
-          "Sol·Terra·Luna 3티어로 성능-비용 축을 분리",
-          "동일 성능에 토큰 소비·운영비 감소",
-          "'ultra' 설정으로 멀티에이전트 병렬 처리",
-          "Sol은 ARC-AGI-3 공개 게임을 이긴 최초 모델",
-          "ChatGPT Work로 기업 워크플로까지 확장"
-        ],
-        "why": [
-          "프런티어 성능이 아니라 '단위 작업당 비용'이 경쟁 축으로 이동",
-          "메타 Muse Spark 1.1의 75% 저가 공세와 같은 날 충돌해 가격 압력이 커짐",
-          "멀티에이전트 기본 지원으로 에이전트 오케스트레이션 도구 시장이 재편",
-          "ARC-AGI-3 클리어는 낯선 환경 적응력의 실증 사례"
-        ],
-        "context": "ARC-AGI-3는 처음 보는 게임 환경을 스스로 해석해야 하는 벤치마크로, 암기가 아닌 적응 능력을 측정하도록 설계됐다.",
-        "action": "Terra·Luna 티어로 기존 워크로드의 단가를 재산정하고, 멀티에이전트 파이프라인은 자체 태스크로 벤치마크한 뒤 이관할 것."
+        "tldr": "OpenAI가 3티어(Sol·Terra·Luna) 구성의 GPT-5.6을 ChatGPT Work·Codex·API에 동시 출시했다.",
+        "what": "Sol은 플래그십, Terra는 저비용 일상 업무용, Luna는 최속·최저가 모델이다. 토큰당 지능을 높여 복잡한 작업의 예상 비용을 낮췄고, 멀티 에이전트를 병렬 조율하는 'ultra' 설정이 새로 들어갔다. OpenAI는 코딩·사이버보안·과학 영역에서 Claude Fable 5 등 경쟁 모델 대비 우위를 주장한다.",
+        "points": ["Sol·Terra·Luna 3티어 구성", "멀티 에이전트 병렬 조율 'ultra' 설정 신설", "토큰 효율 개선으로 복잡 작업 비용 절감 주장", "오용 방지 안전 시스템 동반 강조"],
+        "why": ["어제 Grok 4.5에 이어 프런티어 가격·성능 경쟁이 하루 만에 재점화", "코딩 에이전트 파이프라인의 모델 선택 재평가 필요"],
+        "context": "경쟁사 대비 우위 주장은 OpenAI 자체 평가 기준으로, 독립 벤치마크는 아직 제한적이다."
       }
     },
     {
-      "id": "ai-gpt-56-arc",
-      "title": "Sol, ARC-AGI-3 공개 게임 최초 클리어",
-      "summary": "GPT-5.6 Sol이 처음 보는 환경을 해석하고 게임 고유의 언어 체계에 적응해, ARC-AGI-3 공개 게임을 이긴 최초의 모델이 됐다.",
-      "source": "ARC Prize",
-      "url": "https://arcprize.org/results/openai-gpt-5-6",
-      "originalDate": "2026-07-09"
-    },
-    {
       "id": "ai-muse-spark-11",
-      "title": "메타 Muse Spark 1.1과 Meta Model API 프리뷰",
-      "summary": "도구 연동, 코딩, 컴퓨터 조작, 멀티모달 추론이 개선됐다. 개발자용 Meta Model API도 퍼블릭 프리뷰로 함께 공개됐다.",
-      "source": "Meta AI Blog",
+      "title": "메타, Muse Spark 1.1 공개·Meta Model API 프리뷰",
+      "summary": "툴 사용·코딩·컴퓨터 조작·멀티모달 추론이 개선됐고 개발자용 Meta Model API 퍼블릭 프리뷰가 열렸다.",
+      "source": "Meta",
       "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "85%",
-        "owner": "Strategy",
-        "status": "New",
-        "affectedSurface": "LLM API · 비용 구조"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "메타가 에이전트 작업에 초점을 둔 멀티모달 추론 모델 Muse Spark 1.1과 첫 유료 API를 내놨다.",
+        "what": "Muse Spark 1.1은 툴 사용·코딩·컨텍스트 이해에서 성능과 효율을 높였다. 함께 공개된 Meta Model API는 무료 사용량을 넘기면 과금되는 메타 최초의 유료 개발자 모델 접근이다.",
+        "points": ["에이전트 작업 특화 멀티모달 추론", "Meta Model API 퍼블릭 프리뷰", "메타 첫 pay-to-use AI 모델"],
+        "why": ["메타가 광고 외 AI 수익화(API 비즈니스)에 본격 진입"]
       }
     },
     {
       "id": "ai-openai-atlas-retired",
-      "title": "OpenAI, 아틀라스 브라우저 종료",
-      "summary": "에이전틱 브라우징 기능을 ChatGPT 데스크톱 앱과 크롬 확장으로 흡수한다. 사이드 프로젝트를 정리하려는 큰 흐름의 일부다.",
+      "title": "OpenAI, Atlas 브라우저 종료",
+      "summary": "Atlas를 접고 에이전트 브라우징 기능을 ChatGPT 데스크톱 앱과 크롬 확장으로 이관한다.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/09/openai-is-shutting-down-atlas-but-its-ai-browser-ambitions-are-still-growing/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "ai-chatgpt-work",
-      "title": "ChatGPT Work, GPT-5.6 기반 협업 플랫폼",
-      "summary": "사내 시스템 데이터를 끌어와 문서·스프레드시트·앱을 넘나든다. 흩어진 프로젝트 자료를 완성된 산출물로 바꾸는 것이 목표다.",
-      "source": "OpenAI",
-      "url": "https://openai.com/chatgpt-work/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "ai-openai-copyright",
-      "title": "OpenAI, 저작권 소송서 '치명적 실책' 의혹",
-      "summary": "언론사들은 OpenAI가 로그 검색이 기술적으로 불가능하다고 약 2년간 허위 주장하며 침해 증거를 은폐했다고 본다. 프라이버시 엔지니어 빈센트 모나코의 폭로다.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
       "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "72%",
-        "owner": "Legal",
-        "status": "Tracking",
-        "affectedSurface": "학습 데이터 · 소송 리스크"
+      "report": {
+        "tldr": "OpenAI가 독립 브라우저 Atlas를 접고 브라우징 에이전트를 ChatGPT 본체로 흡수했다.",
+        "what": "사이드 프로젝트를 줄이는 조직 정비의 일환으로, AI 웹 브라우징 개발 자체는 계속한다. 기능은 데스크톱 앱과 크롬 확장으로 제공된다.",
+        "points": ["Atlas 단독 브라우저 종료", "기능은 ChatGPT 데스크톱·크롬 확장으로 이동", "사이드 프로젝트 축소 기조"],
+        "why": ["별도 브라우저보다 기존 브라우저 위 에이전트가 배포에 유리하다는 판단"]
+      }
+    },
+    {
+      "id": "ai-gpt-56-review",
+      "title": "GPT-5.6 첫 리뷰: 이해·생성 모두 전작 상회",
+      "summary": "문맥 정확도와 적응력이 개선돼 다양한 응용에서 전작을 앞선다는 초기 평가.",
+      "source": "Forward Future",
+      "url": "https://signals.forwardfuture.com/gpt-5-6-review/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "초기 리뷰는 GPT-5.6의 언어 이해·생성 개선과 응용 전반의 적응력을 긍정 평가했다.",
+        "what": "리뷰는 문맥 정확도 향상과 다양한 애플리케이션에서의 적응력을 핵심 개선점으로 꼽았다. AI 기반 산업에 실질적 영향을 줄 수 있다고 본다.",
+        "points": ["문맥 정확도 개선", "응용 전반의 적응력 향상", "전작 대비 일관된 우위 평가"],
+        "why": ["도입 검토 시 참고할 초기 서드파티 시각"]
+      }
+    },
+    {
+      "id": "ai-gpt-56-arc-agi-3",
+      "title": "GPT-5.6 Sol, ARC-AGI-3 공개 게임 첫 클리어",
+      "summary": "낯선 환경에서 스스로 방향을 잡고 게임 고유 어휘로 장면을 해석해 최초로 게임을 이겼다.",
+      "source": "ARC Prize",
+      "url": "https://arcprize.org/results/openai-gpt-5-6",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "GPT-5.6 Sol이 ARC-AGI-3 공개 게임을 이긴 첫 모델이 됐다.",
+        "what": "Sol은 처음 보는 장면을 게임 자체 어휘로 올바르게 읽어냈고, 새 환경에서 먼저 자기 위치를 파악한 것이 승리 요인으로 분석됐다.",
+        "points": ["ARC-AGI-3 공개 게임 최초 승리", "미지 환경에서의 자기 정위 능력", "GPT-5.6 패밀리 중 Sol의 대표 성과"],
+        "why": ["일반화·추상 추론 진전을 보여주는 독립 벤치마크 신호"]
+      }
+    },
+    {
+      "id": "ai-windows-vuln-mgmt",
+      "title": "윈도우, AI 속도에 맞춘 취약점 관리 개편",
+      "summary": "MDASH 스캐닝과 전용 클라우드 인프라로 발견-수정-배포 주기를 단축한다.",
+      "source": "Microsoft",
+      "url": "https://blogs.windows.com/windowsexperience/2026/07/09/evolving-windows-vulnerability-management-to-meet-the-speed-of-ai-powered-discovery/",
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "마이크로소프트가 AI 기반 취약점 발견 속도에 대응해 윈도우 보안 업데이트 체계를 재정비했다.",
+        "what": "AI를 취약점 발견과 수정 시간 단축에 활용하고, MDASH 스캐닝 시스템과 전용 클라우드 인프라로 식별-수정 파이프라인을 간소화했다. 내부·외부 협업으로 품질 저하 없이 속도를 유지하는 것이 목표다.",
+        "points": ["AI로 발견·수정 시간 단축", "MDASH 스캐닝 시스템 도입", "업데이트 품질-속도 균형 강조"],
+        "why": ["AI가 공격자 취약점 발굴도 가속하는 시대의 방어측 대응 사례"],
+        "action": "윈도우 보안 업데이트 적용 주기를 재점검할 것."
+      }
+    },
+    {
+      "id": "ai-flex-forcing",
+      "title": "Flex-Forcing: 유연한 비디오 디퓨전 생성",
+      "summary": "양방향·자기회귀 생성을 전환 가능하게 학습해 속도·품질·장기 안정성을 개선.",
+      "source": "NVIDIA Research",
+      "url": "https://research.nvidia.com/labs/genair/flex-forcing/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Flex-Forcing은 비디오 디퓨전 모델이 생성 방식을 유연하게 전환하도록 학습시킨다.",
+        "what": "시간·디노이징 스텝의 유연한 청킹으로 양방향과 자기회귀 생성을 오갈 수 있게 했다. 컴퓨트 예산별로 추론 속도, 품질, 장기 안정성이 개선됐다.",
+        "points": ["양방향·자기회귀 전환 학습", "유연한 시간·스텝 청킹", "컴퓨트 예산별 성능 개선"],
+        "why": ["비디오 생성의 비용-품질 트레이드오프 완화"]
+      }
+    },
+    {
+      "id": "ai-zai-async-rl",
+      "title": "Z.ai의 안정적 비동기 RL 학습법",
+      "summary": "프롬프트당 단일 롤아웃과 가치모델·토큰 단위 클리핑으로 GRPO식 그룹 샘플링을 대체.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2607.07508",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Z.ai가 단일 롤아웃 비동기 최적화로 RL 학습의 안정성과 효율을 잡는 방법을 공개했다.",
+        "what": "Single-rollout Asynchronous Optimization은 프롬프트당 하나의 롤아웃만 쓰고, 가치모델 학습과 엄격한 토큰 단위 클리핑으로 이를 보완한다.",
+        "points": ["프롬프트당 롤아웃 1개", "가치모델 학습 병행", "토큰 레벨 클리핑"],
+        "why": ["RL 파이프라인의 샘플링 비용 절감 아이디어"]
+      }
+    },
+    {
+      "id": "ai-prisma",
+      "title": "Prisma (GitHub Repo)",
+      "summary": "Node.js·TypeScript용 타입 안전 DB 쿼리(Client)·모델링(Migrate)·GUI 편집(Studio) 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/prisma/prisma",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "타입 안전 ORM 도구 모음 Prisma가 소개됐다.",
+        "what": "Prisma Client로 타입 안전 쿼리를, Prisma Migrate로 데이터 모델링을, Prisma Studio로 GUI 기반 DB 편집을 지원한다.",
+        "points": ["타입 안전 쿼리", "선언적 마이그레이션", "GUI 데이터 편집"],
+        "why": ["TS 백엔드의 DB 생산성 표준 도구"]
       }
     },
     {
       "id": "ai-fidji-simo-steps-down",
-      "title": "OpenAI 2인자 피지 시모, 자문역으로 물러나",
-      "summary": "신경면역 질환으로 장기 회복이 필요해 상근직에서 내려온다. 업무는 그렉 브록만 사장, 세라 프라이어 CFO, 제이슨 권 CSO가 나눠 맡는다.",
-      "source": "Wall Street Journal",
-      "url": "https://www.wsj.com/tech/openai-top-executive-fidji-simo-to-step-down-c3daca47",
-      "originalDate": "2026-07-09"
+      "title": "OpenAI 2인자 피지 시모, 전임 임원직 사임",
+      "summary": "건강 악화로 파트타임 자문으로 물러나며 담당 업무는 브록먼·프라이어·권 3인에게 분배.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/T3eOve",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "OpenAI의 피지 시모가 건강 문제로 전임 임원에서 물러나 파트타임 자문이 된다.",
+        "what": "장기 병가 후 신경면역 질환이 악화돼 회복이 예상보다 길어질 전망이다. 제품·사업 책임은 그렉 브록먼 사장, CFO 세라 프라이어, CSO 제이슨 권이 나눠 맡는다.",
+        "points": ["전임 임원 → 파트타임 자문", "제품·사업 책임 3인 분배", "연이은 리더십 개편의 연장"],
+        "why": ["OpenAI 제품 조직의 의사결정 구조 변화 주시 필요"]
+      }
     },
     {
-      "id": "ai-meta-chips-september",
-      "title": "메타 자체 AI 칩, 9월 양산 개시",
-      "summary": "메타와 브로드컴이 칩 아키텍처를 공동 설계하고 TSMC가 위탁 생산을 맡는다.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
-      "originalDate": "2026-07-09"
+      "id": "ai-openai-copyright-misstep",
+      "title": "OpenAI, 저작권 소송서 '치명적 실수' 논란",
+      "summary": "로그 검색 능력을 2년간 숨겼다는 내부 엔지니어 증언으로 제재 가능성이 거론된다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "언론사들이 OpenAI가 침해 증거 은폐를 위해 법원을 오도했다고 주장하고 나섰다.",
+        "what": "OpenAI 프라이버시 엔지니어 빈센트 모나코의 증언에 따르면, OpenAI는 대규모 익명화 로그 샘플 검색을 소송 전에 이미 수행했음에도 기술적으로 불가능하다고 2년간 주장했다. 중대한 제재로 이어질 수 있다는 관측이 나온다.",
+        "points": ["로그 검색 능력 은폐 의혹", "내부 엔지니어 증언으로 드러남", "법원 제재 가능성"],
+        "why": ["AI 학습데이터 소송 전반의 향방과 디스커버리 관행에 영향"]
+      }
+    },
+    {
+      "id": "ai-chatgpt-work",
+      "title": "ChatGPT Work: GPT-5.6 기반 업무 워크스페이스",
+      "summary": "팀 도구의 컨텍스트를 모아 파일·데스크톱 앱을 넘나들며 문서·시트·프레젠테이션을 완성한다.",
+      "source": "OpenAI",
+      "url": "https://links.tldrnewsletter.com/THB8Pe",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "OpenAI가 GPT-5.6 기반 업무 공간 ChatGPT Work를 출시했다.",
+        "what": "팀 도구에서 컨텍스트를 수집하고 파일과 데스크톱 애플리케이션을 가로질러 작업한다. 흩어진 프로젝트 자료를 완성된 문서·스프레드시트·프레젠테이션으로 바꾸는 것이 목표다. 데스크톱 전 플랜에 제공되며 웹·모바일로 확대 중이다.",
+        "points": ["팀 도구 컨텍스트 통합", "파일·데스크톱 앱 횡단 작업", "완성형 산출물 생성 지향"],
+        "why": ["업무용 에이전트 워크스페이스 시장 정면 경쟁"]
+      }
     },
     {
       "id": "ai-mercor-20b",
-      "title": "머코어, 200억 달러 밸류로 조달 협상",
-      "summary": "AI 학습 데이터 기업 머코어가 200억 달러 기업가치로 자금 조달을 논의 중이다. 지난 10월 평가액 100억 달러의 두 배다.",
+      "title": "머코어, 200억 달러 밸류로 투자 유치 협상",
+      "summary": "지난 10월 100억 달러에서 8개월 만에 밸류에이션 2배를 노린다.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "AI 트레이닝 스타트업 머코어가 200억 달러 밸류에이션으로 라운드를 추진 중이다.",
+        "what": "지난해 10월 100억 달러 밸류에서 2배로 뛴 수치다. AI 학습 데이터·전문가 네트워크 수요가 배경이다.",
+        "points": ["밸류에이션 100억→200억 달러", "8개월 만의 재조달"],
+        "why": ["데이터 레이어가 AI 투자에서 갖는 비중 확대"]
+      }
     },
     {
-      "id": "ai-anthropic-bernanke",
-      "title": "앤스로픽, 벤 버냉키 전 연준 의장 신탁 위원 선임",
-      "summary": "장기이익신탁(LTBT)에 합류해 AI가 경제 전반에 미치는 영향을 검토한다.",
+      "id": "ai-bernanke-anthropic",
+      "title": "앤스로픽, 벤 버냉키 전 연준 의장 트러스트 영입",
+      "summary": "AI의 경제적 파급을 다루기 위해 장기편익신탁(LTBT)에 합류.",
       "source": "CNBC",
       "url": "https://www.cnbc.com/2026/07/09/anthropic-fed-chair-bernanke-independent-trust.html",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "앤스로픽이 벤 버냉키를 장기편익신탁에 임명했다.",
+        "what": "전 연준 의장 버냉키가 AI의 경제적 영향 대응을 돕기 위해 앤스로픽의 독립 거버넌스 기구인 Long-Term Benefit Trust에 합류한다.",
+        "points": ["전 연준 의장의 AI 거버넌스 참여", "경제 파급 대응 목적"],
+        "why": ["AI 기업 거버넌스에 거시경제 전문성이 더해지는 흐름"]
+      }
     },
     {
       "id": "ai-anthropic-hard-questions",
-      "title": "앤스로픽, '어려운 질문'을 공개 수렴",
-      "summary": "설문과 토론 그룹을 통해 AI 난제에 대한 사회적 기대와 우려를 모은다.",
+      "title": "앤스로픽 '어려운 질문' 공개 의견 수렴",
+      "summary": "설문·포커스그룹으로 AI에 대한 사회적 기대와 우려를 조사한다.",
       "source": "Anthropic",
       "url": "https://www.anthropic.com/news/hard-questions",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "앤스로픽이 AI 관련 사회적 질문에 대한 공개 의견 수렴을 시작했다.",
+        "what": "설문조사와 포커스그룹을 통해 사회의 희망과 두려움을 파악하고 정책·제품 방향에 반영하려는 시도다.",
+        "points": ["공개 의견 수렴 절차", "설문·포커스그룹 병행"],
+        "why": ["AI 랩 의사결정에 공공 인풋을 넣는 실험"]
+      }
+    },
+    {
+      "id": "ai-meta-chips-september",
+      "title": "메타 자체 AI 칩, 9월 양산 시작",
+      "summary": "Netta·브로드컴이 설계, TSMC가 제조를 맡는다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/metas-new-ai-chips-will-begin-production-in-september/",
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "메타의 신형 AI 칩이 9월 생산에 들어간다.",
+        "what": "Netta와 브로드컴이 칩 설계에 참여하고 TSMC가 제조를 담당한다. 자체 칩으로 추론 비용을 낮추려는 하이퍼스케일러 흐름의 연장이다.",
+        "points": ["9월 양산 개시", "브로드컴 설계 협력·TSMC 제조"],
+        "why": ["AI 인프라 비용 구조와 엔비디아 의존도에 영향"]
+      }
     },
     {
       "id": "ai-musk-praises-anthropic",
-      "title": "머스크, 앤스로픽 '끊지 않겠다'",
-      "summary": "일론 머스크가 경쟁사 앤스로픽에 존중과 찬사를 표하며 공급을 차단하지 않겠다고 밝혔다.",
+      "title": "머스크, Mythos/Fable 호평…\"앤스로픽 차단 없다\"",
+      "summary": "경쟁사 앤스로픽에 대한 존중을 표하며 관계 유지를 공언했다.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/09/elon-musk-praises-mythos-fable-promises-not-to-cut-off-anthropic/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "ai-windows-vuln-mgmt",
-      "title": "마이크로소프트, AI 속도에 맞춘 윈도 취약점 관리",
-      "summary": "MDASH 스캐닝 인프라와 전용 클라우드 시스템을 결합해 취약점 발견, 수정, 패치 배포를 앞당긴다.",
-      "source": "Windows Experience Blog",
-      "url": "https://blogs.windows.com/windowsexperience/2026/07/09/evolving-windows-vulnerability-management-to-meet-the-speed-of-ai-powered-discovery/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "ai-zai-async-rl",
-      "title": "Z.ai, 안정적 비동기 강화학습 기법",
-      "summary": "GRPO식 그룹 샘플링을 프롬프트당 단일 롤아웃으로 대체하고, 가치 모델 학습과 토큰 단위 엄격 클리핑으로 안정성을 확보했다.",
-      "source": "arXiv",
-      "url": "https://arxiv.org/abs/2607.07508",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "ai-flex-forcing",
-      "title": "Flex-Forcing, 양방향·자기회귀 오가는 비디오 확산",
-      "summary": "엔비디아 연구진이 시간·디노이징 분할을 유연하게 조정해 추론 속도, 화질, 장기 일관성을 동시에 끌어올렸다.",
-      "source": "NVIDIA GenAI Research",
-      "url": "https://research.nvidia.com/labs/genair/flex-forcing/",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "일론 머스크가 앤스로픽의 Mythos/Fable을 공개 호평하며 관계를 끊지 않겠다고 밝혔다.",
+        "what": "머스크는 경쟁 관계에도 불구하고 앤스로픽에 대한 존경을 표시했다. 프런티어 랩 간 신경전 속 이례적 발언이다.",
+        "points": ["경쟁사 모델 공개 호평", "협력 관계 유지 시사"],
+        "why": ["프런티어 랩 간 인프라·유통 의존 관계를 보여주는 장면"]
+      }
     }
   ]
 }

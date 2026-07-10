@@ -6,137 +6,194 @@
   "bg": "#3a1f1f",
   "items": [
     {
-      "id": "infosec-friendly-fire-rce",
-      "title": "방어용 AI 에이전트를 역이용한 원격코드실행",
-      "summary": "연구진이 조작된 오픈소스 라이브러리를 리뷰시켜 Claude Code와 OpenAI Codex가 악성코드를 실행하게 만들었다. 프롬프트 인젝션으로 안전장치를 우회했다.",
-      "source": "AI Now Institute",
-      "url": "https://ainowinstitute.org/publications/friendly-fire-exploit-brief",
-      "originalDate": "2026-07-08",
-      "intel": {
-        "impact": "High",
-        "confidence": "86%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "코딩 에이전트 · 의존성 리뷰 · CI/CD"
-      },
-      "report": {
-        "tldr": "보안 점검에 쓰라고 붙여둔 코딩 에이전트가, 점검 대상 코드에 심긴 프롬프트로 공격자의 코드를 대신 실행했다.",
-        "what": "연구진은 오픈소스 라이브러리에 프롬프트 인젝션 페이로드를 심고 Claude Code와 OpenAI Codex에 통상적인 보안 리뷰를 시켰다. 두 에이전트 모두 안전장치를 우회해 원격코드실행에 도달했다.",
-        "points": [
-          "공격 표면은 '리뷰 대상 코드' 그 자체",
-          "일상적인 의존성 검토 과정에서 트리거",
-          "Claude Code와 Codex 양쪽에서 재현",
-          "같은 날 npm 12가 설치 스크립트를 기본 차단"
-        ],
-        "why": [
-          "에이전트를 CI/CD에 붙일수록 공격 표면이 파이프라인 권한까지 확대",
-          "신뢰 경계가 '사람이 읽는 코드'에서 '모델이 읽는 코드'로 이동",
-          "공급망 공격자가 페이로드를 사람 눈이 아닌 모델 눈에 맞춰 설계 가능"
-        ],
-        "context": "프롬프트 인젝션은 모델이 데이터와 명령을 구분하지 못하는 데서 비롯된다. 코드 리뷰는 신뢰할 수 없는 입력을 모델에 그대로 먹이는 전형적 상황이다.",
-        "action": "코딩 에이전트를 네트워크·자격증명 없는 샌드박스에서 실행하고, 에이전트 계정 권한을 최소화하며, 실행 가능한 도구 호출은 사람이 승인하도록 게이트를 둘 것."
-      }
-    },
-    {
-      "id": "infosec-puerto-rico-ssn",
-      "title": "푸에르토리코 정부기관, 주민 100만 명 SSN 노출",
-      "summary": "지방세수징수센터(CRIM)의 재산세 데이터베이스 인터페이스가 무방비로 열려 있었다. 공개 지도는 안전해 보였지만 약간의 기술 지식으로 민감정보에 닿을 수 있었다.",
-      "source": "ProPublica",
-      "url": "https://www.propublica.org/article/puerto-rico-crim-data-breach",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "90%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "공공 DB · PII"
-      }
-    },
-    {
-      "id": "infosec-npm12-install-scripts",
-      "title": "npm 12, 설치 스크립트 기본 비활성화",
-      "summary": "install 스크립트, git 의존성, 원격 URL 설치를 기본 차단한다. 명시적 허용목록과 민감 작업 2FA를 강제해 공급망 위험을 줄인다.",
+      "id": "sec-npm-12-supply-chain",
+      "title": "npm 12, 인스톨 스크립트 기본 차단…공급망 리스크 축소",
+      "summary": "install scripts·git 의존성·원격 URL 설치가 기본 꺼지고 package.json 허용목록 승인 필수.",
       "source": "The Hacker News",
       "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "88%",
-        "owner": "Eng",
-        "status": "New",
-        "affectedSurface": "npm · CI/CD"
+      "originalDate": "2026-07-10",
+      "intel": {"impact": "High", "owner": "Platform · AppSec", "status": "New", "affectedSurface": "JS/Node 공급망"},
+      "report": {
+        "tldr": "깃허브가 npm 12에서 인스톨 스크립트 등 위험 기능을 기본 비활성화했다.",
+        "what": "install scripts, git 의존성, 원격 URL 설치가 기본 꺼지며 package.json 허용목록으로 명시 승인해야 한다. 2FA를 우회하는 세분화 토큰은 민감 작업에서 단계적으로 폐지되고, 공개 배포 전 사람 2FA가 필요한 스테이징 배포로 제한된다. pnpm 11.10도 토큰을 특정 호스트에 묶는 레지스트리 인증 강화를 더했다.",
+        "points": ["install scripts 기본 비활성", "허용목록 기반 명시 승인", "2FA 우회 토큰 단계 폐지", "pnpm도 토큰-호스트 바인딩"],
+        "why": ["연쇄 공급망 공격의 최대 진입로가 기본값 차원에서 봉쇄"],
+        "action": "npm 12 업그레이드 시 CI의 install scripts 의존 여부를 점검하고 허용목록을 정비할 것."
       }
     },
     {
-      "id": "infosec-exploitarium",
-      "title": "제로데이 PoC 130여 건 무더기 공개",
-      "summary": "libssh2 인증 전 RCE, Gitea 관리자 사칭 등 검증되지 않은 익스플로잇이 대량 공개됐다. 며칠 만에 스캐닝이 시작됐고, libssh2 패치와 HTTP 헤더 검증이 권고된다.",
-      "source": "Detections.ai",
+      "id": "sec-exploitarium-130-pocs",
+      "title": "Exploitarium: 제로데이 PoC 130여 개 무더기 공개",
+      "summary": "libssh2 사전인증 RCE·Gitea 관리자 사칭 결함 포함, 벤더 조율 없이 공개돼 즉시 악용 시도.",
+      "source": "detections.ai",
       "url": "https://detections.ai/share/inspiration/VNJMKFVM",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "80%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "libssh2 · Gitea"
+      "originalDate": "2026-07-10",
+      "intel": {"impact": "High", "owner": "SecOps", "status": "Active", "affectedSurface": "libssh2 · Gitea · SSH"},
+      "report": {
+        "tldr": "연구자 'bikini'가 검증 안 된 PoC 130여 개를 벤더 조율 없이 공개해 즉각 악용이 시작됐다.",
+        "what": "SSH 핸드셰이크 중 인증 전에 발동하는 libssh2 사전인증 RCE, 기본 Docker 설정에서 X-WEBAUTH-USER 헤더 스푸핑으로 가능한 Gitea 관리자 사칭 결함이 포함됐다. libssh2는 curl·Git·PHP에 전이 의존되어 노출 범위가 넓고, 공개 며칠 만에 두 결함 모두 스캐닝이 관측됐다.",
+        "points": ["130+ 미검증 PoC 일괄 공개", "libssh2 pre-auth RCE", "Gitea 헤더 스푸핑 관리자 사칭", "공개 직후 실제 프로빙 확인"],
+        "why": ["전이 의존성 때문에 직접 사용처보다 훨씬 넓은 영향"],
+        "action": "libssh2 1.11.1 초과 버전 패치, Gitea 앞단 프록시에서 X-WEBAUTH-USER 제거/검증, 사전인증 SSH 실패·비정상 관리자 생성 모니터링."
       }
     },
     {
-      "id": "infosec-rogueplanet-zeroday",
-      "title": "MS, '로그플래닛' 제로데이 최종 패치",
-      "summary": "맬웨어 보호 엔진의 경쟁 조건으로 SYSTEM 권한 명령 프롬프트를 딸 수 있었다. 완전 패치된 윈도도 영향을 받았고, 공개 절차 논쟁 끝에 수정됐다.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/security/2026/07/09/microsoft-closes-book-on-nightmare-eclipses-rogueplanet-zero-day/",
-      "originalDate": "2026-07-09"
+      "id": "sec-puerto-rico-ssn",
+      "title": "푸에르토리코 정부기관, SSN 100만 건 노출",
+      "summary": "재산세 지도 서비스의 미보호 데이터 요청 경로로 개인 SSN 접근 가능.",
+      "source": "ProPublica",
+      "url": "https://www.propublica.org/article/puerto-rico-crim-data-breach",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "푸에르토리코 재산세 징수기관이 100만 명의 SSN을 실수로 노출했다.",
+        "what": "Municipal Revenue Collection Center의 대화형 부동산 지도는 소유자·면적·과세·거래가를 보여주는데, 웹사이트의 데이터 요청 방식을 아는 사람이라면 보호되지 않은 SSN 등 민감정보에 접근할 수 있었다.",
+        "points": ["100만 SSN 노출", "공개 지도 API의 미보호 필드", "연구자 제보로 확인"],
+        "why": ["공공 데이터 서비스의 API 레벨 노출 점검 필요성"]
+      }
     },
     {
-      "id": "infosec-transsion-telemetry",
-      "title": "아프리카 판매 폰 절반, 중국으로 텔레메트리 전송",
-      "summary": "트랜션 단말에 기본 탑재된 안드로이드 텔레메트리 스택이 GPS 좌표, 배터리 상태, 앱 사용, 기지국 정보를 알리바바 클라우드로 보낸다. 제거는 불가능하고 DNS 차단만이 완화책이다.",
-      "source": "NowSecure",
-      "url": "https://www.nowsecure.com/blog/2026/07/08/what-the-transsion-telemetry-research-means-for-mobile-security/",
-      "originalDate": "2026-07-08"
-    },
-    {
-      "id": "infosec-openmandriva-sabotage",
-      "title": "오픈만드리바, 기여자 고의 파괴 주장",
-      "summary": "관리자 권한을 가진 기여자가 아카이브 코드를 지우고 빈 패키지를 배포해 그놈·코스믹 데스크톱 지원을 없앴다는 주장이다. 당사자는 부인하고 있다.",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "infosec-discord-ai-bans",
-      "title": "디스코드 AI 모더레이션 오류로 24시간 만에 8천 명 차단",
-      "summary": "새 자체 모델이 격자·기하학 패턴 이미지를 오탐하면서 약 8,000명이 부당하게 차단됐다. 이의신청 절차는 심각하게 적체됐다.",
+      "id": "sec-discord-ai-bans",
+      "title": "디스코드 AI 모더레이션 오류로 24시간 새 8천 명 오차단",
+      "summary": "새 모델 배포 후 격자·기하 패턴 이미지 대량 오탐, 이의신청은 40배 폭주.",
       "source": "programming-helper.com",
       "url": "https://www.programming-helper.com/tech/discord-ai-moderation-glitch-wrongful-bans-8000-users-2026",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "디스코드의 AI 콘텐츠 모더레이션 결함이 하루 만에 8천 명을 잘못 차단했다.",
+        "what": "새 버전의 자체 모델이 격자·반복 기하 도형 이미지를 매우 높은 비율로 차단하는 결함이 있었다. 이의신청 요청이 평시의 약 40배로 늘며 처리 시스템도 마비됐다.",
+        "points": ["24시간 8천 명 오차단", "특정 이미지 패턴 오탐", "이의신청 40배 폭주"],
+        "why": ["AI 모더레이션의 카나리 배포·롤백 체계 중요성"]
+      }
     },
     {
-      "id": "infosec-cisa-reporting-rule",
-      "title": "CISA, 9월까지 사이버 신고 규칙 확정 전망",
-      "summary": "주요 인프라 사업자는 중대 침해를 72시간 이내에, 랜섬웨어 지불은 24시간 이내에 신고해야 한다.",
-      "source": "NextGov",
-      "url": "https://www.nextgov.com/cybersecurity/2026/07/cisa-expects-finalize-key-cyber-reporting-rule-september/",
-      "originalDate": "2026-07-09"
+      "id": "sec-openmandriva-sabotage",
+      "title": "OpenMandriva \"기여자가 프로젝트 사보타주 시도\"",
+      "summary": "관리자 권한 기여자가 10년 치 리포 일부 삭제·데스크톱 패키지 무력화 패키지 배포.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/T7GZIt",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "OpenMandriva 리눅스에서 내부 기여자에 의한 사보타주 의혹이 제기됐다.",
+        "what": "관리자 권한을 가진 기여자가 불화 끝에 약 10년간 작업한 리포 일부를 삭제하고, Gnome·Cosmic 데스크톱 패키지를 무력화(obsolete)하는 빈 패키지를 배포했다는 것이 메인테이너의 주장이다. 해당 기여자는 부인하고 있다.",
+        "points": ["내부자 권한 남용 의혹", "리포 삭제+무력화 패키지 배포", "기여자는 혐의 부인"],
+        "why": ["오픈소스 프로젝트의 내부자 위협·권한 관리 문제"]
+      }
     },
     {
-      "id": "infosec-goddamn-ransomware",
-      "title": "'GodDamn' 랜섬웨어, BYOVD로 미국 기업 공격",
-      "summary": "Hyadina 그룹이 AnyDesk와 자격증명 탈취 도구를 함께 써 윈도 인프라에 지속성을 확보했다.",
-      "source": "Dark Reading",
-      "url": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies",
-      "originalDate": "2026-07-09"
+      "id": "sec-friendly-fire-agents",
+      "title": "Friendly Fire: 방어용 AI 에이전트 하이재킹해 RCE",
+      "summary": "변조된 오픈소스 리포를 보안 리뷰시키면 Claude Code·Codex가 악성 바이너리를 실행.",
+      "source": "AI Now Institute",
+      "url": "https://ainowinstitute.org/publications/friendly-fire-exploit-brief",
+      "originalDate": "2026-07-10",
+      "intel": {"impact": "High", "owner": "AppSec · AI Platform", "status": "PoC", "affectedSurface": "코딩 에이전트 · 보안 리뷰 워크플로"},
+      "report": {
+        "tldr": "보안 리뷰를 시킨 코딩 에이전트가 오히려 원격 코드 실행 경로가 되는 PoC가 공개됐다.",
+        "what": "변조된 geopy 리포처럼 조작된 오픈소스 라이브러리를 리뷰시키면, 에이전트가 심어진 security.sh 스크립트와 위장 Golang 바이너리를 신뢰해 악성으로 표시하지 않고 실행한다. auto-mode·auto-review 안전설정에서도 재현되고 여러 모델 버전과 설정파일 방어를 우회했다.",
+        "points": ["보안 리뷰 자체가 공격 벡터", "auto-mode 안전설정 우회", "여러 모델·버전에서 재현", "프롬프트 인젝션+바이너리 조합"],
+        "why": ["에이전트 기반 취약점 스캐닝 도입 시 호스트 격리가 필수"],
+        "action": "에이전트 리뷰는 샌드박스에서 실행하고, 미확인 스크립트·바이너리 실행 권한을 차단할 것."
+      }
     },
     {
-      "id": "infosec-formal-verification",
-      "title": "형식 검증, 이제 모델이 대신 쓴다",
-      "summary": "Opus 4.5 같은 모델이 명세를 Dafny 등으로 옮겨 형식 검증된 코드를 만든다. 다만 명세가 불완전하거나 외부 의존성이 있으면 검증 공백이 남는다.",
+      "id": "sec-transsion-telemetry",
+      "title": "아프리카 판매 폰 2대 중 1대, 중국으로 텔레메트리 전송",
+      "summary": "Transsion 시스템 컴포넌트·SDK가 GPS·앱 사용 등 기기 전반 데이터를 shalltry.com으로 업로드.",
+      "source": "NowSecure",
+      "url": "https://www.nowsecure.com/blog/2026/07/08/what-the-transsion-telemetry-research-means-for-mobile-security/",
+      "originalDate": "2026-07-08",
+      "report": {
+        "tldr": "TECNO 등 Transsion 계열 폰의 제거 불가 텔레메트리 스택이 기기 전반 데이터를 유출한다는 연구가 나왔다.",
+        "what": "특권 시스템 컴포넌트와 Boomplay·StarTimes 등 인기 앱 내 SDK로 배포되며, 복호화된 트래픽에서 GPS 좌표·인근 기지국·포그라운드 앱·배터리 상태·앱별 데이터 사용량이 여러 영구 식별자에 묶여 알리바바 클라우드 호스팅 *.shalltry.com 엔드포인트로 전송되는 것이 확인됐다. 기기에서 제거할 수 없다.",
+        "points": ["기기 차원 상시 비컨 전송", "여러 영구 식별자와 결합", "시스템 컴포넌트라 제거 불가"],
+        "why": ["공급망 차원의 프라이버시 리스크가 하드웨어 레벨에서 발생"],
+        "action": "DNS 레벨에서 shalltry.com·transsion-os.com 와일드카드 차단."
+      }
+    },
+    {
+      "id": "sec-formal-verification",
+      "title": "형식 검증, LLM 덕에 문턱이 낮아진다",
+      "summary": "Opus 4.5 이후 LLM이 스펙을 Dafny 등 검증 언어 코드로 번역 가능해졌다.",
       "source": "ACM Queue",
-      "url": "https://queue.acm.org/detail.cfm?id=3819084",
-      "originalDate": "2026-07-09"
+      "url": "https://queue.acm.org/detail.cfm?id819084",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "노동집약적이던 형식 검증을 LLM이 실용 영역으로 끌어오고 있다는 분석.",
+        "what": "형식 검증은 소프트웨어 속성을 수학적으로 증명하는 과정으로 극히 드물게만 쓰여 왔다. Opus 4.5 이후 LLM이 스펙을 Dafny 같은 언어가 수용하는 코드로 옮길 수 있음을 보였다. 다만 스펙이 부실하거나 외부 자원에 의존하면 검증은 여전히 불완전하다.",
+        "points": ["LLM의 스펙→검증코드 번역", "형식 검증 비용 급감 가능성", "스펙 품질이 여전한 한계"],
+        "why": ["고보증 소프트웨어의 개발 경제성이 달라질 수 있음"]
+      }
+    },
+    {
+      "id": "sec-8layers",
+      "title": "8Layers: 디지털 아이덴티티 보호 플랫폼 출시",
+      "summary": "Okta·Entra ID·Workspace·AWS IAM 데이터로 사람·기계 계정 위험 점수화.",
+      "source": "8Layers",
+      "url": "https://www.8layers.io/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "아이덴티티 위험을 통합 점수화하는 8Layers가 출시됐다.",
+        "what": "Okta, Entra ID, Google Workspace, AWS IAM에서 데이터를 모아 인간·기계 아이덴티티별 위험을 점수화하고, 휴면 계정·킬체인을 탐지하며 컴플라이언스 점검을 자동화한다.",
+        "points": ["4대 IdP/IAM 통합", "휴면 계정·킬체인 탐지", "컴플라이언스 자동화"],
+        "why": ["에이전트·기계 계정 증가로 아이덴티티 보안 수요 급증"]
+      }
+    },
+    {
+      "id": "sec-socbench",
+      "title": "socbench (GitHub Repo)",
+      "summary": "프런티어 추론 모델을 SOC 에이전트로 벤치마크하는 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/DeepTempo/socbench",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "SOC 업무 수행 능력으로 모델을 평가하는 벤치마크 socbench가 공개됐다.",
+        "what": "프런티어 추론 모델들이 보안관제(SOC) 에이전트로서 얼마나 유효한지 측정한다.",
+        "points": ["SOC 시나리오 기반 평가", "모델 간 비교 가능"],
+        "why": ["보안 자동화 도입 전 모델 선택 근거 자료"]
+      }
+    },
+    {
+      "id": "sec-rogueplanet-defender",
+      "title": "MS, 디펜더 'RoguePlanet' 제로데이 종결",
+      "summary": "SYSTEM 권한 셸을 여는 레이스 컨디션…익스플로잇 공개 수 주 만에 패치.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/07/09/microsoft-closes-book-on-nightmare-eclipses-rogueplanet-zero-day/5269280",
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "마이크로소프트가 Defender의 RoguePlanet 제로데이를 엔진 업데이트로 패치했다.",
+        "what": "레이스 컨디션을 악용해 SYSTEM 레벨 명령 프롬프트를 여는 버그로, 실시간 보호를 꺼도 완전 패치된 윈도우 10·11에서 동작한다고 보고됐다. 연구자 Nightmare Eclipse와의 공개 충돌 끝에 수정됐다.",
+        "points": ["Defender 엔진 업데이트로 수정", "SYSTEM 권한 상승 버그", "연구자-벤더 공개 갈등의 산물"],
+        "why": ["보안 제품 자체가 공격면이 되는 사례"],
+        "action": "Malware Protection Engine 최신 여부 확인."
+      }
+    },
+    {
+      "id": "sec-cisa-reporting-rule",
+      "title": "CISA 사이버 보고 규칙, 9월 최종 확정 전망",
+      "summary": "핵심 인프라는 중대 사고 72시간·랜섬 지급 24시간 내 보고 의무화.",
+      "source": "Nextgov",
+      "url": "https://www.nextgov.com/cybersecurity/2026/07/cisa-expects-finalize-key-cyber-reporting-rule-september/414607/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "CISA가 핵심 인프라 사고 의무보고 규칙을 9월까지 확정할 전망이다.",
+        "what": "중대 사고는 72시간, 랜섬웨어 지급은 24시간 내 CISA 보고가 의무화된다.",
+        "points": ["사고 72시간 보고", "랜섬 지급 24시간 보고"],
+        "why": ["미국 내 사업장 보유 기업의 IR 플레이북 갱신 필요"]
+      }
+    },
+    {
+      "id": "sec-goddamn-ransomware",
+      "title": "'GodDamn' 랜섬웨어, BYOVD로 미국 기업 공격",
+      "summary": "Hyadina 그룹이 AnyDesk·오픈소스 크리덴셜 탈취 도구로 윈도우 환경 횡이동.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/rLSC67",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Hyadina 그룹의 신형 락커 GodDamn이 BYOVD 기법으로 미국 조직을 노린다.",
+        "what": "AnyDesk와 오픈소스 크리덴셜 탈취 도구 세트를 활용해 윈도우 환경을 횡이동한다.",
+        "points": ["BYOVD(취약 드라이버 반입) 사용", "AnyDesk 악용 횡이동"],
+        "why": ["EDR 우회형 랜섬웨어 대비 드라이버 차단목록 점검 필요"]
+      }
     }
   ]
 }

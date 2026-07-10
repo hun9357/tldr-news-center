@@ -6,99 +6,158 @@
   "bg": "#332a12",
   "items": [
     {
-      "id": "crypto-jpm-permissioned",
-      "title": "JPMorgan, 비트코인의 진짜 위협은 '허가형 블록체인'",
-      "summary": "전략 보유사의 매도보다 허가형 체인 확산이 구조적 위협이라는 분석이다. 기관은 프라이버시, 컴플라이언스, 규제 확실성 때문에 허가형 인프라를 택해왔다.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/407776/jpmorgan-bitcoin-risk-strategy-blockchain-tokens-crypto",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "crypto-swift-ledger-live",
-      "title": "스위프트 블록체인 원장, 17개 대형 은행과 가동",
-      "summary": "9개월 개발 끝에 분산원장 플랫폼이 출범했다. ANZ·BNP파리바·HSBC·UBS 등이 24시간 토큰화 국경간 결제 파일럿을 준비 중이다.",
-      "source": "Thread Reader",
+      "id": "cr-swift-ledger-live",
+      "title": "스위프트 블록체인 원장 가동…17개 대형 은행 파일럿",
+      "summary": "ANZ·BNP파리바·씨티·HSBC·UBS 등이 24/7 토큰화 국경 간 결제를 시험한다.",
+      "source": "Swift",
       "url": "https://threadreaderapp.com/thread/2075246240799842614.html",
-      "originalDate": "2026-07-09",
-      "intel": {
-        "impact": "High",
-        "confidence": "82%",
-        "owner": "Strategy",
-        "status": "New",
-        "affectedSurface": "국경간 결제 · 토큰화"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "9개월 개발 끝에 스위프트의 블록체인 기반 공유 원장이 라이브됐다.",
+        "what": "ANZ, BNP파리바, BNY, 씨티, HSBC, 스탠다드차타드, UBS, 웰스파고 등 17개 기관이 24/7 토큰화 국경 간 결제 파일럿을 준비한다. DLT와 스위프트의 보안 메시징망을 결합해 유동성 효율과 현금 흐름 가시성을 높이고, 프로그래머블 머니와 에이전트 커머스를 향후 유스케이스로 계획한다.",
+        "points": ["17개 대형 은행 참여", "24/7 토큰화 결제 파일럿", "프로그래머블 머니 로드맵"],
+        "why": ["기관 결제 인프라가 퍼블릭 체인 밖에서 블록체인화되는 흐름"]
       }
     },
     {
-      "id": "crypto-float-business-model",
-      "title": "플로트가 사업모델이길 그친 주",
-      "summary": "오픈 스탠더드 컨소시엄 스테이블코인, 7월 1일 MiCA 시행, 결제량 증가가 겹치며 스테이블코인 경제학과 규제 지형이 함께 바뀌고 있다.",
-      "source": "X/obchakevich_",
-      "url": "https://x.com/obchakevich_/status/2075189703985258909",
-      "originalDate": "2026-07-09"
+      "id": "cr-jpmorgan-permissioned",
+      "title": "JP모건 \"비트코인의 진짜 리스크는 허가형 체인\"",
+      "summary": "토큰화·결제가 퍼블릭 체인을 우회해 허가형 블록체인으로 이동하는 것이 구조적 위협.",
+      "source": "JPMorgan",
+      "url": "https://links.tldrnewsletter.com/I8YL8z",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "JP모건 애널리스트들은 비트코인의 구조적 위협을 허가형 블록체인 채택으로 지목했다.",
+        "what": "Strategy의 비트코인 매도보다, 토큰화·결제·정산이 퍼블릭 체인과 그 토큰을 통째로 우회하는 허가형 체인으로 이동하는 것이 더 큰 리스크라는 분석이다. 기관은 프라이버시·KYC/AML·거버넌스·규제 확실성 때문에 허가형을 선호해 왔고, BIS도 시스템적으로 중요한 금융 인프라에 허가형 통합원장을 권해 왔다.",
+        "points": ["허가형 체인으로의 기관 수요 이동", "퍼블릭 체인 토큰 수요와 분리", "BIS의 허가형 지지"],
+        "why": ["'기관 채택=비트코인 호재' 공식에 대한 반론"]
+      }
     },
     {
-      "id": "crypto-ef-ai-bug-finding",
-      "title": "이더리움 재단: AI 에이전트는 좋은 버그 탐지기, 신탁은 아니다",
-      "summary": "프로토콜 보안팀이 조율된 AI 에이전트가 시스템 소프트웨어, 암호 코드, 스마트 컨트랙트에서 실제 취약점을 찾는다고 확인했다. 다만 대부분은 오탐이다.",
-      "source": "The Block",
-      "url": "https://www.theblock.co/post/407793/ethereum-foundation-says-ai-agents-find-real-bugs-but-most-are-false-positives",
-      "originalDate": "2026-07-09"
+      "id": "cr-cadence-monad-mev",
+      "title": "Cadence: 모나드의 MEV 해법",
+      "summary": "다중 동시 제안자 합의로 리더 독점을 깨고 암호화 멤풀과 결합해 MEV 전제조건 제거.",
+      "source": "Category Labs",
+      "url": "https://links.tldrnewsletter.com/xabmL5",
+      "originalDate": "2026-07-02",
+      "report": {
+        "tldr": "Category Labs가 MEV의 구조적 전제를 프로토콜 차원에서 없애는 합의 Cadence를 공개했다.",
+        "what": "다중 제안자 정렬을 합의에 직접 접합해 단일 리더 시스템과 같은 3라운드에 블록을 확정하고, Chorus·Conductor 컴포넌트로 블록 간격을 네트워크 지연에서 분리한다. 모나드 메인넷 200개 검증자·100ms 블록 간격 시뮬레이션에서 평균 50ms 제안 포함, 219ms 확정, 167ms 추측 확정성을 기록했다. BTX 암호화 멤풀과 결합해 MEV 전제조건을 제거한다.",
+        "points": ["다중 동시 제안자 합의", "시뮬레이션 평균 포함 50ms·확정 219ms", "BTX 암호화 멤풀 결합", "수수료 귀속 규칙·메인넷 일정 미공개"],
+        "why": ["shMON·aPriori 등 MEV 결합 스테이킹 상품 구조가 흔들릴 수 있음"]
+      }
     },
     {
-      "id": "crypto-lighter-latency",
-      "title": "라이터, 종단간 지연 280ms→55ms",
-      "summary": "메모리 할당 개선, GC 튜닝, CPU 피닝으로 지연을 줄이고 초당 2만 740건의 최고 처리량을 기록했다.",
-      "source": "X/Lighter",
-      "url": "https://x.com/Lighter_xyz/status/2074905536122789917",
-      "originalDate": "2026-07-09"
+      "id": "cr-lighter-latency",
+      "title": "마이크로초를 좇다: Lighter의 레이턴시 엔지니어링",
+      "summary": "엔드투엔드 p99 280ms→55ms, 하루 8.11억 건 처리 ATH 달성기.",
+      "source": "Lighter",
+      "url": "https://links.tldrnewsletter.com/IjfUvZ",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Lighter가 p99 레이턴시를 280ms에서 55ms로 깎은 최적화 과정을 공개했다.",
+        "what": "힙 할당 제거(int128/float64 전환), 원자적 불변 오더북 스냅샷, GOGC 튜닝(GC 일시정지 약 3배 감소), 인메모리 스냅샷 서비스, 수제 바이너리 직렬화를 쌓았다. 고루틴-스레드 피닝, SCHED_FIFO, 단일 NUMA 노드 통합으로 핫패스 적용 시간을 100-250μs까지 내렸고, 6월 5일 하루 8.11억 트랜잭션(평균 9,388 TPS·피크 20,740 TPS) ATH를 찍었다.",
+        "points": ["p99 280ms→55ms", "트랜잭션 처리 p99 1ms 미만", "하루 8.11억 건 ATH", "증명 생성과 실행 분리"],
+        "why": ["온체인 거래소가 CEX급 지연을 달성하는 기술 경로"]
+      }
     },
     {
-      "id": "crypto-monad-cadence",
-      "title": "케이던스, 모나드가 내놓은 MEV 해법",
-      "summary": "카테고리 랩스가 단일 리더 방식과 같은 시간 안에 여러 제안자가 동시에 블록을 내는 합의 프로토콜을 공개했다. 최종성은 약 219밀리초다.",
-      "source": "Four Pillars",
-      "url": "https://x.com/FourPillarsFP/status/2074821118050144747",
-      "originalDate": "2026-07-09"
+      "id": "cr-float-regime-change",
+      "title": "'플로트 수익 모델'이 무너진 한 주",
+      "summary": "Open Standard 컨소시엄 스테이블코인·서클 주가 17% 급락·MiCA 전환기 종료가 동시에.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/LLhR2x",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "스테이블코인 발행사가 준비금 이자를 독식하는 모델이 한 주 만에 구식이 됐다는 분석.",
+        "what": "비자·마스터카드·스트라이프·블랙록·코인베이스·구글 등 130여 파트너의 Open Standard가 준비금 수익 대부분을 유통 파트너에 돌려주는 컨소시엄 스테이블코인을 발표했고, 서클 주가 17% 하락이 이를 확인했다. MiCA 전환기가 7월 1일 종료돼 바이낸스가 유럽에서 배제된 사이 244개 사업자가 인가받았다. 바이낸스 결제 114% YoY 성장, 폴리곤 스테이블 전송 91.2억 달러, 러시아의 대외무역 암호화폐 결제 합법화도 이어졌다.",
+        "points": ["발행사 플로트 독식 모델 종언", "MiCA 전환기 종료·244개 인가", "결제 레일의 조용한 성장"],
+        "why": ["스테이블코인 수익 구조가 발행에서 유통으로 이동"]
+      }
     },
     {
-      "id": "crypto-aave-stable-vaults",
-      "title": "에이브, 고정금리 스테이블 볼트 출시",
-      "summary": "변동 온체인 대출 금리를 고정금리로 바꿔주는 인프라다. 자동 리밸런싱과 크로스체인 유동성 관리를 포함한다.",
+      "id": "cr-zapper-sunset",
+      "title": "DeFi 포트폴리오 트래커 Zapper, 7년 만에 종료",
+      "summary": "월 200만 사용자·누적 130억 달러 처리…8월 3일 서비스 전면 중단.",
+      "source": "Zapper",
+      "url": "https://links.tldrnewsletter.com/Nw9Cwe",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Zapper가 약 7년 만에 질서 있는 셧다운을 발표했다.",
+        "what": "전성기 월 200만 활성 사용자와 130억 달러 이상 거래를 처리했던 서비스로, Zapper.xyz·모바일 앱·API가 8월 3일 완전 중단된다. API 고객에겐 이전 안내가 제공되며, 팀은 인력의 타사 재배치를 추진 중이다.",
+        "points": ["8월 3일 전면 중단", "API 사용자 이전 안내", "대안 모색 후 결정된 wind-down"],
+        "why": ["DeFi 툴링의 수익화 난제를 보여주는 사례"]
+      }
+    },
+    {
+      "id": "cr-soul-agentic-commerce",
+      "title": "에이전트 커머스의 영혼: 'soul files' 제안",
+      "summary": "주간 8.7만 달러·1.2만 지갑에 머문 x402 생태계, 병목은 도구가 아니라 인간의 아이디어.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/XK2I48",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "에이전트가 스스로 목표를 만들게 하는 정체성 문서 'soul files'가 제안됐다.",
+        "what": "x402·MPP 레일의 주간 거래량은 약 8만7천 달러·1만2천 지갑 수준으로, 모든 거래가 여전히 인간의 위임에서 출발한다. 필자는 Hermes·OpenClaw 등에서 쓰이는 마크다운 정체성 문서로 에이전트를 실제 장소·동기에 접지시키면, 단발 프롬프트→에이전트 루프 도약에 준하는 자율 '루프 단계'가 열린다고 주장한다.",
+        "points": ["주간 거래 8.7만 달러의 초기 생태계", "병목은 인간의 아이디어 생성", "접지된 정체성 기반 자율 목표 제안"],
+        "why": ["에이전트 커머스의 다음 단계 논쟁 참고"]
+      }
+    },
+    {
+      "id": "cr-sailboatfi",
+      "title": "SailboatFi 데뷔: 비개발자가 3개월 바이브코딩한 iOS 트레이딩 앱",
+      "summary": "코인베이스 Base Account용 인터페이스를 Claude 코딩 도구만으로 제작.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/ffUoc4",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "프로그래밍 경험 없는 빌더가 Claude만으로 iOS 트레이딩 앱을 출시했다.",
+        "what": "코인베이스 Base Account용 트레이딩 인터페이스 SailboatFi를 3개월간 바이브코딩으로 만들었다.",
+        "points": ["비개발자 단독 제작", "3개월 개발 기간"],
+        "why": ["크립토 앱 개발 진입장벽 붕괴 사례"]
+      }
+    },
+    {
+      "id": "cr-ef-ai-bugfinding",
+      "title": "이더리움재단 \"AI 에이전트는 강력한 버그 발견 도구, 오라클은 아님\"",
+      "summary": "프로토콜 보안팀이 조율된 AI 에이전트로 실제 취약점 다수 확인.",
+      "source": "Ethereum Foundation",
+      "url": "https://links.tldrnewsletter.com/0wviCn",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "EF 보안팀이 AI 에이전트로 시스템 소프트웨어·암호 코드·스마트컨트랙트에서 실제 버그를 확인했다.",
+        "what": "조율된 에이전트 무리를 취약점 탐색에 투입해 성과를 냈지만, 판정자(오라클)가 아닌 탐색 도구로 봐야 한다고 선을 그었다.",
+        "points": ["실제 버그 확인 성과", "도구이지 판정자 아님"],
+        "why": ["감사 워크플로에 AI를 넣는 현실적 위치 설정"]
+      }
+    },
+    {
+      "id": "cr-bitgo-quantum",
+      "title": "비트고, 기관용 비트코인 지갑 양자 보호 도구 출시",
+      "summary": "UTXO 지갑의 양자 관련 노출을 평가·관리·축소.",
+      "source": "BitGo",
+      "url": "https://threadreaderapp.com/thread/2075249555327656168.html",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "비트고가 기관의 양자 리스크 관리 도구를 내놨다.",
+        "what": "UTXO 기반 비트코인 지갑의 양자 관련 노출을 평가하고 줄이는 보안 도구다.",
+        "points": ["양자 노출 평가", "기관 지갑 대상"],
+        "why": ["포스트퀀텀 대비가 커스터디 상품화 단계로 진입"]
+      }
+    },
+    {
+      "id": "cr-aave-stable-vaults",
+      "title": "아베, 고정금리 스테이블 볼트 출시",
+      "summary": "가변 온체인 대출 금리를 어떤 기업이든 제공 가능한 고정금리로 변환.",
       "source": "Aave",
       "url": "https://aave.com/blog/introducing-stable-vaults",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "crypto-bitgo-quantum",
-      "title": "비트고, 기관 지갑용 양자 대비 도구",
-      "summary": "UTXO 기반 비트코인 지갑의 양자컴퓨팅 노출도를 평가하고 완화하는 보안 도구를 내놨다.",
-      "source": "Thread Reader",
-      "url": "https://threadreaderapp.com/thread/2075249555327656168.html",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "crypto-zapper-sunset",
-      "title": "재퍼, 8월 3일 서비스 종료",
-      "summary": "월 활성 사용자 200만 명을 찍었던 디파이 포트폴리오 트래커가 약 7년 만에 모든 서비스를 접는다.",
-      "source": "X/sebaudet26",
-      "url": "https://x.com/sebaudet26/status/2074918469376856150",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "crypto-agentic-commerce-soul",
-      "title": "에이전틱 커머스의 병목은 도구가 아니라 사람",
-      "summary": "가맹점 엔드포인트는 늘었지만 거래량은 '사람의 아이디어 생성'에 묶여 있다. 정체성 문서인 '소울 파일'이 자율 에이전트의 목표를 열 수 있다는 제안이다.",
-      "source": "X/cuysheffield",
-      "url": "https://x.com/cuysheffield/status/2074913360093773853",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "crypto-sailboatfi",
-      "title": "비개발자가 클로드로 만든 iOS 트레이딩 앱",
-      "summary": "프로그래밍 경험이 없는 빌더가 클로드 코딩 도구만으로 코인베이스 Base 계정용 iOS 트레이딩 인터페이스 SailboatFi를 만들었다.",
-      "source": "X/rbthreek",
-      "url": "https://x.com/rbthreek/status/2074631675901026339",
-      "originalDate": "2026-07-08"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "Aave Labs가 고정금리 스테이블코인 수익 인프라 Stable Vaults를 출시했다.",
+        "what": "가변 온체인 대출 금리를 고정금리로 바꿔 기업이 자사 사용자에게 제공할 수 있게 하는 스마트컨트랙트 계층으로, 리밸런싱·크로스체인 유동성·금리 관리를 자동 처리한다.",
+        "points": ["가변→고정금리 변환 계층", "리밸런싱·크로스체인 자동화"],
+        "why": ["핀테크의 '수익형 계좌' 구축 부품화"]
+      }
     }
   ]
 }

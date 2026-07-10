@@ -6,100 +6,172 @@
   "bg": "#163021",
   "items": [
     {
-      "id": "mkt-aeo-jobs",
-      "title": "AEO 채용 시장, 리더급 연봉으로 열렸다",
-      "summary": "주요 브랜드에서 시니어 AI 검색 직무 50여 개가 열렸다. 인재풀은 얕은데 수요는 커지고 있고, SEO에서 분리된 독립 마케팅 기능으로 자리잡는 중이다.",
+      "id": "mk-aeo-jobs",
+      "title": "AEO 채용 2026: 대형 브랜드 전반 50+ 시니어 포지션",
+      "summary": "AI 검색 직무가 SEO에서 분화, 예산·오너십을 가진 리더급 연봉으로 채용 중.",
       "source": "Kaleigh Moore",
       "url": "https://www.kaleighmoore.com/blog/2026/7/6/ai-search-jobs",
-      "originalDate": "2026-07-06"
+      "originalDate": "2026-07-06",
+      "report": {
+        "tldr": "AI 검색 최적화(AEO)가 독립 직무로 부상하며 시니어 채용이 급증하고 있다.",
+        "what": "주요 브랜드·산업 전반에 50개 이상 오픈 포지션이 있으며, 엔트리 추가 업무가 아닌 예산과 오너십을 가진 시니어 역할이다. 연봉은 리더십 포지션급이고, AI 검색 사용 증가 대비 인재풀이 작아 구직자 우위 시장이다. 기능은 SEO에서 분리돼 전담 팀이 꾸려지고 있다.",
+        "points": ["50+ 시니어 오픈 포지션", "SEO에서 독립 분화", "인재풀 부족한 셀러스 마켓"],
+        "why": ["AI 검색이 실험이 아닌 핵심 마케팅 기능으로 승격"]
+      }
     },
     {
-      "id": "mkt-earned-media-ai-visibility",
-      "title": "AI 가시성엔 언드미디어가 필수",
-      "summary": "AI 검색은 언드미디어, 백링크, 제3자 언급으로 브랜드 신뢰도를 매긴다. 프리미엄 매체 인용은 자사 콘텐츠보다 3배 자주 인용되고, AI 유입은 전환율이 4배다.",
-      "source": "Marketing Dive",
-      "url": "https://www.marketingdive.com/news/why-unpaid-media-is-now-essential-to-ai-visibility/822485",
-      "originalDate": "2026-07-09"
+      "id": "mk-scannable-packaging",
+      "title": "모든 제품이 스캔 가능해지면 생기는 일",
+      "summary": "QR가 정적 라벨을 대체하며 패키징이 미디어 채널·데이터 레이어가 된다.",
+      "source": "LBB",
+      "url": "https://lbbonline.com/news/What-Happens-When-Every-Product-Becomes-Scannable",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "스캔형 패키징이 제품을 동적 디지털 접점으로 바꾸고 있다.",
+        "what": "QR 코드가 정적 라벨을 개인화·실시간 참여가 가능한 업데이트형 경험으로 대체한다. 패키징은 구매 후 가시성과 지속 상호작용을 주는 미디어 채널이자 데이터 레이어가 되고, 디지털 제품 여권(DPP)이 채택을 가속한다.",
+        "points": ["QR 기반 동적 라벨", "구매 후 데이터 확보", "DPP가 촉매"],
+        "why": ["패키징 예산이 고정 디자인에서 유연한 인프라로 이동"]
+      }
     },
     {
-      "id": "mkt-trust-is-new-seo",
-      "title": "신뢰가 새로운 SEO다",
-      "summary": "사용자가 AI 플랫폼 안에 머물면서 클릭의 가치가 떨어졌다. 인용보다 브랜드 언급이 중요해지고, 신뢰가 검증 행동을 좌우한다.",
-      "source": "YouTube · Kevin Indig",
-      "url": "https://www.youtube.com/watch?v=3okzHvSIkV0",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "mkt-email-benchmarks",
-      "title": "이메일 7만 9,235건에서 배운 것",
-      "summary": "주말 성과가 평일과 대등해졌고 월요일은 경쟁이 덜하다. 제목은 긴박감보다 짧고 담백한 쪽이 낫다. 발송 주기는 늘지만 브랜드당 총량은 그대로다.",
+      "id": "mk-email-benchmarks",
+      "title": "이메일 마케팅 트렌드: 실제 이메일 79,235통의 교훈",
+      "summary": "주말 발송이 평일 수준으로…월요일이 가장 한산한 받은편지함.",
       "source": "Email Love",
       "url": "https://emaillove.com/email-marketing-benchmarks-q2-2026",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "2026 2분기 이메일 벤치마크에서 발송 패턴의 구조 변화가 확인됐다.",
+        "what": "주말 발송이 평일과 비슷해져 월요일이 가장 덜 붐비는 요일이 됐다. 제목줄은 짧아지고 덜 자극적으로 바뀌며 구체성이 긴박감을 대체한다. 브랜드당 볼륨은 평탄하지만 꾸준히 보내는 브랜드가 늘었고 주간 주기가 상승세다. 산업별 편차가 커 범용 벤치마크는 오해를 부른다.",
+        "points": ["월요일이 최저 경쟁 시간대", "짧고 구체적인 제목줄", "뉴스레터·재참여 중심 이동"],
+        "why": ["발송 스케줄·제목 전략 재조정 근거"]
+      }
     },
     {
-      "id": "mkt-scannable-products",
-      "title": "모든 제품이 스캔 가능해지면",
-      "summary": "동적 QR과 디지털 제품 여권이 포장을 인터랙티브 채널로 바꾼다. 브랜드는 구매 후 접점과 고객 데이터 가시성을 얻는다.",
-      "source": "LBB Online",
-      "url": "https://lbbonline.com/news/What-Happens-When-Every-Product-Becomes-Scannable",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "mkt-logitech-mx-master",
-      "title": "20달러 마우스를 100달러 상징으로",
-      "summary": "로지텍은 디자인, 독자 기술, 생산성 이점으로 커모디티 마우스를 프리미엄으로 재포지셔닝했다. 원격근무가 입소문을 키웠고, 가격 결정력은 반복 개선에서 나왔다.",
-      "source": "Strategy Breakdowns",
-      "url": "https://strategybreakdowns.com/p/logitech-mx-master",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "mkt-managers-sales-calls",
-      "title": "관리자가 영업 미팅에 들어가야 하는 이유",
-      "summary": "고가치 콜에 관리자가 참여하면 신규 고객 매출이 13.2%, 재구매 매출이 12.5% 늘었다. 영업사원 신뢰도는 지키면서 딜의 중요성을 알리는 효과다.",
-      "source": "Science Says",
-      "url": "https://app.sciencesays.com/p/why-and-how-managers-should-join-sales-meetings",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "mkt-gtm-mistakes",
-      "title": "창업자가 저지르는 GTM 실수 10가지",
-      "summary": "따뜻한 소개로 고객과 제대로 대화하기 전에 대량 콜드아웃리치부터 돌린다. 반복 가능한 클로징을 증명하기 전에 영업을 채용하는 것도 낭비다.",
+      "id": "mk-gtm-mistakes",
+      "title": "파운더가 저지르는 GTM 실수 톱 10",
+      "summary": "2개월 차 대량 콜드 아웃바운드는 진짜 대화를 회피하는 지름길.",
       "source": "The Revenue Architect",
       "url": "https://www.therevenuearchitect.com/p/the-top-10-gtm-mistakes-founders",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "조기 스케일 본능이 만드는 GTM 실수들의 정리.",
+        "what": "창업 초기 수천 명 콜드 아웃바운드는 웜 인트로로 얻는 소수의 진짜 대화를 회피하는 행동이다. 성공 기준·타임라인·내부 챔피언 없는 '파일럿', 파운더가 클로징을 증명하기 전의 영업 채용도 같은 함정이다.",
+        "points": ["대량 콜드 아웃바운드 경계", "진짜 파일럿의 3요소", "영업 채용은 검증 후"],
+        "why": ["초기 GTM 자원 배분의 흔한 낭비 방지"]
+      }
     },
     {
-      "id": "mkt-meta-analysis-caution",
-      "title": "실험 결과 메타분석을 경계하라",
-      "summary": "A/B 테스트 결과를 합치면 주관적인 실험 분류와 제각각인 조건 탓에 신뢰할 수 없는 '베스트 프랙티스'가 나온다.",
-      "source": "LinkedIn · Jonny Longden",
-      "url": "https://www.linkedin.com/posts/jonnylongden_cro-experimentation-ecommerce",
-      "originalDate": "2026-07-09"
+      "id": "mk-gsc-aio-pipeline",
+      "title": "GSC 생성형 AI 데이터로 AIO 인용 프롬프트 찾기",
+      "summary": "GSC→Screaming Frog+Claude→Gemini 검증의 5단계 파이프라인.",
+      "source": "LinkedIn (Daniel Hinckley)",
+      "url": "https://www.linkedin.com/posts/danielhinckley_seo-ai-tip-use-gsc-generative-ai-data-share-7480656831107899392-1s80/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "어떤 질문이 AI 오버뷰 노출을 유발하는지 역추적하는 실전 파이프라인.",
+        "what": "GSC 생성형 AI 리포트로 AIO 노출 페이지를 찾고, Screaming Frog와 Claude Sonnet으로 인용 가능 주제·예상 프롬프트·콘텐츠 갭을 분석한 뒤, Gemini에서 해당 프롬프트가 사이트를 인용하는지 브랜드를 언급하는지 검증한다.",
+        "points": ["GSC AI 리포트 활용", "Claude로 프롬프트 역산", "Gemini 검증 단계"],
+        "why": ["AIO 시대의 실측 기반 콘텐츠 전략"]
+      }
     },
     {
-      "id": "mkt-gsc-ai-overviews",
-      "title": "GSC 생성형 데이터로 AI 오버뷰 추적하기",
-      "summary": "GSC 데이터 분석, 스크리밍 프로그 페이지 감사, 제미나이 프롬프트 테스트로 이어지는 5단계 워크플로로 인용 패턴을 확인한다.",
-      "source": "LinkedIn · Daniel Hinckley",
-      "url": "https://www.linkedin.com/posts/danielhinckley_seo-ai-tip-use-gsc-generative-ai-data",
-      "originalDate": "2026-07-09"
+      "id": "mk-meta-analysis-caution",
+      "title": "디지털 실험의 '메타분석'을 경계하라",
+      "summary": "주관적 라벨링·상이한 조건 탓에 결합 결과는 베스트 프랙티스가 못 된다.",
+      "source": "LinkedIn (Jonny Longden)",
+      "url": "https://www.linkedin.com/posts/jonnylongden_cro-experimentation-ecommerce-share-7479889404329766912-9Qzq/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "A/B 테스트 메타분석은 아이디어 발굴용이지 베스트 프랙티스의 원천이 아니다.",
+        "what": "테스트 카테고리는 주관적 라벨링에 의존하고 실험 조건이 제각각이라, 결합 결과가 단일 변수를 격리하거나 성과 변화의 진짜 원인을 밝히는 경우는 드물다.",
+        "points": ["라벨링 주관성", "조건 이질성", "아이디어 발굴용으로 한정"],
+        "why": ["CRO 의사결정의 근거 위계 정리"]
+      }
     },
     {
-      "id": "mkt-vibe-coding-workflows",
-      "title": "그로스 팀을 위한 바이브코딩 워크플로",
-      "summary": "UTM 생성기, 브리프 빌더 같은 사내 도구를 한 번의 프롬프트로 만든다. 기존 리드젠 툴을 넘어선 활용이다.",
+      "id": "mk-trust-new-seo",
+      "title": "신뢰가 새로운 SEO다: 케빈 인디그와의 대담 (영상)",
+      "summary": "클릭 소멸 시대엔 인용보다 브랜드 언급, 빨리 요점에 닿는 콘텐츠가 이긴다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/DHrcuf",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "AI 시대 마케팅에서 신뢰가 결정 변수가 된다는 케빈 인디그의 진단.",
+        "what": "사용자가 플랫폼 안에 머물며 클릭이 사라지고, 브랜드 언급이 인용보다 가치 있어진다. 모델·프롬프트별 가시성이 들쭉날쭉하고 '고스트 인용'으로 어트리뷰션이 거의 보이지 않는다. AI는 답을 스캔하므로 요점에 빨리 닿는 콘텐츠가 성과를 낸다.",
+        "points": ["브랜드 언급 > 인용", "고스트 인용 문제", "요점 우선 콘텐츠"],
+        "why": ["콘텐츠 구조·측정 체계의 전면 재설계 필요"]
+      }
+    },
+    {
+      "id": "mk-managers-sales-meetings",
+      "title": "매니저가 영업 미팅에 들어가야 하는 이유와 방법",
+      "summary": "550만 건 분석: 매니저+세일즈 팀이 신규 13.2%·재구매 12.5% 더 높은 매출.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/HbMfRF",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "고가치 미팅에 매니저를 붙이면 매출이 오르되, 주도권은 세일즈에게 있어야 한다.",
+        "what": "550만 건 영업 분석에서 매니저-세일즈 조합은 세일즈 2인 조합보다 신규 고객 13.2%, 재구매 고객 12.5% 높은 매출을 냈다. 매니저의 동석은 고객과 딜의 중요성을 시그널링하고, 매니저가 세일즈 전문성을 존중할 때 신뢰가 커진다. 모든 미팅이 아니라 리드 스코어로 선별 투입하라.",
+        "points": ["신규 +13.2%·재구매 +12.5%", "세일즈 주도·매니저 지원 구도", "리드 스코어 기반 선별"],
+        "why": ["세일즈 리더 시간 배분의 데이터 근거"]
+      }
+    },
+    {
+      "id": "mk-unpaid-media-ai",
+      "title": "AI 가시성에 언드 미디어가 필수인 이유",
+      "summary": "AI는 프리미엄 매체 콘텐츠를 브랜드 페이지보다 3배 자주 인용한다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/OVjFcx",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "AI 검색의 추천 여부는 서드파티 신뢰 신호가 좌우한다.",
+        "what": "AI 검색엔진은 브랜드 주장마다 신뢰도를 점수화하며 백링크 품질·언론 보도·서드파티 언급을 가중한다. 프리미엄 퍼블리셔 콘텐츠는 브랜드 소유 페이지보다 3배 자주 인용되고, AI 추천 경유 트래픽은 일반 검색 대비 최대 4배 전환율을 보인다.",
+        "points": ["프리미엄 매체 3배 인용", "AI 경유 전환율 최대 4배", "언드 미디어 가중치"],
+        "why": ["PR 예산의 ROI가 AI 가시성으로 재평가"]
+      }
+    },
+    {
+      "id": "mk-logitech-mx",
+      "title": "로지텍은 어떻게 20달러 커머디티를 100달러 상징으로 만들었나",
+      "summary": "MX Master 출시 전 브랜드 재구축, 가시적 장인정신과 생산성 주장으로 가격 정당화.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/SOEQOs",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "로지텍의 프리미엄 전환은 제품보다 브랜드 재구축이 먼저였다.",
+        "what": "디자인·생산성·품질 중심으로 브랜드를 재정비한 뒤 MX Master를 출시했다. 특허 기능과 '초당 1,000줄 스크롤', '작업 시간 33% 단축' 같은 생산성 주장으로 높은 가격에 신뢰를 부여했고, 재택근무 수요 급증 전에 입소문을 확보한 뒤 정기 제품 업데이트로 재구매를 만들었다.",
+        "points": ["브랜드 선행 재구축", "구체적 생산성 소구", "가격 경쟁 대신 업데이트 주기"],
+        "why": ["커머디티 카테고리의 프리미엄화 플레이북"]
+      }
+    },
+    {
+      "id": "mk-instagram-fastest",
+      "title": "6월 미국 인스타그램 최고 성장 계정 10",
+      "summary": "@olivertree, @ishowspeed, @chatgpt 등이 목록에.",
+      "source": "NetInfluencer",
+      "url": "https://www.netinfluencer.com/the-10-fastest-growing-us-instagram-accounts-of-june-2026/",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "6월 미국서 가장 빨리 성장한 인스타 계정 목록이 공개됐다.",
+        "what": "@olivertree, @ishowspeed, @chatgpt 등이 포함됐다.",
+        "points": ["크리에이터·브랜드 혼재", "@chatgpt의 소셜 성장"],
+        "why": ["플랫폼 내 관심 이동 파악"]
+      }
+    },
+    {
+      "id": "mk-vibe-coding-workflows",
+      "title": "그로스 팀의 바이브코딩 워크플로",
+      "summary": "리드젠 도구를 넘어 UTM 빌더·브리프 생성기 같은 내부 유틸을 원프롬프트로.",
       "source": "Marketing Ideas",
       "url": "https://www.marketingideas.com/p/vibe-coding-cheat-sheet-for-growth",
-      "originalDate": "2026-07-09"
-    },
-    {
-      "id": "mkt-instagram-fastest-growing",
-      "title": "6월 미국 인스타그램 급성장 계정 10선",
-      "summary": "@olivertree, @ishowspeed, @chatgpt 등이 이름을 올렸다.",
-      "source": "Net Influencer",
-      "url": "https://www.netinfluencer.com/the-10-fastest-growing-us-instagram-accounts-of-june-2026",
-      "originalDate": "2026-07-09"
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "마케팅 팀이 내부 도구를 직접 바이브코딩하는 사례 모음.",
+        "what": "리드젠 도구를 넘어 UTM 링크 빌더, 브리프 생성기 같은 내부 유틸리티를 한 번의 프롬프트 접근으로 만든다.",
+        "points": ["내부 유틸 자체 제작", "원프롬프트 접근"],
+        "why": ["마케팅 조직의 개발 의존도 감소"]
+      }
     }
   ]
 }
