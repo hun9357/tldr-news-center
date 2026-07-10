@@ -1,0 +1,104 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-jpm-permissioned",
+      "title": "JPMorgan, 비트코인의 진짜 위협은 '허가형 블록체인'",
+      "summary": "전략 보유사의 매도보다 허가형 체인 확산이 구조적 위협이라는 분석이다. 기관은 프라이버시, 컴플라이언스, 규제 확실성 때문에 허가형 인프라를 택해왔다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407776/jpmorgan-bitcoin-risk-strategy-blockchain-tokens-crypto",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-swift-ledger-live",
+      "title": "스위프트 블록체인 원장, 17개 대형 은행과 가동",
+      "summary": "9개월 개발 끝에 분산원장 플랫폼이 출범했다. ANZ·BNP파리바·HSBC·UBS 등이 24시간 토큰화 국경간 결제 파일럿을 준비 중이다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2075246240799842614.html",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "82%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "국경간 결제 · 토큰화"
+      }
+    },
+    {
+      "id": "crypto-float-business-model",
+      "title": "플로트가 사업모델이길 그친 주",
+      "summary": "오픈 스탠더드 컨소시엄 스테이블코인, 7월 1일 MiCA 시행, 결제량 증가가 겹치며 스테이블코인 경제학과 규제 지형이 함께 바뀌고 있다.",
+      "source": "X/obchakevich_",
+      "url": "https://x.com/obchakevich_/status/2075189703985258909",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-ef-ai-bug-finding",
+      "title": "이더리움 재단: AI 에이전트는 좋은 버그 탐지기, 신탁은 아니다",
+      "summary": "프로토콜 보안팀이 조율된 AI 에이전트가 시스템 소프트웨어, 암호 코드, 스마트 컨트랙트에서 실제 취약점을 찾는다고 확인했다. 다만 대부분은 오탐이다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/407793/ethereum-foundation-says-ai-agents-find-real-bugs-but-most-are-false-positives",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-lighter-latency",
+      "title": "라이터, 종단간 지연 280ms→55ms",
+      "summary": "메모리 할당 개선, GC 튜닝, CPU 피닝으로 지연을 줄이고 초당 2만 740건의 최고 처리량을 기록했다.",
+      "source": "X/Lighter",
+      "url": "https://x.com/Lighter_xyz/status/2074905536122789917",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-monad-cadence",
+      "title": "케이던스, 모나드가 내놓은 MEV 해법",
+      "summary": "카테고리 랩스가 단일 리더 방식과 같은 시간 안에 여러 제안자가 동시에 블록을 내는 합의 프로토콜을 공개했다. 최종성은 약 219밀리초다.",
+      "source": "Four Pillars",
+      "url": "https://x.com/FourPillarsFP/status/2074821118050144747",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-aave-stable-vaults",
+      "title": "에이브, 고정금리 스테이블 볼트 출시",
+      "summary": "변동 온체인 대출 금리를 고정금리로 바꿔주는 인프라다. 자동 리밸런싱과 크로스체인 유동성 관리를 포함한다.",
+      "source": "Aave",
+      "url": "https://aave.com/blog/introducing-stable-vaults",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-bitgo-quantum",
+      "title": "비트고, 기관 지갑용 양자 대비 도구",
+      "summary": "UTXO 기반 비트코인 지갑의 양자컴퓨팅 노출도를 평가하고 완화하는 보안 도구를 내놨다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2075249555327656168.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-zapper-sunset",
+      "title": "재퍼, 8월 3일 서비스 종료",
+      "summary": "월 활성 사용자 200만 명을 찍었던 디파이 포트폴리오 트래커가 약 7년 만에 모든 서비스를 접는다.",
+      "source": "X/sebaudet26",
+      "url": "https://x.com/sebaudet26/status/2074918469376856150",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-agentic-commerce-soul",
+      "title": "에이전틱 커머스의 병목은 도구가 아니라 사람",
+      "summary": "가맹점 엔드포인트는 늘었지만 거래량은 '사람의 아이디어 생성'에 묶여 있다. 정체성 문서인 '소울 파일'이 자율 에이전트의 목표를 열 수 있다는 제안이다.",
+      "source": "X/cuysheffield",
+      "url": "https://x.com/cuysheffield/status/2074913360093773853",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "crypto-sailboatfi",
+      "title": "비개발자가 클로드로 만든 iOS 트레이딩 앱",
+      "summary": "프로그래밍 경험이 없는 빌더가 클로드 코딩 도구만으로 코인베이스 Base 계정용 iOS 트레이딩 인터페이스 SailboatFi를 만들었다.",
+      "source": "X/rbthreek",
+      "url": "https://x.com/rbthreek/status/2074631675901026339",
+      "originalDate": "2026-07-08"
+    }
+  ]
+}

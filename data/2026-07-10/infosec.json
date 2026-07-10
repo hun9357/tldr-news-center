@@ -1,0 +1,142 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-friendly-fire-rce",
+      "title": "방어용 AI 에이전트를 역이용한 원격코드실행",
+      "summary": "연구진이 조작된 오픈소스 라이브러리를 리뷰시켜 Claude Code와 OpenAI Codex가 악성코드를 실행하게 만들었다. 프롬프트 인젝션으로 안전장치를 우회했다.",
+      "source": "AI Now Institute",
+      "url": "https://ainowinstitute.org/publications/friendly-fire-exploit-brief",
+      "originalDate": "2026-07-08",
+      "intel": {
+        "impact": "High",
+        "confidence": "86%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "코딩 에이전트 · 의존성 리뷰 · CI/CD"
+      },
+      "report": {
+        "tldr": "보안 점검에 쓰라고 붙여둔 코딩 에이전트가, 점검 대상 코드에 심긴 프롬프트로 공격자의 코드를 대신 실행했다.",
+        "what": "연구진은 오픈소스 라이브러리에 프롬프트 인젝션 페이로드를 심고 Claude Code와 OpenAI Codex에 통상적인 보안 리뷰를 시켰다. 두 에이전트 모두 안전장치를 우회해 원격코드실행에 도달했다.",
+        "points": [
+          "공격 표면은 '리뷰 대상 코드' 그 자체",
+          "일상적인 의존성 검토 과정에서 트리거",
+          "Claude Code와 Codex 양쪽에서 재현",
+          "같은 날 npm 12가 설치 스크립트를 기본 차단"
+        ],
+        "why": [
+          "에이전트를 CI/CD에 붙일수록 공격 표면이 파이프라인 권한까지 확대",
+          "신뢰 경계가 '사람이 읽는 코드'에서 '모델이 읽는 코드'로 이동",
+          "공급망 공격자가 페이로드를 사람 눈이 아닌 모델 눈에 맞춰 설계 가능"
+        ],
+        "context": "프롬프트 인젝션은 모델이 데이터와 명령을 구분하지 못하는 데서 비롯된다. 코드 리뷰는 신뢰할 수 없는 입력을 모델에 그대로 먹이는 전형적 상황이다.",
+        "action": "코딩 에이전트를 네트워크·자격증명 없는 샌드박스에서 실행하고, 에이전트 계정 권한을 최소화하며, 실행 가능한 도구 호출은 사람이 승인하도록 게이트를 둘 것."
+      }
+    },
+    {
+      "id": "infosec-puerto-rico-ssn",
+      "title": "푸에르토리코 정부기관, 주민 100만 명 SSN 노출",
+      "summary": "지방세수징수센터(CRIM)의 재산세 데이터베이스 인터페이스가 무방비로 열려 있었다. 공개 지도는 안전해 보였지만 약간의 기술 지식으로 민감정보에 닿을 수 있었다.",
+      "source": "ProPublica",
+      "url": "https://www.propublica.org/article/puerto-rico-crim-data-breach",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "90%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "공공 DB · PII"
+      }
+    },
+    {
+      "id": "infosec-npm12-install-scripts",
+      "title": "npm 12, 설치 스크립트 기본 비활성화",
+      "summary": "install 스크립트, git 의존성, 원격 URL 설치를 기본 차단한다. 명시적 허용목록과 민감 작업 2FA를 강제해 공급망 위험을 줄인다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "88%",
+        "owner": "Eng",
+        "status": "New",
+        "affectedSurface": "npm · CI/CD"
+      }
+    },
+    {
+      "id": "infosec-exploitarium",
+      "title": "제로데이 PoC 130여 건 무더기 공개",
+      "summary": "libssh2 인증 전 RCE, Gitea 관리자 사칭 등 검증되지 않은 익스플로잇이 대량 공개됐다. 며칠 만에 스캐닝이 시작됐고, libssh2 패치와 HTTP 헤더 검증이 권고된다.",
+      "source": "Detections.ai",
+      "url": "https://detections.ai/share/inspiration/VNJMKFVM",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "libssh2 · Gitea"
+      }
+    },
+    {
+      "id": "infosec-rogueplanet-zeroday",
+      "title": "MS, '로그플래닛' 제로데이 최종 패치",
+      "summary": "맬웨어 보호 엔진의 경쟁 조건으로 SYSTEM 권한 명령 프롬프트를 딸 수 있었다. 완전 패치된 윈도도 영향을 받았고, 공개 절차 논쟁 끝에 수정됐다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/07/09/microsoft-closes-book-on-nightmare-eclipses-rogueplanet-zero-day/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-transsion-telemetry",
+      "title": "아프리카 판매 폰 절반, 중국으로 텔레메트리 전송",
+      "summary": "트랜션 단말에 기본 탑재된 안드로이드 텔레메트리 스택이 GPS 좌표, 배터리 상태, 앱 사용, 기지국 정보를 알리바바 클라우드로 보낸다. 제거는 불가능하고 DNS 차단만이 완화책이다.",
+      "source": "NowSecure",
+      "url": "https://www.nowsecure.com/blog/2026/07/08/what-the-transsion-telemetry-research-means-for-mobile-security/",
+      "originalDate": "2026-07-08"
+    },
+    {
+      "id": "infosec-openmandriva-sabotage",
+      "title": "오픈만드리바, 기여자 고의 파괴 주장",
+      "summary": "관리자 권한을 가진 기여자가 아카이브 코드를 지우고 빈 패키지를 배포해 그놈·코스믹 데스크톱 지원을 없앴다는 주장이다. 당사자는 부인하고 있다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-discord-ai-bans",
+      "title": "디스코드 AI 모더레이션 오류로 24시간 만에 8천 명 차단",
+      "summary": "새 자체 모델이 격자·기하학 패턴 이미지를 오탐하면서 약 8,000명이 부당하게 차단됐다. 이의신청 절차는 심각하게 적체됐다.",
+      "source": "programming-helper.com",
+      "url": "https://www.programming-helper.com/tech/discord-ai-moderation-glitch-wrongful-bans-8000-users-2026",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-cisa-reporting-rule",
+      "title": "CISA, 9월까지 사이버 신고 규칙 확정 전망",
+      "summary": "주요 인프라 사업자는 중대 침해를 72시간 이내에, 랜섬웨어 지불은 24시간 이내에 신고해야 한다.",
+      "source": "NextGov",
+      "url": "https://www.nextgov.com/cybersecurity/2026/07/cisa-expects-finalize-key-cyber-reporting-rule-september/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-goddamn-ransomware",
+      "title": "'GodDamn' 랜섬웨어, BYOVD로 미국 기업 공격",
+      "summary": "Hyadina 그룹이 AnyDesk와 자격증명 탈취 도구를 함께 써 윈도 인프라에 지속성을 확보했다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "infosec-formal-verification",
+      "title": "형식 검증, 이제 모델이 대신 쓴다",
+      "summary": "Opus 4.5 같은 모델이 명세를 Dafny 등으로 옮겨 형식 검증된 코드를 만든다. 다만 명세가 불완전하거나 외부 의존성이 있으면 검증 공백이 남는다.",
+      "source": "ACM Queue",
+      "url": "https://queue.acm.org/detail.cfm?id=3819084",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "name": "개발",
+  "source": "TLDR Web Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-cursor-ai-stats",
+      "title": "커서 통계: 상위 개발자는 주 4만 줄, 중앙값은 700줄",
+      "summary": "상위 사용자와 중앙값 사용자의 생산량 격차가 크게 벌어졌다. AI 토큰 사용량의 약 90%는 새 코드 작성이 아니라 기존 코드를 읽는 데 쓰인다.",
+      "source": "Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-interesting-ai-coding-stats",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-token-pricing-evans",
+      "title": "토큰 가격을 생각하는 법",
+      "summary": "지금은 공급 제약이 토큰 경제를 좌우한다. 프리미엄 모델이 마진을 지킬지, 박리다매 인프라로 수렴할지는 아직 불확실하다.",
+      "source": "Benedict Evans",
+      "url": "https://www.ben-evans.com/benedictevans/2026/7/9/ways-to-think-about-token-pricing",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-ai-buildout-grid",
+      "title": "AI 구축을 진짜로 막는 것은 전력망",
+      "summary": "텍사스 스타게이트를 비롯한 인프라 확장이 계통 연계 대기열에 막혔다. 발전 용량은 충분한데 낡은 접속 절차가 병목이다.",
+      "source": "Works in Progress",
+      "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-fable5-vs-opus48",
+      "title": "성과 기반 평가, 프런티어 랩엔 경고음",
+      "summary": "Fable 5, Opus 4.8 같은 최상위 모델도 실제 기업 성과에서는 전환율 개선 0을 냈다. 벤치마크 점수와 무관하게 조직들은 SOTA 대신 특화 모델을 택하고 있다.",
+      "source": "Vin Vashishta",
+      "url": "https://vinvashishta.substack.com/p/fable-5-vs-opus-48-outcomes-based",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-900k-lines-wrong",
+      "title": "AI로 90만 줄을 짜고 배운 것",
+      "summary": "대량의 AI 코드를 만든 뒤 저자는 도구의 실제 효용을 재평가하고, 아키텍처 결정만큼은 인간 판단을 지켜야 한다고 강조한다.",
+      "source": "Leadership Lighthouse",
+      "url": "https://leadershiplighthouse.substack.com/p/what-900000-lines-of-ai-built-code",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-ai-slop-codebase",
+      "title": "AI 슬롭은 코드베이스에서 시작된다",
+      "summary": "AI 코딩의 효과는 코드베이스의 구조와 일관성에 좌우된다. 표준 패턴 중심의 전략적 재작성이 결과 품질을 끌어올린다.",
+      "source": "thetruthasiseeitnow.com",
+      "url": "https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-fal-ideogram-subsecond",
+      "title": "품질 손실 없이 1초 미만 이미지 생성",
+      "summary": "FP4 연산과 양자화 인지 증류로 Ideogram V4의 생성 시간을 2.75초에서 0.44초로 줄이면서 화질을 유지했다.",
+      "source": "Fal.ai Blog",
+      "url": "https://blog.fal.ai/serving-sub-second-ideogram-v4-without-quality-loss/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-frontend-what-happened",
+      "title": "당신이 안 보는 사이 프런트엔드에 벌어진 일",
+      "summary": "자바스크립트 생태계 팽창으로 복잡도가 치솟았지만, 최근 흐름은 단순화와 기본 원칙 복원 쪽으로 돌아서고 있다.",
+      "source": "David Poblador",
+      "url": "https://davidpoblador.com/deep-dives/what-happened-to-the-frontend/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-progressive-disclosure",
+      "title": "점진적 공개: 보조 바퀴에서 일주일짜리 에이전트까지",
+      "summary": "핵심 기능을 먼저 보여주고 고급 기능은 단계적으로 연다. 일반 사용자의 효율과 숙련자의 깊이를 동시에 잡는 설계 원칙이다.",
+      "source": "Jakob Nielsen PhD",
+      "url": "https://jakobnielsenphd.substack.com/p/progressive-disclosure",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-traycer",
+      "title": "트레이서, 오픈소스 에이전트 오케스트레이션",
+      "summary": "기존 에이전트 서비스를 연결하고 분산 메모리로 컨텍스트를 유지한 채 동시 작업을 돌린다. 모델 선택과 팀 협업도 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/traycerai/traycer",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-glm52-vat",
+      "title": "GLM 5.2, 인간 부기사 수준 정확도를 1% 비용에",
+      "summary": "영국 중소기업의 분기 부가세 서류 작성에서 전문가급 결과를 훨씬 낮은 비용에 내놨다.",
+      "source": "Toot Books",
+      "url": "https://toot-books.pages.dev/blog/glm-5-2-vat-benchmark",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "dev-data-only-moat",
+      "title": "데이터가 유일한 해자",
+      "summary": "AI 제품은 사용 기록과 고객 워크플로를 독점 지식으로 바꿔야 이긴다. 문제를 풀기 어려울수록 조직의 성장 여지도 커진다.",
+      "source": "Frontier AI",
+      "url": "https://frontierai.substack.com/p/data-is-your-only-moat-884",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-lovable-300m",
+      "title": "러버블, 132억 달러 밸류에 3억 달러 조달 협상",
+      "summary": "12월 시리즈 B의 66억 달러에서 두 배로 뛴다. 직원 146명에 연환산 매출 5억 달러 이상이다. AI 자금 거품 우려도 함께 커진다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/lovable-is-reportedly-in-talks-to-raise-300m-at-a-13-2bn-valuation",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "78%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "바이브코딩 · 디자인 툴"
+      }
+    },
+    {
+      "id": "design-character-ai-microdrama",
+      "title": "캐릭터닷AI, 인터랙티브 마이크로드라마 제작",
+      "summary": "로맨스·호러·생존 3개 시리즈를 AI로 만든다. 성인 이용자는 등장인물과 대화·롤플레이할 수 있고, 향후 창작자 도구의 실험장 역할을 한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/09/character-ai-enters-the-microdrama-arena-with-its-own-productions-but-with-a-twist/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "design-spaghetti-table-protocol",
+      "title": "스파게티 테이블 프로토콜: 15분 AI 스트레스 테스트",
+      "summary": "불가능한 가구 설계를 요청해 멀티모달 AI가 물리 제약을 이해하는지 본다. 3개 모델 합산 30점 만점에 4점, 클로드만 불가능함을 지적하고도 렌더링했다.",
+      "source": "UX Design",
+      "url": "https://uxdesign.cc/the-15-minute-ai-stress-test-every-designer-can-run-ce8de95ff5c9",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "design-google-photos-remix",
+      "title": "구글 포토, 영상 리믹스 기능",
+      "summary": "제미나이 기반 도구가 10초 이하 영상을 시네마틱 조명, 배경 교체, 수채화·유화·스케치 스타일로 바꾼다. 일부 지역의 AI Plus·Pro·Ultra 구독자부터 순차 적용된다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/phones/google-photos-can-now-turn-your-ordinary-videos-into-ai-generated-works-of-art/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "design-storybook-workbench",
+      "title": "스토리북 워크벤치로 UI 감사하기",
+      "summary": "이블 마션스가 오픈소스 에이전트 도구를 냈다. 죽은 코드, 디자인 시스템 중복, 접근성 문제를 며칠이 아닌 몇 시간 만에 찾아낸다.",
+      "source": "Evil Martians",
+      "url": "https://evilmartians.com/chronicles/storybook-workbench-audit-vibe-coded-uis-and-find-hidden-bugs-in-hours",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "design-engineering-evolution",
+      "title": "디자인 엔지니어링의 진화",
+      "summary": "디자인부터 구현까지 한 사람이 관통하는 방향으로 옮겨간다. 코딩 에이전트가 마찰을 줄이면서 취향과 실행력이 함께 중요해졌다.",
+      "source": "Marcelo Chaman",
+      "url": "https://marcelochaman.ca/s/design-engineering",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "design-clients-trust-ai",
+      "title": "클라이언트가 크리에이티브보다 AI를 믿을 때",
+      "summary": "완성된 AI 시안을 들고 오는 클라이언트가 늘면서, 에이전시의 가치를 보여주던 컨셉 개발 단계가 통째로 건너뛰어진다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/branding/what-happens-when-clients-trust-ai-more-than-creative-expertise",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "design-sell-design-thinking",
+      "title": "제작비가 싸질 때 디자인 씽킹을 파는 법",
+      "summary": "AI가 제작 비용을 낮추는 만큼 디자이너는 실행이 아니라 판단, 취향, 문제 정의를 앞세워야 한다.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/tips/if-ai-production-is-making-production-cheaper-how-can-you-sell-design-thinking-instead/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "design-cancelled-projects-impact",
+      "title": "무산된 디자인 프로젝트의 임팩트 측정",
+      "summary": "출시 후 지표를 기다리지 말고, 프로토타입과 테스트 단계에서 관찰 가능한 행동 신호를 찾아 기록해두라는 조언이다.",
+      "source": "The Designer's Field Guide",
+      "url": "https://thedesignersfieldguide.substack.com/p/how-do-you-talk-about-the-impact",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "design-bori-cafe-branding",
+      "title": "보리 카페, 유기적 브랜딩 리디자인",
+      "summary": "스튜디오 모아라가 흙빛 톤, 정갈한 타이포, 유기적 일러스트를 물리·디지털 접점 전반에 적용해 브랜드 인지를 강화했다.",
+      "source": "Abduzeedo",
+      "url": "https://abduzeedo.com/studio-moara-crafts-organic-branding-bori-cafe",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

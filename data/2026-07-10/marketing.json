@@ -1,0 +1,105 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-aeo-jobs",
+      "title": "AEO 채용 시장, 리더급 연봉으로 열렸다",
+      "summary": "주요 브랜드에서 시니어 AI 검색 직무 50여 개가 열렸다. 인재풀은 얕은데 수요는 커지고 있고, SEO에서 분리된 독립 마케팅 기능으로 자리잡는 중이다.",
+      "source": "Kaleigh Moore",
+      "url": "https://www.kaleighmoore.com/blog/2026/7/6/ai-search-jobs",
+      "originalDate": "2026-07-06"
+    },
+    {
+      "id": "mkt-earned-media-ai-visibility",
+      "title": "AI 가시성엔 언드미디어가 필수",
+      "summary": "AI 검색은 언드미디어, 백링크, 제3자 언급으로 브랜드 신뢰도를 매긴다. 프리미엄 매체 인용은 자사 콘텐츠보다 3배 자주 인용되고, AI 유입은 전환율이 4배다.",
+      "source": "Marketing Dive",
+      "url": "https://www.marketingdive.com/news/why-unpaid-media-is-now-essential-to-ai-visibility/822485",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-trust-is-new-seo",
+      "title": "신뢰가 새로운 SEO다",
+      "summary": "사용자가 AI 플랫폼 안에 머물면서 클릭의 가치가 떨어졌다. 인용보다 브랜드 언급이 중요해지고, 신뢰가 검증 행동을 좌우한다.",
+      "source": "YouTube · Kevin Indig",
+      "url": "https://www.youtube.com/watch?v=3okzHvSIkV0",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-email-benchmarks",
+      "title": "이메일 7만 9,235건에서 배운 것",
+      "summary": "주말 성과가 평일과 대등해졌고 월요일은 경쟁이 덜하다. 제목은 긴박감보다 짧고 담백한 쪽이 낫다. 발송 주기는 늘지만 브랜드당 총량은 그대로다.",
+      "source": "Email Love",
+      "url": "https://emaillove.com/email-marketing-benchmarks-q2-2026",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-scannable-products",
+      "title": "모든 제품이 스캔 가능해지면",
+      "summary": "동적 QR과 디지털 제품 여권이 포장을 인터랙티브 채널로 바꾼다. 브랜드는 구매 후 접점과 고객 데이터 가시성을 얻는다.",
+      "source": "LBB Online",
+      "url": "https://lbbonline.com/news/What-Happens-When-Every-Product-Becomes-Scannable",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-logitech-mx-master",
+      "title": "20달러 마우스를 100달러 상징으로",
+      "summary": "로지텍은 디자인, 독자 기술, 생산성 이점으로 커모디티 마우스를 프리미엄으로 재포지셔닝했다. 원격근무가 입소문을 키웠고, 가격 결정력은 반복 개선에서 나왔다.",
+      "source": "Strategy Breakdowns",
+      "url": "https://strategybreakdowns.com/p/logitech-mx-master",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-managers-sales-calls",
+      "title": "관리자가 영업 미팅에 들어가야 하는 이유",
+      "summary": "고가치 콜에 관리자가 참여하면 신규 고객 매출이 13.2%, 재구매 매출이 12.5% 늘었다. 영업사원 신뢰도는 지키면서 딜의 중요성을 알리는 효과다.",
+      "source": "Science Says",
+      "url": "https://app.sciencesays.com/p/why-and-how-managers-should-join-sales-meetings",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-gtm-mistakes",
+      "title": "창업자가 저지르는 GTM 실수 10가지",
+      "summary": "따뜻한 소개로 고객과 제대로 대화하기 전에 대량 콜드아웃리치부터 돌린다. 반복 가능한 클로징을 증명하기 전에 영업을 채용하는 것도 낭비다.",
+      "source": "The Revenue Architect",
+      "url": "https://www.therevenuearchitect.com/p/the-top-10-gtm-mistakes-founders",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-meta-analysis-caution",
+      "title": "실험 결과 메타분석을 경계하라",
+      "summary": "A/B 테스트 결과를 합치면 주관적인 실험 분류와 제각각인 조건 탓에 신뢰할 수 없는 '베스트 프랙티스'가 나온다.",
+      "source": "LinkedIn · Jonny Longden",
+      "url": "https://www.linkedin.com/posts/jonnylongden_cro-experimentation-ecommerce",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-gsc-ai-overviews",
+      "title": "GSC 생성형 데이터로 AI 오버뷰 추적하기",
+      "summary": "GSC 데이터 분석, 스크리밍 프로그 페이지 감사, 제미나이 프롬프트 테스트로 이어지는 5단계 워크플로로 인용 패턴을 확인한다.",
+      "source": "LinkedIn · Daniel Hinckley",
+      "url": "https://www.linkedin.com/posts/danielhinckley_seo-ai-tip-use-gsc-generative-ai-data",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-vibe-coding-workflows",
+      "title": "그로스 팀을 위한 바이브코딩 워크플로",
+      "summary": "UTM 생성기, 브리프 빌더 같은 사내 도구를 한 번의 프롬프트로 만든다. 기존 리드젠 툴을 넘어선 활용이다.",
+      "source": "Marketing Ideas",
+      "url": "https://www.marketingideas.com/p/vibe-coding-cheat-sheet-for-growth",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "mkt-instagram-fastest-growing",
+      "title": "6월 미국 인스타그램 급성장 계정 10선",
+      "summary": "@olivertree, @ishowspeed, @chatgpt 등이 이름을 올렸다.",
+      "source": "Net Influencer",
+      "url": "https://www.netinfluencer.com/the-10-fastest-growing-us-instagram-accounts-of-june-2026",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

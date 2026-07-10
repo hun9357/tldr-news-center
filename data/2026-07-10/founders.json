@@ -1,0 +1,97 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-ai-value-capture",
+      "title": "AI의 가치 포획 문제",
+      "summary": "기업용 AI는 예외 로그와 의사결정 흔적에서 민감한 사내 지식을 학습한다. 고객이 소유하는 메모리와 감사 추적이 창업자에게 중요해진다.",
+      "source": "X/JayaGup10",
+      "url": "https://x.com/JayaGup10/status/2075074218065265078",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-gamma-100m-arr",
+      "title": "감마, 50명으로 ARR 1억 달러",
+      "summary": "감마 CEO가 입소문 성장만으로 소규모 팀에서 흑자를 낸 과정과 그 사이 저지른 실수를 공유했다.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/how-gamma-hit-100m-arr-with-a-team-of-50-grant-lees-4-lessons-at-saastr-ai-2026/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-preferential-attachment",
+      "title": "승자가 계속 이기는 이유",
+      "summary": "초기의 작은 우위가 조기 모멘텀과 가시성을 거쳐 큰 성공으로 복리 증식한다는 선호적 연결 이론.",
+      "source": "E.J. Jorgenson",
+      "url": "https://www.ejorgenson.com/blog/preferential-attachment",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-culture-at-scale",
+      "title": "규모가 커져도 문화를 지키는 법",
+      "summary": "머큐리가 성장기 문화 유지 원칙 네 가지를 공유했다. 진정성과 신중한 임원 채용이 핵심이다.",
+      "source": "X/immad",
+      "url": "https://x.com/immad/status/2075002604963471523",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-mighty-creator",
+      "title": "막강한 크리에이터의 시대",
+      "summary": "크리에이터가 포맷을 정의하고 제품을 문화에 심는다. 전통적 인플루언서 마케팅을 넘어선 단계다.",
+      "source": "andjelicaaa",
+      "url": "https://andjelicaaa.substack.com/p/the-reign-of-the-great-creator",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-taste-requires-eating",
+      "title": "취향을 원하면 직접 먹어봐야 한다",
+      "summary": "AI가 생산성을 올릴수록 창작의 제약은 미적 판단으로 옮겨간다.",
+      "source": "X/jxnlco",
+      "url": "https://x.com/jxnlco/article/2073819508729684462",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-chatgpt-work",
+      "title": "ChatGPT Work로 가장 야심찬 일을",
+      "summary": "팀 도구를 통합해 흩어진 메모를 완성된 결과물로 바꾼다. 전 요금제에서 제공된다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/chatgpt-work/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-ship-os",
+      "title": "Ship OS",
+      "summary": "노션 기반 제품 개발 셋업으로, 커스텀 에이전트와 함께 기획부터 출시까지 워크플로를 관리한다.",
+      "source": "Notion",
+      "url": "https://www.notion.com/product/ship-os",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-content-system",
+      "title": "창업자 콘텐츠는 시스템이다",
+      "summary": "회사 데이터와 제품 진척에 기반한 반복 가능한 여섯 가지 포맷을 제시한다.",
+      "source": "X/ansonlin",
+      "url": "https://x.com/ansonlin/status/2074879329536774615",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-neumann-iconic",
+      "title": "아이코닉한 회사를 만드는 법",
+      "summary": "고객 경험을 직접 통제하고 수십 년짜리 비전을 갖는 데서 상징적 기업이 나온다는 팟캐스트 대담.",
+      "source": "a16z Podcast",
+      "url": "https://a16z.simplecast.com/episodes/adam-neumann-this-is-how-you-build-iconic-companies-_2mqt7jy",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "founders-how-to-write-email",
+      "title": "이메일 쓰는 법",
+      "summary": "결정을 빠르게 전달하는 명확하고 간결한 이메일 작성법.",
+      "source": "Danny Castonguay",
+      "url": "https://blog.dannycastonguay.com/how-to-write-an-email/",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-openai-northslope",
+      "title": "OpenAI 배포 자회사, 노스슬로프 인수",
+      "summary": "기업용 AI 배포 전문사를 인수한다. 토모로 인수에 이은 것으로, 프로덕션 AI 시스템 구축 역량을 강화하려는 행보다.",
+      "source": "deploy.co",
+      "url": "https://deploy.co/news/the-openai-deployment-company-to-acquire-northslope",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "New",
+        "affectedSurface": "엔터프라이즈 AI 도입"
+      }
+    },
+    {
+      "id": "it-jetbrains-ai-governance",
+      "title": "젯브레인스, 파편화된 AI 개발에 거버넌스 스위트",
+      "summary": "Claude·Codex·Gemini를 아우르는 중앙 관리 도구다. 공유 컨텍스트, 클라우드 에이전트, 자동화, 접근 제어, 비용 추적을 제공한다.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4195002/jetbrains-seeks-to-unify-fragmented-ai-based-software-development-with-governance-suite.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-business-process-ai",
+      "title": "AI를 막는 건 IT가 아니라 업무 프로세스",
+      "summary": "IT 리더의 75%가 운영 모델과 업무 프로세스를 바꿔야 한다고 답했다. 도구 도입과 프롬프트 교육만으로는 가치가 나오지 않는다.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4192383/its-not-the-it-holding-ai-back-its-the-business-processes.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-shared-api-keys",
+      "title": "기업 69%, AI 에이전트끼리 API 키를 공유한다",
+      "summary": "에이전트별 고유 관리 ID를 부여한 기업은 32%에 그친다. 54%는 이미 에이전트 관련 보안 사고를 겪었다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/security/shared-api-keys-expose-ai-agent-fleets-venturebeat-research",
+      "originalDate": "2026-07-09",
+      "intel": {
+        "impact": "High",
+        "confidence": "84%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "에이전트 자격증명 · IAM"
+      }
+    },
+    {
+      "id": "it-lightwell",
+      "title": "IBM·레드햇, 오픈소스를 AI 공격에서 지키는 Lightwell",
+      "summary": "Lightwell Network와 Clearinghouse Premier를 상용 출시했다. AI 기반 자동 수정으로 오픈소스 의존성 보안 패치를 제공하고 업스트림 프로젝트와 조율한다.",
+      "source": "ZDNet",
+      "url": "https://www.zdnet.com/article/ibm-and-red-hat-have-moved-project-lightwell-from-vision-to-product/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-workspace-scim",
+      "title": "구글 워크스페이스, 인바운드 SCIM 지원",
+      "summary": "IdP와 HR 시스템이 사용자 생성·갱신·비활성화를 실시간으로 자동 처리할 수 있게 됐다.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/07/streamline-identity-lifecycle-management-in-Google-Workspace-with-new-inbound-SCIM-support.html",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-postgres-is-enough",
+      "title": "포스트그레스면 충분하다",
+      "summary": "많은 앱이 PostgreSQL의 한계를 다 쓰기도 전에 다중 DB 아키텍처를 도입해 운영 복잡도만 키운다.",
+      "source": "postgresisenough.dev",
+      "url": "https://postgresisenough.dev/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-github-agentic-docs",
+      "title": "깃허브 에이전틱 워크플로로 문서 자동화",
+      "summary": "Aspire가 광범위한 권한 없이 저장소 간 문서 작성을 자동화했다. 기능 PR 병합 후 문서 PR 지연 중앙값이 44.8시간으로 줄었다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/ai-and-ml/github-copilot/automating-cross-repo-documentation-with-github-agentic-workflows/",
+      "originalDate": "2026-07-09"
+    },
+    {
+      "id": "it-iac-after-ai",
+      "title": "AI가 들어온 뒤 IaC에 남는 것",
+      "summary": "AI가 인프라 코드 실무를 바꾸는 가운데 거버넌스는 도입 속도를 못 따라가고, 시스템 전문 지식은 여전히 필수라는 논의.",
+      "source": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/07/08/what-s-left-for-infrastructure-as-code-after-ai-moves-in/",
+      "originalDate": "2026-07-08"
+    },
+    {
+      "id": "it-sap-antitrust",
+      "title": "SAP, EU 반독점 조사 종결…레거시 지원 개방",
+      "summary": "재가입 수수료를 없애고 소급 유지보수 비용을 낮추며 서드파티 지원 이용을 허용하기로 했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/software/2026/07/09/sap-makes-it-easier-for-customers-to-shop-for-legacy-product-support-ending-eu-antitrust-probe/",
+      "originalDate": "2026-07-09"
+    }
+  ]
+}

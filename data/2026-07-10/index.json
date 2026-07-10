@@ -1,0 +1,54 @@
+{
+  "date": "2026-07-10",
+  "weekday": "금",
+  "headline": "OpenAI, 프런티어 모델 GPT-5.6 3종 공개",
+  "subtitle": "메타 Muse Spark 1.1 75% 저가 공세 · 방어용 코딩 에이전트 RCE 취약 · 푸에르토리코 SSN 100만 건 노출",
+  "keyword": "GPT-5.6 · Muse Spark · 프롬프트 인젝션 · AI 가격전쟁",
+  "bigStoryId": "ai-gpt-56",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "devops",
+    "design",
+    "marketing",
+    "founders"
+  ],
+  "lastUpdated": "09:05 CDT",
+  "syncedAt": "09:05",
+  "subscribers": 128842,
+  "market": {
+    "index": "S&P 500",
+    "value": "7,543.64",
+    "change": "▲ 0.81%"
+  },
+  "stats": {
+    "companies": 45,
+    "security": 17,
+    "deals": 3,
+    "policy": 4
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "코딩 에이전트가 공급망 공격의 실행기가 됐다",
+      "body": "조작된 오픈소스 라이브러리를 리뷰시키는 것만으로 Claude Code와 Codex가 프롬프트 인젝션에 넘어가 원격코드실행에 도달했다. 같은 날 npm 12가 설치 스크립트를 기본 차단하고 제로데이 PoC 130여 건이 무더기로 풀렸다. 에이전트를 CI/CD에 붙여둔 조직일수록 노출면이 넓다.",
+      "severity": "8.8",
+      "velocity": "Rising",
+      "action": "에이전트 격리 실행·권한 최소화"
+    },
+    {
+      "kind": "market",
+      "title": "S&P 500, 기술주 강세에 반등",
+      "body": "S&P 500이 7,543.64로 0.81% 올랐다. GPT-5.6과 Muse Spark 1.1이 같은 날 공개되며 AI 관련주 전반이 상승을 견인했다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "GPT-5.6 Sol의 독립 벤치마크와 실제 토큰 단가, 메타 75% 저가 정책에 대한 경쟁사 대응, libssh2·Gitea 익스플로잇 스캐닝 확산과 npm 12 전환에 따른 CI 파이프라인 파손."
+    }
+  ]
+}
