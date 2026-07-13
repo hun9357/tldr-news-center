@@ -1,0 +1,244 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-sharefile",
+      "title": "긴급 - 프로그레스, 셰어파일 고객에 스토리지 존 컨트롤러 차단 권고",
+      "summary": "프로그레스 소프트웨어가 외부 보안 위협 감지 후 셰어파일 고객에게 윈도우 기반 스토리지 존 컨트롤러를 즉시 비활성화하라고 지시했다. 클라우드 전용 계정은 정상 운영된다.",
+      "source": "The Hacker News",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "ShareFile · 온프렘 SZC"
+      },
+      "related": [
+        "보안: Injective npm 패키지 지갑 키 탈취",
+        "보안: 디바이스 코드 피싱으로 토큰 탈취",
+        "보안: GuardDog 3.0 악성 패키지 스캔"
+      ],
+      "report": {
+        "tldr": "프로그레스가 셰어파일의 온프렘 스토리지 존 컨트롤러를 즉시 차단하라고 긴급 권고했다.",
+        "what": "외부 보안 위협이 감지되자 프로그레스는 윈도우 기반 스토리지 존 컨트롤러의 즉시 비활성화를 지시했다. 조사가 진행되는 동안 클라우드 전용 계정은 계속 작동한다.",
+        "points": [
+          "온프렘 스토리지 존 컨트롤러 즉시 차단 권고",
+          "클라우드 전용 계정은 영향 없음",
+          "MOVEit 사태를 겪은 벤더의 재발 우려"
+        ],
+        "why": [
+          "파일 전송 인프라를 노린 공급망·엣지 공격의 재연 가능성",
+          "즉시 차단은 능동적 침해 정황을 시사"
+        ]
+      }
+    },
+    {
+      "id": "infosec-injective-npm",
+      "title": "인젝티브 SDK npm 패키지 변조… 지갑 키·니모닉 탈취",
+      "summary": "인젝티브 타입스크립트 SDK(@injectivelabs/sdk-ts@1.20.21)의 악성 릴리스가 지갑 니모닉과 개인키를 수집해 공격자 인프라로 전송했다. 개발자는 의존성 감사와 자격 증명 교체가 필요하다.",
+      "source": "Socket.dev",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops · Eng",
+        "status": "New",
+        "affectedSurface": "npm · 블록체인 SDK"
+      },
+      "related": [
+        "보안: GuardDog 3.0 npm·PyPI 악성 스캔",
+        "크립토: Hedera 525만 달러 익스플로잇",
+        "보안: 셰어파일 긴급 차단 권고"
+      ],
+      "report": {
+        "tldr": "인젝티브 공식 SDK의 변조된 npm 릴리스가 지갑 니모닉·개인키를 탈취했다.",
+        "what": "@injectivelabs/sdk-ts 1.20.21 릴리스에 지갑 니모닉과 개인키를 수집해 외부로 전송하는 악성 코드가 삽입됐다. 해당 버전을 설치한 개발·운영 환경은 즉시 의존성을 점검하고 키를 교체해야 한다.",
+        "points": [
+          "공식 SDK의 특정 버전에 키 탈취 코드 삽입",
+          "니모닉·개인키를 공격자 인프라로 전송",
+          "블록체인 개발 공급망을 직접 겨냥"
+        ],
+        "why": [
+          "신뢰된 패키지 채널을 통한 공급망 공격의 전형",
+          "지갑 자산 탈취로 직접적 금전 피해 발생"
+        ],
+        "action": "해당 버전 사용 여부 감사, 노출 지갑 키·니모닉 즉시 로테이션, 락파일 고정."
+      }
+    },
+    {
+      "id": "infosec-cavern-manticore",
+      "title": "'Cavern Manticore': 이란 연계 모듈형 C2 프레임워크 노출",
+      "summary": "체크포인트 리서치가 RMM 악용·DLL 사이드로딩·모듈형 .NET C2를 사용해 이스라엘 정부를 노린 이란 MOIS 연계 활동을 'Cavern Manticore'로 규정했다.",
+      "source": "Check Point Research",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "이란 MOIS 연계 그룹이 모듈형 .NET C2로 이스라엘 정부를 표적한 정황이 드러났다.",
+        "what": "체크포인트는 RMM 도구 악용, DLL 사이드로딩, 안티포렌식 기능을 갖춘 모듈형 .NET 명령제어 프레임워크를 특징으로 하는 'Cavern Manticore' 캠페인을 공개했다.",
+        "points": [
+          "RMM 악용·DLL 사이드로딩 기법",
+          "안티포렌식 기능 탑재 모듈형 .NET C2",
+          "이스라엘 정부 기관 표적"
+        ],
+        "why": [
+          "국가 연계 위협 행위자의 지속 활동 확인",
+          "정당한 관리도구(RMM) 악용 탐지의 어려움"
+        ]
+      }
+    },
+    {
+      "id": "infosec-device-code-phish",
+      "title": "URL 확인만으로 부족할 때: MS 웹사이트를 악용한 디바이스 코드 피싱",
+      "summary": "공격자가 MS의 정당한 OAuth 디바이스 코드 흐름을 악용, 암호 걸린 PDF와 오픈 리다이렉트를 거쳐 인증 토큰을 탈취했다. 리프레시 토큰으로 장기 지속성을 확보한다.",
+      "source": "Securelist",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "정상 MS OAuth 디바이스 코드 흐름을 악용한 토큰 탈취 피싱이 관측됐다.",
+        "what": "공격자는 암호 보호 PDF와 오픈 리다이렉트로 피해자를 유도해 MS 디바이스 코드 인증을 완료시키고 토큰을 가로챘다. 탈취한 리프레시 토큰으로 장기 접근을 유지한다.",
+        "points": [
+          "정당한 디바이스 코드 흐름 자체를 악용",
+          "암호 PDF·오픈 리다이렉트로 피해자 유인",
+          "리프레시 토큰으로 지속성 확보"
+        ],
+        "why": [
+          "URL 육안 확인만으로는 방어 불가",
+          "조건부 접근·토큰 수명 정책 강화 필요"
+        ]
+      }
+    },
+    {
+      "id": "infosec-guarddog3",
+      "title": "GuardDog 3.0 공개: 새 룰 엔진·투명한 샌드박싱",
+      "summary": "데이터독이 Semgrep 대신 YARA 기반 스캔으로 전환한 GuardDog 3.0을 공개했다. 악성 PyPI·npm 패키지 탐지에서 89.2% 정밀도와 향상된 성능, 샌드박스 실행을 제공한다.",
+      "source": "Datadog Security Labs",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "데이터독이 YARA 기반 스캔으로 재설계한 악성 패키지 탐지 도구 GuardDog 3.0을 내놨다.",
+        "what": "GuardDog 3.0은 Semgrep을 YARA로 교체해 PyPI·npm 악성 패키지를 89.2% 정밀도로 탐지하며, 성능 개선과 투명한 샌드박스 실행을 더했다.",
+        "points": [
+          "Semgrep → YARA 룰 엔진 전환",
+          "89.2% 탐지 정밀도",
+          "투명한 샌드박스 실행"
+        ],
+        "why": [
+          "오픈소스 공급망 방어 도구의 실효성 향상",
+          "npm·PyPI 악성 패키지 급증에 대응"
+        ]
+      }
+    },
+    {
+      "id": "infosec-gigawiper",
+      "title": "GigaWiper, 다중 악성코드로 시스템 파괴",
+      "summary": "2025년 10월부터 활동한 Go 기반 백도어 GigaWiper가 와이퍼·랜섬웨어 기능을 결합했다. 디스크 와이핑·BSOD 유발·로그 삭제를 RabbitMQ/Redis C2로 수행한다.",
+      "source": "SecurityWeek",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "GigaWiper가 와이퍼·랜섬웨어 기능을 결합한 파괴형 백도어로 부상했다.",
+        "what": "Go 기반의 GigaWiper는 디스크 와이핑, 블루스크린 유발, 로그 삭제 등 시스템 수준 사보타주를 RabbitMQ·Redis 기반 C2로 조율한다. 2025년 10월부터 활동이 관측됐다.",
+        "points": [
+          "와이퍼 + 랜섬웨어 결합",
+          "디스크 와이핑·BSOD·로그 삭제",
+          "RabbitMQ/Redis C2 사용"
+        ],
+        "why": [
+          "금전 요구와 파괴가 겹친 하이브리드 위협",
+          "메시지 브로커 기반 C2로 탐지 회피 시도"
+        ]
+      }
+    },
+    {
+      "id": "infosec-nsa-tao",
+      "title": "NSA, 엘리트 해킹 부대 이름 'Tailored Access Operations' 부활",
+      "summary": "NSA가 컴퓨터 네트워크 작전실을 다시 Tailored Access Operations로 개명하고 2016년 개편을 되돌렸다. 포트미드에 전용 시설도 열었다.",
+      "source": "The Record",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "NSA가 상징적 명칭 TAO를 부활시키며 공격형 사이버 조직을 재정비했다.",
+        "what": "새 리더십 아래 NSA는 컴퓨터 네트워크 작전실을 Tailored Access Operations로 재명명하고 2016년 구조 개편을 되돌렸다. 포트미드에 전용 시설도 개소했다.",
+        "points": [
+          "2016년 개편 이전 명칭 TAO 복원",
+          "포트미드 전용 시설 개소",
+          "공격형 사이버 역량 재강조"
+        ],
+        "why": [
+          "미 정부의 공세적 사이버 태세 신호",
+          "국가 간 사이버 경쟁 심화 맥락"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ransom-negotiator",
+      "title": "피해자 대리 랜섬웨어 협상가가 실은 공격자 편이었다",
+      "summary": "디지털민트 협상가 안젤로 마르티노가 피해자 보험·협상 전략을 BlackCat 운영자에게 넘기고 7,500만 달러 넘는 지급액에서 수수료를 챙긴 사실을 인정했다.",
+      "source": "Ars Technica",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "피해자를 대리하던 랜섬웨어 협상가가 공격 조직과 내통한 정황이 드러났다.",
+        "what": "디지털민트 소속 협상가가 피해 기업의 사이버보험 정보와 협상 전략을 BlackCat 측에 공유하고, 7,500만 달러가 넘는 지급액에서 커미션을 받은 사실을 시인했다.",
+        "points": [
+          "피해자 보험·협상 정보를 공격자에 유출",
+          "7,500만 달러 이상 지급액서 수수료 수취",
+          "협상 대행 신뢰 모델의 근본적 배신"
+        ],
+        "why": [
+          "인시던트 대응 벤더에 대한 내부자 리스크 부각",
+          "협상 프로세스의 이해충돌 통제 필요"
+        ]
+      }
+    },
+    {
+      "id": "infosec-miinto",
+      "title": "패션몰 Miinto, 유출 상세 공개하며 피싱 주의 당부",
+      "summary": "덴마크 리테일러 Miinto가 이름·주소·결제수단 유형 등 주문 데이터가 노출된 침해를 공개했다. 보안 통제를 강화하고 당국·고객에 피싱 위험을 알렸다.",
+      "source": "The Register",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "Miinto가 고객 주문 데이터 유출을 공개하고 피싱 경계를 당부했다.",
+        "what": "Miinto는 이름, 주소, 결제수단 유형을 포함한 주문 정보가 노출됐다고 밝혔다. 통제 강화와 함께 당국·고객에 통보하며 후속 피싱 시도에 유의하라고 안내했다.",
+        "points": [
+          "이름·주소·결제수단 유형 노출",
+          "당국·고객 통보 및 통제 강화",
+          "후속 피싱 위험 경고"
+        ],
+        "why": [
+          "리테일 고객 데이터 유출의 전형적 피싱 후폭풍",
+          "결제수단 유형 노출도 표적 피싱에 악용 가능"
+        ]
+      }
+    },
+    {
+      "id": "infosec-teen-chatgpt",
+      "title": "10대, ChatGPT로 애니 계정 4만6천 개 삭제 혐의",
+      "summary": "도쿄 경찰이 ChatGPT 지원 코드로 반다이남코 서버에 거짓 탈퇴 명령을 보내 46,812개 계정을 삭제하고 136만 명의 데이터를 노출시킨 15세를 체포했다.",
+      "source": "Asahi Shimbun",
+      "url": "https://tldr.tech/infosec/2026-07-13",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "15세 청소년이 ChatGPT로 만든 코드로 대량 계정 삭제 공격을 벌인 혐의로 체포됐다.",
+        "what": "용의자는 ChatGPT 지원으로 작성한 코드를 이용해 반다이남코 서버에 거짓 탈퇴 명령을 대량 전송, 46,812개 계정을 삭제하고 136만 명의 데이터를 노출시킨 것으로 조사됐다.",
+        "points": [
+          "ChatGPT 지원 코드로 대량 탈퇴 명령 전송",
+          "46,812개 계정 삭제",
+          "136만 명 데이터 노출"
+        ],
+        "why": [
+          "생성형 AI가 공격 진입장벽을 낮추는 사례",
+          "API 남용·레이트 제한·인증 통제의 중요성"
+        ]
+      }
+    }
+  ]
+}

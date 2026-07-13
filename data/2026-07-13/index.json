@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-13",
+  "weekday": "월",
+  "headline": "애플, 영업비밀 절취 혐의로 OpenAI 제소",
+  "subtitle": "서클 OCC 신탁은행 인가·프로그레스 셰어파일 긴급 차단·즈푸 GLM 프런티어 추격",
+  "keyword": "애플 vs OpenAI · 스테이블코인 규제 · 공급망 보안 · 오픈웨이트",
+  "bigStoryId": "tech-apple-openai-suit",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "fintech",
+    "dev",
+    "devops",
+    "data",
+    "founders",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:04 CDT",
+  "syncedAt": "09:04",
+  "subscribers": 128842,
+  "market": {
+    "index": "S&P 500",
+    "value": "7,575.39",
+    "change": "▲ 0.42%"
+  },
+  "stats": {
+    "companies": 34,
+    "security": 14,
+    "deals": 4,
+    "policy": 7
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "npm 공급망 공격·셰어파일 긴급 차단, 개발·파일 인프라 동시 위협",
+      "body": "인젝티브 공식 npm SDK 변조본이 지갑 니모닉·개인키를 탈취했고, 프로그레스는 외부 위협 감지로 셰어파일 온프렘 컨트롤러의 즉시 차단을 지시했다. 신뢰된 채널을 통한 공급망·엣지 공격이 같은 날 겹쳤다.",
+      "severity": "8.5",
+      "velocity": "Rising",
+      "action": "의존성 감사·키 로테이션·셰어파일 SZC 즉시 차단"
+    },
+    {
+      "kind": "market",
+      "title": "S&P 500, 7,575.39로 주간 상승 마감",
+      "body": "S&P 500이 금요일 31.75포인트(+0.42%) 오른 7,575.39로 마감하며 한 주를 상승으로 끝냈다. 기술주 강세와 SK하이닉스의 미국 데뷔가 심리를 뒷받침했다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "애플-OpenAI 소송 전개와 io Products 하드웨어 로드맵, 서클 OCC 신탁은행 인가 후속과 소니·스테이블코인 경쟁, 메타 뮤즈 이미지 철회 여파, npm/셰어파일 공격 확산, 로빈후드 체인 밈코인 거품 지속 여부."
+    }
+  ]
+}
