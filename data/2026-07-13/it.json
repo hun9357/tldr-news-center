@@ -6,171 +6,165 @@
   "bg": "#26203a",
   "items": [
     {
-      "id": "it-google-site-blocking",
-      "title": "구글, 유럽 사이트 차단에 반대… 미국 차단 입법은 탄력",
-      "summary": "구글이 유럽의 광범위한 해적 사이트 차단에 반대 의견을 냈다. DNS·IP 차단이 비효과적이고 정당한 서비스를 해칠 위험이 있다는 주장이다. 반면 미국은 유사 입법을 추진 중이다.",
-      "source": "TorrentFreak",
-      "url": "https://tldr.tech/it/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "google-site-blocking",
+      "title": "구글, 유럽 사이트 차단에 반대 — 미국선 차단 입법 탄력",
+      "summary": "DNS·IP·VPN 차단은 비효율적이고 과차단 위험이 크다는 의견서.",
+      "source": "TLDR IT",
+      "url": "https://torrentfreak.com/google-opposes-site-blocking-in-europe-as-u-s-piracy-blocking-plans-gain-momentum/",
       "report": {
-        "tldr": "구글이 유럽 사이트 차단에 반대하는 가운데 미국의 차단 입법은 속도를 내고 있다.",
-        "what": "구글은 DNS·IP 기반 차단이 우회가 쉽고 정당한 서비스에 부수 피해를 준다며 유럽의 광범위한 해적 사이트 차단에 반대했다. 동시에 미국에서는 청문회·판결을 계기로 유사 입법이 추진되고 있다.",
+        "tldr": "구글이 유럽집행위에 광범위한 불법복제 사이트 차단에 반대하는 의견을 냈다.",
+        "what": "DNS·IP·VPN 차단은 효과가 없고 합법 서비스 과차단 위험이 있다는 논리다. 반면 미국에서는 하원 IP 소위 청문회 이후 복수 법안과 Cox v. Sony 판결발 논리로 사이트 차단 입법이 탄력을 받고 있다.",
         "points": [
-          "DNS·IP 차단의 비효과성·부수 피해 지적",
-          "유럽 차단안에 공식 반대",
-          "미국은 사이트 차단 입법 추진"
+          "유럽·미국의 규제 방향이 교차",
+          "인프라 레벨 차단의 기술적 부작용 쟁점"
         ],
-        "why": [
-          "콘텐츠 차단 정책과 개방 인터넷의 충돌",
-          "글로벌 IT 인프라·DNS 운영에 규제 파급"
-        ]
+        "why": ["ISP·CDN·DNS 운영 정책에 직접 영향을 줄 입법 흐름"]
       }
     },
     {
-      "id": "it-memory-shortage",
-      "title": "메모리 품귀가 CIO를 강타… 애플은 하드웨어 가격 인상",
-      "summary": "글로벌 칩 품귀로 PC·서버 비용이 오르며 IT 리더들이 기기 교체 주기를 늘리고 있다. 애플의 맥 15~20% 인상이 기업 구매를 압박하는 광범위한 비용 상승을 대표한다.",
-      "source": "InformationWeek",
-      "url": "https://tldr.tech/it/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "memory-shortage-cio",
+      "title": "메모리 부족발 가격 인상, CIO 예산 강타 — 애플도 15~20% 인상",
+      "summary": "노트북 교체 주기 4년 → 6년 연장하는 기업들.",
+      "source": "TLDR IT",
+      "url": "https://www.informationweek.com/it-infrastructure/how-the-memory-shortage-hits-cios-as-apple-boosts-hardware-prices",
       "report": {
-        "tldr": "메모리·칩 품귀가 기업 IT 예산을 압박하고 애플은 하드웨어 가격을 올렸다.",
-        "what": "글로벌 칩 부족으로 PC·서버 조달 비용이 오르자 CIO들이 기기 교체 주기를 연장하고 있다. 애플의 15~20% 맥 가격 인상은 기업 구매를 압박하는 비용 상승 흐름을 상징한다.",
+        "tldr": "글로벌 메모리 부족으로 PC·맥·서버 가격이 올라 CIO들이 기기 표준과 교체 주기를 재검토하고 있다.",
+        "what": "애플이 맥 가격을 15~20% 인상했고 윈도우 기기 제조사들도 유사한 부품 비용 압박을 받는다. 일부 기업은 노트북 리프레시 주기를 4년에서 6년으로 연장하고 있다.",
         "points": [
-          "칩 품귀로 PC·서버 비용 상승",
-          "애플 맥 15~20% 인상",
-          "기기 교체 주기 연장 압박"
+          "디바이스 표준·교체 일정 재검토 확산",
+          "하드웨어 예산 인플레이션 장기화 가능성"
         ],
-        "why": [
-          "AI 수요발 메모리 품귀가 전방위 IT 비용으로 전이",
-          "하드웨어 조달·리프레시 전략 재검토 필요"
-        ]
+        "why": ["FY27 하드웨어 예산 편성 시 반영 필요한 구조적 변화"]
       }
     },
     {
-      "id": "it-ibm-bob-sdlc",
-      "title": "IBM Bob, 코드 생성 넘어 SDLC 전체를 오케스트레이션",
-      "summary": "IBM의 에이전틱 개발 플랫폼이 코드 작성을 넘어 소프트웨어 생명주기 전반을 조율한다. 멀티 에이전트 워크플로·보안 거버넌스·비용 분석·자바 현대화 도구를 새로 갖췄다.",
-      "source": "InfoWorld",
-      "url": "https://tldr.tech/it/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "up-the-stack-lockin",
+      "title": "Up the Stack — AI '커모디티 함정' 탈출이 부르는 엔터프라이즈 락인",
+      "summary": "추론 과금만으로는 인프라 투자를 못 버틴다는 분석.",
+      "source": "TLDR IT",
+      "url": "https://www.normaltech.ai/p/up-the-stack-how-ais-escape-from",
       "report": {
-        "tldr": "IBM Bob이 코드 생성에서 SDLC 전체 오케스트레이션으로 범위를 넓혔다.",
-        "what": "IBM의 에이전틱 개발 플랫폼 Bob이 멀티 에이전트 워크플로, 보안 거버넌스, 비용 분석, 자바 현대화 도구를 더해 소프트웨어 생명주기 전반을 관리한다.",
+        "tldr": "프런티어 모델 추론 과금은 모델의 커모디티화와 낮은 전환 비용 때문에 막대한 인프라 투자를 지탱하기 어렵다는 분석.",
+        "what": "랩들은 수직 통합과 임베디드 배포로 스택 위쪽의 엔터프라이즈식 락인으로 이동해 '커모디티 함정'을 벗어나려 할 것이다. 수익성은 개선되지만 기업 락인과 경쟁 축소 위험이 따른다.",
         "points": [
-          "멀티 에이전트 워크플로 지원",
-          "보안 거버넌스·비용 분석 내장",
-          "자바 현대화 전용 도구"
+          "모델 = 커모디티, 락인 = 스택 상층",
+          "구매 기업은 락인 조건을 계약 단계에서 경계해야"
         ],
-        "why": [
-          "기업용 에이전틱 SDLC 경쟁 가열",
-          "레거시 현대화 수요를 겨냥한 포지셔닝"
-        ]
+        "why": ["AI 벤더 선정·계약 전략에 직결되는 산업 구조 분석"]
       }
     },
     {
-      "id": "it-github-repo-owner",
-      "title": "깃허브, 모든 저장소에 '지속적 소유자'를 부여한 방법",
-      "summary": "깃허브가 커스텀 프로퍼티로 저장소 소유권 체계를 구축해 책임 소재를 명확히 하고 보안 워크플로를 개선했다. 소유자 없는 저장소는 아카이브하고 서비스 카탈로그와 연동한다.",
-      "source": "GitHub Blog",
-      "url": "https://tldr.tech/it/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "networking-first-principles",
+      "title": "제1원리로 배우는 네트워킹과 인터넷 (45분)",
+      "summary": "전신→회선교환→패킷→TCP·DNS·TLS까지, 인터랙티브 시뮬레이션 가이드.",
+      "source": "TLDR IT",
+      "url": "https://fazamhd.com/mental-models/networking/",
       "report": {
-        "tldr": "깃허브가 커스텀 프로퍼티 기반 저장소 소유권 체계로 책임 소재를 명확히 했다.",
-        "what": "깃허브는 모든 저장소에 소유자를 지정하는 체계를 도입해 보안·운영 책임을 분명히 했다. 소유자가 없는 저장소는 아카이브하고 기존 서비스 카탈로그와 통합한다.",
-        "points": [
-          "커스텀 프로퍼티로 소유권 부여",
-          "소유자 없는 저장소 아카이브",
-          "서비스 카탈로그 연동"
-        ],
-        "why": [
-          "대규모 저장소의 거버넌스·보안 사각지대 해소",
-          "책임 소재 명확화로 취약점 대응 가속"
-        ]
+        "tldr": "전신과 회선 교환부터 패킷·라우터·TCP·DNS·TLS까지 인터넷의 작동을 추적하는 비주얼 가이드.",
+        "what": "대역폭 vs 지연, 혼잡, 라우팅 실패, 암호화, '링크 클릭 시 실제로 벌어지는 일'을 인터랙티브 시뮬레이션으로 설명한다.",
+        "points": ["신입 교육·면접 준비용 고품질 자료"],
+        "why": ["네트워크 기초를 시각적으로 다지는 드문 수작"]
       }
     },
     {
-      "id": "it-networking-first-principles",
-      "title": "첫 원리로 이해하는 네트워킹과 인터넷",
-      "summary": "전신에서 현대 패킷 라우팅·DNS·암호화까지 인터넷 기초를 그림으로 풀어낸 가이드. 대역폭·지연·혼잡·TLS 개념을 인터랙티브 시뮬레이션으로 설명한다.",
-      "source": "fazamhd.com",
-      "url": "https://tldr.tech/it/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "ibm-bob-sdlc",
+      "title": "IBM Bob, 코드 생성 넘어 SDLC 전체 오케스트레이션으로",
+      "summary": "멀티 에이전트 워크플로·병렬 툴콜·거버넌스·비용 분석 추가.",
+      "source": "TLDR IT",
+      "url": "https://www.infoworld.com/article/4195291/ibm-bob-expands-beyond-code-generation-to-orchestrate-the-entire-sdlc.html",
       "report": {
-        "tldr": "네트워킹과 인터넷의 기초를 첫 원리부터 시각적으로 정리한 학습 자료다.",
-        "what": "전신 시대부터 현대 패킷 라우팅, DNS, 암호화까지의 진화를 그림과 인터랙티브 시뮬레이션으로 설명한다. 대역폭·지연·혼잡·TLS 보안 개념을 직관적으로 다룬다.",
+        "tldr": "에이전틱 개발 플랫폼 IBM Bob이 코드 생성을 넘어 소프트웨어 개발 라이프사이클 전체를 오케스트레이션하도록 확장됐다.",
+        "what": "업데이트는 멀티 에이전트 워크플로, 병렬 툴 호출, 내장 보안·거버넌스, 비용·사용량 분석, 자바 현대화 특화 패키지를 추가했다.",
         "points": [
-          "전신부터 현대 라우팅까지 진화 정리",
-          "대역폭·지연·혼잡 인터랙티브 시뮬레이션",
-          "DNS·TLS 등 핵심 개념 시각화"
+          "엔터프라이즈 에이전트의 SDLC 전면화",
+          "자바 레거시 현대화 수요 겨냥"
         ],
-        "why": [
-          "실무자·신입 온보딩용 기초 레퍼런스로 유용",
-          "네트워크 이해도가 보안·운영 품질에 직결"
-        ]
+        "why": ["레거시가 많은 조직의 에이전트 도입 경로로 주목"]
       }
     },
     {
-      "id": "it-ai-commodity-lockin",
-      "title": "위로 올라가기: AI의 커모디티 탈출이 부르는 기업 락인",
-      "summary": "AI 기업들이 상품화된 가격 모델에서 벗어나려 수직 통합·독점 솔루션으로 이동한다. 이 전환은 마진을 높이지만 경쟁과 고객 선택을 줄일 수 있다.",
-      "source": "NormalTech",
-      "url": "https://tldr.tech/it/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "bittitan-teams-migration",
+      "title": "BitTitan, MigrationWiz에 Teams 개인 채팅 마이그레이션 추가",
+      "summary": "대규모 Google Workspace ↔ M365 이전 옵션 확대.",
+      "source": "TLDR IT",
+      "url": "https://www.channeldive.com/news/bittitan-microsoft-365-migration-managed-services-platofrm/824997/",
       "report": {
-        "tldr": "AI 기업의 커모디티 탈출 전략이 기업 고객의 락인 위험을 키운다.",
-        "what": "모델이 상품화되며 가격 경쟁에 노출되자 AI 기업들은 수직 통합과 독점 솔루션으로 이동하고 있다. 마진 방어에는 유리하지만 경쟁 저하와 고객 선택권 축소를 부를 수 있다.",
-        "points": [
-          "상품화 압력에 수직 통합으로 대응",
-          "독점 솔루션으로 마진 방어",
-          "고객 선택권 축소 우려"
-        ],
-        "why": [
-          "기업의 AI 벤더 종속 리스크 관리 필요",
-          "멀티 벤더·오픈웨이트 전략의 가치 부각"
-        ]
+        "tldr": "BitTitan이 MigrationWiz에 Microsoft Teams 개인 채팅 마이그레이션 지원을 추가했다.",
+        "what": "이메일·문서·아카이브·협업 데이터에 더한 확장으로, 일회성 마이그레이션을 지속 관리형 서비스로 전환하는 흐름이다.",
+        "points": ["MSP·엔터프라이즈 IT의 대규모 이전 도구 강화"],
+        "why": ["테넌트 통합·M&A IT 통합 작업의 실무 옵션"]
       }
     },
     {
-      "id": "it-okta-app-auth",
-      "title": "O365 프로비저닝, 앱 기반 인증 지원으로 업데이트 필요",
-      "summary": "옥타가 마이크로소프트 365 사용자 프로비저닝에서 공유 관리자 계정 대신 앱 기반 인증으로 전환한다. 관리자는 안전한 사용자 관리를 위해 연동을 업데이트해야 한다.",
-      "source": "Okta Support",
-      "url": "https://tldr.tech/it/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "github-repo-ownership",
+      "title": "깃허브는 어떻게 모든 저장소에 '지속 가능한 소유자'를 부여했나",
+      "summary": "커스텀 프로퍼티 + 서비스 카탈로그 + 미소유 저장소 아카이브 강제.",
+      "source": "TLDR IT",
+      "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
       "report": {
-        "tldr": "옥타가 O365 프로비저닝을 공유 계정에서 앱 기반 인증으로 전환한다.",
-        "what": "옥타는 마이크로소프트 365 사용자 프로비저닝에서 공유 관리자 계정을 앱 기반 인증으로 대체한다. 안전한 프로비저닝 유지를 위해 관리자는 기존 연동을 갱신해야 한다.",
+        "tldr": "깃허브가 내부 저장소 소유권 모호성 문제를 1급 소유권 체계로 해결한 사례를 공개했다.",
+        "what": "소유권 불명은 시크릿 스캐닝 대응 같은 보안 워크플로를 어렵게 했다. 깃허브는 커스텀 프로퍼티로 소유권을 1급 개념화하고 서비스 카탈로그에서 채운 뒤, 미소유 저장소는 경고 후 아카이브하는 방식으로 강제했다.",
         "points": [
-          "공유 관리자 계정 → 앱 기반 인증",
-          "관리자 연동 업데이트 필요",
-          "프로비저닝 보안 강화"
+          "경고 → 아카이브의 점진적 강제",
+          "보안 대응 라우팅의 전제조건으로서 소유권"
         ],
-        "why": [
-          "공유 자격 증명 제거로 공격면 축소",
-          "미갱신 시 사용자 관리 중단 위험"
-        ]
+        "why": ["오늘 data 에디션의 '데이터 무정부 세금'과 같은 문제의식 — 소유권이 운영 효율의 핵심"]
       }
     },
     {
-      "id": "it-bittitan-teams",
-      "title": "BitTitan, MigrationWiz에 팀즈 비공개 채팅 마이그레이션 확장",
-      "summary": "BitTitan이 이메일·문서에 이어 팀즈 채팅 이전을 지원하도록 마이그레이션 플랫폼을 확장했다. 대규모 구글 워크스페이스·M365 전환을 돕는다.",
-      "source": "ChannelDive",
-      "url": "https://tldr.tech/it/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "okta-o365-app-auth",
+      "title": "Okta, O365 프로비저닝을 앱 기반 인증으로 전환",
+      "summary": "레거시 서비스 계정 모델 폐기 — 관리자는 통합 업데이트 필요.",
+      "source": "TLDR IT",
+      "url": "https://support.okta.com/help/s/article/update-office-365-to-support-application-based-authentication-for-provisioning",
       "report": {
-        "tldr": "BitTitan이 팀즈 비공개 채팅까지 이전 가능한 마이그레이션 기능을 추가했다.",
-        "what": "BitTitan의 MigrationWiz가 기존 이메일·문서 이전에 더해 팀즈 채팅 전송을 지원한다. 대규모 구글 워크스페이스·마이크로소프트 365 전환 프로젝트에 유용하다.",
+        "tldr": "Okta가 Microsoft 365 프로비저닝에 쓰이던 레거시 서비스 계정 모델을 애플리케이션 기반 인증으로 교체한다.",
+        "what": "공유 관리자 계정 없이 사용자 생성·갱신·비활성화를 계속하려면 관리자가 Office 365 통합을 업데이트해야 한다.",
+        "points": ["공유 관리자 계정 의존 제거"],
+        "why": ["방치 시 프로비저닝 중단 위험 — IT팀 조치 필요"],
+        "action": "Okta-O365 통합을 앱 기반 인증으로 업데이트."
+      }
+    },
+    {
+      "id": "agent-context-layer",
+      "title": "기업 57%가 목격한 '자신만만한 오답' — 해법은 컨텍스트 레이어",
+      "summary": "101개 기업 조사: 거버닝된 컨텍스트 레이어 보유는 25%뿐.",
+      "source": "TLDR IT",
+      "url": "https://venturebeat.com/data/57-of-enterprises-have-watched-ai-agents-be-confidently-wrong-the-fix-is-an-agentic-context-layer-but-who-has-one",
+      "report": {
+        "tldr": "벤처비트의 101개 기업 조사에서 57%가 AI 에이전트의 자신만만한 오답을 누락·불일치 비즈니스 컨텍스트로 추적했고, 거버닝된 컨텍스트 레이어를 운영 중인 곳은 25%에 그쳤다.",
+        "what": "결론은 문서를 더 넣거나 모델을 바꾸는 게 아니라, 최신·구조화·거버닝된 비즈니스 데이터가 에이전트 신뢰성의 조건이라는 것이다.",
         "points": [
-          "팀즈 비공개 채팅 마이그레이션 지원",
-          "이메일·문서에 채팅 이전 추가",
-          "대규모 협업 전환 대상"
+          "에이전트 오류의 근원 = 컨텍스트 품질",
+          "컨텍스트 레이어 구축이 도입 성패 좌우"
         ],
-        "why": [
-          "협업 도구 이전의 데이터 완결성 요구 충족",
-          "MSP·IT 부서의 마이그레이션 부담 경감"
-        ]
+        "why": ["에이전트 도입 예산의 우선순위를 시사하는 데이터"]
+      }
+    },
+    {
+      "id": "artificial-analysis",
+      "title": "Artificial Analysis — 독립 AI 모델·API 벤치마크",
+      "summary": "리더보드·복수 지수로 모델·프로바이더 지형 파악.",
+      "source": "TLDR IT",
+      "url": "https://artificialanalysis.ai/",
+      "report": {
+        "tldr": "Artificial Analysis는 AI 모델·API 프로바이더 지형을 독립적·벤치마크 기반으로 보여준다.",
+        "what": "리더보드와 복수 지수를 제공한다.",
+        "points": ["벤더 주장과 독립된 비교 자료"],
+        "why": ["모델 선정 실사(due diligence)에 유용"]
+      }
+    },
+    {
+      "id": "shadow-ai-policy-template",
+      "title": "Shadow AI 정책 템플릿 — 즉시 사용 가능한 IT 프레임워크",
+      "summary": "12개 섹션 + 기업 규모·업종·규제별 커스터마이징 가이드.",
+      "source": "TLDR IT",
+      "url": "https://axipro.co/shadow-ai-policy-template/",
+      "report": {
+        "tldr": "복사해 바로 쓰는 섀도우 AI 정책 템플릿으로, 12개 섹션과 규모·업종·규제 요건별 커스터마이징 가이드를 제공한다.",
+        "what": "비인가 AI 사용 통제 정책 수립의 출발점으로 쓸 수 있다.",
+        "points": ["12개 섹션 완성형 템플릿"],
+        "why": ["섀도우 AI가 대부분 조직의 미해결 거버넌스 공백"]
       }
     }
   ]

@@ -6,150 +6,167 @@
   "bg": "#163021",
   "items": [
     {
-      "id": "marketing-tech-broification",
-      "title": "마케팅의 테크브로화",
-      "summary": "'내러티브 엔지니어' 같은 기술풍 직함으로 마케팅 역할이 리브랜딩되며 지위 상승과 인재 유치를 노린다. 여성 다수 분야가 되면 보상·명성이 낮아지자 기업이 엔지니어링 용어를 채택한다.",
-      "source": "Time",
-      "url": "https://time.com/article/2026/07/10/tech-bro-ification-of-marketing/",
-      "originalDate": "2026-07-13",
-      "report": {
-        "tldr": "마케팅 직함이 기술풍으로 리브랜딩되는 '테크브로화' 현상을 짚는다.",
-        "what": "'내러티브 엔지니어' 같은 기술풍 직함이 지위를 높이고 다른 인재를 끌기 위해 도입된다. 여성 다수 분야가 될수록 보상·명성이 떨어지자 기업이 엔지니어링 용어로 신뢰도와 인력 구성을 바꾸려 한다는 분석이다.",
-        "points": [
-          "기술풍 직함으로 마케팅 리브랜딩",
-          "지위·인재 유치 목적",
-          "젠더 구성과 보상의 상관"
-        ],
-        "why": [
-          "직무 명칭과 지위·보상의 사회적 역학",
-          "마케팅 정체성 변화의 이면"
-        ]
-      }
-    },
-    {
-      "id": "marketing-influencer-baddies",
-      "title": "'배디스' 시대, 기업들이 인플루언서 경제 따라잡기에 분주",
-      "summary": "브랜드가 전통 크리에이터보다 실제 고객·직원을 앞세운 풀뿌리 인플루언서 전술로 선회한다. 전통 광고 신뢰 하락과 Z세대의 또래 주도 구매 영향력을 활용한다.",
-      "source": "CNN",
+      "id": "baddies-influencer-economy",
+      "title": "'배디스' 시대 — 진짜 고객·직원이 인플루언서가 된다",
+      "summary": "ResMed 등은 커뮤니티 페이지·이벤트로 유기적 콘텐츠 유도.",
+      "source": "TLDR Marketing",
       "url": "https://www.cnn.com/2026/07/11/business/influencer-economy-marketing-baddies",
-      "originalDate": "2026-07-13",
       "report": {
-        "tldr": "브랜드가 실제 고객·직원을 앞세운 풀뿌리 인플루언서 전술로 이동하고 있다.",
-        "what": "전통 크리에이터 대신 실제 고객과 직원을 활용하는 풀뿌리 접근이 확산된다. 전통 광고에 대한 신뢰 하락과 Z세대에서 강한 또래 기반 구매 영향력을 겨냥한 전략이다.",
+        "tldr": "브랜드들이 전통 크리에이터 대신 실제 고객·직원 중심의 인플루언서형 마케팅으로 이동하고 있다.",
+        "what": "ResMed 같은 기업은 이벤트를 열고 '배디(baddie)' 커뮤니티 페이지를 운영하며 일상 사용자의 유기적 콘텐츠 제작을 유도한다. 전통 광고 신뢰 하락과 또래형 콘텐츠 영향력 증가(Z세대 40%가 인플루언서 추천 선호)가 배경이다.",
         "points": [
-          "전통 크리에이터 → 고객·직원 활용",
-          "전통 광고 신뢰 하락 배경",
-          "Z세대 또래 영향력 겨냥"
+          "참여 유도·니치 제품 정상화에 효과",
+          "결국 고도로 연출된 전략이며 항상 통하지는 않음"
         ],
-        "why": [
-          "진정성 기반 마케팅으로의 전환",
-          "인플루언서 경제의 다음 국면"
-        ]
+        "why": ["UGC·직원 애드보커시 전략 수립의 최신 사례"]
       }
     },
     {
-      "id": "marketing-atlan-ai-citations",
-      "title": "아틀란이 52페이지로 AI 인용 점유율 35%를 만든 법",
-      "summary": "아틀란이 키워드 추종 대신 구매자 중심의 포괄적 콘텐츠로 상당한 AI 인용 점유율을 확보했다. 전문가 저술·리서치·균형 잡힌 평가로 오가닉 순위가 최상단이 아니어도 AI 인용을 얻었다.",
-      "source": "Foundation Inc",
-      "url": "https://foundationinc.co/lab/atlan-eeat",
-      "originalDate": "2026-07-13",
+      "id": "tech-bro-marketing",
+      "title": "마케팅의 '테크브로화'",
+      "summary": "'내러티브 엔지니어' — 같은 일을 더 높은 지위로 들리게 하는 리브랜딩.",
+      "source": "TLDR Marketing",
+      "url": "https://time.com/article/2026/07/10/tech-bro-ification-of-marketing/",
       "report": {
-        "tldr": "아틀란이 구매자 중심 콘텐츠로 AI 검색 인용 점유율 35%를 달성했다.",
-        "what": "키워드 추종 대신 구매자 관점의 포괄적 콘텐츠를 만들어 AI 인용에서 35% 점유율을 얻었다. 전문가 저술, 리서치, 균형 잡힌 평가 덕분에 오가닉 순위가 최상위가 아니어도 AI가 인용했다.",
+        "tldr": "마케팅이 '내러티브 엔지니어' 같은 공학적 직함으로 재포장되고 있다는 타임지 분석.",
+        "what": "마케터의 약 70%가 여성이고, 여성 비중이 높아진 분야는 보수·지위가 하락하는 경향이 있어 기업들이 공학 언어를 빌려 신뢰도를 높이고 유입 인구를 바꾸려 한다. AI가 스토리텔링과 취향의 가치를 부각시키지만, 그것을 마케팅이라 부르는 대신 재라벨링한다.",
         "points": [
-          "구매자 중심 포괄 콘텐츠 전략",
-          "AI 인용 점유율 35%",
-          "전문성·리서치·균형이 핵심"
+          "직함 인플레이션의 젠더·지위 역학",
+          "'기술적으로 들려야 중요하다'는 편견의 재생산"
         ],
-        "why": [
-          "생성형 검색 시대의 콘텐츠 최적화(GEO)",
-          "순위보다 인용 가치가 중요해짐"
-        ]
+        "why": ["마케팅 조직의 포지셔닝·채용 언어에 대한 비판적 시각"]
       }
     },
     {
-      "id": "marketing-al-pacino-copy",
-      "title": "알 파치노가 카피에 대해 가르쳐주는 것",
-      "summary": "효과적 설득은 은근하게 시작해 솔직한 인정으로 신뢰를 쌓고 핵심 아이디어에 구체적 디테일로 앵커링하며 명확한 결과로 선택을 프레이밍한다. 청중이 스스로 결론에 이르게 하면 몰입이 커진다.",
-      "source": "Conversion Rate Experts",
+      "id": "al-pacino-copy",
+      "title": "알 파치노에게 배우는 카피라이팅",
+      "summary": "조용한 시작, 정직한 인정, 하나의 핵심, 선택의 프레이밍.",
+      "source": "TLDR Marketing",
       "url": "https://conversion-rate-experts.com/a-game-of-inches-copywriting-friday/",
-      "originalDate": "2026-07-13",
       "report": {
-        "tldr": "알 파치노의 연설에서 뽑아낸 설득력 있는 카피라이팅 원칙을 정리했다.",
-        "what": "은근하게 시작하고, 솔직한 인정으로 신뢰를 쌓으며, 핵심 아이디어를 구체적 디테일로 앵커링하고, 명확한 결과로 선택을 프레이밍한다. 청중이 스스로 결론에 도달하게 할 때 몰입이 커진다.",
+        "tldr": "강한 설득에는 명확한 패턴이 있다 — 조용히 시작해 주의를 끌고, 정직한 인정으로 신뢰를 쌓고, 하나의 핵심 아이디어에 모든 것을 고정한다.",
+        "what": "구체적 디테일로 그림을 그리게 하고, 아무것도 안 하는 것의 비용이 드러나는 선택으로 프레이밍한 뒤, 결론은 청중이 스스로 내리게 해 수용도를 높인다.",
         "points": [
-          "은근한 시작·솔직한 인정으로 신뢰 구축",
-          "구체적 디테일로 핵심 앵커링",
-          "청중 주도 결론 유도"
+          "6단계 설득 구조를 카피에 적용",
+          "'스스로 내린 결론'이 전환의 핵심"
         ],
-        "why": [
-          "설득 카피의 구조적 원칙 제시",
-          "감정·논리 결합의 실전 기법"
-        ]
+        "why": ["랜딩페이지·세일즈 카피 구조화에 바로 적용 가능"]
       }
     },
     {
-      "id": "marketing-ai-native-email",
-      "title": "AI 네이티브 이메일 마케팅 시스템 구축",
-      "summary": "클로드 API로 이메일 운영을 돌리면 캠페인 생성·성과 분석·지속 최적화를 한 시스템으로 통합한다. ESP 커넥터·브랜드 컨텍스트 저장·자동 경쟁사 추적을 포함한다.",
-      "source": "Jon4Growth (Substack)",
+      "id": "atlan-ai-citations",
+      "title": "Atlan — 52개 페이지로 AI 인용 점유율 35% 달성",
+      "summary": "키워드 대신 '완결된 구매자 질문'에 답하는 고품질 페이지 전략.",
+      "source": "TLDR Marketing",
+      "url": "https://foundationinc.co/lab/atlan-eeat",
+      "report": {
+        "tldr": "Atlan이 개별 키워드 추격 대신 구매자 질문에 완결적으로 답하는 52개 고품질 페이지로 AI 벤더 인용의 35%를 차지했다.",
+        "what": "비교 페이지·구매 가이드·의사결정 콘텐츠에 전문가 저자, 최신 업데이트, 인용 연구, 자체 데이터, 사례 연구, 균형 잡힌 제품 평가를 담았다. 랭킹 중인 미국 키워드 3,886개의 71%가 AI Overviews를 트리거해 한 페이지가 검색 트래픽과 AI 인용을 동시에 번다.",
+        "points": [
+          "발행량보다 콘텐츠 품질이 AI 인용을 결정",
+          "오가닉 상위가 아니어도 구조가 좋으면 인용 획득"
+        ],
+        "why": ["GEO(생성엔진 최적화) 실전 플레이북으로 참고 가치 높음"]
+      }
+    },
+    {
+      "id": "ai-native-email",
+      "title": "AI 네이티브 이메일 마케팅 시스템 구축기",
+      "summary": "Claude + ESP API + 스킬 + 예약 감사로 캠페인 루프 자동화.",
+      "source": "TLDR Marketing",
       "url": "https://jon4growth.substack.com/p/building-an-ai-native-email-marketing",
-      "originalDate": "2026-07-13",
       "report": {
-        "tldr": "클로드 API로 이메일 마케팅 전 과정을 하나의 AI 네이티브 시스템으로 통합한 사례다.",
-        "what": "분산된 이메일 워크플로를 클로드 API 기반 단일 시스템으로 묶어 캠페인 생성, 성과 분석, 지속 최적화를 처리한다. ESP 커넥터, 브랜드 컨텍스트 저장, 자동 경쟁사 추적을 포함한다.",
+        "tldr": "Claude 안에서 이메일을 운영하면 ESP를 API로 연결하고 성과를 분석하고 캠페인을 생성하며 시간이 갈수록 개선되는 단일 시스템이 된다.",
+        "what": "구성은 API 커넥터, 브랜드 컨텍스트용 claude.md, 커스텀 이메일 스킬, 예약 감사, 템플릿용 Claude Design이다. 데이터는 Claude Code 위젯 대시보드로 흐르고, 경쟁사 이메일은 Gmail 커넥터와 ReallyGoodEmails 스크래핑으로 추적한다. 테스트·학습은 공유 GitHub 리포에 저장돼 캠페인이 복리로 개선된다.",
         "points": [
-          "클로드 API 기반 통합 시스템",
-          "캠페인 생성·분석·최적화 일원화",
-          "ESP 연동·브랜드 컨텍스트·경쟁사 추적"
+          "파편화된 마테크 스택의 에이전트 통합 사례",
+          "학습 자산의 리포 축적 = 복리 효과"
         ],
-        "why": [
-          "마케팅 스택의 AI 네이티브 재구성 사례",
-          "분산 도구 통합으로 운영 효율화"
-        ]
+        "why": ["이메일 채널 운영을 에이전트화하려는 팀의 청사진"]
       }
     },
     {
-      "id": "marketing-frontload-adspend",
-      "title": "광고비를 앞당겨 쓰면 보통 역효과가 나는 이유",
-      "summary": "대규모 초기 광고 예산은 성과 데이터가 부족해 비용이 높고 최적화 여지가 적다. 작게 시작해 효과를 검증한 뒤 확장하는 편이 공격적 초기 지출보다 나은 수익을 낸다.",
-      "source": "Search Engine Land",
-      "url": "https://searchengineland.com/why-frontloading-ad-spend-backfires-481931/",
-      "originalDate": "2026-07-13",
+      "id": "chatgpt-fanouts-capture",
+      "title": "ChatGPT Search & Fan-Outs Capture (크롬 확장)",
+      "summary": "ChatGPT가 응답 생성 시 실제로 수행하는 검색을 포착·분석·내보내기.",
+      "source": "TLDR Marketing",
+      "url": "https://chromewebstore.google.com/detail/chatgpt-search-fan-outs-c/hlpghnnocnclmnkhmoacpoejpebfeifm",
       "report": {
-        "tldr": "초기 광고비 몰빵이 데이터 부족으로 역효과를 낳는다는 실무 조언이다.",
-        "what": "대규모 선지출은 성과 데이터가 쌓이기 전이라 비용이 비싸고 최적화 여력이 적다. 작게 시작해 효과를 검증한 뒤 확장하는 접근이 공격적 초기 지출보다 더 나은 ROI를 낸다.",
-        "points": [
-          "초기 대규모 지출은 데이터 부족",
-          "높은 비용·낮은 최적화 여력",
-          "검증 후 확장이 유리"
-        ],
-        "why": [
-          "퍼포먼스 마케팅의 예산 배분 원칙",
-          "학습 기반 점진 확장의 가치"
-        ]
+        "tldr": "ChatGPT가 응답 뒤에서 수행하는 검색 쿼리를 포착·분석·내보내는 크롬 확장.",
+        "what": "Search(전통 쿼리), Shopping(구글 쇼핑 스크래핑 기반 짧은 쿼리), Images 팬아웃을 구분한다.",
+        "points": ["AI 검색 노출 최적화의 관찰 도구"],
+        "why": ["GEO 전략 수립에 필요한 '쿼리 인텔리전스' 확보"]
       }
     },
     {
-      "id": "marketing-ai-chatbot-cx",
-      "title": "당신의 AI 챗봇이 내 치즈버거 주문을 더 나쁘게 만들었다",
-      "summary": "형편없는 AI 고객 경험은 자동화 자체보다 불필요한 컨텍스트 전환에서 비롯된다. 효과적 AI 구현은 사용자 수용을 얻으려면 인간 대안의 속도·단순성을 따라잡아야 한다.",
-      "source": "CMSWire",
+      "id": "frontloading-ad-spend",
+      "title": "런칭 때 광고비 몰아쓰기가 역효과인 이유",
+      "summary": "초기엔 데이터 없음 = 비용 최고·최적화 최저. 작게 시작해 스케일.",
+      "source": "TLDR Marketing",
+      "url": "https://searchengineland.com/why-frontloading-ad-spend-backfires-481931",
+      "report": {
+        "tldr": "런칭 시점의 대규모 지출은 성장을 앞당기기보다 대개 역효과를 낸다.",
+        "what": "초기 캠페인은 데이터가 없어 비용이 가장 높고 최적화 여지가 적다. 프런트로딩은 CPC를 부풀리고 인사이트를 늦추며 결과 미달 시 신뢰를 해친다. 작게 시작해 통하는 것을 찾고 스케일하라는 결론이다.",
+        "points": [
+          "예산 페이싱의 기본 원칙 재확인",
+          "학습 기간을 예산 계획에 내장"
+        ],
+        "why": ["신제품 론칭 미디어 플랜의 흔한 실수 방지"]
+      }
+    },
+    {
+      "id": "ai-chatbot-cheeseburger",
+      "title": "당신의 AI 챗봇이 내 치즈버거 주문을 망쳤다",
+      "summary": "컨텍스트 스위칭이 나쁜 AI CX의 최대 원인으로 부상.",
+      "source": "TLDR Marketing",
       "url": "https://www.cmswire.com/customer-experience/does-your-ai-pass-the-airport-waitstaff-test/",
-      "originalDate": "2026-07-13",
       "report": {
-        "tldr": "AI 고객 경험의 실패는 자동화가 아니라 불필요한 컨텍스트 전환 탓이라는 진단이다.",
-        "what": "나쁜 AI CX는 자동화 그 자체보다 불필요한 맥락 전환에서 온다. AI 구현이 사용자에게 수용되려면 인간 대안의 속도와 단순성을 최소한 따라잡아야 한다.",
+        "tldr": "공항 식당의 QR 주문이 와이파이 전환·계정 생성·토핑 체크를 요구하는 동안, 사람 직원은 1분 만에 주문을 받았다 — AI CX의 '공항 웨이터 테스트'.",
+        "what": "사람들은 전반적으로 인간 지원을 선호하지만 리테일·여행 등 저위험 카테고리에서는 격차가 좁혀지고 AI가 이미 앞서기도 한다. 해법은 더 많은 자동화가 아니라, 대체하는 인간과 같은 속도·수월함 기준으로 평가받는 AI다.",
         "points": [
-          "실패 원인은 불필요한 컨텍스트 전환",
-          "자동화 자체는 문제 아님",
-          "인간 대안 수준의 속도·단순성 필요"
+          "컨텍스트 스위칭 = CX 킬러",
+          "AI 평가 기준을 '인간 대비'로 설정"
         ],
-        "why": [
-          "AI CX 설계의 사용자 수용 기준",
-          "효율 없는 자동화의 역효과 경계"
-        ]
+        "why": ["CX 자동화 도입 시 측정 기준 설계에 시사점"]
+      }
+    },
+    {
+      "id": "disney-free-tier",
+      "title": "디즈니+, 무료 스트리밍 티어 검토 보도",
+      "summary": "4월 미국 TV 시청시간의 18.7%가 무료 스트리밍.",
+      "source": "TLDR Marketing",
+      "url": "https://techcrunch.com/2026/07/10/disney-is-considering-a-free-streaming-tier-report-says/",
+      "report": {
+        "tldr": "디즈니+가 무료 스트리밍 티어를 검토 중이라는 보도.",
+        "what": "무료 스트리밍은 4월 미국 TV 시청시간의 18.7%를 차지했다.",
+        "points": ["FAST(광고 기반 무료) 시장 확대"],
+        "why": ["광고 인벤토리 지형 변화 — 미디어 바잉 계획에 참고"]
+      }
+    },
+    {
+      "id": "prada2-marketing",
+      "title": "'악마는 프라다를 입는다 2' 마케팅 해부",
+      "summary": "영화 개봉이 아니라 살아있는 패션 이벤트처럼 캠페인 운영.",
+      "source": "TLDR Marketing",
+      "url": "https://www.marketergems.com/p/devil-wears-prada-2-marketing-deep-dive",
+      "report": {
+        "tldr": "이 캠페인은 영화를 개봉작이 아닌 살아있는 패션 이벤트로 취급했다.",
+        "what": "엔터테인먼트 마케팅의 이벤트화 사례 분석이다.",
+        "points": ["IP를 문화 이벤트로 확장하는 전략"],
+        "why": ["엔터·패션 크로스오버 캠페인의 참고 사례"]
+      }
+    },
+    {
+      "id": "klaviyo-product-tags",
+      "title": "클릭 가능한 제품 태그 vs 일반 카드 — Klaviyo 실험",
+      "summary": "멀티 제품 구성을 더 빨리 스캔하게 만든 작은 변화의 승리.",
+      "source": "TLDR Marketing",
+      "url": "https://www.linkedin.com/posts/caseyhill_this-tiny-homepage-change-helped-klaviyo-share-7482181594619736064-9sxB/",
+      "report": {
+        "tldr": "클릭 가능한 제품 태그가 표준 제품 카드를 이겼다 — Klaviyo의 멀티 제품 구성을 더 명확하고 빠르게 스캔하게 만들었기 때문.",
+        "what": "홈페이지 A/B 테스트의 간단한 승리 사례다.",
+        "points": ["스캔 용이성이 전환의 지렛대"],
+        "why": ["멀티 프로덕트 SaaS 홈페이지에 즉시 적용 가능한 인사이트"]
       }
     }
   ]

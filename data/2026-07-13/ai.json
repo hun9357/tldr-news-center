@@ -6,171 +6,259 @@
   "bg": "#1d2942",
   "items": [
     {
-      "id": "ai-apple-openai-suit",
-      "title": "애플-OpenAI 소송, AI 디바이스 인재·IP 전쟁 격화",
-      "summary": "애플이 OpenAI·io Products와 전직 직원을 상대로 영업비밀 침해 소송을 제기하며 AI 하드웨어를 둘러싼 인재·기밀 다툼이 법정으로 옮겨갔다.",
-      "source": "New York Times",
-      "url": "https://tldr.tech/ai/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "claude-code-browser",
+      "title": "Claude Code 데스크톱에 인앱 브라우저 탑재",
+      "summary": "문서·디자인·웹사이트를 로컬 dev 서버처럼 읽고 클릭하고 상호작용.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2075635283211772279.html",
       "report": {
-        "tldr": "AI 하드웨어를 겨냥한 애플-OpenAI의 인재·IP 갈등이 소송으로 표면화됐다.",
-        "what": "애플은 전직 직원이 미공개 제품 기밀을 OpenAI 측으로 반출했다고 주장하며 사용 금지 가처분을 청구했다. io Products(조니 아이브 하드웨어 부문)가 공동 피고로 지목됐고, 양사는 시리 AI 통합 파트너십을 유지 중이라 관계가 복잡해졌다.",
+        "tldr": "Claude Code 데스크톱이 샌드박스된 인앱 브라우저를 얻어 문서·디자인·웹사이트와 직접 상호작용할 수 있게 됐다.",
+        "what": "Claude Code가 로컬 개발 서버를 다루던 방식 그대로 외부 사이트를 읽고, 클릭하고, 상호작용한다. 브라우저는 샌드박스 기반이며 설정 가능하고, 세션 유지 여부를 사용자가 선택할 수 있다.",
         "points": [
-          "OpenAI 하드웨어 부문 io Products 공동 피고",
-          "미공개 제조 기법 등 기밀 반출 주장",
-          "파트너이자 경쟁자인 애플-OpenAI 이해충돌"
+          "docs·디자인·웹앱을 에이전트가 직접 조작",
+          "샌드박스·설정 가능, 세션 지속성 선택 옵션",
+          "데모 영상 공개"
         ],
         "why": [
-          "프런티어 랩의 하드웨어 진출이 빅테크와 정면 충돌",
-          "AI 디바이스 인재 확보전이 법적 리스크로 전이"
+          "코딩 에이전트가 '코드 작성'을 넘어 브라우저 작업까지 통합하는 흐름",
+          "프론트엔드 디버깅·E2E 확인 루프가 에이전트 안으로 들어옴"
         ]
       }
     },
     {
-      "id": "ai-zhipu-glm",
-      "title": "즈푸 GLM, 옵스급 성능에 1/5 비용… 채택 급증",
-      "summary": "즈푸 GLM 5.2가 주요 에이전트 코딩 벤치마크에서 앤트로픽 Opus 4.8과 1%포인트 차로 근접하면서 비용은 약 5분의 1에 그쳤다. 버셀에서 2026년 가장 빠른 채택 속도를 기록했다.",
-      "source": "CNBC",
-      "url": "https://tldr.tech/ai/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "apple-sues-openai-ai",
+      "title": "애플, OpenAI 제소 — 하드웨어 기밀 유출 혐의",
+      "summary": "전직 임원들이 보안 절차를 우회해 민감 제품 정보를 이전했다는 주장.",
+      "source": "TLDR AI",
+      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
       "report": {
-        "tldr": "즈푸 GLM 5.2가 프런티어급 성능을 1/5 비용에 제공하며 미국 개발자 채택이 급증했다.",
-        "what": "MIT 라이선스의 GLM 5.2가 에이전트 코딩 벤치마크에서 Opus 4.8과 1%포인트 차로 근접했고, 버셀에서 일일 토큰이 약 27배, 고객이 약 80배 늘며 2026년 최고 채택 속도를 보였다.",
+        "tldr": "애플이 OpenAI와 전직 애플 임원들을 기밀 하드웨어 정보 절취 혐의로 제소했다.",
+        "what": "소장은 고위 리더들이 직원들에게 보안 절차 우회와 민감 제품 정보 이전을 지시했다고 주장한다. OpenAI의 기기 사업을 뒷받침하기 위한 것이었다는 취지다.",
         "points": [
-          "에이전트 코딩 벤치마크에서 Opus 4.8과 1%p 차",
-          "비용은 약 5분의 1 수준",
-          "버셀 첫 주 토큰 27배·고객 80배 증가"
+          "전직 임원 주도의 조직적 정보 이전 주장",
+          "OpenAI 디바이스 야망과 직접 연결",
+          "OpenAI는 혐의 부인"
         ],
-        "why": [
-          "중국 오픈웨이트 모델의 성능·비용 경쟁력 입증",
-          "미국 프런티어 랩 가격 정책에 하방 압력"
-        ]
+        "why": ["프런티어 랩의 하드웨어 진출 경쟁이 법정 분쟁으로 비화"],
+        "context": "빅테크 에디션의 빅스토리와 동일 사안. 자세한 경위는 tech 에디션 리포트 참조."
       }
     },
     {
-      "id": "ai-chinese-open-weights",
-      "title": "미국 기업, 비용 급등에 값싼 중국 오픈웨이트로 이동",
-      "summary": "OpenAI·앤트로픽 비용이 오르자 미국 기업들이 저렴한 중국 오픈웨이트 모델 채택을 늘리고 있다. OpenRouter 기준 미국 기업이 중국 모델에 돌리는 토큰 비중이 2월 이후 매주 30%를 웃돌고 최고 46%까지 치솟았다.",
-      "source": "OpenRouter",
-      "url": "https://tldr.tech/ai/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "fable5-access-extended",
+      "title": "Anthropic, Claude Fable 5 접근 재연장 — OpenAI는 제한 해제",
+      "summary": "Fable 5 접근·Claude Code 한도 7/19까지 상향, GPT-5.6 Sol은 캡 일시 제거.",
+      "source": "TLDR AI",
+      "url": "https://simonwillison.net/2026/Jul/12/bump/",
       "report": {
-        "tldr": "비용 부담이 커진 미국 기업들이 중국 오픈웨이트 모델로 워크로드를 옮기고 있다.",
-        "what": "OpenRouter 데이터 기준, 미국 기업이 중국산 모델에 실행하는 토큰 비중이 2월 8일 이후 매주 30%를 상회했고 최고 46%까지 상승했다. 프런티어 모델 비용 상승이 이 흐름을 가속하고 있다.",
+        "tldr": "Anthropic이 Claude Fable 5 접근과 Claude Code 한도를 7월 19일까지 연장·상향했고, OpenAI는 GPT-5.6 사용 캡을 일시 제거했다.",
+        "what": "두 회사가 동시에 사용 제한을 완화하며 사용자 확보 경쟁을 벌이고 있다. 다만 이 대비는 Anthropic의 장기 모델 가용성에 대한 불확실성을 부각한다는 평가다.",
         "points": [
-          "중국 모델 토큰 비중 주간 30%+ 유지",
-          "일부 주 최고 46% 기록",
-          "비용 상승이 오픈웨이트 이동을 견인"
+          "Fable 5 접근 + Claude Code 한도 7/19까지 연장",
+          "OpenAI, Plus·Pro·Business의 5시간 제한 일시 해제",
+          "장기 가용성·요금 정책은 여전히 유동적"
         ],
-        "why": [
-          "프런티어 폐쇄 모델의 가격 경쟁력 약화 신호",
-          "지정학·거버넌스 리스크와 비용 절감의 상충"
-        ]
+        "why": ["프런티어 모델 사용량 정책이 곧 개발 워크플로 안정성 리스크"]
       }
     },
     {
-      "id": "ai-meta-muse-image",
-      "title": "메타, 뮤즈 이미지 AI 기능 출시 3일 만에 폐기",
-      "summary": "메타가 프라이버시 논란 속에 인스타그램·왓츠앱의 뮤즈 이미지 기능을 출시 사흘 만에 중단했다. 기본값으로 공개 계정 이미지를 생성해 SAG-AFTRA·CAA 등의 비판을 받았다.",
-      "source": "The Next Web",
-      "url": "https://tldr.tech/ai/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "own-your-weights",
+      "title": "Own Your Weights — 가중치 소유의 복잡성 세금",
+      "summary": "기업 데이터로 태스크 특화 모델을 만들어주는 서비스 계층이 필요하다는 제안.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/KLAbOl",
       "report": {
-        "tldr": "메타가 프라이버시 반발에 밀려 뮤즈 이미지 기능을 출시 3일 만에 철회했다.",
-        "what": "뮤즈 이미지는 공개 계정 이미지를 기본값으로 활용해 이미지를 생성하도록 설계돼 초상권·프라이버시 논란을 촉발했다. SAG-AFTRA, CAA 등 업계의 비판이 이어지자 메타가 곧바로 기능을 내렸다.",
+        "tldr": "대부분의 기업에게 자체 가중치 소유는 복잡성 비용이 너무 크므로, 워크로드를 맡기면 태스크 특화 모델을 돌려주는 서비스가 필요하다는 주장.",
+        "what": "기업이 데이터를 가져가면 자사 태스크에 튜닝된 모델을 자사 통제 인프라에서 돌려주는 서비스 모델을 제안한다. 모델 하나가 아니라 지속적으로 가중치를 개선하는 '엔진'을 소유하게 된다는 개념이다.",
         "points": [
-          "공개 계정 이미지 기본 활용 설계가 논란",
-          "SAG-AFTRA·CAA 등 업계 반발",
-          "출시 3일 만의 이례적 철회"
+          "가중치 소유의 통제 이점 + 유지보수 부담 제거",
+          "지속적 파인튜닝 루프를 서비스로 제공",
+          "인프라 통제권은 고객 유지"
         ],
-        "why": [
-          "생성형 AI의 초상권·동의 설계 리스크 부각",
-          "빅테크의 성급한 AI 기능 출시에 대한 경고"
-        ]
+        "why": ["오픈웨이트와 API 사이의 중간 시장이 열릴 수 있음"]
       }
     },
     {
-      "id": "ai-anthropic-reflect",
-      "title": "앤트로픽, '클로드 사용 방식 돌아보기' 대시보드 공개",
-      "summary": "앤트로픽이 클로드 사용 패턴을 추적·시각화하는 리플렉션 대시보드를 출시했다. 메모리를 켠 Free·Pro·Max 사용자의 설정에서 베타로 제공된다.",
-      "source": "Anthropic",
-      "url": "https://tldr.tech/ai/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "future-worth-building-human",
+      "title": "Thinking Machines — '만들 가치가 있는 미래는 인간적이다'",
+      "summary": "인간 판단을 확장하는 커스터마이즈 가능한 AI를 지향하는 비전 선언.",
+      "source": "TLDR AI",
+      "url": "https://thinkingmachines.ai/blog/the-future-worth-building-is-human/",
       "report": {
-        "tldr": "앤트로픽이 사용자가 자신의 클로드 사용 패턴을 되짚어볼 수 있는 대시보드를 내놨다.",
-        "what": "새 리플렉션 기능은 사용자의 클로드 활용 패턴을 추적·시각화한다. 메모리 기능을 활성화한 Free·Pro·Max 이용자의 설정 메뉴에서 베타로 이용할 수 있다.",
+        "tldr": "Thinking Machines가 인간의 지식·의지·판단이 이끄는 AI 개발 비전을 공개했다.",
+        "what": "커스터마이즈 가능하고 상호작용적인 모델로 인간 판단을 확장하는 것이 목표다. 조직이 자신의 고유 지식·가치에 AI를 정렬할 수 있도록 도구·인터페이스·연구를 개발해 다양하고 지역화된 AI 적응을 가능하게 하겠다고 밝혔다.",
         "points": [
-          "클로드 사용 패턴 추적·시각화",
-          "메모리 활성화 사용자 대상 베타",
-          "Free·Pro·Max 설정에서 제공"
+          "인간 판단 확장에 초점",
+          "조직별 지식·가치 정렬 도구 개발",
+          "중앙집중식 범용 AGI 노선과 차별화"
         ],
-        "why": [
-          "개인화·메모리 기반 AI 사용 경험 강화 흐름",
-          "사용 투명성 제공으로 신뢰·리텐션 제고 시도"
-        ]
+        "why": ["프런티어 랩들의 노선 분화 — '지역화·정렬' 축의 대표 선언"]
       }
     },
     {
-      "id": "ai-basecamp-bench",
-      "title": "베이스캠프 벤치: GPT-5.6 Sol·Fable 5·Grok 4.5 비교",
-      "summary": "복잡한 소프트웨어 문제에서 세 모델을 비교한 결과, Fable 5는 코드 품질에서 앞섰고 Grok 4.5는 속도·비용을 우선했으나 완성도가 떨어졌다.",
-      "source": "smw.ai",
-      "url": "https://tldr.tech/ai/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "openwiki-brains",
+      "title": "LangChain OpenWiki Brains — 에이전트용 능동 메모리",
+      "summary": "Gmail·Notion·트위터 등에서 스스로 맥락을 수집·갱신하는 '개인 브레인'.",
+      "source": "TLDR AI",
+      "url": "https://www.langchain.com/blog/introducing-openwiki-brains-general-purpose-wiki-memory-for-agents",
       "report": {
-        "tldr": "실전 소프트웨어 과제에서 GPT-5.6 Sol·Fable 5·Grok 4.5의 강점이 뚜렷이 갈렸다.",
-        "what": "베이스캠프 벤치는 복잡한 코딩 문제로 세 프런티어 모델을 비교했다. Fable 5는 코드 품질에서 우위를, Grok 4.5는 속도·비용 효율을 보였으나 마감 완성도는 떨어졌다.",
+        "tldr": "LangChain이 에이전트가 연결된 소스에서 자율적으로 맥락을 수집·갱신하는 능동 메모리 OpenWiki Brains를 공개했다.",
+        "what": "0.1.0 버전은 코드 문서화를 넘어 Gmail·Notion·Twitter 등 커넥터로 범용 '퍼스널 브레인'을 구성한다. 에이전트가 로컬 위키를 유지하며 수동 업데이트 없이 일관된 맥락을 제공한다.",
         "points": [
-          "Fable 5: 코드 품질 우위",
-          "Grok 4.5: 속도·비용 우선, 완성도 부족",
-          "GPT-5.6 Sol: 균형형 성능"
+          "수동 메모리 관리 → 능동(proactive) 수집으로 전환",
+          "커넥터 기반 범용 지식 저장소",
+          "로컬 위키 형태로 유지"
         ],
-        "why": [
-          "코딩 에이전트 도입 시 모델별 트레이드오프 명확화",
-          "단일 벤치마크보다 과제 유형별 선택이 중요"
-        ]
+        "why": ["에이전트 메모리 계층 경쟁의 새 접근 — 컨텍스트 신선도 문제 공략"]
       }
     },
     {
-      "id": "ai-agents-confidently-wrong",
-      "title": "기업 57%, AI 에이전트가 '자신 있게 틀리는' 것을 목격",
-      "summary": "설문 결과 대부분의 기업이 모델 한계보다 일관성 없는 비즈니스 컨텍스트 때문에 AI 에이전트의 부정확한 응답을 경험했다. 거버넌스된 컨텍스트 레이어를 도입한 곳은 4분의 1에 불과했다.",
-      "source": "VentureBeat",
-      "url": "https://tldr.tech/ai/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "llm-as-verifier",
+      "title": "LLM-as-a-Verifier — 범용 검증 프레임워크 연구",
+      "summary": "희소성 기법으로 학습 비용을 낮추면서 성능을 유지하는 방법 탐구.",
+      "source": "TLDR AI",
+      "url": "https://arxiv.org/pdf/2607.05391",
       "report": {
-        "tldr": "기업의 57%가 AI 에이전트의 '확신에 찬 오답'을 경험했으며 원인은 컨텍스트 부실이었다.",
-        "what": "설문에 따르면 에이전트 오류의 상당수는 모델 성능이 아니라 일관성 없는 비즈니스 컨텍스트에서 비롯됐다. 거버넌스된 컨텍스트 레이어를 구축한 기업은 25%에 그쳤다.",
+        "tldr": "희소성(sparsity) 기법을 활용해 LLM 학습의 계산 비용을 줄이면서 성능을 유지하려는 연구.",
+        "what": "연구진은 효율적 학습 방법을 탐구하며, 이 접근이 소규모 조직의 LLM 학습 접근성을 높일 수 있다고 본다.",
         "points": [
-          "오류 원인은 모델보다 컨텍스트 부실",
-          "거버넌스된 컨텍스트 레이어 도입은 25%뿐",
-          "'자신 있게 틀림'이 신뢰의 핵심 저해 요인"
+          "희소성 기반 학습 비용 절감",
+          "성능 유지가 목표",
+          "소규모 조직의 접근성 개선 기대"
         ],
-        "why": [
-          "에이전트 신뢰성의 병목은 데이터·컨텍스트 거버넌스",
-          "RAG·컨텍스트 관리 투자 필요성 부각"
-        ]
+        "why": ["학습 비용 구조가 곧 생태계 진입장벽"]
       }
     },
     {
-      "id": "ai-genkit",
-      "title": "구글 Genkit으로 에이전틱 풀스택 앱 구축",
-      "summary": "구글의 오픈소스 Genkit 프레임워크가 메시지 히스토리·툴 루프·스트리밍·영속성을 통합 인터페이스로 묶어 AI 앱을 여러 플랫폼에서 구축하도록 지원한다.",
-      "source": "Google Developers Blog",
-      "url": "https://tldr.tech/ai/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "proactive-memory-agents",
+      "title": "롱호라이즌 에이전트를 위한 능동 메모리",
+      "summary": "별도 메모리 에이전트가 상태를 추적하고 필요 시 액션 에이전트에 리마인드.",
+      "source": "TLDR AI",
+      "url": "https://arxiv.org/abs/2607.08716",
       "report": {
-        "tldr": "구글 Genkit이 에이전트 앱 구축에 필요한 공통 요소를 하나의 프레임워크로 통합했다.",
-        "what": "오픈소스 Genkit은 메시지 히스토리, 툴 호출 루프, 스트리밍, 상태 영속성을 통합 API로 제공해 다양한 플랫폼에서 에이전틱 앱을 만들 수 있게 한다.",
+        "tldr": "중요 상태를 추적하는 별도 메모리 에이전트가 정보 유실 위험 시 액션 에이전트에 선택적으로 리마인드하는 구조 제안.",
+        "what": "기반 액션 모델을 수정하지 않고도 Terminal-Bench 2.0과 τ2-Bench 통과율을 개선했다.",
         "points": [
-          "메시지 히스토리·툴 루프·스트리밍·영속성 통합",
-          "여러 플랫폼 대상 에이전트 앱 구축",
-          "오픈소스 프레임워크"
+          "메모리·액션 에이전트 분리 구조",
+          "모델 수정 없이 벤치마크 개선",
+          "긴 작업에서의 컨텍스트 유실 방지"
         ],
-        "why": [
-          "에이전트 개발의 반복 작업을 표준화",
-          "구글 생태계의 AI 앱 개발자 유인 강화"
-        ]
+        "why": ["롱호라이즌 에이전트 신뢰성의 핵심 과제인 상태 관리에 실용적 해법"]
+      }
+    },
+    {
+      "id": "tencent-manus-stake",
+      "title": "텐센트, 메타 딜 무산된 Manus 대규모 지분 인수 협상",
+      "summary": "중국 규제로 무산된 메타 인수를 20억 달러 동일 밸류에 되사는 논의.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/L5xLb0",
+      "report": {
+        "tldr": "텐센트가 중국 규제당국이 메타의 인수를 무산시킨 Manus 인수를 논의 중이다.",
+        "what": "메타의 매입분을 동일 밸류에이션(20억 달러)에 되사는 방향이다. 텐센트는 자체 AI를 강화하는 시점에 에이전트 기술을 확보할 기회로 보고 있으며, 최근 10억+ 사용자 생태계에서 심부름을 수행할 프로토타입 에이전트를 공개했다.",
+        "points": [
+          "메타 인수 무산분을 $2B 동일 밸류로 인수 논의",
+          "텐센트의 에이전트 스택 강화 목적",
+          "중국 규제가 글로벌 AI M&A를 재편"
+        ],
+        "why": ["에이전트 스타트업이 미·중 플랫폼 경쟁의 전략 자산이 됨"]
+      }
+    },
+    {
+      "id": "openai-brockman-consolidation",
+      "title": "IPO 앞둔 OpenAI, 브록먼으로 권력 재편",
+      "summary": "피지 시모 사임 후 그렉 브록먼이 핵심 프로젝트 총괄.",
+      "source": "TLDR AI",
+      "url": "https://www.cnbc.com/2026/07/10/openai-power-consolidates-under-co-founder-greg-brockman-ahead-of-ipo.html",
+      "report": {
+        "tldr": "피지 시모가 건강 문제로 물러나며 그렉 브록먼이 OpenAI 핵심 프로젝트를 총괄하게 됐다.",
+        "what": "브록먼은 Anthropic·구글과의 경쟁 속 수익 성장 책임을 맡는다. OpenAI는 대형 IPO를 앞두고 ChatGPT 점유율 하락과 규제 서류 준비에 대응해야 한다.",
+        "points": [
+          "공동창업자 중심 지배구조 재편",
+          "수익화 드라이브 + IPO 준비",
+          "ChatGPT 점유율 하락 압박"
+        ],
+        "why": ["OpenAI 상장 시나리오는 AI 자본시장 전체의 분수령"]
+      }
+    },
+    {
+      "id": "sol-underhyped",
+      "title": "'GPT-5.6 Sol은 범용 업무에서 과소평가됐다'",
+      "summary": "앱·브라우저·엔터프라이즈 데이터를 넘나드는 장시간 작업에 강점.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/of39XV",
+      "report": {
+        "tldr": "OpenAI의 제이슨 리우는 GPT-5.6 Sol이 앱·브라우저·엔터프라이즈 데이터를 오가는 장시간 작업에 뛰어나다고 주장한다.",
+        "what": "내부 팀은 Sol로 Luna 학습을 구성·감독했고, Ultra 모드는 서브에이전트를 추가해 복잡한 작업에서 더 빠르고 강한 결과를 낸다.",
+        "points": [
+          "장시간(long-running) 업무 특화 강점",
+          "Ultra 모드 = 서브에이전트 병렬화",
+          "내부적으로 모델 학습 감독에도 활용"
+        ],
+        "why": ["코딩 벤치마크 밖 '사무 업무 에이전트' 축의 경쟁 포인트"]
+      }
+    },
+    {
+      "id": "gpt56-limits-relaxed",
+      "title": "OpenAI, GPT-5.6 Sol 사용 제한 일시 완화",
+      "summary": "Plus·Pro·Business의 5시간 제한 제거 + 사용량 리셋.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/sqkAw0",
+      "report": {
+        "tldr": "OpenAI가 Plus·Pro·Business 플랜의 5시간 사용 제한을 일시 제거하고 모든 사용자의 현재 사용량을 리셋했다.",
+        "what": "Anthropic의 Fable 5 연장과 맞물린 사용자 확보 경쟁의 일환이다.",
+        "points": ["5시간 캡 일시 해제", "사용량 전면 리셋"],
+        "why": ["헤비유저 워크플로 전환 실험의 적기"]
+      }
+    },
+    {
+      "id": "cursor-general-agent",
+      "title": "커서, 범용 AI 에이전트 개발 중이라는 보도",
+      "summary": "이메일·문자 응답, 스프레드시트 정리, 엔지니어링 작업까지.",
+      "source": "TLDR AI",
+      "url": "https://threadreaderapp.com/thread/2075311381641916622.html",
+      "report": {
+        "tldr": "커서(Cursor)가 코딩을 넘어 이메일·문자 응답, 스프레드시트 정리까지 다루는 범용 에이전트를 만들고 있다는 보도.",
+        "what": "코딩 에이전트 회사가 일반 사무 업무 영역으로 확장하는 흐름을 보여준다.",
+        "points": ["코딩 → 범용 업무 에이전트 확장", "이메일·문자·스프레드시트 자동화 겨냥"],
+        "why": ["개발 도구 회사들의 TAM 확장 경쟁 — 범용 에이전트 시장 충돌 예고"]
+      }
+    },
+    {
+      "id": "meta-muse-pulled-ai",
+      "title": "메타, 출시 사흘 만에 Muse Image 철회",
+      "summary": "공개 계정 콘텐츠로 AI 이미지 생성 — 프라이버시 반발에 백기.",
+      "source": "TLDR AI",
+      "url": "https://www.bbc.com/news/articles/c2dy6e8klw0o",
+      "report": {
+        "tldr": "메타가 프라이버시 반발 끝에 Muse Image 기능을 출시 며칠 만에 철회했다.",
+        "what": "공개 계정의 콘텐츠로 AI 생성·변형 이미지를 만들 수 있게 한 것이 문제가 됐다.",
+        "points": ["기본값으로 공개 계정 콘텐츠 사용이 쟁점", "출시 3일 만에 철회"],
+        "why": ["생성형 기능의 기본값 설계가 곧 규제·PR 리스크"]
+      }
+    },
+    {
+      "id": "openai-safety-head-leaving",
+      "title": "OpenAI 안전 총괄, 조직 개편 속 퇴사 보도",
+      "summary": "요하네스 하이데케 퇴사, 사치 자인이 임시 총괄.",
+      "source": "TLDR AI",
+      "url": "https://www.engadget.com/2212941/openai-head-of-safety-leaving-company-reorganization/",
+      "report": {
+        "tldr": "OpenAI 안전 총괄 요하네스 하이데케가 조직 개편 과정에서 떠나고, 사치 자인이 임시로 안전 시스템을 이끈다.",
+        "what": "IPO 준비·조직 재편과 맞물린 안전 리더십 교체다.",
+        "points": ["안전 조직 리더십 공백기", "사치 자인 임시 체제"],
+        "why": ["상업화 드라이브와 안전 거버넌스의 긴장을 보여주는 신호"]
+      }
+    },
+    {
+      "id": "frontier-eval-evaluations",
+      "title": "구글 '평가를 평가하기' — 정보이론 기반 에이전트 평가",
+      "summary": "정보 이론으로 평가 케이스 난이도를 조절하는 접근.",
+      "source": "TLDR AI",
+      "url": "https://cloud.google.com/blog/products/data-analytics/evaluate-agent-performance/",
+      "report": {
+        "tldr": "구글 Data Cloud의 Frontier AI 팀이 정보 이론으로 평가 난이도를 조절하는 에이전트 평가법을 탐구한다.",
+        "what": "'누가 평가를 평가하는가'라는 문제의식 아래 평가 케이스 난이도의 체계적 조절을 시도한다.",
+        "points": ["정보이론 기반 난이도 모듈레이션", "에이전트 평가 방법론 자체를 검증"],
+        "why": ["벤치마크 신뢰성 논쟁(오늘 data 에디션의 SQL 벤치마크 오류와 공명)"]
       }
     }
   ]

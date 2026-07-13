@@ -1,56 +1,35 @@
 {
   "date": "2026-07-13",
   "weekday": "월",
-  "headline": "애플, 영업비밀 절취 혐의로 OpenAI 제소",
-  "subtitle": "서클 OCC 신탁은행 인가·프로그레스 셰어파일 긴급 차단·즈푸 GLM 프런티어 추격",
-  "keyword": "애플 vs OpenAI · 스테이블코인 규제 · 공급망 보안 · 오픈웨이트",
-  "bigStoryId": "tech-apple-openai-suit",
-  "editions": [
-    "tech",
-    "ai",
-    "infosec",
-    "it",
-    "crypto",
-    "fintech",
-    "dev",
-    "devops",
-    "data",
-    "founders",
-    "design",
-    "marketing"
-  ],
-  "lastUpdated": "09:04 CDT",
-  "syncedAt": "09:04",
-  "subscribers": 128842,
-  "market": {
-    "index": "S&P 500",
-    "value": "7,575.39",
-    "change": "▲ 0.42%"
-  },
+  "headline": "애플, OpenAI에 '영업비밀 절취' 소송",
+  "subtitle": "ShareFile 긴급 셧다운·Injective npm 키 유출·CBDC 금지법 발효·Circle 신탁은행 인가",
+  "keyword": "Apple v OpenAI · 공급망 보안 · CBDC 금지 · 스테이블코인 은행화",
+  "bigStoryId": "apple-sues-openai",
+  "editions": ["tech", "ai", "infosec", "it", "crypto", "dev", "devops", "design", "marketing", "founders", "data", "fintech"],
+  "lastUpdated": "09:22 CDT",
+  "syncedAt": "09:22",
   "stats": {
-    "companies": 34,
-    "security": 14,
-    "deals": 4,
-    "policy": 7
+    "companies": 41,
+    "security": 17,
+    "deals": 5,
+    "policy": 6
   },
   "signals": [
     {
       "kind": "primary",
-      "title": "npm 공급망 공격·셰어파일 긴급 차단, 개발·파일 인프라 동시 위협",
-      "body": "인젝티브 공식 npm SDK 변조본이 지갑 니모닉·개인키를 탈취했고, 프로그레스는 외부 위협 감지로 셰어파일 온프렘 컨트롤러의 즉시 차단을 지시했다. 신뢰된 채널을 통한 공급망·엣지 공격이 같은 날 겹쳤다.",
-      "severity": "8.5",
-      "velocity": "Rising",
-      "action": "의존성 감사·키 로테이션·셰어파일 SZC 즉시 차단"
+      "title": "애플-OpenAI 소송, AI 하드웨어 전쟁이 법정으로",
+      "body": "애플이 OpenAI·io Products·전직 직원들을 미공개 하드웨어 영업비밀 절취 혐의로 제소했다. 채용 과정에서 내부자료·부품 반입을 유도했다는 주장까지 담겨, 인재 이동 관행과 OpenAI IPO 준비에 파장이 예상된다. 오늘 12개 에디션 중 4곳이 동시 보도한 최대 뉴스.",
+      "action": "AI 인재 채용·이직 시 기밀정보 취급 정책 점검"
     },
     {
       "kind": "market",
-      "title": "S&P 500, 7,575.39로 주간 상승 마감",
-      "body": "S&P 500이 금요일 31.75포인트(+0.42%) 오른 7,575.39로 마감하며 한 주를 상승으로 끝냈다. 기술주 강세와 SK하이닉스의 미국 데뷔가 심리를 뒷받침했다."
+      "title": "스테이블코인 인프라의 '은행화' 가속",
+      "body": "Circle이 OCC 신탁은행 인가를 받아 USDC 준비금을 직접 운용하게 됐고(주가 +14%), 소니도 미국 스테이블코인 신탁은행 조건부 승인을 받았다. 같은 날 CBDC 금지법이 발효되며 미국 디지털 달러 노선은 민간 스테이블코인 중심으로 사실상 확정됐다."
     },
     {
       "kind": "watchlist",
       "title": "다음 48시간 모니터링",
-      "body": "애플-OpenAI 소송 전개와 io Products 하드웨어 로드맵, 서클 OCC 신탁은행 인가 후속과 소니·스테이블코인 경쟁, 메타 뮤즈 이미지 철회 여파, npm/셰어파일 공격 확산, 로빈후드 체인 밈코인 거품 지속 여부."
+      "body": "ShareFile Storage Zone Controller 위협 조사 결과(온프렘 고객 셧다운 유지), Injective SDK npm 키 유출 후속(17개 패키지·키 로테이션), Hedera $5.25M 익스플로잇 원인 공개, Figma 인수에 따른 Bud·Orchids 7/18 종료 전 프로젝트 이전."
     }
   ]
 }

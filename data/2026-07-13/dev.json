@@ -6,171 +6,205 @@
   "bg": "#14283a",
   "items": [
     {
-      "id": "dev-postgres-horsemen",
-      "title": "수천 건의 포스트그레스 장애 뒤에 있는 네 기수",
-      "summary": "베큠·트랜잭션 ID 랩어라운드·연결 한계 등 포스트그레스 장애의 흔한 원인을 짚는다. 64비트 트랜잭션 ID와 적응형 쿼리 플래닝으로 이를 해결하려는 pgrust 프로젝트를 소개한다.",
-      "source": "malisper.me",
+      "id": "postgres-four-horsemen",
+      "title": "수천 건의 Postgres 장애 뒤 '네 기수'",
+      "summary": "vacuum·XID 랩어라운드·커넥션 한도·쿼리 플랜 — 그리고 pgrust의 해법.",
+      "source": "TLDR Dev",
       "url": "https://malisper.me/the-four-horsemen-behind-thousands-of-postgres-outages/",
-      "originalDate": "2026-07-13",
       "report": {
-        "tldr": "포스트그레스 장애의 반복 원인 네 가지와 이를 겨냥한 pgrust 프로젝트를 정리했다.",
-        "what": "베큠 지연, 트랜잭션 ID 랩어라운드, 연결 한계 등 포스트그레스 대형 장애의 공통 원인을 분석한다. pgrust는 64비트 트랜잭션 ID와 적응형 쿼리 플래닝 등 아키텍처 개선으로 이 문제들을 해소하려 한다.",
+        "tldr": "Postgres 장애의 단골 원인은 vacuum 프로세스, 트랜잭션 ID 랩어라운드, 커넥션 한도, 잘못된 쿼리 플랜, JSON 저장 문제다.",
+        "what": "전담 DB 인력이 없는 환경에서 이 문제들은 더 악화된다. 신규 프로젝트 pgrust는 64비트 트랜잭션 ID, 프로세스 대신 스레드 모델, 적응형 쿼리 플래너, JSON 통계·압축 강화 같은 구조적 개선으로 대응한다.",
         "points": [
-          "베큠·XID 랩어라운드·연결 한계가 핵심 장애 원인",
-          "pgrust의 64비트 트랜잭션 ID",
-          "적응형 쿼리 플래닝 도입"
+          "장애 4대 원인의 체계적 정리",
+          "pgrust: 아키텍처 레벨 해결 시도",
+          "DB 전담 인력 부재 환경일수록 리스크 큼"
         ],
-        "why": [
-          "대규모 포스트그레스 운영의 안정성 리스크 조명",
-          "차세대 PG 호환 엔진의 실효성 관심"
-        ]
+        "why": ["Postgres 운영 조직의 장애 예방 체크리스트로 유용"]
       }
     },
     {
-      "id": "dev-hitchhikers-ai",
-      "title": "LLM과 함께하는 코딩 안내서",
-      "summary": "컨텍스트 기반 코드 생성과 올바른 프롬프팅을 다루는 가이드. 에이전트 제약, 강타입 언어 사용, AI 의존 대신 개발자 작성 테스트 같은 모범 사례를 강조한다.",
-      "source": "vhyrro.neorg.org",
+      "id": "claude-code-token-hungry",
+      "title": "Claude Code, OpenCode보다 훨씬 토큰을 많이 쓴다 — 실측",
+      "summary": "프롬프트 읽기 전 전송 토큰: Claude Code 33k vs OpenCode 7k.",
+      "source": "TLDR Dev",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "report": {
+        "tldr": "같은 작업에서 Claude Code가 OpenCode보다 더 많은 토큰을 쓰고 캐시 효율이 낮다는 실측 결과.",
+        "what": "요청 구성과 프롬프트 캐싱 오버헤드를 측정했다. 두 도구 모두 올바른 결과를 내지만, Claude Code는 프롬프트를 읽기 전 33k 토큰을 전송하는 반면 OpenCode는 7k다.",
+        "points": [
+          "에이전트 하니스 오버헤드의 정량 비교",
+          "캐시 효율 차이가 비용 격차로 직결"
+        ],
+        "why": ["에이전트 도구 선택·비용 최적화의 참고 데이터"]
+      }
+    },
+    {
+      "id": "hitchhikers-guide-ai",
+      "title": "히치하이커를 위한 AI 코딩 가이드",
+      "summary": "에이전트 제약, 강타입 언어, '테스트는 사람이 쓴다' 원칙.",
+      "source": "TLDR Dev",
       "url": "https://vhyrro.neorg.org/posts/a-hitchhikers-guide-to-ai/",
-      "originalDate": "2026-07-13",
       "report": {
-        "tldr": "LLM으로 코딩할 때의 실전 모범 사례를 정리한 안내서다.",
-        "what": "컨텍스트 기반 코드 생성과 효과적 프롬프팅을 다루며, 에이전트에 제약을 걸고 강타입 언어를 쓰며 AI에만 의존하지 말고 개발자가 테스트를 작성하라고 조언한다.",
+        "tldr": "컨텍스트 기반 코드 생성과 올바른 프롬프팅 등 LLM 코딩 실무 가이드.",
+        "what": "에이전트에 제약 걸기, 강타입 언어 활용, 테스트는 에이전트에 맡기지 말고 개발자가 직접 작성하기 같은 베스트 프랙티스를 다룬다.",
         "points": [
-          "컨텍스트 기반 코드 생성 강조",
-          "강타입 언어·에이전트 제약 권장",
-          "개발자 주도 테스트 유지"
+          "제약이 곧 품질 — 에이전트 자유도 제한",
+          "타입 시스템을 가드레일로 활용",
+          "테스트 작성 권한은 사람에게"
         ],
-        "why": [
-          "AI 코딩의 품질·신뢰성 확보 실무 지침",
-          "무분별한 에이전트 위임의 위험 경고"
-        ]
+        "why": ["AI 코딩 온보딩 문서로 팀에 공유할 만한 자료"]
       }
     },
     {
-      "id": "dev-vanilla-js",
-      "title": "왜 바닐라 JS인가",
-      "summary": "한 개발자가 복잡한 음악 교습 웹앱을 바닐라 자바스크립트와 웹 컴포넌트로 구축하며, 브라우저가 이미 견고한 도구를 제공하는데 모던 프레임워크가 불필요한 복잡성을 더한다고 주장한다.",
-      "source": "guseyn.com",
-      "url": "https://guseyn.com/html/posts/why-vanilla-js.html",
-      "originalDate": "2026-07-13",
-      "report": {
-        "tldr": "복잡한 웹앱을 바닐라 JS와 웹 컴포넌트로 만든 경험에서 프레임워크 회의론을 편다.",
-        "what": "저자는 음악 교습용 복합 웹앱을 바닐라 자바스크립트와 웹 컴포넌트만으로 구현하며, 브라우저 표준이 이미 충분한데 모던 프레임워크가 불필요한 복잡성을 얹는다고 지적한다.",
-        "points": [
-          "바닐라 JS + 웹 컴포넌트로 복합 앱 구현",
-          "브라우저 표준의 성숙 강조",
-          "프레임워크의 과잉 복잡성 비판"
-        ],
-        "why": [
-          "프런트엔드 스택 선택의 트레이드오프 재조명",
-          "표준 웹 플랫폼 역량에 대한 재평가"
-        ]
-      }
-    },
-    {
-      "id": "dev-tao-apps",
-      "title": "모던 코딩 에이전트로 만드는 옛 앱과 새 앱",
-      "summary": "AI가 수학 시각화 도구의 갱신·제작을 가속해 자바 애플릿을 자바스크립트로 버그 없이 이전하고 복잡한 시각화를 단순화한다.",
-      "source": "terrytao.wordpress.com",
+      "id": "terry-tao-coding-agents",
+      "title": "테렌스 타오 — 코딩 에이전트로 옛/새 앱 만들기",
+      "summary": "Java 애플릿의 JS 마이그레이션, 특수상대성 시각화까지.",
+      "source": "TLDR Dev",
       "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
-      "originalDate": "2026-07-13",
       "report": {
-        "tldr": "테렌스 타오가 코딩 에이전트로 수학 시각화 도구를 손쉽게 이전·제작한 경험을 공유했다.",
-        "what": "AI 에이전트가 오래된 자바 애플릿을 자바스크립트로 거의 버그 없이 이전하고 복잡한 수학 시각화를 단순화하는 데 크게 기여했다는 실사용 사례다.",
+        "tldr": "AI 덕에 수학 애플릿의 갱신·제작이 훨씬 빨라졌다는 필즈상 수상자 테렌스 타오의 경험담.",
+        "what": "오래된 Java 애플릿을 최소한의 버그로 JavaScript로 이식했고, 특수상대성 같은 복잡한 개념의 새 시각화 앱도 만들었다.",
         "points": [
-          "자바 애플릿 → JS 이전을 저버그로 수행",
-          "복잡한 수학 시각화 단순화",
-          "저명 수학자의 실사용 후기"
+          "레거시 이식에 에이전트가 특히 효과적",
+          "비전공 도메인 전문가의 앱 제작 사례"
         ],
-        "why": [
-          "레거시 코드 현대화에서 에이전트의 실효성 입증",
-          "전문 분야 도구 유지보수의 새 방식"
-        ]
+        "why": ["에이전트 코딩의 실증 사례 — 학술 도구 제작의 진입장벽 하락"]
       }
     },
     {
-      "id": "dev-mindwalk",
-      "title": "마인드워크: 3D 코드베이스 위에 에이전트 세션 리플레이",
-      "summary": "코딩 에이전트 세션을 3D 코드베이스 맵 위에서 재생하는 시각화 도구. 에이전트가 저장소를 어떻게 탐색·이해했는지 시각적 활동 표시로 보여준다.",
-      "source": "github.com/cosmtrek/mindwalk",
-      "url": "https://github.com/cosmtrek/mindwalk",
-      "originalDate": "2026-07-13",
+      "id": "love-llms-hate-hype",
+      "title": "geohot — 'LLM은 사랑하지만 하이프는 싫다'",
+      "summary": "파국론·특이점론 모두 AI 평판을 해친다는 비판.",
+      "source": "TLDR Dev",
+      "url": "https://geohot.github.io//blog/jekyll/update/2026/07/12/i-love-llms.html",
       "report": {
-        "tldr": "마인드워크는 코딩 에이전트의 작업 궤적을 3D 코드베이스 맵으로 재생한다.",
-        "what": "에이전트가 저장소를 어떻게 탐색하고 이해했는지를 3D 맵 위의 시각적 활동으로 리플레이한다. 에이전트 디버깅·이해에 유용하다.",
-        "points": [
-          "에이전트 세션의 3D 리플레이",
-          "저장소 탐색 경로 시각화",
-          "에이전트 행동 이해·디버깅 지원"
-        ],
-        "why": [
-          "에이전트 관측성(observability) 도구 부상",
-          "블랙박스 에이전트 행동의 투명화 시도"
-        ]
+        "tldr": "AI·LLM은 흥미롭지만 파국이나 특이점을 암시하는 부정론·과장론이 AI의 평판을 깎는다는 주장.",
+        "what": "AI 진보는 특정 주체의 영향이 아니라 컴퓨팅의 근본적 개선이 이끈다고 본다.",
+        "points": ["하이프와 실용 가치의 분리"],
+        "why": ["AI 담론 피로감 속 실용주의적 관점"]
       }
     },
     {
-      "id": "dev-algolia-mcp",
-      "title": "TIL - 알골리아로 MCP 서버 만들기가 어이없이 쉽다",
-      "summary": "알골리아가 검색 인덱스를 MCP 서버로 변환하는 과정을 단순화해, 문서 질의를 위한 AI 통합과 사용자 콘텐츠 참여 개선을 가능케 한다.",
-      "source": "raymondcamden.com",
-      "url": "https://www.raymondcamden.com/2026/07/11/til-algolia-makes-creating-an-mcp-server-stupid-easy",
-      "originalDate": "2026-07-13",
+      "id": "why-vanilla-js",
+      "title": "왜 바닐라 JS인가",
+      "summary": "프레임워크 없이 웹 컴포넌트만으로 복잡한 앱을 만든 사례.",
+      "source": "TLDR Dev",
+      "url": "https://guseyn.com/html/posts/why-vanilla-js.html",
       "report": {
-        "tldr": "알골리아가 검색 인덱스를 MCP 서버로 손쉽게 변환하는 길을 열었다.",
-        "what": "알골리아는 검색 인덱스를 MCP 서버로 바꾸는 과정을 대폭 단순화해, 문서 질의용 AI 통합을 빠르게 붙일 수 있게 했다. 커스터마이즈 가능한 서버 인터페이스도 제공한다.",
-        "points": [
-          "검색 인덱스 → MCP 서버 변환 간소화",
-          "문서 질의 AI 통합 용이",
-          "커스터마이즈 가능한 인터페이스"
-        ],
-        "why": [
-          "MCP 생태계로의 검색 서비스 편입 가속",
-          "기존 인프라의 AI 노출 장벽 완화"
-        ]
+        "tldr": "음악 강사용 복잡한 웹앱을 바닐라 JavaScript와 웹 컴포넌트만으로 구축하며 프레임워크의 인위적 복잡성을 비판한 글.",
+        "what": "브라우저가 이미 견고한 개발 도구를 제공한다는 주장이다.",
+        "points": ["플랫폼 네이티브 API의 성숙"],
+        "why": ["프레임워크 의존 재평가 흐름의 한 사례"]
       }
     },
     {
-      "id": "dev-good-tools-invisible",
-      "title": "좋은 도구는 보이지 않는다",
-      "summary": "이상적인 도구는 사용자가 소프트웨어 설정이 아니라 작업 자체에 온전히 집중하도록 보이지 않고 손에 익어야 한다는 주장이다.",
-      "source": "gingerbill.org",
-      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
-      "originalDate": "2026-07-13",
-      "report": {
-        "tldr": "이상적인 개발 도구는 존재감을 드러내지 않고 작업에 몰입하게 한다는 관점이다.",
-        "what": "저자는 좋은 도구란 설정·마찰이 아니라 작업 자체에 집중하도록 '보이지 않게' 손에 익는 것이라고 주장한다. 도구 UX 설계의 지향점을 제시한다.",
-        "points": [
-          "도구는 설정이 아닌 작업에 집중케 해야",
-          "보이지 않는·손에 익은 UX 지향",
-          "마찰 최소화가 핵심"
-        ],
-        "why": [
-          "개발자 경험(DX) 설계 철학 환기",
-          "도구 과잉 시대의 단순성 가치 재조명"
-        ]
-      }
-    },
-    {
-      "id": "dev-open-inspect",
-      "title": "오픈-인스펙트: 단일 테넌트 백그라운드 에이전트",
-      "summary": "다중 저장소 세션·자동 작업 스케줄링과 슬랙·깃허브·리니어 연동을 지원하는 오픈소스 단일 테넌트 백그라운드 에이전트 시스템.",
-      "source": "github.com/ColeMurray/background-agents",
+      "id": "open-inspect",
+      "title": "Open-Inspect — 오픈소스 백그라운드 코딩 에이전트",
+      "summary": "멀티 레포 세션·작업 스케줄링·Slack/GitHub/Linear 통합.",
+      "source": "TLDR Dev",
       "url": "https://github.com/ColeMurray/background-agents",
-      "originalDate": "2026-07-13",
       "report": {
-        "tldr": "오픈-인스펙트는 단일 테넌트로 배포하는 오픈소스 백그라운드 에이전트 시스템이다.",
-        "what": "다중 저장소 세션, 자동 작업 스케줄링을 지원하고 슬랙·깃허브·리니어와 연동한다. 자체 호스팅형 백그라운드 코딩 에이전트를 지향한다.",
+        "tldr": "Open-Inspect는 싱글 테넌트 배포용 오픈소스 백그라운드 코딩 에이전트 시스템이다.",
+        "what": "공유 개발 환경에서 실시간 협업하며 작업을 수행한다. 멀티 레포 세션 처리, 자동 작업 스케줄링, 다양한 AI 모델 지원, Slack·GitHub·Linear 통합을 제공한다.",
         "points": [
-          "다중 저장소 세션 지원",
-          "자동 작업 스케줄링",
-          "슬랙·깃허브·리니어 연동"
+          "Ramp의 Inspect에서 영감",
+          "조직 신뢰 공유 전제의 싱글 테넌트 설계"
         ],
-        "why": [
-          "자체 호스팅 에이전트 인프라 수요 반영",
-          "백그라운드 에이전트의 운영 자동화 흐름"
-        ]
+        "why": ["백그라운드 에이전트를 자체 호스팅하려는 팀의 출발점"]
+      }
+    },
+    {
+      "id": "mindwalk",
+      "title": "Mindwalk — 에이전트 세션을 3D 코드맵으로 리플레이",
+      "summary": "레포별 시티맵 위에 에이전트의 이해·활동을 시각화.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/cosmtrek/mindwalk",
+      "report": {
+        "tldr": "Mindwalk는 코딩 에이전트 세션을 코드베이스의 3D 맵 위에 리플레이하는 시각화 도구다.",
+        "what": "로컬 서버가 레포마다 고유한 시티맵을 표시하고 시각 요소로 에이전트 활동을 나타낸다.",
+        "points": ["에이전트 행동 감사·디버깅용"],
+        "why": ["에이전트가 코드를 어떻게 '이해'했는지 관찰하는 새로운 렌즈"]
+      }
+    },
+    {
+      "id": "algolia-mcp-easy",
+      "title": "TIL — Algolia로 MCP 서버 만들기가 '어이없게' 쉽다",
+      "summary": "검색 인덱스를 UI에서 MCP 서버로 전환.",
+      "source": "TLDR Dev",
+      "url": "https://www.raymondcamden.com/2026/07/11/til-algolia-makes-creating-an-mcp-server-stupid-easy",
+      "report": {
+        "tldr": "Algolia가 검색 인덱스를 MCP 서버로 손쉽게 바꾸는 기능을 내놨다.",
+        "what": "UI에서 MCP 서버를 생성·커스터마이징해 문서 질의 등 AI 연동을 붙일 수 있다.",
+        "points": ["문서·콘텐츠의 에이전트 접근성 확보가 쉬워짐"],
+        "why": ["기존 검색 자산의 MCP화 — 도입 장벽이 크게 낮아짐"]
+      }
+    },
+    {
+      "id": "basecamp-bench",
+      "title": "Basecamp Bench — GPT-5.6 Sol vs Fable 5 vs Grok 4.5",
+      "summary": "Fable 5가 프론트·백엔드 모두 최고 성능, Grok 4.5는 속도·비용 우위.",
+      "source": "TLDR Dev",
+      "url": "https://smw.ai/blog/basecamp-bench",
+      "report": {
+        "tldr": "복잡한 소프트웨어 문제로 GPT-5.6 Sol·Fable 5·Grok 4.5를 비교한 결과 Fable 5가 프론트엔드·백엔드 모두 최고 성능을 보였다.",
+        "what": "Grok 4.5는 빠르고 저렴하지만 완성도가 부족했고, Fable 5는 기대 출력에 가장 근접했으나 시간·비용이 더 들었다.",
+        "points": [
+          "성능(Fable 5) vs 속도·비용(Grok 4.5) 트레이드오프",
+          "단일 과제 기반 벤치마크라는 한계"
+        ],
+        "why": ["모델별 강점이 갈리는 실전형 비교 데이터"]
+      }
+    },
+    {
+      "id": "shirei-go-gui",
+      "title": "Shirei — Go용 즉시 모드 크로스플랫폼 GUI",
+      "summary": "위젯 상태 관리 없는 immediate mode API.",
+      "source": "TLDR Dev",
+      "url": "https://github.com/hasenj/go-shirei/",
+      "report": {
+        "tldr": "Shirei는 즉시 모드 API로 위젯 상태 유지 없이 UI를 만드는 Go 크로스플랫폼 GUI 프레임워크다.",
+        "what": "상태 관리 부담을 줄인 UI 개발을 지향한다.",
+        "points": ["Go 생태계의 GUI 옵션 확충"],
+        "why": ["도구·유틸리티 UI를 Go로 빠르게 만들려는 개발자에게 유용"]
+      }
+    },
+    {
+      "id": "software-has-changed",
+      "title": "소프트웨어는 변했다",
+      "summary": "AI로 생산 속도는 오르고 코드 품질은 내려갔다.",
+      "source": "TLDR Dev",
+      "url": "https://www.abeautifulsite.net/posts/software-has-changed/",
+      "report": {
+        "tldr": "AI 덕에 소프트웨어 생산은 훨씬 빨라졌지만 코드 품질은 나빠졌다는 1분 단상.",
+        "what": "속도-품질 트레이드오프에 대한 짧은 성찰이다.",
+        "points": ["개발 문화 변화의 압축적 진단"],
+        "why": ["devops 에디션 '코드 리뷰는 연극' 논의와 연결"]
+      }
+    },
+    {
+      "id": "agents-org-chart",
+      "title": "당신의 에이전트는 조직도에 갇혀 있다",
+      "summary": "데이터 프로덕트의 소유권·책임 부재가 AI 도입 실패의 원인.",
+      "source": "TLDR Dev",
+      "url": "https://joereis.substack.com/p/your-agents-are-stuck-in-your-org",
+      "report": {
+        "tldr": "많은 조직의 AI 도입 부진은 데이터 프로덕트에 대한 명확한 소유권·책임 부재 때문이라는 분석.",
+        "what": "조직 구조 문제가 에이전트 활용을 가로막는 메커니즘을 다룬다.",
+        "points": ["기술이 아닌 거버넌스 병목"],
+        "why": ["data 에디션 '데이터 무정부 세금'과 동일 저자·주제의 확장판"]
+      }
+    },
+    {
+      "id": "good-tools-invisible",
+      "title": "좋은 도구는 보이지 않는다",
+      "summary": "설정·결함 탐색이 아닌 작업 자체에 몰입하게 하는 도구론.",
+      "source": "TLDR Dev",
+      "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+      "report": {
+        "tldr": "이상적 도구는 보이지 않고 인체공학적이어서 사용자가 소프트웨어의 결함이 아닌 일 자체에 집중하게 한다는 에세이.",
+        "what": "Odin 언어 창시자의 도구 설계 철학이다.",
+        "points": ["도구 UX의 제1원칙 제시"],
+        "why": ["개발 도구를 만드는 사람들에게 유효한 설계 기준"]
       }
     }
   ]

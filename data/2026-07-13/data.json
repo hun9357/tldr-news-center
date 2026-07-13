@@ -6,171 +6,212 @@
   "bg": "#332414",
   "items": [
     {
-      "id": "data-text-to-sql-benchmark",
-      "title": "모든 텍스트-투-SQL 모델을 채점하는 벤치마크의 정답 키가 틀렸다",
-      "summary": "BIRD·Spider 같은 텍스트-투-SQL 벤치마크의 '골드' 쿼리에 오류가 있어 모델이 잘못된 답을 재현할 때 오히려 보상받을 수 있다. 조인 카디널리티·그레인 등 데이터 의미를 존중하는지 검증해야 한다는 지적이다.",
-      "source": "sqlsure.ai",
-      "url": "https://tldr.tech/data/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "affirm-upfunnel",
+      "title": "Affirm — 실험 사이클을 2개월에서 4일로 줄인 재설계",
+      "summary": "Python 모놀리스 → Kotlin 마이크로서비스 + 룰 엔진, P99 지연 50% 절감.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/Tih2wc",
       "report": {
-        "tldr": "주요 텍스트-투-SQL 벤치마크의 정답 키 오류가 모델 평가를 왜곡할 수 있다는 분석이다.",
-        "what": "BIRD·Spider 등의 '골드' 쿼리에 결함이 있어, 모델이 같은 오류를 재현하면 오히려 정답 처리되는 문제가 있다. 평가는 조인 카디널리티·그레인 등 데이터 의미를 존중하는지까지 검증해야 한다.",
+        "tldr": "Affirm이 체크아웃 전 메시징 서비스를 Python 모놀리스에서 룰 엔진 탑재 Kotlin 마이크로서비스로 재구축해 P99 지연을 50% 줄이고 실험 셋업을 2개월에서 4일로 단축했다.",
+        "what": "새 실험 추가가 새 코드 경로 개발·배포 대기가 아니라 기존 속성에 대한 룰 작성이 됐기 때문이다.",
         "points": [
-          "BIRD·Spider 골드 쿼리에 오류 존재",
-          "오답 재현이 정답 처리되는 위험",
-          "조인 카디널리티·그레인 검증 필요"
+          "룰 엔진으로 실험 민첩성 확보",
+          "P99 50% 개선"
         ],
-        "why": [
-          "텍스트-투-SQL 평가 신뢰성의 근본 문제",
-          "실무 도입 시 벤치마크 맹신 경계"
-        ]
+        "why": ["실험 속도가 곧 성장 속도인 조직의 아키텍처 참고 사례"]
       }
     },
     {
-      "id": "data-affirm-upfunnel",
-      "title": "어펌 업펀넬 플랫폼 재설계: 실험 주기를 개월에서 일로",
-      "summary": "어펌이 메시징 서비스를 파이썬 모놀리스에서 코틀린 마이크로서비스와 룰 엔진으로 전환해 P99 지연을 50% 낮추고 실험 셋업을 2개월에서 4일로 줄였다.",
-      "source": "Medium (Affirm Engineering)",
-      "url": "https://tldr.tech/data/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "sql-benchmark-wrong-gold",
+      "title": "text-to-SQL 채점 벤치마크의 정답지가 틀렸다",
+      "summary": "BIRD·Spider의 gold 쿼리 오류 — 실행 정확도가 오답을 보상.",
+      "source": "TLDR Data",
+      "url": "https://sqlsure.ai/blog/bird-benchmark-wrong-gold/",
       "report": {
-        "tldr": "어펌이 메시징 플랫폼을 재설계해 실험 주기를 개월 단위에서 일 단위로 단축했다.",
-        "what": "파이썬 모놀리스를 코틀린 마이크로서비스와 룰 엔진으로 전환한 결과 P99 지연이 50% 감소하고 실험 셋업이 2개월에서 4일로 줄었다. 새 실험은 코드 대신 기존 속성에 룰을 작성하면 된다.",
+        "tldr": "sqlsure가 BIRD·Spider 등 text-to-SQL 벤치마크에 잘못된 'gold' 쿼리가 있음을 발견했다 — 실행 정확도가 벤치마크의 실수를 재현한 모델에 보상하고 올바른 답에 벌점을 줄 수 있다.",
+        "what": "평가가 조인 카디널리티·그레인·가산성 같은 선언된 데이터 의미론 준수도 확인해야 한다고 주장한다.",
         "points": [
-          "파이썬 모놀리스 → 코틀린 마이크로서비스",
-          "P99 지연 50% 감소",
-          "실험 셋업 2개월 → 4일"
+          "모든 text-to-SQL 리더보드 수치에 의문 제기",
+          "의미론 기반 평가로의 전환 제안"
         ],
-        "why": [
-          "실험 속도가 제품 반복의 핵심 경쟁력",
-          "룰 엔진 도입으로 엔지니어링 병목 제거"
-        ]
+        "why": ["text-to-SQL 도구 선정 시 벤치마크 점수 신뢰도 재고 필요"]
       }
     },
     {
-      "id": "data-arcesium-duckdb",
-      "title": "대규모 현대 데이터 웨어하우징: 아르세시움의 DuckDB·아이스버그 이전",
-      "summary": "아르세시움이 170TB P&L 웨어하우스를 S3 위 아파치 아이스버그로 DuckDB를 써서 이전해 인제스트를 80% 빠르게, 인프라 비용을 40% 낮췄다. 오픈소스 스위프트레이크 실행 계층을 활용했다.",
-      "source": "Medium (Arcesium Engineering)",
-      "url": "https://tldr.tech/data/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "arcesium-duckdb-iceberg",
+      "title": "Arcesium — 170TB P&L 웨어하우스를 DuckDB+Iceberg로 이관",
+      "summary": "15조 레코드, 수집 런타임 80% 단축, 인프라 비용 40% 절감.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/GEpiaZ",
       "report": {
-        "tldr": "아르세시움이 170TB 웨어하우스를 DuckDB·아이스버그로 이전해 성능·비용을 크게 개선했다.",
-        "what": "S3 기반 아파치 아이스버그로 170TB P&L 웨어하우스를 이전하며 DuckDB를 실행 엔진으로 썼다. 인제스트가 80% 빨라지고 인프라 비용이 40% 줄었으며, 오픈소스 스위프트레이크 계층과 아이스버그 타임트래블 복구를 활용했다.",
+        "tldr": "Arcesium이 170TB·15조 레코드 P&L 웨어하우스를 RDBMS에서 S3 위 Apache Iceberg + DuckDB로 이관했다.",
+        "what": "새 스택은 대형 포트폴리오의 수집 런타임을 80% 줄이고 이그레스 타임아웃을 감소시켰으며 인프라 비용을 약 40% 낮췄다. 자체 개발·오픈소스화한 DuckDB-Iceberg 실행 레이어 Swiftlake, KEDA 쿠버네티스 오토스케일링, Iceberg 타임트래블 복구가 핵심 조력자였다.",
         "points": [
-          "170TB P&L 웨어하우스 이전",
-          "인제스트 80% 가속·비용 40% 절감",
-          "DuckDB + 아이스버그 + 스위프트레이크"
+          "레이크하우스 마이그레이션의 대규모 실증",
+          "Swiftlake 오픈소스 공개"
         ],
-        "why": [
-          "오픈 테이블 포맷 기반 레이크하우스 전환 사례",
-          "대규모 웨어하우스의 비용 효율 재설계"
-        ]
+        "why": ["RDBMS 탈출을 검토하는 데이터 팀의 레퍼런스 아키텍처"]
+      }
+    },
+    {
+      "id": "shift-left-manifesto-v2",
+      "title": "Shift Left 선언 v2 — 계보(lineage)는 생산자 코드에서 시작해야",
+      "summary": "릴리스 연동 코드 레벨 계보를 PR에 노출.",
+      "source": "TLDR Data",
+      "url": "https://dataproducts.substack.com/p/the-shift-left-manifesto-v2",
+      "report": {
+        "tldr": "갱신된 Shift Left 선언은 프로버넌스를 중심으로 논지를 벼렸다 — 계보는 의미·로직이 정의된 후에야 데이터를 포착하는 웨어하우스가 아니라 생산자 코드에서 시작해야 한다.",
+        "what": "릴리스 연동 코드 레벨 계보는 소유권, 민감 데이터 흐름, 의미론적 의존성, 재사용 기회, 변경 영향 범위를 풀 리퀘스트에 직접 노출한다. 거버넌스·모델 입력 추적·영향 분석·감사 증적이 상시 아티팩트가 되며, 코딩 에이전트가 시스템 간 변경을 가속하는 시대에 갈수록 필수가 된다.",
+        "points": [
+          "PR 단계 거버넌스라는 실행 모델",
+          "에이전트발 변경 가속이 채택 압력"
+        ],
+        "why": ["데이터 거버넌스의 좌측 이동이 에이전트 시대의 전제조건"]
+      }
+    },
+    {
+      "id": "pg-partition-pruning",
+      "title": "PostgreSQL — 비파티션 컬럼 쿼리에서도 프루닝 달성하기",
+      "summary": "CHECK 제약으로 옵티마이저가 무관 파티션을 건너뛰게.",
+      "source": "TLDR Data",
+      "url": "https://hakibenita.com/postgresql-partition-pruning",
+      "report": {
+        "tldr": "파티션 키가 아닌 컬럼으로 필터링해도, 그 컬럼이 파티션 키와 상관된 예측 가능한 범위를 따른다면 프루닝이 가능하다.",
+        "what": "해당 범위(이상치는 별도 범위 포함)에 CHECK 제약을 추가하면 옵티마이저가 무관한 파티션과 로컬 인덱스 스캔을 건너뛴다.",
+        "points": [
+          "CHECK 제약 = 수동 프루닝 힌트",
+          "이상치 범위 분리가 실무 요령"
+        ],
+        "why": ["대형 파티션 테이블 쿼리 성능의 저비용 개선책"]
+      }
+    },
+    {
+      "id": "privacy-safe-platform",
+      "title": "리댁션을 넘어 — 프라이버시 안전 데이터 플랫폼의 해부",
+      "summary": "지속 분류·목적 기반 접근·집행·감사 가능한 정책 추적.",
+      "source": "TLDR Data",
+      "url": "https://www.dataengineeringweekly.com/p/beyond-redaction-anatomy-of-a-privacy",
+      "report": {
+        "tldr": "프라이버시 엔지니어링은 리댁션 이상을 요구한다 — 지속적 분류, 목적 기반 접근, 용도 적합성 통제, 집행, 감사 가능한 정책 추적이 필요하다.",
+        "what": "결정론적 토큰화는 내부 조인을 지원하지만 수신자가 레코드를 연결할 수 있어 여전히 가명(pseudonymous) 수준이다.",
+        "points": [
+          "토큰화 ≠ 익명화라는 실무 경고",
+          "프라이버시를 파이프라인 전 구간의 속성으로"
+        ],
+        "why": ["규제 대응을 넘어선 프라이버시 아키텍처 설계 지침"]
       }
     },
     {
       "id": "data-anarchy-tax",
-      "title": "데이터 무정부 세금: 왜 팀이 45%의 시간을 진화 작업에 쓰는가",
-      "summary": "전담 데이터 프로덕트 오너가 없는 조직은 주간 시간의 45%를 반응적 업무에 쓴다. 오너가 있는 팀은 27%다. AI 도구가 이 격차를 키운다.",
-      "source": "Joe Reis Substack",
-      "url": "https://tldr.tech/data/2026-07-13",
-      "originalDate": "2026-07-13",
+      "title": "데이터 무정부 세금 — 주간 45%가 소방활동인 이유",
+      "summary": "명확한 소유자 있는 팀은 27%, 없는 팀은 45%가 리액티브 업무.",
+      "source": "TLDR Data",
+      "url": "https://joereis.substack.com/p/the-data-anarchy-tax-why-your-team",
       "report": {
-        "tldr": "데이터 프로덕트 오너 부재가 팀 시간의 45%를 소방 업무로 소모시킨다는 분석이다.",
-        "what": "명확한 데이터 오너십이 없는 조직은 주간의 45%를 반응적 진화 작업에 쓰는 반면, 오너가 있는 팀은 27%에 그친다. AI 도구는 이 격차를 더 벌려 소유 팀은 만족도 +18점, 미소유 팀은 -26점을 기록했다.",
+        "tldr": "전담 데이터 프로덕트 오너가 없는 조직은 주간의 45%를 리액티브 업무에 쓰는 반면, 소유권이 명확한 팀은 27%다.",
+        "what": "대시보드·데이터셋·모델에 지정 소유자가 없는 것이 격차의 원인이다. AI 도구는 격차를 벌린다 — 소유권 명확 팀은 AI로 감정 점수 18포인트 상승, 없는 팀은 26포인트 하락.",
         "points": [
-          "오너 부재 팀 45% vs 오너 팀 27% 진화 업무",
-          "AI 도구가 격차 확대",
-          "만족도 격차 +18 vs -26점"
+          "소유권이 AI 도입 효과의 선행 조건",
+          "IT 에디션 깃허브 사례와 동일 결론"
         ],
-        "why": [
-          "데이터 오너십이 생산성·사기의 결정 변수",
-          "AI 도입 전 거버넌스 정비의 중요성"
-        ]
+        "why": ["데이터 조직 개편의 정량 근거로 인용 가치"]
       }
     },
     {
-      "id": "data-shift-left-v2",
-      "title": "시프트 레프트 선언문 v2",
-      "summary": "개정판은 웨어하우스가 아니라 생산 시스템에서 시작하는 코드 수준 리니지를 강조한다. 이 접근은 오너십·데이터 민감도 흐름·변경 영향을 풀 리퀘스트에 직접 노출한다.",
-      "source": "Data Products Substack",
-      "url": "https://tldr.tech/data/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "ship-that-code",
+      "title": "Ship That Code — 시스템을 바닥부터 만드는 무료 학습 플랫폼",
+      "summary": "데이터베이스·Redis·SQL 도구·분산 스토어 직접 구현.",
+      "source": "TLDR Data",
+      "url": "https://shipthatcode.com/",
       "report": {
-        "tldr": "시프트 레프트 선언문 v2가 생산 시스템에서 시작하는 코드 수준 리니지를 제시했다.",
-        "what": "개정 선언문은 데이터 거버넌스를 웨어하우스가 아니라 생산 시스템 단계로 앞당긴다. 코드 수준 리니지로 오너십, 민감도 흐름, 변경 영향을 풀 리퀘스트에서 바로 드러내 지속적 거버넌스를 구현한다.",
-        "points": [
-          "생산 시스템 기점의 코드 수준 리니지",
-          "오너십·민감도·변경 영향 PR 노출",
-          "지속적 거버넌스 지향"
-        ],
-        "why": [
-          "데이터 품질 문제의 상류 차단",
-          "개발 워크플로에 거버넌스 내재화"
-        ]
+        "tldr": "데이터베이스, Redis, SQL 도구, 분산 데이터 스토어 등 실제 시스템을 바닥부터 만들어보는 무료 학습 플랫폼.",
+        "what": "실습 기반 시스템 학습 커리큘럼이다.",
+        "points": ["인프라 내부 원리의 실습 학습"],
+        "why": ["데이터 엔지니어의 기본기 훈련 리소스"]
       }
     },
     {
-      "id": "data-airflow-ai",
-      "title": "에어플로우가 AI로 데이터 엔지니어링을 더 복잡하지 않게, 더 견고하게",
-      "summary": "아파치 에어플로우가 시맨틱 스키마 검증, 실패 작업 복구용 영속 상태, LLM 기반 재시도 분류 세 기능으로 소방 업무를 줄인다. 스키마 드리프트에 대응하고 외부 작업 식별자를 보존한다.",
-      "source": "Data Engineer Things Blog",
-      "url": "https://tldr.tech/data/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "lakekeeper-generic-table",
+      "title": "Lakekeeper Generic Table API 설계",
+      "summary": "Lance 등 비Iceberg 자산을 변환 없이 카탈로그 객체로 거버넌스.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/GdIHsE",
       "report": {
-        "tldr": "에어플로우가 세 가지 AI 기능으로 데이터 파이프라인의 회복력을 높였다.",
-        "what": "시맨틱 스키마 검증, 실패 작업 복구를 위한 영속 상태, LLM 기반 재시도 분류를 도입해 반복적 소방 업무를 줄인다. 스키마 드리프트에 대응하고 외부 작업 식별자를 보존한다.",
-        "points": [
-          "시맨틱 스키마 검증",
-          "실패 복구용 영속 상태",
-          "LLM 기반 재시도 분류"
-        ],
-        "why": [
-          "오케스트레이션의 자율 복구 역량 강화",
-          "스키마 드리프트발 장애 감소"
-        ]
+        "tldr": "Lakekeeper의 Generic Table API는 Lance 데이터셋 같은 비Iceberg 자산을 Iceberg로 변환하지 않고도 거버넌스 가능한 카탈로그 객체로 만든다.",
+        "what": "핵심 메타데이터를 저장하면서 접근·라이프사이클·범위 지정 자격증명에 Iceberg 카탈로그 통제를 재사용한다.",
+        "points": ["멀티포맷 레이크하우스 거버넌스의 공백 해소"],
+        "why": ["AI/ML용 Lance 등 신포맷 확산에 대응하는 카탈로그 전략"]
       }
     },
     {
-      "id": "data-clickhouse-hardened",
-      "title": "클릭하우스, 하드닝된 도커 이미지 공개",
-      "summary": "클릭하우스가 셸·패키지 매니저 없는 최소 베이스의 하드닝 도커 이미지를 내놨다. 8개 중간 심각도 CVE를 제거하면서 동작은 동일하다. 마이그레이션은 도커 명령 한 줄만 바꾸면 된다.",
-      "source": "ClickHouse Blog",
-      "url": "https://tldr.tech/data/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "airflow-ai-resilience",
+      "title": "Airflow의 AI — 복잡성이 아닌 회복탄력성을 위해",
+      "summary": "의미론적 스키마 검증, 영속 상태, LLM 재시도 판단.",
+      "source": "TLDR Data",
+      "url": "https://blog.dataengineerthings.org/how-airflow-is-using-ai-to-make-data-engineering-more-resilient-not-more-complex-36ff44fd8df7",
       "report": {
-        "tldr": "클릭하우스가 CVE를 줄인 최소 베이스 하드닝 도커 이미지를 배포했다.",
-        "what": "셸과 패키지 매니저를 뺀 최소 베이스 이미지로 8개 중간 심각도 CVE를 제거하면서 데이터베이스 동작은 그대로 유지한다. 도커 명령 한 줄 변경으로 이전할 수 있다.",
+        "tldr": "Apache Airflow가 파이프라인 소방활동을 줄이는 3가지 AI 제어를 추가한다 — 의미론적 스키마 검증, 실패 작업 재연결용 영속 상태, LLM 기반 재시도 판단.",
+        "what": "이들은 스키마 드리프트를 잡고 외부 작업 ID를 보존하며 실패를 재시도·지연·에스컬레이션으로 분류한다.",
         "points": [
-          "셸·패키지 매니저 없는 최소 베이스",
-          "8개 중간 심각도 CVE 제거",
-          "한 줄 변경으로 마이그레이션"
+          "devops 에디션 Jenkins Smart Retry와 같은 패턴",
+          "오케스트레이터의 AI 내재화 흐름"
         ],
-        "why": [
-          "데이터 인프라 컨테이너의 공격면 축소",
-          "공급망·런타임 보안 강화 흐름"
-        ]
+        "why": ["파이프라인 운영 부담 절감의 구체적 로드맵"]
       }
     },
     {
-      "id": "data-pg-pruning",
-      "title": "비파티션 컬럼으로 질의할 때 포스트그레스 프루닝 달성하기",
-      "summary": "포스트그레스가 파티션 키와 상관된 예측 가능한 범위를 정의하는 CHECK 제약으로 비파티션 키 필터에서도 파티션을 건너뛴다. 불필요한 인덱스 스캔을 피하게 한다.",
-      "source": "hakibenita.com",
-      "url": "https://tldr.tech/data/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "copilot-review-tools",
+      "title": "'더 좋은 도구'가 Copilot 코드 리뷰를 망친 이유",
+      "summary": "'diff에서 시작하라' 지시 재작성으로 리뷰 비용 20% 절감.",
+      "source": "TLDR Data",
+      "url": "https://github.blog/ai-and-ml/github-copilot/better-tools-made-copilot-code-review-worse-heres-how-we-actually-improved-it/",
       "report": {
-        "tldr": "CHECK 제약을 이용해 비파티션 컬럼 질의에서도 포스트그레스 파티션 프루닝을 얻는 법이다.",
-        "what": "파티션 키와 상관관계가 있는 예측 가능한 범위를 CHECK 제약으로 정의하면, 비파티션 키로 필터링해도 플래너가 관련 없는 파티션을 건너뛴다. 불필요한 인덱스 스캔을 줄인다.",
+        "tldr": "깃허브가 Copilot 코드 리뷰에 더 나은 공용 도구를 붙였더니 벤치마크가 나빠졌다 — 일반적 도구 지침이 에이전트를 diff가 아닌 전체 저장소 탐색으로 이끌었기 때문.",
+        "what": "'diff에서 시작해 grep·glob으로 좁히고 view로 정확한 근거를 읽어라'로 지침을 재작성하자 품질 손실 없이 평균 리뷰 비용이 20% 줄었다.",
         "points": [
-          "파티션 키 상관 범위를 CHECK 제약으로 정의",
-          "비파티션 키 필터에서도 프루닝",
-          "불필요 인덱스 스캔 회피"
+          "도구 지침(instruction)이 도구 자체만큼 중요",
+          "에이전트 비용 최적화의 실전 사례"
         ],
-        "why": [
-          "대형 파티션 테이블 쿼리 성능 최적화",
-          "플래너 동작 이해 기반의 실용 기법"
-        ]
+        "why": ["에이전트 시스템 설계에서 프롬프트-도구 인터페이스의 중요성 입증"]
+      }
+    },
+    {
+      "id": "clickhouse-hardened-images",
+      "title": "ClickHouse, Docker 강화 이미지 제공",
+      "summary": "셸·패키지 매니저 없는 미니멀 베이스 — 중간 심각도 CVE 8 → 0.",
+      "source": "TLDR Data",
+      "url": "https://clickhouse.com/blog/docker-hardened-images",
+      "report": {
+        "tldr": "ClickHouse가 셸·패키지 매니저·네트워크 도구 없는 미니멀 베이스의 강화 Docker 이미지를 출시, 표준 우분투 이미지의 중간 심각도 CVE 8건을 0으로 줄이면서 DB 동작은 동일하게 유지한다.",
+        "what": "마이그레이션은 docker run 명령 한 줄 수정이며, 프로덕션 이미지를 건드리지 않고 일시적으로 도구를 붙이는 디버그 변형도 있다.",
+        "points": ["원라인 마이그레이션", "디버그 변형 별도 제공"],
+        "why": ["데이터 인프라의 공급망·이미지 보안 상향 흐름"]
+      }
+    },
+    {
+      "id": "databricks-agent-benchmark",
+      "title": "Databricks — 내부 실무 과제로 코딩 에이전트 벤치마크",
+      "summary": "GLM 5.2 등 오픈소스 모델도 실전 과제에서 준수한 성능.",
+      "source": "TLDR Data",
+      "url": "https://threadreaderapp.com/thread/2074943612631273730.html",
+      "report": {
+        "tldr": "Databricks가 자사 내부 코딩 과제로 에이전트들을 벤치마크한 결과, GLM 5.2 같은 오픈소스 옵션을 포함한 여러 모델이 실전 과제에서 좋은 성능을 보였다.",
+        "what": "공개 벤치마크가 아닌 실무 과제 기반 평가라는 점이 특징이다.",
+        "points": ["오픈소스 모델의 실전 경쟁력 확인"],
+        "why": ["모델 선정 시 자체 과제 기반 평가의 유효성 시사"]
+      }
+    },
+    {
+      "id": "awesome-duckdb",
+      "title": "Awesome DuckDB — 큐레이션 디렉터리",
+      "summary": "도구·확장·통합·클라이언트·튜토리얼·실전 프로젝트 모음.",
+      "source": "TLDR Data",
+      "url": "https://davidgasquez.github.io/awesome-duckdb/",
+      "report": {
+        "tldr": "DuckDB 도구, 확장, 통합, 클라이언트, 튜토리얼, 실전 프로젝트의 큐레이션 디렉터리.",
+        "what": "DuckDB 생태계 탐색의 출발점이다.",
+        "points": ["생태계 한눈에 보기"],
+        "why": ["Arcesium 사례처럼 DuckDB 채택이 늘어나는 시점의 유용한 인덱스"]
       }
     }
   ]

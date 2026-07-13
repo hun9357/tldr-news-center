@@ -6,204 +6,202 @@
   "bg": "#2a3012",
   "items": [
     {
-      "id": "fintech-block-cashapp",
-      "title": "블록, 캐시앱 사기 조사서 46개 주와 4,500만 달러 합의",
-      "summary": "블록이 캐시앱 이용자를 사기로부터 충분히 보호하지 못한 혐의로 46개 주에 4,500만 달러를 지급하기로 했다. 은행급 보호를 표방한 마케팅이 오해를 샀다고 규제당국이 판단했다.",
-      "source": "Finextra",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "banks-prediction-markets",
+      "title": "월가 은행들, 직원 예측시장 베팅 규제 강화",
+      "summary": "골드만·모건스탠리·JP모건·BofA가 금융·정치·기업 관련 계약 거래 제한.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/WiWKtW",
       "report": {
-        "tldr": "블록이 캐시앱 사기 방지 실패로 46개 주와 4,500만 달러 합의에 이르렀다.",
-        "what": "블록은 캐시앱을 은행에 준하는 보호를 제공하는 서비스로 마케팅했으나 규제당국은 이를 오도로 봤다. 이용자 보호 미흡에 대해 46개 주에 총 4,500만 달러를 지급한다.",
+        "tldr": "골드만삭스·모건스탠리·JP모건·뱅크오브아메리카가 직원의 예측시장 계약 거래에 대한 제한을 신설·명확화했다.",
+        "what": "금융시장·정치·기업·거시경제 이벤트 연계 계약이 대상이다. Kalshi·Polymarket 확장 속에 기밀정보 이용·이해상충 우려가 배경이며, 스포츠·엔터테인먼트 계약은 대체로 허용된다.",
         "points": [
-          "46개 주에 4,500만 달러 지급",
-          "은행급 보호 표방 마케팅이 문제",
-          "이용자 사기 보호 미흡 지적"
+          "4대 은행 동시 정책 정비",
+          "내부정보 이용·이해상충 방지 목적",
+          "스포츠·엔터 계약은 예외"
         ],
-        "why": [
-          "핀테크의 소비자 보호·마케팅 표현 규제 강화",
-          "은행 아닌 결제앱의 책임 범위 논쟁"
-        ]
+        "why": ["예측시장이 주류 금융권 컴플라이언스 의제로 편입"]
       }
     },
     {
-      "id": "fintech-circle-occ",
-      "title": "서클, OCC 승인으로 신탁은행 운영 자격 획득",
-      "summary": "서클이 OCC 승인을 받아 서클 내셔널 트러스트로서 USDC 준비금을 직접 관리한다. 규제된 금융 인프라로의 크립토 진화를 보여준다.",
-      "source": "CNBC",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "80%",
-        "owner": "Strategy",
-        "status": "New",
-        "affectedSurface": "스테이블코인 · 규제"
-      },
-      "related": [
-        "핀테크: 소니, 미 스테이블코인 신탁은행 조건부 승인",
-        "크립토: CBDC 금지 주택법 발효",
-        "핀테크: 토큰화가 선을 넘다"
-      ],
+      "id": "block-cashapp-settlement",
+      "title": "Block, Cash App 사기 조사 4,500만 달러 합의",
+      "summary": "46개 주와 합의 — '은행처럼 안전' 오인 유발이 쟁점.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/u5MeqF",
       "report": {
-        "tldr": "서클이 OCC 승인으로 신탁은행 자격을 얻어 USDC 준비금을 직접 운용한다.",
-        "what": "서클은 서클 내셔널 트러스트로 OCC 인가를 받아 USDC 스테이블코인 준비금을 직접 관리하게 됐다. 규제 제도권으로 편입되는 크립토 금융의 진화를 상징한다.",
+        "tldr": "Block이 Cash App의 사기 방지 실패 의혹과 관련해 미국 46개 주와 4,500만 달러에 합의했다.",
+        "what": "참여 주들에 따르면 Block은 사용자 자금이 안전하다고 안내해 앱이 은행과 동일한 보호를 제공하는 것처럼 오인하게 했다.",
         "points": [
-          "OCC 신탁은행 인가 획득",
-          "USDC 준비금 직접 관리",
-          "규제 제도권 편입 가속"
+          "46개 주 공동 조치",
+          "P2P 결제 소비자 보호가 핵심 쟁점"
         ],
-        "why": [
-          "스테이블코인 준비금 신뢰성·투명성 제고",
-          "규제된 스테이블코인 인프라 경쟁 심화"
-        ]
+        "why": ["핀테크의 '은행 유사' 마케팅에 대한 규제 리스크 정례화"]
       }
     },
     {
-      "id": "fintech-anthropic-bernanke",
-      "title": "앤트로픽, 전 연준 의장 벤 버냉키를 독립 신탁에 선임",
-      "summary": "앤트로픽이 벤 버냉키를 장기수혜신탁 거버넌스 기구에 선임했다. IPO 가능성을 앞두고 AI 기업이 경제 감독을 전략 우선순위로 삼는 신호다.",
-      "source": "CNBC",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "anthropic-bernanke-trust",
+      "title": "Anthropic, 前 연준 의장 버냉키 독립 신탁에 선임",
+      "summary": "IPO 준비 국면에서 장기수혜신탁(LTBT)에 경제 거버넌스 보강.",
+      "source": "TLDR Fintech",
+      "url": "https://www.cnbc.com/2026/07/09/anthropic-fed-chair-bernanke-independent-trust.html",
       "report": {
-        "tldr": "앤트로픽이 벤 버냉키 전 연준 의장을 장기수혜신탁에 선임했다.",
-        "what": "앤트로픽은 버냉키를 장기수혜신탁 거버넌스 기구에 합류시켰다. 잠재적 IPO를 앞두고 경제 거버넌스를 전략적으로 강화하려는 움직임으로 읽힌다.",
+        "tldr": "Anthropic이 벤 버냉키 전 연준 의장을 이사 선임 권한을 가진 독립 기구인 장기수혜신탁(Long-Term Benefit Trust)에 선임했다.",
+        "what": "세계적 경제학자를 거버넌스 기구에 영입한 것으로, 잠재적 IPO를 준비하는 Anthropic이 경제적 파급과 장기 사회 영향을 전략 우선순위로 다룬다는 신호다.",
         "points": [
-          "버냉키를 장기수혜신탁에 선임",
-          "경제 거버넌스 강화 신호",
-          "IPO 가능성 배경 거론"
+          "LTBT는 회사 자문 및 이사회 구성원 선임 권한 보유",
+          "AI 확산의 경제적 결과에 대한 접근에 영향 가능",
+          "IPO 준비 국면의 거버넌스 보강"
         ],
-        "why": [
-          "AI 기업의 거버넌스·공신력 확보 경쟁",
-          "정책·거시경제 인사의 AI 진입 흐름"
-        ]
+        "why": ["AI 기업 거버넌스에 거시경제 전문성이 들어오는 첫 사례급 인사"]
       }
     },
     {
-      "id": "fintech-tokenization",
-      "title": "토큰화가 선을 넘다",
-      "summary": "전통 금융 자산이 빠르게 블록체인으로 이동한다. 시큐리타이즈가 토큰화 주식을, 로빈후드가 자체 토큰화 블록체인을 내놓으며 중개 인프라를 재편할 수 있다는 전망이다.",
-      "source": "Brownstone Research",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "accounting-ai-agents",
+      "title": "회계 AI 리더들 — '자율 에이전트는 아직 아니다'",
+      "summary": "엑셀 자동화·인박스·대시보드 등 한정된 용도가 현실.",
+      "source": "TLDR Fintech",
+      "url": "https://www.cfo.com/news/accounting-ai-leaders-autonomous-agents-arent-there-yet-earmark-webinar-ai-agents-for-accounting-/824774/",
       "report": {
-        "tldr": "전통 자산의 토큰화가 임계점을 넘어 중개 인프라 재편을 예고한다.",
-        "what": "시큐리타이즈의 토큰화 주식과 로빈후드의 자체 토큰화 블록체인 출시가 겹치며 자산 토큰화가 가속하고 있다. 토큰화 주식이 브로커리지 인프라와 중개 모델을 바꿀 수 있다는 관측이다.",
+        "tldr": "Earmark 웨비나에서 회계 AI 리더들은 AI 에이전트가 완전히 소유하는 워크플로를 제시하지 못했다.",
+        "what": "실용적이지만 한정된 용도(엑셀 자동화, 인박스 관리, 대시보드, 회의록, 반복 표준 작업)가 현재 수준이다. 재무·회계 팀은 구조화된 반복 워크플로부터 도입하고 결산·판단·컴플라이언스·최종 검토에는 사람을 유지한다.",
         "points": [
-          "시큐리타이즈 토큰화 주식 출시",
-          "로빈후드 자체 토큰화 체인",
-          "중개 인프라 재편 가능성"
+          "완전 자율 워크플로 부재",
+          "human-in-the-loop 유지가 표준"
         ],
-        "why": [
-          "증권 토큰화의 제도·인프라 임계점 도달",
-          "전통 브로커리지 비즈니스 모델 위협"
-        ]
+        "why": ["재무 부문 AI 도입의 현실적 벤치마크"]
       }
     },
     {
-      "id": "fintech-ai-mortgage-fraud",
-      "title": "AI가 모기지 검증 시스템을 뚫었다",
-      "summary": "생성형 AI가 전통 모기지 검증을 우회하는 정교한 위조 금융문서를 만들어내면서 호주 은행들이 수십억 달러의 의심 대출을 조사 중이다. 문서 검증 대신 신뢰된 원천의 직접 데이터 접근으로 이동하고 있다.",
-      "source": "PYMNTS",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "tokenization-crosses-line",
+      "title": "토큰화, 선을 넘다 — 규제 확정 전 증권 온체인화 가속",
+      "summary": "Securitize 3억 달러 토큰 주식, 로빈후드 체인, Ondo 규제 토큰 증권.",
+      "source": "TLDR Fintech",
+      "url": "https://www.brownstoneresearch.com/chain-of-thought/tokenization-crosses-a-line/",
       "report": {
-        "tldr": "생성형 AI 위조 문서가 모기지 검증을 무력화하며 대규모 사기 조사가 촉발됐다.",
-        "what": "생성형 AI가 정교한 가짜 금융문서를 만들어 전통 모기지 검증을 우회하자, 호주 은행들이 수십억 달러 규모의 의심 대출을 조사하고 있다. 업계는 문서 검증에서 신뢰된 원천의 직접 데이터 접근으로 전환하고 있다.",
+        "tldr": "미국 크립토 입법 확정 전인데도 전통 금융자산의 온체인화 경쟁이 가속되고 있다.",
+        "what": "Securitize는 상장과 함께 솔라나·아발란체에 약 3억 달러 토큰화 주식을 냈고, 로빈후드는 토큰화 특화 블록체인을 가동했으며 Ondo Finance는 규제 토큰 증권 상품을 출시했다.",
         "points": [
-          "AI 위조 문서로 검증 우회",
-          "호주 은행 수십억 달러 의심 대출 조사",
-          "문서 검증 → 원천 데이터 직접 접근 전환"
+          "자본시장 전반의 모멘텀 확대",
+          "브로커리지 인프라·증권 대차·담보 시장 재편 가능성",
+          "중개자 축소·온체인 금융 접근 확대"
         ],
-        "why": [
-          "생성형 AI가 금융 사기 진입장벽을 낮춤",
-          "신원·소득 검증 아키텍처 재설계 필요"
-        ]
+        "why": ["규제 명확화가 진행되면 토큰화 주식이 브로커리지 구조 자체를 바꿀 수 있음"]
       }
     },
     {
-      "id": "fintech-paradigm-fund",
-      "title": "패러다임, 기술 프런티어 스타트업 위해 12억 달러 조성",
-      "summary": "크립토 VC 패러다임이 크립토를 넘어 AI·로보틱스·드론·우주기술을 겨냥한 12억 달러 펀드를 출범했다. 초기 투자에는 집라인과 트루 아노말리가 포함됐다.",
-      "source": "TechCrunch",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "ai-mortgage-fraud",
+      "title": "AI가 뚫은 모기지 심사 — 호주 은행 수십억 달러 사기 조사",
+      "summary": "가짜 급여명세·은행 명세·세금 기록이 표준 검증을 통과.",
+      "source": "TLDR Fintech",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/ai-cracked-mortgage-verification-system/",
       "report": {
-        "tldr": "패러다임이 크립토 밖 기술 프런티어를 겨냥한 12억 달러 펀드를 출범했다.",
-        "what": "크립토 전문 VC 패러다임이 AI, 로보틱스, 드론, 우주기술을 대상으로 한 12억 달러 규모 펀드를 조성했다. 집라인, 트루 아노말리 등이 초기 투자처다.",
+        "tldr": "생성형 AI가 만든 위조 서류가 표준 검증을 통과하면서 호주 은행들이 수십억 달러 규모 의심 대출을 조사 중이다.",
+        "what": "문서 기반 검증에서 정부·급여 데이터에 대한 동의 기반 직접 접근으로의 전환이 가속되고 있다. 대출자 리스크 평가 방식의 구조적 변화다.",
         "points": [
-          "12억 달러 규모 프런티어 펀드",
-          "AI·로보틱스·드론·우주 겨냥",
-          "집라인·트루 아노말리 초기 투자"
+          "문서 검증의 신뢰성 붕괴",
+          "소스 데이터 직접 검증 인프라가 기회",
+          "호주에서 먼저 가시화"
         ],
-        "why": [
-          "크립토 VC의 딥테크 다변화 흐름",
-          "프런티어 기술 자금 유입 확대 신호"
-        ]
+        "why": ["모기지 테크의 다음 격전지는 '더 나은 문서 검증'이 아니라 소스 검증 인프라"]
       }
     },
     {
-      "id": "fintech-wall-st-prediction",
-      "title": "월가, 직원 예측시장 베팅 규정 강화",
-      "summary": "골드만삭스·모건스탠리·JP모건·뱅크오브아메리카가 칼시·폴리마켓 등 예측시장에서의 직원 거래를 제한했다. 내부정보 활용·이해충돌 우려를 겨냥한 조치다.",
-      "source": "Reuters",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "paradigm-12b-fund",
+      "title": "Paradigm, 12억 달러 '기술 프런티어' 펀드 조성",
+      "summary": "크립토 넘어 AI·로보틱스·드론·우주까지 — Zipline·True Anomaly 선베팅.",
+      "source": "TLDR Fintech",
+      "url": "https://techcrunch.com/2026/07/08/crypto-vc-firm-paradigm-raises-1-2b-to-invest-in-technical-frontier-startups/",
       "report": {
-        "tldr": "주요 월가 은행들이 직원의 예측시장 베팅을 제한하는 규정을 도입했다.",
-        "what": "골드만삭스, 모건스탠리, JP모건, BofA가 칼시·폴리마켓 등 예측시장에서 직원 거래를 규제했다. 기밀정보 악용과 이해충돌 소지를 차단하려는 목적이다.",
+        "tldr": "Paradigm이 크립토를 넘어 AI·로보틱스·드론·우주 등 '기술 프런티어'에 투자하는 12억 달러 펀드를 조성했다.",
+        "what": "초기 베팅에는 Zipline과 True Anomaly가 포함된다. 크립토와 금융 시스템 재발명도 계속 지원한다는 입장이다.",
         "points": [
-          "4대 은행 예측시장 직원 거래 제한",
-          "내부정보 활용 우려 대응",
-          "이해충돌 소지 차단"
+          "크립토 전문 VC의 딥테크 확장",
+          "AI 네이티브 인프라로의 자본 이동"
         ],
-        "why": [
-          "예측시장의 제도권 확산에 따른 규제 대응",
-          "금융기관 컴플라이언스 범위 확대"
-        ]
+        "why": ["크립토 자본의 투자 지형 변화를 보여주는 대표 사례"]
       }
     },
     {
-      "id": "fintech-elliott-ccc",
+      "id": "circle-occ-trust-bank",
+      "title": "Circle, OCC 신탁은행 인가 획득",
+      "summary": "Circle National Trust로 USDC 준비금 직접 운용 가능.",
+      "source": "TLDR Fintech",
+      "url": "https://www.cnbc.com/2026/07/10/circle-gets-an-occ-bank-charter-as-stablecoin-competition-heats-up-shares-surge-14percent.html",
+      "report": {
+        "tldr": "Circle이 OCC 승인으로 Circle National Trust로 운영하며 USDC 등 규제 스테이블코인의 준비금을 직접 관리할 수 있게 됐다.",
+        "what": "서드파티 은행·커스터디안 의존에서 벗어나는 조치다. Coinbase·BitGo·Ripple·Paxos 등도 금융 스택 수직 통합에 나서고 있으며, 은행권·스위프트·Open USD와의 경쟁이 격화되고 있다. 주가는 14% 급등했다.",
+        "points": [
+          "준비금 자체 운용으로 마진·통제력 확보",
+          "크립토의 '규제 인프라화' 흐름",
+          "스테이블코인 경쟁 격화 국면"
+        ],
+        "why": ["스테이블코인 발행사의 은행화가 업계 표준 경로로 자리 잡는 중"]
+      }
+    },
+    {
+      "id": "elliott-ccc-stake",
       "title": "엘리엇, 매각 검토 중인 CCC 지분 확보",
-      "summary": "엘리엇 인베스트먼트가 매각을 검토하는 자동차보험 소프트웨어 기업 CCC 인텔리전트 솔루션스의 상당 지분을 사들였다. 시가 35억 달러 규모로 주가는 부진했다.",
-      "source": "Bloomberg",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
+      "summary": "약 35억 달러 자동차보험 소프트웨어 업체의 매각 프로세스에 탄력.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/F82KCR",
       "report": {
-        "tldr": "행동주의 엘리엇이 매각 검토 중인 CCC의 지분을 확보했다.",
-        "what": "엘리엇 인베스트먼트가 자동차보험 소프트웨어 업체 CCC 인텔리전트 솔루션스의 유의미한 지분을 취득했다. 35억 달러 규모의 이 회사는 주가 부진을 겪어 왔고 매각을 타진 중이다.",
-        "points": [
-          "엘리엇, CCC 지분 확보",
-          "CCC 시가 약 35억 달러",
-          "주가 부진 속 매각 검토"
-        ],
-        "why": [
-          "행동주의 압박이 인슈어테크 M&A 촉발",
-          "자동차보험 소프트웨어 시장 재편 가능성"
-        ]
+        "tldr": "엘리엇이 매각을 검토 중인 자동차보험 소프트웨어 업체 CCC Intelligent Solutions의 상당 지분을 확보했다.",
+        "what": "주가 급락 후 매각을 탐색 중인 약 35억 달러 기업으로, 엘리엇 PE팀 주도의 투자가 매각에 탄력을 줄 수 있다. 논의는 초기 단계다.",
+        "points": ["행동주의·PE의 인슈어테크 개입", "거래 불발 가능성도 상존"],
+        "why": ["보험 소프트웨어 밸류에이션 리셋 국면의 신호"]
       }
     },
     {
-      "id": "fintech-sony-stablecoin",
-      "title": "소니, 미 스테이블코인 신탁은행 설립 조건부 승인",
-      "summary": "소니가 달러 연동 스테이블코인 발행을 위한 미국 신탁은행 설립에 조건부 승인을 받았다.",
-      "source": "CoinDesk",
-      "url": "https://tldr.tech/fintech/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "apple-openai-fintech",
+      "title": "애플-OpenAI 소송, 핀테크가 주목할 지점",
+      "summary": "인재 채용·하드웨어 경쟁·OpenAI 상장 계획에 파장.",
+      "source": "TLDR Fintech",
+      "url": "https://www.bbc.com/news/articles/cy8w379e091o",
       "report": {
-        "tldr": "소니가 달러 스테이블코인 발행용 미국 신탁은행 설립을 조건부로 승인받았다.",
-        "what": "소니는 달러 연동 스테이블코인 발행을 목표로 미국 내 신탁은행 설립에 대한 조건부 승인을 확보했다. 비금융 대기업의 스테이블코인 진입 사례다.",
-        "points": [
-          "달러 스테이블코인 발행 목표",
-          "미 신탁은행 조건부 승인",
-          "비금융 대기업의 스테이블코인 진입"
-        ],
-        "why": [
-          "스테이블코인 발행자 다변화 흐름",
-          "규제된 스테이블코인 시장 경쟁 확대"
-        ]
+        "tldr": "애플이 OpenAI·io Products·전직 직원들을 영업비밀 절취 혐의로 제소했다.",
+        "what": "퇴사자들의 민감 파일 전송과 리크루터의 내부자료·부품 반입 유도 주장이 담겼고 OpenAI는 부인한다. AI 업계에서 가장 주목받는 법정 다툼이 될 수 있다.",
+        "points": ["OpenAI의 공모시장 진출 계획에 리스크", "인재 이동 관행에 대한 파장"],
+        "why": ["AI 대표 기업의 상장 시나리오에 영향을 줄 수 있는 변수"],
+        "context": "상세 경위는 tech 에디션 빅스토리 참조."
+      }
+    },
+    {
+      "id": "sony-stablecoin-bank",
+      "title": "소니, 미국 스테이블코인 신탁은행 조건부 승인",
+      "summary": "달러 연동 스테이블코인 발행·관리 지원 목적.",
+      "source": "TLDR Fintech",
+      "url": "https://www.coindesk.com/business/2026/07/09/sony-secures-conditional-approval-to-set-up-u-s-stablecoin-trust-bank",
+      "report": {
+        "tldr": "소니가 달러 스테이블코인 발행·관리를 지원할 미국 신탁은행 설립 조건부 승인을 받았다.",
+        "what": "소니의 핀테크 확장이 스테이블코인 인프라로 깊어지고 있다.",
+        "points": ["비금융 대기업의 스테이블코인 진출"],
+        "why": ["Circle 인가와 같은 날 흐름 — 신탁은행 모델이 표준 경로화"]
+      }
+    },
+    {
+      "id": "google-quantum-bitcoin",
+      "title": "구글 — '양자컴퓨터, 2029년이면 비트코인 암호 깰 수도'",
+      "summary": "블록체인 최대 장기 리스크의 타임라인 단축.",
+      "source": "TLDR Fintech",
+      "url": "https://fintechmagazine.com/news/will-quantum-computing-break-bitcoins-cryptography",
+      "report": {
+        "tldr": "구글의 최신 연구는 양자컴퓨터가 이르면 2029년 비트코인 등 블록체인의 암호를 깰 수 있다고 시사한다.",
+        "what": "크립토 업계 최대 장기 리스크 중 하나의 타임라인이 앞당겨졌다.",
+        "points": ["포스트 양자 암호 전환 압력 증가"],
+        "why": ["커스터디·지갑 인프라의 PQC 마이그레이션 계획 필요"]
+      }
+    },
+    {
+      "id": "open-usd-analysis",
+      "title": "Open USD의 약속과 압박",
+      "summary": "올해 가장 주목받는 스테이블코인 발표에 대한 심층 분석.",
+      "source": "TLDR Fintech",
+      "url": "https://links.tldrnewsletter.com/D3Udom",
+      "report": {
+        "tldr": "Open USD는 무엇을 만들려는지와 누가 관여하는지 양면에서 올해 가장 주목할 스테이블코인 발표 중 하나다.",
+        "what": "구조와 관계자, 그리고 직면한 압박을 8분 분량으로 분석한다.",
+        "points": ["신규 스테이블코인 경쟁 구도 분석"],
+        "why": ["Circle·소니 소식과 함께 읽으면 스테이블코인 지형 파악에 유용"]
       }
     }
   ]

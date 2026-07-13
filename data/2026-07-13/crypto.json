@@ -6,171 +6,184 @@
   "bg": "#332a12",
   "items": [
     {
-      "id": "crypto-cbdc-ban",
-      "title": "CBDC 금지 담은 주택법, 트럼프 서명 없이 발효",
-      "summary": "21세기 주택법이 트럼프가 유권자 신원 조항 이견으로 서명을 거부하면서 서명 없이 법률이 됐다. 초당적 입법으로 연방 중앙은행 디지털화폐 발행을 금지한다.",
-      "source": "theblock.co",
-      "url": "https://tldr.tech/crypto/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "doj-bitclub-charges",
+      "title": "DOJ, 7.2억 달러 BitClub 사기 주범 기소 취하 준비",
+      "summary": "2019년 기소된 Goettsche 사건, 7년 만에 with prejudice 취하 방침.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2075961447461335291.html",
       "report": {
-        "tldr": "CBDC 발행을 금지하는 주택법이 대통령 서명 없이 발효됐다.",
-        "what": "21세기 주택법은 트럼프가 무관한 유권자 신원 조항을 이유로 서명을 거부했으나 서명 없이 법률로 성립했다. 초당적으로 통과된 이 법은 연방 CBDC 발행을 금지한다.",
+        "tldr": "DOJ가 7억 2,200만 달러 규모 BitClub Network 채굴 사기의 설계자로 지목된 Matthew Goettsche에 대한 기소를 재소 불가 조건(with prejudice)으로 취하할 준비를 하고 있다.",
+        "what": "검찰은 이 사기가 채굴 풀 수익을 조작해 자금을 모으고 회원 모집에 보상을 지급했다고 주장해왔다. Goettsche는 2019년 와이어 사기·미등록 증권 혐의로 기소돼 10월 재판 예정이었다. DOJ는 7년의 사건 기간과 피해자 자금 회수 노력을 이유로 들었고, 변호인단 압박 영향은 부인했다.",
         "points": [
-          "연방 CBDC 발행 금지 명문화",
-          "대통령 서명 없이 발효",
-          "초당적 통과"
+          "공동 피고 3명은 이미 유죄 인정",
+          "최종 취하 조건은 법원 제출 전 협상 중"
         ],
-        "why": [
-          "미국의 디지털화폐 정책 방향이 민간 스테이블코인 쪽으로",
-          "CBDC 논쟁의 제도적 종결 신호"
-        ]
+        "why": ["대형 크립토 사기 사건 집행 기조의 이례적 후퇴 — 규제 환경 변화 신호로 읽힐 수 있음"]
       }
     },
     {
-      "id": "crypto-doj-bitclub",
-      "title": "DOJ, 7.22억 달러 BitClub 사기 주범 기소 취하 방침",
-      "summary": "연방 검찰이 암호화폐 채굴 사기의 주범으로 지목된 매튜 괴체에 대한 기소를 철회한다. 사건의 장기화와 피해 회복 노력을 이유로 들었다.",
-      "source": "threadreaderapp.com",
-      "url": "https://tldr.tech/crypto/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "cbdc-ban-housing-bill",
+      "title": "CBDC 금지 포함 주택법, 트럼프 서명 없이 발효",
+      "summary": "연준의 중앙은행 디지털화폐 발행 금지 — 상원 85-5, 하원 358-32.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/6zNOUv",
       "report": {
-        "tldr": "DOJ가 7.22억 달러 규모 BitClub 채굴 사기 사건의 주범 기소를 취하한다.",
-        "what": "연방 검찰은 사건이 지나치게 오래 끌었고 피해 회복 노력이 진행됐다는 이유로 주범 매튜 괴체에 대한 기소를 철회하기로 했다.",
+        "tldr": "연준의 CBDC 발행을 금지하는 조항이 담긴 '21세기 ROAD to Housing Act'가 트럼프의 서명 없이 10일 헌법상 기한 경과로 발효됐다.",
+        "what": "트럼프는 별개의 유권자 신분증 법안에 대한 항의로 서명을 거부했다. 법안은 상원 85-5, 하원 358-32로 통과된 초당적 법안이다. CBDC 금지는 공화당의 오랜 우선과제로, 지난해 GENIUS Act 스테이블코인법 통과를 복잡하게 만들었던 사안이다.",
         "points": [
-          "7.22억 달러 채굴 사기 사건",
-          "사건 장기화·피해 회복이 취하 근거",
-          "주범 기소 철회"
+          "연준 CBDC 발행 법적 금지 확정",
+          "민간 스테이블코인 우위 구도 강화"
         ],
-        "why": [
-          "대형 암호화폐 사기 처벌의 이례적 종결",
-          "규제·형사 집행의 한계 논쟁 촉발"
-        ]
+        "why": ["미국 디지털 달러 노선이 '민간 스테이블코인 중심'으로 사실상 확정"]
       }
     },
     {
-      "id": "crypto-bankr-robinhood",
-      "title": "Bankr 에이전트, 트윗으로 첫 로빈후드 암호화폐 거래 실행",
-      "summary": "AI 에이전트가 소셜 명령을 통해 실 로빈후드 계정에서 개발자들이 최초라 주장하는 에이전트 주도 암호화폐 거래를 완료했다. 평문 지시를 받아 수동 개입 없이 주문을 실행한다.",
-      "source": "threadreaderapp.com",
-      "url": "https://tldr.tech/crypto/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "bankr-robinhood-trade",
+      "title": "Bankr 에이전트, 트윗으로 로빈후드 첫 크립토 거래 실행",
+      "summary": "@bankrbot 태그 한 줄로 실계좌 주문 — $RHAGENT 토큰화까지.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2075669775242694908.html",
       "report": {
-        "tldr": "AI 에이전트가 트윗 명령만으로 로빈후드 실계정 암호화폐 거래를 처음 실행했다.",
-        "what": "Bankr 에이전트가 소셜 미디어의 평문 지시를 받아 실제 로빈후드 계정에서 암호화폐 주문을 자동 체결했다. 개발자들은 이를 최초의 에이전트 주도 거래라고 주장한다.",
+        "tldr": "Bankr의 rh-wallet 스킬이 트윗 지시만으로 실제 로빈후드 계좌에서 AI 에이전트 최초의 크립토 거래를 실행했다고 주장했다.",
+        "what": "\"buy $5 of SOL\" 같은 자연어 트윗에 @bankrbot을 태그하면 에이전트가 30+개 토큰의 구매력·시세를 확인하고 주문을 라우팅한 뒤 온체인 영수증을 반환한다. 로그인·앱·브라우저 개입이 없다. $1 DOGE 시연 거래가 즉시 체결됐고 팀은 이를 $RHAGENT로 토큰화했다.",
         "points": [
-          "트윗 평문 명령으로 주문 실행",
-          "수동 개입 없는 자동 체결",
-          "실 로빈후드 계정 대상"
+          "소셜 → 결제(settlement) 파이프라인의 에이전트화",
+          "포트폴리오 뷰·계좌 접근 확대 예정",
+          "Base·로빈후드 체인 겨냥"
         ],
-        "why": [
-          "에이전트 기반 금융 자동화의 실증 사례",
-          "권한·오작동·보안 통제 과제 동반"
-        ]
+        "why": ["에이전트가 실제 금융 행위를 실행하는 시대의 상징적 사건 — 보안·책임 이슈도 동반"]
       }
     },
     {
-      "id": "crypto-robinhood-memecoins",
-      "title": "밈코인이 돌아왔다, 그런데 얼마나 갈까",
-      "summary": "로빈후드 체인 출시로 밈코인이 초기 거래량을 장악하며 일 DEX 거래량이 3,500만~7,000만 달러에서 5.6억 달러로 급증했다. 투기가 지속 채택으로 이어질지는 의문이다.",
-      "source": "x.com",
-      "url": "https://tldr.tech/crypto/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "ethlabs-week3",
+      "title": "Ethlabs 3주차 — 인터롭 연구·'quick slots' 파이널리티 제안",
+      "summary": "EIP-8198 제안, 헤고타 업그레이드 8/6 데드라인 겨냥.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/9RLFaT",
       "report": {
-        "tldr": "로빈후드 체인 출시 초기 거래량을 밈코인이 장악하며 DEX 볼륨이 급증했다.",
-        "what": "CEO의 지지 속에 로빈후드 체인의 일 DEX 거래량이 3,500만~7,000만 달러에서 5.6억 달러로 뛰었다. 다만 이 투기적 활동이 지속적 플랫폼 채택으로 전환될지는 불확실하다.",
+        "tldr": "Ethlabs가 채용 2건, 인터롭 연구, 빠른 이더리움 파이널리티를 위한 'quick slots'(EIP-8198) 제안을 담은 3주차 업데이트를 냈다.",
+        "what": "Ethereum Economic Zone의 동기적 컴포저빌리티 연구와 Open Intents Framework 기반 비동기 브리징 레인을 진행 중이다. 케임브리지 연구(물리 노드 약 8,500개·밸리데이터 88만) 인용, 로빈후드 체인 성장을 L2 모멘텀 신호로 추적. 앵커 펀더 1~2곳을 더 찾는 모금 단계다.",
         "points": [
-          "일 DEX 거래량 5.6억 달러로 급증",
-          "초기 거래를 밈코인이 주도",
-          "지속 채택 전환 여부 불확실"
+          "EIP-8198: 헤고타 업그레이드(8/6 마감) 전 파이널리티 단축 제안",
+          "동기·비동기 인터롭 양 트랙 연구"
         ],
-        "why": [
-          "신규 체인의 초기 볼륨이 투기에 편중된 위험",
-          "밈코인 거품의 지속성 시험대"
-        ]
+        "why": ["이더리움 파이널리티·인터롭 로드맵의 실무 동향"]
       }
     },
     {
-      "id": "crypto-hedera-exploit",
-      "title": "헤데라 네트워크, 525만 달러 익스플로잇 피해",
-      "summary": "공격자가 헤데라 메인넷을 익스플로잇해 탈취 자금을 블록체인 브리지로 이동시켰다.",
-      "source": "threadreaderapp.com",
-      "url": "https://tldr.tech/crypto/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "memecoins-back",
+      "title": "밈코인의 귀환 — 그러나 언제까지?",
+      "summary": "로빈후드 체인 DEX 볼륨 $35-70M → $560M, 테네브 트윗이 기폭제.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/wrH8nu",
       "report": {
-        "tldr": "헤데라 메인넷이 525만 달러 규모 익스플로잇을 당했다.",
-        "what": "공격자는 헤데라 메인넷을 악용해 자금을 탈취한 뒤 블록체인 브리지를 통해 이전했다.",
+        "tldr": "7월 1일 토큰화 주식·RWA용으로 출시된 로빈후드 체인의 첫 주 지배적 용도는 밈코인이었다.",
+        "what": "7월 8일 CEO 블라드 테네브의 트윗 이후 일일 DEX 볼륨이 $35M-70M에서 $560M으로 뛰었다. 솔라나의 $ANSEM은 Pump.fun에서 며칠 만에 $400M까지 갔다가 $250M 부근에 안착했고, 소셜 트레이딩 앱 Fomo는 $550M 밸류로 $75M 시리즈 B를 마감했다. Apple Pay 온램프 등 인프라는 개선됐지만 행태는 여전히 투기적이다.",
         "points": [
-          "525만 달러 규모 피해",
-          "탈취 자금 브리지로 세탁 시도",
-          "메인넷 취약점 악용"
+          "밈코인 볼륨이 지갑 유지·RWA 채택으로 전환될지가 관건",
+          "그 전환에 성공한 체인은 사실상 솔라나뿐"
         ],
-        "why": [
-          "L1 네트워크·브리지 보안의 지속적 리스크",
-          "온체인 자금 추적·동결 대응 필요"
-        ]
+        "why": ["신규 체인 성장 지표의 질을 판별하는 기준 제시"]
       }
     },
     {
-      "id": "crypto-saylor-btc-sale",
-      "title": "마이클 세일러, 2.16억 달러 비트코인 매도 후 수수께끼 차트 게시",
-      "summary": "세일러가 회사 사상 최대 규모 암호화폐 매도 이후 보유량에 관한 모호한 소셜 게시물을 올렸다. 매입을 알리던 평소 패턴과 다른 행보다.",
-      "source": "theblock.co",
-      "url": "https://tldr.tech/crypto/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "ethereum-decision",
+      "title": "'진짜 기업들'의 이더리움 선택",
+      "summary": "로빈후드 체인·Base 모두 ETH 가스·이더리움 정산 채택.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/k8VhEh",
       "report": {
-        "tldr": "세일러가 사상 최대 비트코인 매도 직후 해석이 분분한 전략 차트를 올렸다.",
-        "what": "세일러의 회사가 최대 규모인 2.16억 달러어치 비트코인을 매도한 뒤, 그는 보유 전략에 관한 모호한 게시물을 공개했다. 통상 매입을 공표하던 방식과 대비된다.",
+        "tldr": "실제 현금흐름 기업들이 인프라를 선택하는 시대에 이더리움 L1+L2 조합이 유리하다는 분석.",
+        "what": "로빈후드 체인과 코인베이스 Base는 이념적 충성 없이도 ETH를 네이티브 가스로, 이더리움을 데이터 가용성·정산에 쓴다. L1은 최대 탈중앙화·유동성, L2는 커스터마이즈·통제라는 '바벨' 모델이다.",
         "points": [
-          "회사 사상 최대 2.16억 달러 BTC 매도",
-          "매도 후 모호한 전략 차트 게시",
-          "평소 매입 공표 패턴과 상반"
+          "토큰 세일 주도 → 현금흐름 기업 주도로 인프라 선택 주체 이동",
+          "ETH의 담보·유동성·화폐 자산 역할 심화"
         ],
-        "why": [
-          "최대 기업 보유자의 매도가 시장 심리 자극",
-          "전략 변화 여부에 대한 관측 촉발"
-        ]
+        "why": ["ETH 투자 논리의 구조적 근거로 자주 인용될 프레임"]
       }
     },
     {
-      "id": "crypto-robinhood-tradfi",
-      "title": "문화는 크립토, 실무는 트래드파이",
-      "summary": "로빈후드 체인이 주식 토큰화를 전통 금융 인프라와 결합해 120여 개국에서 중개 기능을 통합한다. 자체 스테이블코인은 준비금 운용으로 상당한 수익을 낸다.",
-      "source": "x.com",
-      "url": "https://tldr.tech/crypto/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "culturally-crypto-tradfi",
+      "title": "문화는 크립토, 실질은 TradFi — 로빈후드의 수직 통합",
+      "summary": "27.4M 계좌 + USDG 정산 — 다음 수순은 자체 스테이블코인?",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/pmafGe",
       "report": {
-        "tldr": "로빈후드 체인이 주식 토큰화와 전통 금융을 결합한 수직 통합 전략을 편다.",
-        "what": "로빈후드 체인은 120여 개국에서 주식 토큰화와 전통 금융 인프라를 통합해 중개 기능을 한데 묶는다. 자체 스테이블코인은 준비금 운용에서 큰 수익을 창출한다.",
+        "tldr": "로빈후드 체인은 120+개국 24/7 주식 토큰 거래로 출시됐고, Uniswap AMM·Morpho 대출·USDG 정산을 통합했다.",
+        "what": "Bitstamp($200M)·WonderFi·Lighter·Morpho 인수로 브로커/거래소/커스터디/청산/발행의 분절된 TradFi 스택을 단일 컴포저블 시스템으로 접고 있다. PFOF 수익이 약 3bp인 상황에서 소유 레이어가 늘수록 테이크레이트가 올라간다. USDG 유통량은 12월 $1B에서 $3.2B로 늘어 연 $119M 규모 T-bill 수익을 창출하는 것으로 추정 — 자체 스테이블코인이 논리적 다음 수순이라는 분석이다.",
         "points": [
-          "주식 토큰화 + 전통 금융 결합",
-          "120여 개국 중개 기능 통합",
-          "자체 스테이블코인 준비금 수익"
+          "28M 사용자에 대한 유통 레버리지로서의 체인",
+          "코인베이스는 미발행 코인(USDC)에서 지난 분기 $305M 수확"
         ],
-        "why": [
-          "크립토와 트래드파이 경계의 실질적 융합",
-          "토큰화 증권 인프라 경쟁 본격화"
-        ]
+        "why": ["브로커리지의 수직 통합 전략이 크립토 인프라 경쟁의 핵심 축으로"]
       }
     },
     {
-      "id": "crypto-ethereum-business",
-      "title": "실제 기업들이 내리는 이더리움 결정",
-      "summary": "기업 블록체인 채택이 이념보다 실용성을 근거로 이더리움 L1·L2를 선호하는 흐름이다. 로빈후드·코인베이스는 이념적 지지 없이도 가스·정산에 ETH를 쓴다.",
-      "source": "x.com",
-      "url": "https://tldr.tech/crypto/2026-07-13",
-      "originalDate": "2026-07-13",
+      "id": "base-week-beryl-b20",
+      "title": "이번 주 Base — Beryl·B20 메인넷, x402 확산",
+      "summary": "Aerodrome BTC-USD 현물 1위, Centrifuge $50M+ CLO, Open USD 출시.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/WOiTrI",
       "report": {
-        "tldr": "기업들이 이념이 아닌 실용성을 근거로 이더리움을 선택하는 흐름이 뚜렷하다.",
-        "what": "기업 블록체인 채택이 이념적 정렬보다 실질 효용에 따라 이더리움 L1·L2로 향한다. 로빈후드·코인베이스는 네트워크에 대한 이념적 헌신 없이도 가스·정산에 ETH를 활용한다.",
+        "tldr": "Base가 Beryl과 B20 네이티브 토큰 표준을 메인넷에 배포했고, Aerodrome은 BTC-USD 현물 볼륨 1위에 올랐다.",
+        "what": "Aerodrome은 2분기 온체인 FX 현물의 50%+를 점유했다. Cloudflare가 페이지·데이터셋·API·MCP 도구용 x402 수익화 게이트웨이를 열었고 Apify는 x402로 2만+ 웹 자동화 도구를 에이전트에 공급한다. Centrifuge는 $50M+ 토큰화 AAA CLO를 Ethena 담보로 배포했고, OpenStandard는 Open USD를 Base에 출시했다. ClawBank의 Manfred AI 에이전트는 최초의 '무인' 미국 법인으로 등록해 에이전트 뱅킹을 운영한다.",
         "points": [
-          "실용성 기준의 이더리움 채택",
-          "가스·정산 용도의 ETH 활용",
-          "L1·L2 선택의 실무적 근거"
+          "x402가 웹 인프라 전반으로 확산",
+          "무인 AI 법인 등록이라는 이정표"
         ],
-        "why": [
-          "이더리움의 기업 인프라 표준화 가능성",
-          "이념 아닌 효용 중심의 채택 논리 확산"
-        ]
+        "why": ["에이전트 결제(x402) 생태계의 실전 채택이 빠르게 진행"]
+      }
+    },
+    {
+      "id": "hedera-exploit",
+      "title": "헤데라 메인넷 525만 달러 익스플로잇",
+      "summary": "탈취 자금은 이더리움으로 브리징.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2075912550659850527.html",
+      "report": {
+        "tldr": "공격자가 Hedera 메인넷에서 525만 달러를 탈취해 이더리움으로 브리징했다.",
+        "what": "구체적 공격 벡터는 아직 확인되지 않았다.",
+        "points": ["브리지가 자금 세탁 경로로 사용"],
+        "why": ["L1 보안 사고 — 상세 원인 공개 여부 추적 필요"]
+      }
+    },
+    {
+      "id": "saylor-cryptic-chart",
+      "title": "세일러, 2.16억 달러 매도 후 '수수께끼' 차트 게시",
+      "summary": "3,588 BTC 사상 최대 처분 후 '주황 점이 전부는 아니다'.",
+      "source": "TLDR Crypto",
+      "url": "https://links.tldrnewsletter.com/MCHuP2",
+      "report": {
+        "tldr": "마이클 세일러가 Strategy의 사상 최대 매도(3,588 BTC, $216M) 며칠 뒤 '주황 점은 이야기의 일부만 말해준다'는 모호한 캡션과 함께 매집 트래커를 올렸다.",
+        "what": "통상의 매수 신호 패턴에서 벗어난 행보라 시장의 해석이 분분하다.",
+        "points": ["Strategy의 BTC 전략 변화 가능성 주시"],
+        "why": ["기업 BTC 트레저리 모델의 대표 주자 동향"]
+      }
+    },
+    {
+      "id": "robinhood-memecoin-volume",
+      "title": "로빈후드 체인 볼륨, 사실상 밈코인이 전부라는 지적",
+      "summary": "보고된 고볼륨 DEX 활동의 실체에 의문.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2076354403229946332.html",
+      "report": {
+        "tldr": "로빈후드 체인의 높은 DEX 볼륨이 다른 활동이 아니라 거의 전적으로 밈코인 거래에서 나온다는 주장.",
+        "what": "체인 성장 지표의 질에 대한 반론이다.",
+        "points": ["볼륨 지표 해석 주의"],
+        "why": ["'Memecoins Are Back' 분석과 함께 읽을 반대 관점"]
+      }
+    },
+    {
+      "id": "eth-distribution-dashboard",
+      "title": "DefiLlama, 로빈후드 체인 ETH 분포 대시보드",
+      "summary": "해당 L2가 ETH를 많이 쓰고 보유함을 시각화.",
+      "source": "TLDR Crypto",
+      "url": "https://threadreaderapp.com/thread/2076338456297435187.html",
+      "report": {
+        "tldr": "DefiLlama가 만든 새 대시보드가 로빈후드 체인의 ETH 분포를 추적한다.",
+        "what": "이 L2가 ETH를 집중적으로 사용·보유하고 있음을 보여준다.",
+        "points": ["ETH 수요 논거의 데이터 근거"],
+        "why": ["'이더리움 선택' 담론을 뒷받침하는 온체인 데이터"]
       }
     }
   ]
