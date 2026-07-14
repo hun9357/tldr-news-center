@@ -1,0 +1,240 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-claude-tokens",
+      "title": "같은 TypeScript, Claude가 GPT보다 토큰 73% 더 든다",
+      "summary": "앤트로픽 토크나이저가 이전 대비 약 30% 더 많은 토큰을 생성해, TypeScript 등 특정 콘텐츠 처리 비용이 OpenAI 대비 크게 오른다.",
+      "source": "PlayCode",
+      "url": "https://playcode.io/blog/claude-typescript-tokens",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "Claude 토큰화 특성으로 TypeScript 처리 비용이 GPT보다 최대 73% 높다.",
+        "what": "앤트로픽 토크나이저가 이전보다 약 30% 더 많은 토큰을 만들어, 같은 TypeScript를 처리할 때 OpenAI 대비 최대 73% 더 비싸진다.",
+        "points": [
+          "토큰 ~30% 증가",
+          "TypeScript 최대 73% 비용 상승",
+          "벤더별 토큰화 차이"
+        ],
+        "why": [
+          "코딩 워크로드 비용·벤더 선택에 영향",
+          "토큰 예산·컨텍스트 설계 재고"
+        ]
+      }
+    },
+    {
+      "id": "dev-scrollheight-perf",
+      "title": "readonly 속성 하나가 성능을 망친다고?",
+      "summary": "한 개발자가 scrollHeight를 반복 계산하는 것이 큰 성능 저하를 일으킴을 발견하고, 매 메시지마다 정밀 재계산 대신 큰 고정값을 써 해결했다.",
+      "source": "shub.club",
+      "url": "https://shub.club/readonly-property-performance",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "scrollHeight 반복 조회가 강제 리플로우를 유발해 성능을 떨어뜨렸다.",
+        "what": "한 개발자가 scrollHeight를 반복 계산하는 것이 심한 성능 저하를 초래함을 발견했다. 매 메시지마다 정밀 재계산 대신 충분히 큰 고정값을 사용해 문제를 해결했다.",
+        "points": [
+          "scrollHeight 반복 조회가 병목",
+          "강제 동기 레이아웃 유발",
+          "고정값 대체로 해결"
+        ],
+        "why": [
+          "레이아웃 스래싱 회피의 실전 사례",
+          "읽기/쓰기 분리·배칭의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "dev-token-94",
+      "title": "AI 에이전트 토큰 사용을 94% 줄인 방법",
+      "summary": "자연어 기반 에이전트 스킬을 컴파일된 코드로 전환해 토큰 소비를 94%, 지연을 87% 줄였다. 언어 이해가 필요한 작업에만 LLM 호출을 남겼다.",
+      "source": "Vivek Haldar",
+      "url": "https://vivekhaldar.com/articles/cut-agent-token-94",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "에이전트 스킬을 코드로 컴파일해 토큰 94%·지연 87%를 절감했다.",
+        "what": "자연어 기반 AI 에이전트 스킬을 컴파일된 코드로 바꿔 토큰 소비 94%, 지연 87%를 줄였다. LLM 호출은 언어 이해가 꼭 필요한 작업에만 남겼다.",
+        "points": [
+          "토큰 94% 절감·지연 87% 감소",
+          "결정론적 로직은 코드로",
+          "LLM은 언어 이해에만"
+        ],
+        "why": [
+          "에이전트 비용·지연 최적화의 핵심 패턴",
+          "코드-LLM 하이브리드 설계 지향"
+        ]
+      }
+    },
+    {
+      "id": "dev-control-ideas",
+      "title": "코드가 아니라 아이디어를 통제하라",
+      "summary": "AI 역량이 커질수록 개발자는 코드 구현보다 개념 설계와 소프트웨어 아키텍처 숙달을 우선해야 한다는 antirez의 조언.",
+      "source": "antirez",
+      "url": "https://antirez.com/news/control-ideas",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "AI 시대엔 코드 구현보다 아이디어·아키텍처 장악이 개발자의 핵심 역량.",
+        "what": "AI 역량이 발전할수록 개발자는 코드 구현보다 개념 설계와 소프트웨어 아키텍처를 마스터하는 데 집중해야 한다고 antirez가 주장한다.",
+        "points": [
+          "구현보다 설계·아키텍처",
+          "아이디어 통제가 핵심",
+          "AI가 코드를 보완"
+        ],
+        "why": [
+          "AI 코딩 시대 개발자 역할 재정의",
+          "시니어리티의 가치 이동"
+        ]
+      }
+    },
+    {
+      "id": "dev-no-xcode",
+      "title": "Xcode 한 번 안 열고 Mac·iOS 앱 빌드·배포하기",
+      "summary": "Xcode에 포함된 커맨드라인 도구로 애플 플랫폼 빌드·배포 파이프라인 전체를 자동화해, IDE를 직접 열 필요를 없앨 수 있다.",
+      "source": "scottwillsey.com",
+      "url": "https://scottwillsey.com/build-ship-without-xcode",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "Xcode CLI 도구로 애플 앱 빌드·배포를 IDE 없이 완전 자동화한다.",
+        "what": "개발자는 Xcode에 포함된 커맨드라인 도구로 애플 플랫폼의 빌드·배포 파이프라인 전체를 자동화할 수 있어, IDE를 직접 열지 않아도 된다.",
+        "points": [
+          "CLI 기반 빌드·배포",
+          "전체 파이프라인 자동화",
+          "IDE 없이 CI 구성"
+        ],
+        "why": [
+          "애플 생태계 CI/CD 효율화",
+          "반복 빌드·릴리스의 재현성 확보"
+        ]
+      }
+    },
+    {
+      "id": "dev-gpt56-sol",
+      "title": "GPT-5.6-Sol, 가성비 코딩 일꾼",
+      "summary": "GPT-5.6-Sol이 코딩 작업에서 비용 효율적 성능을 보이지만, 의도치 않은 파괴적 동작 우려로 백업 체계가 권장된다.",
+      "source": "The Zvi",
+      "url": "https://thezvi.substack.com/p/better-call-sol",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "GPT-5.6-Sol은 저비용 코딩 모델이나 안전장치가 필요하다.",
+        "what": "GPT-5.6-Sol이 코딩 작업에서 가성비 좋은 성능을 낸다는 리뷰가 나왔다. 다만 의도치 않은 파괴적 행위 우려로 백업 시스템 구성이 권장된다.",
+        "points": [
+          "코딩 가성비 우수",
+          "파괴적 동작 위험",
+          "백업 권장"
+        ],
+        "why": [
+          "코딩 에이전트 비용·안전 트레이드오프",
+          "저가 프런티어 모델 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "dev-clawk",
+      "title": "Clawk — 코딩 에이전트용 일회용 리눅스 VM",
+      "summary": "Clawk은 네트워크 제한이 걸린 일회용 리눅스 VM을 만들어 코딩 에이전트를 안전하게 실행한다. 호스트 시스템·민감정보 노출 없이 작업을 수행한다.",
+      "source": "GitHub",
+      "url": "https://github.com/clawk/clawk",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "Clawk이 네트워크 격리된 일회용 VM에서 코딩 에이전트를 샌드박싱한다.",
+        "what": "Clawk은 네트워크 제한이 적용된 일회용 리눅스 VM을 생성해 코딩 에이전트를 격리 실행한다. 호스트나 민감정보를 노출하지 않고 작업을 처리한다.",
+        "points": [
+          "일회용 리눅스 VM",
+          "네트워크 제한",
+          "호스트 격리 실행"
+        ],
+        "why": [
+          "에이전트 실행의 샌드박싱 수요 증가",
+          "공급망·프롬프트 인젝션 방어 계층"
+        ]
+      }
+    },
+    {
+      "id": "dev-engram",
+      "title": "Engram — AI 에이전트용 영속 메모리",
+      "summary": "Engram은 SQLite를 쓰는 단일 Go 바이너리로 구현된 AI 에이전트 영속 메모리 시스템으로, 세션 간 컨텍스트 유지와 메모리 관리를 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/engram/engram",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "Engram이 SQLite 기반 단일 바이너리로 에이전트 세션 간 기억을 제공한다.",
+        "what": "Engram은 SQLite를 사용하는 독립형 Go 바이너리로 만든 AI 에이전트 영속 메모리다. 여러 세션에 걸친 컨텍스트 유지와 메모리 관리 기능을 제공한다.",
+        "points": [
+          "단일 Go 바이너리·SQLite",
+          "세션 간 컨텍스트 유지",
+          "메모리 관리 기능"
+        ],
+        "why": [
+          "에이전트 장기기억 인프라 부상",
+          "경량·자기완결형 도구 선호"
+        ]
+      }
+    },
+    {
+      "id": "dev-apple-speech",
+      "title": "애플 신규 음성 API vs Whisper — 첫 실측 벤치",
+      "summary": "애플 SpeechAnalyzer가 깨끗한 음성에서 단어 오류율 2.12%를 기록해, 레거시 API와 Whisper Small을 정확도·속도 모두에서 앞섰다.",
+      "source": "Get Inscribe",
+      "url": "https://get-inscribe.com/blog/apple-speech-vs-whisper",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "애플 SpeechAnalyzer가 WER 2.12%로 Whisper Small을 앞섰다.",
+        "what": "애플의 SpeechAnalyzer가 깨끗한 음성에서 단어 오류율 2.12%를 달성해, 레거시 API와 Whisper Small을 정확도·속도에서 능가했다.",
+        "points": [
+          "깨끗한 음성 WER 2.12%",
+          "레거시·Whisper Small 상회",
+          "속도 우위"
+        ],
+        "why": [
+          "온디바이스 STT의 실용 수준 도달",
+          "받아쓰기·자막 앱 로컬화 가능"
+        ]
+      }
+    },
+    {
+      "id": "dev-polyfills",
+      "title": "폴리필을 옹호하며",
+      "summary": "폴리필은 웹 생태계의 접근성·성능을 높이고 API 설계를 구현 시점과 분리한다는 lea.verou의 반론.",
+      "source": "lea.verou.me",
+      "url": "https://lea.verou.me/blog/in-defense-of-polyfills",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "폴리필이 접근성·성능을 높이고 API 설계를 구현 타임라인과 분리한다.",
+        "what": "폴리필이 웹 생태계의 접근성과 성능을 개선하고, API 설계를 구현 시점과 디커플링한다는 옹호론이다.",
+        "points": [
+          "접근성·성능 개선",
+          "API 설계-구현 분리",
+          "점진적 채택 촉진"
+        ],
+        "why": [
+          "웹 표준 채택 전략 재조명",
+          "프로그레시브 인핸스먼트 가치"
+        ]
+      }
+    },
+    {
+      "id": "dev-gc-tuning",
+      "title": "가비지 컬렉터보다 코드를 먼저 튜닝하라",
+      "summary": "자바에서 메모리 할당을 최적화하고 불필요한 로깅을 줄이면 성능이 개선되고 GC 효과에도 영향을 준다.",
+      "source": "Vanilla Java",
+      "url": "https://blog.vanillajava.blog/tune-code-before-gc",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "GC 튜닝보다 할당·로깅 최적화가 자바 성능의 우선순위다.",
+        "what": "자바에서 메모리 할당을 최적화하고 불필요한 로깅을 줄이면 성능이 향상되고 가비지 컬렉터의 효율에도 긍정적 영향을 준다.",
+        "points": [
+          "할당 최적화 우선",
+          "불필요 로깅 축소",
+          "GC보다 코드부터"
+        ],
+        "why": [
+          "JVM 성능 튜닝의 올바른 순서",
+          "관측 가능한 병목부터 개선"
+        ]
+      }
+    }
+  ]
+}

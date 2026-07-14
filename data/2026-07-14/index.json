@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-14",
+  "weekday": "화",
+  "headline": "애플, OpenAI '영업비밀 절취' 소송 확전",
+  "subtitle": "iOS 27 퍼블릭 베타 공개 · CISA 깃허브서 정부 관리자 키 6개월 노출 · S&P500 지정학 리스크에 0.79%↓",
+  "keyword": "애플 vs OpenAI · 기밀유출 · AI 하드웨어 · 공급망보안",
+  "bigStoryId": "tech-apple-openai-suit",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:07 CDT",
+  "syncedAt": "09:07",
+  "subscribers": 128842,
+  "market": {
+    "index": "S&P 500",
+    "value": "7,515.34",
+    "change": "▼ 0.79%"
+  },
+  "stats": {
+    "companies": 17,
+    "security": 15,
+    "deals": 3,
+    "policy": 6
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "정부·클라우드 관리자 키 대량 노출",
+      "body": "CISA 협력업체가 깃허브 저장소를 6개월간 공개 방치해 AWS GovCloud 관리자 키와 평문 시스템 암호가 유출됐다. 자동 경보에도 통보 후 키 로테이션에 48시간 넘게 걸렸다. 브라우저 확장 ModHeader(160만 설치)에서도 휴면 수집 코드가 발견돼 무단 배포 사슬 우려가 커졌다.",
+      "severity": "7.8",
+      "velocity": "Rising",
+      "action": "노출 키 즉시 로테이션·공개 리포 시크릿 스캔"
+    },
+    {
+      "kind": "market",
+      "title": "지정학 리스크에 S&P500 0.79%↓",
+      "body": "트럼프의 이란 호르무즈 해협 봉쇄 재개 발언에 유가가 급등하고 반도체주(특히 SK하이닉스)가 하락하며 S&P500이 7,515.34로 마감했다. 나스닥은 1.55% 하락해 낙폭이 더 컸다. 실적 시즌 개막을 앞둔 위험 회피 심리가 짙다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "애플-OpenAI 소송의 추가 폭로와 OpenAI 연내 기기 발표 일정 영향, Paramount-Warner Bros 1,110억달러 딜에 대한 주정부 제소 여부, 목요일 예정된 Starship 13차 시험비행의 Starlink V3 성패를 추적."
+    }
+  ]
+}
