@@ -6,283 +6,236 @@
   "bg": "#14283a",
   "items": [
     {
-      "id": "dev-chatgpt-web-re",
-      "title": "ChatGPT 웹 리버스 엔지니어링: 10억 사용자를 위한 설계",
-      "summary": "OpenAI의 웹 앱은 React 19·Tailwind CSS 등 단순한 스택으로, 최소 인증 장벽과 Cloudflare 기반 초기 로드 최적화로 즉각적 접근을 우선한다.",
+      "id": "dev-chatgpt-web-reverse-engineered",
+      "title": "챗GPT 웹앱 리버스 엔지니어링 \"의외로 평범한 스택\"",
+      "summary": "리액트19·리액트라우터7(스트리밍 SSR)·테일윈드·라딕스·탠스택쿼리로 구성, 인증장벽 없이 즉시 타이핑이 가능하다.",
       "source": "performance.dev",
-      "url": "https://performance.dev/chatgpt",
-      "originalDate": "2026-07-15",
+      "url": "https://performance.dev/chatgpt?utm_source=tldrdev",
       "report": {
-        "tldr": "10억 사용자를 겨냥한 ChatGPT 웹의 핵심은 '단순 스택 + 즉시 접근'이다.",
-        "what": "OpenAI의 웹 애플리케이션은 React 19와 Tailwind CSS 등 비교적 단순한 기술 스택을 쓰며, 최소한의 인증 장벽과 Cloudflare 인프라 기반 초기 로드 최적화로 즉각적 사용자 접근을 우선한다.",
+        "tldr": "인증 없는 즉시 진입을 위해 클라우드플레어·센티넬 봇방어 계층이 그 개방성의 비용을 흡수한다.",
+        "what": "챗GPT 웹앱은 모든 기본 설정이 '익명 방문자가 즉시 타이핑을 시작할 수 있게 한다'는 단 하나의 목표에 종속돼 있다. 인증장벽 없이 빠른 첫 페인트 타임을 확보하는 대신, 선결제된 클라우드플레어·센티넬 봇방어 계층이 그 열린 문의 비용을 숨긴다.",
         "points": [
-          "React 19 + Tailwind CSS 단순 스택",
-          "최소 인증 장벽으로 즉시 접근",
-          "Cloudflare 기반 초기 로드 최적화"
+          "리액트19+리액트라우터7 스트리밍 SSR",
+          "테일윈드·라딕스·탠스택쿼리 조합",
+          "인증장벽 제거 + 봇방어 계층으로 비용 상쇄"
         ],
         "why": [
-          "초대형 트래픽 서비스의 실용적 프런트엔드 설계 사례",
-          "화려함보다 접근성·성능 우선의 교훈"
+          "10억 사용자 규모 서비스의 실전 프런트엔드 아키텍처 사례"
         ]
       }
     },
     {
-      "id": "dev-cursor-0day",
-      "title": "Cursor 0day: 전체 공개만이 남은 유일한 보호책",
-      "summary": "Cursor IDE의 심각한 취약점이 악성 저장소 바이너리를 자동 실행하게 한다. 7개월간의 공개 시도에도 취약점이 미패치 상태로 남아 있다.",
-      "source": "mindgard.ai",
-      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
-      "originalDate": "2026-07-15",
-      "intel": {
-        "impact": "High",
-        "confidence": "78%",
-        "owner": "Eng · Security",
-        "status": "New",
-        "affectedSurface": "Cursor IDE · 개발 워크스테이션"
-      },
+      "id": "dev-building-for-breach",
+      "title": "\"복구보다 봉쇄가 우선인 시대\"",
+      "summary": "취약점 증가 속도와 침해 대응 시간 단축이 맞물리며 전통적 원격 조치 전략의 효과가 떨어지고 있다.",
+      "source": "Resilient Cyber",
+      "url": "https://www.resilientcyber.io/p/building-for-breach?utm_source=tldrdev",
       "report": {
-        "tldr": "저장소를 여는 것만으로 악성 바이너리가 자동 실행되는 미패치 Cursor 취약점.",
-        "what": "Cursor IDE의 심각한 취약점이 악성 저장소의 바이너리를 자동 실행하게 만든다. 7개월에 걸친 비공개 제보 시도에도 패치되지 않아 연구자가 전체 공개(풀 디스클로저)에 나섰다.",
+        "tldr": "의존성 관리 복잡성이 커지며 침해를 막기보다 봉쇄하는 전략으로의 전환이 요구된다.",
+        "what": "많은 조직이 취약점 증가 속도와 위협 지형 변화, 특히 AI가 사이버 공격에 관여하는 상황에 어려움을 겪고 있다. 침해를 봉쇄할 시간이 짧아지고 의존성 관리가 복잡해지면서 전통적 원격 조치 노력은 점점 효과가 떨어지고 있다.",
         "points": [
-          "악성 저장소 바이너리 자동 실행",
-          "7개월 제보에도 미패치",
-          "전체 공개로 전환"
+          "취약점 증가 속도가 대응 역량을 앞지름",
+          "AI가 사이버 공격의 새로운 변수로 작용",
+          "복구 중심에서 봉쇄 중심 전략으로 전환 필요"
         ],
         "why": [
-          "AI 코딩 IDE가 개발자 워크스테이션의 새 공격면",
-          "신뢰되지 않은 저장소 열람 시 위험 상존"
-        ],
-        "action": "신뢰되지 않은 저장소는 격리 환경에서만 열기, Cursor 자동실행 설정 점검"
-      }
-    },
-    {
-      "id": "dev-building-breach",
-      "title": "침해를 전제로 설계하기 (Building for Breach)",
-      "summary": "AI가 사이버 위협을 가속하며 취약점 관리 부담이 커진다. 침해 대응 시간이 짧아지는 만큼 '억제' 중심 방어로의 전략 전환이 필요하다.",
-      "source": "resilientcyber.io",
-      "url": "https://www.resilientcyber.io/p/building-for-breach",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "AI가 공격을 가속하는 시대에는 예방보다 '침해 억제' 설계가 핵심이다.",
-        "what": "AI가 사이버 위협을 가속하면서 조직의 취약점 관리 부담이 커지고 있다. 침해 대응·억제 시간 창이 좁아지는 만큼, 전통적 원격 조치를 넘어 억제(containment) 중심 방어로의 전략 전환이 필요하다.",
-        "points": [
-          "AI가 위협 속도 가속",
-          "전통 원격 조치의 한계",
-          "억제 중심 방어로 전환"
-        ],
-        "why": [
-          "'침해는 발생한다'는 전제의 회복탄력성 설계 강조",
-          "취약점 관리 우선순위 재편 필요"
+          "보안 전략의 패러다임이 예방·복구에서 봉쇄로 이동하는 신호"
         ]
       }
     },
     {
-      "id": "dev-code-yellow-red",
-      "title": "코드 옐로, 코드 레드: 인시던트 관리의 정석",
-      "summary": "Provet의 2025년 인프라 위기 사례는 투명한 소통, 명확한 해결 기준, 8주 협업 문제해결로 거의 완벽한 가동시간 회복을 이뤄냈다.",
-      "source": "theengineeringmanager.substack.com",
-      "url": "https://theengineeringmanager.substack.com/p/code-yellow-code-red",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "투명한 소통과 명확한 종료 기준이 장기 인프라 위기를 해결한다.",
-        "what": "Provet의 2025년 인프라 위기는 투명한 소통, 정의된 해결 기준, 8주에 걸친 협업적 문제해결을 통해 거의 완벽한 가동시간 회복을 달성한 인시던트 관리 사례를 보여준다.",
-        "points": [
-          "투명한 소통 + 명확한 해결 기준",
-          "8주 협업 문제해결",
-          "거의 완벽한 가동시간 회복"
-        ],
-        "why": [
-          "장기 인시던트의 조직적 관리 프레임 제시",
-          "코드 옐로/레드 에스컬레이션 체계의 실효성"
-        ]
-      }
-    },
-    {
-      "id": "dev-reality-punch",
-      "title": "현실로 자신을 강타하라",
-      "summary": "AI 도입자는 프로젝트를 남발하고 버리는 부류와 실제 문제를 효율적으로 푸는 실용주의자로 갈린다. 빠른 실험을 진전으로 착각하면 실행 대신 미루기가 된다.",
+      "id": "dev-punch-yourself-reality",
+      "title": "\"AI로 뭐든 만들 수 있다는 게 곧 진짜 진전은 아니다\"",
+      "summary": "많은 창업자가 실제 문제 해결보다 과도한 빌딩에 빠져 프로젝트를 방치하는 함정에 빠진다.",
       "source": "adi.bio",
-      "url": "https://adi.bio/reality",
-      "originalDate": "2026-07-15",
+      "url": "https://adi.bio/reality?utm_source=tldrdev",
       "report": {
-        "tldr": "AI 실험의 속도를 '진전'으로 착각하면 실행이 아니라 미루기가 된다.",
-        "what": "AI 도입자는 프로젝트를 과도하게 벌이고 버리는 부류와 실제 문제를 효율적으로 해결하는 실용주의자로 나뉜다. 많은 창업자가 빠른 AI 실험을 진짜 진전으로 착각해 실행 대신 미루기에 빠진다는 경고다.",
+        "tldr": "AI 시대 두 부류로 나뉜다: 과도하게 만들다 방치하는 사람, 실제 문제를 효율적으로 푸는 사람.",
+        "what": "오늘날 AI 활용에는 두 가지 접근이 있다. 하나는 과도한 빌딩에 빠져 결국 프로젝트를 방치하는 것이고, 다른 하나는 AI로 실제 문제를 더 효율적으로 해결하는 데 집중하는 것이다. 많은 창업자가 AI가 주는 속도를 진짜 진전으로 착각하며 미루기의 함정에 빠진다.",
         "points": [
-          "과잉 빌더 vs 실용주의자로 양분",
-          "빠른 실험 ≠ 진전",
-          "실행 대신 미루기 위험"
+          "과도한 빌딩 vs 실질적 문제 해결, 두 접근의 대비",
+          "속도와 진전을 혼동하는 함정 경고",
+          "AI 활용의 본질은 방치가 아닌 실질적 가치 창출"
+        ]
+      }
+    },
+    {
+      "id": "dev-code-yellow-code-red",
+      "title": "프로벳, '코드 옐로' 선언으로 인프라 위기 8주 만에 정상화",
+      "summary": "명확한 커뮤니케이션과 구체적인 종료 기준, 협업적 접근으로 8주 만에 거의 완전한 가동률을 달성했다.",
+      "source": "The Engineering Manager",
+      "url": "https://theengineeringmanager.substack.com/p/code-yellow-code-red?utm_source=tldrdev",
+      "report": {
+        "tldr": "2025년 말 발생한 인프라 문제로 고객 불만이 커지자 프로벳은 '코드 옐로'를 선언해 조직적으로 대응했다.",
+        "what": "이니셔티브는 문제에 대한 명확한 커뮤니케이션, 구체적인 종료 기준 설정, 식별된 이슈를 해결하기 위한 협업적 접근을 포함했다. 8주간의 과정을 거쳐 거의 완전한 가동률을 달성했다.",
+        "points": [
+          "'코드 옐로' 선언으로 조직적 위기 대응",
+          "명확한 종료 기준으로 목표 관리",
+          "8주 만에 거의 완전한 가동률 달성"
         ],
         "why": [
-          "AI 도구 남용의 생산성 함정 경계",
-          "'현실 검증' 중심의 실행 규율 강조"
+          "인프라 위기 대응의 실전 플레이북 사례로 참고할 만함"
         ]
       }
     },
     {
       "id": "dev-youtrackdb",
-      "title": "YouTrackDB: 젯브레인스의 그래프 데이터베이스",
-      "summary": "젯브레인스의 그래프 DB로, 상수시간 링크 복잡도의 효율적 데이터 순회를 제공한다. Gremlin·YQL 질의어와 스냅샷 격리, 크로스플랫폼 배포를 지원한다.",
-      "source": "GitHub",
-      "url": "https://github.com/JetBrains/youtrackdb",
-      "originalDate": "2026-07-15",
+      "title": "유트랙DB, 객체지향 그래프 데이터베이스 공개",
+      "summary": "링크 순회에 상수 시간 복잡도를 제공하며 그렘린과 자체 SQL 기반 쿼리언어 YQL을 모두 지원한다.",
+      "source": "GitHub / JetBrains",
+      "url": "https://github.com/JetBrains/youtrackdb?utm_source=tldrdev",
       "report": {
-        "tldr": "상수시간 링크 순회와 Gremlin·YQL을 지원하는 젯브레인스 그래프 DB.",
-        "what": "젯브레인스의 YouTrackDB는 상수시간 링크 복잡도로 효율적 데이터 순회를 제공하는 그래프 데이터베이스다. Gremlin과 YQL 질의어, 스냅샷 격리, 크로스플랫폼 배포를 지원한다.",
+        "tldr": "유트랙DB는 스냅샷 격리, 강력한 보안, 손쉬운 설치를 갖춘 확장 가능한 그래프 데이터베이스다.",
+        "what": "링크 순회에 상수 시간 복잡도를 제공하는 효율적 데이터 처리와 그렘린 쿼리 언어, SQL 기반의 YQL을 함께 지원한다. 트랜잭션용 스냅샷 격리, 강력한 보안 프로토콜, 플랫폼 간 손쉬운 설치를 갖췄다.",
         "points": [
-          "상수시간 링크 복잡도 순회",
-          "Gremlin·YQL 질의어 지원",
-          "스냅샷 격리·크로스플랫폼"
-        ],
-        "why": [
-          "연결 데이터 중심 애플리케이션에 적합한 오픈 선택지",
-          "젯브레인스 생태계와의 통합 가능성"
+          "링크 순회 상수 시간 복잡도",
+          "그렘린 + 자체 YQL 쿼리 언어 지원",
+          "스냅샷 격리 및 강력한 보안 프로토콜"
         ]
       }
     },
     {
-      "id": "dev-lexxy",
-      "title": "Lexxy: 레일스용 오픈소스 리치 텍스트 에디터",
-      "summary": "마크다운 호환, 구문 강조, 첨부 미리보기, 확장 가능한 커스터마이징을 제공하는 Rails용 오픈소스 텍스트 에디터다.",
-      "source": "lexxy.dev",
-      "url": "https://lexxy.dev/",
-      "originalDate": "2026-07-15",
+      "id": "dev-lexxy-rich-text-editor",
+      "title": "렉시, 레일즈용 오픈소스 리치 텍스트 에디터",
+      "summary": "깔끔한 HTML, 마크다운 지원, 코드 하이라이팅, 첨부파일 미리보기, 커스텀 확장을 제공한다.",
+      "source": "Lexxy",
+      "url": "https://lexxy.dev/?utm_source=tldrdev",
       "report": {
-        "tldr": "마크다운·구문 강조·첨부 미리보기를 갖춘 Rails용 오픈소스 에디터.",
-        "what": "Lexxy는 마크다운 호환, 구문 강조, 첨부 미리보기, 확장 가능한 커스터마이징을 제공하는 Rails용 오픈소스 리치 텍스트 에디터다.",
+        "tldr": "렉시는 레일즈 애플리케이션을 위한 현대적 오픈소스 리치 텍스트 에디터다.",
+        "what": "깔끔한 HTML 출력, 마크다운 지원, 코드 하이라이팅, 첨부파일 미리보기, 커스터마이즈 가능한 확장 기능을 제공한다.",
         "points": [
-          "마크다운 호환·구문 강조",
-          "첨부 미리보기 지원",
-          "확장 가능한 커스터마이징"
-        ],
-        "why": [
-          "Rails 앱의 리치 콘텐츠 입력 워크플로 간소화",
-          "오픈소스 대안으로 도입 비용 절감"
+          "깔끔한 HTML 출력",
+          "마크다운·코드 하이라이팅 지원",
+          "첨부파일 미리보기 및 확장 기능"
         ]
       }
     },
     {
-      "id": "dev-hassabis-framework",
-      "title": "프런티어 AI 프레임워크와 새 시대의 도래",
-      "summary": "구글 딥마인드 CEO가 다가오는 AGI를 전기의 발견에 비견하며 역사적 전환으로 규정한다. 기회 극대화와 선제적 리스크 완화를 동시에 요구한다.",
-      "source": "X",
-      "url": "https://x.com/demishassabis/status/2076957440109625718",
-      "originalDate": "2026-07-14",
+      "id": "dev-frontier-ai-new-age",
+      "title": "허사비스 \"AGI는 전기·불의 발견에 맞먹는 전환점\"",
+      "summary": "AGI가 사회적 난제 해결과 풍요를 가져올 잠재력을 지녔지만, 신중히 다뤄야 할 중대 리스크도 함께 수반한다.",
+      "source": "TLDR Dev",
+      "url": "https://links.tldrnewsletter.com/KY7Ej5",
       "report": {
-        "tldr": "하사비스가 AGI 도래를 전기의 발견급 전환으로 규정한 프레임워크.",
-        "what": "구글 딥마인드 CEO 데미스 하사비스가 다가오는 AGI를 전기의 발견에 필적하는 역사적 전환으로 규정하며, 기회 극대화와 선제적 리스크 완화를 함께 요구하는 프런티어 AI 프레임워크를 제시했다.",
+        "tldr": "구글 딥마인드 CEO는 AGI의 임박한 도래가 전기나 불의 발견에 맞먹는 혁신이 될 것이라 말했다.",
+        "what": "AGI는 사회적 난제 해결과 풍요를 가져다줄 잠재력을 지녔지만, 신중한 항해와 선제적 대응이 필요한 중대한 리스크도 함께 수반한다는 경고다.",
         "points": [
-          "AGI = '전기의 발견'급 전환",
-          "기회 극대화 + 리스크 완화",
-          "미국 주도 표준 촉구와 연결"
-        ],
-        "why": [
-          "프런티어 랩 수장의 AI 거버넌스 담론 주도",
-          "개발자·기업의 AI 전략 프레이밍에 영향"
-        ]
-      }
-    },
-    {
-      "id": "dev-guardian-angels",
-      "title": "가디언 엔젤: 생산성·보안을 위한 LLM 개인화",
-      "summary": "개별 사용자의 선호·가치를 모방하는 개인화 언어모델을 제안한다. 동적 평가와 지속 학습으로 생산성을 높이고 민감정보를 보호한다.",
-      "source": "gwern.net",
-      "url": "https://gwern.net/guardian-angel",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "사용자 가치를 모방하는 개인화 LLM으로 생산성과 프라이버시를 동시에.",
-        "what": "Gwern은 개별 사용자의 선호와 가치를 모방하는 개인화 언어모델('가디언 엔젤')을 제안한다. 동적 평가와 지속 학습 메커니즘을 통해 생산성을 높이면서 민감정보를 보호한다는 구상이다.",
-        "points": [
-          "사용자 선호·가치 모방 개인화 LLM",
-          "동적 평가·지속 학습",
-          "생산성 향상 + 민감정보 보호"
-        ],
-        "why": [
-          "개인 대리 에이전트의 설계 철학 제시",
-          "프라이버시-효용 균형의 새로운 접근"
+          "AGI를 전기·불의 발견에 비유",
+          "사회적 난제 해결의 잠재력 강조",
+          "신중한 리스크 관리 필요성 경고"
         ]
       }
     },
     {
       "id": "dev-ai-cloning-games",
-      "title": "AI가 게임 복제를 그 어느 때보다 쉽게 만들었다",
-      "summary": "생성형 AI로 몇 시간 만에 파생 게임을 만들 수 있게 되며 원작자들이 지식재산 도용과 시장 포화를 우려한다.",
-      "source": "404media.co",
-      "url": "https://www.404media.co/ai-made-cloning-games-easier-than-ever/",
-      "originalDate": "2026-07-15",
+      "title": "바이브코딩으로 게임 표절이 그 어느 때보다 쉬워졌다",
+      "summary": "생성형 AI로 몇 시간 만에 기존 게임의 저효율 복제품을 만들 수 있게 되며 원작자들의 불안이 커지고 있다.",
+      "source": "404 Media",
+      "url": "https://www.404media.co/ai-made-cloning-games-easier-than-ever/?utm_source=tldrdev",
       "report": {
-        "tldr": "생성형 AI가 게임 클론 제작을 수 시간 단위로 단축시켰다.",
-        "what": "생성형 AI로 기존 게임을 빠르게 복제할 수 있게 되면서 몇 시간 만에 파생작이 나온다. 원작 디자이너들은 지식재산 도용과 시장 포화를 우려한다.",
+        "tldr": "프레야 홀메르 등 원작 개발자들은 자신의 아이디어가 기술이나 노력 없이도 빠르게 도용·수익화될까 우려한다.",
+        "what": "바이브코딩이 클론 비디오게임 제작 과정을 단순화하며, 개인이 생성형 AI만으로 몇 시간 안에 기존 게임의 저효율 복제품을 만들 수 있게 됐다. 이로 인해 표절 게임 콘셉트 수가 늘고 있다.",
         "points": [
-          "AI로 게임 클론 제작 급단축",
-          "파생작 범람·시장 포화 우려",
-          "지식재산 분쟁 소지"
+          "생성형 AI로 게임 클론 제작 시간 대폭 단축",
+          "표절 게임 콘셉트 증가",
+          "원작 개발자들의 아이디어 도용 우려 확대"
         ],
         "why": [
-          "콘텐츠 진입장벽 붕괴와 저작권 이슈 부각",
-          "게임 개발자·플랫폼의 대응 필요"
+          "바이브코딩이 창작 산업의 지식재산권 문제를 새롭게 제기"
+        ]
+      }
+    },
+    {
+      "id": "dev-guardian-angels-llm",
+      "title": "'가디언 엔젤' - 개인 맞춤형 LLM으로 생산성·보안 동시 확보",
+      "summary": "사용자의 성격·가치관·선호를 학습한 개인화 모델이 여러 AI 에이전트를 안전하게 관리하도록 돕는다.",
+      "source": "gwern.net",
+      "url": "https://gwern.net/guardian-angel?utm_source=tldrdev",
+      "report": {
+        "tldr": "동적 평가와 지속 학습 기법을 통합해 사용자가 명령 실행이 아닌 의미 있는 과업 정의에 집중하도록 한다.",
+        "what": "'가디언 엔젤(GA)' 개념은 개별 사용자의 성격·가치관·선호를 모사하는 고도로 개인화된 언어모델을 만들어 생산성을 높이고 고급 AI 시대의 개인정보를 보호하려는 시도다. 이를 통해 사용자는 복잡한 작업을 위한 다중 AI 에이전트를 관리하면서도 잠재적 위협으로부터 보안을 확보할 수 있다.",
+        "points": [
+          "사용자 개인화 언어모델 개념 'GA' 제안",
+          "동적 평가·지속 학습으로 개인화 강화",
+          "다중 AI 에이전트 관리와 보안을 동시 지향"
+        ],
+        "why": [
+          "개인화 AI가 생산성 도구를 넘어 보안 계층으로 진화할 가능성"
+        ]
+      }
+    },
+    {
+      "id": "dev-cursor-0day",
+      "title": "커서 IDE 제로데이 \"7개월간 미해결, 결국 전면 공개로\"",
+      "summary": "프로젝트 저장소에 심어진 악성 바이너리가 사용자 개입 없이 자동 실행되는 치명적 취약점이다.",
+      "source": "Mindgard",
+      "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left?utm_source=tldrdev",
+      "report": {
+        "tldr": "여러 차례 비공개 제보에도 7개월간 조치되지 않아 결국 전면 공개가 유일한 보호 수단이 됐다.",
+        "what": "커서 IDE의 치명적 취약점은 프로젝트 저장소에 배치된 악성 바이너리가 사용자 상호작용 없이 자동 실행되도록 허용한다. 7개월에 걸친 여러 차례의 비공개 제보에도 조치가 이뤄지지 않아 연구진은 전면 공개로 전환했다.",
+        "points": [
+          "프로젝트 저장소 내 악성 바이너리 자동 실행",
+          "7개월간 미해결 상태 지속",
+          "전면 공개가 사실상 유일한 보호 수단으로 전환"
+        ],
+        "why": [
+          "AI 코딩 IDE의 공급망 보안 취약점이 실질적 위협으로 부상"
+        ],
+        "action": "신뢰할 수 없는 저장소를 커서 IDE로 여는 것을 피하고 최신 보안 패치 확인"
+      }
+    },
+    {
+      "id": "dev-stop-claude-load-bearing",
+      "title": "\"클로드가 자꾸 '로드베어링'이라고 말하는 걸 막는 법\"",
+      "summary": "클로드의 반복적 표현에 대한 불만을 스크립트로 유머러스한 대체 표현으로 바꿔 해소했다.",
+      "source": "jola.dev",
+      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing?utm_source=tldrdev",
+      "report": {
+        "tldr": "\"honest takes\", \"load-bearing\" 같은 클로드의 반복 표현을 스크립트로 치환하는 유머러스한 해법이 소개됐다.",
+        "what": "클로드가 반복적으로 쓰는 특정 표현에 대한 불만을 해소하기 위해, 이런 표현을 재미있는 대체 문구로 바꿔주는 스크립트를 만들 수 있다는 아이디어다.",
+        "points": [
+          "클로드의 반복 표현 문제 지적",
+          "스크립트로 대체 표현 자동 치환",
+          "유머러스한 접근으로 사용자 경험 개선"
+        ]
+      }
+    },
+    {
+      "id": "dev-tower-keeps-rising",
+      "title": "\"AI가 개인 생산성은 높이지만 집단적 이해는 무너뜨린다\"",
+      "summary": "AI 보조 프로그래밍이 개별 역량은 강화하지만 소프트웨어 개발의 협업·조율 기반을 약화시켜 혼란스러운 성장을 야기한다는 지적이다.",
+      "source": "pocoo.org",
+      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/?utm_source=tldrdev",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "소프트웨어 프로젝트의 공유 언어(개념·경계·불변식·소유권에 대한 공통 이해)가 AI로 인해 약화되고 있다.",
+        "what": "이 공유 언어는 문서와 코드뿐 아니라 코드 리뷰, 대화, 논쟁 등 여러 곳에 걸쳐 존재한다. AI는 이 맥락을 이해하는 데 드는 마찰을 크게 줄여주지만, 그 결과 겉보기엔 이상해도 작동은 하는 코드가 늘어나며 인간의 이해라는 마찰 자체가 사라지고 있다.",
+        "points": [
+          "소프트웨어 프로젝트의 '공유 언어' 개념 제시",
+          "AI가 맥락 이해의 마찰을 제거",
+          "이상해 보이지만 작동하는 코드의 증가"
+        ],
+        "why": [
+          "AI 보조 개발이 장기적으로 조직의 집단 지식 관리에 미칠 영향에 대한 경고"
         ]
       }
     },
     {
       "id": "dev-lobsters-sqlite",
-      "title": "lobste.rs, 이제 SQLite로 구동",
-      "summary": "커뮤니티 플랫폼 lobste.rs가 SQLite로 전환해 자원 효율·운영비 절감·성능 개선을 달성했다.",
-      "source": "lobste.rs",
-      "url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite",
-      "originalDate": "2026-07-15",
+      "title": "랍스터즈, SQLite로 이전 완료... CPU·메모리·비용 모두 개선",
+      "summary": "커뮤니티 뉴스 사이트 Lobste.rs가 SQLite 마이그레이션 후 사이트 성능이 전반적으로 향상됐다고 밝혔다.",
+      "source": "Lobste.rs",
+      "url": "https://lobste.rs/s/ko1ji1/lobste_rs_is_now_running_on_sqlite?utm_source=tldrdev",
       "report": {
-        "tldr": "lobste.rs가 SQLite 전환으로 자원 효율과 운영비를 개선했다.",
-        "what": "커뮤니티 플랫폼 lobste.rs가 SQLite로 전환해 자원 효율 향상, 운영비 절감, 전반적 성능 개선을 달성했다.",
+        "tldr": "SQLite 전환으로 CPU·메모리 사용량이 줄고 운영 비용이 낮아지는 동시에 전반적인 사이트 성능도 개선됐다.",
+        "what": "Lobste.rs는 데이터베이스를 SQLite로 성공적으로 마이그레이션했으며, 그 결과 CPU와 메모리 사용량이 개선되고 비용이 절감됐다고 밝혔다.",
         "points": [
-          "SQLite로 전환",
-          "자원 효율·운영비 개선",
-          "성능 지표 향상"
+          "SQLite로 데이터베이스 마이그레이션 완료",
+          "CPU·메모리 사용량 개선",
+          "운영 비용 절감 및 전반적 성능 향상"
         ],
         "why": [
-          "중소 규모 서비스의 SQLite 실전 채택 사례",
-          "단순 스택의 운영 이점 재조명"
-        ]
-      }
-    },
-    {
-      "id": "dev-tower-rising",
-      "title": "타워는 계속 오른다",
-      "summary": "AI 보조 프로그래밍이 개별 개발자 역량을 키우지만 집단적 이해·조율을 파편화해 혼란스러운 성장 패턴을 낳는다.",
-      "source": "lucumr.pocoo.org",
-      "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
-      "originalDate": "2026-07-13",
-      "report": {
-        "tldr": "AI가 개인 역량은 키우지만 팀의 집단적 이해는 파편화시킨다.",
-        "what": "아르민 로나허는 AI 보조 프로그래밍이 개별 개발자 역량을 증폭시키는 동시에 집단적 이해와 조율을 파편화해, 조직에 혼란스러운 성장 패턴을 낳는다고 지적한다.",
-        "points": [
-          "개별 역량 증폭 vs 집단 이해 파편화",
-          "동작하나 이해 어려운 코드",
-          "혼란스러운 조직 성장"
-        ],
-        "why": [
-          "AI 보조 개발의 장기 유지보수 리스크 환기",
-          "생산성 이면의 이해 가능성 저하"
-        ]
-      }
-    },
-    {
-      "id": "dev-claude-load-bearing",
-      "title": "클로드가 'load-bearing'이라고 말하지 못하게 하기",
-      "summary": "스크립트로 클로드의 반복 표현('load-bearing', 'honest takes')을 유머 기반 대체어로 바꿔 반복적 언어 패턴에 대한 불만을 해소한다.",
-      "source": "jola.dev",
-      "url": "https://jola.dev/posts/how-to-stop-claude-from-saying-load-bearing",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "스크립트로 LLM의 상투적 반복 표현을 대체하는 재치 있는 해법.",
-        "what": "스크립트로 클로드가 반복하는 'load-bearing', 'honest takes' 같은 표현을 유머 기반 대체어로 치환해, 반복적 언어 패턴에 대한 사용자 불만을 해소하는 방법을 소개한다.",
-        "points": [
-          "반복 표현 자동 치환 스크립트",
-          "유머 기반 대체어",
-          "LLM 상투어 불만 해소"
-        ],
-        "why": [
-          "LLM 출력 후처리·톤 조정의 실용 팁",
-          "에이전트 UX 커스터마이징 사례"
+          "중소 규모 트래픽 사이트에서 SQLite의 실전 적용 사례로 참고할 만함"
         ]
       }
     }

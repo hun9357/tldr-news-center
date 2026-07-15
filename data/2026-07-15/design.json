@@ -7,211 +7,270 @@
   "items": [
     {
       "id": "design-tinder-rebrand",
-      "title": "틴더, 10년 만의 첫 리브랜드… '연애 칼럼니스트'의 목소리",
-      "summary": "틴더가 더 대담한 비주얼과 연애 칼럼니스트풍 편집 보이스를 도입했다. 불꽃 아이콘·타이포·컬러를 새로 하고 진정성 있는 사진과 문화 레퍼런스로 'Gen Z의 모순'을 끌어안는다.",
+      "title": "틴더, 10년 만의 첫 리브랜딩... 연애 칼럼니스트의 목소리를 입다",
+      "summary": "대담한 비주얼 아이덴티티와 데이팅 칼럼니스트 특유의 위트 있는 편집 톤을 결합했다.",
       "source": "It's Nice That",
-      "url": "https://www.itsnicethat.com/features/porto-rocha-tinder-rebrand-graphic-design-spotlight-140726",
-      "originalDate": "2026-07-14",
+      "url": "https://www.itsnicethat.com/features/porto-rocha-tinder-rebrand-graphic-design-spotlight-140726?utm_source=tldrdesign",
       "report": {
-        "tldr": "틴더가 대담한 비주얼과 편집 보이스로 Gen Z의 모순을 끌어안는 리브랜드.",
-        "what": "틴더가 거의 10년 만의 리브랜드로 더 대담한 비주얼과 연애 칼럼니스트에서 영감받은 편집 보이스를 도입했다. 불꽃 아이콘·타이포그래피·컬러 팔레트를 새로 하고, 진부한 이미지 대신 진정성 있는 사진과 문화 레퍼런스로 'Gen Z의 모순'을 표현한다.",
+        "tldr": "틴더는 진부한 데이트 이미지 대신 실제 사진·은유적 비주얼·문화적 레퍼런스를 섞어 다양한 연결의 방식을 담아냈다.",
+        "what": "리브랜딩은 상징적인 불꽃 로고, 타이포그래피, 컬러 팔레트, 스와이프 인터랙션을 새단장하며 Z세대의 모순을 단순화하지 않고 그대로 끌어안았다. 브랜드는 현대 데이팅을 위한 위트 있고 공감 어린 가이드로 자리매김을 노린다.",
         "points": [
-          "불꽃 아이콘·타이포·컬러 전면 개편",
-          "연애 칼럼니스트풍 편집 보이스",
-          "진정성 사진·문화 레퍼런스 활용"
+          "10년 만의 첫 리브랜딩",
+          "데이팅 칼럼니스트풍 편집 보이스 도입",
+          "진부한 클리셰 대신 실사진·은유·문화적 레퍼런스 활용"
         ],
         "why": [
-          "데이팅 브랜드의 톤앤매너가 편집·문화 코드로 이동",
-          "Gen Z 타깃 브랜딩의 진정성 전략 사례"
+          "Z세대의 복합적 데이팅 문화를 반영한 브랜드 재정의 사례"
         ]
       }
     },
     {
-      "id": "design-openai-jony-ive",
-      "title": "OpenAI가 애플을 조니 아이브와 껄끄러운 싸움으로 몰 수 있다",
-      "summary": "애플의 OpenAI 소송이 io Products에 몸담은 조니 아이브의 증언을 부를 수 있다. 애플이 가장 존경받던 전직 임원을 반박해야 하는 긴장이 생긴다.",
-      "source": "9to5Mac",
-      "url": "https://9to5mac.com/2026/07/13/openai-could-force-apple-into-an-awkward-fight-with-jony-ive/",
-      "originalDate": "2026-07-13",
-      "report": {
-        "tldr": "소송이 조니 아이브를 증언대에 세워 애플에 껄끄러운 대치를 만든다.",
-        "what": "애플의 OpenAI 소송이 io Products에서 활동 중인 조니 아이브의 증언을 요구할 수 있다. 애플이 '가장 존경받던 전직 임원'을 반박해야 하는 상황이 되어 양측 관계가 복잡해진다.",
-        "points": [
-          "조니 아이브 증언 가능성",
-          "애플, 전직 스타 임원과 대치",
-          "디자인 아이콘을 둘러싼 법적 긴장"
-        ],
-        "why": [
-          "하드웨어·디자인 인재를 둘러싼 빅테크 갈등 상징",
-          "OpenAI 첫 디바이스 공개와 맞물린 리스크"
-        ]
-      }
-    },
-    {
-      "id": "design-meta-eu-addictive",
-      "title": "메타, EU법 위반 판정… 인스타·페북 '중독적' 디자인",
-      "summary": "유럽집행위가 무한 스크롤·자동재생 등 사용자 웰빙을 해치는 디자인으로 메타가 디지털서비스법을 위반했다고 판정했다. 메타는 반박했고 올해 두 번째 위반이다.",
+      "id": "design-meta-eu-addictive-design",
+      "title": "EU \"메타, '중독성' 인스타·페북 디자인으로 법 위반\" 예비 판정",
+      "summary": "무한스크롤·자동재생·푸시알림·개인화 추천이 신체·정신 건강에 미치는 위험 평가를 소홀히 했다는 지적이다.",
       "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html",
+      "url": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html?utm_source=tldrdesign",
       "originalDate": "2026-07-10",
       "report": {
-        "tldr": "EU가 무한 스크롤·자동재생을 '중독적 디자인'으로 규정해 DSA 위반 판정.",
-        "what": "유럽집행위원회가 무한 스크롤·자동재생 같은 기능이 사용자 웰빙을 해친다며 메타가 디지털서비스법(DSA)을 위반했다고 판정했다. 메타는 10대 계정 제한 등을 들어 반박했으며, 올해 두 번째 EU 위반이다.",
+        "tldr": "유럽연합집행위원회는 메타가 디지털서비스법(DSA)을 위반해 '중독성' 설계 위험 평가를 하지 않았다고 예비 판정했다.",
+        "what": "지목된 기능은 무한스크롤, 자동재생, 푸시알림, 개인화 추천이다. 메타는 10대 계정의 화면시간 제한 같은 조치를 들어 반박했다. 이는 올해 두 번째 EU 규정 위반 판정으로, 앞서 아동안전 위반 판정과 미국 법원 판결도 있었다.",
         "points": [
-          "무한 스크롤·자동재생을 '중독적 디자인'으로 규정",
-          "DSA 위반 판정",
-          "메타 반박·올해 두 번째 위반"
+          "무한스크롤·자동재생·푸시알림·개인화 추천 지목",
+          "메타는 반박하며 10대 화면시간 제한 등 강조",
+          "올해 두 번째 EU 규정 위반 판정"
         ],
         "why": [
-          "다크패턴·인게이지먼트 디자인이 규제 표적으로",
-          "제품 UX 설계에 규제 리스크 반영 필요"
+          "플랫폼 UX 설계에 대한 규제 압박이 구체적 제재로 이어지는 흐름"
         ]
       }
     },
     {
-      "id": "design-interface-left",
-      "title": "인터페이스가 건물을 떠났다",
-      "summary": "UX가 화면 기반에서 AI로 구동되는 '의도 중심' 경험으로 이동한다. 채팅·음성·자율 에이전트 속에서 디자이너는 투명성·사용자 통제·명확한 시스템 동작으로 신뢰를 설계해야 한다.",
-      "source": "UX Design",
-      "url": "https://uxdesign.cc/the-interface-has-left-the-building-8fdb558d33a9",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "화면 중심 UX가 저물고 '의도 중심·에이전트' 경험 설계가 부상한다.",
-        "what": "UX 디자인이 화면 기반 인터페이스에서 채팅·음성·자율 에이전트로 구동되는 '의도 중심' 경험으로 이동하고 있다. AI가 더 많은 책임을 맡는 만큼 디자이너는 투명성, 사용자 통제, 명확한 시스템 동작으로 신뢰를 설계해야 한다.",
-        "points": [
-          "화면 → 의도 중심·에이전트 경험 전환",
-          "채팅·음성 인터페이스 부상",
-          "투명성·통제·명확성으로 신뢰 설계"
-        ],
-        "why": [
-          "AI 시대 UX의 역할 재정의",
-          "디자이너의 초점이 화면에서 신뢰·행동 예측으로 이동"
-        ]
-      }
-    },
-    {
-      "id": "design-founding-designer",
-      "title": "AI 스타트업, 창립 디자이너를 처음부터 전략적 채용으로",
-      "summary": "창립 디자이너가 AI 스타트업의 초기 전략적 채용이 되어 제품과 브랜드를 통합해야 한다. 소프트웨어 제작이 쉬워질수록 차별화는 기술보다 브랜드 일관성·신뢰에 달린다.",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/tingyu-su-founding-designer-ai-startups-strategic-hire",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "소프트웨어가 값싸질수록 차별화는 브랜드·신뢰, 즉 창립 디자이너에게 달린다.",
-        "what": "창립 디자이너를 AI 스타트업의 초기 전략적 채용으로 삼아 제품과 브랜드를 통합해야 한다는 주장이다. 소프트웨어 제작이 쉬워질수록 지속적 차별화는 기술이 아니라 '브랜드 일관성과 신뢰'에서 나온다.",
-        "points": [
-          "창립 디자이너 = 초기 전략적 채용",
-          "제품·브랜드 통합 역할",
-          "차별화는 기술보다 브랜드·신뢰"
-        ],
-        "why": [
-          "AI로 기능 복제가 쉬워진 시대의 차별화 전략",
-          "디자인의 전략적 위상 상승"
-        ]
-      }
-    },
-    {
-      "id": "design-trust-human",
-      "title": "결국 사람은 의사결정 뒤의 '인간'을 신뢰해야 한다",
-      "summary": "빈약한 리더십은 AI를 디자이너 대체재로 프레이밍하지만, 효과적 도입은 협업 워킹그룹을 통해 창의성 시간을 늘리면서 인간의 판단과 크래프트를 지킨다.",
-      "source": "It's Nice That",
-      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-140726",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "AI는 디자이너 대체재가 아니라 창의성 시간을 늘리는 도구여야 한다.",
-        "what": "빈약한 리더십은 AI를 디자이너 대체재로 프레이밍하지만, 효과적 도입은 협업 워킹그룹을 통해 '창의성을 위한 시간'을 늘리면서 인간의 판단과 크래프트를 보존한다는 관점이다.",
-        "points": [
-          "AI를 대체재로 보는 리더십의 오류",
-          "협업 워킹그룹 통한 사려 깊은 도입",
-          "인간 판단·크래프트 보존"
-        ],
-        "why": [
-          "창작 조직의 AI 도입 철학 제시",
-          "효율화와 인간 중심 가치의 양립"
-        ]
-      }
-    },
-    {
-      "id": "design-accessibility-ai",
-      "title": "AI 시대의 접근성",
-      "summary": "AI가 접근성 테스트·지원을 가속하는 동시에, 문서화된 웹 접근성 오류 증가도 함께 부추긴다.",
-      "source": "Tetralogical",
-      "url": "https://tetralogical.com/blog/2026/07/13/accessibility-in-the-age-of-ai/",
+      "id": "design-openai-apple-jony-ive",
+      "title": "오픈AI-애플 소송, 조니 아이브를 법정으로 부를 수도",
+      "summary": "애플이 아이브를 직접 지목하지 않은 소송이지만, 오픈AI가 그를 증인으로 세울 가능성이 있다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/07/13/openai-could-force-apple-into-an-awkward-fight-with-jony-ive/?utm_source=tldrdesign",
       "originalDate": "2026-07-13",
       "report": {
-        "tldr": "AI는 접근성 지원을 돕는 동시에 접근성 오류도 늘리는 양날의 검이다.",
-        "what": "AI가 접근성 테스트와 지원을 가속하는 한편, 웹사이트의 접근성 오류 증가도 함께 부추긴다는 분석이다.",
+        "tldr": "아이브가 오픈AI 편에서 증언할 경우 애플은 자사 출신의 상징적 전 임원과 법정에서 맞서야 하는 난처한 상황에 놓일 수 있다.",
+        "what": "애플의 영업비밀 소송은 전 디자인 총괄 조니 아이브의 이름을 신중히 피하고 있지만, 소송의 핵심인 하드웨어 회사 io Products 공동창업자라는 그의 역할 때문에 오픈AI가 그를 증인으로 소환할 수 있다. 아이브는 퇴사 이후 애플과 우호적 관계를 유지해왔지만, 이번 증언이 양사와의 관계를 모두 긴장시킬 수 있다.",
         "points": [
-          "AI가 접근성 테스트·지원 가속",
-          "동시에 접근성 오류 증가",
-          "자동화의 명암 공존"
+          "애플 소송문에서 아이브 이름은 직접 언급 안 됨",
+          "io Products 공동창업 이력으로 증언 소환 가능성",
+          "아이브-애플 관계 긴장 우려"
         ],
         "why": [
-          "AI 생성 UI의 접근성 품질 관리 필요",
-          "디자이너·개발자의 검증 책임 강조"
+          "AI 하드웨어 경쟁이 실리콘밸리 인맥 구도까지 흔드는 사례"
         ]
       }
     },
     {
-      "id": "design-brand-strategy-visual",
-      "title": "킥오프에서 첫 컨셉까지: 브랜드 전략을 비주얼 방향으로",
-      "summary": "브랜딩의 성패는 모호한 용어가 '구체적·실행 가능한 방향'이 되는 컨셉 이전 단계에서 갈린다. 체크리스트로 컨셉 전 가정 해소를 확인한다.",
-      "source": "Smashing Magazine",
-      "url": "https://www.smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "브랜딩은 컨셉 이전, 전략을 구체적 방향으로 번역하는 단계에서 성패가 갈린다.",
-        "what": "성공적 브랜딩은 모호한 용어가 리서치·이해관계자 훈련을 통해 '구체적이고 실행 가능한 방향'이 되는 컨셉 이전 단계에서 결정된다. 체크리스트로 컨셉 설계 전 가정을 해소하도록 돕는다.",
-        "points": [
-          "컨셉 이전 단계가 성패 좌우",
-          "모호함 → 구체적 방향으로 번역",
-          "체크리스트로 가정 해소"
-        ],
-        "why": [
-          "브랜드 전략-비주얼 간극을 메우는 실무 방법론",
-          "디자인 착수 전 정렬의 중요성"
-        ]
-      }
-    },
-    {
-      "id": "design-toolkit",
-      "title": "디자인 툴킷을 디자인하기: 성공적 워크숍의 숨은 설계",
-      "summary": "디자인 툴킷은 워크숍에서 경계 객체·리서치 인프라·종합 산출물로 작동하는 협업 동력이다. 세심하게 설계된 경험이 협업의 성격 자체를 형성한다.",
+      "id": "design-toolkit-hidden-design",
+      "title": "\"성공적인 워크숍 뒤에는 숨겨진 툴킷 디자인이 있다\"",
+      "summary": "D4L 툴킷, MIT 에이지랩 롱제비티 플래닝 블록 등을 통해 툴킷이 협업의 형태를 어떻게 빚어내는지 조명했다.",
       "source": "Design Wanted",
-      "url": "https://designwanted.com/design-toolkit-hidden-design-behind-workshops/",
-      "originalDate": "2026-07-15",
+      "url": "https://designwanted.com/design-toolkit-hidden-design-behind-workshops/?utm_source=tldrdesign",
       "report": {
-        "tldr": "잘 설계된 툴킷이 워크숍 협업의 성격 자체를 좌우한다.",
-        "what": "디자인 툴킷은 워크숍에서 경계 객체, 리서치 인프라, 종합 산출물로 기능하는 핵심 협업 동력이다. 세심하게 설계된 이 경험이 참가자들이 도착하기 전부터 협업의 성격을 형성한다.",
+        "tldr": "디자인 툴킷은 참여자가 방에 들어오기 전부터 협업의 형태를 결정짓는 숨은 요소다.",
+        "what": "툴킷은 세 가지 역할을 한다. 공유 참여를 가능케 하는 경계 오브젝트, 진화하는 사고를 기록하는 리서치 인프라, 아이디어를 실체화하는 종합 아티팩트다. 궁극적으로 툴킷은 단순한 재료가 아니라 협업의 성격 자체를 빚어내는 신중하게 설계된 경험으로 재정의된다.",
         "points": [
-          "툴킷 = 경계 객체·리서치·종합 산출물",
-          "협업 동력으로 작동",
-          "설계가 협업 성격 결정"
+          "경계 오브젝트로서 공유 참여 촉진",
+          "리서치 인프라로서 사고 과정 기록",
+          "종합 아티팩트로서 아이디어 실체화"
         ],
         "why": [
-          "워크숍·퍼실리테이션 설계의 전략적 가치",
-          "협업 결과물 품질의 숨은 변수"
+          "워크숍 설계에서 물리적 도구의 전략적 가치를 재조명"
         ]
       }
     },
     {
-      "id": "design-threetenseven-health",
-      "title": "ThreeTenSeven, 미래건강연구 리브랜드로 관습에 도전",
-      "summary": "진화하는 헬스케어 십자가, 픽셀풍 타이포, 대담한 컬러로 전형적 헬스케어 미감을 피한다. 건강정책 기관의 '미래 성장용 유연 시스템'을 만든다.",
-      "source": "Design Week",
-      "url": "https://www.designweek.co.uk/threetensevens-dynamic-rebrand-for-future-health-research-challenges-conventions/",
-      "originalDate": "2026-07-15",
+      "id": "design-trust-human-decision-making",
+      "title": "\"AI가 문제가 아니라 리더십의 메시징이 문제\"",
+      "summary": "AI를 디자이너 대체가 아닌 반복 작업 제거와 창의적 시간 확보의 도구로 프레이밍해야 한다는 조언이다.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-advice-130726?utm_source=tldrdesign",
       "report": {
-        "tldr": "전형적 헬스케어 미감을 벗어난 유연한 리브랜드 시스템.",
-        "what": "ThreeTenSeven의 리브랜드는 진화하는 헬스케어 십자가, 픽셀에서 영감받은 타이포그래피, 대담한 컬러로 전형적 헬스케어 미감을 피한다. 건강정책 기관을 위한 '미래 성장용 유연 시스템'을 만들어 차별화한다.",
+        "tldr": "AI를 창의 전문가 대체가 아닌 지원 도구로 포지셔닝하는 신중한 도입이 요구된다.",
+        "what": "리더는 실무 개선점을 파악할 워킹그룹을 구성해 두려움 대신 협업을 이끌어내야 한다는 것이다. 인간의 판단력, 크래프트, 스토리텔링은 여전히 필수적이며 기업은 AI를 창의 전문가를 대체하는 게 아니라 지원하는 방향으로 활용해야 한다.",
         "points": [
-          "진화하는 헬스케어 십자가 모티프",
-          "픽셀풍 타이포·대담한 컬러",
-          "미래 성장용 유연 시스템"
+          "AI 도입을 위한 워킹그룹 구성 제안",
+          "인간 판단력·크래프트·스토리텔링의 지속적 중요성",
+          "AI는 대체가 아닌 지원 도구로 포지셔닝"
         ],
         "why": [
-          "보수적 산업의 브랜드 차별화 사례",
-          "유연한 아이덴티티 시스템 설계 트렌드"
+          "AI 시대 창의 인력 관리에 대한 리더십 조언"
+        ]
+      }
+    },
+    {
+      "id": "design-interface-left-building",
+      "title": "\"인터페이스가 건물을 떠났다\" - UX의 다음 패러다임",
+      "summary": "화면 중심 인터페이스 설계에서 사용자 의도 중심 설계로, 채팅·음성·자율 에이전트가 새 상호작용 패러다임을 이끈다.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/TAIYMk",
+      "report": {
+        "tldr": "AI가 대신 작업을 완수하는 시대, 디자이너는 화면보다 신뢰 구축에 집중해야 한다.",
+        "what": "모호한 목표를 탐색하는 채팅, 맥락적이고 손 없이 쓰는 음성, 사용자를 대신해 작업을 완수하는 자율 에이전트라는 세 가지 새 상호작용 패러다임이 부상하고 있다. AI가 더 많은 책임을 맡으면서 디자이너는 개별 화면보다 투명성·사용자 통제·명확한 시스템 행동을 통한 신뢰 구축에 집중해야 한다. 핵심 목표는 여전히 사용자가 이해받고, 능력 있고, 통제하고 있다고 느끼게 하는 것이다.",
+        "points": [
+          "채팅·음성·자율 에이전트라는 세 상호작용 패러다임",
+          "화면 설계에서 신뢰 구축으로 초점 이동",
+          "핵심 목표는 변함없이 사용자 경험의 이해·통제감"
+        ],
+        "why": [
+          "UX 디자인 직무 자체의 정의가 AI로 인해 재편되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-flodesk-studio",
+      "title": "플로데스크 스튜디오, AI 이메일 디자인 실험 플레이그라운드 공개",
+      "summary": "가장 빠르고 쉽게 브랜드에 맞는 이메일을 만들 수 있는 실험적 도구다.",
+      "source": "Flodesk",
+      "url": "https://studio.flodesk.com/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "플로데스크 스튜디오는 브랜드에 맞는 이메일을 가장 빠르게 만드는 실험적 플레이그라운드다.",
+        "what": "플로데스크 스튜디오는 사용자가 자사 브랜드에 맞춰 빠르고 쉽게 이메일을 제작할 수 있도록 돕는 실험적 도구다.",
+        "points": [
+          "브랜드 맞춤 이메일 신속 제작",
+          "실험적 플레이그라운드 형태"
+        ]
+      }
+    },
+    {
+      "id": "design-ai-search-apps",
+      "title": "\"앱으로 답하는\" AI 검색엔진 등장",
+      "summary": "무엇을 검색하든 여행 플래너, 레시피 파인더, 무드보드 등 인터랙티브 앱 형태의 답을 받을 수 있다.",
+      "source": "TLDR Design",
+      "url": "https://justvibe.com/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "정적 텍스트 답변 대신 바로 쓸 수 있는 인터랙티브 앱으로 검색 결과를 제공하는 서비스다.",
+        "what": "사용자가 무엇을 검색하든 여행 플래너, 레시피 파인더, 무드보드 등 즉시 활용 가능한 인터랙티브 앱 형태의 답변을 받게 된다.",
+        "points": [
+          "검색 결과를 인터랙티브 앱으로 제공",
+          "여행·레시피·무드보드 등 다양한 활용"
+        ]
+      }
+    },
+    {
+      "id": "design-react-video-editor",
+      "title": "리액트 비디오 에디터, 프로덕션급 오픈소스 툴킷 공개",
+      "summary": "개발자가 리액트로 강력한 비디오 편집 앱을 구축할 수 있도록 돕는 프로덕션 레디 툴킷이다.",
+      "source": "React Video Editor",
+      "url": "https://www.reactvideoeditor.com/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "리액트 비디오 에디터는 개발자용 프로덕션급 비디오 편집 앱 구축 툴킷이다.",
+        "what": "개발자가 리액트를 이용해 강력한 비디오 편집 애플리케이션을 손쉽게 구축할 수 있도록 지원한다.",
+        "points": [
+          "리액트 기반 비디오 편집 툴킷",
+          "프로덕션 레디 수준의 완성도"
+        ]
+      }
+    },
+    {
+      "id": "design-brand-strategy-to-visual",
+      "title": "\"로고 전 단계'가 브랜드 디자인의 성패를 가른다\"",
+      "summary": "'모던'이나 '파괴적' 같은 모호한 단어를 구체적이고 실행 가능한 방향으로 정의하는 프리컨셉 단계가 핵심이다.",
+      "source": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "경쟁사 매핑, 비주얼 브랜드 드라이버 같은 이해관계자 워크숍을 거쳐 룩앤필 보드와 디자인 코드로 전환하는 과정이 소개됐다.",
+        "what": "타겟 인지 질문으로 브랜드 맥락을 리서치하고, 경쟁사 매핑·비주얼 브랜드 드라이버 같은 이해관계자 워크숍을 진행한 뒤, 이를 공유된 이해로 번역해 룩앤필 보드·디자인 코드·초기 브랜드 자산 선택으로 이어간다. 체크리스트로 숨은 가정을 해소했는지, 경계에 합의했는지 확인해 팀의 짐작이 아닌 공유된 방향에서 첫 컨셉이 나오도록 한다.",
+        "points": [
+          "타겟 인지 질문으로 브랜드 맥락 리서치",
+          "경쟁사 매핑 등 이해관계자 워크숍 진행",
+          "체크리스트로 숨은 가정·경계 합의 확인"
+        ],
+        "why": [
+          "로고 제작 이전 단계의 체계적 프로세스가 브랜드 성패를 좌우"
+        ]
+      }
+    },
+    {
+      "id": "design-founding-designer-strategic-hire",
+      "title": "\"AI 스타트업일수록 창업 디자이너를 전략적 초기 채용으로\"",
+      "summary": "제품·브랜딩·고객 경험을 하나로 묶는 창업 디자이너가 초기부터 필요하다는 주장이다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/tingyu-su-founding-designer-ai-startups-strategic-hire?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI로 소프트웨어 제작이 쉬워질수록 지속적 차별화는 기술이 아닌 브랜드 일관성과 신뢰에서 나온다.",
+        "what": "창업 초기부터 제품·브랜딩·고객 경험을 통합할 디자이너를 전략적으로 채용해야 한다는 주장이다. 창업자들은 '최소 사랑받는 제품(Minimum Lovable Product)'을 추구하고, 호기심·적응력·다분야 기여력을 갖춘 디자이너를 채용할 것을 권장받는다.",
+        "points": [
+          "창업 디자이너를 전략적 초기 채용으로 규정",
+          "'최소 사랑받는 제품' 추구 전략",
+          "호기심·적응력 중심 디자이너 채용 기준"
+        ],
+        "why": [
+          "AI 시대 차별화의 원천이 기술에서 브랜드·경험으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "design-threetenseven-health-rebrand",
+      "title": "쓰리텐세븐, 퓨처헬스리서치 리브랜딩으로 관행 깨기",
+      "summary": "헬스케어 특유의 파란·초록 팔레트를 벗어나 픽셀 타이포그래피와 헬스크로스-FH 모노그램을 결합했다.",
+      "source": "Design Week",
+      "url": "https://www.designweek.co.uk/threetensevens-dynamic-rebrand-for-future-health-research-challenges-conventions/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "관행적이고 학술적인 헬스케어 아이덴티티 사이에서 눈에 띄기 위한 유연한 확장형 브랜드 시스템을 구축했다.",
+        "what": "새 아이덴티티는 헬스케어 크로스가 FH 모노그램으로 진화하는 형태, 데이터 기반 리서치를 상징하는 픽셀 영감 타이포그래피, 커스텀 일러스트, 전형적 헬스케어 블루·그린을 피한 과감한 컬러 팔레트를 갖췄다.",
+        "points": [
+          "헬스케어 크로스→FH 모노그램 진화 로고",
+          "픽셀 영감 타이포그래피",
+          "전형적 블루·그린 대신 과감한 컬러 팔레트"
+        ],
+        "why": [
+          "보수적인 헬스케어 정책 분야에서의 브랜드 차별화 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-accessibility-age-of-ai",
+      "title": "AI 시대의 접근성, 빨라진 테스트와 늘어난 오류가 공존",
+      "summary": "AI가 접근성 테스트와 코딩 지원을 가속화하는 동시에 웹사이트 전반의 접근성 오류 증가도 함께 나타나고 있다.",
+      "source": "TetraLogical",
+      "url": "https://tetralogical.com/blog/2026/07/13/accessibility-in-the-age-of-ai/?utm_source=tldrdesign",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "AI가 접근성 작업을 재편하며 속도는 높이지만 검증된 오류 증가 데이터도 함께 제시됐다.",
+        "what": "AI 도구는 접근성 테스트와 코딩 지원 속도를 크게 높이고 있지만, 동시에 웹사이트 전반에서 접근성 오류가 늘어나고 있다는 데이터가 함께 보고됐다.",
+        "points": [
+          "AI로 접근성 테스트·코딩 속도 향상",
+          "웹사이트 접근성 오류 증가 추세 확인"
+        ],
+        "why": [
+          "AI 생산성 향상이 품질 저하와 동시에 나타날 수 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "design-marvel-cosmic-invasion-logo",
+      "title": "\"더럽고 유기적인 곤충형 로고\" 탄생기 - 마블 코스믹 인베이전",
+      "summary": "레트로퓨처리즘 폰트와 빌런 애니힐러스를 연상케 하는 곤충형 워드마크를 결합한 제작 과정이 공개됐다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/logos-icons/how-a-designer-created-the-dirty-organic-insectoid-logo-for-marvel-cosmic-invasion?utm_source=tldrdesign",
+      "report": {
+        "tldr": "디자이너 마르도크가 'Cosmic'의 레트로퓨처 커스텀 폰트와 'Invasion'의 곤충형 워드마크를 결합한 제작기를 공유했다.",
+        "what": "디자이너 스테판 페레즈(마르도크)는 마블 코스믹 인베이전 로고 제작 과정을 설명하며, 'Cosmic'에는 레트로퓨처리즘 커스텀 폰트를, 'Invasion'에는 빌런 애니힐러스를 연상케 하는 지저분한 곤충형 워드마크를 적용했다고 밝혔다.",
+        "points": [
+          "'Cosmic'에 레트로퓨처리즘 커스텀 폰트 적용",
+          "'Invasion'에 곤충형 워드마크 적용",
+          "빌런 애니힐러스에서 영감을 얻은 디자인"
+        ]
+      }
+    },
+    {
+      "id": "design-liqoria-mac-music-player",
+      "title": "리쿼리아, 애플뮤직·스포티파이·유튜브 통합 맥 뮤직 플레이어",
+      "summary": "애플 뮤직, 스포티파이, 유튜브, 브라우저 재생을 하나의 커스터마이즈 가능한 인터페이스로 통합했다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/computing/this-app-gives-your-mac-a-music-player-youll-actually-enjoy-using/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "리쿼리아는 여러 음악 서비스를 하나로 통합한 커스터마이즈 가능한 맥 뮤직 플레이어다.",
+        "what": "리쿼리아는 애플뮤직·스포티파이·유튜브·브라우저 재생 컨트롤을 하나로 통합한 커스터마이즈 가능한 인터페이스를 제공, 애플 기본 뮤직 앱보다 더 강력한 대안으로 소개됐다.",
+        "points": [
+          "여러 음악 서비스 통합 컨트롤",
+          "커스터마이즈 가능한 인터페이스",
+          "애플 뮤직 앱 대비 강력한 대안"
         ]
       }
     }

@@ -1,10 +1,10 @@
 {
   "date": "2026-07-15",
   "weekday": "수",
-  "headline": "OpenAI, 첫 디바이스로 '화면 없는 AI 컴패니언 스피커' 공개",
-  "subtitle": "MS 패치화요일 역대 최대 622건·제로데이 2건, 뉴욕 미국 첫 AI 데이터센터 금지, 애플-OpenAI 소송이 하드웨어 전략 압박",
-  "keyword": "OpenAI 디바이스 · AI 비용 · 제로데이 · AI 규제",
-  "bigStoryId": "tech-openai-device",
+  "headline": "오픈AI, 화면 없는 첫 가정용 AI 기기 공개",
+  "subtitle": "애플-오픈AI 소송에 조니 아이브 증언 가능성 · 딥시크 710억달러 밸류 IPO 준비 · 뉴욕주 美 최초 AI 데이터센터 건설 한시 금지",
+  "keyword": "오픈AI 첫 기기 · 애플 vs OpenAI · 딥시크 IPO · AI 데이터센터 규제",
+  "bigStoryId": "tech-openai-first-device",
   "editions": [
     "tech",
     "ai",
@@ -12,41 +12,36 @@
     "it",
     "crypto",
     "dev",
+    "devops",
     "design",
-    "marketing"
+    "marketing",
+    "founders"
   ],
-  "lastUpdated": "09:14 CDT",
-  "syncedAt": "09:14",
-  "subscribers": 128842,
-  "market": {
-    "index": "S&P 500",
-    "value": "7,543.59",
-    "change": "▲ 0.38%"
-  },
+  "lastUpdated": "08:52 CDT",
+  "syncedAt": "08:52",
   "stats": {
-    "companies": 24,
-    "security": 16,
-    "deals": 5,
+    "companies": 39,
+    "security": 22,
+    "deals": 7,
     "policy": 6
   },
   "signals": [
     {
       "kind": "primary",
-      "title": "MS 패치화요일 역대 최대 + 제로데이 2건 실제 악용",
-      "body": "마이크로소프트가 7월 패치 화요일에 622개 취약점을 수정하며 6월 기록을 세 배로 경신했다. ADFS·SharePoint 제로데이 2건이 이미 악용 중이고, SonicWall SMA1000 제로데이와 Entra OAuth 클라이언트 ID 스푸핑까지 겹쳐 인증·협업 인프라 노출면이 급격히 커졌다.",
-      "severity": "8.4",
-      "velocity": "Rising",
-      "action": "ADFS·SharePoint·SMA1000 제로데이 우선 패치, OAuth 모니터링·MFA 강화"
+      "title": "오픈AI 첫 하드웨어, 애플 소송 그늘 속 공개",
+      "body": "오픈AI가 화면 없는 이동식 AI 스피커를 첫 소비자 기기로 준비 중이라는 보도가 나왔다. 동시에 애플의 영업비밀 소송이 전 애플 디자인 총괄 조니 아이브를 증인석에 세울 수 있다는 분석이 나오며, 오픈AI의 하드웨어 로드맵이 법적 리스크에 노출돼 있다는 우려도 커지고 있다.",
+      "action": "AI 하드웨어 공급망·특허 관련 리스크를 다루는 기업은 관련 소송 진행 상황 추적 필요"
     },
     {
       "kind": "market",
-      "title": "S&P 500, CPI 둔화에 기술주 주도 반등",
-      "body": "소비자물가 둔화 신호에 기술주가 앞장서며 S&P 500이 7,543.59로 0.38% 올랐다. 다만 뉴욕의 미국 첫 AI 데이터센터 건설 금지와 13개 주 전력비 63억 달러 증가 전망은 AI 인프라 비용·규제 부담을 키우는 역풍이다."
+      "title": "크립토 시장, BTC 2%대 조정 속 스테이블코인 재편",
+      "body": "비트코인이 24시간 새 2% 넘게 조정받은 가운데, 스트래티지는 지분 매도로 현금을 확충하면서도 84만3775 BTC 트레저리는 유지했다. 서클은 미즈호가 목표가를 41% 낮추는 등 오픈USD 컨소시엄발 USDC 수익모델 압박에 직면했다.",
+      "action": "스테이블코인 준비금 수익 배분 구도 변화를 주시할 필요"
     },
     {
       "kind": "watchlist",
       "title": "다음 48시간 모니터링",
-      "body": "OpenAI의 화면 없는 컴패니언 디바이스 공개와 애플 소송(조니 아이브 증언 가능성) 전개, Sol 모델의 자율 파일 삭제 리스크, ShinyHunters의 세일즈포스 OAuth 캠페인 확산 여부를 추적한다."
+      "body": "딥시크의 15억달러 투자 유치·IPO 타임라인 구체화 여부, 애플-오픈AI 소송에서 조니 아이브 증언 소환 여부, 뉴욕주 AI 데이터센터 건설 금지의 업계 반응, 마이크로소프트 7월 패치 튜즈데이(622건, 실공격 제로데이 2건 포함)의 후속 익스플로잇 확산 여부를 추적."
     }
   ]
 }

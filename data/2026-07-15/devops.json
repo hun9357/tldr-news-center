@@ -1,0 +1,230 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-argocd-2026-survey",
+      "title": "아르고CD 2026 사용자 설문, NPS 73.4점 기록",
+      "summary": "269명 응답 기준 애플리케이션셋과 AI/ML 배포 활용이 늘고 환경 승격 자동화도 증가했다.",
+      "source": "Argo Project Blog",
+      "url": "https://blog.argoproj.io/argo-cd-2026-user-survey-results-dcffc9a8e48e?utm_source=tldrdevops",
+      "report": {
+        "tldr": "강한 채택세를 보였지만 대규모 배포 확장과 릴리스 게이트, 표준화된 파이프라인은 여전히 성숙 조직의 숙제로 남았다.",
+        "what": "아르고CD의 2026년 설문 269명 응답에서 순추천지수(NPS) 73.4점을 기록했다. 애플리케이션셋과 AI/ML 배포 활용이 늘었고 환경 승격 자동화도 증가하는 추세가 확인됐다.",
+        "points": [
+          "NPS 73.4점, 강한 채택세 확인",
+          "애플리케이션셋·AI/ML 배포 활용 증가",
+          "대규모 배포 확장·환경 모델링이 여전한 과제"
+        ],
+        "why": [
+          "GitOps 도구 채택 현황을 보여주는 업계 벤치마크 데이터"
+        ]
+      }
+    },
+    {
+      "id": "devops-dnssec-al-outage",
+      "title": ".AL 도메인 다운시킨 DNSSEC 롤오버 사고, 클라우드플레어 새 오류코드로 대응",
+      "summary": "알바니아 국가도메인이 키 롤오버 실패로 검증 리졸버 사용자에게 접속 불가 상태가 됐다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/dnssec-nta-ede-33/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "클라우드플레어 1.1.1.1이 부정 신뢰 앵커를 설치해 접속을 복구하고, DNSSEC 우회 시점을 알리는 확장 DNS 오류 코드 EDE 33을 최초 도입했다.",
+        "what": "7월 3일 알바니아 최상위 도메인(.AL)이 잘못된 키 롤오버로 DNSSEC 검증 실패를 겪으며, 검증 리졸버를 쓰는 사용자들에게 몇 시간 동안 전체 TLD가 접속 불가 상태가 됐다. 이에 대응해 클라우드플레어는 부정 신뢰 앵커(NTA)를 설치해 접속을 복구했고, DNSSEC 검증이 일시적으로 우회됐음을 명시적으로 알려주는 새로운 확장 DNS 오류 코드(EDE 33)를 구현한 첫 주요 리졸버가 됐다.",
+        "points": [
+          ".AL 도메인 전체가 몇 시간 접속 불가",
+          "클라우드플레어 1.1.1.1, NTA로 긴급 복구",
+          "EDE 33 오류코드로 DNSSEC 우회 여부 명시"
+        ],
+        "why": [
+          "DNSSEC 운영 사고 대응 및 투명성 확보의 새로운 표준 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-precursor",
+      "title": "클라우드플레어 프리커서, 세션 전반의 행동 신호로 봇 판별",
+      "summary": "마우스 움직임·키보드 타이밍 등 미묘한 패턴을 지속 모니터링해 사람과 봇을 구분하는 클라이언트 측 검증 시스템이다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/introducing-precursor/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "동적으로 주입된 자바스크립트가 손목 움직임 궤적, 인지적 지연 같은 봇이 일관되게 흉내내기 어려운 미묘한 신호를 분석한다.",
+        "what": "프리커서는 사용자 세션 전체에 걸쳐 행동 신호를 지속적으로 모니터링해 사람과 봇을 구분하는 클라이언트 측 검증 시스템이다. 마우스 움직임, 키보드 타이밍, 상호작용 리듬 같은 패턴을 분석한다.",
+        "points": [
+          "세션 전체 지속 모니터링 방식",
+          "손목 움직임 궤적·인지적 지연 등 미묘한 패턴 분석",
+          "동적 자바스크립트 주입으로 구현"
+        ],
+        "why": [
+          "기존 캡차를 넘어서는 지속적 행동 기반 봇 탐지 방식의 등장"
+        ]
+      }
+    },
+    {
+      "id": "devops-terraform-mcp-server",
+      "title": "테라폼 MCP 서버, AI 에이전트에 실시간 레지스트리 문서 제공",
+      "summary": "최소 권한 자격증명으로 로컬 실행되며 파괴적 작업은 기본 비활성화, 인프라 변경 작업은 확인을 권장한다.",
+      "source": "Spacelift",
+      "url": "https://spacelift.io/blog/terraform-mcp-server?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 에이전트가 버전별 최신 테라폼 레지스트리 문서와 HCP 테라폼 도구에 접근해 더 정확한 IaC를 생성할 수 있게 됐다.",
+        "what": "테라폼 MCP 서버는 로컬에서 최소 권한 자격증명으로 실행되며, 파괴적 작업은 기본적으로 비활성화돼 있고 인프라를 변경하는 작업에는 확인 절차를 권장한다.",
+        "points": [
+          "버전별 실시간 테라폼 레지스트리 문서 접근",
+          "최소 권한 자격증명으로 로컬 실행",
+          "파괴적 작업 기본 비활성화"
+        ],
+        "why": [
+          "AI 에이전트의 인프라 코드 생성 정확도를 높이는 실전 도구"
+        ]
+      }
+    },
+    {
+      "id": "devops-branchless-binary-search-slower",
+      "title": "\"분기 없는 이진탐색이 항상 빠른 건 아니다\"",
+      "summary": "메모리 지연이 실행시간을 지배할 때는 분기예측·프리페칭을 활용하는 표준 이진탐색이 더 유리할 수 있다.",
+      "source": "pythonspeed.com",
+      "url": "https://pythonspeed.com/articles/branchless-binary-search/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "분기 없는 구현은 예측 가능한 제어 흐름에도 불구하고 메모리 수준 병렬성이 줄어 성능이 떨어질 수 있다.",
+        "what": "분기 없는 이진탐색은 흔히 분기 예측 실패를 없애 더 빠르다고 소개되지만, 메모리 지연이 실행시간을 지배하는 상황에서는 오히려 성능이 나빠질 수 있다. 벤치마크에 따르면 표준 이진탐색은 투기적 실행과 하드웨어 프리페칭의 이점을 누려 분기 결과가 나오기 전에 여러 후보 메모리 위치를 미리 가져올 수 있는 반면, 분기 없는 구현은 의존적인 메모리 접근을 직렬화해 메모리 수준 병렬성을 줄인다.",
+        "points": [
+          "분기 없는 구현이 항상 빠르지 않음을 벤치마크로 입증",
+          "표준 구현은 투기적 실행·프리페칭 이점 활용",
+          "분기 없는 구현은 메모리 수준 병렬성 저하"
+        ],
+        "why": [
+          "저수준 최적화에서 통념과 실제 성능이 다를 수 있음을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-graphify",
+      "title": "그래피파이, 코드베이스를 질의 가능한 지식 그래프로 변환",
+      "summary": "15개 이상 AI 코딩 어시스턴트와 연동, 코드·문서·PDF·이미지·영상을 자연어로 검색 가능한 그래프로 만든다.",
+      "source": "GitHub",
+      "url": "https://github.com/Graphify-Labs/graphify?utm_source=tldrdevops",
+      "report": {
+        "tldr": "API 호출 없이 로컬 AST 파싱으로 코드를 추출하며, 90.6%의 벤치마크 일치율과 코헨 카파 0.81을 기록했다.",
+        "what": "클로드 코드·커서 등 15개 이상 AI 코딩 어시스턴트와 통합되는 이 오픈소스 도구는 전체 코드베이스를 문서·PDF·이미지·영상과 함께 질의 가능한 지식 그래프로 변환한다. 홈브루나 pipx로 30초 만에 설치할 수 있고, 프로젝트 아키텍처의 인터랙티브 HTML 시각화를 생성한다.",
+        "points": [
+          "로컬 AST 파싱, API 호출 없음",
+          "90.6% 벤치마크 일치율, 코헨 카파 0.81",
+          "30초 설치, 인터랙티브 HTML 시각화 생성"
+        ],
+        "why": [
+          "대규모 코드베이스 탐색을 그렙 대신 자연어 질의로 대체하는 접근"
+        ]
+      }
+    },
+    {
+      "id": "devops-penpot-launch",
+      "title": "펜팟, 셀프호스팅 가능한 오픈소스 디자인 플랫폼으로 출시",
+      "summary": "SVG·CSS·HTML 등 오픈 표준으로 작업하며 네이티브 디자인 토큰과 MCP 서버로 디자인-코드 워크플로를 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/penpot/penpot?utm_source=tldrdevops",
+      "report": {
+        "tldr": "벤더 록인 없이 실시간 협업과 직접적인 코드 변환을 지원하며 조직이 디자인 환경을 완전히 소유하도록 한다.",
+        "what": "팀이 디자인 인프라를 셀프호스팅하고 SVG·CSS·HTML 같은 오픈 표준으로 작업할 수 있는 오픈소스 디자인 플랫폼이다. 네이티브 디자인 토큰과 디자인-코드 워크플로를 위한 MCP 서버를 갖췄다.",
+        "points": [
+          "셀프호스팅 가능한 오픈소스 디자인 플랫폼",
+          "SVG·CSS·HTML 오픈 표준 기반",
+          "네이티브 디자인 토큰 + MCP 서버 지원"
+        ],
+        "why": [
+          "디자인 툴 시장에서 벤더 록인을 벗어난 오픈 대안 제시"
+        ]
+      }
+    },
+    {
+      "id": "devops-netflix-service-topology",
+      "title": "넷플릭스, 대규모 실시간 서비스 토폴로지 시스템 구축기",
+      "summary": "일부 인스턴스가 100배 많은 트래픽을 받는 '핫노드' 문제와 GC 정지 이슈를 해결한 3단계 분산 파이프라인이다.",
+      "source": "Netflix Tech Blog",
+      "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?source=rss----2615bd06b42e---4&utm_source=tldrdevops",
+      "report": {
+        "tldr": "gRPC에서 서버전송이벤트(SSE)로 전환하고, 어느 시점의 토폴로지든 재구성할 수 있는 타임트래블 쿼리 기능을 추가했다.",
+        "what": "넷플릭스는 여러 리전에서 초당 수백만 건의 네트워크 플로우 레코드를 처리하는 실시간 서비스 의존성 매핑 시스템을 구축했다. 일부 인스턴스가 100배 많은 트래픽을 받는 '핫노드' 문제와 비즈니스 로직보다 더 많은 CPU를 소모하는 가비지컬렉션 정지 문제를 포함한 대규모 스케일링 난제를 해결했다. 백프레셔 처리를 갖춘 스트리밍 아키텍처의 3단계 분산 파이프라인을 도입하고, 성능 개선을 위해 gRPC에서 서버전송이벤트로 전환했으며, 장애 조사를 위해 특정 시점의 토폴로지를 재구성하는 타임트래블 쿼리 기능을 추가했다.",
+        "points": [
+          "초당 수백만 건 네트워크 플로우 처리",
+          "'핫노드'·GC 정지 문제 해결",
+          "gRPC→SSE 전환, 타임트래블 쿼리 추가"
+        ],
+        "why": [
+          "대규모 마이크로서비스 관측성 구축의 실전 아키텍처 참고 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-job-queues-tricky",
+      "title": "\"잡 큐는 생각보다 까다롭다\"",
+      "summary": "예약 작업이 실행 중일 때 새 복사본 시작·기존 작업 취소·대기·요청 폐기 중 무엇을 택할지가 시스템 설계를 좌우한다.",
+      "source": "typesanitizer.com",
+      "url": "https://typesanitizer.com/blog/job-queues.html?utm_source=tldrdevops",
+      "report": {
+        "tldr": "명시적 큐 경계, 런타임 제한, 스케줄링 시맨틱, 장애 모델을 갖추는 것이 폭주하는 백로그와 낭비되는 연산을 막는 핵심이다.",
+        "what": "잡 큐의 동작은 스케줄링 간격과 동시성 제한만으로 결정되지 않는다. 각 선택은 장애, 백로그 증가, 오래된·누락된 결과의 허용 가능성에 대해 서로 다른 가정을 내포한다.",
+        "points": [
+          "예약 작업 중복 실행 시 4가지 선택지 존재",
+          "각 선택마다 장애·백로그에 대한 가정이 다름",
+          "명시적 큐 경계·런타임 제한이 안정성의 핵심"
+        ],
+        "why": [
+          "겉보기에 단순한 잡 큐 설계가 실은 미묘한 트레이드오프를 내포함을 재조명"
+        ]
+      }
+    },
+    {
+      "id": "devops-devex-pitfalls-ai-era",
+      "title": "AI 시대 DevEx 측정, 피해야 할 5가지 함정",
+      "summary": "개인 산출물이 아닌 팀·시스템 건강에 초점을 맞추고, 워크플로 지표와 개발자 피드백을 결합해야 한다.",
+      "source": "Datadog Blog",
+      "url": "https://www.datadoghq.com/blog/devex-measurement-pitfalls-ai-era/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI를 채택률이나 토큰 사용량이 아닌 실제 딜리버리 성과로 평가해야 하며 개발자가 측정 과정 설계에 참여해야 한다.",
+        "what": "효과적인 DevEx 측정은 개인 산출물이 아닌 팀·시스템 건강에 초점을 맞추고, 워크플로 지표와 개발자 피드백을 결합하며, AI를 채택률·토큰 사용량이 아닌 딜리버리 성과로 평가한다. 개발자가 측정 프로세스 설계에 참여하도록 하는 것도 중요하다.",
+        "points": [
+          "개인 산출물 대신 팀·시스템 건강 지표 중심",
+          "AI 평가는 채택률이 아닌 딜리버리 성과 기준",
+          "개발자를 측정 프로세스 설계에 참여시킬 것"
+        ],
+        "why": [
+          "AI 도입 성과 측정에서 흔히 빠지는 함정을 짚어주는 실무 가이드"
+        ]
+      }
+    },
+    {
+      "id": "devops-epinio-kubernetes-gap",
+      "title": "에피니오, 쿠버네티스 로컬-클러스터 격차 해소",
+      "summary": "워크플로 표준화, 엔터프라이즈 가드레일 강제, 애플리케이션 배포 단순화로 배포 마찰을 줄인다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/krumware-epinio-kubernetes-mcp/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "기존 인프라와 통합하면서 쿠버네티스 네이티브 개발자 플랫폼으로 배포 마찰을 줄인다.",
+        "what": "에피니오는 워크플로를 표준화하고 엔터프라이즈 가드레일을 강제하며 애플리케이션 배포를 단순화해 배포 마찰을 줄이는 쿠버네티스 네이티브 개발자 플랫폼이다.",
+        "points": [
+          "워크플로 표준화로 배포 마찰 감소",
+          "엔터프라이즈 가드레일 강제",
+          "기존 인프라와의 통합 지원"
+        ]
+      }
+    },
+    {
+      "id": "devops-amazon-sqs-20-years",
+      "title": "아마존 SQS, 서비스 출시 20주년",
+      "summary": "2006년 7월 EC2·S3와 함께 AWS 최초 3대 서비스 중 하나로 출시된 SQS가 20년을 맞았다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-sqs-turns-20-two-decades-of-reliable-messaging-at-scale/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "아마존 심플 큐 서비스(SQS)가 2006년 7월 EC2·S3와 함께 AWS 최초 서비스로 출시돼 20주년을 맞았다.",
+        "what": "SQS는 AWS 초창기부터 대규모 메시징 인프라를 지탱해온 서비스로, EC2·S3와 나란히 AWS 최초 3대 서비스 중 하나로 출시됐다.",
+        "points": [
+          "2006년 7월 AWS 최초 3대 서비스로 출시",
+          "EC2·S3와 함께 20주년 기념"
+        ]
+      }
+    }
+  ]
+}

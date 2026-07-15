@@ -6,233 +6,232 @@
   "bg": "#163021",
   "items": [
     {
-      "id": "marketing-ap-reinvention",
-      "title": "180년 뉴스 기관 AP, 다음 재발명을 준비하다",
-      "summary": "AP통신이 180년 저널리즘을 데이터 라이선싱으로 수익화한다. 단기 AI 라이선스로 기자 지식재산을 보호하며, 신문은 이제 매출의 10% 미만이다.",
-      "source": "McKinsey",
-      "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/how-a-180-year-old-news-institution-prepares-for-its-next-reinvention",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "AP가 180년 아카이브를 AI 데이터 라이선싱으로 수익화하며 재발명한다.",
-        "what": "AP통신이 180년치 저널리즘을 데이터 라이선싱으로 수익화하고 있다. 단기 AI 라이선싱 계약으로 기자들의 지식재산을 보호하며, 신문은 이제 전체 매출의 10% 미만을 차지한다.",
-        "points": [
-          "180년 아카이브 데이터 라이선싱",
-          "단기 AI 라이선스로 IP 보호",
-          "신문 매출 비중 10% 미만"
-        ],
-        "why": [
-          "뉴스 산업의 AI 시대 수익 모델 전환 사례",
-          "콘텐츠 IP의 라이선싱 자산화 흐름"
-        ]
-      }
-    },
-    {
-      "id": "marketing-genz-nostalgia",
-      "title": "Gen Z의 '차용된 향수'가 브랜드 마케팅을 재편한다",
-      "summary": "Gen Z의 3분의 2가 아카이브 콘텐츠를 통해 태어나기 전 시대에 정서적으로 연결되며 향수 주기가 압축된다. 음악이 가장 강한 트리거로, 세대 동시 타깃팅을 가능케 한다.",
+      "id": "marketing-genz-borrowed-nostalgia",
+      "title": "Z세대의 '빌려온 노스탤지어'가 브랜드 마케팅을 바꾼다",
+      "summary": "수십 년치 아카이브 콘텐츠에 즉시 접근하며 태어나기 전 시대에도 감정적 애착을 느끼는 Z세대가 늘고 있다.",
       "source": "WWD",
-      "url": "https://wwd.com/sourcing-journal/sj-denim/vevo-gen-z-borrowed-nostalgia-reshaping-brand-marketing-1239063370/",
-      "originalDate": "2026-07-15",
+      "url": "https://wwd.com/sourcing-journal/sj-denim/vevo-gen-z-borrowed-nostalgia-reshaping-brand-marketing-1239063370/?utm_source=tldrmarketing",
       "report": {
-        "tldr": "Gen Z가 살지 않은 과거에 향수를 느끼며 향수 마케팅 주기가 압축된다.",
-        "what": "Gen Z의 3분의 2가 아카이브된 디지털 콘텐츠를 통해 태어나기 전 시대에 정서적으로 연결되며 향수 주기가 짧아진다. 음악이 가장 강한 향수 트리거로 작동해 두 세대 코호트를 동시에 겨냥하는 캠페인이 가능하다.",
+        "tldr": "Z세대의 3분의2가 '빌려온 노스탤지어'를 보고한다는 조사로, 갭의 카트예이 광고 같은 캠페인이 두 세대 모두에게 통하는 이유를 설명한다.",
+        "what": "X세대가 80년대에, 밀레니얼이 90년대·2000년대에 기우는 것과 달리, Z세대는 노스탤지어 사이클 자체가 압축돼 태어나기 전 시대에도 더 높은 비율로 감정적 애착을 형성한다. 세대를 관통하는 가장 강력한 트리거는 음악으로, 켈리스의 2003년 히트곡 'Milkshake'를 기반으로 한 갭의 카트예이 광고가 곡을 기억하는 세대와 새롭게 발견하는 세대 모두에게 통하는 이유다.",
         "points": [
-          "Gen Z 2/3, 출생 이전 시대에 정서 연결",
-          "향수 주기 압축",
-          "음악이 최강 트리거"
+          "Z세대의 3분의2가 '빌려온 노스탤지어' 경험",
+          "음악이 세대를 관통하는 가장 강한 트리거",
+          "갭 X 카트예이 캠페인이 대표 사례로 언급"
         ],
         "why": [
-          "세대 마케팅의 향수 활용법 재정의",
-          "아카이브 콘텐츠의 브랜드 활용 가치"
+          "세대별 노스탤지어 마케팅 전략 수립에 실질적 참고자료"
         ]
       }
     },
     {
-      "id": "marketing-ad-recall-gen",
-      "title": "광고는 밀레니얼과 Gen Z에게 다르게 작동한다",
-      "summary": "밀레니얼이 대부분 채널에서 Gen Z보다 광고 회상률이 크게 높지만, Gen Z는 인플루언서 기반 구매에 더 강하게 반응한다. 비디오게임은 세대 간 회상이 비슷한 예외다.",
-      "source": "Merca20",
-      "url": "https://www.merca20.com/who-remembers-ads-more-advertising-works-differently-for-millennials-and-generation-z/",
-      "originalDate": "2026-07-15",
+      "id": "marketing-ap-data-business",
+      "title": "180년 역사 AP통신, '데이터 비즈니스'로 재탄생",
+      "summary": "신문 구독은 이제 매출의 10% 미만, 데이터 라이선싱과 수익 다각화가 그 자리를 채우고 있다.",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/how-a-180-year-old-news-institution-prepares-for-its-next-reinvention?utm_source=tldrmarketing",
       "report": {
-        "tldr": "밀레니얼은 광고 회상, Gen Z는 인플루언서 구매에 강하게 반응한다.",
-        "what": "밀레니얼이 대부분 채널에서 Gen Z보다 광고 회상률이 크게 높은 반면, Gen Z는 인플루언서 주도 구매에 더 강하게 반응한다. 비디오게임은 세대 간 회상률이 비슷하게 유지되는 예외다.",
+        "tldr": "AP는 저널리즘을 구조화·비구조화 데이터로 분해해 타 산업에 판매하는 동시에 짧은 AI 라이선싱 계약으로 IP를 보호한다.",
+        "what": "AP는 취재 콘텐츠를 구조화·비구조화 데이터로 분해해 전통적 뉴스 유통과 함께 다른 산업에 판매하고 있다. 이와 병행해 1~3년의 의도적으로 짧은 AI 라이선싱 전략을 취해, 모델이 AP 콘텐츠로 학습하는 과정에서 저널리스트의 지식재산을 보호하고 공정한 가치를 확보하려 한다.",
         "points": [
-          "밀레니얼 광고 회상률 우위",
-          "Gen Z는 인플루언서 구매에 강함",
-          "비디오게임은 세대 간 유사"
+          "취재 콘텐츠를 데이터 상품화해 타 산업에 판매",
+          "신문 매출 비중이 전체의 10% 미만으로 축소",
+          "1~3년 단기 AI 라이선싱 전략으로 IP 보호"
         ],
         "why": [
-          "세대별 채널·크리에이티브 전략 차별화 근거",
-          "인플루언서 마케팅의 Gen Z 효과 확인"
+          "전통 미디어의 AI 시대 생존 전략을 보여주는 대표 사례"
         ]
       }
     },
     {
-      "id": "marketing-lifecycle",
-      "title": "라이프사이클 마케팅 vs 리드 라이프사이클",
-      "summary": "두 B2B 개념은 함께 작동한다. 라이프사이클 마케팅은 활성화·유지를, 리드 라이프사이클은 파이프라인 단계를 관리한다. 너처·재활성화·피드백 루프로 통합된다.",
+      "id": "marketing-millennial-genz-ad-recall",
+      "title": "광고 회상률, 밀레니얼이 Z세대보다 전 채널서 높아",
+      "summary": "TV에서는 30포인트(56% vs 26%) 격차, 게임에서만 유일하게 두 세대가 비슷한 수준을 보였다.",
+      "source": "Merca2.0",
+      "url": "https://www.merca20.com/who-remembers-ads-more-advertising-works-differently-for-millennials-and-generation-z/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "Z세대는 전체 미디어 소비량이 적어 회상률이 낮지만, 인플루언서发 구매에는 밀레니얼보다 더 잘 반응한다(39% vs 34%).",
+        "what": "TV에서 30포인트(56% vs 26%) 격차를 시작으로 소셜미디어, 검색, 스트리밍 비디오에서도 더 작지만 일관된 격차가 나타난다. 유일한 예외는 비디오 게임으로, 두 세대의 회상률이 거의 동일했다.",
+        "points": [
+          "TV 광고 회상률 밀레니얼 56% vs Z세대 26%",
+          "게임 채널만 유일하게 두 세대 회상률 비슷",
+          "Z세대는 인플루언서發 구매에 더 반응(39% vs 34%)"
+        ],
+        "why": [
+          "세대별 미디어 전략 수립 시 채널 배분의 근거 데이터로 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "marketing-lifecycle-vs-lead-lifecycle",
+      "title": "\"라이프사이클 마케팅과 리드 라이프사이클은 다르다\"",
+      "summary": "B2B 팀들이 자주 혼동하는 두 개념을 구분하고, 이들이 어떻게 맞물려 작동하는지 정리했다.",
       "source": "LinkedIn",
-      "url": "https://www.linkedin.com/posts/jacalynbeales_ultimate-guide-to-lifecycle-marketing-vs-ugcPost-7482427495892348928-Qy4e/",
-      "originalDate": "2026-07-15",
+      "url": "https://www.linkedin.com/posts/jacalynbeales_ultimate-guide-to-lifecycle-marketing-vs-ugcPost-7482427495892348928-Qy4e/?utm_source=tldrmarketing",
       "report": {
-        "tldr": "라이프사이클 마케팅과 리드 라이프사이클은 별개지만 함께 작동한다.",
-        "what": "두 B2B 개념은 구별되지만 상호 보완적이다. 라이프사이클 마케팅은 활성화·유지를 이끌고, 리드 라이프사이클은 파이프라인 단계를 관리한다. 통합은 너처 캠페인·재활성화·피드백 루프를 통해 이뤄진다.",
+        "tldr": "라이프사이클 마케팅은 활성화·유지·확장을 이끌고, 리드 라이프사이클은 파이프라인 단계를 관리한다.",
+        "what": "두 개념은 영업 전 너처링, 실패 딜 재활성화, 확장 캠페인, 리드 품질 피드백 루프를 통해 서로 맞물려 작동한다. 영업 지원형 PLG 팀은 사용량 한도, 기능 요청, ICP 적합도 같은 신호를 활용해 영업 인계를 트리거할 수도 있다.",
         "points": [
-          "라이프사이클 마케팅 = 활성화·유지",
-          "리드 라이프사이클 = 파이프라인 단계",
-          "너처·재활성화·피드백으로 통합"
+          "라이프사이클 마케팅 vs 리드 라이프사이클 개념 구분",
+          "영업 전 너처링·재활성화·확장 캠페인으로 연결",
+          "사용량 신호 기반 영업 인계 트리거 가능"
         ],
         "why": [
-          "B2B 마케팅·세일즈 정렬의 개념 정리",
-          "고객 여정 전반의 통합 관리 필요"
+          "B2B 마케팅·영업 조직 간 흔한 개념 혼동을 정리하는 실무 가이드"
         ]
       }
     },
     {
-      "id": "marketing-paid-media-pipeline",
-      "title": "유료 매체의 파이프라인 기여를 어떻게 측정하나",
-      "summary": "캠페인 시작 전 유료 매체를 CRM에 연결하면 허영지표 대신 파이프라인 귀속이 가능하다. 멀티터치 귀속과 인과 모델링을 함께 쓴 기업이 전환율·ROAS에서 성과를 냈다.",
-      "source": "Brainlabs Digital",
-      "url": "https://www.brainlabsdigital.com/how-do-i-measure-the-pipeline-contribution-of-paid-media/",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "유료 매체를 CRM에 사전 연결해야 허영지표 대신 파이프라인을 측정한다.",
-        "what": "캠페인 개시 전 유료 매체를 CRM에 연결하면 허영지표가 아닌 파이프라인 귀속이 가능하다. 멀티터치 귀속과 인과 모델링을 함께 활용한 기업은 전환율과 ROAS에서 두드러진 개선을 얻었다.",
-        "points": [
-          "캠페인 전 CRM 연결이 관건",
-          "허영지표 대신 파이프라인 귀속",
-          "멀티터치 + 인과 모델링 병행"
-        ],
-        "why": [
-          "성과 마케팅 측정의 실무 프레임",
-          "매출 기여 중심 측정으로의 전환"
-        ]
-      }
-    },
-    {
-      "id": "marketing-search-roas-social",
-      "title": "검색 ROAS는 생각보다 유료 소셜에 의존한다",
-      "summary": "동시 진행되는 소셜 캠페인이 만든 브랜드 인지 때문에 검색 성과가 실제보다 강해 보인다. 라스트클릭은 교차채널 효과를 가리며, 지오 홀드아웃 테스트가 더 신뢰할 만하다.",
-      "source": "Search Engine Land",
-      "url": "https://searchengineland.com/paid-search-roas-paid-social-482040",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "검색 ROAS의 상당분은 동시 진행 소셜이 만든 브랜드 인지의 덕이다.",
-        "what": "동시에 돌아가는 유료 소셜 캠페인이 만든 브랜드 인지 때문에 검색 성과가 실제보다 강해 보인다. 라스트클릭 귀속은 교차채널 효과를 가리므로, 지오 홀드아웃 테스트가 더 신뢰할 만한 측정을 제공한다.",
-        "points": [
-          "소셜이 만든 인지가 검색 성과 부풀림",
-          "라스트클릭이 교차채널 효과 은폐",
-          "지오 홀드아웃 테스트 권장"
-        ],
-        "why": [
-          "채널 성과의 과대평가 위험 경고",
-          "통합 측정·증분성 실험의 필요"
-        ]
-      }
-    },
-    {
-      "id": "marketing-tiktok-shop",
-      "title": "전 TikTok Shop 매니저가 1400만 달러 라이브 판매에서 배운 것",
-      "summary": "성공적 TikTok Shop 방송은 라이브 전 판매 이력 축적과 인게이지먼트 최적화를 요한다. 플래시 세일, 사전 프로모션 확대, 호스트 로테이션, 실시간 최적화가 전략이다.",
-      "source": "NetInfluencer",
-      "url": "https://www.netinfluencer.com/what-a-former-tiktok-shop-manager-learned-from-14m-usd-in-live-sales/",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "TikTok Shop 라이브 성공은 방송 전 판매 이력과 인게이지먼트 준비에 달렸다.",
-        "what": "성공적 TikTok Shop 방송은 라이브 이전에 판매 이력을 쌓고 인게이지먼트 지표를 최적화하는 데 달렸다. 플래시 세일, 사전 프로모션 확대, 호스트 로테이션, 실시간 최적화가 핵심 전략으로 꼽힌다.",
-        "points": [
-          "라이브 전 판매 이력·인게이지먼트 최적화",
-          "플래시 세일·사전 프로모션 확대",
-          "호스트 로테이션·실시간 최적화"
-        ],
-        "why": [
-          "라이브 커머스 운영의 실전 플레이북",
-          "TikTok Shop 성과의 사전 준비 중요성"
-        ]
-      }
-    },
-    {
-      "id": "marketing-x-mutual-follow",
-      "title": "X, 소셜 네트워크가 알던 것을 AI 알고리즘에 가르친다",
-      "summary": "X가 답글·추천 랭킹 알고리즘에서 상호 팔로우 관계를 우선하기 시작했다.",
-      "source": "Digital Trends",
-      "url": "https://www.digitaltrends.com/social-media/x-is-teaching-its-ai-algorithm-something-social-networks-once-understood/",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "X가 답글·추천에서 '상호 팔로우' 관계를 우선하도록 알고리즘을 조정했다.",
-        "what": "X가 답글과 추천 랭킹 알고리즘에서 상호 팔로우 관계를 우선하기 시작했다. 소셜 네트워크가 오래전 이해했던 관계 신호를 AI 랭킹에 다시 반영하는 방향이다.",
-        "points": [
-          "답글·추천에 상호 팔로우 우선",
-          "관계 신호를 AI 랭킹에 반영",
-          "과거 소셜 원리로의 회귀"
-        ],
-        "why": [
-          "알고리즘 랭킹에서 관계 신호의 재부상",
-          "마케터의 커뮤니티·상호작용 전략에 함의"
-        ]
-      }
-    },
-    {
-      "id": "marketing-profit-first",
-      "title": "사이트 부가기능보다 '수익'을 먼저 잡아라",
-      "summary": "이커머스 창업자는 고급 기능·도구를 도입하기 전에 수익성과 운영 기본기를 우선해야 한다. 제품 영상은 전환을 크게 높이므로 빠른 로딩과 명확한 오디오가 필요하다.",
+      "id": "marketing-nail-profit-before-extras",
+      "title": "\"사이트 부가기능보다 수익성부터 잡아라\"",
+      "summary": "반품 감소, 고객서비스 개선, 작동하는 배송 모델 구축을 AI 도구·추가 앱 투자보다 먼저 하라는 조언이다.",
       "source": "Practical Ecommerce",
-      "url": "https://www.practicalecommerce.com/nail-profit-before-site-extras-owner-says",
-      "originalDate": "2026-07-15",
+      "url": "https://www.practicalecommerce.com/nail-profit-before-site-extras-owner-says?utm_source=tldrmarketing",
       "report": {
-        "tldr": "부가기능보다 수익성·운영 기본기가 이커머스의 우선순위다.",
-        "what": "이커머스 창업자는 고급 기능이나 도구를 도입하기 전에 수익성과 운영 기본기를 먼저 다져야 한다. 제품 영상은 전환을 크게 높이므로 빠른 로딩과 명확한 오디오를 갖춰야 한다.",
+        "tldr": "모든 상품·컬렉션 페이지를 랜딩페이지처럼 설계하고 15~30초 제품 영상으로 전환율을 높이라는 실무 조언이다.",
+        "what": "이커머스 사이트는 고급 기능을 추가하기 전에 수익성을 우선해야 한다. 방문자가 홈페이지가 아닌 광고·소셜포스트·기타 링크를 통해 유입되는 경우가 많으므로 모든 상품·컬렉션 페이지를 랜딩페이지처럼 설계해야 한다. 빠르게 로딩되고 명료한 오디오를 갖춘 15~30초 MP4 제품 영상이 GIF나 저품질 영상보다 더 나은 브랜드 경험을 만든다.",
         "points": [
-          "고급 기능 전에 수익성·운영 우선",
-          "제품 영상이 전환 크게 향상",
-          "빠른 로딩·명확한 오디오 필요"
+          "반품 감소·고객서비스 개선을 AI 투자보다 우선",
+          "모든 상품 페이지를 랜딩페이지처럼 설계",
+          "15~30초 고품질 MP4 영상이 전환율 제고"
         ],
         "why": [
-          "이커머스 성장의 기본기 중심 접근",
-          "전환 최적화의 실용 우선순위"
+          "이커머스 운영의 기본기를 재확인하는 실전 체크리스트"
         ]
       }
     },
     {
-      "id": "marketing-conferences",
-      "title": "마케팅 콘퍼런스는 여전히 가치 있다",
-      "summary": "비용과 시간 투자에도 콘퍼런스는 원격 방식보다 빠르게 전문적 관계와 기회를 만든다.",
+      "id": "marketing-pipeline-contribution-paid-media",
+      "title": "\"유료 매체의 파이프라인 기여도, 어떻게 측정하나\"",
+      "summary": "파이프라인 최적화 기업들은 MQL당 비용 27% 절감, 전환율 18% 증가, ROAS 138% 개선을 기록했다.",
+      "source": "Brainlabs",
+      "url": "https://www.brainlabsdigital.com/how-do-i-measure-the-pipeline-contribution-of-paid-media/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "멀티터치 어트리뷰션·인과 모델링·증분성 테스트를 함께 활용해야 채널 성과의 신뢰도 높은 그림을 얻을 수 있다.",
+        "what": "캠페인 시작 전에 유료 매체를 CRM과 연결해 모든 최적화가 플랫폼 지표가 아닌 파이프라인으로 귀결되도록 해야 한다. 결과는 기여마진, LTV 대 CAC, 회수기간, 첫 미팅 비용, 파이프라인 달러당 비용 같은 비즈니스 지표로 보고해 마케팅과 재무를 정렬시켜야 한다.",
+        "points": [
+          "멀티터치·인과모델링·증분성 테스트 병행",
+          "비즈니스 지표(LTV/CAC 등)로 결과 보고",
+          "파이프라인 최적화 시 MQL당 비용 27%↓, ROAS 138%↑"
+        ],
+        "why": [
+          "클릭 중심 최적화의 한계를 넘어서는 어트리뷰션 접근법 제시"
+        ]
+      }
+    },
+    {
+      "id": "marketing-cart-culture-webinar",
+      "title": "'카트 컬처' 웨비나: 소매업체가 입점 전 원하는 데이터",
+      "summary": "DTC 트랙션과 매장 입점 준비도 사이의 간극을 데이터로 메우는 방법을 다룬다.",
+      "source": "TLDR Marketing",
+      "url": "https://www.hummingbirds.com/event/cart-culture-the-data-retailers-want-before-you-walk-in-the-door?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "감이 아닌 데이터로 매대 확보 가능성을 높이는 크레더블한 데이터 스토리 구축법을 다룬 웨비나다.",
+        "what": "소매업체가 제품 입점 전에 기대하는 데이터를 감이 아닌 근거 중심으로 분석한다. DTC 트랙션과 오프라인 입점 준비도 사이 간극을 메우고, 피칭 몇 달 전부터 신뢰할 수 있는 데이터 스토리를 구축하는 법을 다룬다.",
+        "points": [
+          "소매업체가 입점 전 요구하는 데이터 유형 분석",
+          "DTC 트랙션→매장 준비도 간극 해소법",
+          "당일 오후 2시30분(ET) 진행"
+        ]
+      }
+    },
+    {
+      "id": "marketing-cyrus-shepard-seo-webinar",
+      "title": "400개 이상 사이트 분석 \"구글·AEO에서 성장하는 5가지 특성\"",
+      "summary": "지퍼피SEO 창업자 사이러스 셰퍼드가 제로클릭 시대에도 통하는 17가지 콘텐츠 유형을 공개한다.",
+      "source": "AirOps",
+      "url": "https://www.airops.com/events/data-backed-traits-sites-thriving-google-aeo-cyrus-shepard?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "저효율 콘텐츠를 줄이고 구글·AI 검색에서 가시성을 확보하는 자산에 집중하는 법을 다루는 7월23일 웨비나다.",
+        "what": "사이러스 셰퍼드가 400개 이상 사이트를 분석해 유기적 성장을 이끄는 5가지 특성과 제로클릭 세상에서도 여전히 통하는 17가지 콘텐츠 유형을 발견했다. 이번 웨비나는 AI의 역할을 재고해 저효율 산출물을 줄이고 구글·AI 검색 가시성을 확보하는 자산에 집중하는 법을 설명한다.",
+        "points": [
+          "400개 이상 사이트 분석 기반 데이터",
+          "유기적 성장 5대 특성, 콘텐츠 17개 유형 공개",
+          "7월23일 오후3시(ET) 진행"
+        ]
+      }
+    },
+    {
+      "id": "marketing-tiktok-shop-14m-lessons",
+      "title": "틱톡숍 매니저가 1400만달러 라이브 판매서 배운 것",
+      "summary": "브랜드 대부분이 전환 기반을 다지기 전에 라이브부터 시작한다는 분석이 나왔다.",
+      "source": "Netinfluencer",
+      "url": "https://www.netinfluencer.com/what-a-former-tiktok-shop-manager-learned-from-14m-usd-in-live-sales/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "먼저 틱톡숍 판매 이력을 쌓은 뒤 GPM·탭스루율·시청시간·클릭주문율 같은 지표로 방송을 최적화하라는 권고다.",
+        "what": "제이슨 터메치는 1400만달러 이상의 라이브 판매를 분석해 대부분의 브랜드가 전환에 필요한 기반을 다지기도 전에 라이브부터 시작한다는 것을 발견했다. 그의 플레이북은 플래시세일, 수 주에 걸친 사전 프로모션, 순환 호스트, 실시간 조정을 포함해 참여도와 매출을 끌어올린다.",
+        "points": [
+          "1400만달러+ 라이브 판매 데이터 분석",
+          "GPM·탭스루율·시청시간·클릭주문율로 최적화",
+          "플래시세일·순환 호스트 등 구체적 플레이북 제시"
+        ],
+        "why": [
+          "틱톡숍 라이브커머스 전략 수립에 실전 데이터 기반 참고자료"
+        ]
+      }
+    },
+    {
+      "id": "marketing-search-roas-paid-social",
+      "title": "\"검색 ROAS는 사실 유료 소셜 덕에 좋아 보이는 것\"",
+      "summary": "라스트클릭 어트리뷰션은 전환으로 직결되지 않은 소셜 노출을 놓쳐 검색이 만들지 않은 수요까지 가로챈다.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/paid-search-roas-paid-social-482040?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "효과는 4~8주 지연돼 나타나 개별 ROAS만 보고 소셜을 줄이면 몇 달 뒤 검색 CPA가 상승하는 결과로 이어질 수 있다.",
+        "what": "유료 소셜이 함께 운영되며 만들어내는 브랜드 인지도가 나중에 브랜드 검색어로 나타나 검색이 그 공을 가로채는 구조적 편향이 존재한다. 지오 홀드아웃 테스트와 브랜드 검색량 추적이 실제 채널 간 효과를 측정하는 더 신뢰할 수 있는 방법으로 제시됐다.",
+        "points": [
+          "라스트클릭 어트리뷰션의 구조적 편향 지적",
+          "효과 지연은 4~8주, 개별 채널 판단 시 오판 위험",
+          "지오 홀드아웃 테스트가 대안으로 제시"
+        ],
+        "why": [
+          "채널 예산 배분 의사결정에서 흔히 발생하는 귀속 오류를 짚어줌"
+        ]
+      }
+    },
+    {
+      "id": "marketing-x-algorithm-mutual-followers",
+      "title": "X, AI 랭킹 알고리즘에 '상호 팔로우' 가중치 강화",
+      "summary": "관계 데이터를 활용하지 않고 있었다는 사실을 발견한 뒤, 답글·추천에서 상호 팔로우를 더 중요하게 반영하기 시작했다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/social-media/x-is-teaching-its-ai-algorithm-something-social-networks-once-understood/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "X는 랭킹 알고리즘이 관계 데이터를 쓰지 않고 있었다는 것을 발견한 뒤 상호 팔로우 가중치를 높였다.",
+        "what": "X는 답글과 추천에서 상호 팔로우 관계를 더 무겁게 반영하도록 조정했다. 이는 소셜 네트워크가 과거 이해했던 '관계 기반 신호'가 랭킹 알고리즘에서 누락돼 있었음을 발견한 데 따른 조치다.",
+        "points": [
+          "상호 팔로우 관계 가중치 강화",
+          "기존 알고리즘의 관계 데이터 활용 부재 발견"
+        ]
+      }
+    },
+    {
+      "id": "marketing-27-things-10k-mrr",
+      "title": "\"SaaS를 월매출 1만달러로 이끈 27가지 실전 팁\"",
+      "summary": "작은 틈새시장을 고르고, 만들기 전에 사용자와 대화하고, 빠르고 투박한 초기 버전을 출시하라는 조언이다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/8DcCXl",
+      "report": {
+        "tldr": "추측에 시간을 낭비하기보다 빠른 초기 출시로 실제 피드백과 트랙션을 확보하는 것이 핵심이다.",
+        "what": "작은 틈새시장을 선택하고, 제품을 만들기 전에 사용자와 먼저 대화하며, 빠르고 투박한 초기 버전을 출시해 실제 피드백을 얻는 것이 SaaS를 월매출 1만달러로 이끄는 실전 팁으로 제시됐다.",
+        "points": [
+          "작은 틈새시장 선택",
+          "빌드 전 사용자 인터뷰 우선",
+          "빠르고 투박한 초기 버전으로 실제 피드백 확보"
+        ]
+      }
+    },
+    {
+      "id": "marketing-conferences-still-worth-it",
+      "title": "\"마케팅 컨퍼런스, 비용 들지만 여전히 가치 있다\"",
+      "summary": "부담스럽고 지치는 일이지만 원격근무보다 더 빠르게 관계와 기회를 만들어준다는 주장이다.",
       "source": "MarTech",
-      "url": "https://martech.org/why-marketing-conferences-are-still-worth-it/",
-      "originalDate": "2026-07-15",
+      "url": "https://martech.org/why-marketing-conferences-are-still-worth-it/?utm_source=tldrmarketing",
       "report": {
-        "tldr": "콘퍼런스는 비용에도 원격보다 빠르게 관계·기회를 만든다.",
-        "what": "비용과 시간 투자에도 불구하고 마케팅 콘퍼런스는 원격 전용 방식보다 전문적 관계와 기회를 더 빠르게 촉진한다는 관점이다.",
+        "tldr": "컨퍼런스가 비용과 피로를 유발하지만 원격근무 환경보다 훨씬 빠르게 관계와 기회를 만든다는 주장이다.",
+        "what": "컨퍼런스 참석이 비용이 많이 들고 지치는 경험이라는 점은 인정하면서도, 그것이 원격근무 환경보다 훨씬 빠르게 인맥과 비즈니스 기회를 만들어낸다는 점에서 여전히 가치가 있다고 주장한다.",
         "points": [
-          "비용·시간 투자 대비 관계 형성 빠름",
-          "원격 대비 기회 창출 우위",
-          "대면 네트워킹의 가치"
-        ],
-        "why": [
-          "원격 시대에도 대면 이벤트의 효용 재확인",
-          "크립토 콘퍼런스 쇠퇴 논의와 대비"
-        ]
-      }
-    },
-    {
-      "id": "marketing-saas-10k-mrr",
-      "title": "SaaS를 월 1만 달러 MRR로 만드는 27가지",
-      "summary": "SaaS 창업자는 좁은 시장을 고르고, 개발 전 사용자 리서치를 하며, 러프한 버전을 빠르게 배포해 진짜 피드백을 모아야 한다.",
-      "source": "X",
-      "url": "https://x.com/mikestrives/status/2074526876823884163",
-      "originalDate": "2026-07-14",
-      "report": {
-        "tldr": "좁은 시장·사전 리서치·빠른 러프 배포가 초기 SaaS 성장의 핵심이다.",
-        "what": "SaaS 창업자는 좁은 시장 세그먼트를 선택하고, 개발에 앞서 사용자 리서치를 수행하며, 러프한 버전을 빠르게 배포해 진짜 피드백을 수집해야 한다는 실전 조언이다.",
-        "points": [
-          "좁은 시장 세그먼트 선택",
-          "개발 전 사용자 리서치",
-          "러프 버전 빠른 배포·피드백"
-        ],
-        "why": [
-          "초기 SaaS의 실전 성장 플레이북",
-          "린 스타트업 원칙의 구체적 적용"
+          "컨퍼런스의 비용·피로 요소 인정",
+          "원격근무 대비 빠른 관계·기회 형성 강조"
         ]
       }
     }
