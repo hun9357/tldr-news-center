@@ -1,0 +1,282 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-oauth-spoofing",
+      "title": "OAuth 클라이언트 ID 스푸핑으로 탈취한 Entra 자격증명 검증",
+      "summary": "공격자가 마이크로소프트 Entra ID의 OAuth 취약점을 악용해 로그인 알림 없이 탈취한 자격증명의 유효성을 확인한다. 가짜 클라이언트 ID로 오류코드를 읽어 계정 유효성을 판별하는 두 캠페인이 진행 중이다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/oauth-client-id-spoofing-lets-attackers.html",
+      "originalDate": "2026-07-15",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Security Ops · IAM",
+        "status": "New",
+        "affectedSurface": "Microsoft Entra ID · OAuth"
+      },
+      "report": {
+        "tldr": "가짜 클라이언트 ID로 오류코드를 읽어 탈취 계정 유효성을 은밀히 검증하는 기법.",
+        "what": "공격자가 Entra ID의 OAuth 흐름에서 위조 클라이언트 ID로 반환되는 오류코드 차이를 이용해, 로그인 이벤트를 남기지 않고 탈취한 자격증명이 유효한지 확인한다. 수천 조직·수백만 사용자를 노린 두 개의 캠페인이 확인됐다.",
+        "points": [
+          "위조 클라이언트 ID로 오류코드 열람 → 계정 유효성 판별",
+          "로그인 로그·알림 미발생으로 탐지 회피",
+          "수천 조직·수백만 계정 표적 2개 캠페인 진행"
+        ],
+        "why": [
+          "자격증명 스터핑의 사전 정찰 단계가 무탐지로 가능",
+          "조건부 접근·MFA·이상탐지 강화 필요"
+        ],
+        "action": "OAuth 오류응답 모니터링, 이상 클라이언트 ID 탐지, MFA·조건부 접근 강화"
+      }
+    },
+    {
+      "id": "infosec-patch-tuesday",
+      "title": "MS 7월 패치 화요일, '역대 최대' 622건… 제로데이 2건 실제 악용",
+      "summary": "마이크로소프트가 7월 패치 화요일에 622개 취약점을 수정하며 6월 기록을 세 배로 경신했다. ADFS와 SharePoint Server의 제로데이 2건이 실제 악용 중이다.",
+      "source": "CyberScoop",
+      "url": "https://cyberscoop.com/microsoft-patch-tuesday-july-2026/",
+      "originalDate": "2026-07-15",
+      "intel": {
+        "impact": "High",
+        "confidence": "90%",
+        "owner": "Security Ops · IT",
+        "status": "New",
+        "affectedSurface": "Windows · ADFS · SharePoint"
+      },
+      "report": {
+        "tldr": "622건은 6월 기록의 3배 — ADFS·SharePoint 제로데이 2건은 이미 악용 중이다.",
+        "what": "마이크로소프트가 7월 패치 화요일에 622개 취약점을 패치하며 직전 6월 기록을 세 배로 넘겼다. 이 중 Active Directory Federation Services와 SharePoint Server의 제로데이 2건이 실제 공격에 악용되고 있다.",
+        "points": [
+          "단일 패치 화요일 622건 — 6월 기록 3배",
+          "ADFS·SharePoint 제로데이 2건 실제 악용",
+          "인증·협업 인프라 핵심 표적"
+        ],
+        "why": [
+          "패치 규모 급증 = 공격 표면·취약점 발견 속도 동반 증가",
+          "ADFS·SharePoint는 기업 인증·문서의 중추라 우선순위 최상위"
+        ],
+        "action": "ADFS·SharePoint 제로데이 즉시 패치, 노출 서버 격리·모니터링"
+      }
+    },
+    {
+      "id": "infosec-sonicwall-sma1000",
+      "title": "SonicWall, SMA1000 제로데이 악용 경고 — 즉시 패치",
+      "summary": "SonicWall SMA1000 어플라이언스의 치명적 SSRF 취약점과 인증 후 코드 인젝션 결함 2건이 실제 악용 중이다. 무단 접근과 명령 실행이 가능하다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-sma1000-flaws-exploited-in-zero-day-attacks-patch-now/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "SMA1000의 SSRF + 코드 인젝션 제로데이 2건이 공격에 쓰이고 있다.",
+        "what": "SonicWall이 SMA1000 원격접속 어플라이언스의 치명적 SSRF 결함과 인증 후 코드 인젝션 결함이 제로데이로 악용되고 있다고 경고했다. 두 결함은 무단 접근과 명령 실행으로 이어진다.",
+        "points": [
+          "치명적 SSRF + 인증 후 코드 인젝션 2건",
+          "실제 제로데이 공격 관측",
+          "무단 접근·명령 실행 가능"
+        ],
+        "why": [
+          "원격접속 게이트웨이는 초기 침투의 핵심 관문",
+          "즉시 패치·노출 최소화 필요"
+        ],
+        "action": "SMA1000 최신 패치 적용, 외부 노출 인터페이스 점검"
+      }
+    },
+    {
+      "id": "infosec-servicenow-rce",
+      "title": "ServiceNow 샌드박스 탈출로 프리인증 RCE",
+      "summary": "연구진이 ServiceNow에서 자바스크립트 표현식 조작으로 인증 없이 원격 코드 실행이 가능한 샌드박스 탈출을 발견했다. 데이터 탈취·관리자 계정 생성이 가능했고 벤더는 신속 완화했다.",
+      "source": "SLC Cyber",
+      "url": "https://slcyber.io/research-center/smashing-the-servicenow-sandbox-pre-authentication-rce/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "JS 표현식 조작으로 인증 없이 RCE — 관리자 계정까지 만들 수 있었다.",
+        "what": "SLC 사이버 연구진이 ServiceNow의 자바스크립트 표현식 처리에서 샌드박스를 탈출해 인증 없이 원격 코드 실행이 가능함을 발견했다. 데이터 절취와 관리자 계정 생성까지 가능했으며 ServiceNow는 빠르게 완화 조치를 배포했다.",
+        "points": [
+          "JS 표현식 조작으로 샌드박스 탈출",
+          "프리인증 RCE → 데이터 탈취·관리자 계정 생성",
+          "벤더 신속 완화 배포"
+        ],
+        "why": [
+          "엔터프라이즈 SaaS 워크플로 플랫폼의 심각 취약점",
+          "인증 전 RCE는 대량 테넌트 위협"
+        ],
+        "action": "ServiceNow 인스턴스 패치 확인, 비정상 관리자 계정·스크립트 감사"
+      }
+    },
+    {
+      "id": "infosec-context-bombs",
+      "title": "'컨텍스트 밤'으로 AI 공격자를 멈춰 세우다",
+      "summary": "비밀정보에 삽입한 특수 문자열이 AI 안전 필터를 발동시켜 자율 에이전트 공격을 차단하는 방어 기법이 공개됐다. 성공 침해율을 36%→1%로 낮췄다.",
+      "source": "Tracebit",
+      "url": "https://agentic.tracebit.com/context-bombs/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "비밀정보 속 '금지 행동' 문자열이 AI 가드레일을 발동시켜 공격을 멈춘다.",
+        "what": "트레이스빗은 시크릿에 심은 특수 문자열이 AI의 안전 필터를 트리거해 자율 에이전트 공격을 중단시키는 '컨텍스트 밤'을 시연했다. 여러 모델에서 성공 침해율이 36%에서 1%로 급감했다.",
+        "points": [
+          "시크릿에 '금지 행동' 유발 문자열 삽입",
+          "AI 가드레일이 스스로 공격 중단",
+          "다수 모델서 침해율 36%→1%"
+        ],
+        "why": [
+          "AI 자율 공격에 맞선 능동 방어 신개념",
+          "모델의 안전장치를 방어 자산으로 전환"
+        ],
+        "action": "AI 공격 노출 자산에 컨텍스트 밤 방식 허니토큰 시범 적용"
+      }
+    },
+    {
+      "id": "infosec-shinyhunters-oauth",
+      "title": "ShinyHunters OAuth 남용 방어 — MS·세일즈포스 확대 대응",
+      "summary": "ShinyHunters가 비싱·공급망 침해로 세일즈포스 환경의 OAuth 접근을 얻어 대규모 CRM 데이터를 유출했다. MS와 세일즈포스는 모니터링을 확대하고 탐지 도구를 공개했다.",
+      "source": "Microsoft Security Blog",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/07/13/defending-saas-based-applications-against-shinyhunters-oauth-abuse/",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "비싱·공급망 침해로 얻은 OAuth 권한이 세일즈포스 CRM 대량 유출로 이어졌다.",
+        "what": "ShinyHunters는 보이스피싱과 공급망 침해로 세일즈포스 환경의 OAuth 접근을 확보해 대규모 CRM 데이터를 빼냈다. 마이크로소프트와 세일즈포스는 모니터링을 확대하고 탐지 도구를 배포했다.",
+        "points": [
+          "비싱 + 공급망 침해로 OAuth 접근 확보",
+          "세일즈포스 CRM 대량 데이터 유출",
+          "MS·세일즈포스 탐지·모니터링 확대"
+        ],
+        "why": [
+          "SaaS OAuth 토큰이 새로운 대량 유출 경로로 자리잡음",
+          "IT/보안팀이 앱 동의·토큰 수명 관리 강화 필요(IT 에디션과 연결)"
+        ],
+        "action": "세일즈포스 연결 앱·OAuth 동의 감사, 비정상 API 접근 탐지"
+      }
+    },
+    {
+      "id": "infosec-russian-routers",
+      "title": "미 정부 '러시아 국가 해커가 당신의 라우터를 노린다'",
+      "summary": "CISA가 러시아 FSB의 라우터 표적 캠페인을 경고했다. 기본 자격증명을 악용해 프록시 인프라를 구축하고 핵심 인프라 공격 발판으로 삼는다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/07/the-us-government-warns-that-russia-state-hackers-are-coming-after-your-router/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "FSB가 기본 자격증명 라우터를 장악해 핵심 인프라 공격용 프록시망을 만든다.",
+        "what": "CISA는 러시아 FSB가 기본 자격증명이 남은 라우터를 표적으로 삼아 프록시 인프라를 구축하고 있으며, 이를 핵심 인프라 공격의 발판으로 쓴다고 경고했다. 펌웨어 업데이트와 서비스 강화를 권고했다.",
+        "points": [
+          "기본 자격증명 라우터 표적",
+          "프록시 인프라 구축 후 핵심 인프라 공격 발판",
+          "펌웨어 업데이트·서비스 하드닝 권고"
+        ],
+        "why": [
+          "엣지 네트워크 장비가 국가 배후 공격의 상시 표적",
+          "기본 비밀번호·미패치 장비 방치 위험 재확인"
+        ],
+        "action": "라우터 기본 자격증명 변경·펌웨어 업데이트, 불필요 서비스 비활성화"
+      }
+    },
+    {
+      "id": "infosec-defenders-prompt-injection",
+      "title": "이제 방어자도 프롬프트 인젝션을 채택한다",
+      "summary": "방어자들이 민감 데이터 근처에 '금지 행동' 요청을 심어 AI 모델의 가드레일을 발동시키고 자율 공격을 멈추는 방식으로 프롬프트 인젝션을 역이용하고 있다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/07/now-defenders-are-embracing-the-prompt-injection-too/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "공격 도구였던 프롬프트 인젝션이 이제 방어 무기로 전환된다.",
+        "what": "방어자들이 민감 데이터 인근에 '금지된 행동'을 요청하는 문구를 심어, AI 모델의 안전 가드레일을 트리거하고 자율 공격을 중단시키는 방식으로 프롬프트 인젝션을 방어에 활용하고 있다.",
+        "points": [
+          "민감 데이터 옆 '금지 행동' 요청 삽입",
+          "AI 가드레일 발동 → 자율 공격 중단",
+          "컨텍스트 밤과 같은 방어 흐름"
+        ],
+        "why": [
+          "AI 보안 공방이 '가드레일 활용전'으로 진화",
+          "방어 자동화의 새 축으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "infosec-claude-tag-slack",
+      "title": "Tego AI, 클로드 태그 슬랙 통합서 무단 액션 트리거 발견",
+      "summary": "앤트로픽 클로드의 슬랙 통합이 자동 피드의 문자 '@Claude'만으로 명령을 실행할 수 있어, 연결 시스템에서 무단 기업 액션이 가능하다는 취약점이 보고됐다.",
+      "source": "Hackread",
+      "url": "https://hackread.com/tego-ai-finds-claude-tag-slack-integration-can-trigger-unauthorized-enterprise-actions/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "'@Claude' 텍스트가 곧 명령이 되는 슬랙 통합의 프롬프트 인젝션 위험.",
+        "what": "Tego AI는 클로드 슬랙 통합이 자동화 피드에 포함된 '@Claude' 문자열을 명령으로 실행할 수 있음을 발견했다. 연결된 엔터프라이즈 시스템에서 무단 액션으로 이어질 수 있다.",
+        "points": [
+          "자동 피드의 '@Claude' 텍스트를 명령으로 실행",
+          "연결 시스템서 무단 액션 가능",
+          "AI-업무툴 통합의 신뢰 경계 취약"
+        ],
+        "why": [
+          "에이전트 통합의 입력 검증·권한 경계가 실무 리스크로",
+          "프롬프트 인젝션의 기업 운영 영향 구체화"
+        ]
+      }
+    },
+    {
+      "id": "infosec-lifeline-breach",
+      "title": "호주 라이프라인, 데이터 유출 확인",
+      "summary": "호주 자선단체 라이프라인이 자원봉사자·직원 1만600명의 연락처 기록이 노출된 유출을 확인했다. 금융정보나 상담 이용자 데이터는 포함되지 않았다.",
+      "source": "ACS",
+      "url": "https://ia.acs.org.au/article/2026/lifeline-confirms-data-breach-.html",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "봉사자·직원 1만600명 연락처가 노출됐으나 상담 이용자 데이터는 안전.",
+        "what": "호주 자선단체 라이프라인이 자원봉사자·직원 1만600명의 연락처 정보가 노출된 데이터 유출을 확인했다. 금융정보나 도움 요청자(상담 이용자) 데이터는 영향받지 않았다.",
+        "points": [
+          "봉사자·직원 1만600명 연락처 노출",
+          "금융·상담 이용자 데이터는 미포함",
+          "비영리 조직 대상 유출 사례"
+        ],
+        "why": [
+          "민감 서비스 단체도 상시 표적임을 재확인",
+          "노출 범위 한정으로 피해는 제한적"
+        ]
+      }
+    },
+    {
+      "id": "infosec-synopsys-bosch",
+      "title": "시놉시스, Bosch 해킹 주장에 '유출 증거 없음'",
+      "summary": "랜섬웨어 그룹 D1R이 시놉시스를 침해해 Bosch를 노릴 고객 데이터를 확보했다고 주장했으나, 시놉시스는 무단 접근을 부인했고 그룹의 증거는 공개 문서로 보인다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/synopsys-finds-no-evidence-of-data-breach-following-bosch-hack-claims/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "랜섬웨어 그룹의 침해 주장에 시놉시스는 반박, 증거는 공개 자료로 추정.",
+        "what": "랜섬웨어 그룹 D1R이 시놉시스를 침해해 Bosch를 겨냥할 고객 데이터를 얻었다고 주장했으나, 시놉시스는 무단 접근 증거가 없다고 밝혔다. 그룹이 제시한 증거는 공개된 문서로 보인다.",
+        "points": [
+          "D1R, 시놉시스 침해·Bosch 표적 주장",
+          "시놉시스, 무단 접근 부인",
+          "제시 증거는 공개 자료로 추정"
+        ],
+        "why": [
+          "랜섬웨어 그룹의 과장·허위 침해 주장 패턴",
+          "공급망 협박 시 사실검증의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "infosec-inmate-crypto",
+      "title": "수감자, 복역 중 압류 암호화폐 절도 혐의",
+      "summary": "사기 혐의로 복역 중인 피고가 정부가 압류한 29만 달러 상당의 암호화폐를 빼돌리려 공모한 추가 혐의를 받고 있다.",
+      "source": "SC World",
+      "url": "https://www.scworld.com/brief/inmate-charged-with-stealing-seized-cryptocurrency-while-serving-prison-sentence",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "복역 중인 사기범이 압류된 29만 달러 암호화폐 탈취를 공모했다.",
+        "what": "사기 혐의로 수감 중인 피고가 정부가 압류한 29만 달러 상당의 암호화폐를 절취하려 공모한 혐의로 추가 기소됐다.",
+        "points": [
+          "압류 암호화폐 29만 달러 탈취 공모",
+          "복역 중 추가 기소",
+          "디지털 자산 압류·보관의 허점 노출"
+        ],
+        "why": [
+          "압류 암호자산의 보관·키 관리 리스크 환기",
+          "사법 절차 내부 통제 필요성"
+        ]
+      }
+    }
+  ]
+}

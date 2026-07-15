@@ -1,0 +1,52 @@
+{
+  "date": "2026-07-15",
+  "weekday": "수",
+  "headline": "OpenAI, 첫 디바이스로 '화면 없는 AI 컴패니언 스피커' 공개",
+  "subtitle": "MS 패치화요일 역대 최대 622건·제로데이 2건, 뉴욕 미국 첫 AI 데이터센터 금지, 애플-OpenAI 소송이 하드웨어 전략 압박",
+  "keyword": "OpenAI 디바이스 · AI 비용 · 제로데이 · AI 규제",
+  "bigStoryId": "tech-openai-device",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:14 CDT",
+  "syncedAt": "09:14",
+  "subscribers": 128842,
+  "market": {
+    "index": "S&P 500",
+    "value": "7,543.59",
+    "change": "▲ 0.38%"
+  },
+  "stats": {
+    "companies": 24,
+    "security": 16,
+    "deals": 5,
+    "policy": 6
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "MS 패치화요일 역대 최대 + 제로데이 2건 실제 악용",
+      "body": "마이크로소프트가 7월 패치 화요일에 622개 취약점을 수정하며 6월 기록을 세 배로 경신했다. ADFS·SharePoint 제로데이 2건이 이미 악용 중이고, SonicWall SMA1000 제로데이와 Entra OAuth 클라이언트 ID 스푸핑까지 겹쳐 인증·협업 인프라 노출면이 급격히 커졌다.",
+      "severity": "8.4",
+      "velocity": "Rising",
+      "action": "ADFS·SharePoint·SMA1000 제로데이 우선 패치, OAuth 모니터링·MFA 강화"
+    },
+    {
+      "kind": "market",
+      "title": "S&P 500, CPI 둔화에 기술주 주도 반등",
+      "body": "소비자물가 둔화 신호에 기술주가 앞장서며 S&P 500이 7,543.59로 0.38% 올랐다. 다만 뉴욕의 미국 첫 AI 데이터센터 건설 금지와 13개 주 전력비 63억 달러 증가 전망은 AI 인프라 비용·규제 부담을 키우는 역풍이다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "OpenAI의 화면 없는 컴패니언 디바이스 공개와 애플 소송(조니 아이브 증언 가능성) 전개, Sol 모델의 자율 파일 삭제 리스크, ShinyHunters의 세일즈포스 OAuth 캠페인 확산 여부를 추적한다."
+    }
+  ]
+}

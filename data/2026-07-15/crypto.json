@@ -1,0 +1,261 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-strategy-mstr",
+      "title": "Strategy, MSTR 주식 4.67억 달러 매각… 80만 BTC는 그대로",
+      "summary": "Strategy가 주식 발행으로 4억6670만 달러를 조달하면서 843,775 BTC 보유는 손대지 않았다. 현금을 30억 달러로 늘리며 비트코인 스택을 보호했다.",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/strategy-sells-467-million-mstr-keeps-843775-btc-stack",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "주식으로 자금을 조달해 80만 BTC 스택을 건드리지 않고 현금을 쌓았다.",
+        "what": "Strategy가 주식 매각으로 4억6670만 달러를 조달하면서 843,775 BTC 보유는 유지했다. 현금 준비금을 30억 달러로 늘리며 비트코인 트레저리를 보호하는 전략이다.",
+        "points": [
+          "주식 발행으로 4.67억 달러 조달",
+          "843,775 BTC 보유 유지",
+          "현금 준비금 30억 달러로 확대"
+        ],
+        "why": [
+          "비트코인 매도 없이 자본을 확보하는 재무 전략",
+          "BTC 트레저리 기업의 자금조달 모델 시사"
+        ]
+      }
+    },
+    {
+      "id": "crypto-circle-downgrade",
+      "title": "월가, Circle에 신중론… Open USD 경쟁 압박",
+      "summary": "미즈호가 우월한 준비금 경제성을 앞세운 Open USD 컨소시엄의 경쟁 압력을 이유로 Circle을 하향했다. 스테이블코인 발행사의 수익 모델이 압박받고 있다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/post/408280/wall-street-cautious-circle-warn-usdc-economics",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "Open USD 컨소시엄의 준비금 경제성이 Circle의 수익 모델을 위협한다.",
+        "what": "미즈호가 Open USD 컨소시엄의 우월한 준비금 경제성으로 인한 경쟁 압력을 이유로 Circle을 하향 조정했다. 새로운 경쟁 구도가 스테이블코인 발행사의 수익 모델을 압박한다는 분석이다.",
+        "points": [
+          "미즈호, 경쟁 압력 이유로 Circle 하향",
+          "Open USD 컨소시엄 준비금 경제성 우위",
+          "스테이블코인 수익 모델 압박"
+        ],
+        "why": [
+          "스테이블코인 시장이 준비금 이자 수익 경쟁으로 재편",
+          "USDC 발행사의 마진 리스크 부각"
+        ]
+      }
+    },
+    {
+      "id": "crypto-layerzero-chainlink",
+      "title": "72억 달러, LayerZero에서 Chainlink CCIP로 이동",
+      "summary": "대형 브리지 익스플로잇을 계기로 Chainlink CCT 표준으로의 대규모 이동이 촉발됐다. 대형 프로토콜·거래소가 CCIP의 토큰 통제·오라클 보안을 선호했다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/07/09/over-usd7-2-billion-have-migrated-from-layerzero-to-chainlink-ccip-as-mantle-joins-exodus",
+      "originalDate": "2026-07-09",
+      "report": {
+        "tldr": "브리지 익스플로잇 이후 72억 달러가 Chainlink CCIP로 옮겨갔다.",
+        "what": "대형 브리지 익스플로잇을 계기로 72억 달러가 LayerZero에서 Chainlink CCIP로 이동했다. 대형 프로토콜과 거래소가 CCIP의 우월한 토큰 통제와 오라클 보안 아키텍처를 선호했다.",
+        "points": [
+          "브리지 익스플로잇이 대이동 촉발",
+          "72억 달러 LayerZero→Chainlink CCIP",
+          "토큰 통제·오라클 보안 선호"
+        ],
+        "why": [
+          "크로스체인 인프라의 보안이 자본 이동의 핵심 변수",
+          "Chainlink 상호운용성 표준의 시장 지배력 강화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sbi-yen-stablecoin",
+      "title": "일본 SBI, 엔화 스테이블코인 대출 '연 3% 수익' 출시",
+      "summary": "SBI VC 트레이드가 12주 만기 연 3% 수익의 엔화 스테이블코인 대출을 개시했다. 전통 예금을 웃도는 수익으로, 2026년 4월 일본의 규제 전환을 반영한다.",
+      "source": "Cointelegraph",
+      "url": "https://cointelegraph.com/news/sbi-stablecoin-lending-service-3-yield-japan",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "SBI가 규제 전환을 발판으로 엔화 스테이블코인 예치에 연 3% 수익을 붙였다.",
+        "what": "SBI VC 트레이드가 12주 만기 연 3% 수익의 엔화 스테이블코인 대출 서비스를 열었다. 전통 예금 금리를 웃도는 수준으로, 2026년 4월 일본의 암호자산 규제 전환이 배경이다.",
+        "points": [
+          "12주 만기 연 3% 수익 엔화 스테이블코인 대출",
+          "전통 예금 금리 상회",
+          "2026년 4월 일본 규제 전환 반영"
+        ],
+        "why": [
+          "규제 명확화가 제도권 스테이블코인 상품을 촉진",
+          "엔화 스테이블코인 시장의 제도적 개화 신호"
+        ]
+      }
+    },
+    {
+      "id": "crypto-robinhood-chain",
+      "title": "RWA의 미래: 로빈후드 체인",
+      "summary": "로빈후드가 토큰화 실물자산을 위한 아비트럼 L2를 출시하며 2800만 개 선충전 계정을 확보했다. 브로커리지 신뢰와 인프라 파트너로 비미국권의 미국 주식 접근을 민주화한다.",
+      "source": "The Index Fi",
+      "url": "https://x.com/TheIndexFi/status/2076444443360551285",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "로빈후드가 2800만 선충전 계정을 얹은 RWA 전용 L2로 미국 주식 접근을 확장한다.",
+        "what": "로빈후드가 토큰화 실물자산(RWA)을 위한 아비트럼 L2를 출시하며 2800만 개 선충전 계정을 확보했다. 브로커리지의 신뢰와 인프라 파트너를 결합해 비미국권 사용자의 미국 주식 접근을 넓힌다.",
+        "points": [
+          "RWA 전용 아비트럼 L2 출시",
+          "2800만 선충전 계정 확보",
+          "비미국권 미국 주식 접근 민주화"
+        ],
+        "why": [
+          "브로커리지가 온체인 RWA 인프라로 확장하는 사례",
+          "토큰화 주식의 리테일 대중화 가능성"
+        ]
+      }
+    },
+    {
+      "id": "crypto-abf-tranching",
+      "title": "자산기반금융은 이미 온체인… 확장은 '트랜칭'으로",
+      "summary": "Midas·Figure 등을 통해 토큰화 자산기반금융이 온체인으로 이동했다. 트랜칭 구조가 투자등급 상품을 가능케 하며, Strata가 6개 라이브 마켓에서 이를 시연한다.",
+      "source": "Strata Markets",
+      "url": "https://x.com/strata_markets/status/2077026704355369366",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "온체인 자산기반금융의 확장 열쇠는 위험을 층위로 나누는 '트랜칭'이다.",
+        "what": "Midas·Figure 등 플랫폼을 통해 토큰화 자산기반금융(ABF)이 온체인으로 이동했다. 트랜칭(위험 계층화) 구조가 투자등급 상품을 가능하게 하며, Strata가 6개 라이브 마켓에서 이를 시연한다.",
+        "points": [
+          "ABF, Midas·Figure로 온체인화",
+          "트랜칭으로 투자등급 상품 구성",
+          "Strata, 6개 라이브 마켓 시연"
+        ],
+        "why": [
+          "전통 구조화금융 기법이 온체인 RWA로 이식",
+          "기관 자본 유입의 구조적 토대 마련"
+        ]
+      }
+    },
+    {
+      "id": "crypto-defi-hack-alarm",
+      "title": "'DeFi 해킹 대재앙'은 오보다",
+      "summary": "2026년 상반기 해킹 건수는 기록적이었지만 손실은 10억 달러 아래로 떨어졌다. 자금이 탄탄한 프로토콜은 피해를 억제한 반면 소규모 프로젝트에 손실이 집중됐다.",
+      "source": "Haseeb Qureshi",
+      "url": "https://x.com/hosseeb/status/2076682247168827849",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "해킹 '건수'는 사상 최다지만 '손실액'은 10억 달러 아래로 이중화됐다.",
+        "what": "하시브 쿠레시는 2026년 상반기 해킹 건수가 기록적이었으나 손실은 10억 달러 아래로 감소했다고 짚는다. 데이터는 자금이 탄탄한 프로토콜은 피해를 억제하고 소규모 프로젝트에 손실이 집중된 이중화를 보여준다.",
+        "points": [
+          "상반기 해킹 건수 사상 최다",
+          "손실액은 10억 달러 아래로 감소",
+          "대형은 억제·소형에 손실 집중"
+        ],
+        "why": [
+          "DeFi 보안이 '건수'보다 '피해 억제력'에서 개선",
+          "프로토콜 자금력·보안 투자 격차 부각"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sec-hyperliquid",
+      "title": "SEC 크립토 태스크포스, Hyperliquid 정책센터와 회동",
+      "summary": "SEC 실무진이 7월 14일 Hyperliquid 정책센터와 규제 현안을 논의했다.",
+      "source": "Wu Blockchain",
+      "url": "https://x.com/WuBlockchain/status/2077102890939019583",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "SEC 태스크포스가 Hyperliquid 정책센터와 규제 현안을 직접 논의했다.",
+        "what": "SEC 크립토 태스크포스 실무진이 7월 14일 Hyperliquid 정책센터와 만나 규제 관련 현안을 논의했다.",
+        "points": [
+          "SEC 실무진, Hyperliquid 정책센터와 회동",
+          "7월 14일 규제 현안 논의",
+          "온체인 파생 플랫폼과 규제 접점"
+        ],
+        "why": [
+          "탈중앙 파생 프로토콜에 대한 규제 관여 신호",
+          "SEC의 크립토 정책 대화 확대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ethsystems",
+      "title": "EthSystems, 기관용 기밀 이더리움 시스템 구축",
+      "summary": "전 이더리움 재단 연구자가 기관 채택을 겨냥한 프라이버시 중심 인프라 EthSystems를 출범했다.",
+      "source": "Oskar Thoren",
+      "url": "https://x.com/oskarth/status/2077000917610909996",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "전 EF 연구자가 기관용 프라이버시 인프라로 이더리움 채택을 겨냥한다.",
+        "what": "전 이더리움 재단 연구자가 기관 채택을 목표로 프라이버시 중심 인프라 EthSystems를 출범했다.",
+        "points": [
+          "전 EF 연구자 창업",
+          "프라이버시 중심 인프라",
+          "기관 이더리움 채택 겨냥"
+        ],
+        "why": [
+          "기관 자본에 필요한 기밀성·규제 대응 인프라 부상",
+          "이더리움의 기관 시장 확장 시도"
+        ]
+      }
+    },
+    {
+      "id": "crypto-tempo-receive",
+      "title": "Tempo, '수신 정책' 도입",
+      "summary": "Tempo가 계정이 들어오는 토큰 전송과 발신자를 제한할 수 있는 프로토콜 수준 통제를 출시했다.",
+      "source": "Tempo",
+      "url": "https://x.com/tempo/status/2076665200611311997",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "계정이 원치 않는 수신 전송을 프로토콜 차원에서 막는 '수신 정책'.",
+        "what": "Tempo가 계정이 들어오는 토큰 전송과 발신자를 제한할 수 있는 프로토콜 수준의 수신 정책을 도입했다.",
+        "points": [
+          "수신 토큰·발신자 제한 기능",
+          "프로토콜 수준 통제",
+          "원치 않는 전송 차단"
+        ],
+        "why": [
+          "더스팅·스팸 토큰 대응 등 온체인 위생 개선",
+          "계정 프라이버시·컴플라이언스에 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "crypto-conferences",
+      "title": "크립토 콘퍼런스는 어떻게 됐나",
+      "summary": "대형 크립토 콘퍼런스가 질 저하를 겪으며 고급 참가자들이 큐레이션 이벤트로 이동한다. 크립토의 제도권 편입과 주요 도시 중심 지리적 집중이 배경이다.",
+      "source": "Jonah Brown",
+      "url": "https://x.com/jonah_b/status/2076708331620855991",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "대형 콘퍼런스의 질 저하로 핵심 인력이 소규모 큐레이션 행사로 옮겨간다.",
+        "what": "메가 크립토 콘퍼런스가 질 저하를 겪으면서 고급 참가자들이 큐레이션된 소규모 이벤트로 이동하고 있다. 크립토의 주류 금융 편입과 주요 도시 중심의 지리적 집중이 원인으로 지목된다.",
+        "points": [
+          "메가 콘퍼런스 질 저하",
+          "고급 참가자 큐레이션 이벤트로 이동",
+          "제도권 편입·지리적 집중이 배경"
+        ],
+        "why": [
+          "산업 성숙에 따른 네트워킹 방식 변화",
+          "크립토 커뮤니티 지형의 재편 신호"
+        ]
+      }
+    },
+    {
+      "id": "crypto-solo-miner",
+      "title": "솔로 비트코인 채굴자, 150달러 장비로 20만 달러 잭팟",
+      "summary": "저가 채굴 장비를 돌리던 솔로 채굴자가 극악의 확률을 뚫고 3.1382 BTC 블록을 채굴했다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/14/solo-btc-miner-makes-usd200-000-using-usd150-equipment",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "150달러 장비의 솔로 채굴자가 확률을 뚫고 3.14 BTC 블록을 캤다.",
+        "what": "150달러짜리 저가 채굴 장비를 돌리던 솔로 채굴자가 극히 낮은 확률을 뚫고 3.1382 BTC(약 20만 달러) 블록을 채굴했다.",
+        "points": [
+          "150달러 장비 솔로 채굴",
+          "3.1382 BTC 블록 획득(약 20만 달러)",
+          "극악의 확률 돌파"
+        ],
+        "why": [
+          "비트코인 채굴의 복권성·탈중앙성 상징 사례",
+          "솔로 채굴 로또의 매력 재조명"
+        ]
+      }
+    }
+  ]
+}

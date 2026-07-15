@@ -1,0 +1,219 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-tinder-rebrand",
+      "title": "틴더, 10년 만의 첫 리브랜드… '연애 칼럼니스트'의 목소리",
+      "summary": "틴더가 더 대담한 비주얼과 연애 칼럼니스트풍 편집 보이스를 도입했다. 불꽃 아이콘·타이포·컬러를 새로 하고 진정성 있는 사진과 문화 레퍼런스로 'Gen Z의 모순'을 끌어안는다.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/features/porto-rocha-tinder-rebrand-graphic-design-spotlight-140726",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "틴더가 대담한 비주얼과 편집 보이스로 Gen Z의 모순을 끌어안는 리브랜드.",
+        "what": "틴더가 거의 10년 만의 리브랜드로 더 대담한 비주얼과 연애 칼럼니스트에서 영감받은 편집 보이스를 도입했다. 불꽃 아이콘·타이포그래피·컬러 팔레트를 새로 하고, 진부한 이미지 대신 진정성 있는 사진과 문화 레퍼런스로 'Gen Z의 모순'을 표현한다.",
+        "points": [
+          "불꽃 아이콘·타이포·컬러 전면 개편",
+          "연애 칼럼니스트풍 편집 보이스",
+          "진정성 사진·문화 레퍼런스 활용"
+        ],
+        "why": [
+          "데이팅 브랜드의 톤앤매너가 편집·문화 코드로 이동",
+          "Gen Z 타깃 브랜딩의 진정성 전략 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-openai-jony-ive",
+      "title": "OpenAI가 애플을 조니 아이브와 껄끄러운 싸움으로 몰 수 있다",
+      "summary": "애플의 OpenAI 소송이 io Products에 몸담은 조니 아이브의 증언을 부를 수 있다. 애플이 가장 존경받던 전직 임원을 반박해야 하는 긴장이 생긴다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/07/13/openai-could-force-apple-into-an-awkward-fight-with-jony-ive/",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "소송이 조니 아이브를 증언대에 세워 애플에 껄끄러운 대치를 만든다.",
+        "what": "애플의 OpenAI 소송이 io Products에서 활동 중인 조니 아이브의 증언을 요구할 수 있다. 애플이 '가장 존경받던 전직 임원'을 반박해야 하는 상황이 되어 양측 관계가 복잡해진다.",
+        "points": [
+          "조니 아이브 증언 가능성",
+          "애플, 전직 스타 임원과 대치",
+          "디자인 아이콘을 둘러싼 법적 긴장"
+        ],
+        "why": [
+          "하드웨어·디자인 인재를 둘러싼 빅테크 갈등 상징",
+          "OpenAI 첫 디바이스 공개와 맞물린 리스크"
+        ]
+      }
+    },
+    {
+      "id": "design-meta-eu-addictive",
+      "title": "메타, EU법 위반 판정… 인스타·페북 '중독적' 디자인",
+      "summary": "유럽집행위가 무한 스크롤·자동재생 등 사용자 웰빙을 해치는 디자인으로 메타가 디지털서비스법을 위반했다고 판정했다. 메타는 반박했고 올해 두 번째 위반이다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/10/meta-instagram-facebook-addictive-design-breach-eu-laws.html",
+      "originalDate": "2026-07-10",
+      "report": {
+        "tldr": "EU가 무한 스크롤·자동재생을 '중독적 디자인'으로 규정해 DSA 위반 판정.",
+        "what": "유럽집행위원회가 무한 스크롤·자동재생 같은 기능이 사용자 웰빙을 해친다며 메타가 디지털서비스법(DSA)을 위반했다고 판정했다. 메타는 10대 계정 제한 등을 들어 반박했으며, 올해 두 번째 EU 위반이다.",
+        "points": [
+          "무한 스크롤·자동재생을 '중독적 디자인'으로 규정",
+          "DSA 위반 판정",
+          "메타 반박·올해 두 번째 위반"
+        ],
+        "why": [
+          "다크패턴·인게이지먼트 디자인이 규제 표적으로",
+          "제품 UX 설계에 규제 리스크 반영 필요"
+        ]
+      }
+    },
+    {
+      "id": "design-interface-left",
+      "title": "인터페이스가 건물을 떠났다",
+      "summary": "UX가 화면 기반에서 AI로 구동되는 '의도 중심' 경험으로 이동한다. 채팅·음성·자율 에이전트 속에서 디자이너는 투명성·사용자 통제·명확한 시스템 동작으로 신뢰를 설계해야 한다.",
+      "source": "UX Design",
+      "url": "https://uxdesign.cc/the-interface-has-left-the-building-8fdb558d33a9",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "화면 중심 UX가 저물고 '의도 중심·에이전트' 경험 설계가 부상한다.",
+        "what": "UX 디자인이 화면 기반 인터페이스에서 채팅·음성·자율 에이전트로 구동되는 '의도 중심' 경험으로 이동하고 있다. AI가 더 많은 책임을 맡는 만큼 디자이너는 투명성, 사용자 통제, 명확한 시스템 동작으로 신뢰를 설계해야 한다.",
+        "points": [
+          "화면 → 의도 중심·에이전트 경험 전환",
+          "채팅·음성 인터페이스 부상",
+          "투명성·통제·명확성으로 신뢰 설계"
+        ],
+        "why": [
+          "AI 시대 UX의 역할 재정의",
+          "디자이너의 초점이 화면에서 신뢰·행동 예측으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "design-founding-designer",
+      "title": "AI 스타트업, 창립 디자이너를 처음부터 전략적 채용으로",
+      "summary": "창립 디자이너가 AI 스타트업의 초기 전략적 채용이 되어 제품과 브랜드를 통합해야 한다. 소프트웨어 제작이 쉬워질수록 차별화는 기술보다 브랜드 일관성·신뢰에 달린다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/tingyu-su-founding-designer-ai-startups-strategic-hire",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "소프트웨어가 값싸질수록 차별화는 브랜드·신뢰, 즉 창립 디자이너에게 달린다.",
+        "what": "창립 디자이너를 AI 스타트업의 초기 전략적 채용으로 삼아 제품과 브랜드를 통합해야 한다는 주장이다. 소프트웨어 제작이 쉬워질수록 지속적 차별화는 기술이 아니라 '브랜드 일관성과 신뢰'에서 나온다.",
+        "points": [
+          "창립 디자이너 = 초기 전략적 채용",
+          "제품·브랜드 통합 역할",
+          "차별화는 기술보다 브랜드·신뢰"
+        ],
+        "why": [
+          "AI로 기능 복제가 쉬워진 시대의 차별화 전략",
+          "디자인의 전략적 위상 상승"
+        ]
+      }
+    },
+    {
+      "id": "design-trust-human",
+      "title": "결국 사람은 의사결정 뒤의 '인간'을 신뢰해야 한다",
+      "summary": "빈약한 리더십은 AI를 디자이너 대체재로 프레이밍하지만, 효과적 도입은 협업 워킹그룹을 통해 창의성 시간을 늘리면서 인간의 판단과 크래프트를 지킨다.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-140726",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "AI는 디자이너 대체재가 아니라 창의성 시간을 늘리는 도구여야 한다.",
+        "what": "빈약한 리더십은 AI를 디자이너 대체재로 프레이밍하지만, 효과적 도입은 협업 워킹그룹을 통해 '창의성을 위한 시간'을 늘리면서 인간의 판단과 크래프트를 보존한다는 관점이다.",
+        "points": [
+          "AI를 대체재로 보는 리더십의 오류",
+          "협업 워킹그룹 통한 사려 깊은 도입",
+          "인간 판단·크래프트 보존"
+        ],
+        "why": [
+          "창작 조직의 AI 도입 철학 제시",
+          "효율화와 인간 중심 가치의 양립"
+        ]
+      }
+    },
+    {
+      "id": "design-accessibility-ai",
+      "title": "AI 시대의 접근성",
+      "summary": "AI가 접근성 테스트·지원을 가속하는 동시에, 문서화된 웹 접근성 오류 증가도 함께 부추긴다.",
+      "source": "Tetralogical",
+      "url": "https://tetralogical.com/blog/2026/07/13/accessibility-in-the-age-of-ai/",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "AI는 접근성 지원을 돕는 동시에 접근성 오류도 늘리는 양날의 검이다.",
+        "what": "AI가 접근성 테스트와 지원을 가속하는 한편, 웹사이트의 접근성 오류 증가도 함께 부추긴다는 분석이다.",
+        "points": [
+          "AI가 접근성 테스트·지원 가속",
+          "동시에 접근성 오류 증가",
+          "자동화의 명암 공존"
+        ],
+        "why": [
+          "AI 생성 UI의 접근성 품질 관리 필요",
+          "디자이너·개발자의 검증 책임 강조"
+        ]
+      }
+    },
+    {
+      "id": "design-brand-strategy-visual",
+      "title": "킥오프에서 첫 컨셉까지: 브랜드 전략을 비주얼 방향으로",
+      "summary": "브랜딩의 성패는 모호한 용어가 '구체적·실행 가능한 방향'이 되는 컨셉 이전 단계에서 갈린다. 체크리스트로 컨셉 전 가정 해소를 확인한다.",
+      "source": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/2026/07/how-turn-brand-strategy-into-visual-direction/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "브랜딩은 컨셉 이전, 전략을 구체적 방향으로 번역하는 단계에서 성패가 갈린다.",
+        "what": "성공적 브랜딩은 모호한 용어가 리서치·이해관계자 훈련을 통해 '구체적이고 실행 가능한 방향'이 되는 컨셉 이전 단계에서 결정된다. 체크리스트로 컨셉 설계 전 가정을 해소하도록 돕는다.",
+        "points": [
+          "컨셉 이전 단계가 성패 좌우",
+          "모호함 → 구체적 방향으로 번역",
+          "체크리스트로 가정 해소"
+        ],
+        "why": [
+          "브랜드 전략-비주얼 간극을 메우는 실무 방법론",
+          "디자인 착수 전 정렬의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "design-toolkit",
+      "title": "디자인 툴킷을 디자인하기: 성공적 워크숍의 숨은 설계",
+      "summary": "디자인 툴킷은 워크숍에서 경계 객체·리서치 인프라·종합 산출물로 작동하는 협업 동력이다. 세심하게 설계된 경험이 협업의 성격 자체를 형성한다.",
+      "source": "Design Wanted",
+      "url": "https://designwanted.com/design-toolkit-hidden-design-behind-workshops/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "잘 설계된 툴킷이 워크숍 협업의 성격 자체를 좌우한다.",
+        "what": "디자인 툴킷은 워크숍에서 경계 객체, 리서치 인프라, 종합 산출물로 기능하는 핵심 협업 동력이다. 세심하게 설계된 이 경험이 참가자들이 도착하기 전부터 협업의 성격을 형성한다.",
+        "points": [
+          "툴킷 = 경계 객체·리서치·종합 산출물",
+          "협업 동력으로 작동",
+          "설계가 협업 성격 결정"
+        ],
+        "why": [
+          "워크숍·퍼실리테이션 설계의 전략적 가치",
+          "협업 결과물 품질의 숨은 변수"
+        ]
+      }
+    },
+    {
+      "id": "design-threetenseven-health",
+      "title": "ThreeTenSeven, 미래건강연구 리브랜드로 관습에 도전",
+      "summary": "진화하는 헬스케어 십자가, 픽셀풍 타이포, 대담한 컬러로 전형적 헬스케어 미감을 피한다. 건강정책 기관의 '미래 성장용 유연 시스템'을 만든다.",
+      "source": "Design Week",
+      "url": "https://www.designweek.co.uk/threetensevens-dynamic-rebrand-for-future-health-research-challenges-conventions/",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "전형적 헬스케어 미감을 벗어난 유연한 리브랜드 시스템.",
+        "what": "ThreeTenSeven의 리브랜드는 진화하는 헬스케어 십자가, 픽셀에서 영감받은 타이포그래피, 대담한 컬러로 전형적 헬스케어 미감을 피한다. 건강정책 기관을 위한 '미래 성장용 유연 시스템'을 만들어 차별화한다.",
+        "points": [
+          "진화하는 헬스케어 십자가 모티프",
+          "픽셀풍 타이포·대담한 컬러",
+          "미래 성장용 유연 시스템"
+        ],
+        "why": [
+          "보수적 산업의 브랜드 차별화 사례",
+          "유연한 아이덴티티 시스템 설계 트렌드"
+        ]
+      }
+    }
+  ]
+}

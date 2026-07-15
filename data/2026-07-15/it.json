@@ -1,0 +1,228 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-shinyhunters-salesforce",
+      "title": "MS, ShinyHunters의 세일즈포스 '3대 공격경로' 1년치 활동 정리",
+      "summary": "마이크로소프트가 약 1년간 지속된 ShinyHunters의 세일즈포스 표적 활동을 문서화했다. 플랫폼 취약점이 아니라 세 갈래 경로로 정상 인증 흐름에 섞여들어 로그인 후 API 접근을 남용했다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html",
+      "originalDate": "2026-07-15",
+      "intel": {
+        "impact": "High",
+        "confidence": "82%",
+        "owner": "IT · Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "Salesforce · OAuth · SaaS"
+      },
+      "report": {
+        "tldr": "취약점이 아닌 '정상 인증 흐름 편승'이 1년째 세일즈포스를 노린 핵심 수법이다.",
+        "what": "마이크로소프트는 ShinyHunters가 약 1년간 세일즈포스 환경을 겨냥해온 활동을 세 갈래 공격경로로 정리했다. 이들은 플랫폼 결함을 뚫기보다 정상 인증 흐름에 섞여들어 로그인 후 API 접근을 남용했다.",
+        "points": [
+          "플랫폼 취약점 대신 정상 인증 흐름 편승",
+          "3대 공격경로로 세일즈포스 표적",
+          "로그인 후 API 접근 남용"
+        ],
+        "why": [
+          "SaaS 보안의 초점이 '취약점 패치'에서 '아이덴티티·토큰 거버넌스'로 이동",
+          "정상처럼 보이는 접근 탐지가 IT 운영의 핵심 과제"
+        ],
+        "action": "세일즈포스 연결 앱·OAuth 토큰 감사, 로그인 후 이상 API 접근 모니터링"
+      }
+    },
+    {
+      "id": "it-1password-ai-spend",
+      "title": "1Password, AI 비용관리 진출 — '토큰 지출이 다음 예산 위기'",
+      "summary": "1Password가 AI 도구를 발견·추적하고 토큰 사용을 팀별로 귀속하는 'AI Spend'를 출시했다. AI 에이전트 소비가 클라우드에 이은 새 지출 범주라는 판단이다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/security/1password-moves-into-ai-cost-management-betting-that-token-spend-is-the-next-enterprise-budget-crisis",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "1Password가 '토큰 지출'을 클라우드급 신규 IT 예산 항목으로 겨냥한다.",
+        "what": "1Password가 조직의 AI 도구를 자동 발견하고 토큰 사용량을 추적해 팀별 비용을 귀속하는 'AI Spend'를 내놨다. AI 에이전트 소비가 관리가 필요한 새로운 클라우드형 지출 범주라는 문제의식이 배경이다.",
+        "points": [
+          "AI 도구 발견 + 토큰 사용 추적 + 팀별 비용 귀속",
+          "섀도우 AI·비용 가시성 문제 겨냥",
+          "모세리 '토큰 예산 상한' 발언과 궤를 같이함"
+        ],
+        "why": [
+          "AI 비용 거버넌스가 IT 관리의 신규 표준 영역으로 부상",
+          "FinOps 도구 시장에 보안·아이덴티티 기업이 진입"
+        ]
+      }
+    },
+    {
+      "id": "it-entra-passkeys",
+      "title": "MS Entra ID, 9월부터 '패스키 기본 인증'",
+      "summary": "마이크로소프트가 9월 1일부터 Entra ID를 패스키 우선 인증으로 전환하며 SMS·음성 사용자를 자동으로 패스키 등록에 편입한다. 자사 SMS·음성 방식은 2월 1일 종료된다.",
+      "source": "Microsoft Security Blog",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/07/13/microsoft-entra-id-security-updates-passkeys-are-the-default-authentication-method-in-entra-id/",
+      "originalDate": "2026-07-13",
+      "report": {
+        "tldr": "Entra ID가 패스키 우선으로 전환하고 자사 SMS·음성 인증을 단계적으로 없앤다.",
+        "what": "마이크로소프트가 9월 1일부터 Entra ID를 패스키 우선 인증으로 바꾸며 SMS·음성 사용자를 패스키 등록에 자동 편입한다. 자사 제공 SMS·음성 방식은 2월 1일 종료되나 통신 파트너 대안은 유지된다.",
+        "points": [
+          "9/1 패스키 기본 인증 전환",
+          "SMS·음성 사용자 패스키 자동 등록",
+          "MS 자사 SMS·음성 2/1 종료(파트너 대안 유지)"
+        ],
+        "why": [
+          "피싱 저항 인증으로의 대규모 강제 전환",
+          "IT팀은 패스키 배포·예외 처리 준비 필요"
+        ],
+        "action": "Entra 사용자 패스키 등록 캠페인·예외 경로 사전 설계"
+      }
+    },
+    {
+      "id": "it-fortinet-fortiendpoint",
+      "title": "포티넷, FortiEndpoint에 AI 모니터링·데이터 통제 확장",
+      "summary": "포티넷이 FortiEndpoint에 섀도우 AI 발견, DLP, 자연어 질의 기능을 3분기에 추가한다. 엔드포인트 보안·접근통제·데이터 보호를 단일 에이전트·콘솔로 통합한다.",
+      "source": "SiliconAngle",
+      "url": "https://siliconangle.com/2026/07/14/fortinet-expands-fortiendpoint-ai-monitoring-data-controls/",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "FortiEndpoint가 섀도우 AI 탐지·DLP를 얹어 엔드포인트 보안을 통합한다.",
+        "what": "포티넷이 FortiEndpoint에 섀도우 AI 발견, 데이터 손실 방지(DLP), 자연어 질의 기능을 3분기에 추가한다. 엔드포인트 보안·접근통제·데이터 보호를 단일 에이전트와 콘솔로 통합하는 방향이다.",
+        "points": [
+          "섀도우 AI 발견 + DLP + 자연어 질의 추가",
+          "3분기 출시 예정",
+          "단일 에이전트·콘솔 통합 아키텍처"
+        ],
+        "why": [
+          "섀도우 AI가 엔드포인트 보안의 새 관리 대상으로 편입",
+          "보안 벤더들의 AI 거버넌스 기능 경쟁 가속"
+        ]
+      }
+    },
+    {
+      "id": "it-slackbot-memory",
+      "title": "슬랙봇, 메모리·MCP·음성 탑재",
+      "summary": "슬랙이 슬랙봇에 자율 액션 실행, 외부 정보 검색, 조직 맥락 학습, 음성 지원을 추가했다. 팀 메모리와 MCP를 통한 외부 앱 연동이 핵심이다.",
+      "source": "Slack Blog",
+      "url": "https://slack.com/intl/en-gb/blog/news/the-ai-that-knows-your-work-and-organization",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "슬랙봇이 메모리·MCP·음성을 갖춘 조직 맥락 인식 에이전트로 진화했다.",
+        "what": "슬랙이 최근 몇 달간 슬랙봇을 확장해 자율 액션 실행, 외부 정보 검색, 조직 맥락 학습, 음성 상호작용을 추가했다. 팀 메모리 기능과 외부 앱을 잇는 MCP 연동을 전면에 내세웠다.",
+        "points": [
+          "자율 액션 + 외부 검색 + 조직 맥락 학습",
+          "팀 메모리 기능 강화",
+          "MCP로 외부 앱 연동"
+        ],
+        "why": [
+          "업무 협업툴이 조직 지식 기반 에이전트로 재정의",
+          "클로드 태그 슬랙 취약점과 함께 권한·입력 검증 이슈도 부각"
+        ]
+      }
+    },
+    {
+      "id": "it-service-vendors-ai",
+      "title": "당신의 서비스 벤더가 AI 중심으로 재편되고 있다",
+      "summary": "AI 네이티브 기업들이 전통 서비스 제공사를 인수해 인력 집약 딜리버리를 자율 에이전트로 대체하고, 결과 기반 과금으로 전환한다. CIO는 결과 검증과 AI 거버넌스 평가를 강화해야 한다.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4196348/your-service-vendors-are-being-rebuilt-around-ai.html",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "AI 네이티브 기업이 서비스사를 인수하며 '인력→에이전트, 결과 기반 과금'으로 전환한다.",
+        "what": "AI 네이티브 기업들이 전통 서비스 제공사를 인수해 인력 집약 딜리버리를 자율 에이전트로 대체하고 과금 모델을 성과 기반으로 옮기고 있다. CIO는 결과를 독립적으로 검증하고 벤더의 AI 거버넌스·감사가능성·에스컬레이션·계약조건을 엄격히 평가해야 한다.",
+        "points": [
+          "서비스사 인수 → 인력 딜리버리를 에이전트로 대체",
+          "결과(outcome) 기반 과금으로 전환",
+          "CIO의 결과 검증·거버넌스 평가 중요"
+        ],
+        "why": [
+          "아웃소싱·서비스 조달 모델의 근본 재편",
+          "AI 거버넌스·감사 조항이 계약의 핵심 변수로"
+        ]
+      }
+    },
+    {
+      "id": "it-datacenter-power-costs",
+      "title": "데이터센터, 13개 주 전력비 63억 달러 증가",
+      "summary": "데이터센터 전력 수요로 13개 주와 워싱턴 D.C.의 전기요금이 63억 달러 늘어난다. 지역 그리드 확장이 소비 증가 속도를 따라가지 못하고 있다.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/07/14/business/energy-environment/pjm-electricity-prices-data-centers.html",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "AI 데이터센터 수요가 13개 주 전기요금을 63억 달러 끌어올린다.",
+        "what": "데이터센터 전력 수요 급증으로 13개 주와 워싱턴 D.C.의 소비자·기업 전기요금이 63억 달러 증가할 전망이다. 지역 그리드(PJM) 확장이 소비 증가를 따라가지 못하는 것이 배경이다.",
+        "points": [
+          "13개 주·DC 전기요금 63억 달러↑",
+          "PJM 그리드 확장이 수요 못 따라감",
+          "데이터센터가 요금 인상 주요인"
+        ],
+        "why": [
+          "뉴욕의 AI 데이터센터 금지와 함께 전력·비용 갈등 확대",
+          "AI 인프라의 사회적 비용이 규제·요금 이슈로 표면화"
+        ]
+      }
+    },
+    {
+      "id": "it-portfolio-software",
+      "title": "소프트웨어를 포트폴리오로: 인큐베이트·컴파운드·리파이낸스·청산",
+      "summary": "소프트웨어를 변화하는 자산 포트폴리오로 다루며, 불확실성 감소·비용 증가에 따라 네 경제 단계로 제품을 조직하자는 프레임워크다. 가치 없이 투자만 이어지는 '빌드 트랩'을 경계한다.",
+      "source": "Cutlefish",
+      "url": "https://cutlefish.substack.com/p/tbm-430-incubate-compound-refinance",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "제품을 네 경제 단계로 나눠 '빌드 트랩'을 피하는 포트폴리오 사고법.",
+        "what": "소프트웨어를 변화하는 자산의 포트폴리오로 보고, 불확실성이 줄고 비용이 커지는 흐름에 따라 인큐베이트·컴파운드·리파이낸스·청산의 네 단계로 조직하자는 제안이다. 조직적 가치 없이 투자만 지속하는 '빌드 트랩'을 경계한다.",
+        "points": [
+          "소프트웨어 = 변화하는 자산 포트폴리오",
+          "네 단계(인큐베이트/컴파운드/리파이낸스/청산)로 관리",
+          "빌드 트랩 경계"
+        ],
+        "why": [
+          "제품·엔지니어링 투자 배분의 경제적 프레임 제공",
+          "가치 없는 지속 투자에 대한 규율 제시"
+        ]
+      }
+    },
+    {
+      "id": "it-what-left-work",
+      "title": "우리에게 남을 일은 무엇인가 (ICML 2026 키노트)",
+      "summary": "ICML 2026 키노트가 AI 발전 속 일자리 불안을 다루며 '급작스러운 소멸' 서사를 반박한다. 미래 노동은 대체가 아니라 인간-AI 협업으로 근본적으로 변한다고 본다.",
+      "source": "Normal Tech AI",
+      "url": "https://www.normaltech.ai/p/what-will-be-left-for-us-to-work",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "일자리 '급소멸' 서사 대신 인간-AI 협업으로의 근본 전환을 제시한다.",
+        "what": "ICML 2026 키노트는 AI 역량 발전에 따른 노동시장 불안을 다루며 '갑작스러운 일자리 소멸' 서사를 반박한다. 미래의 일은 전면 대체가 아니라 인간-AI 협업으로 근본적으로 변형될 것이라 본다.",
+        "points": [
+          "'급작스러운 일자리 소멸' 서사 반박",
+          "미래 노동 = 인간-AI 협업으로 변형",
+          "역량 전환·재교육 강조"
+        ],
+        "why": [
+          "AI 시대 노동·조직 담론의 균형 잡힌 시각 제공",
+          "a16z '고용 확대' 관점과 궤를 같이함"
+        ]
+      }
+    },
+    {
+      "id": "it-wireless-textbook",
+      "title": "무료 대학원 교재: 무선통신의 기초 (스탠퍼드)",
+      "summary": "스탠퍼드가 물리계층 무선통신 원리를 폭넓게 다룬 오픈액세스 대학원 교재를 공개했다. 학습용 실습 문제도 포함한다.",
+      "source": "Stanford University",
+      "url": "https://web.stanford.edu/~dntse/wireless_book.html",
+      "originalDate": "2026-07-15",
+      "report": {
+        "tldr": "물리계층 무선통신을 다룬 스탠퍼드 오픈액세스 교재가 무료 공개됐다.",
+        "what": "스탠퍼드가 물리계층 무선통신 원리를 종합적으로 다루는 오픈액세스 대학원 교재를 공개했다. 학습자를 위한 실습 문제도 포함한다.",
+        "points": [
+          "물리계층 무선통신 원리 종합",
+          "대학원 수준 오픈액세스",
+          "실습 문제 포함"
+        ],
+        "why": [
+          "무료 고품질 학습 자료로 엔지니어 역량 강화에 유용",
+          "통신·엣지 인프라 이해의 기초 제공"
+        ]
+      }
+    }
+  ]
+}
