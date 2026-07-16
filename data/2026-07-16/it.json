@@ -1,0 +1,241 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-ibm-earnings-warning",
+      "title": "IBM 주가 폭락, IT 업계 전체에 보내는 경고",
+      "summary": "IBM의 부진한 실적이 기업들의 IT 예산이 전통 소프트웨어·인프라에서 AI 데이터센터 투자로 옮겨가는 신호일 수 있다는 우려를 낳고 있다.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/83aa00c5-e773-47be-b76d-5e15ea43eb3a?syn-25a6b1a6=1&utm_source=tldrit",
+      "report": {
+        "tldr": "IBM의 부진한 실적이 기업 IT 예산의 무게중심이 AI 데이터센터 투자로 옮겨가는 신호일 수 있다는 우려를 낳고 있다.",
+        "what": "AI 지출이 다른 기술 구매를 밀어내기 시작했다는 우려가 커지는 가운데, 메모리 칩과 가속기 등 AI 하드웨어 비용 상승은 AI 인프라 지출을 더 변동성 크게 만들고 AI 서비스 가격을 계속 높게 유지할 수 있다.",
+        "points": [
+          "IBM 실적 부진이 IT 예산 이동의 신호로 해석",
+          "AI 지출이 전통 소프트웨어·인프라 구매를 잠식할 우려",
+          "메모리 칩·가속기 등 AI 하드웨어 비용 상승",
+          "AI 인프라 지출 변동성 확대 가능성"
+        ],
+        "why": [
+          "AI 투자 집중이 IT 업계 전반의 지출 구조를 재편하고 있다는 신호"
+        ]
+      }
+    },
+    {
+      "id": "it-2026-state-of-saas-report",
+      "title": "2026 SaaS 현황 보고서, 앱은 41% 늘었지만 혼란은 그대로",
+      "summary": "베터클라우드 조사에서 IT 승인 앱은 56%에 그쳤고, IT 리더의 62%는 수작업이 전략 프로젝트를 가로막는다고 답했다.",
+      "source": "BetterCloud",
+      "url": "https://www.bettercloud.com/monitor/the-2026-state-of-saas-report/?utm_source=tldrit",
+      "report": {
+        "tldr": "SaaS 스택이 AI 주도로 다시 성장하며 중견기업의 평균 앱 수가 1년 새 41% 증가했다.",
+        "what": "베터클라우드가 IT·보안 전문가 525명을 대상으로 조사한 결과, 사용 중인 앱의 56%만 IT 승인을 받은 상태였고, IT 리더의 62%는 수작업이 전략 프로젝트를 가로막는다고 답했으며 90%는 여전히 진정한 크로스앱 자동화가 부재하다고 답했다.",
+        "points": [
+          "중견기업 평균 앱 수 1년새 41% 증가",
+          "사용 앱의 56%만 IT 승인 상태",
+          "IT 리더 62%, 수작업이 전략 프로젝트 방해",
+          "90%가 진정한 크로스앱 자동화 부재라고 응답"
+        ],
+        "why": [
+          "AI 주도 SaaS 확산이 거버넌스 공백을 다시 키우고 있음"
+        ]
+      }
+    },
+    {
+      "id": "it-atlassian-jira-agentic-workflows",
+      "title": "아틀라시안, 지라를 에이전틱 엔지니어링 워크플로우 허브로 확장",
+      "summary": "클로드 코드, 커서, 깃허브 코파일럿에 이어 곧 오픈AI 코덱스까지 지라에 통합된다.",
+      "source": "DevOps.com",
+      "url": "https://devops.com/atlassian-extends-ai-reach-of-jira-into-agentic-engineering-workflows/?utm_source=tldrit",
+      "report": {
+        "tldr": "아틀라시안이 지라를 에이전틱 소프트웨어 개발 관리 허브로 전환하며 주요 코딩 에이전트들과 통합했다.",
+        "what": "새 기능은 지라 티켓을 리뷰 준비가 된 풀리퀘스트로 변환하고, 기술 명세를 생성하며, 백그라운드 개발 작업을 자동화하고, 프로젝트 전반의 AI 도구·토큰 지출을 추적할 수 있다.",
+        "points": [
+          "클로드 코드·커서·깃허브 코파일럿 통합, 코덱스도 예정",
+          "티켓 → 리뷰 준비된 PR 자동 변환",
+          "기술 명세 자동 생성 및 백그라운드 작업 자동화",
+          "AI 도구·토큰 지출 프로젝트별 추적"
+        ],
+        "why": [
+          "프로젝트 관리 도구가 에이전틱 개발의 중앙 허브로 진화하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "it-context-moat-enterprise",
+      "title": "'컨텍스트 해자'는 실재하지만, 대부분 기업엔 아직 없다",
+      "summary": "많은 기업이 자체 데이터·워크플로우 없이 컨텍스트 보호만으로 AI 해자를 만들 수 있다고 과장된 기대를 갖고 있다.",
+      "source": "Substack",
+      "url": "https://vinvashishta.substack.com/p/the-context-moat-is-real-but-most?utm_source=tldrit",
+      "report": {
+        "tldr": "기업들은 독점 모델 지식(컨텍스트) 보호만으로 경쟁 우위를 만들 수 있다고 과대평가받아 왔다.",
+        "what": "벤더들은 컨텍스트 보호와 AI를 폐쇄적 경계 안으로 옮기는 것을 강조하지만, 정작 대부분 기업은 가치 있고 지속적으로 개선되는 학습 정보를 만들어낼 실제 컨텍스트 데이터와 워크플로우를 갖추지 못했다.",
+        "points": [
+          "컨텍스트 해자 개념이 과대 포장되어 판매되는 경향",
+          "대부분 기업은 실질적 컨텍스트 데이터·워크플로우 부재",
+          "벤더는 폐쇄적 경계 내 AI 운영을 강조"
+        ],
+        "why": [
+          "AI 경쟁 우위 전략을 재점검할 필요성을 제기"
+        ]
+      }
+    },
+    {
+      "id": "it-cisco-ai-scale-firewall-test",
+      "title": "시스코, AI 스케일 방화벽 제3자 테스트에서 테스트 도구 한계 돌파",
+      "summary": "시스코 시큐어 방화벽 6160이 NetSecOPEN 테스트 용량을 초과하며 269.59Gbps HTTP 트래픽을 검사했다.",
+      "source": "Cisco Blogs",
+      "url": "https://blogs.cisco.com/security/we-third-party-tested-our-firewall-built-for-ai-scale-the-test-tools-hit-their-limit-first?utm_source=tldrit",
+      "report": {
+        "tldr": "시스코 시큐어 방화벽 6160이 제3자 테스트에서 테스트 도구 자체의 한계를 넘어서는 성능을 기록했다.",
+        "what": "HTTP 트래픽 269.59Gbps, HTTPS 트래픽 222.37Gbps 검사와 560만 동시 연결을 방화벽 한계에 도달하지 않고 처리했다. 악성코드, 우회 기법, 공개·비공개 CVE를 포함한 테스트 대상 위협 5,388건을 부하 상태에서도 모두 차단했다.",
+        "points": [
+          "HTTP 269.59Gbps, HTTPS 222.37Gbps 검사 처리",
+          "560만 동시 연결 처리, 방화벽 한계 도달 안 함",
+          "테스트 위협 5,388건 전체 차단(악성코드·우회기법·CVE 포함)"
+        ],
+        "why": [
+          "AI 스케일 트래픽에 대응하는 네트워크 보안 장비 성능 기준이 상향되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "it-openai-codex-micro-keyboard",
+      "title": "하드웨어 소송 와중에도, 오픈AI가 230달러 키보드 출시",
+      "summary": "코덱스 마이크로는 워크루더와 함께 만든 AI 코딩 에이전트 제어용 프로그래머블 미니 키보드다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/?utm_source=tldrit",
+      "report": {
+        "tldr": "오픈AI가 하드웨어 관련 법적 분쟁 속에서도 코덱스 전용 230달러 키보드를 출시했다.",
+        "what": "조명 키가 에이전트 상태를 표시하며, 조이스틱과 다이얼, 음성 입력, 커스터마이즈 가능한 단축키로 개발자가 작업을 전환하고 변경 사항을 승인하며 추론 수준을 조정할 수 있다.",
+        "points": [
+          "230달러 프로그래머블 미니 키보드 '코덱스 마이크로'",
+          "조명 키로 에이전트 상태 표시",
+          "조이스틱·다이얼·음성입력·커스텀 단축키 지원"
+        ],
+        "why": [
+          "AI 코딩 에이전트 전용 하드웨어 경쟁이 본격화"
+        ]
+      }
+    },
+    {
+      "id": "it-oak-identity-stealth",
+      "title": "6000만달러 펀딩 받은 오크, AI 에이전트발 아이덴티티 혼란 해결 나서",
+      "summary": "직원·머신·AI 에이전트 접근을 아우르는 통합 제어 플레인을 갖춘 아이덴티티 스타트업이 스텔스에서 나왔다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/backed-by-60m-in-funding-oak-steps-out-of-stealth-to-fix-the-identity-mess-that-ai-agents-are-making-worse/?utm_source=tldrit",
+      "report": {
+        "tldr": "아이덴티티 스타트업 오크가 6000만달러 시드 펀딩과 함께 정식 출시됐다.",
+        "what": "오크의 플랫폼은 권한을 실제 애플리케이션 사용 현황과 매핑하고 불필요한 접근을 실시간으로 제거한다. 액셀, CRV, 그레이록이 주도한 6000만달러 시드 펀딩과 함께 기업 고객 확보를 시작했다.",
+        "points": [
+          "직원·머신·AI 에이전트 접근 통합 제어 플레인",
+          "실사용 기준 권한 매핑 및 실시간 불필요 접근 제거",
+          "액셀·CRV·그레이록 주도 6000만달러 시드 펀딩"
+        ],
+        "why": [
+          "AI 에이전트 확산이 만드는 아이덴티티 관리 복잡성에 대응"
+        ]
+      }
+    },
+    {
+      "id": "it-audit-log-events-enterprise",
+      "title": "엔터프라이즈 구매자가 실제로 묻는 감사 로그 이벤트 10가지",
+      "summary": "MFA 재설정, 세션, 사칭 관련 컨텍스트를 충분히 남기는 것이 감사 대응의 핵심으로 꼽힌다.",
+      "source": "WorkOS",
+      "url": "https://workos.com/blog/audit-log-events-enterprise-buyers?utm_source=tldrit",
+      "report": {
+        "tldr": "엔터프라이즈 보안팀이 가장 자주 요구하는 감사 로그 이벤트 카테고리 10가지가 정리됐다.",
+        "what": "핵심은 인간과 자동화된 활동을 모두 로깅하고, 특히 MFA 재설정·세션·사칭 관련 조사에 충분한 컨텍스트를 남기며, 이후 감사와 사고 대응에 충분한 보존 기간을 두는 것이다.",
+        "points": [
+          "인간·자동화 활동 모두 로깅 필요",
+          "MFA 재설정·세션·사칭 관련 컨텍스트 보존 중요",
+          "감사·사고 대응 위한 충분한 보존 기간 설정"
+        ],
+        "why": [
+          "엔터프라이즈 구매 심사에서 감사 로그 체계가 핵심 평가 항목으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "it-cio-avoid-ai-bill-shock",
+      "title": "CIO가 AI 청구서 충격을 피하는 5가지 방법",
+      "summary": "사용량 기반 에이전트 과금 구조로 전환되면서 워크플로우별 비용 예측과 토큰·런타임 한도 설정이 중요해졌다.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4190605/5-ways-for-cios-to-avoid-ai-bill-shock.html?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 과금이 예측 가능한 좌석당 요금제에서 사용량 기반 모델로 옮겨가며 CIO들의 비용 관리 부담이 커지고 있다.",
+        "what": "작업당 수십 번의 모델 호출이 가능한 에이전트형 서비스가 늘어나면서, CIO는 워크플로우별 비용을 예측하고 재시도·실패를 반영하며, 토큰·런타임 한도를 내장하고, 작업을 적절한 가격대 모델로 라우팅하며, 소비를 측정 가능한 비즈니스 가치와 연결해야 한다.",
+        "points": [
+          "좌석당 요금제 → 사용량 기반 과금으로 전환",
+          "워크플로우별 비용 예측 및 재시도·실패 반영 필요",
+          "토큰·런타임 한도 내장 및 적정 모델 라우팅",
+          "소비량을 비즈니스 가치와 연결"
+        ],
+        "why": [
+          "AI 지출 관리가 CIO의 새로운 핵심 과제로 부상"
+        ]
+      }
+    },
+    {
+      "id": "it-openvpn-tiers-tested",
+      "title": "OpenVPN 3단계 티어 전체 테스트, 대다수에게는 여전히 무료 버전이 최선",
+      "summary": "완전 관리형 클라우드커넥사부터 셀프호스팅 액세스서버, 무료 커뮤니티 에디션까지 각기 다른 니즈에 맞는다.",
+      "source": "ZDNet",
+      "url": "https://www.zdnet.com/article/managed-self-hosted-or-open-source-how-to-choose-the-right-version-of-openvpn/?utm_source=tldrit",
+      "report": {
+        "tldr": "OpenVPN의 세 가지 제품군은 각기 다른 니즈에 맞으며, 대다수 사용자에게는 여전히 무료 커뮤니티 에디션이 최선이다.",
+        "what": "클라우드커넥사는 완전 관리형 서비스를 제공하고, 액세스서버는 셀프호스팅 기반의 기업 친화적 관리 기능을 제공하며, 무료 커뮤니티 에디션은 직접 설정과 유지관리를 감당할 의향이 있는 팀에게 최대의 유연성을 제공한다.",
+        "points": [
+          "클라우드커넥사: 완전 관리형 서비스",
+          "액세스서버: 셀프호스팅 + 기업용 관리 기능",
+          "커뮤니티 에디션: 무료, 최대 유연성"
+        ],
+        "why": [
+          "VPN 도입 시 관리 부담과 비용 사이의 트레이드오프를 명확히 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "it-designing-web-standards-ai-moment",
+      "title": "웹 표준으로 디자인하기: AI 시대를 위한 플레이북",
+      "summary": "디자인 시스템과 구조·표현·행동의 의미론적 분리에서 착안한 널리 채택 가능한 인터페이스 관행 구축 가이드다.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/rfhomP",
+      "report": {
+        "tldr": "AI 시대에 널리 채택될 수 있는 인터페이스 관행을 만들기 위한 플레이북이 제시됐다.",
+        "what": "디자인 시스템과 구조·표현·행동의 의미론적 분리라는 개념에서 유추해, 폭넓게 채택 가능한 인터페이스 컨벤션을 만드는 방법을 다룬다.",
+        "points": [
+          "디자인 시스템 개념과의 유사성에서 출발",
+          "구조·표현·행동의 의미론적 분리 강조",
+          "널리 채택 가능한 인터페이스 컨벤션 구축 목표"
+        ],
+        "why": [
+          "AI 생성 인터페이스가 늘어나며 표준화된 관행의 필요성이 커짐"
+        ]
+      }
+    },
+    {
+      "id": "it-telegram-dc-mysteries",
+      "title": "텔레그램 데이터센터의 미스터리",
+      "summary": "전화번호 국가코드가 계정이 배정되는 데이터센터를 대부분 결정한다는 기술적 심층 분석이다.",
+      "source": "dev.moe",
+      "url": "https://dev.moe/en/3025?utm_source=tldrit",
+      "report": {
+        "tldr": "텔레그램이 5개 데이터센터에 걸쳐 계정과 파일을 어떻게 배정하는지 조사한 기술 심층 분석이 나왔다.",
+        "what": "조사 결과 전화번호 국가코드가 배정을 대부분 결정하며, DC3는 계정들이 DC1으로 이관된 이후 신규 사용자 수용을 멈춘 것으로 보인다는 사실이 확인됐다.",
+        "points": [
+          "전화번호 국가코드가 데이터센터 배정을 대부분 결정",
+          "DC3는 신규 사용자 수용을 중단한 것으로 추정",
+          "DC3 계정이 DC1으로 이관된 정황 확인"
+        ],
+        "why": [
+          "대형 메신저 서비스의 내부 인프라 구조를 역추적한 흥미로운 사례"
+        ]
+      }
+    }
+  ]
+}

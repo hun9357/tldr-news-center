@@ -1,0 +1,281 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-netflix-service-topology",
+      "title": "넷플릭스, 대규모 서비스 토폴로지 구축기",
+      "summary": "eBPF 플로우 로그·앱 메트릭·분산 트레이스를 결합해 서브초 단위로 조회 가능한 의존성 그래프를 만들었다.",
+      "source": "Netflix Tech Blog",
+      "url": "https://netflixtechblog.com/building-service-topology-at-scale-architecture-challenges-and-lessons-learned-f4b792f3f0d8?utm_source=tldrdata",
+      "report": {
+        "tldr": "넷플릭스가 3단계 스트리밍 파이프라인으로 서브초 단위 조회가 가능한 서비스 의존성 그래프를 구축했다.",
+        "what": "가장 어려웠던 문제는 인기 서비스에 트래픽이 집중되는 파워로우 현상으로 인한 100배 규모의 부하 편차였으며, 이는 다단계 재분배 방식으로 해결했다.",
+        "points": [
+          "eBPF 플로우 로그 + 앱 메트릭 + 분산 트레이스 결합",
+          "집계·로드밸런서 엣지 해석·저장의 3단계 파이프라인",
+          "서브초 단위 조회 가능한 의존성 그래프",
+          "100배 규모 부하 편차를 다단계 재분배로 해결"
+        ],
+        "why": [
+          "초대형 마이크로서비스 환경의 관측성 구축 사례로 참고 가치가 큼"
+        ]
+      }
+    },
+    {
+      "id": "data-grab-iceberg-adoption",
+      "title": "그랩, 데이터레이크를 아파치 아이스버그로 전환",
+      "summary": "페타바이트급 하이브 파케이 테이블을 아이스버그로 이전해 쿼리 속도 10배 향상을 달성했다.",
+      "source": "Grab Engineering",
+      "url": "https://engineering.grab.com/our-journey-to-apache-iceberg-adoption?utm_source=tldrdata",
+      "report": {
+        "tldr": "그랩이 하이브 파케이 테이블을 아이스버그로 마이그레이션해 쿼리 속도 10배, S3 API 비용 95% 절감을 이뤘다.",
+        "what": "운영 테이블의 일일 S3 API 비용을 95% 줄였고, ML 파이프라인에서는 컴퓨트 비용을 50% 절감했다. 아이스버그, 델타, 후디, 하이브를 단일 인터페이스로 추상화하면서 폴백 로직과 하이브 호환성을 갖춘 커스텀 UnifiedSparkCatalog도 구축했다.",
+        "points": [
+          "페타바이트급 하이브 파케이 → 아이스버그 마이그레이션",
+          "쿼리 속도 10배 향상",
+          "운영 테이블 일일 S3 API 비용 95% 절감, ML 파이프라인 컴퓨트 50% 절감",
+          "아이스버그·델타·후디·하이브 통합 UnifiedSparkCatalog 구축"
+        ],
+        "why": [
+          "대규모 데이터레이크 마이그레이션의 실전 비용·성능 개선 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-nobody-cracked-agent-memory",
+      "title": "아직 아무도 '에이전트 메모리'를 완전히 풀지 못했다",
+      "summary": "메모리를 온톨로지 파이프라인으로 구축하는 방법론이 제시됐다.",
+      "source": "Decoding AI",
+      "url": "https://www.decodingai.com/p/how-to-implement-a-unified-memory-from-scratch?utm_source=tldrdata",
+      "report": {
+        "tldr": "에이전트 메모리를 웨어하우스 데이터→LLM 그래프 객체 추출→검증→중복제거→MCP 서빙의 온톨로지 파이프라인으로 구축하는 방법이 제안됐다.",
+        "what": "몽고DB가 텍스트·벡터·그래프 검색을 모두 처리하며, 그래프 데이터베이스는 깊은 탐색이나 핵심 그래프 로직이 필요한 경우에만 별도로 사용하는 구조를 권장한다.",
+        "points": [
+          "웨어하우스 데이터 → LLM 그래프 객체 추출 → 검증 → 중복제거 → MCP 서빙",
+          "몽고DB로 텍스트·벡터·그래프 검색 통합 처리",
+          "그래프DB는 깊은 탐색·핵심 로직에만 선별 사용"
+        ],
+        "why": [
+          "에이전트 메모리 구축이 여전히 미해결 난제임을 보여주는 실전 아키텍처 제안"
+        ]
+      }
+    },
+    {
+      "id": "data-razorpay-warehouse-refresh-10x",
+      "title": "레이저페이, 그래프·인덱스로 데이터 웨어하우스 갱신 10배 가속",
+      "summary": "풀 테이블 스캔을 증분 그래프 순회로 대체해 갱신 시간을 90% 단축했다.",
+      "source": "Razorpay Engineering",
+      "url": "https://engineering.razorpay.com/how-we-refresh-razorpays-data-warehouse-10x-faster-with-graphs-and-indexes-538abc244703?utm_source=tldrdata",
+      "report": {
+        "tldr": "레이저페이가 풀 테이블 스캔을 증분 그래프 순회로 대체해 데이터 웨어하우스 갱신 시간을 90% 단축했다.",
+        "what": "실버 레이어가 기본키별 일일 변경분을 중복 제거하고, 보조 인덱스가 조인 컬럼과 파티션 메타데이터를 저장해 풀 스캔을 피하며, 그래프 순회가 변경된 행만 처리하면서 의존성을 역추적해 갱신 대상을 보강한다.",
+        "points": [
+          "갱신 시간 90% 단축",
+          "실버 레이어의 기본키별 일일 변경분 중복제거",
+          "보조 인덱스로 조인 컬럼·파티션 메타데이터 관리",
+          "그래프 순회로 변경 행만 처리하며 의존성 역추적"
+        ],
+        "why": [
+          "대규모 데이터 웨어하우스 갱신 성능을 구조적으로 개선한 실전 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-acid-on-data-lake",
+      "title": "데이터레이크에서의 ACID란 무엇인가",
+      "summary": "후디·아이스버그·델타레이크가 메타데이터 로그와 원자적 발행 단계로 오브젝트 스토리지에 ACID를 구현한다.",
+      "source": "Apache Hudi",
+      "url": "https://hudi.apache.org/blog/2026/07/17/what-is-acid-on-a-data-lake/?utm_source=tldrdata",
+      "report": {
+        "tldr": "후디·아이스버그·델타레이크는 메타데이터 로그와 원자적 발행 단계를 통해 오브젝트 스토리지 위에 ACID를 구현한다.",
+        "what": "여러 파일에 걸친 쓰기 작업은 최종 원자적 메타데이터 연산이 커밋을 발행한 이후에만 가시화되며, 읽기 주체는 일관된 스냅숏을 보게 된다. 보장 범위는 테이블 단위이고 커밋은 수 초 내 완료되며, 격리 수준은 완전한 직렬화 가능성이 아니라 스냅숏 기반이다.",
+        "points": [
+          "메타데이터 로그 + 원자적 발행 단계로 ACID 구현",
+          "커밋 발행 후에만 변경사항이 가시화",
+          "테이블 단위 보장, 커밋은 수 초 내 완료",
+          "격리 수준은 스냅숏 기반(완전 직렬화 아님)"
+        ],
+        "why": [
+          "데이터레이크 ACID 보장의 실제 동작 원리를 명확히 정리"
+        ]
+      }
+    },
+    {
+      "id": "data-cache-layer-architecture-guide",
+      "title": "캐시 레이어 아키텍처: 속도와 확장의 실전 가이드",
+      "summary": "스탬피드, 핫키 과부하, 무효화 경쟁, 애벌런치 등 대규모 캐시 실패 유형과 방어법을 정리했다.",
+      "source": "Redis",
+      "url": "https://redis.io/blog/cache-layer-architecture-guide/?utm_source=tldrdata",
+      "report": {
+        "tldr": "대규모 캐시 레이어는 스탬피드, 핫키 과부하, 무효화 경쟁, 애벌런치 등 여러 실패 유형에 취약하다.",
+        "what": "인기 키가 만료될 때 발생하는 스탬피드, 하나의 노드에 몰리는 핫키, 무효화 과정의 경쟁으로 인한 오래된 데이터, 장애로 캐시가 비워지며 백엔드가 콜드 부하를 전부 흡수하는 애벌런치가 대표적이다. TTL 지터, 요청 병합, 키 분할, 가상 노드를 활용한 일관된 해싱이 방어책으로 제시됐다.",
+        "points": [
+          "인기 키 만료 스탬피드, 핫키 과부하",
+          "무효화 경쟁으로 인한 오래된 데이터",
+          "장애 시 애벌런치로 백엔드 콜드 부하 전이",
+          "TTL 지터·요청 병합·키 분할·일관된 해싱으로 방어"
+        ],
+        "why": [
+          "대규모 캐시 운영에서 반복되는 실패 패턴과 대응책을 체계적으로 정리"
+        ]
+      }
+    },
+    {
+      "id": "data-90-90-rule-dashboard-dumpster",
+      "title": "대시보드 쓰레기장을 위한 90/90 법칙",
+      "summary": "낮은 신뢰도·낭비된 웨어하우스 컴퓨트·죽은 산출물이라는 3대 비용을 대시보드 스프롤이 만들어낸다.",
+      "source": "Substack",
+      "url": "https://betterthanrandom.substack.com/p/the-9090-rule-for-the-dashboard-dumpster?utm_source=tldrdata",
+      "report": {
+        "tldr": "대시보드가 수백 개 있지만 분기당 실제로 열리는 것은 수십 개에 불과한, 약 90%가 방치되는 사례가 확인됐다.",
+        "what": "실용적인 완화책은 90일간 조회가 없으면 대시보드를 보관 처리하고, 이후 90일 더 반응이 없으면 삭제하는 90/90 수명주기 규칙이다.",
+        "points": [
+          "낮은 신뢰도·낭비된 웨어하우스 컴퓨트·죽은 산출물이 3대 비용",
+          "한 사례에서 대시보드의 약 90%가 미사용 상태",
+          "90일 무조회 시 보관, 추가 90일 무반응 시 삭제하는 규칙 제안"
+        ],
+        "why": [
+          "데이터 조직의 거버넌스 부채를 관리하는 구체적 실행 규칙을 제시"
+        ]
+      }
+    },
+    {
+      "id": "data-prefect-buys-dagster",
+      "title": "프리펙트, 데그스터 인수 — 데이터 파이프라인이 아닌 다른 이야기",
+      "summary": "이름·가격·로드맵을 유지한 채 인수하며, 약 40명이 프리펙트에 합류한다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/prefect-acquires-dagster-orchestrator/?utm_source=tldrdata",
+      "report": {
+        "tldr": "프리펙트가 또 다른 대형 에어플로우 경쟁자였던 데그스터를 이름·가격·로드맵을 유지한 채 인수한다.",
+        "what": "약 40명의 인력이 프리펙트에 합류해, 데그스터의 성과 추적 기능과 프리펙트의 실행 능력·FastMCP를 결합해 오픈소스 오케스트레이션을 강화한다.",
+        "points": [
+          "데그스터의 이름·가격·로드맵 유지",
+          "약 40명 인력 프리펙트 합류",
+          "성과 추적(데그스터) + 실행·FastMCP(프리펙트) 결합"
+        ],
+        "why": [
+          "데이터 오케스트레이션 시장의 통합이 계속 진행되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "data-arroyo-joining-cloudflare",
+      "title": "아로요, 클라우드플레어에 합류",
+      "summary": "러스트 기반 SQL 스트림 프로세서가 클라우드플레어 개발자 플랫폼에 편입된다.",
+      "source": "Arroyo",
+      "url": "https://www.arroyo.dev/blog/arroyo-is-joining-cloudflare/?utm_source=tldrdata",
+      "report": {
+        "tldr": "클라우드플레어가 러스트 기반 SQL 스트림 프로세서 아로요를 인수해 개발자 플랫폼에 통합한다.",
+        "what": "상태 기반 조인과 집계를 지원하며 아파치 2.0 오픈소스 라이선스를 유지하고, 클라우드플레어 파이프라인에 SQL 처리 기능을 우선 추가할 예정이다.",
+        "points": [
+          "러스트 기반 SQL 스트림 프로세서",
+          "상태 기반 조인·집계 지원",
+          "아파치 2.0 오픈소스 유지",
+          "클라우드플레어 파이프라인에 SQL 처리 우선 추가"
+        ],
+        "why": [
+          "엣지 컴퓨팅 플랫폼이 실시간 데이터 처리 역량을 내재화하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "data-single-node-vs-distributed-benchmark",
+      "title": "단일 노드 vs 분산 처리 벤치마크",
+      "summary": "1TB TPC-H 벤치마크에서 분산 폴라스가 I/O 바운드 쿼리에서만 근소하게 앞섰다.",
+      "source": "Polars",
+      "url": "https://pola.rs/posts/single-node-vs-distributed/?utm_source=tldrdata",
+      "report": {
+        "tldr": "동일 사양(128 vCPU, 512GB RAM)에서 분산 폴라스(32노드)가 단일 노드보다 근소하게 앞선 것은 I/O 바운드 쿼리뿐이었다.",
+        "what": "이는 클러스터의 버스트 네트워크 대역폭이 400Gbps에 달해 단일 노드의 지속 대역폭 50Gbps를 넘어섰기 때문이다. 조인이 많은 쿼리는 네트워크 셔플 오버헤드가 병렬화 이득을 상쇄해 오히려 단일 노드가 더 빨랐다.",
+        "points": [
+          "1TB TPC-H, 128vCPU·512GB RAM 동일 사양 비교",
+          "I/O 바운드 쿼리만 분산이 근소 우위(400Gbps vs 50Gbps)",
+          "조인이 많은 쿼리는 셔플 오버헤드로 단일 노드가 더 빠름"
+        ],
+        "why": [
+          "분산 처리 도입 여부를 쿼리 특성에 따라 신중히 판단해야 함을 실증"
+        ]
+      }
+    },
+    {
+      "id": "data-expedia-ai-at-scale",
+      "title": "익스피디아 그룹, 지속 가능한 AI를 구축하는 법",
+      "summary": "모든 모델이 측정 가능한 비즈니스 성과와 연결되고 공통 플랫폼 위에서 운영돼야 한다는 원칙이다.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/bARUfJ",
+      "report": {
+        "tldr": "익스피디아 그룹의 AI 프레임워크는 측정 가능한 비즈니스 성과, 공유 플랫폼 기반, 명확한 소유권을 핵심 요건으로 삼는다.",
+        "what": "모든 모델은 측정 가능한 비즈니스 성과와 연결돼야 하고, 개별 맞춤 스택이 아닌 공유 플랫폼 기반 위에서 구축돼야 하며, 비즈니스·제품·AI·운영 전반에 걸쳐 명확한 담당자를 둬야 한다.",
+        "points": [
+          "모든 모델이 측정 가능한 비즈니스 성과와 연결",
+          "개별 스택이 아닌 공유 플랫폼 기반 구축",
+          "비즈니스·제품·AI·운영 전반 명확한 소유권 설정"
+        ],
+        "why": [
+          "대규모 조직의 AI 거버넌스 원칙을 구체적으로 제시"
+        ]
+      }
+    },
+    {
+      "id": "data-g-eval-explained",
+      "title": "G-Eval 완전 정리",
+      "summary": "LLM이 직접 채점 기준을 단계별로 생성한 뒤 토큰 확률의 가중 기댓값으로 점수를 매기는 평가 방식이다.",
+      "source": "Arpit Bhayani",
+      "url": "https://arpitbhayani.me/blogs/g-eval/?utm_source=tldrdata",
+      "report": {
+        "tldr": "G-Eval은 LLM이 스스로 채점 단계를 생성한 뒤, 단일 샘플 출력이 아닌 토큰 확률의 가중 기댓값으로 점수를 계산해 안정성을 높인다.",
+        "what": "체인오브소트를 통해 채점 기준 자체를 생성하게 하고, 인쇄된 숫자를 그대로 읽는 대신 각 점수에 대한 토큰 수준 확률의 가중 기댓값을 계산한다. 더 신뢰할 수 있는 결과를 위한 핵심 실천법으로는 다른 모델 계열의 심사 모델을 사용하는 것과, 사람이 라벨링한 예시로 채점 기준을 보정하는 것이 꼽힌다.",
+        "points": [
+          "LLM이 체인오브소트로 채점 기준 자체 생성",
+          "토큰 확률의 가중 기댓값으로 점수 산출(단일 샘플 대비 안정적)",
+          "심사 모델은 평가 대상과 다른 모델 계열 사용 권장",
+          "사람이 라벨링한 예시로 채점 기준 보정 권장"
+        ],
+        "why": [
+          "개방형 텍스트 평가의 신뢰성을 높이는 실전 방법론 제공"
+        ]
+      }
+    },
+    {
+      "id": "data-greysight-snowflake-cost",
+      "title": "그레이사이트, 무료 오픈소스 스노우플레이크 비용 관측 도구",
+      "summary": "고객 데이터를 저장하지 않고 웨어하우스·AI·스토리지 지출을 추적한다.",
+      "source": "Greysight",
+      "url": "https://www.greybeam.ai/product/snowflake-observability?utm_source=tldrdata",
+      "report": {
+        "tldr": "그레이사이트는 고객 데이터 저장 없이 스노우플레이크의 웨어하우스·AI·스토리지 지출을 추적하는 무료 오픈소스 도구다.",
+        "what": "비용 관측성을 확보하면서도 고객 데이터를 별도로 저장하지 않는 방식으로 설계됐다.",
+        "points": [
+          "무료 오픈소스 스노우플레이크 비용 관측 도구",
+          "고객 데이터 미저장 방식",
+          "웨어하우스·AI·스토리지 지출 추적"
+        ],
+        "why": [
+          "클라우드 데이터 비용 관리 도구에 대한 수요가 계속 증가"
+        ]
+      }
+    },
+    {
+      "id": "data-cloudflare-as-data-platform",
+      "title": "클라우드플레어를 데이터 플랫폼으로 쓸 수 있을까",
+      "summary": "초기 실험 결과 R2+아이스버그가 경량 레이크하우스로 기능할 수 있지만 워크플로우 오케스트레이션은 여전히 공백이다.",
+      "source": "Substack",
+      "url": "https://dataengineeringcentral.substack.com/p/cloudflare-as-a-data-platform?utm_source=tldrdata",
+      "report": {
+        "tldr": "R2와 아이스버그의 조합이 경량 레이크하우스로 기능할 가능성을 보여줬지만, 워크플로우 오케스트레이션은 여전히 부족하다.",
+        "what": "초기 실험 단계에서 확인된 결과로, 클라우드플레어를 본격적인 데이터 플랫폼으로 쓰기에는 아직 오케스트레이션 계층의 보완이 필요하다.",
+        "points": [
+          "R2 + 아이스버그로 경량 레이크하우스 구현 가능성 확인",
+          "워크플로우 오케스트레이션은 아직 공백"
+        ],
+        "why": [
+          "엣지 인프라 업체의 데이터 플랫폼화 가능성과 한계를 동시에 보여줌"
+        ]
+      }
+    }
+  ]
+}

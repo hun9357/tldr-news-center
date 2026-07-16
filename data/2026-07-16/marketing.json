@@ -1,0 +1,259 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-audience-to-context-economy",
+      "title": "오픈웹, '오디언스 경제'에서 '컨텍스트 경제'로",
+      "summary": "새로운 입찰 인프라가 과거 행동 기반 세그먼트 대신 실시간 맥락 신호를 읽어 광고를 매칭한다.",
+      "source": "AdExchanger",
+      "url": "https://www.adexchanger.com/data-driven-thinking/the-open-web-is-shifting-from-an-audience-economy-to-a-context-economy/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "광고 기술의 다음 단계는 '누구인지'가 아니라 '지금 무슨 일이 일어나는지'를 이해하는 방향으로 옮겨가고 있다.",
+        "what": "새로운 입찰 인프라는 과거 행동으로 만든 고정 오디언스 세그먼트 대신, 타이밍과 주변 활동 같은 신호를 실시간으로 읽는다. 이런 의사결정을 경매 자체 안에 컨테이너화함으로써 응답 시간을 약 80% 단축시켜, 알고리즘이 단순히 ID를 세그먼트에 매칭하는 대신 맥락을 따질 충분한 시간을 확보한다.",
+        "points": [
+          "고정 오디언스 세그먼트 대신 실시간 맥락 신호 활용",
+          "경매 내 의사결정 컨테이너화로 응답시간 약 80% 단축",
+          "광고가 '누구'에서 '지금 이 순간'으로 초점 이동"
+        ],
+        "why": [
+          "광고 타겟팅 패러다임이 프라이버시 규제 이후 근본적으로 재편되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "marketing-anthropic-ad-backlash",
+      "title": "앤스로픽의 새 광고, 오싹하다는 반응",
+      "summary": "'어려운 질문 속 희망'이라는 광고가 어두운 톤과 이미지로 역풍을 맞고 있다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/14/anthropics-newest-ad-is-creeping-people-out/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "앤스로픽의 신규 광고가 어두운 톤과 이미지로 인해 반발을 사고 있다.",
+        "what": "광고는 불타는 집으로 시작해 감시, 노숙, 광산 노동, 묘지 장면으로 이어지며 AI에 대한 신뢰와 통제를 묻는다. 이는 AI 업계의 '윤리적 대안'이라는 앤스로픽의 평소 포지셔닝을 반영하지만, 많은 시청자는 지나치게 무겁다는 반응을 보였다.",
+        "points": [
+          "불타는 집, 감시, 노숙, 광산 노동, 묘지 등 어두운 이미지 연출",
+          "AI 신뢰·통제에 대한 질문 제기",
+          "'윤리적 대안' 포지셔닝의 연장선",
+          "다수 시청자가 지나치게 무겁다고 반응"
+        ],
+        "why": [
+          "AI 기업의 브랜드 커뮤니케이션이 대중 정서와 충돌할 수 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-overviews-recommended-goal",
+      "title": "SEO·AI 팁: AI 오버뷰에서는 '인용'보다 '추천'이 목표",
+      "summary": "AI 오버뷰는 정보성 콘텐츠가 아니라 상업적 프롬프트를 기준으로 브랜드를 추천한다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/danielhinckley_seo-ai-tip-in-ai-overviews-being-recommended-share-7482790238554189825-j8Ej/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 오버뷰에서 정보성 쿼리 순위는 상업적 가시성으로 잘 이어지지 않는다.",
+        "what": "고가치 상업적 쿼리를 중심으로 콘텐츠를 구성하고, 각 페이지에 가격, 비교, 방법론, 브랜드 정보를 함께 제공해 AI가 해당 비즈니스를 추천할 근거를 갖추게 해야 한다.",
+        "points": [
+          "정보성 콘텐츠 순위는 상업적 가시성으로 잘 연결되지 않음",
+          "고가치 상업 쿼리 중심의 콘텐츠 구성 필요",
+          "가격·비교·방법론·브랜드 정보로 추천 근거 제공"
+        ],
+        "why": [
+          "AI 검색 시대 SEO 전략의 목표가 '노출'에서 '추천'으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "marketing-content-pillars-social-strategy",
+      "title": "콘텐츠 필러로 소셜 전략을 세우는 법",
+      "summary": "2026년 최고 성과를 내는 콘텐츠 필러 체계는 목록이 아니라 동심원 구조로 작동한다.",
+      "source": "Later",
+      "url": "https://later.com/blog/content-pillars-social-strategy/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "2026년 최고의 콘텐츠 필러 시스템은 평면적 목록이 아니라 동심원 구조로 작동한다.",
+        "what": "좁은 핵심 필러가 넓은 필러보다 알고리즘·오디언스 권위를 더 빠르게 구축하며, 인접 필러는 같은 오디언스를 공유하면서 새로운 각도를 더한다. 인접 필러가 '인접하다'고 인정받으려면 사람들이 애초에 그 계정을 팔로우한 이유를 계속 뒷받침해야 하며, 그렇지 않으면 피드가 그저 일반적으로 변할 뿐이다.",
+        "points": [
+          "동심원 구조의 콘텐츠 필러 체계",
+          "좁은 핵심 필러가 권위 구축에 더 효과적",
+          "인접 필러는 팔로우 이유를 계속 뒷받침해야 함"
+        ],
+        "why": [
+          "소셜 콘텐츠 전략에서 '핵심 정체성 유지'의 중요성을 재확인"
+        ]
+      }
+    },
+    {
+      "id": "marketing-measure-ai-search-impact",
+      "title": "AI 검색 영향력을 제대로 측정하는 법",
+      "summary": "AI 인용 클릭률은 약 1%에 불과해, 리퍼럴 트래픽 기반 측정은 신뢰하기 어렵다.",
+      "source": "Growth Unhinged",
+      "url": "https://www.growthunhinged.com/p/how-to-measure-the-impact-of-ai-search-the-right-way?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 검색이 실제 수요를 만들어내고 있지만, 대부분 팀은 여전히 잘 드러나지 않는 리퍼럴 트래픽으로만 측정하고 있다.",
+        "what": "AI 인용을 클릭하는 이용자는 약 1%에 불과하고 그마저 상당수가 오귀속되거나 다이렉트 트래픽으로 잡히기 때문에 라스트클릭 모델은 신뢰할 수 없다. 대신 크롤링 비율과 인용 점유율 같은 선행지표를 추적하는 'AI 가시성 사다리'를 활용해야 하며, 답변 속 브랜드 포지셔닝 같은 품질 신호와 자기보고 귀속·승률 같은 후행지표도 함께 봐야 한다.",
+        "points": [
+          "AI 인용 클릭률 약 1%로 라스트클릭 측정 신뢰도 낮음",
+          "크롤링 비율·인용 점유율 등 선행지표 활용",
+          "답변 내 브랜드 포지셔닝 등 품질 신호 병행",
+          "자기보고 귀속·승률 등 후행지표도 함께 확인"
+        ],
+        "why": [
+          "AI 검색 시대의 마케팅 측정 체계 전환이 시급한 과제로 부상"
+        ]
+      }
+    },
+    {
+      "id": "marketing-google-ads-bidding-change",
+      "title": "구글 애즈, 미묘하지만 중요한 입찰 방식 변경",
+      "summary": "8월 17일 변경 전 목표 기반 입찰 캠페인을 전부 점검해야 하며, 과거 성과보다 캠페인 목표 설정이 더 중요해진다.",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/a-subtle-google-ads-bidding-change?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "구글이 8월 17일부터 입찰 방식을 바꾸면서, 과거 성과보다 캠페인 목표 설정 자체가 더 중요해진다.",
+        "what": "현재 목표 ROAS를 초과 달성 중인 캠페인은 구글이 계속 초과 성과를 내도록 두는 대신 설정된 목표에 맞춰 최적화하게 되면서 효율이 떨어질 수 있다. 최근 성과가 현재 목표보다 20% 이상 높다면 목표를 소폭씩 올리거나, 더 높은 성과가 현실적이라면 맞춤 목표를 상향 설정하는 것이 좋다. 효율보다 전환량을 중시하는 광고주는 최대화 입찰 전략으로 전환을 고려해야 한다.",
+        "points": [
+          "8월 17일부터 목표 기반 입찰 방식 변경",
+          "목표 ROAS 초과 달성 캠페인은 효율 저하 우려",
+          "성과가 목표 대비 20%+ 높으면 목표 상향 권장",
+          "전환량 중시 광고주는 최대화 입찰 전략 고려"
+        ],
+        "why": [
+          "입찰 정책 변경 전 캠페인 목표 재점검이 시급"
+        ],
+        "action": "8월 17일 이전 모든 목표 기반 입찰 캠페인 목표치 재검토"
+      }
+    },
+    {
+      "id": "marketing-brandom-fandom-ai-search",
+      "title": "브랜덤: 팬덤이 AI 검색의 미래인 이유",
+      "summary": "AI 검색은 브랜드 소유 콘텐츠보다 레딧·유튜브·링크드인 같은 제3자 목소리를 더 신뢰하는 방향으로 이동 중이다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/IGHVM1",
+      "report": {
+        "tldr": "LLM은 브랜드 통제로부터 멀리 떨어진 출처를 더 신뢰하는 경향이 있어, 커뮤니티·직원·고객 옹호의 중요성이 커지고 있다.",
+        "what": "레딧은 과거 SEO에서 블로그가 했던 역할과 비슷하게 핵심 오프사이트 채널로 부상하고 있지만, 스팸이 아닌 실제 참여가 요구된다. 이 변화는 SEO, PR, 커뮤니티 간 경계를 흐리게 만들고 있으며, 측정은 언급 점유율과 인용 같은 신호에 의존한다.",
+        "points": [
+          "AI 검색이 브랜드 소유 콘텐츠보다 제3자 목소리를 신뢰",
+          "레딧이 SEO의 블로그 역할과 유사한 핵심 채널로 부상",
+          "SEO·PR·커뮤니티 경계가 흐려지는 추세",
+          "측정은 언급 점유율·인용 등 신호 기반"
+        ],
+        "why": [
+          "브랜드 콘텐츠 전략의 무게중심이 소유 채널에서 커뮤니티로 이동"
+        ]
+      }
+    },
+    {
+      "id": "marketing-allan-ai-email-tool",
+      "title": "알란, DTC 브랜드용 AI 이메일 개인화 플랫폼",
+      "summary": "모든 고객에게 같은 캠페인을 보내는 대신 수신자별로 다른 이메일을 만드는 AI 이메일 도구다.",
+      "source": "Allan",
+      "url": "https://getallan.com/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "알란은 수신자마다 제목·카피·크리에이티브를 다르게 구성하는 DTC 브랜드용 AI 이메일 플랫폼이다.",
+        "what": "이용자 행동을 기반으로 제목, 카피, 크리에이티브를 선택하고, 매 발송마다 지속적으로 테스트를 실행해 성과를 최적화한다. 30일 무료 체험이 제공된다.",
+        "points": [
+          "수신자별 맞춤 제목·카피·크리에이티브 구성",
+          "발송마다 지속적 A/B 테스트로 성과 최적화",
+          "30일 무료 체험 제공"
+        ],
+        "why": [
+          "이메일 마케팅의 개인화 수준이 AI로 한 단계 더 세분화"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ea-in-game-ads-platform",
+      "title": "EA의 새 광고 플랫폼, 게임 내 광고의 문을 여나",
+      "summary": "6년 전 UFC 4의 방해성 광고를 사과하고 없앴던 EA가 실시간 타깃 광고로 재도전한다.",
+      "source": "The Current",
+      "url": "https://www.thecurrent.com/innovation/could-ea-new-advertising-platform-open-floodgates-game-ads?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "EA가 정적 팝업 광고의 실패를 딛고 실시간 타깃 게임 내 광고로 재도전에 나선다.",
+        "what": "새 플랫폼은 게임플레이를 방해하기보다 향상시키도록 설계됐으며, 브랜드가 실시간으로 메시지를 조정하고 처음으로 효과를 측정할 수 있게 한다. 다만 대부분의 게임 광고 예산은 여전히 모바일에 몰려 있으며, 캐주얼 플레이는 방해를 더 잘 견디는 반면 콘솔·PC 이용자는 게임을 더 몰입도 높은 경험으로 여겨 마찰 없이 광고를 받아들이기 어려워해 왔다.",
+        "points": [
+          "6년 전 UFC 4 방해성 광고 사과 후 재도전",
+          "게임플레이 향상 지향 실시간 타깃 광고",
+          "브랜드의 실시간 메시지 조정·효과 측정 최초 지원",
+          "모바일과 달리 콘솔·PC는 여전히 광고 저항 큼"
+        ],
+        "why": [
+          "게임 내 광고 시장이 다시 확대를 시도하는 신호"
+        ]
+      }
+    },
+    {
+      "id": "marketing-footy-league-community-growth",
+      "title": "미국 최대 축구 리그를 만든 커뮤니티의 힘",
+      "summary": "유료 획득보다 커뮤니티 기반 성장이 장기적으로 더 강한 리텐션과 추천을 만들어낸다.",
+      "source": "Substack",
+      "url": "https://embeddedbrandstrategy.substack.com/p/building-the-nations-largest-soccer?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "고객 경험이 다시 찾아오고 초대할 이유를 만들 때, 커뮤니티는 유료 획득보다 강한 장기 성장을 이끈다.",
+        "what": "풋티 리그는 고객 서비스, 등록 시스템, 스폰서 대응 미디어, 지역 경험 등 커뮤니티를 뒷받침하는 확장 가능한 운영체계를 구축했다. 신규 플레이어 유치에는 유료 마케팅을 활용하지만, 뉴스레터 마케팅과 입소문이 더 높은 리텐션과 강한 추천을 만들어낸다. 브랜드는 시각적 아이덴티티가 아니라 고객 경험에서 비롯되므로, 온보딩·트레이닝·지원 같은 일상적 상호작용에 가치가 드러나야 한다.",
+        "points": [
+          "커뮤니티를 뒷받침하는 확장 가능한 운영체계 구축",
+          "신규 유치는 유료, 리텐션·추천은 뉴스레터·입소문이 주도",
+          "브랜드 가치는 시각적 아이덴티티가 아닌 고객 경험에서 비롯"
+        ],
+        "why": [
+          "커뮤니티 기반 성장 전략의 구체적 실행 사례를 제공"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ramp-help-center-aeo",
+      "title": "AEO 플레이: 램프의 헬프센터",
+      "summary": "램프의 탄탄한 헬프센터 문서가 B2B 영역에서 AI 검색에 자주 인용되고 있다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/chris-long-marketing_ramps-help-center-is-a-brilliant-aeo-play-share-7482768907586605056-UqVF/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "램프가 만든 탄탄한 헬프센터 문서가 B2B 영역 AI 검색에서 자주 인용되고 있다.",
+        "what": "잘 구조화된 문서화 전략이 AI 응답 엔진 최적화(AEO)의 실질적 사례로 꼽힌다.",
+        "points": [
+          "탄탄하게 구조화된 헬프센터 문서",
+          "B2B 영역 AI 검색에서 빈번한 인용"
+        ],
+        "why": [
+          "문서화 품질이 AEO 성과로 직결되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "marketing-openai-chatgpt-ads-100b-target",
+      "title": "오픈AI 챗GPT 광고, 1000억달러 목표 달성에 실패할 수도",
+      "summary": "검색 광고 예산을 대규모로 흡수하고 모든 광고 포맷을 능가할 것이라는 전제가 깔린 전망이다.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/openai-chatgpt-ads-100-billion-revenue-target-482365?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "오픈AI의 챗GPT 광고 매출 전망은 검색 광고 예산을 대규모로 흡수할 것이라는 낙관적 가정에 기반한다.",
+        "what": "이 전망이 실현되려면 챗GPT 광고가 역사상 모든 광고 포맷을 능가하는 성과를 내야 하는데, 이는 상당히 공격적인 가정으로 평가된다.",
+        "points": [
+          "1000억달러 매출 목표는 검색 광고 예산 대규모 흡수를 전제",
+          "역사상 모든 광고 포맷을 능가해야 달성 가능한 수준"
+        ],
+        "why": [
+          "AI 챗봇의 광고 사업화 전망에 대한 신중한 시각을 제공"
+        ]
+      }
+    },
+    {
+      "id": "marketing-openai-first-device-speaker",
+      "title": "오픈AI 첫 기기, '사람처럼 느껴지는' 충전형 스피커 될 듯",
+      "summary": "화면 없는 AI 동반자 스피커로 챗GPT 기능을 활용해 자연스럽게 상호작용한다는 보도다.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2215417/openai-first-device-humanlike-rechargeable-speaker/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "오픈AI가 챗GPT 기능을 활용해 자연스럽게 상호작용하는 화면 없는 AI 동반자 스피커를 준비 중이라는 보도가 나왔다.",
+        "what": "이 기기는 화면 없이 챗GPT의 대화 능력을 활용해 사용자와 자연스럽게 상호작용하도록 설계된 것으로 알려졌다.",
+        "points": [
+          "화면 없는 AI 동반자 스피커 형태",
+          "챗GPT 기능 기반 자연스러운 상호작용"
+        ],
+        "why": [
+          "오픈AI의 하드웨어 진출 방향에 대한 구체적 윤곽이 드러나는 중"
+        ]
+      }
+    }
+  ]
+}
