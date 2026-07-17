@@ -6,217 +6,257 @@
   "bg": "#3a1f33",
   "items": [
     {
-      "id": "design-google-vids-ai-avatars",
-      "title": "구글 비즈, 자신을 주인공으로 한 AI 영상 제작 지원",
-      "summary": "셀피와 음성 녹음으로 커스텀 AI 아바타를 만들어 영상에 등장시킬 수 있게 됐다.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "85%",
-        "owner": "Design",
-        "status": "New",
-        "affectedSurface": "영상 제작 · 아바타 생성"
-      },
+      "id": "design-nine-new-emoji-2026",
+      "title": "유니코드 컨소시엄, 신규 이모지 9종 공개 예고",
+      "summary": "등대·지우개·피클·제왕나비 등이 세계 이모지의 날에 맞춰 공개된다.",
+      "source": "Mashable",
+      "url": "https://mashable.com/tech/nine-new-emoji-revealed?utm_source=tldrdesign",
       "report": {
-        "tldr": "구글 비즈가 셀피·음성 기반 커스텀 AI 아바타 기능을 추가했다.",
-        "what": "구글 비즈가 셀피와 음성 녹음을 이용해 자신의 디지털 버전으로 영상을 만들 수 있는 커스텀 AI 아바타를 도입했다. 제미나이 옴니를 통한 프롬프트 기반 영상 생성과 편집 기능도 포함돼 헤이젠, 신세시아 같은 플랫폼과 경쟁한다.",
+        "tldr": "유니코드 컨소시엄이 7월 17일 세계 이모지의 날을 앞두고 신규 이모지 9종을 공개할 예정이다.",
+        "what": "등대, 지우개, 피클, 제왕나비, 유성, '크랙드 스마일링 페이스' 등이 포함된다. 유니코드 이모지 소위원회 위원장 제니퍼 대니얼이 공개한 이 디자인들은 내년 봄쯤 키보드에 반영될 전망이며, 기존 이모지 일부도 시각적 구분을 위해 재디자인된다. 원래 '스마일리 페이스 위드 스퀸팅 아이즈'로 제안됐던 크랙드 스마일링 페이스가 신규 이모지 중 가장 인기를 끌 것으로 예상된다.",
         "points": [
-          "셀피·음성으로 개인 아바타 생성",
-          "제미나이 옴니 기반 프롬프트 영상 생성",
-          "헤이젠·신세시아와 직접 경쟁"
+          "등대·지우개·피클·제왕나비·유성·크랙드 스마일링 페이스 등 9종",
+          "유니코드 이모지 소위원회 위원장 제니퍼 대니얼이 공개",
+          "내년 봄쯤 키보드 반영 예정",
+          "기존 이모지 일부도 시각적 구분을 위해 재디자인"
         ],
         "why": [
-          "아바타 영상 제작이 전문 툴에서 오피스 스위트 기본 기능으로 내려옴"
-        ]
-      }
-    },
-    {
-      "id": "design-facebook-design-regressed",
-      "title": "페이스북의 디자인은 진화가 아니라 퇴행했다",
-      "summary": "예측 가능한 시간순 피드에서 알고리즘 참여 최적화로 옮겨가며 사용자 경험이 파편화됐다는 분석이다.",
-      "source": "Web Designer Depot",
-      "url": "https://webdesignerdepot.com/facebooks-design-didnt-evolve-it-regressed/",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "Low",
-        "confidence": "70%",
-        "owner": "Design",
-        "status": "New",
-        "affectedSurface": "제품 디자인 · 정보구조"
-      },
-      "report": {
-        "tldr": "페이스북은 개별적으로 합리적인 결정들이 누적되며 명료성을 잃었다.",
-        "what": "페이스북 인터페이스가 예측 가능한 시간순 피드에서 알고리즘 기반 참여 최적화로 퇴화하며 그룹, 마켓플레이스, 릴스 같은 기능으로 사용자 경험이 파편화됐다는 분석이다. 제품은 갑자기 실패하는 게 아니라 개별적으로는 합리적인 작은 결정들을 통해 표류하며 명료성과 신뢰를 잠식한다고 지적한다.",
-        "points": [
-          "시간순 피드 → 알고리즘 참여 최적화",
-          "그룹·마켓플레이스·릴스로 경험 파편화",
-          "개별 합리적 결정의 누적이 표류를 만듦"
-        ],
-        "why": [
-          "제품 표류(drift)를 설명하는 프레임으로서 다른 대형 제품에도 적용 가능"
-        ]
-      }
-    },
-    {
-      "id": "design-web-standards-ai-playbook",
-      "title": "웹 표준으로 디자인하기: AI 시대의 플레이북",
-      "summary": "확신 표현·출처 인용·권한 요청에 대한 공통 규약을 독점 방식이 굳기 전에 만들어야 한다는 주장이다.",
-      "source": "UX Design",
-      "url": "https://uxdesign.cc/designing-with-web-standards-the-playbook-for-this-ai-moment-92394884dc0d",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "AI 인터페이스에도 초기 웹처럼 공유된 표준이 필요하며 지금이 그 시점이다.",
-        "what": "AI 인터페이스는 일관된 사용자 상호작용을 위해 초기 웹 원칙과 유사한 공유 표준을 필요로 한다. 디자이너는 독점적 접근이 지배하기 전에 표준화 기구를 통해 협력해 확신 전달, 출처 인용, 권한 요청에 대한 규약을 확립해야 한다.",
-        "points": [
-          "AI UI에 공통 규약 부재",
-          "확신도·출처·권한 요청의 표준화 필요",
-          "독점 방식이 굳기 전 개입해야"
-        ],
-        "why": [
-          "AI 인터페이스 관행이 지금 굳어지면 향후 10년의 사용자 기대를 규정"
-        ]
-      }
-    },
-    {
-      "id": "design-wait-who-made-this",
-      "title": "잠깐, 이거 누가 만든 거야?",
-      "summary": "AI 생성물과 인간 작업의 구분이 어려워지며 창작자들이 과정을 저작 증거로 기록하기 시작했다.",
-      "source": "UX Design",
-      "url": "https://uxdesign.cc/wait-who-made-this-705a30d74220",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "출처 증명은 표현적 작업에서 중요하고 기능적 디자인에서는 덜 중요하다.",
-        "what": "AI 생성 콘텐츠가 인간 작업과 구별되지 않게 되면서 창작자들이 저작 증거로 자신의 과정을 문서화하는 일이 늘고 있다. 다만 출처 증명은 예술이나 영화 같은 표현적 작업에서 가장 중요하고, 기능적 디자인 도구에서는 상대적으로 덜 중요하다.",
-        "points": [
-          "과정 기록이 저작 증명 수단으로 부상",
-          "표현적 작업에서 출처의 가치가 큼",
-          "기능적 디자인에서는 중요도 낮음"
-        ],
-        "why": [
-          "출처 표시 논쟁을 작업 유형별로 구분해 접근하는 실용적 관점"
-        ]
-      }
-    },
-    {
-      "id": "design-product-designers-are-liars",
-      "title": "프로덕트 디자이너는 거짓말쟁이다",
-      "summary": "디자인이 도구에서 멀어질수록 시니어로 평가받던 관행이 AI 등장으로 뒤집히고 있다는 비판이다.",
-      "source": "My Design Side",
-      "url": "https://mydesignside.substack.com/p/product-designers-are-liars",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "도구에서 멀어질수록 시니어로 치던 관행이 AI 시대에 무너지고 있다.",
-        "what": "프로덕트 디자인이 직접적인 인터페이스 제작에서 워크숍과 전략 쪽으로 이동했고, 시니어리티가 디자인 도구로부터의 거리로 측정돼 왔다는 비판이다. AI의 등장은 이제 디자이너에게 과정 중심 산출물이 아니라 진짜 기술로 가치를 입증하라고 요구한다.",
-        "points": [
-          "도구와의 거리 = 시니어리티라는 관행",
-          "워크숍·전략 중심으로의 이동",
-          "AI가 실제 크래프트 증명을 요구"
-        ],
-        "why": [
-          "AI가 산출물 생산을 대체하면서 디자이너 커리어 사다리의 전제가 흔들림"
+          "매년 반복되는 이모지 확장이 디지털 커뮤니케이션 표현의 폭을 계속 넓히고 있음"
         ]
       }
     },
     {
       "id": "design-iphone-18-pro-leaks",
-      "title": "아이폰 18 프로 유출…더 크고 무거워진다",
-      "summary": "9월 예상 모델은 작아진 다이내믹 아일랜드, A20 프로, 가변 조리개 카메라를 갖추고 가격은 오를 전망이다.",
+      "title": "아이폰 18 프로 유출, \"더 크고 무거워진다\"",
+      "summary": "2나노 A20 프로 칩, 가변 조리개 카메라 등이 예상되며 가격 인상 가능성도 제기됐다.",
       "source": "Creative Bloq",
-      "url": "https://www.creativebloq.com/design/product-design/iphone-18-pro-leaks-point-to-a-bigger-better-and-heavier-smartphone-from-apple",
-      "originalDate": "2026-07-16",
+      "url": "https://www.creativebloq.com/design/product-design/iphone-18-pro-leaks-point-to-a-bigger-better-and-heavier-smartphone-from-apple?utm_source=tldrdesign",
       "report": {
-        "tldr": "아이폰 18 프로가 가변 조리개와 A20 프로를 달고 가격은 1199~1299달러로 오를 전망이다.",
-        "what": "9월 출시가 예상되는 아이폰 18 프로는 작아진 다이내믹 아일랜드, 다듬어진 디자인, 더 빠른 A20 프로 칩, 가변 조리개 카메라, 커진 배터리를 갖출 것으로 알려졌다. 가격은 현재 1099달러 시작가에서 1199~1299달러로 오를 수 있다.",
+        "tldr": "애플의 아이폰 18 프로가 9월 출시될 것으로 예상되며, 프로 모델이 일반 모델보다 몇 달 먼저 나오는 새로운 출시 전략의 일환일 수 있다.",
+        "what": "루머에 따르면 다이내믹 아일랜드가 축소되고 후면 패널이 깔끔해지며, 더 빠른 2나노 A20 프로 칩과 가변 조리개 메인 카메라, 더 커진 배터리, 개선된 AI 성능이 적용될 전망이다. 다만 오랫동안 소문난 언더디스플레이 카메라는 이번에도 채택되지 않을 것으로 보인다. 가격은 현재 1099달러에서 인상돼 1199~1299달러 선으로 예상되지만, 모든 내용은 유출과 추측에 근거한다.",
         "points": [
-          "다이내믹 아일랜드 축소",
-          "A20 프로 칩·가변 조리개 카메라",
-          "배터리 용량 증가, 무게 증가",
-          "시작가 1199~1299달러 전망"
+          "더 작은 다이내믹 아일랜드, 깔끔해진 후면 패널",
+          "2나노 A20 프로 칩, 가변 조리개 메인 카메라",
+          "배터리 용량 증가, AI 성능 개선",
+          "언더디스플레이 카메라는 이번에도 미채택 전망",
+          "가격 1199~1299달러로 인상 예상"
         ],
         "why": [
-          "가변 조리개는 스마트폰 카메라의 물리적 한계를 넘는 몇 안 되는 하드웨어 개선"
+          "프로 모델 선출시 전략이 현실화되면 애플의 연간 출시 리듬 자체가 바뀔 수 있음"
         ]
       }
     },
     {
-      "id": "design-ipad-mini-8-rumour",
-      "title": "아이패드 미니 8 루머, 크리에이터의 최대 불만 해소하나",
-      "summary": "2026년 말 예상 모델이 OLED 디스플레이와 A19 프로 칩을 탑재할 것으로 알려졌다.",
-      "source": "Creative Bloq",
-      "url": "https://www.creativebloq.com/tech/phones-tablets/theres-one-ipad-mini-8-rumour-creatives-should-pay-attention-to",
-      "originalDate": "2026-07-16",
+      "id": "design-google-vids-ai-avatars",
+      "title": "구글 비즈, 셀피로 만드는 AI 아바타 영상 기능 추가",
+      "summary": "제미나이 옴니가 결합돼 프롬프트만으로 영상 생성이 가능해졌다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/?utm_source=tldrdesign",
       "report": {
-        "tldr": "아이패드 미니 8이 OLED와 A19 프로를 달고 2026년 말 나올 것으로 보인다.",
-        "what": "2026년 말 출시가 예상되는 아이패드 미니 8이 OLED 디스플레이와 A19 프로 칩을 갖출 것으로 알려졌다. 디지털 아티스트와 콘텐츠 크리에이터에게 성능 향상으로 어필할 전망이다.",
+        "tldr": "구글 비즈가 셀피와 음성 녹음만으로 자신을 닮은 디지털 아바타가 등장하는 영상을 만들 수 있는 커스텀 AI 아바타 기능을 추가했다.",
+        "what": "이번 업데이트로 제미나이 옴니가 비즈에 통합되면서 프롬프트와 참조 이미지로 영상을 생성할 수 있고, 배경 교체·조명 보정·효과·단계별 편집도 지원한다. 비즈니스용 구글 워크스페이스 도구로 자리매김하고 있지만, 새로운 아바타·편집 기능은 헤이젠, 신테시아, 캡션스, D-ID 같은 AI 영상 플랫폼과 더욱 가까워지고 있다.",
         "points": [
-          "OLED 디스플레이 탑재 전망",
-          "A19 프로 칩",
-          "2026년 말 출시 예상"
+          "셀피·음성 녹음으로 디지털 아바타 영상 생성",
+          "제미나이 옴니 통합으로 프롬프트 기반 영상 생성 지원",
+          "배경 교체·조명 보정·단계별 편집 기능 추가",
+          "헤이젠·신테시아 등 AI 영상 플랫폼과 경쟁 구도 형성"
         ],
         "why": [
-          "미니 라인의 디스플레이 품질이 크리에이터 채택의 최대 걸림돌이었음"
+          "업무용 협업 툴이 소비자용 AI 영상 생성 플랫폼의 기능을 빠르게 흡수하고 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-wait-who-made-this-provenance",
+      "title": "\"이거 누가 만들었지?\" AI 시대의 창작 출처 신뢰 문제",
+      "summary": "표현적 작업일수록 제작 과정 공개가 중요하지만, 기능적 도구에서는 그 필요성이 낮다는 분석.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/8fHKKz",
+      "report": {
+        "tldr": "AI 생성 미디어가 사람 작업과 구분하기 어려워지면서 신뢰가 흔들리자, 창작자들이 제작 과정과 도구를 공개해 저작을 증명하고 있다.",
+        "what": "출처(provenance)는 예술이나 영화처럼 저작이 의미를 좌우하는 표현적 작업에서 가장 중요하지만, 거래 인터페이스 같은 기능적 도구에서는 거의 문제가 되지 않는다. 진짜 과제는 제작의 모든 단계를 기록하는 것이 아니라, 관객이 실제로 신경 쓰는 지점을 파악해 그에 맞게 공개 방식을 설계하는 것이라고 지적한다.",
+        "points": [
+          "AI 생성물 확산으로 창작 신뢰도 저하",
+          "표현적 작업(예술·영화)에서 출처 공개가 특히 중요",
+          "기능적 도구에서는 출처 공개 필요성 낮음",
+          "핵심은 전면 기록이 아니라 관객이 신경 쓰는 지점에 맞춘 공개 설계"
+        ],
+        "why": [
+          "AI 시대 창작자 신뢰 구축 전략에 대한 실용적 프레임을 제시"
+        ]
+      }
+    },
+    {
+      "id": "design-web-standards-ai-moment",
+      "title": "\"AI UX 표준화, 지금이 골든타임\"",
+      "summary": "초기 웹처럼 파편화된 AI 인터랙션 패턴을 공유 표준으로 통합해야 한다는 제안.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/M4x64n",
+      "report": {
+        "tldr": "AI 인터페이스는 초기 웹과 비슷한 단계에 있으며, 플랫폼마다 호환되지 않는 인터랙션 패턴이 등장해 불일치와 개발 비용 증가를 낳고 있다.",
+        "what": "해결책은 시스템이 신뢰도를 전달하고, 출처를 인용하고, 권한을 요청하고, 작업을 사용자에게 되돌려주는 방식 등 AI 인터랙션에 공유 표준을 세우는 것이다. 이는 웹을 더 접근 가능하고 상호운용 가능하며 유지보수하기 쉽게 만든 것과 같은 원칙을 따른다. 디자이너와 개발자는 독자적인 관행을 만들기보다 기존 표준화 기구와 오픈 프로토콜을 통해 협력해, 독점적 방식이 굳어지기 전에 일관된 AI 생태계를 구축해야 한다.",
+        "points": [
+          "AI 인터페이스는 초기 웹과 유사한 파편화 단계",
+          "플랫폼별 호환 불가 패턴이 불일치·개발비용 증가 초래",
+          "신뢰도 전달·출처 인용·권한 요청 등에 공유 표준 필요",
+          "기존 표준화 기구·오픈 프로토콜을 통한 협력 권고"
+        ],
+        "why": [
+          "독점적 UX 관행이 굳어지기 전에 업계 차원의 표준화가 시급하다는 경고"
         ]
       }
     },
     {
       "id": "design-koto-cctype-foundry",
-      "title": "코토, 저렴한 고품질 서체 파운드리 CcType 출범",
-      "summary": "프리랜서와 소규모 스튜디오를 겨냥해 합리적 가격의 서체를 공급하는 파운드리를 시작했다.",
+      "title": "코토, 양질의 타이포그래피 대중화 위해 '씨씨타입' 파운드리 출범",
+      "summary": "첫 서체 '씨씨타임라인'으로 프리랜서·소규모 스튜디오를 겨냥한다.",
       "source": "Creative Boom",
-      "url": "https://www.creativeboom.com/news/the-world-is-deserving-of-better-design-kotos-jowey-roden-on-his-mission-to-make-quality-typefaces-affordable/",
-      "originalDate": "2026-07-16",
+      "url": "https://www.creativeboom.com/news/the-world-is-deserving-of-better-design-kotos-jowey-roden-on-his-mission-to-make-quality-typefaces-affordable/?utm_source=tldrdesign",
       "report": {
-        "tldr": "코토가 프리랜서·소규모 스튜디오를 위한 저가 고품질 서체 파운드리를 열었다.",
-        "what": "코토가 프리랜서와 소규모 스튜디오를 겨냥한 합리적 가격으로 양질의 서체 접근성을 민주화하는 새 파운드리 CcType을 출범시켰다. 서체 CcTimeline 하나로 시작하며 의도적인 '공개적으로 만들기' 철학을 반영한다.",
+        "tldr": "디자인 스튜디오 코토가 클라이언트 작업을 넘어 자사의 디자인 전문성을 공개하는 새 서체 파운드리 '씨씨타입'을 출범시켰다.",
+        "what": "이는 코토의 무료 교육 플랫폼 '시즌드'와 같은 철학을 따른다. 대규모 카탈로그 대신 단일 서체 '씨씨타임라인'으로 데뷔하며, 품질·실험·접근성에 초점을 맞춘 '공개적으로 만들기(build in public)' 방식을 취하고 가격은 프리랜서와 소규모 스튜디오를 겨냥했다. 이번 시도는 코토의 오픈소스 클라이언트 서체에 대한 강한 수요에서 영감을 받았으며, 고품질 디자인의 대중화를 향한 더 넓은 노력을 대표한다.",
         "points": [
-          "CcType 파운드리 출범",
-          "프리랜서·소규모 스튜디오 대상 가격",
-          "CcTimeline 단일 서체로 시작"
+          "신규 타입 파운드리 '씨씨타입' 출범",
+          "첫 서체 '씨씨타임라인'으로 단일 서체 데뷔",
+          "프리랜서·소규모 스튜디오 대상 가격 책정",
+          "무료 교육 플랫폼 '시즌드'와 같은 철학 공유"
         ],
         "why": [
-          "서체 라이선스 비용이 소규모 스튜디오의 실질적 진입장벽이었음"
+          "대형 스튜디오가 자사 전문성을 상품화해 업계 전반의 디자인 접근성을 높이려는 시도"
         ]
       }
     },
     {
-      "id": "design-nine-new-emoji-2026",
-      "title": "2026년을 요약할 신규 이모지 9종 공개",
-      "summary": "유니코드 컨소시엄이 등대·지우개·피클·제왕나비 등 9종을 세계 이모지의 날에 앞서 공개한다.",
-      "source": "Mashable",
-      "url": "https://mashable.com/tech/nine-new-emoji-revealed",
-      "originalDate": "2026-07-16",
+      "id": "design-intellemo-cinematic-ai-videos",
+      "title": "인텔레모, 아이디어를 시네마틱 AI 영상으로 변환",
+      "summary": "짧은 광고부터 장편 스토리까지 몇 분 만에 생성할 수 있는 도구.",
+      "source": "Intellemo",
+      "url": "https://intellemo.ai/?utm_source=tldrdesign",
       "report": {
-        "tldr": "유니코드가 등대·지우개·피클 등 신규 이모지 9종을 공개하며 내년 봄 배포한다.",
-        "what": "유니코드 컨소시엄이 세계 이모지의 날에 앞서 등대, 지우개, 피클, 제왕나비를 포함한 신규 이모지 9종을 공개한다. 원래 '실눈 웃는 얼굴'로 제안됐던 '갈라진 웃는 얼굴'이 최고 인기 후보로 꼽힌다. 내년 봄 도입 예정이다.",
+        "tldr": "인텔레모는 짧은 광고부터 장편 스토리까지 몇 분 만에 생성할 수 있는 AI 영상 제작 서비스다.",
+        "what": "아이디어 입력만으로 다양한 형식의 시네마틱 영상을 자동 생성해준다.",
         "points": [
-          "신규 이모지 9종 공개",
-          "등대·지우개·피클·제왕나비 포함",
-          "내년 봄 배포 예정"
+          "짧은 광고부터 장편 스토리까지 지원",
+          "몇 분 내 영상 생성"
         ],
         "why": [
-          "이모지 세트는 플랫폼 전반의 폰트·렌더링 업데이트를 유발"
+          "AI 영상 생성 도구들이 제작 시간을 극적으로 단축시키고 있음"
         ]
       }
     },
     {
-      "id": "design-fold7-national-year-reading",
-      "title": "폴드7디자인, 영국 '독서의 해'에 열정 중심 아이덴티티",
-      "summary": "'Go All In'을 축으로 스포츠·게임·음악 등 기존 관심사를 통해 독서에 접근하도록 설계했다.",
+      "id": "design-component-anatomy-tool",
+      "title": "'컴포넌트 아나토미', Figma 스크린샷 주석 작업을 대체",
+      "summary": "렌더링된 DOM에 data-part를 붙여 인터랙티브 해부도를 자동 생성한다.",
+      "source": "Component Anatomy",
+      "url": "https://julien-deramond.github.io/component-anatomy/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "컴포넌트 아나토미는 Figma에서 주석 단 스크린샷을 내보내는 작업을 대체하는 오픈 도구다.",
+        "what": "렌더링된 DOM에 data-part를 주석으로 달면 HTML, Astro, 스토리북 환경에서 동작하는 인터랙티브하고 동기화된 해부도 패널을 얻을 수 있다.",
+        "points": [
+          "렌더링된 DOM에 data-part 주석 부여",
+          "인터랙티브·동기화된 컴포넌트 해부도 생성",
+          "HTML·Astro·스토리북 환경 지원"
+        ],
+        "why": [
+          "디자인 시스템 문서화 작업을 코드 기반으로 자동화하는 흐름을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "design-columns-ai-data-insights",
+      "title": "컬럼스, 지저분한 데이터를 시각 인사이트로 변환",
+      "summary": "데이터 연결부터 시각화까지 자동화하는 서비스.",
+      "source": "Columns",
+      "url": "https://columns.ai/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "컬럼스는 데이터를 연결하고 작업을 자동화해 이해하고 공유할 수 있는 시각 자료로 바꿔주는 서비스다.",
+        "what": "복잡한 데이터를 수동 가공 없이 시각화 결과물로 변환해준다.",
+        "points": [
+          "데이터 연결 및 작업 자동화",
+          "이해·공유 가능한 시각 자료로 변환"
+        ],
+        "why": [
+          "비전문가도 데이터 시각화에 접근할 수 있게 하는 도구 확산의 일환"
+        ]
+      }
+    },
+    {
+      "id": "design-product-designers-are-liars",
+      "title": "\"프로덕트 디자이너는 거짓말쟁이다\": 크래프트로의 회귀 요구",
+      "summary": "워크숍·전략 데크로 옮겨간 업계가 AI 등장으로 다시 실제 제작 역량을 시험받고 있다.",
+      "source": "My Design Side",
+      "url": "https://mydesignside.substack.com/p/product-designers-are-liars?utm_source=tldrdesign",
+      "report": {
+        "tldr": "프로덕트 디자인은 인터페이스 제작에서 워크숍, 전략 데크, 프로세스로 옮겨갔고, 시니어 지위는 점점 Figma 같은 실제 디자인 툴과 멀어지는 것과 연결됐다는 지적이다.",
+        "what": "이런 변화는 비대해진 디자인 시스템과 개성 없는 제품을 낳았고, 비용이 큰 디자인 조직이 실제로 성과를 개선했는지 기업들이 의문을 갖게 만들었다. AI의 등장은 이제 디자이너들에게 AI가 만들 수 없는 것을 만들어낼 수 있음을 증명하라고 요구하며, 업계를 프로세스 자체를 위한 프로세스에서 진정한 크래프트로 되돌리고 있다.",
+        "points": [
+          "프로덕트 디자인이 워크숍·전략 데크·프로세스 중심으로 이동",
+          "시니어 지위와 실제 툴 사용 간 거리가 멀어짐",
+          "비대한 디자인 시스템, 개성 없는 제품으로 귀결",
+          "AI 등장이 진짜 크래프트 역량 증명을 요구"
+        ],
+        "why": [
+          "AI 시대에 디자이너의 가치 증명 방식이 프로세스에서 실제 제작 능력으로 회귀하고 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-facebook-design-regressed",
+      "title": "\"페이스북 디자인은 진화하지 않고 퇴보했다\"",
+      "summary": "예측 가능한 시간순 피드가 참여 최적화 알고리즘으로 바뀌며 신뢰가 침식됐다는 분석.",
+      "source": "Web Designer Depot",
+      "url": "https://webdesignerdepot.com/facebooks-design-didnt-evolve-it-regressed/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "페이스북의 인터페이스는 예측 가능하고 시간순으로 사용자가 통제하던 피드에서, 사용성보다 참여를 최적화하는 알고리즘 기반 시스템으로 서서히 바뀌었다.",
+        "what": "그룹, 마켓플레이스, 릴스 같은 기능 추가가 한때 일관성 있던 경험을 파편화시켰고, 개인화에 대한 투명한 설명 없이 인지 부하만 늘렸다. 이는 제품이 한순간에 실패하는 것이 아니라, 개별적으로는 합리적으로 보이는 작은 결정들이 쌓여 명료함과 신뢰를 서서히 침식시킨다는 더 넓은 디자인 교훈을 보여준다.",
+        "points": [
+          "시간순·사용자 통제 피드 → 알고리즘 기반 참여 최적화로 전환",
+          "그룹·마켓플레이스·릴스 등 기능 추가로 경험 파편화",
+          "투명한 설명 없는 개인화로 인지 부하 증가",
+          "작은 결정들의 누적이 신뢰를 서서히 침식시키는 사례"
+        ],
+        "why": [
+          "장수 제품의 디자인 부채가 어떻게 누적되는지 보여주는 교훈적 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-ipad-mini-8-rumour",
+      "title": "아이패드 미니 8, OLED·A19 프로 탑재 루머",
+      "summary": "크리에이터들의 최대 불만이었던 디스플레이가 개선될 전망이나 다른 단점도 지적된다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/tech/phones-tablets/theres-one-ipad-mini-8-rumour-creatives-should-pay-attention-to?utm_source=tldrdesign",
+      "report": {
+        "tldr": "2026년 말 출시가 예상되는 아이패드 미니 8이 OLED 디스플레이와 A19 프로 칩을 탑재할 것이라는 루머가 나왔다.",
+        "what": "이 개선이 현실화되면 디지털 아트와 편집 작업을 하는 크리에이터들에게 매력도가 높아질 전망이다.",
+        "points": [
+          "2026년 말 출시 예상",
+          "OLED 디스플레이 탑재 루머",
+          "A19 프로 칩 탑재 루머",
+          "디지털 아트·편집 작업 크리에이터 대상 매력 상승 기대"
+        ],
+        "why": [
+          "소형 태블릿 라인업에도 플래그십급 디스플레이 기술이 확산되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "design-fold7-national-year-of-reading",
+      "title": "폴드7디자인, 英 '국민 독서의 해' 브랜딩 공개",
+      "summary": "\"Go All In\"이라는 콘셉트로 취미를 매개로 독서를 유도한다.",
       "source": "The Brand Identity",
-      "url": "https://the-brandidentity.com/project/fold7design-gives-the-national-year-of-reading-a-passion-led-identity",
-      "originalDate": "2026-07-16",
+      "url": "https://the-brandidentity.com/project/fold7design-gives-the-national-year-of-reading-a-passion-led-identity?utm_source=tldrdesign",
       "report": {
-        "tldr": "영국 '독서의 해 2026' 아이덴티티가 의무가 아닌 관심사 기반 접근을 택했다.",
-        "what": "폴드7디자인이 영국의 2026 독서의 해를 위한 브랜딩을 'Go All In'을 중심으로 제작했다. 의무감이 아니라 스포츠, 게임, 음악 같은 기존 관심사를 통해 독자가 문학을 탐색하도록 유도한다.",
+        "tldr": "폴드7디자인이 영국의 '2026 국민 독서의 해'를 위한 브랜딩을 \"Go All In\"이라는 콘셉트로 제작했다.",
+        "what": "스포츠, 게임, 음악, 패션 등 사람들이 이미 가진 관심사를 통해 독서를 발견하도록 유도하며, 독서를 의무가 아닌 즐거움으로 접근하게 만드는 것이 목표다.",
         "points": [
-          "'Go All In' 콘셉트",
-          "기존 관심사를 진입점으로 활용",
-          "의무 아닌 열정 기반 프레이밍"
+          "\"Go All In\" 콘셉트로 브랜딩 제작",
+          "스포츠·게임·음악·패션 등 기존 관심사를 매개로 활용",
+          "독서를 의무가 아닌 즐거움으로 재구성"
         ],
         "why": [
-          "공공 캠페인이 계도형 메시지를 버리고 관심사 기반으로 전환하는 사례"
+          "공공 캠페인 브랜딩이 의무감이 아닌 개인의 관심사에서 출발하는 접근으로 변화하고 있음"
         ]
       }
     }

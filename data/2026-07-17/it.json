@@ -6,257 +6,223 @@
   "bg": "#26203a",
   "items": [
     {
-      "id": "it-grok-cli-uploads-files",
-      "title": "그록 CLI, 로컬 파일 전체를 클라우드에 업로드 정황",
-      "summary": "그록 빌드 CLI가 설정을 껐는데도 깃 저장소와 민감 파일을 xAI 클라우드로 업로드한 사실이 드러났다.",
-      "source": "Pragmatic Engineer",
-      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-groks-cli-caught-uploading",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "High",
-        "confidence": "85%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "개발자 워크스테이션 · 소스코드 · 시크릿"
-      },
+      "id": "it-anthropic-blackstone-ai-implementation",
+      "title": "앤스로픽·블랙스톤, '다음 조단위 AI 사업은 구현'에 베팅",
+      "summary": "블랙스톤이 투자한 '오드 위드 앤스로픽'이 15억달러 규모 AI '구현' 전문 기업으로 자리매김하고 있다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/?utm_source=tldrit",
       "report": {
-        "tldr": "그록 빌드 CLI가 비활성화 설정을 무시하고 저장소 전체를 xAI 클라우드로 올린 것이 확인됐다.",
-        "what": "연구자들이 그록 빌드 CLI가 설정을 비활성화했음에도 깃 저장소 전체와 민감 파일을 xAI 클라우드 스토리지로 업로드하고 있었다는 사실을 발견했다. xAI는 서버 측 제어로 업로드를 중단시켰으나, AI 코딩 에이전트의 데이터 처리 방식에 대한 엔터프라이즈 신뢰 문제를 남겼다.",
+        "tldr": "5월 출범한 '오드 위드 앤스로픽'이 모델 성능 경쟁이 아닌 기업 내 AI '구현'을 다음 조단위 사업 기회로 보고 15억달러 규모의 전문 기업으로 포지셔닝하고 있다.",
+        "what": "오드는 앤스로픽과 블랙스톤이 투자한 벤처로, 모델 자체를 개선하기보다 AI 엔지니어링을 기업 내부에 실제로 배치하는 데 집중한다. 인수한 스타트업 프랙셔널 AI를 기반으로 세워졌으며 엔지니어 100명을 두고 있다. '클로드 우선' 접근을 기본으로 하되 필요할 때는 경쟁사 도구도 함께 사용하며, 오픈AI의 배포 사업 및 컨설팅 업체들의 '포워드 디플로이드' 팀과 경쟁 구도를 이룬다.",
         "points": [
-          "설정을 껐는데도 업로드가 계속됨",
-          "깃 저장소 전체와 민감 파일 대상",
-          "xAI가 서버 측에서 업로드 중단",
-          "엔터프라이즈 신뢰 문제로 확산"
+          "오드 위드 앤스로픽, 5월 출범, 15억달러 규모 'AI 구현' 기업으로 포지셔닝",
+          "블랙스톤이 투자자로 참여",
+          "인수 스타트업 프랙셔널 AI를 기반으로 설립, 엔지니어 100명 보유",
+          "'클로드 우선' 원칙이지만 필요 시 경쟁사 도구도 병행 사용",
+          "오픈AI 배포 사업·컨설팅사 포워드 디플로이드 팀과 직접 경쟁"
         ],
         "why": [
-          "코딩 에이전트가 사실상 무제한 파일 접근 권한을 갖는 구조적 리스크를 드러냄",
-          "시크릿·비공개 소스가 벤더 클라우드로 유출될 경우 되돌릴 수 없음"
+          "모델 성능 경쟁이 상향 평준화되면서, AI를 기업 현장에 실제로 심고 운영하는 '구현' 역량이 다음 수익원으로 부상하고 있음을 보여주는 사례"
         ],
-        "action": "그록 빌드 CLI 사용 이력이 있는 저장소는 시크릿을 로테이션하고 에이전트 도구의 네트워크 송신을 감사할 것"
+        "context": "이는 AI 업계의 경쟁 축이 '누가 더 똑똑한 모델을 만드는가'에서 '누가 그 모델을 기업 워크플로우에 더 잘 심어주는가'로 옮겨가고 있다는 더 큰 흐름과 맞닿아 있다. 컨설팅사들의 전통적인 시스템 통합(SI) 사업 영역에 AI 연구소가 직접 진출하는 모양새다."
       }
     },
     {
       "id": "it-cisa-sharepoint-hardening",
-      "title": "CISA, 셰어포인트 즉시 강화 권고…익스플로잇 확산",
-      "summary": "셰어포인트 취약점 3건이 활발히 악용되면서 CISA가 즉각적인 패치와 침해 조사를 권고했다.",
+      "title": "CISA, 셰어포인트 즉각 강화 조치 촉구",
+      "summary": "실제 악용이 확인된 취약점 3건에 대해 패치만으로는 지속 침투를 막지 못할 수 있다고 경고했다.",
       "source": "Computerworld",
-      "url": "https://www.computerworld.com/article/4197818/cisa-urges-immediate-sharepoint-hardening-as-exploits-mount-2.html",
-      "originalDate": "2026-07-15",
-      "intel": {
-        "impact": "High",
-        "confidence": "90%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "SharePoint 온프레미스"
-      },
+      "url": "https://www.computerworld.com/article/4197818/cisa-urges-immediate-sharepoint-hardening-as-exploits-mount-2.html?utm_source=tldrit",
       "report": {
-        "tldr": "셰어포인트 취약점 3건이 실제 악용 중이며 패치만으로는 침투를 제거하지 못할 수 있다.",
-        "what": "셰어포인트 취약점 3건이 활발히 악용되면서 CISA가 온프레미스 서버의 즉각적인 패치와 조사를 권고했다. 패치만으로는 지속적 위협을 제거하지 못할 수 있으므로 침해 흔적 헌팅, 머신 키 로테이션, 셰어포인트와 핵심 시스템의 격리도 함께 수행해야 한다.",
+        "tldr": "CISA가 온프레미스 셰어포인트 서버에 대한 즉각적인 패치와 조사를 촉구했다. 취약점 3건의 실제 악용이 확인됐기 때문이다.",
+        "what": "보안팀은 패치와 함께 침해 흔적을 직접 헌팅하고, 필요한 경우 머신 키를 교체하며, 셰어포인트를 핵심 시스템과 분리해야 한다. 패치만으로는 공격자의 지속 침투(persistence)를 완전히 제거하지 못할 수 있기 때문이다.",
         "points": [
-          "취약점 3건 활발히 악용 중",
-          "온프레미스 서버 즉시 패치 권고",
-          "머신 키 로테이션 필수",
-          "패치 후에도 침해 헌팅 필요"
+          "온프레미스 셰어포인트 취약점 3건 실제 악용 확인",
+          "패치와 함께 침해 흔적 직접 헌팅 필요",
+          "필요 시 머신 키 교체 권고",
+          "셰어포인트를 핵심 시스템과 네트워크 분리 권고",
+          "패치만으로는 공격자 지속 침투 제거 불충분할 수 있음"
         ],
         "why": [
-          "패치 이전에 심어진 웹셸·지속성은 업데이트로 제거되지 않음"
+          "온프레미스 협업 솔루션의 취약점은 조직 내부 깊숙이 침투 경로를 열어줄 수 있어 신속 대응이 중요"
         ],
-        "action": "온프레미스 셰어포인트 패치 후 머신 키를 로테이션하고 침해 흔적을 별도로 헌팅할 것"
+        "action": "온프레미스 셰어포인트 서버를 즉시 패치하고, 침해지표(IOC)를 헌팅하며 머신 키 교체와 네트워크 분리를 병행"
       }
     },
     {
-      "id": "it-aws-cloudfront-outage",
-      "title": "AWS 클라우드프론트 장애…웹사이트 대신 오류 응답",
-      "summary": "내부 용량 제약으로 프라이빗 VPC 오리진 사용 고객에게 5xx 오류가 발생했다.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/off-prem/2026/07/16/aws-cloudfront-outage-serves-errors-instead-of-websites/5272421",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "90%",
-        "owner": "Eng",
-        "status": "Resolved",
-        "affectedSurface": "CloudFront · VPC 오리진"
-      },
+      "id": "it-scaling-it-hypergrowth",
+      "title": "\"IT 스케일링은 사람 늘리기가 아니라 시스템 설계다\"",
+      "summary": "메타·넷플릭스·우버·로빈후드·스퀘어 경험을 바탕으로 한 고성장기 IT 운영 플레이북.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/ToRl4e",
       "report": {
-        "tldr": "클라우드프론트 내부 용량 제약으로 프라이빗 VPC 오리진 고객에 5xx 오류가 발생했다.",
-        "what": "내부 용량 제약이 프라이빗 VPC 오리진을 사용하는 클라우드프론트 고객에게 장애를 일으켜 여러 서비스에서 5xx 오류가 발생했다. 허깅페이스와 영국 국영복권 등이 영향을 받았다.",
+        "tldr": "메타·넷플릭스·우버·로빈후드·스퀘어에서 폭발적 성장기 IT를 구축한 경험을 바탕으로, 스케일링의 핵심은 인력 증원이 아닌 시스템 설계라는 주장이다.",
+        "what": "저자는 인력, 지원 수요, 비용이 함께 늘어나는 것을 막는 시스템을 설계하는 것이 스케일링의 본질이라고 설명한다. 플레이북은 자동화, 셀프서비스, 표준화, 벤더 레버리지, 그리고 IT가 실제로 비즈니스 속도를 따라가고 있는지 보여주는 운영 지표를 다룬다.",
         "points": [
-          "프라이빗 VPC 오리진 사용 고객이 영향권",
-          "5xx 오류 다발",
-          "허깅페이스·영국 국영복권 등 피해"
+          "인력 증원이 아닌 시스템 설계가 스케일링의 핵심",
+          "자동화·셀프서비스·표준화·벤더 레버리지 강조",
+          "헤드카운트·지원수요·비용이 함께 증가하지 않도록 설계",
+          "IT가 비즈니스 속도를 따라가는지 보여주는 운영 지표 제시"
         ],
         "why": [
-          "CDN 단일 의존 구조의 장애 반경이 여전히 넓다는 점을 재확인"
+          "고성장 스타트업의 IT 조직 설계에 실전 검증된 프레임워크를 제공"
         ]
       }
     },
     {
-      "id": "it-anthropic-blackstone-ode",
-      "title": "앤스로픽·블랙스톤, \"다음 1조달러는 모델 아닌 구현\"",
-      "summary": "블랙스톤이 후원하는 15억달러 규모 AI 구현 전문 기업 오데가 엔터프라이즈 배포에 집중한다.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
-      "originalDate": "2026-07-15",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "80%",
-        "owner": "Strategy",
-        "status": "New",
-        "affectedSurface": "AI 도입 컨설팅 · 엔터프라이즈 배포"
-      },
+      "id": "it-hardware-shortage-channel-rethink",
+      "title": "하드웨어 공급난, IT 채널 파트너의 인프라 전략 재편 압박",
+      "summary": "웨스트콘-콤스토 조사에서 파트너의 87%가 프로젝트 리스크 완화 조치를 취했다고 응답.",
+      "source": "ITPro",
+      "url": "https://www.itpro.com/hardware/hardware-shortages-force-channel-partner-rethink-on-infrastructure-strategies?utm_source=tldrit",
       "report": {
-        "tldr": "블랙스톤 후원의 15억달러 기업 오데가 모델이 아닌 'AI 구현' 시장을 노린다.",
-        "what": "5월 출범한 블랙스톤 후원 벤처 오데가 모델 개발이 아니라 엔터프라이즈 배포에 집중하는 15억달러 규모 AI 구현 기업으로 자리매김하고 있다. 엔지니어 100명을 고용했고 클로드를 우선하되 다른 도구도 유연하게 병행해 오픈AI 및 컨설팅 펌과 경쟁한다.",
+        "tldr": "하드웨어 가격 변동성과 부품 공급 부족이 지속되면서 IT 채널 파트너들이 인프라 전략을 재검토하고 있다.",
+        "what": "웨스트콘-콤스토 조사에 따르면 대다수 파트너(87%)가 프로젝트 리스크를 줄이기 위한 조치를 취하고 있다고 답했다. 여기에는 사전 계획 강화, 용량 예측 개선, 매니지드 서비스나 스토리지 계층화·캐싱 활용 확대가 포함되며, 일부는 벤더를 교체하거나 고객 구매 일정을 조정해 공급 제약에 대응하고 있다.",
         "points": [
-          "기업가치 15억달러, 엔지니어 100명",
-          "모델이 아닌 '구현'에 베팅",
-          "클로드 우선, 타 도구 병행",
-          "오픈AI·전통 컨설팅과 경쟁"
+          "응답자 87%가 프로젝트 리스크 완화 조치 시행",
+          "사전 계획 강화·용량 예측 개선",
+          "매니지드 서비스·스토리지 계층화 활용 확대",
+          "일부는 벤더 교체 또는 구매 일정 조정으로 대응"
         ],
         "why": [
-          "AI 가치가 모델 계층에서 도입·통합 계층으로 이동한다는 자본시장의 판단"
-        ]
-      }
-    },
-    {
-      "id": "it-baidu-apple-intelligence-china",
-      "title": "바이두, 중국 애플 인텔리전스의 AI 검색 담당",
-      "summary": "애플과 바이두가 협력해 중국 아이폰 사용자에게 AI 검색과 강화된 시리를 제공한다.",
-      "source": "TechNode",
-      "url": "https://technode.com/2026/07/16/baidu-to-power-ai-search-for-apples-apple-intelligence-in-china/",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "애플이 중국에서 바이두와 손잡고 AI 검색을, 알리바바 Qwen으로 시리를 구동한다.",
-        "what": "애플과 바이두가 협력해 중국 아이폰 사용자에게 애플 인텔리전스 기능을 제공한다. 바이두가 AI 검색 경험을 개발하고, 강화된 시리는 알리바바의 Qwen 모델을 사용한다. 출시는 가을 후반 iOS 업데이트와 함께 계획됐다.",
-        "points": [
-          "바이두가 AI 검색 담당",
-          "시리는 알리바바 Qwen 기반",
-          "가을 후반 iOS 업데이트와 함께 출시"
-        ],
-        "why": [
-          "규제 장벽으로 글로벌 AI 스택이 중국에서 현지 모델로 분기되는 구조가 고착"
+          "하드웨어 공급망 불안정성이 IT 조달 전략 전반의 구조적 변화를 이끌고 있음"
         ]
       }
     },
     {
       "id": "it-salesforce-agentforce-keybanc",
-      "title": "세일즈포스 에이전트포스, 고객 설득 실패 지적",
-      "summary": "키뱅크 분석가들은 데이터 미비와 제품 미성숙으로 고객이 에이전트포스의 가치를 못 찾는다고 평가했다.",
+      "title": "키뱅크 애널리스트 \"세일즈포스 에이전트포스, 고객 반응 미온적\"",
+      "summary": "데이터 준비 부족과 제품 미성숙이 원인으로 지목됐으나 세일즈포스는 반박.",
       "source": "The Register",
-      "url": "https://www.theregister.com/saas/2026/07/15/salesforces-agentforce-isnt-winning-over-clients-keybanc-analysts-claim/5271866",
-      "originalDate": "2026-07-15",
+      "url": "https://www.theregister.com/saas/2026/07/15/salesforces-agentforce-isnt-winning-over-clients-keybanc-analysts-claim/5271866?utm_source=tldrit",
       "report": {
-        "tldr": "키뱅크는 세일즈포스 에이전트포스의 도입·매출 성장이 기대보다 느릴 것으로 봤다.",
-        "what": "키뱅크 분석가들은 세일즈포스 고객들이 준비되지 않은 데이터와 미성숙한 제품 역량 탓에 에이전트포스에서 가치를 찾기 어려워한다고 보고했다. 세일즈포스는 자사 최고 성장 제품이라 주장하지만, 분석가들은 도입과 매출 성장이 당초 예상보다 느릴 것으로 전망한다.",
+        "tldr": "키뱅크 애널리스트들은 세일즈포스 고객들이 에이전트포스에서 실질적 가치를 체감하지 못하고 있다고 진단했다.",
+        "what": "고객 데이터가 의미 있는 AI 작업을 뒷받침할 준비가 안 돼 있고 제품 자체도 아직 미성숙하다는 것이 이유로 꼽혔다. 세일즈포스는 이 평가에 반박하며 에이전트포스가 자사에서 가장 빠르게 성장하는 제품이라고 주장했지만, 애널리스트들은 도입과 사용량 기반 매출 성장이 시장 예상보다 더디게 나타날 것으로 전망했다.",
         "points": [
-          "고객 데이터 미정비가 핵심 병목",
-          "제품 역량 미성숙",
-          "도입·매출 성장 전망 하향"
+          "키뱅크: 고객 데이터 미비·제품 미성숙이 원인",
+          "세일즈포스는 반박, 자사 최고속 성장 제품이라 주장",
+          "애널리스트는 도입·매출 성장이 예상보다 지연될 것으로 전망"
         ],
         "why": [
-          "엔터프라이즈 AI 에이전트의 실제 병목이 모델이 아니라 데이터 정비임을 보여주는 사례"
+          "엔터프라이즈 AI 에이전트 제품의 실제 도입 속도에 대한 시장의 기대치 조정이 이뤄지고 있음"
         ]
       }
     },
     {
-      "id": "it-prisma-airs-ai-gateway",
-      "title": "팔로알토, 프리즈마 AIRS AI 게이트웨이 정식 출시",
-      "summary": "AI 사용 탐지·모델 접근 정책·토큰 비용 추적·런타임 보호를 중앙에서 제어하는 게이트웨이다.",
+      "id": "it-baidu-apple-intelligence-china",
+      "title": "바이두, 中 애플 인텔리전스 AI 검색 담당",
+      "summary": "알리바바 큐원 모델을 기반으로 시리 개선과 AI 검색을 개발, 올가을 iOS와 함께 출시 예정.",
+      "source": "TechNode",
+      "url": "https://technode.com/2026/07/16/baidu-to-power-ai-search-for-apples-apple-intelligence-in-china/?utm_source=tldrit",
+      "report": {
+        "tldr": "애플과 바이두가 협력해 중국 아이폰 사용자용 애플 인텔리전스 AI 기능을 제공할 것으로 알려졌다.",
+        "what": "바이두는 중국 시장을 위한 AI 기반 검색 경험과 시리 개선을 개발하며, 기반 기술로 알리바바의 큐원 대형언어모델을 사용한다. 출시는 올가을 iOS와 함께 이뤄질 전망이다.",
+        "points": [
+          "바이두가 중국용 AI 검색·시리 개선 개발",
+          "기반 모델은 알리바바 큐원",
+          "올가을 iOS와 함께 출시 예정"
+        ],
+        "why": [
+          "중국 규제 환경 속에서 애플이 현지 파트너와의 협력으로 AI 기능을 우회 배치하는 전략을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "it-palo-alto-prisma-airs-gateway",
+      "title": "팔로알토 네트웍스, 'Prisma AIRS AI 게이트웨이' 정식 출시",
+      "summary": "기업의 AI 사용 현황 파악부터 프롬프트 공격 차단까지 통합 제어판을 제공한다.",
       "source": "Palo Alto Networks",
-      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/",
-      "originalDate": "2026-07-16",
+      "url": "https://www.paloaltonetworks.com/blog/2026/07/announcing-general-availability-of-prisma-airs-ai-gateway/?utm_source=tldrit",
       "report": {
-        "tldr": "팔로알토가 기업의 AI 사용을 중앙 통제하는 프리즈마 AIRS AI 게이트웨이를 정식 출시했다.",
-        "what": "팔로알토 네트웍스가 프리즈마 AIRS AI 게이트웨이를 출시해 기업이 AI 사용 현황 탐지, 모델 접근 정책, 토큰 비용 추적, 프롬프트 공격 및 데이터 노출에 대한 런타임 보호를 중앙에서 통제할 수 있게 했다.",
+        "tldr": "팔로알토 네트웍스가 Prisma AIRS AI 게이트웨이를 정식 출시했다.",
+        "what": "이 제품은 기업이 AI 사용 현황을 파악하고, 모델·툴 접근 정책을 시행하며, 토큰 비용을 추적하고, 에이전트 신원을 검증하며, 런타임에서 프롬프트 공격이나 민감정보 노출을 차단할 수 있는 중앙 제어판을 제공한다.",
         "points": [
-          "섀도 AI 사용 탐지",
-          "모델 접근 정책 중앙 관리",
+          "AI 사용 현황 탐지 기능",
+          "모델·툴 접근 정책 시행",
           "토큰 비용 추적",
-          "프롬프트 공격·데이터 노출 런타임 방어"
+          "에이전트 신원 검증",
+          "런타임 프롬프트 공격·민감정보 노출 차단"
         ],
         "why": [
-          "AI 게이트웨이가 보안 벤더의 신규 제품 카테고리로 자리잡는 중"
-        ]
-      }
-    },
-    {
-      "id": "it-google-meet-take-notes",
-      "title": "구글 밋, '자동 메모' 관리자·사용자 설정 추가",
-      "summary": "3인 이상 회의에서만 자동 메모가 작동하도록 제어할 수 있으며 9월 21일부터 적용된다.",
-      "source": "Google Workspace Updates",
-      "url": "https://workspaceupdates.googleblog.com/2026/07/new-google-meet-take-notes-for-me-settings-for-admins-and-end-users.html",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "구글 밋이 3인 이상 회의에만 자동 메모를 적용하는 관리자 설정을 도입한다.",
-        "what": "구글 밋이 참가자 3인 이상 회의에서만 자동 메모를 허용하는 제어 기능을 도입한다. 관리자는 9월 21일 이후 시행 전에 기본값을 설정할 수 있다.",
-        "points": [
-          "3인 이상 회의로 자동 메모 제한 가능",
-          "관리자 기본값 사전 설정 지원",
-          "9월 21일 이후 시행"
-        ],
-        "why": [
-          "AI 회의 기록의 프라이버시 우려를 참가자 수 기준으로 완화하려는 접근"
-        ]
-      }
-    },
-    {
-      "id": "it-hardware-shortages-channel",
-      "title": "하드웨어 공급난에 채널 파트너 인프라 전략 재검토",
-      "summary": "부품 부족과 가격 변동으로 채널 파트너 87%가 예측 강화와 매니지드 서비스로 리스크를 줄이고 있다.",
-      "source": "IT Pro",
-      "url": "https://www.itpro.com/hardware/hardware-shortages-force-channel-partner-rethink-on-infrastructure-strategies",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "부품 부족으로 IT 채널 파트너 87%가 프로젝트 리스크 축소에 나섰다.",
-        "what": "부품 부족과 가격 변동성으로 IT 채널 파트너의 87%가 예측 개선과 매니지드 서비스를 통해 프로젝트 리스크를 줄이고 있다. 일부는 벤더 관계와 고객 구매 시점을 조정하며 공급 제약에 대응한다.",
-        "points": [
-          "채널 파트너 87%가 리스크 축소 조치",
-          "예측 정교화·매니지드 서비스 전환",
-          "벤더 관계·구매 시점 재조정"
-        ],
-        "why": [
-          "AI 수요發 부품 경쟁이 일반 엔터프라이즈 인프라 조달까지 압박"
-        ]
-      }
-    },
-    {
-      "id": "it-scaling-it-hypergrowth",
-      "title": "하이퍼그로스 환경의 IT 확장법",
-      "summary": "메타·넷플릭스·우버 경험을 바탕으로 인원·수요·비용이 비례 증가하지 않는 시스템 설계를 제안한다.",
-      "source": "Medium",
-      "url": "https://medium.com/@rush.desh/scaling-it-at-hypergrowth-35a29833135a",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "IT 확장의 핵심은 인원·수요·비용이 비례해 늘지 않도록 시스템을 설계하는 것이다.",
-        "what": "메타, 넷플릭스, 우버에서의 경험을 토대로 필자는 IT 확장이 인원, 수요, 비용의 비례 증가를 막는 시스템 설계에 달려 있다고 주장한다. 자동화, 셀프서비스, 표준화, 벤더 레버리지와 적절한 운영 지표를 강조한다.",
-        "points": [
-          "선형 증가를 끊는 것이 확장의 본질",
-          "자동화·셀프서비스·표준화가 축",
-          "벤더 레버리지와 운영 지표 병행"
-        ],
-        "why": [
-          "성장기 IT 조직의 비용 곡선을 결정하는 초기 설계 판단"
+          "기업용 AI 거버넌스 솔루션 시장이 게이트웨이 형태로 성숙해지고 있음을 보여줌"
         ]
       }
     },
     {
       "id": "it-database-not-data-model",
-      "title": "데이터베이스는 데이터 모델이 아니다",
-      "summary": "의미를 표현하는 데이터 모델과 구현 기제인 스키마의 혼동이 마이그레이션 난항과 AI 성능 저하를 부른다.",
+      "title": "\"데이터베이스는 데이터 모델이 아니다\"",
+      "summary": "스키마 설계와 데이터 모델링을 혼동하는 업계 관행이 '모델 실명(model blindness)'을 낳는다는 지적.",
       "source": "Practical Data Modeling",
-      "url": "https://practicaldatamodeling.substack.com/p/the-database-is-not-the-data-model",
-      "originalDate": "2026-07-16",
+      "url": "https://practicaldatamodeling.substack.com/p/the-database-is-not-the-data-model?utm_source=tldrit",
       "report": {
-        "tldr": "데이터 모델과 DB 스키마의 혼동이 정의 불일치와 AI 성능 저하로 이어진다.",
-        "what": "이 글은 의미를 표현하는 데이터 모델과 구현 기제인 데이터베이스 스키마를 구분하며, 업계의 혼동이 정의 불일치, 어려운 마이그레이션, AI 성능 저하 등의 문제를 낳았다고 설명한다.",
+        "tldr": "데이터 모델과 데이터베이스 스키마는 같지 않다는 지적이다. 스키마 설계는 구현 메커니즘이고, 데이터 모델링은 의미의 표현이다.",
+        "what": "이 둘을 혼동하는 업계 관행이 '모델 실명'을 낳았고, 이는 정의 불일치, 고통스러운 마이그레이션, 저하된 에이전트 성능 같은 후속 문제로 이어진다고 설명한다.",
         "points": [
-          "데이터 모델 = 의미 표현, 스키마 = 구현",
-          "혼동이 정의 불일치·마이그레이션 난항 유발",
-          "AI 성능 저하의 숨은 원인"
+          "스키마 설계 = 구현 메커니즘, 데이터 모델링 = 의미의 표현",
+          "둘을 혼동하는 관행이 '모델 실명' 초래",
+          "결과적으로 정의 불일치·마이그레이션 고통·에이전트 성능 저하 발생"
         ],
         "why": [
-          "LLM이 스키마를 그대로 읽는 환경에서 의미 계층의 부재가 비용으로 환원"
+          "AI 에이전트가 데이터를 직접 다루는 시대에 정확한 데이터 모델링의 중요성이 커지고 있음"
+        ]
+      }
+    },
+    {
+      "id": "it-grok-cli-uploading-local-files",
+      "title": "그록 CLI, 로컬 파일 클라우드 업로드 논란",
+      "summary": "모델 개선 설정을 꺼도 깃 저장소 전체가 xAI 클라우드로 전송된 사실이 드러났다.",
+      "source": "The Pragmatic Engineer",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-groks-cli-caught-uploading?utm_source=tldrit",
+      "report": {
+        "tldr": "연구자들이 그록 빌드 CLI가 커밋 이력을 포함한 깃 저장소 전체와 민감 파일을 xAI 관리 클라우드 스토리지로 업로드하고 있었다는 사실을 발견했다.",
+        "what": "사용자가 모델 개선 관련 설정을 꺼도 업로드가 이뤄졌다. xAI는 이후 서버단 스위치로 업로드를 중단시켰지만, 이는 기업들이 AI 코딩 에이전트가 공언한 데이터 통제 방침을 신뢰할 수 있는지에 대한 더 큰 의문을 남겼다.",
+        "points": [
+          "그록 빌드 CLI가 전체 깃 저장소·민감 파일을 클라우드로 업로드",
+          "모델 개선 설정을 꺼도 업로드 발생",
+          "xAI가 서버단 스위치로 업로드 중단",
+          "AI 코딩 에이전트의 데이터 통제 신뢰성 문제 제기"
+        ],
+        "why": [
+          "AI 코딩 도구의 데이터 프라이버시 공언과 실제 동작의 괴리가 기업 도입의 리스크로 부각됨"
+        ],
+        "action": "AI 코딩 에이전트 도입 전 데이터 전송·저장 정책을 직접 검증하고 사내 민감 저장소 접근을 제한"
+      }
+    },
+    {
+      "id": "it-aws-cloudfront-outage",
+      "title": "AWS 클라우드프론트 장애, 웹사이트 대신 오류 페이지 노출",
+      "summary": "허깅페이스·英 국립복권 등 프라이빗 VPC 오리진 사용 서비스가 영향을 받았다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/off-prem/2026/07/16/aws-cloudfront-outage-serves-errors-instead-of-websites/5272421?utm_source=tldrit",
+      "report": {
+        "tldr": "내부 용량 제약으로 인해 프라이빗 VPC 오리진을 사용하는 클라우드프론트 고객사들에 장애가 발생했다.",
+        "what": "허깅페이스와 영국 국립복권을 포함한 여러 서비스에서 5xx 오류가 발생했다.",
+        "points": [
+          "원인은 AWS 내부 용량 제약",
+          "프라이빗 VPC 오리진 사용 고객사 영향",
+          "허깅페이스·英 국립복권 등에서 5xx 오류 발생"
+        ],
+        "why": [
+          "클라우드 인프라의 단일 구성요소 장애가 여러 무관한 서비스로 동시에 번질 수 있음을 재확인"
+        ]
+      }
+    },
+    {
+      "id": "it-google-meet-take-notes-settings",
+      "title": "구글 미트, '나 대신 메모하기' 관리자·사용자 설정 추가",
+      "summary": "3인 이상 회의에 한해 자동 메모를 적용할 수 있는 옵션이 9월 21일부터 순차 적용된다.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/07/new-google-meet-take-notes-for-me-settings-for-admins-and-end-users.html?utm_source=tldrit",
+      "report": {
+        "tldr": "구글 미트가 참가자 3인 이상 회의에서만 자동으로 메모를 남기는 옵션을 추가한다.",
+        "what": "관리자는 이 기본값을 사전에 설정할 수 있으며, 해당 변경은 빨라도 9월 21일부터 사용자에게 적용되기 시작한다.",
+        "points": [
+          "3인 이상 회의에 한해 자동 메모 옵션 제공",
+          "관리자가 기본값 사전 설정 가능",
+          "9월 21일부터 순차 적용"
+        ],
+        "why": [
+          "회의 자동화 기능이 조직 단위 정책 설정으로 세분화되고 있음"
         ]
       }
     }

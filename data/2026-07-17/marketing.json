@@ -6,164 +6,242 @@
   "bg": "#163021",
   "items": [
     {
+      "id": "marketing-audiences-want-participation",
+      "title": "\"팬들이 원하는 건 더 많은 영상이 아니라 참여다\"",
+      "summary": "게임·크리에이터 문화에서 자란 팬들은 스토리 세계를 리믹스하고 확장하고 상호작용하길 원한다.",
+      "source": "LBBOnline",
+      "url": "https://lbbonline.com/news/Audiences-dont-want-more-footage-They-want-in?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "스튜디오들은 팬 수요에 콘텐츠 양을 늘리는 방식으로 대응하지만, 정작 관객이 원하는 건 수동적 시청이 아닌 참여다.",
+        "what": "게임과 크리에이터 문화 속에서 자란 팬들은 스토리 세계를 리믹스하고 확장하며 상호작용하길 원한다. 데이터에 따르면 몰입도 높은 팬일수록 '더 같은 것'이 아니라 프랜차이즈에 들어갈 '새로운 방법'을 원한다. 팟캐스트 같은 동반 콘텐츠는 관심은 붙잡지만 주체성(agency)은 제공하지 못한다. 진짜 공백은 '참여형 인프라'이며, 엔터테인먼트의 다음 단계는 팬들이 발매 사이 기간에 세계관을 직접 만들어가도록 하는 것이다.",
+        "points": [
+          "팬들은 콘텐츠 양보다 참여 방식을 원함",
+          "게임·크리에이터 문화가 팬 기대치를 재구성",
+          "몰입도 높은 팬일수록 '새로운 진입 방법'을 원함",
+          "팟캐스트 등 동반 콘텐츠는 주체성 제공에 한계",
+          "다음 단계는 팬이 발매 사이에 세계관을 직접 형성하는 '참여형 인프라'"
+        ],
+        "why": [
+          "엔터테인먼트 브랜드의 팬 참여 전략이 콘텐츠 총량 경쟁에서 상호작용 설계 경쟁으로 이동하고 있음"
+        ]
+      }
+    },
+    {
       "id": "marketing-seo-to-social-shift",
-      "title": "SEO에서 소셜 콘텐츠로의 이동",
-      "summary": "AI 개요와 생성형 어시스턴트가 검색 질의를 가로채면서 B2B 마케터는 SEO 자산을 소셜 네이티브로 재가공해야 한다.",
-      "source": "Pierre Herubel",
-      "url": "https://pierreherubel.substack.com/p/the-shift-from-seo-to-social-content",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "High",
-        "confidence": "75%",
-        "owner": "Marketing",
-        "status": "Tracking",
-        "affectedSurface": "오가닉 유입 · 콘텐츠 전략"
-      },
+      "title": "\"SEO 리드가 매주에서 매달로 줄어든 이유\": 검색에서 소셜로",
+      "summary": "구글 AI 개요와 챗GPT·퍼플렉시티가 검색 의도를 회사 웹사이트 도달 전에 가로챈다.",
+      "source": "Substack",
+      "url": "https://pierreherubel.substack.com/p/the-shift-from-seo-to-social-content?utm_source=tldrmarketing",
       "report": {
-        "tldr": "AI 개요가 검색 유입을 가로채면서 SEO 콘텐츠의 소셜 네이티브 재가공이 필수가 됐다.",
-        "what": "AI 개요와 생성형 AI 어시스턴트가 검색 질의를 기업 웹사이트에 도달하기 전에 가로챈다. B2B 마케터는 기존 SEO 콘텐츠를 소셜 네이티브 포맷으로 재가공해 검색엔진이 아닌 플랫폼에서 리서치하는 구매자에게 도달해야 한다.",
+        "tldr": "검색 의도가 사라지는 것이 아니라, 기업 웹사이트에 도달하기 전에 가로채이고 있다는 분석이다.",
+        "what": "구글 안에서 AI 개요가 질문에 직접 답하고, 챗GPT·퍼플렉시티 같은 생성형 AI 어시스턴트가 벤더 블로그를 단 한 번도 방문하지 않고도 대부분의 B2B 구매자를 리서치와 후보 선정 단계까지 안내한다. 이 가로채기 때문에 매주 들어오던 SEO 리드가 매달 들어오는 수준으로 줄었고, 해법은 이제 B2B 구매자들이 리서치 시간을 보내는 소셜 플랫폼과 커뮤니티에서 이뤄져야 한다. 방법은 기존 SEO 자산(케이스 스터디, 리포트, 아티클)을 영상·캐러셀·리더십 콘텐츠 형태로 재가공하는 것이다.",
         "points": [
-          "AI 개요가 클릭 이전에 질의를 흡수",
-          "구매자 리서치가 소셜 플랫폼으로 이동",
-          "기존 SEO 자산의 소셜 재가공이 해법"
+          "구글 AI 개요·챗GPT·퍼플렉시티가 검색 의도를 사전에 가로챔",
+          "SEO 리드 빈도가 주간에서 월간으로 감소",
+          "해법은 소셜 플랫폼·커뮤니티로 활동 이동",
+          "기존 SEO 콘텐츠를 영상·캐러셀·리더십 포맷으로 재가공"
         ],
         "why": [
-          "오가닉 검색 트래픽에 의존하는 B2B 퍼널의 상단이 구조적으로 축소",
-          "콘텐츠 ROI 측정 기준 자체를 다시 짜야 하는 국면"
+          "AI 검색이 B2B 리드 유입 경로 자체를 구조적으로 바꾸고 있음을 보여줌"
         ]
       }
     },
     {
-      "id": "marketing-ai-chatbots-sales",
-      "title": "AI 챗봇이 매출을 올릴 때와 깎을 때",
-      "summary": "비교가 필요한 복잡한 제품에서는 구매 의도를 높이지만 단순 제품에서는 오히려 마찰을 만든다.",
-      "source": "Science Says",
-      "url": "https://app.sciencesays.com/p/when-ai-chatbots-boost-vs-hurt-sales",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "80%",
-        "owner": "Marketing",
-        "status": "New",
-        "affectedSurface": "전환율 · 커머스 UX"
-      },
-      "report": {
-        "tldr": "챗봇은 복잡한 제품에서만 전환을 높이고 단순 제품에서는 마찰이 된다.",
-        "what": "챗봇은 비교가 필요한 복잡한 제품에서 구매 의도를 유의미하게 높이지만, 선택지가 제한된 단순 제품에서는 마찰을 만든다. 보편적 도입보다 전략적 배치가 중요하다.",
-        "points": [
-          "복잡한 제품: 구매 의도 상승",
-          "단순 제품: 마찰 유발",
-          "전면 도입보다 선별 배치가 유리"
-        ],
-        "why": [
-          "챗봇 전면 도입이 기본값이 된 상황에서 역효과의 경계를 제시"
-        ]
-      }
-    },
-    {
-      "id": "marketing-audiences-want-in",
-      "title": "관객은 더 많은 영상이 아니라 '참여'를 원한다",
-      "summary": "팬들이 수동적 소비 대신 참여형 경험을 원하며, 업계는 스토리 세계를 함께 만들 인프라를 갖춰야 한다.",
-      "source": "LBB Online",
-      "url": "https://lbbonline.com/news/Audiences-dont-want-more-footage-They-want-in",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "팬들은 더 많은 콘텐츠가 아니라 스토리 세계에 참여할 통로를 원한다.",
-        "what": "팬들이 수동적인 콘텐츠 소비보다 참여형 경험을 점점 더 원하고 있다. 엔터테인먼트 업계는 관객이 작품 사이의 공백기에 스토리 세계와 프랜차이즈를 능동적으로 형성할 수 있는 인프라를 구축해야 한다.",
-        "points": [
-          "수동적 소비에서 참여형 경험으로",
-          "작품 공백기의 관여 설계가 관건",
-          "프랜차이즈 인프라 구축 필요"
-        ],
-        "why": [
-          "콘텐츠 물량 경쟁이 한계에 다다르며 참여 설계가 차별화 축으로 이동"
-        ]
-      }
-    },
-    {
-      "id": "marketing-polaroid-anti-ai",
-      "title": "폴라로이드, AI와 스크린을 거부해 Z세대를 잡다",
-      "summary": "필름의 한계를 프리미엄 진정성으로 재포지셔닝해 디지털 포화에 지친 Z세대에 소구했다.",
-      "source": "Marketer Gems",
-      "url": "https://www.marketergems.com/p/polaroid-marketing-strategy-anti-ai-campaign",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "75%",
-        "owner": "Marketing",
-        "status": "New",
-        "affectedSurface": "브랜드 포지셔닝 · Z세대"
-      },
-      "report": {
-        "tldr": "폴라로이드가 필름의 제약을 진정성으로 재정의해 반(反)AI 포지션을 잡았다.",
-        "what": "폴라로이드가 필름의 한계를 프리미엄 진정성으로 재포지셔닝해 반복 불가능한 인화물을 디지털 사진 포화와 대비시킨다. 이 전략은 손에 잡히고 의식적인 경험을 찾는 Z세대에 반향을 일으키고 있다.",
-        "points": [
-          "제약을 결함이 아닌 가치로 전환",
-          "반복 불가능성 = 진정성 프레이밍",
-          "Z세대의 아날로그 수요와 결합"
-        ],
-        "why": [
-          "AI 생성물 범람이 '인간이 만든 것' 프리미엄이라는 반대 포지션을 만들어냄"
-        ]
-      }
-    },
-    {
-      "id": "marketing-dji-gopro",
-      "title": "DJI는 고프로를 이용해 고프로를 죽였다",
-      "summary": "DJI가 고프로의 브랜드 신뢰도로 드론 수요를 검증한 뒤 내재화로 대체한 전략을 분석했다.",
-      "source": "Strategy Breakdowns",
-      "url": "https://strategybreakdowns.com/p/dji-vs-gopro",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "DJI가 고프로와의 부품 협력으로 수요를 검증한 뒤 내재화해 시장을 가져갔다.",
-        "what": "DJI가 고프로의 브랜드 신뢰도를 활용해 소비자 드론 수요를 검증한 다음 포괄적인 사내 역량을 구축했다. 이 전략은 부품 파트너십이 어떻게 시장 진입을 가속한 뒤 대체로 이어지는지를 보여준다.",
-        "points": [
-          "파트너의 브랜드로 수요 검증",
-          "이후 역량 내재화로 대체",
-          "부품 협력의 양날"
-        ],
-        "why": [
-          "공급 파트너십이 장기적으로 경쟁자를 육성할 수 있다는 전략적 경고"
-        ]
-      }
-    },
-    {
-      "id": "marketing-customer-census-survey",
-      "title": "고객 센서스 설문을 건너뛰는 팀들",
-      "summary": "10~15문항으로 좁힌 설문을 활성 사용자에게 돌려 인사이트와 진짜 후기를 확보하라는 조언이다.",
-      "source": "Evidently",
-      "url": "https://evidently.beehiiv.com/p/i-can-t-believe-some-marketing-teams-skip-this",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "10~15문항의 고객 센서스 설문이 저평가된 인사이트·후기 확보 수단이다.",
-        "what": "고객 센서스 설문은 인사이트를 모으고 근거 라이브러리를 구축하는 데 저평가된 마케팅 가치를 제공한다. 효과적인 설문은 10~15문항으로 범위를 좁히고 활성 사용자를 대상으로 삼아 진정성 있는 후기와 옹호를 끌어낸다.",
-        "points": [
-          "10~15문항으로 범위 제한",
-          "활성 사용자 타깃",
-          "후기·옹호 자산으로 연결"
-        ],
-        "why": [
-          "저비용으로 정성 근거를 축적하는 가장 단순한 수단"
-        ]
-      }
-    },
-    {
-      "id": "marketing-b2b-tv-ads",
-      "title": "B2B TV 광고, 왜 통하고 어디서 시작하나",
-      "summary": "커넥티드 TV가 적은 예산으로도 B2B 성장 잠재력을 제공하며 15~30초 포맷이 브랜드 검색을 끌어올린다.",
+      "id": "marketing-tv-ads-for-b2b",
+      "title": "B2B에도 TV 광고가 통한다: 하루 50달러로 시작하기",
+      "summary": "커넥티드 TV 리타겟팅이 브랜드 검색을 25% 끌어올린 사례도 있다.",
       "source": "Exit Five",
-      "url": "https://exitfive.com/newsletter/tv-ads-for-b2b-why-it-works-and-where-to-start/",
-      "originalDate": "2026-07-16",
+      "url": "https://exitfive.com/newsletter/tv-ads-for-b2b-why-it-works-and-where-to-start/?utm_source=tldrmarketing",
       "report": {
-        "tldr": "커넥티드 TV가 소액 예산으로 B2B 브랜드 검색 리프트를 만든다.",
-        "what": "커넥티드 TV는 적은 초기 예산으로도 신흥 B2B 성장 잠재력을 제공한다. 창업자 영상과 후기를 15~30초 포맷으로 재가공하면 브랜드 검색 리프트를 유도하고 시간이 지날수록 복리 효과를 낸다.",
+        "tldr": "디지털 광고가 비싸지고 포화되면서 TV 광고가 B2B의 실질적인 성장 채널로 떠오르고 있다.",
+        "what": "커넥티드 TV는 기존 오디언스를 15~30초 분량의 스토리텔링으로 리타겟팅할 수 있게 해주며, 창업자 영상이나 고객 후기 같은 재활용 콘텐츠를 자주 활용한다. 예산은 하루 약 50달러의 소액으로도 시작할 수 있고, 트래픽이 늘수록 성과도 개선된다. TV는 다른 채널의 성과도 끌어올리는데, 브랜드 검색이 25% 증가한 사례도 보고됐다. 초기에 테스트하고 TV를 장기적으로 복리 효과를 내는 채널로 다뤄야 한다.",
         "points": [
-          "커넥티드 TV의 낮은 진입 예산",
-          "15~30초 포맷으로 재가공",
-          "브랜드 검색 리프트와 복리 효과"
+          "디지털 광고 포화가 TV 광고 재부상의 배경",
+          "커넥티드 TV로 기존 오디언스 리타겟팅 가능",
+          "일 예산 약 50달러로도 시작 가능",
+          "브랜드 검색 25% 증가 등 타 채널 동반 상승 효과",
+          "장기·복리형 채널로 접근할 것을 권고"
         ],
         "why": [
-          "퍼포먼스 채널 비용 상승으로 B2B의 브랜드 채널 재평가가 진행 중"
+          "디지털 채널 비용 상승 속에서 B2B 마케터의 채널 다변화 필요성이 커지고 있음"
+        ]
+      }
+    },
+    {
+      "id": "marketing-customer-census-surveys",
+      "title": "\"이걸 왜 안 하지?\": 저평가된 마케팅 도구, 고객 센서스 설문",
+      "summary": "10~15개 질문으로 좁혀 활성 사용자를 대상으로 하는 설문이 증거 라이브러리를 만든다.",
+      "source": "Evidently",
+      "url": "https://evidently.beehiiv.com/p/i-can-t-believe-some-marketing-teams-skip-this?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "고객 센서스 설문은 팀이 고객 인사이트를 수집하고 더 강력한 증거 라이브러리를 구축하는 데 도움을 주는, 저평가된 마케팅 활동이다.",
+        "what": "가장 효과적인 설문은 부서 간 협업으로 만들어지고, 질문을 10~15개 수준으로 좁게 설정하며, 더 질 높은 응답을 위해 활성 사용자를 대상으로 한다. 발송은 후속 조치와 인센티브를 갖춘 캠페인처럼 다뤄야 하며, 응답이 오면 빠르게 움직여 피드백을 후기·리뷰·옹호 기회로 전환해야 한다.",
+        "points": [
+          "부서 간 협업으로 설계된 설문이 가장 효과적",
+          "질문 수는 10~15개로 제한",
+          "활성 사용자 대상으로 응답 품질 확보",
+          "발송은 캠페인처럼, 후속조치·인센티브 병행",
+          "응답을 빠르게 후기·리뷰·옹호 기회로 전환"
+        ],
+        "why": [
+          "고객의 목소리를 체계적으로 수집하는 간단한 방법론이 자주 간과되고 있음을 지적"
+        ]
+      }
+    },
+    {
+      "id": "marketing-sauce-ai-visibility-tool",
+      "title": "'소스', 크리에이터 콘텐츠의 AI 노출도를 측정",
+      "summary": "챗GPT·퍼플렉시티 등에서 어떤 게시물이 어떤 질의에 등장하는지 보여준다.",
+      "source": "Sauce",
+      "url": "https://getsauce.ai/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "소스는 오프사이트·크리에이터 주도 콘텐츠가 AI 노출도와 검색 성과에 미치는 영향을 팀이 측정하고 입증하도록 돕는다.",
+        "what": "챗GPT나 퍼플렉시티 같은 엔진에 어떤 게시물이 등장하는지, 누가 만들었는지, 어떤 질의에 대해 나타나는지를 보여준다. 7일 무료 체험이 제공된다.",
+        "points": [
+          "AI 엔진 내 콘텐츠 노출 여부·질의 매칭 추적",
+          "제작자 정보까지 확인 가능",
+          "7일 무료 체험 제공"
+        ],
+        "why": [
+          "AI 검색 시대에 콘텐츠 성과를 측정하는 새로운 분석 카테고리가 등장하고 있음"
+        ]
+      }
+    },
+    {
+      "id": "marketing-hermes-inbox-triager-guide",
+      "title": "90분 만에 만드는 '허미스 인박스 트리아저' 구축 가이드",
+      "summary": "메일을 5개 폴더로 자동 분류하고 긴급도가 높을 때만 슬랙으로 알림을 보낸다.",
+      "source": "buildwithai.to",
+      "url": "https://buildwithai.to/p/we-built-a-hermes-inbox-triager-you?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "이 가이드는 허미스와 읽기 전용 IMAP 툴 히말라야로 지메일 트리아지 에이전트를 만드는 과정을 안내한다.",
+        "what": "에이전트는 수신 메일을 5개의 레이블 폴더로 분류하고 각 메일의 긴급도를 점수화한 뒤, 실제로 긴급한 기준을 넘을 때만 슬랙으로 알림을 보내고 그 외에는 조용히 처리한다.",
+        "points": [
+          "허미스 + 히말라야(읽기 전용 IMAP)로 구현",
+          "메일을 5개 레이블 폴더로 자동 분류",
+          "메일마다 긴급도 점수 부여",
+          "긴급 기준 초과 시에만 슬랙 알림"
+        ],
+        "why": [
+          "실무에 바로 적용 가능한 소규모 에이전트 구축 튜토리얼로 실용성이 높음"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-chatbots-boost-vs-hurt-sales",
+      "title": "AI 챗봇, 언제 매출을 늘리고 언제 해치는가",
+      "summary": "1339명 대상 실험에서 비교 어려운 상품에는 구매의도를 44.7% 높였지만, 단순 소구간 상품에는 오히려 마이너스였다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/yt1EGr",
+      "report": {
+        "tldr": "AI 챗봇은 쇼핑객이 상품을 비교하거나 방대한 구색을 정리하는 데 도움이 필요할 때 가장 효과적이다.",
+        "what": "1339명을 대상으로 한 4건의 실험에서, 챗봇 추천은 핏·사이즈·스타일에 따라 다양한 의류처럼 평가하기 어려운 상품의 구매의도를 44.7% 높였다. 옵션이 많은 단순 상품에서도 참여도를 높였지만, 구색이 적은 단순 상품에서는 불필요한 마찰을 더해 구매의도를 오히려 낮췄다. 챗봇은 복잡한 의사결정을 단순화하고 선택지를 정리해주는 곳에 써야지, 쉬운 구매에 또 다른 단계를 추가하는 데 써서는 안 된다.",
+        "points": [
+          "실험 대상 1339명, 4건의 실험 진행",
+          "평가 어려운 상품(의류 등) 구매의도 44.7% 증가",
+          "옵션 많은 단순 상품은 참여도 상승",
+          "구색 적은 단순 상품은 구매의도 오히려 감소",
+          "복잡한 결정을 단순화하는 용도로 한정해 활용 권고"
+        ],
+        "why": [
+          "AI 챗봇 도입 여부를 상품 카테고리별로 구분해서 판단해야 한다는 실증적 근거를 제공"
+        ]
+      }
+    },
+    {
+      "id": "marketing-anthropic-standards-editor-300k",
+      "title": "앤스로픽, 콤마 논쟁하는 '스탠더드 에디터'에 연봉 30만달러",
+      "summary": "AI가 초안을 무한정 만드는 시대, 편집 판단력이 프리미엄 스킬로 부상하고 있다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/VkDSgM",
+      "report": {
+        "tldr": "앤스로픽이 자사 커뮤니케이션 전반의 문법·톤·명료성을 관리할 스탠더드 에디터를 약 30만달러 연봉으로 채용하고 있다.",
+        "what": "이 채용은 AI가 콘텐츠 생성을 저렴하게 만들면서 사람의 판단력이 오히려 더 귀해지는 더 큰 흐름을 보여준다. 모델이 무한한 초안을 만들어낼 수 있어도, 기업은 브랜드 보이스를 지키고 복잡한 아이디어를 단순화하며 무엇을 게시할 가치가 있는지 결정할 편집자를 여전히 필요로 한다. 이런 채용 흐름은 AI 주도 콘텐츠 시장에서 편집 판단력이 프리미엄 스킬이 되고 있음을 시사한다.",
+        "points": [
+          "채용 직무: 스탠더드 에디터, 연봉 약 30만달러",
+          "문법·톤·명료성 관리 담당",
+          "AI가 초안 생산을 저비용화할수록 사람의 편집 판단이 귀해짐",
+          "브랜드 보이스 유지·게시 여부 판단이 핵심 역할"
+        ],
+        "why": [
+          "AI 콘텐츠 대량생산 시대에 오히려 사람의 편집 안목 값이 오르고 있다는 역설적 신호"
+        ]
+      }
+    },
+    {
+      "id": "marketing-dji-used-gopro-to-kill-gopro",
+      "title": "DJI, 고프로를 발판 삼아 고프로를 밀어낸 전략",
+      "summary": "마운트 파트너십으로 검증받은 뒤 이윤 배분 요구를 계기로 결별, 자체 제품으로 시장을 장악했다.",
+      "source": "TLDR Marketing",
+      "url": "https://links.tldrnewsletter.com/AO9WcB",
+      "report": {
+        "tldr": "DJI는 고프로 브랜드를 활용해 소비자용 드론 구매 장벽을 낮춘 뒤, 결국 완제품을 직접 만들어 고프로를 대체했다.",
+        "what": "고프로 마운트는 카메라 연구개발이나 카테고리 교육 없이도 제품 검증과 고객 수요를 DJI에 안겨줬다. 고프로가 수익의 3분의 2를 요구하자 DJI는 결별을 택했는데, 카메라보다 비행 기술이 더 강력한 경쟁 우위를 만든다고 판단했기 때문이다. 이후 DJI는 30개월 동안 드론 4세대를 연이어 출시했고, 그 사이 고프로는 경쟁 제품을 개발하느라 수년간 뒤처졌으며 결국 고프로의 '카르마' 드론은 실패해 시장에서 철수했다.",
+        "points": [
+          "고프로 마운트 파트너십으로 제품 검증·수요 확보",
+          "고프로의 수익 3분의 2 요구가 결별 계기",
+          "DJI는 비행 기술이 카메라보다 강한 해자라 판단",
+          "30개월간 드론 4세대 연속 출시로 격차 확대",
+          "고프로 '카르마' 드론 실패로 시장 철수"
+        ],
+        "why": [
+          "파트너십을 발판 삼아 파트너를 대체하는 전형적인 플랫폼 전략의 사례 연구"
+        ]
+      }
+    },
+    {
+      "id": "marketing-technical-seo-brave-claude-index",
+      "title": "테크니컬 SEO 팁: 브레이브로 클로드 색인 속도 높이기",
+      "summary": "브레이브의 'Submit URL' 도구가 앤스로픽/클로드의 주요 콘텐츠 수집 경로로 지목됐다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/chris-long-marketing_technical-seo-tip-brave-is-claudes-primary-share-7483500184870633473-KCnf/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "브레이브의 'URL 제출' 도구를 사용하면 앤스로픽/클로드에 콘텐츠가 더 빨리 색인될 수 있다는 팁이다.",
+        "what": "이는 AI 챗봇 색인을 위한 새로운 형태의 테크니컬 SEO 최적화 방법으로 소개됐다.",
+        "points": [
+          "브레이브 'Submit URL' 도구 활용",
+          "클로드의 콘텐츠 색인 속도 향상 목적"
+        ],
+        "why": [
+          "AI 검색엔진별 색인 경로를 이해하는 것이 새로운 SEO 과제로 떠오르고 있음"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ga4-events-ecommerce",
+      "title": "이커머스가 놓치는 GA4 이벤트 9가지",
+      "summary": "'view_item_list'부터 'add_payment_info'까지, view_item·add_to_cart·purchase만으론 부족하다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/chloe-christine-allerton_most-ecommerce-agencies-running-client-stores-share-7483435979551449089-BNcW/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "대부분의 사이트는 'view_item', 'add_to_cart', 'purchase'만 추적하지만, 그 외에도 추적해야 할 이벤트들이 있다는 지적이다.",
+        "what": "'view_item_list', 'select_item', 'view_cart', 'begin_checkout', 'add_shipping_info', 'add_payment_info' 등을 함께 추적해야 구매 퍼널 전체를 파악할 수 있다.",
+        "points": [
+          "기본 추적: view_item·add_to_cart·purchase",
+          "추가 권장 이벤트: view_item_list·select_item·view_cart",
+          "체크아웃 단계: begin_checkout·add_shipping_info·add_payment_info"
+        ],
+        "why": [
+          "퍼널 중간 단계 이탈 지점을 파악하려면 더 세분화된 이벤트 추적이 필수적"
+        ]
+      }
+    },
+    {
+      "id": "marketing-polaroid-anti-ai-gen-z",
+      "title": "폴라로이드, 'AI와 스크린 거부'로 Z세대 공략",
+      "summary": "느린 현상·수정 불가라는 한계를 프리미엄 가치와 진정성으로 재해석했다.",
+      "source": "Marketer Gems",
+      "url": "https://www.marketergems.com/p/polaroid-marketing-strategy-anti-ai-campaign?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "폴라로이드는 필름의 느린 현상 속도와 수정 불가능함을 프리미엄 혜택, 마음챙김, 진정성으로 재코드화하고 있다.",
+        "what": "이는 아이폰이 만들어내는 거의 동일한 사진들의 저장고와, 다시 찍을 수 없는 단 한 장의 프린트를 대비시키는 전략이다.",
+        "points": [
+          "느린 현상·수정 불가를 프리미엄 가치로 재포지셔닝",
+          "마음챙김·진정성 메시지 강조",
+          "무한 재촬영 가능한 스마트폰 사진과 대비"
+        ],
+        "why": [
+          "AI·디지털 과잉에 대한 반작용을 브랜드 차별화 지점으로 삼는 전략의 사례"
         ]
       }
     }
