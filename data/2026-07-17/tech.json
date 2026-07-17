@@ -1,0 +1,314 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-bun-rust-rewrite",
+      "title": "번, AI 에이전트로 11일 만에 53만 줄 러스트 재작성",
+      "summary": "번이 지그에서 러스트로 53만5000줄을 11일·16만5000달러에 이전하며 AI 마이그레이션의 경제성을 입증했다.",
+      "source": "Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Eng",
+        "status": "New",
+        "affectedSurface": "레거시 마이그레이션 · 엔지니어링 예산"
+      },
+      "report": {
+        "tldr": "번이 AI 에이전트 64개로 53만 줄 규모의 지그→러스트 재작성을 11일, 16만5000달러에 끝냈다.",
+        "what": "자바스크립트 런타임 번이 AI 에이전트 64개를 동원해 53만5000줄 이상을 지그에서 러스트로 11일 만에 이전했다. 비용은 약 16만5000달러, 수십억 토큰이 소모됐고 1600건의 컴파일러 오류를 해결하며 메모리 안전성 문제를 정리했다.",
+        "points": [
+          "53만5000줄 이상을 11일 만에 이전",
+          "AI 에이전트 64개 병렬 투입",
+          "총비용 약 16만5000달러, 수십억 토큰 소모",
+          "컴파일러 오류 1600건 해결"
+        ],
+        "why": [
+          "대규모 코드베이스 마이그레이션의 비용 구조가 인건비에서 토큰비로 재편되는 전환점",
+          "그동안 경제성 때문에 미뤄온 레거시 이전 과제의 판단 기준이 바뀜"
+        ]
+      }
+    },
+    {
+      "id": "tech-gemini-delay-bloomberg",
+      "title": "구글 제미나이, 내부 목표 미달로 출시 연기",
+      "summary": "제미나이 3.5 프로 출시가 코딩 역량 보강을 위해 크게 지연됐으며 내부에서 경쟁력 상실 우려가 나온다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/google-gemini-launch-delayed-as-tech-falls-short-of-internal-goals",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "모델 로드맵 · 코딩 에이전트"
+      },
+      "report": {
+        "tldr": "구글이 코딩 성능 미달로 제미나이 3.5 프로 출시를 연기했다.",
+        "what": "구글의 제미나이 3.5 프로 출시가 크게 지연됐다. 회사가 역량 개선, 특히 코딩 부문을 우선하면서 일정을 미룬 것으로, 내부 팀은 이번 차질이 경쟁 우위 손실로 이어질 수 있다고 우려한다.",
+        "points": [
+          "코딩 역량이 내부 목표에 미달",
+          "출시 일정 상당 기간 연기",
+          "내부의 경쟁력 상실 우려"
+        ],
+        "why": [
+          "프런티어 모델 경쟁에서 코딩 성능이 사실상의 승부처로 굳어짐"
+        ]
+      }
+    },
+    {
+      "id": "tech-tsmc-us-100b",
+      "title": "TSMC, 미국 투자 1000억달러 추가…총 2650억달러",
+      "summary": "TSMC가 애리조나 투자 규모를 총 2650억달러로 늘리며 미국 내 반도체 생산 확장을 가속한다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/07/16/business/tsmc-chips-investment-arizona.html",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "90%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "반도체 공급망 · 파운드리 캐파"
+      },
+      "report": {
+        "tldr": "TSMC가 미국 투자를 1000억달러 늘려 애리조나 누적 2650억달러를 약속했다.",
+        "what": "TSMC가 애리조나 투자 계획에 1000억달러를 추가해 총 2650억달러 규모로 확대했다. 미국 내 반도체 제조 확장이 한층 빨라지는 흐름을 반영한다.",
+        "points": [
+          "추가 투자 1000억달러",
+          "애리조나 누적 투자 2650억달러",
+          "미국 내 첨단 공정 캐파 확대"
+        ],
+        "why": [
+          "AI 수요가 파운드리 캐파 투자를 지정학적 재배치와 함께 끌어올리는 국면"
+        ]
+      }
+    },
+    {
+      "id": "tech-block-stripe-paypal",
+      "title": "블록, 스트라이프·어드벤트의 페이팔 인수 구도에 등장",
+      "summary": "스트라이프·어드벤트의 페이팔 인수 제안에서 블록의 역할이 과소보도됐다는 분석이 나왔다.",
+      "source": "Margin Points",
+      "url": "https://www.marginpoints.com/issues/2026-07-16-block-stripe-advent-refer-standout",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "60%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "결제 M&A · PSP 경쟁 구도"
+      },
+      "report": {
+        "tldr": "스트라이프·어드벤트의 페이팔 인수 제안에서 블록의 역할이 주목받고 있다.",
+        "what": "스트라이프와 어드벤트가 제안한 페이팔 인수 건에서 블록이 맡은 역할이 충분히 보도되지 않았다는 분석이다. 전날 알려진 530억달러 규모 제안의 후속 논의가 이어지고 있다.",
+        "points": [
+          "블록의 관여 가능성 제기",
+          "전일 보도된 530억달러 제안의 연장선"
+        ],
+        "why": [
+          "성사 시 결제업계 최대 규모 M&A가 되는 딜의 참여자 구도가 아직 유동적"
+        ]
+      }
+    },
+    {
+      "id": "tech-meta-aws-exec",
+      "title": "메타, AWS 고위 임원 영입…클라우드 진출 저울질",
+      "summary": "메타가 AWS의 데이브 브라운을 영입해 인프라 확장과 데이터센터 개발을 맡길 계획이다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/meta-plans-to-hire-top-amazon-computing-executive-as-it-weighs-cloud-push-2166869b",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "메타가 AWS 컴퓨팅 총괄 데이브 브라운을 영입해 클라우드 진출을 검토 중이다.",
+        "what": "메타가 AWS 고위 임원 데이브 브라운을 영입해 인프라 확장과 데이터센터 개발을 주도하게 할 계획이다. 클라우드 사업 진출 가능성도 함께 저울질하고 있다.",
+        "points": [
+          "AWS 컴퓨팅 부문 임원 데이브 브라운 영입",
+          "인프라·데이터센터 확장 주도",
+          "클라우드 사업 진출 검토"
+        ],
+        "why": [
+          "자체 AI 인프라를 외부에 판매하는 하이퍼스케일러 경쟁에 메타가 합류할 가능성"
+        ]
+      }
+    },
+    {
+      "id": "tech-nadella-anthropic-fable",
+      "title": "나델라, 앤스로픽 페이블의 '편집 통제' 비판",
+      "summary": "마이크로소프트 CEO가 앤스로픽 페이블의 콘텐츠 제한이 과도하다고 지적했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/16/microsoft-ceo-says-anthropic-fable-request-policy-doesnt-make-sense.html",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "나델라가 앤스로픽 페이블의 콘텐츠 제한 정책을 공개적으로 비판했다.",
+        "what": "마이크로소프트 CEO 사티아 나델라가 앤스로픽 페이블 AI 도구의 콘텐츠 제한을 두고 안전장치가 과도하다고 주장했다. 마이크로소프트가 앤스로픽과 맺은 50억달러 규모 파트너십 내부의 긴장을 드러낸 발언이다.",
+        "points": [
+          "페이블의 콘텐츠 제한이 '편집 통제'라는 비판",
+          "50억달러 파트너십 내부의 이견 표출"
+        ],
+        "why": [
+          "모델 안전 정책이 파트너사 간 상업적 갈등 요인으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "tech-spacexai-identity-crisis",
+      "title": "머스크의 AI 조직, 정체성 혼란 겪는 중",
+      "summary": "스페이스X AI가 그록으로 앤스로픽 클로드와 경쟁하려 하지만 내부 혼란과 역량 격차에 직면했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/spacexai-identity-crisis-at-elon-musk-s-chatbot-company",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "머스크의 AI 사업부가 내부 혼란 속에 경쟁 모델과의 격차를 좁히지 못하고 있다.",
+        "what": "스페이스X AI가 그록 개발과 영업 확대를 통해 앤스로픽 클로드와 경쟁하려 하지만 내부 혼란을 겪으며 경쟁사 역량을 따라잡는 데 어려움을 겪고 있다. 최근 상장으로 운영 유연성도 줄었다.",
+        "points": [
+          "그록으로 클로드와 경쟁 시도",
+          "내부 혼란과 역량 격차",
+          "상장 이후 운영 유연성 축소"
+        ],
+        "why": [
+          "프런티어 모델 경쟁이 자본만으로 좁혀지지 않는 구간에 들어섰음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "tech-nvidia-cosmos3-japan",
+      "title": "엔비디아, 새 AI 모델 공개하며 일본 피지컬 AI 생태계 확장",
+      "summary": "실시간 인식·내비게이션용 월드 모델 코스모스 3 엣지를 공개했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/16/nvidia-reveals-new-ai-model-and-expands-japans-physical-ai-ecosystem.html",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "엔비디아가 물리 환경용 월드 모델 코스모스 3 엣지를 공개하고 일본 생태계를 넓혔다.",
+        "what": "엔비디아가 물리적 환경에서 실시간 인식과 내비게이션을 수행하도록 설계된 월드 모델 코스모스 3 엣지를 공개하며 일본의 피지컬 AI 생태계를 확장했다.",
+        "points": [
+          "코스모스 3 엣지 월드 모델 공개",
+          "실시간 인식·내비게이션 대상",
+          "일본 로보틱스 파트너 확대"
+        ],
+        "why": [
+          "LLM 이후의 성장축으로 로보틱스·피지컬 AI가 본격 부상"
+        ]
+      }
+    },
+    {
+      "id": "tech-visa-stablecoin-platform",
+      "title": "비자, 스테이블코인 플랫폼으로 크립토 확장",
+      "summary": "금융기관이 스테이블코인을 발행·전송·관리할 수 있는 플랫폼을 출시했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-16/visa-is-expanding-its-crypto-push-with-new-stablecoin-platform",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "비자가 금융기관용 스테이블코인 발행·관리 플랫폼을 내놨다.",
+        "what": "비자가 금융기관이 스테이블코인을 발행하고 전송·관리할 수 있는 플랫폼을 출시하며 암호화폐 인프라 사업을 확장했다.",
+        "points": [
+          "금융기관 대상 스테이블코인 발행·전송·관리 지원",
+          "비자의 크립토 인프라 사업 본격화"
+        ],
+        "why": [
+          "카드 네트워크가 스테이블코인 레일을 방어가 아니라 자사 제품으로 흡수하는 전환"
+        ]
+      }
+    },
+    {
+      "id": "tech-xi-open-source-ai",
+      "title": "시진핑, 오픈소스 AI 띄우며 미국 우위 견제",
+      "summary": "시 주석이 오픈소스 AI를 옹호하고 미국의 칩 규제와 안보 과잉을 비판했다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/chinas-xi-touts-open-source-ai-and-takes-a-swipe-at-u-s-dominance-1eaa5cfe",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "시진핑이 오픈소스 AI를 앞세워 미국의 폐쇄형 모델 우위와 칩 규제를 비판했다.",
+        "what": "시진핑 주석이 오픈소스 AI 개발을 촉진하겠다고 밝히며 미국의 칩 수출 규제와 국가안보 명분의 과잉 개입을 비판했다. 중국을 미국의 독점적 모델 지배에 맞선 개방성 옹호자로 자리매김하려는 메시지다.",
+        "points": [
+          "오픈소스 AI 개발 촉진 선언",
+          "미국 칩 규제·안보 과잉 비판",
+          "'개방성 옹호자' 포지셔닝"
+        ],
+        "why": [
+          "오픈 웨이트 모델이 기술 경쟁을 넘어 지정학적 서사의 도구로 사용되는 국면"
+        ]
+      }
+    },
+    {
+      "id": "tech-fda-cholesterol-pill",
+      "title": "FDA, 콜레스테롤 대폭 낮추는 신약 승인",
+      "summary": "머크의 엔리시타이드가 월 315달러에 스타틴 이상의 콜레스테롤 저감 효과로 승인받았다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/07/16/science/the-fda-approves-a-new-pill-to-slash-cholesterol-levels.html",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "FDA가 스타틴을 넘어서는 경구 콜레스테롤 약 엔리시타이드를 승인했다.",
+        "what": "머크의 엔리시타이드가 스타틴의 한계를 넘는 콜레스테롤 저감 효과로 FDA 승인을 받았다. 월 315달러이며, 유사한 주사제는 고위험 환자의 심혈관 사건을 20% 줄인 바 있다.",
+        "points": [
+          "경구제로 스타틴 이상의 저감 효과",
+          "월 315달러 가격",
+          "주사제형은 심혈관 사건 20% 감소 입증"
+        ],
+        "why": [
+          "심혈관 질환 치료의 접근성을 바꿀 수 있는 경구제 승인"
+        ]
+      }
+    },
+    {
+      "id": "tech-torvalds-ai-coding",
+      "title": "토르발스, AI 코딩 비판자에 \"포크하든가 떠나라\"",
+      "summary": "리눅스 창시자가 커널 프로젝트의 AI 도구 도입을 지지하며 반대 여론에 강경 대응했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "토르발스가 커널의 AI 코딩 도입을 지지하며 반대자들에게 포크하라고 응수했다.",
+        "what": "리눅스 창시자 리누스 토르발스가 코드 품질 우려를 제기하는 커뮤니티 반발에도 커널 프로젝트의 AI 도구 통합을 지지한다고 밝혔다.",
+        "points": [
+          "커널 프로젝트의 AI 도구 도입 지지",
+          "코드 품질 우려에도 강경 입장"
+        ],
+        "why": [
+          "가장 보수적인 오픈소스 프로젝트에서도 AI 코딩 도입이 기정사실화되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "tech-neural-bypass-bci",
+      "title": "AI·뇌 임플란트로 마비 환자의 운동·촉각 회복",
+      "summary": "'이중 신경 우회' 방식으로 손 움직임과 촉각을 되살렸고 효과가 2년 이상 유지됐다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/feinstein-double-neural-bypass-bci-paralysis-nature-medicine",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "BCI와 척수 자극을 결합한 이중 신경 우회로 마비 환자의 손 기능과 촉각이 회복됐다.",
+        "what": "연구진이 뇌-컴퓨터 인터페이스와 척수 자극을 결합한 '이중 신경 우회' 방식으로 손 움직임과 촉각을 회복시키는 데 성공했다. 개선 효과는 치료 후 2년 넘게 지속됐다.",
+        "points": [
+          "BCI + 척수 자극 결합",
+          "운동·촉각 동시 회복",
+          "2년 이상 효과 지속"
+        ],
+        "why": [
+          "BCI가 시연 단계를 넘어 장기 임상 효과를 입증하기 시작"
+        ]
+      }
+    },
+    {
+      "id": "tech-earning-judgment",
+      "title": "판단력을 벌다",
+      "summary": "자동화가 무한히 확장될수록 문제를 식별하고 해답을 검증하는 인간의 판단과 취향이 남는다.",
+      "source": "X (@addyosmani)",
+      "url": "https://x.com/addyosmani/status/2077600055159357548",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "자동화가 확장될수록 문제 식별과 검증에서의 인간 판단력이 희소 자원이 된다.",
+        "what": "문제를 규정하고 AI의 해답을 검증하는 데서 인간의 가치가 나온다는 주장이다. 자동화 시스템이 무한히 확장되는 상황에서 판단력과 취향은 대체되기 어려운 인간 역량으로 남는다.",
+        "points": [
+          "문제 식별과 해답 검증이 인간의 몫",
+          "판단력·취향은 확장 불가능하기에 희소"
+        ],
+        "why": [
+          "AI 시대 엔지니어의 역할 재정의 논의에서 반복적으로 등장하는 관점"
+        ]
+      }
+    }
+  ]
+}

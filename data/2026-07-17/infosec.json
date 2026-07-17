@@ -1,0 +1,279 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-shark-vacuum-rce",
+      "title": "샤크 무선청소기 수백만대, 원격 코드 실행 취약",
+      "summary": "AWS IoT 코어 설정 오류로 청소기 원격 조종과 집 구조도·와이파이 비밀번호 유출이 가능했다.",
+      "source": "Tokay0",
+      "url": "https://tokay0.com/posts/millions-of-shark-vacuums-vulnerable-to-rce.html",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "IoT 가전 · AWS IoT Core"
+      },
+      "report": {
+        "tldr": "AWS IoT 코어 설정 오류로 인터넷 연결 샤크 청소기 수백만대가 원격 장악 가능한 상태였다.",
+        "what": "인터넷에 연결된 샤크 무선청소기가 잘못 구성된 AWS IoT 코어 설정을 악용해 원격 조종될 수 있는 것으로 드러났다. 집 구조도와 와이파이 비밀번호가 노출되며, 공격자는 수십만 대의 기기를 감시 도구로 무기화할 수 있다. 제조사에 통보됐음에도 문제가 남아 있다.",
+        "points": [
+          "AWS IoT Core 구성 오류가 근본 원인",
+          "집 구조 지도·와이파이 자격증명 노출",
+          "수십만 대를 감시 장치로 전용 가능",
+          "벤더 통보 후에도 미해결"
+        ],
+        "why": [
+          "IoT 가전의 클라우드 백엔드 설정 오류가 대규모 가정 침해로 직결",
+          "소비자 기기의 취약점이 기업 네트워크 내 재택 환경으로 번질 위험"
+        ]
+      }
+    },
+    {
+      "id": "infosec-zoom-account-takeover",
+      "title": "줌, 계정 탈취 가능한 치명적 취약점 경고",
+      "summary": "윈도 클라이언트의 CVSS 9.8 취약점으로 원격 공격자가 계정을 탈취할 수 있어 패치가 배포됐다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/zoom-warns-of-critical-account-takeover-vulnerability/",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "95%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "Zoom Windows 클라이언트"
+      },
+      "report": {
+        "tldr": "줌 윈도 클라이언트에서 CVSS 9.8 계정 탈취 취약점이 발견돼 패치가 나왔다.",
+        "what": "줌 윈도 클라이언트에 입력값 검증 미흡으로 원격 공격자가 계정을 탈취할 수 있는 치명적 취약점이 확인됐다. CVSS 점수는 10점 만점에 9.8이며, 줌은 패치를 배포했고 현재까지 실제 악용 사례는 관측되지 않았다.",
+        "points": [
+          "CVSS 9.8/10 심각도",
+          "부적절한 입력 검증이 원인",
+          "원격 계정 탈취 가능",
+          "패치 배포 완료, 악용 미확인"
+        ],
+        "why": [
+          "전사 배포된 협업 클라이언트의 계정 탈취는 즉시 횡적 이동으로 이어질 수 있음"
+        ],
+        "action": "윈도용 줌 클라이언트를 즉시 최신 버전으로 강제 업데이트할 것"
+      }
+    },
+    {
+      "id": "infosec-oauth-client-id-spoofing",
+      "title": "OAuth 클라이언트 ID 스푸핑으로 은밀한 계정 열거",
+      "summary": "엔트라 ID 오류 응답을 악용해 감사 로그를 남기지 않고 유효 계정을 열거하는 공격이 확산 중이다.",
+      "source": "Proofpoint",
+      "url": "https://www.proofpoint.com/us/blog/threat-insight/oauth-client-id-spoofing-why-fake-client-ids-are-gaining-traction-stealthy",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "85%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "Microsoft Entra ID · OAuth"
+      },
+      "report": {
+        "tldr": "가짜 OAuth 클라이언트 ID로 엔트라 ID의 계정을 감사 로그 없이 열거하는 캠페인이 포착됐다.",
+        "what": "공격자들이 마이크로소프트 엔트라 ID의 오류 응답 차이를 악용해 감사 로그를 남기지 않고 유효한 사용자명을 열거하고 있다. 스푸핑된 자격증명과 무작위 식별자를 사용하는 두 개의 캠페인이 약 4000개 테넌트에 걸쳐 100만 개 이상의 계정을 표적으로 삼은 것으로 추적됐다.",
+        "points": [
+          "엔트라 ID 오류 응답 차이를 이용한 계정 열거",
+          "감사 로그에 흔적을 남기지 않음",
+          "약 4000개 테넌트·100만+ 계정 표적",
+          "스푸핑된 클라이언트 ID와 무작위 식별자 사용"
+        ],
+        "why": [
+          "탐지 로그가 남지 않아 기존 SIEM 룰로는 사실상 관측 불가",
+          "계정 열거는 패스워드 스프레이·피싱의 정찰 단계"
+        ],
+        "action": "엔트라 ID 사이닝 로그 대신 인증 실패 패턴 기반 탐지 룰을 별도 구성할 것"
+      }
+    },
+    {
+      "id": "infosec-clicklock-stealer-macos",
+      "title": "'클릭락 스틸러', 사회공학으로 macOS 보안 우회",
+      "summary": "사용자가 직접 bash 명령을 실행하게 유도해 자격증명·크립토를 탈취하고 알림을 무력화한다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/clicklock-stealer-bypasses-macos-security-with-social-engineering-process-killing/",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "85%",
+        "owner": "Security Ops",
+        "status": "New",
+        "affectedSurface": "macOS 엔드포인트"
+      },
+      "report": {
+        "tldr": "클릭락 스틸러가 사용자를 속여 bash 명령을 실행시키고 macOS 알림을 죽여 탈취를 은폐한다.",
+        "what": "macOS 대상 악성코드 클릭락 스틸러가 사용자를 속여 bash 명령을 실행하게 만든 뒤 자격증명과 암호화폐 데이터를 빼낸다. 보이는 프로세스와 알림센터를 수 시간 동안 종료시켜 비밀번호 입력을 강제하고 경고를 숨긴다.",
+        "points": [
+          "사용자가 직접 실행하는 bash 명령으로 게이트키퍼 우회",
+          "NotificationCenter를 종료해 경고 은폐",
+          "자격증명·암호화폐 지갑 표적"
+        ],
+        "why": [
+          "코드 서명 기반 방어를 사회공학으로 우회하는 macOS 스틸러의 정형화"
+        ]
+      }
+    },
+    {
+      "id": "infosec-coca-cola-fairlife-ransomware",
+      "title": "코카콜라 페어라이프, 랜섬웨어로 미국 유제품 생산 중단",
+      "summary": "랜섬웨어 공격으로 코카콜라 자회사 페어라이프의 생산이 일시 중단됐고 SEC에 공시됐다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "90%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "제조 OT · 공급망"
+      },
+      "report": {
+        "tldr": "랜섬웨어가 코카콜라 자회사 페어라이프의 미국 유제품 생산을 멈춰세웠다.",
+        "what": "랜섬웨어 공격으로 코카콜라 자회사 페어라이프의 생산이 일시적으로 중단됐다. 회사는 이를 SEC 공시를 통해 알렸다.",
+        "points": [
+          "생산 라인 일시 중단",
+          "SEC 공시로 사건 공개"
+        ],
+        "why": [
+          "식품 제조 OT 환경이 랜섬웨어의 상시 표적이 되고 있으며 물리적 공급 차질로 직결"
+        ]
+      }
+    },
+    {
+      "id": "infosec-kfc-japan-nichirei-ransomware",
+      "title": "일본 니치레이 랜섬웨어…KFC 재팬 온라인 주문 중단",
+      "summary": "니치레이 그룹 물류 시스템이 랜섬웨어에 감염돼 냉동식품 출하가 막히고 KFC 재팬 운영이 축소됐다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/07/16/cyberattack-threatens-utterly-critical-infrastructure-in-japan/",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "니치레이 물류 시스템 랜섬웨어로 KFC 재팬이 온라인 주문을 중단했다.",
+        "what": "니치레이 그룹의 물류 시스템을 노린 랜섬웨어 공격으로 냉동식품 출하가 차질을 빚으면서 KFC 재팬이 온라인 주문을 중단하고 운영을 축소했다. 개인정보도 노출됐으며 거래처로의 추가 위협 가능성이 제기된다.",
+        "points": [
+          "물류 시스템 감염 → 냉동식품 출하 차질",
+          "KFC 재팬 온라인 주문 중단",
+          "개인정보 노출 확인"
+        ],
+        "why": [
+          "물류 협력사 한 곳의 침해가 다수 브랜드의 영업 중단으로 번지는 전형적 3자 리스크"
+        ]
+      }
+    },
+    {
+      "id": "infosec-tuxbot-v3-iot-botnet",
+      "title": "턱스봇 v3, LLM 활용해 진화한 IoT 봇넷",
+      "summary": "암호화 C2와 다중 지속성을 갖춘 IoT 봇넷이 LLM 보조 개발로 고도화됐다.",
+      "source": "Unit 42",
+      "url": "https://unit42.paloaltonetworks.com/tuxbot-v3-evolution-iot-botnet/",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "80%",
+        "owner": "Security Ops",
+        "status": "Tracking",
+        "affectedSurface": "IoT 기기 · 봇넷 C2"
+      },
+      "report": {
+        "tldr": "LLM 보조로 개발된 IoT 봇넷 턱스봇 v3가 암호화 C2와 다중 지속성으로 고도화됐다.",
+        "what": "연구진이 LLM 보조 개발을 활용해 암호화된 명령 채널과 다중 지속성 메커니즘을 갖춘 정교한 IoT 봇넷을 추적했다. 이 위협은 싱가포르와 아이슬란드에 인프라를 둔 Keksec/Kaitori 생태계와 연결된다.",
+        "points": [
+          "LLM 보조 개발로 코드 고도화",
+          "암호화된 C2 채널",
+          "다중 지속성 메커니즘",
+          "Keksec/Kaitori 생태계와 연계"
+        ],
+        "why": [
+          "공격자 측의 LLM 활용이 실제 멀웨어 개발 속도에 반영되기 시작"
+        ]
+      }
+    },
+    {
+      "id": "infosec-spain-140m-fraud-ring",
+      "title": "스페인 경찰, 1억4000만유로 사이버 사기 조직 검거",
+      "summary": "중간자 공격·CEO 사기·가짜 투자 플랫폼을 운영한 70여 명이 검거됐다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "스페인 경찰이 1억4000만유로 규모 사기 조직의 70여 명을 검거했다.",
+        "what": "스페인 당국이 중간자 공격, CEO 사기, 가짜 투자 플랫폼을 운영한 조직의 두목들을 체포했다. 70명 이상과 수백 개 계좌가 연루됐으며, 국제 공조를 통해 피해금 일부를 회수했다.",
+        "points": [
+          "피해 규모 1억4000만유로",
+          "70명 이상 검거, 수백 개 계좌 연루",
+          "MITM·CEO 사기·가짜 투자 플랫폼 병행",
+          "국제 공조로 일부 자금 회수"
+        ],
+        "why": [
+          "BEC·CEO 사기가 여전히 최대 금전 피해 유형임을 보여주는 규모"
+        ]
+      }
+    },
+    {
+      "id": "infosec-uk-scattered-spider-arrests",
+      "title": "영국 경찰, 스캐터드 스파이더 연루 10대 2명 검거",
+      "summary": "2024년 런던교통공사 공격으로 약 2900만파운드 피해를 낸 해커 2명이 검거됐다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/16/uk-cops-say-arrest-of-two-young-hackers-disrupted-the-operations-of-an-infamous-hacking-group/",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "영국이 스캐터드 스파이더 연루 해커 2명을 검거해 조직 활동을 교란했다고 밝혔다.",
+        "what": "영국 당국이 2024년 런던교통공사 공격에 연루된 스캐터드 스파이더 관련 인물 2명을 체포했다. 해당 공격은 약 2900만파운드의 피해를 냈고 발권 시스템을 마비시켰다.",
+        "points": [
+          "런던교통공사 공격 피해 약 2900만파운드",
+          "발권 시스템 마비 유발",
+          "당국은 조직 운영에 타격을 줬다고 평가"
+        ],
+        "why": [
+          "사회공학 중심의 영어권 침해 조직에 대한 법 집행이 실제 성과를 내기 시작"
+        ]
+      }
+    },
+    {
+      "id": "infosec-gpt-red-self-improvement",
+      "title": "오픈AI, 자동 레드팀 시스템 'GPT-Red' 공개",
+      "summary": "프롬프트 인젝션에 대한 자동 레드팀으로 간접 인젝션 실패율을 크게 낮췄다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/unlocking-self-improvement-gpt-red/",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "오픈AI가 자동 레드팀으로 모델의 프롬프트 인젝션 내성을 강화했다.",
+        "what": "오픈AI가 내부 모델을 프롬프트 인젝션 공격에 대해 시험하는 자동 레드팀 시스템을 개발했다. 강화된 모델은 정상 기능을 유지하면서 간접 인젝션에서 현저히 낮은 실패율을 보였다.",
+        "points": [
+          "프롬프트 인젝션 대상 자동 레드팀",
+          "간접 인젝션 실패율 대폭 감소",
+          "정상 기능 저하 없이 강화"
+        ],
+        "why": [
+          "에이전트 배포의 최대 걸림돌인 간접 인젝션에 대한 방어가 모델 계층으로 내려오는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "infosec-agents-pass-tests-fail-production",
+      "title": "테스트를 통과한 에이전트가 프로덕션에서 실패하는 이유",
+      "summary": "벤치마크는 결과만 측정할 뿐 의사결정 품질을 보지 않아 지속 모니터링과 단계적 롤아웃이 필요하다.",
+      "source": "1Password Blog",
+      "url": "https://1password.com/blog/agent-evals-production",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "에이전트 평가가 결과만 보고 의사결정 과정을 보지 않아 프로덕션에서 실패한다.",
+        "what": "AI 에이전트가 벤치마크를 통과하고도 프로덕션에서 실패하는 이유는 테스트가 의사결정 품질이 아니라 출력만 측정하기 때문이다. 보안팀은 비인간 아이덴티티 거버넌스 리스크를 관리하기 위해 지속적 모니터링과 단계적 롤아웃을 도입해야 한다.",
+        "points": [
+          "출력 기준 평가의 한계",
+          "의사결정 경로 자체를 평가 대상에 포함해야",
+          "비인간 아이덴티티 거버넌스가 신규 리스크"
+        ],
+        "why": [
+          "에이전트에 부여된 자격증명·권한이 새로운 공격 표면으로 부상"
+        ]
+      }
+    }
+  ]
+}

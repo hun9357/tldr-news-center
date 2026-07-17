@@ -1,0 +1,243 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-bun-rust-rewrite",
+      "title": "번, AI 에이전트 64개로 러스트 재작성 완료",
+      "summary": "53만5000줄을 지그에서 러스트로 11일 만에 옮기며 컴파일러 오류 1600건을 해결했다.",
+      "source": "Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-what-can-we-learn-from-buns-rapid-rust-rewrite-with-ai/",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Eng",
+        "status": "New",
+        "affectedSurface": "런타임 · 대규모 마이그레이션"
+      },
+      "report": {
+        "tldr": "번이 AI 에이전트 64개를 병렬로 돌려 53만5000줄의 지그→러스트 재작성을 11일에 끝냈다.",
+        "what": "자바스크립트 런타임 번이 AI 에이전트 64개를 사용해 53만5000줄 이상을 지그에서 러스트로 11일 만에 이전하며 메모리 안전성 문제를 해결했다. 이 과정에서 1600건의 컴파일러 오류를 처리했고 자동화에는 클로드 페이블이 활용됐다.",
+        "points": [
+          "53만5000줄 이상 이전, 소요 11일",
+          "AI 에이전트 64개 병렬 운용",
+          "컴파일러 오류 1600건 해소",
+          "자동화에 클로드 페이블 사용"
+        ],
+        "why": [
+          "대규모 언어 이전이 분기 단위 프로젝트에서 주 단위 작업으로 압축된 실증 사례",
+          "에이전트 병렬화가 마이그레이션 작업에 특히 잘 들어맞는다는 근거"
+        ]
+      }
+    },
+    {
+      "id": "dev-slack-shipyard-ec2",
+      "title": "슬랙, 차세대 EC2 플랫폼 '십야드' 구축기",
+      "summary": "장기 인스턴스 패치 대신 불변 배포 아티팩트로 전환하고 점진적 롤아웃과 자동 롤백을 적용했다.",
+      "source": "Slack Engineering",
+      "url": "https://slack.engineering/shipyard-how-we-built-slacks-next-generation-ec2-platform/",
+      "originalDate": "2026-07-16",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "85%",
+        "owner": "Eng",
+        "status": "New",
+        "affectedSurface": "EC2 워크로드 · 배포 파이프라인"
+      },
+      "report": {
+        "tldr": "슬랙이 EC2 워크로드를 불변 아티팩트 기반 배포로 전환한 십야드 플랫폼을 공개했다.",
+        "what": "슬랙의 십야드 플랫폼은 EC2 워크로드에서 장기 실행 인스턴스에 패치를 적용하는 방식을 불변 배포 아티팩트로 대체한다. 하드닝된 베이스 이미지를 사용하며 점진적 롤아웃과 자동 롤백 기능을 갖췄다.",
+        "points": [
+          "장수 인스턴스 패치 → 불변 아티팩트 배포",
+          "하드닝된 베이스 이미지 사용",
+          "점진적 롤아웃·자동 롤백 내장"
+        ],
+        "why": [
+          "컨테이너로 가지 않고도 불변 인프라의 이점을 EC2에서 확보하는 접근"
+        ]
+      }
+    },
+    {
+      "id": "dev-data-oriented-parsers",
+      "title": "데이터 지향 설계로 고성능 파서 만들기",
+      "summary": "지그 기반 파서 유쿠가 포인터 트리 대신 평면 배열 AST로 npm 대안보다 3~10배 빠른 성능을 냈다.",
+      "source": "arshad.fyi",
+      "url": "https://arshad.fyi/writings/engineering-high-performance-parsers",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "평면 배열 AST가 포인터 기반 트리보다 캐시 효율을 높여 파서를 3~10배 빠르게 만든다.",
+        "what": "지그 기반 자바스크립트/타입스크립트 파서 유쿠는 포인터 기반 트리 대신 평면 배열 AST 표현을 사용해 npm 대안 대비 3~10배 빠른 성능을 달성했다. 캐시 효율과 빠른 직렬화가 그 근거다.",
+        "points": [
+          "평면 배열 AST로 캐시 지역성 확보",
+          "npm 대안 대비 3~10배 성능",
+          "직렬화 속도도 개선"
+        ],
+        "why": [
+          "빌드 툴체인의 병목이 알고리즘이 아니라 메모리 레이아웃에 있다는 재확인"
+        ]
+      }
+    },
+    {
+      "id": "dev-staying-familiar-llm-code",
+      "title": "LLM이 쓴 코드에 어떻게 익숙해질 것인가",
+      "summary": "디버깅과 유지보수를 위해 주기적 수동 코딩, 설계 의사결정 질문, 코드베이스 탐색이 필요하다.",
+      "source": "Aha",
+      "url": "https://www.aha.io/engineering/articles/staying-familiar-with-the-code-when-its-written-by-an-llm",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "LLM 코드가 늘수록 디버깅을 위한 코드 이해도를 의도적으로 유지해야 한다.",
+        "what": "개발자가 코드 생성에 LLM을 점점 의존하면서 디버깅과 유지보수를 위한 이해도 유지가 중요해졌다. 주기적인 수동 코딩, 설계 의사결정에 대한 질문, 표적화된 LLM 질의를 통한 코드베이스 맥락 탐색 등이 전략으로 제시된다.",
+        "points": [
+          "주기적 수동 코딩으로 감각 유지",
+          "설계 의사결정을 캐묻기",
+          "표적 질의로 코드베이스 맥락 확보"
+        ],
+        "why": [
+          "장애 대응 시점에 코드 이해도 부재가 곧 MTTR 증가로 나타남"
+        ]
+      }
+    },
+    {
+      "id": "dev-llm-critics-are-right",
+      "title": "LLM 비판자들이 옳다. 그래도 나는 쓴다",
+      "summary": "비판의 타당성을 인정하면서도 사고를 증폭하고 결과물을 개선하는 도구로서의 신중한 활용을 주장한다.",
+      "source": "theocharis.dev",
+      "url": "https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "LLM 비판이 타당함을 인정하면서도 사고 증폭 도구로서 신중히 쓰자는 입장이다.",
+        "what": "필자는 LLM에 대한 비판이 유효함을 인정하면서도, 인간의 사고를 증폭하고 결과물의 품질을 높이는 도구로서 사려 깊게 활용할 것을 옹호한다.",
+        "points": [
+          "비판의 타당성 인정",
+          "사고 대체가 아닌 증폭 도구로 규정"
+        ],
+        "why": [
+          "양극화된 LLM 논쟁에서 실무자의 균형점을 보여주는 관점"
+        ]
+      }
+    },
+    {
+      "id": "dev-contract-driven-development",
+      "title": "계약 주도 개발: 진실을 한 번만 쓴다",
+      "summary": "기계가 읽을 수 있는 계약으로 단일 진실 원천을 유지해 중복 정의로 인한 버그를 막는다.",
+      "source": "Ben Howdle",
+      "url": "https://benhowdle.im/contract-driven-development.html",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "기계 판독 가능한 계약을 단일 진실 원천으로 삼아 중복 정의 버그를 없앤다.",
+        "what": "이 방법론은 기계가 읽을 수 있는 계약을 통해 단일한 권위 있는 진실 원천을 유지함으로써 중복된 정의에서 오는 버그를 방지하고 일관된 코드 생성을 가능하게 하는 데 초점을 둔다.",
+        "points": [
+          "계약을 단일 진실 원천으로",
+          "중복 정의 제거로 버그 예방",
+          "일관된 코드 생성 지원"
+        ],
+        "why": [
+          "LLM이 코드를 생성하는 환경에서 계약 기반 정의의 가치가 커짐"
+        ]
+      }
+    },
+    {
+      "id": "dev-photoroom-insights-factory",
+      "title": "포토룸, LLM 에이전트로 심층 데이터 조사 운영",
+      "summary": "복잡한 데이터 질의를 관리 가능한 에이전트 작업으로 분해하고 인간 감독과 구조화된 문서로 정확도를 유지한다.",
+      "source": "Photoroom",
+      "url": "https://www.photoroom.com/inside-photoroom/the-insights-factory-how-we-run-deep-data-investigations-with-llm-agents",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "포토룸이 복잡한 데이터 질의를 에이전트 작업으로 분해해 조사 주기를 단축했다.",
+        "what": "포토룸의 시스템은 복잡한 데이터 질의를 관리 가능한 에이전트 작업으로 변환하고 인간 감독을 결합한다. 구조화된 문서화로 정확도를 유지하며 조사 주기를 가속한다.",
+        "points": [
+          "복잡한 질의를 에이전트 작업으로 분해",
+          "인간 감독 유지",
+          "구조화된 문서화로 정확도 확보"
+        ],
+        "why": [
+          "데이터 분석 조직에서 에이전트가 실제 운영에 들어간 구체 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-agent-device",
+      "title": "agent-device: AI 에이전트용 기기 자동화 CLI",
+      "summary": "iOS·안드로이드·데스크톱에서 AI 에이전트가 모바일 앱을 조작하고 검증할 수 있게 하는 CLI다.",
+      "source": "GitHub (Callstack)",
+      "url": "https://github.com/callstack/agent-device",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "AI 에이전트가 실제 기기에서 앱을 조작·검증하게 해주는 CLI가 공개됐다.",
+        "what": "iOS, 안드로이드, 데스크톱 플랫폼 전반에서 AI 에이전트가 모바일 애플리케이션과 상호작용하고 검증할 수 있게 하는 기기 자동화 CLI다. 테스트, 디버깅, 워크플로 검증에 쓰인다.",
+        "points": [
+          "iOS·안드로이드·데스크톱 지원",
+          "에이전트의 앱 조작·검증 지원",
+          "테스트·디버깅·워크플로 검증 용도"
+        ],
+        "why": [
+          "에이전트가 코드를 넘어 실행 결과를 직접 확인하는 검증 루프로 확장"
+        ]
+      }
+    },
+    {
+      "id": "dev-hermes-studio",
+      "title": "헤르메스 스튜디오",
+      "summary": "헤르메스 에이전트를 관리하는 데스크톱·웹 통합 인터페이스로 실시간 채팅과 모델 관리를 지원한다.",
+      "source": "GitHub (EKKOLearnAI)",
+      "url": "https://github.com/EKKOLearnAI/hermes-studio",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "헤르메스 에이전트를 통합 관리하는 데스크톱·웹 인터페이스다.",
+        "what": "헤르메스 에이전트 관리를 위한 통합 데스크톱·웹 인터페이스로, 실시간 채팅, 자동화, 음성 입출력, 모델 관리, 코딩 에이전트 환경 등의 기능을 제공한다.",
+        "points": [
+          "데스크톱·웹 통합 인터페이스",
+          "실시간 채팅·자동화·음성 I/O",
+          "모델 관리 및 코딩 에이전트 환경"
+        ],
+        "why": [
+          "에이전트 운영 도구가 개별 CLI에서 통합 콘솔로 수렴"
+        ]
+      }
+    },
+    {
+      "id": "dev-aria-expanded-use-cases",
+      "title": "aria-expanded 활용 사례",
+      "summary": "접히는 위젯을 유형별로 분류하고 보조기술 사용자를 위한 aria-expanded 구현법을 제시한다.",
+      "source": "piccalil.li",
+      "url": "https://piccalil.li/blog/use-cases-for-aria-expanded/",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "접히는 위젯 유형별로 aria-expanded를 올바르게 적용하는 방법을 정리했다.",
+        "what": "이 접근성 가이드는 접히는 위젯을 유형별로 분류하고 보조기술 사용자를 위한 aria-expanded 속성의 올바른 구현을 보여준다.",
+        "points": [
+          "접히는 위젯의 유형 분류",
+          "aria-expanded의 정확한 적용법"
+        ],
+        "why": [
+          "가장 흔히 잘못 쓰이는 ARIA 속성 중 하나에 대한 실무 기준"
+        ]
+      }
+    },
+    {
+      "id": "dev-data-tools-landscape",
+      "title": "개발자를 위한 데이터 도구 지형 가이드",
+      "summary": "데이터 생애주기, 직무, ETL·데이터 웨어하우스·운영 분석 도구를 아우르는 개괄이다.",
+      "source": "sinja.io",
+      "url": "https://sinja.io/blog/data-landscape-guide-for-developers",
+      "originalDate": "2026-07-16",
+      "report": {
+        "tldr": "데이터 생애주기와 직무, 주요 도구를 개발자 관점에서 정리한 개괄이다.",
+        "what": "데이터 생애주기, 직무 역할, ETL 프로세스·데이터 웨어하우스·운영 분석 통합을 포함한 도구를 다루는 종합 개괄이다.",
+        "points": [
+          "데이터 생애주기 전반 정리",
+          "직무별 역할 구분",
+          "ETL·웨어하우스·운영 분석 도구 개괄"
+        ],
+        "why": [
+          "데이터 인접 업무를 맡게 된 개발자를 위한 지형도"
+        ]
+      }
+    }
+  ]
+}
