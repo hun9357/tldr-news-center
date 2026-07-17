@@ -11,6 +11,18 @@
       "summary": "블랙스톤이 투자한 '오드 위드 앤스로픽'이 15억달러 규모 AI '구현' 전문 기업으로 자리매김하고 있다.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/?utm_source=tldrit",
+      "intel": {
+        "impact": "High",
+        "confidence": "80%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 도입 컨설팅 · 엔터프라이즈 배포 · SI 시장"
+      },
+      "related": [
+        "오데의 초기 엔터프라이즈 수주 규모와 레퍼런스 고객 공개 여부",
+        "오픈AI 배포 조직·전통 컨설팅사 포워드 디플로이드 팀의 대응 전략",
+        "앤스로픽 '클로드 우선' 원칙이 실제 도구 선택에서 유지되는지"
+      ],
       "report": {
         "tldr": "5월 출범한 '오드 위드 앤스로픽'이 모델 성능 경쟁이 아닌 기업 내 AI '구현'을 다음 조단위 사업 기회로 보고 15억달러 규모의 전문 기업으로 포지셔닝하고 있다.",
         "what": "오드는 앤스로픽과 블랙스톤이 투자한 벤처로, 모델 자체를 개선하기보다 AI 엔지니어링을 기업 내부에 실제로 배치하는 데 집중한다. 인수한 스타트업 프랙셔널 AI를 기반으로 세워졌으며 엔지니어 100명을 두고 있다. '클로드 우선' 접근을 기본으로 하되 필요할 때는 경쟁사 도구도 함께 사용하며, 오픈AI의 배포 사업 및 컨설팅 업체들의 '포워드 디플로이드' 팀과 경쟁 구도를 이룬다.",

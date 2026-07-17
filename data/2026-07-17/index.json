@@ -19,6 +19,12 @@
   ],
   "lastUpdated": "08:41 CDT",
   "syncedAt": "08:41",
+  "subscribers": 128842,
+  "market": {
+    "index": "S&P 500",
+    "value": "7,533.77",
+    "change": "▼ 0.51%"
+  },
   "stats": {
     "companies": 57,
     "security": 14,
@@ -30,6 +36,8 @@
       "kind": "primary",
       "title": "앤스로픽·블랙스톤, '다음 조단위 AI 사업은 구현'에 베팅",
       "body": "블랙스톤이 투자한 '오드 위드 앤스로픽'이 15억달러 규모의 AI '구현' 전문 기업으로 자리매김하며, 모델 성능 경쟁을 넘어 기업 내부에 AI를 실제로 심는 역량이 다음 수익원으로 부상하고 있다.",
+      "severity": "6.8",
+      "velocity": "Rising",
       "action": "AI 구현·인테그레이션 서비스 시장의 경쟁 구도와 오픈AI·컨설팅사의 대응을 추적할 필요"
     },
     {
