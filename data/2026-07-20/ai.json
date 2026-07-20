@@ -7,343 +7,295 @@
   "items": [
     {
       "id": "ai-qwen38-open-weight",
-      "title": "Qwen3.8, 2.4조 파라미터로 오픈웨이트 공개 예정",
-      "summary": "알리바바가 2.4조 파라미터 규모의 Qwen3.8을 공개하고 오픈웨이트 배포를 예고했다. 현재 알리바바 Token Plan, Qoder, QoderWork에서 프리뷰를 이용할 수 있다.",
-      "source": "X (Alibaba Qwen)",
-      "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291",
-      "originalDate": "2026-07-19",
-      "intel": {
-        "impact": "High",
-        "confidence": "88%",
-        "owner": "Strategy",
-        "status": "New",
-        "affectedSurface": "파운데이션 모델 · 오픈웨이트 생태계"
-      },
+      "title": "알리바바, 2.4조 파라미터 Qwen3.8 공개…곧 오픈 웨이트",
+      "summary": "알리바바가 2.4조 파라미터 규모의 Qwen3.8을 발표했으며 조만간 오픈 웨이트로 공개할 예정이다.",
+      "source": "X (@Alibaba_Qwen)",
+      "url": "https://x.com/Alibaba_Qwen/status/2078759124914098291?utm_source=tldrai",
       "report": {
-        "tldr": "2.4조 파라미터급 모델의 오픈웨이트 공개는 폐쇄형 프런티어 모델의 가격 방어선을 직접 겨냥한다.",
-        "what": "알리바바가 2.4조 파라미터의 Qwen3.8을 발표하고 오픈웨이트 배포를 예고했다. Token Plan, Qoder, QoderWork를 통해 프리뷰 접근이 가능하다.",
+        "tldr": "알리바바가 2.4조 파라미터 규모의 Qwen3.8을 공개했다. 오픈 웨이트 출시가 예정돼 있으며, 알리바바의 토큰 플랜을 통해 프리뷰 버전을 사용할 수 있다.",
+        "what": "프리뷰는 알리바바의 토큰 플랜, 코더, 코더워크를 통해 제공된다. 알리바바는 이 모델이 최상위 프론티어 모델들과 견줄 만하며, 자사 기준 Fable 5에 이어 2위 수준이라고 주장한다.",
         "points": [
-          "공개 예정 모델 중 최대급 파라미터 규모",
-          "프리뷰를 자사 개발 도구 생태계와 묶어 배포",
-          "중국계 오픈 모델의 프런티어 추격 속도가 계속 빨라지는 흐름"
+          "Qwen3.8, 2.4조 파라미터 규모로 공개",
+          "토큰 플랜·코더·코더워크에서 프리뷰 이용 가능",
+          "알리바바는 Fable 5에 이어 2위 성능이라 주장",
+          "조만간 오픈 웨이트로 전환 예정"
         ],
         "why": [
-          "최상위급 성능이 오픈웨이트로 풀리면 API 단가 경쟁이 구조적으로 심화된다",
-          "온프레미스 배포 수요가 있는 기업에 실질적 대안이 생김",
-          "동시에 오픈웨이트 모델 오염(poisoning) 리스크 관리 필요성도 함께 커진다"
-        ],
-        "action": "오픈웨이트 도입을 검토한다면 비용 절감 효과와 출처 검증·백도어 테스트 비용을 함께 산정할 것."
+          "초대형 중국 오픈 웨이트 모델의 등장은 오픈소스 진영의 프론티어 경쟁을 한층 가속화하고 있다."
+        ]
       }
     },
     {
       "id": "ai-apple-legal-letters-openai",
-      "title": "애플, 오픈AI 직원 수십 명에게 법적 통지서 발송",
-      "summary": "애플이 오픈AI로 이직한 전직 직원들에게 영업비밀 관련 문서 보존을 요구하는 법적 통지를 보냈다. 애플은 핵심 엔지니어 영입과 독점 설계 유용을 주장하고 오픈AI는 부인하고 있다.",
+      "title": "애플, 전직원 다수 채용한 오픈AI에 법적 서한 발송",
+      "summary": "애플이 영업비밀 소송과 관련해 오픈AI로 이직한 전직원 수십명에게 문서 보존을 요구하는 서한을 보냈다.",
       "source": "MacRumors",
-      "url": "https://www.macrumors.com/2026/07/17/apple-sends-legal-letters-openai/",
-      "originalDate": "2026-07-17",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "82%",
-        "owner": "Legal",
-        "status": "Tracking",
-        "affectedSurface": "인재 이동 · 영업비밀"
-      },
+      "url": "https://www.macrumors.com/2026/07/17/apple-sends-legal-letters-openai/?utm_source=tldrai",
       "report": {
-        "tldr": "AI 인재 쟁탈전이 소송 리스크를 동반한 법적 국면으로 전환되고 있다.",
-        "what": "애플이 오픈AI로 이직한 전직 직원 수십 명에게 문서 보존 통지(litigation hold)를 발송했다. 영업비밀 침해 주장을 뒷받침하기 위한 사전 조치로 해석된다.",
+        "tldr": "애플이 오픈AI로 이직한 전직 애플 직원 수십명에게 법적 서한을 보내 영업비밀 소송과 관련된 문서·통신 기록을 보존하라고 지시했다.",
+        "what": "애플은 오픈AI가 핵심 엔지니어를 영입하면서 독점 설계·제조 공정 등 영업비밀의 혜택을 봤다고 주장한다. 현재 400명 이상의 전직 애플 직원이 오픈AI에서 근무 중이며, 오픈AI는 소송에 근거가 있다는 증거를 알지 못한다며 혐의를 부인했다.",
         "points": [
-          "문서 보존 통지는 통상 본격 소송의 선행 단계",
-          "애플은 핵심 엔지니어 영입 과정에서 독점 설계가 유출됐다고 주장",
-          "오픈AI는 부당행위를 부인"
+          "애플, 오픈AI 근무 전직원 다수에 문서 보존 서한 발송",
+          "애플은 오픈AI가 핵심 엔지니어 영입으로 영업비밀 혜택을 봤다고 주장",
+          "현재 400명 이상의 전직 애플 직원이 오픈AI에 재직 중",
+          "오픈AI는 혐의를 전면 부인"
         ],
         "why": [
-          "AI 인재 영입의 법적 비용이 급증하면서 채용 실무에 실사 부담이 커진다",
-          "빅테크 간 영업비밀 분쟁은 하드웨어·온디바이스 AI 경쟁 격화를 반영"
-        ],
-        "action": "경쟁사 출신 인재 영입 시 온보딩 단계의 정보 격리 절차를 문서화해 둘 것."
+          "빅테크 간 AI 인재 쟁탈전이 법적 분쟁으로 번지면서 업계 전반의 인력 이동에 긴장이 커지고 있다."
+        ]
       }
     },
     {
-      "id": "ai-netflix-llm-serving",
-      "title": "넷플릭스의 자체 LLM 서빙 스택 구축기",
-      "summary": "넷플릭스가 프로덕션 인프라 내에서 LLM 추론을 운영하는 방식을 공개했다. 엔진 선택, 모델 패키징, API 설계, 배포 전략을 다룬다.",
+      "id": "ai-fable5-vs-gpt56-goal-flag",
+      "title": "Fable 5 vs GPT-5.6 Sol, NP-난해 문제에서 '/goal' 옵션은 도움이 될까",
+      "summary": "클로드 코드와 코덱스의 /goal 구현 방식 차이를 NP-난해 문제로 비교 분석했다.",
+      "source": "Charles Azam",
+      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/?utm_source=tldrai",
+      "report": {
+        "tldr": "클로드 코드와 코덱스 모두 /goal 옵션을 제공하지만 구현 방식은 근본적으로 다르다. 클로드 코드는 세션 범위의 Stop 훅으로 구현해 조기 종료는 잡아내지만, 추가로 천만 번의 솔버 반복이 가치가 있는지는 알지 못한다.",
+        "what": "코덱스는 목표를 지속되는 스레드 상태로 취급한다. 파일과 도구는 볼 수 있지만 사실상 자기 작업을 스스로 채점하는 구조다. /goal 사용이 나쁜 결정을 좋은 결정만큼 증폭시킬 수 있어, 기본값으로 삼기엔 위험할 수 있다는 결론이다.",
+        "points": [
+          "클로드 코드의 /goal은 세션 범위 Stop 훅으로 구현, 조기 종료만 감지",
+          "코덱스의 /goal은 지속되는 스레드 상태로, 자기 작업을 스스로 채점",
+          "/goal 사용이 오히려 나쁜 결정을 증폭시킬 위험 존재",
+          "NP-난해 문제 벤치마크로 두 구현 방식의 차이를 실증"
+        ],
+        "why": [
+          "에이전트의 자기평가 메커니즘 설계가 코딩 에이전트의 신뢰성에 직접적인 영향을 미친다는 점을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-netflix-llm-serving-stack",
+      "title": "넷플릭스, 자체 LLM 서빙 스택 구축기 공개",
+      "summary": "넷플릭스가 외부 호스팅 API 대신 기존 프로덕션 인프라 안에서 LLM 추론을 배포·운영한 과정을 상세히 공개했다.",
       "source": "Netflix Tech Blog",
-      "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c",
-      "originalDate": "2026-07-17",
+      "url": "https://netflixtechblog.com/in-house-llm-serving-at-netflix-a5a8e799ea2c?utm_source=tldrai",
       "report": {
-        "tldr": "vLLM·Triton 기반 자체 서빙 플랫폼으로 실험에서 프로덕션까지의 전환 비용을 줄였다.",
-        "what": "넷플릭스가 사내 LLM 서빙 플랫폼의 설계를 공개했다. vLLM과 Triton을 조합해 엔진을 구성하고, 모델 패키징과 API 계약을 표준화해 실험 코드를 최소 수정으로 프로덕션에 올릴 수 있게 했다.",
+        "tldr": "넷플릭스가 외부 호스팅 API에 의존하지 않고 기존 프로덕션 환경 안에서 LLM 배포와 추론을 통합하는 자체 LLM 서빙 플랫폼을 구축한 과정을 상세히 소개했다.",
+        "what": "이 글은 엔진 선택, 모델 패키징, API 설계, 배포 전략, 출력 제약, 실제 워크로드에서 드러난 트레이드오프를 다룬다.",
         "points": [
-          "vLLM·Triton 조합으로 추론 엔진 계층을 추상화",
-          "모델 패키징 규격 표준화로 실험→운영 전환 비용 최소화",
-          "API 설계와 배포 전략을 플랫폼 차원에서 통제"
+          "넷플릭스, 외부 API 대신 자체 인프라 내 LLM 서빙 플랫폼 구축",
+          "vLLM과 Triton 기반 통합 서빙 시스템 사용",
+          "A/B 테스트, 효율적 모델 라우팅 기능 지원",
+          "실험에서 프로덕션으로 최소한의 코드 변경만으로 전환 가능"
         ],
         "why": [
-          "외부 API 의존 대비 비용·지연·데이터 통제 측면의 이점이 규모에서 커진다",
-          "자체 서빙은 모델 교체 유연성을 확보하는 전략적 수단"
-        ],
-        "action": "LLM 호출량이 임계치를 넘는 워크로드가 있다면 자체 서빙의 손익분기 지점을 산정해볼 것."
-      }
-    },
-    {
-      "id": "ai-fable5-vs-gpt56-goal",
-      "title": "Fable 5 vs GPT-5.6 Sol: NP-하드 문제에서 /goal은 도움이 되는가",
-      "summary": "클로드 코드와 코덱스가 /goal 기능을 구현하는 방식의 차이를 비교했다. 한쪽은 세션 범위 정지를, 다른 쪽은 스레드 상태 유지를 사용하며 /goal이 언제 도움이 되고 언제 오류를 증폭하는지 분석한다.",
-      "source": "charlesazam.com",
-      "url": "https://charlesazam.com/blog/fable-5-gpt-5-6-sol-goal/",
-      "originalDate": "2026-07-18",
-      "report": {
-        "tldr": "목표 지속(/goal) 기능은 구현 방식에 따라 성능을 높이기도, 오류를 누적시키기도 한다.",
-        "what": "NP-하드 문제를 대상으로 Fable 5와 GPT-5.6 Sol의 /goal 기능을 비교했다. 클로드 코드는 세션 범위의 정지 조건을, 코덱스는 스레드 상태 지속을 사용하는 등 구현 철학이 다르다.",
-        "points": [
-          "세션 범위 정지 vs 스레드 상태 지속의 설계 차이",
-          "초기 접근이 잘못된 경우 목표 지속이 오류를 증폭",
-          "탐색 공간이 넓은 문제에서 효과가 갈림"
-        ],
-        "why": [
-          "에이전트 하네스의 상태 관리 설계가 실제 작업 성공률을 좌우한다",
-          "장기 실행 에이전트 도입 시 중단·재평가 조건 설계가 핵심"
+          "대형 스트리밍 기업이 LLM 인프라를 자체 구축·운영하는 사례가 늘면서, 클라우드 호스팅 API 의존을 낮추려는 흐름이 확산되고 있다."
         ]
       }
     },
     {
-      "id": "ai-hassabis-google-commitments",
-      "title": "데미스 허사비스와 구글의 AI 약속",
-      "summary": "허사비스의 프런티어 AI 프레임워크를 검토하면서 구글의 군사 협력을 비판적으로 다룬다. 자율무기 개발에 반대해 사임한 알렉스 터너의 사례가 포함됐다.",
-      "source": "The Zvi",
-      "url": "https://thezvi.substack.com/p/demis-hassabis-on-the-new-coming",
-      "originalDate": "2026-07-17",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "72%",
-        "owner": "Policy",
-        "status": "Tracking",
-        "affectedSurface": "AI 거버넌스 · 군사 협력"
-      },
+      "id": "ai-demis-hassabis-google-commitments",
+      "title": "데미스 하사비스와 구글의 AI 공약을 둘러싼 논쟁",
+      "summary": "구글의 군사 계약에 대한 비판과 알렉스 터너의 사임 등 프론티어 AI 원칙을 둘러싼 내부 갈등을 조명했다.",
+      "source": "The Zvi (Substack)",
+      "url": "https://thezvi.substack.com/p/demis-hassabis-on-the-new-coming?utm_source=tldrai",
       "report": {
-        "tldr": "프런티어 랩의 안전 약속과 실제 군사 협력 사이의 간극이 내부 사임으로 표면화됐다.",
-        "what": "데미스 허사비스가 제시한 프런티어 AI 프레임워크를 분석하면서, 구글의 군사 파트너십과 자율무기 개발 반대로 사임한 알렉스 터너 사례를 함께 검토한 글이다.",
+        "tldr": "이 글은 데미스 하사비스의 프론티어 AI 프레임워크와 구글의 군사 계약에 대한 비판을 함께 살펴본다.",
+        "what": "정부의 광범위한 구글 모델 사용, 특히 자율무기 관련 사용에 반대하다 사임한 알렉스 터너의 사례도 다룬다.",
         "points": [
-          "안전 원칙 선언과 국방 계약 수주 사이의 실질적 충돌",
-          "자율무기 관련 내부 이견이 인력 이탈로 이어진 사례",
-          "프런티어 랩의 자율 규제 신뢰성에 대한 문제 제기"
+          "데미스 하사비스의 프론티어 AI 원칙과 구글 군사 계약 간 긴장 조명",
+          "알렉스 터너, 정부의 자율무기 관련 모델 사용 확대에 반대해 사임",
+          "구글 AI 원칙의 실제 이행을 둘러싼 내부 논쟁 지속"
         ],
         "why": [
-          "AI 랩의 자율 규제만으로 군사 활용을 통제할 수 있는지에 대한 실증 사례",
-          "국방 AI 조달 확대 흐름과 맞물려 정책 논쟁이 가열될 전망"
+          "AI 랩의 공개적 원칙과 실제 정부·군사 계약 사이의 간극이 내부 인력 이탈로까지 이어지고 있다."
         ]
       }
     },
     {
-      "id": "ai-sakana-dale-constrained-learning",
-      "title": "사카나 AI, 가중치 전송 없는 데일 원리 준수 학습법 공개",
-      "summary": "비음수 가중치 행렬로 데일의 원리를 만족시키면서 가중치 전송 없이 학습하는 생물학적으로 타당한 기법을 제시했다. 분류와 강화학습에서 효과를 보였다.",
-      "source": "X (Sakana AI Labs)",
-      "url": "https://x.com/SakanaAILabs/status/2078136419521048905",
-      "originalDate": "2026-07-17",
+      "id": "ai-sakana-diffusing-blame",
+      "title": "사카나AI, 가중치 전달 없이 학습하는 'Diffusing Blame' 공개",
+      "summary": "사카나AI가 데일의 원칙을 지키면서도 효과적으로 학습하는 신경망 기법을 발표했다.",
+      "source": "X (@SakanaAILabs)",
+      "url": "https://x.com/SakanaAILabs/status/2078136419521048905?utm_source=tldrai",
       "report": {
-        "tldr": "역전파의 생물학적 비현실성을 우회하는 학습 규칙을 실제 과제에서 작동시켰다.",
-        "what": "사카나 AI가 비음수 가중치 행렬을 사용해 데일의 원리를 강제하면서 가중치 전송(weight transport) 없이 학습하는 기법 'Diffusing Blame'을 공개했다. 분류와 강화학습 과제에서 유효성을 보였다.",
+        "tldr": "사카나AI의 'Diffusing Blame'은 이미지 분류와 강화학습 과제에서 데일의 원칙을 지키면서도 효과적인 학습을 가능케 하는 신경망 기법이다.",
+        "what": "오차 확산에 기반한 이 접근은 비음수 가중치 행렬을 사용해 흥분성·억제성 스트림을 분리 유지함으로써 가중치 전달 없이도 학습할 수 있게 한다. 결과는 실제 그래디언트와 강한 정렬을 보여 생물학적으로 그럴듯한 학습 규칙에 한 걸음 다가섰음을 시사한다.",
         "points": [
-          "역전파가 요구하는 가중치 전송 가정을 제거",
-          "흥분성/억제성 뉴런 분리라는 생물학적 제약을 유지",
-          "분류와 강화학습 양쪽에서 학습 성공"
+          "사카나AI, 데일의 원칙을 지키는 신경망 학습 기법 'Diffusing Blame' 공개",
+          "오차 확산 기반, 비음수 가중치 행렬로 흥분성·억제성 스트림 분리",
+          "가중치 전달(weight transport) 없이도 효과적 학습 가능",
+          "이미지 분류·강화학습 과제에서 실제 그래디언트와 강한 정렬 확인"
         ],
         "why": [
-          "생물학적 타당성을 갖춘 학습 규칙은 뉴로모픽 하드웨어 구현의 전제",
-          "역전파 대안 연구는 장기적으로 학습 효율 개선 경로가 될 수 있음"
+          "생물학적으로 그럴듯한 학습 규칙 연구가 신경망 설계의 새로운 방향을 제시하고 있다."
         ]
       }
     },
     {
       "id": "ai-kimi-code-cli",
-      "title": "Kimi Code CLI 공개",
-      "summary": "문샷 AI의 터미널 기반 코딩 에이전트로 코드 편집, 셸 실행, 파일 검색을 수행한다. 에이전트 스킬, 훅, 호환 프로바이더를 통한 확장을 지원한다.",
+      "title": "Kimi Code CLI, 터미널용 AI 코딩 에이전트 오픈소스로 공개",
+      "summary": "문샷AI의 Kimi 모델 기반 터미널 코딩 에이전트가 깃허브에 공개됐다.",
       "source": "GitHub",
-      "url": "https://github.com/MoonshotAI/kimi-code",
-      "originalDate": "2026-07-17",
+      "url": "https://github.com/MoonshotAI/kimi-code?utm_source=tldrai",
       "report": {
-        "tldr": "문샷이 터미널 코딩 에이전트 시장에 직접 진입했다.",
-        "what": "문샷 AI가 터미널 기반 코딩 에이전트 Kimi Code CLI를 공개했다. 코드 편집, 셸 명령 실행, 파일 검색을 지원하며 스킬·훅·프로바이더 확장 구조를 갖췄다.",
+        "tldr": "Kimi Code CLI는 터미널에서 실행되는 AI 코딩 에이전트로, 코드를 읽고 수정하고, 셸 명령을 실행하고, 파일을 검색하고, 웹페이지를 가져오며, 피드백에 따라 다음 단계를 선택할 수 있다.",
+        "what": "문샷AI의 Kimi 모델과 함께 작동하며 다른 호환 제공사로도 설정을 바꿀 수 있다. 에이전트 스킬, 훅, 서브에이전트, MCP를 통해 기능을 확장할 수 있다.",
         "points": [
-          "클로드 코드·코덱스와 유사한 CLI 에이전트 폼팩터",
-          "스킬·훅 기반 확장성과 다중 프로바이더 호환",
-          "K3 모델의 저비용 특성과 결합 시 가격 경쟁력 확보"
+          "터미널 기반 AI 코딩 에이전트, 문샷AI의 Kimi 모델 사용",
+          "코드 읽기/수정, 셸 명령 실행, 파일 검색, 웹페이지 가져오기 지원",
+          "다른 호환 모델 제공사로 전환 가능",
+          "에이전트 스킬·훅·서브에이전트·MCP로 확장 가능"
         ],
         "why": [
-          "코딩 에이전트 인터페이스가 CLI로 수렴하면서 모델 교체 비용이 낮아진다"
+          "중국발 오픈소스 코딩 에이전트가 클로드 코드·코덱스 등 기존 강자들과 본격 경쟁하는 모습이다."
         ]
       }
     },
     {
-      "id": "ai-fable5-max-team-plans",
-      "title": "클로드 Fable 5, Max·Team 프리미엄 플랜에 포함",
-      "summary": "Fable 5가 7월 20일부터 Max와 Team 프리미엄 구독에 표준 한도의 50% 수준으로 제공된다. Pro 사용자에게는 100달러 크레딧이 지급된다.",
-      "source": "X (Claude AI)",
-      "url": "https://x.com/claudeai/status/2078302415804379218",
-      "originalDate": "2026-07-18",
+      "id": "ai-claude-fable5-max-team-plans",
+      "title": "클로드 Fable 5, 맥스·팀 프리미엄 요금제에 포함",
+      "summary": "7월 20일부터 맥스·팀 프리미엄 사용자는 한도의 50%로 Fable 5를 이용할 수 있다.",
+      "source": "X (@claudeai)",
+      "url": "https://x.com/claudeai/status/2078302415804379218?utm_source=tldrai",
       "report": {
-        "tldr": "최상위 모델이 기존 구독 플랜에 편입되며 접근 문턱이 낮아졌다.",
-        "what": "Fable 5가 7월 20일부터 Max 및 Team 프리미엄 플랜에 포함된다. 표준 한도의 50% 수준으로 제공되며, Pro 구독자에게는 100달러 크레딧이 주어진다.",
+        "tldr": "클로드 Fable 5가 7월 20일부터 모든 맥스·팀 프리미엄 요금제에 한도의 50% 수준으로 포함된다.",
+        "what": "프로·팀 스탠다드 사용자는 계속 사용 크레딧을 통해 Fable에 접근하며, 1회성 100달러 크레딧을 받는다. Fable에 대한 수요를 예측하기 어려워 단계적으로 출시되고 있다.",
         "points": [
-          "별도 과금 없이 기존 구독으로 최상위 모델 접근",
-          "한도는 표준의 50%로 제한",
-          "Pro 티어는 크레딧 형태로 보상"
+          "Fable 5, 7월 20일부터 맥스·팀 프리미엄 요금제에 한도 50% 수준 포함",
+          "프로·팀 스탠다드는 사용 크레딧으로 접근, 1회성 100달러 크레딧 제공",
+          "수요 예측 어려움으로 단계적 롤아웃 진행 중"
         ],
         "why": [
-          "프런티어 모델의 구독 편입은 오픈웨이트 대안 확산에 대한 가격 대응으로 해석"
+          "신모델에 대한 수요가 예상보다 커 앤스로픽이 접근을 단계적으로 조절하고 있다."
         ]
       }
     },
     {
-      "id": "ai-alibaba-chip-stack-open-source",
-      "title": "알리바바, AI 칩 소프트웨어 스택 오픈소스화",
-      "summary": "알리바바가 CUDA 종속을 낮추기 위해 전우(Zhenwu) 칩 소프트웨어 스택을 공개했다. 외부 제재에 대한 생태계 복원력 강화가 목적이다.",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/alibaba-t-head-sail-open-source-nvidia-cuda-alternative",
-      "originalDate": "2026-07-17",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "76%",
-        "owner": "Strategy",
-        "status": "Tracking",
-        "affectedSurface": "AI 반도체 · CUDA 생태계"
-      },
+      "id": "ai-alibaba-open-source-sail-chip-stack",
+      "title": "알리바바, AI 칩 소프트웨어 스택 오픈소스화…CUDA 종속 정조준",
+      "summary": "알리바바가 젠우 AI 칩 시리즈의 소프트웨어 스택을 공개해 엔비디아 CUDA 종속을 낮추려 한다.",
+      "source": "TheNextWeb",
+      "url": "https://thenextweb.com/news/alibaba-t-head-sail-open-source-nvidia-cuda-alternative?utm_source=tldrai",
       "report": {
-        "tldr": "CUDA 락인 해제를 목표로 한 중국발 오픈소스 대안이 본격화됐다.",
-        "what": "알리바바가 자사 AI 칩용 소프트웨어 스택 '전우(Zhenwu)'를 오픈소스로 공개했다. 엔비디아 CUDA 종속을 낮추고 수출 규제 등 외부 제약에 대한 복원력을 높이려는 전략이다.",
+        "tldr": "알리바바가 자사 젠우(Zhenwu) 시리즈 AI 칩의 소프트웨어 스택을 오픈소스로 공개했다. 엔비디아 CUDA 생태계에 묶여 있던 개발자들의 이전 장벽을 낮추려는 조치다.",
+        "what": "중국이 AI 자립을 원한다면 대체 칩만 만들 게 아니라 소프트웨어 계층에서부터 CUDA 종속을 깨야 한다는 판단이 깔려 있다. 최근 펜타곤이 알리바바를 중국 군사기업 블랙리스트에 추가한 가운데, SAIL 오픈소스화는 자사 생태계를 더 끈끈하게 만들어 특정 정부가 쉽게 셧다운할 수 없게 만드는 효과도 노린다.",
         "points": [
-          "칩 자체가 아닌 소프트웨어 스택 개방으로 생태계 확보 시도",
-          "CUDA 락인이 실질적 진입 장벽임을 재확인",
-          "제재 환경에서의 자립 인프라 구축 흐름"
+          "알리바바, 젠우 시리즈 AI 칩의 소프트웨어 스택(SAIL) 오픈소스 공개",
+          "엔비디아 CUDA 생태계 종속 개발자의 이전 장벽 완화 목적",
+          "펜타곤의 중국 군사기업 블랙리스트 지정 이후 나온 조치",
+          "오픈소스화로 생태계 결속력을 높여 특정 정부의 통제 리스크 완화 노림수"
         ],
         "why": [
-          "엔비디아의 해자는 하드웨어보다 CUDA 생태계에 있어, 소프트웨어 개방이 장기 위협",
-          "AI 인프라의 지역별 분화(fragmentation)가 가속"
+          "미중 AI 기술 패권 경쟁이 칩 하드웨어를 넘어 소프트웨어 생태계 장악 경쟁으로 확산되고 있다."
         ]
       }
     },
     {
-      "id": "ai-zai-approaching-1bn-sales",
-      "title": "중국 AI 스타트업 Z.ai, 매출 10억달러 근접",
-      "summary": "Z.ai가 최상위 모델을 무료로 공개하면서도 온프레미스 기업 배포와 클라우드 사업으로 상당한 매출을 올리고 있다.",
-      "source": "The Next Web",
-      "url": "https://thenextweb.com/news/a-chinese-ai-startup-is-about-to-hit-1bn-in-sales-while-giving-its-best-models-away-for-free",
-      "originalDate": "2026-07-17",
+      "id": "ai-kimi-k3-pausing-subscriptions",
+      "title": "Kimi K3, 예상보다 뜨거운 반응에 신규 가입 일시 중단",
+      "summary": "문샷AI가 컴퓨팅 자원을 기존 회원에게 우선 배정하기 위해 신규 구독을 일시 중단했다.",
+      "source": "TLDR AI",
+      "url": "https://links.tldrnewsletter.com/Ncpih8",
       "report": {
-        "tldr": "모델을 무료로 풀고 배포·운영으로 돈을 버는 수익 모델이 10억달러 규모로 검증되고 있다.",
-        "what": "중국 AI 스타트업 Z.ai가 최상위 모델을 무료 제공하면서도 온프레미스 기업 배포와 클라우드 사업을 통해 연매출 10억달러에 근접하고 있다.",
+        "tldr": "Kimi K3가 예상을 뛰어넘는 인기를 얻으며 문샷AI가 신규 구독을 일시 중단하고 기존 회원에게 컴퓨팅 자원을 우선 배정하기로 했다.",
+        "what": null,
         "points": [
-          "모델 무료화 + 배포·운영 유료화의 이원 구조",
-          "온프레미스 수요가 매출의 핵심 축",
-          "클라우드 사업이 병행 성장"
+          "Kimi K3에 대한 수요가 예상치를 크게 초과",
+          "문샷AI, 신규 구독 일시 중단",
+          "기존 회원에게 컴퓨팅 자원 우선 배정"
         ],
         "why": [
-          "모델 자체의 상품 가치가 하락하고 배포·통합 역량으로 수익이 이동하는 흐름을 실증",
-          "폐쇄형 API 중심 수익 모델에 대한 구조적 도전"
+          "중국발 오픈 모델에 대한 글로벌 수요가 예상보다 훨씬 강하다는 신호다."
         ]
       }
     },
     {
-      "id": "ai-gpu-financiers-inference-chips",
-      "title": "GPU 금융 투자자들, 4억달러 규모 추론 칩 거래로 선회",
-      "summary": "제너럴 컴퓨트가 추론 전용 칩을 담보로 4억달러 금융을 조달했다. AI 하드웨어가 특화 방향으로 이동하고 있음을 보여준다.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/",
-      "originalDate": "2026-07-17",
+      "id": "ai-google-skills-gemini-live-web",
+      "title": "구글, '스킬'과 제미나이 라이브 웹 출시 준비",
+      "summary": "구글이 실시간 음성 기능인 제미나이 라이브를 데스크톱·웹으로 확장할 준비를 하고 있다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/google-preparing-skills-and-gemini-live-for-web-rollout/?utm_source=tldrai",
       "report": {
-        "tldr": "추론 전용 칩이 담보 자산으로 인정받으며 AI 하드웨어 금융의 축이 이동하고 있다.",
-        "what": "GPU 담보 금융을 개척한 투자자들이 추론 전용 칩으로 방향을 틀었다. 제너럴 컴퓨트가 추론 칩을 담보로 4억달러 규모 자금을 조달했다.",
+        "tldr": "구글이 제미나이 라이브를 데스크톱과 웹으로 확장해 실시간 음성 기능을 모바일 너머로 넓힐 계획이다.",
+        "what": null,
         "points": [
-          "학습용 GPU에서 추론 전용 칩으로 담보 자산 이동",
-          "추론 워크로드 비중 확대가 금융 구조에 반영",
-          "4억달러 규모로 자산 유동화 시장이 성숙"
+          "구글, 제미나이 라이브를 데스크톱·웹으로 확장 준비",
+          "실시간 음성 상호작용 기능을 모바일 이외 플랫폼으로 확대",
+          "'스킬' 기능도 함께 준비 중"
         ],
         "why": [
-          "AI 지출의 무게중심이 학습에서 추론으로 옮겨가는 것을 자본시장이 확인",
-          "추론 칩 잔존가치 평가가 가능해지며 인프라 투자 문턱이 낮아진다"
+          "음성 기반 AI 인터페이스 경쟁이 모바일을 넘어 데스크톱·웹 환경으로 확산되고 있다."
         ]
       }
     },
     {
-      "id": "ai-moonshot-hong-kong-ipo",
-      "title": "문샷 AI, 홍콩 IPO 추진",
-      "summary": "문샷 AI가 Kimi K3 모델의 호평에 힘입어 6개월 내 홍콩 증권거래소 상장을 추진한다고 밝혔다.",
-      "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/moonshot-ai-plans-hong-kong-123000193.html",
-      "originalDate": "2026-07-17",
-      "report": {
-        "tldr": "K3의 성공을 발판으로 중국 AI 랩이 공개 자본시장 진입을 시도한다.",
-        "what": "문샷 AI가 향후 6개월 내 홍콩 증권거래소 상장 계획을 발표했다. Kimi K3 모델에 대한 시장 반응이 긍정적인 데 따른 결정이다.",
-        "points": [
-          "6개월 내 상장을 목표로 하는 공격적 일정",
-          "K3 모델의 성능·가격 경쟁력이 상장 근거",
-          "중국 AI 랩의 자본 조달 경로가 홍콩으로 집중"
-        ],
-        "why": [
-          "AI 랩의 상장은 재무 공시를 통해 실제 단위경제를 드러내는 계기가 된다"
-        ]
-      }
-    },
-    {
-      "id": "ai-kimi-k3-subscription-paused",
-      "title": "Kimi K3, 신규 구독 일시 중단",
-      "summary": "예상을 초과한 수요로 기존 사용자에게 컴퓨팅을 우선 배분하기 위해 신규 구독 접수를 일시 중단했다.",
-      "source": "X (Kimi Moonshot)",
-      "url": "https://x.com/kimi_moonshot/status/2078855608565207130",
-      "originalDate": "2026-07-19",
-      "report": {
-        "tldr": "수요가 컴퓨팅 공급을 초과해 신규 가입을 막는 상황이 반복되고 있다.",
-        "what": "문샷이 Kimi K3에 대한 신규 구독 접수를 일시 중단했다. 예상을 크게 웃도는 수요로 기존 구독자의 컴퓨팅 할당을 우선하기 위한 조치다.",
-        "points": [
-          "컴퓨팅 부족이 성장의 직접적 제약으로 작용",
-          "기존 사용자 경험 보호를 우선한 선택"
-        ],
-        "why": [
-          "모델 경쟁력이 있어도 인프라 확보가 병목이 되는 구조를 보여줌",
-          "저가 모델 전략의 지속 가능성에 대한 실질적 시험대"
-        ]
-      }
-    },
-    {
-      "id": "ai-gemini-live-web",
-      "title": "구글, 제미나이 라이브 웹 버전 준비",
-      "summary": "구글이 제미나이 라이브의 실시간 음성 기능을 모바일에서 데스크톱·웹으로 확장할 계획이다.",
-      "source": "Testing Catalog",
-      "url": "https://www.testingcatalog.com/google-preparing-skills-and-gemini-live-for-web-rollout/",
-      "originalDate": "2026-07-17",
-      "report": {
-        "tldr": "실시간 음성 AI가 모바일을 넘어 데스크톱 업무 환경으로 확장된다.",
-        "what": "구글이 제미나이 라이브의 실시간 음성 대화 기능을 데스크톱과 웹으로 확대 배포할 준비를 하고 있다. 스킬 기능도 함께 준비 중인 것으로 알려졌다.",
-        "points": [
-          "모바일 전용이던 실시간 음성 기능의 웹 확장",
-          "스킬 기능 도입도 병행 준비"
-        ],
-        "why": [
-          "음성 인터페이스가 데스크톱 업무 흐름에 진입하면 사용 시간 경쟁 구도가 바뀐다"
-        ]
-      }
-    },
-    {
-      "id": "ai-token-efficiency-research-strategy",
-      "title": "리서치 전략으로 토큰 비용 최적화하기",
-      "summary": "초기 조사는 저비용 모델로, 검증은 정확도 높은 모델로, 딥리서치는 선별적으로 사용해 토큰 소비를 줄이는 방법을 제시한다.",
+      "id": "ai-token-saving-research",
+      "title": "토큰 절약법을 연구하다가 토큰을 다 태운 이야기",
+      "summary": "저렴한 모델로 정보를 찾고, 정확한 모델로 검증한 뒤, 딥리서치는 마지막에 사용하라는 조언이다.",
       "source": "Quesma",
-      "url": "https://quesma.com/blog/custom-deep-research-pipeline/",
-      "originalDate": "2026-07-17",
+      "url": "https://quesma.com/blog/custom-deep-research-pipeline/?utm_source=tldrai",
       "report": {
-        "tldr": "단계별 모델 라우팅만으로 리서치 파이프라인의 토큰 비용을 크게 줄일 수 있다.",
-        "what": "커스텀 딥리서치 파이프라인 구축 가이드로, 탐색 단계에는 저비용 모델을, 검증 단계에는 고정확도 모델을 배치하고 딥리서치는 필요한 지점에만 투입하는 전략을 설명한다.",
+        "tldr": "저자는 토큰 사용량을 줄이는 방법을 연구하다 오히려 토큰을 대량으로 소모한 경험을 공유하며, 효율적인 리서치 파이프라인 설계 원칙을 정리했다.",
+        "what": null,
         "points": [
-          "탐색과 검증에 서로 다른 모델 티어를 배정",
-          "딥리서치의 선택적 투입으로 비용 급증 방지",
-          "단계별 라우팅이 품질 손실 없이 비용을 절감"
+          "저렴한 모델로 먼저 정보를 탐색",
+          "정확한(고성능) 모델로 정보를 검증",
+          "딥리서치는 파이프라인의 마지막 단계에서만 사용",
+          "단계별 모델 배분으로 토큰 비용을 절감"
         ],
         "why": [
-          "AI 비용 관리의 핵심이 단가 협상이 아니라 워크로드 라우팅 설계로 이동"
+          "모델 성능과 비용을 작업 단계별로 배분하는 것이 AI 파이프라인 비용 최적화의 핵심임을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-zai-1bn-sales-free-models",
+      "title": "중국 AI 스타트업 Z.ai, 최상위 모델 무료 배포하며 매출 10억달러 목전",
+      "summary": "Z.ai 매출의 상당 부분은 국영기업·금융기관 대상 온프레미스 배포와 급성장 중인 클라우드 사업에서 나온다.",
+      "source": "TheNextWeb",
+      "url": "https://thenextweb.com/news/a-chinese-ai-startup-is-about-to-hit-1bn-in-sales-while-giving-its-best-models-away-for-free?utm_source=tldrai",
+      "report": {
+        "tldr": "중국 AI 스타트업 Z.ai가 최상위 모델을 무료로 공개하면서도 연매출 10억달러에 근접하고 있다.",
+        "what": "매출의 상당 부분은 국영기업·금융기관 대상 온프레미스 배포와 빠르게 성장하는 클라우드 사업에서 나온다.",
+        "points": [
+          "Z.ai, 최상위 모델을 무료 공개하면서도 매출 10억달러 목전",
+          "매출의 상당 부분은 국영기업·금융기관 대상 온프레미스 배포",
+          "클라우드 사업도 빠르게 성장 중"
         ],
-        "action": "사내 AI 파이프라인에서 모델 티어를 단계별로 분리 적용해 비용 대비 품질을 재측정할 것."
+        "why": [
+          "오픈 모델 무료 배포가 오히려 기업용 배포·클라우드 매출을 견인하는 수익 모델로 자리잡고 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-moonshot-hk-ipo",
+      "title": "문샷AI, Kimi K3 흥행 이후 홍콩 IPO 추진",
+      "summary": "문샷AI가 6개월 내 홍콩거래소 상장을 계획하고 있다.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/moonshot-ai-plans-hong-kong-123000193.html?utm_source=tldrai",
+      "report": {
+        "tldr": "문샷AI가 Kimi K3 모델의 흥행에 힘입어 6개월 내 홍콩증권거래소 상장을 계획하고 있다.",
+        "what": null,
+        "points": [
+          "문샷AI, 홍콩거래소 상장 계획 발표",
+          "6개월 내 상장 목표",
+          "Kimi K3 모델의 흥행이 상장 추진의 배경"
+        ],
+        "why": [
+          "중국 AI 스타트업들이 모델 흥행을 발판 삼아 자본시장 조달에 속도를 내고 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-inference-chips-collateral-loan",
+      "title": "GPU 금융사들, 4억달러 대출 담보로 추론 전용 칩 활용",
+      "summary": "AI 추론 클라우드 스타트업 제너럴 컴퓨트가 추론 전용 칩을 담보로 4억달러를 조달했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/17/why-the-first-gpu-financiers-are-turning-to-inference-chips-in-a-400-million-deal/?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 추론 클라우드 스타트업 제너럴 컴퓨트가 추론 전용 칩을 담보로 4억달러 대출을 조달했다.",
+        "what": "기존에는 범용 GPU가 주요 담보였지만, 추론 수요가 늘면서 추론 특화 칩이 새로운 금융 담보 자산으로 부상하고 있다.",
+        "points": [
+          "제너럴 컴퓨트, 추론 전용 칩을 담보로 4억달러 대출 조달",
+          "기존 범용 GPU 담보 중심에서 추론 특화 칩으로 담보 자산 다변화",
+          "AI 추론 인프라 수요 증가가 배경"
+        ],
+        "why": [
+          "AI 인프라 파이낸싱 시장이 GPU 일변도에서 워크로드별 특화 칩으로 다변화되고 있다."
+        ]
       }
     }
   ]

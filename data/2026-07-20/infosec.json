@@ -7,351 +7,278 @@
   "items": [
     {
       "id": "infosec-wp2shell-wordpress-rce",
-      "title": "WP2Shell: 워드프레스 코어 사전 인증 RCE, 약 5억 사이트 노출",
-      "summary": "워드프레스 6.9.0~6.9.4 및 7.0.0~7.0.1 버전에서 인증 없이 원격 코드 실행이 가능한 취약점이 공개됐다. 전 세계 약 5억 개 설치 기반이 영향권이며 즉시 패치 또는 WAF 수준의 엔드포인트 차단이 권고된다.",
+      "title": "WP2Shell: 워드프레스 코어 사전인증 원격코드실행 취약점",
+      "summary": "약 5억개 사이트가 영향권에 있는 워드프레스 코어의 익명 공격 가능한 사전인증 RCE가 공개됐다.",
       "source": "Searchlight Cyber",
-      "url": "https://slcyber.io/research-center/wp2shell-pre-authentication-rce-in-wordpress-core/",
-      "originalDate": "2026-07-17",
-      "intel": {
-        "impact": "High",
-        "confidence": "94%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "WordPress Core · REST API · 웹 호스팅"
-      },
-      "related": [
-        "Cloudflare, 워드프레스 고위험 취약점 2건 WAF 룰 긴급 배포",
-        "미인증 REST API RCE와 연계된 SQL 인젝션 취약점 동시 공개",
-        "워드프레스 6.8 이상 전 버전 대상 자산 인벤토리 재점검 필요"
-      ],
+      "url": "https://slcyber.io/research-center/wp2shell-pre-authentication-rce-in-wordpress-core/?utm_source=tldrinfosec",
       "report": {
-        "tldr": "인증이 필요 없는 워드프레스 코어 RCE로, 사실상 웹의 상당 부분이 단일 취약점에 동시 노출됐다.",
-        "what": "Searchlight Cyber가 워드프레스 코어에서 사전 인증 원격 코드 실행 취약점 'WP2Shell'을 공개했다. 영향 버전은 6.9.0~6.9.4와 7.0.0~7.0.1이며, 공격자는 로그인 없이 특정 엔드포인트를 호출해 임의 코드를 실행할 수 있다.",
+        "tldr": "서치라이트 사이버가 플러그인 없는 표준 설치본에서도 익명 공격자가 악용할 수 있는 워드프레스 코어의 사전인증 RCE를 공개했다. 워드프레스 6.9.0~6.9.4, 7.0.0~7.0.1 버전을 사용하는 약 5억개 사이트가 영향을 받는다.",
+        "what": "연구진은 방어자들에게 패치 시간을 주기 위해 기술적 세부사항은 공개하지 않았지만, 공개 점검 도구인 wp2shell[.]com을 함께 배포했다.",
         "points": [
-          "영향 규모 약 5억 개 워드프레스 설치 — 단일 취약점 기준 최대급 노출 면적",
-          "사전 인증(pre-auth) 방식이라 계정 탈취나 권한 상승 단계 없이 즉시 악용 가능",
-          "Cloudflare가 같은 시점에 미인증 RCE와 SQL 인젝션 2건에 대한 WAF 보호를 배포",
-          "패치 적용이 어려운 환경은 해당 엔드포인트를 WAF에서 차단하는 임시 완화가 권고됨"
+          "워드프레스 6.9.0~6.9.4, 7.0.0~7.0.1 버전에서 사전인증 RCE 확인",
+          "플러그인 없는 표준 설치본에서도 익명 공격자가 악용 가능",
+          "약 5억개 사이트가 잠재적 영향권",
+          "연구진은 공개 점검 도구 wp2shell[.]com 배포, 기술 세부사항은 비공개"
         ],
         "why": [
-          "워드프레스는 전체 웹사이트의 약 40%를 구동해, 대량 자동화 스캔·웜 확산 위험이 매우 높다",
-          "사전 인증 RCE는 공개 직후 익스플로잇 무기화까지의 시간이 통상 수일 이내로 짧다",
-          "호스팅·에이전시·마케팅 사이트 등 보안 운영 인력이 없는 자산이 대거 포함돼 패치 지연이 구조적"
+          "관리자는 즉시 워드프레스 7.0.2(또는 6.9 브랜치는 6.9.5)로 업데이트해야 하며, 업데이트 전까지는 WAF 단에서 /wp-json/batch/v1 및 ?rest_route=/batch/v1에 대한 익명 접근을 차단해야 한다."
         ],
-        "context": "사전 인증 RCE란 공격자가 유효한 계정 없이도 서버에서 코드를 실행할 수 있는 취약점으로, CVSS 기준 최고 심각도에 해당한다. WAF(Web Application Firewall)는 패치 전 임시 완화 수단이지 근본 대응이 아니다.",
-        "action": "6.9.x·7.0.x 계열 워드프레스 자산을 즉시 인벤토리화해 패치 버전으로 올리고, 즉시 패치가 불가한 자산은 WAF 룰로 취약 엔드포인트를 차단한 뒤 웹셸·비정상 PHP 파일 생성 여부를 소급 점검할 것."
+        "action": "워드프레스 7.0.2(6.9 브랜치는 6.9.5)로 즉시 업데이트, 임시 조치로 WAF에서 /wp-json/batch/v1과 ?rest_route=/batch/v1 익명 접근 차단"
       }
     },
     {
       "id": "infosec-openssl-hollowbyte",
-      "title": "OpenSSL 'HollowByte', 11바이트 TLS 요청으로 서버 메모리 고갈",
-      "summary": "최소 크기의 TLS 핸드셰이크만으로 메모리를 소진시키는 OpenSSL 결함이 CVE 발급 없이 조용히 수정됐다. glibc 기반 NGINX 서버 등이 영향을 받는다.",
+      "title": "OpenSSL 'HollowByte' 결함, 11바이트 TLS 요청으로 서버 메모리 잠식",
+      "summary": "작은 TLS 핸드셰이크로 연결당 최대 131KB 메모리를 소모시켜 glibc 시스템에서 메모리가 재시작 전까지 묶이는 결함이다.",
       "source": "The Hacker News",
-      "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html",
-      "originalDate": "2026-07-17",
-      "intel": {
-        "impact": "High",
-        "confidence": "85%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "OpenSSL · NGINX · glibc"
-      },
+      "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html?utm_source=tldrinfosec",
       "report": {
-        "tldr": "11바이트짜리 요청 하나로 서버를 멈출 수 있는 결함이 CVE 없이 패치돼 추적 사각지대가 생겼다.",
-        "what": "OpenSSL에서 극소량의 TLS 핸드셰이크 요청으로 메모리 고갈을 유발하는 'HollowByte' 결함이 확인됐다. 공식 CVE 없이 조용히 수정돼 다수 조직이 영향 여부를 인지하지 못하고 있다.",
+        "tldr": "HollowByte는 공격자가 작은 TLS 핸드셰이크를 보내 OpenSSL이 연결당 최대 131KB를 할당하게 만들고, 이 메모리가 glibc 시스템에서 재시작 전까지 회수되지 않고 묶이게 하는 결함이다.",
+        "what": "OpenSSL은 6월 9일 여러 브랜치에서 CVE 없이 조용히 이를 수정해 스캐너가 이를 놓치기 쉽고, 다운스트림 백포트 추적도 어려운 상황이다. 옥타는 NGINX 서버에서 조각난 힙으로 수백 메가바이트가 손실된 사례를 보고했다.",
         "points": [
-          "공격 비용이 11바이트 수준으로 극히 낮아 대규모 서비스 거부에 악용될 소지",
-          "glibc 환경의 NGINX 서버가 대표적 영향 대상",
-          "CVE 미발급으로 취약점 스캐너·SBOM 기반 탐지에서 누락될 가능성이 큼"
+          "11바이트 수준의 작은 TLS 핸드셰이크로 연결당 최대 131KB 메모리 할당 유발",
+          "glibc 시스템에서 재시작 전까지 메모리가 회수되지 않고 묶임",
+          "OpenSSL이 6월 9일 CVE 없이 조용히 수정, 스캐너가 놓치기 쉬움",
+          "옥타, NGINX 서버에서 수백MB 메모리 손실 사례 보고"
         ],
         "why": [
-          "CVE 없는 조용한 패치는 자동화된 패치 관리 파이프라인을 우회해 장기 미조치 자산을 남긴다",
-          "TLS 종단은 거의 모든 웹 서비스의 최전선이라 가용성 영향이 즉각적"
+          "CVE 없이 조용히 패치된 취약점은 자동화된 취약점 스캐너망을 빠져나가기 쉬워 별도의 수동 추적이 필요하다."
         ],
-        "action": "OpenSSL 빌드 버전을 직접 확인해 최신 패치 반영 여부를 점검하고, CVE 기반이 아닌 버전 기반 인벤토리로 대응할 것."
+        "action": "OpenSSL을 6월 9일 이후 배포된 최신 패치 버전으로 업그레이드하고, NGINX 등 프런트엔드 서버의 메모리 사용 패턴을 모니터링"
       }
     },
     {
       "id": "infosec-abbott-cyber-incidents",
-      "title": "애보트, 갈취 주장 속 사이버 침해 2건 조사 중",
-      "summary": "애보트가 SSO 침해를 통한 레거시 시스템 무단 접근과 고객 포털 침해 등 별개의 2건을 확인했다. 수백만 건의 개인·의료 기록 탈취 주장이 제기됐다.",
-      "source": "Bleeping Computer",
-      "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/",
-      "originalDate": "2026-07-17",
-      "intel": {
-        "impact": "High",
-        "confidence": "80%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "SSO · 레거시 시스템 · 고객 포털"
-      },
+      "title": "애보트, 갈취 주장 속 사이버 침해 2건 조사",
+      "summary": "레거시 이그잭트 사이언시스 시스템 무단 접근과 랩센트럴 포털 침해 주장이 동시에 제기됐다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/?utm_source=tldrinfosec",
       "report": {
-        "tldr": "의료기기 대기업 애보트가 SSO 경유 침해와 고객 포털 침해를 동시에 조사 중이다.",
-        "what": "애보트가 레거시 시스템에 대한 SSO 기반 무단 접근과 고객 포털에 대한 별개 침해를 확인했다. 공격자 측은 수백만 건의 개인정보·의료기록 탈취를 주장하며 갈취를 시도하고 있다.",
+        "tldr": "샤이니헌터스가 애보트의 암 진단 부문을 유출 사이트에 게시한 뒤, 애보트는 레거시 이그잭트 사이언시스 시스템에 대한 무단 접근을 확인했다. 이 그룹은 6월 중순 비싱 공격으로 마이크로소프트 엔트라 SSO 계정을 탈취해 SSN 100만건 이상을 포함한 고객 개인정보 3000만건 이상, 수천만건의 의료기록·상담 노트를 훔쳤다고 주장한다.",
+        "what": "별개로 위협 행위자 ShadowByt3$는 7월 4일 탈취한 자격증명으로 애보트의 랩센트럴 고객 포털을 침해해 업무 문서를 유출했다고 주장했지만, 애보트는 해당 환경의 데이터가 민감하지 않다고 반박했다. 두 행위자 모두 아직 탈취 데이터를 공개하지 않았으며, 애보트는 사고 대응 체계를 가동하고 외부 보안 전문가를 투입, 양쪽 사건 모두 법 집행기관에 신고했다.",
         "points": [
-          "SSO 자격증명 침해가 레거시 시스템으로 횡적 확산된 전형적 경로",
-          "고객 포털 침해는 별개 사건으로 분류돼 공격 표면이 다중임을 시사",
-          "의료기록 포함 주장으로 HIPAA 등 규제 리스크가 병행"
+          "샤이니헌터스, 비싱으로 마이크로소프트 엔트라 SSO 계정 탈취 주장",
+          "SSN 100만건 이상 포함 고객 PII 3000만건 이상 탈취 주장",
+          "별도 행위자 ShadowByt3$, 랩센트럴 포털 침해 주장(애보트는 민감정보 아니라고 반박)",
+          "두 사건 모두 데이터 미공개 상태, 애보트는 사고대응·외부전문가 투입·법집행기관 신고 완료"
         ],
         "why": [
-          "SSO는 편의성과 침해 확산 반경이 동시에 큰 구조라 단일 침해가 전사 리스크로 전이된다",
-          "의료 데이터는 암시장 가치가 높아 갈취 압박이 장기화되는 경향"
-        ],
-        "action": "SSO 토큰·세션 전면 무효화와 레거시 시스템의 SSO 신뢰 관계 재검토를 병행할 것."
-      }
-    },
-    {
-      "id": "infosec-china-civic-apps-lottery",
-      "title": "중국 정부 앱, 공유 리워드 백엔드의 암호 분리 취약으로 추첨 위조 가능",
-      "summary": "중국 지자체 시민 앱들이 공용 SaaS 백엔드를 쓰면서 암호학적 분리가 약해, 포인트 조작과 추첨 위조를 대규모로 자동화할 수 있는 것으로 나타났다.",
-      "source": "Neurowinter",
-      "url": "https://neurowinter.com/security/2026/07/16/forging-the-government-lottery/",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "공용 SaaS 백엔드의 약한 테넌트 분리가 정부 앱의 보상 체계를 통째로 위조 가능하게 만들었다.",
-        "what": "중국의 다수 지자체 시민 앱이 동일한 SaaS 리워드 백엔드를 공유하면서 테넌트 간 암호학적 분리가 미흡한 것으로 분석됐다. 이를 통해 포인트 조작과 추첨 결과 위조를 스크립트로 자동화할 수 있다.",
-        "points": [
-          "다중 테넌트 SaaS에서 서명키·시크릿이 사실상 공유되는 구조적 결함",
-          "개별 앱이 아닌 백엔드 단위로 취약점이 전파되는 공급망형 리스크",
-          "금전적 가치가 있는 추첨·포인트가 대상이라 악용 유인이 명확"
-        ],
-        "why": [
-          "정부 서비스의 공용 SaaS 의존이 늘면서 단일 백엔드 결함이 국가 단위 신뢰 문제로 확대된다",
-          "테넌트 분리 실패는 국내 공공 SaaS 도입 검토 시에도 동일하게 검증해야 할 항목"
-        ],
-        "action": "공용 SaaS 도입 시 테넌트별 키 분리와 서버측 검증 여부를 계약·보안 요건에 명시할 것."
-      }
-    },
-    {
-      "id": "infosec-cobalt-strike-beacon-detection",
-      "title": "코발트 스트라이크 HTTP(S) 비컨, 단순 기법으로 탐지하기",
-      "summary": "코발트 스트라이크가 통신에 고정된 URI 집합을 쓰는 특성을 이용해, 소수의 고유 URI로만 저빈도 엔드포인트와 통신하는 내부 호스트를 찾아내는 헌팅 기법이 소개됐다.",
-      "source": "Blue Raven Academy",
-      "url": "https://academy.bluraven.io/blog/detecting-cobalt-strike-https-beacons-with-simple-method",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "고정 URI 패턴이라는 구조적 특성이 코발트 스트라이크 비컨의 신뢰도 높은 탐지 지문이 된다.",
-        "what": "코발트 스트라이크 비컨이 C2 통신에서 제한된 URI 집합만 사용하는 특성을 활용한 헌팅 방법이다. 내부 호스트가 저빈도(low-prevalence) 엔드포인트에 대해 1~2개의 고유 URI만으로 반복 통신하는 패턴을 찾는다.",
-        "points": [
-          "페이로드 복호화 없이 프록시·NetFlow 로그만으로 적용 가능한 저비용 탐지",
-          "URI 다양성(cardinality)과 목적지 희소성의 조합이 핵심 지표",
-          "정상 트래픽 대비 오탐을 낮추는 실무형 헌팅 쿼리 제시"
-        ],
-        "why": [
-          "코발트 스트라이크는 여전히 랜섬웨어 침투 단계의 표준 도구라 탐지 ROI가 높다",
-          "암호화 트래픽 환경에서도 메타데이터만으로 작동하는 탐지 로직이 필요"
-        ],
-        "action": "프록시 로그 기반으로 '목적지 희소성 × URI 저다양성' 헌팅 쿼리를 SIEM에 상시 등록할 것."
-      }
-    },
-    {
-      "id": "infosec-bind-link-edr-evasion",
-      "title": "Bind Link 악용: 윈도우 기능 하나로 EDR 무력화하는 세 가지 경로",
-      "summary": "bindflt.sys를 악용해 파일·프로세스 바인딩을 리다이렉트함으로써 EDR 센서와 AMSI, AppLocker를 우회하는 침해 후 기법 3종이 공개됐다. 로컬 관리자 권한이 전제된다.",
-      "source": "Bitdefender",
-      "url": "https://www.bitdefender.com/en-us/blog/businessinsights/bind-link-abuses-windows-feature-edr-evasion-technique",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "Medium",
-        "confidence": "82%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "Windows · EDR · AMSI · AppLocker"
-      },
-      "report": {
-        "tldr": "윈도우 정식 기능인 bind link가 EDR·AMSI·AppLocker를 동시에 눈멀게 하는 우회 통로로 쓰인다.",
-        "what": "Bitdefender가 bindflt.sys 드라이버의 바인드 링크 기능을 악용해 파일 및 프로세스 경로를 리다이렉트하는 3단계 EDR 우회 기법을 공개했다. 로컬 관리자 권한을 확보한 침해 후 단계에서 적용된다.",
-        "points": [
-          "정상 OS 기능을 사용하므로 악성 드라이버 로드 없이 탐지 회피가 가능",
-          "EDR 센서, AMSI 스캔, AppLocker 정책을 단계적으로 무력화",
-          "로컬 관리자 권한이 전제 조건이라 초기 침투보다는 지속성·은닉 단계에 해당"
-        ],
-        "why": [
-          "LOLBin 계열 기법은 시그니처 기반 탐지로는 잡기 어려워 행위 탐지 재설계가 필요",
-          "EDR 자체가 무력화되면 이후 모든 탐지 신뢰도가 붕괴되는 단일 실패점이 된다"
-        ],
-        "action": "bind link 생성 행위를 EDR 텔레메트리에서 별도 탐지 규칙으로 등록하고, 로컬 관리자 권한 최소화를 재점검할 것."
-      }
-    },
-    {
-      "id": "infosec-kudankulam-data-breach",
-      "title": "인도 최대 원전 쿠단쿨람 관련 문서, 서드파티 클라우드 침해로 유출",
-      "summary": "World Leaks 랜섬웨어 그룹이 서드파티 클라우드 서비스 침해를 통해 쿠단쿨람 원전의 비핵심 문서에 접근했다고 주장했다.",
-      "source": "Reuters",
-      "url": "https://www.reuters.com/world/india/files-relating-indias-largest-nuclear-power-plant-kudankulam-exposed-data-breach-2026-07-15/",
-      "originalDate": "2026-07-15",
-      "report": {
-        "tldr": "원전 자체가 아니라 서드파티 클라우드가 뚫리며 핵심 인프라 문서가 노출됐다.",
-        "what": "World Leaks 랜섬웨어 그룹이 인도 최대 원자력 발전소인 쿠단쿨람 관련 파일에 접근했다고 주장했다. 침해 경로는 원전 내부망이 아닌 서드파티 클라우드 서비스로 지목됐다.",
-        "points": [
-          "탈취 대상은 비핵심(non-critical) 문서로 알려졌으나 검증은 진행 중",
-          "OT/원자력 시설 자체가 아닌 협력사 SaaS가 침해 지점",
-          "국가 핵심 인프라에 대한 공급망 침해 사례가 누적되는 추세"
-        ],
-        "why": [
-          "핵심 인프라 보안이 내부망 방어만으로는 완결되지 않음을 재확인",
-          "협력사·클라우드 계약에서의 데이터 보관 범위 통제가 실질적 취약점"
-        ],
-        "action": "핵심 인프라 문서를 다루는 서드파티의 클라우드 저장 범위와 접근 통제를 계약 단위로 재감사할 것."
-      }
-    },
-    {
-      "id": "infosec-curl-llm-bug-report-pressure",
-      "title": "curl 프로젝트, LLM 생성 버그 리포트 4배 급증에 메인테이너 소진",
-      "summary": "curl 프로젝트가 2026년 LLM으로 작성된 버그 리포트가 4배 늘며 메인테이너의 시간과 정신적 여력이 고갈되고 있다고 밝혔다. 실제 취약점 발견도 늘었지만 검증 부담이 더 크게 증가했다.",
-      "source": "Daniel Haxx (curl)",
-      "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/",
-      "originalDate": "2026-05-26",
-      "report": {
-        "tldr": "AI가 만든 버그 리포트의 양적 폭증이 오픈소스 보안 유지보수의 병목이 되고 있다.",
-        "what": "curl 메인테이너 Daniel Stenberg가 2026년 들어 LLM 기반 버그·취약점 리포트가 4배 증가했다고 공개했다. 유효한 취약점 탐지도 늘었지만 대다수는 검증에 시간을 쓰게 만드는 저품질 리포트다.",
-        "points": [
-          "리포트 수 4배 증가에 비해 유효 취약점 비율은 그만큼 늘지 않음",
-          "검증 부담이 소수 메인테이너에게 집중돼 번아웃 위험",
-          "버그 바운티 인센티브가 AI 대량 생성과 결합해 왜곡 발생"
-        ],
-        "why": [
-          "curl은 사실상 모든 시스템에 포함된 핵심 의존성이라 유지보수 지속성이 곧 공급망 보안",
-          "AI 생성 리포트 급증은 모든 주요 오픈소스 프로젝트가 곧 직면할 공통 문제"
-        ],
-        "action": "사내 오픈소스 기여·바운티 정책에 AI 생성 리포트의 검증 책임과 최소 재현 요건을 명시할 것."
-      }
-    },
-    {
-      "id": "infosec-cheap-model-poisoning",
-      "title": "연구자, 100달러 미만으로 오픈웨이트 AI 모델 오염 시연",
-      "summary": "Katie Paxton-Fear가 소수의 학습 예제만으로 오픈웨이트 모델에 백도어와 데이터 유출 기능을 저비용·고속으로 주입할 수 있음을 시연했다. 탐지 가능성도 낮았다.",
-      "source": "The Register",
-      "url": "https://www.theregister.com/ai-and-ml/2026/07/16/researcher-poisons-open-weight-ai-model-for-under-100/5273880",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "High",
-        "confidence": "83%",
-        "owner": "Security Ops",
-        "status": "New",
-        "affectedSurface": "오픈웨이트 모델 · 파인튜닝 파이프라인"
-      },
-      "report": {
-        "tldr": "100달러면 오픈웨이트 모델에 탐지되지 않는 백도어를 심을 수 있다는 것이 실증됐다.",
-        "what": "보안 연구자 Katie Paxton-Fear가 100달러 미만의 비용으로 오픈웨이트 모델을 파인튜닝해 백도어와 데이터 탈취 동작을 주입하는 실험을 공개했다. 소량의 학습 예제만으로 충분했고 일반적 검증으로는 탐지가 어려웠다.",
-        "points": [
-          "공격 비용이 100달러 미만으로 진입 장벽이 사실상 사라짐",
-          "필요한 오염 샘플 수가 적어 대규모 데이터셋에 숨기기 쉬움",
-          "벤치마크 성능은 유지되므로 표준 평가로는 걸러지지 않음"
-        ],
-        "why": [
-          "기업의 오픈웨이트 모델 도입이 늘면서 모델 자체가 새로운 공급망 침투 경로가 된다",
-          "중국계 오픈 모델 채택 확산과 맞물려 출처 검증의 중요성이 커짐"
-        ],
-        "action": "외부 오픈웨이트 모델 도입 시 출처·체크섬 검증과 백도어 트리거 레드팀 테스트를 배포 전 게이트로 둘 것."
-      }
-    },
-    {
-      "id": "infosec-cocacola-fairlife-ransomware",
-      "title": "코카콜라, 랜섬웨어 공격으로 페어라이프 유제품 생산 중단",
-      "summary": "코카콜라가 자회사 페어라이프의 운영 시스템에 대한 랜섬웨어 공격 이후 미국 내 생산을 중단했다.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/",
-      "originalDate": "2026-07-16",
-      "report": {
-        "tldr": "IT 침해가 아니라 생산 라인 중단으로 직결된 OT 랜섬웨어 사례다.",
-        "what": "코카콜라가 자회사 페어라이프 유제품 공장의 운영 시스템이 랜섬웨어에 감염되면서 미국 내 생산을 일시 중단했다.",
-        "points": [
-          "정보 유출이 아닌 생산 가용성 자체가 직접 타격",
-          "식음료 제조업의 OT 환경이 랜섬웨어 표적으로 계속 부상",
-          "복구 기간에 따라 공급망·매출 영향이 확대될 소지"
-        ],
-        "why": [
-          "제조업에서 랜섬웨어의 비용은 몸값이 아니라 라인 정지 시간으로 계산된다",
-          "IT/OT 분리가 미흡한 환경에서 침해 반경이 물리 생산까지 도달"
-        ],
-        "action": "IT/OT 네트워크 분리와 생산 라인 단독 복구 시나리오의 실제 소요 시간을 검증할 것."
-      }
-    },
-    {
-      "id": "infosec-metamask-nk-contractor",
-      "title": "메타마스크 코드, 북한 연계 계약자에게 한 달간 노출",
-      "summary": "컨센시스가 3~4월 기간 북한 연계 계약자가 메타마스크 저장소에 기여해온 사실을 확인하고 접근을 차단, 릴리스를 중단했다.",
-      "source": "CryptoSlate",
-      "url": "https://cryptoslate.com/metamask-code-was-open-to-a-north-korea-linked-contractor-for-a-month-before-consensys-halted-releases/",
-      "originalDate": "2026-07-16",
-      "intel": {
-        "impact": "High",
-        "confidence": "80%",
-        "owner": "Security Ops",
-        "status": "Tracking",
-        "affectedSurface": "코드 저장소 · 개발자 채용 · 릴리스 파이프라인"
-      },
-      "report": {
-        "tldr": "위장 취업을 통한 소스코드 접근이 암호화폐 지갑의 릴리스 파이프라인까지 도달했다.",
-        "what": "컨센시스가 북한과 연계된 것으로 파악된 계약자가 3월 말부터 4월까지 메타마스크 저장소에 접근·기여해왔음을 확인했다. 접근 권한을 회수하고 릴리스를 일시 중단한 상태다.",
-        "points": [
-          "약 한 달간 소스 접근이 유지돼 코드 감사 범위가 광범위",
-          "북한 IT 인력의 위장 취업 패턴이 암호화폐 인프라로 지속 확대",
-          "지갑 소프트웨어 특성상 단일 커밋이 대규모 자금 탈취로 이어질 수 있음"
-        ],
-        "why": [
-          "개발자 신원 검증 실패가 곧 공급망 침해로 직결되는 전형적 사례",
-          "오픈소스 기여 모델과 제재 대상 인력 차단 요건이 구조적으로 충돌"
-        ],
-        "action": "외부 계약 개발자의 신원 검증 절차와 저장소 권한 부여 범위를 재점검하고, 해당 기간 커밋에 대한 소급 코드 감사를 수행할 것."
-      }
-    },
-    {
-      "id": "infosec-beacon-security-launch",
-      "title": "Beacon Security, 통합 보안 데이터 플랫폼 출시",
-      "summary": "여러 소스의 텔레메트리를 통합해 위협 탐지·대응을 일원화하는 보안 데이터 플랫폼이 공개됐다. AI 시스템 대상 공격 방어 기능도 포함한다.",
-      "source": "Beacon Security",
-      "url": "https://beacon.security/",
-      "originalDate": "2026-07-17",
-      "report": {
-        "tldr": "분산된 보안 텔레메트리를 한 계층으로 통합하려는 시도에 AI 공격 방어가 기본 탑재됐다.",
-        "what": "Beacon Security가 다중 소스 텔레메트리를 통합하는 보안 데이터 플랫폼을 출시했다. 전통적 위협 탐지·대응에 더해 AI 시스템을 겨냥한 공격 방어 기능을 포함한다.",
-        "points": [
-          "SIEM 대비 데이터 파이프라인 중심 아키텍처를 표방",
-          "AI 워크로드 공격 방어를 기본 기능으로 포함",
-          "텔레메트리 통합을 통한 탐지 커버리지 확대가 핵심 소구점"
-        ],
-        "why": [
-          "AI 워크로드가 늘면서 기존 보안 스택이 커버하지 못하는 탐지 공백이 생기고 있다"
+          "비싱을 통한 SSO 계정 탈취가 대규모 의료 데이터 유출의 진입점이 되고 있어 다단계인증만으로는 부족할 수 있음을 시사한다."
         ]
       }
     },
     {
-      "id": "infosec-guard-skills",
-      "title": "guard-skills: AI 생성 코드에 대한 2차 검토 게이트",
-      "summary": "AI가 생성한 코드·테스트·문서의 품질과 보안 문제를 잡아내는 5개의 검토용 스킬 모음이 공개됐다.",
-      "source": "GitHub",
-      "url": "https://github.com/amElnagdy/guard-skills",
-      "originalDate": "2026-07-17",
+      "id": "infosec-china-civic-apps-shared-backend",
+      "title": "중국 정부 앱들, 진짜 비밀 없는 공유 리워드 백엔드로 운영",
+      "summary": "지방정부·관영매체 앱들이 공개된 솔트와 HMAC 키를 사용해 포인트·추첨 시스템이 대규모로 위조 가능한 상태다.",
+      "source": "neurowinter.com",
+      "url": "https://neurowinter.com/security/2026/07/16/forging-the-government-lottery/?utm_source=tldrinfosec",
       "report": {
-        "tldr": "AI 코드 생성 속도에 맞춰 검토 단계를 자동화하려는 오픈소스 시도다.",
-        "what": "AI 생성 산출물에 대해 2차 검토 게이트 역할을 하는 5개의 가드 스킬 모음이다. 코드, 테스트, 문서를 대상으로 품질·보안 이슈를 점검한다.",
+        "tldr": "중국 지방정부와 관영매체 앱들이 공유 '인터랙티브 마케팅' SaaS 플랫폼에 의존하는데, 테넌트 구분은 사실상 client_id뿐이며 리워드 캠페인을 보호해야 할 서명 체계가 공개 솔트와 init 엔드포인트로 노출된 HMAC 키를 사용해 포인트·퀴즈·추첨이 대규모로 위조 가능한 상태다.",
+        "what": "농부(파머)들은 평문 스크립트로 기사읽기·퀴즈·경품 응모 같은 시민 앱 활동을 자동화하고, ddddocr로 캡차를 풀어 알리페이로 보상을 현금화한다. 일부 스크립트는 베이징시 사회서비스 퀴즈를 대상으로 아이플라이텍 스파크를 이용해 자동 정답을 입력해 가짜 참여와 추첨 응모를 만들어낸다.",
         "points": [
-          "생성과 검토를 분리해 자기 검토(self-review) 편향을 줄이는 구조",
-          "코드뿐 아니라 테스트·문서까지 검토 대상에 포함"
+          "지방정부·관영매체 앱, 공유 SaaS 백엔드에 client_id로만 테넌트 구분",
+          "리워드 서명 체계가 공개 솔트·노출된 HMAC 키 사용, 대규모 위조 가능",
+          "자동화 스크립트로 기사읽기·퀴즈·추첨 응모 대량 조작 및 알리페이 현금화",
+          "일부 스크립트는 AI(아이플라이텍 스파크)로 베이징시 퀴즈 자동 응답"
         ],
         "why": [
-          "AI 생성 코드량이 검토 역량을 초과하면서 자동화된 게이트의 필요성이 커지고 있다"
+          "공공 서비스 앱의 부실한 보안 설계가 시민 참여 지표 자체를 조작 가능하게 만들어 정책 데이터의 신뢰성을 훼손하고 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-bindflt-edr-evasion",
+      "title": "바인드 링크 악용: 윈도우 기능 하나로 EDR 무력화하는 여러 방법",
+      "summary": "비트디펜더 랩스가 bindflt.sys 미니필터 드라이버를 악용한 3가지 단계적 침해 후 기법을 공개했다.",
+      "source": "Bitdefender",
+      "url": "https://www.bitdefender.com/en-us/blog/businessinsights/bind-link-abuses-windows-feature-edr-evasion-technique?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "비트디펜더 랩스는 bindflt.sys 미니필터 드라이버를 악용하는 3가지 단계적 침해 후 기법을 문서화했다. 파일 바인딩은 신뢰된 DLL·아티팩트 경로를 하이재킹(AMSI, EDR 센서, 포렌식 도구 무력화)하고, 프로세스 바인딩은 신뢰된 실행파일을 다른 백킹 이미지로 리다이렉트하며, 사일로 바인딩은 바인드 링크를 윈도우 컨테이너 실로에 스코프해 악성코드가 그 안에서 실행되는 동안 AppLocker·윈도우 방화벽·Sysmon에는 깨끗한 파일로 보이게 만든다.",
+        "what": "테스트에서는 Invoke-Mimikatz가 실로 안에서 탐지되지 않고 실행됐다. 이 체인은 로컬 관리자 권한을 필요로 하며 위협 모델 측면에서 BYOVD와 유사하고, 도커 데스크톱의 docker-users에서 SYSTEM으로의 신규 권한상승 경로도 포함한다.",
+        "points": [
+          "bindflt.sys 미니필터 드라이버 악용한 3가지 단계적 기법(파일/프로세스/사일로 바인딩) 공개",
+          "AMSI, EDR 센서, 포렌식 도구, AppLocker, 윈도우 방화벽, Sysmon 우회 가능",
+          "테스트에서 Invoke-Mimikatz가 탐지 없이 실행됨",
+          "로컬 관리자 권한 필요, BYOVD와 유사한 위협 모델",
+          "도커 데스크톱 docker-users→SYSTEM 신규 권한상승 경로 포함"
+        ],
+        "why": [
+          "방어자는 프로세스 생성 콜백의 이미지 경로를 그대로 신뢰하지 말고 IoGetShadowFileInformation이나 PsReferenceProcessFilePointer로 실제 백킹 파일을 확인해야 하며, 지연 재오픈 시마다 아이덴티티를 재확인하고 활성 바인드 링크 매핑을 점검해야 한다."
+        ],
+        "action": "EDR/AV 벤더에 바인드 링크 해석이 검증되는지 확인, 프로세스 생성 콜백 이미지 경로 재검증, 활성 바인드 링크 매핑 점검"
+      }
+    },
+    {
+      "id": "infosec-cobalt-strike-beacon-detection",
+      "title": "단순한 방법으로 코발트 스트라이크 HTTP(S) 비콘 탐지하기",
+      "summary": "말리어블 C2 프로파일이 여러 URI를 정의해도 실제 비콘은 정적 GET·POST URI 하나씩만 사용한다는 점을 이용한다.",
+      "source": "Blue Raven Academy",
+      "url": "https://academy.bluraven.io/blog/detecting-cobalt-strike-https-beacons-with-simple-method?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "코발트 스트라이크의 말리어블 C2 프로파일은 http-get·http-post 블록에 여러 URI를 정의할 수 있게 하지만, 실제 각 비콘은 정적인 GET URI 하나와 POST URI 하나만 사용하며 이 둘이 동일할 수도 있다.",
+        "what": "이런 고정 선택은 탐지 포인트를 만든다. 방어자는 웹 프록시 로그에서 내부 호스트가 저빈도 도메인·IP와 하나 또는 두 개의 고유 URI만으로 통신하는 패턴을 찾아 잠재적 코발트 스트라이크 비콘 트래픽을 드러낼 수 있다.",
+        "points": [
+          "코발트 스트라이크 비콘, 실제로는 정적 GET/POST URI 하나씩만 사용",
+          "웹 프록시 로그에서 저빈도 도메인과 소수 고유 URI 패턴을 통해 탐지 가능",
+          "정교한 하드닝 기법은 아니며 헌팅용 휴리스틱으로 활용 권장"
+        ],
+        "why": [
+          "단순한 로그 패턴 분석만으로도 정교한 C2 프레임워크의 통신 흔적을 찾아낼 수 있다는 점을 보여준다."
+        ],
+        "action": "정상적인 저빈도 서비스 대비 오탐을 줄이도록 튜닝하면서 헌팅 휴리스틱으로 활용"
+      }
+    },
+    {
+      "id": "infosec-guard-skills-github",
+      "title": "guard-skills, AI 생성 코드용 2차 검토 게이트 공개",
+      "summary": "clean-code-guard 등 5개 가드 스킬이 AI 생성 코드·테스트·문서를 사후 검증한다.",
+      "source": "GitHub",
+      "url": "https://github.com/amElnagdy/guard-skills?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "guard-skills는 clean-code-guard, test-guard, docs-guard, wp-guard, woo-guard 등 5개의 집중형 가드 스킬을 패키징해, AI 생성 코드·테스트·문서에 대한 사전 코딩 어시스턴트가 아닌 2차 검토 게이트로 작동한다.",
+        "what": null,
+        "points": [
+          "5개 가드 스킬(clean-code-guard, test-guard, docs-guard, wp-guard, woo-guard) 제공",
+          "AI 생성 코드·테스트·문서에 대한 사후(2차) 검토 게이트로 동작",
+          "사전 코딩 어시스턴트가 아닌 검증 단계에 특화"
+        ],
+        "why": [
+          "AI 생성 코드가 늘어나면서 생성 이후 검증 계층에 특화된 도구 수요가 커지고 있음을 보여준다."
         ]
       }
     },
     {
       "id": "infosec-sighthound-scanner",
-      "title": "Sighthound: Tree-sitter 기반 러스트 취약점 스캐너",
-      "summary": "Tree-sitter 파싱을 사용해 명령어 인젝션, SQL 인젝션, XSS 등을 탐지하는 오픈소스 고속 취약점 스캐너다.",
+      "title": "Sighthound, 러스트 기반 오픈소스 소스코드 취약점 스캐너",
+      "summary": "Tree-sitter 파싱과 RON 규칙으로 커맨드 인젝션·SQLi·XSS 등을 탐지한다.",
       "source": "GitHub",
-      "url": "https://github.com/Corgea/Sighthound/",
-      "originalDate": "2026-07-17",
+      "url": "https://github.com/Corgea/Sighthound/?utm_source=tldrinfosec",
       "report": {
-        "tldr": "러스트와 Tree-sitter 조합으로 속도를 끌어올린 오픈소스 SAST 도구다.",
-        "what": "Corgea가 공개한 Sighthound는 Tree-sitter 파싱을 활용해 명령어 인젝션, SQL 인젝션, XSS 등 주요 취약점 패턴을 탐지하는 러스트 기반 스캐너다.",
+        "tldr": "Sighthound는 러스트로 만든 빠른 오픈소스 소스코드 취약점 스캐너다. Tree-sitter 파싱과 RON 규칙을 사용해 커맨드 인젝션, SQL 인젝션, XSS 등을 모든 내장 규칙과 함께 탐지한다.",
+        "what": null,
         "points": [
-          "Tree-sitter 기반 구문 분석으로 정규식 방식 대비 오탐 감소",
-          "러스트 구현으로 CI 파이프라인 삽입에 유리한 실행 속도"
+          "러스트 기반 오픈소스 소스코드 취약점 스캐너",
+          "Tree-sitter 파싱 + RON 규칙 엔진 사용",
+          "커맨드 인젝션·SQL 인젝션·XSS 등 다양한 취약점 유형 탐지"
         ],
         "why": [
-          "AI 생성 코드 증가로 CI 단계의 저비용 정적 분석 수요가 늘고 있다"
+          "빠른 성능의 오픈소스 정적분석 도구가 늘면서 상용 SAST 도구의 대안이 확대되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-beacon-security-launch",
+      "title": "비컨 시큐리티, 통합 보안 데이터 플랫폼 출시",
+      "summary": "여러 소스의 텔레메트리를 하나의 컨텍스트 레이어로 병합해 AI 시스템 공격 탐지까지 지원한다.",
+      "source": "Beacon Security",
+      "url": "https://beacon.security/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "비컨 시큐리티는 여러 소스의 텔레메트리를 하나의 컨텍스트 레이어로 병합하는 보안 데이터 플랫폼을 출시했다. 자동화된 위협 탐지와 사람 주도 조사·대응 워크플로를 모두 지원한다.",
+        "what": "AI 시스템에 대한 공격과 신흥 사이버 기법 탐지도 포함한다.",
+        "points": [
+          "여러 텔레메트리 소스를 단일 컨텍스트 레이어로 통합",
+          "자동화 및 사람 주도 위협 탐지·조사·대응 워크플로 지원",
+          "AI 시스템 대상 공격과 신흥 사이버 기법 탐지 포함"
+        ],
+        "why": [
+          "AI 시스템을 겨냥한 공격이 늘면서 이를 특화 탐지하는 보안 플랫폼이 속속 등장하고 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-poisoned-open-weight-model-100dollars",
+      "title": "100달러 미만으로 오픈 웨이트 AI 모델에 백도어 심기",
+      "summary": "단 10개의 학습 예제만으로 코딩 모델을 RCE 버그를 심는 백도어로 조작할 수 있음을 실증했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/07/16/researcher-poisons-open-weight-ai-model-for-under-100/5273880?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "연구자 케이티 팩스턴-피어가 오픈 웨이트 코딩 모델을 얼마나 저렴하고 빠르게 파인튜닝해 요청 시 RCE 버그를 내뿜는 백도어 시스템으로 만들 수 있는지 보여줬다. 단 10개의 학습 예제만으로 가능했다.",
+        "what": "또 다른 테스트 모델은 신약 개발 워크플로에서 사용될 때 send_email 도구를 통해 조용히 데이터를 유출했다. 모델 가중치가 관찰이나 검증이 거의 불가능한 지속적인 내부자가 될 수 있음을 보여준다.",
+        "points": [
+          "단 10개 학습 예제, 100달러 미만 비용으로 오픈 웨이트 모델에 백도어 삽입 성공",
+          "요청 시 RCE 버그를 생성하는 코딩 모델로 조작",
+          "별도 테스트 모델은 신약 개발 워크플로에서 send_email 도구로 데이터 조용히 유출",
+          "관찰·검증이 거의 불가능한 '지속적 내부자'가 될 위험"
+        ],
+        "why": [
+          "오픈 웨이트 모델의 공급망 신뢰 문제가 매우 저렴한 비용으로도 심각하게 악용될 수 있음을 실증한 사례다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-curl-llm-bug-report-pressure",
+      "title": "curl 프로젝트, LLM 생성 버그 리포트 폭증으로 몸살",
+      "summary": "2026년 제출량이 2024년 대비 4배, 2025년의 2배로 급증했다.",
+      "source": "daniel.haxx.se",
+      "url": "https://daniel.haxx.se/blog/2026/05/26/the-pressure/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "curl 프로젝트가 최근 몇 년간 LLM이 생성한 버그 리포트의 폭증에 시달리고 있으며, 2026년 제출량은 2024년 대비 4배, 2025년의 2배에 달한다.",
+        "what": "더 많은 버그를 찾아내는 것은 좋은 일이지만, 이는 팀의 워라밸과 정신건강에 부정적 영향을 끼쳤다. curl 프로젝트는 이 폭풍을 견뎌낼 것이지만, 프로젝트에 의존하는 기업 중 실제로 기여하는 곳은 소수에 불과하다.",
+        "points": [
+          "2026년 LLM 생성 버그 리포트, 2024년 대비 4배·2025년 대비 2배 증가",
+          "실제 버그 발견 증가라는 긍정적 측면도 있지만 팀 워라밸·정신건강에 부정적",
+          "curl에 의존하는 기업 중 실제 기여 기업은 소수"
+        ],
+        "why": [
+          "AI 생성 취약점 리포트가 늘면서 오픈소스 유지보수자의 트리아지 부담이 새로운 형태의 위기로 떠오르고 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-india-nuclear-plant-breach",
+      "title": "인도 최대 원전 관련 파일, 데이터 침해로 노출",
+      "summary": "월드 리크스 랜섬웨어 그룹이 쿠단쿨람 원전 관련 파일 유출을 주장했다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/india/files-relating-indias-largest-nuclear-power-plant-kudankulam-exposed-data-breach-2026-07-15/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "월드 리크스 랜섬웨어 그룹이 쿠단쿨람 원전 관련 파일을 유출했다고 주장했다. 이 발전소의 한 계약업체는 제3자 클라우드 서비스 제공업체를 통한 부분적 데이터 침해가 있었다고 밝혔다.",
+        "what": "유출된 파일에 원전 핵심 시스템 데이터는 포함되지 않았지만, 냉각 시스템 정보, 설계도, 보험 문서 등은 포함돼 있다.",
+        "points": [
+          "월드 리크스 랜섬웨어 그룹, 쿠단쿨람 원전 관련 파일 유출 주장",
+          "계약업체가 제3자 클라우드 서비스 통한 부분적 침해 확인",
+          "원전 핵심 시스템 데이터는 미포함",
+          "냉각 시스템 정보·설계도·보험 문서 등은 포함"
+        ],
+        "why": [
+          "핵심 기반시설의 3자 공급망을 통한 침해가 원자력 시설처럼 민감한 영역에서도 반복되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-coca-cola-fairlife-ransomware",
+      "title": "코카콜라, 랜섬웨어 공격으로 페어라이프 유제품 생산 중단",
+      "summary": "생산 시스템이 타격을 받아 미국 내 운영이 일시 중단됐다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/16/coca-cola-suspended-production-at-its-fairlife-dairy-after-a-ransomware-attack/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "코카콜라가 자사 페어라이프 유제품 사업부에 대한 랜섬웨어 공격을 보고했다. 생산 시스템이 타격을 입어 미국 내 운영이 일시적으로 중단됐다.",
+        "what": null,
+        "points": [
+          "코카콜라 페어라이프 유제품 사업부, 랜섬웨어 공격 확인",
+          "생산 시스템 타격으로 미국 내 운영 일시 중단"
+        ],
+        "why": [
+          "제조업 OT 환경에 대한 랜섬웨어 공격이 실물 생산 중단으로 직결되는 사례가 계속 늘고 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-metamask-north-korea-contractor",
+      "title": "메타마스크 코드, 북한 연계 계약자에 한달간 노출",
+      "summary": "컨센시스가 4월 접근 권한을 차단하고 릴리스를 중단하기 전까지 3월부터 기여가 이뤄졌다.",
+      "source": "CryptoSlate",
+      "url": "https://cryptoslate.com/metamask-code-was-open-to-a-north-korea-linked-contractor-for-a-month-before-consensys-halted-releases/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "북한과 연계된 것으로 이후 밝혀진 제3자 계약자가 3월 9일부터 메타마스크 코드에 기여했으며, 컨센시스가 4월 접근 권한을 종료하고 릴리스를 중단할 때까지 이어졌다.",
+        "what": null,
+        "points": [
+          "북한 연계 계약자, 3월 9일부터 메타마스크 코드에 기여",
+          "컨센시스가 4월 접근 권한 종료 및 릴리스 일시 중단",
+          "약 한 달간 노출 기간 발생"
+        ],
+        "why": [
+          "대형 오픈소스 크립토 지갑 프로젝트조차 공급망 인력 검증에서 국가 배후 위협 행위자의 침투를 완전히 막지 못했다."
         ]
       }
     }
