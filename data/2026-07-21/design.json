@@ -1,0 +1,274 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-x-android-rebuild",
+      "title": "X, 1년여 노력 끝에 완전히 새로 만든 안드로이드 앱 재출시",
+      "summary": "X가 로딩·스크롤·알림·안정성을 위해 안드로이드 앱을 처음부터 다시 만들어 회사 역사상 최대 규모 엔지니어링 프로젝트 중 하나로 꼽힌다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+      "report": {
+        "tldr": "X가 로딩·스크롤·알림·안정성 개선을 위해 안드로이드 앱을 완전히 재구축해 출시했으며, 이는 회사 역사상 최대 규모 엔지니어링 프로젝트 중 하나로 평가된다.",
+        "what": "구형 기기 지원, Spaces, 동영상 편집, 동영상 답글, 캐시태그, 커스텀 타임라인 등 일부 기능은 아직 미완성 상태로 남아 있다.",
+        "points": [
+          "안드로이드 앱을 처음부터 완전히 재구축",
+          "로딩·스크롤·알림·안정성 개선에 초점",
+          "회사 역사상 최대 규모 엔지니어링 프로젝트 중 하나",
+          "구형 기기 지원·Spaces·동영상 편집 등 일부 기능은 아직 미완성"
+        ],
+        "why": [
+          "대형 소셜 플랫폼이 레거시 기술부채를 감수하고 전면 재작성을 택한 드문 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-apple-tops-nvidia",
+      "title": "애플, 잠시 엔비디아 제치고 세계 최고 가치 기업 등극",
+      "summary": "AI 반도체주 매도세 속에 애플이 엔비디아를 잠시 앞질렀다.",
+      "source": "PetaPixel",
+      "url": "https://petapixel.com/2026/07/20/apple-briefly-became-the-worlds-most-valuable-company-toppling-nvidia/",
+      "report": {
+        "tldr": "AI 인프라 투자 수익성에 대한 회의론이 반영된 반도체주 매도세 속에 애플이 엔비디아를 잠시 제치고 세계 최고 가치 기업에 올랐다.",
+        "what": "애플은 AI 인프라에 상대적으로 적게 투자했음에도 25억대 기기 설치 기반과 최근 호평받은 개편된 시리(Siri)를 바탕으로 AI 기능을 수익화할 유리한 위치에 있다는 평가다.",
+        "points": [
+          "AI 반도체 스톡 매도세 속 애플이 엔비디아를 일시 추월",
+          "AI 인프라 지출 대비 수익성에 대한 시장 회의론이 배경",
+          "애플은 25억대 기기 설치 기반 보유",
+          "개편된 시리에 대한 긍정적 반응이 AI 기능 수익화 기대를 높임"
+        ],
+        "why": [
+          "AI 붐의 수혜가 반드시 인프라 투자 규모에 비례하지 않을 수 있음을 보여주는 시장 신호"
+        ]
+      }
+    },
+    {
+      "id": "design-agentio-meta-creator-ads",
+      "title": "Agentio의 AI 기반 크리에이터 광고, 메타 페이스북·인스타그램에 진출",
+      "summary": "유튜브 중심이던 Agentio가 메타와 파트너십을 맺어 페이스북·인스타그램으로 확장한다.",
+      "source": "Tubefilter",
+      "url": "https://www.tubefilter.com/2026/07/14/agentio-creator-advertising-marketing-meta-facebook-instagram/",
+      "report": {
+        "tldr": "유튜브 중심 크리에이터 광고 플랫폼 Agentio가 메타와 파트너십을 맺어 페이스북·인스타그램으로 서비스를 확장한다.",
+        "what": "베타 테스트에서 Agentio를 사용하지 않은 크리에이터 광고 대비 ROAS(광고 지출 대비 수익)가 81% 높았고 클릭률(CTR)은 89% 높게 나타났다.",
+        "points": [
+          "유튜브 중심이던 Agentio, 메타와 파트너십으로 FB·IG 진출",
+          "베타 테스트에서 ROAS 81% 상승",
+          "CTR 89% 상승"
+        ],
+        "why": [
+          "AI 기반 크리에이터 광고 최적화 도구가 플랫폼 간 확장을 이루며 성과를 입증하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "design-product-quality-craft-ai",
+      "title": "AI 시대의 제품 품질, '만듦새(Craft)'에 대한 공동의 책임",
+      "summary": "AI가 '아무것도 없음'과 '적당함' 사이의 격차를 없애면서 만듦새가 새로운 차별화 요소가 된다.",
+      "source": "Slack Design",
+      "url": "https://slack.design/articles/product-quality-a-shared-commitment-to-craft-in-the-wake-of-ai/",
+      "report": {
+        "tldr": "AI가 '아무것도 없음'과 '적당한 결과물' 사이의 격차를 붕괴시키면서, 실용성(Utility)·사용성(Usability)·감성(Feel)으로 구성된 만듦새(craft)가 새로운 차별화 요소로 떠오른다.",
+        "what": "이 만듦새는 디자인팀만의 책임이 아니라 제품을 만드는 팀 전체가 공동으로 소유해야 한다는 주장이다.",
+        "points": [
+          "AI로 인해 '아무것도 없음'과 '적당함' 사이 격차가 붕괴",
+          "실용성·사용성·감성으로 구성된 만듦새가 새 차별화 요소",
+          "만듦새는 디자인팀이 아닌 전체 팀의 공동 책임"
+        ],
+        "why": [
+          "AI로 생산 장벽이 낮아질수록 세부적인 품질과 감성적 완성도가 경쟁력의 핵심이 된다는 시사점"
+        ]
+      }
+    },
+    {
+      "id": "design-future-of-design-understanding-people",
+      "title": "디자인의 미래는 '사람에 대한 이해'에서 시작해야 한다",
+      "summary": "UX는 눈에 보이는 인터페이스를 넘어 신뢰·심리·맥락에 의해 형성된다.",
+      "source": "UX4",
+      "url": "https://ux4dotcom.blogspot.com/2026/07/user-experience-never-ended-at-screen.html",
+      "report": {
+        "tldr": "사용자 경험은 눈에 보이는 인터페이스를 넘어 신뢰·심리·맥락에 의해 형성되며, AI 시대에는 디자이너가 도구 숙련보다 사람에 대한 이해를 통해 신뢰를 구축하는 역할이 더 중요해진다.",
+        "what": "이 글은 AI가 인터페이스 제작을 쉽게 만들수록, 오히려 사용자와의 신뢰를 설계하는 능력이 디자이너의 핵심 경쟁력이 된다고 주장한다.",
+        "points": [
+          "UX는 신뢰·심리·맥락 등 비가시적 요소에 의해 형성됨",
+          "AI가 인터페이스 제작 장벽을 낮출수록 신뢰 설계의 중요성 증가",
+          "도구 숙련보다 사람에 대한 이해가 핵심 경쟁력"
+        ],
+        "why": [
+          "AI 시대 디자이너의 역할이 도구 사용에서 사람에 대한 근본적 이해로 이동하고 있음을 강조한다"
+        ]
+      }
+    },
+    {
+      "id": "design-accessibility-not-a-checklist",
+      "title": "접근성은 체크리스트가 아니라 당신이 회피해온 디자인 결정이다",
+      "summary": "시각장애인 사용자가 90초면 될 항공권 예약에 11분이 걸린 사례를 통해 접근성을 핵심 우선순위로 다뤄야 한다고 주장한다.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/CC81fd",
+      "report": {
+        "tldr": "한 디자이너가 시각장애인 사용자가 90초면 끝날 항공권 예약에 11분이나 걸린 사례를 소개하며, 접근성은 나중에 확인하는 체크리스트가 아니라 핵심 디자인 우선순위여야 한다고 주장한다.",
+        "what": "실제 보조기술 사용자와 함께 테스트하지 않으면 이런 격차를 발견할 수 없다는 점이 핵심 논지다.",
+        "points": [
+          "시각장애인 사용자의 90초짜리 작업이 11분 걸린 실제 사례",
+          "접근성은 후순위 체크리스트가 아닌 핵심 디자인 결정이어야 함",
+          "실제 보조기술 사용자와의 테스트가 필수"
+        ],
+        "why": [
+          "접근성을 나중에 손보는 항목으로 취급하는 관행이 실사용자에게 실질적 피해를 준다는 경고"
+        ]
+      }
+    },
+    {
+      "id": "design-ai-skills-product-designers",
+      "title": "제품 디자이너를 위한 AI 스킬",
+      "summary": "Layers가 AI와 함께·나란히 작업할 때 거치는 제품 디자인 결정의 7개 레이어를 안내한다.",
+      "source": "Layers (website)",
+      "url": "https://layers.jamiemill.com/",
+      "report": {
+        "tldr": "Layers는 AI를 지시하거나 AI와 나란히 작업할 때 거쳐야 할 제품 디자인 결정의 7개 레이어를 단계별로 안내하는 자료다.",
+        "what": "AI 협업 시대의 디자이너가 어떤 층위에서 판단을 내려야 하는지 구조화해 제시한다.",
+        "points": [
+          "AI와 협업하는 제품 디자인 결정을 7개 레이어로 구조화",
+          "AI를 지시하는 역할과 나란히 작업하는 역할 모두 다룸"
+        ],
+        "why": [
+          "AI 협업이 일상화되는 디자인 워크플로우에서 실무자에게 유용한 프레임워크"
+        ]
+      }
+    },
+    {
+      "id": "design-datatype-variable-font",
+      "title": "Datatype, 텍스트를 인라인 차트로 바꾸는 가변 폰트",
+      "summary": "JS·이미지·렌더링 라이브러리 없이 텍스트 표현을 인라인 차트로 전환하는 OpenType 가변 폰트다.",
+      "source": "GitHub Pages",
+      "url": "https://franktisellano.github.io/datatype/",
+      "report": {
+        "tldr": "Datatype은 자바스크립트나 이미지, 렌더링 라이브러리 없이 텍스트 표현만으로 인라인 차트를 만들어내는 OpenType 가변 폰트다.",
+        "what": "폰트 자체의 가변 축(variable axis)을 활용해 숫자나 텍스트가 시각적 차트로 표현되도록 설계됐다.",
+        "points": [
+          "OpenType 가변 폰트 기반 인라인 차트 구현",
+          "JS·이미지·렌더링 라이브러리 불필요",
+          "텍스트만으로 데이터 시각화 가능"
+        ],
+        "why": [
+          "타이포그래피 기술만으로 데이터 시각화를 구현하는 실험적 접근이 흥미롭다"
+        ]
+      }
+    },
+    {
+      "id": "design-gooseworks-remix-ads",
+      "title": "Gooseworks, 검증된 광고 소재를 브랜드에 맞게 리믹스",
+      "summary": "검증된 광고 크리에이티브를 골라 브랜드를 입히면 몇 분 만에 온브랜드 영상·스틸 광고가 나온다.",
+      "source": "Gooseworks (website)",
+      "url": "https://gooseworks.ai/ads",
+      "report": {
+        "tldr": "Gooseworks는 이미 검증된 광고 크리에이티브를 탐색해 브랜드를 입히면 몇 분 만에 온브랜드 영상·스틸 광고를 만들어주는 서비스다.",
+        "what": "광고 제작 시간을 크게 단축시키는 것이 핵심 가치 제안이다.",
+        "points": [
+          "검증된 광고 크리에이티브 라이브러리 제공",
+          "브랜드 적용 후 몇 분 만에 영상·스틸 광고 생성"
+        ],
+        "why": [
+          "AI 기반 광고 제작 자동화 도구가 빠르게 실용화되고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "design-against-federation",
+      "title": "디자인 시스템 연방화(Federation)에 반대하며",
+      "summary": "연방형 디자인 시스템 거버넌스는 낮은 기여율과 분산된 책임 소재 문제로 선호도가 떨어지고 있다.",
+      "source": "Karolina Szczur",
+      "url": "https://karolinaszczur.com/journal/against-design-system-federation/",
+      "report": {
+        "tldr": "연방형 디자인 시스템 거버넌스는 팀의 13%만 채택할 만큼 선호도가 낮아지고 있으며, 낮은 기여율과 분산된 책임 소재가 원인으로 지목된다.",
+        "what": "저자는 연방형 모델이 하이브리드 모델의 한 부분으로 쓰일 때 가장 효과적이라고 주장한다.",
+        "points": [
+          "연방형 디자인 시스템 거버넌스, 채택 팀은 13%에 불과",
+          "낮은 기여율과 분산된 책임 소재가 주요 문제",
+          "하이브리드 모델의 일부로 활용할 때 가장 효과적"
+        ],
+        "why": [
+          "조직 규모가 커질수록 디자인 시스템 거버넌스 방식의 재검토가 필요함을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "design-airpods-mocked-then-loved",
+      "title": "'조롱받다가 사랑받은' 에어팟 효과",
+      "summary": "에어팟과 애플워치는 초기 조롱을 실용성으로 극복했지만, 소문 속 카메라 에어팟은 디자인 회의론보다 프라이버시·신뢰 문제에 직면할 수 있다.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/ot1txc",
+      "report": {
+        "tldr": "에어팟과 애플워치는 출시 초기 조롱을 실용성으로 극복해 사랑받는 제품이 됐지만, 소문난 카메라 탑재 에어팟은 디자인적 회의론보다 프라이버시·신뢰 문제라는 다른 종류의 장벽에 부딪힐 수 있다.",
+        "what": "이 글은 하드웨어 혁신이 대중의 수용을 얻는 패턴과, 카메라가 추가될 경우 발생할 신뢰 이슈를 대비시킨다.",
+        "points": [
+          "에어팟·애플워치, 초기 조롱을 실용성으로 극복한 사례",
+          "소문 속 카메라 탑재 에어팟은 프라이버시·신뢰 문제에 직면할 가능성",
+          "디자인 회의론과 프라이버시 신뢰 문제는 성격이 다른 장벽"
+        ],
+        "why": [
+          "웨어러블에 카메라가 추가될 때는 디자인보다 프라이버시 신뢰 구축이 더 큰 과제가 될 수 있음을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "design-add-value-career",
+      "title": "당신이 어디서 가치를 더할 수 있는지 자문하라",
+      "summary": "디자이너는 사내 업무를 과소평가하지 말고 해결한 비즈니스 문제·제약·성과를 포트폴리오에 드러내야 한다.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/creative-career-conundrums-if-you-could-jobs-advice-200726",
+      "report": {
+        "tldr": "디자이너는 자신의 사내(in-house) 업무를 과소평가하는 대신, 해결한 비즈니스 문제·제약·성과를 명확히 드러내는 방식으로 커리어를 포지셔닝해야 한다.",
+        "what": "포트폴리오는 완성 후 한번에 만드는 것이 아니라 점진적으로 업데이트해 나가는 것이 권장된다.",
+        "points": [
+          "사내 업무를 과소평가하지 말고 비즈니스 성과로 재구성해 제시",
+          "해결한 문제·제약·결과를 포트폴리오에 명시",
+          "포트폴리오는 점진적으로 반복 업데이트"
+        ],
+        "why": [
+          "디자이너의 커리어 성장에는 결과물 자체보다 그것을 어떻게 서사화하는지가 중요하다는 조언"
+        ]
+      }
+    },
+    {
+      "id": "design-ai-component-audit",
+      "title": "AI가 수백 개 컴포넌트를 정리하는 데 어떻게 도움을 줬나",
+      "summary": "영국 고등교육기관이 고정된 스펙 대신 대화형 반복 작업을 통해 AI 지원 컴포넌트 감사 도구를 구축했다.",
+      "source": "Clearleft",
+      "url": "https://clearleft.com/thinking/how-ai-helped-us-make-sense-of-hundreds-of-components",
+      "report": {
+        "tldr": "영국의 한 고등교육기관이 고정된 스펙을 따르는 대신 AI와의 대화형 반복 작업을 통해 수백 개 컴포넌트를 정리하는 감사 도구를 구축한 사례다.",
+        "what": "이 접근은 요구사항을 사전에 완벽히 정의하지 않고도 AI와의 반복적 대화를 통해 실용적인 결과물을 만들어낼 수 있음을 보여준다.",
+        "points": [
+          "영국 고등교육기관, 수백 개 컴포넌트 감사 도구를 AI로 구축",
+          "고정 스펙이 아닌 대화형 반복 작업 방식 채택"
+        ],
+        "why": [
+          "AI 도구 활용이 엄격한 사전 기획 없이도 실용적 시스템 구축을 가능케 한다는 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-glaze-mac-crt-effect",
+      "title": "모든 창을 CRT 향수 화면이나 게임보이로 바꿔주는 맥 앱",
+      "summary": "Glaze는 50개 이상의 실시간 시각효과와 함께 생산성·접근성 모드도 제공하는 macOS 앱이다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/computing/this-mac-app-can-turn-every-window-into-a-crt-fever-dream-or-a-nostalgic-game-boy/",
+      "report": {
+        "tldr": "Glaze는 맥의 모든 창을 CRT 화면이나 향수 어린 게임보이 스타일로 바꿔주는 실시간 시각효과 50개 이상을 제공하는 앱이다.",
+        "what": "단순한 미학적 효과 외에도 생산성·접근성 모드를 함께 제공한다.",
+        "points": [
+          "실시간 시각효과 50개 이상 제공",
+          "CRT·게임보이 등 레트로 스타일 재현",
+          "생산성·접근성 모드도 함께 지원"
+        ],
+        "why": [
+          "레트로 미학에 대한 수요가 유틸리티 앱 시장에서도 꾸준함을 보여준다"
+        ]
+      }
+    }
+  ]
+}

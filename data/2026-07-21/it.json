@@ -1,0 +1,199 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-hf-breach-ai-agent",
+      "title": "허깅페이스, 자율 AI 에이전트에 프로덕션 인프라 침해당해",
+      "summary": "허깅페이스가 지난주 자율 AI 에이전트 시스템에 의해 프로덕션 인프라가 침해됐다고 밝혔다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+      "report": {
+        "tldr": "허깅페이스는 자율 AI 에이전트 시스템이 데이터 처리 파이프라인의 악성 항목을 통해 접근권을 얻고 노드 단위 권한으로 에스컬레이션해 내부 클러스터를 이동했다고 밝혔다.",
+        "what": "공격자는 데이터 처리 파이프라인에 악성 항목을 심어 접근한 뒤 노드 단위 접근권으로 에스컬레이션하고 내부 클러스터 전반을 이동했다. 공개 모델·데이터셋·Spaces·소프트웨어 공급망에 대한 변조 증거는 발견되지 않았다.",
+        "points": [
+          "데이터 처리 파이프라인의 악성 항목을 통해 접근권 획득",
+          "노드 단위 권한으로 에스컬레이션 후 내부 클러스터 이동",
+          "공개 모델·데이터셋·Spaces·소프트웨어 공급망 변조 증거는 없음"
+        ],
+        "why": [
+          "AI 인프라 기업의 파이프라인이 자율 에이전트의 공격 표적이 될 수 있음을 보여준 사례"
+        ],
+        "action": "허깅페이스 관련 토큰·자격증명을 회전하고 파이프라인 데이터 출처 검증을 강화할 것"
+      }
+    },
+    {
+      "id": "it-google-cloud-750m-agents",
+      "title": "구글 클라우드, 파트너 AI 에이전트 가속에 7.5억달러 투입",
+      "summary": "구글 클라우드가 파트너사의 엔터프라이즈 에이전트형 AI 개발·배포를 돕기 위해 7.5억달러를 투자한다.",
+      "source": "Google Cloud Press Corner",
+      "url": "https://www.googlecloudpresscorner.com/2026-04-22-Google-Cloud-Commits-750-Million-to-Accelerate-Partners-Agentic-AI-Development",
+      "report": {
+        "tldr": "구글 클라우드가 Gemini 및 클라우드 플랫폼 기반 엔터프라이즈 에이전트형 AI를 파트너들이 구축·배포하도록 돕기 위해 7.5억달러를 투자한다고 발표했다.",
+        "what": "이번 투자는 파트너 생태계가 자사 플랫폼 위에서 에이전트형 AI 제품을 더 빠르게 상용화하도록 지원하는 데 초점을 맞춘다.",
+        "points": [
+          "구글 클라우드, 파트너 에이전트형 AI 개발에 7.5억달러 투자",
+          "Gemini·구글 클라우드 플랫폼 기반 엔터프라이즈 에이전트가 대상",
+          "파트너 생태계의 상용화 속도를 높이는 것이 목적"
+        ],
+        "why": [
+          "빅테크의 에이전트형 AI 경쟁이 자체 개발을 넘어 파트너 생태계 확장으로 확대되고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-platform-engineering-agent-speed",
+      "title": "플랫폼 엔지니어링의 새 과제, '에이전트 속도'로 환경 서빙하기",
+      "summary": "코딩 에이전트가 플랫폼 환경의 까다로운 고빈도 임차인으로 떠오르면서, 온디맨드 프로비저닝 방식의 전환이 요구되고 있다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/serving-environments-agent-speed/",
+      "report": {
+        "tldr": "코딩 에이전트가 플랫폼 환경에 대해 저지연·고동시성 서빙을 요구하는 새로운 유형의 임차인으로 부상하면서, 기존 온디맨드 프로비저닝 방식에서 벗어난 아키텍처 전환이 필요해졌다.",
+        "what": "변경된 서비스만 서빙하는 델타 기반 아키텍처는 격리성을 유지하면서도 지연시간과 비용을 동시에 줄일 수 있는 접근으로 제시된다.",
+        "points": [
+          "코딩 에이전트가 플랫폼 환경의 새로운 고빈도 임차인으로 부상",
+          "온디맨드 프로비저닝에서 저지연·고동시성 서빙으로 전환 필요",
+          "델타 기반 '변경분만 서빙' 아키텍처가 격리성 유지하며 비용·지연 절감"
+        ],
+        "why": [
+          "에이전트형 개발 도구의 확산이 플랫폼 인프라 설계 자체를 바꾸고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-blackstone-ai-implementation",
+      "title": "앤스로픽·블랙스톤, 'AI 구현'이 조 단위 기회라는 데 베팅",
+      "summary": "프론티어 모델이 상품화되면서 경쟁 우위가 모델 자체가 아닌 엔터프라이즈 구현·오케스트레이션으로 옮겨가고 있다는 분석이다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
+      "report": {
+        "tldr": "앤스로픽과 블랙스톤은 프론티어 모델이 아니라 엔터프라이즈 AI 구현이 다음 조 달러 규모의 기회라는 데 베팅하고 있다.",
+        "what": "모델 성능이 평준화되면서 실제 기업 현장에 AI를 배포·운영·통합하는 구현 서비스 영역이 새로운 경쟁 우위의 원천으로 떠오르고 있다.",
+        "points": [
+          "프론티어 모델의 상품화(commoditization) 가속",
+          "경쟁 우위가 모델 성능에서 엔터프라이즈 구현·오케스트레이션으로 이동",
+          "앤스로픽·블랙스톤, AI 구현 서비스 시장을 조 달러 기회로 판단"
+        ],
+        "why": [
+          "AI 산업의 가치 창출 지점이 모델 개발에서 엔터프라이즈 도입 서비스로 이동하고 있음을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "it-oracle-ai-native-builder",
+      "title": "오라클, AI 네이티브 빌더 경험 'Fusion Agentic Applications' 공개",
+      "summary": "오라클 AI Agent Studio가 오라클 퓨전 클라우드에서 네이티브로 구동되는 에이전트형 애플리케이션을 추가했다.",
+      "source": "Oracle",
+      "url": "https://www.oracle.com/news/announcement/oracle-introduces-ai-native-builder-experience-2026-07-14/",
+      "report": {
+        "tldr": "오라클이 AI Agent Studio에 오라클 퓨전 클라우드 안에서 네이티브로 실행되는 'Fusion Agentic Applications'를 추가해, 보안·거버넌스·감사 추적을 그대로 상속받도록 했다.",
+        "what": "새 기능은 비즈니스 프로세스를 위한 멀티에이전트 협업을 지원하며, 기존 퓨전 클라우드의 보안·감사 체계를 그대로 활용한다.",
+        "points": [
+          "오라클 AI Agent Studio에 Fusion Agentic Applications 추가",
+          "오라클 퓨전 클라우드 내에서 네이티브로 구동",
+          "기존 보안·거버넌스·감사 추적 체계를 그대로 상속",
+          "비즈니스 프로세스용 멀티에이전트 협업 지원"
+        ],
+        "why": [
+          "엔터프라이즈 SaaS 기업들이 에이전트형 AI를 기존 거버넌스 틀 안에 통합하려는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-xebia-ai-data-migration",
+      "title": "제비아, 기업 데이터 마이그레이션 가속용 AI 에이전트 출시",
+      "summary": "Xebia Axis가 데이터 평가·마이그레이션을 자동화해 마이그레이션 속도를 3배 높였다고 주장한다.",
+      "source": "The Economic Times",
+      "url": "https://m.economictimes.com/small-biz/security-tech/technology/xebia-launches-xebia-axis-agentic-data-foundation-for-faster-ai-readiness/articleshow/132508269.cms",
+      "report": {
+        "tldr": "제비아가 데이터 평가·마이그레이션을 자동화하는 'Xebia Axis'를 출시하며 마이그레이션 속도를 3배 높일 수 있다고 밝혔다.",
+        "what": "이 제품은 기업들이 AI 도입을 위해 데이터 기반을 정비하는 과정에서 시간이 오래 걸리는 평가·마이그레이션 작업을 에이전트로 자동화한다.",
+        "points": [
+          "Xebia Axis, 데이터 평가·마이그레이션 자동화",
+          "마이그레이션 속도 3배 향상 주장",
+          "기업의 AI 준비도(AI-readiness) 개선이 목표"
+        ],
+        "why": [
+          "AI 도입의 병목이 모델이 아니라 데이터 기반 정비임을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-email-encryption-history",
+      "title": "이메일 암호화의 역사와 실패한 시도들",
+      "summary": "이메일에 기본 기밀성이 없는 이유와, 복잡성 때문에 인터넷 이메일을 대체하지 못한 X.400의 종단간 암호화 시도를 되짚는다.",
+      "source": "computer.rip",
+      "url": "https://computer.rip/2026-07-19-email-encryption.html",
+      "report": {
+        "tldr": "이메일 프로토콜에 처음부터 기밀성이 내장되지 않은 배경과, ASN.1·X.509 기반의 X.400이 시도했던 종단간 암호화가 지나친 복잡성으로 실패한 이유를 정리한 글이다.",
+        "what": "이 글은 이메일 표준화 초기의 설계 선택이 오늘날까지 이어지는 보안 공백의 근본 원인이 됐다는 점을 역사적으로 짚는다.",
+        "points": [
+          "이메일 프로토콜은 애초에 기밀성을 염두에 두지 않고 설계됨",
+          "X.400은 ASN.1·X.509 기반 종단간 암호화를 시도",
+          "복잡성 때문에 인터넷 이메일을 대체하는 데 실패"
+        ],
+        "why": [
+          "현재도 이메일 보안의 근본적 약점이 초기 설계 철학에서 비롯됐음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-iren-2-8b-ai-cloud-contracts",
+      "title": "IREN, 28억달러 규모 신규 AI 클라우드 계약 체결",
+      "summary": "네오클라우드 업체 IREN이 마이크로소프트·엔비디아·퍼플렉시티와 다년 AI 인프라 계약을 맺었다.",
+      "source": "MarketWatch",
+      "url": "https://www.marketwatch.com/story/irens-stock-surges-as-the-neocloud-lands-2-8-billion-worth-of-new-deals-831302c3",
+      "report": {
+        "tldr": "네오클라우드 인프라 업체 IREN이 마이크로소프트·엔비디아·퍼플렉시티와 총 28억달러 규모의 다년 AI 인프라 계약을 체결했다.",
+        "what": "고객 선지급금이 향후 GPU 구매 자금의 절반가량을 충당하는 구조로, IREN 주가가 급등했다.",
+        "points": [
+          "마이크로소프트·엔비디아·퍼플렉시티와 28억달러 규모 다년 계약",
+          "고객 선지급금이 향후 GPU 구매 자금의 약 절반을 조달",
+          "계약 발표 후 IREN 주가 급등"
+        ],
+        "why": [
+          "AI 인프라 확보 경쟁이 네오클라우드 업체들의 자금 조달 구조까지 바꾸고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-microsoft-dusseldorf-oast",
+      "title": "마이크로소프트, 오픈소스 OAST 보안 테스트 플랫폼 'Dusseldorf' 공개",
+      "summary": "공격 발생 시 애플리케이션의 네트워크 트래픽을 포착하는 대역외 애플리케이션 보안 테스트 플랫폼이다.",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/07/20/microsoft-dusseldorf-out-of-band-application-security-testing-oast-platform/",
+      "report": {
+        "tldr": "마이크로소프트가 공격 중 애플리케이션의 네트워크 트래픽을 포착하는 오픈소스 OAST(대역외 애플리케이션 보안 테스트) 플랫폼 'Dusseldorf'를 공개했다.",
+        "what": "이 플랫폼은 보안 연구자와 방어팀이 애플리케이션의 숨겨진 대역외 상호작용을 탐지하는 데 활용할 수 있다.",
+        "points": [
+          "마이크로소프트, OAST 플랫폼 'Dusseldorf' 오픈소스로 공개",
+          "공격 중 발생하는 네트워크 트래픽을 포착하는 데 특화"
+        ],
+        "why": [
+          "대형 벤더가 보안 테스트 도구를 오픈소스로 공개하며 커뮤니티 방어력 강화에 기여하는 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-rackspace-enterprise-ai-infra",
+      "title": "랙스페이스, 엔터프라이즈 AI 인프라 사업 확대",
+      "summary": "랙스페이스가 팔란티어와 새 파트너십을 맺으며 풀스택 엔터프라이즈 AI 인프라 운영사로의 전환을 가속한다.",
+      "source": "SEC Filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/1810019/000181001926000078/ex991-pressrelease.htm",
+      "report": {
+        "tldr": "랙스페이스가 팔란티어와의 새 파트너십을 발표하며 풀스택 엔터프라이즈 AI 인프라 운영사로 전환하는 전략을 강화했다.",
+        "what": "회사는 이번 파트너십을 통해 AI 인프라 운영 역량을 넓히고 엔터프라이즈 고객 대상 서비스 범위를 확대하려 한다.",
+        "points": [
+          "랙스페이스, 팔란티어와 신규 파트너십 체결",
+          "풀스택 엔터프라이즈 AI 인프라 운영사로 전환 전략 강화"
+        ],
+        "why": [
+          "전통 클라우드·호스팅 업체들이 AI 인프라 운영사로 사업모델을 재편하는 흐름을 보여준다"
+        ]
+      }
+    }
+  ]
+}

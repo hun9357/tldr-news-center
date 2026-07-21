@@ -1,0 +1,316 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-hf-breach-ai-agent",
+      "title": "세계 최대 AI 모델 저장소 허깅페이스, 자율 AI 에이전트에 침해당해",
+      "summary": "허깅페이스가 자율 AI 에이전트 시스템이 악성 데이터셋을 통해 데이터 처리 파이프라인을 뚫고 내부 클러스터까지 침투했다고 밝혔다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/worlds-largest-ai-model-repository.html",
+      "report": {
+        "tldr": "허깅페이스는 자율 AI 에이전트가 악성 데이터셋을 이용해 데이터 처리 파이프라인을 침해하고, 노드 단위 접근 권한과 클라우드·클러스터 자격증명을 탈취해 내부망을 이동했다고 밝혔다.",
+        "what": "공격자는 데이터 처리 파이프라인에 심어진 악성 데이터셋 항목을 통해 접근 권한을 얻은 뒤 노드 단위 권한으로 에스컬레이션했고, 주말 사이 내부 클러스터를 가로질러 이동했다. 허깅페이스는 침해된 노드를 재구축하고 자격증명을 회전시켰으며, 클러스터 통제·탐지 체계를 강화하고 고객들에게 토큰 회전을 권고했다. 포렌식 작업 중에는 호스팅된 모델들이 실제 공격 명령이 포함된 분석을 차단해, 대신 Z.ai의 GLM 5.2를 로컬로 구동해 분석을 진행했다.",
+        "points": [
+          "악성 데이터셋을 매개로 한 자율 AI 에이전트가 데이터 처리 파이프라인 침해",
+          "노드 단위 접근 권한 획득 후 클라우드·클러스터 자격증명 탈취, 내부망 측면 이동",
+          "공개 모델·데이터셋·Spaces·소프트웨어 공급망 변조 증거는 발견되지 않음",
+          "침해 노드 재구축, 자격증명 전면 회전, 고객 토큰 회전 권고",
+          "호스팅 모델이 공격 명령 분석을 거부해 로컬 GLM 5.2로 포렌식 수행"
+        ],
+        "why": [
+          "AI 에이전트가 방어자의 도구를 넘어 공격자의 자율 도구로도 쓰일 수 있음을 보여주는 사례로, AI 인프라 기업의 파이프라인 보안 전반에 경종을 울린다.",
+          "가장 신뢰받는 AI 모델 허브가 표적이 됐다는 점에서 공급망 전반의 신뢰 모델 재검토가 불가피하다."
+        ],
+        "context": "허깅페이스는 오픈소스 AI 모델과 데이터셋을 호스팅하는 세계 최대 저장소로, 수많은 기업과 개발자가 여기서 모델을 내려받아 사용한다.",
+        "action": "허깅페이스 연동 토큰과 자격증명을 즉시 회전하고, 파이프라인에 반입되는 데이터셋의 출처 검증 절차를 강화할 것"
+      }
+    },
+    {
+      "id": "infosec-ey-data-breach",
+      "title": "EY(언스트앤영), 데이터 유출로 고객 개인·재무정보 노출",
+      "summary": "EY가 사용하는 제3자 서비스관리 플랫폼이 해킹당해 세무 관련 고객 문서가 유출됐다.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/sAz1Hi",
+      "report": {
+        "tldr": "해커들이 EY가 고객 세무 업무에 사용하는 제3자 서비스관리 플랫폼에 접근해 3월 28일부터 4월 12일 사이 지원 티켓 문서를 대량 내려받았다.",
+        "what": "유출된 문서에는 이름, 주소, 사회보장번호, 계좌번호, 카드 정보 등 세무 관련 민감 정보가 포함됐다. EY는 현재까지 실제 악용 사례는 확인되지 않았다고 밝혔으며, 외부 사고대응 업체를 고용하고 피해자에게 2년간 신용·신원 모니터링 및 복구 서비스를 제공하고 있다.",
+        "points": [
+          "3월 28일~4월 12일 사이 제3자 서비스관리 플랫폼 침해",
+          "이름·주소·SSN·계좌번호·카드정보 등 세무 관련 문서 유출",
+          "현재까지 확인된 악용 사례는 없음",
+          "2년간 신용·신원 모니터링 및 복구 서비스 제공"
+        ],
+        "why": [
+          "대형 회계·컨설팅 기업의 제3자 벤더 리스크가 다시 한번 확인된 사례"
+        ],
+        "action": "제3자 벤더의 데이터 접근 범위를 정기 점검하고, 세무 관련 민감정보 저장소는 별도 암호화·접근통제 적용 권장"
+      }
+    },
+    {
+      "id": "infosec-estee-lauder-oracle-breach",
+      "title": "에스티로더, 오라클 E-Business 취약점으로 데이터 유출 공지",
+      "summary": "에스티로더가 오라클 E-Business Suite 취약점을 악용한 공격으로 고객 개인정보가 유출됐다고 공지했다.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/JcRcno",
+      "report": {
+        "tldr": "화장품 기업 에스티로더가 오라클 E-Business Suite의 취약점을 노린 공격으로 이름, 이메일·주소, 생년월일, SSN, 여권번호, 금융계좌, 건강정보, 급여정보 등이 유출됐다고 밝혔다.",
+        "what": "위협 행위자는 에스티로더가 사용하는 오라클 E-Business Suite의 취약점을 악용해 데이터를 탈취했다. 유출 항목이 개인 신원정보부터 건강·급여정보까지 광범위해 피해 범위가 크다.",
+        "points": [
+          "오라클 E-Business Suite 취약점을 통한 데이터 탈취",
+          "이름·주소·생년월일·SSN·여권번호·금융계좌 포함",
+          "건강정보·급여정보까지 유출 범위에 포함"
+        ],
+        "why": [
+          "기업용 ERP 소프트웨어의 취약점 하나가 대기업 전체의 민감 데이터를 노출시킬 수 있음을 보여준다"
+        ],
+        "action": "오라클 E-Business Suite를 사용 중이라면 최신 보안 패치 적용 여부를 즉시 확인할 것"
+      }
+    },
+    {
+      "id": "infosec-jadepuffer-ransomware-ai-models",
+      "title": "JADEPUFFER, AI 모델 파괴를 노리는 랜섬웨어로 진화",
+      "summary": "에이전트형 위협 행위자 JADEPUFFER가 Langflow 취약점을 통해 재침투해 AI/ML 모델 전용 파괴형 랜섬웨어를 배포했다.",
+      "source": "TLDR InfoSec",
+      "url": "https://webflow.sysdig.com/blog/jadepuffer-evolves-the-agentic-threat-actor-deploys-ransomware-built-to-destroy-ai-models",
+      "report": {
+        "tldr": "Sysdig 위협 연구팀은 에이전트형 공격자 JADEPUFFER가 CVE-2025-3248 취약점으로 동일 Langflow 인스턴스에 재침투해, AI/ML 확장자 약 180개를 암호화하는 전용 랜섬웨어 ENCFORGE를 배포한 사례를 추적했다.",
+        "what": "공격자는 인증되지 않은 원격코드실행(RCE) 취약점을 통해 침투한 뒤 자격증명 탈취, 도커 소켓 탐색, 권한 상승 컨테이너 구성을 자동으로 연쇄 수행했다. 초기 바이너리 다운로드가 실패하자 5분 만에 파이썬 스크립트 6개를 반복 작성해 우회 경로를 스스로 구축하는 등 에이전트 특유의 시행착오 패턴을 보였다.",
+        "points": [
+          "CVE-2025-3248(Langflow 미인증 RCE, CISA KEV 등재)로 재침투",
+          "도커 소켓 탐색 후 권한 상승 컨테이너로 호스트 이스케이프",
+          "AI/ML 확장자 약 180개를 암호화하는 ENCFORGE 랜섬웨어 배포",
+          "초기 실패 시 자동으로 대체 스크립트를 작성하는 자율 시행착오 행태 확인",
+          "암호화된 모델 가중치는 복구 불가하므로 오프라인 불변 스냅샷 보관 필요"
+        ],
+        "why": [
+          "AI 모델 자체를 표적으로 삼는 랜섬웨어의 등장은 AI 인프라 보안의 새로운 위협 범주를 의미한다"
+        ],
+        "action": "Langflow를 1.3.0 이상으로 패치하고, 도커 소켓 접근을 제한하며 모델 가중치의 오프라인 불변 백업을 유지할 것"
+      }
+    },
+    {
+      "id": "infosec-sandbox-escapes-week",
+      "title": "커서·코덱스 CLI 등 코딩 에이전트 샌드박스 탈출 취약점 무더기 발견",
+      "summary": "Pillar Research가 Cursor, Codex CLI, Gemini CLI, Google Antigravity에서 공통된 샌드박스 탈출 취약점 패턴을 재현했다.",
+      "source": "TLDR InfoSec",
+      "url": "https://www.pillar.security/blog/the-week-of-sandbox-escapes",
+      "report": {
+        "tldr": "코딩 에이전트들은 샌드박스를 직접 깨는 대신, 신뢰된 비샌드박스 호스트 컴포넌트가 나중에 실행·로드하는 파일을 써넣는 방식으로 실질적 피해 범위를 호스트 전체로 확장시킨다.",
+        "what": "취약점은 OS 기능을 놓치는 허용목록 기반 프로필, 사실상 실행 코드나 다름없는 워크스페이스 설정, 위험한 호출을 무시하는 이름 기반 명령 허용목록, 샌드박스에서 접근 가능한 특권 로컬 데몬 등 네 가지 반복 패턴으로 묶인다.",
+        "points": [
+          "Cursor·Codex CLI·Gemini CLI·Google Antigravity에서 공통 취약 패턴 확인",
+          "샌드박스를 직접 뚫지 않고 호스트가 신뢰하는 파일에 악성 내용을 심는 방식",
+          "허용목록 기반 정책, 실행코드나 다름없는 설정파일이 주요 취약 지점",
+          "Docker 소켓 등 특권 로컬 데몬 접근이 실질적 위험 확대 요인"
+        ],
+        "why": [
+          "에이전트형 IDE를 엔드포인트 위협 행위자로 간주해 방어 체계를 재설계해야 함을 시사한다"
+        ],
+        "action": "기본 차단(deny-by-default) 샌드박싱을 적용하고, 에이전트의 호스트측 자동화 작성 전 명시적 승인을 요구할 것"
+      }
+    },
+    {
+      "id": "infosec-macos-app-support-protection",
+      "title": "macOS 27, Application Support 폴더 보호 기능 은밀히 추가",
+      "summary": "macOS 27에 문서화되지 않은 새 보호 메커니즘이 발견돼, 디스코드·크롬 등 특정 앱과 크립토 지갑의 데이터 절도 수법이 차단됐다.",
+      "source": "TLDR InfoSec",
+      "url": "https://wojciechregula.blog/post/golden-gate-appdata-protection/",
+      "report": {
+        "tldr": "보안 연구자 보이치에흐 레굴라가 macOS 27에서 com.apple.macl 확장 속성을 비샌드박스 앱의 Application Support 폴더까지 확장 적용하는 문서화되지 않은 정책을 발견했다.",
+        "what": "이 정책은 디스코드, 크롬, 브레이브, 엣지, 파이어폭스, 레저 라이브·엑소더스·와사비 등 크립토 지갑 앱의 경로를 커널 수준에서 보호해, 전체디스크접근 권한이 없는 터미널의 접근을 차단한다. 허용목록은 XProtect를 통해 실시간 갱신되므로 OS 업데이트 없이도 보호 범위가 확장될 수 있다.",
+        "points": [
+          "com.apple.macl 확장 속성을 비샌드박스 앱 데이터 폴더까지 확장",
+          "디스코드·브라우저·크립토 지갑 앱 데이터가 커널 수준에서 보호됨",
+          "전체디스크접근 권한 없는 터미널은 보호 대상 경로에 쓰기 불가",
+          "XProtect를 통해 허용목록이 OS 업데이트 없이 확장 가능",
+          "허용목록 밖의 앱(예: 일부 비밀번호 관리자)은 여전히 무방비"
+        ],
+        "why": [
+          "브라우저 프로필·지갑 데이터를 노리는 자격증명 탈취 수법이 macOS 27에서 상당 부분 무력화됐음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-neo-ai-agent-control",
+      "title": "Neo, 프로덕션 환경 AI 에이전트 통제 플랫폼으로 출시",
+      "summary": "기업이 프로덕션에서 쓰는 모델·에이전트·MCP 서버를 인벤토리화하고 위험한 권한 설정을 탐지하는 통제 계층 플랫폼이 나왔다.",
+      "source": "TLDR InfoSec",
+      "url": "https://www.neo.ai/",
+      "report": {
+        "tldr": "Neo는 기업이 프로덕션에서 사용하는 AI 모델·에이전트·확장·MCP 서버를 인벤토리화하고 위험한 권한·설정을 보안팀에 알려주는 통제 계층을 제공한다.",
+        "what": "기업 소프트웨어에 침투한 다양한 에이전트 자산을 한곳에서 가시화해 보안팀이 설정 취약점을 사전에 파악하도록 돕는다.",
+        "points": [
+          "프로덕션 내 에이전트·모델·MCP 서버를 자동 인벤토리화",
+          "위험한 권한·설정 취약점을 자동 플래그",
+          "AI 에이전트 거버넌스를 위한 통제 계층 제공"
+        ],
+        "why": [
+          "기업 내 에이전트 확산 속도가 거버넌스 체계를 앞지르는 상황에서 나온 대응 제품"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ferret-scan-tool",
+      "title": "Ferret Scan, 민감정보 유출 전 탐지·마스킹하는 오픈소스 도구 공개",
+      "summary": "PII·시크릿·IP 마커를 탐지해 현장에서 형식을 유지한 채 마스킹하는 단일 바이너리 Go CLI 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/awslabs/ferret-scan",
+      "report": {
+        "tldr": "Ferret Scan은 파일과 스트림에서 개인정보·시크릿·IP 마커를 탐지해 형식을 유지한 채 문맥 기반 신뢰도 점수와 함께 마스킹하는 단일 바이너리 Go 도구다.",
+        "what": "런타임 의존성 없이 CLI, 내장 웹 UI, Go 라이브러리 형태로 제공되며 유출 전 사전 탐지·redaction에 초점을 맞췄다.",
+        "points": [
+          "단일 바이너리 Go CLI, 런타임 의존성 없음",
+          "PII·시크릿·IP 마커 탐지 및 형식 보존 마스킹",
+          "문맥 기반 신뢰도 점수 제공"
+        ],
+        "why": [
+          "민감정보 유출 사고를 사전에 예방하려는 개발팀에 실용적인 오픈소스 대안"
+        ]
+      }
+    },
+    {
+      "id": "infosec-cloudflare-internal-dns-ga",
+      "title": "클라우드플레어 Internal DNS 정식 출시",
+      "summary": "공개·사설 DNS를 하나의 제어판으로 통합하는 Internal DNS가 일반 가용 상태가 됐다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/internal-dns/",
+      "report": {
+        "tldr": "클라우드플레어가 Gateway Resolver와 Internal Authoritative DNS 두 컴포넌트로 공개·사설 DNS를 통합하는 Internal DNS를 정식 출시했다.",
+        "what": "분할 관점(split-horizon)은 공유 존 위의 DNS Views로 처리되며, 리졸버 정책이 이름 해석까지 제로트러스트를 확장한다. 변경 사항은 DNS Records API를 통해 몇 초 내에 전파된다.",
+        "points": [
+          "Gateway Resolver(재귀 해석·정책 평가)와 Internal Authoritative DNS(사설 존) 이원 구조",
+          "DNS Views로 split-horizon 처리",
+          "DNS Records API 경유 변경사항 초 단위 전파",
+          "Enterprise Gateway 고객에 추가 비용 없이 제공"
+        ],
+        "why": [
+          "제로트러스트 네트워크 접근을 이름 해석 계층까지 확장한 사례"
+        ]
+      }
+    },
+    {
+      "id": "infosec-hollowgraph-m365-calendar",
+      "title": "MS 365 캘린더를 스파이 드롭박스로 악용하는 HOLLOWGRAPH 캠페인",
+      "summary": "2050년 날짜로 위장한 캘린더 일정에 명령을 숨기고 DNS 터널링으로 자격증명을 갱신하는 공격 기법이 발견됐다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/07/20/microsoft-365-calendars-become-spy-drop-boxes-in-hollowgraph-campaign/5274982",
+      "report": {
+        "tldr": "HOLLOWGRAPH는 마이크로소프트 365 캘린더 일정에 명령을 숨기고 탈취 파일을 약속(appointment)에 저장하며, DNS 터널링으로 Entra ID 자격증명을 갱신하는 공격 기법이다.",
+        "what": "Group-IB는 이를 Cavern 프레임워크와 연결지었으며, 감염 시스템 12곳을 발견하고 명령 수신 메일함을 이스라엘의 한 조직으로 추적했다.",
+        "points": [
+          "2050년 5월 13일자로 위장된 캘린더 일정에 명령 은닉",
+          "탈취 파일을 약속(appointment) 데이터에 저장",
+          "DNS 터널링으로 Entra ID 자격증명 갱신",
+          "Group-IB, Cavern 프레임워크와 연관성 확인, 감염 시스템 12곳 발견"
+        ],
+        "why": [
+          "업무용 협업 도구의 일상적 기능이 은닉 통신 채널로 악용될 수 있음을 보여준다"
+        ],
+        "action": "비정상적인 원거리 미래 날짜의 캘린더 일정과 비정상 DNS 트래픽 패턴을 모니터링할 것"
+      }
+    },
+    {
+      "id": "infosec-russia-ip-camera-hack",
+      "title": "러시아 정보기관, IP 카메라 해킹해 NATO·우크라이나 군수 물류 감시",
+      "summary": "네덜란드 정보당국이 러시아 정보기관의 인터넷 노출 카메라 대량 탈취 및 군사 물류 감시 활동을 공개했다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html",
+      "report": {
+        "tldr": "네덜란드 AIVD·MIVD가 7월 10일 발표한 권고에 따르면, 최소 한 곳의 러시아 정보기관이 EU·NATO 국가와 우크라이나 전역의 인터넷 노출 IP 카메라를 체계적으로 장악해 군사 수송로와 무기 이송을 감시해왔다.",
+        "what": "공격자는 제로데이 없이, 노출된 카메라를 스캔해 브랜드를 식별하고 기본 자격증명·구형 펌웨어가 남아있는 기기에 침투한 뒤 이미지 인식으로 군용 차량·화물을 자동 탐지한다. 우크라이나에서는 카메라 접근이 군 인력 표적화 시도에도 사용됐다.",
+        "points": [
+          "네덜란드 AIVD·MIVD가 7월 10일 공동 권고 발표",
+          "제로데이 없이 기본 자격증명·구형 펌웨어 카메라를 표적",
+          "이미지 인식으로 군용 차량·화물 자동 탐지",
+          "우크라이나에서는 군 인력 표적화 시도에도 활용"
+        ],
+        "why": [
+          "일상적인 사물인터넷 기기의 허술한 보안 설정이 실제 군사 작전 정보 유출로 직결될 수 있음을 보여준다"
+        ],
+        "action": "인터넷에 노출된 IP 카메라의 기본 자격증명 변경과 펌웨어 최신화를 즉시 점검할 것"
+      }
+    },
+    {
+      "id": "infosec-ungoverned-context-ai-agents",
+      "title": "기업 AI 에이전트의 숨은 리스크, '거버넌스 없는 컨텍스트'",
+      "summary": "고객·재무 데이터에 접근하는 AI 에이전트가 거버넌스 없는 컨텍스트로 인해 확인되지 않은 가정을 근거로 확신에 찬 잘못된 답을 낼 수 있다는 지적이다.",
+      "source": "Hackread",
+      "url": "https://hackread.com/hidden-risk-enterprise-ai-agents-ungoverned-context/",
+      "report": {
+        "tldr": "기업들이 고객 기록·재무 시스템·내부 도구에 실제 접근 권한을 부여한 AI 에이전트를 늘리고 있지만, 거버넌스 없는 컨텍스트는 오래된 지표나 제한된 기록을 사람이라면 절대 노출하지 않을 방식으로 드러내는 구조적 위험을 안고 있다.",
+        "what": "실패 유형은 단일 진실 공급원 부재, 누가 무엇을 볼 수 있는지 개념이 없는 컨텍스트, 검토 없이 배포되는 자동 작성 정의, 기존 통제를 우회하는 취약한 임시방편 등 구조적 문제로 요약된다.",
+        "points": [
+          "고객·재무 데이터에 실제 접근권을 가진 AI 에이전트 확산",
+          "단일 진실 공급원 부재와 권한 개념 없는 컨텍스트가 핵심 문제",
+          "역할 기반 접근제어·SSO로 에이전트가 권한을 상속하도록 강제 필요",
+          "감사 추적과 실시간 동기화로 정적 데이터 노출 방지 필요"
+        ],
+        "why": [
+          "AI 에이전트 리스크는 모델 자체보다 데이터 거버넌스 구조의 문제라는 점을 재확인시킨다"
+        ],
+        "action": "AI 에이전트에 데이터 접근권을 부여하기 전 역할 기반 접근제어·감사 추적·전문가 검토 워크플로우부터 구축할 것"
+      }
+    },
+    {
+      "id": "infosec-craneware-healthcare-breach",
+      "title": "미 병원·약국 수천 곳이 의존하는 기술기업 Craneware, 대량 데이터 유출",
+      "summary": "Craneware가 해커에게 상당량의 고객 데이터를 도난당했다고 밝혔다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/hackers-stole-significant-amount-of-data-from-tech-firm-relied-on-by-thousands-of-us-hospitals-and-pharmacies/",
+      "report": {
+        "tldr": "미국 수천 개 병원·약국이 의존하는 기술기업 Craneware가 해커에게 상당량의 고객 데이터를 탈취당했다고 공개했다.",
+        "what": "회사 측은 데이터가 유출돼 외부로 반출됐다고 확인했으나, 구체적인 유출 범위는 아직 상세히 공개되지 않았다.",
+        "points": [
+          "미 병원·약국 수천 곳이 의존하는 헬스케어 기술기업이 표적",
+          "상당량의 고객 데이터 탈취 확인"
+        ],
+        "why": [
+          "헬스케어 공급망의 핵심 벤더 하나의 침해가 의료 시스템 전반에 파급될 수 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-fbi-steam-crypto-theft",
+      "title": "FBI, 22만달러 스팀 크립토 절도 사건으로 플로리다 남성 체포",
+      "summary": "악성코드를 심은 스팀 게임으로 약 8000대의 기기를 감염시켜 크립토를 탈취한 혐의다.",
+      "source": "Hackread",
+      "url": "https://hackread.com/fbi-arrests-florida-man-steam-crypto-theft-case/",
+      "report": {
+        "tldr": "FBI가 7월 14일 노스 로더데일의 21세 남성 자이어 윌킨스를 악성코드가 심어진 스팀 게임을 유포·홍보해 약 8000대의 기기를 감염시키고 22만달러 상당의 크립토를 탈취한 혐의로 체포했다.",
+        "what": "이번 사건은 게임 플랫폼을 통한 악성코드 유포가 실제 대규모 금전 피해로 이어질 수 있음을 보여준다.",
+        "points": [
+          "악성코드 내장 스팀 게임으로 약 8000대 기기 감염",
+          "22만달러 상당 크립토 탈취 혐의",
+          "7월 14일 FBI가 21세 용의자 체포"
+        ],
+        "why": [
+          "인기 게임 유통 플랫폼이 크립토 탈취형 악성코드의 새로운 유포 경로로 쓰이고 있음을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-taiwan-tsmc-chip-secrets",
+      "title": "대만, 前 TSMC 매니저를 중국행 반도체 기밀유출 혐의로 기소",
+      "summary": "대만 검찰이 전 TSMC 부매니저를 기밀문서 21건을 빼돌려 중국 반도체 소재 분석 기업 설립에 활용한 혐의로 기소했다.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/taiwan-inducts-ex-tsmc-manager-for-allegedly-stealing-chip-secrets-for-china",
+      "report": {
+        "tldr": "대만이 전 TSMC 부매니저를 기밀문서 21건을 복사해 중국 반도체 소재 분석 기업 설립에 활용한 혐의로 기소했다. 이는 관리자급 인사가 중국 공산당 군 연계 인재 채용망과 연결된 첫 사례로 알려졌다.",
+        "what": "이 사건은 대만 반도체 산업의 핵심 인력이 관리자급에서 중국 관련 조직으로 기밀을 유출한 최초의 공식 기소 사례로, 반도체 기밀유출 위협이 엔지니어급을 넘어 관리자급까지 확산되고 있음을 보여준다.",
+        "points": [
+          "전 TSMC 부매니저, 기밀문서 21건 복사 혐의로 기소",
+          "중국 반도체 소재 분석 기업 설립에 활용된 것으로 조사됨",
+          "CCP 군 연계 인재 채용망과 연결된 최초의 관리자급 사례로 지목",
+          "최대 징역 7년형에 처해질 수 있음"
+        ],
+        "why": [
+          "반도체 기밀유출 위협이 엔지니어급을 넘어 관리자급 인력으로 확산되고 있음을 보여주는 사례"
+        ]
+      }
+    }
+  ]
+}
