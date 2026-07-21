@@ -1,0 +1,226 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-apple-most-valuable-company",
+      "title": "애플, 엔비디아 제치고 잠시 세계 시가총액 1위 탈환",
+      "summary": "AI 반도체 주식의 장기 수익성 우려로 투자자들이 노출을 줄이면서 애플이 일시적으로 엔비디아를 제쳤다. AI 인프라 투자를 최소화한 채 25억 대 활성 기기 생태계를 지렛대로 삼는 전략이 재평가됐다.",
+      "source": "PetaPixel",
+      "url": "https://petapixel.com/2026/07/20/apple-briefly-became-the-worlds-most-valuable-company-toppling-nvidia/",
+      "originalDate": "2026-07-20",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "84%",
+        "owner": "Strategy",
+        "status": "Tracking",
+        "affectedSurface": "AI 인프라 투자 · 반도체 밸류에이션"
+      },
+      "report": {
+        "tldr": "AI 자본지출을 아낀 전략이 시장에서 처음으로 프리미엄을 받았다.",
+        "what": "AI 인프라 투자의 장기 수익성에 대한 회의가 확산되며 반도체주에서 자금이 빠지고, 애플이 장중 시가총액 1위를 회복했다.",
+        "points": [
+          "AI 반도체 대규모 투자에 대한 수익성 회의가 매도 압력의 원인",
+          "애플은 경쟁사 대비 AI 인프라 투자를 최소화",
+          "25억 대 활성 기기 생태계가 AI 기능 수익화의 기반",
+          "개선된 시리에 대한 시장 반응이 재평가의 촉매"
+        ],
+        "why": [
+          "AI 자본지출 규모가 곧 경쟁력이라는 전제가 시장에서 흔들리기 시작",
+          "AMD 헬리오스 같은 저가 대안의 등장이 이 회의론을 강화하는 방향으로 작용"
+        ]
+      }
+    },
+    {
+      "id": "design-x-android-rebuild",
+      "title": "X, 1년에 걸친 안드로이드 앱 전면 재구축 완료",
+      "summary": "X가 약 12개월의 개발 끝에 안드로이드 앱을 전면 재구축했다. 로딩 시간, 스크롤 성능, 알림 처리, 시스템 안정성을 개선했으며 구형 기기 호환, 스페이스, 영상 편집, 캐시태그, 커스텀 타임라인 등은 아직 개발 중이다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/20/x-relaunches-a-rebuilt-android-app-after-year-long-effort/",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "기능 동결을 감수한 1년짜리 전면 재작성이 실제로 완주됐다.",
+        "what": "X가 안드로이드 클라이언트를 처음부터 다시 만들어 재출시했다. 속도와 안정성 개선이 주된 목표였다.",
+        "points": [
+          "약 12개월간의 전면 재구축, 로딩·스크롤·알림·안정성 개선",
+          "안드로이드 우세 시장에서의 입지 강화가 전략적 목표",
+          "스페이스, 영상 편집, 영상 반응, 캐시태그, 커스텀 타임라인은 미완성"
+        ],
+        "why": [
+          "대형 소비자 앱의 전면 재작성은 기능 후퇴 리스크가 커 드물게 시도됨",
+          "미완성 기능 목록이 길어 초기 사용자 이탈 여부가 성패를 가름"
+        ]
+      }
+    },
+    {
+      "id": "design-slack-product-quality-craft",
+      "title": "AI 시대의 제품 품질: 장인정신에 대한 공동의 책임",
+      "summary": "AI가 '없음'과 '쓸 만함' 사이의 거리를 좁히면서 정교한 완성도가 제품 간 차별화 요인이 된다는 주장이다. 장인정신은 유용성·사용성·정서적 공감을 아우르며 엔지니어링·제품·디자인·경영이 공동으로 책임진다.",
+      "source": "Slack Design",
+      "url": "https://slack.design/articles/product-quality-a-shared-commitment-to-craft-in-the-wake-of-ai/",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "AI가 평균 품질을 끌어올릴수록 차별화는 마지막 20%에서 나온다.",
+        "what": "AI로 제품 제작 진입장벽이 낮아진 환경에서 품질과 장인정신이 갖는 전략적 의미를 슬랙 디자인팀이 정리한 글이다.",
+        "points": [
+          "AI가 '작동하는 수준'까지의 거리를 크게 단축",
+          "장인정신을 유용성·사용성·정서적 공감의 결합으로 정의",
+          "'아끼는 사람에게 추천할 수 있는가'를 최종 판단 기준으로 제시"
+        ],
+        "why": [
+          "기능 패리티가 빠르게 따라잡히는 시장에서 완성도가 유일한 해자가 됨",
+          "생산성-경험 역설 논의와 같은 문제의식을 조직 관점에서 다룸"
+        ]
+      }
+    },
+    {
+      "id": "design-accessibility-design-decision",
+      "title": "접근성은 체크리스트가 아니라 회피해 온 디자인 결정이다",
+      "summary": "시각장애인이 90초용으로 설계된 항공권 예약을 11분에 완료하는 과정을 관찰한 디자이너의 기록이다. 누적된 설계 선택이 장애인을 체계적으로 배제해 왔으며 접근성은 기술 문제나 규정 준수가 아닌 전략적 제품 선택이라고 지적한다.",
+      "source": "Bootcamp (Medium)",
+      "url": "https://medium.com/design-bootcamp/accessibility-isnt-a-checklist-it-s-a-design-decision-you-re-avoiding-b2f10712b16b",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "접근성 실패는 개별 위반이 아니라 설계 우선순위의 누적 결과다.",
+        "what": "실제 사용자 관찰을 근거로 접근성을 규정 준수 항목이 아닌 제품 전략 결정으로 재정의한 글이다.",
+        "points": [
+          "90초 설계 과제를 11분에 완료하는 격차를 관찰 사례로 제시",
+          "개별 규정 위반이 아니라 누적된 설계 선택이 배제를 만든다",
+          "보조기술 전문가와의 협업과 완료 기준 통합을 해법으로 제시"
+        ],
+        "why": [
+          "접근성 트리가 AI 에이전트의 웹 해석 경로가 되면서 실용적 유인도 생김",
+          "완료 기준(Definition of Done)에 넣지 않으면 언제나 후순위로 밀린다"
+        ],
+        "action": "접근성 항목을 별도 백로그가 아닌 기능별 완료 기준에 포함시킬 것."
+      }
+    },
+    {
+      "id": "design-agentio-meta-creator-ads",
+      "title": "에이전티오의 AI 크리에이터 광고, 페이스북·인스타그램으로 확대",
+      "summary": "유튜브 크리에이터 광고에 집중해온 에이전티오가 메타와 제휴해 페이스북과 인스타그램으로 플랫폼을 확장한다. 베타 결과 파트너 광고가 기존 크리에이터 협업 대비 ROAS 81%, 클릭률 89% 높았다.",
+      "source": "Tubefilter",
+      "url": "https://www.tubefilter.com/2026/07/14/agentio-creator-advertising-marketing-meta-facebook-instagram/",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "크리에이터 매칭과 성과 예측을 자동화한 광고가 메타 인벤토리로 넘어왔다.",
+        "what": "에이전티오가 메타와 제휴해 AI 기반 크리에이터 광고 플랫폼을 페이스북·인스타그램에 도입한다.",
+        "points": [
+          "머신러닝 기반 분석, 크리에이터 발굴 알고리즘, 파트너십 광고 기능 제공",
+          "메타와 구글 생태계를 아우르는 통합 캠페인 집행 가능",
+          "베타에서 ROAS 81%, 클릭률 89% 향상 기록"
+        ],
+        "why": [
+          "성과 수치는 베타 표본 기준이므로 규모 확대 시 회귀 가능성 고려 필요",
+          "크리에이터 섭외의 수작업 비용이 광고 확장의 병목이었다는 점을 확인"
+        ]
+      }
+    },
+    {
+      "id": "design-against-design-system-federation",
+      "title": "디자인 시스템 연합제에 반대한다",
+      "summary": "조직의 13%가 채택한 연합형 디자인 거버넌스가 낮은 참여율, 불명확한 책임 구조, 과대평가된 효율 전망 때문에 인기를 잃고 있다는 분석이다. 연합제를 하나의 요소로 포함한 하이브리드 방식이 더 효과적이라고 본다.",
+      "source": "Karolina Szczur",
+      "url": "https://karolinaszczur.com/journal/against-design-system-federation/",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "연합 모델은 기여 인센티브가 없으면 책임 공백만 남긴다.",
+        "what": "디자인 시스템의 연합형 거버넌스 모델이 실패하는 구조적 이유를 데이터와 함께 검토한 글이다.",
+        "points": [
+          "채택률 13%, 실제 참여율은 그보다 훨씬 낮음",
+          "기여 책임이 분산되면서 소유자가 사라지는 문제",
+          "연합제를 부분 요소로 쓰는 하이브리드 모델을 대안으로 제시"
+        ],
+        "why": [
+          "전담 팀 없는 디자인 시스템은 유지보수 부채로 전환된다",
+          "컴포넌트 수가 수백 개로 늘어난 조직일수록 소유권 명확화가 시급"
+        ]
+      }
+    },
+    {
+      "id": "design-ai-component-inventory-clearleft",
+      "title": "AI로 수백 개 컴포넌트를 정리한 방법",
+      "summary": "영국의 한 교육 기관이 체계적 문서 없이 누적된 수천 개 웹 인터페이스 요소 문제에 직면해, 사전 정의된 명세 대신 반복적 대화를 통해 AI 평가 시스템을 개발했다.",
+      "source": "Clearleft",
+      "url": "https://clearleft.com/thinking/how-ai-helped-us-make-sense-of-hundreds-of-components",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "레거시 컴포넌트 감사는 AI가 실질적 성과를 내는 드문 영역이다.",
+        "what": "문서화되지 않은 대량의 UI 컴포넌트를 AI를 활용해 분류·평가한 실무 사례다.",
+        "points": [
+          "수천 개 인터페이스 요소가 문서 없이 누적된 상태에서 출발",
+          "사전 명세 대신 반복 대화로 평가 기준을 점진 도출",
+          "완전 자동화가 아닌 판단 보조 도구로 활용"
+        ],
+        "why": [
+          "디자인 시스템 통합의 최대 비용인 현황 파악 단계를 단축",
+          "연합제 실패로 흩어진 컴포넌트를 정리하는 실무적 출발점"
+        ]
+      }
+    },
+    {
+      "id": "design-future-begins-understanding-people",
+      "title": "디자인의 미래는 사람을 이해하는 데서 시작해야 한다",
+      "summary": "사용자 경험은 화면 디자인을 넘어 신뢰, 행동심리, 문화적 맥락을 포괄한다는 주장이다. AI는 무비판적 신뢰가 아닌 의도적 신뢰를 길러야 할 디자이너의 책임을 키우며, 도구 숙련보다 인간 이해를 우선해야 지속적 적합성을 확보한다고 본다.",
+      "source": "UX4",
+      "url": "https://ux4dotcom.blogspot.com/2026/07/user-experience-never-ended-at-screen.html",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "AI가 도구 숙련의 가치를 떨어뜨릴수록 사용자 이해의 가치는 올라간다.",
+        "what": "건축, 응급 대응, 디자인 방법론의 원리를 종합해 UX의 범위를 화면 너머로 확장한 논의다.",
+        "points": [
+          "UX를 신뢰·행동심리·문화적 맥락을 포함하는 범위로 정의",
+          "AI 시대에는 무비판적 신뢰가 아닌 의도적 신뢰 설계가 과제",
+          "기술은 변해도 인간의 요구는 지속된다는 전제"
+        ],
+        "why": [
+          "AI 도구 숙련도가 빠르게 평준화되는 환경에서 차별화 역량의 위치를 제시",
+          "장인정신·완성도 논의와 함께 디자이너 역할 재정의의 흐름을 형성"
+        ]
+      }
+    },
+    {
+      "id": "design-airpods-mocked-then-loved",
+      "title": "'조롱받다 사랑받은' 에어팟 효과",
+      "summary": "애플의 에어팟과 애플워치는 실용성으로 조롱을 극복했지만, 카메라 탑재가 예상되는 에어팟은 감시 우려와 사회적 수용이라는 별개의 과제에 직면한다. 기술 혁신을 넘어선 신뢰 입증이 필요하다는 분석이다.",
+      "source": "UX Collective",
+      "url": "https://uxdesign.cc/the-mocked-then-loved-airpods-effect-65ec25feeb3a",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "실용성으로 극복 가능한 조롱과 신뢰 문제로 인한 거부는 다른 종류의 장벽이다.",
+        "what": "애플 웨어러블의 초기 조롱 극복 사례를 되짚고, 카메라 탑재 기기가 마주할 다른 성격의 저항을 분석한다.",
+        "points": [
+          "에어팟·애플워치는 명확한 실용성으로 외형 조롱을 상쇄",
+          "카메라 탑재 기기는 착용자가 아닌 주변인의 우려가 문제",
+          "구글 글래스 사례와 같은 사회적 수용 장벽"
+        ],
+        "why": [
+          "제품 수용 실패 원인을 사용자 가치가 아닌 제3자 영향에서 찾아야 하는 사례",
+          "프라이버시 설계가 마케팅이 아닌 제품 성립 조건이 되는 영역"
+        ]
+      }
+    },
+    {
+      "id": "design-glaze-mac-crt-effects",
+      "title": "Glaze, 모든 맥 창을 CRT나 게임보이 화면으로 바꾸는 앱",
+      "summary": "실제 CRT 질감과 VHS 시뮬레이션을 포함한 50개 이상의 실시간 시각 변환 효과를 macOS 화면 전체에 적용한다. 접근성과 생산성 목적의 설정도 제공한다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/computing/this-mac-app-can-turn-every-window-into-a-crt-fever-dream-or-a-nostalgic-game-boy/",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "시각 효과 앱이 접근성 필터 용도로도 쓰일 수 있게 설계됐다.",
+        "what": "macOS 창에 실시간 셰이더 효과를 적용하는 앱으로, 레트로 감성 외에 접근성·생산성 프리셋도 포함한다.",
+        "points": [
+          "CRT·VHS 등 50종 이상의 실시간 효과",
+          "접근성과 생산성 중심 설정 제공"
+        ],
+        "why": [
+          "대비 조정·색 필터가 필요한 사용자에게 시스템 전역 도구로 활용 가능"
+        ]
+      }
+    }
+  ]
+}
