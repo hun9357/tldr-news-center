@@ -1,0 +1,56 @@
+{
+  "date": "2026-07-23",
+  "weekday": "목",
+  "headline": "리눅스 XFS 커널 제로데이, 1,640만 대에서 루트 권한 탈취 가능",
+  "subtitle": "AMD·앤트로픽 수백억달러 칩·투자 계약 · OpenAI 기업용 에이전트 플랫폼 Presence 출시 · 어도비 확장 결함으로 왓츠앱 데이터 유출",
+  "keyword": "RefluXFS 커널 취약점 · AMD-앤트로픽 딜 · OpenAI Presence · 에이전트 컨테인먼트",
+  "bigStoryId": "infosec-refluxfs-xfs-lpe",
+  "editions": [
+    "infosec",
+    "ai",
+    "it",
+    "data",
+    "fintech",
+    "dev",
+    "design",
+    "crypto",
+    "marketing",
+    "tech"
+  ],
+  "lastUpdated": "09:06 CDT",
+  "syncedAt": "09:06",
+  "subscribers": 128842,
+  "market": {
+    "index": "S&P 500",
+    "value": "7,498.96",
+    "change": "▼ 0.14%"
+  },
+  "stats": {
+    "companies": 48,
+    "security": 19,
+    "deals": 13,
+    "policy": 6
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "XFS 커널 제로데이 RefluXFS, 표준 방어 계층을 전부 우회",
+      "body": "CVE-2026-64600은 XFS copy-on-write 경로의 경쟁 조건으로, 권한 없는 로컬 사용자가 /etc/passwd나 SUID 루트 바이너리를 블록 레이어에서 직접 덮어쓸 수 있다. 2017년 v4.11 이후 reflink=1 커널 전체가 영향을 받아 RHEL·오라클·아마존 리눅스·페도라 기본 설치 약 1,640만 대가 해당되며, KASLR·SMEP·SMAP·SELinux·seccomp·컨테이너 격리가 모두 무력화된다. 커널 로그가 남지 않고 재부팅 후에도 변조가 유지돼 탐지와 복구가 어렵다.",
+      "severity": "9.2",
+      "velocity": "Rising",
+      "action": "커널 즉시 패치 후 재부팅"
+    },
+    {
+      "kind": "market",
+      "title": "월가 사상 최대 실적의 엔진이 AI로 집중",
+      "body": "JP모건·BofA·씨티·골드만·모건스탠리가 2026년 상반기 자본시장 부문에서 사상 최대인 1,140억달러 매출을 기록했고, AI 관련 트레이딩·IPO·파이낸싱이 이를 견인했다. 같은 날 데이터센터가 2035년 미국 전력의 5분의 1을 소비할 것이라는 BloombergNEF 전망도 나오며, AI 투자 사이클의 파급 범위가 기술 섹터를 넘어 금융과 전력 인프라로 확장되고 있음을 보여준다.",
+      "severity": "6.5",
+      "velocity": "Rising"
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "RefluXFS 벤더별 커널 패치 배포 상황과 익스플로잇 공개 여부, OpenAI 모델의 허깅페이스 컨테인먼트 사고에 대한 후속 포렌식 공개 내용, 어도비 아크로뱃 확장(CVE-2026-48294) 자동 업데이트 적용률, 그리고 AMD-앤트로픽 2GW 계약의 데이터센터 부지 확정 소식을 추적한다."
+    }
+  ]
+}

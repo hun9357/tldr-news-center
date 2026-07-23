@@ -1,0 +1,310 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-postgres-survival-guide",
+      "title": "스타트업을 위한 포스트그레스 생존 가이드",
+      "summary": "포스트그레스가 스케일에서 무너지는 원인은 대부분 인덱싱 부실, 긴 트랜잭션, 블로킹 마이그레이션, 커넥션 폭주, 오토배큠 지연 같은 피할 수 있는 운영 실수다.",
+      "source": "Hatchet",
+      "url": "https://hatchet.run/blog/postgres-survival-guide",
+      "originalDate": "2026-07-22",
+      "intel": {
+        "impact": "Medium",
+        "confidence": "85%",
+        "owner": "Eng",
+        "status": "Tracking",
+        "affectedSurface": "PostgreSQL 운영 · 스키마 마이그레이션"
+      },
+      "report": {
+        "tldr": "포스트그레스 장애의 대부분은 DB 한계가 아니라 운영 관행에서 나온다.",
+        "what": "포스트그레스가 스케일에서 실패하는 이유는 대체로 피할 수 있는 운영상의 실수다. 인덱싱 부실, 긴 트랜잭션, 블로킹 마이그레이션, 커넥션 폭주, 오토배큠 지연이 대표적이다. 핵심은 실제 쿼리 패턴을 중심으로 스키마를 설계하고, 쓰기와 마이그레이션을 논블로킹으로 유지하며, 무거운 작업을 배치로 처리하고, 장애로 이어지기 전에 쿼리 플랜과 블로트를 모니터링하는 것이다.",
+        "points": [
+          "실제 쿼리 패턴 기반 스키마 설계",
+          "쓰기와 마이그레이션은 논블로킹 유지",
+          "무거운 워크로드는 배치 처리",
+          "쿼리 플랜과 테이블 블로트를 사전 모니터링",
+          "커넥션 폭주와 오토배큠 지연이 대표적 장애 요인"
+        ],
+        "why": [
+          "DB를 교체하기 전에 운영 관행부터 점검하는 편이 대부분의 경우 비용 대비 효과가 크다."
+        ],
+        "action": "블로킹 마이그레이션과 장기 트랜잭션을 CI 단계에서 차단하는 규칙부터 도입한다."
+      }
+    },
+    {
+      "id": "data-duckdb-vectorized-execution",
+      "title": "DuckDB 내부 구조: 왜 빠른가 (2부 벡터화 실행)",
+      "summary": "행 단위가 아니라 2,048행 캐시 친화 배치로 데이터를 처리하며, 벡터 포맷·선택 벡터·사전 컴파일 연산·푸시 기반 파이프라인으로 오버헤드를 줄인다.",
+      "source": "Greybeam",
+      "url": "https://www.greybeam.ai/blog/duckdb-internals-part-2",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "DuckDB의 속도는 2,048행 단위 벡터화 실행과 푸시 기반 파이프라인에서 나온다.",
+        "what": "DuckDB는 한 번에 한 행씩이 아니라 캐시 친화적인 2,048행 배치 단위로 데이터를 처리하기 때문에 빠르다. 벡터 포맷, 선택 벡터, 사전 컴파일된 연산, 푸시 기반 파이프라인이 복사, 함수 호출 오버헤드, 병렬 실행 비용을 줄인다.",
+        "points": [
+          "2,048행 단위 캐시 친화 배치 처리",
+          "선택 벡터로 불필요한 데이터 복사 회피",
+          "사전 컴파일 연산으로 함수 호출 오버헤드 감소",
+          "푸시 기반 파이프라인으로 병렬 실행 비용 절감"
+        ],
+        "why": [
+          "임베디드 분석 엔진이 전통적 MPP 수준 성능을 내는 구조적 이유를 이해하면 워크로드 배치 판단이 쉬워진다."
+        ]
+      }
+    },
+    {
+      "id": "data-aurora-dsql",
+      "title": "Aurora DSQL: 확장 가능한 멀티리전 OLTP",
+      "summary": "서버·샤드·복제본·페일오버 관리 없이 포스트그레스 호환의 강한 일관성 액티브-액티브 멀티리전 OLTP를 제공하며, 크로스리전 지연은 대부분 커밋 시점에 지불된다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/pdf/2607.13276",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "샤딩과 페일오버 운영 부담 없이 멀티리전 강일관성 OLTP를 쓰되, 트랜잭션 크기 제약을 설계에 반영해야 한다.",
+        "what": "Aurora DSQL은 서버, 샤드, 복제본, 페일오버를 관리하지 않고도 포스트그레스 호환의 강한 일관성 액티브-액티브 멀티리전 OLTP를 제공한다. 크로스리전 지연은 대부분 커밋 시점에 발생한다. 다만 팀은 여전히 짧은 트랜잭션을 유지해야 하며, 트랜잭션당 3,000행 또는 10MiB 제한과 외래키 미적용 같은 현재 제약을 우회해야 한다.",
+        "points": [
+          "포스트그레스 호환 + 액티브-액티브 멀티리전 강일관성",
+          "크로스리전 지연은 주로 커밋 시점에 집중",
+          "트랜잭션당 3,000행 또는 10MiB 제한",
+          "외래키 제약이 강제되지 않음"
+        ],
+        "why": [
+          "운영 부담을 없애는 대신 트랜잭션 모델에 제약을 두는 트레이드오프가 명확해, 도입 전 데이터 접근 패턴 검증이 필수다."
+        ]
+      }
+    },
+    {
+      "id": "data-agent-own-database",
+      "title": "모든 에이전트에 각자의 데이터베이스를",
+      "summary": "에이전트마다 로컬 DuckDB를 두고, 가변 스냅샷 대신 스냅샷 ID와 콘텐츠 다이제스트를 담은 불변 SliceRef 객체를 교환해 캐시 일관성 문제를 피한다.",
+      "source": "Joe Reis",
+      "url": "https://joereis.substack.com/p/to-every-agent-its-own-database",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "에이전트별 로컬 DB와 불변 참조 교환, 기계 검증 가능한 시맨틱 계약으로 다중 에이전트 데이터 일관성을 다룬다.",
+        "what": "각 에이전트가 로컬 DuckDB 인스턴스를 가지고, 가변 스냅샷 대신 스냅샷 ID와 콘텐츠 다이제스트를 포함한 불변 고정 SliceRef 객체를 교환해 캐시 일관성 문제를 피한다. Malloy로 작성한 시맨틱 계약이 통제된 쿼리를 기계 검증 가능한 산출물로 정의하고, 계약 비교 레이어가 변경을 동일·추가·파괴·무관으로 분류한 뒤에야 하위 연산이 실행된다.",
+        "points": [
+          "에이전트별 로컬 DuckDB 인스턴스",
+          "불변 SliceRef(스냅샷 ID + 콘텐츠 다이제스트) 교환",
+          "Malloy 시맨틱 계약으로 통제된 쿼리 정의",
+          "계약 변경을 동일/추가/파괴/무관으로 자동 분류"
+        ],
+        "why": [
+          "다중 에이전트 환경에서 '어떤 데이터를 봤는가'를 재현할 수 없으면 결과 검증 자체가 불가능해진다."
+        ]
+      }
+    },
+    {
+      "id": "data-backfilling-underrated",
+      "title": "백필링: 데이터 파이프라인에서 가장 저평가된 기능",
+      "summary": "백필은 증분 적재와 동일한 프로덕션 파이프라인을 사용하고, 신규 데이터·전체·단일 레코드 처리 여부를 설정으로 제어해야 한다는 주장이다.",
+      "source": "Opto Investments",
+      "url": "https://thesis.optoinvest.com/posts/backfilling-most-underrated-feature/",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "백필용 일회성 스크립트를 없애고 동일 파이프라인을 설정으로 제어하면 재처리가 안전하고 반복 가능해진다.",
+        "what": "백필은 증분 적재와 같은 프로덕션 파이프라인을 사용하되, 신규 데이터만 처리할지, 전체를 처리할지, 단일 레코드만 처리할지를 설정으로 제어해야 한다. 이렇게 하면 취약한 일회성 스크립트를 피할 수 있고, 이중 시간(bi-temporal) 기록과 결합하면 재처리가 안전하고 반복 가능해진다.",
+        "points": [
+          "백필과 증분 적재가 같은 코드 경로를 공유",
+          "처리 범위는 코드가 아닌 설정으로 제어",
+          "이중 시간 기록으로 재처리 안전성 확보",
+          "일회성 스크립트 제거로 운영 리스크 감소"
+        ],
+        "why": [
+          "장애 복구와 스키마 변경 대응의 실질적 속도는 백필 품질이 결정한다."
+        ]
+      }
+    },
+    {
+      "id": "data-dropbox-riviera",
+      "title": "드롭박스, 범용 콘텐츠 처리 플랫폼 Riviera의 AI 대응 진화",
+      "summary": "초당 수십만 건의 변환을 처리하는 내부 플랫폼으로, 새 파일 포맷은 코어를 건드리지 않고 플러그인으로 추가한다.",
+      "source": "Dropbox Tech",
+      "url": "https://dropbox.tech/infrastructure/how-our-universal-content-processing-platform-riviera-evolved-for-ai-and-beyond",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "플러그인 모델 덕분에 텍스트 추출 개선 한 번이 미리보기·검색·AI 문서 준비에 동시에 반영된다.",
+        "what": "드롭박스의 내부 콘텐츠 처리 플랫폼 Riviera는 초당 수십만 건의 변환을 수행한다. 새로운 파일 포맷을 추가할 때 코어 인프라를 수정하지 않고 플러그인을 추가하는 모델을 사용하며, 그 덕분에 텍스트 추출 품질 개선 같은 변화가 미리보기, 검색, AI 문서 준비에 동시에 전파된다.",
+        "points": [
+          "초당 수십만 건 규모의 콘텐츠 변환 처리",
+          "포맷별 플러그인 모델로 코어 무수정 확장",
+          "개선 사항이 미리보기·검색·AI 준비에 동시 전파"
+        ],
+        "why": [
+          "AI 파이프라인이 기존 콘텐츠 처리 인프라 위에 얹히면서, 추출 품질이 여러 하위 제품의 상한을 동시에 결정한다."
+        ]
+      }
+    },
+    {
+      "id": "data-datafusion-sort-pushdown",
+      "title": "거의 정렬된 데이터 최적화: 아파치 DataFusion의 Sort Pushdown",
+      "summary": "정확 정렬과 부분 정렬 상태를 자동으로 활용해 ORDER BY와 ORDER BY ... LIMIT N에서 전체 스캔과 블로킹 정렬을 피한다.",
+      "source": "Apache DataFusion",
+      "url": "https://datafusion.apache.org/blog/2026/07/20/sort-pushdown",
+      "originalDate": "2026-07-20",
+      "report": {
+        "tldr": "Parquet 통계와 파일 재정렬, 동적 필터로 정렬 비용을 크게 줄인다.",
+        "what": "아파치 DataFusion이 이제 정확 정렬 및 부분 정렬 상태를 자동으로 활용해 ORDER BY와 ORDER BY ... LIMIT N을 처리한다. Parquet의 min/max 통계, 파일 재정렬, 동적 필터를 사용해 전체 스캔과 블로킹 정렬을 회피한다.",
+        "points": [
+          "Parquet min/max 통계 기반 스킵",
+          "파일 단위 재정렬로 정렬성 활용",
+          "동적 필터로 LIMIT N 조기 종료",
+          "블로킹 정렬 연산자 회피"
+        ],
+        "why": [
+          "시계열처럼 이미 대체로 정렬된 데이터셋에서는 정렬 제거만으로 쿼리 비용이 크게 떨어진다."
+        ]
+      }
+    },
+    {
+      "id": "data-iceberg-schema-analyzer",
+      "title": "Iceberg와 Lakekeeper 기반 AI 스키마 분석기",
+      "summary": "쿼리 엔진의 DDL을 Lakekeeper가 Iceberg 카탈로그에 반영하고 Kafka로 변경 이벤트를 발행하면, FastAPI 서비스가 수초 내 영향도를 분석한다.",
+      "source": "Data Engineer Things",
+      "url": "https://blog.dataengineerthings.org/ai-schema-analyzer-powered-by-iceberg-and-lakekeeper-94adc7a7c65f",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "스키마 변경을 테이블 메타데이터 스캔 없이 준실시간 알림과 권고로 바꾼다.",
+        "what": "Iceberg와 Lakekeeper를 사용해 레이크하우스 테이블의 스키마 드리프트 영향도를 분석하는 AI 분석기를 구성한 사례다. 흐름은 쿼리 엔진이 DDL을 실행하면 Lakekeeper가 Iceberg 카탈로그를 갱신하고 Kafka/Redpanda로 변경 이벤트를 발행하며, FastAPI + aiokafka + Anthropic 서비스가 테이블 메타데이터를 스캔하지 않고 수초 내 영향도를 분석하는 방식이다. 결과는 슬랙과 SQLite로 전달된다.",
+        "points": [
+          "DDL → Iceberg 카탈로그 갱신 → Kafka 이벤트 발행 흐름",
+          "FastAPI + aiokafka + Anthropic 조합으로 영향도 분석",
+          "테이블 메타데이터 전수 스캔 없이 수초 내 처리",
+          "슬랙 알림 및 SQLite 저장으로 결과 전달"
+        ],
+        "why": [
+          "스키마 드리프트가 하위 파이프라인을 조용히 깨뜨리는 상황에서, 변경 시점 알림이 사후 디버깅보다 훨씬 싸다."
+        ]
+      }
+    },
+    {
+      "id": "data-agentic-ai-state",
+      "title": "에이전틱 AI의 현재 상태",
+      "summary": "트리아지·SQL·파이썬 등 전문화된 에이전트 팀을 MCP로 깃허브·슬랙·포스트그레스에 연결하는 프로덕션 구성이 자리잡고 있다.",
+      "source": "Machine Learning Mastery",
+      "url": "https://machinelearningmastery.com/the-current-state-of-agentic-ai/",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "지속 메모리 그래프와 다중 에이전트 핸드오프가 표준이 되면서 측면 프롬프트 인젝션이 새로운 위협이 됐다.",
+        "what": "프로덕션 시스템은 이제 트리아지, SQL, 파이썬 에이전트처럼 전문화된 에이전트 팀을 배치하고 MCP로 깃허브, 슬랙, 포스트그레스 같은 시스템에 연결한다. 지속 메모리 그래프가 실행 이력에서 사실을 추출해 에이전트가 조직 지식을 누적하게 하며, 다중 에이전트 핸드오프는 측면 프롬프트 인젝션 위험을 만들어 암호학적 도구 출처 증명과 일회성 샌드박스로 대응한다.",
+        "points": [
+          "역할별 전문 에이전트 팀 구성이 프로덕션 패턴으로 정착",
+          "MCP가 시스템 연결의 표준 인터페이스 역할",
+          "지속 메모리 그래프로 조직 지식 누적",
+          "핸드오프 구간의 측면 프롬프트 인젝션이 신규 위협",
+          "암호학적 도구 출처 증명과 일회성 샌드박스로 완화"
+        ],
+        "why": [
+          "에이전트 간 신뢰 경계가 명시적으로 설계되지 않으면 한 에이전트의 오염이 전체 체인으로 번진다."
+        ]
+      }
+    },
+    {
+      "id": "data-lakekeeper-minio",
+      "title": "Lakekeeper + MinIO로 스파크 없이 Iceberg ETL 구성",
+      "summary": "DuckDB의 Iceberg 확장이 CTAS, MERGE INTO, INSERT, UPDATE, DELETE를 지원하면서 로컬에서 전체 CRUD Iceberg ETL이 가능해졌다.",
+      "source": "Performance DE",
+      "url": "https://performancede.substack.com/p/lakekeeperminio",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "도커에서 저렴하게 테스트하고 환경변수만 바꿔 AWS S3Tables로 전환하는 구성이다.",
+        "what": "DuckDB의 Iceberg 확장이 CTAS, MERGE INTO, INSERT, UPDATE, DELETE를 지원하면서 스파크 없이도 로컬에서 완전한 CRUD 방식의 Iceberg ETL을 구성할 수 있게 됐다. S3 호환 스토리지로 MinIO를, Rust 기반 Iceberg 카탈로그로 LakeKeeper를 함께 쓰면 도커에서 저렴하게 스크립트를 테스트하고 환경변수와 시크릿만 바꿔 AWS S3Tables로 전환할 수 있다.",
+        "points": [
+          "DuckDB Iceberg 확장이 CTAS·MERGE·INSERT·UPDATE·DELETE 지원",
+          "MinIO로 S3 호환 로컬 스토리지 구성",
+          "LakeKeeper(Rust)로 Iceberg 카탈로그 운영",
+          "환경변수 전환만으로 AWS S3Tables 이행"
+        ],
+        "why": [
+          "레이크하우스 개발의 진입 장벽이 스파크 클러스터에서 도커 컴포즈 수준으로 내려간다."
+        ]
+      }
+    },
+    {
+      "id": "data-spark-cte-caching",
+      "title": "스파크 CTE의 스마트 캐싱 전략",
+      "summary": "스파크는 재사용·중첩 CTE를 기본적으로 재계산하므로, 중간 결과가 복잡하고 메모리에 들어가며 재사용되는 팬아웃 지점에서만 선택적으로 캐시해야 한다.",
+      "source": "Medium",
+      "url": "https://medium.com/@vincent_daniel/optimizing-cte-on-apache-spark-when-to-cache-and-when-not-to-0fe764766a63",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "무조건 캐시가 아니라 팬아웃 지점에서만 선택적으로 캐시하는 것이 핵심이다.",
+        "what": "스파크는 재사용되거나 중첩된 CTE를 기본적으로 재계산한다. 따라서 중간 결과가 복잡하고 메모리에 들어가며 실제로 재사용되는 팬아웃 지점에서만 선택적으로 캐시해야 한다. 아주 크거나 사소한 데이터셋 캐싱은 피하고, 모니터링이 명확해지도록 즉시 캐싱(eager caching)을 사용하며, 깊은 변환 체인은 머티리얼라이즈해 중복 작업과 스택 오버플로를 줄인다.",
+        "points": [
+          "재사용·중첩 CTE는 기본적으로 재계산됨",
+          "팬아웃 지점에서만 선택적 캐시",
+          "너무 크거나 사소한 데이터셋 캐싱은 회피",
+          "eager 캐싱으로 모니터링 가시성 확보",
+          "깊은 변환 체인은 머티리얼라이즈"
+        ],
+        "why": [
+          "CTE를 뷰처럼 생각하는 습관이 스파크에서는 그대로 중복 계산 비용으로 청구된다."
+        ]
+      }
+    },
+    {
+      "id": "data-latlng",
+      "title": "latlng: 이동 객체 인덱싱과 지오펜스를 위한 러스트 엔진",
+      "summary": "이동 객체 인덱싱, 지오펜스 실행, 위치 이벤트 스트리밍을 네이티브 또는 브라우저에서 처리하는 오픈소스 러스트 엔진이다.",
+      "source": "latlng",
+      "url": "https://latlng.cloud/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "위치 데이터 인덱싱과 지오펜스를 브라우저에서도 돌릴 수 있는 러스트 엔진이다.",
+        "what": "latlng은 이동 객체를 인덱싱하고 지오펜스를 실행하며 위치 이벤트를 스트리밍하는 오픈소스 러스트 엔진으로, 네이티브와 브라우저 환경 모두를 지원한다.",
+        "points": [
+          "이동 객체 인덱싱 지원",
+          "지오펜스 실행 및 위치 이벤트 스트리밍",
+          "네이티브 및 브라우저(WASM) 실행"
+        ],
+        "why": [
+          "위치 처리를 서버 왕복 없이 클라이언트에서 수행할 수 있으면 실시간 위치 서비스의 지연과 비용 구조가 달라진다."
+        ]
+      }
+    },
+    {
+      "id": "data-text-to-sql-beaver",
+      "title": "실제 환경의 Text-to-SQL은 벤치마크보다 어렵다",
+      "summary": "실제 데이터 웨어하우스는 '스키마 부패'와 고유한 특이 데이터를 안고 있어, 실제 워크로드 기반 벤치마크 Beaver에서는 LLM 성능이 훨씬 낮게 나온다.",
+      "source": "CACM",
+      "url": "https://cacm.acm.org/blogcacm/if-you-think-you-can-do-real-world-text-to-sql/",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "Text-to-SQL 벤치마크가 성능을 과대평가하는 이유는 실제 웨어하우스의 지저분함을 반영하지 않기 때문이다.",
+        "what": "Text-to-SQL 벤치마크는 실제 데이터 웨어하우스의 복잡성을 반영해야 한다. 실제 웨어하우스는 '스키마 부패'와 조직마다 다른 특이 데이터 문제를 안고 있다. 실제 데이터 워크로드에서 만들어진 새 벤치마크 Beaver에서는 일반적인 LLM 성능이 훨씬 낮게 나타났다.",
+        "points": [
+          "실제 웨어하우스의 스키마 부패와 특이 데이터가 주요 변수",
+          "실 워크로드 기반 벤치마크 Beaver 공개",
+          "기존 벤치마크 대비 LLM 성능이 크게 하락"
+        ],
+        "why": [
+          "자연어 질의 도입을 검토할 때 공개 벤치마크 점수를 그대로 도입 근거로 삼으면 안 된다."
+        ]
+      }
+    },
+    {
+      "id": "data-database-liability",
+      "title": "데이터베이스는 되돌릴 수 없는 부채다",
+      "summary": "기본키, 파티셔닝, 컬럼 타입처럼 되돌리기 어려운 스키마 결정은 프로덕션에 도달하기 전에 강한 가드레일이 필요하다.",
+      "source": "DeepSQL",
+      "url": "https://deepsql.ai/blog/the-database-is-a-liability-you-cant-revert",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "스키마 결정은 배포 후 되돌릴 수 없으므로 코드 리뷰보다 강한 통제가 필요하다.",
+        "what": "데이터베이스 스키마 결정은 수년간 지속되는 값비싼 기술 부채를 만들 수 있다. 기본키, 파티셔닝, 컬럼 타입 같은 비가역적 선택은 프로덕션에 도달하기 전에 강한 가드레일을 거쳐야 한다.",
+        "points": [
+          "기본키·파티셔닝·컬럼 타입은 사실상 비가역적 결정",
+          "프로덕션 도달 전 검토 가드레일 필요",
+          "잘못된 결정의 비용이 수년 단위로 누적"
+        ],
+        "why": [
+          "애플리케이션 코드는 리팩터링할 수 있지만 수억 행이 쌓인 스키마는 그렇지 않다."
+        ]
+      }
+    }
+  ]
+}
