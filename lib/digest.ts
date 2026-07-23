@@ -79,6 +79,21 @@ export function getAllDates(): string[] {
     .sort((a, b) => b.localeCompare(a));
 }
 
+// The digest JSON is machine-generated daily and has shipped `report.why` as a
+// bare string instead of string[], which breaks the unguarded .map() in the
+// article page. Coerce the list fields once here, where every caller loads data.
+const asList = (v: unknown): string[] | undefined =>
+  v === undefined || v === null ? undefined : Array.isArray(v) ? v : [String(v)];
+
+function normalizeItem(it: Item): Item {
+  const r = it.report;
+  return {
+    ...it,
+    related: asList(it.related),
+    ...(r ? { report: { ...r, points: asList(r.points), why: asList(r.why) } } : {}),
+  };
+}
+
 export function getDigest(date: string): Digest | null {
   const dir = path.join(DATA_DIR, date);
   const indexFile = path.join(dir, "index.json");
@@ -89,7 +104,7 @@ export function getDigest(date: string): Digest | null {
       const f = path.join(dir, slug + ".json");
       if (!fs.existsSync(f)) return null;
       const e = JSON.parse(fs.readFileSync(f, "utf-8")) as Edition;
-      return { ...e, slug };
+      return { ...e, slug, items: (e.items ?? []).map(normalizeItem) };
     })
     .filter((e): e is Edition => e !== null);
   return { ...meta, editions };
