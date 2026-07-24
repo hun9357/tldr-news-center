@@ -1,0 +1,258 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-confidential-containers-cncf",
+      "title": "컨피덴셜 컨테이너, CNCF 인큐베이팅 프로젝트로 승격",
+      "summary": "하드웨어 기반 신뢰 실행 환경(TEE)으로 연산 중 데이터를 보호하는 쿠버네티스 프로젝트가 인큐베이팅 단계로 올라섰다. 2021년 이후 기여자 150명 이상, 병합 PR 1,200건 이상을 기록했다.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/blog/2026/07/22/confidential-containers-becomes-a-cncf-incubating-project/",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "'사용 중인 데이터' 암호화가 쿠버네티스 표준 경로로 진입했다.",
+        "what": "CNCF가 컨피덴셜 컨테이너를 인큐베이팅 프로젝트로 승격했다. 하드웨어 TEE를 이용해 연산 중 데이터를 보호하며, 기여자 150명·병합 PR 1,200건 이상으로 성장했다.",
+        "points": [
+          "하드웨어 기반 TEE로 실행 중 데이터 보호",
+          "쿠버네티스 워크로드 대상",
+          "기여자 150명+, 병합 PR 1,200건+",
+          "인큐베이팅 승격 = 프로덕션 채택 신호"
+        ],
+        "why": [
+          "멀티테넌트 AI 추론처럼 남의 인프라에서 민감 데이터를 다루는 워크로드에 직접 필요한 기술",
+          "규제 산업의 클라우드 이전 장벽을 낮춘다"
+        ],
+        "context": "TEE(Trusted Execution Environment): CPU가 제공하는 격리 영역으로, 호스트 운영체제나 하이퍼바이저 관리자도 내부 메모리를 들여다볼 수 없게 한다."
+      }
+    },
+    {
+      "id": "devops-ai-changing-open-source",
+      "title": "AI가 오픈소스를 바꾸는 방식",
+      "summary": "AI가 만들어낸 저품질 저장소와 성의 없는 PR이 메인테이너를 압도하고 있다. 코드 생산은 싸졌지만 리뷰는 여전히 느려, 사용자는 큐레이션된 소스로, 일부 메인테이너는 클로즈드 소스로 이동할 수 있다는 전망이다.",
+      "source": "Eischmann blog",
+      "url": "https://enblog.eischmann.cz/2026/07/23/how-ai-is-changing-open-source/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "생산은 무료가 됐고 리뷰는 그대로다 — 오픈소스 협업 모델의 비대칭이 깨지는 중.",
+        "what": "AI 생성 저장소와 저품질 PR이 급증하면서 메인테이너의 검토 부담이 한계에 달했다. 큐레이션된 소스 선호와 일부 프로젝트의 클로즈드 전환 가능성이 제기된다.",
+        "points": [
+          "AI 생성 PR·저장소 급증으로 메인테이너 번아웃",
+          "코드 생산 비용↓ vs 리뷰 비용 그대로",
+          "큐레이션된 배포처로의 사용자 이동 전망",
+          "일부 메인테이너의 클로즈드 소스 전환 가능성"
+        ],
+        "why": [
+          "공급망 보안 관점에서 '검토되지 않은 오픈소스' 비중이 늘어나는 건 직접적 리스크",
+          "같은 날 개발 에디션의 코드 리뷰 부하 논의와 동일한 병목이 커뮤니티 층위에서 나타난 형태"
+        ]
+      }
+    },
+    {
+      "id": "devops-k8s-custom-metrics-exporter",
+      "title": "쿠버네티스 커스텀 메트릭 익스포터 만들기",
+      "summary": "애플리케이션 신호를 프로메테우스에 노출하는 커스텀 익스포터 제작 가이드다. CPU·메모리를 넘어선 오토스케일링을 가능하게 한다.",
+      "source": "Kubernetes",
+      "url": "https://kubernetes.io/blog/2026/07/14/custom-metrics-exporter-kubernetes/",
+      "originalDate": "2026-07-14",
+      "report": {
+        "tldr": "CPU·메모리로는 잡히지 않는 부하에 맞춰 스케일링하려면 커스텀 메트릭이 필요하다.",
+        "what": "애플리케이션 고유 신호를 프로메테우스로 노출하는 커스텀 메트릭 익스포터의 설계와 구현을 다룬다.",
+        "points": [
+          "메트릭 설계부터 구현까지 단계별 안내",
+          "CPU·메모리 외 지표 기반 오토스케일링",
+          "프로메테우스 노출 규약 준수"
+        ],
+        "why": [
+          "큐 길이·추론 대기열처럼 AI 워크로드의 실제 부하 지표는 CPU에 나타나지 않는다"
+        ]
+      }
+    },
+    {
+      "id": "devops-multicluster-databases",
+      "title": "쿠버네티스 멀티클러스터 데이터베이스 아키텍처",
+      "summary": "3개 클러스터에 2+2+1 패턴으로 몽고DB를 배치해 퍼코나 오퍼레이터로 12초 내 자동 페일오버를 구현하는 CNCF 가이드다.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/blog/2026/07/22/multi-cluster-databases-on-kubernetes-architecture-and-deployment/",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "12초 페일오버를 만드는 2+2+1 클러스터 배치 패턴.",
+        "what": "3개 클러스터에 2+2+1로 노드를 분산하고 퍼코나 오퍼레이터를 사용해 12초 내 자동 페일오버가 되는 몽고DB 구성을 설명한다.",
+        "points": [
+          "2+2+1 노드 분산으로 쿼럼 유지",
+          "퍼코나 오퍼레이터 기반 자동 페일오버",
+          "복구 시간 12초 수준"
+        ],
+        "why": [
+          "멀티리전 가용성 요구가 늘면서 쿠버네티스 위 스테이트풀 운영이 다시 쟁점"
+        ]
+      }
+    },
+    {
+      "id": "devops-rocksdb-mvcc",
+      "title": "록스DB의 MVCC와 트랜잭션 동작 원리",
+      "summary": "시퀀스 번호·불변 버전·스냅샷을 이용한 록스DB의 MVCC 구현과, 하위 API로 조립된 비관적·낙관적 트랜잭션 모드를 깊이 있게 설명한다.",
+      "source": "Artem Krylysov",
+      "url": "https://artem.krylysov.com/blog/2026/07/23/how-mvcc-and-transactions-work-in-rocksdb/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "록스DB의 트랜잭션은 내장 기능이 아니라 하위 프리미티브로 조립된 것이다.",
+        "what": "록스DB가 시퀀스 번호와 불변 버전, 스냅샷으로 MVCC를 구현하는 방식과 비관적·낙관적 트랜잭션 모드의 차이를 설명한다.",
+        "points": [
+          "시퀀스 번호 기반 버전 관리",
+          "스냅샷을 통한 일관된 읽기",
+          "비관적/낙관적 트랜잭션 모드 비교"
+        ],
+        "why": [
+          "록스DB를 내장 스토리지로 쓰는 시스템의 격리 수준을 정확히 이해해야 데이터 손상을 피한다"
+        ],
+        "context": "MVCC(다중 버전 동시성 제어): 같은 데이터의 여러 버전을 유지해 읽기와 쓰기가 서로를 막지 않게 하는 기법."
+      }
+    },
+    {
+      "id": "devops-google-ai-vuln-management",
+      "title": "AI 익스플로잇 해부 — AI 지원 취약점 관리 청사진",
+      "summary": "LLM에 결정론적 통제, 사람 감독, 리스크 기반 우선순위를 결합해 탐지 성능을 높이면서 아키텍처·배포 리스크를 줄이는 프레임워크다.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/ai-assisted-vulnerability-management/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "LLM 단독이 아니라 결정론적 통제와 묶어야 취약점 관리에 쓸 수 있다.",
+        "what": "구글 클라우드가 LLM과 결정론적 검증, 사람 감독, 리스크 기반 우선순위를 결합한 취약점 관리 프레임워크를 제시했다.",
+        "points": [
+          "LLM + 결정론적 통제 조합이 핵심",
+          "사람 감독을 필수 단계로 배치",
+          "리스크 기반 우선순위로 노이즈 감소"
+        ],
+        "why": [
+          "AI 탐지 결과의 오탐 비용이 실무 도입의 최대 장벽이었다",
+          "같은 날 구글 맨티스 공개와 함께 구글의 보안 AI 스택이 윤곽을 드러냈다"
+        ]
+      }
+    },
+    {
+      "id": "devops-datadog-siem-mcp",
+      "title": "데이터독, 클라우드 SIEM에 MCP 서버로 에이전트 워크플로 도입",
+      "summary": "점진적 정보 공개와 쿼리 기반 설계로 대규모 보안 조사를 자동화하는 MCP 툴을 구현했다. 에이전트 동작의 신뢰성을 위한 거버넌스도 함께 적용했다.",
+      "source": "Datadog",
+      "url": "https://www.datadoghq.com/blog/creating-mcp-tools-for-cloud-siem/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "SIEM 조사에 에이전트를 붙이는 실전 설계 — 핵심은 도구를 조금씩 열어주는 것.",
+        "what": "데이터독이 클라우드 SIEM용 MCP 툴을 만들며 점진적 공개(progressive disclosure)와 쿼리 기반 설계로 대규모 보안 조사를 자동화한 사례를 공개했다.",
+        "points": [
+          "점진적 정보 공개로 컨텍스트 폭발 방지",
+          "쿼리 기반 툴 설계",
+          "에이전트 신뢰성 확보용 거버넌스 적용"
+        ],
+        "why": [
+          "MCP 툴 설계 패턴의 실제 프로덕션 사례로 참고 가치가 크다"
+        ]
+      }
+    },
+    {
+      "id": "devops-prompt-caching-agents",
+      "title": "에이전트에서의 프롬프트 캐싱",
+      "summary": "변하지 않는 접두부를 재사용해 에이전트 속도를 높이지만, 툴 추가·모델 전환·캐시 만료가 이득을 무효화할 수 있다는 분석이다.",
+      "source": "Earendil blog",
+      "url": "https://earendil.com/posts/prompt-caching/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "프롬프트 캐싱은 강력하지만 툴 하나만 추가해도 통째로 무효화된다.",
+        "what": "프롬프트 접두부 재사용으로 지연·비용을 줄이는 캐싱 원리와, 툴 목록 변경·모델 교체·만료로 캐시가 깨지는 조건을 정리했다.",
+        "points": [
+          "변하지 않는 접두부 재사용이 원리",
+          "툴 추가·순서 변경 시 캐시 무효화",
+          "모델 전환과 TTL 만료도 이득을 소거"
+        ],
+        "why": [
+          "에이전트 비용 최적화에서 가장 먼저 손대는 레버이자 가장 쉽게 깨지는 레버",
+          "라우팅으로 모델을 바꿔 끼우는 전략과 캐싱은 서로 상충할 수 있다"
+        ],
+        "action": "툴 정의를 프롬프트 앞단에 고정하고 변경 빈도를 낮출 것"
+      }
+    },
+    {
+      "id": "devops-argocd-secret-store-csi",
+      "title": "시크릿 스토어 CSI 드라이버로 GitOps 시크릿 보호",
+      "summary": "Argo CD v3.x는 시크릿 스토어 CSI 드라이버를 포함한 외부 시크릿 컨트롤러 사용을 권장한다.",
+      "source": "Octopus",
+      "url": "https://octopus.com/blog/gitops-secrets-csi-driver",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "GitOps에서 시크릿을 저장소에 넣지 않는 표준 경로.",
+        "what": "Argo CD v3.x가 시크릿 스토어 CSI 드라이버 등 외부 시크릿 컨트롤러를 통한 GitOps 시크릿 관리를 권장한다는 내용이다.",
+        "points": [
+          "시크릿을 Git 저장소 밖에 유지",
+          "CSI 드라이버로 런타임 마운트",
+          "Argo CD v3.x 권장 구성"
+        ],
+        "why": [
+          "저장소에 커밋된 자격증명은 반복적으로 대형 사고의 원인이 돼 왔다"
+        ]
+      }
+    },
+    {
+      "id": "devops-code-review-graph",
+      "title": "code-review-graph — 토큰 사용량 82배 절감 컨텍스트 도구",
+      "summary": "트리시터 기반 오픈소스 도구로 AI 어시스턴트에 정확한 코드베이스 컨텍스트를 제공한다. 2,900개 파일 프로젝트를 2초 안에 재색인한다.",
+      "source": "GitHub",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "전체 파일을 밀어 넣는 대신 그래프로 필요한 조각만 준다 — 토큰 82배 절감.",
+        "what": "트리시터로 코드베이스를 그래프화해 AI 어시스턴트에 필요한 컨텍스트만 제공하는 오픈소스 도구다. 2,900파일 프로젝트를 2초 내에 재색인한다.",
+        "points": [
+          "트리시터 기반 구문 그래프 색인",
+          "토큰 사용량 82배 절감 주장",
+          "2,900파일 재색인 2초 미만"
+        ],
+        "why": [
+          "에이전트 비용의 대부분이 컨텍스트 주입에서 나오는 구조를 겨냥한다"
+        ]
+      }
+    },
+    {
+      "id": "devops-likec4",
+      "title": "LikeC4 — 코드에서 생성되는 아키텍처 다이어그램",
+      "summary": "C4 모델에서 영감을 받은 모델링 언어로, 코드에서 실시간 소프트웨어 아키텍처 다이어그램을 자동 생성한다.",
+      "source": "GitHub",
+      "url": "https://github.com/likec4/likec4",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "아키텍처 다이어그램을 문서가 아니라 코드로 관리한다.",
+        "what": "LikeC4는 C4 모델 기반 모델링 언어로 코드에서 아키텍처 다이어그램을 생성하며 표기법과 요소 유형을 커스터마이즈할 수 있다.",
+        "points": [
+          "C4 모델 기반 DSL",
+          "코드에서 다이어그램 자동 생성",
+          "표기법·요소 타입 커스터마이즈 지원"
+        ],
+        "why": [
+          "다이어그램과 실제 구조의 괴리는 온보딩과 사고 대응 속도를 직접 떨어뜨린다"
+        ]
+      }
+    },
+    {
+      "id": "devops-newrelic-intelligent-workloads",
+      "title": "알림 폭풍에서 근본 원인까지 — 인텔리전트 워크로드",
+      "summary": "서비스와 인프라를 트랜잭션 중심 건강 상태로 통합해 AI 요약과 설정 가능한 건강 규칙으로 근본 원인 분석 속도를 높인다.",
+      "source": "New Relic",
+      "url": "https://newrelic.com/blog/apm/from-alert-storm-to-root-cause-in-minutes",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "알림 개수가 아니라 트랜잭션 단위 건강 상태로 보는 관측 방식.",
+        "what": "뉴렐릭의 인텔리전트 워크로드가 서비스·인프라를 트랜잭션 중심 뷰로 통합하고 AI 요약과 건강 규칙으로 근본 원인 분석을 단축한다.",
+        "points": [
+          "트랜잭션 중심 통합 건강 뷰",
+          "AI 요약 기반 원인 후보 제시",
+          "설정 가능한 건강 규칙"
+        ],
+        "why": [
+          "알림 피로는 온콜 실패의 주된 원인이고, 요약 자동화가 현실적 완화책이 되고 있다"
+        ]
+      }
+    }
+  ]
+}

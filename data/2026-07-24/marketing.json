@@ -1,0 +1,253 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-digital-fatigue",
+      "title": "디지털 번아웃이 소셜미디어 이용을 바꾸고 있다",
+      "summary": "절반 이상이 게시 빈도를 줄이고 공개 범위를 좁혔으며 47%는 스트레스로 앱을 삭제했다. 특히 Z세대에서 두드러지고 정치 콘텐츠가 주요 이탈 요인으로 꼽혔다.",
+      "source": "Incogni",
+      "url": "https://blog.incogni.com/digital-fatigue-and-burnout/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "공개 게시가 줄어들면 도달 기반 마케팅의 토대가 흔들린다.",
+        "what": "이용자 절반 이상이 게시 빈도를 줄이고 청중 범위를 제한했으며 47%는 스트레스 때문에 앱을 삭제했다. Z세대에서 특히 뚜렷하며 정치 콘텐츠가 주된 원인으로 지목됐다.",
+        "points": [
+          "절반 이상이 게시 빈도 축소·공개 범위 제한",
+          "47%가 스트레스로 앱 삭제 경험",
+          "Z세대에서 가장 두드러짐",
+          "정치 콘텐츠가 주요 이탈 동인"
+        ],
+        "why": [
+          "오가닉 도달이 줄면 커뮤니티·뉴스레터 같은 직접 채널의 가치가 올라간다",
+          "같은 날 서브스택 5,000만 구독 소식과 같은 흐름의 뒷면"
+        ]
+      }
+    },
+    {
+      "id": "marketing-cmo-title-deleted",
+      "title": "포춘 500, CMO 직함을 지우고 있다",
+      "summary": "CMO 직함을 유지하는 포춘 500 기업이 지난해 49%에서 36%로 줄었다. 마케팅이 매출·성장 조직으로 통합되며 CGO 같은 직함이 대체하는 중이다.",
+      "source": "The State of Brand",
+      "url": "https://www.thestateofbrand.com/news/fortune-500-cmo-title-deleted",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "마케팅 리더십이 브랜드에서 매출 책임 조직으로 재편되고 있다.",
+        "what": "CMO 직함을 유지하는 포춘 500 기업 비중이 49%에서 36%로 하락했다. 마케팅 기능이 매출·성장 조직에 흡수되며 최고성장책임자(CGO) 등이 자리를 대신한다.",
+        "points": [
+          "CMO 유지 기업 49% → 36%",
+          "매출·성장 기능으로의 통합",
+          "CGO 등 대체 직함 확산"
+        ],
+        "why": [
+          "마케팅 예산의 정당화 기준이 브랜드 지표에서 매출 기여로 완전히 넘어갔다는 신호"
+        ]
+      }
+    },
+    {
+      "id": "marketing-substack-ai-detection",
+      "title": "서브스택, 뉴스레터의 AI 작성 비율을 표시하는 도구 도입",
+      "summary": "팬그램의 AI 탐지 기능을 통합해 100자 이상 게시물과 댓글의 인간 대 AI 작성 추정 비율을 보여준다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "플랫폼이 'AI가 썼는지'를 공개 지표로 만들기 시작했다.",
+        "what": "서브스택이 팬그램의 AI 탐지를 통합해 100자 이상 게시물·댓글에 대해 인간/AI 작성 추정 비율을 표시한다.",
+        "points": [
+          "팬그램 AI 탐지 엔진 통합",
+          "100자 이상 게시물·댓글 대상",
+          "추정 비율을 백분율로 표시"
+        ],
+        "why": [
+          "AI 탐지의 오탐 위험이 창작자 평판에 직접 영향을 준다는 반발도 예상된다",
+          "콘텐츠 마케팅에서 '사람이 썼다'는 표식이 자산이 되는 국면"
+        ],
+        "action": "AI 보조로 작성하는 뉴스레터의 표기·편집 정책을 사전에 정리할 것"
+      }
+    },
+    {
+      "id": "marketing-reddit-brand-presence",
+      "title": "2026년 레딧에서 브랜드 존재감 만드는 법",
+      "summary": "홍보 전에 커뮤니티 규범에 먼저 스며들고 레딧 프로 도구로 논의를 모니터링하라고 권한다. 구글 검색과 AI 도구가 레딧 논의를 자주 인용하기 때문에 노출 가치가 크다.",
+      "source": "Social Media Today",
+      "url": "https://www.socialmediatoday.com/news/how-to-build-a-brand-presence-on-reddit-in-2026/824783/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "레딧이 검색·AI 답변의 인용 소스가 되면서 브랜드 노출 채널로 격상됐다.",
+        "what": "커뮤니티 규범 학습을 선행하고 레딧 프로로 논의를 모니터링하는 접근을 제안한다. 구글과 AI 도구의 잦은 인용이 노출 가치를 높인다.",
+        "points": [
+          "홍보 이전에 커뮤니티 규범 적응이 필수",
+          "레딧 프로 도구로 언급 모니터링",
+          "구글·AI 답변의 인용 소스로서의 가치"
+        ],
+        "why": [
+          "AI 검색 답변에 인용되는 것이 새로운 SEO 목표가 되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-youtube-ai-search",
+      "title": "유튜브 AI 검색에 안 보이면 경쟁사가 그 자리를 차지한다",
+      "summary": "구글 AI가 유튜브 영상을 검색 결과에 통합하면서 사용자 질문 중심으로 콘텐츠를 구성한 채널이 유리해졌다. 제품 중심 콘텐츠만으로는 AI 답변에서 사라질 위험이 있다.",
+      "source": "Pixability",
+      "url": "https://www.pixability.com/youtube/if-your-brand-isnt-showing-up-in-youtube-ai-search-your-competitors-are/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "영상 콘텐츠도 '질문에 답하는 구조'로 만들어야 AI 답변에 들어간다.",
+        "what": "구글 AI가 유튜브 영상을 검색 결과에 통합함에 따라, 사용자 질문 중심으로 구성된 콘텐츠가 우대받고 제품 소개 중심 콘텐츠는 노출에서 밀린다.",
+        "points": [
+          "구글 AI 답변에 유튜브 영상 통합",
+          "질문 기반 콘텐츠 구조가 유리",
+          "제품 중심 콘텐츠의 노출 리스크"
+        ],
+        "why": [
+          "검색 최적화의 단위가 키워드에서 질문으로 이동하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "marketing-b2b-storytelling",
+      "title": "B2B 구매자를 끌어들이는 5가지 스토리텔링 프레임워크",
+      "summary": "효과적인 B2B 서사는 기능 나열이 아니라 브랜드의 목적·대립항·고객 성공을 논리적으로 연결한다. 명확한 인과와 대립 대상이 필요하다.",
+      "source": "Pierre Herubel",
+      "url": "https://pierreherubel.substack.com/p/5-storytelling-frameworks-to-attract",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "B2B 서사의 핵심은 '무엇에 반대하는가'를 정하는 것.",
+        "what": "브랜드 목적, 대립 대상, 고객 성공을 인과로 연결하는 다섯 가지 B2B 스토리텔링 구조를 제시한다.",
+        "points": [
+          "기능 나열 대신 인과 중심 서사",
+          "명확한 대립 대상(경쟁사·관행) 설정 필요",
+          "고객 성공으로 귀결되는 구조"
+        ],
+        "why": [
+          "제품 차별화가 어려워질수록 서사 구조가 실질적 차별점이 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-poppi-case-study",
+      "title": "포피는 어떻게 10억 달러 소다 브랜드를 만들었나",
+      "summary": "새 카테고리를 창출하고 마케팅 예산의 약 20%를 틱톡 크리에이터에 배정해 크리에이터 콘텐츠를 주요 인지 채널로 삼았다.",
+      "source": "Marketer Gems",
+      "url": "https://www.marketergems.com/p/poppi-case-study-marketing-deep-dive",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "카테고리 창출 + 크리에이터 예산 집중이라는 두 개의 결정.",
+        "what": "포피가 새로운 음료 카테고리를 만들고 마케팅 예산의 약 20%를 틱톡 크리에이터에 투입해 인지도를 구축한 과정을 분석한다.",
+        "points": [
+          "새 카테고리 정의로 직접 비교 회피",
+          "마케팅 예산 약 20%를 틱톡 크리에이터에 배정",
+          "크리에이터 콘텐츠가 주 인지 채널"
+        ],
+        "why": [
+          "예산 배분의 과감함 자체가 전략이었던 사례"
+        ]
+      }
+    },
+    {
+      "id": "marketing-funny-marketing-101",
+      "title": "재미있는 마케팅 101",
+      "summary": "마케팅 유머는 니치 청중에 대한 구체성과 기대를 뒤집는 의외성이 있어야 통한다. 대부분의 브랜드가 청중 특화 유머를 방치하기 때문에 광범위한 코미디보다 효과가 크다.",
+      "source": "Marketing Ideas",
+      "url": "https://www.marketingideas.com/p/if-you-paid-me-to-make-your-brand",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "모두를 웃기려는 유머는 아무도 웃기지 못한다.",
+        "what": "니치 청중을 겨냥한 구체성과 기대 전복이 마케팅 유머의 핵심이며, 넓은 코미디보다 효과가 크다는 분석이다.",
+        "points": [
+          "구체성 = 특정 청중만 아는 맥락 활용",
+          "의외성 = 기대 전복",
+          "대부분 브랜드가 시도하지 않아 경쟁이 적음"
+        ],
+        "why": [
+          "AI가 만든 무난한 카피가 넘칠수록 특정성이 차별화 수단이 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-gsc-keyword-research",
+      "title": "구글 서치 콘솔로 키워드 리서치하는 5가지 방법",
+      "summary": "2페이지에 걸쳐 있는 '스트라이킹 디스턴스' 키워드와 순위는 높지만 CTR이 낮은 페이지를 찾아 확장 기회를 발굴한다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/seo-expert-tayyaba_most-businesses-sit-on-a-goldmine-in-google-share-7486012940756897793-fYkl/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "이미 가진 데이터에서 가장 싼 SEO 기회를 찾는 방법.",
+        "what": "구글 서치 콘솔에서 2페이지 경계의 키워드와 고순위·저CTR 페이지를 식별해 개선 우선순위를 잡는 방법을 소개한다.",
+        "points": [
+          "스트라이킹 디스턴스 = 11~20위권 키워드",
+          "고순위·저CTR 페이지는 제목·설명 개선 대상",
+          "신규 콘텐츠보다 기존 자산 최적화가 우선"
+        ],
+        "why": [
+          "AI 검색 확산으로 클릭이 줄어드는 상황에서 기존 순위 자산의 효율화가 중요해졌다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-claude-video-editing",
+      "title": "클로드로 영상 편집하기 — 시도해 볼 5가지",
+      "summary": "자막 기반 컷 편집, 자동 줌 효과, 에셋 정리, 색보정, B롤 탐색에 클로드를 활용해 편집 워크플로를 단축하는 방법을 보여준다.",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/watch?v=uArO3yEOWlo",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "영상 편집의 반복 작업을 에이전트에 넘기는 실전 워크플로.",
+        "what": "자막 기반 컷, 자동 줌, 에셋 정리, 색보정, B롤 탐색 등 클로드를 활용한 영상 편집 자동화 사례를 소개한다.",
+        "points": [
+          "트랜스크립트 기반 컷 편집",
+          "자동 줌·색보정 적용",
+          "에셋 정리 및 B롤 탐색 자동화"
+        ],
+        "why": [
+          "콘텐츠 제작 팀의 병목이 촬영에서 편집으로 옮겨간 상황에 대응하는 방식"
+        ]
+      }
+    },
+    {
+      "id": "marketing-followup-system",
+      "title": "2개월의 침묵을 미팅으로 바꾼 팔로업",
+      "summary": "클로드로 이메일 맥락을 불러오고 통화 기록과 경쟁 정보를 결합한 팔로업 체계가 연락이 끊긴 잠재고객을 다시 끌어냈다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/romana-kuts_a-lead-ghosted-me-for-2-months-then-one-share-7485956274334015488-slcT/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "개인화된 팔로업의 재료는 이미 CRM과 메일함 안에 있다.",
+        "what": "이메일 맥락 검색, 통화 기록 분석, 경쟁 정보를 결합한 AI 지원 팔로업으로 두 달간 응답 없던 리드와 미팅을 잡은 사례다.",
+        "points": [
+          "기존 이메일·통화 기록에서 맥락 재구성",
+          "경쟁 정보를 결합한 메시지 구성",
+          "개인 목소리 유지가 핵심"
+        ],
+        "why": [
+          "세일즈 자동화의 성패가 데이터 접근 범위에 달려 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-job-market-tips",
+      "title": "지금 시장에서 지원할 때의 9가지 팁",
+      "summary": "대부분의 자리는 공고 이전에 네트워크로 채워지므로 포트폴리오 작업물과 타깃 아웃리치, 유통 역량 증명에 집중하라는 조언이다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/ashleylewin_a-year-ago-i-hired-3-marketers-in-6-weeks-share-7485429101919641600-3nTY/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "공고에 지원하는 순간 이미 늦었다는 전제에서 출발하는 조언.",
+        "what": "채용의 상당수가 공고 전 네트워크로 마감된다는 점을 전제로, 포트폴리오·타깃 아웃리치·유통 역량 증명에 집중하라고 권한다.",
+        "points": [
+          "공고 전 네트워크 채용 비중이 높음",
+          "일반 지원보다 타깃 아웃리치가 효과적",
+          "유통(distribution) 역량 증명이 차별점"
+        ],
+        "why": [
+          "마케팅 직군 자체가 CMO 직함 축소 등 구조 변화를 겪는 중이라 더 중요한 조언"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-google-cloud-82",
+      "title": "구글 클라우드 매출 82% 급증, 수주잔고 5,140억 달러",
+      "summary": "엔터프라이즈 AI 수요에 힘입어 구글 클라우드 매출이 248억 달러를 기록했다. 수주잔고는 5,140억 달러에 달한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "AI 자본지출을 정당화하는 숫자가 나왔다 — 매출 +82%, 수주잔고 5,140억 달러.",
+        "what": "구글 클라우드가 분기 매출 248억 달러(+82%)와 5,140억 달러 규모 수주잔고를 발표했다. 엔터프라이즈 AI 인프라·제품 수요가 성장을 견인했다.",
+        "points": [
+          "분기 매출 248억 달러, 전년 대비 82% 증가",
+          "수주잔고 5,140억 달러 — 향후 매출 가시성 확보",
+          "엔터프라이즈 AI 인프라·제품이 성장 동력"
+        ],
+        "why": [
+          "AI 자본지출 과잉 논쟁에 대한 가장 강력한 반박 데이터",
+          "수주잔고 규모는 곧 데이터센터·전력 확보 압박으로 이어진다"
+        ]
+      }
+    },
+    {
+      "id": "it-amd-anthropic-5b",
+      "title": "AMD, 앤트로픽에 최대 50억 달러 투자·2GW 컴퓨트 공급",
+      "summary": "앤트로픽이 2027년부터 헬리오스 시스템을 통해 최대 2기가와트 규모의 AMD 인스팅트 GPU를 도입한다. 클로드를 AMD 하드웨어에 최적화하는 작업도 함께 진행된다.",
+      "source": "AMD Investor Relations",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1292/amd-and-anthropic-announce-strategic-partnership-to-deploy-up-to-2-gigawatts-of-amd-instinct-mi450-series-gpus",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "AI 컴퓨트 공급망에 엔비디아 외의 축이 2기가와트 규모로 생겼다.",
+        "what": "AMD와 앤트로픽이 최대 2GW 규모의 인스팅트 MI450 시리즈 GPU 도입과 최대 50억 달러 투자를 포함한 전략적 파트너십을 발표했다. 배치는 2027년 시작되며 클로드의 AMD 하드웨어 최적화가 병행된다.",
+        "points": [
+          "최대 2기가와트 규모 GPU 도입, 2027년 시작",
+          "AMD의 앤트로픽 투자 최대 50억 달러",
+          "클로드 모델의 AMD 하드웨어 최적화 병행",
+          "헬리오스 랙 스케일 시스템 기반"
+        ],
+        "why": [
+          "프론티어 랩의 엔비디아 단일 의존 구도가 실제 물량 단위로 깨지기 시작했다",
+          "2GW는 전력 조달 자체가 프로젝트 리스크가 되는 규모"
+        ]
+      }
+    },
+    {
+      "id": "it-amd-helios",
+      "title": "AMD, 헬리오스 랙 스케일 AI 시스템 출시",
+      "summary": "MI400 GPU와 EPYC CPU를 결합한 헬리오스 플랫폼을 공개했다. 경쟁 제품 대비 달러당 추론 토큰이 최대 30% 많다고 주장한다.",
+      "source": "AMD",
+      "url": "https://www.amd.com/en/corporate/events/advancing-ai.html",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "AMD의 승부수는 성능이 아니라 '달러당 토큰'이다.",
+        "what": "AMD가 MI400 GPU와 EPYC CPU를 묶은 랙 스케일 플랫폼 헬리오스를 출시하며 경쟁 대비 달러당 추론 토큰 최대 30% 우위를 주장했다.",
+        "points": [
+          "MI400 GPU + EPYC CPU 랙 스케일 통합",
+          "달러당 추론 토큰 최대 30% 우위 주장",
+          "앤트로픽·세레브라스 협력의 기반 플랫폼"
+        ],
+        "why": [
+          "추론 비용이 AI 서비스 손익의 핵심 변수가 되면서 경쟁 축이 TCO로 이동했다"
+        ]
+      }
+    },
+    {
+      "id": "it-openai-presence",
+      "title": "오픈AI, 엔터프라이즈 에이전트 플랫폼 '프레즌스' 출시",
+      "summary": "기업이 내부 시스템에 접근하는 음성·챗 에이전트를 배포할 수 있게 하는 플랫폼이다. 가드레일과 사람 에스컬레이션 워크플로를 함께 제공한다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-openai-presence/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "오픈AI가 기업 내부 시스템에 붙는 에이전트를 제품화했다 — 가드레일과 사람 인계 흐름을 포함해서.",
+        "what": "오픈AI 프레즌스는 기업이 내부 시스템에 접근하는 음성·챗 에이전트를 배포하도록 지원하며, 가드레일과 사람에게 넘기는 에스컬레이션 절차를 내장했다.",
+        "points": [
+          "내부 시스템 접근 권한을 가진 에이전트 배포 지원",
+          "가드레일 및 사람 에스컬레이션 워크플로 내장",
+          "음성·챗 양쪽 채널 지원"
+        ],
+        "why": [
+          "같은 날 보도된 에이전트 격리 실패 사례들 때문에, '내부 시스템 접근 권한'이라는 말의 무게가 커졌다",
+          "시에라·코그니션의 에이전트 인수전과 같은 시장을 겨냥한다"
+        ],
+        "action": "에이전트에 부여할 내부 시스템 권한을 최소 권한 원칙으로 설계할 것"
+      }
+    },
+    {
+      "id": "it-runway-model-router",
+      "title": "런웨이, 생성 미디어 모델 라우터 공개",
+      "summary": "런웨이의 미디어 라우터가 비용·품질·지연 선호에 따라 이미지·영상·오디오 모델을 자동 선택한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "생성 미디어 시장이 붐비자 런웨이는 모델이 아닌 라우팅에 베팅했다.",
+        "what": "런웨이가 비용·품질·지연 기준으로 이미지·영상·오디오 모델을 자동 선택하는 미디어 라우터를 내놨다.",
+        "points": [
+          "3축(비용/품질/지연) 기반 자동 모델 선택",
+          "생성 미디어 모델 파편화에 대한 대응",
+          "자사 모델만이 아닌 멀티벤더 지향"
+        ],
+        "why": [
+          "스트라이프-오픈라우터 인수 협상과 함께 '라우팅 레이어'가 오늘의 공통 테마를 이룬다"
+        ]
+      }
+    },
+    {
+      "id": "it-reasoning-models-worth-it",
+      "title": "비싼 추론 모델은 항상 값어치를 하는가",
+      "summary": "고추론 모델은 복잡한 문제를 풀지만 지연과 비용 때문에 일상 작업에는 과하다. 지능적 라우팅이 필요하다는 결론이다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/high-reasoning-ai-coding/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "모든 요청에 최상위 추론 모델을 쓰는 건 가장 비싼 기본값이다.",
+        "what": "고추론 모델의 강점과 한계를 비교하며, 작업 난도에 따라 모델을 갈아 끼우는 라우팅 전략을 제안한다.",
+        "points": [
+          "고추론 모델은 지연·비용 부담이 큼",
+          "일상 작업에는 과잉 스펙",
+          "난도 기반 지능적 라우팅이 해법"
+        ],
+        "why": [
+          "키미 K3가 오퍼스 4.8 대비 12배 추론 토큰을 쓴다는 같은 날 분석과 직접 연결된다",
+          "추론 비용이 서비스 단가를 결정하는 구조에서 실무적으로 중요한 판단"
+        ]
+      }
+    },
+    {
+      "id": "it-ai-infra-hidden-problem",
+      "title": "프로덕션 AI 뒤에 숨은 인프라 문제",
+      "summary": "프로덕션 에이전트는 예측 불가능한 툴 호출과 데이터베이스 부하를 유발한다. 확장 전에 런타임과 자율성을 제한해야 한다는 지적이다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/presentations/ai-infrastructure-scaling-architecture/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "에이전트의 진짜 비용은 토큰이 아니라 예측 불가능한 인프라 부하다.",
+        "what": "프로덕션 에이전트가 만들어내는 불규칙한 툴 호출과 DB 부하를 다루며, 확장 전에 실행 시간과 자율성 범위를 제한하라고 권고한다.",
+        "points": [
+          "툴 호출 패턴이 비결정적이라 용량 산정이 어려움",
+          "데이터베이스 부하가 급격히 튈 수 있음",
+          "런타임·자율성 상한을 먼저 설정할 것"
+        ],
+        "why": [
+          "에이전트 PoC가 프로덕션에서 무너지는 가장 흔한 원인을 짚는다"
+        ],
+        "action": "에이전트 배포 시 실행 시간·툴 호출 횟수 상한을 기본값으로 설정"
+      }
+    },
+    {
+      "id": "it-synthesia-live-roleplay",
+      "title": "신세시아, AI 교육 영상을 실시간 롤플레이로 확장",
+      "summary": "직원이 반응형 AI 아바타와 대화를 연습하고 회사 기준(루브릭)에 따라 평가받는 인터랙티브 세션을 출시했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/22/synthesias-ai-training-platform-is-moving-beyond-videos-into-live-coaching/",
+      "originalDate": "2026-07-22",
+      "report": {
+        "tldr": "AI 교육 영상이 시청에서 '연습과 채점'으로 넘어갔다.",
+        "what": "신세시아가 반응형 AI 아바타와 실시간 대화를 연습하고 회사 루브릭 기준으로 평가받는 인터랙티브 교육 세션을 공개했다.",
+        "points": [
+          "반응형 AI 아바타와의 실시간 롤플레이",
+          "회사 정의 루브릭 기반 자동 평가",
+          "기존 영상 제작 도구에서 코칭 플랫폼으로 확장"
+        ],
+        "why": [
+          "기업 교육 시장에서 '측정 가능한 역량'이 구매 기준이 되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-flux-3-limited",
+      "title": "블랙포레스트랩스, FLUX 3 출시 — 오디오 포함 20초 영상",
+      "summary": "FLUX 3가 이미지와 최대 20초 길이의 오디오 동기화 영상을 생성한다. 초기 접근 권한은 제한적이다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "오디오까지 동기화된 20초 영상 생성이 상용 모델 수준에 도달했다.",
+        "what": "FLUX 3는 이미지와 오디오가 동기화된 최대 20초 영상을 생성하며, 초기에는 제한된 형태로 제공된다.",
+        "points": [
+          "오디오-비디오 동기 생성, 최대 20초",
+          "제한적 초기 릴리스",
+          "이미지 모델 강자의 영상 시장 진입"
+        ],
+        "why": [
+          "생성 미디어 공급 과잉이 런웨이의 라우터 전략을 낳은 배경이기도 하다"
+        ]
+      }
+    },
+    {
+      "id": "it-personalization-infrastructure",
+      "title": "개인화는 인프라 문제다",
+      "summary": "실시간 개인화는 데이터 시스템과 함께 확장 가능한 랭킹·검색 아키텍처에 달려 있다는 분석이다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/vespa-realtime-personalization-ranking/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "개인화 품질의 상한은 모델이 아니라 랭킹·검색 인프라가 정한다.",
+        "what": "실시간 개인화가 데이터 시스템과 확장 가능한 랭킹·리트리벌 구조에 의존한다는 점을 다룬다.",
+        "points": [
+          "랭킹·리트리벌 아키텍처가 병목",
+          "실시간 요구사항이 데이터 파이프라인 설계를 규정"
+        ],
+        "why": [
+          "RAG·추천 시스템을 함께 운영하는 조직에 공통으로 적용되는 제약"
+        ]
+      }
+    },
+    {
+      "id": "it-regulated-ai-velocity",
+      "title": "규제 산업이 AI 코딩 속도를 올리는 법",
+      "summary": "지속적 검증을 통해 규제 대상 기업도 컴플라이언스와 보안을 지키며 AI 코딩 도구를 도입할 수 있다는 제안이다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/regulated-ai-continuous-verification/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "규제 산업의 AI 도입 병목은 도구가 아니라 검증 체계다.",
+        "what": "지속적 검증(continuous verification) 체계를 통해 규제 대상 조직이 컴플라이언스를 유지하면서 AI 코딩 도구를 채택하는 방법을 다룬다.",
+        "points": [
+          "지속적 검증을 컴플라이언스 게이트로 활용",
+          "감사 추적을 자동화해 도입 마찰 축소"
+        ],
+        "why": [
+          "금융·의료처럼 감사 요건이 강한 조직이 AI 도구 도입에서 뒤처지는 이유를 겨냥한다"
+        ]
+      }
+    }
+  ]
+}

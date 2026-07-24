@@ -1,0 +1,398 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-chatgpt-health",
+      "title": "ChatGPT 헬스 정식 출시",
+      "summary": "오픈AI가 미국 성인을 대상으로 애플 헬스·의료 기록을 연동하는 헬스 기능을 공개했다. 건강 데이터는 모델 학습이나 광고 타기팅에 사용하지 않는다고 밝혔다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/health-in-chatgpt/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "오픈AI가 의료 기록을 컨텍스트로 삼는 소비자 건강 상담을 정식 제품화했다.",
+        "what": "미국 성인이 애플 헬스와 의료 기록을 연결해 맥락 있는 건강 대화를 나눌 수 있는 기능이 출시됐다.",
+        "points": [
+          "애플 헬스 및 의료 기록 연동",
+          "학습·광고 미사용 명시",
+          "미국 18세 이상 전 사용자 대상"
+        ],
+        "why": [
+          "개인 의료정보가 범용 챗봇의 상시 컨텍스트가 되는 첫 대규모 사례",
+          "약속의 검증 가능성이 향후 규제의 핵심 쟁점이 된다"
+        ]
+      }
+    },
+    {
+      "id": "ai-fugu-ultra-11",
+      "title": "푸구-울트라 v1.1 공개",
+      "summary": "코딩·에이전트 작업·추론 성능을 올리면서 v1.0과 동일한 가격을 유지했다. 복잡한 작업에서는 최적 모델을 동적으로 선택한다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2080448772778373586.html",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "가격 동결·성능 개선 + 내부 동적 모델 선택 — 라우팅이 모델 안으로 들어왔다.",
+        "what": "푸구-울트라 v1.1이 코딩·에이전트·추론 성능을 개선하면서 이전 버전과 같은 가격을 유지했다. 난도에 따라 내부적으로 모델을 골라 쓴다.",
+        "points": [
+          "동일 가격에 성능만 상향",
+          "복잡 작업 시 최적 모델 동적 선택",
+          "코딩·에이전트 워크로드에 초점"
+        ],
+        "why": [
+          "모델 벤더가 라우팅을 내재화하면 외부 라우터의 가치 제안이 흔들린다",
+          "가격 동결은 프론티어 구간의 마진 압박을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "ai-runway-media-router",
+      "title": "런웨이, 생성 미디어용 AI 라우터 출시",
+      "summary": "이미지·영상·오디오 모델을 품질·속도·비용 기준으로 자동 선택해 주는 개발자 도구다. 생성 미디어 영역에도 라우팅 계층이 등장했다.",
+      "source": "Runway",
+      "url": "https://x.com/runwayml/status/2080343130780655635",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "텍스트 모델에서 벌어진 라우팅 경쟁이 생성 미디어로 번졌다.",
+        "what": "런웨이가 이미지·영상·오디오 모델을 품질/속도/비용 선호에 맞춰 자동 선택하는 미디어 라우터를 내놨다.",
+        "points": [
+          "품질·속도·비용 3축 기준 자동 선택",
+          "개발자 API 형태로 제공",
+          "멀티모달 모델 파편화에 대한 대응"
+        ],
+        "why": [
+          "스트라이프의 오픈라우터 인수 협상과 같은 날 나와 '라우팅 레이어' 테마를 강화한다",
+          "생성 미디어 시장도 단일 모델 종속에서 벗어나는 단계에 진입"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-voice-mode",
+      "title": "앤트로픽, 클로드 음성 모드 확대",
+      "summary": "오퍼스·소네트·하이쿠 전 라인업으로 음성 지원을 넓혔다. 지메일·슬랙·노션·구글 캘린더 연동도 함께 제공된다.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2221938/claude-voice-mode-just-got-smarter/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "음성이 전 모델 라인업의 기본 인터페이스로 내려왔다.",
+        "what": "앤트로픽이 오퍼스·소네트·하이쿠 전 모델에 음성 모드를 확대하고 지메일·슬랙·노션·캘린더 연동을 붙였다.",
+        "points": [
+          "전 모델 라인업 음성 지원",
+          "지메일·슬랙·노션·구글 캘린더 통합",
+          "업무 도구 연동을 통한 실사용 시나리오 확대"
+        ],
+        "why": [
+          "오픈AI의 GPT-Live 데스크톱 통합과 같은 날 발표돼 음성 인터페이스 경쟁이 본격화됐다",
+          "생산성 도구 연동은 곧 권한 범위 문제로 이어진다"
+        ],
+        "action": "음성 에이전트에 부여되는 메일·캘린더 쓰기 권한 범위를 점검할 것"
+      }
+    },
+    {
+      "id": "ai-gpt-live-codex",
+      "title": "오픈AI, GPT-Live 풀듀플렉스 음성을 코덱스·데스크톱 ChatGPT에 통합",
+      "summary": "자연스러운 실시간 대화형 음성 모델을 데스크톱 ChatGPT와 코덱스에 붙였다. 에이전트 코딩을 손 없이 진행할 수 있게 된다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/agentic-coding-goes-hands-free-as-openai-brings-gpt-lives-full-duplex-voice-control-to-codex-and-chatgpt-on-the-desktop",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "코딩 에이전트를 말로 지시하는 시대 — 풀듀플렉스 음성이 개발 워크플로에 들어왔다.",
+        "what": "오픈AI가 GPT-Live의 양방향 동시 음성 기능을 데스크톱 ChatGPT와 코덱스에 통합했다.",
+        "points": [
+          "풀듀플렉스 = 듣기와 말하기 동시 처리, 끼어들기 가능",
+          "코덱스 에이전트를 음성으로 조작",
+          "데스크톱 앱 중심 통합"
+        ],
+        "why": [
+          "앤트로픽의 클로드 음성 확대와 정면 충돌하는 발표",
+          "음성 지시는 감사 로그·승인 흐름을 설계하기 더 까다롭다"
+        ]
+      }
+    },
+    {
+      "id": "ai-poolside-laguna-s",
+      "title": "풀사이드, 118B MoE 모델 라구나 S 공개 배경",
+      "summary": "풀사이드 공동 CEO가 더 큰 모델을 능가한다고 주장하는 118B 전문가혼합(MoE) 모델 라구나 S의 구축 과정을 설명했다.",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/poolside",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "파라미터 수보다 데이터·학습 파이프라인이 성능을 만든다는 사례.",
+        "what": "풀사이드 공동 CEO가 118B MoE 모델 라구나 S를 만든 방식과, 더 큰 모델 대비 우위를 주장하는 근거를 설명했다.",
+        "points": [
+          "118B 전문가혼합(MoE) 구조",
+          "더 큰 파라미터 모델 대비 성능 우위 주장",
+          "자체 '모델 팩토리' 파이프라인 구축이 핵심"
+        ],
+        "why": [
+          "소수 빅테크만 프론티어 모델을 만든다는 전제를 약화시킨다"
+        ]
+      }
+    },
+    {
+      "id": "ai-gpu-hour-not-commodity",
+      "title": "'GPU 1시간'은 상품이 될 수 없다",
+      "summary": "학습·추론 워크로드는 물리적으로 인접한 여러 GPU를 동시에 필요로 한다. 이 때문에 GPU 시간 선물 시장에는 베이시스 리스크가 생긴다는 분석이다.",
+      "source": "Dave Friedman",
+      "url": "https://davefriedman.substack.com/p/a-gpu-hour-isnt-a-commodity-if-you",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "GPU 시간을 원자재처럼 거래하려는 시도는 '인접성' 때문에 깨진다.",
+        "what": "여러 GPU가 같은 위치에 묶여야 의미가 있는 워크로드 특성 때문에, 표준화된 GPU-시간 선물 계약에 베이시스 리스크가 발생한다는 분석이다.",
+        "points": [
+          "학습·추론은 co-located 다중 GPU를 전제로 함",
+          "표준 계약과 실제 필요 자원 간 괴리 = 베이시스 리스크",
+          "컴퓨트 금융화 시도의 구조적 한계 지적"
+        ],
+        "why": [
+          "같은 날 크립토 에디션의 '온체인 추론 자본시장' 논의와 정확히 반대편 시각",
+          "컴퓨트 파생상품에 투자·헤지하려는 조직에 실질적 경고"
+        ],
+        "context": "베이시스 리스크: 헤지 수단과 실제 노출 자산이 완전히 일치하지 않아 남는 위험."
+      }
+    },
+    {
+      "id": "ai-kimi-k3-thinking-traces",
+      "title": "키미 K3의 비결은 '사고 흔적'에 있을 수 있다",
+      "summary": "키미 K3가 극단적으로 많은 사고 토큰을 쓰며, 클로드 오퍼스 4.8보다 12배 이상 추론한다는 분석이다. 사고 사슬 안에서 에이전트처럼 설계를 반복 개선한다.",
+      "source": "Design Arena",
+      "url": "https://notes.designarena.ai/kimi-k3s-design-secret-may-be-in-its-thinking-traces/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "성능 차이의 상당 부분이 '얼마나 오래 생각하게 두는가'에서 나온다는 관찰.",
+        "what": "키미 K3가 다른 모델 대비 압도적으로 많은 추론 토큰을 소비하며, 사고 과정 내부에서 결과물을 반복 수정한다는 분석이다.",
+        "points": [
+          "클로드 오퍼스 4.8 대비 12배 이상의 추론 토큰 사용",
+          "사고 사슬 내에서 에이전트식 반복 개선 수행",
+          "성능 이득의 대가는 지연 시간과 토큰 비용"
+        ],
+        "why": [
+          "'비싼 추론 모델이 항상 값어치를 하는가'라는 같은 날 IT 에디션 질문과 직결된다",
+          "토큰 과금 구조에서는 추론 길이가 곧 원가"
+        ]
+      }
+    },
+    {
+      "id": "ai-openworker",
+      "title": "OpenWorker — 로컬 데스크톱 AI 동료",
+      "summary": "파일과 애플리케이션을 오가며 작업을 완료하는 로컬 실행형 AI 코워커다. 앤드루 응이 공개한 오픈소스 프로젝트다.",
+      "source": "GitHub",
+      "url": "https://github.com/andrewyng/openworker",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "클라우드가 아닌 로컬 데스크톱에서 파일·앱을 직접 다루는 오픈소스 에이전트.",
+        "what": "OpenWorker는 로컬 환경에서 파일과 애플리케이션을 넘나들며 작업을 수행하는 데스크톱 AI 에이전트다.",
+        "points": [
+          "로컬 실행 방식 — 데이터가 기기를 벗어나지 않음",
+          "파일·애플리케이션 간 작업 자동화",
+          "오픈소스로 공개"
+        ],
+        "why": [
+          "같은 날 클로드 코워크의 VM 탈출 취약점이 보도돼, 로컬 실행 에이전트의 격리 설계가 곧바로 쟁점이 된다"
+        ],
+        "action": "로컬 에이전트 도입 시 파일 접근 범위와 샌드박스 경계를 먼저 정의할 것"
+      }
+    },
+    {
+      "id": "ai-microsoft-mai-image-voice",
+      "title": "MS, MAI-Image-2.5-Pro·MAI-Voice-2-Flash 공개",
+      "summary": "마이크로소프트가 고품질 이미지 생성 모델과 더 빠르고 저렴한 음성 모델을 함께 내놨다. 자체 모델 라인업을 계속 넓히고 있다.",
+      "source": "Microsoft AI",
+      "url": "https://microsoft.ai/news/introducing-mai-image-2-5-pro-and-mai-voice-2-flash/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "MS가 오픈AI 의존을 줄이는 자체 모델 라인을 이미지·음성으로 확장했다.",
+        "what": "마이크로소프트가 MAI-Image-2.5-Pro(고충실도 이미지)와 MAI-Voice-2-Flash(저비용·고속 음성)를 발표했다.",
+        "points": [
+          "이미지·음성 두 축의 자체 모델 동시 공개",
+          "MAI-Voice-2-Flash는 비용·지연 최적화 지향",
+          "나델라의 '작업별 모델 매칭' 발언과 같은 날"
+        ],
+        "why": [
+          "MS의 멀티모델 전략이 파트너 의존에서 자체 역량으로 이동 중임을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "ai-flux-3",
+      "title": "블랙포레스트랩스 FLUX 3 출시",
+      "summary": "단일 프롬프트로 이미지와 최대 20초 길이의 오디오-비디오 클립을 생성하는 멀티모달 모델이다. 초기에는 제한적으로 제공된다.",
+      "source": "Black Forest Labs",
+      "url": "https://bfl.ai/blog/flux-3",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "이미지 모델 강자가 오디오 동기화된 20초 영상 생성으로 넘어왔다.",
+        "what": "FLUX 3가 단일 프롬프트에서 이미지와 오디오가 포함된 최대 20초 영상을 생성한다. 초기 접근은 제한적이다.",
+        "points": [
+          "단일 프롬프트 → 이미지 + 오디오·비디오 20초",
+          "오디오 동기화 생성 지원",
+          "제한적 초기 공개"
+        ],
+        "why": [
+          "생성 영상 품질 상승은 곧바로 신원 사칭·딥페이크 리스크 상승을 뜻한다",
+          "같은 날 구글의 셀피 로그인 도입과 나란히 놓고 볼 필요가 있다"
+        ]
+      }
+    },
+    {
+      "id": "ai-intel-q2-ai-boom",
+      "title": "인텔 주가 급등 — 15년 만에 최고 매출 성장",
+      "summary": "인텔이 시장 예상을 웃도는 2분기 실적을 내놨고 2026년 주가는 170% 올랐다. 데이터센터 수요가 강해 공급이 부족한 상태다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/23/intel-intc-earnings-report-q2-2026.html",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "AI 데이터센터 수요가 인텔을 15년 만의 최고 성장세로 되돌려놨다.",
+        "what": "인텔이 예상을 상회하는 2분기 실적을 발표했다. 올해 주가는 170% 상승했고, 데이터센터 수요 대비 공급이 모자란 상황이다.",
+        "points": [
+          "2026년 주가 170% 상승",
+          "15년 만의 최고 매출 성장률",
+          "데이터센터 수요 초과로 공급 제약 상태"
+        ],
+        "why": [
+          "AI 인프라 수요가 특정 승자(엔비디아)를 넘어 반도체 전반으로 확산되고 있다는 신호",
+          "AMD 헬리오스·세레브라스 발표와 함께 추론 하드웨어 경쟁 구도가 다층화됐다"
+        ]
+      }
+    },
+    {
+      "id": "ai-amd-cerebras-inference",
+      "title": "AMD·세레브라스, 초저지연 추론 솔루션 발표",
+      "summary": "AMD 헬리오스와 세레브라스 웨이퍼스케일 엔진을 결합해 저지연 추론 워크로드를 강화한다. 추론 인프라 경쟁에 새 조합이 등장했다.",
+      "source": "Cerebras",
+      "url": "https://www.cerebras.ai/press-release/amd-and-cerebras-announce-industry-leading-ultra-low-latency-and-high-throughput-ai-inference",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "AMD와 세레브라스가 손잡고 엔비디아의 추론 아성을 겨냥했다.",
+        "what": "AMD 헬리오스 플랫폼과 세레브라스 웨이퍼스케일 엔진을 결합한 초저지연·고처리량 추론 솔루션이 공개됐다.",
+        "points": [
+          "헬리오스 랙 스케일 + 웨이퍼스케일 엔진 조합",
+          "초저지연·고처리량 추론 타깃",
+          "학습이 아닌 추론 시장을 정조준"
+        ],
+        "why": [
+          "앤트로픽의 2GW AMD 도입과 맞물려 AMD가 추론 진영의 대안 축으로 자리 잡는 중"
+        ]
+      }
+    },
+    {
+      "id": "ai-cognition-interaction",
+      "title": "코그니션, 더 인터랙션 컴퍼니 인수",
+      "summary": "애플 메시지용 개인 에이전트 '포크(Poke)'를 만든 더 인터랙션 컴퍼니를 코그니션이 인수했다.",
+      "source": "Cognition",
+      "url": "https://cognition.com/blog/interaction",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "코딩 에이전트 기업이 개인용 메시징 에이전트를 사들였다.",
+        "what": "코그니션이 애플 메시지 기반 개인 에이전트 포크의 개발사 더 인터랙션 컴퍼니를 인수했다.",
+        "points": [
+          "인수 대상은 애플 메시지용 개인 에이전트 '포크'",
+          "코그니션의 제품 축이 개발자 도구 밖으로 확장"
+        ],
+        "why": [
+          "에이전트 스타트업 간 M&A가 본격화되는 신호"
+        ]
+      }
+    },
+    {
+      "id": "ai-sierra-takeoff",
+      "title": "시에라, 롱호라이즌 에이전트 플랫폼 테이크오프 인수",
+      "summary": "다단계 자율 실행이 가능한 엔터프라이즈 에이전트 플랫폼을 시에라가 확보했다.",
+      "source": "Runtime Wire",
+      "url": "https://runtimewire.com/article/sierra-acquires-takeoff-long-horizon-ai-agents",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "장기 과제를 수행하는 에이전트 역량이 인수 대상이 됐다.",
+        "what": "시에라가 다단계·자율 엔터프라이즈 에이전트 플랫폼 테이크오프를 인수해 롱호라이즌 실행 역량을 확보했다.",
+        "points": [
+          "롱호라이즌 = 여러 단계를 며칠 단위로 이어가는 자율 실행",
+          "엔터프라이즈 애플리케이션 타깃"
+        ],
+        "why": [
+          "코그니션 인수와 같은 날 발표돼 에이전트 시장 통합 국면을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-ai-economy",
+      "title": "구글 리서치 'AI 경제 이해하기'",
+      "summary": "구글 리서치가 AI 경제의 급성장과 의료·금융 등 산업 전반의 변화를 분석했다.",
+      "source": "Google Research",
+      "url": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "AI 확산의 거시 효과를 산업별로 정리한 구글의 자체 분석.",
+        "what": "구글 리서치가 AI 경제의 성장 속도와 의료·금융 등 주요 산업에 미치는 영향을 정리했다.",
+        "points": [
+          "산업별 확산 속도와 효과를 분리해 분석",
+          "의료·금융을 대표 사례로 제시"
+        ],
+        "why": [
+          "같은 날 구글의 '대체 아닌 보완' 고용 연구와 세트로 배포된 서사"
+        ]
+      }
+    },
+    {
+      "id": "ai-deepseek-liang-quotes",
+      "title": "딥시크 창업자 량원펑, 64개 발언 모음",
+      "summary": "투자자 콜에서 나온 량원펑의 발언 64개를 정리한 자료다. 회사 비전과 오픈소스 전략, AGI 로드맵을 담고 있다.",
+      "source": "Geopolitechs",
+      "url": "https://www.geopolitechs.org/p/deepseek-founder-liang-wenfeng-in",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "중국 오픈웨이트 진영의 전략을 창업자 발언으로 직접 읽는 자료.",
+        "what": "딥시크 투자자 콜에서 나온 량원펑의 발언 64개를 주제별로 정리했다. 오픈소스 전략과 AGI 로드맵이 핵심이다.",
+        "points": [
+          "오픈소스 공개 전략의 근거를 창업자 시각으로 설명",
+          "AGI 로드맵과 회사 비전 포함"
+        ],
+        "why": [
+          "오픈웨이트가 스타트업 사용량의 80%를 차지한다는 같은 날 파운더스 분석과 함께 읽을 자료"
+        ]
+      }
+    },
+    {
+      "id": "ai-deepseek-ascend-benchmarks",
+      "title": "딥시크의 화웨이 칩 학습 주장, 벤치마크 공개되자 반론도 확산",
+      "summary": "화웨이 주도 컨소시엄이 딥시크 V4의 어센드 칩 전체 파라미터 사후학습을 34.22% MFU로 수행했다는 보고서를 냈다. 수치의 신뢰성을 두고 회의론도 함께 제기됐다.",
+      "source": "Implicator",
+      "url": "https://www.implicator.ai/deepseeks-huawei-chip-training-claim-finally-gets-its-benchmarks-and-its-doubters/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "중국 국산 칩으로 프론티어급 학습이 가능한지에 대한 첫 실측 수치가 나왔다 — 그리고 곧바로 반박도 나왔다.",
+        "what": "화웨이 컨소시엄이 딥시크 V4를 어센드 칩에서 전체 파라미터 사후학습하며 모델 FLOPs 활용률(MFU) 34.22%를 기록했다는 보고서를 발표했다. 검증 방식에 대한 회의론이 이어졌다.",
+        "points": [
+          "MFU 34.22% — 이론 연산량 대비 실제 활용률 지표",
+          "전체 파라미터 사후학습(post-training)을 국산 칩에서 수행했다는 주장",
+          "측정 조건과 재현 가능성에 대한 반론 제기"
+        ],
+        "why": [
+          "미국 수출 통제의 실효성을 가늠하는 핵심 데이터포인트",
+          "같은 날 WSJ의 중국 AI 칩 추격 기사와 정확히 같은 질문을 다룬다"
+        ],
+        "context": "MFU(Model FLOPs Utilization): 하드웨어의 이론적 연산 성능 대비 실제 학습에 쓰인 비율. 높을수록 칩·소프트웨어 스택이 성숙했다는 뜻이다."
+      }
+    },
+    {
+      "id": "ai-etched-progress",
+      "title": "엣치드, 절반 전압으로 구동되는 연산 블록 공개",
+      "summary": "엣치드의 새 칩 아키텍처가 수학 연산 블록을 통상의 절반 전압으로 구동해 FLOPs 밀도와 발열 특성을 개선했다.",
+      "source": "Etched",
+      "url": "https://www.etched.com/progress",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "전압을 절반으로 낮춰 연산 밀도와 발열을 동시에 잡았다는 주장.",
+        "what": "엣치드가 수학 연산 블록을 통상 대비 절반 전압에서 구동하는 아키텍처를 공개해 FLOPs 밀도와 열 특성을 개선했다고 밝혔다.",
+        "points": [
+          "연산 블록 전압을 절반 수준으로 낮춤",
+          "FLOPs 밀도 및 발열 개선 주장"
+        ],
+        "why": [
+          "데이터센터 전력이 AI 확장의 실질적 병목인 상황에서 전력 효율은 곧 용량"
+        ]
+      }
+    }
+  ]
+}

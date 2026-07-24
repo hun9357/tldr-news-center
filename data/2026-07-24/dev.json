@@ -1,0 +1,155 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-css-subgrid-fifa",
+      "title": "CSS 서브그리드로 FIFA 순위표 레이아웃 재구현",
+      "summary": "서브그리드가 상위 그리드 트랙을 상속하고 음수 라인 번호로 자식 요소를 양 끝에 배치하는 방식을 보여준다. 시맨틱 마크업을 유지하면서 복잡한 표 레이아웃을 만든다.",
+      "source": "ishadeed.com",
+      "url": "https://ishadeed.com/article/fifa-layout/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "서브그리드로 마크업을 망가뜨리지 않고 복잡한 표 정렬을 해결하는 실전 예제.",
+        "what": "FIFA 순위표를 CSS 서브그리드로 재구현하며, 트랙 상속과 음수 라인 번호를 이용한 양끝 정렬 기법을 설명한다.",
+        "points": [
+          "서브그리드가 부모 그리드 트랙을 그대로 상속",
+          "음수 라인 번호로 컨테이너 양 끝 배치",
+          "시맨틱 마크업 유지가 핵심 이점"
+        ],
+        "why": [
+          "표 형태 UI에서 래퍼 div를 남발하던 관행을 없앨 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "dev-state-management-libraries",
+      "title": "이제 상태 관리 라이브러리가 필요한가",
+      "summary": "리덕스·주스탄드 등이 결국 useSyncExternalStore를 거치는 세 가지 패턴으로 환원된다고 분석하고, 약 50줄로 최소 구현을 만들어 보인다. 흔한 함정도 함께 다룬다.",
+      "source": "neciudan.dev",
+      "url": "https://neciudan.dev/do-we-need-state-management-libraries",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "상태 관리 라이브러리의 핵심은 50줄이면 재현된다 — 나머지는 편의 기능이다.",
+        "what": "리덕스·주스탄드 같은 도구가 useSyncExternalStore를 통과하는 세 패턴으로 수렴함을 보이고, 약 50줄짜리 최소 구현과 그 한계를 제시한다.",
+        "points": [
+          "세 가지 핵심 패턴으로 환원 가능",
+          "useSyncExternalStore가 공통 관문",
+          "~50줄 최소 구현 제시",
+          "티어링·구독 누수 등 함정도 함께 설명"
+        ],
+        "why": [
+          "의존성 추가 전에 표준 리액트 API로 충분한지 판단할 기준을 준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-why-software-factories-fail",
+      "title": "'소프트웨어 팩토리'가 실패하는 이유 (개발자 관점)",
+      "summary": "AI 주도 개발 체계는 리뷰가 부실해지며 코드 품질을 떨어뜨리고, 계획과 코드 평가에 사람이 개입하지 않는 '무인 자동화'는 기대한 효율을 내지 못한다는 분석이다.",
+      "source": "humanlayer (GitHub)",
+      "url": "https://github.com/humanlayer/advanced-context-engineering-for-coding-agents/blob/main/wsff.md",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "생산은 자동화됐는데 검토는 자동화되지 않았다 — 그게 병목이다.",
+        "what": "AI 개발 자동화가 리뷰 부실을 통해 품질을 떨어뜨리며, 계획·평가 단계의 사람 개입 없이는 기대 효율이 나오지 않는다는 주장이다.",
+        "points": [
+          "리뷰 품질 저하가 자동화 이득을 상쇄",
+          "무인(lights-off) 자동화는 실패",
+          "계획·평가 단계의 인간 개입이 필수"
+        ],
+        "why": [
+          "같은 날 '코드 리뷰 부하 폭증' 기사와 동일한 병목을 다른 각도에서 지적한다"
+        ]
+      }
+    },
+    {
+      "id": "dev-code-review-load",
+      "title": "새로운 흐름 — 코드 리뷰 부하 폭증 우려",
+      "summary": "엔지니어링 리더들이 늘어나는 리뷰 업무량과 떨어지는 검토 밀도를 우려하고 있다. 대안으로 AI 코드 리뷰 도구 도입이 확산되는 중이다.",
+      "source": "pragmaticengineer.com",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-new-trend-concern-about",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "AI가 코드를 쏟아내면서 리뷰가 조직의 새 병목이 됐다.",
+        "what": "엔지니어링 리더들이 코드 리뷰 물량 증가와 검토 품질 저하를 문제로 지목하고 있으며, AI 리뷰 도구가 대안으로 부상 중이다.",
+        "points": [
+          "리뷰 물량 증가 + 검토 밀도 저하 동시 발생",
+          "AI 코드 리뷰 도구 도입 확산",
+          "리뷰어 번아웃이 실질 리스크"
+        ],
+        "why": [
+          "'AI가 리뷰한 AI 코드'라는 구조의 품질 보증 문제가 남는다",
+          "같은 날 형식 검증 확산론(ghuntley)과 함께 검증 자동화가 화두"
+        ]
+      }
+    },
+    {
+      "id": "dev-llm-traffic-measured",
+      "title": "어떤 AI가 실제로 내 사이트를 읽는가 — 2개월 트래픽 측정",
+      "summary": "서버 측정 결과 에이전트 요청 26만 8,000건이 사람 페이지뷰 10만 7,000건을 넘었다. ChatGPT-User는 73%가 HTML을, 클로드 코드는 76%가 마크다운을 요청했다.",
+      "source": "evilmartians.com",
+      "url": "https://evilmartians.com/chronicles/which-ai-actually-reads-your-site-two-months-of-llm-traffic-measured",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "이제 웹사이트의 주 독자는 사람이 아니라 에이전트다 — 실측 2.5배.",
+        "what": "2개월간 서버 로그를 분석한 결과 AI 에이전트 요청이 26만 8,000건으로 사람 페이지뷰 10만 7,000건을 크게 앞섰다. 클라이언트별로 선호 포맷도 뚜렷하게 갈렸다.",
+        "points": [
+          "에이전트 요청 268,000건 vs 사람 페이지뷰 107,000건",
+          "ChatGPT-User: HTML 요청 73%",
+          "클로드 코드: 마크다운 요청 76%",
+          "포맷 선호가 클라이언트별로 명확히 구분됨"
+        ],
+        "why": [
+          "콘텐츠 제공 포맷(마크다운 병행 제공)이 실질적 SEO 변수가 됐다",
+          "트래픽 비용과 레이트리밋 정책을 에이전트 기준으로 재설계해야 한다"
+        ],
+        "action": "사이트에 마크다운 대체 표현 제공 및 봇 트래픽 과금·제한 정책 재검토"
+      }
+    },
+    {
+      "id": "dev-opinionated-ai-guide",
+      "title": "어떤 AI를 언제 쓸지에 대한 주관적 가이드",
+      "summary": "작업의 위험도에 맞춰 AI 도구를 고르고, 한계를 이해하고, 실제 업무로 실험하며, 권한을 신중히 관리하라고 권한다.",
+      "source": "oneusefulthing.org",
+      "url": "https://www.oneusefulthing.org/p/an-opinionated-guide-to-which-ai-b22",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "도구 선택 기준은 성능이 아니라 '틀렸을 때의 비용'.",
+        "what": "작업의 위험도(stakes)에 따라 AI 도구를 매칭하고, 권한 부여를 신중히 관리하라는 실용 가이드다.",
+        "points": [
+          "작업 위험도 기준의 도구 선택",
+          "실제 업무로 검증하는 실험 접근",
+          "권한 관리의 중요성 강조"
+        ],
+        "why": [
+          "같은 날 클로드 코워크 VM 탈출 사례가 '권한 관리' 조언을 구체적 위협으로 바꿔놨다"
+        ]
+      }
+    },
+    {
+      "id": "dev-open-source-ai-arguments",
+      "title": "오픈소스 AI 반대론은 형편없다",
+      "summary": "오픈소스 AI 비판론이 '게이트키퍼'를 옹호하지만, 오픈소스는 기술의 근간이며 억제하기 어렵고 전 세계 다양한 상업적 이해가 이를 추동한다는 반론이다.",
+      "source": "tombedor.dev",
+      "url": "https://tombedor.dev/arguments-against-open-source-ai-are-very-bad/",
+      "originalDate": "2026-07-23",
+      "report": {
+        "tldr": "오픈웨이트 억제론에 대한 정면 반박.",
+        "what": "오픈소스 AI 반대 논거들이 결국 게이트키퍼 옹호로 귀결되며, 오픈소스는 억제 불가능하고 다양한 상업적 동기가 이를 밀고 있다는 주장이다.",
+        "points": [
+          "반대론 = 사실상 게이트키퍼 옹호라는 규정",
+          "글로벌 상업적 이해관계가 확산을 추동",
+          "억제 정책의 실효성에 대한 회의"
+        ],
+        "why": [
+          "오픈웨이트가 스타트업 사용량 80%를 차지한다는 같은 날 파운더스 분석이 이 주장에 힘을 싣는다",
+          "딥시크의 어센드 학습 논쟁과 함께 오픈웨이트 규제 논의의 핵심 축"
+        ]
+      }
+    }
+  ]
+}
