@@ -6,235 +6,212 @@
   "bg": "#26203a",
   "items": [
     {
-      "id": "it-claude-shared-chats-indexed",
-      "title": "공유된 클로드 대화가 검색엔진에 색인돼 프라이버시 우려",
-      "summary": "공개 공유된 클로드 대화가 구글·빙 검색 결과에 노출돼 이력서, 사업 논의, 코드가 드러났다. 시스템 침해가 아니라 링크 공유를 비공개로 오인한 사용자 행동이 원인이다.",
-      "source": "The Cybersecurity Guru",
-      "url": "https://thecybersecguru.com/news/claude-shared-chats-google-search-privacy/",
-      "originalDate": "2026-07-27",
+      "id": "it-amazon-lean-fro-investment",
+      "title": "아마존, 수학 증명 언어 '린' 연구조직에 대규모 투자",
+      "summary": "아마존이 검증 가능한 AI 에이전트 구현을 목표로 린 포커스드 리서치 조직에 역대 최대 규모 후원을 제공한다.",
+      "source": "Amazon Science",
+      "url": "https://www.amazon.science/news/amazon-is-investing-in-the-lean-focused-research-organization?utm_source=tldrit",
       "report": {
-        "tldr": "링크만 아는 사람이 볼 수 있다는 말은 검색엔진도 볼 수 있다는 뜻이었다.",
-        "what": "사용자가 공개 공유한 클로드 대화가 구글과 빙 검색 결과에 색인되면서 이력서, 사업 논의, 소스코드 등이 노출됐다. 시스템 침해가 아니라, 링크 접근 가능한 공유를 비공개로 오해한 사용자 인식 문제에서 비롯됐다.",
+        "tldr": "아마존이 수학적 정합성 증명 언어 '린'을 개발하는 연구조직에 역대 최대 규모 후원을 제공한다.",
+        "what": "린은 검증 가능하고 신뢰할 수 있는 AI 에이전트를 실용화하는 데 쓰일 수 있다고 아마존은 설명한다. 아마존 외부에서의 공개 개발이 고객·감사자·규제기관의 신뢰를 강화한다는 논리다.",
         "points": [
-          "공유 링크 대화가 구글·빙에 색인",
-          "노출 내용에 이력서·사업 논의·코드 포함",
-          "시스템 침해가 아닌 공유 설정 오인이 원인"
+          "린 포커스드 리서치 조직 역사상 최대 규모 후원",
+          "검증 가능한 AI 에이전트 실용화가 목표",
+          "아마존 외부 공개 개발로 신뢰성 강화 도모"
         ],
         "why": [
-          "AI 도구의 공유 기능은 기본값과 사용자 기대가 어긋나기 쉬운 지점이다",
-          "사내에서 AI 대화 공유 링크로 기밀이 흘러나갈 수 있는 통로가 확인됐다"
-        ],
-        "action": "사내 AI 도구의 대화 공유 링크 사용 정책을 정하고 기존 공개 공유 링크를 회수"
+          "형식 검증 기술이 AI 에이전트 신뢰성 확보의 핵심 인프라로 주목받고 있다"
+        ]
       }
     },
     {
-      "id": "it-github-pypi-cooldown",
-      "title": "깃허브·PyPI, 공급망 공격 대비 시간 기반 방어 도입",
-      "summary": "깃허브가 의존성 업데이트 PR에 기본 3일 대기 기간을 적용하고, PyPI는 14일 이상 지난 릴리스에 파일 추가를 거부한다. 공격 가능 시간창을 좁히는 조치다.",
-      "source": "BleepingComputer",
-      "url": "https://www.bleepingcomputer.com/news/security/github-pypi-add-time-based-defenses-against-supply-chain-attacks/",
-      "originalDate": "2026-07-27",
+      "id": "it-claude-shared-chats-privacy",
+      "title": "클로드 공유 대화가 검색엔진에 노출, 프라이버시 우려",
+      "summary": "공개 공유된 클로드 대화가 구글·빙 검색 결과에 노출돼 이력서·업무 논의·코드 등이 쉽게 발견될 수 있게 됐다.",
+      "source": "TheCyberSecGuru",
+      "url": "https://thecybersecguru.com/news/claude-shared-chats-google-search-privacy/?utm_source=tldrit",
       "report": {
-        "tldr": "악성 패키지는 대개 배포 직후 탐지되므로, 기다리는 것 자체가 방어가 된다.",
-        "what": "깃허브가 의존성 업데이트 풀리퀘스트에 기본 3일의 대기(쿨다운) 기간을 도입했고, PyPI는 14일이 넘은 릴리스에 새 파일을 추가하는 것을 거부하기 시작했다. 공급망 공격의 유효 시간창을 줄이는 조치다.",
+        "tldr": "공개 링크로 공유된 클로드 대화가 구글·빙 검색에 인덱싱되면서 민감한 내용이 노출될 수 있다는 우려가 제기됐다.",
+        "what": "앤트로픽 시스템 자체의 침해는 아니지만, 사용자가 '링크로 접근 가능한' 대화를 '비공개'로 착각하기 쉽다는 점을 보여준 사례다. 조직은 AI 공유 링크를 공개 웹페이지처럼 취급해야 한다.",
         "points": [
-          "깃허브: 의존성 업데이트 PR에 기본 3일 쿨다운",
-          "PyPI: 14일 이상 지난 릴리스에 파일 추가 거부",
-          "탐지 이전에 자동 병합되는 경로를 차단하는 설계"
+          "공개 공유 클로드 대화가 구글·빙 검색 결과에 노출",
+          "이력서·업무 논의·코드 등 민감 정보 포함 사례 존재",
+          "앤트로픽 시스템 침해가 아닌 공유 설정 오인이 원인"
         ],
         "why": [
-          "악성 패키지는 공개 직후 수 시간~수일 내 발견되는 경우가 많아 지연만으로 상당수를 걸러낸다",
-          "자동 의존성 업데이트를 쓰는 조직은 별도 설정 없이 위험이 줄어든다",
-          "반대로 긴급 보안 패치의 반영도 함께 늦어지는 트레이드오프가 있다"
+          "AI 채팅 공유 기능의 프라이버시 설계에 대한 경각심을 일깨운다"
+        ]
+      }
+    },
+    {
+      "id": "it-more-intelligence-do-for-us-it",
+      "title": "더 높은 지능은 우리에게 무엇을 가져다줄까",
+      "summary": "AI가 수학 등 여러 영역에서 인간을 이미 능가했지만 일상과 경제는 크게 바뀌지 않았다는 분석이다.",
+      "source": "Noahpinion",
+      "url": "https://www.noahpinion.blog/p/what-will-more-intelligence-actually?utm_source=tldrit",
+      "report": {
+        "tldr": "AI의 지능이 수확체감에 직면할 수 있다는 우려에도 기계 특유의 복제 가능성이 여전히 큰 생산성 향상을 가능케 할 것이라는 전망이다.",
+        "what": "일부 연구자는 데이터와 혼돈계의 한계로 지능 향상의 효과가 점차 줄어들 수 있다고 본다. 그럼에도 초지능이 실현되면 복제 가능성 같은 기계의 이점이 여전히 큰 생산성 향상을 가져올 수 있다는 것이다.",
+        "points": [
+          "AI가 수학 등 일부 영역에서 이미 인간을 능가",
+          "지능의 수확체감 가능성 제기",
+          "복제 가능성 등 기계 고유의 장점이 생산성 향상의 열쇠"
         ],
-        "action": "디펜다봇/리뉴에이트 설정에서 보안 패치는 쿨다운 예외로 분리"
+        "why": [
+          "AI 발전의 실질적 경제 효과 논쟁에 균형 잡힌 시각을 더한다"
+        ]
       }
     },
     {
       "id": "it-nadella-hardest-year",
       "title": "나델라의 가장 힘든 한 해",
-      "summary": "마이크로소프트의 공격적 AI 추진이 M365·깃허브·애저 세 축을 동시에 압박하고 있다. 1,900억 달러 인프라 지출을 예고했지만 용량 제약과 AI 네이티브 경쟁사에 시달린다.",
+      "summary": "마이크로소프트의 공격적 AI 전략이 M365·깃허브·애저 세 핵심 사업 모두에 부담을 주고 있다.",
       "source": "Business Insider",
-      "url": "https://www.businessinsider.com/inside-nadella-hardest-year-microsoft-ai-azure-github-2026-7",
-      "originalDate": "2026-07-27",
+      "url": "https://www.businessinsider.com/inside-nadella-hardest-year-microsoft-ai-azure-github-2026-7?utm_source=tldrit",
       "report": {
-        "tldr": "AI 전환 비용이 마이크로소프트의 세 개 캐시카우를 동시에 흔들고 있다.",
-        "what": "Business Insider가 마이크로소프트의 AI 드라이브가 마이크로소프트 365, 깃허브, 애저 세 사업에 동시에 부담을 주고 있다고 보도했다. 1,900억 달러 규모 인프라 투자를 계획 중이지만 용량 제약과 AI 네이티브 경쟁사의 압박에 직면했다.",
+        "tldr": "마이크로소프트가 인프라에 약 1900억 달러를 투입하면서도 여전히 용량 제약에 시달리며 AI 네이티브 경쟁사의 도전에 직면했다.",
+        "what": "AI 네이티브 경쟁사들이 생산성·개발자 도구 시장을 잠식하는 가운데 내부 조직 개편이 직원과 경영진 모두에 부담을 가중시키고 있다.",
         "points": [
-          "인프라 지출 계획 1,900억 달러",
-          "M365·깃허브·애저 세 축 모두에서 전환 부담",
-          "데이터센터 용량 제약과 AI 네이티브 경쟁사 대두"
+          "인프라 투자 약 1900억 달러 규모에도 용량 제약 지속",
+          "M365·깃허브·애저 세 핵심 사업 모두 압박",
+          "AI 네이티브 경쟁사의 생산성·개발자 도구 시장 잠식"
         ],
         "why": [
-          "같은 날 엔비디아의 오픈AI 2,500억 달러 보증 협상 보도와 겹쳐, AI 자본지출 경쟁의 규모를 보여준다",
-          "깃허브는 커서·클로드 코드 등 AI 네이티브 도구에 가장 직접적으로 잠식되는 자산이다"
+          "빅테크의 공격적 AI 베팅이 기존 핵심 사업에 미치는 부작용을 보여주는 사례다"
         ]
       }
     },
     {
-      "id": "it-amazon-lean-fro",
-      "title": "아마존, Lean 집중연구조직(FRO)에 사상 최대 규모 기부",
-      "summary": "아마존이 수학적 정확성 증명용 프로그래밍 언어 Lean을 개발하는 FRO에 조직 역사상 최대 규모 자금을 지원했다. 신뢰할 수 있는 AI 에이전트 구현을 겨냥한다.",
-      "source": "Amazon Science",
-      "url": "https://www.amazon.science/news/amazon-is-investing-in-the-lean-focused-research-organization",
-      "originalDate": "2026-07-27",
-      "report": {
-        "tldr": "AI 생성 코드의 신뢰 문제에 형식 증명으로 답하겠다는 베팅이다.",
-        "what": "아마존이 수학적 정확성 증명을 위한 프로그래밍 언어 Lean을 개발하는 집중연구조직(FRO)에 조직 역사상 최대 규모의 기부를 했다. 신뢰할 수 있는 AI 에이전트 구현을 위한 검증 기반 확보가 목적이다.",
-        "points": [
-          "Lean FRO 역사상 최대 규모의 기부",
-          "Lean은 수학적 정확성 증명을 위한 언어",
-          "목표는 검증 가능한 AI 에이전트 기반 마련"
-        ],
-        "why": [
-          "같은 날 TLDR AI에도 LLM 기반 증명 자동화 논의가 실렸다 — 형식 검증과 AI가 맞물리는 흐름",
-          "대형 클라우드가 형식 검증 인프라에 직접 투자하기 시작했다는 신호"
-        ]
-      }
-    },
-    {
-      "id": "it-oracle-base-db-cloud",
-      "title": "오라클, 중견시장 겨냥 프라이빗 AI — Base Database Cloud@Customer",
-      "summary": "온프레미스 관리형 구독으로 Oracle AI Database 26ai와 로컬 LLM 추론을 제공한다. 중견기업 배포를 겨냥한 구성이다.",
-      "source": "Medium (Sanjeev Mohan)",
-      "url": "https://sanjmo.medium.com/oracle-brings-private-ai-to-the-mid-market-with-base-database-cloud-customer-de1b959b0d9a",
-      "originalDate": "2026-07-27",
-      "report": {
-        "tldr": "데이터를 내보내지 않고 AI를 쓰려는 수요를 온프레미스 구독으로 잡는다.",
-        "what": "오라클이 Base Database Cloud@Customer로 온프레미스 관리형 구독 형태의 프라이빗 AI를 중견시장에 제공한다. Oracle AI Database 26ai와 로컬 LLM 추론이 포함된다.",
-        "points": [
-          "온프레미스 설치 + 관리형 구독 결합 모델",
-          "Oracle AI Database 26ai 및 로컬 LLM 추론 포함",
-          "중견기업(mid-market) 배포를 주 타깃으로 설정"
-        ],
-        "why": [
-          "규제 산업에서 데이터 반출 없이 LLM을 쓰려는 요구가 실제 제품 카테고리를 만들고 있다",
-          "클라우드 벤더의 온프레미스 회귀는 데이터 주권 규제가 만든 역흐름이다"
-        ]
-      }
-    },
-    {
-      "id": "it-critical-infrastructure-corman",
+      "id": "it-securing-critical-infrastructure-corman",
       "title": "조시 코먼과 함께 보는 핵심 인프라 보안",
-      "summary": "국가 배후 행위자가 미국 수도·전력·교통 시스템에 이미 자리 잡고 있다는 진단이다. 소프트웨어 방어보다 물리적 안전장치와 수동 대체 수단을 우선해야 한다고 본다.",
+      "summary": "볼트 타이푼 등 국가 배후 행위자가 미국 상하수도·전력·교통 시스템 내부에 자리 잡았다는 경고가 나왔다.",
       "source": "Open Source Security Podcast",
-      "url": "https://opensourcesecurity.io/2026/2026-07-critical-infrastructure-josh-corman/",
-      "originalDate": "2026-07-27",
+      "url": "https://opensourcesecurity.io/2026/2026-07-critical-infrastructure-josh-corman/?utm_source=tldrit",
       "report": {
-        "tldr": "핵심 인프라 방어의 답은 더 나은 소프트웨어가 아니라 수동 대체 수단이다.",
-        "what": "조시 코먼이 국가 배후 행위자가 미국의 수도·전력·교통 시스템에 이미 상주하고 있다고 진단하며, 소프트웨어 중심 사이버 방어보다 물리적 안전장치와 수동 대체 운영 수단을 우선해야 한다고 주장했다.",
+        "tldr": "국가 배후 해킹 조직이 미국 상하수도·전력·교통 시스템에 이미 침투해 있어, 소프트웨어만으로 모든 위험을 해결하려 해서는 안 된다는 경고다.",
+        "what": "사이버 공격이 병원과 공공 안전을 신속히 마비시킬 수 있는 만큼, 핵심 인프라 운영기관은 물리적 엔지니어링 안전장치와 수동 대체 계획, 취약한 연결 시스템 의존도 축소를 우선해야 한다는 조언이다.",
         "points": [
-          "국가 배후 행위자의 핵심 인프라 상주 상태 지적",
-          "소프트웨어 방어만으로는 부족하다는 진단",
-          "물리적 안전장치와 수동 폴백 절차 우선 제안"
+          "볼트 타이푼 등 국가 배후 행위자가 상하수도·전력·교통 시스템 내부 확보",
+          "사이버 공격이 병원·공공안전 마비로 신속히 이어질 위험",
+          "물리적 안전장치·수동 대체계획·연결 의존도 축소가 우선 과제"
         ],
         "why": [
-          "침해를 막는 것보다 침해 상태에서 운영을 이어가는 설계로 관점이 이동한다",
-          "OT 환경은 패치 주기가 길어 소프트웨어 방어의 실효성이 낮다"
+          "핵심 인프라 보안은 순수 사이버 대응을 넘어선 물리적 복원력 설계가 필요함을 시사한다"
         ]
       }
     },
     {
-      "id": "it-sre-ai-agents",
-      "title": "SRE AI 에이전트가 사람을 보완하는 5가지 방식",
-      "summary": "SRE 에이전트가 장애를 자율 해결하고 런북 수동 실행을 없애면서 엔지니어는 아키텍처 감독과 가드레일 관리로 이동한다.",
-      "source": "The New Stack",
-      "url": "https://thenewstack.io/sre-ai-agents-capabilities/",
-      "originalDate": "2026-07-27",
+      "id": "it-github-pypi-supply-chain-defenses",
+      "title": "깃허브·파이피, 공급망 공격 막을 '시간 기반' 방어 도입",
+      "summary": "디펜던봇이 의존성 업데이트 PR에 3일 쿨다운을 기본 적용하고, 파이피는 14일 지난 릴리스에 새 파일 추가를 거부한다.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/vKXPML",
       "report": {
-        "tldr": "런북 실행이 자동화되면 SRE의 일은 감독과 가드레일 설계로 바뀐다.",
-        "what": "The New Stack이 SRE AI 에이전트가 장애를 자율적으로 처리하고 런북 수동 실행을 대체하면서, 엔지니어의 역할이 아키텍처 감독과 가드레일 관리로 이동하는 다섯 가지 양상을 정리했다.",
+        "tldr": "깃허브와 파이피가 최근 공급망 공격 사례에 대응해 시간 지연 기반의 새로운 방어 장치를 도입했다.",
+        "what": "디펜던봇은 의존성 업데이트 풀리퀘스트에 기본 3일 쿨다운을 적용하며, 파이피는 14일이 지난 릴리스에 새 파일이 추가되는 것을 거부한다. 악성 패키지를 채택하거나 심는 시간 창을 줄이는 것이 목표다.",
         "points": [
-          "장애 대응의 자율 처리와 런북 실행 자동화",
-          "엔지니어 역할이 실행에서 감독·가드레일 설계로 이동",
-          "온콜 부담 구조 자체의 변화 전망"
+          "디펜던봇, 의존성 업데이트 PR에 기본 3일 쿨다운 적용",
+          "파이피, 14일 경과 릴리스에 새 파일 추가 거부",
+          "최근 고프로필 패키지 공격에 대한 대응 조치"
         ],
         "why": [
-          "온콜 피로도는 인력 유지의 핵심 변수라 자동화의 투자 회수 논리가 명확하다",
-          "자율 조치 권한 범위를 어디까지 줄지가 실제 도입의 관건이 된다"
+          "공급망 공격 대응이 코드 검사를 넘어 시간 지연이라는 새로운 축으로 확장되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-oracle-private-ai-mid-market",
+      "title": "오라클, 중견기업용 프라이빗 AI '베이스 데이터베이스 클라우드@커스터머' 출시",
+      "summary": "오라클이 온프레미스 관리형 구독 상품으로 중견·지점급 시장에 프라이빗 AI를 확장한다.",
+      "source": "Medium (sanjmo)",
+      "url": "https://sanjmo.medium.com/oracle-brings-private-ai-to-the-mid-market-with-base-database-cloud-customer-de1b959b0d9a?utm_source=tldrit",
+      "report": {
+        "tldr": "오라클이 온프레미스 관리형 구독 상품 '베이스 데이터베이스 클라우드@커스터머'로 프라이빗 AI를 중견기업·지점 시장까지 확장한다.",
+        "what": "소형 X11 플랫폼이 오라클 AI 데이터베이스 26ai를 지원해 방화벽 뒤에서 자동화된 운영과 로컬 LLM 추론을 제공한다. 엑사데이터 클라우드@커스터머 대비 격차를 좁혔지만, 에어갭 제어 플레인 지원은 아직 로드맵 단계다.",
+        "points": [
+          "오라클 데이터베이스 어플라이언스의 클라우드 관리형 진화형 상품",
+          "소형 X11 플랫폼, 오라클 AI 데이터베이스 26ai 지원",
+          "방화벽 뒤 로컬 LLM 추론 및 자동화 운영 제공",
+          "에어갭 제어 플레인 지원은 로드맵 단계"
+        ],
+        "why": [
+          "프라이빗 AI 인프라 경쟁이 대기업을 넘어 중견기업 시장으로 확대되고 있다"
         ]
       }
     },
     {
       "id": "it-container-timing-api",
-      "title": "Container Timing API로 컴포넌트 성능 측정하기",
-      "summary": "크롬의 실험적 Container Timing API로 DOM 주석을 통해 컴포넌트 단위 페인트 시점을 측정할 수 있다. firstRenderTime과 누적 페인트 면적을 추적한다.",
+      "title": "컨테이너 타이밍 API로 컴포넌트 성능 측정하기",
+      "summary": "블룸버그·이갈리아가 개발한 실험적 컨테이너 타이밍 API가 크롬 오리진 트라이얼에서 제공된다.",
       "source": "CSS Wizardry",
-      "url": "https://csswizardry.com/2026/07/measuring-component-performance-with-the-container-timing-api/",
-      "originalDate": "2026-07-27",
+      "url": "https://csswizardry.com/2026/07/meaasuring-component-performance-with-the-container-timing-api/?utm_source=tldrit",
       "report": {
-        "tldr": "페이지 단위였던 성능 측정이 컴포넌트 단위로 내려온다.",
-        "what": "크롬의 실험적 Container Timing API를 이용해 DOM 주석만으로 개별 컴포넌트의 페인트 시점을 측정하는 방법을 정리한 글이다. firstRenderTime과 누적 페인트 면적을 추적할 수 있다.",
+        "tldr": "컨테이너 타이밍 API가 DOM 영역을 태깅해 컴포넌트의 콘텐츠가 시간에 따라 어떻게 페인트되는지 관찰할 수 있게 해준다.",
+        "what": "containertiming 속성과 PerformanceObserver를 통해 최초 렌더 시각, 누적 페인트 크기, 최신 페인트 시점을 하나의 완료 신호 대신 세밀하게 보고한다. 새로 페인트된 콘텐츠 영역만 집계되고 순수 장식은 제외되며, 뷰포트에 잘린 영역은 스크롤 노출이 타이밍에 영향을 준다.",
         "points": [
-          "DOM 주석으로 컴포넌트 단위 측정 지정",
-          "firstRenderTime, 누적 페인트 면적 지표 제공",
-          "크롬 실험 기능 단계"
+          "블룸버그·이갈리아 개발, 크롬 오리진 트라이얼에서 제공",
+          "containertiming 속성+PerformanceObserver로 세밀한 페인트 타이밍 보고",
+          "순수 장식 요소는 집계 제외, 스크롤 노출이 타이밍에 영향"
         ],
         "why": [
-          "LCP 같은 페이지 지표로는 어느 컴포넌트가 느린지 특정할 수 없었다",
-          "성능 회귀의 책임 소재를 팀 단위로 나눌 수 있게 된다"
+          "웹 성능 측정을 페이지 단위에서 컴포넌트 단위로 세분화하는 시도다"
         ]
       }
     },
     {
-      "id": "it-more-intelligence-it",
-      "title": "지능이 더 늘어난다고 일상이 바뀌는가",
-      "summary": "AI가 수학에서 인간을 넘어섰지만 일상은 크게 달라지지 않았다는 관찰이다. 데이터 한계와 혼돈계 특성이 지능의 수확 체감을 만든다고 본다.",
-      "source": "Noahpinion",
-      "url": "https://www.noahpinion.blog/p/what-will-more-intelligence-actually",
-      "originalDate": "2026-07-27",
+      "id": "it-sre-ai-agents-capabilities",
+      "title": "SRE AI 에이전트가 사람의 역량을 보강하는 5가지 방법",
+      "summary": "SRE AI 에이전트가 반복 업무를 자율적으로 처리하고 운영 데이터로부터 학습할 수 있다는 전망이다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/sre-ai-agents-capabilities/?utm_source=tldrit",
       "report": {
-        "tldr": "지능의 수확 체감은 AI 투자 회수 논쟁의 핵심 반론이 된다.",
-        "what": "AI가 수학 등에서 인간을 앞섰음에도 일상이 거의 바뀌지 않은 이유를, 데이터 부족과 혼돈계의 예측 한계에서 오는 지능의 수확 체감으로 설명한 글이다.",
+        "tldr": "SRE AI 에이전트가 일상적 장애를 자율적으로 해결하고 과거 운영 데이터에서 학습하며 반복 업무를 없앨 수 있다는 전망이다.",
+        "what": "엔지니어의 역할은 런북을 직접 실행하는 것에서 아키텍처 개선, 에이전트 가드레일 설정, AI 기반 운영 감독으로 점차 이동할 것으로 예상된다.",
         "points": [
-          "검증 가능한 영역에서 먼저 초인적 성과가 나타남",
-          "데이터 한계와 혼돈계 특성이 실사용 효과를 제약",
-          "지능 향상의 한계 효용 체감 가능성"
+          "일상적 장애의 자율적 해결",
+          "과거 운영 데이터 기반 학습",
+          "엔지니어 역할이 실행에서 감독·가드레일 설정으로 이동"
         ],
         "why": [
-          "AI 예산 심사에서 '모델이 더 좋아지면 해결된다'는 논리에 대한 반론 근거로 쓰인다"
+          "SRE 업무의 자동화 범위가 반복 실행을 넘어 판단 영역으로 확장되고 있다"
         ]
       }
     },
     {
-      "id": "it-hotel-wifi-m365",
-      "title": "호텔 와이파이 장악해 M365 자격증명 탈취",
-      "summary": "공격자가 호텔·컨퍼런스 와이파이 게이트웨이를 침해해 투숙객을 마이크로소프트 365 로그인 사칭 페이지로 유도한다.",
+      "id": "it-hotel-wifi-hackers-microsoft365",
+      "title": "호텔 와이파이 탈취로 마이크로소프트365 자격증명 훔치는 해커들",
+      "summary": "공격자들이 호텔·컨퍼런스 와이파이 게이트웨이를 장악해 출장객을 가짜 로그인 페이지로 유도하고 있다.",
       "source": "Security Affairs",
-      "url": "https://securityaffairs.com/196017/security/hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-credentials.html",
-      "originalDate": "2026-07-27",
+      "url": "https://securityaffairs.com/196017/security/hackers-hijack-hotel-wi-fi-to-steal-microsoft-365-credentials.html?utm_source=tldrit",
       "report": {
-        "tldr": "출장 중 접속하는 캡티브 포털이 자격증명 수집 창구가 됐다.",
-        "what": "호텔과 컨퍼런스장의 와이파이 게이트웨이가 침해돼, 접속 사용자를 마이크로소프트 365 로그인 화면을 사칭한 피싱 페이지로 리디렉션하는 공격이 확인됐다.",
+        "tldr": "공격자들이 호텔·컨퍼런스 와이파이 게이트웨이를 탈취해 출장 중인 직장인들을 가짜 마이크로소프트365 로그인 페이지로 유도하고 있다.",
+        "what": "와이파이 게이트웨이 자체가 공격 지점이 되면서 사용자는 정상적인 네트워크 접속 과정에서 피싱 페이지로 리디렉션된다.",
         "points": [
-          "와이파이 게이트웨이 자체를 장악한 리디렉션 공격",
-          "M365 로그인 사칭 페이지로 자격증명 수집",
-          "출장자·행사 참석자가 주요 표적"
+          "호텔·컨퍼런스 와이파이 게이트웨이 장악",
+          "가짜 마이크로소프트365 로그인 페이지로 리디렉션",
+          "출장 중인 비즈니스 사용자가 주요 표적"
         ],
         "why": [
-          "IT 부서 입장에서는 통제 불가능한 외부 네트워크에서 발생하는 위협이다",
-          "패스키 등 피싱 저항 인증이 있으면 자격증명 탈취 자체가 무력화된다"
-        ],
-        "action": "출장 정책에 공용 와이파이 VPN 강제와 M365 패스키 등록을 포함"
+          "공용 네트워크 인프라 자체를 노리는 공격이 기업 자격증명 탈취의 새 경로가 되고 있다"
+        ]
       }
     },
     {
-      "id": "it-arcnet",
-      "title": "ARCNET은 어떻게 됐나",
-      "summary": "ARCNET은 이더넷보다 먼저 시장에 나왔지만 느린 업그레이드와 가격 때문에 밀려나 산업용 틈새로 후퇴했다.",
+      "id": "it-arcnet-history",
+      "title": "이더넷에 밀린 'ARCNET'은 어떻게 됐나",
+      "summary": "ARCNET은 이더넷보다 먼저 시장에 나와 오랫동안 경쟁력을 유지했지만 결국 산업용 틈새시장으로 밀려났다.",
       "source": "dfarq.homeip.net",
-      "url": "https://dfarq.homeip.net/what-happened-to-arcnet",
-      "originalDate": "2026-07-27",
+      "url": "https://dfarq.homeip.net/what-happened-to-arcnet?utm_source=tldrit",
       "report": {
-        "tldr": "먼저 나온 기술이 표준이 되지 못한 전형적 사례.",
-        "what": "이더넷보다 먼저 상용화됐던 네트워크 규격 ARCNET이 업그레이드 속도와 가격 경쟁에서 밀려 산업용 틈새 시장으로 후퇴한 과정을 정리한 글이다.",
+        "tldr": "ARCNET은 이더넷보다 먼저 출시돼 오랫동안 경쟁력을 유지했지만 느린 업그레이드와 높은 가격, 이더넷의 급속한 속도·경제성 개선에 밀려 산업용 틈새시장으로 밀려났다.",
+        "what": "네트워킹 기술 표준 경쟁에서 초기 시장 선점이 반드시 장기적 승리로 이어지지는 않는다는 사례를 보여준다.",
         "points": [
-          "이더넷보다 앞선 시장 진입에도 표준 경쟁에서 패배",
-          "업그레이드 속도와 가격이 결정적 요인",
-          "현재는 산업 제어 등 틈새 용도로 잔존"
+          "이더넷보다 먼저 시장에 등장",
+          "느린 업그레이드·높은 가격이 발목",
+          "현재는 산업용 시스템의 틈새 기술로 남음"
         ],
         "why": [
-          "선점보다 개선 속도와 단가가 표준 경쟁을 좌우한다는 사례로 읽힌다"
+          "기술 표준 경쟁의 역사적 교훈을 되짚는 회고 글이다"
         ]
       }
     }
