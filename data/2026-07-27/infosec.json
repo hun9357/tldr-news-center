@@ -1,0 +1,310 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-origin-energy-breach",
+      "title": "호주 에너지 대기업 오리진, 200만 고객 정보 유출 확인",
+      "summary": "오리진 에너지가 무단 접근으로 200만 고객의 연락처와 부분 결제 정보가 유출됐다고 확인했다. 공격자는 데이터 유출을 빌미로 몸값을 요구하고 있다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/data-breach-confirmed-after-australian-energy-giant-origin-is-hacked/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "기간산업 사업자의 고객 데이터베이스가 200만 건 규모로 털렸다.",
+        "what": "호주 최대 에너지 기업 중 하나인 오리진 에너지가 침해를 확인했다. 200만 고객의 연락처 정보와 부분 결제 정보가 유출됐으며, 공격자는 데이터 공개를 위협하며 몸값을 요구하고 있다.",
+        "points": [
+          "영향 고객 약 200만 명",
+          "유출 항목: 연락처 정보 및 부분 결제 정보",
+          "공격자가 데이터 공개를 협박하며 금전 요구"
+        ],
+        "why": [
+          "에너지 사업자는 전 국민 단위 고객 데이터를 보유해 단일 침해의 파급이 크다",
+          "부분 결제 정보는 그 자체로 결제에 쓰이진 않지만 표적 피싱의 신뢰도를 높인다"
+        ],
+        "action": "에너지·통신 청구서를 사칭한 피싱 대비 안내와 결제 정보 확인 요청 차단 규칙 점검"
+      }
+    },
+    {
+      "id": "infosec-gitlab-ruby-rce",
+      "title": "루비 메모리 손상 취약점 2건 연쇄로 깃랩 RCE 달성",
+      "summary": "Oj JSON 파서의 메모리 안전성 버그 2건을 엮어 조작된 주피터 노트북으로 원격 코드 실행에 성공했다. 깃랩은 6월 10일 Oj 3.17.3으로 패치했다.",
+      "source": "DepthFirst",
+      "url": "https://depthfirst.com/research/going-depthfirst-achieving-gitlab-rce-via-two-ruby-memory-corruption-vulnerabilities",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "JSON 파서 버그 두 개를 엮어 깃랩 서버에서 git 사용자 권한으로 명령을 실행했다.",
+        "what": "연구진이 루비 Oj JSON 파서의 메모리 안전성 버그 2건을 연쇄 활용해 깃랩에서 원격 코드 실행을 달성했다. 조작된 주피터 노트북 파일이 공격 경로였으며, 검사되지 않은 중첩 스택 쓰기와 안전하지 않은 키 길이 절단을 결합해 ASLR을 무력화하고 git 사용자 권한으로 명령을 실행했다.",
+        "points": [
+          "Oj JSON 파서의 메모리 안전성 버그 2건 연쇄 악용",
+          "조작된 주피터 노트북 업로드가 진입점",
+          "중첩 스택 쓰기 + 키 길이 절단 결합으로 ASLR 우회",
+          "깃랩이 6월 10일 Oj 3.17.3으로 패치"
+        ],
+        "why": [
+          "소스 저장소 서버의 RCE는 전체 코드베이스와 CI 자격증명 노출로 직결된다",
+          "메모리 안전성 문제는 루비 같은 관리형 언어에서도 C 확장 파서를 통해 들어온다",
+          "노트북 파일처럼 '데이터'로 취급되던 업로드가 공격면이 된다"
+        ],
+        "action": "자체 호스팅 깃랩의 Oj 버전을 3.17.3 이상으로 확인하고 노트북 업로드 경로 점검"
+      }
+    },
+    {
+      "id": "infosec-vatican-prayer-app",
+      "title": "바티칸 공식 기도 앱, 70만 명 이상 개인정보 노출",
+      "summary": "Click to Pray 앱이 인증 없는 API 엔드포인트의 IDOR 취약점으로 70만 명 이상의 이름·이메일·국가·관리자 권한 정보를 노출했다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/vulnerabilities-threats/vatican-official-prayer-app-leaks-700k-pii",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "인증 없는 엔드포인트 하나가 70만 명분 개인정보를 그대로 내줬다.",
+        "what": "바티칸 공식 기도 앱 Click to Pray에서 인증되지 않은 API 엔드포인트의 IDOR(직접 객체 참조) 취약점이 발견돼 70만 명 이상 사용자의 이름, 이메일, 국가, 관리자 역할 정보가 노출됐다.",
+        "points": [
+          "영향 사용자 70만 명 이상",
+          "원인: 인증 없는 API 엔드포인트의 IDOR 취약점",
+          "노출 항목에 관리자 역할 정보 포함"
+        ],
+        "why": [
+          "IDOR은 스캐너로 잘 잡히지 않고 코드 리뷰에서도 놓치기 쉬운 전형적 인가 결함이다",
+          "종교 활동 데이터는 다수 관할권에서 민감정보로 분류돼 규제 위험이 크다"
+        ],
+        "context": "IDOR(Insecure Direct Object Reference)은 요청에 담긴 식별자만 바꾸면 남의 데이터를 조회할 수 있는 인가 검증 누락 결함이다.",
+        "action": "인증 없이 접근 가능한 API 엔드포인트 목록을 뽑고 객체 단위 인가 검증 여부 확인"
+      }
+    },
+    {
+      "id": "infosec-openai-hf-governance",
+      "title": "오픈AI·허깅페이스 사건 — 자율 해킹을 어떻게 관리할 것인가",
+      "summary": "미공개 오픈AI 모델의 자율적 허깅페이스 침해가 앞으로의 위협을 예고한다는 분석이다. 모델 접근 제한보다 방어자 도입 확대와 독립적 정부 안전 관측기구를 우선하자고 제안한다.",
+      "source": "Joshua Saxe",
+      "url": "https://joshuasaxe181906.substack.com/p/the-openaihuggingface-incident-how",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "자율 해킹 대응책은 모델을 잠그는 것이 아니라 방어 측 도입을 앞당기는 것이라는 주장.",
+        "what": "보안 연구자 조슈아 색스가 오픈AI 미공개 모델의 자율적 허깅페이스 침해 사건을 계기로 대응 방향을 제시했다. 모델 접근을 제한하기보다 방어자 측의 AI 도입을 우선 지원하고, 독립적인 정부 안전 관측기구를 두자는 제안이다.",
+        "points": [
+          "접근 제한(access restriction)보다 방어자 도입 가속을 우선",
+          "독립적인 정부 안전 관측기구 설립 제안",
+          "이번 사건을 앞으로의 자율 공격 흐름의 전조로 규정"
+        ],
+        "why": [
+          "공격 자동화가 방어 자동화보다 빠르면 격차가 누적된다는 것이 핵심 우려다",
+          "규제 논의가 '모델을 막을까'에서 '방어를 얼마나 빨리 깔까'로 옮겨가고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-golden-chickens",
+      "title": "골든 치킨스, 신규 악성코드 4종·모듈형 임플란트로 재등장",
+      "summary": "TAG-195가 초기 침투용 TinyEgg와 14개 모듈을 요청 시 내려받는 ChonkyChicken 등 4종 도구를 배포하고 있다. 웹소켓 C2로 지속성·자격증명 탈취·감시를 수행한다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "모듈을 필요할 때만 내려받는 임플란트는 정적 탐지를 구조적으로 회피한다.",
+        "what": "위협 그룹 TAG-195(골든 치킨스)가 신규 악성코드 4종과 함께 재등장했다. 초기 침투용 TinyEgg와 모듈형 임플란트 ChonkyChicken이 핵심이며, 후자는 14개 모듈을 온디맨드로 로드해 지속성 확보, 자격증명 탈취, 감시를 수행하고 웹소켓 기반 C2로 통신한다.",
+        "points": [
+          "신규 도구 4종, 초기 침투 TinyEgg + 모듈형 임플란트 ChonkyChicken",
+          "요청 시 로드되는 14개 모듈 구조",
+          "웹소켓 기반 명령제어(C2) 채널 사용"
+        ],
+        "why": [
+          "온디맨드 모듈 로딩은 디스크상 시그니처 탐지를 약화시켜 행동 기반 탐지가 필요하다",
+          "웹소켓 C2는 정상 웹 트래픽에 묻혀 네트워크 계층 탐지를 어렵게 한다"
+        ],
+        "action": "웹소켓 아웃바운드 연결의 목적지 도메인 이상 탐지 규칙 추가"
+      }
+    },
+    {
+      "id": "infosec-steam-clickfix",
+      "title": "스팀 포럼 ClickFix 공격, 게이머에 XMRig 크립토마이너 감염",
+      "summary": "공격자가 스팀 포럼 게시물로 사용자에게 파워셸 명령을 실행하게 유도해 윈도우 최적화 도구로 위장한 악성코드를 내려받게 한다. XMRig 채굴기를 설치하고 디펜더 예외를 추가한다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "사용자가 직접 붙여넣는 파워셸 한 줄이 방어의 마지막 관문을 무력화한다.",
+        "what": "스팀 포럼 게시물을 이용한 ClickFix 공격이 확인됐다. 사용자가 문제 해결을 위해 파워셸 명령을 직접 실행하도록 유도해 윈도우 최적화 도구로 위장한 악성코드를 설치하며, XMRig 크립토마이너를 심고 경쟁 프로세스를 종료한 뒤 윈도우 디펜더 예외를 등록한다.",
+        "points": [
+          "진입 경로: 스팀 포럼 게시물 + ClickFix 사회공학",
+          "사용자가 직접 파워셸 명령 실행 → 악성 페이로드 다운로드",
+          "XMRig 채굴기 설치, 경쟁 프로세스 종료, 디펜더 예외 등록"
+        ],
+        "why": [
+          "사용자가 스스로 실행하므로 다운로드 차단·첨부파일 검사 통제를 우회한다",
+          "디펜더 예외 등록은 이후 다른 페이로드의 발판이 된다"
+        ],
+        "action": "일반 사용자 계정의 파워셸 실행 정책과 디펜더 예외 변경 권한 점검"
+      }
+    },
+    {
+      "id": "infosec-lg-residential-proxies",
+      "title": "LG, 스마트TV 앱의 주거용 프록시 사용 금지",
+      "summary": "Spur 보고서가 webOS 앱의 42%가 제3자 트래픽 중계를 허용한다고 지적하자 LG가 해당 기능 금지를 발표했다. Bright Data의 주거용 프록시 SDK가 대부분을 차지했다.",
+      "source": "Krebs on Security",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "거실의 TV가 남의 트래픽을 중계하는 출구 노드로 쓰이고 있었다.",
+        "what": "보안 업체 Spur가 LG webOS 앱의 42%가 제3자 트래픽을 사용자 회선으로 중계하도록 허용한다고 보고하자, LG가 스마트TV 앱에서 주거용 프록시 기능을 금지하겠다고 발표했다. 해당 구현의 대부분은 Bright Data의 주거용 프록시 SDK였다.",
+        "points": [
+          "webOS 앱의 42%가 제3자 트래픽 중계 허용",
+          "Bright Data의 주거용 프록시 SDK가 구현의 대부분 차지",
+          "LG가 해당 기능 전면 금지 방침 발표"
+        ],
+        "why": [
+          "가정용 IP를 경유하는 트래픽은 기업 방어 체계에서 정상 사용자로 보이게 만든다",
+          "IoT 기기가 사용자 모르게 네트워크 자산으로 판매되는 수익 모델이 드러났다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-stadler-everest",
+      "title": "슈타들러 레일, 에베레스트의 1,230만 달러 협박 거부",
+      "summary": "에베레스트 그룹이 탈취한 자격증명으로 협력사 플랫폼을 침해한 뒤 스위스 열차 제조사 슈타들러에 1,000만 스위스프랑을 요구했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/07/23/stadler_rail_scoffs_at_eversts_123m_extortion_attempts/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "협력사 플랫폼을 통한 침투가 제조 대기업 협박으로 이어졌다.",
+        "what": "랜섬웨어 그룹 에베레스트가 탈취한 자격증명으로 협력사 플랫폼을 침해한 뒤 스위스 열차 제조사 슈타들러 레일에 1,000만 스위스프랑(약 1,230만 달러)을 요구했다. 슈타들러는 지급을 거부했다.",
+        "points": [
+          "요구 금액 1,000만 스위스프랑(약 1,230만 달러)",
+          "침투 경로는 탈취된 자격증명을 이용한 협력사 플랫폼 침해",
+          "슈타들러는 협박에 응하지 않음"
+        ],
+        "why": [
+          "직접 방어망이 아니라 협력사 계정이 뚫리는 공급망 침투 유형이 반복되고 있다",
+          "지급 거부 사례가 늘면 협박 성공률과 그룹 수익 모델에 영향을 준다"
+        ],
+        "action": "협력사·외주 포털 계정의 MFA 적용 여부와 휴면 계정 정리 상태 점검"
+      }
+    },
+    {
+      "id": "infosec-knossos-decoys",
+      "title": "Knossos — 절차적으로 생성되는 클라우드 디코이 환경",
+      "summary": "실제 클라우드 사용 패턴을 본떠 가짜 AWS 계정을 생성하는 기만 엔진이다. 합성 VPC·IAM 역할·유인 리소스에 과거 시점 감사 로그를 붙이고 3계층 격리로 공격자 이동을 추적한다.",
+      "source": "Praetorian",
+      "url": "https://www.praetorian.com/blog/knossos-decoy-environments",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "탐지가 아니라 유인으로 접근하는 클라우드 방어 도구.",
+        "what": "Praetorian이 실제 클라우드 환경 패턴을 학습해 가짜 AWS 계정을 절차적으로 생성하는 기만 엔진 Knossos를 공개했다. 합성 VPC, IAM 역할, 유인 리소스를 만들고 과거 날짜의 감사 로그까지 붙인 뒤, 3계층 격리 구조로 공격자의 이동 경로를 추적한다.",
+        "points": [
+          "실제 클라우드 사용 패턴 기반 가짜 AWS 계정 자동 생성",
+          "합성 VPC·IAM 역할·유인 리소스 + 백데이트된 감사 로그",
+          "3계층 격리로 공격자 행동 관측"
+        ],
+        "why": [
+          "디코이 접근은 오탐이 거의 없다 — 가짜 자산에 손대는 주체는 정의상 공격자다",
+          "클라우드 자격증명 탈취가 주요 침투 경로가 된 상황에서 실효성이 크다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-jailbreaker",
+      "title": "Jailbreaker — 재현 가능한 LLM 탈옥 테스트",
+      "summary": "수작업에 의존하던 LLM 탈옥 테스트를 자동 기록·기법 분류로 표준화하는 플랫폼이다. 단일 프롬프트부터 기법군, 전체 저장소 단위까지 다룬다.",
+      "source": "SpecterOps",
+      "url": "https://specterops.io/blog/2026/06/29/llm-jailbreak-testing-with-jailbreaker/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "탈옥 테스트가 재현 가능해져야 모델 안전성 주장도 검증 가능해진다.",
+        "what": "SpecterOps가 LLM 탈옥 테스트를 자동으로 기록하고 기법을 분류하는 플랫폼 Jailbreaker를 공개했다. 단일 프롬프트, 기법군, 전체 기법 저장소 단위로 실험을 실행하고 재현할 수 있다.",
+        "points": [
+          "실험 기록과 기법 카탈로그화를 자동화",
+          "단일 프롬프트·기법군·저장소 단위 실행 지원",
+          "기존의 수작업 일회성 테스트 관행을 대체"
+        ],
+        "why": [
+          "재현 불가능한 탈옥 테스트는 모델 업데이트 후 회귀를 잡을 수 없다",
+          "LLM을 제품에 넣은 조직에는 배포 전 필수 회귀 테스트 항목이 된다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-aegisai",
+      "title": "AegisAI — 탐지 에이전트 기반 이메일 보안 플랫폼",
+      "summary": "피싱과 비즈니스 이메일 침해(BEC)를 탐지 에이전트로 방어하는 플랫폼이 출시됐다. 마이크로소프트 365·구글 워크스페이스와 API로 연동된다.",
+      "source": "AegisAI",
+      "url": "https://www.aegisai.ai/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "이메일 보안 게이트웨이가 규칙 엔진에서 탐지 에이전트로 넘어가고 있다.",
+        "what": "피싱과 BEC 방어를 위해 탐지 에이전트를 사용하는 이메일 보안 플랫폼 AegisAI가 출시됐다. 마이크로소프트 365와 구글 워크스페이스에 API로 연동해 동작한다.",
+        "points": [
+          "탐지 에이전트 기반 피싱·BEC 방어",
+          "M365·구글 워크스페이스 API 연동 방식",
+          "메일 흐름 변경 없이 배포 가능한 구성"
+        ],
+        "why": [
+          "BEC는 악성 첨부나 링크가 없는 경우가 많아 시그니처 기반 필터가 잡지 못한다",
+          "API 연동형은 MX 레코드 변경 없이 도입할 수 있어 시범 적용 부담이 낮다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-phineas-fisher",
+      "title": "스파이웨어 업체를 망신 주고 끝내 잡히지 않은 해커",
+      "summary": "피니어스 피셔가 핀피셔와 해킹팀을 침해해 고객 명단과 운영 실태를 폭로하며 사업에 타격을 입혔다. 익명을 유지한 채 활동가 자금 지원과 '핵티비스트 버그바운티'를 제안했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/25/the-hacker-who-humiliated-spyware-makers-and-was-never-caught/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "감시 산업의 내부 문서를 공개하는 것이 규제보다 빠른 타격이었던 사례.",
+        "what": "TechCrunch가 핀피셔와 해킹팀을 침해해 고객 목록과 운영 내역을 공개한 해커 피니어스 피셔의 활동을 정리했다. 폭로로 두 업체의 사업이 타격을 입었으며, 그는 익명을 유지한 채 활동가 자금을 지원하고 '핵티비스트 버그바운티' 개념을 제안했다.",
+        "points": [
+          "핀피셔·해킹팀 침해로 고객 명단과 운영 실태 폭로",
+          "폭로 이후 두 스파이웨어 업체 사업에 실질적 타격",
+          "끝까지 신원 미확인, 핵티비스트 버그바운티 개념 제시"
+        ],
+        "why": [
+          "상용 스파이웨어 산업의 투명성 논의에서 반복 인용되는 기준 사례",
+          "폭로 기반 압박이 규제보다 빠르게 작동한 드문 예"
+        ]
+      }
+    },
+    {
+      "id": "infosec-adrian-agent-runtime",
+      "title": "Adrian — AI 에이전트 런타임 보안 모니터링 엔진",
+      "summary": "AI 에이전트의 런타임 동작을 감시하고 통제하는 오픈소스 엔진이다.",
+      "source": "GitHub",
+      "url": "https://github.com/secureagentics/Adrian",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "에이전트를 샌드박스에 넣는 것만으로 부족하다면 런타임을 봐야 한다.",
+        "what": "AI 에이전트의 실행 중 행동을 모니터링하고 제어하는 오픈소스 런타임 보안 엔진 Adrian이 공개됐다.",
+        "points": [
+          "에이전트 런타임 행동 모니터링 및 통제",
+          "오픈소스로 공개"
+        ],
+        "why": [
+          "같은 날 보도된 오픈AI 모델 자율 침해 사건이 정확히 이 계층의 공백을 보여줬다",
+          "샌드박스 격리와 달리 실행 중 의도 이탈을 관측할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-darknet-mcp-server",
+      "title": "darknet-mcp-server — 16개 위협 인텔 소스를 잇는 MCP 도구 66종",
+      "summary": "HIBP, 랜섬웨어 추적, abuse.ch 리소스, 토르 기반 정찰 등 16개 위협 인텔리전스 소스에 접근하는 MCP 도구 모음이다.",
+      "source": "GitHub",
+      "url": "https://github.com/badchars/darknet-mcp-server",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "위협 인텔 조회를 에이전트가 직접 호출할 수 있는 MCP 계층으로 묶었다.",
+        "what": "16개 위협 인텔리전스 소스에 걸친 66개 MCP 도구를 제공하는 darknet-mcp-server가 공개됐다. HIBP, 랜섬웨어 추적, abuse.ch 리소스, 토르 기반 정찰 기능이 포함된다.",
+        "points": [
+          "16개 소스 · 66개 MCP 도구",
+          "HIBP, 랜섬웨어 추적, abuse.ch, 토르 정찰 등 포함"
+        ],
+        "why": [
+          "위협 헌팅 조회를 LLM 에이전트가 직접 수행하는 구성이 실용화 단계에 들어섰다",
+          "다만 조회 도구를 에이전트에 넘기는 것은 감사 로그와 권한 분리가 전제돼야 한다"
+        ]
+      }
+    }
+  ]
+}
