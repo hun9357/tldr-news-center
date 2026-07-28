@@ -1,0 +1,281 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-midjourney-acquires-costar",
+      "title": "미드저니, 점성술 앱 코스타 인수",
+      "summary": "이미지·영상 생성 AI랩이 소셜 점성술 앱을 인수하며 소비자 사업을 확장한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "이미지·영상 생성 AI랩 미드저니가 월간 활성 사용자 약 430만 명의 소셜 점성술 앱 코스타를 인수했으며, 거래 조건은 비공개다.",
+        "what": "코스타는 사람들이 점성술 출생차트를 생성·공유하도록 돕고 AI와 사람 모두를 활용해 별자리 운세·궁합 리딩을 제공한다. 코스타의 직원 20여 명은 미드저니에 합류했으며, 미드저니의 소비자 라인업은 디스코드 기반 이미지 도구 외에도 의료·스파 관련 사업으로 이미 확장돼 있었다.",
+        "points": [
+          "코스타 월간 활성 사용자 약 430만 명",
+          "코스타 직원 20여 명 미드저니 합류",
+          "미드저니는 기존에도 의료·스파 등 소비자 사업 확장 중",
+          "거래 조건 비공개"
+        ],
+        "why": [
+          "이미지 생성 AI 기업이 소비자용 라이프스타일 앱까지 영역을 넓히는 인수합병 사례다."
+        ]
+      }
+    },
+    {
+      "id": "design-apple-watch-conservative-refresh",
+      "title": "애플워치, 최소 1~2년은 디자인 그대로 유지 전망",
+      "summary": "시리즈12·울트라4는 칩 업그레이드와 건강 기능에 집중할 전망이다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/wearables/apples-smartwatches-will-look-the-same-for-at-least-another-year-or-two/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "애플이 올가을 애플워치 시리즈12와 울트라4를 준비 중이지만 두 모델 모두 큰 디자인 변화는 없을 것으로 알려졌다.",
+        "what": "대신 오래 기다려온 칩 업그레이드와 더 발전된 건강·피트니스 추적 기능에 초점이 맞춰질 전망이며, 혈당 감지 같은 주요 기능은 여전히 몇 년 더 걸릴 것으로 보인다. 애플워치는 스마트글래스나 카메라 탑재 에어팟처럼 더 큰 디자인·기술적 리스크를 감수하는 다른 제품군과 달리 점진적 개선의 보수적 사이클에 안착한 상태다.",
+        "points": [
+          "시리즈12·울트라4 모두 큰 디자인 변화 없을 전망",
+          "칩 업그레이드와 건강·피트니스 기능 강화에 집중",
+          "혈당 감지 등 주요 신기능은 여전히 몇 년 남음",
+          "애플워치는 보수적 점진 개선 사이클에 정착"
+        ],
+        "why": [
+          "애플의 제품군별 리스크 감수 전략 차이를 보여주는 사례다."
+        ]
+      }
+    },
+    {
+      "id": "design-black-forest-labs-flux3",
+      "title": "블랙포레스트랩스, 이미지·20초 영상 생성 FLUX 3 공개",
+      "summary": "오디오가 포함된 최대 20초 영상과 멀티샷 연속성을 지원하는 첫 공개 영상 생성 모델이다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/black-forest-labs-launches-flux-3-capable-of-generating-images-and-20-second-video-with-audio-but-in-limited-release-to-start?utm_source=tldrdesign",
+      "report": {
+        "tldr": "블랙포레스트랩스가 첫 공개 영상 생성 모델 FLUX 3를 공개했다.",
+        "what": "얼리 액세스는 승인이 필요하며 가격, 서비스수준 약속, 전체 벤치마크 방법론은 아직 공개되지 않았다. 영상 티어는 네이티브 오디오와 멀티샷 연속성을 갖춘 최대 20초 클립을 생성하며, 관련 모델 FLUX-mimic은 동일 아키텍처를 로봇 조작 작업으로 확장한다.",
+        "points": [
+          "첫 공개 영상 생성 모델",
+          "최대 20초 클립, 네이티브 오디오·멀티샷 연속성 지원",
+          "얼리 액세스는 승인 필요, 가격 미공개",
+          "관련 모델 FLUX-mimic은 로봇 조작 작업으로 확장"
+        ],
+        "why": [
+          "이미지 생성 모델 진영의 영상 생성 경쟁이 오디오·로보틱스 응용까지 확대되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "design-minimalism-is-dead-afterparty",
+      "title": "'미니멀리즘은 죽었다' 깊이·질감·개성의 귀환",
+      "summary": "10년간 이어진 미니멀리즘 시대가 저물고 뉴모피즘 등 새 스타일이 부상하고 있다.",
+      "source": "Tubik Studio",
+      "url": "https://tubikstudio.com/blog/minimalism-is-dead/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "10년 가까이 이어진 디자인의 미니멀리즘 시대가 저물고 깊이·질감·개성을 되살리는 새로운 국면이 열리고 있다는 분석이다.",
+        "what": "미니멀리즘은 디자이너에게 구조와 위계를 가르친 필수 훈련이었지만, 2010년대 후반 들어 '코퍼레이트 멤피스'로 대표되는 단조롭고 잊혀지기 쉬운 획일성으로 변질됐다. 뉴모피즘, 레퍼런셜 스큐어모피즘, 브루탈리스트 웹디자인 같은 신흥 스타일은 이 구조적 기반 위에 재미와 감성적 풍부함을 쌓아올리고 있다.",
+        "points": [
+          "10년 가까운 미니멀리즘 시대의 종언",
+          "2010년대 후반 '코퍼레이트 멤피스'로 획일화된 사례 지적",
+          "뉴모피즘·레퍼런셜 스큐어모피즘·브루탈리스트 웹디자인 부상",
+          "구조적 기반 위에 감성적 풍부함을 더하는 방향"
+        ],
+        "why": [
+          "UI 디자인 트렌드의 큰 흐름 전환을 보여주는 분석이다."
+        ]
+      }
+    },
+    {
+      "id": "design-duolingo-guilt-architecture",
+      "title": "'죄책감의 건축학' 듀오링고는 어떻게 부정적 감정을 디자인 시스템으로 만들었나",
+      "summary": "손실 회피와 스트릭, 죄책감을 활용해 유지율을 끌어올린 사례 분석이다.",
+      "source": "TLDR Newsletter Links",
+      "url": "https://links.tldrnewsletter.com/7RTflX",
+      "report": {
+        "tldr": "듀오링고는 손실 회피, 스트릭, 죄책감, 감정적으로 반응하는 마스코트를 활용해 전통적인 포인트·배지 같은 보상보다 진행 상황 유지를 더 매력적으로 느끼게 만들어 유지율을 끌어올린다.",
+        "what": "이 시스템은 스트릭 프리즈 같은 장치로 불가피한 실패를 미리 대비해 사용자가 습관을 완전히 포기하지 않고 회복하도록 돕는다. 이런 기법들은 행동 디자인의 힘을 보여주는 동시에, 사용자가 진정으로 원하는 목표를 지지하는 '설득'과 참여 지표 개선을 위해 불안을 조장하는 '강압' 사이의 중요한 윤리적 경계를 제기한다.",
+        "points": [
+          "손실 회피·스트릭·죄책감·감정 반응 마스코트 활용",
+          "전통적 포인트·배지보다 진행 유지를 더 매력적으로 설계",
+          "스트릭 프리즈 등으로 실패 후 회복 유도",
+          "설득과 강압 사이의 윤리적 경계 문제 제기"
+        ],
+        "why": [
+          "참여도를 높이는 행동 디자인 기법의 효과와 윤리적 한계를 동시에 짚은 사례 연구다."
+        ]
+      }
+    },
+    {
+      "id": "design-boring-website-silent-experiential-web",
+      "title": "'지루한 웹사이트가 오히려 자유롭게 한다' 사일런트 웹과 익스피리언셜 웹",
+      "summary": "전환율·SEO 최적화가 웹을 획일화시킨 가운데 AI 에이전트가 이를 더 가속화한다는 진단이다.",
+      "source": "TLDR Newsletter Links",
+      "url": "https://links.tldrnewsletter.com/cY0kWx",
+      "report": {
+        "tldr": "수년간 전환율·접근성·SEO·템플릿을 위한 웹사이트 최적화가 웹을 점점 더 획일화시켰고, AI 에이전트는 브랜드를 더욱 상호교환 가능한 기계 판독형 상품으로 축소시킬 위협이 되고 있다는 진단이다.",
+        "what": "대안으로 기계용으로 최적화된 구조화 데이터의 '사일런트 웹'과, 독특하고 기억에 남는 인간 중심 브랜드 경험을 위한 '익스피리언셜 웹'으로 양분되는 미래가 제시된다. AI는 자동화·효율성 도구가 아니라 스토리텔링과 상호작용을 위한 창작 파트너로 다룰 때 이러한 전환을 도울 수 있다.",
+        "points": [
+          "전환율·SEO 최적화가 웹의 획일화 초래",
+          "AI 에이전트가 브랜드 상품화를 가속화할 위협",
+          "'사일런트 웹'(기계용 구조화 데이터)과 '익스피리언셜 웹'(인간 중심 경험)으로 양분 전망",
+          "AI를 창작 파트너로 다루는 접근 제안"
+        ],
+        "why": [
+          "AI 시대 웹 브랜딩 전략에 대한 새로운 프레임을 제시한다."
+        ]
+      }
+    },
+    {
+      "id": "design-ui-sound-design-library",
+      "title": "UI 사운드 디자인 라이브러리, 바로 적용 가능한 형태로 공개",
+      "summary": "웹·모바일·SaaS·교육·미디어·게임용 인터페이스 효과음 라이브러리다.",
+      "source": "uisfx.com",
+      "url": "https://uisfx.com/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "웹앱, 모바일앱, SaaS, 교육, 미디어, 게임용으로 즉시 적용 가능한 작고 완전한 인터페이스 효과음 라이브러리가 공개됐다.",
+        "what": "개발자와 디자이너가 바로 가져다 쓸 수 있는 형태로 제공된다.",
+        "points": [
+          "웹·모바일·SaaS·교육·미디어·게임용 인터페이스 효과음 제공",
+          "즉시 적용 가능한 형태로 제공"
+        ],
+        "why": [
+          "마이크로 인터랙션 사운드 디자인에 대한 관심이 계속 커지고 있다."
+        ]
+      }
+    },
+    {
+      "id": "design-creative-components-canvas-webgl",
+      "title": "'크리에이티브 컴포넌트' 오픈소스 캔버스·WebGL 컴포넌트 라이브러리",
+      "summary": "프레임워크에 관계없이 복사·붙여넣기로 바로 적용 가능한 컴포넌트 모음이다.",
+      "source": "canvasui.dev",
+      "url": "https://canvasui.dev/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "HTML-in-캔버스와 WebGL을 활용한 세련된 오픈소스 컴포넌트 라이브러리가 공개됐다.",
+        "what": "프레임워크에 구애받지 않으며 복사·붙여넣기만으로 바로 배포할 수 있다.",
+        "points": [
+          "HTML-in-캔버스·WebGL 컴포넌트 라이브러리",
+          "프레임워크 무관",
+          "복사·붙여넣기로 즉시 배포 가능"
+        ],
+        "why": [
+          "캔버스·WebGL 기반의 화려한 인터랙션이 웹 디자인 도구로 접근성이 높아지고 있다."
+        ]
+      }
+    },
+    {
+      "id": "design-spatial-story-planning-tool",
+      "title": "무한 캔버스 기반 공간형 스토리 기획 도구 공개",
+      "summary": "카드와 배경을 배치해 캐릭터·장소·장면 구조를 매핑하고 각본 포맷으로 내보낼 수 있다.",
+      "source": "minimalhumans.com",
+      "url": "https://www.minimalhumans.com/scriptyard/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "무한 캔버스 위에 카드와 배경을 배치해 캐릭터, 장소, 장면, 구조를 매핑하는 공간형 스토리 기획 도구가 공개됐다.",
+        "what": "완성된 기획은 마크다운, 파운틴, 파이널드래프트 포맷으로 내보내 바로 집필을 시작할 수 있다.",
+        "points": [
+          "무한 캔버스 기반 스토리 기획 도구",
+          "카드·배경으로 캐릭터·장소·장면 매핑",
+          "마크다운·파운틴·파이널드래프트로 내보내기 지원"
+        ],
+        "why": [
+          "시나리오·스토리 기획 단계에 특화된 비주얼 도구로 창작 워크플로를 지원한다."
+        ]
+      }
+    },
+    {
+      "id": "design-side-project-upskill-ai-era",
+      "title": "'AI 시대 가장 빠른 실력 향상법은 사이드 프로젝트'",
+      "summary": "비용·코딩·시간 장벽이 사라진 지금, 노코드보다 '메탈에 가까운' 도구로 배우라는 제언이다.",
+      "source": "philmorton.co",
+      "url": "https://www.philmorton.co/a-side-project-is-the-fastest-way-to-upskill-in-the-age-of-ai/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "비용·코딩·시간 장벽이 대부분 사라진 지금, 사이드 프로젝트가 AI 시대 가장 빠른 실력 향상 경로가 됐다는 주장이다.",
+        "what": "러버블 같은 노코드 도구에 의존하기보다 클로드 코드, 코덱스, 커서 등으로 '메탈에 가까운' 방식으로 작업하며 완전 자동화가 아닌 반복적 주고받기를 통해 배울 것을 권한다. 2주 만에 만든 앱 '페그스아웃'이 이 과정이 얼마나 접근하기 쉬워졌는지 보여주는 구체적 사례로 제시된다.",
+        "points": [
+          "비용·코딩·시간 장벽이 대부분 해소",
+          "노코드 도구보다 코드에 가까운 도구 사용 권장",
+          "완전 자동화보다 반복적 상호작용을 통한 학습 강조",
+          "2주 만에 만든 앱 '페그스아웃' 사례 제시"
+        ],
+        "why": [
+          "AI 도구 시대에 실무 역량을 키우는 실용적 학습 전략을 제시한다."
+        ]
+      }
+    },
+    {
+      "id": "design-six-laws-psychology-ux",
+      "title": "좋은 UX를 만드는 심리학 6가지 법칙",
+      "summary": "결정 시간·타깃 크기·익숙한 패턴·대비·기억에 남는 마무리·시각적 완성도를 다룬다.",
+      "source": "Loop11",
+      "url": "https://www.loop11.com/the-6-laws-of-psychology-for-good-ux-design/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "결정 시간, 타깃 크기, 익숙한 패턴, 대비, 기억에 남는 마무리, 시각적 완성도를 아우르는 여섯 가지 인지심리학 원칙이 사용자의 과업 완수 여부를 좌우한다는 정리다.",
+        "what": "힉의 법칙, 피츠의 법칙, 야콥의 법칙, 폰 레스토프 효과, 피크엔드 법칙, 심미성-사용성 효과를 적용하면 지원 티켓이 줄고 과업 완료 속도가 빨라지며 전환율이 오른다. 디자이너는 인터페이스를 각 법칙에 대입해 매핑하고 프로토타입으로 조기에 테스트한 뒤 변경 후 재테스트해 개선을 확인할 것을 권한다.",
+        "points": [
+          "힉의 법칙·피츠의 법칙·야콥의 법칙 등 6가지 심리학 원칙",
+          "적용 시 지원 티켓 감소·과업 완료 속도 향상·전환율 개선 효과",
+          "인터페이스를 법칙별로 매핑해 조기 프로토타입 테스트 권장",
+          "변경 후 재테스트로 개선 여부 확인 권장"
+        ],
+        "why": [
+          "UX 설계에 바로 적용할 수 있는 검증된 심리학 프레임워크를 정리했다."
+        ]
+      }
+    },
+    {
+      "id": "design-tv-logo-typography-30-shows",
+      "title": "TV 시리즈 로고 폰트로 보는 30편의 상징적 타이포그래피",
+      "summary": "디자인 레퍼런스가 계속 되돌아가는 30개 TV 로고를 정리했다.",
+      "source": "Indieground",
+      "url": "https://indieground.net/blog/tv-series-logo-fonts-the-typography-behind-30-iconic-shows/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "디자인 레퍼런스로 반복해서 소환되는 30개 TV 시리즈 로고의 타이포그래피를 정리한 글이다.",
+        "what": "상징적인 TV 로고들의 서체 선택과 디자인 배경을 다룬다.",
+        "points": [
+          "30개 TV 시리즈 로고 타이포그래피 정리",
+          "디자인 레퍼런스로 반복 소환되는 사례 다수 포함"
+        ],
+        "why": [
+          "브랜드·타이포그래피 디자이너에게 실용적인 레퍼런스 자료다."
+        ]
+      }
+    },
+    {
+      "id": "design-creativity-tax-bold-ideas",
+      "title": "'창의성 세금' 대담한 아이디어가 회의실을 못 나오는 이유",
+      "summary": "지위가 보호해주지 않는 한 발언 자체가 위험하게 느껴진다는 분석이다.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/tips/the-creativity-tax-why-the-boldest-ideas-rarely-make-it-out-of-the-room/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "대담한 아이디어가 크리에이티브 스튜디오에서 걸러지는 이유는 상상력 부족이 아니라, 지위가 보호해주지 않는 한 발언 자체가 위험하게 느껴지기 때문이라는 분석이다.",
+        "what": "조직 내 심리적 안전감 부족이 창의적 아이디어의 생존율을 낮춘다는 점을 지적한다.",
+        "points": [
+          "대담한 아이디어가 걸러지는 원인은 상상력이 아닌 발언의 위험 부담",
+          "지위가 낮을수록 아이디어 제시를 꺼리는 경향",
+          "조직의 심리적 안전감 부족이 핵심 요인"
+        ],
+        "why": [
+          "창의적 조직문화를 만들기 위해 짚어야 할 구조적 문제를 제기한다."
+        ]
+      }
+    },
+    {
+      "id": "design-honor-new-logo-dare-to-be",
+      "title": "아너, '완벽함을 넘어서'를 표방한 새 로고 공개",
+      "summary": "대담한 새 로고와 'Dare to Be' 태그라인으로 브랜드 차별화를 시도한다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/logos-icons/honors-new-logo-is-all-about-pushing-past-perfection?utm_source=tldrdesign",
+      "report": {
+        "tldr": "아너가 관습에 도전하고 기술 업계에서 더 뚜렷한 존재감을 갖추려는 취지로 대담한 새 로고와 'Dare to Be' 태그라인을 공개했다.",
+        "what": "브랜드 리프레시를 통해 차별화를 꾀하는 행보다.",
+        "points": [
+          "새 로고와 'Dare to Be' 태그라인 공개",
+          "관습에 도전하는 브랜드 이미지 지향",
+          "기술 업계 내 존재감 강화 목적"
+        ],
+        "why": [
+          "스마트폰 제조사들의 브랜드 리프레시 경쟁이 계속되고 있다."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-tanstack-stopped-using-rsc",
+      "title": "탠스택닷컴, RSC 사용 중단…더 단순한 SSR로 회귀",
+      "summary": "초기엔 클라이언트 자바스크립트를 줄여준 RSC였지만 결국 복잡도 대비 이점이 사라졌다.",
+      "source": "TanStack Blog",
+      "url": "https://tanstack.com/blog/we-stopped-using-rsc-on-tanstack-com?utm_source=tldrdev",
+      "report": {
+        "tldr": "탠스택닷컴은 React 서버 컴포넌트(RSC)로 클라이언트 자바스크립트 전송량을 줄여 성능을 개선했지만, 결국 RSC의 복잡도를 감수할 필요가 없는 더 단순한 서버사이드 렌더링(SSR)으로 되돌아갔다.",
+        "what": "RSC는 초기 의존성 문제를 해결해줬지만, 콘텐츠 렌더러 자체가 최적화된 뒤로는 그 아키텍처적 오버헤드가 더 이상 정당화되지 않았다.",
+        "points": [
+          "RSC 도입 초기엔 클라이언트 JS 전송량 감소로 성능 개선",
+          "이후 더 단순한 SSR로 전환, 사이트 속도는 유지",
+          "콘텐츠 렌더러 최적화 이후 RSC의 복잡도 이점 소멸"
+        ],
+        "why": [
+          "RSC 도입이 만능 해법이 아니며 상황에 따라 되돌릴 수 있는 선택임을 보여주는 실전 사례다."
+        ]
+      }
+    },
+    {
+      "id": "dev-git-rebase-not-scary",
+      "title": "'git rebase -i는 무섭지 않다'",
+      "summary": "실은 텍스트 편집기로 커밋을 정리하는 단순한 명령이라는 설명이다.",
+      "source": "cachebag.sh",
+      "url": "https://cachebag.sh/journal/interactive-rebasing/?utm_source=tldrdev",
+      "report": {
+        "tldr": "git rebase -i에 대한 두려움은 대체로 과장돼 있으며, 실제로는 직관적인 지시가 담긴 텍스트 파일을 열어 편집하는 것뿐이라는 설명이다.",
+        "what": "내장된 안전장치 덕분에 실수해도 복구할 수 있어, 커밋·브랜치 히스토리 관리를 개선하는 데 적극 활용할 만하다.",
+        "points": [
+          "텍스트 파일 편집 형태의 직관적인 인터랙티브 리베이스",
+          "내장 안전장치로 실수 복구 가능",
+          "커밋·브랜치 히스토리 관리 개선에 유용"
+        ],
+        "why": [
+          "많은 개발자가 꺼리는 명령어에 대한 심리적 장벽을 낮춰주는 실용적 가이드다."
+        ]
+      }
+    },
+    {
+      "id": "dev-shopify-checkout-blocks-polaris-web-components",
+      "title": "쇼피파이, 체크아웃 블록스 앱을 폴라리스 웹 컴포넌트로 전환",
+      "summary": "remote-dom과 웹 컴포넌트로 번들 크기를 줄이고 로딩 속도를 높였다.",
+      "source": "Shopify Engineering",
+      "url": "https://shopify.engineering/upgrading-checkout-blocks-app-to-polaris-web-components?utm_source=tldrdev",
+      "report": {
+        "tldr": "쇼피파이가 체크아웃 블록스 앱을 remote-dom과 폴라리스 웹 컴포넌트 기반으로 업그레이드해 체크아웃 확장의 번들 크기를 줄이고 로딩 속도를 높였다.",
+        "what": "전환 과정은 AI의 도움을 받아 신중하게 관리됐으며, 호환성 문제를 해결하면서도 성능 향상을 보장해 더 빠르고 가벼운 확장으로 체크아웃 경험을 개선했다.",
+        "points": [
+          "remote-dom·폴라리스 웹 컴포넌트로 전환",
+          "번들 크기 축소, 로딩 속도 향상",
+          "AI 도움으로 호환성 문제 해결하며 전환 관리",
+          "더 빠르고 가벼운 체크아웃 확장 확보"
+        ],
+        "why": [
+          "대형 이커머스 플랫폼의 프론트엔드 아키텍처 현대화 사례로 참고할 만하다."
+        ]
+      }
+    },
+    {
+      "id": "dev-why-care-about-programming-languages",
+      "title": "'왜 프로그래밍 언어에 관심을 가져야 하나' 개념이 남는 이유",
+      "summary": "문법·도구보다 언어가 담고 있는 근본 개념이 문제 해결의 틀을 제공한다는 주장이다.",
+      "source": "ebellani (blog)",
+      "url": "https://ebellani.github.io/blog/2026/why-care-about-programming-languages/?utm_source=tldrdev",
+      "report": {
+        "tldr": "프로그래밍 언어를 깊이 이해하는 것의 가치는 문법이나 도구가 아니라 그 언어가 담고 있는 근본 개념에 있다는 주장이다.",
+        "what": "러스트의 오너십, 함수형 언어의 일급 함수 같은 개념들은 복잡성을 관리하고 문제를 해결하는 프레임워크를 제공한다.",
+        "points": [
+          "언어 문법·도구보다 근본 개념이 핵심",
+          "러스트의 오너십, 함수형 언어의 일급 함수 등이 예시",
+          "이런 개념이 복잡성 관리·문제 해결의 틀 제공"
+        ],
+        "why": [
+          "여러 언어를 넘나드는 개념적 이해가 실무 역량에 미치는 영향을 짚었다."
+        ]
+      }
+    },
+    {
+      "id": "dev-on-ai-personal-essay",
+      "title": "'AI에 대하여' — AI 코딩 도구를 바라보는 한 개발자의 시선",
+      "summary": "초기 회의론에서 클로드 같은 도구 탐색까지, AI 생성 프로젝트 범람에 대한 우려를 담았다.",
+      "source": "jcs.org",
+      "url": "https://jcs.org/2026/07/23/ai?utm_source=tldrdev",
+      "report": {
+        "tldr": "2019년 앤드리어스 클링의 프로그래밍 영상을 접하며 CLion 같은 고급 IDE의 코딩 속도에 매료됐던 저자가, 초기의 AI 회의론을 거쳐 클로드 같은 도구를 탐색하게 된 과정을 담은 에세이다.",
+        "what": "저자는 AI 생성 프로젝트가 개인의 노력을 가려버리는 프로그래밍 커뮤니티의 변화에 대해 우려를 드러낸다.",
+        "points": [
+          "깃허브 코파일럿 등 AI 보조 코딩에 대한 초기 회의론에서 출발",
+          "이후 클로드 등 AI 도구 탐색으로 전환",
+          "AI 생성 프로젝트 범람이 개인 노력을 가릴 수 있다는 우려 표명"
+        ],
+        "why": [
+          "AI 코딩 도구 확산에 대한 개발자 커뮤니티의 솔직한 심리를 보여주는 에세이다."
+        ]
+      }
+    },
+    {
+      "id": "dev-stop-chasing-models-build-once",
+      "title": "'새 모델 쫓지 말고, 한 번 만들어 전부 접근하라'",
+      "summary": "앱 코드와 모델 통합을 분리하면 잦은 모델 교체에도 대응하기 쉬워진다.",
+      "source": "Mozilla.ai Blog",
+      "url": "https://blog.mozilla.ai/stop-chasing-new-models-build-once-and-access-them-all/?utm_source=tldrdev",
+      "report": {
+        "tldr": "새로운 LLM을 앱에 통합할 때마다 벤더별 요구사항이 달라 과거 소프트웨어의 의존성 지옥과 유사한 문제가 발생한다는 지적이다.",
+        "what": "더 효과적인 접근은 애플리케이션 코드와 모델 통합을 분리해, 대규모 재작성 없이 손쉽게 업데이트하고 평가할 수 있도록 하는 것이다.",
+        "points": [
+          "벤더별 통합 요구사항 차이가 의존성 지옥 유발",
+          "앱 코드와 모델 통합의 분리 권장",
+          "대규모 재작성 없이 모델 업데이트·평가 가능"
+        ],
+        "why": [
+          "빠르게 변하는 모델 생태계에서 지속 가능한 아키텍처 원칙을 제시한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-scriptc-typescript-native-compiler",
+      "title": "스크립트씨, TypeScript를 네이티브 실행파일로 컴파일하는 도구 공개",
+      "summary": "자바스크립트 엔진 없이도 정적·동적 실행 모드를 모두 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/vercel-labs/scriptc?utm_source=tldrdev",
+      "report": {
+        "tldr": "Scriptc는 표준 TypeScript 코드를 자바스크립트 엔진 없이 효율적인 네이티브 실행파일로 변환하는 컴파일러로, 정적·동적 실행 모드를 모두 지원한다.",
+        "what": "빠른 시작 시간과 메모리 효율성에 초점을 맞춰 설계됐다.",
+        "points": [
+          "TypeScript를 네이티브 실행파일로 컴파일",
+          "자바스크립트 엔진 불필요",
+          "정적·동적 실행 모드 모두 지원",
+          "빠른 시작 시간·메모리 효율성에 최적화"
+        ],
+        "why": [
+          "TypeScript 생태계에서 런타임 오버헤드를 줄이려는 컴파일러 접근이 계속 늘고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-edge-aura-screen-glow-effect",
+      "title": "'엣지 오라', 화면 가장자리 발광 효과 커스터마이징 도구",
+      "summary": "npm 설치와 React 컴포넌트로 손쉽게 적용 가능한 유기적 발광 효과다.",
+      "source": "edge-aura.js.org",
+      "url": "https://edge-aura.js.org/?utm_source=tldrdev",
+      "report": {
+        "tldr": "Edge Aura는 화면 가장자리를 따라 유기적인 발광 효과를 만드는 커스터마이징 가능한 스크린 이펙트로, 색상 팔레트·두께·불투명도 등을 조정할 수 있다.",
+        "what": "npm 설치와 React 컴포넌트 통합만으로 프로젝트에 적용할 수 있다.",
+        "points": [
+          "화면 가장자리 유기적 발광 효과",
+          "색상 팔레트·두께·불투명도 등 조정 가능",
+          "npm 설치·React 컴포넌트로 손쉽게 통합"
+        ],
+        "why": [
+          "인터페이스에 몰입감을 더하는 비주얼 이펙트 도구가 계속 등장하고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-colossus-computer-wwii",
+      "title": "제2차 세계대전 승리를 도운 컴퓨터, 콜로서스 이야기",
+      "summary": "블레츨리 파크가 독일 '터니' 암호에 맞서 만든 세계 최초의 대규모 프로그래머블 전자 디지털 컴퓨터다.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/colossus-computer-ieee-milestone?utm_source=tldrdev",
+      "report": {
+        "tldr": "제2차 세계대전 중 블레츨리 파크의 영국 암호해독팀은 에니그마보다 한층 발전한 독일의 새로운 암호체계 '터니'를 마주했고, 엔지니어 토미 플라워스가 이에 대응해 세계 최초의 대규모 프로그래머블 전자 디지털 컴퓨터 콜로서스를 개발했다.",
+        "what": "콜로서스는 복잡한 암호 해독 과정을 자동화해 정보 수집 속도를 크게 높였으며, 전쟁이 끝날 무렵에는 여러 대의 콜로서스가 가동돼 독일군의 전략을 파악하는 데 기여했다.",
+        "points": [
+          "독일의 신형 암호체계 '터니'에 대응해 개발",
+          "세계 최초의 대규모 프로그래머블 전자 디지털 컴퓨터",
+          "암호 해독 과정 자동화로 정보 수집 속도 향상",
+          "전쟁 말기 다수의 콜로서스가 가동돼 전략 파악에 기여"
+        ],
+        "why": [
+          "현대 컴퓨팅의 기원을 이해하는 데 중요한 역사적 사례다."
+        ]
+      }
+    },
+    {
+      "id": "dev-anthropic-open-weights-position-dev",
+      "title": "앤트로픽, 오픈웨이트 모델 정책 입장 재확인",
+      "summary": "중국계 오픈웨이트 모델 금지 논의에 맞서 표적화된 대응책을 제시했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/position-open-weights-models?utm_source=tldrdev",
+      "report": {
+        "tldr": "중국계 오픈웨이트 AI 모델 금지를 둘러싼 최근 논의는 국가안보와 강력한 기술의 오남용 우려를 짚고 있으며, 이에 앤트로픽은 권위주의 정권에 대한 칩 판매 제한과 충분히 강력한 모든 모델에 대한 안전성 테스트 의무화 같은 표적화된 조치를 촉구했다.",
+        "what": "전면 금지 대신 정밀 타겟 규제를 지지하는 입장이다.",
+        "points": [
+          "중국계 오픈웨이트 모델 전면 금지 논의에 대한 대안 제시",
+          "권위주의 정권에 대한 칩 판매 제한 촉구",
+          "충분히 강력한 모델 전반에 의무적 안전성 테스트 요구",
+          "전면 금지보다 표적화된 규제 지지"
+        ],
+        "why": [
+          "오픈웨이트 정책을 둘러싼 논쟁이 개발자 커뮤니티에서도 중요한 화두로 다뤄지고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-dx-core-4-productivity-framework",
+      "title": "DX 코어4, 개발자 생산성 측정 통합 프레임워크",
+      "summary": "DORA·SPACE·DevEx를 아우르는 4대 지표로 생산성을 측정한다.",
+      "source": "getdx.com",
+      "url": "https://getdx.com/research/measuring-developer-productivity-with-the-dx-core-4/?utm_source=tldrdev",
+      "report": {
+        "tldr": "DX 코어4는 DORA, SPACE, DevEx 등 기존 방법론을 통합해 속도, 효과성, 품질, 비즈니스 임팩트 네 가지 차원으로 개발자 생산성을 측정하는 프레임워크다.",
+        "what": "이 프레임워크를 활용한 기업들은 엔지니어링 효율성과 전반적인 조직 몰입도 향상을 보고했으며, 리더들이 생산성 관련 질문에 더 효과적으로 답할 수 있게 해준다.",
+        "points": [
+          "DORA·SPACE·DevEx를 통합한 프레임워크",
+          "속도·효과성·품질·비즈니스 임팩트 4대 차원",
+          "도입 기업들 엔지니어링 효율성·조직 몰입도 향상 보고"
+        ],
+        "why": [
+          "개발자 생산성 측정에 대한 표준화된 접근을 제시해 조직의 의사결정을 돕는다."
+        ]
+      }
+    },
+    {
+      "id": "dev-clustering-algorithm-magna-tiles",
+      "title": "매그나타일에서 영감받은 리스트 클러스터링 알고리즘",
+      "summary": "정렬 패턴을 활용해 리스트 값을 재미있게 그룹화하는 방식이다.",
+      "source": "cassidoo.co",
+      "url": "https://cassidoo.co/post/clustering-tiles/?utm_source=tldrdev",
+      "report": {
+        "tldr": "매그나타일 정렬 패턴에서 영감을 받은 새로운 클러스터링 알고리즘이 리버설(뒤집기)을 통해 리스트 값을 재미있게 그룹화하는 방식을 소개한다.",
+        "what": "놀이에서 착안한 접근으로 데이터 구조화 문제를 다룬다.",
+        "points": [
+          "매그나타일 정렬 패턴에서 영감",
+          "리버설을 활용한 리스트 값 그룹화",
+          "놀이 요소를 접목한 알고리즘 설계"
+        ],
+        "why": [
+          "일상적 놀이에서 착안한 알고리즘적 사고의 재미있는 사례다."
+        ]
+      }
+    },
+    {
+      "id": "dev-go-green-tea-garbage-collector",
+      "title": "Go의 새 가비지 컬렉터 '그린티' 동작 관찰기",
+      "summary": "캐시 친화성은 개선했지만 희소 페이지 회수에는 여전히 어려움을 겪는다.",
+      "source": "theconsensus.dev",
+      "url": "https://theconsensus.dev/p/2026/07/19/observing-gos-garbage-collector-old-and-new.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "Go 1.26에서 도입된 새 가비지 컬렉터 '그린티'는 메모리 할당 시 캐시 친화성을 개선했지만, 논무빙(non-moving) 방식의 특성상 희소한 페이지의 메모리 회수에는 여전히 어려움을 겪는다.",
+        "what": "힙을 관찰한 결과를 바탕으로 새 GC의 실제 동작 특성을 분석했다.",
+        "points": [
+          "Go 1.26에서 새 가비지 컬렉터 '그린티' 도입",
+          "메모리 할당 시 캐시 친화성 개선",
+          "논무빙 방식으로 희소 페이지 회수는 여전히 취약"
+        ],
+        "why": [
+          "런타임 성능에 직접 영향을 주는 GC 변화를 실측 기반으로 분석했다."
+        ]
+      }
+    },
+    {
+      "id": "dev-bun-rust-rewrite-cost-questioned",
+      "title": "'Bun의 러스트 재작성, 실제로는 어떻게 진행되고 있나'",
+      "summary": "16만5000달러로 완료됐다는 주장의 실제 비용에 의문이 제기됐다.",
+      "source": "lockwood.dev",
+      "url": "https://lockwood.dev/ai/2026/07/27/how-is-the-bun-rewrite-in-rust-going.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "Bun을 러스트로 재작성하는 프로젝트를 둘러싸고, 이를 16만5000달러에 완료했다는 주장의 실제 비용과 타당성에 의문이 제기됐다.",
+        "what": "재작성 비용 주장의 신뢰성을 따져보는 분석이다.",
+        "points": [
+          "Bun 러스트 재작성 프로젝트 관련 비용 주장 검증",
+          "16만5000달러 완료 주장에 대한 의문 제기"
+        ],
+        "why": [
+          "대형 오픈소스 재작성 프로젝트의 실제 비용 구조에 대한 투명성 문제를 짚었다."
+        ]
+      }
+    },
+    {
+      "id": "dev-im-sorry-dave-ai-bias-essay",
+      "title": "\"'미안해요, 데이브' — 2001 스페이스 오디세이로 본 오늘의 AI\"",
+      "summary": "AI의 이념적 편향과 검열 문제를 다룬 경고성 에세이다.",
+      "source": "world.hey.com (DHH)",
+      "url": "https://world.hey.com/dhh/i-m-sorry-dave-380ec27d?utm_source=tldrdev",
+      "report": {
+        "tldr": "스탠리 큐브릭의 '2001 스페이스 오디세이'를 현재 AI 상황, 특히 이념적 편향과 기술 검열 문제에 대한 경고성 우화로 재해석한 에세이다.",
+        "what": "영화 속 HAL 9000의 서사를 빌려 오늘날 AI 시스템의 편향과 검열 이슈를 비판적으로 조망한다.",
+        "points": [
+          "2001 스페이스 오디세이를 현재 AI 상황에 대한 우화로 재해석",
+          "AI의 이념적 편향 문제 지적",
+          "기술 검열에 대한 우려 표명"
+        ],
+        "why": [
+          "AI 윤리·편향 논쟁에 대한 문화적 레퍼런스를 통한 비평적 시각을 제공한다."
+        ]
+      }
+    }
+  ]
+}

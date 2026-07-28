@@ -1,0 +1,304 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-anthropic-open-weights-position",
+      "title": "앤트로픽, 오픈웨이트 모델 전면 금지 주장한 적 없다고 반박",
+      "summary": "앤트로픽이 오픈웨이트 모델 금지를 주장했다는 지적에 대해, 저성능 모델 공개는 공공재라며 반박했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/position-open-weights-models?utm_source=tldrai",
+      "report": {
+        "tldr": "앤트로픽은 오픈웨이트 모델의 전면 금지를 주장한 적이 없다며, 대신 칩 수출 통제 강화와 산업적 규모의 증류 대응, 고성능 모델에 대한 의무적 안전성 테스트를 지지한다고 밝혔다.",
+        "what": "앤트로픽은 자사가 오픈웨이트 모델 금지를 주장했다는 일각의 비판에 대해, 저성능 오픈웨이트 모델 공개는 공공재라는 입장을 유지해왔다고 반박했다. 대신 첨단 칩 수출 통제 강화, 산업적 규모의 지식 증류 대응, 그리고 충분히 강력한 모델(오픈·클로즈드 불문)에 대한 의무적 안전성 테스트를 지지한다고 설명했다.",
+        "points": [
+          "오픈웨이트 모델 전면 금지 주장 사실 아니라고 반박",
+          "저성능 오픈웨이트 모델 공개는 공공재라는 입장 유지",
+          "첨단 칩 수출 통제 강화 지지",
+          "산업적 규모 증류(distillation) 대응 조치 지지",
+          "충분히 강력한 모델에는 개방·폐쇄 구분 없이 의무적 안전성 테스트 요구"
+        ],
+        "why": [
+          "오픈웨이트 대 클로즈드 모델 정책 논쟁이 격화되는 가운데 프론티어랩의 공식 입장이 재확인됐다.",
+          "Kimi K3 등 중국계 오픈웨이트 모델 공개와 맞물려 정책 논의에 영향을 줄 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-kimi-k3-weights-release",
+      "title": "문샷, 킴 K3 모델 가중치·기술보고서 전면 공개",
+      "summary": "문샷AI가 2.8조 파라미터 MoE 모델 킴 K3의 가중치와 기술보고서를 공개했다.",
+      "source": "Threadreader (Moonshot AI)",
+      "url": "https://threadreaderapp.com/thread/2081760186235289764.html?utm_source=tldrai",
+      "report": {
+        "tldr": "문샷AI가 네이티브 비주얼 이해 기능을 갖춘 2.8조 파라미터 MoE 모델 Kimi K3의 가중치와 기술보고서를 공개했다.",
+        "what": "Kimi K3는 100만 토큰 컨텍스트 윈도우와 새로운 아키텍처를 갖춰 연산 단위당 지능이 2.5배 향상됐다고 밝혔다. 문샷은 Kimi K3와 함께 고성능 어텐션 커널, MoE 통신 라이브러리, 대규모 에이전트 환경 실행 인프라 등 스택 전반을 추가로 공개했다.",
+        "points": [
+          "2.8조 파라미터 Mixture-of-Experts 모델",
+          "네이티브 비주얼 이해 지원",
+          "100만 토큰 컨텍스트 윈도우",
+          "연산 단위당 지능 2.5배 향상 주장",
+          "고성능 어텐션 커널·MoE 통신 라이브러리·에이전트 인프라 동반 공개"
+        ],
+        "why": [
+          "중국계 랩의 오픈웨이트 공개가 프론티어급 성능에 근접하며 오픈-클로즈드 모델 격차 논쟁에 다시 불을 지폈다."
+        ]
+      }
+    },
+    {
+      "id": "ai-microsoft-mai-cyber-1-flash",
+      "title": "마이크로소프트, 사이버보안 특화 모델 MAI-Cyber-1-Flash 공개",
+      "summary": "마이크로소프트가 대규모 코드베이스의 고난도 취약점을 찾는 특화 모델을 출시했다.",
+      "source": "Microsoft AI",
+      "url": "https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/?utm_source=tldrai",
+      "report": {
+        "tldr": "마이크로소프트가 대규모 코드베이스에서 어려운 취약점을 찾도록 설계된 특화 모델 MAI-Cyber-1-Flash를 공개했다.",
+        "what": "이 모델은 소프트웨어 보안 결함을 식별하고 복구하는 새 플랫폼 MDASH를 구동한다.",
+        "points": [
+          "대규모 코드베이스의 고난도 취약점 탐지에 특화",
+          "신규 플랫폼 MDASH의 기반 모델로 사용",
+          "소프트웨어 보안 결함 식별·복구 목적"
+        ],
+        "why": [
+          "AI 기반 사이버보안 모델 경쟁이 마이크로소프트까지 확대되고 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-task-crossover-report",
+      "title": "OpenAI, 챗GPT 직무 간 '태스크 크로스오버' 확산 보고",
+      "summary": "OpenAI가 근로자들이 챗GPT를 자신의 직무와 다른 업무에도 점점 더 많이 활용하고 있다고 밝혔다.",
+      "source": "OpenAI",
+      "url": "https://links.tldrnewsletter.com/dgVzzk",
+      "report": {
+        "tldr": "OpenAI의 자체 분석에 따르면 근로자들이 챗GPT를 전통적으로 다른 직군에 속했던 업무에도 점점 더 많이 사용하고 있다.",
+        "what": "미국 사용자 메시지 80만 건을 분석한 결과, 직군별 대화 중 상당수에서 이러한 '태스크 크로스오버' 현상이 확인됐다.",
+        "points": [
+          "미국 사용자 메시지 80만 건 분석",
+          "직군별 대화 중 높은 비율에서 태스크 크로스오버 확인",
+          "근로자가 자기 직무 밖 업무에도 챗GPT 활용"
+        ],
+        "why": [
+          "AI가 직무 경계를 허물며 노동시장 구조에 미치는 영향을 가늠할 데이터로 주목된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-deepsecbench-benchmark",
+      "title": "딥시큐벤치, 모델별 사이버 취약점 탐지 성능 평가 공개",
+      "summary": "여러 모델의 애플리케이션 코드 취약점 탐지 능력을 비교하는 벤치마크가 공개됐다.",
+      "source": "Vercel",
+      "url": "https://vercel.com/blog/deepsecbench-evaluating-model-performance-in-finding-cybersecurity-vulnerabilities?utm_source=tldrai",
+      "report": {
+        "tldr": "DeepSecBench는 여러 모델이 애플리케이션 코드에서 사이버보안 취약점을 얼마나 잘 찾아내는지 평가하는 벤치마크다.",
+        "what": "보고서는 모델별 재현율, 정밀도, 비용, 소요 시간을 제시하고 이를 종합한 단일 벤치마크 점수를 산출한다. 벤치마크는 다수 취약점이 수정되기 직전 시점의 오픈소스 코드베이스에서 실행되며, 모델이 벤치마크에 대해 학습하지 못하도록 구성 방식은 비공개로 유지된다.",
+        "points": [
+          "재현율·정밀도·비용·소요 시간을 종합한 단일 점수 산출",
+          "다수 취약점 수정 직전 시점의 오픈소스 코드베이스에서 실행",
+          "벤치마크 구성 방식은 비공개 유지"
+        ],
+        "why": [
+          "AI 모델의 실전 보안 활용도를 객관적으로 비교할 척도를 제공한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-gpt2-to-kimi3-explainer",
+      "title": "GPT-2에서 Kimi K3까지, 아키텍처 진화 총정리",
+      "summary": "Kimi K3의 성능 향상이 단순 스케일링이 아닌 여러 아키텍처 혁신의 결합에서 나왔다는 분석이다.",
+      "source": "TLDR Newsletter Links",
+      "url": "https://links.tldrnewsletter.com/6SqQd6",
+      "report": {
+        "tldr": "Kimi K3의 성능 향상은 단순 규모 확장이 아니라 상수 상태 Kimi Delta Attention, 주기적 소프트맥스 검색, 희소 전문가, 선택적 잔차 접근 등 여러 아키텍처 혁신이 결합된 결과라는 분석이다.",
+        "what": "각 아키텍처 단계는 고정 용량 메모리가 정보를 저장·망각·검색하는 방식을 개선하면서도 효율적인 추론을 유지하도록 설계됐다.",
+        "points": [
+          "상수 상태 Kimi Delta Attention 적용",
+          "주기적 소프트맥스 검색 결합",
+          "희소 전문가(sparse experts) 구조 사용",
+          "선택적 잔차 접근으로 효율적 추론 유지"
+        ],
+        "why": [
+          "최신 오픈웨이트 모델의 성능 향상 배경을 이해하는 데 도움이 되는 기술 해설이다."
+        ]
+      }
+    },
+    {
+      "id": "ai-ramp-labs-portal",
+      "title": "램프 랩스, 크로스모델 LoRA 적응 프레임워크 '포탈' 오픈소스 공개",
+      "summary": "램프 랩스가 여러 기반 모델에 재사용 가능한 태스크 표현을 만드는 프레임워크를 공개했다.",
+      "source": "Threadreader (Ramp Labs)",
+      "url": "https://threadreaderapp.com/thread/2081819550329327689.html?utm_source=tldrai",
+      "report": {
+        "tldr": "램프 랩스가 공유 태스크 표현과 크로스모델 LoRA 적응을 위한 프레임워크 PorTAL을 오픈소스로 공개했다.",
+        "what": "PorTAL은 기반 모델에 종속되지 않는 태스크 잠재 표현과 경량 모델별 정렬 계층을 학습해 일반적인 레이어별 LoRA 가중치를 생성한다. 하나의 태스크를 한 번 학습시킨 뒤 지원되는 여러 프로즌 기반 모델에 적응시키고, 표준 허깅페이스 PEFT 어댑터로 내보낼 수 있다.",
+        "points": [
+          "기반 모델에 독립적인 태스크 잠재 표현 학습",
+          "경량 모델별 정렬 계층으로 LoRA 가중치 생성",
+          "한 번 학습 후 여러 프로즌 기반 모델에 적응 가능",
+          "표준 허깅페이스 PEFT 어댑터로 내보내기 지원"
+        ],
+        "why": [
+          "여러 모델에 재사용 가능한 파인튜닝 자산을 만드는 실용적 접근으로 주목된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-distillation-service",
+      "title": "구글, 제미나이 증류 서비스로 소형 모델 고성능화 지원",
+      "summary": "구글이 대형 '교사' 모델의 추론 패턴을 소형 '학생' 모델에 전수하는 증류 서비스를 공개했다.",
+      "source": "Google Cloud",
+      "url": "https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/tuning/distillation?utm_source=tldrai",
+      "report": {
+        "tldr": "구글의 제미나이 증류 서비스는 대형 '교사' 모델의 출력과 추론 패턴을 활용해 더 작고 효율적인 '학생' 모델을 훈련시킬 수 있게 한다.",
+        "what": "이 서비스는 대량 처리·지연시간에 민감한 애플리케이션, 복잡한 추론 작업, 교사-학생 모델 간 성능 격차가 큰 경우에 권장된다. 현재는 교사 모델로 gemini-3.1-pro, 학생 모델로 gemini-2.5-flash만 지원한다.",
+        "points": [
+          "대형 교사 모델의 추론 패턴을 소형 학생 모델에 전수",
+          "고성능 추론을 유지하며 프로덕션급 효율성 확보",
+          "현재 gemini-3.1-pro(교사)·gemini-2.5-flash(학생) 조합만 지원"
+        ],
+        "why": [
+          "비용과 지연시간에 민감한 실서비스에서 소형 모델의 활용도를 높이는 접근이다."
+        ]
+      }
+    },
+    {
+      "id": "ai-cogent-vr1-cyber-reasoning",
+      "title": "코젠트, 프론티어 사이버 추론 모델 VR-1 구축·벤치마크 공개",
+      "summary": "VR-1은 자율적으로 환경을 조사하고 공격 체인을 실행할 수 있는 사이버 추론 모델이다.",
+      "source": "Cogent",
+      "url": "https://www.cogent.com/blog/how-we-built-and-benchmarked-vr-1-our-frontier-cyber-reasoning-model?utm_source=tldrai",
+      "report": {
+        "tldr": "코젠트의 VR-1은 환경을 자율적으로 조사하고 가설을 검증하며 시스템 경계를 넘어 공격 체인을 실행할 수 있는 프론티어 사이버 추론 모델이다.",
+        "what": "제한된 초기 접근 권한에서 현실적인 엔터프라이즈 공격 체인 완수 여부를 측정하는 벤치마크 IntrusionBench에서, VR-1은 블랙박스 구성 기준 기존 최강 프론티어 모델 대비 pass@3에서 2배 이상의 성능 향상을 기록했다. VR-1과 IntrusionBench 모두 초기 프리뷰 단계로 결과는 잠정적이다.",
+        "points": [
+          "환경 자율 조사·가설 검증·공격 체인 실행 가능",
+          "IntrusionBench 블랙박스 구성에서 pass@3 기준 2배 이상 성능 향상",
+          "VR-1·IntrusionBench 모두 초기 프리뷰 단계"
+        ],
+        "why": [
+          "AI의 공격적 사이버 역량이 빠르게 발전하고 있음을 보여주는 사례로, 방어 측 대응 필요성도 함께 부각된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-molt-agentic-rl-framework",
+      "title": "Molt, 에이전트 자체를 프로그램으로 다루는 강화학습 프레임워크 공개",
+      "summary": "PyTorch 네이티브 프레임워크 Molt가 커스텀 보상·툴 사용·멀티모달 환경을 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/NVIDIA-NeMo/labs-molt?utm_source=tldrai",
+      "report": {
+        "tldr": "Molt는 에이전트 자체를 프로그램으로 취급하는 PyTorch 네이티브 강화학습 프레임워크로, 커스텀 파이썬 보상·툴 사용·멀티모달 환경·LLM 심사자를 지원한다.",
+        "what": "Ray, vLLM, NVIDIA AutoModel, FSDP2를 결합한 경량 스택으로 조 단위 파라미터 규모의 Mixture-of-Experts 모델까지 학습을 확장할 수 있다.",
+        "points": [
+          "에이전트를 프로그램으로 다루는 설계",
+          "커스텀 파이썬 보상·툴 사용·멀티모달 환경 지원",
+          "LLM 심사자(judge) 지원",
+          "Ray·vLLM·NVIDIA AutoModel·FSDP2 결합으로 조 단위 파라미터 모델까지 확장"
+        ],
+        "why": [
+          "대규모 에이전트 강화학습 훈련의 진입장벽을 낮추는 오픈소스 도구로 주목된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-open-secure-ai-alliance",
+      "title": "엔비디아·마이크로소프트 등, 오픈 시큐어 AI 얼라이언스 결성",
+      "summary": "업계 리더들이 오픈소스 기술로 AI 안전성을 높이기 위한 연합을 출범시켰다.",
+      "source": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/?utm_source=tldrai",
+      "report": {
+        "tldr": "엔비디아·마이크로소프트 등 업계 리더들이 참여한 오픈 시큐어 AI 얼라이언스가 오픈소스 기술을 활용해 AI 취약점 대응 강화를 목표로 출범했다.",
+        "what": "이 연합은 방어자들에게 개방형 방어 도구를 제공해 투명성과 적응력을 높이는 동시에 폐쇄형 시스템 의존을 줄이는 것을 목표로 한다. 정책 입안자들에게는 오픈 모델과 도구를 AI·사이버보안 전략의 자산으로 볼 것을 권고한다.",
+        "points": [
+          "엔비디아·마이크로소프트 등 업계 리더 참여",
+          "오픈소스 방어 도구로 투명성·적응력 강화 목표",
+          "폐쇄형 시스템 의존도 축소 지향",
+          "정책 입안자에 오픈 모델·도구를 전략적 자산으로 인식할 것을 권고"
+        ],
+        "why": [
+          "오픈소스 진영이 AI 보안 대응에 공동 전선을 구축하려는 움직임이다."
+        ]
+      }
+    },
+    {
+      "id": "ai-agent-delegation-levels",
+      "title": "'에이전트에 얼마나 위임할 수 있을까' 4단계 프레임워크 제시",
+      "summary": "에이전트 자율성은 모델 성능이 아니라 작업 복잡도에 좌우된다는 분석이다.",
+      "source": "PostHog Newsletter",
+      "url": "https://newsletter.posthog.com/p/agent-autonomy?utm_source=tldrai",
+      "report": {
+        "tldr": "에이전트에 얼마나 업무를 위임할 수 있는지는 모델 품질이 아니라 작업 복잡도에 달려 있다는 분석이다.",
+        "what": "작업은 보조·인간 개입·에이전트 위임·완전 자율의 4단계로 나뉘며, 이는 검증 용이성과 오류 발생 시 잠재적 결과에 따라 결정된다. 가드레일 구현, 커스텀 스킬, 도메인 특화 모델이 에이전트 자율성과 효율성을 높인다.",
+        "points": [
+          "작업을 보조·인간개입·에이전트위임·완전자율 4단계로 구분",
+          "검증 용이성과 오류의 잠재적 결과가 단계 결정 기준",
+          "가드레일·커스텀 스킬·도메인 특화 모델이 자율성 향상에 기여"
+        ],
+        "why": [
+          "실무에서 에이전트 도입 범위를 정할 때 참고할 실용적 프레임워크다."
+        ]
+      }
+    },
+    {
+      "id": "ai-looped-transformers-explained",
+      "title": "'루프형 트랜스포머'란 무엇인가, 쉽게 정리",
+      "summary": "동일한 핵심 레이어를 여러 차례 재사용해 저장 파라미터를 줄이고 순차 연산을 늘리는 구조다.",
+      "source": "TLDR Newsletter Links",
+      "url": "https://links.tldrnewsletter.com/p4ktqP",
+      "report": {
+        "tldr": "루프형 트랜스포머는 동일한 핵심 레이어를 여러 차례 재사용해 저장 파라미터 수를 줄이는 대신 순차 연산량을 늘리는 구조다.",
+        "what": "파라미터를 절약하면서도 반복적인 순전파를 통해 표현력을 확보하는 방식이 소개됐다.",
+        "points": [
+          "동일한 핵심 레이어를 여러 번 재사용",
+          "저장 파라미터 수 절감",
+          "대신 순차 연산량 증가"
+        ],
+        "why": [
+          "파라미터 효율적인 모델 설계 트렌드를 이해하는 데 도움이 되는 개념 정리다."
+        ]
+      }
+    },
+    {
+      "id": "ai-lla-da2x-diffusion-model",
+      "title": "LLaDA2.X, 텍스트·에이전트용 확산 언어모델 공개",
+      "summary": "LLaDA2 계열의 확산 언어모델이 텍스트 생성과 에이전트 워크플로에 활용된다.",
+      "source": "GitHub",
+      "url": "https://github.com/inclusionAI/LLaDA2.X?utm_source=tldrai",
+      "report": {
+        "tldr": "LLaDA2.X는 텍스트 생성과 에이전트 워크플로를 위한 LLaDA2 계열 확산 언어모델이다.",
+        "what": "오픈소스로 공개돼 확산 기반 언어모델 연구·개발에 활용할 수 있다.",
+        "points": [
+          "LLaDA2 계열 확산 언어모델",
+          "텍스트 생성·에이전트 워크플로 지원",
+          "오픈소스 공개"
+        ],
+        "why": [
+          "트랜스포머 외 확산 기반 언어모델 연구가 계속 확장되고 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-safe-superintelligence-nvidia-partnership",
+      "title": "세이프 슈퍼인텔리전스, 엔비디아와 장기 파트너십·투자 유치",
+      "summary": "일리야 수츠케버의 AI랩이 엔비디아로부터 베라 루빈 GPU 플랫폼 접근권과 투자를 확보했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/?utm_source=tldrai",
+      "report": {
+        "tldr": "전 OpenAI 수석과학자 일리야 수츠케버가 창업한 세이프 슈퍼인텔리전스가 엔비디아로부터 대규모 투자와 베라 루빈 GPU 플랫폼 접근권을 확보하는 장기 파트너십을 맺었다.",
+        "what": "세이프 슈퍼인텔리전스는 그동안 주로 구글 칩에 의존해왔으며, 엔비디아는 그동안 비공개로 유지돼온 스타트업의 연구 현황을 들여다본 뒤 투자를 결정했다.",
+        "points": [
+          "엔비디아의 대규모 비공개 투자 유치",
+          "베라 루빈 GPU 플랫폼 접근권 확보",
+          "기존에는 주로 구글 칩에 의존",
+          "엔비디아가 연구 현황 비공개 검토 후 투자 결정"
+        ],
+        "why": [
+          "엔비디아가 프론티어 AI 안전성 연구소들과의 연대를 넓히며 컴퓨트 공급망 지배력을 확대하고 있다."
+        ]
+      }
+    }
+  ]
+}
