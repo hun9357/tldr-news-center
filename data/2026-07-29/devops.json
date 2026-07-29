@@ -1,0 +1,260 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-terraform-workspaces",
+      "title": "테라폼, 워크스페이스·스택 복원 기능 도입",
+      "summary": "해시코프가 HCP 테라폼과 테라폼 엔터프라이즈에 새 기능을 출시했다. 워크스페이스 복구, 스택의 모노레포 지원, 가이드형 마이그레이션, 레지스트리 태깅, 세분화된 정책 오버라이드 권한이 핵심이다.",
+      "source": "HashiCorp",
+      "url": "https://www.hashicorp.com/en/blog/terraform-introduces-workspaces-and-stacks-restore-and-more",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "실수로 지운 워크스페이스 복구와 모노레포 스택 지원이 핵심 추가분.",
+        "what": "해시코프가 HCP 테라폼과 테라폼 엔터프라이즈에 새 역량을 공개했다. 워크스페이스 복구, 스택의 모노레포 지원, 가이드형 마이그레이션, 레지스트리 태깅, 세분화된 정책 오버라이드 권한에 초점이 맞춰져 있다.",
+        "points": [
+          "워크스페이스 복구(restore) 기능",
+          "스택의 모노레포 구조 지원",
+          "가이드형 마이그레이션과 레지스트리 태깅",
+          "세분화된 정책 오버라이드 권한"
+        ],
+        "why": [
+          "IaC 운영 사고의 대표 유형인 실수 삭제에 대한 안전망",
+          "모노레포 채택 팀의 스택 도입 장벽 완화"
+        ]
+      }
+    },
+    {
+      "id": "devops-cncf-observability-summit",
+      "title": "CNCF, 첫 유럽 옵저버빌리티 서밋 일정 공개",
+      "summary": "클라우드 네이티브 컴퓨팅 재단이 10월 5일 프라하에서 첫 옵저버빌리티 서밋 유럽을 연다고 발표했다. 모니터링, 관측성 코드 실무, AI 워크플로를 다루는 25개 이상 기술 세션이 준비되며 일반 등록비는 150유로다.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/announcements/2026/07/28/cncf-announces-schedule-for-debut-observability-summit-europe/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "관측성이 독립 서밋을 가질 만큼 별도 분야로 분화됐다.",
+        "what": "클라우드 네이티브 컴퓨팅 재단이 10월 5일 프라하에서 첫 옵저버빌리티 서밋 유럽을 개최한다고 발표했다. 모니터링, 관측성 코드 실무, AI 워크플로를 주제로 25개 이상의 기술 세션이 열리며 일반 등록비는 150유로다.",
+        "points": [
+          "2026년 10월 5일 프라하 개최",
+          "25개 이상 기술 세션",
+          "일반 등록비 150유로"
+        ],
+        "why": [
+          "AI 워크플로 관측이 정식 트랙으로 편성된 점이 주목할 변화"
+        ]
+      }
+    },
+    {
+      "id": "devops-datadog-apm-instrumentation",
+      "title": "제로에서 트레이스까지: 스택에 맞는 APM 계측 방식 고르기",
+      "summary": "데이터독이 분산 트레이싱 배포 전략을 정리하며 'Single Step Instrumentation이 선호되는 방식'이라고 설명하고, 수동 또는 커스텀 접근이 필요한 시나리오를 식별한다.",
+      "source": "Datadog",
+      "url": "https://www.datadoghq.com/blog/choosing-apm-instrumentation/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "대부분은 자동 계측이 정답이고, 수동이 필요한 경우가 따로 있다는 정리.",
+        "what": "데이터독은 분산 트레이싱 배포 전략을 검토하며 Single Step Instrumentation이 선호되는 방식이라고 설명하고, 수동 또는 커스텀 접근이 필요한 시나리오를 식별한다.",
+        "points": [
+          "Single Step Instrumentation이 기본 권장",
+          "수동·커스텀 계측이 필요한 경우를 구분",
+          "스택별 선택 기준 제시"
+        ],
+        "why": [
+          "계측 방식 선택이 트레이스 커버리지와 운영 부담을 동시에 좌우"
+        ]
+      }
+    },
+    {
+      "id": "devops-linkerd-federation",
+      "title": "무중단 쿠버네티스를 위한 클러스터 페더레이션",
+      "summary": "린커드의 멀티클러스터 확장은 쿠버네티스 클러스터에 세 가지 연결 모드를 지원한다. 서비스는 '레이블 하나로 서비스 단위 설정'이 가능해 동일 인프라에서 여러 패턴을 동시에 쓸 수 있다.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/blog/2026/07/27/federating-clusters-for-zero-downtime-kubernetes/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "레이블 하나로 서비스별 멀티클러스터 연결 모드를 고를 수 있다.",
+        "what": "린커드의 멀티클러스터 확장은 쿠버네티스 클러스터에 대해 세 가지 연결 모드를 지원한다. 서비스는 레이블 하나로 개별 설정할 수 있어 동일 인프라에서 여러 패턴을 병행할 수 있다.",
+        "points": [
+          "세 가지 멀티클러스터 연결 모드",
+          "서비스 단위 설정이 레이블 하나로 가능",
+          "동일 인프라에서 패턴 혼용 허용"
+        ],
+        "why": [
+          "클러스터 업그레이드 시 무중단 전환의 실무 경로",
+          "서비스 메시 도입 결정에서 페더레이션 유연성이 판단 요소"
+        ]
+      }
+    },
+    {
+      "id": "devops-what-are-microservices",
+      "title": "마이크로서비스란 대체 무엇인가",
+      "summary": "마이크로서비스는 순수한 기술적 이점이라기보다 독립적 팀 소유권과 릴리스를 가능하게 하는 조직 경계를 세우는 것이 본질이며, 분산 시스템 복잡도와 조율 부담이라는 대가를 수반한다.",
+      "source": "var0.xyz",
+      "url": "https://var0.xyz/posts/what-even-are-microservices.html",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "마이크로서비스는 기술 결정이 아니라 조직 경계 설정이다.",
+        "what": "마이크로서비스는 순수 기술적 이점보다 독립적 팀 소유권과 릴리스를 가능하게 하는 조직 경계 수립이 본질이며, 분산 시스템 복잡성과 조율 오버헤드 증가라는 대가가 따른다.",
+        "points": [
+          "본질은 조직 경계 설정",
+          "얻는 것: 독립 소유권과 독립 릴리스",
+          "대가: 분산 시스템 복잡도와 조율 비용"
+        ],
+        "why": [
+          "팀 구조가 아키텍처 선택을 규정한다는 관점의 재확인",
+          "분해 이유가 조직 문제가 아니면 비용만 늘어남"
+        ]
+      }
+    },
+    {
+      "id": "devops-agent-governance-toolkit",
+      "title": "MS, 에이전트 거버넌스 툴킷 공개",
+      "summary": "마이크로소프트가 다중 언어 환경에서 자율 AI 에이전트에 정책을 강제하고 관리하는 오픈소스 라이브러리를 공개했다. 툴킷은 '애플리케이션 미들웨어 계층에서 툴 호출을 가로채' 무단 행위를 구조적으로 차단한다.",
+      "source": "Microsoft (GitHub)",
+      "url": "https://github.com/microsoft/agent-governance-toolkit",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "에이전트의 툴 호출을 미들웨어에서 가로채 정책으로 막는 오픈소스 구현.",
+        "what": "마이크로소프트가 다양한 언어에서 자율 AI 에이전트에 정책을 강제하고 관리하는 오픈소스 라이브러리를 공개했다. 애플리케이션 미들웨어 계층에서 툴 호출을 가로채 무단 행위를 구조적으로 방지한다.",
+        "points": [
+          "미들웨어 계층에서 툴 호출 인터셉트",
+          "다중 언어 지원",
+          "정책 기반 무단 행위 차단"
+        ],
+        "why": [
+          "프롬프트 수준 가드레일이 아닌 실행 계층 통제라는 점이 핵심",
+          "오픈AI 에이전트 침해 사건이 드러낸 공백을 정확히 겨냥"
+        ],
+        "action": "에이전트가 호출 가능한 툴 목록을 코드가 아닌 정책으로 관리하도록 전환 검토"
+      }
+    },
+    {
+      "id": "devops-geolibre",
+      "title": "GeoLibre — 오픈소스 지리공간 플랫폼",
+      "summary": "웹, 데스크톱, 모바일, 주피터 환경에서 지리공간 데이터를 시각화하는 오픈소스 GIS 플랫폼이다. '지구를 넘어선 행성 매핑'을 지원해 달과 화성 매핑도 가능하다.",
+      "source": "GitHub",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "웹·데스크톱·모바일·주피터를 아우르는 오픈소스 GIS, 행성 매핑까지 지원.",
+        "what": "GeoLibre는 웹, 데스크톱, 모바일, 주피터 환경 전반에서 지리공간 데이터를 시각화하는 오픈소스 GIS 플랫폼이다. 달과 화성을 포함한 지구 밖 행성 매핑을 지원한다.",
+        "points": [
+          "웹·데스크톱·모바일·주피터 지원",
+          "달·화성 등 행성 매핑 가능",
+          "오픈소스 배포"
+        ],
+        "why": [
+          "상용 GIS 라이선스 비용 없이 다중 환경 시각화가 가능"
+        ]
+      }
+    },
+    {
+      "id": "devops-oracle-aws-finops",
+      "title": "오라클 로그 애널리틱스로 AWS FinOps 데이터 관측하기",
+      "summary": "오라클이 표준화된 FOCUS 비용 데이터를 활용해 로그 애널리틱스 통합으로 클라우드 비용을 모니터링·분석하는 AWS-to-OCI 워크플로를 설명한다.",
+      "source": "Oracle",
+      "url": "https://blogs.oracle.com/observability/observability-aws-finops-data-oracle-log-analytics",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "FOCUS 표준 덕분에 타사 클라우드 비용을 한 도구에서 분석할 수 있다.",
+        "what": "오라클은 표준화된 FOCUS 비용 데이터를 활용해 로그 애널리틱스 통합을 통한 클라우드 비용 모니터링과 분석을 수행하는 AWS-to-OCI 워크플로를 설명한다.",
+        "points": [
+          "FOCUS 표준 비용 데이터 활용",
+          "AWS 비용을 OCI 로그 애널리틱스에서 분석",
+          "멀티클라우드 비용 통합 관측"
+        ],
+        "why": [
+          "FOCUS 표준이 실제 벤더 간 상호운용으로 이어지는 사례",
+          "멀티클라우드 비용 가시성 확보의 실무 경로"
+        ]
+      }
+    },
+    {
+      "id": "devops-zig-incremental",
+      "title": "Zig 증분 컴파일 내부 — 복잡한 앱을 50~70ms에 재빌드",
+      "summary": "Zig 컴파일러는 선언 단위로 의존성을 추적해 영향받은 함수만 선택적으로 재분석한다. 통합 링커와 함께 복잡한 애플리케이션을 '약 50~70밀리초'에 재빌드한다.",
+      "source": "mlugg.co.uk",
+      "url": "https://mlugg.co.uk/posts/incremental-compilation-internals/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "선언 단위 의존성 추적 + 자체 링커로 50~70ms 재빌드를 달성했다.",
+        "what": "Zig 컴파일러는 선언 수준에서 의존성을 추적해 영향받은 함수만 선택적으로 재분석한다. 통합된 링커가 복잡한 애플리케이션의 재빌드를 약 50~70밀리초에 완료한다.",
+        "points": [
+          "선언 단위 의존성 추적",
+          "영향받은 함수만 선택적 재분석",
+          "복잡 앱 재빌드 약 50~70ms"
+        ],
+        "why": [
+          "CI 빌드 시간과 개발자 피드백 루프에 직접 영향",
+          "빌드 도구 선택의 성능 기준선을 다시 그음"
+        ]
+      }
+    },
+    {
+      "id": "devops-grafana-allowlists",
+      "title": "그라파나 클라우드 IP 얼라우리스트 설계 개편",
+      "summary": "그라파나 클라우드가 제품별 레거시 얼라우리스트를 대체하는 '리전 인식 JSON 포맷' 통합 API를 도입했다. 기존 엔드포인트는 1월 31일 종료된다.",
+      "source": "Grafana",
+      "url": "https://grafana.com/blog/a-new-allowlists-design-for-grafana-cloud-ip-addresses-what-you-need-to-know/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "제품별로 흩어진 IP 얼라우리스트가 리전 인식 단일 API로 통합된다.",
+        "what": "그라파나 클라우드가 리전 인식 JSON 포맷의 통합 API를 도입해 제품별 레거시 얼라우리스트를 대체했다. 기존 엔드포인트는 1월 31일 은퇴한다.",
+        "points": [
+          "리전 인식 JSON 포맷의 통합 API",
+          "제품별 레거시 얼라우리스트 대체",
+          "기존 엔드포인트 1월 31일 종료"
+        ],
+        "why": [
+          "방화벽 규칙 자동화 스크립트를 쓰는 조직은 마감일 전 갱신 필요"
+        ],
+        "action": "그라파나 클라우드 IP 얼라우리스트를 참조하는 방화벽·프록시 설정을 조사하고 신규 API로 전환"
+      }
+    },
+    {
+      "id": "devops-harness-kong",
+      "title": "하니스와 콩, 전략적 파트너십 확대",
+      "summary": "하니스 AI 시큐리티와 콩 AI 게이트웨이를 결합해 '실시간 위협 탐지와 가시성'으로 AI 서비스를 발견하고 보호하는 통합을 제공한다.",
+      "source": "DevOps Digest",
+      "url": "https://www.devopsdigest.com/harness-and-kong-expand-strategic-partnership",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "API 게이트웨이와 CI/CD 보안이 AI 서비스 보호를 위해 결합했다.",
+        "what": "이번 파트너십 통합은 하니스 AI 시큐리티와 콩 AI 게이트웨이를 결합해 AI 서비스를 발견하고 보호하며 실시간 위협 탐지와 가시성을 제공한다.",
+        "points": [
+          "하니스 AI 시큐리티 + 콩 AI 게이트웨이 통합",
+          "AI 서비스 자동 발견",
+          "실시간 위협 탐지 및 가시성"
+        ],
+        "why": [
+          "섀도 AI 서비스 발견이 실질적 운영 과제로 부상",
+          "AI 게이트웨이가 새로운 통제 지점으로 자리잡는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "devops-pulumi-token-expiry",
+      "title": "풀루미 클라우드, 액세스 토큰 만료 정책 강제 기능",
+      "summary": "풀루미 클라우드에서 조직 관리자가 조직 내에서 사용되는 액세스 토큰의 최대 만료 기한을 설정할 수 있게 됐다.",
+      "source": "Pulumi",
+      "url": "https://www.pulumi.com/blog/access-token-expiry-policy/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "무기한 액세스 토큰을 조직 정책으로 금지할 수 있게 됐다.",
+        "what": "풀루미 클라우드는 이제 조직 관리자가 조직 내에서 사용되는 액세스 토큰의 최대 만료 한도를 설정할 수 있도록 한다.",
+        "points": [
+          "조직 단위 최대 토큰 만료 기한 설정",
+          "관리자가 정책으로 강제",
+          "무기한 토큰 사용 차단 가능"
+        ],
+        "why": [
+          "장기 CI 토큰이 공급망 침해의 상습 경로였음",
+          "같은 날 npm RAT 캠페인·BMC 자격증명 노출과 같은 문제 축"
+        ]
+      }
+    }
+  ]
+}

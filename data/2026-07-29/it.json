@@ -1,0 +1,288 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-snowflake-cortex-gateway",
+      "title": "스노우플레이크, 기업 에이전트용 코텍스 AI 게이트웨이 출시",
+      "summary": "스노우플레이크가 조직이 에이전트의 AI 모델 접근을 관리할 수 있는 중앙 통제 시스템을 내놨다. 거버넌스와 통제되지 않은 사용으로 인한 예상 밖 비용 방지에 초점을 맞췄다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/security/snowflake-launches-cortex-ai-gateway-to-control-ai-agents-and-prevent-runaway-enterprise-costs",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "에이전트의 모델 접근을 한 곳에서 통제해 비용 폭주를 막는 게이트웨이.",
+        "what": "스노우플레이크가 조직이 에이전트의 AI 모델 접근을 관리하는 중앙 통제 시스템을 도입했다. 거버넌스와 통제되지 않은 사용에서 오는 예기치 못한 비용 방지가 핵심이다.",
+        "points": [
+          "에이전트별 모델 접근 권한 중앙 관리",
+          "비용 폭주 방지를 명시적 목표로 제시",
+          "데이터 플랫폼 안에서 거버넌스 통합"
+        ],
+        "why": [
+          "에이전트 도입의 실제 걸림돌이 성능이 아니라 비용 예측 가능성임을 확인",
+          "같은 날 구글 매니지드 에이전트 예산 통제와 동일한 문제의식"
+        ]
+      }
+    },
+    {
+      "id": "it-microsoft-project-perception",
+      "title": "MS, '프로젝트 퍼셉션'과 자체 모델로 AI 보안 경쟁 가속",
+      "summary": "마이크로소프트의 프로젝트 퍼셉션이 레드·블루·그린 팀 에이전트를 조율해 AI 기반 공격에 대응한다. 8월 3일 퍼블릭 프리뷰에 들어가며 자체 MAI-Cyber-1-Flash 모델과 오픈AI GPT-5.4를 결합해 CyberGym 벤치마크 96%를 기록했고, 초기에는 MDASH 고객에게만 제공된다.",
+      "source": "GeekWire",
+      "url": "https://www.geekwire.com/2026/microsoft-escalates-the-ai-cybersecurity-race-with-project-perception-and-a-new-in-house-model/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "MS가 공격·방어·검증 에이전트를 한 세트로 묶은 보안 스택을 8월 3일 공개한다.",
+        "what": "마이크로소프트의 프로젝트 퍼셉션은 레드·블루·그린 팀 에이전트를 조율해 AI 기반 공격을 방어한다. 8월 3일 퍼블릭 프리뷰에 진입하며 자사 MAI-Cyber-1-Flash 모델과 오픈AI GPT-5.4를 결합해 CyberGym 벤치마크에서 96%를 달성했다. 초기 제공 대상은 MDASH 고객이다.",
+        "points": [
+          "레드·블루·그린 팀 에이전트 조율 구조",
+          "MAI-Cyber-1-Flash + GPT-5.4 조합",
+          "CyberGym 벤치마크 96%",
+          "8월 3일 퍼블릭 프리뷰, 초기 MDASH 고객 한정"
+        ],
+        "why": [
+          "AI 공격 자동화에 AI 방어 자동화로 맞서는 구도가 제품화 단계 진입",
+          "자체 모델과 오픈AI 모델을 병행하는 MS의 이중 전략이 보안 영역에도 적용"
+        ]
+      }
+    },
+    {
+      "id": "it-mcp-biggest-update",
+      "title": "MCP, 역대 최대 아키텍처 업데이트",
+      "summary": "모델 컨텍스트 프로토콜의 7월 28일 개정은 대규모 엔터프라이즈 에이전트 배포를 겨냥한 중대한 아키텍처 변경을 담았다. 기존 상태 기반 설계에서 벗어나면서 기존 구현체는 대응이 필요할 수 있다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/mcp-just-got-its-biggest-update-ever-heres-what-changes-for-ai-agents",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "무상태 전환은 엔터프라이즈 배포를 열지만 기존 구현체엔 마이그레이션 청구서다.",
+        "what": "모델 컨텍스트 프로토콜의 7월 28일 개정은 대규모 엔터프라이즈 에이전트 배포를 위한 중대한 아키텍처 변경을 도입했다. 초기의 상태 기반 설계에서 벗어나며, 기존 구현체는 이에 맞춰 조정해야 할 수 있다.",
+        "points": [
+          "대규모 엔터프라이즈 배포를 겨냥한 개정",
+          "상태 기반 설계에서 이탈",
+          "기존 구현체의 적응 부담 발생"
+        ],
+        "why": [
+          "MCP 서버를 운영 중인 조직은 마이그레이션 계획 수립이 필요",
+          "서버리스 배포 가능성이 운영 비용 구조를 바꿈"
+        ],
+        "action": "사내 MCP 서버 구현체의 상태 의존성을 조사하고 마이그레이션 범위를 산정"
+      }
+    },
+    {
+      "id": "it-sap-knowledge-graphs",
+      "title": "SAP: 기업 에이전트에는 지식그래프가 필요하다",
+      "summary": "SAP는 기업 에이전트가 단순한 문서·애플리케이션 접근이 아니라 거버넌스된 지식그래프를 필요로 한다고 주장한다. 신뢰할 수 있는 에이전트는 공유된 비즈니스 맥락, 관계, 워크플로 전반에 일관 적용되는 권한에 의존한다는 논지다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/why-sap-says-enterprise-ai-agents-need-knowledge-graphs-and-governance",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "문서 접근 권한만으로는 부족하고 관계와 맥락이 그래프로 모델링돼야 한다는 주장.",
+        "what": "SAP는 기업 에이전트가 단순한 문서·앱 접근을 넘어 거버넌스된 지식그래프를 필요로 한다고 본다. 신뢰 가능한 에이전트는 공유된 비즈니스 맥락과 관계, 워크플로 전반에 일관되게 적용되는 권한에 의존한다.",
+        "points": [
+          "문서·앱 접근만으로는 신뢰 가능한 에이전트 구성 불가",
+          "비즈니스 관계를 그래프로 모델링해야",
+          "권한이 워크플로 전반에 일관 적용돼야"
+        ],
+        "why": [
+          "RAG 중심 접근의 한계를 ERP 벤더 관점에서 지적",
+          "같은 날 '컨텍스트 신뢰 문제' 조사와 같은 결론을 다른 경로로 제시"
+        ]
+      }
+    },
+    {
+      "id": "it-zero-custody",
+      "title": "제로 트러스트에서 제로 커스터디로",
+      "summary": "AI 에이전트에는 제로 트러스트가 불충분하다. 신원 검증이 악의적 컨텍스트를 통한 행위 탈취를 막지 못하기 때문이다. 제로 커스터디는 추론 시스템이 민감 정보를 보유하지 않고, 정책 검증 후에만 값을 주입하는 외부 브로커에 비밀을 맡기자고 제안한다.",
+      "source": "2AM Security",
+      "url": "https://2amsecurity.substack.com/p/from-zero-trust-to-zero-custody",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "에이전트는 신원이 맞아도 행위가 탈취될 수 있으니, 비밀 자체를 갖지 말자는 제안.",
+        "what": "제로 트러스트는 AI 에이전트에 불충분하다. 신원 검증이 악의적 컨텍스트를 통한 행위 탈취를 방지하지 못하기 때문이다. 제로 커스터디는 추론 시스템이 민감 정보를 전혀 보유하지 않고, 정책 검증 후에만 값을 주입하는 외부 브로커에 비밀을 위탁하는 모델을 제안한다.",
+        "points": [
+          "신원 검증으로는 프롬프트 인젝션에 의한 행위 탈취를 못 막음",
+          "추론 시스템은 비밀을 보유하지 않음",
+          "외부 브로커가 정책 검증 후에만 값 주입"
+        ],
+        "why": [
+          "에이전트 보안의 통제점을 인증에서 자격증명 보관 구조로 이동",
+          "오픈AI 에이전트 침해 사건이 제기한 문제에 대한 아키텍처 수준 처방"
+        ],
+        "action": "에이전트가 직접 보유 중인 장기 자격증명을 목록화하고 브로커 경유로 전환 가능한 항목을 선별"
+      }
+    },
+    {
+      "id": "it-context-trust-gap",
+      "title": "기업 AI의 컨텍스트 신뢰 문제",
+      "summary": "101개 기업 조사에 따르면 조직들이 에이전트에 컨텍스트를 빠르게 공급하는 인프라를 신뢰성 확보보다 먼저 구축하고 있다. 검색 성능이 아니라 데이터 계보, 권한 검증, 정확성이 다음 병목이 될 수 있다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/resources/the-ai-context-gap-enterprise-ai-organizations-have-a-trust-problem-not-a-retrieval-problem-and-most-are-still-building-the-fix",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "다음 병목은 검색 속도가 아니라 그 데이터를 믿을 수 있느냐다.",
+        "what": "101개 기업 대상 조사 결과, 조직들은 에이전트에 컨텍스트를 더 빠르게 공급하는 인프라를 신뢰성 확보보다 앞서 구축하고 있다. 데이터 계보, 권한 검증, 정확성이 검색 성능을 대신해 다음 병목이 될 수 있다.",
+        "points": [
+          "101개 기업 대상 조사",
+          "인프라 구축 속도가 신뢰성 확보를 앞지름",
+          "다음 병목은 계보·권한·정확성"
+        ],
+        "why": [
+          "RAG 성능 최적화에 몰린 투자 우선순위를 재조정할 근거",
+          "권한 검증 실패는 에이전트 도입의 규제 리스크로 직결"
+        ]
+      }
+    },
+    {
+      "id": "it-microsoft-multimodel-stack",
+      "title": "MS, 멀티모델 AI 보안 스택 프리뷰 공개",
+      "summary": "프로젝트 퍼셉션은 특화 모델과 프런티어 모델을 공유 보안 컨텍스트, 제품 간 에이전트와 결합한다. 마이크로소프트는 이 구조가 추론 일관성을 높이면서 비용을 약 50% 줄인다고 밝혔으며 8월 3일 퍼블릭 프리뷰를 시작한다.",
+      "source": "Microsoft Blog",
+      "url": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "특화 모델과 프런티어 모델을 섞어 비용을 절반으로 줄였다는 MS의 주장.",
+        "what": "프로젝트 퍼셉션은 특화 모델과 프런티어 모델을 공유 보안 컨텍스트 및 제품 간 에이전트와 결합한다. 마이크로소프트는 이 아키텍처가 추론 일관성을 개선하면서 비용을 거의 50% 절감한다고 주장하며, 8월 3일 퍼블릭 프리뷰를 시작한다.",
+        "points": [
+          "특화 모델 + 프런티어 모델 혼합 구조",
+          "제품 간 공유 보안 컨텍스트",
+          "비용 약 50% 절감 주장",
+          "8월 3일 퍼블릭 프리뷰"
+        ],
+        "why": [
+          "모델 라우팅이 보안 제품의 원가 구조를 바꾸는 방식",
+          "벤더 주장 수치이므로 실측 검증이 필요한 대목"
+        ]
+      }
+    },
+    {
+      "id": "it-dell-powerstore-nutanix",
+      "title": "델 파워스토어, 뉴타닉스 클라우드 플랫폼 지원 추가",
+      "summary": "델 파워스토어가 뉴타닉스 클라우드 인프라 7.6의 외부 스토리지로 동작한다. 배포와 수명주기 관리가 델 프라이빗 클라우드와 뉴타닉스 프리즘에 통합되며, 컴퓨트와 스토리지를 독립적으로 확장할 수 있다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/file/2026/07/28/nutanix_gets_dell_powerstore_support/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "HCI의 컴퓨트-스토리지 결합 제약을 외부 스토리지 연결로 푼다.",
+        "what": "델 파워스토어가 뉴타닉스 클라우드 인프라 7.6의 외부 스토리지로 기능하게 됐다. 배포와 수명주기 관리는 델 프라이빗 클라우드 및 뉴타닉스 프리즘을 통해 통합되며, 컴퓨트와 스토리지의 독립적 확장이 가능하다.",
+        "points": [
+          "뉴타닉스 클라우드 인프라 7.6 지원",
+          "델 프라이빗 클라우드·프리즘 통합 관리",
+          "컴퓨트와 스토리지 독립 확장"
+        ],
+        "why": [
+          "VM웨어 이탈 수요를 겨냥한 뉴타닉스 생태계 확장",
+          "HCI 도입 시 스토리지 과잉 투자 문제를 완화"
+        ]
+      }
+    },
+    {
+      "id": "it-cloudflare-privacy-proxy",
+      "title": "클라우드플레어, 프라이버시 프록시 CLI 오픈소스화",
+      "summary": "클라우드플레어가 아파치 2.0 라이선스로 pvcli를 공개했다. Oblivious HTTP 같은 프라이버시 프로토콜 디버깅용 CLI로, 바이너리 HTTP 인코딩·암호화·릴레이 흐름을 자동화하고 각 단계를 로깅해 실패 지점을 분리한다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/open-sourcing-our-privacy-proxy-cli/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "OHTTP 같은 프라이버시 프로토콜의 디버깅 난이도를 낮추는 CLI가 공개됐다.",
+        "what": "클라우드플레어가 pvcli(privacy-client)를 아파치 2.0 라이선스로 오픈소스화했다. Oblivious HTTP 등 프라이버시 프로토콜을 디버깅하는 CLI로, 바이너리 HTTP 인코딩·암호화·릴레이 흐름을 자동화하고 각 단계를 로깅해 장애 지점을 분리한다.",
+        "points": [
+          "아파치 2.0 라이선스로 공개",
+          "Oblivious HTTP 등 프라이버시 프로토콜 대상",
+          "인코딩·암호화·릴레이 각 단계 로깅"
+        ],
+        "why": [
+          "프라이버시 프로토콜 도입의 실질 장벽이 디버깅 난이도였음",
+          "OHTTP 채택을 검토하는 팀의 실험 비용을 낮춤"
+        ]
+      }
+    },
+    {
+      "id": "it-kioxia-liquid-ssd",
+      "title": "키오시아, 첫 액체냉각 PCIe Gen5 SSD 출시",
+      "summary": "키오시아 NX1 SSD가 발열 관리를 위한 액체냉각으로 GPU 서버와 하이퍼스케일 데이터센터를 겨냥한다. E1.S 폼팩터로 최대 15.36TB를 지원하고 이전 세대 대비 쓰기 성능이 개선됐다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/flash/2026/07/28/kioxia_launches_first_pcie_gen_5_liquid_cooled_ssd/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "액체냉각이 GPU를 넘어 스토리지까지 내려왔다.",
+        "what": "키오시아의 NX1 SSD는 발열 관리를 위한 액체냉각을 적용해 GPU 서버와 하이퍼스케일 데이터센터를 타깃으로 한다. E1.S 드라이브로 최대 15.36TB 용량을 지원하며 이전 세대 대비 쓰기 성능이 향상됐다.",
+        "points": [
+          "E1.S 폼팩터, 최대 15.36TB",
+          "액체냉각 적용 PCIe Gen5",
+          "이전 세대 대비 쓰기 성능 개선"
+        ],
+        "why": [
+          "AI 클러스터의 발열 예산이 스토리지 설계까지 규정하기 시작",
+          "같은 날 메타의 '스토리지가 병목' 주장과 맞물리는 하드웨어 대응"
+        ]
+      }
+    },
+    {
+      "id": "it-ai-phishing-as-service",
+      "title": "AI 기반 피싱 서비스형(PhaaS) 키트 2종 발견",
+      "summary": "보안 연구진이 마이크로소프트 365를 겨냥해 비즈니스 이메일 침해를 자동화하는 AI 제작 PhaaS 키트 TokenLover와 YaksaLover를 발견했다. 오퍼레이터 대시보드를 갖춘 이들 시스템은 디바이스 코드 피싱 같은 기법을 산업화하고 비밀번호 재설정 이후에도 접근을 유지한다.",
+      "source": "Eye Security Research",
+      "url": "https://research.eye.security/phishing-as-a-service-inside-two-ai-powered-phishing-kits-that-automate-bec/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "BEC 공격이 대시보드 딸린 구독 상품으로 산업화됐고, 암호 변경으로도 안 끊긴다.",
+        "what": "보안 연구진이 마이크로소프트 365 대상 비즈니스 이메일 침해를 자동화하는 AI 제작 PhaaS 키트 TokenLover와 YaksaLover를 확인했다. 오퍼레이터 대시보드 기반으로 디바이스 코드 피싱 등을 산업화하며 비밀번호 재설정 후에도 접근을 유지한다.",
+        "points": [
+          "TokenLover·YaksaLover 2종 확인",
+          "마이크로소프트 365 대상 BEC 자동화",
+          "디바이스 코드 피싱 기법 산업화",
+          "비밀번호 재설정 후에도 접근 지속"
+        ],
+        "why": [
+          "토큰 탈취형 공격은 비밀번호 변경이라는 표준 대응을 무력화",
+          "AI가 공격 도구 제작 비용을 낮춰 진입장벽이 사라지는 중"
+        ],
+        "action": "침해 대응 절차에 세션 토큰·리프레시 토큰 전면 폐기 단계를 명시적으로 추가"
+      }
+    },
+    {
+      "id": "it-observability-vibe-coding",
+      "title": "관측성이 바이브 코딩을 AI 엔지니어링으로 바꾸는 방법",
+      "summary": "AI 생성 코드는 오류 처리, 속도 제한, 계측 등 프로덕션 필수 요소를 빠뜨리는 경우가 잦다. 관측성 역량은 에이전트가 런타임 동작을 기준으로 자기 작업을 검증하고 그 관찰을 다시 계획 단계에 반영하게 한다.",
+      "source": "Dynatrace Blog",
+      "url": "https://www.dynatrace.com/news/blog/how-observability-transforms-vibe-coding-into-ai-engineering/",
+      "originalDate": "2026-07-28",
+      "report": {
+        "tldr": "AI가 만든 코드의 빈틈은 리뷰가 아니라 런타임 관측으로 잡는 편이 현실적이다.",
+        "what": "AI 생성 코드는 오류 처리, 속도 제한, 계측 같은 프로덕션 필수 요소를 자주 누락한다. 관측성 역량은 에이전트가 런타임 동작 대비 자신의 작업을 검증하고 그 관찰을 다시 계획 단계로 되먹이도록 한다.",
+        "points": [
+          "AI 생성 코드의 상습 누락: 오류 처리·속도 제한·계측",
+          "런타임 동작 기준의 자기 검증 루프",
+          "관찰 결과를 계획 단계에 피드백"
+        ],
+        "why": [
+          "코드 리뷰 병목을 관측성으로 우회하려는 접근",
+          "같은 날 파운더스의 '코드 리뷰는 죽어야 한다' 주장과 실무적으로 맞물림"
+        ]
+      }
+    },
+    {
+      "id": "it-meta-storage-bottleneck",
+      "title": "메타: 스토리지가 AI 인프라의 병목이 되고 있다",
+      "summary": "메타는 더 빠른 메타데이터 파이프라인, 개선된 인제스천 시스템, GPU 인접 플래시 스토리지가 AI 클러스터의 값비싼 유휴 시간을 줄일 수 있다고 주장한다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/object/2026/07/27/meta_reinvents_ai_metadata_flow_and_kv_caching/",
+      "originalDate": "2026-07-27",
+      "report": {
+        "tldr": "GPU를 놀리는 진짜 원인이 연산이 아니라 데이터 공급 경로라는 진단.",
+        "what": "메타는 메타데이터 파이프라인 고속화, 인제스천 시스템 개선, GPU 인접 플래시 스토리지가 AI 클러스터의 비싼 유휴 시간을 줄일 수 있다고 주장한다.",
+        "points": [
+          "메타데이터 파이프라인이 주요 지연 원인",
+          "GPU 인접 플래시 스토리지 배치",
+          "KV 캐싱 흐름 재설계"
+        ],
+        "why": [
+          "GPU 투자 대비 실사용률이 낮은 원인을 스토리지에서 찾는 관점",
+          "같은 날 키오시아 액체냉각 SSD 출시와 수요-공급이 맞물림"
+        ]
+      }
+    }
+  ]
+}
