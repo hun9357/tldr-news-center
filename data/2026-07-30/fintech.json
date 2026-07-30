@@ -1,0 +1,275 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💰",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-fanatics-acquires-bgc-exchange",
+      "title": "패너틱스, 예측시장 확장 위해 BGC 규제 거래소 인수",
+      "summary": "패너틱스가 BGC그룹의 연방 규제 거래소·청산소를 인수해 예측시장 상장·결제를 직접 통제할 발판을 마련했다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/07/27/fanatics-buys-regulated-exchange-in-bid-to-grow-prediction-markets-business?utm_source=tldrfintech",
+      "report": {
+        "tldr": "패너틱스가 BGC그룹의 규제 거래소·청산소를 인수해 예측시장 사업의 인프라 통제권을 확보했다.",
+        "what": "패너틱스는 BGC그룹의 연방 규제를 받는 거래소·청산소를 인수하기로 합의해 이벤트 계약의 상장과 결제를 직접 통제할 수 있게 됐다. 이번 인수로 패너틱스는 대규모 스포츠 오디언스와 23개 주에 걸친 기존 입지를 규제된 시장 인프라와 결합해 칼시, 폴리마켓, 로빈후드, 드래프트킹스와 경쟁할 발판을 강화했다.",
+        "points": [
+          "BGC그룹의 연방 규제 거래소·청산소 인수",
+          "예측시장 계약의 상장·결제를 직접 통제 가능",
+          "23개 주 기존 입지와 대규모 스포츠 오디언스 결합",
+          "칼시·폴리마켓·로빈후드·드래프트킹스와의 경쟁 강화 목적"
+        ],
+        "why": [
+          "스포츠 베팅 대기업이 예측시장 인프라 자체를 소유하려는 움직임은 업계 경쟁 구도를 바꿀 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-visa-cuts-7-percent-workforce",
+      "title": "비자, AI로 업무 재편하며 인력 7% 감축",
+      "summary": "비자가 기술·제품 조직 중심으로 약 2600명을 감원하며 국경간 결제, 스테이블코인 등 성장 영역에 투자를 재배분한다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/28/visa-is-cutting-7percent-of-employees-in-efficiency-push-as-ai-reshapes-work.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "비자가 AI로 업무 방식을 재편하면서 기술·제품 조직 중심으로 약 2600명을 감원한다.",
+        "what": "비자는 운영을 간소화하고 AI로 업무 수행 방식을 바꾸면서 주로 기술·제품 조직에서 약 2600개의 일자리를 없앨 계획이다. 회사는 절감된 투자를 국경간 결제, 비즈니스 결제, 스테이블코인, 고소득층 고객, 국제 확장 등 성장 영역으로 재배분할 방침이다.",
+        "points": [
+          "기술·제품 조직 중심 약 2600명 감원",
+          "AI 활용으로 업무 수행 방식 재편",
+          "국경간 결제·스테이블코인 등 성장 영역에 투자 재배분"
+        ],
+        "why": [
+          "대형 결제 네트워크마저 AI발 조직 효율화에 나서면서 금융업 인력 구조 재편이 본격화되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-paypal-amazon-bnpl-germany-austria",
+      "title": "페이팔·아마존, 독일·오스트리아에 BNPL 결제 도입",
+      "summary": "8월부터 독일·오스트리아의 아마존 고객이 페이팔 라텐잘룽으로 아마존닷디이와 앱에서 할부 결제를 이용할 수 있게 된다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/7VSixq?utm_source=tldrfintech",
+      "report": {
+        "tldr": "페이팔과 아마존이 독일·오스트리아 고객을 대상으로 BNPL 할부 결제 서비스를 8월부터 시작한다.",
+        "what": "페이팔과 아마존은 8월부터 독일·오스트리아의 적격 아마존 고객이 아마존닷디이와 아마존 앱에서 페이팔 라텐잘룽을 이용할 수 있게 된다고 발표했다. 이를 통해 쇼핑객들은 적격 구매 건에 대해 시간을 두고 분할 결제할 수 있는 유연성을 갖게 된다.",
+        "points": [
+          "8월부터 독일·오스트리아 아마존 고객 대상 서비스 개시",
+          "아마존닷디이와 아마존 앱에서 페이팔 라텐잘룽 이용 가능",
+          "적격 구매 건에 대한 분할 결제 지원"
+        ],
+        "why": [
+          "대형 이커머스와 결제사의 BNPL 협력이 유럽 시장으로 계속 확장되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-what-fintech-founders-get-wrong-ai-native",
+      "title": "핀테크 창업자들이 'AI 네이티브'를 오해하는 지점",
+      "summary": "AI를 걷어냈을 때 실패하는지 보는 '제거 테스트'를 통과해야 진짜 AI 네이티브이며, 컴플라이언스·설명가능성도 처음부터 설계에 내장돼야 한다.",
+      "source": "HackerNoon",
+      "url": "https://hackernoon.com/what-fintech-founders-get-wrong-about-ai-native-development?utm_source=tldrfintech",
+      "report": {
+        "tldr": "'AI 네이티브'라는 표현이 실제로는 기존 제품에 AI만 얹은 마케팅 문구로 오남용되고 있다는 지적이다.",
+        "what": "많은 핀테크 스타트업이 AI가 단순히 기존 제품 위에 얹혀지거나 개발 속도를 높이는 데만 쓰이는 경우에도 'AI 네이티브'를 마케팅 라벨로 사용한다. 진짜 AI 네이티브 제품이라면 AI 계층을 걷어냈을 때 실패하는 '제거 테스트'를 통과해야 하며, 컴플라이언스·설명가능성·감사가능성을 나중에 추가하는 게 아니라 애초부터 아키텍처에 내장해야 한다.",
+        "points": [
+          "'AI 네이티브'가 마케팅 라벨로 오남용되는 경우가 많음",
+          "AI 계층 제거 시 실패해야 진짜 AI 네이티브('제거 테스트')",
+          "컴플라이언스·설명가능성·감사가능성을 설계 초기부터 내장해야 함"
+        ],
+        "why": [
+          "규제 산업인 핀테크에서 AI 네이티브를 표방하려면 마케팅이 아닌 아키텍처 차원의 진정성이 필요하다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-primary-banking-agent",
+      "title": "\"주거래 뱅킹 에이전트\"의 부상",
+      "summary": "신뢰가 새로운 경쟁 축이 되면서, 여러 금융기관에 걸친 자금을 조율하는 챗GPT 같은 AI '주거래 뱅킹 에이전트'가 다음 격전지로 떠오르고 있다.",
+      "source": "Fintech Takes",
+      "url": "https://fintechtakes.com/articles/2026-07-29/the-primary-banking-agent/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "여러 금융기관의 자금을 조율하는 AI '주거래 뱅킹 에이전트'가 은행업의 다음 경쟁 축으로 떠오르고 있다.",
+        "what": "주거래 은행의 의미는 과거 물리적 근접성에서 디지털 편의성으로, 이제는 신뢰로 옮겨가고 있으며 AI가 이 변화를 이끌고 있다. 소비자들은 이제 평균 3개 계좌를 보유하고 더 자주 돈을 옮기는데, 이는 챗GPT 같은 AI '주거래 뱅킹 에이전트'가 여러 기관에 걸친 자금을 조율할 여지를 열어준다. AI 랩들은 실제로 돈을 보유하는 데 따르는 규제·책임 부담을 원하지 않을 것이기 때문에, 계좌와 에이전트를 투명하게 함께 제공하는 쪽이 승리한다는 것이 이 글의 베팅이다.",
+        "points": [
+          "주거래 은행의 의미가 물리적 근접→디지털 편의→신뢰로 진화",
+          "소비자는 평균 3개 계좌 보유, 자금 이동 빈도 증가",
+          "AI 랩은 자금 보유의 규제 부담을 피하려 할 가능성",
+          "계좌+에이전트를 투명하게 함께 제공하는 쪽이 승리할 것이라는 전망"
+        ],
+        "why": [
+          "AI 에이전트가 금융기관 간 자금 조율의 허브가 될 경우 은행업의 경쟁 구도 자체가 바뀔 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-x-money-launches",
+      "title": "X 머니 출시, 머스크의 '올인원 앱' 구상 진전",
+      "summary": "프리미엄 구독자 대상으로 P2P 송금, 급여 입금, 청구서 납부, 최대 3% 캐시백 비자 데빗카드까지 갖춘 종합 금융 서비스가 시작됐다.",
+      "source": "Mashable",
+      "url": "https://mashable.com/tech/elon-musk-x-launches-x-money?utm_source=tldrfintech",
+      "report": {
+        "tldr": "X 머니가 프리미엄 구독자 대상으로 출시되며 X를 종합 금융 슈퍼앱으로 만들려는 구상이 한 걸음 더 나아갔다.",
+        "what": "X 머니는 프리미엄 구독자를 대상으로 이용 가능해졌다. 이 서비스는 P2P 결제, 급여 직접입금, 청구서 납부, 전신송금, 수표, FDIC 보험이 적용되는 예금 계좌를 소셜 플랫폼 안에 통합한다. 최대 3% 캐시백과 최대 6% APY를 제공하는 계좌를 갖춘 비자 데빗카드도 포함돼, 머스크가 X를 완전한 금융 슈퍼앱으로 전환하려는 구상에 한 걸음 더 다가서고 있다.",
+        "points": [
+          "P2P 결제·급여 입금·청구서 납부·전신송금·수표·FDIC보험 예금계좌 통합",
+          "최대 3% 캐시백, 최대 6% APY 비자 데빗카드 제공",
+          "프리미엄 구독자 대상 우선 출시"
+        ],
+        "why": [
+          "소셜 플랫폼이 금융 슈퍼앱으로 전환되는 흐름이 실제 상품 출시 단계로 진입했다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-moonpay-paybox-ai-agents",
+      "title": "문페이, AI 에이전트 결제 위한 페이박스 오픈",
+      "summary": "대화창을 벗어나지 않고도 개인의 AI 에이전트가 오픈 인터넷에서 직접 거래할 수 있는 결제 볼트가 출시됐다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/jO7lHs?utm_source=tldrfintech",
+      "report": {
+        "tldr": "문페이가 AI 에이전트가 대화 밖으로 나가지 않고 직접 결제할 수 있는 '페이박스'를 출시했다.",
+        "what": "법정화폐와 디지털 자산 간 가치 이동을 지원하는 글로벌 핀테크 기업 문페이는 사람의 AI 에이전트가 대화를 벗어나지 않고도 오픈 인터넷에서 거래할 수 있게 해주는, AI를 위한 최초의 결제 볼트 '페이박스'를 출시했다.",
+        "points": [
+          "AI 전용 최초의 결제 볼트 '페이박스' 출시",
+          "대화창을 벗어나지 않고 에이전트가 직접 거래 가능",
+          "법정화폐-디지털자산 간 가치 이동 지원 인프라 활용"
+        ],
+        "why": [
+          "AI 에이전트에게 직접 결제 권한을 부여하는 인프라 경쟁이 본격화되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-ramp-enters-canada",
+      "title": "램프, 캐나다 시장 진출",
+      "summary": "CAD·USD 카드, 자동화된 GST·HST·PST·QST 코딩까지 지원하는 지출 관리 플랫폼이 캐나다 기업 대상으로 문을 열었다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/0UbtMu?utm_source=tldrfintech",
+      "report": {
+        "tldr": "지출 관리 플랫폼 램프가 캐나다 기업들을 위한 서비스를 정식 출시했다.",
+        "what": "램프는 캐나다 시장에 진출한다고 발표하며 자사 금융 플랫폼을 캐나다 기업들이 이용할 수 있게 했다. 램프를 통해 기업들은 CAD·USD 카드, CAD 청구서 납부·환급, 자동화된 GST·HST·PST·QST 코딩, 공유 통제·승인·회계 워크플로를 포함해 여러 통화에 걸친 지출을 한곳에서 관리할 수 있다.",
+        "points": [
+          "캐나다 기업 대상 정식 서비스 출시",
+          "CAD·USD 카드 및 CAD 청구서·환급 지원",
+          "GST·HST·PST·QST 자동 코딩 기능 포함",
+          "공유 통제·승인·회계 워크플로 제공"
+        ],
+        "why": [
+          "미국 스펜드 매니지먼트 플랫폼들의 북미 지역 확장 경쟁이 이어지고 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-citadel-warsh-rate-hike-surprise",
+      "title": "시타델 증권, 워시 의장 하 '깜짝 금리인상' 전망",
+      "summary": "시타델은 이번 주 연준이 25bp 깜짝 인상을 단행해 워시 의장의 인플레이션 대응 신뢰도를 다질 것으로 예상했다.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/economy/policy/articles/citadel-securities-sees-warsh-delivering-214213265.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "시타델 증권은 케빈 워시 의장 체제에서 연준이 이번 주 깜짝 금리인상을 단행할 것으로 내다봤다.",
+        "what": "시타델 증권은 연준이 이번 주 25bp 금리인상을 단행할 것으로 예상하며, 깜짝 조치가 워시 의장의 인플레이션 대응 신뢰도를 강화하고 그동안의 예고형 정책 결정 관행의 종식을 알릴 것이라고 주장한다. 이 회사는 지속되는 인플레이션 리스크, 안정적인 고용시장, 최근 유가 상승이 완화된 급여·물가 지표보다 더 크게 작용할 수 있다고 보지만, 시장은 현재 7월 인상 가능성을 약 40%로만 반영하고 있다.",
+        "points": [
+          "25bp 깜짝 금리인상 전망(시타델 증권)",
+          "워시 의장의 인플레이션 대응 신뢰도 강화 목적으로 해석",
+          "시장은 7월 인상 확률을 약 40%로만 반영 중"
+        ],
+        "why": [
+          "연준의 정책 예측가능성 자체가 시장 참여자들 사이에서 논쟁거리가 되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-senate-delays-clarity-act",
+      "title": "美 상원, 크립토 클래리티법 처리 연기",
+      "summary": "상원이 연방 지명 인준과 러시아 제재 법안을 우선하며 클래리티법 처리가 8월 휴회 전 시간에 쫓기고 있다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/policy/2026/07/27/u-s-senate-puts-off-crypto-clarity-act-for-now-as-it-focuses-limited-bandwidth-elsewhere?utm_source=tldrfintech",
+      "report": {
+        "tldr": "미 상원이 다른 현안을 우선시하면서 크립토 시장구조법인 클래리티법 처리가 뒤로 밀렸다.",
+        "what": "상원은 연방 지명 인준과 러시아 제재 법안을 우선시하며 클래리티법 논의를 연기했고, 이로 인해 크립토 시장구조 법안은 8월 휴회 전까지 처리할 시간이 거의 남지 않았다. 의원들은 정부 관료의 크립토 활동에 대한 윤리 제한을 여전히 협상 중이며, 추가 지연 시 통과가 9월 또는 선거 후 레임덕 회기로 미뤄질 수 있다.",
+        "points": [
+          "연방 지명 인준·러시아 제재 법안이 상원 우선순위 차지",
+          "8월 휴회 전 처리 시간 부족",
+          "공직자 크립토 활동 윤리 제한이 여전히 협상 쟁점",
+          "추가 지연 시 9월 또는 레임덕 회기로 밀릴 가능성"
+        ],
+        "why": [
+          "크립토 시장구조 법제화가 계속 지연되면서 업계의 규제 불확실성이 장기화되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-judge-blocks-minnesota-prediction-ban",
+      "title": "법원, 미네소타의 예측시장 금지 잠정 차단",
+      "summary": "연방판사가 연방 상품법이 주 규제를 선점하는지 심리하는 동안 칼시·폴리마켓의 영업을 계속 허용했다.",
+      "source": "Courthouse News",
+      "url": "https://www.courthousenews.com/judge-blocks-minnesota-ban-on-prediction-markets/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "연방판사가 미네소타의 예측시장 금지 조치를 잠정 차단해 칼시·폴리마켓의 영업이 계속 가능해졌다.",
+        "what": "연방판사는 연방 상품법이 주 차원의 규제를 선점하는지 법원이 검토하는 동안 미네소타의 예측시장 금지를 잠정적으로 차단해 칼시와 폴리마켓이 계속 영업할 수 있게 했다. 이 판결은 적격 이벤트 계약에 대한 연방 감독에 힘을 실어주지만, 일부 계약은 법적으로 스왑에 해당하지 않을 수 있어 더 좁은 범위의 주 차원 집행에는 여전히 노출될 수 있다고 판사는 경고했다.",
+        "points": [
+          "연방판사가 미네소타의 예측시장 금지를 잠정 차단",
+          "연방 상품법의 주 규제 선점 여부가 핵심 쟁점",
+          "일부 계약은 스왑 미해당으로 주 차원 집행 가능성 존재"
+        ],
+        "why": [
+          "예측시장을 둘러싼 연방-주 관할권 다툼의 결과가 업계 전체의 향방을 좌우할 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-coinbase-rob-witoff-cto",
+      "title": "코인베이스, 롭 위토프를 CTO로 승진",
+      "summary": "약 2년간 재직한 플랫폼 총괄이 최고기술책임자로 승진했다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/rwitoff_some-news-ive-started-my-next-tour-of-duty-share-7487350216262701056-gkM4/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "코인베이스가 롭 위토프를 플랫폼 총괄에서 최고기술책임자로 승진시켰다.",
+        "what": "코인베이스는 약 2년간 재직해온 롭 위토프를 플랫폼 총괄에서 최고기술책임자로 승진시켰다.",
+        "points": [
+          "플랫폼 총괄에서 CTO로 승진",
+          "재직 기간 약 2년"
+        ],
+        "why": [
+          "대형 거래소의 기술 조직 리더십 변화는 향후 제품·인프라 전략의 방향성을 가늠하는 신호가 된다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-5-payments-podcasts",
+      "title": "꼭 들어볼 만한 결제 업계 팟캐스트 5선",
+      "summary": "결제 혁신, 규제, 핀테크 전략, 스테이블코인, 사기, 업계 리더십을 다루는 다섯 개 팟캐스트가 소개됐다.",
+      "source": "PaymentsDive",
+      "url": "https://www.paymentsdive.com/news/5-payments-podcasts-for-a-listen/825929/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "결제 혁신부터 스테이블코인까지 다루는 팟캐스트 5선이 소개됐다.",
+        "what": "결제 혁신, 규제, 핀테크 전략, 스테이블코인, 사기, 업계 리더십을 다루는 5개 팟캐스트: Payments on Fire, Consumer Finance Monitor, Fintech Hustle, Cheeky Pint, Leaders in Payments가 소개됐다.",
+        "points": [
+          "Payments on Fire, Consumer Finance Monitor, Fintech Hustle, Cheeky Pint, Leaders in Payments 5선"
+        ],
+        "why": [
+          "결제 업계 트렌드를 꾸준히 따라가고 싶은 실무자들에게 유용한 학습 자료 목록이다."
+        ]
+      }
+    },
+    {
+      "id": "fintech-increase-buys-community-bank",
+      "title": "스트라이프 출신이 세운 핀테크, 지역은행 인수",
+      "summary": "스트라이프 1호 직원이 설립한 뱅킹 인프라 기업 인크리스가 자체 커뮤니티 은행을 인수했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/sf4rRh?utm_source=tldrfintech",
+      "report": {
+        "tldr": "스트라이프 1호 직원이 창업한 뱅킹 인프라 핀테크 인크리스가 커뮤니티 은행을 직접 인수했다.",
+        "what": "스트라이프의 1호 직원이 설립한 뱅킹 인프라 핀테크 인크리스가 자체 커뮤니티 은행을 인수했다.",
+        "points": [
+          "스트라이프 1호 직원이 창업한 뱅킹 인프라 기업",
+          "커뮤니티 은행 인수로 자체 은행 라이선스 확보"
+        ],
+        "why": [
+          "핀테크 기업들이 규제 리스크를 줄이기 위해 직접 은행을 소유하려는 흐름이 이어지고 있다."
+        ]
+      }
+    }
+  ]
+}
