@@ -1,0 +1,266 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-mcp-stateless",
+      "title": "MCP가 무상태로 간다 — 새 스펙이 AI 에이전트에 의미하는 것",
+      "summary": "모델 컨텍스트 프로토콜이 상태 기반 세션을 무상태 HTTP로 대체해, 로드밸런서 뒤에서 스티키 세션이나 공유 저장소가 필요 없어졌다. 로깅에 오픈텔레메트리와 W3C 트레이스 컨텍스트를 채택해 스택 전반의 통합 관측이 가능해진다.",
+      "source": "New Relic",
+      "url": "https://newrelic.com/blog/ai/mcp-is-going-stateless?utm_source=tldrdevops",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "MCP가 드디어 평범한 HTTP 서비스처럼 배포 가능해졌다.",
+        "what": "MCP 스펙이 무상태 HTTP 모델로 전환되면서 수평 확장과 표준 관측성이 확보됐다.",
+        "points": [
+          "상태 기반 세션 → 무상태 HTTP 전환",
+          "스티키 세션·공유 세션 저장소 불필요",
+          "오픈텔레메트리 로깅 및 W3C 트레이스 컨텍스트 채택",
+          "기존 APM 스택으로 에이전트 호출 추적 가능"
+        ],
+        "why": [
+          "MCP 서버를 기존 마이크로서비스와 동일한 방식으로 운영 가능",
+          "에이전트 호출의 분산 추적이 표준 도구로 해결됨"
+        ],
+        "action": "자체 MCP 서버의 세션 의존성 제거 및 오픈텔레메트리 계측 추가"
+      }
+    },
+    {
+      "id": "devops-cloudflare-pq-origin-auth",
+      "title": "클라우드플레어, 오리진 인증에 양자내성 지원",
+      "summary": "인증된 오리진 풀과 커스텀 오리진 신뢰 저장소가 ML-DSA 서명을 이용한 양자내성 인증을 지원한다. 대부분의 애플리케이션에는 ML-DSA-44가 가장 성능이 좋다고 권고한다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/post-quantum-authentication-to-origins/?utm_source=tldrdevops",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "PQC가 키 교환을 넘어 인증 경로까지 왔다.",
+        "what": "클라우드플레어가 엣지-오리진 구간 인증에 ML-DSA 기반 양자내성 서명을 도입했다.",
+        "points": [
+          "인증된 오리진 풀(AOP) 및 커스텀 오리진 신뢰 저장소 지원",
+          "ML-DSA-44를 기본 권고 파라미터로 제시",
+          "기존 인증서 체계와 병행 운용"
+        ],
+        "why": [
+          "'지금 수집하고 나중에 복호화' 위협 대응이 인증 영역으로 확장",
+          "PQC 마이그레이션 계획에 서명 알고리즘도 포함해야 함"
+        ]
+      }
+    },
+    {
+      "id": "devops-aws-devops-agent-github",
+      "title": "AWS 데브옵스 에이전트와 깃허브로 CI/CD 문제 해결 자동화",
+      "summary": "AWS 데브옵스 에이전트를 깃허브·MCP 서버와 연동해 파이프라인 실패를 조사하고 근본 원인을 판단한 뒤 수정 PR을 자동 생성하는 워크플로를 시연한다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/mt/automate-ci-cd-troubleshooting-with-aws-devops-agent-and-github/?utm_source=tldrdevops",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "빌드 실패 분류를 에이전트에 넘기는 구체적 레퍼런스.",
+        "what": "AWS가 파이프라인 실패 원인 분석부터 수정 PR 생성까지 자동화하는 에이전트 워크플로를 공개했다.",
+        "points": [
+          "깃허브 + MCP 서버 연동 구조",
+          "실패 로그 분석 후 근본 원인 판단",
+          "수정 사항을 PR로 자동 제출"
+        ],
+        "why": [
+          "CI 실패 대응이 온콜 업무에서 리뷰 업무로 바뀜",
+          "에이전트가 만든 PR을 검증할 게이트 설계가 필수"
+        ]
+      }
+    },
+    {
+      "id": "devops-cdnjs-migration",
+      "title": "대규모 도그푸딩 — cdnjs를 클라우드플레어 개발자 플랫폼으로 이전",
+      "summary": "전체 웹사이트의 12%가 사용하는 cdnjs를 6월에 자사 개발자 플랫폼으로 이전해 초당 10만 8,000 요청을 98.6% 캐시 적중률로 처리한다. R2를 콘텐츠 원본으로, 클라우드플레어 워크플로를 발행 파이프라인으로 쓴다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cdnjs-dev-platform-migration/?utm_source=tldrdevops",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "R2 + 워커스 + 워크플로 조합의 대형 프로덕션 검증 사례.",
+        "what": "클라우드플레어가 cdnjs를 자사 개발자 플랫폼으로 완전 이전한 아키텍처와 성과를 공개했다.",
+        "points": [
+          "전체 웹의 12%가 의존하는 서비스",
+          "초당 108,000 요청 처리, 캐시 적중률 98.6%",
+          "R2가 권위 있는 콘텐츠 원본",
+          "클라우드플레어 워크플로로 발행 파이프라인 구성"
+        ],
+        "why": [
+          "서버리스 플랫폼이 대규모 정적 배포에 충분함을 입증",
+          "자체 CDN 운영 대비 원가 구조 비교의 참고점"
+        ]
+      }
+    },
+    {
+      "id": "devops-postgres-mvcc",
+      "title": "포스트그레스의 MVCC는 나쁘다 — 그런데 남들도 마찬가지다",
+      "summary": "포스트그레SQL의 MVCC는 쓰기 증폭과 테이블 비대화를 만들지만, 다른 DB들도 언두 로그·버전 저장소·컴팩션 지연으로 같은 비용을 분산할 뿐이다. MVCC는 해결 가능한 문제가 아니라 트레이드오프라는 결론이다.",
+      "source": "boringsql.com",
+      "url": "https://boringsql.com/posts/mvcc-bad-bad/?utm_source=tldrdevops",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "MVCC 비용은 없앨 수 없고 어디로 옮길지만 고를 수 있다.",
+        "what": "여러 데이터베이스의 MVCC 구현을 비교해 각각이 어디에 비용을 지불하는지 분석한 글이다.",
+        "points": [
+          "포스트그레스: 쓰기 증폭과 테이블 비대화, 배큠 부담",
+          "MySQL/오라클: 언두 로그 관리 비용",
+          "SQL 서버: 버전 저장소 부담",
+          "LSM 계열: 컴팩션 지연으로 비용 이연"
+        ],
+        "why": [
+          "DB 선택 시 MVCC 방식이 운영 부담의 형태를 결정",
+          "포스트그레스 배큠 튜닝을 구조적으로 이해하는 데 도움"
+        ]
+      }
+    },
+    {
+      "id": "devops-rust-integration-tests",
+      "title": "러스트의 즐거운 통합 테스트",
+      "summary": "RAII와 testcontainers-rs로 래빗MQ·포스트그레스·레디스 컨테이너를 자동 기동·정리해, 수동 셋업 없이 격리되고 병렬 실행 가능한 통합 테스트를 만드는 예제 저장소다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/alexpusch/rust-magic-patterns/tree/master/delightful-integration-tests?utm_source=tldrdevops",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "RAII가 테스트 컨테이너 생명주기 관리에 딱 맞는다.",
+        "what": "러스트의 소유권·드롭 시맨틱을 이용해 테스트 컨테이너를 자동으로 띄우고 정리하는 패턴을 보여준다.",
+        "points": [
+          "testcontainers-rs로 도커 컨테이너 자동 프로비저닝",
+          "RAII 드롭 시점에 자동 정리",
+          "테스트 간 격리 및 병렬 실행 가능"
+        ],
+        "why": [
+          "CI에서 외부 의존성 있는 테스트를 안정적으로 돌리는 방법",
+          "다른 언어에도 이식 가능한 설계 아이디어"
+        ]
+      }
+    },
+    {
+      "id": "devops-tuicr",
+      "title": "Tuicr — 터미널 기반 코드 리뷰 도구",
+      "summary": "빔 키바인딩을 지원하는 터미널 코드 리뷰 도구로, 인라인 코멘트를 작성해 깃허브·깃랩에 바로 제출할 수 있다. 승인·변경 요청·초안 리뷰를 지원한다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/agavra/tuicr?utm_source=tldrdevops",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "리뷰량이 늘면서 터미널 리뷰 도구 수요가 생겼다.",
+        "what": "깃허브·깃랩 PR을 터미널에서 리뷰하고 제출할 수 있는 TUI 도구다.",
+        "points": [
+          "빔 키바인딩 지원",
+          "인라인 코멘트 작성 및 제출",
+          "승인·변경 요청·초안 리뷰 지원"
+        ],
+        "why": [
+          "에이전트가 만든 PR이 늘면서 리뷰 처리량 도구가 중요해짐"
+        ]
+      }
+    },
+    {
+      "id": "devops-ai-agents-regulated-industries",
+      "title": "파일럿에서 프로덕션으로 — 규제 산업의 AI 코딩 에이전트 확산 플레이북",
+      "summary": "규제 조직이 AI 코딩 에이전트를 프로덕션으로 옮기려면 가시성, 통제된 환경, 감사 추적, 정책 집행을 중심으로 거버넌스를 세워야 한다는 플랫폼 팀용 가이드다.",
+      "source": "Platform Engineering",
+      "url": "https://platformengineering.org/blog/platform-teams-playbook-for-scaling-ai-coding-agents-in-regulated-industries?utm_source=tldrdevops",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "규제 산업에서 막히는 건 모델 성능이 아니라 감사 추적이다.",
+        "what": "규제 환경에서 AI 코딩 에이전트를 프로덕션 규모로 확산시키기 위한 거버넌스 항목을 정리했다.",
+        "points": [
+          "에이전트 활동에 대한 가시성 확보",
+          "통제된 실행 환경 제공",
+          "모든 변경에 감사 추적 부착",
+          "정책 집행을 플랫폼 계층에서 강제"
+        ],
+        "why": [
+          "같은 날 앤트로픽 인시던트가 보여준 통제 실패와 정확히 대응되는 처방",
+          "금융·의료 조직의 도입 승인 체크리스트로 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "devops-azure-devops-2027-deadline",
+      "title": "애저 데브옵스 파이프라인에 2027년 시한이 걸렸다",
+      "summary": "애저 데브옵스가 2027년 7월까지 워크로드 아이덴티티 페더레이션 발급자를 폐기하므로, 파워셸 스크립트로 서비스 연결을 마이크로소프트 엔트라 발급자로 일괄 이전해야 한다.",
+      "source": "sysadmin-central.com",
+      "url": "https://sysadmin-central.com/2026/07/01/migrate-azure-devops-service-connections-entra-issuer/?utm_source=tldrdevops",
+      "originalDate": "2026-07-01",
+      "report": {
+        "tldr": "1년짜리 마이그레이션 시계가 이미 돌아가기 시작했다.",
+        "what": "애저 데브옵스 서비스 연결의 페더레이션 발급자 변경 마감과 일괄 이전 방법을 정리한 글이다.",
+        "points": [
+          "2027년 7월 기존 발급자 폐기 예정",
+          "페더레이션 자격증명 생성 후 MigrateToEntraIssuer 호출",
+          "파워셸 스크립트로 대량 처리 가능"
+        ],
+        "why": [
+          "방치하면 CI/CD 인증이 한꺼번에 끊기는 유형의 마감",
+          "서비스 연결 수가 많은 조직일수록 조기 착수 필요"
+        ],
+        "action": "서비스 연결 목록을 뽑아 이전 대상 규모를 먼저 산정할 것"
+      }
+    },
+    {
+      "id": "devops-code-review-context",
+      "title": "코드 리뷰 응답 — 필요할 때 맥락을 남겨라",
+      "summary": "결과 코드가 모호하거나 여러 유효한 접근이 있었거나 중요한 논의가 리뷰 스레드 밖에서 이뤄졌다면, 리뷰 답글에 짧은 설명을 남겨 기술적 의사결정 기록을 보존해야 한다.",
+      "source": "Google Testing Blog",
+      "url": "https://testing.googleblog.com/2026/05/code-review-responses-add-context-when.html?utm_source=tldrdevops",
+      "originalDate": "2026-05-01",
+      "report": {
+        "tldr": "'수정했습니다'만 남기면 왜 그렇게 됐는지가 사라진다.",
+        "what": "구글 테스팅 블로그가 코드 리뷰 답글에 맥락을 남겨야 하는 세 가지 상황을 제시했다.",
+        "points": [
+          "결과 코드가 모호할 때",
+          "유효한 대안이 여럿이었을 때",
+          "중요한 논의가 리뷰 밖에서 이뤄졌을 때"
+        ],
+        "why": [
+          "코드 히스토리가 유일한 설계 문서인 조직에 특히 중요",
+          "에이전트가 리뷰에 참여할 때 더 중요해지는 관행"
+        ]
+      }
+    },
+    {
+      "id": "devops-eks-efa-placement-groups",
+      "title": "아마존 EKS, 오토 모드·카펜터에서 EFA와 배치 그룹 지원",
+      "summary": "EKS 오토 모드와 카펜터 노드 풀에서 EC2 배치 그룹과 EFA(엘라스틱 패브릭 어댑터) 구성을 지원해 쿠버네티스 워크로드 성능을 최적화할 수 있다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/07/amazon-eks-efa-placement-groups/?utm_source=tldrdevops",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "쿠버네티스에서 HPC·분산학습 네트워킹이 기본 기능이 됐다.",
+        "what": "EKS 오토 모드와 카펜터가 저지연 네트워킹 구성을 직접 지원하기 시작했다.",
+        "points": [
+          "EC2 배치 그룹 지원으로 노드 물리 배치 제어",
+          "EFA 지원으로 노드 간 저지연 통신",
+          "오토 모드·카펜터 노드 풀에 적용"
+        ],
+        "why": [
+          "분산 학습 워크로드를 EKS로 옮기는 장벽이 낮아짐",
+          "GPU 클러스터의 통신 병목 완화"
+        ]
+      }
+    },
+    {
+      "id": "devops-stacked-prs",
+      "title": "스택드 풀리퀘스트 퍼블릭 프리뷰",
+      "summary": "깃허브의 스택드 PR이 큰 변경을 순서 있는 좁은 범위의 PR들로 나눠 병렬 리뷰를 가능하게 하면서 기존 체크와 브랜치 보호는 그대로 유지한다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/?utm_source=tldrdevops",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "플랫폼 팀이 리뷰 정책을 다시 손볼 계기.",
+        "what": "깃허브가 스택드 PR을 네이티브 지원하면서 대형 변경의 리뷰 워크플로가 바뀐다.",
+        "points": [
+          "순서 있는 PR 스택 구성",
+          "병렬 리뷰 가능",
+          "브랜치 보호·필수 체크 유지"
+        ],
+        "why": [
+          "CI 실행 횟수와 비용 구조에 영향",
+          "머지 큐 정책과의 상호작용 검토 필요"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,304 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-big-world-intuitions",
+      "title": "큰 세계의 직관 — 불확실성 속에서도 통하는 원칙",
+      "summary": "불확실성과 무관하게 견고하게 통하는 보편적 원칙과 휴리스틱을 따르라는 주장이다. 공정하게 행동하고, 남의 일에 참견하지 않고, 최선을 다하는 것이 장기적으로 잘 통한다.",
+      "source": "Sarah Constantin (Substack)",
+      "url": "https://sarahconstantin.substack.com/p/big-world-intuitions?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "예측할 수 없는 세계에서는 예측에 의존하지 않는 규칙이 낫다.",
+        "what": "불확실성이 큰 환경에서 어떤 종류의 판단 규칙이 견고한지 논한 에세이다.",
+        "points": [
+          "결과 예측이 아니라 규칙의 견고성에 기반한 의사결정",
+          "공정성·자기 일에 집중·최선을 다함이 장기 우위",
+          "복잡계에서 정교한 최적화보다 단순한 원칙이 우월할 수 있음"
+        ],
+        "why": [
+          "창업자의 반복 의사결정에 적용 가능한 메타 원칙",
+          "리스크가 큰 환경에서 평판 자본의 가치를 설명"
+        ]
+      }
+    },
+    {
+      "id": "founders-37signals-tune-up",
+      "title": "37시그널스, 쿨다운을 1주로 줄인 '튠업'",
+      "summary": "37시그널스가 6주 사이클 사이의 쿨다운 기간을 2주에서 1주로 줄이고 이를 '튠업'이라 부른다. 이전에 4~6주 걸리던 상당한 기능을 약 1주 만에 출시할 수 있게 됐다.",
+      "source": "Hey World (37signals)",
+      "url": "https://world.hey.com/bb/tune-up-d6ca92aa?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "AI 도구가 셰이프업 사이클 자체를 압축했다.",
+        "what": "37시그널스가 제품 개발 사이클의 쿨다운 구간을 절반으로 줄인 배경과 결과를 공유했다.",
+        "points": [
+          "쿨다운 2주 → 1주로 단축, 명칭 '튠업'",
+          "기존 4~6주 규모 기능이 약 1주에 출하",
+          "6주 베팅 사이클 자체는 유지"
+        ],
+        "why": [
+          "개발 속도 향상이 프로세스 재설계로 이어지는 실제 사례",
+          "셰이프업을 쓰는 팀이 참고할 구체적 조정"
+        ]
+      }
+    },
+    {
+      "id": "founders-x-launch-trending",
+      "title": "X에서 런치를 트렌딩시키는 법",
+      "summary": "효과적인 X 런치는 시장 조사, 데모를 곁들인 기억에 남는 주장, 조율된 크리에이터 참여, 빠른 댓글 대응을 필요로 한다. 반응에 답글을 달고 공유자에게 DM을 보내며 리드 마그넷을 신속히 전달하고 48시간 동안 모멘텀을 유지해야 한다.",
+      "source": "@0xfJuan (X)",
+      "url": "https://x.com/0xfJuan/status/2082138861136736272?utm_source=tldrfounders",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "런치 트렌딩은 운이 아니라 48시간짜리 운영 작업이다.",
+        "what": "X에서 제품 런치를 확산시키기 위한 준비·실행·후속 대응 절차를 정리한 가이드다.",
+        "points": [
+          "사전 시장 조사와 기억에 남는 한 문장 주장",
+          "데모 영상 필수",
+          "크리에이터 참여를 사전 조율",
+          "댓글·DM 대응과 리드 마그넷 즉시 전달",
+          "48시간 모멘텀 유지"
+        ],
+        "why": [
+          "유료 광고 없이 초기 유통을 확보하는 실전 절차",
+          "런치를 이벤트가 아닌 캠페인으로 다루는 관점"
+        ]
+      }
+    },
+    {
+      "id": "founders-saas-ipo-best-practices",
+      "title": "SaaS IPO에서 배운 모범 사례",
+      "summary": "성공적인 SaaS IPO는 랜드앤익스팬드 모델, 가치 기반 가격 책정, 연간·다년 계약에 의존한다. 고성장 기업은 순매출유지율 110% 이상을 유지하며 엔터프라이즈 영업 투입 전에 프리미엄이나 오픈소스 전략을 활용한다.",
+      "source": "Blossom Street Ventures",
+      "url": "https://blossomstreetventures.medium.com/saas-best-practices-we-learned-from-saas-ipos-523c91135a18?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "상장에 도달한 SaaS들의 공통 패턴은 가격과 유지율에 있다.",
+        "what": "다수의 SaaS IPO 사례에서 반복적으로 나타난 비즈니스 모델 특성을 정리했다.",
+        "points": [
+          "랜드앤익스팬드 확장 구조",
+          "가치 기반 가격 책정",
+          "연간·다년 계약 비중 확보",
+          "순매출유지율 110% 이상",
+          "프리미엄·오픈소스로 초기 유통 확보 후 엔터프라이즈 영업"
+        ],
+        "why": [
+          "시리즈 A 이후 지표 목표 설정의 벤치마크",
+          "가격 정책 변경의 논거로 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "founders-steal-customers-from-leader",
+      "title": "선두 기업의 고객을 어떻게 빼앗는가",
+      "summary": "경쟁사가 활동하는 공간에서 가시성을 확보하고, 벤더 전환을 쉽고 비용 없게 만들라는 조언이다. 고객은 대개 선두 브랜드를 선호하지만, 알려져 있어야 경쟁사가 흔들릴 때 기회를 잡을 수 있다.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/how-do-you-pull-your-saas-competitors-customers-to-your-saas-instead/?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "빼앗기보다 '흔들릴 때 떠오르는 대안'이 되는 것이 현실적이다.",
+        "what": "선두 사업자의 고객을 확보하기 위한 포지셔닝과 전환 마찰 제거 전략을 다룬다.",
+        "points": [
+          "경쟁사가 존재하는 채널에 동일하게 노출",
+          "마이그레이션 비용·수고를 최대한 제거",
+          "경쟁사의 장애·가격 인상·정책 변경 시점이 실제 기회"
+        ],
+        "why": [
+          "레이트 무버 포지션에서의 현실적 성장 경로",
+          "전환 도구 개발에 투자할 근거"
+        ]
+      }
+    },
+    {
+      "id": "founders-pr-timing",
+      "title": "너무 일찍 부스터를 켜지 마라 — 창업자를 위한 PR 가이드",
+      "summary": "레스터 첸은 PR을 단순 유통이 아니라 외부 검증 테스트로 다루라고 조언한다. 초기에 전문 PR과 협업하면 실수를 막고 청중별 메시지를 다듬을 수 있으며, 창업자가 편하다면 개인 채널로 직접 소통해도 된다.",
+      "source": "Speedrun (Substack)",
+      "url": "https://speedrun.substack.com/p/dont-hit-the-nos-too-soon-a-founders?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "PR은 메시지를 퍼뜨리기 전에 메시지를 검증하는 도구다.",
+        "what": "창업자가 PR을 언제, 어떤 방식으로 시작해야 하는지에 대한 실무 조언이다.",
+        "points": [
+          "PR을 유통이 아닌 외부 검증 테스트로 재정의",
+          "초기 전문가 협업이 실수 방지와 메시지 정교화에 기여",
+          "창업자 개인 채널의 직접 소통도 유효한 경로"
+        ],
+        "why": [
+          "언론 노출 타이밍을 잘못 잡아 기회를 소진하는 실패 방지",
+          "초기 단계 마케팅 예산 배분 판단에 도움"
+        ]
+      }
+    },
+    {
+      "id": "founders-stacked-prs",
+      "title": "깃허브 스택드 풀리퀘스트 퍼블릭 프리뷰",
+      "summary": "큰 변경을 작고 독립적으로 리뷰 가능한 PR로 나눠 함께 병합하는 기능이다. 코드 품질을 유지하면서 큰 기능을 점진적으로 출하할 수 있다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/changelog/2026-07-30-stacked-pull-requests-are-now-in-public-preview/?utm_source=tldrfounders",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "작은 팀일수록 리뷰 병목이 출시 속도를 결정한다.",
+        "what": "깃허브가 스택드 PR을 네이티브로 지원하기 시작했다.",
+        "points": [
+          "큰 변경을 독립 리뷰 가능한 단위로 분할",
+          "일괄 병합 지원",
+          "기존 품질 게이트 유지"
+        ],
+        "why": [
+          "소수 엔지니어 팀의 처리량 개선에 직접 기여"
+        ]
+      }
+    },
+    {
+      "id": "founders-gemini-live-api",
+      "title": "제미나이 라이브 API 개요",
+      "summary": "오디오·이미지·텍스트의 연속 스트림을 처리해 저지연 실시간 상호작용을 제공한다. 다양한 산업에서 실시간 에이전트를 만들 수 있는 자연스러운 대화 경험을 지원한다.",
+      "source": "Google AI",
+      "url": "https://ai.google.dev/gemini-api/docs/live-api?linkId=63011869&utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "음성 우선 제품의 진입장벽이 API 한 줄로 내려갔다.",
+        "what": "제미나이 라이브 API가 실시간 음성·비전 에이전트 구축을 지원한다.",
+        "points": [
+          "오디오·이미지·텍스트 연속 스트림 처리",
+          "저지연 실시간 응답",
+          "다산업 실시간 에이전트 적용"
+        ],
+        "why": [
+          "음성 인터페이스 스타트업의 기술 리스크 감소",
+          "차별화 요소가 모델에서 도메인 워크플로로 이동"
+        ]
+      }
+    },
+    {
+      "id": "founders-mercor-20b-marketplace",
+      "title": "머코어, 71달러와 구글 폼으로 200억 달러 마켓플레이스를 만들다",
+      "summary": "머코어는 왓츠앱·구글 시트·팬다닥을 쓰는 수작업으로 시작해 4개월 만에 연환산 매출 20억 달러에 도달했다. 초기에는 IIT 동아리와 페이스북 광고로 엔지니어를 모집한 뒤 GPT-4 점수화와 AI 면접으로 자동화했다.",
+      "source": "Nicholas Chua (X)",
+      "url": "https://x.com/nicholaschua/status/2082509971250708747?utm_source=tldrfounders",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "자동화는 수작업으로 수요를 증명한 다음에 왔다.",
+        "what": "머코어가 초기 수작업 운영에서 AI 자동화 마켓플레이스로 확장한 과정을 정리한 글이다.",
+        "points": [
+          "초기 스택은 왓츠앱·구글 시트·팬다닥",
+          "IIT 동아리와 페이스북 광고로 공급자 확보",
+          "이후 GPT-4 기반 점수화·AI 면접으로 자동화",
+          "4개월 만에 연환산 매출 20억 달러"
+        ],
+        "why": [
+          "'Do things that don't scale'의 최신 대형 사례",
+          "AI 마켓플레이스의 콜드스타트 해법 참고"
+        ]
+      }
+    },
+    {
+      "id": "founders-domo-400m-acquisition",
+      "title": "도모의 특이한 4억 달러 인수",
+      "summary": "프로그레스 소프트웨어가 도모의 소프트웨어·고객·IP를 4억 달러에 인수했고, 상장사에는 현금 2억 4,600만 달러와 9억 달러의 세무상 결손금이 남았다. 이 구조로 도모 경영진은 남은 자산으로 다시 인수에 나설 기회를 얻었다.",
+      "source": "Only CFO",
+      "url": "https://www.onlycfio.io/p/domos-unusual-400m-acquisition?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "사업만 팔고 껍데기 법인은 남기는 구조가 등장했다.",
+        "what": "프로그레스가 도모의 영업자산만 인수하고 상장 법인은 현금과 이월결손금을 보유한 채 존속하는 거래 구조를 분석했다.",
+        "points": [
+          "소프트웨어·고객·IP만 4억 달러에 매각",
+          "존속 법인에 현금 2억 4,600만 달러",
+          "이월결손금 9억 달러 보유",
+          "경영진이 잔여 자산으로 재인수 추진 가능"
+        ],
+        "why": [
+          "세무상 결손금의 가치가 거래 구조를 결정한 사례",
+          "부진한 상장 SaaS의 출구 옵션으로 참고 가능"
+        ]
+      }
+    },
+    {
+      "id": "founders-building-with-ai-july-2026",
+      "title": "2026년 7월, AI로 뭔가 만들며 든 잡생각들",
+      "summary": "최근 AI 기반 솔루션을 직접 개발하며 축적한 LLM 활용 실무 팁과 프로세스를 모은 글이다.",
+      "source": "Brent Ozar",
+      "url": "https://www.brentozar.com/archive/2026/07/miscellaneous-thoughts-about-building-stuff-with-ai/?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "현장에서 쌓인 LLM 활용 감각 모음.",
+        "what": "실제 제품 개발에 LLM을 쓰며 얻은 실무적 관찰들을 정리했다.",
+        "points": [
+          "프롬프트·컨텍스트 관리 실무 팁",
+          "AI 활용 개발 프로세스에 대한 관찰"
+        ],
+        "why": [
+          "경험 기반 조언이라 도입 초기 팀에 실용적"
+        ]
+      }
+    },
+    {
+      "id": "founders-customer-watch-agent",
+      "title": "고객을 선제 지원하는 상시 백그라운드 에이전트",
+      "summary": "커스터머 워치는 계정 전반에서 사용량 급증, 오류, 결제 실패, 기업 뉴스를 추적해 관련 계정 담당자에게 슬랙 스레드로 자동 알린다.",
+      "source": "Parallel AI",
+      "url": "https://parallel.ai/blog/customer-watch-background-agent?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "고객 성공 업무의 감시 부분이 에이전트로 넘어간다.",
+        "what": "계정별 이상 신호를 상시 모니터링해 담당자에게 알리는 백그라운드 에이전트 사례다.",
+        "points": [
+          "사용량 급증·오류·결제 실패·기업 뉴스 추적",
+          "관련 계정 담당자에게 슬랙 스레드로 통지",
+          "상시 백그라운드 실행"
+        ],
+        "why": [
+          "소규모 팀이 대형 계정을 관리할 수 있게 하는 지렛대",
+          "이탈 예방을 반응형에서 선제형으로 전환"
+        ]
+      }
+    },
+    {
+      "id": "founders-ma-guide",
+      "title": "창업자를 위한 인수합병 가이드",
+      "summary": "인수 의향을 밝힌 상대가 실제로 무엇을 원하는지를 빠르게 명확히 한 뒤 M&A 절차를 진행해야 한다는 조언이다.",
+      "source": "Hustle Fund",
+      "url": "https://thefounderplaybook.hustlefund.vc/p/the-founders-guide-to-mergers-and-acquisitions?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "인수 논의의 첫 단계는 상대의 진짜 목적 파악이다.",
+        "what": "창업자 관점에서 M&A 프로세스를 진행할 때의 초기 판단 기준을 정리했다.",
+        "points": [
+          "인수자가 원하는 것(인재·기술·고객·매출)을 먼저 특정",
+          "목적에 따라 협상 레버리지와 구조가 달라짐"
+        ],
+        "why": [
+          "시간과 협상력을 낭비하지 않기 위한 초기 필터"
+        ]
+      }
+    },
+    {
+      "id": "founders-reddit-buying-questions",
+      "title": "레딧의 구매 의향 스레드 148건을 전부 읽어봤다",
+      "summary": "레딧 스레드 분석 결과, 일반적인 도구 추천 요청보다 기존 도구 사용자의 불만이 훨씬 가치 있는 구매 의향 신호를 만든다는 점이 드러났다.",
+      "source": "Cue Scout",
+      "url": "https://cuescout.com/blog/what-a-reddit-buying-question-actually-looks-like?utm_source=tldrfounders",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "\"뭐 좋은 거 없나요\"보다 \"이게 짜증난다\"가 더 좋은 리드다.",
+        "what": "높은 구매 의향을 보인 레딧 스레드 148건을 분석해 신호의 유형을 분류했다.",
+        "points": [
+          "기존 도구에 대한 구체적 불만이 최상위 신호",
+          "일반적 추천 요청은 전환율이 낮음",
+          "148건 전수 분석 기반"
+        ],
+        "why": [
+          "커뮤니티 기반 리드 발굴의 타깃팅 기준 제공",
+          "제품 포지셔닝 문구를 불만 언어로 맞추는 근거"
+        ]
+      }
+    }
+  ]
+}

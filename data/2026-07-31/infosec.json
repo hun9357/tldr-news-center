@@ -1,0 +1,310 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-cosmosescape",
+      "title": "코스모스이스케이프 — 애저 코스모스 DB 전 계정 장악 가능했던 취약점",
+      "summary": "연구진이 .NET 리플렉션으로 코스모스 DB의 그렘린 샌드박스를 우회해 임의 코드 실행에 성공하고, 모든 계정의 기본 키를 조회할 수 있는 '코스모스 마스터 키'를 탈취했다. MS는 48시간 내 핫픽스를 배포하고 7월 중 마스터 키 자체를 제거했다.",
+      "source": "Wiz Research",
+      "url": "https://www.wiz.io/blog/cosmosescape-taking-over-every-database-in-azure-cosmos-db?utm_source=tldrinfosec",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "매니지드 DB의 테넌트 격리가 마스터 키 하나로 무너질 수 있었다.",
+        "what": "위즈 리서치가 애저 코스모스 DB의 그렘린 API 샌드박스를 .NET 리플렉션으로 탈출해 RCE를 얻고, 전 계정의 기본 키를 발급할 수 있는 마스터 키에 도달한 과정을 공개했다.",
+        "points": [
+          "그렘린 그래프 쿼리 샌드박스를 .NET 리플렉션으로 우회",
+          "임의 코드 실행 후 내부 자격증명 접근",
+          "'코스모스 마스터 키'로 임의 계정의 프라이머리 키 조회 가능",
+          "MS 48시간 내 핫픽스, 7월 중 마스터 키 구조 자체를 폐기"
+        ],
+        "why": [
+          "클라우드 매니지드 서비스의 크로스 테넌트 리스크가 다시 실증됨",
+          "고객이 자체적으로 탐지·차단할 수 없는 유형이라 벤더 대응 속도가 유일한 방어선"
+        ],
+        "action": "코스모스 DB 계정의 키 로테이션 및 접근 로그 소급 점검"
+      }
+    },
+    {
+      "id": "infosec-rails-cve-2026-66066",
+      "title": "레일즈 치명적 임의 파일 읽기·RCE 가능 취약점 (CVE-2026-66066, CVSS 9.5)",
+      "summary": "액티브 스토리지 이미지 처리 과정의 libvips 연산을 인증 없이 악용해 임의 파일을 읽을 수 있고, 유출된 시크릿으로 RCE까지 이어질 수 있다. 레일즈 7.2.3.2·8.0.5.1·8.1.3.1에 패치가 나왔으며 실제 악용은 아직 보고되지 않았다.",
+      "source": "Rapid7",
+      "url": "https://www.rapid7.com/blog/post/etr-kindarails2shell-cve-2026-66066-critical-arbitrary-file-read-and-possible-remote-code-execution-in-ruby-on-rails/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "이미지 업로드 기능이 있는 레일즈 앱은 즉시 패치 대상이다.",
+        "what": "액티브 스토리지가 이미지 변환에 쓰는 libvips 연산을 조작해 인증 없이 서버 파일을 읽어내는 취약점이 공개됐다.",
+        "points": [
+          "CVSS 9.5, 인증 불필요",
+          "액티브 스토리지 이미지 처리 경로가 공격 표면",
+          "읽어낸 시크릿(예: secret_key_base)으로 RCE 연결 가능",
+          "7.2.3.2 / 8.0.5.1 / 8.1.3.1에서 수정",
+          "현재까지 야생 악용 미확인"
+        ],
+        "why": [
+          "레일즈 기본 스택에 포함된 기능이라 노출 범위가 넓다",
+          "악용 보고가 없는 지금이 패치 창(window)"
+        ],
+        "action": "레일즈 버전 확인 후 즉시 패치, 불가 시 액티브 스토리지 변환 경로 차단"
+      }
+    },
+    {
+      "id": "infosec-apple-sandbox-escape",
+      "title": "실행 파일 생성으로 애플 샌드박스 탈출 (CVE-2026-20628)",
+      "summary": "샌드박스된 맥OS 프로세스가 홈 디렉터리 접근이 허용된 내장 프로파일로 자식 프로세스를 생성해 샌드박스를 탈출할 수 있었다. 애플은 26.3에서 샌드박스 프로세스의 내장 프로파일 지정을 차단해 수정했다.",
+      "source": "wts.dev",
+      "url": "https://wts.dev/posts/sandbox-spawnattrs-escape/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "자식 프로세스에 더 넓은 권한을 물려줄 수 있으면 샌드박스가 아니다.",
+        "what": "posix_spawn 속성으로 내장 샌드박스 프로파일을 지정하는 경로를 통해, 제한된 프로세스가 더 관대한 프로파일의 자식을 띄울 수 있었다.",
+        "points": [
+          "spawnattrs로 내장 프로파일 지정 가능했던 것이 원인",
+          "자식 프로세스가 홈 디렉터리 전체 접근 권한 획득",
+          "맥OS 26.3에서 샌드박스 프로세스의 내장 프로파일 지정을 금지"
+        ],
+        "why": [
+          "앱 샌드박스를 최종 방어선으로 가정한 설계의 위험성",
+          "에이전트·플러그인 실행을 샌드박스에 의존하는 제품에 직접 시사점"
+        ]
+      }
+    },
+    {
+      "id": "infosec-clickfix-one-chokepoint",
+      "title": "클릭픽스 탐지 룰 50개를 하나로 대체한 방법",
+      "summary": "클릭픽스 공격은 가짜 시스템 오류로 사용자가 직접 악성 명령을 실행하게 만든다. 필자는 '브라우저 포커스 상실 → 네이티브 셸 포커스 획득 → 60초 내 네트워크 호출 포함 명령 실행'이라는 행위 패턴 하나로 룰 50개를 대체했다.",
+      "source": "ddosier-disects (Medium)",
+      "url": "https://ddosier-disects.medium.com/the-one-chokepoint-to-rule-them-all-why-i-deleted-50-clickfix-detection-rules-and-replaced-them-7c532206d32d?utm_source=tldrinfosec",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "시그니처 50개보다 행위 초크포인트 1개가 낫다.",
+        "what": "클릭픽스 계열 공격의 공통 실행 경로를 하나의 행위 시퀀스로 정의해 탐지 룰을 대폭 단순화한 사례다.",
+        "points": [
+          "브라우저 포커스 상실 직후 셸 포커스 획득이 트리거",
+          "60초 이내 네트워크 호출을 동반한 명령 실행이 조건",
+          "변종별 시그니처 유지보수 부담 제거"
+        ],
+        "why": [
+          "탐지 엔지니어링에서 초크포인트 식별의 효용을 보여주는 실례",
+          "룰 개수가 아니라 커버리지로 SOC를 평가해야 한다는 근거"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ciso-guide-agentic-ai",
+      "title": "\"리스크 제로가 목표는 아니다\" — 앤트로픽의 CISO용 에이전틱 AI 가이드",
+      "summary": "앤트로픽이 비신뢰 콘텐츠 수용, 에이전트 능력, 폭발 반경, 관측 가능성이라는 네 축으로 에이전틱 AI 리스크를 평가하는 내부 프레임워크를 공개했다. 최소 권한 단일 목적 에이전트부터 사람 자격증명을 쓰는 에이전트까지의 아이덴티티 접근 스펙트럼도 제시한다.",
+      "source": "Anthropic",
+      "url": "https://claude.com/blog/ciso-guide-to-agentic-ai?utm_source=tldrinfosec",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "에이전트 리스크는 '비신뢰 입력 × 능력 × 폭발 반경'으로 분해된다.",
+        "what": "앤트로픽이 CISO를 대상으로 에이전틱 AI 도입 시의 리스크 평가 프레임워크를 문서화했다.",
+        "points": [
+          "평가 4축: 비신뢰 콘텐츠 수용 / 에이전트 능력 / 폭발 반경 / 관측 가능성",
+          "아이덴티티 스펙트럼: 최소 권한 단일 목적 → 사람 자격증명 대행",
+          "리스크 제거가 아닌 리스크 관리 관점"
+        ],
+        "why": [
+          "같은 날 자사 모델의 무단 접근 사고를 공개한 회사가 낸 문서라는 점이 아이러니이자 신뢰 요소",
+          "에이전트 도입 심사 체크리스트로 바로 쓸 수 있는 구조"
+        ],
+        "action": "사내 에이전트를 4축에 매핑해 폭발 반경이 큰 것부터 권한 축소"
+      }
+    },
+    {
+      "id": "infosec-control-reliability-engineering",
+      "title": "제어 신뢰성 공학(CRE) — SRE 원칙을 보안 통제에 적용하기",
+      "summary": "대부분의 침해는 새로운 공격 기법이 아니라 깨지거나 잘못 설정된 통제에서 비롯된다. 통제 실패를 침해와 같은 심각도로 다루고 SLI/SLO, 에러 버짓, 코드형 통제를 도입하자는 제안이다.",
+      "source": "Phil Venables",
+      "url": "https://www.philvenables.com/post/control-reliability-engineering-cre-applying-sre-principles-to-cybersecurity-controls?utm_source=tldrinfosec",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "보안 통제도 가동률로 측정해야 한다.",
+        "what": "SRE의 신뢰성 공학 방법론을 보안 통제 운영에 적용하는 개념을 제시한 글이다.",
+        "points": [
+          "침해 원인의 다수는 통제의 미작동·오설정",
+          "통제별 SLI/SLO와 에러 버짓 정의",
+          "코드형 통제(controls-as-code)로 드리프트 방지",
+          "통제 실패를 인시던트로 취급"
+        ],
+        "why": [
+          "보안 투자 논의를 '도구 도입'에서 '통제 가동률'로 옮김",
+          "감사·규제 대응 지표로도 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "infosec-dedupinspector",
+      "title": "DedupInspector — 윈도우 중복 제거 볼륨 포렌식 도구",
+      "summary": "윈도우 데이터 중복 제거 볼륨에서 파일을 복구하는 경량 오프라인 포터블 포렌식 유틸리티다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/7h3kn0w3r/DedupInspector?utm_source=tldrinfosec",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "중복 제거 볼륨은 기존 포렌식 도구의 사각지대였다.",
+        "what": "윈도우 Data Deduplication이 적용된 볼륨에서 청크를 재조립해 원본 파일을 복구하는 도구가 공개됐다.",
+        "points": [
+          "오프라인·포터블 동작",
+          "중복 제거 청크 스토어 파싱 지원"
+        ],
+        "why": [
+          "파일 서버 침해 조사에서 누락되던 증거 확보 경로"
+        ]
+      }
+    },
+    {
+      "id": "infosec-codeneedle",
+      "title": "CodeNeedle — VS Code를 로컬 코드 실행 엔드포인트로 노출",
+      "summary": "로컬 HTTP 엔드포인트로 자바스크립트 코드 실행을 노출하는 VS Code 확장으로, JSON-RPC 요청을 받아 임의 코드를 평가하고 결과를 반환한다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/chvancooten/code-needle?utm_source=tldrinfosec",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "개발 도구가 그대로 로컬 실행 백도어가 될 수 있다.",
+        "what": "VS Code 확장이 로컬 HTTP·JSON-RPC 인터페이스로 임의 JS 실행을 제공하는 레드팀 도구다.",
+        "points": [
+          "로컬 HTTP 엔드포인트 리스닝",
+          "JSON-RPC로 임의 코드 평가 후 결과 반환",
+          "정상 개발 도구로 위장 가능"
+        ],
+        "why": [
+          "IDE 확장 권한 관리가 엔드포인트 보안 항목이라는 점을 상기",
+          "에디터 확장 화이트리스트 정책의 필요성"
+        ]
+      }
+    },
+    {
+      "id": "infosec-cisa-kev-orchestrator",
+      "title": "CISA KEV 위협 인텔 오케스트레이터",
+      "summary": "CISA 카탈로그에서 새로 무기화된 CVE를 주간 단위로 가져와 Sysmon 이벤트ID와 MITRE ATT&CK 매핑이 붙은 시그마 룰을 자동 생성하는 n8n 워크플로다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/manishrawat21/Cisa-KEV-Threat-Intel-Orchestrator?utm_source=tldrinfosec",
+      "originalDate": "2026-07-31",
+      "report": {
+        "tldr": "KEV 등재에서 탐지 룰까지의 리드타임을 자동화로 줄인다.",
+        "what": "CISA의 알려진 악용 취약점 카탈로그를 주기적으로 수집해 시그마 탐지 룰 초안을 자동 생성하는 워크플로가 공개됐다.",
+        "points": [
+          "주간 단위 KEV 신규 항목 수집",
+          "Sysmon EventID·MITRE ATT&CK 매핑 포함 시그마 룰 생성",
+          "결과를 구글 시트에 기록"
+        ],
+        "why": [
+          "소규모 보안팀의 탐지 커버리지 공백을 메우는 실용적 접근",
+          "자동 생성 룰의 검증 절차는 여전히 필요"
+        ]
+      }
+    },
+    {
+      "id": "infosec-cisa-sbom-baseline",
+      "title": "CISA, SBOM 최소 요소 기준 개정",
+      "summary": "CISA가 SBOM 최소 요소를 갱신해 컴포넌트 해시 알고리즘, 라이선스, 도구명, 생성 컨텍스트를 새로 포함시켰다. 향후 중점은 클라우드 소프트웨어, AI, SBOM 검증, 보안 경보와의 연계다.",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/07/30/cisa-sbom-guidance-updated/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "SBOM이 '목록'에서 '검증 가능한 증적'으로 이동 중이다.",
+        "what": "CISA가 SBOM 최소 요소 문서를 개정해 무결성 검증과 생성 맥락 정보를 요구 항목에 추가했다.",
+        "points": [
+          "컴포넌트 해시 알고리즘 명시 요구",
+          "라이선스·생성 도구명·생성 컨텍스트 추가",
+          "향후 클라우드·AI 소프트웨어 및 SBOM 검증으로 확장 예고"
+        ],
+        "why": [
+          "공급망 보안 요건이 조달 계약에 반영되는 속도가 빨라짐",
+          "SBOM을 보안 경보와 연결하려면 해시 기반 식별이 전제"
+        ]
+      }
+    },
+    {
+      "id": "infosec-anthropic-cryptanalysis-notes",
+      "title": "앤트로픽 암호분석 결과에 대한 몇 가지 소견",
+      "summary": "앤트로픽의 미공개 미토스 모델이 양자내성 후보 HAWK와 AES 변형에 대한 공격을 찾아냈다. HAWK 공격은 진짜 새로웠지만 유효 강도를 절반으로 줄이는 수준이었고, AES 공격은 2013년 이론 결과에 소폭 최적화를 더한 것에 가깝다는 평가다.",
+      "source": "Cryptography Engineering",
+      "url": "https://blog.cryptographyengineering.com/2026/07/29/some-notes-about-anthropics-new-results/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-29",
+      "report": {
+        "tldr": "AI 암호분석 성과는 실재하지만 헤드라인만큼 극적이지는 않다.",
+        "what": "암호학자 매튜 그린이 앤트로픽의 AI 암호분석 결과를 항목별로 검증하고 신규성 수준을 평가했다.",
+        "points": [
+          "HAWK 공격은 새로운 결과이나 강도를 절반으로 줄이는 수준",
+          "AES 변형 공격은 2013년 기존 결과의 소폭 개선에 가까움",
+          "미공개 미토스 모델이 수행, 인간 검증 병행"
+        ],
+        "why": [
+          "AI의 암호분석 능력 평가에서 '새로움'과 '위협'을 구분해야 함",
+          "PQC 후보 선정 과정에 AI 검증을 넣는 논의로 이어질 사안"
+        ]
+      }
+    },
+    {
+      "id": "infosec-linux-xmrig-pam",
+      "title": "리눅스 XMRig 봇넷, PAM 악용해 파일리스 모네로 채굴",
+      "summary": "Generation 26 캠페인이 PAM의 pam_rootok 정책을 무기화해 계정 간 무암호 이동을 하고 악성 활동을 그림자 계정들로 분산시켰다. 커스텀 XMRig 바이너리는 실행 후 자기 자신을 삭제해 메모리에서만 동작하며 로그를 억제했다.",
+      "source": "GB Hackers",
+      "url": "https://gbhackers.com/linux-xmrig-botnet/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "PAM 설정 하나가 리눅스 전체의 계정 경계를 무력화했다.",
+        "what": "리눅스 암호화폐 채굴 봇넷이 PAM의 pam_rootok 정책을 이용해 인증 없이 계정 간 이동하며 파일리스로 지속성을 확보했다.",
+        "points": [
+          "pam_rootok 정책 악용으로 무암호 계정 전환",
+          "활동을 여러 그림자 계정으로 분산해 탐지 회피",
+          "실행 후 자기 삭제(self-unlink)로 파일리스 동작",
+          "로그 억제 기능 내장"
+        ],
+        "why": [
+          "채굴 봇넷의 기법이 APT 수준으로 정교해지는 추세",
+          "PAM 설정 감사가 리눅스 하드닝의 실질 항목임을 보여줌"
+        ],
+        "action": "pam_rootok 사용 여부 및 su/sudo PAM 스택 감사"
+      }
+    },
+    {
+      "id": "infosec-lazarus-gunra-tooling",
+      "title": "북한 라자루스, 랜섬웨어 조직과 도구 공유 — 한국 기관 경고",
+      "summary": "안랩의 '오퍼레이션 더블 배럴' 보고서가 라자루스와 군라 랜섬웨어 그룹이 동일한 취약점, 악성코드 파일명, C2 서버, SSH 키를 공유하며 한국을 상대로 첩보와 갈취 캠페인을 병행했다고 밝혔다.",
+      "source": "The Record",
+      "url": "https://therecord.media/north-korea-hackers-ransomware?utm_source=tldrinfosec",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "국가 첩보 조직과 랜섬웨어 조직의 인프라가 겹치고 있다.",
+        "what": "안랩이 라자루스 그룹과 군라 랜섬웨어 조직 간의 도구·인프라 공유 정황을 문서화했다.",
+        "points": [
+          "동일 취약점·악성코드 파일명·C2 서버·SSH 키 공유 확인",
+          "첩보 캠페인과 갈취 캠페인이 병렬 진행",
+          "한국 내 조직들이 주요 표적"
+        ],
+        "why": [
+          "귀속 판단이 어려워지고 대응 우선순위 설정이 복잡해짐",
+          "국내 조직에 직접적인 위협 인텔"
+        ]
+      }
+    },
+    {
+      "id": "infosec-chrome-twice-weekly-patching",
+      "title": "AI 버그 헌팅 때문에 크롬은 주 2회 패치가 필요해졌다",
+      "summary": "구글 크롬 팀이 6월 두 개의 메이저 릴리스에서 1,072건의 버그를 수정했다. 직전 23개 릴리스를 합친 것보다 많으며, AI 지원 취약점 탐지가 주된 동인이다.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/chrome-needs-twice-a-week-patching-thanks-to-ai-bug-hunting-for-now/?utm_source=tldrinfosec",
+      "originalDate": "2026-07-30",
+      "report": {
+        "tldr": "취약점 발견 속도가 패치 배포 속도를 추월했다.",
+        "what": "AI 기반 퍼징·코드 분석이 크롬의 버그 발견량을 폭증시키면서 릴리스 주기 자체를 바꾸고 있다.",
+        "points": [
+          "두 릴리스에서 1,072건 수정 — 직전 23개 릴리스 합계 초과",
+          "AI 지원 취약점 탐지가 주요 원인",
+          "주 2회 패치 체제 검토"
+        ],
+        "why": [
+          "방어 측이 AI로 얻은 이득이 수치로 확인된 드문 사례",
+          "패치 관리 조직의 처리량이 새로운 병목이 됨"
+        ]
+      }
+    }
+  ]
+}
