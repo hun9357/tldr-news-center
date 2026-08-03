@@ -1,0 +1,280 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-uk-education-police-ransomware-breach",
+      "title": "영국 교육부와 경찰 데이터베이스, 신종 랜섬웨어 조직에 해킹당해",
+      "summary": "새로운 랜섬웨어 조직이 영국 교육부와 경찰 지원 데이터베이스를 해킹해 74만 건에 달하는 개인정보를 탈취했다.",
+      "source": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/jul/29/department-for-education-police-hackers-cybercrime",
+      "report": {
+        "tldr": "신종 랜섬웨어 조직이 영국 교육부와 경찰 데이터베이스를 해킹해 74만 건의 데이터를 탈취했다.",
+        "what": "영국 교육부(DfE)와 경찰에 법률 지원을 제공하는 데이터베이스가 새로운 랜섬웨어 조직에 의해 침해당했다. 교육부 데이터는 헬프데스크 포털을 통해 유출되었으며 직원과 학부모의 실명, 이메일 주소, 전화번호, 직책 등이 포함되어 있다. 경찰 데이터베이스에서는 담당 경찰 조직명과 업무용 이메일 주소 등이 유출되었다.",
+        "points": [
+          "탈취된 데이터는 총 74만 건에 달함",
+          "교육부 데이터는 헬프데스크 포털에서 유출",
+          "유출 정보에는 실명, 이메일, 전화번호, 직책 포함",
+          "경찰 데이터베이스는 영국 경찰에 법률 지원을 제공하는 시스템"
+        ],
+        "why": [
+          "정부 기관과 치안 시스템까지 랜섬웨어 공격 대상이 되고 있음을 보여줌",
+          "헬프데스크 등 서드파티 포털이 공급망 공격의 취약점이 될 수 있음"
+        ],
+        "action": "조직은 헬프데스크·지원 포털 등 외부 접점 시스템에 대한 접근 통제와 로그 모니터링을 강화해야 한다."
+      }
+    },
+    {
+      "id": "infosec-amgen-cloud-data-breach",
+      "title": "암젠, 클라우드 데이터 유출로 환자 건강정보와 독점정보 노출",
+      "summary": "제약사 암젠이 서드파티 클라우드 제공업체를 통한 공격으로 환자 건강정보(PHI)와 독점 정보가 유출됐다고 밝혔다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/",
+      "report": {
+        "tldr": "암젠이 서드파티 클라우드 공급업체를 통한 공격으로 환자 건강정보와 독점 정보가 유출됐다고 발표했다.",
+        "what": "제약회사 암젠은 공격자가 서드파티 클라우드 제공업체를 통해 데이터를 탈취하는 침해를 당했다고 밝혔다. 유출된 데이터에는 독점 정보와 환자의 보호대상 건강정보(PHI)가 포함된다. 암젠은 추가로 탈취된 데이터가 있는지는 아직 확인하지 못했다고 밝혔다.",
+        "points": [
+          "공격 경로는 서드파티 클라우드 제공업체",
+          "유출 데이터에 환자 PHI와 회사 독점 정보 포함",
+          "추가 피해 규모는 아직 조사 중"
+        ],
+        "why": [
+          "제약 산업의 민감한 환자 데이터가 공급망을 통해 유출될 수 있음을 보여줌",
+          "서드파티 벤더 리스크 관리의 중요성 재확인"
+        ],
+        "action": "서드파티 클라우드 벤더와의 데이터 접근 권한을 재검토하고 이상 징후 모니터링을 강화해야 한다."
+      }
+    },
+    {
+      "id": "infosec-rails-activestorage-rce-flaw",
+      "title": "루비 온 레일즈, 원격 코드 실행 가능한 액티브스토리지 치명적 취약점 패치",
+      "summary": "레일즈가 libvips 사용 환경에서 마스터 키 탈취와 원격 코드 실행(RCE)으로 이어질 수 있는 액티브스토리지 취약점 CVE-2026-66066을 긴급 패치했다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/",
+      "report": {
+        "tldr": "치명도 '심각(Critical)' 등급의 레일즈 액티브스토리지 취약점(CVE-2026-66066)이 임의 파일 읽기를 거쳐 원격 코드 실행으로 이어질 수 있어 긴급 패치가 나왔다.",
+        "what": "레일즈 유지관리팀이 액티브스토리지의 CVE-2026-66066 취약점에 대한 보안 권고를 발표했다. 이 취약점은 서버가 이미지 처리에 libvips를 사용하고 신뢰할 수 없는 사용자의 이미지 업로드를 허용할 때 악용 가능하며, 공격자가 특수 제작한 이미지를 업로드해 서버의 임의 파일을 읽어낼 수 있다. 이를 통해 'secret_key_base'(레일즈 마스터 키)와 데이터베이스·클라우드 스토리지 자격 증명 등 프로세스 환경변수 전체가 노출될 수 있다. 보안업체 Akamai는 이 공격 체인을 'KindaRails2Shell'로 명명하고, 마스터 키가 탈취되면 세션 쿠키 위조, 글로벌 ID 서명, 직렬화 데이터 조작이 가능해져 곧바로 완전한 원격 코드 실행(RCE)으로 이어진다고 경고했다. 영향 범위는 8.0.5.1 이전 8.0.x, 8.1.3.1 이전 8.1.x, 7.2.3.2 이전 버전이며, libvips는 레일즈 공식 도커 이미지와 데비안·우분투 환경의 기본 프로세서라 파급력이 크다. 레일즈팀은 공개 PoC가 빠르게 유포되자 예정보다 앞서 기술 세부사항과 포렌식 조사 도구를 공개했다.",
+        "points": [
+          "CVE-2026-66066, 심각(Critical) 등급, libvips 사용 시 임의 파일 읽기 가능",
+          "탈취 가능 정보: secret_key_base(마스터 키), DB·클라우드 스토리지 자격 증명",
+          "Akamai는 이 공격 체인을 'KindaRails2Shell'로 명명, RCE 가능성 경고",
+          "영향 버전: 8.0.5.1/8.1.3.1/7.2.3.2 이전 버전, 레일즈 6.x는 기본 설정 밖에서 구성한 경우만 해당",
+          "libvips는 레일즈 공식 도커 이미지·데비안·우분투의 기본 이미지 프로세서",
+          "PoC가 빠르게 유포되어 계획보다 앞당겨 기술 세부사항과 포렌식 도구 공개"
+        ],
+        "why": [
+          "레일즈는 매우 널리 쓰이는 웹 프레임워크라 잠재적 영향 범위가 넓음",
+          "마스터 키 탈취는 세션 위조·데이터 조작을 거쳐 완전한 서버 장악으로 이어질 수 있음"
+        ],
+        "context": "Ethiack과 GMO Flatt Security 연구진이 책임 있게 최초 보고했으며, 원래 8월 28일 공개 예정이었으나 PoC 유포로 조기 공개됐다.",
+        "action": "libvips를 8.13 이상으로 업그레이드하고, secret_key_base와 데이터베이스·액티브스토리지 서비스 자격 증명을 즉시 로테이션해야 한다. libvips 8.13 이상에서는 VIPS_BLOCK_UNTRUSTED 환경변수 설정이나 ruby-vips 2.2.1의 Vips.block_untrusted(true) 호출로 임시 대응할 수 있으며, 8.13 미만에서는 별도 우회책이 없다."
+      }
+    },
+    {
+      "id": "infosec-tencent-ace-vm-devirtualization",
+      "title": "백 엔지니어링, 텐센트 ACE 안티치트 가상머신 정적 역가상화 분석 공개",
+      "summary": "보안 연구팀이 텐센트 ACE 안티치트의 가상머신 난독화를 정적으로 역가상화해 865개 함수 중 94.2%를 네이티브 코드로 복원했다.",
+      "source": "Back Engineering Labs",
+      "url": "https://back.engineering/blog/31/07/2026/",
+      "report": {
+        "tldr": "Back Engineering Labs가 텐센트 ACE 안티치트 VM 난독화를 정적으로 역가상화하는 기법을 공개했다.",
+        "what": "Back Engineering Labs는 텐센트의 ACE 안티치트 가상머신 난독화에 대한 기술적 역가상화 결과를 발표했다. 이들은 .tvm 디스패처가 CET 섀도 스택과 SEH/언와인드 시맨틱을 박스형 네이티브 명령어, RDSSPQ/INCSSPQ 균형 조정, 팬텀 언와인드 정보를 통해 어떻게 보존하는지 설명했으며, 유도된 심볼릭 실행을 통해 가상화된 함수를 네이티브 코드로 재컴파일하는 방법을 소개했다.",
+        "points": [
+          "ACE 커널 드라이버 4개에서 865개 가상화 함수 중 815개(94.2%) 복원",
+          "독립 검증을 위한 제3자 참여 제안",
+          "범위 기반 for 루프에서 무한 루프 오류가 발생하는 한계점 존재"
+        ],
+        "why": [
+          "안티치트 시스템의 보호 메커니즘을 이해하는 데 중요한 리버스 엔지니어링 사례"
+        ],
+        "context": "이 연구는 게임 안티치트 소프트웨어의 가상머신 기반 난독화 기법을 분석하는 심화 기술 리포트다."
+      }
+    },
+    {
+      "id": "infosec-fake-claude-install-guide-macsync-stealer",
+      "title": "가짜 클로드 설치 가이드로 유포되는 맥싱크 스틸러와 RAT, 공격자 서버 내부 공개",
+      "summary": "헌트리스가 가짜 클로드 설치 안내로 위장한 악성 광고 캠페인을 추적해 맥OS를 노리는 6단계 공격 체인과 공격자 서버 내부를 공개했다.",
+      "source": "Huntress",
+      "url": "https://www.huntress.com/blog/macsync-stealer-rat-reverse-engineering",
+      "report": {
+        "tldr": "헌트리스가 가짜 클로드 설치 가이드로 위장한 맥OS 악성코드 유포 체인과 공격자 인프라를 상세히 분석했다.",
+        "what": "헌트리스는 오염된 구글 광고에서 시작해 위조된 claude.ai/share 페이지를 거쳐 curl|zsh 로더로 이어지는 악성 광고 캠페인을 추적했다. 이 공격은 전체 디스크 접근 권한과 계정 비밀번호를 피싱한 뒤 네이티브 Mach-O 형태의 RAT, 서명된 화면 녹화 헬퍼, 그리고 BIP39 복구 문구를 노리도록 변조된 렛저·트레저 지갑 앱을 설치하는 6단계 맥OS 공격 체인으로 전개된다.",
+        "points": [
+          "오염된 구글 광고에서 시작해 가짜 claude.ai/share 페이지로 유인",
+          "curl을 zsh에 파이핑하는 로더로 6단계 맥OS 공격 체인 전개",
+          "전체 디스크 접근 권한과 계정 비밀번호 피싱 후 RAT 설치",
+          "렛저·트레저 지갑 앱을 변조해 BIP39 복구 문구 탈취 시도",
+          "AMOS/Atomic Stealer 계열과 기법상 유사성 확인"
+        ],
+        "why": [
+          "신뢰받는 AI 도구 브랜드를 사칭한 공격이 늘고 있음을 보여줌",
+          "암호화폐 지갑을 겨냥한 표적형 피싱 기법이 정교해지고 있음"
+        ],
+        "action": "curl -k를 zsh에 파이핑하는 명령, com.apple.* 런치에이전트와 ~/.local/.mpwd 파일 조합, ElectronAsarIntegrity 해시 불일치 등의 행위 기반 탐지를 적용해야 한다."
+      }
+    },
+    {
+      "id": "infosec-impacket-atexec-pentester-walkthrough",
+      "title": "임팩킷 atexec 모듈로 살펴보는 윈도우 태스크 스케줄러 공격 체인",
+      "summary": "이 글은 임팩킷의 atexec 모듈을 이용해 SMB를 통한 윈도우 태스크 스케줄러 남용 공격 전반을 실습 형태로 설명한다.",
+      "source": "Hacking Articles",
+      "url": "https://www.hackingarticles.in/impacket-for-pentester-atexec/",
+      "report": {
+        "tldr": "임팩킷 atexec 모듈을 활용한 윈도우 태스크 스케줄러(ATSVC/TSCH) 공격 기법을 단계별로 설명하는 실무 가이드다.",
+        "what": "이 글은 임팩킷의 atexec 모듈이 SMB를 통해 윈도우 태스크 스케줄러(ATSVC/TSCH)를 악용하는 전체 과정을 다룬다. 평문 인증, Pass-the-Hash, Pass-the-Ticket, Pass-the-Key 방식의 실행을 시연하고, Base64 인코딩된 파워셸 페이로드로 대화형 리버스 셸을 획득하는 과정을 보여준다.",
+        "points": [
+          "SMB 기반 윈도우 태스크 스케줄러(ATSVC/TSCH) 남용 기법 시연",
+          "평문, Pass-the-Hash, Pass-the-Ticket, Pass-the-Key 인증 방식 모두 다룸",
+          "Base64 인코딩 파워셸 페이로드로 대화형 리버스 셸 획득"
+        ],
+        "why": [
+          "블루팀 관점에서 실전 탐지 포인트를 함께 제공"
+        ],
+        "action": "태스크 스케줄러 관련 SMB 트래픽과 비정상적인 인증 방식(PtH/PtT/PtK)에 대한 탐지 규칙을 점검해야 한다."
+      }
+    },
+    {
+      "id": "infosec-google-sandbox-attacksurface-analysis-tools",
+      "title": "구글 프로젝트 제로, 윈도우 샌드박스 공격 표면 분석 도구 모음 공개",
+      "summary": "구글 프로젝트 제로가 윈도우 샌드박스의 노출된 공격 표면을 분석하기 위한 도구 모음을 깃허브에 공개했다.",
+      "source": "GitHub",
+      "url": "https://github.com/googleprojectzero/sandbox-attacksurface-analysis-tools",
+      "report": {
+        "tldr": "구글 프로젝트 제로가 윈도우 샌드박스 공격 표면 분석 도구 모음을 오픈소스로 공개했다.",
+        "what": "이 깃허브 저장소는 구글 프로젝트 제로가 만든 도구 모음으로, 윈도우 샌드박스에서 노출될 수 있는 공격 표면을 분석하는 데 사용된다.",
+        "points": [
+          "구글 프로젝트 제로가 개발 및 공개",
+          "윈도우 샌드박스 환경의 노출된 공격 표면 분석에 특화"
+        ],
+        "why": [
+          "샌드박스 탈출 취약점 연구에 유용한 오픈소스 도구"
+        ]
+      }
+    },
+    {
+      "id": "infosec-furtex-linux-postexploitation-toolkit",
+      "title": "퍼텍스, io_uring과 eBPF 기반 리눅스 사후 침투·회피 연구 툴킷 공개",
+      "summary": "퍼텍스는 io_uring과 eBPF를 활용해 만든 리눅스용 사후 침투 및 탐지 회피 연구 툴킷이다.",
+      "source": "GitHub",
+      "url": "https://github.com/MatheuZSecurity/Furtex",
+      "report": {
+        "tldr": "io_uring과 eBPF 기반의 리눅스 사후 침투·회피 연구 툴킷 퍼텍스가 깃허브에 공개됐다.",
+        "what": "퍼텍스는 리눅스 환경을 대상으로 한 사후 침투 및 탐지 회피 연구를 위한 툴킷으로, io_uring과 eBPF 기술을 기반으로 구축되었다.",
+        "points": [
+          "io_uring과 eBPF 기반으로 구축된 리눅스 전용 툴킷",
+          "사후 침투(post-exploitation)와 탐지 회피(evasion) 연구 목적"
+        ],
+        "why": [
+          "최신 리눅스 커널 기능을 악용한 회피 기법 연구에 참고할 수 있는 자료"
+        ]
+      }
+    },
+    {
+      "id": "infosec-inside-the-falcon-crowdstrike-detection",
+      "title": "크라우드스트라이크 팰컨 센서 내부 구조를 파헤친 리버스 엔지니어링 분석",
+      "summary": "한 리버스 엔지니어링 분석이 크라우드스트라이크 csagent.sys의 탐지 구조 전반을 매핑하고 2024년 크라우드스트라이크 대란의 원인도 함께 짚었다.",
+      "source": "0xdbgman Blog",
+      "url": "https://0xdbgman.github.io/posts/inside-the-falcon-how-crowdstrike-catches-you/",
+      "report": {
+        "tldr": "크라우드스트라이크 센서(csagent.sys)의 탐지 구조를 심층 리버스 엔지니어링한 분석 글이다.",
+        "what": "이 리버스 엔지니어링 분석은 csagent.sys의 전체 탐지 표면을 매핑했다. 6가지 커널 콜백 소스, TCP 리셋을 주입해 C2 트래픽을 차단할 수 있는 WFP 네트워크 엔진, 12개의 IRP 메이저를 후킹하는 FLTMGR 미니필터를 확인했다. 탐지 오브젝트는 드라이버에 컴파일되어 있지 않고 클라우드에서 푸시되는 채널 파일로부터 런타임에 로드된다는 점도 밝혀졌다. 저자는 이 구조를 2024년 7월 크라우드스트라이크 대란과 연결지어, 당시 사고가 센서 바이너리의 코드 결함이 아닌 잘못된 채널 파일 오브젝트 때문이었다고 분석했다.",
+        "points": [
+          "프로세스·스레드·이미지·오브젝트·레지스트리·파일 등 6가지 커널 콜백 소스 확인",
+          "TCP 리셋 주입이 가능한 WFP 기반 네트워크 엔진 보유",
+          "탐지 로직은 클라우드에서 푸시되는 채널 파일로 런타임 로드",
+          "2024년 크라우드스트라이크 대란 원인을 채널 파일 오브젝트 결함으로 재해석"
+        ],
+        "why": [
+          "대형 EDR 제품의 내부 구조를 이해하는 데 중요한 자료",
+          "클라우드 기반 탐지 콘텐츠 배포 구조의 리스크를 재조명"
+        ]
+      }
+    },
+    {
+      "id": "infosec-trufflehog-huggingface-secrets-scan",
+      "title": "허깅페이스 학습 데이터 7.6페타바이트 전수 스캔에서 22만 건 넘는 활성 시크릿 발견",
+      "summary": "트러플시큐리티가 허깅페이스의 공개 데이터셋 7.6페타바이트를 스캔해 22만 건 이상의 활성 자격 증명을 발견했다.",
+      "source": "Truffle Security",
+      "url": "https://trufflesecurity.com/blog/scanning-7-6-petabytes-of-ai-training-data-for-secrets",
+      "report": {
+        "tldr": "트러플시큐리티가 허깅페이스 공개 데이터셋 전체를 스캔해 22만 건 이상의 살아있는 자격 증명을 발견했다.",
+        "what": "트러플시큐리티는 트러플호그를 이용해 허깅페이스의 공개 데이터셋 전체(7.6페타바이트, 1억 8,700만 개 파일)를 스캔했다. 그 결과 6,003개 데이터셋에서 22만 1,303건의 고유한 활성 자격 증명을 발견했으며, 깃허브 PAT 349건, 도커허브 토큰 318건, GCP 서비스 계정 키 8,557건, DB 로그인 정보 8,594건, 오픈AI 키 742건과 앤트로픽 키 26건이 포함된다.",
+        "points": [
+          "스캔 규모: 7.6페타바이트, 1억 8,700만 개 파일, 트러플호그 사용",
+          "6,003개 데이터셋에서 22만 1,303건의 고유 활성 자격 증명 발견",
+          "깃허브 PAT 349건, 도커허브 토큰 318건, GCP 키 8,557건, DB 로그인 8,594건 포함",
+          "오픈AI 키 742건, 앤트로픽 키 26건으로 연간 92만 달러 이상 추론 어뷰징 위험 추산",
+          "유출 시크릿의 44%가 The Stack, Common Crawl 등 여러 데이터셋에 중복 존재"
+        ],
+        "why": [
+          "AI 학습 데이터셋이 대규모 시크릿 유출의 새로운 경로가 될 수 있음을 실증",
+          "웹 스크래핑 코퍼스를 통한 시크릿 확산이 생각보다 광범위함을 보여줌"
+        ],
+        "action": "공개 전이나 모델 학습 전에 데이터 코퍼스를 시크릿 스캔하고, 공개적으로 노출된 키는 즉시 폐기(burned) 처리해야 한다."
+      }
+    },
+    {
+      "id": "infosec-digicert-pqc-readiness-outlook-2026",
+      "title": "기업 87%가 양자내성암호 추진 중이지만 실제 도입은 7%에 그쳐",
+      "summary": "디지서트의 2차 연례 조사에서 조직 대부분이 양자내성암호(PQC)를 계획 중이지만 실제 배포율은 여전히 낮은 것으로 나타났다.",
+      "source": "PostQuantum.com",
+      "url": "https://postquantum.com/security-pqc/digicert-quantum-readiness-outlook-2026/",
+      "report": {
+        "tldr": "디지서트 조사에서 기업 87%가 PQC를 추진 중이지만 실제 대규모 배포율은 7%에 불과한 것으로 나타났다.",
+        "what": "디지서트의 2차 연례 양자 준비 전망 조사는 미국, 영국, 호주의 IT 및 보안 의사결정권자 1,001명을 대상으로 진행됐다. 87%의 조직이 PQC를 계획·테스트·구현 중이었지만, 실제로 양자 내성 또는 하이브리드 인증서를 대규모로 배포한 곳은 7%에 불과했다. 이는 1년 전 5%에서 2%포인트도 채 오르지 않은 수치다.",
+        "points": [
+          "미국·영국·호주 IT/보안 의사결정권자 1,001명 대상 조사",
+          "87%가 PQC를 계획·테스트·구현 중",
+          "대규모 배포율은 7%로 전년 5%에서 소폭 상승에 그침",
+          "장벽은 레거시 복잡성, 성능, 예산 문제로 파악됨"
+        ],
+        "why": [
+          "양자 컴퓨팅 위협에 대비한 실제 실행 격차를 보여주는 지표"
+        ],
+        "action": "조직은 PQC 계획 수립을 넘어 실제 인증서 전환과 하이브리드 배포를 앞당길 실행 로드맵을 마련해야 한다."
+      }
+    },
+    {
+      "id": "infosec-arch-linux-aur-adoption-suspended",
+      "title": "아치 리눅스, 악성 커밋 캠페인 차단 위해 AUR 패키지 소유권 이전 중단",
+      "summary": "아치 리눅스가 공격자들이 방치된 패키지를 인수해 악성 커밋을 올리는 캠페인에 대응해 AUR 패키지 소유권 이전 기능을 전면 중단했다.",
+      "source": "GBHackers",
+      "url": "https://gbhackers.com/arch-linux-suspends-aur-package-adoptions/",
+      "report": {
+        "tldr": "아치 리눅스가 방치된 AUR 패키지를 인수해 악성 코드를 심는 공격 캠페인에 대응해 패키지 소유권 이전 기능을 중단했다.",
+        "what": "아치 리눅스 데브옵스 팀은 공격자들이 방치되거나 관리되지 않는 패키지를 체계적으로 인수한 뒤 makepkg 실행 시 페이로드를 실행하는 악성 PKGBUILD 커밋을 올리는 사건이 발생하자, 7월 30일 플랫폼 전역에서 AUR 패키지 소유권 이전 기능을 비활성화했다.",
+        "points": [
+          "공격자들이 방치된 AUR 패키지를 체계적으로 인수",
+          "악성 PKGBUILD 커밋은 makepkg 실행 시 페이로드 실행",
+          "아치 리눅스가 7월 30일부로 패키지 소유권 이전 기능 전면 중단"
+        ],
+        "why": [
+          "커뮤니티 기반 패키지 저장소가 공급망 공격의 표적이 될 수 있음을 보여줌"
+        ],
+        "action": "AUR 패키지를 사용하는 사용자는 설치 전 PKGBUILD 내용을 반드시 검토해야 한다."
+      }
+    },
+    {
+      "id": "infosec-singapore-ai-cyber-risk-taskforce",
+      "title": "싱가포르, 금융권 사이버 회복력 강화 위해 AI 사이버 리스크 태스크포스 출범",
+      "summary": "싱가포르 통화청과 은행협회가 금융권의 AI 위협 대응력을 높이기 위해 AI 기반 사이버·기술 리스크 태스크포스(ACT)를 출범시켰다.",
+      "source": "Crowdfund Insider",
+      "url": "https://www.crowdfundinsider.com/2026/08/294588-singapore-launches-ai-cyber-risk-taskforce-to-bolster-financial-sector-resilience/",
+      "report": {
+        "tldr": "싱가포르 MAS와 은행협회가 DBS, OCBC, UOB 등과 함께 AI 위협 정보를 공유하는 사이버 리스크 태스크포스를 출범했다.",
+        "what": "싱가포르 통화청(MAS)과 싱가포르 은행협회는 AI 기반 사이버·기술 리스크 태스크포스(ACT)를 출범시켰다. DBS, OCBC, UOB, SGX, NETS, BCS가 지난 5월부터 참여해 AI 위협 정보를 공유하고, AI 기반 방어 도구의 개념 증명(PoC) 시험을 진행하며, 프런티어 AI 기반 공격에 대응하는 업계 가이드라인을 개발하고 있다.",
+        "points": [
+          "MAS와 싱가포르 은행협회가 공동 주도",
+          "DBS, OCBC, UOB, SGX, NETS, BCS 등이 5월부터 참여",
+          "AI 위협 정보 공유 및 방어 도구 PoC 시험 진행"
+        ],
+        "why": [
+          "금융권이 AI 기반 사이버 위협에 선제적으로 대응하려는 움직임을 보여줌"
+        ]
+      }
+    }
+  ]
+}

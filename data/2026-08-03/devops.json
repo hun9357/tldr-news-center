@@ -1,0 +1,247 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-terraform-azurerm-provider-5-0-ga",
+      "title": "테라폼 AzureRM 프로바이더 5.0, 정식 출시",
+      "summary": "HashiCorp가 테라폼 AzureRM 프로바이더 5.0을 정식 출시하며 애저 구독 제어와 사전 검증 기능을 강화했다.",
+      "source": "HashiCorp Blog",
+      "url": "https://www.hashicorp.com/en/blog/terraform-azurerm-provider-50-now-generally-available",
+      "report": {
+        "tldr": "테라폼 AzureRM 프로바이더 5.0이 정식 출시되며 애저 구독 제어 개선과 신규 검증 옵션이 추가됐다.",
+        "what": "HashiCorp가 테라폼 AzureRM 프로바이더 5.0을 정식 출시했다. 이번 메이저 릴리스는 애저 구독 제어 기능을 개선하고, 선택적으로 활성화할 수 있는 사전 검증(프리플라이트) 기능을 도입했다. 검증 기본값이 업데이트되고 더 이상 사용되지 않는 리소스와 속성이 제거됐다.",
+        "points": [
+          "애저 구독 제어 기능 개선",
+          "옵트인 방식의 프리플라이트 검증 도입",
+          "지원 종료된 리소스 및 속성 제거"
+        ],
+        "why": [
+          "인프라 코드형(IaC) 워크플로우의 안정성과 피드백 품질 향상",
+          "메이저 버전업이므로 업그레이드 전 구성 검토 필요"
+        ]
+      }
+    },
+    {
+      "id": "devops-kubernetes-1-37-sneak-peek",
+      "title": "쿠버네티스 1.37, 8월 26일 출시 예정...kube-proxy ipvs 모드 폐기",
+      "summary": "쿠버네티스 v1.37이 8월 26일 출시를 앞두고 kube-proxy의 ipvs 모드 폐기, 정적 파드의 시크릿/컨피그맵 참조 제한 등 다수의 변경사항을 예고했다.",
+      "source": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/07/31/kubernetes-v1-37-sneak-peek/",
+      "report": {
+        "tldr": "쿠버네티스 v1.37은 ipvs 모드 폐기, metrics.k8s.io API 정식 승격 등 여러 주요 변경을 담아 8월 26일 출시된다.",
+        "what": "쿠버네티스 v1.37이 8월 26일 출시를 목표로 하고 있으며, kube-proxy의 ipvs 모드가 폐기 예정으로 지정되어 해당 모드를 쓰는 클러스터는 시작 시 폐기 경고 로그를 남기게 된다. 정적 파드는 더 이상 API 필드를 통해 시크릿이나 컨피그맵을 참조할 수 없게 된다. 약 9년간 베타였던 metrics.k8s.io API가 정식(stable) 버전으로 승격되고, 루트리스 모드의 kubelet 사용자 네임스페이스 기능이 베타로 전환된다.",
+        "points": [
+          "kube-proxy ipvs 모드 폐기, 시작 시 경고 로그 출력",
+          "정적 파드의 시크릿/컨피그맵 API 필드 참조 차단",
+          "metrics.k8s.io API 9년만에 정식(stable) 승격",
+          "kubelet 루트리스 모드(User Namespace) 베타 전환",
+          "cgroup v1 지원 단계적 폐지 계속"
+        ],
+        "why": [
+          "ipvs 모드를 사용하는 클러스터 운영자는 마이그레이션 계획 필요",
+          "루트리스 모드 확대로 노드 보안성 향상 기대"
+        ]
+      }
+    },
+    {
+      "id": "devops-powershell-modules-azure-artifacts",
+      "title": "애저 아티팩트로 엔터프라이즈 파워셸 모듈 배포하기",
+      "summary": "PSResourceGet과 애저 데브옵스 파이프라인을 활용해 프라이빗 애저 아티팩트 피드로 엔터프라이즈용 파워셸 모듈을 배포하는 방법을 소개했다.",
+      "source": "Adam the Automator",
+      "url": "https://adamtheautomator.com/deploy-enterprise-powershell-modules-using-azure/",
+      "report": {
+        "tldr": "PSResourceGet과 애저 데브옵스 파이프라인으로 프라이빗 파워셸 모듈 피드를 구축하는 방법을 다룬 글이다.",
+        "what": "이 글은 PSResourceGet을 이용해 프라이빗 애저 아티팩트 피드로 엔터프라이즈 파워셸 모듈을 배포하는 방법을 설명한다. 애저 데브옵스 파이프라인이 GitVersion 기반의 시맨틱 버저닝을 처리하고, Key Vault를 통한 코드 서명과 JEA로 권한이 있는 런타임 접근을 제한하는 구조를 다룬다.",
+        "points": [
+          "PSResourceGet으로 프라이빗 모듈 피드 구성",
+          "GitVersion 기반 시맨틱 버저닝 자동화",
+          "Key Vault를 이용한 코드 서명",
+          "JEA로 특권 런타임 접근 제한"
+        ],
+        "why": [
+          "엔터프라이즈 환경에서 파워셸 모듈 배포 보안과 버전 관리를 체계화할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "devops-keda-sqs-queue-depth-scaling",
+      "title": "KEDA로 아마존 SQS 큐 깊이 기반 쿠버네티스 파드 스케일링",
+      "summary": "CPU나 메모리 대신 SQS 큐에 쌓인 메시지 수를 기준으로 KEDA가 쿠버네티스 워커 파드를 스케일링하는 방법을 소개했다.",
+      "source": "CNCF Blog",
+      "url": "https://www.cncf.io/blog/2026/07/31/scaling-kubernetes-pods-with-keda-based-on-amazon-sqs-queue-depth/",
+      "report": {
+        "tldr": "KEDA를 이용해 SQS 큐 깊이를 기준으로 쿠버네티스 워커 파드를 0까지 스케일링하는 방법을 설명한 글이다.",
+        "what": "큐 기반 시스템에서는 대기 중인 메시지 수가 인프라 사용률보다 더 정확한 수요 신호라는 전제 하에, KEDA로 아마존 SQS 큐 깊이에 따라 쿠버네티스 워커 파드를 스케일링하는 방법을 설명한다. KEDA는 대기 메시지 수를 파드당 목표치로 나누어 필요한 레플리카 수를 계산하며, 큐가 비어 있을 때는 배포를 0개까지 줄일 수 있다.",
+        "points": [
+          "CPU/메모리 대신 SQS 큐 메시지 수를 스케일링 신호로 사용",
+          "대기 메시지 수 ÷ 파드당 목표치로 필요 레플리카 계산",
+          "큐가 비면 워커 파드를 0개로 축소 가능"
+        ],
+        "why": [
+          "큐 기반 워크로드에서 더 정확한 오토스케일링과 비용 절감 가능"
+        ]
+      }
+    },
+    {
+      "id": "devops-speed-over-intelligence-ai-models",
+      "title": "AI 모델, 이제 '똑똑함'보다 '속도'가 더 중요해지는 시점",
+      "summary": "코딩·리서치·분석 등 일상적 작업에 충분한 성능을 갖춘 이후에는 모델의 지능보다 추론 속도가 더 중요해지고 있다는 분석이다.",
+      "source": "Martin Alderson (Blog)",
+      "url": "https://martinalderson.com/posts/speed-vs-intelligence/",
+      "report": {
+        "tldr": "모델이 일정 수준 이상 똑똑해지면, 초당 100~200토큰 정도의 추론 속도가 지능보다 더 중요한 경쟁 요소가 된다는 주장이다.",
+        "what": "모델이 일상적인 코딩, 리서치, 분석 작업을 처리할 수 있을 만큼 충분히 똑똑해지고 나면, 초당 100~200 출력 토큰 정도의 속도가 '충분히 빠르다'는 체감을 준다. 이 지점을 넘어서면 모델을 더 가속해도 도구 호출, 데이터베이스, 로컬 하드웨어, 사람의 검토 등이 병목이 되어 수익 체감이 발생한다. 결과적으로 경쟁의 축이 서빙 속도와 가격 쪽으로 옮겨가고 있다.",
+        "points": [
+          "초당 100~200 출력 토큰이면 인터랙티브 작업에 충분히 빠르다고 체감",
+          "일정 지능 수준 이후에는 추가 가속의 효용이 급격히 감소",
+          "병목이 모델이 아닌 도구 호출·DB·하드웨어·사람 검토로 이동",
+          "경쟁 축이 지능에서 서빙 속도·가격으로 전환 중"
+        ],
+        "why": [
+          "AI 인프라 및 서빙 최적화 투자의 우선순위를 재고할 필요",
+          "모델 선택 기준이 벤치마크 점수에서 응답 속도/비용으로 이동할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "devops-dwarfstar-inference-engine",
+      "title": "딥시크 V4 전용 네이티브 추론 엔진 '드워프스타' 공개",
+      "summary": "딥시크 V4 Flash/PRO와 GLM 5.2를 로컬에서 구동하기 위한 네이티브 추론 엔진 DwarfStar가 깃허브에 공개됐다.",
+      "source": "GitHub",
+      "url": "https://github.com/antirez/ds4",
+      "report": {
+        "tldr": "범용 GGUF 러너가 아닌, 딥시크 V4와 GLM 5.2 전용으로 설계된 로컬 추론 엔진 DwarfStar가 공개됐다.",
+        "what": "DwarfStar는 딥시크 V4 Flash 및 PRO, GLM 5.2를 로컬에서 구동하기 위해 특별히 제작된 네이티브 추론 엔진으로, 범용 GGUF 러너가 아니다. 모델 로딩, 프롬프트 렌더링, 툴 호출, KV 상태 관리, HTTP 서버, 코딩 에이전트가 함께 구축·테스트되어 포함되어 있다. macOS의 Metal, CUDA, ROCm 백엔드를 지원하며, 썬더볼트나 TCP를 통해 여러 머신에 대형 모델을 분산할 수 있다.",
+        "points": [
+          "딥시크 V4 Flash/PRO, GLM 5.2 전용 설계",
+          "모델 로딩부터 코딩 에이전트까지 통합 제공",
+          "Metal, CUDA, ROCm 백엔드 지원",
+          "썬더볼트/TCP로 여러 머신에 모델 분산 가능"
+        ],
+        "why": [
+          "오픈 웨이트 대형 모델을 개인 하드웨어에서 효율적으로 구동하려는 수요에 대응"
+        ]
+      }
+    },
+    {
+      "id": "devops-kaneo-project-management-tool",
+      "title": "기능을 덜어낸 오픈소스 프로젝트 관리 도구 '카네오'",
+      "summary": "대부분의 경쟁 도구가 기능이 너무 많다는 전제에서 출발한 미니멀 오픈소스 프로젝트 관리 도구 Kaneo가 공개됐다.",
+      "source": "GitHub",
+      "url": "https://github.com/usekaneo/kaneo",
+      "report": {
+        "tldr": "최소한의 기능 세트로 설계된 오픈소스 프로젝트 관리 도구 Kaneo가 도커/쿠버네티스 배포를 지원한다.",
+        "what": "Kaneo는 경쟁 플랫폼들이 기능이 부족한 게 아니라 오히려 너무 많다는 전제 아래 최소한의 기능 세트로 설계된 오픈소스 프로젝트 관리 도구다. 도커 컴포즈와 쿠버네티스 배포를 모두 지원하며, drim이라는 CLI 도구가 HTTPS, 데이터베이스 설정, 서비스 구성을 자동으로 처리해준다.",
+        "points": [
+          "최소 기능 세트를 지향하는 프로젝트 관리 도구",
+          "도커 컴포즈 및 쿠버네티스 배포 지원",
+          "drim CLI로 HTTPS/DB/서비스 설정 자동화"
+        ],
+        "why": [
+          "기능 과잉에 지친 팀을 위한 대안적 선택지 제공"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudformation-express-mode",
+      "title": "AWS 클라우드포메이션 익스프레스 모드로 개발 주기 단축",
+      "summary": "AWS 클라우드포메이션 익스프레스 모드가 전체 안정화를 기다리지 않고 리소스 구성 적용 즉시 스택 완료를 보고해 개발 반복 속도를 높인다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/devops/how-cloudformation-express-mode-accelerates-your-development-cycle/",
+      "report": {
+        "tldr": "클라우드포메이션 익스프레스 모드는 리소스 설정이 적용되는 즉시 스택 완료를 보고해 개발 및 AI 에이전트 워크플로우 속도를 높인다.",
+        "what": "AWS 클라우드포메이션 익스프레스 모드는 리소스가 완전히 안정화될 때까지 기다리는 대신, 리소스 구성이 적용되는 즉시 스택 완료로 보고한다. 이를 통해 개발 반복 주기와 AI 에이전트 워크플로우 속도가 빨라지며, 의존성 순서와 롤백 옵션은 그대로 유지된다.",
+        "points": [
+          "리소스 구성 적용 즉시 스택 완료 보고",
+          "완전한 안정화를 기다리지 않아 반복 속도 향상",
+          "의존성 순서와 롤백 옵션은 유지"
+        ],
+        "why": [
+          "빠른 반복이 필요한 개발 및 AI 에이전트 기반 인프라 워크플로우에 유용"
+        ]
+      }
+    },
+    {
+      "id": "devops-rust-algebraic-float-math",
+      "title": "러스트 신규 API로 더 빠른 부동소수점 연산",
+      "summary": "러스트 1.98이 재결합과 융합 명령을 명시적으로 허용하는 대수적(algebraic) 부동소수점 연산 API를 추가했다.",
+      "source": "PythonSpeed (Blog)",
+      "url": "https://pythonspeed.com/articles/faster-float-math-rust/",
+      "report": {
+        "tldr": "러스트 1.98의 새로운 대수적 부동소수점 API로 위험한 fast-math 전체를 켜지 않고도 SIMD 벡터화 등 성능 최적화를 얻을 수 있다.",
+        "what": "러스트 1.98은 개발자가 재결합(reassociation)과 융합 명령(fused instruction)을 명시적으로 허용할 수 있는 대수적 부동소수점 연산을 추가했다. 독립적인 계산의 순서를 컴파일러가 재배열하도록 허용하면 SIMD 벡터화를 활용해 수치 연산 워크로드를 크게 가속할 수 있지만, 부동소수점 덧셈은 결합법칙이 성립하지 않으므로 결과가 약간 달라질 수 있다는 트레이드오프가 있다.",
+        "points": [
+          "러스트 1.98에 대수적 부동소수점 연산 API 추가",
+          "재결합·융합 명령을 선택적으로 허용",
+          "SIMD 벡터화를 통한 수치 연산 가속 가능",
+          "부동소수점 결합법칙 미성립으로 결과가 미세하게 달라질 수 있음"
+        ],
+        "why": [
+          "수치 연산이 많은 러스트 워크로드의 성능 최적화 옵션 확대"
+        ]
+      }
+    },
+    {
+      "id": "devops-oracle-oci-compute-logs-security",
+      "title": "오라클, OCI 컴퓨트 로그를 보안 태세에 통합",
+      "summary": "오라클 로그 애널리틱스가 OCI 컴퓨트 인스턴스 로그를 수집해 접근 활동과 로그인 실패, 권한 상승 시도를 분석할 수 있게 지원한다.",
+      "source": "Oracle Blogs",
+      "url": "https://blogs.oracle.com/observability/compute-logs-security-posture-la",
+      "report": {
+        "tldr": "오라클 로그 애널리틱스로 OCI 컴퓨트 인스턴스 로그를 수집해 보안팀이 접근 활동과 권한 상승 시도를 분석할 수 있다.",
+        "what": "오라클 로그 애널리틱스는 Add Data 워크플로우를 통해 OCI 컴퓨트 인스턴스 로그를 수집할 수 있게 지원한다. 보안팀은 이를 통해 접근 활동, 로그인 실패, 권한 상승 시도 등을 큐레이팅된 컴퓨트 대시보드로 분석할 수 있다.",
+        "points": [
+          "Add Data 워크플로우로 OCI 컴퓨트 로그 수집",
+          "접근 활동·로그인 실패·권한 상승 시도 분석 가능"
+        ],
+        "why": [
+          "보안팀의 클라우드 인스턴스 모니터링과 위협 탐지 역량 강화"
+        ],
+        "action": "OCI 환경을 운영 중이라면 Add Data 워크플로우로 컴퓨트 로그 수집을 활성화해 접근 이상 징후를 모니터링하는 것이 권장된다."
+      }
+    },
+    {
+      "id": "devops-azure-devops-issuer-retirement",
+      "title": "애저 데브옵스 발급자, 워크로드 자격 증명 연동에서 퇴역 예정",
+      "summary": "마이크로소프트가 워크로드 자격 증명 연동 서비스 연결에서 애저 데브옵스 발급자를 폐기하고 2027년 7월 1일까지 마이크로소프트 엔트라 발급자로 표준화한다.",
+      "source": "Microsoft DevBlogs",
+      "url": "https://devblogs.microsoft.com/devops/retirement-of-azure-devops-issuer-in-workload-identity-federation-service-connections/",
+      "report": {
+        "tldr": "마이크로소프트가 애저 데브옵스 발급자를 2027년 7월 1일까지 폐기하고 마이크로소프트 엔트라 발급자로 표준화한다.",
+        "what": "마이크로소프트는 워크로드 자격 증명 연동 서비스 연결에서 사용되던 애저 데브옵스 발급자를 폐기하고 2027년 7월 1일부로 완전히 퇴역시킬 예정이다. 이후에는 마이크로소프트 엔트라 발급자로 표준화되며, 멀티테넌트 앱과 퍼블릭 클라우드가 아닌 일부 시나리오는 이번 변경 대상에서 제외된다.",
+        "points": [
+          "애저 데브옵스 발급자 2027년 7월 1일 퇴역 예정",
+          "마이크로소프트 엔트라 발급자로 표준화"
+        ],
+        "why": [
+          "CI/CD 파이프라인의 자격 증명 연동 설정을 미리 점검하지 않으면 인증이 끊길 수 있음"
+        ],
+        "action": "워크로드 자격 증명 연동에 애저 데브옵스 발급자를 사용 중인 서비스 연결은 2027년 7월 1일 이전에 마이크로소프트 엔트라 발급자로 마이그레이션해야 한다."
+      }
+    },
+    {
+      "id": "devops-docker-oidc-github-actions",
+      "title": "도커, 깃허브 액션용 OIDC 연동 지원 시작",
+      "summary": "도커가 깃허브 액션에서 OpenID Connect를 지원해 저장된 개인 액세스 토큰 대신 단기 토큰으로 인증할 수 있게 됐다.",
+      "source": "Docker Blog",
+      "url": "https://www.docker.com/blog/docker-oidc-connections-for-github-actions-available-for-docker-orgs/",
+      "report": {
+        "tldr": "도커 조직용 깃허브 액션에서 OIDC를 지원해 저장된 토큰 없이 실행마다 단기 토큰으로 인증할 수 있다.",
+        "what": "도커는 이제 깃허브 액션에서 OpenID Connect(OIDC)를 지원하여, 워크플로우가 저장된 개인 액세스 토큰이나 조직 액세스 토큰 대신 실행마다 발급되는 단기 토큰으로 인증할 수 있게 됐다.",
+        "points": [
+          "깃허브 액션과 도커 간 OIDC 연동 지원",
+          "저장된 PAT/조직 토큰 불필요",
+          "실행마다 단기(short-lived) 토큰 발급"
+        ],
+        "why": [
+          "장기 저장 토큰 유출 위험을 줄여 CI/CD 보안을 강화"
+        ],
+        "action": "깃허브 액션에서 도커 인증에 여전히 개인/조직 액세스 토큰을 저장해 사용 중이라면 OIDC 연동으로 전환해 토큰 유출 위험을 줄이는 것이 권장된다."
+      }
+    }
+  ]
+}
