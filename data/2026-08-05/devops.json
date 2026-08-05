@@ -1,0 +1,261 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-gateway-api-v1-6-tcproute-udproute",
+      "title": "Gateway API v1.6, TCPRoute·UDPRoute 정식 표준으로 승격",
+      "summary": "쿠버네티스 Gateway API v1.6.0에서 TCPRoute와 UDPRoute가 실험 단계를 벗어나 표준 리소스로 승격되었다.",
+      "source": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/08/03/gateway-api-v1-6-release/",
+      "report": {
+        "tldr": "쿠버네티스 Gateway API가 레이어4 트래픽까지 표준으로 아우르게 됐다.",
+        "what": "Gateway API v1.6.0이 출시되며 가장 큰 변화로 TCPRoute와 UDPRoute가 실험 단계에서 표준 리소스로 승격됐다. 이를 통해 데이터베이스, DNS, VoIP 같은 워크로드도 레이어4에서 이식 가능한 라우팅 모델을 사용할 수 있게 됐다. 이번 릴리스는 별도의 gateway.networking.x-k8s.io API 그룹에 속하는 새로운 실험적 리소스 XBackend도 도입했는데, 이는 Service 백엔드를 감싸는 데코레이터 역할을 하며 ExternalHostname 대상 지원을 추가한다. 앞으로 모든 신규 실험적 리소스는 타입 이름에 X 접두사를 붙인 별도 API 그룹에 위치해, 실험적 버전과 표준 버전의 경계가 버전 문자열이 아닌 API 그룹 수준에서 명확히 드러나게 된다.",
+        "points": [
+          "TCPRoute·UDPRoute가 실험에서 표준 리소스로 승격",
+          "데이터베이스, DNS, VoIP 등 레이어4 워크로드에 이식 가능한 라우팅 제공",
+          "신규 실험 리소스 XBackend, 별도 API 그룹에서 Service 백엔드 데코레이터 역할",
+          "ExternalHostname 대상 지원 추가",
+          "향후 실험적 리소스는 X 접두사와 별도 API 그룹으로 구분"
+        ],
+        "why": [
+          "레이어4 트래픽 관리가 표준화되며 멀티 벤더 환경에서 이식성이 높아짐",
+          "API 그룹 수준의 구분으로 실험 기능과 안정 기능을 명확히 식별 가능"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-workers-containers-inbound-tcp-grpc",
+      "title": "Cloudflare Workers·Containers, 인바운드 TCP와 gRPC 지원 시작",
+      "summary": "Cloudflare가 Workers 플랫폼에 인바운드 TCP 연결과 gRPC 애플리케이션 실행 기능을 프라이빗 베타로 도입했다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/grpc-workers/",
+      "report": {
+        "tldr": "Cloudflare Workers가 이제 어떤 언어로 작성된 gRPC 서버도 엣지에서 직접 구동한다.",
+        "what": "Cloudflare는 Workers 플랫폼에 인바운드 TCP 연결 지원을 추가하고 gRPC 애플리케이션을 실행하는 새로운 방법을 공개했다. 해당 기능은 프라이빗 베타로 우선 출시되며 이후 더 넓은 범위로 공개될 예정이다. 개발자는 어떤 언어로 작성했든 gRPC 서버를 330여 개 Cloudflare 네트워크 거점에 배포할 수 있다. Workers는 gRPC와 gRPC-web 간 변환도 지원해 기존 클라이언트와 서버를 수정하지 않고도 그대로 연동할 수 있다.",
+        "points": [
+          "인바운드 TCP 연결 지원이 Workers 플랫폼에 추가됨",
+          "프라이빗 베타로 출시, 이후 순차 확대 예정",
+          "임의 언어로 작성된 gRPC 서버를 330여 개 거점에 배포 가능",
+          "gRPC와 gRPC-web 간 자동 변환으로 기존 클라이언트 수정 불필요"
+        ],
+        "why": [
+          "엣지에서 저지연 gRPC 서비스 운영이 가능해짐",
+          "기존 인프라 변경 없이 Workers로 마이그레이션할 수 있는 경로 제공"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-local-tracing-agent-debug",
+      "title": "코딩 에이전트가 로컬 트레이싱으로 Workers를 직접 디버깅",
+      "summary": "Cloudflare가 wrangler dev와 vite dev 실행 시 OpenTelemetry 트레이스를 자동 캡처해 코딩 에이전트가 직접 디버깅하도록 지원한다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/local-tracing/",
+      "report": {
+        "tldr": "이제 AI 코딩 에이전트가 로컬 Worker 실행 상태를 직접 들여다보고 디버깅할 수 있다.",
+        "what": "Cloudflare는 개발자가 wrangler dev나 vite dev를 실행할 때 로컬 Worker 호출에 대한 OpenTelemetry 트레이스를 자동으로 캡처하도록 했다. 도구가 코딩 에이전트 세션을 감지하면 에이전트를 Local Explorer API로 안내하는데, 이는 로컬 디버깅 인터페이스로 트레이스 조회와 바인딩 검사, D1·KV·R2·Durable Objects·Workflows 상태 확인을 가능하게 한다.",
+        "points": [
+          "wrangler dev, vite dev 실행 시 OpenTelemetry 트레이스 자동 캡처",
+          "코딩 에이전트 세션 감지 시 Local Explorer API로 자동 연결",
+          "트레이스 조회, 바인딩 검사 지원",
+          "D1, KV, R2, Durable Objects, Workflows 상태를 에이전트가 직접 조회 가능"
+        ],
+        "why": [
+          "에이전트 기반 개발에서 디버깅 루프를 자동화해 생산성 향상",
+          "로컬 상태 가시성이 높아져 문제 원인 파악이 빨라짐"
+        ]
+      }
+    },
+    {
+      "id": "devops-argo-cd-octopus-deploy-release-promotion",
+      "title": "Argo CD와 Octopus Deploy로 개발-운영 릴리스 승격 자동화",
+      "summary": "Argo CD와 Octopus Deploy를 연동하면 수동 GitOps 승격 대신 승인, 자동 커밋, 감사 추적을 갖춘 거버넌스 기반 릴리스 프로세스를 구축할 수 있다.",
+      "source": "Octopus Deploy Blog",
+      "url": "https://octopus.com/blog/promote-release-with-argo-cd-and-octopus-deploy",
+      "report": {
+        "tldr": "같은 검증된 스냅샷을 개발에서 운영까지 그대로 승격시키는 거버넌스형 GitOps 파이프라인이다.",
+        "what": "Argo CD와 Octopus Deploy를 연동하면 수동으로 이뤄지던 GitOps 승격 작업을 불변하고 통제된 릴리스 프로세스로 대체할 수 있다. 이 방식은 검증을 마친 동일한 스냅샷을 개발 환경에서 운영 환경까지 승인 절차, 자동화된 Git 커밋, 동기화된 배포, 완전한 감사 추적을 거쳐 이동시킨다.",
+        "points": [
+          "수동 GitOps 승격을 불변 릴리스 프로세스로 대체",
+          "승인 절차와 자동 Git 커밋으로 거버넌스 강화",
+          "동일한 검증 스냅샷이 개발부터 운영까지 그대로 이동",
+          "전체 과정에 대한 완전한 감사 추적 제공"
+        ],
+        "why": [
+          "배포 환경 간 불일치와 수동 오류 위험을 줄임",
+          "규제나 감사 요구가 있는 조직에 적합한 릴리스 관리 체계 제공"
+        ]
+      }
+    },
+    {
+      "id": "devops-aws-devops-agent-wiz-security-context",
+      "title": "AWS DevOps Agent, Wiz 연동으로 운영 조사에 보안 맥락 추가",
+      "summary": "AWS DevOps Agent가 MCP를 통해 Wiz와 통합돼 인시던트 조사 시 운영 데이터와 보안 인텔리전스를 함께 제공한다.",
+      "source": "AWS DevOps Blog",
+      "url": "https://aws.amazon.com/blogs/devops/add-security-context-to-operational-investigations-with-aws-devops-agent-and-wiz/",
+      "report": {
+        "tldr": "장애 대응 중 성능 문제인지 보안 위협인지를 한 화면에서 구분할 수 있게 됐다.",
+        "what": "AWS DevOps Agent가 이제 MCP를 통해 Wiz와 통합되어 인시던트 조사 과정에서 운영 텔레메트리와 보안 인텔리전스를 결합한다. 이 통합은 AWS 운영 데이터와 함께 취약점, 노출, 위협 탐지 결과를 나란히 보여줌으로써 엔지니어가 성능 문제와 보안 위협을 구분하도록 돕는다. 이를 통해 트리아지와 대응 속도가 개선된다.",
+        "points": [
+          "AWS DevOps Agent가 MCP로 Wiz와 통합",
+          "운영 텔레메트리와 보안 인텔리전스를 함께 제공",
+          "취약점, 노출, 위협 탐지 결과를 운영 데이터와 나란히 표시",
+          "성능 이슈와 보안 위협 구분에 도움"
+        ],
+        "why": [
+          "인시던트 트리아지 속도와 정확도 향상",
+          "운영팀과 보안팀 간 정보 단절 해소"
+        ]
+      }
+    },
+    {
+      "id": "devops-github-case-folding-memory-speed",
+      "title": "GitHub, 코드 검색용 케이스 폴딩 속도를 메모리 대역폭 수준으로 끌어올려",
+      "summary": "GitHub가 코드 검색 엔진의 케이스 폴딩 처리 속도를 초당 약 3GiB에서 45GiB 이상으로 높였다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/engineering/architecture-optimization/dont-stop-early-case-folding-source-code-at-memory-speed/",
+      "report": {
+        "tldr": "조기 종료 분기를 제거하고 분기 없는 바이트 연산으로 바꾸자 속도가 10배 넘게 뛰었다.",
+        "what": "GitHub는 코드 검색 엔진의 케이스 폴딩 처리 속도를 초당 약 3GiB에서 45GiB 이상으로 끌어올렸다. 핵심은 조기 종료 분기를 제거하고 LLVM이 완전히 벡터화할 수 있는 분기 없는 바이트 연산을 사용한 것이다. 컴팩트한 유니코드 조회 구조와 할당이 없는 ASCII 경로 덕분에 일반적인 경우 처리 속도가 메모리 대역폭 한계에 근접하게 됐다. 이는 언뜻 효율적으로 보이는 분기 기반 단일 패스보다 깔끔한 두 번의 패스가 더 나은 성능을 낼 수 있음을 보여준다.",
+        "points": [
+          "케이스 폴딩 처리 속도가 약 3GiB/s에서 45GiB/s 이상으로 향상",
+          "조기 종료 분기 제거와 분기 없는 바이트 연산 적용",
+          "LLVM이 완전 벡터화할 수 있는 구조로 재설계",
+          "컴팩트 유니코드 조회 구조와 할당 없는 ASCII 경로 활용"
+        ],
+        "why": [
+          "대규모 코드 검색 인프라의 처리량 병목 해소",
+          "분기 예측 실패를 줄이는 설계가 실전에서 큰 성능 차이를 만든다는 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-uber-adr-agentic-ai-detection-response",
+      "title": "우버, 프로덕션 AI 에이전트 보호하는 ADR 시스템 오픈소스 공개",
+      "summary": "우버가 AI 에이전트를 보호하는 엔터프라이즈 보안 시스템 ADR을 개발해 핵심 구성 요소를 오픈소스로 공개했다.",
+      "source": "GitHub",
+      "url": "https://github.com/uber/ADR",
+      "report": {
+        "tldr": "우버가 사내외 AI 에이전트를 감시하고 위협을 차단하는 보안 시스템을 아파치 2.0 라이선스로 풀었다.",
+        "what": "우버는 프로덕션 환경의 AI 에이전트를 보호하기 위해 ADR(Agentic AI Detection and Response)이라는 엔터프라이즈 보안 시스템을 도입했다. 이 시스템은 Cursor, Claude Code, Codex 같은 직원용 도구와 고객 대상 AI 지원 봇 같은 에이전트를 모두 다룬다. ADR은 에이전트 활동 관찰, 방어 평가, 위협 탐지, 위험 행동 차단이라는 네 가지 기능으로 동작한다. 관련 연구 논문은 MLSys 2026에 채택됐으며 핵심 구성 요소는 아파치 2.0 라이선스로 오픈소스 공개됐다.",
+        "points": [
+          "우버가 AI 에이전트 전용 보안 시스템 ADR 도입",
+          "Cursor, Claude Code, Codex 등 직원용 도구와 고객용 에이전트 모두 포괄",
+          "관찰, 방어 평가, 위협 탐지, 차단의 4가지 핵심 기능",
+          "연구 논문 MLSys 2026 채택, 핵심 코드 아파치 2.0 오픈소스"
+        ],
+        "why": [
+          "AI 에이전트 확산에 따른 새로운 보안 위협에 대응하는 실전 사례",
+          "오픈소스 공개로 다른 조직도 유사 방어 체계 구축 가능"
+        ]
+      }
+    },
+    {
+      "id": "devops-tencentdb-agent-memory",
+      "title": "TencentDB Agent Memory, 에이전트용 셀프호스팅 메모리 허브 공개",
+      "summary": "TencentDB Agent Memory는 에이전트의 대화와 문서, 코드베이스를 재사용 가능한 자산으로 전환하는 셀프호스팅 메모리 허브다.",
+      "source": "GitHub",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+      "report": {
+        "tldr": "에이전트가 매번 처음부터 학습하지 않도록 프로젝트 맥락을 저장하고 공유하는 메모리 허브다.",
+        "what": "TencentDB Agent Memory는 셀프호스팅 방식의 메모리 허브로, 에이전트의 대화와 문서, 코드베이스를 계층화된 채팅 메모리, 실행 가능한 스킬, 구조화된 위키, 코드 의존성 그래프라는 네 가지 재사용 자산으로 변환한다. 팀은 이러한 자산을 검토, 버전 관리, 공유하고 프라이빗·팀·ACL 기반 접근 제어로 특정 에이전트에 할당할 수 있다. 이를 통해 서로 다른 프레임워크의 에이전트들이 매 세션마다 다시 학습하지 않고 프로젝트 맥락과 검증된 워크플로를 물려받을 수 있다.",
+        "points": [
+          "대화, 문서, 코드베이스를 4가지 재사용 자산으로 변환",
+          "계층화된 채팅 메모리, 실행 가능 스킬, 구조화된 위키, 코드 의존성 그래프 제공",
+          "검토, 버전 관리, 공유 및 ACL 기반 접근 제어 지원",
+          "프레임워크가 다른 에이전트 간에도 프로젝트 맥락 공유 가능"
+        ],
+        "why": [
+          "에이전트 운영 조직의 반복 학습 비용 절감",
+          "여러 에이전트와 팀 간 지식 공유 체계 마련"
+        ]
+      }
+    },
+    {
+      "id": "devops-microsoft-migrating-repositories-to-github",
+      "title": "마이크로소프트, 1600개 이상 저장소를 애저 데브옵스에서 깃허브로 이전",
+      "summary": "마이크로소프트 CAP 조직이 6개월 만에 1600개 이상 저장소와 3100명 개발자를 애저 데브옵스에서 깃허브로 이전했다.",
+      "source": "Microsoft DevBlogs",
+      "url": "https://devblogs.microsoft.com/devops/how-microsoft-is-migrating-repositories-to-github/",
+      "report": {
+        "tldr": "Copilot Coding Agent 같은 에이전틱 AI 기능을 쓰기 위해 대규모 저장소 이전을 단행했다.",
+        "what": "마이크로소프트의 CAP 조직은 6개월에 걸쳐 1600개가 넘는 저장소와 3100명의 개발자를 애저 데브옵스에서 깃허브로 이전했다. 이전 목적은 Copilot Coding Agent 같은 에이전틱 AI 기능에 접근하기 위함이다. 이 과정에서 Azure Boards와 Pipelines는 하이브리드 통합 방식을 통해 그대로 유지했다.",
+        "points": [
+          "1600개 이상 저장소, 3100명 개발자를 6개월 만에 이전",
+          "Copilot Coding Agent 등 에이전틱 AI 기능 활용이 주요 동기",
+          "Azure Boards와 Pipelines는 하이브리드 통합으로 계속 사용"
+        ],
+        "why": [
+          "대규모 조직의 실전 마이그레이션 전략과 일정 참고 가능",
+          "기존 도구 체인을 유지하면서 신규 플랫폼 기능을 도입하는 접근법 제시"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-kimi-glm-inference-optimization",
+      "title": "Cloudflare, Kimi·GLM 대규모 추론 최적화 기법 공개",
+      "summary": "Cloudflare가 Workers AI에서 Kimi K2와 GLM 같은 대형 모델을 더 효율적으로 운영하는 세 가지 기법을 공개했다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/smaller-faster-safer-models/",
+      "report": {
+        "tldr": "KV 캐시 양자화와 가중치 압축으로 컨텍스트는 두 배로, 비용은 낮췄다.",
+        "what": "Cloudflare는 Workers AI 플랫폼에서 Moonshot의 Kimi K2와 Z.ai의 GLM 같은 대형 AI 모델을 더 효율적으로 운영하는 세 가지 기법을 공개했다. KV 캐시를 16비트 대신 8비트 부동소수점으로 저장해 Kimi K2.6의 컨텍스트 용량을 약 68만6천 토큰에서 137만 토큰으로 두 배로 늘리고 토큰당 비용을 약 30% 줄였다. GLM의 경우 모델 가중치를 8비트에서 4비트 정수로 압축해 체크포인트 크기를 705GB에서 421GB로 줄이고 단일 요청 디코딩 속도를 55% 높였다. 세 번째 기법인 KV 캐시 무결성 검사는 처리량과 테일 지연시간에 1% 미만의 오버헤드만 추가하면서도 요청이 다른 사용자의 데이터를 읽지 못하도록 방지한다.",
+        "points": [
+          "KV 캐시를 8비트로 저장해 Kimi K2.6 컨텍스트를 약 68.6만에서 137만 토큰으로 확장",
+          "토큰당 비용 약 30% 절감",
+          "GLM 가중치를 4비트로 압축, 체크포인트 705GB에서 421GB로 축소",
+          "GLM 단일 요청 디코딩 속도 55% 향상",
+          "KV 캐시 무결성 검사로 사용자 간 데이터 유출 방지, 오버헤드 1% 미만"
+        ],
+        "why": [
+          "대형 모델 운영 비용과 지연시간을 동시에 낮추는 실전 최적화 사례",
+          "멀티테넌트 환경에서 보안과 성능을 함께 달성한 접근법"
+        ]
+      }
+    },
+    {
+      "id": "devops-github-durable-repository-owner",
+      "title": "깃허브, 모든 저장소에 필수 소유자 지정 체계 구축",
+      "summary": "깃허브가 커스텀 속성을 활용해 모든 저장소에 소유자를 의무화하고 소유자 없는 저장소 수천 개를 아카이브했다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/security/application-security/how-github-gave-every-repository-a-durable-owner/",
+      "report": {
+        "tldr": "45일 만에 소유자 없는 저장소 8천여 개를 정리하면서도 오탐을 막는 안전장치를 함께 마련했다.",
+        "what": "깃허브는 커스텀 속성을 이용해 모든 저장소에 필수 소유권 체계를 구축했다. 그 결과 14000개 저장소 중 소유자가 없던 8000개 이상을 45일 이내에 아카이브했다. 이 과정에서 잘못된 대량 아카이브를 막기 위해 알림 폴백과 낮은 워터마크 같은 안전장치를 함께 구축했다.",
+        "points": [
+          "커스텀 속성을 활용한 필수 저장소 소유권 체계 도입",
+          "14000개 중 소유자 없는 저장소 8000개 이상을 45일 내 아카이브",
+          "알림 폴백과 낮은 워터마크로 오탐성 대량 아카이브 방지"
+        ],
+        "why": [
+          "조직 규모가 커질수록 저장소 소유권 불명확성이 보안·유지보수 리스크로 이어짐",
+          "안전장치를 갖춘 대규모 정리 작업의 참고 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-aws-devops-agent-launchdarkly-feature-flags",
+      "title": "AWS DevOps Agent, LaunchDarkly 연동으로 피처 플래그 오케스트레이션",
+      "summary": "AWS DevOps Agent가 LaunchDarkly의 MCP 서버와 통합돼 배포 전 위험도 높은 코드 변경에 대한 피처 플래그 적용을 추천한다.",
+      "source": "AWS DevOps Blog",
+      "url": "https://aws.amazon.com/blogs/devops/feature-flag-orchestration-with-aws-devops-agent-and-launchdarkly/",
+      "report": {
+        "tldr": "배포 전에는 플래그 추천을, 장애 중에는 플래그 기반 원인 분석을 제공한다.",
+        "what": "AWS DevOps Agent가 LaunchDarkly의 MCP 서버와 통합되어 배포 전 위험도가 높은 코드 변경에 대한 피처 플래그 적용을 추천한다. 또한 활성 인시던트 발생 시 플래그 기반의 근본 원인과 억제 조치를 식별하는 데도 활용된다.",
+        "points": [
+          "AWS DevOps Agent가 LaunchDarkly MCP 서버와 통합",
+          "배포 전 위험도 높은 변경에 대한 피처 플래그 커버리지 추천",
+          "인시던트 발생 시 플래그 기반 근본 원인 식별",
+          "인시던트 억제 조치 제안"
+        ],
+        "why": [
+          "위험한 배포를 사전에 플래그로 감싸 장애 영향을 줄임",
+          "인시던트 대응 시간을 단축하는 자동화된 원인 분석 제공"
+        ]
+      }
+    }
+  ]
+}
