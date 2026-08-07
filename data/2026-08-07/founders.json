@@ -1,0 +1,289 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-replit-self-running-company",
+      "title": "리플릿 CEO가 말하는 '스스로 굴러가는 회사'",
+      "summary": "암자드 마사드는 디자이너인 아내 하야 오데와 2016년 리플릿을 창업했다. 초보자가 브라우저에서 코드를 돌려 보는 사이트에서, 프롬프트만으로 설계·작성·테스트·배포·호스팅까지 하는 AI 에이전트 플랫폼으로 진화했다.",
+      "source": "Platformer",
+      "url": "https://www.platformer.news/replit-amjad-massad-interview-coding-design-jobs/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "브라우저 코드 실행기에서 프롬프트 하나로 배포까지 가는 플랫폼으로.",
+        "what": "리플릿 CEO 암자드 마사드 인터뷰다. 2016년 창업 이후 브라우저 기반 코드 실행 사이트에서 AI 에이전트가 애플리케이션을 설계·작성·테스트·배포·호스팅하는 플랫폼으로 전환한 과정을 다룬다.",
+        "points": [
+          "2016년 암자드 마사드와 하야 오데가 공동 창업",
+          "출발점: 초보자용 브라우저 코드 실행 환경",
+          "현재: 프롬프트에서 배포·호스팅까지 수행하는 AI 에이전트",
+          "'스스로 운영되는 회사'라는 조직 운영 관점 제시"
+        ],
+        "why": [
+          "코딩 교육 도구가 배포 플랫폼으로 전환한 드문 성공 사례다.",
+          "같은 날 '노코드의 종말' 논의와 정확히 반대편 결론을 제시한다."
+        ]
+      }
+    },
+    {
+      "id": "founders-saas-extinction-test",
+      "title": "SaaS 멸종 테스트",
+      "summary": "전통적 가치 제안이 약해지면서 SaaS 기업이 어려움에 처했다. 앞으로의 방어력은 UI 개선의 누적이 아니라 데이터와 리스크 관리의 교차점에서 나온다는 진단이다.",
+      "source": "Frontier AI",
+      "url": "https://frontierai.substack.com/p/the-saas-extinction-test-f6e?utm_source=tldrfounders",
+      "report": {
+        "tldr": "SaaS의 해자가 UI에서 데이터와 리스크로 옮겨간다.",
+        "what": "SaaS 기업의 전통적 가치 제안이 약해지는 상황을 진단하고, 향후 방어력이 어디서 나오는지 검증하는 기준을 제시한다. 결론은 데이터와 리스크 관리의 교차점이다.",
+        "points": [
+          "전통적 SaaS 가치 제안의 약화",
+          "점진적 UI 개선은 더 이상 방어력이 아님",
+          "데이터 축적과 리스크 관리의 교차점이 새 해자",
+          "생존 여부를 판별하는 테스트 형태로 제시"
+        ],
+        "why": [
+          "같은 날 에어테이블 인수 분석 두 편과 함께 읽으면 구도가 선명해진다."
+        ]
+      }
+    },
+    {
+      "id": "founders-airtable-road-not-traveled",
+      "title": "에어테이블이 가지 않은 길",
+      "summary": "코딩 에이전트가 데이터베이스를 직접 만들 수 있게 되면서 에어테이블의 노코드 우위가 침식됐다. 조직 문제와 점진적 AI 기능 추가가 적응을 늦췄고, 결국 분리 매각이 유리한 선택으로 보이게 됐다.",
+      "source": "X (@haridigresses)",
+      "url": "https://x.com/haridigresses/status/2084825945609802079?utm_source=tldrfounders",
+      "report": {
+        "tldr": "점진적 AI 기능 추가로는 카테고리 붕괴를 막을 수 없었다.",
+        "what": "에어테이블의 노코드 우위가 코딩 에이전트 등장으로 침식된 과정을 짚는다. 조직적 제약과 소극적인 AI 대응이 적응을 늦췄고 결과적으로 매각이 합리적 선택이 됐다는 분석이다.",
+        "points": [
+          "코딩 에이전트가 노코드의 핵심 가치를 대체",
+          "조직 구조가 빠른 전환을 막음",
+          "점진적 AI 기능 추가로는 부족했다는 평가",
+          "결과적으로 분리·매각이 합리적 선택으로 귀결"
+        ],
+        "why": [
+          "카테고리를 위협받는 기업이 '기존 제품에 AI 붙이기'로 대응할 때의 전형적 실패다.",
+          "같은 날 dev 에디션의 '노코드의 종말'과 짝을 이룬다."
+        ]
+      }
+    },
+    {
+      "id": "founders-marketplace-500k-users",
+      "title": "마켓플레이스를 사용자 50만 명까지 키우는 법",
+      "summary": "프롬프트베이스의 성장 전략은 창업자가 직접 첫 판매자가 되고, 레딧 커뮤니티에서 판매자를 모으고, 버그를 빠르게 고치고, SEO를 최적화하는 것이었다. 확장 이전에 유기적 판매자 확보와 검색 노출로 성장했다.",
+      "source": "Zoneless",
+      "url": "https://zoneless.com/blog/how-to-grow-your-marketplace-to-500000-users?utm_source=tldrfounders",
+      "report": {
+        "tldr": "창업자가 첫 판매자가 되는 것이 콜드 스타트 해법이었다.",
+        "what": "프롬프트베이스가 사용자 50만 명에 도달하기까지의 성장 전술을 정리했다. 마켓플레이스의 닭과 달걀 문제를 창업자가 직접 공급 측을 채워 해결했다.",
+        "points": [
+          "창업자가 직접 첫 판매자로 참여",
+          "레딧 커뮤니티에서 초기 판매자 모집",
+          "버그 신속 수정으로 이탈 방지",
+          "SEO 최적화로 수요 측 유입 확보",
+          "유료 확장 이전에 유기적 성장 우선"
+        ],
+        "why": [
+          "마켓플레이스 콜드 스타트 문제에 대한 재현 가능한 전술 목록이다."
+        ]
+      }
+    },
+    {
+      "id": "founders-new-grad-hiring-slope",
+      "title": "신입 채용 — 경력이 아니라 성장 기울기에 돈을 쓸 이유",
+      "summary": "AI 역량이 경력에 붙던 프리미엄을 줄였다. 신입은 성장 잠재력이 높은 저평가 인재이며, 기존 채용 가정보다 더 나은 가치라는 논지다.",
+      "source": "Pear VC",
+      "url": "https://pear.vc/startups-new-grad-hiring/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI가 경력 프리미엄을 깎아내리면서 신입의 상대 가치가 올라갔다.",
+        "what": "AI 도구가 경험의 가치를 일부 대체하면서 경력자에게 붙던 프리미엄이 줄었다는 관찰에서 출발한다. 결론은 성장 기울기가 큰 신입이 현재 저평가 자산이라는 것이다.",
+        "points": [
+          "AI가 경력 프리미엄을 축소",
+          "신입 = 저평가된 고성장 인재라는 재평가",
+          "채용 기준을 경험에서 학습 속도로 이동"
+        ],
+        "why": [
+          "AI 시대 신입 채용 축소 흐름에 대한 정면 반론이다."
+        ]
+      }
+    },
+    {
+      "id": "founders-follow-on-investors",
+      "title": "초기 투자자는 항상 후속 투자를 해야 하나",
+      "summary": "초기 투자자는 수학적 제약 때문에 후속 라운드를 건너뛸 수 있다. 시드 투자자의 수익 구조상 더 높은 밸류에이션에서는 다른 배수의 엑싯이 필요하므로 후속 투자보다 포트폴리오 분산이 낫다는 설명이다.",
+      "source": "Hustle Fund",
+      "url": "https://thefounderplaybook.hustlefund.vc/p/blog-should-investors-always-follow-on?utm_source=tldrfounders",
+      "report": {
+        "tldr": "후속 투자를 안 하는 것은 신뢰 철회가 아니라 수학이다.",
+        "what": "초기 투자자가 후속 라운드에 참여하지 않는 이유를 펀드 수익 구조로 설명한다. 높아진 밸류에이션에서는 같은 수익을 내기 위해 훨씬 큰 엑싯이 필요하다.",
+        "points": [
+          "시드 투자자의 목표 배수와 후속 라운드 밸류에이션의 불일치",
+          "동일 수익을 위해 필요한 엑싯 규모가 급증",
+          "결과적으로 신규 포트폴리오 분산이 합리적",
+          "창업자는 이를 신뢰 신호로 해석하지 말 것"
+        ],
+        "why": [
+          "창업자가 후속 미참여를 부정 신호로 오독하는 흔한 상황을 정리해 준다."
+        ]
+      }
+    },
+    {
+      "id": "founders-flint-visualization",
+      "title": "플린트 — AI 시대의 시각화 언어",
+      "summary": "AI가 차트를 한 번 만들거나 수정하면 베가라이트, 이차트, Chart.js, 플롯리, 엑셀 등 여러 플랫폼에 렌더링할 수 있게 하는 언어다. 10가지 시각 테마를 제공한다.",
+      "source": "Microsoft",
+      "url": "https://microsoft.github.io/flint-chart/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "차트 명세를 한 번 쓰면 다섯 개 렌더러로 나간다.",
+        "what": "마이크로소프트의 플린트는 AI가 생성하기 좋은 형태의 시각화 명세 언어다. 하나의 명세로 베가라이트, 이차트, Chart.js, 플롯리, 엑셀에 렌더링된다.",
+        "points": [
+          "단일 명세 → 다중 렌더러 출력",
+          "지원: 베가라이트, 이차트, Chart.js, 플롯리, 엑셀",
+          "10가지 시각 테마 제공",
+          "AI가 생성·수정하기 쉬운 구조 지향"
+        ],
+        "why": [
+          "LLM이 차트 라이브러리별 문법을 외울 필요가 없어진다."
+        ]
+      }
+    },
+    {
+      "id": "founders-channels-sdk-tool",
+      "title": "채널스 SDK — 에이전트를 채팅 플랫폼에 통합",
+      "summary": "에이전트를 채팅 플랫폼에 통합하는 오픈소스 SDK다. 코파일럿킷 인텔리전스를 통해 슬랙과 마이크로소프트 팀즈를 지원하며, 에이전트가 대화를 이해하고 응답을 스트리밍하고 도구를 실행하고 파일을 처리할 수 있다.",
+      "source": "GitHub",
+      "url": "https://github.com/CopilotKit/channels-sdk?utm_source=tldrfounders",
+      "report": {
+        "tldr": "제품 UI를 만들기 전에 슬랙에 먼저 붙일 수 있다.",
+        "what": "채널스 SDK는 AI 에이전트를 슬랙과 팀즈에 통합하는 오픈소스 도구다. 대화 이해, 응답 스트리밍, 도구 실행, 파일 처리를 지원한다.",
+        "points": [
+          "슬랙 및 마이크로소프트 팀즈 지원",
+          "대화 맥락 이해, 스트리밍 응답",
+          "도구 실행 및 파일 처리",
+          "코파일럿킷 인텔리전스 기반 오픈소스"
+        ],
+        "why": [
+          "초기 스타트업이 프런트엔드 없이 유통 채널을 확보하는 경로가 된다."
+        ]
+      }
+    },
+    {
+      "id": "founders-overpromising-management",
+      "title": "관리자의 큰 거짓말 — 과대 약속",
+      "summary": "승진과 경력 발전을 과도하게 약속한 관리자는 상황이 이를 막을 때 팀 신뢰를 깎아먹는다. 효과적인 관리는 보장된 결과가 아니라 통제 가능한 행동과 현실적 기대치를 강조한다.",
+      "source": "Stay SaaSy",
+      "url": "https://staysaasy.com/management/2026/08/05/the-big-management-lie-overpromising.html?utm_source=tldrfounders",
+      "report": {
+        "tldr": "통제할 수 없는 결과를 약속하면 반드시 신뢰를 잃는다.",
+        "what": "관리자가 경력 발전을 과도하게 약속했다가 지키지 못할 때 팀 신뢰가 무너지는 문제를 다룬다. 대안은 통제 가능한 행동만 약속하는 것이다.",
+        "points": [
+          "과대 약속의 대상은 주로 승진·경력 발전",
+          "이행 실패 시 신뢰 손실이 누적",
+          "대안: 통제 가능한 행동과 현실적 기대치 제시"
+        ],
+        "why": [
+          "빠르게 성장하는 조직에서 반복되는 실패 패턴이다."
+        ]
+      }
+    },
+    {
+      "id": "founders-fake-deodorant-brand",
+      "title": "가짜 데오도런트 브랜드를 만들어 AI가 알아채는지 봤다",
+      "summary": "12달러도 안 들여 만든 허구의 데오도런트 브랜드가 3주 만에 챗GPT 추천에 등장했고, 민감성 피부 질의에서 1위로 노출됐다. 클로드, 제미나이, 일반 검색은 영향을 받지 않았다.",
+      "source": "X (@medeana)",
+      "url": "https://x.com/medeana/status/2084671218704159169?utm_source=tldrfounders",
+      "report": {
+        "tldr": "12달러와 3주면 챗GPT 추천 1위에 올라간다.",
+        "what": "존재하지 않는 데오도런트 브랜드를 12달러 미만으로 만들어 놓은 실험이다. 3주 만에 챗GPT 추천 목록에 나타났고 민감성 피부 관련 질의에서 1위로 표시됐다.",
+        "points": [
+          "제작 비용 12달러 미만, 소요 기간 3주",
+          "챗GPT 추천에서 민감성 피부 질의 1위 노출",
+          "클로드·제미나이·일반 검색은 영향 없음",
+          "실존하지 않는 브랜드였다는 점이 핵심"
+        ],
+        "why": [
+          "LLM 추천이 새로운 SEO 공격면이라는 사실을 저비용 실험이 입증했다.",
+          "모델별 편차가 크다는 점도 함께 드러났다."
+        ],
+        "action": "브랜드 모니터링에 주요 LLM 추천 결과를 항목으로 추가할 것."
+      }
+    },
+    {
+      "id": "founders-ai-strategy-exit-value",
+      "title": "당신의 AI 전략이 엑싯 가치를 깎고 있을지도 모른다",
+      "summary": "공격적인 AI 도입이 실사 과정의 복잡성, 벤더 종속, 보안 취약점을 통해 인수 가치를 훼손할 수 있다는 분석이다.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/ai/strategies-enhancing-exit-value-acquisitions-sagie/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI를 급하게 넣으면 실사에서 감점 요인이 된다.",
+        "what": "공격적인 AI 도입이 오히려 인수 가치를 떨어뜨릴 수 있다는 분석이다. 실사 복잡성 증가, 벤더 종속, 보안 취약점이 주된 감점 요인으로 지목된다.",
+        "points": [
+          "실사 과정의 복잡성 증가",
+          "AI 벤더 종속으로 인한 이전 비용",
+          "보안 취약점 노출 확대",
+          "결과적으로 인수 밸류에이션 하락 위험"
+        ],
+        "why": [
+          "'AI를 썼다'가 자동으로 프리미엄이 되던 국면이 끝나가고 있다."
+        ]
+      }
+    },
+    {
+      "id": "founders-intelligence-ownership",
+      "title": "지능 소유의 부상",
+      "summary": "전문화된 스코어링 시스템이 값비싼 범용 AI 모델에 대한 의존을 줄일 수 있다는 논지다.",
+      "source": "Fermisense",
+      "url": "https://fermisense.com/when-machines-take-the-wheel/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "모든 판단에 프런티어 모델을 부를 필요는 없다.",
+        "what": "특정 목적에 맞춰 만든 전문 스코어링 시스템이 고가의 범용 AI 모델 의존을 줄일 수 있다는 주장이다.",
+        "points": [
+          "전문화된 스코어링 시스템의 비용 우위",
+          "범용 모델 의존 축소 가능성",
+          "'지능을 소유한다'는 프레임 제시"
+        ],
+        "why": [
+          "같은 날 IT 에디션의 AI 비용 초과 조사와 맞물리는 대안 논리다."
+        ]
+      }
+    },
+    {
+      "id": "founders-viral-post-zero-sales",
+      "title": "조회 2만 8천, 공유 167, 추천 67, 매출 0",
+      "summary": "상당한 참여를 만든 바이럴 런칭 게시물이 판매나 의미 있는 트라이얼 전환으로 이어지지 않았다는 기록이다.",
+      "source": "X (@mxfp4)",
+      "url": "https://x.com/mxfp4/status/2084885190242095135?utm_source=tldrfounders",
+      "report": {
+        "tldr": "바이럴 지표와 매출 사이에는 아무 상관이 없었다.",
+        "what": "런칭 게시물이 조회 2만 8천, 공유 167, 추천 67을 기록했지만 매출은 0이고 트라이얼도 몇 건에 그쳤다는 공개 회고다.",
+        "points": [
+          "조회 28,000 / 공유 167 / 추천 67",
+          "매출 0, 트라이얼 소수",
+          "참여 지표와 전환의 단절을 보여줌"
+        ],
+        "why": [
+          "런칭 지표를 성공 신호로 읽는 흔한 오독의 반례다."
+        ]
+      }
+    },
+    {
+      "id": "founders-repeat-founders-yc",
+      "title": "재도전 창업자의 귀환 — YC의 늘어나는 두 번째 창업자들",
+      "summary": "와이콤비네이터 배치에 두 번째 창업에 나선 창업자 비중이 점점 늘고 있다는 분석이다.",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/venture/y-combinator-repeat-founders-numbers-grow-epstein-callaway/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "YC 배치에서 재창업자 비중이 계속 오르고 있다.",
+        "what": "와이콤비네이터 코호트에서 두 번째 이상 창업에 나선 창업자의 비중이 증가하는 추세를 다룬 분석이다.",
+        "points": [
+          "YC 배치 내 재창업자 비중 증가",
+          "초기 액셀러레이터의 인재 구성 변화",
+          "첫 창업 경험이 재진입 장벽을 낮춤"
+        ],
+        "why": [
+          "시드 단계 경쟁 구도가 경험자 중심으로 이동한다는 신호다."
+        ]
+      }
+    }
+  ]
+}

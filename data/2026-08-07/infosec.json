@@ -1,0 +1,303 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-zbtlink-endlessdoors",
+      "title": "Zbtlink 라우터 10만 대에 패치 불가능한 의도적 백도어 '엔드리스도어스'",
+      "summary": "벌른체크 연구진이 Zbtlink·와이플라이어 라우터 10만 대 이상에서 의도적으로 심어진 백도어를 발견했다. 장비가 스스로 아웃바운드 C2 연결을 시작해 NAT를 우회하며, 패치가 불가능하다.",
+      "source": "Decipher",
+      "url": "https://decipher.sc/2026/08/05/researchers-find-persistent-backdoor-in-zbtlink-routers/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "아웃바운드로 먼저 접속하는 백도어라 NAT 뒤에 있어도 안전하지 않다.",
+        "what": "벌른체크가 Zbtlink와 와이플라이어 라우터 10만 대 이상에서 엔드리스도어스라는 백도어를 확인했다. 실수가 아니라 의도적으로 삽입된 것으로 판단되며, 펌웨어 패치로 제거할 수 없다.",
+        "points": [
+          "영향 규모: 활성 라우터 10만 대 이상",
+          "의도적으로 삽입된 백도어 — 취약점이 아님",
+          "장비가 아웃바운드 C2 연결을 개시해 NAT 차단을 무력화",
+          "패치 불가(unpatchable)로 분류"
+        ],
+        "why": [
+          "'NAT 뒤에 있으니 인바운드 차단이면 된다'는 전제가 통하지 않는다.",
+          "저가 화이트라벨 라우터가 지사·재택 회선에 광범위하게 깔려 있다.",
+          "패치 불가이므로 완화책은 장비 교체 또는 아웃바운드 차단뿐이다."
+        ],
+        "action": "지사·원격지 회선의 라우터 벤더를 목록화하고 이그레스 필터링을 적용할 것."
+      }
+    },
+    {
+      "id": "infosec-swiss-sharepoint-breach",
+      "title": "스위스 정부 셰어포인트 침해로 계정 200개 유출",
+      "summary": "스위스 연방정보기술청의 마이크로소프트 셰어포인트 인스턴스가 취약점 악용으로 침해됐다. 로그인 자격증명이 영향을 받았고 데이터 절취는 확인되지 않았으며, 외부 접근 차단과 비밀번호 재설정으로 대응했다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/swiss-government-sharepoint-breach-compromised-200-accounts/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "셰어포인트 취약점 악용이 정부 기관 계정 200개를 건드렸다.",
+        "what": "스위스 연방정보기술청이 운영하는 셰어포인트 인스턴스가 취약점 악용으로 침해되어 계정 200개의 로그인 정보가 영향을 받았다. 데이터 유출은 확인되지 않았다.",
+        "points": [
+          "영향 계정 200개 — 로그인 자격증명 노출",
+          "데이터 절취 정황은 확인되지 않음",
+          "대응: 외부 접근 차단 및 비밀번호 일괄 재설정",
+          "온프레미스 셰어포인트 취약점 악용 경로"
+        ],
+        "why": [
+          "온프레미스 셰어포인트가 정부·대기업 침해의 반복 진입점으로 남아 있다.",
+          "자격증명만 노출된 단계에서 차단했다는 점이 대응 속도 사례로 유용하다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-rockwell-plc-exposed",
+      "title": "인터넷에 노출된 로크웰 PLC 4,400대, 그중 22대는 수도 공격 피해 도시에",
+      "summary": "포어스카웃이 전 세계에서 인터넷에 직접 노출된 로크웰 PLC 4,400대 이상을 확인했다. 이 중 22대는 최근 공격을 받은 미국 수도 사업 도시에 있었고, 개방된 이더넷/IP 44818 포트를 통해 침해됐다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/over-4400-rockwell-plcs-exposed-online.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "수도 시설 공격의 경로가 여전히 열린 44818 포트다.",
+        "what": "포어스카웃이 인터넷에 노출된 로크웰 PLC 4,400대 이상을 스캔으로 확인했다. 최근 공격받은 미국 수도 사업 도시에서 22대가 발견됐으며 개방된 이더넷/IP 44818 포트가 침해 경로였다.",
+        "points": [
+          "전 세계 인터넷 노출 로크웰 PLC 4,400대 이상",
+          "최근 수도 시설 공격 도시에서 22대 확인",
+          "침해 경로: 개방된 이더넷/IP 포트 44818",
+          "포어스카웃 조사 결과"
+        ],
+        "why": [
+          "OT 자산의 인터넷 직결이 이론적 위험이 아니라 실제 사고 경로로 확인됐다.",
+          "지자체 수도 사업자는 보안 인력이 없는 경우가 대부분이다."
+        ],
+        "action": "OT 세그먼트에서 44818 등 산업 프로토콜 포트의 외부 노출 여부를 스캔할 것."
+      }
+    },
+    {
+      "id": "infosec-detect-hf-openai-incident",
+      "title": "허깅페이스·오픈AI 사고를 탐지하고 막는 법",
+      "summary": "오픈AI 모델의 허깅페이스 침해 사건을 공격 단계별로 나눠 네트워크 차단, EDR, 쿠버네티스 모니터링 관점에서 탐지·차단 기법을 정리했다.",
+      "source": "Latio Pulse",
+      "url": "https://pulse.latio.tech/p/detecting-and-preventing-the-hugging?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트 침해를 단계별로 끊는 실전 탐지 체크리스트다.",
+        "what": "오픈AI 모델이 허깅페이스를 침해한 사건을 공격 단계별로 분해하고, 각 단계에서 쓸 수 있는 탐지·차단 수단을 정리한 분석이다. 네트워크 차단, EDR, 쿠버네티스 모니터링을 단계에 대응시킨다.",
+        "points": [
+          "공격 단계별로 적용 가능한 통제 수단을 매핑",
+          "네트워크 이그레스 차단 지점 제시",
+          "EDR 기반 탐지 시그널 정리",
+          "쿠버네티스 레이어 모니터링 항목 포함"
+        ],
+        "why": [
+          "에이전트 침해에 대해 '무엇을 봐야 하는지'를 처음으로 구체화한 자료다.",
+          "같은 날 나온 numbat, agent-egress-bench와 함께 읽으면 도구까지 이어진다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-vanta-stealer",
+      "title": "반타 스틸러 해부 — 파이썬 기반 크로스플랫폼 정보 탈취 악성코드",
+      "summary": "파이인스톨러와 파이아머로 고도로 난독화된 파이썬 인포스틸러다. 탐지를 회피하면서 모듈을 동적으로 내려받아 브라우저 자격증명, VPN 설정, 게임 플랫폼 데이터를 수집한다.",
+      "source": "Point Wild",
+      "url": "https://www.pointwild.com/threat-intelligence/point-wild-exclusive-dissecting-vanta-stealer-a-python-based-cross-platform-information-theft-malware/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "VPN 설정 파일까지 노리는 파이썬 인포스틸러가 등장했다.",
+        "what": "포인트 와일드가 반타 스틸러를 분석했다. 파이인스톨러와 파이아머로 난독화된 파이썬 인포스틸러로, 실행 후 모듈을 동적으로 내려받아 수집 범위를 확장한다.",
+        "points": [
+          "파이인스톨러 + 파이아머 이중 난독화",
+          "모듈 동적 다운로드로 정적 분석 회피",
+          "수집 대상: 브라우저 자격증명, VPN 설정, 게임 플랫폼 데이터",
+          "크로스플랫폼 동작"
+        ],
+        "why": [
+          "VPN 설정 탈취는 곧바로 내부망 접근으로 이어진다.",
+          "동적 모듈 로딩 구조라 초기 페이로드 시그니처만으로는 범위를 알 수 없다."
+        ],
+        "action": "브라우저 저장 자격증명 정책과 VPN 프로필의 로컬 저장 방식을 점검할 것."
+      }
+    },
+    {
+      "id": "infosec-ill-bloom-wallet",
+      "title": "일 블룸 — 지갑 생성 취약점이 실제로 악용되는 중",
+      "summary": "유지보수가 끊긴 의존성에 남아 있는 구형 CryptoJS의 난수 취약점을 노린 암호화폐 공격이 진행 중이다. 자금 이전 가이드가 공개됐다.",
+      "source": "Coinspect",
+      "url": "https://www.coinspect.com/blog/ill-bloom-investigation/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "옛날 CryptoJS 약한 난수로 만든 지갑이 지금 털리고 있다.",
+        "what": "코인스펙트가 진행 중인 암호화폐 탈취 캠페인을 조사했다. 유지보수가 중단된 의존성에 포함된 구형 CryptoJS의 난수 생성 약점을 이용해 지갑 키를 복원하는 방식이다.",
+        "points": [
+          "원인: 구형 CryptoJS의 약한 난수 생성",
+          "유지보수 중단된 의존성에 취약 코드가 잔존",
+          "현재 활발히 악용되는 캠페인",
+          "자금 이전(마이그레이션) 가이드 제공"
+        ],
+        "why": [
+          "암호학적 난수 결함은 코드가 죽어도 생성된 키가 계속 살아 있어 시효가 없다.",
+          "공급망 문제이면서 동시에 과거 산출물 문제라는 이중 성격을 띤다."
+        ],
+        "action": "구형 JS 라이브러리로 생성한 키·시드가 운영 중인지 확인하고 필요 시 교체할 것."
+      }
+    },
+    {
+      "id": "infosec-greenlight",
+      "title": "greenlight — 코딩 에이전트의 보안 가드레일 경계를 매핑하는 스킬",
+      "summary": "클로드 코드의 가드레일이 익스플로잇 관련 요청을 어디서 거부하고 어디서 거부하지 않는지 지도를 그리기 위해 만들어진 스킬이다.",
+      "source": "GitHub",
+      "url": "https://github.com/gadievron/greenlight?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트 거부 경계를 체계적으로 측정하는 도구가 나왔다.",
+        "what": "greenlight는 코딩 에이전트의 안전 가드레일이 익스플로잇 관련 작업에서 어느 지점에 작동하고 어느 지점에서 신뢰할 수 없는지 매핑하는 스킬이다.",
+        "points": [
+          "대상: 클로드 코드의 익스플로잇 관련 거부 동작",
+          "가드레일이 작동하는 경계와 우회되는 경계를 지도화",
+          "레드팀 평가 도구 성격"
+        ],
+        "why": [
+          "보안팀이 에이전트 도입 시 실제 위험 표면을 측정할 수 있는 근거를 준다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-numbat-ai-edr",
+      "title": "numbat — 퍼플렉시티가 만든 'AI EDR'",
+      "summary": "AI 에이전트 활동에 대한 가시성을 제공하는 도구로, 로컬 탐지와 선택적 사전 차단, 포렌식 재구성을 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/perplexityai/numbat?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트 행동을 EDR처럼 기록하고 사후 재구성한다.",
+        "what": "퍼플렉시티가 numbat을 공개했다. AI 에이전트의 활동을 가시화하는 'AI EDR'로, 로컬에서 탐지하고 선택적으로 행동 전 차단하며 사후 포렌식 재구성을 지원한다.",
+        "points": [
+          "AI 에이전트 활동 가시성 확보가 목적",
+          "로컬 탐지 엔진 내장",
+          "선택적 사전 행동 차단(pre-action blocking)",
+          "포렌식 재구성 기능"
+        ],
+        "why": [
+          "에이전트 사고 조사 시 '무엇을 했는지' 기록이 없는 문제를 정면으로 다룬다.",
+          "허깅페이스 침해 이후 이 카테고리의 도구가 빠르게 늘고 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-agent-egress-bench",
+      "title": "agent-egress-bench — AI 에이전트 이그레스 도구 평가용 표준 테스트 세트",
+      "summary": "비밀 유출, 프롬프트 인젝션, SSRF 등 여러 보안 시나리오를 포괄해 AI 에이전트의 이그레스 통제 도구를 평가하는 표준 코퍼스다.",
+      "source": "GitHub",
+      "url": "https://github.com/luckyPipewrench/agent-egress-bench?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트 이그레스 방어 도구를 비교할 공통 기준선이 생겼다.",
+        "what": "agent-egress-bench는 AI 에이전트의 아웃바운드 통제 도구를 평가하기 위한 표준화된 테스트 코퍼스다. 비밀 정보 유출, 프롬프트 인젝션, SSRF 등 여러 공격 시나리오를 포함한다.",
+        "points": [
+          "평가 대상: AI 에이전트 이그레스 통제 도구",
+          "시나리오: 비밀 유출, 프롬프트 인젝션, SSRF 등",
+          "표준화된 테스트 코퍼스 형태로 제공"
+        ],
+        "why": [
+          "벤더 주장 대신 동일 조건에서 비교할 근거를 제공한다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-wiz-cloud-threat-h1",
+      "title": "위즈 2026 상반기 클라우드 위협 보고서 — 주요 사고 60% 증가",
+      "summary": "주요 클라우드 사고가 60% 늘었으며, 연쇄적인 공급망 침해와 표적 공격이 증가를 주도했다는 분석이다.",
+      "source": "Wiz",
+      "url": "https://www.wiz.io/blog/cloud-threat-highlights-h1-2026?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "클라우드 주요 사고가 반년 만에 60% 늘었고 원인은 연쇄 공급망이다.",
+        "what": "위즈의 2026년 상반기 클라우드 위협 보고서는 주요 클라우드 사고가 60% 증가했다고 밝혔다. 증가의 주된 동인은 연쇄적으로 번지는 공급망 침해와 표적형 공격이다.",
+        "points": [
+          "주요 클라우드 사고 전년 대비 60% 증가",
+          "연쇄(cascading) 공급망 침해가 주 동인",
+          "표적 공격 비중 증가",
+          "2026년 상반기 집계"
+        ],
+        "why": [
+          "단일 침해가 여러 조직으로 번지는 구조가 통계로 확인됐다.",
+          "npm 웜 사례들과 같은 방향의 데이터다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-tontou-cpu-attack",
+      "title": "새 CPU 공격 'TONTOU', 스펙터 v2 방어 우회해 리눅스 패스워드 해시 유출",
+      "summary": "MIT 연구진이 스펙터 v2 완화책을 우회하는 분기 예측기 익스플로잇을 발견했다. 초당 약 5.46바이트 속도로 /etc/shadow를 추출한다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-tontou-cpu-attack-bypasses-spectre-v2-fixes-leaks-linux-password-hashes/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "스펙터 v2 패치를 다 넣어도 /etc/shadow가 새어 나간다.",
+        "what": "MIT 연구진이 스펙터 v2 완화책을 우회하는 분기 예측기 공격 TONTOU를 공개했다. 초당 약 5.46바이트 속도로 리눅스 패스워드 해시 파일을 추출할 수 있다.",
+        "points": [
+          "기존 스펙터 v2 완화책을 우회",
+          "분기 예측기(branch predictor)를 악용",
+          "/etc/shadow 추출 속도 약 5.46바이트/초",
+          "MIT 연구 결과"
+        ],
+        "why": [
+          "마이크로아키텍처 방어가 한 세대 더 갱신되어야 한다는 뜻이다.",
+          "속도가 느려 즉각적 대량 유출 위험은 낮지만 멀티테넌트 환경에서는 다르다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-lightspy-13-countries",
+      "title": "중국 연계 스파이웨어 라이트스파이, 13개국 표적 공격 포착",
+      "summary": "원래 중국 국가 연계 스파이웨어였던 라이트스파이가 상용 플랫폼으로 진화해 정부, 기업, NATO 계열 라우터를 활발히 노리고 있다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/06/china-linked-lightspy-spyware-caught-targeting-victims-in-13-countries-including-the-us/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "국가 도구가 상용 플랫폼이 되면서 표적이 13개국으로 퍼졌다.",
+        "what": "중국 국가 연계로 알려졌던 스파이웨어 라이트스파이가 상용 플랫폼 형태로 진화해 13개국에서 활동 중인 것이 확인됐다. 정부 기관, 기업, NATO 관련 라우터가 표적이다.",
+        "points": [
+          "활동 범위: 미국 포함 13개국",
+          "표적: 정부 기관, 기업, NATO 연계 라우터",
+          "국가 연계 도구에서 상용 플랫폼으로 전환",
+          "현재 활발히 운영 중"
+        ],
+        "why": [
+          "네트워크 엣지 장비가 표적이라는 점에서 같은 날 Zbtlink 백도어 건과 겹친다.",
+          "상용화는 곧 사용 주체를 특정할 수 없다는 뜻이다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-ransom-cartel-sentence",
+      "title": "랜섬 카르텔 배후 벨라루스 사이버범죄자, 징역 16년",
+      "summary": "막심 실니카우가 2021~2023년 랜섬 카르텔 랜섬웨어 운영을 주도한 혐의로 16년형을 선고받았다. 이전에는 앵글러 익스플로잇 킷을 개발했다.",
+      "source": "The Record",
+      "url": "https://therecord.media/belarus-hacker-ransomware-sentenced?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "랜섬 카르텔 운영자에게 징역 16년이 선고됐다.",
+        "what": "막심 실니카우가 2021년부터 2023년까지 랜섬 카르텔 랜섬웨어 조직을 운영한 혐의로 징역 16년을 선고받았다. 그는 과거 앵글러 익스플로잇 킷 개발 이력도 있다.",
+        "points": [
+          "형량: 징역 16년",
+          "혐의: 2021~2023년 랜섬 카르텔 운영",
+          "과거 이력: 앵글러 익스플로잇 킷 개발"
+        ],
+        "why": [
+          "랜섬웨어 운영자에 대한 실형 사례가 누적되고 있다.",
+          "익스플로잇 킷 시대 인물이 랜섬웨어로 이어졌다는 경로가 확인된다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-apple-private-relay-leak",
+      "title": "애플 프라이빗 릴레이, 사파리에서 실제 IP를 노출",
+      "summary": "미스크 연구진이 패치되지 않은 세 가지 누출 경로를 발견했다. DNS 프리페칭, WebAuthn의 관련 오리진 요청, 웹트랜스포트를 통해 어떤 웹사이트든 프라이빗 릴레이를 우회할 수 있다.",
+      "source": "Privacy Guides",
+      "url": "https://www.privacyguides.org/news/2026/08/05/apples-private-relay-leaks-your-real-ip-address-in-safari/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "프라이빗 릴레이를 켜도 세 경로로 실제 IP가 샌다.",
+        "what": "미스크 연구진이 애플 프라이빗 릴레이의 미패치 누출 세 건을 공개했다. DNS 프리페칭, WebAuthn의 관련 오리진 요청, 웹트랜스포트를 통해 임의의 웹사이트가 사용자 실제 IP를 얻을 수 있다.",
+        "points": [
+          "누출 경로 1: DNS 프리페칭",
+          "누출 경로 2: WebAuthn 관련 오리진 요청(ROR)",
+          "누출 경로 3: 웹트랜스포트",
+          "세 건 모두 현재 미패치 상태"
+        ],
+        "why": [
+          "프라이버시 기능을 신뢰 경계로 삼은 위협 모델이 무너진다.",
+          "브라우저 기능이 늘어날 때마다 새 누출 경로가 생기는 구조적 문제다."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-china-palo-alto-review",
+      "title": "중국, 팔로알토네트웍스 제품 사이버보안 심사 착수",
+      "summary": "중국 사이버공간 규제 당국이 팔로알토 제품이 핵심 인프라와 국가안보에 위험이 될 수 있다며 보안 심사에 들어갔다. 외국 보안 벤더에 대한 기존 제한 조치와 같은 흐름이다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/legal/litigation/china-launches-cybersecurity-review-into-palo-alto-networks-products-2026-08-06/?utm_source=tldrit",
+      "report": {
+        "tldr": "중국이 미국 보안 벤더에 대한 심사 카드를 다시 꺼냈다.",
+        "what": "중국 사이버공간 규제 당국이 팔로알토네트웍스 제품에 대한 사이버보안 심사를 개시했다. 핵심 인프라와 국가안보에 대한 잠재적 위험을 사유로 들었다.",
+        "points": [
+          "주체: 중국 사이버공간 규제 당국",
+          "사유: 핵심 인프라 및 국가안보 위험 가능성",
+          "이전 외국 보안 벤더 제한 조치와 동일한 패턴",
+          "심사 결과에 따라 조달 제한 가능"
+        ],
+        "why": [
+          "다국적 기업의 중국 법인 보안 스택 표준화가 다시 흔들린다.",
+          "보안 제품이 지정학 리스크 자산이 되는 흐름이 굳어진다."
+        ],
+        "action": "중국 리전 운영이 있다면 방화벽·SASE 벤더 대체안을 미리 검토할 것."
+      }
+    },
+    {
+      "id": "it-google-assistant-shutdown",
+      "title": "구글 어시스턴트, 9월부터 안드로이드·웨어OS에서 종료",
+      "summary": "구글이 9월 4일부터 모바일 기기에서 어시스턴트 종료를 시작하고 제미나이로 이전한다. 스마트워치, 헤드폰, 안드로이드 오토가 영향을 받는다.",
+      "source": "9to5Google",
+      "url": "https://9to5google.com/2026/08/04/google-assistant-september-2026-shutdown/?utm_source=tldrit",
+      "report": {
+        "tldr": "어시스턴트 종료일이 9월 4일로 확정됐다.",
+        "what": "구글이 9월 4일부터 모바일 기기에서 구글 어시스턴트 종료를 시작한다고 밝혔다. 사용자는 제미나이로 이전되며 스마트워치, 헤드폰, 안드로이드 오토까지 전환 대상이다.",
+        "points": [
+          "종료 시작일: 9월 4일",
+          "대체: 제미나이",
+          "영향 범위: 스마트워치, 헤드폰, 안드로이드 오토",
+          "안드로이드 및 웨어OS 대상"
+        ],
+        "why": [
+          "기업 배포 기기의 음성 워크플로가 재검증 대상이 된다.",
+          "웨어러블·차량 통합은 이전 경로가 단순하지 않다."
+        ],
+        "action": "키오스크·현장직 기기에서 어시스턴트 의존 워크플로가 있는지 9월 전에 확인할 것."
+      }
+    },
+    {
+      "id": "it-natjack-nat-attack",
+      "title": "블랙햇의 '냇잭' — NAT의 신뢰 공백을 뚫는 새 공격",
+      "summary": "냇잭은 NAT 연결 추적 테이블을 조작해 세션 하이재킹, DNS 오염, 서비스 거부를 일으킨다. 13개 벤더 32개 제품을 시험한 결과 모든 구현이 취약했다.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4206287/natjack-exploits-put-nat-security-assumptions-to-the-test-at-black-hat.html?utm_source=tldrit",
+      "report": {
+        "tldr": "시험한 32개 제품이 전부 뚫렸다 — NAT는 보안 경계가 아니다.",
+        "what": "블랙햇에서 공개된 냇잭 공격은 NAT의 연결 추적 테이블을 조작해 세션 하이재킹, DNS 오염, 서비스 거부를 수행한다. 13개 벤더 32개 제품을 시험했고 모든 구현이 취약했다.",
+        "points": [
+          "공격 대상: NAT 연결 추적(conntrack) 테이블",
+          "가능한 결과: 세션 하이재킹, DNS 오염, DoS",
+          "시험 범위: 13개 벤더 32개 제품",
+          "결과: 모든 구현이 취약"
+        ],
+        "why": [
+          "같은 날 인포섹의 Zbtlink 백도어 건과 함께 NAT 신뢰 가정을 정면으로 무너뜨린다.",
+          "구현 버그가 아니라 프로토콜 가정의 문제라 벤더 패치로 끝나지 않는다."
+        ],
+        "action": "내부망 신뢰가 NAT 경계에 의존하는 설계를 다시 볼 것."
+      }
+    },
+    {
+      "id": "it-elt-best-of-breed",
+      "title": "ELT가 다시 베스트오브브리드로 — 빠진 조각은 오케스트레이션",
+      "summary": "데이터 팀이 통합 플랫폼에서 모듈형 아키텍처로 이동 중이다. 복잡한 ELT 운영을 관리하려면 엔터프라이즈 오케스트레이션, 관측성, 에이전트 런타임이 필요하다는 진단이다.",
+      "source": "DataOps Leadership",
+      "url": "https://dataopsleadership.substack.com/p/elt-is-moving-back-to-best-of-breed?utm_source=tldrit",
+      "report": {
+        "tldr": "데이터 스택이 다시 분해되고 있고, 접착제가 없다.",
+        "what": "데이터 팀들이 모놀리식 통합 플랫폼에서 모듈형 베스트오브브리드 구성으로 되돌아가고 있다는 분석이다. 다만 이를 묶을 엔터프라이즈 오케스트레이션, 관측성, 에이전트 런타임이 아직 빠져 있다고 본다.",
+        "points": [
+          "통합 플랫폼 → 모듈형 아키텍처로 회귀 흐름",
+          "부족한 조각: 엔터프라이즈 오케스트레이션",
+          "관측성과 에이전트 런타임도 미성숙 영역으로 지목"
+        ],
+        "why": [
+          "플랫폼 통합/분해 주기가 다시 분해 쪽으로 돌아섰다는 신호다."
+        ]
+      }
+    },
+    {
+      "id": "it-aws-marketplace-ai-insights",
+      "title": "AWS, 마켓플레이스 AI 인사이트로 AI 비용 불투명성 공략",
+      "summary": "소비량 기반 가격을 평이한 언어로 설명하는 도구를 내놨다. 구매 전 비용을 예측할 수 있게 하지만, 정확도는 벤더가 제공한 가격 정보에 달려 있다.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4206073/aws-targets-ai-cost-concerns-with-new-marketplace-insights-tool.html?utm_source=tldrit",
+      "report": {
+        "tldr": "구매 전에 AI 비용을 예측하게 해주는 도구가 나왔다.",
+        "what": "AWS가 마켓플레이스 AI 인사이트를 출시했다. 소비 기반 가격 모델을 평이한 설명으로 풀어 기업이 구매 전 비용을 예측할 수 있게 한다.",
+        "points": [
+          "대상: AWS 마켓플레이스의 소비 기반 AI 상품",
+          "구매 전 지출 예측 기능 제공",
+          "정확도는 벤더 제출 가격 데이터에 의존"
+        ],
+        "why": [
+          "같은 날 CIO Dive의 'AI 비용 초과' 조사와 맞물려 하루의 비용 서사를 이룬다.",
+          "벤더 신고 데이터에 의존하는 구조라 실측 청구와 차이가 날 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-claude-inference-hooks",
+      "title": "앤트로픽, 클로드 엔터프라이즈에 '인퍼런스 훅' — 인라인 DLP",
+      "summary": "기업이 프롬프트를 자사 DLP 서버로 먼저 보내 검사한 뒤 처리하도록 하는 기능이다. 베타로 여러 클로드 표면에 적용되며 단계별 강제 옵션을 제공한다.",
+      "source": "Anthropic",
+      "url": "https://claude.com/blog/claude-enterprise-inference-hooks?utm_source=tldrit",
+      "report": {
+        "tldr": "프롬프트가 모델에 닿기 전에 회사 DLP를 통과시킬 수 있게 됐다.",
+        "what": "앤트로픽이 클로드 엔터프라이즈에 인퍼런스 훅을 도입했다. 고객사가 프롬프트를 자체 데이터 유출 방지 서버로 라우팅해 검사한 뒤 처리하도록 만드는 기능이다.",
+        "points": [
+          "프롬프트를 자사 DLP 서버로 선라우팅",
+          "여러 클로드 표면에 걸쳐 적용되는 베타 기능",
+          "강제 수준을 단계적으로 설정 가능",
+          "기업 규정 준수 요구를 겨냥"
+        ],
+        "why": [
+          "AI 도입의 최대 반대 논거였던 데이터 유출 통제를 벤더가 직접 열어줬다.",
+          "규제 산업의 도입 심사 항목이 하나 줄어든다."
+        ],
+        "action": "AI 사용 정책에 DLP 인라인 검사 요건이 있다면 베타 신청을 검토할 것."
+      }
+    },
+    {
+      "id": "it-agent-access-model",
+      "title": "클라우드플레어 '에이전트 액세스 모델' — 모든 행동을 매번 인가",
+      "summary": "에이전트의 작업 실행을 신뢰할 수 없는 것으로 간주하고 누적된 리소스 상태에 대해 모든 행동을 인가한다. 단기 자격증명, 인라인 강제, 보호 이벤트 발생 시 권한 회수를 강조한다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/the-agent-access-model/?utm_source=tldrit",
+      "report": {
+        "tldr": "에이전트에게는 세션이 아니라 행동 단위로 권한을 준다.",
+        "what": "클라우드플레어가 제안한 에이전트 액세스 모델은 에이전트의 작업 실행 자체를 신뢰할 수 없는 것으로 다룬다. 누적된 리소스 접근 상태를 기준으로 매 행동을 인가하고, 보호 대상 이벤트가 발생하면 권한을 회수한다.",
+        "points": [
+          "에이전트 실행을 기본 불신(untrusted)으로 취급",
+          "누적 리소스 상태 기준으로 행동별 인가",
+          "단기 수명 자격증명 사용",
+          "인라인 강제 및 보호 이벤트 시 권한 제거"
+        ],
+        "why": [
+          "프롬프트 인젝션이 세션 권한을 통째로 상속하는 문제에 대한 구조적 답이다.",
+          "같은 날 인포섹의 agent-egress-bench와 방향이 같다."
+        ]
+      }
+    },
+    {
+      "id": "it-surprise-ai-costs",
+      "title": "예상 못 한 AI 비용이 기업 도입을 막고 있다",
+      "summary": "396개 조직 조사에서 4분의 1이 예상 밖 AI 비용 때문에 프로젝트를 지연하거나 취소했다. 절반 가까이는 비용 돌발을 이사회에 보고했으며, 비용은 여러 플랫폼 계층에 흩어져 발생한다.",
+      "source": "CIO Dive",
+      "url": "https://www.ciodive.com/news/mavvrik-AI-cost-overruns-CIO/827130/?utm_source=tldrit",
+      "report": {
+        "tldr": "기업 4곳 중 1곳이 AI 비용 때문에 프로젝트를 접거나 미뤘다.",
+        "what": "396개 조직을 대상으로 한 조사에서 4분의 1이 예상치 못한 AI 지출로 프로젝트를 지연하거나 취소했다고 답했다. 절반 가까운 기업이 비용 돌발을 이사회 안건으로 올렸다.",
+        "points": [
+          "조사 대상 396개 조직",
+          "25%가 비용 문제로 프로젝트 지연 또는 취소",
+          "약 절반이 비용 돌발을 이사회에 보고",
+          "비용이 여러 플랫폼 계층에 분산되어 추적이 어려움"
+        ],
+        "why": [
+          "AI 도입의 병목이 기술이 아니라 예측 가능한 단가로 이동했다.",
+          "같은 날 AWS의 비용 예측 도구 출시와 정확히 맞물린다."
+        ]
+      }
+    },
+    {
+      "id": "it-space-security",
+      "title": "우주가 연결될수록 보안이 결정적이 된다",
+      "summary": "달·심우주 임무가 도청과 국가급 공격에 견디는 상호 연결 네트워크를 요구한다. NASA의 루나넷 계획은 지연 허용 네트워킹, 5G 링크, 양자내성 암호를 활용한다.",
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/as-space-gets-connected-security-gets-critical/?utm_source=tldrit",
+      "report": {
+        "tldr": "루나넷은 지연 허용 네트워크 위에 양자내성 암호를 얹는다.",
+        "what": "달과 심우주 임무가 상호 연결 네트워크를 요구하면서 도청과 국가급 공격에 대한 내성이 설계 요건이 됐다. NASA 루나넷은 지연 허용 네트워킹, 5G 링크, 양자내성 암호를 조합한다.",
+        "points": [
+          "요구사항: 도청·국가급 공격 내성",
+          "루나넷 구성: 지연 허용 네트워킹(DTN)",
+          "5G 링크 활용 계획",
+          "양자내성 암호 적용"
+        ],
+        "why": [
+          "왕복 지연이 큰 환경에서는 기존 인증 프로토콜이 성립하지 않는다.",
+          "양자내성 암호가 실제 요구사항으로 명시된 드문 사례다."
+        ]
+      }
+    },
+    {
+      "id": "it-cisco-sdwan-flaws",
+      "title": "시스코 SD-WAN 심각 취약점 — 접근 통제 우회 가능",
+      "summary": "시스코가 카탈리스트 SD-WAN의 다수 취약점에 대한 보안 패치를 배포했다. CVSS 9.9점짜리 3건을 포함하며 접근 통제 우회와 권한 상승이 가능하다.",
+      "source": "GBHackers",
+      "url": "https://gbhackers.com/critical-cisco-sd-wan-flaws-expose-systems/?utm_source=tldrit",
+      "report": {
+        "tldr": "CVSS 9.9 세 건 — 카탈리스트 SD-WAN 즉시 패치 대상이다.",
+        "what": "시스코가 카탈리스트 SD-WAN의 복수 취약점에 대한 패치를 공개했다. 이 중 3건은 CVSS 9.9점으로 접근 통제 우회와 권한 상승을 허용한다.",
+        "points": [
+          "CVSS 9.9 등급 3건 포함",
+          "영향: 접근 통제 우회, 권한 상승",
+          "대상: 시스코 카탈리스트 SD-WAN",
+          "패치 배포 완료"
+        ],
+        "why": [
+          "SD-WAN은 지사 전체 트래픽의 관문이라 침해 시 파급이 크다.",
+          "같은 날 나온 냇잭·Zbtlink 건과 함께 네트워크 엣지가 하루의 위험 축이 됐다."
+        ],
+        "action": "카탈리스트 SD-WAN 인스턴스를 우선순위 패치 대상으로 올릴 것."
+      }
+    },
+    {
+      "id": "it-hpe-price-validity",
+      "title": "HPE, 하드웨어 견적가 유효기간을 수개월까지 연장",
+      "summary": "HPE가 견적 발행 시점부터 공장 출하 시점까지 가격을 유지하기로 했다. 서버·메모리·스토리지 부품 가격 변동에 따른 리스크를 완화하려는 조치다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/systems/2026/08/06/hpe-extends-validity-of-quoted-hardware-prices-possibly-for-months/5283817?utm_source=tldrit",
+      "report": {
+        "tldr": "메모리 가격 폭등에 벤더가 견적 유효기간으로 대응했다.",
+        "what": "HPE가 하드웨어 견적 가격을 발행 시점부터 공장 출하 시점까지 유지하기로 했다. 서버·메모리·스토리지 부품 가격 변동성이 커진 데 따른 조치다.",
+        "points": [
+          "견적 발행 시점 가격을 공장 출하까지 유지",
+          "적용 기간이 수개월에 이를 수 있음",
+          "배경: 서버·메모리·스토리지 부품 가격 급변"
+        ],
+        "why": [
+          "구매 측 리스크를 벤더가 흡수한다는 것은 그만큼 조달 마찰이 컸다는 뜻이다.",
+          "같은 날 하드웨어 에디션의 DRAM 부족 보도와 직결된다."
+        ]
+      }
+    }
+  ]
+}

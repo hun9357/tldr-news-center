@@ -1,0 +1,304 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-generative-ui",
+      "title": "제너레이티브 UI",
+      "summary": "AI 응답의 '텍스트 벽'을 사용자 의도에 맞춰 생성된 인터페이스로 대체하는 접근이다. 생성 방식을 정적/통제형, 선언형, 개방형으로 분류하고 각각의 구현 트레이드오프를 짚는다.",
+      "source": "boda.sh",
+      "url": "https://boda.sh/blog/generative-ui?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 응답을 텍스트가 아니라 인터페이스로 되돌려주는 설계 분류다.",
+        "what": "제너레이티브 UI는 AI가 내놓는 긴 텍스트 답변을 사용자 의도에 맞춘 인터페이스로 대체한다. 이 글은 생성 방식을 세 범주로 나누고 구현상의 득실을 비교한다.",
+        "points": [
+          "정적/통제형: 미리 정의된 컴포넌트 선택",
+          "선언형: 모델이 스키마를 채우고 클라이언트가 렌더",
+          "개방형: 모델이 UI 코드를 직접 생성",
+          "각 방식의 안전성·유연성 트레이드오프 정리"
+        ],
+        "why": [
+          "개방형 생성은 유연하지만 검증되지 않은 코드 실행 문제를 그대로 안는다."
+        ]
+      }
+    },
+    {
+      "id": "dev-tailwind-best-practices",
+      "title": "테일윈드 CSS 혼돈을 막는 5가지 실천법",
+      "summary": "디자인 토큰 도입, 유틸리티 클래스 최소화, 컴포넌트 기반 접근을 축으로 클래스 순서 일관성과 의미 단위 그룹핑을 더해 유지보수 가능한 테일윈드 코드베이스를 만든다.",
+      "source": "Evil Martians",
+      "url": "https://evilmartians.com/chronicles/5-best-practices-for-preventing-chaos-in-tailwind-css?utm_source=tldrdev",
+      "report": {
+        "tldr": "테일윈드가 커질 때 무너지는 지점을 다섯 가지 규칙으로 막는다.",
+        "what": "테일윈드 CSS 코드베이스가 규모에 따라 지저분해지는 문제를 다섯 가지 실천법으로 정리했다. 디자인 토큰, 유틸리티 최소화, 컴포넌트화가 핵심이다.",
+        "points": [
+          "디자인 토큰으로 값 중복 제거",
+          "유틸리티 클래스 나열 최소화",
+          "컴포넌트 기반 추출",
+          "클래스 순서 일관성 유지",
+          "의미 단위로 클래스 그룹핑"
+        ],
+        "why": [
+          "유틸리티 우선 접근의 확장성 문제는 도구가 아니라 규율로 해결된다."
+        ]
+      }
+    },
+    {
+      "id": "dev-nextjs-rsc-experiments",
+      "title": "Next.js에서 RSC로 성능과 UX 실험하기",
+      "summary": "Next.js 16.3 프리뷰에서 서버 컴포넌트 패턴 세 가지를 살펴본다. URL 페이지네이션을 쓰는 더보기 버튼, 결과가 스트리밍되는 동안 포커스를 유지하는 검색 입력, 서버 함수로 렌더링하는 초안 미리보기다.",
+      "source": "aurorascharff.no",
+      "url": "https://aurorascharff.no/posts/experimenting-with-rsc-for-performance-and-ux-in-nextjs/?utm_source=tldrdev",
+      "report": {
+        "tldr": "서버 컴포넌트로 흔한 UX 패턴 세 개를 실제로 구현해 봤다.",
+        "what": "Next.js 16.3 프리뷰에서 서버 컴포넌트를 활용한 세 가지 패턴을 실험한 기록이다. 각 패턴의 구현과 한계를 코드 수준에서 다룬다.",
+        "points": [
+          "더보기 버튼 + URL 기반 페이지네이션",
+          "결과 스트리밍 중에도 포커스를 유지하는 검색 입력",
+          "서버 함수로 렌더링되는 초안 미리보기",
+          "Next.js 16.3 프리뷰 기준"
+        ],
+        "why": [
+          "RSC에서 가장 어려운 부분이 포커스·상태 유지라는 점이 구체 사례로 드러난다."
+        ]
+      }
+    },
+    {
+      "id": "dev-steak-skill",
+      "title": "스테이크 굽는 데 기술은 거의 필요 없다 (다만 당신은 제대로 못 굽는다)",
+      "summary": "스테이크 조리와 소프트웨어 개발을 비교하며, AI가 코딩 속도를 높여도 좋은 결과에 필요한 인간의 판단을 대체하지는 못한다고 주장한다.",
+      "source": "blog.sydorets.com",
+      "url": "https://blog.sydorets.com/en/posts/almost-no-skill-required-to-cook-a-steak/?utm_source=tldrdev",
+      "report": {
+        "tldr": "진입 장벽이 낮은 것과 잘하는 것은 다른 문제다.",
+        "what": "스테이크 조리를 비유로 삼아, AI가 코딩의 실행 속도를 높이더라도 품질을 결정하는 판단은 여전히 인간의 몫이라고 주장하는 글이다.",
+        "points": [
+          "실행 난이도와 결과 품질은 별개",
+          "AI는 실행 속도를 높이지만 판단을 대체하지 않음",
+          "판단의 근거는 결국 경험에서 나온다는 논지"
+        ],
+        "why": [
+          "같은 날 'Taste Is All That's Left'와 정확히 같은 주제를 다른 각도로 다룬다."
+        ]
+      }
+    },
+    {
+      "id": "dev-taste-is-all-thats-left",
+      "title": "남은 것은 취향뿐",
+      "summary": "AI가 아이디어와 실행 사이 거리를 줄이면서 빠른 프로토타이핑이 가능해졌지만 동시에 평범한 결과물이 시장에 넘치게 됐고, 무엇을 만들 가치가 있는지 가리는 안목이 중요해졌다는 논지다.",
+      "source": "notashelf.dev",
+      "url": "https://notashelf.dev/posts/taste-is-all-thats-left?utm_source=tldrdev",
+      "report": {
+        "tldr": "만드는 비용이 0에 가까워지면 무엇을 만들지가 전부가 된다.",
+        "what": "AI가 아이디어에서 구현까지의 거리를 줄이면서 프로토타이핑은 쉬워졌지만 평균적인 결과물이 폭증했다. 결국 무엇이 만들어질 가치가 있는지 판별하는 안목이 차별점이 된다는 주장이다.",
+        "points": [
+          "아이디어-실행 간 거리 축소",
+          "결과물 공급 과잉과 평균 품질 하락",
+          "차별화 지점이 실행에서 선별로 이동"
+        ],
+        "why": [
+          "같은 날 dev 에디션 오피니언 세 편이 모두 이 주제로 수렴한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-google-mind-less-deep",
+      "title": "구글의 '마인드'가 얕아지고 있다",
+      "summary": "구글 딥마인드와 브레인 부문의 핵심 인재 이탈이 결과적으로는 조직 재편을 통해 AI 사업을 강화할 수도 있다는 분석이다.",
+      "source": "Spyglass",
+      "url": "https://spyglass.org/google-deepmind-hassabis-dean-gemini/?utm_source=tldrdev",
+      "report": {
+        "tldr": "딥마인드 인재 이탈을 조직 재편의 기회로 읽는 반대 해석이다.",
+        "what": "구글 딥마인드와 브레인 부문에서 이어진 핵심 인력 이탈을 다루면서, 이것이 필요한 조직 개편을 앞당겨 오히려 AI 사업을 강화할 수 있다는 시각을 제시한다.",
+        "points": [
+          "딥마인드·브레인 핵심 인재 연쇄 이탈",
+          "이탈을 조직 재편의 계기로 해석",
+          "제미나이 로드맵과의 연결을 짚음"
+        ],
+        "why": [
+          "같은 날 구글 CEO의 'AI 모멘텀의 다음 장' 메시지와 나란히 읽을 만하다."
+        ]
+      }
+    },
+    {
+      "id": "dev-celld",
+      "title": "Celld — 자체 호스팅 가능한 분산 두러블 오브젝트 데몬",
+      "summary": "SQLite 데이터베이스를 S3 호환 스토리지로 동기화해 클라우드플레어 워커스와 두러블 오브젝트를 자체 호스팅할 수 있게 하는 오픈소스 데몬이다.",
+      "source": "GitHub",
+      "url": "https://github.com/denoland/celld?utm_source=tldrdev",
+      "report": {
+        "tldr": "두러블 오브젝트를 내 서버에서 돌린다.",
+        "what": "데노 팀이 만든 celld는 클라우드플레어 워커스와 두러블 오브젝트를 자체 인프라에서 실행하는 오픈소스 데몬이다. 각 오브젝트가 독립 SQLite DB가 되고 S3 호환 스토리지로 복제된다.",
+        "points": [
+          "워커스 및 두러블 오브젝트를 로컬/자체 호스팅",
+          "오브젝트마다 독립 SQLite 데이터베이스",
+          "S3 호환 스토리지로 복제 및 조정",
+          "버킷만으로 노드 간 조정 수행"
+        ],
+        "why": [
+          "엣지 런타임의 벤더 종속을 푸는 실질적 경로가 생겼다.",
+          "조정 계층을 버킷 하나로 줄인 설계가 운영 부담을 크게 낮춘다."
+        ]
+      }
+    },
+    {
+      "id": "dev-gpt56-sol-improvements",
+      "title": "챗GPT의 GPT-5.6 솔 개선과 무료 사용자 접근 확대",
+      "summary": "GPT-5.6 솔과 루나를 포함한 모델 업데이트로 응답 신뢰성을 높였고, 무료 사용자에게 무제한 텍스트 대화와 새 Think 기능을 제공한다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/?utm_source=tldrdev",
+      "report": {
+        "tldr": "솔의 응답 신뢰성 개선과 무료 티어 확대가 한 번에 나왔다.",
+        "what": "오픈AI가 GPT-5.6 솔의 응답 신뢰성을 개선하고 무료 사용자에게 무제한 텍스트 대화를 열었다. 선택적 고추론을 켜는 Think 버튼도 함께 도입됐다.",
+        "points": [
+          "GPT-5.6 솔 응답 신뢰성 개선",
+          "무료 사용자 텍스트 대화 무제한",
+          "Think 버튼으로 선택적 고추론",
+          "무료·Go 기본 모델은 루나로 전환"
+        ],
+        "why": [
+          "개발자 입장에서는 무료 티어 사용자 기반이 커지는 만큼 API 트래픽 패턴이 바뀐다."
+        ]
+      }
+    },
+    {
+      "id": "dev-agent-plugins-intro",
+      "title": "에이전트 플러그인 소개",
+      "summary": "에이전트 플러그인 1.0.0은 에이전트 스킬과 MCP 서버를 공통 포맷으로 패키징할 수 있게 하는 새로운 개방 표준으로, 클라이언트 간 AI 통합을 쉽게 만든다.",
+      "source": "Vercel",
+      "url": "https://vercel.com/blog/introducing-agent-plugins?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 확장 배포에 npm 같은 공통 단위가 생겼다.",
+        "what": "버셀이 에이전트 플러그인 1.0.0 개방 표준을 소개했다. 에이전트 스킬과 MCP 서버를 하나의 공통 포맷으로 묶어 여러 클라이언트에서 동일하게 쓸 수 있게 한다.",
+        "points": [
+          "1.0.0 개방 표준 공개",
+          "에이전트 스킬 + MCP 서버 공통 패키징",
+          "클라이언트 간 이식성 확보",
+          "설치·권한·UX는 클라이언트 재량"
+        ],
+        "why": [
+          "같은 날 tech·ai 에디션에도 실린 하루의 공통 화제다.",
+          "MCP 도입 이후 남은 문제가 연결이 아니라 배포였음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-practical-ai-work-smarter",
+      "title": "실용적 AI: 더 열심히 말고 더 똑똑하게",
+      "summary": "연산량과 데이터 이동을 최소화하는 하이브리드 AI 접근으로, 그래프 스트리밍 프로세서를 사용해 복잡도에 따라 워크로드를 선별 처리한다.",
+      "source": "EE Journal",
+      "url": "https://www.eejournal.com/article/practical-ai-dont-work-harder-work-smarter?utm_source=tldrdev",
+      "report": {
+        "tldr": "모든 입력에 같은 연산을 쓰지 않는 것이 최적화의 핵심이다.",
+        "what": "하이브리드 AI 처리 방식으로 연산량과 데이터 이동을 줄이는 접근을 설명한다. 그래프 스트리밍 프로세서가 워크로드 복잡도에 따라 처리 경로를 나눈다.",
+        "points": [
+          "연산량과 데이터 이동 최소화가 목표",
+          "그래프 스트리밍 프로세서 활용",
+          "워크로드 복잡도 기반 선별 처리"
+        ],
+        "why": [
+          "추론 단가 문제를 모델이 아닌 실행 경로에서 푸는 접근이다."
+        ]
+      }
+    },
+    {
+      "id": "dev-end-of-no-code",
+      "title": "노코드의 종말",
+      "summary": "벤딩 스푼스의 12억 8,000만 달러 에어테이블 인수는 노코드 플랫폼이 LLM 루프와 전통적 개발 양쪽에서 압박받고 있음을 보여주며, 리눅스처럼 커스터마이즈 가능한 기술이 유리해진다는 분석이다.",
+      "source": "blog.exe.dev",
+      "url": "https://blog.exe.dev/the-end-of-no-code?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트가 코드를 쓰면 노코드의 존재 이유가 사라진다.",
+        "what": "벤딩 스푼스가 에어테이블을 12억 8,000만 달러에 인수한 사건을 노코드 카테고리의 구조적 압박 신호로 읽는다. LLM 루프가 아래에서, 전통적 개발이 위에서 노코드를 압박한다는 구도다.",
+        "points": [
+          "에어테이블 인수가 12억 8,000만 달러",
+          "노코드가 LLM 루프와 전통 개발 사이에서 압박",
+          "커스터마이즈 가능한 기술 스택이 유리해진다는 전망"
+        ],
+        "why": [
+          "같은 날 founders 에디션의 '에어테이블이 가지 않은 길'과 짝을 이룬다.",
+          "노코드의 가치 제안이던 '개발자 없이 만들기'를 에이전트가 대체한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-agentic-ide-builds-itself",
+      "title": "스스로를 만드는 에이전트 IDE",
+      "summary": "bb는 사용자가 자기 개발 환경에 맞춰 기능을 확장할 수 있는 커스터마이즈 가능한 오픈소스 에이전트 IDE다.",
+      "source": "sawyerhood.com",
+      "url": "https://www.sawyerhood.com/blog/an-agentic-ide-that-builds-itself?utm_source=tldrdev",
+      "report": {
+        "tldr": "기능이 부족하면 IDE에게 만들어 달라고 하면 된다.",
+        "what": "bb는 자기 자신을 확장하는 오픈소스 에이전트 IDE다. 사용자가 필요한 기능을 요청하면 IDE가 그 기능을 직접 구현해 붙인다.",
+        "points": [
+          "오픈소스 에이전트 IDE",
+          "사용자 요청 기반으로 자체 기능 확장",
+          "개별 개발 환경에 맞춘 커스터마이즈 지향"
+        ],
+        "why": [
+          "플러그인 생태계 없이도 확장성을 확보하는 대안 모델이다."
+        ]
+      }
+    },
+    {
+      "id": "dev-htmx-progressive-forms",
+      "title": "HTMX로 점진적 향상 폼 만들기",
+      "summary": "북마크 편집 폼을 예로 점진적 향상 원칙을 시연한다. 자바스크립트 없이도 동작하면서 HTMX로 상호작용성과 서버 통신을 향상시킨다.",
+      "source": "rafa.ee",
+      "url": "https://www.rafa.ee/articles/progressive-enhanced-forms-htmx/?utm_source=tldrdev",
+      "report": {
+        "tldr": "JS 없이 되는 폼 위에 HTMX를 얹는 순서를 보여준다.",
+        "what": "북마크 편집 폼을 예제로 점진적 향상을 구현한 튜토리얼이다. 기본 HTML 폼으로 먼저 동작을 보장하고 HTMX로 상호작용을 추가한다.",
+        "points": [
+          "자바스크립트 없이 동작하는 기본 폼 우선 구현",
+          "HTMX로 상호작용성과 부분 갱신 추가",
+          "북마크 편집 시나리오 기반 예제"
+        ],
+        "why": [
+          "프레임워크 없이도 현대적 UX가 가능한 경로를 구체적으로 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-channels-sdk-repo",
+      "title": "채널스 SDK",
+      "summary": "슬랙, 마이크로소프트 팀즈 같은 커뮤니케이션 플랫폼에 AI 에이전트를 통합하고 상호작용형 UI 경험을 제공하는 SDK다.",
+      "source": "GitHub",
+      "url": "https://github.com/CopilotKit/channels-sdk?utm_source=tldrdev",
+      "report": {
+        "tldr": "슬랙·팀즈를 에이전트 프런트엔드로 쓰는 SDK다.",
+        "what": "코파일럿킷의 채널스 SDK는 AI 에이전트를 슬랙과 마이크로소프트 팀즈에 통합하며, 단순 텍스트가 아닌 상호작용형 UI를 제공한다.",
+        "points": [
+          "슬랙, 마이크로소프트 팀즈 통합",
+          "상호작용형 UI 경험 지원",
+          "코파일럿킷 인텔리전스 기반"
+        ],
+        "why": [
+          "에이전트 배포에 별도 프런트엔드를 만들 필요를 없앤다."
+        ]
+      }
+    },
+    {
+      "id": "dev-open-questions-open-weights",
+      "title": "개방 가중치를 둘러싼 미해결 질문들",
+      "summary": "개방 가중치 AI가 사용자 자율성에 기여하는 측면과 범죄적 오남용 가능성이라는 위험 사이의 긴장을 탐구한다.",
+      "source": "Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/open-questions-on-open-weights?utm_source=tldrdev",
+      "report": {
+        "tldr": "개방 가중치의 이익과 위험을 결론 없이 나란히 놓는다.",
+        "what": "개방 가중치 AI가 사용자 자율성을 넓히는 동시에 범죄적 오남용 가능성을 키운다는 긴장 관계를 정리한 글이다.",
+        "points": [
+          "사용자 자율성 확대라는 이익",
+          "범죄·생물학적 오남용이라는 위험",
+          "결론을 단정하지 않고 미해결 질문으로 제시"
+        ],
+        "why": [
+          "같은 날 tech 에디션의 AI 설계 바이러스 보도가 이 논쟁의 배경이 된다."
+        ]
+      }
+    }
+  ]
+}

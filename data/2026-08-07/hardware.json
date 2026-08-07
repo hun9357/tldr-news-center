@@ -1,0 +1,317 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-amd-taalas-chips",
+      "title": "AMD, 탈라스 인수로 AI 모델을 금속층에 각인한다",
+      "summary": "AMD가 토론토의 탈라스를 인수해 AI 추론 역량을 확장한다. 탈라스는 개별 AI 모델 가중치를 제조 단계에서 반도체 금속층에 직접 하드와이어링하는 커스텀 실리콘 아키텍처를 개발했으며, AMD는 인스팅트 GPU와 함께 가속기 로드맵에 통합할 계획이다.",
+      "source": "Unite.AI",
+      "url": "https://www.unite.ai/amd-buys-taalas-to-put-hard-wired-ai-models-in-its-accelerator-roadmap/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "가중치를 메모리가 아니라 배선에 넣으면 메모리 벽이 사라진다.",
+        "what": "AMD가 탈라스를 인수해 하드와이어드 AI 모델 기술을 가속기 로드맵에 편입한다. 탈라스는 모델 가중치를 제조 시점에 반도체 금속층에 직접 새기는 방식을 쓴다.",
+        "points": [
+          "대상: 토론토 소재 탈라스",
+          "기술: 모델 가중치를 반도체 금속층에 하드와이어링",
+          "적용 시점: 제조 단계에서 고정",
+          "AMD 인스팅트 GPU와 함께 가속기 로드맵에 통합",
+          "목적: 추론 비용과 메모리 병목 동시 해소"
+        ],
+        "why": [
+          "메모리 대역폭이 추론의 최대 병목인 상황에서 그 병목을 물리적으로 없앤다.",
+          "대가는 유연성 — 모델을 바꾸려면 칩을 새로 만들어야 한다.",
+          "같은 날 앤트로픽의 자체 칩 팀 구성과 함께 추론 실리콘 내재화가 하루의 축이 됐다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-anthropic-chip-team",
+      "title": "앤트로픽, 클로드 전용 사내 칩 설계팀 구성",
+      "summary": "앤트로픽이 클로드에 최적화된 커스텀 프로세서를 만들 내부 칩 설계팀을 꾸리고 있다고 확인했다. 하드웨어를 소프트웨어 모델과 함께 설계해 추론 비용을 낮추고 기업 배포의 실행 속도를 높이는 것이 목표다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/anthropic-build-in-house-chip-design-team-claude-hire-engineers-2026-08-05/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "프런티어 랩이 모델과 칩을 함께 설계하기 시작했다.",
+        "what": "앤트로픽이 클로드 전용 커스텀 프로세서를 설계할 사내 팀을 구성 중이라고 확인했다. 하드웨어와 모델을 공동 설계해 추론 비용과 지연을 함께 줄이는 것이 목적이다.",
+        "points": [
+          "사내 칩 설계팀 구성 및 엔지니어 채용",
+          "대상: 클로드에 최적화된 커스텀 프로세서",
+          "접근: 하드웨어-모델 공동 설계(co-design)",
+          "목표: 추론 비용 절감 및 실행 속도 향상",
+          "초점은 기업 배포 시나리오"
+        ],
+        "why": [
+          "모델 랩이 칩까지 내재화하면 토큰 단가 경쟁의 바닥이 다시 내려간다.",
+          "구글 TPU 모델을 따라가는 흐름이며, AMD의 탈라스 인수와 같은 날 나왔다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-blue-origin-new-glenn",
+      "title": "블루오리진, 5월 뉴글렌 폭발 원인을 BE-4 엔진 밸브 결함으로 특정",
+      "summary": "블루오리진이 근본 원인을 BE-4 엔진 중 하나의 주 산소 밸브로 지목했다. 수정은 간단한 밸브 개조로 빠르게 적용 가능하며, 올해 안에 뉴글렌 비행 재개를 기대하고 있다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/science/blue-origin-zeroes-rocket-engine-issue-source-new-glenn-explosion-2026-08-05/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "원인은 주 산소 밸브 하나 — 개조가 간단해 복귀가 빠르다.",
+        "what": "블루오리진이 5월 뉴글렌 폭발의 근본 원인을 BE-4 엔진의 주 산소 밸브로 확정했다. 수정 방안이 단순한 밸브 개조여서 레트로핏이 빠르게 가능하다.",
+        "points": [
+          "원인: BE-4 엔진 중 하나의 주 산소 밸브",
+          "수정: 단순 밸브 개조로 빠른 레트로핏 가능",
+          "목표: 올해 안 뉴글렌 비행 재개",
+          "설계 전반이 아닌 부품 단위 결함으로 결론"
+        ],
+        "why": [
+          "설계 결함이 아니라 부품 결함이라 일정 타격이 제한적이다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-pcie-gen6-storage",
+      "title": "PCIe 6세대 스토리지 아키텍처 시연",
+      "summary": "마이크로칩 테크놀로지와 마이크론이 고성능 PCIe 6세대 스토리지를 시연했다. 레인당 64 GT/s 전송 속도로 PCIe 5.0 대비 대역폭이 두 배가 된다.",
+      "source": "TheElec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=12859&utm_source=tldrhardware",
+      "report": {
+        "tldr": "레인당 64 GT/s — PCIe 5.0 대비 대역폭 2배다.",
+        "what": "마이크로칩 테크놀로지와 마이크론이 PCIe 6세대 기반 고성능 스토리지 아키텍처를 시연했다. 레인당 전송 속도가 64 GT/s로 이전 세대의 두 배다.",
+        "points": [
+          "레인당 전송 속도 64 GT/s",
+          "PCIe 5.0 대비 대역폭 2배",
+          "마이크로칩 + 마이크론 공동 시연"
+        ],
+        "why": [
+          "AI 학습·추론 파이프라인의 스토리지 I/O 병목 완화에 직결된다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-dwave-qubit-gate",
+      "title": "D-웨이브 듀얼레일 큐비트 게이트, 충실도 99.9% 달성",
+      "summary": "D-웨이브가 약 99.9% 충실도와 500나노초 수준의 빠른 동작 시간을 갖춘 새 2큐비트 게이트를 발표했다. 하드웨어 수준의 네이티브 오류 검출 능력을 유지해 오류 정정 오버헤드를 줄인다.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/d-wave-demonstrates-major-hardware-150500935.html?utm_source=tldrhardware",
+      "report": {
+        "tldr": "충실도 99.9%에 네이티브 오류 검출까지 유지했다.",
+        "what": "D-웨이브가 새로운 2큐비트 게이트를 발표했다. 약 99.9% 충실도와 500나노초 수준 동작 시간을 기록하면서도 하드웨어 수준 오류 검출을 유지한다.",
+        "points": [
+          "2큐비트 게이트 충실도 약 99.9%",
+          "동작 시간 약 500나노초",
+          "네이티브 하드웨어 오류 검출 유지",
+          "오류 정정 오버헤드 감소 효과"
+        ],
+        "why": [
+          "오류 정정 오버헤드는 실용 양자컴퓨팅의 최대 비용 항목이다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-scale-ai-arithmetic",
+      "title": "AI 연산을 효율적으로 확장하는 법",
+      "summary": "AI 컴퓨트를 위한 산술 특화를 분석한 기술 글이다. 하드웨어 설계자들이 범용 IEEE 부동소수점 유닛을 FP8, FP4, 마이크로스케일링(MX) 같은 저정밀 표현에 맞춘 전용 산술 엔진으로 대체하고 있다.",
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/how-to-scale-ai-arithmetic-efficiently/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "범용 부동소수점 유닛이 저정밀 전용 엔진으로 교체되고 있다.",
+        "what": "AI 컴퓨트에서 산술 연산을 특화하는 흐름을 정리한 기술 분석이다. IEEE 표준 부동소수점 대신 FP8, FP4, MX 포맷에 맞춘 전용 엔진이 쓰인다.",
+        "points": [
+          "범용 IEEE 부동소수점 유닛 대체 흐름",
+          "대상 포맷: FP8, FP4, 마이크로스케일링(MX)",
+          "저정밀 표현에 맞춘 전용 산술 엔진",
+          "면적·전력 효율이 주된 동기"
+        ],
+        "why": [
+          "같은 날 AMD의 탈라스 인수와 같은 방향 — 범용성을 버려 효율을 얻는다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-tsmc-n3-intel-opening",
+      "title": "엔비디아·구글이 TSMC N3를 채우면서 인텔에 기회가 열린다",
+      "summary": "엔비디아 루빈 GPU가 TSMC 3나노로 옮겨오는 가운데 구글 TPU도 같은 노드에 남으면서 캐파 제약이 생겼다. TSMC는 이미 계획된 N3 캐파에 도달했고 일부 고객에게 최대 25% 가격 인상을 적용해, 인텔 18A에 반사이익이 돌아간다.",
+      "source": "I/O Fund",
+      "url": "https://io-fund.com/ai-stocks/nvidia-google-tsmc-n3-node-intel-opportunity?utm_source=tldrhardware",
+      "report": {
+        "tldr": "N3 캐파가 꽉 찼고 가격이 25% 올랐다 — 인텔 18A의 기회다.",
+        "what": "엔비디아 루빈 GPU가 TSMC 3나노로 이동하고 구글 TPU도 같은 노드를 쓰면서 N3 캐파가 포화됐다. TSMC는 일부 고객에게 최대 25%의 가격 인상을 적용하고 있다.",
+        "points": [
+          "엔비디아 루빈 GPU가 TSMC N3로 이동",
+          "구글 TPU도 동일 노드 유지",
+          "TSMC는 계획된 N3 캐파에 이미 도달",
+          "일부 고객 대상 최대 25% 가격 인상",
+          "인텔 18A가 대안으로 부상"
+        ],
+        "why": [
+          "파운드리 캐파가 AI 하드웨어 공급의 실질 상한이 되고 있다.",
+          "같은 날 테슬라·스페이스X의 자체 팹 발표가 이 맥락에서 읽힌다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-cxl-memory-wall",
+      "title": "CXL로 메모리 벽 넘기",
+      "summary": "메모리 제약을 다루는 컴퓨트 익스프레스 링크 기술 분석이다. CXL은 심각한 지연 페널티 없이 서버 클러스터 전반에 메모리 확장과 다중 노드 풀링을 가능하게 한다.",
+      "source": "The Diligence Stack",
+      "url": "https://www.thediligencestack.com/p/breaking-the-memory-wall-with-cxl?utm_source=tldrhardware",
+      "report": {
+        "tldr": "메모리를 노드 밖으로 빼내 클러스터 단위로 공유한다.",
+        "what": "CXL이 메모리 제약 문제를 어떻게 다루는지 분석한 글이다. 서버 클러스터 전반에서 메모리 확장과 다중 노드 풀링을 지연 페널티 없이 구현한다.",
+        "points": [
+          "CXL을 통한 메모리 확장",
+          "다중 노드 간 메모리 풀링",
+          "심각한 지연 페널티 없이 구현",
+          "AI 인프라의 메모리 벽 완화가 목표"
+        ],
+        "why": [
+          "DRAM 가격 급등 국면에서 활용률을 높이는 직접적 수단이다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-unitree-ipo",
+      "title": "유니트리, 상하이 IPO 앞두고 74억 달러 기업가치 전망",
+      "summary": "중국 로봇 제조사 유니트리가 상하이 상장에서 74억~82억 달러 기업가치를 달성할 것으로 예상된다. 기존 120억 위안 평가에서 크게 오른 수치다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/asia-pacific/unitree-expected-be-worth-over-50-billion-yuan-ipo-sponsor-citic-securities-says-2026-08-04?utm_source=tldrhardware",
+      "report": {
+        "tldr": "유니트리가 상하이 상장에서 74억 달러 이상을 노린다.",
+        "what": "중국 로봇 제조사 유니트리가 상하이 IPO에서 74억~82억 달러 기업가치를 기록할 것으로 전망된다. 이전 120억 위안 평가에서 크게 상승했다.",
+        "points": [
+          "예상 기업가치 74억~82억 달러",
+          "기존 평가액 120억 위안에서 대폭 상승",
+          "상하이 증시 상장 추진",
+          "주관사 CITIC 증권 전망"
+        ],
+        "why": [
+          "휴머노이드 로봇 기업의 공모 시장 검증 사례가 된다.",
+          "같은 날 월든 로보틱스의 3억 달러 조달과 함께 로봇 자금 유입이 이어졌다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-optane-requiem",
+      "title": "옵테인을 위한 진혼곡 — RAM 가격 위기를 덜어 줬을 인텔의 KV 캐시 킬러",
+      "summary": "인텔이 단종한 옵테인 메모리가 비교 불가한 쓰기 내구성과 작은 랜덤 쓰기에 대한 낮은 지연 덕분에 지금의 LLM KV 캐싱 워크로드에 딱 맞았을 것이라는 분석이다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/storage/2026/07/29/a-requiem-for-optane-intels-kv-cache-killer-that-could-have-eased-the-ram-price-crunch/5280063?utm_source=tldrhardware",
+      "report": {
+        "tldr": "옵테인의 특성이 하필 지금의 KV 캐시 워크로드와 정확히 맞았다.",
+        "what": "인텔이 단종한 옵테인 메모리가 현재의 LLM KV 캐싱 워크로드에 이상적이었을 것이라는 회고적 분석이다. 뛰어난 쓰기 내구성과 작은 랜덤 쓰기 지연이 근거다.",
+        "points": [
+          "옵테인의 강점: 쓰기 내구성, 작은 랜덤 쓰기 저지연",
+          "LLM KV 캐싱의 접근 패턴과 부합",
+          "현재 DRAM 가격 급등 국면에서 대안이 됐을 것",
+          "인텔의 단종 결정이 시점상 아쉬웠다는 평가"
+        ],
+        "why": [
+          "메모리 계층의 빈자리가 지금 AI 인프라 비용으로 나타나고 있다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-moove-series-c",
+      "title": "무브, 로보택시 인프라 확장 위해 2억 5,000만 달러 유치",
+      "summary": "무브가 21억 달러 기업가치로 시리즈 C를 마감했다. 자율주행 차량의 충전·정비·운영을 관리하는 로보틱스 우선 차고지 '네스트'를 개발한다.",
+      "source": "Moove",
+      "url": "https://www.moove.io/drive-to-own/news/moove-series-c?utm_source=tldrhardware",
+      "report": {
+        "tldr": "로보택시의 병목은 차량이 아니라 차고지다.",
+        "what": "무브가 21억 달러 기업가치로 시리즈 C 2억 5,000만 달러를 유치했다. 자금은 자율주행 차량의 충전, 정비, 운영을 관리하는 로보틱스 기반 차고지 '네스트' 구축에 쓰인다.",
+        "points": [
+          "조달액 2억 5,000만 달러, 기업가치 21억 달러",
+          "핵심 제품: 로보틱스 우선 차고지 '네스트'",
+          "기능: 자율주행 차량 충전·정비·오케스트레이션"
+        ],
+        "why": [
+          "자율주행 상용화에서 지상 운영 인프라가 별도 투자 카테고리가 됐다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-lumilens-funding",
+      "title": "루미렌즈, 데이터센터 전선을 빛으로 바꾸겠다며 7억 달러 유치",
+      "summary": "루미렌즈가 스텔스에서 나오며 7억 달러를 조달해 기업가치 55억 1,000만 달러를 기록했다. 광 인터커넥트 기술이 대상이다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/lumilens-700m-stealth-5-51bn-ai-optical-interconnect",
+      "report": {
+        "tldr": "스텔스 해제와 동시에 55억 달러 기업가치를 찍었다.",
+        "what": "광 인터커넥트 스타트업 루미렌즈가 스텔스 상태를 벗으며 7억 달러를 유치했다. 기업가치는 55억 1,000만 달러다.",
+        "points": [
+          "조달액 7억 달러, 기업가치 55억 1,000만 달러",
+          "기술: 데이터센터 광 인터커넥트",
+          "전기 배선을 광 링크로 대체하는 방향",
+          "스텔스 해제와 동시 발표"
+        ],
+        "why": [
+          "대규모 학습 클러스터의 병목이 연산에서 인터커넥트로 옮겨간 결과다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-tsmc-apple-a20-inventory",
+      "title": "TSMC, DRAM 부족으로 애플 A20 프로 10억 달러어치 재고 보유",
+      "summary": "TSMC가 약 10억 달러 규모의 애플 A20 프로 프로세서를 재고로 들고 있으나 전 세계 모바일 DRAM 부족으로 출하하지 못하고 있다.",
+      "source": "Android Headlines",
+      "url": "https://www.androidheadlines.com/2026/08/apples-iphone-18-pro-launch-is-six-weeks-away-and-theres-a-1-billion-supply-chain-problem.html?utm_source=tldrhardware",
+      "report": {
+        "tldr": "칩은 다 만들었는데 메모리가 없어서 못 보낸다.",
+        "what": "TSMC가 애플 A20 프로 프로세서를 약 10억 달러어치 재고로 보유하고 있지만 글로벌 모바일 DRAM 부족으로 출하가 막혔다.",
+        "points": [
+          "재고 규모 약 10억 달러 상당의 A20 프로",
+          "원인: 전 세계 모바일 DRAM 공급 부족",
+          "아이폰 18 프로 출시를 6주 앞둔 시점",
+          "로직 캐파가 아니라 메모리가 병목"
+        ],
+        "why": [
+          "메모리 부족이 최상위 소비자 제품 출시까지 흔들고 있다.",
+          "같은 날 HPE의 견적 유효기간 연장 조치와 같은 원인이다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-frore-liquidjet",
+      "title": "프로어, 리퀴드젯으로 엔비디아 루빈 GPU 온도 10도 낮춘다",
+      "summary": "프로어 시스템즈가 리퀴드젯 기술로 엔비디아 루빈 GPU의 접합부 온도를 최대 12도까지 낮출 수 있다고 주장한다. 열점을 겨냥한 마이크로채널 방식이다.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments?utm_source=tldrhardware",
+      "report": {
+        "tldr": "마이크로채널로 열점만 겨냥해 접합부 온도를 최대 12도 낮춘다.",
+        "what": "프로어 시스템즈가 리퀴드젯 냉각 기술이 엔비디아 루빈 GPU의 접합부 온도를 최대 12도 낮출 수 있다고 주장했다. 열점을 직접 겨냥한 마이크로채널 구조다.",
+        "points": [
+          "접합부 온도 최대 12도 하락 주장",
+          "마이크로채널로 열점(hotspot)을 직접 타격",
+          "성능 향상 효과도 함께 주장",
+          "하이퍼스케일러의 디리드 GPU 운용 검토 맥락"
+        ],
+        "why": [
+          "랙 밀도 상한이 곧 데이터센터 자본효율이라 냉각이 경제 변수다."
+        ]
+      }
+    },
+    {
+      "id": "hardware-walden-robotics",
+      "title": "월든 로보틱스, 다리를 버리고 바퀴와 단순 그리퍼에 건다",
+      "summary": "토요타 리서치 인스티튜트 스핀아웃인 월든 로보틱스가 11억 달러 기업가치로 3억 달러를 유치하며 등장했다. 휴머노이드 대신 바퀴 달린 로봇과 단순 그리퍼에 집중한다.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/humanoid-robots-walden-robotics-toyota?utm_source=tldrhardware",
+      "report": {
+        "tldr": "공장에서는 두 다리보다 바퀴가 이긴다는 베팅이다.",
+        "what": "토요타 리서치 인스티튜트에서 분사한 월든 로보틱스가 11억 달러 기업가치에 3억 달러를 조달하며 공개됐다. 휴머노이드 형태를 포기하고 바퀴와 단순 그리퍼 조합에 집중한다.",
+        "points": [
+          "조달액 3억 달러, 기업가치 11억 달러",
+          "토요타 리서치 인스티튜트 스핀아웃",
+          "전략: 다리 대신 바퀴, 복잡한 손 대신 단순 그리퍼",
+          "표적 시장은 공장 환경"
+        ],
+        "why": [
+          "휴머노이드 폼팩터 경쟁에 대한 정면 반론이자 자본 규모가 뒷받침된 베팅이다.",
+          "같은 날 유니트리 IPO 전망과 대비해 읽으면 로봇 폼팩터 논쟁이 선명해진다."
+        ]
+      }
+    }
+  ]
+}
