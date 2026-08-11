@@ -1,0 +1,226 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-django-annual-release",
+      "title": "장고, 연 1회 릴리스 주기로 전환",
+      "summary": "복잡한 단기·장기지원 혼합 방식을 버리고 2028년 1월 예정 릴리스부터 매 기능 릴리스에 3년 지원을 제공하는 연간 주기로 바꾼다.",
+      "source": "LWN.net",
+      "url": "https://lwn.net/Articles/1088059/?utm_source=tldrit",
+      "report": {
+        "tldr": "장고가 릴리스 체계를 단순한 연 1회 주기로 정리한다.",
+        "what": "장고 파이썬 웹 프레임워크 프로젝트가 복잡했던 단기·장기지원(LTS) 혼합 릴리스 방식을 버리고 연간 릴리스 주기를 채택하는 제안을 승인했다. 2028년 1월로 예상되는 릴리스부터 모든 기능 릴리스가 3년간 지원을 받는다.",
+        "points": [
+          "도입 시점: 2028년 1월 예정 릴리스부터",
+          "지원 기간: 기능 릴리스마다 3년",
+          "기존 단기/LTS 혼합 방식 폐지"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-ai-infra-spending-2026",
+      "title": "가트너 \"2026년 AI 최적화 IaaS 지출 96% 급증, 420억 달러\"",
+      "summary": "훈련보다 추론이 최대 수요처로 올라서며 에이전틱 AI와 프로덕션 배포가 기업들의 지속적 컴퓨팅 소비를 밀어붙이고 있다.",
+      "source": "Gartner",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-10-gartner-forecasts-worldwide-artificial-intelligence-optimized-iaas-spending-to-grow-96-percent-in-2026?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 인프라 지출의 무게중심이 훈련에서 추론으로 넘어갔다.",
+        "what": "가트너는 2026년 AI 최적화 IaaS 지출이 96% 증가해 420억 달러에 이를 것으로 전망했다. 추론이 훈련을 제치고 최대 수요처가 됐으며, 에이전틱 AI와 프로덕션 배포 확산이 기업들의 지속적인 컴퓨팅 소비를 이끌고 있다.",
+        "points": [
+          "2026년 예상 지출: 420억 달러(+96%)",
+          "최대 수요처: 훈련 → 추론으로 역전",
+          "동인: 에이전틱 AI, 프로덕션 배포 확산"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-muse-glimmer-30b-agents",
+      "title": "메타, 에이전트용 300억 파라미터 오픈 모델 '뮤즈 글리머' 출시",
+      "summary": "소비자용 하드웨어에서 구동 가능한 자율 에이전트 최적화 오픈 가중치 모델로, 아파치 2.0 라이선스로 메타의 오픈 AI 전략 재가동을 알린다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/meta-returns-to-open-source-with-muse-glimmer-an-apache-2-0-licensed-30b-parameter-ai-model-optimized-for-agents-available-now?utm_source=tldrit",
+      "report": {
+        "tldr": "메타가 소비자 하드웨어에서 도는 오픈 에이전트 모델을 내놨다.",
+        "what": "메타 뮤즈 글리머는 자율 에이전트에 최적화되고 소비자용 하드웨어에서 구동되도록 설계된 300억 파라미터 오픈 가중치 모델이다. 아파치 2.0 라이선스 공개는 메타의 오픈 AI 모델 전략 재가동을 알리는 신호로 읽힌다.",
+        "points": [
+          "규모: 300억 파라미터",
+          "라이선스: 아파치 2.0",
+          "대상: 소비자 하드웨어에서 구동되는 자율 에이전트"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-incident-response-command-centers",
+      "title": "혼돈, 시계, 그리고 커맨드 센터 — 사고 대응의 재구성",
+      "summary": "기술적 탐지·격리 역량은 크게 개선됐지만 기업의 사고 대응 체계는 여전히 파편화돼 있어, 공격자의 침투 시간이 짧아질수록 조율된 커맨드센터형 대응이 필요하다는 주장이다.",
+      "source": "Resilient Cyber",
+      "url": "https://www.resilientcyber.io/p/chaos-clocks-and-command-centers?utm_source=tldrit",
+      "report": {
+        "tldr": "탐지 기술은 좋아졌지만 대응 체계는 여전히 흩어져 있다.",
+        "what": "사이버보안은 기술적 탐지와 격리 능력을 크게 개선했지만, 기업의 사고 대응은 여전히 파편화돼 있다. 공격자의 익스플로잇·침투 시간이 계속 짧아지는 만큼, 사고 대응을 조율된 커맨드센터형 규율로 다뤄야 한다는 주장이다.",
+        "points": [
+          "강점: 기술적 탐지·격리 역량 향상",
+          "약점: 조직 차원의 사고 대응 조율 부족",
+          "위협 추세: 공격자의 익스플로잇·침투 시간 단축"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-device-bound-session-credentials",
+      "title": "디바이스 바인딩 세션 자격증명, 실제로 배포하며 배운 것들",
+      "summary": "리프레시 플로우는 403으로 시작해야 하고, 세션 상태 충돌이 바인딩을 조용히 무력화할 수 있으며, 쿠키·챌린지 로테이션이 필요하다는 실전 함정들을 정리했다.",
+      "source": "Scott Helme",
+      "url": "https://scotthelme.co.uk/everything-i-learned-shipping-device-bound-session-credentials/?utm_source=tldrit",
+      "report": {
+        "tldr": "브라우저 하드웨어 바인딩 세션을 실전 배포하며 겪은 함정 모음이다.",
+        "what": "Report URI에서 디바이스 바인딩 세션 자격증명을 배포하고 서버측 구현을 오픈소스화하는 과정에서 여러 브라우저·동시성 함정이 드러났다. 리프레시 플로우는 반드시 403으로 시작해야 하고, 세션 상태 충돌이 바인딩을 조용히 무력화할 수 있으며, 쿠키·챌린지 로테이션이 필요하고, 정상적인 동시 요청이 오탐(허위 쿠키 탈취 감지)을 유발할 수 있다.",
+        "points": [
+          "리프레시 플로우는 403으로 시작해야 함",
+          "세션 상태 충돌 시 바인딩이 조용히 무력화될 수 있음",
+          "쿠키·챌린지 로테이션 필수",
+          "동시 요청이 허위 탈취 탐지를 유발할 수 있음"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-agentic-memory-token-maxxing",
+      "title": "토큰 늘리기는 끝났다, 다음은 에이전틱 메모리다",
+      "summary": "긴 컨텍스트 윈도만으로는 며칠씩 동작하는 에이전트를 감당할 수 없으며, 무엇을 남기고 검색하고 버릴지 결정하는 영속 메모리가 다음 인프라 과제로 떠올랐다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/data/token-maxxing-is-dead-agentic-memory-is-what-comes-next?utm_source=tldrit",
+      "report": {
+        "tldr": "컨텍스트를 늘리는 경쟁 대신 메모리를 설계하는 경쟁이 시작됐다.",
+        "what": "긴 컨텍스트 윈도만으로는 몇 시간, 며칠씩 이어지는 에이전트 작업을 감당하기 어렵다. 이제 인프라 과제는 무엇을 유지하고, 무엇을 검색하며, 무엇을 버릴지 결정할 수 있는 영속적 메모리 설계로 옮겨가고 있다.",
+        "points": [
+          "한계: 긴 컨텍스트 윈도만으로는 장시간 에이전트 운용에 부족",
+          "핵심 과제: 유지/검색/폐기를 결정하는 영속 메모리"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-muse-glimmer-nvidia",
+      "title": "엔비디아, 뮤즈 글리머로 로컬 에이전트 워크플로 구동 지원",
+      "summary": "12만 토큰 이상의 컨텍스트 윈도를 가진 300억 파라미터 밀집 모델을 단일 GPU에서 초당 최대 2만 토큰으로 돌리며, NIM·vLLM·SGLang 등 다양한 배포 경로를 제공한다.",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/run-local-agentic-ai-workflows-with-metas-muse-glimmer-on-nvidia?utm_source=tldrit",
+      "report": {
+        "tldr": "민감 데이터를 기기에 남긴 채로 빠른 로컬 에이전트를 돌릴 수 있다.",
+        "what": "메타 뮤즈 글리머는 12만 토큰 이상의 컨텍스트 윈도를 가진 300억 파라미터 밀집 오픈 모델로, 로컬 멀티스텝 에이전트 워크플로용으로 설계됐다. 엔비디아는 단일 GPU에서 초당 최대 2만 토큰 구동이 가능하며 민감 데이터를 기기에 유지할 수 있다고 밝혔고, NIM·vLLM·SGLang·허깅페이스 가중치 등 다양한 배포 경로를 제공한다.",
+        "points": [
+          "컨텍스트 윈도: 12만 토큰 이상",
+          "성능: 단일 GPU에서 초당 최대 2만 토큰",
+          "배포 경로: NIM, vLLM, SGLang, 허깅페이스 등"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-cloudflare-kitesurf-browser",
+      "title": "클라우드플레어, AI 에이전트 전용 브라우저 '카이트서프' 출시",
+      "summary": "사람을 위한 브라우저 오버헤드를 걷어내 CPU·메모리·토큰 비용을 줄이고, 워커스 위에서 에이전트가 사이트 탐색과 폼 작성을 프로그래밍 방식으로 수행하게 한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/?utm_source=tldrit",
+      "report": {
+        "tldr": "사람용 UI를 뺀 클라우드 브라우저가 에이전트 비용을 줄인다.",
+        "what": "클라우드플레어의 카이트서프는 에이전트에 최적화된 클라우드 호스팅 브라우저로, 사람을 위한 브라우저 오버헤드를 제거해 CPU·메모리·토큰 비용을 줄인다. 워커스 위에서 구동되며 에이전트가 사이트 탐색, 폼 작성 등 브라우저 기반 작업을 프로그래밍 방식으로 수행할 수 있게 한다.",
+        "points": [
+          "구동 기반: 클라우드플레어 워커스",
+          "목적: CPU·메모리·토큰 비용 절감",
+          "기능: 사이트 탐색, 폼 작성 등 프로그래밍 방식 제어"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-vertical-slices-architecture",
+      "title": "버티컬 슬라이스, 외부 의존성이 있어도 무효화되지 않는다",
+      "summary": "모든 기능을 자율적 바운디드 컨텍스트로 취급하는 대신 슬라이스·모듈·바운디드 컨텍스트를 구분하는 것이 핵심이라는 아키텍처 아티클이다.",
+      "source": "Architecture Weekly",
+      "url": "https://www.architecture-weekly.com/p/vertical-slices-their-ownership-and?utm_source=tldrit",
+      "report": {
+        "tldr": "슬라이스, 모듈, 바운디드 컨텍스트를 구분하면 외부 의존성 문제가 풀린다.",
+        "what": "외부 의존성이 있다고 버티컬 슬라이스 설계가 무효화되는 것은 아니다. 핵심은 슬라이스, 모듈, 바운디드 컨텍스트를 구분하는 것이다. 운송 주문 워크플로 예시에서, 작업별 슬라이스는 명시적 의존성을 가진 핸들러를 사용해 일반적인 상태 업데이트로 되돌아가지 않고도 외부 시스템 호출이나 공유 데이터 접근이 가능하다.",
+        "points": [
+          "핵심 원칙: 슬라이스 ≠ 모듈 ≠ 바운디드 컨텍스트 구분",
+          "예시: 운송 주문 워크플로의 작업별 핸들러"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-chatgpt-business-premium-seats",
+      "title": "오픈AI, 챗GPT 비즈니스에 월 125달러 프리미엄 시트 추가",
+      "summary": "표준 시트보다 사용량 5배, 5시간 사용 제한 없음이 특징이며 기업은 시트 종류를 혼합해 중앙에서 사용량·청구·지출을 관리할 수 있다.",
+      "source": "TLDR IT",
+      "url": "https://links.tldrnewsletter.com/mXQDpk",
+      "report": {
+        "tldr": "무제한에 가까운 고사용량 시트가 챗GPT 비즈니스에 추가됐다.",
+        "what": "오픈AI가 월 125달러의 프리미엄 시트를 챗GPT 비즈니스에 도입했다. 표준 시트 대비 사용량이 5배이며 5시간 사용 제한이 없다. 기업은 시트 종류를 섞어 쓰면서 사용량·청구·지출을 중앙에서 관리할 수 있다.",
+        "points": [
+          "가격: 월 125달러",
+          "사용량: 표준 시트의 5배, 5시간 제한 없음",
+          "관리: 시트 혼합 + 중앙 사용량/청구 관리"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-mcp-sprawl-shadow-it",
+      "title": "기존 섀도 IT 탐지 도구는 MCP 확산을 보지 못한다",
+      "summary": "많은 MCP 서버가 모니터링되는 네트워크 경계를 넘지 않고 stdio로 로컬에서 실행되기 때문에, 재래식 섀도 IT 도구가 이를 감지하지 못한다.",
+      "source": "WorkOS Blog",
+      "url": "https://workos.com/blog/mcp-sprawl-invisible-to-shadow-it-tools?utm_source=tldrit",
+      "report": {
+        "tldr": "네트워크 경계를 넘지 않는 로컬 MCP 서버는 기존 도구의 사각지대다.",
+        "what": "재래식 섀도 IT 탐지 도구는 대부분의 MCP 서버 확산을 감지하지 못한다. 많은 MCP 서버가 네트워크 경계를 넘지 않고 stdio를 통해 로컬에서 실행되기 때문이다.",
+        "points": [
+          "원인: MCP 서버 다수가 stdio로 로컬 실행",
+          "결과: 네트워크 기반 섀도 IT 도구가 감지 불가"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-brex-ai-agent-network-monitoring",
+      "title": "브렉스, AI 에이전트를 애플리케이션 코드가 아닌 네트워크 계층에서 감시",
+      "summary": "모든 행동을 애플리케이션 코드에서 예측하려 하기보다, 강력한 에이전트의 네트워크 동작을 모니터링·제한하는 방식으로 안전하게 배포한다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/brex-assumes-its-ai-agents-could-do-anything-so-it-watches-the-network-not-the-code?utm_source=tldrit",
+      "report": {
+        "tldr": "에이전트의 모든 행동을 예측하는 대신 네트워크에서 감시한다.",
+        "what": "브렉스는 강력한 AI 에이전트를 안전하게 배포하는 방법으로, 애플리케이션 코드에서 모든 행동을 예측하려 하기보다 에이전트의 네트워크 동작을 모니터링하고 제한하는 접근을 택했다.",
+        "points": [
+          "접근 방식: 애플리케이션 코드 대신 네트워크 계층 모니터링",
+          "전제: 에이전트가 예측 불가능한 행동을 할 수 있음"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-ai-safety-test-becoming-risk",
+      "title": "AI 안전성 테스트 자체가 안전 위험이 되고 있다",
+      "summary": "미공개 모델을 안전장치를 끈 채 테스트하는 사례가 늘면서, 평가 인프라 자체의 보안이 점점 더 큰 우려로 떠올랐다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/?utm_source=tldrit",
+      "report": {
+        "tldr": "안전성을 검증하려고 끈 안전장치가 새로운 위험을 만든다.",
+        "what": "연구자들이 미공개 모델을 안전장치를 비활성화한 채 테스트하는 사례가 늘고 있다. 이로 인해 평가 인프라 자체의 보안이 점점 더 큰 우려로 떠오르고 있다.",
+        "points": [
+          "추세: 안전장치 비활성화 상태의 미공개 모델 테스트 증가",
+          "새로운 위험: 평가 인프라 자체의 보안"
+        ],
+        "why": []
+      }
+    }
+  ]
+}
