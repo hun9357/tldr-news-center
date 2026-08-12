@@ -1,0 +1,240 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-cncf-buildpacks-graduation",
+      "title": "CNCF, 클라우드 네이티브 빌드팩 졸업 발표",
+      "summary": "CNCF가 컨테이너 이미지를 소스코드에서 직접 빌드하는 오픈소스 프로젝트 클라우드 네이티브 빌드팩을 졸업 프로젝트로 승격했다.",
+      "source": "CNCF",
+      "url": "https://www.cncf.io/announcements/2026/08/11/cncf-announces-graduation-of-cloud-native-buildpacks-advancing-the-standard-for-container-builds/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "2018년 피보탈·헤로쿠가 만든 컨테이너 빌드 프로젝트가 CNCF 최고 등급에 올랐다.",
+        "what": "CNCF는 애플리케이션 소스코드로부터 OCI 호환 컨테이너 이미지를 직접 빌드하는 오픈소스 프로젝트 클라우드 네이티브 빌드팩을 졸업(graduation) 등급으로 승격했다. 이 프로젝트는 2018년 1월 피보탈과 헤로쿠가 공동으로 만들었고 같은 해 CNCF에 합류했다. 현재 164개 조직에 걸친 535명의 기여자를 보유하고 있으며, 디지털오션·깃랩·구글·블룸버그가 채택 기업으로, 특히 블룸버그에서는 AI 인프라 구동에 이 프로젝트를 사용한다. 졸업을 위해 프로젝트는 Quarkslab 및 오픈소스 기술개선기금(OSTIF)과 함께 제3자 보안 검토를 완료했고 OpenSSF 모범사례 배지를 획득했다.",
+        "points": [
+          "출범: 2018년 1월, 피보탈·헤로쿠 공동 개발",
+          "기여자: 535명, 164개 조직",
+          "채택 기업: 디지털오션, 깃랩, 구글, 블룸버그(AI 인프라 구동에 사용)",
+          "졸업 요건: Quarkslab·OSTIF 제3자 보안 검토, OpenSSF 모범사례 배지"
+        ],
+        "why": [
+          "컨테이너 빌드 표준화 프로젝트가 CNCF 최고 성숙도 등급에 오르며 업계 표준 지위를 공식 인정받았다."
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-ddos-report-h1-2026",
+      "title": "클라우드플레어 DDoS 보고서: 1테라비트급 공격 급증",
+      "summary": "클라우드플레어가 2026년 상반기 23.2만 건의 네트워크 계층 및 29.64조 건의 HTTP DDoS 요청을 완화했으며, 1Tbps 이상 공격이 6배 넘게 늘었다고 밝혔다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ddos-threat-report-2026-h1/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "테라비트급 DDoS 공격이 분기 만에 6배로 늘었고, 브라질이 미국을 제치고 공격 발원지 1위에 올랐다.",
+        "what": "클라우드플레어는 2026년 상반기에 2320만 건의 네트워크 계층 공격과 29.64조 건의 HTTP DDoS 요청을 완화했다고 25번째 DDoS 위협 보고서에서 밝혔다. 4월이 정점으로 6.46조 건의 요청과 165페타바이트의 트래픽을 기록했으며, 이후 21개국이 공조해 53개 도메인을 폐쇄하고 7만5000명 이상의 DDoS 대행 서비스 이용자를 겨냥한 '오퍼레이션 파워오프' 작전 이후 활동이 감소했다. 초당 1테라비트를 넘는 네트워크 계층 공격은 1분기에서 2분기 사이 6배 넘게 늘어, 클라우드플레어는 2분기에만 805건의 이런 공격을 기록했다. 브라질이 전체 완화 요청의 14.9%를 차지하며 13.4%인 미국을 제치고 DDoS 트래픽 발원지 1위에 올랐다.",
+        "points": [
+          "완화 규모: 네트워크 계층 2320만 건, HTTP 요청 29.64조 건(상반기)",
+          "4월 정점: 6.46조 요청, 165페타바이트",
+          "'오퍼레이션 파워오프': 21개국 공조, 도메인 53개 폐쇄, DDoS 대행 이용자 7만5000명 이상 타깃",
+          "1Tbps 초과 공격: 1분기 대비 6배 넘게 증가, 2분기 805건",
+          "발원지 1위: 브라질(14.9%), 2위: 미국(13.4%)"
+        ],
+        "why": [
+          "테라비트급 공격의 폭증과 국제 공조 단속의 효과가 동시에 나타나며, DDoS 위협 지형이 지정학적 변수와 강하게 연동되고 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "devops-hidden-cost-homegrown-iac",
+      "title": "자체 구축 IaC의 숨은 비용",
+      "summary": "자체 구축한 인프라형코드(IaC) 시스템은 초기 비용이 낮지만 유지보수와 거버넌스 공백으로 숨은 비용이 커진다는 분석이다.",
+      "source": "Spacelift",
+      "url": "https://spacelift.io/blog/the-hidden-cost-of-homegrown-iac?utm_source=tldrdevops",
+      "report": {
+        "tldr": "직접 만든 IaC 시스템은 초기엔 싸 보여도 결국 유지보수 비용이 더 커진다.",
+        "what": "자체 구축 인프라형코드(IaC) 시스템은 유연성과 낮은 초기 비용을 제공하지만, 유지보수, 확장 문제, 거버넌스 공백, 드리프트 관리로 인한 숨은 비용을 자주 만들어낸다. 소규모나 매우 제한된 환경을 제외하면, 사전 구축된 IaC 오케스트레이션 플랫폼이 일반적으로 더 낮은 총소유비용(TCO)을 제공한다.",
+        "points": [
+          "자체 구축 IaC의 장점: 유연성, 낮은 초기 비용",
+          "숨은 비용 요인: 유지보수, 확장성 문제, 거버넌스 공백, 드리프트 관리",
+          "결론: 소규모·제한적 환경을 제외하면 사전 구축 플랫폼이 TCO 우위"
+        ],
+        "why": [
+          "인프라 플랫폼 팀이 자체 구축 대 상용 IaC 도구 사이의 의사결정을 내릴 때 참고할 수 있는 비용 프레임을 제공한다."
+        ]
+      }
+    },
+    {
+      "id": "devops-datadog-apm-java-prefix-trie",
+      "title": "데이터독, JVM 상수로 인코딩한 접두사 트라이로 APM 자바 시작 속도 개선",
+      "summary": "데이터독 APM 팀이 4년에 걸쳐 클래스 매칭 오버헤드를 30% 줄였으며, 핵심 기법은 JVM 문자열 상수로 인코딩한 접두사 트라이 'ClassNameTrie'다.",
+      "source": "Datadog Blog",
+      "url": "https://www.datadoghq.com/blog/engineering/improving-apm-java-startup-with-a-prefix-trie/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "문자열 상수 하나로 자바 앱 시작 시 클래스 매칭 오버헤드를 30% 줄였다.",
+        "what": "데이터독 APM 팀은 4년에 걸쳐 자바 시작 시 클래스 매칭 오버헤드를 30% 줄였으며, 핵심 기법 중 하나는 'ClassNameTrie'라는 JVM 문자열 상수로 인코딩한 접두사 트라이(prefix trie)였다.",
+        "points": [
+          "개선 성과: 클래스 매칭 오버헤드 30% 감소(4년간)",
+          "핵심 기법: 접두사 트라이를 JVM 문자열 상수로 인코딩(ClassNameTrie)"
+        ],
+        "why": [
+          "APM 에이전트처럼 모든 요청 경로에 끼어드는 코드의 미세 최적화가 대규모 환경에서는 실질적 성능 차이를 만든다."
+        ]
+      }
+    },
+    {
+      "id": "devops-code-review-is-a-skill",
+      "title": "코드 리뷰는 스킬이다 — 의도적 훈련으로 는다",
+      "summary": "경험 많은 리뷰어는 자동 검사나 LLM 리뷰가 놓치는 버그, 설계 문제, 숨은 가정, 운영 리스크를 잡아낼 수 있다는 분석이다.",
+      "source": "typesanitizer",
+      "url": "https://typesanitizer.com/blog/code-review.html?utm_source=tldrdevops",
+      "report": {
+        "tldr": "코드 리뷰는 타고나는 게 아니라 의도적 연습으로 느는 기술이다.",
+        "what": "코드 리뷰는 의도적 훈련을 통해 향상될 수 있으며, 경험 많은 리뷰어는 자동 검사나 LLM 리뷰가 놓칠 수 있는 버그, 설계 문제, 숨은 가정, 운영 리스크를 짚어내는 법을 배운다. 뛰어난 리뷰는 시스템 이력, 불변조건(invariant), 실패 모드, 조직적 맥락을 활용하기 때문에, 코드 리뷰는 결함 탐지뿐 아니라 지식 전수, 규범 유지, 변경 사항 이해를 위해서도 유용하다.",
+        "points": [
+          "핵심 주장: 코드 리뷰는 의도적 연습으로 향상 가능한 스킬",
+          "숙련 리뷰어의 강점: 자동 검사·LLM 리뷰가 놓치는 버그·설계 문제·숨은 가정 포착",
+          "리뷰의 부가 가치: 지식 전수, 조직 규범 유지, 변경 이해"
+        ],
+        "why": [
+          "LLM 리뷰 도구가 보편화될수록, 사람 리뷰어의 역할이 오히려 더 명확하게 재정의될 필요가 있음을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "devops-paperclip-ai-agent-orchestration",
+      "title": "페이퍼클립, AI 에이전트 팀으로 비즈니스를 운영하는 오픈소스 플랫폼",
+      "summary": "페이퍼클립은 클로드 코드·코덱스·커서·제미나이 등 에이전트에게 역할·예산·보고체계·권한을 부여해 회사를 운영하게 하는 셀프호스팅 서버·UI다.",
+      "source": "GitHub",
+      "url": "https://github.com/paperclipai/paperclip?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 에이전트마다 역할·예산·보고 라인을 부여해 회사를 운영시키는 오픈소스 도구다.",
+        "what": "페이퍼클립은 AI 에이전트 팀을 조율해 비즈니스를 운영하는 오픈소스 Node.js 서버와 리액트 UI다. 클로드 코드, 코덱스, 커서, 제미나이 같은 에이전트를 지원하며, 각 에이전트에 역할, 예산, 보고 라인, 권한을 부여한다.",
+        "points": [
+          "구성: Node.js 서버 + 리액트 UI(오픈소스)",
+          "지원 에이전트: 클로드 코드, 코덱스, 커서, 제미나이",
+          "부여 요소: 역할, 예산, 보고 라인, 권한"
+        ],
+        "why": [
+          "단일 에이전트를 넘어 '조직도가 있는 에이전트 팀'을 구성하는 오픈소스 프레임워크가 등장했다."
+        ]
+      }
+    },
+    {
+      "id": "devops-code-graph-rag",
+      "title": "코드-그래프-RAG, 코드베이스를 지식그래프로 질의한다",
+      "summary": "트리시터로 멀티랭귀지 코드베이스를 파싱해 Memgraph 지식그래프로 저장하고, 자연어로 코드를 조회·편집할 수 있는 오픈소스 MCP 서버다.",
+      "source": "GitHub",
+      "url": "https://github.com/vitali87/code-graph-rag?utm_source=tldrdevops",
+      "report": {
+        "tldr": "코드베이스를 그래프 데이터베이스로 바꿔 자연어로 질의·편집할 수 있게 한다.",
+        "what": "코드-그래프-RAG는 트리시터(Tree-sitter)로 멀티랭귀지 코드베이스를 파싱해 그 구조를 Memgraph 지식그래프로 저장하고, 사용자가 일반 영어로 코드를 조회·편집할 수 있게 하는 오픈소스 도구다. 파이썬, 타입스크립트, 자바스크립트, 러스트, Go, 자바, C, C++, C#, PHP, 루아, 다트 등 여러 언어를 지원한다. MCP 서버로 동작해 클로드 코드 등 MCP 클라이언트가 코드베이스를 직접 조회·편집할 수 있다.",
+        "points": [
+          "파싱 엔진: 트리시터(Tree-sitter)",
+          "저장소: Memgraph 지식그래프",
+          "지원 언어: 파이썬·타입스크립트·자바스크립트·러스트·Go·자바·C·C++·C#·PHP·루아·다트 등",
+          "동작 방식: MCP 서버(클로드 코드 등 MCP 클라이언트와 연동)"
+        ],
+        "why": [
+          "코드베이스를 그래프로 구조화하면 LLM이 훨씬 정확하게 대규모 코드를 이해·수정할 수 있게 되는 유망한 접근이다."
+        ]
+      }
+    },
+    {
+      "id": "devops-datadog-session-replay",
+      "title": "데이터독 세션 리플레이, AI 요약으로 사용자 세션 분석 통합",
+      "summary": "데이터독 세션 리플레이가 세션 검색, AI 기반 요약, 마찰 지점 분석, 타임스탬프 협업을 하나의 워크스페이스로 통합했다.",
+      "source": "Datadog Blog",
+      "url": "https://www.datadoghq.com/blog/session-replay-investigate-collaborate/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI가 요약해주는 사용자 세션 리플레이로 UX 문제를 더 빨리 찾는다.",
+        "what": "데이터독 세션 리플레이는 세션 검색, AI 기반 요약, 마찰(friction) 분석, 타임스탬프 기반 협업을 하나의 워크스페이스로 통합했다. 팀은 관련 세션을 빠르게 식별하고, 핵심 순간으로 바로 이동하며, 고정된 코멘트로 맥락을 공유하고, 공동의 근거를 바탕으로 문제 해결과 UX 개선을 조율할 수 있다.",
+        "points": [
+          "통합 기능: 세션 검색, AI 요약, 마찰 분석, 타임스탬프 협업",
+          "효과: 관련 세션 신속 식별, 핵심 순간 바로 이동, 코멘트 기반 협업"
+        ],
+        "why": [
+          "AI 요약이 관측성(observability) 도구의 표준 기능으로 자리 잡으며 UX 트러블슈팅 속도를 끌어올리고 있다."
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-agentic-internet-behaviors",
+      "title": "클라우드플레어, '에이전틱 인터넷'의 선악을 가리는 법",
+      "summary": "클라우드플레어가 정적인 인간/봇 이분법 대신 지속적 행동·신뢰 평가로 봇 관리를 진화시키며, 하이브리드 인간-에이전트 세션을 인식한다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/good-and-bad-agentic-behaviors/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "이제 '사람이냐 봇이냐'가 아니라 '행동이 신뢰할 만한가'로 판단해야 한다.",
+        "what": "클라우드플레어는 정적인 인간-대-봇 판별 대신 지속적인 행동과 신뢰를 평가하는 방식으로 봇 관리를 발전시키고 있으며, 하이브리드 인간-에이전트 세션과 정당한 자동화를 인식한다. 프리커서(Precursor)가 세션 전체의 행동 탐지를 제공하며, 향후 출시될 어댑티브 인텔리전스와 고급 완화 기술은 자가조정 탐지와 더 정교한 봇 통제를 가능하게 할 예정이다.",
+        "points": [
+          "패러다임 전환: 정적 인간/봇 판별 → 지속적 행동·신뢰 평가",
+          "인식 대상: 하이브리드 인간-에이전트 세션, 정당한 자동화",
+          "현재 제품: 프리커서(세션 전체 행동 탐지)",
+          "향후 제품: 어댑티브 인텔리전스, 고급 완화 기술"
+        ],
+        "why": [
+          "AI 에이전트가 웹을 대량으로 탐색·조작하는 시대에, 전통적 봇 차단 방식은 더 이상 유효하지 않다는 진단이다."
+        ]
+      }
+    },
+    {
+      "id": "devops-aws-iam-identity-center-multi-region",
+      "title": "AWS IAM 아이덴티티 센터, 원클릭 멀티리전 옵션 지원",
+      "summary": "신규 조직 인스턴스에 대해 AWS IAM 아이덴티티 센터가 원클릭으로 멀티리전 KMS 키를 생성하고 인스턴스를 복제할 수 있게 됐다.",
+      "source": "AWS What's New",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/aws-iam-identity-center-supports-one-click-multi-region-option-new-organization-instances/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "IAM 아이덴티티 센터를 원클릭으로 여러 리전에 복제할 수 있게 됐다.",
+        "what": "AWS IAM 아이덴티티 센터는 신규 조직 인스턴스에 대해 원클릭 멀티리전 구성 옵션을 제공하기 시작했다. 이 기능은 멀티리전 KMS 키를 자동으로 생성하고 복원력 향상을 위해 인스턴스를 다른 리전에 복제한다.",
+        "points": [
+          "적용 대상: 신규 조직(organization) 인스턴스",
+          "신규 기능: 원클릭 멀티리전 구성",
+          "동작: 멀티리전 KMS 키 자동 생성 + 인스턴스 리전 간 복제"
+        ],
+        "why": [
+          "리전 장애에 대비한 아이덴티티 인프라의 복원력 확보가 이제 원클릭 수준으로 쉬워졌다."
+        ]
+      }
+    },
+    {
+      "id": "devops-fastly-experian-agent-trust-revenue",
+      "title": "패스틀리·익스피리언, AI 에이전트 트래픽을 매출로 전환",
+      "summary": "패스틀리가 익스피리언 에이전트 트러스트 생태계에 합류해 네트워크 엣지에서 정당한 AI 에이전트를 검증·승인·수익화하도록 돕는다.",
+      "source": "Fastly Blog",
+      "url": "https://www.fastly.com/blog/beyond-bot-block-fastly-experian-turning-ai-agent-traffic-into-revenue?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 에이전트 트래픽을 막는 대신 검증해서 돈을 버는 쪽으로 전략을 바꾼다.",
+        "what": "패스틀리는 익스피리언 에이전트 트러스트 생태계에 합류해 기업들이 네트워크 엣지에서 정당한 AI 에이전트를 검증·승인·수익화할 수 있도록 돕는다.",
+        "points": [
+          "파트너십: 패스틀리 + 익스피리언 에이전트 트러스트 생태계",
+          "핵심 기능: 정당한 AI 에이전트의 검증·승인·수익화",
+          "적용 위치: 네트워크 엣지"
+        ],
+        "why": [
+          "AI 에이전트 트래픽을 단순 차단 대상이 아니라 새로운 수익원으로 취급하는 CDN 업계의 전략 전환을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "devops-databricks-file-type-column",
+      "title": "데이터브릭스, 멀티모달 데이터용 네이티브 컬럼 타입 'FILE' 출시",
+      "summary": "데이터브릭스가 영상·이미지·문서 같은 비정형 데이터를 레이크하우스 테이블의 네이티브 컬럼으로 저장하는 FILE 타입 베타를 공개했다.",
+      "source": "Databricks Blog",
+      "url": "https://www.databricks.com/blog/introducing-file-type-native-column-type-multimodal-data?utm_source=tldrdevops",
+      "report": {
+        "tldr": "영상·이미지·문서를 테이블 안에 네이티브 컬럼으로 바로 저장할 수 있게 됐다.",
+        "what": "데이터브릭스는 영상, 이미지, 문서 같은 비정형 데이터를 레이크하우스 테이블에 네이티브 컬럼으로 저장하는 신규 컬럼 타입 'FILE'의 베타를 출시했다.",
+        "points": [
+          "신규 기능: FILE 타입(네이티브 컬럼)",
+          "저장 대상: 영상, 이미지, 문서 등 비정형·멀티모달 데이터",
+          "상태: 베타 출시"
+        ],
+        "why": [
+          "멀티모달 AI 파이프라인이 늘면서 데이터 레이크하우스도 정형 데이터 중심에서 벗어나 멀티모달 데이터를 1급 시민으로 다루기 시작했다."
+        ]
+      }
+    }
+  ]
+}

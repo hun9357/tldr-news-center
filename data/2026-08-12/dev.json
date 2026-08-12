@@ -1,0 +1,265 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-ai-watermark-hidden-in-text",
+      "title": "AI 워터마크는 평문 어디에 숨을 수 있나",
+      "summary": "앤트로픽이 클로드 생성 텍스트에 감지 불가능한 워터마크를 심기 시작한다고 발표했지만, 재작성이나 재생성으로 제거될 수 있다는 분석이다.",
+      "source": "Daniel Miessler",
+      "url": "https://danielmiessler.com/blog/where-watermarks-hide-in-text?utm_source=tldrdev",
+      "report": {
+        "tldr": "클로드가 만든 텍스트에 눈에 안 띄는 워터마크가 심긴다 — 하지만 완벽하진 않다.",
+        "what": "앤트로픽은 클로드가 생성하는 텍스트에 감지 불가능한 워터마크를 삽입하기 시작한다고 발표했으나, 구체적 구현 방식은 공개하지 않았다. 파일 수준 워터마크는 쉽게 우회할 수 있는 반면, 텍스트 워터마크는 단어 선택의 통계적 편향 형태로 존재해 복사-붙여넣기 후에도 살아남을 것으로 추정된다. 다만 표준 형태로 재생성하거나 문장을 다시 쓰는(canonical regeneration, prose rewriting) 전략으로는 워터마크가 제거될 수 있다.",
+        "points": [
+          "적용 대상: 클로드가 생성한 텍스트",
+          "구현 방식: 비공개(단어 선택의 통계적 편향으로 추정)",
+          "강점: 복사-붙여넣기 후에도 생존 가능",
+          "약점: 재생성·재작성 전략으로 제거 가능성"
+        ],
+        "why": [
+          "개발자들이 AI 생성 콘텐츠 판별 API·도구를 만들 때 이 워터마크의 실효성 한계를 알아야 한다.",
+          "TLDR AI 에디션에서도 같은 이슈를 다룰 만큼 관심이 크다."
+        ]
+      }
+    },
+    {
+      "id": "dev-css-typography-properties",
+      "title": "더 나은 텍스트 디자인을 위한 CSS 속성 5가지",
+      "summary": "background-clip, vertical-align/align-content, box-decoration-break, letter-spacing, text-combine-upright가 웹 타이포그래피를 개선하는 핵심 CSS 속성으로 소개됐다.",
+      "source": "Master",
+      "url": "https://master.dev/blog/typographic-css-tricks/?utm_source=tldrdev",
+      "report": {
+        "tldr": "몰랐던 CSS 속성 5개로 텍스트 디자인 표현력을 확 늘릴 수 있다.",
+        "what": "웹 타이포그래피를 개선하는 5가지 CSS 속성이 소개됐다. background-clip은 이미지로 텍스트를 채울 수 있게 하고, vertical-align과 align-content는 요소의 수직 정렬을 돕는다. box-decoration-break는 줄바꿈된 텍스트 경계를 균일하게 스타일링하는 데 도움을 주고, letter-spacing으로 독특한 애니메이션을 만들 수 있으며, text-combine-upright는 동아시아 타이포그래피의 세로쓰기 레이아웃에 유용하다.",
+        "points": [
+          "background-clip: 이미지로 텍스트 채우기",
+          "vertical-align / align-content: 요소 수직 정렬",
+          "box-decoration-break: 줄바꿈된 텍스트 경계 균일화",
+          "letter-spacing: 애니메이션 효과",
+          "text-combine-upright: 동아시아 타이포그래피 세로쓰기 지원"
+        ],
+        "why": [
+          "AI 코딩 도구가 보편화된 시대에도 이런 세부 CSS 지식은 여전히 사람이 직접 다듬어야 하는 디테일이다."
+        ]
+      }
+    },
+    {
+      "id": "dev-postgres-subtransactions-danger",
+      "title": "PostgreSQL 서브트랜잭션의 위험성",
+      "summary": "서브트랜잭션 ID가 과도하게 쌓이면 클러스터 전체 처리량이 떨어지고 신규 읽기 복제본 연결이 막힐 수 있다.",
+      "source": "PlanetScale",
+      "url": "https://planetscale.com/blog/the-dangers-of-postgres-subtransactions?utm_source=tldrdev",
+      "report": {
+        "tldr": "서브트랜잭션이 쌓이면 클러스터 전체가 느려지고 새 복제본 연결까지 막힐 수 있다.",
+        "what": "PostgreSQL에서 서브트랜잭션 ID가 과도하게 쌓이면 클러스터 전반의 처리량에 영향을 미치는 성능 문제로 이어질 수 있으며, 실행 중인 트랜잭션 상태가 오버플로되면서 신규 읽기 복제본이 연결을 받지 못하게 될 수도 있다. 이런 위험을 완화하려면 트랜잭션을 짧게 유지하고 서브트랜잭션 캐시·활동을 모니터링하는 것이 권장되며, PostgreSQL 측 잠재적 해법으로는 캐시 크기 확대나 새로운 스냅숏 방식 도입이 거론된다.",
+        "points": [
+          "위험: 서브트랜잭션 ID 과다 축적 시 클러스터 처리량 저하",
+          "최악의 경우: 실행 중 트랜잭션 상태 오버플로로 신규 읽기 복제본 연결 불가",
+          "완화책: 트랜잭션을 짧게 유지, 서브트랜잭션 캐시·활동 모니터링",
+          "장기 해법(PostgreSQL 측): 캐시 크기 확대, 새로운 스냅숏 방식"
+        ],
+        "why": [
+          "서브트랜잭션은 잘 알려지지 않은 PostgreSQL 함정으로, 대규모 트래픽 서비스에서 갑작스러운 장애의 원인이 될 수 있다."
+        ],
+        "action": "장시간 실행되는 트랜잭션과 중첩 서브트랜잭션 사용 패턴을 점검할 것"
+      }
+    },
+    {
+      "id": "dev-on-comments-orange-highlighting",
+      "title": "코드 주석에 대하여 — 밝은 주황색으로 강조해온 10년의 이유",
+      "summary": "코드 주석을 밝은 주황색으로 강조하는 문법 하이라이트 설정을 10년간 유지해온 이유와, 유용한 주석의 조건을 논한다.",
+      "source": "Helsing",
+      "url": "https://blog.helsing.ai/posts/on-comments/?utm_source=tldrdev",
+      "report": {
+        "tldr": "주석을 밝은 주황색으로 강조하는 것은 단순한 취향이 아니라 문서화 습관을 만드는 장치다.",
+        "what": "지난 10년간 독특한 문법 하이라이트 설정으로 코드 주석을 밝은 주황색으로 강조해 더 나은 문서화 습관을 장려해왔다. 주석은 불필요한 정보로 코드를 어지럽힐 수 있지만, TODO, 정당성 논증(correctness argument), 특정 선택의 근거 같은 유용한 주석은 미래의 개발자에게 정보를 전달하고 코드 뒤의 사고 과정을 명확히 하는 데 매우 가치 있다.",
+        "points": [
+          "설정: 주석을 밝은 주황색으로 강조하는 문법 하이라이트, 10년간 유지",
+          "유용한 주석 유형: TODO, 정당성 논증, 선택의 근거",
+          "목적: 미래 개발자에게 맥락 전달, 사고 과정 명확화"
+        ],
+        "why": [
+          "AI가 코드를 대량 생성하는 시대일수록, '왜 이렇게 짰는지'를 남기는 주석의 가치가 오히려 커진다."
+        ]
+      }
+    },
+    {
+      "id": "dev-creating-hope-engineering-culture",
+      "title": "희망을 만드는 조직 문화 — '구원' 대신 '희망'",
+      "summary": "지속된 비상사태에 지친 엔지니어링 조직에는 즉효 해법을 좇는 '구원' 사고방식 대신 희망의 문화가 필요하다는 주장이다.",
+      "source": "baweaver",
+      "url": "https://baweaver.com/writing/2026/08/09/beyond-senior-creating-hope/?utm_source=tldrdev",
+      "report": {
+        "tldr": "지친 팀에 필요한 건 마이크로서비스 같은 특효약이 아니라 '희망'이라는 문화다.",
+        "what": "엔지니어링 조직 내에 희망의 문화를 만드는 것은 팀이 지속적인 비상사태 상태에 압도되고 사기가 꺾이는 상황을 극복하는 데 필요하다. 이는 맥락이나 진짜 필요를 이해하지 못한 채 마이크로서비스 도입 같은 즉효 해법을 좇는 '구원(salvation)' 사고방식에 기본값으로 의존하는 것보다 낫다는 주장이다.",
+        "points": [
+          "문제 상황: 지속적 비상사태에 지친 엔지니어링 조직",
+          "경계할 대응: '구원' 사고방식(맥락 없이 즉효 해법을 좇는 것, 예: 무분별한 마이크로서비스 도입)",
+          "제안: 희망의 문화 구축"
+        ],
+        "why": [
+          "번아웃과 조직 개편이 반복되는 엔지니어링 팀에게 기술적 해법보다 문화적 처방이 우선이라는 관점을 제공한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-sourcebot-github-repo",
+      "title": "소스봇, 여러 저장소를 넘나드는 셀프호스팅 코드 이해 도구",
+      "summary": "소스봇은 복잡한 질의응답, 코드 검색, 다중 저장소 탐색 기능으로 코드베이스 이해를 돕는 셀프호스팅 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/sourcebot-dev/sourcebot?utm_source=tldrdev",
+      "report": {
+        "tldr": "여러 저장소를 넘나들며 코드베이스를 이해하도록 돕는 셀프호스팅 도구다.",
+        "what": "소스봇은 복잡한 질의응답, 코드 검색, 다중 저장소 간 탐색 같은 기능으로 사용자가 자신의 코드베이스를 이해하도록 돕는 셀프호스팅 도구다.",
+        "points": [
+          "운영 방식: 셀프호스팅",
+          "핵심 기능: 복잡한 질의응답, 코드 검색, 다중 저장소 탐색"
+        ],
+        "why": [
+          "대규모 멀티 레포 조직에서 온보딩·코드 이해 비용을 줄이는 오픈소스 도구 선택지가 늘고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-corsair-agent-integration-layer",
+      "title": "코르세어, 에이전트를 위한 통합 승인 레이어 오픈소스 공개",
+      "summary": "코르세어는 에이전트가 여러 애플리케이션에 안전하게 연결하면서 권한과 행동을 통제할 수 있게 하는 통합 레이어다.",
+      "source": "GitHub",
+      "url": "https://github.com/corsairdev/corsair?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트가 메일 발송 같은 민감한 작업을 할 때 사람 승인을 강제하는 통합 레이어다.",
+        "what": "코르세어는 에이전트가 다양한 애플리케이션에 안전하게 연결하면서도 권한과 행동에 대한 통제권을 유지할 수 있게 하는 통합 레이어다. 상호작용에 대한 다양한 승인 모드를 구현해, 메일 발송이나 API 호출 같은 민감한 작업은 반드시 사용자 확인을 거치도록 한다.",
+        "points": [
+          "역할: 에이전트-애플리케이션 간 통합 레이어",
+          "핵심 기능: 다양한 승인 모드(approval modes)",
+          "적용 예: 메일 발송, API 호출 등 민감 작업에 사용자 확인 강제"
+        ],
+        "why": [
+          "자율 에이전트가 실제 업무 도구에 접근하는 사례가 늘면서, 권한 통제 미들웨어의 수요도 함께 커지고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-shattering-dream-job-offer-zero-day",
+      "title": "'꿈이 산산조각 나다' — 채용 제안으로 위장한 제로데이 공격",
+      "summary": "라자루스 그룹과 연계된 '오퍼레이션 드림잡'이 방산업계를 겨냥해 CVE-2026-68820 등 제로데이로 트로이 백도어를 심고 있다.",
+      "source": "Check Point Research",
+      "url": "https://research.checkpoint.com/2026/shattering-the-dream-when-a-job-offer-becomes-a-zero-day-attack/?utm_source=tldrdev",
+      "report": {
+        "tldr": "채용 제안 PDF를 열었을 뿐인데 국가배후 백도어가 심긴다.",
+        "what": "라자루스 그룹과 연계된 오퍼레이션 드림잡 캠페인이 변조된 PDF 뷰어를 배포해 전 세계 방산업계를 겨냥하고 있다. PDF 뷰어를 열면 악성 페이로드가 실행된다. 공격자는 CVE-2026-68820을 포함한 제로데이 취약점을 악용해 트로이 백도어와 FudModule 루트킷 같은 고급 악성코드를 심으며, 명령제어(C2)에는 침해된 웹서버를 활용한다.",
+        "points": [
+          "배후: 라자루스 그룹 연계 캠페인 '오퍼레이션 드림잡'",
+          "표적: 전 세계 방산업계",
+          "공격 경로: 변조된 PDF 뷰어 → 제로데이(CVE-2026-68820 등) 악용",
+          "설치 악성코드: 트로이 백도어, FudModule 루트킷",
+          "C2 방식: 침해된 웹서버 활용"
+        ],
+        "why": [
+          "채용 사기를 위장한 국가배후 공격은 방산·안보 분야 종사자들에게 지속적으로 반복되는 고위험 위협이다."
+        ],
+        "action": "출처가 불분명한 채용 관련 PDF·문서 첨부파일 실행 금지"
+      }
+    },
+    {
+      "id": "dev-stolen-thoughts-cot-leak",
+      "title": "'생각을 훔치다' — 암호화된 추론 흔적에서 API 키·비밀번호 70만 개 발견",
+      "summary": "31만5320개의 추론 블록을 복호화한 결과 API 키, 비밀번호, 접근 토큰, 개인정보 등 704개의 개별 프라이버시 아티팩트가 발견됐다.",
+      "source": "stolen-thoughts.com",
+      "url": "https://stolen-thoughts.com/?utm_source=tldrdev",
+      "report": {
+        "tldr": "'숨겨진' AI 추론 과정을 복원했더니 진짜 API 키와 비밀번호가 쏟아졌다.",
+        "what": "이 논문은 오픈AI, 앤트로픽, 구글 API가 반환하는 암호화된 사고연쇄(CoT) 흔적을, 탈옥된 더 약한 계열(sibling) 모델에 재생시켜 상위 모델의 숨은 추론을 평문으로 복원할 수 있음을 보여준다. 저자들은 공개된 에이전트 실행 기록에서 31만5320개의 추론 블록을 복호화했고, API 키·비밀번호·접근 토큰·개인정보(PII)를 포함한 704개의 개별 프라이버시 아티팩트를 발견해, 이 '숨겨진' 흔적이 심각한 데이터 유출 표면이 될 수 있음을 입증했다.",
+        "points": [
+          "대상 API: 오픈AI, 앤트로픽, 구글의 암호화된 CoT 응답",
+          "방법: 강한 모델의 추론 흔적을 탈옥된 약한 모델에 재생 → 평문 복원",
+          "분석 규모: 공개 에이전트 실행 기록 중 31만5320개 추론 블록 복호화",
+          "발견된 유출 정보: 704개(API 키, 비밀번호, 접근 토큰, PII 등)"
+        ],
+        "why": [
+          "개발자들이 '안전하다'고 믿고 로그·기록에 남기는 AI 추론 과정 자체가 새로운 대규모 정보 유출 통로가 될 수 있다.",
+          "TLDR AI 에디션에서도 같은 논문을 별도로 다룰 만큼 파급력이 크다."
+        ],
+        "action": "에이전트 실행 기록·CoT 로그 저장 시 민감정보 스캐닝 및 접근 통제 적용"
+      }
+    },
+    {
+      "id": "dev-go-language-ai-assisted-engineering",
+      "title": "Go가 AI 보조 소프트웨어 엔지니어링에 이상적인 이유",
+      "summary": "코드 가독성과 유지보수성, 사람과 AI 모두를 지원하는 응집력 있는 플랫폼이라는 설계 원칙 덕분에 Go가 AI 보조 개발에 적합하다는 분석이다.",
+      "source": "Google Developers Blog",
+      "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/?utm_source=tldrdev",
+      "report": {
+        "tldr": "가독성을 최우선시하는 Go의 설계 철학이 AI 코딩 시대에 오히려 강점이 된다는 분석이다.",
+        "what": "Go 프로그래밍 언어는 코드 가독성과 유지보수성을 우선시하고, 사람과 AI 협업을 모두 지원하는 응집력 있는 플랫폼이라는 설계 원칙 덕분에 AI 보조 소프트웨어 엔지니어링에 이상적인 선택이라는 분석이다.",
+        "points": [
+          "핵심 강점: 코드 가독성, 유지보수성",
+          "설계 철학: 사람과 AI 모두를 지원하는 응집력 있는 플랫폼"
+        ],
+        "why": [
+          "AI 코딩 에이전트가 보편화되면서 '어떤 언어가 AI와 궁합이 좋은가'라는 논의가 언어 선택 기준에 새롭게 추가되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-shell-event-designators-lazy",
+      "title": "셸의 느낌표는 소리 지르라는 게 아니다 — 게으르게 살아라",
+      "summary": "셸 이벤트 디자이네이터를 활용하면 이전 명령과 인자를 재참조·수정해 반복 타이핑을 줄일 수 있다.",
+      "source": "refp.se",
+      "url": "https://refp.se/articles/your-shell-and-the-lazy-exclamation-mark?utm_source=tldrdev",
+      "report": {
+        "tldr": "셸에서 느낌표(!)를 활용하면 이전 명령을 다시 타이핑할 필요가 없다.",
+        "what": "셸의 이벤트 디자이네이터를 활용하면 이전 명령과 그 인자를 참조·수정해 불필요한 반복 타이핑 없이 시간을 절약할 수 있다.",
+        "points": [
+          "핵심 도구: 셸 이벤트 디자이네이터(느낌표 기반 문법)",
+          "효과: 이전 명령·인자 재참조 및 수정으로 반복 타이핑 감소"
+        ],
+        "why": [
+          "터미널 생산성을 높이는 오래됐지만 잘 알려지지 않은 셸 기능을 재조명한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-mitm-proxy-github-copilot",
+      "title": "깃허브 코파일럿을 MITM 프록시 뒤에 놓아봤다",
+      "summary": "깃허브 코파일럿의 네트워크 트래픽을 분석해 컨텍스트 처리 방식, 사용자 상호작용 로깅, 프라이버시·데이터 관리 함의를 드러냈다.",
+      "source": "Lighthouse Newsletter",
+      "url": "https://www.lighthousenewsletter.com/p/i-put-github-copilot-behind-a-mitm?utm_source=tldrdev",
+      "report": {
+        "tldr": "코파일럿이 백그라운드에서 정확히 무엇을 서버로 보내는지 직접 감청해봤다.",
+        "what": "깃허브 코파일럿의 네트워크 트래픽을 MITM(중간자) 프록시로 분석한 결과, 컨텍스트 처리 방식, 사용자 상호작용 로깅 방식, 그리고 이것이 프라이버시와 데이터 관리에 갖는 함의가 드러났다.",
+        "points": [
+          "분석 방법: MITM 프록시로 코파일럿 네트워크 트래픽 캡처",
+          "드러난 내용: 컨텍스트 처리 메커니즘, 사용자 상호작용 로깅",
+          "함의: 프라이버시·데이터 관리 이슈"
+        ],
+        "why": [
+          "AI 코딩 도구가 어떤 데이터를 서버로 보내는지 직접 검증한 사례는 기업 보안팀의 AI 도구 도입 심사에 실질적 참고자료가 된다."
+        ]
+      }
+    },
+    {
+      "id": "dev-fatih-arslan-joining-cursor",
+      "title": "파티 아르슬란, 5년 만에 플래닛스케일 떠나 커서 합류",
+      "summary": "5년 넘게 플래닛스케일에 몸담았던 파티 아르슬란이 클라우드 에이전트의 가능성에 이끌려 커서로 이직한다.",
+      "source": "Fatih Arslan",
+      "url": "https://arslan.io/2026/08/10/joining-cursor/?utm_source=tldrdev",
+      "report": {
+        "tldr": "개발자 도구 업계의 베테랑이 커서의 클라우드 에이전트 비전에 합류한다.",
+        "what": "5년 넘게 플래닛스케일에 몸담았던 파티 아르슬란이 개발자 도구에 대한 열정과 클라우드 에이전트의 혁신적 잠재력에 이끌려 커서로 이직한다고 밝혔다.",
+        "points": [
+          "이직 인물: 파티 아르슬란(전 플래닛스케일, 5년 이상 재직)",
+          "이직처: 커서",
+          "이직 사유: 개발자 도구에 대한 열정, 클라우드 에이전트의 잠재력"
+        ],
+        "why": [
+          "AI 코딩 도구 기업들이 인프라·개발자 도구 베테랑 인재를 적극 영입하며 경쟁력을 키우고 있다."
+        ]
+      }
+    }
+  ]
+}
