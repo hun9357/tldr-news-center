@@ -1,0 +1,255 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-salesforce-servicenow-attack",
+      "title": "고급 공격자, 세일즈포스·서비스나우 동시 노려",
+      "summary": "158.220.87.79 IP와 연계된 인프라가 게스트 접근 가능한 세일즈포스 익스피리언스 클라우드와 서비스나우 서비스 포털을 겨냥한 캠페인을 벌이고 있다.",
+      "source": "Reco",
+      "url": "https://www.reco.ai/blog/city-forum-campaign-salesforce-servicenow?utm_source=tldrit",
+      "report": {
+        "tldr": "158.220.87.79 IP와 연계된 공격자가 세일즈포스와 서비스나우 게스트 접근 사이트를 동시에 노리고 있다.",
+        "what": "게스트 접근이 가능한 세일즈포스 익스피리언스 클라우드 사이트와 서비스나우 서비스 포털을 겨냥한 캠페인이 진행 중이며, IP 158.220.87.79와 연계된 인프라에서 비롯됐다. 공격자는 세일즈포스 오라(Aura)와 이전에 문서화되지 않았던 세일즈포스 LWR UI-API 기법, 그리고 서비스나우 검색 엔드포인트를 이용해 레코드를 추출한다.",
+        "points": [
+          "158.220.87.79 IP 연계 인프라에서 캠페인 확인",
+          "세일즈포스 오라 및 미문서화 LWR UI-API 기법 악용",
+          "서비스나우 검색 엔드포인트를 통한 레코드 추출도 병행"
+        ],
+        "why": [
+          "게스트 접근이 허용된 CRM·ITSM 포털이 새로운 데이터 유출 경로로 부상하고 있다."
+        ],
+        "action": "세일즈포스 익스피리언스 클라우드와 서비스나우 포털의 게스트 접근 권한을 점검하고 비정상 API 호출 패턴을 모니터링할 것"
+      }
+    },
+    {
+      "id": "it-enterprises-ai-cost-blind",
+      "title": "기업 3분의 2, AI 프로덕션 운영하면서도 비용은 몰라",
+      "summary": "서베이 대상 기업의 3분의 2가 AI 워크로드를 프로덕션에서 운영 중이지만 인프라 비용과 활용도에 대한 가시성이 부족하다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/resources/infrastructure-and-compute-enterprises-are-buying-ai-compute-for-speed-while-flying-blind-on-what-it-costs?utm_source=tldrit",
+      "report": {
+        "tldr": "AI를 프로덕션에서 쓰는 기업 다수가 정작 인프라 비용에는 깜깜이 상태다.",
+        "what": "서베이에 참여한 기업의 3분의 2가 현재 AI 워크로드를 프로덕션에서 운영하고 있지만, 다수는 여전히 인프라 비용과 활용도에 대한 가시성이 부족하다. 추론이 지속적인 운영 비용으로 자리잡으면서 이 격차의 중요성이 커지고 있다.",
+        "points": [
+          "서베이 기업의 3분의 2가 AI 워크로드를 프로덕션에서 운영",
+          "다수 기업이 인프라 비용·활용도 가시성 부족",
+          "추론 비용이 지속적 운영비로 전환되며 문제 심화"
+        ],
+        "why": [
+          "AI 도입 속도가 비용 관리 체계 구축 속도를 앞지르고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-95pct-ai-projects-delayed",
+      "title": "기업 95%, 인프라·거버넌스 문제로 AI 프로젝트 지연",
+      "summary": "클라우데라 조사에서 거의 모든 응답 조직이 지난 1년간 AI 프로젝트를 지연·취소했으며 거버넌스·컴플라이언스가 최대 걸림돌로 꼽혔다.",
+      "source": "Cloudera",
+      "url": "https://www.cloudera.com/about/news-and-blogs/press-releases/2026-08-11-ninety-five-percent-of-enterprises-have-delayed-ai-projects-as-infrastructure-limitations-spark-the-great-ai-re-architecture.html?utm_source=tldrit",
+      "report": {
+        "tldr": "설문 대상 기업의 95%가 인프라·거버넌스 문제로 AI 프로젝트를 지연시켰다.",
+        "what": "클라우데라 조사에 따르면 응답 조직의 거의 전부가 지난 1년간 AI 프로젝트를 지연시키거나 취소했으며, 거버넌스와 컴플라이언스가 가장 큰 걸림돌로 꼽혔다. 응답자의 약 4분의 3은 AI가 데이터 거버넌스를 더 복잡하게 만들었다고 답했다.",
+        "points": [
+          "설문 응답 조직의 95%가 AI 프로젝트 지연·취소 경험",
+          "거버넌스·컴플라이언스가 최대 걸림돌로 지목",
+          "약 4분의 3이 'AI가 데이터 거버넌스를 더 복잡하게 만들었다'고 응답"
+        ],
+        "why": [
+          "AI 도입의 병목이 기술력보다 거버넌스 체계로 옮겨가고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-salesforce-agentic-crm",
+      "title": "세일즈포스, 클라우드처럼 AI 시대도 주도할까",
+      "summary": "세일즈포스의 AI 전략은 CRM을 '에이전틱 매출 오케스트레이션'으로 전환하며, 슬랙·챗GPT를 통한 '헤드리스 CRM'을 지향한다.",
+      "source": "The GTM Newsletter",
+      "url": "https://thegtmnewsletter.substack.com/p/gtm-201-salesforce-agentforce-ai-era-kris-billmaier?utm_source=tldrit",
+      "report": {
+        "tldr": "세일즈포스는 에이전트가 영업 전 과정을 처리하는 '에이전틱 매출 오케스트레이션'으로 CRM을 재정의하려 한다.",
+        "what": "세일즈포스의 AI 전략은 CRM을 '에이전틱 매출 오케스트레이션'으로 전환하며, 에이전트가 잠재고객 발굴, 리서치, 파이프라인 관리, 견적을 처리하도록 한다. 슬랙과 챗GPT 같은 도구를 통해 드러나는 '헤드리스 CRM' 비전을 내세우면서도, AI가 영업사원을 대체하기보다 보완할 것이라고 주장하며 가격 정책을 소비·성과 기반으로 밀어붙이고 있다.",
+        "points": [
+          "AI 전략의 핵심: '에이전틱 매출 오케스트레이션'",
+          "슬랙·챗GPT를 통해 드러나는 '헤드리스 CRM' 비전",
+          "가격 정책을 소비·성과 기반으로 전환 추진"
+        ],
+        "why": [
+          "CRM 시장의 최강자가 AI 시대에도 플랫폼 주도권을 지킬 수 있을지가 관전 포인트다."
+        ]
+      }
+    },
+    {
+      "id": "it-dont-look-up-ai-compute-risk",
+      "title": "\"돈 룩 업\": 빅테크 클라우드 성장, 앤트로픽·오픈AI 지출에 달려",
+      "summary": "두 AI 회사가 2027년 컴퓨팅에 2000억 달러 이상을 쓰고 2500억~3000억 달러를 조달해야 할 수 있어, 수익 미실현 시 위험이 크다.",
+      "source": "Where's Your Ed At",
+      "url": "https://www.wheresyoured.at/dont-look-up/?utm_source=tldrit",
+      "report": {
+        "tldr": "마이크로소프트·구글·아마존의 클라우드 성장이 앤트로픽·오픈AI의 대규모 벤처 자금 조달 지출에 점점 더 의존하고 있다.",
+        "what": "마이크로소프트, 구글, 아마존의 향후 클라우드 성장은 앤트로픽과 오픈AI가 대규모의, 상당 부분 벤처 자금으로 조달된 컴퓨팅 지출을 지속하는 데 점점 더 의존하고 있다. 두 AI 회사는 2027년 컴퓨팅에 2000억 달러 이상을 쓰고 이를 조달하기 위해 약 2500억~3000억 달러를 모금해야 할 수 있으며, 최종 고객 수익이 실현되지 않을 경우 상당한 리스크를 낳는다.",
+        "points": [
+          "앤트로픽·오픈AI, 2027년 컴퓨팅 지출 2000억 달러 이상 전망",
+          "이를 조달하기 위해 약 2500억~3000억 달러 추가 모금 필요할 수 있음",
+          "빅테크 클라우드 성장이 두 AI 회사의 지출 지속 여부에 좌우"
+        ],
+        "why": [
+          "AI 인프라 붐이 소수 기업의 자금 조달 능력에 구조적으로 의존하고 있다는 리스크를 짚는다."
+        ]
+      }
+    },
+    {
+      "id": "it-enterprise-ai-agents-wrong-answers",
+      "title": "기업 AI 에이전트, 자신만만하게 오답 내놓는 경우 여전히 많아",
+      "summary": "101개 기업 설문에서 확신에 찬 오답의 근본 원인은 부실한 컨텍스트였으며, 거버넌스된 시맨틱 레이어를 쓰는 조직이 오류 탐지에서 훨씬 우수했다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/resources/agent-context-layers-enterprises-governing-their-ai-data-are-catching-twice-as-many-bad-answers-as-the-ones-who-arent?utm_source=tldrit",
+      "report": {
+        "tldr": "부실한 컨텍스트가 기업 AI 에이전트의 확신에 찬 오답을 만드는 주요 원인이다.",
+        "what": "101개 기업을 대상으로 한 설문에서 확신에 찬 오답의 이면에는 부실한 컨텍스트가 자리하고 있는 경우가 많았다. 거버넌스된 시맨틱 레이어를 사용하는 조직은 그런 실패를 탐지하는 능력이 훨씬 뛰어났다.",
+        "points": [
+          "101개 기업 설문, 확신에 찬 오답의 주원인은 부실한 컨텍스트",
+          "거버넌스된 시맨틱 레이어 사용 조직이 오류 탐지에서 우수"
+        ],
+        "why": [
+          "AI 에이전트의 신뢰성이 데이터 거버넌스 성숙도에 직결됨을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "it-citrix-platform-flex-expansion",
+      "title": "시트릭스, 플랫폼 플렉스에 관측성·보안 개발자 서비스 추가",
+      "summary": "익스피리언스 인사이트 플렉스와 시큐어스페이시스 플렉스가 공유 크레딧 풀을 통해 관리형 관측성과 호스팅 개발자 워크스페이스를 제공한다.",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/08/11/citrix-platform-flex-new-services/?utm_source=tldrit",
+      "report": {
+        "tldr": "시트릭스가 관측성·보안 개발 워크스페이스를 더한 두 개의 신규 플랫폼 플렉스 서비스를 발표했다.",
+        "what": "시트릭스가 플랫폼 플렉스를 확장하는 두 개의 서비스를 발표했다. 익스피리언스 인사이트 플렉스는 관리형 워크스페이스 관측성을, 시큐어스페이시스 플렉스는 호스팅되는 보안 개발·에이전틱 워크스페이스를 제공한다. 두 서비스는 공유 크레딧 풀을 사용하며, 시트릭스가 분석·인프라를 관리하는 동안 고객은 아이덴티티·코드·정책·데이터에 대한 통제권을 유지한다.",
+        "points": [
+          "익스피리언스 인사이트 플렉스: 관리형 워크스페이스 관측성",
+          "시큐어스페이시스 플렉스: 호스팅 보안 개발·에이전틱 워크스페이스",
+          "공유 크레딧 풀 사용, 고객은 아이덴티티·코드·정책·데이터 통제권 유지"
+        ],
+        "why": [
+          "가상 워크스페이스 업체들도 에이전틱 워크로드에 맞춘 인프라 상품으로 확장하고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-ibm-together-ai-inference-cluster",
+      "title": "IBM-투게더 AI, 2억4000만 달러 규모 추론 클러스터 구축",
+      "summary": "IBM이 IBM 클라우드에 엔비디아 HGX B300 대규모 클러스터를 배치해 2027년 1분기 가용을 목표로 한다.",
+      "source": "IBM Newsroom",
+      "url": "https://newsroom.ibm.com/2026-08-11-IBM-and-Together-AI-Sign-Multi-Year-Agreement-to-Scale-Open-Source-AI-Inference-with-NVIDIA-AI-Infrastructure-on-IBM-Cloud?utm_source=tldrit",
+      "report": {
+        "tldr": "IBM이 투게더 AI를 위해 2억4000만 달러 규모의 엔비디아 추론 클러스터를 IBM 클라우드에 구축한다.",
+        "what": "IBM이 IBM 클라우드에서 투게더 AI를 위해 대규모 엔비디아 HGX B300 클러스터를 배치할 예정이며, 2027년 1분기 가용을 목표로 한다. 이 인프라는 특히 대규모 오픈모델 추론을 위해 설계됐다.",
+        "points": [
+          "엔비디아 HGX B300 대규모 클러스터, IBM 클라우드에 배치",
+          "2027년 1분기 가용 목표",
+          "대규모 오픈모델 추론 특화 설계"
+        ],
+        "why": [
+          "오픈모델 추론 전용 인프라 투자가 하이퍼스케일러 밖에서도 확대되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-databricks-buys-electric",
+      "title": "데이터브릭스, 에이전트용 데이터베이스 구축 위해 일렉트릭 인수",
+      "summary": "PGlite와 동기화 기술을 보유한 일렉트릭 인수로 에이전트가 빠른 로컬 포스트그레스 상태를 중앙 DB와 동기화할 수 있게 된다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-ml/2026/08/12/oh-no-not-another-one-databricks-buys-electric/5286721?utm_source=tldrit",
+      "report": {
+        "tldr": "데이터브릭스가 에이전트용 로컬-중앙 동기화 DB 기술을 위해 일렉트릭을 인수했다.",
+        "what": "데이터브릭스가 PGlite와 동기화 기술을 보유한 일렉트릭을 인수했다. 이 기술은 에이전트가 빠른 로컬 포스트그레스 상태를 유지하면서 중앙화된 데이터베이스와 동기화할 수 있게 해준다. 해당 팀은 뉴온에 합류해 에이전틱 애플리케이션 전용 인프라를 구축할 예정이다.",
+        "points": [
+          "PGlite·동기화 기술 보유한 일렉트릭 인수",
+          "에이전트가 로컬 포스트그레스 상태를 중앙 DB와 동기화 가능",
+          "일렉트릭 팀, 뉴온에 합류해 에이전틱 인프라 구축"
+        ],
+        "why": [
+          "데이터 인프라 업체들이 에이전트 전용 데이터베이스 계층 경쟁에 뛰어들고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-software-factories-viability",
+      "title": "소프트웨어 팩토리, 실제로 작동할 수 있을까",
+      "summary": "에이전트가 코드를 작성·테스트·출시하는 자동화 파이프라인이 코드 리뷰 병목을 해결할 수 있지만 검증된 결과물과 실패 허용 가드레일이 필요하다.",
+      "source": "PostHog Newsletter",
+      "url": "https://newsletter.posthog.com/p/software-factories?utm_source=tldrit",
+      "report": {
+        "tldr": "소프트웨어 팩토리는 코드 리뷰 병목을 해결할 잠재력이 있지만 검증된 출력과 가드레일이 필수다.",
+        "what": "소프트웨어 팩토리는 에이전트가 코드를 작성·테스트하고 때로는 출시까지 하는 자동화 파이프라인으로, 에이전트 생성 코드가 늘면서 생긴 코드 리뷰 병목을 해결할 수 있다. 이 모델은 사람이 검토하는 시스템과 논쟁적인 '불 꺼진(lights-off)' 설정을 대비시키며, 검증된 에이전트 출력, 광범위한 도입, 실패 허용 가드레일을 요구한다.",
+        "points": [
+          "에이전트가 코드 작성·테스트·출시를 담당하는 자동화 파이프라인",
+          "사람 검토 시스템 대 '불 꺼진' 완전자동 설정 사이의 논쟁",
+          "검증된 출력, 광범위 도입, 실패 허용 가드레일이 성공 조건"
+        ],
+        "why": [
+          "에이전트 생성 코드가 늘어날수록 리뷰 자동화 자체의 신뢰성 검증이 새로운 과제로 떠오른다."
+        ]
+      }
+    },
+    {
+      "id": "it-data-center-capacity-crisis",
+      "title": "AI가 만드는 데이터센터 용량 위기",
+      "summary": "AI 수요가 긴 건설 일정과 제한된 전력 가용성과 충돌하며 하이브리드 인프라 전략이 필요해지고 있다.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4207475/navigating-the-ai-data-center-capacity-crisis.html?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 수요가 데이터센터 건설·전력 공급 속도를 앞지르며 하이브리드 인프라 전략이 요구되고 있다.",
+        "what": "AI 수요가 긴 데이터센터 건설 일정 및 제한된 전력 가용성과 충돌하고 있다. 기업들은 신규 GPU 용량이 언제든 필요할 때 확보 가능하다고 가정하기보다, 하이브리드 인프라 전략을 점점 더 필요로 할 수 있다.",
+        "points": [
+          "AI 수요 증가가 데이터센터 건설·전력 공급 속도를 초과",
+          "GPU 용량의 상시 확보 가정이 더 이상 유효하지 않을 수 있음",
+          "하이브리드 인프라 전략 필요성 증가"
+        ],
+        "why": [
+          "AI 붐의 물리적 인프라 한계가 기업의 컴퓨팅 조달 전략을 바꾸고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-vercel-enterprise-managed-users-ga",
+      "title": "버셀, 엔터프라이즈 매니지드 유저 정식 출시",
+      "summary": "조직이 인증된 도메인을 사용하는 계정을 중앙에서 통제할 수 있게 됐다.",
+      "source": "Vercel",
+      "url": "https://vercel.com/changelog/enterprise-managed-users?utm_source=tldrit",
+      "report": {
+        "tldr": "버셀이 조직의 계정을 중앙 통제할 수 있는 엔터프라이즈 매니지드 유저를 정식 출시했다.",
+        "what": "버셀이 엔터프라이즈 매니지드 유저를 정식 출시(GA)해, 조직이 인증된 도메인을 사용하는 계정을 중앙에서 통제할 수 있게 됐다.",
+        "points": [
+          "엔터프라이즈 매니지드 유저, GA(정식 출시) 전환",
+          "인증된 도메인 기반 계정 중앙 통제 지원"
+        ],
+        "why": [
+          "개발자 플랫폼들이 대기업 IT 거버넌스 요구에 맞춰 관리 기능을 강화하고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-nvidia-500b-financing-pool",
+      "title": "엔비디아 5000억 달러 AI 금융 풀, 칩 공급망 재편할 수도",
+      "summary": "엔비디아와 6개 금융사가 조성하는 금융 풀이 AI 인프라 구매를 가속하는 동시에 기업용 칩 공급을 조일 수 있다.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4208360/nvidias-half-trillion-dollar-ai-investment-fund-could-impact-enterprise-chip-pricing-availability.html?utm_source=tldrit",
+      "report": {
+        "tldr": "엔비디아의 5000억 달러 금융 풀이 AI 인프라 구매를 가속화하는 동시에 기업 칩 공급을 조일 수 있다.",
+        "what": "엔비디아와 6개 금융사가 조성 중인 금융 풀이 AI 인프라 구매를 가속화할 수 있는 한편, 잠재적으로 일반 기업용 칩 공급을 조이는 결과를 낳을 수 있다.",
+        "points": [
+          "엔비디아·6개 금융사, 대규모 AI 인프라 금융 풀 조성",
+          "AI 인프라 구매 가속화 기대",
+          "기업용 칩 공급 타이트해질 가능성 존재"
+        ],
+        "why": [
+          "AI 인프라 붐이 금융공학과 결합되며 칩 공급망 전반에 영향을 줄 수 있다."
+        ]
+      }
+    }
+  ]
+}
