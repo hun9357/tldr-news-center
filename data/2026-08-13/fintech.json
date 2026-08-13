@@ -1,9 +1,9 @@
 {
   "name": "핀테크",
   "source": "TLDR Fintech",
-  "icon": "💳",
-  "color": "#f0a868",
-  "bg": "#332414",
+  "icon": "💰",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
   "items": [
     {
       "id": "fintech-adyen-toast-us-expansion",
