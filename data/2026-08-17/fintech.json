@@ -1,0 +1,261 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💰",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-stripe-openrouter",
+      "title": "스트라이프, 오픈라우터 70억 달러 이상에 인수 합의",
+      "summary": "AI 모델 게이트웨이 오픈라우터가 70억 달러 이상에 팔린다. 불과 수개월 전 13억 달러 평가로 자금을 조달했던 회사다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "결제 기업이 AI 추론 유통 채널을 사들였다.",
+        "what": "스트라이프는 400개 이상의 모델을 단일 인터페이스로 제공하는 오픈라우터를 70억 달러 이상에 인수하기로 했다. 수개월 전 평가액은 13억 달러였다.",
+        "points": [
+          "인수가 70억 달러+, 직전 평가 13억 달러",
+          "오픈라우터는 400개 이상 모델을 단일 인터페이스로 중계",
+          "tech·AI 에디션에도 동시 게재"
+        ],
+        "why": [
+          "AI 사용량 과금이 결제 인프라와 합쳐진다",
+          "파운더스 에디션의 '토큰 84%가 비-SOTA' 데이터가 이 인수의 논리"
+        ]
+      }
+    },
+    {
+      "id": "fintech-workday-silver-lake",
+      "title": "워크데이, 실버레이크 인수 논의 보도에 급등",
+      "summary": "실버레이크의 인수 협상 보도로 워크데이 주가가 약 18% 뛰며 시가총액이 510억 달러에 근접했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/13/workday-skyrockets-25percent-before-trading-halted-on-report-of-silver-lake-takeover.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "AI 파괴 우려에 눌린 SaaS가 사모펀드 표적이 됐다.",
+        "what": "실버레이크와의 인수 논의가 보도되며 워크데이 주가는 약 18% 급등해 시총 510억 달러에 근접했다. 전통 소프트웨어 모델이 AI로 잠식될 것이라는 투자자 우려가 배경이다.",
+        "points": [
+          "주가 약 18% 급등, 시총 약 510억 달러",
+          "배경: 전통 SaaS의 AI 파괴 우려"
+        ],
+        "why": [
+          "AI 내러티브에서 밀린 SaaS의 비상장 전환 압력",
+          "IT 에디션의 벤더 통합 논의와 함께 조달 리스크로 연결"
+        ]
+      }
+    },
+    {
+      "id": "fintech-kalshi-40b",
+      "title": "칼시, 400억 달러 평가로 7억 5,000만 달러 조달 논의",
+      "summary": "세쿼이아·웰링턴과 7억 5,000만 달러 조달을 논의 중이다. 4개월 전 220억 달러 평가로 10억 달러를 조달했고 7월 연환산 매출은 40억 달러에 달했다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/business/2026/08/13/kalshi-in-talks-with-sequoia-wellington-for-usd750-million-fund-raise-at-usd40-billion-valuation?utm_source=tldrfintech",
+      "report": {
+        "tldr": "예측시장의 평가액이 4개월 만에 두 배가 됐다.",
+        "what": "칼시는 세쿼이아 캐피털, 웰링턴 매니지먼트와 400억 달러 평가로 7억 5,000만 달러 조달을 논의 중이다. 4개월 전 220억 달러 평가에 10억 달러를 조달했으며 7월 연환산 매출은 40억 달러였다.",
+        "points": [
+          "평가액 220억 달러(4월) → 400억 달러(8월)",
+          "조달 규모 7억 5,000만 달러",
+          "7월 연환산 매출 40억 달러"
+        ],
+        "why": [
+          "예측시장이 규제 불확실성 속에서도 기관 자금을 끌어들임",
+          "크립토 에디션의 JP모건-폴리마켓 사안과 같은 카테고리"
+        ]
+      }
+    },
+    {
+      "id": "fintech-nvidia-largest-fintech",
+      "title": "엔비디아는 세계 최대 핀테크 기업이다",
+      "summary": "엔비디아가 6개 글로벌 자본사와 MOU를 맺고 AI 인프라에 5,000억 달러 이상을 투입할 금융 플랫폼을 구축한다. 젠슨 황은 컴퓨트를 감가상각 하드웨어가 아니라 부동산처럼 값을 매기는 투자 자산군으로 제시했다.",
+      "source": "Fintech Brain Food",
+      "url": "https://www.fintechbrainfood.com/p/nvidia-is-fintech?utm_source=tldrfintech",
+      "report": {
+        "tldr": "엔비디아가 칩이 아니라 자산군을 팔기 시작했다.",
+        "what": "엔비디아는 6개 주요 글로벌 자본사와 MOU를 체결해 AI 인프라에 5,000억 달러 이상을 배치할 금융 플랫폼을 만든다. 젠슨 황은 컴퓨트를 감가상각되는 하드웨어가 아니라 부동산처럼 가격이 매겨지는 투자 자산으로 규정했다.",
+        "points": [
+          "6개 글로벌 자본사와 MOU",
+          "배치 예정 규모 5,000억 달러 이상",
+          "컴퓨트를 투자 자산군으로 포지셔닝"
+        ],
+        "why": [
+          "같은 날 엔비디아가 오픈AI 백스톱을 축소한 것과 나란히 읽어야 할 사안",
+          "AI 설비투자의 위험이 벤더 대차대조표에서 자본시장으로 이전"
+        ],
+        "action": "AI 인프라 리스·파이낸싱 제안을 받는다면 잔존가치 가정을 직접 검증할 것."
+      }
+    },
+    {
+      "id": "fintech-consumer-unbundling",
+      "title": "소비자 핀테크의 대규모 언번들링",
+      "summary": "AI 에이전트가 상품 탐색과 전환을 쉽게 만들면서 전통적 번들링이 무너진다는 전망이다. 중립적 AI 네이티브 플랫폼이 재무를 상시 분석하고 더 나은 상품을 추천·실행할 수 있다.",
+      "source": "Foundation Capital",
+      "url": "https://foundationcapital.com/ideas/the-great-unbundling-of-consumer-fintech?utm_source=tldrfintech",
+      "report": {
+        "tldr": "전환 비용이 사라지면 번들의 근거도 사라진다.",
+        "what": "AI 에이전트가 상품 발견과 전환의 마찰을 없애면서 소비자 핀테크의 번들 전략이 무너질 것이라는 분석이다. 중립적 AI 네이티브 플랫폼이 재무 상태를 상시 분석하고 더 나은 상품으로 갈아타는 행정 절차까지 실행할 수 있다.",
+        "points": [
+          "번들의 근거였던 전환 마찰이 소멸",
+          "중립 플랫폼이 추천과 실행을 모두 수행"
+        ],
+        "why": [
+          "예치 잔액 기반 사업 모델의 방어력 약화",
+          "고객 관계가 앱이 아니라 에이전트에 귀속될 가능성"
+        ]
+      }
+    },
+    {
+      "id": "fintech-robinhood-fund-ii",
+      "title": "로빈후드 두 번째 사모 시장 펀드 거래 개시",
+      "summary": "로빈후드 벤처스 펀드 II가 2억 2,550만 달러를 모아 뉴욕증권거래소에 상장했다. 개인 투자자에게 초기·성장 단계 기업, 특히 Y컴비네이터 스타트업 노출을 제공한다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/legal/transactional/robinhoods-second-venture-fund-debuts-drawing-retail-money-into-private-markets-2026-08-13/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "사모 시장 접근이 상장 펀드 형태로 소매에 열렸다.",
+        "what": "로빈후드 벤처스 펀드 II는 2억 2,550만 달러를 조달해 NYSE에서 거래를 시작했다. 개인 투자자가 초기·성장 단계 기업, 특히 Y컴비네이터 스타트업에 노출될 수 있게 한다.",
+        "points": [
+          "조달 규모 2억 2,550만 달러, NYSE 상장",
+          "주 대상: 초기·성장 단계, Y컴비네이터 스타트업"
+        ],
+        "why": [
+          "비유동 자산의 소매화가 계속 진행",
+          "밸류에이션 산정과 유동성 할인의 투명성이 관건"
+        ]
+      }
+    },
+    {
+      "id": "fintech-corgi-etf-fee-war",
+      "title": "코기, AI로 블랙록에 도전하며 ETF 수수료 전쟁 촉발",
+      "summary": "코기 인베스트가 12월 이후 197개 ETF를 출시했고 연말까지 미국 ETF 총 개수에서 블랙록을 넘어설 것으로 본다. 규제 절차를 AI로 가속하며 여러 카테고리에서 수수료를 낮게 책정한다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/14/low-cost-etfs-corgi-invest.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "상품 등록 속도 자체가 자산운용의 경쟁 축이 됐다.",
+        "what": "코기 인베스트는 12월 이후 197개 ETF를 출시했고 연말까지 미국 ETF 개수에서 블랙록을 앞지를 것으로 예상한다. 규제 서류 작업을 AI로 가속하고 여러 카테고리에서 경쟁사보다 낮은 수수료를 매긴다.",
+        "points": [
+          "12월 이후 197개 ETF 출시",
+          "연말까지 미국 ETF 개수 1위 목표",
+          "AI로 규제 절차 가속, 수수료 인하"
+        ],
+        "why": [
+          "규제 문서 작업의 자동화가 진입장벽을 실제로 낮춘 첫 사례급",
+          "수수료 경쟁이 상품 다양성 경쟁으로 전환"
+        ]
+      }
+    },
+    {
+      "id": "fintech-what-capital-wants",
+      "title": "자본이 원하는 것",
+      "summary": "스타트업 자금 조달이 '팀과 TAM' 평가로 이동해 투자자들이 200억 달러 규모 결과를 낼 수 있는 회사를 우선한다. 창업자는 진짜 신봉자를 찾거나 새 기회를 교육하거나 지배적 자본 테마에 올라타야 한다.",
+      "source": "@yrechtman (X)",
+      "url": "https://x.com/yrechtman/status/2088282681519849892?utm_source=tldrfintech",
+      "report": {
+        "tldr": "펀딩 기준이 지표에서 결과 규모 가능성으로 이동했다.",
+        "what": "글은 투자자들이 200억 달러 규모 성과를 낼 수 있는지를 기준으로 팀과 TAM을 평가한다고 본다. 창업자의 선택지는 진짜 신봉자 확보, 새로운 기회에 대한 교육, 또는 지배적 자본 테마에 정렬하는 것이다.",
+        "points": [
+          "평가 기준: 팀 + TAM, 200억 달러 결과 가능성",
+          "창업자 선택지 3가지"
+        ],
+        "why": [
+          "파운더스 에디션의 같은 주제와 짝을 이루는 글",
+          "AI 외 카테고리의 조달 난이도 상승"
+        ]
+      }
+    },
+    {
+      "id": "fintech-kalshi-insider-trading",
+      "title": "칼시, 트럼프 일가의 예측시장 확대 속 내부자 거래 단속",
+      "summary": "칼시의 감시 시스템이 전 하원의원 조지 산토스 등이 연루된 의심 베팅을 적발해 CFTC에 이첩했다. 트럼프 미디어는 트루스프리딕트를 개발 중이다.",
+      "source": "Fortune",
+      "url": "https://fortune.com/2026/08/09/kalshi-insider-trump-truth-social-prediction-markets-polymarket/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "예측시장의 시장 건전성 문제가 정치적 이해충돌과 겹쳤다.",
+        "what": "칼시 감시 시스템이 전 하원의원 조지 산토스 등이 연루된 의심 거래를 적발해 CFTC에 넘겼다. 동시에 트럼프 미디어가 트루스프리딕트를 개발하고 트루스소셜의 빠른 접근권을 판매하면서 대통령직과 예측시장의 거리가 좁아지고 있다.",
+        "points": [
+          "의심 베팅 적발 후 CFTC 이첩",
+          "연루자에 전 하원의원 조지 산토스 포함",
+          "트럼프 미디어의 트루스프리딕트 개발"
+        ],
+        "why": [
+          "예측시장의 규제 리스크가 시장조작에서 정치적 이해충돌로 확대",
+          "같은 날 400억 달러 조달 논의와 나란히 놓이는 리스크"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stripe-advent-paypal",
+      "title": "스트라이프·어드벤트의 페이팔 인수 협상 가열",
+      "summary": "약 530억 달러 평가로 페이팔 인수 협상이 진행 중이다. 페이팔은 3개 사업부 개편, AI 재집중, 인력 20% 감축을 포함한 턴어라운드를 추진하고 있다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/14/talks-to-sell-paypal-to-stripe-and-advent-are-heating-up/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "스트라이프가 같은 주에 두 건의 대형 인수를 밀고 있다.",
+        "what": "스트라이프와 어드벤트는 약 530억 달러 평가로 페이팔 인수를 협상 중이다. 페이팔은 3개 사업부 재편, AI 재집중, 인력 20% 감축을 포함한 턴어라운드를 진행 중이다.",
+        "points": [
+          "협상 평가액 약 530억 달러",
+          "페이팔 턴어라운드: 3개 사업부 개편, 인력 20% 감축",
+          "같은 주 오픈라우터 70억 달러 인수와 동시 진행"
+        ],
+        "why": [
+          "결제 산업의 최상위 통합이 한 회사로 수렴",
+          "성사 시 반독점 심사가 최대 변수"
+        ],
+        "action": "페이팔·스트라이프를 동시에 쓰는 경우 단일 벤더 의존 시나리오를 미리 점검할 것."
+      }
+    },
+    {
+      "id": "fintech-western-union-intermax",
+      "title": "웨스턴유니온, 인터맥스 인수에 뉴욕 승인 확보",
+      "summary": "뉴욕주 승인을 위해 매장 유지와 3년간 수수료 인상 상한을 약속했다. 캘리포니아 관문은 아직 남아 있다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48252/western-union-gets-new-york-nod-for-intermax-acquisition-still-face-california-hurdles?utm_source=tldrfintech",
+      "report": {
+        "tldr": "송금 인수 승인의 대가는 소비자 보호 약정이었다.",
+        "what": "웨스턴유니온은 뉴욕주 승인을 얻기 위해 주 내 매장 유지와 3년간 수수료 인상 제한을 약속했다. 캘리포니아 규제 관문은 남아 있다.",
+        "points": [
+          "약정: 매장 유지 + 3년 수수료 인상 상한",
+          "캘리포니아 승인 미완료"
+        ],
+        "why": [
+          "송금 산업 통합에 주 단위 조건부 승인이 표준이 되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "fintech-airwallex-affirm",
+      "title": "에어월렉스, 어펌과 미국 BNPL 출시 제휴",
+      "summary": "에어월렉스 가맹점이 결제 시점에 어펌의 분할 결제 옵션을 미국 고객에게 제공할 수 있게 된다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/110644/airwallex-partners-affirm-for-us-bnpl-roll-out?utm_source=tldrfintech",
+      "report": {
+        "tldr": "결제 게이트웨이에 BNPL이 기본 옵션으로 붙는다.",
+        "what": "에어월렉스와 어펌의 제휴로 에어월렉스 가맹점은 체크아웃에서 어펌의 유연 결제 옵션을 적격 미국 고객에게 노출할 수 있다.",
+        "points": [
+          "대상: 에어월렉스 가맹점의 미국 적격 고객",
+          "체크아웃 단계 통합"
+        ],
+        "why": [
+          "BNPL이 독립 앱이 아니라 결제 인프라 기능으로 흡수"
+        ]
+      }
+    },
+    {
+      "id": "fintech-yuno-series-b",
+      "title": "유노, 글로벌 결제 인프라 확장 위해 4,500만 달러 시리즈 B 조달",
+      "summary": "글로벌 페이테크 벤처스가 주도하고 앤드리슨 호로위츠, 타이거 글로벌이 참여했다. AI 네이티브 결제 운영체제 확장이 목표다.",
+      "source": "Fintech Global",
+      "url": "https://fintech.global/2026/08/12/yuno-raises-45m-series-b-to-scale-payments-os/",
+      "report": {
+        "tldr": "결제 오케스트레이션 계층에 자금이 계속 들어온다.",
+        "what": "유노는 글로벌 페이테크 벤처스 주도로 4,500만 달러 시리즈 B를 조달했다. 앤드리슨 호로위츠와 타이거 글로벌이 참여했으며, AI 네이티브 결제 운영체제 확장에 쓴다.",
+        "points": [
+          "조달 규모 4,500만 달러 시리즈 B",
+          "주도: 글로벌 페이테크 벤처스, 참여: a16z·타이거 글로벌"
+        ],
+        "why": [
+          "결제 라우팅 계층이 AI 모델 라우팅과 같은 논리로 값이 매겨짐"
+        ]
+      }
+    }
+  ]
+}

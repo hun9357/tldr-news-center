@@ -1,0 +1,287 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-simple-model-complex",
+      "title": "단순한 데이터 모델을 긁으면 복잡한 모델이 나온다",
+      "summary": "성경 데이터 모델을 예로 절 범위, 누락 절, 다른 번호 체계 등 현실의 복잡성이 곧바로 드러남을 보인다. 교훈은 제품이 요구하는 만큼만 모델링하라는 것이다.",
+      "source": "Jon Skeet",
+      "url": "https://codeblog.jonskeet.uk/2026/08/14/scratch-a-simple-data-model-find-a-complex-one/?utm_source=tldrdata",
+      "report": {
+        "tldr": "완전한 충실도가 아니라 필요한 충실도를 모델링하라.",
+        "what": "존 스킷은 성경 데이터 모델을 예로 절 범위, 누락 절, 대체 번호 체계 같은 예외가 즉시 나타남을 보인다. 결론은 완벽한 충실도를 좇지 말고 제품이 요구하는 복잡성만 담으라는 것이다.",
+        "points": [
+          "절 범위·누락 절·대체 번호 체계 등 예외 다발",
+          "완전 모델링은 비용 대비 효과가 급락"
+        ],
+        "why": [
+          "도메인 모델 범위 결정이 스키마 부채의 출발점",
+          "'나중에 확장'을 전제한 일반화가 대개 비용만 남긴다"
+        ]
+      }
+    },
+    {
+      "id": "data-hudi-point-lookups",
+      "title": "레이크하우스의 포인트 조회: 후디 인덱스가 읽기 위주 워크로드를 가속하는 법",
+      "summary": "아파치 후디의 메타데이터 테이블 인덱스가 데이터베이스 조회에 가까운 선택적 읽기를 가능하게 한다. 레코드·보조·표현식·블룸필터 인덱스가 동등 조건을 필요한 파일로만 좁힌다.",
+      "source": "Apache Hudi",
+      "url": "https://hudi.apache.org/blog/2026/08/14/hudi-for-read-heavy-workloads-point-lookups-with-indexes?utm_source=tldrdata",
+      "report": {
+        "tldr": "레이크하우스에서 풀스캔 없이 한 건을 찾는 방법.",
+        "what": "후디의 메타데이터 테이블 인덱스는 레코드 레벨, 보조, 표현식, 블룸필터 형태로 동등 조건 술어를 관련 파일로만 프루닝해 선택적 읽기를 가능하게 한다.",
+        "points": [
+          "인덱스 4종: 레코드 레벨·보조·표현식·블룸필터",
+          "동등 조건 술어 프루닝으로 스캔 파일 축소"
+        ],
+        "why": [
+          "레이크하우스가 OLTP성 조회까지 흡수하는 방향",
+          "웨어하우스 이중 운영 비용을 줄일 여지"
+        ]
+      }
+    },
+    {
+      "id": "data-ai-is-storage-workload",
+      "title": "AI가 스토리지 워크로드인 이유",
+      "summary": "긴 컨텍스트 세션, 에이전트, RAG, 멀티모달 워크플로가 추론을 상태 저장 인프라로 만든다. 스토리지 계층에 HBM, DRAM, SSD, 오브젝트 스토리지, CXL, 플래시 티어가 모두 포함된다.",
+      "source": "Data Gravity",
+      "url": "https://www.datagravity.dev/p/why-ai-is-a-storage-workload?utm_source=tldrdata",
+      "report": {
+        "tldr": "추론이 상태를 갖게 되면서 병목이 스토리지로 이동한다.",
+        "what": "긴 컨텍스트 세션, 에이전트, RAG, 멀티모달 워크플로가 결합되면서 추론은 무상태 연산이 아니라 상태 저장 인프라가 된다. HBM부터 오브젝트 스토리지, CXL까지 계층 선택이 지연과 비용을 좌우한다.",
+        "points": [
+          "추론의 상태화 원인: 긴 컨텍스트·에이전트·RAG·멀티모달",
+          "계층: HBM, DRAM, SSD, 오브젝트 스토리지, CXL, 플래시",
+          "계층 배치가 지연·비용을 결정"
+        ],
+        "why": [
+          "GPU 확보에 집중된 인프라 계획의 사각지대",
+          "KV 캐시 재사용 전략이 원가에 직결"
+        ],
+        "action": "추론 인프라 원가 모델에 스토리지 계층 비용을 별도 항목으로 넣을 것."
+      }
+    },
+    {
+      "id": "data-cdc-dual-writes",
+      "title": "CDC는 이중 쓰기 문제를 해결하지 않는다",
+      "summary": "변경 데이터 캡처는 재시도 가능성과 관측성을 보장하지만 목적지 안전성은 보장하지 않는다. 여전히 내구성 있는 멱등성이나 중복 거부 장치가 필요하다.",
+      "source": "Alexandros Andreakis",
+      "url": "https://aandreakis.com/posts/change-data-capture-doesnt-solve-dual-writes?utm_source=tldrdata",
+      "report": {
+        "tldr": "CDC는 전달을 보장할 뿐 정확히 한 번을 보장하지 않는다.",
+        "what": "글은 CDC가 재시도 가능성과 관측성을 개선하지만 목적지 쪽 안전성은 보장하지 않는다고 지적한다. 멱등성 또는 중복 거부 메커니즘이 여전히 필요하다.",
+        "points": [
+          "CDC가 주는 것: 재시도 가능성·관측성",
+          "CDC가 주지 않는 것: 목적지 멱등성",
+          "필요: 내구성 있는 멱등 키 또는 중복 거부"
+        ],
+        "why": [
+          "'CDC 도입했으니 정합성 해결'이라는 흔한 오해를 교정",
+          "아웃박스 패턴 도입 시 설계 체크포인트"
+        ],
+        "action": "CDC 파이프라인의 싱크마다 멱등 키가 정의돼 있는지 확인할 것."
+      }
+    },
+    {
+      "id": "data-on-benchmarking",
+      "title": "벤치마킹에 대하여",
+      "summary": "처리량 수치만으로는 아키텍처 결정을 내릴 수 없다. 효과적인 벤치마크는 워크로드 특성, 캐시 상태, 클라이언트 동작, 확장 한계를 문서화한다.",
+      "source": "Data Engineering Weekly",
+      "url": "https://www.dataengineeringweekly.com/p/on-benchmarking?utm_source=tldrdata",
+      "report": {
+        "tldr": "숫자보다 조건을 기록해야 벤치마크가 쓸모 있다.",
+        "what": "글은 처리량 단일 지표가 아키텍처 결정을 이끌 수 없다고 본다. 워크로드 특성, 캐시 상태, 클라이언트 동작, 확장 한계를 함께 문서화해야 합성 점수 최적화를 피할 수 있다.",
+        "points": [
+          "기록 항목: 워크로드 특성·캐시 상태·클라이언트 동작·확장 한계",
+          "합성 점수 최적화의 위험"
+        ],
+        "why": [
+          "tech 에디션의 '당신들 벤치마크는 우리에게 안 맞는다'와 같은 논지",
+          "벤더 벤치마크 해석의 기본 체크리스트"
+        ]
+      }
+    },
+    {
+      "id": "data-kenn-agentic-engineering",
+      "title": "켄의 에이전틱 엔지니어링 방식",
+      "summary": "설계는 사람이 통제하면서 코딩 에이전트를 대량으로 돌린다. 엔지니어 3명이 상세 스펙, 적대적 리뷰, 지속적 검증으로 주당 수백 개의 PR을 낸다.",
+      "source": "Wes McKinney",
+      "url": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/?utm_source=tldrdata",
+      "report": {
+        "tldr": "자율 루프 없이 대량 에이전트를 운영하는 실전 방식.",
+        "what": "켄은 설계 통제권을 사람이 쥔 채 코딩 에이전트를 대량 투입한다. 엔지니어 3명이 상세 스펙, 적대적 리뷰, 지속적 검증을 결합해 주당 수백 건의 PR을 낸다.",
+        "points": [
+          "엔지니어 3명 / 주당 수백 PR",
+          "핵심 장치: 상세 스펙 + 적대적 리뷰 + 지속 검증",
+          "자율 루프는 쓰지 않음"
+        ],
+        "why": [
+          "데브옵스 에디션의 '산출량은 늘지만 출시는 안 빨라진다'에 대한 반례이자 조건 제시",
+          "검증 장치 없이 산출량만 늘리면 결과가 다르다"
+        ],
+        "action": "에이전트 대량 투입 전에 적대적 리뷰 단계를 파이프라인에 넣을 것."
+      }
+    },
+    {
+      "id": "data-sqlite-16-year-bug",
+      "title": "16년 묵은 SQLite 버그를 추적한 방법",
+      "summary": "6개월 조사 끝에 WAL 체크포인트와 쓰기 사이의 16년 된 경쟁 조건을 찾아냈다. 공격적 체크포인팅이 문제를 드러냈고 SQLite 수정과 복구 도구 개선으로 이어졌다.",
+      "source": "Tailscale",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug?utm_source=tldrdata",
+      "report": {
+        "tldr": "가장 신뢰받는 임베디드 DB에서도 16년간 숨은 경쟁 조건이 있었다.",
+        "what": "테일스케일은 6개월간의 조사로 WAL 체크포인팅과 쓰기 사이의 경쟁 조건을 특정했다. 공격적 체크포인팅 설정이 조건을 노출시켰고, 이후 SQLite 본체 수정과 복구 도구 개선으로 이어졌다.",
+        "points": [
+          "버그 존재 기간 16년, 조사 기간 6개월",
+          "원인: WAL 체크포인팅과 쓰기 간 경쟁 조건",
+          "결과: SQLite 수정 + 복구 도구 개선"
+        ],
+        "why": [
+          "기본값에서 벗어난 튜닝이 잠재 버그를 깨우는 전형",
+          "데이터 손상 조사에 필요한 시간 규모의 현실적 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-datafusion-comet-100",
+      "title": "아파치 데이터퓨전 코멧 1.0.0 릴리스",
+      "summary": "코멧이 시맨틱 버저닝, 스파크 4 지원, 연산자 커버리지 확대, 정확성 테스트 강화와 함께 1.0에 도달했다. 잡을 다시 쓰지 않고 스파크 실행을 가속한다.",
+      "source": "Apache DataFusion",
+      "url": "https://datafusion.apache.org/blog/2026/08/07/datafusion-comet-1.0.0?utm_source=tldrdata",
+      "report": {
+        "tldr": "스파크 잡을 그대로 두고 실행만 가속하는 경로가 1.0이 됐다.",
+        "what": "코멧 1.0.0은 시맨틱 버저닝을 채택하고 스파크 4를 지원하며 연산자 커버리지와 정확성 테스트를 확대했다. 잡 재작성이나 생태계 교체 없이 스파크 실행을 가속한다.",
+        "points": [
+          "시맨틱 버저닝 채택, 스파크 4 지원",
+          "연산자 커버리지 확대 + 정확성 테스트 강화",
+          "잡 재작성 불필요"
+        ],
+        "why": [
+          "스파크 비용 절감의 가장 낮은 마찰 경로",
+          "네이티브 실행 엔진 전환의 성숙 신호"
+        ],
+        "action": "스파크 비용이 부담이라면 코멧 1.0을 스테이징에서 A/B로 검증할 것."
+      }
+    },
+    {
+      "id": "data-databench",
+      "title": "데이터벤치 공개",
+      "summary": "AI 에이전트를 현실적이고 지저분한 분석 과제로 시험한 결과, 증거 수집에는 뛰어나지만 개방형 의사결정에는 약했다. 모델들이 확신을 지어내고 데이터의 미묘함을 놓치는 경향을 보였다.",
+      "source": "Hex",
+      "url": "https://hex.tech/blog/databench-agentic-analytics-benchmark/?utm_source=tldrdata",
+      "report": {
+        "tldr": "분석 에이전트는 근거는 모으지만 판단은 못 한다.",
+        "what": "데이터벤치는 현실의 지저분한 분석 과제로 AI 에이전트를 평가했다. 증거 수집은 잘하지만 개방형 의사결정에서 취약하며, 확신을 제조하고 데이터의 미묘한 신호를 놓치는 경향이 확인됐다.",
+        "points": [
+          "강점: 증거 수집",
+          "약점: 개방형 의사결정, 제조된 확신",
+          "결론: 인간 검토의 가치가 지속"
+        ],
+        "why": [
+          "AI 분석 자동화 도입 시 검토 게이트를 어디에 둘지 알려주는 근거",
+          "'확신을 지어낸다'는 실패 모드는 대시보드에서 잡히지 않는다"
+        ],
+        "action": "분석 에이전트 결과물에 대해 결론 단계만은 사람 검토를 의무화할 것."
+      }
+    },
+    {
+      "id": "data-opensearch-38",
+      "title": "오픈서치 3.8의 새로운 기능",
+      "summary": "벡터 수집, 방사형 쿼리 처리량, 중앙값 지연이 개선됐다. MCP가 모든 에이전트 유형을 지원하고 gRPC 스트리밍으로 토큰 지연이 줄었다.",
+      "source": "OpenSearch",
+      "url": "https://opensearch.org/blog/whats-new-in-opensearch-3.8/?utm_source=tldrdata",
+      "report": {
+        "tldr": "검색 엔진이 에이전트 백엔드로 정비되고 있다.",
+        "what": "오픈서치 3.8은 벡터 수집과 방사형 쿼리 처리량, 중앙값 지연을 개선했다. MCP가 모든 에이전트 유형을 지원하고 툴 디스커버리가 확장됐으며, gRPC 스트리밍으로 토큰 지연이 감소했다. PPL/SQL 기능과 프로메테우스 알림도 추가됐다.",
+        "points": [
+          "벡터 수집·방사형 쿼리·중앙값 지연 개선",
+          "MCP 전 에이전트 유형 지원, 툴 디스커버리 확장",
+          "gRPC 스트리밍으로 토큰 지연 감소"
+        ],
+        "why": [
+          "RAG 스택의 기본 구성요소가 MCP를 흡수",
+          "'지식은 외부에' 흐름의 인프라 측 대응"
+        ]
+      }
+    },
+    {
+      "id": "data-snowflake-negative-bytes",
+      "title": "스노우플레이크가 149GB 쿼리를 -1.5GB 스캔이라고 말한다",
+      "summary": "QUERY_HISTORY를 파케이로 내보낼 때 INT32로 기록되면서 큰 수가 손상된다. 내보내기 전에 해당 9개 컬럼을 캐스팅하면 오버플로를 막을 수 있다.",
+      "source": "Espresso AI",
+      "url": "https://espresso.ai/post/snowflake-bytes-scanned-considered-harmful?utm_source=tldrdata",
+      "report": {
+        "tldr": "비용 분석 데이터 자체가 오버플로로 깨지고 있었다.",
+        "what": "스노우플레이크 QUERY_HISTORY를 파케이로 내보내면 큰 값이 INT32로 기록돼 음수로 손상된다. 영향받는 9개 컬럼을 내보내기 전에 캐스팅하면 해결된다.",
+        "points": [
+          "149GB 쿼리가 -1.5GB로 기록되는 오버플로",
+          "원인: 파케이 내보내기 시 INT32 기록",
+          "해결: 영향 컬럼 9개 사전 캐스팅"
+        ],
+        "why": [
+          "클라우드 비용 최적화 분석의 입력이 조용히 틀려 있었다는 사례",
+          "음수 없는 지표에 음수가 보이면 스키마부터 의심"
+        ],
+        "action": "스노우플레이크 사용량 분석 파이프라인이 있다면 바이트 컬럼 타입을 즉시 확인할 것."
+      }
+    },
+    {
+      "id": "data-ranking-brilliant-birds",
+      "title": "가장 화려한 새를 공정하게 순위 매기기",
+      "summary": "채도, 색 다양성, 표본 신뢰도를 결합한 투명한 새 화려함 순위로 오렌지가슴멧새가 1위에 올랐다. 이해 가능하고 방어 가능한 요인이 순위의 신뢰를 만든다는 사례다.",
+      "source": "Moultano",
+      "url": "https://moultano.wordpress.com/2026/08/14/fairly-ranking-the-most-brilliant-birds/?utm_source=tldrdata",
+      "report": {
+        "tldr": "순위의 신뢰는 정확도가 아니라 설명 가능성에서 온다.",
+        "what": "저자는 채도, 색 다양성, 표본 신뢰도를 결합해 투명한 새 화려함 순위를 만들었고 오렌지가슴멧새가 1위였다. 사람의 판단과 연결되는 이해 가능한 요인이 순위의 설득력을 만든다는 것이 요지다.",
+        "points": [
+          "결합 요인: 채도·색 다양성·표본 신뢰도",
+          "1위: 오렌지가슴멧새",
+          "설명 가능한 요인 구성이 핵심"
+        ],
+        "why": [
+          "랭킹·스코어링 제품 설계에 그대로 적용되는 교훈"
+        ]
+      }
+    },
+    {
+      "id": "data-duckdb-1000-json-s3",
+      "title": "S3의 JSON 파일 1,000개 쿼리하기",
+      "summary": "ECS 파게이트의 덕DB가 EMR 서버리스의 스파크보다 3.4배 빠르게, 더 낮은 비용으로 JSON 1,000개를 처리했다.",
+      "source": "Performance.de",
+      "url": "https://performancede.substack.com/p/querying-1-thousand-json-files-from?utm_source=tldrdata",
+      "report": {
+        "tldr": "중간 규모 작업에서 단일 노드가 분산 클러스터를 이긴다.",
+        "what": "덕DB를 ECS 파게이트에서 돌려 S3의 JSON 파일 1,000개를 처리한 결과, EMR 서버리스의 스파크 대비 3.4배 빠르고 비용도 낮았다.",
+        "points": [
+          "덕DB on ECS 파게이트 vs 스파크 on EMR 서버리스",
+          "3.4배 빠르고 비용도 저렴"
+        ],
+        "why": [
+          "기본값으로 분산 엔진을 고르는 관행의 재검토 근거"
+        ]
+      }
+    },
+    {
+      "id": "data-spark-observability-skills",
+      "title": "스파크 관측성 스킬",
+      "summary": "스파크 히스토리 서버의 런타임 데이터를 활용해 디버깅과 최적화를 돕는 에이전트 스킬이 공개됐다.",
+      "source": "Embrasure AI",
+      "url": "https://github.com/EmbrasureAI/spark-observability-skills?utm_source=tldrdata",
+      "report": {
+        "tldr": "스파크 튜닝 지식을 에이전트 스킬로 패키징.",
+        "what": "스파크 히스토리 서버의 런타임 데이터를 읽어 디버깅·최적화를 수행하는 에이전트 스킬 모음이 오픈소스로 나왔다.",
+        "points": [
+          "스파크 히스토리 서버 런타임 데이터 활용",
+          "디버깅·최적화 작업 자동화"
+        ],
+        "why": [
+          "운영 지식의 배포 단위가 문서에서 스킬로 이동"
+        ]
+      }
+    }
+  ]
+}

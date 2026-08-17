@@ -1,0 +1,384 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-glm-53",
+      "title": "GLM-5.3, 프런티어 코딩과 함께 창발한 사이버 능력",
+      "summary": "Z.ai가 아키텍처 변경 없이 사후학습 개선만으로 GLM-5.3을 내놨다. 복잡한 코딩에서 전작 대비 50% 향상, 취약점 발견 벤치마크 1위지만 사이버 점수가 미토스 5를 넘자 가중치 공개는 2주 연기됐다.",
+      "source": "Z.ai",
+      "url": "https://z.ai/blog/glm-5.3?utm_source=tldrai",
+      "report": {
+        "tldr": "사후학습만으로 프런티어에 도달한 모델이, 그 능력 때문에 공개가 막혔다.",
+        "what": "Z.ai는 아키텍처를 그대로 두고 다양한 코딩 과제 전반의 사후학습 절차만 개선해 GLM-5.3을 공개했다. 복잡 코딩에서 전작 대비 50% 향상, 취약점 발견 벤치마크 선두를 기록했으나, 사이버보안 점수가 미토스 5를 앞선 직후 다운로드 가능한 가중치 배포를 2주 연기하고 민감 기능을 게이팅했다.",
+        "points": [
+          "아키텍처 변경 없이 사후학습 개선만으로 성능 확보",
+          "복잡 코딩 과제 전작 대비 50% 향상, 취약점 발견 벤치마크 선두",
+          "사이버 점수가 미토스 5 상회",
+          "가중치 2주 연기 + 민감 사이버 기능 게이팅, 안전 검토 후 공개 예정",
+          "오늘 tech·dev·파운더스 에디션에 동시 등장한 유일한 사안"
+        ],
+        "why": [
+          "오픈웨이트의 기본값이 '즉시 공개'에서 '검토 후 공개'로 이동",
+          "같은 날 앤트로픽도 미토스보다 강한 '모델 2' 보류를 발표해 두 진영이 같은 결론에 도달",
+          "중국 랩이 수개월이 아니라 수일 단위로 릴리스하는 속도에서 나온 자체 제동",
+          "보안 에디션의 대만 준자율 공격·SIEM 우회 실험과 묶이면 '모델 사이버 능력'이 올해 남은 규제 의제가 된다"
+        ],
+        "context": "Z.ai는 GLM 계열 오픈웨이트 모델을 내놓는 중국 랩으로, 릴리스 주기가 미국 프런티어 랩보다 짧다. 사후학습(post-training)은 사전학습된 모델에 강화학습·지도학습을 덧대는 단계다.",
+        "action": "GLM 가중치 공개를 전제로 한 온프레미스 계획은 2주 연기를 반영하고, 사이버 기능 게이팅이 자사 유스케이스를 막는지 확인할 것."
+      }
+    },
+    {
+      "id": "ai-cursor-joins-spacex",
+      "title": "커서, 스페이스X에 합류",
+      "summary": "스페이스X가 커서를 인수했다. GPU 자원을 AI 모델 개발에 활용하려는 목적이며, 그록 4.6이 이 협업의 성과로 제시됐다.",
+      "source": "Cursor",
+      "url": "https://cursor.com/blog/joining-spacex?utm_source=tldrai",
+      "report": {
+        "tldr": "코딩 에이전트 선두 주자가 우주기업 산하로 들어갔다.",
+        "what": "커서는 스페이스X 합류를 공식 발표했다. 스페이스X의 GPU 자원을 모델 개발에 쓰겠다는 설명이며, 그록 4.6이 그 결과물로 언급됐다.",
+        "points": [
+          "스페이스X의 GPU 자원 활용이 인수 논리",
+          "그록 4.6이 협업 역량의 사례로 제시",
+          "커서는 코딩 에이전트 시장 점유 상위"
+        ],
+        "why": [
+          "코딩 도구가 독립 제품이 아니라 컴퓨트 보유자의 수직 계열로 편입",
+          "커서 사용 조직은 로드맵·데이터 정책 변경 가능성을 점검해야"
+        ],
+        "action": "커서를 표준 도구로 채택한 팀은 데이터 처리 약관 변경 공지를 주시할 것."
+      }
+    },
+    {
+      "id": "ai-stripe-openrouter-techcrunch",
+      "title": "스트라이프, AI 게이트웨이 오픈라우터 70억 달러 인수",
+      "summary": "5월 라운드에서 13억 달러로 평가받은 오픈라우터가 70억 달러 이상에 팔린다. 개발자는 이 게이트웨이로 능력·가격에 따라 모델 요청을 분배해왔다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/?utm_source=tldrai",
+      "report": {
+        "tldr": "3개월 만에 평가액이 5배 넘게 뛴 라우팅 계층 인수.",
+        "what": "테크크런치에 따르면 스트라이프는 오픈라우터를 70억 달러 이상에 인수하기로 합의했다. 5월 펀딩 당시 평가액은 13억 달러였다.",
+        "points": [
+          "13억 달러(5월) → 70억 달러(8월)",
+          "능력·가격 기준 모델 라우팅이 핵심 기능",
+          "tech·핀테크 에디션에도 동시 게재"
+        ],
+        "why": [
+          "모델 중립 계층의 값이 모델 자체만큼 커졌다",
+          "추론 단가 하락기에 라우팅이 마진 포착 지점이 됨"
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-downsizes-backstop",
+      "title": "엔비디아, 오픈AI 데이터센터 2500억 달러 보증 축소",
+      "summary": "엔비디아가 오하이오 데이터센터 프로젝트에 대한 금융 백스톱을 2500억 달러에서 1200억 달러 미만으로 줄였다. 1단계에만 5기가와트 전력이 필요한 사업이다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/nvidia-downsizes-plans-for-250-billion-guarantee-of-openai-data-center-b56c38d3?st=dykJ8J&reflink=desktopwebshare_permalink&utm_source=tldrai",
+      "report": {
+        "tldr": "AI 인프라 최대 규모 보증이 절반 이하로 깎였다.",
+        "what": "WSJ에 따르면 엔비디아는 오픈AI 오하이오 데이터센터에 대한 보증 규모를 2500억 달러에서 1200억 달러 미만으로 축소했다.",
+        "points": [
+          "2500억 달러 → 1200억 달러 미만",
+          "1단계 소요 전력 5기가와트",
+          "7월 27일 보도된 백스톱 구조의 후속"
+        ],
+        "why": [
+          "AI 설비투자 자금 조달 구조가 조정 국면에 들어섰다는 신호",
+          "전력 확보가 자본보다 먼저 걸리는 제약임을 재확인",
+          "IT 에디션의 아마존 '리전 플렉스' 전력난 대응과 같은 맥락"
+        ],
+        "action": "AI 인프라 공급망에 노출된 계약은 단계별 취소 조항을 다시 읽을 것."
+      }
+    },
+    {
+      "id": "ai-glm53-chinese-labs-stride",
+      "title": "GLM-5.3: 중국 랩은 어떻게 프런티어와 보조를 맞추나",
+      "summary": "Z.ai는 오픈AI나 앤트로픽의 수개월이 아니라 수일 단위로 모델을 낸다. 미국 데이터 기업이 중국 모델 랩에 판매하면서 중국 RL 산업이 가속됐다는 분석이다.",
+      "source": "Interconnects AI",
+      "url": "https://www.interconnects.ai/p/glm-53-how-chinese-labs-keep-stride?utm_source=tldrai",
+      "report": {
+        "tldr": "릴리스 주기 자체가 중국 랩의 경쟁 우위다.",
+        "what": "인터커넥츠는 Z.ai의 출시 템포가 미국 프런티어 랩과 근본적으로 다르다고 분석한다. 미국 데이터 기업의 중국 랩 대상 판매가 강화학습 산업 가속에 기여했다는 관찰도 함께 제시한다.",
+        "points": [
+          "Z.ai 릴리스 주기: 수일 vs 미국 랩 수개월",
+          "미국 데이터 기업의 대중국 판매가 RL 역량 축적에 기여"
+        ],
+        "why": [
+          "수출 통제가 칩에 집중된 사이 데이터·RL 파이프라인이 우회로가 됨",
+          "오픈웨이트 경쟁의 축이 성능에서 속도로 이동"
+        ]
+      }
+    },
+    {
+      "id": "ai-state-of-open-models-2026",
+      "title": "2026년 오픈 모델 현황",
+      "summary": "허깅페이스가 2026년 1~8월 오픈 모델 생태계를 정리했다. 모델 출시, 툴링, 채택 패턴의 변화를 문서화했다.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026?utm_source=tldrai",
+      "report": {
+        "tldr": "올해 상반기 오픈 모델 생태계의 지형도.",
+        "what": "허깅페이스는 1월부터 8월까지의 오픈 모델 출시, 툴링, 채택 패턴 변화를 집계해 공개했다.",
+        "points": [
+          "2026년 1~8월 구간 집계",
+          "출시·툴링·채택 세 축으로 정리"
+        ],
+        "why": [
+          "오픈웨이트 공개 규범이 바뀌는 시점의 기준선 자료",
+          "같은 날 GLM-5.3 가중치 연기와 대조해 읽을 가치"
+        ]
+      }
+    },
+    {
+      "id": "ai-agent-memory-shapes",
+      "title": "에이전트 메모리 이해하기",
+      "summary": "큐레이션된 파일, 구조화 저장소, 학습된 경험 세 방식을 비교했다. 메모리 표현 방식이 통제된 벤치마크 성능에 미치는 영향을 실험했다.",
+      "source": "pinglin.tw",
+      "url": "https://www.pinglin.tw/blog/the-shapes-of-agent-memory/?utm_source=tldrai",
+      "report": {
+        "tldr": "에이전트 메모리는 저장 여부가 아니라 표현 방식의 문제다.",
+        "what": "분석은 큐레이션 파일, 구조화 저장소, 학습된 경험이라는 세 가지 지속화 방식을 비교하고 각각이 벤치마크에서 보이는 차이를 측정한다.",
+        "points": [
+          "세 가지 메모리 표현 방식 비교",
+          "통제된 벤치마크에서 표현 방식의 효과 측정"
+        ],
+        "why": [
+          "장기 실행 에이전트 설계에서 메모리 스키마가 성능 변수",
+          "메모리 도입 시 검색 품질이 저장 용량보다 중요"
+        ]
+      }
+    },
+    {
+      "id": "ai-zvi-greenblatt-podcast",
+      "title": "드워케시 파텔 팟캐스트의 라이언 그린블랫에 대하여",
+      "summary": "재귀적 자기개선과 정렬 문제를 다뤘다. 그린블랫은 정렬에서 검증의 어려움과 좁은 과제 학습의 위험을 강조했다.",
+      "source": "The Zvi",
+      "url": "https://thezvi.substack.com/p/on-dwarkesh-patels-podcast-with-ryan?utm_source=tldrai",
+      "report": {
+        "tldr": "정렬의 병목은 목표 설정이 아니라 검증이라는 주장.",
+        "what": "논평은 재귀적 자기개선 시나리오와 정렬 난점을 다루며, 그린블랫이 지목한 검증 곤란성과 좁은 과제 최적화의 부작용을 정리한다.",
+        "points": [
+          "정렬에서 검증 가능성이 핵심 난점",
+          "좁은 과제 학습이 일반화 위험을 키움"
+        ],
+        "why": [
+          "앤트로픽의 '모델 2' 보류 근거와 논리 구조가 동일",
+          "자동화 R&D 가속 우려의 이론적 배경"
+        ]
+      }
+    },
+    {
+      "id": "ai-msft-full-bandwidth-transformers",
+      "title": "마이크로소프트의 풀 밴드위드 트랜스포머",
+      "summary": "이전 토큰의 은닉 상태를 다음 토큰 임베딩과 함께 모델에 되먹이는 구조다. 디코딩 스텝 간 잠재 연산을 가능하게 한다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2608.08888?utm_source=tldrai",
+      "report": {
+        "tldr": "디코딩 단계 사이에 연산을 이어붙이는 아키텍처 제안.",
+        "what": "논문은 직전 토큰의 은닉 상태를 다음 토큰 임베딩과 함께 입력해, 디코딩 스텝을 가로지르는 잠재 연산을 가능하게 한다.",
+        "points": [
+          "은닉 상태 되먹임으로 스텝 간 정보 대역폭 확대",
+          "토큰 임베딩만 전달하던 기존 구조의 병목 해소"
+        ],
+        "why": [
+          "추론 단계 연산 효율의 새 축",
+          "사후학습 위주 경쟁 속에서 나온 드문 아키텍처 변경 제안"
+        ]
+      }
+    },
+    {
+      "id": "ai-mathcode",
+      "title": "매스코드",
+      "summary": "린 4 형식화 엔진, 영속 REPL, 옵시디언 지식 그래프를 내장한 수학 코딩 에이전트다.",
+      "source": "math-ai-org.github.io",
+      "url": "https://math-ai-org.github.io/mathcode/?utm_source=tldrai",
+      "report": {
+        "tldr": "형식 증명까지 이어지는 수학 전용 에이전트.",
+        "what": "매스코드는 Lean 4 형식화 엔진과 영속 REPL, 옵시디언 기반 지식 그래프를 갖춘 프런티어 수학 코딩 에이전트다.",
+        "points": [
+          "Lean 4 형식화 엔진 내장",
+          "영속 REPL과 지식 그래프로 장기 탐색 지원"
+        ],
+        "why": [
+          "WSJ의 리만 가설 결과와 같은 작업을 도구화하는 방향",
+          "형식 검증이 붙으면 AI 수학 결과의 신뢰 비용이 내려감"
+        ]
+      }
+    },
+    {
+      "id": "ai-littlelearner",
+      "title": "리틀러너",
+      "summary": "5학년 수준 지식으로 제한된 50억 파라미터 모델로, 브라우저에서 실행된다. 통제된 지식 습득 연구용이다.",
+      "source": "littlelearner-ll.github.io",
+      "url": "https://littlelearner-ll.github.io/?utm_source=tldrai",
+      "report": {
+        "tldr": "지식 범위를 의도적으로 제한한 연구용 소형 모델.",
+        "what": "리틀러너는 5B 파라미터에 초등 5학년 수준 지식만 담아 브라우저에서 돌릴 수 있게 만든 모델로, 지식 습득 과정을 통제된 조건에서 연구하기 위한 것이다.",
+        "points": [
+          "5B 파라미터, 브라우저 실행 가능",
+          "지식 범위를 5학년 수준으로 제한"
+        ],
+        "why": [
+          "'모델이 일부러 덜 똑똑해진다'는 흐름의 연구판",
+          "지식과 추론을 분리해 측정할 실험 환경 제공"
+        ]
+      }
+    },
+    {
+      "id": "ai-antigravity-custom-agents",
+      "title": "구글, 커스텀 에이전트 공개",
+      "summary": "안티그래비티 2.0에서 범위가 지정된 지침·도구·제약을 갖는 커스텀 에이전트를 출시했다. 토큰 오버헤드를 줄이면서 역할별 특화를 노린다.",
+      "source": "Google Antigravity",
+      "url": "https://antigravity.google/blog/introducing-custom-agents?utm_source=tldrai",
+      "report": {
+        "tldr": "역할별 에이전트를 파일로 정의하는 방식.",
+        "what": "구글은 안티그래비티 2.0에 커스텀 에이전트를 도입해, 지침·도구·제약의 범위를 좁힌 전문 역할을 정의하면서 토큰 오버헤드를 최소화하도록 했다.",
+        "points": [
+          "지침·도구·제약을 범위 지정해 정의",
+          "토큰 오버헤드 최소화가 설계 목표",
+          "dev·파운더스 에디션에도 게재"
+        ],
+        "why": [
+          "에이전트 구성의 표준이 '큰 프롬프트'에서 '좁은 역할'로 이동",
+          "동적 서브에이전트와의 조합이 실사용 관건"
+        ]
+      }
+    },
+    {
+      "id": "ai-amodei-regulation-messaging",
+      "title": "다리오 아모데이, 규제와 AI 메시징에 대하여",
+      "summary": "중앙집중 대 분산이라는 프레이밍이 공정한 제도적 절차 문제를 가린다는 주장이다. AI 기업들이 약속을 지키지 못한 채 신뢰 적자에 직면했다고 지적했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2088758816376807762.html?utm_source=tldrai",
+      "report": {
+        "tldr": "규제 논쟁의 축을 절차 공정성으로 옮기자는 제안.",
+        "what": "아모데이는 중앙집중/분산 구도가 실제 쟁점인 제도적 절차의 공정성을 가린다고 본다. AI 기업들이 이행하지 못한 약속 탓에 대중 신뢰 적자를 안고 있다는 점도 인정한다.",
+        "points": [
+          "중앙집중 대 분산 프레이밍 비판",
+          "AI 기업의 공적 신뢰 적자를 명시적으로 인정"
+        ],
+        "why": [
+          "같은 날 앤트로픽의 모델 2 보류 발표와 함께 읽어야 할 입장문",
+          "규제 설계 논의가 '누가 통제하나'에서 '어떤 절차인가'로"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-cerebras-stake",
+      "title": "오픈AI, 울트라패스트 출시 몇 주 전 100달러에 세레브라스 지분 4.2% 취득",
+      "summary": "오픈AI가 워런트를 행사해 100달러에 1,003만 3,508주를 확보했다. 약 23억 달러 가치의 무의결권 주식이다.",
+      "source": "Implicator AI",
+      "url": "https://www.implicator.ai/openai-paid-100-for-a-4-2-cerebras-stake-weeks-before-ultrafast-launch/?utm_source=tldrai",
+      "report": {
+        "tldr": "초고속 추론 파트너 지분을 사실상 무상으로 확보했다.",
+        "what": "오픈AI는 세레브라스 워런트를 100달러에 행사해 1,003만 3,508주(약 23억 달러 상당, 무의결권)를 취득했다. 울트라패스트 서비스 출시 몇 주 전이다.",
+        "points": [
+          "행사가 100달러, 취득 주식 10,033,508주",
+          "평가 가치 약 23억 달러, 의결권 없음",
+          "세레브라스가 오픈AI 속도 경쟁력의 기반"
+        ],
+        "why": [
+          "추론 속도 경쟁이 지분 구조로 잠긴다",
+          "8월 14일 GPT-5.6 초고속 서비스 보도의 배경이 드러남"
+        ]
+      }
+    },
+    {
+      "id": "ai-ng-skills-map",
+      "title": "AI 엔지니어링 역량 지도",
+      "summary": "앤드류 응이 AI 엔지니어링의 핵심 역량 네 가지를 제시했다. 애플리케이션 구축·배포, 소프트웨어 기본기, 에이전트 코딩 숙련도, 전략적 우선순위 설정이다.",
+      "source": "Andrew Ng (X)",
+      "url": "https://x.com/AndrewYNg/status/2088302050706686198?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 엔지니어에게 필요한 네 가지 축.",
+        "what": "앤드류 응은 애플리케이션 구축/배포, 소프트웨어 기본기, 에이전트 코딩 숙련도, 전략적 우선순위 판단을 핵심 역량으로 꼽았다.",
+        "points": [
+          "4개 역량 축 제시",
+          "소프트웨어 기본기를 여전히 필수로 분류"
+        ],
+        "why": [
+          "dev 에디션의 '소프트웨어 공학 기본기가 더 중요해졌다'와 같은 결론",
+          "채용·교육 커리큘럼 설계의 참조점"
+        ]
+      }
+    },
+    {
+      "id": "ai-hard-part-stops-being-hard",
+      "title": "어려운 부분이 더 이상 어렵지 않아질 때",
+      "summary": "AI로 생산 작업의 문턱이 낮아지면서 더 야심찬 과제로 옮겨가야 한다는 논평이다.",
+      "source": "Proofs and Intuitions",
+      "url": "https://proofsandintuitions.net/2026/08/14/when-the-hard-part-stops-being-hard/?utm_source=tldrai",
+      "report": {
+        "tldr": "난이도의 이동은 목표의 상향을 요구한다.",
+        "what": "글은 생산 작업이 쉬워질수록 기존 난제가 기준선이 되며, 야심의 수준을 올리지 않으면 이득이 사라진다고 본다.",
+        "points": [
+          "생산 문턱 하락이 기대 수준을 끌어올림",
+          "기존 역량의 희소성이 빠르게 소멸"
+        ],
+        "why": [
+          "개인·팀 로드맵의 목표 재설정 필요"
+        ]
+      }
+    },
+    {
+      "id": "ai-qwen-38-27b-overthinking",
+      "title": "Qwen 3.8 27B는 훌륭하지만 기본값이 과도한 사고",
+      "summary": "알리바바의 Qwen 3.8 27B는 아파치 2.0 라이선스에 비전 기능을 갖췄지만 기본 동작에서 과도하게 생각하는 경향을 보인다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/?utm_source=tldrai",
+      "report": {
+        "tldr": "성능은 좋지만 기본 추론 예산이 과하다.",
+        "what": "사이먼 윌리슨은 Qwen 3.8 27B가 아파치 2 라이선스의 비전 지원 모델로 훌륭하나, 별도 설정 없이는 지나치게 긴 추론을 수행한다고 평가했다.",
+        "points": [
+          "아파치 2.0 라이선스, 비전 지원",
+          "기본 설정에서 과도한 추론 길이"
+        ],
+        "why": [
+          "오픈웨이트 도입 시 추론 예산 튜닝이 실제 단가를 좌우",
+          "GLM-5.3 가중치 연기 국면에서 대체 후보"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-exec-departures",
+      "title": "오픈AI, IPO 앞두고 고위 임원 대거 교체",
+      "summary": "CRO, COO, 윤리 책임자가 IPO 준비를 앞두고 떠났다.",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/08/14/openai-executive-greg-brockman-ipo?utm_source=tldrai",
+      "report": {
+        "tldr": "상장 준비 국면의 경영진 재편.",
+        "what": "악시오스에 따르면 오픈AI에서 최고매출책임자, 최고운영책임자, 윤리 책임자가 연이어 떠났다. IPO 준비 국면과 맞물린 인사다.",
+        "points": [
+          "CRO·COO·윤리 책임자 이탈",
+          "IPO 준비 단계에서의 재편"
+        ],
+        "why": [
+          "윤리 책임자 공백은 안전 거버넌스 신호로 읽힐 수 있음",
+          "상장 전 조직 구조가 대외 약속의 이행 주체를 바꾼다"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-amd-tpu",
+      "title": "구글, 차세대 TPU 설계에 AMD 기용 검토",
+      "summary": "온패키지 CPU 코어를 통합한 하이브리드 TPU 설계를 검토 중이다. 강화학습 워크로드가 목표다.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
+      "report": {
+        "tldr": "RL 워크로드를 겨냥한 CPU-가속기 통합 설계.",
+        "what": "구글이 AMD의 온패키지 CPU 코어를 통합하는 하이브리드 TPU를 검토 중이라는 보도다. 강화학습 워크로드가 주 대상이다.",
+        "points": [
+          "온패키지 CPU 코어 통합 하이브리드 ASIC",
+          "강화학습 워크로드가 설계 목표"
+        ],
+        "why": [
+          "RL 파이프라인이 칩 설계 요구사항을 바꾸기 시작",
+          "구글-AMD 조합은 엔비디아 의존도 축소 시도"
+        ]
+      }
+    }
+  ]
+}
