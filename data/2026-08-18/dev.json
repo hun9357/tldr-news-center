@@ -1,0 +1,261 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "👨‍💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-turbopuffer-ship-database-daily",
+      "title": "터보퍼퍼, 매일 데이터베이스를 배포하는 방법",
+      "summary": "각 터보퍼퍼 클러스터에 로컬 상태 머신을 두어 컨트롤 플레인의 직접 개입 없이도 자율 운영이 가능하다. 커스텀 API와 대시보드로 100개 넘는 클러스터를 관리한다.",
+      "source": "turbopuffer",
+      "url": "https://turbopuffer.com/blog/control-plane?utm_source=tldrdev",
+      "report": {
+        "tldr": "컨트롤 플레인 없이도 클러스터가 스스로 운영된다.",
+        "what": "각 터보퍼퍼 클러스터에 로컬 상태 머신을 구현해 컨트롤 플레인의 직접 접근 없이도 자율적으로 운영·관리할 수 있게 했다. 커스텀 API와 사용하기 쉬운 대시보드를 통해 100개 넘는 데이터베이스 클러스터를 효과적으로 관리하며, 하루에도 여러 번 배포하고 플릿 단위 작업을 수행할 수 있다.",
+        "points": [
+          "클러스터별 로컬 상태 머신으로 자율 운영",
+          "100개 넘는 클러스터를 커스텀 API·대시보드로 관리",
+          "하루 다회 배포와 플릿 단위 작업 지원"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-bluesky-logo-screenshots",
+      "title": "블루스카이가 스크린샷에만 로고를 남기는 법",
+      "summary": "UITextField의 특정 속성을 활용해 스크린샷 촬영 시에만 로고가 나타나고 평소 사용 중엔 숨겨지게 만드는 iOS 트릭.",
+      "source": "Tim Marinin",
+      "url": "https://timmarinin.net/2026/bluesky-screenshots/?utm_source=tldrdev",
+      "report": {
+        "tldr": "평소엔 안 보이다가 캡처할 때만 나타나는 로고.",
+        "what": "블루스카이는 스크린샷 촬영 시 콘텐츠를 마스킹하는 UITextField의 특정 속성을 이용해, 평소 앱 사용 중엔 로고를 숨기고 스크린샷에만 표시되게 하는 방법을 쓴다. iOS가 제스처 시작 시점에 스냅샷을 캡처하는 동작을 활용한 것으로, 앱 전환 시 로고가 보이지 않게 한다.",
+        "points": [
+          "UITextField 속성으로 스크린샷 시에만 로고 노출",
+          "iOS의 제스처 시작 시점 스냅샷 캡처 동작을 활용",
+          "앱 전환 중에는 로고 비노출"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-fastify-logcontroller",
+      "title": "LogController로 패스티파이 로그량 줄이기",
+      "summary": "5초 간격 헬스체크만으로 월 100만 줄 넘는 로그가 쌓인다. 노이즈 라우트에 logLevel: silent를 걸거나, LogController를 서브클래싱해 원하는 메서드만 오버라이드하는 두 가지 해법.",
+      "source": "Backend Cafe",
+      "url": "https://backend.cafe/million-log-lines-a-month?utm_source=tldrdev",
+      "report": {
+        "tldr": "새 옵션을 만들 필요 없이 패스티파이엔 이미 답이 있었다.",
+        "what": "5초 간격으로 폴링되는 패스티파이 헬스체크 하나가 월 100만 줄 넘는 로그를 만든다. 빠른 해법은 노이즈 라우트를 logLevel: 'silent'로 등록하는 것이지만, 이는 해당 라우트의 자체 로그와 실패까지 함께 묵음 처리한다. 더 유연한 해법은 LogController를 서브클래싱해 관심 있는 로그 줄에 해당하는 메서드만 오버라이드하는 것이다.",
+        "points": [
+          "헬스체크 하나가 월 100만+ 로그 줄 유발",
+          "빠른 해법: logLevel: 'silent' (부작용 있음)",
+          "유연한 해법: LogController 서브클래싱"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-aidr-ai-didnt-read",
+      "title": "AI;DR (AI가 안 읽었다는 뜻)",
+      "summary": "다듬지 않은 AI 생성 콘텐츠가 늘면서 'AI;DR'이라는 새로운 무시 표현이 등장했다. AI 산출물의 검토·편집을 강조하는 정책이 필요하다는 제안.",
+      "source": "Rick Manelius",
+      "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read?utm_source=tldrdev",
+      "report": {
+        "tldr": "TL;DR을 이을 새로운 줄임말, AI;DR.",
+        "what": "다듬지 않은 AI 생성 콘텐츠가 늘어나면서 이를 무시하는 표현으로 'AI;DR(AI; didn't read)'이 등장했다. 새로운 정책은 AI 생성물의 검토와 편집을 강조해, 커뮤니케이션에 사람의 손길이 남아있도록 해야 한다고 제안한다.",
+        "points": [
+          "AI 원문 그대로 배포된 콘텐츠에 대한 피로감 반영",
+          "검토·편집을 의무화하는 정책 제안"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-gpt56-sol-vision-model",
+      "title": "GPT-5.6 솔, 오픈AI 역대 최고 '비전' 모델",
+      "summary": "GPT-5.6 라인업, 특히 솔 모델이 객체 탐지·카운팅에서 전작 GPT-5.5 대비 향상된 성능을 보였다. 다만 비용·지연시간, 간헐적 탐지 오류는 여전한 과제다.",
+      "source": "Roboflow",
+      "url": "https://blog.roboflow.com/openai-gpt-5-6/?utm_source=tldrdev",
+      "report": {
+        "tldr": "비전 능력은 늘었지만 비용과 속도는 여전한 숙제.",
+        "what": "오픈AI의 최근 GPT-5.6 라인업, 특히 솔 모델은 전작 GPT-5.5 대비 객체 탐지·카운팅에서 향상된 성능을 보이며 비전 능력의 진전을 보여준다. 다양한 시각 과제에서 뛰어나지만, 비용, 지연시간, 간헐적 탐지 오류라는 과제는 여전히 남아있다.",
+        "points": [
+          "객체 탐지·카운팅에서 GPT-5.5 대비 향상",
+          "다양한 시각 과제에서 우수한 성능",
+          "비용·지연시간·간헐적 오류는 여전한 과제"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-anthropic-watermark-criticism",
+      "title": "\"클로드의 텍스트 워터마킹은 글쓰기를 왜곡한다\" 비판",
+      "summary": "EU 규제 준수를 위해 단어 선택을 미묘하게 편향시키는 앤트로픽의 워터마킹 방식이 텍스트 품질과 명료함을 해친다는 비판이 제기됐다.",
+      "source": "Daring Fireball",
+      "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing?utm_source=tldrdev",
+      "report": {
+        "tldr": "탐지 가능성을 위해 품질을 희생했다는 비판.",
+        "what": "앤트로픽이 클로드 AI 모델에 도입한 텍스트 워터마킹은 EU 규제 준수를 위해 단어 선택을 미묘하게 편향시키는 시스템으로, 생성된 텍스트의 품질과 명료함을 해친다는 비판을 받고 있다. 이 접근은 탐지 가능성을 품질보다 우선시해 글쓰기의 완성도를 해친다는 시각이다.",
+        "points": [
+          "EU 규제 준수 목적의 단어 선택 편향 시스템",
+          "텍스트 품질·명료함 저하 우려",
+          "탐지 우선 설계에 대한 비판"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-origin-code-hosting-feature",
+      "title": "오리진 코드 호스팅, 기능으로 뜯어보기",
+      "summary": "커서 오리진은 저장소, PR, 코드 브라우징, 깃허브 동기화를 지원하며 에이전트 규모에 맞춰 설계됐다. 동기화된 저장소는 실시간 업데이트되고 언제든 연결을 끊을 수 있다.",
+      "source": "Cursor Changelog",
+      "url": "https://cursor.com/changelog/origin-code-hosting?utm_source=tldrdev",
+      "report": {
+        "tldr": "깃허브 저장소와 나란히, 에이전트 규모로 설계된 코드 호스팅.",
+        "what": "커서는 오리진 플랫폼을 통해 저장소, PR, 코드 브라우징, 깃허브 동기화 등 핵심 코드 호스팅 기능을 제공한다. 오리진은 에이전트 규모를 염두에 두고 설계됐으며, 깃허브 저장소를 오리진이 호스팅하는 저장소와 나란히 둘 수 있다. 사용자는 새 저장소를 만들거나 기존 깃허브 저장소를 동기화할 수 있고, 어떤 것을 동기화할지 선택하거나 언제든 연결을 끊을 수 있다. 동기화된 저장소는 실시간으로 업데이트된다.",
+        "points": [
+          "저장소·PR·코드 브라우징·깃허브 동기화 지원",
+          "동기화 저장소는 실시간 업데이트",
+          "언제든 연결 해제 가능",
+          "얼리 베타로 전체 유료 플랜에 롤아웃 (기업 관리자 옵트아웃 가능)"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-hunk-diff-viewer",
+      "title": "헝크: 에이전트 시대의 터미널 디프 뷰어",
+      "summary": "인라인 AI 주석, 반응형 레이아웃 등 상호작용과 에이전트 지원 기능에 초점을 맞춘 터미널 기반 디프 뷰어.",
+      "source": "GitHub",
+      "url": "https://github.com/modem-dev/hunk?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 주석이 붙은 터미널 디프 리뷰 도구.",
+        "what": "헝크는 변경사항 리뷰에 초점을 맞춘 터미널 기반 디프 뷰어로, 인라인 AI 주석과 반응형 레이아웃 같은 상호작용·에이전트 지원 기능을 제공한다. 주요 버전 관리 시스템과의 통합을 지원하며 설정 파일과 확장 기능으로 커스터마이징할 수 있다.",
+        "points": [
+          "인라인 AI 주석 지원",
+          "주요 VCS와 통합",
+          "설정 파일로 커스터마이징 가능"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-how-teams-build-linear",
+      "title": "팀은 어떻게 빌드하는가: 리니어의 AI 도입 데이터",
+      "summary": "리니어 고객사 전반의 AI 도입 현황 스냅샷. 코딩 에이전트 사용으로 산출량이 급증했고, 비엔지니어의 코딩·제품 개발 참여가 늘고 있다.",
+      "source": "Linear",
+      "url": "https://linear.app/data?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI가 개발팀 안에서 누구를, 무엇을 바꾸고 있는가.",
+        "what": "소프트웨어 개발팀에서 AI 도입은 다양한 기능에 걸쳐 늘었고, 경영진의 참여와 함께 모든 규모의 기업에서 사용량이 꾸준히 증가했다. AI 도구 도입은 코딩 에이전트 사용을 통해 산출량을 극적으로 늘렸으며, 동시에 비엔지니어가 코딩과 제품 개발에 더 많이 관여하게 되는 흐름도 드러났다.",
+        "points": [
+          "경영진 참여와 함께 전 규모 기업에서 AI 사용량 증가",
+          "코딩 에이전트로 산출량 급증",
+          "비엔지니어의 코딩·제품 개발 참여 확대"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-red-agent-snowflake-copilot",
+      "title": "레드 에이전트, 코파일럿이 놓친 스노우플레이크 취약점을 직접 뚫다",
+      "summary": "Wiz 레드 에이전트가 스노우플레이크 공개 저장소의 치명적 깃허브 액션 취약점을 자율적으로 발견·악용, 결함 도입 5일 만에 내부 지라 시스템의 민감 데이터에 접근했다.",
+      "source": "Wiz",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 코딩 도구가 심은 취약점을 AI 공격 에이전트가 곧바로 찾아냈다.",
+        "what": "Wiz 레드 에이전트는 스노우플레이크 공개 저장소의 치명적 깃허브 액션 취약점을 자율적으로 식별·악용해, 결함이 도입된 지 단 5일 만에 내부 지라 시스템의 민감 데이터에 무단 접근했다. 이 사건은 AI 지원 코딩 도구가 자동화된 보안 에이전트에 의해 빠르게 발견·악용될 수 있는 취약점을 무심코 심을 수 있는 위험을 보여준다.",
+        "points": [
+          "결함 도입 5일 만에 자율 악용 성공",
+          "깃허브 코파일럿이 놓친 취약점을 레드 에이전트가 발견",
+          "내부 지라 시스템 민감 데이터까지 접근"
+        ],
+        "why": [
+          "AI 코딩 도구의 결함이 AI 공격 도구로 즉시 악용되는 속도를 실증"
+        ]
+      }
+    },
+    {
+      "id": "dev-state-open-models-summer-2026",
+      "title": "2026년 여름 오픈모델 현황",
+      "summary": "중국 랩이 오픈모델 크기 한계를 주도하지만 다운로드는 여전히 작고 오래된 모델에 몰린다. Qwen이 15만개 넘는 파생 모델로 커뮤니티 기본 베이스가 됐고, 에이전트가 허깅페이스 최대 사용자층으로 부상했다.",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/state-of-open-models-summer-2026?utm_source=tldrdev",
+      "report": {
+        "tldr": "가장 큰 모델이 아니라 가장 오래된 모델이 여전히 인기다.",
+        "what": "중국 랩들이 이제 오픈모델 크기의 한계를 설정하지만, 다운로드는 여전히 작고 수년 된 모델에 압도적으로 몰린다. Qwen은 15만1,448개의 파생 모델을 보유하며 커뮤니티의 기본 베이스 모델이 됐고, 런타임 레이어는 모델링 코어보다 훨씬 빠르게 성장해 조 단위 파라미터 모델이 llama.cpp로 로컬 실행이 가능해졌다. 새로운 동향은 에이전트다: 에이전트가 이제 허브의 최대 사용자층이며, 에이전트 트래픽 비중은 월별로 크게 요동친다.",
+        "points": [
+          "Qwen이 15만개 넘는 파생 모델로 커뮤니티 기본 베이스",
+          "런타임 레이어가 모델링 코어보다 빠르게 성장",
+          "에이전트가 허깅페이스 허브 최대 사용자층으로 부상"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-qwen38-27b-overthinking",
+      "title": "Qwen 3.8 27B, 뛰어나지만 지나치게 '오버씽킹'",
+      "summary": "강력한 비전 지원 언어모델이지만 기본 설정으로는 프롬프트를 과도하게 분석해 느려진다. 효율적인 출력을 위해선 추론 설정 조정이 필요하다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/?utm_source=tldrdev",
+      "report": {
+        "tldr": "똑똑하지만 생각이 너무 많아서 느리다.",
+        "what": "Qwen 3.8 27B는 강력하면서도 느린 비전 지원 언어모델로, 기본 설정으로는 프롬프트를 과도하게 분석하는 경향이 있어 더 효율적인 출력을 위해서는 사용자가 추론 설정을 조정해야 한다.",
+        "points": [
+          "기본 설정에서 과도한 분석(오버씽킹) 경향",
+          "추론 설정 조정으로 효율성 개선 가능"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-ask-hn-github-alternatives",
+      "title": "해커뉴스: 깃허브 대안을 묻다",
+      "summary": "깃허브의 잦은 장애를 계기로 코드 호스팅·협업 대안을 찾는 관심이 커지고 있다는 해커뉴스 스레드.",
+      "source": "Hacker News",
+      "url": "https://news.ycombinator.com/item?id=331033&utm_source=tldrdev",
+      "report": {
+        "tldr": "장애가 반복되자 대안을 찾는 목소리가 커졌다.",
+        "what": "최근 깃허브에서 계속된 장애를 계기로 코드 호스팅·협업 대안을 모색하려는 관심이 커지고 있다는 해커뉴스 스레드다.",
+        "points": [
+          "깃허브의 반복된 장애가 계기",
+          "코드 호스팅·협업 대안에 대한 커뮤니티 논의"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-llm-tail-latency-fix",
+      "title": "LLM 꼬리 지연시간, 두 번 요청하는 게 답일 수 있다",
+      "summary": "실시간 LLM 애플리케이션의 지연시간 개선에는 비싼 우선순위 서비스 티어보다 각 요청을 두 번 보내는 편이 더 효과적인 경우가 많다는 분석.",
+      "source": "engineering.myhoai.com",
+      "url": "https://engineering.myhoai.com/posts/a-simple-fix-for-llm-tail-latency/?utm_source=tldrdev",
+      "report": {
+        "tldr": "비싼 우선순위 티어 대신 요청을 두 번 보내라.",
+        "what": "실시간 LLM 애플리케이션의 지연시간을 개선하려면, 더 비싼 우선순위 서비스 티어를 택하기보다 각 요청을 두 번 보내 더 빠른 응답을 얻는 편이 더 효과적인 경우가 많다.",
+        "points": [
+          "요청 중복 전송이 우선순위 티어보다 비용 효율적일 수 있음",
+          "꼬리 지연시간(tail latency) 개선에 초점"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-intriguing-cs-stories",
+      "title": "컴퓨터과학 속 흥미로운 이야기들",
+      "summary": "컴퓨터과학과 소프트웨어 개발 역사 속 성공과 실패의 일화·교훈을 모은 모음집.",
+      "source": "Al Sweigart",
+      "url": "https://inventwithpython.com/blog/intriguing-stories-in-cs.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "역사 속 성공과 실패에서 배우는 컴퓨터과학 일화 모음.",
+        "what": "컴퓨터과학과 소프트웨어 개발 역사에서 주목할 만한 성공과 결정적 실패를 모두 보여주는 일화와 교훈을 모은 글이다.",
+        "points": [
+          "역사적 성공·실패 사례 모음"
+        ],
+        "why": []
+      }
+    }
+  ]
+}

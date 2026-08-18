@@ -1,0 +1,233 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-lovable-400m-raise",
+      "title": "러버블, 133억 달러 밸류에이션에 4억 달러 추가 유치",
+      "summary": "바이브코딩 스타트업 러버블이 멘로벤처스·스케일업유럽펀드 주도 시리즈C로 4억 달러를 조달, 133억 달러 밸류에이션을 확정했다. 6월 연환산 매출 5억 달러를 달성한 직후다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/12/lovable-confirms-new-13-3b-valuation-raises-another-400m/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "바이브코딩 스타트업이 넉 달 만에 두 배 넘게 뛴 몸값을 확정했다.",
+        "what": "러버블은 멘로벤처스와 스케일업유럽펀드가 주도한 시리즈C 라운드에서 4억 달러를 조달, 133억 달러 밸류에이션을 확정했다. 지난 12월 라운드의 66억 달러 밸류에이션에서 두 배 넘게 뛴 수치다. 이번 펀딩은 6월에 연환산 매출 5억 달러를 달성한 직후 이뤄졌다. 회사는 현재 6천만 개 프로젝트와 월간 방문자 9억 명을 보유하고 있으며, 자체 개발 AI 모델과 구글 클라우드와의 다년 계약을 기반으로 한다.",
+        "points": [
+          "133억 달러 밸류에이션, 작년 12월 66억 달러 대비 2배 이상",
+          "6월 연환산 매출 5억 달러 달성 직후 펀딩",
+          "6천만 개 프로젝트, 월간 방문자 9억 명",
+          "자체 AI 모델 + 구글 클라우드 다년 계약"
+        ],
+        "why": [
+          "바이브코딩 카테고리 전반의 밸류에이션 재평가로 이어질 수 있는 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-target-chief-ai-officer",
+      "title": "타깃, 첫 최고AI책임자 임명하며 디자인 총괄도 승진",
+      "summary": "타깃이 챈두 나이르를 첫 최고AI책임자로 임명하고 퍼비 샤를 UX 총괄 SVP로 승진시켜, AI 전략과 디자인 리더십을 짝지었다.",
+      "source": "Mass Market Retailers",
+      "url": "https://massmarketretailers.com/target-names-first-chief-ai-officer-and-elevates-design-chief-as-it-bets-on-ai-ux-pairing/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 전략과 디자인 리더십을 한 몸으로 묶었다.",
+        "what": "타깃은 챈두 나이르를 첫 최고AI책임자로 임명해 8월 24일부터 전사 AI 노력을 조율하게 하고, 퍼비 샤를 UX 총괄 SVP로 승진시켜 AI 주도 변화가 '타깃다움'을 유지하도록 했다. 두 임원 모두 이번 조치를 기술을 독립 이니셔티브가 아닌 고객 경험 중심으로 유지하려는 타깃의 성장 전략의 일부로 설명한다.",
+        "points": [
+          "챈두 나이르, 8월 24일부터 첫 최고AI책임자로 취임",
+          "퍼비 샤, UX 총괄 SVP로 승진",
+          "AI 변화를 고객 경험 중심으로 유지하려는 목적"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-jif-new-logo",
+      "title": "다들 인스타그램에 화나 있는 사이, 지프는 조용히 새 로고를 냈다",
+      "summary": "지프가 30년 만에 첫 대대적 로고 리프레시를 단행했다. 시각적 잡음을 걷어내고 클래식한 삼색 배너를 복원하면서도 익숙한 정체성은 대부분 유지했다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/branding/while-you-were-angry-at-instagram-jif-quietly-debuted-a-perfect-new-logo?utm_source=tldrdesign",
+      "report": {
+        "tldr": "화제성보다 완성도를 택한 리브랜딩.",
+        "what": "지프는 30년 만의 첫 대대적 로고 리프레시를 선보였다. 시각적 잡음을 제거해 디자인을 단순화하고 클래식한 삼색 배너를 되살리면서도 익숙한 브랜드 정체성은 대체로 유지했다. 재창조보다 정제에 집중한 덕에, 더 논쟁적인 리브랜딩에 비해 이번 업데이트는 별다른 주목을 받지 않았다. 이 낮은 관심도는 브랜딩 담론이 사려 깊고 점진적인 디자인보다 극적인 변화와 논쟁을 더 보상하는 경향을 보여준다.",
+        "points": [
+          "30년 만의 첫 대대적 리프레시",
+          "시각적 잡음 제거, 클래식 삼색 배너 복원",
+          "재창조보다 정제 중심이라 화제성은 낮았음"
+        ],
+        "why": [
+          "같은 시기 인스타그램 로고 논란과 대비되는 사례로 주목받음"
+        ]
+      }
+    },
+    {
+      "id": "design-you-dont-have-a-design-system",
+      "title": "'당신 회사엔 사실 디자인 시스템이 없다'",
+      "summary": "디자인 시스템은 컴포넌트는 표준화해도 설정 페이지 레이아웃 같은 구조적 결정은 놓치는 경우가 많다. 동일 컴포넌트 라이브러리로 AI 에이전트에게 같은 설정 페이지를 만들게 했더니 결과가 제각각이었다.",
+      "source": "Matt Rothenberg",
+      "url": "https://mattrothenberg.com/notes/you-dont-have-a-design-system/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "컴포넌트는 표준화됐는데 왜 화면마다 느낌이 다를까.",
+        "what": "디자인 시스템은 종종 컴포넌트를 표준화하면서도 설정 페이지 레이아웃·동작 같은 더 큰 구조적 결정은 문서화하지 않아, 한 제품 안에서도 일관성 없는 결과를 낳는다. 동일한 컴포넌트 라이브러리로 AI 에이전트들에게 동일한 설정 페이지를 만들게 하는 테스트로 이 격차를 확인했다: 표준 패턴이 없었기 때문에 각 에이전트가 레이아웃과 상호작용에 대해 저마다 합리적이지만 다른 선택을 내렸다. 구조·행동·상호작용에 대한 명시적 규칙을 문서화하자(컴포넌트뿐 아니라) 격차가 해소되며 에이전트 간에도 일관된 페이지가 나왔다.",
+        "points": [
+          "컴포넌트 표준화만으로는 구조적 일관성 부족",
+          "AI 에이전트 실험으로 격차를 실증",
+          "구조·행동 규칙 문서화가 해결책"
+        ],
+        "why": [
+          "AI 에이전트가 디자인 시스템의 숨은 빈틈을 드러내는 도구가 될 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-books-complex-problems",
+      "title": "복잡한 문제를 다루는 디자이너를 위한 책 18권",
+      "summary": "엔터프라이즈·레거시·계층적 환경의 고난도 시스템을 다루는 디자이너를 위한 큐레이션. 전략·리스크, 시스템 사고, 커뮤니케이션·데이터 시각화 분야를 아우른다.",
+      "source": "Smart Interface Design Patterns",
+      "url": "https://smart-interface-design-patterns.com/articles/books-for-designers-complex-problems/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "복잡한 시스템을 다루려면 디자인 책 밖으로 나가야 한다.",
+        "what": "엔터프라이즈, 레거시, 계층적 환경의 고위험 시스템을 다루는 디자이너를 위한 18권의 큐레이션 목록이다. 전략·리스크 분야(How Big Things Get Done, Thinking in Bets), 시스템 사고(Thinking in Systems, The Goal), 커뮤니케이션·데이터 시각화(Articulating Design Decisions, Envisioning Information) 등을 포함한다.",
+        "points": [
+          "전략·리스크, 시스템 사고, 커뮤니케이션·시각화 3개 분야",
+          "총 18권 큐레이션"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-how-to-become-ai-designer",
+      "title": "'AI 디자이너'가 되는 법",
+      "summary": "한 프로덕트 디자이너가 피그마 디자인에서 인터랙티브 프로토타입 제작, 프론트엔드 코드 배포까지 AI로 워크플로를 바꾼 경험을 공유했다. 속도는 늘었지만 창의성·안목과의 거리감도 커졌다고 말한다.",
+      "source": "tldrnewsletter.com",
+      "url": "https://links.tldrnewsletter.com/YlbRTW",
+      "report": {
+        "tldr": "속도는 얻었지만 손끝의 감각은 멀어졌다는 고백.",
+        "what": "한 프로덕트 디자이너는 AI 도구를 활용해 디자인을 프로토타이핑하고 반복하고 직접 구현하면서 제품 개발과 UI 품질에 대한 영향력이 커졌다고 말한다. 다만 이 접근이 속도와 산출량을 크게 늘려주지만, AI가 창의성이나 안목, 디자인 사고 자체를 가속하지는 못하며 효율성의 대가로 디자인 실무와의 거리감이 점점 커진다고 지적한다.",
+        "points": [
+          "피그마 디자인 → 인터랙티브 프로토타입 → 프론트엔드 코드까지 확장",
+          "제품 자체를 디자인의 소스 오브 트루스로 취급",
+          "속도는 늘지만 창의성·안목은 AI가 대체 못함"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-easycircuit-hardware-ai",
+      "title": "이지서킷: AI로 하드웨어 프로토타이핑",
+      "summary": "원하는 것을 설명하면 회로를 설계하고 정확한 부품을 자동으로 소싱해 브레드보드부터 납땜 완성까지 빌드 단계를 잡아주는 서비스.",
+      "source": "EasyCircuit",
+      "url": "https://easycircuit.app/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "말로 설명하면 회로가 나온다.",
+        "what": "이지서킷은 사용자가 만들고 싶은 것을 설명하면 회로를 설계하고, 정확한 부품을 자동으로 소싱하며, 브레드보드부터 납땜 완성 퍼프보드까지 빌드 과정을 단계별로 안내한다.",
+        "points": [
+          "설명만으로 회로 설계",
+          "부품 자동 소싱",
+          "브레드보드→퍼프보드 빌드 단계 안내"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-kitbitz-illustrations",
+      "title": "키트비츠: 무료 손그림 일러스트 모음",
+      "summary": "거리, 상점, 건물, 횡단보도, 공원 등 소소한 도시 풍경을 만들 수 있는 손그림 믹스앤매치 오브젝트 모음.",
+      "source": "Kitbitz",
+      "url": "https://kitbitz.art/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "손그림 느낌의 도시 소품을 무료로 조합해 쓴다.",
+        "what": "키트비츠는 거리, 상점, 건물, 횡단보도, 공원 등 소소하고 활기찬 도시 풍경을 만들 수 있는 손그림, 믹스앤매치 오브젝트 모음이다.",
+        "points": [
+          "손그림 스타일 오브젝트 모음",
+          "거리·상점·건물·공원 등 다양한 소재"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-vivago-ai-video",
+      "title": "비바고: AI 영상·이미지 제작 에이전트",
+      "summary": "프롬프트와 아이디어를 AI 영상, 이미지, 소셜 미디어 콘텐츠로 바꿔주는 비바고 AI 에이전트.",
+      "source": "Vivago",
+      "url": "https://vivago.ai/agent/home?utm_source=tldrdesign",
+      "report": {
+        "tldr": "프롬프트 하나로 영상·이미지·소셜 콘텐츠까지.",
+        "what": "비바고 AI 에이전트는 프롬프트와 아이디어를 AI 영상, 이미지, 소셜 미디어 콘텐츠로 변환해준다.",
+        "points": [
+          "프롬프트 기반 영상·이미지 생성",
+          "소셜 미디어 콘텐츠 제작 지원"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-claude-code-101-for-designers",
+      "title": "디자이너를 위한 클로드 코드 101",
+      "summary": "클로드 코드는 앤트로픽의 클로드를 채팅 너머 터미널 도구로 확장해, 프로토타입 설명이 아니라 실제 앱을 만들 수 있게 한다. 디자이너를 위한 용어 정리 시리즈의 첫 편.",
+      "source": "tldrnewsletter.com",
+      "url": "https://yaronschoen.com/blog/claude-code-101-for-designers/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "디자이너가 알아야 할 클로드 코드 용어 총정리.",
+        "what": "클로드 코드는 앤트로픽의 클로드를 채팅 너머로 확장해 파일을 생성·수정·실행하는 터미널 도구로, 프로토타입을 설명하는 데 그치지 않고 완전한 앱을 만든다. 핵심 개념으로 컨텍스트 윈도우와 토큰(작업 메모리), 세션(단일 연속 작업 흐름), CLAUDE.md(상시 프로젝트 브리프), 승인 모드, 커맨드, 스킬, 에이전트, MCP(클로드를 외부 도구에 연결하는 커넥터 표준)를 다룬다. 이 글은 프로덕트 디자이너의 클로드 코드 전환을 돕는 시리즈의 첫 편으로, 순수하게 용어 정의에 집중한다.",
+        "points": [
+          "컨텍스트 윈도우·토큰, 세션, CLAUDE.md, 승인 모드, 커맨드, 스킬, 에이전트, MCP 개념 정리",
+          "디자이너 대상 클로드 코드 입문 시리즈 첫 편"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-youtube-policy-animators",
+      "title": "유튜브 새 정책, 애니메이터에게는 악재",
+      "summary": "내년 2월 1일부터 유튜브가 수익화 자격 요건을 두 배로 올린다(연간 8천 시간 시청 또는 3개월 내 쇼츠 2천만 뷰). 제작 과정이 무거운 독립 애니메이터에게 특히 불리하다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/art/animation/youtubes-new-policy-is-bad-news-for-animators?utm_source=tldrdesign",
+      "report": {
+        "tldr": "수익화 문턱이 두 배로 오르면서 애니메이터가 가장 불리해졌다.",
+        "what": "2월 1일부터 유튜브는 수익화 자격 요건을 두 배로 올려 연간 8천 시청 시간 또는 3개월 내 쇼츠 2천만 뷰를 요구한다. 기존 파트너 프로그램 회원과 팬 펀딩·쇼핑 문턱은 영향받지 않으며, 유튜브는 프리미엄 라이트 확대 등을 통해 전체 크리에이터 수익이 오를 것으로 기대한다. 콘텐츠 제작 과정이 무거운 독립 애니메이터들은 이 높아진 문턱을 빠르게 넘기 어려워 더 가파른 오르막을 마주하게 됐다.",
+        "points": [
+          "연간 8천 시청 시간 또는 3개월 내 쇼츠 2천만 뷰로 상향",
+          "기존 파트너 프로그램 회원은 영향 없음",
+          "제작 과정이 무거운 독립 애니메이터에게 특히 불리"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-10-ui-ux-myths",
+      "title": "여전히 믿는 10가지 낡은 디자인 신화",
+      "summary": "3클릭 법칙부터 '기능이 많을수록 좋다'까지, 더 이상 유효하지 않은 오래된 UI/UX 통념 10가지의 출처를 추적했다.",
+      "source": "Tubik Studio",
+      "url": "https://tubikstudio.com/blog/old-rules-bad-advice-10-design-myths-everyone-still-believes/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "아직도 믿고 있다면 다시 확인해볼 통념들.",
+        "what": "3클릭 법칙부터 '기능이 많을수록 더 좋다'까지, 고집스럽게 남아있는 10가지 UI/UX 통념의 기원을 추적해 이제는 더 이상 유효하지 않은 낡은, 맥락에 갇힌 근거였음을 보여준다.",
+        "points": [
+          "3클릭 법칙 등 10가지 통념 검증",
+          "각 신화의 원 출처와 맥락 추적"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "design-instagram-logo-ai-slop",
+      "title": "새 인스타그램 로고는 'AI 슬롭'의 완벽한 표본",
+      "summary": "인스타그램이 10년 만에 워드마크를 새로 공개했다. 아담 모세리는 더 간결하고 현대적이며 플랫폼 본연의 단순함에 충실하다고 설명했지만, 비판적 시각도 나온다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/08/the-new-instagram-logo-is-the-perfect-embodiment-of-ai-slop/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "10년 만의 리브랜딩이 예상치 못한 논쟁을 불렀다.",
+        "what": "인스타그램은 10년 만에 처음으로 워드마크를 새롭게 공개했다. 아담 모세리는 더 간결하고 현대적이며 플랫폼 본연의 단순함과 정교함에 충실하다고 설명했다.",
+        "points": [
+          "10년 만의 첫 워드마크 업데이트",
+          "아담 모세리가 '더 간결하고 현대적'이라고 설명"
+        ],
+        "why": [
+          "같은 주 지프의 조용한 리프레시와 대조되며 화제가 됨"
+        ]
+      }
+    }
+  ]
+}
