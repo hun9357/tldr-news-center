@@ -1,0 +1,187 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-mac-fleet-compliance",
+      "title": "맥 플릿이 커질수록, 컴플라이언스는 자동화가 필수다",
+      "summary": "맥 플릿이 성장하면 수동 스크립트·스프레드시트로는 유지보수가 어려워져, 구성·패치·드리프트 탐지·감사 증적을 상시 자동화해야 한다.",
+      "source": "Jamf",
+      "url": "https://www.jamf.com/blog/mac-compliance-fleet-growth/?utm_source=tldrit",
+      "report": {
+        "tldr": "맥 대수가 늘수록 컴플라이언스는 '가끔 하는 프로젝트'에서 '상시 자동화'로 바뀌어야 한다.",
+        "what": "맥 플릿이 커지면 수동 스크립트, 스프레드시트, 개별 대응식 조치로는 소규모 IT팀이 유지보수를 감당하기 어려워진다. 기기 구성, 패치, 드리프트 탐지, 감사 증적 확보를 주기적 컴플라이언스 프로젝트가 아니라 상시 자동화 체계로 전환해야 한다는 것이 핵심 메시지다.",
+        "points": [
+          "수동 스크립트·스프레드시트 방식은 플릿 성장에 따라 한계 도달",
+          "구성 관리·패치·드리프트 탐지·감사 증적을 자동화 대상으로 전환 필요",
+          "소규모 IT팀일수록 자동화 전환의 효과가 큼"
+        ]
+      }
+    },
+    {
+      "id": "it-microsoft-copilot-one-app",
+      "title": "마이크로소프트, 코파일럿 앱 통합 시작",
+      "summary": "8월 18일부터 소비자용과 M365 코파일럿 경험을 통합하기 시작했다. 향후 더 큰 '슈퍼앱' 개편이 이번 분기 내 예정돼 있다.",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4209764/microsoft-brings-copilot-apps-together-ahead-of-super-app-overhaul.html?utm_source=tldrit",
+      "report": {
+        "tldr": "코파일럿이 하나의 앱으로 합쳐지는 첫 단계가 시작됐다.",
+        "what": "마이크로소프트는 8월 18일부터 소비자용 코파일럿과 마이크로소프트 365 코파일럿 경험을 통합하기 시작했으며, 이번 분기 내 더 큰 규모의 '슈퍼앱' 개편이 예정돼 있다. 업무용과 개인용 계정(마이크로소프트·엔트라)은 분리된 상태를 유지하며, 기업 테넌트 통제와 컴플라이언스 경계도 그대로 유지된다.",
+        "points": [
+          "8월 18일부터 소비자용·M365 코파일럿 통합 시작",
+          "이번 분기 내 더 큰 규모의 '슈퍼앱' 개편 예정",
+          "업무·개인 계정 분리 유지, 기업 컴플라이언스 경계도 유지"
+        ]
+      }
+    },
+    {
+      "id": "it-browser-primary-endpoint",
+      "title": "브라우저가 이제 기업의 '1차 엔드포인트'다",
+      "summary": "SaaS 업무 비중이 커지며 브라우저가 사용자·기업 아이덴티티·데이터 사이의 관문이 됐다. 브라우저 정책을 엔드포인트 관리 영역으로 다뤄야 한다는 제언.",
+      "source": "Express Computer",
+      "url": "https://www.expresscomputer.in/guest-blogs/the-browser-is-now-your-businesss-primary-endpoint-is-it-secure/137877/?utm_source=tldrit",
+      "report": {
+        "tldr": "관리되지 않는 브라우저가 곧 관리되지 않는 엔드포인트다.",
+        "what": "직원들의 업무가 점점 더 많이 SaaS 애플리케이션 내부에서 이뤄지면서, 브라우저는 사용자·기업 아이덴티티·회사 데이터를 잇는 관문 역할을 하게 됐다. 브라우저 정책, 확장 프로그램, 업무 프로필, 세션 통제, 가시성을 관리되지 않는 애플리케이션으로 방치하기보다 엔드포인트 관리의 대상으로 다뤄야 한다는 주장이다.",
+        "points": [
+          "SaaS 중심 업무 환경에서 브라우저가 핵심 관문 역할을 함",
+          "브라우저 정책·확장 프로그램·세션 통제를 엔드포인트 관리 영역으로 편입 필요",
+          "가시성 확보가 없으면 브라우저가 관리 사각지대로 남음"
+        ],
+        "action": "IT팀은 브라우저 확장 프로그램 허용 목록, 세션 통제, 업무 프로필 정책을 엔드포인트 관리 정책에 포함시킬 것."
+      }
+    },
+    {
+      "id": "it-cisco-auvik-network-modernization",
+      "title": "시스코-오빅, AI 대응 네트워크 현대화 간소화",
+      "summary": "네트워크 발견, 토폴로지 매핑, 모니터링을 결합해 IT팀이 실제 보유 인프라와 업그레이드 필요 지점을 파악하도록 돕는다.",
+      "source": "Cisco Blogs",
+      "url": "https://blogs.cisco.com/networking/how-cisco-and-auvik-simplify-network-modernization-for-ai?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 워크로드를 얹기 전에, 내가 뭘 갖고 있는지부터 알아야 한다.",
+        "what": "시스코와 오빅은 네트워크 발견, 토폴로지 매핑, 모니터링을 결합해 IT팀이 실제로 보유한 인프라와 업그레이드가 필요한 지점을 명확히 파악하도록 돕는다. 이 접근은 시스코, 메라키, 멀티벤더 환경을 대상으로 설계됐으며, 더 부담이 큰 워크로드를 도입하기 전에 노후 하드웨어와 용량 문제, 현대화 작업의 우선순위를 정하는 데 초점을 맞춘다.",
+        "points": [
+          "네트워크 발견 + 토폴로지 매핑 + 모니터링 결합",
+          "시스코·메라키·멀티벤더 환경 지원",
+          "AI 워크로드 도입 전 노후 하드웨어·용량 문제 우선순위화"
+        ]
+      }
+    },
+    {
+      "id": "it-google-calendar-user-blocking",
+      "title": "구글 캘린더, 원치 않는 초대 발신자 차단 기능 도입",
+      "summary": "발신자를 차단하면 현재 초대가 자동 제거되고 해당 구글 계정의 향후 초대도 막힌다. 8월 18일부터 전체 워크스페이스 고객에 순차 적용.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/08/managing-unsolicited-event-invitations-with-user-blocking-in-Google-Calendar.html?utm_source=tldrit",
+      "report": {
+        "tldr": "스팸성 캘린더 초대, 이제 발신자 자체를 차단해버리면 된다.",
+        "what": "구글 캘린더 사용자는 이제 발신자를 차단할 수 있으며, 이렇게 하면 현재 초대가 자동으로 제거되고 해당 구글 계정으로부터의 향후 초대도 막힌다. 이 차단은 지원되는 다른 구글 제품에도 함께 적용되며, 8월 18일부터 모든 워크스페이스 고객에 순차 적용된다.",
+        "points": [
+          "발신자 차단 시 현재 초대 자동 제거 + 향후 초대 차단",
+          "차단 효과가 지원되는 다른 구글 제품에도 함께 적용",
+          "8월 18일부터 전체 워크스페이스 고객 대상 순차 롤아웃"
+        ]
+      }
+    },
+    {
+      "id": "it-cisco-two-acquisitions",
+      "title": "시스코, 엔터프라이즈 인프라 인수 2건 추가 완료",
+      "summary": "관측성 스타트업 갈릴레오 테크놀로지스와 비인간 아이덴티티 보안 스타트업 아스트릭스 시큐리티 인수를 마무리했다.",
+      "source": "Cisco Newsroom",
+      "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m08/cisco-reports-fourth-quarter-earnings.html?utm_source=tldrit",
+      "report": {
+        "tldr": "시스코가 관측성과 비인간 아이덴티티 보안 스타트업을 잇달아 인수했다.",
+        "what": "시스코는 최근 분기에 관측성에 특화된 갈릴레오 테크놀로지스와 비인간 아이덴티티 보안에 특화된 아스트릭스 시큐리티 인수를 완료했다고 밝혔다. 이번 딜들은 네트워킹, 관측성, 아이덴티티 운영을 아우르는 더 넓은 플랫폼으로 확장하려는 시스코의 전략을 뒷받침한다.",
+        "points": [
+          "갈릴레오 테크놀로지스(관측성) 인수 완료",
+          "아스트릭스 시큐리티(비인간 아이덴티티 보안) 인수 완료",
+          "네트워킹+관측성+아이덴티티 통합 플랫폼 전략의 일환"
+        ]
+      }
+    },
+    {
+      "id": "it-vertice-rsm-saas-cost",
+      "title": "버티스-RSM, 중견기업 대상 SaaS 비용 관리 제휴",
+      "summary": "750억 달러 이상 지출 데이터 기반 조달 인텔리전스와 RSM의 기술·클라우드 어드바이저리를 결합, 갱신 협상 중심에서 지속적 최적화로 전환.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/vertice-and-rsm-collaborate-to-help-middle-market-enterprises-control-ai-consumption-and-saas-costs-302853143.html?utm_source=tldrit",
+      "report": {
+        "tldr": "중견기업의 SaaS 지출을, 갱신 때만 보는 게 아니라 상시 관리한다.",
+        "what": "버티스와 RSM은 중견기업이 SaaS·클라우드 지출을 통제하도록 돕는 전략적 제휴를 발표했다. 750억 달러 이상의 지출 데이터를 기반으로 한 버티스의 조달 인텔리전스와 RSM의 기술·클라우드 어드바이저리를 결합해, 소프트웨어 조달을 반응적인 갱신 협상에서 지속적인 비용·벤더 최적화로 전환하는 것이 목표다.",
+        "points": [
+          "버티스의 750억 달러+ 지출 데이터 기반 조달 인텔리전스",
+          "RSM의 기술·클라우드 어드바이저리 결합",
+          "목표는 갱신 협상 중심에서 지속적 최적화로의 전환"
+        ]
+      }
+    },
+    {
+      "id": "it-twinloot-m365-azure-malware",
+      "title": "신종 악성코드 TWINLOOT, MS365·애저를 지휘소로 악용",
+      "summary": "쉐어포인트, 팀즈 인프라, MS 그래프, 심지어 피해자의 엣지 브라우저까지 신뢰된 마이크로소프트 서비스 안에 C2 트래픽을 숨긴다.",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4210979/new-malware-turns-microsoft-365-and-azure-into-its-control-center.html?utm_source=tldrit",
+      "report": {
+        "tldr": "합법적인 마이크로소프트 트래픽 속에 숨어버린 악성코드, TWINLOOT.",
+        "what": "TWINLOOT은 쉐어포인트, 팀즈 인프라, 마이크로소프트 그래프, 심지어 피해자 본인의 엣지 브라우저까지 이용해 명령제어(C2) 트래픽을 신뢰된 마이크로소프트 서비스 안에 숨긴다. 이 악성코드는 자격증명을 탈취하고 내부 시스템으로 침투할 수 있는데, 활동의 상당 부분이 합법적인 마이크로소프트 인프라에서 발생하는 것처럼 보여 행동·아이덴티티 기반 탐지의 중요성이 더 커졌다.",
+        "points": [
+          "쉐어포인트·팀즈·MS 그래프·엣지 브라우저를 C2 은닉 채널로 악용",
+          "자격증명 탈취 및 내부 시스템 터널링 가능",
+          "트래픽이 합법적인 MS 인프라처럼 보여 시그니처 기반 탐지 회피"
+        ],
+        "action": "M365 환경 보안팀은 시그니처 기반 탐지에 더해 행동·아이덴티티 기반 이상 탐지를 강화할 것."
+      }
+    },
+    {
+      "id": "it-llm-wiki-changed-how-i-work",
+      "title": "LLM 위키가 업무 방식을 바꿔놨다",
+      "summary": "케이시 뉴튼이 LLM으로 기사를 수집하고 마크다운 페이지를 갱신하며 타임라인과 연관 주제를 자동 생성하는 자기조직형 지식 베이스를 만든 경험담.",
+      "source": "Platformer",
+      "url": "https://www.platformer.news/karpathy-llm-wiki-journalism-productivity/?utm_source=tldrit",
+      "report": {
+        "tldr": "수년치 리서치를 스스로 정리해주는 LLM 위키가 실제 업무 시간을 크게 줄였다.",
+        "what": "케이시 뉴튼은 LLM을 활용해 기사를 수집하고, 마크다운 페이지를 갱신하고, 타임라인을 구축하고, 연관 주제를 표면화하며, 수년간 쌓인 리서치에 대한 질문에 답하는 자기조직형 지식 베이스를 만들었다. 이 시스템은 상당한 리서치 시간을 절약하고 새로운 연결점을 제시하지만, 여전히 지속적인 유지보수가 필요하다는 점에서 AI가 개인·기업 지식 관리를 어떻게 바꿀 수 있는지 보여주는 사례다.",
+        "points": [
+          "기사 수집→마크다운 갱신→타임라인 구축→연관 주제 표면화 자동화",
+          "수년간 축적된 리서치에 대한 질의응답 가능",
+          "시간은 절약되지만 지속적인 유지보수는 여전히 필요"
+        ]
+      }
+    },
+    {
+      "id": "it-cisco-enterprise-hardware-refresh",
+      "title": "시스코, 다년간의 엔터프라이즈 하드웨어 교체 주기 포착",
+      "summary": "시스코는 기업들이 다년간에 걸친 네트워킹 리프레시 주기에 들어섰다고 밝혔다.",
+      "source": "CIO Dive",
+      "url": "https://www.ciodive.com/news/cisco-ai-revenue-enterprise-networking-security-hardware-refresh/828073/?utm_source=tldrit",
+      "report": {
+        "tldr": "기업 네트워크 장비 교체 사이클이 다년간에 걸쳐 진행 중이라고 시스코가 밝혔다.",
+        "what": "시스코는 기업들이 다년간에 걸친 네트워킹 하드웨어 교체 주기에 진입했다고 밝혔다.",
+        "points": [
+          "시스코가 다년간 지속되는 네트워킹 리프레시 사이클을 언급",
+          "AI 워크로드 확산이 하드웨어 교체 수요를 뒷받침하는 배경으로 거론됨"
+        ]
+      }
+    },
+    {
+      "id": "it-attacker-scraping-salesforce-servicenow",
+      "title": "한 명의 공격자, 2025년부터 세일즈포스·서비스나우 포털 훑어",
+      "summary": "과다 권한이 부여된 게스트 접근을 악용해 오설정된 세일즈포스 익스피리언스 클라우드·서비스나우 포털에서 1년 넘게 데이터를 긁어모은 사례.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/one-attacker-has-scraped-both.html?utm_source=tldrit",
+      "report": {
+        "tldr": "게스트 접근 권한 하나가 1년 넘게 뚫려 있었다.",
+        "what": "한 명의 공격자가 1년 넘게 오설정된 세일즈포스 익스피리언스 클라우드와 서비스나우 포털에서 데이터를 긁어모아온 것으로 확인됐다. 이는 과도한 권한이 부여된 게스트 접근을 악용한 결과다.",
+        "points": [
+          "공격 기간: 2025년부터 1년 이상 지속",
+          "악용 지점: 과다 권한 게스트 접근",
+          "영향 플랫폼: 세일즈포스 익스피리언스 클라우드, 서비스나우"
+        ],
+        "action": "세일즈포스·서비스나우를 쓰는 조직은 게스트 사용자 권한 범위를 즉시 감사하고 최소 권한 원칙을 적용할 것."
+      }
+    }
+  ]
+}
