@@ -1,0 +1,250 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-apple-maps-ads",
+      "title": "애플 지도, 광고 사업 시작 — 매디슨 애비뉴가 지도에 등장하다",
+      "summary": "애플이 최소 지출 없이 사진·프로모션 메시지를 올릴 수 있는 '지도 광고'를 미국·캐나다에 출시했다.",
+      "source": "MediaPost",
+      "url": "https://www.mediapost.com/publications/article/417237/apple-officially-rolls-out-ads-in-maps.html?utm_source=tldrdesign",
+      "report": {
+        "tldr": "월 10억 건이 넘는 지도 검색을 겨냥해 애플이 광고 사업에 뛰어들었다.",
+        "what": "애플이 금요일 '지도 광고'를 출시해 미국·캐나다 기업이 최소 지출 없이, 사진 업로드와 프로모션 메시지를 포함한 광고 배치를 구매할 수 있게 했다. 10월 11일 이전 신용카드로 결제하는 얼리어답터는 1년간 매달 15% 크레딧(최대 1,000달러)을 받으며, 월 10억 건이 넘는 비즈니스 검색을 겨냥한다. 홈서비스 업체, 주류, 암호화폐 ATM 등 일부 업종은 7월 공개된 정책 약관에 따라 광고가 금지된다.",
+        "points": [
+          "최소 지출 없이 사진 업로드·프로모션 메시지 포함 광고 구매 가능",
+          "10월 11일 전 신용카드 결제 시 1년간 매달 15%(최대 1,000달러) 크레딧",
+          "홈서비스·주류·암호화폐 ATM 등 일부 업종은 광고 금지"
+        ],
+        "why": [
+          "애플이 검색·지도 데이터를 발판으로 광고 사업을 본격화하는 신호"
+        ]
+      }
+    },
+    {
+      "id": "design-spotify-running-mode-notes",
+      "title": "스포티파이, 안드로이드에 '러닝 모드'·'노트' 기능 확대",
+      "summary": "페이스·운동 유형·BPM에 맞춘 러닝 플레이리스트와, 트랙에 메모를 남기는 '노트' 기능이 안드로이드로 확산된다.",
+      "source": "9to5Google",
+      "url": "https://9to5google.com/2026/08/18/spotify-rolling-out-user-notes-and-running-mode-features-heres-what-they-do/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "달리기 페이스에 맞춘 플레이리스트와 트랙에 남기는 메모, 두 기능이 안드로이드로 확대된다.",
+        "what": "스포티파이는 러닝 페이스, 운동 유형, 지속 시간, BPM, 음악 취향에 맞춘 운동용 플레이리스트를 생성하는 '러닝 모드'를 선보이며 선택적 오디오 코칭 큐도 제공한다. 일부 국가의 프리미엄 사용자에게 먼저 제공됐고 이제 안드로이드로 확대된다. 또한 트랙에 개인 코멘트를 남길 수 있는 '유저 노트'(플레이리스트 노트로 진화 중) 기능도 무료·프리미엄 사용자 모두에게 일부 시장에서 제공된다.",
+        "points": [
+          "러닝 모드: 페이스·운동 유형·BPM·취향 기반 맞춤 플레이리스트, 오디오 코칭 큐 포함",
+          "프리미엄 우선 제공 후 안드로이드로 확대",
+          "유저 노트(플레이리스트 노트로 진화 중): 무료·프리미엄 사용자 모두에게 일부 시장 제공"
+        ],
+        "why": [
+          "스포티파이가 소셜·피트니스 기능으로 사용자 체류 시간을 늘리려는 전략"
+        ]
+      }
+    },
+    {
+      "id": "design-apple-calendar-ios27",
+      "title": "iOS 27 애플 캘린더, 무엇이 달라지나",
+      "summary": "자연어 일정 생성, 새 디자인, Busy/Free 상태, 대형 위젯, 시리 AI 강화 등이 애플 캘린더에 추가된다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/08/18/heres-everything-new-for-apple-calendar-in-ios-27/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "전단지를 스캔해 일정을 만들어주는 시리까지, 캘린더가 크게 업그레이드된다.",
+        "what": "iOS 27은 애플 캘린더에 여러 업그레이드를 가져온다. 애플 인텔리전스가 구동하는 자연어 일정 생성 기능은 간단한 텍스트 설명에서 일정 세부사항을 자동으로 채운다. 앱은 일정 보기·편집 디자인이 새로워지고, 오랫동안 요청됐던 iCloud 캘린더용 Busy/Free 상태 옵션이 추가되며, 더 많은 일정·리마인더를 보여주는 초대형 위젯도 지원한다. 시리 AI 강화로 전단지를 스캔해 일정을 만들거나 개인 맥락과 화면 콘텐츠를 이해하는 기능도 포함된다.",
+        "points": [
+          "애플 인텔리전스 기반 자연어 일정 생성",
+          "iCloud 캘린더용 Busy/Free 상태, 초대형 위젯 신규 지원",
+          "시리 AI 강화: 전단지 스캔으로 일정 생성, 개인 맥락·화면 콘텐츠 이해"
+        ],
+        "why": [
+          "애플이 생산성 앱 전반에 온디바이스 AI를 실질적으로 통합하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "design-spec-driven-design",
+      "title": "빠른 프로토타입만으론 부족하다 — '스펙 주도 디자인'을 위한 변론",
+      "summary": "디자인이 에이전틱 개발팀에서 밀려나지 않으려면 목업을 넘어 스펙을 직접 작성하고 지식을 관리해야 한다는 주장이다.",
+      "source": "Futurice",
+      "url": "https://www.futurice.com/blog/spec-driven-design?utm_source=tldrdesign",
+      "report": {
+        "tldr": "디자이너가 목업만 빨리 만들면, 결국 개발 과정에서 밀려난다.",
+        "what": "에이전틱 개발팀에서 디자인이 밀려나지 않으려면 더 빠른 목업을 넘어 스펙을 직접 작성하고 지식을 관리하는 쪽으로 나아가야 한다. 느린 지식 검색과 의도가 손실되는 핸드오프라는 두 가지 고질적 비효율은 공유 제품 지식 베이스와, 디스커버리부터 인수인계까지 진화하는 하나의 살아있는 기능 스펙으로 해결할 수 있다. 이 '스펙 주도 디자인' 접근은 디자이너의 시간을 사용자 리서치와 공동 창작 쪽으로 옮기고, 의도와 축적된 지식이 회의와 해석을 거치며 손실되지 않고 개발까지 온전히 전달되도록 한다.",
+        "points": [
+          "느린 지식 검색과 손실되는 의도 핸드오프가 핵심 비효율",
+          "공유 제품 지식 베이스 + 살아있는 기능 스펙으로 해결",
+          "디자이너 시간을 사용자 리서치·공동 창작으로 재배분"
+        ],
+        "why": [
+          "AI 에이전트 개발 시대에 디자이너의 역할 재정의가 필요하다는 논의"
+        ]
+      }
+    },
+    {
+      "id": "design-system-agents-moved-in",
+      "title": "에이전트가 들어오자 디자인 시스템이 흔들리기 시작했다",
+      "summary": "AI 지원 개발이 조용히 디자인 시스템을 침식시키는 가운데, 코드베이스에서 직접 토큰·컴포넌트를 추출하는 새 도구가 등장했다.",
+      "source": "Southleft",
+      "url": "https://southleft.substack.com/p/the-design-system-was-fine-until?utm_source=tldrdesign",
+      "report": {
+        "tldr": "에이전트가 마음대로 컴포넌트를 만들면서 디자인 시스템 문서가 실제와 어긋나기 시작했다.",
+        "what": "AI 지원 개발은 에이전트가 거버넌스된 컴포넌트를 쓰는 대신 기본값으로 컴포넌트를 새로 생성하거나 가져오면서 디자인 시스템을 조용히 침식시키고, 문서는 점점 부정확해진다. Figma Console MCP에 추가된 새 디자인 시스템 추출 도구는 실제 존재하는 코드베이스를 분석해 토큰·컴포넌트를 뽑아내고 결정론적 평가 과정을 갖춘 매칭 스토리북을 스캐폴딩한다. 기존 시스템이 없던 바이브 코딩 앱 Rateshare로 테스트한 결과, 이 도구는 React를 감지하고 21개 컴포넌트를 발견해 Playwright로 검증했다 — 이는 드리프트 복구가 아니라 추출 메커니즘을 보여준 사례다.",
+        "points": [
+          "에이전트가 기본값으로 컴포넌트를 신규 생성/가져오며 디자인 시스템 침식",
+          "Figma Console MCP의 새 추출 도구가 코드베이스에서 토큰·컴포넌트를 직접 추출",
+          "Rateshare 테스트에서 React 감지, 21개 컴포넌트 발견 및 Playwright 검증"
+        ],
+        "why": [
+          "AI 코딩 확산이 디자인 시스템 거버넌스에 새로운 압박을 가하고 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-borrowed-trust-ai",
+      "title": "우리는 '빌린 신뢰'로 배를 불리고 있고, 대가를 치르게 될 것이다",
+      "summary": "AI가 신뢰받는 브랜드에 내장되면서, 잘못된 답도 맞는 답과 같은 자신감으로 전달돼 사람들의 무비판적 신뢰를 키우고 있다는 경고다.",
+      "source": "TLDR Design",
+      "url": "https://links.tldrnewsletter.com/BaBh33",
+      "report": {
+        "tldr": "AI의 가장 큰 리스크는 틀린 답도 자신 있게 말한다는 것이다.",
+        "what": "AI가 제품과 신뢰받는 브랜드에 내장되면서, 가장 큰 리스크는 AI가 틀린 답을 맞는 답과 똑같은 자신감으로 전달한다는 점이다. 사람들은 흔히 자신감을 전문성과 동일시하기 때문에, AI는 이를 배포하는 브랜드로부터 신뢰를 '빌려' 실수가 발생했을 때 그 신뢰를 훼손할 수 있다. 핵심 과제는 정확성과 신뢰가 가장 중요한 상황에서 통제되지 않는 자동화에 의존하기보다, 의미 있는 인간의 책임성을 확보하는 것이다.",
+        "points": [
+          "AI는 틀린 답도 맞는 답과 같은 자신감으로 전달",
+          "사람들은 자신감을 전문성과 동일시하는 경향이 있어 브랜드 신뢰를 AI가 빌려 쓰는 셈",
+          "핵심은 통제되지 않는 자동화가 아니라 의미 있는 인간의 책임성 확보"
+        ],
+        "why": [
+          "AI 신뢰 문제를 기술이 아닌 브랜드·심리적 관점에서 짚은 분석"
+        ]
+      }
+    },
+    {
+      "id": "design-animated-handwriting-any-font",
+      "title": "어떤 폰트든 손글씨 애니메이션으로 바꿔주는 도구",
+      "summary": "스트로크 데이터를 생성해 React, Svelte, Vue 등 다양한 프레임워크에서 손글씨 애니메이션을 렌더링할 수 있다.",
+      "source": "gkurt.com",
+      "url": "https://gkurt.com/tegaki/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "폰트만 있으면 손글씨처럼 써지는 애니메이션을 어떤 프레임워크에서든 구현할 수 있다.",
+        "what": "이 도구는 스트로크 데이터를 생성해 React, Svelte, Vue, SolidJS, Astro, 웹 컴포넌트, 바닐라 JS 등에서 손글씨 애니메이션을 아름답게 렌더링할 수 있게 한다.",
+        "points": [
+          "폰트 기반으로 스트로크 데이터 자동 생성",
+          "React·Svelte·Vue·SolidJS·Astro·웹 컴포넌트·바닐라 JS 등 다양한 프레임워크 지원"
+        ],
+        "why": [
+          "인터랙티브 타이포그래피 구현의 진입 장벽을 낮추는 오픈 도구"
+        ]
+      }
+    },
+    {
+      "id": "design-ai-product-video-editor",
+      "title": "화면 녹화를 제품 영상으로 바꿔주는 AI 비디오 에디터",
+      "summary": "isolate.video는 자동 줌·AI 음악·스포트라이트 효과로 화면 녹화를 세련된 제품 영상으로 편집해준다.",
+      "source": "isolate.video",
+      "url": "https://isolate.video/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "화면 녹화만 올리면 자동 줌과 AI 음악까지 붙은 제품 영상이 완성된다.",
+        "what": "isolate.video는 화면 녹화를 자동 줌, AI 음악, 스포트라이트 효과를 갖춘 세련된 제품 영상으로 바꿔주는 비디오 편집 앱이다.",
+        "points": [
+          "자동 줌, AI 음악, 스포트라이트 효과 자동 적용",
+          "화면 녹화를 제품 데모 영상 수준으로 편집"
+        ],
+        "why": [
+          "제품 데모·마케팅 영상 제작의 진입 장벽을 낮추는 AI 편집 도구"
+        ]
+      }
+    },
+    {
+      "id": "design-systems-talk-to-machines",
+      "title": "디자인 시스템은 기계와 어떻게 대화하는가",
+      "summary": "디자인 시스템이 컨트리뷰션·소비를 위한 에이전틱 툴링을 구현·배포하는 현황을 조사한 리서치다.",
+      "source": "state-of-ai-in-design-systems.netlify.app",
+      "url": "https://state-of-ai-in-design-systems.netlify.app/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "디자인 시스템이 AI 에이전트와 어떻게 소통하는지 현황을 정리한 리서치.",
+        "what": "이 리서치는 디자인 시스템이 컨트리뷰션과 소비 양쪽에서 에이전틱 툴링을 어떻게 구현하고 배포하고 있는지 현재 상태를 조사했다.",
+        "points": [
+          "디자인 시스템 컨트리뷰션·소비를 위한 에이전틱 툴링 현황 조사"
+        ],
+        "why": [
+          "디자인 시스템과 AI 에이전트의 접점이 표준화되기 전 현황을 파악하는 자료"
+        ]
+      }
+    },
+    {
+      "id": "design-icon-sprawl-component-libraries",
+      "title": "대형 컴포넌트 라이브러리의 '아이콘 난립' 막기",
+      "summary": "팀들이 제각각 자산을 끌어다 쓰며 생기는 아이콘 파편화를, Icons8이 140만 개 자산 컬렉션 기능으로 해결하려 한다.",
+      "source": "Design Beep",
+      "url": "https://designbeep.com/2026/08/15/stopping-the-icon-sprawl-in-large-component-libraries/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "제각각인 아이콘 스타일을 하나로 통일하려는 시도.",
+        "what": "공유 React 라이브러리 전반의 아이콘 파편화는 팀들이 서로 어울리지 않는 자산을 끌어다 쓰면서 발생하며, Icons8 같은 플랫폼은 일관된 비주얼 스타일로 정리된 140만 개 자산을 제공한다. Icons8의 컬렉션 기능은 팀이 통일된 자산 세트를 구축·일괄 리컬러·SVG 스프라이트 시트로 내보낼 수 있게 하며, 애니메이션 Lottie 아이콘과 브라우저 내 오버레이 에디터가 마이크로 인터랙션과 커스텀 상태를 처리한다. 다만 일반적인 비주얼 아이덴티티, 제한적인 무료 티어 포맷, 경로 수준 커스터마이징을 어렵게 하는 단순화된 SVG 등의 한계도 남아 있다.",
+        "points": [
+          "팀별로 제각각인 아이콘 자산이 파편화의 원인",
+          "Icons8, 140만 개 자산·컬렉션 기능·일괄 리컬러·SVG 스프라이트 시트 지원",
+          "일반적 비주얼 아이덴티티, 제한적 무료 포맷 등 한계도 존재"
+        ],
+        "why": [
+          "디자인 시스템 규모가 커질수록 자산 거버넌스가 새로운 과제로 부상"
+        ]
+      }
+    },
+    {
+      "id": "design-mark-williams-ux-growth",
+      "title": "마크 윌리엄스, UX를 비즈니스 성장 전략으로 다루는 법",
+      "summary": "UX는 미학이 아니라 성장 전략이며, AI는 인간의 판단을 대체하는 게 아니라 리서치를 가속하는 도구로 써야 한다는 주장이다.",
+      "source": "Bold Journey",
+      "url": "https://boldjourney.com/designing-for-people-first-how-mark-williams-is-helping-businesses-turn-better-user-experiences-into-meaningful-growth/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "좋은 UX는 예쁜 화면이 아니라 성장 전략이다.",
+        "what": "사용자 경험은 순수하게 미학적인 작업이 아니라 비즈니스 성장 전략으로 기능한다. AI는 제품을 만드는 데 필요한 인간의 판단·공감·전략적 사고를 대체하는 것이 아니라, 리서치와 초기 단계 디자인 작업을 가속하는 촉매제로 다뤄야 한다.",
+        "points": [
+          "UX를 미학이 아닌 비즈니스 성장 전략으로 재정의",
+          "AI는 리서치·초기 디자인 작업의 가속기로 활용",
+          "인간의 판단·공감·전략적 사고는 여전히 대체 불가"
+        ],
+        "why": [
+          "AI 시대에도 디자인의 인간 중심 가치가 강조되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "design-seiko-power-design-project",
+      "title": "세이코, 상상력을 마음껏 펼친 신작 워치 공개",
+      "summary": "세이코의 연례 파워 디자인 프로젝트가 런던 재팬 하우스에서 돌아와, 사내 디자이너들이 다이얼·바늘·인덱스 등에서 자유롭게 실험했다.",
+      "source": "Wallpaper",
+      "url": "https://www.wallpaper.com/watches-jewellery/seiko-power-design-project-2026?utm_source=tldrdesign",
+      "report": {
+        "tldr": "세이코 사내 디자이너들이 규칙 없이 마음껏 실험한 워치 컬렉션.",
+        "what": "세이코의 연례 파워 디자인 프로젝트가 런던 재팬 하우스에서 돌아와, 사내 디자이너들이 다이얼·바늘·인덱스 같은 파격적인 워치 요소로 자유롭게 실험할 수 있게 했다.",
+        "points": [
+          "런던 재팬 하우스에서 연례 파워 디자인 프로젝트 진행",
+          "다이얼·바늘·인덱스 등 파격적 요소로 자유로운 실험"
+        ],
+        "why": [
+          "제품 디자인에서 실험적 자율성을 부여하는 사내 프로그램의 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-naruhiko-ordinary-neighbourhoods",
+      "title": "나루히코, 일본의 '평범한' 동네와 공원을 그리다",
+      "summary": "일본 일러스트레이터 나루히코가 인공물과 자연에서 영감을 얻어, 평범한 동네 풍경을 조용하고 서정적인 유화로 담아낸다.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/inspiration/inspired-by-man-made-objects-and-nature-naruhiko-paints-ordinary-neighbourhoods-and-parks-across-japan/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "평범한 동네 풍경에서 향수와 감정의 울림을 찾아낸 일러스트레이터.",
+        "what": "일본 일러스트레이터 나루히코는 인공물과 자연에서 영감을 받아, 평범한 동네 풍경을 조용하고 분위기 있는 유화로 변환한다. 그의 작품은 일상적인 공원·거리·도시의 잊혀진 디테일에서 아름다움과 향수, 감정적 울림을 찾아낸다.",
+        "points": [
+          "인공물과 자연에서 영감을 얻는 작업 방식",
+          "평범한 동네·공원·거리를 조용하고 서정적인 유화로 표현"
+        ],
+        "why": [
+          "일상적 풍경에서 정서적 가치를 발견하는 창작 사례"
+        ]
+      }
+    }
+  ]
+}

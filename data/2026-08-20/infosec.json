@@ -1,0 +1,252 @@
+{
+  "name": "보안",
+  "source": "TLDR InfoSec",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-carecloud-breach-3-7m",
+      "title": "케어클라우드 유출 규모 370만 명으로 확대",
+      "summary": "3월 AWS 환경 침투로 시작된 케어클라우드 데이터 유출의 피해 규모가 당초 35만 명에서 376만 명으로 늘었다.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/PFF8Rv",
+      "report": {
+        "tldr": "35만 명이라던 유출 피해가 실제로는 376만 명이었다.",
+        "what": "케어클라우드는 3월 전자의무기록 장애 이후 네트워크 침입을 탐지했다. 공격자는 3월 10일부터 16일까지 AWS 환경에 접근했으며 데이터베이스 탈취를 주장했다. 유출 데이터에는 신원 정보, 보험·의료 기록, 일부는 결제카드 정보까지 포함됐다. HHS 집계 기준 피해자는 376만 명으로, 주 정부 신고 당시의 약 35만 명에서 크게 늘었다.",
+        "points": [
+          "공격자, 3월 10~16일 AWS 환경 접근 및 데이터베이스 탈취 주장",
+          "유출 데이터: 신원 정보, 보험·의료 기록, 일부 결제카드 정보",
+          "HHS 집계 피해자 376만 명 — 주 정부 신고 당시 35만 명에서 대폭 증가"
+        ],
+        "why": [
+          "헬스케어 침해는 초기 신고 규모가 실제보다 크게 축소되는 경우가 많다는 사례"
+        ]
+      }
+    },
+    {
+      "id": "infosec-sakura-internet-hack-1-36m",
+      "title": "사쿠라 인터넷 해킹으로 136만 계정 데이터 노출",
+      "summary": "일본 클라우드 업체 사쿠라 인터넷의 영업관리 시스템이 해킹당해 136만 사용자 데이터가 노출됐다.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/A4O2A7",
+      "report": {
+        "tldr": "다른 사고를 조사하다가 더 큰 유출을 발견했다.",
+        "what": "일본의 클라우드·데이터센터 업체 사쿠라 인터넷은 해커가 영업관리 시스템에 접근해 136만 명의 사용자 데이터를 노출시켰다고 공개했다. 사쿠라는 538개 계정에 대한 또 다른 무단접근 사고를 조사하던 중 이번 해킹을 발견했으며, 현재 고객과 관계 당국에 통지하고 있다.",
+        "points": [
+          "영업관리 시스템 침해로 136만 사용자 데이터 노출",
+          "별도의 538개 계정 무단접근 조사 중 이번 사고 발견",
+          "고객·관계 당국 통지 진행 중"
+        ],
+        "why": [
+          "부수적 조사에서 더 큰 유출이 드러나는 전형적 패턴"
+        ]
+      }
+    },
+    {
+      "id": "infosec-dahua-cameras-compromised",
+      "title": "다후아 IP카메라 1만4500대, 35일 만에 장악당해",
+      "summary": "Hunt.io 연구진이 우크라이나·러시아 중심의 다후아 카메라 대규모 해킹 캠페인을 방치된 서버 디렉터리를 통해 발견했다.",
+      "source": "TLDR InfoSec",
+      "url": "https://links.tldrnewsletter.com/rKqK4Q",
+      "report": {
+        "tldr": "브루트포스부터 시리얼 넘버 탈취까지, 세 가지 방식으로 카메라 1만4500대가 뚫렸다.",
+        "what": "Hunt.io 연구진은 주로 우크라이나와 러시아를 겨냥한 다후아 IP카메라 해킹 캠페인을 발견했다. 공격자가 방치해둔 HTTP 서버의 작업 디렉터리를 찾아내면서 캠페인 전모가 드러났다. 공격자는 TCP 37777 포트 브루트포스 스캐닝으로 1만2234대, p2pwn이라는 도구를 이용한 알려진 취약점 악용으로 1923대, NAT 뒤에 있던 283대는 다후아 애플리케이션에 내장된 시리얼 넘버·SDK 자격증명만으로 장악했다.",
+        "points": [
+          "TCP 37777 포트 브루트포스로 1만2234대 장악",
+          "p2pwn 도구를 이용한 알려진 취약점 악용으로 1923대 장악",
+          "NAT 뒤 283대는 앱 내장 시리얼 넘버·SDK 자격증명만으로 접근"
+        ],
+        "why": [
+          "IoT 카메라의 다층적 공격 표면이 여전히 대규모로 악용되고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "infosec-hacking-life-with-ai",
+      "title": "AI로 삶을 자동화하려다 해킹당할 수 있다",
+      "summary": "엔도 랩스가 NocoBase, Flowise, Langflow, Dify 등에서 14건의 치명적·고위험 결함을 발견했다.",
+      "source": "Endor Labs",
+      "url": "https://www.endorlabs.com/learn/hacking-your-life-with-ai-can-get-you-hacked?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 자동화 도구 7종에서 원격 코드 실행급 취약점이 무더기로 발견됐다.",
+        "what": "엔도 랩스는 NocoBase, Flowise, Langflow, Dify, Activepieces, Kestra, Airflow에서 14건의 치명적·고위험 결함을 발견했다. 일부 경로는 인증 없이 원격 코드 실행, 프롬프트 기반 코드 실행, 샌드박스 탈출, 명령 삽입, 데이터 탈취로 이어질 수 있었다. Flowise, Kestra, Langflow는 일부 설정에서 로그인 없이도 악용 가능한 경로가 노출됐다.",
+        "points": [
+          "NocoBase·Flowise·Langflow·Dify·Activepieces·Kestra·Airflow에서 14건 발견",
+          "미인증 원격 코드 실행, 프롬프트 기반 코드 실행, 샌드박스 탈출 등 포함",
+          "Flowise·Kestra·Langflow는 일부 설정에서 로그인 없이도 악용 가능"
+        ],
+        "why": [
+          "AI 자동화/노코드 플랫폼이 새로운 대규모 공격 표면으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "infosec-breaking-secure-boot-crypto",
+      "title": "서명 검증만으로는 안전을 증명할 수 없다",
+      "summary": "시큐어 부트를 4가지 실패 유형으로 나눠 분석한 글이 Qualcomm 부트체인, AVB, DICE, RATS 실제 취약점 사례를 짚었다.",
+      "source": "0x434b.dev",
+      "url": "https://0x434b.dev/breaking-secure-boot-without-breaking-the-crypto/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "서명은 통과했는데 실행되는 건 다른 이미지였다 — 시큐어 부트의 숨은 함정들.",
+        "what": "서명 검사만으로는 기기가 안전하다고 증명할 수 없다. 이 글은 시큐어 부트를 4가지 실패 유형(검사가 실행됐는가, 올바른 바이트를 커버했는가, 서명자가 승인됐는가, 실행 시점까지 그 바이트가 유지되는가)으로 분류해 Qualcomm의 PBL/XBL-SC/TME 체인, 안드로이드 검증 부팅, DICE 키 유도, RATS 증명 역할을 다룬다. 실제 CVE로 각 유형을 설명하는데, CVE-2019-2278은 거부된 키스토어가 부팅 이미지를 여전히 검증하게 만들었고, CVE-2023-48425는 AVB 실패를 시중 크롬캐스트의 완전한 우회로 연결했으며, CVE-2021-1931은 서명된 하나의 이미지가 다른 이미지를 승인하게 만들었다.",
+        "points": [
+          "시큐어 부트 실패를 검사 실행 여부·바이트 범위·서명자 승인·실행 시점 유지의 4유형으로 분류",
+          "Qualcomm PBL/XBL-SC/TME, 안드로이드 검증 부팅, DICE, RATS를 실제 사례로 설명",
+          "CVE-2019-2278, CVE-2023-48425, CVE-2021-1931 등 실제 우회 사례 제시"
+        ],
+        "why": [
+          "펌웨어·부트체인 보안을 표면적 서명 검증이 아닌 구조적으로 이해해야 한다는 교훈"
+        ]
+      }
+    },
+    {
+      "id": "infosec-benign-set-should-look-malicious",
+      "title": "탐지 테스트용 '정상 데이터셋'이 너무 정상이면 문제다",
+      "summary": "탐지 오탐률을 측정할 때 지나치게 깨끗한 벤치마크를 쓰면 오탐률이 인위적으로 낮게 나온다는 지적이다.",
+      "source": "Pipelab",
+      "url": "https://pipelab.org/blog/benign-set-should-look-malicious/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "너무 깨끗한 '정상 데이터'로 테스트하면 오탐률이 거짓으로 낮게 나온다.",
+        "what": "탐지 규칙의 오탐률을 측정하기 위해 플래그되지 말아야 할 정상 데이터셋을 구성하는 것이 일반적이지만, 이 정상 데이터셋이 지나치게 '정상적'이면 실제 악성 트래픽과 닮지 않아 오탐률이 인위적으로 낮게 나온다. 조직은 대신 자체 내부 문서·예시 등을 활용해 조직에 실제로 중요한 네거티브 사례를 찾아 정상 데이터셋을 구성해야 한다.",
+        "points": [
+          "지나치게 깨끗한 정상 데이터셋은 오탐률을 인위적으로 낮춤",
+          "내부 문서·예시를 활용해 조직 맥락에 맞는 네거티브 사례 구성 권장"
+        ],
+        "why": [
+          "탐지 성능 지표를 신뢰하려면 테스트 데이터 설계부터 재검토해야 함"
+        ]
+      }
+    },
+    {
+      "id": "infosec-secfiles-repo",
+      "title": "SecFiles, 침투테스트·버그바운티용 자료 모음 공개",
+      "summary": "침투테스트, 보안 평가, 버그바운티 등에 유용한 파일을 모아놓은 깃허브 저장소다.",
+      "source": "GitHub",
+      "url": "https://github.com/edoardottt/secfiles?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "보안 실무자를 위한 자료 모음이 깃허브에 공개됐다.",
+        "what": "SecFiles는 침투테스트, 보안 평가, 버그바운티 등 보안 관련 작업에 유용한 파일들을 모아놓은 깃허브 저장소다.",
+        "points": [
+          "침투테스트·보안 평가·버그바운티용 자료 모음"
+        ],
+        "why": [
+          "보안 실무자들의 반복 작업 효율을 높이는 오픈소스 리소스"
+        ]
+      }
+    },
+    {
+      "id": "infosec-shazzer-teams-fuzzing",
+      "title": "Shazzer Teams, 협업형 분산 퍼징 네트워크 출시",
+      "summary": "보안 연구자들이 공용 벡터 라이브러리를 공유하면서 별도의 사설 분산 퍼징 네트워크에서 브라우저 자원을 모을 수 있게 됐다.",
+      "source": "Shazzer",
+      "url": "https://shazzer.co.uk/blog/shazzer-teams-collaborative-fuzzing?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "팀 단위로 브라우저 자원을 모아 퍼징하는 사설 네트워크가 나왔다.",
+        "what": "Shazzer Teams는 보안 연구자들이 공용 벡터 라이브러리를 공유하면서도, 공개 풀과는 분리된 사설 분산 퍼징 네트워크에서 브라우저 자원을 모을 수 있게 한다. 소유자는 만료·사용량 제한이 있는 초대 링크와 역할 기반 권한으로 멤버십을 관리하며, 멤버의 브라우저가 네트워크 페이지를 열고 있으면 자동으로 팀의 퍼징 풀에 합류한다.",
+        "points": [
+          "공용 벡터 라이브러리를 공유하는 사설 분산 퍼징 네트워크",
+          "만료·사용량 제한이 있는 초대 링크와 역할 기반 권한으로 멤버십 관리",
+          "네트워크 페이지가 열려 있으면 자동으로 팀 풀에 합류"
+        ],
+        "why": [
+          "협업형 보안 리서치 인프라가 개인 도구에서 팀 단위 플랫폼으로 진화"
+        ]
+      }
+    },
+    {
+      "id": "infosec-cipherrun-tls-scanner",
+      "title": "CipherRun, 러스트로 만든 종합 TLS/SSL 스캐너",
+      "summary": "프로토콜·암호 분석, 취약점 테스트, 컴플라이언스 점검, 인증서 투명성 모니터링을 하나로 묶은 고성능 스캐너다.",
+      "source": "GitHub",
+      "url": "https://github.com/seifreed/CipherRun?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "TLS 점검에 필요한 기능을 하나로 묶은 러스트 기반 스캐너.",
+        "what": "CipherRun은 러스트로 작성된 종합 TLS/SSL 스캐너로, 프로토콜·암호 분석, 취약점 테스트, 컴플라이언스 점검, 인증서 투명성 모니터링을 고성능 CLI와 API 지원 엔진 하나로 결합했다.",
+        "points": [
+          "프로토콜·암호 분석, 취약점 테스트, 컴플라이언스 점검, 인증서 투명성 모니터링 통합",
+          "러스트 기반 고성능 CLI, API 연동 지원"
+        ],
+        "why": [
+          "TLS 보안 점검 도구의 기능 파편화를 줄이는 올인원 접근"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ransom-busters-extortion",
+      "title": "'랜섬 버스터스', 랜섬웨어 서버 해킹 주장하며 피해자에 최대 6만 달러 요구",
+      "summary": "가이드포인트는 두 사건을 공통 툴링과 백도어 계정으로 연결지으며, 이 활동이 복구를 가장한 이중 갈취일 가능성을 제기했다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "랜섬웨어 서버를 해킹했다며 복구를 미끼로 다시 돈을 요구하는 신종 사기가 등장했다.",
+        "what": "랜섬 버스터스는 랜섬웨어 피해자들에게 이메일을 보내 2만~6만 달러를 요구했다. 이들은 랜섬웨어 서버에 접근했다고 주장하며 파일 복구와 탈취 데이터 삭제를 제안했다. 가이드포인트는 공유된 툴링, 'Numlock!123' 백도어 계정, 호스트명 DESKTOP-BBETH6K를 근거로 두 사건을 연결지었다. 이 활동은 랜섬웨어 계열사가 복구 서비스로 위장한 것일 수 있으며, 지불해도 데이터 삭제를 검증할 방법은 없다.",
+        "points": [
+          "피해자에게 2만~6만 달러 요구, 파일 복구·데이터 삭제를 미끼로 제시",
+          "공유 툴링·백도어 계정·호스트명으로 두 사건이 연결됨",
+          "지불해도 실제 데이터 삭제 여부를 검증할 방법 없음"
+        ],
+        "why": [
+          "랜섬웨어 생태계 내 이중 갈취 수법이 '복구 서비스'로 위장해 진화 중"
+        ]
+      }
+    },
+    {
+      "id": "infosec-china-uninstall-windows-10-cmit",
+      "title": "중국, 국가기관에 커스텀 윈도우10 즉시 삭제 지시",
+      "summary": "중국 국가안전부가 보안 우려를 이유로 국영기관에 커스텀 윈도우10 CMIT 에디션을 즉시 삭제하도록 명령했다.",
+      "source": "wccftech",
+      "url": "https://wccftech.com/china-state-agencies-uninstall-windows-10-cmit-government-edition?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "2027년까지 쓰기로 했던 정부용 윈도우가 갑자기 퇴출당했다.",
+        "what": "중국 국가안전부는 외국 소프트웨어 의존에 대한 데이터 보안 우려를 이유로 국가 연계 기관들에 커스텀 윈도우10 CMIT 에디션을 즉시 삭제하도록 지시했다. 이 전면적 지침은 2016년 마이크로소프트와의 합작으로 개발된 이 운영체제의 퇴출을 갑자기 앞당긴 것이다. 중국 정부는 원래 이 고도로 수정된 소프트웨어를 2027년 2월까지 계속 사용할 계획이었다.",
+        "points": [
+          "외국 소프트웨어 의존에 대한 데이터 보안 우려가 배경",
+          "2016년 마이크로소프트 합작 개발 윈도우10 CMIT 에디션 대상",
+          "원래 2027년 2월까지 사용 예정이었으나 즉시 퇴출로 앞당겨짐"
+        ],
+        "why": [
+          "지정학적 긴장이 정부 IT 인프라의 기술 주권 문제로 확산되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "infosec-mlflow-bug-exploited",
+      "title": "MLflow 취약점, 실제 공격에 악용 중 — 긴급 패치 필요",
+      "summary": "3.15.0 이전 버전의 MLflow에 존재하는 SSRF 취약점이 클라우드 자격증명 탈취에 실제 악용되고 있다.",
+      "source": "Decipher",
+      "url": "https://decipher.sc/2026/08/18/mlflow-bug-actively-exploited-to-steal-credentials?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "패치하지 않은 MLflow 서버는 지금 이 순간에도 클라우드 자격증명이 새고 있을 수 있다.",
+        "what": "3.15.0 이전 버전의 MLflow를 운영 중인 조직은 실제 악용 중인 서버측 요청 위조(SSRF) 취약점(CVE-2026-64849)을 시급히 패치해야 한다. 이 취약점은 미인증 공격자가 DNS 리바인딩과 악성 웹훅 리다이렉트를 통해 클라우드 자격증명을 탈취할 수 있게 한다.",
+        "points": [
+          "CVE-2026-64849, 3.15.0 이전 버전 대상",
+          "DNS 리바인딩·악성 웹훅 리다이렉트로 미인증 공격자가 클라우드 자격증명 탈취 가능",
+          "현재 실제 공격에 악용 중, 긴급 패치 필요"
+        ],
+        "why": [
+          "ML 인프라 도구가 클라우드 자격증명 탈취의 새로운 진입점이 되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-prompt-injection-worm",
+      "title": "프롬프트 인젝션 웜, 이제 진짜 걱정해야 할 때",
+      "summary": "이메일 등 외부 입력을 파싱하는 AI 에이전트를 악용해 데이터를 탈취하고 통신 채널을 통해 자가 전파하는 웜의 가능성이 제기됐다.",
+      "source": "danielmiessler.com",
+      "url": "https://danielmiessler.com/blog/prompt-injection-worm?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 에이전트가 이메일을 읽다가 감염되고, 그 감염이 또 다른 사람에게 전파될 수 있다.",
+        "what": "프롬프트 인젝션 웜은 이메일 등 외부 입력을 파싱하는 AI 에이전트를 악용해 데이터를 탈취하고 피해자의 통신 채널을 통해 스스로 전파될 수 있다. 이에 대응해 조직은 AI 통합 현황과 모델 접근 수준을 파악하고, AI 특화 사고 대응 계획을 마련해야 한다.",
+        "points": [
+          "이메일 등 외부 입력을 파싱하는 에이전트가 감염·전파 경로가 될 수 있음",
+          "데이터 탈취와 통신 채널을 통한 자가 전파 가능성",
+          "AI 통합 지도화, 모델 접근 수준 파악, AI 특화 사고 대응 계획 필요"
+        ],
+        "why": [
+          "AI 에이전트 확산과 함께 새로운 유형의 자가 전파형 위협이 현실화되고 있음"
+        ]
+      }
+    }
+  ]
+}

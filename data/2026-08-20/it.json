@@ -1,0 +1,235 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-enterprise-ssd-prices-run",
+      "title": "엔터프라이즈 SSD 가격, 1년 새 6.5배로 폭등",
+      "summary": "7월에도 5% 추가 상승한 엔터프라이즈 SSD 가격이 2025년 3분기 대비 약 6.5배 수준을 유지하고 있다.",
+      "source": "StorageReview",
+      "url": "https://www.storagereview.com/news/enterprise-ssd-prices-run-at-6-5x-last-year-vdura-pegs-a-30tb-tlc-drive-at-22600?utm_source=tldrit",
+      "report": {
+        "tldr": "1년 만에 6.5배 뛴 SSD 가격, AI 스토리지 설계 전략까지 바꾸고 있다.",
+        "what": "엔터프라이즈 SSD 가격은 7월에도 5% 추가 상승하며 2025년 3분기 대비 약 6.5배 높은 수준을 유지하고 있다. VDURA는 30TB TLC 드라이브 가격을 22,600달러로 책정했으며, 성능이 중요한 워크로드에는 플래시를, 용량이 중요한 워크로드에는 HDD를 쓰는 혼합 아키텍처가 25PB 규모의 모델링된 AI 스토리지 배포에서 3년간 약 3,874만 달러를 절감할 수 있다고 주장한다.",
+        "points": [
+          "7월 SSD 가격 5% 추가 상승, 2025년 3분기 대비 약 6.5배",
+          "VDURA, 30TB TLC 드라이브 가격 22,600달러로 책정",
+          "플래시·HDD 혼합 아키텍처로 25PB AI 스토리지 3년간 약 3,874만 달러 절감 가능 주장"
+        ],
+        "why": [
+          "AI 인프라 확장에 따른 스토리지 비용 압박이 아키텍처 설계까지 바꾸는 중"
+        ]
+      }
+    },
+    {
+      "id": "it-ai-itsm-bigger-workloads",
+      "title": "AI가 IT 서비스 관리를 단순화한다더니, 업무량은 오히려 늘었다",
+      "summary": "솔라윈즈 조사에서 응답자 84%가 AI ROI에 만족했지만 52%는 전체 업무량이 늘었다고 답했다.",
+      "source": "ITPro",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/ai-was-meant-to-simplify-it-service-management-new-research-shows-its-creating-bigger-workloads-for-teams?utm_source=tldrit",
+      "report": {
+        "tldr": "티켓 처리는 빨라졌지만, AI를 관리하는 새로운 업무가 그만큼 늘었다.",
+        "what": "솔라윈즈 조사에 따르면 응답자의 84%가 ITSM에서 AI가 ROI 기대치를 충족하거나 넘어섰다고 답했지만, 52%는 전체 업무량이 늘었다고 답했다. 팀들은 티켓 분류·이슈 탐지에서 시간을 절약하지만, 통합 유지·산출물 검증·AI 자체의 운영 부담 관리에 더 많은 노력을 쏟고 있다.",
+        "points": [
+          "응답자 84%, AI가 ITSM에서 ROI 기대치 충족 또는 초과",
+          "응답자 52%, 전체 업무량은 오히려 증가했다고 답변",
+          "티켓 분류·이슈 탐지는 빨라졌지만 통합 유지·검증 부담이 새로 생김"
+        ],
+        "why": [
+          "AI 도입의 ROI와 실무 부담 사이의 괴리를 보여주는 실증 데이터"
+        ]
+      }
+    },
+    {
+      "id": "it-wifi-7-adoption",
+      "title": "와이파이7 채택률, 출시 1년 반 만에 7.2%",
+      "summary": "차터·컴캐스트·프론티어·센추리링크 등 ISP 주도로 미국 와이파이7 채택률이 7.2%에 도달했다.",
+      "source": "potsandpansbyccg.com",
+      "url": "https://potsandpansbyccg.com/2026/08/19/adoption-of-wifi-7/?amp&utm_source=tldrit",
+      "report": {
+        "tldr": "와이파이7이 확산되는 사이 와이파이8·9 계획도 이미 시작됐다.",
+        "what": "와이파이7 채택률은 라우터가 시장에 나온 지 약 1년 반 만에 미국에서 7.2%에 도달했으며, 차터·컴캐스트·프론티어·센추리링크 같은 ISP들이 보급을 주도하고 있다. 이 기술은 처리량, 간섭 처리, 기기 수용력을 개선하고 경우에 따라 업로드 속도도 향상시키며, 와이파이8·9는 이미 향후 출시를 계획 중이다.",
+        "points": [
+          "출시 약 1년 반 만에 미국 채택률 7.2% 도달",
+          "차터·컴캐스트·프론티어·센추리링크 등 ISP가 보급 주도",
+          "처리량·간섭 처리·기기 수용력 개선, 와이파이8·9는 이미 계획 단계"
+        ],
+        "why": [
+          "네트워크 인프라 세대교체 속도가 소비자 체감보다 빠르게 진행 중"
+        ]
+      }
+    },
+    {
+      "id": "it-enterprise-ai-context-bottleneck",
+      "title": "엔터프라이즈 AI의 병목은 역량이 아니라 '맥락'",
+      "summary": "아틀란 공동창업자는 모델 성능보다 조직 맥락의 질이 AI 도입을 제약한다고 진단했다.",
+      "source": "Insight Partners",
+      "url": "https://www.insightpartners.com/ideas/context-layer-enterprise-ai/?utm_source=tldrit",
+      "report": {
+        "tldr": "AI가 부족한 건 능력이 아니라 회사를 이해할 맥락이다.",
+        "what": "엔터프라이즈 AI 배포는 모델 역량보다 AI 시스템이 활용할 수 있는 조직적 맥락의 질에 의해 더 크게 제약받고 있다. 아틀란 공동창업자는 맥락을 지식·전문성·규범으로 정의하고, 검증된 맥락을 채굴해 에이전트 개발에 통합하고 인간-에이전트 상호작용 흔적에서 학습하는 아틀란의 접근법을 설명한다.",
+        "points": [
+          "AI 도입의 병목은 모델 성능이 아니라 조직 맥락의 질",
+          "맥락을 지식·전문성·규범으로 정의",
+          "검증된 맥락 채굴 → 에이전트 개발 통합 → 인간-에이전트 상호작용 학습의 3단계 접근"
+        ],
+        "why": [
+          "엔터프라이즈 AI 성공의 핵심 변수가 모델에서 데이터·맥락 레이어로 이동 중"
+        ]
+      }
+    },
+    {
+      "id": "it-layered-data-architecture-intelligence",
+      "title": "계층형 데이터 아키텍처가 엔터프라이즈 데이터를 '지능 시스템'으로 바꾼다",
+      "summary": "벡터DB나 레이크하우스만으로는 부족하며, 메타데이터·지식그래프·시맨틱 레이어가 신뢰할 수 있는 에이전트 응답의 핵심이라는 분석이다.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/08/19/layered-data-architecture-powers-salesforce-ai-neo4jgraphtalk/?utm_source=tldrit",
+      "report": {
+        "tldr": "벡터DB만으로는 부족하다 — 에이전트가 신뢰할 수 있으려면 시맨틱 레이어가 필요하다.",
+        "what": "엔터프라이즈 AI에는 벡터 데이터베이스나 레이크하우스 이상의 것이 필요하다. 조직은 메타데이터, 지식그래프, 시맨틱 레이어를 갖춰야 데이터와 비즈니스 맥락을 연결해 에이전트가 신뢰할 수 있는 답변을 낼 수 있다. 더 큰 과제는 거버넌스일 수 있는데, 접근 정책도 개별 데이터베이스에 흩어져 있는 대신 이 시맨틱 레이어로 옮겨가야 하기 때문이다.",
+        "points": [
+          "벡터DB·레이크하우스만으로는 신뢰할 수 있는 에이전트 응답에 불충분",
+          "메타데이터·지식그래프·시맨틱 레이어가 데이터와 비즈니스 맥락을 연결",
+          "접근 정책도 시맨틱 레이어로 옮겨야 하는 거버넌스 과제 부상"
+        ],
+        "why": [
+          "AI 에이전트 신뢰성 확보를 위한 데이터 아키텍처 논의가 구조적 단계로 진입"
+        ]
+      }
+    },
+    {
+      "id": "it-comcast-wifi-motion-security",
+      "title": "컴캐스트, 와이파이 모션 탐지를 보안 상품으로 재포장",
+      "summary": "컴캐스트가 와이파이 모션 침입 감지 기능을 물리·사이버 보안을 결합한 Xfinity Shield에 통합했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/08/19/comcast-gives-its-wi-fi-motion-detector-a-security-makeover/5289572?utm_source=tldrit",
+      "report": {
+        "tldr": "무선 신호 교란을 감지하는 기능이 이제 보안 번들 상품이 됐다.",
+        "what": "컴캐스트는 무선 침입 탐지 기능인 와이파이 모션을 물리·사이버 보안을 결합한 번들 Xfinity Shield에 통합했다. 이 기능은 고정형 Xfinity 장비와 호환 기기를 이용해 무선 신호의 교란을 감지하지만, 프라이버시 보장에는 특정 조사·분쟁·소송 절차에서 생성된 정보를 컴캐스트가 공개할 수 있다는 약관상 단서가 붙어 있다.",
+        "points": [
+          "고정형 Xfinity 장비·호환 기기로 무선 신호 교란 감지",
+          "물리·사이버 보안을 결합한 Xfinity Shield 번들로 통합",
+          "특정 조사·분쟁·소송 시 컴캐스트가 정보 공개 가능하다는 약관상 단서 존재"
+        ],
+        "why": [
+          "가정용 IoT 보안 기능 확대와 함께 프라이버시 약관 검토의 필요성도 커짐"
+        ]
+      }
+    },
+    {
+      "id": "it-gemini-manage-google-workspace",
+      "title": "제미나이로 구글 워크스페이스 관리하기",
+      "summary": "구글이 워크스페이스 관리자 콘솔에 제미나이 사이드 패널 '어드민 어시스트'를 추가했다.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/08/use-gemini-to-help-manage-google-Workspace-for-your-organization.html?utm_source=tldrit",
+      "report": {
+        "tldr": "관리자 콘솔 안에서 제미나이가 바로 문제 해결을 도와준다.",
+        "what": "구글은 워크스페이스 관리자 콘솔에 어드민 어시스트를 직접 추가해, 슈퍼 관리자가 문제 해결·관리 안내·구성 도움을 받을 수 있는 제미나이 사이드 패널을 제공한다. 검색 개요(Search Overviews) 기능은 워크스페이스 문서를 종합해 답변과 실행 가능한 다음 단계를 제시하므로, 관리자가 콘솔과 지원 문서 사이를 오갈 필요가 줄어든다.",
+        "points": [
+          "관리자 콘솔에 제미나이 사이드 패널 '어드민 어시스트' 추가",
+          "슈퍼 관리자 대상 문제 해결·관리 안내·구성 도움 제공",
+          "검색 개요 기능이 워크스페이스 문서를 종합해 실행 가능한 답변 제시"
+        ],
+        "why": [
+          "AI 어시스턴트가 최종 사용자 도구를 넘어 관리자 업무 도구로 확장"
+        ]
+      }
+    },
+    {
+      "id": "it-cerebras-cs4-switchless",
+      "title": "세레브라스, 스위치 없는 CS-4 아키텍처로 AI 클러스터 재설계",
+      "summary": "세레브라스가 랙 간 웨이퍼스케일 프로세서를 네트워크 스위치 없이 직접 연결하는 CS-4 시스템을 공개했다.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4211472/cerebras-reimagines-ai-cluster-design-with-switchless-cs-4-architecture.html?utm_source=tldrit",
+      "report": {
+        "tldr": "스위치를 없애 지연시간과 전력, 네트워킹 하드웨어를 동시에 줄인다.",
+        "what": "세레브라스가 공개한 CS-4 AI 시스템은 웨이퍼스케일 프로세서를 랙 간에 네트워크 스위치 없이 직접 연결할 수 있어, 대형 AI 클러스터의 지연시간·전력 사용·네트워킹 하드웨어를 줄일 잠재력이 있다. 다만 스토리지, 데이터 수집, 외부 연결에는 여전히 이더넷과 RoCE v2에 의존하며, 독자적인 패브릭·관리 스택 때문에 기업이 기존 GPU 환경과 별도의 인프라 도메인을 운영해야 할 수도 있다.",
+        "points": [
+          "웨이퍼스케일 프로세서를 스위치 없이 랙 간 직접 연결",
+          "지연시간·전력 사용·네트워킹 하드웨어 절감 잠재력",
+          "스토리지·데이터 수집·외부 연결은 여전히 이더넷·RoCE v2에 의존, 별도 인프라 도메인 운영 부담 우려"
+        ],
+        "why": [
+          "AI 클러스터 네트워킹 병목을 해소하려는 하드웨어 아키텍처 혁신 시도"
+        ]
+      }
+    },
+    {
+      "id": "it-dreamforce-2026-guide",
+      "title": "IT 리더를 위한 드림포스 2026 가이드",
+      "summary": "세일즈포스가 헤드리스 360, 에이전트 거버넌스, 에이전틱 워크로드 보안 등 드림포스 2026의 IT 핵심 테마를 미리 공개했다.",
+      "source": "Salesforce",
+      "url": "https://www.salesforce.com/blog/it-guide-to-dreamforce-2026/?utm_source=tldrit",
+      "report": {
+        "tldr": "9월 드림포스의 핵심은 'AI 에이전트를 어떻게 안전하게 통제할 것인가'다.",
+        "what": "세일즈포스가 드림포스 2026의 주요 IT 테마를 미리 공개했다. 헤드리스 360, AI 에이전트 거버넌스, 에이전틱 워크로드 보안, 기존 엔터프라이즈 데이터·비즈니스 로직 위에 AI 애플리케이션을 구축하는 방법 등이 포함된다. 9월 15~17일 열리는 이번 행사에는 1,600개 이상의 세션이 마련되며, IT·보안·데이터·에이전트포스·AI 개발을 다루는 전용 트랙이 운영된다.",
+        "points": [
+          "헤드리스 360, AI 에이전트 거버넌스, 에이전틱 워크로드 보안이 핵심 테마",
+          "9월 15~17일 개최, 1,600개 이상 세션",
+          "IT·보안·데이터·에이전트포스·AI 개발 전용 트랙 운영"
+        ],
+        "why": [
+          "엔터프라이즈 SaaS 업계의 관심이 AI 에이전트 거버넌스로 확실히 이동"
+        ]
+      }
+    },
+    {
+      "id": "it-mclaren-ai-trust-talent",
+      "title": "맥라렌 테크놀로지 센터에서 배우는 진짜 AI 교훈: 신뢰와 인재",
+      "summary": "엔터프라이즈 AI 성공은 기술력만큼이나 신뢰·교육·조직 준비도에 달려 있다는 현장 취재다.",
+      "source": "Cisco Blogs",
+      "url": "https://blogs.cisco.com/news/trust-and-talent-the-real-ai-lessons-from-mclaren-technology-centre/?utm_source=tldrit",
+      "report": {
+        "tldr": "F1 팀도 AI 성공의 관건은 기술이 아니라 사람이라고 말한다.",
+        "what": "엔터프라이즈 AI의 성공은 기저 기술 못지않게 신뢰, 교육, 조직 준비도에 달려 있다. 이미 많은 직원이 정식 교육 없이 AI를 사용하고 있는 만큼, 기업은 도입과 함께 AI 유창성과 거버넌스를 함께 구축해야 한다.",
+        "points": [
+          "AI 성공은 기술력만큼 신뢰·교육·조직 준비도가 좌우",
+          "많은 직원이 이미 비공식적으로 AI 사용 중",
+          "도입과 병행해 AI 유창성·거버넌스 구축 필요"
+        ],
+        "why": [
+          "AI 도입 성패가 결국 조직 문화와 교육 투자에 달려 있다는 재확인"
+        ]
+      }
+    },
+    {
+      "id": "it-what-is-ai-insurance",
+      "title": "AI 보험이란 무엇인가",
+      "summary": "환각, 편향된 결정, 저작권 문제, 모델 장애, 물리적 손상 등 기존 보험이 놓치는 AI 리스크를 다루는 신종 보험이 등장하고 있다.",
+      "source": "ITPro",
+      "url": "https://www.itpro.com/technology/artificial-intelligence/what-is-ai-insurance?utm_source=tldrit",
+      "report": {
+        "tldr": "AI가 저지른 실수, 이제 보험으로 대비하는 시대.",
+        "what": "AI 보험은 일반 비즈니스·사이버·전문직 배상책임 보험이 배제할 수 있는 책임을 보장하는 신흥 보험 상품군으로, 환각, 편향된 결정, 저작권 침해 청구, 모델 장애, 물리적 손상 등을 포함한다.",
+        "points": [
+          "환각, 편향된 결정, 저작권 침해 청구 등을 보장 대상으로 포함",
+          "모델 장애, 물리적 손상 등 기존 보험이 놓치는 리스크도 커버"
+        ],
+        "why": [
+          "AI 리스크가 구체적인 보험 상품 시장을 형성할 만큼 현실화되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "it-observability-monitor-ai-applications",
+      "title": "AI 애플리케이션 모니터링에 관한 관찰가능성 7가지 교훈",
+      "summary": "일래스틱이 IT 팀이 AI 애플리케이션의 품질·사용량·비용·ROI를 초기부터 추적하는 방법을 정리했다.",
+      "source": "Elastic",
+      "url": "https://www.elastic.co/blog/monitor-ai-applications-llm-observability?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 앱을 운영한다면 처음부터 품질·비용·ROI를 함께 추적해야 한다.",
+        "what": "일래스틱은 IT 팀이 관찰가능성을 활용해 AI 애플리케이션의 품질, 사용량, 비용, ROI를 초기 단계부터 추적하는 방법을 공유했다.",
+        "points": [
+          "AI 애플리케이션 품질·사용량·비용·ROI를 초기부터 함께 추적",
+          "관찰가능성 도구를 AI 운영 관리에 적용하는 실무 가이드"
+        ],
+        "why": [
+          "AI 애플리케이션이 늘어나며 운영 관찰가능성이 필수 역량으로 부상"
+        ]
+      }
+    }
+  ]
+}
