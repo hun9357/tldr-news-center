@@ -1,0 +1,228 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-citrix-netscaler",
+      "title": "시트릭스, 넷스케일러 신규 취약점 즉시 패치 권고",
+      "summary": "인증 우회 또는 서비스 거부로 이어질 수 있는 두 건의 취약점 패치가 공개됐다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible",
+      "report": {
+        "tldr": "경계 장비 취약점은 공개 시점이 곧 공격 시작 시점이다.",
+        "what": "시트릭스가 넷스케일러의 인증 우회·서비스 거부 취약점 두 건에 대한 패치를 배포하고 즉시 적용을 권고했다. 현재까지 실제 악용은 관측되지 않았다.",
+        "points": [
+          "취약점 2건: 인증 우회, 서비스 거부",
+          "현재 악용 정황 미관측",
+          "대상은 인터넷 경계에 노출된 넷스케일러 장비"
+        ],
+        "why": [
+          "넷스케일러는 과거에도 공개 직후 대량 스캔·악용으로 이어진 이력이 있다",
+          "인증 우회는 다중 인증 뒤에 있는 내부 자원까지 한 번에 노출시킨다"
+        ],
+        "action": "인터넷 노출 넷스케일러 인스턴스를 먼저 패치하고, 패치 전 세션 토큰을 무효화할 것."
+      }
+    },
+    {
+      "id": "it-slack-code-groupchat",
+      "title": "슬랙, AI 코딩을 터미널에서 단체 채팅으로 끌어내다",
+      "summary": "슬랙 코드가 클로드·데빈 등 코딩 에이전트를 공유 채널에 넣어 협업 리뷰와 개발을 지원한다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/slack-wants-to-drag-ai-coding-out-of-the-terminal-and-into-the-group-chat",
+      "report": {
+        "tldr": "코딩 에이전트가 개인 도구에서 팀 자산으로 이동한다.",
+        "what": "벤처비트가 슬랙 코드를 'AI 코딩을 터미널 밖으로 꺼내는 시도'로 분석했다. 클로드·데빈 등 외부 에이전트를 공유 채널에 참여시켜 코드 리뷰와 개발을 함께 진행한다.",
+        "points": [
+          "외부 코딩 에이전트를 채널 참여자로 통합",
+          "리뷰 과정 자체가 채팅 기록으로 남는다"
+        ],
+        "why": [
+          "IT 관점에서는 소스코드가 채팅 플랫폼 보존 정책 아래로 들어온다는 뜻",
+          "에이전트 접근 권한 관리가 SaaS 관리자 콘솔의 새 항목이 된다"
+        ],
+        "action": "슬랙 관리 콘솔에서 코드 채널의 데이터 보존·외부 에이전트 승인 정책을 먼저 설정할 것."
+      }
+    },
+    {
+      "id": "it-cautious-ai-era",
+      "title": "기업에 '신중한 AI 시대'가 시작됐다",
+      "summary": "기업 AI 도입이 비용 통제와 거버넌스, 측정 가능한 성과 중심으로 이동하고 있다.",
+      "source": "CIO Dive",
+      "url": "https://www.ciodive.com/news/enterprises-cautious-era-spending-workforce-policy/827736/",
+      "report": {
+        "tldr": "실험 예산 단계가 끝나고 ROI 증명 단계가 시작됐다.",
+        "what": "기업들의 AI 지출이 확장 일변도에서 비용 의식적·거버넌스 중심 배치로 전환하고 있으며, 측정 가능한 사업 성과를 요구하는 흐름이 뚜렷해졌다.",
+        "points": [
+          "지출 기조가 확장에서 통제로 전환",
+          "거버넌스와 성과 측정이 도입 조건으로 부상"
+        ],
+        "why": [
+          "모델 라우팅·비용 최적화 제품(스트라이프·램프)이 같은 날 쏟아진 배경",
+          "PoC를 넘기지 못한 프로젝트의 정리 압력이 커진다"
+        ],
+        "action": "진행 중 AI 파일럿마다 측정 지표와 종료 기준을 명시해 둘 것."
+      }
+    },
+    {
+      "id": "it-boring-infrastructure",
+      "title": "지루한 인프라가 잠을 지켜준다",
+      "summary": "보수적인 인프라 선택이 복잡한 최신 대안보다 복원력과 운영 단순성에서 앞선다는 주장.",
+      "source": "Rogue Amoeba",
+      "url": "https://weblog.rogueamoeba.com/2026/08/19/the-sleep-promoting-resilience-of-boring-infrastructure/",
+      "report": {
+        "tldr": "운영 복원력의 대부분은 기술 선택을 줄인 데서 나온다.",
+        "what": "루그 아메바가 자사 인프라를 의도적으로 보수적으로 유지한 결과 장애 대응 부담과 운영 복잡성이 크게 낮아졌다는 경험을 정리했다.",
+        "points": [
+          "구성 요소 수를 줄이는 것이 핵심 전략",
+          "최신 기술 도입 지연을 의도적 선택으로 취급"
+        ],
+        "why": [
+          "같은 날 깃허브 오토스케일링 장애 분석(개발 편)이 정확히 반대 사례를 제공",
+          "AI 도구가 코드 생산량을 늘리는 상황에서 인프라 표면을 줄이는 선택의 가치가 상대적으로 커진다"
+        ]
+      }
+    },
+    {
+      "id": "it-nanoclaw-slack",
+      "title": "나노클로, 슬랙에서 상시 AI 에이전트 팀 구성",
+      "summary": "메시지 한 통으로 고유 정체성과 역할을 가진 지속형 에이전트 팀을 만들 수 있다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/nanoclaw-comes-to-slack-letting-you-create-persistent-ai-agent-teams-and-colleagues-from-a-single-message",
+      "report": {
+        "tldr": "에이전트가 일회성 호출에서 상시 '동료' 계정으로 바뀐다.",
+        "what": "나노클로의 슬랙 통합으로 메시지 한 통에서 각기 다른 정체성과 역량을 가진 지속형 에이전트 팀을 만들어 디지털 동료처럼 운영할 수 있게 됐다.",
+        "points": [
+          "생성 비용이 메시지 한 통 수준",
+          "에이전트가 세션이 아니라 계정 형태로 상주"
+        ],
+        "why": [
+          "상시 상주 에이전트는 오프보딩·권한 회수 절차가 필요한 새로운 ID 유형이 된다",
+          "슬랙 코드와 합쳐지면 한 워크스페이스 안에 관리되지 않은 에이전트가 빠르게 늘 수 있다"
+        ],
+        "action": "워크스페이스 내 에이전트 계정의 생성 권한을 관리자로 제한하고 인벤토리를 만들 것."
+      }
+    },
+    {
+      "id": "it-serval-catalyst",
+      "title": "서발의 카탈리스트, 티켓 발생 전에 IT 문제를 찾아 고친다",
+      "summary": "백그라운드 에이전트가 이슈를 사전에 탐지하고 수정안을 제시하는 기능이 정식 출시됐다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/servals-super-agent-catalyst-creates-roving-background-agents-to-identify-and-fix-it-issues-before-theyre-ticketed",
+      "report": {
+        "tldr": "ITSM의 트리거가 사용자 신고에서 에이전트 순찰로 바뀐다.",
+        "what": "서발의 카탈리스트가 정식 출시돼, 상시 순회하는 백그라운드 에이전트가 문제를 발견하고 티켓이 생기기 전에 수정안을 제안한다.",
+        "points": [
+          "일반 공급(GA) 단계 진입",
+          "탐지-제안까지 자동화, 실행은 승인 기반"
+        ],
+        "why": [
+          "헬프데스크 지표(MTTR·티켓 수)의 의미가 바뀌므로 SLA 정의를 다시 봐야 한다",
+          "순찰형 에이전트는 광범위한 읽기 권한을 요구해 권한 설계가 핵심 리스크"
+        ],
+        "action": "순찰 에이전트 도입 시 읽기 범위와 자동 수정 허용 범위를 분리해 정의할 것."
+      }
+    },
+    {
+      "id": "it-delta-wifi-hack",
+      "title": "델타 항공기 내 와이파이 해킹으로 운항 차질",
+      "summary": "누군가 피싱 로그인 페이지를 띄운 위장 와이파이를 만들어 혼란이 발생했고 연방 수사가 진행 중이다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/cyber-risk/delta-flight-disrupted-wi-fi-hack",
+      "report": {
+        "tldr": "기내 네트워크는 통제되지 않은 신뢰 경계다.",
+        "what": "델타 항공편에서 승객이 만든 위장 와이파이 네트워크가 피싱 로그인 페이지를 띄우면서 운항에 차질이 빚어졌고, 연방 차원의 수사가 시작됐다.",
+        "points": [
+          "공격 수법은 고전적인 이블 트윈(위장 AP)",
+          "결과는 데이터 탈취를 넘어 운항 차질까지 확대"
+        ],
+        "why": [
+          "출장 중 임직원이 접속하는 네트워크는 기업 통제 밖에 있다",
+          "SSID 신뢰에 의존하는 접속 방식은 원천적으로 검증이 불가능하다"
+        ],
+        "action": "출장자 단말에 상시 VPN 강제와 캡티브 포털 자격증명 입력 금지 정책을 적용할 것."
+      }
+    },
+    {
+      "id": "it-remote-mcp-oauth",
+      "title": "원격 MCP, OAuth, 그리고 기업 인증",
+      "summary": "MCP가 로컬 I/O에서 OAuth 2.1·PKCE 기반 클라우드 HTTP 구조로 이동하고 있다.",
+      "source": "The Gustafson",
+      "url": "https://thegustafson.com/blog/remote-mcp-and-auth",
+      "report": {
+        "tldr": "MCP가 로컬 도구에서 인증이 필요한 기업 서비스로 성숙하고 있다.",
+        "what": "MCP 아키텍처가 로컬 프로세스 간 I/O에서 OAuth 2.1과 PKCE를 쓰는 원격 HTTP 방식으로 전환되는 과정과 그 함의를 정리했다.",
+        "points": [
+          "전송 계층이 로컬 stdio에서 원격 HTTP로 이동",
+          "인증 표준은 OAuth 2.1 + PKCE"
+        ],
+        "why": [
+          "원격 MCP는 IdP 통합·감사 로그·토큰 수명 관리가 필요한 정식 기업 통합 대상이 된다",
+          "같은 날 클라우드플레어의 작업 단위 OAuth 동의 발표와 직접 맞물린다"
+        ],
+        "action": "사내에서 쓰는 MCP 서버 목록을 만들고 원격 전환 시 IdP 연동 요건을 미리 정의할 것."
+      }
+    },
+    {
+      "id": "it-workplace-surveillance",
+      "title": "직장 감시 확대, 고용주가 무엇을 보는지 알아야 한다",
+      "summary": "위치·통신·활동 추적으로 모니터링 범위가 넓어지면서 텔레메트리 공개 범위가 쟁점이 되고 있다.",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/7d61e74242b872457bbfcf2223f9ebd5",
+      "report": {
+        "tldr": "모니터링 범위 공개가 거버넌스 요구사항으로 굳어지고 있다.",
+        "what": "AP가 위치, 통신 내용, 활동 로그로 확대된 직장 모니터링 실태를 정리하며 어떤 텔레메트리를 수집하는지 공개해야 한다는 논의를 다뤘다.",
+        "points": [
+          "수집 범위가 위치·통신·활동 전반으로 확대",
+          "쟁점은 수집 자체보다 공개(disclosure) 여부"
+        ],
+        "why": [
+          "AI 기반 생산성 분석 도구가 늘면서 수집 데이터의 활용 목적이 확장된다",
+          "관할지별 고지 의무가 달라 다국적 조직에서는 정책 분기가 필요"
+        ],
+        "action": "사내 모니터링 도구가 수집하는 필드 목록을 정리해 고지 문서와 대조할 것."
+      }
+    },
+    {
+      "id": "it-allowlisted-domains-api",
+      "title": "구글 워크스페이스, 허용 도메인 API 정식 출시",
+      "summary": "관리자가 콘솔 수작업 대신 API로 허용 도메인을 관리할 수 있게 됐다.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/08/allowlisted-domains-api-now-generally-available.html",
+      "report": {
+        "tldr": "외부 공유 허용 목록을 코드로 관리할 수 있게 됐다.",
+        "what": "구글 워크스페이스의 허용 도메인 API가 정식 출시돼, 관리자가 콘솔에서 수동으로 바꾸던 허용 도메인 설정을 프로그램으로 관리할 수 있다.",
+        "points": [
+          "GA 단계 진입",
+          "대상은 외부 공유·협업 허용 도메인 설정"
+        ],
+        "why": [
+          "허용 목록을 형상 관리 아래 두면 변경 이력과 승인 절차를 붙일 수 있다",
+          "M&A·협력사 온보딩이 잦은 조직에서 수작업 오류를 줄이는 직접적 이득"
+        ]
+      }
+    },
+    {
+      "id": "it-claude-enterprise-consumption",
+      "title": "클로드 엔터프라이즈 사용량 관리 가이드",
+      "summary": "여러 인터페이스에 걸친 공유·사용량 기반 지출을 관리자가 통제하는 방법을 설명한다.",
+      "source": "Anthropic Support",
+      "url": "https://support.claude.com/en/articles/14782391-claude-enterprise-consumption-guide",
+      "report": {
+        "tldr": "AI 지출 관리가 좌석 수에서 사용량 통제로 넘어갔다.",
+        "what": "앤트로픽이 클로드 엔터프라이즈의 공유 사용량 기반 지출을 관리자가 인터페이스별로 통제하는 방법을 문서화했다.",
+        "points": [
+          "과금 단위가 좌석이 아니라 공유 사용량 풀",
+          "인터페이스(웹·API·코드)별 통제 지점 구분"
+        ],
+        "why": [
+          "'신중한 AI 시대' 기조에서 사용량 상한 설정이 실무 필수 작업이 된다",
+          "에이전트가 상시 실행되면 사용량이 사람 수와 무관하게 증가한다"
+        ],
+        "action": "에이전트 상시 실행을 도입하기 전에 팀 단위 사용량 상한과 알림 임계치를 설정할 것."
+      }
+    }
+  ]
+}

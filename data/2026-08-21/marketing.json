@@ -1,0 +1,224 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-openai-reddit-citations",
+      "title": "오픈AI는 레딧에서 멀어지고, 레딧은 오픈AI가 되려 한다",
+      "summary": "챗GPT의 레딧 인용 비중이 4.5%에서 0.5%로 급락한 가운데 레딧은 게시물을 영상·팟캐스트로 바꾸는 AI 도구를 개발 중이다.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/openai-is-backing-away-from-reddit-as-reddit-tries-to-become-openai-2000800060",
+      "report": {
+        "tldr": "AI 검색 인용 비중은 플랫폼 협상력의 새로운 지표다.",
+        "what": "오픈AI의 검색 방식 변경 이후 챗GPT의 레딧 인용 비중이 4.5%에서 0.5%로 떨어졌고, 레딧은 자체 AI 콘텐츠 변환 도구로 대응하고 있다.",
+        "points": [
+          "인용 비중 4.5% → 0.5%로 급감",
+          "레딧은 게시물을 영상·팟캐스트로 변환하는 AI 도구 개발 중"
+        ],
+        "why": [
+          "AI 검색 인용은 이제 트래픽 채널이자 라이선스 협상 카드가 됐다",
+          "인용 비중이 한 번의 알고리즘 변경으로 90% 가까이 사라질 수 있다는 사실 자체가 리스크"
+        ],
+        "action": "AI 검색 인용 비중을 채널 지표에 넣고 단일 플랫폼 의존도를 점검할 것."
+      }
+    },
+    {
+      "id": "mkt-gen-alpha-spending",
+      "title": "알파 세대가 바꾸는 신학기 소비",
+      "summary": "알파 세대가 가계 지출의 48%에 영향을 미치고, 73%의 가정이 제품 조사에 AI를 쓴다.",
+      "source": "Future Commerce",
+      "url": "https://www.futurecommerce.com/posts/insiders-236-the-alpha-effect---how-gen-alpha-is-redefining-back-to-school-spending",
+      "report": {
+        "tldr": "구매 조사 단계가 검색에서 AI 대화로 옮겨가는 중이다.",
+        "what": "알파 세대가 가계 지출의 48%에 영향력을 행사하며, 73%의 가정이 제품 조사에 AI를 활용하고 40%의 부모가 자녀에게 장바구니 통제권을 직접 넘긴다는 조사 결과다.",
+        "points": [
+          "가계 지출 영향력 48%",
+          "제품 조사에 AI 활용 가정 73%",
+          "장바구니 통제권을 자녀에게 넘기는 부모 40%"
+        ],
+        "why": [
+          "구매 여정의 첫 접점이 검색 결과에서 AI 응답으로 이동하면 SEO 투자 대비가 달라진다",
+          "챗GPT의 리스티클 축소 조정과 겹쳐 보면 AI 노출 확보 방식 자체가 유동적"
+        ]
+      }
+    },
+    {
+      "id": "mkt-lead-magnet-funnel",
+      "title": "1,500만 달러 크리에이터의 리드 마그넷 퍼널 분해",
+      "summary": "설문으로 구독자의 문제를 파악한 뒤 개인화된 제안과 기한 한정 할인을 연결하는 구조.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/pulse/i-spent-3-hours-analyzing-new-lead-magnet-funnel-15m-bustamante--id53e/",
+      "report": {
+        "tldr": "리드 마그넷의 핵심은 자료가 아니라 그 뒤의 세분화 설문이다.",
+        "what": "저스틴 웰시의 퍼널을 분해해, 설문으로 구독자의 고충을 수집해 세분화한 뒤 개인화된 제안과 기한 한정 할인을 연결하는 구조를 정리했다.",
+        "points": [
+          "설문 기반 세분화가 퍼널의 중심 장치",
+          "세그먼트별 개인화 제안 + 기한 한정 할인"
+        ],
+        "why": [
+          "개인화 제안은 세분화 데이터 없이는 성립하지 않는다",
+          "같은 날 '개인화가 선을 넘는 기준' 글과 함께 읽으면 수집 범위의 한계를 함께 볼 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "mkt-personalization-line",
+      "title": "개인화가 선을 넘었는지 판단하는 법",
+      "summary": "사용자 행동으로 정당화되지 않는 공격적 리타기팅이 과잉 개인화의 기준선이 된다.",
+      "source": "MarTech",
+      "url": "https://martech.org/how-to-tell-if-your-personalization-is-over-the-line/",
+      "report": {
+        "tldr": "개인화의 한계선은 법이 아니라 사용자의 기대치에서 결정된다.",
+        "what": "사용자가 실제로 보인 행동 범위를 넘어서는 리타기팅이 과잉 개인화이며, 효과를 내려면 고객 기대와 실질적 경험 가치가 일치해야 한다는 기준을 제시한다.",
+        "points": [
+          "판단 기준: 사용자 행동으로 정당화되는 범위인가",
+          "효과의 조건은 기대 일치와 경험 가치"
+        ],
+        "why": [
+          "프라이버시 규제와 별개로 브랜드 신뢰 손상이 더 빠른 비용으로 돌아온다",
+          "IT 편의 직장 감시 논의와 마찬가지로 '수집 가능'과 '수집 적절'이 분리되는 흐름"
+        ],
+        "action": "리타기팅 세그먼트별로 근거가 되는 사용자 행동을 문서화해 검토할 것."
+      }
+    },
+    {
+      "id": "mkt-chatgpt-56-listicles",
+      "title": "챗GPT 5.6, 리스티클과 비교 페이지를 덜 인용한다",
+      "summary": "리스티클 인용이 50.5%, 비교 페이지가 32.1% 줄어 AI 인용을 노린 콘텐츠의 노출이 떨어진다.",
+      "source": "Lily Ray (LinkedIn)",
+      "url": "https://www.linkedin.com/posts/lily-ray-44755615_wow-i-found-this-very-interesting-tomek-ugcPost-7496019572320260096-TNIS/",
+      "report": {
+        "tldr": "AI 인용을 겨냥해 만든 콘텐츠 형식이 한 업데이트에 무력화됐다.",
+        "what": "챗GPT 5.6의 검색 조정으로 리스티클 인용이 50.5%, 비교 페이지 인용이 32.1% 감소해, AI 인용 최적화를 목표로 제작된 콘텐츠의 노출이 줄었다.",
+        "points": [
+          "리스티클 인용 −50.5%",
+          "비교 페이지 인용 −32.1%"
+        ],
+        "why": [
+          "AI 검색 최적화가 SEO보다 변동성이 크다는 점을 수치로 확인",
+          "레딧 인용 급감 사례와 합치면 AI 노출은 단일 벤더 정책에 종속된 채널"
+        ],
+        "action": "AI 인용 의존 콘텐츠의 트래픽 비중을 측정하고 형식 편중을 분산할 것."
+      }
+    },
+    {
+      "id": "mkt-conditional-promotion-paradox",
+      "title": "조건부 할인의 역설 — 총매출을 깎는 프로모션",
+      "summary": "조건이 까다로운 할인은 정가 구매를 상대적으로 손해처럼 느끼게 만들어 전체 매출을 떨어뜨린다.",
+      "source": "American Marketing Association",
+      "url": "https://www.ama.org/2026/08/19/the-conditional-promotion-paradox-how-conditional-discounts-hurt-total-sales/",
+      "report": {
+        "tldr": "문턱이 높은 할인은 할인을 못 받은 고객의 구매까지 막는다.",
+        "what": "AMA 연구에 따르면 요구 조건이 큰 조건부 할인은 정가 구매를 상대적 손실로 느끼게 해 총매출을 감소시키며, 조건은 낮추고 할인폭을 키우는 편이 매출 극대화에 유리하다.",
+        "points": [
+          "높은 조건 = 정가 구매의 상대적 박탈감 유발",
+          "권고: 조건은 낮게, 할인폭은 크게"
+        ],
+        "why": [
+          "프로모션 성과를 참여 고객 전환율만으로 평가하면 이 손실이 안 보인다",
+          "실험 누적 효과 측정 문제(데브옵스 편)와 같은 계산 오류 유형"
+        ],
+        "action": "프로모션 평가 지표에 미참여 고객군의 정가 구매 변화를 포함할 것."
+      }
+    },
+    {
+      "id": "mkt-wapo-paid-acquisition",
+      "title": "AI가 워싱턴포스트의 유료 구독 획득 전략을 바꿨다",
+      "summary": "기자가 직접 등장하는 영상 크리에이티브가 CTR 4배, 전환 31% 개선을 만들었다.",
+      "source": "INMA",
+      "url": "https://www.inma.org/blogs/digital-subscriptions/post.cfm/ai-forced-washington-post-to-rethink-paid-acquisition-that-started-with-journalism",
+      "report": {
+        "tldr": "검색 유입이 줄자 퍼블리셔가 저널리스트를 크리에이티브 자산으로 전환했다.",
+        "what": "AI 검색으로 오가닉 유입 퍼널이 줄어들자 워싱턴포스트가 기자 주도 영상 크리에이티브로 유료 획득 전략을 재편해 CTR 4배, 전환율 31% 개선을 얻었다.",
+        "points": [
+          "CTR 4배, 전환율 31% 개선",
+          "핵심 자산은 브랜드가 아니라 개별 기자의 신뢰도"
+        ],
+        "why": [
+          "AI 요약이 원문 클릭을 대체하는 구조에서 퍼블리셔의 현실적 대응 사례",
+          "레딧 인용 급감과 같은 원인에서 출발한 서로 다른 대응"
+        ]
+      }
+    },
+    {
+      "id": "mkt-meta-womens-sports",
+      "title": "메타, 여성 스포츠의 브랜드 기회 부각",
+      "summary": "여성 스포츠 시장이 남성 대비 4.5배 빠르게 성장하며 선수 파트너십이 팬 구매의 76%에 영향을 미친다.",
+      "source": "Social Media Today",
+      "url": "https://www.socialmediatoday.com/news/meta-highlights-rising-brand-opportunities-in-womens-sports/828348/",
+      "report": {
+        "tldr": "여성 스포츠가 성장률과 전환 영향력을 동시에 갖춘 채널로 제시됐다.",
+        "what": "메타가 여성 스포츠 시장이 남성 대비 4.5배 빠르게 성장하고 있으며 WNBA 12억 회 이상, 축구 9억 회 이상의 조회를 기록했다고 밝혔다. 선수 파트너십은 팬 구매의 76%에 영향을 미쳤다.",
+        "points": [
+          "성장 속도 남성 대비 4.5배",
+          "WNBA 12억+ / 축구 9억+ 조회",
+          "선수 파트너십이 팬 구매의 76%에 영향"
+        ],
+        "why": [
+          "플랫폼이 자체 데이터로 신규 광고 카테고리를 개척하는 전형적 방식",
+          "수치가 플랫폼 자체 집계라는 점은 감안해서 해석해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "mkt-ny-tech-talent",
+      "title": "샌프란시스코 베이 지역, 최대 테크 인재 시장 자리 내주다",
+      "summary": "뉴욕 테크 인력 39.4만 명이 베이 지역 37.6만 명을 앞지르며 지역 구도가 뒤집혔다.",
+      "source": "Los Angeles Times",
+      "url": "https://www.latimes.com/business/story/2026-08-20/san-francisco-bay-area-dethroned-as-largest-tech-talent-market",
+      "report": {
+        "tldr": "테크 인재 시장의 지리적 중심이 실제로 이동했다.",
+        "what": "뉴욕의 테크 인력이 39만 4천 명으로 베이 지역 37만 6천 명을 넘어섰다. 뉴욕은 8% 성장, 베이 지역은 6% 감소를 기록했다.",
+        "points": [
+          "뉴욕 39.4만 명 vs 베이 지역 37.6만 명",
+          "증감률 뉴욕 +8%, 베이 지역 −6%"
+        ],
+        "why": [
+          "채용 타깃팅과 오프라인 마케팅의 지역 배분 기준이 바뀐다",
+          "파운더스 편의 '국경 없는 창업자' 논지와 함께 인재 분산 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "mkt-similarweb-ai-ads",
+      "title": "시밀러웹, 챗GPT·구글 AI 모드 내 광고까지 추적",
+      "summary": "익명화 사용자 데이터로 AI 환경 안의 광고·크리에이티브·점유율 정보를 제공한다.",
+      "source": "Search Engine Watch",
+      "url": "https://searchenginewatch.com/145630/",
+      "report": {
+        "tldr": "AI 인터페이스 안의 광고가 측정 가능한 채널이 됐다.",
+        "what": "시밀러웹이 익명화된 사용자 데이터를 바탕으로 챗GPT와 구글 AI 모드 내부의 광고, 크리에이티브, 메시지, 점유율을 추적하는 경쟁 인텔리전스 기능을 내놨다.",
+        "points": [
+          "추적 범위: AI 환경 내 광고·크리에이티브·점유율",
+          "데이터 출처는 익명화된 사용자 패널"
+        ],
+        "why": [
+          "AI 인터페이스 광고가 측정 도구를 갖추면 예산 배분 대상이 된다",
+          "패널 기반 추정치이므로 절대값보다 추세로 해석해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "mkt-cro-worst-name",
+      "title": "'전환율 최적화'는 그 개념에 붙일 수 있는 최악의 이름",
+      "summary": "'최적화'라는 말이 사소한 개선을 연상시키지만 실제 디지털 실험은 훨씬 넓은 전략적 개선을 포함한다.",
+      "source": "Jonny Longden (LinkedIn)",
+      "url": "https://www.linkedin.com/posts/jonnylongden_cro-experimentation-ecommerce-share-7495179883925430272-AqnP/",
+      "report": {
+        "tldr": "이름이 잘못 붙어 예산과 권한이 작게 배정된다.",
+        "what": "'전환율 최적화'라는 명칭이 미세 조정을 연상시키면서, 실제로는 제품·가격·포지셔닝까지 다루는 디지털 실험의 범위와 위상을 축소시킨다는 주장이다.",
+        "points": [
+          "'최적화'라는 단어가 범위를 오해하게 만든다",
+          "실제 실험은 전략적 의사결정까지 포함"
+        ],
+        "why": [
+          "조직 내 실험 조직의 권한 배치 문제로 직결",
+          "'버튼을 무시하는 이유'(디자인 편)와 같은 진단 — 표면 지표만 만지는 함정"
+        ]
+      }
+    }
+  ]
+}
