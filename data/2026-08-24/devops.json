@@ -1,0 +1,235 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-digitalocean-cache-router",
+      "title": "디지털오션 추론 라우터, 캐시를 인식하다 — 가장 싼 모델이 항상 최선은 아닌 이유",
+      "summary": "디지털오션이 추론 라우터에 캐시 인식 라우팅을 추가해, 모델 전환 시 웜 프롬프트 캐시 손실 비용까지 고려하게 됐다.",
+      "source": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/inference-router-cache-aware?utm_source=tldrdevops",
+      "report": {
+        "tldr": "모델을 바꾸는 순간 날아가는 캐시 비용까지, 이제 라우터가 계산해준다.",
+        "what": "디지털오션이 자사 추론 라우터(Inference Router)에 캐시 인식 라우팅을 추가해, 세션 도중 모델을 전환할 때 웜 프롬프트 캐시가 깨지는 비용까지 고려해 판단하도록 개선했다. 이 업데이트는 두 가지 새 제어 기능과 함께 제공된다. 요청을 특정 세션에 묶는 명시적 모델 어피니티 헤더와, 모델 전환으로 발생할 수 있는 추가 비용의 상한을 정하는 라우팅 예산 파라미터다.",
+        "points": [
+          "캐시 인식 라우팅으로 모델 전환 시 캐시 손실 비용을 반영",
+          "모델 어피니티 헤더로 요청을 특정 세션에 명시적으로 고정",
+          "라우팅 예산 파라미터로 모델 전환에 따른 추가 비용 상한 설정"
+        ],
+        "why": [
+          "단순히 가장 저렴한 모델을 고르는 라우팅은 캐시 손실로 오히려 비쌀 수 있다",
+          "세션 단위 비용 관리가 프로덕션 추론 인프라에서 점점 더 중요해지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-aws-glue-6-0",
+      "title": "AWS Glue 6.0 출시 — 가격 30% 인하, Apache Iceberg v3 완전 지원",
+      "summary": "Apache Spark 4.1과 Iceberg 1.11.0을 기반으로 하며, 스키마 평탄화 없이 다양한 데이터를 저장할 수 있는 VARIANT 타입이 추가됐다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/aws-glue-6-0-now-available-with-30-lower-price-and-full-apache-iceberg-v3-support/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "가격은 30% 내리고, Iceberg v3는 완전히 품었다.",
+        "what": "AWS Glue 6.0이 Glue 운영 대상 모든 AWS 리전에서 정식 출시됐으며, 이전 버전 대비 가격이 30% 낮아졌다. Apache Spark 4.1, Python 3.13, Scala 2.13 위에 구축됐고, Iceberg 1.11.0을 통해 Apache Iceberg v3를 완전히 지원한다. 셰딩(shredding)을 지원하는 신규 VARIANT 데이터 타입 덕분에 JSON, 로그, 이벤트 데이터를 스키마 평탄화 없이 저장·쿼리할 수 있다.",
+        "points": [
+          "이전 버전 대비 가격 30% 인하",
+          "Apache Spark 4.1, Python 3.13, Scala 2.13 기반",
+          "Iceberg 1.11.0을 통한 Apache Iceberg v3 완전 지원",
+          "셰딩 지원 VARIANT 타입으로 스키마 평탄화 없이 JSON·로그·이벤트 데이터 처리",
+          "기존 API 변경 없이 신버전 사용 가능"
+        ],
+        "why": [
+          "데이터 레이크하우스 비용과 스키마 유연성을 동시에 개선한 업데이트다",
+          "API 호환성이 유지돼 기존 파이프라인을 그대로 마이그레이션할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-docker-verified-publisher-self-serve",
+      "title": "도커 검증 퍼블리셔 프로그램, 셀프서브로 전환",
+      "summary": "영업팀을 거치지 않고 도커 허브에서 직접 신청할 수 있게 됐으며, 승인 시 인증 배지와 검색 우선순위, 분석 데이터를 제공받는다.",
+      "source": "Docker",
+      "url": "https://www.docker.com/blog/docker-verified-publisher-applications-are-now-self-serve/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "인증 배지 하나 받으려고 영업팀과 미팅 잡던 시절은 끝났다.",
+        "what": "도커가 검증 퍼블리셔(Verified Publisher) 프로그램을 셀프서브 방식으로 전환해, 소프트웨어 벤더가 영업팀을 거치지 않고 도커 허브에서 직접 신청할 수 있게 됐다. 승인된 퍼블리셔는 인증 배지, 우선 검색 노출, 자사 이미지를 어떤 기업이 가져가는지 확인할 수 있는 분석 데이터에 접근할 수 있다. 이 배지는 MCP 서버, 모델, 샌드박스, 에이전트를 포함해 도커 허브의 모든 콘텐츠 유형에 적용된다.",
+        "points": [
+          "영업팀 대신 도커 허브에서 직접 신청하는 셀프서브 방식으로 전환",
+          "승인 시 인증 배지, 검색 우선순위, 이미지 pull 분석 데이터 제공",
+          "MCP 서버·모델·샌드박스·에이전트 등 모든 콘텐츠 유형에 배지 적용",
+          "현재 검증 퍼블리셔로 구글, 마이크로소프트, AWS, 데이터독, 그라파나 랩스 등이 있음"
+        ],
+        "why": [
+          "MCP 서버·에이전트 등 신규 콘텐츠 유형까지 인증 체계에 포함되며 신뢰성 검증 범위가 넓어졌다",
+          "벤더 입장에서는 신청 장벽이 낮아져 더 많은 소규모 퍼블리셔가 참여할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-azure-regional-outage-july",
+      "title": "7월 23일 애저 리전 장애에 대한 짧은 소회",
+      "summary": "네트워킹 복구 작업이 예상보다 넓은 범위의 디바이스 격리를 유발하며 약 5시간 동안 장애가 이어졌다.",
+      "source": "surfingcomplexity.blog",
+      "url": "https://surfingcomplexity.blog/2026/08/16/quick-thoughts-on-azure-regional-outage-from-july-23-26/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "복구 작업이 오히려 장애 범위를 키운, 전형적인 연쇄 실패 사례다.",
+        "what": "7월 23일 애저 West US 리전에서 발생한 장애는 네트워킹 복구 작업이 예상보다 훨씬 넓은 범위의 디바이스 격리를 촉발하면서 약 5시간 동안 지속됐다. 이 글은 장애를 키운 복합적인 요인들을 짚는다.",
+        "points": [
+          "장애 지속 시간은 약 5시간",
+          "원인은 네트워킹 복구 작업 중 발생한 광범위한 디바이스 격리",
+          "잘못된 블라스트 반경 분석과 부실한 종합 안전성 검증이 기여 요인",
+          "오해를 부르는 헬스 신호와 불완전한 이벤트 로깅도 원인으로 지목",
+          "롤백 자동화 자체가 장애가 발생한 연결성에 의존하고 있었음"
+        ],
+        "why": [
+          "복구 자동화가 장애 대상 인프라에 의존하면 장애가 오히려 악화될 수 있다",
+          "블라스트 반경 분석과 안전성 검증 부실은 대형 클라우드에서도 반복되는 실패 패턴이다"
+        ]
+      }
+    },
+    {
+      "id": "devops-octopus-easy-mode-microservices",
+      "title": "옥토퍼스 이지 모드 — 쿠버네티스 마이크로서비스 오케스트레이션",
+      "summary": "부모 프로젝트에서 '릴리스 배포' 스텝으로 여러 독립 배포 가능한 마이크로서비스의 순차·병렬 배포를 조율할 수 있다.",
+      "source": "Octopus Deploy",
+      "url": "https://octopus.com/blog/octo-easy-mode-20-microservices?utm_source=tldrdevops",
+      "report": {
+        "tldr": "각자 배포되는 마이크로서비스를, 하나의 단위처럼 묶어서 승격시킨다.",
+        "what": "옥토퍼스는 부모 프로젝트에서 '릴리스 배포(Deploy a Release)' 스텝을 활용해 독립적으로 배포 가능한 쿠버네티스 마이크로서비스들을 오케스트레이션하며, 환경별로 순차 또는 병렬 배포를 조율할 수 있다. 개별 서비스의 배포 독립성은 유지하면서도, 팀이 여러 서비스를 하나의 단위처럼 함께 승격시키고 일관된 라이프사이클로 관리할 수 있게 해준다.",
+        "points": [
+          "부모 프로젝트의 '릴리스 배포' 스텝으로 여러 마이크로서비스를 오케스트레이션",
+          "환경별 순차·병렬 배포 조율 가능",
+          "개별 서비스 배포 독립성을 유지하면서 단일 단위로 승격 가능"
+        ],
+        "why": [
+          "마이크로서비스가 늘어날수록 개별 배포와 통합 릴리스 관리 사이의 균형이 중요해진다"
+        ]
+      }
+    },
+    {
+      "id": "devops-databasus-github",
+      "title": "Databasus — PostgreSQL용 오픈소스 셀프 호스팅 백업 도구",
+      "summary": "S3, 구글 드라이브, FTP 등 다양한 저장소를 지원하며, 실제 복원을 통해 백업을 검증한다.",
+      "source": "GitHub",
+      "url": "https://github.com/databasus/databasus?utm_source=tldrdevops",
+      "report": {
+        "tldr": "백업 파일이 있다고 안심하지 말라 — 진짜 복원까지 해봐야 안다.",
+        "what": "Databasus는 PostgreSQL을 위한 무료 오픈소스 셀프 호스팅 백업 도구로, S3, 구글 드라이브, FTP 같은 다양한 저장 백엔드를 지원하고 슬랙, 디스코드, 텔레그램을 통한 알림 기능도 제공한다. 시점 복구(Point-in-Time Recovery)에 초점을 맞추며, 디스크에 파일이 있는지 확인하는 수준이 아니라 실제 복원을 수행해 백업을 검증한다.",
+        "points": [
+          "S3, 구글 드라이브, FTP 등 다양한 저장 백엔드 지원",
+          "슬랙·디스코드·텔레그램 알림 기능 제공",
+          "시점 복구(Point-in-Time Recovery)에 초점",
+          "실제 복원을 수행해 백업 유효성을 검증"
+        ],
+        "why": [
+          "백업 검증을 파일 존재 여부가 아닌 실제 복원으로 하는 방식은 신뢰성을 크게 높인다"
+        ]
+      }
+    },
+    {
+      "id": "devops-aerospork-github",
+      "title": "AeroSpork — AeroSpace의 macOS 타일링 윈도우 매니저 포크",
+      "summary": "설정 GUI와 arm64·x86_64용 공증된 유니버설 빌드를 추가하고, 모니터 식별 방식을 CoreGraphics UUID 기반으로 수정했다.",
+      "source": "GitHub",
+      "url": "https://github.com/wbsmolen/aerospork?utm_source=tldrdevops",
+      "report": {
+        "tldr": "i3 스타일 타일링 매니저에 GUI와 유니버설 빌드를 더했다.",
+        "what": "AeroSpork는 macOS용 i3 스타일 타일링 윈도우 매니저인 AeroSpace의 포크 프로젝트다. 설정 GUI, arm64와 x86_64 모두를 지원하는 공증된 유니버설 빌드를 추가했고, 모니터 식별 방식을 IOKit 대신 CoreGraphics UUID 기반으로 바꿔 관련 버그를 수정했다.",
+        "points": [
+          "AeroSpace(i3 스타일 macOS 타일링 매니저)의 포크",
+          "설정 GUI 추가",
+          "arm64·x86_64 공증된 유니버설 빌드 제공",
+          "모니터 식별을 IOKit 대신 CoreGraphics UUID로 전환"
+        ],
+        "why": [
+          "원본 프로젝트에 없던 GUI 설정과 배포 편의성을 보완한 실용적인 포크다"
+        ]
+      }
+    },
+    {
+      "id": "devops-cisa-bod-26-04-vulnerability-prioritization",
+      "title": "CISA BOD 26-04가 취약점 우선순위 지정 방식을 어떻게 바꾸는가",
+      "summary": "연방 기관이 정적 심각도 점수 대신 실제 리스크 기준으로 취약점 대응 우선순위를 정하도록 요구한다.",
+      "source": "Datadog",
+      "url": "https://www.datadoghq.com/blog/cisa-bod-26-04-vulnerability-prioritization/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "CVSS 점수만 보던 시대는 끝나고, 실제 리스크가 우선순위를 정한다.",
+        "what": "CISA의 구속력 있는 운영 지침(Binding Operational Directive) 26-04는 연방 기관이 정적인 심각도 점수가 아니라 실제 리스크를 기준으로 취약점 해결 우선순위를 정하도록 요구한다. 이 글은 데이터독의 도구가 이 지침이 타깃으로 삼는 핵심 발견 사항을 팀이 식별하고 해결하는 데 어떻게 도움이 되는지 설명한다.",
+        "points": [
+          "CISA BOD 26-04는 정적 심각도 점수 대신 실제 리스크 기준 우선순위 지정을 요구",
+          "연방 기관 대상 구속력 있는 지침"
+        ],
+        "why": [
+          "취약점 관리 전략을 CVSS 점수 중심에서 리스크 기반으로 전환해야 할 규제 압력이 커지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-wild-ai-reliability-incidents",
+      "title": "기묘한 AI발 신뢰성 사고가 다가오고 있다",
+      "summary": "AI 에이전트가 자율적인 1차 대응자로서 많은 장애를 해결할 수 있지만, 예기치 못한 상황에서는 새로운 실패 유형을 만들어낼 수 있다.",
+      "source": "surfingcomplexity.blog",
+      "url": "https://surfingcomplexity.blog/2026/08/22/wild-ai-related-reliability-incidents-are-coming/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI가 장애를 고치다가, 오히려 더 복잡한 장애를 만들 수 있다.",
+        "what": "AI 에이전트가 자율적인 1차 대응자로서 많은 일상적 장애를 성공적으로 해결할 수 있지만, 운영 작업을 직접 수행할 수 있는 능력은 에이전트가 감당하지 못하는 상황을 만났을 때 새로운 실패 유형을 낳는다. 가장 위험한 시나리오는 에이전트가 예상치 못한 방식으로 복구를 시도해 이미 복잡한 장애를 사람이 개입하기도 전에 더 악화시키는 경우로, 이 경우 대응자는 소프트웨어 시스템과 에이전트 자체의 결합된 행동을 함께 진단해야 한다.",
+        "points": [
+          "AI 에이전트는 자율 1차 대응자로서 일상적 장애를 다수 해결 가능",
+          "예기치 못한 상황에서는 새로운 실패 유형을 만들어낼 위험이 있음",
+          "가장 위험한 시나리오는 에이전트의 잘못된 복구 시도가 장애를 악화시키는 경우",
+          "이때 대응자는 시스템과 에이전트의 결합된 행동을 함께 진단해야 함"
+        ],
+        "why": [
+          "AI 자동화 대응 도입 시 인간 개입 시점과 안전장치 설계가 핵심 과제가 된다",
+          "장애 대응 팀은 앞으로 '에이전트가 만든 장애'라는 새로운 진단 카테고리를 준비해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "devops-reasons-software-slow",
+      "title": "그럼에도 소프트웨어가 느린 이유는 여전히 남아 있다",
+      "summary": "LLM이 성능 작업 구현 비용을 낮추더라도, 최적화가 출시되지 않는 진짜 이유는 대부분 구현 비용이 아니다.",
+      "source": "typesanitizer.com",
+      "url": "https://typesanitizer.com/blog/performance-issues.html?utm_source=tldrdevops",
+      "report": {
+        "tldr": "코드를 더 빨리 짤 수 있다고, 프로덕션이 더 빨라지는 건 아니다.",
+        "what": "LLM은 성능 개선 작업의 구현 비용을 낮출 수 있지만, 최적화가 실제로 출시되지 않는 주된 이유는 구현 비용이 아닌 경우가 많다는 반론이다. 팀은 느린 소프트웨어를 그냥 감수하거나, 엔지니어링 예산을 줄이거나, 성능을 후순위로 미루거나, 테스트·마이그레이션·정확성·장기 유지보수에서 더 큰 비용을 마주하기도 한다. 또한 AI가 생성한 최적화는 벤치마크에 과적합되거나 신뢰성 문제를 유발할 수 있어, 코드 생성 속도가 빨라진다고 해서 반드시 프로덕션 소프트웨어가 빨라지는 것은 아니다.",
+        "points": [
+          "LLM은 성능 작업의 구현 비용을 낮출 뿐, 최적화 미출시의 주원인은 아닌 경우가 많음",
+          "팀이 느린 소프트웨어를 감수하거나 엔지니어링 예산을 줄이는 경우 존재",
+          "테스트·마이그레이션·정확성·장기 유지보수 비용이 더 큰 걸림돌일 수 있음",
+          "AI 생성 최적화가 벤치마크에 과적합되거나 신뢰성 문제를 유발할 수 있음"
+        ],
+        "why": [
+          "'AI가 최적화를 쉽게 만들어준다'는 낙관론에 대한 균형 잡힌 반론을 제공한다",
+          "성능 개선이 조직에서 실제로 출시되려면 구현 비용 외의 장벽도 함께 해결해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "devops-google-agent2agent-joins-aaif",
+      "title": "구글 Agent2Agent 프로토콜, AAIF에 합류",
+      "summary": "벤더 간 에이전트 통신을 위한 개방형 표준인 Agent2Agent가 리눅스 재단 산하 MCP 생태계와 함께 에이전틱 AI 파운데이션에 합류한다.",
+      "source": "DevOps Digest",
+      "url": "http://www.devopsdigest.com/google-agent2agent-protocol-joins-aaif?utm_source=tldrdevops",
+      "report": {
+        "tldr": "MCP에 이어 A2A까지, 에이전트 표준이 한 지붕 아래 모인다.",
+        "what": "구글의 Agent2Agent 프로토콜은 벤더 간 에이전트 통신을 위한 개방형 표준으로, 리눅스 재단이 지원하는 MCP 생태계와 나란히 에이전틱 AI 파운데이션(Agentic AI Foundation)에 합류한다."
+      }
+    },
+    {
+      "id": "devops-sandboxing-local-ai-agents",
+      "title": "로컬 AI 에이전트 샌드박싱하기",
+      "summary": "로컬 AI 코딩 에이전트는 개발자 머신에 대한 전체 접근 권한으로 임의 프롬프트를 실행해 파일 삭제와 비밀정보 유출 위험을 안고 있다.",
+      "source": "Octopus Deploy",
+      "url": "https://octopus.com/blog/local-ai-agent-sandboxes?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 코딩 에이전트에게 내 컴퓨터 전체 권한을 그냥 내주고 있지는 않은가.",
+        "what": "로컬 AI 코딩 에이전트는 개발자 머신에 대한 전체 접근 권한을 가진 채 임의의 프롬프트를 실행하기 때문에, 실수 또는 악의적인 파일 삭제와 비밀정보 유출 위험을 안고 있다."
+      }
+    }
+  ]
+}

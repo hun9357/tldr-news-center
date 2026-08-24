@@ -1,0 +1,301 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-android-car-headunit-botnet",
+      "title": "안드로이드 차량 헤드유닛 노린 프록시 봇넷 악성코드 발견",
+      "summary": "MoYu 해킹조직이 DoFun 브랜드 안드로이드 차량 헤드유닛에 가짜 APK로 봇넷 악성코드를 심어 프록시 노드로 악용했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/UAt9DH",
+      "report": {
+        "tldr": "차량용 인포테인먼트 시스템이 클릭사기용 프록시 좀비로 전락했다.",
+        "what": "MoYu 위협 그룹이 DoFun 브랜드 안드로이드 차량 헤드유닛을 정상 시스템 앱인 TWCore를 경유해 악성 APK로 감염시켜 'JarService'라는 봇넷 악성코드를 심었다. 이 악성코드는 MQTT 브로커에서 명령을 받아 감염된 차량을 원격 SOCKS5 프록시 노드와 클릭사기 클라이언트로 전환한다.",
+        "points": [
+          "감염 경로는 TWCore라는 정상 시스템 앱을 가장한 로그(rogue) APK",
+          "명령 전달은 MQTT 브로커를 통해 이루어짐",
+          "감염 차량은 SOCKS5 프록시 노드이자 클릭사기 클라이언트로 악용됨",
+          "연구진은 물리적 차량 제어 계통 간섭 증거는 발견하지 못함",
+          "명령 도메인은 cardoor[.]cn"
+        ],
+        "why": [
+          "차량용 안드로이드 시스템도 일반 IoT 기기처럼 봇넷 표적이 될 수 있음을 보여줌",
+          "정상 시스템 앱을 경유한 감염은 기존 모바일 보안 점검을 우회하기 쉬움"
+        ],
+        "action": "해당 헤드유닛 소유자는 cardoor[.]cn 도메인으로의 비정상 네트워크 통신 여부를 점검할 것."
+      }
+    },
+    {
+      "id": "infosec-sickkids-data-breach",
+      "title": "SickKids 병원, 직원·지원자 정보 유출 데이터 유출 사고 공개",
+      "summary": "캐나다 SickKids 병원이 제3자 소프트웨어 취약점으로 인해 직원과 입사 지원자 정보가 유출됐다고 발표했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/Z3OJZs",
+      "report": {
+        "tldr": "제3자 소프트웨어 취약점 하나가 여러 기관의 인사 정보를 동시에 노출시켰다.",
+        "what": "토론토 소재 아동병원 SickKids가 직원과 채용 지원자에 영향을 미친 데이터 유출 사고를 공개했다. 원인은 SickKids를 포함한 여러 기관이 함께 사용하는 제3자 소프트웨어의 취약점으로 지목됐다.",
+        "points": [
+          "영향 대상은 SickKids의 직원 및 입사 지원자",
+          "원인은 다수 기관이 공유하는 제3자 소프트웨어 취약점",
+          "SickKids 외 다른 조직도 동일 소프트웨어로 인한 영향권에 있을 가능성"
+        ],
+        "why": [
+          "공급망상의 단일 소프트웨어 취약점이 여러 기관에 동시다발적 피해를 유발할 수 있음을 보여줌",
+          "의료기관이 다루는 인사·개인정보는 피싱 등 2차 공격에 악용되기 쉬움"
+        ],
+        "action": "SickKids와 동일한 제3자 소프트웨어를 사용하는 기관은 벤더의 패치 공지를 확인하고 영향 범위를 자체 점검할 것."
+      }
+    },
+    {
+      "id": "infosec-synkloader-teams-phishing",
+      "title": "마이크로소프트 팀즈 피싱으로 유포되는 신종 SynkLoader 악성코드",
+      "summary": "Expel 연구진이 팀즈 피싱 캠페인으로 유포되는 신종 로더 'SynkLoader'를 발견했으며 가짜 파워셸 클리너로 위장한다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/RL68xl",
+      "report": {
+        "tldr": "팀즈 채팅 하나가 가짜 로그인 화면부터 원격제어까지 여는 침투 관문이 됐다.",
+        "what": "보안업체 Expel이 마이크로소프트 팀즈를 통한 피싱 캠페인에서 유포되는 신종 악성코드 패밀리 'SynkLoader'를 확인했다. 공격자는 피해자를 유도해 애저에 호스팅된 가짜 'PowerShell Cleaner' 실행파일을 설치하게 만들어 신뢰도를 높인다.",
+        "points": [
+          "유포 경로는 마이크로소프트 팀즈 피싱 캠페인",
+          "가짜 실행파일은 신뢰성 확보를 위해 애저(Azure)에 호스팅됨",
+          "탑재 가능한 모듈: 시스템 프로파일러, 지속성 모듈, 가짜 윈도우 로그인 화면으로 비밀번호를 탈취하는 PhishLocker",
+          "내부 서비스 접근을 위한 TrafficRedirector, RAT, VNC, 상태 확인 스크립트도 포함"
+        ],
+        "why": [
+          "업무용 협업 툴이 새로운 피싱 유포 채널로 자리잡고 있음을 보여줌",
+          "단일 로더가 자격증명 탈취부터 원격제어까지 다목적 모듈을 제공해 공격 확장성이 큼"
+        ],
+        "action": "팀즈로 수신한 실행파일 설치 요청은 출처와 무관하게 차단하고, 'PowerShell Cleaner' 류의 미확인 실행파일 실행 이력을 EDR에서 소급 조사할 것."
+      }
+    },
+    {
+      "id": "infosec-open-source-model-time-backdoor",
+      "title": "오픈소스 모델에 심을 수 있는 시한폭탄형 백도어 실증",
+      "summary": "연구진이 Qwen 3.5 2B에 LoRA로 특정 날짜에만 활성화되는 잠복형 백도어를 심어 셸 명령을 실행시키는 데 성공했다.",
+      "source": "morgin.ai",
+      "url": "https://morgin.ai/articles/your-open-source-model-could-have-a-hidden-time-release-backdoor.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 코딩 에이전트가 매 턴 주입하는 '오늘 날짜'가 백도어의 방아쇠가 될 수 있다.",
+        "what": "연구진이 LoRA 파인튜닝으로 Qwen 3.5 2B 모델에 잠복형 백도어를 심어, 특정 날짜가 되면 정상 응답 대신 셸 명령을 실행하도록 만들었다. 이는 OpenCode가 매 턴 시스템 프롬프트에 현재 날짜를 자동 삽입하는 구조를 악용한 것으로, 2024년 앤트로픽의 슬리퍼 에이전트 연구를 확장한 결과다.",
+        "points": [
+          "목표 날짜에서 인분포(in-distribution) 프롬프트 8개 중 7개, 홀드아웃 프롬프트 10개 중 9개에서 백도어가 발동",
+          "목표 날짜 외에는 오작동 사례 없음",
+          "OpenAI의 Codex도 기본적으로 유사한 날짜 유출 메커니즘을 사용",
+          "OpenCode는 --auto 옵션 사용 시 확인 절차 없이 명령을 실행함"
+        ],
+        "why": [
+          "검증되지 않은 오픈웨이트 모델을 자동 실행 환경에 도입할 때 공급망 리스크가 실질적으로 존재함을 보여줌",
+          "타임스탬프를 자동 주입하는 에이전트 시스템은 이 방식의 트리거에 특히 취약함"
+        ],
+        "action": "타임스탬프를 자동 주입하는 에이전트 시스템에서는, 특히 미검증 오픈웨이트 모델에 한해 셸 명령 실행을 사람 승인 단계로 제한할 것."
+      }
+    },
+    {
+      "id": "infosec-sha-pinning-github-actions",
+      "title": "깃허브 액션 SHA 고정, 조직 전체 350개 저장소에 신속 적용한 사례",
+      "summary": "Semgrep 엔지니어가 tj-actions 공급망 침해를 계기로 350개 저장소에 걸쳐 깃허브 액션 SHA 고정을 조직 차원에서 시행했다.",
+      "source": "Semgrep",
+      "url": "https://semgrep.dev/blog/2026/sha-pinning-for-github-actions-org-wide/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "2025년 tj-actions 사고의 교훈이 조직 전체 CI 파이프라인 강화로 이어졌다.",
+        "what": "Semgrep 엔지니어가 2025년 tj-actions/changed-files 공급망 침해 사건을 계기로, 깃허브 네이티브 시행 설정과 pinact, Renovate 같은 도구를 활용해 350개 저장소의 깃허브 액션을 전체 길이 SHA로 고정하는 작업을 수행했다.",
+        "points": [
+          "적용 범위는 조직 내 저장소 350개",
+          "깃허브 네이티브 강제 설정과 함께 pinact, Renovate로 태그를 SHA로 자동 변환",
+          "신규 저장소는 웹훅으로 자동 등록해 정책을 일괄 적용",
+          "엄격한 강제 적용 전에 파이프라인 실패를 모니터링하고 개발자 가이드를 먼저 갱신"
+        ],
+        "why": [
+          "태그 기반 액션 참조는 업스트림이 침해되면 그대로 전파되는 공급망 리스크를 안고 있음",
+          "SHA 고정을 자동화 도구와 결합하면 대규모 조직에서도 현실적으로 시행 가능함을 보여줌"
+        ],
+        "action": "깃허브 액션을 태그가 아닌 전체 길이 커밋 SHA로 고정하고, pinact·Renovate 등으로 갱신을 자동화할 것."
+      }
+    },
+    {
+      "id": "infosec-elastic-ai-agent-audit",
+      "title": "1300만 건의 도구 호출 감사, Elastic으로 AI 코딩 에이전트 행동 추적",
+      "summary": "Elastic Security Labs가 커서·클로드 코드 같은 에이전틱 IDE의 모든 명령 실행을 감사하는 제로 디펜던시 훅을 공개했다.",
+      "source": "Elastic",
+      "url": "https://www.elastic.co/security-labs/ai-coding-agent-audit-cursor-hooks?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 에이전트가 실행하는 명령도 사람의 명령처럼 감사 대상이 되어야 한다.",
+        "what": "Elastic Security Labs가 커서(Cursor), 클로드 코드(Claude Code) 같은 에이전틱 IDE에서 AI 에이전트가 실행하는 bash·파워셸 명령을 모니터링하는 제로 디펜던시 훅을 공개했다. 에이전트 로그 접근 권한을 제한하고 프라이버시를 위해 메타데이터만 수집하는 데 중점을 뒀다.",
+        "points": [
+          "대상 도구는 커서, 클로드 코드 등 에이전틱 IDE",
+          "제로 디펜던시 bash·파워셸 훅으로 명령 실행을 기록",
+          "에이전트 로그 접근자를 제한하고 메타데이터 중심으로 수집해 프라이버시 보호",
+          "위협 헌팅을 위한 예시 ESQL 쿼리도 함께 제공"
+        ],
+        "why": [
+          "AI 코딩 에이전트가 실제 셸 명령을 실행하는 환경에서는 사람 개발자와 동일한 수준의 감사 체계가 필요함",
+          "메타데이터 중심 수집은 감사 가능성과 프라이버시 사이의 실용적 절충안을 제시함"
+        ],
+        "action": "에이전틱 IDE를 도입한 조직은 명령 실행 로그를 수집하고 접근 권한을 최소화한 감사 체계를 구축할 것."
+      }
+    },
+    {
+      "id": "infosec-claude-mythos-5-defenders",
+      "title": "앤트로픽, 클로드 미토스 5 보안 역량을 더 많은 방어자에게 확대",
+      "summary": "앤트로픽이 엔터프라이즈 보안 스캐닝을 클로드 미토스 5로 업그레이드하고 3500만 달러 규모 디펜더 어드밴티지 펀드를 발표했다.",
+      "source": "Anthropic",
+      "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "프론티어 모델의 보안 역량이 원시 출력이 아닌 실전 가공된 형태로 방어자에게 전달된다.",
+        "what": "앤트로픽이 엔터프라이즈 클로드 시큐리티 스캐닝 도구를 프론티어 모델인 클로드 미토스 5로 업그레이드했다. 방어자는 CWE 카테고리, 신뢰도 점수, 심각도 등급이 태깅된 실행 가능한 취약점 발견 결과를 받게 되며, 원시 모델 출력을 그대로 받는 방식이 아니다.",
+        "points": [
+          "스캐닝 결과에 CWE 카테고리, 신뢰도 점수, 심각도 등급을 태깅해 제공",
+          "오픈소스 패치 지원을 위한 3500만 달러 규모 디펜더 어드밴티지 펀드 신설",
+          "사이버 검증 프로그램을 확대해 검증된 연구자에게 제약이 적은 미토스급 기능 접근 권한 부여"
+        ],
+        "why": [
+          "AI 보안 도구가 원시 모델 출력 대신 구조화된 실행 가능 정보를 제공하는 방향으로 성숙하고 있음",
+          "펀드와 연구자 접근 확대는 오픈소스 생태계 방어력 강화에 실질적으로 기여할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-detection-skills-github",
+      "title": "Detection Skills, 에이전틱 SOC를 위한 오픈 표준 공개",
+      "summary": "정적 탐지 규칙을 에이전틱 워크플로로 전환하는 오픈 표준 'Detection Skills'가 깃허브에 공개됐다.",
+      "source": "GitHub",
+      "url": "https://github.com/CDESpace/Detection-Skills?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "정적 탐지 규칙이 에이전트가 실행할 수 있는 워크플로로 재구성된다.",
+        "what": "'Detection Skills'는 기존의 정적 위협 탐지 규칙을 에이전틱 SOC 워크플로로 전환하기 위한 오픈 표준을 제시하는 깃허브 프로젝트다.",
+        "points": [
+          "목표는 에이전틱 SOC(보안운영센터)를 위한 오픈 표준 정립",
+          "정적 탐지 규칙을 실행 가능한 에이전트 워크플로로 변환"
+        ],
+        "why": [
+          "SOC 자동화가 정적 규칙 기반에서 에이전트 기반으로 전환되는 흐름을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "infosec-pentestkit-github",
+      "title": "PentestKit, 클로드 에이전트 SDK 기반 멀티 에이전트 침투테스트 프레임워크",
+      "summary": "여러 에이전트가 맥락을 공유하며 협업하는 침투테스트 프레임워크 'PentestKit'이 깃허브에 공개됐다.",
+      "source": "GitHub",
+      "url": "https://github.com/lordx64/pentestkit?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "침투테스트도 여러 에이전트가 맥락을 축적하며 협업하는 방식으로 진화한다.",
+        "what": "'PentestKit'은 클로드 에이전트 SDK 위에 구축된 멀티 에이전트 침투테스트 프레임워크로, 여러 에이전트가 조사 맥락을 축적해가며 공유하는 구조다.",
+        "points": [
+          "클로드 에이전트 SDK 기반으로 구축",
+          "멀티 에이전트 구조로 맥락을 축적하며 협업"
+        ],
+        "why": [
+          "AI 에이전트 프레임워크가 침투테스트 같은 전문 보안 업무 영역까지 확장되고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "infosec-jvm-security-subjects",
+      "title": "JVM에 내장된 보안, 원격 호출 전반의 신원 전파 다루는 시리즈 4편",
+      "summary": "DirtyChai JVM 포크가 Subject 수와 principal 수를 제한하고 엄격한 허용목록으로 DoS 공격을 완화하는 방식을 다룬다.",
+      "source": "blog.frankel.ch",
+      "url": "https://blog.frankel.ch/security-baked-into-jvm/4/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "원격 호출 신원 전파는 편의성과 DoS 방어 사이의 세밀한 균형이 필요하다.",
+        "what": "JGDMS 보안 시리즈 4편은 DirtyChai JVM 포크가 원격 호출 전반에 걸쳐 사용자 신원을 안전하게 전파하는 방식을 다룬다. DoS 공격을 완화하기 위해 요청당 Subject 수와 Subject당 principal 수를 제한하며, 수신 측은 호출자가 주장하는 principal 클래스를 무분별하게 인스턴스화하지 않고 엄격한 4종 허용목록을 적용한다.",
+        "points": [
+          "DoS 완화를 위해 요청당 최대 16개 Subject, Subject당 최대 64개 principal로 제한",
+          "수신 측은 4종 타입 허용목록만 적용하고 미인식 입력은 불활성 플레이스홀더로 처리",
+          "SubjectAwareExecutor 래퍼가 가상 스레드 경계를 넘어 호출자 신원을 보존",
+          "분산 트랜잭션은 모든 참여자가 개별적으로 커밋 권한을 보유해야 최종 확정됨"
+        ],
+        "why": [
+          "원격 호출 신원 전파 설계가 부실하면 DoS 공격이나 권한 상승으로 이어질 수 있음",
+          "허용목록 기반 역직렬화 방어는 임의 클래스 인스턴스화 취약점을 원천 차단하는 실용적 패턴임"
+        ]
+      }
+    },
+    {
+      "id": "infosec-leaked-aws-keys",
+      "title": "유출된 AWS 액세스 키 수백 개, 기업 계정 전체 장악 가능성",
+      "summary": "Truffle Security가 4년간 추적한 결과 활성 상태인 AWS 키 9300개 중 817개가 기업과 연관됐고 그중 526개는 루트 키였다.",
+      "source": "Truffle Security",
+      "url": "https://links.tldrnewsletter.com/pDWK0B",
+      "report": {
+        "tldr": "루트 키 하나의 유출이 곧 계정 전체의 완전 장악으로 직결된다.",
+        "what": "Truffle Security가 4년에 걸쳐 AWS 액세스 키 노출 현황을 추적한 결과 9300개의 키가 여전히 활성 상태로 발견·추적되고 있다고 밝혔다. 이 중 817개가 특정 기업과 연관됐으며, 그중 526개는 가장 위험한 루트 키였다. 테스트는 읽기 전용 메타데이터 조회로 제한됐고 영향받은 고객에게는 통지가 이루어졌다.",
+        "points": [
+          "추적된 활성 AWS 키 총 9300개",
+          "그중 817개가 기업과 연관된 것으로 확인",
+          "817개 중 526개는 최고 권한인 루트 키",
+          "테스트는 읽기 전용 메타데이터 조회로 제한, 영향받은 고객에게 통지 완료"
+        ],
+        "why": [
+          "루트 키 유출은 IAM 사용자 키와 달리 계정 전체에 대한 무제한 권한을 노출시킴",
+          "4년간 반복적으로 유출이 발견된다는 것은 키 관리 관행이 여전히 취약함을 시사함"
+        ],
+        "action": "코드 저장소·CI 로그·공개 문서에 남아있는 AWS 액세스 키를 점검해 즉시 순환(rotate)하고, 특히 루트 계정 키는 발급을 중단하고 IAM 역할 기반 접근으로 전환할 것."
+      }
+    },
+    {
+      "id": "infosec-ai-cybersecurity-policy",
+      "title": "\"일관된 국가 AI 사이버보안 정책이 시급하다\"",
+      "summary": "현행 국가 AI 사이버보안 정책이 공격자 관점 위험 측정에 치우쳐 방어적 활용 가치를 간과하고 있다는 지적이 나왔다.",
+      "source": "Joshua Saxe (Substack)",
+      "url": "https://joshuasaxe181906.substack.com/p/we-urgently-need-a-coherent-national?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 사이버보안 정책이 공격 능력 측정에만 몰두하며 방어적 가치를 놓치고 있다.",
+        "what": "현재의 국가 AI 사이버보안 정책은 이중 용도 능력을 측정하는 데 초점을 맞추면서 AI가 공격자에게 유리하다는 편향된 전제를 갖고 있으며, AI 기반 코드 수정이나 피싱 방어 같은 방어적 활용 사례는 상대적으로 소홀히 다룬다는 문제 제기다. 대안으로 평가와 실제 사용 데이터를 결합한 'AI 사이버보안 관측소' 설립이 제안됐다.",
+        "points": [
+          "현행 정책은 이중 용도 능력 측정과 공격 편향적 리스크 평가에 치우침",
+          "AI 코드 수정, 피싱 방어 등 방어적 활용 사례는 정책 논의에서 상대적으로 소외됨",
+          "대안으로 평가와 실사용 데이터를 결합한 'AI 사이버보안 관측소' 설립을 제안"
+        ],
+        "why": [
+          "정책이 공격 능력에만 초점을 맞추면 방어 역량 투자와 규제 균형이 왜곡될 수 있음",
+          "실사용 데이터 기반 관측 체계는 이론적 능력 평가보다 현실적인 정책 근거를 제공할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-microsoft-perfect-10-exploit",
+      "title": "마이크로소프트, 원격코드실행 가능한 '퍼펙트 10' 취약점 패치",
+      "summary": "마이크로소프트가 Entra ID의 심각한 역직렬화 취약점 CVE-2026-69836을 패치했으며 공개 전 실제 악용 정황은 없었다.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/376287/microsoft-perfect-10-exploit-hackers-run-code?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "인증도 상호작용도 필요 없는 최고 등급 취약점이 조용히 패치됐다.",
+        "what": "마이크로소프트가 Entra ID에서 인증 없이도 원격코드실행이 가능한 심각한 역직렬화 취약점 CVE-2026-69836을 패치했다. 이 취약점은 사용자 상호작용 없이도 악용 가능해 CVSS 만점(퍼펙트 10)에 해당하는 것으로 평가됐으며, 공개 이전에 실제 악용된 정황은 확인되지 않았다.",
+        "points": [
+          "취약점 식별번호는 CVE-2026-69836",
+          "대상은 Entra ID의 역직렬화 처리 로직",
+          "인증 없이, 사용자 상호작용 없이 원격코드실행이 가능한 최고 심각도(CVSS 10)",
+          "공개 전 실제 악용(in-the-wild) 정황은 확인되지 않음"
+        ],
+        "why": [
+          "Entra ID는 다수 기업의 아이덴티티 인프라 핵심이라 악용 시 파급력이 매우 큼",
+          "패치가 공개 전에 이루어져 대규모 악용을 사전에 차단한 사례임"
+        ],
+        "action": "Entra ID 관련 마이크로소프트 8월 보안 패치를 즉시 적용하고 CVE-2026-69836 관련 침해 지표(IOC)를 점검할 것."
+      }
+    },
+    {
+      "id": "infosec-tiktok-400m-settlement",
+      "title": "틱톡·바이트댄스, 아동 개인정보보호 위반 혐의로 4억 달러 합의",
+      "summary": "미 법무부가 13세 미만 아동 계정 허용 및 부모 동의 없는 데이터 수집 혐의로 틱톡·바이트댄스와 4억 달러 합의를 이끌어냈다.",
+      "source": "DOJ",
+      "url": "https://www.justice.gov/opa/pr/justice-department-secures-400m-settlement-tiktok-and-bytedance-resolve-childrens-privacy?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "아동 개인정보 보호 위반의 대가가 4억 달러 규모로 확정됐다.",
+        "what": "미국 법무부가 틱톡과 바이트댄스를 상대로 제기한 아동 개인정보보호 위반 혐의에 대해 4억 달러 규모의 합의를 이끌어냈다. 법무부는 이 플랫폼이 13세 미만 아동의 계정 개설을 허용하고 부모 동의 없이 이들의 데이터를 수집했다고 주장했다.",
+        "points": [
+          "합의 금액은 4억 달러",
+          "혐의는 13세 미만 아동 계정 허용 및 부모 동의 없는 데이터 수집",
+          "제기 주체는 미국 법무부(DOJ)"
+        ],
+        "why": [
+          "아동 개인정보보호법(COPPA) 집행이 대형 플랫폼에도 실질적인 재정적 제재로 이어지고 있음을 보여줌"
+        ]
+      }
+    }
+  ]
+}
