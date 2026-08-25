@@ -1,0 +1,214 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-ecommerce-double-digit-growth",
+      "title": "미국 이커머스, 두 자릿수 성장세 복귀",
+      "summary": "2분기 매출이 전년 대비 12.2% 늘어난 3402억 달러를 기록했다.",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/double-digit-ecommerce-growth-returns?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "미국 이커머스 매출이 2026년 2분기 전년 대비 12.2% 늘어난 3402억 달러를 기록하며 2분기 연속 두 자릿수 성장을 이어갔다.",
+        "what": "전체 소매 성장률(6.7%)을 크게 앞질렀고, 이커머스는 이제 전체 소매 매출의 17.1%를 차지한다. 카테고리별로는 일반 상품이 21.6% 성장한 반면 의류는 3.8% 성장에 그쳤다. 인플레이션과 아마존의 이른 프라임데이가 2분기 수치를 밀어올렸을 가능성도 있다.",
+        "points": [
+          "2분기 이커머스 매출은 전년 대비 12.2% 증가했다.",
+          "이커머스가 전체 소매의 17.1%를 차지한다.",
+          "일반 상품은 21.6% 성장, 의류는 3.8% 성장에 그쳤다."
+        ],
+        "why": [
+          "카테고리별 성장 격차가 커, 브랜드별 맞춤 전략이 더 중요해지고 있다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-martech-consolidation-era",
+      "title": "\"1만5000개 마테크 랜드스케이프\" 시대는 끝나가는가",
+      "summary": "AI가 단일 목적 툴을 통합하면서 스택 축소가 진행 중이다.",
+      "source": "MarTech Series",
+      "url": "https://martechseries.com/mts-insights/staff-writers/martech-consolidation-is-the-era-of-the-15000-plus-marketing-technology-landscape-coming-to-an-end/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "마테크 스택 통합은 애플리케이션 수를 줄이는 것보다, 각 툴이 더 큰 플랫폼이 제공하지 못하는 고유한 가치를 주는지 따지는 문제에 가깝다.",
+        "what": "AI가 한때 별도 시스템이 필요했던 기능들을 결합하며 많은 단일목적 툴을 대체하고 있다. 다만 과도한 통합은 벤더 락인과 특화 기능 상실의 위험을 낳는다. 예상되는 결과는 공유 플랫폼 중심의 작은 핵심 스택에, 명확한 가치를 제공하는 특화 툴만 남는 형태다.",
+        "points": [
+          "AI가 단일목적 마테크 툴을 대체하는 흐름을 만들고 있다.",
+          "과도한 통합은 벤더 락인 위험을 동반한다.",
+          "핵심 플랫폼 + 소수 특화 툴 구조로 수렴할 전망이다."
+        ],
+        "why": [
+          "마케팅 조직의 툴 스택 재정비 시점을 가늠하는 데 참고할 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-creator-partnership-test-duration",
+      "title": "크리에이터 파트너십, 얼마나 길게 테스트해야 할까 — 전문가 28인의 답",
+      "summary": "단발성 포스트는 파트너십이 아니라 콘텐츠 성과만 측정할 뿐이다.",
+      "source": "NetInfluencer",
+      "url": "https://www.netinfluencer.com/how-long-should-brands-test-a-creator-partnership-28-creator-economy-experts-weigh-in/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "브랜드는 크리에이터 파트너십을 넓게 테스트한 뒤, 반복 가능성을 입증할 수 있도록 3~6개월 또는 최소 세 차례의 활동 기간을 줘야 한다.",
+        "what": "짧은 어트리뷰션 기간은 전환을 40~60%까지 과소 집계할 수 있다. 평가 기준을 목표와 판매 주기에 맞추고, 브랜드 적합성과 장기 잠재력을 보여주는 크리에이터에게 예산을 옮겨가야 한다.",
+        "points": [
+          "단발성 포스트는 콘텐츠 성과만 측정할 뿐 파트너십을 측정하지 못한다.",
+          "3~6개월 또는 최소 세 차례 활동으로 평가해야 한다.",
+          "짧은 어트리뷰션 기간은 전환을 40~60% 과소 집계할 수 있다."
+        ],
+        "why": [
+          "크리에이터 마케팅 예산 배분과 성과 평가 방식립을 다시 점검할 필요가 있다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-best-customers-not-most-engaged",
+      "title": "\"가장 참여도 높은 고객이 최고의 고객은 아니다\"",
+      "summary": "제품마다 '건강한 사용 패턴'의 정의가 달라야 한다.",
+      "source": "scalingcrm.substack.com",
+      "url": "https://scalingcrm.substack.com/p/your-best-customers-may-not-be-your?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "참여도가 높다고 해서 항상 더 큰 가치를 의미하지는 않으며, 올바른 라이프사이클 전략은 각 제품에 맞는 '건강한 사용'의 정의를 세우는 데서 시작한다.",
+        "what": "데이팅 앱은 사용자가 떠날 때 성공했다고 볼 수 있는 반면, 유틸리티 제품은 월 1회 사용만으로도 충분할 수 있다. 고객의 답장은 클릭·오픈이 놓치는 의도를 드러낼 수 있으며, 자동화로 캠페인을 더 쉽게 만들고 발송할 수 있게 되면서 팀에는 더 강력한 QA와 가드레일이 필요해지고 있다.",
+        "points": [
+          "제품마다 '건강한 사용'의 정의가 다르다.",
+          "고객 답장이 클릭·오픈보다 의도를 더 잘 드러낼 수 있다.",
+          "자동화 확산으로 QA·가드레일의 중요성이 커진다."
+        ],
+        "why": [
+          "참여도 지표만으로 고객 가치를 판단하면 잘못된 결론에 이를 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-meta-ai-first-ad-buying",
+      "title": "메타의 'AI 퍼스트' 광고 구매, 유료 소셜 팀의 운영 모델을 바꾼다",
+      "summary": "수동 캠페인 최적화 대신 시스템에 넣는 '입력값' 관리로 역할이 이동한다.",
+      "source": "MarketScale",
+      "url": "https://www.marketscale.com/industries/marketing-tech/metas-ai-first-ad-buying-is-forcing-a-new-operating-model-for-paid-social-teams/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "메타의 AI 퍼스트 광고 구매 방식은 수동 캠페인 최적화의 필요성을 줄이고, 유료 소셜 팀을 시스템에 넣는 입력값을 관리하는 역할로 전환시키고 있다.",
+        "what": "메타가 캠페인을 어떻게 최적화하는지를 좌우하기 때문에 정확한 전환 신호가 중요해진다. 타겟팅이 자동화되면서 크리에이티브 제작이 더 큰 성과 레버가 되며, 팀들은 캠페인 의사결정 대부분이 사람 손을 벗어나는 상황에 맞춰 워크플로와 거버넌스를 재설계해야 한다.",
+        "points": [
+          "정확한 전환 신호 관리가 성과를 좌우하게 됐다.",
+          "크리에이티브 제작이 더 중요한 성과 레버가 된다.",
+          "팀은 워크플로와 거버넌스를 재설계해야 한다."
+        ],
+        "why": [
+          "광고 자동화가 심화될수록 마케터의 역할이 '집행'에서 '입력값 설계'로 이동한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-saas-data-moats",
+      "title": "SaaS 데이터 모트: 2026년 가장 강력한 경쟁 우위",
+      "summary": "AI가 기능 복제를 쉽게 만들면서 독점적 데이터가 더 강한 해자가 되고 있다.",
+      "source": "SaaSmag",
+      "url": "https://www.saasmag.com/saas-data-moats-proprietary-competitive-advantage/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI가 소프트웨어 기능 복제를 쉽게 만들면서, 독점적 데이터가 더 강력한 경쟁 해자로 부상하고 있다.",
+        "what": "우위는 고유하면서도 고객 상호작용마다 제품을 개선시키는 데이터에서 나온다. 데이터 플라이휠은 사용량이 늘수록 더 나은 인사이트를 만들어 우위를 복리로 키울 수 있지만, 충분한 규모와 강력한 거버넌스가 뒷받침돼야만 해자가 되며 그렇지 않으면 오히려 값비싼 부채가 될 수 있다.",
+        "points": [
+          "독점적 데이터가 AI 시대의 새로운 경쟁 해자다.",
+          "데이터 플라이휠은 사용량 증가에 따라 우위를 복리화한다.",
+          "규모와 거버넌스가 부족하면 해자가 아닌 부채가 될 수 있다."
+        ],
+        "why": [
+          "제품 기능만으로는 방어 가능한 우위를 만들기 어려운 시대의 전략적 시사점을 준다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-served-vs-seen",
+      "title": "'서브드'와 '신': 당신의 브랜드는 어느 쪽인가",
+      "summary": "노출됐다고 해서 실제로 보이거나 기억된 것은 아니다.",
+      "source": "LBBOnline",
+      "url": "https://lbbonline.com/news/The-Efficiency-Trap-Jon-Reeves-VaynerMedia?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "브랜드들이 사업 성장은 둔화되는데도 노출량과 미디어 효율만 최적화하고 있다는 지적이다.",
+        "what": "광고가 서빙됐다고 해서 실제로 보이거나 기억됐다는 뜻은 아니다. 유료 미디어에 투자하기 전, 소셜 플랫폼에서 오가닉하게 크리에이티브를 테스트한 뒤 이미 관심을 끈 콘텐츠에 예산을 실어야 한다.",
+        "points": [
+          "노출량 최적화가 실제 기억·인지로 이어지지 않을 수 있다.",
+          "유료 집행 전 오가닉 테스트로 크리에이티브를 검증해야 한다."
+        ],
+        "why": [
+          "미디어 효율 지표에만 의존하면 실제 브랜드 임팩트를 놓칠 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-token-lunch-is-over",
+      "title": "\"마케터들, 공짜 토큰 시대는 끝났다\" — AI 비용 관리 전략 필요",
+      "summary": "가장 큰 모델이 항상 가장 경제적인 선택은 아니다.",
+      "source": "AdExchanger",
+      "url": "https://www.adexchanger.com/data-driven-thinking/marketers-the-free-token-lunch-is-over-is-your-stack-ready/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "모델이 추론에 더 많은 토큰을 쓰고 기업들이 더 많은 작업에 AI를 배치하면서 AI 비용 구조가 바뀌고 있다.",
+        "what": "단순한 결정에는 저렴한 모델을, 복잡한 문제에는 고비용 추론 모델을 써야 한다. 핵심 지표는 토큰 가격에서 '정답을 얻는 비용'으로 옮겨가고 있으며, AI 스택은 모든 작업에 하나의 모델을 쓰는 대신 작업별로 적합한 모델을 매칭해야 한다.",
+        "points": [
+          "가장 큰 모델이 항상 가장 경제적이지는 않다.",
+          "핵심 지표가 토큰 가격에서 '정답 비용'으로 이동하고 있다.",
+          "작업별로 모델을 매칭하는 전략이 필요하다."
+        ],
+        "why": [
+          "AI 도입이 확산되며 마케팅 조직도 AI 비용 최적화 전략을 갖춰야 하는 단계에 왔다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-quick-response-thanks",
+      "title": "\"빠른 답변 감사합니다\": 신속함이 만드는 브랜드 차별화",
+      "summary": "빠른 응답은 세심함을 보여주며 가격 외 요소로 브랜드를 돋보이게 한다.",
+      "source": "Seth's Blog",
+      "url": "https://seths.blog/2026/08/thanks-for-your-quick-response/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "빠른 응답은 세심함을 보여주며, 가격 경쟁을 넘어 브랜드를 돋보이게 하는 요소가 된다.",
+        "what": "고객 커뮤니케이션의 속도 자체가 브랜드 신뢰를 쌓는 작은 그러나 강력한 신호가 될 수 있다는 점을 짚는다.",
+        "points": [
+          "빠른 응답이 세심함의 신호로 인식된다.",
+          "가격 외 요소로 브랜드 차별화에 기여한다."
+        ],
+        "why": [
+          "고객 서비스 속도가 브랜드 인지에 미치는 영향을 다시 생각하게 한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-cookie-rejection-not-invisible",
+      "title": "쿠키 거부 ≠ 보이지 않는 사용자: GA4 컨센트 모드 활용법",
+      "summary": "고급 컨센트 모드와 구글 시그널을 켜면 거부 사용자의 행동도 모델링할 수 있다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/chloe-christine-allerton_cookies-ga4-ugcPost-7497363613255639040-OFri/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "GA4에서 고급 컨센트 모드와 구글 시그널을 활성화하면, 쿠키를 거부한 사용자의 행동도 동의한 사용자의 패턴을 기반으로 모델링할 수 있다.",
+        "what": "쿠키 거부가 곧 데이터 손실을 의미하지 않는다는 점을 실무적으로 짚는다.",
+        "points": [
+          "고급 컨센트 모드로 거부 사용자 행동을 모델링할 수 있다.",
+          "구글 시그널 활성화가 함께 필요하다."
+        ],
+        "why": [
+          "프라이버시 규제 강화 속에서도 측정 정확도를 유지할 수 있는 실무 팁이다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-jack-in-the-box-collectibles",
+      "title": "잭인더박스의 '컬렉터블' 전략 속내",
+      "summary": "수집형 굿즈가 퀵서비스 브랜드의 독자적인 고객 획득 채널이 되고 있다.",
+      "source": "Marketing Brew",
+      "url": "https://www.marketingbrew.com/stories/jack-in-the-box-collectibles-brand-strategy?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "수집형 굿즈가 퀵서비스 레스토랑 브랜드에게 독자적인 고객 획득 채널로 자리잡고 있다.",
+        "what": "잭인더박스의 컬렉터블 전략 사례를 통해 굿즈가 단순 프로모션을 넘어 브랜드 참여를 이끄는 방식을 살펴본다.",
+        "points": [
+          "컬렉터블이 별도의 고객 획득 채널로 기능한다.",
+          "퀵서비스 브랜드들이 이 전략을 확대하고 있다."
+        ],
+        "why": [
+          "전통적 프로모션 대신 소장 욕구를 자극하는 마케팅이 주목받고 있다."
+        ]
+      }
+    }
+  ]
+}

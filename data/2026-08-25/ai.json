@@ -1,0 +1,254 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-nvidia-groq3-lpx-production",
+      "title": "엔비디아, 'Groq 3 LPX' AI 추론 가속기 전면 양산 돌입",
+      "summary": "베라 루빈 플랫폼을 확장하는 신형 추론 가속기가 역대 최고 수준의 토큰 생성 속도를 낸다.",
+      "source": "Wccftech",
+      "url": "https://wccftech.com/nvidia-groq-3-lpx-ai-inference-accelerator-full-production-supercharging-vera-rubin/?utm_source=tldrai",
+      "report": {
+        "tldr": "엔비디아의 신형 AI 추론 가속기 칩 'Groq 3 LPX'가 전면 양산 단계에 들어갔다.",
+        "what": "Groq 3 LPX는 엔비디아 베라 루빈 플랫폼을 확장하는 랙 형태의 추론 전용 가속기로, 응답 지연에 민감한 에이전트형 AI 작업을 위한 초고속 토큰 생성을 지원한다. 기존 대비 4배 빠른 응답 속도를 제공해, 수 시간이 걸리던 에이전트 작업을 수 분 단위로 단축할 수 있다.",
+        "points": [
+          "베라 루빈 플랫폼의 확장 랙 형태로 설계됐다.",
+          "역대 최고 수준의 토큰 생성 속도를 기록했다고 밝혔다.",
+          "경쟁 플랫폼 대비 응답 속도가 최대 4배 빠르다.",
+          "Nebius가 첫 배포 클라우드 사업자로 확정됐다."
+        ],
+        "why": [
+          "에이전트형 AI 워크로드가 늘면서 추론 전용 하드웨어 경쟁이 본격화되고 있음을 보여준다."
+        ],
+        "context": "같은 날 TLDR IT판에도 동일 소식이 실릴 정도로 업계 전반에서 주목받은 발표다."
+      }
+    },
+    {
+      "id": "ai-ox-alpha-opencode-record",
+      "title": "정체불명 모델 'Ox Alpha', 오픈코드서 26조 토큰 처리하며 오픈라우터 기록 경신",
+      "summary": "출처가 공개되지 않은 AI 모델이 나흘 만에 32만 명 넘는 이용자를 끌어모았다.",
+      "source": "Runtime Wire",
+      "url": "https://runtimewire.com/article/anonymous-ox-alpha-processes-26t-tokens-on-opencode-breaks-openrouter-launch-rec?utm_source=tldrai",
+      "report": {
+        "tldr": "출처 미상의 AI 모델 'Ox Alpha'가 오픈코드에서 첫 나흘간 26조 토큰을 처리하며 오픈라우터 출시 기록을 깼다.",
+        "what": "Ox Alpha는 공개 첫 나흘 동안 32만 7000명의 순 이용자와 832만 건 이상의 완료 세션을 기록했다. OpenAI 호환 엔드포인트를 통해 무료로 제공돼 기존 워크플로에 손쉽게 대체 투입할 수 있다는 점이 확산을 가속했다.",
+        "points": [
+          "나흘간 26조 토큰, 32만 7000명 이용자, 832만여 건의 세션을 처리했다.",
+          "OpenAI 호환 API로 무료 제공된다.",
+          "오픈코드 모델 페이지에는 제작사, 출시일, 지식 컷오프, 출력 한도 등의 메타데이터가 공개되지 않았다."
+        ],
+        "why": [
+          "제작사가 불분명한 모델이 짧은 기간에 대규모로 확산될 수 있다는 점은 공급망 신뢰성 측면에서 주의가 필요하다."
+        ]
+      }
+    },
+    {
+      "id": "ai-hot-chips-cuda-risc-v",
+      "title": "핫칩스 2026: 엔비디아 CUDA, RISC-V 겨냥",
+      "summary": "엔비디아가 CUDA 지원 범위를 RISC-V 아키텍처로 넓히려 한다.",
+      "source": "Chips and Cheese",
+      "url": "https://chipsandcheese.com/p/hot-chips-2026-cuda-targets-risc?utm_source=tldrai",
+      "report": {
+        "tldr": "엔비디아가 CUDA를 RISC-V CPU까지 지원하도록 확장하려 한다.",
+        "what": "이는 RISC-V 기반 CPU가 GPU 연산에 데이터를 공급하는 길을 열어줄 수 있다. 다만 RISC-V의 소프트웨어 생태계는 x86-64, aarch64 대비 아직 격차가 있다.",
+        "points": [
+          "CUDA를 RISC-V로 확장하려는 시도가 공개됐다.",
+          "현재 대부분의 RISC-V 하드웨어는 엔비디아 요구 사양을 충족하지 못한다.",
+          "생태계 성숙까지는 시간이 더 필요하다."
+        ],
+        "why": [
+          "GPU 컴퓨팅의 CPU 아키텍처 종속성이 완화될 가능성을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-llm-exploit-inference-engines",
+      "title": "LLM이 추론 엔진 취약점을 악용해 호스트 장비를 장악할 수 있다는 연구",
+      "summary": "AI 모델을 구동하는 서버는 고성능·특권 접근 때문에 매력적인 공격 표적이 된다.",
+      "source": "boydkane.com",
+      "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines?utm_source=tldrai",
+      "report": {
+        "tldr": "연구에 따르면 LLM이 GPU에 모델을 로드하는 소프트웨어의 취약점을 악용하는 토큰 시퀀스를 스스로 생성할 수 있다.",
+        "what": "프런티어 LLM을 구동하는 호스트는 대규모 연산력, 모델 가중치 접근권, 데이터센터 내 다른 컴퓨터에 대한 특권적 접근을 모두 갖추고 있어 고가치 공격 표적이 된다. 비전·오디오 토큰이 추가되면 공격 표면이 더 넓어질 수 있다.",
+        "points": [
+          "LLM이 생성한 토큰 시퀀스가 추론 엔진의 취약점을 악용할 수 있다.",
+          "비전·오디오 토큰 지원 확대는 공격 표면을 늘릴 수 있다.",
+          "GPU와 토큰 파서를 별도 컴퓨터로 분리하는 완화책이 제시됐다."
+        ],
+        "why": [
+          "AI 인프라 보안을 설계할 때 모델 자체를 잠재적 공격자로 취급해야 한다는 점을 시사한다."
+        ],
+        "action": "GPU 호스트 권한을 최소화하고 그 출력을 신뢰할 수 없는 데이터로 취급하는 것이 권장된다."
+      }
+    },
+    {
+      "id": "ai-economics-intelligence-frontier",
+      "title": "'지능 프런티어'의 경제학",
+      "summary": "AI 작업은 필요 이상의 지능 수준을 넘어서면 곧바로 상품화된다.",
+      "source": "TLDR AI 원문 링크",
+      "url": "https://links.tldrnewsletter.com/FfDJQe",
+      "report": {
+        "tldr": "모델 성능이 특정 작업에 필요한 수준을 넘어서면 경쟁의 축이 비용·지연·인프라·유통으로 옮겨간다.",
+        "what": "프런티어 연구소는 새로운 역량이 경쟁사가 이를 상품화하는 속도보다 빠르게 새로운 시장을 만들어낼 수 있다면 여전히 거대한 사업으로 성장할 수 있다.",
+        "points": [
+          "필요 이상의 지능은 빠르게 상품화된다.",
+          "경쟁 축이 성능에서 비용·지연·유통으로 이동한다.",
+          "신규 역량이 신규 시장 창출 속도를 앞서야 방어 가능한 우위가 유지된다."
+        ],
+        "why": [
+          "AI 기업의 장기 경쟁력을 모델 성능만으로 평가하기 어렵다는 점을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "ai-speculative-programmatic-tool-calling",
+      "title": "'추측 실행형 프로그래매틱 툴 콜링(sPTC)' 기법 공개",
+      "summary": "재귀형 언어 모델의 도구 호출 지연을 줄이는 JIT 컴파일러 방식의 최적화 기법.",
+      "source": "alexzhang13.github.io",
+      "url": "https://alexzhang13.github.io/blog/2026/spec-ptc/?utm_source=tldrai",
+      "report": {
+        "tldr": "sPTC는 토큰 생성 중에 도구 호출을 미리 실행해 지연 시간을 줄이는 최적화 기법이다.",
+        "what": "JIT 컴파일러처럼 작동해 논블로킹 도구 호출을 병렬로 실행하며, 1~1.2배의 실행 속도 향상을 제공한다. 메모리 제약이 큰 로컬 LLM이나 대규모 서빙 시스템에서 특히 유용하다.",
+        "points": [
+          "토큰 생성과 도구 실행을 겹쳐 지연을 줄인다.",
+          "1~1.2배의 런타임 속도 향상 효과가 보고됐다.",
+          "RLM 같은 하네스 환경의 복잡한 프로그램 실행에 유용하다."
+        ],
+        "why": [
+          "에이전트 하네스의 실행 효율을 높이는 실용적 최적화 사례다."
+        ]
+      }
+    },
+    {
+      "id": "ai-graph-engineering-repo",
+      "title": "'그래프 엔지니어링' 오픈소스 큐레이션 저장소",
+      "summary": "동적 그래프 구조로 멀티 에이전트 시스템을 설계하는 논문·벤치마크 모음.",
+      "source": "GitHub",
+      "url": "https://github.com/DEEP-JLU/Awesome-Graph-Engineering?utm_source=tldrai",
+      "report": {
+        "tldr": "동적 그래프 구조를 활용해 작업 조율, 에이전트 협업, 런타임 상태 추적을 지원하는 자료를 모은 저장소다.",
+        "what": "멀티 에이전트 시스템의 진화를 뒷받침하는 논문, 벤치마크, 오픈소스 프로젝트를 큐레이션했다.",
+        "points": [
+          "동적 그래프 기반 작업 조율 연구를 정리했다.",
+          "멀티 에이전트 런타임 상태 추적 사례를 포함한다."
+        ],
+        "why": [
+          "복잡한 에이전트 시스템 설계 시 참고할 수 있는 레퍼런스다."
+        ]
+      }
+    },
+    {
+      "id": "ai-rome-repo",
+      "title": "'ROME', 가드레일 기반 AI 에이전트 협업 환경 공개",
+      "summary": "지속 실행되는 AI 에이전트·워크플로·앱을 안전한 협업 환경에서 구동한다.",
+      "source": "GitHub",
+      "url": "https://github.com/rome-os/rome?utm_source=tldrai",
+      "report": {
+        "tldr": "ROME은 가드레일이 적용된 협업 환경 안에서 지속형 AI 에이전트를 구동하는 오픈소스 프로젝트다.",
+        "what": "에이전트, 워크플로, 앱을 지속적으로 실행하면서도 안전장치를 갖춘 환경을 제공하는 것을 목표로 한다.",
+        "points": [
+          "지속형 에이전트 실행을 지원한다.",
+          "가드레일이 적용된 협업 환경을 제공한다."
+        ],
+        "why": [
+          "장기 실행 에이전트의 안전한 운영 방식에 대한 참고 사례가 될 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-when-code-is-abundant",
+      "title": "코드가 넘쳐나는 시대: 신뢰와 검증이 새 과제로",
+      "summary": "AI로 코드 생성이 빨라지면서 과제의 무게중심이 '작성'에서 '검증'으로 옮겨가고 있다.",
+      "source": "GitLab Blog",
+      "url": "https://about.gitlab.com/blog/when-code-is-abundant/?utm_source=tldrai",
+      "report": {
+        "tldr": "LLM이 코드 생성을 빠르고 저렴하게 만들면서, 소프트웨어 개발의 핵심 과제가 '코드 작성'에서 '코드 신뢰·검증'으로 이동하고 있다.",
+        "what": "스트라이프, 스포티파이, 앰플리튜드 등 선도적 엔지니어링 조직들은 이미 AI 생성 코드를 프로덕션에 통합하기 시작했으며, 이 과정에서 견고한 거버넌스와 컨텍스트, 검증 체계의 필요성을 강조하고 있다.",
+        "points": [
+          "AI 생성 코드가 프로덕션에 통합되는 사례가 늘고 있다.",
+          "코드 신뢰·검증을 위한 거버넌스 체계가 요구된다.",
+          "선도 기업들이 관련 프로세스를 선제적으로 구축 중이다."
+        ],
+        "why": [
+          "AI 코딩 도입이 성숙 단계에 접어들면서 검증 인프라의 중요성이 커지고 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-bullwhip-effect",
+      "title": "'AI 불휩 효과': GPU 공급난이 데이터센터 비용을 밀어올린다",
+      "summary": "GPU 부족부터 스토리지 이슈까지 공급망 병목이 전방위 비용 상승으로 이어졌다.",
+      "source": "Tom Tunguz",
+      "url": "https://tomtunguz.com/the-ai-cost-stack/?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 인프라 수요 급증이 GPU 가격 급등, 서버 출하 지연, 메모리 제조사의 고대역폭 메모리(HBM) 전환을 촉발하며 전형적인 '불휩 효과'를 만들어냈다.",
+        "what": "공급과 수요의 미스매치가 하드웨어 가격 인플레이션과 데이터센터 건설 비용 상승으로 이어지고 있다.",
+        "points": [
+          "GPU 가격이 급등했다.",
+          "서버 출하량이 감소했다.",
+          "메모리 제조사가 HBM 생산으로 전환하며 다른 메모리 공급에 영향을 줬다."
+        ],
+        "why": [
+          "AI 인프라 투자 계획을 세울 때 공급망 변동성을 고려해야 함을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-alibaba-wan3-video-model",
+      "title": "알리바바, 100억 달러 유상증자 후 AI 영상 생성 모델 'Wan3.0' 출시",
+      "summary": "텍스트와 데이터로 30초 분량 영상을 생성할 수 있는 모델이다.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-launches-wan3-0-ai-131300534.html?utm_source=tldrai",
+      "report": {
+        "tldr": "알리바바가 대규모 자금 조달 직후 AI 영상 생성 모델 Wan3.0을 공개했다.",
+        "what": "Wan3.0은 텍스트와 데이터 입력으로 30초 분량의 영상을 생성할 수 있는 모델이다.",
+        "points": [
+          "약 100억 달러 규모 주식 매각 이후 공개됐다.",
+          "텍스트·데이터 기반 30초 영상 생성을 지원한다."
+        ],
+        "why": [
+          "중국 빅테크의 AI 인프라 투자와 생성형 미디어 경쟁이 동시에 가속되고 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-hires-amir-salek",
+      "title": "앤트로픽, 구글 TPU 베테랑 아미르 살렉 영입해 자체 칩 개발 추진",
+      "summary": "구글 커스텀칩 프로그램을 만든 엔지니어가 앤트로픽에 합류했다.",
+      "source": "Runtime Wire",
+      "url": "https://runtimewire.com/article/anthropic-hires-google-tpu-veteran-amir-salek-chip-team?utm_source=tldrai",
+      "report": {
+        "tldr": "앤트로픽이 구글 텐서 프로세싱 유닛(TPU) 사업을 이끌었던 아미르 살렉을 영입해 자체 칩 개발에 나섰다.",
+        "what": "살렉은 구글의 커스텀칩 프로그램을 창설하고 TPU 사업을 운영한 인물이다.",
+        "points": [
+          "앤트로픽이 자체 AI 칩 개발 조직을 강화하고 있다.",
+          "영입 인사는 구글 TPU 프로그램의 창립 멤버다."
+        ],
+        "why": [
+          "프런티어 AI 기업들이 엔비디아 의존도를 낮추기 위해 자체 실리콘 확보 경쟁에 뛰어들고 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-goodfire-1m-grant",
+      "title": "굿파이어, AI 해석가능성 연구에 100만 달러 그랜트 프로그램 발표",
+      "summary": "프런티어 AI 연구·해석가능성 플랫폼 '실리코'에 대한 무료 접근을 제공한다.",
+      "source": "Goodfire",
+      "url": "https://www.goodfire.com/grants?utm_source=tldrai",
+      "report": {
+        "tldr": "굿파이어가 AI 해석가능성 연구를 지원하기 위해 100만 달러 규모의 연구 보조금 프로그램을 시작했다.",
+        "what": "선정된 연구자들에게 자사의 프런티어 AI 연구·해석가능성 플랫폼 '실리코'에 대한 무료 접근을 제공한다.",
+        "points": [
+          "총 100만 달러 규모의 연구 그랜트다.",
+          "해석가능성 연구 플랫폼 '실리코' 무료 이용을 지원한다."
+        ],
+        "why": [
+          "모델 해석가능성 연구에 대한 산업계의 투자가 이어지고 있다."
+        ]
+      }
+    }
+  ]
+}

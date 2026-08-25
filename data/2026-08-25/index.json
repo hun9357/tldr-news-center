@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-25",
+  "weekday": "화",
+  "headline": "엔비디아 'Groq 3 LPX' 추론칩 전면 양산 — OpenAI, 기업 AI 시장서 앤트로픽 추격",
+  "subtitle": "엔비디아의 신형 추론 가속기가 베라 루빈 플랫폼 확장에 들어간 가운데, 램프 지출 데이터는 OpenAI가 기업 고객 시장에서 앤트로픽과의 격차를 좁히고 있음을 보여준다. isolated-vm의 치명적 타입 컨퓨전 취약점과 miniOrange SAML 우회 공격이 보안 업계의 주요 경고로 떠올랐고, 크립토 시장은 비트코인의 사상 최대 주간 상승 이후 잭슨홀 심포지엄을 주시하고 있다.",
+  "keyword": "Groq 3 LPX 양산 · OpenAI 기업시장 반격 · isolated-vm 취약점 · miniOrange SAML 우회 · 비트코인 사상 최대 주간 상승",
+  "bigStoryId": "ai-nvidia-groq3-lpx-production",
+  "editions": [
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "tech",
+    "design",
+    "marketing",
+    "dev"
+  ],
+  "lastUpdated": "09:05 CDT",
+  "syncedAt": "09:05",
+  "stats": {
+    "companies": 40,
+    "security": 17,
+    "deals": 7,
+    "policy": 4
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "추론 전용 하드웨어 경쟁이 본격화됐다",
+      "body": "엔비디아의 Groq 3 LPX 추론 가속기가 베라 루빈 플랫폼을 확장하며 전면 양산에 들어갔다. 4배 빠른 응답 속도로 에이전트형 AI 작업 시간을 시간 단위에서 분 단위로 단축한다고 밝혔으며, Nebius가 첫 배포 클라우드로 확정됐다. 같은 날 앤트로픽은 구글 TPU 프로그램 창립자인 아미르 살렉을 영입해 자체 칩 개발에 속도를 냈다."
+    },
+    {
+      "kind": "market",
+      "title": "기업 AI 시장 점유율 경쟁과 비트코인 사상 최대 주간 상승",
+      "body": "램프의 7만여 개 기업 지출 데이터에 따르면 3분기 들어 OpenAI가 기업 고객 시장에서 앤트로픽 대비 점유율을 회복하고 있다. 크립토 시장에서는 비트코인이 주간 21% 급등 후 7만7000달러 위를 유지했고, XRP는 46% 상승했다. 서클은 클래리티 법안 통과와 무관하게 USDC 공급이 일주일 새 17억 달러 늘며 성장세를 이어가고 있다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 며칠 모니터링",
+      "body": "① isolated-vm 7.0.1·6.2.0 미만 버전의 치명적 타입 컨퓨전 취약점(GHSA-864f-rcv7-6rh4) — n8n, Directus, Rocket.Chat 등 다수 프로젝트가 영향권. ② miniOrange SAML SSO 플러그인 연쇄 취약점을 악용한 워드프레스 관리자 권한 탈취 공격 확산 여부. ③ 케빈 워시 연준 의장의 잭슨홀 심포지엄 데뷔 발언과 크립토 시장 변동성. ④ 서클 Arc 퍼블릭 메인넷의 9월 16일 출시 준비 상황."
+    }
+  ]
+}

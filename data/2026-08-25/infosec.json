@@ -1,0 +1,279 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-isolated-vm-type-confusion",
+      "title": "isolated-vm '치명적' 타입 컨퓨전 취약점 발견 (GHSA-864f-rcv7-6rh4)",
+      "summary": "n8n, 액티브피시스, 로켓챗 등이 쓰는 샌드박스 라이브러리에서 원격 코드 실행급 취약점이 확인됐다.",
+      "source": "Endor Labs",
+      "url": "https://www.endorlabs.com/learn/ghsa-864f-rcv7-6rh4-critical-type-confusion-vulnerability-in-isolated-vm?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "isolated-vm 7.0.1·6.2.0 미만 버전에서 발견된 타입 컨퓨전 버그로 공격자가 호스트 프로세스를 완전히 장악할 수 있다.",
+        "what": "Endor Labs 연구진은 ExternalCopy의 transferList 처리 과정에서 getter가 두 차례 검증 시 서로 다른 값을 반환하는 결함을 발견했다. 이를 통해 검증되지 않은 캐스트로 잘못된 포인터를 전달할 수 있었고, 하나의 공유된 ivm.Reference에서 시작해 ExternalCopy 생성자에 도달, 호스트를 SIGSEGV로 크래시시킨 뒤 ASLR 베이스를 복구하고 vtable을 위조해 임의의 libc 함수를 호출하는 완전한 익스플로잇까지 구축했다.",
+        "points": [
+          "isolated-vm 7.0.1 미만, 6.2.0 미만 버전이 영향을 받는다.",
+          "n8n, Activepieces, Mastra, Budibase, Directus, Rocket.Chat 등이 이 라이브러리를 사용한다.",
+          "ASLR 우회와 vtable 위조를 통한 임의 코드 실행까지 시연됐다."
+        ],
+        "why": [
+          "샌드박스로 신뢰하던 격리 환경도 완전히 뚫릴 수 있음을 보여준 사례다."
+        ],
+        "action": "즉시 패치 버전으로 업그레이드하고, 샌드박스된 Reference에 부여한 권한을 재점검해야 한다."
+      }
+    },
+    {
+      "id": "infosec-wordpress-miniorange-saml-bypass",
+      "title": "해커들, 미니오렌지 SAML 플러그인 취약점 연쇄 악용해 워드프레스 침투",
+      "summary": "두 개의 치명적 취약점을 결합해 인증을 우회하고 관리자 권한을 탈취한다.",
+      "source": "TLDR 원문 링크",
+      "url": "https://links.tldrnewsletter.com/C49Zyg",
+      "report": {
+        "tldr": "공격자들이 miniOrange SAML 2.0 SSO 플러그인의 CVE-2026-61979와 CVE-2026-15981을 연쇄 악용해 워드프레스 사이트 관리자 권한을 탈취하고 있다.",
+        "what": "암호화 알고리즘을 조작하고 OpenSSL 서명 검증을 우회해 정상적인 SAML 응답을 위조하는 방식이다. 워드프레스 대시보드가 프리미엄 버전에는 업데이트 경고를 표시하지 않기 때문에 관리자가 수동으로 버전을 확인해야 한다.",
+        "points": [
+          "두 개의 CVE를 연쇄 악용해 인증을 우회한다.",
+          "SAML 응답 위조로 관리자 권한까지 탈취 가능하다.",
+          "프리미엄 버전은 대시보드에 업데이트 알림이 뜨지 않는다."
+        ],
+        "why": [
+          "SSO 플러그인 하나의 결함이 사이트 전체 장악으로 이어질 수 있다."
+        ],
+        "action": "플러그인 버전을 수동으로 확인하고 즉시 최신 패치 버전으로 업그레이드해야 한다."
+      }
+    },
+    {
+      "id": "infosec-detecting-evil-dylibs",
+      "title": "macOS 악성 dylib 탐지법: SIP 우회하는 은밀한 지속성 기법 분석",
+      "summary": "동적 라이브러리 주입으로 보안 도구를 무력화하는 공격 기법과 방어법을 정리했다.",
+      "source": "Objective-See",
+      "url": "https://objective-see.org/blog/blog_0x89.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공격자는 macOS dylib 인젝션으로 정상 프로세스의 신뢰·권한·TCC 승인을 그대로 물려받으면서 보안 도구의 탐지를 피할 수 있다.",
+        "what": "DYLD_INSERT_LIBRARIES 주입, @rpath 하이재킹, 라이브러리 트로이목마화 등의 기법으로 시스템 무결성 보호(SIP)를 우회하고 깊은 지속성을 확보한다. 이 프로세스 수준의 사각지대를 없애려면 보안 도구가 Mach-O의 LC_LOAD_DYLIB 명령을 정적으로 분석하고, 로드된 라이브러리를 동적으로 열거하며, Endpoint Security의 ES_EVENT_TYPE_AUTH_MMAP 이벤트를 구독해야 한다.",
+        "points": [
+          "DYLD_INSERT_LIBRARIES, @rpath 하이재킹, 라이브러리 트로이목마화가 주요 기법이다.",
+          "정상 프로세스의 TCC 권한을 그대로 상속받아 탐지를 회피한다.",
+          "Mach-O 명령 정적 분석과 ES_EVENT_TYPE_AUTH_MMAP 구독이 대응책으로 제시됐다."
+        ],
+        "why": [
+          "엔드포인트 보안 도구가 프로세스 수준의 은닉 기법에 취약할 수 있음을 시사한다."
+        ],
+        "action": "보안팀은 Mach-O 로드 명령 정적 분석과 동적 라이브러리 열거 체계를 도입해야 한다."
+      }
+    },
+    {
+      "id": "infosec-plan-mode-secure-coding-test",
+      "title": "'플랜 모드'가 AI 코딩의 보안성을 높여줄까? 실험 결과는 '글쎄'",
+      "summary": "소네트 5, 컴포저 2.5, GPT 5.5로 동일 프롬프트를 일반·플랜 모드에서 각각 테스트했다.",
+      "source": "Datadog Security Labs",
+      "url": "https://securitylabs.datadoghq.com/articles/putting-models-to-the-secure-coding-test-plan-vs-default-mode/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "세 모델 모두 일반·플랜 모드 구현 6개 전부에서 동일한 IDOR 취약점을 만들어냈고, 그 외 취약점은 구현마다 달랐다.",
+        "what": "소네트 5는 플랜 모드에서 훨씬 더 성숙한 구현을 만들었지만, 컴포저 2.5는 오히려 플랜 모드에서 가장 심각한 보안 취약점을 만들어내는 등 실험 결과가 엇갈렸다. 연구진은 플랜 모드가 더 안전한 코드를 만든다고 결론내리기엔 근거가 불충분하다고 밝혔다.",
+        "points": [
+          "6개 구현 모두에서 동일한 IDOR 취약점이 발생했다.",
+          "소네트 5는 플랜 모드에서 더 성숙한 코드를 냈다.",
+          "컴포저 2.5는 플랜 모드에서 오히려 더 심각한 취약점을 만들었다.",
+          "결론: 플랜 모드의 보안 효과는 아직 입증되지 않았다."
+        ],
+        "why": [
+          "AI 코딩 어시스턴트의 모드 설정만으로 보안성을 담보할 수 없다는 점을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-owasp-agentic-skills-top10",
+      "title": "OWASP, '에이전틱 스킬 톱10' 및 스킬 포맷 표준 v1.0 발표",
+      "summary": "악성 스킬과 공급망 침해가 위험 순위 1·2위를 차지했다.",
+      "source": "TLDR 원문 링크",
+      "url": "https://links.tldrnewsletter.com/utub4N",
+      "report": {
+        "tldr": "OWASP가 AI 에이전트 '스킬'과 관련된 상위 위험 10가지와 범용 에이전틱 스킬 포맷 v1.0을 공개했다.",
+        "what": "30만 건 이상 설치된 'Paperclip' 사칭 캠페인은 트로이목마화된 패키지와 스킬을 유포한 사례로 꼽혔다. OWASP는 스킬 포맷에 출처, 권한, 종속성, 해시, 변경 이력을 기록해야 한다고 권고했다.",
+        "points": [
+          "악성 스킬과 공급망 침해가 위험 순위 1·2위다.",
+          "Paperclip 사칭 캠페인은 30만 건 이상 설치됐다.",
+          "스킬 포맷에 출처·권한·종속성·해시 기록이 필요하다."
+        ],
+        "why": [
+          "에이전트 스킬 생태계가 커지면서 새로운 공급망 공격 표면이 생기고 있다."
+        ],
+        "action": "보안팀은 사용 중인 에이전트 스킬을 인벤토리화하고 위험 스킬은 신속히 비활성화해야 한다."
+      }
+    },
+    {
+      "id": "infosec-ai-attack-before-defend",
+      "title": "AI는 왜 방어보다 공격을 먼저 배웠나",
+      "summary": "공격은 명확한 '성공/실패' 신호가 있어 강화학습으로 훨씬 빠르게 훈련된다.",
+      "source": "Futurum Group",
+      "url": "https://futurumgroup.com/insights/why-ai-learned-to-attack-before-it-learned-to-defend/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공격형 익스플로잇은 성공 여부가 명확히 검증되는 '오라클'을 제공해 강화학습 루프가 방어보다 훨씬 빠르게 공격 능력을 학습하게 만든다.",
+        "what": "앤트로픽의 'Project Glasswing'은 1만 건 이상의 고·치명적 취약점을 찾아냈지만 이는 업계 평균 2주 패치 주기를 훨씬 앞서는 속도였고, OpenAI의 'Daybreak Red'는 고급 공격형 보안 작업에서 약 95%의 성공률을 기록했다. 7월 허깅페이스 침해 사고와 고성능 오픈웨이트 모델의 부상이 이런 공격 가속화를 보여준다.",
+        "points": [
+          "공격은 명확한 성공/실패 신호로 강화학습에 유리하다.",
+          "Project Glasswing은 1만 건 이상의 고위험 취약점을 발견했다.",
+          "Daybreak Red는 공격형 보안 작업에서 약 95% 성공률을 기록했다.",
+          "AI는 공격에서는 인간을 대체하지만 방어에서는 보조에 그친다."
+        ],
+        "why": [
+          "공격·방어 간 AI 역량 비대칭이 커지는 구조적 이유를 설명한다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-trufflehog-aws-analyze",
+      "title": "트러플호그, 유출된 AWS 키의 실제 접근 범위를 보여주는 'AWS Analyze' 출시",
+      "summary": "IAM 주체와 정책, 그룹, 가정 가능한 역할까지 두 단계 신뢰 정책 경로로 매핑한다.",
+      "source": "Truffle Security",
+      "url": "https://trufflesecurity.com/blog/trufflehog-aws-analyze?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "트러플호그 엔터프라이즈에 AWS 전용 분석 뷰가 추가돼, 유출된 액세스 키가 실제로 어디까지 접근 가능한지 파악할 수 있게 됐다.",
+        "what": "유출된 키 뒤의 IAM 주체를 식별하고 정책, 그룹 멤버십, 최대 두 단계 신뢰 정책 경로 내에서 가정 가능한 역할까지 매핑한다.",
+        "points": [
+          "유출 키의 IAM 주체를 자동 식별한다.",
+          "정책·그룹·가정 가능 역할을 매핑한다.",
+          "최대 두 단계의 신뢰 정책 경로까지 추적한다."
+        ],
+        "why": [
+          "키 유출 사고 대응 시 실제 피해 범위를 빠르게 파악하는 데 도움이 된다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-alation-cyberattack",
+      "title": "엔터프라이즈 데이터 업체 얼레이션, 시스템 장애 후 사이버공격 확인",
+      "summary": "가용성 저하 신고 이후 한 시스템에서 무단 활동이 확인됐다.",
+      "source": "SC World",
+      "url": "https://www.scworld.com/brief/alation-confirms-cyberattack-after-reporting-system-incident?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "엔터프라이즈 데이터 소프트웨어 업체 얼레이션이 한 시스템에서 무단 활동을 확인했다고 밝혔다.",
+        "what": "이용자들이 이번 주 초 가용성 저하를 겪은 뒤 회사가 조사에 나섰고, 서비스 장애는 한 시간 내에 해소됐다. 공격 방식, 근본 원인, 영향받은 고객 수, 데이터 노출 여부, 통보 상태, 권고 대응책 등은 아직 공개되지 않았다.",
+        "points": [
+          "한 시스템에서 무단 활동이 확인됐다.",
+          "서비스 장애는 한 시간 내 해소됐다.",
+          "세부 조사 결과는 아직 공개되지 않았다."
+        ],
+        "why": [
+          "엔터프라이즈 데이터 공급업체 침해는 다운스트림 고객에게도 영향을 줄 수 있어 후속 공개를 지켜볼 필요가 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-quest-hotels-pii-leak",
+      "title": "호주 호텔 체인 퀘스트, 서드파티 DB 업체 침해로 투숙객 개인정보 유출",
+      "summary": "2025년 6월 이전 기록에서 이름, 연락처, 일부 생년월일이 노출됐다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/cyber-crime/2026/08/19/australian-hotel-chain-leaks-guests-pii-after-breach-at-third-party-database-operator/5289341?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "호주 호텔 체인 퀘스트가 8월 17일 서드파티 제공업체를 통한 무단 데이터베이스 접근을 확인했다.",
+        "what": "2025년 6월 이전 기록에서 투숙객 이름과 연락처가 노출됐고, 일부는 생년월일도 포함됐다. 회사는 영향받은 투숙객에게 통보하고 사고를 봉쇄한 뒤 시스템을 복구했으며 포렌식 조사를 시작했다고 밝혔다.",
+        "points": [
+          "2025년 6월 이전 기록의 이름·연락처가 노출됐다.",
+          "일부 기록에는 생년월일도 포함됐다.",
+          "서드파티 데이터베이스 운영업체를 통한 침해였다."
+        ],
+        "why": [
+          "서드파티 벤더 리스크 관리가 개인정보 보호의 핵심 축임을 다시 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-openrisk-repo",
+      "title": "'OpenRisk', 엔터프라이즈급 오픈소스 리스크 관리 플랫폼 공개",
+      "summary": "조직의 리스크 식별·평가·완화·모니터링 방식을 바꾸는 것을 목표로 한다.",
+      "source": "GitHub",
+      "url": "https://github.com/opendefender/OpenRisk?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "OpenRisk는 조직의 리스크 관리 전 과정을 지원하는 오픈소스 플랫폼이다.",
+        "what": "리스크 식별부터 평가, 완화, 모니터링까지 엔터프라이즈급 기능을 제공하는 것을 목표로 한다.",
+        "points": [
+          "리스크 식별·평가·완화·모니터링을 지원한다.",
+          "오픈소스로 공개됐다."
+        ],
+        "why": [
+          "상용 GRC 도구의 오픈소스 대안으로 참고할 만하다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-deputy-repo",
+      "title": "'Deputy', 대규모 종속성 관리를 위한 통합 툴체인 공개",
+      "summary": "핵심 종속성 관리 프리미티브와 통합 툴체인을 제공한다.",
+      "source": "GitHub",
+      "url": "https://github.com/temporalio/deputy?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Deputy는 대규모 소프트웨어 종속성 관리를 위한 오픈소스 툴체인이다.",
+        "what": "핵심 종속성 관리 프리미티브를 통합된 툴체인으로 제공해 확장 가능한 관리를 지원한다.",
+        "points": [
+          "종속성 관리 핵심 프리미티브를 제공한다.",
+          "통합 툴체인 형태로 배포된다."
+        ],
+        "why": [
+          "공급망 보안 관점에서 종속성 가시성 확보에 활용할 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-slovakia-russian-backdoor-cameras",
+      "title": "슬로바키아, 러시아산 백도어 심긴 과속단속 카메라 적발",
+      "summary": "하드코딩된 러시아 전화번호의 SMS 명령으로 셸·네트워크 접근이 가능했다.",
+      "source": "Risky Biz",
+      "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "슬로바키아 국가보안국(NBU)이 최근 설치된 교통 카메라에서 하드코딩된 러시아 전화번호발 SMS 명령으로 작동하는 백도어를 발견했다.",
+        "what": "문제의 NERO R-ONE 카메라는 키프로스 페이퍼컴퍼니를 통해 구매됐으나, 상트페테르부르크 소재 업체가 제조한 리브랜드 제품으로 확인됐다. SMS 백도어 외에도 SecureBoot가 비활성화되고 인증 없이 실시간 영상 스트림이 노출된 사실도 드러났다.",
+        "points": [
+          "하드코딩된 러시아 번호로 SMS 명령을 내릴 수 있는 백도어가 발견됐다.",
+          "카메라는 키프로스 셸 기업을 통해 구매됐지만 실제 제조사는 상트페테르부르크 업체였다.",
+          "SecureBoot 비활성화와 무인증 영상 스트림 노출도 함께 확인됐다."
+        ],
+        "why": [
+          "공공 인프라 조달 과정에서 공급망 출처 검증이 얼마나 중요한지 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-apollo-data-breach",
+      "title": "사모펀드 아폴로, 금융권 겨냥 해킹 물결 속 데이터 유출 확인",
+      "summary": "7월 6일부터 10일까지 소셜 엔지니어링을 통해 클라우드 환경에 접근당했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/21/private-equity-firm-apollo-confirms-data-breach-amid-hacking-wave-targeting-financial-giants/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "사모펀드 아폴로가 소셜 엔지니어링을 통한 클라우드 환경 침해를 확인했다.",
+        "what": "공격자들은 7월 6일부터 10일까지 아폴로의 클라우드 환경에 접근했다. 이는 금융권 대기업들을 겨냥한 최근 해킹 물결의 일부로 파악된다.",
+        "points": [
+          "공격 기간은 7월 6일부터 10일까지였다.",
+          "침투 경로는 소셜 엔지니어링이었다.",
+          "금융권을 겨냥한 광범위한 해킹 캠페인의 일부로 보인다."
+        ],
+        "why": [
+          "대형 금융기관들도 소셜 엔지니어링에 취약할 수 있음을 재확인시킨다."
+        ]
+      }
+    },
+    {
+      "id": "infosec-tata-nexarc-otp-leak",
+      "title": "타타의 B2B 플랫폼, API 응답에 OTP를 그대로 반환하는 결함 발견",
+      "summary": "전화번호만 알면 타타스틸 자체 계정까지 탈취할 수 있었다.",
+      "source": "eaton-works.com",
+      "url": "https://eaton-works.com/2026/08/24/tata-nexarc-hack?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "타타 넥사크의 로그인 API가 응답 본문에 OTP를 직접 반환해, 대상자의 전화번호만 알면 계정을 탈취할 수 있는 결함이 있었다.",
+        "what": "연구자 Eaton은 이 결함을 이용해 타타스틸 자체 계정까지 포함해 임의 계정을 탈취할 수 있음을 시연했다. CERT-IN이 7월 31일 수정을 확인했다.",
+        "points": [
+          "로그인 API 응답에 OTP가 그대로 노출됐다.",
+          "전화번호만으로 임의 계정 탈취가 가능했다.",
+          "7월 31일 CERT-IN이 수정을 확인했다."
+        ],
+        "why": [
+          "OTP 같은 민감 값을 서버 응답에 포함시키는 기본적인 설계 실수가 여전히 반복되고 있음을 보여준다."
+        ]
+      }
+    }
+  ]
+}

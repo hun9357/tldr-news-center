@@ -1,0 +1,250 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-openai-regains-ground-corporate",
+      "title": "OpenAI, 기업 AI 시장서 앤트로픽 대비 점유율 회복",
+      "summary": "램프 지출 데이터 기준 3분기 흐름은 OpenAI의 성장세가 더 빠르다는 것을 시사한다.",
+      "source": "TechCentral.ie",
+      "url": "https://www.techcentral.ie/openai-regains-ground-in-the-corporate-ai-market/?utm_source=tldrit",
+      "report": {
+        "tldr": "7만 개 이상 조직의 지출 데이터를 분석한 결과, OpenAI가 미국 기업 고객 시장에서 앤트로픽 대비 점유율을 회복하고 있는 것으로 나타났다.",
+        "what": "앤트로픽은 5월과 7월 선두를 지켰지만 3분기 흐름은 OpenAI의 더 빠른 성장을 시사한다. 유료 AI 서비스에 대한 전체 지출 증가는 두 업체 모두 성장할 여지가 있음을 보여주는 동시에, 기업 고객의 충성도가 여전히 유동적이라는 점도 드러낸다.",
+        "points": [
+          "램프의 지출 데이터는 7만 개 이상 조직을 포괄한다.",
+          "앤트로픽은 5월·7월 선두를 지켰다.",
+          "3분기 흐름은 OpenAI의 성장이 더 빠름을 시사한다.",
+          "전체 유료 AI 지출이 늘고 있어 두 업체 모두 확장 여지가 있다."
+        ],
+        "why": [
+          "기업 AI 시장의 주도권 다툼이 여전히 유동적이라는 신호다."
+        ]
+      }
+    },
+    {
+      "id": "it-nvidia-groq3-lpx-production",
+      "title": "엔비디아 Groq 3 LPX 추론 칩 양산 돌입 (IT 관점)",
+      "summary": "베라 루빈 플랫폼의 일환으로 에이전트 AI용 초고속 토큰 생성을 겨냥한다.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/08/24/nvidias-dedicated-inference-accelerator-groq-3-lpx-enters-full-production-to-supercharge-ai-agents/?utm_source=tldrit",
+      "report": {
+        "tldr": "엔비디아의 Groq 3 LPX 가속기가 베라 루빈 플랫폼의 일환으로 양산에 들어갔으며, Nebius가 첫 배포 클라우드 사업자로 확정됐다.",
+        "what": "에이전트 AI 워크로드에 필요한 초고속 토큰 생성을 목표로 한다.",
+        "points": [
+          "베라 루빈 플랫폼의 일환으로 출시됐다.",
+          "Nebius가 첫 도입 클라우드 사업자다."
+        ],
+        "why": [
+          "엔터프라이즈 IT 인프라 구매 담당자들이 추론 전용 하드웨어 옵션을 검토할 시점이 왔다."
+        ]
+      }
+    },
+    {
+      "id": "it-ibm-arm-z-chip",
+      "title": "IBM, Arm과 Z 워크로드를 같은 코어에서 구동하는 듀얼 아키텍처 칩 개발",
+      "summary": "최신 AI·클라우드 네이티브 소프트웨어를 메인프레임 워크로드와 나란히 실행할 수 있다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/ibms-next-gen-mainframe-chip-is-the-first-to-run-arm-and-z-workloads-on-the-same-cores?utm_source=tldrit",
+      "report": {
+        "tldr": "IBM이 Arm과 IBM Z 명령어를 네이티브로 동시 실행할 수 있는 듀얼 아키텍처 프로세서를 개발 중이다.",
+        "what": "이 설계는 기업들이 최신 AI·클라우드 네이티브 소프트웨어를 기간계 메인프레임 워크로드와 같은 코어에서 나란히 구동할 수 있게 해줄 수 있다.",
+        "points": [
+          "Arm과 IBM Z 명령어를 네이티브로 동시 지원한다.",
+          "AI·클라우드 네이티브 워크로드와 메인프레임 워크로드를 통합할 수 있다."
+        ],
+        "why": [
+          "레거시 메인프레임 자산을 유지하면서 AI 전환을 노리는 대기업 IT 전략에 영향을 줄 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-when-not-to-use-stream-processing",
+      "title": "스트림 프로세싱을 쓰지 말아야 할 때: 메시징·API로 충분한 경우",
+      "summary": "요청-응답형 상호작용이나 락이 필요한 작업엔 스트림 처리가 종종 잘못된 아키텍처다.",
+      "source": "Kai Waehner",
+      "url": "https://www.kai-waehner.de/blog/2026/08/24/when-not-to-use-stream-processing-messaging-and-apis-are-often-enough/?utm_source=tldrit",
+      "report": {
+        "tldr": "지속적 이벤트 기반 연산에는 스트림 처리가 유용하지만, 요청-응답 상호작용이나 직접적 상태 조회·정정, 락이 필요한 작업에는 부적합한 경우가 많다.",
+        "what": "실제 사례로 Kestra는 메시징 레이어를 단순 큐잉 구조로 재구축했고, Confluent는 Control Center의 메트릭 파이프라인을 카프카 스트림스에서 프로메테우스로 옮겼다.",
+        "points": [
+          "요청-응답, 상태 조회·정정, 락 필요 작업에는 스트림 처리가 부적합할 수 있다.",
+          "Kestra는 메시징 레이어를 플레인 큐잉으로 재구축했다.",
+          "Confluent는 메트릭 파이프라인을 프로메테우스로 전환했다."
+        ],
+        "why": [
+          "아키텍처 선택 시 유행보다 실제 요구사항에 맞춰야 한다는 실용적 교훈을 준다."
+        ]
+      }
+    },
+    {
+      "id": "it-autonomy-and-innovation",
+      "title": "자율성과 혁신: AI 사이버보안의 이중용도 문제",
+      "summary": "취약점을 찾아 악용하는 능력은 방어에도 공격에도 똑같이 필요하다.",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/autonomy-and-innovation/?utm_source=tldrit",
+      "report": {
+        "tldr": "AI의 취약점 탐지·악용 역량은 본질적으로 이중용도이며, 그 의도는 인센티브와 시스템 통제 주체에 따라 결정된다.",
+        "what": "방어자는 취약점 탐지부터 패치, 배포, 롤백까지 전체 루프를 자동화해야 공격 속도를 따라잡을 수 있다.",
+        "points": [
+          "AI 보안 역량은 공격과 방어 모두에 동일하게 적용된다.",
+          "방어자는 탐지-패치-배포-롤백 전 루프의 자동화가 필요하다."
+        ],
+        "why": [
+          "이중용도 기술의 거버넌스는 결국 통제 주체의 인센티브 설계 문제로 귀결된다."
+        ]
+      }
+    },
+    {
+      "id": "it-atlassian-code-context",
+      "title": "아틀라시안 '코드 컨텍스트', AI 에이전트에 전체 코드베이스 가시성 제공",
+      "summary": "깃허브·비트버킷 저장소를 지라·컨플루언스·룸 데이터와 함께 검색할 수 있게 한다.",
+      "source": "ByteIota",
+      "url": "https://byteiota.com/atlassian-code-context-gives-ai-agents-eyes-across-your-entire-codebase/?utm_source=tldrit",
+      "report": {
+        "tldr": "아틀라시안 코드 컨텍스트는 팀워크 그래프 기능으로, 개발자와 AI 코딩 에이전트가 연결된 깃허브·비트버킷 저장소를 지라·컨플루언스·룸 등 조직 데이터와 함께 검색할 수 있게 한다.",
+        "what": "아틀라시안은 이 컨텍스트를 사용한 내부 벤치마크 에이전트가 토큰을 48% 적게 쓰면서도 정확도가 44% 높은 결과를 냈다고 밝혔다. 접근 권한은 기존 저장소 권한 체계를 그대로 따른다.",
+        "points": [
+          "깃허브·비트버킷과 지라·컨플루언스·룸 데이터를 통합 검색한다.",
+          "내부 벤치마크에서 정확도 44% 향상, 토큰 48% 절감 효과가 보고됐다.",
+          "접근 권한은 기존 저장소 권한 체계를 따른다."
+        ],
+        "why": [
+          "AI 코딩 에이전트의 성능이 컨텍스트 접근 범위에 크게 좌우된다는 점을 재확인시킨다."
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-slack-agent-context",
+      "title": "앤트로픽, 슬랙 에이전트에 전체 대화 맥락 부여",
+      "summary": "'멀티플레이어 AI' 접근 방식으로 명시적 호출 없이도 대화에 참여한다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/anthropics-new-claude-tag-update-lets-its-slack-agent-read-the-full-conversation-and-jump-in-unprompted?utm_source=tldrit",
+      "report": {
+        "tldr": "클로드 태그가 이제 슬랙 대화 전체 맥락을 따라가며, 명시적으로 호출되지 않아도 스스로 논의에 참여할 수 있게 됐다.",
+        "what": "앤트로픽은 이 접근 방식을 '멀티플레이어 AI'라고 표현하며, 에이전트가 팀 워크플로에 직접 참여하는 방향을 지향한다고 설명했다.",
+        "points": [
+          "전체 대화 맥락을 추적할 수 있다.",
+          "명시적 호출 없이 능동적으로 참여할 수 있다.",
+          "앤트로픽은 이를 '멀티플레이어 AI'로 명명했다."
+        ],
+        "why": [
+          "팀 협업 도구에 에이전트가 상시 참여자로 통합되는 흐름을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "it-thomson-reuters-legal-ai-model",
+      "title": "톰슨로이터, 법률 업무 전용 자체 AI 모델 '톰슨' 출시",
+      "summary": "전문 법률 워크플로와 자사 특화 데이터를 중심으로 설계됐다.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/08/24/thomson-reuters-launches-proprietary-ai-model-for-legal-work/?utm_source=tldrit",
+      "report": {
+        "tldr": "톰슨로이터가 첫 자체 대형언어모델 '톰슨'을 출시했다.",
+        "what": "전문 법률 워크플로와 자사의 특화 데이터를 중심으로 설계됐다.",
+        "points": [
+          "톰슨로이터의 첫 자체 LLM이다.",
+          "법률 워크플로에 특화됐다."
+        ],
+        "why": [
+          "전문 영역 데이터를 보유한 기업들이 범용 모델 대신 자체 모델 구축에 나서는 흐름을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "it-clickhouse-opentelemetry-ingestion",
+      "title": "클릭하우스, 초당 5천만 이벤트 규모의 오픈텔레메트리 안정적 수집 구조 공개",
+      "summary": "인메모리 큐와 로컬 컬렉터 WAL이 부족해지자 우선순위 기반 페일오버 파이프라인을 설계했다.",
+      "source": "ClickHouse Blog",
+      "url": "https://clickhouse.com/blog/reliable-opentelemetry-ingestion-at-scale?utm_source=tldrit",
+      "report": {
+        "tldr": "클릭하우스는 LogHouse 관측성 플랫폼이 백프레셔 상황에서도 텔레메트리 손실 없이 초당 5천만 이벤트 규모의 오픈텔레메트리를 수집하도록 진화시킨 과정을 공개했다.",
+        "what": "인메모리 큐와 로컬 컬렉터의 쓰기 전용 로그가 불충분하다는 것을 발견한 뒤, 클릭하우스를 핫 패스에 유지하면서 블롭 스토리지를 내구성 있는 오버플로 버퍼로 사용하는 우선순위 기반 페일오버 파이프라인을 설계했다.",
+        "points": [
+          "초당 5천만 이벤트 규모의 수집을 목표로 한다.",
+          "인메모리 큐·로컬 WAL만으로는 부족했다.",
+          "블롭 스토리지를 내구성 오버플로 버퍼로 활용하는 우선순위 기반 페일오버 구조를 도입했다."
+        ],
+        "why": [
+          "대규모 관측성 파이프라인 설계 시 참고할 수 있는 실전 사례다."
+        ]
+      }
+    },
+    {
+      "id": "it-neoclouds-ai-compute",
+      "title": "'네오클라우드'가 AI 컴퓨트 시장을 잠식할 수 있을까",
+      "summary": "코어위브, 람다, 네비우스는 저렴하고 최적화된 GPU 인프라를 내세운다.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4211105/can-neoclouds-corner-ai-compute.html?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 전문 클라우드인 코어위브, 람다, 네비우스는 저렴하고 고도로 최적화된 GPU 인프라를 제공하지만, 하이퍼스케일러는 여전히 보안·매니지드 서비스·엔터프라이즈 통합에서 우위를 갖고 있다.",
+        "what": "가트너는 네오클라우드가 2030년까지 AI 클라우드 시장의 20%를 차지할 수 있을 것으로 전망했다.",
+        "points": [
+          "네오클라우드는 GPU 인프라 가격·최적화에서 강점이 있다.",
+          "하이퍼스케일러는 보안·매니지드 서비스·통합에서 우위다.",
+          "가트너는 2030년까지 네오클라우드 점유율을 20%로 전망했다."
+        ],
+        "why": [
+          "AI 인프라 조달 전략을 세울 때 네오클라우드와 하이퍼스케일러의 강점을 구분해 판단할 필요가 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-google-antigravity-gemini-enterprise",
+      "title": "구글, '안티그래비티'를 제미나이 엔터프라이즈에 통합",
+      "summary": "중앙화된 예산·쿼터·초과사용 통제 기능을 제공한다.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4212942/google-brings-antigravity-under-gemini-enterprise-to-provide-granular-spend-controls.html?utm_source=tldrit",
+      "report": {
+        "tldr": "구글이 안티그래비티를 제미나이 엔터프라이즈에 통합해 중앙화된 예산·쿼터·초과사용 통제 기능을 제공한다.",
+        "what": "IT팀이 빠르게 늘어나는 AI 사용량과 지출에 대한 가시성을 더 확보할 수 있게 됐다.",
+        "points": [
+          "중앙화된 예산·쿼터 관리 기능이 추가됐다.",
+          "초과사용 통제 기능도 포함된다."
+        ],
+        "why": [
+          "기업들이 AI 지출 거버넌스를 강화하려는 수요가 커지고 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "it-canonical-mttr-timeline",
+      "title": "여러 인시던트 툴을 아우르는 '표준 MTTR 타임라인' 설계",
+      "summary": "페이저듀티, 지라, 슬랙, 관측성 시스템을 소스에 구애받지 않고 통합한다.",
+      "source": "OneUptime",
+      "url": "https://oneuptime.com/blog/post/2026-08-23-canonical-mttr-incident-timeline/view?utm_source=tldrit",
+      "report": {
+        "tldr": "여러 인시던트 관리 툴에 흩어진 데이터를 소스 중립적이고 지속적으로 유지되는 MTTR 타임라인으로 통합하는 설계를 제시했다.",
+        "what": "페이저듀티, 지라, 슬랙, 관측성 시스템 등 다양한 소스의 데이터를 하나의 타임라인으로 통합한다.",
+        "points": [
+          "여러 인시던트 툴의 데이터를 통합한다.",
+          "소스 중립적으로 설계됐다."
+        ],
+        "why": [
+          "인시던트 대응 지표를 정확히 측정하려는 SRE 팀에 실용적인 참고 자료다."
+        ]
+      }
+    },
+    {
+      "id": "it-cursor-beyond-git",
+      "title": "커서, Git의 한계를 넘어 확장한 방법 공개",
+      "summary": "S3를 소스 오브 트루스로, 로컬 NVMe 저장소를 지연 민감 작업에 활용한다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/devops/2026/08/23/how-cursor-beat-gits-scalability-shortcomings/5291421?utm_source=tldrit",
+      "report": {
+        "tldr": "커서는 Git의 확장성 한계를 넘어서기 위해 S3를 소스 오브 트루스로 삼고, 지연에 민감한 작업은 로컬 NVMe 저장소로 처리하는 구조를 택했다.",
+        "what": "이 하이브리드 구조로 대규모 저장소 운영에서 Git 단독 사용 대비 확장성을 확보했다.",
+        "points": [
+          "S3를 소스 오브 트루스로 사용한다.",
+          "지연 민감 작업은 로컬 NVMe로 처리한다."
+        ],
+        "why": [
+          "대규모 코드베이스를 운영하는 조직에게 Git 확장성 문제의 실전 해법을 제시한다."
+        ]
+      }
+    }
+  ]
+}
