@@ -1,9 +1,9 @@
 {
   "name": "하드웨어",
   "source": "TLDR Hardware",
-  "icon": "⚙️",
-  "color": "#ff8c42",
-  "bg": "#331f0f",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
   "items": [
     {
       "id": "hardware-openai-jalapeno-vs-gb300",

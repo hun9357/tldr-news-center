@@ -1,9 +1,9 @@
 {
   "name": "데브옵스",
   "source": "TLDR DevOps",
-  "icon": "🛠️",
-  "color": "#4dd0e1",
-  "bg": "#123138",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
   "items": [
     {
       "id": "devops-ec2-20th-birthday",
