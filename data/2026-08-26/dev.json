@@ -1,0 +1,267 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-evaluate-llms-before-production",
+      "title": "프로덕션 투입 전 LLM 평가하는 법",
+      "summary": "벤치마크 성능에서 실제 효과로 넘어가는 과정을 이해하는 것이 핵심이다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production",
+      "report": {
+        "tldr": "벤치마크 성능에서 실제 효과로 넘어가는 과정을 이해하는 것이 핵심이다.",
+        "what": "프로덕션용 LLM을 평가하려면 초기 벤치마크 성능에서 실제 효과로 넘어가는 전환 과정을 이해해야 한다. 프로덕션 환경은 모호한 데이터, 일관되지 않은 라벨, 벤치마크가 포착하지 못하는 엣지 케이스를 포함하기 때문이다.",
+        "points": [
+          "평가는 제품 목표에 초점을 맞춰야 한다.",
+          "통합 테스트와 유사한 테스트 프로세스가 필요하다.",
+          "오류 분석을 통해 구체적인 성능 문제를 짚어내야 한다."
+        ],
+        "why": [
+          "벤치마크 점수와 실제 프로덕션 성능 사이의 간극을 메우는 체계적 접근이 필요하다."
+        ]
+      }
+    },
+    {
+      "id": "dev-flex-wrap-balance-css",
+      "title": "새 CSS `flex-wrap: balance`, 플렉스박스 줄바꿈 고아 아이템 문제 해결",
+      "summary": "미디어쿼리에 의존하던 방식 대신 아이템이 고르게 줄바꿈되도록 돕는다.",
+      "source": "Ahmad Shadeed Blog",
+      "url": "https://ishadeed.com/article/flex-wrap-balance/",
+      "report": {
+        "tldr": "미디어쿼리에 의존하던 방식 대신 아이템이 고르게 줄바꿈되도록 돕는다.",
+        "what": "플렉스박스 레이아웃에서 줄바꿈을 사용할 때 종종 고아 아이템이 생기는데, 이를 피하려고 개발자들은 미디어쿼리에 의존해왔다. 새 CSS 기능 `flex-wrap: balance`가 아이템이 고르게 줄바꿈되도록 돕는다.",
+        "points": [
+          "`flex-wrap: balance`는 고아 아이템 없이 시각적으로 더 보기 좋은 레이아웃을 만든다.",
+          "`flex-line-count`가 함께 도입돼 줄바꿈된 아이템의 최소 줄 수를 지정할 수 있다."
+        ],
+        "why": [
+          "레이아웃 CSS 기능이 미디어쿼리 없이도 더 정교한 반응형 처리를 가능하게 하고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-find-pmf-again",
+      "title": "\"프로덕트-마켓 핏, 계속해서 다시 찾아야 한다\"",
+      "summary": "포스트호그 데스크톱 출시 과정이 이를 잘 보여준다.",
+      "source": "PostHog",
+      "url": "https://newsletter.posthog.com/p/you-need-to-find-product-market-fit",
+      "report": {
+        "tldr": "포스트호그 데스크톱 출시 과정이 이를 잘 보여준다.",
+        "what": "신흥 경쟁자와 기술 발전에 직면할 때마다 기업은 프로덕트-마켓 핏을 계속해서 다시 찾아야 하며, 포스트호그 데스크톱의 탄생 과정이 이 흐름을 잘 보여준다.",
+        "points": [
+          "PMF 탐색은 회사가 성장해도 끝나지 않는 반복적 과정이다.",
+          "새로운 경쟁자와 기술 변화가 재탐색을 촉발하는 주요 계기다."
+        ],
+        "why": [
+          "성숙한 제품팀에게도 PMF 재탐색은 지속적인 과제로 남는다."
+        ]
+      }
+    },
+    {
+      "id": "dev-agentic-engineering-reliable-agents",
+      "title": "신뢰할 수 있는 코딩 에이전트를 위한 '에이전틱 엔지니어링' 실천법",
+      "summary": "성공 조건을 명확히 정의하고 결정론적 체크로 결과를 모니터링하는 것이 출발점이다.",
+      "source": "Scott Spence Blog",
+      "url": "https://scottspence.com/posts/agentic-engineering-practical-guide",
+      "report": {
+        "tldr": "성공 조건을 명확히 정의하고 결정론적 체크로 결과를 모니터링하는 것이 출발점이다.",
+        "what": "에이전틱 엔지니어링을 효과적으로 적용하려면 작업의 성공 조건을 명확히 정의하고, 결과를 모니터링할 수 있는 가장 단순한 결정론적 체크를 포함시키며, 실행 중인 에이전트에 초점이 맞춰진 피드백을 제공해야 한다.",
+        "points": [
+          "접근 권한과 허용 범위를 제한해야 한다.",
+          "모든 행동과 결정을 기록해 책임 소재를 남겨야 한다.",
+          "과거 실패를 바탕으로 워크플로를 지속적으로 개선해야 한다."
+        ],
+        "why": [
+          "신뢰할 수 있는 코딩 에이전트 환경을 만들려면 엄격한 프로세스 설계가 필요하다."
+        ]
+      }
+    },
+    {
+      "id": "dev-apple-m6-m5-ultra",
+      "title": "애플, 성능·AI 컴퓨트 도약 이룬 M6·M5 울트라 공개",
+      "summary": "M6는 애플 최초의 2나노 칩이며, CPU·GPU 구성과 통합 메모리 대역폭이 개선됐다.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+      "report": {
+        "tldr": "M6는 애플 최초의 2나노 칩이며, CPU·GPU 구성과 통합 메모리 대역폭이 개선됐다.",
+        "what": "애플이 M6와 M5 울트라 칩을 출시하며 성능과 AI 역량에서 진전을 이뤘다. M6는 애플 최초의 2나노미터 칩이다.",
+        "points": [
+          "CPU·GPU 구성이 개선됐다.",
+          "통합 메모리 대역폭이 늘었다.",
+          "전반적인 효율성도 향상됐다."
+        ],
+        "why": [
+          "로컬 AI 연산 수요가 애플 실리콘 로드맵의 핵심 축으로 자리잡았다."
+        ]
+      }
+    },
+    {
+      "id": "dev-whip-go-coding-agent",
+      "title": "Whip, Go로 만든 빠른 코딩 에이전트 하네스 공개",
+      "summary": "여러 프레임워크의 모범 사례를 통합하고 오픈소스 모델 탐색과 백그라운드 서브에이전트를 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/context-labs/whip",
+      "report": {
+        "tldr": "여러 프레임워크의 모범 사례를 통합하고 오픈소스 모델 탐색과 백그라운드 서브에이전트를 지원한다.",
+        "what": "Whip은 효율성과 다양한 모델·툴과의 매끄러운 상호작용을 위해 Go로 개발된 빠른 코딩 에이전트 하네스다.",
+        "points": [
+          "여러 프레임워크의 모범 사례를 통합했다.",
+          "오픈소스 모델 탐색 기능을 지원한다.",
+          "인터랙티브 UI와 백그라운드 서브에이전트를 제공한다."
+        ],
+        "why": [
+          "코딩 에이전트 하네스 생태계가 다양한 언어·구조로 빠르게 확장되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-latticedb-embedded-graph-db",
+      "title": "LatticeDB, 벡터·전문검색·그래프 순회를 하나로 묶은 임베디드 DB 공개",
+      "summary": "빠른 쿼리 레이어로 여러 언어에서 연결된 데이터를 효율적으로 조회할 수 있다.",
+      "source": "LatticeDB",
+      "url": "https://latticedb.org/",
+      "report": {
+        "tldr": "빠른 쿼리 레이어로 여러 언어에서 연결된 데이터를 효율적으로 조회할 수 있다.",
+        "what": "LatticeDB는 벡터 유사도 검색, 전문 검색, 그래프 순회 기능을 하나의 로컬 엔진에 통합한 임베디드 프로퍼티 그래프 데이터베이스다.",
+        "points": [
+          "빠른 쿼리 레이어로 연결된 데이터를 효율적으로 조회할 수 있다.",
+          "파이썬, 자바스크립트 등 여러 프로그래밍 언어를 지원한다."
+        ],
+        "why": [
+          "단일 엔진에서 다양한 검색 방식을 결합하려는 데이터베이스 트렌드를 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-how-ai-remaking-security",
+      "title": "AI가 사이버보안을 다시 쓰는 방식",
+      "summary": "'보안을 통한 은폐' 전략이 더 이상 통하지 않는 이유를 짚는다.",
+      "source": "Venture in Security",
+      "url": "https://ventureinsecurity.net/p/how-ai-is-actually-remaking-security",
+      "report": {
+        "tldr": "'보안을 통한 은폐' 전략이 더 이상 통하지 않는 이유를 짚는다.",
+        "what": "AI가 사이버보안 지형을 바꾸면서 '보안을 통한 은폐(security by obscurity)' 전략이 무의미해지고 있다. 공격자들이 AI 역량을 활용해 시스템 취약점을 효율적이고 광범위하게 탐색할 수 있게 됐기 때문이다.",
+        "points": [
+          "보안팀은 노출 표면을 줄이는 데 집중해야 한다.",
+          "분석적 우위를 높이는 것이 중요해졌다.",
+          "새로운 위협 지형에 맞선 회복탄력성 확보가 필요하다."
+        ],
+        "why": [
+          "공격 자동화가 고도화될수록 방어 전략도 근본적으로 재설계돼야 한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-python-predeclared-constants",
+      "title": "파이썬의 사전 선언 상수 6개, 생각보다 특이하다",
+      "summary": "True·False·None은 키워드지만 __debug__는 대입이 불가능한 특수 식별자다.",
+      "source": "Seb's Site",
+      "url": "http://sebsite.pw/w/20260801-pythonconstants.html",
+      "report": {
+        "tldr": "True·False·None은 키워드지만 __debug__는 대입이 불가능한 특수 식별자다.",
+        "what": "파이썬에는 True, False, None, __debug__, Ellipsis, NotImplemented라는 6개의 사전 선언 상수가 있으며, 각기 다른 동작 방식을 보인다.",
+        "points": [
+          "True, False, None은 고유한 키워드다.",
+          "__debug__는 대입이 불가능한 특수 식별자다.",
+          "Ellipsis와 NotImplemented는 내장 객체라 전역 변수로 가려질 수 있다."
+        ],
+        "why": [
+          "언어 명세의 세부 사항이 실제 코드 동작에 미묘한 영향을 줄 수 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-str-lower-security-vulnerability",
+      "title": "파이썬 `str.lower()`가 보안 취약점이 될 수 있는 이유",
+      "summary": "인터프리터에 딸려오는 유니코드 데이터 버전에 의존하는 구조가 문제였다.",
+      "source": "Seth Michael Larson Blog",
+      "url": "https://sethmlarson.dev/when-str-lower-is-a-security-vulnerability",
+      "report": {
+        "tldr": "인터프리터에 딸려오는 유니코드 데이터 버전에 의존하는 구조가 문제였다.",
+        "what": "파이썬 StringPrep 구현에서 `str.lower()`를 사용하는 방식이 인터프리터에 포함된 유니코드 데이터 버전에 의존해 보안 취약점을 유발할 수 있다.",
+        "points": [
+          "최근 수정에서는 `str.lower()`의 동작을 유니코드 3.2.0 기준에 맞추기 위한 새로운 예외 처리를 추가했다."
+        ],
+        "why": [
+          "언어 표준 라이브러리의 작은 동작 차이가 보안에 직결될 수 있다는 사례다."
+        ]
+      }
+    },
+    {
+      "id": "dev-exowill-personal-ai-helper",
+      "title": "Exowill, 데이터 주권 지키면서 개인 목표에 적응하는 AI '조력자' 표방",
+      "summary": "장기적인 개인 목표에 맞춰 학습하고 적응하는 것을 지향한다.",
+      "source": "Exowill",
+      "url": "https://exowill.com/",
+      "report": {
+        "tldr": "장기적인 개인 목표에 맞춰 학습하고 적응하는 것을 지향한다.",
+        "what": "Exowill은 데이터 주권을 보장하면서도 개인의 장기적 목표를 학습하고 적응하는 AI '위대한 조력자'를 지향하며, 사용자가 자신만의 기술적 보조수단을 직접 구성할 수 있게 한다.",
+        "points": [
+          "장기적인 개인 목표에 맞춰 학습·적응한다.",
+          "데이터 주권을 유지하는 것을 핵심 가치로 내세운다."
+        ],
+        "why": [
+          "개인화된 AI 조력자 시장에서 프라이버시를 차별점으로 내세우는 시도가 늘고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-compression-is-prediction",
+      "title": "압축은 예측이다: LLM과 데이터 압축의 공통 뿌리",
+      "summary": "확률을 이해하고 활용해 정보를 효율적으로 표현한다는 점에서 둘은 본질적으로 같은 목표를 공유한다.",
+      "source": "ngrok Blog",
+      "url": "https://ngrok.com/blog/compression-is-prediction",
+      "report": {
+        "tldr": "확률을 이해하고 활용해 정보를 효율적으로 표현한다는 점에서 둘은 본질적으로 같은 목표를 공유한다.",
+        "what": "압축 기법과 LLM은 데이터를 예측하고 줄인다는 근본적으로 같은 목표를 공유하는데, 둘 다 확률을 이해하고 활용해 정보를 효율적으로 표현하는 데 의존하기 때문이다.",
+        "points": [
+          "압축과 언어 모델링은 확률 기반 예측이라는 공통 기반을 갖는다.",
+          "이 관점은 두 기술 영역 사이의 이론적 연결고리를 보여준다."
+        ],
+        "why": [
+          "정보이론적 관점에서 AI 모델의 작동 원리를 이해하는 데 도움을 준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-eve-online-python-3-migration",
+      "title": "이브 온라인, 파이썬 2.7에서 파이썬 3로 이전 시작",
+      "summary": "성능과 개발 도구 개선, 코드베이스 미래 대비가 목표다.",
+      "source": "EVE Online",
+      "url": "https://www.eveonline.com/news/view/the-move-to-python-3-begins",
+      "report": {
+        "tldr": "성능과 개발 도구 개선, 코드베이스 미래 대비가 목표다.",
+        "what": "이브 온라인이 성능과 개발 도구를 개선하고 게임 코드베이스를 미래에 대비시키기 위해 파이썬 2.7에서 파이썬 3로 전환을 시작했다.",
+        "points": [
+          "오래된 대형 라이브 서비스 게임의 마이그레이션 사례다.",
+          "성능, 개발 도구, 미래 대비가 주요 목표로 제시됐다."
+        ],
+        "why": [
+          "오래 운영된 코드베이스도 결국 최신 런타임으로의 전환이 불가피함을 보여주는 사례다."
+        ]
+      }
+    },
+    {
+      "id": "dev-gjallar-monitoring-tool",
+      "title": "\"바이너리 하나, YAML 하나, SQLite 하나\"로 직접 만든 모니터링 툴 'Gjallar'",
+      "summary": "복잡한 상용 모니터링 플랫폼 없이 다양한 서비스를 감시할 수 있게 설계됐다.",
+      "source": "rvier.fr Blog",
+      "url": "https://rvier.fr/posts/why-i-wrote-my-own-monitoring-tool-EN",
+      "report": {
+        "tldr": "복잡한 상용 모니터링 플랫폼 없이 다양한 서비스를 감시할 수 있게 설계됐다.",
+        "what": "경량 모니터링 툴 Gjallar는 단일 바이너리, YAML 설정 파일, SQLite 데이터베이스만으로 다양한 서비스를 감시할 수 있도록 만들어졌으며, 기존 모니터링 플랫폼의 복잡함을 피하는 것이 목표다.",
+        "points": [
+          "단일 Go 바이너리로 배포된다.",
+          "설정은 YAML 파일 하나로 관리한다.",
+          "데이터 저장은 SQLite를 사용한다."
+        ],
+        "why": [
+          "가벼운 자체 제작 도구가 무거운 상용 모니터링 스택의 대안이 될 수 있음을 보여준다."
+        ]
+      }
+    }
+  ]
+}

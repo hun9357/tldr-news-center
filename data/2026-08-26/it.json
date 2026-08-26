@@ -1,0 +1,227 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-jalapeno-inference-efficiency",
+      "title": "OpenAI 할라피뇨 칩, 700W 정격에도 실사용선 550W 이하 유지",
+      "summary": "브로드컴과 만든 첫 커스텀 가속기로 추론 비용과 전력 사용량을 줄이는 데 초점을 맞췄다.",
+      "source": "DataCenter Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-details-jalape%C3%B1o-ai-chip-with-700w-tdp/",
+      "report": {
+        "tldr": "브로드컴과 만든 첫 커스텀 가속기로 추론 비용과 전력 사용량을 줄이는 데 초점을 맞췄다.",
+        "what": "OpenAI가 브로드컴과 함께 만든 첫 커스텀 AI 가속기 할라피뇨의 세부 사항을 추가로 공개했다. 정격 전력은 700W이지만 실제 테스트 워크로드에서는 550W 이하로 유지됐다.",
+        "points": [
+          "정격 전력은 700W이지만 실사용 시 550W 이하를 유지했다.",
+          "추론 비용과 전력 사용량 절감이 설계 목표다."
+        ],
+        "why": [
+          "추론 비용 절감이 OpenAI의 서비스 확장 전략에 핵심적인 요소로 떠오르고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-gpt-5-6-terra-luna-govcloud",
+      "title": "OpenAI GPT-5.6 테라·루나, AWS 거브클라우드(US)에서 정식 제공",
+      "summary": "100만 토큰 컨텍스트와 반복 컨텍스트 90% 할인 프롬프트 캐싱을 지원한다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/08/openai-gpt-terra-luna-govcloud/",
+      "report": {
+        "tldr": "100만 토큰 컨텍스트와 반복 컨텍스트 90% 할인 프롬프트 캐싱을 지원한다.",
+        "what": "OpenAI의 GPT-5.6 테라와 루나 모델이 아마존 베드록을 통해 AWS 거브클라우드(US-West, US-East)에서 정식 제공된다. 테라는 균형 잡힌 성능을, 루나는 더 빠르고 저렴한 추론을 지향한다.",
+        "points": [
+          "두 모델 모두 100만 토큰 컨텍스트 윈도를 지원한다.",
+          "반복 컨텍스트에 대해 90% 할인되는 프롬프트 캐싱을 제공한다."
+        ],
+        "why": [
+          "정부·공공기관 대상 규제 준수 클라우드에서도 최신 프런티어 모델 접근이 확대되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-cisco-supermicro-nvidia-ai-factory",
+      "title": "시스코, 슈퍼마이크로 서버를 엔비디아 AI 팩토리 스택에 추가",
+      "summary": "액체·공랭 시스템을 더해 고밀도 GPU 인프라를 원하는 기업·뉴클라우드·소버린 클라우드를 겨냥한다.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4213820/cisco-bulks-up-its-ai-infrastructure-portfolio-with-supermicros-liquid-cooled-servers.html",
+      "report": {
+        "tldr": "액체·공랭 시스템을 더해 고밀도 GPU 인프라를 원하는 기업·뉴클라우드·소버린 클라우드를 겨냥한다.",
+        "what": "시스코가 엔비디아와의 시큐어 AI 팩토리 스택에 슈퍼마이크로의 액체·공랭 시스템을 추가했다. 확장된 스택은 점점 조밀해지는 GPU 인프라를 배포하는 기업, 뉴클라우드, 소버린 클라우드를 겨냥한다.",
+        "points": [
+          "슈퍼마이크로의 액체·공랭 시스템이 추가됐다.",
+          "고밀도 GPU 인프라 수요 기업을 타깃으로 한다."
+        ],
+        "why": [
+          "AI 인프라 파트너십이 하드웨어 벤더 간 합종연횡으로 확장되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-mckinsey-enterprise-ai-roi",
+      "title": "맥킨지 \"기업 AI, 마침내 ROI로 향하는 길 찾기 시작\"",
+      "summary": "투자는 계속 늘지만 실질적 실적 효과는 아직 제한적이며, 재설계된 워크플로에서 명확한 경로가 보이기 시작했다는 분석이다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/08/25/mckinsey-says-enterprise-ai-is-finally-on-the-road-to-roi/5292388",
+      "report": {
+        "tldr": "투자는 계속 늘지만 실질적 실적 효과는 아직 제한적이며, 재설계된 워크플로에서 명확한 경로가 보이기 시작했다는 분석이다.",
+        "what": "기업의 AI 투자는 계속 늘고 있지만 측정 가능한 실적 효과는 여전히 제한적이라는 것이 맥킨지의 최신 분석 결과다. 다만 도입이 재설계된 워크플로로 옮겨가면서 더 명확한 ROI 경로가 보이기 시작했다고 진단했다.",
+        "points": [
+          "AI 투자 규모는 계속 증가하고 있다.",
+          "실적으로 이어지는 효과는 아직 제한적이다.",
+          "재설계된 워크플로 도입이 ROI 개선의 열쇠로 지목됐다."
+        ],
+        "why": [
+          "AI 투자 대비 성과 입증이 여전히 기업들의 최대 과제임을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "it-saas-isnt-dead-sameness-is",
+      "title": "\"SaaS는 죽지 않는다, 획일성이 죽을 뿐\"",
+      "summary": "저렴한 AI 소프트웨어 생성이 표준화된 좌석 기반 요금제를 약화시키고 있다는 분석이다.",
+      "source": "Leaflet",
+      "url": "https://aicoding.leaflet.pub/3mtu6c5wsvc2n",
+      "report": {
+        "tldr": "저렴한 AI 소프트웨어 생성이 표준화된 좌석 기반 요금제를 약화시키고 있다는 분석이다.",
+        "what": "SaaS 자체가 사라지는 것은 아니지만, 저렴한 AI 보조 소프트웨어 생성이 표준화된 애플리케이션과 좌석 기반 가격 모델을 약화시킬 것이라는 분석이 나왔다.",
+        "points": [
+          "벤더는 권위 있는 데이터, 컴플라이언스, 보안, 통합, 네트워크, 운영 책임 같은 기반 서비스를 제공하는 방향으로 이동할 수 있다.",
+          "고객은 더 작은 내부 대상을 위한 맞춤형 애플리케이션을 직접 만들 수 있게 된다."
+        ],
+        "why": [
+          "AI가 소프트웨어 제작 비용을 낮추면서 SaaS 비즈니스 모델 자체가 재편될 가능성이 제기된다."
+        ]
+      }
+    },
+    {
+      "id": "it-perplexity-nvidia-local-agent",
+      "title": "퍼플렉시티·엔비디아, 로컬 구동 AI 에이전트 공개",
+      "summary": "DGX 스파크와 RTX 기반 리눅스 머신에서 토큰 과금 없이 에이전트 작업을 처리한다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs",
+      "report": {
+        "tldr": "DGX 스파크와 RTX 기반 리눅스 머신에서 토큰 과금 없이 에이전트 작업을 처리한다.",
+        "what": "퍼플렉시티의 새 '포터블 컴퓨터'는 엔비디아 DGX 스파크와 RTX 기반 리눅스 머신에서 에이전트 워크로드를 로컬로 구동해 로컬 작업에 대한 토큰 과금을 피한다.",
+        "points": [
+          "작업은 기본적으로 기기에서 시작되고, 필요 시 클라우드 모델로 전환할 수 있다.",
+          "DGX 스파크와 RTX GPU 환경에서 동작한다."
+        ],
+        "why": [
+          "기업 IT 환경에서도 토큰 비용 없는 로컬 에이전트에 대한 수요가 커지고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-oracle-exadata-database-aws",
+      "title": "오라클 엑사데이터, AWS서 정식 제공... 장단점 공존",
+      "summary": "프로세서 라이선스 요구량은 줄지만 컴퓨팅·스토리지 비용은 높아질 수 있다는 지적이다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/databases/2026/08/24/oracle-exadata-databaseaws-offers-advantages-but-trade-offs-remain/5291731",
+      "report": {
+        "tldr": "프로세서 라이선스 요구량은 줄지만 컴퓨팅·스토리지 비용은 높아질 수 있다는 지적이다.",
+        "what": "오라클이 오라클 데이터베이스@AWS를 통해 엑사데이터 데이터베이스 서비스를 정식 제공하며 고성능 데이터베이스 플랫폼을 AWS 데이터센터로 확장했다.",
+        "points": [
+          "라이선싱 전문가들은 프로세서 라이선스 요구량을 줄일 수 있어 라이선스 제약이 있는 고객에게 적합하다고 본다.",
+          "다만 컴퓨팅·스토리지 비용이 높고 용량 조정이 덜 세밀해 네이티브 AWS 옵션 대비 가치가 떨어질 수 있다는 지적도 있다."
+        ],
+        "why": [
+          "멀티클라우드 데이터베이스 전략에서 비용과 유연성 사이의 트레이드오프가 여전히 핵심 쟁점이다."
+        ]
+      }
+    },
+    {
+      "id": "it-supabase-mcp-enterprise-auth",
+      "title": "수퍼베이스 MCP 서버, 엔터프라이즈 관리형 인증 정식 지원",
+      "summary": "앤트로픽·옥타와 함께 만든 기능으로 관리자가 한 번의 승인으로 조직 전체 접근을 관리할 수 있다.",
+      "source": "Supabase",
+      "url": "https://supabase.com/blog/enterprise-managed-auth-for-the-supabase-mcp-server",
+      "report": {
+        "tldr": "앤트로픽·옥타와 함께 만든 기능으로 관리자가 한 번의 승인으로 조직 전체 접근을 관리할 수 있다.",
+        "what": "수퍼베이스가 팀·엔터프라이즈 플랜용 MCP 서버 엔터프라이즈 관리형 인증을 정식 출시했다. 앤트로픽, 옥타와 함께 구축했다.",
+        "points": [
+          "관리자가 한 번의 승인으로 클로드 내 수퍼베이스 접근을 조직 아이덴티티 공급자를 통해 관리할 수 있다.",
+          "각 직원은 수퍼베이스에서 이미 갖고 있던 프로젝트·역할·권한을 그대로 유지한다."
+        ],
+        "why": [
+          "기업용 MCP 연동에서 아이덴티티 거버넌스가 핵심 요구사항으로 자리잡고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-google-migration-center-ai",
+      "title": "구글, 클라우드 마이그레이션 센터에 AI 평가 기능 추가",
+      "summary": "심층 기술 검증 이전 단계의 초기 분석과 비즈니스 케이스 작성을 자동화한다.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4213538/google-adds-ai-powered-assessments-to-migration-center-to-speed-up-cloud-migration-planning.html",
+      "report": {
+        "tldr": "심층 기술 검증 이전 단계의 초기 분석과 비즈니스 케이스 작성을 자동화한다.",
+        "what": "구글이 마이그레이션 센터에 AI 기반 평가 기능을 추가해 클라우드 마이그레이션 계획의 일부를 자동화한다. 심층 기술 검증에 앞선 초기 분석 속도를 높이는 데 목적이 있다.",
+        "points": [
+          "초기 분석과 비즈니스 케이스 작성을 자동화한다.",
+          "심층 기술 검증 이전 단계를 겨냥한다."
+        ],
+        "why": [
+          "클라우드 마이그레이션 전 과정에 AI 자동화가 확대되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-open-weight-models-enterprise",
+      "title": "오픈웨이트 모델, 기업 AI 프로덕션 워크로드로 본격 진입",
+      "summary": "버셀 AI 게이트웨이 사용 데이터 기준으로 비용 이점과 멀티모델 배포 역할이 커지고 있다.",
+      "source": "Constellation Research",
+      "url": "https://www.constellationr.com/research/blog/open-weight-models-are-gaining-ground-enterprise-ai",
+      "report": {
+        "tldr": "버셀 AI 게이트웨이 사용 데이터 기준으로 비용 이점과 멀티모델 배포 역할이 커지고 있다.",
+        "what": "버셀 AI 게이트웨이의 사용 데이터를 인용한 분석에 따르면 오픈웨이트 모델이 개발자 실험 단계를 넘어 기업 프로덕션 워크로드로 이동하고 있다.",
+        "points": [
+          "비용 이점과 멀티모델 배포에서의 역할 확대가 주요 동인이다.",
+          "관리형 추론 가용성과 개발자 채택도 늘고 있다.",
+          "에이전틱 워크로드에 대한 적합성도 강점으로 꼽힌다."
+        ],
+        "why": [
+          "광범위한 자체 호스팅 없이도 오픈웨이트 모델이 기업 AI 스택의 지속 가능한 한 축이 될 수 있다는 전망이다."
+        ]
+      }
+    },
+    {
+      "id": "it-ietf-126-ai-ipv6",
+      "title": "IETF 126, AI 에이전트 대규모 배포 위한 인터넷 프로토콜 논의",
+      "summary": "IPv6·DNS·AI 관련 세션에서 에이전트 확산을 지원할 프로토콜 방향이 다뤄졌다.",
+      "source": "APNIC Blog",
+      "url": "https://blog.apnic.net/2026/08/25/ai-ipv6-and-the-future-internet-at-ietf-126/",
+      "report": {
+        "tldr": "IPv6·DNS·AI 관련 세션에서 에이전트 확산을 지원할 프로토콜 방향이 다뤄졌다.",
+        "what": "IETF(국제인터넷표준화기구) 126차 회의에서 IPv6, DNS, AI를 아우르는 논의가 AI 에이전트의 대규모 배포를 인터넷 프로토콜이 어떻게 지원할 수 있을지에 초점을 맞췄다.",
+        "points": [
+          "IPv6·DNS·AI 세션이 서로 연계돼 논의됐다.",
+          "대규모 AI 에이전트 배포를 지원하는 프로토콜 방향이 핵심 주제였다."
+        ],
+        "why": [
+          "AI 에이전트 확산이 인터넷 표준 논의의 새로운 의제로 자리잡고 있다."
+        ]
+      }
+    },
+    {
+      "id": "it-apple-macs-local-ai-inference",
+      "title": "애플 신형 맥, 로컬 AI 추론에 전면 베팅",
+      "summary": "새 맥 스튜디오와 맥 미니가 기기 내에서 더 강력한 모델을 구동하는 데 초점을 맞췄다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+      "report": {
+        "tldr": "새 맥 스튜디오와 맥 미니가 기기 내에서 더 강력한 모델을 구동하는 데 초점을 맞췄다.",
+        "what": "애플의 새 맥 스튜디오와 맥 미니는 점점 더 강력해지는 AI 모델을 로컬 하드웨어에서 직접 구동하는 데 무게를 실었다.",
+        "points": [
+          "기기 내 로컬 AI 모델 구동 성능이 강조됐다.",
+          "맥 미니와 맥 스튜디오 모두 해당 방향으로 업데이트됐다."
+        ],
+        "why": [
+          "개인·기업 사용자 모두를 대상으로 한 로컬 AI 컴퓨트 경쟁이 애플에서도 본격화되고 있다."
+        ]
+      }
+    }
+  ]
+}
