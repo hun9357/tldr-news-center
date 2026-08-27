@@ -1,0 +1,246 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-meta-settlement-16-7b",
+      "title": "메타, 소셜미디어 중독 소송으로 캘리포니아 등과 167억 달러 합의",
+      "summary": "합의금의 70%는 유튜브·틱톡이 동일한 안전 조치를 도입할 때만 나머지 30%가 풀리는 구조로, 경쟁사를 직접 소송하지 않고도 압박하는 효과를 낸다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/meta-social-media-trial-settlement.html?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "메타는 일일 사용시간 제한, 연령 확인, 야간 모드 도입을 의무화받았고, 이 조건이 구글·틱톡에도 간접 압박으로 작용한다.",
+        "what": "각 주는 167억 달러 중 70%는 조건 없이 확보하지만, 나머지 30%는 유튜브와 틱톡이 메타와 동일한 일일 사용시간 제한, 연령 확인, 야간 모드를 도입해야 풀린다.",
+        "points": [
+          "메타-캘리포니아 등 여러 주 간 167억 달러 합의",
+          "각 주는 70% 무조건 확보",
+          "나머지 30%는 유튜브·틱톡의 동일 조치 도입에 연동",
+          "메타에 일일 사용시간 제한·연령 확인·야간 모드 의무화"
+        ],
+        "why": [
+          "하나의 합의로 경쟁사에까지 규제 압박을 확산시키는 새로운 법적 전략을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-turbulent-era-gates",
+      "title": "격동의 AI 시대, 지금의 선택이 결정적이다",
+      "summary": "AI가 이전 기술 전환보다 더 빠르게 업무 방식을 바꾸며 거대한 기회와 함께 수백만 개 일자리 위협을 동반한다.",
+      "source": "LinkedIn (Bill Gates)",
+      "url": "https://www.linkedin.com/pulse/turbulent-ai-era-here-choices-we-make-now-critical-bill-gates-kkmze/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "혜택이 부와 접근성을 가진 이들에게만 돌아가지 않도록 하는 것이 최우선 과제로 제시됐다.",
+        "what": "리더들은 더 강력한 사회 안전망과 글로벌 AI 정책을 구축해야 한다는 제언이 담겼다.",
+        "points": [
+          "AI가 이전 기술 전환보다 빠르게 업무 방식 변화",
+          "거대한 기회와 수백만 일자리 위협 동시 존재",
+          "혜택의 폭넓은 분배가 최우선 과제",
+          "강력한 사회 안전망·글로벌 AI 정책 필요성 제기"
+        ],
+        "why": [
+          "AI 전환기 정책 설계에 대한 업계 원로의 시각을 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-linkedin-ai-citations-74pct",
+      "title": "AI 답변 엔진이 인용하는 사람, 74%는 링크드인에 있었다",
+      "summary": "63개 B2B 기업 감사에서 회사 페이지가 아닌 개별 직원이 AI 답변 엔진의 인용 대상이 되는 경우가 압도적으로 많았다.",
+      "source": "Oktopost",
+      "url": "https://www.oktopost.com/blog/linkedin-ai-citations/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "개인 게시물이 소셜 인용의 32.8%를 차지한 반면 회사 페이지는 6.7%에 그쳤고, 인용된 인물의 74%는 링크드인에 게시한 이력이 있었다.",
+        "what": "AI 모델이 특정 주장에 이름과 직함을 붙이려면 실명 게시물이 필요하며, 집합적으로 말하는 브랜드 페이지는 이런 방식으로 인용되기 어렵다.",
+        "points": [
+          "63개 B2B 기업 대상 감사 결과",
+          "개인 게시물 인용 32.8% vs 회사 페이지 인용 6.7%",
+          "인용된 인물의 74%가 링크드인에 게시 이력 보유",
+          "AI 모델은 이름·직함이 붙은 주장을 선호"
+        ],
+        "why": [
+          "AI 답변 엔진 시대에는 임직원 개인 브랜딩이 기업 마케팅의 핵심 자산이 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-linkedin-ads-tactics-q3",
+      "title": "2026년 3분기 가장 효과적인 링크드인 광고 전략 5가지",
+      "summary": "오디언스 네트워크와 정교한 서드파티 타겟팅을 결합하고, 고객 성공 사례를 언게이트 케이스 스터디 광고로 전환하라는 제안이다.",
+      "source": "The Squeeze by Adjuice",
+      "url": "https://thesqueezebyadjuice.beehiiv.com/p/the-5-most-effective-linkedin-ads-tactics-in-q3-2026?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "언게이트 콘텐츠 반응이 약할 때는 고가치 오퍼를 게이트로 걸고, 프리뷰 링크가 있는 소트 리더 광고로 인바운드를 늘리라는 전략이다.",
+        "what": "브랜디드 싱글 이미지 소트 리더 광고는 강한 인게이지먼트와 브랜드 구축을 동시에 달성할 수 있다는 조언도 포함됐다.",
+        "points": [
+          "링크드인 오디언스 네트워크 + 정교한 서드파티 타겟팅 결합",
+          "고객 성공 사례를 언게이트 케이스 스터디 광고로 전환",
+          "언게이트 콘텐츠 반응 약할 때 고가치 오퍼 게이트",
+          "프리뷰 링크 포함 소트 리더 광고로 인바운드 증대"
+        ],
+        "why": [
+          "B2B 마케터들의 링크드인 광고 최적화 전략에 실질적 참고가 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-press-release-links-seo",
+      "title": "보도자료 링크 전략을 다시 생각하라",
+      "summary": "보도자료 내 첫 브랜드 언급은 홈페이지가 아닌 발표와 가장 관련 있는 페이지로 링크해야 한다.",
+      "source": "LinkedIn (Sarah Evans)",
+      "url": "https://www.linkedin.com/posts/prsarahevans_hot-take-tuesday-if-the-first-mention-share-7498128456333860865-BO6L/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "이는 검색엔진과 AI 시스템에 브랜드가 무엇과 연관돼야 하는지 더 강한 신호를 준다.",
+        "what": "홈페이지 링크는 상용구(boilerplate)에 남겨두고, 나머지 모든 링크는 명확한 목적을 갖도록 구성해야 한다는 조언이다.",
+        "points": [
+          "첫 브랜드 언급은 관련 페이지로 직접 링크",
+          "홈페이지 링크는 보일러플레이트에만 유지",
+          "모든 링크가 명확한 목적을 갖도록 구성",
+          "검색엔진·AI 시스템에 더 강한 연관 신호 제공"
+        ],
+        "why": [
+          "AI 검색 최적화(AIO) 시대에 링크 구조 자체가 SEO 전략의 일부가 되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-demand-gen-manager-kit",
+      "title": "신임 디맨드젠 매니저를 위한 성공 키트",
+      "summary": "입사 첫 90일 동안 비즈니스를 파악하고, 캠페인을 빠르게 론칭하며, 측정 인프라를 구축하는 방법을 다룬 가이드다.",
+      "source": "Vector",
+      "url": "https://www.vector.co/guides-and-reports/new-demand-gen-manager-success-kit?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI가 전략적 판단을 대체하지 않으면서 일상 업무를 어디까지 간소화할 수 있는지도 함께 짚는다.",
+        "what": "비즈니스 진단, 빠른 캠페인 론칭, 올바른 측정 인프라 구축, 고가치 오디언스 시그널 식별 방법을 순서대로 안내한다.",
+        "points": [
+          "입사 첫 90일 업무 로드맵 제공",
+          "비즈니스 진단 방법론 포함",
+          "빠른 캠페인 론칭 가이드",
+          "올바른 측정 인프라 구축 방법 설명"
+        ],
+        "why": [
+          "신임 마케팅 리더의 온보딩 시행착오를 줄여줄 수 있는 실무 가이드"
+        ]
+      }
+    },
+    {
+      "id": "marketing-measurement-function-4-roles",
+      "title": "현대 마케팅 측정 조직에 필요한 4가지 역할, 거의 모든 기업이 못 채우고 있다",
+      "summary": "측정 사이언티스트, 실험 리드, 재무 통역가, 의사결정 아키텍트라는 4개 역할이 모두 필요하다.",
+      "source": "Karan Dhir Substack",
+      "url": "https://karandhir.substack.com/p/the-4-roles-every-modern-measurement-function-needs-and-almost-no-company-has-staffed-all-4?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "역할을 통합해 운영하면 일시적으로는 가능하지만, 대개 관계·의사결정 작업이 방치되면서 측정이 다시 모델링 작업으로 축소된다.",
+        "what": "사이언티스트는 신뢰할 수 있는 모델을 구축하고, 실험 리드는 인과적 근거를 만들며, 재무 통역가는 모델링된 임팩트를 재무 결과와 조화시켜 재무팀이 수치를 신뢰하게 한다. 의사결정 아키텍트는 이런 발견을 예산 프로세스와 연결해 의사결정 권한·타이밍·오버라이드 규정을 정의한다.",
+        "points": [
+          "측정 사이언티스트: 신뢰할 수 있는 모델 구축",
+          "실험 리드: 인과적 근거 생산",
+          "재무 통역가: 모델링된 임팩트와 재무 결과 조화",
+          "의사결정 아키텍트: 발견을 예산 프로세스와 연결"
+        ],
+        "why": [
+          "마케팅 측정 조직의 구조적 공백이 의사결정 신뢰도 저하로 이어질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-trend-is-dead-fatigue",
+      "title": "'그건 이제 끝났다'고 선언하기 전에, 당신이 지루해진 건 아닌지 생각해보라",
+      "summary": "마케터와 크리에이터는 자신의 피드를 시장 조사로 착각해 트렌드를 실제보다 빨리 '죽었다'고 선언하는 경향이 있다.",
+      "source": "Raised on Social",
+      "url": "https://raisedonsocial.substack.com/p/shot-take-stop-declaring-things-as-dead?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "알고리즘 피드는 고도로 개인화된 문화 관점을 만들어내기 때문에, 반복 노출만으로도 다른 오디언스는 여전히 발견 중인 포맷이 포화된 것처럼 느껴질 수 있다.",
+        "what": "트렌드를 폐기하기 전에 자신의 피드 너머를 살펴보고 개인적 피로감과 실제 오디언스 행동을 구분해야 한다는 조언이다.",
+        "points": [
+          "개인 피드를 시장 조사로 착각하는 경향",
+          "알고리즘 피드가 만드는 고도로 개인화된 문화 인식",
+          "반복 노출이 실제 포화가 아닌 개인적 피로로 이어질 수 있음",
+          "트렌드 판단 전 개인적 피로와 실제 행동 데이터를 구분해야 함"
+        ],
+        "why": [
+          "마케터의 직관적 판단이 데이터 기반 의사결정을 오도할 수 있음을 경고한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-great-meta-migration",
+      "title": "대이동: 메타 출신들이 광고 업계를 재편하는 방식",
+      "summary": "메타의 광고 플레이북이 OpenAI·아마존·틱톡·로쿠의 광고 제품·영업 조직으로 확산되고 있다.",
+      "source": "AdExchanger",
+      "url": "https://www.adexchanger.com/platforms/the-great-meta-migration/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "메타의 셀프서브 방식이 메타 광고 사업을 시가총액 1조 달러 이상으로 이끌었고, 이제 그 인재들이 여러 회사로 퍼져나가고 있다.",
+        "what": "이런 인력 이동은 2018년부터 이어진 메타 내부의 정리해고와 사기 저하가 계기가 됐지만, 핀터레스트가 초기에 페이스북 인재를 대거 영입하고도 페이스북의 성장 곡선을 재현하지 못한 사례처럼 이 전략이 항상 통하는 것은 아니다.",
+        "points": [
+          "메타 출신들이 OpenAI·아마존·틱톡·로쿠의 광고 조직 이끌고 있음",
+          "메타의 셀프서브 광고 모델이 확산 중",
+          "2018년부터 이어진 메타 내부 이직 사유",
+          "핀터레스트 사례처럼 항상 성공하는 전략은 아님"
+        ],
+        "why": [
+          "광고 업계 인재 이동이 플랫폼 간 경쟁 구도 변화의 선행지표가 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-boots-ariana-grande-activation",
+      "title": "부츠, 인플루언서 아이디어를 활용한 반응형 마케팅으로 아리아나 그란데 팬 이벤트 성사",
+      "summary": "부츠는 한 크리에이터의 틱톡 아이디어를 몇 시간 만에 1만 달러 규모의 콘서트 이벤트로 전환했다.",
+      "source": "Corq Studio",
+      "url": "https://corq.studio/insights/boots-reactive-marketing-strategy-capitalises-on-influencers-idea-to-give-back-to-ariana-grande-fans/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "이 캠페인은 관련 크리에이터 콘텐츠에서 79만3000회 이상의 조회수를 기록하며 긍정적인 브랜드 정서를 이끌어냈다.",
+        "what": "22명의 팬을 콘서트에 초청하며 소셜팀이 관련 기회가 생겼을 때 신속히 행동할 자율성을 갖는 것의 가치를 보여줬다. 동시에 브랜드가 진성 팬 대신 인플루언서를 고수요 이벤트에 데려가는 관행에 대한 오디언스 피로감도 함께 드러났다.",
+        "points": [
+          "크리에이터 틱톡 아이디어를 1만 달러 콘서트 이벤트로 전환",
+          "22명 팬 콘서트 초청",
+          "관련 콘텐츠 79만3000회 이상 조회수 기록",
+          "소셜팀의 신속한 실행 자율성이 성공 요인"
+        ],
+        "why": [
+          "실시간 반응형 마케팅이 만들어내는 파급력을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "marketing-linkedin-ads-bid-tip",
+      "title": "링크드인 광고 팁: 입찰가를 10% 낮춰라",
+      "summary": "CPC·CPL·CPM이 오를 경우 새 오디언스로 캠페인을 재구축하는 대신 입찰가를 10% 낮추라는 조언이다.",
+      "source": "LinkedIn (Digital Marketing Joe)",
+      "url": "https://www.linkedin.com/posts/digital-marketing-joe_actual-hack-that-works-on-linkedin-ads-share-7491866159307362304-o08P/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "캠페인 재구축보다 간단한 입찰가 조정이 더 효율적인 대응이 될 수 있다.",
+        "what": "CPC·CPL·CPM이 상승할 때 새로운 오디언스로 캠페인을 다시 만드는 대신 단순히 입찰가를 10% 낮추라는 실용적 팁이다.",
+        "points": [
+          "CPC·CPL·CPM 상승 시 대응법",
+          "캠페인 재구축 대신 입찰가 10% 인하",
+          "더 간단하고 빠른 대응 방식"
+        ],
+        "why": [
+          "복잡한 재구축 없이도 광고 효율을 관리할 수 있는 실전 팁이다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-google-local-services-booking",
+      "title": "구글, 로컬 서비스 광고 직접 예약 기능 확대",
+      "summary": "이제 기업들이 예약 파트너를 수동으로 연결할 필요가 없어졌다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2092237387178860721.html?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "로컬 서비스 광고에서 예약 연동 과정이 자동화되며 기업의 설정 부담이 줄었다.",
+        "what": "기존에는 예약 파트너를 수동으로 연결해야 했지만, 이번 업데이트로 이 과정이 필요 없어졌다.",
+        "points": [
+          "로컬 서비스 광고 직접 예약 기능 확대",
+          "예약 파트너 수동 연결 불필요"
+        ],
+        "why": [
+          "로컬 비즈니스의 광고 운영 부담을 줄이는 구글의 지속적 기능 개선"
+        ]
+      }
+    }
+  ]
+}

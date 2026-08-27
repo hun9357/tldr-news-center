@@ -1,0 +1,307 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-cisa-oracle-flaw-deadline",
+      "title": "CISA, 8월 27일까지 오라클 결함 패치 명령",
+      "summary": "CISA는 실제 악용이 확인된 오라클 HTTP 서버·웹로직 취약점을 KEV 카탈로그에 추가하고 연방기관에 패치를 명령했다.",
+      "source": "ITNerd Blog",
+      "url": "https://itnerd.blog/2026/08/25/the-cisa-orders-federal-agencies-to-patch-actively-exploited-oracle-flaw-by-august-27?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "CVE-2026-21962(CVSS 10.0)은 오라클 HTTP 서버와 웹로직 서버 프록시 플러그인에서 실제 악용이 확인된 최고위험 취약점이다.",
+        "what": "CISA는 이 취약점을 알려진 악용 취약점(KEV) 카탈로그에 추가하고 연방기관에 2026년 1월 패치를 8월 27일까지 적용하도록 명령했다.",
+        "points": [
+          "CVSS 10.0 최고 위험도 취약점",
+          "실제 악용이 확인돼 KEV 카탈로그에 추가",
+          "연방기관 대상 1월 패치 적용 마감일 8월 27일"
+        ],
+        "why": [
+          "최고위험도 취약점의 실제 악용 확인은 모든 조직의 즉각적인 패치를 요구한다"
+        ],
+        "action": "오라클 HTTP 서버·웹로직 서버 프록시 플러그인을 사용 중이라면 즉시 2026년 1월 패치를 적용해야 한다."
+      }
+    },
+    {
+      "id": "infosec-paylogix-breach",
+      "title": "복리후생 플랫폼 페이로직스, 해커에 금융·건강 데이터 탈취",
+      "summary": "페이로직스는 지난해 11월 발생한 침해로 최소 6만5000명의 데이터가 노출됐다고 공개했다.",
+      "source": "The Record",
+      "url": "https://therecord.media/paylogix-cyberattack-akira-ransomware?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "아키라 랜섬웨어 조직이 지난 1월 페이로직스를 자신들의 유출 사이트에 등록했다.",
+        "what": "유출된 데이터에는 사회보장번호, 전자서명, 금융 계좌 정보, 의료 데이터, 여권 번호, 납세자 ID가 포함됐다.",
+        "points": [
+          "최소 6만5000명의 데이터 노출",
+          "SSN·전자서명·금융계좌·의료데이터·여권번호·납세자ID 포함",
+          "아키라 랜섬웨어 그룹이 1월 유출 사이트에 등재",
+          "침해 발생 시점은 지난해 11월"
+        ],
+        "why": [
+          "복리후생 플랫폼처럼 민감한 개인정보를 다루는 벤더의 보안이 취약할 경우 파급력이 크다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ubiquiti-critical-vulns",
+      "title": "유비쿼티, 최고위험도 취약점 3건 패치",
+      "summary": "유니파이 프로텍트·토크 애플리케이션과 유니파이 OS 서버 제품군에서 CVSS 10점 취약점 3건이 발견됐다.",
+      "source": "TLDR Newsletter Links",
+      "url": "https://links.tldrnewsletter.com/NMGiIN",
+      "report": {
+        "tldr": "두 개의 취약점은 명령어 삽입으로, 나머지 하나는 CRLF 삽입을 통한 인증 우회로 이어질 수 있었다.",
+        "what": "유니파이 프로텍트 영상 감시 플랫폼과 유니파이 토크 애플리케이션에서 입력 검증 미흡으로 인한 명령어 삽입 취약점 2건이, 유니파이 OS 기기에서는 CRLF 삽입을 이용한 인증 우회 취약점 1건이 확인돼 모두 패치됐다.",
+        "points": [
+          "유니파이 프로텍트·토크에서 명령어 삽입 취약점 확인",
+          "유니파이 OS 기기에서 CRLF 삽입 기반 인증 우회 취약점 확인",
+          "모두 CVSS 10점 최고 위험도",
+          "3건 모두 패치 완료"
+        ],
+        "why": [
+          "네트워크 장비·CCTV 등 IoT 인프라의 최고위험 취약점은 즉각적인 대응이 필요하다"
+        ],
+        "action": "유니파이 프로텍트·토크·OS 서버 사용 기관은 즉시 최신 버전으로 업데이트해야 한다."
+      }
+    },
+    {
+      "id": "infosec-patch-window-collapsing-control-plane",
+      "title": "패치 대응 시간이 붕괴하고 있다...보안에 필요한 새로운 컨트롤 플레인",
+      "summary": "AI 가속 익스플로잇 개발로 취약점 악용까지 걸리는 시간이 몇 시간으로 압축되며 전통적 패치 검증 주기를 앞지르고 있다.",
+      "source": "Microsoft Azure Blog",
+      "url": "https://azure.microsoft.com/en-us/blog/the-patch-window-is-collapsing-why-security-needs-a-new-control-plane?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "동적 세그멘테이션과 적응형 레이트 리미팅 같은 즉각적 보상 조치를 통해 영구 패치 검증 기간 동안 위협을 억제해야 한다는 제안이다.",
+        "what": "이 노출 간극을 메우기 위해 네트워크 강제 컨트롤 플레인으로 전환해 영구 패치가 검증되는 동안에도 위협을 능동적으로 봉쇄해야 한다는 주장이다. 네트워크 수준의 스트림 스로틀링은 취약한 프로토콜을 완전히 비활성화하지 않고도 활성 위협을 효과적으로 완화한다.",
+        "points": [
+          "AI 가속 익스플로잇 개발로 악용까지 걸리는 시간이 수시간으로 단축",
+          "전통적 패치 검증 주기가 이를 따라가지 못함",
+          "동적 세그멘테이션·적응형 레이트 리미팅 등 즉각적 보상 조치 필요",
+          "네트워크 수준 스트림 스로틀링으로 서비스 중단 없이 위협 완화 가능"
+        ],
+        "why": [
+          "AI가 공격 속도를 끌어올리는 만큼 방어 체계의 구조적 전환이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-nemoclaw-drive-by-hijack",
+      "title": "웹사이트 방문 한 번으로 AI 에이전트 하이재킹...NemoClaw 취약점",
+      "summary": "사이에라가 공개한 CVE-2026-65105는 엔비디아 NemoClaw의 설정 결함으로 DNS 리바인딩을 통한 로컬 오야마 API 무단 접근을 허용한다.",
+      "source": "Cyera",
+      "url": "https://www.cyera.com/research/nemoclaw-one-website-visit-to-hijack-your-ai-agent?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "채팅 템플릿을 수정하면 이후 모든 시스템 프롬프트에 숨겨진 지시를 삽입할 수 있다는 점이 특히 위험하다.",
+        "what": "NemoClaw는 오야마를 0.0.0.0:11434에 바인딩하면서 호스트 헤더 검증을 비활성화해, 공격자가 제어하는 사이트가 DNS 리바인딩으로 인증 없이 피해자의 로컬 오야마 API에 접근할 수 있게 만든다. 공격자는 모델 목록 조회, 템플릿·프롬프트 추출, 모델 삭제·덮어쓰기, GPU 자원 소모, 사용자 강제 로그아웃까지 할 수 있다.",
+        "points": [
+          "엔비디아 NemoClaw 설정이 오야마 호스트 헤더 검증을 비활성화",
+          "DNS 리바인딩으로 인증 없이 로컬 API 접근 가능",
+          "모델 삭제·덮어쓰기, GPU 자원 소모, 강제 로그아웃 가능",
+          "채팅 템플릿 수정으로 향후 모든 프롬프트에 숨겨진 지시 삽입 가능"
+        ],
+        "why": [
+          "웹사이트 방문만으로 로컬 AI 에이전트가 장악될 수 있다는 새로운 공격 표면을 보여준다"
+        ],
+        "action": "NemoClaw·오야마 사용자는 호스트 바인딩 설정을 점검하고 최신 보안 패치를 적용해야 한다."
+      }
+    },
+    {
+      "id": "infosec-cod1-rce-ai-evening",
+      "title": "20년 된 콜오브듀티1 RCE, AI 도움으로 하룻저녁 만에 발견",
+      "summary": "리서처들이 도커에서 구동한 콜오브듀티1 리눅스 전용서버의 rcon map 명령에서 스택 오버플로우를 찾아냈다.",
+      "source": "Zolder",
+      "url": "https://zolder.io/en/blog/pwning-call-of-duty-1/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "낮은 메모리 주소의 jmp esp 가젯과 영숫자 안전 셸코드를 활용해 게임 서버 프로세스에서 셸을 획득했다.",
+        "what": "72바이트 버퍼가 검증되지 않은 맵 이름을 받아들였고, 76바이트를 전송하면 저장된 리턴 주소를 덮어쓸 수 있었다. 입력 필터링이 높은 바이트 주소와 int 0x80을 차단했지만, 낮은 메모리 jmp esp 가젯과 sysenter 기반 영숫자 안전 셸코드로 이를 우회했다. rcon 비밀번호가 필요해 인증 후 원격코드실행(post-auth RCE)에 해당한다.",
+        "points": [
+          "72바이트 버퍼의 미검증 맵 이름 입력이 근본 원인",
+          "76바이트 전송으로 리턴 주소 덮어쓰기 가능",
+          "낮은 메모리 jmp esp 가젯과 영숫자 안전 셸코드로 필터링 우회",
+          "rcon 비밀번호가 필요한 인증 후 RCE"
+        ],
+        "why": [
+          "20년 된 레거시 게임 서버조차 여전히 공격 표면이 될 수 있다는 사례"
+        ]
+      }
+    },
+    {
+      "id": "infosec-vercel-run-sdk",
+      "title": "버셀, 에이전트용 보안 실행 환경 'Run SDK' 공개",
+      "summary": "신뢰할 수 없는 자바스크립트·타입스크립트를 격리 실행하는 하드닝된 퀵JS 샌드박스를 제공한다.",
+      "source": "Vercel Blog",
+      "url": "https://vercel.com/blog/introducing-run?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Run SDK는 버셀 AI SDK 내 에이전트 워크플로우에서 애플리케이션 비밀·Node.js 환경·네트워크로부터 코드 실행을 격리한다.",
+        "what": "개발자는 샌드박스에 좁게 제한된 호스트 함수를 노출하고, 리소스 한도를 강제하며, 인증이나 사람의 승인을 위해 실행을 일시 정지시킬 수 있다.",
+        "points": [
+          "하드닝된 퀵JS 샌드박스로 신뢰할 수 없는 코드 격리",
+          "애플리케이션 비밀·Node.js 환경·네트워크로부터 격리",
+          "좁게 제한된 호스트 함수 노출 가능",
+          "인증·승인을 위한 실행 일시 정지 지원"
+        ],
+        "why": [
+          "에이전트가 임의 코드를 실행하는 워크플로우가 늘면서 격리 기술 수요도 커지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-alice-product-launch",
+      "title": "앨리스, AI 모델·배포 시스템 레드팀 테스트 도구 출시",
+      "summary": "앨리스는 출시 전 모델 테스트, 악성 프롬프트 시뮬레이션, 배포된 시스템 모니터링을 지원한다.",
+      "source": "Alice",
+      "url": "https://alice.io/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "팀은 비즈니스 규칙을 설정하고 침해 시뮬레이션을 실행하며 트래픽을 추적할 수 있다.",
+        "what": "출시 전 모델 테스트, 악성 프롬프트 시뮬레이션, 배포 시스템 모니터링 기능을 하나의 제품으로 제공한다.",
+        "points": [
+          "출시 전 모델 테스트",
+          "악성 프롬프트 시뮬레이션",
+          "배포된 시스템 실시간 모니터링",
+          "비즈니스 규칙 설정 및 침해 시뮬레이션 실행"
+        ],
+        "why": [
+          "AI 시스템 전용 레드팀·모니터링 도구 시장이 성장하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-threat-model-generator",
+      "title": "오픈소스 프로젝트용 위협 모델 생성기 공개",
+      "summary": "오케스트레이터와 독립적으로 호출 가능한 전문 에이전트로 구성된 위협 모델링 에이전트 스킬 세트가 공개됐다.",
+      "source": "GitHub",
+      "url": "https://github.com/alpha-omega-security/threat-model?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "오픈소스 프로젝트를 위한 위협 모델을 자동으로 생성하는 에이전트 스킬 세트다.",
+        "what": "오케스트레이터 에이전트와 개별 호출 가능한 전문 에이전트들이 협업해 오픈소스 프로젝트의 위협 모델을 산출한다.",
+        "points": [
+          "오케스트레이터+전문 에이전트 구조",
+          "오픈소스 프로젝트 대상 위협 모델링 자동화",
+          "깃허브에 오픈소스로 공개"
+        ],
+        "why": [
+          "위협 모델링 작업의 자동화는 보안 검토 병목을 줄일 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ox-alpha-fingerprinting",
+      "title": "행동 지문 분석으로 밝혀진 ox alpha의 출처와 검열 정책",
+      "summary": "CTGT 연구팀은 행동 지문 분석을 통해 익명 모델 ox alpha를 Z.ai의 GLM-5.x 계열로 연결지었다.",
+      "source": "CTGT",
+      "url": "https://www.ctgt.ai/research/behaviorally-fingerprinting-ox-alphas-provenance?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "정체를 숨기라는 시스템 프롬프트에도 불구하고 Z.AI 특유의 오류 코드와 온도 상한, 정확히 일치하는 토크나이저가 발견됐다.",
+        "what": "분석 결과 신장·대만 관련 질의에는 미국 모델과 동일하게 답하면서도, 2018년 임기제한 폐지·시진핑 등 7개 국내 정당성 관련 주제는 엄격히 차단하는 고도로 표적화된 검열 목록이 드러났다. 모델 운영사는 이를 공식적으로 밝히지 않아 이번 귀속은 전적으로 CTGT의 LineageEval 테스트 도구에 의존한다.",
+        "points": [
+          "정체 은폐 지시에도 Z.AI 특유 오류 코드·온도 상한·토크나이저 일치 확인",
+          "신장·대만 질의는 미국 모델과 동일하게 답변",
+          "7개 국내 정당성 주제는 엄격히 차단",
+          "귀속 근거는 CTGT의 LineageEval 테스트 도구"
+        ],
+        "why": [
+          "AI 모델의 숨겨진 검열 정책은 사용자가 인지하기 어려운 신뢰성 문제를 야기한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-carhartt-breach-verification",
+      "title": "카하트 데이터 유출 주장 검증기, 합성 데이터로 오염된 덤프 확인",
+      "summary": "트로이 헌트는 ShinyHunters의 2480만건 유출 주장을 조사해 실제 유출 규모가 약 1290만건임을 밝혀냈다.",
+      "source": "Troy Hunt",
+      "url": "https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 보조 및 수작업 검증을 통해 TPC-DS 벤치마크 데이터와 마이크로소프트365 라우팅 중복, 균일한 출생 분포 등 합성 데이터 흔적이 발견됐다.",
+        "what": "헌트는 카하트가 실제로 침해를 당한 것은 맞지만, 위협 행위자가 덤프를 조작한 것이 아니라 프로덕션 고객 기록과 라벨 없는 테스트 데이터가 함께 저장된 데이터브릭스 인스턴스를 유출했을 가능성이 높다고 결론지었다.",
+        "points": [
+          "ShinyHunters 주장 2480만건 중 실제 유출 규모는 약 1290만건",
+          "TPC-DS 벤치마크 데이터·MS365 라우팅 중복 등 합성 데이터 흔적 발견",
+          "균일한 출생 분포 패턴도 오염 증거로 확인",
+          "데이터브릭스 인스턴스에 프로덕션·테스트 데이터가 혼재됐을 가능성"
+        ],
+        "why": [
+          "유출 규모 주장을 그대로 받아들이지 않고 검증하는 절차의 중요성을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-interpol-jackal-iv",
+      "title": "인터폴 '재칼 IV' 작전, 글로벌 사이버 사기 조직 58명 체포",
+      "summary": "8개월간 22개국이 참여한 이번 작전은 서아프리카 범죄 조직을 표적으로 했다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/08/interpol-operation-jackal-iv-arrests-58.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "가짜 투자 제안으로 약 1억4300만 유로를 편취한 범죄 서비스형 네트워크에 196명이 연루된 것으로 확인됐다.",
+        "what": "경찰은 58명을 체포하고 263명의 용의자를 특정했으며, 도메인과 자금세탁을 지원하는 범죄형 서비스 네트워크에 196명을 연루시켰다.",
+        "points": [
+          "22개국 참여, 8개월간 진행된 작전",
+          "58명 체포, 263명 용의자 특정",
+          "196명이 도메인·자금세탁 지원 네트워크에 연루",
+          "가짜 투자 제안으로 약 1억4300만 유로 편취"
+        ],
+        "why": [
+          "국제 공조 수사가 사이버 사기 조직 와해에 효과를 보이고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-teamcity-flaw-australia",
+      "title": "호주, 팀시티 서버 치명적 결함 실제 악용 경고",
+      "summary": "호주 사이버보안센터가 젯브레인 팀시티 온프레미스의 인증 우회 취약점 악용을 경고했다.",
+      "source": "Infosecurity Magazine",
+      "url": "https://www.infosecurity-magazine.com/news/australia-exploitation-teamcity?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "CVE-2026-63077은 현지 조직을 표적으로 한 실제 악용이 확인된 인증 우회 취약점이다.",
+        "what": "호주 사이버보안센터는 젯브레인 팀시티 온프레미스의 치명적 인증 우회 취약점이 현지 조직을 대상으로 실제 악용되고 있다고 경고했다.",
+        "points": [
+          "CVE-2026-63077, 치명적 인증 우회 취약점",
+          "젯브레인 팀시티 온프레미스 대상",
+          "호주 현지 조직 표적 실제 악용 확인"
+        ],
+        "why": [
+          "CI/CD 도구의 인증 우회는 소프트웨어 공급망 전체를 위협할 수 있다"
+        ],
+        "action": "팀시티 온프레미스 사용자는 즉시 패치를 적용해야 한다."
+      }
+    },
+    {
+      "id": "infosec-apple-hide-my-email",
+      "title": "애플, '이메일 가리기' 기능 폐기 계획 철회",
+      "summary": "애플은 @private.icloud.com으로의 이전 계획을 접고 @icloud.com 별칭을 유지하기로 했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/25/apple-rescues-hide-my-email-feature-from-the-privacy-scrap-heap/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "애플이 '이메일 가리기' 별칭을 @icloud.com 도메인에 그대로 유지하기로 결정했다.",
+        "what": "당초 @private.icloud.com으로 이전할 계획이었던 애플은 이를 철회하고 기존 @icloud.com 별칭 체계를 유지하기로 했다.",
+        "points": [
+          "@private.icloud.com 이전 계획 철회",
+          "@icloud.com 별칭 체계 유지"
+        ],
+        "why": [
+          "프라이버시 기능 변경이 사용자 편의성과 충돌할 수 있음을 보여준 사례"
+        ]
+      }
+    },
+    {
+      "id": "infosec-nutex-health-breach",
+      "title": "뉴텍스 헬스, 데이터 유출로 민감정보 노출",
+      "summary": "뉴텍스 헬스는 SEC 신고를 통해 무단 네트워크 접근과 파일 유출 사실을 공개했다.",
+      "source": "TLDR Newsletter Links",
+      "url": "https://links.tldrnewsletter.com/GUclWA",
+      "report": {
+        "tldr": "뉴텍스 헬스가 SEC 신고에서 무단 네트워크 접근과 파일 탈취 사실을 공개했다.",
+        "what": "회사는 SEC 신고를 통해 이번 침해로 민감한 정보가 노출됐음을 인정했다.",
+        "points": [
+          "무단 네트워크 접근 확인",
+          "파일 유출(exfiltration) 발생",
+          "SEC 신고를 통해 공식 공개"
+        ],
+        "why": [
+          "의료 데이터 침해는 규제 신고 의무와 함께 후속 소송 리스크로 이어질 수 있다"
+        ]
+      }
+    }
+  ]
+}

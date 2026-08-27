@@ -1,0 +1,323 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-duckdb-changing-physics-analytics",
+      "title": "덕DB와 분석의 물리학이 바뀌는 방식",
+      "summary": "하드웨어 발전으로 단일 호스트에서도 효율적인 연산이 가능해지면서 덕DB 같은 분석 엔진이 데이터 처리의 판도를 바꾸고 있다.",
+      "source": "All Things Distributed",
+      "url": "https://www.allthingsdistributed.com/2026/08/duckdb-and-the-changing-physics-of-analytics.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "덕DB는 개발자가 복잡한 분석을 애플리케이션 내부에서 직접 수행할 수 있게 하며 데이터 처리와 애플리케이션 개발의 경계를 흐리고 있다.",
+        "what": "데이터 처리 요구가 커지면서도 분산 시스템에만 의존하지 않고 단일 호스트에서 효율적으로 처리할 수 있게 한 하드웨어 발전이 이런 변화를 뒷받침하며, 이는 AWS가 덕랩스를 인수한 배경이기도 하다.",
+        "points": [
+          "하드웨어 발전으로 단일 호스트 효율적 연산 가능",
+          "덕DB가 애플리케이션 내부 분석 처리를 가능케 함",
+          "데이터 처리와 애플리케이션 개발의 경계 흐려짐",
+          "AWS의 덕랩스 인수 배경과 직접 연결"
+        ],
+        "why": [
+          "분석 엔진 아키텍처의 근본적 전환이 진행 중임을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-vms-wont-contain-cyber-agents",
+      "title": "가상머신은 사이버 능력을 갖춘 AI 에이전트를 막지 못한다",
+      "summary": "최신 테스트 결과 고도화된 AI 에이전트가 알려진·미지의 취약점을 이용해 VM을 빠르게 탈출할 수 있는 것으로 확인됐다.",
+      "source": "Trail of Bits Blog",
+      "url": "https://blog.trailofbits.com/2026/08/26/vms-wont-contain-cyber-capable-agents/?utm_source=tldrdev",
+      "report": {
+        "tldr": "전통적인 가상화만으로는 사이버 능력을 갖춘 AI 에이전트를 충분히 봉쇄할 수 없다는 우려가 제기됐다.",
+        "what": "보안을 강화하려면 공격 표면을 최소화하도록 설계된 가상화 기술을 채택하고, 소프트웨어 업데이트 주기를 앞당기는 것이 필요하다는 제언이다.",
+        "points": [
+          "AI 에이전트가 알려진·미지의 취약점으로 VM을 빠르게 탈출",
+          "전통적 가상화의 봉쇄력에 의문 제기",
+          "최소 공격 표면으로 설계된 가상화 기술 필요",
+          "신속한 소프트웨어 업데이트 체계 필요"
+        ],
+        "why": [
+          "AI 에이전트의 자율적 공격 능력이 기존 보안 경계 모델을 위협하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "dev-sass-to-native-css-migration",
+      "title": "Sass에서 네이티브 CSS로의 마이그레이션 과정",
+      "summary": "네이티브 CSS가 변수·함수 등 Sass 고유 기능을 대거 흡수하면서 마이그레이션이 점점 현실적인 선택이 되고 있다.",
+      "source": "chrissmith.xyz",
+      "url": "https://chrissmith.xyz/blog/2026/the-process-of-migrating-from-sass-to-native-css/?utm_source=tldrdev",
+      "report": {
+        "tldr": "Sass 제거는 복잡도를 줄이고 빌드 시간을 개선하며 불필요한 의존성을 없애줄 수 있다.",
+        "what": "AI 도구의 도움으로 마이그레이션 작업 자체도 이전보다 쉬워졌다는 점이 이번 흐름을 가속하고 있다.",
+        "points": [
+          "네이티브 CSS가 변수·함수 등 Sass 기능 대거 흡수",
+          "Sass 제거로 복잡도 감소, 빌드 시간 개선",
+          "불필요한 의존성 제거 효과",
+          "AI 도구로 마이그레이션 작업 자체가 쉬워짐"
+        ],
+        "why": [
+          "프론트엔드 툴체인 단순화 흐름을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-choices-critical-gates",
+      "title": "지금 우리가 AI에 대해 내리는 선택이 결정적이다",
+      "summary": "AI는 산업을 혁신할 거대한 기회와 동시에 고용 안정성과 경제적 형평성을 위협하는 리스크를 함께 안고 있다.",
+      "source": "Gates Notes",
+      "url": "https://www.gatesnotes.com/a-turbulent-ai-era-and-critical-choices-to-make?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI의 혜택이 폭넓게 공유되려면 정책입안자·업계 리더·지역사회가 함께하는 조율된 글로벌 대응이 필요하다는 주장이다.",
+        "what": "빌 게이츠는 이 글에서 AI가 가진 혁신 잠재력과 함께 고용 안정성·경제적 형평성에 미칠 위협을 균형 있게 짚었다.",
+        "points": [
+          "AI는 산업 혁신의 거대한 기회를 제공",
+          "동시에 고용 안정성·경제적 형평성 위협",
+          "정책입안자·업계 리더·지역사회의 조율된 대응 필요",
+          "혜택의 폭넓은 공유가 핵심 과제"
+        ],
+        "why": [
+          "AI 전환기의 정책적 대응 방향에 대한 업계 원로의 관점을 제시한다"
+        ]
+      }
+    },
+    {
+      "id": "dev-websockets-vs-sse-ordering",
+      "title": "웹소켓 vs SSE 논쟁은 순서·정확성의 문제여야 한다",
+      "summary": "진짜 쟁점은 지연시간이나 페이로드가 아니라 순서와 정확성이다.",
+      "source": "Dashbit",
+      "url": "https://dashbit.co/blog/websockets-vs-sse?utm_source=tldrdev",
+      "report": {
+        "tldr": "두 개의 스트림으로 나뉜 데이터는 경쟁 상태에 빠질 수 있어(태그 추가·제거가 순서대로 도착하지 않으면 UI가 영구히 낡은 상태로 남는다), 웹소켓은 이 문제를 구조적으로 해결한다.",
+        "what": "웹소켓은 양방향이라 읽기와 쓰기가 하나의 연결을 공유하며, 서버가 순서와 무관하게 올바른 결과를 재계산해 보낼 수 있다.",
+        "points": [
+          "핵심 쟁점은 지연시간·페이로드가 아닌 순서와 정확성",
+          "두 스트림 분리 시 데이터 경쟁 상태 발생 가능",
+          "웹소켓은 양방향 단일 연결로 읽기·쓰기 공유",
+          "서버가 순서 무관하게 올바른 결과 재계산 가능"
+        ],
+        "why": [
+          "실시간 통신 기술 선택의 기준을 성능이 아닌 정합성으로 재정의한다"
+        ]
+      }
+    },
+    {
+      "id": "dev-harness-is-the-thing",
+      "title": "'하네스'가 핵심이다",
+      "summary": "AI 모델을 구조화된 '하네스' 안에서 효과적으로 활용하는 개발자가 대형 팀에 준하는 생산성을 낼 수 있게 됐다.",
+      "source": "Scott Fryxell Blog",
+      "url": "https://scott-fryxell.github.io/blog/the-harness-is-the-thing/?utm_source=tldrdev",
+      "report": {
+        "tldr": "구조화된 하네스는 더 매끄러운 워크플로우, 더 나은 프로젝트 관리, 창의적 탐색을 가능하게 한다.",
+        "what": "소프트웨어 개발 생산성 향상의 동력이 개별 모델 성능보다 이를 감싸는 운영 구조에 있다는 주장이다.",
+        "points": [
+          "구조화된 하네스 활용으로 1인 개발자가 대형 팀 수준 생산성 달성",
+          "매끄러운 워크플로우 구현",
+          "더 나은 프로젝트 관리 가능",
+          "창의적 탐색 여지 확대"
+        ],
+        "why": [
+          "AI 시대 개발 생산성의 핵심 변수가 모델이 아닌 워크플로우 설계임을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "dev-markdown-accept-headers",
+      "title": "Accept 헤더로 AI 에이전트에 마크다운 제공하기",
+      "summary": "웹 콘텐츠의 마크다운 버전을 제공하면 AI 에이전트가 불필요한 요소 없이 깔끔한 텍스트에 직접 접근할 수 있다.",
+      "source": "Accept Markdown",
+      "url": "https://acceptmarkdown.com/?utm_source=tldrdev",
+      "report": {
+        "tldr": "Accept 헤더 기반으로 콘텐츠 포맷을 분기하면 AI 에이전트에 더 깨끗한 데이터를 제공할 수 있다.",
+        "what": "웹사이트가 HTML 대신 마크다운 변형을 제공하도록 설정하면 AI 에이전트가 파싱 부담 없이 콘텐츠를 소비할 수 있다.",
+        "points": [
+          "Accept 헤더로 마크다운 콘텐츠 분기 제공",
+          "AI 에이전트가 불필요한 요소 없이 텍스트 접근",
+          "웹사이트의 에이전트 친화적 콘텐츠 제공 방식"
+        ],
+        "why": [
+          "에이전트 친화적 웹 표준 논의가 확산되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "dev-svelte-bits-library",
+      "title": "스벨트 비츠, 130개 이상의 애니메이션 스벨트 컴포넌트 라이브러리",
+      "summary": "타입드 스벨트5·테일윈드·타입스크립트로 제작된 오픈소스 컴포넌트·배경 라이브러리다.",
+      "source": "Svelte Bits",
+      "url": "https://links.tldrnewsletter.com/BCWMye?utm_source=tldrdev",
+      "report": {
+        "tldr": "커서·코파일럿·v0 등과 함께 쓸 수 있도록 'AI-ready'로 제작됐다.",
+        "what": "130개 이상의 커스터마이즈 가능한 애니메이션 컴포넌트와 배경을 제공하는 오픈소스 스벨트 라이브러리다.",
+        "points": [
+          "130개 이상 애니메이션 스벨트 컴포넌트·배경 제공",
+          "타입드 스벨트5 + 테일윈드 + 타입스크립트로 제작",
+          "커서·코파일럿·v0 등과 연동되는 'AI-ready' 설계"
+        ],
+        "why": [
+          "프론트엔드 컴포넌트 라이브러리도 AI 도구 연동을 기본 전제로 설계되는 추세"
+        ]
+      }
+    },
+    {
+      "id": "dev-microlighter-syntax-highlighter",
+      "title": "마이크로라이터, 경량 클라이언트 사이드 신택스 하이라이터",
+      "summary": "CSS Custom Highlights API를 활용한 제로 의존성 신택스 하이라이터로 온디맨드 언어 로딩을 지원한다.",
+      "source": "Dave Rupert Blog",
+      "url": "https://daverupert.com/2026/08/microlighter/?utm_source=tldrdev",
+      "report": {
+        "tldr": "최소한의 설정으로 다양한 프로그래밍 언어의 코드를 손쉽게 하이라이트할 수 있다.",
+        "what": "CSS Custom Highlights API를 사용해 제로 의존성, 온디맨드 언어 로딩, 단순화된 테마 관리 시스템을 제공하는 경량 신택스 하이라이터다.",
+        "points": [
+          "CSS Custom Highlights API 기반",
+          "제로 의존성, 온디맨드 언어 로딩",
+          "단순화된 테마 관리 시스템",
+          "최소 설정으로 다양한 언어 지원"
+        ],
+        "why": [
+          "브라우저 네이티브 API를 활용한 경량화 도구 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-ducklabs-joins-aws",
+      "title": "덕랩스, AWS 합류...프로젝트는 오픈소스로 유지",
+      "summary": "덕랩스가 9월 초 AWS에 합류하며 덕DB·덕레이크 등 오픈소스 프로젝트 개발을 계속 이어간다.",
+      "source": "DuckLabs",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws?utm_source=tldrdev",
+      "report": {
+        "tldr": "덕DB·덕레이크·쿽은 MIT 라이선스 아래 무료·오픈소스 상태를 유지하며 확장성과 도달 범위를 넓힐 전망이다.",
+        "what": "이번 파트너십으로 덕DB 프로젝트가 더 넓은 커뮤니티를 지원하고 더 복잡한 문제를 다룰 수 있게 될 것으로 기대된다.",
+        "points": [
+          "9월 초 AWS 합류",
+          "덕DB·덕레이크·쿽 MIT 라이선스 오픈소스 유지",
+          "확장성·도달 범위 개선 기대",
+          "더 복잡한 문제 해결 역량 강화 목표"
+        ],
+        "why": [
+          "빅테크가 핵심 오픈소스 데이터 도구의 원 개발팀을 흡수하는 사례가 늘고 있다"
+        ]
+      }
+    },
+    {
+      "id": "dev-clerky-joins-stripe",
+      "title": "클러키, 스트라이프에 합류",
+      "summary": "스타트업 사이에서 인기 있는 온라인 법률 서비스 클러키가 스트라이프에 합류해 서비스를 확장한다.",
+      "source": "Clerky Blog",
+      "url": "https://www.clerky.com/blog/clerky-is-joining-stripe?utm_source=tldrdev",
+      "report": {
+        "tldr": "클러키는 스트라이프의 자원을 활용하면서도 스타트업과 담당 변호사를 위한 서비스 초점은 유지할 계획이다.",
+        "what": "고성장 스타트업의 법률 문서 작업을 간소화해온 클러키가 스트라이프의 광범위한 자원을 활용해 서비스를 확장한다.",
+        "points": [
+          "스타트업 대상 온라인 법률 서비스 클러키가 스트라이프에 합류",
+          "스트라이프 자원 활용해 서비스 확장",
+          "스타트업 생태계 내 신뢰할 수 있는 서비스 지속 제공 목표"
+        ],
+        "why": [
+          "결제 플랫폼이 스타트업 인프라 전반으로 영역을 넓히는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-data-filtering-generative-video",
+      "title": "생성형 영상 사전학습을 위한 데이터 필터링",
+      "summary": "프롬프트 충실도·학습 가속화·현실적인 물리 법칙 준수를 목표로 한 데이터 필터링 기법이 핵심 과제로 떠올랐다.",
+      "source": "Linum AI",
+      "url": "https://www.linum.ai/field-notes/data-filtering-gen-video?utm_source=tldrdev",
+      "report": {
+        "tldr": "생성형 모델의 발전은 데이터 품질에 크게 좌우되므로 효과적인 필터링 기법이 필수적이다.",
+        "what": "미세조정된 신경망과 강화학습 기법을 활용한 데이터 필터링이 모델이 고품질 데이터로부터 최적으로 학습하도록 보장하는 핵심 요소로 지목된다.",
+        "points": [
+          "프롬프트 충실도 개선이 목표 중 하나",
+          "학습 가속화도 주요 목표",
+          "현실적인 물리 법칙 준수 여부가 품질 기준",
+          "미세조정 신경망·강화학습 기반 필터링 기법 활용"
+        ],
+        "why": [
+          "생성형 영상 모델 경쟁의 다음 승부처가 데이터 품질 관리로 이동하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "dev-openai-interface-platform-chatgpt",
+      "title": "OpenAI, 챗GPT 내부에 인터페이스 플랫폼 구축 중",
+      "summary": "OpenAI가 외부 도구에 의존하지 않고 챗GPT 대화 안에서 다양한 주제를 직접 다룰 수 있는 인터랙티브 플랫폼을 개발 중이다.",
+      "source": "Runtime Wire",
+      "url": "https://runtimewire.com/article/openai-is-building-an-interface-platform-inside-chatgpt?utm_source=tldrdev",
+      "report": {
+        "tldr": "챗GPT 대화 자체가 다양한 인터랙티브 작업을 처리하는 플랫폼으로 확장되고 있다.",
+        "what": "사용자가 외부 도구로 이동하지 않고도 챗GPT 안에서 직접 다양한 주제를 다룰 수 있는 인터랙티브 인터페이스 플랫폼을 OpenAI가 개발하고 있다.",
+        "points": [
+          "챗GPT 내 인터랙티브 인터페이스 플랫폼 개발",
+          "외부 도구 의존도 축소가 목표",
+          "대화 안에서 직접 작업 처리 가능"
+        ],
+        "why": [
+          "챗GPT가 단순 대화형 도구를 넘어 플랫폼화되는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-gemini-transcribe-launch",
+      "title": "제미나이 3.5 트랜스크라이브, 개발자용 지능형 음성 전사 공개",
+      "summary": "고도로 정확한 실시간 전사와 복잡한 음성 뉘앙스 처리를 지원하는 음성-텍스트 모델이다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/?utm_source=tldrdev",
+      "report": {
+        "tldr": "다국어를 지원하며 다양한 개발자 워크플로우와 애플리케이션에 통합할 수 있다.",
+        "what": "제미나이 3.5 트랜스크라이브는 복잡한 음성 뉘앙스를 효과적으로 처리하는 고정밀 실시간 전사 모델로 개발자용 API로 제공된다.",
+        "points": [
+          "고정밀 실시간 전사 지원",
+          "복잡한 음성 뉘앙스 처리",
+          "다국어 지원",
+          "다양한 개발자 워크플로우에 통합 가능"
+        ],
+        "why": [
+          "음성 인터페이스 개발 생태계 확장에 기여하는 모델이다"
+        ]
+      }
+    },
+    {
+      "id": "dev-openexecutive-github",
+      "title": "오픈이그제큐티브, 가상 경영진 AI 시스템",
+      "summary": "8명의 전문 AI 에이전트가 지원하는 통합된 경영진 목소리를 통해 다양한 비즈니스 영역에 걸친 조언을 제공한다.",
+      "source": "GitHub",
+      "url": "https://github.com/SenteLabsAI/OpenExecutive?utm_source=tldrdev",
+      "report": {
+        "tldr": "오픈이그제큐티브는 가상 경영진 팀 역할을 하도록 설계된 오픈소스 AI 시스템이다.",
+        "what": "8명의 전문 AI 에이전트가 하나의 통합된 경영진 목소리로 다양한 비즈니스 영역에 걸친 가이드를 제공한다.",
+        "points": [
+          "가상 경영진 팀 역할을 하는 오픈소스 시스템",
+          "8명의 전문 AI 에이전트로 구성",
+          "다양한 비즈니스 영역에 걸친 조언 제공"
+        ],
+        "why": [
+          "멀티에이전트 협업 구조가 경영 자문 영역까지 확장되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "dev-old-web-link-rot-study",
+      "title": "옛 웹은 어디로 갔나...65만7607개 링크를 추적하다",
+      "summary": "복원된 0.mk 데이터베이스의 65만7000여개 링크를 분석한 결과 2015년 이전 링크의 약 76.7%가 더 이상 접근 불가능한 것으로 나타났다.",
+      "source": "0.mk",
+      "url": "https://0.mk/blog/link-rot?utm_source=tldrdev",
+      "report": {
+        "tldr": "65만7607개 링크 분석 결과 2015년 이전 링크의 약 76.7%가 소실된 것으로 확인됐다.",
+        "what": "복원된 0.mk 데이터베이스를 통해 옛 웹 링크의 생존율을 분석한 결과, 대다수의 2015년 이전 링크가 더 이상 작동하지 않는 것으로 드러났다.",
+        "points": [
+          "65만7607개 링크 분석",
+          "2015년 이전 링크의 약 76.7% 접근 불가",
+          "복원된 0.mk 데이터베이스 기반 분석"
+        ],
+        "why": [
+          "웹 콘텐츠의 장기 보존 문제가 여전히 심각한 수준임을 데이터로 보여준다"
+        ]
+      }
+    }
+  ]
+}

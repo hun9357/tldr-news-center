@@ -1,0 +1,262 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-nvidia-96b-revenue",
+      "title": "엔비디아 매출 962억 달러...AI 수요 서지 지속",
+      "summary": "엔비디아가 전년 대비 두 배 이상 늘어난 962억 달러 분기 매출을 기록했으며 데이터센터 매출은 890억 달러에 달했다.",
+      "source": "AP News",
+      "url": "https://apnews.com/article/dc8d556e709b50915cca9217a60b1991?utm_source=tldrit",
+      "report": {
+        "tldr": "엔비디아는 다음 분기 1080억 달러 매출을 예상하며 AI 인프라 수요가 공급을 계속 앞지르고 있다고 밝혔다.",
+        "what": "이번 분기 매출 962억 달러 중 데이터센터 매출이 890억 달러를 차지했으며, 전년 동기 대비 두 배 이상 성장했다. 다음 분기 매출은 1080억 달러로 전망된다.",
+        "points": [
+          "분기 매출 962억 달러, 전년 대비 두 배 이상 성장",
+          "데이터센터 매출 890억 달러",
+          "다음 분기 매출 전망 1080억 달러",
+          "AI 인프라 수요가 공급을 지속적으로 앞지름"
+        ],
+        "why": [
+          "엔비디아 실적은 AI 투자 사이클의 지속 가능성을 가늠하는 핵심 지표다"
+        ]
+      }
+    },
+    {
+      "id": "it-salesforce-crm-in-claude",
+      "title": "세일즈포스, CRM을 클로드 안으로 직접 통합",
+      "summary": "세일즈포스와 앤트로픽이 클로드포스를 출시해 라이브 CRM 데이터와 워크플로우를 클로드에서 바로 다룰 수 있게 했다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/salesforce-just-put-its-entire-crm-inside-claude-and-says-youll-never-need-its-app-again?utm_source=tldrit",
+      "report": {
+        "tldr": "초기 출시에는 파이프라인 분석, 계정 조사, 딜 리뷰 등 37개 영업 스킬이 포함됐다.",
+        "what": "세일즈포스와 앤트로픽이 함께 출시한 클로드포스는 세일즈포스 앱을 열지 않고도 라이브 CRM 데이터를 조회·갱신·조작할 수 있게 해준다.",
+        "points": [
+          "라이브 CRM 데이터와 세일즈포스 워크플로우를 클로드에서 직접 처리",
+          "파이프라인 분석·계정 조사·딜 리뷰 등 37개 영업 스킬 포함",
+          "세일즈포스 앱을 열지 않고도 작업 완료 가능"
+        ],
+        "why": [
+          "CRM 같은 핵심 업무 앱이 AI 에이전트 인터페이스로 대체될 수 있는지를 시험하는 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-cisa-oracle-flaw-deadline",
+      "title": "CISA, 오라클 최고위험 취약점 8월 27일까지 패치 명령",
+      "summary": "CVE-2026-21962(CVSS 최고 등급)가 KEV 카탈로그에 추가되며 연방기관 대상 패치 마감일이 지정됐다.",
+      "source": "ITNerd Blog",
+      "url": "https://itnerd.blog/2026/08/25/the-cisa-orders-federal-agencies-to-patch-actively-exploited-oracle-flaw-by-august-27/?utm_source=tldrit",
+      "report": {
+        "tldr": "이 취약점은 원격에서 인증 없이 악용 가능하며 중요 데이터의 접근·수정·삭제로 이어질 수 있다.",
+        "what": "오라클 HTTP 서버와 웹로직 서버 프록시 플러그인에 영향을 미치는 이 취약점은 실제 악용이 확인된 뒤 CISA가 연방기관에 8월 27일까지 패치를 명령했다.",
+        "points": [
+          "오라클 HTTP 서버·웹로직 서버 프록시 플러그인 영향",
+          "원격에서 인증 없이 악용 가능",
+          "중요 데이터 접근·수정·삭제 가능성",
+          "연방기관 패치 마감일 8월 27일"
+        ],
+        "why": [
+          "엔터프라이즈 미들웨어의 최고위험 취약점은 공급망 전반에 파급력을 갖는다"
+        ],
+        "action": "오라클 HTTP 서버·웹로직 프록시 플러그인 사용 기관은 즉시 패치를 적용해야 한다."
+      }
+    },
+    {
+      "id": "it-strategy-in-age-of-ai",
+      "title": "AI 시대의 전략론",
+      "summary": "AI는 단순히 기존 업무를 자동화하는 게 아니라 경쟁의 규칙 자체를 바꾸고 있어 기업은 희소성과 산업 경계 변화에 맞춰 전략을 재구성해야 한다.",
+      "source": "Platforms Newsletter",
+      "url": "https://platforms.substack.com/p/strategy-in-the-age-of-ai-eight-points?utm_source=tldrit",
+      "report": {
+        "tldr": "가치 단위를 재정의하고, 이질적 시스템 간 번역을 담당하며, 조직 경계를 넘는 피드백 루프를 소유하는 것이 새로운 경쟁 우위의 원천이 될 수 있다.",
+        "what": "AI가 희소성의 구조와 산업 경계를 바꾸면서, 기존 방식의 업무 자동화를 넘어 전략 자체를 재고해야 한다는 주장이다.",
+        "points": [
+          "AI는 경쟁의 규칙 자체를 바꾸는 요인",
+          "가치 단위 재정의가 새로운 경쟁 우위의 원천",
+          "이질적 시스템 간 번역 역량의 중요성 부각",
+          "조직 경계를 넘는 피드백 루프 소유가 핵심"
+        ],
+        "why": [
+          "AI 시대 기업 전략 수립에 새로운 프레임워크를 제시한다"
+        ]
+      }
+    },
+    {
+      "id": "it-mcp-2-0-protocol-update",
+      "title": "MCP 2.0? 무엇이 바뀌었고 무엇이 남았나",
+      "summary": "2026-07-28 MCP 브레이킹 개정판은 프로토콜을 1급 HTTP 워크로드로 운영하기 쉽게 만들었다.",
+      "source": "Towards AI",
+      "url": "https://pub.towardsai.net/mcp-2-0-what-changed-what-remained-and-how-it-impacts-practitioners-8f553e62448c?utm_source=tldrit",
+      "report": {
+        "tldr": "핸드셰이크와 프로토콜 세션을 제거하면서 로드밸런싱 배포가 단순해지고 상태는 요청과 서버 측 데이터 모델로 이동했다.",
+        "what": "이번 개정은 별도의 'MCP v2'를 만드는 대신 인가 프로필, 도구 위험도 주석, 임베디드 인터페이스를 표준화해 MCP를 엔터프라이즈 팀에 실질적 가치를 주는 HTTP 생태계 프로필로 만들었다.",
+        "points": [
+          "핸드셰이크·프로토콜 세션 제거로 로드밸런싱 배포 단순화",
+          "상태가 요청과 서버 측 데이터 모델로 이동",
+          "인가 프로필·도구 위험도 주석·임베디드 인터페이스 표준화",
+          "MCP를 HTTP 생태계 프로필로 재정의"
+        ],
+        "why": [
+          "MCP 표준의 성숙도는 엔터프라이즈 에이전트 도입 속도에 직접 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "it-ai-data-center-bans",
+      "title": "AI 데이터센터 반대 운동, 힘을 얻다",
+      "summary": "지역 사회와 입법자들이 전기료·용수 사용·지역 인프라 부담을 이유로 신규 AI 데이터센터 모라토리엄을 요구하고 있다.",
+      "source": "HPCwire",
+      "url": "https://www.hpcwire.com/aiwire/2026/08/26/are-ai-data-center-bans-going-too-far/?utm_source=tldrit",
+      "report": {
+        "tldr": "지역 사회의 반발이 AI 컴퓨팅 용량 확장 속도를 제약하는 또 하나의 변수로 떠오르고 있다.",
+        "what": "전기료·용수 사용·지역 인프라 부담을 이유로 신규 AI 데이터센터에 대한 모라토리엄 요구가 늘고 있다.",
+        "points": [
+          "전기료·용수 사용 부담이 주요 반대 이유",
+          "지역 인프라 부담도 쟁점",
+          "입법자들의 모라토리엄 요구 확산"
+        ],
+        "why": [
+          "AI 인프라 확장의 물리적·정치적 제약이 커지고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-vercel-run-sdk",
+      "title": "버셀 Run SDK, 에이전트용 보안 실행 환경 도입",
+      "summary": "신뢰할 수 없는 자바스크립트·타입스크립트를 애플리케이션 비밀·Node.js·네트워크로부터 격리해 실행한다.",
+      "source": "Vercel Blog",
+      "url": "https://vercel.com/blog/introducing-run?utm_source=tldrit",
+      "report": {
+        "tldr": "이 SDK는 버셀 AI SDK의 코드 모드를 구동하며 애플리케이션 내 에이전트 워크플로우를 겨냥한다.",
+        "what": "애플리케이션은 좁게 제한된 호스트 함수를 노출하고, 인증이나 사람의 승인을 위해 실행을 일시 정지한 뒤 기록된 결과를 이용해 재개할 수 있다.",
+        "points": [
+          "하드닝된 퀵JS 샌드박스로 코드 실행 격리",
+          "좁게 제한된 호스트 함수 노출",
+          "인증·승인 대기를 위한 실행 일시정지·재개 지원",
+          "버셀 AI SDK 코드 모드 구동"
+        ],
+        "why": [
+          "에이전트 워크플로우 확산에 따라 안전한 코드 실행 환경 수요가 커지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-google-cloud-cost-controls-agents",
+      "title": "구글 클라우드, AI 에이전트용 비용 통제 기능 추가",
+      "summary": "종량제 제미나이 엔터프라이즈 가격제, 중앙화된 AI 지출 한도, 최대 20% 절감되는 저축 플랜을 도입했다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/flexible-billing-and-cost-controls-for-agents-on-google-cloud?utm_source=tldrit",
+      "report": {
+        "tldr": "빠르게 늘어나는 에이전트 워크로드를 기업이 더 쉽게 통제할 수 있도록 설계됐다.",
+        "what": "종량제 제미나이 엔터프라이즈 가격제, 중앙화된 AI 지출 한도, 토큰 비용을 최대 20% 절감하는 저축 플랜을 새로 도입했다.",
+        "points": [
+          "종량제 제미나이 엔터프라이즈 가격제 도입",
+          "중앙화된 AI 지출 한도 설정 기능",
+          "토큰 비용 최대 20% 절감 저축 플랜"
+        ],
+        "why": [
+          "에이전트 워크로드 급증에 따른 비용 관리 필요성이 커지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-aws-acquires-ducklabs",
+      "title": "AWS, 덕DB 개발사 인수 추진",
+      "summary": "아마존이 덕DB 창업팀이 세운 덕랩스 인수 계약을 체결했으며, 팀은 AWS에 합류한다.",
+      "source": "AWS Big Data Blog",
+      "url": "https://aws.amazon.com/blogs/big-data/aws-and-ducklabs-building-the-future-of-analytics-together/?utm_source=tldrit",
+      "report": {
+        "tldr": "덕DB는 독립 재단 아래 오픈소스와 MIT 라이선스를 유지한 채로 남는다.",
+        "what": "덕랩스는 초기 9월 AWS에 합류하며, 덕DB는 계속해서 독립적인 재단 산하 오픈소스·MIT 라이선스 프로젝트로 유지된다.",
+        "points": [
+          "아마존, 덕랩스 인수 계약 체결",
+          "덕랩스 팀 AWS 합류",
+          "덕DB는 독립 재단 산하 오픈소스·MIT 라이선스 유지"
+        ],
+        "why": [
+          "빅테크의 오픈소스 데이터 도구 인수가 이어지는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-rpm-history-enterprise-linux",
+      "title": "RPM의 역사...'프리스틴 소스' 원칙이 엔터프라이즈 리눅스의 근간이 된 과정",
+      "summary": "RPM의 핵심 혁신은 패키지 설치가 아니라 수정되지 않은 업스트림 코드와 명시적 패치를 요구하는 빌드 철학이었다.",
+      "source": "Bubble.ro",
+      "url": "https://bubble.ro/2026/08/25/the-history-of-rpm-how-a-pristine-sources-rule-became-the-backbone-of-enterprise-linux/?utm_source=tldrit",
+      "report": {
+        "tldr": "얌이 확장성과 API 한계에 부딪히자 DNF가 libsolv로 솔버를 교체하면서도 RPM 포맷과 익숙한 명령어는 유지했다.",
+        "what": "RPM의 로컬 패키지 데이터베이스는 의존성 해결과는 다른 문제이며, 이 구분이 이후 얌·DNF의 발전 방향을 결정했다.",
+        "points": [
+          "핵심 혁신은 '프리스틴 소스' 빌드 철학",
+          "수정되지 않은 업스트림 코드, 명시적 패치, 재현 가능한 spec 파일 지시가 핵심",
+          "로컬 패키지 데이터베이스와 의존성 해결은 별개 문제",
+          "얌의 한계를 DNF가 libsolv 솔버로 대체하며 극복"
+        ],
+        "why": [
+          "리눅스 패키지 관리 시스템의 설계 철학이 오늘날까지 이어지는 이유를 설명한다"
+        ]
+      }
+    },
+    {
+      "id": "it-cloud-memory-capex",
+      "title": "클라우드 메모리, 공급업체 자본지출의 68% 차지할 수도",
+      "summary": "D램·낸드 가격 급등이 메모리를 클라우드 인프라 지출의 약 68% 수준까지 끌어올릴 수 있다는 전망이 나왔다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/storage/2026/08/26/memory-crunch-cloud-operators-may-be-pushed-to-splurge-68-of-capex-on-dram-and-nand/5292648?utm_source=tldrit",
+      "report": {
+        "tldr": "하드웨어 비용 상승이 점점 더 많은 부분 기업 클라우드 청구서로 전가될 수 있다.",
+        "what": "D램과 낸드 가격 급등이 클라우드 인프라 지출에서 메모리가 차지하는 비중을 약 68%까지 밀어올릴 수 있다는 전망이 나왔다.",
+        "points": [
+          "D램·낸드 가격 급등이 원인",
+          "메모리 비중이 클라우드 인프라 자본지출의 약 68%까지 상승 가능",
+          "하드웨어 비용 상승이 기업 클라우드 청구서로 전가될 위험"
+        ],
+        "why": [
+          "메모리 공급 부족이 AI 인프라 비용 구조 전반에 파급될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-databricks-ai-sre",
+      "title": "데이터브릭스, AI로 장애 대응 가속화",
+      "summary": "AI SRE는 마이크로서비스·쿠버네티스 인프라 전반의 장애를 조사하는 AI 기반 디버깅 에이전트다.",
+      "source": "Databricks Blog",
+      "url": "https://www.databricks.com/blog/how-databricks-uses-ai-accelerate-incident-investigation?utm_source=tldrit",
+      "report": {
+        "tldr": "AI SRE는 데이터브릭스의 마이크로서비스·쿠버네티스 인프라 전반에서 장애를 자동으로 조사하는 에이전트 플랫폼이다.",
+        "what": "데이터브릭스는 AI 기반 디버깅 에이전트와 플랫폼을 통해 장애 조사 속도를 높이는 방법을 공개했다.",
+        "points": [
+          "AI 기반 디버깅 에이전트",
+          "마이크로서비스·쿠버네티스 인프라 전반 조사",
+          "장애 조사 시간 단축 목표"
+        ],
+        "why": [
+          "AI 기반 인시던트 대응 자동화가 대규모 인프라 운영의 표준이 되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-google-gemini-enterprise-financial",
+      "title": "구글, 금융 서비스 특화 제미나이 엔터프라이즈 출시",
+      "summary": "구글 클라우드가 리서치·기관 워크플로우용 특화 에이전트를 갖춘 금융 서비스 버전 제미나이 엔터프라이즈를 선보였다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-financial-services?utm_source=tldrit",
+      "report": {
+        "tldr": "리서치와 기관 워크플로우를 지원하는 특화 에이전트가 포함된다.",
+        "what": "구글 클라우드는 금융 서비스 업종에 특화된 제미나이 엔터프라이즈 버전을 출시하며 리서치와 기관 업무 워크플로우 지원 에이전트를 포함시켰다.",
+        "points": [
+          "금융 서비스 특화 제미나이 엔터프라이즈 버전 출시",
+          "리서치·기관 워크플로우 지원 에이전트 포함"
+        ],
+        "why": [
+          "클라우드 업체의 업종 특화 AI 경쟁이 금융권으로 확대되고 있다"
+        ]
+      }
+    }
+  ]
+}

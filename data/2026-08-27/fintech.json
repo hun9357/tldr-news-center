@@ -1,0 +1,283 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💰",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-klarna-stock-crash",
+      "title": "클라나 주가 25% 급락이 보여준 '작은 물고기'의 대가",
+      "summary": "클라나가 독일 소비 위축으로 연간 매출 우려를 밝히며 주가가 25% 가까이 폭락했다.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/73755e41-8a6d-4fb4-9f4e-5d768450fc54?syn-25a6b1a6=1&utm_source=tldrfintech",
+      "report": {
+        "tldr": "클라나는 미국 상장이 상대적으로 작고 잘 알려지지 않은 회사라는 약점을 오히려 부각시켰다는 평가를 받는다.",
+        "what": "클라나는 독일의 소비 위축이 연간 매출에 부담을 줄 것이라고 경고하며 주가가 25% 가까이 급락했다. 유럽 최대 경제권인 독일의 수요 둔화 신호가 뚜렷했음에도 이번 경고가 시장에 충격을 준 것으로 풀이된다.",
+        "points": [
+          "독일 소비 위축을 이유로 연간 매출 가이던스 우려 제기",
+          "주가 25% 가까이 급락",
+          "미국 상장으로 인해 상대적으로 작고 저평가된 종목으로 인식",
+          "유럽 상장이었다면 지수 편입과 유동성 유입 효과를 누렸을 것이라는 분석"
+        ],
+        "why": [
+          "상장 지역 선택이 기업의 시장 인지도와 밸류에이션에 미치는 영향을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "fintech-goldman-ai-banker-reasoning",
+      "title": "골드만삭스 파트너 \"AI가 은행원의 판단력을 갉아먹을 수 있다\"",
+      "summary": "골드만삭스의 크리스 처치먼 파트너가 AI 과의존이 주니어 뱅커의 분석적 판단력 훈련을 약화시킬 수 있다고 경고했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/24/goldman-sachs-ai-partner-danger-skills.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "AI 과의존이 주니어 은행원을 시니어 의사결정권자로 성장시키는 도제식 훈련을 약화시킬 수 있다는 경고가 나왔다.",
+        "what": "처치먼은 고위험 의사결정에서 인간의 판단력을 보존해야 한다고 주장하며, 동시에 완전히 사실에 기반하고 감사 가능하며 신뢰할 수 있는 답변을 제공하는 것이 금융 AI의 핵심 기술 과제라고 지적했다.",
+        "points": [
+          "AI 과의존이 분석적 판단력과 도제식 훈련 모델을 약화시킬 위험",
+          "고위험 의사결정에서는 인간의 판단력 보존이 중요",
+          "금융 AI의 핵심 과제는 사실성·감사 가능성·신뢰성 확보"
+        ],
+        "why": [
+          "AI 도입이 인재 육성 방식 자체를 바꿀 수 있다는 시사점을 제공"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stripe-acquires-openrouter",
+      "title": "스트라이프, 오픈라우터 70억 달러 이상에 인수...모델 라우팅을 결제 인프라로",
+      "summary": "이 인수로 스트라이프는 800만 사용자와 400개 이상의 AI 모델을 연결하는 게이트웨이를 확보하게 된다.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/technology/ai/articles/nvidias-6-billion-deal-poolsides-054000693.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "스트라이프가 오픈라우터를 인수하며 AI 모델 라우팅을 결제·과금 인프라 영역으로 끌어들였다.",
+        "what": "이번 딜로 스트라이프는 중앙화된 라우팅과 과금 기능을 갖춘, 800만 사용자와 400개 이상의 AI 모델을 하나의 API로 연결하는 게이트웨이를 확보하게 됐다. AI 애플리케이션을 통해 흐르는 자금을 더 많이 포착할 수 있게 되지만, 중국산 모델로의 트래픽 비중이 높아 규제·컴플라이언스 리스크도 새로 떠안게 됐다.",
+        "points": [
+          "800만 사용자, 400개 이상 AI 모델을 단일 API로 연결",
+          "중앙화된 라우팅과 빌링 기능 확보",
+          "AI 애플리케이션 자금 흐름 포착 능력 강화",
+          "중국산 모델 트래픽 비중이 높아 규제 리스크 상존"
+        ],
+        "why": [
+          "AI 모델 라우팅이 결제 인프라 사업으로 통합되는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-swot-ai-banking",
+      "title": "은행권 AI의 SWOT 분석",
+      "summary": "금융기관은 방대한 고객 데이터를 보유하지만 레거시 시스템과 설명 가능성 부족이 여전히 약점으로 남아있다.",
+      "source": "The Financial Brand",
+      "url": "https://thefinanser.com/2026/08/the-swot-of-ai-in-banking?utm_source=tldrfintech",
+      "report": {
+        "tldr": "은행업의 최대 기회는 단순 대응에서 벗어나 고객의 금융 생활을 능동적으로 관리하는 것으로의 전환이다.",
+        "what": "금융기관은 개인화 서비스와 자율 금융 에이전트를 구현할 수 있는 방대한 고객 데이터를 갖고 있지만, 레거시 시스템과 파편화된 정보, 제한된 설명 가능성이 주요 약점이다. 사이버범죄와 인프라 집중, 동조화된 머신 주도 의사결정은 시스템 리스크를 키우는 요인이다.",
+        "points": [
+          "강점: 방대한 고객 데이터 보유",
+          "약점: 레거시 시스템, 파편화된 정보, 낮은 설명 가능성",
+          "기회: 대응형에서 능동적 금융 생활 관리로의 전환",
+          "위협: 제3자 에이전트가 고객 관계를 대체할 가능성"
+        ],
+        "why": [
+          "고객 관계 자체를 잃을 수 있다는 위협이 가장 근본적인 리스크로 지목된다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-banks-lend-anthropic-10b",
+      "title": "월가, 앤트로픽에 100억 달러 이상 신용공여 검토",
+      "summary": "앤트로픽이 IPO를 앞두고 100억 달러 이상 규모의 리볼빙 신용공여를 조성 중인 것으로 전해졌다.",
+      "source": "Lex (Reuters 인용)",
+      "url": "https://lex.substack.com/p/ai-wall-street-is-lending-10b-to?utm_source=tldrfintech",
+      "report": {
+        "tldr": "대형 은행들은 약 12.5억 달러씩, 2군 은행은 약 10억 달러씩 공여를 요청받은 것으로 알려졌다.",
+        "what": "로이터에 따르면 앤트로픽은 IPO를 앞두고 월가로부터 100억 달러가 넘는 신용공여를 조성 중이다. 대형 은행에는 약 12.5억 달러, 2군 은행에는 약 10억 달러, 그 외 은행에는 7.5억 달러 이하 수준의 공여가 요청됐다.",
+        "points": [
+          "IPO를 앞두고 100억 달러 이상 리볼빙 신용공여 조성",
+          "대형 은행 약 12.5억 달러, 2군 은행 약 10억 달러 요청",
+          "기타 은행은 7.5억 달러 이하 규모"
+        ],
+        "why": [
+          "AI 랩의 자금 조달 방식이 전통 IPO 전 단계에서도 은행권을 광범위하게 끌어들이고 있다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stripe-staying-private",
+      "title": "스트라이프 \"AI 시대엔 비상장 유지가 오히려 강점\"",
+      "summary": "스트라이프 창업자들은 비상장 상태가 AI·에이전틱 커머스·스테이블코인 변화에 유연하게 대응할 수 있게 해준다고 밝혔다.",
+      "source": "PaymentsDive",
+      "url": "https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "스트라이프는 오픈라우터 인수를 사상 최대 규모로 완료하며 1590억 달러 밸류에이션에도 IPO를 서두르지 않겠다는 입장을 재확인했다.",
+        "what": "스트라이프 창업자들은 상장 시장의 제약 없이 AI·에이전틱 커머스·스테이블코인 등 급변하는 흐름에 대응할 수 있는 유연성이 비상장 유지의 장점이라고 투자자들에게 밝혔다.",
+        "points": [
+          "AI·에이전틱 커머스·스테이블코인 대응 유연성을 비상장 유지의 이점으로 제시",
+          "오픈라우터 인수는 스트라이프 사상 최대 규모 인수",
+          "최근 밸류에이션 1590억 달러 기록",
+          "IPO를 서두르지 않겠다는 입장 재확인"
+        ],
+        "why": [
+          "대형 핀테크의 상장 전략이 AI 시대 자금 조달 논의에 시사점을 준다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-google-cloud-agents-finance-legal",
+      "title": "구글 클라우드, 금융·법률 업종 특화 AI 에이전트 공개",
+      "summary": "제미나이 엔터프라이즈 기반의 신규 오퍼링으로 자본시장·기업금융에 업종 특화 자동화를 제공한다.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/google/2026/google-cloud-debuts-specialized-ai-agents-for-financial-services-and-legal-industries/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "파이낸셜 리서치 에이전트와 50개 이상의 특화 스킬로 KYC부터 채권 포트폴리오 리스크 분석까지 지원한다.",
+        "what": "새로운 파이낸셜 리서치 에이전트와 50개 이상의 특화 스킬은 KYC·온보딩 간소화, 채권 포트폴리오 리스크 분석, 신용 기회 발굴, 고객 프레젠테이션 준비를 더 빠르게 지원한다.",
+        "points": [
+          "파이낸셜 리서치 에이전트 및 50개 이상 특화 스킬 제공",
+          "KYC·온보딩 자동화 지원",
+          "채권 포트폴리오 리스크 분석 지원",
+          "관계 매니저의 고객 프레젠테이션 준비 가속화"
+        ],
+        "why": [
+          "클라우드 업체들이 업종 특화 에이전트로 경쟁 축을 옮기고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-revolut-ai-research-division",
+      "title": "레볼루트, 자체 AI 연구조직·파운데이션 모델 '프라그마' 공개",
+      "summary": "엔비디아와 공동 개발한 프라그마는 신용 리스크·부정거래 탐지 등에 쓰이는 레볼루트의 자체 금융 파운데이션 모델이다.",
+      "source": "Revolut",
+      "url": "https://www.revolut.com/en-BG/news/revolut_announces_launch_of_dedicated_ai_research_division_revolut_research/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "레볼루트는 8000만 고객·40여개 시장의 데이터를 활용해 서드파티 AI 도구에 의존하는 은행 대비 우위를 노린다.",
+        "what": "레볼루트 리서치는 신용 리스크, 부정거래 탐지, 플랫폼 운영, 개인화 추천에 활용되는 프라그마를 개발한 전담 AI 조직이다. 초기 테스트에서 기존 레거시 모델 대비 상당한 성능 향상을 보였다고 회사 측은 설명했다.",
+        "points": [
+          "엔비디아와 공동 개발한 자체 금융 파운데이션 모델 '프라그마'",
+          "신용 리스크·부정거래 탐지·플랫폼 운영·개인화 추천에 활용",
+          "8000만 고객, 40여개 시장 데이터 기반",
+          "초기 테스트에서 레거시 모델 대비 유의미한 성능 향상 확인"
+        ],
+        "why": [
+          "자체 데이터 기반 파운데이션 모델이 핀테크의 새로운 경쟁 우위로 부상"
+        ]
+      }
+    },
+    {
+      "id": "fintech-coinbase-tokenized-stocks-base",
+      "title": "코인베이스, 비미국 사용자 대상 베이스 체인 토큰화 주식 출시",
+      "summary": "엔비디아·애플·메타·알파벳의 토큰화 버전을 베이스에 출시해 24시간 자기 수탁형 주식 거래를 지원한다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/coinbase-launches-tokenized-stocks-on-base?utm_source=tldrfintech",
+      "report": {
+        "tldr": "코인베이스는 알파카를 통해 보유한 실물 주식을 담보로 한 토큰화 주식을 체인링크 가격 피드와 결합해 제공한다.",
+        "what": "코인베이스 발행·정산과 체인링크 가격, 약 50개 앱에 걸친 디파이 통합을 결합했지만, 24/5 고정 가격 피드, KYC 기반 상환, 관할권 제한 등 새로운 운영상 난제도 함께 떠안았다.",
+        "points": [
+          "엔비디아·애플·메타·알파벳 토큰화 버전 베이스에 출시",
+          "알파카를 통한 실물 주식 담보 자기수탁형 거래",
+          "체인링크 가격 피드 및 약 50개 앱 디파이 통합",
+          "24/5 고정 가격 피드·KYC 상환·관할권 제한 등 제약 존재"
+        ],
+        "why": [
+          "전통 주식과 온체인 자산의 경계가 계속 흐려지고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-amazon-drone-delivery-expansion",
+      "title": "아마존, 드론 배송을 미국 500여개 지역으로 확대 계획",
+      "summary": "프라임 에어는 현재 11개 허브에서 운영 중이며, 연말까지 수백 개 도시로 확대될 전망이다.",
+      "source": "Carrier Management",
+      "url": "https://www.carriermanagement.com/news/2026/08/24/291308.htm?utm_source=tldrfintech",
+      "report": {
+        "tldr": "MK30 기체를 활용한 아마존의 드론 배송 확대는 지역 사회 승인이라는 관문을 넘어야 한다.",
+        "what": "아마존은 MK30 기체를 활용해 연말까지 수백 개 도시와 마을로 드론 배송을 확대할 계획이지만, 소음·안전·프라이버시·야생동물 우려로 지역 사회 차원의 저항에 부딪힐 가능성이 있다.",
+        "points": [
+          "현재 11개 허브에서 프라임 에어 운영 중",
+          "연말까지 수백 개 도시·마을로 확대 목표",
+          "MK30 기체 활용",
+          "지역 사회 승인 필요, 소음·안전·프라이버시 우려 존재"
+        ],
+        "why": [
+          "라스트마일 배송 자동화 확산 속도를 가늠할 수 있는 사례"
+        ]
+      }
+    },
+    {
+      "id": "fintech-standard-metrics-series-b",
+      "title": "스탠다드 메트릭스, AI 기반 사모시장 플랫폼 확장 위해 2000만 달러 시리즈B 유치",
+      "summary": "8VC 주도로 세일즈포스벤처스·스파크캐피털 등이 참여했으며 1만개 이상의 포트폴리오사를 지원 중이다.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/ai-driven-portfolio-management-platform-standard-metrics-raises-20m-to-supercharge-private-markets-innovation-302856929.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "스탠다드 메트릭스는 4000억 달러 이상의 자산을 관리하는 150개 펌을 지원하는 AI 기반 사모시장 플랫폼이다.",
+        "what": "이번 자금으로 벤처캐피털·사모펀드 포트폴리오 관리를 위한 AI 역량을 강화하며, 포트폴리오 리뷰·밸류에이션·LP 리포팅·실사·AI 문서 파싱·AI 애널리스트·MCP 상호운용성 등 기능을 제공한다.",
+        "points": [
+          "8VC 주도, 세일즈포스벤처스·스파크캐피털 등 참여",
+          "1만개 이상 포트폴리오사, 4000억 달러 이상 자산 관리 150개 펌 지원",
+          "포트폴리오 리뷰·밸류에이션·LP 리포팅·실사·AI 애널리스트 등 기능 제공",
+          "MCP 상호운용성 지원"
+        ],
+        "why": [
+          "사모시장 인프라에도 AI 자동화 투자가 이어지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-vanguard-acquires-altruist",
+      "title": "뱅가드, 웰스테크 플랫폼 알트루이스트 인수",
+      "summary": "2020년 첫 투자 이후 자산운용사 뱅가드가 웰스 기술·수탁 플랫폼 알트루이스트를 인수한다.",
+      "source": "Coverager",
+      "url": "https://coverager.com/vanguard-to-acquire-altruist/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "알트루이스트는 독립 사업부로 남으며, AI 플랫폼 '헤이즐'도 함께 유지된다.",
+        "what": "헤이즐은 수탁 데이터와 어드바이저의 이메일·노트·CRM 기록을 결합해 재무·세무 계획을 지원하는 알트루이스트의 AI 플랫폼이다.",
+        "points": [
+          "2020년 첫 투자 이후 뱅가드가 알트루이스트 인수",
+          "알트루이스트는 독립 사업부로 유지",
+          "AI 플랫폼 '헤이즐'도 함께 존속"
+        ],
+        "why": [
+          "전통 자산운용사들이 웰스테크 스타트업 인수를 통해 AI 역량을 흡수하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "fintech-google-apple-youth-banking",
+      "title": "구글·애플의 청소년 금융 서비스가 은행권을 압박하는 방식",
+      "summary": "구글 월렛이 애플 캐시 패밀리와 유사한 부모용 자금 관리 기능을 추가하며 빅테크가 소비자 금융 생활에 더 일찍 진입하고 있다.",
+      "source": "American Banker",
+      "url": "https://www.americanbanker.com/payments/news/how-google-and-apples-youth-plays-are-pressuring-banks?utm_source=tldrfintech",
+      "report": {
+        "tldr": "빅테크가 청소년·가족 금융 서비스로 소비자 금융 생활에 더 이른 시점부터 진입하고 있다.",
+        "what": "구글 월렛이 애플 캐시 패밀리와 유사한 부모용 자금 관리 기능을 추가하면서, 전통 은행들이 젊은 고객층 확보 경쟁에서 압박을 받고 있다.",
+        "points": [
+          "구글 월렛에 부모용 자금 관리 기능 추가",
+          "애플 캐시 패밀리와 유사한 기능",
+          "은행권의 젊은 고객층 확보 경쟁 심화"
+        ],
+        "why": [
+          "빅테크의 금융 서비스 확장이 전통 은행의 고객 기반을 잠식할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-cftc-bans-ftx-execs",
+      "title": "CFTC, 前 FTX 임원들의 거래 활동 금지",
+      "summary": "캐롤라인 엘리슨과 게리 왕은 FTX 붕괴에서의 역할로 등록 제한도 함께 받았다.",
+      "source": "Banking Dive",
+      "url": "https://www.bankingdive.com/news/cftc-bans-ex-ftx-execs-wang-ellison-from-trading-5-years/828405/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "CFTC가 前 FTX 임원 캐롤라인 엘리슨과 게리 왕에게 거래 금지와 등록 제한을 부과했다.",
+        "what": "두 사람은 FTX 붕괴 당시의 역할을 이유로 거래 금지 조치와 함께 등록 제한도 받았다.",
+        "points": [
+          "캐롤라인 엘리슨·게리 왕 거래 금지 조치",
+          "FTX 붕괴 관련 역할로 등록 제한도 부과"
+        ],
+        "why": [
+          "FTX 사태에 대한 규제 후속 조치가 계속되고 있다"
+        ]
+      }
+    }
+  ]
+}

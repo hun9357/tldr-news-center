@@ -1,0 +1,285 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-linkedin-cognitive-memory-agent",
+      "title": "링크드인, 에이전틱 개인화를 위한 인지 메모리 에이전트 내부 구조",
+      "summary": "링크드인은 대화·에피소드·시맨틱·절차 기억 등 4개 레이어로 채용 어시스턴트를 개인화하는 인지 메모리 에이전트를 구축했다.",
+      "source": "Stack Overflow Blog",
+      "url": "https://stackoverflow.blog/2026/08/25/inside-linkedin-s-cognitive-memory-agent/?utm_source=tldrdata",
+      "report": {
+        "tldr": "GraphRAG를 계층형 트리 구조로 대체해 더 저렴한 점진적 업데이트를 지원한다.",
+        "what": "전담 수집·통합·검색 서비스가 선호도를 최신 상태로 유지하고, 추적 가능하며, 접근 통제되고, 엄격한 지연시간 한도 내에서 제공되도록 한다.",
+        "points": [
+          "대화·에피소드·시맨틱·절차 기억 4개 레이어 구조",
+          "GraphRAG를 계층형 트리로 대체",
+          "저렴한 점진적 업데이트 지원",
+          "전담 수집·통합·검색 서비스로 지연시간 관리"
+        ],
+        "why": [
+          "대규모 개인화 에이전트 설계에서 메모리 아키텍처가 핵심 병목임을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "data-doordash-safechat-moderation",
+      "title": "도어대시 세이프챗, 실시간 마켓플레이스의 AI 안전 시스템",
+      "summary": "세이프챗은 하루 수백만 건의 채팅·통화·이미지를 하이브리드 모더레이션 파이프라인으로 처리한다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/presentations/doordash-llm-ai-moderation-platform/?utm_source=tldrdata",
+      "report": {
+        "tldr": "빠른 내부 분류기가 명백히 안전한 케이스를 걸러내고, LLM이 가장 어려운 케이스를 여러 심각도 축에서 평가한다.",
+        "what": "노코드 워크플로우와 백테스팅을 통해 팀이 프로덕션 적용 전에 대응 조치를 조정할 수 있게 했으며, 이 시스템은 언어폭력 사건을 약 절반으로 줄이는 효과를 냈다.",
+        "points": [
+          "하루 수백만 건 채팅·통화·이미지 처리",
+          "빠른 내부 분류기 + LLM 하이브리드 파이프라인",
+          "노코드 워크플로우·백테스팅으로 프로덕션 전 튜닝 가능",
+          "언어폭력 사건 약 절반 감소"
+        ],
+        "why": [
+          "대규모 실시간 마켓플레이스에서 AI 안전 시스템의 실질적 효과를 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-logdrive-shared-logs-abstraction",
+      "title": "로그드라이브: 공유 로그의 추상화를 통한 유연한 구성",
+      "summary": "카프카류 스트리밍 시스템에서 공유 로그를 시퀀싱 레이어와 내구성 레이어로 분리하는 설계다.",
+      "source": "Jack Vanlightly Blog",
+      "url": "https://jack-vanlightly.com/blog/2026/8/25/the-logdrive-flexible-composition-through-abstraction-in-shared-logs?utm_source=tldrdata",
+      "report": {
+        "tldr": "AtomicLog 시퀀싱 레이어와 flat 단일값 레지스터·weakTail 기반 내구성 레이어로 분리해 스트라이핑·쿼럼 복제를 재사용 가능하게 만들었다.",
+        "what": "이 추상화 덕분에 S3, 다이나모DB, S3 익스프레스 등 여러 백엔드에서 동일한 스트라이핑·쿼럼 복제 로직을 재사용할 수 있게 됐다.",
+        "points": [
+          "AtomicLog 시퀀싱 레이어와 내구성 레이어 분리",
+          "flat 단일값 레지스터·weakTail 기반 내구성 레이어",
+          "S3·다이나모DB·S3 익스프레스 등 여러 백엔드에서 재사용 가능",
+          "스트라이핑·쿼럼 복제 로직 재사용성 확보"
+        ],
+        "why": [
+          "스트리밍 시스템의 핵심 추상화를 재설계해 이식성과 유연성을 크게 높인 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-rocksdb-amplification-benchmarks",
+      "title": "락스DB의 3가지 증폭 계수 벤치마킹",
+      "summary": "락스DB의 증폭 정도는 워크로드 형태, 컴팩션 용량, 키 순서에 크게 좌우된다.",
+      "source": "HackerNoon",
+      "url": "https://hackernoon.com/benchmarking-rocksdbs-three-amplification-factors?utm_source=tldrdata",
+      "report": {
+        "tldr": "무작위 삽입은 4.56배의 쓰기 증폭을 낳았지만 순차 키는 변화가 없었고, 삭제가 많은 워크로드는 일시적으로 공간 증폭을 1.58배까지 끌어올렸다.",
+        "what": "블룸 필터는 파일 수가 늘어나도 L0 읽기 지연시간을 거의 평탄하게 유지시켜줬다.",
+        "points": [
+          "무작위 삽입: 쓰기 증폭 4.56배",
+          "순차 키 삽입: 증폭 변화 없음",
+          "삭제 위주 워크로드: 공간 증폭 일시적으로 1.58배까지 상승",
+          "블룸 필터가 L0 읽기 지연시간을 거의 평탄하게 유지"
+        ],
+        "why": [
+          "워크로드 특성에 따른 LSM 트리 성능 튜닝의 구체적 근거를 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "data-evaluate-llms-before-production",
+      "title": "프로덕션 배포 전 LLM 평가하는 법",
+      "summary": "깃허브의 시크릿 스캐닝 사례는 LLM 평가가 일반 벤치마크 점수가 아니라 프로덕션 의사결정을 최적화해야 함을 보여준다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/ai-and-ml/llms/how-to-evaluate-llms-before-production/?utm_source=tldrdata",
+      "report": {
+        "tldr": "프롬프트·모델·입력 구성·평가 설정을 코드처럼 버전 관리하고 프로덕션과 유사한 모호성에 맞서 테스트한 결과, 재현율은 유지하면서 오탐을 오프라인에서 95% 줄였다.",
+        "what": "일반적인 벤치마크 점수 최적화 대신 실제 프로덕션 의사결정을 기준으로 평가 체계를 설계하는 방법론이 소개됐다.",
+        "points": [
+          "프롬프트·모델·입력 구성·평가 설정을 코드처럼 버전 관리",
+          "프로덕션과 유사한 모호성 조건에서 테스트",
+          "오탐을 오프라인에서 95% 감소",
+          "안전 가드레일 내에서 재현율 유지"
+        ],
+        "why": [
+          "일반 벤치마크가 아닌 실제 프로덕션 결정을 기준으로 한 평가 설계의 중요성을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "data-graph-engineering-llm-agents",
+      "title": "LLM 에이전트 시대의 그래프 엔지니어링: 개별 지능에서 시스템 지능으로",
+      "summary": "복잡한 작업은 더 나은 컨텍스트나 도구가 있어도 단일 AI 에이전트의 조직적 처리 한계를 넘어설 수 있다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2608.21156v2?utm_source=tldrdata",
+      "report": {
+        "tldr": "그래프 엔지니어링은 작업·전문화된 에이전트·시스템 상태를 매핑해 병렬 작업, 검증, 지속적 실행을 조율함으로써 이 한계를 해결한다.",
+        "what": "단일 에이전트의 조직적 처리 능력을 넘어서는 복잡한 작업을, 여러 전문화된 에이전트와 시스템 상태를 그래프로 매핑해 조율하는 방식으로 해결하려는 시도다.",
+        "points": [
+          "단일 AI 에이전트의 조직적 처리 한계 지적",
+          "작업·전문화 에이전트·시스템 상태를 그래프로 매핑",
+          "병렬 작업·검증·지속적 실행 조율 가능",
+          "개별 지능에서 시스템 지능으로의 전환 제시"
+        ],
+        "why": [
+          "멀티에이전트 시스템 설계에서 그래프 기반 조율이 새로운 표준으로 부상할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "data-ai-chokehold-data-team-burnout",
+      "title": "AI의 압박: 번아웃 없이 데이터 팀을 만드는 법",
+      "summary": "AI가 더 많은 파이프라인과 의존성을 만들어내지만 데이터 팀 규모는 그에 맞춰 커지지 않아 엔지니어가 운영상 병목이 되고 있다.",
+      "source": "TLDR Newsletter Links",
+      "url": "https://links.tldrnewsletter.com/p1DRIx?utm_source=tldrdata",
+      "report": {
+        "tldr": "기업은 실제 필요와 역량에 맞는 확장 가능한 인프라·거버넌스·자동화된 운영으로 번아웃을 예방해야 한다는 제언이다.",
+        "what": "AI 도입으로 늘어나는 파이프라인과 의존성이 데이터 팀 인력 증가 속도를 앞지르면서, 엔지니어들이 운영 병목이 되는 현상이 나타나고 있다.",
+        "points": [
+          "AI가 파이프라인·의존성을 빠르게 늘림",
+          "데이터 팀 인력 확대 속도가 이를 따라가지 못함",
+          "엔지니어가 운영상 병목으로 전락",
+          "확장 가능한 인프라·거버넌스·자동화가 해법으로 제시됨"
+        ],
+        "why": [
+          "AI 도입 확대가 데이터 조직의 인력 운용 전략에 근본적 재고를 요구하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "data-ducklabs-aws-open-source",
+      "title": "덕랩스, 덕DB 확장 위해 AWS 합류",
+      "summary": "덕랩스는 덕DB와 덕 스택 전반을 확장하는 데 필요한 인프라·자원·도달 범위를 얻기 위해 AWS에 합류한다.",
+      "source": "DuckLabs",
+      "url": "https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws?utm_source=tldrdata",
+      "report": {
+        "tldr": "덕DB·덕레이크·쿽은 독립 재단이 관리하는 MIT 라이선스 오픈소스 프로젝트로 계속 남는다.",
+        "what": "AWS는 이번 파트너십을 통해 덕DB 프로젝트의 더 빠른 개발과 더 넓은 채택을 지원할 예정이다.",
+        "points": [
+          "AWS 합류를 통한 인프라·자원·도달 범위 확보",
+          "덕DB·덕레이크·쿽은 독립 재단 산하 MIT 라이선스 유지",
+          "AWS가 개발 속도와 채택 확대를 지원"
+        ],
+        "why": [
+          "핵심 오픈소스 데이터 도구가 빅테크 산하로 편입되는 흐름이 계속되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "data-khaos-kafka-chaos-testing",
+      "title": "카오스: 카프카 부하 테스트 및 카오스 엔지니어링 도구",
+      "summary": "최근 Go로 재작성된 오픈소스 카프카 부하·카오스 시뮬레이션 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/aleksandarskrbic/khaos?utm_source=tldrdata",
+      "report": {
+        "tldr": "브로커 장애, 핫 파티션, 컨슈머 지연, 리밸런스, 백프레셔 등을 재현해 프로덕션 인시던트를 겪기 전에 반복 가능한 방식으로 카프카 동작을 테스트할 수 있게 해준다.",
+        "what": "현실적인 프로듀서·컨슈머를 생성해 다양한 장애 시나리오를 시뮬레이션하는 오픈소스 도구로, 최근 Go로 재작성됐다.",
+        "points": [
+          "현실적인 프로듀서·컨슈머 생성",
+          "브로커 장애·핫 파티션·컨슈머 지연·리밸런스·백프레셔 시뮬레이션",
+          "최근 Go로 재작성",
+          "플랫폼 팀에 반복 가능한 카프카 테스트 방법 제공"
+        ],
+        "why": [
+          "프로덕션 장애를 사전에 재현·검증하는 카오스 엔지니어링 도구의 중요성을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "data-postgresql-regex-pg-tre-pg-re2",
+      "title": "포스트그레SQL 정규식의 새로운 선택지: pg_tre와 pg_re2",
+      "summary": "포스트그레SQL 정규식 검색 성능은 인덱스·익스텐션 선택에 따라 크게 달라진다.",
+      "source": "Depesz",
+      "url": "https://www.depesz.com/2026/08/25/new-things-for-regular-expressions-in-postgresql-pg_tre-and-pg_re2?utm_source=tldrdata",
+      "report": {
+        "tldr": "160만 행, 33GB 규모 테이블에서 pg_trgm은 단순 LIKE 스캔을 약 40초에서 1.6초로 단축시켰다.",
+        "what": "pg_tre는 퍼지 매칭을 추가했지만 인덱스 빌드 시간이 오래 걸렸고, pg_re2는 일부 언어 기능을 포기하는 대신 더 빠른 정규식 실행 속도를 제공했다.",
+        "points": [
+          "160만 행, 33GB 테이블 기준 벤치마크",
+          "pg_trgm: LIKE 스캔 약 40초 → 1.6초로 단축",
+          "pg_tre: 퍼지 매칭 지원하나 인덱스 빌드 시간 오래 걸림",
+          "pg_re2: 일부 언어 기능 포기하되 빠른 실행 속도 제공"
+        ],
+        "why": [
+          "포스트그레SQL 정규식 성능 튜닝에 실질적인 벤치마크 데이터를 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "data-pagedattention-kv-cache",
+      "title": "페이지드어텐션: LLM KV 캐시를 위한 가상 메모리",
+      "summary": "페이지드어텐션은 연속 할당 방식을 고정 크기 블록과 블록 테이블로 대체해 LLM KV 캐시에 가상 메모리 방식 페이징을 도입한다.",
+      "source": "The Gustafson Blog",
+      "url": "https://thegustafson.com/blog/paged-attention?utm_source=tldrdata",
+      "report": {
+        "tldr": "이 설계로 캐시 단편화 대부분이 사라지고 활용률이 약 96%까지 올라가며, 어텐션 출력 변화 없이 GPU당 2~4배 더 많은 사용자를 처리할 수 있다.",
+        "what": "공유 프롬프트에 대한 카피-온-라이트(copy-on-write)도 지원해 여러 요청이 동일 프롬프트를 효율적으로 공유할 수 있게 한다.",
+        "points": [
+          "연속 할당 대신 고정 크기 블록과 블록 테이블 사용",
+          "캐시 단편화 대부분 제거, 활용률 약 96%",
+          "공유 프롬프트에 카피-온-라이트 지원",
+          "GPU당 2~4배 더 많은 사용자 처리 가능"
+        ],
+        "why": [
+          "LLM 서빙 인프라의 메모리 효율을 근본적으로 개선하는 핵심 기법이다"
+        ]
+      }
+    },
+    {
+      "id": "data-aggregate-number-lying-you",
+      "title": "집계 수치가 당신을 속이고 있다",
+      "summary": "엔터프라이즈 애플리케이션 소프트웨어는 여전히 성장 중이지만 집계된 시장 수치는 AI가 실제로 구매자 행동을 바꾸는 지점을 가려버린다.",
+      "source": "IDC",
+      "url": "https://www.idc.com/resource-center/blog/the-aggregate-number-is-lying-to-you/?utm_source=tldrdata",
+      "report": {
+        "tldr": "워크플로우 중심, 자동화 친화적 카테고리가 앞서가는 반면 고객 서비스·HCM은 뒤처지고 있다.",
+        "what": "구매자 입장에서는 이제 광범위한 시장 성장 헤드라인보다 AI 패키징과 가격 정책이 가치 포착에 대해 더 많은 것을 말해준다.",
+        "points": [
+          "엔터프라이즈 소프트웨어는 전체적으로 여전히 성장 중",
+          "집계 수치는 카테고리별 차이를 은폐",
+          "워크플로우·자동화 친화적 카테고리가 앞서감",
+          "고객 서비스·HCM 카테고리는 뒤처짐"
+        ],
+        "why": [
+          "시장 전체 지표만으로는 AI가 실제로 어디서 가치를 만드는지 파악하기 어렵다"
+        ]
+      }
+    },
+    {
+      "id": "data-analyst-gym-tool",
+      "title": "애널리스트 짐, 매일 2분 분석 훈련 드릴",
+      "summary": "코딩 실력이 아닌 분석적 판단력을 단련하기 위한 매일의 짧은 업무 드릴 도구다.",
+      "source": "Analyst Gym",
+      "url": "https://analystgym.com/?utm_source=tldrdata",
+      "report": {
+        "tldr": "짧고 반복적인 훈련으로 데이터 분석가의 판단력을 꾸준히 단련하는 도구다.",
+        "what": "코딩 스킬이 아니라 실제 업무 상황에서의 분석적 판단력을 기르는 데 초점을 맞춘 매일 2분짜리 드릴을 제공한다.",
+        "points": [
+          "매일 2분짜리 업무 드릴",
+          "코딩 실력이 아닌 분석적 판단력 단련이 목표"
+        ],
+        "why": [
+          "AI가 코딩을 대신할수록 사람의 분석적 판단력 훈련이 더 중요해질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "data-neocarta-neo4j-semantic-layer",
+      "title": "네오카르타, Neo4j 기반 시맨틱 레이어로 AI 에이전트에 데이터 맥락 제공",
+      "summary": "데이터베이스 스키마, 비즈니스 정의, 지표, 쿼리 히스토리를 통합해 MCP로 AI 에이전트에 노출한다.",
+      "source": "GitHub",
+      "url": "https://github.com/neo4j-labs/neocarta?utm_source=tldrdata",
+      "report": {
+        "tldr": "여러 데이터 소스에 흩어진 맥락을 하나의 시맨틱 레이어로 통합해 AI 에이전트가 일관되게 활용할 수 있게 한다.",
+        "what": "데이터베이스 스키마, 비즈니스 정의, 지표, 쿼리 히스토리를 Neo4j 기반으로 통합하고 이를 MCP를 통해 AI 에이전트에 노출하는 오픈소스 프로젝트다.",
+        "points": [
+          "데이터베이스 스키마·비즈니스 정의·지표·쿼리 히스토리 통합",
+          "Neo4j 기반 시맨틱 레이어 구축",
+          "MCP를 통해 AI 에이전트에 맥락 노출"
+        ],
+        "why": [
+          "AI 에이전트가 기업 데이터를 정확히 이해하려면 통합된 시맨틱 레이어가 핵심 기반이 된다"
+        ]
+      }
+    }
+  ]
+}
