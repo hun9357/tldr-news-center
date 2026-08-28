@@ -1,0 +1,250 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-anthropic-universal-driver",
+      "title": "앤트로픽, 클로드가 실험실·공장 장비를 조작하는 범용 드라이버 공개",
+      "summary": "모델 하드웨어 표준(MHS) 리서치 프리뷰로 AI 에이전트가 통합 인터페이스를 통해 실험·제조 장비를 탐색하고 조작할 수 있게 했다. 벤더별 연동 없이 동작한다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "report": {
+        "tldr": "앤트로픽 MHS가 벤더별 연동 없이 에이전트와 물리 장비를 잇는 범용 드라이버를 제시했다.",
+        "what": "앤트로픽이 모델 하드웨어 표준(MHS)의 리서치 프리뷰를 공개했다. AI 에이전트가 통합 인터페이스를 통해 실험실과 제조 장비를 발견하고 조작할 수 있게 하는 규격이다. 단순한 읽기/쓰기 조작과 물리적 특성을 서술하는 자연어 태그를 사용하며, 통상 수 주에서 수 개월이 걸리던 벤더별 맞춤 연동을 불필요하게 만든다.",
+        "points": [
+          "통합 인터페이스로 실험·제조 장비 탐색 및 조작",
+          "읽기/쓰기 조작 + 물리적 특성 자연어 태그 조합",
+          "벤더별 맞춤 연동 개발(수주~수개월) 불필요"
+        ],
+        "why": [
+          "소프트웨어의 MCP에 해당하는 자리를 물리 장비 영역에서 차지하려는 시도다",
+          "장비 제조사가 표준을 채택할지가 실제 확산의 관건이 된다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-perplexity-nvidia-portable-computer",
+      "title": "퍼플렉시티·엔비디아, 완전 로컬 실행 포터블 컴퓨터 공개",
+      "summary": "클라우드 의존이나 토큰 비용 없이 고급 에이전트 워크플로를 로컬에서 실행하는 엣지 AI 플랫폼이다. 엔비디아의 소형 엣지 프로세서로 양자화 추론을 돌린다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs",
+      "report": {
+        "tldr": "퍼플렉시티와 엔비디아가 토큰 비용 없이 로컬에서 에이전트를 돌리는 엣지 기기를 내놓았다.",
+        "what": "퍼플렉시티가 엔비디아와 손잡고 포터블 컴퓨터를 출시했다. 클라우드 의존이나 토큰 요금 없이 고급 에이전트 워크플로를 로컬에서 실행하는 엣지 기반 AI 플랫폼이다. 엔비디아의 소형 엣지 프로세서에서 양자화된 추론 모델을 돌려 멀티모달 검색과 지속적인 에이전트 작업을 처리한다.",
+        "points": [
+          "클라우드 없이 로컬에서 에이전트 워크플로 실행",
+          "토큰 과금 없는 구조",
+          "엔비디아 소형 엣지 프로세서 + 양자화 추론 모델",
+          "멀티모달 검색 및 지속적 에이전트 작업 지원"
+        ],
+        "why": [
+          "토큰 종량제 비용 구조를 하드웨어 선불 구매로 대체하는 접근이다",
+          "데이터를 외부로 보내지 않는 구조라 규제 산업에서의 활용 가능성이 크다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-nvme-24-post-quantum",
+      "title": "NVMe 2.4, 양자 내성 암호와 세밀한 전력 관리 추가",
+      "summary": "NVM 익스프레스가 양자 저항 암호 알고리즘과 고급 텔레메트리를 통합한 NVMe 2.4를 공개했다.",
+      "source": "EE Times",
+      "url": "https://www.eetimes.com/nvme-2-4-update-adds-post-quantum-security-power-controls/",
+      "report": {
+        "tldr": "NVMe 2.4가 스토리지 계층에 양자 내성 암호와 전력 제어를 넣었다.",
+        "what": "NVM 익스프레스 기구가 NVMe 2.4 규격을 발표했다. 양자 저항 암호 알고리즘과 기업용 보안·데이터센터 효율을 위한 고급 텔레메트리를 통합했다. 미래의 보안 위협에 대비하면서 고성능 스토리지 아키텍처의 에너지 관리도 함께 개선했다.",
+        "points": [
+          "양자 내성(post-quantum) 암호 알고리즘 통합",
+          "기업 보안·데이터센터 효율용 고급 텔레메트리 추가",
+          "고성능 스토리지의 세밀한 전력 관리 제어"
+        ],
+        "why": [
+          "지금 저장한 데이터를 나중에 복호화하는 공격에 대비하려면 스토리지 계층의 대응이 필요하다",
+          "데이터센터 전력이 병목인 상황에서 스토리지 전력 제어의 실익이 커졌다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-hbm-thermal-bottlenecks",
+      "title": "고단 HBM 확장, 패키징과 발열이 발목",
+      "summary": "12단·16단 HBM 적층이 심각한 열·기계·신뢰성 제약에 부딪히며 AI 가속기 발전을 제한하고 있다. JEDEC 규격을 맞추려 얇아진 DRAM은 TSV 피로 위험을 키운다.",
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/issues-stack-up-with-more-hbm-layers/",
+      "report": {
+        "tldr": "HBM 적층 단수를 올릴수록 발열과 기계적 피로가 AI 가속기의 실질 한계가 되고 있다.",
+        "what": "고대역폭 메모리를 12단, 16단으로 쌓는 과정에서 심각한 열적·기계적·신뢰성 제약이 나타나며 AI 가속기 성능 향상을 제한하고 있다. JEDEC 규격을 충족하기 위해 DRAM 기판을 얇게 만들면 실리콘 관통 전극(TSV)의 피로와 미세 균열 위험이 커진다. 결과적으로 패키징과 열 관리가 핵심 경제적 병목이 되고 있다.",
+        "points": [
+          "12단·16단 적층에서 열·기계·신뢰성 제약이 동시 발생",
+          "JEDEC 규격용 박형화가 TSV 피로·미세 균열 위험 증가",
+          "패키징과 열 관리가 최대 경제적 병목으로 부상"
+        ],
+        "why": [
+          "AI 가속기 성능의 실질 한계가 연산 코어가 아니라 메모리 패키징에 있다는 점이 핵심이다",
+          "HBM 공급 제약이 메모리 가격 급등과 하드웨어 가격 인상의 근본 원인이다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-nvidia-compass-navigation",
+      "title": "엔비디아 컴퍼스: 로봇 하드웨어를 넘나드는 내비게이션 정책",
+      "summary": "사전 학습된 보행 정책을 보스턴 다이내믹스 스팟 같은 다른 로봇 플랫폼에 적용하는 에이전트 보조 강화학습 프레임워크다.",
+      "source": "NVIDIA",
+      "url": "https://developer.nvidia.com/blog/how-to-train-a-cross-embodiment-robot-navigation-policy-with-ai-agents/",
+      "report": {
+        "tldr": "컴퍼스가 학습된 내비게이션 정책을 서로 다른 로봇 몸체로 이전한다.",
+        "what": "엔비디아가 컴퍼스(COMPASS)에 대한 튜토리얼을 공개했다. 사전 학습된 보행 정책을 보스턴 다이내믹스 스팟 같은 다른 로봇 플랫폼에 적응시키는 에이전트 보조 강화학습 프레임워크로, 하드웨어 형태를 넘나들며 내비게이션 능력을 이전해 학습 시간과 비용을 크게 줄인다.",
+        "points": [
+          "에이전트 보조 강화학습 기반 정책 이전 프레임워크",
+          "보스턴 다이내믹스 스팟 등 이종 플랫폼 적용",
+          "재학습 시간과 비용 대폭 절감"
+        ],
+        "why": [
+          "로봇마다 정책을 처음부터 학습해야 하는 비용 구조가 로보틱스 확산의 걸림돌이었다",
+          "하드웨어 교체 시 소프트웨어 자산을 유지할 수 있으면 도입 리스크가 크게 줄어든다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-ros2smolvla",
+      "title": "ROS2SmolVLA: 산업용 협동로봇에 VLA 모델 올리기",
+      "summary": "허깅페이스의 경량 SmolVLA 모델을 유니버설 로봇 UR10e 팔에 배포하는 오픈소스 ROS 2 인터페이스다. 로컬 비전 기반 조작을 지원한다.",
+      "source": "una-auxme",
+      "url": "https://una-auxme.github.io/en/projects/ros2smolvla/",
+      "report": {
+        "tldr": "경량 VLA 모델을 산업용 UR10e 협동로봇에서 로컬로 구동하는 오픈소스 인터페이스다.",
+        "what": "ROS2SmolVLA는 허깅페이스의 경량 SmolVLA 모델을 유니버설 로봇 UR10e 팔에 배포하는 오픈소스 ROS 2 인터페이스다. 로컬에서 비전 기반 조작을 수행할 수 있어, 취미용 플랫폼에서 산업용 협동로봇으로 넘어가려는 사용자에게 경로를 제공한다.",
+        "points": [
+          "허깅페이스 SmolVLA를 UR10e에 배포하는 ROS 2 인터페이스",
+          "로컬 실행 기반 비전 유도 조작 지원",
+          "취미용에서 산업용 협동로봇으로 전환하는 경로 제공"
+        ],
+        "why": [
+          "VLA 모델이 연구 데모를 넘어 실제 산업 하드웨어로 내려오는 단계다",
+          "로컬 추론이 가능하면 산업 현장의 네트워크·지연 제약을 피할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-robotiq-ros2-grippers",
+      "title": "로보틱, 적응형 그리퍼용 ROS 2 패키지 공개",
+      "summary": "2F-85와 2F-140 적응형 그리퍼용 공식 ROS 2 드라이버를 내놓았다. C++ SDK 통신을 최적화해 200Hz 제어율을 제공한다.",
+      "source": "Robotiq",
+      "url": "https://blog.robotiq.com/robotiq-releases-ros-2-packages-for-adaptive-grippers",
+      "report": {
+        "tldr": "로보틱이 200Hz 제어를 지원하는 공식 ROS 2 그리퍼 드라이버를 배포했다.",
+        "what": "로보틱이 2F-85 및 2F-140 적응형 그리퍼를 위한 공식 ROS 2 드라이버를 공개했다. C++ SDK 통신을 최적화해 200Hz 제어율을 달성했으며, 커뮤니티가 유지보수하던 기존 솔루션에서 넘어오는 상업적 통합업체에게 장기적 안정성과 API 신뢰성을 제공한다.",
+        "points": [
+          "2F-85·2F-140 그리퍼용 공식 1차 드라이버",
+          "C++ SDK 통신 최적화로 200Hz 제어율 확보",
+          "커뮤니티 유지보수 드라이버 대비 장기 안정성 보장"
+        ],
+        "why": [
+          "1차 벤더 드라이버 제공은 산업 현장 도입의 리스크를 실질적으로 낮춘다",
+          "ROS 2 생태계가 연구용을 넘어 상업 통합의 기본값이 되고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-sifive-bigsky-riscv-server",
+      "title": "사이파이브, RISC-V 32코어 2U 서버 빅스카이 공개",
+      "summary": "P870-D RISC-V 코어 32개를 2.0GHz로 구동하는 2U 엔터프라이즈 서버다. DDR5 256GB와 PCIe 5세대를 지원하며 RISC-V에서 엔비디아 CUDA 워크로드도 돌린다.",
+      "source": "Chips and Cheese",
+      "url": "https://chipsandcheese.com/p/sifives-first-server-platform",
+      "report": {
+        "tldr": "사이파이브가 CUDA 워크로드까지 돌리는 32코어 RISC-V 엔터프라이즈 서버를 내놓았다.",
+        "what": "사이파이브가 빅스카이 SF-2U870을 공개했다. 2.0GHz로 동작하는 P870-D RISC-V 코어 32개와 256GB DDR5 메모리, PCIe 5세대를 갖춘 2U 엔터프라이즈 서버다. 우분투와 RHEL 배포판을 지원하며 RISC-V 아키텍처 위에서 엔비디아 CUDA 워크로드 실행도 가능하다.",
+        "points": [
+          "P870-D RISC-V 코어 32개, 2.0GHz 구동",
+          "DDR5 256GB, PCIe 5세대 지원",
+          "우분투·RHEL 지원 및 RISC-V 상에서 CUDA 워크로드 실행"
+        ],
+        "why": [
+          "RISC-V가 임베디드를 넘어 서버 시장에 진입하는 실질적 이정표다",
+          "CUDA 호환은 기존 AI 소프트웨어 자산을 유지할 수 있게 해 채택 장벽을 낮춘다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-amazon-hikes-prices-60pct",
+      "title": "아마존, 메모리 부족 이유로 하드웨어 가격 최대 60% 인상",
+      "summary": "기업용 AI 인프라 수요가 촉발한 메모리·스토리지 원가 상승을 이유로 소비자 하드웨어 소매가를 최대 60% 올렸다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/24/amazon-hikes-hardware-prices-by-60-percent-blaming-memory-shortage/",
+      "report": {
+        "tldr": "AI 인프라 수요발 메모리 부족이 소비자 하드웨어 가격을 최대 60% 밀어올렸다.",
+        "what": "아마존이 소비자 하드웨어 소매가를 최대 60%까지 인상했다. 기업용 AI 인프라 수요가 견인한 메모리와 스토리지 원가 상승을 이유로 들었다.",
+        "points": [
+          "소비자 하드웨어 소매가 최대 60% 인상",
+          "메모리·스토리지 원가 상승이 직접 원인",
+          "기업 AI 인프라 수요가 근본 배경"
+        ],
+        "why": [
+          "AI 데이터센터 투자가 일반 소비자 가격으로 전가되는 구간에 들어섰다",
+          "HBM 적층 병목과 메모리 공급 제약이 소비재까지 파급된 구체적 사례다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-amazon-2m-nvidia-gpus",
+      "title": "아마존, 전 세계 데이터센터에 엔비디아 GPU 200만 개 배치",
+      "summary": "아마존이 향후 2년간 엔비디아 GPU 200만 개를 구매해 글로벌 데이터센터 확장에 투입하기로 했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-26/amazon-to-buy-2-million-nvidia-chips-for-data-center-build-out",
+      "report": {
+        "tldr": "아마존이 2년에 걸쳐 엔비디아 GPU 200만 개를 사들여 글로벌 데이터센터를 확장한다.",
+        "what": "아마존이 향후 2년간 엔비디아 GPU 200만 개를 구매하기로 확정했다. 프런티어 AI 모델 학습과 클라우드 추론 서비스를 뒷받침하는 글로벌 데이터센터 확장에 투입된다.",
+        "points": [
+          "2년간 엔비디아 GPU 200만 개 구매 확정",
+          "글로벌 데이터센터 확장에 투입",
+          "프런티어 모델 학습 및 클라우드 추론 서비스 지원 목적"
+        ],
+        "why": [
+          "자체 칩을 보유한 하이퍼스케일러도 엔비디아 의존을 줄이지 못하고 있다",
+          "이 규모의 조달이 메모리·패키징 공급망 전반의 병목을 더 조인다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-anthropic-nscale-45b-deal",
+      "title": "앤트로픽, 엔스케일과 450억 달러 인프라 계약",
+      "summary": "런던 기반 엔스케일과 6년 450억 달러 계약을 맺고 웨스트버지니아 모나크 데이터센터에서 460MW 전용 용량을 확보했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/08/26/anthropic-and-nscale-strike-45-billion-cloud-deal-sources-say.html",
+      "report": {
+        "tldr": "앤트로픽이 베라 루빈 기반 460MW 용량을 6년 450억 달러에 확보했다.",
+        "what": "앤트로픽이 런던에 본사를 둔 엔스케일과 6년, 450억 달러 규모의 인프라 계약을 체결했다. 웨스트버지니아 모나크 데이터센터 캠퍼스에서 460메가와트의 전용 용량을 제공받으며 베라 루빈 컴퓨팅이 투입된다.",
+        "points": [
+          "계약 기간 6년, 규모 450억 달러",
+          "웨스트버지니아 모나크 캠퍼스에서 460MW 전용 용량",
+          "엔비디아 베라 루빈 시스템 기반"
+        ],
+        "why": [
+          "프런티어 랩의 경쟁이 모델 성능만이 아니라 전력 확보 경쟁으로 확장됐다",
+          "전용 용량 장기 계약은 컴퓨팅을 상품이 아닌 부동산처럼 다루는 방식이다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-plaud-one-4g-earbuds",
+      "title": "플라우드, 4G LTE 내장 AI 이어버드 공개",
+      "summary": "이심 기반 4G LTE 충전 케이스를 갖춘 플라우드 원 익스플로러 에디션(250달러)으로, 스마트폰 연결 없이 음성 기록과 에이전트 작업을 수행한다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/plaud-unveils-earbuds-with-4g-connectivity-in-ai-gadgets-push",
+      "report": {
+        "tldr": "스마트폰 없이 독립 동작하는 4G 내장 AI 이어버드가 250달러에 나왔다.",
+        "what": "플라우드가 플라우드 원 익스플로러 에디션을 250달러에 공개했다. 이심을 지원하는 4G LTE 충전 케이스를 갖춘 완전 무선 이어버드로, 스마트폰과 페어링하지 않고도 독립적으로 음성 기록과 에이전트 작업 실행이 가능하다.",
+        "points": [
+          "가격 250달러, 이심 지원 4G LTE 충전 케이스 포함",
+          "스마트폰 페어링 없이 독립 동작",
+          "상시 음성 기록 및 에이전트 작업 실행 지원"
+        ],
+        "why": [
+          "AI 하드웨어가 스마트폰 액세서리에서 독립 단말로 이동하려는 시도다",
+          "상시 음성 기록 기기는 주변인 동의 문제 등 프라이버시 쟁점을 동반한다"
+        ]
+      }
+    }
+  ]
+}
