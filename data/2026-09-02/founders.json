@@ -1,9 +1,9 @@
 {
-  "name": "창업자",
+  "name": "파운더스",
   "source": "TLDR Founders",
   "icon": "🚀",
-  "color": "#ff8c69",
-  "bg": "#331f16",
+  "color": "#ffb877",
+  "bg": "#33220f",
   "items": [
     {
       "id": "founders-the-new-valley",

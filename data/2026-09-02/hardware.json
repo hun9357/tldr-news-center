@@ -2,8 +2,8 @@
   "name": "하드웨어",
   "source": "TLDR Hardware",
   "icon": "🔧",
-  "color": "#8fa8c2",
-  "bg": "#1f2733",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
   "items": [
     {
       "id": "hardware-ternus-iphone-launch",

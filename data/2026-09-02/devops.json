@@ -2,8 +2,8 @@
   "name": "데브옵스",
   "source": "TLDR DevOps",
   "icon": "⚙️",
-  "color": "#6ee7c8",
-  "bg": "#123328",
+  "color": "#79e0d0",
+  "bg": "#103029",
   "items": [
     {
       "id": "devops-kubernetes-137-storage-migration",
