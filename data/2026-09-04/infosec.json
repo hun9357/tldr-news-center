@@ -1,0 +1,292 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-latam-ai-tool-attackers-exposed",
+      "title": "중남미 인프라 노린 공격 조직, AI 도구 사용 정황 스스로 노출",
+      "summary": "자체 호스팅한 넥스트챗 인스턴스를 공개 포트에 방치한 탓에 SAM·NTDS.dit 크리덴셜 덤프에 AI를 활용한 공격 정황이 그대로 드러났다.",
+      "source": "Unit 42 (Palo Alto Networks)",
+      "url": "https://unit42.paloaltonetworks.com/ai-tool-use-targeting-latam-orgs/",
+      "report": {
+        "tldr": "중남미 핵심 인프라를 노린 두 개의 침입 클러스터가 TCP 3000 포트에 넥스트챗 인스턴스를 공개 상태로 방치해 작전 내용이 그대로 노출됐다.",
+        "what": "노출된 프롬프트 기록과 스테이징 스크립트를 보면, 공격자들은 실패한 SAM·NTDS.dit 크리덴셜 덤프를 볼륨 섀도 복사본 우회 기법으로 빠르게 반복 시도하는 데 AI 도구를 크게 의존한 것으로 나타났다. 방어자는 duckdns[.]org의 m-doxa 서브도메인을 탐지하고, 2월~6월 사이 로테이션된 다중 SAN 렛츠인크립트 인증서를 모니터링해야 한다.",
+        "points": [
+          "TCP 3000 포트에 공개 방치된 넥스트챗 인스턴스로 작전 노출",
+          "실패한 SAM·NTDS.dit 크리덴셜 덤프를 AI로 빠르게 반복 시도",
+          "duckdns[.]org의 m-doxa 서브도메인, 다중 SAN 렛츠인크립트 인증서 모니터링 필요"
+        ],
+        "why": [
+          "공격자의 AI 도구 오용 정황이 운영 보안 실수를 통해 처음으로 구체적으로 드러난 사례"
+        ],
+        "action": "duckdns[.]org의 m-doxa 서브도메인 탐지 룰을 추가하고, 2월~6월 로테이션된 다중 SAN 렛츠인크립트 인증서를 모니터링할 것."
+      }
+    },
+    {
+      "id": "infosec-malicious-git-configs-ai-agents",
+      "title": "악성 .git/config, 클로드·코덱스·커서 등 AI 에이전트에 공격자 코드 실행",
+      "summary": "Manifold Security가 7개 코딩 에이전트에서 8건의 결함을 발견했으며, 일부는 개발자 계정 권한으로 샌드박스·승인 절차 없이 명령을 실행한다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+      "report": {
+        "tldr": "받은 저장소의 .git/config 파일이 core.fsmonitor 설정을 통해 명령 실행을 트리거할 수 있으며, 이 명령은 샌드박스 통제 밖에서 승인 없이 개발자 계정 권한으로 실행된다.",
+        "what": "구스, 코덱스, 그리고 클로드 코드의 한 경로에는 수정이 존재하지만, 헤르메스 에이전트, Qwen 코드, 그록 빌드, 그리고 클로드 코드의 다른 한 경로는 여전히 노출된 상태로 남아 있다.",
+        "points": [
+          ".git/config의 core.fsmonitor 설정으로 명령 실행 트리거",
+          "샌드박스 통제·승인 절차 없이 개발자 계정 권한으로 실행",
+          "구스·코덱스·클로드 코드 일부 경로는 수정 완료",
+          "헤르메스·Qwen코드·그록 빌드·클로드 코드 다른 경로는 여전히 노출"
+        ],
+        "why": [
+          "코딩 에이전트가 신뢰할 수 없는 저장소를 열람하는 것만으로도 임의 코드 실행에 노출될 수 있음을 보여줌"
+        ],
+        "action": "신뢰할 수 없는 저장소를 여는 코딩 에이전트는 패치 여부를 확인하고, 미패치 도구는 core.fsmonitor 트리거를 차단하거나 사용을 중단할 것."
+      }
+    },
+    {
+      "id": "infosec-coder-registry-compromised",
+      "title": "코더 레지스트리 인프라 해킹…악성 테라폼 모듈로 자격증명 탈취",
+      "summary": "공격자가 코더의 클라우드플레어 풀에 무단 IP를 추가해 8월 31일 약 14시간 동안 자격증명 탈취용 테라폼 모듈을 배포했다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/lK5o0D",
+      "report": {
+        "tldr": "공격자가 registry.coder.com용 클라우드플레어 IP 풀에 무단 IP를 추가해 8월 31일 07:35~21:45 UTC 사이 자격증명 탈취용 테라폼 모듈을 서빙했다.",
+        "what": "이를 통해 클라우드, CI/CD, OIDC, SSH 시크릿이 coder-infra[.]com으로 유출됐다. 패치된 버전은 2.37.0, 2.36.4, 2.35.7, 2.34.9다.",
+        "points": [
+          "8월 31일 07:35~21:45 UTC 사이 약 14시간 악성 모듈 배포",
+          "클라우드·CI/CD·OIDC·SSH 시크릿이 coder-infra[.]com으로 유출",
+          "패치 버전: 2.37.0, 2.36.4, 2.35.7, 2.34.9"
+        ],
+        "why": [
+          "패키지 레지스트리 인프라 자체가 공급망 공격의 진입점이 될 수 있음을 보여주는 사례"
+        ],
+        "action": "해당 기간 동안 코더 테라폼 모듈을 내려받은 조직은 즉시 패치 버전으로 업그레이드하고 노출된 클라우드·CI/CD·SSH 자격증명을 회전할 것."
+      }
+    },
+    {
+      "id": "infosec-rogue-screenconnect-worm",
+      "title": "변조된 스크린커넥트 클라이언트, 웜처럼 무관한 호스트로 확산",
+      "summary": "헌트리스가 회수한 변조 스크린커넥트 클라이언트가 새 호스트 세션을 감지하면 4단계 VBS 스크립트 체인을 자동 등록·실행한다.",
+      "source": "Huntress",
+      "url": "https://www.huntress.com/blog/rogue-screenconnect-installations",
+      "report": {
+        "tldr": "변조된 스크린커넥트 클라이언트는 EndPointStatusMessage.Connections 컬렉션을 감시하다가 새로운 호스트 세션이 관측되면 1.vbs부터 4.vbs까지를 가상 파일전송 시스템에 등록하고 Run 액션으로 큐에 넣는다.",
+        "what": "즉, 감염된 클라이언트에 연결하기만 해도 호스트가 동일한 4단계 VBS 체인을 넘겨받을 수 있다. 로더는 먼저 프로파일링을 수행해 %TEMP%\\value.txt에 기존 스크린커넥트 설치 여부, 디펜더 단독 여부, RAM 5GB 초과 여부를 담은 3비트 상태값을 기록하고, 이 값에 따라 사용자 수준 백도어, ComputerDefaults.exe UAC 우회와 AMSI 변조를 포함한 접근 패키지, 또는 wstunnel(Themes.exe로 위장)과 XMRig(SearchIndex.exe로 위장)를 포함한 조합 분기 중 하나를 선택한다.",
+        "points": [
+          "새 호스트 세션 감지 시 4단계 VBS 스크립트 체인 자동 등록·실행",
+          "연결만으로도 호스트가 동일 체인을 넘겨받는 웜형 확산",
+          "3비트 프로파일링으로 백도어·UAC우회·크립토마이너 등 분기 선택",
+          "헌트리스는 재이미징을 권장, 단순 정리는 비권장"
+        ],
+        "why": [
+          "원격지원 도구가 정상 연결 행위만으로도 웜처럼 확산될 수 있음을 보여주는 새로운 침해 패턴"
+        ],
+        "action": "스크린커넥트 서버 감사 로그에서 Process: Guest로부터 RunFiles/RanFiles 항목이 실행된 흔적, AppData 내 WindowsServiceHost.vbs를 가리키는 WindowsServiceHost Run 키를 확인하고, 감염 의심 호스트는 정리 대신 재이미징할 것."
+      }
+    },
+    {
+      "id": "infosec-claude-code-papercut-zeroday",
+      "title": "패치에서 제로데이까지: 클로드 코드로 페이퍼컷 NG 취약점 역공학",
+      "summary": "케빈 브린이 클로드 코드로 패치된 페이퍼컷 NG를 분석해 두 개의 우회를 연결, 인증 없는 원격코드실행을 확보했다.",
+      "source": "TechAnarchy",
+      "url": "https://www.techanarchy.net/from-patch-to-exploit-using-claude-code-to-reverse-engineer-a-zero-day-in-papercut-ng/",
+      "report": {
+        "tldr": "케빈 브린은 클로드 코드를 활용해 패치된 페이퍼컷 NG 제로데이를 분석했고, 에러 로그에서 SQL 인젝션 IoC를 발견해 패치가 SQL 조회 템플릿에서 CALL/EXEC/SYSCS_ 호출을 차단했음을 확인했다.",
+        "what": "클로드는 JAR 파일을 디컴파일해 matrix 파라미터를 이용한 인증 우회 필터 결함을 찾아냈고, 이어 pageValidate에서 인증되지 않은 서비스 파라미터가 관리자 페이지에 도달할 수 있는 두 번째 우회를 발견했다. 두 우회를 연결하자 papercut 사용자 권한으로 임의 파일 쓰기를 통한 인증 없는 원격코드실행(RCE)이 가능해졌고, 이는 동작하는 파이썬 PoC로 확인됐다. 가드레일이 세션 도중 익스플로잇 로그를 탐지하고 모델을 교체하기도 했다. 브린은 이후 긴급 패치마저 무력화하는 세 번째 우회를 찾아 papercut 보안팀에 제보했고, 회사는 이미 인지하고 있었다고 답했다.",
+        "points": [
+          "에러 로그의 SQL 인젝션 IoC로 패치 내용(CALL/EXEC/SYSCS_ 차단) 역추적",
+          "matrix 파라미터 인증 우회 + pageValidate 우회를 연결",
+          "papercut 권한 인증 없는 RCE를 파이썬 PoC로 확인",
+          "긴급 패치마저 무력화하는 세 번째 우회 추가 발견, 벤더에 제보"
+        ],
+        "why": [
+          "AI 코딩 에이전트가 취약점 리서치·익스플로잇 개발을 가속화할 수 있음을 실증한 사례"
+        ],
+        "action": "페이퍼컷 NG 운영 조직은 최신 긴급 패치 적용 여부와 함께 벤더의 후속 공지를 확인할 것."
+      }
+    },
+    {
+      "id": "infosec-outsider-phishing-kit-resilient",
+      "title": "'아웃사이더' 피싱 키트, 단속에도 매달 700개 새 페이지로 부활",
+      "summary": "구글·FBI의 단속에도 첸룬의 아웃사이더 피싱 서비스는 실시간 키로거와 온디맨드 2FA 프롬프트로 회복력을 유지한다.",
+      "source": "Group-IB",
+      "url": "https://www.group-ib.com/blog/chenlun-outsider-phaas-kit/",
+      "report": {
+        "tldr": "최근 구글과 FBI의 단속에도 불구하고 첸룬의 아웃사이더 피싱 서비스(PhaaS) 플랫폼은 한 달에 700개 이상의 새로운 피싱 페이지를 배포하며 강한 회복력을 보였다.",
+        "what": "이 플랫폼은 웹소켓을 활용해 피해자의 키 입력을 실시간으로 스트리밍하는 동시에, 제휴사가 상황에 맞는 2FA 프롬프트를 온디맨드로 밀어넣을 수 있게 하는 정교한 킬체인을 운영한다. 방어자는 모든 알려진 템플릿에서 고유한 GetSyncSetting 설정 파일과, 피해자 공략 단계에 직접 매핑되는 알파벳 페이지 접두사 규칙을 통해 이 인프라를 탐지할 수 있다.",
+        "points": [
+          "단속에도 월 700개 이상 신규 피싱 페이지 배포",
+          "웹소켓으로 피해자 키 입력 실시간 스트리밍",
+          "제휴사가 온디맨드로 2FA 프롬프트 삽입 가능",
+          "고유 GetSyncSetting 설정 파일과 알파벳 접두사 규칙으로 탐지 가능"
+        ],
+        "why": [
+          "법 집행 단속만으로는 PhaaS 생태계의 회복력을 꺾기 어렵다는 점을 보여줌"
+        ],
+        "action": "모든 알려진 템플릿의 GetSyncSetting 설정 파일 시그니처와 알파벳 페이지 접두사 패턴을 탐지 룰에 반영할 것."
+      }
+    },
+    {
+      "id": "infosec-air-security-launch",
+      "title": "AIR 시큐리티, 스킬·플러그인·MCP 서버 인벤토리·방화벽 출시",
+      "summary": "AIR 시큐리티가 악성 지시·과도한 권한·타이포스쿼팅 패키지를 탐지해 관련 워크플로 접근을 차단하는 방화벽을 내놨다.",
+      "source": "AIR Security",
+      "url": "https://www.air.security/",
+      "report": {
+        "tldr": "AIR 시큐리티가 스킬, 플러그인, MCP 서버, 애드온을 인벤토리화·평가하는 방화벽을 출시했다.",
+        "what": "악성 지시, 숨겨진 동작, 과도한 권한, 타이포스쿼팅 패키지, 위험한 업데이트를 탐지한 뒤 이에 의존하는 워크플로 전반의 접근을 차단한다.",
+        "points": [
+          "스킬·플러그인·MCP 서버·애드온 인벤토리 및 평가",
+          "악성 지시·숨겨진 동작·과도한 권한·타이포스쿼팅 탐지",
+          "탐지 시 의존 워크플로 접근 차단"
+        ],
+        "why": [
+          "에이전트 생태계 확산에 따른 서드파티 확장 기능 보안 위협에 대응하는 신규 카테고리 제품"
+        ]
+      }
+    },
+    {
+      "id": "infosec-leash-agent-safety-layer",
+      "title": "'리쉬', 개인 AI 에이전트를 위한 오픈소스 안전 통제 계층",
+      "summary": "리쉬는 AI 에이전트와 그 행동 사이에 위치해 안전한 작업은 그대로 진행시키고 민감한 작업만 명확한 결정 지점으로 만든다.",
+      "source": "GitHub",
+      "url": "https://github.com/open-leash/leash",
+      "report": {
+        "tldr": "리쉬는 엔진, 데스크톱, 모바일, 프록시, 공유 계약으로 구성된 개인 AI 에이전트용 오픈소스 안전·통제 계층이다.",
+        "what": "AI 에이전트와 그것이 취하는 행동 사이에 위치해, 안전한 작업은 계속 흘러가게 두고 민감한 작업은 사용자가 이해하고 통제할 수 있는 명확한 결정 지점으로 전환한다.",
+        "points": [
+          "엔진·데스크톱·모바일·프록시·공유 계약으로 구성된 오픈소스 스택",
+          "안전한 작업은 그대로 진행, 민감 작업만 명시적 결정 지점화"
+        ],
+        "why": [
+          "개인 사용자 수준에서도 에이전트 행동에 대한 세밀한 통제가 필요해지는 흐름을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "infosec-awshound-opensource-collector",
+      "title": "AWS 환경을 블러드하운드 그래프로, 오픈소스 'AWS하운드' 공개",
+      "summary": "AWS하운드가 500계정 조직을 약 15분 만에 1050만 엣지로 매핑하며 오프라인 IAM 평가로 공격 경로를 정밀 시각화한다.",
+      "source": "SpecterOps",
+      "url": "https://specterops.io/blog/2026/08/19/awshound-opensource-aws-opengraph-collector/",
+      "report": {
+        "tldr": "AWS하운드는 AWS 환경을 블러드하운드 오픈그래프 데이터셋으로 매핑해 공격 경로를 시각화하는 자체 호스팅 오픈소스 수집기다.",
+        "what": "기존 매핑 도구와 달리, AWS하운드는 아이덴티티 정책과 권한 경계·SCP를 교차 검증하는 엄격한 오프라인 IAM 평가를 수행해 실제로 유효 권한이 명시적 허용으로 귀결되는 경우에만 관계를 그린다. 표준 AWS SDK 자격증명 체인을 통해 안전하게 동작하며, 내부 테스트에서 500계정 규모 조직을 약 15분 만에 1050만 개 엣지로 매핑하는 확장성을 입증했다.",
+        "points": [
+          "아이덴티티 정책·권한 경계·SCP 교차 검증하는 오프라인 IAM 평가",
+          "유효 권한이 명시적 허용으로 귀결될 때만 관계 표시",
+          "500계정 조직을 약 15분 만에 1050만 엣지로 매핑"
+        ],
+        "why": [
+          "대규모 AWS 환경의 공격 경로를 정밀하고 빠르게 시각화하는 오픈소스 대안 제시"
+        ]
+      }
+    },
+    {
+      "id": "infosec-uk-block-high-risk-suppliers",
+      "title": "영국, 핵심 인프라서 고위험 기술 공급업체 차단 추진",
+      "summary": "이란발 공격으로 영국 에너지 시설이 나흘간 마비된 이후, 정부가 사이버보안 법안 개정으로 고위험 공급업체 배제 권한을 추진한다.",
+      "source": "TLDR Information Security",
+      "url": "https://links.tldrnewsletter.com/vfM7Sg",
+      "report": {
+        "tldr": "영국 정부는 8월 24일 사이버보안·복원력 법안에 개정안을 상정했다.",
+        "what": "이 개정안으로 정부는 핵심 부문에서 고위험 기술 공급업체를 차단할 수 있게 된다. 이번 조치는 영국 에너지 시설을 나흘간 마비시킨 이란발 공격을 계기로 추진됐다. 법안은 이미 엄격한 사고 보고 의무와 처벌 조항을 담고 있으며, 핵심 사업자에 공급하는 중소기업도 통제가 미흡하면 배제될 수 있다.",
+        "points": [
+          "8월 24일 사이버보안·복원력 법안 개정안 상정",
+          "이란발 공격으로 에너지 시설 나흘간 마비된 사건이 계기",
+          "핵심 부문 공급업체에 고위험 판정 시 배제 가능",
+          "중소 공급업체도 통제 미흡 시 배제 대상"
+        ],
+        "why": [
+          "국가 차원의 공급망 보안 규제가 구체적 사고를 계기로 강화되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "infosec-openai-recurrent-depth-alarm",
+      "title": "오픈AI의 '재귀 깊이' 추론 기법, AI 안전 전문가들 우려 촉발",
+      "summary": "아스트라가 같은 질의를 반복 루프하는 재귀 깊이 방식을 쓰면서 사고 과정 로그의 가독성이 떨어지고 있다는 지적이 나왔다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/02/openais-new-reasoning-technique-alarms-ai-safety-experts/",
+      "report": {
+        "tldr": "오픈AI의 아스트라 모델은 단계적으로 추론하는 대신 같은 질의를 여러 차례 반복 루프하는 '재귀 깊이' 방식을 사용하며, 이는 사고 과정(chain-of-thought) 로그를 더 읽기 어렵게 만든다.",
+        "what": "이 기법이 확장될 경우 추론이 완전히 잠재 공간(latent space)으로 밀려들어가 모델 행동에 대한 가시성이 사라질 수 있다는 우려가 나온다. 오픈AI의 야쿠프 파초키는 아스트라의 사고 과정이 여전히 읽을 수 있는 상태이며 모니터링이 연구 우선순위로 남아 있다고 밝혔다.",
+        "points": [
+          "같은 질의를 반복 루프하는 '재귀 깊이' 추론 방식 사용",
+          "사고 과정 로그 가독성 저하 우려",
+          "확장 시 추론이 잠재 공간으로 완전히 밀려들어갈 가능성 제기",
+          "오픈AI는 사고 과정이 여전히 읽을 수 있다고 반박"
+        ],
+        "why": [
+          "모델 성능 향상 기법이 AI 안전 모니터링의 근간인 사고 과정 투명성과 충돌할 수 있음을 보여줌"
+        ],
+        "context": "같은 날 AI·개발 에디션에서도 아스트라의 재귀·루프 아키텍처를 각기 다른 각도에서 다뤘다."
+      }
+    },
+    {
+      "id": "infosec-ai-agents-ransomware-under-10-hours",
+      "title": "AI 에이전트로 랜섬웨어 침투 시간 10시간 이내로 단축",
+      "summary": "Unit 42는 사람 손으로 2주 걸릴 작업을 AI 에이전트가 10시간 안에 끝낸 랜섬웨어 사례를 분석했다.",
+      "source": "CSO Online",
+      "url": "https://www.csoonline.com/article/4217976/ai-agents-help-compress-ransomware-intrusion-to-under-10-hours-raising-stakes-for-cisos.html",
+      "report": {
+        "tldr": "한 랜섬웨어 공격자가 AI 에이전트를 활용해 10시간 안에 기업 네트워크를 가로질렀으며, Unit 42는 이를 사람 손으로는 약 2주가 걸렸을 작업으로 추정했다.",
+        "what": "관측된 50개 이상의 ATT&CK 기법 자체는 특별할 것이 없었고, 분석가들은 이 침투를 AI가 완전한 자율성을 가진 것이 아니라 사람이 지휘하고 AI가 위임된 전술 작업을 처리한 것으로 해석했다. 더 지속적인 관찰 포인트는 '이전 가능한 권한' 문제로, 클라우드 관리자 권한이 없는 저장소 계정이라도 특권 클라우드 역할을 전제하는 워크플로를 변경할 수 있다는 점이 속도를 가른 허점이었다.",
+        "points": [
+          "사람이면 약 2주 걸릴 침투를 AI 에이전트로 10시간 이내 완료",
+          "관측된 50개 이상 ATT&CK 기법 자체는 평이한 수준",
+          "AI는 자율이 아닌 사람이 지휘하는 위임된 전술 작업 수행",
+          "권한 없는 저장소 계정이 특권 클라우드 역할 워크플로를 변경 가능했던 것이 핵심 허점"
+        ],
+        "why": [
+          "AI가 완전 자율 공격보다 사람이 지휘하는 공격의 '속도'를 극적으로 높이는 방식으로 위협을 키운다는 점을 시사"
+        ],
+        "action": "CISO는 저장소 계정 등 비특권 자격증명이 특권 클라우드 역할을 가진 워크플로를 변경할 수 있는 '이전 가능한 권한' 경로를 점검해야 한다."
+      }
+    },
+    {
+      "id": "infosec-valleyrat-adware-disguise",
+      "title": "밸리랫 백도어, 애드웨어로 위장해 신뢰받는 프로세스에 잠입",
+      "summary": "카스퍼스키가 중국산 애드웨어 QN 월페이퍼로 위장한 밸리랫이 서명된 실행파일을 통해 악성 DLL을 사이드로딩하는 것을 발견했다.",
+      "source": "HackMag",
+      "url": "https://hackmag.com/news/valleyrat",
+      "report": {
+        "tldr": "카스퍼스키는 변조된 중국산 애드웨어 QN 월페이퍼 빌드 안에 밸리랫이 숨어 있는 것을 발견했다.",
+        "what": "서명된 QnWallpaper.exe를 통해 악성 libcef.dll을 사이드로딩함으로써, 사용자들이 습관적으로 화이트리스트에 올리는 신뢰받는 부모 프로세스를 확보하는 방식이다.",
+        "points": [
+          "변조된 중국산 애드웨어 QN 월페이퍼에 밸리랫 은닉",
+          "서명된 QnWallpaper.exe로 악성 libcef.dll 사이드로딩",
+          "사용자가 화이트리스트에 올리는 신뢰 프로세스를 악용"
+        ],
+        "why": [
+          "정상 서명된 실행파일을 악용한 사이드로딩이 여전히 유효한 은폐 기법임을 재확인"
+        ],
+        "action": "QnWallpaper.exe 등 애드웨어성 프로그램의 화이트리스트 등록 여부를 재검토하고 libcef.dll 무결성을 점검할 것."
+      }
+    },
+    {
+      "id": "infosec-rustbot-macos-malware",
+      "title": "러스트 공급망 공격에 쓰인 macOS 악성코드 '러스트봇'",
+      "summary": "크레이츠아이오의 오염된 패키지가 빌드 시점에 arm64 Mach-O 임플란트를 내려받아 AWS·SSH·쿠버네티스 자격증명을 수집했다.",
+      "source": "IRU Blog",
+      "url": "https://www.iru.com/blog/rustbot-macos-malware",
+      "report": {
+        "tldr": "crates.io에 게시된 arrayref, internment, append-only-vec의 오염된 릴리스가 카고 빌드 과정에서 악성 빌드타임 의존성을 끌어들여 arm64 Mach-O 임플란트를 내려받았다.",
+        "what": "이 임플란트는 ~/.aws, ~/.ssh, ~/.kube 자격증명을 수집했으나, RSA 태스킹 채널의 개인키가 바이너리 내부에 함께 포함돼 있어 공격자의 명령 채널이 무력화됐다.",
+        "points": [
+          "crates.io의 arrayref·internment·append-only-vec 패키지 오염",
+          "카고 빌드 시점에 arm64 Mach-O 임플란트 다운로드",
+          "~/.aws, ~/.ssh, ~/.kube 자격증명 수집 시도",
+          "바이너리에 포함된 RSA 개인키로 공격자 명령 채널 자체가 무력화"
+        ],
+        "why": [
+          "Rust 생태계도 npm·PyPI와 마찬가지로 공급망 공격의 표적이 되고 있음을 보여줌"
+        ],
+        "action": "arrayref, internment, append-only-vec 패키지를 최근 빌드에 포함한 조직은 ~/.aws, ~/.ssh, ~/.kube 자격증명을 즉시 회전할 것."
+      }
+    }
+  ]
+}

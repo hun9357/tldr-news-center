@@ -1,0 +1,237 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-k8s-137-hpa-scale-to-zero",
+      "title": "쿠버네티스 1.37, HPA로 워크로드를 0까지 스케일다운",
+      "summary": "HorizontalPodAutoscaler가 애드온이나 알파 기능 게이트 없이도 워크로드를 완전히 0개 파드까지 줄였다가 되살릴 수 있게 됐다.",
+      "source": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/09/02/kubernetes-v1-37-hpa-scale-to-zero-beta/",
+      "report": {
+        "tldr": "쿠버네티스 v1.37에서 파드 0개로의 수평 오토스케일링이 기본 활성화된 베타 기능이 됐다.",
+        "what": "HorizontalPodAutoscaler는 이제 오브젝트 또는 외부 메트릭을 기반으로 워크로드를 완전히 0개 파드까지 줄였다가 다시 늘릴 수 있다. 이 기능은 큐 컨슈머와 배치 프로세서에 적합하지만, 파드가 하나도 없으면 CPU·메모리 메트릭이 사라지므로 최소 하나의 오브젝트 또는 외부 메트릭이 필요하다. 최초 알파 버전은 쿠버네티스 v1.16에서 나왔으며, SIG 오토스케일링은 GA 승격을 고려하기 전에 운영 피드백을 수집할 계획이다.",
+        "points": [
+          "애드온·알파 기능 게이트 없이 0개 파드까지 스케일다운 가능(베타, 기본 활성화)",
+          "큐 컨슈머·배치 프로세서에 적합",
+          "CPU·메모리 메트릭 소멸 문제로 오브젝트/외부 메트릭 최소 1개 필요",
+          "최초 알파는 v1.16, GA 전 운영 피드백 수집 예정"
+        ],
+        "why": [
+          "유휴 워크로드의 컴퓨트 비용을 크게 절감할 수 있는 표준 기능이 정식화 단계로 진입"
+        ]
+      }
+    },
+    {
+      "id": "devops-bgp-hijacking-softaculous",
+      "title": "BGP 하이재킹으로 33시간 트래픽 가로채기…소프트웨어 공급망까지 오염",
+      "summary": "무단 BGP announcement로 소프트큘러스 소유 /24 대역 트래픽이 가로채지며 ACME 검증 트래픽까지 하이재킹당해 유효 인증서가 발급됐다.",
+      "source": "Virtualizor Blog",
+      "url": "https://www.virtualizor.com/blog/security-incident-bgp-hijacking/",
+      "report": {
+        "tldr": "무단 BGP announcement가 소프트큘러스 소유 /24 대역 트래픽을 약 33시간 동안 우회시켜, 공격자가 요청을 가로채고 ACME 검증 트래픽까지 하이재킹당한 덕분에 유효한 렛츠인크립트 인증서를 획득할 수 있었다.",
+        "what": "이후 소수의 버추얼라이저 시스템이 악성 업데이트 패키지를 내려받았는데, 이는 라우팅 공격이 어떻게 소프트웨어 공급망 침해로 이어질 수 있는지를 보여준다.",
+        "points": [
+          "무단 BGP announcement로 약 33시간 트래픽 가로채기",
+          "ACME 검증 트래픽 하이재킹으로 유효 렛츠인크립트 인증서 획득",
+          "일부 버추얼라이저 시스템이 악성 업데이트 패키지 다운로드"
+        ],
+        "why": [
+          "네트워크 계층(BGP) 공격이 인증서 발급 시스템을 거쳐 소프트웨어 공급망까지 오염시킬 수 있음을 보여주는 사례"
+        ],
+        "action": "해당 기간 동안 버추얼라이저 업데이트를 받은 시스템은 무결성을 점검하고, BGP RPKI 등 라우팅 보안 조치 적용 여부를 재점검할 것."
+      }
+    },
+    {
+      "id": "devops-managed-vs-self-hosted-postgresql",
+      "title": "관리형 vs 자체 호스팅 포스트그레SQL, 무엇을 골라야 하나",
+      "summary": "관리형 서비스는 운영 부담을 대신 지는 대신, 깊은 제어나 특수 확장이 필요한 조직에는 자체 호스팅이 여전히 유효하다.",
+      "source": "Azure Blog",
+      "url": "https://azure.microsoft.com/en-us/blog/managed-postgresql-vs-self-hosted-postgresql-key-benefits-and-trade-offs/",
+      "report": {
+        "tldr": "관리형 포스트그레SQL 서비스는 인프라, 패치, 백업, 고가용성, 플랫폼 보안 책임을 제공업체에 넘겨 자체 호스팅의 운영 부담을 줄여준다.",
+        "what": "반면 깊은 제어, 특수 설정, 미지원 확장이 필요하거나 성숙한 플랫폼 엔지니어링·운영 역량을 갖춘 조직에는 자체 관리형 포스트그레SQL이 여전히 더 적합할 수 있다.",
+        "points": [
+          "관리형: 인프라·패치·백업·HA·보안 책임을 제공업체가 부담",
+          "자체 호스팅: 깊은 제어·특수 확장·성숙한 운영 역량 필요 시 유리"
+        ],
+        "why": [
+          "데이터베이스 운영 방식 선택 시 조직의 역량과 요구사항을 함께 고려해야 함을 정리"
+        ]
+      }
+    },
+    {
+      "id": "devops-metal3-kubevirtbmc",
+      "title": "Metal3와 KubeVirtBMC, 쿠버트 VM을 베어메탈처럼 프로비저닝",
+      "summary": "KubeVirtBMC가 가상 BMC 엔드포인트를 만들어 Metal3가 쿠버트 VM을 실제 하드웨어와 구분하지 못하게 한다.",
+      "source": "CNCF Blog",
+      "url": "https://www.cncf.io/blog/2026/09/02/metal3-meets-kubevirtbmc-provisioning-kubevirt-vms-like-bare-metal/",
+      "report": {
+        "tldr": "KubeVirtBMC를 CNCF 인큐베이팅 프로젝트인 Metal3와 결합하면 쿠버트 가상머신을 물리적 베어메탈 서버처럼 프로비저닝할 수 있다.",
+        "what": "Metal3는 내부적으로 오픈스택 아이언익을 활용해 표준 IPMI·Redfish 인터페이스로 하드웨어 검사, 부팅 장치 제어, OS 이미지 기록을 처리한다. KubeVirtBMC는 쿠버트 VM용 가상 BMC 엔드포인트를 만들어 Metal3가 이를 실제 하드웨어와 구분할 수 없게 한다. 이 글은 PXE나 DHCP 없이 Redfish 가상 미디어 부팅을 구성하고 라이브 ISO 이미지로 VM을 프로비저닝하는 전체 엔드투엔드 설정을 다룬다.",
+        "points": [
+          "KubeVirtBMC가 쿠버트 VM용 가상 BMC 엔드포인트 생성",
+          "Metal3는 오픈스택 아이언익 기반 IPMI·Redfish로 하드웨어 관리",
+          "PXE·DHCP 없이 Redfish 가상 미디어 부팅 구성 가능"
+        ],
+        "why": [
+          "베어메탈 프로비저닝 도구를 가상 환경 테스트·개발에도 재사용할 수 있게 하는 실용적 브릿지"
+        ]
+      }
+    },
+    {
+      "id": "devops-migrate-k8s-default-namespace",
+      "title": "다운타임 없이 쿠버네티스 기본 네임스페이스에서 벗어나기",
+      "summary": "ExternalName 서비스를 DNS 레벨 포워딩 주소로 활용해 코드 변경 없이 다른 팀의 의존 서비스가 새 배포로 조용히 라우팅되게 했다.",
+      "source": "CNCF Blog",
+      "url": "https://www.cncf.io/blog/2026/09/03/migrating-a-critical-kubernetes-deployment-from-the-default-namespace-without-any-downtime/",
+      "report": {
+        "tldr": "한 쿠버네티스 엔지니어가 ExternalName 서비스를 DNS 레벨 포워딩 주소로 활용해 다운타임 없이 서비스를 기본 네임스페이스 밖으로 옮기는 방법을 소개했다.",
+        "what": "이 접근법 덕분에 수십 개의 의존 서비스가 코드 변경 없이 기존 클러스터 내부 DNS 이름을 계속 호출하면서도 트래픽은 조용히 새 배포로 라우팅됐다. 인그레스 쪽은 임시 정책 예외로 처리해 기존 인그레스 규칙과 새 규칙이 잠시 공존하도록 했고, 새 배포에서 트래픽이 확인된 뒤 기존 규칙을 제거했다.",
+        "points": [
+          "ExternalName 서비스로 DNS 레벨 포워딩 구현",
+          "수십 개 의존 서비스가 코드 변경 없이 계속 작동",
+          "임시 정책 예외로 신구 인그레스 규칙 일시 공존"
+        ],
+        "why": [
+          "대규모 마이그레이션을 다운타임 없이 수행하는 실전 패턴을 구체적으로 제시"
+        ]
+      }
+    },
+    {
+      "id": "devops-magnitude-local-inference",
+      "title": "매그니튜드, 완전 오프라인 로컬 추론 서버",
+      "summary": "매그니튜드는 사용자 하드웨어를 프로파일링해 적합한 모델을 추천·다운로드·실행하는 오픈소스 로컬 추론 서버다.",
+      "source": "GitHub",
+      "url": "https://github.com/magnitudedev/magnitude",
+      "report": {
+        "tldr": "매그니튜드는 설치 후 인터넷 연결 없이도 로컬 하드웨어에서 AI 모델을 구동하는 오픈소스 추론 서버다.",
+        "what": "사용자의 기기를 프로파일링해 사용 가능한 메모리에 맞는 모델을 추천한 뒤 다운로드·실행하며, Pi, OpenCode, 헤르메스, OpenClaw, 코덱스, 클로드 코드, Oh My Pi, Cline과 연동되고 허깅페이스의 커스텀 GGUF 모델도 지원한다.",
+        "points": [
+          "설치 후 완전 오프라인으로 로컬 AI 모델 구동",
+          "하드웨어 프로파일링 기반 모델 추천·다운로드·실행",
+          "다양한 코딩 에이전트·허깅페이스 GGUF 모델과 연동"
+        ],
+        "why": [
+          "온디바이스 추론 진입 장벽을 낮추는 오픈소스 인프라 도구"
+        ]
+      }
+    },
+    {
+      "id": "devops-semantica-knowledge-graph",
+      "title": "세만티카, 엔터프라이즈용 오픈소스 지식그래프 레이어",
+      "summary": "세만티카는 데이터록·에이전트 결정·출처를 구조화된 쿼리 가능 그래프로 전환하는 오픈소스 컨텍스트·지식그래프 계층이다.",
+      "source": "GitHub",
+      "url": "https://github.com/semantica-agi/semantica",
+      "report": {
+        "tldr": "세만티카는 엔터프라이즈 데이터, 에이전트 결정, 출처 정보를 구조화되고 쿼리 가능한 그래프로 전환하는 오픈소스 컨텍스트·지식그래프 계층이다.",
+        "what": "Datalog, SPARQL, Rete, 전방향 추론을 활용한 결정론적 추론을 지원하며, W3C PROV-O 감사 추적, SHACL/OWL 온톨로지 거버넌스, 충돌 탐지, 그래프 스토어·벡터 데이터베이스·데이터브릭스·스노우플레이크·랭체인·크루AI·MCP 등 다양한 에이전트 프레임워크와의 연동을 지원한다.",
+        "points": [
+          "Datalog·SPARQL·Rete·전방향 추론 기반 결정론적 추론 지원",
+          "W3C PROV-O 감사 추적, SHACL/OWL 온톨로지 거버넌스 포함",
+          "그래프스토어·벡터DB·데이터브릭스·랭체인·MCP 등 광범위 연동"
+        ],
+        "why": [
+          "에이전트 결정의 투명성·감사 가능성을 확보하려는 엔터프라이즈 인프라 수요에 대응"
+        ]
+      }
+    },
+    {
+      "id": "devops-economics-agent-optimization",
+      "title": "에이전트 최적화 경제학: 비용을 낮추는 네 가지 방법",
+      "summary": "마이크로소프트 파운드리는 모델 선택·배포·캐싱·프롬프트·관측성을 아우르는 지속적 최적화 루프로 비용 대비 성과를 관리한다.",
+      "source": "Azure Blog",
+      "url": "https://azure.microsoft.com/en-us/blog/the-economics-of-agent-optimization-four-ways-to-lower-the-cost/",
+      "report": {
+        "tldr": "에이전트 최적화는 모델 선택, 배포, 캐싱, 프롬프트, 에이전트 구성, 런타임 관측성을 최적화해 AI 비용을 절감한다.",
+        "what": "마이크로소프트 파운드리는 이런 역량들을 결합해 품질·지연시간·신뢰성을 유지하면서 성공적 결과물당 비용을 측정하는 지속적 최적화 루프를 구성한다.",
+        "points": [
+          "모델 선택·배포·캐싱·프롬프트·구성·관측성 최적화를 통합",
+          "품질·지연시간·신뢰성 유지하며 '성공 결과물당 비용' 측정",
+          "마이크로소프트 파운드리가 이를 지속적 루프로 통합 제공"
+        ],
+        "why": [
+          "에이전트 운영 비용 관리가 단발성 튜닝이 아닌 지속적 프로세스로 자리잡는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "devops-cache-transcoding-zstandard-pingora",
+      "title": "클라우드플레어, Zstandard·핀고라로 캐시 스토리지 페타바이트 절감",
+      "summary": "캐시 트랜스코딩이 압축 가능한 텍스트 자산을 원본의 3분의 1 크기로 줄이며, 초당 1.56나노초 수준의 디코딩 CPU 비용만 부담한다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/cache-transcoding/",
+      "report": {
+        "tldr": "클라우드플레어는 캐시에 기록되기 전 적합한 캐시 자산을 Zstandard 알고리즘으로 압축하는 '캐시 트랜스코딩' 시스템을 프로토타입했다.",
+        "what": "이 시스템은 평균적으로 대상 자산을 원본 크기의 약 3분의 1로 줄인다. 대상은 HTML, JSON, CSS, 자바스크립트 같은 압축 가능한 텍스트 콘텐츠로, 클라우드플레어 트래픽 샘플에서 요청의 67.3%를 차지하지만 약 71%가 압축되지 않은 채 도착했다. 인코딩은 자산이 캐시에 들어올 때 한 번만 수행되고, 디코딩의 CPU 비용은 매 서빙마다 바이트당 약 1.56나노초로 지불된다. 100만 건 이상의 요청이 오간 10개 캐시 서버 테스트에서 zstd 레벨3과 4KiB 최소 오브젝트 크기 기준으로 CPU 예산 내에 머물렀다.",
+        "points": [
+          "압축 가능 텍스트 자산을 평균 원본의 약 3분의 1로 축소",
+          "해당 콘텐츠는 트래픽의 67.3% 차지, 이 중 71%가 무압축 상태로 도착",
+          "인코딩은 캐시 진입 시 1회, 디코딩은 서빙마다 바이트당 약 1.56ns",
+          "10개 서버·100만+ 요청 테스트에서 zstd 레벨3 기준 CPU 예산 내 유지"
+        ],
+        "why": [
+          "CDN 레벨의 압축 최적화가 대규모 스토리지 비용 절감으로 직결될 수 있음을 실증"
+        ]
+      }
+    },
+    {
+      "id": "devops-go-swiss-tables-map",
+      "title": "Go 맵의 스위스 테이블, 어떻게 빨라졌나",
+      "summary": "제어 바이트를 SIMD로 한 번에 비교해 전체 키 비교 전에 여러 후보 슬롯을 걸러내는 구조가 캐시 지역성을 높인다.",
+      "source": "VictoriaMetrics Blog",
+      "url": "https://victoriametrics.com/blog/go-swiss-table-map/",
+      "report": {
+        "tldr": "Go의 최신 맵 구현은 항목을 작은 블록에 그룹화하고 압축된 제어 바이트를 사용하는 스위스 테이블 설계를 채택했다.",
+        "what": "이를 통해 전체 키 비교를 수행하기 전에 여러 후보 슬롯을 먼저 걸러낼 수 있다. 지원되는 CPU에서는 SIMD로 여러 제어 바이트를 한 번에 비교할 수 있으며, 이런 레이아웃과 성장 전략이 캐시 지역성과 조회 성능을 함께 개선한다.",
+        "points": [
+          "항목을 작은 블록으로 그룹화하고 압축된 제어 바이트 사용",
+          "SIMD로 여러 제어 바이트를 한 번에 비교해 후보 슬롯 사전 필터링",
+          "레이아웃·성장 전략 개선으로 캐시 지역성 향상"
+        ],
+        "why": [
+          "언어 런타임 수준의 자료구조 최적화가 실무 성능에 직접적인 영향을 준다는 점을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "devops-grc-continuous-assurance",
+      "title": "클라우드 네이티브 시대, GRC를 '통제'에서 '지속 보증'으로",
+      "summary": "클라우드 네이티브 환경에서는 인프라·설정이 끊임없이 변하기 때문에 주기적 GRC 점검이 시대에 뒤처졌다는 주장이다.",
+      "source": "Cloud Native Now",
+      "url": "https://cloudnativenow.com/contributed-content/from-controls-to-continuous-assurance-rethinking-grc-for-cloud-native-environments/",
+      "report": {
+        "tldr": "클라우드 네이티브 환경은 인프라와 설정이 끊임없이 변화하기 때문에 주기적인 GRC(거버넌스·리스크·컴플라이언스) 점검 방식을 시대에 뒤처지게 만든다.",
+        "what": "저자는 통제 목록 기반의 정적 점검 대신, 변화하는 환경을 실시간으로 반영하는 지속적 보증 체계로 전환해야 한다고 주장한다.",
+        "points": [
+          "클라우드 네이티브 환경의 지속적 변화가 주기적 점검 방식을 무력화",
+          "정적 통제 목록에서 지속적 보증 체계로의 전환 필요성 제기"
+        ],
+        "why": [
+          "규제·컴플라이언스 프레임워크가 클라우드 네이티브 속도에 맞춰 재설계돼야 한다는 논지"
+        ]
+      }
+    },
+    {
+      "id": "devops-hcp-vault-sentinel",
+      "title": "HCP 볼트 감사 로그, 마이크로소프트 센티넬로 스트리밍하기",
+      "summary": "테라폼으로 구성한 애저 파이프라인을 통해 HCP 볼트 데디케이티드 감사 로그를 센티넬로 보낼 수 있다.",
+      "source": "HashiCorp Blog",
+      "url": "https://www.hashicorp.com/en/blog/hcp-vault-dedicated-audit-logs-microsoft-sentinel",
+      "report": {
+        "tldr": "HCP 볼트 데디케이티드 감사 로그는 테라폼으로 프로비저닝한 애저 파이프라인을 통해 마이크로소프트 센티넬로 전송될 수 있다.",
+        "what": "이 파이프라인은 범용 HTTP 싱크, 애저 함수 또는 로직 앱, 애저 모니터 로그 수집(Logs Ingestion)을 활용한다.",
+        "points": [
+          "테라폼으로 애저 파이프라인 프로비저닝",
+          "범용 HTTP 싱크, 애저 함수/로직 앱, 애저 모니터 로그 수집 활용"
+        ],
+        "why": [
+          "멀티 클라우드 환경에서 시크릿 관리 감사 로그를 SIEM으로 통합하는 실무 가이드"
+        ]
+      }
+    }
+  ]
+}
