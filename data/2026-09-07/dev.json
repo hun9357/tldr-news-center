@@ -1,0 +1,250 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-zod-memory-memoization",
+      "title": "Zod, 메서드 메모이제이션으로 메모리 사용량 대폭 절감",
+      "summary": "z.string() 기본 인스턴스 메모리가 7.5KB에서 784바이트로 줄었다.",
+      "source": "Zod",
+      "url": "https://zod.dev/blog/reducing-memory-footprint",
+      "report": {
+        "tldr": "Zod 4.5가 스키마 메모리 사용량을 크게 줄였다.",
+        "what": "모든 인스턴스에 수십 개의 클로저를 붙이는 대신, 바인딩된 메서드를 처음 접근할 때만 생성하는 방식으로 바꿨다. 그 결과 기본 z.string() 인스턴스는 7.5KB에서 784바이트로 줄었고, 벤치마크한 스키마 유형 전반에서 2배에서 거의 10배까지 메모리 절감 효과가 나타났다.",
+        "points": [
+          "메서드를 첫 접근 시에만 생성하는 지연 바인딩 방식 도입",
+          "z.string() 메모리 7.5KB→784바이트로 절감",
+          "스키마 유형 전반에서 2~10배 메모리 절감"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-shopify-mobile-e2e-stability",
+      "title": "쇼피파이, 모바일 E2E 테스트 안정성을 98%까지 끌어올린 방법",
+      "summary": "매 액션 뒤 검증(assertion)을 강제하는 엄격한 빌더 API로 재구축했다.",
+      "source": "Shopify Engineering",
+      "url": "https://shopify.engineering/mobile-e2e-testing",
+      "report": {
+        "tldr": "쇼피파이가 불안정했던(flaky) 모바일 E2E 테스트 프레임워크를 매 액션 뒤 검증을 요구하는 엄격한 빌더 API로 재구축했다.",
+        "what": "예외 처리는 UNSAFE_ 접두어로 명시적으로 표시하도록 했다. PaddleOCR과 OpenCV를 활용해 사용자가 보는 방식 그대로 텍스트와 아이콘을 찾아내도록 하면서 테스트 안정성을 50%에서 98%까지 끌어올렸고, 주석이 달린 영상으로 실패 진단도 쉬워졌다.",
+        "points": [
+          "매 액션 뒤 검증(assertion)을 강제하는 빌더 API로 재설계",
+          "예외 처리는 UNSAFE_ 접두어로 명시적 표시",
+          "PaddleOCR·OpenCV로 사용자 시점 그대로 텍스트·아이콘 인식",
+          "테스트 안정성 50%→98%, 주석 영상으로 실패 진단 용이"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-portal-spotify-token-savings",
+      "title": "스포티파이 '포털', 클로드 코드 토큰 사용량 90% 절감",
+      "summary": "대용량 파일 읽기와 예측 가능한 코드 생성을 저렴한 제미나이 워커로 위임한다.",
+      "source": "Spotify Engineering",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "report": {
+        "tldr": "스포티파이가 대용량 파일 읽기와 예측 가능한 코드 생성 작업을 클로드 코드에서 더 저렴한 제미나이 2.5 플래시 워커로 라우팅했다.",
+        "what": "포털 모드와 클로드 코드 플러그인을 통해 이를 구현했으며, 훅(hook)이 일정 크기 이상 파일에 대해 위임을 강제한다. 4개의 자바 모놀리포 시나리오에서 평균 약 90%의 토큰 절감 효과를 내면서도 디버깅·아키텍처·편집 작업은 프론티어 모델에 남겨뒀다.",
+        "points": [
+          "대용량 파일 읽기·예측가능한 코드생성을 제미나이 2.5 플래시로 위임",
+          "훅이 일정 크기 이상 파일에 대해 위임을 강제",
+          "4개 자바 모놀리포 시나리오에서 평균 약 90% 토큰 절감",
+          "디버깅·아키텍처·편집은 프론티어 모델에 유지"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-point-of-system-fewer-decisions",
+      "title": "\"시스템의 목적은 결정을 줄이는 것\"",
+      "summary": "AI로 실행 비용이 낮아질수록 디자인 시스템의 가치는 결정 보존에서 나온다.",
+      "source": "Anton Sten",
+      "url": "https://www.antonsten.com/articles/the-building-was-never-the-hard-part/",
+      "report": {
+        "tldr": "AI가 실행 비용을 낮추면서 디자인 시스템의 가치는 단순히 컴포넌트를 제공하는 것보다 결정을 보존하는 데서 점점 더 나온다.",
+        "what": "명확한 시맨틱 네이밍, 겹치지 않는 선택지, 제도적 지식의 인코딩이 사람과 에이전트가 제품 전반에서 모호함을 증폭시키는 것을 막아준다.",
+        "points": [
+          "AI 시대 디자인 시스템의 가치는 '결정의 보존'에서 나옴",
+          "명확한 시맨틱 네이밍과 비중복 선택지가 핵심",
+          "제도적 지식의 인코딩이 사람·에이전트의 모호함 증폭을 방지"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-self-driving-codebases",
+      "title": "'자율주행 코드베이스'를 향하여",
+      "summary": "에이전트를 더 많이 투입해도 더 나은 소프트웨어로 이어지지 않았다는 반성.",
+      "source": "Detail.dev Blog",
+      "url": "https://blog.detail.dev/posts/towards-self-driving-codebases",
+      "report": {
+        "tldr": "코드베이스에 더 많은 에이전트를 투입하는 것이 많은 코드를 만들어냈지만 꾸준히 더 나은 소프트웨어로 이어지지는 않았다.",
+        "what": "자율주행 코드베이스가 되려면 에이전트가 점검할 수 있는 환경, 도구 간 수정사항을 이어가는 메모리, 부패를 막는 시스템이 필요하며, 이를 통해 엔지니어는 고레버리지 아이디어와 아키텍처에 집중할 수 있게 된다.",
+        "points": [
+          "에이전트 투입량 증가가 소프트웨어 품질 향상과 비례하지 않음",
+          "점검 가능한 환경·도구 간 이어지는 메모리·부패 방지 시스템이 필요",
+          "엔지니어는 고레버리지 아이디어·아키텍처에 집중해야"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-ai-incidents-comprehension-debt",
+      "title": "AI가 장애를 처리할수록 엔지니어는 시스템 감각을 잃는다",
+      "summary": "관례적 장애의 MTTR은 낮추지만 드문 장애 대응 직관은 약화시킬 수 있다.",
+      "source": "Sylvain Kalache",
+      "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "report": {
+        "tldr": "AI 인시던트 대응 도구가 일상적 장애의 평균복구시간(MTTR)은 낮추지만, 드물고 모호한 장애에 대한 직관을 기르는 실전 경험을 엔지니어에게서 앗아갈 수 있다.",
+        "what": "정기적인 인시던트 시뮬레이션, 실습 훈련, 에이전트가 제시한 근거에 대한 설명이 이런 '이해 부채'를 줄일 수 있지만, 관찰만으로는 실습을 대체할 수 없다.",
+        "points": [
+          "관례적 장애의 MTTR은 낮아지지만 드문 장애 대응 직관은 약화",
+          "정기 시뮬레이션·실습 훈련·근거 설명이 이해 부채를 완화",
+          "관찰(observation)이 실습(practice)을 대체할 수는 없음"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-cn-tailwind-merge",
+      "title": "cn, clsx·tailwind-merge를 대체하는 드롭인 라이브러리",
+      "summary": "익숙한 API를 유지하면서 30배 빠른 벤치마크를 기록했다.",
+      "source": "GitHub",
+      "url": "https://github.com/shadcn-ui/cn",
+      "report": {
+        "tldr": "cn은 clsx와 tailwind-merge를 대체하는 드롭인 라이브러리로, 익숙한 API를 유지하면서 Tailwind 클래스 병합과 충돌 해결을 처리한다.",
+        "what": "의존성이 전혀 없고 여러 프레임워크·런타임에서 동작하며, 가장 흔한 컴포넌트 호출 기준 벤치마크에서 30배 더 빠른 성능을 보였다.",
+        "points": [
+          "clsx·tailwind-merge의 드롭인 대체",
+          "제로 디펜던시, 다양한 프레임워크·런타임 지원",
+          "가장 흔한 호출 기준 30배 빠른 벤치마크"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-vidact-react-compiler",
+      "title": "비댁트, React 19 서브셋을 직접 DOM 연산으로 컴파일",
+      "summary": "컴포넌트 본문이 한 번만 실행되고 상태 업데이트는 필요한 노드만 건드린다.",
+      "source": "Vidact",
+      "url": "https://www.vidact.dev/",
+      "report": {
+        "tldr": "비댁트는 문서화된 React 19 서브셋을 직접 DOM 연산으로 컴파일해 컴포넌트 본문이 한 번만 실행되도록 한다.",
+        "what": "상태 업데이트는 의존하는 노드와 속성만 건드린다. 베타 컴파일러는 지원되지 않는 API를 빌드 타임에 거부하며(React 런타임으로 조용히 폴백하지 않음), 비댁트 스타트는 라우팅·로더·SSR·하이드레이션·클라이언트 내비게이션을 추가한다.",
+        "points": [
+          "React 19 서브셋을 직접 DOM 연산으로 컴파일",
+          "컴포넌트 본문 1회 실행, 상태 업데이트는 관련 노드만 갱신",
+          "미지원 API는 빌드 타임에 거부(런타임 폴백 없음)",
+          "비댁트 스타트가 라우팅·SSR·하이드레이션 등 추가"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-research-acceleration-openai",
+      "title": "OpenAI 내부 리서치 가속 현황: 에이전트 하루 3.1인분 작업",
+      "summary": "8월 중순 기준 인간 노동일 1일당 에이전트 노동일 3.1일이 투입되고 있다.",
+      "source": "TLDR Dev",
+      "url": "https://links.tldrnewsletter.com/eqroqD",
+      "report": {
+        "tldr": "OpenAI는 8월 중순 기준 리서치 조직이 인간 노동일 1일당 에이전트 노동일 3.1일을 사용하고 있다고 밝혔다.",
+        "what": "활동 중인 연구자 1인당 실험 수는 사상 최고치를 기록했다. 에이전트는 더 길고 복잡한 작업을 맡고 있지만, 4~8시간 걸리는 성공적인 작업의 절반 이상은 여전히 사람의 개입이 필요하다.",
+        "points": [
+          "인간 노동일 1일당 에이전트 노동일 3.1일 투입(8월 중순 기준)",
+          "활동 연구자 1인당 실험 수 사상 최고치",
+          "4~8시간 작업의 과반은 여전히 사람 개입 필요"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-anubis-webassembly-year",
+      "title": "웹어셈블리 도입에 1년…아누비스의 험난했던 여정",
+      "summary": "Argon2id 기반 PoW 챌린지를 클라이언트·서버 동일 바이너리로 구현했다.",
+      "source": "Anubis Blog",
+      "url": "https://anubis.techaro.lol/blog/2026/anubis-wasm/",
+      "report": {
+        "tldr": "1년간의 호환성·툴링 작업 끝에 아누비스가 메모리 하드한 Argon2id 알고리즘 기반의 웹어셈블리 작업증명 챌린지를 추가했다.",
+        "what": "이 구현은 클라이언트와 서버에서 동일한 바이너리를 실행하며, SIMD·비SIMD 빌드를 모두 제공하고 웹어셈블리가 비활성화된 경우 wasm2js로 생성한 자바스크립트로 폴백한다.",
+        "points": [
+          "Argon2id 기반 메모리 하드 PoW 챌린지 도입",
+          "클라이언트·서버 동일 바이너리 실행",
+          "SIMD·비SIMD 빌드 제공, 비활성 시 wasm2js 폴백"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-gpt6-astra-robotic-manipulation",
+      "title": "GPT-6 아스트라, 로봇 조작 테스트서 우세…퍼즐 삽입은 여전히 난제",
+      "summary": "동일 로봇팔 테스트에서 블록 놓기는 20회 중 19회 성공, Fable 5.1은 8회.",
+      "source": "TLDR Dev",
+      "url": "https://openai.robocurve.org/gpt-6-astra/",
+      "report": {
+        "tldr": "동일한 로봇팔 테스트에서 GPT-6 아스트라는 그릇에 블록을 놓는 과제를 20회 중 19회 성공시켰다.",
+        "what": "이는 Fable 5.1의 8회 성공에 비해 크게 앞선 수치다. 다만 더 어려운 퍼즐 삽입 과제는 두 모델 모두 20회 중 단 2회만 완료해, 정교한 물리적 조작에서는 여전히 한계가 뚜렷했다.",
+        "points": [
+          "블록 놓기 과제: 아스트라 19/20, Fable 5.1 8/20",
+          "퍼즐 삽입 과제는 두 모델 모두 20회 중 2회만 성공",
+          "간단한 조작과 정교한 조작 사이 성능 격차가 여전히 큼"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-alien-mind-essay",
+      "title": "\"낯선 지성\"…재귀적 자기개선이 불러올 정렬 위기",
+      "summary": "빠르게 개선되는 이해하기 어려운 AI가 조정된 감속을 요구할 수 있다는 경고.",
+      "source": "TLDR Dev",
+      "url": "https://links.tldrnewsletter.com/icW2Gt",
+      "report": {
+        "tldr": "빠르게 개선되면서도 이해하기 어려운 AI가 재귀적 자기개선을 지속할 수 있다는 우려를 다룬 에세이다.",
+        "what": "이는 정렬(alignment), 모니터링, 방어 시스템, 공유된 안전 임계값, 조정된 감속(coordinated slowdown)의 필요성을 점점 더 시급하게 만든다.",
+        "points": [
+          "재귀적 자기개선이 지속될 경우 이해 가능성이 떨어질 위험",
+          "정렬·모니터링·방어시스템·공유 안전임계값의 필요성 강조",
+          "업계 차원의 '조정된 감속' 논의 필요성 제기"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-python-interpreter-1024-bytes",
+      "title": "1024바이트로 만든 파이썬 인터프리터",
+      "summary": "정수 연산·비교·들여쓰기 기반 제어흐름·함수·재귀까지 지원한다.",
+      "source": "Austin Henley",
+      "url": "https://austinhenley.com/blog/python1024.html",
+      "report": {
+        "tldr": "정확히 1,024바이트의 C 코드로 작성된 파이썬 유사 인터프리터가 공개됐다.",
+        "what": "정수 연산, 비교, 들여쓰기 기반 제어 흐름, 함수, 재귀를 지원하며, 중간 표현을 생성하는 대신 소스를 다시 파싱하는 방식으로 피즈버즈(FizzBuzz)를 실행할 수 있을 만큼의 문법을 갖췄다.",
+        "points": [
+          "1,024바이트 C 코드로 구현된 파이썬 유사 인터프리터",
+          "정수 연산·비교·들여쓰기 제어흐름·함수·재귀 지원",
+          "중간표현 생성 없이 소스 재파싱 방식으로 동작"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "dev-gpt6-astra-code-review",
+      "title": "GPT-6 아스트라, 코드 리뷰 정확도서 전작 대비 크게 향상",
+      "summary": "코드래빗 평가에서 실행가능 버그 커버리지 61.3%를 기록했다.",
+      "source": "CodeRabbit",
+      "url": "https://www.coderabbit.ai/blog/gpt-6-astra-code-review-evaluation",
+      "report": {
+        "tldr": "코드래빗의 평가에서 GPT-6 아스트라가 전체 실행가능 버그 커버리지 61.3%, 더 어려운 크로스파일 리뷰에서는 57.1%를 기록했다.",
+        "what": "이는 GPT-5.6 솔을 각각 약 4%포인트, 20%포인트 앞선 수치다.",
+        "points": [
+          "전체 실행가능 버그 커버리지 61.3%",
+          "크로스파일 리뷰 커버리지 57.1%",
+          "GPT-5.6 솔 대비 각각 약 4%p, 20%p 향상"
+        ],
+        "why": []
+      }
+    }
+  ]
+}

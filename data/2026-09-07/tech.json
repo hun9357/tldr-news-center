@@ -1,0 +1,242 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-research-acceleration-openai",
+      "title": "OpenAI, 'AGI는 민주적으로 거버넌스돼야' 리서치 가속 현황 공개",
+      "summary": "재귀적 자기개선(RSI) 진행상황을 투명하게 공개하고 업계 전반의 추적 의무화를 주장했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/TO9qGZ",
+      "report": {
+        "tldr": "OpenAI는 인공일반지능(AGI)이 모든 인류에게 이익이 되려면 민주적으로 거버넌스돼야 한다고 밝혔다.",
+        "what": "이는 고도로 유능한 AI 시스템의 능력·위험·안전장치에 대한 정보에 입각한 공개 토론을 통해서만 가능하다는 입장이다. 회사는 최근 몇 달간 재귀적 자기개선(RSI)을 향한 진행 상황을 공개했으며, 앞으로도 RSI 진행 상황을 투명하게 공개하고 다른 기업들도 자사 진행 상황을 공개적으로 추적하도록 요구받아야 한다고 본다.",
+        "points": [
+          "AGI는 민주적 거버넌스가 필요하다는 입장 표명",
+          "재귀적 자기개선(RSI) 진행 상황을 최근 공개",
+          "타사에도 RSI 진행 상황 공개 추적을 요구해야 한다는 주장"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-tim-cook-pay-package",
+      "title": "팀 쿡, CEO급 보수 패키지로 '당분간 안 떠난다' 시그널",
+      "summary": "기본급을 SVP 통상 수준의 2배로 책정하며 미중 관계·메모리 부족 대응 역할을 강조했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/goGwiw",
+      "report": {
+        "tldr": "팀 쿡이 애플에서 여전히 강력한 구심점 역할을 하고 있다.",
+        "what": "그는 미국·중국과의 관계, 메모리 부족 대응 등 특정 영역에서 특히 중요한 역할을 계속할 전망이다. 쿡은 기본급 200만 달러를 받는데, 이는 일반 SVP·C스위트 임원 기본급의 2배 수준이다. 여기에 현금 보너스와 시간에 따라 베스팅되는 주식 유닛도 받는다. 이 보수 수준은 쿡의 역할이 매우 능동적일 것임을 명확히 보여준다.",
+        "points": [
+          "기본급 200만 달러, 일반 SVP 대비 2배 수준",
+          "현금 보너스+시간 베스팅 주식 유닛 추가 지급",
+          "미중 관계·메모리 부족 대응이 핵심 역할로 거론"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-kalanick-atoms-robotaxi",
+      "title": "트래비스 칼라닉의 '아톰스', 로보택시 사업 진출 채비",
+      "summary": "우버와 로보택시 기술 활용을 논의 중이며 우버는 이미 1억 달러를 투자했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "report": {
+        "tldr": "우버 창업자 트래비스 칼라닉이 세운 아톰스가 대규모 채용·인수 행보를 준비하고 있는 것으로 알려졌다.",
+        "what": "이 회사는 우버와 아톰스의 로보택시 기술을 우버가 어떻게 활용할 수 있을지 논의 중이며, 우버는 이미 아톰스에 1억 달러를 투자했다. 칼라닉은 아톰스에 대한 계획을 함구해왔지만, 최근 행보는 이 회사가 자율주행 산업의 주요 플레이어가 될 가능성을 시사한다.",
+        "points": [
+          "우버가 아톰스에 1억 달러 투자",
+          "우버와 로보택시 기술 활용 방안 논의 중",
+          "대규모 채용·인수 행보 준비 정황 포착"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-curiously-playable-universe",
+      "title": "\"신기하게도 게임화 가능한 우주\"",
+      "summary": "충분한 복잡성이 압축되면 거의 모든 영역이 '플레이 가능'해질 수 있다는 에세이.",
+      "source": "Contraptions (Venkatesh Rao)",
+      "url": "https://contraptions.venkateshrao.com/p/the-curiously-playable-universe",
+      "report": {
+        "tldr": "어떤 영역이 '플레이 가능'해지는 것은 복잡성이 충분히 압축돼 안정적인 행동 레퍼토리를 갖춘 상태로 상호작용이 반복되고, 결과가 더 나은/나쁜 플레이에 대한 피드백을 주며, 환경이 어제 배운 교훈이 내일도 유효할 만큼 정지적일 때 일어난다.",
+        "what": "이 조건들이 완벽할 필요는 없으며, 플레이 가능성은 정도의 문제다. 우리가 예상했던 것보다 훨씬 많은 현실이 게임으로 전환될 수 있으며, 일단 어떤 것이 게임으로 전환되면 그것을 이길 수 있는 시스템을 만드는 것도 가능해진다.",
+        "points": [
+          "복잡성 압축+반복 가능한 상호작용+피드백+정지적 환경이 '플레이 가능성'의 조건",
+          "조건은 완벽할 필요 없이 정도의 문제",
+          "게임화되면 이를 '이기는' 시스템 구축도 가능해짐"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-trust-coding-agents-secrets",
+      "title": "\"이제 나는 코딩 에이전트에게 프로덕션 시크릿을 맡긴다\"",
+      "summary": "보안은 늘 생산성과의 트레이드오프이며 모델이 나아질수록 신뢰가 커진다는 주장.",
+      "source": "Jacob Gold",
+      "url": "https://jacob.gold/posts/i-trust-my-coding-agents-with-production-secrets-now/",
+      "report": {
+        "tldr": "보안은 언제나 생산성과 리스크 사이의 트레이드오프다. 에이전트에게 접근 권한을 주지 않으면 작업 속도가 크게 느려질 수 있다.",
+        "what": "프론티어 모델은 자신이 읽는 콘텐츠 속 진짜 지시와 악의적 지시를 구분하는 능력이 점점 좋아지고 있다. 모델이 개선될수록 결국 사람보다 에이전트에게 더 많은 접근 권한을 맡기게 될 수도 있다는 전망이다.",
+        "points": [
+          "보안은 생산성-리스크 트레이드오프의 문제",
+          "프론티어 모델의 악성 지시 구분 능력이 향상 중",
+          "장기적으로 에이전트 신뢰도가 사람을 넘어설 수 있다는 전망"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-terraform-lean4",
+      "title": "\"컴파일되면 배포도 될 것\"…Lean 4로 만든 테라폼",
+      "summary": "주말 두 번 만에 만든 인프라 코드 도구, infra의 개발 과정 공개.",
+      "source": "ngrislain (GitHub Pages)",
+      "url": "https://ngrislain.github.io/blog/2026-9-6-terraform-in-lean-4-if-it-compiles-it-will-likely-deploy/",
+      "report": {
+        "tldr": "infra는 테라폼과 같은 역할을 하는 인프라스트럭처-as-코드 도구다.",
+        "what": "사용자가 원하는 리소스를 선언하면 infra가 클라우드 계정의 실제 상태를 확인해 차이를 조정한다. 이 글은 개발자가 단 두 번의 주말 동안 Lean 4로 이 도구를 만든 과정, 해결한 문제들, 문제 해결 방식을 상세히 다룬다.",
+        "points": [
+          "선언적 리소스 정의 후 실제 클라우드 상태와의 차이를 조정",
+          "단 두 번의 주말 동안 Lean 4로 개발",
+          "정형언어(Lean 4)를 인프라 도구 개발에 활용한 사례"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-brockman-interview-astra",
+      "title": "OpenAI 사장 그렉 브록만, 아스트라와 정렬을 말하다",
+      "summary": "스트라이프 CTO 출신이 OpenAI 대통령이 되기까지의 여정과 정렬 철학을 인터뷰로 풀었다.",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/",
+      "report": {
+        "tldr": "OpenAI의 사장 겸 공동창업자 그렉 브록만은 2010년 대학을 중퇴하고 스트라이프에 합류해 결국 CTO 자리까지 올랐다.",
+        "what": "2015년 퇴사해 OpenAI를 공동창업, CTO를 지낸 뒤 몇 년 후 현재의 사장직에 올랐다. 이 인터뷰는 아스트라 발표 이전에 녹음됐으며 브록만의 배경, 챗GPT 출시, 밸류체인 내 OpenAI의 위치, 정렬에 대한 회사의 의지, 허깅페이스 관련 사건 등을 다룬다.",
+        "points": [
+          "브록만은 스트라이프 CTO 출신, 2015년 OpenAI 공동창업",
+          "OpenAI CTO를 거쳐 현재 사장직 수행",
+          "아스트라 발표 이전 녹음된 인터뷰로 정렬 철학·회사 히스토리 다룸"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-the-loop-closes",
+      "title": "\"루프가 닫힌다\"…AI가 슬랙 요청을 기능으로 완성하는 시대",
+      "summary": "사람은 이제 '머지'와 '배포' 버튼만 누르면 되는 상황에 다가서고 있다.",
+      "source": "Henry AJ (Substack)",
+      "url": "https://henryaj.substack.com/p/the-loop-closes",
+      "report": {
+        "tldr": "AI 모델이 이제 슬랙의 요청을 받아 처음부터 끝까지 기능을 만들어낼 수 있게 되면서, 사람은 마지막에 '머지'나 '배포' 버튼을 누르는 역할만 남게 됐다.",
+        "what": "사람이 할 일이 실질적으로 거의 남지 않은 상황이다. 다만 사람은 여전히 서로 맥락을 흡수·해석·공유하는 데 더 능하지만, 이것마저 자동화되면 루프는 마침내 닫히고 청구서를 지불하는 일 외에는 할 일이 없어질 것이라는 전망이다.",
+        "points": [
+          "AI가 슬랙 요청을 엔드투엔드 기능으로 완성 가능",
+          "사람의 역할은 머지·배포 승인 수준으로 축소",
+          "맥락 공유마저 자동화되면 루프가 완전히 닫힐 것이라는 전망"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-fruit-fly-emotion-ai",
+      "title": "초파리 뇌 지도로 만든 신경망, 인간 감정을 알아듣다",
+      "summary": "파리 뇌 지도 기반 모델을 목소리 속 감정 인식용으로 훈련했다.",
+      "source": "TLDR",
+      "url": "https://oruk.ai/research/we-taught-a-fruit-fly-to-read-human-emotion",
+      "report": {
+        "tldr": "연구진이 파리 뇌 지도를 바탕으로 신경망을 구축한 뒤 사람 목소리 속 감정을 인식하도록 훈련했다.",
+        "what": "곤충 신경 구조를 본뜬 모델이 인간 음성 감정 인식이라는 전혀 다른 영역에 적용될 수 있음을 보여준 실험이다.",
+        "points": [
+          "파리 뇌 지도를 기반으로 신경망 구조 설계",
+          "사람 목소리 속 감정 인식 과제에 적용"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-cybercab-vs-uber-pricing",
+      "title": "테슬라 사이버캡, 우버 잡을 수 있을까…오스틴 2일차 가격표",
+      "summary": "가격 경쟁력은 있지만 대기시간이 경쟁사보다 훨씬 길다.",
+      "source": "Farzad.fm",
+      "url": "https://farzad.fm/fznews/can-teslas-cybercab-actually-kill-uber",
+      "report": {
+        "tldr": "오스틴에서의 실제 테스트 결과 사이버캡은 경쟁력 있는 가격을 보였다.",
+        "what": "다만 경쟁사 대비 대기 시간이 훨씬 긴 것으로 나타나, 가격만으로는 아직 우버를 위협하기 어려운 상황임을 보여준다.",
+        "points": [
+          "가격은 경쟁사 대비 경쟁력 있는 수준",
+          "대기 시간은 경쟁사보다 훨씬 긺",
+          "출시 초기 단계의 실사용 데이터 기준"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-iphone-ultra-production-limited",
+      "title": "아이폰 울트라, 하루 '수백 대'만 생산…니케이 보도",
+      "summary": "제조 난이도가 생산 속도를 발목 잡고 있다.",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/09/04/iphone-ultra-production-extremely-limited/",
+      "report": {
+        "tldr": "아이폰 울트라의 생산 속도가 매우 느린 것으로 보도됐다.",
+        "what": "니케이에 따르면 디바이스 제조 난이도 자체가 생산 속도의 발목을 잡고 있어, 하루 생산량이 '수백 대' 수준에 그치고 있다.",
+        "points": [
+          "하루 생산량이 '수백 대' 수준으로 매우 제한적",
+          "제조 난이도가 병목 원인으로 지목됨"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-apple-neural-engine-compiler",
+      "title": "그래프와 실리콘 사이: 애플 뉴럴 엔진 컴파일러 내부",
+      "summary": "Core ML은 공개돼 있지만 그 아래 컴파일러·펌웨어는 여전히 베일에 싸여 있다.",
+      "source": "smolnero",
+      "url": "https://smolnero.com/posts/between-the-graph-and-the-silicon-inside-the-apple-neural-engine-compiler",
+      "report": {
+        "tldr": "애플은 Core ML을 통해 애플 뉴럴 엔진을 공개적으로 노출하고 있다.",
+        "what": "하지만 그 아래의 컴파일러, 프로그램 포맷, 드라이버, 펌웨어, 그리고 그 밑을 받치는 대부분의 메커니즘은 여전히 문서화되어 있지 않다.",
+        "points": [
+          "Core ML은 공개 API로 제공",
+          "컴파일러·프로그램 포맷·드라이버·펌웨어는 비공개·미문서화 상태"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-left-mac-omarchy",
+      "title": "\"12년 만에 맥을 떠났다\"…오마키가 컴퓨터를 다시 재밌게 만든 방법",
+      "summary": "AI 에이전트를 위해 설계된 개성 강한 리눅스 배포판 이야기.",
+      "source": "Hadi Javed",
+      "url": "https://www.hadijaveed.me/2026/09/06/leaving-mac-after-12-years/",
+      "report": {
+        "tldr": "글쓴이는 12년간 사용하던 맥을 떠나 오마키라는 리눅스 배포판으로 옮긴 경험을 공유한다.",
+        "what": "오마키는 AI 에이전트를 위해 설계된 개성 있는(opinionated) 리눅스 배포판으로, 저자는 이 전환이 컴퓨터 사용을 다시 즐겁게 만들어줬다고 이야기한다.",
+        "points": [
+          "12년 맥 사용자가 리눅스로 전환한 경험담",
+          "오마키는 AI 에이전트를 겨냥해 설계된 개성 있는 배포판"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "tech-gpt6-astra-fourth-exponential",
+      "title": "GPT-6 아스트라와 '네 번째 지수 곡선'",
+      "summary": "챗봇·추론·에이전틱 코딩에 이어 컴퓨터 사용 에이전트가 반도체 수요의 다음 파도가 될 전망.",
+      "source": "Tae Kim (Substack)",
+      "url": "https://taekim.substack.com/p/gpt-6-astra-and-the-fourth-exponential",
+      "report": {
+        "tldr": "AI 반도체 수요는 에이전트의 컴퓨터 도구 사용 확산과 함께 급증할 가능성이 높다.",
+        "what": "이는 이전에 챗봇, 추론, 에이전틱 코딩 수요 파도가 반도체 수요를 밀어올렸던 것과 같은 패턴이다.",
+        "points": [
+          "챗봇→추론→에이전틱 코딩에 이은 네 번째 수요 파도로 '컴퓨터 사용 에이전트' 지목",
+          "각 파도가 순차적으로 AI 반도체 수요를 밀어올린 패턴"
+        ],
+        "why": []
+      }
+    }
+  ]
+}

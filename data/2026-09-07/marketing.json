@@ -1,0 +1,199 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-aeo-agencies-debate",
+      "title": "AEO 에이전시, 존재해야 하는가",
+      "summary": "SEO 에이전시의 진짜 가치는 콘텐츠가 아니라 성장이었다는 재진단.",
+      "source": "Product-Led SEO",
+      "url": "https://www.productledseo.com/p/should-seo-agencies-still-exist",
+      "report": {
+        "tldr": "SEO 에이전시의 진짜 가치는 콘텐츠 자체가 아니라 그것이 만들어낸 성장이었다는 주장이다.",
+        "what": "에이전시들은 콘텐츠를 결과물로 삼았는데, 이는 범위를 정하기 쉽고 순위로 진척도를 측정하기 쉬웠기 때문이다. AI가 콘텐츠 제작을 저렴하고 쉽게 만들면서 이 모델의 약점이 드러나고 있다. 에이전시는 낡은 SEO 서비스를 AEO로 재브랜딩하는 대신 성장을 이끄는 전략적 작업으로 전환해야 한다.",
+        "points": [
+          "에이전시의 진짜 가치는 콘텐츠가 아니라 성장이었음",
+          "콘텐츠가 결과물이 된 이유는 범위 설정과 측정의 용이성",
+          "AI가 콘텐츠 생산을 저렴하게 만들며 기존 모델의 약점 노출",
+          "SEO의 AEO 재브랜딩보다 전략적 성장 작업으로의 전환이 필요"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-genz-brand-loyalty-2026",
+      "title": "2026년 Z세대 브랜드 충성도를 좌우하는 것",
+      "summary": "가격·품질이 최우선, '이해받는다는 느낌'이 충성도와 강하게 연결된다.",
+      "source": "Rival Tech",
+      "url": "https://www.rivaltech.com/blog/research-gen-z-loyalty-2026",
+      "report": {
+        "tldr": "Z세대의 64%는 가장 좋아하는 브랜드에 대체로 또는 항상 충성한다고 답했지만, 브랜드가 자신을 정말 잘 이해한다고 느끼는 비율은 11%에 불과했다.",
+        "what": "이해받는다는 느낌은 충성도와 강하게 연결되어 있어, 정말 이해받는다고 느끼는 응답자의 45%가 항상 충성한다고 답했다. 가격·가치(82%)와 제품 품질(80%)이 가장 중요하며 인플루언서 추천은 9%로 최하위였다. 관련성은 고객 이해에서 시작되지만 충성도는 여전히 돌아올 만한 가치가 있는 제품을 제공하는 데 달려 있다.",
+        "points": [
+          "64% '대체로/항상 충성', 단 11%만 '브랜드가 나를 잘 이해'",
+          "이해받는다고 느끼는 응답자의 45%가 '항상 충성'",
+          "가격·가치(82%)·품질(80%)이 최우선, 인플루언서 추천은 9%로 최하위"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-reddit-negative-comments",
+      "title": "이미 순위권에 오른 레딧 비판 댓글, 어떻게 대응할까",
+      "summary": "실명을 밝힌 담당자가 선택적으로, 건설적으로 대응하는 것이 핵심.",
+      "source": "Standing on Giants",
+      "url": "https://www.standingongiants.com/blog/how-to-handle-negative-comments-on-reddit/",
+      "report": {
+        "tldr": "높은 순위에 오른 레딧 비판 게시물은 검색 결과와 AI 답변을 좌우할 수 있어 커뮤니티 관리 이슈로 다뤄야 한다.",
+        "what": "잘못된 정보를 바로잡거나 유용한 제품 맥락을 더하는 방식으로, 실명을 밝힌 특정 담당자가 선택적으로 대응해야 한다. 긍정·부정 스레드 모두 비슷한 업보트 가중치를 받기 때문에 도움이 되는 브랜드 기여도 비슷한 규모로 도달할 수 있다. REACT 방식으로 언제 개입하고 언제 물러설지 판단하며 초기에 경청을 통해 신뢰를 쌓아야 한다.",
+        "points": [
+          "높은 순위의 비판 게시물은 검색·AI 답변에 영향",
+          "실명 공개된 담당자가 선택적·건설적으로 대응해야",
+          "긍정·부정 스레드가 비슷한 업보트 가중치를 받음",
+          "REACT 프레임워크로 개입 시점 판단"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-booking-form-bot-magnet",
+      "title": "공개 예약 폼은 봇 자석…이렇게 막아라",
+      "summary": "클라우드플레어 턴스타일+DB 트리거의 이중 방어 체계를 제안한다.",
+      "source": "Promptled Product",
+      "url": "https://promptledproduct.substack.com/p/your-public-booking-form-is-a-bot",
+      "report": {
+        "tldr": "로그인 없이 운영되는 공개 폼은 제품 출시 직후부터 스팸봇의 표적이 될 수 있다.",
+        "what": "저자는 모든 공개 폼에 클라우드플레어 턴스타일을 적용하고 제출을 저장하기 전 서버 사이드에서 토큰을 검증하는 2단계 시스템을 권장한다. 데이터베이스 트리거는 애플리케이션을 우회한 잘못된 제출을 거부하는 추가 안전장치 역할을 한다. 턴스타일은 월 100만 건까지 무료로, 저비용으로 공개 폼을 스팸으로부터 보호할 수 있다.",
+        "points": [
+          "로그인 없는 공개 폼은 출시 즉시 스팸봇 표적이 됨",
+          "클라우드플레어 턴스타일+서버사이드 토큰 검증 1차 방어",
+          "DB 트리거가 애플리케이션 우회 제출을 거부하는 2차 방어",
+          "턴스타일은 월 100만 건까지 무료"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-become-marketing-engineer-webinar",
+      "title": "'마케팅 엔지니어 되기' 웨비나 예고",
+      "summary": "깃허브·터미널로 마케팅 자산을 만들고 광고를 관리하는 법을 다룬다.",
+      "source": "Maven",
+      "url": "https://maven.com/p/ffacd9/what-is-a-marketing-engineer-and-how-do-i-become-one",
+      "report": {
+        "tldr": "팀 킨이 마케터들이 이제 살아가야 할 새로운 환경인 깃허브와 터미널을 언제 어떻게 활용할지 다루는 웨비나를 연다.",
+        "what": "마케팅 자산을 대신 만들어주는 머신을 구축하는 법과 터미널에서 메타·구글·링크드인 광고를 관리하는 법을 배울 수 있다. 9월 10일 오후 12시(동부시간)에 진행된다.",
+        "points": [
+          "깃허브·터미널을 활용하는 마케팅 워크플로 다룸",
+          "메타·구글·링크드인 광고를 터미널에서 관리하는 법 포함",
+          "9월 10일 낮 12시(ET) 진행"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-tiktok-agentic-paid-social",
+      "title": "틱톡, 유료 소셜 광고에 에이전틱 AI 도입",
+      "summary": "TikTok Ads MCP로 AI를 캠페인 데이터·워크플로에 연결한다.",
+      "source": "Brainlabs Digital",
+      "url": "https://www.brainlabsdigital.com/tiktok-ads-mcp-agentic-ai-paid-social/",
+      "report": {
+        "tldr": "틱톡의 새 에이전틱 AI 도구가 유료 소셜 집행을 자동화할 수 있지만, 더 큰 변화는 AI에게 팀의 업무 방식을 가르치는 데 있다.",
+        "what": "TikTok Ads MCP는 AI를 캠페인 데이터·워크플로에 연결하며, 에이전틱 허브와 스킬은 크리에이티브 피로도 분석·예산 최적화·리포팅·QA 같은 프로세스를 패키징할 수 있다. 반복 가능한 작업은 자동화하되 전략적 결정에는 사람을 계속 참여시켜야 한다는 조언이 함께 나온다.",
+        "points": [
+          "TikTok Ads MCP가 AI를 캠페인 데이터·워크플로에 연결",
+          "에이전틱 허브·스킬로 크리에이티브 피로도 분석 등 프로세스 패키징",
+          "반복 작업 자동화, 전략적 결정은 사람이 유지해야 한다는 조언"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-reddit-max-campaigns",
+      "title": "레딧 맥스 캠페인, 전체 광고주에 개방",
+      "summary": "초기 테스트에서 CPA 17% 감소, 전환 27% 증가 효과를 보였다.",
+      "source": "Reddit Inc.",
+      "url": "https://redditinc.com/news/performance-unlocked-reddit-max-campaigns-are-now-available-to-all-advertisers",
+      "report": {
+        "tldr": "레딧이 맥스 캠페인을 모든 광고주에게 개방하며 3가지 업데이트를 함께 선보였다.",
+        "what": "맥스 캠페인은 타겟팅, 크리에이티브 선택, 게재 위치, 예산 배분을 자동화하며 초기 테스트에서 CPA 17% 감소, 전환 27% 증가를 보였다. 새로운 자산 그룹을 통해 광고주는 하나의 캠페인 내에서 여러 제품이나 사용 사례를 조직·측정할 수 있고, API와 스마틀리 지원으로 대규모 캠페인 관리가 더 쉬워진다.",
+        "points": [
+          "전체 광고주 대상 개방, 3가지 신규 업데이트 동반",
+          "초기 테스트 CPA 17%↓, 전환 27%↑",
+          "새 자산 그룹으로 캠페인 내 여러 제품·사용사례 관리",
+          "API·스마틀리 지원으로 대규모 운영 용이"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-glossier-dishoom-roya-shariat",
+      "title": "글로시에·디쉬움의 로야 샤리아트가 말하는 브랜드 구축법",
+      "summary": "직접적인 고객 피드백을 브랜드 포지셔닝으로 확장한 사례.",
+      "source": "Embedded Brand Strategy",
+      "url": "https://embeddedbrandstrategy.substack.com/p/glossier-and-dishooms-roya-shariat",
+      "report": {
+        "tldr": "글로시에는 직접적인 고객 피드백을 활용해 제품을 만들고, 이 고객 중심 접근을 브랜드 포지셔닝으로 확장했다.",
+        "what": "디쉬움은 성장 자체보다 핵심 경험을 지키는 데 집중하는 유사한 스케일링 접근을 취한다. 새로운 브랜드 아이디어에 대해 로야는 완벽한 전략을 기다리기보다 투박한 버전을 먼저 테스트해볼 것을 권하며, 소비자 인사이트와 명확한 비즈니스 케이스를 결합해 새 아이디어를 제안하는 데 데이터를 활용한다.",
+        "points": [
+          "글로시에는 직접적 고객 피드백을 제품·포지셔닝에 반영",
+          "디쉬움은 성장보다 핵심 경험 유지에 집중하는 스케일링",
+          "완벽한 전략보다 투박한 버전으로 먼저 테스트할 것을 권장",
+          "소비자 인사이트+비즈니스 케이스 결합이 설득의 핵심"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-google-llm-recall-study",
+      "title": "구글 연구: LLM이 사실을 기억해내는 방식",
+      "summary": "학습한 사실의 95~98%를 저장하지만 실제 회상률은 26~34%에 그친다.",
+      "source": "WebFX",
+      "url": "https://www.webfx.com/blog/ai/how-llms-recall-facts/",
+      "report": {
+        "tldr": "AI 모델에게 정확히 회상되려면 더 많은 콘텐츠가 아니라 기존 콘텐츠를 더 쉽게 검색되게 만드는 것이 필요하다.",
+        "what": "고급 모델들은 학습한 사실의 95~98%를 저장하지만 실제로는 26~34%만 안정적으로 회상한다. 회상은 학습된 방향과 반대로 물었을 때, 또는 단순히 희귀한 사실일 때 가장 크게 떨어진다. AI 도구가 이미 브랜드의 핵심 사실을 언급하는지 건너뛰는지 감사하면 양방향으로 어떤 메시지를 다시 진술해야 하는지 정확히 알 수 있다.",
+        "points": [
+          "저장률 95~98%지만 실제 회상률은 26~34%",
+          "역방향 질문이나 희귀한 사실에서 회상률이 크게 하락",
+          "AI 도구의 브랜드 언급 여부 감사로 보강 포인트 파악 가능"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-influencers-skip-disclosure",
+      "title": "인플루언서 대부분, 유료 협찬 공개 안 해",
+      "summary": "미공개 유료 파트너십·무상 제품 제공에 대한 제재 리스크가 존재한다.",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/influencers-mostly-skip-disclosure",
+      "report": {
+        "tldr": "많은 인플루언서가 유료 파트너십이나 무상 제품 제공을 공개하지 않고 있다.",
+        "what": "브랜드는 이런 미공개 협찬에 대해 제재를 받을 수 있는 리스크에 노출된다.",
+        "points": [
+          "유료 파트너십·무상 제품 미공개 사례가 다수",
+          "브랜드가 규제 제재 리스크에 노출될 수 있음"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "marketing-product-marketing-charter",
+      "title": "제품마케터가 쓰는 다양한 모자들, '프로덕트 마케팅 차터'로 정리",
+      "summary": "제품마케팅 역할의 범위를 안내하는 가이드.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/alansmcalpine_building-a-product-marketing-charter-cogna-ugcPost-7501673931448377344-M3lE/",
+      "report": {
+        "tldr": "제품마케터들이 조직 내에서 맡는 다양한 역할을 정리한 가이드가 공유됐다.",
+        "what": "포지셔닝, 런칭, 세일즈 인에이블먼트 등 제품마케팅이 다루는 폭넓은 업무 범위를 한눈에 보여준다.",
+        "points": [
+          "제품마케터의 다양한 역할·책임 범위를 정리",
+          "포지셔닝·런칭·세일즈 인에이블먼트 등 포괄"
+        ],
+        "why": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-portal-spotify-token-savings",
+      "title": "스포티파이 '포털', 클로드 코드 토큰 사용량 90% 절감",
+      "summary": "코딩 에이전트 작업 대부분이 추론이 아닌 I/O라는 점에 착안했다.",
+      "source": "Spotify Engineering",
+      "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "report": {
+        "tldr": "코딩 에이전트가 하는 일 대부분은 추론보다 I/O다. 한 메서드에 대한 질문에 답하려 파일 5개를 읽는 식이다.",
+        "what": "스포티파이는 이런 작업을 임시 런타임에서 제미나이 2.5 플래시를 구동하는 두 개의 선언적 포털 모드(불크 리더, 코드 라이터)로 라우팅하고, 꼭 필요한 문제에만 프론티어 모델을 남겨뒀다. 엔지니어링 리더의 4분의 1은 이미 개발자 1인당 월 200~500달러를 토큰에 쓰고 있으며 일부는 2,000달러를 넘었다.",
+        "points": [
+          "코딩 에이전트 작업 대부분이 추론이 아닌 I/O라는 진단",
+          "불크 리더·코드 라이터 두 포털 모드가 제미나이 2.5 플래시로 처리",
+          "엔지니어링 리더 25%가 개발자당 월 200~500달러 토큰 비용 지출 중, 일부는 2,000달러 초과"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-zgateway-zippydb-proxy",
+      "title": "메타 ZGateway, 지피디비 앞단 프록시가 주는 교훈",
+      "summary": "연결 팬인을 97~98% 줄이고 노이즈 테넌트를 선택적으로 차단한다.",
+      "source": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/",
+      "report": {
+        "tldr": "메타가 거대한 키밸류 스토어 ZippyDB 앞에 매니지드 프록시 계층을 둔 이유를 설명한다.",
+        "what": "진짜 교훈은 프록시가 클라이언트 플릿의 폭증을 통제 가능한 인프라 경계로 바꿀 수 있다는 것이다. 연결 팬인이 약 97~98% 줄고, 클라이언트 간 배칭과 병합이 가능해지며, 시끄러운 테넌트의 과도한 트래픽을 선택적으로 거부할 수 있고, 페일오버·로드밸런싱 정책을 수백만 클라이언트의 업데이트를 기다리지 않고 중앙에서 바꿀 수 있다.",
+        "points": [
+          "연결 팬인 약 97~98% 감소",
+          "클라이언트 간 배칭·병합 가능",
+          "노이즈 테넌트의 과도한 트래픽 선택적 차단",
+          "페일오버·로드밸런싱 정책을 중앙에서 즉시 변경 가능"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-s3-to-gpu-vortex",
+      "title": "볼텍스, S3에서 GPU로 한 번에 흐르는 컬럼형 학습 데이터 포맷",
+      "summary": "복사 최소화로 CPU·NVMe 병목 없이 가속기를 계속 먹인다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/presentations/vortex-columnar-file-format-gpu-streaming/",
+      "report": {
+        "tldr": "볼텍스는 최소한의 복사로 S3에서 GPU로 학습 데이터를 스트리밍하도록 설계된 오픈소스 컬럼형 포맷이다.",
+        "what": "계단식 경량 인코딩, 레이아웃 인식 프루닝, 제로카피 메모리 경로가 CPU와 NVMe 병목을 겨냥해, ML 플랫폼이 모든 것을 사전 변환하지 않고도 값비싼 가속기를 계속 가동할 수 있는 방법을 제공한다.",
+        "points": [
+          "최소 복사로 S3→GPU 데이터 스트리밍",
+          "계단식 경량 인코딩+레이아웃 인식 프루닝+제로카피 메모리 경로",
+          "사전 전체 변환 없이도 CPU·NVMe 병목 해소"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-context-semantics-ontology",
+      "title": "컨텍스트·시맨틱스·온톨로지: 에이전틱 시대를 위한 개론",
+      "summary": "세 개념이 함께 AI 에이전트의 데이터 해석을 돕지만 사람의 유지관리가 여전히 필요하다.",
+      "source": "MotherDuck",
+      "url": "https://motherduck.com/blog/context-layer-vs-semantic-layer-ontology/",
+      "report": {
+        "tldr": "시맨틱 레이어는 비즈니스 지표를, 컨텍스트 레이어는 보조 지식을, 온톨로지는 엔티티와 그 관계를 정의한다.",
+        "what": "이 세 가지가 함께 AI 에이전트가 데이터를 해석하도록 돕지만, 그 지식을 정확하고 최신 상태로 유지하는 것은 여전히 사람의 몫이다.",
+        "points": [
+          "시맨틱 레이어=비즈니스 지표, 컨텍스트 레이어=보조 지식, 온톨로지=엔티티·관계",
+          "세 계층이 결합해 에이전트의 데이터 해석을 지원",
+          "지식의 정확성·최신성 유지는 여전히 사람의 책임"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-taking-analytics-agents",
+      "title": "에이전트로 애널리틱스를 재편하기",
+      "summary": "하나의 집중 유스케이스로 시작해 결과를 측정하라는 조언.",
+      "source": "TLDR Data",
+      "url": "https://links.tldrnewsletter.com/siXIjE",
+      "report": {
+        "tldr": "나오(Nao)의 창업자들은 AI가 데이터 팀을 비즈니스 맥락 유지와 셀프서비스 애널리틱스 지원 쪽으로 이동시키고 있다고 본다.",
+        "what": "하나의 집중된 유스케이스로 시작해 결과를 측정하고, 전체 시맨틱 레이어에 투자하기 전에 데이터 모델을 개선해 나갈 것을 권한다.",
+        "points": [
+          "AI가 데이터 팀 역할을 비즈니스 맥락 유지·셀프서비스 지원으로 이동시킴",
+          "하나의 집중 유스케이스로 시작해 결과 측정 권장",
+          "전체 시맨틱 레이어 투자보다 데이터 모델 개선이 선행돼야 함"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-agentic-analytics-mcp",
+      "title": "에이전틱 AI 애널리틱스 구성: 자유형 Text-to-SQL부터 MCP까지",
+      "summary": "거버넌스된 시맨틱 레이어 도구로 반복 질문을 라우팅해야 한다.",
+      "source": "Eckerson Group",
+      "url": "https://www.eckerson.com/articles/configuring-agentic-ai-analytics-from-free-text-to-sql-to-model-context-protocol",
+      "report": {
+        "tldr": "AI 애널리틱스는 에이전트가 일관성 없는 웨어하우스 메타데이터를 대상으로 자유형 SQL을 생성할 때 실패할 수 있다.",
+        "what": "거버넌스된 시스템은 반복되는 질문을 검증된 시맨틱 레이어 도구와 파라미터화된 호출로 라우팅하고, 사람이 검수할 수 있는 경우에만 개방형 SQL을 남겨둬야 한다. 모델이 업그레이드되더라도 정의를 유지하는 것이 가장 어려운 부분이다.",
+        "points": [
+          "자유형 SQL 생성이 메타데이터 불일치 시 실패 유발",
+          "반복 질문은 검증된 시맨틱 레이어 도구로 라우팅",
+          "개방형 SQL은 사람이 검수 가능한 경우로 제한",
+          "모델 업그레이드와 무관하게 정의 유지가 핵심 과제"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-batching-round-trips",
+      "title": "\"한 번의 왕복이 천 번보다 낫다\"…배치 API가 실제로는 배치하지 않는 이유",
+      "summary": "COPY 전환으로 41분 걸리던 작업이 11초로 줄었다.",
+      "source": "Ankit Rana",
+      "url": "https://ankit-rana.com/logs/47-batching-one-round-trip-beats-a-thousand/",
+      "report": {
+        "tldr": "10만 행 규모의 Postgres 적재 작업이 각 행이 별도의 구문과 트랜잭션이 되면서 41분이 걸렸다.",
+        "what": "COPY로 전환하자 동일한 작업이 11초로 줄었다. 진짜 배칭은 네트워크 왕복, 파싱 오버헤드, WAL 플러시 배리어를 제거하며, 드라이버 플래그와 트랜잭션 청킹이 벌크 API가 조용히 한 행씩 동작하는 것을 막아준다.",
+        "points": [
+          "10만 행 적재, 행별 구문/트랜잭션 방식은 41분 소요",
+          "COPY 전환 후 11초로 단축",
+          "진짜 배칭은 네트워크 왕복·파싱 오버헤드·WAL 플러시 배리어 제거",
+          "드라이버 플래그·트랜잭션 청킹으로 숨은 행 단위 동작 방지"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-polars-2-prerelease",
+      "title": "폴라스 2.0 프리릴리스, 스트리밍 엔진을 기본값으로",
+      "summary": "메모리 사용량을 낮추고 행 순서 보장은 포기했다.",
+      "source": "Polars",
+      "url": "https://pola.rs/posts/announcing-polars-2/",
+      "report": {
+        "tldr": "폴라스 2.0이 지연(lazy) 쿼리의 기본값을 스트리밍 엔진으로 바꿔 메모리 사용량을 크게 낮추고 실행 속도를 높이는 것을 목표로 한다.",
+        "what": "요청하지 않는 한 행 순서가 보장되지 않는다는 점을 받아들인 설계다. 타입 강제 변환과 연결(concatenation) 동작도 더 엄격해졌고, 폐기된 API를 제거해 데이터 불일치가 프로덕션에 숨는 대신 더 일찍 실패하도록 했다.",
+        "points": [
+          "지연 쿼리의 기본 엔진을 스트리밍으로 전환",
+          "행 순서 보장을 포기하는 대신 메모리·속도 개선",
+          "타입 강제변환·연결 동작 엄격화",
+          "폐기 API 제거로 데이터 불일치를 더 일찍 표면화"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-kafka-vs-iggy",
+      "title": "아파치 카프카 vs 아파치 이기: 같은 로그, 다른 엔진",
+      "summary": "러스트 기반 이기는 저지연 단일노드에, 카프카는 대규모 프로덕션에 강점.",
+      "source": "SoftwareMill",
+      "url": "https://softwaremill.com/apache-kafka-vs-apache-iggy-same-log-different-engine/",
+      "report": {
+        "tldr": "아파치 이기는 카프카와 유사한 로그·컨슈머 그룹을 갖춘 러스트 스트리밍 엔진으로, 코어당 스레드 실행과 최신 리눅스 I/O에 최적화됐다.",
+        "what": "저지연 단일노드 또는 더 단순한 배포에서 유망해 보이지만, 카프카는 복제, 정확히 한 번 시맨틱, 컴팩션, 다중 리전 운영에서 여전히 더 깊은 프로덕션 실적을 갖고 있다.",
+        "points": [
+          "이기는 러스트 기반, 코어당 스레드 실행에 최적화",
+          "저지연 단일노드·단순 배포에 강점",
+          "카프카는 복제·정확히 한 번 시맨틱·다중 리전에서 우위 유지"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-sail-07-stateless-compute",
+      "title": "세일 0.7, 스테이트리스 컴퓨트와 durable 잡 상태",
+      "summary": "블로킹 셔플과 체크포인트로 프리엠션에 강한 설계를 지향한다.",
+      "source": "LakeSail",
+      "url": "https://lakesail.com/blog/sail-0-7-blocking-shuffle-checkpoint/",
+      "report": {
+        "tldr": "세일 0.7이 스파크 스타일의 중간 상태를 오브젝트 스토리지 쪽으로 밀어내며 블로킹 셔플과 체크포인트 지원을 추가했다.",
+        "what": "셔플 출력을 압축된 애로우 스트림으로 저장해 하위 작업 리전이 상류 실패를 연쇄시키지 않고 재시도할 수 있게 하고, 체크포인팅은 반복 작업이 긴 쿼리 플랜을 다시 만들지 않도록 한다. 이 설계는 스테이트리스 워커, 더 작은 클러스터, 프리엠션 상황에서의 복원력을 겨냥한다.",
+        "points": [
+          "중간 상태를 오브젝트 스토리지로 이전",
+          "압축된 애로우 스트림 저장으로 상류 실패 연쇄 방지",
+          "체크포인팅으로 긴 쿼리 플랜 재생성 방지",
+          "스테이트리스 워커·소규모 클러스터·프리엠션 복원력 목표"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-investigations-text-to-sql",
+      "title": "텍스트투SQL을 넘어 '데이터 인베스티게이션'으로",
+      "summary": "단일 쿼리 대신 연속된 쿼리와 추론이 필요한 실제 질문에 대응한다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2609.03898",
+      "report": {
+        "tldr": "텍스트투SQL은 사용자가 단일 쿼리로 답할 수 있는 질문을 한다고 가정하지만, 실제로는 중간 결과에 대한 추론이 필요한 일련의 쿼리를 요구하는 문제를 갖고 온다.",
+        "what": "논문은 이를 대체할 패러다임으로 '데이터 인베스티게이션'을 제안하고, 자율적으로 데이터를 탐색·추론·수집해 증거 기반 결론에 도달하는 프로토타입 D2를 살인미스터리 데이터셋으로 벤치마크했다.",
+        "points": [
+          "단일 쿼리 가정의 텍스트투SQL 한계 지적",
+          "'데이터 인베스티게이션' 패러다임 제안",
+          "프로토타입 D2를 살인미스터리 데이터셋으로 벤치마크"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-source-of-truth-google-sheet",
+      "title": "출처가 구글시트일 때: 워너뮤직의 거버넌스 파이프라인",
+      "summary": "손으로 관리하는 스프레드시트를 뺏지 않고 거버넌스된 테이블로 전환했다.",
+      "source": "Warner Music Group Tech Blog",
+      "url": "https://tech.wmg.com/handling-the-messy-reality-of-google-sheets-building-a-resilient-counterfeit-takedown-pipeline-d4c3502664bd",
+      "report": {
+        "tldr": "워너뮤직그룹이 수작업으로 편집되던 위조품 추적 스프레드시트를 운영자에게서 뺏지 않으면서 거버넌스된 데이터브릭스 테이블로 전환했다.",
+        "what": "이 파이프라인은 바뀌는 탭, 이름이 바뀐 헤더, 늦은 수정, 행 지문(fingerprint), 전체 덮어쓰기 적재를 모두 처리해 경영진 보고가 실제 사람들이 사용하는 지저분한 비즈니스 인터페이스를 신뢰할 수 있게 한다.",
+        "points": [
+          "운영자의 스프레드시트 사용 방식은 유지하면서 데이터를 거버넌스",
+          "탭 변경·헤더 리네이밍·늦은 수정·행 지문·전체 덮어쓰기 모두 처리",
+          "경영진 보고 신뢰성을 지저분한 실제 인터페이스 기반으로 확보"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-postgresql-19-ready",
+      "title": "PostgreSQL 19 대비하기",
+      "summary": "시간형 SQL, 멱등 upsert-and-fetch, SQL/PGQ 그래프 쿼리 등이 추가된다.",
+      "source": "tapoueh.org",
+      "url": "https://tapoueh.org/blog/2026/09/getting-ready-for-postgresql-19/",
+      "report": {
+        "tldr": "PostgreSQL 19 베타3에 다수의 신규 기능이 추가됐다.",
+        "what": "시간형 SQL, 멱등적인 upsert-and-fetch, IGNORE NULLS 윈도우 동작, 동시 리패킹, DDL 추출 헬퍼, SQL/PGQ 그래프 쿼리, 더 엄격해진 NULL 처리가 포함된다.",
+        "points": [
+          "시간형 SQL 지원 추가",
+          "멱등 upsert-and-fetch, IGNORE NULLS 윈도우 동작",
+          "동시 리패킹·DDL 추출 헬퍼·SQL/PGQ 그래프 쿼리 추가",
+          "NULL 처리 규칙이 더 엄격해짐"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "data-duckflight-extension",
+      "title": "덕플라이트, 별도 서비스 없이 DuckDB를 실시간 공유",
+      "summary": "PostgreSQL 도구와 애로우 플라이트 SQL 클라이언트가 같은 DB를 동시에 읽고 쓴다.",
+      "source": "GitHub",
+      "url": "https://github.com/sidequery/duckflight-extension",
+      "report": {
+        "tldr": "덕플라이트는 PostgreSQL 도구와 애로우 플라이트 SQL 클라이언트가 별도 서비스나 데이터 복사 없이 동일한 라이브 DuckDB 데이터베이스를 읽고 쓸 수 있게 한다.",
+        "what": "별도의 동기화 계층 없이 두 생태계가 같은 데이터를 실시간으로 공유할 수 있다는 점이 핵심이다.",
+        "points": [
+          "PostgreSQL 도구+애로우 플라이트 SQL 클라이언트가 동일 DuckDB 공유",
+          "별도 서비스·데이터 복사 없이 실시간 접근"
+        ],
+        "why": []
+      }
+    }
+  ]
+}

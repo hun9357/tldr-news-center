@@ -1,0 +1,197 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-gpt6-astra-launch",
+      "title": "OpenAI, GPT-6 아스트라 출시…'AGI 시대' 선언",
+      "summary": "브라우저·스프레드시트·데스크톱 앱을 아우르는 장시간 작업을 처리하는 새 모델이 공개됐다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/welcome-to-the-agi-era-openai-launches-gpt-6-astra",
+      "report": {
+        "tldr": "OpenAI가 브라우저, 스프레드시트, 웹사이트, 데스크톱 애플리케이션을 넘나드는 장시간 작업을 처리하도록 설계된 신모델 아스트라를 출시했다.",
+        "what": "그렉 브록만 사장은 기자 브리핑에서 개인적으로는 이미 AGI 단계에 도달했다고 본다고 밝혔다. 아스트라의 핵심 변화는 에이전트 능력으로, 복잡한 작업을 받아 단계별로 분해하고 상당 부분을 독립적으로 수행할 수 있다. 컴퓨터와 브라우저를 사용해 웹서핑, 양식 작성, 기업 시스템 연동, 일정 관리, 리서치, 데이터 분석, 차트 작성 등을 처리한다. 아스트라는 텍사스 스타게이트 사이트에서 10만 개 이상의 GPU로 처음 사전훈련된 OpenAI 최대 규모 학습이었다.",
+        "points": [
+          "브록만 사장 '개인적으로는 AGI에 도달했다고 본다' 발언",
+          "복잡한 작업을 단계별로 분해해 독립 수행하는 에이전트 능력 강화",
+          "브라우저·스프레드시트·기업시스템·캘린더 등 다양한 소프트웨어 조작 가능",
+          "텍사스 스타게이트에서 10만+ GPU로 첫 사전훈련한 최대 규모 학습"
+        ],
+        "why": [
+          "AGI에 대한 보편적 정의나 판별 테스트가 없어 이 발언 자체가 논쟁적 기준이 되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "it-snowflake-results-non-anthropic",
+      "title": "스노우플레이크 실적, 앤스로픽 외 AI 모델 대안 수요 방증",
+      "summary": "코딩 어시스턴트 CoCo의 성장이 실적을 견인하며 복수 모델 접근 선호 흐름을 보여줬다.",
+      "source": "iTiger News",
+      "url": "https://www.itiger.com/news/1151383175",
+      "report": {
+        "tldr": "스노우플레이크가 코딩 어시스턴트 CoCo의 성장에 힘입어 견조한 분기 실적을 발표했다.",
+        "what": "이는 기업 CIO들이 앞선 AI 지출 급증 이후 비용 절감을 모색하고, 단일 업체(앤스로픽 등)에 종속되기보다 여러 모델에 접근할 수 있는 도구를 선호하는 흐름을 반영한다.",
+        "points": [
+          "CoCo 코딩 어시스턴트 성장이 실적 견인",
+          "기업 CIO들의 AI 비용 절감 니즈 반영",
+          "단일 모델 종속보다 멀티모델 접근 선호 확산"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-cross-app-access-identity",
+      "title": "옥타·오스제로·디스코프, 8일 만에 동일한 에이전트 접근 패턴 출시",
+      "summary": "세 신원관리 업체가 클라이언트 ID 메타데이터 문서와 ID-JAG 토큰 교환으로 수렴했다.",
+      "source": "WorkOS",
+      "url": "https://workos.com/blog/cross-app-access-converged-in-eight-days?utm_source=tldrit",
+      "report": {
+        "tldr": "옥타, 오스제로, 디스코프가 8월 24일부터 9월 1일 사이 크로스앱 접근(Cross App Access) 구현을 잇달아 출시했다.",
+        "what": "세 업체 모두 클라이언트 신원 확인용 클라이언트 ID 메타데이터 문서와 위임을 위한 ID-JAG 토큰 교환이라는 두 계층 패턴으로 수렴했다. 어느 업체가 먼저인지보다 이 두 계층 패턴 자체가 더 중요하며 특정 네트워크보다 오래 지속될 것으로 보인다.",
+        "points": [
+          "옥타·오스제로·디스코프가 8일 간격으로 유사 구현 출시",
+          "클라이언트 ID 메타데이터 문서(신원)+ID-JAG 토큰 교환(위임) 2계층 패턴",
+          "B2B 팀은 벤더 표준화보다 이 패턴 자체 지원 여부를 우선 확인해야 함"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-enterprises-beyond-nvidia",
+      "title": "기업들, 엔비디아 넘어 AI 칩 대안 모색 확대",
+      "summary": "AI 인프라 비용·공급 우려가 커지며 비엔비디아 가속기가 평가 목록에 더 자주 등장하고 있다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/data/enterprises-put-non-nvidia-chips-14-points-ahead-of-nvidias-next-gen-gpus-on-their-evaluation-lists",
+      "report": {
+        "tldr": "기업 구매자들이 AI 인프라 비용과 공급 우려로 비엔비디아 가속기 평가를 늘리고 있다.",
+        "what": "대안 칩들이 엔비디아 차세대 GPU보다 기업 평가 목록에 더 자주 등장하는 추세로 나타났다.",
+        "points": [
+          "AI 인프라 비용·공급 우려가 확산 배경",
+          "비엔비디아 가속기가 평가 목록 등장 빈도에서 앞서기 시작"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-windows11-native-ai-apps",
+      "title": "마이크로소프트, 윈도우11 웹앱 시대 종료 선언…AI가 30분 만에 네이티브 앱 작성",
+      "summary": "VS Code·winapp CLI·깃허브 코파일럿 무료 티어로 빈 폴더에서 WinUI 3 앱까지 30분 안에 도달하는 가이드가 나왔다.",
+      "source": "Windows Latest",
+      "url": "https://www.windowslatest.com/2026/09/06/microsoft-is-ending-windows-11s-web-app-slop-era-and-ai-now-writes-native-apps-in-30-minutes/",
+      "report": {
+        "tldr": "마이크로소프트가 빈 폴더에서 배포 가능한 WinUI 3 앱까지 약 30분 만에 도달하는 퀵스타트 가이드를 발표했다.",
+        "what": "특화된 WinUI 에이전트를 사용하며 WPF·UWP 앱을 위한 AI 지원 마이그레이션 가이드도 포함해 마이크로소프트 스토어에서 웹 래퍼 대신 네이티브 앱 비중을 높이려 한다.",
+        "points": [
+          "VS Code+winapp CLI+깃허브 코파일럿 무료 티어로 진행",
+          "빈 폴더→배포 가능 WinUI 3 앱까지 약 30분",
+          "WPF·UWP 앱용 AI 지원 마이그레이션 가이드 포함",
+          "마이크로소프트 스토어 내 네이티브 앱 비중 확대가 목표"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-cloudflare-openai-vuln-remediation",
+      "title": "클라우드플레어-OpenAI, 취약점 탐지·복구 자동화 협력",
+      "summary": "데이브레이크 보안 모델과 프로덕션 네트워크 신호를 결합해 취약점을 식별·우선순위화한다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vulnerability-discovery-remediation/",
+      "report": {
+        "tldr": "클라우드플레어가 OpenAI의 데이브레이크 보안 모델과 프로덕션 네트워크 신호를 결합해 취약점을 식별하고 우선순위를 매기고 있다.",
+        "what": "시스템은 패치를 제안하고 수정을 검증할 수 있지만, 고위험 조치는 사람의 통제 하에 둔다.",
+        "points": [
+          "데이브레이크 모델+프로덕션 네트워크 신호 결합",
+          "패치 제안 및 수정 검증 자동화",
+          "고위험 조치는 사람 승인 필요"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-proofpoint-soc-agent",
+      "title": "프루프포인트, OpenAI 데이브레이크 기반 AI SOC 분석 에이전트 출시",
+      "summary": "자연어 보안 질의를 구조화된 조사와 권고 조치로 전환하는 제품이 비공개 프리뷰로 나왔다.",
+      "source": "Proofpoint",
+      "url": "https://www.proofpoint.com/us/blog/corporate-news/proofpoint-introduces-soc-analyst-agent-powered-openai-daybreak-models-through",
+      "report": {
+        "tldr": "프루프포인트가 OpenAI 데이브레이크 모델 기반의 SOC 분석 에이전트를 선보였다.",
+        "what": "자연어로 된 보안 질문을 구조화된 조사와 다음 단계 권고로 변환하며, 현재 비공개 프리뷰 단계다.",
+        "points": [
+          "OpenAI 데이브레이크 모델 기반",
+          "자연어 질의→구조화된 조사·권고로 변환",
+          "현재 비공개 프리뷰(private preview) 단계"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-databricks-ip-functions",
+      "title": "데이터브릭스, 위협 탐지용 네이티브 IP 함수 공개 프리뷰",
+      "summary": "IPv4·IPv6 서브넷 체크와 CIDR 연산을 SQL 내장 함수로 제공한다.",
+      "source": "Alex Ott's Blog",
+      "url": "https://alexott.blogspot.com/2026/09/native-ip-functions-for-threat.html",
+      "report": {
+        "tldr": "데이터브릭스가 IPv4·IPv6 서브넷 체크, CIDR 연산, 파싱, 정규화를 위한 SQL IP 함수를 공개 프리뷰로 내놨다.",
+        "what": "내부·외부 트래픽 구분, 위협 인텔리전스 블록리스트 매칭 같은 위협 헌팅 워크플로를 단순화한다. 실제 레이크워치 워크스페이스 테스트에서는 까다로운 IPv6 형식을 정규식이나 정수 기반 방식보다 안정적으로 처리했고, Photon 조인 최적화가 적용된 경우 UDF보다도 성능이 앞섰다.",
+        "points": [
+          "IPv4·IPv6 서브넷 체크·CIDR 연산·정규화 기본 지원",
+          "내부/외부 트래픽 분리 등 위협 헌팅 워크플로 단순화",
+          "실제 테스트에서 정규식·정수 기반 방식보다 안정적",
+          "Photon 조인 최적화 시 UDF 대비 성능 우위"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-equinix-ai-control-plane",
+      "title": "이퀴닉스, 네트워크를 AI 추론의 '제어 플레인'으로 포지셔닝",
+      "summary": "분산 엔터프라이즈 AI 추론을 위해 모델·컴퓨트·데이터·클라우드를 연결하는 인프라를 강화한다.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/09/04/equinix-turns-the-network-into-the-control-plane-for-enterprise-ai-inference/",
+      "report": {
+        "tldr": "이퀴닉스가 분산 엔터프라이즈 AI 추론의 핵심 계층으로 네트워킹을 포지셔닝하고 있다.",
+        "what": "모델, 컴퓨트, 데이터, 클라우드를 연결하는 신규 인프라로 여러 공급자에 걸친 추론 배포 관리를 더 쉽게 만드는 것이 목표다.",
+        "points": [
+          "분산 AI 추론을 위한 네트워크 계층 강화",
+          "멀티 클라우드·공급자 간 추론 배포 관리 단순화"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-tencent-workbuddy-open",
+      "title": "텐센트, 워크버디 플랫폼을 서드파티에 개방",
+      "summary": "업무용 AI 어시스턴트의 에이전트 기능을 외부 개발자·하드웨어 업체에 제공한다.",
+      "source": "TechNode",
+      "url": "https://technode.com/2026/09/03/tencent-opens-workbuddy-to-third-party-developers-with-100-partners/",
+      "report": {
+        "tldr": "텐센트가 업무용 AI 어시스턴트 워크버디의 오픈 플랫폼을 출시해 AI 에이전트 기능을 서드파티에 개방했다.",
+        "what": "서드파티 개발자, 하드웨어 제조사, 산업 애플리케이션 업체들이 워크버디의 에이전트 기능을 이용할 수 있게 된다.",
+        "points": [
+          "워크버디 에이전트 기능을 서드파티에 개방",
+          "개발자·하드웨어 업체·산업 애플리케이션 대상"
+        ],
+        "why": []
+      }
+    },
+    {
+      "id": "it-perplexity-hybrid-mac",
+      "title": "퍼플렉시티, 맥에 하이브리드 AI 컴퓨트 도입",
+      "summary": "민감 정보는 기기 내에서 처리하고 무거운 추론은 프론티어 모델로 넘기는 방식이다.",
+      "source": "Perplexity",
+      "url": "https://www.perplexity.ai/en-GB/hub/blog/introducing-hybrid-compute-on-mac",
+      "report": {
+        "tldr": "퍼플렉시티의 새 하이브리드 모드가 에이전트 작업을 클라우드 모델과 로컬 맥 모델로 분담한다.",
+        "what": "민감한 정보는 기기 내에 유지하면서 더 무거운 추론이 필요한 작업은 프론티어 모델로 넘기는 방식으로 동작한다.",
+        "points": [
+          "클라우드 모델+로컬 맥 모델 하이브리드 분담",
+          "민감 정보는 온디바이스 처리, 고난도 추론은 클라우드"
+        ],
+        "why": []
+      }
+    }
+  ]
+}
