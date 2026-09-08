@@ -1,0 +1,219 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-us-traffic-winners-losers",
+      "title": "지난 1년간 미국 웹 트래픽의 승자와 패자",
+      "summary": "구글·유튜브가 여전히 미국 웹 트래픽을 지배하지만 AI가 지형을 바꾸고 있다. 챗GPT 트래픽은 전년 대비 48.4% 급증한 반면 빙은 50.4% 감소했다.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/winners-losers-us-website-traffic-past-year-486843?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "챗GPT의 월간 방문자 수가 전년 대비 48.4% 증가한 10억9000만 회를 기록한 반면 빙은 50.4% 감소했으며, 구글과 유튜브는 여전히 미국 웹 트래픽을 지배하고 있다.",
+        "what": "동시에 GA4는 AI 주도 트래픽에 대한 가시성을 잃고 있으며, '다이렉트' 트래픽 항목이 귀속시키지 못하는 방문을 점점 더 흡수하고 있다.",
+        "points": [
+          "챗GPT 월간 방문 10.9억 회, 전년比 48.4% 증가",
+          "빙 트래픽 50.4% 감소",
+          "구글·유튜브는 여전히 트래픽 1위 유지",
+          "GA4가 AI 주도 트래픽 귀속에 어려움을 겪는 중"
+        ],
+        "why": [
+          "마케터들이 전통적 애널리틱스로는 AI 검색발 트래픽을 제대로 측정하지 못하고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "marketing-streaming-price-hikes",
+      "title": "스트리밍 요금, 케이블보다 더 빠르게 오르고 있다",
+      "summary": "2022년 이후 스트리밍 가격이 인플레이션보다 3배 빠르게 상승, 8대 주요 서비스 요금이 광고·번들 없이 월 약 151달러에 달한다.",
+      "source": "The Hollywood Reporter",
+      "url": "https://www.hollywoodreporter.com/business/business-news/streaming-inflation-raising-prices-cable-1236691404/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "2022년 이후 스트리밍 가격이 인플레이션보다 3배 빠르게 올랐고, 8대 주요 서비스의 요금은 광고·번들 없이 4년 전 월 90달러에서 현재 약 151달러로 뛰었다.",
+        "what": "구독 피로가 커지면서 Z세대의 '스트리밍 사이클링' 트렌드가 확산되고 있다. 이는 한 번에 하나의 서비스만 구독하다가 해지하고 다른 서비스로 옮겨가는 방식이다.",
+        "points": [
+          "2022년 이후 스트리밍 가격, 인플레이션 대비 3배 빠른 상승",
+          "8대 서비스 월 요금 90달러→151달러(4년새)",
+          "Z세대 중심 '스트리밍 사이클링' 트렌드 확산"
+        ],
+        "why": [
+          "구독 피로도 상승이 소비자 행동 자체를 바꾸고 있음을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ads-borrow-desire",
+      "title": "최고의 광고는 욕구를 만들지 않는다, 빌려올 뿐이다",
+      "summary": "최고의 카피는 새로운 욕구를 만드는 것이 아니라 고객이 이미 가진 욕구를 포착해 제품과 연결한다.",
+      "source": "Conversion Rate Experts",
+      "url": "https://conversion-rate-experts.com/ads-dont-create-desire-they-borrow-it-copywriting-friday/?utm_source=tldrmarketing",
+      "report": {
+        "what": "구매를 가로막는 장애물을 명확히 짚고, 구체적이고 생생한 시나리오로 고객이 성공을 미리 체험하게 만드는 것이 핵심이다.",
+        "points": [
+          "구매 뒤의 감정적 동인을 파악하는 것이 출발점",
+          "장애물을 명확히 짚고 성공의 모습을 생생하게 보여줘야 함",
+          "혜택을 서술하기보다 독자가 먼저 체험하게 해야 함"
+        ],
+        "why": [
+          "카피라이팅의 근본 원칙을 다시 짚는 실무 조언"
+        ],
+        "tldr": "최고의 카피는 새로운 욕구를 만드는 것이 아니라 고객이 이미 가진 욕구를 포착해 제품과 연결한다."
+      }
+    },
+    {
+      "id": "marketing-cursor-pay-to-cancel",
+      "title": "'경쟁사 해지시키려 돈 줬다': 커서의 공격적 프로모션",
+      "summary": "커서가 경쟁사를 해지하고 스크린샷으로 증명한 고객에게 월 200달러 플랜을 무료로 제공하는 방식으로 사은품을 경쟁사 빼오기 도구로 활용했다.",
+      "source": "Marketing Ideas",
+      "url": "https://www.marketingideas.com/p/she-paid-people-to-cancel-her-competitor?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "커서는 경쟁사를 해지하고 스크린샷으로 증명한 고객에게 월 200달러 플랜을 무료로 제공하며 사은품을 경쟁사 고객 빼오기 도구로 활용했다.",
+        "what": "참여를 원하는 고객은 개인 계정으로 오퍼 운영 담당자에게 DM을 보내야 했고, 이는 리텐션 오퍼와 전환 피드백을 위한 비공개 채널을 만들었다. 두 번째 시행에서는 24시간 마감을 추가해 전환율이 더 높아졌으며, 고객들이 자발적으로 해지 스크린샷을 공개해 무료 마케팅 효과도 얻었다.",
+        "points": [
+          "경쟁사 해지 인증 시 월 200달러 플랜 무료 제공",
+          "개인 DM으로 신청→비공개 리텐션 채널 형성",
+          "24시간 마감 추가로 전환율 개선",
+          "고객들이 자발적으로 해지 인증을 공개해 추가 마케팅 효과"
+        ],
+        "why": [
+          "단순 사은품 프로모션을 경쟁사 빼오기·시장 조사 도구로 재설계한 창의적 사례"
+        ]
+      }
+    },
+    {
+      "id": "marketing-google-ads-automated-promotions",
+      "title": "구글 광고, 프로모션 자동 추출 기능 출시",
+      "summary": "구글 광고가 랜딩페이지에서 진행 중인 프로모션을 자동으로 추출해 검색·퍼포먼스맥스 광고에 부착할 수 있게 됐다.",
+      "source": "Search Engine Roundtable",
+      "url": "https://www.seroundtable.com/google-ads-automated-promotions-42006.html?utm_source=tldrmarketing",
+      "report": {
+        "what": "이 기능은 위치 애셋을 사용하면서 수동 프로모션이 없는 적격 캠페인에만 적용된다.",
+        "points": [
+          "계정 단위 자동 기능, 광고주가 일일이 업로드할 필요 없음",
+          "'20% 할인'·'1+1' 등 오퍼 자동 노출",
+          "위치 애셋 사용 중이고 수동 프로모션이 없는 캠페인에만 적용"
+        ],
+        "why": [
+          "광고 운영의 수작업 부담을 줄이는 자동화 기능 확산"
+        ],
+        "tldr": "구글 광고가 랜딩페이지에서 진행 중인 프로모션을 자동으로 추출해 검색·퍼포먼스맥스 광고에 부착할 수 있게 됐다."
+      }
+    },
+    {
+      "id": "marketing-google-disavow-still-needed",
+      "title": "구글 디스어보우, 아직도 필요할까",
+      "summary": "구글 디스어보우 도구는 이제 부자연스러운 링크로 수동 조치를 받은 사이트를 위한 복구 도구에 가깝다.",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/do-we-still-need-google-disavow?utm_source=tldrmarketing",
+      "report": {
+        "what": "SEO 노력은 디스어보우보다 유용한 콘텐츠, UX, 신뢰할 수 있는 링크 획득에 집중하는 것이 낫다는 것이 이 글의 결론이다.",
+        "points": [
+          "펭귄 업데이트 이후 스팸 백링크는 페이지 단위로 무력화되는 추세",
+          "대부분 사이트는 디스어보우 없이도 문제 없음",
+          "확인된 수동 조치에 대한 표적 대응으로만 사용 권장"
+        ],
+        "why": [
+          "오래된 SEO 관행을 현재 구글 알고리즘 기준으로 재평가"
+        ],
+        "tldr": "구글 디스어보우 도구는 이제 부자연스러운 링크로 수동 조치를 받은 사이트를 위한 복구 도구에 가깝다."
+      }
+    },
+    {
+      "id": "marketing-netflix-geo-holdouts",
+      "title": "넷플릭스는 A/B 테스트 불가능한 마케팅을 어떻게 측정하나",
+      "summary": "넷플릭스는 TV·옥외광고·스폰서십처럼 사용자 단위 A/B 테스트가 불가능한 채널을 측정하기 위해 지역 홀드아웃을 사용한다.",
+      "source": "Karan Dhir Substack",
+      "url": "https://karandhir.substack.com/p/how-netflix-measures-the-marketing?utm_source=tldrmarketing",
+      "report": {
+        "what": "이 접근법은 증분 효과를 측정하지만 테스트 규모, 타이밍, 매체 파급, 이월 효과에 대한 신중한 결정이 필요하다. 반복 테스트는 더 강한 증거를 쌓아주지만, 과거 데이터가 없는 캠페인은 다른 방법론이 필요하다. 관건은 경영진이 테스트 기간을 보호하고 매체 딜리버리와 측정 확실성 사이의 트레이드오프를 받아들이게 하는 것이다.",
+        "points": [
+          "TV·OOH·스폰서십 측정에 지역 홀드아웃 활용",
+          "테스트 규모·타이밍·매체 파급·이월효과 관리가 관건",
+          "반복 테스트로 증거를 축적하는 방식",
+          "경영진의 테스트 기간 보호 설득이 실무의 관건"
+        ],
+        "why": [
+          "디지털 채널 밖 마케팅 효과 측정의 실전 방법론을 제시"
+        ],
+        "tldr": "넷플릭스는 TV·옥외광고·스폰서십처럼 사용자 단위 A/B 테스트가 불가능한 채널을 측정하기 위해 지역 홀드아웃을 사용한다."
+      }
+    },
+    {
+      "id": "marketing-ai-hours-nobody-counts",
+      "title": "마케팅팀 아무도 계산하지 않는 'AI 유지보수 시간'",
+      "summary": "모든 AI 워크플로우는 배포되는 순간 작은 유지보수 업무가 된다. 모델이 바뀌고 연동 툴이 업데이트되며 새로운 예외 상황이 계속 생긴다.",
+      "source": "Growth Memo",
+      "url": "https://www.growth-memo.com/p/the-ai-hours-nobody-on-your-marketing?utm_source=tldrmarketing",
+      "report": {
+        "what": "이 유지보수 부담은 가시성 확보나 신뢰 구축처럼 느리고 측정하기 어려운 작업과 자원을 놓고 경쟁하게 된다.",
+        "points": [
+          "AI 워크플로우는 배포 후에도 지속적 유지보수가 필요",
+          "만든 사람만 고칠 줄 아는 경우가 많아 부재 시 수동 전환",
+          "팀들이 이 유지보수 부담을 계획에 반영하지 않는 경우가 많음"
+        ],
+        "why": [
+          "AI 자동화 도입의 숨은 비용을 드러내는 실무적 경고"
+        ],
+        "tldr": "모든 AI 워크플로우는 배포되는 순간 작은 유지보수 업무가 된다. 모델이 바뀌고 연동 툴이 업데이트되며 새로운 예외 상황이 계속 생긴다."
+      }
+    },
+    {
+      "id": "marketing-resume-tips",
+      "title": "마케팅 이력서 작성 팁 8가지",
+      "summary": "지원하려는 직무에 맞춰 마케팅 이력서를 조정하는 8가지 팁이 정리됐다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/alexandra-prochshenko_were-hiring-so-my-friends-send-me-their-share-7501293919918288897-Y-Zs/?utm_source=tldrmarketing",
+      "report": {
+        "what": "채용 담당자 관점에서 어떤 이력서가 눈에 띄는지를 정리한 조언이다.",
+        "points": [
+          "지원 직무에 맞춘 이력서 커스터마이징 강조",
+          "마케팅 채용 담당자 관점에서 정리된 실전 팁"
+        ],
+        "why": [
+          "구직 활동 중인 마케터에게 실용적인 참고자료"
+        ],
+        "tldr": "지원하려는 직무에 맞춰 마케팅 이력서를 조정하는 8가지 팁이 정리됐다."
+      }
+    },
+    {
+      "id": "marketing-ai-chatbots-talk-out-of-buying",
+      "title": "AI 챗봇, AI 이용자의 57.5%를 구매 포기시켰다",
+      "summary": "AI 챗봇은 이제 구매를 양방향으로 좌우한다. AI 이용자의 57.5%에게 구매를 설득하는 동시에 57.5%는 구매를 포기하게 만들었다.",
+      "source": "Semrush Blog",
+      "url": "https://www.semrush.com/blog/ai-chatbots-talk-ai-users-out-of-buying/#consumers-turn-to-ai-en-masse-for-product-research?utm_source=tldrmarketing",
+      "report": {
+        "what": "이는 AI 챗봇이 단순 정보 제공을 넘어 실제 구매 의사결정에 강력한 영향력을 행사하고 있음을 보여준다.",
+        "points": [
+          "AI 이용자의 57.5%가 챗봇의 설득으로 구매 결정",
+          "동시에 57.5%는 챗봇 때문에 구매를 포기",
+          "AI가 구매 여정의 양방향에 실질적 영향력 행사"
+        ],
+        "why": [
+          "AI 검색·챗봇 최적화(GEO)가 마케팅 성과에 직결됨을 보여주는 수치"
+        ],
+        "tldr": "AI 챗봇은 이제 구매를 양방향으로 좌우한다. AI 이용자의 57.5%에게 구매를 설득하는 동시에 57.5%는 구매를 포기하게 만들었다."
+      }
+    },
+    {
+      "id": "marketing-nvidia-huggingface-why",
+      "title": "엔비디아가 허깅페이스를 인수하는 이유",
+      "summary": "엔비디아가 자사 칩 생태계 주변의 오픈소스 AI 생태계를 강화하기 위해 129억 달러에 허깅페이스 인수를 계획하고 있다.",
+      "source": "Cafe Tech in English Substack",
+      "url": "https://cafetechinenglish.substack.com/p/why-nvidia-is-buying-hugging-face?utm_source=tldrmarketing",
+      "report": {
+        "what": "이 인수는 엔비디아가 하드웨어를 넘어 오픈소스 모델 유통까지 영향력을 확대하려는 전략으로 풀이된다.",
+        "points": [
+          "인수가 129억 달러 규모",
+          "자사 칩 중심 오픈소스 AI 생태계 강화가 목적"
+        ],
+        "why": [
+          "엔비디아의 AI 생태계 수직 통합 전략을 보여주는 사례"
+        ],
+        "tldr": "엔비디아가 자사 칩 생태계 주변의 오픈소스 AI 생태계를 강화하기 위해 129억 달러에 허깅페이스 인수를 계획하고 있다."
+      }
+    }
+  ]
+}

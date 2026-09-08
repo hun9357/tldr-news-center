@@ -1,0 +1,221 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-claude-fable-51-aws-data",
+      "title": "AWS의 클로드 페이블 5.1, 새 데이터 통제 기능과 함께 제공",
+      "summary": "클로드 페이블 5.1이 아마존 베드록과 AWS의 클로드 플랫폼에서 제공되며, 프롬프트와 출력은 최대 30일 보관되고 아마존 인력의 안전 검토 대상이 될 수 있다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-claude-fable-5-1-on-aws-amazon-linux-2027-preview-aws-certified-ai-business-strategist-and-more-september-7-2026/?utm_source=tldrit",
+      "report": {
+        "tldr": "클로드 페이블 5.1이 아마존 베드록과 AWS 클로드 플랫폼에서 제공되며, 프롬프트·출력은 최대 30일 보관되고 아마존 인력의 안전 검토를 받을 수 있다.",
+        "what": "향후 계획된 엔터프라이즈 프론티어 세이프가드는 적격 고객이 모니터링 데이터를 자체 통제하는 클라우드 인프라에 보관할 수 있게 해줄 예정이다.",
+        "points": [
+          "아마존 베드록·AWS 클로드 플랫폼에서 페이블 5.1 제공",
+          "프롬프트·출력 최대 30일 보관",
+          "아마존 인력의 안전 검토 대상 가능",
+          "향후 엔터프라이즈 프론티어 세이프가드로 자체 통제 인프라 지원 예정"
+        ],
+        "why": [
+          "기업 고객의 데이터 주권·컴플라이언스 요구가 AI 플랫폼 설계에 반영되는 흐름을 보여줌"
+        ],
+        "context": "오늘 AI 에디션의 앤트로픽 5170억 달러 컴퓨트 계약 소식과 함께 앤트로픽-AWS 관계 심화를 보여준다."
+      }
+    },
+    {
+      "id": "it-sophos-openai-vuln-priority",
+      "title": "소포스, 취약점 우선순위화에 오픈AI 모델 도입",
+      "summary": "소포스가 조직의 네트워크 접근·권한·패치·보안통제를 고려해 실제 악용 가능성을 평가하는 Exploit Path Verification을 개발 중이다.",
+      "source": "Express Computer",
+      "url": "https://www.expresscomputer.in/news/sophos-to-bring-openai-cyber-models-into-its-managed-risk-offering/138516/?utm_source=tldrit",
+      "report": {
+        "what": "이 기능은 분석가 검토와 함께 오픈AI의 사이버 모델을 사용할 예정이지만 출시 시기는 아직 발표되지 않았다.",
+        "points": [
+          "조직별 실제 악용 가능성을 평가하는 Exploit Path Verification 개발",
+          "오픈AI 사이버 모델 + 분석가 검토 결합",
+          "출시 시기 미정"
+        ],
+        "why": [
+          "취약점 관리에서 '이론적 위험'과 '실제 악용 가능성'을 구분하려는 시도"
+        ],
+        "tldr": "소포스가 조직의 네트워크 접근·권한·패치·보안통제를 고려해 실제 악용 가능성을 평가하는 Exploit Path Verification을 개발 중이다."
+      }
+    },
+    {
+      "id": "it-ai-safety-vs-security",
+      "title": "프론티어 랩들, AI 안전과 보안을 혼동하고 있는가",
+      "summary": "프론티어 AI 랩들이 확률적 AI 안전과 결정론적 보안을 혼동하며, 프롬프트 인젝션 방어를 사실상 해결된 문제처럼 취급한다는 지적이 나왔다.",
+      "source": "Martin Alderson",
+      "url": "https://martinalderson.com/posts/ai-safety-vs-security/?utm_source=tldrit",
+      "report": {
+        "what": "오탐, 프록시·방화벽의 취약한 봉쇄, 탐지 위주의 접근이 실패로 이어졌다는 분석이다.",
+        "points": [
+          "확률적 안전과 결정론적 보안을 혼동하는 경향",
+          "프롬프트 인젝션 방어를 과신",
+          "오탐·약한 봉쇄·탐지 중심 설계가 실패 요인"
+        ],
+        "why": [
+          "에이전트 보안 설계 철학 자체를 재검토해야 한다는 목소리가 여러 에디션에서 동시에 제기됨"
+        ],
+        "context": "오늘 TLDR Dev 에디션에도 같은 주제의 기사가 실렸다.",
+        "tldr": "프론티어 AI 랩들이 확률적 AI 안전과 결정론적 보안을 혼동하며, 프롬프트 인젝션 방어를 사실상 해결된 문제처럼 취급한다는 지적이 나왔다."
+      }
+    },
+    {
+      "id": "it-decade-of-software-infra",
+      "title": "'소프트웨어 인프라의 10년': AI가 모든 것을 인프라로 바꾼다",
+      "summary": "AI가 모든 것을 인프라로 바꾸면서 향후 10년은 소프트웨어 인프라가 정의할 것이라는 전망이 제시됐다.",
+      "source": "Innovation Endeavors",
+      "url": "https://www.innovationendeavors.com/insights/a-decade-of-software-infrastructure?utm_source=tldrit",
+      "report": {
+        "what": "AI 재구축 개발 라이프사이클, 에이전트를 위한 인프라 재설계, API의 앱 대체 등 6가지 메가트렌드를 제시한다. 에이전트 주도 구매와 초기 단계 머신러닝 인프라가 인프라 스타트업의 기회를 확대할 것으로 예상된다.",
+        "points": [
+          "AI 재구축 개발 라이프사이클 등 6대 메가트렌드 제시",
+          "에이전트용 인프라 재설계 강조",
+          "API가 앱을 대체하는 흐름",
+          "에이전트 주도 구매 확산 전망"
+        ],
+        "why": [
+          "인프라 투자 방향을 가늠하는 데 참고할 만한 프레임워크"
+        ],
+        "tldr": "AI가 모든 것을 인프라로 바꾸면서 향후 10년은 소프트웨어 인프라가 정의할 것이라는 전망이 제시됐다."
+      }
+    },
+    {
+      "id": "it-cursor-self-hosted-agents",
+      "title": "커서, 자체 관리 머신에서 클라우드 에이전트 실행 지원",
+      "summary": "커서가 에이전트 루프·추론·오케스트레이션은 자사가 관리하되, 클라우드 에이전트를 사용자가 관리하는 인프라에서 실행할 수 있게 했다.",
+      "source": "Cursor Blog",
+      "url": "https://cursor.com/blog/self-hosted-machines?utm_source=tldrit",
+      "report": {
+        "what": "자체 호스팅 워커는 AWS, Vercel, 모달, 클라우드플레어, 맥 등에서 동적으로 확장할 수 있어 팀이 내부 시스템, 커스텀 하드웨어, 기존 빌드 환경에 직접 접근할 수 있다.",
+        "points": [
+          "에이전트 루프·추론·오케스트레이션은 커서가 계속 관리",
+          "실행 환경은 AWS·Vercel·Modal·Cloudflare·맥 등으로 확장 가능",
+          "내부 시스템·커스텀 하드웨어 접근 가능"
+        ],
+        "why": [
+          "AI 코딩 에이전트가 폐쇄망·특수 하드웨어 환경까지 확장되는 흐름을 보여줌"
+        ],
+        "tldr": "커서가 에이전트 루프·추론·오케스트레이션은 자사가 관리하되, 클라우드 에이전트를 사용자가 관리하는 인프라에서 실행할 수 있게 했다."
+      }
+    },
+    {
+      "id": "it-openshift-secrets-console",
+      "title": "오픈시프트, 통합 시크릿 관리 콘솔 추가",
+      "summary": "레드햇의 새 콘솔 플러그인이 인증서와 외부 시크릿 리소스를 하나의 인터페이스로 통합했다.",
+      "source": "Red Hat Blog",
+      "url": "https://www.redhat.com/en/blog/introducing-external-secrets-management-console-plugin?utm_source=tldrit",
+      "report": {
+        "what": "관리자는 만료 경고와 실패한 의존성을 한 곳에서 조사할 수 있다. 오픈시프트 4.22에서 관리자 전용 기술 프리뷰로 제공된다.",
+        "points": [
+          "인증서·외부 시크릿 리소스 통합 콘솔",
+          "만료 경고·실패 의존성 조사 지원",
+          "오픈시프트 4.22 관리자 전용 기술 프리뷰"
+        ],
+        "why": [
+          "시크릿 관리 파편화 문제를 해결하려는 쿠버네티스 생태계의 움직임"
+        ],
+        "tldr": "레드햇의 새 콘솔 플러그인이 인증서와 외부 시크릿 리소스를 하나의 인터페이스로 통합했다."
+      }
+    },
+    {
+      "id": "it-explaining-3pl",
+      "title": "3PL(제3자 물류)이란 무엇인가",
+      "summary": "3PL 업체는 브랜드의 재고를 보관하고 피킹·패킹·배송·반품을 처리하며, 브랜드는 상품과 고객 소유권을 유지한다.",
+      "source": "PPC Land",
+      "url": "https://ppc.land/3pl/?utm_source=tldrit",
+      "report": {
+        "what": "이 글은 요금표 가격 책정, EDI·API 연동, 마감 시간을 다루며 창고 위치와 성과가 쇼핑 광고·프라임 같은 마켓플레이스 배지의 배송일을 직접 좌우한다고 설명한다. 아마존 서차지와 틱톡숍 배송 의무화를 둘러싼 상충되는 주장 등 수수료·의무화 분쟁 증가도 언급한다.",
+        "points": [
+          "3PL은 재고·피킹·패킹·배송·반품 대행",
+          "요금표 가격, EDI·API 연동, 마감시간이 핵심 변수",
+          "창고 위치가 마켓플레이스 배송일에 직접 영향",
+          "수수료·배송 의무화 분쟁 증가"
+        ],
+        "why": [
+          "이커머스 운영에서 물류 파트너 선택이 고객 경험에 미치는 영향을 짚음"
+        ],
+        "tldr": "3PL 업체는 브랜드의 재고를 보관하고 피킹·패킹·배송·반품을 처리하며, 브랜드는 상품과 고객 소유권을 유지한다."
+      }
+    },
+    {
+      "id": "it-finos-portable-records",
+      "title": "FINOS, AI 협업 작업을 위한 이식 가능한 기록 표준 제안",
+      "summary": "콘스펙트(konspekt) 프로젝트가 AI 도구 간 프로젝트 결정·산출물·출처를 보존하는 개방형 포맷을 제안했다.",
+      "source": "FINOS Blog",
+      "url": "https://www.finos.org/blog/portable-ai-decision-records-konspekt-contributed-to-finos-labs?utm_source=tldrit",
+      "report": {
+        "what": "기록은 일반 파일 형태로 존재하며 사람의 승인을 요구해, 특정 모델 제공사나 채팅 플랫폼에 종속되지 않는 감사 추적을 만든다.",
+        "points": [
+          "일반 파일 기반 개방형 기록 포맷",
+          "사람의 승인 절차로 감사 추적 확보",
+          "특정 모델·플랫폼에 비종속적"
+        ],
+        "why": [
+          "AI 지원 작업의 의사결정 이력을 표준화하려는 업계 차원의 시도"
+        ],
+        "tldr": "콘스펙트(konspekt) 프로젝트가 AI 도구 간 프로젝트 결정·산출물·출처를 보존하는 개방형 포맷을 제안했다."
+      }
+    },
+    {
+      "id": "it-concentration-risk-ai",
+      "title": "AI에서 집중 리스크는 정말 문제가 되는가",
+      "summary": "AI 랩과 AI 스택 전반에 걸친 매출 집중이 대형 고객에게 반드시 협상력을 주는 것은 아니라는 분석이 나왔다.",
+      "source": "Akash Bajwa",
+      "url": "https://www.akashbajwa.co/p/does-concentration-risk-matter-in?utm_source=tldrit",
+      "report": {
+        "what": "취약성은 계층별로 다르게 평가돼야 한다는 것이 핵심 주장이다.",
+        "points": [
+          "매출 집중이 곧 고객 협상력을 의미하지 않음",
+          "계층(레이어)별로 취약성이 다르게 나타남"
+        ],
+        "why": [
+          "AI 산업 밸류체인의 힘의 균형을 재평가하는 관점을 제공"
+        ],
+        "tldr": "AI 랩과 AI 스택 전반에 걸친 매출 집중이 대형 고객에게 반드시 협상력을 주는 것은 아니라는 분석이 나왔다."
+      }
+    },
+    {
+      "id": "it-amazon-linux-2027-preview",
+      "title": "아마존 리눅스 2027, 퍼블릭 프리뷰 시작",
+      "summary": "커널 7.1+, 기본 SELinux 강제 적용, 최신 개발 도구, AWS Neuron 드라이버 지원이 포함된 프리뷰가 공개됐다.",
+      "source": "AWS What's New",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/announcing-amazon-linux-2027/?utm_source=tldrit",
+      "report": {
+        "what": "이번 프리뷰는 최신 개발 도구 체인과 함께 제공되며 정식 출시 전 테스트를 위한 것이다.",
+        "points": [
+          "커널 7.1 이상 탑재",
+          "SELinux 기본 강제 적용",
+          "AWS Neuron 드라이버 지원 포함"
+        ],
+        "why": [
+          "AWS 인프라 표준 OS의 다음 세대 방향성을 미리 볼 수 있음"
+        ],
+        "tldr": "커널 7.1+, 기본 SELinux 강제 적용, 최신 개발 도구, AWS Neuron 드라이버 지원이 포함된 프리뷰가 공개됐다."
+      }
+    },
+    {
+      "id": "it-ai-spending-outpaces-proof",
+      "title": "AI 지출은 늘지만 성과 입증은 못 미쳐",
+      "summary": "기업들이 예산과 모델 라우팅을 실험하고 있지만 투자수익률(ROI) 측정에는 어려움을 겪고 있다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/companies-are-spending-millions-rewiring-how-ai-gets-used-almost-none-can-prove-its-working?utm_source=tldrit",
+      "report": {
+        "what": "많은 기업이 AI 도입 규모를 늘리고 있지만 효과를 명확히 입증하는 데는 여전히 어려움을 겪고 있다는 것이 이 기사의 핵심이다.",
+        "points": [
+          "기업들의 AI 예산·모델 라우팅 실험 확대",
+          "ROI 측정의 어려움이 공통적으로 나타남"
+        ],
+        "why": [
+          "AI 투자 붐 이면의 성과 측정 공백을 짚은 기사"
+        ],
+        "tldr": "기업들이 예산과 모델 라우팅을 실험하고 있지만 투자수익률(ROI) 측정에는 어려움을 겪고 있다."
+      }
+    }
+  ]
+}

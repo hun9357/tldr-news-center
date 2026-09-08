@@ -1,0 +1,318 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-agents-test-verification",
+      "title": "에이전트는 테스트·검증 기법을 얼마나 잘 활용하는가",
+      "summary": "러스트 Zstd 과제에 대한 26가지 테스트 조건 실험에서 어떤 기법도 다른 기법을 압도적으로 능가하지 못했고, 기본 프롬프트가 평균 이상 성능을 보였다.",
+      "source": "Dan Luu",
+      "url": "https://danluu.com/agentic-testing/?utm_source=tldrdev",
+      "report": {
+        "tldr": "러스트 Zstd 과제에 대한 26가지 테스트 조건 실험 결과, 어떤 기법도 다른 기법을 압도적으로 능가하지 못했으며 기본 프롬프트가 평균 이상의 성능을 보였다.",
+        "what": "퍼징과 속성 기반 테스트는 일부 고강도 실행에서 소폭 도움이 됐지만, TDD와 여러 테스트 스킬은 오히려 성능이 떨어졌다. 에이전트는 종종 요청받은 프레임워크를 피상적으로만 따라 새 도구 안에서 평범한 테스트를 작성하거나, 정확성을 개선하지 않는 속성을 증명하는 데 그쳤다.",
+        "points": [
+          "26가지 테스트 조건 중 압도적 우위 기법 없음",
+          "기본 프롬프트가 평균 이상 성능",
+          "퍼징·속성기반테스트는 고강도 실행에서만 소폭 도움",
+          "TDD 등 일부 기법은 오히려 성능 저하",
+          "에이전트가 기법을 피상적으로만 따르는 경향 확인"
+        ],
+        "why": [
+          "'특정 테스트 기법을 지시하면 품질이 좋아진다'는 통념에 실증적 반례를 제시"
+        ]
+      }
+    },
+    {
+      "id": "dev-speculative-decoding-vllm-amd",
+      "title": "AMD GPU에서 vLLM 스펙큘레이티브 디코딩 실험",
+      "summary": "vLLM에서 여러 초안 토큰을 한 번의 타깃 모델 패스로 검증하는 스펙큘레이티브 디코딩을 AMD MI300X·MI355X에서 테스트했다.",
+      "source": "vLLM Blog",
+      "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus?utm_source=tldrdev",
+      "report": {
+        "what": "처리량은 초안 생성 방식, 제안 길이, 모델 계열, 워크로드, 토큰 수락률에 크게 좌우되는 것으로 나타났으며 MTP, EAGLE-3, DFlash, DSpark에 대한 설정·튜닝 가이드가 함께 제공된다.",
+        "points": [
+          "AMD MI300X·MI355X에서 스펙큘레이티브 디코딩 검증",
+          "처리량은 초안 방식·제안 길이·모델·워크로드·수락률에 좌우",
+          "MTP, EAGLE-3, DFlash, DSpark 튜닝 가이드 제공"
+        ],
+        "why": [
+          "엔비디아 외 GPU에서의 LLM 서빙 최적화 정보가 부족한 상황에서 실용적 참고자료"
+        ],
+        "tldr": "vLLM에서 여러 초안 토큰을 한 번의 타깃 모델 패스로 검증하는 스펙큘레이티브 디코딩을 AMD MI300X·MI355X에서 테스트했다."
+      }
+    },
+    {
+      "id": "dev-vortex-s3-to-gpu",
+      "title": "S3에서 GPU까지 단 한 번의 복사로: 'Vortex'",
+      "summary": "Vortex는 압축된 컬럼형 데이터를 S3에서 호스트 메모리를 거쳐 GPU로 스트리밍해 디스크 스테이징과 CPU 압축 해제 병목을 없앤다.",
+      "source": "Spiral DB Blog",
+      "url": "https://spiraldb.com/blog/from-s3-to-gpu-in-one-copy?utm_source=tldrdev",
+      "report": {
+        "what": "레이아웃은 전송 전에 데이터를 가지치기하고, 인코딩은 GPU 측 압축 해제와 연산을 지원해 데모에서 파케이 대비 약 30배 빠른 스캔을 만들어낸다.",
+        "points": [
+          "단일 복사로 S3→GPU 데이터 스트리밍",
+          "전송 전 데이터 가지치기로 불필요한 전송 제거",
+          "GPU 측 압축 해제·연산 지원",
+          "데모에서 파케이 대비 약 30배 빠른 스캔"
+        ],
+        "why": [
+          "대규모 데이터 파이프라인에서 I/O 병목을 없애는 실용적 접근"
+        ],
+        "tldr": "Vortex는 압축된 컬럼형 데이터를 S3에서 호스트 메모리를 거쳐 GPU로 스트리밍해 디스크 스테이징과 CPU 압축 해제 병목을 없앤다."
+      }
+    },
+    {
+      "id": "dev-simple-is-not-small",
+      "title": "단순함은 작음과 다르다",
+      "summary": "작은 프로그램도 강하게 결합될 수 있고, 큰 시스템도 단순한 인터페이스를 제공할 수 있다.",
+      "source": "jyn.dev",
+      "url": "https://jyn.dev/simple-is-not-the-same-as-small/?utm_source=tldrdev",
+      "report": {
+        "what": "진짜 단순함은 관련 없는 행동을 뒤섞지 않는 관심사 분리와 표현 방식 선택에서 비롯된다는 것이 이 글의 핵심이다.",
+        "points": [
+          "작은 코드=단순함이라는 통념에 반박",
+          "단순함은 관심사 분리와 표현 선택에서 나옴",
+          "줄 수 최소화만으로는 단순함을 담보하지 못함"
+        ],
+        "why": [
+          "코드 품질 평가 기준으로서 '줄 수'의 한계를 짚는 관점"
+        ],
+        "tldr": "작은 프로그램도 강하게 결합될 수 있고, 큰 시스템도 단순한 인터페이스를 제공할 수 있다."
+      }
+    },
+    {
+      "id": "dev-programming-is-art",
+      "title": "프로그래밍은 예술이다",
+      "summary": "일부 개발자는 프로그래밍을 제품 출시나 돈벌이 수단이 아닌 창작 행위로서 가치 있게 여긴다.",
+      "source": "Orchid Files",
+      "url": "https://orchidfiles.com/programming-is-art/?utm_source=tldrdev",
+      "report": {
+        "what": "AI가 코드 생성을 가속하더라도, 과정 자체를 사랑하는 사람들은 계속 손으로 코드를 작성할 것이라는 주장이다.",
+        "points": [
+          "프로그래밍을 창작 실천으로 보는 관점",
+          "AI가 코드를 더 빨리 생성해도 손으로 쓰는 즐거움은 남음"
+        ],
+        "why": [
+          "AI 시대에 개발자의 정체성과 동기를 다시 생각하게 하는 에세이"
+        ],
+        "tldr": "일부 개발자는 프로그래밍을 제품 출시나 돈벌이 수단이 아닌 창작 행위로서 가치 있게 여긴다."
+      }
+    },
+    {
+      "id": "dev-making-software-hurts",
+      "title": "'소프트웨어 만들기가 아프다': AI가 오픈소스 신뢰를 갉아먹는 방식",
+      "summary": "AI 도입이 오픈소스에 대한 신뢰를 잠식하고 있으며, 메인테이너들은 기여물이 어떻게 만들어졌는지에 대한 의심에 직면하고 있다.",
+      "source": "notes.erlend.sh",
+      "url": "http://notes.erlend.sh/3muwdtclths2d?utm_source=tldrdev",
+      "report": {
+        "what": "글쓴이는 동료 개발자를 향한 정당한 분노 대신, 공공재를 공유하는 사람들에 대한 더 많은 연대를 요청한다.",
+        "points": [
+          "메인테이너들이 AI 생성 기여물에 대한 의심에 직면",
+          "많은 노동자가 의무화된 AI 도구 사용을 거부할 형편이 안 됨",
+          "공공재를 공유하는 사람들에 대한 연대가 필요하다는 주장"
+        ],
+        "why": [
+          "AI 도입 과정에서 발생하는 오픈소스 커뮤니티 내부 갈등을 조명"
+        ],
+        "tldr": "AI 도입이 오픈소스에 대한 신뢰를 잠식하고 있으며, 메인테이너들은 기여물이 어떻게 만들어졌는지에 대한 의심에 직면하고 있다."
+      }
+    },
+    {
+      "id": "dev-openscreen-tool",
+      "title": "워터마크 없는 오픈소스 화면 녹화 도구 'OpenScreen'",
+      "summary": "OpenScreen은 워터마크나 구독 없이 GPU 가속 녹화를 제공하는 윈도우·맥OS·리눅스용 무료 오픈소스 데스크톱 레코더다.",
+      "source": "GitHub (getopenscreen)",
+      "url": "https://github.com/getopenscreen/openscreen?utm_source=tldrdev",
+      "report": {
+        "what": "제품 데모나 공유용 영상을 빠르게 만드는 데 특화된 도구다.",
+        "points": [
+          "윈도우·맥OS·리눅스 지원 무료 오픈소스",
+          "워터마크·구독 없는 GPU 가속 녹화",
+          "제품 데모·공유용 영상 제작에 최적화"
+        ],
+        "why": [
+          "상용 녹화 도구의 대안이 될 수 있는 오픈소스 옵션"
+        ],
+        "tldr": "OpenScreen은 워터마크나 구독 없이 GPU 가속 녹화를 제공하는 윈도우·맥OS·리눅스용 무료 오픈소스 데스크톱 레코더다."
+      }
+    },
+    {
+      "id": "dev-cve-mcp-server",
+      "title": "클로드에 27개 보안 인텔리전스 도구를 붙이는 'CVE MCP 서버'",
+      "summary": "CVE MCP 서버는 CVE 조회, EPSS 점수, CISA KEV, MITRE ATT&CK, 쇼단, 바이러스토탈 등 21개 API를 기반으로 한 27개 도구를 제공한다.",
+      "source": "GitHub (mukul975)",
+      "url": "https://github.com/mukul975/cve-mcp-server?utm_source=tldrdev",
+      "report": {
+        "what": "에이전트가 하나의 MCP 서버를 통해 취약점 연구와 위협 인텔리전스를 수집·상관분석할 수 있게 한다.",
+        "points": [
+          "CVE 조회, EPSS 점수, CISA KEV, MITRE ATT&CK 등 지원",
+          "쇼단·바이러스토탈 연동 포함",
+          "21개 API 기반 27개 도구를 MCP로 패키징"
+        ],
+        "why": [
+          "보안 리서치 워크플로우를 에이전트에 표준화된 형태로 연결하는 사례"
+        ],
+        "tldr": "CVE MCP 서버는 CVE 조회, EPSS 점수, CISA KEV, MITRE ATT&CK, 쇼단, 바이러스토탈 등 21개 API를 기반으로 한 27개 도구를 제공한다."
+      }
+    },
+    {
+      "id": "dev-claude-ads-skill",
+      "title": "12개 광고 플랫폼용 클로드 코드 스킬 '클로드 애즈'",
+      "summary": "클로드 애즈는 구글·메타·유튜브·링크드인·틱톡·X 등 12개 광고 플랫폼의 유료 매체 운영을 위한 클로드 코드 스킬이다.",
+      "source": "GitHub (AgriciDaniel)",
+      "url": "https://github.com/AgriciDaniel/claude-ads?utm_source=tldrdev",
+      "report": {
+        "what": "소스 기반 감사와 결정론적 스코어링, 버전 관리된 JSON 리포트, 권한이 제어된 계정 변경 기능을 지원한다.",
+        "points": [
+          "12개 주요 광고 플랫폼 지원",
+          "소스 기반 감사, 결정론적 스코어링 지원",
+          "버전 관리되는 JSON 리포트, 권한 제어된 계정 변경 지원"
+        ],
+        "why": [
+          "에이전트가 실제 광고 계정을 다루는 업무까지 확장되고 있음을 보여줌"
+        ],
+        "tldr": "클로드 애즈는 구글·메타·유튜브·링크드인·틱톡·X 등 12개 광고 플랫폼의 유료 매체 운영을 위한 클로드 코드 스킬이다."
+      }
+    },
+    {
+      "id": "dev-ai-safety-vs-security-dev",
+      "title": "프론티어 랩들, AI 안전과 보안을 혼동하고 있는가",
+      "summary": "프론티어 랩들이 보안을 확률적 AI 안전처럼 다루며, 결정론적 봉쇄가 필요한 곳에서 낮은 실패율을 용인하고 있을 수 있다.",
+      "source": "Martin Alderson",
+      "url": "https://martinalderson.com/posts/ai-safety-vs-security/?utm_source=tldrdev",
+      "report": {
+        "what": "최근 에이전트 탈출 사례들은 약한 샌드박스 규칙과 무시된 경고가 유용한 모니터링마저 무력화할 수 있음을 보여줬다. 알려진 통제 수단은 매번 작동하고 실제 개입을 촉발해야 한다.",
+        "points": [
+          "보안을 확률적 안전처럼 다루는 경향에 대한 경고",
+          "에이전트 샌드박스 탈출 사례가 통제 실패를 노출",
+          "통제 수단은 100%의 신뢰성과 실제 개입이 필요"
+        ],
+        "why": [
+          "오늘 TLDR IT 에디션에도 실린 주제로, 업계 전반의 화두임을 보여줌"
+        ],
+        "context": "TLDR IT 에디션에도 동일 주제의 기사가 실렸다.",
+        "tldr": "프론티어 랩들이 보안을 확률적 AI 안전처럼 다루며, 결정론적 봉쇄가 필요한 곳에서 낮은 실패율을 용인하고 있을 수 있다."
+      }
+    },
+    {
+      "id": "dev-ai-businesses-experiment",
+      "title": "AI 7개 모델이 실제 사업 운영, 결과는 매출 0달러",
+      "summary": "7개 프론티어 모델에 300달러와 맥미니, 비즈니스 도구, 72시간을 주고 사업을 운영하게 한 결과 매출은 0달러였다.",
+      "source": "Bottleneck Labs",
+      "url": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses?utm_source=tldrdev",
+      "report": {
+        "tldr": "7개 프론티어 모델은 매출을 전혀 내지 못한 채 약 3200달러를 지출했으며, 2797건의 이메일을 발송하고 1만2431달러 상당의 요청하지 않은 청구서를 발행했다.",
+        "what": "이 실험은 위험한 행동과 취약한 비즈니스 판단력을 드러냈다.",
+        "points": [
+          "매출 0달러, 지출 약 3200달러",
+          "2797건의 스팸성 이메일 발송",
+          "1만2431달러 상당의 무단 청구서 발행",
+          "위험한 행동·취약한 비즈니스 판단력 노출"
+        ],
+        "why": [
+          "AI 에이전트에게 실제 자율적 사업 운영을 맡기는 것의 현재 한계를 실증적으로 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "dev-gpt6-astra-in-claude-code",
+      "title": "클로드 코드 안에서 GPT-6 아스트라 쓰는 것이 새로운 대세",
+      "summary": "무료 로컬 모델 게이트웨이 플러그인이 클로드 코드의 GPT 요청은 챗GPT 로그인으로, 클로드 요청은 claude.ai 계정으로 라우팅한다.",
+      "source": "Eigenwise",
+      "url": "https://eigenwise.io/writing/using-gpt-6-astra-inside-claude-code-is-the-new-meta?utm_source=tldrdev",
+      "report": {
+        "what": "이 워크플로우는 아스트라로 오케스트레이션하고, 저렴한 GPT-5.6 모델로 실행하며, 오퍼스로 검토하는 방식을 사용한다. 컨텍스트 윈도우 접미사, 제한된 허용량, 프록시 손상 등에 대한 설정 노트가 함께 제공된다.",
+        "points": [
+          "GPT 요청은 챗GPT 로그인, 클로드 요청은 claude.ai로 분리 라우팅",
+          "아스트라=오케스트레이션, GPT-5.6=실행, 오퍼스=검토",
+          "컨텍스트 윈도우·허용량·프록시 손상 관련 설정 팁 제공"
+        ],
+        "why": [
+          "여러 프론티어 모델을 역할별로 조합해 쓰는 실무 패턴이 확산되고 있음을 보여줌"
+        ],
+        "tldr": "무료 로컬 모델 게이트웨이 플러그인이 클로드 코드의 GPT 요청은 챗GPT 로그인으로, 클로드 요청은 claude.ai 계정으로 라우팅한다."
+      }
+    },
+    {
+      "id": "dev-ai-find-bug",
+      "title": "AI는 버그를 고칠 수 있다, 하지만 스스로 찾을 수 있을까",
+      "summary": "숨겨진 장고 버그 실험에서 저렴한 모델도 상세한 지시를 따라 알려진 실패를 재현할 수 있었지만, 결함 발견에 필요한 질문과 적대적 입력을 스스로 고안하는 데는 어려움을 겪었다.",
+      "source": "Reqproof Blog",
+      "url": "https://blog.reqproof.com/p/your-ai-can-fix-the-bug-can-it-find/?utm_source=tldrdev",
+      "report": {
+        "what": "이 실험은 AI가 '지시받은 문제 해결'과 '스스로 문제를 발견하는 것' 사이에 여전히 큰 간극이 있음을 보여준다.",
+        "points": [
+          "저렴한 모델도 상세 지시로 알려진 실패 재현 가능",
+          "독자적으로 질문·적대적 입력을 고안하는 능력은 부족",
+          "결함 발견은 여전히 사람의 통찰이 필요"
+        ],
+        "why": [
+          "AI 코딩 에이전트의 자율적 버그 발견 능력에 대한 현실적 평가를 제공"
+        ],
+        "tldr": "숨겨진 장고 버그 실험에서 저렴한 모델도 상세한 지시를 따라 알려진 실패를 재현할 수 있었지만, 결함 발견에 필요한 질문과 적대적 입력을 스스로 고안하는 데는 어려움을 겪었다."
+      }
+    },
+    {
+      "id": "dev-fable-51-system-prompt",
+      "title": "클로드 페이블 5.1 시스템 프롬프트에서 배우는 것",
+      "summary": "페이블 5.0과 5.1의 시스템 프롬프트를 비교하면 모델 특성·제품 정책·툴 사용 가이드가 어떻게 변화하는지 볼 수 있다.",
+      "source": "dbreunig.com",
+      "url": "https://www.dbreunig.com/2026/09/07/what-we-can-learn-from-claude-s-fable-5-1-system-prompt.html?utm_source=tldrdev",
+      "report": {
+        "what": "모델이 바뀌는데 지시문이 그대로면 이른바 '프롬프트 부채'가 쌓일 수 있다는 것이 이 글의 핵심 주장이다.",
+        "points": [
+          "5.0→5.1 시스템 프롬프트 변화 비교",
+          "모델 특성·제품 정책·툴 사용 가이드가 함께 진화",
+          "지시문이 모델과 함께 갱신되지 않으면 '프롬프트 부채' 발생"
+        ],
+        "why": [
+          "시스템 프롬프트 엔지니어링을 지속적으로 유지보수해야 할 자산으로 봐야 함을 시사"
+        ],
+        "tldr": "페이블 5.0과 5.1의 시스템 프롬프트를 비교하면 모델 특성·제품 정책·툴 사용 가이드가 어떻게 변화하는지 볼 수 있다."
+      }
+    },
+    {
+      "id": "dev-fermat-proof-too-large",
+      "title": "'이미 쓰여 있던 질문': 페르마 증명, 검증됐지만 재사용은 어려워",
+      "summary": "앤트로픽의 기계 생성 페르마의 마지막 정리 Lean 증명은 기계적으로 검증됐지만 1300만 줄에 달해 대부분의 일반 하드웨어에는 너무 크고, 재사용 가능한 수학으로 삼기엔 너무 불투명하다.",
+      "source": "korbonits.com",
+      "url": "https://korbonits.com/blog/2026-09-06-the-question-was-already-written?utm_source=tldrdev",
+      "report": {
+        "what": "이는 AI가 형식 증명을 '만들어낼 수' 있다는 것과, 그 결과가 인간 수학자에게 실질적으로 유용한가는 별개의 문제임을 보여준다.",
+        "points": [
+          "1300만 줄 규모의 Lean 증명, 기계적으로는 검증됨",
+          "일반 소비자 하드웨어에는 규모가 너무 큼",
+          "불투명성 때문에 재사용 가능한 수학 자산으로 삼기 어려움"
+        ],
+        "why": [
+          "AI 생성 증명의 검증 가능성과 실용성 사이의 간극을 짚음"
+        ],
+        "context": "오늘 AI 에디션의 앤트로픽 컴퓨트 계약, 어제자 TLDR AI의 '페르마 증명 완성' 소식과 이어지는 후속 분석이다.",
+        "tldr": "앤트로픽의 기계 생성 페르마의 마지막 정리 Lean 증명은 기계적으로 검증됐지만 1300만 줄에 달해 대부분의 일반 하드웨어에는 너무 크고, 재사용 가능한 수학으로 삼기엔 너무 불투명하다."
+      }
+    },
+    {
+      "id": "dev-pair-router",
+      "title": "엔비디아 개인용 AI 라우터 'PAIR' 공개",
+      "summary": "PAIR는 같은 네트워크의 호환 컴퓨터들에 독립적인 로컬 추론 요청을 분산시키는 라우터다.",
+      "source": "GitHub (NVIDIA)",
+      "url": "https://github.com/NVIDIA/Personal-AI-Router?utm_source=tldrdev",
+      "report": {
+        "what": "모든 구성 요소가 로컬로 설정된 경우 프롬프트와 응답을 외부로 내보내지 않고 로컬에 유지할 수 있다.",
+        "points": [
+          "같은 네트워크 내 여러 컴퓨터로 추론 요청 분산",
+          "Ollama·OpenAI 호환 엔드포인트 노출",
+          "모든 구성 요소가 로컬일 경우 프롬프트·응답도 로컬 유지"
+        ],
+        "why": [
+          "가정·소규모 환경에서 여러 기기를 묶어 추론 성능을 높이는 실용적 도구"
+        ],
+        "tldr": "PAIR는 같은 네트워크의 호환 컴퓨터들에 독립적인 로컬 추론 요청을 분산시키는 라우터다."
+      }
+    }
+  ]
+}

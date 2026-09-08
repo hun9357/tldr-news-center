@@ -1,0 +1,286 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-ncentral-0day",
+      "title": "N-에이블, 실공격 진행 중이던 N-central 최고위험 취약점 패치",
+      "summary": "인증 없이 인터넷에 노출된 N-central RMM 서버에서 원격 코드 실행이 가능한 CVE-2026-86218이 패치됐다.",
+      "source": "TLDR Infosec Links",
+      "url": "https://links.tldrnewsletter.com/os5Tdh",
+      "report": {
+        "tldr": "인증되지 않은 공격자가 인터넷에 노출된 N-central RMM 서버에서 CVE-2026-86218을 악용해 낮은 난이도로 코드를 실행할 수 있다.",
+        "what": "헌트리스는 로그가 이미 로테이션된 침해 고객 인스턴스를 발견해 이를 제로데이 가능성으로 표시했다. 섀도서버는 미국과 유럽을 중심으로 약 1500대의 노출된 N-central 서버를 집계했다. 온프레미스 운영자는 즉시 N-central 2026.3 핫픽스4로 업데이트해야 하며, HF3 시스템은 지난주 패치된 인증 우회 취약점 쌍(CVE-2026-86206, CVE-2026-86207)에도 불구하고 이번 취약점에 여전히 노출돼 있다.",
+        "points": [
+          "인증 없이 원격 코드 실행 가능한 CVE-2026-86218",
+          "헌트리스, 침해 고객 인스턴스 발견 후 제로데이 가능성 제기",
+          "섀도서버 집계 기준 약 1500대 노출 서버(미국·유럽 다수)",
+          "HF3는 여전히 취약, 즉시 HF4로 업데이트 필요"
+        ],
+        "why": [
+          "원격관리도구(RMM)는 다수 고객사에 접근 권한을 가져 공급망 공격의 핵심 표적이 됨"
+        ],
+        "action": "온프레미스 N-central 운영자는 즉시 2026.3 핫픽스4로 업데이트하고 인터넷 노출 여부를 점검할 것."
+      }
+    },
+    {
+      "id": "infosec-postgreshell-12yr",
+      "title": "PostgreSQL, 12년간 열려 있던 원격코드실행 통로 발견",
+      "summary": "CVE-2026-6471은 PostgreSQL 9.4~18 버전에 영향을 미치며, 낮은 권한의 복제 계정으로 슈퍼유저 권한과 지속성을 확보할 수 있다.",
+      "source": "Cyera",
+      "url": "https://www.cyera.com/pt-br/research/postgreshell-the-database-powering-much-of-the-internet-had-an-open-door-for-12-years?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "낮은 권한의 REPLICATION 계정이 검증되지 않은 출력 플러그인 경로를 제공해 공격자 코드를 로드하고 PostgreSQL 슈퍼유저 권한과 지속성을 확보할 수 있는 CVE-2026-6471이 12년 만에 발견됐다.",
+        "what": "윈도우 대상 환경에서는 SMB를 통해 DLL을 가져올 수도 있다. 권고 조치는 PostgreSQL 패치, 미사용 복제 권한 제거, pg_hba.conf 제한, 아웃바운드 SMB·NFS 차단, 의심스러운 복제 슬롯 모니터링이다.",
+        "points": [
+          "PostgreSQL 9.4~18 버전 영향",
+          "REPLICATION 계정으로 슈퍼유저 권한 및 지속성 획득 가능",
+          "윈도우 환경은 SMB로 DLL 로드 가능",
+          "12년간 존재했던 결함"
+        ],
+        "why": [
+          "인터넷 상당 부분을 지탱하는 데이터베이스의 기초적 권한 모델 결함이라는 점에서 파급력이 큼"
+        ],
+        "action": "PostgreSQL 패치 적용, 미사용 복제 권한 제거, pg_hba.conf 제한, 아웃바운드 SMB·NFS 차단, 복제 슬롯 모니터링을 실시할 것."
+      }
+    },
+    {
+      "id": "infosec-mathspace-breach",
+      "title": "매스스페이스, 100만 명 이상 영향 데이터 유출 공개",
+      "summary": "온라인 수학 학습 소프트웨어 매스스페이스가 자체 호스팅 메타베이스 인스턴스 취약점으로 100만 명 이상의 데이터 유출을 공개했다.",
+      "source": "TLDR Infosec Links",
+      "url": "https://links.tldrnewsletter.com/kguNLQ",
+      "report": {
+        "tldr": "매스스페이스가 호주·뉴질랜드의 학생, 보호자, 학교 직원, 자사 직원 등 100만 명 이상에 영향을 미친 데이터 유출을 공개했다.",
+        "what": "공격자는 내부 리포팅용으로 쓰이던 자체 호스팅 메타베이스 인스턴스의 취약점을 악용했다. 매스스페이스는 정확히 어떤 데이터가 유출됐는지는 밝히지 않았지만, 학업 기록·인증정보·학교 연계 데이터(이메일 도메인 가능성 제외)는 유출되지 않았다고 밝혔다.",
+        "points": [
+          "100만 명 이상 영향(학생·보호자·학교직원·자사직원)",
+          "자체 호스팅 메타베이스 취약점이 원인",
+          "학업 기록·인증정보 등은 유출 안 됐다고 주장"
+        ],
+        "why": [
+          "교육 기술 업체의 내부 BI 도구 노출이 대규모 유출로 이어진 사례"
+        ]
+      }
+    },
+    {
+      "id": "infosec-fileless-elf-otmpfile",
+      "title": "O_TMPFILE 이용한 파일리스 ELF 실행 기법 공개",
+      "summary": "레드팀 로더가 O_TMPFILE과 execveat(AT_EMPTY_PATH)를 조합해 디렉터리 항목 없이 ELF를 실행하는 기법을 공개했다.",
+      "source": "matheuzsecurity",
+      "url": "https://matheuzsecurity.github.io/hacking/fileless-loader-bypassing-elastic-memfd/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "O_TMPFILE과 execveat(AT_EMPTY_PATH)를 조합하면 디렉터리 항목이 전혀 생기지 않는 실제 아이노드를 /tmp에 할당해 ls·find·inotify·fanotify가 탐지하지 못하는 ELF를 실행할 수 있다.",
+        "what": "/proc/self/fd/를 통해 읽기 전용으로 fd를 재오픈해 ETXTBSY를 해소하고 경로 문자열 없이 직접 실행한다. 이 기법은 memfd_create 기반 탐지를 우회하는데, memfd: 접두사나 00:01 디바이스, 시스콜 319 같은 흔적이 전혀 남지 않기 때문이다. 유일한 잔여 신호는 무수히 많은 정상적인 open-unlink-exec 프로그램도 만들어내는 '(deleted)' 접미사뿐이다.",
+        "points": [
+          "O_TMPFILE + execveat(AT_EMPTY_PATH) 조합 기법",
+          "memfd_create 기반 탐지를 완전히 우회",
+          "Elastic의 FENIX 15개 기법 매트릭스에 없는 패턴"
+        ],
+        "why": [
+          "기존 파일리스 실행 탐지 규칙의 사각지대를 드러냄"
+        ],
+        "action": "방어자는 memfd_create 특정 패턴 대신 AT_EMPTY_PATH를 쓰는 execveat와 익명 /tmp/#(deleted) 실행파일, prctl(PR_SET_NAME) 이름 변경, /proc/self/exe 언링크를 상관분석해 탐지 규칙을 보강할 것."
+      }
+    },
+    {
+      "id": "infosec-tamper-evident-audit-logs",
+      "title": "해시체인·머클트리로 변조 불가능한 감사 로그 만들기",
+      "summary": "해시체인, 서명된 체크포인트가 있는 머클트리, RFC 3161·OpenTimestamps 같은 신뢰 가능한 시간 앵커로 감사 추적을 암호학적으로 검증 가능하게 만드는 방법을 다룬다.",
+      "source": "Zatona",
+      "url": "https://zatona.dev/blog/tamper-evident-audit-logs?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "이 글은 감사자가 로그에 대해 갖는 핵심 질문에 답하는 구체적 메커니즘, 즉 무결성용 해시체인, 추가 전용 이력을 위한 서명된 체크포인트 기반 머클트리, RFC 3161·OpenTimestamps 같은 신뢰 시간 앵커를 소개한다.",
+        "what": "데이터 구조, 증명 알고리즘, 실제 동작하는 Rust 코드를 포함한 구현 관점을 제공하며, 확립된 표준을 기반으로 한다.",
+        "points": [
+          "해시체인으로 로그 무결성 보장",
+          "머클트리+서명 체크포인트로 추가 전용 이력 구현",
+          "RFC 3161·OpenTimestamps로 신뢰 시간 앵커 확보",
+          "Rust 구현 예제 포함"
+        ],
+        "why": [
+          "규제·감사 대응이 늘어나는 상황에서 실무적으로 바로 적용 가능한 참고자료"
+        ]
+      }
+    },
+    {
+      "id": "infosec-wiz-redagent-snowflake",
+      "title": "Wiz의 자율 보안 에이전트, 코파일럿이 승인한 PR 결함으로 스노우플레이크 내부 지라 접근",
+      "summary": "Wiz의 자율 보안 리서치 도구 Red Agent가 깃허브 액션 워크플로우 취약점을 발견해 스노우플레이크의 내부 지라에 접근했다.",
+      "source": "Wiz Blog",
+      "url": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Wiz Research의 Red Agent가 snowflakedb/snowflake-connector-net 저장소의 깃허브 액션 워크플로우에서 취약점을 발견했고, 이는 스노우플레이크 내부 지라 접근으로 이어졌다.",
+        "what": "이 결함은 깃허브 코파일럿이 리뷰·승인한 PR에서 도입된 회귀 결함으로, 템플릿 인젝션을 통한 코드 실행을 가능하게 했다. 코파일럿이 안전한 env + jq 파싱 패턴을 직접 문자열 보간으로 교체하면서 취약점이 생겼다.",
+        "points": [
+          "Red Agent가 깃허브 액션 워크플로우 취약점 자동 발견",
+          "코파일럿이 승인한 PR에서 취약점 도입",
+          "안전한 env+jq 패턴이 직접 문자열 보간으로 교체됨",
+          "템플릿 인젝션으로 코드 실행 가능"
+        ],
+        "why": [
+          "AI 코드 어시스턴트가 승인한 코드도 반드시 별도 보안 검토가 필요함을 보여주는 실사례"
+        ],
+        "action": "AI 보조 코드 생성 도구 사용자는 승인된 PR이라도 보안 관점에서 재검토하는 절차를 마련할 것."
+      }
+    },
+    {
+      "id": "infosec-raptor-tool",
+      "title": "클로드 코드 기반 자율 보안 리서치 프레임워크 'RAPTOR' 공개",
+      "summary": "정적 분석, 바이너리 분석, LLM 기반 취약점 검증, 익스플로잇 생성, 패치 작성을 하나로 묶은 RAPTOR가 공개됐다.",
+      "source": "GitHub (gadievron)",
+      "url": "https://github.com/gadievron/raptor?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "RAPTOR는 클로드 코드 기반의 자율 보안 리서치 프레임워크로, 정적 분석부터 익스플로잇 생성·패치 작성까지 하나의 워크플로우로 통합한다.",
+        "what": "200개 이상의 커스텀 Semgrep·Coccinelle·CodeQL 규칙과, 스캐너 노이즈를 걸러내는 6단계 악용가능성 검증 파이프라인, 도달 불가능한 데이터플로우 경로를 제거하는 선택적 Z3 사전 스크리닝을 갖췄다. 신뢰할 수 없는 저장소를 다루는 서브프로세스는 리눅스 네임스페이스, Landlock, seccomp로 샌드박싱되며 앤트로픽·오픈AI·제미나이·미스트랄·로컬 Ollama 모델을 실행당 비용 상한과 함께 지원한다.",
+        "points": [
+          "정적·바이너리 분석부터 패치 작성까지 단일 워크플로우",
+          "200+ 커스텀 Semgrep/Coccinelle/CodeQL 규칙",
+          "6단계 악용가능성 검증 파이프라인",
+          "리눅스 네임스페이스·Landlock·seccomp 샌드박싱"
+        ],
+        "why": [
+          "AI 기반 자동 취약점 발견·패치 도구가 실전 수준으로 발전하고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "infosec-openai-daybreak-1b",
+      "title": "오픈AI, 필수 서비스 방어 위해 10억 달러 규모 '데이브레이크' 지원",
+      "summary": "오픈AI가 자원이 부족한 방어 조직을 위해 데이브레이크 접근권, 교육, 기술지원에 10억 달러를 투입한다.",
+      "source": "TLDR Infosec Links",
+      "url": "https://links.tldrnewsletter.com/v9q7QQ",
+      "report": {
+        "tldr": "오픈AI가 향후 6개월간 상하수도, 전력망 운영사, 주·지방정부, 지역은행, 비영리단체, 오픈소스 메인테이너를 우선으로 10억 달러 규모의 보조 데이브레이크 지원을 제공한다.",
+        "what": "데이브레이크 블루는 메인라인 모델 기반 일상 방어 업무를 다루고, 데이브레이크 레드는 승인된 조직에 특화된 사이버 모델을 제공한다. 약 2000개 조직이 이미 온보딩했으며, 35개 이상의 파트너 제품이 데이브레이크 디펜스 네트워크를 통해 제공되고 있다.",
+        "points": [
+          "10억 달러 규모, 6개월간 소비 목표",
+          "상하수도·전력망·지방정부·지역은행·비영리·오픈소스 메인테이너 우선",
+          "데이브레이크 블루(일상 방어)와 레드(특화 사이버 모델)로 구분",
+          "약 2000개 조직 온보딩, 35개+ 파트너 제품 연계"
+        ],
+        "why": [
+          "자원이 부족한 방어 조직에 AI 보안 역량을 무상 지원하는 대규모 시도"
+        ]
+      }
+    },
+    {
+      "id": "infosec-beyond-lazarus-dprk",
+      "title": "'비욘드 라자루스': 북한 사이버 작전 조직 체계 분석",
+      "summary": "세코이아와 쿠델스키 시큐리티가 북한의 공세적 사이버 작전을 자금 조달 조직으로 규정하고 그 위계를 매핑했다.",
+      "source": "Sekoia",
+      "url": "https://www.sekoia.com/blog/beyond-lazarus-organization-of-dprk-cyber-capabilities?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "북한이 연간 10억 달러 이상으로 추정되는 절취 수익으로 제재 대상 무기 프로그램을 자금 조달하는 자체 조달형 국가 사이버 조직을 운영한다는 사실이 확인됐다.",
+        "what": "보고서는 GRIB(구 RGB), 6월 개명한 NIA(구 MSS), 그리고 라자루스 우산 조직이 APT38, 안다리엘, 페이머스 촐리마, 슬리트 서브클러스터로 분화된 과정을 다룬다. IT 인력 조직, 중국·러시아 학술 파이프라인, 룡봉·친용 같은 위장회사로 구성된 지원 계층도 함께 추적했다.",
+        "points": [
+          "연간 10억 달러+ 절취 수익으로 무기 프로그램 자금 조달",
+          "GRIB(구 RGB), NIA(구 MSS·6월 개명) 등 조직 구조 매핑",
+          "라자루스가 APT38, 안다리엘, 페이머스 촐리마, 슬리트로 분화",
+          "위장회사·IT 인력 조직 등 지원 계층 존재"
+        ],
+        "why": [
+          "국가 배후 사이버 위협의 자금 흐름과 조직 구조를 이해하는 데 중요한 참고자료"
+        ]
+      }
+    },
+    {
+      "id": "infosec-jsceal-bypass-google-auth",
+      "title": "JSCeal 악성코드, 탈취한 세션 쿠키로 구글 인증 우회",
+      "summary": "페이스북·구글 광고로 유포되는 가짜 트레이딩뷰 설치파일을 통해 확산되는 JSCeal이 구글 로그인 화면을 우회한다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/jsceal-malware-can-bypass-google.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "JSCeal은 크로미움 기반 브라우저에서 비밀번호, 쿠키, OAuth 토큰, 프로필 정보를 탈취하며, 훔친 구글 쿠키로 인증된 세션을 복원해 로그인 화면을 우회할 수 있다.",
+        "what": "악성코드는 키로깅, 스크린샷 캡처 기능도 갖췄으며 바이낸스·바이비트·렛저 등 여러 서비스의 트래픽을 조작하는 로컬 프록시도 설치한다.",
+        "points": [
+          "가짜 트레이딩뷰 설치파일로 유포(페이스북·구글 광고)",
+          "크로미움 브라우저의 비밀번호·쿠키·OAuth 토큰 탈취",
+          "훔친 구글 쿠키로 로그인 화면 우회",
+          "바이낸스·바이비트·렛저 등 트래픽 조작 프록시 설치"
+        ],
+        "why": [
+          "MFA 등 인증 강화만으로는 세션 쿠키 탈취 공격을 막을 수 없음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "infosec-liquid-network-320m",
+      "title": "리퀴드 네트워크서 3억2000만 달러 비트코인 유출, 공격자 '선의' 주장",
+      "summary": "공격자들이 리퀴드 연합 지갑의 약 95%에 해당하는 약 4000 BTC를 인출했으며, 이후 자금을 대부분 돌려주겠다고 주장했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/09/07/hackers-drain-320m-in-bitcoin-from-liquid-network-claim-theyre-the-good-guys/5294770?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공격자들이 리퀴드 연합 지갑에서 약 4000 BTC(약 3억2000만 달러)를 인출했으며, 이는 연합 지갑 자산의 약 95%에 해당한다.",
+        "what": "리퀴드는 브릿지 노드를 비활성화하고 거래소에 L-BTC 입출금 중단을 요청했다. 공격자는 사이드스왑의 peg-out 절차를 이용했지만, 리퀴드는 Peg-out Authorization Key가 침해되지는 않았다고 밝혔다. 공격자들은 모든 노드가 패치를 받으면 대부분의 자금을 돌려주겠다고 주장했다.",
+        "points": [
+          "약 4000 BTC(약 3.2억 달러) 인출, 연합 지갑의 95%",
+          "사이드스왑 peg-out 절차 악용",
+          "Peg-out Authorization Key 자체는 침해되지 않음",
+          "공격자, 패치 후 자금 반환 주장"
+        ],
+        "why": [
+          "브릿지·연합 지갑 구조의 단일 실패점 위험을 다시 한번 보여준 사건"
+        ]
+      }
+    },
+    {
+      "id": "infosec-connectwise-screenconnect-flaw",
+      "title": "커넥트와이즈, 패치 없는 신규 스크린커넥트 결함 경고",
+      "summary": "커넥트와이즈가 클라우드·온프레미스 스크린커넥트 배포에 영향을 미치는 미패치 파일 전송 결함을 공개했다.",
+      "source": "TLDR Infosec Links",
+      "url": "https://links.tldrnewsletter.com/s5joRW",
+      "report": {
+        "what": "커넥트와이즈는 결함의 세부 사항과 임시 완화책을 공지했으며, 패치가 나올 때까지 노출 최소화가 권고된다.",
+        "points": [
+          "클라우드·온프레미스 스크린커넥트 모두 영향",
+          "현재 패치 미제공"
+        ],
+        "why": [
+          "원격 지원 도구는 랜섬웨어 등 공급망 공격의 주요 진입점으로 계속 악용되고 있음"
+        ],
+        "action": "패치 발표 전까지 스크린커넥트 노출을 최소화하고 커넥트와이즈의 완화 가이드를 따를 것.",
+        "tldr": "커넥트와이즈가 클라우드·온프레미스 스크린커넥트 배포에 영향을 미치는 미패치 파일 전송 결함을 공개했다."
+      }
+    },
+    {
+      "id": "infosec-manchester-airports-leak",
+      "title": "맨체스터 공항그룹, 랜섬 거부 후 880만 명 데이터 유출",
+      "summary": "FulcrumSec이 맨체스터 공항그룹에서 탈취했다고 주장하는 약 550GB 데이터를 유출했다.",
+      "source": "TLDR Infosec Links",
+      "url": "https://links.tldrnewsletter.com/whfUA2",
+      "report": {
+        "what": "MAG가 랜섬 지불을 거부하자 공격 조직 FulcrumSec이 약 880만 명에 영향을 미치는 데이터를 유출한 것으로 전해졌다.",
+        "points": [
+          "약 550GB 데이터 유출 주장",
+          "맨체스터 공항그룹(MAG)이 랜섬 지불 거부"
+        ],
+        "why": [
+          "랜섬 거부 후 대규모 유출로 이어진 사례로, 협상 전략에 대한 논쟁을 재점화"
+        ],
+        "tldr": "FulcrumSec이 맨체스터 공항그룹에서 탈취했다고 주장하는 약 550GB 데이터를 유출했다."
+      }
+    },
+    {
+      "id": "infosec-nrw-data-breach",
+      "title": "내추럴 리소시스 웨일스, 전·현직 직원 개인정보 유출 통지",
+      "summary": "내추럴 리소시스 웨일스가 2013년 4월~2018년 3월 재직자의 다양성 모니터링 데이터가 담긴 스프레드시트 유출을 공개했다.",
+      "source": "Natural Resources Wales",
+      "url": "https://naturalresources.wales/about-us/news-and-blogs/news/statement-notice-of-personal-data-breach-affecting-former-and-current-employees/?lang=en&utm_source=tldrinfosec",
+      "report": {
+        "what": "기관은 공식 성명을 통해 유출 사실을 알리고 영향받은 인원에게 통지 절차를 진행 중이라고 밝혔다.",
+        "points": [
+          "2013년 4월~2018년 3월 재직자 대상",
+          "다양성 모니터링 데이터가 담긴 스프레드시트 유출"
+        ],
+        "why": [
+          "오래된 인사 데이터도 장기간 뒤 유출 위험에 노출될 수 있음을 보여주는 사례"
+        ],
+        "tldr": "내추럴 리소시스 웨일스가 2013년 4월~2018년 3월 재직자의 다양성 모니터링 데이터가 담긴 스프레드시트 유출을 공개했다."
+      }
+    }
+  ]
+}
