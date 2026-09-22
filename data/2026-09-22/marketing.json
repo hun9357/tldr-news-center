@@ -1,0 +1,189 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "mkt-influencer-briefs-mid-tier-creators",
+      "title": "인플루언서 브리핑의 60~70%, 이제 중간급 크리에이터 선호",
+      "summary": "팔로워 수보다 측정 가능한 성과가 중요해지며 5만~50만 팔로워 크리에이터가 더 낮은 CPV로 선택받고 있다.",
+      "source": "Storyboard18",
+      "url": "https://www.storyboard18.com/influencer-marketing/60-70-of-influencer-briefs-now-favour-mid-tier-creators-as-brands-question-cost-of-mega-influencers-ws-o-111028.htm?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "브랜드들이 팔로워 수보다 참여도와 측정 가능한 성과를 중시하면서 중간급 크리에이터를 선호하는 추세다.",
+        "what": "5만~50만 팔로워 크리에이터는 더 낮은 CPV를 제공할 수 있으며, 과거 조회수·시청시간·오디언스 적합성이 갈수록 가격 결정에 영향을 미치고 있다. 메가 크리에이터는 대규모 도달이나 문화적 영향력을 제공할 때만 여전히 프리미엄을 받는다.",
+        "points": [
+          "5만~50만 팔로워 크리에이터가 낮은 CPV로 선호도 상승",
+          "과거 조회수·시청시간·오디언스 적합성이 가격 결정에 중요해짐",
+          "메가 인플루언서는 대규모 도달·문화적 영향력 있을 때만 프리미엄 유지"
+        ]
+      }
+    },
+    {
+      "id": "mkt-bullish-on-chatgpt-ads",
+      "title": "\"챗GPT 광고에 낙관적인 이유\"…200일 만에 연환산 매출 10억 달러",
+      "summary": "답변과 광고를 분리하고 명확히 표시하면 초기 구글 애드워즈처럼 효과적 광고 모델이 될 수 있다는 분석이다.",
+      "source": "Vincent Schmalbach",
+      "url": "https://www.vincentschmalbach.com/why-i-am-bullish-on-chatgpt-ads/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "오픈AI가 답변과 광고를 분리하고 명확히 라벨링을 유지한다면 초기 구글 애드워즈와 유사한 효과적 광고 모델을 구축할 수 있다는 분석이다.",
+        "what": "챗GPT 광고는 200일도 안 돼 연환산 매출 10억 달러에 도달해, 포맷이 완전히 성숙하기 전부터 강한 광고주 수요를 보여준다. 러닝화, 여행, 가격 비교는 사용자들이 구글 대신 챗GPT로 상업적 의사결정을 조사하기 시작하면서 특히 유망한 카테고리로 꼽힌다.",
+        "points": [
+          "답변-광고 분리 및 명확한 라벨링이 관건",
+          "출시 200일 만에 연환산 매출 10억 달러 도달",
+          "러닝화·여행·가격비교 카테고리가 특히 유망"
+        ]
+      }
+    },
+    {
+      "id": "mkt-10-ways-brag-customers",
+      "title": "고객 자랑, 로고 나열보다 '스토리'와 '스턴트'로",
+      "summary": "딜은 스눕독을 고객으로 내세우고 힌지는 실제 커플 이야기로 소설을 만들었으며 쇼피파이는 라스베이거스 스피어를 밝혔다.",
+      "source": "marketingideas.com",
+      "url": "https://www.marketingideas.com/p/10-unconventional-ways-to-brag-about?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "고객 레퍼런스는 로고를 나열하는 것보다 하나의 이야기나 스턴트로 제시할 때 더 강하게 와닿는다.",
+        "what": "딜은 스눕독을 고객사로 내세우고, 힌지는 실제 커플들의 사연을 바탕으로 소설을 의뢰했으며, 쇼피파이는 모든 머천트의 첫 판매를 기념해 라스베이거스 스피어를 밝혔다. '너무 앞서간다'는 1점짜리 리뷰를 광고로 전환하거나 로고 아래 '고객 시작일'을 표시하는 등 작은 규모에서도 통하는 방식이 있다.",
+        "points": [
+          "로고 나열보다 스토리·스턴트가 더 강한 임팩트",
+          "딜(스눕독), 힌지(커플 소설), 쇼피파이(라스베이거스 스피어) 사례",
+          "부정적 리뷰를 광고로 전환하거나 '고객 시작일' 표시 등 소규모 전술도 유효"
+        ]
+      }
+    },
+    {
+      "id": "mkt-great-products-need-great-stories",
+      "title": "\"좋은 제품에도 좋은 이야기가 필요하다\"",
+      "summary": "VisiCalc가 애플 II를 팔리게 한 것처럼, 기술 역량이 아닌 인간적 결과로 제품을 설명해야 한다는 조언이다.",
+      "source": "Quiet Moats",
+      "url": "https://quietmoats.substack.com/p/great-products-need-great-stories?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "좋은 제품이라도 사람들이 일상 속에서 그 제품을 어떻게 쓸지 그려볼 수 있는 강력한 이야기가 필요하다.",
+        "what": "기술적 역량보다 고객 경험을 앞세우고 제품이 만들어내는 인간적 결과를 보여줘야 한다. VisiCalc는 애플 II를 사야 할 명확한 이유를 제공했고, 테슬라는 자율주행을 단순히 강조하기보다 장거리 여행을 덜 피곤하게 만드는 이야기로 FSD를 프레이밍할 수 있다는 예시가 제시됐다.",
+        "points": [
+          "기술 역량보다 고객 경험과 인간적 결과를 앞세워야 함",
+          "VisiCalc 사례: 애플 II를 사야 할 명확한 이유 제공",
+          "테슬라 FSD를 '덜 피곤한 장거리 여행'으로 프레이밍하는 예시"
+        ]
+      }
+    },
+    {
+      "id": "mkt-ai-citation-outreach-workflow",
+      "title": "Semrush·클로드로 만드는 AI 인용 아웃리치 워크플로",
+      "summary": "AI 인용에 영향을 미치는 제3자 페이지를 찾아 우선순위를 매기고 아웃리치까지 연결하는 단계별 가이드다.",
+      "source": "Semrush Blog",
+      "url": "https://www.semrush.com/blog/ai-citation-outreach/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "이 가이드는 Semrush와 클로드 코드를 활용해 AI 인용과 브랜드 가시성에 영향을 미치는 제3자 페이지를 찾아 우선순위를 매기는 단계별 워크플로를 제공한다.",
+        "what": "인용 데이터를 추출하고, 클로드가 수백 개 페이지를 분석해 격차나 오류를 찾도록 설정하며, 추천 결과를 검증해 타깃 아웃리치로 전환하는 과정을 다룬다. 퍼블리셔 응답과 AI 인용 변화를 시간에 따라 추적해 아웃리치 효과를 측정하는 방법도 포함한다.",
+        "points": [
+          "Semrush로 인용 데이터 추출, 클로드로 수백 개 페이지 분석",
+          "격차·오류를 찾아 검증 후 타깃 아웃리치로 전환",
+          "퍼블리셔 응답과 AI 인용 변화를 시간 경과에 따라 추적"
+        ]
+      }
+    },
+    {
+      "id": "mkt-5-spicy-ai-marketing-takes",
+      "title": "AI 시대 마케팅에 대한 도발적 전망 5가지",
+      "summary": "AI가 마케터 수요를 줄이기보다 유통 필요 기업 증가로 상쇄되며, 채팅 광고와 오프라인 이벤트의 가치가 함께 커질 것이란 전망이다.",
+      "source": "jon4growth.substack.com",
+      "url": "https://jon4growth.substack.com/p/5-spicy-ai-marketing-takes?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI는 마케팅을 바꾸고 있지만 반드시 마케터 수요를 줄이는 것은 아니며, 팀 규모 축소는 유통이 필요한 사업 증가로 상쇄될 수 있다.",
+        "what": "LLM 사용이 늘면서 채팅 광고가 주요 광고 포맷으로 부상할 수 있고, 공유 저장소는 조직의 지식을 보존하며 AI에 더 나은 맥락을 제공할 수 있다. 직원이 만든 콘텐츠는 신뢰받는 목소리를 통해 브랜드 도달을 확장할 수 있으며, AI가 더 많은 디지털 상호작용을 처리할수록 인간적 연결과 거래 성사를 위한 오프라인(IRL) 이벤트의 가치는 오히려 커질 수 있다.",
+        "points": [
+          "팀 규모 축소는 유통 필요 기업 증가로 상쇄될 가능성",
+          "LLM 사용 증가로 채팅 광고가 주요 포맷으로 부상 가능",
+          "공유 저장소가 조직 지식 보존과 AI 맥락 제공에 기여",
+          "직원 생성 콘텐츠가 신뢰받는 목소리로 브랜드 도달 확장",
+          "오프라인 이벤트의 가치가 AI 시대에 오히려 상승 가능"
+        ]
+      }
+    },
+    {
+      "id": "mkt-chatgpt-ad-collector-tracking",
+      "title": "챗GPT, '애드 콜렉터'로 타 사이트 행동까지 추적",
+      "summary": "1년짜리 쿠키로 의료·부채 관련 페이지 경로까지 수집하지만 iOS 브라우저에서는 차단된다.",
+      "source": "buchodi.com",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "오픈AI의 광고 픽셀은 챗GPT 계정에 연결된 1년짜리 __obi 쿠키를 사용해, 광고주의 태그가 로드될 때 오픈AI로 데이터를 전송한다.",
+        "what": "해시된 이메일과 전화번호, 암호화되지 않은 도시·우편번호, 의료·부채 관련 주제가 포함된 페이지 경로까지 수집한다. 로그아웃 상태 사용자에게도 작동하지만 안드로이드 크롬에서만 동작하는 것으로 보이며, iOS 브라우저에서는 차단된다.",
+        "points": [
+          "1년짜리 __obi 쿠키로 챗GPT 계정과 광고 활동 연결",
+          "해시된 이메일·전화번호, 도시·우편번호(비암호화), 민감 주제 페이지 경로까지 수집",
+          "안드로이드 크롬에서만 동작, iOS 브라우저는 차단"
+        ],
+        "why": [
+          "챗GPT의 광고 확장이 프라이버시 측면에서 새로운 논쟁을 촉발할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "mkt-not-enough-usage-churn-habit-loop",
+      "title": "\"사용량 부족\"이 진짜 이탈 사유…깨진 습관 루프를 고쳐라",
+      "summary": "구독 앱 해지의 26~40%가 사용량 이탈이며, 할인보다 습관 루프가 끊긴 지점을 찾는 것이 해법이라는 분석이다.",
+      "source": "RevenueCat Blog",
+      "url": "https://www.revenuecat.com/blog/growth/not-enough-usage-churn?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "구독 앱 해지의 26~40%는 가격보다 지속적인 습관을 형성하지 못한 데서 비롯되는 '사용량 이탈'이 원인이다.",
+        "what": "기본값으로 할인을 제공하기보다 해지 전 참여도를 분석해 습관 루프가 어디서 끊기는지 찾아야 한다. 트리거가 약하면 시의적절한 재참여가 필요하고, 온보딩이 부실하거나 가치가 불분명하면 사용자가 더 빨리 의미 있는 결과에 도달하도록 도와야 한다. 사용량이 왜 떨어졌는지를 해결할 때 리텐션이 개선된다.",
+        "points": [
+          "구독 해지의 26~40%가 '사용량 부족'으로 인한 이탈",
+          "할인보다 해지 전 참여도 분석으로 습관 루프 단절 지점 파악",
+          "약한 트리거는 재참여로, 부실한 온보딩은 빠른 가치 도달 지원으로 대응"
+        ]
+      }
+    },
+    {
+      "id": "mkt-managing-ai-mandate-upward",
+      "title": "\"AI 지시를 위로 관리하기\"…성장 마케터의 새로운 역할",
+      "summary": "실무에 가까운 성장 마케터가 LLM 이해도 면에서 경영진보다 유리한 위치에 있다는 분석이다.",
+      "source": "Growth Memo",
+      "url": "https://www.growth-memo.com/p/managing-the-ai-mandate-upward?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "성장 마케터는 실무에 대한 근접성과 LLM에 대한 이해를 통해 경영진보다 우위에 있는 경우가 많다.",
+        "points": [
+          "실무 근접성이 성장 마케터의 강점",
+          "LLM 이해도 면에서 경영진 대비 우위 확보 가능"
+        ]
+      }
+    },
+    {
+      "id": "mkt-marketers-trust-human-over-ai-reports",
+      "title": "마케터, 오류율 높아도 AI보다 사람이 쓴 보고서 더 신뢰",
+      "summary": "검증 없이 AI 생성 보고서를 신뢰하는 마케터는 35%에 그친 반면 사람이 쓴 보고서는 64%였다.",
+      "source": "Adweek",
+      "url": "https://www.adweek.com/adweek-wire/marketers-twice-as-likely-to-trust-human-reports-over-ai-despite-higher-error-rates/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "마케터의 35%만이 검증 없이 AI 생성 보고서를 신뢰하는 반면, 사람이 작성한 보고서는 64%가 신뢰한다고 답했다.",
+        "points": [
+          "AI 생성 보고서를 검증 없이 신뢰하는 비율 35%",
+          "사람이 작성한 보고서 신뢰 비율은 64%로 약 2배"
+        ],
+        "why": [
+          "실제 오류율과 무관하게 신뢰도 인식에서 AI가 불리한 위치에 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "mkt-chatgpt-ads-5-best-practices-webinar",
+      "title": "오픈AI, 챗GPT 광고 캠페인 성공 노하우 웨비나 개최",
+      "summary": "9월 24일 오전 9시 30분(태평양시)에 챗GPT 광고팀이 캠페인 제작 모범사례 5가지를 라이브 데모로 소개한다.",
+      "source": "OpenAI Webinar",
+      "url": "https://webinar.openai.com/launch-your-first-chatgpt-ads-campaign/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "오픈AI 챗GPT 광고팀이 성과를 내는 캠페인 제작을 위한 5가지 모범사례를 소개하는 무료 웨비나를 9월 24일 오전 9시 30분(태평양시)에 연다.",
+        "what": "가이드와 라이브 데모를 통해 이런 모범사례가 애즈 매니저에서 실제로 어떻게 구현되는지 보여줄 예정이다.",
+        "points": [
+          "9월 24일 오전 9시 30분(PT) 무료 웨비나",
+          "챗GPT 광고 캠페인 제작 모범사례 5가지 소개",
+          "라이브 데모로 애즈 매니저 실제 활용법 시연"
+        ]
+      }
+    }
+  ]
+}

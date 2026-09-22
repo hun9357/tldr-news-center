@@ -1,0 +1,232 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-googlebooks-launch-october-4",
+      "title": "구글북스, 10월 4일 899달러부터 출시…5개 모델 사전예약 시작",
+      "summary": "안드로이드 기반 프리미엄 노트북 '구글북스'가 크롬북과 달리 고가 라인업으로 시장에 나온다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "구글의 신형 안드로이드 기반 구글북스 노트북은 프리미엄 하드웨어, 온디바이스 앱, 강력한 개발 도구를 갖춘 '진짜' 컴퓨터를 지향한다.",
+        "what": "여러 OEM을 통해 첫 구글북스가 출시됐으며, 대부분 보급형이었던 크롬북과 달리 구글북스는 1000달러 미만 모델이 단 하나뿐일 만큼 훨씬 높은 가격대로 책정됐다. 제미나이 모델이 소프트웨어에 깊이 통합되며 AI가 구글북스 경험의 핵심 축을 이룬다.",
+        "points": [
+          "10월 4일 출시, 899달러부터 시작하는 5개 모델 사전예약 개시",
+          "크롬북과 달리 프리미엄 하드웨어 중심의 고가 라인업",
+          "1000달러 미만 모델은 단 하나뿐",
+          "제미나이 모델이 소프트웨어에 깊이 통합"
+        ]
+      }
+    },
+    {
+      "id": "tech-spacexai-grok-4-7-release",
+      "title": "스페이스X AI, 코딩·지식노동용 그록 4.7 출시",
+      "summary": "커서, 그록 빌드, API, 서드파티 코딩 하네스 등 여러 경로에서 바로 사용할 수 있다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/spacexai-releases-grok-4-7-for-coding-and-knowledge-work/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "스페이스XAI가 코딩과 지식노동을 위한 그록 4.7을 출시했으며, 커서·그록 빌드·그록 API·서드파티 코딩 하네스·모델 라우터·클라우드 플랫폼 등에서 즉시 사용할 수 있다.",
+        "what": "가격은 입력 100만 토큰당 2달러, 출력 100만 토큰당 6달러부터 시작하며, 출력 속도가 2배인 '패스트' 버전은 가격도 2배다.",
+        "points": [
+          "커서, 그록 빌드, API, 서드파티 하네스 등에서 즉시 접근 가능",
+          "입력 $2/출력 $6(100만 토큰) 기준 가격 책정",
+          "출력 속도 2배·가격 2배의 '패스트' 버전도 제공"
+        ],
+        "context": "오늘 TLDR AI, TLDR Dev 에디션에서도 그록 4.7 출시 소식을 다룬다."
+      }
+    },
+    {
+      "id": "tech-rocket-supply-crunch",
+      "title": "로켓 공급난 심화…우주행 '합승'이 더 어려워진다",
+      "summary": "다수의 개발 중인 로켓이 일정 지연을 겪는 가운데 스페이스X는 팰컨9 공유 미션 판매를 중단했다.",
+      "source": "TLDR",
+      "url": "https://links.tldrnewsletter.com/BGxQjD",
+      "report": {
+        "tldr": "다수의 개발 중인 로켓이 일정 지연을 겪고 있으며 여러 미션의 가격이 상승하고 있다.",
+        "what": "스페이스X는 신형 스타십 개발에 집중하기 위해 팰컨9을 단계적으로 축소하고 있으며, 여러 기업이 팰컨9 한 대를 나눠 쓰는 합승 미션 판매를 중단했다. 발사 수요가 최소 이번 10년 말까지 공급을 초과할 것으로 예상된다.",
+        "points": [
+          "다수 개발 중 로켓의 일정 지연, 미션 가격 상승",
+          "스페이스X, 스타십 집중을 위해 팰컨9 축소",
+          "팰컨9 합승 미션 판매 중단",
+          "발사 수요가 이번 10년 말까지 공급 초과 전망"
+        ]
+      }
+    },
+    {
+      "id": "tech-agility-robotics-goes-public",
+      "title": "애질리티 로보틱스, 미국 첫 휴머노이드 기업으로 상장",
+      "summary": "처칠캐피털XI와의 합병으로 25억 달러 프리머니 밸류에이션을 인정받았다.",
+      "source": "Tanay Jaipuria",
+      "url": "https://www.tanayj.com/p/agility-robotics-inside-the-first?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "애질리티 로보틱스가 마이클 클라인의 처칠캐피털XI와의 합병을 통해 25억 달러 프리머니 밸류에이션으로 상장한다.",
+        "what": "이 회사의 로봇은 현재 일부 현장에서 토트 이동, 라인 피딩, 기계 관리 등의 작업을 수행하고 있으며, 올해 말 출시될 디짓 v5는 케이지·워크셀이 아닌 사람과 나란히 작업할 수 있고 고속 충전, 더 높은 적재량, 교체 가능한 엔드 이펙터까지 지원할 예정이다.",
+        "points": [
+          "처칠캐피털XI와의 합병으로 25억 달러 프리머니 밸류에이션",
+          "현재 토트 이동·라인 피딩·기계 관리 등에 로봇 투입 중",
+          "연말 출시될 디짓 v5는 사람과 나란히 작업 가능, 고속 충전·교체형 엔드 이펙터 지원"
+        ],
+        "why": [
+          "미국 휴머노이드 로봇 기업의 첫 상장 사례로 업계 이정표가 될 전망"
+        ]
+      }
+    },
+    {
+      "id": "tech-jev-system-one-decision-models",
+      "title": "Jev가 연 새로운 LLM 형태: '시스템원' 판단모델",
+      "summary": "텍스트 대신 카테고리·Yes/No·평점에 해당하는 부동소수점 수치만 반환하는 극도로 저렴한 모델이다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Sep/21/jev/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Jev는 텍스트 입력을 받지만 카테고리, Yes/No 질문, 평점, 관련 신뢰도 점수에 해당하는 부동소수점 수치만 반환하는 '시스템원 모델'이라는 새로운 범주의 모델이다.",
+        "what": "속도가 빠르고 매우 저렴해 출력은 무료, 입력은 100만 토큰당 0.042달러 수준이다. 출시된 지 일주일이 채 안 됐지만 이를 둘러싼 활동량은 상당히 인상적이다.",
+        "points": [
+          "텍스트 대신 부동소수점 수치(카테고리·Yes/No·평점·신뢰도)만 반환",
+          "출력은 무료, 입력은 100만 토큰당 0.042달러 수준의 초저가",
+          "출시 일주일이 채 안 돼 활발한 생태계 반응"
+        ],
+        "context": "오늘 TLDR Dev 에디션의 'Jev 아키텍처 분석', TLDR IT 에디션의 'Jev, 버셀 최고속 채택' 기사와 함께 보면 좋다."
+      }
+    },
+    {
+      "id": "tech-summer-of-ai-optimization",
+      "title": "AI가 이끈 '최적화의 여름', 오픈소스 프로젝트 속속 가속",
+      "summary": "잘 알려졌지만 리스크 탓에 시도되지 않았던 최적화 기법들이 AI 덕분에 저비용으로 실험되고 있다.",
+      "source": "Lemire.me",
+      "url": "https://lemire.me/blog/2026/09/22/a-summer-of-ai-optimization/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "여러 오픈소스 프로젝트가 최근 AI의 도움으로 최적화되며 더 빠르게 동작하기 시작했다.",
+        "what": "이런 최적화에 사용된 기법 자체는 이미 잘 알려진 것들이지만, 리스크가 커서 개발자들이 시도를 꺼렸을 가능성이 크다. AI가 새로운 아이디어를 시험하는 비용을 낮추면서 이런 시도가 늘어났다.",
+        "points": [
+          "여러 오픈소스 프로젝트가 AI 보조로 최적화되며 속도 향상",
+          "사용 기법은 이미 알려졌으나 리스크로 인해 미시도됐던 것들",
+          "AI가 실험 비용을 낮춰 더 많은 최적화 시도를 가능케 함"
+        ],
+        "context": "오늘 TLDR Dev 에디션에서 동일 벤치마크를 더 자세히 다룬다."
+      }
+    },
+    {
+      "id": "tech-business-of-building-god",
+      "title": "\"신을 만드는 사업\"…AI 랩의 확장 전략과 그 한계",
+      "summary": "AI가 고용·사회·문화를 바꿀 것이 유력하지만, 이를 둘러싼 사업은 여전히 평범한 제약에 종속된다는 분석이다.",
+      "source": "Strange Loop Canon",
+      "url": "https://www.strangeloopcanon.com/p/the-business-of-building-god?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI가 고용, 사회, 문화, 세계를 바꿀 가능성이 매우 높지만, 그 위에 세워지는 사업들은 여전히 평범한 제약에 종속된다는 분석이다.",
+        "what": "머지않아 불가능한 문제를 풀고 새로운 혁신을 돕는 초지능이 등장하겠지만, 이는 채워야 할 많은 새로운 틈새시장을 열어줄 것이라는 전망이다.",
+        "points": [
+          "AI가 고용·사회·문화 전반을 바꿀 가능성이 매우 높음",
+          "그럼에도 AI 기반 사업은 평범한 경제적 제약에서 자유롭지 않음",
+          "초지능 등장이 새로운 틈새시장을 다수 열어줄 것이라는 전망"
+        ],
+        "context": "오늘 TLDR AI 에디션의 심층 분석 '신을 만드는 사업'과 같은 글이다."
+      }
+    },
+    {
+      "id": "tech-google-infiltrated-teampcp-supply-chain",
+      "title": "구글 언더커버 분석가, 공급망 해킹조직 TeamPCP에 잠입",
+      "summary": "수백 개 오픈소스 프로그램을 오염시키고 1000여 개 기업을 침해한 조직을 내부에서 감시해 차단으로 이끌었다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/09/an-undercover-google-analyst-infiltrated-a-notorious-supply-chain-hacking-gang/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "TeamPCP로 알려진 해킹조직은 수백 개의 오픈소스 프로그램에 악성코드를 심고 개발자 계정을 탈취해 소프트웨어 공급망 해킹을 이어갔으며, 이를 자동화하기 위해 듄을 테마로 한 웜까지 공개해 결국 1000여 개 기업을 침해했다.",
+        "what": "이 조직의 활동이 절정에 달했을 때 구글의 언더커버 연구원이 조직에 잠입해 해킹 스프리를 내부에서 감시하고, 피해 대상에게 경고하며, TeamPCP의 피해자 공략 시도를 차단하는 데 기여했다.",
+        "points": [
+          "수백 개 오픈소스 프로그램에 악성코드 삽입, 개발자 계정 탈취",
+          "듄 테마 웜으로 공급망 해킹 자동화, 1000여 개 기업 침해",
+          "구글 언더커버 연구원이 조직 내부에 잠입해 감시·차단 지원"
+        ],
+        "context": "오늘 TLDR InfoSec 에디션에서 같은 사건을 다룬다."
+      }
+    },
+    {
+      "id": "tech-frontier-overhangs",
+      "title": "'프론티어 오버행'…프론티어 랩이 속도 조절을 하는 이유",
+      "summary": "프론티어 페이스 조절이 랩이 직면한 여러 문제를 동시에 해결하는 전략이라는 분석이다.",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/frontier-overhangs/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "프론티어 랩이 모델 출시 페이스를 조절하는 것은 랩이 직면한 여러 개별 문제를 동시에 해결하는 전략이라는 분석이다.",
+        "points": [
+          "프론티어 페이스 조절이 여러 문제를 한꺼번에 다루는 전략으로 해석됨"
+        ]
+      }
+    },
+    {
+      "id": "tech-meta-muse-outpacing-chatgpt-mobile",
+      "title": "메타 뮤즈, 챗GPT 초기 모바일 흥행 능가",
+      "summary": "출시 첫 12일간 미국·캐나다 다운로드가 챗GPT의 초기 12일 기록을 넘어섰다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/21/metas-muse-is-outpacing-chatgpts-early-mobile-launch/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "메타의 모바일 앱 뮤즈는 출시 첫 12일간 미국·캐나다에서 챗GPT가 데뷔 후 12일간 기록한 다운로드 수를 넘어섰다.",
+        "points": [
+          "출시 첫 12일 미국·캐나다 다운로드가 챗GPT 초기 기록 상회"
+        ],
+        "context": "오늘 TLDR AI 에디션의 '메타 뮤즈, 다운로드 1위' 기사와 이어지는 소식이다."
+      }
+    },
+    {
+      "id": "tech-why-didnt-google-build-muse",
+      "title": "\"구글은 왜 뮤즈를 만들지 못했나\"",
+      "summary": "구글 검색 내 개인비서 AI 등장이 불과 몇 달 앞으로 다가왔을 수 있다는 관측이다.",
+      "source": "Spyglass",
+      "url": "https://spyglass.org/why-didnt-google-build-muse/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "메타의 뮤즈 흥행을 계기로, 구글 검색 내에 개인비서형 AI가 등장하는 것이 불과 몇 달 앞으로 다가왔을 수 있다는 관측이 나온다.",
+        "points": [
+          "메타 뮤즈 흥행이 구글의 개인비서 AI 출시를 앞당길 수 있다는 관측"
+        ]
+      }
+    },
+    {
+      "id": "tech-dlab-open-source-week-hardware",
+      "title": "'내 손 안의 하드웨어에서 프론티어 AI를'…dlab 오픈소스 위크",
+      "summary": "한때 접근 불가능했던 모델들이 개인이 이미 보유한 하드웨어에서 구동될 수 있는 단계로 접어들고 있다.",
+      "source": "Tim Dettmers",
+      "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "한때 접근 불가능했던 프론티어급 모델들이 사람들이 이미 보유한 하드웨어에서 구동되기 시작하는 단계에 접어들고 있다.",
+        "points": [
+          "개인 소유 하드웨어로 프론티어급 모델 구동 가능성 확대"
+        ],
+        "context": "오늘 TLDR AI, TLDR Dev 에디션에서도 dlab 오픈소스 위크를 다룬다."
+      }
+    },
+    {
+      "id": "tech-meta-ai-agent-blocked-amazon",
+      "title": "메타 AI 에이전트, 아마존 접근 차단당해",
+      "summary": "아마존 이용약관이 인가받지 않은 AI 에이전트의 지속적 접근을 허용하지 않는다는 이유다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/21/metas-ai-agent-has-been-blocked-from-using-amazon-com/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "아마존의 이용약관이 인가받지 않은 AI 에이전트의 지속적인 접근을 허용하지 않는다는 이유로, 메타의 AI 에이전트가 아마존닷컴 이용에서 차단됐다.",
+        "points": [
+          "아마존 이용약관 위반을 이유로 메타 AI 에이전트 접근 차단"
+        ],
+        "why": [
+          "빅테크 간 에이전틱 커머스를 둘러싼 플랫폼 접근권 갈등이 본격화되고 있음을 보여줌"
+        ],
+        "context": "오늘 TLDR AI 에디션의 '메타 뮤즈' 기사에서 언급된 아마존의 뮤즈 차단 조치와 같은 맥락이다."
+      }
+    },
+    {
+      "id": "tech-markdown-in-src-agentic",
+      "title": "'/src 안의 마크다운'…에이전틱 코딩이 문서를 소스코드로 바꾼다",
+      "summary": "마크다운이 전통적 소스코드와 닮은 여러 특성을 갖고 있어 실행 가능한 명세로 자리잡고 있다는 분석이다.",
+      "source": "htmx.org",
+      "url": "https://htmx.org/essays/markdown-in-src/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "마크다운은 전통적인 소스코드와 유사한 여러 특성을 갖고 있어, 에이전틱 코딩 환경에서 실행 가능한 명세로 자리잡고 있다.",
+        "points": [
+          "마크다운이 소스코드와 유사한 특성으로 실행 가능한 명세로 활용됨"
+        ],
+        "context": "오늘 TLDR Dev 에디션에서 이 주제를 더 깊이 다룬다."
+      }
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-jev-vercel-fastest-adopted",
+      "title": "'Jev', 버셀 AI 게이트웨이 역대 최고속 채택 모델로",
+      "summary": "텍스트 대신 구조화된 소프트웨어 판단을 내리는 타입세이프 AI의 신모델 Jev가 버셀 AI 게이트웨이 역사상 가장 빠르게 채택됐다.",
+      "source": "Vercel Blog",
+      "url": "https://vercel.com/blog/ai-gateway-jev-model-launch?utm_source=tldrit",
+      "report": {
+        "tldr": "Jev는 텍스트 생성 대신 구조화된 소프트웨어 판단을 내리는 타입세이프 AI의 신모델로, 버셀 AI 게이트웨이 역사상 가장 빠르게 채택된 모델이 됐다.",
+        "what": "출시 24시간 만에 유료 팀의 약 13%가 이를 사용했으며, 이는 에이전트 라우팅·검증·워크플로 판단을 전담하는 특화 모델에 대한 수요가 커지고 있음을 보여준다.",
+        "points": [
+          "텍스트 생성이 아닌 구조화된 판단을 반환하는 모델",
+          "출시 24시간 내 버셀 유료 팀의 약 13%가 채택",
+          "에이전트 라우팅·검증·워크플로 판단 수요 증가를 반영"
+        ],
+        "context": "오늘 TLDR Dev 에디션의 'Jev 아키텍처 분석', TLDR AI 에디션의 'AI, if문까지 대체' 기사와 같은 흐름이다."
+      }
+    },
+    {
+      "id": "it-nvidia-dsx-ready-certification",
+      "title": "엔비디아, AI 데이터센터 전력·냉각 인증 프로그램 'DSX Ready' 출시",
+      "summary": "대형 AI 팩토리용 전력·냉각 시스템을 인증하는 프로그램으로, 갈수록 빠듯해지는 전력·냉각·용수·전력망 제약에 대응한다.",
+      "source": "Nvidia Blog",
+      "url": "https://blogs.nvidia.com/blog/dsx-ready/?utm_source=tldrit",
+      "report": {
+        "tldr": "엔비디아가 대형 AI 팩토리용 전력·냉각 시스템을 인증하는 DSX Ready 프로그램을 출시했다.",
+        "what": "데이터센터 운영사들이 AI 인프라 확장 과정에서 마주하는 전력, 냉각, 용수, 전력망 제약을 관리하도록 돕는 것이 목표다.",
+        "points": [
+          "대형 AI 팩토리 대상 전력·냉각 시스템 인증 프로그램",
+          "전력·냉각·용수·전력망 제약 관리 지원이 목표"
+        ]
+      }
+    },
+    {
+      "id": "it-revoking-token-didnt-kill-backdoor",
+      "title": "\"토큰 폐기로는 백도어 못 없앤다\"…신원 계층 중심 대응 필요성",
+      "summary": "OAuth 토큰 폐기 같은 전통적 사고대응은 자격증명 전체를 동적으로 교체하는 임플란트 앞에서 무력화된다는 분석이다.",
+      "source": "CSO Online",
+      "url": "https://www.csoonline.com/article/4223975/revoking-the-token-didnt-kill-the-backdoor.html?utm_source=tldrit",
+      "report": {
+        "tldr": "OAuth 토큰 폐기 같은 전통적 사고대응 절차는 단일 원격 작업으로 자격증명 전체와 원드라이브 C2 신원까지 동적으로 교체할 수 있는 임플란트 앞에서는 통하지 않는다.",
+        "what": "조사관들은 토큰 폐기에만 의존하기보다 애플리케이션 등록 자체를 침해의 지속적 대상으로 취급하고, 클라우드 원격측정을 활용해 신원 계층에서 위협을 추적해야 한다.",
+        "points": [
+          "토큰 폐기만으로는 동적 자격증명 교체 임플란트를 제거할 수 없음",
+          "애플리케이션 등록을 침해의 '지속 객체'로 취급해야 함",
+          "클라우드 원격측정 기반 신원 계층 위협 추적 필요"
+        ]
+      }
+    },
+    {
+      "id": "it-who-owns-the-data",
+      "title": "\"데이터 소유권은 기술적 보관이 아니라 책임의 문제\"",
+      "summary": "데이터 오너십은 저장·이동이 아니라 비즈니스 의미·규칙·품질에 대한 책임 소재의 문제라는 분석이다.",
+      "source": "From Data 2 AI",
+      "url": "https://fromdata2ai.substack.com/p/who-owns-the-data?utm_source=tldrit",
+      "report": {
+        "tldr": "데이터 오너십은 기술적 보관이 아니라 비즈니스 의미, 규칙, 품질에 대한 책임의 문제다.",
+        "what": "여러 팀이 데이터를 저장·이동·소비하더라도 규칙과 지표를 정의할 책임은 비즈니스 이해관계자에게 있으며, 데이터 오너·데이터 스튜어드·데이터 커스터디언의 역할은 명확히 구분돼야 한다.",
+        "points": [
+          "데이터 오너십은 저장 위치가 아닌 책임 소재의 문제",
+          "데이터 오너·스튜어드·커스터디언 역할을 구분해야 함"
+        ]
+      }
+    },
+    {
+      "id": "it-vmware-smartnic-retreat",
+      "title": "VMware, 스마트닉 사업 조용히 철수",
+      "summary": "VMware가 하이퍼스케일 네트워킹을 온프레미스로 가져오려던 분산형 방화벽 스마트닉 판매를 중단했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/virtualization/2026/09/21/vmware-has-quietly-walked-back-its-smartnic-ambitions/5297654?utm_source=tldrit",
+      "report": {
+        "tldr": "VMware가 스마트닉용 분산형 방화벽 판매를 조용히 중단하며, 하이퍼스케일 네트워킹 모델을 온프레미스 사설 클라우드로 가져오려던 야심을 접었다.",
+        "what": "AMD·엔비디아 하드웨어와의 복잡한 마이크로코드 통합이 관건이었으나 인텔 칩에서 어려움을 겪었고, 일반 NIC의 성능 개선까지 겹치며 유료 고객 확보에 실패했다. 스마트닉 단독 판매는 종료됐지만, VMware의 Distributed Services Engine 자체는 Cloud Foundation 스위트 내에서 계속 지원된다.",
+        "points": [
+          "AMD·엔비디아 하드웨어와의 마이크로코드 통합에서 난항",
+          "인텔 칩 대응 어려움, 일반 NIC 성능 개선으로 경쟁력 상실",
+          "스마트닉 단독 판매는 종료, Distributed Services Engine은 Cloud Foundation 내 존속"
+        ]
+      }
+    },
+    {
+      "id": "it-fastly-ai-runtime-control",
+      "title": "패스틀리, 엔터프라이즈 AI용 런타임 컨트롤·방화벽 출시",
+      "summary": "패스틀리가 엣지 플랫폼에서 모델 접근·지출·라우팅·에이전트 상호작용을 관리하는 AI Runtime Control과 AI Firewall을 선보였다.",
+      "source": "Fastly Investor Relations",
+      "url": "https://investors.fastly.com/news-releases/news-release-details/fastly-launches-ai-firewall-and-ai-runtime-control-secure-and?utm_source=tldrit",
+      "report": {
+        "tldr": "패스틀리가 엣지 플랫폼에서 모델 접근, 지출, 라우팅, 에이전트 상호작용을 관리하는 AI Runtime Control과 AI Firewall을 출시했다.",
+        "what": "회사에 따르면 현재 자사 네트워크 트래픽의 절반 이상이 머신 생성 트래픽이라고 밝혔다.",
+        "points": [
+          "엣지에서 모델 접근·지출·라우팅·에이전트 상호작용 관리",
+          "네트워크 트래픽의 절반 이상이 머신 생성 트래픽이라고 밝힘"
+        ]
+      }
+    },
+    {
+      "id": "it-presidio-ai-infra-lab",
+      "title": "프레시디오, 엔터프라이즈 AI 인프라 테스트랩 'PATH' 고객 개방",
+      "summary": "델 서버와 엔비디아 B300·RTX PRO 6000 GPU를 갖춘 랩에서 프로덕션 배포 전 워크로드를 테스트할 수 있다.",
+      "source": "Presidio Newsroom",
+      "url": "https://www.presidio.com/who-we-are/newsroom-press/presidio-introduces-path-enterprise-ai-lab-for-public-customer-use/?utm_source=tldrit",
+      "report": {
+        "tldr": "프레시디오가 PATH AI 랩을 고객에 개방해, 사설 클라우드·퍼블릭 클라우드·네오클라우드 인프라에서 워크로드를 프로덕션 배포 전 테스트할 수 있게 했다.",
+        "what": "랩에는 엔비디아 B300, RTX PRO 6000 GPU를 탑재한 델 서버가 포함돼 있다.",
+        "points": [
+          "사설·퍼블릭·네오클라우드 인프라 워크로드를 사전 테스트 가능",
+          "엔비디아 B300, RTX PRO 6000 GPU 탑재 델 서버 포함"
+        ]
+      }
+    },
+    {
+      "id": "it-atlassian-synthetic-data-engine",
+      "title": "아틀라시안, 확장형 합성 데이터 엔진 '데이터 브루어리' 공개",
+      "summary": "지라·컨플루언스 등을 위한 현실적이고 관계적으로 정확한 대용량 합성 고객 데이터를 생성하는 엔진이다.",
+      "source": "Atlassian Blog",
+      "url": "https://www.atlassian.com/blog/how-we-build/how-atlassian-built-scalable-synthetic-data-engine?utm_source=tldrit",
+      "report": {
+        "tldr": "아틀라시안의 데이터 브루어리는 고볼륨·제품 형태·관계적으로 정확한 데이터셋을 생성하도록 설계된 확장형 합성 데이터 엔진이다.",
+        "what": "지라, 컨플루언스 같은 제품에 필요한 현실적인 고객 데이터를 유지보수 가능하고 확장 가능한 방식으로 엔지니어들에게 제공하는 문제를 해결한다.",
+        "points": [
+          "고볼륨·제품 형태·관계적 정확성을 갖춘 합성 데이터 생성",
+          "지라·컨플루언스 등 제품용 현실적 테스트 데이터 문제 해결"
+        ]
+      }
+    },
+    {
+      "id": "it-sumo-logic-observability-cost-control",
+      "title": "수모로직, 관측 데이터 비용 통제 기능 강화",
+      "summary": "인제스트 전 텔레메트리를 필터링·변환·라우팅할 수 있도록 Data Pipelines 제품을 업그레이드했다.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/sumo-logic-enhances-data-pipelines-advancing-its-ai-first-platform-to-lower-observability-and-security-tco-302884209.html?utm_source=tldrit",
+      "report": {
+        "tldr": "수모로직이 인제스트 전 텔레메트리를 필터링·변환·라우팅할 수 있도록 Data Pipelines 제품을 업그레이드했다.",
+        "what": "관측 저장 비용을 줄이는 동시에 AI 기반 운영을 위한 더 깨끗한 데이터를 준비하는 것이 목표다.",
+        "points": [
+          "인제스트 전 텔레메트리 필터링·변환·라우팅 지원",
+          "관측 저장 비용 절감과 AI 운영용 데이터 정제가 목표"
+        ]
+      }
+    },
+    {
+      "id": "it-ai-pilot-worst-judges",
+      "title": "\"최고 인재가 AI 파일럿의 최악의 심사위원\"…비전문가 테스트가 정답",
+      "summary": "AI 도구를 정확히 평가하려면 유능한 비전문가로 테스트하고 내부 정답 데이터로 채점해야 한다는 제언이다.",
+      "source": "hitesh.in",
+      "url": "https://hitesh.in/2026/best-people-worst-ai-judges/?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 도구를 정확히 평가하려면 유능한 비전문가로 테스트하고, 내부 정답 데이터를 기준으로 채점하며, 모델이 풀었는지 사람이 풀었는지를 엄격히 구분해 추적해야 한다.",
+        "points": [
+          "유능한 비전문가를 테스트 대상으로 삼아야 함",
+          "내부 정답 데이터 기준 채점 필요",
+          "모델 해결 여부와 인간 해결 여부를 엄격히 구분해야 함"
+        ]
+      }
+    },
+    {
+      "id": "it-rathat-android-malware",
+      "title": "AI 기반 신종 안드로이드 악성코드 'RatHat' 등장",
+      "summary": "가짜 앱 설치와 접근성 권한 획득을 유도하는 AI 기반 악성코드가 지머페리움에 의해 발견됐다.",
+      "source": "CNET",
+      "url": "https://www.cnet.com/tech/services-and-software/rathat-malware-attacks-android-phones/?utm_source=tldrit",
+      "report": {
+        "tldr": "모바일 보안업체 지머페리움이 사용자를 속여 가짜 애플리케이션을 설치하고 접근성 권한을 부여하게 만드는 신종 AI 기반 안드로이드 악성코드 'RatHat'을 발견했다.",
+        "points": [
+          "가짜 앱 설치·접근성 권한 부여를 유도하는 방식",
+          "지머페리움이 발견한 AI 기반 신종 악성코드"
+        ]
+      }
+    },
+    {
+      "id": "it-onprem-ai-token-factories",
+      "title": "온프레미스 AI '토큰 팩토리', 추론 비용 30~50% 절감 주장",
+      "summary": "카이터스가 MotusAI를 업그레이드해 온프레미스에서 에이전틱 AI 워크로드를 운영·거버넌스할 수 있도록 했다.",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/09/21/3365230/0/en/kaytus-upgrades-motusai-for-on-premises-agentic-ai-token-factories.html?utm_source=tldrit",
+      "report": {
+        "tldr": "카이터스가 MotusAI를 업그레이드해 기업이 온프레미스에서 에이전틱 AI 워크로드를 운영·거버넌스할 수 있도록 했다.",
+        "what": "토큰 운영 비용을 30~50% 절감할 수 있다고 주장한다.",
+        "points": [
+          "온프레미스에서 에이전틱 AI 워크로드 운영·거버넌스 지원",
+          "토큰 운영 비용 30~50% 절감 주장"
+        ]
+      }
+    }
+  ]
+}
