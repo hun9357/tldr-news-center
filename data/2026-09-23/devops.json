@@ -1,0 +1,249 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-prometheus-otel-survey",
+      "title": "Prometheus·OpenTelemetry 상호운용성 2026 설문 결과",
+      "summary": "OpenTelemetry 사용자 81명 설문에서 사용 편의성 평가가 3.1에서 3.6으로 올랐고, 인프라 메트릭에는 절반 가까이가 하이브리드 방식을 쓰는 것으로 나타났다.",
+      "source": "Prometheus",
+      "url": "https://prometheus.io/blog/2026/09/21/otel-prometheus-interoperability-survey/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Prometheus와 OTel의 병행 사용이 일반화되며 연동 경험이 개선됐다.",
+        "what": "Prometheus 프로젝트가 OpenTelemetry 사용자 81명을 대상으로 한 상호운용성 설문 결과를 발표했다. 사용 편의성 평점이 3.1에서 3.6으로 상승했으며, 인프라 메트릭에 하이브리드 방식을 쓰는 응답자가 절반에 가까웠다.",
+        "points": [
+          "OpenTelemetry 사용자 81명 대상 설문",
+          "사용 편의성 3.1 → 3.6 개선",
+          "인프라 메트릭은 절반 가까이 하이브리드 방식"
+        ],
+        "why": [
+          "관측성 스택 설계 시 두 생태계 병행을 전제로 할 근거",
+          "상호운용성 개선이 마이그레이션 부담을 낮춘다"
+        ]
+      }
+    },
+    {
+      "id": "devops-k8s-137-pvc-last-used",
+      "title": "쿠버네티스 v1.37, PVC 마지막 사용 시각 추적 기능 베타",
+      "summary": "기본 활성화된 베타 기능으로 PVC 사용 타임스탬프를 추적해, 고아 스토리지 리소스를 찾기 위한 별도 도구가 필요 없어졌다.",
+      "source": "Kubernetes",
+      "url": "https://kubernetes.io/blog/2026/09/21/kubernetes-v1-37-pvc-last-used-time/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "방치된 스토리지 정리가 쿠버네티스 기본 기능으로 쉬워진다.",
+        "what": "쿠버네티스 v1.37에서 PersistentVolumeClaim이 마지막으로 사용된 시각을 추적하는 기능이 베타로 기본 활성화됐다. 이를 통해 고아 스토리지 리소스를 식별하기 위한 커스텀 도구가 불필요해진다.",
+        "points": [
+          "v1.37에서 베타·기본 활성화",
+          "PVC 마지막 사용 시각 추적",
+          "고아 스토리지 식별용 커스텀 도구 불필요"
+        ],
+        "why": [
+          "사용하지 않는 볼륨 정리로 스토리지 비용 절감에 도움",
+          "클러스터 위생 관리 자동화가 쉬워진다"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-python-workers-ga",
+      "title": "클라우드플레어 Python Workers 정식 출시",
+      "summary": "클라우드플레어가 R2·D1 네이티브 바인딩과 FastAPI·Django·Flask 및 AI 라이브러리를 지원하는 프로덕션용 Python Workers를 정식 출시했다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/python-workers-ga/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "엣지 서버리스에서 파이썬이 정식 1급 언어가 됐다.",
+        "what": "클라우드플레어가 Python Workers를 정식(GA) 출시했다. R2와 D1에 대한 네이티브 바인딩을 제공하며 FastAPI, Django, Flask와 AI 라이브러리를 지원한다.",
+        "points": [
+          "Python Workers 정식 출시",
+          "R2·D1 네이티브 바인딩",
+          "FastAPI·Django·Flask 지원",
+          "AI 라이브러리 지원"
+        ],
+        "why": [
+          "파이썬 팀이 JS 전환 없이 엣지 서버리스를 쓸 수 있다",
+          "AI 워크로드의 엣지 배포 선택지가 늘어난다"
+        ]
+      }
+    },
+    {
+      "id": "devops-htmx-markdown-in-src",
+      "title": "HTMX 에세이: /src 안에 마크다운을",
+      "summary": "마크다운으로 아키텍처 결정을 기록하면 에이전트가 생성하는 소프트웨어의 '지속적인 의도의 원천'이 되며, 문서를 코드와 함께 diff·리뷰할 수 있다.",
+      "source": "HTMX",
+      "url": "https://htmx.org/essays/markdown-in-src/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 에이전트 시대에는 코드 옆 마크다운이 설계 의도의 원본이다.",
+        "what": "HTMX 에세이는 아키텍처 결정을 마크다운으로 소스 트리 안에 기록하자고 제안한다. 이렇게 하면 에이전트가 생성하는 소프트웨어의 지속적인 의도 원천이 되고, 문서가 코드와 함께 diff와 리뷰 대상이 된다.",
+        "points": [
+          "아키텍처 결정을 마크다운으로 /src에 보관",
+          "에이전트 생성 코드의 '의도의 원천' 역할",
+          "문서를 코드처럼 diff·리뷰 가능"
+        ],
+        "why": [
+          "AI 코딩 도구 활용 시 컨텍스트 관리 전략으로 유용하다"
+        ]
+      }
+    },
+    {
+      "id": "devops-what-sun-got-wrong",
+      "title": "브라이언 캔트릴: 썬이 잘못한 것",
+      "summary": "썬은 기술력은 강했지만 영업과 고객 서비스의 운영상 약점으로 무너졌으며, 2005년 한 스타트업이 하드웨어 구매에 애를 먹는 사이 델의 뛰어난 실행력이 거래를 가져갔다.",
+      "source": "DTrace (Bryan Cantrill)",
+      "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "기술 우위도 영업·서비스 실행력 없이는 지켜지지 않는다.",
+        "what": "브라이언 캔트릴은 썬 마이크로시스템즈의 기술적 강점이 영업과 고객 서비스의 운영상 약점 때문에 무력화됐다고 회고한다. 2005년 한 스타트업이 썬 하드웨어를 구하는 데 어려움을 겪는 동안 실행력이 뛰어난 델이 거래를 따낸 사례를 든다.",
+        "points": [
+          "썬의 약점은 기술이 아닌 영업·고객 서비스",
+          "2005년 스타트업의 하드웨어 구매 난항 사례",
+          "델의 실행력이 거래를 가져감"
+        ],
+        "why": [
+          "인프라 벤더 평가 시 기술 외 운영 역량도 중요함을 상기시킨다"
+        ]
+      }
+    },
+    {
+      "id": "devops-ci-pipeline-64-percent",
+      "title": "CI 파이프라인 시간 64% 단축: 프로덕션에서 실제로 효과 본 방법",
+      "summary": "한 팀이 테스트 스위트를 90% 늘리면서도 파이프라인 시간을 60분에서 22분으로 줄여, 지연과 재시도로 잃던 1,300시간 이상의 엔지니어 시간을 되찾았다.",
+      "source": "Platform Engineering",
+      "url": "https://platformengineering.org/blog/cutting-ci-pipeline-time-by-64-what-actually-works-in-production?utm_source=tldrdevops",
+      "report": {
+        "tldr": "하드웨어 업그레이드와 테스트 분리로 CI를 60분에서 22분으로 줄였다.",
+        "what": "한 팀이 테스트 스위트를 90% 확장하면서도 CI 파이프라인 시간을 60분에서 22분으로 단축했다. 하드웨어 업그레이드와 테스트 분리를 통해 지연과 재시도로 낭비되던 1,300시간 이상의 엔지니어 시간을 회수했다.",
+        "points": [
+          "파이프라인 60분 → 22분(64% 단축)",
+          "같은 기간 테스트 스위트 90% 증가",
+          "하드웨어 업그레이드와 테스트 분리가 핵심",
+          "1,300시간 이상 엔지니어 시간 회수"
+        ],
+        "why": [
+          "CI 최적화의 ROI를 수치로 보여주는 실무 사례",
+          "러너 사양 투자가 비용 대비 효과적일 수 있음을 시사"
+        ]
+      }
+    },
+    {
+      "id": "devops-google-ax",
+      "title": "구글 Ax: 쿠버네티스용 대규모 에이전트 오케스트레이터",
+      "summary": "쿠버네티스에서 수십억 개의 자율 에이전트 워크로드를 격리·비용 방지 기능과 함께 처리하는 고처리량 오케스트레이터로, 현재 활발히 개발 중이다.",
+      "source": "GitHub (Google)",
+      "url": "https://github.com/google/ax?utm_source=tldrdevops",
+      "report": {
+        "tldr": "구글이 에이전트 워크로드 전용 쿠버네티스 오케스트레이터를 공개했다.",
+        "what": "구글이 GitHub에 공개한 Ax는 쿠버네티스에서 수십억 단위의 자율 에이전트 워크로드를 처리하기 위한 고처리량 오케스트레이터다. 격리와 비용 폭주 방지 기본 기능을 갖췄으며 아직 활발히 개발 중이다.",
+        "points": [
+          "쿠버네티스 기반 에이전트 오케스트레이터",
+          "수십억 단위 워크로드 목표",
+          "격리·비용 방지 기본 기능",
+          "아직 개발 초기 단계"
+        ],
+        "why": [
+          "에이전트 워크로드가 인프라 계층의 새 범주로 자리잡고 있다",
+          "프로덕션 도입 전 성숙도 확인 필요"
+        ]
+      }
+    },
+    {
+      "id": "devops-treg-api-proxy",
+      "title": "Treg: 60개 이상 제공자의 API 3,000여 개를 묶은 통합 프록시",
+      "summary": "60개 이상 제공자의 3,000여 개 엔드포인트를 하나로 묶어 호출당 1센트부터의 종량제나 자체 키 연동으로 접근할 수 있는 통합 API 프록시다.",
+      "source": "GitHub",
+      "url": "https://github.com/superdesigndev/treg?utm_source=tldrdevops",
+      "report": {
+        "tldr": "여러 API 제공자를 하나의 종량제 프록시로 통합한다.",
+        "what": "Treg는 60개 이상 제공자의 3,000개 넘는 엔드포인트를 단일 API로 제공하는 프록시다. 호출당 1센트부터 시작하는 종량제로 쓰거나 사용자 자체 키를 연동할 수 있다.",
+        "points": [
+          "60개 이상 제공자, 3,000여 개 엔드포인트",
+          "호출당 1센트부터 종량제",
+          "자체 API 키 연동 옵션"
+        ],
+        "why": [
+          "에이전트·앱의 외부 API 통합 부담을 줄일 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-google-forrester-threat-intel",
+      "title": "구글, 포레스터 웨이브 외부 위협 인텔리전스 서비스 리더 선정",
+      "summary": "포레스터는 9개 기준 만점과 자율 분류·헌팅으로 위협을 139% 더 탐지한 Gemini 기반 에이전트를 근거로 구글을 리더로 선정했다.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/identity-security/google-named-a-leader-in-the-external-threat-intelligence-service-forrester-wave/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "구글의 Gemini 기반 위협 인텔리전스가 포레스터 리더로 평가받았다.",
+        "what": "구글이 포레스터 웨이브 외부 위협 인텔리전스 서비스 부문 리더로 선정됐다. 9개 기준에서 만점을 받았으며, Gemini 기반 에이전트가 자율 분류와 헌팅으로 139% 더 많은 위협을 탐지한 점이 인용됐다.",
+        "points": [
+          "포레스터 웨이브 외부 위협 인텔리전스 리더",
+          "9개 기준 만점",
+          "Gemini 에이전트로 위협 탐지 139% 증가"
+        ],
+        "why": [
+          "AI 에이전트 기반 위협 헌팅이 평가 기준으로 자리잡고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-microsoft-taugrid",
+      "title": "마이크로소프트, 쿠버네티스 AI 워크로드 관리 도구 TauGrid 오픈소스화",
+      "summary": "Kueue와 KubeRay 기반으로 GPU 스케줄링·큐잉·모니터링을 단일 Helm 설치로 통합한 AI 학습용 쿠버네티스 플랫폼이다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/09/microsoft-taugrid-open-source/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 학습 인프라 구성을 Helm 한 번으로 단순화한다.",
+        "what": "마이크로소프트가 쿠버네티스에서 AI 워크로드 관리를 단순화하는 TauGrid를 오픈소스로 공개했다. Kueue와 KubeRay 위에 구축돼 GPU 스케줄링, 큐잉, 모니터링을 단일 Helm 설치로 통합한다.",
+        "points": [
+          "TauGrid 오픈소스 공개",
+          "GPU 스케줄링·큐잉·모니터링 통합",
+          "단일 Helm 설치",
+          "Kueue·KubeRay 기반"
+        ],
+        "why": [
+          "GPU 클러스터 운영 팀의 구성 부담을 줄인다",
+          "쿠버네티스가 AI 학습 인프라 표준으로 굳어지는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "devops-tanstack-charts-alpha",
+      "title": "TanStack Charts 공개: TypeScript용 프레임워크 독립 그래픽 문법",
+      "summary": "AI 에이전트로 상당 부분 개발된 프레임워크 독립 차트 라이브러리로, React·Vue·Svelte에서 동작하며 Chart.js보다 번들이 작다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/09/tanstack-charts-alpha-introduced/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 에이전트로 만든 경량 프레임워크 독립 차트 라이브러리.",
+        "what": "TanStack이 TypeScript용 그래픽 문법(Grammar of Graphics) 기반 차트 라이브러리 TanStack Charts를 공개했다. 상당 부분을 AI 에이전트로 개발했으며 React, Vue, Svelte에서 동작하고 Chart.js보다 번들 크기가 작다.",
+        "points": [
+          "그래픽 문법 기반 TypeScript 차트 라이브러리",
+          "React·Vue·Svelte 지원",
+          "Chart.js보다 작은 번들",
+          "상당 부분 AI 에이전트로 개발"
+        ],
+        "why": [
+          "프레임워크 간 차트 코드 재사용이 가능해진다",
+          "AI 에이전트 기반 라이브러리 개발 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-ai-has-no-wisdom",
+      "title": "AI에는 지혜가 없고, 당신도 그렇게 될 것이다",
+      "summary": "LLM이 생성한 코드는 유지보수성에 대한 장기적 판단이 부족하며, 아키텍처 품질과 진화 가능성은 배포 후 수개월에서 수년이 지나야 드러난다.",
+      "source": "Alex N",
+      "url": "https://alexn.org/blog/2026/09/22/ai-has-no-wisdom-and-neither-will-you/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 코드의 진짜 비용은 수년 뒤 유지보수에서 드러난다.",
+        "what": "저자는 LLM이 생성한 코드가 유지보수성에 대한 장기적 판단을 결여하고 있다고 주장한다. 아키텍처의 품질과 진화 가능성은 배포 직후가 아니라 수개월에서 수년 뒤에야 나타나기 때문이다.",
+        "points": [
+          "LLM 코드는 장기 유지보수 판단이 부족",
+          "아키텍처 품질은 수개월~수년 뒤 드러남",
+          "개발자 판단력 약화에 대한 경고"
+        ],
+        "why": [
+          "AI 코딩 도입 시 설계 리뷰와 장기 관점의 검증이 필요하다"
+        ]
+      }
+    }
+  ]
+}

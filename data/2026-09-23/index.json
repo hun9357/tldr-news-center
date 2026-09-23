@@ -1,0 +1,46 @@
+{
+  "date": "2026-09-23",
+  "weekday": "수",
+  "headline": "앤트로픽 오퍼스 5.5·오픈AI GPT-6 Sol/Luna 한 시간 차 동시 출시…프런티어 모델 가격 전쟁 본격화",
+  "subtitle": "같은 날 시스코 탈로스는 여러 LLM이 투표로 다음 공격을 정하는 최초의 자율형 AI C2 임플란트 'Closed Quorum'을 분석했고, ShinyHunters는 PeopleSoft 제로데이로 FBI 채용 포털 2~3TB 탈취를 주장했다. Check Point 관리 서버 비인증 RCE(CVSS 9.8)와 메타 Muse 제로데이도 공개됐다.",
+  "keyword": "오퍼스 5.5 · GPT-6 Sol/Luna · 자율형 AI C2 · 공급망 공격",
+  "bigStoryId": "tech-opus-55-gpt6-sol-luna-price-war",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "devops",
+    "founders",
+    "hardware",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:10 CDT",
+  "syncedAt": "2026-09-23T14:10:00Z",
+  "stats": {
+    "companies": 54,
+    "security": 13,
+    "deals": 3,
+    "policy": 8
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "AI가 공격 루프 안으로 들어왔다: 자율형 C2·에이전트 표적 인포스틸러·Muse 제로데이",
+      "body": "시스코 탈로스가 분석한 Go 기반 윈도우 임플란트 'Closed Quorum'은 DeepSeek·Qwen·Mistral·Gemini에 5~15분마다 다음 행동을 투표시켜 자격 증명 탈취와 지속성 확보를 수행한다. 같은 날 Gen Digital은 AI 에이전트에 캐시된 자격 증명을 노리는 신종 인포스틸러를, 연구자들은 macOS 로컬 앱만으로 계정 토큰을 빼낼 수 있는 메타 Muse 제로데이를 공개했다. 탐지 단서는 예상치 못한 LLM API 트래픽과 프로세스 행위의 상관 분석으로 옮겨가고 있다."
+    },
+    {
+      "kind": "market",
+      "title": "프런티어 모델 단가 급락, 그러나 총지출은 줄지 않는다",
+      "body": "오퍼스 5.5는 오퍼스 5.0보다 토큰당 저렴하면서 페이블 5.1급 성능을 내고, GPT-6 Sol·Luna는 GPT-5.6 동급 프로모션 가격의 절반 수준으로 나왔다. Epoch AI는 동일 성능 비용이 3년간 분기당 약 47% 떨어졌지만 에이전트 사용 확대로 총지출은 높게 유지된다고 분석했다. 한편 50억 토큰을 쓰고 1.54달러를 번 에이전트 실험은 단가 하락이 곧 수익성을 뜻하지 않음을 보여준다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "① Check Point 관리 서버 CVE-2026-91843(CVSS 9.8) 패치와 관리 인터페이스 노출 점검. ② ShinyHunters의 FBI·PeopleSoft 제로데이 주장에 대한 오라클·FBI 공식 확인 여부. ③ Brevo SAML SSO 악용 공급망 공격(웹사이트 약 10만 곳)과 TanStack 침해 연쇄 피해(CrowdSec 저장소 170개) 추가 확산. ④ 오퍼스 5.5·GPT-6 Sol/Luna 실사용 벤치마크와 경쟁사 가격 대응. ⑤ 엔드포인트에서 비인가 LLM API 호출 모니터링 규칙 도입."
+    }
+  ]
+}

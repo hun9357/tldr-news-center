@@ -1,0 +1,280 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-opus-55-gpt6-sol-luna-price-war",
+      "title": "Claude Opus 5.5·GPT-6 Sol/Luna 동시 출시, 새 가격 전쟁",
+      "summary": "Anthropic과 OpenAI가 한 시간 간격으로 신모델을 내놓으며 가격 인하 경쟁이 본격화됐다.",
+      "source": "Simon Willison's Blog",
+      "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "프런티어 모델 경쟁의 축이 성능에서 가격으로 옮겨가고 있다.",
+        "what": "Anthropic과 OpenAI가 한 시간 안에 잇달아 신모델을 공개했다. OpenAI의 GPT-6 Sol·Luna는 GPT-5.6 동급 모델 프로모션 가격의 절반 수준이고, Opus 5.5는 Opus 5.0보다 토큰당 저렴하면서 Fable 5.1급 지능을 갖췄다.",
+        "points": [
+          "두 회사가 한 시간 간격으로 신모델 발표",
+          "GPT-6 Sol·Luna는 GPT-5.6 동급 프로모션 가격의 절반",
+          "Opus 5.5는 Opus 5.0보다 토큰당 저렴",
+          "Opus 5.5 성능은 Fable 5.1 수준"
+        ],
+        "why": [
+          "동일 성능 대비 API 비용이 빠르게 낮아져 에이전트형 활용의 경제성이 개선된다",
+          "모델 선택 기준에서 가격 비중이 커진다"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-screenless-fitness-tracker",
+      "title": "애플, 우프(Whoop) 겨냥한 화면 없는 피트니스 트래커 개발",
+      "summary": "애플이 스마트워치 라인업 재편의 일환으로 화면 없는 건강·피트니스 트래커를 개발 중이며 2028년 이전 출시는 어려울 전망이다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-22/apple-is-developing-new-fitness-tracker-aimed-at-rivaling-whoop?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MDEzNjYxNCwiZXhwIjoxNzkwNzQxNDE0LCJhcnRpY2xlSWQiOiJUTEg1UVhLSzNOWTkwMCIsImJjb25uZWN0SWQiOiJBOEExRDhFQTI5OTc0OTRGQTQ1QUE2REJBMjAwNTM3MSJ9.AtCpENNe4dQed0J88CommJlysQU47Ou9UWvQ6jtGh7c&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "애플이 워치 외의 저가·경량 웨어러블 폼팩터를 검토하고 있다.",
+        "what": "애플이 스마트워치 라인업을 재고하는 과정에서 화면 없는 건강·피트니스 트래커를 개발하고 있다. 프로젝트는 아직 초기 단계로 2028년 이전 출시 가능성은 낮다.",
+        "points": [
+          "화면 없는 밴드형 트래커로 Whoop과 경쟁 구도",
+          "스마트워치 라인업 재편의 일환",
+          "프로젝트는 초기 단계",
+          "출시는 2028년 이후 예상"
+        ],
+        "why": [
+          "상시 착용형 헬스 트래킹 시장에 애플이 진입하면 경쟁 구도가 바뀐다"
+        ]
+      }
+    },
+    {
+      "id": "tech-intrinsic-core-open-source",
+      "title": "Intrinsic, 로봇 플랫폼 핵심 기능 오픈소스 공개",
+      "summary": "Intrinsic이 ROS 호환 로봇 애플리케이션 구성 요소 모음인 Intrinsic Core를 오픈소스로 공개했다.",
+      "source": "The Robot Report",
+      "url": "https://www.therobotreport.com/intrinsic-open-sources-key-parts-platform-easier-development/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "로봇 행동의 빌딩 블록을 오픈소스로 풀어 개발 진입장벽을 낮춘다.",
+        "what": "Intrinsic Core는 로봇 애플리케이션 개발을 위한 ROS 호환 기능 세트다. 로봇 행동을 구성하는 빌딩 블록 역할을 하도록 설계됐다.",
+        "points": [
+          "Intrinsic Core를 오픈소스로 공개",
+          "ROS(Robot Operating System) 호환",
+          "로봇 행동의 빌딩 블록으로 활용"
+        ],
+        "why": [
+          "산업용 로봇 개발 생태계에서 재사용 가능한 공통 구성 요소가 늘어난다"
+        ]
+      }
+    },
+    {
+      "id": "tech-alzheimers-no-longer-untreatable",
+      "title": "대형 보고서 \"알츠하이머는 더 이상 치료 불가능한 병이 아니다\"",
+      "summary": "전 세계 수백 건의 임상시험과 조기 진단·질병 생물학 이해 향상이 환자 예후를 개선할 수 있다는 결론이 나왔다.",
+      "source": "ScienceAlert",
+      "url": "https://www.sciencealert.com/alzheimers-is-no-longer-an-untreatable-disease-major-report-concludes-heres-why?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "알츠하이머 대응이 조기 진단과 다각적 치료로 전환되고 있다.",
+        "what": "대형 보고서가 알츠하이머를 더 이상 치료 불가능한 질환으로 볼 수 없다고 결론지었다. 전 세계에서 수백 건의 임상시험이 약물과 개입법을 연구 중이며, 조기 진단과 질병 생물학 이해가 결합돼 예후를 개선할 수 있다는 것이다.",
+        "points": [
+          "전 세계 수백 건의 임상시험 진행 중",
+          "조기 진단의 중요성 강조",
+          "질병 생물학에 대한 이해 향상",
+          "여러 접근법이 누적적으로 결과 개선"
+        ],
+        "why": [
+          "고령화 사회에서 치매 치료 패러다임 변화는 의료·헬스테크 수요에 직접 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "tech-liteparse",
+      "title": "LiteParse: 로컬에서 도는 경량 PDF 파서",
+      "summary": "LlamaIndex의 LiteParse는 공간 정보와 바운딩 박스까지 추출하는 빠르고 가벼운 오픈소스 PDF 파싱 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/run-llama/liteparse?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "클라우드 없이 로컬에서 고품질 PDF 텍스트·레이아웃 추출이 가능하다.",
+        "what": "LiteParse는 빠르고 가벼운 파싱에 집중한 독립형 오픈소스 PDF 파서다. 공간적 텍스트 파싱과 바운딩 박스를 고품질로 제공하며 모든 처리를 로컬에서 수행한다.",
+        "points": [
+          "독립 실행형 오픈소스 PDF 파서",
+          "공간적 텍스트 파싱과 바운딩 박스 제공",
+          "모든 처리를 로컬에서 실행"
+        ],
+        "why": [
+          "RAG 파이프라인의 문서 전처리를 외부 API 없이 처리할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "tech-bug-blindness",
+      "title": "버그 불감증(Bug blindness)",
+      "summary": "개발자와 숙련 사용자는 비직관적 우회법에 익숙해져 버그를 보지 못하며, 비판에 열린 태도가 이를 극복하게 한다.",
+      "source": "Dan Luu's Blog",
+      "url": "https://danluu.com/bug-blind/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "익숙함이 제품 결함을 가린다.",
+        "what": "Dan Luu는 개발자와 고급 사용자가 비직관적인 우회 방법에 익숙해져 버그를 인식하지 못한다고 지적한다. 비판에 열려 있는 태도가 자기 작업의 결함을 발견하는 데 도움이 된다고 말한다.",
+        "points": [
+          "숙련 사용자는 우회법에 익숙해 버그를 못 봄",
+          "개발자도 같은 함정에 빠짐",
+          "외부 비판 수용이 결함 발견의 열쇠"
+        ],
+        "why": [
+          "사용자 피드백을 방어적으로 받으면 품질 문제를 놓치게 된다"
+        ]
+      }
+    },
+    {
+      "id": "tech-plunging-price-of-thought",
+      "title": "AI 성능 단가, 분기당 약 47% 하락",
+      "summary": "같은 수준의 AI 성능을 얻는 비용이 지난 3년간 분기마다 약 47%씩 떨어졌지만, 더 많은 에이전트를 돌리면서 총지출은 여전히 높다.",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/the-plunging-price-of-thought?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "단가 하락이 오히려 사용량 증가로 이어지는 제번스 역설이 나타나고 있다.",
+        "what": "Epoch AI 분석에 따르면 일정 수준의 AI 성능을 얻는 비용은 지난 3년간 분기당 약 47% 하락했다. 그러나 가격이 낮아지며 더 많은 에이전트를 운용하게 돼 전체 지출은 높은 수준을 유지한다.",
+        "points": [
+          "동일 성능 비용이 분기당 약 47% 하락",
+          "분석 기간은 최근 3년",
+          "저렴해진 가격이 에이전트 사용 확대로 이어짐",
+          "총지출은 여전히 높음"
+        ],
+        "why": [
+          "오늘의 Opus 5.5·GPT-6 가격 인하 흐름을 뒷받침하는 거시 데이터다"
+        ]
+      }
+    },
+    {
+      "id": "tech-defensive-driving-career",
+      "title": "커리어를 위한 방어 운전",
+      "summary": "정당한 인정 받기, 적절한 공개적 공로 표시, 레버리지 유지, 성공을 운으로 돌리는 사람 피하기를 조언한다.",
+      "source": "Stay SaaSy",
+      "url": "https://blog.staysaasy.com/p/defensive-driving-for-your-career?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "좋은 성과만큼 그 성과를 인정받는 방식도 관리해야 한다.",
+        "what": "Stay SaaSy는 커리어 성장을 위해 자신의 업적을 적절히 인정받고 공개적으로 공로를 챙기라고 조언한다. 또 레버리지를 유지하고 성공을 운으로 치부하는 사람을 멀리하라고 권한다.",
+        "points": [
+          "업적에 대한 적절한 인정 확보",
+          "공개적으로 공로를 적절히 표시",
+          "협상 레버리지 유지",
+          "성공을 운으로 돌리는 사람 회피"
+        ],
+        "why": [
+          "조직 내 가시성이 승진·보상에 직결된다"
+        ]
+      }
+    },
+    {
+      "id": "tech-mysteries-of-ai-generalization",
+      "title": "AI 일반화의 미스터리",
+      "summary": "AI가 왜, 어떻게 일반화하는지에 대해 우리는 여전히 잘 모른다는 글이다.",
+      "source": "Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/mysteries-of-ai-generalization?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 일반화의 원리는 아직 미해결 문제다.",
+        "what": "Astral Codex Ten은 AI 일반화 과정에서 무슨 일이 일어나는지 아직 제대로 이해하지 못하고 있다고 지적한다.",
+        "points": [
+          "AI 일반화 메커니즘은 여전히 불명확",
+          "연구 커뮤니티의 미해결 과제로 제시"
+        ],
+        "why": [
+          "일반화를 이해하지 못하면 모델 행동 예측과 안전성 확보가 어렵다"
+        ]
+      }
+    },
+    {
+      "id": "tech-analyzing-jev",
+      "title": "새 AI 모델 Jev 분석",
+      "summary": "Jev는 생성보다 분류에 쓰이는 BERT 계열과 유사한 모델이라는 분석이다.",
+      "source": "Senko's Blog",
+      "url": "https://blog.senko.net/analyzing-jev-a-new-ai-model?pk_campaign=rss-feed&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Jev는 생성형이 아닌 분류형 BERT 계열에 가깝다.",
+        "what": "새 AI 모델 Jev를 분석한 글이다. Jev는 텍스트 생성이 아니라 분류에 쓰이는 BERT 시리즈와 비슷한 구조라고 설명한다.",
+        "points": [
+          "Jev는 BERT 계열과 유사",
+          "생성보다 분류 용도",
+          "신규 모델 구조 분석"
+        ],
+        "why": [
+          "생성형 일색인 시장에서도 분류형 모델 수요가 이어지고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "tech-mundanity-of-excellence-fix-bugs",
+      "title": "탁월함의 평범함: 새 기능보다 버그 수정이 먼저인 이유",
+      "summary": "버그를 방치하면 이후 코드 개발의 기반이 불안정해지므로 버그 수정이 필수라는 주장이다.",
+      "source": "Probably Dance",
+      "url": "https://probablydance.com/2026/09/22/the-mundanity-of-excellence-small-wins-and-why-you-should-fix-bugs-before-writing-new-features/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "작은 개선의 누적이 탁월함을 만든다.",
+        "what": "새 기능을 작성하기 전에 버그부터 고쳐야 한다는 글이다. 버그를 남겨두면 이후 개발의 토대가 불안정해지며, 작은 승리의 누적이 탁월함으로 이어진다고 말한다.",
+        "points": [
+          "버그 방치는 불안정한 기반을 만듦",
+          "새 기능보다 버그 수정 우선",
+          "작은 승리의 누적 강조"
+        ],
+        "why": [
+          "오늘 Dan Luu의 버그 불감증 글과 함께 품질 문화의 중요성을 짚는다"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-worsens-gdp-estimates",
+      "title": "AI는 GDP 추정을 더 어렵게 만든다",
+      "summary": "품질 개선을 측정하기가 본질적으로 어려워 AI가 GDP 추정을 복잡하게 만들 것이라는 분석이다.",
+      "source": "Policy Gradients",
+      "url": "https://policygradients.thefai.org/p/ai-will-worsen-our-estimates-of-gdp?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI의 경제적 효과는 기존 통계로 포착하기 어렵다.",
+        "what": "AI가 GDP 추정을 더 어렵게 만들 것이라는 글이다. 품질 향상을 측정하는 것이 본질적으로 어렵기 때문에 AI로 인한 가치 변화가 통계에 제대로 반영되지 않을 수 있다.",
+        "points": [
+          "품질 개선 측정은 본질적으로 어려움",
+          "AI는 가격보다 품질을 크게 바꿈",
+          "GDP 통계 왜곡 가능성"
+        ],
+        "why": [
+          "정책 결정이 부정확한 경제 지표에 기반할 위험이 있다"
+        ]
+      }
+    },
+    {
+      "id": "tech-xbox-reset-restructuring",
+      "title": "Xbox, \"리셋\" 이어가며 대대적 조직 개편",
+      "summary": "Xbox가 일부 개발 스튜디오의 독립성을 줄이는 급진적 내부 구조조정을 발표했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gaming/2026/09/shuffling-the-deck-chairs-xbox-continues-its-reset-with-dramatic-restructuring/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Xbox가 스튜디오 자율성을 줄이고 중앙 통제를 강화한다.",
+        "what": "Xbox가 \"리셋\"의 연장선에서 대규모 내부 구조조정을 발표했다. 일부 개발팀의 독립성을 줄이는 방향이다.",
+        "points": [
+          "Xbox 리셋 전략의 연장",
+          "급진적 내부 조직 개편",
+          "일부 개발팀 독립성 축소"
+        ],
+        "why": [
+          "마이크로소프트 게임 사업의 전략 변화가 스튜디오 운영 방식에 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "tech-amazon-drones-texas-suburb",
+      "title": "아마존 배송 드론, 텍사스 교외 주민들 소음 고통",
+      "summary": "아마존 드론 비행 경로 인근 주민들이 끊임없는 배송 드론 소음에 시달리고 있다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/09/21/us/politics/amazon-drone-delivery-texas.html?unlocked_article_code=1.C1E.QIHL.7qTJRR5Uj6n4&smid=bs-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "드론 배송 확대가 지역사회 소음 문제로 번지고 있다.",
+        "what": "텍사스의 한 교외 지역에서 아마존 배송 드론 비행 경로 인근 주민들이 지속적인 소음을 겪고 있다. 드론 배송이 늘어나며 생활 환경 문제가 드러난 사례다.",
+        "points": [
+          "아마존 드론 비행 경로 인근 주민 불만",
+          "지속적인 소음 발생",
+          "텍사스 교외 지역 사례"
+        ],
+        "why": [
+          "드론 배송 상용화 과정에서 지역 규제와 주민 수용성이 변수가 된다"
+        ]
+      }
+    }
+  ]
+}

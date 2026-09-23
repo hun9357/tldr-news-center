@@ -1,0 +1,249 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-bernstein-prediction-market-10t-2035",
+      "title": "번스타인 \"예측시장 연간 거래량 2035년 10조 달러\"",
+      "summary": "번스타인은 예측시장 거래량이 2026년 약 4,100억 달러에서 2035년 10조 달러로 연 70%가량 성장하고, 금융자산이 스포츠를 추월할 것으로 전망했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-22-bernstein-sees-annual-prediction-market-volumes-hitting-10-trillion-by-2035-as-financial-assets-overtake-sports-416030?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "예측시장의 중심축이 스포츠에서 크립토·주식·원자재 등 금융자산으로 이동한다는 전망.",
+        "what": "번스타인이 예측시장 거래량이 2026년 추정 4,100억 달러에서 2035년 10조 달러까지 연평균 약 70% 성장할 것이라는 보고서를 냈다. 금융자산 비중은 2025년 12%에서 2035년 49%로 늘고, 스포츠 비중은 61%에서 38%로 줄어든다고 봤다.",
+        "points": [
+          "2026년 약 4,100억 달러 → 2035년 10조 달러",
+          "연평균 성장률 약 70%",
+          "금융자산 비중 12% → 49%",
+          "스포츠 비중 61% → 38%로 축소"
+        ],
+        "why": [
+          "예측시장이 파생상품·헤지 수단으로 확장될 가능성을 시사",
+          "금융자산 중심이 되면 CFTC 등 규제 논의가 더 중요해진다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-fairshake-30m-against-sherrod-brown",
+      "title": "크립토 PAC 페어셰이크, 셰로드 브라운 낙선에 3,000만 달러 투입",
+      "summary": "클래리티 법안이 상원 절차 표결에서 무산된 직후, 페어셰이크가 오하이오 상원 선거에서 셰로드 브라운 전 의원을 겨냥해 3,000만 달러를 투입한다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-09-21-clarity-act-fallout-cryptos-fairshake-pac-commits-30-million-against-sherrod-brown-415962?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "클래리티 법안 좌초 후 크립토 업계가 중간선거에서 가장 공격적인 정치 자금 행보에 나섰다.",
+        "what": "크립토 슈퍼PAC 페어셰이크가 오하이오 상원 선거에서 셰로드 브라운 전 상원의원에 맞서 3,000만 달러를 쓰기로 했다. 시장구조법안인 클래리티 법안이 상원 절차 표결을 통과하지 못한 지 며칠 만의 결정이다.",
+        "points": [
+          "투입액 3,000만 달러, 이번 중간선거 최대 규모 행보",
+          "대상은 오하이오 상원 선거의 셰로드 브라운",
+          "클래리티 법안 상원 절차 표결 실패 직후"
+        ],
+        "why": [
+          "입법이 막히자 업계가 선거 자금으로 의회 구성을 바꾸려는 전략",
+          "크립토 규제 방향이 중간선거 결과에 크게 좌우될 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-agents-us-stocks-x402",
+      "title": "코인베이스 포 에이전츠, x402로 미국 주식·ETF 거래 지원",
+      "summary": "코인베이스 포 에이전츠가 트레이딩 제품군에 미국 주식과 ETF를 추가했다. 증권 거래는 코인베이스 캐피털 마켓츠를 거치고 청산은 에이펙스 핀테크가 맡는다.",
+      "source": "Coinbase",
+      "url": "https://www.coinbase.com/developer-platform/discover/launches/c4a-equities-x402?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "AI 에이전트가 x402 결제로 크립토뿐 아니라 미국 주식·ETF까지 거래할 수 있게 됐다.",
+        "what": "코인베이스의 에이전트용 플랫폼이 미국 주식과 ETF를 지원하기 시작했다. 주문은 코인베이스 캐피털 마켓츠를 통해 처리되고, 청산은 코인베이스 리테일 주식 사업과 같은 백엔드인 에이펙스 핀테크 솔루션즈가 담당한다.",
+        "points": [
+          "에이전트 트레이딩 제품군에 미국 주식·ETF 추가",
+          "x402 프로토콜 기반",
+          "브로커: Coinbase Capital Markets Corp.",
+          "청산: Apex Fintech Solutions(리테일과 동일 인프라)"
+        ],
+        "why": [
+          "에이전트 커머스가 전통 증권 영역으로 확장되는 신호",
+          "규제된 인프라 위에서 에이전트 거래를 구현한 사례"
+        ]
+      }
+    },
+    {
+      "id": "crypto-trueo-migrates-to-ethereum",
+      "title": "온체인 예측시장 트루오, 베이스에서 이더리움으로 이전",
+      "summary": "트루오가 주 배포처를 베이스에서 이더리움 메인넷으로 옮긴다. 폭넓은 채택, 무허가성, 신뢰성 목표에 이더리움이 가장 잘 맞는다는 이유다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-09-22-trueo-ethereum-migration-415999?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "L2에서 출발한 앱이 신뢰성을 이유로 이더리움 메인넷으로 돌아가는 사례.",
+        "what": "2025년 3월 베이스에서 출시한 온체인 예측시장 트루오가 주 배포처를 이더리움 메인넷으로 옮긴다. 회사는 넓은 채택, 무허가성, 높은 신뢰성이라는 목표에 이더리움이 가장 적합하다고 설명했다.",
+        "points": [
+          "2025년 3월 베이스에서 출시",
+          "주 배포처를 이더리움 메인넷으로 이전",
+          "이유: 채택·무허가성·신뢰성"
+        ],
+        "why": [
+          "L2 대비 메인넷의 신뢰성·중립성 가치가 재평가되고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "crypto-barbellification-of-crypto-vc",
+      "title": "크립토 VC의 양극화(바벨화)",
+      "summary": "크립토 VC 자금이 시장 열풍을 타고 빠르게 매출을 내는 회사와 대형 라운드를 흡수할 수 있는 회사라는 두 극단으로 갈라지고 있다는 분석.",
+      "source": "Thread Reader (X)",
+      "url": "https://threadreaderapp.com/thread/2102077601565294667.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "중간 규모가 사라지고, 자금이 빠른 매출 기업과 초대형 라운드 기업으로 양분되고 있다.",
+        "what": "크립토 VC 투자가 두 극단으로 나뉘었다는 스레드다. 한쪽은 시장 열풍에 올라타 빠른 매출을 보여주는 회사로 역설적으로 자본이 가장 덜 필요하고, 다른 쪽은 대형 펀드의 큰 라운드를 흡수할 수 있어 자금 조달 자체가 해자가 되는 회사다.",
+        "points": [
+          "빠른 매출 기업: 자본 필요성은 오히려 적음",
+          "초대형 라운드 기업: 자금 조달이 곧 해자",
+          "그 사이 중간 지대는 약화"
+        ],
+        "why": [
+          "창업자는 자신이 어느 극단에 속하는지 전략을 명확히 해야 한다",
+          "VC 시장 구조 변화가 초기 프로젝트의 자금 접근성에 영향"
+        ]
+      }
+    },
+    {
+      "id": "crypto-cftc-investigates-polymarket-cases",
+      "title": "CFTC, 폴리마켓 내부자 거래 의혹 2건 공식 조사",
+      "summary": "버블맵스가 온체인 데이터 시각화로 두 건의 크립토 내부자 거래 사례를 공개한 직후, CFTC가 같은 사건에 대한 공식 조사에 착수했다.",
+      "source": "Thread Reader (X)",
+      "url": "https://threadreaderapp.com/thread/2102083701983314009.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "온체인 분석 보도가 규제기관의 공식 조사로 곧장 이어진 사례.",
+        "what": "블록체인 분석업체 버블맵스가 온체인 데이터 시각화를 활용해 폴리마켓 관련 내부자 거래 의혹 두 건을 조사해 공개했다. 보도가 나간 직후 CFTC가 같은 사건들에 대한 공식 조사를 시작했다.",
+        "points": [
+          "버블맵스가 온체인 시각화로 2건 조사 공개",
+          "CFTC가 직후 공식 조사 개시",
+          "예측시장 내부자 거래 문제 부각"
+        ],
+        "why": [
+          "공개 원장이 규제 집행의 증거 자료로 쓰이고 있음",
+          "예측시장에 대한 규제 감시가 강화되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ai-trading-agents-herding-risk",
+      "title": "AI 트레이딩 에이전트는 알파 민주화가 아닌 쏠림 위험을 만든다",
+      "summary": "LLM 기반 트레이딩은 초~분 단위로, HFT는 마이크로초 단위로 움직여 자산 가치 평가가 어긋나고, 리테일이 접근할 수 없는 교차 주기 차익거래 기회가 생긴다는 분석.",
+      "source": "Thread Reader (X)",
+      "url": "https://threadreaderapp.com/thread/2101377746165502057.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "AI 트레이딩 에이전트는 개인에게 알파를 주기보다 쏠림과 차익거래 창을 만든다.",
+        "what": "LLM 기반 트레이딩은 초~분 단위로 작동하고, 미국 주식 거래량의 약 50%를 차지하는 HFT는 마이크로초 단위로 작동한다. 각 계층이 서로 다른 데이터를 처리하면서 자산 가치 평가가 갈라지고, 리테일 트레이더가 닿을 수 없는 교차 주기 차익거래 창이 열린다는 주장이다.",
+        "points": [
+          "LLM 트레이딩: 초~분 단위",
+          "HFT: 마이크로초 단위, 미국 주식 거래량 약 50%",
+          "계층 간 가치 평가 괴리 → 교차 주기 차익거래",
+          "리테일은 해당 기회에 접근 불가"
+        ],
+        "why": [
+          "AI 에이전트 트레이딩의 \"민주화\" 서사를 반박",
+          "유사한 모델을 쓰는 에이전트가 늘수록 쏠림 위험 확대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sec-tokenized-equities-exemption",
+      "title": "SEC 토큰화 주식 면제, 기존 플랫폼은 모두 요건 미달",
+      "summary": "SEC의 토큰화 증권 면제 서한은 LP와 트레이더 모두 KYC/KYB를 거친 허가형 AMM 거래소(TSV)로 거래를 제한해, 하이퍼리퀴드 같은 CLOB 기반 플랫폼을 배제한다.",
+      "source": "Thread Reader (X)",
+      "url": "https://threadreaderapp.com/thread/2101824167364440342.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "SEC 면제 요건이 허가형 AMM만 허용해 현존 토큰화 주식 플랫폼 대부분이 해당되지 않는다.",
+        "what": "SEC가 토큰화 증권에 대한 면제 서한을 냈지만, 거래는 LP와 트레이더 모두 KYC/KYB를 완료해야 하는 허가형 AMM 거래소(TSV)로 제한된다. 이 때문에 마켓메이커가 자본 효율성 면에서 선호하는 하이퍼리퀴드 같은 CLOB 기반 플랫폼은 제외된다.",
+        "points": [
+          "허가형 AMM 거래소(TSV)만 허용",
+          "LP와 트레이더 모두 KYC/KYB 필수",
+          "CLOB 기반 플랫폼(예: 하이퍼리퀴드) 배제",
+          "마켓메이커는 CLOB 선호"
+        ],
+        "why": [
+          "규제 친화적 토큰화 주식 시장 설계가 기존 구조와 충돌",
+          "새로운 허가형 거래소 구축 수요가 생길 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-stablecoins-daily-operations",
+      "title": "매출 1억 달러 이상 기업의 스테이블코인 일상 운영 활용",
+      "summary": "Flex의 비즈니스 고객들이 스테이블코인을 실제 운영에 쓰는 사례를 소개한 스레드.",
+      "source": "Thread Reader (X)",
+      "url": "https://threadreaderapp.com/thread/2102156622256853238.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "스테이블코인이 대형 기업의 실무 운영 도구로 쓰이고 있다.",
+        "what": "Flex의 에릭이 1억 달러 이상 규모 기업 고객들이 스테이블코인을 일상 운영에 활용하는 방식을 정리했다. 결제·자금 운용 등 실사용 사례에 초점을 맞춘 스레드다.",
+        "points": [
+          "대상: 매출 1억 달러 이상 기업",
+          "Flex 비즈니스 고객 사례",
+          "스테이블코인의 운영 목적 사용"
+        ],
+        "why": [
+          "스테이블코인이 투기 자산을 넘어 기업 재무 인프라로 자리잡는 신호"
+        ]
+      }
+    },
+    {
+      "id": "crypto-apple-pay-stablecoins-google-web3",
+      "title": "애플페이 스테이블코인 인재 채용, 구글은 웹3 채용 확대",
+      "summary": "애플이 애플페이용 스테이블코인 전문가를 채용하고, 구글은 홍콩에서 웹3 직무를 공고하며 동시에 블록체인 통합에 나서고 있다.",
+      "source": "Thread Reader (X)",
+      "url": "https://threadreaderapp.com/thread/2101982118016356809.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "두 거대 소비자 플랫폼이 동시에 블록체인·스테이블코인 쪽으로 움직이고 있다.",
+        "what": "애플이 애플페이를 위한 스테이블코인 전문가를 뽑고 있고, 구글은 홍콩에서 웹3 관련 직무를 게시했다. 가장 큰 소비자 기술 플랫폼 두 곳이 동시에 블록체인 통합을 추진하는 모습이다.",
+        "points": [
+          "애플: 애플페이용 스테이블코인 전문가 채용",
+          "구글: 홍콩에서 웹3 직무 공고",
+          "빅테크의 동시다발적 블록체인 행보"
+        ],
+        "why": [
+          "애플페이에 스테이블코인이 들어가면 소비자 결제 채택이 크게 늘 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-spot-btc-etf-1b-inflow",
+      "title": "미국 현물 비트코인 ETF, 11개월 만의 최대 일일 유입 약 10억 달러",
+      "summary": "미국 현물 비트코인 ETF에 월요일 9억 9,895만 달러가 순유입돼 2025년 10월 6일 이후 최대를 기록했다. IBIT, ARKB, FBTC가 유입을 주도했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-09-22-spot-bitcoin-etfs-1-billion-daily-inflow-416005?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "비트코인 ETF에 11개월 만의 최대 자금이 몰렸다.",
+        "what": "미국 현물 비트코인 ETF가 월요일 9억 9,895만 달러 순유입을 기록했다. 2025년 10월 6일 이후 최대치로, 블랙록 IBIT 3억 8,140만 달러, 아크·21셰어즈 ARKB 2억 8,910만 달러, 피델리티 FBTC 2억 3,880만 달러가 이끌었다.",
+        "points": [
+          "순유입 9억 9,895만 달러",
+          "2025년 10월 6일 이후 최대",
+          "IBIT 3억 8,140만 / ARKB 2억 8,910만 / FBTC 2억 3,880만 달러"
+        ],
+        "why": [
+          "기관 수요 회복 신호로 해석될 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-binance-buys-100m-circle-shares",
+      "title": "바이낸스, 서클 주식 1억 달러어치 매입",
+      "summary": "SEC 공시에 따르면 바이낸스가 사모 방식으로 서클 주식 1억 달러어치를 주당 80.84달러에 샀고, 서클은 바이낸스 지갑 인프라에 보관된 USDC 규모에 따라 월 수수료를 지급하는 5년 계약도 맺었다.",
+      "source": "Thread Reader (X)",
+      "url": "https://threadreaderapp.com/thread/2102358114238599573.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "바이낸스와 서클이 지분 투자와 USDC 유통 수수료 계약으로 손을 잡았다.",
+        "what": "SEC 공시에 따르면 바이낸스가 사모 발행으로 서클 주식 1억 달러어치를 주당 80.84달러에 매입했다. 동시에 체결한 5년 상업 계약에 따라 서클은 바이낸스 지갑 인프라에 보관된 USDC 규모에 기반해 매달 수수료를 지급한다.",
+        "points": [
+          "1억 달러 사모 투자, 주당 80.84달러",
+          "5년 상업 계약 동반",
+          "바이낸스 보관 USDC 규모에 따른 월 수수료"
+        ],
+        "why": [
+          "USDC 유통 확대를 위한 서클의 거래소 인센티브 전략",
+          "최대 거래소와 주요 스테이블코인 발행사의 이해관계가 묶임"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-reddit-media-plan",
+      "title": "미디어 플랜에서 레딧의 역할을 다시 생각할 때",
+      "summary": "레딧은 높은 구매 의도 덕분에 상위 퍼널을 넘어 퍼포먼스 채널로 활용될 수 있다. 새 입찰 옵션과 리드 생성, 연령 타기팅이 추가됐고 초기 테스트에서 CPA가 15% 줄었다.",
+      "source": "Brainlabs Digital",
+      "url": "https://www.brainlabsdigital.com/reddit-ads-evolving-beyond-upper-funnel-marketing/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "레딧 광고가 인지도 채널에서 퍼포먼스 채널로 진화하고 있다.",
+        "what": "Brainlabs는 레딧 사용자의 강한 구매 의도를 근거로 레딧을 퍼포먼스 채널로 봐야 한다고 분석했다. 새로운 입찰 옵션, 리드 생성, 연령 타기팅으로 광고주의 통제력이 커졌고 초기 테스트에서 CPA가 15% 감소했다.",
+        "points": [
+          "사용자 구매 의도가 강해 하위 퍼널 활용 가능",
+          "새 입찰 옵션·리드 생성·연령 타기팅 도입",
+          "초기 테스트에서 CPA 15% 감소",
+          "커뮤니티 특성상 진정성 유지가 필수"
+        ],
+        "why": [
+          "레딧 예산을 인지도용에서 전환 목표로 재배치할 근거가 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-notebooklm-parasite-seo",
+      "title": "구글 NotebookLM, 기생 SEO의 표적이 되다",
+      "summary": "공개된 NotebookLM 노트북이 구글 도메인의 권위를 이용한 SEO 스팸에 악용되고 있다. 쿠폰 코드와 서비스 홍보 스팸이 색인되고 있지만, 크롤러 차단이나 noindex는 정상 콘텐츠까지 해칠 수 있다.",
+      "source": "Search Engine Watch",
+      "url": "https://searchenginewatch.com/googles-own-notebooklm-becomes-a-target-for-parasite-seo/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "구글 자체 서비스가 구글 검색 스팸의 통로가 됐다.",
+        "what": "공개 NotebookLM 노트북이 구글 도메인에서 검색 순위를 얻기 위해 악용되고 있으며, 쿠폰 코드와 각종 서비스를 홍보하는 스팸 콘텐츠가 색인되고 있다. 크롤러 차단이나 noindex 태그는 정상 콘텐츠 보존과 충돌해 대응이 복잡하다.",
+        "points": [
+          "공개 NotebookLM 노트북이 구글 도메인 권위를 빌린 스팸에 이용됨",
+          "쿠폰·서비스 홍보 콘텐츠가 검색 색인에 노출",
+          "크롤러 차단·noindex는 정상 콘텐츠에도 영향",
+          "구글의 사이트 평판 악용 정책과 충돌하는 사례"
+        ],
+        "why": [
+          "검색 결과 품질과 구글 스팸 정책의 일관성에 의문을 제기한다",
+          "SEO 담당자는 경쟁사의 기생 SEO 전술 확산을 주시해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-linkedin-keywords-first-lines",
+      "title": "링크드인 게시물 첫 줄에 타깃 키워드를 넣어라",
+      "summary": "링크드인은 게시물 첫 문장을 URL 슬러그에 반영하므로, 첫 줄에 타깃 키워드를 넣으면 구글 검색 노출 기회가 생긴다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/carterwirig_this-is-the-craziest-seo-opportunity-ive-share-7507871339580583937-s8hd/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "링크드인 게시물 첫 줄이 곧 SEO용 URL이 된다.",
+        "what": "링크드인은 게시물의 도입부 텍스트를 URL 슬러그에 포함한다. 따라서 첫 줄에 타깃 키워드를 배치하면 구글이 관련 검색에서 해당 게시물을 노출할 가능성이 높아진다.",
+        "points": [
+          "게시물 도입부가 URL 슬러그에 포함됨",
+          "첫 줄 키워드 배치로 구글 랭킹 기회",
+          "별도 비용 없는 SEO 전술"
+        ],
+        "why": [
+          "소셜 게시물을 검색 유입 채널로도 활용할 수 있는 간단한 팁이다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-content-positioning-problem",
+      "title": "콘텐츠가 나쁜 게 아니라, 왜 봐야 하는지 모를 뿐",
+      "summary": "콘텐츠 성과를 떨어뜨리는 것은 글솜씨보다 포지셔닝 문제다. 성공한 계정은 주제를 오가지 않고 일관된 콘텐츠 필러를 유지해 좋은 의미의 예측 가능성을 만든다.",
+      "source": "The Marketing Lab UK",
+      "url": "https://themarketinglabuk.substack.com/p/your-content-isnt-bad-but-nobody?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "콘텐츠 성과는 품질보다 일관된 포지셔닝에서 나온다.",
+        "what": "글은 콘텐츠 부진의 원인이 작문 품질이 아닌 포지셔닝에 있다고 본다. 성공적인 계정은 주제를 번갈아 다루지 않고 일관된 콘텐츠 필러를 유지해 독자가 알아보는 패턴을 만들고 참여를 이끈다.",
+        "points": [
+          "성과 부진의 주원인은 포지셔닝",
+          "일관된 콘텐츠 필러 유지",
+          "\"좋은 의미로 예측 가능한\" 인지 패턴 형성"
+        ],
+        "why": [
+          "콘텐츠 전략을 주제 선택보다 필러 설계 중심으로 재점검하게 한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-podcast-advertising-rules",
+      "title": "팟캐스트 광고의 새로운 규칙",
+      "summary": "영상과 크리에이터 주도 포맷이 팟캐스트 광고 지형을 바꾸고 있다. Audacy 분석에 따르면 광고 스킵률은 예상보다 낮고 작은 쇼가 큰 쇼보다 성과가 좋을 수 있다.",
+      "source": "Audacy Inc",
+      "url": "https://audacyinc.com/state-of-audio/fall-2026/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "팟캐스트 광고는 스킵이 적고 소규모 쇼가 효율적일 수 있다.",
+        "what": "Audacy의 State of Audio 2026 가을 보고서는 영상과 크리에이터 중심 포맷이 청취자 도달 방식을 재편하고 있다고 분석했다. 광고 스킵률은 예상보다 낮았고 작은 쇼가 큰 쇼를 능가할 가능성도 제시됐다.",
+        "points": [
+          "영상·크리에이터 주도 포맷이 팟캐스트 광고 재편",
+          "광고 스킵률이 예상보다 낮음",
+          "소규모 쇼가 대형 쇼보다 성과가 좋을 수 있음"
+        ],
+        "why": [
+          "오디오 광고 예산을 대형 쇼 중심에서 분산할 근거가 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-blogging-statistics-2026",
+      "title": "2026 블로깅 통계",
+      "summary": "블로그 성과가 역대 최저(강한 성과 응답 13.9%)를 기록했는데, 원인은 AI가 아니라 버려진 전술에 있다. AI 활용은 92%로 늘었지만 비AI 방식과 결과가 같았다.",
+      "source": "Orbit Media",
+      "url": "https://www.orbitmedia.com/blog/blogging-statistics/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 활용이 92%로 늘었지만 블로그 성과는 역대 최저다.",
+        "what": "Orbit Media의 연례 블로깅 조사에서 강한 성과를 보고한 비율이 13.9%로 역대 최저를 기록했다. 원인으로는 AI 도입보다 효과적 전술의 포기가 지목됐으며, 인플루언서 협업은 2017년 25%에서 7%로 줄었다.",
+        "points": [
+          "강한 성과 응답 13.9%로 역대 최저",
+          "인플루언서 협업 25%(2017) → 7%",
+          "AI 활용 92%로 급증",
+          "AI 사용 여부와 성과는 동일"
+        ],
+        "why": [
+          "AI 자체보다 검증된 전술 실행이 성과를 좌우함을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-for-creativity",
+      "title": "AI로 더 창의적이 되는 법",
+      "summary": "AI로 다듬은 아이디어는 그렇지 않은 것보다 30% 더 창의적으로 평가됐다. 성숙한 아이디어는 텍스트 기반, 모호한 콘셉트는 이미지 기반 다듬기가 적합하다.",
+      "source": "Science Says",
+      "url": "https://app.sciencesays.com/p/how-to-use-ai-to-be-more-creative?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "아이디어 성숙도에 따라 텍스트/이미지 AI 다듬기를 골라 써라.",
+        "what": "Science Says는 AI로 정제한 아이디어가 30% 더 창의적으로 평가됐다는 연구를 소개한다. 이미지는 반복 개선을 억제하고 텍스트의 빈틈은 더 깊은 사고를 유도하므로, 성숙한 아이디어엔 텍스트, 모호한 콘셉트엔 이미지 정제가 낫다.",
+        "points": [
+          "AI 정제 아이디어가 30% 더 창의적으로 평가",
+          "성숙한 아이디어는 텍스트 기반 정제가 효과적",
+          "모호한 콘셉트는 이미지 기반 정제가 적합",
+          "이미지는 반복을 억제, 텍스트는 사고를 촉진"
+        ],
+        "why": [
+          "크리에이티브 워크플로에서 AI 활용 방식을 구체화할 근거를 준다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-brands-make-themselves-at-home",
+      "title": "최고의 브랜드는 집 안에 자리 잡는다",
+      "summary": "물리적 브랜드 오브젝트는 디지털 광고보다 오래 기억에 남는다. 효과적인 오브젝트는 로고 없이도 시각적으로 독특하고, 실용적이거나 감정적으로 울림이 있으며, 브랜드가 진정으로 소유한 것을 표현한다.",
+      "source": "LBB Online",
+      "url": "https://lbbonline.com/news/the-best-brands-make-themselves-at-home?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "물리적 브랜드 오브젝트는 디지털 광고보다 기억에 오래 남는다.",
+        "what": "LBB Online은 물리적 브랜드 오브젝트가 디지털 광고보다 기억 측면에서 우위가 있다고 분석했다. 가장 효과적인 오브젝트는 로고 없이도 독특하고, 기능적으로 유용하거나 정서적 울림이 있으며, 브랜드가 진정성 있게 소유한 무언가를 대표한다.",
+        "points": [
+          "물리 오브젝트는 지속적 기억 효과",
+          "로고 없이도 식별 가능한 시각적 독특함",
+          "실용성 또는 정서적 공감",
+          "브랜드가 진정으로 소유한 가치 표현"
+        ],
+        "why": [
+          "굿즈·패키징 전략을 기억 구조 관점에서 설계하는 기준을 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-brain-rot-cry-for-help",
+      "title": "브레인 롯의 진실: 그것은 구조 요청이다",
+      "summary": "Z세대는 부조리한 \"브레인 롯\" 콘텐츠를 집중력 저하가 아닌 수익화된 미디어의 압박에서 벗어나는 휴식으로 설명한다. 그러나 끊임없는 스크롤은 오히려 사람들을 지치게 만든다.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/09/08/opinion/gen-z-tiktok-ig-reels.html?campaign_id=190&emc=edit_ufn_20260913&utm_source=tldrmarketing",
+      "report": {
+        "tldr": "Z세대의 브레인 롯 소비는 수익화된 미디어에 대한 피로의 표현이다.",
+        "what": "뉴욕타임스 오피니언은 Z세대가 부조리한 브레인 롯 콘텐츠를 수익화된 미디어의 요구로부터의 해방구로 여긴다고 분석했다. 역설적으로 참여 최적화에서 벗어나려는 끝없는 스크롤이 오히려 피로를 남긴다.",
+        "points": [
+          "브레인 롯은 집중력 저하가 아닌 휴식 추구로 설명됨",
+          "수익화·참여 최적화 미디어에 대한 피로",
+          "끊임없는 스크롤이 역설적으로 소진을 유발"
+        ],
+        "why": [
+          "Z세대 대상 콘텐츠·광고 톤 설계에 시사점을 준다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-content-resources-watch-list",
+      "title": "워치리스트에 추가할 콘텐츠 리소스 7선",
+      "summary": "카피라이팅, 퍼스널 브랜딩, 호기심 기르기 전략을 다루는 영상·팟캐스트 모음이다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/nmlakar_ive-spent-the-last-3-years-literally-studying-share-7505602919862403072-lI1v/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "콘텐츠 마케터를 위한 영상·팟캐스트 추천 7선.",
+        "what": "링크드인 게시물에서 카피라이팅, 퍼스널 브랜딩, 호기심 함양을 다루는 영상과 팟캐스트 7개를 추천했다.",
+        "points": [
+          "영상·팟캐스트 큐레이션",
+          "카피라이팅과 퍼스널 브랜딩 주제",
+          "호기심 기르기 전략 포함"
+        ],
+        "why": [
+          "콘텐츠 역량 학습 자료를 빠르게 찾을 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-applovin-20bn-ad-spend",
+      "title": "앱러빈, 연간 플랫폼 광고비 200억 달러 규모로 60% 성장",
+      "summary": "앱러빈의 연간 플랫폼 광고 지출이 전년 대비 60% 성장해 약 200억 달러에 달했다. 일일 10억 명 이상이 즐기는 모바일 게임에서 인게임 광고가 발견형 채널로 기능하고 있다.",
+      "source": "Pocket Gamer",
+      "url": "https://www.pocketgamer.biz/applovin-grows-60-yy-rounding-to-20bn-in-annual-platform-ad-spend/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "모바일 게임 인게임 광고가 거대한 발견형 채널로 성장했다.",
+        "what": "앱러빈의 연간 플랫폼 광고비가 전년 대비 60% 늘어 약 200억 달러 규모가 됐다. 모바일 게임은 하루 10억 명 이상이 이용하며, 인게임 광고는 게이머가 찾지 않던 제품을 발견하게 하는 수단으로 작동한다.",
+        "points": [
+          "연간 플랫폼 광고비 약 200억 달러, 전년 대비 60% 성장",
+          "모바일 게임 일일 이용자 10억 명 이상",
+          "인게임 광고가 발견형 채널로 기능"
+        ],
+        "why": [
+          "비게임 브랜드도 모바일 게임 광고 인벤토리를 고려할 이유가 된다"
+        ]
+      }
+    }
+  ]
+}

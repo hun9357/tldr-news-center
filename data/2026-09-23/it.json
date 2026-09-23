@@ -1,0 +1,236 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-microsoft-india-south-central",
+      "title": "마이크로소프트, 인도 클라우드에 AI 인프라 확대",
+      "summary": "마이크로소프트가 하이데라바드에 AI 대응 인프라, 3개 가용 영역, 무수(無水) 냉각을 갖춘 India South Central 데이터센터를 열며 205억 달러 클라우드·AI 투자를 진전시켰다.",
+      "source": "Microsoft News",
+      "url": "https://news.microsoft.com/source/asia/2026/09/21/ai-ambition-into-action-microsoft-brings-ai-ready-capabilities-across-its-india-cloud-infrastructure-establishes-india-south-central-region-as-a-strategic-hub-for-asia-and-global-south?utm_source=tldrit",
+      "report": {
+        "tldr": "인도가 마이크로소프트의 아시아·글로벌 사우스 AI 거점으로 부상했다.",
+        "what": "마이크로소프트가 하이데라바드에 India South Central 데이터센터 리전을 개설했다. AI 대응 인프라, 3개 영역 기반 복원력 아키텍처, 물을 쓰지 않는 기계식 냉각을 갖췄으며 205억 달러 규모 클라우드·AI 투자의 일환이다.",
+        "points": [
+          "하이데라바드 India South Central 리전 개설",
+          "3개 가용 영역 아키텍처",
+          "물을 쓰지 않는 기계식 냉각",
+          "205억 달러 클라우드·AI 투자의 일부"
+        ],
+        "why": [
+          "인도·아시아 기업의 데이터 레지던시와 AI 워크로드 선택지가 넓어진다",
+          "하이퍼스케일러의 신흥 시장 AI 인프라 경쟁이 가속된다"
+        ]
+      }
+    },
+    {
+      "id": "it-meta-muse-zero-day",
+      "title": "메타 AI 비서 Muse 제로데이, 토큰 탈취 위험",
+      "summary": "메타의 macOS용 Muse에서 로컬 앱이 트래픽을 우회시켜 사용자 토큰을 훔치고 파일·카메라·메시지에 접근할 수 있는 취약점이 드러났다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/?utm_source=tldrit",
+      "report": {
+        "tldr": "광범위한 권한을 가진 데스크톱 AI 에이전트의 위험이 현실화됐다.",
+        "what": "메타의 macOS AI 비서 Muse에서 로컬 앱이 트래픽을 리디렉션해 사용자 토큰을 훔칠 수 있는 취약점이 발견됐다. 이를 통해 파일, 카메라, 메시지까지 접근할 수 있었다.",
+        "points": [
+          "로컬 앱이 Muse 트래픽 리디렉션 가능",
+          "사용자 토큰 탈취",
+          "파일·카메라·메시지 접근 위험",
+          "InfoSec 에디션에서도 다룬 이슈"
+        ],
+        "why": [
+          "기업 IT는 데스크톱 AI 에이전트 권한을 관리 대상에 넣어야 한다",
+          "AI 비서 도입 정책에 보안 검토 절차가 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "it-1password-post-quantum-tls",
+      "title": "1Password, 코드 변경 없이 포스트 양자 TLS 배포",
+      "summary": "1Password가 AWS 로드밸런서 정책과 의존성 변경만으로 하이브리드 포스트 양자 TLS를 적용했으며, 암호 구현을 애플리케이션 로직과 분리한 팀이 더 빨리 업그레이드할 수 있다고 강조했다.",
+      "source": "1Password Blog",
+      "url": "https://1password.com/blog/post-quantum-tls-without-code-changes?utm_source=tldrit",
+      "report": {
+        "tldr": "암호화를 앱 로직과 분리하면 PQC 전환이 설정 변경 수준으로 끝난다.",
+        "what": "1Password는 AWS 로드밸런서 정책 변경과 의존성 업데이트만으로 하이브리드 포스트 양자 TLS를 배포했다. 핵심 교훈은 암호 구현을 애플리케이션 로직과 분리해두면 기반 보안을 훨씬 빠르게 업그레이드할 수 있다는 점이다.",
+        "points": [
+          "하이브리드 포스트 양자 TLS 적용",
+          "AWS 로드밸런서 정책·의존성 변경만 사용",
+          "애플리케이션 코드 변경 없음",
+          "암호 계층 분리가 핵심 교훈"
+        ],
+        "why": [
+          "양자 내성 암호 전환을 준비하는 조직에 현실적인 경로를 제시한다",
+          "암호 민첩성(crypto agility)의 실무적 가치를 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-gartner-vmware-exit",
+      "title": "가트너 \"2029년까지 VMware 기업 고객 55%가 이탈 검토\"",
+      "summary": "가트너는 VMware 대안을 검토하는 기업 비율이 2026년 25%에서 2029년 55%로 늘 것으로 보며, 원인은 기술보다 가격·라이선스 복잡성·지원 우려라고 분석했다.",
+      "source": "The Register",
+      "url": "https://assets.theregister.com/2026/09/22/20261/?utm_source=tldrit",
+      "report": {
+        "tldr": "Broadcom 이후 VMware 이탈 압력이 계속 커지고 있다.",
+        "what": "가트너는 2029년까지 기업 VMware 사용자의 55%가 대안을 모색할 것으로 전망했다. 2026년 25%에서 크게 늘어난 수치이며, 기술적 약점보다는 가격 변경, 라이선스 복잡성, 지원 문제가 주된 이유다.",
+        "points": [
+          "2026년 25% → 2029년 55%로 이탈 검토 증가 전망",
+          "가격 변경과 라이선스 복잡성이 주원인",
+          "지원 우려도 영향",
+          "기술 자체의 약점은 주원인이 아님"
+        ],
+        "why": [
+          "가상화 플랫폼 전환 계획과 예산 수립에 참고할 지표",
+          "대체 하이퍼바이저·클라우드 시장에 기회가 된다"
+        ]
+      }
+    },
+    {
+      "id": "it-jamf-ravenna-ai-service-desk",
+      "title": "Jamf·Ravenna, 슬랙 기반 AI 맥 지원 서비스 데스크",
+      "summary": "Jamf와 Ravenna가 기기 데이터와 IT 런북을 슬랙 내 AI 서비스 데스크에 통합해, 에이전트가 기기 상태를 확인하고 문제를 해결하며 민감 작업은 IT 승인 게이트를 거쳐 워크플로를 실행한다.",
+      "source": "Jamf Blog",
+      "url": "https://www.jamf.com/blog/ravenna-ai-service-desk-jamf-pro-slack/?utm_source=tldrit",
+      "report": {
+        "tldr": "맥 지원 업무에 승인 게이트를 둔 AI 에이전트가 도입된다.",
+        "what": "Jamf와 Ravenna가 Jamf Pro의 기기 데이터와 IT 런북을 슬랙 속 AI 서비스 데스크에 연결했다. AI 에이전트가 기기 상태를 점검하고 문제를 해결하며, 민감한 작업은 IT 승인을 거쳐 워크플로를 실행한다.",
+        "points": [
+          "Jamf Pro 기기 데이터와 IT 런북 통합",
+          "슬랙에서 AI 서비스 데스크 제공",
+          "기기 상태 점검·문제 해결·워크플로 실행",
+          "민감 작업은 IT 승인 게이트 적용"
+        ],
+        "why": [
+          "헬프데스크 티켓 부담을 줄이면서 통제권을 유지하는 모델",
+          "AI 에이전트에 승인 단계를 두는 설계 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-vast-data-dataenclave",
+      "title": "Vast Data, 민감 워크로드용 기밀 컴퓨팅 서비스 DataEnclave 출시",
+      "summary": "Vast Data가 엔비디아 기밀 컴퓨팅을 통합한 DataEnclave를 발표해, 게스트·GPU 메모리를 암호화한 하드웨어 격리 환경에서 민감 데이터로 AI 모델을 실행할 수 있게 했다.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/09/22/vast-data-launches-confidential-computing-service-for-sensitive-workloads/?utm_source=tldrit",
+      "report": {
+        "tldr": "민감 데이터에 AI를 돌리기 위한 하드웨어 격리 서비스가 나왔다.",
+        "what": "Vast Data가 기밀 컴퓨팅 서비스 DataEnclave를 출시했다. 엔비디아의 기밀 컴퓨팅 기술을 통합해 게스트 메모리와 GPU 메모리를 암호화한 하드웨어 격리 환경에서 고급 AI 모델을 민감 데이터에 적용할 수 있다.",
+        "points": [
+          "서비스명 DataEnclave",
+          "엔비디아 기밀 컴퓨팅 통합",
+          "게스트·GPU 메모리 암호화",
+          "하드웨어 격리 환경에서 AI 실행"
+        ],
+        "why": [
+          "규제 산업의 AI 도입 장벽인 데이터 보호 문제를 겨냥한다",
+          "기밀 컴퓨팅이 AI 인프라의 표준 요구사항으로 부상 중"
+        ]
+      }
+    },
+    {
+      "id": "it-palo-alto-frontier-ai-defense",
+      "title": "팔로알토 네트웍스, Claude·GPT 활용 AI 보안 서비스 공개",
+      "summary": "팔로알토가 Unit 42 Continuous Frontier AI Defense를 출시해 웹 앱·API·클라우드 환경의 취약점을 평가하고 코드 수정과 가상 패치 같은 조치를 권고한다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/technology/palo-alto-networks-unveils-ai-powered-cybersecurity-service-using-claude-gpt-2026-09-22/?utm_source=tldrit",
+      "report": {
+        "tldr": "보안 대기업이 프런티어 AI 모델을 상시 취약점 평가 서비스로 상품화했다.",
+        "what": "팔로알토 네트웍스가 Claude와 GPT 모델을 활용한 Unit 42 Continuous Frontier AI Defense를 공개했다. 웹 애플리케이션, API, 클라우드 환경의 취약점을 평가하고 코드 변경이나 가상 패치 등 완화 조치를 권고한다.",
+        "points": [
+          "Unit 42 Continuous Frontier AI Defense 출시",
+          "Claude·GPT 모델 활용",
+          "웹 앱·API·클라우드 취약점 평가",
+          "코드 변경·가상 패치 권고"
+        ],
+        "why": [
+          "AI 기반 취약점 발견이 상용 보안 서비스로 확산되고 있다",
+          "발견 속도 증가에 맞춘 패치 체계 정비가 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "it-lethal-trifecta-copilots",
+      "title": "프로덕션 속 '치명적 3요소': 기업 코파일럿이 유출 도구가 되는 과정",
+      "summary": "모델이 사내 데이터에 접근하고 신뢰할 수 없는 콘텐츠를 처리하며 외부 통신 경로를 가질 때 데이터 유출 위험이 생기며, 최소 권한·2의 규칙·외부 접근 통제가 필요하다.",
+      "source": "Personal Blog",
+      "url": "https://aminrj.com/posts/lethal-trifecta-in-production/?utm_source=tldrit",
+      "report": {
+        "tldr": "데이터 접근·비신뢰 입력·외부 통신이 겹치면 코파일럿은 유출 통로가 된다.",
+        "what": "기업 코파일럿은 비공개 데이터 접근, 신뢰할 수 없는 콘텐츠 처리, 외부 통신 경로 유지라는 세 요소가 결합될 때 데이터 유출 도구로 악용될 수 있다. EchoLeak 같은 취약점이 실제 공격 가능성을 보여줬다.",
+        "points": [
+          "'치명적 3요소': 사내 데이터 접근·비신뢰 콘텐츠·외부 통신",
+          "EchoLeak이 실제 악용 가능성 입증",
+          "방어책: 최소 권한 범위 설정",
+          "2의 규칙과 명시적 외부 접근 통제"
+        ],
+        "why": [
+          "코파일럿 배포 시 세 요소를 동시에 허용하지 않는 설계가 필요하다",
+          "AI 도입 보안 검토의 실무 체크리스트로 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "it-apple-mac-mini-mac-studio",
+      "title": "애플 신형 맥 미니·맥 스튜디오 출시",
+      "summary": "M6/M5 Pro 맥 미니와 M5 Max/Ultra 맥 스튜디오가 출시됐으며, 애플은 온디바이스 모델·프라이빗 추론·개발 워크로드와 사용량 기반 클라우드 AI의 대안으로 포지셔닝했다.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today/?utm_source=tldrit",
+      "report": {
+        "tldr": "애플이 데스크톱 맥을 로컬 AI 추론 장비로 내세웠다.",
+        "what": "애플의 신형 맥 미니(M6/M5 Pro)와 맥 스튜디오(M5 Max/Ultra)가 판매를 시작했다. 애플은 이 제품들을 온디바이스 모델, 프라이빗 추론, 개발 워크로드용이자 사용량 기반 클라우드 AI의 대안으로 제시했다.",
+        "points": [
+          "맥 미니: M6/M5 Pro",
+          "맥 스튜디오: M5 Max/Ultra",
+          "온디바이스 모델·프라이빗 추론 겨냥",
+          "클라우드 AI 사용량 과금의 대안으로 포지셔닝"
+        ],
+        "why": [
+          "로컬 AI 추론 수요가 기업 하드웨어 구매 기준을 바꿀 수 있다",
+          "데이터 외부 전송 없는 AI 활용 선택지가 늘어난다"
+        ]
+      }
+    },
+    {
+      "id": "it-entra-id-passkeys",
+      "title": "마이크로소프트, Entra ID 사용자 패스키 전환 촉구",
+      "summary": "SMS 1차 인증 로그인이 2월에 종료되며, 마이크로소프트는 기업에 패스키와 FIDO2 보안 키 같은 피싱 저항형 방식으로 전환할 것을 요구하고 있다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-reminds-admins-to-migrate-entra-id-users-to-passkeys/?utm_source=tldrit",
+      "report": {
+        "tldr": "Entra ID의 SMS 1차 인증이 2월 종료된다.",
+        "what": "마이크로소프트가 관리자들에게 Entra ID 사용자를 패스키로 이전하라고 다시 알렸다. SMS를 1차 인증 수단으로 쓰는 로그인은 2월에 폐지되며, 패스키와 FIDO2 보안 키 같은 피싱 저항형 방식이 권장된다.",
+        "points": [
+          "SMS 1차 인증 로그인 2월 종료",
+          "패스키·FIDO2 보안 키로 전환 권고",
+          "피싱 저항형 인증 강화 흐름"
+        ],
+        "why": [
+          "기한 전 사용자 전환 계획이 없으면 로그인 장애가 생길 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-google-secure-source-manager",
+      "title": "구글 클라우드, CI/CD 파이프라인 보안 통제 추가",
+      "summary": "구글 클라우드가 Secure Source Manager에 저장소와 CI/CD 워크플로를 무단 변경과 소프트웨어 공급망 공격으로부터 보호하는 새 기능을 추가했다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/identity-security/strengthen-your-cicd-pipeline-with-new-secure-source-manager-capabilities?utm_source=tldrit",
+      "report": {
+        "tldr": "관리형 소스 저장소에 공급망 방어 기능이 강화됐다.",
+        "what": "구글 클라우드가 Secure Source Manager에 새로운 보안 기능을 출시했다. 저장소와 CI/CD 워크플로를 무단 변경과 소프트웨어 공급망 공격으로부터 보호하는 것이 목적이다.",
+        "points": [
+          "Secure Source Manager 신규 기능",
+          "저장소·CI/CD 워크플로 보호",
+          "무단 변경과 공급망 공격 방어"
+        ],
+        "why": [
+          "최근 잇따른 공급망 공격 속에 파이프라인 보안 강화 수요에 대응한다"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-previewsrc-image-previews",
+      "title": "흐릿함에서 선명함으로: 웹 이미지 미리보기 제안",
+      "summary": "새로 제안된 previewsrc 속성은 최종 이미지가 준비될 때까지 브라우저가 저해상도 이미지를 보여주게 해, 프레임워크별 플레이스홀더 로직을 대체한다.",
+      "source": "Patrick Brosset",
+      "url": "https://patrickbrosset.com/articles/2026-09-22-blurry-before-beautiful-image-previews-for-the-web/?utm_source=tldrdev",
+      "report": {
+        "tldr": "이미지 플레이스홀더를 브라우저 네이티브 속성으로 처리하자는 제안.",
+        "what": "previewsrc라는 새 HTML 속성 제안이 소개됐다. 브라우저가 최종 이미지를 불러오는 동안 저해상도 미리보기를 표시하도록 해, 지금은 프레임워크마다 따로 구현하는 블러 플레이스홀더 로직을 표준으로 대체하려는 것이다.",
+        "points": [
+          "previewsrc 속성 제안",
+          "최종 이미지 로드 전 저해상도 미리보기 표시",
+          "프레임워크별 플레이스홀더 구현 대체"
+        ],
+        "why": [
+          "표준화되면 JS 없이 체감 로딩 성능을 개선할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "dev-nvidia-evaluate-ai-agents",
+      "title": "AI 에이전트 평가법: 도구 호출부터 작업 완료까지",
+      "summary": "에이전트를 제대로 평가하려면 단계별 채점과 엔드투엔드 채점이 모두 필요하고, 운영 평가에서는 성공률과 함께 일관성·단계 수·비용을 보고해야 한다.",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/how-to-evaluate-ai-agents-from-tool-calls-to-task-completion/?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 평가는 성공률 하나가 아니라 단계·일관성·비용까지 봐야 한다.",
+        "what": "NVIDIA가 AI 에이전트 평가 방법을 정리했다. 도구 호출 같은 개별 단계 채점과 작업 전체 완료 여부 채점을 함께 해야 하며, 운영 환경 평가에서는 성공률 외에 일관성, 소요 단계 수, 비용을 같이 보고할 것을 권한다.",
+        "points": [
+          "단계 수준 + 엔드투엔드 채점 병행",
+          "보고 지표: 성공률·일관성·단계 수·비용"
+        ],
+        "why": [
+          "성공률만 보면 비용 폭증이나 불안정한 에이전트를 놓치기 쉬움"
+        ]
+      }
+    },
+    {
+      "id": "dev-canva-worker-backpressure",
+      "title": "캔바의 워커 백프레셔: 큐 워커가 스스로 속도를 줄이게 하기",
+      "summary": "캔바는 로컬 신호로 큐 워커의 동시성을 동적으로 조절해, 지속적 과부하 상황에서도 시간당 약 200만 메시지 처리량을 유지했다.",
+      "source": "Canva Engineering Blog",
+      "url": "https://www.canva.dev/blog/engineering/worker-backpressure-part-1-how-we-taught-our-queue-workers-to-slow-down/?utm_source=tldrdev",
+      "report": {
+        "tldr": "로컬 신호 기반 동적 동시성 조절로 과부하에서도 처리량을 지켰다.",
+        "what": "캔바가 큐 워커에 동적 동시성 조절을 도입한 경험을 공유했다. 워커가 로컬 신호를 보고 스스로 동시성을 낮추도록 해, 과부하가 지속되는 동안에도 시간당 약 200만 메시지 수준의 처리량을 유지했다.",
+        "points": [
+          "로컬 신호 기반 동적 동시성 조절",
+          "지속 과부하에서도 시간당 약 200만 메시지 유지",
+          "시리즈 1부"
+        ],
+        "why": [
+          "중앙 조정 없이 다운스트림 과부하를 막는 실전 패턴"
+        ]
+      }
+    },
+    {
+      "id": "dev-secretary-problem-hiring",
+      "title": "채용의 비서 문제를 우연히 비켜간 방법",
+      "summary": "지원자에게 재지원을 권하고 커리어 지원 커리큘럼을 결합한 채용 방식으로, 약 300명 지원자 중 5명을 채용하면서 장기적 성장도 지원했다.",
+      "source": "Eval Apply",
+      "url": "https://www.evalapply.org/posts/side-step-secretary-problem-hiring/index.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "재지원 초대와 성장 지원을 결합하면 채용을 일회성 선택 문제에서 벗어나게 할 수 있다.",
+        "what": "한 채용 담당자가 탈락자에게 재지원을 권하고 커리어 성장 커리큘럼을 함께 제공하는 방식을 썼다. 그 결과 약 300명 지원자 중 5명을 채용했고, 지원자들의 장기적 성장도 도왔다.",
+        "points": [
+          "재지원 초대 + 커리어 지원 커리큘럼",
+          "약 300명 중 5명 채용",
+          "비서 문제(최적 정지)의 일회성 제약 회피"
+        ],
+        "why": [
+          "채용 파이프라인을 장기 관계로 보는 대안적 관점"
+        ]
+      }
+    },
+    {
+      "id": "dev-sentry-agent-tracing-debugging",
+      "title": "센트리, 에이전트 트레이싱으로 AI 검색 어시스턴트 디버깅",
+      "summary": "에이전트 트레이싱으로 사용자 정의 숫자 필드에 특정 태그 문법이 필요하다는 프롬프트 형식 버그를 찾았고, 로컬 평가를 계측해 배포 전에 문제를 드러냈다.",
+      "source": "Sentry Blog",
+      "url": "https://blog.sentry.io/debugging-our-ai-search-assistant-with-agent-tracing/?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 트레이싱과 로컬 평가 계측으로 프롬프트 버그를 배포 전에 잡았다.",
+        "what": "센트리가 자사 AI 검색 어시스턴트를 에이전트 트레이싱으로 디버깅한 사례를 공유했다. 사용자 정의 숫자 필드에 특정 태그 문법이 필요했던 프롬프트 형식 버그를 발견했고, 로컬 평가에도 계측을 넣어 운영 배포 전에 문제를 노출시켰다.",
+        "points": [
+          "에이전트 트레이싱으로 프롬프트 형식 버그 발견",
+          "원인: 사용자 정의 숫자 필드의 태그 문법",
+          "로컬 평가 계측으로 사전 검출"
+        ],
+        "why": [
+          "LLM 앱도 일반 서비스처럼 관측성이 핵심 디버깅 도구"
+        ]
+      }
+    },
+    {
+      "id": "dev-leanix-dont-go-all-in-on-ai",
+      "title": "AI에 올인하지 마라: 결정적 워크플로와 에이전트의 하이브리드",
+      "summary": "결정적 워크플로와 에이전트 추론을 결합한 하이브리드 시스템이 일관성을 높인다. 고정 단계는 데이터 집계를, 에이전트는 유연한 해석을 맡는다.",
+      "source": "LeanIX Engineering Blog",
+      "url": "https://engineering.leanix.net/blog/ai-spectrum/?utm_source=tldrdev",
+      "report": {
+        "tldr": "고정 단계와 에이전트를 나눠 쓰는 하이브리드가 일관성에 유리하다.",
+        "what": "LeanIX 엔지니어링팀은 모든 것을 에이전트에 맡기기보다 결정적 워크플로와 에이전트 추론을 섞을 것을 제안한다. 데이터 집계 같은 고정 단계는 코드로 처리하고, 에이전트는 유연한 해석이 필요한 부분에 집중시키면 결과 일관성이 좋아진다.",
+        "points": [
+          "결정적 워크플로 + 에이전트 추론 하이브리드",
+          "고정 단계: 데이터 집계",
+          "에이전트: 유연한 해석 담당"
+        ],
+        "why": [
+          "에이전트 시스템의 비결정성·비용을 줄이는 실용적 설계 원칙"
+        ]
+      }
+    },
+    {
+      "id": "dev-openai-gpt-6-sol-luna",
+      "title": "OpenAI, GPT-6 Sol·Luna 출시",
+      "summary": "GPT-6 제품군에 더 빠르고 저렴한 변형이 추가됐다. 100만 토큰당 입력/출력 가격은 Sol 2/10달러, Luna 0.10/0.50달러다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/?utm_source=tldrdev",
+      "report": {
+        "tldr": "OpenAI가 GPT-6의 저가·고속 변형 두 종을 내놨다.",
+        "what": "OpenAI가 GPT-6 제품군의 확장으로 Sol과 Luna를 공개했다. 둘 다 더 빠르고 저렴한 변형이며, 100만 토큰당 입력/출력 가격은 Sol이 2/10달러, Luna가 0.10/0.50달러다.",
+        "points": [
+          "GPT-6 제품군의 고속·저가 변형",
+          "Sol: 100만 토큰당 $2/$10",
+          "Luna: 100만 토큰당 $0.10/$0.50"
+        ],
+        "why": [
+          "같은 날 Claude Opus 5.5 출시와 맞물려 모델 가격 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "dev-cloudflare-worker-previews",
+      "title": "클라우드플레어, Worker Previews 공개",
+      "summary": "Worker Previews는 Git 브랜치마다 격리된 운영 유사 환경을 제공하고, 코드 변경 시 자동 업데이트되며 관측성이 통합돼 있다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/worker-previews/?utm_source=tldrdev",
+      "report": {
+        "tldr": "Workers에 브랜치별 프리뷰 환경이 기본 제공된다.",
+        "what": "클라우드플레어가 Git 브랜치별로 격리된 운영 유사 환경을 만들어 주는 Worker Previews를 발표했다. 코드가 바뀌면 자동으로 갱신되고 관측성 기능도 통합돼 있다.",
+        "points": [
+          "Git 브랜치별 격리 환경",
+          "운영과 유사한 구성",
+          "코드 변경 시 자동 업데이트",
+          "관측성 통합"
+        ],
+        "why": [
+          "Vercel/Netlify식 프리뷰 배포 경험을 Workers 백엔드까지 확장"
+        ]
+      }
+    },
+    {
+      "id": "dev-anthropic-claude-opus-5-5",
+      "title": "앤트로픽, Claude Opus 5.5 출시",
+      "summary": "Claude Opus 5.5는 Opus 5 대비 작업당 비용이 40% 낮고 토큰을 덜 쓰며, 빠른 모드를 제공한다. 가격은 100만 토큰당 4/20달러이고 보안도 개선됐다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-opus-5-5?utm_source=tldrdev",
+      "report": {
+        "tldr": "Opus 5.5는 더 적은 토큰으로 작업당 비용을 40% 줄였다.",
+        "what": "앤트로픽이 Claude Opus 5.5를 내놨다. Opus 5보다 작업당 비용이 40% 적고 토큰 사용량도 줄었으며, 빠른 모드를 제공한다. 가격은 100만 토큰당 입력 4달러, 출력 20달러이고 보안이 강화됐다.",
+        "points": [
+          "Opus 5 대비 작업당 비용 40% 절감",
+          "토큰 효율 개선, 빠른 모드 제공",
+          "100만 토큰당 $4/$20",
+          "보안 개선"
+        ],
+        "why": [
+          "OpenAI GPT-6 Sol·Luna와 같은 날 출시돼 가격 경쟁 본격화"
+        ]
+      }
+    },
+    {
+      "id": "dev-artificialanalysis-opus-5-5",
+      "title": "Artificial Analysis: Claude Opus 5.5 지능·성능·가격 분석",
+      "summary": "Claude Opus 5.5가 212개 모델 중 Intelligence Index 58점으로 1위를 차지했다. 100만 토큰 컨텍스트를 지원하며 가격은 100만 토큰당 4/20달러다.",
+      "source": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/models/claude-opus-5-5?utm_source=tldrdev",
+      "report": {
+        "tldr": "독립 벤치마크에서 Opus 5.5가 212개 모델 중 1위에 올랐다.",
+        "what": "벤치마크 사이트 Artificial Analysis가 Claude Opus 5.5를 평가했다. Intelligence Index 58점으로 212개 모델 중 1위였고, 100만 토큰 컨텍스트와 100만 토큰당 4/20달러 가격이 확인됐다.",
+        "points": [
+          "Intelligence Index 58점, 212개 모델 중 1위",
+          "100만 토큰 컨텍스트",
+          "100만 토큰당 $4/$20"
+        ],
+        "why": [
+          "출시 직후 제3자 벤치마크로 성능 주장을 교차 확인할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "dev-amd-ryzen-50-percent-faster",
+      "title": "AMD 라이젠은 어떻게 2년 만에 50% 빨라졌나",
+      "summary": "라이젠 7 9800X3D는 5800X3D 대비 47~58% 성능이 올랐다. 더 넓은 실행 폭, 더 큰 캐시, 추가 정수 유닛, 512비트 SIMD 지원 덕분이다.",
+      "source": "Daniel Lemire's Blog",
+      "url": "https://lemire.me/blog/2026/09/18/how-did-amd-ryzen-get-50-faster-in-two-years/?utm_source=tldrdev",
+      "report": {
+        "tldr": "마이크로아키텍처 개선이 누적돼 2년 새 최대 58% 성능 향상을 이뤘다.",
+        "what": "다니엘 르미어가 라이젠 7 9800X3D와 5800X3D를 비교했다. 47~58%의 성능 향상은 더 넓은 실행 폭, 더 큰 캐시, 추가 정수 연산 유닛, 512비트 SIMD 지원에서 나왔다고 분석했다.",
+        "points": [
+          "9800X3D vs 5800X3D: 47~58% 향상",
+          "더 넓은 실행 폭과 더 큰 캐시",
+          "정수 유닛 추가, 512비트 SIMD 지원"
+        ],
+        "why": [
+          "SIMD 최적화 코드가 최신 CPU에서 더 큰 이득을 얻는다는 점"
+        ]
+      }
+    },
+    {
+      "id": "dev-website-boss-fight",
+      "title": "내 웹사이트에 보스전을 넣었다",
+      "summary": "개인 사이트를 개편해 픽셀아트 내비게이션, 플레이 가능한 장면, 인터랙티브 보스전을 순수 자바스크립트와 CSS로 구현했다.",
+      "source": "Paul Bakaus",
+      "url": "https://www.paulbakaus.com/i-gave-my-website-a-boss-fight/?utm_source=tldrdev",
+      "report": {
+        "tldr": "프레임워크 없이 바닐라 JS·CSS로 게임 같은 개인 사이트를 만들었다.",
+        "what": "폴 바카우스가 개인 웹사이트를 게임처럼 재설계했다. 서로 연결된 픽셀아트 내비게이션과 플레이 가능한 장면, 인터랙티브 보스전을 바닐라 자바스크립트와 CSS만으로 만들었다.",
+        "points": [
+          "픽셀아트 연결형 내비게이션",
+          "플레이 가능한 장면과 보스전",
+          "바닐라 JS와 CSS로 구현"
+        ],
+        "why": [
+          "웹 플랫폼 기본 기능만으로도 풍부한 인터랙션이 가능함을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "dev-unfinished-work-package-security",
+      "title": "패키지 보안에 남은 과제",
+      "summary": "패키지 보안 생태계는 접근 제어 검증, 승격 경로 거버넌스, 애플리케이션 락파일을 넘어선 의존성 추적을 강화해야 한다.",
+      "source": "Andrew Nesbitt",
+      "url": "https://nesbitt.io/2026/09/22/unfinished-work-in-package-security.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "락파일만으로는 부족하며, 접근 제어와 배포 경로까지 검증해야 한다.",
+        "what": "패키지 보안 생태계에 아직 남은 과제를 정리한 글이다. 레지스트리 접근 제어를 더 강하게 검증하고, 패키지 승격 경로를 통제하며, 애플리케이션 락파일 밖의 의존성까지 추적해야 한다고 주장한다.",
+        "points": [
+          "접근 제어 검증 강화",
+          "승격 경로 거버넌스",
+          "락파일을 넘어선 의존성 추적"
+        ],
+        "why": [
+          "공급망 공격이 늘면서 레지스트리·배포 경로 전반의 보안이 중요해짐"
+        ]
+      }
+    },
+    {
+      "id": "dev-floci-aws-emulator",
+      "title": "Floci: 로컬 개발·CI용 AWS 에뮬레이터",
+      "summary": "Floci는 SDK, CLI, Terraform과 호환되는 AWS 에뮬레이터로, 계정이나 인증 없이 로컬 개발과 CI에서 쓸 수 있다.",
+      "source": "GitHub",
+      "url": "https://github.com/floci-io/floci?utm_source=tldrdev",
+      "report": {
+        "tldr": "계정 없이 쓰는 LocalStack류 AWS 에뮬레이터.",
+        "what": "Floci는 로컬 개발과 CI 환경을 위한 오픈소스 AWS 에뮬레이터다. AWS SDK, CLI, Terraform과 호환되며 AWS 계정이나 인증이 필요 없다.",
+        "points": [
+          "AWS SDK·CLI·Terraform 호환",
+          "계정·인증 불필요",
+          "로컬 개발 및 CI 대상"
+        ],
+        "why": [
+          "클라우드 비용과 자격증명 관리 없이 통합 테스트 가능"
+        ]
+      }
+    },
+    {
+      "id": "dev-cloudflare-vary-cache-rules",
+      "title": "클라우드플레어 Cache Rules, Vary 헤더 지원",
+      "summary": "Cache Rules가 HTTP Vary 헤더를 지원해 협상 헤더를 정규화하거나 정확한 값을 보존하거나, 예측 불가능한 변형은 캐시를 우회할 수 있게 됐다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/vary-support/?utm_source=tldrdev",
+      "report": {
+        "tldr": "Vary 헤더 기반 콘텐츠 협상을 캐시 규칙에서 세밀하게 다룰 수 있게 됐다.",
+        "what": "클라우드플레어 Cache Rules가 HTTP Vary 헤더를 지원한다. 협상 헤더를 정규화하거나, 정확한 값을 그대로 보존하거나, 변형이 예측 불가능한 경우 캐시를 우회하는 세 가지 방식을 고를 수 있다.",
+        "points": [
+          "Vary 헤더 지원 추가",
+          "옵션: 정규화 / 정확한 값 보존 / 캐시 우회"
+        ],
+        "why": [
+          "이미지 포맷·언어 협상 등에서 캐시 적중률과 정확성을 함께 확보"
+        ]
+      }
+    }
+  ]
+}

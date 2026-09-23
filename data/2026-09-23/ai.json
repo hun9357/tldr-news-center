@@ -1,0 +1,335 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-gpt-6-sol-luna",
+      "title": "OpenAI, GPT-6 Sol·Luna 공개",
+      "summary": "GPT-6 Astra보다 빠르고 저렴한 후속 라인업으로 코딩, 사실성, 컴퓨터 사용, 전문 업무 성능을 끌어올렸다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/?utm_source=tldrai",
+      "report": {
+        "tldr": "GPT-6 계열이 속도·가격 중심의 하위 모델로 확장됐다.",
+        "what": "OpenAI가 GPT-6 Astra의 더 빠르고 저렴한 버전인 GPT-6 Sol과 Luna를 공개했다. 코딩, 사실성, 컴퓨터 사용, 전문 업무에서 개선을 내세웠다.",
+        "points": [
+          "GPT-6 Astra 대비 빠르고 저렴",
+          "코딩·사실성 개선",
+          "컴퓨터 사용 및 전문 업무 성능 향상",
+          "Claude Opus 5.5와 같은 날 출시"
+        ],
+        "why": [
+          "비용 민감한 대량 워크로드에서 GPT-6급 성능을 쓸 수 있게 된다",
+          "Anthropic과의 가격 경쟁이 가속된다"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-opus-5-5",
+      "title": "Anthropic, Claude Opus 5.5 출시",
+      "summary": "Claude Fable 5.1 수준의 성능을 40% 낮은 운영 비용으로 제공하며 행동 감사에서도 좋은 결과를 냈다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-opus-5-5?utm_source=tldrai",
+      "report": {
+        "tldr": "최상위 성능을 더 싼 값에 제공하는 모델이다.",
+        "what": "Anthropic이 Claude Opus 5.5를 출시했다. Claude Fable 5.1과 맞먹는 성능을 40% 낮은 운영 비용으로 제공하며, 행동 감사(behavioral audit)에서도 강한 결과를 보였다.",
+        "points": [
+          "Fable 5.1급 성능",
+          "운영 비용 40% 절감",
+          "행동 감사에서 우수한 결과",
+          "GPT-6 Sol·Luna와 같은 날 발표"
+        ],
+        "why": [
+          "고성능 모델의 비용 장벽이 낮아져 에이전트·코딩 활용이 확대된다"
+        ]
+      }
+    },
+    {
+      "id": "ai-swe-bench-pro-v2",
+      "title": "SWE-Bench Pro V2 공개",
+      "summary": "11개 저장소 642개 과제로 오류를 바로잡은 새 벤치마크에서 GPT-5와 Opus 4.1이 약 23%에 그쳤다.",
+      "source": "Scale Labs",
+      "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public_v2?utm_source=tldrai",
+      "report": {
+        "tldr": "코딩 에이전트 평가 기준이 한층 어려워졌다.",
+        "what": "Scale Labs가 SWE-Bench Pro V2 리더보드를 공개했다. 11개 저장소의 642개 과제로 구성되며 기존 오류를 수정했고, GPT-5와 Opus 4.1이 약 23%를 기록해 난이도 상승을 보여준다.",
+        "points": [
+          "11개 저장소, 642개 과제",
+          "기존 벤치마크 오류 수정",
+          "GPT-5·Opus 4.1 약 23% 기록"
+        ],
+        "why": [
+          "포화된 코딩 벤치마크를 대체해 모델 간 변별력을 되살린다"
+        ]
+      }
+    },
+    {
+      "id": "ai-perplexity-real-world-tool-use",
+      "title": "Perplexity, 실제 도구 사용 경험으로 AI 학습",
+      "summary": "거부 샘플링 미세조정과 힌트 기반 자기 증류를 결합해 성공 사례와 교정된 실패 사례 모두에서 학습한다.",
+      "source": "Perplexity",
+      "url": "https://www.perplexity.ai/hub/blog/learning-from-real-world-experience?utm_source=tldrai",
+      "report": {
+        "tldr": "실사용 로그의 성공·실패를 모두 학습 신호로 쓴다.",
+        "what": "Perplexity가 실제 도구 사용 경험으로 모델을 학습시키는 방법을 소개했다. 거부 샘플링 미세조정(RFT)과 힌트 기반 자기 증류를 결합해 성공한 사례와 교정된 실패 사례 모두에서 배운다.",
+        "points": [
+          "거부 샘플링 미세조정 활용",
+          "힌트 기반 자기 증류 결합",
+          "성공과 교정된 실패 모두 학습"
+        ],
+        "why": [
+          "프로덕션 데이터를 학습 루프로 되돌리는 실전형 에이전트 개선 방식이다"
+        ]
+      }
+    },
+    {
+      "id": "ai-khosla-two-moats-personal-ai",
+      "title": "비노드 코슬라: 개인 AI의 두 가지 해자",
+      "summary": "신뢰와 과업 완수가 개인 AI의 경쟁 우위이며, 메타는 신뢰 측면에서 불리하다는 견해다.",
+      "source": "X (TBPN)",
+      "url": "https://x.com/tbpn/status/2102177383306670393?utm_source=tldrai",
+      "report": {
+        "tldr": "개인 AI 경쟁은 신뢰와 실행력에서 갈린다.",
+        "what": "비노드 코슬라는 개인 AI의 경쟁 우위로 \"신뢰\"와 \"과업 완수\"를 꼽았다. 메타는 신뢰 측면에서 불리한 위치에 있다고 평가했다.",
+        "points": [
+          "해자 1: 신뢰",
+          "해자 2: 과업 완수",
+          "메타는 신뢰에서 약점"
+        ],
+        "why": [
+          "개인 비서형 AI 시장에서 브랜드 신뢰가 기술만큼 중요해진다"
+        ]
+      }
+    },
+    {
+      "id": "ai-what-a-task-costs-opus-5-5",
+      "title": "Opus 5.5에서 작업 하나에 드는 비용",
+      "summary": "더 저렴한 가격과 캐시 읽기로 토큰 비용이 줄었지만 실제 비용은 세션 길이와 복잡도에 따라 달라진다.",
+      "source": "Claude Blog",
+      "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5?utm_source=tldrai",
+      "report": {
+        "tldr": "실제 작업 단위 비용은 캐시 활용과 세션 설계에 달렸다.",
+        "what": "Anthropic이 Opus 5.5에서 작업당 비용을 분석했다. 낮아진 가격과 캐시 읽기로 토큰 비용이 줄었지만, 세션 길이와 복잡도에 따라 비용은 달라진다.",
+        "points": [
+          "가격 인하로 토큰 비용 감소",
+          "캐시 읽기가 비용 절감에 기여",
+          "세션 길이·복잡도에 따라 비용 편차"
+        ],
+        "why": [
+          "모델 단가보다 작업 단위 총비용으로 비교해야 함을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-rrsi-self-improving-agents",
+      "title": "구글, 자기개선 AI 에이전트용 RRSI 발표",
+      "summary": "벤치마크 과적합을 줄이면서 8개 벤치마크에서 분포 외 성능을 개선하는 방법이다.",
+      "source": "Google",
+      "url": "https://regularized-rsi.com/?utm_source=tldrai",
+      "report": {
+        "tldr": "자기개선 에이전트의 과적합 문제를 정규화로 완화한다.",
+        "what": "구글이 자기개선 AI 에이전트를 위한 정규화 재귀 자기개선(RRSI) 방법을 공개했다. 벤치마크 과적합을 줄이고 8개 벤치마크에서 분포 외(OOD) 성능을 높였다.",
+        "points": [
+          "정규화된 재귀 자기개선 기법",
+          "벤치마크 과적합 감소",
+          "8개 벤치마크에서 OOD 성능 향상"
+        ],
+        "why": [
+          "자기개선 루프가 벤치마크만 맞추는 문제를 줄여 실제 일반화에 기여한다"
+        ]
+      }
+    },
+    {
+      "id": "ai-vllm-hardware-agnostic-models",
+      "title": "vLLM의 하드웨어 독립 모델",
+      "summary": "하드웨어 독립 레이어로 다양한 하드웨어를 지원하면서 H100에서 96.6% 효율을 달성했다.",
+      "source": "PyTorch",
+      "url": "https://pytorch.org/blog/hardware-agnostic-models-in-vllm/?utm_source=tldrai",
+      "report": {
+        "tldr": "이식성과 성능을 동시에 잡는 추론 구조다.",
+        "what": "PyTorch 블로그가 vLLM의 하드웨어 독립 모델 구현을 소개했다. 하드웨어 독립 레이어를 통해 다양한 하드웨어를 지원하면서도 H100 GPU에서 96.6% 효율을 유지한다.",
+        "points": [
+          "하드웨어 독립 레이어 도입",
+          "H100에서 96.6% 효율",
+          "다양한 하드웨어 지원"
+        ],
+        "why": [
+          "엔비디아 외 가속기로의 추론 이전 비용을 낮춘다"
+        ]
+      }
+    },
+    {
+      "id": "ai-moe-training-fixed-gpu-memory",
+      "title": "고정 GPU 메모리 안에서 대형 MoE 학습하기",
+      "summary": "연산을 근사하지 않고 스케줄링 기법으로 대규모 MoE 학습의 메모리 병목을 해결하는 연구다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2609.14306?utm_source=tldrai",
+      "report": {
+        "tldr": "정확도 손실 없이 MoE 학습 메모리 문제를 다룬다.",
+        "what": "대규모 MoE 학습에서 발생하는 메모리 병목을 스케줄링 기법으로 해결하는 논문이다. 연산을 근사하지 않고도 고정된 GPU 메모리 안에서 학습을 유지한다.",
+        "points": [
+          "대형 MoE 학습의 메모리 병목 대상",
+          "스케줄링 기반 해법",
+          "연산 근사 없음"
+        ],
+        "why": [
+          "같은 하드웨어로 더 큰 MoE 모델을 학습할 수 있게 된다"
+        ]
+      }
+    },
+    {
+      "id": "ai-cxmt-dram-caught-up",
+      "title": "중국 최대 메모리 업체 CXMT \"삼성·마이크론 따라잡았다\"",
+      "summary": "CXMT의 5세대 DRAM 플랫폼은 웨이퍼당 다이가 50% 늘었고 24Gb LPDDR5X는 50% 더 많은 데이터를 담는다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/cxmt-dram-fifth-generation-mass-production-memory-shortage?utm_source=tldrai",
+      "report": {
+        "tldr": "중국 DRAM이 선두권 기술 격차를 좁혔다고 주장한다.",
+        "what": "중국 최대 메모리 업체 CXMT가 삼성과 마이크론을 따라잡았다고 밝혔다. 5세대 DRAM 플랫폼은 웨이퍼당 다이 수가 50% 늘었고, 24기가비트 LPDDR5X는 50% 더 많은 데이터를 저장한다.",
+        "points": [
+          "5세대 DRAM 플랫폼 양산",
+          "웨이퍼당 다이 50% 증가",
+          "24Gb LPDDR5X 용량 50% 증가"
+        ],
+        "why": [
+          "AI발 메모리 부족 국면에서 공급 구도와 미중 기술 경쟁에 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "ai-biological-computing-aws",
+      "title": "Biological Computing Co., AWS와 뉴런 기반 AI 영상 모델 판매",
+      "summary": "살아있는 뉴런을 배양해 AI를 개선하는 스타트업이 AWS 파트너십으로 뉴런 유래 영상 모델을 경량 소프트웨어 레이어로 제공한다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/biological-computing-co-aws-neuron-derived-ai-video-model?utm_source=tldrai",
+      "report": {
+        "tldr": "생물학적 컴퓨팅이 클라우드 상품으로 등장했다.",
+        "what": "살아있는 뉴런을 배양해 AI 개선에 활용하는 스타트업 The Biological Computing Co.가 AWS와 손잡았다. 뉴런에서 유래한 AI 영상 모델을 경량 소프트웨어 레이어 형태로 판매한다.",
+        "points": [
+          "살아있는 뉴런을 배양하는 스타트업",
+          "AWS와 파트너십",
+          "뉴런 유래 영상 모델을 경량 레이어로 제공"
+        ],
+        "why": [
+          "바이오 컴퓨팅이 연구 단계를 넘어 상용 유통 채널을 확보했다"
+        ]
+      }
+    },
+    {
+      "id": "ai-gpt-6-astra-enigma",
+      "title": "GPT-6 Astra, 미해독 에니그마 메시지 분석",
+      "summary": "GPT-6 Astra가 해독되지 않은 에니그마 메시지들을 분석해 Nr. 172를 가장 유력한 후보로 지목했다.",
+      "source": "Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html?utm_source=tldrai",
+      "report": {
+        "tldr": "LLM이 고전 암호 해독 연구에까지 쓰이고 있다.",
+        "what": "브루스 슈나이어 블로그에 따르면 GPT-6 Astra가 그동안 풀리지 않은 에니그마 메시지들을 분석했다. 그 결과 Nr. 172를 가장 유망한 해독 후보로 식별했다.",
+        "points": [
+          "미해독 에니그마 메시지 분석",
+          "Nr. 172를 최유력 후보로 지목",
+          "GPT-6 Astra 활용"
+        ],
+        "why": [
+          "LLM의 암호 분석 능력이 실제 사례로 확인되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "ai-altman-amodei-un-security-council",
+      "title": "올트먼·아모데이, 유엔 안보리 AI 회의 참석 예정",
+      "summary": "OpenAI와 Anthropic CEO가 AI 안전과 규제 체계를 주제로 유엔 안전보장이사회에서 발언할 예정이다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/22/altman-amodei-unga-ai-safety.html?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 안전이 국제 안보 의제로 올라섰다.",
+        "what": "OpenAI의 샘 올트먼과 Anthropic의 다리오 아모데이가 유엔 안전보장이사회 AI 회의에 참석할 예정이다. AI 안전과 규제 체계가 주제다.",
+        "points": [
+          "두 CEO가 유엔 안보리 회의 참석",
+          "AI 안전 논의",
+          "규제 프레임워크 논의"
+        ],
+        "why": [
+          "국제 AI 거버넌스 논의에 주요 연구소가 직접 참여한다"
+        ]
+      }
+    },
+    {
+      "id": "ai-meta-muse-openclaw",
+      "title": "메타, Muse가 OpenClaw와 닮은 건 우연 아니라고 인정",
+      "summary": "메타가 Muse를 처음부터 만들었지만 오픈소스 OpenClaw 프로젝트에서 크게 영감을 받았다고 인정했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/22/meta-admits-muses-likeness-to-openclaw-isnt-a-coincidence/?utm_source=tldrai",
+      "report": {
+        "tldr": "빅테크 제품이 오픈소스 에이전트 설계를 차용하고 있다.",
+        "what": "메타가 자사 Muse가 오픈소스 프로젝트 OpenClaw와 닮은 것이 우연이 아니라고 인정했다. Muse는 처음부터 새로 구축했지만 OpenClaw에서 크게 영감을 받았다는 설명이다.",
+        "points": [
+          "Muse와 OpenClaw의 유사성 인정",
+          "코드는 처음부터 새로 작성",
+          "설계상 큰 영감을 받음"
+        ],
+        "why": [
+          "오픈소스 프로젝트가 빅테크 제품 방향을 좌우하는 사례다"
+        ]
+      }
+    },
+    {
+      "id": "ai-derived-data-ai-training",
+      "title": "AI 학습의 \"파생 데이터\" 문제에 주목해야",
+      "summary": "창작물을 AI가 재작성한 뒤 학습에 쓰는 파생 데이터 문제가 더 많은 관심을 받아야 한다는 주장이다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2102311135441547405.html?utm_source=tldrai",
+      "report": {
+        "tldr": "재작성된 데이터도 저작권·출처 논의에서 빠질 수 없다.",
+        "what": "창작 콘텐츠를 AI로 재작성한 뒤 학습에 사용하는 \"파생 데이터\"가 AI 개발 논의에서 더 주목받아야 한다는 스레드다.",
+        "points": [
+          "파생 데이터 = AI가 재작성한 창작 콘텐츠",
+          "학습 전에 재작성 과정 거침",
+          "논의가 부족하다는 문제 제기"
+        ],
+        "why": [
+          "학습 데이터 권리 논쟁이 원본을 넘어 파생 데이터로 확대될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "ai-better-gpt-6-prompt-caching",
+      "title": "GPT-6 프롬프트 캐싱 개선",
+      "summary": "기본 캐시 적중률을 높이고 30분 내 공유 프리픽스 할인과 모니터링 도구를 추가했다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6/?utm_source=tldrai",
+      "report": {
+        "tldr": "캐싱 개선으로 GPT-6 실사용 비용이 더 낮아진다.",
+        "what": "OpenAI가 GPT-6의 프롬프트 캐싱을 개선했다. 기본 적중률을 높이고, 30분 안에 공유 프리픽스를 재사용하면 할인해 주며, 모니터링 도구도 제공한다.",
+        "points": [
+          "기본 캐시 적중률 향상",
+          "30분 내 공유 프리픽스 할인",
+          "캐시 모니터링 도구 제공"
+        ],
+        "why": [
+          "Anthropic의 캐시 기반 비용 절감과 맞붙는 가격 경쟁의 일부다"
+        ]
+      }
+    },
+    {
+      "id": "ai-involution-without-export",
+      "title": "수출 없는 내권(內卷)은 헛수고",
+      "summary": "국내 시장에서의 과당 경쟁은 해외 시장 확장 없이는 가치가 없다는 논평이다.",
+      "source": "Earned Intuition",
+      "url": "https://earnedintuition.substack.com/p/involution-without-export-is-wasted?utm_source=tldrai",
+      "report": {
+        "tldr": "내수 경쟁만으로는 성과를 거두기 어렵다.",
+        "what": "국내 시장에서의 치열한 경쟁(내권)은 해외 시장 확장이 동반되지 않으면 낭비라는 논평이다.",
+        "points": [
+          "내권 = 국내 과당 경쟁",
+          "해외 확장 없이는 가치 제한",
+          "수출 전략의 중요성 강조"
+        ],
+        "why": [
+          "중국 AI 기업들의 해외 진출 전략을 이해하는 관점을 제공한다"
+        ]
+      }
+    }
+  ]
+}
