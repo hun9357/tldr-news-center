@@ -1,0 +1,246 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-advertising-ai-tv-lags",
+      "title": "광고는 AI로 가는데 TV는 느리다",
+      "summary": "2030년 광고 매출의 27%가 AI 플랫폼을 거칠 수 있지만, TV는 복잡한 워크플로와 분절된 인벤토리 탓에 2026년 3% 성장에 그칠 전망이다.",
+      "source": "Mike Shields",
+      "url": "https://mikeshields.substack.com/p/advertising-is-going-ai-tv-isnt?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 광고 전환에서 TV가 구조적 이유로 뒤처지고 있다.",
+        "what": "Mike Shields는 2030년까지 광고 매출의 27%가 AI 기반 플랫폼을 통해 흐를 수 있다고 분석했다. 반면 TV는 복잡한 워크플로와 분절된 인벤토리 때문에 변화가 느리며 2026년 성장률은 3%로 예상된다.",
+        "points": [
+          "2030년 광고 매출 27%가 AI 플랫폼 경유 가능",
+          "TV 광고 2026년 성장 전망 3%",
+          "복잡한 워크플로·분절된 인벤토리가 걸림돌"
+        ],
+        "why": [
+          "광고 예산이 자동화된 AI 플랫폼으로 이동할 가능성",
+          "TV 사업자에게 운영 단순화 압박"
+        ]
+      }
+    },
+    {
+      "id": "marketing-lower-income-financial-vulnerability",
+      "title": "재정적으로 취약하다고 느끼는 저소득 가구 증가",
+      "summary": "2026년 재정 취약 가구 비중이 17%로 늘었고, 소비자들은 100억 달러 이상을 재량 소비에서 필수품으로 옮겼다.",
+      "source": "Retail Dive",
+      "url": "https://www.retaildive.com/news/lower-income-households-financially-vulnerable-financial-health-network/831129/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "저소득층 소비가 재량 품목에서 필수품으로 이동 중이다.",
+        "what": "Financial Health Network 조사에 따르면 재정적으로 취약한 가구 비중이 2026년 17%로 증가했다. 소비자들은 100억 달러 이상을 재량 구매에서 필수 구매로 옮겼고, 물가는 2018년 이후 35% 올랐다.",
+        "points": [
+          "재정 취약 가구 17%로 증가",
+          "100억 달러 이상이 재량→필수 소비로 이동",
+          "2018년 이후 물가 35% 상승"
+        ],
+        "why": [
+          "재량 소비재 브랜드는 가격·가치 메시지 재점검 필요",
+          "타깃 세그먼트별 수요 변화 모니터링 중요"
+        ]
+      }
+    },
+    {
+      "id": "marketing-california-ab1130-influencer-fines",
+      "title": "캘리포니아, 숨긴 정치 광고 게시물당 5천 달러 벌금",
+      "summary": "캘리포니아 AB 1130은 유료 정치 게시물을 밝히지 않은 크리에이터에게 게시물당 최대 5천 달러 벌금을 부과할 수 있게 한다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/california-ab-1130-paid-political-posts-influencer-fine?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "인플루언서 정치 광고의 공시 의무에 실질적 벌금이 붙었다.",
+        "what": "캘리포니아 AB 1130은 공개되지 않은 유료 정치 게시물에 대해 건당 최대 5천 달러의 벌금을 가능하게 한다. 집행 권한은 공정정치관행위원회(FPPC)가 갖는다.",
+        "points": [
+          "미공개 유료 정치 게시물당 최대 5천 달러",
+          "FPPC가 집행 권한 보유",
+          "크리에이터 대상 규제"
+        ],
+        "why": [
+          "인플루언서 캠페인 공시 관리가 법적 리스크로 부상",
+          "다른 주로 확산될 가능성"
+        ]
+      }
+    },
+    {
+      "id": "marketing-aeo-optimized-page",
+      "title": "AEO에 완벽히 최적화된 페이지",
+      "summary": "AI 검색 최적화를 위한 6가지 체크리스트로 크롤러 허용, 간결한 첫 문장, 구조화 데이터, 콘텐츠 최신성을 제시한다.",
+      "source": "Nectiv Digital",
+      "url": "https://nectivdigital.com/blog/the-perfectly-optimized-page-for-aeo-ai-search?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 검색 인용을 받으려면 크롤러 접근·간결성·구조화·최신성을 챙겨라.",
+        "what": "Nectiv Digital이 AI 검색(AEO)에 최적화된 페이지의 6가지 요소를 정리했다. 크롤러 허용, 간결한 첫 문장, 구조화 데이터 등이 포함되며, 3개월 미만 페이지는 인용 확률이 3배 높다고 한다.",
+        "points": [
+          "AI 크롤러 접근 허용",
+          "핵심을 담은 간결한 첫 문장",
+          "구조화 데이터 적용",
+          "3개월 미만 페이지 인용 확률 3배(보고)"
+        ],
+        "why": [
+          "검색 트래픽이 AI 답변으로 이동하는 가운데 실무 체크리스트 제공"
+        ]
+      }
+    },
+    {
+      "id": "marketing-agent-growth-team",
+      "title": "에이전트로 성장팀을 꾸려 6자리 매출 사업 운영하기",
+      "summary": "1인 운영자가 오케스트레이터와 10개 채널 에이전트로 월 900 가입, 200 고객을 목표로 하며 실행과 승인을 분리했다.",
+      "source": "The Indie Preneur",
+      "url": "https://theindiepreneur.substack.com/p/i-built-growth-team-out-agents-here-exactly-works?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "에이전트가 실행하고 사람이 승인하는 1인 성장팀 구조.",
+        "what": "한 1인 사업자가 오케스트레이터 에이전트와 10개 채널 에이전트로 성장팀을 구성했다. 월 900건 가입과 200명 고객을 목표로 하며, 실행 작업과 승인 결정을 분리해 운영한다.",
+        "points": [
+          "오케스트레이터 + 10개 채널 에이전트",
+          "월 900 가입·200 고객 목표",
+          "실행과 승인 결정의 분리"
+        ],
+        "why": [
+          "소규모 팀의 마케팅 자동화 설계 참고 사례"
+        ]
+      }
+    },
+    {
+      "id": "marketing-gpt-6-sol-luna",
+      "title": "OpenAI, GPT-6 Sol과 Luna 공개",
+      "summary": "일상 작업과 에이전트용 더 빠르고 저렴한 모델 두 종으로, Sol은 입력/출력 100만 토큰당 2/10달러, Luna는 0.10/0.50달러다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "에이전트용 저가 모델로 AI 마케팅 자동화 비용이 더 내려간다.",
+        "what": "OpenAI가 일상 업무와 에이전트를 위한 더 빠르고 저렴한 모델 GPT-6 Sol과 Luna를 발표했다. Sol은 100만 토큰당 2달러/10달러, Luna는 0.10달러/0.50달러이며 둘 다 이전보다 50% 저렴하다.",
+        "points": [
+          "Sol: 100만 토큰당 입력 2달러/출력 10달러",
+          "Luna: 0.10달러/0.50달러",
+          "기존 대비 50% 저렴",
+          "에이전트 워크로드 겨냥"
+        ],
+        "why": [
+          "대량 콘텐츠·분류 작업의 단가 하락",
+          "에이전트 기반 마케팅 운영의 경제성 개선"
+        ]
+      }
+    },
+    {
+      "id": "marketing-looker-studio-ai-traffic",
+      "title": "AI 유입 트래픽 모니터링용 무료 Looker Studio 리포트",
+      "summary": "Google Analytics에 연결해 AI 도구와 페이지별로 AI발 웹사이트 트래픽을 시각화하는 무료 템플릿이다.",
+      "source": "LinkedIn (Chloe Christine Allerton)",
+      "url": "https://www.linkedin.com/posts/chloe-christine-allerton_i-made-you-a-free-looker-studio-report-to-share-7508234535520628737-UYjQ/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 검색 유입을 도구·페이지별로 바로 추적할 수 있는 템플릿.",
+        "what": "Chloe Christine Allerton이 GA에 연결되는 무료 Looker Studio 리포트를 공개했다. AI 도구에서 유입된 트래픽을 도구별, 페이지별로 나눠 보여준다.",
+        "points": [
+          "Google Analytics 연동",
+          "AI 도구별 유입 분석",
+          "페이지별 분석",
+          "무료 템플릿"
+        ],
+        "why": [
+          "AEO 성과 측정의 출발점"
+        ]
+      }
+    },
+    {
+      "id": "marketing-child-free-internet",
+      "title": "아이 없는 인터넷은 어떤 모습일까",
+      "summary": "호주의 16세 미만 SNS 금지로 470만 계정이 비활성화됐고, 감시가 어려운 플랫폼으로의 이동이 브랜드 노출에도 영향을 줄 수 있다.",
+      "source": "Wired Middle East",
+      "url": "https://www.wired.me/story/what-would-a-child-free-internet-look-like?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "청소년 SNS 금지가 브랜드의 청소년 도달 방식을 바꾼다.",
+        "what": "호주의 16세 미만 소셜미디어 금지 조치로 470만 개 계정이 비활성화됐다. 분석에 따르면 청소년이 모니터링이 어려운 플랫폼으로 옮겨가면서 브랜드의 노출이 줄고 커뮤니티 접근도 제한될 수 있다.",
+        "points": [
+          "호주 16세 미만 SNS 금지로 470만 계정 비활성화",
+          "감시가 어려운 플랫폼으로 이동",
+          "청소년 대상 브랜드 가시성 감소 가능"
+        ],
+        "why": [
+          "청소년 타깃 마케팅 채널 전략 재검토 필요",
+          "다른 국가 규제 확산 시 파급"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-polling-synthetic-surveys",
+      "title": "AI 여론조사: 합성 설문이 실제 행동을 예측할 수 있을까",
+      "summary": "행동을 시뮬레이션하는 합성 설문은 몇 시간 만에 절반 비용으로 결과를 내지만, 하위 집단 차이를 놓치고 불확실성을 거의 인정하지 않는다.",
+      "source": "Contrary Research",
+      "url": "https://research.contrary.com/report/ai-polling-how-synthetic-surveys-could-predict-real-behavior?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "합성 설문은 빠르고 싸지만 세그먼트와 불확실성에 약하다.",
+        "what": "Contrary Research는 사람에게 묻는 대신 행동을 시뮬레이션하는 합성 설문을 분석했다. 몇 시간 만에 절반 비용으로 결과를 얻지만, 하위 집단의 차이를 놓치고 학습 데이터 밖에서는 불확실성을 거의 드러내지 않는다.",
+        "points": [
+          "몇 시간 내 결과, 비용 절반",
+          "하위 집단 편차 포착 한계",
+          "학습 데이터 밖에서 불확실성 과소 표현"
+        ],
+        "why": [
+          "시장조사에 합성 응답을 쓸 때 검증 설계가 필수"
+        ]
+      }
+    },
+    {
+      "id": "marketing-meta-muse-human-call-center",
+      "title": "메타 Muse의 AI 에이전트 통화, 실제로는 콜센터 인력이",
+      "summary": "메타가 AI로 홍보한 Muse의 통화 기능에 콜센터 인력이 관여했고, 테스터 상당수는 사람과 통화한 사실을 몰랐다고 404 Media가 보도했다.",
+      "source": "404 Media",
+      "url": "https://www.404media.co/meta-tests-muse-ai-agent-calls-that-are-actually-made-by-humans-in-a-call-center/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 에이전트 기능 뒤에 사람이 있었다는 투명성 논란.",
+        "what": "404 Media에 따르면 메타는 Muse를 AI라고 공개적으로 홍보했지만 내부 문서상 콜센터 인력이 통화에 관여했다. 테스터들은 종종 자신이 사람과 통화했다는 사실을 알지 못했다.",
+        "points": [
+          "Muse 통화 테스트에 인간 콜센터 참여",
+          "공개 홍보와 내부 문서의 불일치",
+          "테스터 다수가 인지하지 못함"
+        ],
+        "why": [
+          "AI 기능 마케팅의 투명성·신뢰 이슈",
+          "에이전트 기능 성숙도에 대한 현실 점검"
+        ]
+      }
+    },
+    {
+      "id": "marketing-small-merchants-ai-shopping-agents",
+      "title": "소상공인 11%만 AI 쇼핑 에이전트 대응 준비",
+      "summary": "AI 쇼핑 에이전트 도입의 병목은 AI 역량이 아니라 판매자 인프라의 한계라는 분석이다.",
+      "source": "Forkast",
+      "url": "https://forkast.news/only-11-of-small-merchants-are-ready-for-ai-shopping-agents/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "에이전틱 커머스의 병목은 판매자 인프라다.",
+        "what": "Forkast는 소규모 판매자의 11%만이 AI 쇼핑 에이전트에 대응할 준비가 돼 있다고 전했다. 도입을 막는 것은 AI 능력이 아니라 판매자 측 인프라의 한계라는 분석이다.",
+        "points": [
+          "소상공인 준비율 11%",
+          "병목은 판매자 인프라",
+          "AI 역량 자체는 문제가 아님"
+        ],
+        "why": [
+          "에이전트가 읽을 수 있는 상품 데이터·결제 인프라 정비가 경쟁력"
+        ]
+      }
+    },
+    {
+      "id": "marketing-b2b-product-content-examples",
+      "title": "제품 콘텐츠가 지루할 필요 없음을 보여준 4개 브랜드",
+      "summary": "Canva, Ramp, Optimizely, Notion의 사례로 흥미로운 B2B 제품 메시지 전략을 소개한다.",
+      "source": "LinkedIn (Amy C. Watts)",
+      "url": "https://www.linkedin.com/posts/amy-c-watts_product-content-doesnt-have-to-be-dull-ugcPost-7508073983930658816-0aeU/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "B2B 제품 콘텐츠도 흥미로울 수 있다는 4가지 사례.",
+        "what": "Amy C. Watts가 Canva, Ramp, Optimizely, Notion을 예로 들어 지루하지 않은 B2B 제품 콘텐츠 전략을 정리했다.",
+        "points": [
+          "Canva, Ramp, Optimizely, Notion 사례",
+          "B2B 제품 메시징 접근법",
+          "참여를 끌어내는 콘텐츠 형식"
+        ],
+        "why": [
+          "B2B 콘텐츠 기획의 벤치마크"
+        ]
+      }
+    }
+  ]
+}

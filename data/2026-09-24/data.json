@@ -1,0 +1,263 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-concurrence-unity-gateway",
+      "title": "Concurrence, Unity Gateway로 조 단위 토큰 임상 AI 거버넌스",
+      "summary": "Concurrence가 Databricks로 연간 약 1.2조 토큰 규모의 임상 AI를 운영하며 모델 접근과 컴플라이언스 추적을 중앙화했다.",
+      "source": "Databricks",
+      "url": "https://www.databricks.com/blog/how-concurrence-governs-clinical-ai-trillion-token-scale-unity-gateway?utm_source=tldrdata",
+      "report": {
+        "tldr": "규제 산업 AI는 게이트웨이로 모델 접근과 감사를 중앙화한다.",
+        "what": "Concurrence는 Databricks Unity Gateway를 이용해 연환산 약 1.2조 토큰 규모의 임상 AI를 관리한다. 모델 접근과 컴플라이언스 추적을 한 곳으로 모았다.",
+        "points": [
+          "연환산 약 1.2조 토큰 처리",
+          "모델 접근 중앙화",
+          "컴플라이언스 추적 통합"
+        ],
+        "why": [
+          "의료 등 규제 산업의 LLM 거버넌스 레퍼런스"
+        ]
+      }
+    },
+    {
+      "id": "data-cassandra-5-6-changes",
+      "title": "Cassandra 3.11 이후 몰라보게 달라진 Cassandra",
+      "summary": "Cassandra 5는 SAI 인덱스·통합 컴팩션·벡터 검색·리페어 스케줄링을, 6은 정렬 메타데이터와 파티션 간 트랜잭션을 추가했다.",
+      "source": "SoftwareMill",
+      "url": "https://softwaremill.com/apache-cassandra-5-6-what-changed-since-3-11/?utm_source=tldrdata",
+      "report": {
+        "tldr": "Cassandra 5·6은 인덱싱·벡터·트랜잭션까지 갖춘 DB로 진화했다.",
+        "what": "SoftwareMill이 Cassandra 3.11 이후의 변화를 정리했다. v5는 스토리지 연동 인덱스, 통합 컴팩션, 벡터 검색, 리페어 스케줄링을 도입했고 v6는 정렬 메타데이터와 파티션 간 트랜잭션을 더했다.",
+        "points": [
+          "v5: 스토리지 연동 인덱스(SAI)·통합 컴팩션",
+          "v5: 벡터 검색·리페어 스케줄링",
+          "v6: 정렬 메타데이터·파티션 간 트랜잭션"
+        ],
+        "why": [
+          "오래된 Cassandra 운영 조직의 업그레이드 판단 근거",
+          "벡터 검색으로 AI 워크로드 대응"
+        ]
+      }
+    },
+    {
+      "id": "data-doom-in-sql",
+      "title": "오리지널 Doom을 SQL로 포팅하다",
+      "summary": "CedarDB가 Doom의 게임 로직과 렌더러를 거의 전부 SQL로 옮겨 35Hz 로직, 60FPS 렌더링으로 구동했다.",
+      "source": "CedarDB",
+      "url": "https://cedardb.com/blog/sqldoom/?utm_source=tldrdata",
+      "report": {
+        "tldr": "SQL이 실시간 멀티플레이어 워크로드도 감당할 수 있음을 보여준 실험.",
+        "what": "CedarDB 팀이 오리지널 Doom의 게임 로직과 렌더러를 거의 전부 SQL로 포팅했다. 35Hz로 동작하며 60FPS 렌더링을 달성해 SQL의 실시간 처리 능력을 보여줬다.",
+        "points": [
+          "게임 로직·렌더러 대부분을 SQL로 구현",
+          "35Hz 게임 로직, 60FPS 렌더링",
+          "실시간 멀티플레이어 워크로드 시연"
+        ],
+        "why": [
+          "현대 DB 엔진의 저지연 처리 성능을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-jev-llm-guardrails",
+      "title": "Jev를 활용한 실시간 LLM 가드레일: 지연과 비용 비교",
+      "summary": "TypeSafe의 Jev 의사결정 모델이 GPT-5.4 nano와 같은 판단을 내리면서 15~18배 빠르고 실행당 비용은 12~14배 낮았다.",
+      "source": "Arize",
+      "url": "https://arize.com/blog/llm-guardrails-jev/?utm_source=tldrdata",
+      "report": {
+        "tldr": "작은 전용 모델로 가드레일 지연과 비용을 크게 줄일 수 있다.",
+        "what": "Arize가 TypeSafe의 Jev 의사결정 모델을 실시간 LLM 가드레일로 평가했다. GPT-5.4 nano와 동일한 판단을 내리면서 15~18배 빠르고 실행당 비용은 12~14배 저렴했다.",
+        "points": [
+          "GPT-5.4 nano와 판단 일치",
+          "15~18배 빠른 응답",
+          "실행당 비용 12~14배 절감"
+        ],
+        "why": [
+          "프로덕션 LLM 가드레일의 지연·비용 부담 완화"
+        ]
+      }
+    },
+    {
+      "id": "data-benchmarks-broken-audit",
+      "title": "벤치마크는 상상보다 더 망가져 있다",
+      "summary": "5천여 개 벤치마크 과제를 감사한 결과 정답 유출·불완전 테스트·불안정한 채점기가 있는 데이터셋 29개가 모델 점수를 부풀렸다.",
+      "source": "Horizon Analytics Labs",
+      "url": "https://www.horizonanalyticslabs.com/research/public-benchmark-dataset-audit?utm_source=tldrdata",
+      "report": {
+        "tldr": "공개 벤치마크 점수는 결함으로 부풀려져 있을 수 있다.",
+        "what": "Horizon Analytics Labs가 5천 개 이상의 벤치마크 과제를 감사했다. 정답 유출, 불완전한 테스트, 신뢰할 수 없는 채점기를 가진 29개 데이터셋을 찾았고 이것이 모델 점수를 인위적으로 높였다.",
+        "points": [
+          "5천 개 이상 과제 감사",
+          "결함 데이터셋 29개 발견",
+          "정답 유출·불완전 테스트·불안정 채점기"
+        ],
+        "why": [
+          "모델 선택 시 공개 벤치마크 맹신 경계",
+          "자체 평가셋 구축의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "data-jevflake",
+      "title": "Jevflake: Snowflake에 Jev 모델 도입",
+      "summary": "Jev 의사결정 모델을 SQL 함수와 dbt로 Snowflake에 가져와 AI 분류를 재사용 가능한 분석 컴포넌트로 만든다.",
+      "source": "GitHub",
+      "url": "https://github.com/KranzL/Jevflake?utm_source=tldrdata",
+      "report": {
+        "tldr": "Snowflake SQL 안에서 AI 분류를 dbt 모델처럼 쓴다.",
+        "what": "Jevflake는 Jev 의사결정 모델을 Snowflake의 SQL 함수와 dbt로 사용할 수 있게 하는 오픈소스 프로젝트다. AI 분류를 재사용 가능한 분석 구성 요소로 다룰 수 있다.",
+        "points": [
+          "Snowflake SQL 함수로 Jev 호출",
+          "dbt 통합",
+          "AI 분류를 재사용 가능한 컴포넌트화"
+        ],
+        "why": [
+          "웨어하우스 내 AI 분류 파이프라인 구축 간소화"
+        ]
+      }
+    },
+    {
+      "id": "data-duckdb-in-dbt-v2",
+      "title": "DuckDB, dbt v2에 기본 탑재",
+      "summary": "Rust 기반 dbt Fusion 엔진에 DuckLake/Iceberg 지원과 Parquet 메타데이터, 웨어하우스 전 SQL 분석을 갖춘 DuckDB 어댑터가 내장됐다.",
+      "source": "DuckDB",
+      "url": "https://duckdb.org/2026/09/22/dbt-fusion.html?utm_source=tldrdata",
+      "report": {
+        "tldr": "dbt Fusion이 DuckDB를 내장해 로컬 개발·분석이 쉬워진다.",
+        "what": "DuckDB 어댑터가 Rust 기반 dbt Fusion 엔진에 기본 포함됐다. DuckLake와 Iceberg를 지원하며 Parquet 메타데이터 활용과 웨어하우스 실행 전 SQL 분석이 가능하다.",
+        "points": [
+          "Rust 기반 Fusion 엔진에 DuckDB 내장",
+          "DuckLake·Iceberg 지원",
+          "Parquet 메타데이터 활용",
+          "웨어하우스 전 SQL 분석"
+        ],
+        "why": [
+          "웨어하우스 비용 없이 dbt 모델 개발·테스트 가능",
+          "dbt 생태계에서 DuckDB 입지 강화"
+        ]
+      }
+    },
+    {
+      "id": "data-apache-fluss-1-0",
+      "title": "Apache Fluss 1.0 발표: AI를 위한 실시간 데이터 기반",
+      "summary": "Fluss 1.0이 무상태 Rust HTTP 게이트웨이, Python 접근, TTL·조건절 푸시다운, Flink/Spark/Hudi 통합 강화를 담았다.",
+      "source": "Apache Fluss",
+      "url": "https://fluss.apache.org/blog/releases/1.0/?utm_source=tldrdata",
+      "report": {
+        "tldr": "Fluss가 1.0으로 프로덕션 준비를 선언했다.",
+        "what": "Apache Fluss가 1.0을 출시했다. 무상태 Rust HTTP 게이트웨이, Python 접근, TTL 및 조건절 푸시다운을 추가하고 Flink, Spark, Hudi와의 통합을 강화했다.",
+        "points": [
+          "무상태 Rust HTTP 게이트웨이",
+          "Python 접근 지원",
+          "TTL·조건절 푸시다운",
+          "Flink/Spark/Hudi 통합 강화"
+        ],
+        "why": [
+          "실시간 스트리밍 스토리지 선택지의 성숙"
+        ]
+      }
+    },
+    {
+      "id": "data-motherduck-prompt-jev",
+      "title": "MotherDuck SQL에 prompt_jev() 도입",
+      "summary": "텍스트를 대규모로 분류·채점하는 SQL 함수로, 벤치마크에서 10만 행을 40초, 0.5달러에 89% 정확도로 처리했다.",
+      "source": "MotherDuck",
+      "url": "https://motherduck.com/blog/motherduck-supports-jev/?utm_source=tldrdata",
+      "report": {
+        "tldr": "SQL 한 줄로 저렴하게 대규모 텍스트 분류.",
+        "what": "MotherDuck이 Jev 모델을 호출하는 SQL 함수 prompt_jev()를 공개했다. 벤치마크에서 10만 행을 40초 만에 0.5달러 비용으로 89% 정확도로 분류했다.",
+        "points": [
+          "텍스트 분류·스코어링 SQL 함수",
+          "10만 행 40초 처리",
+          "비용 0.5달러, 정확도 89%"
+        ],
+        "why": [
+          "분석가가 파이프라인 없이 LLM 분류 활용",
+          "Jev가 여러 데이터 플랫폼에 동시 확산(Arize·Jevflake·MotherDuck)"
+        ]
+      }
+    },
+    {
+      "id": "data-otel-adaptive-tail-sampling",
+      "title": "OpenTelemetry Collector의 적응형 테일 샘플링 작동 방식",
+      "summary": "적응형 테일 샘플러는 순서가 있는 규칙과 W3C 확률 임계값으로 트레이스를 버퍼링해 재가중치와 장애 핵심 트레이스 보존을 가능하게 한다.",
+      "source": "Honeycomb",
+      "url": "https://www.honeycomb.io/blog/how-adaptive-tail-sampling-works?utm_source=tldrdata",
+      "report": {
+        "tldr": "샘플링 비용을 줄이면서 장애 분석에 필요한 트레이스는 남긴다.",
+        "what": "Honeycomb이 OpenTelemetry Collector의 적응형 테일 샘플링을 설명했다. 트레이스를 버퍼링한 뒤 순서가 있는 규칙과 W3C 확률 임계값을 적용해 재가중치를 계산하고 장애에 중요한 트레이스를 보존한다.",
+        "points": [
+          "트레이스 버퍼링 후 결정",
+          "순서 있는 규칙 적용",
+          "W3C 확률 임계값으로 재가중치",
+          "장애 핵심 트레이스 보존"
+        ],
+        "why": [
+          "관측성 데이터 비용 관리의 실무 기법"
+        ]
+      }
+    },
+    {
+      "id": "data-tigerbeetle-high-throughput-oltp",
+      "title": "세 단계로 구현하는 고처리량 OLTP",
+      "summary": "TigerBeetle은 원자적 연결 이체, 집계 잔액 조회, 자동 배칭, 멱등성을 위한 정렬 ID가 고처리량 시스템에 유리하다고 설명한다.",
+      "source": "TigerBeetle",
+      "url": "https://tigerbeetle.com/blog/2026-09-17-performant-use-of-tigerbeetle?utm_source=tldrdata",
+      "report": {
+        "tldr": "배칭과 정렬 ID가 OLTP 처리량의 핵심이다.",
+        "what": "TigerBeetle이 자사 DB를 고성능으로 쓰는 방법을 정리했다. 원자적 연결 이체, 집계 잔액 조회, 자동 배칭, 멱등성을 위한 정렬된 ID 사용을 권한다.",
+        "points": [
+          "원자적 연결 이체(linked transfers)",
+          "집계 잔액 조회",
+          "자동 배칭",
+          "정렬된 ID로 멱등성 확보"
+        ],
+        "why": [
+          "금융 원장 등 고처리량 트랜잭션 설계 참고"
+        ]
+      }
+    },
+    {
+      "id": "data-polars-query-profiler",
+      "title": "Polars 쿼리 프로파일링",
+      "summary": "Polars의 쿼리 프로파일러를 오픈소스 로컬 워크로드에서도 쓸 수 있게 됐다.",
+      "source": "Polars",
+      "url": "https://pola.rs/posts/profile-local-queries/?utm_source=tldrdata",
+      "report": {
+        "tldr": "로컬 Polars 쿼리 병목을 직접 진단할 수 있다.",
+        "what": "Polars가 쿼리 프로파일러를 로컬 오픈소스 워크로드에도 제공한다. 사용자는 로컬에서 실행한 쿼리의 성능을 분석할 수 있다.",
+        "points": [
+          "로컬 오픈소스 워크로드 지원",
+          "쿼리 단위 프로파일링"
+        ],
+        "why": [
+          "데이터프레임 파이프라인 성능 튜닝 용이"
+        ]
+      }
+    },
+    {
+      "id": "data-common-crawl-web-graphs-2026q3",
+      "title": "Common Crawl, 2026년 7~9월 호스트·도메인 웹 그래프 공개",
+      "summary": "2억4580만 호스트와 1억3320만 도메인을 포괄하는 오픈 웹 그래프가 공개됐다.",
+      "source": "Common Crawl",
+      "url": "https://commoncrawl.org/blog/host--and-domain-level-web-graphs-july-august-and-september-2026?utm_source=tldrdata",
+      "report": {
+        "tldr": "대규모 오픈 웹 그래프 데이터셋 최신판.",
+        "what": "Common Crawl이 2026년 7·8·9월 크롤을 바탕으로 한 호스트·도메인 수준 웹 그래프를 공개했다. 2억4580만 호스트와 1억3320만 도메인을 담았다.",
+        "points": [
+          "2억4580만 호스트",
+          "1억3320만 도메인",
+          "오픈 데이터로 공개"
+        ],
+        "why": [
+          "웹 링크 분석·검색·AI 학습 연구의 기반 데이터"
+        ]
+      }
+    }
+  ]
+}

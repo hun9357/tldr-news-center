@@ -1,0 +1,302 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-github-copilot-huge-pr-rendering",
+      "title": "GitHub, Copilot 앱에서 초대형 PR 렌더링 최적화",
+      "summary": "GitHub이 Copilot 앱의 PR 화면을 지연 로딩 구조와 자동화된 성능 테스트로 개선해 파일 2,200개·코멘트 400개 이상의 대형 diff도 처리하도록 했다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/engineering/user-experience/rendering-huge-pull-requests-in-the-github-copilot-app/?utm_source=tldrdev",
+      "report": {
+        "tldr": "지연 로딩과 성능 회귀 테스트로 초대형 PR도 버벅임 없이 렌더링한다.",
+        "what": "GitHub이 Copilot 앱의 풀 리퀘스트 뷰를 재설계했다. 2,200개 파일과 400개 이상의 코멘트가 달린 대형 diff도 다룰 수 있도록 지연 로딩 아키텍처를 도입하고, 자동화된 성능 테스트로 회귀를 막는다.",
+        "points": [
+          "대상 규모: 파일 2,200개, 코멘트 400개 이상의 PR",
+          "필요한 부분만 그리는 지연 로딩 아키텍처 채택",
+          "자동화된 성능 테스트로 속도 회귀 감시"
+        ],
+        "why": [
+          "AI 에이전트가 만드는 대형 PR이 늘면서 리뷰 UI의 확장성이 병목이 되고 있다",
+          "대규모 리스트 렌더링 최적화의 실전 사례로 참고 가치가 있다"
+        ]
+      }
+    },
+    {
+      "id": "dev-claude-ai-3x-faster",
+      "title": "claude.ai를 2주 만에 3배 빠르게 만든 방법",
+      "summary": "Anthropic이 벤치마크와 단계적 배포를 활용해 Claude 웹·데스크톱의 로드 시간을 3.1초에서 0.55초로 줄였다.",
+      "source": "Anthropic",
+      "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/?utm_source=tldrdev",
+      "report": {
+        "tldr": "측정 중심 최적화와 단계적 롤아웃으로 로드 시간을 3.1초에서 0.55초로 단축했다.",
+        "what": "Anthropic이 Claude 웹과 데스크톱 앱의 핵심 경험을 약 3배 빠르게 만든 과정을 공개했다. 벤치마크로 병목을 측정하고 단계적 배포로 위험을 관리하며 로드 시간을 3.1초에서 0.55초로 낮췄다.",
+        "points": [
+          "로드 시간 3.1초 → 0.55초",
+          "작업 기간은 약 2주",
+          "벤치마크 기반으로 개선 효과를 검증",
+          "단계적 롤아웃으로 배포 위험 관리"
+        ],
+        "why": [
+          "짧은 기간에도 측정 체계만 갖추면 큰 성능 개선이 가능함을 보여준다",
+          "대형 AI 제품에서도 프런트엔드 체감 속도가 핵심 경쟁 요소다"
+        ]
+      }
+    },
+    {
+      "id": "dev-websockets-vs-sse-ai-streaming",
+      "title": "대규모 AI 스트리밍에서 WebSocket이 SSE보다 나은 이유",
+      "summary": "WebSocket은 양방향 통신, 낮은 오버헤드, 바이너리 지원으로 에이전트 UI에 유리하지만 재연결과 전달 보장은 직접 구현해야 한다.",
+      "source": "Ably",
+      "url": "https://ably.com/blog/websockets-beat-sse-ai-streaming?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트형 AI UI에는 양방향 WebSocket이 적합하나 신뢰성 계층은 팀 몫이다.",
+        "what": "Ably가 AI 응답 스트리밍에 SSE 대신 WebSocket을 써야 하는 이유를 정리했다. 에이전트 인터페이스는 양방향 통신이 필요하고, WebSocket은 오버헤드가 적으며 바이너리도 지원한다.",
+        "points": [
+          "양방향 통신으로 에이전트와의 상호작용(중단·입력 등)에 적합",
+          "SSE 대비 낮은 오버헤드",
+          "바이너리 데이터 전송 지원",
+          "재연결·전달 보장은 팀이 직접 구현해야 함"
+        ],
+        "why": [
+          "LLM 스트리밍 전송 계층을 고를 때의 트레이드오프를 명확히 해준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-we-are-all-product-engineers",
+      "title": "이제 우리 모두는 프로덕트 엔지니어다",
+      "summary": "코드 생성 비용이 떨어지면서 소프트웨어 작업의 중심이 고객 니즈 발굴과 제품 완성도로 이동하고, 일상적 유지보수는 에이전트가 맡게 된다는 주장이다.",
+      "source": "Seldo",
+      "url": "https://seldo.com/posts/we-are-all-product-engineers-now/?utm_source=tldrdev",
+      "report": {
+        "tldr": "코드가 싸지면 엔지니어의 가치는 무엇을 만들지 아는 데서 나온다.",
+        "what": "Seldo는 AI로 코드 생성 비용이 낮아지면서 엔지니어 역할이 바뀌고 있다고 주장한다. 루틴한 유지보수는 에이전트가 처리하고, 사람은 고객 요구 파악과 제품의 즐거움을 만드는 데 집중하게 된다는 것이다.",
+        "points": [
+          "코드 생성 비용 하락이 역할 변화의 원동력",
+          "에이전트가 루틴한 유지보수를 담당",
+          "고객 니즈 발굴과 제품 완성도가 핵심 역량으로 부상"
+        ],
+        "why": [
+          "개발자 커리어 방향과 팀 구성에 대한 시사점을 준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-agentic-coding-bet-on-primitives",
+      "title": "에이전틱 코딩: 프리미티브에 베팅하라",
+      "summary": "AI 코딩 에이전트가 핵심 프리미티브 위에 얇은 커스텀 레이어를 만드는 비용을 낮추면서 프레임워크 도입 판단 기준이 달라지고 있다.",
+      "source": "Robin Wieruch",
+      "url": "https://www.robinwieruch.de/agentic-coding-bet-on-primitives/?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 시대에는 무거운 프레임워크보다 견고한 프리미티브 + 얇은 자체 레이어가 유리해진다.",
+        "what": "Robin Wieruch는 AI 코딩 에이전트 덕분에 집중된 프리미티브 위에 얇은 커스텀 레이어를 구현하는 비용이 크게 줄었다고 본다. 그 결과 대형 프레임워크를 채택할지에 대한 계산이 바뀌고 있다.",
+        "points": [
+          "에이전트가 커스텀 구현 비용을 낮춤",
+          "잘 정의된 프리미티브 위 얇은 레이어 전략이 현실적 선택지로 부상",
+          "프레임워크 채택의 비용·편익 계산이 변화"
+        ],
+        "why": [
+          "기술 스택 선택 시 의존성 최소화 전략을 재검토할 근거가 된다"
+        ]
+      }
+    },
+    {
+      "id": "dev-electrobun-2",
+      "title": "Electrobun 2.0 출시",
+      "summary": "Electrobun 2.0은 네이티브 메인 프로세스와 시스템 웹뷰로 크로스플랫폼 데스크톱 앱을 만들며 앱 크기가 약 1.28MiB에 불과하다.",
+      "source": "Electrobun",
+      "url": "https://blackboard.sh/electrobun/?utm_source=tldrdev",
+      "report": {
+        "tldr": "Electron 대안으로 약 1.28MiB 크기의 초경량 데스크톱 앱을 만든다.",
+        "what": "크로스플랫폼 데스크톱 앱 프레임워크 Electrobun이 2.0을 내놨다. Chromium을 번들하지 않고 네이티브 메인 프로세스와 시스템 웹뷰를 사용해 앱 크기를 약 1.28MiB로 줄였다.",
+        "points": [
+          "네이티브 메인 프로세스 + 시스템 웹뷰 구조",
+          "앱 크기 약 1.28MiB",
+          "크로스플랫폼 데스크톱 앱 빌드 지원"
+        ],
+        "why": [
+          "Electron의 용량·메모리 부담을 줄이려는 흐름의 대표 사례다"
+        ]
+      }
+    },
+    {
+      "id": "dev-gemini-3-8-tts",
+      "title": "Gemini 3.8 텍스트 음성 변환(TTS) 공개",
+      "summary": "Gemini 3.8 Flash TTS가 100개 이상 언어에서 속도·감정 제어가 가능한 음성 커스터마이징을 제공하며, 워터마킹과 동의 기반 안전장치를 갖췄다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/?utm_source=tldrdev",
+      "report": {
+        "tldr": "구글이 감정·속도 제어와 워터마크를 갖춘 다국어 TTS 모델을 내놨다.",
+        "what": "Google이 Gemini 3.8 Flash 기반 텍스트 음성 변환 기능을 발표했다. 100개 이상 언어에서 말의 속도와 감정을 조절하는 음성 커스터마이징을 지원하고, 워터마킹과 동의 관련 안전장치를 포함한다.",
+        "points": [
+          "Gemini 3.8 Flash TTS 모델",
+          "속도·감정 제어 등 음성 커스터마이징",
+          "100개 이상 언어 지원",
+          "워터마킹 및 동의 기반 안전장치"
+        ],
+        "why": [
+          "음성 인터페이스를 만드는 개발자에게 새 선택지가 생겼다",
+          "합성 음성 오남용 우려에 대한 대응 장치를 기본 탑재했다"
+        ]
+      }
+    },
+    {
+      "id": "dev-tinyjs",
+      "title": "TinyJS: 약 6MB 데스크톱 앱 패키저",
+      "summary": "TinyJS는 Chromium 대신 네이티브 웹뷰를 사용해 데스크톱 앱을 약 6MB로 패키징하며, 시스템 API와 핫 리로드를 지원한다.",
+      "source": "TinyJS",
+      "url": "https://tinyjs.app/?utm_source=tldrdev",
+      "report": {
+        "tldr": "네이티브 웹뷰 기반으로 약 6MB짜리 데스크톱 앱을 만든다.",
+        "what": "TinyJS는 웹 기술로 데스크톱 앱을 만드는 도구로, Chromium을 번들하지 않고 네이티브 웹뷰를 사용한다. 결과물은 약 6MB이며 시스템 API 접근과 핫 리로드를 지원한다.",
+        "points": [
+          "Chromium 대신 네이티브 웹뷰 사용",
+          "앱 크기 약 6MB",
+          "시스템 API 및 핫 리로드 지원"
+        ],
+        "why": [
+          "Electrobun과 함께 경량 데스크톱 앱 도구가 잇따르고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-cloudflare-quick-tunnels-guide",
+      "title": "Cloudflare Quick Tunnels 완벽 가이드",
+      "summary": "Quick Tunnels는 계정 없이 임시 HTTPS URL로 로컬 서버를 외부에 노출해 데모와 웹훅 테스트에 적합하지만 200건 요청 제한이 있다.",
+      "source": "Flavio Copes",
+      "url": "https://flaviocopes.com/cloudflare-quick-tunnels/?utm_source=tldrdev",
+      "report": {
+        "tldr": "계정 없이 로컬 서버를 임시 HTTPS로 공개하는 가장 간단한 방법.",
+        "what": "Flavio Copes가 Cloudflare Quick Tunnels 사용법을 정리했다. 계정 설정 없이 로컬 서버에 임시 HTTPS URL을 붙여 외부에 노출할 수 있으며, 데모나 웹훅 테스트에 적합하다.",
+        "points": [
+          "계정 없이 즉시 사용 가능",
+          "임시 HTTPS URL 제공",
+          "데모·웹훅 테스트에 적합",
+          "요청 200건 제한 존재"
+        ],
+        "why": [
+          "ngrok 같은 도구의 무료 대안으로 로컬 개발 워크플로를 단순화한다"
+        ]
+      }
+    },
+    {
+      "id": "dev-building-tools-for-ai-agents",
+      "title": "AI 에이전트를 위한 도구 만들기",
+      "summary": "신뢰할 수 있는 에이전트 도구에는 신원·권한의 명확한 분리, 구분된 작업 상태, 작업 완료와 비용을 검증하는 반복 가능한 평가가 필요하다.",
+      "source": "Arize",
+      "url": "https://arize.com/blog/building-tools-for-ai-agents/?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 도구 신뢰성은 권한 분리, 명확한 상태, 반복 가능한 평가에서 나온다.",
+        "what": "Arize가 AI 에이전트용 도구 설계 원칙을 정리했다. 신원과 권한을 명확히 분리하고, 작업 상태를 구분하며, 작업 완료와 비용을 테스트하는 반복 가능한 평가를 갖춰야 한다고 강조한다.",
+        "points": [
+          "신원(identity)과 권한(authority)의 분리",
+          "작업 상태를 명확히 구분",
+          "작업 완료·비용을 측정하는 반복 가능한 평가"
+        ],
+        "why": [
+          "에이전트를 프로덕션에 올리는 팀에 실무 체크리스트가 된다",
+          "권한 분리는 에이전트 보안 사고 예방과도 직결된다"
+        ]
+      }
+    },
+    {
+      "id": "dev-google-rrsi-harness-overfit",
+      "title": "자기 개선 에이전트 하네스의 과적합과 구글의 해법",
+      "summary": "구글의 RRSI는 하네스 진화 과정을 정규화해 과적합을 막고, 토큰 사용량을 줄이면서 미관측(held-out) 성능을 높인다.",
+      "source": "StackSweep",
+      "url": "https://www.stacksweep.dev/rrsi-regularized-harness-self-improvement?utm_source=tldrdev",
+      "report": {
+        "tldr": "스스로 개선하는 에이전트 하네스도 정규화하지 않으면 과적합한다.",
+        "what": "자기 개선형 에이전트 하네스는 학습에 쓰인 과제에 과적합하는 문제가 있다. 구글의 RRSI 접근법은 하네스 진화를 정규화해 이를 막고, held-out 성능을 개선하면서 토큰 사용량도 줄인다.",
+        "points": [
+          "자기 개선 하네스는 과적합 위험이 있음",
+          "RRSI는 하네스 진화를 정규화",
+          "held-out 성능 향상과 토큰 사용량 감소를 동시에 달성"
+        ],
+        "why": [
+          "에이전트 자동 최적화 파이프라인 설계 시 일반화 검증의 중요성을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "dev-univer-office-sdk",
+      "title": "Univer: 오픈소스 오피스 SDK",
+      "summary": "Univer는 스프레드시트와 문서를 앱에 임베드할 수 있는 오픈소스 오피스 SDK로, 에이전트 워크플로를 지원한다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/dream-num/univer?utm_source=tldrdev",
+      "report": {
+        "tldr": "스프레드시트·문서 편집기를 앱에 임베드하는 오픈소스 SDK.",
+        "what": "Univer는 스프레드시트와 문서 기능을 자체 애플리케이션에 넣을 수 있게 해주는 오픈소스 오피스 SDK다. 에이전트 워크플로 지원도 포함한다.",
+        "points": [
+          "오픈소스 오피스 SDK",
+          "스프레드시트·문서 임베드 지원",
+          "에이전트 워크플로 지원"
+        ],
+        "why": [
+          "오피스 기능을 직접 구현하지 않고 제품에 통합할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "dev-model-eats-the-stack",
+      "title": "모델이 스택을 삼키면 무슨 일이 생길까",
+      "summary": "더 강력한 코딩 에이전트가 과제별 스캐폴딩을 흡수하고, 스토리지와 압축만이 지속적인 시스템 문제로 남을 것이라는 전망이다.",
+      "source": "Murat Demirbas",
+      "url": "https://muratbuffalo.blogspot.com/2026/09/what-happens-when-model-eats-stack.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "스캐폴딩은 모델에 흡수되고 스토리지·압축이 남는 시스템 문제가 된다.",
+        "what": "Murat Demirbas는 코딩 에이전트가 강해질수록 과제별 스캐폴딩이 모델에 흡수될 것이라고 본다. 반면 스토리지와 압축은 계속 남는 시스템 문제라고 주장한다.",
+        "points": [
+          "강한 에이전트가 과제별 스캐폴딩을 대체",
+          "스토리지·압축은 지속되는 시스템 과제",
+          "시스템 연구 초점의 이동을 시사"
+        ],
+        "why": [
+          "에이전트 래퍼 계층에 투자할지 판단하는 관점을 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "dev-notion-crdts-concurrent-editing",
+      "title": "Notion의 CRDT 기반 동시 편집 처리",
+      "summary": "Notion은 RGA 기반 CRDT를 도입해 동시 편집과 오프라인 편집을 변경 사항 유실 없이 병합한다.",
+      "source": "Notion Blog",
+      "url": "https://www.notion.com/blog/how-notion-handles-concurrent-editing-with-crdts?utm_source=tldrdev",
+      "report": {
+        "tldr": "Notion이 RGA CRDT로 편집 충돌 시 변경이 조용히 사라지는 문제를 해결했다.",
+        "what": "Notion이 동시 편집 처리 방식을 공개했다. RGA 기반 CRDT를 도입해 여러 사용자의 동시 편집과 오프라인 편집을 병합하며, 변경 사항이 조용히 버려지지 않도록 했다.",
+        "points": [
+          "RGA 기반 CRDT 채택",
+          "동시 편집 및 오프라인 편집 병합",
+          "변경 사항의 무음 유실 방지"
+        ],
+        "why": [
+          "협업 편집 기능을 설계하는 팀에 실전 레퍼런스가 된다"
+        ]
+      }
+    },
+    {
+      "id": "dev-show-keystrokes-element",
+      "title": "show-keystrokes 커스텀 엘리먼트로 웹에서 키 입력 표시",
+      "summary": "show-keystrokes는 화면 공유 시 별도 데스크톱 유틸리티 없이 페이지 안에서 키보드 입력을 보여주는 웹 컴포넌트다.",
+      "source": "Bram.us",
+      "url": "https://www.bram.us/2026/09/23/show-keystrokes/?utm_source=tldrdev",
+      "report": {
+        "tldr": "화면 공유용 키 입력 표시를 웹 컴포넌트 하나로 해결한다.",
+        "what": "Bram.us가 show-keystrokes 커스텀 엘리먼트를 소개했다. 웹 페이지 안에서 키보드 입력을 표시해 주므로 화면 공유나 데모 시 별도 데스크톱 도구가 필요 없다.",
+        "points": [
+          "웹 컴포넌트(커스텀 엘리먼트) 형태",
+          "페이지 내 키 입력 표시",
+          "화면 공유·데모용으로 데스크톱 유틸리티 불필요"
+        ],
+        "why": [
+          "발표·튜토리얼 제작 시 간편한 도구가 된다"
+        ]
+      }
+    }
+  ]
+}

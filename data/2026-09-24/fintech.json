@@ -1,0 +1,313 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💳",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-ramp-accounts-receivable",
+      "title": "Ramp, 계약부터 현금화까지 자동화하는 매출채권(AR) 출시",
+      "summary": "Ramp AR은 계약 조건을 청구서로 추출하고 수금 독촉, 입금 매칭, 매출 인식, ERP 동기화까지 자동화한다.",
+      "source": "Ramp",
+      "url": "https://ramp.com/blog/introducing-accounts-receivable?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Ramp가 지출에서 수입까지 재무 자동화를 확장했다.",
+        "what": "Ramp가 들어오는 매출을 처리하는 Accounts Receivable을 출시했다. 계약 조건을 청구서로 추출하고 수금 후속 조치, 입금-청구서 매칭, 매출 인식, ERP 회계 동기화를 자동화한다.",
+        "points": [
+          "계약 조건 → 청구서 자동 추출",
+          "수금 독촉 자동화",
+          "입금 매칭·매출 인식",
+          "ERP 동기화"
+        ],
+        "why": [
+          "지출 관리 기업이 재무 전체 플랫폼으로 확장",
+          "Bill.com 등 AR 전문 업체와 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "fintech-shopify-meta-muse-checkout",
+      "title": "쇼피파이, 메타 Muse로 에이전틱 결제 지원",
+      "summary": "메타의 AI 에이전트 Muse가 Shop Pay를 통해 쇼피파이 판매자 상품을 탐색하고 구매할 수 있게 된다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/shopify-to-use-metas-muse-for-agentic-checkout-d23947c0?utm_source=tldrfintech",
+      "report": {
+        "tldr": "쇼피파이는 AI 에이전트에 문을 열고 아마존은 막는다.",
+        "what": "메타의 개인 AI 에이전트 Muse가 쇼피파이 판매자를 탐색하고 Shop Pay로 사용자 대신 구매할 수 있게 된다. AI 에이전트에 상품 카탈로그와 결제 인프라를 직접 여는 것으로, 에이전트를 차단하는 아마존과 대비된다.",
+        "points": [
+          "Muse가 쇼피파이 상품 탐색·구매",
+          "Shop Pay로 결제",
+          "카탈로그·결제 인프라 직접 개방",
+          "아마존의 차단 전략과 대조"
+        ],
+        "why": [
+          "에이전틱 커머스의 결제 주도권 경쟁",
+          "판매자 유통 채널로 AI 에이전트 부상"
+        ]
+      }
+    },
+    {
+      "id": "fintech-coinbase-ipo-access",
+      "title": "코인베이스, 미국 개인투자자에 IPO 공모 참여 개방",
+      "summary": "코인베이스가 FINRA 등록 자회사를 통해 개인에게 공모가 IPO 배정을 제공하며 첫 종목은 Oura다.",
+      "source": "Coinbase",
+      "url": "https://www.coinbase.com/blog/you-can-now-participate-in-ipos-on-coinbase?utm_source=tldrfintech",
+      "report": {
+        "tldr": "코인베이스가 '모든 것의 거래소'로 주식 공모 시장에 진입했다.",
+        "what": "코인베이스가 FINRA 등록 캐피털마켓 법인을 통해 미국 개인 사용자에게 IPO 1차 시장 배정을 시작했다. 첫 대상은 Oura이며, 상장 전 공모가로 주식을 신청할 수 있다.",
+        "points": [
+          "FINRA 등록 법인 통해 공모 배정",
+          "첫 종목 Oura",
+          "상장 전 공모가 신청",
+          "'Everything Exchange' 확장 전략의 일환"
+        ],
+        "why": [
+          "로빈후드·SoFi 등과 개인 IPO 접근 경쟁",
+          "크립토 거래소의 전통 증권 영역 확장"
+        ]
+      }
+    },
+    {
+      "id": "fintech-clarity-act-cloture-fails",
+      "title": "CLARITY 법안 상원 표결 49대 50 부결, 공은 규제기관으로",
+      "summary": "디지털 자산 연방 법안이 윤리 조항 이견으로 60표 문턱을 넘지 못해 SEC·CFTC 규칙 제정이 크립토 규제를 주도할 전망이다.",
+      "source": "Fintech Weekly",
+      "url": "https://www.fintechweekly.com/news/clarity-act-cloture-vote-fails-49-50-september-2026?utm_source=tldrfintech",
+      "report": {
+        "tldr": "입법이 막히며 크립토 규제는 SEC·CFTC 규칙 제정으로 넘어간다.",
+        "what": "디지털 자산 시장 구조를 정하는 CLARITY 법안이 상원 토론종결 표결에서 49대 50으로 실패했다. 윤리 문제를 둘러싼 이견으로 60표 기준에 못 미쳤고, 중간선거를 앞두고 SEC와 CFTC가 규칙 제정으로 규제를 형성할 가능성이 커졌다.",
+        "points": [
+          "상원 표결 49대 50, 60표 문턱 미달",
+          "윤리 조항 이견이 원인",
+          "SEC·CFTC 규칙 제정으로 무게 이동",
+          "중간선거 앞둔 입법 공백"
+        ],
+        "why": [
+          "크립토 기업의 규제 불확실성 장기화",
+          "규칙 제정은 정권 변화에 따라 뒤집힐 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "fintech-rogo-investing-superintelligence",
+      "title": "Rogo 창업자 Gabe Stengel의 '투자 초지능' 구상",
+      "summary": "Rogo CEO는 투자 리서치·실사·딜 실행을 AI가 처리하는 비전을 밝히며 AI 네이티브 블룸버그 대안을 표방했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2102370943263756461.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "도메인 특화 하네스로 금융 전문가용 AI 네이티브 블룸버그를 노린다.",
+        "what": "Rogo CEO Gabe Stengel이 투자 리서치, 실사, 딜 실행을 AI가 담당하는 비전을 설명했다. 도메인 특화 모델 하네스를 강조하며 Rogo를 금융 전문가를 위한 AI 네이티브 블룸버그 대안으로 포지셔닝했다.",
+        "points": [
+          "리서치·실사·딜 실행의 AI화",
+          "도메인 특화 모델 하네스 강조",
+          "AI 네이티브 블룸버그 대안 표방"
+        ],
+        "why": [
+          "투자은행·PE 업무의 AI 자동화 경쟁 가속"
+        ]
+      }
+    },
+    {
+      "id": "fintech-core-banking-overrun-seams",
+      "title": "코어뱅킹 비용 초과는 실제로 어디서 발생하나",
+      "summary": "WislaCod CEO는 코어뱅킹 비용 초과가 원장 시스템이 아니라 통합·벤더 관리 같은 '이음새'에서 나온다고 주장한다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/blogposting/32961/where-a-core-banking-overrun-actually-goes-what-the-primary-record-says?utm_source=tldrfintech",
+      "report": {
+        "tldr": "코어뱅킹 프로젝트의 리스크는 원장이 아니라 주변 통합부에 있다.",
+        "what": "WislaCod CEO는 코어뱅킹 비용 초과의 원인이 원장 시스템 자체가 아니라 통합, 벤더 관리 등 주변의 이음새라고 분석했다. 영란은행 RTGS의 5600만 파운드 초과와 TSB 마이그레이션 실패를 사례로 들었다.",
+        "points": [
+          "비용 초과는 통합·벤더 관리 등 이음새에서 발생",
+          "RTGS 5600만 파운드 초과 사례",
+          "TSB 마이그레이션 실패 사례"
+        ],
+        "why": [
+          "은행 IT 현대화 예산·리스크 관리의 초점 재조정"
+        ]
+      }
+    },
+    {
+      "id": "fintech-upi-not-disrupting-credit-cards",
+      "title": "UPI가 신용카드를 무너뜨리지 못한 다섯 가지 이유",
+      "summary": "인도에서 UPI와 신용카드는 함께 성장했으며, 은행 인센티브와 UPI의 보상·후불·사기 보호 부재가 카드 수요를 지탱한다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/blogposting/32955/five-reasons-why-upi-has-not-disrupted-credit-card?utm_source=tldrfintech",
+      "report": {
+        "tldr": "실시간 결제가 카드를 대체하기보다 카드 수요를 키웠다.",
+        "what": "인도 UPI가 확산되는 동안 신용카드 성장은 세 배로 늘었다. 저디지털화 시장에서 함께 확장했고, UPI가 결제 가시성을 높여 카드 수요를 키웠으며, 사기 피해가 카드로 사용자를 이끌었다. 은행은 카드에서 2~3% 마진을 얻지만 UPI에선 0이며, UPI는 정책상 보상·후불·사기 보호가 없다.",
+        "points": [
+          "카드 성장 3배, UPI와 공존",
+          "UPI가 결제 가시성을 높여 카드 수요 견인",
+          "사기 피해가 카드 이동 유발",
+          "은행 마진: 카드 2~3% vs UPI 0"
+        ],
+        "why": [
+          "Pix·FedNow 등 실시간 결제의 카드 대체론에 반례",
+          "결제 수단의 수익 구조가 채택을 좌우"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stripe-link-ai-agents",
+      "title": "스트라이프 월렛 Link, AI 봇 결제 수용",
+      "summary": "Stripe Link가 메타·xAI 등 AI 에이전트와 연동해 카드 정보를 노출하지 않고 봇이 결제를 완료하도록 한다.",
+      "source": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/stripes-digital-wallet-paypal-embraces-ai-bots-agentic-commerce/830753/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Stripe가 3억 사용자 월렛을 에이전트 결제 레일로 내세운다.",
+        "what": "Stripe Link가 메타, xAI 등의 AI 에이전트와 통합돼 카드 정보를 드러내지 않고 봇이 구매를 완료할 수 있게 한다. 3억 사용자와 100만 가맹점 연동을 바탕으로 페이팔, 애플, 구글과 경쟁한다.",
+        "points": [
+          "메타·xAI 등 AI 에이전트와 통합",
+          "카드 정보 비노출 결제",
+          "사용자 3억, 가맹점 연동 100만",
+          "페이팔·애플·구글과 경쟁"
+        ],
+        "why": [
+          "쇼핑 인터페이스가 에이전트로 이동하며 월렛 경쟁 재편",
+          "에이전트 결제의 보안 모델 표준화"
+        ]
+      }
+    },
+    {
+      "id": "fintech-numeric-financial-data-platform",
+      "title": "Numeric, 에이전트 시대용 ERP 대체 'Financial Data Platform' 출시",
+      "summary": "Numeric의 플랫폼은 축약된 원장 기록 대신 비즈니스 이벤트 전체 맥락을 저장해 회계 자동화와 재무 에이전트를 지원한다.",
+      "source": "Morningstar/AccessWire",
+      "url": "https://www.morningstar.com/news/accesswire/1224957msn/numeric-launches-financial-data-platform-the-erp-replacement-built-for-the-agent-era?utm_source=tldrfintech",
+      "report": {
+        "tldr": "원장 대신 이벤트 맥락을 저장하는 ERP 대체재가 나왔다.",
+        "what": "Numeric이 전통 ERP를 대체하는 Financial Data Platform을 출시했다. 축약된 원장 항목 대신 비즈니스 이벤트의 전체 맥락을 저장해 회계를 자동화하고 더 풍부한 보고와 재무 에이전트를 지원한다.",
+        "points": [
+          "비즈니스 이벤트 전체 맥락 저장",
+          "회계 자동화·풍부한 리포팅",
+          "재무 에이전트 지원",
+          "NetSuite 등에서 모듈식 마이그레이션"
+        ],
+        "why": [
+          "AI 에이전트 시대에 ERP 데이터 모델 재설계 흐름",
+          "Ramp AR과 함께 재무 백오피스 자동화 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "fintech-sofi-stablecoin-mastercard-settlement",
+      "title": "SoFi, 마스터카드 망에서 스테이블코인 정산 도입한 첫 은행",
+      "summary": "SoFi가 250억 달러 규모 카드 프로그램 전체를 SoFiUSD 기반 블록체인 정산으로 옮겼다.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-hurdle-solved-sofi-first-152012538.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "미국 전국 인가 은행 최초로 스테이블코인 정산을 대규모 적용했다.",
+        "what": "SoFi가 250억 달러 규모 카드 프로그램 전체를 마스터카드 네트워크 위의 SoFiUSD 블록체인 정산으로 전환했다. 미국 전국 인가 은행 중 처음으로 스테이블코인을 대규모로 사용하며, 소비자 경험은 그대로 두고 가맹점 즉시 정산을 가능하게 했다.",
+        "points": [
+          "카드 프로그램 250억 달러 전체 전환",
+          "SoFiUSD로 블록체인 정산",
+          "미국 전국 인가 은행 최초",
+          "가맹점 즉시 정산, 소비자 경험 불변"
+        ],
+        "why": [
+          "스테이블코인이 기존 카드 레일의 정산층으로 편입",
+          "다른 은행의 도입 선례"
+        ]
+      }
+    },
+    {
+      "id": "fintech-atum-open-payments-network",
+      "title": "전 비자 크립토 책임자, 오픈 결제 네트워크 Atum 출범",
+      "summary": "비자 크립토 제품 책임자 출신 Pete Cooling이 설립한 Atum이 1350만 달러를 유치하며 스텔스에서 나왔다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48462/former-visa-crypto-lead-launches-open-payments-network?utm_source=tldrfintech",
+      "report": {
+        "tldr": "비자 출신이 개방형 결제 네트워크에 도전한다.",
+        "what": "비자에서 크립토 제품을 이끌던 Pete Cooling이 설립한 Atum이 1350만 달러 투자를 받고 스텔스 모드에서 공개됐다. 오픈 결제 네트워크 인프라를 구축한다.",
+        "points": [
+          "창업자 Pete Cooling(전 비자 크립토 리드)",
+          "1350만 달러 투자 유치",
+          "오픈 결제 네트워크 인프라 구축"
+        ],
+        "why": [
+          "카드 네트워크 대안 인프라에 대한 투자 관심"
+        ]
+      }
+    },
+    {
+      "id": "fintech-amazon-affirm-uk",
+      "title": "아마존, 영국에서 Affirm 결제 옵션 추가",
+      "summary": "아마존 UK가 50파운드 이상 구매에 Affirm의 무이자 3회 분할과 최대 48개월(APR 22%) 할부를 제공한다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111001/amazon-adds-affirm-payments-option-in-the-uk?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Affirm이 아마존과 함께 영국 BNPL 시장을 넓힌다.",
+        "what": "아마존 UK가 결제 단계에 Affirm 옵션을 추가했다. 50파운드 이상 구매에 대해 0% 3회 분할과 APR 22%의 최대 48개월 할부를 제공한다.",
+        "points": [
+          "50파운드 이상 구매 대상",
+          "0% Pay-in-3 무이자 분할",
+          "최대 48개월 할부, APR 22%"
+        ],
+        "why": [
+          "Affirm의 해외 확장과 아마존 파트너십 심화",
+          "영국 BNPL 규제 도입 국면의 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "fintech-newview-carta-tender-offers",
+      "title": "NewView Capital·Carta, 회사 주도 텐더 오퍼 협력",
+      "summary": "세컨더리 투자 전문성과 캡테이블 인프라를 결합해 비상장사 텐더 오퍼를 간소화한다.",
+      "source": "NewView Capital",
+      "url": "https://www.nvc.vc/stories/newview-carta-collaboration",
+      "report": {
+        "tldr": "비상장 기간이 길어지며 정기 유동성 프로그램이 일상화된다.",
+        "what": "NewView Capital과 Carta가 회사 주도 텐더 오퍼를 간소화하기 위해 협력한다. NewView의 세컨더리 투자 역량과 Carta의 캡테이블 인프라를 결합하며, 스타트업의 비상장 기간 장기화로 유동성 프로그램이 보편화된 흐름을 반영한다.",
+        "points": [
+          "세컨더리 투자 + 캡테이블 인프라 결합",
+          "회사 주도 텐더 오퍼 간소화",
+          "유동성 프로그램의 정례화"
+        ],
+        "why": [
+          "직원·초기 투자자의 비상장 주식 유동성 확대"
+        ]
+      }
+    },
+    {
+      "id": "fintech-blockchain-com-nyse-tokenized-stocks",
+      "title": "Blockchain.com, NYSE 토큰화 주식 접근 계약",
+      "summary": "Blockchain.com 사용자가 규제 승인 후 NYSE 디지털 거래 플랫폼에서 미국 토큰화 주식·ETF를 24시간 거래할 수 있게 될 전망이다.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/investment-tracker/2026/blockchain-com-inks-deal-to-offer-access-to-nyse-tokenized-stocks/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "크립토 거래소와 NYSE가 토큰화 주식으로 연결된다.",
+        "what": "Blockchain.com이 NYSE의 디지털 거래 플랫폼을 통해 토큰화된 미국 주식과 ETF에 접근하는 계약을 맺었다. 규제 승인이 나면 사용자는 24시간 거래할 수 있다.",
+        "points": [
+          "NYSE 디지털 거래 플랫폼 연계",
+          "토큰화 미국 주식·ETF",
+          "24시간 거래",
+          "규제 승인 필요"
+        ],
+        "why": [
+          "전통 거래소의 토큰화 증권 유통 확대"
+        ]
+      }
+    },
+    {
+      "id": "fintech-go-ai-series-a",
+      "title": "Go.AI, 8500만 달러 시리즈 A 유치",
+      "summary": "시카고의 Go.AI가 Updata Partners 주도로 8500만 달러를 유치해 온프레미스 AI 인프라를 확장하며 누적 투자는 9000만 달러가 됐다.",
+      "source": "Finovate",
+      "url": "https://finovate.com/go-ai-secures-85-million-in-series-a-funding/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "금융권 온프레미스 AI 인프라에 대형 시리즈 A.",
+        "what": "시카고 기반 Go.AI가 Updata Partners가 주도한 8500만 달러 시리즈 A를 유치했다. 자금은 온프레미스 AI 인프라 확장에 쓰이며 누적 투자액은 9000만 달러다.",
+        "points": [
+          "시리즈 A 8500만 달러",
+          "Updata Partners 주도",
+          "온프레미스 AI 인프라 확장",
+          "누적 9000만 달러"
+        ],
+        "why": [
+          "데이터 주권 중시 금융기관의 온프레미스 AI 수요"
+        ]
+      }
+    }
+  ]
+}

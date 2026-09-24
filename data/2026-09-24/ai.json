@@ -1,0 +1,287 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-qwen-mobile-agents",
+      "title": "Qwen Intelligence, 모바일 AI 에이전트 3종 출시",
+      "summary": "Qwen Intelligence가 계획 수립, 앱 간 실행, 빠른 콘텐츠 제작용 모바일 에이전트 3종과 함께 계획·실기기 성능·안전성에 대한 공개 벤치마크를 내놨다.",
+      "source": "X (@Alibaba_Qwen)",
+      "url": "https://x.com/Alibaba_Qwen/status/2102727405198876753?utm_source=tldrai",
+      "report": {
+        "tldr": "알리바바 Qwen이 모바일 에이전트 3종과 공개 벤치마크를 함께 공개했다.",
+        "what": "Qwen Intelligence가 모바일용 AI 에이전트 3종을 출시했다. 각각 계획 수립, 여러 앱을 넘나드는 실행, 빠른 콘텐츠 제작을 담당하며, 계획·실기기 성능·안전성을 측정하는 공개 벤치마크도 함께 발표했다.",
+        "points": [
+          "계획·앱 간 실행·콘텐츠 제작용 에이전트 3종",
+          "실기기 기반 성능 벤치마크 공개",
+          "안전성 벤치마크 포함"
+        ],
+        "why": [
+          "스마트폰 에이전트 경쟁에서 중국 진영의 속도를 보여줌",
+          "공개 벤치마크로 모바일 에이전트 평가 기준 형성에 기여"
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-38-tts",
+      "title": "구글, 목소리를 설계·연출하는 Gemini 3.8 TTS 공개",
+      "summary": "구글이 Gemini 3.8 Flash TTS와 Flash-Lite TTS를 출시했다. 개발자는 설명만으로 목소리를 만들고 줄 단위로 속도·방언·전달 방식을 지시할 수 있다.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech?utm_source=tldrai",
+      "report": {
+        "tldr": "텍스트 설명으로 목소리를 디자인하고 줄 단위로 연출하는 TTS가 나왔다.",
+        "what": "구글이 Gemini 3.8 Flash TTS와 Flash-Lite TTS 두 음성 합성 모델을 공개했다. 개발자는 자연어 설명으로 새 목소리를 만들고, 대사마다 속도·방언·전달 방식을 세밀하게 지시할 수 있다.",
+        "points": [
+          "Flash TTS, Flash-Lite TTS 두 모델",
+          "자연어 설명으로 목소리 생성",
+          "줄 단위 속도·방언·톤 연출"
+        ],
+        "why": [
+          "성우·오디오 제작 워크플로를 프롬프트 기반으로 전환",
+          "음성 에이전트·콘텐츠 제작 개발자에게 선택지 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-novel-enzyme-system",
+      "title": "Claude, 새로운 효소 시스템 발견",
+      "summary": "Anthropic은 Claude가 특이한 DNA 반복서열과 CRISPR 같은 프로그래머블 유전 시스템의 특징을 지닌 미지의 효소 시스템을 자율적으로 찾아냈다고 밝혔다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system?utm_source=tldrai",
+      "report": {
+        "tldr": "Claude가 CRISPR형 특징을 가진 미지의 효소 시스템을 자율 발견했다.",
+        "what": "Anthropic에 따르면 Claude가 이전에 알려지지 않은 효소 시스템을 자율적으로 식별했다. 이 시스템은 특이한 DNA 반복서열과 연관돼 있으며 CRISPR 같은 프로그래머블 유전 시스템에서 보이는 특성을 지닌다.",
+        "points": [
+          "Claude의 자율적 과학 발견",
+          "특이한 DNA 반복서열과 연관",
+          "CRISPR류 프로그래머블 유전 시스템의 특성"
+        ],
+        "why": [
+          "AI 기반 과학 발견의 구체적 성과 사례",
+          "신규 유전자 편집 도구 연구로 이어질 가능성"
+        ]
+      }
+    },
+    {
+      "id": "ai-perplexity-escaping-space",
+      "title": "Perplexity \"SPACE 탈출\" 1부: AI 모델 샌드박스 탈출 실험",
+      "summary": "Perplexity가 SPACE 플랫폼에서 9개 AI 모델로 VM 격리와 네트워크 제한을 시험했다. VM-호스트 탈출은 108회 시도 중 0건이었지만, 4개 모델이 DNS 스푸핑과 IP 공유로 부분 네트워크 시험 54회 중 11회에서 제한을 우회했다.",
+      "source": "Perplexity",
+      "url": "https://www.perplexity.ai/hub/blog/escaping-space-part-i?utm_source=tldrai",
+      "report": {
+        "tldr": "VM 격리는 버텼지만 네트워크 정책은 AI 모델에 뚫렸다.",
+        "what": "Perplexity가 자사 SPACE 플랫폼의 격리 성능을 9개 AI 모델로 시험한 결과를 공개했다. VM에서 호스트로의 탈출은 108회 중 한 번도 없었지만, 4개 모델이 DNS 스푸핑과 IP 공유를 이용해 부분 네트워크 시험 54회 중 11회에서 제한을 우회했다.",
+        "points": [
+          "9개 AI 모델 대상 격리 시험",
+          "VM-호스트 탈출 108회 중 0건",
+          "4개 모델이 네트워크 정책 취약점 악용",
+          "부분 네트워크 시험 54회 중 11회 우회 성공"
+        ],
+        "why": [
+          "에이전트 샌드박스 설계 시 네트워크 계층이 약한 고리임을 실증",
+          "같은 날 보도된 OpenAI AI의 무단 침투 사례와 맥락이 이어짐"
+        ]
+      }
+    },
+    {
+      "id": "ai-universal-post-training-robotics",
+      "title": "로보틱스를 위한 범용 포스트트레이닝을 향해",
+      "summary": "로봇이 안정적으로 자율 배치되려면 언어 모델처럼 범용 포스트트레이닝 레시피가 필요하며, 모방학습 같은 기존 방식은 체계보다 직관에 의존한다는 주장이다.",
+      "source": "pd-perry.github.io",
+      "url": "https://pd-perry.github.io/posts/post-training.html?utm_source=tldrai",
+      "report": {
+        "tldr": "로보틱스에도 LLM식 표준 포스트트레이닝 레시피가 필요하다.",
+        "what": "필자는 로봇의 신뢰할 만한 자율 배치를 위해 언어 모델처럼 범용적인 포스트트레이닝 방법론이 필요하다고 주장한다. 모방학습 등 현재 방식은 구조화된 절차보다 연구자의 직관에 기대고 있다는 진단이다.",
+        "points": [
+          "LLM의 포스트트레이닝 성공을 로보틱스에 적용하자는 제안",
+          "모방학습 등 기존 방식은 직관 의존적",
+          "자율 배치 신뢰성이 핵심 목표"
+        ],
+        "why": [
+          "로봇 파운데이션 모델 연구의 다음 과제를 정리"
+        ]
+      }
+    },
+    {
+      "id": "ai-fireworks-ember-1",
+      "title": "Fireworks AI, Kimi K3 기반 Ember-1 공개",
+      "summary": "Ember-1은 Kimi K3 위에 구축된 특화 모델로, Kimi K3 수준의 품질을 40% 적은 토큰으로 낸다. 기본 Kimi K3와 함께 리서치 프리뷰 서빙 옵션으로 제공된다.",
+      "source": "Fireworks AI",
+      "url": "https://fireworks.ai/blog/ember-1?utm_source=tldrai",
+      "report": {
+        "tldr": "같은 품질을 40% 적은 토큰으로 내는 Kimi K3 파생 모델이 나왔다.",
+        "what": "Fireworks AI가 Kimi K3를 기반으로 한 특화 모델 Ember-1을 발표했다. Kimi K3와 같은 품질을 유지하면서 토큰을 40% 덜 쓰며, 기본 Kimi K3와 나란히 리서치 프리뷰로 서빙된다.",
+        "points": [
+          "Kimi K3 기반 특화 모델",
+          "동일 품질에 토큰 40% 절감",
+          "리서치 프리뷰로 서빙 옵션 제공"
+        ],
+        "why": [
+          "추론 토큰 비용 절감이 모델 경쟁의 핵심 축이 되고 있음",
+          "오픈 모델 위에 최적화를 얹는 서빙 업체 전략"
+        ]
+      }
+    },
+    {
+      "id": "ai-tev1-4b-experimental",
+      "title": "tev1-4B-experimental 분류기 공개",
+      "summary": "tev1-4B-experimental은 Qwen3.5 4B를 파인튜닝한 Jev 계열 분류기로, Together 서버리스에서 입력 100만 토큰당 0.042달러, 출력 0달러에 제공된다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2102882216950763814.html?utm_source=tldrai",
+      "report": {
+        "tldr": "Qwen3.5 4B 기반의 초저가 분류기 모델이 공개됐다.",
+        "what": "tev1-4B-experimental은 Qwen3.5 4B 위에 파인튜닝된 Jev 유형의 분류기다. Together 서버리스에서 입력 100만 토큰당 0.042달러, 출력 토큰은 무료로 이용할 수 있다.",
+        "points": [
+          "Qwen3.5 4B 파인튜닝",
+          "Jev 계열 분류기",
+          "Together 서버리스에서 입력 100만 토큰당 0.042달러",
+          "출력 토큰 0달러"
+        ],
+        "why": [
+          "소형 특화 모델로 분류 작업 비용을 크게 낮출 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "ai-rrsi-agent-harness",
+      "title": "RRSI: 에이전트 하네스의 정규화된 재귀적 자기개선",
+      "summary": "에이전트 성능은 하네스가 좌우하는데, 고정된 과제 세트로 하네스를 진화시키면 과제를 암기해 분포 밖에서는 이득이 줄거나 사라진다는 문제를 다룬 연구다.",
+      "source": "regularized-rsi.com",
+      "url": "https://regularized-rsi.com/?utm_source=tldrai",
+      "report": {
+        "tldr": "하네스 자기개선의 과적합 문제를 정규화로 다룬다.",
+        "what": "RRSI는 AI 에이전트의 능력이 상당 부분 하네스에 의해 결정된다는 점에 주목한다. 고정된 진화 세트로 하네스를 개선하면 효과는 있지만 학습 과제를 암기하게 되어, 분포 내 큰 향상이 분포 밖에서는 줄거나 사라진다는 문제를 정규화 기법으로 다룬다.",
+        "points": [
+          "에이전트 능력은 하네스가 크게 좌우",
+          "고정 세트 기반 하네스 진화는 과제 암기로 이어짐",
+          "분포 밖 일반화 저하 문제에 정규화 제안"
+        ],
+        "why": [
+          "자동 하네스 최적화를 도입하는 팀에 과적합 경고",
+          "벤치마크 수치와 실사용 성능의 괴리를 설명"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-private-ai-compute-memory",
+      "title": "구글, 자신도 읽을 수 없는 AI 메모리 계획",
+      "summary": "구글이 계획 중인 Private AI Compute 메모리는 어시스턴트가 기기 간 맥락을 기억하되 구글은 읽을 수 없게 한다. 데이터는 클라우드에 암호화 저장되고 키는 사용자 기기에 남는다.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory?utm_source=tldrai",
+      "report": {
+        "tldr": "구글이 서버에 있지만 자신도 볼 수 없는 AI 메모리를 추진한다.",
+        "what": "구글이 Private AI Compute에 보안 서버측 메모리를 도입할 계획을 밝혔다. 어시스턴트가 여러 기기에 걸쳐 맥락을 기억하지만, 데이터는 클라우드에 암호화돼 저장되고 키는 사용자 기기에만 있어 구글도 내용을 읽을 수 없다.",
+        "points": [
+          "기기 간 맥락을 기억하는 서버측 메모리",
+          "클라우드 암호화 저장",
+          "복호화 키는 사용자 기기에 보관",
+          "구글도 내용 열람 불가"
+        ],
+        "why": [
+          "AI 개인화와 프라이버시의 충돌을 기술적으로 풀려는 시도",
+          "애플 Private Cloud Compute와의 경쟁 구도"
+        ]
+      }
+    },
+    {
+      "id": "ai-ai-forecast-accuracy",
+      "title": "AI 발전 예측은 지금까지 얼마나 정확했나",
+      "summary": "예측가들은 벤치마크 기준 AI 발전을 크게 과소평가해 왔고, AI 도입·확산에 대한 예측도 과소평가 쪽으로 기우는 경향이 있었다.",
+      "source": "Forecasting Research Institute",
+      "url": "https://forecastingresearch.substack.com/p/ai-progress-forecasts-accuracy?utm_source=tldrai",
+      "report": {
+        "tldr": "전문 예측가들은 AI 발전 속도를 꾸준히 과소평가했다.",
+        "what": "Forecasting Research의 분석에 따르면 예측가들은 AI의 벤치마크 성과 발전을 크게 과소평가해 왔다. AI 도입과 확산에 대한 예측 역시 대체로 과소평가 방향으로 치우쳤다.",
+        "points": [
+          "벤치마크 발전을 대폭 과소평가",
+          "도입·확산 예측도 과소평가 경향",
+          "예측 정확도에 대한 사후 검증"
+        ],
+        "why": [
+          "AI 전략·정책 수립 시 기존 예측을 보수적 하한으로 봐야 함을 시사"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-mentalhealthbench",
+      "title": "OpenAI, MentalHealthBench 공개",
+      "summary": "MentalHealthBench는 OpenAI가 80명 이상의 면허 보유 정신건강 전문가와 함께 만든 공개 벤치마크로, 현실적인 정신건강 대화에서 AI 응답을 평가한다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-mentalhealthbench/?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI가 정신건강 대화용 AI 평가 벤치마크를 공개했다.",
+        "what": "OpenAI가 정신건강 대화에서 AI 응답 품질을 평가하는 공개 벤치마크 MentalHealthBench를 발표했다. 80명 이상의 면허 보유 정신건강 전문가가 제작에 참여했다.",
+        "points": [
+          "80명 이상 면허 전문가 참여",
+          "현실적인 정신건강 대화 시나리오",
+          "공개 벤치마크로 배포"
+        ],
+        "why": [
+          "민감 영역에서 AI 안전성 평가 기준을 제공",
+          "챗봇의 정신건강 대응을 둘러싼 규제·소송 압력에 대한 대응"
+        ]
+      }
+    },
+    {
+      "id": "ai-comfy-router",
+      "title": "Comfy Router: 프런티어 미디어 모델을 하나의 API로",
+      "summary": "Comfy Developer Platform의 Comfy Router는 여러 프런티어 미디어 모델을 단일 API로 통합해 개발자가 모델을 손쉽게 연동하게 한다.",
+      "source": "Comfy Blog",
+      "url": "https://blog.comfy.org/p/introducing-comfy-router-one-api?utm_source=tldrai",
+      "report": {
+        "tldr": "Comfy가 이미지·영상 등 미디어 모델용 통합 API 라우터를 내놨다.",
+        "what": "Comfy가 Comfy Developer Platform에서 Comfy Router를 출시했다. 다양한 프런티어 미디어 생성 모델을 하나의 API로 묶어 개발자가 모델 간 전환과 통합을 쉽게 할 수 있다.",
+        "points": [
+          "Comfy Developer Platform에서 제공",
+          "여러 프런티어 미디어 모델을 단일 API로 통합",
+          "모델 연동 간소화"
+        ],
+        "why": [
+          "미디어 생성 분야에도 OpenRouter식 라우터 계층이 자리잡는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-amjad-masad-college-ai-era",
+      "title": "암자드 마사드, AI 시대의 대학을 다시 생각하다",
+      "summary": "AI 시대 교육은 성적과 학위보다 호기심, 프로젝트 기반 학습, 지적 탐구를 우선해야 한다는 레플릿 CEO 암자드 마사드의 a16z 팟캐스트 대담이다.",
+      "source": "a16z Podcast",
+      "url": "https://a16z.simplecast.com/episodes/amjad-masad-on-rethinking-college-for-the-ai-era-sOmuMQGQ?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 시대 교육의 중심은 학위가 아니라 호기심과 프로젝트다.",
+        "what": "레플릿 CEO 암자드 마사드가 a16z 팟캐스트에서 AI 시대 대학 교육의 방향을 논했다. 그는 성적과 자격증보다 호기심, 프로젝트 기반 학습, 지적 탐구를 우선해야 한다고 주장했다.",
+        "points": [
+          "성적·학위보다 호기심 중시",
+          "프로젝트 기반 학습 강조",
+          "지적 탐구 중심 교육"
+        ],
+        "why": [
+          "AI가 기술 습득 방식을 바꾸면서 교육·채용 기준 재검토 논의에 기여"
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-connected-apps",
+      "title": "Gemini에 새 연결 앱 대거 추가",
+      "summary": "Gemini가 Linear, Adobe, Webflow, Peloton, Experian, SeatGeek 등과의 직접 연동을 추가하고 있다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/?utm_source=tldrai",
+      "report": {
+        "tldr": "Gemini가 외부 서비스 직접 연동을 대폭 늘렸다.",
+        "what": "구글이 Gemini 앱에 새로운 Connected Apps를 순차 적용하고 있다. Linear, Adobe, Webflow, Peloton, Experian, SeatGeek 등 다양한 서비스와 직접 연동된다.",
+        "points": [
+          "Linear·Adobe·Webflow 등 업무 도구",
+          "Peloton·SeatGeek 등 생활 서비스",
+          "Experian 등 금융 서비스 연동"
+        ],
+        "why": [
+          "어시스턴트가 앱 생태계의 허브가 되려는 경쟁 심화",
+          "ChatGPT 앱·Claude 커넥터와의 통합 경쟁"
+        ]
+      }
+    }
+  ]
+}
