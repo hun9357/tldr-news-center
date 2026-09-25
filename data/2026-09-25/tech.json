@@ -1,0 +1,293 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-google-suncatcher-orbital-launch",
+      "title": "구글 궤도 데이터센터 'Suncatcher' 첫 시험위성, 10월 1일 발사",
+      "summary": "구글의 우주 AI 데이터센터 문샷 프로젝트 Suncatcher가 TPU 4개를 탑재한 첫 실험 위성을 10월 1일 쏘아 올린다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "구글이 궤도 AI 데이터센터 구상을 실제 하드웨어로 검증하는 첫 단계에 들어간다.",
+        "what": "구글 Project Suncatcher의 첫 실험 위성이 10월 1일 발사된다. 냉장고 크기의 위성에 맞춤형 TPU 4개와 약 1kW를 공급하는 태양광 패널이 실렸다. 수개월 운용하며 AI 위성 군집 구상에 필요한 여러 기술을 시험한다.",
+        "points": [
+          "냉장고 크기 위성에 커스텀 TPU AI 가속기 4개 탑재",
+          "태양광 패널로 약 1kW 전력 공급",
+          "몇 달간의 운용으로 다수 기술을 검증",
+          "최종 목표는 AI 위성 군집(constellation)"
+        ],
+        "why": [
+          "지상 전력·부지 제약을 우회하는 대안으로서 우주 데이터센터의 실현 가능성을 가늠할 첫 실측 데이터",
+          "TPU의 우주 환경 내구성 검증은 구글 AI 인프라 로드맵에 직결"
+        ]
+      }
+    },
+    {
+      "id": "tech-bezos-blue-origin-30b",
+      "title": "베이조스, 블루 오리진에 사재 300억 달러 투입",
+      "summary": "제프 베이조스가 2000년 창업 이후 블루 오리진에 300억 달러를 쏟아부었으며, 회사는 최근 처음으로 외부 투자를 유치했다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/business/jeff-bezos-blue-origin-is-fueled-with-30-billion-of-his-fortune-b7407e6e?st=mnSpmr&reflink=desktopwebshare_permalink&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "개인 자금 300억 달러로 키운 블루 오리진이 외부 자본을 받으며 2030년 매출 300억 달러를 노린다.",
+        "what": "베이조스는 2000년 창업 이후 블루 오리진에 300억 달러를 투자했다. 회사는 직원 약 1만 5천 명 규모로 성장했고 최근 처음으로 외부 투자자 자금을 조달했다. 올해 매출은 약 14억 달러로 예상되며 2030년에는 300억 달러 이상을 목표로 한다.",
+        "points": [
+          "창업 이후 누적 300억 달러의 베이조스 개인 자금 투입",
+          "직원 약 15,000명 규모",
+          "사상 첫 외부 투자 유치",
+          "올해 매출 약 14억 달러 → 2030년 300억 달러+ 목표"
+        ],
+        "why": [
+          "외부 자본 유입은 블루 오리진이 창업자 의존에서 벗어나 상업적 검증 단계로 들어섰다는 신호",
+          "스페이스X와의 우주 산업 경쟁 구도에 영향"
+        ]
+      }
+    },
+    {
+      "id": "tech-rsa-new-classical-attack",
+      "title": "기존보다 훨씬 빠른 새로운 RSA 공격 기법 등장",
+      "summary": "연구진이 고전 컴퓨팅만으로 RSA 보안 수준을 크게 낮추는 서명 위조 기법을 발견했다. 실질 위험은 제한적이지만 무시하기 어렵다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "양자컴퓨터 없이도 RSA 보안 여유분을 크게 깎는 공격이 나왔다.",
+        "what": "연구진이 고전 컴퓨팅으로 RSA의 보안 수준을 용인하기 어려운 수준까지 낮추는 새 방법을 발견했다. 기법은 서명 위조를 활용하며 필요한 연산 자원을 몇 자릿수 줄인다. 다만 널리 쓰이는 RSA 구현체는 안전하다.",
+        "points": [
+          "고전 컴퓨팅 기반 공격으로 필요한 자원을 몇 자릿수 절감",
+          "서명 위조(signature forgery) 방식",
+          "주요 RSA 구현체는 여전히 안전",
+          "실질 위험은 제한적이나 유의미"
+        ],
+        "why": [
+          "포스트 양자 암호 전환 논의에 '고전적 위협'이라는 새 근거를 추가",
+          "RSA 서명 의존 시스템의 구현 점검 필요성 부각"
+        ]
+      }
+    },
+    {
+      "id": "tech-waymo-fleet-data",
+      "title": "웨이모 로보택시 약 4천 대, 80%가 캘리포니아·텍사스에 집중",
+      "summary": "웨이모 차량 약 4,000대 중 80%가 캘리포니아와 텍사스에 있으며, 텍사스 차량은 최근 3주 새 거의 50% 늘었다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/24/waymo-is-scaling-fast-heres-what-the-fleet-data-shows/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "웨이모는 두 개 주에 집중하며 빠르게 확장 중이고, 중국산 미니밴 비중도 늘고 있다.",
+        "what": "플릿 데이터에 따르면 웨이모 로보택시 약 4,000대 중 80%가 캘리포니아와 텍사스에 배치돼 있다. 텍사스 플릿은 최근 3주 새 거의 절반 증가했다. 나머지 약 800대는 애리조나·플로리다 등 다른 주에 분산돼 있다.",
+        "points": [
+          "전체 약 4,000대 중 80%가 CA·TX",
+          "텍사스 플릿 3주 만에 약 50% 증가",
+          "기타 주에 약 800대 분산",
+          "중국산 미니밴 비중 증가"
+        ],
+        "why": [
+          "로보택시 상용화가 소수 거점 집중 전략으로 진행되고 있음을 보여줌",
+          "중국산 차량 의존은 미중 규제 리스크와 맞닿아 있음"
+        ]
+      }
+    },
+    {
+      "id": "tech-cpu-shortages",
+      "title": "새로운 흐름: 클라우드 CPU 품귀",
+      "summary": "많은 기업이 CPU 확보에 어려움을 겪고 있으며, 스팟 인스턴스 CPU는 사실상 사라지고 수개월 전 예약이 필요해졌다.",
+      "source": "Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-a-new-trend-of-cpu-shortages/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "GPU에 이어 CPU도 클라우드에서 구하기 어려운 자원이 됐다.",
+        "what": "많은 기업이 CPU 조달에 어려움을 겪고 있다. 수요가 넘쳐 CPU 스팟 가격 자체가 사라졌고, 클라우드 사업자와 오랜 관계가 없으면 스팟 인스턴스로 CPU를 얻기 거의 불가능하다. 특정 CPU 예약은 수개월 전에 해야 하며 사업자가 예약을 거절하기도 한다.",
+        "points": [
+          "CPU 스팟 가격 소멸",
+          "특정 CPU 예약은 수개월 전 필요",
+          "클라우드 사업자가 재고 부족으로 예약 거절",
+          "기존 관계가 있는 고객이 유리"
+        ],
+        "why": [
+          "인프라 비용·용량 계획에 CPU도 병목 변수로 편입해야 함",
+          "AI 에이전트 워크로드 확산이 범용 컴퓨팅 수요까지 끌어올리는 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-thinking-in-systems-loops",
+      "title": "시스템으로 생각하고 루프로 배포하라",
+      "summary": "AI가 코딩의 타이핑을 없앴지만 시스템 설계는 남았으며, 이제 핵심은 결과가 맞는지 판단하는 루프를 설계하는 일이라는 주장.",
+      "source": "Tom Tunguz",
+      "url": "https://tomtunguz.com/thinking-in-systems?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 시대 엔지니어링의 본질은 출력 검증 루프의 설계다.",
+        "what": "톰 텅거스는 AI가 소프트웨어 엔지니어링에서 타이핑을 제거했지만 시스템 설계는 남겼다고 말한다. 남은 일은 출력의 정오를 판단하는 루프를 설계하는 것이다. 좋은 시스템 설계는 회복력, 자기조직화, 계층성으로 정의된다.",
+        "points": [
+          "회복력 = AI가 스스로 작업을 검증",
+          "자기조직화 = 루프가 학습",
+          "계층성 = 스킬·도구·샌드박스를 조합 가능한 컴포넌트로 적층",
+          "검증된 컴포넌트는 재사용"
+        ],
+        "why": [
+          "에이전트 기반 개발에서 엔지니어 역할이 '작성'에서 '검증 체계 설계'로 이동함을 정리"
+        ]
+      }
+    },
+    {
+      "id": "tech-specter-of-neuralese",
+      "title": "'뉴럴리즈'의 망령: OpenAI Astra와 추론 감시 문제",
+      "summary": "OpenAI의 새 Astra 모델이 쓰는 recurrent depth 기법이 사고 사슬 감시를 어렵게 만들어, 위험한 '뉴럴리즈' AI 금기를 넘었는지 논쟁이 일고 있다.",
+      "source": "Astral Codex Ten",
+      "url": "https://www.astralcodexten.com/p/the-specter-of-neuralese?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "추론 과정을 사람이 읽을 수 없게 만드는 기법이 AI 안전의 새 쟁점으로 떠올랐다.",
+        "what": "뉴럴리즈 재귀(neuralese recurrence)는 AI가 감지되지 않고 위험한 생각을 할 수 있게 하는 가상의 기술이다. OpenAI의 새 Astra 모델은 recurrent depth라는 추론 기법으로 순차적 사고 밖에서 작동해 사고 사슬 모니터링을 어렵게 한다. 위험한 뉴럴리즈 AI를 만들지 말자는 금기가 형성되고 있지만 OpenAI가 이를 어겼는지는 명확한 선이 없어 불분명하다.",
+        "points": [
+          "Astra는 recurrent depth 추론 기법 사용",
+          "순차적 CoT 밖에서 작동해 감시가 어려움",
+          "뉴럴리즈 AI에 대한 업계 금기가 형성 중",
+          "금기의 명확한 기준은 아직 없음"
+        ],
+        "why": [
+          "사고 사슬 모니터링에 기댄 AI 안전 전략의 전제가 흔들릴 수 있음",
+          "프런티어 랩 간 안전 규범 논의의 기준점이 될 사안"
+        ]
+      }
+    },
+    {
+      "id": "tech-meta-muse-charm",
+      "title": "저커버그의 '다마고치형' AI 펜던트, 메타의 아이팟 모먼트 될까",
+      "summary": "메타가 개인 에이전트 Muse와 상호작용하는 다마고치 같은 펜던트 'Muse Charm'을 발표했다. 크리스마스 전 출시 예정이다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-09-24/zuckerberg-s-ai-muse-charm-could-be-meta-s-ipod-moment?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MDMxMDQxOCwiZXhwIjoxNzkwOTE1MjE4LCJhcnRpY2xlSWQiOiJUTFZFSUFOM04wQTQwMCIsImJjb25uZWN0SWQiOiIwOThFNzNDQTE5QTA0RDkxODEyQzQ4MjcwRDZERTI0QiJ9.oD9UPLYuT7aC22Ehmb3Fx-PxwMuHAKL6Hvngw4wvz1w&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "메타가 AI 에이전트용 전용 하드웨어로 광고 외 수익원을 노린다.",
+        "what": "메타는 수요일 개인 에이전트 Muse와 상호작용하는 다마고치 같은 펜던트를 발표했다. 화면 중앙에 커스터마이즈 가능한 캐릭터가 있고 손목 스트랩, 주머니, 가방·키체인 등으로 휴대할 수 있다. 기기끼리 가까이 두면 서로 상호작용한다.",
+        "points": [
+          "크리스마스 전 출시 예정",
+          "화면 중앙의 커스터마이즈 캐릭터",
+          "손목·주머니·가방 등 다양한 휴대 방식",
+          "근접한 기기끼리 상호작용"
+        ],
+        "why": [
+          "블룸버그는 Muse Charm이 광고 사업을 능가할 새 수익원이 될 수 있다고 평가",
+          "AI 에이전트 전용 기기 경쟁에 메타가 소비자 친화적 접근으로 참전"
+        ]
+      }
+    },
+    {
+      "id": "tech-nasa-china-moon-south-pole",
+      "title": "NASA 수장, 중국의 달 남극 일부 접근 차단 가능성 우려",
+      "summary": "NASA 수장이 중국이 물 등 자원이 있을 것으로 보이는 달 남극 핵심 지역 접근을 막을 수 있다고 우려했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/09/nasa-chief-concerned-china-may-deny-access-to-parts-of-south-pole/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "달 남극 '요지' 선점을 둘러싼 미중 경쟁이 표면화됐다.",
+        "what": "NASA 수장이 중국이 달 남극 일부 지역에 대한 접근을 막을 수 있다는 우려를 표했다. 달 남극, 특히 섀클턴 크레이터는 가장 탐나는 입지로 꼽힌다. 영구 음영 지역인 '콜드 트랩'에 물 등 유용한 자원이 있을 것으로 추정된다.",
+        "points": [
+          "달 남극은 최고 가치의 입지로 평가",
+          "섀클턴 크레이터의 영구 음영 '콜드 트랩'",
+          "물 등 자원 매장 추정",
+          "중국의 선점에 따른 접근 제한 우려"
+        ],
+        "why": [
+          "달 자원 선점이 우주 탐사의 지정학적 쟁점으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "tech-us-x-eu-fine",
+      "title": "미국 정부, 머스크의 X에 부과된 EU 벌금 문제에 개입",
+      "summary": "EU 집행위원회가 지난해 12월 기만적 행위 방지 실패로 X에 1억 4천만 달러 벌금을 부과한 사안에 미국이 개입했다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/09/24/technology/us-x-elon-musk-europe-fine.html?unlocked_article_code=1.D1E.y6Fw.RjllQb9ufLx_&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "EU 플랫폼 규제 집행이 미·EU 외교 문제로 번지고 있다.",
+        "what": "미국이 일론 머스크의 X에 대한 유럽 벌금 문제에 개입했다. 유럽 집행위원회는 12월 X가 사이트 내 기만적 행위를 막지 못했다며 1억 4천만 달러의 벌금을 부과했다.",
+        "points": [
+          "EU 집행위, 12월 X에 1억 4천만 달러 벌금",
+          "사유: 기만적 행위 방지 실패",
+          "미국 정부가 X를 위해 개입"
+        ],
+        "why": [
+          "디지털서비스법(DSA) 집행이 미국 정부의 외교적 압박에 직면",
+          "빅테크 규제를 둘러싼 미·EU 갈등 확대 가능성"
+        ]
+      }
+    },
+    {
+      "id": "tech-tla-plus-limits",
+      "title": "TLA+로 검증할 수 없는 것들",
+      "summary": "TLA+는 가능성·도달성 속성, 하이퍼프로퍼티, 통계적 속성, 코드 변경에 대한 견고성은 표현하지 못한다는 분석.",
+      "source": "Hraness",
+      "url": "https://hraness.com/reading/the-limits-of-what-tla-plus-can-verify?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "형식 검증 도구 TLA+의 표현력 한계를 정리한 글.",
+        "what": "TLA+가 검증할 수 있는 범위의 한계를 다룬 글이다. TLA+는 가능성·도달성 속성, 하이퍼프로퍼티, 통계적 속성을 표현할 수 없다. 시스템이 코드 변경에 견고한지 여부도 다루지 못한다.",
+        "points": [
+          "가능성·도달성(possibility/reachability) 속성 표현 불가",
+          "하이퍼프로퍼티 표현 불가",
+          "통계적 속성 표현 불가",
+          "코드 변경에 대한 견고성 검증 불가"
+        ],
+        "why": [
+          "형식 검증 도입 시 도구가 보장하는 범위를 정확히 이해해야 함"
+        ]
+      }
+    },
+    {
+      "id": "tech-not-everyone-can-code",
+      "title": "모두가 코딩할 수 있는 것은 아니다",
+      "summary": "일부 시스템의 디버깅은 형식 모델이나 엄격한 아키텍처 없이는 극소수만 잘 해낼 수 있는 부자연스러운 인지 부담이라는 주장.",
+      "source": "Funcall",
+      "url": "https://funcall.blogspot.com/2026/09/not-everyone-can-code_01093260948.html?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "복잡한 시스템 디버깅은 여전히 드문 인지 능력을 요구한다.",
+        "what": "필자는 일부 시스템의 디버깅이 너무 부자연스러운 인지 부담이라 형식 모델이나 순수한 아키텍처적 절제 없이는 잘 해낼 수 있는 사람이 극히 드물다고 주장한다.",
+        "points": [
+          "복잡 시스템 디버깅은 높은 인지 부담",
+          "형식 모델이 보조 수단",
+          "아키텍처적 절제가 부담을 줄이는 방법"
+        ],
+        "why": [
+          "'누구나 코딩' 시대에도 시스템 이해 역량의 희소성은 유지됨을 시사"
+        ]
+      }
+    },
+    {
+      "id": "tech-oracle-force-majeure",
+      "title": "오라클, 데이터센터 프로젝트에 '불가항력' 통지…주가 3% 하락",
+      "summary": "오라클이 Project Jupiter 캠퍼스가 2028년 예정대로 가동되지 않을 경우 대금 지급을 미루려 불가항력 통지를 보냈다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/24/oracle-data-center-force-majeure.html?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 데이터센터 구축 지연 리스크가 오라클 주가에 반영됐다.",
+        "what": "오라클이 데이터센터 프로젝트와 관련해 불가항력(force majeure) 통지를 보냈고 주가는 3% 떨어졌다. Project Jupiter 캠퍼스가 2028년 예상대로 가동되지 않으면 대금 지급을 연기하려는 조치다.",
+        "points": [
+          "Project Jupiter 캠퍼스 대상 불가항력 통지",
+          "2028년 가동 목표 미달 시 지급 연기",
+          "주가 3% 하락"
+        ],
+        "why": [
+          "AI 인프라 대규모 투자의 일정 리스크가 계약 구조로 드러남",
+          "데이터센터 건설 공급망 병목에 대한 시장 경계 강화"
+        ]
+      }
+    },
+    {
+      "id": "tech-age-of-soft-skill",
+      "title": "소프트 스킬의 시대",
+      "summary": "누구나 작업 자체는 해낼 수 있게 된 지금, 소프트 스킬 없이는 더 이상 버틸 수 없다는 주장.",
+      "source": "Rudy Faile",
+      "url": "https://rudyfaile.com/2026/09/24/the-age-of-the-soft-skill/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI로 실무 격차가 줄면서 소프트 스킬이 차별화 요소가 됐다.",
+        "what": "필자는 이제 누구나 일을 해낼 수 있게 되면서 소프트 스킬 없이 버티기 어려워졌다고 말한다.",
+        "points": [
+          "작업 수행 능력의 평준화",
+          "소프트 스킬이 핵심 차별화 요소로 부상"
+        ],
+        "why": [
+          "AI 확산 이후 커리어 역량의 우선순위 변화를 보여줌"
+        ]
+      }
+    }
+  ]
+}

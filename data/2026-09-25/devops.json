@@ -1,0 +1,245 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-gke-pod-snapshots",
+      "title": "GKE, 파드 스냅샷으로 AI 추론 기동 최대 89% 단축",
+      "summary": "구글 쿠버네티스 엔진이 실행 중인 워크로드의 CPU·GPU 메모리 상태를 저장했다가 필요 시 복원하는 파드 스냅샷 기능을 추가했다. 70B 모델을 37초 만에 로드한다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-pod-snapshots/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "메모리 상태 스냅샷으로 AI 추론 콜드 스타트 문제를 정면으로 겨냥했다.",
+        "what": "Google Kubernetes Engine(GKE)에 파드 스냅샷 기능이 추가됐다. 실행 중 워크로드의 CPU·GPU 메모리 상태를 캡처해 온디맨드로 복원할 수 있다. 구글은 AI 추론 기동 시간을 최대 89% 줄였다고 밝혔다.",
+        "points": [
+          "CPU와 GPU 메모리 상태를 함께 캡처",
+          "AI 추론 시작 시간 최대 89% 단축",
+          "70B 파라미터 모델을 37초 만에 로드"
+        ],
+        "why": [
+          "대형 모델 오토스케일링 시 콜드 스타트 지연과 GPU 유휴 비용을 줄일 수 있다",
+          "쿠버네티스가 AI 서빙 인프라로서 기능을 빠르게 보강하고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "devops-gpt6-prompt-caching",
+      "title": "OpenAI, GPT-6 프롬프트 캐싱 개선…캐시 입력 최대 90% 할인",
+      "summary": "OpenAI가 GPT-6 제품군에 기본 캐시 적중률을 높인 새 프롬프트 캐싱 시스템을 도입했다. 30분 내 공유 프리픽스 재사용 시 캐시 입력 토큰이 최대 90% 할인된다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/better-prompt-caching-for-gpt-6?utm_source=tldrdevops",
+      "report": {
+        "tldr": "GPT-6에서 프롬프트 캐싱이 기본값으로 더 잘 작동해 비용이 크게 줄어든다.",
+        "what": "OpenAI가 GPT-6 제품군용 개선된 프롬프트 캐싱 시스템을 출시했다. 별도 설정 없이도 캐시 적중률이 높아진다. 30분 창 안에서 공유 프리픽스를 재사용하면 캐시된 입력 토큰에 최대 90% 할인이 적용된다.",
+        "points": [
+          "GPT-6 제품군 대상",
+          "기본 설정에서 캐시 적중률 향상",
+          "캐시 입력 토큰 최대 90% 할인",
+          "30분 창 내 공유 프리픽스 재사용"
+        ],
+        "why": [
+          "에이전트·RAG처럼 긴 공통 프롬프트를 쓰는 워크로드의 비용 구조에 직접 영향",
+          "프롬프트를 고정 프리픽스 중심으로 설계할 유인이 커진다"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-adlc",
+      "title": "Cloudflare, 전통적 SDLC 대체할 '에이전트 개발 라이프사이클' 제시",
+      "summary": "Cloudflare가 AI 코딩 에이전트를 위한 자율·이벤트 기반 개발 라이프사이클(ADLC)을 소개했다. Workflows 제품과 새 @cloudflare/ci 도구 위에 구축됐다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/09/cloudflare-adlc-agents/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Cloudflare가 AI 에이전트 시대의 CI/CD 모델을 자사 플랫폼으로 제안했다.",
+        "what": "Cloudflare가 기존 소프트웨어 파이프라인을 AI 코딩 에이전트용 자율·이벤트 기반 시스템으로 바꾸는 Agent Development Lifecycle을 발표했다. 이는 Cloudflare Workflows 제품과 새 @cloudflare/ci 도구를 기반으로 한다.",
+        "points": [
+          "전통적 SDLC 파이프라인 대체를 표방",
+          "이벤트 기반·자율형 시스템 구조",
+          "Workflows와 신규 @cloudflare/ci 도구 기반"
+        ],
+        "why": [
+          "코딩 에이전트가 늘면서 CI/CD 설계 전제 자체가 바뀌고 있다",
+          "엣지 플랫폼 업체가 개발 파이프라인 영역으로 확장하려는 움직임이다"
+        ]
+      }
+    },
+    {
+      "id": "devops-datadog-9b-alert-investigation",
+      "title": "Datadog, 9B 모델로 장애 알림 조사 자동화…비용 20분의 1",
+      "summary": "Datadog이 대형 교사 모델의 트레이스로 Qwen3.5-9B를 파인튜닝해 장애 조사 중 변경 원인 파악을 자동화했다. 교사 모델 재현율의 87%를 유지하면서 조사당 비용을 약 0.003달러로 낮췄다.",
+      "source": "Datadog",
+      "url": "https://www.datadoghq.com/blog/ai/investigate-production-alerts/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "증류한 소형 모델이 운영 장애 조사에서 대형 모델을 저비용으로 대체할 수 있음을 보여줬다.",
+        "what": "Datadog은 더 큰 교사 모델이 남긴 트레이스로 Qwen3.5-9B를 파인튜닝해, 인시던트 조사 과정의 변경 원인 파악(change attribution)을 자동화했다. 학생 모델은 교사 모델 재현율의 87%를 달성했고 추론 비용은 약 20배 줄었다.",
+        "points": [
+          "교사 모델 트레이스 기반 증류 파인튜닝",
+          "Qwen3.5-9B를 학생 모델로 사용",
+          "교사 대비 재현율 87%",
+          "조사 1건당 약 0.003달러, 비용 약 20배 절감"
+        ],
+        "why": [
+          "모든 알림에 LLM 조사를 붙이려면 이런 비용 절감이 전제 조건이다",
+          "특화 태스크에서는 소형 모델 증류가 현실적인 선택지임을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "devops-ai-now-tech-workers-inquiry",
+      "title": "AI를 떠받치는 보이지 않는 인간 노동",
+      "summary": "AI 시스템이 데이터 라벨링, 콘텐츠 모더레이션, 모델 평가 같은 숨겨진 인간 노동층에 점점 더 의존하고 있다는 Tech Workers Inquiry의 조사다.",
+      "source": "Tech Workers Inquiry",
+      "url": "https://techworkersinquiry.org/ai/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 모델의 행동은 보이지 않는 계약직 노동이 상당 부분 만든다.",
+        "what": "Tech Workers Inquiry가 AI 산업의 노동 구조를 다룬 조사를 공개했다. 데이터 라벨링, 콘텐츠 모더레이션, 모델 평가 등 계약 기반 인간 노동이 모델의 행동을 형성한다고 지적한다.",
+        "points": [
+          "AI는 숨겨진 인간 노동층에 의존",
+          "데이터 라벨링·모더레이션·모델 평가 포함",
+          "계약직 형태의 노동이 모델 행동을 좌우"
+        ],
+        "why": [
+          "AI 품질과 비용 구조를 이해하려면 인간 노동 공급망도 봐야 한다"
+        ]
+      }
+    },
+    {
+      "id": "devops-nvidia-model-optimizer",
+      "title": "NVIDIA, 모델 최적화 라이브러리 Model Optimizer 오픈소스화",
+      "summary": "NVIDIA가 양자화, 프루닝, 증류 등 딥러닝 모델 가속 기법을 제공하는 Model Optimizer 라이브러리를 오픈소스로 공개했다.",
+      "source": "GitHub",
+      "url": "https://github.com/NVIDIA/Model-Optimizer?utm_source=tldrdevops",
+      "report": {
+        "tldr": "NVIDIA가 추론 최적화 툴킷을 오픈소스로 풀었다.",
+        "what": "NVIDIA가 Model Optimizer 라이브러리를 오픈소스로 공개했다. 양자화, 프루닝, 증류 같은 기법으로 딥러닝 모델을 가속할 수 있다.",
+        "points": [
+          "GitHub에 오픈소스로 공개",
+          "양자화·프루닝·증류 기법 제공",
+          "딥러닝 모델 추론 가속 목적"
+        ],
+        "why": [
+          "배포 전 모델 경량화 파이프라인을 표준 도구로 구성할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-strands-harness-sdk",
+      "title": "Strands Agents, 파이썬·타입스크립트용 에이전트 SDK 공개",
+      "summary": "Strands Agents가 AI 에이전트 구축용 오픈소스 SDK를 내놨다. 모델과 메모리에 대해 벤치마크된 기본값을 담은 'harness'를 제공한다.",
+      "source": "GitHub",
+      "url": "https://github.com/strands-agents/harness-sdk?utm_source=tldrdevops",
+      "report": {
+        "tldr": "벤치마크 기반 기본값을 갖춘 에이전트 하네스 SDK가 나왔다.",
+        "what": "Strands Agents가 파이썬과 타입스크립트에서 AI 에이전트를 만드는 새 오픈소스 SDK를 공개했다. 모델과 메모리 설정에 대해 벤치마크로 검증한 기본값을 담은 '하네스'를 제공한다.",
+        "points": [
+          "오픈소스 에이전트 SDK",
+          "파이썬·타입스크립트 지원",
+          "모델·메모리에 벤치마크된 기본값 제공"
+        ],
+        "why": [
+          "에이전트 구성의 시행착오를 줄이는 합리적 기본값을 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "devops-docker-sandbox-kit-spec",
+      "title": "Docker Sandbox Kit 스펙 v3: 권한을 코드로",
+      "summary": "Docker Sandbox Kit 스펙 v3는 에이전트의 권한과 의존성을 일반 OCI 이미지로 패키징하는 방법을 정의한다.",
+      "source": "Docker Blog",
+      "url": "https://www.docker.com/blog/docker-sandbox-kit-spec/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "에이전트 권한을 OCI 이미지로 패키징해 배포·검증 가능한 자산으로 만든다.",
+        "what": "Docker가 Sandbox Kit Specification v3를 공개했다. 이 스펙은 AI 에이전트의 권한과 의존성을 일반 OCI 이미지로 패키징하는 방식을 규정한다.",
+        "points": [
+          "Sandbox Kit 스펙 v3",
+          "에이전트 권한과 의존성을 함께 패키징",
+          "표준 OCI 이미지 형식 사용"
+        ],
+        "why": [
+          "에이전트 권한을 기존 컨테이너 공급망·레지스트리로 관리·감사할 수 있다",
+          "에이전트 샌드박싱의 표준화 시도다"
+        ]
+      }
+    },
+    {
+      "id": "devops-gke-multicluster-inference-gateway",
+      "title": "GKE 멀티클러스터 추론 게이트웨이, 오버헤드 1% 미만 글로벌 AI 라우팅",
+      "summary": "구글의 멀티클러스터 GKE Inference Gateway가 전 세계 가속기 용량을 단일 엔드포인트로 묶고, 라운드로빈 대신 실시간 KV 캐시 사용률 기반으로 LLM 트래픽을 라우팅한다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/containers-kubernetes/gpu-and-tpu-utilization-with-multi-cluster-gke-inference-gateway/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "KV 캐시 인지 라우팅으로 전 세계 GPU·TPU를 하나의 풀처럼 쓴다.",
+        "what": "구글이 멀티클러스터 GKE Inference Gateway를 소개했다. 전 세계에 분산된 가속기 용량을 단일 엔드포인트 뒤에 풀링하고, 라운드로빈이 아닌 실시간 KV 캐시 사용률에 따라 LLM 트래픽을 분배한다. 오버헤드는 1% 미만이라고 한다.",
+        "points": [
+          "글로벌 분산 가속기 용량을 단일 엔드포인트로 풀링",
+          "실시간 KV 캐시 사용률 기반 라우팅",
+          "라우팅 오버헤드 1% 미만"
+        ],
+        "why": [
+          "희소한 GPU·TPU 용량의 활용률을 높일 수 있다",
+          "LLM 서빙에서 일반 로드밸런싱 대신 모델 인지형 라우팅이 표준이 되는 흐름이다"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudwatch-omni",
+      "title": "AWS, AI·에이전트 워크로드용 통합 관측 도구 CloudWatch Omni 출시",
+      "summary": "Amazon CloudWatch Omni는 애플리케이션과 AI 워크로드를 위한 통합 관측성 경험이다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-amazon-cloudwatch-omni-ai-powered-observability-for-generative-ai-and-agentic-workloads/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AWS가 생성형 AI·에이전트까지 아우르는 관측 도구를 내놨다.",
+        "what": "AWS가 Amazon CloudWatch Omni를 발표했다. 애플리케이션과 생성형 AI·에이전트 워크로드를 한 곳에서 관측하는 통합 경험을 제공하며, AI 기반 기능을 내세운다.",
+        "points": [
+          "애플리케이션과 AI 워크로드 통합 관측",
+          "생성형 AI·에이전트 워크로드 대상",
+          "AI 기반 관측 기능"
+        ],
+        "why": [
+          "에이전트 워크로드 관측이 클라우드 기본 서비스로 편입되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-private-ai-compute-memory",
+      "title": "구글, Private AI Compute에 암호화된 서버 측 메모리 추가",
+      "summary": "구글이 Private AI Compute 플랫폼에 영속적 암호화 메모리 계층을 추가해, AI 비서가 기기 간 맥락을 유지하되 데이터는 기기 보유 키로만 열 수 있게 했다.",
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 비서 메모리를 서버에 두되 기기 키로만 열리게 설계했다.",
+        "what": "구글이 Private AI Compute 플랫폼에 영속적이고 암호화된 메모리 계층을 추가한다. AI 비서가 여러 기기에서 맥락을 유지할 수 있으며, 데이터는 기기가 보유한 키로만 해제된다.",
+        "points": [
+          "Private AI Compute에 영속 메모리 계층 추가",
+          "기기 간 맥락 유지",
+          "기기 보유 키로만 복호화 가능"
+        ],
+        "why": [
+          "개인화 AI의 편의성과 프라이버시 사이 절충을 기술적으로 풀려는 시도다"
+        ]
+      }
+    },
+    {
+      "id": "devops-clustermax-3",
+      "title": "SemiAnalysis ClusterMAX 3.0, GPU 클라우드 77곳 등급 평가",
+      "summary": "SemiAnalysis의 ClusterMAX 3.0 보고서가 추적 중인 323개 중 77개 GPU 클라우드 사업자를 평가했다. 200건 이상의 고객 인터뷰와 감사·성능·신뢰성 테스트를 바탕으로 한다.",
+      "source": "SemiAnalysis",
+      "url": "https://newsletter.semianalysis.com/p/clustermax-30-the-industry-standard?utm_source=tldrdevops",
+      "report": {
+        "tldr": "GPU 클라우드 선택의 사실상 표준 평가서가 새 판으로 돌아왔다.",
+        "what": "SemiAnalysis가 GPU 클라우드 평가 보고서 ClusterMAX 3.0을 냈다. 추적 중인 323개 사업자 중 77곳을 등급화했으며, 200건 이상의 고객 인터뷰와 감사·성능·신뢰성 단계 테스트를 근거로 한다.",
+        "points": [
+          "323개 추적 사업자 중 77곳 평가",
+          "200건 이상 고객 인터뷰",
+          "감사·성능·신뢰성 3단계 테스트"
+        ],
+        "why": [
+          "GPU 클라우드 조달 시 가격 외 품질 비교 기준을 제공한다"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-cftc-mention-markets-manipulation",
+      "title": "CFTC, '언급' 예측 계약의 조작 위험 경고",
+      "summary": "CFTC 시장감독국이 특정 단어 언급이나 행사 참석 여부에 거는 예측 계약은 조작 위험이 높아 제한적 상황에서만 상장할 수 있다고 권고했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-09-22-cftc-advisory-mention-markets-manipulation-risk-416120?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "CFTC가 '멘션 마켓'에 제동을 걸었다.",
+        "what": "CFTC 시장감독국이 누군가 특정 단어를 '언급'할지, 행사에 참석할지에 베팅하는 예측 계약은 조작 위험이 높다는 권고를 냈다. 이런 계약은 상품거래법상 제한된 경우에만 상장할 수 있다.",
+        "points": [
+          "대상: 단어 언급·행사 참석 베팅 계약",
+          "조작 위험 높다고 판단",
+          "상품거래법상 제한적 상장만 허용"
+        ],
+        "why": [
+          "Kalshi·Polymarket 등 예측시장 상품 구성에 직접 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-canada-banks-tokenized-deposits",
+      "title": "캐나다 6대 은행, 토큰화 예금 시스템 공동 검토",
+      "summary": "BMO·CIBC·내셔널뱅크·RBC·스코샤뱅크·TD가 캐나다 달러 토큰화 예금 시스템을 공동 검토한다. 1단계는 기관 간 토큰화 예금 이동 효율화다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-23-canada-banks-tokenized-deposit-system-416129?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "캐나다 은행권 전체가 토큰화 예금에 나섰다.",
+        "what": "BMO, CIBC, 내셔널뱅크 오브 캐나다, RBC, 스코샤뱅크, TD가 캐나다 달러 기반 토큰화 예금 시스템을 공동으로 검토한다고 발표했다. 첫 단계는 기관 간 토큰화 예금을 효율적으로 이동시키는 데 초점을 둔다.",
+        "points": [
+          "캐나다 6대 은행 공동 발표",
+          "캐나다 달러 토큰화 예금",
+          "1단계: 기관 간 이동 효율화"
+        ],
+        "why": [
+          "스테이블코인에 대한 은행권의 대안 모델이 확산되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-rain-real-time-funding",
+      "title": "Rain, 스테이블코인 카드 실시간 결제 자금 조달 출시",
+      "summary": "Rain 카드 사용자는 지갑을 연결하고 한도를 한 번 승인하면, 결제마다 필요한 금액만 지갑에서 바로 승인된다. 별도 담보 잔액 선충전이 필요 없다.",
+      "source": "Rain",
+      "url": "https://www.rain.xyz/resources/introducing-real-time-funding?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "스테이블코인 카드에서 선충전 단계가 사라진다.",
+        "what": "Rain이 실시간 자금 조달 기능을 도입했다. 카드 사용자는 지갑을 연결하고 지출 한도를 한 번만 승인하면, 구매할 때마다 정확히 필요한 금액만 지갑에서 직접 승인된다. 별도 담보 잔액을 미리 채울 필요가 없다.",
+        "points": [
+          "지갑 연결 + 지출 한도 1회 승인",
+          "결제마다 정확한 금액만 지갑에서 인출",
+          "담보 잔액 선충전 불필요"
+        ],
+        "why": [
+          "셀프 커스터디 상태로 카드 결제가 가능해져 사용자 경험이 개선된다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-circle-btc-backed-usdc-morpho",
+      "title": "Circle, Morpho 경유 비트코인 담보 USDC 대출을 Mint 고객에 개방",
+      "summary": "Circle이 예치 BTC를 cirBTC로 래핑해 담보로 쓰는 USDC 대출을 Morpho Arc 마켓에서 시작했다. 시장은 5일 만에 137만 달러에서 1,430만 달러로 약 10배 성장했다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/defi/circle-opens-bitcoin-backed-usdc-borrowing-to-mint-clients-on-morpho?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Circle이 DeFi 레일 위에서 기관 대출을 제공한다.",
+        "what": "Circle이 Mint 고객을 위해 Morpho의 Arc 마켓을 통한 비트코인 담보 USDC 대출을 출시했다. 예치된 BTC는 cirBTC로 래핑돼 담보로 쓰인다. cirBTC/USDC 마켓은 9월 17일 137만 달러에서 5일 만에 cirBTC 287개 담보 대비 1,430만 달러 대출로 약 10배 성장했다.",
+        "points": [
+          "BTC를 cirBTC로 래핑해 담보화",
+          "Morpho Arc 마켓 경유",
+          "5일간 약 10배 성장($1.37M→$14.3M)",
+          "담보 cirBTC 287개"
+        ],
+        "why": [
+          "발행사가 DeFi 프로토콜을 기관 상품의 백엔드로 쓰는 사례다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-post-poseidon-hash-functions",
+      "title": "포스트 Poseidon: 이더리움 해시 함수 후보 검토",
+      "summary": "실용적 양자내성 증명 시스템 Flock 등장으로 Poseidon 같은 회로 친화 해시가 필수가 아니게 됐다. BLAKE3가 가장 빠르지만 검증 이력이 얇아 SHA-3가 저위험 선택으로 권고됐다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/post-poseidon-hash-function-variants-for-ethereum/26071?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "이더리움이 Poseidon 이후 해시 함수를 고른다면 SHA-3.",
+        "what": "양자내성 증명 시스템 Flock이 실용화되면서 이더리움이 Poseidon 같은 회로 친화적 해시에 의존할 필요가 사라졌다는 분석이다. BLAKE3는 병렬 7GB/s, 긴 메시지 기준 바이트당 1.1사이클로 가장 빠르지만 구별불가능성 증명이 없고 암호분석 이력이 얇아, SHA-3가 저위험 선택으로 권고됐다.",
+        "points": [
+          "Flock 등장으로 회로 친화 해시 요구 해소",
+          "BLAKE3: 병렬 7GB/s, 1.1 cycles/byte",
+          "BLAKE3는 증명·분석 이력 부족",
+          "권고: SHA-3"
+        ],
+        "why": [
+          "양자내성 전환 과정에서 이더리움 핵심 암호 요소가 재검토되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-cme-bch-uniswap-futures",
+      "title": "CME, 비트코인캐시·유니스왑 선물 상장 예정",
+      "summary": "CME가 10월 19일 BCH와 UNI 선물을 상장할 계획이다(규제 승인 조건). 단일 자산 크립토 파생상품은 11종이 되며 UNI는 첫 DEX 거버넌스 토큰이다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-09-22-cme-adds-bitcoin-cash-and-uniswap-futures-as-crypto-derivatives-push-grows-416049?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "CME가 처음으로 DEX 거버넌스 토큰 선물을 낸다.",
+        "what": "CME그룹이 규제 승인을 전제로 10월 19일 비트코인캐시와 유니스왑 선물을 상장할 계획이다. 계약 규모는 표준/마이크로 기준 250/25 BCH, 10,000/1,000 UNI다. 이로써 CME의 단일 자산 크립토 파생상품은 11개 토큰으로 늘어난다.",
+        "points": [
+          "10월 19일 상장 예정(규제 승인 조건)",
+          "BCH 250/25, UNI 10,000/1,000 계약 규모",
+          "단일 자산 크립토 파생상품 11종으로 확대",
+          "UNI는 CME 최초 DEX 거버넌스 토큰"
+        ],
+        "why": [
+          "기관 헤지 수단이 알트코인·DeFi 토큰으로 넓어진다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-tether-leaves-mica",
+      "title": "테더, 유럽 MiCA 스테이블코인 체계에서 철수",
+      "summary": "테더가 준비금 60%를 상업은행 예금으로 두라는 규정 때문에 EU MiCA 준수를 포기했다. 아르도이노 CEO는 예금보호 한도가 계좌당 10만 유로라 4억 사용자가 위험해진다고 주장했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2102490623572095458.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "최대 스테이블코인 발행사가 EU 규제를 거부했다.",
+        "what": "테더가 준비금의 60%를 상업은행 예금으로 보유하도록 한 규정을 이유로 EU MiCA 준수를 포기했다. 파올로 아르도이노 CEO는 EU 예금보호 한도가 계좌당 10만 유로에 그쳐 이 규정이 4억 명의 사용자를 위험에 노출시킨다고 주장했다.",
+        "points": [
+          "MiCA 준수 포기",
+          "쟁점: 준비금 60% 은행 예금 보유 규정",
+          "EU 예금보호 한도 계좌당 €100,000",
+          "CEO: 4억 사용자 위험 노출 주장"
+        ],
+        "why": [
+          "EU 내 USDT 유통과 거래소 상장에 제약이 이어질 수 있다",
+          "스테이블코인 준비금 규제 설계의 논쟁점을 드러낸다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-kalshi-rebuts-wash-trading",
+      "title": "Kalshi, 무기한 선물 플랫폼 워시 트레이딩 의혹 반박",
+      "summary": "Kalshi가 정액 수수료 유동성 인센티브는 CME·CBOE·나스닥의 표준 구조와 같다고 반박했다. 분석 거래에서 공격측이 약 9만8천 달러 수익 기회를 가져가 진짜 가격 발견이라는 주장이다.",
+      "source": "Kalshi",
+      "url": "https://news.kalshi.com/p/the-facts-behind-kalshi-s-perpetuals-volume?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Kalshi가 무기한 선물 거래량의 진정성을 방어했다.",
+        "what": "Kalshi가 무기한 선물 플랫폼의 워시 트레이딩 의혹에 대해 상세한 반박문을 냈다. 정액 수수료 유동성 인센티브 프로그램은 CME, CBOE, 나스닥의 표준 구조와 같으며, 분석한 거래에서 공격측(aggressor)이 약 9만8천 달러의 수익 기회를 가져갔다는 점이 자기거래가 아닌 실제 가격 발견의 신호라고 주장했다.",
+        "points": [
+          "워시 트레이딩 의혹에 공식 반박",
+          "정액 수수료 인센티브는 전통 거래소와 동일 구조",
+          "공격측 약 $98,000 수익 기회 포착",
+          "근거: 거래 경제성 분석"
+        ],
+        "why": [
+          "예측시장 업체의 파생상품 확장에 대한 신뢰성 검증이 시작됐다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-bitmex-shuts-down",
+      "title": "BitMEX, 거래소 운영 종료",
+      "summary": "BitMEX가 9월 23일 04:00 UTC부로 거래소 운영을 종료했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2102609179982917952.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "초기 파생상품 거래소 BitMEX가 문을 닫았다.",
+        "what": "BitMEX가 9월 23일 04:00 UTC 기준으로 거래소 운영을 종료했다.",
+        "points": [
+          "종료 시점: 9월 23일 04:00 UTC",
+          "거래소 운영 전면 중단"
+        ],
+        "why": [
+          "무기한 선물을 대중화한 거래소의 퇴장으로 한 시대가 마무리됐다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-cardano-x402-sdk",
+      "title": "카르다노, 공식 x402 SDK에 추가",
+      "summary": "카르다노가 코인베이스 x402 SDK에 첫 비EVM 체인으로 추가돼, 앱과 AI 에이전트가 HTTP 요청으로 ADA나 카르다노 네이티브 토큰으로 API 호출 비용을 정산할 수 있다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2101941890278936666.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "x402가 첫 비EVM 체인을 받아들였다.",
+        "what": "카르다노가 코인베이스의 x402 SDK에 추가돼 이 프로토콜의 첫 비EVM 체인이 됐다. 앱과 AI 에이전트는 표준 HTTP 요청으로 ADA 또는 카르다노 네이티브 토큰을 사용해 API 호출 비용을 정산할 수 있다.",
+        "points": [
+          "x402 최초 비EVM 체인",
+          "ADA·네이티브 토큰 결제 지원",
+          "HTTP 기반 API 호출 정산",
+          "AI 에이전트 결제 활용"
+        ],
+        "why": [
+          "에이전트 결제 표준 x402의 멀티체인 확장 신호다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-binance-stocks-account",
+      "title": "바이낸스, 펀딩 계정을 '주식 계정'으로 개편",
+      "summary": "바이낸스가 9월 29일부터 1월까지 단계적으로 펀딩 계정의 크립토 자산을 현물 계정으로 옮기고, 펀딩 계정을 주식·주식옵션 청산 전용 '주식 계정'으로 바꾼다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2102649947627696379.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "바이낸스가 주식 거래 인프라를 계정 구조에 반영한다.",
+        "what": "바이낸스가 9월 29일부터 1월까지 단계적으로 펀딩 계정의 크립토 자산을 현물 계정으로 이전한다. 이후 펀딩 계정은 주식과 주식 옵션 청산 전용 '주식 계정'으로 전환된다.",
+        "points": [
+          "9월 29일~1월 단계적 이전",
+          "크립토 자산은 현물 계정으로",
+          "펀딩 계정 → 주식 계정",
+          "주식·주식옵션 청산 전용"
+        ],
+        "why": [
+          "크립토 거래소의 전통 증권 영역 진출이 가속되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-strategy-buys-950-btc",
+      "title": "Strategy, 비트코인 950개 추가 매입…총 84만6천 BTC",
+      "summary": "Strategy가 9월 14~20일 평균 7만9,670달러에 950 BTC를 7,570만 달러에 샀다. 총 보유량은 84만6천 BTC로 비트코인 총량 2,100만 개의 4%를 넘는다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-09-21-a-little-more-orange-strategy-bitcoin-michael-saylor-415893?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Strategy의 보유량이 비트코인 공급 상한의 4%를 넘었다.",
+        "what": "Strategy가 9월 14~20일 사이 평균 7만9,670달러에 비트코인 950개를 총 7,570만 달러에 매입했다. 이로써 총 보유량은 84만6천 BTC로, 비트코인 발행 상한 2,100만 개의 4%를 넘어섰다.",
+        "points": [
+          "950 BTC, 7,570만 달러 매입",
+          "평균 단가 $79,670",
+          "총 보유 846,000 BTC",
+          "공급 상한의 4% 초과"
+        ],
+        "why": [
+          "단일 기업의 비트코인 집중도가 계속 높아지고 있다"
+        ]
+      }
+    }
+  ]
+}

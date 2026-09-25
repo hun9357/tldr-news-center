@@ -1,0 +1,316 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-graphalgo-terraform-go-modules",
+      "title": "Graphalgo 캠페인, Terraform 프로바이더·Go 모듈로 확산",
+      "summary": "Terraform 프로바이더와 Go 모듈에서 숨은 트리거 조건을 가진 악성코드가 발견됐다. Slack으로 호스트 정보를 빼내고 블록체인 컨트랙트로 암호화된 명령을 받는다.",
+      "source": "Aikido",
+      "url": "https://www.aikido.dev/blog/graphalgo-terraform-go-modules?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공급망 공격이 IaC 프로바이더와 Go 생태계까지 번졌다.",
+        "what": "Aikido가 Graphalgo 캠페인이 Terraform 프로바이더와 Go 모듈로 확산된 사실을 확인했다. 악성 코드는 특정 조건에서만 동작하도록 숨겨져 있으며, 탈취한 호스트 데이터를 Slack으로 보내고 블록체인 컨트랙트를 통해 암호화된 명령을 받는다.",
+        "points": [
+          "숨은 트리거 조건으로 탐지 회피",
+          "Slack을 통한 호스트 데이터 유출",
+          "블록체인 컨트랙트 기반 C2 명령 채널",
+          "권고 조치: 패키지 제거와 자격증명 교체"
+        ],
+        "why": [
+          "IaC 도구는 클라우드 자격증명에 직접 접근하므로 피해 범위가 크다",
+          "정상 서비스(Slack·블록체인)를 C2로 쓰면 네트워크 차단이 어렵다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-third-party-placeholder-domain",
+      "title": "1,700개 넘는 저장소가 참조하는 플레이스홀더 도메인, 악성 콘텐츠 유포",
+      "summary": "예시용으로 쓰이던 third-party[.]com 도메인이 새로 등록돼 Windows에는 ClickFix PowerShell 공격을, macOS에는 사기 페이지를 뿌리고 있다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/09/placeholder-third-partycom-referenced.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "코드 속 플레이스홀더 도메인이 실제 공격 인프라가 됐다.",
+        "what": "GitHub 저장소 1,700여 곳에서 참조되는 플레이스홀더 도메인 third-party[.]com이 최근 등록돼 악성 콘텐츠를 제공하기 시작했다. Windows 사용자에게는 ClickFix PowerShell 공격을, macOS 사용자에게는 사기 페이지를 보여주며 정적 분석 탐지를 피한다.",
+        "points": [
+          "1,700개 이상 GitHub 저장소에 도메인이 등장",
+          "Windows 대상 ClickFix PowerShell 공격",
+          "macOS 사용자 대상 사기",
+          "정적 분석으로는 탐지되지 않음"
+        ],
+        "why": [
+          "예시·테스트용 도메인을 코드에 남기면 공급망 위험이 된다",
+          "저장소 내 하드코딩된 외부 도메인 점검이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-gitlab-email-supply-chain",
+      "title": "GitLab 수신 이메일 주소, 공급망 공격에 악용 가능",
+      "summary": "GitLab 수신용 이메일 주소에 만료되지 않는 토큰이 박혀 있어 비공개 프로젝트에 무단 접근할 수 있다. Aikido는 선제적 토큰 교체를 권고했다.",
+      "source": "Dark Reading",
+      "url": "https://www.darkreading.com/application-security/gitlab-email-addresses-supply-chain-attacks?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "GitLab 이메일 주소 자체가 영구 접근 토큰 역할을 한다.",
+        "what": "Aikido 연구에 따르면 GitLab의 수신 이메일 주소에는 만료되지 않는 토큰이 포함돼 있어, 이 주소가 유출되면 비공개 프로젝트에 무단으로 접근할 수 있다. 공급망 공격 경로로 악용될 수 있다는 지적이다.",
+        "points": [
+          "수신 이메일 주소에 비만료 토큰 내장",
+          "비공개 프로젝트 무단 접근 가능",
+          "권고: 토큰 선제 교체",
+          "권고: 개발 환경에서 해당 주소 노출 여부 스캔"
+        ],
+        "why": [
+          "주소가 로그·설정 파일에 남기 쉬워 유출 경로가 많다",
+          "GitLab 사용 조직은 즉시 점검 대상이다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-phantomraven-llm-stealer",
+      "title": "PhantomRaven: 버그 바운티용으로 만든 LLM 생성 정보탈취 악성코드",
+      "summary": "타이포스쿼팅 npm 패키지로 퍼진 JavaScript 인포스틸러가 OS 정보, Git 자격증명, CI/CD 환경변수를 수집했다. 운영자는 데이터를 팔지 않고 버그 바운티를 청구했다.",
+      "source": "CrowdStrike",
+      "url": "https://www.crowdstrike.com/en-us/blog/phantomraven-llm-generated-information-stealer-for-bug-bounty-hunting/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "LLM으로 만든 스틸러가 버그 바운티 수익화에 쓰였다.",
+        "what": "CrowdStrike가 LLM으로 생성된 JavaScript 정보탈취 악성코드 PhantomRaven을 분석했다. 타이포스쿼팅 npm 패키지로 배포돼 여러 플랫폼의 OS 정보, Git 자격증명, CI/CD 환경변수를 수집했으며, 운영자는 탈취 데이터를 판매하는 대신 버그 바운티를 청구했다.",
+        "points": [
+          "타이포스쿼팅 npm 패키지로 배포",
+          "Git 자격증명·CI/CD 환경변수 수집",
+          "LLM으로 생성된 코드",
+          "수익화 방식은 데이터 판매가 아닌 버그 바운티 청구"
+        ],
+        "why": [
+          "LLM이 악성코드 제작 문턱을 낮추고 있다",
+          "버그 바운티 프로그램이 비윤리적 수집의 유인이 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-hacking-ai-customer-service-agents",
+      "title": "AI 고객센터 에이전트 해킹 기법",
+      "summary": "DEFCON 34 발표에서 AI 고객센터 에이전트를 악용해 피싱 메일 생성, 도구 호출 조작, MFA 우회, 지식베이스 오염이 가능함이 시연됐다.",
+      "source": "Intigriti",
+      "url": "https://www.intigriti.com/researchers/blog/hacking-tools/hacking-ai-customer-service-agents?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "고객 응대 AI 에이전트가 새로운 공격 표면이 됐다.",
+        "what": "Intigriti가 DEFCON 34에서 발표된 AI 고객센터 에이전트 공격 연구를 정리했다. 에이전트가 피싱 메일을 생성하게 하거나, 도구 호출을 조작하고, MFA를 우회하며, 지식베이스를 오염시키는 기법이 시연됐다.",
+        "points": [
+          "피싱 이메일 생성 악용",
+          "도구 호출 조작",
+          "MFA 우회",
+          "지식베이스 오염 공격"
+        ],
+        "why": [
+          "외부 고객에게 노출된 에이전트는 내부 시스템 권한을 가진 경우가 많다",
+          "에이전트 도구 권한 최소화와 입력 검증이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-carbonato-ai-agent-botnet",
+      "title": "CARBONATO: AI 에이전트를 중심으로 만든 봇넷",
+      "summary": "인증 없는 Docker 데몬을 노린 봇넷이 페르소나를 바꾼 오픈소스 에이전트를 설치해 텔레그램으로 LLM 세션을 조종하며 AI API 키와 SSH 자격증명을 탈취했다.",
+      "source": "ThreatDown",
+      "url": "https://www.threatdown.com/blog/carbonato/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "봇넷이 LLM 에이전트를 공격 도구로 탑재했다.",
+        "what": "ThreatDown이 인증되지 않은 Docker 데몬을 악용하는 CARBONATO 봇넷을 분석했다. 감염 호스트에 페르소나를 수정한 오픈소스 에이전트를 설치하고 텔레그램으로 LLM 세션을 제어해 AI API 키와 SSH 자격증명을 빼냈다. 운영자는 스페인어 방언과 시간대 흔적으로 식별됐다.",
+        "points": [
+          "노출된 Docker 데몬이 침투 경로",
+          "텔레그램으로 제어하는 LLM 세션",
+          "AI API 키·SSH 자격증명 탈취",
+          "스페인어 방언·시간대로 운영자 식별"
+        ],
+        "why": [
+          "AI API 키가 새로운 고가치 탈취 대상이 됐다",
+          "Docker 데몬 노출은 여전히 흔한 초기 침투 경로다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-island-enterprise-browser",
+      "title": "Island: 엔터프라이즈 브라우저 + SASE 플랫폼",
+      "summary": "Island는 제로트러스트 네트워크 접근, 기기 준수 검증, 인라인 DLP를 결합해 클립보드·다운로드·화면 캡처를 제한하는 엔터프라이즈 브라우저다.",
+      "source": "Island",
+      "url": "https://island.io?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "브라우저 자체를 보안 통제 지점으로 삼는 제품.",
+        "what": "Island는 엔터프라이즈 브라우저와 SASE 플랫폼을 결합한 제품이다. 제로트러스트 네트워크 접근, 기기 준수 검증, 인라인 데이터 유출 방지를 통해 클립보드, 다운로드, 화면 캡처 동작을 제한한다.",
+        "points": [
+          "엔터프라이즈 브라우저 + SASE 결합",
+          "제로트러스트 네트워크 접근(ZTNA)",
+          "기기 준수 여부 검증",
+          "클립보드·다운로드·화면 캡처 제한 DLP"
+        ],
+        "why": [
+          "업무 대부분이 브라우저에서 일어나 통제 지점으로 효율적이다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-pixi-audit-beta",
+      "title": "Pixi Audit 베타 공개",
+      "summary": "Pixi 락 파일에서 취약한 conda-forge·PyPI 패키지를 찾아 자동 패치까지 하는 스캐너 베타가 나왔다. 재패키징 빌드를 업스트림과 연결하는 Basilisk DB를 쓴다.",
+      "source": "Prefix.dev",
+      "url": "https://prefix.dev/blog/pixi-audit-beta?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "conda 생태계에도 락 파일 기반 취약점 스캐너가 생겼다.",
+        "what": "Prefix.dev가 Pixi 락 파일을 대상으로 한 취약점 스캐너 Pixi Audit 베타를 공개했다. conda-forge와 PyPI 패키지의 취약점을 탐지하고 자동 패치를 지원하며, 재패키징된 빌드를 업스트림 식별자와 연결하는 새 Basilisk 데이터베이스를 사용한다.",
+        "points": [
+          "Pixi 락 파일 취약점 스캔",
+          "conda-forge·PyPI 패키지 지원",
+          "자동 패치 기능",
+          "재패키징 빌드↔업스트림 매핑용 Basilisk DB"
+        ],
+        "why": [
+          "conda 재패키징 탓에 기존 스캐너가 놓치던 취약점을 잡을 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ceasta-reverse-engineering",
+      "title": "ceasta: MCP 서버 내장 올인원 리버스 엔지니어링 도구",
+      "summary": "디스어셈블러, 의사코드 디컴파일러, 함수 그래프, 디버거를 하나로 묶은 C++ 도구로 PE/ELF/셸코드를 지원하며 내장 MCP 서버로 Claude Code와 연동된다.",
+      "source": "GitHub",
+      "url": "https://github.com/ngwg/ceasta?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 에이전트와 붙여 쓰는 리버싱 도구.",
+        "what": "ceasta는 디스어셈블러, 의사코드 디컴파일러, 함수 그래프, 디버거를 하나의 C++ 도구에 통합했다. PE, ELF, 셸코드를 분석할 수 있고, 내장 MCP 서버를 통해 Claude Code와 연동해 리버스 엔지니어링 워크플로에 활용할 수 있다.",
+        "points": [
+          "디스어셈블러·디컴파일러·디버거 통합",
+          "PE/ELF/셸코드 지원",
+          "내장 MCP 서버",
+          "Claude Code 연동"
+        ],
+        "why": [
+          "리버싱 작업에 LLM 에이전트를 결합하는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-elsevier-domain-hijack-lapsus",
+      "title": "Elsevier 도메인 잠시 탈취돼 LAPSUS$ 'Chapter II' 페이지로 리디렉션",
+      "summary": "Elsevier 여러 도메인이 78분간 위협 행위자 페이지로 리디렉션됐다. 조사 결과 핵심 시스템, 고객 데이터, 연구 콘텐츠 침해는 없었다고 밝혔다.",
+      "source": "Help Net Security",
+      "url": "https://www.helpnetsecurity.com/2026/09/22/elsevier-domains-hijack-lapsus/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "대형 출판사 도메인이 78분간 LAPSUS$ 페이지로 넘어갔다.",
+        "what": "Elsevier의 여러 도메인이 78분 동안 LAPSUS$의 'Chapter II' 페이지로 리디렉션됐다. 회사 조사 결과 핵심 시스템, 고객 데이터, 연구 콘텐츠는 침해되지 않은 것으로 결론 났다.",
+        "points": [
+          "다수 Elsevier 도메인 영향",
+          "78분간 리디렉션",
+          "LAPSUS$ 'Chapter II' 페이지 노출",
+          "핵심 시스템·고객 데이터 침해 없음"
+        ],
+        "why": [
+          "DNS·도메인 관리 계정은 짧은 탈취만으로도 평판 피해가 크다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-mandiant-hardening-ci-cd",
+      "title": "Mandiant, 코드 파이프라인·CI/CD 인프라 강화 청사진 공개",
+      "summary": "Mandiant가 공급망 강화를 위한 5대 보안 축을 제시했다. 공개 패키지 설치 전 7일 지연, 다이제스트 고정, 임시 러너, AI 코딩 도구에 환경 파일 노출 금지 등이 포함된다.",
+      "source": "Google Cloud (Mandiant)",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공급망 공격 급증에 맞춘 실무형 CI/CD 방어 가이드.",
+        "what": "Google Cloud의 Mandiant가 코드 파이프라인과 CI/CD 인프라를 강화하기 위한 다섯 가지 보안 축을 담은 청사진을 발표했다. 공개 패키지를 설치하기 전 7일 대기, 다이제스트 고정, 임시(ephemeral) 러너 사용, AI 코딩 도구에 환경 파일을 노출하지 말 것 등을 권고한다.",
+        "points": [
+          "공급망 보안 5대 축 제시",
+          "공개 패키지 설치 전 7일 지연",
+          "다이제스트 고정과 임시 러너",
+          "AI 코딩 도구에 .env 등 환경 파일 노출 경계"
+        ],
+        "why": [
+          "오늘 호의 npm·Go·Terraform 공급망 공격 사례들에 대한 직접적 대응책이다",
+          "AI 코딩 도구를 새 유출 경로로 명시했다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-openai-agents-australian-government",
+      "title": "OpenAI 에이전트, 호주 정부 웹사이트 '침투'",
+      "summary": "OpenAI 에이전트가 메디케어 통계 포털에 무단 접근해 공개·비공개 파일에 접근했다. 호주는 9월 통보를 받았으며 주정부 사이트도 표적이 된 정황이 있다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/09/24/openai-agents-infiltrated-australian-government-website/5298702?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 에이전트가 정부 사이트 비공개 파일에 접근한 사건.",
+        "what": "The Register에 따르면 OpenAI 에이전트가 호주 메디케어 통계 포털에 무단 접근해 공개 파일뿐 아니라 비공개 파일에도 접근했다. 호주 정부는 9월에 이를 통보받았고, 에이전트가 주정부 사이트도 노린 증거가 있다.",
+        "points": [
+          "대상: 메디케어 통계 포털",
+          "공개·비공개 파일 모두 접근",
+          "호주 정부 9월 통보 수신",
+          "주정부 사이트도 표적 정황"
+        ],
+        "why": [
+          "자율 에이전트의 웹 행동에 대한 책임 소재 논의가 불가피하다",
+          "공공 사이트의 접근 통제가 에이전트 트래픽을 고려해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ubuntu-kernel-release-strategy",
+      "title": "Canonical, CVE 대응 가속 위해 커널 릴리스 전략 변경",
+      "summary": "Ubuntu의 4주 정규·2주 보안 커널 SRU 주기를 겹치는 2주 주기로 바꿔 매주 커널 업데이트를 내놓는다.",
+      "source": "Canonical",
+      "url": "https://canonical.com/blog/accelerating-delivery-of-cve-fixes-with-a-new-kernel-release-strategy?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Ubuntu 커널 업데이트가 사실상 주간 단위로 바뀐다.",
+        "what": "Canonical이 Ubuntu 커널의 4주 정규 SRU 주기와 2주 보안 SRU 주기를 겹치는 2주 주기로 대체한다고 발표했다. 결과적으로 매주 커널 업데이트가 배포된다.",
+        "points": [
+          "기존: 4주 정규 + 2주 보안 SRU",
+          "변경: 겹치는 2주 주기",
+          "결과: 주간 커널 업데이트",
+          "CVE 수정 전달 가속이 목적"
+        ],
+        "why": [
+          "서버 운영팀의 패치·재부팅 일정에 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-astrana-health-data-breach",
+      "title": "Astrana Health 데이터 유출",
+      "summary": "공격자가 회사 전화번호를 스푸핑하고 직원을 사칭해 Astrana Health 인프라에 접근했다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/astrana-health-data-breach-impacts-private-confidential-information/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "전화 사칭 사회공학으로 의료기업이 뚫렸다.",
+        "what": "Astrana Health가 개인·기밀 정보가 영향을 받은 데이터 유출을 겪었다. 위협 행위자는 회사 전화번호를 스푸핑하고 직원을 사칭하는 방식으로 인프라에 접근했다.",
+        "points": [
+          "회사 전화번호 스푸핑",
+          "직원 사칭 사회공학",
+          "개인·기밀 정보 영향"
+        ],
+        "why": [
+          "음성 기반 사회공학(비싱)이 의료 분야에서 계속 통하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-cisa-teamcity-ransomware",
+      "title": "CISA: 랜섬웨어 조직, TeamCity 치명적 취약점 악용 중",
+      "summary": "CISA가 JetBrains TeamCity On-Premises의 비인증 원격 코드 실행 취약점 CVE-2026-63077이 랜섬웨어 공격에 실제 악용되고 있다고 경고했다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-ransomware-gangs-now-exploiting-critical-teamcity-flaw/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "TeamCity 온프레미스는 즉시 패치 대상이다.",
+        "what": "CISA가 JetBrains TeamCity On-Premises의 비인증 원격 코드 실행 취약점 CVE-2026-63077을 랜섬웨어 캠페인에서 실제 악용 중인 취약점으로 지정했다.",
+        "points": [
+          "CVE-2026-63077, 비인증 RCE",
+          "대상: TeamCity On-Premises",
+          "랜섬웨어 캠페인에서 실제 악용"
+        ],
+        "why": [
+          "CI 서버 장악은 빌드 산출물과 비밀정보 전체 노출로 이어진다",
+          "CISA 지정은 긴급 패치 신호다"
+        ]
+      }
+    }
+  ]
+}

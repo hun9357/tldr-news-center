@@ -1,0 +1,306 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-google-suncatcher-launch",
+      "title": "구글 '프로젝트 선캐처' 10월 1일 발사, 궤도에서 TPU 시험",
+      "summary": "구글이 TPU 4개를 실은 냉장고 크기 위성을 SpaceX 팰컨9으로 예정보다 수개월 앞당겨 발사한다. Planet Labs와 협력해 연산보다 발사 진동·방사선·극한 온도에 대한 하드웨어 내구성을 시험한다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/09/googles-first-suncatcher-orbital-data-center-test-launches-october-1/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "궤도 데이터센터 구상의 첫 실물 시험이 조기에 시작된다.",
+        "what": "구글의 Project Suncatcher 첫 시험 위성이 10월 1일 SpaceX 팰컨9으로 발사된다. TPU 4개를 탑재한 냉장고 크기 위성으로, 일정보다 수개월 앞섰다. Planet Labs와 협력해 연산 수행보다는 발사 진동, 방사선, 극한 온도에 대한 하드웨어 내성을 검증한다.",
+        "points": [
+          "TPU 4개 탑재 냉장고 크기 위성",
+          "SpaceX 팰컨9, 예정보다 수개월 조기 발사",
+          "Planet Labs와 협력",
+          "연산보다 진동·방사선·열 내성 검증이 목적"
+        ],
+        "why": [
+          "우주 데이터센터라는 장기 구상의 실현 가능성을 가늠할 첫 데이터가 된다",
+          "AI 전력·부지 제약을 우회하려는 빅테크의 실험이다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-china-59pct-factory-robots",
+      "title": "중국, 지난해 전 세계 신규 산업용 로봇의 59% 설치",
+      "summary": "2025년 전 세계 공장에 산업용 로봇 60만3천 대가 설치됐고 그중 35만4천 대가 중국이었다. 전 세계 가동 로봇은 500만 대를 넘었다.",
+      "source": "International Federation of Robotics",
+      "url": "https://ifr.org/ifr-press-releases/news/five-million-robots-now-operate-in-factories-globally?utm_source=tldrhardware",
+      "report": {
+        "tldr": "공장 자동화의 중심이 압도적으로 중국에 쏠려 있다.",
+        "what": "국제로봇연맹(IFR)에 따르면 2025년 전 세계에 산업용 로봇 60만3천 대가 새로 설치됐다. 이 중 중국이 35만4천 대로 약 59%를 차지했다. 전 세계 가동 중인 산업용 로봇은 500만 대를 넘어섰다.",
+        "points": [
+          "2025년 신규 설치 60만3천 대",
+          "중국 35만4천 대(약 59%)",
+          "전 세계 가동 대수 500만 대 돌파"
+        ],
+        "why": [
+          "제조 경쟁력과 공급망 재편 논의에서 중국의 자동화 격차를 보여주는 지표다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-iphone-18-pro-gpu",
+      "title": "독립 테스트: 아이폰 18 프로 GPU 55% 향상",
+      "summary": "LTT Labs가 A20 Pro를 3DMark 그래픽 테스트에서 아이폰 17 프로의 A19 Pro보다 55% 높게 측정했다. 지속 성능, 디스플레이 밝기, 충전, 배터리도 함께 평가했다.",
+      "source": "LTT Labs",
+      "url": "https://www.lttlabs.com/articles/2026/09/24/iphone-18-pro-series-test-results?utm_source=tldrhardware",
+      "report": {
+        "tldr": "A20 Pro의 그래픽 성능이 전작 대비 크게 뛰었다.",
+        "what": "LTT Labs가 아이폰 18 프로 시리즈 테스트 결과를 공개했다. 3DMark 그래픽 테스트에서 A20 Pro는 아이폰 17 프로의 A19 Pro보다 55% 높은 점수를 기록했다. 지속 성능, 디스플레이 밝기, 충전, 배터리도 평가했다.",
+        "points": [
+          "A20 Pro, 3DMark 그래픽에서 A19 Pro 대비 55% 향상",
+          "지속 성능·밝기·충전·배터리 평가 포함",
+          "독립 기관 측정"
+        ],
+        "why": [
+          "애플 실리콘의 GPU 세대 간 도약 폭을 독립적으로 확인한 데이터다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-amd-1-trillion",
+      "title": "AMD, 미국 칩메이커 네 번째로 시총 1조 달러 돌파",
+      "summary": "AMD 주가가 사상 최고인 613.31달러를 기록하며 시가총액이 1조 달러를 넘었다. 올해 약 185% 올랐으며, 단일 칩이 아닌 완전한 시스템을 제공하는 AI 인프라 경쟁자로 자리매김하고 있다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/amd-becomes-latest-chipmaker-reach-1-trillion-valuation-ai-demand-2026-09-21/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 인프라 수요가 AMD를 1조 달러 클럽에 올렸다.",
+        "what": "AMD 주가가 사상 최고치인 613.31달러에 도달해 시가총액이 1조 달러를 넘어섰다. 미국 칩메이커로는 네 번째다. 주가는 2026년 들어 약 185% 올랐으며, AMD는 개별 칩이 아닌 완전한 시스템을 공급하는 AI 인프라 경쟁자로 포지셔닝하고 있다.",
+        "points": [
+          "주가 사상 최고 613.31달러",
+          "미국 칩메이커 중 네 번째 1조 달러",
+          "2026년 주가 약 185% 상승",
+          "완전한 AI 시스템 공급 전략"
+        ],
+        "why": [
+          "엔비디아 대안에 대한 시장의 기대가 크게 반영됐다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-kaist-raibo2-marathon",
+      "title": "KAIST 4족 로봇 RAIBO2, 한 번 충전으로 마라톤 완주",
+      "summary": "KAIST 연구진이 하드웨어와 소프트웨어 전반의 에너지 손실원을 모델링해 RAIBO2를 설계했다. 기계 구조 최적화, 모터 드라이버 회로 재설계, 강화학습 보행으로 손실을 줄였다.",
+      "source": "Nature",
+      "url": "https://www.nature.com/articles/s41586-026-11102-5?utm_source=tldrhardware",
+      "report": {
+        "tldr": "전방위 에너지 손실 최적화로 4족 로봇 지구력을 크게 높였다.",
+        "what": "KAIST 연구진이 Nature에 발표한 4족 보행 로봇 RAIBO2가 단일 배터리 충전으로 풀코스 마라톤을 완주했다. 연구진은 하드웨어와 소프트웨어의 에너지 손실원을 종합적으로 모델링했다. 기계 구조 최적화, 전기 손실을 줄인 모터 드라이버 회로 재설계, 손실을 최소화하는 강화학습 보행을 적용했다.",
+        "points": [
+          "단일 충전으로 풀 마라톤 완주",
+          "하드웨어·소프트웨어 에너지 손실 종합 모델링",
+          "모터 드라이버 회로 재설계",
+          "강화학습 기반 저손실 보행"
+        ],
+        "why": [
+          "배터리 수명은 실외 로봇 상용화의 핵심 제약이다",
+          "한국 로봇 연구의 대표적 성과로 주목된다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-ionq-realtime-decoder",
+      "title": "IonQ 실시간 디코더, 노트북 CPU로 408 논리 큐비트 시뮬레이션 처리",
+      "summary": "IonQ가 애플 M4 Max 12코어에서 시뮬레이션된 408 논리 큐비트 시스템을 따라잡는 디코더를 시연했다. 이중 슬라이딩 윈도 방식으로 정확도와 빠른 논리 측정을 모두 확보했다.",
+      "source": "PostQuantum",
+      "url": "https://postquantum.com/engineering-news/ionq-real-time-decoder-cpu?utm_source=tldrhardware",
+      "report": {
+        "tldr": "내결함성 양자컴퓨팅의 병목인 실시간 디코딩을 일반 CPU로 해결했다.",
+        "what": "IonQ가 애플 M4 Max 12개 코어만으로 시뮬레이션된 408 논리 큐비트 트랩드 이온 컴퓨터의 속도를 따라가는 실시간 디코더를 시연했다. 이중 슬라이딩 윈도 방식으로 정확도 추적과 빠른 논리 측정의 균형을 맞췄다.",
+        "points": [
+          "M4 Max 12코어로 408 논리 큐비트 시뮬레이션 대응",
+          "이중 슬라이딩 윈도 방식",
+          "지수적 속도 저하 없는 디코딩 지향"
+        ],
+        "why": [
+          "오류 정정 디코딩이 실시간을 따라가지 못하면 내결함성 양자컴퓨팅은 불가능하다",
+          "특수 하드웨어 없이 가능하다는 점이 비용 측면에서 의미가 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-eda-evidence-driven-automation",
+      "title": "칩 설계 AI의 진짜 병목은 도구 사이의 '인계'",
+      "summary": "수십 개 특화 도구 간 인계 과정에서 설계 의도가 조용히 사라지며 첫 실리콘 성공률 하락의 원인이 된다. AI가 제안하되 모든 결과를 형식 증명으로 독립 검증하는 '증거 기반 자동화'가 대안으로 떠오른다.",
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/edas-future-is-evidence-driven-automation/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "EDA의 AI 도입은 개별 도구보다 도구 간 검증 가능성이 관건이다.",
+        "what": "Semiconductor Engineering은 반도체 설계가 수십 개 특화 도구를 거치며 설계 의도가 소실되고 이것이 첫 실리콘 성공률 하락에 기여한다고 지적한다. 업계에서는 AI가 해법을 제안하되 모든 산출물을 형식 증명으로 독립 검증하는 '증거 기반 자동화'로 공감대가 모이고 있다.",
+        "points": [
+          "도구 간 인계에서 설계 의도 소실",
+          "첫 실리콘 성공률 하락과 연관",
+          "AI 제안 + 형식 증명 검증 구조",
+          "'증거 기반 자동화' 개념 부상"
+        ],
+        "why": [
+          "칩 설계에서 AI 신뢰성 문제를 푸는 실용적 방향을 제시한다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-lima-dual-system-robot",
+      "title": "LiMA, 로봇의 '생각'과 '반응'을 비동기 분리해 지연 45.8% 단축",
+      "summary": "LiMA는 장기 예측과 빠른 반응 제어를 Latent Schrödinger Bridge Coupling으로 연결된 비동기 이중 시스템으로 분리했다. Cosmos-Policy 대비 지연을 45.8% 줄이고 양손 조작 작업에서 70.8% 성공률을 기록했다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2609.28431?utm_source=tldrhardware",
+      "report": {
+        "tldr": "느린 계획과 빠른 제어를 분리하는 이중 시스템 구조가 로봇 지연을 줄였다.",
+        "what": "arXiv 논문 LiMA는 장기적 예측과 빠른 반응 제어를 비동기 이중 시스템으로 분리하고, 둘을 Latent Schrödinger Bridge Coupling으로 연결했다. Cosmos-Policy 대비 지연을 45.8% 줄였고 양손 조작 작업에서 70.8% 성공률을 달성했다.",
+        "points": [
+          "계획과 반응 제어를 비동기 이중 시스템으로 분리",
+          "Latent Schrödinger Bridge Coupling으로 연결",
+          "Cosmos-Policy 대비 지연 45.8% 감소",
+          "양손 조작 성공률 70.8%"
+        ],
+        "why": [
+          "대형 월드모델 기반 로봇 정책의 실시간성 문제를 푸는 접근이다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-meta-vr-glasses-puck",
+      "title": "메타, 100g VR 글래스와 컴퓨트 퍽 공개…2027년 봄 1,299.99달러",
+      "summary": "메타가 5K 마이크로 OLED를 단 100g 안경과 광 테더로 연결된 별도 컴퓨트 퍽으로 기능을 나눈 경량 VR 글래스를 공개했다. 스냅드래곤 Reality Elite, 3시간 배터리를 갖췄다.",
+      "source": "Meta",
+      "url": "https://about.fb.com/news/2026/09/introducing-meta-vr-glasses-3d-movies-immersive-live-sports-100-grams/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "연산을 퍽으로 분리해 VR 헤드셋을 안경 무게로 줄였다.",
+        "what": "메타가 100g 경량 VR 글래스를 공개했다. 5K 마이크로 OLED 디스플레이를 단 안경과, 광 테더로 연결된 별도 컴퓨트 퍽으로 기능을 나눴다. 스냅드래곤 Reality Elite 프로세서, 3시간 배터리, 돌비 공간 음향, 제스처 조작을 지원하며 2027년 봄 1,299.99달러에 출시된다.",
+        "points": [
+          "안경 무게 100g, 5K 마이크로 OLED",
+          "광 테더 연결 컴퓨트 퍽 분리 설계",
+          "스냅드래곤 Reality Elite, 배터리 3시간",
+          "2027년 봄 출시, 1,299.99달러"
+        ],
+        "why": [
+          "VR 착용감의 최대 걸림돌인 무게 문제를 구조적으로 해결하려는 시도다",
+          "애플 비전 프로 등 고가 헤드셋과의 경쟁 구도에 영향"
+        ]
+      }
+    },
+    {
+      "id": "hardware-alibaba-zhenwu-v900",
+      "title": "알리바바, 최강 AI 칩 전무 V900 공개…50만 장 클러스터 지원",
+      "summary": "알리바바 T-Head가 전작 대비 약 3배 성능의 전무(Zhenwu) V900을 공개했다. 최대 50만 장 클러스터를 지원해 Qwen 팀이 목표로 하는 5~10조 파라미터 모델 학습 규모를 가능하게 한다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/retail-consumer/alibaba-plans-ai-model-with-5-trillion-10-trillion-parameters-unveils-new-chip-2026-09-22/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "알리바바가 자체 칩으로 초대형 모델 학습 인프라를 구축하려 한다.",
+        "what": "알리바바 산하 T-Head가 자사 최고 성능 AI 칩 전무 V900을 공개했다. 전작 대비 약 3배 성능을 내며 최대 50만 장 규모 클러스터를 지원한다. 이는 Qwen 팀이 목표로 하는 5조~10조 파라미터 모델 학습에 필요한 규모다.",
+        "points": [
+          "T-Head 개발, 전작 대비 약 3배 성능",
+          "최대 50만 장 클러스터 지원",
+          "Qwen 5~10조 파라미터 모델 학습 목표"
+        ],
+        "why": [
+          "미국 수출 규제 속 중국의 AI 칩 자립 노력을 보여준다",
+          "중국 빅테크의 프런티어 모델 경쟁 의지를 드러낸다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-us-silicon-photonics-market",
+      "title": "미국 실리콘 포토닉스 시장, 2035년 107.6억 달러로 10배 성장 전망",
+      "summary": "미국 실리콘 포토닉스 시장이 2025년 10억 달러에서 2035년 107.6억 달러로 10배 성장할 것으로 전망된다. 전기 인터커넥트 한계를 넘는 AI 데이터센터 수요가 동력이다.",
+      "source": "Quantum Zeitgeist",
+      "url": "https://quantumzeitgeist.com/silicon-photonics-market-ayar-labs/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 데이터센터가 광 인터커넥트 시장을 10배 키울 전망이다.",
+        "what": "시장 분석에 따르면 미국 실리콘 포토닉스 시장은 2025년 10억 달러에서 2035년 107.6억 달러로 10배 성장할 것으로 예상된다. 기존 전기 인터커넥트 성능을 넘어서는 AI 데이터센터 수요가 성장을 이끈다.",
+        "points": [
+          "2025년 10억 달러 → 2035년 107.6억 달러",
+          "약 10배 성장 전망",
+          "AI 데이터센터가 핵심 수요처"
+        ],
+        "why": [
+          "구리 배선의 대역폭·전력 한계가 광학 전환을 가속하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-lumentum-qualcomm-corning-optical-d2d",
+      "title": "루멘텀·퀄컴·코닝, AI 랙 구리 대체할 광 다이 간 연결 시연",
+      "summary": "루멘텀, 퀄컴, 코닝이 ECOC 2026에서 보드 수준 광 인터커넥트 기술을 공동 시연해, 구리 배선 한계를 넘는 고대역·저지연 칩 간 연결을 AI 시스템에 확장했다.",
+      "source": "Lumentum",
+      "url": "https://investor.lumentum.com/financial-news-releases/news-details/2026/Lumentum-Qualcomm-and-Corning-to-Demonstrate-High-Density-1060-nm-VCSEL-Optical-D2D-Connectivity-for-AI-Scale-Up-at-ECOC-2026/default.aspx?utm_source=tldrhardware",
+      "report": {
+        "tldr": "광 연결이 칩 간 거리까지 내려오고 있다.",
+        "what": "루멘텀, 퀄컴, 코닝이 ECOC 2026에서 1060nm VCSEL 기반 고밀도 광 다이 간(D2D) 연결 기술을 공동 시연했다. AI 시스템에서 구리 배선의 한계를 넘어 고대역·저지연 칩 간 연결을 확장하는 것이 목표다.",
+        "points": [
+          "ECOC 2026 공동 시연",
+          "보드 수준 광 인터커넥트",
+          "AI 스케일업용 구리 대체 목표"
+        ],
+        "why": [
+          "AI 랙 내부 연결의 광학 전환이 업계 협업으로 구체화되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-microsoft-maryland-quantum-darpa",
+      "title": "MS, 메릴랜드 양자센터 개소…DARPA에 논란의 Majorana 2 칩 직접 접근 허용",
+      "summary": "마이크로소프트가 메릴랜드대에 1만5천 제곱피트 규모 양자 연구센터를 열고, DARPA에 Majorana 2 칩 기반 위상 양자 시스템에 대한 현장 접근을 제공한다. 기존 원격 평가에서 전환한 것이다.",
+      "source": "Quartz",
+      "url": "https://qz.com/microsoft-darpa-quantum-center-maryland-majorana-092326?utm_source=tldrhardware",
+      "report": {
+        "tldr": "논란 많은 MS 위상 큐비트가 정부 기관의 현장 검증을 받게 됐다.",
+        "what": "마이크로소프트가 메릴랜드대학교에 1만5천 제곱피트 규모의 양자 연구센터를 열었다. DARPA는 Majorana 2 칩 기반 위상 양자 시스템에 현장에서 직접 접근할 수 있게 됐으며, 이는 기존 원격 평가 방식에서 바뀐 것이다.",
+        "points": [
+          "메릴랜드대에 1만5천 제곱피트 연구센터 개소",
+          "DARPA에 현장 접근 제공",
+          "Majorana 2 칩 기반 위상 양자 시스템",
+          "원격 평가에서 현장 평가로 전환"
+        ],
+        "why": [
+          "위상 큐비트 주장에 대한 독립 검증의 신뢰도를 높일 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-supermicro-vera-rubin-nvl72",
+      "title": "슈퍼마이크로, 엔비디아 베라 루빈 NVL72 랙 출하 시작",
+      "summary": "슈퍼마이크로가 연산, 직접 액체 냉각, 전력, 스토리지, 네트워킹을 통합한 DCBBS 패키지와 함께 엔비디아 베라 루빈 NVL72 시스템 출하를 시작했다.",
+      "source": "DigiTimes",
+      "url": "https://www.digitimes.com/news/a20260924VL200/supermicro-nvidia-rubin-shipping-infrastructure.html?utm_source=tldrhardware",
+      "report": {
+        "tldr": "엔비디아 차세대 베라 루빈 랙이 실제 출하 단계에 들어갔다.",
+        "what": "슈퍼마이크로가 엔비디아 베라 루빈 NVL72 시스템 출하를 시작했다. 연산, 직접 액체 냉각, 전력 공급, 스토리지, 네트워킹을 통합한 Data Center Building Block Solutions를 번들로 제공해 바로 배치 가능한 패키지로 공급한다.",
+        "points": [
+          "베라 루빈 NVL72 출하 개시",
+          "직접 액체 냉각 포함 풀스택 번들",
+          "DCBBS로 배치 가능한 패키지 제공"
+        ],
+        "why": [
+          "차세대 GPU 세대 전환이 실제 데이터센터 배치로 이어지는 신호다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-china-supercomputing-1-satellite",
+      "title": "중국, 궤도 내 AI 처리 위성 '슈퍼컴퓨팅-1' 발사",
+      "summary": "중국이 Kinetica 1 Y18 로켓으로 고해상도 광학 탑재체와 온보드 AI 처리를 결합한 '슈퍼컴퓨팅-1'을 발사했다. 궤도 내 처리로 지역 데이터 분석 시간을 수시간에서 수분으로 줄인다.",
+      "source": "Yahoo Tech",
+      "url": "https://tech.yahoo.com/science/articles/china-launches-supercomputing-1-ai-103000723.html?utm_source=tldrhardware",
+      "report": {
+        "tldr": "궤도 AI 연산 경쟁에 중국도 실물 위성으로 가세했다.",
+        "what": "중국이 Kinetica 1 Y18 로켓으로 슈퍼컴퓨팅-1 위성을 발사했다. 고해상도 광학 탑재체와 온보드 AI 처리를 결합해 지구 관측 영상을 궤도에서 직접 처리한다. 이를 통해 지역 데이터 분석 시간을 수시간에서 수분으로 단축한다.",
+        "points": [
+          "Kinetica 1 Y18 로켓으로 발사",
+          "고해상도 광학 탑재체 + 온보드 AI",
+          "분석 시간 수시간 → 수분"
+        ],
+        "why": [
+          "구글 선캐처와 함께 궤도 연산이 새로운 경쟁 영역으로 부상하고 있다"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-electron-to-pwa-and-back",
+      "title": "Electron에서 PWA로, 그리고 다시 Electron으로",
+      "summary": "데스크톱 앱을 PWA로 옮겼다가 되돌아온 경험을 통해 기술·제품 측면의 트레이드오프를 살펴본다.",
+      "source": "kettanaito.com",
+      "url": "https://kettanaito.com/blog/electron-to-pwa-and-back-again?utm_source=tldrdev",
+      "report": {
+        "tldr": "PWA 전환은 만능이 아니며 기술·제품 트레이드오프를 따져야 한다.",
+        "what": "데스크톱 애플리케이션을 Electron에서 프로그레시브 웹 앱으로 옮겼다가 다시 돌아온 사례를 다룬다. 이 과정에서 드러난 기술적·제품적 트레이드오프를 분석한다.",
+        "points": [
+          "Electron → PWA → Electron 이전 경험",
+          "기술적 트레이드오프 분석",
+          "제품 관점의 트레이드오프 분석"
+        ],
+        "why": [
+          "데스크톱 배포 방식 선택 시 실제 사례 기반의 판단 근거 제공"
+        ]
+      }
+    },
+    {
+      "id": "dev-css-detect-overlap",
+      "title": "CSS만으로 요소 겹침 감지하기",
+      "summary": "앵커 포지셔닝과 스크롤 기반 애니메이션으로 JavaScript 없이 충돌을 인식하는 레이아웃을 구현하는 방법.",
+      "source": "ishadeed.com",
+      "url": "https://ishadeed.com/article/css-detect-overlap/?utm_source=tldrdev",
+      "report": {
+        "tldr": "최신 CSS 기능으로 JS 없이 요소 겹침을 감지할 수 있다.",
+        "what": "아메드 샤디드가 CSS만으로 요소 겹침을 감지하는 기법을 소개한다. 앵커 포지셔닝과 스크롤 기반 애니메이션을 활용해 JavaScript 없이 충돌 인식 레이아웃을 만든다.",
+        "points": [
+          "앵커 포지셔닝 활용",
+          "스크롤 기반 애니메이션 활용",
+          "JavaScript 불필요한 충돌 인식 레이아웃"
+        ],
+        "why": [
+          "레이아웃 로직을 JS에서 CSS로 옮겨 성능과 단순성 확보"
+        ]
+      }
+    },
+    {
+      "id": "dev-jev-decision-only-judge",
+      "title": "결정 전용 판정 모델 Jev, 일상 평가에서 GPT-6 수준을 0.36% 비용으로",
+      "summary": "CMU의 Jev 판정 모델이 선호·사실성 평가에서 GPT-6보다 277배 저렴하게 판정과 레이블 확률을 반환하지만 어려운 정답성 과제에서는 약하다.",
+      "source": "stacksweep.dev",
+      "url": "https://www.stacksweep.dev/jev-decision-only-llm-judge-cascade?utm_source=tldrdev",
+      "report": {
+        "tldr": "일상적 LLM 평가는 초저가 판정 모델로 대체할 수 있다.",
+        "what": "CMU의 Jev는 판정과 레이블 확률만 반환하는 결정 전용 LLM 판정 모델이다. 선호도와 사실성 평가에서 GPT-6 대비 277배 낮은 비용으로 비슷한 결과를 낸다. 다만 어려운 정답성 평가에서는 고전한다.",
+        "points": [
+          "판정·레이블 확률만 출력하는 결정 전용 구조",
+          "GPT-6 대비 277배 저렴(비용 0.36%)",
+          "선호·사실성 평가에서 대등",
+          "어려운 정답성 과제에는 약함"
+        ],
+        "why": [
+          "평가 파이프라인을 저가 판정기 → 고가 모델 캐스케이드로 설계하면 비용 절감 가능"
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-native-company",
+      "title": "AI 네이티브 회사에서 일한다는 것",
+      "summary": "더 평평한 조직, 에이전트 중심 워크플로, 개인 책임 강화가 특징이지만 빠른 속도와 모호한 책임 경계라는 대가가 따른다.",
+      "source": "elenaverna.com",
+      "url": "https://www.elenaverna.com/p/what-its-like-to-work-at-an-ai-native?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 네이티브 조직은 평평하고 빠르지만 책임 경계가 흐려진다.",
+        "what": "엘레나 베르나가 AI 네이티브 회사의 근무 경험을 설명한다. 조직 위계가 평평하고 에이전트 기반 워크플로가 중심이며 개인이 결과에 대한 소유권을 갖는다. 반면 속도가 빠르고 책임 경계가 모호해진다.",
+        "points": [
+          "평평한 위계",
+          "에이전트 주도 워크플로",
+          "개인 단위 소유권과 책임",
+          "빠른 속도와 흐려진 책임 경계"
+        ],
+        "why": [
+          "AI 도입이 조직 구조와 역할 분담 방식까지 바꾸고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "dev-personal-ai-go-big",
+      "title": "개인 AI가 크게 성공하려면",
+      "summary": "개인 AI는 속도 개선보다 친근함, 권한 관리로 얻는 신뢰, 선제적 작업 지원이 필요하다는 주장.",
+      "source": "Medium",
+      "url": "https://joulee.medium.com/what-will-make-personal-ai-go-big-e92fbb10aba9?utm_source=tldrdev",
+      "report": {
+        "tldr": "개인 AI의 성패는 속도가 아니라 신뢰와 선제성에 달렸다.",
+        "what": "필자는 개인 AI가 대중화되려면 일반적인 속도 개선보다 접근성, 권한 관리를 통해 얻는 신뢰, 선제적 작업 지원이 필요하다고 주장한다.",
+        "points": [
+          "친근하고 쉬운 접근성",
+          "권한 관리를 통한 신뢰 확보",
+          "선제적(proactive) 작업 지원",
+          "단순 속도 개선은 핵심이 아님"
+        ],
+        "why": [
+          "메타·구글이 개인 에이전트 경쟁을 벌이는 시점에 제품 설계 원칙을 제시"
+        ]
+      }
+    },
+    {
+      "id": "dev-eulogy-for-software-engineer",
+      "title": "소프트웨어 엔지니어를 위한 추도사",
+      "summary": "구현 비용이 낮아지면서 엔지니어링의 초점이 판단, 명확한 명세, 멘토링으로 옮겨가고 있다는 글.",
+      "source": "davekiss.com",
+      "url": "https://davekiss.com/blog/eulogy-for-the-software-engineer/?utm_source=tldrdev",
+      "report": {
+        "tldr": "구현이 싸지면 엔지니어의 가치는 판단과 명세로 이동한다.",
+        "what": "데이브 키스는 구현 비용 하락이 엔지니어링의 초점을 어떻게 바꾸는지 탐구한다. 판단, 명확한 명세 작성, 멘토링 책임이 더 중요해진다고 말한다.",
+        "points": [
+          "구현 비용 하락",
+          "판단(judgment)의 중요성 증가",
+          "명확한 명세 작성",
+          "멘토링 책임 확대"
+        ],
+        "why": [
+          "AI 코딩 확산 속 엔지니어 역할 재정의 논의의 한 축"
+        ]
+      }
+    },
+    {
+      "id": "dev-alchemy-iac",
+      "title": "Alchemy: 타입 안전 인프라 모델링",
+      "summary": "클라우드 리소스와 애플리케이션 로직을 통합하는 타입 안전 IaC 도구로, AWS·Cloudflare를 지원하고 테스트·배포 워크플로를 내장한다.",
+      "source": "GitHub",
+      "url": "https://github.com/alchemy-run/alchemy?utm_source=tldrdev",
+      "report": {
+        "tldr": "인프라와 앱 코드를 하나의 타입 안전 모델로 묶는 IaC 도구.",
+        "what": "Alchemy는 클라우드 리소스와 애플리케이션 로직을 통합하는 타입 안전 인프라 모델링 도구다. AWS와 Cloudflare를 지원하며 테스트와 배포 워크플로가 통합돼 있다.",
+        "points": [
+          "타입 안전 인프라 모델링",
+          "클라우드 리소스와 앱 로직 통합",
+          "AWS·Cloudflare 지원",
+          "테스트·배포 워크플로 내장"
+        ],
+        "why": [
+          "IaC와 애플리케이션 코드의 경계를 줄여 개발 흐름 단순화"
+        ]
+      }
+    },
+    {
+      "id": "dev-step-code",
+      "title": "Step Code: 터미널 코딩 에이전트",
+      "summary": "StepFun의 터미널 코딩 에이전트로 MCP 서버, Agent Skills, 멀티 에이전트 오케스트레이션, 테스트 실행을 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/stepfun-ai/Step-Code?utm_source=tldrdev",
+      "report": {
+        "tldr": "MCP·Skills를 지원하는 또 하나의 오픈소스 터미널 코딩 에이전트.",
+        "what": "Step Code는 StepFun이 공개한 터미널 기반 코딩 에이전트다. MCP 서버, Agent Skills, 멀티 에이전트 오케스트레이션을 지원하며 코드 수정에 대한 테스트 실행도 수행한다.",
+        "points": [
+          "터미널 기반 코딩 에이전트",
+          "MCP 서버·Agent Skills 지원",
+          "멀티 에이전트 오케스트레이션",
+          "코드 수정 후 테스트 실행"
+        ],
+        "why": [
+          "MCP와 Agent Skills가 코딩 에이전트의 사실상 표준 인터페이스로 자리잡는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "dev-search-webkit-browser",
+      "title": "Search: macOS용 미니멀 WebKit 브라우저",
+      "summary": "시스템 렌더링 엔진을 사용해 별도 브라우저 엔진 없이 작은 용량을 유지하는 macOS 브라우저.",
+      "source": "GitHub",
+      "url": "https://github.com/driceroland/Search?utm_source=tldrdev",
+      "report": {
+        "tldr": "시스템 WebKit을 활용한 경량 macOS 브라우저.",
+        "what": "Search는 macOS용 미니멀 WebKit 브라우저다. 시스템 렌더링을 사용해 추가 브라우저 엔진을 번들링하지 않아 작은 용량을 유지한다.",
+        "points": [
+          "macOS 전용",
+          "시스템 WebKit 렌더링 사용",
+          "별도 엔진 번들 없음으로 경량 유지"
+        ],
+        "why": [
+          "Electron·Chromium 번들 앱의 대안으로 시스템 웹뷰 활용 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-parquet-haskell",
+      "title": "Haskell로 Parquet 파일 쓰기",
+      "summary": "DataHaskell이 데이터프레임 직렬화를 위한 Parquet 쓰기 기능을 소개했다.",
+      "source": "datahaskell.org",
+      "url": "https://www.datahaskell.org/blog/2026/09/18/writing-parquet-files-using-haskell.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "Haskell 데이터 생태계에 Parquet 쓰기 기능이 추가됐다.",
+        "what": "DataHaskell이 데이터프레임을 Parquet 파일로 직렬화하는 writer 기능을 소개했다.",
+        "points": [
+          "DataHaskell의 Parquet writer",
+          "데이터프레임 직렬화 지원"
+        ],
+        "why": [
+          "Haskell을 데이터 엔지니어링에 쓰기 위한 기본 도구가 채워지고 있음"
+        ]
+      }
+    },
+    {
+      "id": "dev-fake-auto-shop-ai-agents",
+      "title": "AI 에이전트를 위한 가짜 자동차 정비소를 열어봤다",
+      "summary": "오픈 웹의 가상 사업체를 마주한 AI 에이전트들이 어떻게 상호작용하는지 살펴본 실험.",
+      "source": "davekiss.com",
+      "url": "https://davekiss.com/blog/i-opened-a-fake-auto-shop-for-ai-agents/?utm_source=tldrdev",
+      "report": {
+        "tldr": "웹 위의 가상 사업체로 AI 에이전트 행동을 관찰한 실험.",
+        "what": "데이브 키스가 오픈 웹에 가상의 자동차 정비소를 만들어 AI 에이전트들이 이를 만났을 때 어떻게 상호작용하는지 관찰한 실험을 소개한다.",
+        "points": [
+          "가상의 자동차 정비소 사업체 개설",
+          "오픈 웹에서 AI 에이전트 행동 관찰",
+          "시뮬레이션 기반 실험"
+        ],
+        "why": [
+          "에이전트가 웹 트래픽·고객이 되는 시대의 비즈니스 대응을 가늠하게 함"
+        ]
+      }
+    },
+    {
+      "id": "dev-meta-glasses-private-processing",
+      "title": "메타 AI 글래스에 Private Processing 도입",
+      "summary": "메타가 기밀 가상머신과 신뢰 실행 환경(TEE)으로 개인 데이터 처리를 보호하고, 전송 전 클라이언트가 검증할 수 있게 했다.",
+      "source": "Meta Engineering Blog",
+      "url": "https://engineering.fb.com/2026/09/23/security/private-processing-meta-ai-glasses/?utm_source=tldrdev",
+      "report": {
+        "tldr": "메타가 AI 글래스의 클라우드 처리에 TEE 기반 프라이버시 보호를 적용했다.",
+        "what": "메타 엔지니어링 블로그가 AI 글래스에 Private Processing을 도입한 방식을 설명한다. 기밀 가상머신과 신뢰 실행 환경으로 개인 데이터 처리를 보호한다. 클라이언트는 데이터 전송 전에 처리 환경을 검증할 수 있다.",
+        "points": [
+          "기밀 가상머신(confidential VM) 사용",
+          "신뢰 실행 환경(TEE) 기반 보호",
+          "전송 전 클라이언트 측 검증 가능"
+        ],
+        "why": [
+          "항상 켜진 카메라·마이크 기기의 프라이버시 우려에 대한 기술적 대응",
+          "애플 Private Cloud Compute와 유사한 업계 흐름"
+        ]
+      }
+    },
+    {
+      "id": "dev-braintrust-nitro",
+      "title": "Braintrust Nitro: 프로덕션 에이전트 디버깅 쿼리 고속화",
+      "summary": "Braintrust가 스토리지·컴퓨트 분리 아키텍처로 프로덕션 트레이스 전문 검색 속도를 2배 이상 높였다.",
+      "source": "Braintrust",
+      "url": "https://www.braintrust.dev/blog/nitro?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 트레이스 검색이 2배 이상 빨라졌다.",
+        "what": "Braintrust가 Nitro를 소개했다. 스토리지와 컴퓨트를 분리한 아키텍처로 프로덕션 환경에서 전체 텍스트 트레이스 검색 속도를 2배 이상 높였다.",
+        "points": [
+          "스토리지·컴퓨트 분리 아키텍처",
+          "전문(full-text) 트레이스 검색 2배 이상 가속",
+          "프로덕션 에이전트 디버깅 대상"
+        ],
+        "why": [
+          "에이전트 관측성 데이터가 커지면서 검색 성능이 디버깅 생산성을 좌우"
+        ]
+      }
+    },
+    {
+      "id": "dev-google-suncatcher-facts",
+      "title": "구글 Project Suncatcher의 이면: AI를 우주로",
+      "summary": "구글이 첫 궤도 TPU 시험과 함께 방사선 차폐, 열 관리 등 궤도 컴퓨팅의 과제를 정리했다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-project-suncatcher-facts/?utm_source=tldrdev",
+      "report": {
+        "tldr": "궤도 AI 컴퓨팅의 핵심 난제는 방사선과 열이다.",
+        "what": "구글이 Project Suncatcher의 첫 궤도 TPU 시험을 설명했다. 방사선 차폐, 열 관리 등 궤도 컴퓨팅이 넘어야 할 과제도 함께 다뤘다.",
+        "points": [
+          "첫 궤도 TPU 시험",
+          "방사선 차폐 과제",
+          "열 관리 과제"
+        ],
+        "why": [
+          "10월 1일 발사될 Suncatcher 시험위성의 기술적 배경을 설명"
+        ]
+      }
+    },
+    {
+      "id": "dev-docker-manufacturing-trust-agents",
+      "title": "도커: AI 에이전트를 위한 신뢰 만들기",
+      "summary": "도커가 microVM 샌드박싱, OCI 기반 키트, 클라우드 컨테이너로 에이전트 능력을 안전하게 제한·확장하는 방안을 제시했다.",
+      "source": "Docker",
+      "url": "https://www.docker.com/blog/manufacturing-trust-for-ai-agents-keynote/?utm_source=tldrdev",
+      "report": {
+        "tldr": "도커가 에이전트 실행 환경의 샌드박싱 표준을 노린다.",
+        "what": "도커 키노트에서 AI 에이전트의 신뢰를 확보하는 방법이 소개됐다. microVM 샌드박싱, OCI 기반 키트, 클라우드 컨테이너로 에이전트의 능력을 안전하게 제한하고 확장한다.",
+        "points": [
+          "microVM 샌드박싱",
+          "OCI 기반 키트",
+          "클라우드 컨테이너",
+          "에이전트 권한의 안전한 제한·확장"
+        ],
+        "why": [
+          "에이전트 실행 격리가 보안의 핵심 레이어로 부상"
+        ]
+      }
+    },
+    {
+      "id": "dev-sentry-bfcache-metrics",
+      "title": "애플리케이션 지표로 Back/Forward 캐시 측정하기",
+      "summary": "Sentry 통합으로 그동안 보이지 않던 브라우저 bfcache 상태와 성능을 측정하는 방법.",
+      "source": "Sentry",
+      "url": "https://blog.sentry.io/bfcache-metrics/?utm_source=tldrdev",
+      "report": {
+        "tldr": "보이지 않던 bfcache 성능을 지표로 가시화한다.",
+        "what": "Sentry가 애플리케이션 지표로 브라우저 Back/Forward 캐시 상태를 측정하는 방법을 소개했다. Sentry 통합을 통해 기존에는 보이지 않던 캐시 성능을 확인할 수 있다.",
+        "points": [
+          "bfcache 상태 측정",
+          "Sentry 통합 활용",
+          "숨겨진 캐시 성능 가시화"
+        ],
+        "why": [
+          "뒤로/앞으로 이동 시 즉시 로드는 체감 성능에 큰 영향"
+        ]
+      }
+    }
+  ]
+}

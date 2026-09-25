@@ -1,0 +1,223 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-meta-muse-realtime-avatar",
+      "title": "메타, Muse 실시간 아바타 기술 공개",
+      "summary": "메타가 대화를 실시간으로 표현력 있는 인터랙티브 아바타로 바꾸는 Muse Realtime Avatar 기술을 소개했다.",
+      "source": "Meta AI Research",
+      "url": "https://research.meta.ai/blog/bringing-your-muse-to-life?utm_source=tldrai",
+      "report": {
+        "tldr": "메타가 Muse 에이전트에 음성·표정이 동기화된 실시간 아바타를 입혔다.",
+        "what": "메타가 Muse Realtime Avatar 기술을 공개했다. 대화를 실시간으로 표현력 있고 상호작용하는 아바타로 변환하며 음성과 표정이 동기화된다. 메타는 경쟁 기술보다 성능이 앞선다고 밝혔다.",
+        "points": [
+          "대화를 실시간 인터랙티브 아바타로 변환",
+          "음성과 표정 동기화",
+          "경쟁 기술 대비 우수한 성능 주장"
+        ],
+        "why": [
+          "같은 날 공개된 Muse Charm 펜던트와 함께 메타의 개인 에이전트 전략을 구체화",
+          "구글 Gemini Live Avatar와 정면 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-3-8-live-avatar",
+      "title": "구글, 'Live Avatar' 탑재 Gemini 3.8 Live 출시",
+      "summary": "구글이 실시간 응답과 개인화 경험을 강화한 Gemini 3.8 Live with Live Avatar를 출시했다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/?utm_source=tldrai",
+      "report": {
+        "tldr": "구글도 실시간 아바타 경쟁에 합류했다.",
+        "what": "구글이 Gemini 3.8 Live with Live Avatar를 선보였다. 실시간 응답과 더 개인화된 사용자 경험을 제공하며, AI 플랫폼 경쟁에서 더 공격적으로 나서려는 행보다.",
+        "points": [
+          "Gemini 3.8 Live에 Live Avatar 기능 추가",
+          "실시간 응답 강화",
+          "개인화된 사용자 경험 제공"
+        ],
+        "why": [
+          "메타 Muse 아바타와 같은 날 발표돼 음성·아바타 인터페이스 경쟁이 본격화"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-pro-max-500",
+      "title": "OpenAI, 월 500달러 ChatGPT 'Pro Max' 요금제 준비",
+      "summary": "OpenAI가 월 500달러 ChatGPT Pro Max 구독을 준비 중이며, 9월 29일 DevDay에서 다뤄질 것으로 예상된다.",
+      "source": "Testing Catalog",
+      "url": "https://www.testingcatalog.com/openai-prepares-new-500-month-pro-max-plan-for-chatgpt/?utm_source=tldrai",
+      "report": {
+        "tldr": "ChatGPT 최상위 요금제가 월 500달러로 올라갈 조짐이다.",
+        "what": "OpenAI가 월 500달러의 ChatGPT Pro Max 구독을 준비하고 있다. 속도, 사용량 한도, Work 세션 지속 시간 중 무엇으로 가격을 정당화할지는 불분명하다. 9월 29일 DevDay에서 논의될 것으로 예상된다.",
+        "points": [
+          "월 500달러 신규 Pro Max 요금제",
+          "차별화 요소(속도·사용량·Work 세션 시간)는 불명확",
+          "9월 29일 DevDay 발표 가능성"
+        ],
+        "why": [
+          "고사용량 에이전트 이용자를 겨냥한 초고가 티어 확대 추세",
+          "AI 서비스 가격 구조의 상단이 계속 올라가고 있음"
+        ]
+      }
+    },
+    {
+      "id": "ai-contrastive-language-models",
+      "title": "대조 언어 모델(Contrastive Language Models) 공개",
+      "summary": "컴퓨터 사용·게임·툴 호출 과제에서 Jev와 비슷한 성능을 내면서 지연 시간은 최대 9배 낮춘 새 모델 계열이 공개됐다.",
+      "source": "Notion",
+      "url": "https://contrastive-lm.notion.site/?utm_source=tldrai",
+      "report": {
+        "tldr": "성능은 유지하고 지연은 최대 9배 줄인 새 모델 클래스.",
+        "what": "Contrastive Language Models라는 새 모델 계열이 소개됐다. 컴퓨터 사용, 게임, 툴 호출 과제에서 Jev에 필적하는 성능을 내면서 지연 시간은 최대 9배 낮다. 에이전틱 코딩 벤치마크에서 새 기록도 세웠다고 밝혔다.",
+        "points": [
+          "Jev와 비슷한 성능",
+          "지연 시간 최대 9배 감소",
+          "에이전틱 코딩 벤치마크 신기록 주장"
+        ],
+        "why": [
+          "실시간 에이전트에서 지연 시간이 핵심 병목인 만큼 실용적 의미가 큼"
+        ]
+      }
+    },
+    {
+      "id": "ai-langchain-managed-deep-agents-0-8",
+      "title": "LangChain Managed Deep Agents v0.8: 인증·메모리·채널 개선",
+      "summary": "Managed Deep Agents 0.8이 사용자 소유 자격 증명, 사용자 단위 메모리, HTTP 채널, Slack 파일 전송, 웹 검색 도구를 추가했다.",
+      "source": "LangChain Blog",
+      "url": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new?utm_source=tldrai",
+      "report": {
+        "tldr": "프로덕션 에이전트 배포에 필요한 인증·메모리 기능이 보강됐다.",
+        "what": "LangSmith의 Managed Deep Agents 0.8이 출시됐다. 사용자 소유 자격 증명, 사용자 단위 메모리, HTTP 채널, Slack 내 파일 전송 기능이 추가됐다. 웹 검색 도구도 함께 제공된다.",
+        "points": [
+          "사용자 소유 자격 증명(user-owned credentials)",
+          "사용자 단위 메모리",
+          "HTTP 채널 및 Slack 파일 전송",
+          "웹 검색 도구 추가"
+        ],
+        "why": [
+          "멀티유저 에이전트 운영의 인증·권한 문제를 플랫폼 차원에서 해결하려는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-ready-for-superintelligence",
+      "title": "초지능에 대비됐는가",
+      "summary": "프런티어 모델이 기존 벤치마크를 빠르게 포화시키고 더 어려운 실세계·과학·에이전트 과제로 이동하면서 논의가 재귀적 자기개선과 초지능으로 옮겨가고 있다.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/knowerofmarkets/status/2103138714050331089?utm_source=tldrai",
+      "report": {
+        "tldr": "벤치마크 포화가 초지능 논의를 앞당기고 있다.",
+        "what": "프런티어 모델들이 기존 벤치마크를 빠르게 포화시키며 더 어려운 실세계, 과학, 에이전트 과제로 나아가고 있다는 글이다. 이에 따라 논의의 초점이 재귀적 자기개선과 초지능으로 이동하고 있다고 주장한다.",
+        "points": [
+          "기존 벤치마크의 빠른 포화",
+          "실세계·과학·에이전트 과제로 평가 이동",
+          "재귀적 자기개선·초지능 논의 부상"
+        ],
+        "why": [
+          "평가 체계와 안전 논의가 모델 발전 속도를 따라잡아야 한다는 문제의식"
+        ]
+      }
+    },
+    {
+      "id": "ai-hf-agent-cyberattack-disclosure",
+      "title": "허깅페이스, 첫 에이전트 사이버공격 공개에서 얻은 교훈",
+      "summary": "허깅페이스가 자율 에이전트에 의한 사이버공격을 처음 공개한 기업으로서 사고 투명성, 공격·방어 간 역량 비대칭 해소, 오픈소스 접근 유지의 중요성을 밝혔다.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/ClementDelangue/status/2103144463279276146?utm_source=tldrai",
+      "report": {
+        "tldr": "자율 에이전트 공격 시대에 사고 공개와 방어자 역량 강화가 과제로 떠올랐다.",
+        "what": "허깅페이스 CEO 클레망 들랑그가 자율 에이전트 사이버공격을 처음 공개한 경험을 공유했다. 사고 투명성, 공격자와 방어자 간 역량 비대칭 축소, 오픈소스 접근 유지가 우선순위로 드러났다고 밝혔다.",
+        "points": [
+          "자율 에이전트 사이버공격을 공개한 첫 기업",
+          "사고 투명성 강조",
+          "공격자·방어자 간 역량 비대칭 해소 필요",
+          "오픈소스 접근성 유지 주장"
+        ],
+        "why": [
+          "AI 에이전트가 실제 공격 주체가 되는 위협이 현실화",
+          "사고 공개 관행 형성에 선례가 될 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "ai-surge-dayjob-finance",
+      "title": "업무 전체를 완수하라: 금융 에이전트 벤치마크 DAYJOB",
+      "summary": "Surge의 DAYJOB: Finance는 AI 에이전트가 보조 문서를 활용해 80개의 현실적 금융 과제를 완수하고 전문가가 쓸 수 있는 분석을 내는지 평가한다.",
+      "source": "Surge HQ",
+      "url": "https://surgehq.ai/benchmarks/dayjob-finance?utm_source=tldrai",
+      "report": {
+        "tldr": "단편 질문이 아닌 '업무 단위' 완수 능력을 재는 금융 벤치마크.",
+        "what": "Surge가 DAYJOB: Finance 벤치마크를 공개했다. AI 에이전트가 보조 문서를 이용해 80개의 현실적인 금융 과제를 끝까지 수행하고, 전문가가 실제로 쓸 수 있는 분석을 산출하는지 평가한다.",
+        "points": [
+          "현실적 금융 과제 80개",
+          "보조 문서 기반 작업",
+          "전문가가 활용 가능한 결과물이 기준"
+        ],
+        "why": [
+          "에이전트 평가가 부분 정답에서 실무 산출물 품질로 이동하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-project-swap",
+      "title": "앤트로픽, 에이전트가 사람을 대신해 협상하는 실험 진행",
+      "summary": "5분 인터뷰 후 Claude 에이전트가 직원을 대신해 책을 교환했고, 선호 순위가 사람과 61% 쌍에서 일치했다.",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/project-swap?utm_source=tldrai",
+      "report": {
+        "tldr": "짧은 인터뷰만으로 에이전트가 사람의 선호를 상당 부분 대변했다.",
+        "what": "앤트로픽이 Project Swap 연구를 공개했다. 5분 인터뷰 후 Claude 에이전트들이 직원들을 대신해 책을 교환했다. 에이전트의 선호 순위는 사람의 선호와 61%의 쌍에서 일치했다.",
+        "points": [
+          "5분 인터뷰로 선호 파악",
+          "Claude 에이전트가 직원 대신 책 교환",
+          "선호 순위 일치율 61%"
+        ],
+        "why": [
+          "대리 협상 에이전트의 가능성과 한계(약 40% 불일치)를 동시에 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "ai-tastebench-decision-forking",
+      "title": "LLM은 결정 분기에서 얼마나 잘 고르나: Taste-Bench",
+      "summary": "Taste-Bench는 장기 과제의 중대한 분기점에서 LLM 에이전트가 더 나은 다음 단계를 선택할 수 있는지 평가한다.",
+      "source": "GitHub",
+      "url": "https://github.com/wbopan/tastebench?utm_source=tldrai",
+      "report": {
+        "tldr": "장기 과제에서 '판단력'을 따로 측정하는 벤치마크.",
+        "what": "Taste-Bench는 장기(long-horizon) 과제 수행 중 결과를 좌우하는 분기점에서 LLM 에이전트가 더 나은 다음 단계를 고를 수 있는지 평가하는 오픈소스 벤치마크다.",
+        "points": [
+          "장기 과제의 중대한 분기점에 초점",
+          "더 나은 다음 단계 선택 능력 평가",
+          "GitHub에 공개"
+        ],
+        "why": [
+          "에이전트 실패의 주요 원인인 판단 오류를 분리해 측정할 수 있게 함"
+        ]
+      }
+    },
+    {
+      "id": "ai-intelligence-density",
+      "title": "지능 밀도(Intelligence Density)",
+      "summary": "Trajectory.ai가 토큰당 비용 대신 과제당 비용을 측정하는 '지능 밀도' 개념을 제시했다.",
+      "source": "Trajectory.ai",
+      "url": "https://www.trajectory.ai/field-notes/intelligence-density?utm_source=tldrai",
+      "report": {
+        "tldr": "모델 효율은 토큰 단가가 아니라 과제당 비용으로 봐야 한다.",
+        "what": "Trajectory.ai는 '지능 밀도'에 주목한다. 토큰당 비용이 아니라 과제당 비용을 측정해 더 효율적인 AI 모델 학습을 추구한다는 접근이다.",
+        "points": [
+          "토큰당 비용 대신 과제당 비용 지표",
+          "지능 밀도 개념 제시",
+          "효율적 모델 학습 지향"
+        ],
+        "why": [
+          "에이전트 시대 모델 비교·선택 기준을 재정의하는 관점"
+        ]
+      }
+    }
+  ]
+}
