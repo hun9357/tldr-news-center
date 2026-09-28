@@ -1,0 +1,248 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-cloudwatch-omni",
+      "title": "AWS, AI 중심 관측 도구 CloudWatch Omni 출시",
+      "summary": "AWS가 OpenTelemetry와 CloudWatch를 결합해 자연어 질의와 에이전트 워크플로 추적을 지원하는 관측 경험을 내놨다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/about-aws/whats-new/2026/09/amazon-cloudwatch-omni/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AWS가 AI 에이전트 관측을 CloudWatch의 1급 기능으로 끌어올렸다.",
+        "what": "AWS가 AI 기반 관측 경험 CloudWatch Omni를 출시했다. OpenTelemetry와 CloudWatch의 규모를 결합했으며, 자연어로 텔레메트리를 질의할 수 있다. LangGraph, CrewAI, Vercel AI SDK 기반 에이전트 워크플로도 지원한다.",
+        "points": [
+          "OpenTelemetry 표준 위에 CloudWatch 규모를 결합",
+          "자연어 질의로 로그·메트릭 탐색",
+          "LangGraph·CrewAI·Vercel AI SDK 에이전트 워크플로 지원"
+        ],
+        "why": [
+          "에이전트 운영이 늘면서 관측 도구의 초점이 에이전트 동작 추적으로 이동",
+          "OTel 기반이라 벤더 종속 부담이 상대적으로 적음"
+        ]
+      }
+    },
+    {
+      "id": "devops-alibaba-opencodereview",
+      "title": "알리바바, AI 코드 리뷰 도구 OpenCodeReview 오픈소스 공개",
+      "summary": "알리바바가 결정론적 규칙 매칭과 AI 분석을 결합한 Apache 라이선스 코드 리뷰 도구를 공개했지만, 독립 테스트에서 재현율 한계가 드러났다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/09/alibaba-opencodereview/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "규칙 기반과 AI를 섞은 하이브리드 코드 리뷰가 오픈소스로 나왔지만 탐지율은 아직 제한적이다.",
+        "what": "알리바바가 Apache 라이선스로 OpenCodeReview를 공개했다. 파일·규칙 매칭이라는 결정론적 방식과 AI 분석을 결합해 널 포인터나 SQL 인젝션 같은 결함을 찾는다. 다만 독립 테스트에서는 재현율(recall)에 한계가 있는 것으로 나타났다.",
+        "points": [
+          "Apache 라이선스 오픈소스",
+          "결정론적 규칙 매칭 + AI 분석 하이브리드 구조",
+          "널 포인터·SQL 인젝션 탐지 대상",
+          "독립 테스트에서 재현율 한계 확인"
+        ],
+        "why": [
+          "AI 코드 리뷰 도입 시 오탐보다 미탐 위험을 따로 검증해야 함",
+          "규칙 엔진과 LLM 결합이 AI 리뷰의 현실적 설계로 자리잡는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "devops-netflix-workload-attestation",
+      "title": "넷플릭스, 관리형 컴퓨트에서 클라우드 신원을 자체 신원으로 교환",
+      "summary": "넷플릭스가 Apache Spark 워크로드용으로 AWS IAM 역할과 내부 신원을 연결하고, 내부 PKI 인증서를 발급하는 체계를 구축했다.",
+      "source": "Netflix Tech Blog",
+      "url": "https://netflixtechblog.com/trading-a-cloud-identity-for-your-own-workload-attestation-on-managed-compute-516d5a29b252?source=rss----2615bd06b42e---4&utm_source=tldrdevops",
+      "report": {
+        "tldr": "관리형 컴퓨트에서도 워크로드 증명으로 내부 신원을 발급할 수 있다.",
+        "what": "넷플릭스 엔지니어들이 Apache Spark 작업에서 AWS IAM 역할과 내부 신원 체계를 잇는 시스템을 만들었다. 각 Data Project 신원을 전용 IAM 역할에 매핑하고, 이를 근거로 내부 PKI 인증서를 발급한다.",
+        "points": [
+          "Data Project 신원마다 전용 IAM 역할 매핑",
+          "IAM 역할을 증명 근거로 내부 PKI 인증서 발급",
+          "관리형 Spark 환경에 적용"
+        ],
+        "why": [
+          "클라우드 신원과 사내 신원 체계를 분리 운영하는 조직에 참고할 만한 패턴",
+          "워크로드 단위 최소 권한 구현 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-rust-stronger-types",
+      "title": "구성요소 합보다 강한 타입: Rust API 설계 기법",
+      "summary": "넓은 문자열·경로 대신 전용 타입을 받도록 설계해, 잘못된 경로 구성요소를 컴파일러가 막도록 하는 Rust 기법을 소개한다.",
+      "source": "schneems.com",
+      "url": "https://www.schneems.com/2026/09/24/a-type-stronger-than-the-sum-of-its-components/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "입력 타입을 좁히면 검증을 런타임이 아니라 컴파일러에 맡길 수 있다.",
+        "what": "Rust API를 설계할 때 일반 문자열이나 경로 값을 받지 말고 전용 타입을 쓰자는 글이다. 이렇게 하면 속성을 컴파일 타임에 검사할 수 있고, 유효하지 않은 경로 구성요소가 들어오는 것을 막을 수 있다.",
+        "points": [
+          "String·Path 대신 전용 newtype 사용",
+          "타입이 불변식을 보장해 컴파일러가 검증",
+          "잘못된 경로 구성요소 유입 차단"
+        ],
+        "why": [
+          "경로 조작 버그·보안 취약점을 설계 단계에서 줄이는 방법"
+        ]
+      }
+    },
+    {
+      "id": "devops-github-css-modules",
+      "title": "GitHub, CSS-in-JS에서 CSS Modules로 전환해 성능 개선",
+      "summary": "GitHub가 CSS-in-JS를 CSS Modules로 교체해 Primer 서버 렌더링 시간을 55%, 컴포넌트 초기화 시간을 25% 줄였다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "CSS를 더 많이 보내는 쪽이 오히려 더 빨랐다.",
+        "what": "GitHub가 단계적 롤아웃을 거쳐 CSS-in-JS를 CSS Modules로 옮겼다. 그 결과 Primer 서버 사이드 렌더링 시간이 55%, 컴포넌트 초기화 시간이 25% 줄었다.",
+        "points": [
+          "CSS-in-JS → CSS Modules 마이그레이션",
+          "Primer SSR 시간 55% 감소",
+          "컴포넌트 초기화 시간 25% 감소",
+          "단계적 롤아웃으로 위험 관리"
+        ],
+        "why": [
+          "런타임 스타일 생성 비용이 대규모 앱에서 병목이 될 수 있음을 수치로 보여줌",
+          "CSS-in-JS 재검토를 고민하는 팀에 근거 제공"
+        ]
+      }
+    },
+    {
+      "id": "devops-scriptc",
+      "title": "scriptc: JS 엔진 없이 TypeScript를 네이티브로 컴파일",
+      "summary": "Vercel Labs의 scriptc는 TypeScript/JavaScript를 JS 엔진 없이 네이티브 실행 파일, WebAssembly, C, LLVM IR 등으로 컴파일한다.",
+      "source": "GitHub",
+      "url": "https://github.com/vercel-labs/scriptc?utm_source=tldrdevops",
+      "report": {
+        "tldr": "TS 코드를 런타임 없이 네이티브 바이너리로 만드는 실험적 컴파일러가 나왔다.",
+        "what": "Vercel Labs가 TypeScript/JavaScript 컴파일러 scriptc를 공개했다. 자바스크립트 엔진 없이도 네이티브 실행 파일이나 WebAssembly 모듈을 만들 수 있고, C나 LLVM IR로도 출력한다.",
+        "points": [
+          "JS 엔진 불필요",
+          "네이티브 실행 파일·WebAssembly 출력",
+          "C·LLVM IR 출력도 지원",
+          "Vercel Labs 프로젝트"
+        ],
+        "why": [
+          "TS 코드를 경량 CLI·엣지 바이너리로 배포하는 선택지가 늘어남"
+        ]
+      }
+    },
+    {
+      "id": "devops-openrig",
+      "title": "Openrig: Claude Code와 Codex를 tmux 팀으로 운영하는 하네스",
+      "summary": "Openrig는 Claude Code와 Codex를 tmux 세션 안에서 하나의 팀처럼 관리하는 멀티 에이전트 하네스로, YAML 팀 설정과 데몬·CLI·MCP 서버를 포함한다.",
+      "source": "GitHub",
+      "url": "https://github.com/mvschwarz/openrig?utm_source=tldrdevops",
+      "report": {
+        "tldr": "여러 코딩 에이전트를 tmux 위에서 팀 단위로 묶어 운영하는 도구다.",
+        "what": "Openrig는 Claude Code와 Codex를 tmux 세션 안에서 하나의 팀으로 관리하는 멀티 에이전트 하네스다. 팀 구성은 YAML로 정의하고, 데몬·CLI·MCP 서버가 함께 들어 있다.",
+        "points": [
+          "Claude Code·Codex를 tmux 세션으로 통합 관리",
+          "YAML로 팀 구성 정의",
+          "데몬·CLI·MCP 서버 내장"
+        ],
+        "why": [
+          "코딩 에이전트 병렬 운영을 위한 오케스트레이션 도구가 늘고 있음"
+        ]
+      }
+    },
+    {
+      "id": "devops-gcp-spark-flexible-vms",
+      "title": "구글 클라우드, Spark용 유연 VM으로 용량 부족 대응",
+      "summary": "구글의 관리형 Apache Spark 서비스가 유연 VM을 지원해, 리전 용량이 부족할 때 순위를 매긴 머신 패밀리로 자동 대체한다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/data-analytics/maximize-apache-spark-availability-with-flexible-vms/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "특정 머신 타입이 동나도 Spark 작업이 멈추지 않게 하는 폴백 기능이다.",
+        "what": "구글의 Managed Service for Apache Spark가 유연 VM(flexible VMs)을 지원하기 시작했다. 머신 패밀리 우선순위를 설정해 두면 리전 용량이 부족할 때 자동으로 다음 순위로 대체된다.",
+        "points": [
+          "순위를 매긴 머신 패밀리 구성",
+          "리전 용량 부족 시 자동 폴백",
+          "관리형 Spark 가용성 향상"
+        ],
+        "why": [
+          "GPU·고사양 VM 품귀 상황에서 배치 작업 실패를 줄이는 실용적 대응"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-containers-cross-tenant",
+      "title": "Cloudflare 컨테이너, 테넌트 간 데이터 노출 취약점 해결",
+      "summary": "스토리지 블록 제로화를 건너뛰어 고객 간 공유 블록에서 잔여 데이터를 복구할 수 있던 취약점이 제보됐고, Cloudflare가 전체 플릿에서 조치했다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/containers-cross-tenant-vulnerability/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "블록 제로화 누락이 멀티테넌트 격리를 깨뜨렸다.",
+        "what": "한 보안 연구자가 Cloudflare Containers에서 고객 간에 공유되는 스토리지 블록의 잔여 데이터를 복구할 수 있는 취약점을 제보했다. 원인은 블록 제로화를 건너뛴 것이었고, Cloudflare는 전체 플릿에 수정을 적용했다.",
+        "points": [
+          "원인: 스토리지 블록 제로화 생략",
+          "다른 고객의 잔여 데이터 복구 가능",
+          "전체 플릿에서 수정 완료",
+          "외부 연구자 제보로 발견"
+        ],
+        "why": [
+          "멀티테넌트 환경에서 스토리지 초기화는 성능 최적화 대상이 아닌 보안 경계임",
+          "컨테이너 플랫폼 사용자는 잔여 데이터 위험을 점검할 필요"
+        ]
+      }
+    },
+    {
+      "id": "devops-aws-wrong-not-broken",
+      "title": "틀렸지만 고장나진 않았다: AI 에이전트 관측의 맹점",
+      "summary": "기존 관측 지표는 AI 에이전트가 빠르고 가용하며 오류가 없다고 보여줄 수 있지만, 출력이 실제로 맞는지는 놓친다.",
+      "source": "AWS Insights Blog",
+      "url": "https://aws.amazon.com/blogs/aws-insights/wrong-not-broken/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "에이전트는 정상 가동 중에도 틀린 답을 낼 수 있다.",
+        "what": "AWS 글은 전통적 관측이 AI 에이전트를 빠르고 가용하며 오류 없는 상태로 보여줄 수 있다고 지적한다. 하지만 그런 지표로는 출력이 정확한지 알 수 없다.",
+        "points": [
+          "지연·가용성·오류율은 정확성을 보장하지 않음",
+          "에이전트 출력 품질을 따로 측정해야 함",
+          "\"고장\"과 \"틀림\"을 구분한 관측 필요"
+        ],
+        "why": [
+          "에이전트 운영 시 품질 평가(eval)를 관측 스택에 포함해야 할 근거"
+        ]
+      }
+    },
+    {
+      "id": "devops-bun-zig-to-rust",
+      "title": "Bun, 53.5만 줄 Zig 코드를 4개월 만에 Rust로 재작성",
+      "summary": "Bun 제작자가 구현·리뷰·수정 에이전트를 AI로 오케스트레이션해 런타임 전체를 Rust로 옮겼고, 토큰 비용은 16만 5천 달러였다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/09/bun-AI-rewrite-zig-rust-4-months/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 에이전트로 대규모 언어 이전을 4개월에 끝낸 사례다.",
+        "what": "Bun 제작자가 런타임 코드베이스 53.5만 줄을 Zig에서 Rust로 4개월에 걸쳐 재작성했다. 구현, 리뷰, 수정을 맡은 AI 에이전트를 오케스트레이션했고 토큰 비용은 16만 5천 달러였다. 이 과정에서 메모리 누수 다수가 제거됐다.",
+        "points": [
+          "53.5만 줄 Zig → Rust 전환, 4개월 소요",
+          "구현·리뷰·수정 에이전트 오케스트레이션",
+          "토큰 비용 16만 5천 달러",
+          "다수의 메모리 누수 제거"
+        ],
+        "why": [
+          "대규모 리라이트의 비용·기간 기준을 AI가 크게 바꿀 수 있음을 보여줌",
+          "AI 기반 마이그레이션의 실제 비용 데이터 포인트"
+        ]
+      }
+    },
+    {
+      "id": "devops-eventbridge-custom-buses",
+      "title": "Amazon EventBridge, 조직 전체 공유 가능한 커스텀 이벤트 버스",
+      "summary": "AWS가 EventBridge 커스텀 이벤트 버스를 강화해 조직의 모든 계정에 공유할 수 있게 했다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/aws/introducing-enhanced-custom-event-buses-in-amazon-eventbridge-for-enterprise-scale-event-driven-applications/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "멀티 계정 이벤트 기반 아키텍처 구성이 쉬워졌다.",
+        "what": "AWS가 엔터프라이즈 규모의 이벤트 기반 애플리케이션을 위해 EventBridge 커스텀 이벤트 버스를 강화했다. 이제 커스텀 이벤트 버스를 조직 내 모든 계정에 공유할 수 있다.",
+        "points": [
+          "커스텀 이벤트 버스를 전 계정에 공유",
+          "엔터프라이즈 규모 이벤트 기반 설계 대상",
+          "멀티 계정 구성 단순화"
+        ],
+        "why": [
+          "계정별 버스·규칙을 따로 관리하던 부담 감소"
+        ]
+      }
+    }
+  ]
+}

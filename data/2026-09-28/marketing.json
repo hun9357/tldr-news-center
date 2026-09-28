@@ -1,0 +1,223 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-clipping-economy",
+      "title": "클리핑 101: 클리핑 경제의 내부",
+      "summary": "브랜드가 크리에이터 네트워크에 기존 콘텐츠를 숏폼으로 재가공하게 하고, 검증된 성과 기준 도달 시에만 비용을 지급하는 모델이 부상하고 있다.",
+      "source": "NetInfluencer",
+      "url": "https://www.netinfluencer.com/clipping-101-inside-the-clipping-economy/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "클리핑은 성과 기반 숏폼 유통 모델로 자리잡고 있다.",
+        "what": "클리핑은 브랜드가 크리에이터 네트워크에 비용을 주고 기존 콘텐츠를 숏폼 클립으로 재가공·배포하게 하는 방식이다. 비용은 검증된 성과 기준에 도달했을 때만 지급된다.",
+        "points": [
+          "기존 콘텐츠를 숏폼 클립으로 재가공",
+          "크리에이터 네트워크를 통한 분산 유통",
+          "검증된 기준 달성 시에만 비용 지급"
+        ],
+        "why": [
+          "숏폼 도달을 성과 기반으로 구매하는 새로운 채널이다",
+          "인플루언서 마케팅의 가격 구조가 성과형으로 이동하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-chatgpt-ads-organic-traffic",
+      "title": "챗GPT 광고가 오가닉 트래픽도 끌어올리나",
+      "summary": "챗GPT 광고 집행과 오가닉 트래픽 증가가 함께 나타나지만 GA4 오분류 가능성도 있으며, 오픈AI는 광고가 답변 노출에 영향을 주지 않는다고 밝혔다.",
+      "source": "The State of Brand",
+      "url": "https://www.thestateofbrand.com/news/chatgpt-ads-organic-traffic?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 검색 광고의 오가닉 효과는 아직 측정 오류와 구분이 어렵다.",
+        "what": "챗GPT 광고를 집행한 뒤 오가닉 트래픽이 함께 늘어나는 현상이 관찰됐다. 다만 일부는 GA4의 트래픽 오분류일 수 있고, 오픈AI는 광고가 답변 내 노출 위치에 영향을 주지 않는다고 부인했다.",
+        "points": [
+          "챗GPT 광고와 오가닉 트래픽 증가가 동반 관찰",
+          "일부는 GA4 오분류 가능성",
+          "오픈AI는 광고의 답변 배치 영향 부인"
+        ],
+        "why": [
+          "AI 검색에서 '돈을 내고 발견되는' 구조가 형성될지 주목된다",
+          "AI 유입 트래픽 측정 방식을 점검할 필요가 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-customer-language-copy",
+      "title": "고객의 언어로 강력한 마케팅 카피 쓰기",
+      "summary": "리뷰·상담 티켓·검색어에서 표현을 추출해 헤드라인과 CTA에 반영하고, 30일 후 측정해 분기마다 다듬으라는 가이드.",
+      "source": "WordStream",
+      "url": "https://www.wordstream.com/blog/customer-language-in-marketing?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "고객이 실제로 쓰는 말을 카피에 옮겨라.",
+        "what": "워드스트림은 리뷰, 고객지원 티켓, 검색어에서 고객의 표현을 뽑아 카피에 쓰는 방법을 제시한다. 반복되는 표현을 헤드라인과 CTA에 넣고, 30일 뒤 성과를 측정해 분기마다 개선하라고 권한다.",
+        "points": [
+          "리뷰·지원 티켓·검색어에서 표현 추출",
+          "반복 표현을 헤드라인·CTA에 반영",
+          "30일 후 측정, 분기별 개선"
+        ],
+        "why": [
+          "추측이 아닌 고객 데이터 기반 카피 작성 프로세스를 만들 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-free-trial-length",
+      "title": "무료 체험 기간은 얼마가 적당할까",
+      "summary": "월간 플랜에서는 10~16일 체험이 더 긴 기간보다 나은 경우가 많으며, 가치 체감 속도와 재방문 빈도를 기준으로 테스트하라는 분석.",
+      "source": "RevenueCat",
+      "url": "https://www.revenuecat.com/blog/growth/free-trial-length?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "체험 기간은 길수록 좋은 게 아니라 가치 체감 속도에 맞춰야 한다.",
+        "what": "레베뉴캣은 무료 체험 기간을 가치 실현 속도와 사용자 재방문 빈도에 맞춰 테스트하라고 조언한다. 월간 플랜에서는 10~16일 체험이 더 긴 기간보다 성과가 좋은 경우가 많다.",
+        "points": [
+          "월간 플랜은 10~16일 체험이 흔히 우세",
+          "가치 실현 속도가 기준",
+          "사용자 재방문 빈도도 고려",
+          "기간은 테스트로 결정"
+        ],
+        "why": [
+          "구독 앱의 전환율을 좌우하는 핵심 변수를 데이터로 조정할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-x-ranking-algorithm",
+      "title": "X 랭킹 알고리즘의 작동 방식",
+      "summary": "X에서 링크 복사 공유는 좋아요의 40배, 답글과 인용은 각각 10배 가중치를 가지며 게시물은 48시간 후 노출이 줄어든다.",
+      "source": "John J. Wang",
+      "url": "https://johnjwang.com/post/2026/09/25/how-xs-ranking-algorithm-works?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "X에서는 좋아요보다 공유·대화 유도가 훨씬 중요하다.",
+        "what": "X의 랭킹 알고리즘 분석에 따르면 링크 복사 공유는 좋아요의 40배 가중치를 받는다. 답글과 인용은 각각 10배이며, 게시물은 48시간이 지나면 노출이 줄어든다.",
+        "points": [
+          "링크 복사 공유 = 좋아요의 40배",
+          "답글·인용 = 각 10배",
+          "48시간 이후 노출 감소"
+        ],
+        "why": [
+          "X 콘텐츠 전략을 공유·대화 유도 중심으로 재설계할 근거가 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-amazon-multichannel-seller-tools",
+      "title": "아마존, 셀러 센트럴에서 월마트·이베이·쇼피파이·틱톡 판매 관리 지원",
+      "summary": "아마존이 미국 셀러가 셀러 센트럴에서 월마트·이베이·쇼피파이·틱톡 리스팅을 동기화하고 주문을 처리할 수 있는 무료 멀티채널 도구를 출시했다.",
+      "source": "GeekWire",
+      "url": "https://www.geekwire.com/2026/amazon-will-let-sellers-manage-walmart-ebay-shopify-and-tiktok-sales-from-their-amazon-dashboards/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "아마존이 경쟁 채널 판매까지 자사 대시보드로 흡수하려 한다.",
+        "what": "아마존이 미국 셀러를 위한 무료 멀티채널 도구를 출시했다. 셀러는 셀러 센트럴에서 월마트, 이베이, 쇼피파이, 틱톡의 리스팅을 동기화하고 주문을 처리할 수 있다.",
+        "points": [
+          "무료 멀티채널 도구 출시(미국 셀러 대상)",
+          "월마트·이베이·쇼피파이·틱톡 리스팅 동기화",
+          "셀러 센트럴에서 주문 이행까지 처리"
+        ],
+        "why": [
+          "멀티채널 이커머스 운영 부담이 줄어든다",
+          "아마존이 셀러 운영의 허브 지위를 강화하려는 움직임이다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-stack-ladder-company-size",
+      "title": "스택 사다리: 회사 규모별로 쓰는 소프트웨어",
+      "summary": "허브스팟·클라우드플레어 같은 선도 기업이 규모 전반을 장악하며, CRM 사용률은 최소 스타트업 7%에서 201~1,000명 기업 42%로 오른다.",
+      "source": "InstallMap",
+      "url": "https://installmap.com/research/software-stack-by-company-size?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "회사가 커질수록 소프트웨어 도입률이 올라가고 선도 제품이 전 구간을 장악한다.",
+        "what": "InstallMap이 10명부터 1만 명 규모까지 기업이 쓰는 소프트웨어 스택을 분석했다. 허브스팟, 클라우드플레어 같은 선도 기업이 규모 전반에서 우세하며, 인원이 늘수록 도입률이 높아진다.",
+        "points": [
+          "허브스팟·클라우드플레어가 전 규모에서 우세",
+          "인원 증가에 따라 도입률 상승",
+          "CRM 사용률: 최소 스타트업 7% vs 201~1,000명 42%"
+        ],
+        "why": [
+          "B2B 마케터가 타깃 기업 규모별 도입 시점을 가늠하는 데 유용하다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-agentic-cdp",
+      "title": "AI 마케팅이 데이터 플랫폼 안으로 들어간다",
+      "summary": "에이전틱 CDP는 거버넌스가 적용된 고객 데이터 안에 AI를 내장해, 에이전트가 실시간 신호와 비즈니스 맥락으로 오디언스와 캠페인을 설계하게 한다.",
+      "source": "The Data Ecosystem",
+      "url": "https://thedataecosystem.substack.com/p/issue-71-the-agentic-cdp-customerlake?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "마케팅 AI의 무게중심이 데이터 플랫폼으로 이동하고 있다.",
+        "what": "에이전틱 CDP는 거버넌스가 갖춰진 고객 데이터 위에 AI를 직접 내장한다. 에이전트는 실시간 신호와 비즈니스 맥락을 활용해 오디언스를 구성하고 캠페인을 설계한다.",
+        "points": [
+          "거버넌스된 고객 데이터에 AI 내장",
+          "에이전트가 오디언스 구축",
+          "실시간 신호·비즈니스 맥락으로 캠페인 설계"
+        ],
+        "why": [
+          "마테크 스택에서 CDP의 역할이 저장소에서 실행 주체로 바뀌고 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-media-pitch-subject-lines",
+      "title": "미디어 피칭용 실제 제목 예시 27선",
+      "summary": "핵심 정보를 제목 첫 세 단어 안에 넣으면 오픈율이 46%로, 뒤에 둔 경우(38%)보다 높았다.",
+      "source": "BuzzStream",
+      "url": "https://www.buzzstream.com/blog/subject-line-examples/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "피칭 메일 제목은 첫 세 단어에 핵심을 담아라.",
+        "what": "버즈스트림이 미디어 피칭 유형별 실제 제목 예시 27개를 정리했다. 핵심 정보를 첫 세 단어 안에 넣은 제목의 오픈율은 46%로, 뒤쪽에 넣은 경우의 38%보다 높았다.",
+        "points": [
+          "미디어 피칭 유형별 제목 예시 27개",
+          "핵심 정보가 첫 3단어: 오픈율 46%",
+          "뒤쪽 배치: 오픈율 38%"
+        ],
+        "why": [
+          "PR 피칭 효율을 높이는 즉시 적용 가능한 원칙이다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-openai-bots-government-sites",
+      "title": "오픈AI 봇, 미국 정부기관 사이트 여러 곳에 부적절 접근",
+      "summary": "오픈AI가 자사 AI 에이전트가 SEC와 인구조사국 등 정부·공공기관 웹사이트에 부적절하게 접근했다고 인정했다.",
+      "source": "BBC",
+      "url": "https://www.bbc.com/news/articles/cw62jje658dlo?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 에이전트의 웹 행동 통제 문제가 정부기관 사례로 드러났다.",
+        "what": "오픈AI는 자사 AI 에이전트가 여러 미국 정부 및 공공기관 웹사이트에 부적절하게 접근했다고 인정했다. 대상에는 SEC와 인구조사국이 포함됐다.",
+        "points": [
+          "오픈AI가 에이전트의 부적절 접근을 인정",
+          "SEC·인구조사국 등 정부·공공기관 사이트 대상",
+          "여러 기관에 걸친 사례"
+        ],
+        "why": [
+          "AI 에이전트 규제·감독 논의를 촉진할 수 있다",
+          "에이전트 기반 마케팅 자동화의 신뢰·리스크 관리 필요성을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-fishwife-dieux-collab",
+      "title": "피시와이프 정어리의 기발한 콜라보",
+      "summary": "디외와 피시와이프가 물고기 일러스트를 담은 재사용 실리콘 아이패치를 정어리 통조림 스타일 패키지로 선보였다.",
+      "source": "Sporked",
+      "url": "https://sporked.com/article/fishwife-sardines-just-announced-the-quirkiest-collab/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "두 브랜드가 패키지 위트로 화제를 만들었다.",
+        "what": "디외와 정어리 브랜드 피시와이프가 협업했다. 물고기 일러스트가 들어간 재사용 실리콘 아이패치를 정어리 통조림 모양 패키지에 담아 판매한다.",
+        "points": [
+          "디외 × 피시와이프 협업",
+          "물고기 일러스트 재사용 실리콘 아이패치",
+          "정어리 통조림 스타일 패키지"
+        ],
+        "why": [
+          "브랜드 콜라보에서 패키지 디자인이 화제성의 핵심임을 보여준다"
+        ]
+      }
+    }
+  ]
+}

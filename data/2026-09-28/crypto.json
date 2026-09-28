@@ -1,0 +1,238 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-bitcoin-etf-weekly-inflow",
+      "title": "비트코인 ETF, 주간 24억 달러 유입으로 2026년 순유입 전환",
+      "summary": "미국 현물 비트코인 ETF가 9월 25일로 끝난 주에 24억 달러를 끌어들여 2025년 10월 이후 최대 주간 유입을 기록하며 2026년 누적 흐름을 플러스로 돌렸다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-09-26-bitcoin-etfs-turn-positive-for-2026-with-2-4-billion-weekly-inflow-their-largest-since-october-416944?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "기관 자금이 다시 비트코인 ETF로 돌아오고 있다.",
+        "what": "미국 현물 비트코인 ETF가 9월 25일로 끝난 주에 24억 달러 순유입을 기록했다. 2025년 10월 이후 최대 주간 규모다. 이로써 2026년 연간 순흐름이 플러스로 전환됐다.",
+        "points": [
+          "주간 순유입 24억 달러",
+          "2025년 10월 이후 최대",
+          "2026년 누적 순흐름 플러스 전환"
+        ],
+        "why": [
+          "기관 수요 회복 신호로 해석될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-kalshi-sixth-circuit",
+      "title": "Kalshi, 오하이오·테네시 스포츠 베팅법 항소심 패소",
+      "summary": "제6순회항소법원이 Kalshi의 스포츠 이벤트 계약이 상품거래법상 스왑에 해당함을 입증하지 못했다고 만장일치로 판결했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-09-26-kalshi-loses-appeal-over-ohio-and-tennessee-sports-betting-laws-widening-circuit-split-416937?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "예측시장 스포츠 계약의 연방 관할 주장에 제동이 걸렸다.",
+        "what": "제6순회항소법원이 Kalshi의 스포츠 이벤트 계약이 상품거래법(CEA)상 스왑으로 인정된다는 점을 Kalshi가 보여주지 못했다고 만장일치로 판결했다. 이에 따라 오하이오·테네시 주 스포츠 베팅법 적용을 피하지 못하게 됐다. 기사 URL은 순회법원 간 판단이 엇갈리고 있음을 언급한다.",
+        "points": [
+          "제6순회항소법원 만장일치 판결",
+          "쟁점: 스포츠 계약의 CEA상 스왑 해당 여부",
+          "오하이오·테네시 주법 관련"
+        ],
+        "why": [
+          "순회법원 간 판결 불일치로 대법원 판단 가능성이 커진다",
+          "예측시장 사업 모델의 주별 규제 리스크가 확대된다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-paradigm-solar-compiler",
+      "title": "Paradigm, 어셈블리 없이 Solady를 능가하는 Solidity 컴파일러 Solar 공개",
+      "summary": "Solar는 어셈블리 없는 바이트코드로 Solady의 가스 벤치마크를 넘어서며, 안전하지 않은 패턴을 컴파일러 수준에서 겨냥한다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2103642552364937592.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "인라인 어셈블리 없이도 최고 수준 가스 효율을 내는 컴파일러다.",
+        "what": "Paradigm이 Solidity 컴파일러 Solar를 공개했다. Solar는 어셈블리 없는 바이트코드를 생성하면서도 Solady의 가스 벤치마크를 앞선다. 안전하지 않은 코드 패턴을 컴파일러 단계에서 다룬다.",
+        "points": [
+          "어셈블리 없는 바이트코드 생성",
+          "Solady 가스 벤치마크 상회",
+          "컴파일러 수준에서 위험 패턴 대응"
+        ],
+        "why": [
+          "가스 최적화를 위한 인라인 어셈블리 의존을 줄여 보안 감사 부담을 낮출 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-paxos-paxgy",
+      "title": "Paxos, 수익형 금 토큰 PAXGy 출시",
+      "summary": "PAXGy는 금 표시를 유지하면서 시간이 지나며 PAXG를 추가로 적립하며, 트레저리와 기관 신용 데스크를 겨냥한다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2103112556093034888.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "토큰화된 금에 수익 기능을 붙인 기관용 상품이다.",
+        "what": "Paxos가 수익형 금 토큰 PAXGy를 출시했다. PAXGy는 금 단위를 유지하면서 시간이 지남에 따라 PAXG를 추가로 적립한다. 기업 트레저리와 기관 신용 데스크가 주요 대상이다.",
+        "points": [
+          "금 표시(gold-denominated) 유지",
+          "시간에 따라 PAXG 추가 적립",
+          "트레저리·기관 신용 데스크 대상"
+        ],
+        "why": [
+          "실물자산 토큰화(RWA)가 수익 상품으로 진화하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-aero-merger",
+      "title": "Aero, Aerodrome·Velodrome 통합해 7개 체인 유동성 레이어 구축",
+      "summary": "Aero는 10월 21일 7개 체인에서 동시 출시되며, Aerodrome과 Velodrome은 합쳐서 EVM 현물 거래량의 약 17%를 차지한다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2103526192506966316.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "주요 두 DEX가 합쳐 멀티체인 유동성 허브를 만든다.",
+        "what": "Aerodrome과 Velodrome이 Aero로 통합돼 단일 유동성 레이어가 된다. Aero는 10월 21일 7개 체인에서 동시에 출시된다. 두 DEX는 합산 EVM 현물 거래량의 약 17%를 차지한다.",
+        "points": [
+          "10월 21일 7개 체인 동시 출시",
+          "Aerodrome + Velodrome 통합",
+          "EVM 현물 거래량 약 17% 점유"
+        ],
+        "why": [
+          "DEX 유동성 분산 문제를 통합으로 해결하려는 시도다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-peerdas-one-year",
+      "title": "PeerDAS, 1년 가까이 무사고 운영하며 이더리움 롤업 로드맵 입증",
+      "summary": "이더리움 클라이언트 개발자들이 PeerDAS를 1년 가까이 사고 없이 운영하며 데이터 가용성을 전체 복제와 분리했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2103825405530853710.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "롤업 중심 확장 로드맵의 핵심 기술이 실운영에서 검증됐다.",
+        "what": "이더리움 클라이언트 개발자들이 PeerDAS를 1년 가까이 무사고로 운영했다. PeerDAS는 데이터 가용성을 모든 노드의 전체 복제와 분리한다. 이는 이더리움의 롤업 로드맵을 뒷받침하는 결과다.",
+        "points": [
+          "약 1년 무사고 운영",
+          "데이터 가용성과 전체 복제 분리",
+          "롤업 로드맵 검증"
+        ],
+        "why": [
+          "롤업 데이터 비용 절감과 확장성 향상의 기반이 된다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-kelpdao-sues-layerzero",
+      "title": "KelpDAO, rsETH 브리지 익스플로잇으로 LayerZero 제소",
+      "summary": "KelpDAO가 rsETH 손실을 초래한 브리지 익스플로잇과 관련해 LayerZero를 상대로 소송을 제기하며 이를 개발자 책임 문제로 규정했다.",
+      "source": "X",
+      "url": "https://x.com/KelpDAO/status/2103332910128599327?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "브리지 해킹 손실을 인프라 개발사 책임으로 묻는 소송이다.",
+        "what": "KelpDAO가 rsETH 손실로 이어진 브리지 익스플로잇과 관련해 LayerZero를 제소했다. KelpDAO는 이를 개발자 책임 문제로 규정했다.",
+        "points": [
+          "원고 KelpDAO, 피고 LayerZero",
+          "rsETH 브리지 익스플로잇 손실",
+          "개발자 책임 프레임"
+        ],
+        "why": [
+          "판결에 따라 크로스체인 인프라 제공자의 법적 책임 범위가 달라질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-irs-trump-accounts",
+      "title": "Coinbase, IRS에 'Trump 계좌' 디지털 자산 허용 요청",
+      "summary": "Coinbase가 아동용 세제 혜택 저축 계좌인 Trump Accounts에서 수혜자가 디지털 자산에 투자할 수 있도록 IRS 지침을 요청했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2103601687814627328.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "세제 혜택 계좌에 크립토를 편입하려는 로비다.",
+        "what": "Coinbase가 IRS에 Trump Accounts 수혜자가 디지털 자산에 투자할 수 있도록 허용하는 지침을 요청했다. Trump Accounts는 아동을 위한 세제 혜택 저축 계좌다.",
+        "points": [
+          "대상: 아동용 세제 혜택 저축 계좌",
+          "IRS 지침 요청",
+          "디지털 자산 투자 허용 요구"
+        ],
+        "why": [
+          "허용 시 크립토가 제도권 장기 저축 상품에 편입되는 선례가 된다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-aave-debt-risk",
+      "title": "CoinGecko, Aave 부채 리스크 분포 분석",
+      "summary": "9월 20일 기준 Aave 미상환 부채 대부분이 '매우 안전'과 '안전' 헬스 팩터 구간에 있다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2103937671035052334.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Aave 대출 포지션 대부분이 청산 위험에서 멀다.",
+        "what": "CoinGecko가 Aave의 부채 리스크 분포를 분석했다. 9월 20일 기준 미상환 부채 대부분이 '매우 안전' 및 '안전' 헬스 팩터 구간에 속한다.",
+        "points": [
+          "기준일 9월 20일",
+          "부채 대부분 '매우 안전'·'안전' 구간",
+          "헬스 팩터 기준 분류"
+        ],
+        "why": [
+          "급락장에서 연쇄 청산 위험이 상대적으로 낮음을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-stablecoin-card-spend",
+      "title": "스테이블코인 카드 결제, 3개월 연속 월 10억 달러 돌파",
+      "summary": "9월은 스테이블코인 카드 월 지출이 10억 달러를 넘은 세 번째 연속 달이다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2103823487446007957.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "스테이블코인 실사용 결제가 월 10억 달러 규모로 안착했다.",
+        "what": "스테이블코인 카드 결제액이 9월에도 월 10억 달러를 넘었다. 3개월 연속 10억 달러 이상을 기록한 것이다.",
+        "points": [
+          "3개월 연속 월 10억 달러 이상",
+          "9월 기록 포함",
+          "카드 기반 스테이블코인 지출"
+        ],
+        "why": [
+          "스테이블코인이 투기가 아닌 결제 수단으로 자리잡는 지표다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-disposable-crypto-cards",
+      "title": "크립토 카드에서 일회용·가상 카드 기능은 여전히 드물어",
+      "summary": "여러 웹사이트에서 주 카드를 쓸 때의 위험 노출을 막기 위해 일회용 가상 카드가 표준이 돼야 한다는 지적이다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2103869405530941237.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "크립토 카드의 보안 기능이 기존 핀테크 카드에 뒤처져 있다.",
+        "what": "크립토 카드 중 일회용·가상 카드 기능을 제공하는 경우가 드물다는 분석이다. 주 카드를 여러 웹사이트에서 쓰면 위험 노출이 커지므로 일회용 가상 카드가 표준이 돼야 한다고 주장한다.",
+        "points": [
+          "일회용·가상 카드 지원은 소수",
+          "주 카드 반복 사용 시 노출 위험",
+          "표준 기능화 필요 주장"
+        ],
+        "why": [
+          "카드 결제 확대에 맞춰 사용자 보호 기능 경쟁이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-pig-butchering-16m",
+      "title": "1,600만 달러 크립토 '돼지 도살' 사기 연루자 기소",
+      "summary": "미국 당국이 한 피해자가 1,600만 달러 상당의 크립토를 송금한 사건과 관련해 베트남 국적 Trung Nguyen Van을 자금세탁 혐의로 기소했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-09-25-man-charged-in-16-million-crypto-massive-pig-butchering-scam-416895?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "단일 피해자 1,600만 달러 규모의 돼지 도살 사기 수사다.",
+        "what": "미국 당국이 베트남 국적의 Trung Nguyen Van을 자금세탁 혐의로 기소했다. 사건은 한 피해자가 1,600만 달러 상당의 크립토를 송금한 '돼지 도살(pig butchering)' 사기와 관련된다.",
+        "points": [
+          "피의자: 베트남 국적 Trung Nguyen Van",
+          "혐의: 자금세탁",
+          "피해자 1명이 1,600만 달러 송금"
+        ],
+        "why": [
+          "로맨스·투자 사기형 크립토 범죄에 대한 국제 수사가 이어지고 있다"
+        ]
+      }
+    }
+  ]
+}

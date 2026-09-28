@@ -1,0 +1,231 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💳",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-revolut-pay-with-smile",
+      "title": "Revolut, 얼굴 인식 결제 \"Pay with Smile\" 시범 도입",
+      "summary": "Revolut 고객이 런던 Kiss the Hippo 카페 3곳에서 얼굴 인식으로 결제할 수 있으며, 가맹점 수수료는 0%다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48466/revolut-trials-pay-with-smile?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Revolut이 매장 내 얼굴 인식 결제를 수수료 0%로 시험한다.",
+        "what": "Revolut이 매장 내 얼굴 인식 체크아웃 Revolut Pay with Smile을 시범 운영한다. 블룸즈버리·첼시·소호의 Kiss the Hippo 카페 3곳에서 고객이 얼굴을 비추는 것만으로 결제할 수 있다. 가맹점은 모든 거래에서 처리 수수료 0%를 적용받는다.",
+        "points": [
+          "런던 카페 3곳에서 시범 운영",
+          "얼굴 인식만으로 결제",
+          "가맹점 수수료 0%"
+        ],
+        "why": [
+          "생체 결제로 카드 네트워크를 우회하는 오프라인 결제 경쟁",
+          "가맹점 수수료 0%는 기존 카드 수수료 구조에 대한 압박"
+        ]
+      }
+    },
+    {
+      "id": "fintech-monzo-nubank-sale-talks",
+      "title": "Monzo, 브라질 Nubank에 최대 100억 파운드 매각 협상",
+      "summary": "Monzo가 Nu Holdings와 80억~100억 파운드 규모 매각을 초기 논의 중이며, 성사 시 Nubank는 영국·유럽 거점을 즉시 확보한다.",
+      "source": "Sky News",
+      "url": "https://news.sky.com/story/digital-bank-monzo-in-talks-about-10bn-tie-up-with-brazil-s-nubank-13591770?utm_source=tldrfintech",
+      "report": {
+        "tldr": "성사되면 Monzo의 단독 IPO 경로는 사실상 멈춘다.",
+        "what": "Monzo가 Nubank 모회사 Nu Holdings와 80억~100억 파운드 규모 매각을 초기 단계에서 논의하고 있다. Morgan Stanley와 Qatalyst가 자문하며, Monzo는 유럽 확장을 위한 신규 투자 유치도 함께 검토 중이다. 거래가 성사되면 Nubank는 Monzo의 1,600만 고객과 연매출 17억 파운드를 통해 영국·유럽 발판을 얻는다.",
+        "points": [
+          "매각 규모 80억~100억 파운드",
+          "Morgan Stanley·Qatalyst 자문",
+          "Monzo 고객 1,600만, 연매출 17억 파운드",
+          "신규 투자 라운드도 병행 검토"
+        ],
+        "why": [
+          "네오뱅크 업계 최대급 M&A가 될 수 있음",
+          "Monzo의 단기 단독 IPO 가능성 약화",
+          "Nubank의 남미 밖 확장 본격화"
+        ]
+      }
+    },
+    {
+      "id": "fintech-ach-overtakes-checks-b2b",
+      "title": "미국 B2B 결제, ACH가 수표를 제치고 1위",
+      "summary": "ACH가 거래 건수 기준 미국 B2B 최다 결제 수단이 됐다(2015년 25%→2024년 41%). 수표는 32%에서 13%로 감소했다.",
+      "source": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/ach-use-rises-for-b2b-payments/831270/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "기업 간 일상 결제가 수표에서 전자 레일로 꾸준히 이동하고 있다.",
+        "what": "ACH가 거래 건수 기준으로 수표를 제치고 미국 B2B 결제 1위가 됐다. ACH 비중은 2015년 25%에서 2024년 41%로, 수표는 32%에서 13%로 바뀌었다. ACH 거래액은 약 70조 달러로 거의 두 배가 됐지만 금액 기준으로는 여전히 전신송금(약 1경 달러)이 압도적이다.",
+        "points": [
+          "ACH 비중 25%→41%",
+          "수표 비중 32%→13%",
+          "ACH 거래액 약 70조 달러로 거의 2배",
+          "금액 기준은 전신송금이 약 1경 달러로 우위"
+        ],
+        "why": [
+          "B2B 결제 자동화·AP 솔루션 시장의 구조적 성장 근거",
+          "수표는 줄었지만 여전히 널리 쓰여 전환 여지가 큼"
+        ]
+      }
+    },
+    {
+      "id": "fintech-agent-wars-amazon-vs-muse",
+      "title": "에이전트 전쟁: Amazon vs. Meta Muse",
+      "summary": "Simon Taylor는 Amazon의 Meta Muse 에이전트 차단을 고객 소유권·수수료·책임을 둘러싼 초기 전투로 보며, \"Know Your Agent\" 표준이 핵심 인프라가 될 것이라 전망한다.",
+      "source": "Fintech Brain Food",
+      "url": "https://www.fintechbrainfood.com/p/agent-wars?utm_source=tldrfintech",
+      "report": {
+        "tldr": "에이전트 커머스의 승부처는 에이전트 신원·권한·책임을 정하는 신뢰 계층이다.",
+        "what": "Simon Taylor는 Amazon이 Meta의 Muse 에이전트를 차단한 것을 AI 에이전트 거래를 둘러싼 초기 전쟁으로 해석한다. 쟁점은 누가 고객을 소유하고, 커머스 수수료를 가져가며, 에이전트 거래의 책임을 지느냐다. 그는 에이전트를 인증하고 위임 권한과 책임을 정의하는 \"Know Your Agent\" 표준이 핵심 인프라가 될 것으로 본다.",
+        "points": [
+          "Amazon의 Meta Muse 에이전트 차단",
+          "고객 소유권·수수료·책임이 쟁점",
+          "KYA(Know Your Agent) 표준 부상",
+          "가맹점·지갑·카드사·플랫폼이 신뢰 계층 경쟁"
+        ],
+        "why": [
+          "에이전트 결제 시대 결제 인프라의 새 병목 지점을 제시",
+          "카드 네트워크와 빅테크 간 주도권 다툼 예고"
+        ]
+      }
+    },
+    {
+      "id": "fintech-uk-tokenised-deposit-pilot",
+      "title": "영국 은행들, 토큰화 예금 첫 실거래 완료",
+      "summary": "UK Finance 주도 GBTD 이니셔티브를 통해 Barclays·HSBC UK·Lloyds 등 영국 은행들이 토큰화 파운드 예금으로 첫 고객 거래를 완료했다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48467/uk-banks-pilot-tokenised-deposit-transactions?utm_source=tldrfintech",
+      "report": {
+        "tldr": "영국 주요 은행들이 공동으로 토큰화 예금 실거래에 성공했다.",
+        "what": "영국 은행들이 협력해 토큰화된 파운드 예금을 이용한 첫 실제 고객 거래를 완료했다. UK Finance가 주관하는 Great British Tokenised Deposit(GBTD) 이니셔티브를 통해 이뤄졌다. Barclays, HSBC UK, Lloyds Banking Group, Monzo, Nationwide, NatWest, Santander가 참여한다.",
+        "points": [
+          "GBTD 이니셔티브, UK Finance 주관",
+          "7개 은행·금융사 참여",
+          "토큰화 파운드 예금 첫 라이브 고객 거래"
+        ],
+        "why": [
+          "스테이블코인에 대한 은행권의 대안 모델이 실거래 단계 진입",
+          "영국 결제 인프라 현대화의 신호"
+        ]
+      }
+    },
+    {
+      "id": "fintech-cleverbridge-passkey-agentic-purchase",
+      "title": "Cleverbridge, 프랑스 첫 패스키 인증 에이전트 결제 완료",
+      "summary": "Cleverbridge가 Visa·Revolut과의 파일럿에서 Revolut 카드로 프랑스 최초의 패스키 인증 에이전트 결제를 실제 체크아웃에서 완료했다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111023/cleverbridge-completes-frances-first-passkey-authenticated-agentic-purchase-on-a-revolut-card?utm_source=tldrfintech",
+      "report": {
+        "tldr": "에이전트 결제에 패스키 인증을 붙인 실거래 사례가 나왔다.",
+        "what": "소프트웨어·기술 기업용 글로벌 커머스 플랫폼 Cleverbridge가 프랑스 최초의 패스키 인증 에이전트 결제를 완료했다. 이달 초 발표된 Visa·Revolut과의 파일럿의 일환이다. 실제 라이브 체크아웃에서 Revolut 카드로 진행됐다.",
+        "points": [
+          "Visa·Revolut 공동 파일럿",
+          "패스키 인증 + AI 에이전트 결제",
+          "라이브 체크아웃 실거래"
+        ],
+        "why": [
+          "에이전트 결제의 인증·책임 문제에 대한 실무적 해법 시도",
+          "Agent Wars 논의의 KYA 흐름과 맞닿음"
+        ]
+      }
+    },
+    {
+      "id": "fintech-sec-staked-eth-receipt-tokens",
+      "title": "SEC, 일부 스테이킹 ETH 영수증 토큰은 증권 아니라고 명확화",
+      "summary": "SEC 스태프는 ETH 등 비증권 자산에 연동된 리퀴드 스테이킹 영수증 토큰이 단순 소유권만 나타낼 경우 일반적으로 증권이 아니라고 밝혔다. 단 구속력 없는 스태프 지침이다.",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/crypto/articles/sec-clarifies-rules-staked-ethereum-062516954.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "리퀴드 스테이킹 토큰에 대한 규제 불확실성이 줄었지만 법적 구속력은 없다.",
+        "what": "SEC 스태프가 비증권 크립토 자산에 연동된 리퀴드 스테이킹 영수증 토큰은 일반적으로 증권이 아니라고 밝혔다. 조건은 토큰이 기초 스테이킹 자산의 소유권만 나타내고 별도의 권리·수익·경영 약속을 추가하지 않는 것이다. 이는 기존 리퀴드 스테이킹 입장을 확장한 것이지만 스태프 지침이라 향후 규칙 제정이나 입법, 정권 교체로 바뀔 수 있다.",
+        "points": [
+          "ETH 등 비증권 자산 기반 영수증 토큰 대상",
+          "별도 권리·수익 약속이 없어야 함",
+          "구속력 없는 스태프 지침"
+        ],
+        "why": [
+          "리퀴드 스테이킹 상품 출시·상장의 규제 부담 완화",
+          "향후 정책 변화에 따라 뒤집힐 수 있는 리스크 잔존"
+        ]
+      }
+    },
+    {
+      "id": "fintech-numeral-100m-series-c",
+      "title": "Numeral, AI 세무 컴플라이언스로 1억 달러 시리즈 C 유치",
+      "summary": "Numeral이 Insight Partners 주도로 1억 달러 시리즈 C를 유치해 누적 1억 5,700만 달러를 확보했으며, 거래량은 전년 대비 327% 증가했다.",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20260923666467/en/Numeral-Raises-%24100-Million-Series-C-to-Expand-AI-Powered-Tax-Compliance-Across-Industries?utm_source=tldrfintech",
+      "report": {
+        "tldr": "AI 판매세 컴플라이언스가 엔드투엔드 세무 인프라로 확장 중이다.",
+        "what": "Numeral이 Insight Partners가 주도한 1억 달러 규모 시리즈 C를 유치했다. 누적 투자액은 1억 5,700만 달러이며, 소프트웨어를 넘어 제조·유통·도매로 AI 판매세 컴플라이언스 플랫폼을 확장한다. 거래량은 전년 대비 327% 늘었고 90개국 이상의 VAT·GST도 지원한다.",
+        "points": [
+          "시리즈 C 1억 달러, Insight Partners 주도",
+          "누적 1억 5,700만 달러",
+          "거래량 전년 대비 327% 증가",
+          "넥서스 모니터링부터 신고·납부까지 엔드투엔드"
+        ],
+        "why": [
+          "Avalara 등 기존 강자가 있는 세무 SW 시장에 AI 네이티브 도전자 부상",
+          "백오피스 컴플라이언스 자동화 투자 수요 확인"
+        ]
+      }
+    },
+    {
+      "id": "fintech-tools-getting-better-are-we",
+      "title": "도구는 좋아지는데, 우리는?",
+      "summary": "제품 작업은 산출물과 학습을 함께 만들지만, AI는 산출물만 가속하고 학습의 복리 효과는 놓치게 할 위험이 있다.",
+      "source": "X (Karri Saarinen)",
+      "url": "https://x.com/karrisaarinen/status/2103512094981419349?utm_source=tldrfintech",
+      "report": {
+        "tldr": "AI로 빨라진 만큼 배우는 속도도 따라가야 한다.",
+        "what": "Karri Saarinen은 제품 작업이 산출물과 학습이라는 두 가지를 만든다고 지적한다. AI는 산출물 생산을 가속하지만 학습이 쌓이는 효과는 따라오지 않을 수 있다. 도구 발전이 곧 팀 역량 발전은 아니라는 문제 제기다.",
+        "points": [
+          "제품 작업 = 산출물 + 학습",
+          "AI는 산출물만 가속할 위험",
+          "학습의 복리 효과 유지 필요"
+        ],
+        "why": [
+          "AI 도입 팀이 역량 축적을 어떻게 관리할지에 대한 관점 제공"
+        ]
+      }
+    },
+    {
+      "id": "fintech-ramp-bill-pay-broadway-musical",
+      "title": "Ramp, 청구서 결제를 하룻밤 브로드웨이 뮤지컬로",
+      "summary": "Ramp가 9월 25일 Billy Porter·Billy Zane·Jessica Vosk 주연의 \"Bill Pay The Musical\"을 브로드웨이에서 하룻밤 공연하며 AP 제품을 홍보했다.",
+      "source": "People",
+      "url": "https://people.com/billy-porter-and-billy-zane-to-lead-broadway-musical-about-paying-bills-12114184?utm_source=tldrfintech",
+      "report": {
+        "tldr": "지루한 매입채무 제품을 브로드웨이 뮤지컬로 마케팅한 파격 행보.",
+        "what": "Ramp가 9월 25일 하룻밤 동안 브로드웨이에서 \"Bill Pay The Musical\"을 무대에 올렸다. Billy Porter, Billy Zane, Jessica Vosk가 출연했다. 자사 매입채무(AP) 제품을 알리기 위한 대형 프로모션이다.",
+        "points": [
+          "9월 25일 하룻밤 공연",
+          "Billy Porter·Billy Zane·Jessica Vosk 출연",
+          "AP 제품 홍보 목적"
+        ],
+        "why": [
+          "B2B 핀테크 경쟁이 브랜드 마케팅 전쟁으로 번지는 모습"
+        ]
+      }
+    },
+    {
+      "id": "fintech-bnpl-regulation-data-credit-decisioning",
+      "title": "BNPL 규제: 신용 심사에서 커지는 데이터의 역할",
+      "summary": "기존 BNPL은 대출을 신용 결정이 아닌 결제 선택처럼 느끼게 했으며, 규제 강화로 데이터 기반 신용 심사가 중요해지고 있다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/blogposting/32973/bnpl-regulation-the-growing-role-of-data-in-credit-decisioning?utm_source=tldrfintech",
+      "report": {
+        "tldr": "BNPL이 \"결제 옵션\"에서 규제받는 \"신용 상품\"으로 재정의되고 있다.",
+        "what": "기존 BNPL 모델은 대출을 신용 결정이 아니라 결제 방식 선택처럼 느끼게 만들었다는 지적이다. 규제가 도입되면서 BNPL 제공사는 신용 심사를 강화해야 한다. 이 과정에서 데이터 활용의 역할이 커지고 있다.",
+        "points": [
+          "BNPL은 결제 선택처럼 인식돼 왔음",
+          "규제로 신용 심사 요구 강화",
+          "데이터 기반 심사 중요성 확대"
+        ],
+        "why": [
+          "BNPL 사업자의 심사·컴플라이언스 비용 증가 예상"
+        ]
+      }
+    }
+  ]
+}

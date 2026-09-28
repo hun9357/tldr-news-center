@@ -1,0 +1,251 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-qualcomm-sound-elite-gen2",
+      "title": "퀄컴 AI 이어버드 칩, 폰 없이 클라우드 연결",
+      "summary": "퀄컴이 AI 에이전트용 첫 오디오 칩 Snapdragon Sound Elite Gen 2를 발표했다. 저전력 Wi-Fi 6E로 이어버드가 폰 없이 클라우드에 접속한다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/snapdragon-sound-elite-gen-2-ai-glasses-health-alliance?utm_source=tldrhardware",
+      "report": {
+        "tldr": "이어버드가 스마트폰 없이 AI 에이전트 단말이 되는 길이 열렸다.",
+        "what": "퀄컴이 AI 에이전트용으로 설계한 첫 오디오 칩 Snapdragon Sound Elite Gen 2를 공개했다. 저전력 Wi-Fi 6E를 탑재해 이어버드가 폰 없이 클라우드 서비스에 접속할 수 있다. Snapdragon S7 Gen 1 대비 AI 성능은 최대 2배, 패키지 크기는 최대 30% 작아졌다.",
+        "points": [
+          "저전력 Wi-Fi 6E로 폰 없이 클라우드 접속",
+          "S7 Gen 1 대비 AI 성능 최대 2배",
+          "패키지 최대 30% 소형화",
+          "Cleer, 카메라 탑재 이어버드 콘셉트 공개"
+        ],
+        "why": [
+          "웨어러블 AI 에이전트의 폼팩터가 폰 의존에서 벗어나기 시작",
+          "오디오 칩이 AI 엣지 컴퓨팅 경쟁의 새 전선"
+        ]
+      }
+    },
+    {
+      "id": "hardware-apple-qualcomm-patent-renewal",
+      "title": "애플·퀄컴, 글로벌 특허 라이선스 계약 갱신",
+      "summary": "2027년 만료 예정이던 애플과 퀄컴의 특허 라이선스 계약이 연장됐고, 새 계약은 4월 1일부터 발효된다. 기간은 공개되지 않았다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/09/24/apple-and-qualcomm-renew-global-patent-licensing-agreement/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "애플은 자체 모뎀 전환을 추진하면서도 퀄컴 특허 계약은 이어간다.",
+        "what": "퀄컴과 애플이 2027년 만료 예정이던 글로벌 특허 라이선스 계약을 연장했다. 새 계약은 4월 1일부터 효력이 생기며, 두 회사는 계약 기간을 밝히지 않았다. 애플은 모뎀 계획에 대해 공식 언급하지 않았지만 결국 퀄컴 모뎀에서 완전히 벗어날 것으로 예상된다.",
+        "points": [
+          "2027년 만료 예정 계약 연장",
+          "4월 1일 발효",
+          "계약 기간 비공개",
+          "애플의 퀄컴 모뎀 탈피는 계속 예상"
+        ],
+        "why": [
+          "모뎀 공급 관계가 끝나도 특허 라이선스는 별도로 유지된다는 신호",
+          "퀄컴 라이선스 매출의 안정성에 영향"
+        ]
+      }
+    },
+    {
+      "id": "hardware-apple-taction-verdict",
+      "title": "미 배심원, 애플에 햅틱 특허 침해로 57억 달러 배상 평결",
+      "summary": "애플의 탭틱 엔진이 소형 햅틱 업체 Taction의 특허 2건을 침해했다는 평결로, 미국 역사상 최대 규모 특허 배상액이다. 애플은 항소할 방침이다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/apple-taction-5-7bn-haptics-patent-verdict?utm_source=tldrhardware",
+      "report": {
+        "tldr": "미국 특허 소송 사상 최대 배상 평결이 애플에 떨어졌다.",
+        "what": "미국 배심원단이 애플에 소형 햅틱 업체 Taction Technology에 57억 달러 이상을 지급하라고 평결했다. 애플의 탭틱 엔진이 Taction의 특허 2건을 침해했지만 고의는 아니었다고 판단했다. 애플은 평결을 거부하고 항소하겠다고 밝혔다.",
+        "points": [
+          "배상액 57억 달러 이상, 미국 특허 소송 사상 최대",
+          "탭틱 엔진이 특허 2건 침해",
+          "고의 침해는 불인정",
+          "애플 항소 예정"
+        ],
+        "why": [
+          "하드웨어 핵심 부품의 특허 리스크 규모를 보여주는 사례",
+          "항소 결과에 따라 햅틱 특허 라이선스 시장이 달라질 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "hardware-china-glass-substrate",
+      "title": "유리기판 상용화, 중국이 한국보다 빠르다",
+      "summary": "중국 기업들은 생산 라인을 먼저 깔고 제품을 만든 뒤 고객 평가를 받는 방식으로 유리기판 상용화를 앞당기고 있다. 한국은 공정별 검증 후 투자하느라 속도가 느리다.",
+      "source": "The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14192&utm_source=tldrhardware",
+      "report": {
+        "tldr": "선투자·후검증 전략으로 중국이 유리기판 상용화에서 앞서가고 있다.",
+        "what": "중국 기업들이 유리기판 생산 라인을 먼저 구축하고 제품 생산과 고객 인증을 서두르고 있다. 한국 기업들은 투자 결정 전에 공정마다 검증하려 해 라인 구축에 시간이 더 걸린다. 중국은 디스플레이, PCB, 장비 공급사를 아우르는 자체 생태계도 갖췄다.",
+        "points": [
+          "중국: 장비 선구축 → 제품 생산 → 고객 평가",
+          "한국: 공정별 검증 후 투자 결정",
+          "중국은 디스플레이·PCB·장비 자체 생태계 보유"
+        ],
+        "why": [
+          "차세대 반도체 패키징 소재에서 한국의 주도권이 위협받을 수 있음",
+          "신소재 상용화에서 속도 대 신중함의 전략 차이"
+        ]
+      }
+    },
+    {
+      "id": "hardware-boston-dynamics-hyundai-metaplant",
+      "title": "보스턴 다이내믹스, 현대차 메타플랜트에서 로봇 테스트 시작",
+      "summary": "보스턴 다이내믹스가 현대차그룹 메타플랜트 아메리카에 로보틱스 센터를 열고 아틀라스 휴머노이드의 공장 투입을 시험하고 있다. 2030년 부품 조립 투입이 목표다.",
+      "source": "Assembly Magazine",
+      "url": "https://www.assemblymag.com/articles/100432-boston-dynamics-begins-robotics-testing-at-hyundai-metaplant?utm_source=tldrhardware",
+      "report": {
+        "tldr": "휴머노이드가 자동차 공장 실전 투입을 위한 테스트 단계에 들어섰다.",
+        "what": "보스턴 다이내믹스가 현대차그룹 메타플랜트 아메리카에 새 로보틱스 센터를 열었다. 6월 파일럿 운영을 시작해 최근 정식 운영으로 전환했다. 이 센터는 아틀라스 휴머노이드를 현대차 공장 전반에 통합하기 위한 테스트베드이자 교육 센터다.",
+        "points": [
+          "메타플랜트 아메리카에 로보틱스 센터 개소",
+          "6월 파일럿 후 정식 운영 전환",
+          "아틀라스 휴머노이드 통합 테스트베드",
+          "2030년 부품 조립 투입 목표"
+        ],
+        "why": [
+          "휴머노이드 로봇의 제조 현장 도입 로드맵이 구체화",
+          "현대차그룹의 로봇 수직계열화 전략"
+        ]
+      }
+    },
+    {
+      "id": "hardware-galileo-anti-spoofing",
+      "title": "갈릴레오 암호화로 위성 스푸핑 막기",
+      "summary": "유럽 갈릴레오 GNSS의 암호학적 위치 인증이 스푸핑 중에도 수신기가 안정적인 위치 고정을 유지할 수 있음을 테스트에서 보였다.",
+      "source": "Hackaday",
+      "url": "https://hackaday.com/2026/09/27/defeating-satellite-spoofing-with-galileos-encryption/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "암호화된 위성 신호로 GNSS 스푸핑을 실제로 막을 수 있다.",
+        "what": "위성 항법 시스템은 재밍부터 정교한 스푸핑까지 다양한 공격에 취약하다. 유럽의 갈릴레오 GNSS는 암호학적으로 보호된 위치 정보를 제공해 스푸핑을 막으려 한다. 방식은 복잡하지만 테스트 결과 스푸핑 중에도 수신기가 안정적으로 위치를 고정했다.",
+        "points": [
+          "GNSS는 재밍·스푸핑에 취약",
+          "갈릴레오는 암호학적으로 보호된 위치 제공",
+          "스푸핑 상황에서도 안정적 고정 확인",
+          "원리상 다른 GNSS로 확장 가능"
+        ],
+        "why": [
+          "항공·해운·드론 등 위치 의존 시스템의 보안 강화 방안",
+          "전파 교란이 늘어나는 상황에서 실용적 방어책"
+        ]
+      }
+    },
+    {
+      "id": "hardware-qec-classical-loop",
+      "title": "양자 오류 정정의 고전 루프는 공급된다, 어려운 건 여전히 큐비트",
+      "summary": "양자 오류 정정에 필요한 고전 제어 스택을 여러 업체가 공급하게 됐지만, 핵심 난제는 여전히 큐비트라는 현황 분석이다.",
+      "source": "Post-Quantum",
+      "url": "https://postquantum.com/quantum-computing/qec-classical-stack-infrastructure/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "QEC 주변 인프라는 성숙하고 있지만 병목은 큐비트다.",
+        "what": "양자 컴퓨팅의 현재 상황을 여러 업체와 그 진척도를 중심으로 살핀다. 제목처럼 양자 오류 정정의 고전 제어 루프는 이제 여러 공급업체가 제공하지만, 큐비트 자체는 여전히 가장 어려운 부분이다.",
+        "points": [
+          "QEC 고전 제어 스택 공급업체 다수 등장",
+          "업체별 진척 비교",
+          "큐비트 품질이 여전히 병목"
+        ],
+        "why": [
+          "양자 컴퓨팅 투자·로드맵 평가 시 큐비트 진척을 핵심 지표로 봐야 함"
+        ]
+      }
+    },
+    {
+      "id": "hardware-way-predictor-caches",
+      "title": "숨은 캐시: 웨이 예측기 편",
+      "summary": "칩 설계자가 웨이 예측기를 두는 이유와 작동 방식, 오동작 사례와 탐지법, 우회책을 설명한다.",
+      "source": "Parallel Programmer",
+      "url": "https://parallelprogrammer.substack.com/p/covert-caches-the-way-predictor-edition?utm_source=tldrhardware",
+      "report": {
+        "tldr": "캐시는 용량만이 아니라 웨이 예측 같은 숨은 구조가 성능을 좌우한다.",
+        "what": "캐시는 보통 용량 관점으로만 생각되고 대부분은 그걸로 충분하다. 이 글은 칩 설계자가 웨이 예측기를 도입하는 이유와 동작 방식을 다룬다. 하드웨어가 오동작하는 경우와 이를 탐지하는 방법, 우회책도 설명한다.",
+        "points": [
+          "웨이 예측기 도입 동기",
+          "동작 원리",
+          "오동작 조건과 탐지 방법",
+          "우회책"
+        ],
+        "why": [
+          "저수준 성능 튜닝에서 캐시 미세 구조의 영향을 이해하는 데 도움"
+        ]
+      }
+    },
+    {
+      "id": "hardware-edge-ai-gpu-resale",
+      "title": "엣지 AI가 GPU 재판매 가치에 미칠 영향",
+      "summary": "폰과 노트북에서의 추론 성능이 좋아지면 데이터센터 GPU의 잔존가치를 받치던 저가 추론 수요가 약해질 수 있다는 분석이다.",
+      "source": "Dave Friedman",
+      "url": "https://davefriedman.substack.com/p/what-edge-ai-could-do-to-gpu-resale?utm_source=tldrhardware",
+      "report": {
+        "tldr": "엣지 추론이 GPU 잔존가치의 바닥을 흔들 수 있다.",
+        "what": "GPU의 가치 가정이 무너지려면 다음 소유자가 기대하던 사업의 일부만 사라져도 충분하다. 폰과 노트북에서의 추론 성능 향상이 바로 그 사업을 위협한다. 로컬 실행이 품질, 지연, 메모리, 배터리 요건을 충족하면 사용자에게 데이터센터 연산이 필요 없어질 수 있다.",
+        "points": [
+          "GPU 잔존가치는 2차 수요 가정에 의존",
+          "엣지 추론이 저가 추론 수요를 잠식",
+          "로컬 실행의 품질·지연·메모리·배터리 요건 충족이 관건"
+        ],
+        "why": [
+          "GPU 담보 금융과 데이터센터 감가상각 가정에 리스크",
+          "AI 인프라 투자 수익성 평가에 새 변수"
+        ]
+      }
+    },
+    {
+      "id": "hardware-linux-10s-kernel-compile",
+      "title": "리눅스 커널 컴파일 10초 시대 눈앞",
+      "summary": "AI 보조 패치로 램디스크 없이 빌드 시간이 3분의 1 가까이 줄면서, 커널 컴파일 10초가 현실화되고 있다.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/software/linux/linux-enthusiasts-see-10-second-kernel-compilation-times-on-the-horizon-ai-assisted-patches-cut-build-times-by-nearly-a-third-without-a-ramdisk?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 보조 패치가 커널 빌드 시간을 크게 줄였다.",
+        "what": "OS 커널 컴파일 시간은 지난 20년간 대표적인 벤치마크였다. 기사에 따르면 AI 보조 패치로 램디스크 없이도 빌드 시간이 거의 3분의 1 줄었고, 10초 컴파일이 가시권에 들어왔다.",
+        "points": [
+          "커널 컴파일은 20년간 대표 벤치마크",
+          "AI 보조 패치로 빌드 시간 약 3분의 1 단축",
+          "램디스크 없이 달성",
+          "10초 컴파일 가시권"
+        ],
+        "why": [
+          "빌드 시스템 최적화에서도 AI 보조 개발 효과가 나타남"
+        ]
+      }
+    },
+    {
+      "id": "hardware-sk-hynix-tsmc-oip",
+      "title": "SK하이닉스, TSMC OIP에서 차세대 메모리 포트폴리오 공개",
+      "summary": "SK하이닉스가 TSMC OIP 컨퍼런스에서 차세대 메모리 기술과 제품군을 선보이고 TSMC 등 핵심 파트너와의 협력을 확대했다.",
+      "source": "SK hynix",
+      "url": "https://news.skhynix.com/en/tsmc-oip-conference-2026/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 성장의 이면에는 메모리가 있다는 메시지를 TSMC 무대에서 강조했다.",
+        "what": "SK하이닉스가 TSMC OIP 컨퍼런스에서 차세대 메모리 포트폴리오를 공개했다. 기술 역량과 제품 라인업을 보여주는 데 집중했고, TSMC를 비롯한 핵심 파트너와의 협력 관계를 구체화하고 확대했다.",
+        "points": [
+          "TSMC OIP 컨퍼런스 참가",
+          "차세대 메모리 제품군 공개",
+          "TSMC 등 파트너 협력 확대"
+        ],
+        "why": [
+          "HBM 등 AI 메모리에서 파운드리·메모리 협력이 핵심 경쟁력"
+        ]
+      }
+    },
+    {
+      "id": "hardware-qualcomm-1bit-wearables",
+      "title": "퀄컴, 스냅드래곤 웨어러블 플랫폼에 1비트 AI 모델 지원",
+      "summary": "퀄컴이 Snapdragon AR1·AR1+와 Sound Elite Gen 2에서 1비트 AI 모델을 지원하는 아키텍처를 도입했다.",
+      "source": "The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14188&utm_source=tldrhardware",
+      "report": {
+        "tldr": "초저비트 모델로 웨어러블 온디바이스 AI를 밀어붙인다.",
+        "what": "퀄컴이 1비트 AI 모델을 지원하는 아키텍처를 Snapdragon AR1과 AR1+에 도입했다. 이어버드용 칩 Snapdragon Sound Elite Gen 2에도 적용된다.",
+        "points": [
+          "1비트 AI 모델 지원 아키텍처",
+          "Snapdragon AR1·AR1+ 적용",
+          "Sound Elite Gen 2에도 적용"
+        ],
+        "why": [
+          "전력·메모리 제약이 큰 안경·이어버드에서 온디바이스 AI 확대"
+        ]
+      }
+    }
+  ]
+}
