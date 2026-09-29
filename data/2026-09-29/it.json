@@ -1,0 +1,207 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-supabase-16k-databases-exposed",
+      "title": "수파베이스 DB 1만6천여 개, 개인정보·비밀번호·토큰 노출",
+      "summary": "UpGuard가 접근 제어 설정 오류로 테이블이 읽히는 Supabase 데이터베이스 1만6천여 개를 찾았고 절반 이상이 개인정보 노출 가능성이 있다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/misconfigured-supabase-apps-expose-data-in-over-16-000-databases/?utm_source=tldrit",
+      "report": {
+        "tldr": "설정 오류 하나로 대규모 데이터가 공개 상태가 됐다.",
+        "what": "UpGuard가 읽기 가능한 테이블을 노출한 Supabase 데이터베이스를 1만6천 개 넘게 발견했다. 원인은 잘못 설정된 접근 제어이며, 절반 이상은 개인정보를 노출했을 가능성이 있다.",
+        "points": [
+          "1만6천 개 이상 DB 노출",
+          "원인은 접근 제어 설정 오류",
+          "절반 이상 개인정보 노출 가능성",
+          "비밀번호·인증 토큰도 포함"
+        ],
+        "why": [
+          "백엔드 서비스의 기본 접근 제어 설정 누락이 대규모 노출로 이어진다",
+          "Supabase 사용 조직은 행 수준 보안(RLS) 설정을 점검해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "it-microsoft-kb5002907-paused",
+      "title": "MS, 오피스 라이선스 해제 문제로 KB5002907 업데이트 중단",
+      "summary": "선택적 업데이트 KB5002907이 일부 오피스 2016/2019를 비인증 상태로 만들어 배포가 중단됐고, MS는 재활성화나 재설치를 권고했다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-kb5002907-update-paused-after-office-license-deactivations/?utm_source=tldrit",
+      "report": {
+        "tldr": "업데이트가 오피스 라이선스를 풀어버려 배포가 멈췄다.",
+        "what": "마이크로소프트가 선택적 업데이트 KB5002907을 일시 중단했다. 일부 Office 2016/2019 설치본이 라이선스 해제 상태가 됐기 때문이며, 복구 방법으로 재활성화 또는 재설치를 안내했다.",
+        "points": [
+          "선택적 업데이트 KB5002907",
+          "Office 2016/2019 라이선스 해제",
+          "복구는 재활성화 또는 재설치"
+        ],
+        "why": [
+          "IT 관리자는 해당 업데이트 배포를 보류·확인해야 한다",
+          "구버전 오피스 유지 비용이 커지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-it-managers-fail-expectations",
+      "title": "IT 관리자가 기대에 못 미치는 7가지 이유",
+      "summary": "관리 교육 없이 뛰어난 기술자를 승진시키는 관행이 성과를 해친다며, 책임 정의·코칭·전문가 승진 트랙을 제안한다.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/3587239/10-reasons-it-managers-fail-to-exceed-your-expectations.html?utm_source=tldrit",
+      "report": {
+        "tldr": "좋은 엔지니어가 자동으로 좋은 관리자가 되지는 않는다.",
+        "what": "CIO.com은 관리 교육 없이 우수한 기술자를 관리자로 승진시키는 것이 성과를 떨어뜨린다고 분석한다. CIO에게 소유권 정의, 코칭 제공, 전문가용 별도 승진 경로 마련을 권한다.",
+        "points": [
+          "관리 교육 없는 승진이 문제",
+          "명확한 소유권(책임) 정의",
+          "코칭 제공",
+          "전문가 전용 승진 트랙"
+        ],
+        "why": [
+          "IT 조직 리더십 파이프라인 설계에 참고할 만하다"
+        ]
+      }
+    },
+    {
+      "id": "it-atlassian-saaspocalypse-decoder",
+      "title": "\"SaaS 종말은 없었다\" 아틀라시안 CEO 캐넌브룩스 인터뷰",
+      "summary": "아틀라시안 CEO가 IT와 AI 활성화를 인사 리더십 아래 통합한 경험을 말하며, AI가 SaaS 워크플로를 바꾸지만 구조화된 시스템은 여전히 필요하다고 주장했다.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/podcast/1000914/atlassian-ceo-mike-cannon-brookes-saaspocalypse-ai-enterprise-software-trello-jira?utm_source=tldrit",
+      "report": {
+        "tldr": "AI가 SaaS를 대체하기보다 워크플로를 재편한다는 시각이다.",
+        "what": "마이크 캐넌브룩스 아틀라시안 CEO가 The Verge Decoder 팟캐스트에 출연했다. IT와 AI 활성화 조직을 인사(피플) 리더십 아래 통합한 사례를 소개하며, AI가 SaaS 워크플로를 바꾸겠지만 구조화된 시스템의 필요성은 없어지지 않는다고 말했다.",
+        "points": [
+          "IT·AI 활성화를 인사 리더십 아래 통합",
+          "AI는 SaaS 워크플로를 변화시킴",
+          "구조화된 시스템 수요는 지속"
+        ],
+        "why": [
+          "AI발 SaaS 붕괴론에 대한 업계 대표 기업의 반론이다",
+          "IT 조직 구조 개편 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-workday-total-benefits",
+      "title": "워크데이, 건강·자산·웰빙 통합 \"Total Benefits\" 출시",
+      "summary": "워크데이가 복리후생 관리, 제공업체 연동, 직원 안내를 하나로 묶은 Total Benefits를 내놨다. 웰니스는 즉시, 셀프서비스 에이전트 안내는 10월 출시된다.",
+      "source": "Workday Newsroom",
+      "url": "https://newsroom.workday.com/2026-09-24-Workday-Launches-Total-Benefits,-Bringing-Health,-Wealth,-and-Wellbeing-Support-Together-in-One-Place?utm_source=tldrit",
+      "report": {
+        "tldr": "워크데이가 복리후생을 한 플랫폼으로 통합한다.",
+        "what": "워크데이가 복리후생 관리, 제공업체 통합, 직원 가이드를 결합한 Total Benefits를 출시했다. Wellness 기능은 바로 쓸 수 있고, Self-Service Agent 안내 기능은 10월에 나온다.",
+        "points": [
+          "복리후생 관리·제공업체 연동·직원 안내 통합",
+          "Wellness 즉시 제공",
+          "Self-Service Agent 안내는 10월 출시"
+        ],
+        "why": [
+          "HR 영역에도 에이전트 기반 셀프서비스가 확산 중이다"
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-claude-marketplace",
+      "title": "앤트로픽, 2천여 플러그인·커넥터 갖춘 Claude AI 마켓플레이스 출시",
+      "summary": "앤트로픽이 2,000개 이상 플러그인·커넥터, 파트너 에이전트, 서비스를 조달 연동과 함께 제공하는 Claude 마켓플레이스를 열었다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/?utm_source=tldrit",
+      "report": {
+        "tldr": "Claude가 기업용 AI 앱스토어로 진화한다.",
+        "what": "앤트로픽이 Claude를 AI 마켓플레이스로 확장했다. 2,000개가 넘는 플러그인과 커넥터, 파트너가 만든 에이전트와 서비스를 조달 시스템 연동과 함께 제공한다.",
+        "points": [
+          "플러그인·커넥터 2,000개 이상",
+          "파트너 제작 에이전트·서비스 포함",
+          "조달(구매) 프로세스 연동"
+        ],
+        "why": [
+          "IT는 플러그인 접근 권한과 제거 관리를 엄격히 해야 한다",
+          "AI 플랫폼 경쟁이 생태계 싸움으로 넘어가고 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-onedrive-pay-as-you-go-storage",
+      "title": "MS, 원드라이브 추가 저장공간에 종량제 요금 도입",
+      "summary": "Microsoft 365 고객은 초과 원드라이브 저장공간을 GB당 월 0.20달러 종량제로 쓸 수 있고 관리자 예산 통제도 제공된다.",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4226046/microsoft-adds-pay-as-you-go-pricing-for-extra-onedrive-storage.html?utm_source=tldrit",
+      "report": {
+        "tldr": "원드라이브 초과 용량이 사용량 기반 과금으로 바뀐다.",
+        "what": "마이크로소프트가 Microsoft 365 고객의 초과 OneDrive 저장공간에 사용량 기반 과금을 도입했다. 요금은 GB당 월 0.20달러이며 관리자용 예산 통제 기능이 함께 제공된다.",
+        "points": [
+          "GB당 월 0.20달러",
+          "초과 저장공간 종량 과금",
+          "관리자 예산 통제 기능"
+        ],
+        "why": [
+          "퇴사자 데이터 보관 등 저장 비용 관리가 필요해진다"
+        ]
+      }
+    },
+    {
+      "id": "it-disable-bitlocker-windows-11",
+      "title": "윈도우 11 비트로커 끄는 법(그리고 끄면 안 되는 경우)",
+      "summary": "암호화 일시 중단과 완전 해제를 구분하며, 유지보수에는 일시 중단을 쓰고 런북에 재개 확인을 넣으라고 권한다.",
+      "source": "Petri.com",
+      "url": "https://petri.com/how-to-disable-bitlocker-in-windows-11/?utm_source=tldrit",
+      "report": {
+        "tldr": "유지보수 때는 해제 대신 일시 중단이 정답이다.",
+        "what": "Petri.com 튜토리얼은 BitLocker 암호화의 일시 중단과 완전 비활성화를 구분해 설명한다. 유지보수에는 일시 중단을 권장하고, 유지보수 런북에 암호화 재개 여부 확인 단계를 넣으라고 강조한다.",
+        "points": [
+          "일시 중단과 비활성화의 차이",
+          "유지보수에는 일시 중단 권장",
+          "런북에 재개 확인 단계 포함"
+        ],
+        "why": [
+          "암호화 재개 누락은 분실 기기 데이터 유출로 이어질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-google-meet-take-notes-settings",
+      "title": "구글 미트 \"Take notes for me\" 새 설정, 9월 29일 적용",
+      "summary": "구글이 관리자와 사용자를 위한 자동 회의록 작성 기능의 새 설정 옵션을 배포한다.",
+      "source": "Google Workspace Updates Blog",
+      "url": "https://workspaceupdates.googleblog.com/2026/09/new-google-meet-take-notes-for-me-settings-for-admins-and-end-users-take-effect-September-29th.html?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 회의록 기능의 관리 옵션이 오늘부터 바뀐다.",
+        "what": "구글이 Google Meet의 Take notes for me 기능에 관리자와 최종 사용자용 새 설정을 도입했다. 변경 사항은 9월 29일부터 적용된다.",
+        "points": [
+          "관리자·사용자용 새 설정",
+          "자동 회의록 구성 옵션",
+          "9월 29일 적용"
+        ],
+        "why": [
+          "워크스페이스 관리자는 AI 회의록 정책을 재점검해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "it-cloudflare-containers-cross-tenant-flaw",
+      "title": "클라우드플레어, 컨테이너 테넌트 간 데이터 노출 결함 수정",
+      "summary": "클라우드플레어가 스토리지 재사용 취약점을 9월 19일까지 조치했으며 악용 흔적은 없고 고객 조치도 필요 없다고 밝혔다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/?utm_source=tldrit",
+      "report": {
+        "tldr": "멀티테넌트 컨테이너에서 스토리지 재사용 결함이 수정됐다.",
+        "what": "클라우드플레어가 Containers 서비스에서 다른 고객 데이터를 노출할 수 있던 스토리지 재사용 취약점을 9월 19일까지 수정 완료했다. 악의적 악용은 발견되지 않았으며 고객이 할 조치는 없다.",
+        "points": [
+          "원인은 스토리지 재사용",
+          "9월 19일 수정 완료",
+          "악용 흔적 없음",
+          "고객 조치 불필요"
+        ],
+        "why": [
+          "컨테이너 격리 한계라는 오늘의 보안 이슈와 맞닿아 있다",
+          "클라우드 멀티테넌시의 잔존 데이터 위험을 상기시킨다"
+        ]
+      }
+    }
+  ]
+}

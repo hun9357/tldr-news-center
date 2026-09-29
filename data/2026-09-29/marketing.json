@@ -1,0 +1,224 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-mckinsey-convenience-vs-discovery",
+      "title": "편의 vs 발견: 매장은 어떤 미션을 택할 것인가",
+      "summary": "맥킨지는 AI가 오프라인 소매를 마찰을 줄이는 '편의형'과 체류 시간을 늘리는 '발견형' 매장으로 양분하고 있다고 분석했다.",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/industries/retail/our-insights/convenience-or-discovery-which-mission-will-your-store-serve?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "오프라인 매장은 편의와 발견 중 하나의 미션을 분명히 해야 한다.",
+        "what": "맥킨지는 AI로 인해 오프라인 소매가 두 가지 미션으로 갈라지고 있다고 본다. 편의형 매장은 쉬운 동선과 반응형 서비스로 마찰을 줄이고, 발견형 매장은 몰입형 경험과 전문 직원으로 체류 시간을 늘려야 한다.",
+        "points": [
+          "소비자 90% 이상이 일상 동선에 맞는 매장을 우선시",
+          "78%는 제품 테스트, 76%는 제품 안내를 발견형 방문 이유로 꼽음",
+          "편의형은 쉬운 탐색과 반응형 서비스에 집중",
+          "발견형은 몰입 경험과 전문 직원에 집중"
+        ],
+        "why": [
+          "리테일 마케터가 매장 포트폴리오별 역할과 투자 우선순위를 정하는 틀이 된다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-linkedin-genz-ai-skeptical",
+      "title": "직장인은 AI에 호감 늘지만 Z세대는 여전히 회의적",
+      "summary": "미국 직장인 53%가 AI로 더 효율적이라고 답했지만, Z세대는 38%만 6개월 내 AI 역량을 쌓을 계획이고 52%는 일자리 영향에 불안해했다.",
+      "source": "LinkedIn News",
+      "url": "https://www.linkedin.com/pulse/workers-warming-up-ai-gen-z-remains-skeptical-linkedin-news-jukbc/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 신뢰는 커지지만 Z세대의 불안은 여전하다.",
+        "what": "링크드인에 따르면 직장 내 AI 신뢰도가 높아지고 있으나 Z세대는 더 주저하는 모습이다. 동시에 AI 리터러시는 Z세대의 채용·승진 성과와 연관된 것으로 나타났다.",
+        "points": [
+          "미국 직장인 53%가 AI로 효율이 높아졌다고 응답",
+          "Z세대 38%만 6개월 내 AI 역량 강화 계획",
+          "Z세대 52%가 AI의 일자리 영향에 불안",
+          "AI 리터러시는 Z세대 채용·승진과 연관"
+        ],
+        "why": [
+          "Z세대를 겨냥한 메시지와 채용 브랜딩에서 AI에 대한 태도 차이를 고려해야 한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-faq-discoverable-llm",
+      "title": "FAQ가 검색엔진과 LLM에 보이는지 점검하라",
+      "summary": "FAQ는 페이지 로드 시 소스에 콘텐츠가 있어야 검색·AI 노출에 도움이 되는데, 많은 아코디언형 FAQ가 클릭 전까지 텍스트를 숨긴다.",
+      "source": "LinkedIn (Chris Long)",
+      "url": "https://www.linkedin.com/posts/chris-long-marketing_60-second-seo-the-content-in-your-faqs-might-ugcPost-7510318926933860352-BdRQ/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "숨겨진 FAQ 텍스트는 검색엔진과 LLM에 안 보일 수 있다.",
+        "what": "많은 FAQ 컴포넌트가 사용자가 펼치기 전까지 텍스트를 숨겨, 검색엔진과 LLM이 기본적으로 해당 내용에 접근하지 못할 수 있다. 크롬 개발자도구로 새로고침 후에도 FAQ 텍스트가 발견 가능한지 확인하라는 조언이다.",
+        "points": [
+          "FAQ 콘텐츠는 로드 시 페이지 소스에 있어야 함",
+          "펼치기 전 텍스트를 숨기는 컴포넌트가 많음",
+          "크롬 DevTools로 새로고침 후 노출 여부 점검"
+        ],
+        "why": [
+          "간단한 기술 점검만으로 SEO·AEO 노출 손실을 막을 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-chatgpt-reads-youtube-description",
+      "title": "ChatGPT는 유튜브 스크립트가 아니라 설명란을 읽는다",
+      "summary": "ChatGPT는 유튜브 영상의 제목·메타데이터·전체 설명은 가져오지만 스크립트는 못 읽으므로, 설명란을 AI 검색용 랜딩 페이지처럼 다뤄야 한다.",
+      "source": "LinkedIn (David Konitzny)",
+      "url": "https://www.linkedin.com/posts/davidkonitzny_chatgpt-reads-your-youtube-description-not-share-7510237770435616768-sxNC/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "유튜브 설명란이 AI 검색 노출의 핵심 소스다.",
+        "what": "ChatGPT는 영상의 제목, 메타데이터, 전체 설명을 검색할 수 있지만 스크립트는 가져오지 못한다. 따라서 설명란이 영상 내용을 이해하는 핵심 소스가 된다.",
+        "points": [
+          "설명란을 AI 검색용 랜딩 페이지처럼 작성",
+          "관련 키워드와 명확한 맥락 포함",
+          "구조화된 섹션과 타임코드 활용"
+        ],
+        "why": [
+          "영상 마케터가 AI 검색 노출을 위해 설명란 최적화에 투자할 이유가 생겼다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-no-aeo-algorithm-to-hack",
+      "title": "해킹할 AEO 알고리즘은 없다",
+      "summary": "AEO는 역설계할 랭킹 요소가 있는 SEO 게임이 아니며, AI 가시성은 브랜드가 카테고리와 명확히 연결되고 신뢰할 만한 근거로 뒷받침되는지에 달려 있다.",
+      "source": "Marketing Advice (Substack)",
+      "url": "https://marketingadvice.substack.com/p/there-is-no-aeo-algorithm-to-hack?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 가시성은 꼼수가 아니라 포지셔닝과 증거로 얻는다.",
+        "what": "글은 AEO를 랭킹 요소 해킹으로 접근하는 시각을 반박한다. 포지셔닝 공백을 메우고 실제 구매자 질문에 답하며, 제3자 검증을 강화하는 것이 핵심이라고 말한다.",
+        "points": [
+          "포지셔닝 공백 해소와 실제 구매자 질문 대응",
+          "벤더 비교를 돕는 비교 콘텐츠 제작",
+          "인위적 언급 대신 제3자 검증 강화",
+          "상업적 프롬프트를 추적하고 파이프라인과 연결"
+        ],
+        "why": [
+          "AEO 예산을 단기 꼼수가 아닌 브랜드 포지셔닝과 증거 구축에 써야 함을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-xml-sitemaps-wrong",
+      "title": "XML 사이트맵, 제대로 쓰는 곳이 거의 없다",
+      "summary": "XML 사이트맵에는 색인되길 원하는 정규(canonical)·정상 URL만 넣어야 하며, 리디렉션·오류·noindex 페이지는 크롤링을 낭비시킨다.",
+      "source": "Joost.blog",
+      "url": "https://joost.blog/broken-sitemaps/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "사이트맵은 색인 원하는 정상 정규 URL만 담아야 한다.",
+        "what": "XML 사이트맵은 검색엔진에 검색 결과에 노출하고 싶은 URL을 알려준다. 구글은 나열된 URL을 그대로 크롤링하려 하므로 리디렉션, 오류, noindex, 충돌하는 canonical이 섞이면 사이트맵의 효용이 떨어진다.",
+        "points": [
+          "정규·정상·색인 대상 URL만 포함",
+          "리디렉션·오류·noindex·canonical 충돌은 크롤링 낭비",
+          "lastmod 누락·반복은 허용 가능",
+          "priority·changefreq는 구글이 무시"
+        ],
+        "why": [
+          "기술 SEO 기본기 점검으로 크롤링 효율을 높일 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-reddit-astroturfing",
+      "title": "레딧에 아스트로터핑 문제가 있을까?",
+      "summary": "나이프 추천 분석 결과 브랜드 언급이 많은 상위 5% 계정이 추천의 11.3%를 차지해 우연 기대치 7.9%보다 높았고, 일부 브랜드는 20~31%에 달했다.",
+      "source": "Peter Vijeh",
+      "url": "https://www.petervijeh.com/projects/reddit-astroturf?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "레딧 추천은 소수 계정에 쏠려 있지만 조작 증거는 불분명하다.",
+        "what": "레딧은 흔히 편향 없는 제품 조언 출처로 여겨지지만, 일부 구매 추천은 소수 계정에 비정상적으로 집중돼 있었다. 이는 아스트로터핑 가능성을 시사하나, 해당 계정들의 이력은 진짜 팬에 가까워 보였다.",
+        "points": [
+          "상위 5% 브랜드 편중 계정이 나이프 추천의 11.3% 차지",
+          "우연 기대치는 7.9%",
+          "세 브랜드는 그 비중이 20~31%",
+          "계정 이력은 유료 계정보다 실제 팬에 가까움"
+        ],
+        "why": [
+          "레딧 기반 커뮤니티 마케팅과 AI 검색 인용의 신뢰성 문제를 제기한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-canva-jio-partnership",
+      "title": "캔바가 지오와 손잡은 이유 해부",
+      "summary": "캔바는 지오의 5억 2,440만 고객을 활용해 무료 사용자가 프로를 결제하지 않는 프리미엄 문제를 풀려 한다.",
+      "source": "GrowthX",
+      "url": "https://shorts.growthx.club/p/jio-the-final-boss-of-saas-distribution?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "번들 이후 유료 전환이 캔바-지오 제휴의 진짜 시험대다.",
+        "what": "많은 캐주얼 사용자는 무료 플랜만으로 충분해 프로를 결제하지 않는다. 캔바는 지오 요금제에 프로를 번들해 별도 구매 없이 프리미엄 기능을 경험하게 한다.",
+        "points": [
+          "지오 고객 5억 2,440만 명 대상 유통",
+          "무료 플랜 만족 사용자의 전환 문제 해결 시도",
+          "지오 요금제에 캔바 프로 번들",
+          "번들 종료 후 결제 의향이 핵심 지표"
+        ],
+        "why": [
+          "통신사 번들이 SaaS의 대규모 유통 채널이 될 수 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-attribution-ai-search",
+      "title": "AI 검색 시대 어트리뷰션의 유용성",
+      "summary": "AI 답변에서 발견이 일어나 웹 방문이 생기지 않으면서 클릭 기반 어트리뷰션의 유용성이 떨어지고 있다.",
+      "source": "Growth Memo",
+      "url": "https://www.growth-memo.com/p/the-collapse-of-attribution?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "어트리뷰션은 여러 불완전한 신호 중 하나로 다뤄야 한다.",
+        "what": "발견이 방문을 남기지 않는 AI 답변으로 옮겨가면서 클릭 기반 어트리뷰션은 채널 가치를 판단하는 확정적 지표가 되기 어렵다. 글은 노출·행동·비즈니스 지표를 삼각측량하라고 권한다.",
+        "points": [
+          "클릭 기반 어트리뷰션은 불완전한 신호",
+          "AI Share of Voice, CRM 데이터 등 지표 삼각측량",
+          "가능하면 증분(incrementality) 테스트로 인과 효과 측정"
+        ],
+        "why": [
+          "AI 검색 비중이 커질수록 마케팅 성과 측정 체계를 재설계해야 한다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-wendys-emo-album",
+      "title": "웬디스, 이모 앨범 발매: '웬디스 주차장에서 들을 노래'",
+      "summary": "웬디스가 야식 드라이브용 풀 이모 EP를 발표했다.",
+      "source": "Wendy's",
+      "url": "https://www.wendys.com/blog/wendysr-square-deal-blog/wendys-drops-emo-album-songs-listen-wendys-parking-lot?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "웬디스가 야식 수요를 겨냥해 이모 EP를 냈다.",
+        "what": "웬디스가 '웬디스 주차장에서 들을 노래'라는 제목의 이모 EP를 공개했다. 늦은 밤 음식을 사러 오는 순간을 겨냥한 브랜드 음악 캠페인이다.",
+        "points": [
+          "EP 제목은 'Songs to Listen to in a Wendy's Parking Lot'",
+          "늦은 밤 음식 픽업 상황을 겨냥",
+          "브랜드 음악 콘텐츠 캠페인"
+        ],
+        "why": [
+          "웬디스 특유의 밈·문화 마케팅이 음악 포맷으로 확장된 사례다."
+        ]
+      }
+    },
+    {
+      "id": "marketing-are-you-still-that-person",
+      "title": "'아직도 그런 사람이세요?' 트릭",
+      "summary": "정체성 기반 이메일로 이탈 고객과 죽은 리드를 다시 끌어들이는 방법.",
+      "source": "Marketing Ideas",
+      "url": "https://www.marketingideas.com/p/psst-are-you-still-that-person?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "정체성을 묻는 이메일로 이탈 고객을 재참여시킨다.",
+        "what": "글은 '아직도 그런 사람이세요?'처럼 수신자의 정체성을 건드리는 이메일로 이탈 고객과 휴면 리드를 재활성화하는 전술을 소개한다.",
+        "points": [
+          "정체성 기반 이메일 카피",
+          "이탈 고객 재참여 대상",
+          "휴면 리드 재활성화에 활용"
+        ],
+        "why": [
+          "적은 비용으로 이메일 윈백 캠페인 반응률을 높일 수 있는 아이디어다."
+        ]
+      }
+    }
+  ]
+}
