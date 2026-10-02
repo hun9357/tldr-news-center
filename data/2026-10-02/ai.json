@@ -1,0 +1,287 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-claude-shaped-science",
+      "title": "'Claude 모양'의 과학: AI가 잘 푸는 과학 문제",
+      "summary": "물리학자 매튜 슈워츠가 코딩 등 LLM 강점이 빛나는 'Claude 모양' 과학 문제에 Claude를 활용해 생태학·유전학 정량 계산 도구 BootLoops를 만들었다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/claude-shaped-science?utm_source=tldrai",
+      "report": {
+        "tldr": "AI는 해법을 빠르게 내지만 의미 있는 문제를 고르는 건 여전히 인간 전문가다.",
+        "what": "앤트로픽 연구 글에서 매튜 슈워츠는 코딩처럼 LLM이 강한 영역에 맞는 'Claude 모양' 과학 과제에 Claude를 적용한 경험을 소개했다. 그 결과 생태학과 유전학 전반에서 정량 계산을 가능하게 하는 BootLoops가 탄생했다.",
+        "points": [
+          "LLM 강점(코딩)에 맞는 과학 문제를 골라 적용",
+          "생태학·유전학 정량 계산 도구 BootLoops 개발",
+          "기술적 정확성은 빠르게 확보",
+          "연구 관련성은 도메인 전문가가 다듬음"
+        ],
+        "why": [
+          "AI 과학 가속의 현실적 분업 모델을 제시",
+          "문제 선택과 판단에서 인간 전문성의 가치를 재확인"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-cuts-safety-researchers",
+      "title": "OpenAI, 안전 연구원 3명과 결별 (WSJ)",
+      "summary": "OpenAI가 외부 AI 안전 단체에 기밀을 누설했다는 이유로 안전 연구원 3명을 해고했으며, 안전 문제로 GPT-6.1 Astra 출시도 취소했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/openai-cuts-ties-with-three-safety-researchers-wsj-reports/?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI의 안전 거버넌스 논란이 다시 불거졌다.",
+        "what": "WSJ 보도를 인용한 TechCrunch에 따르면 OpenAI가 외부 AI 안전 단체에 기밀 정보를 공유한 안전 연구원 3명을 해고했다. 앞서 안전 우려가 묵살됐다는 증언과 AI 에이전트 보안 문제가 이어진 가운데 나온 조치이며, OpenAI는 안전 고려로 GPT-6.1 Astra도 취소했다.",
+        "points": [
+          "안전 연구원 3명 해고, 사유는 외부 단체에 기밀 공유",
+          "과거 안전 우려 묵살 증언과 맞물림",
+          "AI 에이전트 보안 문제와 시기 겹침",
+          "GPT-6.1 Astra 안전 문제로 취소"
+        ],
+        "why": [
+          "내부 고발과 기밀 유지 사이 AI 연구소의 긴장 노출",
+          "프런티어 모델 출시 결정에 안전 이슈가 실제로 영향을 주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-eternal-complement-routine-work",
+      "title": "초지능의 최대 가치는 '실행'이라는 OpenAI의 주장",
+      "summary": "OpenAI는 첨단 AI가 복잡한 조율·엔지니어링·반복 업무를 맡아 아이디어를 현실로 바꾸는 데 가장 큰 가치를 낼 것이며, 인류의 진짜 병목은 발상이 아니라 실행이라고 주장했다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/the-eternal-complement/?utm_source=tldrai",
+      "report": {
+        "tldr": "인류의 병목은 아이디어가 아니라 실행이고, AI는 그 실행을 맡는다.",
+        "what": "OpenAI는 'The Eternal Complement' 글에서 초지능 시스템이 복잡한 조율, 엔지니어링, 반복 업무를 처리할 때 인류에 가장 크게 기여할 수 있다고 밝혔다. 인류의 실제 병목은 아이디어가 아닌 실행이라는 논리다.",
+        "points": [
+          "AI의 역할을 조율·엔지니어링·반복 업무로 규정",
+          "야심 찬 구상을 현실로 만드는 실행력이 핵심",
+          "인간은 발상, AI는 실행이라는 보완 관계 제시"
+        ],
+        "why": [
+          "AI 기업이 '대체' 대신 '보완' 서사를 강조하는 흐름",
+          "AI 가치 평가 기준을 실행 역량 중심으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "ai-why-muse-may-never-need-ads",
+      "title": "메타 Muse는 왜 광고가 필요 없을까",
+      "summary": "메타의 Muse는 사용자 과금 대신 가맹점 거래 수수료로 수익을 내며, 광고 없는 경험으로 신뢰를 쌓는 동시에 인스타·페북 광고 타기팅을 간접 강화한다는 분석이다.",
+      "source": "MBI Deep Dives",
+      "url": "https://www.mbi-deepdives.com/no-ads-muse/?utm_source=tldrai",
+      "report": {
+        "tldr": "Muse는 수수료와 신호로 돈을 버는 광고 없는 에이전트다.",
+        "what": "MBI Deep Dives는 메타의 Muse가 사용자에게 과금하지 않고 가맹점 거래 수수료로 수익을 낸다고 분석했다. DoorDash 같은 플랫폼도 자체 에이전트를 만들지만 구조적 편향의 한계가 있으며, Muse의 무광고 전략은 신뢰를 쌓고 메타 광고 생태계를 간접 강화한다.",
+        "points": [
+          "수익원은 가맹점 거래 수수료",
+          "DoorDash 등 플랫폼 자체 에이전트는 구조적 편향 한계",
+          "무광고로 사용자 신뢰 확보",
+          "인스타·페북 광고 타기팅 간접 강화"
+        ],
+        "why": [
+          "중립성을 내세운 범용 에이전트가 수직 플랫폼 에이전트보다 유리할 수 있음",
+          "에이전트 커머스의 수익 모델 청사진"
+        ]
+      }
+    },
+    {
+      "id": "ai-cloudflare-clef-decision-models",
+      "title": "Cloudflare, 오픈소스 의사결정 모델 Clef 공개",
+      "summary": "Cloudflare가 Jev-API 사양과 호환되는 완전 오픈소스 의사결정 모델 Clef·Clef-flash를 Apache 2.0으로 허깅페이스에 공개했다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clef-decision-models/?utm_source=tldrai",
+      "report": {
+        "tldr": "로컬에서 돌리는 판단 특화 모델로 에이전트의 분기 결정을 맡긴다.",
+        "what": "Cloudflare가 Jev-API 사양 호환 오픈소스 의사결정 모델 Clef와 Clef-flash, 그리고 RL 파인튜닝 플랫폼을 발표했다. 허깅페이스에 Apache 2.0으로 공개됐으며 로컬 실행이 가능하다.",
+        "points": [
+          "Jev-API 사양 호환",
+          "Apache 2.0, 허깅페이스 공개, 로컬 실행 가능",
+          "상황 분류 후 확률과 함께 타입 지정된 답 반환",
+          "필요 시 인간에게 판단을 넘김"
+        ],
+        "why": [
+          "오늘 Kev·pplx-decider·Strands Decider와 함께 '의사결정 모델' 카테고리가 본격 형성",
+          "에이전트 신뢰성을 높이는 소형 특화 모델 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-agentic-idea-manager",
+      "title": "구글 연구진, 연구 방향을 자동 관리하는 에이전트 AIM 공개",
+      "summary": "AIM은 연구 아이디어를 자율적으로 관리하고 유망한 경로를 찾으며, 구현 정합성을 검증하고 실험 자원을 여러 탐색 갈래에 배분한다.",
+      "source": "GitHub Pages",
+      "url": "https://imhgchoi.github.io/agentic-idea-manager/?utm_source=tldrai",
+      "report": {
+        "tldr": "연구 '방향 설정' 자체를 자동화하려는 시도.",
+        "what": "구글 연구진이 연구 방향 설정 과정을 자동화하는 에이전트 AIM(Agentic Idea Manager)을 공개했다. AIM은 연구 아이디어를 관리하고 유망 경로를 식별하며, 구현이 아이디어와 맞는지 검증하고 실험 자원을 분배한다.",
+        "points": [
+          "연구 아이디어 자율 관리",
+          "유망 경로 식별",
+          "구현 정합성 검증",
+          "탐색 갈래별 실험 자원 배분"
+        ],
+        "why": [
+          "AI 연구 자동화가 실행을 넘어 방향 결정 단계로 확장"
+        ]
+      }
+    },
+    {
+      "id": "ai-microsoft-mai-transcribe-2-streaming",
+      "title": "마이크로소프트 첫 스트리밍 전사 모델, Artificial Analysis 1위 데뷔",
+      "summary": "MAI-Transcribe-2-Streaming은 자동 언어 감지와 함께 60개 언어의 저지연 실시간 전사를 제공하며, 23개 언어를 지원하는 MAI-Voice-2.1과 짝을 이룬다.",
+      "source": "Microsoft AI",
+      "url": "https://microsoft.ai/news/our-first-streaming-transcription-model/?utm_source=tldrai",
+      "report": {
+        "tldr": "MS가 자체 음성 스택으로 실시간 대화형 AI를 강화한다.",
+        "what": "마이크로소프트 AI가 첫 스트리밍 전사 모델 MAI-Transcribe-2-Streaming을 공개했으며 Artificial Analysis 순위 1위로 데뷔했다. 60개 언어 저지연 실시간 전사와 자동 언어 감지를 지원하고, 23개 언어·26개 로캘의 MAI-Voice-2.1과 함께 대화형 경험을 구현한다.",
+        "points": [
+          "Artificial Analysis 1위 데뷔",
+          "60개 언어 실시간 전사, 자동 언어 감지",
+          "MAI-Voice-2.1: 23개 언어, 26개 로캘"
+        ],
+        "why": [
+          "MS의 OpenAI 의존도 완화와 자체 모델 강화 흐름",
+          "음성 에이전트 경쟁에서 지연시간이 핵심 지표"
+        ]
+      }
+    },
+    {
+      "id": "ai-jared-palmer-kev",
+      "title": "Kev: Jev API 기반 오픈소스 의사결정 모델 4종",
+      "summary": "Kev는 0.8B~27B 파라미터의 오픈소스 의사결정 모델 4종으로, Jev API를 사용해 엔드포인트 교체가 쉽고 설명 생성이나 외부 검색 없이 주어진 선택지를 분류한다.",
+      "source": "Jared Palmer Blog",
+      "url": "https://jaredpalmer.com/blog/introducing-kev?utm_source=tldrai",
+      "report": {
+        "tldr": "설명 없이 고르기만 하는 소형 판단 모델.",
+        "what": "Jared Palmer가 0.8B에서 27B 파라미터까지 네 가지 크기의 오픈소스 의사결정 모델 Kev를 소개했다. TypeSafe의 Jev API를 사용해 엔드포인트 전환이 간단하며, 설명을 생성하거나 외부 정보를 검색하지 않고 주어진 선택지만 분류한다.",
+        "points": [
+          "0.8B~27B 네 가지 크기",
+          "Jev API 사용으로 엔드포인트 교체 용이",
+          "설명 생성·외부 검색 없이 선택지 분류만 수행",
+          "코드와 가중치 공개, 학습 데이터는 비공개"
+        ],
+        "why": [
+          "의사결정 모델 간 API 표준(Jev)이 형성되는 조짐"
+        ]
+      }
+    },
+    {
+      "id": "ai-perplexity-pplx-decider-v1-27b",
+      "title": "퍼플렉시티, 의사결정 모델 pplx-decider-v1-27b 공개",
+      "summary": "Qwen 3.8-27B를 파인튜닝한 퍼플렉시티의 의사결정 모델로, Jev와 견줄 만한 성능에 여러 벤치마크에서는 더 나은 결과를 보였다.",
+      "source": "Hugging Face",
+      "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1-27b?utm_source=tldrai",
+      "report": {
+        "tldr": "퍼플렉시티도 의사결정 모델 경쟁에 가세했다.",
+        "what": "퍼플렉시티가 허깅페이스에 의사결정 모델 pplx-decider-v1-27b를 공개했다. Qwen 3.8-27B를 기반으로 파인튜닝했으며 Jev 대비 경쟁력 있는 성능과 일부 벤치마크에서의 우위를 내세운다.",
+        "points": [
+          "Qwen 3.8-27B 기반 파인튜닝",
+          "Jev와 경쟁 가능한 성능",
+          "여러 벤치마크에서 우위 주장"
+        ],
+        "why": [
+          "의사결정 모델 카테고리에 대형 AI 기업들이 동시다발로 진입"
+        ]
+      }
+    },
+    {
+      "id": "ai-waymo-effect-research-collaboration",
+      "title": "웨이모 효과: AI가 연구를 조용히 덜 협력적으로 만든다",
+      "summary": "마찰 없는 AI 도구가 연구에 필요한 인간 간 상호작용을 줄여 혁신에 필수적인 우연한 발견과 토론을 약화시킨다는 주장이다.",
+      "source": "Research Agenda",
+      "url": "https://www.researchagenda.news/articles/the-waymo-effect.html?utm_source=tldrai",
+      "report": {
+        "tldr": "편리함이 연구 공동체의 협업 문화를 잠식할 수 있다.",
+        "what": "Research Agenda는 AI 도구가 마찰을 없애면서 연구 과정의 인간 상호작용이 줄고 있다고 지적했다. 이는 혁신에 중요한 우연한 발견과 토론을 약화시키며, 협력보다 속도를 우선하는 인센티브 구조가 연구 문화의 인간 중심성을 훼손할 수 있다고 경고한다.",
+        "points": [
+          "AI로 인한 연구자 간 상호작용 감소",
+          "우연한 발견과 토론의 약화",
+          "속도 중심 인센티브가 협업 문화 침식"
+        ],
+        "why": [
+          "AI 연구 생산성 담론에 대한 균형 잡힌 반론"
+        ]
+      }
+    },
+    {
+      "id": "ai-the-dot-and-the-swarm",
+      "title": "점과 무리: 인간 설계를 넘어 자기조직화하는 AI",
+      "summary": "첨단 AI 시스템이 인간이 설계한 구조를 넘어 자기조직화하며 복잡한 작업을 자율 수행하고 인간 오류까지 바로잡는다는 에세이로, OpenAI의 스웜 프레임워크가 나비에-스토크스 같은 난제에 도전한 사례를 다룬다.",
+      "source": "One Useful Thing",
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm?utm_source=tldrai",
+      "report": {
+        "tldr": "에이전트 '무리'가 인간이 짠 조직도를 넘어서기 시작했다.",
+        "what": "이선 몰릭은 첨단 AI 시스템이 인간이 설계한 구조를 벗어나 스스로 조직화하고, 복잡한 작업을 자율 수행하며 인간의 실수를 교정한다고 설명했다. OpenAI의 스웜 프레임워크는 방대한 자율 에이전트 네트워크를 운용해 나비에-스토크스 같은 난제에 접근한 사례로 소개된다.",
+        "points": [
+          "AI 시스템의 자기조직화",
+          "복잡한 작업의 자율 수행과 인간 오류 교정",
+          "OpenAI 스웜 프레임워크, 나비에-스토크스 문제 접근"
+        ],
+        "why": [
+          "멀티 에이전트 시스템이 조직 설계와 인간 감독 방식에 던지는 질문"
+        ]
+      }
+    },
+    {
+      "id": "ai-olmo-core-3-moe-training",
+      "title": "Olmo-core 3: 조 단위 MoE 학습용 오픈 프레임워크",
+      "summary": "Allen Institute가 조 단위 파라미터 규모의 전문가 혼합(MoE) 모델 학습을 지원하는 오픈 프레임워크 Olmo-core 3를 공개했다.",
+      "source": "Allen Institute Blog",
+      "url": "https://allenai.org/blog/olmocore3?utm_source=tldrai",
+      "report": {
+        "tldr": "조 단위 MoE 학습 인프라가 오픈소스로 풀렸다.",
+        "what": "Allen Institute for AI가 Olmo-core 3를 발표했다. 조 단위 파라미터 규모의 MoE 모델 학습을 가능하게 하는 오픈 프레임워크다.",
+        "points": [
+          "MoE 모델 학습 특화",
+          "조 단위 파라미터 규모 지원",
+          "오픈 프레임워크로 공개"
+        ],
+        "why": [
+          "대형 MoE 학습 노하우가 빅테크 밖으로 확산"
+        ]
+      }
+    },
+    {
+      "id": "ai-amazon-strands-decider-2b",
+      "title": "아마존, Strands Decider 2B로 의사결정 모델 경쟁 합류",
+      "summary": "Strands Decider 2B는 빠른 분류·라우팅·스코어링 작업을 위한 오픈소스 선택지를 제공한다.",
+      "source": "Strands Agents Blog",
+      "url": "https://strandsagents.com/blog/introducing-strands-decider/?utm_source=tldrai",
+      "report": {
+        "tldr": "아마존까지 가세하며 의사결정 모델이 하루 만에 붐비는 시장이 됐다.",
+        "what": "아마존의 Strands Agents 팀이 2B 규모 오픈소스 의사결정 모델 Strands Decider 2B를 공개했다. 빠른 분류, 라우팅, 스코어링 작업을 겨냥한다.",
+        "points": [
+          "2B 파라미터 소형 모델",
+          "분류·라우팅·스코어링 특화",
+          "오픈소스 공개"
+        ],
+        "why": [
+          "Cloudflare·퍼플렉시티 등과 같은 날 출시돼 의사결정 모델 경쟁 본격화"
+        ]
+      }
+    },
+    {
+      "id": "ai-imbue-personal-computing-2",
+      "title": "Imbue의 '퍼스널 컴퓨팅 2.0' 비전",
+      "summary": "개인 데이터에 대한 사용자 통제권을 되찾고 프라이버시와 맞춤화를 강조하는 미래 컴퓨팅 비전이다.",
+      "source": "Imbue Ideas",
+      "url": "https://ideas.imbue.com/p/personal-computing-20?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 시대에 데이터 통제권을 사용자에게 돌려주자는 제안.",
+        "what": "Imbue가 '퍼스널 컴퓨팅 2.0' 비전을 제시했다. 개인 데이터에 대한 사용자 통제권 회복과 프라이버시, 맞춤화를 미래 컴퓨팅의 중심 가치로 내세운다.",
+        "points": [
+          "개인 데이터 통제권 회복",
+          "프라이버시 중시",
+          "사용자 맞춤화"
+        ],
+        "why": [
+          "플랫폼 중심 AI 에이전트에 대한 대안적 설계 철학"
+        ]
+      }
+    }
+  ]
+}

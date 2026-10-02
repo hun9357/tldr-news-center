@@ -1,0 +1,267 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-a16z-state-of-markets-ii",
+      "title": "a16z 'State of Markets II' 보고서",
+      "summary": "a16z는 2026년 S&P500 이익 성장의 76%를 테크가 차지했으며, 소프트웨어에서 AI 반도체 중심 하드웨어로 축이 이동하고 SaaS는 재평가를 맞고 있다고 분석했다.",
+      "source": "Andreessen Horowitz",
+      "url": "https://a16z.com/state-of-markets-ii/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "자본시장의 중심이 소프트웨어에서 AI 하드웨어로 옮겨가고 있다.",
+        "what": "Andreessen Horowitz 보고서는 2026년 S&P500 이익 성장의 76%를 테크가 기여했다고 밝혔다. 빅테크의 이익과 부채로 조달된 AI 반도체 수요가 소프트웨어에서 하드웨어로의 전환을 이끌고, SaaS 기업은 성장에서 수익성으로 축을 옮기며 재평가를 받고 있다.",
+        "points": [
+          "S&P500 이익 성장의 76%가 테크",
+          "소프트웨어→AI 반도체 하드웨어로 축 이동",
+          "GPU 진부화 우려에도 수요 기반 가격 견조",
+          "SaaS는 성장→수익성 전환 속 재평가"
+        ],
+        "why": [
+          "SaaS 창업자는 밸류에이션 기준이 수익성 중심으로 바뀌었음을 인지해야 한다."
+        ]
+      }
+    },
+    {
+      "id": "founders-fintech-is-dead",
+      "title": "핀테크는 죽었다",
+      "summary": "핀테크는 전통 금융의 비용을 걷어냈지만, 이제 혁신의 동력은 클라우드·모바일이 아니라 지능 토큰과 가치 토큰이며 첫 1조 달러 금융사는 AI·토큰 우선 기업일 것이라는 주장.",
+      "source": "Fintech Brain Food",
+      "url": "https://www.fintechbrainfood.com/p/fintech-is-dead?utm_source=tldrfounders",
+      "report": {
+        "tldr": "금융 혁신의 동력이 모바일에서 AI와 토큰으로 바뀌었다.",
+        "what": "Fintech Brain Food는 핀테크가 전통 은행의 비용을 효과적으로 걷어내 일부 고객군을 처음으로 수익화했다고 평가한다. 그러나 이제 혁신의 원동력은 클라우드와 모바일이 아니라 지능 토큰과 가치 토큰이며, 첫 1조 달러 금융사는 AI·토큰 우선 기업이 될 것이라고 주장한다.",
+        "points": [
+          "핀테크는 은행 비용 절감에 성공",
+          "새 고객군의 수익화 달성",
+          "혁신 동력은 클라우드·모바일 → AI·토큰",
+          "첫 1조 달러 금융사는 AI·토큰 우선 기업 전망"
+        ],
+        "why": [
+          "핀테크 창업자에게 차세대 포지셔닝의 방향을 제시한다."
+        ]
+      }
+    },
+    {
+      "id": "founders-mercury-writing-culture",
+      "title": "Mercury가 글쓰기로 소통하는 방법",
+      "summary": "1,300명 규모 원격 우선 기업 Mercury의 CEO가 글쓰기는 사고 정리의 도구이며, AI는 대신 쓰는 것이 아니라 비평·압축·초안 다듬기·요약에 써야 한다고 강조했다.",
+      "source": "X/Twitter",
+      "url": "https://x.com/immad/status/2105776246236000621?utm_source=tldrfounders",
+      "report": {
+        "tldr": "원격 조직의 핵심은 간결한 글쓰기이며, AI는 편집자로 써라.",
+        "what": "Mercury CEO는 1,300명 규모의 원격 우선 회사에서 글쓰기가 소통의 핵심이라고 말한다. 글쓰기는 아이디어 정리와 문제 분석을 돕고 간결해야 하며, AI는 좋은 작가가 아니므로 비평, 압축, 초안 다듬기, 요약에 활용해야 한다는 입장이다.",
+        "points": [
+          "1,300명 원격 우선 조직의 글쓰기 문화",
+          "글쓰기는 사고 정리·문제 분석 도구",
+          "좋은 글은 간결하고 읽기 쉬워야 함",
+          "AI는 비평·압축·요약 용도로 활용"
+        ],
+        "why": [
+          "조직이 커질수록 문서 문화가 의사결정 속도를 좌우한다."
+        ]
+      }
+    },
+    {
+      "id": "founders-hiring-breakpoints",
+      "title": "채용의 분기점",
+      "summary": "추가 채용의 효용은 선형적이지 않고 오히려 해가 될 수 있으며, 0~1명, 7~10명, 던바 수(약 150명) 같은 팀 규모 분기점이 채용 효과에 큰 영향을 준다는 글.",
+      "source": "Stay Saasy",
+      "url": "https://staysaasy.com/hiring-breakpoints/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "채용은 인원 수가 아니라 조직 규모 분기점을 기준으로 판단하라.",
+        "what": "Stay Saasy는 추가 채용이 선형적으로 도움이 되지 않으며 오히려 해로울 수 있다고 지적한다. 0~1명, 7~10명 같은 팀 규모 분기점이 채용 효과를 크게 좌우하며, 던바 수(약 150명)를 넘으면 견고한 조정 구조가 필요하고 1인당 생산성은 대체로 떨어진다.",
+        "points": [
+          "추가 채용의 효용은 비선형",
+          "0~1명, 7~10명 등 팀 분기점 존재",
+          "던바 수(~150명) 초과 시 조정 구조 필수",
+          "규모가 커질수록 1인당 생산성 감소"
+        ],
+        "why": [
+          "성장 단계 스타트업의 채용 계획과 조직 설계에 바로 적용할 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "founders-aurora-postgres-iceberg",
+      "title": "Aurora PostgreSQL, Iceberg·Parquet 데이터 직접 쿼리 지원",
+      "summary": "Amazon Aurora PostgreSQL에 DuckDB가 내장돼 기존 PostgreSQL 도구로 운영 데이터와 데이터 레이크의 Iceberg·Parquet 데이터를 함께 쿼리할 수 있게 됐다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "운영 DB와 데이터 레이크를 하나의 Postgres 인터페이스로 묶었다.",
+        "what": "AWS가 Amazon Aurora PostgreSQL에 DuckDB를 내장했다. 사용자는 기존 PostgreSQL 앱과 도구로 운영 데이터와 데이터 레이크의 Apache Iceberg·Parquet 데이터를 함께 직접 쿼리할 수 있다.",
+        "points": [
+          "Aurora PostgreSQL에 DuckDB 내장",
+          "Iceberg·Parquet 데이터 직접 쿼리",
+          "기존 PostgreSQL 도구 그대로 사용",
+          "실시간 대시보드·AI 에이전트에 활용 가능"
+        ],
+        "why": [
+          "별도 ETL·분석 스택 없이 운영·분석 데이터를 결합할 수 있어 초기 팀의 인프라 부담이 준다."
+        ]
+      }
+    },
+    {
+      "id": "founders-cloudflare-os-managed",
+      "title": "Cloudflare OS: 관리형 회사용 에이전트 워크스페이스",
+      "summary": "Cloudflare가 회사 업무 방식을 알고 데이터·시스템에 연결되는 에이전트 워크스페이스 Cloudflare OS의 완전 관리형 배포 대기자 명단을 열었다. 오픈소스라 맞춤화가 가능하다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/managed-cloudflare-os/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Cloudflare가 전사용 에이전트 워크스페이스를 관리형으로 내놨다.",
+        "what": "Cloudflare가 완전 관리형 Cloudflare OS 배포의 대기자 명단을 열었다. Cloudflare OS는 조직 구성원 모두에게 회사 업무 방식을 이해하고 데이터·시스템에 연결된 에이전트 워크스페이스를 제공하며, 오픈소스라 회사에 맞게 맞춤화할 수 있다.",
+        "points": [
+          "전 직원용 에이전트 워크스페이스",
+          "회사 데이터·시스템과 연결",
+          "에이전트에게 업무 위임·도구 제작 요청 가능",
+          "오픈소스, 관리형 배포는 대기자 명단"
+        ],
+        "why": [
+          "사내 AI 에이전트 플랫폼을 직접 구축하지 않고 도입할 수 있는 선택지가 생겼다."
+        ]
+      }
+    },
+    {
+      "id": "founders-firecrawl-agent",
+      "title": "Firecrawl Agent",
+      "summary": "웹 어디에 있든 데이터를 검색·탐색·수집하는 에이전트로, 스크립트나 수작업 없이 엔드투엔드 데이터 수집을 수행한다.",
+      "source": "Firecrawl Docs",
+      "url": "https://docs.firecrawl.dev/features/agent?utm_source=tldrfounders",
+      "report": {
+        "tldr": "웹 데이터 수집을 스크립트 없이 에이전트에 맡긴다.",
+        "what": "Firecrawl Agent는 다양한 웹사이트를 검색하고 탐색해 데이터를 수집하는 에이전트다. 접근하기 어려운 곳의 데이터도 찾아내며, 스크립트나 수작업 없이 엔드투엔드 데이터 수집을 처리한다.",
+        "points": [
+          "웹 검색·탐색·수집 자동화",
+          "접근 어려운 데이터도 수집",
+          "스크립트·수작업 불필요",
+          "사람이 수시간 걸릴 작업을 수분 내 처리"
+        ],
+        "why": [
+          "리서치·리드 수집 같은 반복 작업을 소규모 팀이 자동화할 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "founders-saastr-dreamforce-dinner",
+      "title": "'이렇게 비싼 저녁이면 내가 과다 지불 중이란 뜻': Dreamforce의 교훈",
+      "summary": "Groupon 임원이 벤더의 호화 저녁을 과다 지불 신호로 받아들인 일화를 통해, 고객이 갱신 시점뿐 아니라 상시로 가치를 체감하게 해야 한다고 강조한 글.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/this-is-a-pretty-fancy-dinner-that-probably-means-im-overpaying-a-dreamforce-lesson-from-a-top-5-customer/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "고객 접대보다 지속적 가치 체감이 갱신을 지킨다.",
+        "what": "SaaStr는 Groupon 임원이 벤더의 호화 저녁을 보고 과다 지불 중이라고 판단해 전략을 조정한 일화를 소개한다. 기업은 갱신 시점만이 아니라 상시로 고객이 가치를 느끼게 해야 하며, 부실한 지원과 불필요한 추가 과금을 피하고 고객 성공에 집중해야 한다.",
+        "points": [
+          "과한 접대는 과다 지불 신호로 읽힐 수 있음",
+          "가치 체감은 갱신 때만이 아니라 상시로",
+          "부실 지원·불필요한 추가 과금 회피",
+          "AI 분야에선 빠른 감사·재계약에 가치 인식이 결정적"
+        ],
+        "why": [
+          "AI SaaS 기업은 고객의 비용 감사가 잦아지는 환경에 대비해야 한다."
+        ]
+      }
+    },
+    {
+      "id": "founders-not-time-to-increase-burn",
+      "title": "지금은 번 레이트를 늘릴 때가 아니다",
+      "summary": "VC 시장이 자금이 풍부하다고 오해해 추가 자금 없이 번 레이트를 늘리는 창업자가 많지만, 투자자는 고성장 스타트업에 집중해 브리지 라운드가 필요한 기업은 자금 확보가 어렵다는 경고.",
+      "source": "Chris Neumann",
+      "url": "https://chrisneumann.com/archives/now-is-not-the-time-to-increase-your-burn-rate?utm_source=tldrfounders",
+      "report": {
+        "tldr": "자금 시장은 소수 고성장 기업에만 풍부하니 번 레이트를 조심하라.",
+        "what": "Chris Neumann은 창업자들이 현재 VC 시장을 자금이 넘친다고 오해해 추가 자금 확보 없이 번 레이트를 늘린다고 지적한다. 투자자는 빠르게 성장하는 스타트업에 집중하고 있어 브리지 라운드가 필요한 기업 등은 자금 확보가 어렵다.",
+        "points": [
+          "VC 자금 풍부는 착시",
+          "투자는 고성장 스타트업에 집중",
+          "브리지 라운드 확보 어려움",
+          "투자자와 솔직한 대화로 자금 현실 파악 필요"
+        ],
+        "why": [
+          "런웨이 관리가 생존을 좌우하는 시기임을 상기시킨다."
+        ]
+      }
+    },
+    {
+      "id": "founders-cb-insights-coding-agent-investors",
+      "title": "경쟁 코딩 에이전트 양쪽에 투자한 투자자들",
+      "summary": "Vinod Khosla, Keith Rabois 등이 이사회 자문 관련 공개 분쟁 중인 Factory와 Cognition 양쪽에 투자하고 있다는 CB Insights 분석.",
+      "source": "CB Insights",
+      "url": "https://www.cbinsights.com/research/coding-agent-investor-overlap/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "코딩 에이전트 경쟁사들 사이에 투자자가 겹친다.",
+        "what": "CB Insights는 경쟁 코딩 에이전트 기업 간 투자자 중복을 분석했다. Vinod Khosla와 Keith Rabois 등은 이사회 자문 관련 공개 분쟁이 벌어진 Factory와 Cognition 양쪽을 지원하고 있다.",
+        "points": [
+          "Factory와 Cognition의 투자자 중복",
+          "Vinod Khosla, Keith Rabois 등 양측 지원",
+          "이사회 자문 관련 공개 분쟁 진행"
+        ],
+        "why": [
+          "창업자는 투자자의 경쟁사 투자 여부와 이해상충을 확인해야 한다."
+        ]
+      }
+    },
+    {
+      "id": "founders-thiel-girard-anti-mimetic",
+      "title": "피터 틸, 르네 지라르, 그리고 반모방 투자",
+      "summary": "르네 지라르의 모방 욕망 이론이 긴밀한 커뮤니티가 같은 목표로 수렴해 경쟁과 군집 행동을 낳는 현상을 설명한다는 글.",
+      "source": "X/Twitter",
+      "url": "https://x.com/Ronanchamberss/status/2105711731112620364?utm_source=tldrfounders",
+      "report": {
+        "tldr": "모두가 쫓는 것을 피하는 것이 투자 우위가 된다.",
+        "what": "이 글은 르네 지라르의 모방 욕망 이론으로 투자 행태를 설명한다. 긴밀하게 연결된 커뮤니티는 같은 목표로 수렴하며 경쟁과 군집 행동을 만들어 내고, 이를 피하는 반모방적 접근이 피터 틸식 투자 관점과 연결된다.",
+        "points": [
+          "지라르의 모방 욕망 이론",
+          "네트워크화된 커뮤니티는 같은 목표로 수렴",
+          "경쟁과 군집 행동 유발",
+          "반모방적 사고가 투자 차별화 요소"
+        ],
+        "why": [
+          "유행 섹터에 몰리는 창업·투자 결정을 점검하는 프레임이다."
+        ]
+      }
+    },
+    {
+      "id": "founders-cloudflare-ai-search-ga",
+      "title": "Cloudflare AI Search 정식 출시",
+      "summary": "Cloudflare AI Search가 Workers AI, Vectorize, R2, Browser Run을 결합한 완전 관리형 인덱스·검색 파이프라인으로 정식 출시됐다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/ai-search-ga/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "RAG 검색 파이프라인을 완전 관리형으로 제공한다.",
+        "what": "Cloudflare가 AI Search를 정식 출시했다. Workers AI, Vectorize, R2, Browser Run을 결합해 인덱싱부터 검색까지 완전 관리형 파이프라인을 제공한다.",
+        "points": [
+          "정식 출시(GA)",
+          "Workers AI·Vectorize·R2·Browser Run 결합",
+          "완전 관리형 인덱스·검색 파이프라인"
+        ],
+        "why": [
+          "소규모 팀이 RAG 인프라를 직접 구축하지 않고 검색 기능을 붙일 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "founders-ando-20m-solo-founder",
+      "title": "공동창업자 없이 Accel·Index에서 2천만 달러 유치한 Ando",
+      "summary": "Sara Du의 신생 스타트업 Ando가 AI 에이전트를 동료로 통합한 메시징 플랫폼으로 Slack 대체를 노리며 Accel과 Index Ventures로부터 2천만 달러를 유치했다.",
+      "source": "Solo Founders",
+      "url": "https://solofounders.com/blog/20m-from-accel-index-to-replace-slack-with-no-co-founder/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "솔로 창업자가 AI 에이전트 협업 메신저로 2천만 달러를 유치했다.",
+        "what": "Sara Du가 공동창업자 없이 설립한 Ando가 Accel과 Index Ventures로부터 2천만 달러를 투자받았다. Ando는 AI 에이전트를 동료로 통합한 메시징 플랫폼으로 Slack 대체를 목표로 한다.",
+        "points": [
+          "투자 규모 2천만 달러(Accel, Index Ventures)",
+          "공동창업자 없는 솔로 창업",
+          "AI 에이전트를 동료로 통합한 메시징",
+          "Slack 대체 목표"
+        ],
+        "why": [
+          "솔로 창업자도 대형 VC 투자를 받을 수 있다는 사례이자, 업무 메신저 시장의 AI 재편 신호다."
+        ]
+      }
+    }
+  ]
+}

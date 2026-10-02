@@ -1,0 +1,248 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-s3-vectors-metadata-prefilter",
+      "title": "Amazon S3 Vectors, 메타데이터 사전 필터링 지원",
+      "summary": "AWS가 S3 Vectors에 쿼리당 최대 100개 제약 조건의 메타데이터 사전 필터링을 추가해, 선택적 필터에서 최대 5배 많은 일치 벡터를 추가 비용 없이 반환한다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-s3-vectors-now-supports-metadata-pre-filtering-for-higher-recall-on-filtered-searches/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "필터 검색의 재현율 문제를 S3 Vectors가 사전 필터링으로 해결했다.",
+        "what": "AWS가 Amazon S3 Vectors에 메타데이터 사전 필터링을 도입했다. 쿼리당 최대 100개 제약 조건을 지원하며, 선택적인 필터에서 최대 5배 많은 일치 벡터를 추가 비용 없이 제공한다.",
+        "points": [
+          "쿼리당 최대 100개 메타데이터 제약",
+          "선택적 필터에서 최대 5배 많은 결과",
+          "추가 비용 없음",
+          "필터 검색 재현율 개선"
+        ],
+        "why": [
+          "RAG 등에서 필터링된 벡터 검색의 품질 저하 문제를 줄인다."
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-containers-sandboxes",
+      "title": "Cloudflare Containers, 에이전트 샌드박스용으로 재구축",
+      "summary": "재설계된 Cloudflare Containers가 중앙값 648ms로 6배 빠른 시작 시간을 달성했고, 런타임 이미지 선택과 파일시스템 스냅샷을 베타로 제공한다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/faster-agent-sandboxes/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "에이전트 샌드박스 시작 시간이 4초대에서 648ms로 줄었다.",
+        "what": "Cloudflare가 에이전트 샌드박스 확장을 위해 Containers 서비스를 재설계했다. 시작 시간 중앙값이 4초 이상에서 648ms로 약 6배 빨라졌고, 런타임 이미지 선택과 파일시스템 스냅샷 기능이 베타로 제공된다.",
+        "points": [
+          "시작 시간 6배 단축(중앙값 648ms)",
+          "기존 4초 이상 대비 개선",
+          "런타임 이미지 선택(베타)",
+          "파일시스템 스냅샷(베타)"
+        ],
+        "why": [
+          "에이전트별 격리 실행 환경을 대량으로 띄우는 비용과 지연을 낮춘다."
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-pq-ca-mtc",
+      "title": "Merkle Tree 인증서로 양자내성 CA 구축",
+      "summary": "Cloudflare가 2027년 초 출범할 새 CA에서 배치형 Merkle 트리로 양자내성 서명 확장 문제를 해결하며, 시험 발급에서 기존 서명 대비 중앙값 9% 성능 향상을 확인했다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/pq-ca-with-mtcs/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Merkle Tree 인증서가 양자내성 TLS의 크기·성능 문제의 해법으로 부상했다.",
+        "what": "Cloudflare가 2027년 초 출범 예정인 새 인증기관(CA)에 Merkle Tree Certificates를 적용한다. 배치형 Merkle 트리로 양자내성 서명의 확장성 문제를 해결하며, 무료 발급 시험에서 기존 서명 대비 중앙값 9% 성능 향상을 보였다.",
+        "points": [
+          "2027년 초 새 CA 출범 예정",
+          "배치형 Merkle 트리 기반 인증서",
+          "양자내성 서명의 확장성 문제 대응",
+          "시험에서 중앙값 9% 성능 향상"
+        ],
+        "why": [
+          "양자내성 암호 전환이 웹 PKI 차원에서 구체화되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-ai-waf-testing",
+      "title": "Cloudflare, 프런티어 AI 모델로 자사 WAF 테스트",
+      "summary": "LLM 기반 동적 테스트 프레임워크로 6개 범주 1,107회 공격을 시도해 49건의 검토 대상 결과를 얻었고, 이를 바탕으로 SSRF·메타데이터 탐지를 추가했다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/adaptive-ai-waf-testing/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 레드팀으로 WAF의 빈틈을 찾아 탐지 규칙을 보강했다.",
+        "what": "Cloudflare가 프런티어 AI 모델을 활용한 동적 테스트 프레임워크로 자사 WAF를 점검했다. 6개 범주에서 1,107회 공격을 시도해 사람이 검토할 49건을 도출했고, 이를 바탕으로 SSRF와 메타데이터 관련 새 탐지를 추가했다.",
+        "points": [
+          "LLM 기반 동적 공격 테스트 프레임워크",
+          "6개 범주 1,107회 공격 시도",
+          "사람 검토 대상 49건 도출",
+          "SSRF·메타데이터 탐지 신규 추가"
+        ],
+        "why": [
+          "공격자도 AI를 쓰는 만큼 방어 측의 AI 기반 자체 점검이 표준이 될 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "devops-justify-platform-investment",
+      "title": "플랫폼 투자를 정당화하는 방법",
+      "summary": "Gartner의 AI 에이전트 축소 전망, DORA 2025의 내부 플랫폼 사용률 90%, IT 리더 97%가 클라우드 낭비를 체감한다는 데이터를 근거로 플랫폼 투자 논리를 정리한 글.",
+      "source": "Platform Engineering",
+      "url": "https://platformengineering.org/blog/how-to-justify-investment-in-a-platform?utm_source=tldrdevops",
+      "report": {
+        "tldr": "플랫폼 엔지니어링 투자는 데이터로 설득해야 한다.",
+        "what": "Platform Engineering은 플랫폼 투자를 정당화하기 위한 근거를 정리했다. Gartner는 2027년까지 기업 40%가 AI 에이전트를 축소할 것으로 전망하고, DORA 2025에 따르면 90%가 이미 내부 플랫폼을 쓰며, IT 리더 97%가 클라우드 지출 낭비를 체감한다.",
+        "points": [
+          "Gartner: 2027년까지 40% 기업이 AI 에이전트 축소 전망",
+          "DORA 2025: 90%가 내부 플랫폼 사용",
+          "IT 리더 97%가 클라우드 낭비 인식",
+          "수치 기반 투자 논리 구성"
+        ],
+        "why": [
+          "플랫폼 팀이 경영진에게 예산을 요청할 때 활용할 수 있는 근거다."
+        ]
+      }
+    },
+    {
+      "id": "devops-dbx-database-client",
+      "title": "DBX: 100개 이상 DB를 지원하는 25MB 클라이언트",
+      "summary": "100개 이상 데이터베이스를 지원하는 25MB 크로스플랫폼 DB 클라이언트로, AI SQL 생성과 MCP 서버 기반 에이전트 연동을 데스크톱·웹에서 제공한다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/t8y2/dbx?utm_source=tldrdevops",
+      "report": {
+        "tldr": "가볍고 AI·MCP 연동까지 갖춘 범용 DB 클라이언트.",
+        "what": "DBX는 100개 이상의 데이터베이스를 지원하는 25MB 크기의 크로스플랫폼 DB 클라이언트다. AI SQL 생성 기능과 MCP 서버를 통한 에이전트 연동을 데스크톱과 웹에서 모두 제공한다.",
+        "points": [
+          "25MB 경량 크로스플랫폼",
+          "100개 이상 DB 지원",
+          "AI 기반 SQL 생성",
+          "MCP 서버로 에이전트 연동"
+        ],
+        "why": [
+          "무거운 DB 도구의 대안이자 에이전트가 DB에 접근하는 통로가 될 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "devops-hyperframes",
+      "title": "Hyperframes: HTML/CSS를 MP4로 렌더링",
+      "summary": "HeyGen의 오픈소스 프레임워크로 HTML/CSS를 결정론적 MP4 영상으로 변환하며, 21개 에이전트 스킬이 기획부터 FFmpeg 렌더링까지 워크플로를 안내한다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/heygen-com/hyperframes?utm_source=tldrdevops",
+      "report": {
+        "tldr": "웹 기술로 영상을 결정론적으로 생성하는 오픈소스 도구.",
+        "what": "Hyperframes는 HTML/CSS를 결정론적인 MP4 영상으로 변환하는 오픈소스 프레임워크다. 21개의 에이전트 스킬이 기획부터 FFmpeg 렌더링까지 제작 워크플로를 에이전트에게 가르친다.",
+        "points": [
+          "HTML/CSS → 결정론적 MP4 변환",
+          "오픈소스(HeyGen)",
+          "21개 에이전트 스킬 제공",
+          "기획부터 FFmpeg 렌더링까지 지원"
+        ],
+        "why": [
+          "에이전트가 영상 콘텐츠를 코드처럼 생성·재현할 수 있게 한다."
+        ]
+      }
+    },
+    {
+      "id": "devops-datadog-mcp-code-execution",
+      "title": "Datadog MCP 서버에 코드 실행 도입",
+      "summary": "API에 대한 샌드박스 JavaScript 실행으로 4개 모델에서 정확도 21.8%p 향상, 입력 토큰 73% 감소, 도구 호출 40% 감소를 보였다.",
+      "source": "Datadog Blog",
+      "url": "https://www.datadoghq.com/blog/datadog-code-execution/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "MCP 도구를 하나씩 부르기보다 코드로 실행하게 하면 싸고 정확하다.",
+        "what": "Datadog이 MCP 서버에 API 대상 샌드박스 JavaScript 실행 기능을 추가했다. 4개 모델 테스트에서 정확도가 21.8%p 올랐고 입력 토큰은 73%, 도구 호출은 40% 줄었다.",
+        "points": [
+          "샌드박스 JavaScript로 API 호출",
+          "정확도 21.8%p 향상",
+          "입력 토큰 73% 감소",
+          "도구 호출 40% 감소(4개 모델 테스트)"
+        ],
+        "why": [
+          "MCP 설계에서 '코드 실행' 패턴이 비용·정확도 양면의 표준이 될 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "devops-4-levels-agentic-dev",
+      "title": "에이전틱 소프트웨어 개발의 4단계",
+      "summary": "기업의 AI 성과는 플랫폼 성숙도에 달려 있으며, 대부분 조직은 1~2단계에 있고 지속적 검증 루프로의 전환이 가장 큰 효과를 낸다는 분석.",
+      "source": "Platform Engineering",
+      "url": "https://platformengineering.org/blog/the-4-levels-of-agentic-software-development?utm_source=tldrdevops",
+      "report": {
+        "tldr": "에이전틱 개발의 성과는 지속적 검증 루프에서 갈린다.",
+        "what": "Platform Engineering은 에이전틱 소프트웨어 개발을 4단계로 나누고 기업의 AI 성과가 플랫폼 성숙도에 달려 있다고 분석한다. 대부분 조직은 1~2단계 사이에 있으며, 지속적 검증 루프를 갖추는 전환이 가장 큰 효과를 낸다.",
+        "points": [
+          "에이전틱 개발 성숙도 4단계 모델",
+          "대부분 조직은 1~2단계",
+          "플랫폼 성숙도가 AI 성과 좌우",
+          "지속적 검증 루프 도입이 최대 효과"
+        ],
+        "why": [
+          "AI 코딩 도입 로드맵을 세울 때 자기 진단 기준으로 쓸 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "devops-ai-changes-cognitive-load",
+      "title": "AI 변경의 인지 부하 줄이기",
+      "summary": "AI가 생성한 코드의 낯선 추상화 이름이 코드 리뷰 중 머릿속 번역 부담을 만든다는 지적.",
+      "source": "Personal Blog",
+      "url": "https://amoffat.github.io/blog/cognitive-load.html?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 코드의 낯선 이름이 리뷰 부담을 키운다.",
+        "what": "글쓴이는 AI가 생성한 코드에 등장하는 낯선 추상화 이름이 리뷰어에게 머릿속 번역 부담을 준다고 지적한다. 익숙한 명명과 구조를 유지하는 것이 AI 변경의 리뷰 비용을 줄이는 방법이다.",
+        "points": [
+          "AI 코드는 낯선 추상화 이름을 만들기 쉬움",
+          "리뷰 중 정신적 번역 오버헤드 발생",
+          "명명 일관성이 리뷰 효율 좌우"
+        ],
+        "why": [
+          "AI 생성 코드의 리뷰 병목을 줄이는 실용적 관점이다."
+        ]
+      }
+    },
+    {
+      "id": "devops-k8s-rbac-misconfig",
+      "title": "Kubernetes RBAC 잘못된 설정이 가장 쉬운 권한 상승 경로",
+      "summary": "cluster-admin 바인딩, 와일드카드, 과도한 시크릿 접근, 오래된 바인딩 같은 흔한 RBAC 실수가 새로운 CVE보다 클러스터 침해의 주원인이라는 분석.",
+      "source": "Cloud Native Now",
+      "url": "https://cloudnativenow.com/contributed-content/why-kubernetes-rbac-misconfigurations-are-the-easiest-privilege-escalation-youll-ever-find/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "클러스터 침해는 CVE보다 RBAC 설정 실수에서 시작된다.",
+        "what": "Cloud Native Now는 Kubernetes 클러스터 침해 대부분이 새로운 CVE가 아니라 흔한 RBAC 설정 실수에서 비롯된다고 분석한다. cluster-admin 바인딩, 와일드카드 권한, 과도한 시크릿 접근, 방치된 바인딩이 대표적이다.",
+        "points": [
+          "cluster-admin 바인딩 남용",
+          "와일드카드 권한",
+          "과도한 시크릿 접근",
+          "정리되지 않은 오래된 바인딩"
+        ],
+        "why": [
+          "RBAC 감사만으로도 상당한 권한 상승 위험을 줄일 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "devops-grafana-tempo-3-1",
+      "title": "Grafana Tempo 3.1 출시",
+      "summary": "커뮤니티 기여로 Kafka 수집이 개선돼 TLS와 데이터 전송 비용 절감 옵션이 추가되었고, TraceQL 메트릭 업데이트와 트레이스 마스킹 등이 포함됐다.",
+      "source": "Grafana Blog",
+      "url": "https://grafana.com/blog/tempo-3-1-release-all-the-latest-features/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Tempo 3.1이 Kafka 수집 보안·비용을 개선했다.",
+        "what": "Grafana가 분산 트레이싱 백엔드 Tempo 3.1을 출시했다. 커뮤니티 기여로 Kafka 수집에 TLS와 데이터 전송 비용 절감 옵션이 추가됐고, TraceQL 메트릭 업데이트와 트레이스 마스킹 기능도 포함됐다.",
+        "points": [
+          "Kafka 수집에 TLS 지원",
+          "데이터 전송 비용 절감 옵션",
+          "TraceQL 메트릭 업데이트",
+          "트레이스 마스킹(redaction)"
+        ],
+        "why": [
+          "Tempo 운영 팀의 보안 요구와 비용 부담을 함께 덜어준다."
+        ]
+      }
+    }
+  ]
+}

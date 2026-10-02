@@ -1,0 +1,319 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-zimbra-cve-exploited-email-theft",
+      "title": "공격자들, 치명적 Zimbra 취약점 악용해 이메일 탈취",
+      "summary": "Zimbra Collaboration Suite의 CVE-2026-73570이 조작된 이메일만으로 비인증 OS 명령 실행을 허용하며, 274개 인스턴스가 침해됐다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/09/attackers-have-been-exploiting-critical-zimbra-flaw-to-steal-emails/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "SNMP 기능을 켠 Zimbra 서버는 메일 한 통으로 장악될 수 있다.",
+        "what": "Zimbra Collaboration Suite의 CVE-2026-73570은 SNMP 기능이 활성화된 경우 조작된 이메일을 통해 인증 없이 OS 명령을 실행하게 한다. 공격자는 이를 이용해 웹셸 설치, 권한 상승, 자격 증명 탈취를 수행했다.",
+        "points": [
+          "CVE-2026-73570: 비인증 OS 명령 실행",
+          "SNMP 기능 활성화 시에만 악용 가능",
+          "웹셸·권한 상승·자격 증명 탈취로 이어짐",
+          "274개 인스턴스 침해 확인"
+        ],
+        "why": [
+          "메일 서버는 외부 입력을 그대로 받는 구조라 공격 표면이 넓다",
+          "SNMP 사용 여부 점검과 패치가 시급하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-fortimail-zero-day-cve",
+      "title": "Fortinet, 제로데이 공격에 악용된 FortiMail 치명적 취약점 경고",
+      "summary": "FortiMail 관리 인터페이스의 경로 탐색 취약점(CVE-2026-104286, CVSS 9.8)이 비인증 파일 쓰기와 코드 실행을 허용한다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/fortinet-warns-of-critical-fortimail-flaw-exploited-in-zero-day-attacks/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "패치 전까지 FortiMail IBE를 끄거나 관리 인터페이스 접근을 막아야 한다.",
+        "what": "Fortinet이 FortiMail 관리 인터페이스의 경로 탐색 취약점 CVE-2026-104286이 제로데이로 악용되고 있다고 경고했다. 인증 없이 임의 파일 쓰기와 코드 실행이 가능하다.",
+        "points": [
+          "CVSS 9.8 치명적 등급",
+          "관리 인터페이스 경로 탐색으로 임의 파일 쓰기·코드 실행",
+          "패치 출시 전 단계에서 이미 악용",
+          "임시 조치: IBE 비활성화 또는 관리 인터페이스 접근 제한"
+        ],
+        "why": [
+          "보안 장비 자체가 침투 경로가 되는 사례가 계속되고 있다",
+          "패치가 없는 상태라 완화 조치 적용 여부가 피해를 가른다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-cisco-sd-wan-auth-bypass",
+      "title": "또 다른 Cisco SD-WAN 치명적 취약점(CVE-2026-76504) 분석",
+      "summary": "비인증 POST 요청 하나로 Cisco SD-WAN vManage의 관리자 세션을 발급받는 인증 우회 취약점이며, 약 1,500개 인스턴스가 인터넷에 노출돼 있다.",
+      "source": "VulnCheck",
+      "url": "https://www.vulncheck.com/blog/revenge-of-the-sd-wan-cve-2026-76504?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Cisco SD-WAN vManage는 요청 한 번으로 관리자 권한이 털릴 수 있다.",
+        "what": "VulnCheck가 Cisco SD-WAN vManage의 인증 우회 취약점 CVE-2026-76504를 분석하고 악용 방법을 공개했다. 인증 없는 POST 요청만으로 관리자 세션이 생성된다.",
+        "points": [
+          "CVE-2026-76504: 비인증 POST로 관리자 세션 발급",
+          "대상: Cisco SD-WAN vManage",
+          "인터넷 노출 인스턴스 약 1,500개",
+          "Cisco SD-WAN의 연이은 치명적 취약점"
+        ],
+        "why": [
+          "네트워크 전체를 관리하는 컨트롤러라 침해 시 파급이 크다",
+          "관리 인터페이스의 외부 노출을 즉시 줄여야 한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-uber-ai-agent-identity-spire",
+      "title": "Uber, AI 에이전트의 신원 문제를 SPIRE로 해결",
+      "summary": "Uber가 에이전트 워크플로를 위해 SPIRE 기반 신원 체계를 구축하고, 자체 STS로 워크로드 ID와 JWT를 발급해 출처 추적과 권한 통제를 구현했다.",
+      "source": "Uber Blog",
+      "url": "https://www.uber.com/us/en/blog/solving-the-agent-identity-crisis/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 에이전트에도 사람처럼 검증 가능한 신원이 필요하다는 실무 사례.",
+        "what": "Uber는 에이전트 기반 워크플로에 SPIRE 기반 신원 시스템을 도입했다. 커스텀 STS(보안 토큰 서비스)가 워크로드 ID와 JWT를 발급해 에이전트 간 상호작용 전반의 출처를 추적하고 권한을 강제한다.",
+        "points": [
+          "SPIRE 기반 워크로드 신원 체계",
+          "커스텀 STS로 워크로드 ID·JWT 발급",
+          "에이전트 상호작용의 출처(provenance) 추적",
+          "에이전트 간 호출에 권한 정책 적용"
+        ],
+        "why": [
+          "에이전트가 늘수록 누가 무엇을 했는지 추적하는 체계가 핵심 통제가 된다",
+          "대규모 기업의 구체적 레퍼런스 아키텍처로 참고 가치가 높다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-block-attackers-not-defenders-ai",
+      "title": "신뢰 기반 사이버 접근 프로그램·오픈웨이트 제한 대신 해야 할 일",
+      "summary": "고급 AI 모델에 대한 방어자 접근을 제한하기보다 랩 간 KYC, 위협 탐지 개선, 투명성 지표로 공격자 접근을 차단하는 데 집중해야 한다는 주장이다.",
+      "source": "Joshua Saxe Substack",
+      "url": "https://joshuasaxe181906.substack.com/p/what-we-should-do-instead-of-trusted?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 보안 정책의 초점을 방어자 제한에서 공격자 차단으로 옮기자는 제안.",
+        "what": "Joshua Saxe는 신뢰 기반 사이버 접근 프로그램과 오픈웨이트 모델 제한이 방어자의 접근을 막는다고 지적한다. 대신 공격자의 접근을 차단하는 방향을 제안한다.",
+        "points": [
+          "방어자 대상 접근 제한에 대한 비판",
+          "여러 AI 랩이 공유하는 KYC 프로그램 제안",
+          "위협 탐지 역량 개선",
+          "투명성 지표 도입"
+        ],
+        "why": [
+          "사이버 특화 모델을 소수에게만 여는 최근 흐름과 정면으로 대비된다",
+          "AI 랩들의 접근 통제 정책 논의에 대안을 제시한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-bitget-hack-zero-day-appliance",
+      "title": "Bitget, 서드파티 보안 제품의 제로데이로 해킹",
+      "summary": "이름이 공개되지 않은 보안 장비의 제로데이가 3억 8,750만 달러 탈취 25일 전 초기 침투 경로가 됐고, 공격자는 웹셸로 이동해 지갑 서버를 털었다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/bitget-hacked-via-zero-day-in-third-party-security-products/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "보안 장비 제로데이에서 시작된 25일간의 잠복이 3억 8,750만 달러 탈취로 끝났다.",
+        "what": "Bitget 해킹은 미공개 서드파티 보안 장비의 제로데이로 시작됐다. 공격자는 탈취 25일 전 침투한 뒤 웹셸로 내부 이동했고, 위조된 리스크 통제 파라미터로 지갑 서버에서 자금을 빼냈다.",
+        "points": [
+          "피해액 3억 8,750만 달러",
+          "초기 침투: 미공개 보안 장비 제로데이",
+          "탈취 25일 전 최초 접근",
+          "위조 리스크 통제 파라미터로 지갑 서버 인출"
+        ],
+        "why": [
+          "보안 제품이 오히려 초기 침투 지점이 되는 공급망 리스크를 보여준다",
+          "장기 잠복을 놓친 탐지 공백이 거대 피해로 이어졌다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-kunglao-agent-reverse-engineering",
+      "title": "kunglao-agent: 자율 리버스 엔지니어링용 Claude Code 플러그인",
+      "summary": "자율적인 리버스 엔지니어링 작업을 위해 설계된 Claude Code 플러그인이다.",
+      "source": "GitHub",
+      "url": "https://github.com/amd2g2zz/kunglao-agent?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "리버스 엔지니어링을 코딩 에이전트에 맡기는 오픈소스 플러그인.",
+        "what": "kunglao-agent는 Claude Code에서 리버스 엔지니어링 작업을 자율적으로 수행하도록 만든 플러그인이다. GitHub에 공개돼 있다.",
+        "points": [
+          "Claude Code 플러그인 형태",
+          "자율 리버스 엔지니어링 목적",
+          "GitHub 오픈소스 공개"
+        ],
+        "why": [
+          "바이너리 분석 같은 전문 작업에도 코딩 에이전트 활용이 확산되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-gemini-4-argon-cyber-defenders",
+      "title": "Google Gemini 4 Argon, 신뢰된 사이버 방어자에게 공개",
+      "summary": "Google이 Fairwind 프로그램을 통해 Argon을 신뢰된 사이버 방어자에게 제공하며, 이 모델은 CWE-bench 68%를 기록하고 20개 언어의 취약점을 찾아낸다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Google도 사이버 특화 프런티어 모델을 제한적 방어자 프로그램으로 배포한다.",
+        "what": "Google이 차세대 프런티어 모델 Gemini 4 Argon을 공개하고 Fairwind 프로그램을 통해 신뢰된 사이버 방어자에게 제공한다. 오용 방지 안전장치를 갖췄다.",
+        "points": [
+          "Fairwind 프로그램으로 신뢰된 방어자에게 제공",
+          "CWE-bench 68% 달성",
+          "20개 프로그래밍 언어에서 취약점 식별",
+          "오용 방지 안전장치 포함"
+        ],
+        "why": [
+          "AI 기반 취약점 탐지 경쟁이 본격화되고 있다",
+          "같은 호의 접근 제한 비판 글과 함께 읽을 만한 사례다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-drop-sandbox-tool",
+      "title": "Drop: 개발 환경 설정을 유지하는 프로그램·에이전트 샌드박스",
+      "summary": "개발 환경 구성을 유지하면서 프로그램과 에이전트를 격리하는 샌드박스 환경을 만드는 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/wrr/drop?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트를 격리하면서도 개발 환경은 그대로 쓰게 해주는 샌드박스.",
+        "what": "Drop은 프로그램과 에이전트를 샌드박스 환경에 격리해 실행하게 해주는 오픈소스 도구다. 기존 개발 환경 설정은 그대로 유지된다.",
+        "points": [
+          "프로그램·에이전트 격리 실행",
+          "개발 환경 구성 유지",
+          "GitHub 오픈소스"
+        ],
+        "why": [
+          "코딩 에이전트에 로컬 권한을 줄 때 피해 범위를 줄이는 실용적 방법이다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-openai-disrupts-distillation-campaign",
+      "title": "OpenAI, 조직적 모델 증류 캠페인 차단",
+      "summary": "OpenAI가 4,000명 이상 사용자의 16,000건 요청으로 이뤄진 추출 캠페인을 차단하고, 핵심 활동을 Moonshot AI 인력과 연결했다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "OpenAI가 모델 증류 시도를 특정 경쟁사 인력과 공개적으로 연결했다.",
+        "what": "OpenAI는 자사 모델 출력을 대량 추출하려던 조직적 증류 캠페인을 차단했다고 밝혔다. 핵심 활동을 Moonshot AI 인력과 연결했으며, 출력 검사와 파트너 간 위협 정보 공유를 도입했다.",
+        "points": [
+          "4,000명 이상 사용자, 16,000건 요청",
+          "핵심 활동을 Moonshot AI 인력과 연결",
+          "출력 검사 도입",
+          "파트너 간 위협 정보 공유"
+        ],
+        "why": [
+          "모델 증류가 AI 랩 간 지식재산 보호의 핵심 쟁점이 되고 있다",
+          "사용자 분산형 추출에 대한 탐지 방식을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-metamask-validator-exit-incident",
+      "title": "MetaMask 보안 사고로 영향받은 이더리움 검증자 종료",
+      "summary": "MetaMask가 인프라 보안 사고로 비수탁형 스테이킹의 영향받은 검증자를 선제적으로 종료하며, 10월 7일까지 완료할 예정이다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/metamask-security-incident-prompts-exit.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "인프라 사고 여파로 MetaMask가 스테이킹 검증자를 선제적으로 빼고 있다.",
+        "what": "MetaMask는 인프라 보안 사고에 대응해 비수탁형 스테이킹 운영의 영향받은 이더리움 검증자를 선제적으로 종료하고 있다. 종료는 10월 7일까지 완료될 예정이다.",
+        "points": [
+          "원인: 인프라 보안 사고",
+          "대상: 비수탁형 스테이킹의 영향받은 검증자",
+          "선제적 종료 조치",
+          "10월 7일 완료 예정"
+        ],
+        "why": [
+          "스테이킹 운영 인프라도 공격 표면이 됨을 보여준다",
+          "같은 날 Bitget 해킹과 함께 크립토 인프라 보안 우려를 키운다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-google-ai-vuln-discovery-pace",
+      "title": "Google: AI가 취약점 발견의 속도와 양상을 바꾸고 있다",
+      "summary": "2026년 월간 취약점 공개가 1만 건 이상으로 두 배가 됐고 고위험 결함은 167% 늘었으며, AI가 찾은 버그는 원격 코드 실행 쪽이지만 중·저위험 분류가 많다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/google-ai-is-changing-the-pace-and-profile-of-vulnerability-discovery/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 덕에 취약점 공개량이 두 배가 되며 패치 운영 부담이 급증하고 있다.",
+        "what": "Google 분석에 따르면 2026년 월간 취약점 공개 건수가 두 배로 늘어 1만 건을 넘었다. 고위험 결함도 167% 증가했고, AI가 발견한 버그는 원격 코드 실행 유형에 치우치지만 위험도는 중·저로 분류되는 경향이 있다.",
+        "points": [
+          "월간 취약점 공개 1만 건 이상, 두 배 증가",
+          "고위험 결함 167% 증가",
+          "AI 발견 버그는 RCE 유형 비중이 큼",
+          "다만 위험도는 중·저 분류 경향"
+        ],
+        "why": [
+          "취약점 관리 팀의 우선순위 판단 부담이 커진다",
+          "AI가 방어와 공격 양쪽 속도를 모두 끌어올리고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-uk-rail-facial-recognition-zero-matches",
+      "title": "영국 철도경찰, 32만 파운드 얼굴인식 시범 운영 결과 일치 0건",
+      "summary": "영국 교통경찰이 런던 철도역에서 6개월간 실시간 얼굴인식을 시범 운영하며 50만 명 이상의 얼굴을 스캔했지만 일치 사례는 없었다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/09/30/uk-rail-cops-320k-face-scanning-spree-nets-zero-matches/5299793?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "50만 명을 스캔한 얼굴인식 시범 사업이 성과 없이 끝났다.",
+        "what": "British Transport Police가 런던 철도역에서 6개월간 실시간 얼굴인식 시범 운영을 진행했다. 50만 명 이상의 얼굴을 스캔했으나 일치 건수는 0건이었다.",
+        "points": [
+          "비용 32만 파운드",
+          "6개월간 런던 철도역 시범 운영",
+          "50만 명 이상 얼굴 스캔",
+          "일치 0건"
+        ],
+        "why": [
+          "대규모 감시 기술의 비용 대비 효과에 의문을 제기한다",
+          "공공장소 얼굴인식 확대 논쟁의 근거가 된다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-antino-backdoor-china-nexus-asia",
+      "title": "중국 연계 해커, 새 Antino 백도어로 아시아 350개 시스템 침해",
+      "summary": "Microsoft Graph API를 C2로 쓰는 Rust 기반 윈도우 백도어 Antino가 중국 연계 첩보 캠페인에서 아시아 약 350개 엔드포인트를 감염시켰다.",
+      "source": "GBHackers",
+      "url": "https://gbhackers.com/antino-backdoor/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "정상 클라우드 API를 C2로 악용하는 Rust 백도어가 아시아를 겨냥했다.",
+        "what": "중국 연계 첩보 캠페인에서 새로운 Rust 기반 윈도우 백도어 Antino가 발견됐다. Microsoft Graph API를 명령제어(C2) 통신에 활용하며, 아시아 전역 약 350개 엔드포인트를 침해했다.",
+        "points": [
+          "Rust로 작성된 윈도우 백도어",
+          "Microsoft Graph API를 C2 채널로 사용",
+          "아시아 약 350개 엔드포인트 침해",
+          "중국 연계 첩보 활동"
+        ],
+        "why": [
+          "정상 클라우드 트래픽에 숨는 C2는 네트워크 탐지를 어렵게 만든다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-signal-encrypted-backups-all-platforms",
+      "title": "Signal, 전 플랫폼에 보안 채팅 백업 배포 완료",
+      "summary": "Signal 8.30이 표준화된 형식의 종단간 암호화 백업을 모든 플랫폼에 배포했지만, 복구 키가 공격자의 표적이 되고 있다는 보고가 있다.",
+      "source": "SC World",
+      "url": "https://www.scworld.com/brief/signal-completes-rollout-of-secure-chat-backups-across-all-platforms?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Signal 암호화 백업이 전 플랫폼으로 확대됐지만 복구 키가 새 표적이 됐다.",
+        "what": "Signal은 8.30 버전으로 종단간 암호화 백업 기능을 모든 플랫폼에 배포 완료했다. 백업 형식도 표준화됐지만, 복구 키를 노리는 공격이 보고되고 있다.",
+        "points": [
+          "Signal 8.30에서 전 플랫폼 배포 완료",
+          "종단간 암호화 백업",
+          "표준화된 백업 형식",
+          "복구 키를 노린 공격 보고"
+        ],
+        "why": [
+          "백업이 생기면 복구 키가 곧 계정 전체의 열쇠가 된다",
+          "사용자는 복구 키 보관에 각별히 주의해야 한다"
+        ]
+      }
+    }
+  ]
+}

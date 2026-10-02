@@ -1,0 +1,309 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-expo-live-activities",
+      "title": "Expo로 iOS Live Activities 엔드투엔드 구현",
+      "summary": "TypeScript로 iOS Live Activities를 만들어 SwiftUI로 컴파일하고, 백엔드에서 APNs로 업데이트하는 전 과정을 다룬 가이드.",
+      "source": "Expo",
+      "url": "https://expo.dev/blog/live-activities-with-expo-end-to-end-client-and-backend?utm_source=tldrdev",
+      "report": {
+        "tldr": "Live Activities를 TypeScript와 백엔드 푸시까지 한 번에 구현하는 실전 가이드.",
+        "what": "Expo가 iOS Live Activities를 TypeScript로 작성해 SwiftUI 인터페이스로 컴파일하는 방법을 공개했다. 백엔드에서 APNs를 통해 활동을 시작·갱신하는 서버 측 구현까지 함께 다룬다.",
+        "points": [
+          "TypeScript 인터페이스를 SwiftUI로 컴파일",
+          "push-to-start 토큰과 DB 매핑 처리",
+          "APNs용 JWT 인증과 페이로드 구조",
+          "활동 생명주기(시작·갱신·종료) 관리"
+        ],
+        "why": [
+          "네이티브 Swift 없이 React Native 팀이 iOS 고유 기능을 쓸 수 있는 경로를 제시한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-jane-street-fuse-depot",
+      "title": "Jane Street, 사내 스토리지용 FUSE 서버 구축",
+      "summary": "Jane Street가 객체 저장소 Depot을 POSIX 파일시스템으로 노출하는 OCaml 기반 읽기 전용 FUSE 서버를 만들어 대용량 파일 처리량을 약 30MiB/s에서 1.3GiB/s로 끌어올렸다.",
+      "source": "Jane Street",
+      "url": "https://blog.janestreet.com/linux-engineering-depot-fuse-index/?utm_source=tldrdev",
+      "report": {
+        "tldr": "병렬 읽기와 제로카피로 FUSE 처리량을 40배 이상 높인 사례.",
+        "what": "Jane Street는 사내 객체 저장소 Depot을 일반 파일시스템처럼 쓸 수 있도록 OCaml 네이티브 읽기 전용 FUSE 서버를 구축했다. 병렬 읽기와 제로카피 버퍼 처리로 대용량 파일 처리량을 약 30MiB/s에서 1.3GiB/s로 개선했다.",
+        "points": [
+          "OCaml 네이티브 읽기 전용 FUSE 서버",
+          "Depot 객체 저장소를 POSIX 인터페이스로 노출",
+          "병렬 읽기·제로카피 버퍼로 최적화",
+          "처리량 약 30MiB/s → 1.3GiB/s"
+        ],
+        "why": [
+          "FUSE가 느리다는 통념과 달리, 설계에 따라 프로덕션급 성능을 낼 수 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-folder-structure-two-jobs",
+      "title": "폴더 구조의 두 가지 역할",
+      "summary": "좋은 폴더 구조는 기존 파일 찾기와 새 파일 배치 규칙 두 역할을 모두 해야 하며, 레이어 기반 구조가 분류를 결정적으로 만든다는 주장.",
+      "source": "Sterling Freeman",
+      "url": "https://blog.sterlingfreeman.net/posts/folder-structure-two-jobs/?utm_source=tldrdev",
+      "report": {
+        "tldr": "폴더 구조는 '찾기'뿐 아니라 '어디에 둘지'를 결정해 줘야 한다.",
+        "what": "글쓴이는 폴더 구조가 기존 파일 탐색과 새 파일 배치 규칙이라는 두 역할을 갖지만 대개 하나만 수행한다고 지적한다. 레이어 기반 구조가 배치를 결정적으로 만들어 코드베이스가 커질 때 쌓이는 분류 오류를 막는다고 주장한다.",
+        "points": [
+          "역할 1: 기존 파일을 쉽게 찾게 하기",
+          "역할 2: 새 파일 위치를 일관되게 정하기",
+          "레이어 기반 구조는 분류를 결정적으로 만듦",
+          "모호한 배치는 코드베이스 성장과 함께 오류가 누적됨"
+        ],
+        "why": [
+          "팀 규모가 커질수록 구조 규칙의 일관성이 유지보수 비용을 좌우한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-personal-agents-winner",
+      "title": "개인 에이전트 경쟁의 승자 예측",
+      "summary": "개인 에이전트는 사용자가 가치를 느끼기 전에 맥락이 필요한 콜드스타트 문제를 안고 있으며, 행동 맥락과 깊은 정체성 이해를 결합한 제품이 이길 수 있다는 분석.",
+      "source": "X/Hunter Rice",
+      "url": "https://x.com/hunterrice/status/2105311793631633565?utm_source=tldrdev",
+      "report": {
+        "tldr": "개인 에이전트의 승부처는 콜드스타트를 넘는 맥락 확보다.",
+        "what": "Hunter Rice는 개인 에이전트가 사용자에게 가치를 주려면 먼저 맥락 정보가 필요한 콜드스타트 문제를 지적한다. 행동 맥락과 깊은 정체성 이해를 결합해 지속적 선호와 일시적 관심을 구분하는 제품이 유리하다고 본다.",
+        "points": [
+          "개인 에이전트의 핵심 장벽은 콜드스타트",
+          "행동 기반 맥락만으로는 부족",
+          "정체성 수준의 이해와 결합 필요",
+          "지속적 선호와 일시적 관심의 구분이 관건"
+        ],
+        "why": [
+          "에이전트 제품 설계 시 데이터 확보 전략이 기능보다 중요할 수 있음을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "dev-death-of-software-engineering",
+      "title": "소프트웨어 엔지니어링 종말론에 대한 생각을 바꾼 이유",
+      "summary": "코딩 에이전트는 프로토타이핑에 뛰어나지만, 트레이드오프·리스크·고객 요구·유지비용 판단에는 여전히 숙련 엔지니어가 필수라는 주장.",
+      "source": "X/Divya Venn",
+      "url": "https://x.com/divya_venn/status/2105578860733739375?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 시대 엔지니어의 가치는 판단력과 시스템 이해에 있다.",
+        "what": "Divya Venn은 코딩 에이전트가 프로토타이핑을 잘하지만 트레이드오프, 리스크, 고객 요구, 유지보수 비용을 결정하는 일은 숙련 엔지니어 몫이라고 말한다. 시스템과 조직을 깊이 이해하고 그 판단으로 에이전트를 지휘하는 엔지니어의 가치가 커진다고 본다.",
+        "points": [
+          "코딩 에이전트는 프로토타이핑에 강점",
+          "트레이드오프·리스크 판단은 사람이 담당",
+          "시스템·조직에 대한 깊은 이해가 경쟁력",
+          "엔지니어는 에이전트를 지휘하는 역할로 이동"
+        ],
+        "why": [
+          "AI 도입 이후 엔지니어 역량 개발 방향을 재정의하는 관점이다."
+        ]
+      }
+    },
+    {
+      "id": "dev-props-not-design-system",
+      "title": "Props는 디자인 시스템이 아니다",
+      "summary": "props·유틸리티 클래스·인라인 스타일로 호출 지점에서 스타일을 정하면 인스턴스마다 별도의 디자인 결정이 생기므로, 시맨틱 변형과 제한된 수정자로 일관성을 지켜야 한다는 주장.",
+      "source": "Vitonsky",
+      "url": "https://vitonsky.net/blog/2026/09/18/design-system/?utm_source=tldrdev",
+      "report": {
+        "tldr": "호출부 스타일링을 줄이고 시맨틱 변형으로 외형을 정의하라.",
+        "what": "글쓴이는 props, 유틸리티 클래스, 인라인 스타일로 호출 지점에서 스타일을 지정하면 컴포넌트 인스턴스마다 별개의 디자인 결정이 생긴다고 지적한다. 시맨틱 변형이 전체 외형을 정의하고, 제한된 수정자만 의도된 변주를 허용해야 일관성이 유지된다고 주장한다.",
+        "points": [
+          "호출부 스타일링은 인스턴스별 디자인 결정을 양산",
+          "시맨틱 variant가 완전한 외형을 정의해야 함",
+          "수정자(modifier)는 의도적 변주에만 제한적으로 사용",
+          "일관성은 API 설계에서 강제됨"
+        ],
+        "why": [
+          "프런트엔드 컴포넌트 라이브러리의 장기 일관성을 좌우하는 설계 원칙이다."
+        ]
+      }
+    },
+    {
+      "id": "dev-cloudflare-clef-decision-models",
+      "title": "Cloudflare, 결정 모델 Clef 공개",
+      "summary": "Cloudflare가 라우팅·분류 워크플로용으로 확률이 붙은 제한된 타입 출력을 반환하는 오픈소스 결정 모델 Clef와 Clef-flash를 Workers AI에 출시했다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/clef-decision-models/?utm_source=tldrdev",
+      "report": {
+        "tldr": "자유 텍스트 대신 타입이 정해진 결정을 내리는 경량 모델이 나왔다.",
+        "what": "Cloudflare가 오픈소스 결정 모델 Clef와 Clef-flash를 발표했다. 라우팅·분류 워크플로에서 확률이 포함된 제한된 타입 출력을 반환하며 Workers AI에서 실행되고, 강화학습 기반 미세조정 옵션을 제공한다.",
+        "points": [
+          "Clef, Clef-flash 두 가지 오픈소스 모델",
+          "확률이 포함된 제한된 타입 출력 반환",
+          "Workers AI에서 실행",
+          "강화학습 미세조정 옵션 지원"
+        ],
+        "why": [
+          "에이전트 파이프라인의 라우팅·분류 단계를 범용 LLM보다 예측 가능하게 만들 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-weave-router",
+      "title": "Weave Router: 에이전트용 오픈소스 모델 라우터",
+      "summary": "프롬프트마다 적합한 모델로 보내는 OpenAI 호환 엔드포인트 기반 오픈소스 라우터로, 50ms 미만 라우팅 오버헤드와 추론 비용 절감을 목표로 한다.",
+      "source": "GitHub",
+      "url": "https://github.com/weave-os/router?utm_source=tldrdev",
+      "report": {
+        "tldr": "OpenAI 호환 엔드포인트 하나로 프롬프트별 모델 라우팅.",
+        "what": "Weave Router는 에이전트 시스템에서 각 프롬프트를 적합한 모델로 보내는 오픈소스 라우터다. OpenAI 호환 엔드포인트 뒤에서 동작하며 50ms 미만 라우팅 오버헤드와 추론 비용 절감을 목표로 한다.",
+        "points": [
+          "프롬프트별 적합 모델 자동 선택",
+          "OpenAI 호환 엔드포인트 제공",
+          "라우팅 오버헤드 50ms 미만 목표",
+          "기존 앱에 빠르게 통합 가능"
+        ],
+        "why": [
+          "모델 비용이 커지는 에이전트 서비스에서 비용·품질 균형을 잡는 수단이다."
+        ]
+      }
+    },
+    {
+      "id": "dev-pi-1-0",
+      "title": "Pi 1.0 출시: 미니멀 에이전트 하네스",
+      "summary": "Pi 1.0이 Codemode, 가상 모델, 지연 도구 로딩, 캐시 워밍 등으로 에이전트 하네스를 강화했고, 장기 실행용 실험 패키지 Pi Durable도 MIT 라이선스로 공개됐다.",
+      "source": "Earendil",
+      "url": "https://earendil.com/posts/pi-1-0/?utm_source=tldrdev",
+      "report": {
+        "tldr": "미니멀 에이전트 하네스 Pi가 1.0으로 안정화됐다.",
+        "what": "Earendil이 미니멀 에이전트 하네스 Pi 1.0을 출시했다. Codemode, 가상 모델, 지연 도구 로딩, 캐시 워밍, 트랜스크립트 인식 시스템 변경 등이 추가됐고, 장기 실행 에이전트 앱을 위한 실험 패키지 Pi Durable도 함께 MIT 라이선스로 공개됐다.",
+        "points": [
+          "Codemode와 가상 모델 지원",
+          "지연 도구 로딩과 캐시 워밍",
+          "트랜스크립트 인식 시스템 변경",
+          "장기 실행용 Pi Durable(실험)"
+        ],
+        "why": [
+          "가벼운 오픈소스 에이전트 하네스 선택지가 프로덕션 수준으로 성숙하고 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-coding-mental-load",
+      "title": "AI 코딩 도구는 인지 부하를 옮긴다",
+      "summary": "SAP 개발자 21명 대상 4일 현장 연구에서 생성형 AI를 쓴 작업이 7점 척도 인지 부하에서 약 1점 높게 나타나, 부담이 타이핑에서 검토·검증으로 이동함을 시사했다.",
+      "source": "StackSweep",
+      "url": "https://www.stacksweep.dev/ai-coding-tools-shift-mental-load/?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI는 개발자의 일을 줄이기보다 검토·검증 부담으로 옮긴다.",
+        "what": "SAP 개발자 21명을 4일간 관찰한 현장 연구에서, 작업 유형과 시간을 통제한 뒤에도 생성형 AI를 쓴 작업의 인지 부하가 7점 척도에서 약 1점 높았다. 노력이 타이핑에서 프롬프트 작성, 검토, 검증, 통합으로 이동한다는 해석이다.",
+        "points": [
+          "SAP 개발자 21명, 4일 현장 연구",
+          "AI 사용 작업 인지 부하 약 1점 상승(7점 척도)",
+          "작업 유형·시간 통제 후 결과",
+          "부담이 프롬프트·검토·검증·통합으로 이동"
+        ],
+        "why": [
+          "AI 도입 생산성 평가 시 인지 부하와 리뷰 비용을 함께 봐야 함을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-agents-api-architecture",
+      "title": "AI 에이전트가 바꾸는 API 아키텍처",
+      "summary": "자율 에이전트로 인해 API가 최소 권한, 적시 인가, 예측 가능한 스키마, 기계 판독 문서 쪽으로 진화하고 관측성 요구도 확대된다는 분석.",
+      "source": "Nordic APIs",
+      "url": "https://nordicapis.com/how-ai-agents-are-changing-api-architecture/?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트가 주 소비자가 되면 API는 권한·스키마·관측성부터 바뀐다.",
+        "what": "Nordic APIs는 자율 에이전트가 API 아키텍처를 최소 권한 접근, 적시(JIT) 인가, 예측 가능한 스키마, 기계 판독 가능한 문서 방향으로 이끈다고 분석한다. 관측성도 기존 지표를 넘어 에이전트 신원, 위임 권한, 워크플로 맥락, 토큰 사용량까지 포함해야 한다.",
+        "points": [
+          "최소 권한과 적시 인가가 기본값으로",
+          "예측 가능한 스키마와 기계 판독 문서 필요",
+          "관측성에 에이전트 신원·위임 권한 추가",
+          "워크플로 맥락과 토큰 사용량 추적"
+        ],
+        "why": [
+          "에이전트 트래픽을 받을 API 설계자에게 보안·관측성 체크리스트가 된다."
+        ]
+      }
+    },
+    {
+      "id": "dev-death-of-web-dev-education",
+      "title": "웹 개발 교육의 죽음",
+      "summary": "AI가 교육 자료를 학습에 활용하면서 독립 웹 교육자들의 수입과 독자가 줄고, 인간 학습 커뮤니티와 지식 인프라가 위협받고 있다는 글.",
+      "source": "Molily",
+      "url": "https://molily.de/web-dev-education/?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI가 웹 개발 교육 생태계의 기반을 잠식하고 있다.",
+        "what": "글쓴이는 AI 시스템이 독립 웹 교육자들의 자료를 활용하면서 이들의 수입과 독자가 줄고 있다고 지적한다. 그 결과 인간 학습 커뮤니티와 웹 개발 교육을 떠받치던 지속적 지식 인프라가 위협받는다고 경고한다.",
+        "points": [
+          "독립 웹 교육자의 수입·독자 감소",
+          "AI가 교육 자료를 학습·활용",
+          "인간 학습 커뮤니티 약화",
+          "장기적 지식 인프라 위기"
+        ],
+        "why": [
+          "AI 답변의 원천이 되는 양질의 콘텐츠 생산 동기가 사라질 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-turbopuffer-rip-vector-database",
+      "title": "RIP, 벡터 데이터베이스",
+      "summary": "Turbopuffer v3가 근사 최근접 이웃 검색을 보조 인덱스로 구현해, 전문 검색·필터링·집계에 최적화된 저장 레이아웃을 가능하게 했다.",
+      "source": "Turbopuffer",
+      "url": "https://turbopuffer.com/blog/rip-vector-database?utm_source=tldrdev",
+      "report": {
+        "tldr": "벡터 검색은 별도 DB가 아니라 인덱스 하나가 되어간다.",
+        "what": "Turbopuffer v3는 근사 최근접 이웃(ANN) 검색을 보조 인덱스로 구현했다. 이를 통해 증폭을 줄이는 저장 레이아웃과 전문 검색, 필터링, 집계 등에 최적화된 블록 크기를 사용할 수 있게 됐다.",
+        "points": [
+          "ANN 검색을 보조 인덱스로 구현",
+          "저장 증폭을 줄이는 레이아웃",
+          "전문 검색·필터링·집계에 맞춘 블록 크기",
+          "벡터 전용 DB 개념에 대한 도전"
+        ],
+        "why": [
+          "검색 인프라 선택 시 벡터 전용 DB의 필요성을 재검토하게 만든다."
+        ]
+      }
+    },
+    {
+      "id": "dev-chatgpt-plan-other-apps",
+      "title": "ChatGPT 요금제를 다른 앱에서 사용",
+      "summary": "Plus·Pro 사용자는 API 키 공유 없이 참여 앱에 ChatGPT Work와 Codex 기능 사용을 허가하고, 앱별 한도·권한·연결 해제를 설정에서 관리할 수 있다.",
+      "source": "OpenAI",
+      "url": "https://help.openai.com/en/articles/20001542-using-your-chatgpt-plan-in-other-apps-and-sites?utm_source=tldrdev",
+      "report": {
+        "tldr": "ChatGPT 구독이 서드파티 앱의 AI 결제 수단이 된다.",
+        "what": "OpenAI가 Plus·Pro 사용자가 API 키를 공유하지 않고도 참여 앱에 ChatGPT Work와 Codex 기능 사용을 허가할 수 있게 했다. 앱별 한도, 크레딧 대체 사용, 권한, 연결 해제를 ChatGPT 설정에서 관리한다.",
+        "points": [
+          "Plus·Pro 대상",
+          "API 키 없이 앱에 권한 부여",
+          "앱별 한도와 크레딧 대체 사용",
+          "설정에서 권한·연결 해제 관리"
+        ],
+        "why": [
+          "앱 개발자는 자체 추론 비용 없이 사용자 구독으로 AI 기능을 제공할 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "dev-sveltekit-3",
+      "title": "SvelteKit 3 출시",
+      "summary": "SvelteKit 3가 폐기 API를 제거하고 네이티브 서브패스 import와 Rolldown 기반 Vite 8을 도입했으며, 마이그레이션 명령을 제공한다.",
+      "source": "Svelte",
+      "url": "https://svelte.dev/blog/sveltekit-3-is-here?utm_source=tldrdev",
+      "report": {
+        "tldr": "SvelteKit이 Vite 8·Rolldown 기반 메이저 버전으로 올라섰다.",
+        "what": "SvelteKit 3가 출시돼 폐기된 API를 제거하고 네이티브 서브패스 import와 Rolldown 기반 Vite 8을 채택했다. 서비스 워커와 환경 변수 처리도 개선됐으며 기존 프로젝트용 마이그레이션 명령이 포함됐다.",
+        "points": [
+          "폐기 API 제거",
+          "네이티브 서브패스 import 채택",
+          "Rolldown 기반 Vite 8",
+          "서비스 워커·환경 변수 처리 개선, 마이그레이션 명령 제공"
+        ],
+        "why": [
+          "Svelte 사용 팀은 마이그레이션 계획을 세워야 한다."
+        ]
+      }
+    }
+  ]
+}

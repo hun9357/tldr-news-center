@@ -1,0 +1,246 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-ai-shopping-fewer-returns",
+      "title": "AI 쇼핑이 반품을 줄일 수 있다",
+      "summary": "어도비 조사에서 AI로 쇼핑한 소비자의 69%가 반품 가능성이 낮다고 답했고, AI 유입 트래픽 전환율은 60% 높았다.",
+      "source": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/ai-shopping-could-mean-fewer-returns?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 쇼핑은 구매 전 불확실성을 해소해 전환은 높이고 반품은 줄일 수 있다.",
+        "what": "AI 쇼핑이 구매 전 불확실성을 해소해 이커머스 반품을 줄일 수 있다는 분석이다. 어도비 조사에서 AI를 활용한 소비자의 69%가 반품 가능성이 낮다고 답했고, AI 유입 트래픽은 그렇지 않은 트래픽보다 60% 높게 전환됐다. 상세한 제품 데이터를 AI에 제공하는 것이 핵심이다.",
+        "points": [
+          "AI 쇼핑 이용자 69%가 반품 가능성 낮다고 응답",
+          "AI 유입 트래픽 전환율 60% 높음",
+          "사양·치수·호환성·배송 예정일·리뷰·FAQ 등 상세 데이터 제공 필요"
+        ],
+        "why": [
+          "제품 데이터 품질이 AI 커머스 시대의 핵심 마케팅 자산이 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-marketing-engineers",
+      "title": "AI 시대 생존을 위해 '엔지니어'로 리브랜딩하는 마케터들",
+      "summary": "AI 에이전트를 배치해 미디어 바잉과 개인화 광고를 자동화하는 '마케팅 엔지니어'가 새 직함으로 부상하고 있다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/cmo-today/marketers-are-rebranding-as-engineers-to-survive-the-ai-era-2938574b?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "'마케팅 엔지니어'는 AI 에이전트를 다루며 취향을 공급하는 새 직군으로 포지셔닝 중이다.",
+        "what": "마케팅 엔지니어는 AI 에이전트로 미디어 바잉과 개인화 광고 같은 업무를 자동화하면서 에이전트에게 없는 취향을 더하는 역할로 소개된다. 최근 18억 달러 가치를 인정받은 Profound는 전용 채용 게시판, 해커톤, 팟캐스트로 이 직함과 브랜드를 묶었다. 회의론자들은 '디지털 닌자'의 재포장이라고 본다.",
+        "points": [
+          "빌더와 마케터를 겸하는 역할로 정의",
+          "Profound(기업가치 18억 달러)가 직함 확산 주도",
+          "회의론: '디지털 닌자', '스토리텔러'의 후속 유행어"
+        ],
+        "why": [
+          "AI 자동화 속에서 마케터의 역할 재정의 압력이 커지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-reddit-moderator-outreach",
+      "title": "레딧 모더레이터와 진짜 관계를 맺는 법",
+      "summary": "서브레딧을 조사하고 실명 계정으로 투명하게 접근해, 홍보 허락보다 기여를 먼저 제안하라는 레딧 모더레이터 아웃리치 가이드다.",
+      "source": "Standing on Giants",
+      "url": "https://www.standingongiants.com/blog/reddit-moderator-outreach/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "레딧 모더레이터에게는 홍보 요청이 아니라 커뮤니티 기여로 다가가라.",
+        "what": "서브레딧의 규칙과 관심사를 먼저 파악하고, 실제 활동 이력이 있는 실명 계정으로 회사와 자신을 명확히 소개하라고 조언한다. 전문가 답변, 제품 맥락, 얼리 액세스 같은 기여를 제안하되 처음부터 홍보 허락을 구하지 말라고 한다. 꾸준한 참여는 모더레이터를 신뢰하는 파트너로 만든다.",
+        "points": [
+          "서브레딧 규칙과 관심사 사전 조사",
+          "활동 이력 있는 실명 계정 사용",
+          "홍보 허락보다 기여 제안이 먼저",
+          "홍보할 것이 없을 때도 지속적으로 소통"
+        ],
+        "why": [
+          "AI 답변이 레딧을 많이 인용하면서 레딧 커뮤니티 관계의 마케팅 가치가 커졌다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-brands-fighting-ai-slop",
+      "title": "브랜드들이 AI 슬롭에 맞서는 방법",
+      "summary": "J.Crew가 실제 인물 160명을 내세운 캠페인처럼, 브랜드들이 사람과 물리적 신호로 기계가 만든 콘텐츠와 차별화하고 있다.",
+      "source": "The Brand Blueprint (Substack)",
+      "url": "https://thebrandblueprint.substack.com/p/how-brands-are-fighting-ai-slop?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 콘텐츠가 넘칠수록 '사람이 했다'는 증거가 가치가 된다.",
+        "what": "브랜드들이 콘텐츠가 기계로 만들어지지 않았음을 보여주기 위해 사람과 물리적 신호를 활용하고 있다. J.Crew의 Barn Jacket 캠페인은 5개 도시의 실제 인물 160명을 등장시켰다. 아티스트 협업, 출시 전 과정 공개, 인쇄물·오프라인 매장으로의 이동도 늘고 있다.",
+        "points": [
+          "J.Crew 캠페인, 5개 도시 실존 인물 160명 기용",
+          "아티스트 커미션과 제작 과정 공개",
+          "인쇄물·물리적 리테일로 확장"
+        ],
+        "why": [
+          "진정성 증명이 브랜드 차별화의 새 축이 되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-openai-dots",
+      "title": "OpenAI, 상시 작동 AI 에이전트 'dots' 공개",
+      "summary": "OpenAI가 GPT-6 Astra 기반으로 자체 클라우드 컴퓨터와 연결 앱을 쓰며 목표를 향해 독립적으로 일하는 상시 에이전트 dots를 공개했다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-dots/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "OpenAI가 사용자 맥락을 학습하며 스스로 일하는 상시형 에이전트 dots를 내놨다.",
+        "what": "dots는 GPT-6 Astra로 구동되는 상시 작동 AI 에이전트로, 자체 클라우드 컴퓨터와 연결된 앱을 사용해 목표를 향해 독립적으로 일한다. 시간이 지나며 선호와 맥락을 학습하고 ChatGPT, Slack, Teams에서 작동한다. 접근 범위와 승인이 필요한 동작은 사용자가 통제한다.",
+        "points": [
+          "GPT-6 Astra 기반, 자체 클라우드 컴퓨터 사용",
+          "선호와 맥락을 학습해 지속 업무 처리",
+          "ChatGPT·Slack·Teams 연동",
+          "특정 조직 업무용 전문 dots도 개발 중"
+        ],
+        "why": [
+          "마케팅 운영 업무 상당 부분이 상시 에이전트에 위임될 수 있다",
+          "접근 권한과 승인 설계가 도입의 핵심 과제가 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-visibility-9m-prompts",
+      "title": "900만 개 프롬프트와 400여 브랜드로 본 AI 가시성",
+      "summary": "900만 개 AI 답변 데이터 분석 결과, 감성은 인용과 무관하고 YouTube가 2.8배로 가장 큰 제3자 효과를 내는 등 흔한 GEO 가정이 틀린 것으로 나타났다.",
+      "source": "Neil Patel",
+      "url": "https://neilpatel.com/blog/ai-visibility-myths-data/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "GEO 통념 상당수가 데이터로 반박됐고, 깊은 주제 커버리지가 안정성의 열쇠다.",
+        "what": "900만 개 AI 답변을 분석한 결과 흔한 GEO 가정 대부분이 틀린 것으로 나타났다. 감성은 인용과 양의 상관이 없고 리스티클은 평범하지만 충실한 페이지에 밀린다. YouTube가 2.8배로 가장 큰 제3자 효과를 냈고, 인용의 최대 58%는 다시 나타나지 않는다.",
+        "points": [
+          "YouTube 2.8배로 LinkedIn·Reddit보다 큰 효과",
+          "인용의 최대 58%는 재등장하지 않음",
+          "브랜드 페이지를 인용한 답변의 최대 75%가 브랜드명을 언급하지 않음",
+          "변동성은 플랫폼보다 브랜드에 좌우"
+        ],
+        "why": [
+          "인용 수만으로는 AI 가시성 성과를 과대평가하게 된다",
+          "GEO 투자 우선순위를 데이터로 재점검할 근거"
+        ]
+      }
+    },
+    {
+      "id": "marketing-linkedin-post-ideas-webinar",
+      "title": "링크드인 게시물 아이디어가 마르지 않게 하는 법 (웨비나)",
+      "summary": "10월 28일 웨비나에서 AI 프롬프트를 활용해 링크드인 게시물 아이디어를 꾸준히 만드는 단계별 워크플로를 다룬다.",
+      "source": "Maven",
+      "url": "https://maven.com/p/bd7858/how-to-never-run-out-of-linked-in-post-ideas?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 프롬프트로 링크드인 아이디어 발굴을 반복 가능한 프로세스로 만드는 웨비나.",
+        "what": "10월 28일 열리는 이 웨비나는 청중에게 공감을 얻고 권위를 쌓는 링크드인 게시물 아이디어를 꾸준히 만드는 법을 다룬다. 막히는 심리를 짚고 AI 프롬프트로 아이디어를 확장하는 방법을 보여준다.",
+        "points": [
+          "10월 28일 개최",
+          "아이디어가 막히는 심리 분석",
+          "AI 프롬프트 활용 아이디어 확장",
+          "단계별 반복 워크플로"
+        ],
+        "why": [
+          "B2B 마케터의 링크드인 콘텐츠 운영 효율화에 실용적"
+        ]
+      }
+    },
+    {
+      "id": "marketing-creators-in-ai-answers",
+      "title": "2026년 크리에이터가 AI 답변에 등장하는 방식",
+      "summary": "AI로 쇼핑하는 사람의 56%가 크리에이터 리뷰 기반 추천을 선호하지만, 최종 구매 결정은 여전히 평점과 리테일러 데이터가 좌우한다.",
+      "source": "Kaleigh Moore",
+      "url": "https://www.kaleighmoore.com/blog/2026/9/30/creator-aeo-how-creators-are-showing-up-in-ai-answers-in-2026?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "크리에이터는 AI 쇼핑의 초기 탐색 단계에서 가장 큰 영향력을 가진다.",
+        "what": "AI로 쇼핑하는 사람의 56%가 크리에이터 리뷰를 반영한 추천을 선호한다. 크리에이터는 신뢰와 후보군 형성 초기에 가장 중요하고, 최종 결정은 평점과 리테일러 데이터가 이끈다. 쇼핑객은 유명인(13%)보다 일반 고객의 실사용 경험(52%)을 우선하길 원한다.",
+        "points": [
+          "AI 쇼핑객 56%가 크리에이터 리뷰 기반 추천 선호",
+          "일반 고객 52% vs 유명인 13% 선호",
+          "팔로워 수가 신뢰를 준다는 응답은 21%",
+          "관심도는 Z·밀레니얼 65%, 부머 34%"
+        ],
+        "why": [
+          "크리에이터 마케팅이 AEO(답변 엔진 최적화) 전략의 일부가 되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-forgotten-wordpress-hack",
+      "title": "68초: 잊힌 웹사이트 하나가 사이트 19개를 무너뜨린 사연",
+      "summary": "방치된 워드프레스 사이트가 탈취된 비밀번호와 파일 관리자 플러그인을 통해 공격받아 같은 호스팅 계정의 사이트 19개가 68초 만에 감염됐다.",
+      "source": "Nelson Isibor",
+      "url": "https://nelsonisibor.com/68-seconds-how-one-forgotten-website-took-down-19-of-mine/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "방치된 사이트 하나가 같은 계정의 모든 사이트를 위험에 빠뜨린다.",
+        "what": "잊힌 워드프레스 사이트가 같은 호스팅 계정의 19개 사이트를 감염시킨 공격의 진입점이 됐다. 공격자는 탈취한 비밀번호와 파일 관리자 플러그인으로 악성코드를 심었고, 68초 만에 확산돼 약 40만 개의 카지노 스팸 페이지를 만들었다. 악성코드는 관리자에게서 페이지를 숨기고 SEO 크롤러를 차단하며 Google Search Console에 무단 접근 권한을 추가했다.",
+        "points": [
+          "탈취된 비밀번호와 파일 관리자 플러그인이 침투 경로",
+          "68초 만에 19개 사이트 감염",
+          "약 40만 개 카지노 스팸 페이지 생성",
+          "Search Console 무단 권한 추가, 크롤러 차단"
+        ],
+        "why": [
+          "SEO 자산을 운영하는 마케터에게 방치 사이트 정리와 계정 분리의 중요성을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-discord-ads-manager",
+      "title": "디스코드, 광고주 타기팅 도구 확대",
+      "summary": "디스코드가 소규모 스튜디오도 직접 캠페인을 집행할 수 있는 셀프서브 광고 관리자를 내놓고 Video Quests를 예약형 포맷으로 바꿨다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/09/discord-gives-advertisers-more-tools-to-target-its-users/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "디스코드가 셀프서브 광고로 중소 광고주에게 문을 열었다.",
+        "what": "디스코드가 셀프서브 Ads Manager를 도입해 영업 담당자 없이도 소규모 스튜디오가 캠페인을 운영할 수 있게 했다. Video Quests는 대형 브랜드 모먼트를 위한 예약형 포맷이 된다.",
+        "points": [
+          "셀프서브 Ads Manager 도입",
+          "소규모 스튜디오도 직접 캠페인 집행",
+          "Video Quests는 예약형 포맷으로 전환"
+        ],
+        "why": [
+          "게이밍 커뮤니티 대상 광고 접근성이 크게 넓어진다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-gartner-ai-entry-level-roles",
+      "title": "가트너: 2030년까지 AI가 마케팅팀의 신입 단계를 없앤다",
+      "summary": "가트너는 2030년까지 AI가 신입 마케팅 업무 상당수를 자동화해 팀들이 주니어 역할을 재설계해야 할 것으로 예측했다.",
+      "source": "Gartner",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-09-29-gartner-predicts-ai-will-allow-the-majority-of-high-performing-marketing-teams-to-eliminate-traditional-bottom-rungs-of-the-corporate-ladder-by-2030?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI가 마케팅 커리어 사다리의 맨 아래 칸을 대체할 전망이다.",
+        "what": "가트너는 AI가 2030년까지 많은 신입 마케팅 업무를 자동화할 것으로 예측했다. 이에 따라 고성과 마케팅팀 다수가 전통적인 하위 직급을 없애고 주니어 역할을 재설계해야 한다.",
+        "points": [
+          "2030년까지 신입 마케팅 업무 다수 자동화 전망",
+          "고성과 팀 다수가 전통적 하위 직급 제거",
+          "주니어 역할 재설계 필요"
+        ],
+        "why": [
+          "인재 육성 파이프라인이 끊길 수 있어 조직 설계 재검토가 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-reddit-kills-rss-api",
+      "title": "레딧, AI 봇 때문에 RSS 피드와 공개 API 종료",
+      "summary": "레딧이 11월 13일 RSS를, 내년 3월까지 공개 API를 종료해 소셜 리스닝 도구와 연구자, AI 어시스턴트의 접근이 막힌다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "레딧이 AI 봇 대응으로 RSS와 공개 API를 닫는다.",
+        "what": "레딧이 AI 봇을 이유로 RSS 피드와 공개 API 접근을 종료한다. RSS는 11월 13일, 공개 API는 3월까지 차단된다. 소셜 리스닝 도구, 연구자, AI 어시스턴트가 영향을 받는다.",
+        "points": [
+          "RSS 11월 13일 종료",
+          "공개 API 3월까지 종료",
+          "소셜 리스닝 도구·연구자·AI 어시스턴트 접근 차단"
+        ],
+        "why": [
+          "레딧 기반 소셜 리스닝과 모니터링 워크플로를 서둘러 재점검해야 한다",
+          "플랫폼 데이터 접근이 AI 시대에 더 폐쇄적으로 바뀌고 있다"
+        ]
+      }
+    }
+  ]
+}

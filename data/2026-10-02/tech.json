@@ -1,0 +1,286 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-starlink-community-site-passes",
+      "title": "스타링크, '커뮤니티 사이트'로 시간·주 단위 인터넷 패스 예고",
+      "summary": "스타링크가 현지 호스트를 모집해 시간·일·주 단위 위성 인터넷 패스를 판매하는 모델을 준비 중이다. 결제와 연결 관리는 스타링크가 맡는다.",
+      "source": "PCMag",
+      "url": "https://www.pcmag.com/news/starlink-community-site-program-teases-hourly-weekly-internet-passes?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "스타링크가 단말 구매 없이 쓰는 단기 이용권 모델을 실험한다.",
+        "what": "스타링크가 '커뮤니티 사이트' 프로그램을 통해 호스트를 모집하고, 이용자에게 시간·일·주 단위 인터넷 패스를 판매하는 방식을 개발하고 있다. 호스트가 거점을 제공하고 스타링크가 결제와 연결을 관리하는 구조다.",
+        "points": [
+          "시간·일·주 단위 패스 형태의 과금",
+          "현지 호스트를 모집해 거점 운영",
+          "결제와 연결 관리는 스타링크가 직접 담당"
+        ],
+        "why": [
+          "단말·월 구독 부담이 큰 지역에서 가입 장벽을 낮출 수 있는 모델",
+          "위성 인터넷의 공유형·선불형 유통 채널 확대"
+        ]
+      }
+    },
+    {
+      "id": "tech-why-muse-may-never-need-ads",
+      "title": "메타 Muse가 광고 없이도 돈을 벌 수 있는 이유",
+      "summary": "메타는 개인 에이전트 Muse 앱 안에 광고를 넣지 않고도, 각 심부름에서 얻은 신호를 페이스북·인스타그램 광고에 활용해 수익화할 수 있다는 분석이다.",
+      "source": "MBI Deep Dives",
+      "url": "https://www.mbi-deepdives.com/no-ads-muse/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Muse의 진짜 수익원은 앱 내 광고가 아니라 메타 광고 생태계로 흘러가는 신호다.",
+        "what": "MBI Deep Dives는 메타의 개인 에이전트 Muse가 앱 내 광고 없이도 수익화가 가능하다고 분석했다. 사용자가 맡긴 각 심부름에서 수집되는 신호가 페이스북·인스타그램 광고 타기팅을 강화하기 때문이다.",
+        "points": [
+          "Muse 앱 자체에는 광고를 노출하지 않음",
+          "에이전트가 처리하는 작업마다 의도 신호 수집",
+          "수익화는 기존 페북·인스타 광고망을 통해 간접적으로 발생"
+        ],
+        "why": [
+          "AI 에이전트 비즈니스 모델이 광고 노출에서 데이터 신호로 이동하는 사례",
+          "앱 내 광고 부재가 사용자 신뢰 확보 수단이 될 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "tech-fervo-enhanced-geothermal-23-months",
+      "title": "세계 최초 EGS 지열발전소, 23개월 만에 완공",
+      "summary": "Fervo Energy의 케이프 스테이션 지열 시설이 23개월 만에 상업 운전에 들어갔다. 최대 4GW까지 확장 가능하며 향후 블록은 18개월 내 완공을 목표로 한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/worlds-first-enhanced-geothermal-power-plant-completed-in-just-23-months/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "강화 지열(EGS)이 실험 단계를 넘어 상업 운전에 진입했다.",
+        "what": "Fervo Energy의 케이프 스테이션 강화 지열 발전소가 착공 23개월 만에 상업 운전을 시작했다. 이 부지는 최대 4GW까지 발전할 잠재력이 있으며, 회사는 후속 블록을 18개월 안에 완공하는 것을 목표로 한다.",
+        "points": [
+          "세계 최초 강화 지열(EGS) 발전소 상업 운전",
+          "건설 기간 23개월",
+          "최대 4GW 잠재력",
+          "후속 블록은 18개월 완공 목표"
+        ],
+        "why": [
+          "데이터센터 등 급증하는 전력 수요에 대응할 무탄소 기저전원 후보",
+          "빠른 건설 속도가 지열의 경제성 논쟁을 바꿀 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "tech-nasa-prima-telescope",
+      "title": "NASA, 10억 달러급 원적외선 망원경 PRIMA 승인",
+      "summary": "NASA가 비용과 성능을 절충한 새 'Probe Explorers' 계열의 첫 임무로 원적외선 관측 망원경 PRIMA를 승인했다. 2033년 발사가 목표다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "NASA가 중형 '프로브' 임무로 원적외선 천문학 공백을 메운다.",
+        "what": "NASA가 원적외선 천체물리 탐사 임무 PRIMA(Probe far-Infrared Mission for Astrophysics)를 승인했다. 비용과 역량의 균형을 노린 새 'Probe Explorers' 라인의 일환이며 2033년 발사 예정이다.",
+        "points": [
+          "PRIMA는 원적외선 파장 관측 전용",
+          "새 'Probe Explorers' 임무 라인 신설",
+          "10억 달러 규모, 2033년 발사 목표",
+          "기록적인 속도로 개발하는 것이 목표"
+        ],
+        "why": [
+          "대형 플래그십과 소형 임무 사이의 중간급 임무 모델 시험대",
+          "NASA 예산 압박 속 과학 임무 추진 방식의 변화"
+        ]
+      }
+    },
+    {
+      "id": "tech-pi-durable",
+      "title": "Pi Durable: 장시간 실행되는 내구성 에이전트 프레임워크",
+      "summary": "Pi Durable은 어디서나 배포 가능한 장기 실행·복원력 있는 에이전트를 위한 실험적 프레임워크로, 무한 대화와 장애 복구, 다중 사용자 조종을 지원한다.",
+      "source": "Earendil",
+      "url": "https://earendil.com/posts/pi-durable/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "에이전트 앱을 위한 '내구성 실행' 레이어 실험.",
+        "what": "Earendil이 장시간 실행되는 에이전트를 위한 실험적 프레임워크 Pi Durable을 공개했다. 무한 대화, 장애 발생 시 복구, 여러 사용자가 에이전트를 조종하는 기능을 지원한다.",
+        "points": [
+          "어디서나 배포 가능한 장기 실행 에이전트",
+          "무한 대화 지원",
+          "장애 복구 기능",
+          "다중 사용자 조종(steering)"
+        ],
+        "why": [
+          "에이전트가 길어질수록 상태 보존과 장애 복구가 핵심 인프라 과제가 됨"
+        ]
+      }
+    },
+    {
+      "id": "tech-ror-creator-coding-by-hand-debate",
+      "title": "DHH '손 코딩 중단' 선언, 코딩의 종말 논쟁 재점화",
+      "summary": "루비 온 레일즈 창시자 DHH가 37signals는 더 이상 손으로 코드를 짜지 않는다고 밝히며, AI 네이티브 엔지니어 수요를 둘러싼 논쟁이 다시 불붙었다.",
+      "source": "Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-ror-creator-sparks-new-death-of-coding-by-hand-debate/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 회의론자였던 DHH마저 손 코딩을 접었다.",
+        "what": "Ruby on Rails 창시자 David Heinemeier Hansson이 37signals가 수작업 코딩을 중단했다고 발표했다. Pragmatic Engineer는 AI의 성숙이 소프트웨어 개발 방식을 바꾸고 AI 네이티브 엔지니어 수요를 만들고 있다고 짚었다.",
+        "points": [
+          "37signals, 손 코딩 중단 선언",
+          "AI 도구 성숙도가 개발 방식 전환을 촉발",
+          "AI 네이티브 엔지니어링 인재 수요 증가"
+        ],
+        "why": [
+          "영향력 있는 개발자의 입장 변화가 업계 관행 전환을 가속",
+          "개발자 역할과 채용 기준이 재정의되는 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-xbox-ceo-asha-sharma",
+      "title": "Xbox 밀레니얼 CEO 아샤 샤르마의 10억 사용자 전략",
+      "summary": "38세 Xbox CEO 아샤 샤르마가 아프리카·중남미·남아시아로 클라우드 게이밍을 확장하고 마인크래프트에 재투자해 10억 사용자를 노린다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/09/30/arts/xbox-microsoft-asha-sharma.html?unlocked_article_code=1.FFE.3j4o.dae9CYU4odK1&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Xbox가 콘솔 대신 클라우드로 신흥시장 10억 사용자를 겨냥한다.",
+        "what": "뉴욕타임스가 Xbox의 38세 CEO 아샤 샤르마를 조명했다. 그는 클라우드 게이밍을 아프리카·중남미·남아시아로 확장하고 마인크래프트에 재투자해 10억 사용자 달성을 목표로 하고 있다.",
+        "points": [
+          "목표: 10억 사용자",
+          "클라우드 게이밍으로 신흥시장 공략",
+          "마인크래프트 재투자"
+        ],
+        "why": [
+          "콘솔 판매 중심에서 플랫폼·구독 중심으로의 전략 이동",
+          "신흥시장이 게임 업계 다음 성장처로 부상"
+        ]
+      }
+    },
+    {
+      "id": "tech-the-dot-and-the-swarm",
+      "title": "점과 무리: AI 에이전트와 일자리의 미래",
+      "summary": "AI 에이전트는 아직 상당한 인간 업무를 대체할 역량이 부족하지만, 인간 감독 하에 기업에 통합하는 것은 수월해 보이며 오히려 고용을 늘릴 수 있다는 에세이다.",
+      "source": "One Useful Thing",
+      "url": "https://www.oneusefulthing.org/p/the-dot-and-the-swarm?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "에이전트는 대체보다 확장에 가깝다는 시각.",
+        "what": "이선 몰릭의 One Useful Thing은 AI 에이전트가 인간의 실질적 업무를 대체하기엔 아직 역량이 부족하다고 진단했다. 다만 적절한 인간 감독이 있으면 기업 통합은 어렵지 않으며, 고용이 줄기보다 늘어날 가능성도 있다고 봤다.",
+        "points": [
+          "에이전트의 업무 대체 역량은 아직 제한적",
+          "인간 감독 하 기업 통합은 비교적 용이",
+          "고용 감소보다 확대 가능성 제기"
+        ],
+        "why": [
+          "AI 일자리 논쟁에서 '대체' 대신 '보완' 관점의 근거 제공"
+        ]
+      }
+    },
+    {
+      "id": "tech-cloudflare-clef-decision-models",
+      "title": "Cloudflare, 오픈소스 의사결정 모델 Clef와 RL 파인튜닝 플랫폼 공개",
+      "summary": "Cloudflare가 에이전트가 맥락을 수집·판단·실행하도록 돕는 API 호환 의사결정 모델 Clef와 Clef-flash를 공개했다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/clef-decision-models/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Cloudflare가 에이전트용 '판단 전용' 모델 경쟁에 합류했다.",
+        "what": "Cloudflare가 오픈소스 의사결정 모델 Clef와 경량 버전 Clef-flash, 그리고 새 강화학습 파인튜닝 플랫폼을 발표했다. 이 모델들은 API 호환이며 에이전트가 프로그래밍 방식으로 맥락을 모으고 판단을 내려 작업을 실행하게 한다.",
+        "points": [
+          "Clef·Clef-flash 두 가지 의사결정 모델",
+          "API 호환 설계",
+          "RL 파인튜닝 플랫폼 동시 출시"
+        ],
+        "why": [
+          "범용 LLM 대신 분류·판단 특화 소형 모델 수요가 커지는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "tech-agent-session-transcripts-precious",
+      "title": "에이전트 세션 기록은 소중하니 보관하라",
+      "summary": "요청과 행동을 기록한 에이전트 세션 트랜스크립트는 잠재적 문제를 알려주는 조기 경보 지표 역할을 한다.",
+      "source": "Quesma",
+      "url": "https://quesma.com/blog/agent-session-transcripts-are-precious/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "에이전트 로그는 버리는 데이터가 아니라 품질 신호다.",
+        "what": "Quesma는 에이전트가 받은 요청과 수행한 행동을 담은 세션 트랜스크립트를 보관해야 한다고 주장했다. 이 기록이 잠재적 문제를 미리 감지하는 조기 경보 역할을 하기 때문이다.",
+        "points": [
+          "세션 기록에는 요청과 행동이 모두 담김",
+          "문제 조기 감지 지표로 활용 가능",
+          "기본적으로 삭제하지 말고 보존할 것"
+        ],
+        "why": [
+          "에이전트 관측성(observability) 체계의 기초 데이터"
+        ]
+      }
+    },
+    {
+      "id": "tech-inevitability-of-local-stablecoins",
+      "title": "로컬 스테이블코인의 필연성",
+      "summary": "스테이블코인이 금융 시스템의 근간이 되려면 거래량이 전통 금융의 패턴과 수렴해야 한다는 분석이다.",
+      "source": "Lombard Notes",
+      "url": "https://lombardnotes.xyz/2026/10/01/the-inevitability-of-local-stablecoins/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "달러 스테이블코인 다음은 현지 통화 스테이블코인이라는 주장.",
+        "what": "Lombard Notes는 스테이블코인이 금융 시스템의 중추가 되려면 그 거래량이 전통 금융의 거래 패턴과 수렴해야 한다고 분석했다. 이 논리에서 현지 통화 기반 스테이블코인의 등장이 필연적이라고 본다.",
+        "points": [
+          "스테이블코인 거래량과 전통 금융 패턴의 수렴 필요",
+          "현지 통화 스테이블코인 확산 전망"
+        ],
+        "why": [
+          "스테이블코인이 투기용에서 실물 결제 인프라로 이동하는 방향성 제시"
+        ]
+      }
+    },
+    {
+      "id": "tech-broadcom-60b-anthropic-chips",
+      "title": "브로드컴, 앤트로픽 칩 공급 위해 600억 달러 조달 착수",
+      "summary": "브로드컴이 앤트로픽 등에 칩과 인프라 접근을 제공하기 위해 600억 달러 규모 자금 조달에 나섰다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-02/broadcom-starts-amassing-60-billion-to-fund-chips-for-anthropic?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MDkyMjQzOCwiZXhwIjoxNzkxNTI3MjM4LCJhcnRpY2xlSWQiOiJUTTkwWUVLSzNOWUQwMCIsImJjb25uZWN0SWQiOiJFQTExNDNDNTM4NEE0RUY5QTg5RjJEN0IxMTg2MzcwOSJ9.ou2DaP8DyjOKlNzvvF7qkpSHPum6rWuWYguG_k-KLHo&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 칩 공급이 이제 칩 제조사가 직접 자금을 대는 금융 게임이 됐다.",
+        "what": "블룸버그에 따르면 브로드컴이 앤트로픽 등 AI 기업에 칩과 인프라 접근을 제공하기 위한 600억 달러 규모 자금 마련에 착수했다.",
+        "points": [
+          "조달 규모 600억 달러",
+          "앤트로픽 등 AI 기업 대상 칩·인프라 공급 목적",
+          "칩 공급사가 고객 컴퓨트를 직접 금융 지원하는 구조"
+        ],
+        "why": [
+          "AI 컴퓨트 확보 경쟁에서 벤더 금융이 핵심 수단으로 부상",
+          "브로드컴의 맞춤형 AI 칩 사업 비중 확대 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-arxiv-rate-limit-policy",
+      "title": "arXiv, 제출 횟수 제한하는 새 정책 도입",
+      "summary": "arXiv가 제출자당 월 2건, 동시에 활성 상태인 제출은 최대 3건으로 제한하는 새 정책을 시행한다.",
+      "source": "arXiv",
+      "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI발 논문 홍수에 arXiv가 제출 상한을 걸었다.",
+        "what": "arXiv가 공정한 심사와 공평한 접근, AI를 이유로 제출 속도 제한 정책을 개정했다. 제출자는 한 달에 2건까지 제출할 수 있으며 동시에 활성 상태인 제출은 최대 3건으로 제한된다.",
+        "points": [
+          "월 2건 제출 상한",
+          "동시 활성 제출 최대 3건",
+          "모더레이션 부담과 공평한 접근을 명분으로 제시"
+        ],
+        "why": [
+          "AI 생성 논문 증가가 학술 인프라 운영 정책을 바꾸고 있음",
+          "다작 연구자·연구실의 프리프린트 전략에 영향"
+        ]
+      }
+    },
+    {
+      "id": "tech-aurora-postgresql-iceberg-parquet",
+      "title": "Aurora PostgreSQL, 데이터 레이크의 Iceberg·Parquet 직접 쿼리 지원",
+      "summary": "Amazon Aurora PostgreSQL에서 운영 데이터와 Iceberg·Parquet 형식의 데이터 레이크를 표준 PostgreSQL 애플리케이션으로 함께 조회할 수 있게 됐다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "OLTP DB에서 바로 레이크하우스 데이터를 읽는다.",
+        "what": "AWS가 Aurora PostgreSQL에서 데이터 레이크의 Apache Iceberg·Parquet 데이터를 직접 쿼리하는 기능을 발표했다. 기존 PostgreSQL 애플리케이션으로 운영 데이터와 레이크 데이터를 함께 조회할 수 있다.",
+        "points": [
+          "Apache Iceberg·Parquet 직접 쿼리",
+          "운영 데이터와 레이크 데이터 결합 조회",
+          "표준 PostgreSQL 애플리케이션 그대로 사용"
+        ],
+        "why": [
+          "ETL 없이 트랜잭션·분석 데이터를 잇는 흐름 가속",
+          "Iceberg가 사실상 표준 테이블 포맷으로 굳어지는 신호"
+        ]
+      }
+    }
+  ]
+}

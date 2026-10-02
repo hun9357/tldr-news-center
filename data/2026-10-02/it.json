@@ -1,0 +1,289 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-micron-memory-shortage-2028",
+      "title": "Micron: 메모리 공급난 2028년까지 심화",
+      "summary": "서버·스토리지·PC 가격을 끌어올리는 메모리 부족이 2027~2028년까지 악화될 전망이며, Micron은 2027년 생산량의 75% 이상이 이미 계약됐다고 밝혔다.",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4229635/memory-squeeze-set-to-tighten-through-2028-micron-says-3.html?utm_source=tldrit",
+      "report": {
+        "tldr": "메모리 부족이 2028년까지 이어져 IT 하드웨어 비용 압박이 계속된다.",
+        "what": "Micron은 서버, 스토리지, PC 비용을 끌어올리고 있는 메모리 부족 현상이 2027년과 2028년에 걸쳐 더 심해질 것으로 내다봤다. 2027년 생산분의 75% 이상이 이미 판매 약정된 상태다.",
+        "points": [
+          "메모리 부족이 서버·스토리지·PC 가격 상승 견인",
+          "2027~2028년까지 악화 전망",
+          "Micron 2027년 생산량 75% 이상 이미 약정"
+        ],
+        "why": [
+          "IT 조달 예산과 장비 교체 계획을 재점검해야 한다",
+          "물량 확보 경쟁에서 대형 고객이 우선될 가능성이 크다"
+        ]
+      }
+    },
+    {
+      "id": "it-openai-delays-ipo-safety",
+      "title": "OpenAI, AI 안전 우려로 IPO 연기",
+      "summary": "Sam Altman CEO에 따르면 OpenAI는 안전 관련 결정을 확신을 갖고 내릴 수 있을 때까지 계획했던 IPO를 미룬다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/09/openai-delays-ipo-over-ai-safety-concerns/?utm_source=tldrit",
+      "report": {
+        "tldr": "OpenAI가 상장보다 안전 판단의 자율성을 우선하겠다고 밝혔다.",
+        "what": "OpenAI가 예정했던 기업공개(IPO)를 연기했다. Sam Altman CEO는 안전 관련 결정을 확신을 갖고 내릴 수 있을 때까지 상장을 미룬다고 설명했다.",
+        "points": [
+          "계획된 IPO 연기",
+          "사유: AI 안전 결정에 대한 확신 확보",
+          "Sam Altman CEO 발언"
+        ],
+        "why": [
+          "상장 시 주주 압력이 안전 결정에 미칠 영향에 대한 우려를 드러낸다",
+          "AI 업계 자금 조달 구도와 경쟁사 상장 일정에도 영향을 줄 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-apache-ossie-semantic-interop",
+      "title": "Microsoft·Google, 엔터프라이즈 데이터·AI 상호운용성 위한 Apache Ossie 지원",
+      "summary": "Microsoft와 Google이 Salesforce, Snowflake, Oracle, Nvidia, Databricks 등과 함께 시맨틱 모델을 분석·데이터·AI 플랫폼 간에 이식 가능하게 하는 오픈소스 프로젝트에 합류했다.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4229751/microsoft-google-back-apache-ossie-to-make-enterprise-data-and-ai-platforms-more-interoperable.html?utm_source=tldrit",
+      "report": {
+        "tldr": "주요 데이터 벤더들이 시맨틱 모델 이식성 표준에 뭉쳤다.",
+        "what": "Microsoft와 Google이 Apache Ossie 프로젝트에 참여했다. 이 오픈소스 프로젝트는 시맨틱 모델을 분석, 데이터, AI 플랫폼 사이에서 옮겨 쓸 수 있게 하는 것이 목표이며 Salesforce, Snowflake, Oracle, Nvidia, Databricks도 참여 중이다.",
+        "points": [
+          "Microsoft·Google 신규 합류",
+          "시맨틱 모델의 플랫폼 간 이식성 목표",
+          "Salesforce·Snowflake·Oracle·Nvidia·Databricks 참여",
+          "Apache 오픈소스 프로젝트"
+        ],
+        "why": [
+          "데이터 정의를 한 번 만들고 여러 도구에서 재사용하면 벤더 종속이 줄어든다",
+          "AI 에이전트가 일관된 비즈니스 지표를 쓰는 기반이 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-modernization-without-rip-and-replace",
+      "title": "중단 없는 현대화: 전면 교체 사고방식 재고",
+      "summary": "대규모 현대화 프로젝트는 레거시를 교체하는 팀이 기존 환경 운영까지 떠안기 때문에 운영 리스크를 만든다는 분석이다.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4229004/modernization-without-disruption-rethinking-the-rip-and-replace-mindset.html?utm_source=tldrit",
+      "report": {
+        "tldr": "레거시 전면 교체는 같은 팀에 이중 부담을 지워 리스크를 키운다.",
+        "what": "CIO.com 기고는 대규모 현대화 프로젝트가 흔히 운영 리스크를 낳는다고 지적한다. 레거시 시스템을 교체하는 팀이 동시에 기존 환경도 계속 운영해야 하기 때문이다.",
+        "points": [
+          "전면 교체(rip-and-replace) 방식의 한계",
+          "교체 팀이 기존 환경 운영도 병행",
+          "그 결과 운영 리스크 증가",
+          "점진적 현대화 접근 필요성"
+        ],
+        "why": [
+          "현대화 로드맵 수립 시 팀 역량 배분을 함께 설계해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "it-gtig-vuln-trends-ai-era",
+      "title": "AI 시대의 취약점 발견·악용 동향",
+      "summary": "Google 위협 인텔리전스 그룹이 2025년 1월부터 2026년 8월까지의 취약점 공개·악용 동향을 분석해 AI가 발견 속도, 유형, 위험 프로필을 측정 가능하게 바꾸고 있다고 밝혔다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era?utm_source=tldrit",
+      "report": {
+        "tldr": "AI가 취약점 지형을 바꾸고 있다는 것을 GTIG가 데이터로 확인했다.",
+        "what": "Google Threat Intelligence Group(GTIG)은 2025년 1월~2026년 8월의 취약점 공개 및 악용 추이를 분석했다. AI가 발견되는 취약점의 속도, 유형, 위험 프로필을 측정 가능할 정도로 바꾸고 있다는 결론이다.",
+        "points": [
+          "분석 기간: 2025년 1월~2026년 8월",
+          "AI가 취약점 발견 속도를 변화",
+          "발견되는 취약점 유형도 변화",
+          "위험 프로필 변화"
+        ],
+        "why": [
+          "패치 관리 프로세스가 늘어난 공개량을 감당하도록 재설계돼야 한다",
+          "보안 에디션의 같은 Google 분석 기사와 같은 원천이다"
+        ]
+      }
+    },
+    {
+      "id": "it-meta-muse-ai-agent-concerns",
+      "title": "Meta, 일상 업무용 AI 에이전트 Muse 출시…무엇이 문제인가",
+      "summary": "Meta가 쇼핑, 예약, 여행 계획 같은 일상 업무를 처리하는 새 AI 에이전트 Muse를 출시했으며, 기고는 그 문제점을 짚는다.",
+      "source": "The Conversation",
+      "url": "https://theconversation.com/meta-wants-people-to-use-ai-agents-to-do-daily-tasks-for-them-heres-why-thats-a-problem-292962?utm_source=tldrit",
+      "report": {
+        "tldr": "Meta의 생활형 AI 에이전트 Muse에 대한 비판적 시각.",
+        "what": "Meta가 쇼핑, 예약, 여행 계획 등 일상 업무를 대신해주는 AI 에이전트 Muse를 출시했다. The Conversation 기고는 사람들이 이런 일을 에이전트에 맡기는 것이 왜 문제가 될 수 있는지 논한다.",
+        "points": [
+          "Meta의 새 AI 에이전트 Muse",
+          "쇼핑·예약·여행 계획 등 일상 업무 처리",
+          "에이전트 위임에 대한 비판적 분석"
+        ],
+        "why": [
+          "소비자 에이전트가 개인 데이터와 결제에 접근하면서 신뢰·통제 문제가 커진다"
+        ]
+      }
+    },
+    {
+      "id": "it-coreweave-forge-ai-platform",
+      "title": "CoreWeave, AI 개발 플랫폼 CoreWeave Forge 출시",
+      "summary": "CoreWeave Forge는 모델 서빙, 관측성, 데이터 큐레이션, 개선, 평가를 통합해 AI 개선 주기를 연결하고 가속하는 플랫폼이다.",
+      "source": "CoreWeave",
+      "url": "https://www.coreweave.com/blog/coreweave-forge-turn-ai-iteration-into-compounding-improvement?utm_source=tldrit",
+      "report": {
+        "tldr": "GPU 클라우드 CoreWeave가 AI 개발 라이프사이클 플랫폼으로 영역을 넓혔다.",
+        "what": "CoreWeave가 AI 개발 플랫폼 CoreWeave Forge를 출시했다. 모델 서빙, 관측성, 데이터 큐레이션, 모델 개선, 평가를 하나로 묶어 AI 개선 주기를 가속하는 것이 목표다.",
+        "points": [
+          "모델 서빙·관측성 통합",
+          "데이터 큐레이션·모델 개선 기능",
+          "평가 기능 포함",
+          "AI 개선 라이프사이클 전체 연결"
+        ],
+        "why": [
+          "인프라 사업자가 상위 소프트웨어 계층으로 확장하는 흐름이다"
+        ]
+      }
+    },
+    {
+      "id": "it-cloudflare-quantum-safe-tls-certs",
+      "title": "Cloudflare, 양자 내성 TLS 인증서 발급 계획",
+      "summary": "Cloudflare가 오픈소스 플랫폼을 이용해 유료·무료 사용자 모두에게 하이브리드 양자 내성 TLS 인증서를 무료로 발급할 계획이다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/09/cloudflare-plans-to-issue-quantum-safe-tls-certificates/?utm_source=tldrit",
+      "report": {
+        "tldr": "양자 내성 인증서가 무료로 대중화될 길이 열린다.",
+        "what": "Cloudflare가 하이브리드 양자 내성 TLS 인증서를 발급할 계획을 발표했다. 유료·무료 사용자 모두에게 무료로 제공되며 오픈소스 플랫폼을 사용한다.",
+        "points": [
+          "하이브리드 양자 내성 TLS 인증서",
+          "유료·무료 사용자 모두 무료 제공",
+          "오픈소스 플랫폼 기반"
+        ],
+        "why": [
+          "포스트 양자 전환의 인증서 단계가 대규모로 시작된다",
+          "지금 수집해 나중에 해독하는 공격에 대한 대비가 쉬워진다"
+        ]
+      }
+    },
+    {
+      "id": "it-servicenow-flow-ai-service-desk",
+      "title": "ServiceNow, Slack·Teams·이메일용 독립형 AI 서비스 데스크 출시",
+      "summary": "Flow by ServiceNow는 직원이 기존 티켓 대신 Slack, Teams, 이메일, 웹에서 바로 IT 지원을 요청하게 해준다.",
+      "source": "Computerworld",
+      "url": "https://www.computerworld.com/article/4229579/servicenow-launches-standalone-ai-service-desk-to-provide-support-in-teams-slack-and-email-2.html?utm_source=tldrit",
+      "report": {
+        "tldr": "IT 지원 요청이 티켓에서 메신저 대화로 옮겨간다.",
+        "what": "ServiceNow가 독립형 AI 서비스 데스크 Flow by ServiceNow를 출시했다. 직원은 전통적인 티켓을 여는 대신 Slack, Teams, 이메일, 웹 인터페이스에서 직접 IT 도움을 요청할 수 있다.",
+        "points": [
+          "제품명: Flow by ServiceNow",
+          "독립형 AI 서비스 데스크",
+          "Slack·Teams·이메일·웹에서 요청",
+          "기존 티켓 방식 대체"
+        ],
+        "why": [
+          "헬프데스크의 접점이 업무 도구 안으로 들어오는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-netscaler-actively-exploited-cves",
+      "title": "실제 악용 중인 NetScaler 취약점",
+      "summary": "Citrix와 CISA가 미완화된 NetScaler ADC·Gateway 취약점 CVE-2026-88771, CVE-2026-88772의 실제 악용을 보고했다.",
+      "source": "Sygnia",
+      "url": "https://www.sygnia.co/threat-reports-and-advisories/actively-exploited-netscaler-vulnerabilities/?utm_source=tldrit",
+      "report": {
+        "tldr": "NetScaler ADC·Gateway 운영 중이면 즉시 패치·점검이 필요하다.",
+        "what": "Citrix와 CISA가 NetScaler ADC 및 Gateway의 미완화 취약점이 실제 공격에 악용되고 있다고 보고했다. 대상은 CVE-2026-88771과 CVE-2026-88772다.",
+        "points": [
+          "대상: NetScaler ADC·Gateway",
+          "CVE-2026-88771, CVE-2026-88772",
+          "Citrix·CISA가 실제 악용 보고",
+          "미완화 시스템이 표적"
+        ],
+        "why": [
+          "원격 접속 게이트웨이는 침투 초기 거점으로 자주 악용된다"
+        ]
+      }
+    },
+    {
+      "id": "it-mcp-beyond-spec-codex-claude-code",
+      "title": "MCP 사양 너머: Codex와 Claude Code 내부 분석",
+      "summary": "Codex, Claude Code 같은 인기 MCP 클라이언트가 도구 정의, 어노테이션, 검색 메커니즘을 기본 MCP 사양과 다르게 구현하고 있다는 분석이다.",
+      "source": "Outflank",
+      "url": "https://www.outflank.nl/blog/2026/09/30/mcp-design/?utm_source=tldrit",
+      "report": {
+        "tldr": "MCP 클라이언트마다 동작이 사양과 달라 보안 가정이 어긋날 수 있다.",
+        "what": "Outflank는 Codex와 Claude Code 등 주요 MCP 클라이언트가 도구 정의, 어노테이션, 검색 방식을 기본 MCP 사양과 다르게 구현한다고 분석했다.",
+        "points": [
+          "분석 대상: Codex, Claude Code",
+          "도구 정의 구현이 사양과 다름",
+          "어노테이션 처리 차이",
+          "도구 검색 메커니즘 차이"
+        ],
+        "why": [
+          "MCP 서버를 만들거나 보안 검토할 때 클라이언트별 동작 확인이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "it-logitech-ergonomics-survey",
+      "title": "직원 키보드·마우스, 생각보다 중요할 수 있다",
+      "summary": "Logitech의 최신 업무 환경 인체공학 조사에서 응답자의 58%가 업무 종료 시 통증이나 불편을 느낀다고 답했다.",
+      "source": "Logitech Blog",
+      "url": "https://www.logitech.com/blog/2026/10/01/celebrate-global-ergonomics-month-with-workspace-tips-from-logitech-leaders/?utm_source=tldrit",
+      "report": {
+        "tldr": "직원 58%가 퇴근 무렵 통증을 호소한다는 조사 결과.",
+        "what": "Logitech이 업무 공간 인체공학 연구 결과를 공개했다. 조사 대상 직원의 58%가 업무일 종료 시 통증이나 불편을 겪는다고 답했다.",
+        "points": [
+          "Logitech 인체공학 조사",
+          "응답자 58%가 업무 후 통증·불편 호소",
+          "글로벌 인체공학의 달 맞춤 팁 제공"
+        ],
+        "why": [
+          "주변기기 표준 선정이 직원 건강과 생산성에 영향을 준다",
+          "제조사 자체 조사라는 점은 감안해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "it-salesforce-new-feature-evaluation",
+      "title": "새 Salesforce 기능을 조직에 도입할지 어떻게 판단할까",
+      "summary": "비즈니스 타이밍, 전략적 가치, 지원 가능성, 관리자 역량, 유지 가능성을 기준으로 새 기능을 평가하는 Salesforce 관리자용 실무 논의다.",
+      "source": "Salesforce Admin Blog",
+      "url": "https://admin.salesforce.com/blog/2026/how-do-i-decide-if-a-new-salesforce-feature-belongs-in-my-org-podcast?utm_source=tldrit",
+      "report": {
+        "tldr": "새 기능은 켤 수 있느냐보다 유지할 수 있느냐로 판단해야 한다.",
+        "what": "Salesforce 관리자 블로그의 팟캐스트가 새 기능 도입 판단 기준을 다룬다. 비즈니스 타이밍, 전략적 가치, 지원 가능성, 관리자 역량, 조직의 현실적 유지 능력을 따져보라고 조언한다.",
+        "points": [
+          "비즈니스 타이밍",
+          "전략적 가치",
+          "지원 가능성과 관리자 역량",
+          "배포 후 현실적 유지 능력"
+        ],
+        "why": [
+          "SaaS 기능 남발로 인한 운영 부채를 줄이는 체크리스트가 된다"
+        ]
+      }
+    },
+    {
+      "id": "it-deepseek-huawei-ascend-stack",
+      "title": "DeepSeek, Huawei Ascend용 인프라 구축",
+      "summary": "DeepSeek이 TileLang 고수준 언어와 컴파일러 툴체인을 포함한 Huawei Ascend 플랫폼용 기반 인프라 구성요소를 오픈소스로 공개했다.",
+      "source": "Geopolitechs",
+      "url": "https://www.geopolitechs.org/p/deepseek-builds-for-huawei-ascend?utm_source=tldrit",
+      "report": {
+        "tldr": "DeepSeek이 Nvidia 대안인 Huawei Ascend 생태계에 힘을 싣는다.",
+        "what": "DeepSeek이 Huawei Ascend 플랫폼을 위한 기반 인프라 구성요소 묶음을 오픈소스로 공개했다. 여기에는 TileLang 고수준 언어와 컴파일러 툴체인이 포함된다.",
+        "points": [
+          "Huawei Ascend용 기반 인프라 오픈소스 공개",
+          "TileLang 고수준 언어 포함",
+          "컴파일러 툴체인 포함"
+        ],
+        "why": [
+          "중국 AI 생태계의 국산 칩 전환을 소프트웨어 측면에서 가속한다"
+        ]
+      }
+    }
+  ]
+}
