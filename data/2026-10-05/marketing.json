@@ -1,0 +1,230 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-geo-third-party-citations",
+      "title": "GEO의 최대 레버는 제3자 데이터인가? 데이터는 아니라고 말한다",
+      "summary": "AI 인용의 85%가 제3자 페이지지만 브랜드 언급을 예측하는 힘은 자사 사이트가 더 강했다. 자사 사이트가 인용되면 Google AI Overviews의 90%, ChatGPT 응답의 73%에서 브랜드가 언급됐다.",
+      "source": "Grow and Convert",
+      "url": "https://www.growandconvert.com/research/third-party-citation-research/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 검색 최적화에서 자사 사이트가 제3자 페이지보다 브랜드 언급에 더 직결된다.",
+        "what": "Grow and Convert의 연구에 따르면 AI 인용의 85%는 제3자 페이지가 차지하지만, 브랜드 언급을 예측하는 힘은 자사 사이트보다 약했다. 자사 사이트가 인용된 경우 브랜드 언급 비율이 크게 높았다.",
+        "points": [
+          "AI 인용의 85%가 제3자 페이지",
+          "제3자 페이지는 브랜드 언급 예측력이 상대적으로 약함",
+          "자사 사이트 인용 시 Google AI Overviews 90%에서 브랜드 언급",
+          "자사 사이트 인용 시 ChatGPT 응답 73%에서 브랜드 언급"
+        ],
+        "why": [
+          "GEO 예산을 제3자 노출에만 쏟는 전략을 재검토할 근거",
+          "자사 콘텐츠 품질이 AI 검색 가시성의 핵심 자산"
+        ]
+      }
+    },
+    {
+      "id": "marketing-oversupply-era-frameworks",
+      "title": "공급 과잉 시대: 지도가 꽉 찼을 때 이기는 고전적 프레임워크",
+      "summary": "제작 비용 하락과 유통 단순화로 시장이 넘쳐나는 지금, 성장은 업계 관행에 도전해 카테고리를 재정의하는 데서 나온다는 글.",
+      "source": "Nick Hac (Substack)",
+      "url": "https://nickhac.substack.com/p/the-oversupply-era-classical-frameworks?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "포화 시장에서는 관행을 깨 카테고리를 재정의해야 성장한다.",
+        "what": "글은 제작 비용이 낮아지고 유통이 쉬워지면서 모든 시장이 공급 과잉 상태가 됐다고 진단한다. 이런 환경에서 성장은 업계가 당연시하는 관행에 도전해 카테고리 자체를 다시 정의하는 데서 나온다고 주장한다.",
+        "points": [
+          "제작 비용 하락과 유통 단순화가 공급 과잉을 유발",
+          "기존 관행에 대한 도전이 성장 동력",
+          "카테고리 재정의를 통한 차별화",
+          "고전적 전략 프레임워크 활용"
+        ],
+        "why": [
+          "AI로 콘텐츠·제품 생산이 쉬워진 환경에서 포지셔닝 전략의 중요성 부각"
+        ]
+      }
+    },
+    {
+      "id": "marketing-event-led-community-strategy",
+      "title": "이벤트 중심 커뮤니티 전략 가이드",
+      "summary": "커뮤니티 이벤트는 더 큰 전략 틀 안에서 성공한다. 대화 중심의 소규모 동료 주도형 포맷을 우선하고, 후속 조치를 미리 계획해 참석자를 활발한 커뮤니티 멤버로 전환하라는 가이드.",
+      "source": "Standing on Giants",
+      "url": "https://www.standingongiants.com/blog/how-to-host-community-events-an-event-led-community-strategy-guide/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "화려한 행사보다 작고 대화 중심인 이벤트가 커뮤니티를 키운다.",
+        "what": "Standing on Giants는 커뮤니티 이벤트가 단발성 행사가 아닌 전체 커뮤니티 전략의 일부여야 한다고 설명한다. 제작 규모보다 대화를 중시하는 소규모 동료 주도형 형식을 권한다.",
+        "points": [
+          "이벤트는 더 큰 커뮤니티 전략 틀 안에서 기획",
+          "제작보다 대화 중심의 소규모·동료 주도 포맷 우선",
+          "후속 조치를 사전에 계획",
+          "참석자를 활동적 커뮤니티 멤버로 전환"
+        ],
+        "why": [
+          "이벤트 투자 대비 장기 커뮤니티 효과를 높이는 방법론"
+        ]
+      }
+    },
+    {
+      "id": "marketing-vitsoe-premium-pricing-copy",
+      "title": "왜 당신은 그만한 가치가 있는가: 비초에의 프리미엄 가격 카피",
+      "summary": "비초에(Vitsœ)는 비용을 기간 단위로 쪼개 보여주고, 재판매 가치를 강조하며, 할인을 피하는 방식으로 고객이 검증 가능한 주장을 통해 신뢰를 쌓아 프리미엄 가격을 정당화한다.",
+      "source": "Conversion Rate Experts",
+      "url": "https://conversion-rate-experts.com/why-youre-worth-it-copywriting-friday/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "프리미엄 가격은 검증 가능한 가치 주장으로 정당화된다.",
+        "what": "Conversion Rate Experts가 가구 브랜드 비초에의 가격 정당화 카피를 분석했다. 총비용을 시간 단위 금액으로 나눠 보여주고, 재판매 가치를 강조하며, 할인을 하지 않는 전략이다.",
+        "points": [
+          "비용을 기간 단위 금액으로 분해",
+          "재판매 가치 강조",
+          "할인 회피",
+          "고객이 직접 검증 가능한 주장으로 신뢰 구축"
+        ],
+        "why": [
+          "가격 저항을 낮추는 카피라이팅 기법을 다른 고가 제품에도 적용 가능"
+        ]
+      }
+    },
+    {
+      "id": "marketing-cheapest-linkedin-retargeting",
+      "title": "가장 저렴한 링크드인 광고 리타게팅 소스",
+      "summary": "웹사이트 방문 목표로 60~70초 영상을 집행하고 클릭을 유도하지 않는 헤드라인을 쓰면 인게이지먼트 캠페인 클릭당 1~2달러 대비 멤버당 약 0.5달러로 리타게팅 모수를 쌓을 수 있다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7511411498196324352/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "영상 조회 기반 리타게팅으로 링크드인 모수 확보 비용을 크게 낮출 수 있다.",
+        "what": "링크드인 게시물에서 공유된 전술로, 웹사이트 방문 목표의 60~70초 영상 광고에 오히려 클릭을 말리는 헤드라인을 붙이는 방식이다. 이를 통해 저렴하게 리타게팅 오디언스를 구축한다.",
+        "points": [
+          "60~70초 영상 + 웹사이트 방문 목표",
+          "클릭을 유도하지 않는 헤드라인",
+          "멤버당 약 0.5달러로 리타게팅 모수 확보",
+          "인게이지먼트 캠페인 클릭당 1~2달러 대비 저렴"
+        ],
+        "why": [
+          "비싼 링크드인 광고에서 B2B 퍼널 상단 비용을 줄이는 실전 팁"
+        ]
+      }
+    },
+    {
+      "id": "marketing-apple-ios27-block-adtech",
+      "title": "애플, iOS에서 수백 개 프로그래매틱 데이터 기업 차단 계획",
+      "summary": "iOS 27이 애플이 업데이트 없이 수정할 수 있는 원격 목록을 통해 WebKit 차단 대상을 수백 개의 CDP, DMP, DSP, 데이터 판매업체, ID 제공업체로 확대할 수 있다.",
+      "source": "AdExchanger",
+      "url": "https://www.adexchanger.com/privacy/apple-has-far-reaching-plans-to-block-hundreds-of-programmatic-data-companies-from-ios/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "iOS 27에서 애드테크 데이터 수집 경로가 대규모로 막힐 수 있다.",
+        "what": "AdExchanger에 따르면 애플은 iOS 27에서 WebKit 차단 범위를 수백 개 데이터 기업으로 넓힐 수 있다. 차단 대상은 원격 목록으로 관리돼 OS 업데이트 없이도 애플이 수정할 수 있다.",
+        "points": [
+          "iOS 27에서 WebKit 차단 확대 가능성",
+          "대상: CDP, DMP, DSP, 데이터 판매업체, ID 제공업체",
+          "수백 개 기업 규모",
+          "OS 업데이트 없이 수정 가능한 원격 목록 방식"
+        ],
+        "why": [
+          "iOS 사파리 트래픽 기반 타기팅·측정에 큰 타격 예상",
+          "애플이 플랫폼 정책으로 광고 생태계를 재편하는 흐름 지속"
+        ]
+      }
+    },
+    {
+      "id": "marketing-google-pmax-asset-ab-testing",
+      "title": "구글 애즈, 퍼포먼스 맥스 애셋 그룹에 A/B 테스트 도입",
+      "summary": "광고주는 이제 퍼포먼스 맥스에서 새 헤드라인, 설명, 이미지, 영상을 기존 크리에이티브와 비교 테스트해 변경 사항의 성과 영향을 분리 측정할 수 있다.",
+      "source": "Search Engine Land",
+      "url": "https://searchengineland.com/google-ads-brings-a-b-testing-to-performance-max-asset-groups-493229?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "블랙박스였던 PMax에서 크리에이티브 효과를 검증할 수 있게 됐다.",
+        "what": "구글 애즈가 퍼포먼스 맥스 애셋 그룹에 A/B 테스트 기능을 추가했다. 광고주는 새 크리에이티브 요소를 기존 것과 맞붙여 변경 효과만 따로 측정할 수 있다.",
+        "points": [
+          "헤드라인·설명·이미지·영상 단위 테스트",
+          "기존 크리에이티브 대비 비교",
+          "변경 사항을 분리해 성과 영향 측정"
+        ],
+        "why": [
+          "자동화 캠페인의 투명성 부족에 대한 광고주 불만을 일부 해소",
+          "크리에이티브 최적화 의사결정을 데이터로 뒷받침"
+        ]
+      }
+    },
+    {
+      "id": "marketing-game-d2c-pricing-packaging",
+      "title": "게임 경제를 깨지 않는 D2C 가격·패키지 설계",
+      "summary": "모바일 게이머 중 2~3%만 돈을 쓰므로 퍼블리셔는 가격 책정 전에 게임 경제를 점검해야 하며, 할인보다 추가 혜택 제공이 구매당 매출을 지키면서 더 좋은 성과를 낸다.",
+      "source": "Pocket Gamer.biz",
+      "url": "https://www.pocketgamer.biz/in-game-vs-web-store-how-to-price-and-package-for-d2c-without-breaking-your-game-economy/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "웹스토어 D2C에서는 할인보다 추가 혜택이 낫다.",
+        "what": "Pocket Gamer.biz는 인게임 스토어와 웹스토어(D2C) 간 가격·패키지 설계를 다뤘다. 지출 이용자가 소수이므로 게임 경제 구조를 먼저 평가한 뒤 가격을 정해야 한다고 조언한다.",
+        "points": [
+          "모바일 게이머 중 2~3%만 과금",
+          "가격 책정 전 게임 경제 평가 필요",
+          "할인보다 추가 혜택(엔타이틀먼트)이 우수",
+          "구매당 매출 보존"
+        ],
+        "why": [
+          "앱스토어 수수료를 피하려는 D2C 확산 속에서 가격 전략 기준 제시"
+        ]
+      }
+    },
+    {
+      "id": "marketing-seo-for-ai-agents",
+      "title": "SEO로 AI 에이전트의 추천을 받을 수 있을까",
+      "summary": "AI 에이전트는 실시간 검색보다 주로 학습 데이터에 기반해 추천하며, 특정 벤더에 유리한 검색을 강제해도 선택률은 기준 9.2%에서 17.1%에 그쳤다.",
+      "source": "Joe Shirey",
+      "url": "https://www.joe-shirey.com/2026/10/02/seo-for-ai-agents.html?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 에이전트 추천은 검색 최적화보다 학습 데이터에 좌우된다.",
+        "what": "Joe Shirey의 실험에 따르면 AI 에이전트는 실시간 검색 결과보다 학습 데이터를 바탕으로 추천하는 경향이 강했다. 벤더에 유리한 검색을 강제로 넣어도 선택률 상승은 제한적이었다.",
+        "points": [
+          "AI 에이전트는 주로 학습 데이터 기반 추천",
+          "벤더 유리 검색 강제 시 선택률 17.1%",
+          "기준 선택률 9.2%",
+          "검색 최적화의 영향력은 제한적"
+        ],
+        "why": [
+          "에이전트 커머스 시대에 전통적 SEO만으로는 부족하다는 신호",
+          "장기적 브랜드 인지도가 학습 데이터에 반영되는 것이 중요"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-synth-personas-limits",
+      "title": "AI '합성 페르소나'가 실제 고객에 대해 보여줄 수 있는 것과 없는 것",
+      "summary": "AI로 생성한 합성 페르소나는 실제 소비자 조사를 준비하는 용도로 가장 잘 작동한다는 켈로그 경영대학원의 분석.",
+      "source": "Kellogg Insight",
+      "url": "https://insight.kellogg.northwestern.edu/article/what-ai-synth-personas-can-and-cant-reveal-about-real-customers?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "합성 페르소나는 실제 조사의 대체재가 아니라 준비 도구다.",
+        "what": "노스웨스턴대 켈로그 경영대학원 Insight가 AI 합성 페르소나의 가능성과 한계를 다뤘다. 결론은 합성 페르소나가 실제 소비자 조사를 대체하기보다 준비 단계에서 가장 유용하다는 것이다.",
+        "points": [
+          "AI 생성 합성 페르소나의 효용과 한계 분석",
+          "소비자 조사 준비 단계에서 가장 효과적",
+          "실제 고객 조사를 대체하지 않음"
+        ],
+        "why": [
+          "AI 리서치 도구 도입 시 기대치를 현실적으로 설정하는 근거"
+        ]
+      }
+    },
+    {
+      "id": "marketing-5-gtm-frameworks",
+      "title": "GTM 프레임워크 5가지",
+      "summary": "간과된 리드, 경영진 대상 아웃리치, 보상 계획 등을 다루는 매출 리더용 GTM 프레임워크 모음.",
+      "source": "The GTM Newsletter",
+      "url": "https://thegtmnewsletter.substack.com/p/gtm-frameworks-revenue-leaders?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "매출 리더를 위한 실용 GTM 프레임워크 모음.",
+        "what": "The GTM Newsletter가 매출 리더를 위한 다섯 가지 GTM 프레임워크를 정리했다. 놓친 리드 재활용, 경영진 아웃리치, 보상 계획 수립 등을 다룬다.",
+        "points": [
+          "간과된 리드 대응 프레임워크",
+          "경영진 대상 아웃리치",
+          "보상(컴펜세이션) 계획"
+        ],
+        "why": [
+          "영업·마케팅 정렬과 파이프라인 효율 개선에 참고 가능"
+        ]
+      }
+    }
+  ]
+}

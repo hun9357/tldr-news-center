@@ -1,0 +1,277 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-apple-privacy-home-camera",
+      "title": "애플, 영상 대신 텍스트로 알리는 프라이버시 중심 홈 카메라 검토",
+      "summary": "애플이 AI 얼굴 인식으로 사람과 반려동물을 식별하고, 영상 저장 대신 텍스트 설명과 알림만 보내는 스마트홈 카메라를 개발 중이라는 소문이 나왔다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/home/apples-rumored-smart-home-camera-could-take-a-different-approach-to-solving-privacy-concerns/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "녹화 없는 홈 카메라라는 역발상으로 프라이버시 우려에 답하려는 애플의 시도.",
+        "what": "애플이 프라이버시를 전면에 둔 스마트홈 카메라를 개발할 수 있다는 루머가 나왔다. 기기는 영상을 기록하는 대신 활동을 로컬에서 해석해 텍스트 설명과 알림만 전송하는 방식으로 알려졌다.",
+        "points": [
+          "AI 얼굴 인식으로 사람과 반려동물을 구분",
+          "영상 대신 텍스트 기반 설명과 알림 전송",
+          "활동 해석은 기기 내 로컬 처리",
+          "영상 저장을 하지 않는 구조"
+        ],
+        "why": [
+          "홈 카메라 UX의 핵심을 '영상 시청'에서 '상황 요약'으로 바꾸는 설계 전환",
+          "온디바이스 AI가 프라이버시 차별화 수단이 되는 흐름을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "design-figma-motion-lottie-export",
+      "title": "Figma Motion, 커스텀 스타일·오디오·텍스트 애니메이션·Lottie 내보내기 추가",
+      "summary": "Figma Motion 베타가 재사용 가능한 애니메이션 스타일, 키프레임 오디오, 글자·단어·줄 단위 텍스트 애니메이션, Lottie/dotLottie 및 MP4·WebM 내보내기를 지원한다.",
+      "source": "Figma",
+      "url": "https://www.figma.com/release-notes/?title=motion-adds-styles-audio-animations-lottie&utm_source=tldrdesign",
+      "report": {
+        "tldr": "Figma Motion이 프로토타입 도구를 넘어 실제 배포 가능한 모션 에셋 제작 도구로 확장.",
+        "what": "Figma가 Motion 베타에 여러 기능을 추가했다. 팀은 애니메이션 스타일을 저장해 재사용하고, 키프레임에 오디오를 얹으며, 텍스트를 글자·단어·줄 단위로 애니메이션할 수 있다.",
+        "points": [
+          "재사용 가능한 애니메이션 스타일 저장",
+          "키프레임에 오디오 레이어 추가",
+          "글자·단어·줄 단위 텍스트 애니메이션",
+          "Lottie, dotLottie, MP4, WebM 내보내기"
+        ],
+        "why": [
+          "Lottie 내보내기로 디자인-개발 간 모션 핸드오프가 단순해짐",
+          "After Effects 등 별도 모션 툴 의존도를 낮출 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-amazon-redesigned-kindle-family",
+      "title": "아마존, 완전히 새로 디자인한 킨들 라인업 공개",
+      "summary": "아마존이 플러시 프런트 디스플레이와 엣지 투 엣지 케이스를 갖춘 더 얇고 가벼운 킨들 라인업을 내놨다. 6인치 킨들은 149.99달러부터다.",
+      "source": "About Amazon",
+      "url": "https://www.aboutamazon.com/news/devices/new-kindle-lineup-2026?utm_source=tldrdesign",
+      "report": {
+        "tldr": "킨들 전 라인업이 더 얇고 평평한 하드웨어 디자인으로 세대 교체.",
+        "what": "아마존이 킨들 제품군 전체를 재설계했다. 새 기기들은 더 얇고 가벼우며 화면과 베젤이 평평하게 이어지는 플러시 프런트 디스플레이와 엣지 투 엣지 케이스를 적용했다.",
+        "points": [
+          "더 얇고 가벼운 본체",
+          "플러시 프런트 디스플레이와 엣지 투 엣지 케이스",
+          "6인치 킨들 149.99달러부터",
+          "블루투스 페이지 넘김 리모컨, 마그네틱 케이스 등 새 액세서리"
+        ],
+        "why": [
+          "전자책 리더 카테고리에서 하드웨어 디자인 완성도가 다시 경쟁 요소로 부상",
+          "액세서리 생태계 확장으로 사용 경험을 보강"
+        ]
+      }
+    },
+    {
+      "id": "design-doherty-threshold-slow-ai",
+      "title": "느린 AI는 모델 탓이 아니다: 도허티 임계값으로 설계하기",
+      "summary": "생성형 AI 요청은 '확인'과 '생성' 두 단계로 나뉘므로 400ms 도허티 임계값을 재해석해, 입력을 즉시 인지하고 의미 있는 진행 상황을 보여주면 체감 속도를 높일 수 있다는 글.",
+      "source": "UX Collective",
+      "url": "https://uxdesign.cc/stop-blaming-the-model-for-slow-ai-heres-how-to-design-for-it-doherty-s-threshold-as-a-guideline-5fa6d52e23fc?utm_source=tldrdesign",
+      "report": {
+        "tldr": "모델 속도를 못 바꿔도 인터페이스 설계로 AI의 체감 지연은 줄일 수 있다.",
+        "what": "글은 400ms 응답 기준인 도허티 임계값을 생성형 AI에 맞게 다시 생각해야 한다고 주장한다. AI 요청은 입력 확인과 생성 단계로 나뉘므로, 인터페이스가 즉시 입력을 인지하고 의미 있는 진행 상황을 보여줘야 한다는 것이다.",
+        "points": [
+          "도허티 임계값(400ms)을 AI 맥락에서 재해석",
+          "요청을 확인 단계와 생성 단계로 분리해 설계",
+          "즉각적 입력 인지와 의미 있는 진행 표시가 핵심",
+          "실제 속도 변화 없이 체감 속도 개선"
+        ],
+        "why": [
+          "AI 제품의 대기 경험이 사용자 신뢰와 이탈에 직결됨",
+          "지연 문제를 엔지니어링이 아닌 UX 문제로 재정의"
+        ]
+      }
+    },
+    {
+      "id": "design-design-token-ownership",
+      "title": "디자인 토큰은 누가 책임지는가",
+      "summary": "디자인 토큰 소유권은 역할이 아니라 변경 유형별로 나눌 때 잘 작동한다는 글. 디자이너는 원시 값, 혼합 팀은 공개 API 격인 시맨틱 토큰, 엔지니어링은 변환을 맡는다.",
+      "source": "Design Tokens (Substack)",
+      "url": "https://designtokens.substack.com/p/who-is-responsible-for-design-tokens?utm_source=tldrdesign",
+      "report": {
+        "tldr": "토큰 거버넌스는 '누가'가 아니라 '어떤 변경인가'로 나눠야 한다.",
+        "what": "글은 디자인 토큰의 책임을 직군이 아닌 변경 유형에 따라 나누자고 제안한다. 원시(primitive) 값은 디자이너가, 공개 API 역할을 하는 시맨틱 토큰은 혼합 팀이, 변환(transform)은 엔지니어링이 관리하는 구조다.",
+        "points": [
+          "역할 기준이 아닌 변경 유형 기준으로 책임 분담",
+          "원시 값은 디자이너 관리",
+          "시맨틱 토큰은 공개 API처럼 혼합 팀이 거버넌스",
+          "삭제를 감지하는 자동 검사로 구조 보호"
+        ],
+        "why": [
+          "디자인 시스템 운영에서 반복되는 소유권 갈등을 줄이는 실용적 틀",
+          "시맨틱 토큰을 API로 보면 변경 관리 기준이 명확해짐"
+        ]
+      }
+    },
+    {
+      "id": "design-nng-empathy-mapping",
+      "title": "공감 지도: 디자인 씽킹의 첫걸음",
+      "summary": "NN/g는 공감 지도가 사용자 지식을 말하기·생각하기·행동하기·느끼기로 정리해 공통 이해를 만들고 빈틈을 드러낸다며, 질적 근거에 기반해야 하고 AI는 통찰을 지어내선 안 된다고 강조한다.",
+      "source": "Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/empathy-mapping/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "공감 지도는 근거 기반으로 계속 갱신될 때만 쓸모 있다.",
+        "what": "Nielsen Norman Group이 공감 지도 작성법을 정리했다. 사용자 지식을 Says, Thinks, Does, Feels 네 범주로 나눠 팀의 공통 이해를 만들고 지식의 공백을 드러내는 도구다.",
+        "points": [
+          "Says·Thinks·Does·Feels 네 범주 구성",
+          "질적 근거에 기반해야 유용",
+          "리서치 진행에 따라 계속 진화",
+          "AI는 기존 데이터 종합에만 쓰고 통찰을 지어내면 안 됨"
+        ],
+        "why": [
+          "AI로 페르소나·지도를 쉽게 만들 수 있는 시대에 근거 없는 산출물을 경계",
+          "팀 정렬 도구로서 공감 지도의 역할을 재확인"
+        ]
+      }
+    },
+    {
+      "id": "design-timeful-visual-to-code",
+      "title": "Timeful: 웹앱을 시각적으로 디자인하고 코드와 즉시 동기화",
+      "summary": "Timeful은 시각적 편집을 실제 코드로 자동 변환해 개발자가 리뷰 후 저장소에 병합할 수 있게 해준다.",
+      "source": "Timeful",
+      "url": "https://www.timeful.io/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "디자인 편집이 곧 머지 가능한 코드 변경이 되는 도구.",
+        "what": "Timeful은 웹앱을 시각적으로 편집하면 그 변경을 실제 코드로 자동 변환한다. 개발자는 이 변경을 검토한 뒤 저장소에 병합할 수 있다.",
+        "points": [
+          "시각적 편집을 실제 코드로 자동 변환",
+          "개발자 리뷰 후 저장소 병합 흐름",
+          "디자인과 코드의 실시간 동기화 지향"
+        ],
+        "why": [
+          "디자인-개발 핸드오프 간극을 줄이는 도구 흐름의 일부",
+          "디자이너가 코드베이스에 직접 기여하는 경로 제공"
+        ]
+      }
+    },
+    {
+      "id": "design-audjust-ai-audio-editing",
+      "title": "Audjust AI: 곡 줄이기·늘리기, 루프 찾기, 텍스트로 음악 생성",
+      "summary": "Audjust AI는 기존 오디오 파일을 편집하고 텍스트나 가사로 음악을 생성하는 도구다.",
+      "source": "Audjust AI",
+      "url": "https://audjust.ai/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "영상·모션 작업용 음원을 AI로 길이 조정하거나 새로 만드는 도구.",
+        "what": "Audjust AI는 기존 오디오의 길이를 줄이거나 늘리고 루프 구간을 찾는 편집 기능을 제공한다. 텍스트나 가사를 입력해 새 음악을 생성할 수도 있다.",
+        "points": [
+          "곡 길이 단축·연장",
+          "루프 구간 탐색",
+          "텍스트·가사 기반 음악 생성"
+        ],
+        "why": [
+          "콘텐츠 제작자가 음원 편집 전문 지식 없이 사운드를 맞출 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-pp-kyoto-typeface",
+      "title": "서체 디자인: Pangram Pangram의 PP Kyoto",
+      "summary": "PP Kyoto는 서양 슬랩 세리프의 기하학과 일본 서예의 유려함을 692개 글리프에 결합했으며, 9개 굵기와 이탤릭을 제공한다.",
+      "source": "Abduzeedo",
+      "url": "https://abduzeedo.com/typeface-design-pp-kyoto-pangram-pangram?utm_source=tldrdesign",
+      "report": {
+        "tldr": "동서양 서체 문법을 섞은 디스플레이·에디토리얼용 슬랩 세리프.",
+        "what": "Pangram Pangram이 서양 슬랩 세리프의 구조와 일본 서예의 흐름을 결합한 서체 PP Kyoto를 선보였다. 692개 글리프와 9개 굵기 및 이탤릭으로 구성된다.",
+        "points": [
+          "서양 슬랩 세리프 기하학 + 일본 서예의 유동성",
+          "692개 글리프",
+          "9개 굵기와 이탤릭",
+          "광학 보정과 넉넉한 카운터폼으로 다국어·다양한 크기에서 가독성 유지"
+        ],
+        "why": [
+          "디스플레이·에디토리얼 용도의 개성 있는 선택지",
+          "다국어 환경을 고려한 서체 설계 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-mcp-apps-accessibility-testing",
+      "title": "MCP 앱 접근성 테스트 방법과 그 중요성",
+      "summary": "MCP 앱은 표현을 클라이언트에 위임하지 않고 실제 UI를 렌더링하므로 접근성 테스트가 필요하며, 제목 계층 오류·색상 충돌·클라이언트 단축키와의 충돌이 흔한 함정이다.",
+      "source": "Deque",
+      "url": "https://www.deque.com/blog/how-to-test-mcp-apps-for-accessibility-and-why-it-matters/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 클라이언트 안에 렌더링되는 MCP 앱 UI도 접근성 검증 대상이다.",
+        "what": "Deque는 MCP 앱이 표현을 클라이언트에 맡기지 않고 실제 UI를 렌더링하기 때문에 접근성 테스트가 필수라고 설명한다. 호스트 클라이언트와 결합되는 특성상 고유한 문제들이 생긴다.",
+        "points": [
+          "MCP 앱은 클라이언트 안에서 실제 UI를 렌더링",
+          "부적절한 제목 계층 구조",
+          "호스트와의 색상 충돌",
+          "클라이언트 단축키와 충돌하는 키보드 단축키"
+        ],
+        "why": [
+          "AI 에이전트 생태계로 UI가 확장되면서 접근성 책임도 따라 이동",
+          "임베디드 UI 특유의 접근성 함정을 미리 점검할 필요"
+        ]
+      }
+    },
+    {
+      "id": "design-dribbble-client-retention",
+      "title": "디자인 고객 79%가 다시 찾는 6가지 이유",
+      "summary": "한 디자인 스튜디오는 경청, 이른 방향 확정, 정액 과금, 선불 결제, 흥미로운 프로젝트 선별로 높은 고객 재방문율을 유지한다.",
+      "source": "Dribbble",
+      "url": "https://dribbble.com/stories/2026/09/30/cl-stan-hristov-dtail-studio-client-retention-strategy?utm_source=tldrdesign",
+      "report": {
+        "tldr": "장기 파트너십이 재설명 비용을 줄이고 더 과감한 크리에이티브를 가능케 한다.",
+        "what": "Dribbble이 고객 79%가 재의뢰하는 디자인 스튜디오의 운영 방식을 소개했다. 경청, 초기에 방향을 확정하는 태도, 정액제와 선불 결제, 흥미로운 프로젝트 선택이 핵심이다.",
+        "points": [
+          "고객 79% 재의뢰",
+          "경청과 초기 방향 확정",
+          "정액 과금과 선불 결제",
+          "흥미로운 프로젝트 위주 수주"
+        ],
+        "why": [
+          "프리랜서·스튜디오의 수익 안정성을 높이는 실전 운영 모델",
+          "장기 관계가 결과물 품질에도 기여한다는 관점"
+        ]
+      }
+    },
+    {
+      "id": "design-viral-ai-animation-controversy",
+      "title": "바이럴 AI 애니메이션, 익숙한 캐릭터 디자인 논란",
+      "summary": "한 아티스트의 바이럴 AI 애니메이션이 뒤섞인 화풍과 기존 작품을 연상시키는 캐릭터 디자인으로 비판을 받았다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/art/animation/viral-ai-animation-sparks-controversy-over-familiar-character-design?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 애니메이션의 독창성 논쟁이 다시 불붙었다.",
+        "what": "한 아티스트가 만든 AI 애니메이션이 화제가 됐지만 비판도 받았다. 화풍이 뒤섞여 있고 일부 캐릭터 디자인이 기존 작품을 모방한 듯하다는 지적이다.",
+        "points": [
+          "바이럴된 AI 애니메이션 작품",
+          "혼합된 화풍에 대한 비판",
+          "캐릭터 디자인의 파생성 논란"
+        ],
+        "why": [
+          "AI 생성 창작물의 독창성·표절 논란이 계속되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-creative-jobs-plummet-ai-boom",
+      "title": "AI 붐 속 크리에이티브 일자리 급감",
+      "summary": "영화·TV·출판 등 미국 크리에이티브 부문에서 4년간 20만 개 이상의 일자리가 사라져 수십 년 만에 최악의 고용 시기를 겪고 있다.",
+      "source": "Gizmodo",
+      "url": "https://gizmodo.com/creative-jobs-have-plummeted-amid-the-ai-boom-2000818893?utm_source=tldrdesign",
+      "report": {
+        "tldr": "미국 크리에이티브 산업이 4년간 20만+ 일자리를 잃었다.",
+        "what": "Gizmodo에 따르면 미국의 영화, TV, 출판 등 크리에이티브 부문에서 4년 동안 20만 개가 넘는 일자리가 줄었다. 이는 수십 년 만에 가장 나쁜 고용 흐름 중 하나다.",
+        "points": [
+          "영화·TV·출판 등 크리에이티브 부문 대상",
+          "4년간 20만 개 이상 일자리 감소",
+          "수십 년 만의 최악 고용 구간",
+          "AI 붐과 같은 시기에 발생"
+        ],
+        "why": [
+          "디자이너·크리에이터 커리어 전략에 직접적 시사점",
+          "AI 도입과 크리에이티브 고용 간 관계에 대한 논의 촉발"
+        ]
+      }
+    }
+  ]
+}

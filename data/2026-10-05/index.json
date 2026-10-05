@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-05",
+  "weekday": "월",
+  "headline": "AWS·구글 클라우드, 코딩 에이전트발 청구 폭증에 지출 한도 도입",
+  "subtitle": "앤트로픽, AI 엔지니어 1만 명 양성에 1억 달러 · 메타, Muse 가젯 SDK 오픈소스 공개 · 미 연방기관 2곳 해킹으로 280만 건 유출",
+  "keyword": "에이전트 비용 통제 · 하드 예산 상한 · 메타 Muse · 연방기관 해킹",
+  "bigStoryId": "it-aws-gcp-spending-limits",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "devops",
+    "founders",
+    "hardware",
+    "data",
+    "fintech",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:08 CDT",
+  "syncedAt": "2026-10-05T14:08:32Z",
+  "stats": {
+    "companies": 57,
+    "security": 12,
+    "deals": 6,
+    "policy": 14
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "에이전트 시대의 새 안전장치는 '지출 상한'",
+      "body": "AWS는 한도 도달 시 프로젝트를 멈추는 월간 지출 한도를, 구글 클라우드는 서비스별 Spend Caps를 내놨고, 사이먼 윌리슨의 '기본 하드 예산 상한' 주장이 tech·dev·founders에 동시에 실렸다. Salesforce·Atlassian·HubSpot은 에이전트 API 접근에 별도 과금을 시작해 SaaStr가 연 최대 24만 달러 견적을 받는 등, 에이전트 사용량이 비용 구조 자체를 흔들고 있다."
+    },
+    {
+      "kind": "market",
+      "title": "에이전트 인력·플랫폼에 자본이 몰린다",
+      "body": "앤트로픽은 2027년까지 AI 엔지니어 1만 명 양성에 1억 달러를 투입하고, Cognition은 24개월 만에 ARR 100만 달러에서 10억 달러로 성장했다. Stripe는 임베디드 대출 플랫폼 Parafin 인수에 합의했고, 엔비디아는 4,999달러 64GB DGX Spark를 내놓으며 로컬 추론 수요를 겨냥했다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "Citrix NetScaler SAML 제로데이 악용 확산과 패치 후 재부팅 문제, Vercel KVM VM 탈출 제로데이의 다른 Firecracker 사용처 영향, 미 연방기관 해킹 후속 공개, 애플 iOS 27의 애드테크 차단 목록 범위, 머스크-TSMC Terafab 협의 진전."
+    }
+  ]
+}

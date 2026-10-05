@@ -1,0 +1,244 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-blast-l2-shutdown",
+      "title": "Blast L2 서비스 종료",
+      "summary": "운영 비용이 L2 수익을 넘어서면서 Blast가 종료되며, 사용자는 10월 26일까지 표준 인터페이스로 출금해야 한다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2106032805280891073.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "수익성 없는 L2의 첫 대형 퇴장",
+        "what": "Blast L2가 운영 비용이 L2 수익을 초과하고 지속 가능한 경로가 없다며 종료를 발표했다. Lido 스테이킹 자산 출금 동안 약 1주일간 출금이 중단되고 이후 출금 지연이 24시간으로 줄어든다.",
+        "points": [
+          "종료 사유: 운영 비용이 L2 수익 초과",
+          "약 1주일 출금 중단 후 24시간 지연",
+          "10월 26일까지 표준 인터페이스 출금, 이후엔 L1 브리지 컨트랙트 직접 호출 필요",
+          "Blast PWA 잔액도 수동 출금 필요"
+        ],
+        "why": [
+          "L2 난립 이후 수익성 기반 구조조정 신호",
+          "사용자는 기한 내 자금 이동이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sec-crypto-custody-proposal",
+      "title": "SEC, 투자자문사·펀드용 크립토 수탁 규칙 제안",
+      "summary": "앳킨스 위원장 체제의 SEC가 자기 수탁을 일부 허용하고 주 신탁회사를 적격 수탁기관에 포함하는 규칙을 제안했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2105764491484958997.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "기관 크립토 보유의 구조적 장벽 제거",
+        "what": "SEC가 폴 앳킨스 위원장 주도로 투자자문사와 등록 펀드가 보유한 크립토 자산의 수탁 규칙을 제안했다. 이전에 없던 규정 준수 경로를 만들고, 일정 조건에서 자기 수탁을 허용하며 주 신탁회사를 적격 수탁기관으로 인정한다.",
+        "points": [
+          "투자자문사·등록 펀드 대상 수탁 규칙",
+          "일정 조건에서 자기 수탁 허용",
+          "주 신탁회사로 적격 수탁기관 확대"
+        ],
+        "why": [
+          "규제 기관의 크립토 보유에 명확한 가이드 제공",
+          "기관 자금 유입의 주요 장애물 해소"
+        ]
+      }
+    },
+    {
+      "id": "crypto-aave-ip-foundation",
+      "title": "Aave Labs, 브랜드를 DAO 감독 아래 두는 IP 재단 제안",
+      "summary": "케이맨 제도에 IP 재단을 세워 토큰 보유자가 이사를 교체할 수 있게 해 Aave Labs의 단독 통제를 없앤다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2106061655071404315.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "DeFi 브랜드 소유권을 온체인 거버넌스로 이전",
+        "what": "Aave Labs가 케이맨 제도에 IP 재단을 설립해 Aave 브랜드와 지식재산을 DAO의 공식 감독 아래 두자고 제안했다. 토큰 보유자가 재단 이사를 교체할 수 있어 Aave Labs를 포함한 어떤 주체도 단독 통제할 수 없다.",
+        "points": [
+          "케이맨 제도 IP 재단 설립",
+          "토큰 보유자가 이사 교체 가능",
+          "1단계는 법인 설립만, IP 이전은 별도 투표 필요"
+        ],
+        "why": [
+          "성숙한 DeFi 프로토콜의 오프체인 법적 구조 정비 흐름"
+        ]
+      }
+    },
+    {
+      "id": "crypto-private-x402-aztec",
+      "title": "Private x402, Aztec 테스트넷에서 가동",
+      "summary": "Galactica가 에이전트 결제 프로토콜 x402를 영지식 보호 스테이블코인 전송으로 감싸 송수신자와 금액을 숨긴다.",
+      "source": "X",
+      "url": "https://x.com/GalacticaNet/status/2106014520288137300?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "에이전트 결제에 프라이버시를 더한 x402",
+        "what": "Aztec 그랜티 Galactica가 Aztec 테스트넷에 private x402를 배포했다. 기존 402 챌린지·정산 흐름을 유지하면서 송신자, 수신자, 금액을 영지식으로 숨긴 스테이블코인 전송으로 결제한다.",
+        "points": [
+          "Aztec ZK 롤업에서 정산, 이더리움 기반 완결성",
+          "1회 KYC를 영지식 증명으로 이어가는 경계 컴플라이언스",
+          "Apache 2.0 오픈소스와 Claude Code 플러그인 공개",
+          "테스트넷 수수료는 Aztec이 부담"
+        ],
+        "why": [
+          "AI 에이전트 결제의 프라이버시와 규제 준수를 동시에 노린다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-stock-tokenization-ethereum",
+      "title": "이더리움 위 주식 토큰화 개관",
+      "summary": "토큰화 주식은 등록 자산 자체, 신탁 청구권, 가격 추종 채무증권이라는 세 가지 법적 구조로 나뉜다.",
+      "source": "X",
+      "url": "https://x.com/matteoikari/status/2105971197426979042?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "같은 '토큰화 주식'이라도 법적 권리는 제각각",
+        "what": "토큰화 주식의 세 가지 구조를 정리한 글이다. BlackRock BUIDL처럼 토큰이 등록 자산 자체인 경우, Base 위 코인베이스 주식처럼 의결권 없는 신탁 청구권인 경우, 로빈후드 주식 토큰처럼 소유권 없는 가격 추종 채무증권인 경우로 나뉜다.",
+        "points": [
+          "9월 SEC의 온체인 유동성 풀용 토큰화 주식 승인",
+          "ECB Pontes 출시, Aave v4의 코인베이스 주식 토큰 담보 USDC 대출",
+          "24/7 거래와 원자적 결제 장점",
+          "Dinari가 미국 주식 724종을 미국 투자자에 개방"
+        ],
+        "why": [
+          "대부분 여전히 미국인을 배제하고 수탁 책임·의결권 문제가 미해결"
+        ]
+      }
+    },
+    {
+      "id": "crypto-agentic-commerce-landscape",
+      "title": "에이전트 커머스 지형도",
+      "summary": "에이전트 커머스를 6개 부문으로 나누고, Stripe가 단기적으로 가장 큰 경제적 영향력을 가진다고 분석했다.",
+      "source": "X",
+      "url": "https://x.com/huntermmonk/status/2100339117586551014?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "에이전트 결제 주도권은 Stripe, 크립토는 x402로 추격",
+        "what": "에이전트 커머스를 소비자 작업 완료, AI가 만든 사업, 기업 프로세스 최적화, 카드 네트워크 업그레이드, 크립토 네이티브 DeFi 에이전트, x402 추론당 소액결제의 6개 부문으로 정리했다. Stripe는 Agentic Commerce Protocol 등으로 가장 큰 단기 영향력을 가진다.",
+        "points": [
+          "Visa·Mastercard는 발급사·가맹점 옵트인이 필요한 토큰화 자격증명 도입",
+          "Clawpump 일 거래량 150만 달러",
+          "BlockRun x402 마켓은 모델 105종 제공",
+          "Polsia는 3,000만 달러 조달로 기업가치 2.5억 달러"
+        ],
+        "why": [
+          "전통 결제망과 크립토 레일이 에이전트 결제 시장에서 경쟁 중"
+        ]
+      }
+    },
+    {
+      "id": "crypto-robinhood-sec-innovation-exemption",
+      "title": "로빈후드 \"SEC 혁신 면제, 규모가 너무 작다\"",
+      "summary": "로빈후드는 SEC의 5년 토큰화 주식 면제에 거래량·자산 상한이 있어 자사 해외 주식 토큰이 이를 초과할 것이라고 밝혔다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-02-secs-innovation-exemption-robinhood-417538?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "규제 샌드박스 상한이 대형 사업자에겐 족쇄",
+        "what": "로빈후드 크립토 총괄 요한 케르브라트는 SEC의 5년 토큰화 주식 거래 면제에 거래량·자산 상한이 있어, 120개국 이상에서 운영 중인 자사 해외 주식 토큰을 미국에 들여오면 상한을 넘을 것이라고 말했다.",
+        "points": [
+          "SEC 면제 기간 5년, 거래량·자산 상한 존재",
+          "로빈후드 주식 토큰 120개국 이상 운영",
+          "현물 상환과 의결권 추가 계획",
+          "미국 고객용 8개 암호화폐 무기한 선물 출시 예정"
+        ],
+        "why": [
+          "토큰화 주식의 미국 본격 도입 속도를 좌우할 변수"
+        ]
+      }
+    },
+    {
+      "id": "crypto-clayton-super-intelligence-force",
+      "title": "트럼프, 전 SEC 위원장 클레이턴을 '슈퍼 인텔리전스 포스' 수장으로",
+      "summary": "연방 AI 정책을 조율하는 조직을 신설하고 국가정보장 제이 클레이턴에게 이끌게 했다.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380019/trump-jay-clayton-sec-ripple-ai-push-super-intelligence?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "리플 소송을 이끈 인물이 AI 정책 수장으로",
+        "what": "트럼프 대통령이 연방 AI 정책을 조율할 Super Intelligence Force를 만들고 국가정보장 제이 클레이턴에게 맡겼다. FTC 위원장 앤드루 퍼거슨, 에밀 마이클, 스콧 쿠퍼가 함께하며 주요 테크 기업이 서명한 백악관 협약 이후 나온 조치다.",
+        "points": [
+          "클레이턴은 첫 임기 SEC 위원장으로 디지털 자산 기업 대상 집행 57건",
+          "2020년 12월 리플 소송 제기",
+          "그의 SDNY 사무소가 토네이도 캐시 개발자 로만 스톰 기소"
+        ],
+        "why": [
+          "크립토 업계에 강경했던 인물의 영향력 확대에 대한 경계"
+        ]
+      }
+    },
+    {
+      "id": "crypto-uptober-bitcoin-etf-inflows",
+      "title": "'업토버' 상승 출발, 비트코인 ETF에 1억 3,400만 달러 유입",
+      "summary": "미국 현물 비트코인 ETF가 10월 첫 2거래일 동안 1억 3,440만 달러를 끌어모았다.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380007/uptober-starts-green-bitcoin-etfs-draw-134-million?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "9월 말 유출 후 ETF 자금 재유입",
+        "what": "미국 현물 비트코인 ETF가 10월 첫 2거래일 동안 1억 3,440만 달러를 유치했다. 9월 30일 1억 4,870만 달러 유출로 9거래일 연속 유입이 끊긴 뒤의 반등이다.",
+        "points": [
+          "10월 첫 2거래일 유입 1억 3,440만 달러",
+          "9월 30일 유출 1억 4,870만 달러",
+          "9월 총 유입 26억 5,000만 달러"
+        ],
+        "why": [
+          "기관 수요가 유지되고 있음을 시사"
+        ]
+      }
+    },
+    {
+      "id": "crypto-bitcoin-85k-sell-wall",
+      "title": "비트코인, 8만 5천 달러 매도벽 해소 후 1월 이후 최고치 근접",
+      "summary": "비트코인이 금요일 8만 7천 달러를 넘어 9월 중순 저점 대비 약 14.6% 상승했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-10-02-bitcoin-nears-highest-level-january-85000-sell-wall-clears-us-jobs-data-disappoints-417570?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "주요 매도벽 돌파로 연중 고점 재도전",
+        "what": "비트코인이 금요일 8만 7천 달러를 넘어섰다. 8만 5천 달러 매도벽이 일부 소화되고 나머지 매도 호가가 철회된 결과로, 9월 중순 저점 대비 약 14.6% 높다.",
+        "points": [
+          "8만 7천 달러 돌파",
+          "9월 중순 저점 대비 약 14.6% 상승",
+          "8만 5천 달러 매도벽 일부 체결·철회"
+        ],
+        "why": [
+          "1월 이후 최고 수준 회복 여부가 관전 포인트"
+        ]
+      }
+    },
+    {
+      "id": "crypto-bitgo-clarity-failure",
+      "title": "BitGo CEO \"Clarity 법안 무산으로 시장 리스크 노출\"",
+      "summary": "BitGo CEO 마이크 벨시는 상원의 Clarity 법 처리 실패로 거래소·브로커·수탁을 겸하는 크립토 기업의 위험이 방치된다고 말했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-02-mike-belshe-bitgo-interview-clarity-417560?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "시장구조법 부재가 이해상충 리스크를 남긴다",
+        "what": "BitGo CEO 마이크 벨시는 상원이 Clarity 법을 통과시키지 못하면서 미국 자본시장이 거래소, 브로커, 수탁기관 역할을 한꺼번에 하는 크립토 기업의 위험에 노출된다고 지적했다.",
+        "points": [
+          "상원의 Clarity 법 통과 실패",
+          "거래소·브로커·수탁 겸업 구조가 핵심 문제",
+          "수탁 전문 업체 관점의 비판"
+        ],
+        "why": [
+          "미국 크립토 시장구조 규제 공백이 이어진다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ecb-onchain-central-bank-money",
+      "title": "ECB, 중앙은행 화폐 온체인화 3가지 모델 제시",
+      "summary": "ECB가 준비금 직접 발행, RTGS-DLT 상호운용 계층, 완전 담보 정산 토큰의 세 가지 방식을 제시했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-02-ecb-outlines-three-models-for-putting-central-bank-money-onchain-417552?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "중앙은행 화폐를 블록체인 정산에 연결하는 청사진",
+        "what": "ECB가 중앙은행 화폐를 분산원장(DLT)에 올리는 세 가지 방안을 제시했다. 프로그래머블 플랫폼에 준비금을 직접 발행하는 방식, 기존 RTGS와 DLT를 잇는 상호운용 계층, 민간 청구권 형태의 완전 담보 정산 토큰이다.",
+        "points": [
+          "준비금 직접 발행",
+          "RTGS-DLT 상호운용 계층",
+          "완전 담보 정산 토큰"
+        ],
+        "why": [
+          "토큰화 자산의 중앙은행 화폐 정산 경로가 구체화된다"
+        ]
+      }
+    }
+  ]
+}

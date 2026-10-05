@@ -1,0 +1,285 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-prime-inference",
+      "title": "Prime Intellect, 오픈 프런티어 모델용 추론 서비스 'Prime Inference' 출시",
+      "summary": "Prime Intellect가 프런티어 오픈소스 모델을 위한 서버리스 엔드포인트와 예약 용량을 제공하는 Prime Inference를 공개했다. 하루 1조 토큰 가까이 처리한다.",
+      "source": "Prime Intellect",
+      "url": "https://www.primeintellect.ai/blog/prime-inference?utm_source=tldrai",
+      "report": {
+        "tldr": "오픈 모델 서빙 인프라 경쟁에 Prime Intellect가 본격 참전했다.",
+        "what": "Prime Intellect가 프런티어급 오픈소스 모델을 안정적으로 서빙하는 Prime Inference를 출시했다. 서버리스 엔드포인트와 예약 용량을 제공하며, 하루 1조 토큰에 가까운 처리량으로 RL 롤아웃, 합성 데이터 생성, 코딩 에이전트를 구동하고 있다.",
+        "points": [
+          "서버리스 엔드포인트 + 예약 용량 두 가지 방식",
+          "일일 처리량 약 1조 토큰",
+          "RL 롤아웃·합성 데이터·코딩 에이전트 워크로드 지원"
+        ],
+        "why": [
+          "오픈 모델 기반 에이전트·RL 파이프라인을 운영하는 팀의 선택지 확대",
+          "오픈 가중치 모델 생태계의 추론 인프라 성숙"
+        ]
+      }
+    },
+    {
+      "id": "ai-aleph-alpha-kolibri",
+      "title": "Aleph Alpha, 100만 토큰 컨텍스트 오픈 가중치 모델 'Kolibri' 공개",
+      "summary": "Aleph Alpha가 영어·독일어 MoE 모델 Kolibri(781억 파라미터)를 Apache 2.0으로 공개했다. 도구 호출과 100만 토큰 컨텍스트를 지원하며 규제 산업을 겨냥한다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/aleph-alpha-releases-open-weight-kolibri-with-1m-context/?utm_source=tldrai",
+      "report": {
+        "tldr": "유럽 규제 산업용 오픈 가중치 대안이 나왔다.",
+        "what": "독일 Aleph Alpha가 영어·독일어 Mixture-of-Experts 모델 Kolibri를 오픈 가중치로 공개했다. 781억 파라미터 규모로 도구 호출과 100만 토큰 컨텍스트를 지원하며, Apache 2.0 라이선스로 규제 산업을 겨냥한다.",
+        "points": [
+          "영어·독일어 특화 MoE, 781억 파라미터",
+          "100만 토큰 컨텍스트, 도구 호출 지원",
+          "Apache 2.0 라이선스",
+          "규제 산업 타깃"
+        ],
+        "why": [
+          "유럽 AI 주권·데이터 규제 요구에 맞춘 상용 친화 오픈 모델",
+          "장문 컨텍스트 오픈 모델 선택지 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-frontier-academy",
+      "title": "앤트로픽, AI 엔지니어 양성에 1억 달러 투자",
+      "summary": "앤트로픽이 Claude Frontier Academy를 출범해 1억 달러를 투자하고 2027년까지 AI 엔지니어 1만 명을 양성한다. 액센츄어, 모건스탠리 등과 협력한다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/02/anthropic-to-invest-100-million-to-train-ai-engineer-talent.html?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 인재 병목을 직접 풀겠다는 앤트로픽의 생태계 투자다.",
+        "what": "앤트로픽이 Claude Frontier Academy를 출범하고 1억 달러를 투입해 2027년까지 AI 엔지니어 1만 명을 훈련시키겠다고 발표했다. 액센츄어, 모건스탠리 같은 기업들과 파트너십을 맺는다.",
+        "points": [
+          "Claude Frontier Academy 출범",
+          "1억 달러 투자",
+          "2027년까지 AI 엔지니어 1만 명 양성",
+          "액센츄어·모건스탠리 등과 협력"
+        ],
+        "why": [
+          "기업 AI 도입의 병목인 실무 인재 부족 해소 시도",
+          "엔터프라이즈 고객 기반을 Claude 생태계에 묶는 전략"
+        ]
+      }
+    },
+    {
+      "id": "ai-epoch-agent-population",
+      "title": "2027년까지 출하될 AI 칩으로 에이전트를 몇 개나 돌릴 수 있을까",
+      "summary": "Epoch AI는 2027년까지 출하될 칩으로 수천만~수억 개의 프런티어 모델 에이전트를 동시에 돌릴 수 있으며, 이는 1.4억~7.2억 명의 노동에 해당한다고 추산했다.",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/estimating-the-agent-population?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 칩 공급량은 수억 명 규모의 '디지털 노동력'에 해당할 수 있다.",
+        "what": "Epoch AI가 2027년까지 출하될 AI 칩으로 동시에 구동 가능한 에이전트 수를 추정했다. 수천만에서 수억 개의 프런티어 모델 에이전트가 가능하며, 이는 1억 4천만~7억 2천만 명의 노동에 해당하고 연간 2.6조~5.3조 달러의 API 지출이 필요하다는 분석이다.",
+        "points": [
+          "동시 구동 가능 에이전트: 수천만~수억 개",
+          "노동 환산: 1.4억~7.2억 명",
+          "필요 API 지출: 연 2.6조~5.3조 달러"
+        ],
+        "why": [
+          "AI 자동화의 경제적 규모를 컴퓨트 공급 측면에서 가늠하는 기준점",
+          "수요(API 지출)가 공급을 따라갈 수 있는지가 관건"
+        ]
+      }
+    },
+    {
+      "id": "ai-ai21-kueue-gpu-fleet",
+      "title": "AI21, Kueue로 1만 GPU 클러스터 관리",
+      "summary": "AI21이 구글 클라우드 GPU 클러스터에 Kueue 기반 대기열 시스템을 도입해 임기응변식 협상을 대체했고, 고우선순위 워크로드 시작을 83% 앞당겼다.",
+      "source": "AI21",
+      "url": "https://www.ai21.com/blog/how-ai21-manages-its-gpu-fleet-with-kueue?utm_source=tldrai",
+      "report": {
+        "tldr": "GPU 배분은 협상이 아니라 큐잉 시스템으로 풀어야 한다.",
+        "what": "AI21은 1만 GPU 규모의 구글 클라우드 클러스터에서 팀 간 즉흥적인 GPU 협상을 Kueue 기반 대기열 시스템으로 대체했다. 그 결과 고우선순위 워크로드가 83% 더 빨리 시작되었다.",
+        "points": [
+          "1만 GPU 규모 구글 클라우드 클러스터",
+          "Kubernetes 대기열 시스템 Kueue 도입",
+          "고우선순위 워크로드 시작 83% 단축"
+        ],
+        "why": [
+          "대규모 GPU 자원을 쓰는 조직의 스케줄링 실전 사례",
+          "GPU 활용률이 곧 비용인 환경에서의 운영 교훈"
+        ]
+      }
+    },
+    {
+      "id": "ai-smaller-models-sovereignty",
+      "title": "AI 주권의 미래는 작은 모델에 있다",
+      "summary": "호주가 AI 주권을 확보하려면 프런티어 모델보다 적응성·비용 효율·거버넌스가 뛰어난 소형 특화 모델에 집중해야 한다는 주장이다.",
+      "source": "Kate Carruthers",
+      "url": "https://katecarruthers.com/smaller-models-are-the-future-of-ai-sovereignty-2/?utm_source=tldrai",
+      "report": {
+        "tldr": "중견국의 AI 주권 전략은 소형 특화 모델이 현실적이다.",
+        "what": "케이트 캐러더스는 호주가 프런티어 모델 경쟁 대신 작고 특화된 모델로 AI 주권을 추구해야 한다고 주장한다. 소형 모델은 적응성, 비용 효율성, 더 쉬운 거버넌스라는 장점을 갖는다는 것이다.",
+        "points": [
+          "호주 AI 주권 전략에 대한 제언",
+          "소형·특화 모델 중심 접근",
+          "적응성·비용 효율·거버넌스 용이성 강조"
+        ],
+        "why": [
+          "프런티어 모델을 직접 만들기 어려운 국가들의 현실적 대안 논의"
+        ]
+      }
+    },
+    {
+      "id": "ai-whistle-speech-to-text",
+      "title": "Whistle: 16.9MB 초경량 음성인식 모델",
+      "summary": "Cactus Compute가 7개 언어를 지원하는 약 17MB 크기의 오픈 음성인식 모델 Whistle을 공개했다. 모바일, 웨어러블, 로봇, 차량, 마이크로컨트롤러에서 구동된다.",
+      "source": "Cactus Compute",
+      "url": "https://cactuscompute.com/blog/whistle?utm_source=tldrai",
+      "report": {
+        "tldr": "마이크로컨트롤러에서도 도는 온디바이스 STT가 나왔다.",
+        "what": "Cactus Compute의 Whistle은 약 17MB 크기의 오픈 음성인식 모델로 7개 언어를 지원한다. 모바일, 웨어러블, 로봇, 스마트홈 기기, 자동차, 마이크로컨트롤러까지 실행 대상으로 삼는다.",
+        "points": [
+          "모델 크기 약 16.9MB",
+          "7개 언어 지원",
+          "오픈 모델",
+          "모바일·웨어러블·로봇·차량·MCU 구동"
+        ],
+        "why": [
+          "클라우드 없이 엣지 기기에서 음성 인터페이스 구현 가능",
+          "프라이버시·지연시간에 민감한 제품에 유리"
+        ]
+      }
+    },
+    {
+      "id": "ai-vx-language",
+      "title": "Vx: 하드웨어 토폴로지를 타입 시스템에 넣은 시스템 언어",
+      "summary": "Vx는 하드웨어 토폴로지, 메모리 배치, 도달 가능성을 타입 시스템에 직접 담은 이기종 컴퓨팅용 시스템 프로그래밍 언어다.",
+      "source": "vxlang.org",
+      "url": "https://vxlang.org/?utm_source=tldrai",
+      "report": {
+        "tldr": "이기종 하드웨어를 타입 수준에서 다루려는 새 언어다.",
+        "what": "Vx는 하드웨어 토폴로지, 메모리 배치, 도달 가능성을 타입 시스템에 직접 반영하는 시스템 프로그래밍 언어로, 이기종 컴퓨팅 애플리케이션을 겨냥한다.",
+        "points": [
+          "하드웨어 토폴로지를 타입으로 표현",
+          "메모리 배치·도달 가능성도 타입 시스템에 포함",
+          "이기종 컴퓨팅 타깃"
+        ],
+        "why": [
+          "GPU·가속기 혼합 환경의 메모리 오류를 컴파일 타임에 잡을 가능성"
+        ]
+      }
+    },
+    {
+      "id": "ai-world-agent-identity",
+      "title": "Muse, dots, Instinct… 모든 에이전트가 받게 될 질문",
+      "summary": "World Network는 에이전트가 '어떤 에이전트가 행동하는지, 실제 사람이 승인했는지'를 증명해야 하며 World ID 자격증명이 그 답이 될 수 있다고 주장한다.",
+      "source": "X (World Network)",
+      "url": "https://x.com/worldnetwork/status/2105989118287134752?utm_source=tldrai",
+      "report": {
+        "tldr": "에이전트 시대의 핵심 질문은 '누가, 누구의 승인으로'다.",
+        "what": "World Network는 Muse, dots, Instinct 등 에이전트가 늘어나면서 어떤 에이전트가 행동하고 있으며 실제 사람이 이를 승인했는지 증명해야 하는 문제가 생긴다고 말한다. 그 해법으로 World ID 자격증명을 제시한다.",
+        "points": [
+          "에이전트 신원 및 인간 승인 증명 문제 제기",
+          "World ID 자격증명을 해법으로 제안",
+          "Muse 등 소비자 에이전트 확산이 배경"
+        ],
+        "why": [
+          "에이전트 인증·책임 소재 문제가 제품 설계 이슈로 부상"
+        ]
+      }
+    },
+    {
+      "id": "ai-human-intelligence-surprising",
+      "title": "인간 지능은 놀랍다",
+      "summary": "측정 가능한 과제에서 인간을 능가하는 것보다 '가치 있는 목표'를 정의하는 일이 여전히 더 어렵다는 관찰이다.",
+      "source": "X (Rayan Krishnan)",
+      "url": "https://x.com/RayanKrishnan/status/2106053382448484796?utm_source=tldrai",
+      "report": {
+        "tldr": "성능보다 목표 설정이 더 어려운 문제로 남아 있다.",
+        "what": "라얀 크리슈난은 AI가 측정 가능한 과제에서 인간을 넘어서는 것보다, 무엇이 가치 있는 목표인지 정의하는 일이 여전히 더 어렵다고 지적한다.",
+        "points": [
+          "측정 가능한 과제의 성능은 빠르게 인간 추월",
+          "가치 있는 목표 정의는 여전히 난제",
+          "인간 지능의 강점을 목표 설정에서 찾음"
+        ],
+        "why": [
+          "벤치마크 중심 AI 평가의 한계를 상기"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-provably-private-federated",
+      "title": "구글, 증명 가능한 프라이버시를 갖춘 연합학습",
+      "summary": "구글 리서치가 외부에서 검증 가능한 프라이버시 보장을 제공하면서 학습 속도와 정확도도 개선한 연합학습 시스템을 소개했다.",
+      "source": "Google Research",
+      "url": "https://research.google/blog/toward-provably-private-learning-from-federated-data/?utm_source=tldrai",
+      "report": {
+        "tldr": "프라이버시 보장을 외부에서 검증할 수 있는 연합학습이다.",
+        "what": "구글 리서치는 연합 데이터에서 학습하면서 외부에서 검증 가능한 프라이버시 보장을 제공하는 연합학습 시스템을 공개했다. 동시에 학습 속도와 정확도도 개선했다고 밝혔다.",
+        "points": [
+          "외부 검증 가능한 프라이버시 보장",
+          "학습 속도 개선",
+          "정확도 개선"
+        ],
+        "why": [
+          "'믿어달라'가 아닌 검증 가능한 프라이버시로 규제 대응력 강화"
+        ]
+      }
+    },
+    {
+      "id": "ai-unievo-vl-self-critique",
+      "title": "스스로의 비평으로 학습하는 멀티모달 모델 UniEvo-VL",
+      "summary": "UniEvo-VL은 하나의 멀티모달 모델이 교사와 학생 역할을 모두 수행하며 자기 비평을 통해 테스트 시점에 성능을 개선한다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2609.38721?utm_source=tldrai",
+      "report": {
+        "tldr": "단일 모델이 자기 비평으로 테스트 타임에 스스로 개선한다.",
+        "what": "arXiv 논문 UniEvo-VL은 하나의 멀티모달 모델이 교사이자 학생으로 동작하도록 해, 자신의 출력에 대한 비평을 활용해 테스트 시점에 성능을 높이는 방법을 제안한다.",
+        "points": [
+          "단일 모델이 교사·학생 역할 겸임",
+          "자기 비평 기반 개선",
+          "테스트 타임 성능 향상"
+        ],
+        "why": [
+          "별도 교사 모델 없이 멀티모달 성능을 끌어올리는 접근"
+        ]
+      }
+    },
+    {
+      "id": "ai-meta-muse-gadgets-open-source",
+      "title": "메타, Muse AI 가젯 제작용 코드 오픈소스 공개",
+      "summary": "메타가 Muse AI 에이전트를 직접 만든 기기에 통합할 수 있는 코드를 오픈소스로 공개했다.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link?utm_source=tldrai",
+      "report": {
+        "tldr": "Muse를 하드웨어 생태계로 확장하려는 메타의 행보다.",
+        "what": "메타가 Muse AI 에이전트를 커스텀 가젯에 통합할 수 있도록 하는 코드를 오픈소스로 공개했다. 개발자와 메이커가 자신만의 Muse 기반 기기를 만들 수 있게 된다.",
+        "points": [
+          "Muse 에이전트 통합 코드 오픈소스화",
+          "커스텀 가젯 제작 지원",
+          "Muse 생태계 확장"
+        ],
+        "why": [
+          "오늘 TLDR(테크)·Dev에서도 다룬 Muse 흥행의 연장선",
+          "소비자 AI 에이전트의 하드웨어 접점 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-meta-muse-spark-math",
+      "title": "메타, 수학자들과 Muse Spark로 미해결 문제 공략",
+      "summary": "메타가 수학자들과 협력해 Muse Spark 모델로 미해결 수학 문제를 풀었다.",
+      "source": "Meta AI Research",
+      "url": "https://research.meta.ai/blog/solving-open-research-problems-together?utm_source=tldrai",
+      "report": {
+        "tldr": "메타 AI가 연구 협업 도구로서의 역량을 보여줬다.",
+        "what": "메타가 수학자들과 파트너십을 맺고 Muse Spark 모델을 활용해 미해결 수학 문제들을 해결했다고 밝혔다.",
+        "points": [
+          "수학자와의 협업 프로젝트",
+          "Muse Spark 모델 활용",
+          "미해결 수학 문제 해결"
+        ],
+        "why": [
+          "AI의 과학·수학 연구 기여 경쟁에 메타도 합류"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-hard-budget-caps",
+      "title": "모든 서비스에 기본 하드 예산 상한이 필요하다",
+      "summary": "Simon Willison은 에이전트가 밤새 비용을 폭증시킬 수 있으므로 하드 예산 상한을 기본값으로, 무제한은 옵트인으로 해야 한다고 주장한다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "에이전트 시대에는 하드 예산 상한이 기본값이어야 한다.",
+        "what": "Simon Willison은 에이전트가 코드 실행 마찰을 낮추면서 비용 위험이 커졌다고 지적했다. 대부분의 기업은 예기치 않은 1만 달러 이상의 청구서보다 예산 초과 오류를 선호할 것이라고 본다.",
+        "points": [
+          "에이전트가 밤새 예산 초과 청구를 만들 수 있음",
+          "기업은 깜짝 청구서보다 오류를 선호할 가능성",
+          "하드 캡은 기본값, 무제한은 옵트인이어야 함"
+        ],
+        "why": [
+          "에이전트 기반 제품을 만드는 SaaS·클라우드 업체에 과금 설계 변화를 요구한다"
+        ]
+      }
+    },
+    {
+      "id": "founders-tam-goes-up",
+      "title": "모델이 좋아질수록 TAM이 커져야 한다",
+      "summary": "AI 네이티브 기업은 모델 개선이 시장을 키우는 구조여야 하며, 능력 격차를 차익거래하는 사업은 시한부라는 주장이다.",
+      "source": "X",
+      "url": "https://x.com/ponnappa/status/2086092033647927533?utm_source=tldrfounders",
+      "report": {
+        "tldr": "모델 발전이 악재인 AI 사업은 시한부다.",
+        "what": "대부분의 AI 기업은 모델의 능력과 고객 요구 사이의 간극에서 사업을 한다. 새 모델이 나올 때마다 그 간극이 줄어 시장도 줄어든다는 것이 글의 요지다.",
+        "points": [
+          "모델 릴리스마다 능력 격차 일부가 사라짐",
+          "격차 기반 사업은 시장이 축소됨",
+          "모델이 좋아질수록 TAM이 커지는 구조가 필요"
+        ],
+        "why": [
+          "AI 스타트업의 장기 방어력을 점검하는 간단한 기준을 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "founders-agent-api-access-fees",
+      "title": "Salesforce·Atlassian·HubSpot, 에이전트 API 접근 과금 시작",
+      "summary": "SaaStr는 기존 구독에 포함되던 에이전트 API 접근에 연 최대 24만 달러 견적을 받았고, 에이전트는 5달러짜리 Postgres로 데이터를 복제하자고 제안했다.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/we-got-a-240000-estimate-for-agent-api-access-our-agent-suggested-a-5-postgres-instance/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "SaaS 대기업들이 에이전트 API 호출을 새 수익원으로 삼기 시작했다.",
+        "what": "SaaStr는 구독에 포함되던 에이전트 API 접근에 연간 최대 24만 달러 견적을 받았다. 자사 매출 에이전트는 하루 3만5천~4만 건의 API 호출을 하며, 호출을 줄이려 데이터를 5달러 Postgres DB로 복사하자고 제안했다.",
+        "points": [
+          "에이전트 API 접근 견적 연 최대 24만 달러",
+          "매출 에이전트가 하루 3만5천~4만 건 호출",
+          "Salesforce 과금 도입, Atlassian은 이미 과금",
+          "HubSpot은 자사 에이전트에만 과금, 서드파티는 아직 무료"
+        ],
+        "why": [
+          "에이전트 운영 비용 구조와 SaaS 락인 전략이 동시에 바뀌고 있다",
+          "데이터 복제로 우회하려는 움직임이 SaaS 가격 정책과 충돌할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "founders-google-update-prediction",
+      "title": "곧 대규모 구글 업데이트가 온다는 예측",
+      "summary": "구글이 AI 콘텐츠 가이드를 개정해 AI 생성물의 수동 팩트체크를 '필수'로, 가짜 저자를 기만으로 규정했다.",
+      "source": "Lily Ray (Substack)",
+      "url": "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google?utm_source=tldrfounders",
+      "report": {
+        "tldr": "구글 문서 개정은 대규모 검색 업데이트의 전조다.",
+        "what": "구글은 대형 업데이트 전 문서에 단서를 남겨왔고, 이번 주 AI 콘텐츠 가이드를 다시 썼다. AI 생성 콘텐츠는 게시 전 수동 팩트체크와 검토가 '중요'해졌고 가짜 저자는 기만 행위로 분류됐다.",
+        "points": [
+          "AI 콘텐츠 가이드 전면 개정",
+          "게시 전 수동 팩트체크·검토 필수화",
+          "가짜 저자를 기만으로 분류",
+          "업데이트 전 저품질 요소 정리 권고"
+        ],
+        "why": [
+          "AI로 콘텐츠를 대량 생산해온 사이트는 검색 트래픽 손실 위험이 크다"
+        ]
+      }
+    },
+    {
+      "id": "founders-negative-gross-margins",
+      "title": "AI 스타트업의 마이너스 매출총이익률은 언제 용인되나",
+      "summary": "Harvey는 정액 좌석 과금 아래 사용량 증가로 6월 매출총이익률이 -50%였다고 알려졌으며, Legora와 비교해 탈출 전략 세 가지를 제시한다.",
+      "source": "OnlyCFO",
+      "url": "https://www.onlycfo.io/p/harvey-vs-legora-when-are-terrible?utm_source=tldrfounders",
+      "report": {
+        "tldr": "사용량 보조는 출구 전략이 있을 때만 정당화된다.",
+        "what": "AI 제품이 좋아져 사용량이 늘수록 계정당 수익성이 떨어지는 역설이 있다. Harvey는 정액 좌석 과금 상태에서 6월 매출총이익률이 -50%였다고 전해지며, 글은 Legora와 비교해 해법을 제시한다.",
+        "points": [
+          "Harvey 6월 매출총이익률 -50% 보도",
+          "해법: 사용량 과금, 요청당 비용 절감, 포함량 상한",
+          "검증 기준: 서비스 원가 후 1달러당 40센트를 남겨도 고객이 남는가"
+        ],
+        "why": [
+          "좌석 기반 과금이 AI 제품 원가 구조와 맞지 않음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "founders-is-buying-optional",
+      "title": "타깃 고객에게 구매는 선택 사항인가",
+      "summary": "같은 문제를 가져도 지금 행동할 이유는 다르며, 고객이 미룰 수 없었던 계기를 되짚어봐야 한다는 글이다.",
+      "source": "The Physics of Startups",
+      "url": "https://thephysicsofstartups.substack.com/p/is-buying-optional?utm_source=tldrfounders",
+      "report": {
+        "tldr": "같은 문제보다 '지금 사야 할 이유'가 구매를 결정한다.",
+        "what": "최고 고객과 비슷한 회사가 구매하지 않는 이유를 다룬다. AI 검색 예시에서 마케터는 상사 보고용 대시보드는 급하지만 실제 가시성을 개선하는 도구에는 압박을 덜 느낀다.",
+        "points": [
+          "문제 공유와 긴급성은 다름",
+          "AI 검색: 대시보드는 급하고 개선 도구는 덜 급함",
+          "구매 시점에 미룰 수 없던 요인 분석 권장"
+        ],
+        "why": [
+          "ICP 정의를 문제 기준에서 트리거 기준으로 바꾸는 데 도움이 된다"
+        ]
+      }
+    },
+    {
+      "id": "founders-cloudflare-birthday-week",
+      "title": "Cloudflare Birthday Week 2026 발표 모음",
+      "summary": "Cloudflare가 지난주 생일 주간에 발표한 신규 릴리스, 보안 도구, 수익화 프로그램, 에이전트 하네스를 한 페이지에 모았다.",
+      "source": "Cloudflare",
+      "url": "https://www.cloudflare.com/birthday-week/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Cloudflare 생일 주간 발표를 한곳에서 볼 수 있다.",
+        "what": "Cloudflare가 지난주 Birthday Week 동안 여러 발표를 했고 이를 날짜순으로 한 페이지에 정리했다. 신규 릴리스, 보안 도구, 수익화 프로그램, 에이전트 하네스가 포함됐다.",
+        "points": [
+          "발표일 순 정리",
+          "신규 릴리스와 보안 도구",
+          "수익화 프로그램",
+          "에이전트 하네스"
+        ],
+        "why": [
+          "Cloudflare가 에이전트 인프라 플랫폼으로 영역을 넓히고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "founders-supabase-select-recap",
+      "title": "Supabase Select 2026 정리",
+      "summary": "Supabase가 코드 우선 방식으로 전환해 에이전트가 개발자와 같은 코드에서 작업하고, 같은 Postgres로 프로토타입부터 페타바이트까지 확장한다고 밝혔다.",
+      "source": "Supabase",
+      "url": "https://supabase.com/blog/supabase-select-2026-recap?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Supabase가 에이전트와 함께 일하는 코드 우선 플랫폼으로 전환했다.",
+        "what": "Supabase가 Select 2026 행사 내용을 정리했다. 플랫폼이 코드 우선으로 바뀌어 에이전트가 개발자와 같은 코드에서 일하며, 에이전트가 문제를 찾으면 개발자가 병합 여부를 결정한다.",
+        "points": [
+          "코드 우선 방식 전환",
+          "에이전트가 개발자와 같은 코드베이스에서 작업",
+          "병합 결정은 개발자가 담당",
+          "동일 Postgres로 프로토타입~페타바이트 확장"
+        ],
+        "why": [
+          "BaaS 업체들이 에이전트 협업 워크플로를 핵심 기능으로 내세우고 있다"
+        ]
+      }
+    },
+    {
+      "id": "founders-midlife-hacker-house",
+      "title": "샌프란시스코 엑싯 창업자들의 400만 달러 '중년 해커 하우스'",
+      "summary": "엑싯 경험 창업자를 겨냥한 400만 달러 저택 Vibe House SF가 최대 2주 체류와 주 3회 행사를 운영한다.",
+      "source": "SF Standard",
+      "url": "https://sfstandard.com/2026/10/04/midlife-hacker-house/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 붐이 엑싯 창업자들을 샌프란시스코로 다시 끌어들이고 있다.",
+        "what": "2021년 회사를 매각한 한 창업자는 AI 현장 가까이 있으려 격주로 오스틴에서 샌프란시스코로 온다. 그가 머무는 Vibe House SF는 엑싯 경험 창업자 대상 400만 달러 저택으로 최대 2주 체류, 주 3회 행사를 연다.",
+        "points": [
+          "400만 달러 규모 Vibe House SF",
+          "엑싯 경험 창업자 대상",
+          "최대 2주 체류, 주 3회 행사",
+          "140달러 그라운딩 시트·3,300단어 선언문 등"
+        ],
+        "why": [
+          "AI 붐 속 샌프란시스코 창업 커뮤니티의 분위기를 보여주는 단면이다"
+        ]
+      }
+    },
+    {
+      "id": "founders-cognition-playbook",
+      "title": "Cognition 플레이북: 논란의 데모에서 ARR 10억 달러까지",
+      "summary": "Cognition은 9월 25일 연환산 매출 10억 달러를 넘었으며, 24개월 전엔 100만 달러였고 최근 480억 달러 가치로 투자를 유치했다.",
+      "source": "Product Market Fit",
+      "url": "https://www.productmarketfit.tech/p/the-cognition-playbook-from-debunked?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Cognition이 2년 만에 ARR 100만 달러에서 10억 달러로 성장했다.",
+        "what": "Cognition은 9월 25일 연환산 매출 10억 달러를 돌파했다. 2024년 3월 출시 영상이 화제가 됐을 때는 고객도 매출도 없었고, 지난 12개월간 세 차례 투자를 받아 마지막은 480억 달러 가치였다.",
+        "points": [
+          "ARR 10억 달러 돌파(9월 25일), 24개월 전 100만 달러",
+          "12개월간 3차례 투자, 최근 480억 달러 가치",
+          "5배 규모의 Windsurf 인수",
+          "코드의 약 90%를 자사 에이전트가 작성"
+        ],
+        "why": [
+          "AI 코딩 에이전트 시장의 성장 속도와 규모를 보여주는 대표 사례다"
+        ]
+      }
+    },
+    {
+      "id": "founders-120k-dm-complainers",
+      "title": "불만을 말한 사람에게 DM해 매출 12만 달러 달성",
+      "summary": "ARR 12만 달러를 보고한 창업자는 첫 사용자 100명을 직접 대화로 확보했다고 밝혔다.",
+      "source": "X",
+      "url": "https://x.com/sohmehta/status/2106356017126949286?utm_source=tldrfounders",
+      "report": {
+        "tldr": "이미 문제를 호소한 사람이 가장 좋은 첫 고객이다.",
+        "what": "ARR 12만 달러를 달성한 한 창업자가 첫 100명의 사용자를 직접 대화로 얻었다고 공유했다. 대상은 이미 해당 문제에 대해 불만을 표출한 사람들이었다.",
+        "points": [
+          "ARR 12만 달러",
+          "첫 사용자 100명을 직접 대화로 확보",
+          "문제를 이미 호소한 사람에게 DM"
+        ],
+        "why": [
+          "초기 고객 확보에서 수동적 광고보다 표적 아웃리치가 효과적임을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "founders-audiohook-acquires-podscan",
+      "title": "고객사가 인수한 팟캐스트 데이터 스타트업",
+      "summary": "Audiohook이 Podscan의 팟캐스트 데이터로 자사 제품을 만든 뒤 Podscan을 인수했다.",
+      "source": "X",
+      "url": "https://x.com/arvidkahl/status/2105288537323041278?utm_source=tldrfounders",
+      "report": {
+        "tldr": "핵심 고객이 결국 인수자가 됐다.",
+        "what": "Audiohook은 Podscan의 팟캐스트 데이터를 기반으로 자사 제품을 구축했다. 이후 Audiohook이 Podscan을 인수했다.",
+        "points": [
+          "인수자: Audiohook",
+          "피인수: Podscan(팟캐스트 데이터)",
+          "인수자가 이미 Podscan 데이터 위에서 제품 운영"
+        ],
+        "why": [
+          "의존도가 높은 고객이 가장 자연스러운 인수 후보가 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "founders-your-country-needs-builders",
+      "title": "당신의 나라엔 빌더가 필요하다",
+      "summary": "사람들에게 유용한 것을 만들 수단이 주어질 때 얼마나 많은 것이 바뀔 수 있는지 과소평가한다는 에세이다.",
+      "source": "L. Wilko",
+      "url": "https://www.lwilko.com/blog/your-country-needs-builders?utm_source=tldrfounders",
+      "report": {
+        "tldr": "만들 수단을 주면 변화의 폭은 예상보다 크다.",
+        "what": "개인 블로그 에세이로, 사람들이 유용한 것을 만들 수단을 갖게 됐을 때의 변화 잠재력을 우리가 과소평가한다고 주장한다.",
+        "points": [
+          "빌더의 역할 강조",
+          "제작 수단 제공의 파급력",
+          "변화 잠재력 과소평가 지적"
+        ],
+        "why": [
+          "창업과 제작 문화 확산의 의미를 되새기게 한다"
+        ]
+      }
+    },
+    {
+      "id": "founders-final-companies",
+      "title": "파이널 컴퍼니: AI 에이전트의 최종 형태",
+      "summary": "AI 에이전트가 상거래와 온라인 활동의 주 관문이 되어 어떤 기업이 트래픽과 지출을 받을지 통제할 수 있다는 전망이다.",
+      "source": "X",
+      "url": "https://x.com/Bencera/status/2105931441099976784?utm_source=tldrfounders",
+      "report": {
+        "tldr": "에이전트가 트래픽과 지출의 게이트키퍼가 될 수 있다.",
+        "what": "AI 에이전트가 상거래와 온라인 활동의 1차 관문이 될 수 있다는 글이다. 그렇게 되면 에이전트가 어떤 기업이 트래픽과 지출을 받을지 결정하게 된다.",
+        "points": [
+          "에이전트가 상거래의 주 관문이 될 가능성",
+          "트래픽·지출 배분을 에이전트가 통제",
+          "에이전트 보유 기업이 '최종 기업'이 될 수 있음"
+        ],
+        "why": [
+          "에이전트 경유 유입을 고려한 유통 전략이 필요해진다"
+        ]
+      }
+    }
+  ]
+}

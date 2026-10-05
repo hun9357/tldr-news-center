@@ -1,0 +1,299 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-openai-data-agent-70000-datasets",
+      "title": "OpenAI 내부 데이터 에이전트, 7만 개 데이터셋 탐색법",
+      "summary": "OpenAI의 사내 데이터 에이전트는 웨어하우스 쿼리에 스키마·리니지·코드·지식 컨텍스트를 결합해 복잡한 질문에 답한다. 신뢰성은 모델 성능보다 컨텍스트 품질에 달려 있다는 점을 강조한다.",
+      "source": "YouTube",
+      "url": "https://www.youtube.com/watch?v=82zo4WMcjfU&utm_source=tldrdata",
+      "report": {
+        "tldr": "데이터 에이전트의 신뢰성은 모델 크기가 아니라 컨텍스트 품질이 좌우한다.",
+        "what": "OpenAI가 약 7만 개 데이터셋을 다루는 내부 데이터 에이전트 구조를 27분 영상으로 소개했다. 에이전트는 웨어하우스 쿼리와 스키마, 리니지, 코드, 사내 지식을 함께 활용하며 추론 과정·SQL·인용·신뢰도를 함께 보여준다.",
+        "points": [
+          "스키마·리니지·코드·지식을 컨텍스트로 결합",
+          "답변과 함께 추론, SQL, 인용, 신뢰도 노출",
+          "대규모(7만 개) 데이터셋 환경에서 운영",
+          "신뢰성은 원시 모델 성능보다 컨텍스트 품질에 의존"
+        ],
+        "why": [
+          "사내 텍스트-투-SQL·분석 에이전트를 구축하는 팀에 메타데이터·리니지 정비의 중요성을 보여준다",
+          "투명한 근거 제시가 데이터 에이전트 신뢰 확보의 핵심 설계 요소임을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "data-datadog-distributed-datafusion",
+      "title": "Datadog, Apache DataFusion을 여러 머신 분산 실행으로 확장",
+      "summary": "Datadog의 Distributed DataFusion은 단일 쿼리를 여러 머신에 걸쳐 실행해 무거운 쿼리 성능을 최대 10배 개선하면서, 가벼운 쿼리에는 오버헤드를 주지 않는다.",
+      "source": "Datadog Blog",
+      "url": "https://www.datadoghq.com/blog/engineering/distributed-datafusion?utm_source=tldrdata",
+      "report": {
+        "tldr": "DataFusion 분산 실행으로 비싼 쿼리는 최대 10배 빨라지고 가벼운 쿼리는 그대로다.",
+        "what": "Datadog이 Apache DataFusion을 확장해 하나의 쿼리를 여러 머신에서 실행하는 Distributed DataFusion을 구축했다. 비용 효율을 유지하면서 고비용 쿼리의 성능을 높이는 것이 목표다.",
+        "points": [
+          "단일 쿼리를 다수 머신에 분산 실행",
+          "고비용 쿼리 성능 최대 10배 개선",
+          "경량 쿼리에는 분산 오버헤드 회피",
+          "비용 효율성 유지"
+        ],
+        "why": [
+          "Rust 기반 DataFusion이 대형 상용 관측 플랫폼의 분산 엔진으로 쓰일 수 있음을 보여준다",
+          "쿼리 특성에 따라 분산 여부를 가르는 설계가 비용·성능 균형의 해법임을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "data-linkedin-clickhouse-metrics",
+      "title": "LinkedIn, ClickHouse를 분산 트레이싱에서 메트릭 탐색·분석까지 확장",
+      "summary": "LinkedIn은 세 개 시스템을 하나의 ClickHouse 인덱스로 통합해 130억 개 메트릭에 대해 분당 15만+ 쿼리를 평균 68ms로 처리하면서 메모리 사용을 5분의 1로 줄였다.",
+      "source": "ClickHouse Blog",
+      "url": "https://clickhouse.com/blog/linkedin-observability-at-scale?utm_source=tldrdata",
+      "report": {
+        "tldr": "LinkedIn이 관측 시스템 3개를 ClickHouse 하나로 통합해 메모리를 80% 절감했다.",
+        "what": "LinkedIn이 분산 트레이싱용으로 쓰던 ClickHouse를 메트릭 탐색과 분석까지 확장했다. 기존 세 시스템을 단일 ClickHouse 인덱스로 통합한 결과를 공유했다.",
+        "points": [
+          "3개 시스템을 단일 ClickHouse 인덱스로 통합",
+          "130억 개 메트릭, 분당 15만+ 쿼리 처리",
+          "평균 응답 시간 68ms",
+          "메모리 사용량을 기존 대비 5분의 1로 축소"
+        ],
+        "why": [
+          "관측성 스택 통합으로 운영 복잡도와 인프라 비용을 동시에 줄인 대규모 사례다",
+          "ClickHouse가 트레이싱을 넘어 메트릭 백엔드로도 경쟁력이 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "data-context-is-the-new-code",
+      "title": "컨텍스트가 새로운 코드다",
+      "summary": "AI 코딩 에이전트 시대에는 컨텍스트가 핵심 소프트웨어 산출물이 되며, 팀은 컨텍스트 패키지를 애플리케이션 코드처럼 생성·린트·버전 관리·테스트해야 한다는 InfoQ 발표다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/presentations/context-as-code-devops-agents/?utm_source=tldrdata",
+      "report": {
+        "tldr": "에이전트용 컨텍스트도 코드처럼 린트·버전 관리·테스트해야 한다.",
+        "what": "InfoQ 발표(50분)는 AI 코딩 에이전트에게 컨텍스트가 주요 소프트웨어 산출물이 되고 있다고 주장한다. 컨텍스트 패키지에 애플리케이션 코드 수준의 엄격함을 적용해 드리프트와 환각을 관리해야 한다는 내용이다.",
+        "points": [
+          "컨텍스트를 1급 소프트웨어 산출물로 취급",
+          "컨텍스트 패키지의 생성·린트·버전 관리·테스트",
+          "컨텍스트 드리프트 관리",
+          "에이전트 환각 방지 목적"
+        ],
+        "why": [
+          "에이전트 도입 팀에 컨텍스트 엔지니어링을 CI/CD 체계에 편입할 필요성을 제기한다",
+          "데이터 에이전트의 컨텍스트 품질 논의(OpenAI 사례)와도 맞닿아 있다"
+        ]
+      }
+    },
+    {
+      "id": "data-linkedin-northguard-xinfra-kafka",
+      "title": "Kafka를 만든 LinkedIn, Kafka 한계 이후 무엇을 바꿨나",
+      "summary": "LinkedIn은 대규모에서 Kafka의 파티션 모델을 넘어서기 위해 순서·복제·배치를 분리한 Northguard를 개발하고, Xinfra로 백엔드 변경을 추상화해 점진적으로 마이그레이션했다.",
+      "source": "SoftwareMill",
+      "url": "https://softwaremill.com/linkedin-northguard-xinfra-kafka?utm_source=tldrdata",
+      "report": {
+        "tldr": "LinkedIn은 Northguard로 Kafka 파티션 모델을 넘어서고 Xinfra로 무중단 이전을 했다.",
+        "what": "Kafka를 탄생시킨 LinkedIn이 규모 한계에 부딪히자 Northguard라는 새 시스템을 개발했다. 순서 보장, 복제, 배치 관심사를 분리했고 Xinfra 추상화 계층으로 점진적 마이그레이션을 진행했다.",
+        "points": [
+          "Kafka 파티션 모델의 대규모 한계",
+          "Northguard: 순서·복제·배치를 분리한 설계",
+          "Xinfra로 백엔드 변경을 클라이언트로부터 추상화",
+          "점진적 마이그레이션 전략"
+        ],
+        "why": [
+          "초대형 스트리밍 환경에서 Kafka 설계 가정이 어디서 깨지는지 보여준다",
+          "추상화 계층을 통한 인프라 교체는 다른 조직에도 적용 가능한 패턴이다"
+        ]
+      }
+    },
+    {
+      "id": "data-aurora-postgresql-iceberg-parquet",
+      "title": "Amazon Aurora PostgreSQL, 데이터 레이크의 Iceberg·Parquet 직접 쿼리 지원",
+      "summary": "Aurora PostgreSQL이 내장 DuckDB로 S3 데이터 레이크의 Iceberg·Parquet 테이블을 직접 쿼리할 수 있게 됐다. 표준 PostgreSQL 문법과 프레디킷 푸시다운·컬럼 프루닝을 추가 라이선스 비용 없이 지원한다.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/aws/amazon-aurora-postgresql-now-supports-direct-querying-of-apache-iceberg-and-parquet-data-in-your-data-lake/?utm_source=tldrdata",
+      "report": {
+        "tldr": "Aurora PostgreSQL에서 DuckDB를 통해 S3의 Iceberg·Parquet을 바로 SQL로 조회할 수 있다.",
+        "what": "AWS가 Aurora PostgreSQL에 S3 데이터 레이크의 Apache Iceberg·Parquet 데이터 직접 쿼리 기능을 추가했다. 내부적으로 임베디드 DuckDB를 사용하며 추가 라이선스 비용이 없다.",
+        "points": [
+          "임베디드 DuckDB 기반 실행",
+          "표준 PostgreSQL 문법 지원",
+          "프레디킷 푸시다운과 컬럼 프루닝",
+          "추가 라이선스 비용 없음"
+        ],
+        "why": [
+          "OLTP DB와 레이크하우스 간 데이터 이동 없이 조회가 가능해져 ETL 부담이 줄어든다",
+          "DuckDB가 대형 클라우드 관리형 서비스에 임베디드 엔진으로 채택된 사례다"
+        ]
+      }
+    },
+    {
+      "id": "data-cloudflare-clef-decision-models",
+      "title": "Cloudflare, 오픈소스 의사결정 모델 Clef와 RL 파인튜닝 플랫폼 공개",
+      "summary": "Cloudflare가 텍스트·이미지를 라우팅, 분류, 사람 에스컬레이션용 확률적 선택으로 변환하는 오픈소스 System 1 모델 Clef와 Clef-flash를 공개했다. Workers AI나 로컬에서 배포할 수 있다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/clef-decision-models/?utm_source=tldrdata",
+      "report": {
+        "tldr": "Cloudflare가 빠른 분류·라우팅용 오픈소스 결정 모델 Clef를 내놨다.",
+        "what": "Cloudflare가 의사결정에 특화된 오픈소스 System 1 모델 Clef와 Clef-flash, 그리고 새 RL 파인튜닝 플랫폼을 발표했다. 모델은 입력을 확률적 선택지로 변환해 라우팅·분류·에스컬레이션 판단에 쓰인다.",
+        "points": [
+          "Clef·Clef-flash 오픈소스 모델 공개",
+          "텍스트·이미지 입력을 확률적 선택으로 변환",
+          "라우팅·분류·사람 에스컬레이션 용도",
+          "Workers AI 또는 로컬 배포, RL 파인튜닝 플랫폼 동반"
+        ],
+        "why": [
+          "대형 LLM 대신 경량 결정 모델로 파이프라인 분기 비용과 지연을 줄일 수 있다",
+          "확률 출력은 사람 개입 임계값 설계에 유용하다"
+        ]
+      }
+    },
+    {
+      "id": "data-apache-iceberg-1-12-0",
+      "title": "Apache Iceberg 1.12.0: 새 기능, 호환성 깨지는 변경, 업그레이드 가이드",
+      "summary": "Iceberg 1.12.0은 Variant 타입, 지리공간 기능, 행 리니지, 삭제 벡터, 암호화 메타데이터 등 v3 기능의 프로덕션 지원을 확대했다. 플랫폼 지원 제거와 API 지원 중단이 있어 신중한 테스트가 필요하다.",
+      "source": "Dremio Blog",
+      "url": "https://www.dremio.com/blog/apache-iceberg-1-12-0-whats-new-breaking-changes-and-upgrade-guide?utm_source=tldrdata",
+      "report": {
+        "tldr": "Iceberg 1.12.0은 v3 기능을 넓혔지만 breaking change가 있어 업그레이드 전 테스트가 필수다.",
+        "what": "Dremio가 Apache Iceberg 1.12.0의 신규 기능과 호환성 변경, 업그레이드 방법을 정리했다. v3 사양 기능의 프로덕션 지원이 확대됐고 일부 플랫폼 지원 제거와 API 지원 중단이 포함됐다.",
+        "points": [
+          "Variant 타입·지리공간 기능 지원 확대",
+          "행 리니지와 삭제 벡터",
+          "암호화 메타데이터",
+          "플랫폼 지원 제거 및 API 지원 중단"
+        ],
+        "why": [
+          "Iceberg 기반 레이크하우스 운영팀은 업그레이드 전 호환성 점검이 필요하다",
+          "v3 기능 성숙은 반정형·지리 데이터 처리 범위를 넓힌다"
+        ]
+      }
+    },
+    {
+      "id": "data-the-inference-gap",
+      "title": "추론 격차(The Inference Gap)",
+      "summary": "4만 3,261건의 모델 호출을 분석한 결과, 같은 모델명이라도 추론 예산이 일관되지 않게 제공됐고 상당수 호출이 최소한의 사고만 보였다. 벤치마크 성능과 실제 프로덕션 간 격차를 드러낸다.",
+      "source": "X/Twitter",
+      "url": "https://x.com/Lon/status/2101034933284417614?utm_source=tldrdata",
+      "report": {
+        "tldr": "같은 모델명이라도 실제 호출마다 추론량이 달라 벤치마크와 실사용이 어긋난다.",
+        "what": "한 분석이 43,261건의 모델 호출을 조사해 동일한 모델명에서도 추론(thinking) 예산이 일정하게 제공되지 않는다는 점을 발견했다. 상당수 호출은 최소한의 사고만 수행했다.",
+        "points": [
+          "43,261건 모델 호출 분석",
+          "동일 모델명에서도 추론 예산 불일치",
+          "다수 호출에서 최소한의 사고만 관찰",
+          "벤치마크와 프로덕션 성능 간 격차"
+        ],
+        "why": [
+          "LLM을 프로덕션에 쓰는 팀은 벤치마크 수치만 믿지 말고 실제 호출을 모니터링해야 한다",
+          "추론 예산의 투명성이 공급자 선택 기준이 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "data-apache-ossie-interoperability",
+      "title": "Microsoft·Google, 엔터프라이즈 데이터·AI 상호운용을 위한 Apache Ossie 지원",
+      "summary": "Apache Ossie는 JSON/YAML 스키마로 데이터셋·메트릭·관계 정의를 여러 BI 플랫폼 간에 이식할 수 있게 하며, 60개 이상 벤더가 지원해 중복 시맨틱 모델링을 줄인다.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4229785/microsoft-google-back-apache-ossie-to-make-enterprise-data-and-ai-platforms-more-interoperable-2.html?utm_source=tldrdata",
+      "report": {
+        "tldr": "시맨틱 레이어 정의를 BI 도구 간에 이식하는 Apache Ossie에 Microsoft·Google이 힘을 실었다.",
+        "what": "Microsoft와 Google이 엔터프라이즈 데이터·AI 플랫폼 상호운용성을 위한 Apache Ossie를 지원한다. Ossie는 데이터셋, 메트릭, 관계 정의를 JSON/YAML 스키마로 표현해 서로 다른 BI 플랫폼에서 재사용하게 한다.",
+        "points": [
+          "JSON/YAML 기반 시맨틱 정의 표준",
+          "데이터셋·메트릭·관계 정의의 이식성",
+          "60개 이상 벤더 지원",
+          "중복 시맨틱 모델링 작업 제거"
+        ],
+        "why": [
+          "시맨틱 레이어 표준화는 BI 도구 종속을 줄이고 AI 에이전트의 일관된 메트릭 해석을 돕는다",
+          "대형 벤더의 지지로 사실상 표준이 될 가능성이 있다"
+        ]
+      }
+    },
+    {
+      "id": "data-ai-agent-pipeline-latency",
+      "title": "AI 에이전트 파이프라인이 느린 이유와 모델 교체 없이 고치는 법",
+      "summary": "AWS Bedrock 가드레일 파이프라인에서 독립적인 안전성 검사를 병렬화하고 저비용 거부를 조기 차단해 지연 시간을 13,874ms에서 1,824ms로 줄였다.",
+      "source": "TechStrong AI",
+      "url": "https://techstrong.ai/contributed-content/why-your-ai-agent-pipeline-is-slow-and-how-to-fix-it-without-changing-models/?utm_source=tldrdata",
+      "report": {
+        "tldr": "병렬화와 조기 차단만으로 에이전트 파이프라인 지연을 약 7분의 1로 줄였다.",
+        "what": "AWS Bedrock 기반 가드레일 파이프라인의 지연 최적화 사례다. 모델을 바꾸지 않고 독립 안전성 검사를 병렬로 돌리고, 저렴한 검사에서 걸리는 요청은 조기에 거부했다.",
+        "points": [
+          "지연 시간 13,874ms → 1,824ms",
+          "독립적인 안전성 검사 병렬화",
+          "저비용 거부의 조기 단락(short-circuit)",
+          "모델 변경 없음"
+        ],
+        "why": [
+          "에이전트 지연의 상당 부분이 모델이 아닌 오케스트레이션 구조에서 발생함을 보여준다",
+          "가드레일 단계 설계만으로 사용자 체감 성능을 크게 개선할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "data-duckdb-dimension-tables",
+      "title": "DuckDB, 디멘션 테이블로 문자열 집계 가속",
+      "summary": "DuckDB는 문자열 컬럼을 디멘션 테이블의 정수 대리키로 바꾸면 해싱 오버헤드와 메모리 압박, 디스크 스필 위험이 줄어 대규모 집계가 빨라진다는 점을 보여준다.",
+      "source": "DuckDB",
+      "url": "https://duckdb.org/2026/10/02/dimension-tables.html?utm_source=tldrdata",
+      "report": {
+        "tldr": "문자열 대신 정수 대리키로 집계하면 해싱·메모리 비용이 줄어든다.",
+        "what": "DuckDB 블로그가 대규모 분석 집계에서 문자열 컬럼을 디멘션 테이블 기반 정수 대리키로 대체하는 효과를 분석했다. 해싱 오버헤드와 메모리 사용, 스필 위험이 모두 감소했다.",
+        "points": [
+          "문자열 컬럼을 정수 대리키로 대체",
+          "해싱 오버헤드 감소",
+          "메모리 압박 완화",
+          "대형 집계 시 스필 위험 감소"
+        ],
+        "why": [
+          "고전적인 스타 스키마 모델링이 현대 컬럼형 엔진에서도 여전히 성능 이점을 준다",
+          "대형 GROUP BY 쿼리 튜닝에 바로 적용할 수 있는 기법이다"
+        ]
+      }
+    },
+    {
+      "id": "data-jev-pokemon-red",
+      "title": "Jev, 모델 비용 1.65달러로 포켓몬 레드 클리어",
+      "summary": "Jev는 1만 6,150번의 의사결정 호출, 약 1.65달러의 모델 비용으로 37시간 40분 만에 포켓몬 레드를 완주했다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/christianmat/jev-pokemon?utm_source=tldrdata",
+      "report": {
+        "tldr": "저비용 모델 호출만으로 장기 게임 과제를 완주한 에이전트 사례다.",
+        "what": "GitHub 프로젝트 Jev가 포켓몬 레드를 37시간 40분 만에 클리어했다. 총 16,150회의 의사결정 호출에 든 모델 비용은 약 1.65달러였다.",
+        "points": [
+          "플레이 시간 37시간 40분",
+          "의사결정 호출 16,150회",
+          "총 모델 비용 약 1.65달러"
+        ],
+        "why": [
+          "장기 과제 에이전트를 매우 낮은 비용으로 운영할 수 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "data-duckdb-2-dynamic-attach",
+      "title": "DuckDB 2.0의 동적 ATTACH 문",
+      "summary": "DuckDB 2.0 알파에 추가될 동적 ATTACH 기능의 초기 미리보기다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/mattmartin14_duckdb-share-7511574425062887424-diZZ/?utm_source=tldrdata",
+      "report": {
+        "tldr": "DuckDB 2.0 알파에서 동적 ATTACH가 지원될 예정이다.",
+        "what": "LinkedIn 게시물에서 DuckDB 2.0 알파에 들어갈 동적 ATTACH 기능이 미리 소개됐다. 세부 사양은 초기 프리뷰 단계다.",
+        "points": [
+          "DuckDB 2.0 알파 기능 프리뷰",
+          "동적 ATTACH 문 지원",
+          "초기 단계 공개"
+        ],
+        "why": [
+          "DuckDB 2.0 메이저 버전의 기능 방향을 엿볼 수 있다"
+        ]
+      }
+    }
+  ]
+}

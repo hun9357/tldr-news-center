@@ -1,0 +1,320 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💳",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-stripe-acquires-parafin",
+      "title": "Stripe, 임베디드 대출 플랫폼 Parafin 인수 합의",
+      "summary": "Stripe가 DoorDash, Gusto, Jobber, Mindbody 등에 서비스하며 6만 개 이상 기업에 자금을 공급한 Parafin을 인수한다. 1만 8,000개 이상 플랫폼 고객을 위한 Stripe Capital의 신용·결제 상품이 강화된다.",
+      "source": "Stripe Newsroom",
+      "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Stripe가 Parafin 인수로 플랫폼 기반 소상공인 임베디드 대출을 강화한다.",
+        "what": "Stripe가 임베디드 대출 플랫폼 Parafin 인수에 합의했다. Parafin은 DoorDash, Gusto, Jobber, Mindbody 등을 통해 6만 개 이상 사업체에 자금을 제공해 왔다.",
+        "points": [
+          "인수 대상: 임베디드 대출 플랫폼 Parafin",
+          "Parafin 파트너: DoorDash, Gusto, Jobber, Mindbody",
+          "6만 개 이상 사업체 금융 지원 실적",
+          "Stripe Capital 강화, 1만 8,000+ 플랫폼 고객 대상"
+        ],
+        "why": [
+          "임베디드 금융에서 결제와 신용의 수직 통합이 가속된다",
+          "플랫폼 대출 시장에서 Stripe의 경쟁력이 크게 높아진다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-airwallex-agentic-business-accounts",
+      "title": "Airwallex, 다법인 재무관리용 에이전틱 비즈니스 계좌 출시",
+      "summary": "Airwallex 비즈니스 계좌가 Claude, Cursor 같은 AI 에이전트와 연동돼, 설정된 권한 안에서 여러 법인의 잔액 확인, 환전 준비, 카드 발급을 수행할 수 있게 됐다.",
+      "source": "Airwallex",
+      "url": "https://www.airwallex.com/global/blog/agentic-business-accounts-for-global-financial-operations?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Airwallex 계좌를 AI 에이전트가 권한 범위 내에서 직접 운용할 수 있게 됐다.",
+        "what": "Airwallex가 비즈니스 계좌에 AI 에이전트 연동 기능을 추가했다. Claude와 Cursor 등 에이전트가 여러 법인에 걸친 재무 작업을 수행할 수 있다.",
+        "points": [
+          "Claude·Cursor 등 AI 에이전트 연동",
+          "다법인 잔액 조회",
+          "환전(FX) 준비와 카드 발급",
+          "사전 설정된 권한 내에서만 동작"
+        ],
+        "why": [
+          "기업 재무 운영의 에이전트 자동화가 실제 계좌 수준으로 내려왔다",
+          "권한 통제 설계가 에이전틱 금융의 핵심 경쟁 요소가 된다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-emvco-agentic-payments-intent",
+      "title": "EMVCo, 에이전틱 결제에서 소비자 의도 식별 프레임워크 추진",
+      "summary": "EMVCo가 거래에서 AI 에이전트를 식별하고 소비자가 무엇을 구매하도록 승인했는지 보여주는 표준을 개발 중이다. 사기 탐지, 분쟁 해결, 책임 소재 판단을 개선하려는 목적이다.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/emvco-framework-targets-consumer-intent-agentic-payments/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "EMVCo가 AI 에이전트 카드 결제의 소비자 승인 범위를 표준화하려 한다.",
+        "what": "EMVCo가 에이전틱 결제를 위한 프레임워크를 개발하고 있다. 거래에 관여한 AI 에이전트를 식별하고 소비자의 구매 승인 내용을 표시하는 것이 골자다.",
+        "points": [
+          "거래 내 AI 에이전트 식별 표준",
+          "소비자 구매 승인(의도) 표시",
+          "사기 탐지와 분쟁 해결 개선",
+          "에이전트 결제의 책임 소재 명확화"
+        ],
+        "why": [
+          "에이전트가 카드 결제를 대신하는 시대의 차지백·책임 문제를 다룰 기반이 된다",
+          "카드 네트워크 표준화는 가맹점·발급사의 에이전트 결제 수용을 앞당길 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-robinhood-hood-summit-2026",
+      "title": "Robinhood, 모든 트레이더 손에 헤지펀드급 도구 제공",
+      "summary": "Robinhood가 시장 분석·24시간 트레이딩용 내장 AI 에이전트와 기관급 데이터를 제공하는 Agent Apps를 출시했다. 주말 포함 24/7 주식 거래, 무기한 선물, 실적 계약도 새로 내놨다.",
+      "source": "Robinhood Newsroom",
+      "url": "https://robinhood.com/us/en/newsroom/hood-summit-2026?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Robinhood가 AI 에이전트와 24/7 주식 거래로 리테일 투자 도구를 대폭 확장했다.",
+        "what": "Robinhood가 HOOD Summit 2026에서 내장 AI 에이전트와 Agent Apps를 발표했다. 아울러 주말 포함 24시간 주식 거래, 무기한 선물, 실적 연계 계약 상품을 선보였다.",
+        "points": [
+          "시장 분석·24/7 트레이딩용 내장 AI 에이전트",
+          "기관급 데이터를 제공하는 Agent Apps",
+          "주말 포함 24/7 주식 거래",
+          "무기한 선물(perpetual futures)과 실적 계약"
+        ],
+        "why": [
+          "리테일 브로커리지 경쟁 축이 AI 에이전트와 거래 시간 확대로 이동하고 있다",
+          "24시간 거래 확대 흐름(거래소 야간 거래)과 맞물린다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-fintech-is-dead-simon-taylor",
+      "title": "핀테크는 죽었다",
+      "summary": "Simon Taylor는 모바일·클라우드·API가 표준이 된 지금 경쟁 우위는 AI 기반 의사결정, 토큰화 자산, 소프트웨어 에이전트로 이동한다고 주장한다. Stripe, Ramp, Robinhood를 24시간 자동화 금융 서비스로 향하는 사례로 든다.",
+      "source": "LinkedIn (Simon Taylor)",
+      "url": "https://www.linkedin.com/pulse/fintech-dead-simon-taylor--1mone/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "핀테크의 차별화 요소는 이제 AI 의사결정·토큰화·에이전트다.",
+        "what": "Simon Taylor가 기존 의미의 핀테크는 끝났다고 주장하는 글을 썼다. 모바일, 클라우드, API가 보편화되면서 경쟁 우위가 AI 의사결정과 토큰화 자산, 소프트웨어 에이전트로 옮겨갔다는 것이다.",
+        "points": [
+          "모바일·클라우드·API는 이제 기본값",
+          "경쟁 우위: AI 의사결정, 토큰화 자산, 에이전트",
+          "대표 사례: Stripe, Ramp, Robinhood",
+          "24시간 자동화 금융 서비스로의 전환"
+        ],
+        "why": [
+          "핀테크 기업의 전략 우선순위를 재정의하는 업계 담론이다",
+          "오늘 이슈 다수(에이전틱 계좌, 24/7 거래)가 이 주장과 맞물린다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-mercor-ai-outperforms-junior-accountants",
+      "title": "Mercor: AI가 이제 주니어 회계사보다 낫다",
+      "summary": "12명의 CPA를 대상으로 한 연구에서 프런티어 AI 모델이 정형화된 월말 결산 업무에서 훨씬 빠르고 정확했으며, Claude Opus 5는 100%로 회계사 평균 37%를 크게 앞섰다. 다만 고객 소통·판단·비즈니스 맥락은 평가에서 제외됐다.",
+      "source": "Mercor",
+      "url": "https://www.mercor.com/blog/human-baselines-for-benchmarks-ai-now-outperforms-junior-accountants/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "정형 결산 업무에서 AI가 CPA를 압도했지만 판단·소통 영역은 미검증이다.",
+        "what": "Mercor가 회계 벤치마크에 인간 기준선을 도입해 12명의 CPA와 프런티어 AI 모델을 비교했다. 월말 결산 같은 정형 업무에서 AI가 속도와 정확도 모두 앞섰다.",
+        "points": [
+          "12명 CPA 대상 비교 연구",
+          "Claude Opus 5 100% vs 회계사 평균 37%",
+          "정형화된 월말 결산 업무 기준",
+          "고객 소통·판단·비즈니스 맥락은 제외"
+        ],
+        "why": [
+          "재무·회계 백오피스 자동화가 실무 수준에 도달했음을 시사한다",
+          "주니어 회계 인력 구조와 교육 방식에 변화 압력이 생긴다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-london-fintech-consolidation",
+      "title": "런던 핀테크, 자금 고갈 속 통합의 시대로",
+      "summary": "런던 핀테크 시장이 창업 단계에서 통합 단계로 넘어가고 있다. 투자는 2016년 이후 최저이며 자본은 B2B 기업과 Revolut, Monzo, Wise 같은 승자에 집중돼 중간 단계 기업은 엑시트가 제한적이다.",
+      "source": "Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/09/30/tech/london-fintech-shakeout/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "런던 핀테크 투자가 2016년 이후 최저로, 승자 독식과 통합이 진행 중이다.",
+        "what": "런던 핀테크 생태계가 신규 창업 중심에서 통합 국면으로 이동하고 있다는 분석이다. 투자금은 2016년 이후 최저 수준이며 B2B와 대형 승자 기업에 쏠리고 있다.",
+        "points": [
+          "투자 규모 2016년 이후 최저",
+          "자본이 B2B 기업과 Revolut·Monzo·Wise에 집중",
+          "중간 단계 기업의 엑시트 기회 제한",
+          "창업기에서 통합기로 전환"
+        ],
+        "why": [
+          "유럽 핀테크에서 M&A와 구조조정이 늘어날 가능성이 크다",
+          "중간 단계 스타트업은 인수 또는 수익성 전환 압박을 받는다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-amex-corporate-card-ai-expense",
+      "title": "Amex, 핀테크 경쟁사 대응해 법인카드에 AI·경비 관리 추가",
+      "summary": "Amex가 지출 수집, 경비 보고서 생성, 정책 위반 표시 소프트웨어를 결합한 법인 캐시백 카드를 출시했다. 매출 1,000만~3억 달러 기업을 겨냥해 Ramp, Brex의 통합 상품과 경쟁한다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/amex-adds-ai-expense-tracking-to-corporate-card-to-counter-fintech-rivals-1cf54487?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Amex가 카드+경비 소프트웨어 번들로 Ramp·Brex에 정면 대응한다.",
+        "what": "American Express가 AI 기반 경비 관리 소프트웨어를 결합한 법인 캐시백 카드를 내놨다. 지출 자동 수집, 경비 보고서 생성, 정책 위반 탐지 기능을 제공한다.",
+        "points": [
+          "법인 캐시백 카드와 경비 소프트웨어 결합",
+          "지출 수집·경비 보고서 자동 생성",
+          "정책 위반 플래그",
+          "매출 1,000만~3억 달러 기업 대상"
+        ],
+        "why": [
+          "기존 카드사가 핀테크의 카드+소프트웨어 번들 모델을 따라가고 있다",
+          "중견기업 법인카드 시장 경쟁이 심화된다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-wall-street-overnight-trading",
+      "title": "잠들지 않는 월가: 야간 주식 거래소 곧 가동",
+      "summary": "Nasdaq, NYSE Arca, 24X National Exchange, Cboe EDGX가 12월 6일부터 동부시간 오후 9시~오전 4시 야간 거래를 계획하고 있다. 야간 거래량은 전년 대비 358% 늘었지만 일일 주식 거래의 약 1% 수준이다.",
+      "source": "Financial Post",
+      "url": "https://financialpost.com/investing/wall-street-all-night-stock-exchanges-coming?utm_source=tldrfintech",
+      "report": {
+        "tldr": "미국 주요 거래소들이 12월부터 야간 주식 거래를 시작한다.",
+        "what": "미국 주요 거래소 4곳이 12월 6일부터 야간 거래 세션(동부시간 21시~04시) 도입을 준비하고 있다. 해외 투자자 수요와 24시간 거래되는 크립토와의 경쟁이 배경이다.",
+        "points": [
+          "참여: Nasdaq, NYSE Arca, 24X National Exchange, Cboe EDGX",
+          "12월 6일부터 동부시간 21시~04시",
+          "야간 거래량 전년 대비 358% 증가",
+          "여전히 일일 주식 거래의 약 1%"
+        ],
+        "why": [
+          "24시간 주식 시장으로 가는 구조적 변화의 시작점이다",
+          "브로커·청산·리스크 관리 인프라에 새 운영 부담이 생긴다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-paynearme-ai-collections-agent",
+      "title": "PayNearMe, AI 서비싱·추심 에이전트 출시",
+      "summary": "PayNearMe가 PayXM 플랫폼에 고객에게 전화·문자를 하고 문의를 처리하며 비즈니스 규칙에 따라 결제 일정을 잡는 AI 에이전트를 탑재했다. 복잡한 사례는 사람에게 넘긴다.",
+      "source": "Finovate",
+      "url": "https://finovate.com/paynearme-launches-ai-servicing-and-collections-agent/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "PayNearMe가 전화·문자로 추심과 결제 일정을 처리하는 AI 에이전트를 내놨다.",
+        "what": "PayNearMe가 PayXM 플랫폼에 AI 서비싱·추심 에이전트를 추가했다. 에이전트는 아웃바운드 연락, 인바운드 문의 응대, 결제 일정 수립을 수행한다.",
+        "points": [
+          "PayXM 플랫폼 내장 AI 에이전트",
+          "전화·문자 아웃바운드와 인바운드 문의 처리",
+          "비즈니스 규칙·워크플로 기반 결제 일정 수립",
+          "복잡한 사례는 사람에게 에스컬레이션"
+        ],
+        "why": [
+          "추심·고객 서비싱은 에이전트 자동화가 빠르게 확산되는 영역이다",
+          "규제가 엄격한 추심 분야에서 에스컬레이션 설계가 중요하다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-bank-ai-job-postings-49pct",
+      "title": "에이전트 본격 투입에 은행 AI 채용 공고 49% 증가",
+      "summary": "에이전트 오케스트레이션 채용 공고가 2025년 108건에서 2026년 1,967건으로 늘었다. 은행들은 트레이딩, 컴플라이언스, 백오피스의 자율 워크플로를 감독할 거버넌스·리스크 관리 전문가를 더 찾고 있다.",
+      "source": "PYMNTS",
+      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/bank-ai-job-postings-jump-49percent-agents-go-work/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "은행의 에이전트 오케스트레이션 채용이 1년 새 108건에서 1,967건으로 급증했다.",
+        "what": "은행권 AI 관련 채용 공고가 49% 증가했다는 분석이다. 특히 에이전트 오케스트레이션 공고가 크게 늘었고 자율 워크플로 감독 역할 수요가 커졌다.",
+        "points": [
+          "은행 AI 채용 공고 49% 증가",
+          "에이전트 오케스트레이션 공고 108건(2025) → 1,967건(2026)",
+          "거버넌스·리스크 관리 전문가 수요 증가",
+          "트레이딩·컴플라이언스·백오피스 적용"
+        ],
+        "why": [
+          "은행이 AI 에이전트를 실험이 아닌 운영 단계로 옮기고 있다는 신호다",
+          "에이전트 거버넌스가 새 직무 영역으로 부상한다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-paypal-bnpl-holiday",
+      "title": "PayPal, 연말 BNPL 사용 확대 시사",
+      "summary": "PayPal 설문에 따르면 과거 또는 잠재 BNPL 이용자의 75%가 연말 쇼핑에서 할부 결제를 계획하고 있다. 소비자는 BNPL을 예산 관리 도구로 보며 가맹점 전환율도 높아진다.",
+      "source": "Payments Dive",
+      "url": "https://www.paymentsdive.com/news/paypal-hints-at-bnpl-holiday-use/832010/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "연말 쇼핑에서 BNPL 사용이 더 늘어날 전망이다.",
+        "what": "PayPal이 연말 쇼핑 시즌 BNPL 이용 전망 설문 결과를 공개했다. 기존·잠재 이용자 다수가 할부 결제를 쓸 계획이라고 답했다.",
+        "points": [
+          "기존·잠재 BNPL 이용자 75%가 연말 할부 이용 계획",
+          "소비자는 BNPL을 예산 관리 도구로 인식",
+          "가맹점 전환율 향상 효과"
+        ],
+        "why": [
+          "연말 BNPL 거래량 증가는 결제사·가맹점 실적에 영향을 준다",
+          "소비자 신용 리스크 관점의 모니터링도 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-community-banks-sue-occ-crypto-charters",
+      "title": "지역 은행들, 크립토 기업 인가 문제로 미 규제당국 제소",
+      "summary": "지역 은행들이 크립토 기업이 전통 은행과 같은 요건을 충족하지 않고도 국가 신탁 인가를 받을 수 있게 한 OCC 규칙에 소송을 제기했다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/community-banks-sue-us-regulator-over-crypto-firm-charters-2026-10-02/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "크립토 기업의 국가 신탁 인가를 둘러싸고 지역 은행이 OCC를 상대로 소송을 냈다.",
+        "what": "미국 지역 은행들이 통화감독청(OCC)을 상대로 소송을 제기했다. 크립토 기업이 풀서비스 은행에 적용되는 요건 없이 국가 신탁 인가를 받도록 허용한 규칙이 쟁점이다.",
+        "points": [
+          "원고: 지역 은행들, 피고: OCC",
+          "쟁점: 크립토 기업의 국가 신탁 인가",
+          "전통 은행 대비 요건 형평성 문제"
+        ],
+        "why": [
+          "결과에 따라 크립토 기업의 제도권 은행업 진입 경로가 달라진다",
+          "은행-크립토 간 규제 형평성 논쟁이 법정으로 옮겨갔다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-blue-owl-redemption-requests",
+      "title": "Blue Owl 투자자들, 두 펀드에서 42억 달러 추가 환매 요청",
+      "summary": "Blue Owl 투자자들이 두 사모신용 펀드에서 42억 달러의 추가 환매를 요청했고, 회사는 다시 환매를 5%로 제한했다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/livecoverage/jobs-report-september-stock-market-10-02-2026/card/blue-owl-investors-request-to-pull-another-4-2-billion-from-two-funds-16d2dqZOuR1rwT5kdiel?utm_source=tldrfintech",
+      "report": {
+        "tldr": "사모신용 펀드 환매 압력이 이어지며 Blue Owl이 다시 5% 환매 상한을 걸었다.",
+        "what": "Blue Owl의 두 사모신용 펀드에 42억 달러 규모의 추가 환매 요청이 들어왔다. 회사는 환매를 다시 5%로 제한했다.",
+        "points": [
+          "추가 환매 요청 42억 달러",
+          "대상: 사모신용 펀드 2개",
+          "환매 한도 5% 재적용"
+        ],
+        "why": [
+          "사모신용 시장의 유동성 스트레스 신호로 읽힌다",
+          "리테일 대상 사모신용 상품의 환매 구조에 대한 우려를 키운다"
+        ]
+      }
+    },
+    {
+      "id": "fintech-bloomberg-completes-canoe-acquisition",
+      "title": "Bloomberg, Canoe Intelligence 인수 완료",
+      "summary": "Bloomberg가 분산된 사모펀드 문서를 구조화된 투자 데이터로 변환하는 AI 플랫폼 Canoe 인수를 완료하며 사모시장 투자 전략을 강화했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/company/press/bloomberg-completes-canoe-intelligence-acquisition-advancing-strategy-to-transform-private-markets-investing/?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Bloomberg가 Canoe 인수로 사모시장 데이터 역량을 확보했다.",
+        "what": "Bloomberg가 Canoe Intelligence 인수를 마무리했다. Canoe는 AI로 흩어진 사모펀드 문서를 구조화된 투자 데이터로 바꾸는 플랫폼이다.",
+        "points": [
+          "인수 완료: Canoe Intelligence",
+          "AI 기반 사모펀드 문서 구조화",
+          "사모시장 투자 전략 강화"
+        ],
+        "why": [
+          "사모시장 데이터 표준화 경쟁에서 Bloomberg의 입지가 강화된다",
+          "LP·자산운용사의 대체투자 데이터 처리 방식에 영향을 줄 수 있다"
+        ]
+      }
+    }
+  ]
+}

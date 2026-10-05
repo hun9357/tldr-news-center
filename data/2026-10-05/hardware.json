@@ -1,0 +1,185 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-meta-muse-gadget-sdk",
+      "title": "Meta, Muse 에이전트용 오픈소스 가젯 SDK 공개",
+      "summary": "Meta가 구독형 AI 에이전트 Muse에 ESP32나 Raspberry Pi로 물리 프런트엔드를 만들 수 있는 Apache 2.0 SDK를 내놨다.",
+      "source": "Meta",
+      "url": "https://gadgets.muse.ai/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "Meta가 Muse 에이전트를 DIY 하드웨어에 개방했다.",
+        "what": "Meta가 구독형 AI 에이전트 Muse용 오픈소스 가젯 SDK를 Apache 2.0 라이선스로 공개했다. 취미 개발자는 ESP32 보드나 Raspberry Pi에 화면, 마이크, 스피커, 센서를 붙여 Muse의 물리적 인터페이스를 만들 수 있다.",
+        "points": [
+          "Apache 2.0 라이선스 SDK",
+          "ESP32·Raspberry Pi 지원",
+          "화면·마이크·스피커·센서 연결 가능",
+          "Muse는 Meta의 구독형 AI 에이전트"
+        ],
+        "why": [
+          "AI 에이전트의 하드웨어 생태계를 커뮤니티에 맡기는 전략이다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-musk-tsmc-terafab",
+      "title": "머스크, Terafab 관련 TSMC 협의 확인",
+      "summary": "TSMC가 Tesla·SpaceX·xAI 전용 팹 건설을 검토 중이며, 머스크는 '아직 논의 단계'라고 말했다. 인텔 14A가 밀려날 수 있다.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai?utm_source=tldrhardware",
+      "report": {
+        "tldr": "TSMC가 머스크 계열사 전용 팹을 검토하고 있다.",
+        "what": "일론 머스크가 Terafab 칩 생산 협력을 두고 TSMC와 논의 중임을 확인했다. TSMC는 Tesla, SpaceX, xAI만을 위한 팹 건설을 검토하고 있으며, 머스크는 아직 논의 단계라고 말했다.",
+        "points": [
+          "TSMC, Tesla·SpaceX·xAI 전용 팹 검토",
+          "머스크: '논의 단계지만 성과가 있을 수도'",
+          "이름이 거론된 다른 파트너는 인텔뿐",
+          "인텔 14A 노드가 밀려날 가능성"
+        ],
+        "why": [
+          "성사되면 인텔 파운드리의 대형 고객 확보 전략에 타격이 된다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-atlas-four-finger-hand",
+      "title": "Boston Dynamics, Atlas용 4지 로봇 손 공개",
+      "summary": "13자유도와 고밀도 촉각 센서를 갖춘 Atlas 휴머노이드용 4손가락 손으로 복잡한 조작 작업을 수행한다.",
+      "source": "Robotics and Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/boston-dynamics-unveils-new-four-finger-hand-for-atlas-humanoid-robot/105440/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "Atlas가 13자유도 촉각 손으로 정밀 조작 능력을 높였다.",
+        "what": "Boston Dynamics가 휴머노이드 Atlas용 새 4손가락 손을 공개했다. 13자유도와 고밀도 촉각 센서를 갖춰 복잡한 조작 작업이 가능하다.",
+        "points": [
+          "4손가락 구조",
+          "13자유도",
+          "고밀도 촉각 센서",
+          "복잡한 조작 작업 지원"
+        ],
+        "why": [
+          "휴머노이드 상용화의 핵심 병목인 손 조작 능력 경쟁이 치열해지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-nvidia-smuggling-charge",
+      "title": "캘리포니아 남성, 3억 달러 규모 엔비디아 AI 서버 중국 밀수 혐의 기소",
+      "summary": "Greg Lui가 말레이시아·싱가포르를 경유해 수출 통제 대상 엔비디아 GPU 3억 달러어치 이상을 중국으로 반출한 혐의로 기소됐다.",
+      "source": "LA Times",
+      "url": "https://www.latimes.com/california/story/2026-10-02/california-man-smuggled-300-million-of-ai-hardware-to-china-feds-say?utm_source=tldrhardware",
+      "report": {
+        "tldr": "엔비디아 GPU 우회 수출에 대한 미국 단속이 이어지고 있다.",
+        "what": "캘리포니아의 Greg Lui가 연방 혐의로 기소됐다. 수출 통제 대상인 엔비디아 GPU를 3억 달러 이상 말레이시아와 싱가포르를 거쳐 중국으로 반출한 혐의다.",
+        "points": [
+          "피고: Greg Lui",
+          "규모: 3억 달러 이상 엔비디아 GPU",
+          "말레이시아·싱가포르 경유 환적",
+          "수출 통제 위반 혐의"
+        ],
+        "why": [
+          "동남아 경유 AI 칩 우회 수출에 대한 단속 강화 신호다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-physical-ai-patents",
+      "title": "피지컬 AI 경쟁은 특허청에서 판가름 난다",
+      "summary": "로봇 기업은 더 나은 로봇을 만드는 것만큼 지식재산 전략을 우선시해야 경쟁력을 유지할 수 있다는 주장이다.",
+      "source": "The Robot Report",
+      "url": "https://www.therobotreport.com/physical-ai-race-will-be-won-in-patent-office/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "피지컬 AI 경쟁력은 IP 전략에서 나온다.",
+        "what": "The Robot Report 기고문은 로봇 기업들이 우수한 로봇 개발만으로는 부족하다고 주장한다. 피지컬 AI 경쟁에서 살아남으려면 지식재산 전략을 우선순위에 둬야 한다는 것이다.",
+        "points": [
+          "IP 전략을 제품 개발과 동등하게 중시",
+          "피지컬 AI 분야 경쟁 심화",
+          "특허가 경쟁 우위의 핵심 수단"
+        ],
+        "why": [
+          "로봇 스타트업의 투자·인수 가치에 특허 포트폴리오가 더 크게 작용할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-hello-robot-nih-grant",
+      "title": "Hello Robot, 노인 돌봄용 Stretch 개발에 300만 달러 지원",
+      "summary": "Hello Robot이 노인 돌봄용 Stretch 로봇 개발을 위해 NIH로부터 약 300만 달러를 받았다.",
+      "source": "Robotics and Automation News",
+      "url": "https://roboticsandautomationnews.com/2026/10/04/hello-robot-awarded-3-million-to-develop-stretch-robot-for-elder-care/105500/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "NIH가 노인 돌봄 로봇 개발에 자금을 댔다.",
+        "what": "Hello Robot이 미국 국립보건원(NIH)으로부터 약 300만 달러를 지원받았다. 자금은 Stretch 로봇을 노인 돌봄 용도로 발전시키는 데 쓰인다.",
+        "points": [
+          "NIH 지원금 약 300만 달러",
+          "대상: Stretch 로봇",
+          "노인 돌봄 응용"
+        ],
+        "why": [
+          "고령화 대응 돌봄 로봇에 공공 자금이 투입되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-legato-hearing-glasses",
+      "title": "Legato, 999달러 AI 보청 안경 출시",
+      "summary": "Legato가 경·중등도 난청 성인을 위해 음성을 증폭하고 소음을 기기 내에서 제거하는 999달러부터의 AI 안경을 내놨다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/hearing-tech-startup-legato-launches-its-ai-hearing-glasses/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "보청기를 대신할 온디바이스 AI 안경이 등장했다.",
+        "what": "청각 기술 스타트업 Legato가 AI 보청 안경을 출시했다. 경도~중등도 난청 성인을 대상으로 하며 가격은 999달러부터, 음성 증폭과 소음 제거를 기기 안에서 처리한다.",
+        "points": [
+          "시작가 999달러",
+          "경·중등도 난청 성인 대상",
+          "온디바이스 음성 증폭·소음 제거"
+        ],
+        "why": [
+          "스마트 안경이 의료·접근성 기기로 영역을 넓히고 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-dgx-spark-64gb",
+      "title": "엔비디아, 4,999달러 64GB DGX Spark 출시",
+      "summary": "64GB DGX Spark는 10월 23일부터 파트너를 통해 판매되며 1000억 파라미터 모델을 로컬로 돌리고, 두 대를 묶으면 2000억 파라미터까지 지원한다.",
+      "source": "Nvidia Blog",
+      "url": "https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync?utm_source=tldrhardware",
+      "report": {
+        "tldr": "엔비디아가 저가형 64GB DGX Spark로 로컬 AI 진입 장벽을 낮췄다.",
+        "what": "엔비디아가 64GB 메모리를 탑재한 DGX Spark를 4,999달러에 출시했다. 10월 23일부터 파트너를 통해 판매되며 단독으로 1000억 파라미터 모델을, 두 대를 클러스터로 묶으면 2000억 파라미터 모델을 돌릴 수 있다.",
+        "points": [
+          "가격 4,999달러, 64GB 메모리",
+          "10월 23일부터 파트너 판매",
+          "단독 1000억 파라미터 모델 로컬 실행",
+          "2대 클러스터로 2000억 파라미터 지원"
+        ],
+        "why": [
+          "대형 모델을 로컬에서 돌리려는 개발자·기업의 선택지가 넓어진다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-runway-praxis-1",
+      "title": "Runway, 로보틱스용 월드 액션 모델 Praxis-1 공개",
+      "summary": "Praxis-1은 비디오 사전학습을 활용해 로봇 시스템을 제어하는 월드 액션 모델이다.",
+      "source": "The Robot Report",
+      "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "영상 생성 기업 Runway가 로봇 제어 모델로 진출했다.",
+        "what": "Runway가 로보틱스용 월드 액션 모델 Praxis-1을 발표했다. 비디오 사전학습을 기반으로 로봇 시스템을 제어한다.",
+        "points": [
+          "모델명: Praxis-1",
+          "월드 액션 모델",
+          "비디오 사전학습 기반 로봇 제어"
+        ],
+        "why": [
+          "영상 생성 AI 기업들이 피지컬 AI로 확장하는 흐름이다"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-aws-gcp-spending-limits",
+      "title": "AWS·구글 클라우드, 코딩 에이전트 사용 급증에 지출 한도 도입",
+      "summary": "AWS는 한도 도달 시 프로젝트를 일시 중지하는 월간 지출 한도를, 구글 클라우드는 서비스별 Spend Caps를 내놨다.",
+      "source": "Lavx.hu",
+      "url": "https://news.lavx.hu/article/aws-and-google-cloud-add-spending-limits-as-coding-agents-drive-usage?utm_source=tldrit",
+      "report": {
+        "tldr": "자율 코딩 에이전트발 폭탄 청구서에 클라우드가 대응",
+        "what": "AWS와 구글 클라우드가 자율 코딩 에이전트로 인한 사용량 급증에 대응해 지출 한도 기능을 도입했다. AWS는 한도 도달 시 프로젝트를 중지하는 월간 한도를, 구글은 특정 서비스용 Spend Caps를 출시했다.",
+        "points": [
+          "AWS: 월간 지출 한도 도달 시 프로젝트 일시 중지",
+          "구글 클라우드: 서비스별 Spend Caps",
+          "보편적 하드 컷오프 기본값은 여전히 없음"
+        ],
+        "why": [
+          "에이전트 폭주로 인한 비용 사고를 막을 수단이 생겼다",
+          "다만 기본값 부재로 사용자 설정이 여전히 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "it-reflection-open-weight-model",
+      "title": "엔비디아 투자 Reflection, 강력한 오픈웨이트 AI 모델 준비",
+      "summary": "Reflection이 중국 최상위 모델과 경쟁하면서 기업에 폐쇄형보다 저렴한 대안을 제공할 오픈웨이트 모델을 준비 중이다.",
+      "source": "Axios",
+      "url": "https://www.axios.com/2026/10/04/reflection-open-weight-ai?utm_source=tldrit",
+      "report": {
+        "tldr": "미국산 오픈웨이트 모델로 중국 모델과 경쟁",
+        "what": "엔비디아가 투자한 스타트업 Reflection이 중국 선두 모델과 경쟁할 오픈웨이트 모델을 준비하고 있다. 궁극적으로 기업이 자체 데이터와 프라이빗 컴퓨트로 맞춤형 'AI 팩토리'를 구축하게 하는 것이 목표다.",
+        "points": [
+          "엔비디아 투자 기업",
+          "중국 선두 모델과 경쟁 겨냥",
+          "기업용 'AI 팩토리' 비전"
+        ],
+        "why": [
+          "폐쇄형 모델 대비 비용 절감 옵션 확대",
+          "오픈웨이트 경쟁 구도에서 미국 진영 강화"
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-frontier-academy",
+      "title": "Anthropic, AI 엔지니어 1만 명 양성에 1억 달러 투입",
+      "summary": "Claude Frontier Academy는 기업 내 Claude 배치를 담당할 엔지니어 1만 명을 육성하는 1억 달러 프로그램이다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy?utm_source=tldrit",
+      "report": {
+        "tldr": "엔터프라이즈 도입 병목인 인력 문제에 1억 달러 투자",
+        "what": "Anthropic이 1억 달러 규모의 Claude Frontier Academy를 발표했다. 기업 내부에 Claude를 배치할 엔지니어 1만 명을 Anthropic 자체 전진배치(forward-deployed) 팀 수준으로 훈련하는 것이 목표다.",
+        "points": [
+          "프로그램 규모 1억 달러",
+          "엔지니어 1만 명 양성",
+          "Anthropic 전진배치 엔지니어 역량 모델"
+        ],
+        "why": [
+          "엔터프라이즈 AI 도입의 실행 인력 부족 해소 시도",
+          "Claude 생태계 락인 강화 효과"
+        ]
+      }
+    },
+    {
+      "id": "it-http-resilience-libraries-test",
+      "title": "HTTP 복원력 라이브러리 11종 테스트 결과",
+      "summary": "21개 적합성 시나리오로 테스트한 결과 단일 정책은 대부분 통과했지만 정책 조합과 동시성 상황에서 광범위한 결함이 드러났다.",
+      "source": "Gábor Koos Blog",
+      "url": "https://blog.gaborkoos.com/posts/2026-10-04-I-Tested-11-Http-Resilience-Libraries/?utm_source=tldrit",
+      "report": {
+        "tldr": "재시도는 다 되지만 정책 조합은 대부분 틀린다",
+        "what": "한 엔지니어가 HTTP 복원력 라이브러리 11종을 재시도, 타임아웃, 서킷 브레이커, 벌크헤드, 헤징, 요청 중복 제거를 다루는 21개 시나리오로 테스트했다. 단일 정책은 대체로 통과했지만 정책을 조합하거나 백오프 중 호출자 취소 같은 동시 이벤트에서는 대부분이 실패했다.",
+        "points": [
+          "라이브러리 11종, 시나리오 21개",
+          "단일 재시도 등 기본 기능은 모두 통과",
+          "정책 조합·백오프 중 취소 처리에서 결함 다수"
+        ],
+        "why": [
+          "장애 대응 코드가 장애 상황에서 오작동할 수 있다",
+          "라이브러리 선택 시 조합 시나리오 검증이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "it-apple-macos-agent-controls",
+      "title": "애플, AI 에이전트 위험 겨냥한 macOS 접근 통제 강화",
+      "summary": "애플이 macOS 전체 디스크 접근 권한에 명시적 사용자 동작을 요구하며 자율 AI 에이전트 위험을 직접 이유로 들었다.",
+      "source": "Forkast",
+      "url": "https://forkast.news/apples-new-macos-controls-are-the-first-os-level-move-specifically-targeting-ai-agent-risks/?utm_source=tldrit",
+      "report": {
+        "tldr": "에이전트 때문에 핵심 권한 모델을 바꾼 첫 OS 벤더",
+        "what": "애플이 macOS의 Full Disk Access 권한 통제를 강화해, 이 수준의 접근을 요청하는 앱에 명시적 사용자 동작을 요구한다. 주요 OS 벤더가 에이전트를 이유로 핵심 권한을 바꾼 첫 사례로, Meta Muse AI와 ChatGPT Mac 앱 관련 사고 이후 나왔다.",
+        "points": [
+          "Full Disk Access에 명시적 사용자 승인 필요",
+          "AI 에이전트 위험을 공식 사유로 제시",
+          "Meta Muse AI·ChatGPT Mac 앱 관련 사고가 배경"
+        ],
+        "why": [
+          "엔터프라이즈 맥 관리 정책과 에이전트 앱 배포 방식에 영향",
+          "OS 권한 모델이 에이전트 시대에 맞춰 재설계되기 시작했다"
+        ]
+      }
+    },
+    {
+      "id": "it-okta-xaa-ecosystem",
+      "title": "Okta XAA 생태계 25곳 이상으로 확대, AI 게이트웨이가 신원 통제 계층으로",
+      "summary": "TrueFoundry가 AI 게이트웨이에 Okta Cross App Access를 통합해 정적 API 키를 단기·작업 범위 토큰으로 대체했다.",
+      "source": "Forkast",
+      "url": "https://forkast.news/okta-xaa-ecosystem-scales-to-25-partners-as-ai-gateways-become-the-identity-enforcement-layer/?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 에이전트 인증이 정적 키에서 단기 토큰으로 이동",
+        "what": "TrueFoundry가 Okta의 Cross App Access(XAA) 프로토콜을 AI 게이트웨이에 통합해 게이트웨이를 신원 검문소로 만들었다. XAA 생태계는 얼리 어답터 25곳 이상으로 늘었으며, ID-JAG 표준 기반의 개방형 OAuth 확장이다.",
+        "points": [
+          "정적 API 키를 단기·작업 범위 토큰으로 대체",
+          "XAA 얼리 어답터 25곳 이상",
+          "ID-JAG 기반 벤더 중립 OAuth 확장"
+        ],
+        "why": [
+          "에이전트 접근 통제의 표준화 흐름",
+          "API 키 유출 위험 감소"
+        ]
+      }
+    },
+    {
+      "id": "it-ibm-watsonx-agent-control-plane",
+      "title": "IBM, 구글·MS 에이전트를 하나의 제어 평면으로 관리",
+      "summary": "watsonx Orchestrate가 Microsoft Foundry, Google Gemini Enterprise, Amazon Bedrock 에이전트를 함께 관리하고 에이전트별 신원을 부여한다.",
+      "source": "IBM",
+      "url": "https://www.ibm.com/new/announcements/new-in-ibm-watsonx-orchestrate-expanded-third-party-agent-management-and-agent-identities?utm_source=tldrit",
+      "report": {
+        "tldr": "멀티벤더 에이전트 거버넌스 경쟁 본격화",
+        "what": "IBM watsonx Orchestrate가 Amazon Bedrock에 더해 Microsoft Foundry와 Google Gemini Enterprise Agent Platform으로 만든 에이전트도 탐색·관리할 수 있게 됐다. 새 Agent Identity 기능은 각 에이전트에 검증 가능한 기업 신원을 부여한다.",
+        "points": [
+          "MS Foundry·Google Gemini Enterprise 에이전트 관리 추가",
+          "기존 Amazon Bedrock 지원 유지",
+          "에이전트별 검증 가능한 신원 부여"
+        ],
+        "why": [
+          "기업 내 에이전트 난립을 중앙에서 통제하려는 수요 대응",
+          "에이전트 신원 관리가 새 IT 관리 영역으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "it-mcp-stateless-spec",
+      "title": "MCP 무상태 스펙 변경: 2026-07-28 개정이 서버에 미치는 영향",
+      "summary": "MCP 개정판이 초기 핸드셰이크와 프로토콜 세션을 없애고 요청 메타데이터에 컨텍스트와 버전을 담는 무상태 구조를 도입했다.",
+      "source": "Import Static",
+      "url": "https://importstatic.com/ai/mcp-stateless-spec-migration?utm_source=tldrit",
+      "report": {
+        "tldr": "MCP 서버 작성자는 세션 의존성을 걷어내야 한다",
+        "what": "Model Context Protocol 2026-07-28 개정은 초기 핸드셰이크와 프로토콜 수준 세션을 제거하고 요청이 메타데이터에 컨텍스트와 버전을 직접 담는 무상태 구조를 도입했다. 서버 작성자는 핸들러를 갱신하고 필수 헤더를 강제해야 한다.",
+        "points": [
+          "핸드셰이크·세션 제거",
+          "요청 메타데이터에 컨텍스트·버전 포함",
+          "필수 요청 헤더 강제",
+          "호출 중 대화형 흐름은 다중 왕복 입력 요청 패턴으로 대체"
+        ],
+        "why": [
+          "기존 MCP 서버의 마이그레이션 작업이 필요하다",
+          "무상태화로 수평 확장과 배포가 쉬워진다"
+        ]
+      }
+    },
+    {
+      "id": "it-mit-sakana-sift",
+      "title": "MIT·사카나 AI, 자기개선 에이전트 평가 비용 절감 프레임워크 SIFT",
+      "summary": "SIFT는 LLM 심사자로 코딩 에이전트 개선안을 먼저 순위 매겨 전체 벤치마크 실행 비용을 줄인다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/orchestration/new-mit-and-sakana-ai-framework-uses-an-llm-judge-to-cut-evaluation-costs-for-self-improving-coding-agents?utm_source=tldrit",
+      "report": {
+        "tldr": "LLM 심사로 비싼 벤치마크 실행을 걸러낸다",
+        "what": "MIT와 사카나 AI의 SIFT 프레임워크는 LLM 심사자로 코딩 에이전트 개선 제안을 미리 순위 매긴 뒤에만 전체 벤치마크에 컴퓨트를 쓴다. 한 실험에서 기존 탐색 방식보다 훨씬 적은 컴퓨트로 35.1% 정확도를 달성했다.",
+        "points": [
+          "LLM 심사자로 개선안 사전 순위화",
+          "실험 정확도 35.1%",
+          "기존 대비 컴퓨트 대폭 절감"
+        ],
+        "why": [
+          "자기개선 에이전트 연구의 비용 장벽을 낮춘다"
+        ]
+      }
+    },
+    {
+      "id": "it-wake-me-up-when-ai-can",
+      "title": "\"AI가 ~할 수 있으면 깨워줘\": HN 댓글 800개로 본 AI 기준선",
+      "summary": "AI 성능 기준을 제시한 해커뉴스 댓글 약 800개를 모아 어떤 이정표가 달성됐는지 투표로 판정했다.",
+      "source": "Stoppels.ch",
+      "url": "https://stoppels.ch/2026/10/03/wake-me-up-when-ai-can.html?utm_source=tldrit",
+      "report": {
+        "tldr": "개발자들이 내건 AI 이정표, 얼마나 달성됐나",
+        "what": "해커뉴스에서 AI의 구체적 성능 기준을 정의한 약 800개 댓글을 모은 프로젝트다. 공개 투표로 사용자들이 어떤 AI 이정표가 이미 달성됐다고 보는지 판정한다.",
+        "points": [
+          "HN 댓글 약 800개 수집",
+          "AI 이정표별 공개 투표",
+          "달성 여부에 대한 커뮤니티 인식 측정"
+        ],
+        "why": [
+          "AI 역량에 대한 개발자 기대치 변화를 읽을 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-amazon-strands-decider-2b",
+      "title": "아마존, 에이전트 의사결정용 초소형 오픈 모델 공개",
+      "summary": "오픈소스 Strands Decider 2B는 대형 모델 없이 에이전트 워크플로 내 라우팅·결정을 빠르게 처리한다.",
+      "source": "n8n Lab",
+      "url": "https://n8nlab.io/news/amazon-open-source-decision-model?utm_source=tldrit",
+      "report": {
+        "tldr": "라우팅에 프런티어 모델은 과하다",
+        "what": "아마존이 에이전트 워크플로 안에서 빠른 라우팅과 결정 호출을 위한 오픈소스 2B 모델 Strands Decider 2B를 공개했다. 대형 프런티어 모델 없이도 결정 단계를 처리하도록 설계됐다.",
+        "points": [
+          "모델 크기 2B, 오픈소스",
+          "에이전트 라우팅·결정 특화",
+          "프런티어 모델 호출 대체"
+        ],
+        "why": [
+          "에이전트 운영 비용과 지연 시간 절감"
+        ]
+      }
+    },
+    {
+      "id": "it-citrix-netscaler-reboot-issue",
+      "title": "Citrix NetScaler, 패치 후 새 재부팅 문제 발생",
+      "summary": "최근 보안 패치 이후 조작된 SAML 인증 트래픽 처리 시 인증 데몬이 충돌해 어플라이언스가 반복 재부팅된다.",
+      "source": "Decipher",
+      "url": "https://decipher.sc/2026/10/03/new-citrix-netscaler-issue-emerges/?utm_source=tldrit",
+      "report": {
+        "tldr": "SAML 제로데이 패치 후 가용성 문제로 이어진 NetScaler",
+        "what": "Citrix NetScaler 관리자들이 최근 보안 패치 이후 반복적인 어플라이언스 재부팅을 겪고 있다. 조작된 SAML 인증 트래픽을 처리할 때 인증 데몬이 충돌하는 것이 원인이다.",
+        "points": [
+          "최근 보안 패치 이후 발생",
+          "조작된 SAML 트래픽으로 인증 데몬 충돌",
+          "어플라이언스 반복 재부팅"
+        ],
+        "why": [
+          "원격 접속 인프라의 가용성 위협",
+          "보안 에디션의 SAML 제로데이 패치와 연결된 후속 이슈"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-neuralink-50000-hours-brain-data",
+      "title": "뉴럴링크, 라벨 없는 뇌 데이터 5만 시간으로 디코더 사전학습",
+      "summary": "뉴럴링크가 임상시험에서 모은 5만 시간 이상의 비라벨 뇌 데이터로 신경 디코더를 사전학습해 정확도와 수명을 끌어올렸다.",
+      "source": "Neuralink",
+      "url": "https://neuralink.com/updates/pretraining-on-50000-hours/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "BCI 디코더에도 '대규모 비라벨 사전학습' 공식이 적용되기 시작했다.",
+        "what": "뉴럴링크의 머신러닝 디코더는 신경 활동을 사용자의 의도된 행동으로 변환한다. 회사는 임상시험 과정에서 라벨이 없는 뇌 데이터를 5만 시간 넘게 축적했고, 이를 사전학습에 활용해 디코더 성능을 개선했다고 밝혔다.",
+        "points": [
+          "임상시험 중 수집된 비라벨 뇌 데이터 5만 시간 이상",
+          "사전학습으로 디코더 정확도 향상",
+          "디코더 성능이 오래 유지되는 '수명' 개선도 함께 보고"
+        ],
+        "why": [
+          "라벨링 비용이 큰 신경 데이터에서 자기지도 사전학습이 통한다는 신호",
+          "BCI 상용화의 핵심 난제인 장기 안정성 문제에 대한 진전"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-ternus-design-chief",
+      "title": "애플 CEO 존 터너스, 디자인 총괄을 직접 맡다",
+      "summary": "존 터너스 애플 CEO가 하드웨어·소프트웨어 디자인을 직접 총괄하고, 재무·공급망 업무는 다른 임원에게 넘겼다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-04/apple-s-john-ternus-leads-design-touch-screen-oled-macbook-pro-gets-lighter?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTE3MzMyNSwiZXhwIjoxNzkxNzc4MTI1LCJhcnRpY2xlSWQiOiJUTURZVzFWVFRDWkwwMCIsImJjb25uZWN0SWQiOiJFQTExNDNDNTM4NEE0RUY5QTg5RjJEN0IxMTg2MzcwOSJ9.88q58p2LUcPDbaTrqvWp7jlXBdX_yTJ-72TQE75fUII&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "외부 CDO 영입 대신 CEO가 디자인 조직을 직접 챙기는 체제로 전환했다.",
+        "what": "블룸버그에 따르면 애플 CEO 존 터너스가 하드웨어와 소프트웨어 디자인을 모두 직접 감독하고 있다. 재무와 공급망 운영은 다른 임원들에게 위임했으며, 외부에서 최고디자인책임자를 영입하지 않고 디자인 스튜디오의 위상 회복을 우선순위로 두고 있다.",
+        "points": [
+          "터너스가 HW·SW 디자인 감독을 직접 수행",
+          "재무·공급망은 다른 임원에게 위임",
+          "외부 최고디자인책임자(CDO) 영입 계획 없음",
+          "디자인 스튜디오의 위상 회복이 최우선 과제"
+        ],
+        "why": [
+          "하드웨어 엔지니어 출신 CEO가 디자인 주도권을 쥐면서 제품 방향성에 직접 영향",
+          "애플 디자인 조직의 리더십 공백을 내부적으로 메우는 방식"
+        ]
+      }
+    },
+    {
+      "id": "tech-cancer-studies-flaws",
+      "title": "'이것도 암을 유발한다'는 연구들의 함정",
+      "summary": "원자력발전소와 암 발생률 증가를 연결한 하버드 연구들이 어떤 랜드마크를 넣어도 위양성을 낳는 방법론적 결함을 안고 있다는 비판이다.",
+      "source": "Breakthrough Journal",
+      "url": "https://www.breakthroughjournal.org/p/things-that-apparently-cause-cancer?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "통계적 정교함이 잘못된 연구 설계를 가릴 수 있다.",
+        "what": "브레이크스루 저널은 원전 인근 암 발생률 상승을 주장한 하버드 연구들을 분석했다. 해당 방법론은 원전이 아닌 어떤 랜드마크를 기준으로 해도 위양성 결과를 만들어낼 수 있는 구조적 결함이 있다고 지적한다.",
+        "points": [
+          "원전-암 연관성 하버드 연구의 방법론 비판",
+          "분석 대상을 임의 랜드마크로 바꿔도 유사한 '연관성'이 나오는 구조",
+          "정교한 통계 기법이 설계 결함을 가리는 사례로 제시"
+        ],
+        "why": [
+          "원자력 정책 논쟁에 쓰이는 근거 연구의 신뢰성 문제",
+          "데이터 분석 결과를 볼 때 연구 설계부터 검증해야 한다는 교훈"
+        ]
+      }
+    },
+    {
+      "id": "tech-moon-nuclear-reactors-race",
+      "title": "미·중, 달에 원자로 설치 경쟁",
+      "summary": "NASA가 2030년 12월까지 달 남극 근처에서 가동할 무보수 원자로 개발을 요구하는 등, 미국과 중국이 달 기지용 원자력 확보 경쟁에 나섰다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/04/world/asia/nuclear-reactors-moon.html?unlocked_article_code=1.GVE.qRZX.psKv79OvBAKk&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "달 기지 경쟁의 핵심 인프라는 원자력이다.",
+        "what": "NASA는 계약업체들에 우주 비행을 견디고 달 남극 인근에서 유지보수 없이 작동하는 원자로를 2030년 12월까지 개발하도록 요구하고 있다. 미국과 중국 모두 원자력을 달 기지 건설과 자원 접근에 필수적인 인프라로 보고 있다.",
+        "points": [
+          "NASA 목표: 2030년 12월까지 달 남극 인근 가동",
+          "요구 조건: 우주 비행 내구성, 무보수 운영",
+          "미·중 양국 모두 원자력을 달 기지 필수 인프라로 인식"
+        ],
+        "why": [
+          "우주 패권 경쟁이 에너지 인프라 선점 경쟁으로 확장",
+          "소형 원자로 기술의 새로운 수요처"
+        ]
+      }
+    },
+    {
+      "id": "tech-e2e-ai-testing-framework",
+      "title": "e2e: 액션 리플레이로 토큰을 아끼는 오픈소스 AI 테스트 프레임워크",
+      "summary": "웹·모바일 앱을 AI로 테스트하면서 성공한 동작을 리플레이해 반복적인 모델 추론과 토큰 비용을 줄이는 오픈소스 프레임워크다.",
+      "source": "tester.army",
+      "url": "https://tester.army/e2e?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 기반 E2E 테스트의 비용 문제를 리플레이로 푼다.",
+        "what": "e2e는 웹과 모바일 앱 테스트를 지원하는 오픈소스 AI 테스트 프레임워크다. 액션 리플레이 기능으로 모델이 같은 추론을 반복하지 않게 해 토큰 사용량과 비용을 줄이며, 사용할 모델을 직접 선택할 수 있다.",
+        "points": [
+          "웹·모바일 앱 테스트 지원",
+          "액션 리플레이로 반복 추론 최소화",
+          "토큰 사용량·비용 절감",
+          "커스텀 모델 선택 가능"
+        ],
+        "why": [
+          "에이전트형 테스트 도입의 가장 큰 장벽인 실행 비용을 낮춤"
+        ]
+      }
+    },
+    {
+      "id": "tech-use-the-platform",
+      "title": "개발자들은 왜 '플랫폼을 쓰지' 않을까",
+      "summary": "웹 표준 활용을 권하는 목소리에도 많은 개발자가 설득되지 않는 이유는 브라우저가 역사적으로 생태계보다 뒤처졌기 때문이며, 라이브러리가 여전히 그 간극을 메우고 있다는 분석이다.",
+      "source": "Nolan Lawson",
+      "url": "https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "웹 플랫폼의 역사적 지연이 프레임워크 의존을 굳혔다.",
+        "what": "놀런 로슨은 웹 표준을 쓰자는 주장에도 많은 개발자가 움직이지 않는 이유를 짚는다. 브라우저가 오랫동안 주변 생태계보다 뒤처졌고, 지금도 라이브러리가 프레임워크와 플랫폼 기능 사이의 사용성 격차를 메우고 있다는 것이다.",
+        "points": [
+          "웹 표준 옹호론이 개발자 다수를 설득하지 못하는 현실",
+          "브라우저가 생태계에 비해 역사적으로 뒤처진 점이 원인",
+          "라이브러리가 플랫폼의 사용성 공백을 계속 채움"
+        ],
+        "why": [
+          "프레임워크 선택과 번들 크기 논쟁의 근본 원인을 설명",
+          "TLDR Dev에도 같은 글이 실림"
+        ]
+      }
+    },
+    {
+      "id": "tech-quit-openai-culture-broken",
+      "title": "\"OpenAI 문화가 망가져서 떠났다\" — 안전 보고서 책임자의 사직",
+      "summary": "OpenAI의 안전 보고서 작성을 이끈 데이비드 로빈슨이 회사의 시행착오식 접근을 우려하며 사임했다.",
+      "source": "The Atlantic",
+      "url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/?gift=1ga2TvL-DbuHDQIcYF7oR4o908Fsjxr4NFLlsptkfP8&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "현재 규모에서는 '실수 후 반복 개선'이 불가능할 수 있다는 경고다.",
+        "what": "OpenAI에서 안전 보고서 작성을 총괄한 데이비드 로빈슨이 회사의 시행착오 방식에 대한 우려로 사임했다. 그는 지금 수준의 스케일에서는 실수 후 반복 개선이 불가능할 수도 있다고 주장한다.",
+        "points": [
+          "안전 보고서 작성 책임자 데이비드 로빈슨 사임",
+          "OpenAI의 시행착오식 개발 문화를 문제 삼음",
+          "스케일이 커진 지금은 실수 후 교정 기회가 없을 수 있다고 경고"
+        ],
+        "why": [
+          "프런티어 AI 랩 내부의 안전 거버넌스 논쟁 재점화",
+          "TLDR Dev에도 같은 글이 실림"
+        ]
+      }
+    },
+    {
+      "id": "tech-alexandr-wang-muse-meta",
+      "title": "메타 히트 AI 앱 Muse 뒤의 밈 좋아하는 억만장자, 알렉산더 왕",
+      "summary": "마크 저커버그가 AI 책임자로 발탁한 29세 알렉산더 왕이 파격적인 인터넷 마케팅으로 Muse의 흥행을 이끌었지만 우위 유지는 과제로 남았다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/alexandr-wang-muse-meta-efae7659?st=2c1SNo&reflink=desktopwebshare_permalink&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "메타 AI의 반등은 기술보다 마케팅 감각에서 시작됐다.",
+        "what": "29세의 알렉산더 왕은 메타 최초의 Z세대 고위 임원으로, 저커버그가 AI 사업을 이끌도록 직접 선택했다. 그의 파격적인 인터넷 마케팅 방식이 Muse 앱의 흥행 모멘텀을 만들었지만, 경쟁 우위를 지키는 일은 여전히 어렵다.",
+        "points": [
+          "알렉산더 왕(29), 메타 첫 Z세대 고위 임원",
+          "저커버그가 AI 총괄로 직접 발탁",
+          "밈 중심의 인터넷 마케팅으로 Muse 흥행",
+          "경쟁 우위 유지가 과제"
+        ],
+        "why": [
+          "메타가 소비자 AI 앱 경쟁에서 존재감을 회복한 배경",
+          "오늘 TLDR AI·Dev에도 Muse 관련 기사가 다수 등장"
+        ]
+      }
+    },
+    {
+      "id": "tech-microsofts-moment",
+      "title": "이번엔 마이크로소프트의 시대가 올까?",
+      "summary": "AI 랩들이 지능 공급자로 전락하는 사이 마이크로소프트가 Copilot을 통해 기업용 AI 도입을 장악할 수 있다는 분석이다.",
+      "source": "sjg.io",
+      "url": "https://sjg.io/writing/could-this-finally-be-microsofts-moment/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "모델이 아니라 배포 채널을 쥔 쪽이 기업 AI를 가져갈 수 있다.",
+        "what": "필자는 마이크로소프트가 Copilot을 앞세워 기업 AI 도입을 주도할 수 있다고 본다. 이 구도에서 경쟁 AI 랩들은 지능을 공급하는 공급업체 역할에 머무르게 된다.",
+        "points": [
+          "Copilot을 통한 기업 AI 도입 장악 가능성",
+          "AI 랩은 '지능 공급자'로 위상 하락 가능",
+          "유통·배포 채널의 힘을 강조"
+        ],
+        "why": [
+          "기업 AI 시장의 가치가 모델 vs 플랫폼 중 어디에 쌓일지에 대한 관점"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-swarm-sleuths",
+      "title": "AI가 폭주할 때 이를 폭로하는 온라인 탐정들",
+      "summary": "온라인 연구자들이 서로 연결된 AI 스웜 사건을 공동으로 추적하며 시스템 전반의 새로운 위협 패턴을 파악하고 있다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/swarm-chaser-openai-rubygems-hugging-face-7d55b51f?st=S8tw35&reflink=desktopwebshare_permalink&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 스웜 사고를 쫓는 자발적 조사 커뮤니티가 등장했다.",
+        "what": "WSJ는 서로 얽힌 AI 스웜 사건들을 협업으로 조사하는 온라인 연구자들을 조명했다. 이들은 여러 시스템에 걸쳐 나타나는 새로운 위협 패턴을 추적한다.",
+        "points": [
+          "온라인 연구자들의 협업 조사",
+          "연결된 AI 스웜 사건 추적",
+          "시스템 간 신종 위협 패턴 식별"
+        ],
+        "why": [
+          "에이전트 확산에 따른 새로운 보안 사고 유형과 대응 주체의 등장"
+        ]
+      }
+    },
+    {
+      "id": "tech-electrician-trades",
+      "title": "전기기술자, 당신도 할 수 있을 것 같나요?",
+      "summary": "기술직은 외부인이 과소평가하거나 오해하기 쉬운 신체적 부담과 재정적 불확실성을 안고 있다는 글이다.",
+      "source": "Asterisk Magazine",
+      "url": "https://asteriskmag.com/issues/15/so-you-think-you-could-be-an-electrician?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "'AI 시대엔 기술직'이라는 통념 뒤의 현실을 짚는다.",
+        "what": "애스터리스크 매거진은 전기기술자 같은 기술직이 외부에서 흔히 생각하는 것보다 훨씬 큰 신체적 요구와 재정적 불확실성을 수반한다고 설명한다.",
+        "points": [
+          "기술직의 신체적 부담",
+          "소득·고용의 재정적 불확실성",
+          "외부인의 과소평가와 오해"
+        ],
+        "why": [
+          "화이트칼라 대체 논의 속 기술직 전환론에 대한 현실 점검"
+        ]
+      }
+    },
+    {
+      "id": "tech-default-hard-budget-caps",
+      "title": "거의 모든 서비스에 기본 하드 예산 상한이 필요하다",
+      "summary": "사이먼 윌리슨은 사용자를 보호하는 기본 지출 상한을 두고, 더 큰 위험을 감수하는 사용자만 옵트인으로 예외를 두자고 주장한다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "에이전트 시대에 기본값은 '하드 캡'이어야 한다.",
+        "what": "사이먼 윌리슨은 사용량 기반 서비스에 기본 지출 안전장치가 있어야 한다고 말한다. 더 높은 위험을 받아들이는 사용자에게만 옵트인 방식으로 예외를 허용하자는 제안이다.",
+        "points": [
+          "기본값으로 하드 지출 상한 적용",
+          "고위험 사용자는 옵트인 예외",
+          "사용자 보호를 기본 설계 원칙으로"
+        ],
+        "why": [
+          "에이전트가 경고보다 빠르게 비용을 쌓을 수 있는 환경에서의 안전장치 논의",
+          "TLDR Dev에도 같은 글이 실림"
+        ]
+      }
+    },
+    {
+      "id": "tech-what-meta-got-right-with-muse",
+      "title": "메타가 Muse에서 잘한 것",
+      "summary": "Muse는 새로운 기술 기능보다 기존 역량을 세심하게 통합해 성공했다는 분석이다.",
+      "source": "Metedata",
+      "url": "https://metedata.substack.com/p/what-meta-got-right-with-muse?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "혁신은 신기술이 아니라 통합의 완성도에서 나왔다.",
+        "what": "이 글은 Muse가 새로운 기술적 기능을 도입하기보다 이미 존재하던 기능들을 사려 깊게 엮어낸 것이 성공 요인이라고 본다.",
+        "points": [
+          "새 기능보다 기존 역량의 통합에 집중",
+          "사려 깊은 제품 통합이 차별점",
+          "소비자 친화적 경험 설계"
+        ],
+        "why": [
+          "AI 제품 경쟁에서 모델 성능 외 요인의 중요성",
+          "TLDR Dev에도 같은 글이 실림"
+        ]
+      }
+    },
+    {
+      "id": "tech-neko-health-us",
+      "title": "스포티파이 창업자의 바디 스캔 스타트업, 미국 진출",
+      "summary": "스포티파이 억만장자가 세운 Neko Health가 혈액·피부·대사 평가를 제공하는 건강 검진 기술을 미국으로 확장했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/03/spotify-billionaires-body-scan-startup-has-come-to-america/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "예방형 전신 스캔 서비스가 미국 시장에 들어왔다.",
+        "what": "스포티파이 억만장자가 세운 Neko Health가 건강 검진 기술을 미국으로 확대했다. 혈액, 피부, 대사 상태를 평가하는 고급 스캔을 제공한다.",
+        "points": [
+          "Neko Health 미국 진출",
+          "혈액·피부·대사 평가 스캔 제공",
+          "스포티파이 창업자가 세운 스타트업"
+        ],
+        "why": [
+          "소비자 대상 예방 헬스케어 시장의 확대"
+        ]
+      }
+    }
+  ]
+}
