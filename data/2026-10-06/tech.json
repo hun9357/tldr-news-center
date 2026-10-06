@@ -1,0 +1,278 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-apple-iphone-duo-app-submissions",
+      "title": "애플, iPhone Duo 최적화 앱 App Store 제출 접수 시작",
+      "summary": "애플이 iPhone Duo에 최적화된 앱과 게임의 App Store 제출을 받기 시작했다. Xcode 27.1 RC1에서 Duo용 빌드·테스트가 가능하다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/05/apple-invites-developers-to-submit-iphone-duo-ready-apps-to-the-app-store/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "iPhone Duo 출시를 앞두고 애플이 앱 생태계 준비에 들어갔다.",
+        "what": "애플이 개발자들에게 iPhone Duo 대응 앱과 게임의 App Store 제출을 공식적으로 요청했다. Xcode 27.1 RC1이 iPhone Duo용 빌드와 테스트를 지원하며, 최적화된 앱에는 App Store 배지가 표시된다.",
+        "points": [
+          "iPhone Duo 최적화 앱·게임 제출 접수 시작",
+          "Xcode 27.1 RC1에서 Duo 빌드·테스트 지원",
+          "최적화 앱에는 App Store 전용 배지 부여"
+        ],
+        "why": [
+          "신규 폼팩터 출시 시점에 대응 앱을 확보하려는 애플의 사전 정비 단계다.",
+          "배지로 최적화 여부가 노출되므로 개발자의 빠른 대응 압박이 커진다."
+        ]
+      }
+    },
+    {
+      "id": "tech-google-docs-native-markdown",
+      "title": "구글 Drive·Docs, 마크다운(.md) 파일 네이티브 지원",
+      "summary": "구글 Docs가 마크다운 파일의 미리보기·편집·협업을 기본 지원한다. 2주에 걸쳐 모든 Workspace 및 개인 계정에 배포된다.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "구글 Docs에서 .md 파일을 변환 없이 바로 보고 고칠 수 있게 됐다.",
+        "what": "구글이 Drive와 Docs에서 마크다운(.md) 파일을 네이티브로 미리보고 편집하며 협업할 수 있는 기능을 내놨다. 모든 Google Workspace 및 개인 계정 사용자에게 2주에 걸쳐 순차 배포된다.",
+        "points": [
+          ".md 파일 네이티브 미리보기·편집 지원",
+          "Docs의 공동 편집 기능을 마크다운에도 적용",
+          "Workspace·개인 계정 전체 대상 2주간 순차 배포"
+        ],
+        "why": [
+          "개발 문서와 LLM 출력에서 표준이 된 마크다운을 주류 오피스 도구가 흡수했다.",
+          "개발자와 비개발자 간 문서 협업의 변환 마찰이 줄어든다."
+        ]
+      }
+    },
+    {
+      "id": "tech-optogenetics-nobel-physiology",
+      "title": "빛으로 뇌를 제어하는 광유전학, 노벨 생리의학상 수상",
+      "summary": "칼 다이서로스, 페터 헤게만, 게오르크 나겔이 광유전학 개발 공로로 노벨 생리의학상을 받았다. 광유전학은 빛으로 온전한 뇌 속 뉴런을 켜고 끄는 기술이다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "빛으로 뉴런을 조작하는 광유전학이 노벨상으로 인정받았다.",
+        "what": "Karl Deisseroth, Peter Hegemann, Georg Nagel이 광유전학을 개발한 공로로 노벨 생리의학상을 수상했다. 광유전학은 빛을 이용해 살아 있는 온전한 뇌에서 특정 뉴런을 활성화하거나 비활성화하는 기술이다.",
+        "points": [
+          "수상자: Deisseroth, Hegemann, Nagel 3인",
+          "빛으로 특정 뉴런을 켜고 끄는 기술",
+          "손상되지 않은 뇌에서 작동한다는 점이 핵심"
+        ],
+        "why": [
+          "신경회로 기능을 인과적으로 검증할 수 있게 한 도구가 과학계 최고 권위의 인정을 받았다."
+        ]
+      }
+    },
+    {
+      "id": "tech-tandem-solar-panels-us-china",
+      "title": "탠덤 태양광 패널, 미국이 중국을 따라잡을 최선의 희망",
+      "summary": "여러 소재 층을 쌓는 탠덤 태양광 기술은 기존 패널보다 25% 더 많은 전력을 생산한다. 관련 기업들이 곧 상업 출시를 준비하고 있다.",
+      "source": "The New York Times",
+      "url": "https://www.nytimes.com/2026/10/05/business/energy-environment/tandem-solar-panels-us-china.html?unlocked_article_code=1.GlE.bH_Z.5LGS6ge5Dz1_&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "효율 25% 높은 탠덤 태양광이 미·중 태양광 경쟁의 변수로 떠올랐다.",
+        "what": "탠덤 태양광 기술은 추가 소재 층을 쌓아 기존 패널 대비 25% 더 많은 에너지를 생산한다. 뉴욕타임스는 이를 미국이 중국의 태양광 우위를 따라잡을 최선의 기회로 평가했으며, 여러 기업이 상용 출시를 앞두고 있다.",
+        "points": [
+          "다층 소재 적층으로 발전량 25% 향상",
+          "상용 출시 임박",
+          "미국의 대중국 태양광 경쟁 전략 카드"
+        ],
+        "why": [
+          "중국이 장악한 기존 패널 시장 대신 차세대 기술에서 판을 바꿀 여지가 생긴다."
+        ]
+      }
+    },
+    {
+      "id": "tech-ephemeral-testing",
+      "title": "임시 레이어를 얹어 검증하는 ‘에페메럴 테스트’",
+      "summary": "기본 애플리케이션 위에 임시 레이어를 쌓아 기능을 검증한 뒤 폐기하는 통합 테스트 방식을 소개한다.",
+      "source": "Daniel Lemire's Blog",
+      "url": "https://lemire.me/blog/2026/10/05/ephemeral-testing/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "테스트용 레이어를 만들고 검증 후 버리는 통합 테스트 접근법.",
+        "what": "Daniel Lemire가 에페메럴 테스트라는 통합 테스트 방식을 설명했다. 기본 애플리케이션 위에 임시 애플리케이션 레이어를 구축해 기능을 평가하고, 검증이 끝나면 해당 레이어를 폐기한다.",
+        "points": [
+          "기본 앱 위에 임시 레이어 구축",
+          "레이어에서 기능 검증 수행",
+          "검증 후 레이어 폐기로 본체 오염 방지"
+        ],
+        "why": [
+          "테스트 코드가 본 애플리케이션에 남지 않아 유지보수 부담을 줄일 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "tech-plain-text-enduring-technology",
+      "title": "플레인 텍스트가 여전히 최고의 기술 중 하나인 이유",
+      "summary": "플레인 텍스트는 단순성·이식성·검색성·노후화 저항성 덕분에 컴퓨팅의 기반 인프라로 살아남았다는 에세이.",
+      "source": "Dead Parrot BBS",
+      "url": "https://deadparrotbbs.com/why-plain-text-is-still-one-of-the-best-technologies-we-have/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "단순하고 오래가는 플레인 텍스트의 가치를 재조명한다.",
+        "what": "이 글은 플레인 텍스트가 여전히 컴퓨팅의 근간 인프라로 남아 있는 이유를 분석한다. 단순성, 이식성, 검색 가능성, 그리고 포맷 노후화에 대한 저항성을 핵심 근거로 든다.",
+        "points": [
+          "단순성: 특별한 도구 없이 읽고 쓸 수 있음",
+          "이식성: 플랫폼 간 이동이 자유로움",
+          "검색성과 노후화 저항성"
+        ],
+        "why": [
+          "같은 날 구글 Docs의 마크다운 지원 소식과 맞물려 텍스트 기반 포맷의 지속성을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "tech-stratechery-apple-hackers-future",
+      "title": "Stratechery: 애플과 해커의 미래",
+      "summary": "고위험 macOS 화면 공유 취약점 CVE-2026-65400은 공격자가 루트 권한 획득 후 코드를 실행하고 암호화폐 채굴기를 배포할 수 있게 했다.",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "macOS 화면 공유 취약점이 애플 보안 모델에 대한 질문을 던진다.",
+        "what": "Stratechery는 macOS 화면 공유 기능의 고위험 취약점 CVE-2026-65400을 다뤘다. 이 취약점을 통해 공격자는 루트 권한을 얻은 뒤 코드를 실행하고 암호화폐 채굴기를 배포할 수 있었다.",
+        "points": [
+          "취약점: CVE-2026-65400 (고위험)",
+          "대상: macOS 화면 공유 기능",
+          "악용 결과: 루트 권한 코드 실행 및 채굴기 배포"
+        ],
+        "why": [
+          "기본 탑재 원격 기능이 공격 경로가 될 수 있음을 보여준다.",
+          "애플 플랫폼 보안과 해커 생태계의 관계를 다시 생각하게 한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-terry-tao-future-of-mathematics",
+      "title": "테렌스 타오: 수학의 미래",
+      "summary": "수학계의 공동체 규범이 바뀌면서 새로운 시대가 시작되고 있지만 그 문화적 방향은 아직 불확실하다는 글.",
+      "source": "Terry Tao's Blog",
+      "url": "https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "수학계가 규범 변화와 함께 새 시대의 입구에 서 있다.",
+        "what": "테렌스 타오가 수학 분야의 변화를 진단했다. 수학 공동체의 규범이 변하면서 새로운 시대가 시작되고 있으나, 그 문화가 어느 방향으로 갈지는 아직 불확실하다고 봤다.",
+        "points": [
+          "수학계의 공동체 규범이 변화 중",
+          "새로운 시대의 시작으로 규정",
+          "문화적 방향은 아직 미정"
+        ],
+        "why": [
+          "세계적 수학자가 직접 학계 패러다임 전환을 언급했다는 점에서 의미가 크다."
+        ]
+      }
+    },
+    {
+      "id": "tech-inference-most-important-software-market",
+      "title": "추론(Inference)이 소프트웨어 최대 시장이 된다",
+      "summary": "AI 추론 배포가 데이터베이스를 넘어 소프트웨어의 최대 시장 부문이 될 것이라는 전망.",
+      "source": "Tom Tunguz Blog",
+      "url": "https://tomtunguz.com/inference-is-the-most-important-market-in-software?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 추론 시장이 데이터베이스를 제치고 소프트웨어 최대 시장이 될 전망이다.",
+        "what": "Tom Tunguz는 AI 추론 배포가 소프트웨어 산업에서 가장 큰 시장 부문으로 성장할 것으로 내다봤다. 기존 최대 범주 중 하나인 데이터베이스 시장도 넘어설 것이라는 분석이다.",
+        "points": [
+          "AI 추론이 소프트웨어 최대 시장으로 부상 전망",
+          "데이터베이스 시장 추월 예상",
+          "배포(서빙) 단계가 가치의 중심"
+        ],
+        "why": [
+          "소프트웨어 예산의 무게중심이 추론 인프라로 이동하고 있음을 시사한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-how-personal-agents-get-paid",
+      "title": "개인 에이전트는 어떻게 돈을 버는가",
+      "summary": "애그리게이터와 개별 개인 에이전트 사이의 수익 배분 구조를 분석한 글.",
+      "source": "Tanay Jaipuria",
+      "url": "https://www.tanayj.com/p/how-personal-agents-get-paid?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "개인 AI 에이전트 시대의 수익 분배 구조를 짚는다.",
+        "what": "Tanay Jaipuria가 애그리게이터 플랫폼과 개별 개인 에이전트 사이에서 수익이 어떻게 나뉘는지를 분석했다. 에이전트 경제에서 누가 가치를 가져가는지에 초점을 맞춘다.",
+        "points": [
+          "애그리게이터와 개인 에이전트 간 수익 분배 분석",
+          "에이전트 경제의 비즈니스 모델 탐구",
+          "플랫폼 지배력과 가치 포착 문제"
+        ],
+        "why": [
+          "에이전트가 소비자 접점이 될 때 수익 구조가 어떻게 재편될지 가늠하게 한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-writing-blog-posts-walking-dog",
+      "title": "개를 산책시키며 블로그 글 쓰기",
+      "summary": "AI가 글쓰기 과정과 콘텐츠 제작 방식에 미치는 영향을 살펴본 개인 에세이.",
+      "source": "Jacob Tomlinson Blog",
+      "url": "https://jacobtomlinson.dev/posts/2026/writing-blog-posts-while-walking-the-dog/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI가 바꾸는 글쓰기 습관에 대한 개인적 성찰.",
+        "what": "Jacob Tomlinson이 AI가 자신의 글쓰기 과정과 콘텐츠 제작 관행에 어떤 영향을 주는지 살펴봤다. 개를 산책시키는 시간에도 블로그 글을 쓸 수 있게 된 경험을 계기로 한다.",
+        "points": [
+          "AI가 글쓰기 워크플로를 바꾸는 방식",
+          "이동 중에도 가능한 콘텐츠 제작",
+          "창작 관행 변화에 대한 성찰"
+        ],
+        "why": [
+          "AI 보조 글쓰기가 일상 습관 수준으로 스며들고 있음을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "tech-biosecurity-ai-culture-war",
+      "title": "바이오보안, AI, 그리고 문화 전쟁",
+      "summary": "업계가 무엇이 의미 있는 진전인지 합의하지 못해 실행 가능한 바이오보안 조치에서 관심이 분산되고 있다는 주장.",
+      "source": "Olivia Helens",
+      "url": "https://writing.oliviahelens.com/p/biosecurity-ai-and-the-culture-war?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "바이오보안 논의가 문화 전쟁에 갇혀 실질 조치가 밀리고 있다.",
+        "what": "Olivia Helens는 AI 시대 바이오보안 논의에서 업계가 의미 있는 진전이 무엇인지에 대한 공통 이해가 없다고 지적했다. 그 결과 실제로 실행 가능한 바이오보안 조치로부터 관심이 분산되고 있다고 주장한다.",
+        "points": [
+          "진전의 기준에 대한 합의 부재",
+          "실행 가능한 조치에서 관심 분산",
+          "AI·바이오보안 논의의 정치화"
+        ],
+        "why": [
+          "AI 위험 정책이 실질 대책보다 진영 논리에 끌려갈 위험을 경고한다."
+        ]
+      }
+    },
+    {
+      "id": "tech-google-fitbit-edge",
+      "title": "구글의 차기 피트니스 트래커, Fitbit Edge",
+      "summary": "구글의 Fitbit Edge는 알림과 함께 구글 지도, YouTube Music, 휴대폰 찾기 등 제한된 앱을 지원할 예정이다.",
+      "source": "Android Headlines",
+      "url": "https://www.androidheadlines.com/google-fitbit-edge?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "구글이 앱 지원을 갖춘 새 Fitbit 트래커를 준비 중이다.",
+        "what": "Android Headlines가 구글의 차기 피트니스 트래커 Fitbit Edge를 공개했다. 알림 기능과 함께 구글 지도, YouTube Music, 휴대폰 찾기 등 제한된 앱을 지원한다.",
+        "points": [
+          "제품명: Fitbit Edge",
+          "알림 수신 지원",
+          "구글 지도·YouTube Music·휴대폰 찾기 등 제한적 앱 지원"
+        ],
+        "why": [
+          "트래커와 스마트워치 사이 영역에서 구글이 Fitbit 라인업을 재정비하고 있다."
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-boom-for-americans",
+      "title": "AI 붐이 미국인에게 가져다주는 것",
+      "summary": "상당한 정책 불확실성에도 AI 투자가 미국 거시경제를 안정시키고 있다는 노아 스미스의 분석.",
+      "source": "Noah Smith Blog",
+      "url": "https://www.noahpinion.blog/p/what-the-ai-boom-is-doing-for-americans?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 투자가 정책 불확실성 속 미국 경제의 버팀목이 되고 있다.",
+        "what": "노아 스미스는 AI 투자 붐이 미국 거시경제를 안정시키는 역할을 하고 있다고 분석했다. 국가가 상당한 정책 불확실성에 직면한 가운데서도 AI 투자가 경제를 지탱하고 있다는 것이다.",
+        "points": [
+          "AI 투자가 거시경제 안정 요인으로 작용",
+          "정책 불확실성이 큰 상황",
+          "AI 붐의 실물경제 효과 분석"
+        ],
+        "why": [
+          "AI 투자 사이클이 꺾일 경우 거시경제 전반에 미칠 영향도 크다는 의미다."
+        ]
+      }
+    }
+  ]
+}

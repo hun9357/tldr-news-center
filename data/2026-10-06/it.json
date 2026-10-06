@@ -1,0 +1,245 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-schneider-acquires-ptc",
+      "title": "슈나이더 일렉트릭, PTC를 226억 달러에 인수",
+      "summary": "슈나이더 일렉트릭이 PTC를 지분가치 226억 달러의 전액 현금 거래로 인수하기로 합의했으며, 승인을 거쳐 2027년 3분기까지 마무리될 예정이다.",
+      "source": "SEC filing",
+      "url": "https://www.sec.gov/Archives/edgar/data/857005/000119312526413124/d174191dex991.htm?utm_source=tldrit",
+      "report": {
+        "tldr": "제품 설계 데이터와 운영·에너지 시스템을 묶어 산업 AI 기반을 넓히려는 대형 인수.",
+        "what": "슈나이더 일렉트릭은 PTC를 지분가치 226억 달러에 전액 현금으로 인수하기로 합의했다. 규제 승인을 거쳐 2027년 3분기까지 거래가 종결될 예정이다.",
+        "points": [
+          "거래 규모: 지분가치 226억 달러, 전액 현금",
+          "종결 목표: 2027년 3분기",
+          "PTC 설계·엔지니어링 데이터 + 슈나이더 운영·에너지 시스템 결합"
+        ],
+        "why": [
+          "산업 AI가 설계부터 운영까지 데이터 연속성을 확보하는 방향으로 통합되고 있다",
+          "PTC 고객사는 제품 로드맵 변화를 지켜봐야 한다"
+        ]
+      }
+    },
+    {
+      "id": "it-reflection-beam-501b",
+      "title": "Reflection, 5010억 파라미터 AI 모델 Beam 공개",
+      "summary": "Reflection이 중국 선도 모델과 경쟁하면서도 훨씬 적은 연산을 요구한다는 501B 파라미터 모델 Beam을 공개했으며, 가중치와 파인튜닝 도구는 이달 말 공개 예정이다.",
+      "source": "SiliconAngle",
+      "url": "https://siliconangle.com/2026/10/05/reflection-ai-debuts-open-source-beam-model-with-501b-parameters/?utm_source=tldrit",
+      "report": {
+        "tldr": "미국발 대형 오픈 웨이트 모델이 중국 모델과의 경쟁을 표방하고 나섰다.",
+        "what": "Reflection은 5010억 파라미터 규모의 Beam 모델을 공개했다. 회사는 Beam이 선도적인 중국 모델과 경쟁하면서도 상당히 적은 연산을 필요로 한다고 주장한다. 우선 얼리 액세스로 제공되며 가중치·문서·파인튜닝 도구는 이달 말 공개된다.",
+        "points": [
+          "501B 파라미터",
+          "중국 선도 모델 대비 적은 연산으로 경쟁 주장",
+          "초기엔 얼리 액세스 프로그램",
+          "가중치·문서·파인튜닝 도구 이달 말 공개"
+        ],
+        "why": [
+          "기업이 자체 호스팅 가능한 대형 오픈 모델 선택지가 늘어난다"
+        ]
+      }
+    },
+    {
+      "id": "it-huawei-qualcomm-patent-license",
+      "title": "화웨이·퀄컴, 포괄적 특허 크로스 라이선스 체결",
+      "summary": "화웨이와 퀄컴이 5G, 컴퓨팅, AI, 네트워킹 전반의 다년간 크로스 라이선스 계약을 발표했으며, 퀄컴은 화웨이의 일부 미국 특허도 매입한다.",
+      "source": "Huawei",
+      "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement?utm_source=tldrit",
+      "report": {
+        "tldr": "미중 기술 갈등 속에서 두 기업이 특허 분야에서 손을 잡았다.",
+        "what": "화웨이와 퀄컴은 5G, 컴퓨팅, AI, 네트워킹 등 기술 분야 전반을 아우르는 다년간 포괄적 특허 라이선스 계약을 발표했다. 계약에는 퀄컴이 화웨이의 컴퓨팅·AI·네트워킹 관련 미국 특허 일부를 매입하는 내용도 포함되며 규제 승인을 기다리고 있다.",
+        "points": [
+          "다년간 크로스 라이선스: 5G·컴퓨팅·AI·네트워킹",
+          "퀄컴이 화웨이 미국 특허 일부 매입",
+          "규제 승인 대기 중"
+        ],
+        "why": [
+          "특허 분쟁 리스크를 줄이고 양사 제품 로드맵의 불확실성을 낮춘다",
+          "미국 규제 당국의 승인 여부가 관건이다"
+        ]
+      }
+    },
+    {
+      "id": "it-mckinsey-ai-org-redesign",
+      "title": "맥킨지: AI 생산성은 조직 재설계가 필요하다",
+      "summary": "맥킨지는 워크플로, 의사결정 권한, 커리어 경로를 인간-에이전트 팀 중심으로 재설계하지 않으면 개인 생산성 향상이 사업 가치로 이어지기 어렵다고 주장한다.",
+      "source": "McKinsey",
+      "url": "https://www.mckinsey.com/capabilities/people-and-organization/our-insights/ai-is-changing-work-now-it-has-to-change-the-organization?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 도입 성과는 도구가 아니라 조직 구조 변화에서 나온다.",
+        "what": "맥킨지는 AI로 인한 개인 생산성 향상이 워크플로, 의사결정 권한, 커리어 경로의 재설계 없이는 사업 가치로 전환되기 어렵다고 분석했다. 제안하는 방식은 성과 중심으로 팀을 구성하고 인계 단계를 줄이며 에이전트 행동과 자동화로 확보된 여력에 대한 책임을 명시하는 것이다.",
+        "points": [
+          "인간-에이전트 팀 중심의 워크플로·의사결정 재설계",
+          "성과 중심 팀 구성과 인계 축소",
+          "에이전트 행동에 대한 책임 주체 명시",
+          "자동화로 생긴 여유 역량의 활용 책임 지정"
+        ],
+        "why": [
+          "IT 리더가 AI 투자 ROI를 입증하려면 조직 변화까지 함께 설계해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "it-ipv6-global-audit",
+      "title": "IPv6 글로벌 감사: 등록됐지만 라우팅되지 않는 주소",
+      "summary": "RIR 등록 기록과 실제 BGP 라우팅을 비교한 결과 등록 IPv6 넷블록의 92.5%는 라우팅되지만 주소 공간 기준으로는 79.4%에 그쳤다.",
+      "source": "IPinfo community",
+      "url": "https://community.ipinfo.io/t/registered-but-not-routed-what-a-global-audit-of-ipv6-says-about-deployment/7434?utm_source=tldrit",
+      "report": {
+        "tldr": "IPv6 주소 공간의 상당 부분이 라우팅·모니터링 밖에 있다.",
+        "what": "연구진은 지역 인터넷 레지스트리(RIR)의 IPv6 등록 기록을 실시간 BGP 라우팅 테이블 및 IPv6 Hitlist 프로젝트와 비교했다. 등록 넷블록의 92.5%가 라우팅에 나타났지만 주소 공간으로는 79.4%에 불과했고, 그 격차는 공지되지 않은 레거시 할당과 CGNAT 배포에 집중됐다.",
+        "points": [
+          "넷블록 기준 92.5% 라우팅, 주소 공간 기준 79.4%",
+          "격차는 미공지 레거시 할당·CGNAT에 집중",
+          "IPv6 Hitlist 대조로 실제 활성 호스트 2,810만 개 확인"
+        ],
+        "why": [
+          "라우팅되지 않은 대규모 주소 공간은 관리·모니터링 사각지대가 될 수 있다",
+          "IPv6 도입 현황을 등록 수치만으로 판단하면 과대평가하게 된다"
+        ]
+      }
+    },
+    {
+      "id": "it-oracle-ai-agent-iam",
+      "title": "오라클, AI 에이전트에 통제권 넘기지 않고 접근 권한 부여하는 법",
+      "summary": "오라클은 MCP 연결에서 직원 권한을 그대로 유지하고, 코딩·운영 에이전트를 임시 접근·최소 권한·민감 작업 인간 승인으로 제한하는 방식을 공개했다.",
+      "source": "Oracle",
+      "url": "https://blogs.oracle.com/cloud-infrastructure/iam-enables-ai-transformation-at-oracle?utm_source=tldrit",
+      "report": {
+        "tldr": "에이전트가 '조회'에서 '실행'으로 넘어갈 때 백엔드 권한 통제의 실전 사례.",
+        "what": "오라클은 MCP 연결 전반에서 직원의 기존 권한을 보존하고, 코딩 및 운영 에이전트를 임시 접근, 최소 권한, 민감 작업에 대한 인간 승인으로 제한하는 방식을 소개했다. 어시스턴트가 정보 검색을 넘어 작업 실행으로 이동하는 상황에서 백엔드 인가 강제의 실용적 예시다.",
+        "points": [
+          "MCP 연결에서 직원 권한 그대로 전달",
+          "임시 접근·최소 권한 원칙 적용",
+          "민감 작업은 인간 승인 필수"
+        ],
+        "why": [
+          "에이전트 도입 시 IAM 설계를 어떻게 해야 하는지 참고할 수 있는 구체적 레퍼런스다"
+        ]
+      }
+    },
+    {
+      "id": "it-apache-iceberg-1-12",
+      "title": "Apache Iceberg 1.12.0 릴리스",
+      "summary": "Apache Iceberg 1.12.0이 Variant·지리공간 데이터 쓰기 확장, Spark의 비분할 Variant 읽기 가속, Hilbert 곡선 클러스터링 등 성능 개선과 Table Format V4 기반 작업을 담아 출시됐다.",
+      "source": "Apache Iceberg",
+      "url": "https://iceberg.apache.org/blog/apache-iceberg-1.12.0-release/?utm_source=tldrit",
+      "report": {
+        "tldr": "성능 개선과 V4 포맷 준비를 함께 담은 Iceberg 업데이트.",
+        "what": "Apache Iceberg 커뮤니티가 1.12.0을 출시했다. Spark에서 비분할(unshredded) Variant 읽기가 빨라지고 다중 엔진 shredded Variant 쓰기, Flink 네이티브 equality delete의 행 위치 삭제 벡터 변환이 추가됐다. Hilbert 곡선 클러스터링, REST 카탈로그·OpenAPI 기능 확장, Table Format V4 기반 작업도 포함됐다.",
+        "points": [
+          "Variant·지리공간 타입 쓰기 기능 확장",
+          "Flink에서 equality delete를 삭제 벡터로 네이티브 변환",
+          "Hilbert 곡선 기반 다차원 정렬",
+          "Table Format V4 기반 마련"
+        ],
+        "why": [
+          "레이크하우스 운영 비용과 쿼리 성능에 직접 영향을 주는 개선이다"
+        ]
+      }
+    },
+    {
+      "id": "it-servicenow-flow",
+      "title": "ServiceNow Flow, 중소 고객 겨냥한 채팅 우선 서비스 데스크",
+      "summary": "ServiceNow가 Slack·Teams·이메일에서 동작하는 채팅 우선 서비스 데스크 Flow를 대화당 2달러, 자동화 실행당 1달러, 연간 최소 1만 달러로 내놨다.",
+      "source": "Moor Insights & Strategy",
+      "url": "https://moorinsightsstrategy.com/field-notes/servicenow-flow-service-desk/?utm_source=tldrit",
+      "report": {
+        "tldr": "공개 가격과 카드 결제로 ServiceNow가 중소 시장에 문을 열었다.",
+        "what": "ServiceNow는 내부 스타트업 제품 Flow를 선보였다. Slack, Microsoft Teams, 이메일 안에서 동작하는 채팅 우선 서비스 데스크로, 포털과 티켓 양식을 거치지 않아도 된다. 가격은 대화당 2달러, 자동화 실행당 1달러이며 연간 최소 1만 달러다.",
+        "points": [
+          "Slack·Teams·이메일 내 채팅 기반 서비스 데스크",
+          "대화당 $2, 자동화 실행당 $1, 연 최소 $10,000",
+          "신용카드 결제·공개 가격 제공"
+        ],
+        "why": [
+          "엔터프라이즈 전용이던 ServiceNow가 중소기업 시장에 진입한다",
+          "ServiceNow 위에 채팅 레이어를 얹던 서드파티 업체에는 위협이다"
+        ]
+      }
+    },
+    {
+      "id": "it-go-compiler-ipv4-to-ipv6",
+      "title": "Go 컴파일러를 해킹해 IPv4→IPv6 매핑 최적화",
+      "summary": "Go의 관용적 netip.AddrFrom16/As16 패턴이 컴파일러 최적화 미흡으로 네이티브 방식보다 8배 느리며, 표준 라이브러리 수정·unsafe 프록시·IR/SSA 재작성 규칙으로 이를 해소할 수 있다.",
+      "source": "Vincent Bernat",
+      "url": "https://vincent.bernat.ch/en/blog/2026-go-netip-addrto6?utm_source=tldrit",
+      "report": {
+        "tldr": "컴파일러 수준 최적화로 IPv4-mapped IPv6 변환을 네이티브 속도로 끌어올렸다.",
+        "what": "Go 컴파일러는 IPv4 주소를 IPv4-mapped IPv6 주소로 변환하는 과정을 비효율적으로 처리한다. 관용적인 netip.AddrFrom16과 As16 패턴은 네이티브 메서드보다 8배 느린데, 표준 라이브러리 수정, unsafe 프록시, 커스텀 IR·SSA 재작성 규칙으로 중복된 바이트 패킹/언패킹을 제거해 네이티브 수준 성능을 낼 수 있다.",
+        "points": [
+          "관용 패턴이 네이티브 대비 8배 느림",
+          "원인: 컴파일러의 바이트 패킹/언패킹 최적화 부족",
+          "해법: 표준 라이브러리 변경·unsafe 프록시·IR/SSA 규칙"
+        ],
+        "why": [
+          "고성능 네트워크 도구를 Go로 작성하는 팀에 실질적 최적화 힌트를 준다"
+        ]
+      }
+    },
+    {
+      "id": "it-amazon-nvidia-sale-leaseback",
+      "title": "아마존, 80억 달러 규모 엔비디아 칩 세일앤리스백 검토",
+      "summary": "아마존이 약 80억 달러어치 엔비디아 칩을 특수목적법인에 매각한 뒤 다시 임차해 쓰는 금융 구조를 논의 중인 것으로 알려졌다.",
+      "source": "TechRepublic",
+      "url": "https://www.techrepublic.com/article/news-amazon-8-billion-nvidia-chip-sale-leaseback/?utm_source=tldrit",
+      "report": {
+        "tldr": "하이퍼스케일러가 AI 확장 자금을 외부 자본으로 조달하는 새 방식.",
+        "what": "아마존은 약 80억 달러 규모의 엔비디아 칩을 특수목적법인(SPV)에 매각하고 이를 다시 리스해 계속 사용하는 금융 방안을 논의 중인 것으로 보도됐다. 투자자는 하드웨어 감가상각과 향후 연산 수요에 대한 위험을 떠안게 된다.",
+        "points": [
+          "규모: 엔비디아 칩 약 80억 달러",
+          "구조: SPV 매각 후 리스백",
+          "투자자가 감가상각·수요 리스크 부담"
+        ],
+        "why": [
+          "AI 인프라 투자 규모가 대차대조표 밖 금융 구조를 동원할 만큼 커졌다",
+          "GPU 감가상각 속도에 대한 시장의 판단이 시험대에 오른다"
+        ]
+      }
+    },
+    {
+      "id": "it-namespace-raises-42m",
+      "title": "Namespace, 개발자 인프라로 4,200만 달러 시리즈 B 유치",
+      "summary": "Namespace가 코딩 에이전트, 빌드, 테스트를 위한 Mac·Windows·Linux 컴퓨트 인프라 확장을 위해 4,200만 달러 시리즈 B를 유치했다.",
+      "source": "SiliconAngle",
+      "url": "https://siliconangle.com/2026/10/05/namespace-raises-42m-to-build-out-developer-focused-compute-cloud/?utm_source=tldrit",
+      "report": {
+        "tldr": "코딩 에이전트 시대의 빌드·테스트 컴퓨트 수요에 베팅한 투자.",
+        "what": "Namespace는 4,200만 달러 규모의 시리즈 B 투자를 유치했다. 자금은 Mac, Windows, Linux 전반에서 코딩 에이전트, 빌드, 테스트용 컴퓨트 인프라를 확장하는 데 쓰인다.",
+        "points": [
+          "시리즈 B 4,200만 달러",
+          "대상 워크로드: 코딩 에이전트·빌드·테스트",
+          "Mac·Windows·Linux 지원"
+        ],
+        "why": [
+          "AI 코딩 에이전트 확산으로 CI/빌드 인프라 수요가 커지고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-intune-epm-system-settings",
+      "title": "Intune EPM으로 시스템 설정 관리하기",
+      "summary": "마이크로소프트가 Intune Endpoint Privilege Management에 표준 사용자가 로컬 관리자 권한 없이 네트워크 설정을 변경할 수 있게 하는 시스템 설정 권한 상승 정책을 문서화했다.",
+      "source": "Patch My PC",
+      "url": "https://patchmypc.com/blog/intune-epm-system-settings-network-and-time-sync-elevation/?utm_source=tldrit",
+      "report": {
+        "tldr": "관리자 권한 없이 필요한 시스템 설정만 허용하는 최소 권한 운영 옵션.",
+        "what": "마이크로소프트는 Intune의 Endpoint Privilege Management(EPM)에서 사용할 수 있는 시스템 설정 권한 상승 정책을 문서화했다. 이를 통해 표준 사용자가 로컬 관리자 권한 없이 네트워크 설정 등을 변경할 수 있다.",
+        "points": [
+          "Intune EPM의 시스템 설정 권한 상승 정책",
+          "표준 사용자의 네트워크 설정 변경 허용",
+          "로컬 관리자 권한 부여 불필요"
+        ],
+        "why": [
+          "로컬 관리자 계정 남용을 줄이면서 헬프데스크 요청도 줄일 수 있다"
+        ]
+      }
+    }
+  ]
+}

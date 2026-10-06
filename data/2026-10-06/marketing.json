@@ -1,0 +1,215 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-brand-gazettes",
+      "title": "체험 마케팅 트렌드: 브랜드 가제트",
+      "summary": "브랜드 가제트는 오프라인 이벤트를 손에 잡히는 인쇄 콘텐츠로 확장하는 형식이다. 그레이 구스와 디즈니가 활용했으며 QR코드로 인쇄물과 디지털을 연결한다.",
+      "source": "Event Marketer",
+      "url": "https://www.eventmarketer.com/article/experiential-marketing-trend-of-the-week-brand-gazettes/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "이벤트 현장용 인쇄 간행물이 참가자에게 남는 '테이크어웨이'가 되고 있다.",
+        "what": "브랜드 가제트는 액티베이션을 위해 제작된 간행물로, 물리적 이벤트를 손에 잡히는 콘텐츠 경험으로 확장해 참가자에게 가져갈 거리를 준다. 그레이 구스와 디즈니가 이 형식을 사용했으며, QR코드를 통해 인쇄물을 디지털 경험과 연결한다.",
+        "points": [
+          "이벤트 전용 인쇄 간행물로 현장 경험을 연장",
+          "참가자에게 실물 테이크어웨이 제공",
+          "그레이 구스·디즈니가 활용",
+          "QR코드로 인쇄-디지털 연결"
+        ],
+        "why": [
+          "디지털 피로 속에서 실물 콘텐츠가 체험 마케팅의 차별화 수단이 됨",
+          "오프라인 접점을 디지털 데이터로 이어주는 장치"
+        ]
+      }
+    },
+    {
+      "id": "marketing-consumers-home-equity-ai-spending",
+      "title": "고물가에도 미국 소비자, 주택 담보와 AI로 지출 유지",
+      "summary": "물가 상승에도 미국 소비자들은 신용, 저축, 다른 항목 절감으로 지출을 이어가고 있다. 식료품 가격이 2020년 대비 32% 올랐지만 다른 카테고리 구매는 늘었고, 일부는 ChatGPT 같은 AI로 비용을 줄인다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/features/2026-10-03/american-consumers-tap-home-equity-and-ai-as-prices-rise?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTIwNTI5OCwiZXhwIjoxNzkxODEwMDk4LCJhcnRpY2xlSWQiOiJUTUM0ODNLSUpIOFcwMCIsImJjb25uZWN0SWQiOiI0RTBDNzNFOTJCRTc0NjVDQjlDMDEyRUQ0RkNDMjE3OSJ9.miNIZzAJ3rR5h46GSH5bKydYGGLhrTe8ICTz7tNmsf0&utm_source=tldrmarketing",
+      "report": {
+        "tldr": "소비자는 신용·저축·AI 절약으로 고물가 속에서도 지출을 이어가고 있다.",
+        "what": "물가가 올랐지만 미국 소비자들은 신용, 저축, 다른 곳에서의 비용 절감을 통해 소비를 유지하고 있다. 식료품 가격은 2020년 이후 32% 상승했지만 다른 카테고리 구매는 오히려 늘었다. ChatGPT 같은 AI 도구가 일부 쇼핑객의 지출 절감에 도움을 주고 있다.",
+        "points": [
+          "식료품 가격 2020년 대비 32% 상승",
+          "신용·저축·주택 담보 활용과 다른 지출 절감으로 소비 유지",
+          "다른 카테고리 구매는 증가",
+          "ChatGPT 등 AI로 비용을 줄이는 소비자 등장"
+        ],
+        "why": [
+          "가격 민감도가 높아진 소비자를 상대로 가치 메시지가 중요해짐",
+          "AI가 구매 의사결정의 새 중개자로 부상"
+        ]
+      }
+    },
+    {
+      "id": "marketing-growth-still-manual",
+      "title": "빌드는 자동화했지만 성장은 여전히 수작업",
+      "summary": "성장은 각 활동이 다음 활동을 키우는 연결된 루프를 통해 복리로 커진다. 앱 설치→노출, 콘텐츠→콘텐츠, 제품 사용→리뷰 루프 중 콘텐츠 루프가 가장 많은 수작업을 요구한다.",
+      "source": "Expo",
+      "url": "https://expo.dev/blog/you-automated-your-build-your-growth-is-still-manual?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "성장 루프 중 가장 수작업이 많은 콘텐츠 루프가 자동화의 다음 대상이다.",
+        "what": "성장은 각 활동이 다음 활동에 연료를 공급하는 상호 연결된 루프를 통해 복리로 커진다. 저자는 앱 설치가 노출을 높이고, 콘텐츠가 콘텐츠를 낳고, 제품 사용이 리뷰를 만드는 루프를 예로 든다. 이 중 콘텐츠 루프가 가장 많은 수작업을 필요로 하는 경우가 많다고 지적한다.",
+        "points": [
+          "성장은 연결된 루프로 복리 효과를 냄",
+          "설치→노출 개선 루프",
+          "콘텐츠→추가 콘텐츠 루프",
+          "제품 사용→리뷰 루프, 콘텐츠 루프가 가장 수작업 의존적"
+        ],
+        "why": [
+          "앱 팀이 엔지니어링처럼 성장 활동도 시스템화해야 한다는 관점",
+          "자동화 투자 우선순위를 정하는 기준 제공"
+        ]
+      }
+    },
+    {
+      "id": "marketing-vibe-coded-own-calendly",
+      "title": "AI 에이전트의 제안으로 Calendly를 직접 바이브 코딩했다",
+      "summary": "3인 팀이 AI 에이전트가 Calendly의 한계를 짚어내자 20분 만에 맞춤 스케줄링 도구를 만들었다. 세일즈포스와 잠재고객 데이터를 연동해 계정 담당자 기준으로 미팅을 배정한다.",
+      "source": "SaaStr",
+      "url": "https://www.saastr.com/we-vibe-coded-our-own-calendly-our-ai-agent-pushed-us-to-do-it-and-it-was-right/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "작은 팀도 AI로 SaaS를 20분 만에 맞춤형으로 대체할 수 있다.",
+        "what": "3명으로 구성된 팀이 AI 에이전트가 Calendly의 한계를 지적한 뒤 20분 만에 맞춤 스케줄링 도구를 만들었다. 이 도구는 세일즈포스와 잠재고객 데이터를 통합하고, 계정 소유권에 따라 미팅을 라우팅한다.",
+        "points": [
+          "AI 에이전트가 Calendly의 한계를 먼저 식별",
+          "3인 팀이 20분 만에 대체 도구 구축",
+          "세일즈포스·잠재고객 데이터 통합",
+          "계정 소유권 기반 미팅 라우팅"
+        ],
+        "why": [
+          "범용 SaaS가 바이브 코딩된 사내 도구로 대체될 수 있다는 신호",
+          "마케팅·세일즈 운영 스택 구성 방식의 변화"
+        ]
+      }
+    },
+    {
+      "id": "marketing-next-google-update-prediction",
+      "title": "예측: 다음 대규모 구글 업데이트가 임박했다",
+      "summary": "구글이 최근 AI 콘텐츠 가이드라인을 재작성하며 대형 업데이트를 예고하고 있다는 분석이다. 수동 검토 없는 대량 AI 텍스트와 가짜 저자는 이제 기만 행위로 간주된다.",
+      "source": "Lily Ray (Substack)",
+      "url": "https://lilyraynyc.substack.com/p/prediction-the-next-massive-google?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "검토 없는 대량 AI 콘텐츠와 가짜 저자는 다음 구글 업데이트의 표적이 될 가능성이 크다.",
+        "what": "구글이 최근 AI 콘텐츠 가이드라인을 다시 작성했으며, 이는 대규모 업데이트가 다가오고 있다는 신호로 해석된다. 수동 검토 없이 대량 생산된 AI 텍스트와 조작된 저자 정보는 이제 기만적인 것으로 간주된다. 이는 구글이 과거에 겨냥해 온 스팸 패턴과 유사하다.",
+        "points": [
+          "구글이 AI 콘텐츠 가이드라인을 재작성",
+          "검토 없는 대량 AI 텍스트를 기만으로 규정",
+          "가짜 저자 정보도 기만으로 분류",
+          "과거 스팸 단속 패턴과 유사"
+        ],
+        "why": [
+          "AI로 콘텐츠를 대량 생산해 온 사이트의 검색 트래픽 리스크 증가",
+          "SEO 전략에서 사람 검토와 실제 저자성 확보가 필수"
+        ]
+      }
+    },
+    {
+      "id": "marketing-openai-chatgpt-ads-format",
+      "title": "오픈AI, AI 사용 방식에 맞춘 광고 구축",
+      "summary": "오픈AI가 ChatGPT 이미지 생성 중 상품을 이미지와 링크로 보여주는 비주얼 광고를 테스트한다. 새 전환 추적·어트리뷰션 연동과 함께 이달 말 미국에서 테스트를 시작한다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "ChatGPT가 비주얼 광고와 전환 측정을 갖춘 퍼포먼스 광고 채널로 진화한다.",
+        "what": "오픈AI는 ChatGPT에서 이미지 생성 중에 상품을 이미지와 링크로 보여주는 비주얼 광고를 테스트하고 있다. 새로운 전환 추적과 어트리뷰션 통합도 함께 도입되며, 이달 말 미국에서 테스트가 시작된다.",
+        "points": [
+          "이미지 생성 중 상품 비주얼 광고 노출",
+          "이미지와 링크로 상품 표시",
+          "전환 추적·어트리뷰션 연동 신규 도입",
+          "이달 말 미국에서 테스트 시작"
+        ],
+        "why": [
+          "마케터에게 생성형 AI 내 새로운 유료 채널이 열림",
+          "측정 기능이 붙으며 퍼포먼스 예산 유입 가능성"
+        ]
+      }
+    },
+    {
+      "id": "marketing-economics-of-the-streak",
+      "title": "스트릭의 경제학: 로열티 프로그램과 별",
+      "summary": "로열티 프로그램은 손실 회피와 목표 기울기 효과를 활용해 쌓인 포인트를 지킬 가치로 만든다. 스트릭은 유지 동기를, 보상 근접성은 지출을 유발하며 미사용 포인트는 낙전 수익이 된다.",
+      "source": "Dest Breso",
+      "url": "https://destbreso.com/blog/bcs-the-economics-of-the-streak?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "로열티 프로그램은 손실 회피·목표 기울기·낙전 수익으로 돌아간다.",
+        "what": "로열티 프로그램은 손실 회피와 목표 기울기 효과를 활용해 누적 포인트를 보호할 가치가 있는 것으로 느끼게 만든다. 스트릭은 이를 유지하려는 동기를 만들고, 보상에 가까워질수록 지출이 늘어난다. 사용되지 않은 포인트는 낙전(breakage) 수익을 발생시킨다.",
+        "points": [
+          "손실 회피로 누적 포인트를 지키고 싶게 만듦",
+          "스트릭은 유지 동기를 부여",
+          "보상 근접성(목표 기울기)이 지출 촉진",
+          "미사용 포인트가 낙전 수익 창출"
+        ],
+        "why": [
+          "리텐션 프로그램 설계에 행동경제학 원리를 적용하는 틀 제공"
+        ]
+      }
+    },
+    {
+      "id": "marketing-ai-shopping-soccer-shoes",
+      "title": "ChatGPT, Claude, Muse로 축구화를 쇼핑해 봤다",
+      "summary": "AI 쇼핑 어시스턴트는 선택지와 안내의 균형에서 성패가 갈린다. ChatGPT는 세 가지 옵션과 추천·비교로 승리했고, Claude는 시각 자료가 부족했으며 Muse는 잘못된 상품을 제안했다.",
+      "source": "Kristen Berman (Substack)",
+      "url": "https://kristenberman.substack.com/p/i-shopped-for-soccer-shoes-with-chatgpt?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 쇼핑 경험의 승자는 적은 선택지와 명확한 추천을 함께 준 쪽이었다.",
+        "what": "AI 쇼핑 어시스턴트는 선택지와 안내 사이의 균형을 맞출 때 성공한다. ChatGPT는 세 가지 옵션과 추천, 비교를 함께 보여줘 가장 구매에 가까워지게 했다. Claude는 세부 정보를 제공했지만 시각 자료가 없었고, Muse는 참여도는 좋았지만 잘못된 상품을 제안했다.",
+        "points": [
+          "선택지와 안내의 균형이 핵심",
+          "ChatGPT: 3개 옵션 + 추천 + 비교로 승리",
+          "Claude: 상세하지만 시각 자료 부족",
+          "Muse: 몰입도는 좋으나 잘못된 상품 제안"
+        ],
+        "why": [
+          "AI 에이전트 커머스에서 상품이 노출·추천되는 방식이 마케팅 과제가 됨",
+          "상품 데이터와 이미지 품질이 AI 추천 경쟁력에 직결"
+        ]
+      }
+    },
+    {
+      "id": "marketing-clean-up-ua-tags",
+      "title": "오래된 UA 태그를 정리하라",
+      "summary": "구글 태그 매니저에서 유니버설 애널리틱스(UA) 관련 옛 태그를 검색해 일시 중지한 뒤, 문제가 없으면 삭제하라는 팁이다.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/posts/chloe-christine-allerton_universal-analytics-stopped-processing-data-share-7512584065355657219-xIPh/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "GTM의 죽은 UA 태그는 일시 중지 후 문제없으면 삭제하라.",
+        "what": "구글 태그 매니저에서 오래된 유니버설 애널리틱스(UA) 태그를 검색해 우선 일시 중지하고, 문제가 생기지 않으면 제거하라는 실무 팁이다. UA는 이미 데이터 처리를 중단했다.",
+        "points": [
+          "GTM에서 UA 관련 태그 검색",
+          "먼저 일시 중지로 영향 확인",
+          "문제없으면 삭제"
+        ],
+        "why": [
+          "불필요한 태그 정리로 컨테이너 관리와 사이트 성능 개선"
+        ]
+      }
+    },
+    {
+      "id": "marketing-b2b-marketing-salaries-2026",
+      "title": "1,100건 채용공고를 Claude Code로 분석한 B2B 마케터 연봉",
+      "summary": "1,100건이 넘는 채용공고 분석 결과 B2B 마케팅 연봉은 신입 11만 9천 달러에서 VP·CMO 30만 달러까지 분포한다.",
+      "source": "MKT1 Newsletter",
+      "url": "https://newsletter.mkt1.co/p/marketing-salaries-2026?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "B2B 마케팅 연봉은 신입 11.9만 달러에서 VP·CMO 30만 달러 범위다.",
+        "what": "MKT1은 Claude Code로 1,100건 이상의 채용공고를 분석해 B2B 마케터 연봉 수준을 정리했다. 연봉은 신입 직급 11만 9천 달러부터 VP 및 CMO 직급 30만 달러까지 분포한다.",
+        "points": [
+          "1,100건 이상 채용공고 분석",
+          "Claude Code를 활용한 데이터 분석",
+          "신입 11만 9천 달러",
+          "VP·CMO 30만 달러"
+        ],
+        "why": [
+          "마케터 연봉 협상과 채용 예산 책정의 기준 자료"
+        ]
+      }
+    }
+  ]
+}

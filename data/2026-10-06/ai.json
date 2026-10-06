@@ -1,0 +1,361 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-openai-eu-text-watermarks",
+      "title": "OpenAI, EU에서 ChatGPT·Codex 출력에 텍스트 워터마크 도입",
+      "summary": "OpenAI가 EU AI Act 요건 충족을 위해 ChatGPT와 Codex 출력에 보이지 않는 텍스트 워터마크를 넣는다. 번역·편집 시 효과가 떨어질 수 있다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/eu-text-provenance/?utm_source=tldrai",
+      "report": {
+        "tldr": "EU AI Act가 OpenAI의 텍스트 워터마킹 도입을 이끌어냈다.",
+        "what": "OpenAI가 EU 지역의 ChatGPT와 Codex 출력에 보이지 않는 텍스트 워터마크를 적용한다. textGrain 방식은 단어 선택 패턴을 미세하게 바꿔 AI 생성 텍스트를 탐지할 수 있게 하지만, 번역이나 편집을 거치면 효과가 줄어들 수 있다.",
+        "points": [
+          "적용 범위: EU 내 ChatGPT·Codex 출력",
+          "방식: 단어 선택 패턴을 바꾸는 textGrain",
+          "한계: 번역·편집 시 탐지력 저하",
+          "EU AI Act 요건 대응"
+        ],
+        "why": [
+          "규제가 대형 AI 기업의 제품 동작을 실제로 바꾼 사례다.",
+          "텍스트 워터마킹의 실효성 논쟁이 본격화될 전망이다."
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-30b-round-uae-blackrock",
+      "title": "OpenAI, UAE 펀드·블랙록과 300억 달러 투자 유치 협상",
+      "summary": "OpenAI가 300억 달러 규모 투자 라운드를 협상 중이며 UAE 투자 펀드가 최대 100억 달러를 낼 수 있다. 블랙록, Thrive, a16z 등도 거론된다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTI1MzgzNiwiZXhwIjoxNzkxODU4NjM2LCJhcnRpY2xlSWQiOiJUTUZUQ1lWVFRDWlgwMCIsImJjb25uZWN0SWQiOiJFQTExNDNDNTM4NEE0RUY5QTg5RjJEN0IxMTg2MzcwOSJ9.vS73_YQLDTKfkP47Ng4A03lSGOWrQB5ypl8y3nr5r2A&utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI가 중동 자본 중심으로 300억 달러 조달에 나섰다.",
+        "what": "블룸버그에 따르면 OpenAI가 300억 달러 규모의 투자 라운드를 협상 중이며, UAE 투자 펀드가 최대 100억 달러를 출자할 수 있다. UC 기금, 블랙록, Thrive Capital, 앤드리슨 호로위츠도 참여 후보로 거론되나 세부 조건은 바뀔 수 있다.",
+        "points": [
+          "라운드 규모 300억 달러",
+          "UAE 펀드 최대 100억 달러 기여 가능",
+          "블랙록·Thrive·a16z·UC 기금 참여 후보",
+          "조건은 아직 유동적"
+        ],
+        "why": [
+          "프런티어 AI 경쟁의 자본 규모가 계속 커지고 있다.",
+          "국부펀드 등 중동 자본의 영향력이 확대된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-instinct-group-chats",
+      "title": "Instinct, 그룹 채팅에 공유 에이전트 추가 기능 공개",
+      "summary": "Instinct가 초기 테스터에게 그룹 대화에 공유 에이전트를 추가해 여행·행사·이동을 조율하는 기능을 제공한다. 개인 권한과 계정 격리는 유지된다.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/noahrshinn/status/2107161132192690558?utm_source=tldrai",
+      "report": {
+        "tldr": "여러 사람이 함께 쓰는 공유 AI 에이전트가 그룹 채팅에 들어왔다.",
+        "what": "Instinct가 초기 테스터들이 그룹 대화에 공유 에이전트를 추가할 수 있는 기능을 선보였다. 여행, 행사, 교통편 정리 등에 활용되며, 개별 사용자 권한은 보호되고 계정 격리도 유지된다.",
+        "points": [
+          "그룹 채팅에 공유 에이전트 추가",
+          "여행·행사·이동 계획 조율 용도",
+          "개별 권한 보호 및 계정 격리 유지",
+          "초기 테스터 대상"
+        ],
+        "why": [
+          "개인 비서형 에이전트가 다자 협업 맥락으로 확장되는 흐름이다.",
+          "공유 에이전트에서 권한 분리가 핵심 설계 과제임을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-devin-memory-and-dreaming",
+      "title": "Devin의 메모리와 ‘드리밍’ 작동 방식",
+      "summary": "Devin의 새 메모리 기능은 세션 간 선호와 프로젝트 인사이트를 유지하고, 드리밍은 축적된 정보를 정리·중복 제거하며 새 연결을 만든다.",
+      "source": "Devin",
+      "url": "https://devin.ai/blog/memory-and-dreaming?utm_source=tldrai",
+      "report": {
+        "tldr": "코딩 에이전트 Devin이 세션을 넘는 장기 기억과 기억 정리 기능을 갖췄다.",
+        "what": "Devin의 Memory 기능은 사용자 선호와 프로젝트 관련 인사이트를 세션을 넘어 보존한다. Dreaming은 이렇게 쌓인 정보를 통합·재구성해 중복을 제거하고 새로운 연결을 만들어낸다.",
+        "points": [
+          "Memory: 세션 간 선호·프로젝트 인사이트 유지",
+          "Dreaming: 축적 정보 통합 및 재구성",
+          "중복 제거와 새 연결 생성"
+        ],
+        "why": [
+          "에이전트가 반복 설명 없이 맥락을 이어가는 장기 기억 경쟁이 본격화됐다."
+        ]
+      }
+    },
+    {
+      "id": "ai-ai-native-software-factory",
+      "title": "AI 네이티브 소프트웨어 팩토리 구축법",
+      "summary": "코딩 에이전트를 개인 단위를 넘어 확장하기 위한 인프라 요건을 우버 사례로 살펴본다. 클라우드 실행, 모델 라우팅, 에이전트 인증, 테스트, 머지 PR당 경제성 측정 등을 다룬다.",
+      "source": "The AI Thinker",
+      "url": "https://www.theaithinker.com/p/how-to-build-an-ai-native-software?utm_source=tldrai",
+      "report": {
+        "tldr": "코딩 에이전트를 조직 규모로 돌리려면 별도의 인프라가 필요하다.",
+        "what": "이 글은 코딩 에이전트를 개인 사용 수준을 넘어 조직 단위로 확장할 때 필요한 인프라를 분석한다. 우버의 접근 방식을 예로 클라우드 실행, 모델 라우팅, 에이전트 인증, 테스트, 그리고 머지된 PR당 경제성 측정을 다룬다.",
+        "points": [
+          "우버 사례 기반 분석",
+          "클라우드 실행·모델 라우팅",
+          "에이전트 인증과 테스트 체계",
+          "머지 PR당 비용 등 경제성 지표"
+        ],
+        "why": [
+          "코딩 에이전트 도입의 병목이 모델이 아니라 운영 인프라로 옮겨가고 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-b2b-marketplace-hyperscaler",
+      "title": "OpenAI B2B 마켓플레이스: AI 앱의 하이퍼스케일러",
+      "summary": "9월 29일 32개 파트너와 출범한 OpenAI B2B 마켓플레이스가 AI 유통의 기반 플랫폼을 노린다는 분석. 성공 시 클라우드 생태계와 같은 통합이 일어날 수 있다.",
+      "source": "Akash Bajwa's Newsletter",
+      "url": "https://www.akashbajwa.co/p/openais-b2b-marketplace-the-hyperscaler?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI가 마켓플레이스로 AI 앱 유통의 하이퍼스케일러를 노린다.",
+        "what": "OpenAI의 B2B 마켓플레이스가 9월 29일 32개 파트너와 함께 출범했다. 이 글은 OpenAI가 AI 유통의 기반 플랫폼으로 자리 잡으려 한다고 보며, 성공한다면 클라우드 생태계의 통합 패턴이 재현될 수 있다고 분석한다.",
+        "points": [
+          "9월 29일 출범, 파트너 32곳",
+          "AI 앱 유통의 기반 플랫폼 지향",
+          "클라우드 생태계식 통합 가능성"
+        ],
+        "why": [
+          "기업 AI 지출이 OpenAI 플랫폼으로 집중될 수 있다.",
+          "파트너 앱 기업에는 유통 기회이자 종속 위험이다."
+        ]
+      }
+    },
+    {
+      "id": "ai-framefields-gpu-video-for-agents",
+      "title": "Framefields: 코딩 에이전트용 GPU 가속 영상 합성 패키지",
+      "summary": "코딩 에이전트가 TypeScript로 시각 합성·모션·3D 장면을 만들고 프레임을 렌더링해 영상으로 출력하게 해주는 npm 패키지.",
+      "source": "GitHub",
+      "url": "https://github.com/gatewai-dev/framefields?utm_source=tldrai",
+      "report": {
+        "tldr": "에이전트가 코드로 영상을 만들게 해주는 오픈소스 도구.",
+        "what": "Framefields는 코딩 에이전트가 GPU 가속으로 시각 합성, 모션 효과, 3D 장면을 만들 수 있게 하는 npm 패키지다. 에이전트가 TypeScript를 작성하고 프레임을 렌더링해 영상 파일로 출력한다.",
+        "points": [
+          "npm 패키지 형태",
+          "GPU 가속 시각 합성·모션·3D 장면",
+          "TypeScript 작성 → 프레임 렌더 → 영상 출력"
+        ],
+        "why": [
+          "영상 제작이 코드 생성 문제로 바뀌며 에이전트 활용 범위가 넓어진다."
+        ]
+      }
+    },
+    {
+      "id": "ai-reflection-beam-model",
+      "title": "Reflection AI, 5010억 파라미터 MoE 모델 Beam 공개",
+      "summary": "Beam은 활성 파라미터 230억의 501B 희소 MoE 모델로, 대규모 강화학습으로 코딩·추론에 특화됐다. 10월 말 오픈 웨이트 공개 예정이다.",
+      "source": "Reflection AI",
+      "url": "https://reflection.ai/blog/introducing-beam?utm_source=tldrai",
+      "report": {
+        "tldr": "Reflection AI가 코딩·추론용 대형 오픈 웨이트 MoE 모델을 예고했다.",
+        "what": "Reflection AI가 501B 파라미터 희소 Mixture-of-Experts 모델 Beam을 공개했다. 활성 파라미터는 23B이며 코딩과 추론 작업을 위해 대규모 강화학습으로 훈련됐고, 10월 말 오픈 웨이트 공개가 계획돼 있다.",
+        "points": [
+          "총 501B / 활성 23B 파라미터 희소 MoE",
+          "코딩·추론 특화, 대규모 강화학습",
+          "10월 말 오픈 웨이트 공개 예정"
+        ],
+        "why": [
+          "미국발 대형 오픈 웨이트 모델 경쟁에 새 주자가 추가된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-liquid-d1-vision",
+      "title": "Liquid AI, 결정 모델 d1에 비전 입력 추가",
+      "summary": "Liquid의 d1 결정 모델이 멀티모달 입력을 지원하며, 경쟁 프런티어 모델보다 훨씬 빠르고 저렴하다. 단일 패스 확률 출력으로 이진·선택·점수화 작업을 처리한다.",
+      "source": "Liquid AI (X)",
+      "url": "https://x.com/liquidai/status/2107161990808674404?utm_source=tldrai",
+      "report": {
+        "tldr": "판단 작업 전용 모델 d1이 이미지 입력까지 처리한다.",
+        "what": "Liquid AI가 결정(decision) 모델 d1에 비전 기능을 더해 멀티모달 입력을 받을 수 있게 했다. 경쟁 프런티어 모델보다 훨씬 빠르고 저렴하게 답을 내며, 단일 패스 확률 출력으로 이진 판단, 선택, 점수화 작업을 처리한다.",
+        "points": [
+          "d1에 멀티모달(비전) 입력 지원",
+          "프런티어 모델 대비 빠른 속도·낮은 비용",
+          "단일 패스 확률 출력으로 이진·선택·점수 작업 처리"
+        ],
+        "why": [
+          "분류·판정 같은 좁은 작업에서 범용 대형 모델 대신 특화 모델을 쓰는 흐름을 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-chatgpt-ads-expansion",
+      "title": "OpenAI, ChatGPT 광고 포맷·측정 기능 확대",
+      "summary": "OpenAI가 ChatGPT에 강화된 시각 광고 포맷과 성과 측정 기능을 도입했다. 광고를 플랫폼 접근성 확대와 비즈니스 발견 채널로 규정했다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/?utm_source=tldrai",
+      "report": {
+        "tldr": "ChatGPT 광고 사업이 포맷과 측정 도구를 갖추며 본격화된다.",
+        "what": "OpenAI가 ChatGPT에 더 풍부한 시각적 광고 포맷과 광고 성과 측정 기능을 도입했다. 회사는 광고가 더 많은 사용자의 플랫폼 접근을 뒷받침하고 기업에는 발견 채널을 제공한다고 설명했다.",
+        "points": [
+          "강화된 시각 광고 포맷 도입",
+          "광고 측정 기능 추가",
+          "광고를 접근성 확대 수단으로 포지셔닝"
+        ],
+        "why": [
+          "OpenAI의 수익원이 구독·API에서 광고로 다변화되고 있다.",
+          "같은 날 B2B 마켓플레이스 분석과 함께 OpenAI의 플랫폼화를 보여준다."
+        ]
+      }
+    },
+    {
+      "id": "ai-vals-room-temp-antiferromagnetic-semiconductors",
+      "title": "AI 에이전트가 설계한 상온 반강자성 반도체 후보 2종",
+      "summary": "AI 에이전트가 차세대 메모리용으로 원자 자기 방향이 상쇄되는 반강자성 소재 후보를 설계했다. 순자화 0이면서 스핀 의존 전자 거동을 유지한다.",
+      "source": "Vals.ai",
+      "url": "https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 에이전트가 차세대 메모리용 신소재 후보를 직접 설계했다.",
+        "what": "Vals.ai는 AI 에이전트가 상온에서 작동하는 반강자성 반도체 후보 두 가지를 설계했다고 밝혔다. 원자 자기 방향이 서로 반대로 정렬돼 순자화는 0이면서도 스핀에 따른 전자 거동을 유지하는 소재로, 차세대 컴퓨터 메모리를 겨냥한다.",
+        "points": [
+          "AI 에이전트 주도 소재 설계",
+          "상온 반강자성 반도체 후보 2종",
+          "순자화 0 + 스핀 의존 전자 거동 유지",
+          "차세대 메모리 응용 목표"
+        ],
+        "why": [
+          "AI 에이전트가 과학적 발견 과정에 직접 기여하는 사례가 늘고 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-asset-light-software",
+      "title": "자산 경량 소프트웨어(Asset Light Software)",
+      "summary": "AI가 주니어 업무를 자동화하면서 소프트웨어 기업의 비용 구조가 고정비에서 사용량 기반 변동비로 이동하고 있다는 주장.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/WillManidis/status/2107139199463780637?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 자동화로 소프트웨어 기업 비용이 고정비에서 변동비로 바뀐다.",
+        "what": "Will Manidis는 AI가 주니어 수준의 업무를 자동화하면서 소프트웨어 기업이 고정비 중심에서 소비량 기반 변동비 중심 구조로 옮겨가고 있다고 주장했다. 인건비가 추론 비용으로 대체되는 흐름이다.",
+        "points": [
+          "고정비 → 사용량 기반 변동비로 이동",
+          "AI가 주니어 업무 자동화",
+          "소프트웨어 기업의 비용 구조 재편"
+        ],
+        "why": [
+          "채용과 예산 계획, 마진 구조에 대한 전제가 바뀐다."
+        ]
+      }
+    },
+    {
+      "id": "ai-etched-40b-valuation-funding",
+      "title": "Etched, 400억 달러 이상 기업가치로 투자 제안 받아",
+      "summary": "Etched가 7억 달러 유치 몇 달 만에 400억 달러 이상 가치로 추가 투자를 모색하고 있다. 자체 칩 기반 고가 AI 하드웨어 시스템 전문 기업이다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 칩 스타트업 Etched의 몸값이 400억 달러를 넘보고 있다.",
+        "what": "테크크런치에 따르면 Etched가 7억 달러를 유치한 지 몇 달 만에 400억 달러 이상 기업가치로 추가 투자 제안을 받고 있다. Etched는 독자 칩을 탑재한 고가 AI 하드웨어 시스템을 전문으로 한다.",
+        "points": [
+          "기업가치 400억 달러 이상",
+          "수개월 전 7억 달러 유치",
+          "자체 칩 기반 AI 하드웨어 시스템"
+        ],
+        "why": [
+          "추론 하드웨어 시장에서 엔비디아 대안에 대한 투자 열기가 뜨겁다."
+        ]
+      }
+    },
+    {
+      "id": "ai-tibo-sottiaux-10-takeaways",
+      "title": "OpenAI 티보 소티오의 10가지 시사점",
+      "summary": "OpenAI의 소티오는 에이전트가 인터넷 작업을 수행하고, 모델 선택이 자동화되며, 1년 내 역량이 약 10배 향상될 것으로 예측했다.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/lennysan/status/2107131339355181240?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI 관계자가 1년 내 에이전트 역량 10배 향상을 예측했다.",
+        "what": "Lenny's Podcast에서 정리한 OpenAI 티보 소티오의 10가지 시사점이다. 그는 에이전트가 인터넷 작업을 직접 수행하고, 모델 선택은 자동화되며, 역량은 1년 안에 대략 10배 발전할 것으로 내다봤다.",
+        "points": [
+          "에이전트의 인터넷 작업 수행",
+          "모델 선택 자동화",
+          "1년 내 역량 약 10배 향상 전망"
+        ],
+        "why": [
+          "OpenAI 내부 시각에서 본 에이전트 로드맵을 엿볼 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-self-modeling-emergent-misalignment",
+      "title": "자기 모델링 개입이 창발적 정렬 실패를 조절한다",
+      "summary": "모델의 자기 인식과 자기 보고를 겨냥한 개입이 고급 AI 시스템의 의도치 않은 비정렬 행동을 줄일 수 있다는 연구.",
+      "source": "LessWrong",
+      "url": "https://www.lesswrong.com/posts/7wrzfaiCq3u8xkY5G/self-modeling-interventions-modulate-emergent-misalignment?utm_source=tldrai",
+      "report": {
+        "tldr": "모델의 자기 이해를 다루면 창발적 비정렬을 줄일 수 있다.",
+        "what": "LessWrong에 게재된 이 연구는 AI 모델의 자기 이해를 겨냥한 개입, 즉 자기 인식과 자기 보고를 활용한 방법이 고급 시스템에서 의도치 않은 비정렬 행동을 줄일 수 있음을 보였다.",
+        "points": [
+          "대상: 창발적 비정렬(emergent misalignment)",
+          "방법: 자기 인식·자기 보고 개입",
+          "결과: 비정렬 행동 감소"
+        ],
+        "why": [
+          "정렬 연구에서 모델의 자기 모델이 새로운 개입 지점이 될 수 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-deepmind-living-models-gemma-botanic",
+      "title": "구글 딥마인드 Living Models, Gemma 4와 BOTANIC-1로 식물 DNA 해독",
+      "summary": "Living Models는 언어 모델과 유전체 분석을 결합해 작물 유전학 연구를 수년에서 수 시간으로 단축한다.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/gemma/gemmaverse/living-models/?utm_source=tldrai",
+      "report": {
+        "tldr": "Gemma 4 기반 도구로 작물 유전 연구 기간이 크게 줄어든다.",
+        "what": "Living Models는 Gemma 4와 BOTANIC-1을 결합해 식물 DNA 해독을 돕는다. 언어 모델링과 유전체 분석을 접목해 작물 유전학 연구를 수년에서 수 시간의 처리로 압축한다.",
+        "points": [
+          "Gemma 4 + BOTANIC-1 결합",
+          "언어 모델링과 유전체 분석 접목",
+          "작물 유전 연구를 수년 → 수 시간으로 단축"
+        ],
+        "why": [
+          "오픈 모델 Gemma가 농업·생명과학 등 도메인 특화 응용으로 확장되고 있다."
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-groq-deal-stockholder-lawsuit",
+      "title": "엔비디아-Groq 200억 달러 거래, 주주 소송 직면",
+      "summary": "엔비디아의 Groq 인수가 필요한 주주 투표 절차를 거치지 않았고 경쟁 입찰로 주주가치를 극대화하지 않았다는 소송이 제기됐다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/05/nvidia-groq-deal-stockholder-lawsuit.html?utm_source=tldrai",
+      "report": {
+        "tldr": "엔비디아의 200억 달러 Groq 거래가 주주 소송에 휘말렸다.",
+        "what": "엔비디아의 200억 달러 규모 Groq 거래와 관련해 Groq 주주들이 손해를 봤다는 소송이 제기됐다. 소장은 거래가 필요한 주주 투표 절차를 거치지 않았고 경쟁 입찰을 통해 주주가치를 극대화하지 않았다고 주장한다.",
+        "points": [
+          "거래 규모 200억 달러",
+          "주주 투표 절차 누락 주장",
+          "경쟁 입찰 부재로 주주가치 미극대화 주장"
+        ],
+        "why": [
+          "빅테크의 AI 스타트업 흡수 구조에 대한 법적 리스크가 부각된다."
+        ]
+      }
+    },
+    {
+      "id": "ai-cohere-north-2",
+      "title": "Cohere, 엔터프라이즈 AI 플랫폼 North 2 출시",
+      "summary": "Cohere의 North 2는 에이전틱 AI를 도입하는 기업을 위해 보안, 성능, 비용, 운영 통제의 균형을 맞춘 플랫폼이다.",
+      "source": "Cohere",
+      "url": "https://cohere.com/blog/introducing-north-2?utm_source=tldrai",
+      "report": {
+        "tldr": "Cohere가 보안·통제를 앞세운 엔터프라이즈 에이전트 플랫폼을 강화했다.",
+        "what": "Cohere가 엔터프라이즈 AI 플랫폼 North 2를 공개했다. 에이전틱 AI를 도입하는 조직의 배포 요구에 맞춰 보안, 성능, 비용, 운영 통제 사이의 균형을 맞추는 데 초점을 뒀다.",
+        "points": [
+          "엔터프라이즈용 North 플랫폼 2세대",
+          "보안·성능·비용·운영 통제의 균형",
+          "에이전틱 AI 도입 기업 대상"
+        ],
+        "why": [
+          "규제·보안 민감 기업 시장에서 Cohere의 차별화 전략을 보여준다."
+        ]
+      }
+    }
+  ]
+}

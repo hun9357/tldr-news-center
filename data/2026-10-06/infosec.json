@@ -1,0 +1,310 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-bouncy-castle-cve-2026-71885",
+      "title": "Bouncy Castle 취약점, 에이전트 간 MLS 채널 인증 우회",
+      "summary": "Java용 Bouncy Castle 1.86 이전 버전의 인증서 검증 결함으로 공격자가 정상 참여자를 사칭하고 MLS 그룹 메시지를 복호화할 수 있다.",
+      "source": "Forkast",
+      "url": "https://forkast.news/bouncy-castle-cve-2026-71885-harvested-the-credential-binding-that-authenticates-agent-to-agent-channels?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Bouncy Castle 1.86으로 즉시 업그레이드해야 하는 치명적 암호 라이브러리 결함.",
+        "what": "Bouncy Castle for Java의 부적절한 인증서 검증으로 CVE-2026-71885가 발생했다. 공격자는 Messaging Layer Security 그룹에서 정상 참여자를 사칭하고 그룹 메시지를 복호화할 수 있다.",
+        "points": [
+          "영향 범위: Bouncy Castle for Java 1.86 미만",
+          "원인: 인증서 검증 미흡으로 자격 증명 바인딩 탈취",
+          "결과: 참여자 사칭 및 MLS 그룹 메시지 복호화",
+          "조치: 1.86 업그레이드 필수"
+        ],
+        "why": [
+          "에이전트 간 통신을 인증하는 기반 암호 라이브러리가 뚫리면 상위 시스템 신뢰가 통째로 무너진다",
+          "Java 생태계 전반에 전이 의존성으로 퍼져 있어 SBOM 점검이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-roundcube-cve-2026-48842",
+      "title": "Roundcube 웹메일 SQL 인젝션 실제 악용 중",
+      "summary": "Roundcube 1.6.0~1.6.15 및 1.7.0의 인증 전 SQL 인젝션이 virtuser_query 플러그인을 통해 악용되고 있어 즉시 패치가 필요하다.",
+      "source": "Beyond Machines",
+      "url": "https://beyondmachines.net/event_details/roundcube-webmail-sql-injection-vulnerability-cve-2026-48842-under-active-exploitation-o-t-j-p-f?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "인증 없이 DB 명령 실행이 가능한 Roundcube 결함이 이미 공격에 쓰이고 있다.",
+        "what": "Roundcube Webmail의 CVE-2026-48842는 인증 전 단계의 SQL 인젝션으로, virtuser_query 플러그인을 통해 비인증 공격자가 데이터베이스 명령을 실행하고 민감 데이터에 접근할 수 있다. 실제 악용이 확인됐다.",
+        "points": [
+          "영향 버전: 1.6.0~1.6.15, 1.7.0",
+          "공격 경로: virtuser_query 플러그인",
+          "인증 불필요한 원격 공격",
+          "수정 버전: 1.6.16 / 1.7.1"
+        ],
+        "why": [
+          "웹메일은 국가 배후 그룹의 단골 표적이라 노출된 인스턴스는 최우선 패치 대상이다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-dell-system-update-root-flaw",
+      "title": "Dell System Update 결함으로 루트 권한 원격 코드 실행",
+      "summary": "Dell System Update의 경로 탐색 취약점(CVE-2026-86360)으로 PowerEdge 서버에서 비인증 원격 루트 코드 실행이 가능하며, 2.3.0.0 이상으로 업그레이드해야 한다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/new-dell-system-update-flaw-lets-hackers-gain-root-privileges/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "PowerEdge 서버를 쓰는 조직은 DSU 2.3.0.0 이상으로 즉시 올려야 한다.",
+        "what": "Dell System Update(DSU)의 경로 탐색 취약점 CVE-2026-86360은 PowerEdge 서버에서 인증 없이 루트 권한으로 원격 코드를 실행하게 한다. Dell은 이와 함께 고위험 DSU 결함 4건도 추가로 수정했다.",
+        "points": [
+          "CVE-2026-86360: 경로 탐색 → 비인증 원격 루트 RCE",
+          "대상: PowerEdge 서버",
+          "고위험 결함 4건 동시 수정",
+          "조치: DSU 2.3.0.0 이상 업그레이드"
+        ],
+        "why": [
+          "벤더 업데이트 도구 자체가 공격 표면이 되는 공급망형 위험의 사례다",
+          "데이터센터 서버 관리 도구라 침해 시 영향이 크다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-open-build-service-mercurial-injection",
+      "title": "Open Build Service, Mercurial 인자 주입으로 명령 실행",
+      "summary": "Open Build Service의 Mercurial 백엔드에서 대시로 시작하는 리비전 값으로 pre-update 훅을 설정해 셸 명령을 실행하는 CVE-2026-56004가 공개됐다.",
+      "source": "Fenrisk",
+      "url": "https://fenrisk.com/research/open-build-service-2/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "인자 구분자 누락이라는 고전적 실수가 빌드 인프라 RCE로 이어졌다.",
+        "what": "Fenrisk는 Open Build Service의 Mercurial 백엔드에서 대시(-)로 시작하는 리비전 값을 옵션으로 해석시켜 pre-update 훅을 지정하고 셸 명령을 실행하는 CVE-2026-56004를 보고했다. openSUSE는 7월 2일 인자 구분자를 강제하는 방식으로 패치했다.",
+        "points": [
+          "CVE-2026-56004: Mercurial 인자 주입",
+          "대시 접두 리비전 값으로 pre-update 훅 설정",
+          "openSUSE가 7월 2일 '--' 구분자 강제로 수정",
+          "1년 전 연구에 이은 후속 분석"
+        ],
+        "why": [
+          "외부 입력을 CLI 인자로 넘길 때 '--' 구분자는 필수라는 점을 다시 확인시킨다",
+          "빌드 서비스 침해는 배포 패키지 공급망 오염으로 이어질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-reddit-anti-spam-internals",
+      "title": "Reddit 안티스팸 내부 구조 들여다보기",
+      "summary": "2021년 Reddit 사고로 도메인 차단, 계정 정지, Spamurai 규칙, 사용자 메타데이터와 TLS 지문을 기록하는 URL 검사 등 내부 스팸 탐지 체계가 드러났다.",
+      "source": "Lyra.horse",
+      "url": "https://lyra.horse/blog/2026/06/reddit-spam-internals/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "대형 플랫폼 스팸 방어의 실제 구성과 수집 데이터 범위를 보여준 분석.",
+        "what": "2021년 Reddit의 한 사고로 내부 스팸 탐지 메커니즘이 노출됐다. 분석에 따르면 도메인 차단, 계정 차단, Spamurai 규칙, URL 검사 등이 쓰였고 이 과정에서 사용자 메타데이터, TLS 지문, 리퍼러가 기록됐다.",
+        "points": [
+          "도메인 차단·계정 정지·Spamurai 규칙 구조 공개",
+          "URL 검사 시 사용자 메타데이터·TLS 지문·리퍼러 로깅",
+          "Perspective API 점수 조작 가능성 확인"
+        ],
+        "why": [
+          "안티어뷰즈 시스템이 수집하는 데이터의 프라이버시 범위를 가늠하게 한다",
+          "ML 기반 독성 점수가 조작될 수 있다는 점은 콘텐츠 모더레이션 설계에 시사점을 준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-connected-car-trackers",
+      "title": "커넥티드카 21대 분석, 19대가 서드파티 트래커 접속",
+      "summary": "Northeastern 대학과 Consumer Reports가 차량 21대의 Wi-Fi 트래픽을 분석한 결과 19대가 서드파티 트래커와 통신했고, 7개 앱은 VIN·이메일·정밀 위치 등을 전송했다.",
+      "source": "Northeastern University & Consumer Reports",
+      "url": "https://automatictransmission.khoury.northeastern.edu/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "자동차가 사실상 '바퀴 달린 스마트폰'으로 개인정보를 광고·데이터 업체에 흘리고 있다.",
+        "what": "연구진은 차량 21대의 Wi-Fi 트래픽을 분석해 19대가 서드파티 트래커에 접속하는 것을 확인했다. 7개 앱은 VIN, 이메일, 전화번호, 정밀 위치를 전송했으며 GM 앱은 VIN을 Meta, Google, Acxiom과 공유했다.",
+        "points": [
+          "21대 중 19대가 서드파티 트래커와 통신",
+          "7개 앱이 VIN·이메일·전화번호·정밀 위치 전송",
+          "GM 앱은 VIN을 Meta·Google·Acxiom에 공유",
+          "Honda는 위치정보 프라이버시 관행을 개선"
+        ],
+        "why": [
+          "차량 데이터 공유는 규제 당국의 감시 대상이 되고 있어 제조사 규제 리스크가 커진다",
+          "VIN은 개인 식별과 연결되는 고유 식별자라 유출 시 추적 가능성이 높다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-coi-agent-container-isolation",
+      "title": "Coi: AI 코딩 에이전트를 Incus 컨테이너로 격리",
+      "summary": "Coi는 Incus 기반 리눅스 컨테이너 안에서 AI 코딩 에이전트에 루트 권한을 주되, 커널 수준 위협 탐지로 침해된 컨테이너를 일시정지·종료하는 오픈소스 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/coipond/coi?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트에 자유를 주면서도 커널 수준에서 감시하는 샌드박스 접근.",
+        "what": "Coi는 AI 코딩 에이전트를 Incus로 만든 리눅스 컨테이너에 격리하는 오픈소스 도구다. 에이전트에는 컨테이너 내 루트 권한을 부여하고, 커널 수준 위협 탐지로 이상 징후가 보이면 컨테이너를 멈추거나 종료한다.",
+        "points": [
+          "Incus 기반 리눅스 컨테이너 격리",
+          "에이전트에 컨테이너 내 루트 권한 제공",
+          "커널 수준 위협 탐지 후 일시정지/종료"
+        ],
+        "why": [
+          "코딩 에이전트의 호스트 침해 위험을 줄이는 실용적 격리 계층이다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-guardana-ai-security-verification",
+      "title": "Guardana: 엔지니어용 오픈소스 AI 보안 검증 도구",
+      "summary": "Guardana는 코드, 모델 아티팩트, 운영 중인 시스템을 점검해 보안 발견사항과 검증 공백을 보고하는 오픈소스 도구로, 인라인 가드레일이나 컴플라이언스 인증은 아니다.",
+      "source": "GitHub",
+      "url": "https://github.com/guardana/guardana?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 시스템의 보안 상태를 코드부터 런타임까지 검증하는 도구.",
+        "what": "Guardana는 엔지니어를 위한 오픈소스 AI 보안 검증 도구다. 코드, 모델 아티팩트, 라이브 시스템을 검사해 발견사항과 검증되지 않은 공백을 함께 보고한다.",
+        "points": [
+          "검사 대상: 코드·모델 아티팩트·라이브 시스템",
+          "발견사항과 검증 공백을 함께 보고",
+          "인라인 가드레일·컴플라이언스 인증 용도는 아님"
+        ],
+        "why": [
+          "검증하지 못한 영역을 명시해 AI 보안 점검의 과신을 줄여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-doxx-net-adn",
+      "title": "doxx.net, 개인정보 없는 ADN 사설 네트워크 출시",
+      "summary": "doxx.net이 P2P 메시징, 파일 전송, 커스텀 도메인, DNS 위협 차단을 갖추고 작업증명 방식 계정으로 사용자명·개인정보를 요구하지 않는 ADN 사설 네트워크를 출시했다.",
+      "source": "doxx.net",
+      "url": "https://www.doxx.net/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "작업증명 계정으로 개인정보 없이 쓰는 프라이버시 네트워크.",
+        "what": "doxx.net은 ADN이라는 사설 네트워크를 출시했다. P2P 메시징과 파일 전송, 커스텀 도메인, DNS 위협 차단 기능을 제공하며 계정은 작업증명(PoW)으로 생성해 사용자명과 개인정보가 필요 없다.",
+        "points": [
+          "P2P 메시징·파일 전송 지원",
+          "커스텀 도메인 및 DNS 위협 차단",
+          "작업증명 기반 계정으로 사용자명·개인정보 불필요"
+        ],
+        "why": [
+          "계정 생성 시 신원 데이터를 아예 받지 않아 유출 위험 자체를 줄이는 설계다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-stratechery-apple-hackers-future",
+      "title": "Stratechery: Claude Code가 잡아낸 Mac 루트 채굴기와 Apple의 딜레마",
+      "summary": "Ben Thompson의 Mac Mini에서 화면 공유 취약점(CVE-2026-65400)을 통해 설치된 루트 권한 모네로 채굴기를 Claude Code 에이전트가 탐지했고, 글은 Apple의 전체 디스크 접근 제한과 에이전트 컴퓨팅의 충돌을 분석한다.",
+      "source": "Stratechery",
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 에이전트가 보안 사고를 찾아낸 사례이자, Apple 보안 모델과 에이전트 시대의 긴장을 보여준다.",
+        "what": "Ben Thompson의 Mac Mini가 화면 공유 취약점 CVE-2026-65400으로 침해돼 루트 권한 모네로 채굴기가 설치됐고, Claude Code 에이전트가 이를 탐지했다. Stratechery는 이를 계기로 Apple의 Full Disk Access 제한과 에이전트 기반 컴퓨팅 요구 사이의 긴장을 분석했다.",
+        "points": [
+          "화면 공유 취약점 CVE-2026-65400 악용",
+          "루트 권한 모네로 채굴기 설치",
+          "Claude Code 에이전트가 침해 탐지",
+          "Full Disk Access 제한 vs 에이전트 권한 요구"
+        ],
+        "why": [
+          "에이전트에 깊은 시스템 권한을 줄지 여부가 OS 보안 설계의 핵심 쟁점이 되고 있다",
+          "AI 에이전트가 사고 대응 도구로도 쓰일 수 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-senate-healthcare-cybersecurity-bill",
+      "title": "미 상원, 의료 사이버보안 강화 법안 만장일치 통과",
+      "summary": "미 상원이 예방·사고 대응·교육 자금을 지원하고 HHS와 CISA 간 협력 및 분야별 대응 계획을 요구하는 Health Care Cybersecurity and Resilience Act를 만장일치로 통과시켰다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/senate-passes-bipartisan-bill-to-strengthen-healthcare-cybersecurity/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "랜섬웨어에 시달려 온 의료 부문에 연방 차원의 자금과 협력 체계가 마련된다.",
+        "what": "미 상원은 초당적 법안인 Health Care Cybersecurity and Resilience Act를 만장일치로 통과시켰다. 법안은 예방, 사고 대응, 교육에 자금을 지원하고 HHS와 CISA의 협력을 지시하며 분야별 대응 계획 수립을 요구한다.",
+        "points": [
+          "상원 만장일치 통과",
+          "예방·사고 대응·교육 자금 지원",
+          "HHS-CISA 협력 의무화",
+          "분야별 사고 대응 계획 요구"
+        ],
+        "why": [
+          "의료기관 보안 투자와 연방 기관 간 공조가 제도화된다",
+          "하원 통과 여부가 다음 관전 포인트다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-shinyhunters-hacker-detained-jordan",
+      "title": "FBI 데이터 탈취 ShinyHunters 해커, 요르단서 구금돼 FBI 협조",
+      "summary": "요르단 당국이 ShinyHunters 일원으로 지목된 Saif al-Din Khader(Rey)를 구금했으며, 그는 직원 신원·의료기록이 담긴 탈취 데이터로 공범 식별을 돕는 등 FBI 수사에 협조하고 있다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/middle-east/key-shinyhunters-hacker-detained-jordan-is-cooperating-sources-say-2026-10-03/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "ShinyHunters 핵심 인물 구금으로 조직 수사가 탄력을 받을 전망이다.",
+        "what": "요르단 당국은 FBI 데이터 탈취 사건에 연루된 ShinyHunters 멤버로 지목된 Saif al-Din Khader(별칭 Rey)를 구금했다. 소식통에 따르면 그는 직원 신원과 의료기록이 포함된 탈취 데이터를 활용해 공범을 식별하는 등 FBI 수사에 협조하고 있다.",
+        "points": [
+          "피의자: Saif al-Din Khader(Rey), 요르단에서 구금",
+          "FBI 데이터 탈취 사건 연루",
+          "탈취 데이터로 공범 식별에 협조"
+        ],
+        "why": [
+          "다수 대형 유출을 일으킨 ShinyHunters 조직 와해에 결정적 계기가 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-linux-7-4-amd-zen6-btb-ctx",
+      "title": "Linux 7.4, AMD Zen 6 BTB CTX 격리 기능 지원",
+      "summary": "Linux 7.4가 사용자/커널, 게스트/호스트 모드 간 분기 예측기 컨텍스트를 분리하는 AMD Zen 6의 BTB CTX 격리 기능을 지원할 예정이다.",
+      "source": "Phoronix",
+      "url": "https://www.phoronix.com/news/AMD-Zen-6-BTB-CTX-Linux-7.4?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "하드웨어 수준 분기 예측기 격리로 Spectre류 공격 방어가 강화된다.",
+        "what": "Linux 7.4에는 AMD Zen 6의 BTB CTX 격리 기능 지원이 들어갈 예정이다. 이 기능은 사용자/커널 모드와 게스트/호스트 모드 간 분기 예측기 컨텍스트를 격리한다.",
+        "points": [
+          "대상: AMD Zen 6",
+          "사용자/커널 및 게스트/호스트 간 BTB 컨텍스트 격리",
+          "Linux 7.4 반영 예정"
+        ],
+        "why": [
+          "분기 예측 기반 사이드채널 공격 완화를 하드웨어에서 지원해 성능 손실을 줄일 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-google-oss-bug-bounty-frozen",
+      "title": "구글, AI 제출물 급증에 오픈소스 버그 바운티 동결",
+      "summary": "구글이 자동화 도구가 메인테이너에게 보고서를 쏟아내자 10월 1일 오픈소스 소프트웨어 취약점 보상 프로그램을 일시 중단했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI가 만든 저품질 버그 리포트가 버그 바운티 운영을 마비시키고 있다.",
+        "what": "구글은 10월 1일 Open Source Software Vulnerability Rewards Program을 일시 중단했다. AI 기반 자동화 도구가 생성한 보고서가 급증해 메인테이너들이 감당하기 어려워졌기 때문이다.",
+        "points": [
+          "10월 1일 OSS VRP 일시 중단",
+          "원인: AI 자동화 제출물의 '상당한 증가'",
+          "메인테이너 부담 가중"
+        ],
+        "why": [
+          "AI 슬롭이 오픈소스 보안 생태계의 신호 대 잡음비를 떨어뜨리고 있다",
+          "다른 버그 바운티 플랫폼도 제출 정책 강화 압박을 받을 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-denmark-cpr-breach",
+      "title": "덴마크 주민등록부 침해, 880만 명 정보 노출",
+      "summary": "공격자가 한 덴마크 기업의 정상 자격 증명으로 중앙주민등록부(CPR)에 접근해 약 880만 명의 이름, 주소, CPR 번호를 노출시켰다.",
+      "source": "Yahoo News",
+      "url": "https://www.yahoo.com/news/world/articles/data-breach-hits-denmarks-population-113327844.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "사실상 전 국민의 신원 식별 번호가 정상 계정을 통해 유출됐다.",
+        "what": "공격자는 덴마크 한 기업의 정상 자격 증명을 이용해 중앙주민등록부(CPR)에 접근했다. 약 880만 명의 이름, 주소, CPR 번호가 노출됐다.",
+        "points": [
+          "피해 규모: 약 880만 명",
+          "노출 항목: 이름·주소·CPR 번호",
+          "침입 경로: 서드파티 기업의 정상 자격 증명"
+        ],
+        "why": [
+          "국가 핵심 신원 데이터베이스에 대한 서드파티 접근 통제의 취약성을 드러낸다",
+          "CPR 번호 유출은 장기적 신원 도용 위험으로 이어진다"
+        ]
+      }
+    }
+  ]
+}

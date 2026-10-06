@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-06",
+  "weekday": "화",
+  "headline": "OpenAI, ChatGPT 광고를 이미지 생성·측정까지 확대",
+  "subtitle": "Reflection, 501B 오픈 웨이트 모델 Beam 공개 · 덴마크 주민등록부 침해로 880만 명 노출 · 슈나이더, PTC 226억 달러 인수",
+  "keyword": "AI 광고 수익화 · 오픈 웨이트 모델 · 대형 데이터 침해",
+  "bigStoryId": "ai-openai-chatgpt-ads-expansion",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:08 CDT",
+  "syncedAt": "2026-10-06T14:08:10Z",
+  "stats": {
+    "companies": 31,
+    "security": 9,
+    "deals": 7,
+    "policy": 6
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "OpenAI가 광고를 핵심 수익원으로 끌어올린다",
+      "body": "ChatGPT 광고가 이미지 생성 결과 옆 비주얼 광고와 전환 측정으로 확대되며 ai·design·marketing 세 에디션에 동시에 실렸다. 같은 날 300억 달러 투자 유치 협상과 B2B 마켓플레이스 분석까지 나오면서, OpenAI가 구독 외 광고·플랫폼 수익 구조를 빠르게 굳히는 흐름이 뚜렷하다."
+    },
+    {
+      "kind": "market",
+      "title": "AI 인프라 자본이 칩·인수로 몰린다",
+      "body": "OpenAI 300억 달러 라운드 협상, Etched 400억 달러+ 밸류에이션 제안, 아마존의 80억 달러 엔비디아 칩 세일앤리스백 검토가 한꺼번에 나왔다. 슈나이더 일렉트릭의 PTC 226억 달러 인수와 엔비디아-Groq 거래 주주 소송까지 더해 AI 자본 배분의 규모와 법적 리스크가 함께 커지고 있다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "EU 대상 ChatGPT·Codex 텍스트 워터마크 적용 범위, Roundcube CVE-2026-48842 악용 확산과 패치 적용률, 덴마크 CPR 침해 후속 조치, Reflection Beam 벤치마크 검증, CFTC Regulation CTX·CAM 의견 수렴 일정을 추적."
+    }
+  ]
+}

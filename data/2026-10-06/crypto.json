@@ -1,0 +1,240 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-cftc-regulation-ctx-cam",
+      "title": "CFTC, 레버리지 리테일 크립토 거래 연방 규칙 제안",
+      "summary": "CFTC가 'Regulation CTX·CAM' 규칙 제정을 시작해 개인 투자자의 레버리지 크립토 거래에 연방 차원의 경로를 마련한다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-10-05-cftc-rulemaking-leveraged-retail-crypto-trading-regulation-ctx-cam-417701?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Clarity Act 무산 이후 CFTC가 규칙 제정으로 리테일 레버리지 거래 길을 연다.",
+        "what": "CFTC가 Regulation CTX와 Regulation CAM 규칙 제정안을 내놓았다. 레버리지를 활용한 리테일 크립토 거래에 연방 차원의 제도적 경로를 제공하는 것이 목적이다.",
+        "points": [
+          "규칙명은 Regulation CTX와 Regulation CAM",
+          "실패한 Clarity Act와 달리 크립토 자산을 CFTC 등록 거래소로 옮기도록 강제하지 않음",
+          "CFTC에 그런 요구를 할 의회 권한이 없기 때문"
+        ],
+        "why": [
+          "입법 공백 속에서 규제 기관이 독자적으로 리테일 레버리지 시장 제도화에 나섰다는 신호",
+          "기존 거래소 구조를 유지한 채 규제 틀이 생길 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-strategy-buys-334-btc",
+      "title": "Strategy, 334 BTC 추가 매입…보유량 84.8만 BTC 돌파",
+      "summary": "Strategy가 약 2,870만 달러에 334 BTC를 사들여 총 보유량이 848,000 BTC(약 730억 달러)를 넘었다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-05-more-orange-than-ever-michael-saylor-strategy-bitcoin-417631?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Strategy의 비트코인 축적이 소규모로 계속되고 있다.",
+        "what": "Strategy가 334 BTC를 약 2,870만 달러에 매입했다. 총 보유량은 848,000 BTC, 가치로는 약 730억 달러에 이른다.",
+        "points": [
+          "매입 자금은 주식 매각과 현금 보유분에서 조달",
+          "총 보유 848,000 BTC, 약 730억 달러 규모",
+          "매입 프로그램 잔여 한도 188억 달러"
+        ],
+        "why": [
+          "최대 기업 BTC 보유자의 꾸준한 매수는 시장 수급 지표로 주목받음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ethereum-foundation-zkapi",
+      "title": "이더리움 재단, 영지식 증명 기반 프라이빗 API 접근 'zkAPI' 공개",
+      "summary": "이더리움 재단이 영지식 증명으로 신원을 드러내지 않고 유료 API를 쓸 수 있는 zkAPI를 출시했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2105753290977980682.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "결제와 신원을 프로토콜 수준에서 분리한 익명 유료 API 접근.",
+        "what": "이더리움 재단이 zkAPI를 공개했다. 사용자는 영지식 증명을 이용해 익명성을 유지한 채 유료 API에 접근할 수 있다.",
+        "points": [
+          "결제 정보와 사용자 신원을 프로토콜 수준에서 분리",
+          "유사 시스템의 기존 취약점을 해결했다고 설명",
+          "영지식 증명 기술의 실사용 사례"
+        ],
+        "why": [
+          "API 사용 기록을 통한 추적 문제에 대한 프라이버시 대안",
+          "이더리움 생태계의 ZK 활용 범위 확대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-melee-phase-2",
+      "title": "Melee, 2단계 돌입…누구나 예측시장 개설 가능",
+      "summary": "Melee가 Phase 2로 전환해 플랫폼 템플릿으로 누구나 예측시장을 만들 수 있게 했다.",
+      "source": "X (Melee)",
+      "url": "https://x.com/meleemarkets/status/2105666822762529257?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "패리뮤추얼 방식으로 유동성 문제를 피한 Melee가 무허가형 시장 개설을 연다.",
+        "what": "Melee가 Phase 2로 넘어가며 템플릿 기반의 무허가형 예측시장 생성을 허용했다. 패리뮤추얼 마켓메이커 모델로 초기 유동성 확보 문제를 없앴다.",
+        "points": [
+          "누구나 템플릿으로 예측시장 생성 가능",
+          "패리뮤추얼 모델로 콜드스타트 유동성 장벽 제거",
+          "3주간의 Phase 1에서 거래량 3억 3,770만 달러 이상"
+        ],
+        "why": [
+          "예측시장 경쟁에서 롱테일 시장 확장의 실험"
+        ]
+      }
+    },
+    {
+      "id": "crypto-smbc-nikko-uniswap-japan",
+      "title": "SMBC 닛코, Uniswap 기반 일본 규제 DeFi 거래소 구축",
+      "summary": "SMBC 닛코와 Nethermind가 Uniswap v4 위에 일본 투자자 대상 규제 준수 온체인 거래 플랫폼을 개발 중이며 2027년 중반 출시가 목표다.",
+      "source": "X (Uniswap)",
+      "url": "https://x.com/Uniswap/status/2106238600991945000?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "일본 대형 증권사가 Uniswap v4 훅으로 규제 준수를 풀에 내장한다.",
+        "what": "SMBC 닛코와 Nethermind가 Uniswap v4 기반의 규제 온체인 거래 플랫폼을 일본 투자자용으로 만들고 있다. 출시 목표는 2027년 중반이다.",
+        "points": [
+          "Uniswap v4 훅으로 AML/CFT 준수와 투자자 보호를 거래 풀에 직접 내장",
+          "Nethermind가 개발 파트너",
+          "2027년 중반 출시 목표"
+        ],
+        "why": [
+          "전통 금융사가 퍼블릭 DeFi 인프라를 규제 환경에서 쓰는 사례",
+          "Uniswap 훅 구조의 기관 활용 가능성 입증"
+        ]
+      }
+    },
+    {
+      "id": "crypto-tokenization-was-easy-part",
+      "title": "토큰화는 쉬운 부분이었다",
+      "summary": "기관의 토큰화 수요는 새로운 자산보다 기존 자산의 운영 효율에 있으며, 이더리움이 글로벌 결제 레이어로 자리잡을 수 있다는 분석이다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2105600705398505921.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "기관 토큰화의 핵심은 새 자산이 아니라 기존 자산의 운영 효율이다.",
+        "what": "기관 토큰화 수요가 새로운 자산군 창출보다 기존 자산 운영 효율화에 집중돼 있다는 글이다. 이더리움의 가동률·빠른 슬롯·완결성과 ZK 기술 확산이 결제 레이어로서의 근거로 제시된다.",
+        "points": [
+          "기관 수요는 운영 효율 중심",
+          "이더리움의 100% 역사적 가동률, 빠른 슬롯과 완결성 강조",
+          "광범위한 영지식 기술 채택"
+        ],
+        "why": [
+          "토큰화 논의의 초점이 발행에서 결제·운영으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "crypto-fintech-is-dead",
+      "title": "핀테크는 죽었다",
+      "summary": "핀테크의 핵심 혁신이 업계 표준이 되면서 VC 배분 비중이 줄었고, AI와 토큰화 중심의 새 아키텍처가 떠오른다는 주장이다.",
+      "source": "X (Simon Taylor)",
+      "url": "https://x.com/sytaylor/status/2105649123806351819?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "핀테크는 표준이 됐고 다음 무대는 AI와 토큰화다.",
+        "what": "핀테크 혁신이 업계 표준으로 흡수되며 VC 배분 비중이 2021~2025년 14.5%에서 12.3%로 줄었다는 분석이다. Stripe, Ramp 같은 인프라 기업은 토큰 라우팅을 핵심 금융 인프라로 삼는 방향으로 전환 중이다.",
+        "points": [
+          "VC 배분 비중 14.5%에서 12.3%로 감소(2021~2025)",
+          "새 아키텍처는 AI와 토큰화를 우선",
+          "Stripe·Ramp가 토큰 라우팅으로 피벗"
+        ],
+        "why": [
+          "핀테크와 크립토 인프라의 경계가 흐려지는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "crypto-liquid-thoughts-q4-2026",
+      "title": "시장 성숙: 크립토 유동 자산 전망, 2026년 4분기",
+      "summary": "7월 바닥 이후 투자 기회를 가치 저장형과 수익 창출형 프로토콜로 나누고, 기관이 전통 지표로 평가할 것이라는 전망이다.",
+      "source": "X (Alana Levin)",
+      "url": "https://x.com/AlanaDLevin/status/2105688290493870558?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "기관은 크립토 프로토콜을 수익 품질과 마진으로 평가하기 시작한다.",
+        "what": "7월 크립토 시장 바닥 이후의 투자 기회를 가치 저장 프로토콜과 수익 창출 프로토콜로 구분한 전망이다. 기관 투자자는 전통적 지표로 포지션을 평가할 것이라고 본다.",
+        "points": [
+          "7월 바닥 이후 투자 기회 형성",
+          "가치 저장형 vs 수익 창출형 프로토콜 구분",
+          "수익 품질과 지속성, 마진 구조, 기관 접근성이 평가 기준"
+        ],
+        "why": [
+          "크립토 밸류에이션이 전통 금융 지표에 수렴하는 성숙 신호"
+        ]
+      }
+    },
+    {
+      "id": "crypto-sp-global-defi-vault-ratings",
+      "title": "S&P 글로벌, DeFi 대출 볼트 신용등급식 리스크 점수 도입",
+      "summary": "S&P 글로벌 레이팅스가 온체인 대출 플랫폼의 볼트 리스크를 AAA식 등급으로 평가하기 시작했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2106958054852034842.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "전통 신용평가사가 DeFi 볼트 등급 평가에 진출했다.",
+        "what": "S&P 글로벌 레이팅스가 온체인 대출 플랫폼용 볼트 리스크 평가 등급을 내놓았다. AAA 스타일의 등급 체계를 적용한다.",
+        "points": [
+          "대상은 DeFi 대출 볼트",
+          "전통 신용등급과 유사한 체계",
+          "S&P 글로벌 레이팅스가 직접 평가"
+        ],
+        "why": [
+          "기관 자금의 DeFi 진입 장벽을 낮출 수 있는 표준화된 리스크 지표"
+        ]
+      }
+    },
+    {
+      "id": "crypto-eth-staking-36-percent",
+      "title": "ETH 스테이킹, 공급량의 36%로 사상 최고",
+      "summary": "이더리움 스테이킹 비율이 총 공급의 36%에 도달했으며 2026년에만 약 220억 달러가 새로 스테이킹됐다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2107118688767795332.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "ETH 스테이킹 비율이 36%로 역대 최고를 기록했다.",
+        "what": "이더리움 스테이킹 비율이 총 공급량의 36%로 사상 최고치를 찍었다. 2026년 한 해에만 약 220억 달러 규모가 새로 스테이킹됐다.",
+        "points": [
+          "스테이킹 비율 36% 사상 최고",
+          "2026년 신규 스테이킹 약 220억 달러",
+          "유통 물량 감소 효과"
+        ],
+        "why": [
+          "ETH 수급과 네트워크 보안 측면의 장기 보유 수요 지표"
+        ]
+      }
+    },
+    {
+      "id": "crypto-fintech-ideas-api-framework",
+      "title": "핀테크 아이디어 프레임워크: 복잡한 것을 API로",
+      "summary": "복잡한 시스템을 단순한 API 인터페이스로 바꾸는 데서 핀테크 기회를 찾자는 전략 프레임워크다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2107197606288134203.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "복잡성을 API로 감싸는 것이 핀테크 기회의 공식이다.",
+        "what": "핀테크 혁신 기회를 찾는 전략으로, 복잡한 시스템을 단순화된 API로 전환하는 접근을 제시한다.",
+        "points": [
+          "복잡한 시스템을 API로 추상화",
+          "Stripe식 성공 공식의 일반화",
+          "아이디어 발굴용 프레임워크"
+        ],
+        "why": [
+          "창업·제품 기획자에게 실용적인 사고 틀"
+        ]
+      }
+    },
+    {
+      "id": "crypto-rift-onchain-routing-api",
+      "title": "RIFT, 범용 온체인 라우팅 API 출시",
+      "summary": "RIFT가 여러 유동성 소스에서 최적 체결가를 단일 쿼리로 제공하는 수수료 없는 온체인 라우팅 API를 내놓았다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2105689265124561401.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "단일 쿼리로 최적 체결가를 찾는 무수수료 온체인 라우팅.",
+        "what": "RIFT가 범용 온체인 라우팅 API를 출시했다. 여러 유동성 소스에 걸친 최적 체결 가격을 추가 수수료 없이 한 번의 쿼리로 제공한다.",
+        "points": [
+          "여러 유동성 소스 통합 라우팅",
+          "단일 쿼리로 최적 가격",
+          "추가 수수료 없음"
+        ],
+        "why": [
+          "개발자의 온체인 거래 통합 비용 절감"
+        ]
+      }
+    }
+  ]
+}
