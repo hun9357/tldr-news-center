@@ -1,0 +1,243 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-spacex-40b-debt-nvidia",
+      "title": "스페이스X, 엔비디아 칩 구매 위해 아폴로 주도 400억 달러 부채 조달 추진",
+      "summary": "FT에 따르면 스페이스X는 은행 대출 100억 달러와 투자등급 회사채 300억 달러로 엔비디아 칩 주문 자금을 마련한다. 아폴로가 주도하고 핌코 등이 협의 중이며 2027년 마무리 예정이다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/media-telecom/spacex-seeks-40-billion-buy-nvidia-chips-ft-reports-2026-10-06/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 칩 구매가 400억 달러 규모 부채 조달로 이어질 만큼 커졌다.",
+        "what": "FT 보도에 따르면 스페이스X가 엔비디아 칩 주문 자금으로 약 400억 달러를 빌리려 한다. 은행 대출 100억 달러와 투자등급 채권 300억 달러로 구성되며 아폴로가 주도한다.",
+        "points": [
+          "은행 대출 100억 달러 + 투자등급 채권 300억 달러",
+          "아폴로 주도, 광범위 투자자에 채권 판매",
+          "핌코 등 대주와 협의 중",
+          "거래 완료는 2027년 예상"
+        ],
+        "why": [
+          "GPU 확보 경쟁이 사모신용 시장까지 끌어들이는 신호"
+        ]
+      }
+    },
+    {
+      "id": "hardware-ghost-core-personal-ai-computer",
+      "title": "Ghost, 개인용 AI 컴퓨터 Core 출시",
+      "summary": "Ghost가 엔비디아 RTX Pro 4000 SFF Blackwell GPU를 탑재한 3,499달러짜리 화면 없는 컴퓨터 Core의 사전 주문을 열었다. 사전 설치된 AI 모델을 로컬에서 돌리고 휴대폰 앱으로 접근한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/05/at-19-ghost-founder-raises-11-million-to-build-a-3499-computer-for-your-personal-ai/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "로컬 AI 전용 개인 서버라는 새 기기 범주가 시험대에 올랐다.",
+        "what": "Ghost가 개인 AI용 화면 없는 컴퓨터 Core의 사전 주문을 시작했다. 가격은 3,499달러이며 엔비디아 Blackwell 기반 GPU를 탑재했다.",
+        "points": [
+          "가격 3,499달러, 화면 없음",
+          "RTX Pro 4000 SFF Blackwell GPU",
+          "AI 모델 사전 설치·로컬 실행",
+          "휴대폰 앱으로 접근"
+        ],
+        "why": [
+          "클라우드 대신 로컬 AI를 원하는 프라이버시 수요 공략"
+        ]
+      }
+    },
+    {
+      "id": "hardware-gpt-synopsys-eda",
+      "title": "시놉시스·OpenAI, EDA 툴을 직접 다루는 GPT-Synopsys 공개",
+      "summary": "GPT-Synopsys는 시놉시스 EDA 툴을 직접 조작하도록 학습된 OpenAI 프런티어 모델로 최적화·검증을 수행한다. 엔지니어가 목표를 주면 에이전트가 툴 실행, 결과 해석, 반복을 거쳐 검토 가능한 결과를 낸다.",
+      "source": "EETimes",
+      "url": "https://www.eetimes.com/gpt-synopsys-combines-ic-design-eda-with-agentic-ai/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "칩 설계 도구를 에이전트가 직접 운용하는 단계에 들어섰다.",
+        "what": "시놉시스와 OpenAI가 EDA 툴 조작에 특화된 프런티어 모델 GPT-Synopsys를 선보였다. 최적화와 검증 작업을 에이전트가 반복 수행한다.",
+        "points": [
+          "시놉시스 EDA 툴 직접 조작하도록 학습",
+          "최적화·검증 작업 담당",
+          "목표 입력 → 툴 실행·결과 해석·반복",
+          "검증된 결과를 엔지니어가 검토"
+        ],
+        "why": [
+          "반도체 설계 생산성과 인력 구조에 큰 영향 가능"
+        ]
+      }
+    },
+    {
+      "id": "hardware-chips-extreme-environments",
+      "title": "극한 환경용 칩 설계",
+      "summary": "칩은 방사선, 열충격, 진동 등 복합 스트레스를 동시에 시험해야 한다. 애리조나주립대는 방사선원과 크라이오스탯을 결합해 77K에서 소자를 시험한다.",
+      "source": "Semiconductor Engineering",
+      "url": "https://semiengineering.com/extreme-environments-push-chips-to-their-breaking-point/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "개별 조건이 아닌 복합 스트레스 시험이 극한 환경 칩의 핵심이다.",
+        "what": "극한 환경용 칩은 조건을 하나씩 인증하는 대신 방사선·열충격·진동을 결합해 시험해야 한다는 분석이다. 애리조나주립대는 77K 저온에서 방사선 시험을 수행한다.",
+        "points": [
+          "방사선·열충격·진동 복합 시험 필요",
+          "개별 조건 인증의 한계",
+          "ASU, 방사선원+크라이오스탯으로 77K 시험"
+        ],
+        "why": [
+          "우주·방산·양자 등 극한 환경 반도체 신뢰성 확보에 중요"
+        ]
+      }
+    },
+    {
+      "id": "hardware-scarf-slam",
+      "title": "ScaRF-SLAM: 피드포워드 모델과 고전 SLAM을 결합한 스케일 일관 3D 재구성",
+      "summary": "ScaRF-SLAM은 고전 시각 SLAM의 신뢰성과 최신 기하 파운데이션 모델을 결합해 조밀한 3D 장면을 재구성한다. 서브맵 간 스케일 일관성을 최적화해 다양한 센서 구성에서 실시간으로 정확한 지도를 만든다.",
+      "source": "Oxford Robotics",
+      "url": "https://dynamic.robots.ox.ac.uk/projects/scarf-slam/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "고전 SLAM과 파운데이션 모델의 장점을 합쳤다.",
+        "what": "옥스퍼드 로보틱스 연구진이 ScaRF-SLAM을 공개했다. 고전 시각 SLAM과 기하 파운데이션 모델을 결합해 실시간 고밀도 3D 재구성을 수행한다.",
+        "points": [
+          "고전 시각 SLAM + 기하 파운데이션 모델",
+          "서브맵 간 스케일 일관성 최적화",
+          "다양한 센서 구성 지원",
+          "실시간 전역 정확도"
+        ],
+        "why": [
+          "로봇·자율주행의 매핑 정확도 향상"
+        ]
+      }
+    },
+    {
+      "id": "hardware-roboparty-rp1-humanoid",
+      "title": "RoboParty, RP1 휴머노이드 시연",
+      "summary": "RoboParty가 IROS에서 RP1이 밀려도 균형을 회복하는 모습을 시연했다. 액추에이터 모듈과 강화학습 동작 제어를 결합했고 관절 최대 토크는 160Nm이다.",
+      "source": "Interesting Engineering",
+      "url": "https://interestingengineering.com/ai-robotics/robopartys-rp1-open-source-humanoid-robotics?utm_source=tldrhardware",
+      "report": {
+        "tldr": "오픈소스 휴머노이드가 강한 외란 회복 능력을 보였다.",
+        "what": "RoboParty가 IROS 학회에서 RP1 휴머노이드를 시연했다. 밀려도 균형을 되찾았으며 강화학습 기반 동작 제어를 사용한다.",
+        "points": [
+          "IROS에서 균형 회복 시연",
+          "액추에이터 모듈 + 강화학습 동작 제어",
+          "관절 최대 토크 160Nm"
+        ],
+        "why": [
+          "오픈소스 휴머노이드 플랫폼의 실용성 향상"
+        ]
+      }
+    },
+    {
+      "id": "hardware-google-finland-datacenter-clearing",
+      "title": "구글, 핀란드 데이터센터 부지 벌목으로 조사 받아",
+      "summary": "핀란드 당국이 구글 현지 운영사가 필수 환경영향평가 전에 300헥타르 넘는 숲을 벌목했는지 조사 중이다. 한 환경단체는 무호스 인근 작업 중단을 요청했다.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/google-ai-data-center-project-investigated-after-420-football-fields-of-finnish-forest-razed-trees-were-removed-before-a-mandatory-environmental-impact-assessment-say-reports?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 데이터센터 확장이 환경 규제와 충돌하고 있다.",
+        "what": "핀란드 당국이 구글 데이터센터 프로젝트의 사전 벌목 의혹을 조사하고 있다. 환경영향평가 완료 전 300헥타르 이상 숲이 제거됐다는 의혹이다.",
+        "points": [
+          "300헥타르 이상 숲 벌목 의혹",
+          "필수 환경영향평가 이전 진행 여부 조사",
+          "환경단체, 무호스 인근 작업 중단 요청"
+        ],
+        "why": [
+          "데이터센터 인허가 리스크가 AI 인프라 일정에 영향"
+        ]
+      }
+    },
+    {
+      "id": "hardware-opentpu",
+      "title": "OpenTPU: 풀스택 오픈소스 AI 가속기",
+      "summary": "OpenTPU는 SystemVerilog RTL, 명령어 집합, 시뮬레이터, 컴파일러를 모두 담은 오픈소스 AI 가속기 프로젝트로, 저렴한 Kintex-7 FPGA PCIe 카드에서 양자화 언어모델을 돌린다.",
+      "source": "GitHub",
+      "url": "https://github.com/FeSens/openTPU?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 가속기 전체 스택을 오픈소스로 공부·실험할 수 있다.",
+        "what": "OpenTPU는 RTL부터 컴파일러까지 갖춘 완전한 오픈소스 AI 가속기다. 저가 Kintex-7 FPGA 카드에서 양자화된 언어모델을 실행한다.",
+        "points": [
+          "커스텀 SystemVerilog RTL",
+          "자체 ISA·시뮬레이터·컴파일러",
+          "Kintex-7 FPGA PCIe 카드에서 동작",
+          "양자화 언어모델 실행"
+        ],
+        "why": [
+          "AI 하드웨어 교육과 연구 진입장벽 하락"
+        ]
+      }
+    },
+    {
+      "id": "hardware-meta-cram-linux",
+      "title": "Meta, 리눅스용 압축 RAM \"CRAM\" 개발",
+      "summary": "Meta의 Gregory Price가 Linux Plumbers에서 하드웨어 오프로드 메모리 압축을 발표했다.",
+      "source": "Phoronix",
+      "url": "https://www.phoronix.com/news/Linux-CRAM-Compressed-RAM?utm_source=tldrhardware",
+      "report": {
+        "tldr": "메모리 압축을 하드웨어로 넘겨 용량 효율을 높이려는 시도다.",
+        "what": "Meta가 리눅스용 압축 RAM 기술 CRAM을 개발 중이다. Gregory Price가 Linux Plumbers 콘퍼런스에서 하드웨어 오프로드 압축 방식을 소개했다.",
+        "points": [
+          "Linux Plumbers에서 발표",
+          "하드웨어 오프로드 메모리 압축",
+          "Meta 엔지니어 Gregory Price 주도"
+        ],
+        "why": [
+          "메모리 가격·용량 압박 속 데이터센터 효율 개선"
+        ]
+      }
+    },
+    {
+      "id": "hardware-hex-hexapod-robot",
+      "title": "Hex: 오픈소스 육족 로봇 플랫폼",
+      "summary": "Hex는 메이커와 개발자가 다리 보행을 만들고 시험할 수 있도록 설계된 오픈소스 6족 로봇 플랫폼이다.",
+      "source": "GitHub",
+      "url": "https://github.com/ManufacturedMotion/Hex?utm_source=tldrhardware",
+      "report": {
+        "tldr": "다리 보행 연구용 접근성 높은 오픈 플랫폼이다.",
+        "what": "ManufacturedMotion이 오픈소스 6족 로봇 Hex를 공개했다. 보행 로봇 개발과 실험의 기반을 제공한다.",
+        "points": [
+          "6족 보행 로봇",
+          "오픈소스",
+          "메이커·개발자 대상"
+        ],
+        "why": [
+          "보행 로봇 실험의 비용·진입장벽 감소"
+        ]
+      }
+    },
+    {
+      "id": "hardware-amd-chip-supply-2027",
+      "title": "AMD, 2027년 칩 공급 대폭 확대 예고",
+      "summary": "리사 수 CEO는 2026년 내내 공급이 늘었으며 2027년에는 칩 공급을 크게 늘리겠다고 밝혔다.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1005397/amd-intends-to-substantially-increase-its-chip-supply-next-year?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AMD가 공급 부족 해소에 자신감을 보였다.",
+        "what": "AMD 리사 수 CEO가 2027년 칩 공급을 상당폭 늘리겠다고 밝혔다. 2026년에도 공급이 꾸준히 증가했다고 설명했다.",
+        "points": [
+          "2026년 동안 공급 증가",
+          "2027년 공급 대폭 확대 계획",
+          "리사 수 CEO 발언"
+        ],
+        "why": [
+          "AI 가속기·CPU 공급난 완화 여부의 주요 신호"
+        ]
+      }
+    },
+    {
+      "id": "hardware-anduril-baltimore-shipyard",
+      "title": "트럼프, 안두릴 볼티모어 잠수함 조선소 약 70억 달러 계약 발표",
+      "summary": "안두릴이 스패로스 포인트에 200만 제곱피트 조선소를 짓기 위해 37억 달러를 투자하고, 해군은 생산 성과 연동 29억 달러 계약을 별도로 체결한다.",
+      "source": "Washington Post",
+      "url": "https://www.washingtonpost.com/technology/2026/10/06/trump-steers-nearly-7b-shipbuilding-deal-with-weapons-maker-anduril/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "정부가 방산 스타트업을 통해 잠수함 생산 역량 확충에 나섰다.",
+        "what": "트럼프 대통령이 안두릴의 볼티모어 잠수함 조선소 거래를 발표했다. 안두릴 투자 37억 달러와 해군 계약 29억 달러를 합쳐 약 70억 달러 규모다.",
+        "points": [
+          "안두릴 37억 달러 투자",
+          "스패로스 포인트 200만 제곱피트 조선소",
+          "해군, 생산 성과 연동 29억 달러 별도 계약"
+        ],
+        "why": [
+          "미국 조선 산업 재건 정책의 상징적 거래",
+          "TLDR 메인판에도 안두릴 조선 소식이 실림"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-ai-search-costing-publishers",
+      "title": "AI 검색이 퍼블리셔 트래픽을 갉아먹고 있다는 증거",
+      "summary": "AI Overviews가 외부 오가닉 클릭을 39.8% 줄였지만, AI 추천 트래픽은 기존 검색량에 비해 미미하다.",
+      "source": "Digital Content Next",
+      "url": "https://digitalcontentnext.org/blog/2026/10/05/the-evidence-is-clear-ai-search-is-costing-publishers/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI Overviews로 오가닉 클릭 39.8% 감소, AI 유입이 이를 메우지 못한다.",
+        "what": "Digital Content Next는 AI 검색이 퍼블리셔에 실질적 손실을 주고 있다는 증거를 정리했다. AI Overviews가 외부로 나가는 오가닉 클릭을 39.8% 줄였고, AI 챗봇 등에서 오는 추천 트래픽은 전통 검색량에 비하면 무시할 수준이다.",
+        "points": [
+          "AI Overviews로 외부 오가닉 클릭 39.8% 감소",
+          "AI 추천 트래픽은 전통 검색 대비 미미",
+          "퍼블리셔 트래픽 모델에 구조적 압박"
+        ],
+        "why": [
+          "검색 유입 의존 콘텐츠 마케팅의 ROI 재점검 필요",
+          "AEO 등 새 가시성 전략 수요의 배경"
+        ]
+      }
+    },
+    {
+      "id": "marketing-tiktok-agent-checkout",
+      "title": "TikTok, 에이전트 체크아웃 경쟁에 합류",
+      "summary": "TikTok이 대화형 상품 에이전트 Shopping Assistant와 피드 내 원클릭 결제 Buy Direct를 구글의 커머스 프로토콜 기반으로 미국에서 테스트 중이다.",
+      "source": "Forkast",
+      "url": "https://forkast.news/tiktoks-agent-checkout-enters-the-race-inside-the-feed-not-on-the-merchant-site/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "구매가 판매자 사이트가 아닌 TikTok 피드 안에서 끝나기 시작한다.",
+        "what": "TikTok이 대화형 상품 추천 에이전트인 Shopping Assistant와 피드 안에서 원클릭으로 결제하는 Buy Direct를 출시했다. 두 기능은 구글의 커머스 프로토콜을 사용하며 미국에서 테스트 중이다.",
+        "points": [
+          "Shopping Assistant: 대화형 상품 에이전트",
+          "Buy Direct: 피드 내 원클릭 결제",
+          "구글 커머스 프로토콜 사용, 미국 테스트"
+        ],
+        "why": [
+          "브랜드 자사몰 대신 플랫폼 내 전환이 늘며 고객 데이터 접점 축소 가능",
+          "에이전트 커머스 표준 경쟁이 소셜로 확장"
+        ]
+      }
+    },
+    {
+      "id": "marketing-remote-vs-in-person-sales",
+      "title": "원격 영업과 대면 영업, 언제 무엇을 택할까",
+      "summary": "미팅 형식의 효과는 제품 복잡도에 따라 달라진다. 단순 제품은 대면에서 37.9%의 성과를 보이고, 복잡한 영업은 초기에 강한 개인적 유대가 필요하다.",
+      "source": "Science Says",
+      "url": "https://app.sciencesays.com/p/when-to-do-sales-remotely-vs-in-person?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "제품 복잡도에 따라 영업 미팅 형식을 달리해야 한다.",
+        "what": "Science Says가 영업 미팅을 원격으로 할지 대면으로 할지에 대한 연구를 정리했다. 효과는 제품 복잡도에 좌우되며, 단순 제품은 대면 시 37.9%의 비율을 보였고 복잡한 영업은 초기 단계에서 더 강한 개인적 연결이 필요하다.",
+        "points": [
+          "미팅 형식의 효과는 제품 복잡도에 의존",
+          "단순 제품 대면 비율 37.9%",
+          "복잡한 영업은 초기 대면 관계 구축이 중요"
+        ],
+        "why": [
+          "영업 리소스 배분과 출장 비용 결정의 근거"
+        ]
+      }
+    },
+    {
+      "id": "marketing-optimize-content-for-chatgpt",
+      "title": "기존 콘텐츠를 ChatGPT에 최적화하는 5가지 팁",
+      "summary": "답을 먼저 제시하고, 직접적인 문장을 쓰고, 경쟁사를 명시하고, 헤더를 질문형으로 바꾸고, 새 데이터로 갱신하라.",
+      "source": "LinkedIn",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7512844858777120768/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "새 글보다 기존 페이지 재최적화로 AI 답변 노출을 노려라.",
+        "what": "ChatGPT 등 AI 답변에 인용되도록 기존 페이지를 재최적화하는 다섯 가지 방법이다. 답을 서두에 두고, 직설적인 문장을 쓰며, 경쟁사를 이름으로 언급하고, 헤더를 질문형으로 바꾸고, 새 데이터로 콘텐츠를 갱신하라는 것이다.",
+        "points": [
+          "답변을 서두에 배치",
+          "직설적 문장 사용, 경쟁사 명시",
+          "헤더를 질문형으로 전환",
+          "최신 데이터로 정기 갱신"
+        ],
+        "why": [
+          "적은 비용으로 AEO 성과를 낼 수 있는 실무 체크리스트"
+        ]
+      }
+    },
+    {
+      "id": "marketing-seo-ai-brand-search",
+      "title": "AI 기반 브랜드 검색을 위한 4가지 SEO 전략",
+      "summary": "구글이 브랜드 검색의 약 80%에 AI Overviews를 노출하는 만큼, 자사 채널 메시지를 일관되게 유지하고 AI 답변을 형성하는 경쟁사를 모니터링하라.",
+      "source": "LinkedIn (Chris Long)",
+      "url": "https://www.linkedin.com/posts/chris-long-marketing_google-has-massively-increased-the-number-share-7512871595363749888-kuU2/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "브랜드 검색의 약 80%가 AI Overviews로 덮이며 브랜드 서사 관리가 필수가 됐다.",
+        "what": "Chris Long은 구글이 브랜드 검색의 약 80%에 AI Overviews를 보여주고 있다고 지적한다. 이에 따라 자사 채널 전반에서 메시지를 일관되게 유지하고, AI 답변 내용을 좌우하는 경쟁사를 모니터링하는 전략이 필요하다.",
+        "points": [
+          "브랜드 검색의 약 80%에 AI Overviews 노출",
+          "자사 채널 간 메시지 일관성 유지",
+          "AI 답변에 영향 주는 경쟁사 모니터링"
+        ],
+        "why": [
+          "자기 브랜드 검색 결과조차 AI가 요약하는 시대의 평판 관리"
+        ]
+      }
+    },
+    {
+      "id": "marketing-great-experiment-plan",
+      "title": "좋은 실험 계획서 작성법",
+      "summary": "효과적인 실험에는 근거 기반 가설, 단일 핵심 지표, 사전 정의된 중단 규칙, 트래픽 검증이 필요하며 형식적 절차는 불필요하다.",
+      "source": "PLG News",
+      "url": "https://www.plg.news/p/how-to-write-a-great-experiment-plan-2e4?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "실험은 의례가 아니라 가설·지표·중단 규칙으로 승부한다.",
+        "what": "PLG News가 좋은 실험 계획서의 요건을 정리했다. 근거에 기반한 가설, 하나의 핵심 지표, 미리 정한 중단 규칙, 충분한 트래픽 검증이 핵심이며 형식적인 절차는 오히려 방해가 된다.",
+        "points": [
+          "근거 기반 가설 수립",
+          "단일 핵심 지표 설정",
+          "사전 정의된 중단 규칙",
+          "트래픽 충분성 사전 검증"
+        ],
+        "why": [
+          "A/B 테스트 결과 오판을 줄이는 기본 원칙"
+        ]
+      }
+    },
+    {
+      "id": "marketing-seo-audit-console-mcp",
+      "title": "SEO Audit Console: Claude용 기술 SEO 감사 MCP 서버",
+      "summary": "Claude 안에서 99가지 기술 점검을 수행하고, 회복 가능한 클릭 기준으로 수정 우선순위를 매기며 301 리다이렉트 같은 실행 가능한 해결책을 제시하는 오픈소스 MCP 서버.",
+      "source": "GitHub",
+      "url": "https://github.com/houtini-ai/seo-audit?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "Claude에서 바로 쓰는 99항목 기술 SEO 감사 도구.",
+        "what": "houtini-ai가 공개한 오픈소스 MCP 서버로, Claude 안에서 99가지 기술 SEO 점검을 실행한다. 회복 가능한 클릭 수를 기준으로 수정 우선순위를 정하고 301 리다이렉트 등 구체적인 해결책을 생성한다.",
+        "points": [
+          "오픈소스 MCP 서버, Claude에서 실행",
+          "99가지 기술 SEO 점검",
+          "회복 가능 클릭 기준 우선순위화",
+          "301 리다이렉트 등 실행 가능한 수정안 생성"
+        ],
+        "why": [
+          "SEO 감사를 AI 에이전트 워크플로에 편입하는 사례"
+        ]
+      }
+    },
+    {
+      "id": "marketing-follower-count-nielsen-box",
+      "title": "Adam Harris: 팔로워 수는 새로운 닐슨 박스다",
+      "summary": "동영상 조회의 70%가 비팔로워에게서 나오며, 마이크로 크리에이터는 참여도에서, 매크로 크리에이터는 인지도에서 강점을 보인다.",
+      "source": "NetInfluencer",
+      "url": "https://www.netinfluencer.com/adam-harris-on-why-follower-count-is-the-new-nielsen-box/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "조회의 70%가 비팔로워에서 나오는 시대, 팔로워 수는 낡은 지표다.",
+        "what": "Adam Harris는 팔로워 수가 과거 닐슨 시청률 박스처럼 낡은 지표가 됐다고 주장한다. 동영상 조회의 70%가 비팔로워에게서 발생하며, 마이크로 크리에이터는 참여도에서 앞서고 매크로 크리에이터는 인지도 목적에 적합하다.",
+        "points": [
+          "동영상 조회의 70%가 비팔로워에서 발생",
+          "마이크로 크리에이터가 참여도에서 우위",
+          "매크로 크리에이터는 인지도 목적에 적합"
+        ],
+        "why": [
+          "인플루언서 선정 기준을 팔로워 수에서 목적별 지표로 바꿔야 함"
+        ]
+      }
+    },
+    {
+      "id": "marketing-operator-creator-double-life",
+      "title": "오퍼레이터 겸 크리에이터로 살아남는 법",
+      "summary": "직장과 크리에이터 역할을 병행하려면 고용주·오디언스·스폰서에게 투명하게 공개하고, 오디언스 소유권을 유지하며 본업을 우선해야 한다.",
+      "source": "Elena Verna",
+      "url": "https://www.elenaverna.com/p/how-to-survive-a-double-life-as-an?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "본업과 크리에이터 활동 병행의 핵심은 투명한 공개다.",
+        "what": "Elena Verna가 회사 업무와 크리에이터 활동을 병행하는 방법을 공유했다. 고용주, 오디언스, 스폰서 모두에게 투명하게 밝히고, 오디언스 소유권은 본인이 유지하며, 업무 의무를 우선순위에 두라는 조언이다.",
+        "points": [
+          "고용주·오디언스·스폰서에 투명하게 공개",
+          "오디언스 소유권 유지",
+          "본업 의무를 우선"
+        ],
+        "why": [
+          "마케터의 개인 브랜딩이 일반화되며 이해상충 관리가 중요해짐"
+        ]
+      }
+    },
+    {
+      "id": "marketing-llm-watermarking-aeo",
+      "title": "LLM이 조용히 AI 콘텐츠에 워터마크를 넣고 있다, 이제 어떻게 할까",
+      "summary": "AI 연구소들이 생성 단계에서 콘텐츠에 워터마크를 넣고 있으며, 모델이 학습 데이터에서 생성 콘텐츠를 걸러낼 경우 AEO 가시성에 영향이 우려된다.",
+      "source": "Matthew Henderson",
+      "url": "https://hendersonmatthew.substack.com/p/watermarked-content-aeo-impact?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI로 쓴 콘텐츠가 워터마크로 식별되면 AI 답변 노출에서 불리해질 수 있다.",
+        "what": "AI 연구소들이 생성 과정에서 콘텐츠에 은밀히 워터마크를 삽입하고 있다는 분석이다. 모델이 학습 데이터에서 AI 생성 콘텐츠를 걸러내기 시작하면 해당 콘텐츠의 AEO 가시성이 떨어질 수 있다는 우려를 제기한다.",
+        "points": [
+          "AI 연구소가 생성 시점에 워터마크 삽입",
+          "학습 데이터에서 AI 생성물 필터링 가능성",
+          "AEO 가시성 저하 우려"
+        ],
+        "why": [
+          "AI로 대량 생산한 콘텐츠 전략의 숨은 리스크",
+          "같은 날 OpenAI의 EU 워터마크 도입 소식과 맞물림"
+        ]
+      }
+    },
+    {
+      "id": "marketing-halloween-email-examples",
+      "title": "캠페인 영감을 위한 작년 핼러윈 이메일 10선",
+      "summary": "Uber, Rest, TUSHY 등의 사례로 시즌 이메일 캠페인 아이디어를 제공한다.",
+      "source": "Email Love",
+      "url": "https://emaillove.com/halloween-email-examples-to-inspire-your-campaigns?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "핼러윈 시즌 이메일 캠페인 레퍼런스 모음.",
+        "what": "Email Love가 지난해 핼러윈 시즌에 발송된 이메일 10개를 모았다. Uber, Rest, TUSHY 등의 사례가 포함돼 시즌 캠페인 기획에 참고할 수 있다.",
+        "points": [
+          "작년 핼러윈 이메일 10개 사례",
+          "Uber, Rest, TUSHY 등 포함",
+          "시즌 캠페인 기획용 레퍼런스"
+        ],
+        "why": [
+          "10월 시즌 캠페인 준비에 즉시 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "marketing-semrush-5-ways-edit-drafts",
+      "title": "연간 115편 이상 편집하는 에디터의 5가지 초안 편집법",
+      "summary": "Semrush 시니어 에디터가 팩트체크부터 종합 피드백까지 대량 콘텐츠 생산을 위한 편집 방법론을 공유한다.",
+      "source": "Semrush Blog",
+      "url": "https://www.semrush.com/blog/my-editing-approaches-framework/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "대량 콘텐츠 팀을 위한 실전 편집 프레임워크.",
+        "what": "Semrush의 시니어 에디터가 연간 115편 이상의 글을 편집하며 쓰는 다섯 가지 방식을 소개한다. 팩트체크부터 종합적인 피드백까지 대량 콘텐츠 생산 환경에 맞춘 방법론이다.",
+        "points": [
+          "연간 115편+ 편집 경험 기반",
+          "팩트체크부터 종합 피드백까지 단계별 접근",
+          "대량 생산 환경에 맞춘 프레임워크"
+        ],
+        "why": [
+          "콘텐츠 품질 관리 프로세스 정립에 참고"
+        ]
+      }
+    }
+  ]
+}

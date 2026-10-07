@@ -1,0 +1,279 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-everyone-building-same-thing",
+      "title": "모두가 같은 것을 만들고 있다",
+      "summary": "AI 스타트업들이 비슷한 에이전트 루프, 메모리, 커넥터, 샌드박스로 수렴하고 있으며 이는 2005년 웹 기업들과 닮았다. 해결한 고객 문제 대신 기본 인프라를 경쟁우위로 내세우는 것이 문제라는 지적이다.",
+      "source": "Angular Ventures",
+      "url": "https://newsletter.angularventures.com/p/everyone-is-building-the-same-thing?utm_source=tldrfounders",
+      "report": {
+        "tldr": "인프라가 아니라 해결한 고객 문제가 차별점이어야 한다.",
+        "what": "Angular Ventures가 AI 스타트업들이 에이전트 루프, 메모리 시스템, 커넥터, 샌드박스 등 같은 구성요소를 만들고 있다고 지적했다. 2005년 웹 기업들처럼 기본 인프라를 경쟁력으로 포장하는 경향을 우려한다.",
+        "points": [
+          "에이전트 루프·메모리·커넥터·샌드박스로 수렴",
+          "2005년 웹 기업과 유사",
+          "인프라를 해자로 포장하는 문제"
+        ],
+        "why": [
+          "AI 스타트업 포지셔닝과 투자 판단에서 차별화 기준을 재점검하게 한다"
+        ]
+      }
+    },
+    {
+      "id": "founders-ramp-ai-provider-switching",
+      "title": "기업들의 AI 모델 공급사 교체가 잦아지고 있다",
+      "summary": "Ramp 데이터에 따르면 공급사를 바꾼 기업의 월간 비중(3개월 평균)이 9월 사상 최고인 8%에 달했다. Anthropic과 OpenAI 간 경쟁 속 AI 모델의 범용화를 시사한다.",
+      "source": "Ramp",
+      "url": "https://ramp.com/data/businesses-are-changing-ai-model-providers-more-often?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 공급사 교체율이 사상 최고 8%로 모델 범용화 신호다.",
+        "what": "Ramp가 자사 지출 데이터를 분석한 결과, AI 모델 공급사를 바꾸는 기업의 월간 비중(3개월 평균)이 9월 8%로 사상 최고를 기록했다. Anthropic과 OpenAI 경쟁 심화 속에서 모델이 범용화되고 있을 수 있다.",
+        "points": [
+          "9월 월간 교체 비율 8%(3개월 평균), 사상 최고",
+          "Ramp 지출 데이터 기반",
+          "Anthropic·OpenAI 경쟁 심화"
+        ],
+        "why": [
+          "모델 종속을 피하는 멀티 프로바이더 설계가 합리적임을 뒷받침한다",
+          "모델 공급사의 가격·락인 전략에 압력이 된다"
+        ]
+      }
+    },
+    {
+      "id": "founders-platforms-still-best",
+      "title": "플랫폼은 (여전히) 최고의 비즈니스다",
+      "summary": "고객 간 직접 상호작용을 가능하게 하는 플랫폼은 높은 수익성과 방어력을 갖는다. 네트워크 효과와 자산 경량 구조로 뛰어난 투하자본수익률을 낸다.",
+      "source": "Platform Chronicles",
+      "url": "https://platformchronicles.substack.com/p/platforms-are-still-the-best-businesses?utm_source=tldrfounders",
+      "report": {
+        "tldr": "네트워크 효과와 자산 경량 구조가 플랫폼의 높은 ROIC를 만든다.",
+        "what": "Platform Chronicles는 고객 간 직접 거래·상호작용을 중개하는 플랫폼 비즈니스가 여전히 가장 수익성과 방어력이 높다고 주장한다. 네트워크 효과와 자산 경량 구조가 높은 투하자본수익률로 이어진다.",
+        "points": [
+          "고객 간 직접 상호작용 중개",
+          "네트워크 효과에 의한 방어력",
+          "자산 경량 → 높은 ROIC"
+        ],
+        "why": [
+          "AI 시대에도 플랫폼형 모델의 구조적 우위를 상기시킨다"
+        ]
+      }
+    },
+    {
+      "id": "founders-hire-age-of-ai",
+      "title": "AI 시대의 채용 방법",
+      "summary": "AI로 채용 신호를 재고해야 한다는 데는 공감대가 있지만 어떤 신호가 맞는지는 합의가 없다. 이 글은 실험을 통해 후보자의 질을 가늠할 지표를 찾는다.",
+      "source": "X (@jdpruettt)",
+      "url": "https://x.com/jdpruettt/status/2107579719462035889?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 시대 채용 신호는 실험으로 찾아야 한다.",
+        "what": "한 창업자가 AI 때문에 기존 채용 신호가 약해졌지만 대체 신호에 대한 합의는 없다고 지적하며, 실험을 통해 후보자 품질을 보여주는 지표를 찾는 과정을 공유했다.",
+        "points": [
+          "채용 신호 재고에는 공감대",
+          "대체 신호에 대한 합의 부재",
+          "실험 기반 접근"
+        ],
+        "why": [
+          "AI 도구 사용이 보편화되며 이력서·과제 평가의 변별력이 떨어지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "founders-gtm-in-git",
+      "title": "GTM을 git에 넣어라",
+      "summary": "GTM 운영을 git에 두면 에이전트가 이를 이해·추론하고, 변경을 테스트하며 확장할 수 있다. 평가(eval)로 일관성을 유지하며 문제 조사와 실행까지 에이전트가 돕는다.",
+      "source": "X (@JohnKutay)",
+      "url": "https://x.com/JohnKutay/status/2106823335523058108?utm_source=tldrfounders",
+      "report": {
+        "tldr": "GTM을 코드처럼 관리하면 에이전트가 운영할 수 있다.",
+        "what": "John Kutay는 영업·마케팅(GTM) 운영 정의를 git에 저장하면 에이전트가 시스템을 이해하고 변경을 테스트하며 문제를 조사·실행할 수 있다고 제안한다. 일관성은 평가로 유지한다.",
+        "points": [
+          "GTM 운영을 git으로 관리",
+          "에이전트의 추론·테스트·확장 가능",
+          "eval로 일관성 유지"
+        ],
+        "why": [
+          "'코드로서의 운영'이 엔지니어링 밖 조직으로 확장되는 흐름이다"
+        ]
+      }
+    },
+    {
+      "id": "founders-competitor-raised-millions",
+      "title": "경쟁사가 거액을 투자받은 주에 해야 할 일",
+      "summary": "경쟁사의 투자 소식에 전략을 바꾸기 전에 그들의 지출 약속과 필요한 성장률을 분석하라는 조언이다. 10개 AI 분야를 조사한 결과 가장 많이 투자받은 회사가 선두인 경우는 3곳뿐이었고, 그중 2곳은 대형 투자 전부터 앞서 있었다.",
+      "source": "Venture Curator",
+      "url": "https://www.venturecurator.com/p/competitor-raised-funding-what-to-do?utm_source=tldrfounders",
+      "report": {
+        "tldr": "가장 많이 투자받은 회사가 이기는 경우는 생각보다 드물다.",
+        "what": "Venture Curator는 경쟁사 투자 발표에 바로 반응하지 말고 그들이 감당해야 할 지출과 성장률부터 분석하라고 조언한다. 10개 AI 카테고리 조사에서 최다 투자 기업이 선두인 곳은 3개였고 그중 2개는 대형 투자 전부터 앞서 있었다.",
+        "points": [
+          "경쟁사의 지출 약속·필요 성장률 분석",
+          "10개 AI 카테고리 조사",
+          "최다 투자 기업이 선두인 곳 3곳",
+          "그중 2곳은 대형 투자 전부터 선두"
+        ],
+        "why": [
+          "자금 규모보다 실행과 시장 위치가 승부를 가른다는 근거가 된다"
+        ]
+      }
+    },
+    {
+      "id": "founders-higgsfield-ads-studio",
+      "title": "Higgsfield Ads Studio",
+      "summary": "웹사이트 링크를 붙여넣으면 해당 분야에서 전환이 잘 되는 방식에 맞춘 정적 광고를 자동 생성하는 도구다. 로고, 색상, 톤, 셀링 포인트를 생성 전에 조정할 수 있다.",
+      "source": "Higgsfield",
+      "url": "https://higgsfield.ai/ads-studio-intro?utm_source=tldrfounders",
+      "report": {
+        "tldr": "URL만으로 업종 맞춤 정적 광고를 자동 생성한다.",
+        "what": "Higgsfield가 웹사이트 링크를 입력하면 제품에 맞는 정적 광고를 자동으로 만들어주는 Ads Studio를 소개했다. 해당 니치에서 전환되는 패턴을 반영하며 로고·색상·톤·셀링 포인트를 커스터마이즈할 수 있다.",
+        "points": [
+          "URL 입력으로 광고 자동 생성",
+          "니치별 전환 패턴 반영",
+          "로고·색상·톤·셀링 포인트 조정"
+        ],
+        "why": [
+          "초기 스타트업의 광고 크리에이티브 제작 비용을 낮춘다"
+        ]
+      }
+    },
+    {
+      "id": "founders-claude-google-workspace",
+      "title": "Claude, Google 문서·시트·슬라이드와 연동",
+      "summary": "Claude for Google Workspace가 모든 유료 플랜에서 공개 베타로 출시됐다. Google 파일 안에서 Claude를 바로 쓰고, 새 커넥터로 Claude에서 Google 파일을 생성·편집할 수 있다.",
+      "source": "Anthropic",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Claude가 Google Workspace 안으로 들어갔다.",
+        "what": "Anthropic이 Claude for Google Workspace를 모든 유료 플랜 대상 공개 베타로 출시했다. Google Docs·Sheets·Slides 안에서 Claude와 직접 상호작용할 수 있고, 새 커넥터로 Claude에서 Google 파일을 만들고 편집할 수 있다.",
+        "points": [
+          "모든 유료 플랜 공개 베타",
+          "Docs·Sheets·Slides 내 직접 사용",
+          "커넥터로 Google 파일 생성·편집"
+        ],
+        "why": [
+          "업무 도구 내 AI 통합 경쟁에서 Google의 Gemini와 정면으로 맞선다"
+        ]
+      }
+    },
+    {
+      "id": "founders-inference-most-important-market",
+      "title": "추론은 소프트웨어에서 가장 중요한 시장이다",
+      "summary": "Tom Tunguz는 AI 추론 시장이 2027년 3,500억 달러로 데이터베이스 시장의 두 배가 될 것으로 본다. 사용 비용 증가, SaaS 마진 축소, 인프라의 핵심 원가화로 효율 최적화가 필수가 된다.",
+      "source": "Tom Tunguz",
+      "url": "https://tomtunguz.com/inference-is-the-most-important-market-in-software/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "2027년 3,500억 달러 추론 시장이 SaaS 마진 구조를 바꾼다.",
+        "what": "Tom Tunguz는 AI 추론 시장이 2027년 3,500억 달러로 데이터베이스 시장의 두 배 규모가 될 것으로 전망했다. 이로 인해 사용 비용이 늘고 SaaS 마진이 줄며 인프라가 핵심 매출원가가 된다.",
+        "points": [
+          "2027년 3,500억 달러 전망",
+          "DB 시장의 두 배",
+          "SaaS 마진 축소·인프라의 COGS화",
+          "효율 최적화가 혁신 동력"
+        ],
+        "why": [
+          "AI 제품의 가격 책정과 단위 경제성 설계에 직접 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "founders-agents-network-effects",
+      "title": "에이전트에도 네트워크 효과가 생길까?",
+      "summary": "Andrew Chen은 에이전트끼리 이메일을 주고받는 데 같은 플랫폼이 필요하지 않다는 점에서 소셜 네트워크와 다르다고 본다. 공유 콘텐츠, 사용자를 끄는 이벤트 사이트, 신뢰할 상대를 찾는 평판 시스템에서 네트워크 효과가 생길 수 있다.",
+      "source": "Andrew Chen",
+      "url": "https://andrewchen.substack.com/p/will-agents-have-network-effects?utm_source=tldrfounders",
+      "report": {
+        "tldr": "에이전트의 네트워크 효과는 평판·공유 콘텐츠에서 나올 수 있다.",
+        "what": "Andrew Chen이 AI 에이전트에 네트워크 효과가 생길지 분석했다. 에이전트는 같은 플랫폼 없이도 이메일 등으로 통신하므로 소셜 네트워크와 다르지만, 공유 콘텐츠·이벤트 사이트·평판 시스템에서 효과가 생길 수 있다고 본다.",
+        "points": [
+          "동일 플랫폼 불필요 → 기존 소셜 네트워크와 다름",
+          "공유 콘텐츠·이벤트 사이트",
+          "신뢰 상대를 찾는 평판 시스템"
+        ],
+        "why": [
+          "에이전트 제품의 해자 설계 방향을 고민하게 한다"
+        ]
+      }
+    },
+    {
+      "id": "founders-awkward-adolescence",
+      "title": "어색한 사춘기",
+      "summary": "Alfred Lin은 신발을 신어보지 않고 살 사람이 있겠냐는 의심 덕분에 Zappos가 약 5년간 거의 경쟁 없이 성장했다고 회고한다.",
+      "source": "X (@Alfred_Lin)",
+      "url": "https://x.com/Alfred_Lin/status/2107469398319722813?utm_source=tldrfounders",
+      "report": {
+        "tldr": "시장의 의심은 초기 스타트업에게 경쟁 공백을 준다.",
+        "what": "Sequoia의 Alfred Lin이 Zappos 사례를 들어, 고객이 신어보지 않고 신발을 살지 의심받던 시기에 약 5년간 경쟁이 거의 없었다고 설명했다.",
+        "points": [
+          "Zappos 사례",
+          "약 5년간 경쟁 미미",
+          "시장의 회의론이 진입장벽 역할"
+        ],
+        "why": [
+          "회의론이 큰 시장일수록 초기 진입자에게 기회가 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "founders-founder-raw-determination",
+      "title": "창업자 성공의 최고 예측 변수는 순수한 결단력",
+      "summary": "100명 이상의 성공한 창업자를 분석해 이전의 실패, 거절 경험, 핵심 직원·고객을 잃은 뒤에도 낙관을 유지하는 것 등 7가지 결단력 지표를 찾았다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2107216485898760238.html?utm_source=tldrfounders",
+      "report": {
+        "tldr": "투자자가 본 최고의 성공 예측 변수는 결단력이다.",
+        "what": "100명 이상의 성공 창업자를 분석한 스레드가 결단력을 가장 강력한 성공 예측 변수로 꼽고, 과거 실패, 거절 경험, 핵심 인력·고객 이탈 후의 낙관 유지 등 7가지 지표를 제시했다.",
+        "points": [
+          "100명+ 성공 창업자 분석",
+          "7가지 결단력 지표",
+          "실패·거절 경험, 역경 속 낙관"
+        ],
+        "why": [
+          "창업자 평가 시 이력보다 역경 대응을 보라는 시사점"
+        ]
+      }
+    },
+    {
+      "id": "founders-more-warm-bodies",
+      "title": "더 많은 사람이 필요하다",
+      "summary": "AI가 일상 업무를 맡으면서, 최고 성과자가 기존 플레이북 대비 무엇을 해냈는지를 보면 인간의 가치가 남는 지점을 알 수 있다고 제안한다.",
+      "source": "Nikunj Kothari",
+      "url": "https://writing.nikunjk.com/p/more-warm-bodies?utm_source=tldrfounders",
+      "report": {
+        "tldr": "플레이북을 넘어선 성과가 AI 시대 인간의 가치다.",
+        "what": "Nikunj Kothari는 AI가 반복 업무를 가져가는 상황에서 역할을 평가할 때 최고 성과자가 정해진 플레이북 이상으로 무엇을 이뤘는지 보면 사람이 계속 가치를 갖는 영역을 알 수 있다고 주장한다.",
+        "points": [
+          "AI가 루틴 업무 흡수",
+          "최고 성과자의 플레이북 초과 성과 분석",
+          "인간 가치가 남는 영역 식별"
+        ],
+        "why": [
+          "AI 시대 조직 설계와 채용 우선순위 결정에 참고할 프레임이다"
+        ]
+      }
+    },
+    {
+      "id": "founders-revenuecat-apple-retention-messaging",
+      "title": "Apple 리텐션 메시징 초기 벤치마크(2,200만 건)",
+      "summary": "RevenueCat이 309개 앱을 분석한 결과, 구독 해지 화면에서 할인 수락률은 0.68%, 플랜 변경 수락률은 0.52%에 그쳤다. 초기 데이터상 해지율에 측정 가능한 영향은 없었다.",
+      "source": "RevenueCat",
+      "url": "https://www.revenuecat.com/blog/growth/apple-retention-messaging-benchmarks?utm_source=tldrfounders",
+      "report": {
+        "tldr": "해지 화면 할인 제안의 효과는 사실상 없었다.",
+        "what": "RevenueCat이 309개 앱, 2,200만 건의 Apple 리텐션 메시지를 분석했다. 해지 화면 할인 수락은 0.68%, 플랜 전환은 0.52%였고 초기 데이터로는 해지율에 측정 가능한 효과가 없었다.",
+        "points": [
+          "309개 앱, 2,200만 메시지",
+          "할인 수락 0.68%",
+          "플랜 전환 0.52%",
+          "해지율에 측정 가능한 효과 없음"
+        ],
+        "why": [
+          "구독 앱은 해지 직전 할인보다 근본적 리텐션 전략에 집중해야 한다"
+        ]
+      }
+    }
+  ]
+}

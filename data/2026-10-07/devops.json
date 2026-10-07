@@ -1,0 +1,239 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-gcp-ai-infra-september",
+      "title": "Google Cloud 9월 AI 인프라·오케스트레이션 업데이트",
+      "summary": "Google Cloud는 샌드박스 밀도를 10배 높인 GKE Agent Substrate, 추론 시작 시간을 89% 줄인 Pod 스냅샷, 멀티클러스터 Inference Gateway와 새 스토리지 옵션을 발표했다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/whats-new-in-ai-infrastructure-this-month/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "GKE가 에이전트·추론 워크로드에 최적화되고 있다.",
+        "what": "Google Cloud가 9월 AI 인프라 업데이트를 정리했다. GKE Agent Substrate(샌드박스 밀도 10배), Pod 스냅샷(추론 시작 89% 단축), 멀티클러스터 Inference Gateway, 신규 스토리지 옵션이 포함됐다.",
+        "points": [
+          "GKE Agent Substrate: 샌드박스 밀도 10배",
+          "Pod 스냅샷: 추론 시작 89% 단축",
+          "멀티클러스터 Inference Gateway",
+          "신규 스토리지 옵션"
+        ],
+        "why": [
+          "에이전트 샌드박스와 추론 콜드스타트가 클라우드 경쟁의 핵심이 됐다"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-birthday-week-2026",
+      "title": "Cloudflare 생일 주간 2026 발표 총정리",
+      "summary": "Cloudflare는 생일 주간에 46건을 발표했다. 새 CLI 도구 cf, 오픈소스 Forge 파이프라인, 양자내성 암호 대비, 베타 Monetization Gateway 등이 포함됐다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/birthday-week-2026-wrap-up/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Cloudflare가 46개 발표로 개발자 도구와 보안을 확장했다.",
+        "what": "Cloudflare가 Birthday Week 2026 동안 발표한 46건을 정리했다. 새 CLI 'cf', 오픈소스 Forge 파이프라인, 양자내성 암호 전환 준비, 베타 Monetization Gateway 등이 나왔다.",
+        "points": [
+          "총 46건 발표",
+          "새 CLI 도구 cf",
+          "오픈소스 Forge 파이프라인",
+          "양자내성 암호 준비·Monetization Gateway 베타"
+        ],
+        "why": [
+          "엣지 플랫폼이 개발자 워크플로와 수익화 영역까지 넓히고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-k8s-node-swap",
+      "title": "노드 스왑으로 Kubernetes 워크로드 확장하기",
+      "summary": "Kubernetes의 스왑 활성 노드 지원은 v1.34에서 GA가 됐다. 로컬 SSD로 오프로드해 최대 3배의 밀도 향상을 얻을 수 있다.",
+      "source": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/10/05/scaling-kubernetes-workloads-with-node-swap/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "GA된 노드 스왑으로 노드 밀도를 최대 3배 높일 수 있다.",
+        "what": "Kubernetes 블로그가 v1.34에서 GA된 노드 스왑 기능 활용법을 소개했다. 메모리를 로컬 SSD로 오프로드하면 워크로드 밀도를 최대 3배까지 높일 수 있다.",
+        "points": [
+          "v1.34에서 스왑 지원 GA",
+          "로컬 SSD 오프로딩",
+          "최대 3배 밀도 향상"
+        ],
+        "why": [
+          "메모리 비용을 줄이며 노드당 워크로드를 늘릴 선택지가 생겼다"
+        ]
+      }
+    },
+    {
+      "id": "devops-elastic-banks-ai-agents",
+      "title": "AI 에이전트가 몰려올 때 은행은 따라갈 수 있을까",
+      "summary": "Elastic은 은행이 자율 AI 에이전트 리스크를 관리하려면 로그·메트릭·트레이스·감사 기록을 아우르는 통합 관측성이 필요하다고 주장한다. 인간 판단과 자동화의 결합도 강조한다.",
+      "source": "Elastic Blog",
+      "url": "https://www.elastic.co/blog/banks-ai-agents-visibility?utm_source=tldrdevops",
+      "report": {
+        "tldr": "에이전트 시대 금융권엔 통합 관측성과 감사 추적이 필수다.",
+        "what": "Elastic이 은행권의 AI 에이전트 도입에 따른 위험 관리 방안을 다뤘다. 로그, 메트릭, 트레이스, 감사 추적을 통합한 관측성과, 인간 판단과 자동화의 결합이 필요하다고 제시한다.",
+        "points": [
+          "로그·메트릭·트레이스·감사 추적 통합",
+          "자율 에이전트 리스크 관리",
+          "인간 판단 + 자동화 결합"
+        ],
+        "why": [
+          "규제 산업의 에이전트 도입에서 관측성이 거버넌스 수단이 된다"
+        ]
+      }
+    },
+    {
+      "id": "devops-gcp-hardening-cicd",
+      "title": "코드 파이프라인과 CI/CD 인프라 보안 강화",
+      "summary": "Google Cloud 위협 인텔리전스 팀은 임시 러너, 단기 OIDC 자격 증명, 불변 의존성 참조, 출처(provenance) 검증으로 공급망 보안을 강화하라고 권고한다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/hardening-code-pipelines-and-ci-cd-infrastructure?utm_source=tldrdevops",
+      "report": {
+        "tldr": "CI/CD는 임시 러너·단기 자격증명·불변 참조로 방어해야 한다.",
+        "what": "Google Cloud 위협 인텔리전스가 코드 파이프라인과 CI/CD 인프라 보안 강화 지침을 발표했다. 임시 러너, 짧은 수명의 OIDC 자격 증명, 불변 의존성 참조, 출처 검증을 핵심으로 제시한다.",
+        "points": [
+          "임시(ephemeral) 러너",
+          "단기 OIDC 자격 증명",
+          "불변 의존성 참조",
+          "provenance 검증"
+        ],
+        "why": [
+          "CI/CD가 공급망 공격의 주요 표적이 된 상황에서 실무 체크리스트가 된다"
+        ]
+      }
+    },
+    {
+      "id": "devops-rea-agent-reverse-engineering",
+      "title": "Rea: 소스 없이 앱 기능을 조사하는 AI 에이전트",
+      "summary": "Rea는 소스 코드 없이 JavaScript, Electron, .NET, 네이티브 바이너리 앱의 기능을 조사하는 AI 에이전트다. Claude Code와 Cursor를 지원한다.",
+      "source": "GitHub",
+      "url": "https://github.com/morluto/rea?utm_source=tldrdevops",
+      "report": {
+        "tldr": "바이너리만으로 앱 동작을 분석하는 에이전트 도구.",
+        "what": "Rea는 소스 코드 접근 없이 JavaScript, Electron, .NET, 네이티브 바이너리로 된 앱의 기능을 탐색·분석하는 오픈소스 AI 에이전트다. Claude Code, Cursor와 함께 쓸 수 있다.",
+        "points": [
+          "소스 코드 없이 분석",
+          "JS·Electron·.NET·네이티브 바이너리 지원",
+          "Claude Code·Cursor 연동"
+        ],
+        "why": [
+          "레거시·서드파티 앱 분석과 리버스 엔지니어링 비용을 낮춘다"
+        ]
+      }
+    },
+    {
+      "id": "devops-e2e-natural-language-testing",
+      "title": "e2e: 자연어 목표 기반 E2E 테스트 프레임워크",
+      "summary": "e2e는 자연어로 목표를 정하면 AI 에이전트가 앱을 조작해 웹과 모바일 앱을 엔드투엔드 테스트하는 프레임워크다.",
+      "source": "GitHub",
+      "url": "https://github.com/tester-army/e2e?utm_source=tldrdevops",
+      "report": {
+        "tldr": "셀렉터 대신 자연어 목표로 E2E 테스트를 작성한다.",
+        "what": "e2e는 웹·모바일 앱을 대상으로 자연어 목표를 입력하면 AI 에이전트가 직접 앱과 상호작용하며 테스트를 수행하는 오픈소스 프레임워크다.",
+        "points": [
+          "웹·모바일 지원",
+          "자연어 목표 기반",
+          "AI 에이전트가 앱 조작"
+        ],
+        "why": [
+          "깨지기 쉬운 셀렉터 기반 E2E 테스트 유지보수 부담을 줄일 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-k8s-cgroup-v2-shift",
+      "title": "Kubernetes의 cgroup v2 전환: 알아야 할 것",
+      "summary": "Kubernetes v1.35는 기본적으로 cgroup v1 노드에서 kubelet 시작을 거부한다. 커널·런타임 호환성 확인과 모니터링 업데이트가 필요하다.",
+      "source": "Kubernetes Blog",
+      "url": "https://kubernetes.io/blog/2026/10/06/kubernetes-cgroups-v2-shift/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "v1.35부터 cgroup v1 노드는 기본적으로 kubelet이 뜨지 않는다.",
+        "what": "Kubernetes 블로그가 cgroup v2 전환을 안내했다. v1.35는 기본값으로 cgroup v1 노드에서 kubelet 시작을 거부하므로 커널과 컨테이너 런타임 호환성 점검, 모니터링 도구 업데이트가 필요하다.",
+        "points": [
+          "v1.35: cgroup v1 노드에서 kubelet 기본 시작 거부",
+          "커널·런타임 호환성 확인 필요",
+          "모니터링 업데이트 필요"
+        ],
+        "why": [
+          "업그레이드 전 노드 OS 점검을 하지 않으면 클러스터 장애로 이어질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-python-3-15-speed",
+      "title": "Python 3.15는 얼마나 빠를까?",
+      "summary": "Miguel Grinberg의 벤치마크에서 실험적 JIT는 표준 3.15 인터프리터보다 약 20~28% 빨랐다. 프리스레드 빌드는 멀티스레드 워크로드에서 성능 향상을 보였다.",
+      "source": "Miguel Grinberg",
+      "url": "https://blog.miguelgrinberg.com/post/how-fast-is-python-3-15?utm_source=tldrdevops",
+      "report": {
+        "tldr": "3.15의 실험적 JIT가 20~28% 속도 향상을 보였다.",
+        "what": "Miguel Grinberg가 Python 3.15 성능을 측정했다. 실험적 JIT는 표준 인터프리터 대비 약 20~28% 빨랐고, 프리스레드(free-threaded) 빌드는 멀티스레드 작업에서 이득을 보였다.",
+        "points": [
+          "실험적 JIT 20~28% 향상",
+          "프리스레드 빌드의 멀티스레드 이득",
+          "표준 3.15 인터프리터 대비 측정"
+        ],
+        "why": [
+          "CPython JIT가 실사용 성능 개선 단계에 들어서고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-pulumi-gcp-v10",
+      "title": "Pulumi Google Cloud 프로바이더 10.0.0",
+      "summary": "Pulumi가 Google Cloud 프로바이더의 새 메이저 버전 10.0.0을 출시했다.",
+      "source": "Pulumi Blog",
+      "url": "https://www.pulumi.com/blog/gcp-v10-release/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Pulumi GCP 프로바이더 메이저 업데이트.",
+        "what": "Pulumi가 Google Cloud 프로바이더 10.0.0을 발표했다. 메이저 버전 업그레이드다.",
+        "points": [
+          "GCP 프로바이더 v10.0.0",
+          "메이저 버전 릴리스"
+        ],
+        "why": [
+          "메이저 버전이므로 기존 IaC 코드의 호환성 확인이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "devops-openclaw-enterprise",
+      "title": "'에이전트용 Kubernetes' OpenClaw, 엔터프라이즈 진출",
+      "summary": "OpenClaw Enterprise는 Kubernetes에서 AI 에이전트를 관리하는 오픈소스 컨트롤 플레인으로, OpenAI·Nvidia·Red Hat이 지원한다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/openclaw-enterprise-kubernetes-agents/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "대형 업체들이 지원하는 에이전트 오케스트레이션 표준 후보가 등장했다.",
+        "what": "OpenClaw Enterprise가 Kubernetes 위에서 AI 에이전트를 관리하는 오픈소스 컨트롤 플레인으로 출시됐다. OpenAI, Nvidia, Red Hat이 참여했다.",
+        "points": [
+          "오픈소스 에이전트 컨트롤 플레인",
+          "Kubernetes 기반",
+          "OpenAI·Nvidia·Red Hat 지원"
+        ],
+        "why": [
+          "에이전트 운영이 Kubernetes 생태계로 수렴하는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "devops-cursor-s3-wal-git",
+      "title": "Cursor, S3 WAL로 Git 스토리지 확장",
+      "summary": "Cursor의 Continuity는 S3 기반 쓰기 전 로그(WAL)를 진실 공급원으로 삼아 Git 스토리지를 초당 300회 이상의 푸시로 확장했다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/09/cursor-continuity-git-storage/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "S3 WAL을 원본으로 삼아 초당 300+ 푸시를 처리한다.",
+        "what": "InfoQ에 따르면 Cursor는 Continuity 시스템에서 S3 기반 WAL을 원본 데이터로 사용해 Git 스토리지를 확장했다. 초당 300회 이상의 푸시를 처리한다.",
+        "points": [
+          "시스템명: Continuity",
+          "S3 기반 WAL이 source of truth",
+          "초당 300+ 푸시"
+        ],
+        "why": [
+          "에이전트가 대량 커밋을 만드는 환경의 Git 확장 사례다"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-openai-377-math-problems",
+      "title": "OpenAI, 미공개 모델로 377개 수학 문제 성과 공개… 수학계 논쟁 격화",
+      "summary": "OpenAI가 미공개 내부 모델로 대수·정수론·이론전산·논리·위상수학 등에서 얻은 결과를 대거 공개했다. 진짜 창의적 문제 해결인지, 인간 수학자의 선행 연구에 기댄 마무리인지를 두고 논쟁이 이어진다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/06/science/openai-math-problems.html?unlocked_article_code=1.G1E.ZtV-._3l-Xarh37IT&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 수학 성과의 규모는 커졌지만 \"발견\"의 의미를 둘러싼 논쟁은 오히려 커졌다.",
+        "what": "OpenAI가 공개되지 않은 내부 모델로 377개 수학 문제에 대한 결과를 발표했다. 대수, 정수론, 이론 컴퓨터과학, 논리, 위상수학 등 넓은 분야를 포괄하며, 10개 문제에 대해서는 상세한 풀이 설명을 제공했다.",
+        "points": [
+          "미공개 내부 프런티어 모델이 생성한 결과",
+          "대수·정수론·이론전산·논리·위상수학 등 다분야",
+          "10개 문제는 상세 풀이 설명 제공",
+          "창의적 해결인지 기존 인간 연구의 마지막 단계 수행인지 논쟁"
+        ],
+        "why": [
+          "AI가 연구 수학에 기여하는 방식과 공로 귀속 기준을 재정의하는 계기",
+          "TLDR AI에도 OpenAI 공식 발표가 함께 실려 업계 관심이 큼"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-lg-smart-home",
+      "title": "애플, LG와 공동개발한 도어벨·도어락·온도조절기 출시",
+      "summary": "애플이 LG와 손잡고 도어벨, 온도조절기, 개선된 HomePod mini, 새 셋톱박스를 10월 13일 내놓는다. LG 브랜드 제품은 Wi-Fi·Bluetooth·Thread·Matter를 지원해 애플 스마트홈 허브와 연동된다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-06/apple-s-smart-home-push-includes-doorbell-lock-thermostat-codeveloped-with-lg?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTM0MDUyNSwiZXhwIjoxNzkxOTQ1MzI1LCJhcnRpY2xlSWQiOiJUTUdDN0lLSkg2VjUwMCIsImJjb25uZWN0SWQiOiI2NTc1NjkyN0UwMkM0N0MwQkQ0MDNEQTJGMEUyNzIyMyJ9.p5C0LmMpeaR0RutnTheHAawT8APIRiBf5yBSNNpnwcU&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "애플이 파트너 제조 방식으로 스마트홈 하드웨어 라인업을 빠르게 넓힌다.",
+        "what": "애플이 LG와의 협력으로 스마트홈 생태계를 확장한다. 10월 13일 도어벨, 온도조절기, 개선된 HomePod mini, 새 셋톱박스를 출시할 예정이다.",
+        "points": [
+          "LG 브랜드로 출시되는 공동개발 제품",
+          "Wi-Fi·Bluetooth·Thread·Matter 프로토콜 지원",
+          "애플 스마트홈 허브와 통합",
+          "출시일은 10월 13일"
+        ],
+        "why": [
+          "직접 생산 대신 파트너십으로 스마트홈 진입 속도를 높이는 전략",
+          "Matter 지원으로 개방형 표준 생태계와의 호환성 확보"
+        ]
+      }
+    },
+    {
+      "id": "tech-anduril-big-week",
+      "title": "안두릴의 빅 위크: 18억 달러 육군 계약과 66억 달러 조선 베팅",
+      "summary": "안두릴이 5년간 최대 18억 달러 규모의 육군 지휘통제 플랫폼 확대 계약을 따냈다. 볼티모어에 200만 제곱피트 규모 두 번째 조선 메가팩토리를 2030년부터 짓는다.",
+      "source": "Tectonic Defense",
+      "url": "https://www.tectonicdefense.com/andurils-big-week-arsenal-2-ngc2-and-a-6-6b-bet-on-the-future-of-american-shipbuilding/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "안두릴이 소프트웨어 방산에서 대규모 조선 제조로 영역을 넓히고 있다.",
+        "what": "안두릴이 육군 전반의 지휘통제(C2) 플랫폼을 확장하는 최대 18억 달러, 5년짜리 계약을 확보했다. 또 볼티모어에 조선 중심의 두 번째 메가팩토리를 건설하며, 민간 자금과 해군 잠수함 생산 자금 66억 달러가 뒷받침한다.",
+        "points": [
+          "육군 C2 플랫폼 확대 계약 최대 18억 달러/5년",
+          "볼티모어 조선 메가팩토리 200만 제곱피트",
+          "2030년 착공 예정",
+          "민간·해군 잠수함 자금 66억 달러"
+        ],
+        "why": [
+          "미국 조선 역량 재건에 방산 스타트업이 핵심 플레이어로 부상",
+          "TLDR Hardware에도 같은 볼티모어 조선소 소식이 실림"
+        ]
+      }
+    },
+    {
+      "id": "tech-nuclear-uprates-old-plants",
+      "title": "원자력의 새 흐름: 기존 원전에서 출력 더 끌어내기",
+      "summary": "신규 원전 대신 기존 원자로를 개량하는 사례가 늘고 있다. 빅테크가 AI 인프라 전력을 위해 자금을 대며, 미국 전력망에 6,000~8,000MW가 추가될 전망이다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/06/climate/nuclear-power-plant-google-data-centers.html?unlocked_article_code=1.G1E.6Viw.7hEh6hhvzhML&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 전력 수요가 빠르고 저렴한 원전 출력 증강(uprate)을 부르고 있다.",
+        "what": "기업들이 새 원전을 짓는 대신 기존 원자로를 업그레이드하고 있다. 개량은 5년 안에 낮은 비용으로 끝낼 수 있으며, 테크 대기업들이 AI 인프라 전력 확보를 위해 비용을 대고 있다.",
+        "points": [
+          "개량 공사는 5년 이내, 신규 건설보다 저비용",
+          "테크 대기업이 업그레이드 자금 지원",
+          "미국 전력망에 6,000~8,000MW 추가 전망"
+        ],
+        "why": [
+          "데이터센터 전력난의 현실적 단기 해법",
+          "원자력 산업의 투자 방향 변화 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-pragmatic-engineer-state-of-tech-2026",
+      "title": "2026년 테크 산업 현황 (Pragmatic Engineer)",
+      "summary": "기술 변화가 전례 없는 규모와 속도로 진행 중이며 \"손으로 코드를 쓰는 사람은 거의 없다\"는 진단이다. 코드 리뷰는 형식화되고 시스템 품질은 떨어졌으며, 엔지니어가 코드를 아예 읽지 않는 새 패러다임이 떠오른다.",
+      "source": "Pragmatic Engineer Newsletter",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI가 개발 문화를 바꾸며 품질과 리뷰 관행에 균열이 생기고 있다.",
+        "what": "Pragmatic Engineer가 2026년 테크 산업 상황을 정리했다. 거의 모든 코드가 AI로 작성되고, 코드 리뷰는 형식적으로 변했으며 시스템 품질과 신뢰성은 하락했다고 진단한다.",
+        "points": [
+          "손코딩은 사실상 사라짐",
+          "코드 리뷰가 형식화(performative)",
+          "시스템 품질·신뢰성 하락",
+          "팀은 여전히 필수지만 코드를 읽지 않는 AI 인프라 패러다임 부상"
+        ],
+        "why": [
+          "엔지니어링 조직의 품질 관리 방식 재설계 필요성을 시사"
+        ]
+      }
+    },
+    {
+      "id": "tech-openai-decisions-api-guide",
+      "title": "OpenAI Decisions API 가이드",
+      "summary": "Decisions API는 텍스트와 이미지를 받아 Responses API보다 10배 빠르게 판정을 내린다. 확률 산출, 선택지 중 선택, 루브릭 기반 점수 매기기를 지원한다.",
+      "source": "OpenAI Developers",
+      "url": "https://developers.openai.com/api/docs/guides/decisions?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "분류·라우팅·우선순위 같은 판단 작업 전용의 빠른 API가 등장했다.",
+        "what": "OpenAI가 텍스트·이미지 입력을 실행 가능한 판정으로 바꾸는 Decisions API 문서를 공개했다. Responses API 대비 10배 빠르며 콘텐츠 분류, 요청 라우팅, 작업 우선순위화에 쓸 수 있다.",
+        "points": [
+          "Responses API보다 10배 빠름",
+          "확률 산출·선택지 선택·루브릭 점수의 세 가지 출력",
+          "텍스트·이미지 입력 지원"
+        ],
+        "why": [
+          "생성형 대신 \"결정형\" 모델이라는 새 API 카테고리 형성",
+          "TLDR AI에도 공개 베타 소식이 실림"
+        ]
+      }
+    },
+    {
+      "id": "tech-keep-learning-age-of-llms",
+      "title": "LLM 시대에 계속 배우는 법",
+      "summary": "전통적 학습은 실험과 실패에서 통찰을 얻지만, LLM은 해답 탐색의 마찰을 줄여 진짜 학습의 고투 과정을 약화시킬 수 있다. AI를 정답 제공자가 아닌 사고 파트너로 쓰라는 제안이다.",
+      "source": "Oğuzhan Olguncu",
+      "url": "https://ogzhanolguncu.com/blog/how-to-keep-learning-in-the-age-of-llms/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "마찰 없는 답변은 학습을 망칠 수 있으니 AI를 사고 파트너로 써라.",
+        "what": "저자는 학습이 실험과 실패를 통한 깨달음에서 나온다고 본다. LLM이 해법 발견의 마찰을 없애면서 이 고투 메커니즘이 약해질 수 있다고 지적한다.",
+        "points": [
+          "실패 기반 학습의 중요성",
+          "LLM이 학습의 핵심인 고투를 생략시킬 위험",
+          "직접 답보다 문제 탐색용 사고 파트너로 활용 권장"
+        ],
+        "why": [
+          "AI 도구 의존이 커지는 개발자의 역량 유지 전략에 대한 시사점"
+        ]
+      }
+    },
+    {
+      "id": "tech-decision-model-gold-rush",
+      "title": "결정 모델 골드러시",
+      "summary": "결정 모델은 선택, 점수, 신뢰도 가중 예/아니오 응답을 낸다. TypeSafe의 Jev는 24시간 만에 Vercel 유료 AI Gateway 워크플로의 13%에 통합됐고, 주요 플랫폼이 3일 내 지원을 추가했다.",
+      "source": "Swapnil Talekar's Substack",
+      "url": "https://swapniltalekar.substack.com/p/the-decision-model-gold-rush?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "결정 모델 시장이 빠르게 열리며 선택 기준 정립이 필요해졌다.",
+        "what": "글은 선택·점수·신뢰도 기반 예/아니오를 출력하는 결정 모델의 부상을 다룬다. TypeSafe의 Jev가 24시간 만에 Vercel 유료 AI Gateway 워크플로 13%에 도입된 사례를 들며 프로덕션용 결정 모델 선정 기준을 분석한다.",
+        "points": [
+          "결정 모델의 출력: 선택·점수·신뢰도 가중 예/아니오",
+          "Jev, 24시간 내 Vercel 유료 AI Gateway 워크플로 13% 통합",
+          "주요 플랫폼이 3일 내 지원 추가",
+          "프로덕션 결정 모델 선정 기준 제시"
+        ],
+        "why": [
+          "OpenAI Decisions API와 함께 결정 모델이 새 경쟁 축으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "tech-stack-overflow-survey-2026",
+      "title": "Stack Overflow 2026 개발자 설문 결과",
+      "summary": "2026 개발자 설문이 AI 도입, 직장 만족도, 기술 개발 선호도에 대한 개발자 커뮤니티의 응답을 담았다.",
+      "source": "Stack Overflow",
+      "url": "https://survey.stackoverflow.co/2026?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "개발자들의 AI 도입과 업무 만족도를 보여주는 연례 지표가 나왔다.",
+        "what": "Stack Overflow가 2026 개발자 설문 결과를 공개했다. AI 활용, 직장 만족도, 선호하는 기술 학습 방식 등을 조사했다.",
+        "points": [
+          "AI 도입 현황",
+          "직장 만족도",
+          "기술 개발 선호도"
+        ],
+        "why": [
+          "개발자 생태계 변화를 가늠하는 대표적 연례 데이터"
+        ]
+      }
+    },
+    {
+      "id": "tech-jpeg-xl-in-chrome",
+      "title": "크롬, JPEG XL 지원 출시",
+      "summary": "JPEG XL은 JPEG보다 30~50% 나은 압축 효율과 무손실 인코딩, 네이티브 HDR, 기존 JPEG의 무손실 변환 등을 제공한다.",
+      "source": "Google Chrome Developers",
+      "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "크롬이 JPEG XL을 지원하며 차세대 이미지 포맷 보급에 길이 열렸다.",
+        "what": "구글 크롬 개발팀이 JPEG XL 지원 출시를 알렸다. JPEG 대비 30~50% 향상된 압축과 무손실·HDR 등 고급 기능을 갖춘 포맷이다.",
+        "points": [
+          "JPEG 대비 30~50% 압축 효율 향상",
+          "무손실 인코딩 및 네이티브 HDR",
+          "기존 JPEG를 무손실로 변환 가능"
+        ],
+        "why": [
+          "웹 이미지 용량 절감과 품질 향상 기대"
+        ]
+      }
+    },
+    {
+      "id": "tech-dns-root-ksk-rollover",
+      "title": "10월 11일 인터넷 루트 키 교체, 준비됐나",
+      "summary": "DNS 루트의 키 서명 키(KSK)가 10월 11일 교체된다. 인터넷 역사상 두 번째 교체다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "DNSSEC 검증 리졸버는 10월 11일 루트 KSK 교체에 대비해야 한다.",
+        "what": "Cloudflare가 DNS 루트 KSK가 10월 11일 교체된다고 알렸다. 인터넷 역사상 두 번째 루트 키 교체다.",
+        "points": [
+          "교체일은 10월 11일",
+          "인터넷 역사상 두 번째 루트 KSK 교체",
+          "DNSSEC 신뢰 앵커 갱신 필요"
+        ],
+        "why": [
+          "신뢰 앵커를 갱신하지 않은 시스템은 DNS 해석 장애 위험"
+        ]
+      }
+    },
+    {
+      "id": "tech-what-is-codemode",
+      "title": "Codemode란 무엇인가",
+      "summary": "Codemode는 LLM이 런타임 환경에 영향을 주지 않고 하네스 수준에서 복잡한 작업을 표현하고 조율하게 해준다.",
+      "source": "Armin Ronacher",
+      "url": "https://lucumr.pocoo.org/2026/10/6/codemode/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "도구 호출 대신 코드로 작업을 조율하는 에이전트 설계 방식을 설명한다.",
+        "what": "Armin Ronacher가 Codemode 개념을 설명했다. LLM이 하네스 수준에서 정교한 작업을 기술·조율하되 런타임 환경 자체는 건드리지 않는 방식이다.",
+        "points": [
+          "LLM이 하네스 수준에서 작업을 코드로 표현",
+          "런타임 환경에 영향 없음",
+          "복잡한 다단계 작업 조율에 유리"
+        ],
+        "why": [
+          "에이전트 하네스 설계의 새 패턴으로 주목"
+        ]
+      }
+    },
+    {
+      "id": "tech-osc-7501-program-status",
+      "title": "프로그램 상태용 터미널 프로토콜 OSC 7501",
+      "summary": "OSC 7501은 프로그램이 대기·작업 중·입력 대기·완료·실패 같은 상태와 그 이유를 터미널 에뮬레이터에 알리는 이스케이프 시퀀스다.",
+      "source": "Mitchell Hashimoto",
+      "url": "https://mitchellh.com/writing/program-status-osc7501?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "터미널이 프로그램(특히 에이전트)의 상태를 표준 방식으로 알 수 있게 된다.",
+        "what": "Mitchell Hashimoto가 OSC 7501 이스케이프 시퀀스를 제안했다. 프로그램이 자신의 작동 상태와 이유를 터미널 에뮬레이터에 전달할 수 있다.",
+        "points": [
+          "상태: 대기·작업 중·입력 대기·완료·실패",
+          "상태의 이유(reasoning)도 전달",
+          "터미널 에뮬레이터 대상 표준 시퀀스"
+        ],
+        "why": [
+          "터미널에서 실행되는 AI 에이전트의 상태 가시성 향상"
+        ]
+      }
+    },
+    {
+      "id": "tech-jiti-lisp-grow-by-talking",
+      "title": "대화로 키워가는 Lisp 애플리케이션",
+      "summary": "Jiti는 최소한의 Lisp 런타임으로, 사용자가 기능을 요청하면 LLM이 Lisp 코드를 생성하고 실행 중인 앱이 명시적으로 제거될 때까지 그 기능을 영구히 갖게 된다.",
+      "source": "Geoffrey Huntley",
+      "url": "https://ghuntley.com/lisp/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "실행 중인 프로그램이 대화로 스스로 기능을 늘리는 실험이다.",
+        "what": "Geoffrey Huntley가 소개한 Jiti는 LLM과 대화하며 확장되는 최소 Lisp 런타임이다. 요청한 기능을 모델이 Lisp 코드로 생성하면 실행 중인 앱에 영구적으로 추가된다.",
+        "points": [
+          "최소 Lisp 런타임",
+          "LLM이 Lisp 코드 생성",
+          "추가 기능은 명시적으로 제거할 때까지 유지"
+        ],
+        "why": [
+          "라이브 코딩과 LLM을 결합한 소프트웨어 개발 방식의 실험"
+        ]
+      }
+    }
+  ]
+}

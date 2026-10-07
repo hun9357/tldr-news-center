@@ -1,0 +1,320 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-mistral-large-4",
+      "title": "Mistral Large 4 공개",
+      "summary": "Mistral이 1조 파라미터 멀티모달 모델 Mistral Large 4를 공개했다. 선도적 폐쇄형·개방형 AI의 유럽 대안으로 내세운다.",
+      "source": "Mistral",
+      "url": "https://mistral.ai/news/mistral-large-4/?utm_source=tldrai",
+      "report": {
+        "tldr": "유럽이 1조 파라미터급 프런티어 모델로 경쟁에 나섰다.",
+        "what": "Mistral이 1조 파라미터 규모의 멀티모달 모델 Large 4를 발표했다. 주요 폐쇄형 및 오픈 모델에 대한 유럽산 대안으로 포지셔닝했다.",
+        "points": [
+          "1조 파라미터",
+          "멀티모달 지원",
+          "유럽산 대안 포지셔닝"
+        ],
+        "why": [
+          "AI 주권을 중시하는 유럽 기업·정부에 선택지 제공"
+        ]
+      }
+    },
+    {
+      "id": "ai-nano-banana-2-1",
+      "title": "구글 딥마인드 Nano Banana 2.1",
+      "summary": "Gemini 3 계열의 Nano Banana 2.1은 텍스트·이미지 입출력과 최대 100만 토큰 컨텍스트를 지원하며 구글 제품 전반에서 제공된다.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/model-cards/nano-banana-2-1/?utm_source=tldrai",
+      "report": {
+        "tldr": "구글 이미지 모델이 100만 토큰 컨텍스트와 함께 업데이트됐다.",
+        "what": "구글 딥마인드가 Gemini 3 시리즈의 Nano Banana 2.1 모델 카드를 공개했다. 텍스트와 이미지를 입력받아 텍스트와 이미지를 출력한다.",
+        "points": [
+          "Gemini 3 시리즈 소속",
+          "텍스트·이미지 입출력",
+          "최대 100만 토큰 컨텍스트",
+          "구글 제품 전반에서 이용 가능"
+        ],
+        "why": [
+          "이미지 생성·편집 경쟁에서 구글의 배포 범위 우위 강화"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-math-progress",
+      "title": "OpenAI, AI 수학 성과 공개",
+      "summary": "OpenAI가 내부 프런티어 모델이 만든 광범위한 수학 결과를 GitHub 저장소, Lean 형식화, 추론 요약과 함께 공개했다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/?utm_source=tldrai",
+      "report": {
+        "tldr": "Lean 형식화까지 곁들여 AI 수학 결과의 검증 가능성을 높였다.",
+        "what": "OpenAI가 내부 프런티어 모델이 생성한 다양한 수학 결과를 발표했다. GitHub 저장소, Lean 형식 증명, 추론 요약을 함께 공개했다.",
+        "points": [
+          "내부 프런티어 모델이 생성한 결과",
+          "GitHub 저장소 공개",
+          "Lean 형식화 제공",
+          "추론 요약 포함"
+        ],
+        "why": [
+          "형식 검증으로 AI 수학 성과의 신뢰성 논쟁에 대응",
+          "TLDR 메인판에도 NYT의 관련 논쟁 기사가 실림"
+        ]
+      }
+    },
+    {
+      "id": "ai-cyber-risk-discourse-broken",
+      "title": "사이버 위험 담론은 고장 났다",
+      "summary": "오픈웨이트 모델이 인프라에 주는 위험, 중국 사이버 역량의 진전, GLM-5.3의 역량 임계치 돌파를 다룬다.",
+      "source": "Interconnects",
+      "url": "https://www.interconnects.ai/p/the-cyber-risk-discourse-is-broken?utm_source=tldrai",
+      "report": {
+        "tldr": "오픈웨이트 모델의 사이버 위험 논의가 현실을 따라가지 못하고 있다.",
+        "what": "Interconnects가 AI 사이버 위험 담론을 비판적으로 분석했다. 오픈웨이트 모델의 인프라 위험, 중국의 사이버 역량 향상, GLM-5.3의 역량 임계치 돌파를 짚는다.",
+        "points": [
+          "오픈웨이트 모델의 인프라 위험",
+          "중국 사이버 역량의 진전",
+          "GLM-5.3이 역량 임계치 돌파"
+        ],
+        "why": [
+          "오픈 모델 규제·공개 정책 논쟁에 직접적 함의"
+        ]
+      }
+    },
+    {
+      "id": "ai-project-zero-emergency-patching",
+      "title": "더 빠른 긴급 패치 체계 만들기",
+      "summary": "구글 프로젝트 제로가 벤더가 긴급 취약점을 더 빨리 패치하는 법을 다루며, 개선 파이프라인과 예외적 사고 대응 체계를 분해해 설명한다.",
+      "source": "Google Project Zero",
+      "url": "https://projectzero.google/2026/10/emergency-patching.html?utm_source=tldrai",
+      "report": {
+        "tldr": "AI로 취약점 발견이 빨라지는 만큼 패치 속도도 따라가야 한다.",
+        "what": "구글 프로젝트 제로가 긴급 취약점 패치 속도를 높이는 방법에 대한 가이드를 냈다. 취약점 수정 파이프라인과 예외적 사고 대응 시스템을 단계별로 분석한다.",
+        "points": [
+          "벤더 대상 긴급 패치 가이드",
+          "취약점 수정 파이프라인 분해",
+          "예외적 사고 대응 시스템 설계"
+        ],
+        "why": [
+          "패치 지연은 공격 창을 넓히는 핵심 보안 리스크"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-decisions-api-beta",
+      "title": "OpenAI Decisions API 공개 베타",
+      "summary": "Decisions API는 GPT-6 Luna보다 최대 10배 빠르게 판정을 내리며, 텍스트·이미지 입력과 세 가지 출력 유형을 지원하고 입력 100만 토큰당 0.10달러다.",
+      "source": "OpenAI Community",
+      "url": "https://community.openai.com/t/decisions-api-is-now-available-in-public-beta/1403877?utm_source=tldrai",
+      "report": {
+        "tldr": "저렴하고 빠른 판정 전용 API가 공개 베타로 나왔다.",
+        "what": "OpenAI가 Decisions API를 공개 베타로 출시했다. GPT-6 Luna 대비 최대 10배 빠른 판정을 제공한다.",
+        "points": [
+          "GPT-6 Luna보다 최대 10배 빠름",
+          "텍스트·이미지 입력",
+          "세 가지 출력 유형",
+          "입력 100만 토큰당 0.10달러"
+        ],
+        "why": [
+          "분류·라우팅 워크로드의 비용과 지연을 크게 낮출 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "ai-embeddinggemma-2",
+      "title": "구글 EmbeddingGemma 2",
+      "summary": "7.4억 파라미터 모델로 텍스트·코드·이미지·오디오·비디오를 공유 임베딩 공간에 매핑하며, Apache 2.0 라이선스로 온디바이스 추론을 지원한다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/?utm_source=tldrai",
+      "report": {
+        "tldr": "작고 개방된 멀티모달 임베딩 모델이 온디바이스로 들어온다.",
+        "what": "구글이 EmbeddingGemma 2를 공개했다. 텍스트, 코드, 이미지, 오디오, 비디오를 하나의 임베딩 공간에 매핑하는 7.4억 파라미터 모델이다.",
+        "points": [
+          "7.4억 파라미터",
+          "5개 모달리티 공유 임베딩",
+          "Apache 2.0 라이선스",
+          "온디바이스 추론"
+        ],
+        "why": [
+          "로컬 멀티모달 검색·RAG 구축 비용을 낮춤"
+        ]
+      }
+    },
+    {
+      "id": "ai-personal-agent-protocol",
+      "title": "개인 에이전트 프로토콜(PAP) 발표",
+      "summary": "Meta와 Sierra가 업계 파트너와 개발 중인 개방형 표준으로, 인증, 소비자 권한 강화, 에이전트 행동 가시성을 다룬다.",
+      "source": "Sierra AI",
+      "url": "https://sierra.ai/blog/introducing-personal-agent-protocol?utm_source=tldrai",
+      "report": {
+        "tldr": "소비자 에이전트와 기업 간 상호작용을 위한 개방형 표준이 제안됐다.",
+        "what": "Sierra가 Meta 및 업계 파트너와 함께 개발 중인 Personal Agent Protocol을 소개했다. 인증, 소비자 권한, 에이전트 행동의 가시성을 처리하는 개방형 표준이다.",
+        "points": [
+          "Meta·Sierra 주도 개방형 표준",
+          "인증 처리",
+          "소비자 권한 강화",
+          "에이전트 행동 가시성 제공"
+        ],
+        "why": [
+          "개인 AI 에이전트가 기업 서비스와 거래하는 시대의 인프라 표준 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "ai-pantheon-diverse-umi-dataset",
+      "title": "로보틱스 최대 다양성 UMI 데이터셋 구축기",
+      "summary": "Pantheon이 UMI 데이터 수집 운영을 빠르게 구축해 비용을 시간당 60달러에서 10달러로 낮추고 100만 개 이상의 고유 작업을 모았다.",
+      "source": "Pantheon",
+      "url": "https://pantheon.inc/research/diverse-umi?utm_source=tldrai",
+      "report": {
+        "tldr": "로봇 학습 데이터 수집 비용을 6분의 1로 줄였다.",
+        "what": "Pantheon이 UMI(범용 조작 인터페이스) 데이터 수집 운영을 신속히 구축한 과정을 공개했다. 수집 비용을 크게 낮추며 대규모 고유 작업 데이터를 확보했다.",
+        "points": [
+          "비용 시간당 60달러에서 10달러로 절감",
+          "100만 개 이상 고유 작업 축적",
+          "UMI 기반 데이터 수집"
+        ],
+        "why": [
+          "로봇 파운데이션 모델의 병목인 데이터 확보 비용 해소"
+        ]
+      }
+    },
+    {
+      "id": "ai-china-recruit-foreign-ai-researchers",
+      "title": "중국, 미국과의 경쟁 속 외국 AI 연구자 유치에 고전",
+      "summary": "중국이 연구자 비자와 거액 지원금으로 해외 과학자를 유치하려 하지만, 미국의 외국인 과학자 수는 계속 늘고 있다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/06/science/china-ai-research-recruitment.html?unlocked_article_code=1.G1E.vzNX.LAgmpYtxdpWb&smid=url-share&utm_source=tldrai",
+      "report": {
+        "tldr": "인재 유치에서는 아직 미국이 우위를 유지하고 있다.",
+        "what": "중국이 연구자 비자와 넉넉한 연구비로 외국 AI 연구자 유치에 나섰지만 성과는 제한적이다. 미국 내 외국인 과학자 수는 여전히 증가세다.",
+        "points": [
+          "연구자 전용 비자 도입",
+          "거액 연구 보조금 제공",
+          "미국의 외국인 과학자 수는 계속 증가"
+        ],
+        "why": [
+          "미중 AI 경쟁에서 인재 흐름이 장기 경쟁력을 좌우"
+        ]
+      }
+    },
+    {
+      "id": "ai-deepseek-12b-raise",
+      "title": "딥시크, 120억 달러 투자 유치 임박",
+      "summary": "딥시크가 당초 목표 500억 위안을 넘는 120억 달러 투자 유치에 근접했으며, 텐센트와 CATL이 참여하고 상하이 IPO도 검토 중이다.",
+      "source": "Yellow",
+      "url": "https://yellow.com/news/deepseek-12b-raise-close-tencent-catl?utm_source=tldrai",
+      "report": {
+        "tldr": "딥시크가 중국 대기업 자금으로 대규모 실탄을 확보한다.",
+        "what": "딥시크가 120억 달러 규모 투자 유치를 앞두고 있다고 보도됐다. 초기 목표인 500억 위안을 웃돌며 텐센트와 CATL이 투자자로 거론된다.",
+        "points": [
+          "조달 규모 120억 달러",
+          "초기 목표 500억 위안 초과",
+          "텐센트·CATL 참여",
+          "상하이 IPO 가능성"
+        ],
+        "why": [
+          "중국 대표 AI 랩의 자금력 강화로 미중 모델 경쟁 가속"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-google-workspace",
+      "title": "Claude, 구글 문서·시트·슬라이드와 연동",
+      "summary": "Claude가 모든 유료 플랜에서 구글 Docs, Sheets, Slides 파일을 직접 편집할 수 있게 됐다.",
+      "source": "Anthropic",
+      "url": "https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides?utm_source=tldrai",
+      "report": {
+        "tldr": "Claude가 구글 오피스 문서를 직접 수정하는 업무 도구로 확장됐다.",
+        "what": "Anthropic이 Claude와 구글 Docs·Sheets·Slides의 통합을 발표했다. 모든 유료 플랜 사용자가 파일을 직접 편집할 수 있다.",
+        "points": [
+          "구글 Docs·Sheets·Slides 지원",
+          "모든 유료 플랜 대상",
+          "파일 직접 편집 가능"
+        ],
+        "why": [
+          "업무 생산성 도구 시장에서 AI 어시스턴트 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "ai-us-china-gap-deepseek-v4-1-flash",
+      "title": "미중 AI 격차 3%… DeepSeek V4.1 Flash, 에이전트 코딩 벤치마크 선두",
+      "summary": "중국 모델 DeepSeek V4.1 Flash가 에이전트 코딩 벤치마크에서 미국 경쟁 모델들을 앞질렀다.",
+      "source": "TechTimes",
+      "url": "https://www.techtimes.com/articles/328620/20261006/us-china-ai-gap-hits-3-deepseek-v41-flash-now-leads-agentic-coding-benchmarks.htm?utm_source=tldrai",
+      "report": {
+        "tldr": "미중 AI 격차가 3%까지 좁혀졌고 일부 영역은 역전됐다.",
+        "what": "TechTimes는 미중 AI 격차가 3%로 줄었다고 전했다. DeepSeek V4.1 Flash가 에이전트 코딩 벤치마크에서 미국 모델을 앞섰다.",
+        "points": [
+          "미중 AI 격차 3%",
+          "DeepSeek V4.1 Flash가 에이전트 코딩 벤치마크 선두",
+          "중국 모델의 미국 모델 추월 사례"
+        ],
+        "why": [
+          "코딩 에이전트 시장에서 중국산 모델의 경쟁력 부상"
+        ]
+      }
+    },
+    {
+      "id": "ai-hark-ai-agent",
+      "title": "Hark, 첫 기기 출시 1년 전 AI 에이전트 공개",
+      "summary": "Hark가 장보기, 차량 예약, 공과금 납부를 할 수 있는 AI 에이전트를 출시했다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/hark-pro-agent-hardware-europe?utm_source=tldrai",
+      "report": {
+        "tldr": "하드웨어보다 에이전트를 먼저 내놓는 전략이다.",
+        "what": "Hark가 자사 기기 출시 1년 앞서 AI 에이전트를 공개했다. 식료품 구매, 차량 예약, 청구서 결제를 처리할 수 있다.",
+        "points": [
+          "첫 기기보다 1년 먼저 에이전트 출시",
+          "장보기·차량 예약·공과금 납부 수행"
+        ],
+        "why": [
+          "AI 하드웨어 스타트업의 소프트웨어 우선 시장 검증 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-aicr-v1",
+      "title": "NVIDIA AICR v1.0: 검증 가능한 GPU 클러스터 구성",
+      "summary": "NVIDIA AI Cluster Runtime(AICR) v1.0이 GPU 가속 쿠버네티스 환경을 위한 버전 고정·검증된 레시피를 제공한다.",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/aicr-v1-0-open-stable-and-verifiable-gpu-cluster-configuration?utm_source=tldrai",
+      "report": {
+        "tldr": "GPU 클러스터 구성을 재현 가능하고 안정적으로 만드는 도구가 정식 출시됐다.",
+        "what": "NVIDIA가 AI Cluster Runtime v1.0을 발표했다. GPU 가속 쿠버네티스 구성을 위해 버전이 고정되고 검증된 레시피를 개방형으로 제공한다.",
+        "points": [
+          "버전 고정 레시피",
+          "사전 검증된 구성",
+          "GPU 가속 쿠버네티스 대상",
+          "개방형"
+        ],
+        "why": [
+          "AI 인프라 운영의 구성 드리프트와 장애 위험 감소"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-cyber-verification-program",
+      "title": "Anthropic, 사이버 역량 검증 접근 확대",
+      "summary": "Anthropic이 Cyber Verification Program을 세 단계 접근 등급으로 확대해, 자격을 갖춘 보안 전문가에게 사이버 관련 차단을 완화한다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/cyber-verification-program?utm_source=tldrai",
+      "report": {
+        "tldr": "검증된 보안 전문가에게 더 강력한 사이버 역량을 단계적으로 연다.",
+        "what": "Anthropic이 Cyber Verification Program을 3단계 등급 체계로 확장했다. 자격을 갖춘 보안 전문가는 사이버 관련 차단이 줄어든 상태로 모델을 사용할 수 있다.",
+        "points": [
+          "3단계 접근 등급",
+          "자격 있는 보안 전문가 대상",
+          "사이버 차단 완화"
+        ],
+        "why": [
+          "이중 용도 AI 역량을 신원 검증으로 관리하는 모델 제시"
+        ]
+      }
+    }
+  ]
+}

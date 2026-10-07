@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-07",
+  "weekday": "수",
+  "headline": "OpenAI, EU 사용자 ChatGPT·Codex 출력에 보이지 않는 워터마크 적용",
+  "subtitle": "OpenAI 미공개 모델 수학 377문제 성과 논쟁 · Mistral Large 4 공개 · MCP '프로토콜 피버팅' 취약점 공개",
+  "keyword": "AI 워터마크 · EU AI Act · 결정 모델 · 오픈 웨이트",
+  "bigStoryId": "infosec-openai-eu-watermark",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "devops",
+    "founders",
+    "hardware",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:08 CDT",
+  "syncedAt": "2026-10-07T14:08:25Z",
+  "stats": {
+    "companies": 51,
+    "security": 19,
+    "deals": 6,
+    "policy": 7
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "AI 출력 워터마크가 규제 의무로 현실화",
+      "body": "OpenAI가 EU AI Act 대응으로 EU 사용자의 ChatGPT·Codex 출력에 보이지 않는 워터마크를 기본 적용하며 infosec·design·marketing 세 에디션에 동시에 실렸다. API 고객은 지역과 무관하게 켤 수 있어, AI 생성 콘텐츠 탐지·표기가 콘텐츠 운영과 AEO 전략의 기본 변수가 되고 있다."
+    },
+    {
+      "kind": "market",
+      "title": "AI 인프라 자금이 부채·IPO로 확산",
+      "body": "스페이스X의 엔비디아 칩 구매용 약 400억 달러 부채 조달 추진, 딥시크 120억 달러 투자 유치 임박, Lambda의 IPO 전 최대 40억 달러 조달이 한꺼번에 나왔다. 안두릴 18억 달러 육군 계약과 조선소 투자까지 더해 AI·방산 하드웨어로 자본이 대규모로 몰리고 있다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "10월 11일 DNS 루트 KSK 롤오버 전 리졸버 신뢰 앵커 점검, NetScaler CVE-2026-88779·Atlassian CVE-2026-21589 패치 현황, MCP 프로토콜 피버팅 후속 권고, Mistral Large 4 오픈 웨이트 공개 일정, Kubernetes v1.35 cgroup v1 업그레이드 영향을 추적."
+    }
+  ]
+}
