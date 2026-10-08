@@ -1,0 +1,320 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-gpt-6-intelligent-ui",
+      "title": "OpenAI, GPT-6와 'Intelligent UI'를 모든 사용자에게 공개",
+      "summary": "OpenAI의 최신 모델 GPT-6가 12억 ChatGPT 사용자에게 텍스트·시각 자료·인터랙티브 요소를 결합한 Intelligent UI를 제공한다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-for-everyone/?utm_source=tldrai",
+      "report": {
+        "tldr": "GPT-6가 텍스트를 넘어 인터랙티브 응답을 12억 사용자에게 기본 제공한다.",
+        "what": "OpenAI가 GPT-6를 모든 사용자에게 공개하며 'Intelligent UI'를 도입했다. 응답에 텍스트뿐 아니라 시각 자료와 인터랙티브 요소가 함께 제공된다. 대상은 12억 명의 ChatGPT 사용자다.",
+        "points": [
+          "GPT-6 전 사용자 공개",
+          "Intelligent UI: 텍스트·비주얼·인터랙티브 요소 결합",
+          "12억 ChatGPT 사용자 대상"
+        ],
+        "why": [
+          "챗봇 인터페이스가 텍스트 중심에서 생성형 UI로 진화",
+          "대규모 사용자 기반으로 경쟁사에 대한 압박 강화"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-haiku-5-5",
+      "title": "Anthropic, Claude Haiku 5.5 공개",
+      "summary": "대량 작업에 최적화된 신모델로, 10만 토큰 이하 프롬프트 작업에서 Haiku 4.5보다 75% 저렴하고 보안이 강화됐다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=tldrai",
+      "report": {
+        "tldr": "Haiku 5.5는 대량·저비용 워크로드를 겨냥해 가격을 크게 낮췄다.",
+        "what": "Anthropic이 고용량 작업용 모델 Claude Haiku 5.5를 출시했다. 10만 토큰까지의 프롬프트 작업에서 Haiku 4.5보다 75% 저렴하다. 보안도 강화됐다.",
+        "points": [
+          "대량 처리 작업에 최적화",
+          "10만 토큰 이하에서 Haiku 4.5 대비 75% 저렴",
+          "보안 기능 강화"
+        ],
+        "why": [
+          "소형 모델 가격 경쟁(GPT-6 Luna 등) 심화",
+          "에이전트·배치 처리 비용 절감"
+        ]
+      }
+    },
+    {
+      "id": "ai-grok-bot-third-party-models",
+      "title": "머스크 \"Grok Bot, Claude Opus 5.5·Midjourney·Suno 활용\"",
+      "summary": "일론 머스크의 Grok Bot이 Anthropic Claude Opus 5.5, Midjourney, Suno 등 외부 AI 모델을 통합해 작업 결과를 최적화한다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/grok-bot-claude-opus-midjourney-suno-musk?utm_source=tldrai",
+      "report": {
+        "tldr": "xAI가 자체 모델만 고집하지 않고 경쟁사 모델을 섞어 쓰는 라우터 전략을 택했다.",
+        "what": "머스크는 Grok Bot이 Anthropic의 Claude Opus 5.5, Midjourney, Suno 같은 외부 AI 모델을 통합할 것이라고 밝혔다. 작업별로 최적의 결과를 내기 위한 구성이다.",
+        "points": [
+          "Claude Opus 5.5 통합",
+          "이미지 생성에 Midjourney, 음악에 Suno 활용",
+          "작업 결과 최적화 목적"
+        ],
+        "why": [
+          "경쟁사 모델 재판매·라우팅이 제품 전략으로 부상",
+          "모델 범용화 흐름을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-perplexity-multivector-embeddings",
+      "title": "Perplexity, 멀티벡터 멀티모달 임베딩 PPLX-EMBED-V2-LATE 공개",
+      "summary": "Perplexity가 텍스트와 이미지 전반에서 더 풍부한 검색을 가능케 하는 멀티벡터·멀티모달 임베딩 모델을 두 가지 크기로 출시했다.",
+      "source": "Perplexity",
+      "url": "https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector?utm_source=tldrai",
+      "report": {
+        "tldr": "단일 벡터를 넘어선 late-interaction 임베딩으로 멀티모달 검색 품질을 높인다.",
+        "what": "Perplexity가 PPLX-EMBED-V2-LATE를 출시했다. 텍스트와 이미지를 아우르는 멀티벡터·멀티모달 임베딩으로 더 풍부한 검색을 지원한다. 모델은 두 가지 크기로 제공된다.",
+        "points": [
+          "멀티벡터 방식 임베딩",
+          "텍스트·이미지 멀티모달 지원",
+          "두 가지 모델 크기"
+        ],
+        "why": [
+          "RAG·검색 시스템의 정확도 향상 수단"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-corporate-structure",
+      "title": "Anthropic의 기업 지배구조 분석",
+      "summary": "Anthropic의 거버넌스와 통제 구조가 점점 강력해지는 AI 모델에 대해 어떻게 작동하는지 공개 정보를 정리한 분석.",
+      "source": "LessWrong",
+      "url": "https://www.lesswrong.com/posts/Hb5aCFtLuHc5uvAgX/anthropic-s-corporate-structure?utm_source=tldrai",
+      "report": {
+        "tldr": "강력한 AI를 누가 어떻게 통제하는지에 대한 공개 정보를 점검한다.",
+        "what": "LessWrong 게시글이 Anthropic의 기업 지배구조에 대해 공개적으로 알려진 내용을 정리했다. 점점 강력해지는 AI 모델과 관련해 거버넌스와 통제 구조가 어떻게 작동하는지를 살펴본다.",
+        "points": [
+          "공개 자료 기반 지배구조 분석",
+          "AI 모델 관련 의사결정·통제 구조 검토",
+          "역량이 커지는 모델에 대한 거버넌스 초점"
+        ],
+        "why": [
+          "프런티어 AI 기업의 책임성과 투명성 논의에 기여"
+        ]
+      }
+    },
+    {
+      "id": "ai-liquid-ai-open-d1",
+      "title": "Liquid AI, 엣지용 오픈 결정 모델 d1 공개",
+      "summary": "Liquid AI가 엣지 배포용 오픈 웨이트 결정 모델 d1-3B와 d1-OMNI-600M을 Hugging Face에 공개했다.",
+      "source": "Liquid AI",
+      "url": "https://www.liquid.ai/blog/d1-open?utm_source=tldrai",
+      "report": {
+        "tldr": "텍스트·비전·오디오를 다루는 소형 결정 모델이 오픈 웨이트로 나왔다.",
+        "what": "Liquid AI가 텍스트, 비전, 오디오용 엣지 결정 모델 두 종을 오픈 웨이트로 공개했다. d1-3B와 d1-OMNI-600M이며 Hugging Face에서 받을 수 있다.",
+        "points": [
+          "d1-3B, d1-OMNI-600M 두 모델",
+          "오픈 웨이트, Hugging Face 배포",
+          "엣지 디바이스 배포 지향",
+          "텍스트·비전·오디오 대상"
+        ],
+        "why": [
+          "온디바이스 AI용 경량 모델 선택지 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-llamaindex-opendocrouter",
+      "title": "LlamaIndex, 문서 모델 통합 API 'OpenDocRouter' 출시",
+      "summary": "최신 오픈소스·프런티어 모델로 문서를 Markdown으로 파싱하는 기능을 하나의 API로 제공하며 동기·비동기 응답을 지원한다.",
+      "source": "LlamaIndex",
+      "url": "https://www.llamaindex.ai/blog/introducing-opendocrouter?utm_source=tldrai",
+      "report": {
+        "tldr": "여러 문서 파싱 모델을 단일 API로 골라 쓸 수 있게 됐다.",
+        "what": "LlamaIndex가 OpenDocRouter를 공개했다. 최신 오픈소스 및 프런티어 모델을 이용해 문서를 Markdown으로 변환하는 기능을 하나의 API로 묶었다. 응답은 동기·비동기 방식 중 선택할 수 있다.",
+        "points": [
+          "모든 문서 모델을 단일 API로",
+          "문서→Markdown 파싱",
+          "오픈소스·프런티어 모델 지원",
+          "동기/비동기 응답 선택"
+        ],
+        "why": [
+          "문서 기반 RAG 파이프라인 구축 단순화"
+        ]
+      }
+    },
+    {
+      "id": "ai-scale-humanitys-sixth-sense",
+      "title": "Scale AI, 직관적 시각 추론 벤치마크 'Humanity's Sixth Sense' 발표",
+      "summary": "멀티모달 AI 모델의 직관적 시각 추론 능력을 평가하는 벤치마크 논문이다.",
+      "source": "Scale AI",
+      "url": "https://labs.scale.com/papers/humanitys-sixth-sense?utm_source=tldrai",
+      "report": {
+        "tldr": "멀티모달 모델이 사람처럼 직관적으로 '보는' 능력을 측정하는 새 기준이 나왔다.",
+        "what": "Scale AI 연구진이 멀티모달 모델의 직관적 시각 추론 능력을 평가하는 벤치마크를 제시한 논문을 발표했다.",
+        "points": [
+          "멀티모달 모델 대상 벤치마크",
+          "직관적 시각 추론 능력 평가",
+          "Scale AI Labs 논문"
+        ],
+        "why": [
+          "기존 벤치마크가 놓친 시각적 직관 능력의 격차를 드러낼 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "ai-oracle-broadcom-spacex-debt",
+      "title": "오라클·브로드컴·SpaceX, AI 칩 자금 위한 초대형 부채 조달",
+      "summary": "주요 기술 기업들이 맞춤형 AI 칩을 위해 500억 달러 이상의 자금 조달을 추진하며 Apollo, Blackstone 등이 참여한다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/oracle-broadcom-and-spacex-seek-blockbuster-debt-deals-to-pay-for-ai-chips-848e8032?st=dBddzn&reflink=desktopwebshare_permalink&utm_source=tldrai",
+      "report": {
+        "tldr": "AI 칩 투자가 대규모 부채 금융으로 조달되는 단계에 들어섰다.",
+        "what": "Oracle, Broadcom, SpaceX가 맞춤형 AI 칩 비용을 대기 위해 500억 달러 이상의 자금 조달을 준비하고 있다. Apollo와 Blackstone 같은 대형 투자사가 참여한다.",
+        "points": [
+          "총 500억 달러 이상 자금 조달 추진",
+          "맞춤형 AI 칩 구매 목적",
+          "Apollo, Blackstone 등 사모 자본 참여"
+        ],
+        "why": [
+          "AI 인프라 투자 규모와 레버리지 확대에 대한 우려와 관심",
+          "사모 신용이 AI 붐의 주요 자금원으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "ai-tony-fadell-ai-gadgets",
+      "title": "토니 퍼델이 말하는 1세대 AI 기기 실패 이유와 다음 단계",
+      "summary": "업계 베테랑 토니 퍼델은 성공하는 AI 비서는 프라이버시와 소비자 신뢰를 위해 온디바이스로 작동해야 한다고 분석했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/07/tony-fadell-on-why-the-first-wave-of-ai-gadgets-failed-and-what-comes-next/?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 기기의 성패는 온디바이스 처리와 신뢰에 달려 있다.",
+        "what": "iPod·Nest를 만든 토니 퍼델이 1세대 AI 기기의 실패 원인을 분석했다. 그는 성공적인 AI 비서는 프라이버시와 소비자 신뢰를 위해 기기 내에서 작동해야 한다고 강조했다.",
+        "points": [
+          "1세대 AI 가젯 실패 분석",
+          "온디바이스 작동이 핵심 조건",
+          "프라이버시와 소비자 신뢰 강조"
+        ],
+        "why": [
+          "AI 하드웨어 스타트업의 제품 방향성에 시사점"
+        ]
+      }
+    },
+    {
+      "id": "ai-texas-data-center-wait",
+      "title": "텍사스가 데이터센터를 기다리게 하는 이유",
+      "summary": "텍사스가 전력망 용량 우려로 데이터센터 인허가를 멈추고, 인프라 적정성과 지역 자원 영향 대응을 요구하고 있다.",
+      "source": "Andreessen Horowitz",
+      "url": "https://a16z.com/why-texas-is-making-data-centers-wait/?utm_source=tldrai",
+      "report": {
+        "tldr": "전력망 한계가 AI 데이터센터 확장의 실질적 병목이 됐다.",
+        "what": "a16z가 텍사스의 데이터센터 인허가 중단을 분석했다. 텍사스는 전력망 용량 우려로 허가를 멈췄고, 이제 프로젝트에 충분한 인프라 확보와 지역 자원 영향 대응을 입증하도록 요구한다.",
+        "points": [
+          "전력망 용량 문제로 인허가 일시 중단",
+          "인프라 적정성 입증 요구",
+          "지역사회 자원 영향 대응 요구"
+        ],
+        "why": [
+          "AI 인프라 구축 속도를 좌우하는 에너지 정책 변수"
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-microsoft-rtx-spark",
+      "title": "엔비디아·MS, RTX Spark와 AI 에이전트로 윈도 PC 새 시대 선언",
+      "summary": "두 회사가 RTX Spark와 마이크로소프트의 보안 Execution Containers를 활용해 윈도 PC에 AI 에이전트를 통합하는 협력을 발표했다.",
+      "source": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/?utm_source=tldrai",
+      "report": {
+        "tldr": "로컬 AI 에이전트가 윈도 PC의 핵심 기능으로 들어온다.",
+        "what": "NVIDIA와 Microsoft가 윈도 PC에 AI 에이전트를 통합하는 협력을 발표했다. NVIDIA의 RTX Spark와 Microsoft의 보안 Execution Containers가 기반이다.",
+        "points": [
+          "윈도 PC에 AI 에이전트 통합",
+          "NVIDIA RTX Spark 활용",
+          "Microsoft 보안 Execution Containers 적용"
+        ],
+        "why": [
+          "로컬 실행 AI 에이전트 생태계 확대",
+          "PC 하드웨어 교체 수요 자극 가능성"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-playground-games",
+      "title": "구글, 맞춤 게임을 만들고 즐기는 'Playground' 공개",
+      "summary": "구글이 사용자가 직접 맞춤형 게임을 만들고 플레이할 수 있는 실험적 AI 플랫폼 Playground를 선보였다.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/?utm_source=tldrai",
+      "report": {
+        "tldr": "생성형 AI가 게임 제작의 진입장벽을 낮추는 실험이다.",
+        "what": "Google이 실험적 AI 플랫폼 Playground를 출시했다. 사용자가 AI로 맞춤형 게임을 만들고 바로 플레이할 수 있다.",
+        "points": [
+          "실험적 AI 게임 플랫폼",
+          "사용자 맞춤 게임 생성",
+          "생성한 게임 바로 플레이"
+        ],
+        "why": [
+          "AI 기반 사용자 생성 콘텐츠 영역 확장"
+        ]
+      }
+    },
+    {
+      "id": "ai-fired-openai-researchers-cot",
+      "title": "해고된 OpenAI 연구원들 \"AI 추론 가시성 보존하라\"",
+      "summary": "전직 OpenAI 연구원들이 AI 기업들이 AI 시스템의 사고 사슬(chain-of-thought)을 모니터링하는 능력을 잃을 수 있다고 우려했다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/fired-openai-researchers-ask-company-to-preserve-visibility-into-ai-reasoning-987c8c94?st=XM4bHK&reflink=desktopwebshare_permalink&utm_source=tldrai",
+      "report": {
+        "tldr": "AI 추론 과정의 감시 가능성이 안전 논쟁의 쟁점으로 떠올랐다.",
+        "what": "해고된 OpenAI 연구원들이 회사에 AI 추론 과정에 대한 가시성을 유지해 달라고 요청했다. 이들은 AI 기업들이 AI 시스템의 사고 사슬을 모니터링하는 능력을 잃을 수 있다고 우려한다.",
+        "points": [
+          "전직 OpenAI 연구원들의 공개 요청",
+          "사고 사슬(CoT) 모니터링 능력 상실 우려",
+          "AI 추론 가시성 보존 촉구"
+        ],
+        "why": [
+          "모델 감독·정렬 연구의 핵심 수단이 위협받을 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-synthid-detector-global",
+      "title": "구글, SynthID Detector 전 세계로 확대",
+      "summary": "구글이 SynthID Detector를 전 세계에 확대해 구글·OpenAI·NVIDIA의 AI 생성 워터마크를 감지할 수 있게 했다.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/?utm_source=tldrai",
+      "report": {
+        "tldr": "업계 공용 AI 워터마크 탐지 도구로 자리잡는 중이다.",
+        "what": "Google이 SynthID Detector를 전 세계로 확대했다. Google뿐 아니라 OpenAI와 NVIDIA의 AI 생성 콘텐츠 워터마크도 감지할 수 있다.",
+        "points": [
+          "SynthID Detector 글로벌 출시",
+          "Google·OpenAI·NVIDIA 워터마크 감지",
+          "AI 생성 콘텐츠 식별 지원"
+        ],
+        "why": [
+          "AI 콘텐츠 출처 확인의 업계 표준화 진전"
+        ]
+      }
+    },
+    {
+      "id": "ai-microsoft-mai-code-1-1-flash",
+      "title": "마이크로소프트, MAI-Code-1.1-Flash 출시",
+      "summary": "Microsoft가 이전 버전 대비 성능은 높이고 비용은 4분의 1로 낮춘 코딩 모델 MAI-Code-1.1-Flash를 공개했다.",
+      "source": "Microsoft AI",
+      "url": "https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/?utm_source=tldrai",
+      "report": {
+        "tldr": "MS 자체 코딩 모델이 더 빠르고 저렴해졌다.",
+        "what": "Microsoft AI가 MAI-Code-1.1-Flash를 출시했다. 이전 버전보다 성능이 좋아지고 속도가 빨라졌으며, 비용은 4분의 1 수준이다.",
+        "points": [
+          "MAI-Code-1.1-Flash 출시",
+          "성능·속도 향상",
+          "비용은 이전의 4분의 1"
+        ],
+        "why": [
+          "Microsoft의 자체 모델 역량 강화와 OpenAI 의존도 축소 흐름"
+        ]
+      }
+    }
+  ]
+}

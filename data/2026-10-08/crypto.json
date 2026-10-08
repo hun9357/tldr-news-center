@@ -1,0 +1,253 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-abstract-winding-down",
+      "title": "소비자용 이더리움 L2 Abstract, 12월 15일 서비스 종료",
+      "summary": "40만 명 이상 사용자와 144개 앱을 확보했던 Abstract가 3년 만에 운영을 종료한다.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/AbstractChain/status/2107554632675340420?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "사용자 확보만으로는 L2의 구조적 한계를 넘지 못했다.",
+        "what": "소비자 중심 이더리움 레이어2 Abstract가 12월 15일 서비스를 종료한다고 발표했다. 팀은 제한된 DeFi 생태계, 얕은 유동성, 기관 연계 부족, 예산 제약을 이유로 들었다.",
+        "points": [
+          "3년간 40만+ 사용자, 144개 앱 온보딩",
+          "Red Bull Racing, Disney 등과 파트너십",
+          "Abstract Global Wallet과 Portal 디스커버리 제품이 대표 성과",
+          "12월 15일 종료 예정"
+        ],
+        "why": [
+          "소비자 앱 중심 L2도 유동성과 DeFi 기반 없이는 지속이 어렵다는 사례",
+          "L2 난립 속 통폐합 흐름을 보여주는 신호"
+        ]
+      }
+    },
+    {
+      "id": "crypto-grayscale-etf-new-phase",
+      "title": "그레이스케일 \"크립토 ETF 시장, 새 국면 진입\"",
+      "summary": "SEC 상장 기준이 비트코인·이더 외 약 15개 토큰으로 확대됐고, 그레이스케일 Zcash ETF는 30거래일 만에 10억 달러 이상을 모았다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/markets/2026-10-07-grayscale-crypto-etf-market-beyond-bitcoin-ether-417953?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "크립토 ETF가 BTC·ETH를 넘어 알트코인과 토큰화 펀드로 확장 중이다.",
+        "what": "그레이스케일은 SEC 상장 기준이 이제 비트코인·이더 외 약 15개 토큰을 포괄한다며 ETF 시장이 새 단계에 들어섰다고 밝혔다. 자사 Zcash ETF는 첫 30거래일 동안 10억 달러 이상을 유치했다.",
+        "points": [
+          "SEC 상장 기준이 약 15개 추가 토큰 포괄",
+          "Zcash ETF 30거래일 만에 10억 달러+ 유입, ETF 출시 상위 1%",
+          "커버드콜 펀드 2종을 SEC 혁신 면제 하에 토큰화하는 신청서 제출"
+        ],
+        "why": [
+          "알트코인 ETF 수요가 실재함을 수치로 입증",
+          "전통 펀드의 온체인 토큰화가 규제 틀 안에서 진행되기 시작"
+        ]
+      }
+    },
+    {
+      "id": "crypto-gsr-hare-credit-desk",
+      "title": "GSR, 온체인 크레딧 데스크 Hare에 자기자본 1억 달러 투입",
+      "summary": "GSR이 Turtle과 함께 만든 온체인 크레딧 데스크 Hare에 1억 달러를 투입하고 앵커 유동성을 공급한다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2108005707819692238.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "마켓메이커가 자기자본으로 온체인 신용 시장을 직접 연다.",
+        "what": "GSR이 자기자본 1억 달러를 들여 온체인 크레딧 데스크 Hare를 지원한다. Hare는 Turtle과 함께 구축됐으며 Aave, Paxos, Chainlink, Hypernative가 협력한다.",
+        "points": [
+          "스테이블코인용 Hare USD Earn 출시",
+          "토큰화 금 수익 상품 Hare Gold Earn 출시",
+          "GSR이 앵커 유동성 공급",
+          "Aave·Paxos·Chainlink·Hypernative 지원"
+        ],
+        "why": [
+          "기관급 플레이어의 온체인 신용 시장 진입 확대",
+          "토큰화 금 등 RWA 기반 수익 상품의 다양화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-etherfi-usd-ethena",
+      "title": "EtherFi, Ethena 기반 자체 달러 'EtherFi USD' 출시",
+      "summary": "EtherFi가 Ethena 인프라를 활용해 카드·저축 상품 전반에 쓰이는 브랜드 스테이블코인을 내놨다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2107754380367716753.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "크립토 네오뱅크가 남의 스테이블코인 대신 자체 달러를 발행하는 흐름이다.",
+        "what": "EtherFi가 Ethena의 화이트라벨 인프라로 자체 스테이블코인 EtherFi USD를 출시했다. 이 달러는 EtherFi의 카드와 저축 상품 전반에 쓰인다.",
+        "points": [
+          "스테이블코인 예치금 3억 달러 이상",
+          "활성 카드 10만 장 이상",
+          "누적 카드 결제액 10억 달러",
+          "Ethena 인프라 기반 브랜드 스테이블코인"
+        ],
+        "why": [
+          "네오뱅크가 스테이블코인 앱에서 자체 달러 발행자로 진화",
+          "스테이블코인 수익을 유통사가 직접 가져가려는 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "crypto-antseed-decentralized-router",
+      "title": "AntSeed: 누구도 소유하지 않는 AI 추론 라우터",
+      "summary": "OpenRouter의 폭증하는 토큰 처리량을 배경으로, P2P 기반 탈중앙 추론 마켓플레이스 AntSeed를 분석한다.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/0xTraderSam/status/2107473042750533790?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "모델 애그리게이터가 핵심 인프라가 되자 탈중앙 대안이 등장했다.",
+        "what": "OpenRouter가 9월 한 달간 568조 토큰(전년 대비 25배)을 처리하며 모델 애그리게이터가 핵심 인프라로 부상했다. AntSeed는 중앙 서버 없이 BitTorrent식 DHT와 WebRTC P2P로 추론 요청을 중개한다.",
+        "points": [
+          "OpenRouter 9월 처리량 568조 토큰, 전년 대비 25배",
+          "BitTorrent식 DHT + WebRTC P2P로 요청 검사 서버 제거",
+          "RFQ 메이커-테이커 구조로 제공자 경쟁",
+          "결제는 Base 위 USDC로 정산"
+        ],
+        "why": [
+          "AI 추론 중개의 검열·감시 우려에 대한 크립토식 해법",
+          "AI 에이전트 결제 레일로서 스테이블코인 활용 사례"
+        ]
+      }
+    },
+    {
+      "id": "crypto-encrypted-mempool-accountability",
+      "title": "암호화 멤풀의 책임성 확보를 위한 트레이터 트레이싱 제안",
+      "summary": "복호화 지분을 MEV용으로 유출하는 위원회 구성원을 추적하는 메커니즘이 이더리움 리서치에 제안됐다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/accountability-for-encrypted-mempools/26123?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "암호화 멤풀의 약점인 키 유출을 사후 추적으로 억제하려는 시도다.",
+        "what": "연구자들은 복호화 지분을 가진 위원회 구성원이 이를 MEV 추출용으로 유출할 수 있다는 책임성 공백을 다룬다. 유출된 능력을 '부분 디코더 박스'로 모델링하고 트레이서 기법을 임계 암호화에 적용했다.",
+        "points": [
+          "유출 능력을 '부분 디코더 박스'로 모델링",
+          "트레이터 트레이싱을 임계(threshold) 암호화에 적용",
+          "한계: 신뢰 설정 위험, 상태 유지 디코더 실패, 양자 취약성"
+        ],
+        "why": [
+          "MEV 방지용 암호화 멤풀의 신뢰 가정을 보강",
+          "이더리움 프로토콜 수준 MEV 대책 논의의 진전"
+        ]
+      }
+    },
+    {
+      "id": "crypto-flash-loan-attacks-study",
+      "title": "플래시론 공격, 2020~2024년 DeFi에서 12억 달러 탈취",
+      "summary": "학술 연구가 72건의 플래시론 공격으로 12.11억 달러가 유출됐으며 이는 DeFi 전체 손실의 18.44%라고 집계했다.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380166/flash-loan-attacks-drained-1-2b-from-defi-between-2020-and-2024-study?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "플래시론 공격의 주 경로가 가격 조작에서 프로토콜 로직 결함으로 옮겨갔다.",
+        "what": "Journal of Financial Crime에 실린 연구가 2020년 2월~2024년 7월 사이 72건의 플래시론 공격을 분석했다. 총 12.11억 달러가 유출돼 같은 기간 DeFi 총 손실 65.68억 달러의 18.44%를 차지했다.",
+        "points": [
+          "손실의 80% 이상이 이더리움에서 발생",
+          "1천만 달러 초과 공격이 탈취액의 88% 이상",
+          "프로토콜 로직 익스플로잇 비중 28% → 55%로 증가"
+        ],
+        "why": [
+          "감사의 초점을 오라클보다 비즈니스 로직 검증으로 옮길 필요",
+          "소수 대형 공격이 손실 대부분을 좌우"
+        ]
+      }
+    },
+    {
+      "id": "crypto-coinbase-builders-league",
+      "title": "코인베이스, Polytopia 월드챔피언십 후원하며 'Builders League' 출범",
+      "summary": "코인베이스가 2026 Polytopia 월드챔피언십 우승 상금을 USDC 1만 달러로 두 배로 늘리고 비전통 인재 발굴 프로그램을 시작했다.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/coinbase/status/2107480329791365535?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "코인베이스가 전략 게임 대회를 인재 발굴 채널로 활용한다.",
+        "what": "코인베이스가 2026 Polytopia 월드챔피언십의 메인 스폰서로 나서 Builders League를 통해 우승자에게 1만 달러 USDC를 추가 지급한다. 결승은 10월 10일 스톡홀름에서 중계된다.",
+        "points": [
+          "우승 상금을 1만 달러 USDC로 두 배 증액",
+          "학력·경력 없는 고잠재력 전략가 발굴 목표",
+          "과거 결선 진출자에 네덜란드 고교생, 프랑스·독일 수학/CS 전공생 포함",
+          "10월 10일 스톡홀름 결승 중계"
+        ],
+        "why": [
+          "크립토 기업의 비전통 채용 경로 실험",
+          "USDC 상금 지급으로 스테이블코인 사용 노출 확대"
+        ]
+      }
+    },
+    {
+      "id": "crypto-tokenized-stocks-395",
+      "title": "토큰화 주식 1년간 395% 성장, DeFi 활용은 3% 미만",
+      "summary": "토큰화 주식 공급량이 1년 새 31.7억 달러로 395% 늘었지만 DeFi에서 쓰이는 비중은 3% 미만에 그쳤다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/converge/defi/redstone-tokenized-stocks-report-defi-gap-equity-perps?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "토큰화 주식은 급증했지만 DeFi 결합성은 아직 활용되지 않고 있다.",
+        "what": "RedStone 보고서에 따르면 토큰화 주식 공급은 지난 1년간 395% 증가해 31.7억 달러에 이르렀다. 반면 DeFi 내 사용 비중은 3% 미만으로 머물렀다.",
+        "points": [
+          "토큰화 주식 공급 31.7억 달러",
+          "1년간 395% 증가",
+          "DeFi 활용 비중 3% 미만"
+        ],
+        "why": [
+          "RWA 성장과 온체인 활용 간 격차가 다음 성장 여지",
+          "담보·대출 등 DeFi 통합이 과제로 남음"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ethena-whitelabel-tradeoff",
+      "title": "Ethena 화이트라벨과 EtherFi USD의 트레이드오프",
+      "summary": "EtherFi USD는 사용자와 유통은 EtherFi가, 수익 엔진은 Ethena가 쥐는 구조라 경쟁사 인프라 의존 위험이 있다는 분석이다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2107836342097092992.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "자체 달러라도 수익 엔진을 남에게 맡기면 의존이 생긴다.",
+        "what": "Ethena는 수익 엔진과 네오뱅크를 통한 유통을 모두 소유한다. EtherFi는 사용자와 유통을 가졌지만 여러 전략에 자본을 배분하므로 스테이블코인은 경쟁사 인프라에 기대게 된다는 분석이다.",
+        "points": [
+          "Ethena: 수익 엔진 + 자체 네오뱅크 유통 보유",
+          "EtherFi: 사용자·유통 보유, 자본은 다전략 배분",
+          "EtherFi USD는 경쟁사 인프라에 의존"
+        ],
+        "why": [
+          "화이트라벨 스테이블코인 모델의 구조적 리스크 조명"
+        ]
+      }
+    },
+    {
+      "id": "crypto-moodys-sky-b3",
+      "title": "무디스, Sky Protocol에 B3 등급 부여… 스테이블코인 프로토콜 첫 신용등급",
+      "summary": "무디스가 USDS 발행사 Sky Protocol에 B3 발행자 등급(전망 안정적)을 부여했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-07-moodys-sky-protocol-b3-rating-first-stablecoin-protocol-417931?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "전통 신용평가사가 DeFi 스테이블코인 프로토콜 평가에 나섰다.",
+        "what": "무디스가 USDS 발행 주체 Sky Protocol에 B3 발행자 등급과 안정적 전망을 부여했다. 스테이블코인 프로토콜에 대한 무디스의 첫 등급이다.",
+        "points": [
+          "B3 발행자 등급, 전망 안정적",
+          "스테이블코인 프로토콜 대상 최초 무디스 등급",
+          "S&P(2025년 8월 B-)에 이어 두 평가사 모두에게 등급 받은 유일한 프로토콜"
+        ],
+        "why": [
+          "기관 투자자가 DeFi 프로토콜 리스크를 전통 잣대로 비교할 수 있게 됨",
+          "투기 등급이라는 점은 여전히 높은 위험을 시사"
+        ]
+      }
+    },
+    {
+      "id": "crypto-vitalik-ai-cryptography",
+      "title": "비탈릭 \"AI가 2년 내 암호기술을 약화시킬 수 있다\"",
+      "summary": "비탈릭 부테린이 AI가 수학 발전을 가속해 ML-DSA·FHE 등 격자 기반 암호를 2년 내 약화시킬 수 있다고 경고했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2107988979274703156.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "양자보다 AI가 먼저 암호 체계를 흔들 수 있다는 경고다.",
+        "what": "비탈릭 부테린은 AI가 수학적 진보를 가속해 ML-DSA와 FHE를 포함한 격자 기반 암호를 2년 안에 약화시킬 수 있다고 경고했다. ECDSA는 그보다 더 일찍 위험해질 수 있다고 덧붙였다.",
+        "points": [
+          "격자 기반 암호(ML-DSA, FHE)가 2년 내 약화 가능",
+          "ECDSA는 더 빨리 위협받을 수 있음",
+          "위협 동인으로 AI의 수학 연구 가속을 지목"
+        ],
+        "why": [
+          "포스트양자 전환 전략 자체가 재검토 대상이 될 수 있음",
+          "블록체인 서명 체계의 장기 안전성에 대한 우려"
+        ]
+      }
+    }
+  ]
+}

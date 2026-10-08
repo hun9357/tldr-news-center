@@ -1,0 +1,289 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-claude-haiku-5-5-pricing",
+      "title": "Claude Haiku 5.5 출시: 10만 토큰 이하에서 GPT-6 Luna와 가격 동급",
+      "summary": "Anthropic의 신규 저가·고속 모델 Haiku 5.5는 입력 100만 토큰당 0.10달러, 출력 0.50달러이며 10만 토큰을 넘으면 가격이 5배로 오른다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "짧은 프롬프트 구간에서는 Haiku 5.5가 가성비 우위, 긴 컨텍스트에서는 GPT-6 Luna가 유리하다.",
+        "what": "Anthropic이 빠르고 저렴한 Claude Haiku 5.5를 내놓았다. 10만 토큰까지는 입력 100만 토큰당 0.10달러, 출력 0.50달러이고 그 이상은 5배로 오른다. Simon Willison은 이를 OpenAI GPT-6 Luna와 비교했다.",
+        "points": [
+          "10만 토큰 이하: 입력 $0.10/M, 출력 $0.50/M",
+          "10만 토큰 초과 시 단가 5배 상승",
+          "10만 토큰 이하에서는 GPT-6 Luna와 가격이 같고 벤치마크 점수는 더 높음",
+          "10만 토큰 초과 구간에서는 Luna가 더 나은 가치"
+        ],
+        "why": [
+          "프롬프트 길이에 따라 최적 모델이 갈리는 구간별 가격 경쟁이 본격화",
+          "대량 처리 워크로드의 모델 선택 기준이 컨텍스트 길이로 이동"
+        ]
+      }
+    },
+    {
+      "id": "tech-mathocalypse",
+      "title": "'매서칼립스': OpenAI의 수학 성과 372건, 읽을 수 없는 증명 논란",
+      "summary": "OpenAI가 수학 돌파 결과 372건을 공개했지만 전문가들은 증명이 조악하게 쓰여 AI 도움 없이는 이해하기 어렵다고 지적했다.",
+      "source": "Scott Aaronson",
+      "url": "https://scottaaronson.blog/?p=10169&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI가 만든 수학 결과의 양은 폭증했지만 인간이 검증·이해할 수 있는 품질은 따라가지 못하고 있다.",
+        "what": "OpenAI가 수학 분야의 돌파적 결과 372건을 한꺼번에 공개했다. 그러나 Scott Aaronson이 전한 전문가 반응에 따르면 증명은 작성이 엉성해 AI 없이는 이해하기 어렵다. 인용도 무관하거나 혼란스러운 경우가 많다.",
+        "points": [
+          "OpenAI, 수학 돌파 결과 372건 발표",
+          "증명 서술이 조악해 AI 보조 없이는 해독 곤란",
+          "논문 전반의 인용이 부적절하거나 혼란스러움"
+        ],
+        "why": [
+          "AI 생성 연구 결과의 검증 가능성과 학술적 품질 기준 문제를 부각",
+          "수학계가 AI 산출물을 받아들이는 방식에 대한 논쟁을 촉발"
+        ]
+      }
+    },
+    {
+      "id": "tech-biohub-doe-nih-bio-data",
+      "title": "저커버그의 Biohub, DOE·NIH와 18억 달러 규모 AI용 생물 데이터 투자",
+      "summary": "Biohub가 미국 에너지부(DOE), 국립보건원(NIH)과 손잡고 AI 학습용 생물학 데이터셋에 18억 달러를 투자한다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/tech/ai/zuckerbergs-biohub-partners-with-doe-nih-to-invest-1-8-billion-in-biological-data-for-ai-models-f8d5f799?st=Js7LNy&reflink=desktopwebshare_permalink&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "민관 협력으로 AI 학습에 바로 쓸 수 있는 대규모 생물학 데이터 인프라가 구축된다.",
+        "what": "저커버그가 후원하는 Biohub가 DOE·NIH와 함께 AI용 생물학 데이터셋에 총 18억 달러를 투입한다. DOE는 5년간 5억 달러 이상을 실험 측정과 모델링에 쓰고, NIH는 데이터셋 기여를 조율한다. Biohub는 데이터를 AI 학습용으로 표준화한다.",
+        "points": [
+          "총 18억 달러 규모 공동 투자",
+          "DOE: 5년간 5억 달러 이상, 실험 측정·모델링 담당",
+          "NIH: 데이터셋 기여 조율",
+          "Biohub: AI 학습용 데이터 표준화"
+        ],
+        "why": [
+          "바이오 AI의 병목인 고품질 학습 데이터 부족을 정부 자금으로 해소하려는 시도",
+          "질병 예방·치료 연구 가속 기대"
+        ]
+      }
+    },
+    {
+      "id": "tech-first-nuclear-clocks",
+      "title": "빈과 베이징에서 세계 최초 원자핵 시계 가동",
+      "summary": "빈과 베이징의 독립된 연구팀이 토륨 원자핵 진동을 이용한 최초의 원자핵 시계를 동시에 구현했다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/07/science/first-nuclear-clocks-thorium-229.html?unlocked_article_code=1.HFE.1iUy.NoHdOAmeAMAL&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "토륨 원자핵 시계가 수백만 년에 1초 오차 수준의 정밀도로 첫 가동에 들어갔다.",
+        "what": "빈과 베이징의 두 연구팀이 각각 토륨 원자핵의 진동을 이용한 최초의 원자핵 시계를 만들었다. 정밀도는 수백만 년에 1초를 잃는 수준이다. 이 시계는 리듬의 미세한 흔들림을 통해 특정 암흑물질 입자를 감지할 수도 있다.",
+        "points": [
+          "빈·베이징 독립 팀이 동시에 성공",
+          "토륨 원자핵 진동을 시간 기준으로 사용",
+          "수백만 년에 1초 오차 수준의 정밀도",
+          "리듬 흔들림으로 특정 암흑물질 입자 탐지 가능"
+        ],
+        "why": [
+          "시간 측정 기술의 새 세대 개막",
+          "기초물리·암흑물질 연구의 새 관측 도구"
+        ]
+      }
+    },
+    {
+      "id": "tech-influence-without-authority",
+      "title": "권한 없이 영향력 갖기: 슈퍼 IC의 일하는 법",
+      "summary": "슈퍼 IC는 눈에 띄지 않는 일을 꾸준히 해내며 영향력을 쌓고, 다른 사람들이 의존하게 될 때 권한이 자연스럽게 생긴다는 에세이.",
+      "source": "Gabriel Valdivia",
+      "url": "https://www.gabrielvaldivia.com/notes/influence-without-authority?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "직함이 아닌 신뢰와 실행으로 영향력을 만드는 것이 시니어 IC의 핵심 역량이다.",
+        "what": "Gabriel Valdivia는 뛰어난 개인 기여자(IC)가 화려하지 않은 일을 꾸준히 실행하며 영향력을 쌓는다고 말한다. 다른 사람들이 의존하게 되면 권한은 자연히 따라온다. 이를 위해 기술을 연마하고 아이디어를 전달 가능한 형태로 만드는 것이 중요하다.",
+        "points": [
+          "꾸준한 실행이 영향력의 기반",
+          "아이디어를 남이 다시 말할 수 있는 서사로 전환",
+          "생각을 독립적으로 배포 가능한 형태로 패키징",
+          "동료의 목표를 지원"
+        ],
+        "why": [
+          "관리직이 아닌 커리어 경로에서 성장하는 방법에 대한 실용적 가이드"
+        ]
+      }
+    },
+    {
+      "id": "tech-software-blogging-anti-patterns",
+      "title": "소프트웨어 블로그 글쓰기의 안티패턴",
+      "summary": "좋은 기술 글은 외부 링크나 툴팁 없이도 독자를 즉시 끌어들여야 하며, 속편식 구성은 피하라는 조언.",
+      "source": "Refactoring English",
+      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "기술 블로그는 첫 문단부터 독립적으로 읽히고 모바일에서도 잘 보여야 한다.",
+        "what": "Refactoring English가 소프트웨어 블로그에서 흔한 안티패턴을 정리했다. 독자가 외부 링크나 툴팁 없이도 바로 몰입할 수 있어야 하고, 글을 이전 글의 속편처럼 구성하지 말라고 권한다. 대화체를 유지하고 모바일 접근성과 대비도도 점검해야 한다.",
+        "points": [
+          "외부 링크·툴팁 없이도 이해되는 도입부",
+          "속편 형식의 글 구성 지양",
+          "대화체 톤 유지",
+          "모바일 접근성과 명암비 점검"
+        ],
+        "why": [
+          "개발자 기술 글쓰기 품질을 높이는 체크리스트로 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "tech-melee-living-room-vr",
+      "title": "슈퍼 스매시브라더스 근접전을 거실에 띄운 개발자",
+      "summary": "Melee 디컴파일이 100% 완료된 뒤, 한 개발자가 Meta Quest로 게임 플레이를 자신의 아파트 공간에 렌더링했다.",
+      "source": "kevin.md",
+      "url": "https://www.kevin.md/i-put-melee-in-my-living-room.md?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "완전한 디컴파일이 고전 게임을 VR·MR로 재해석하는 길을 열었다.",
+        "what": "9월 7일 Super Smash Bros. Melee의 디컴파일이 100% 완료됐다. 이후 한 개발자가 Meta Quest를 이용해 게임 플레이를 자신의 아파트 안에 렌더링했다. 화면 녹화 영상은 며칠 만에 10만 회 이상 조회됐고, 글은 VR 이식의 기술적 과정을 설명한다.",
+        "points": [
+          "Melee 디컴파일 9월 7일 100% 완료",
+          "Meta Quest로 경기를 실제 공간에 렌더링",
+          "녹화 영상 며칠 만에 10만 뷰 돌파",
+          "VR 이식 기술 과정 상세 공개"
+        ],
+        "why": [
+          "디컴파일 프로젝트가 고전 게임의 새로운 활용을 가능케 함"
+        ]
+      }
+    },
+    {
+      "id": "tech-artcraft-adobe-clones",
+      "title": "'소프트웨어는 끝났다': Adobe 오픈소스 클론을 내놓은 AI 개발자",
+      "summary": "Artcraft가 Claude Opus 5.5로 Photoshop, Illustrator, Premiere 등 Adobe 앱 인터페이스를 복제한 오픈소스 앱들을 공개했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 코딩으로 대형 상용 소프트웨어를 복제하려는 시도가 Adobe를 정조준했다.",
+        "what": "Artcraft가 Photoshop, Illustrator, Premiere, Lightroom, After Effects, InDesign, Acrobat Pro의 인터페이스를 재현한 오픈소스 앱을 공개했다. 개발에는 Claude Opus 5.5가 쓰였다. 아직 초기 알파지만 개발자들은 수개월 내 99% 기능 동등성 달성이 가능하다고 주장한다.",
+        "points": [
+          "Adobe 주력 앱 7종의 인터페이스를 오픈소스로 복제",
+          "Claude Opus 5.5로 개발",
+          "현재는 초기 알파 단계",
+          "수개월 내 99% 기능 동등성 주장"
+        ],
+        "why": [
+          "AI 코딩이 상용 소프트웨어 해자를 위협한다는 주장의 시험대",
+          "Adobe 등 SaaS 기업 경쟁 구도에 대한 논쟁 확산"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-popular-politics",
+      "title": "AI와 대중 정치에 관한 노트",
+      "summary": "대중은 현재 AI 기능에는 대체로 만족하지만 미래 발전은 우려하며, 정책 당국의 미·중 경쟁 프레임은 대중의 지지를 받지 못한다는 분석.",
+      "source": "Jasmine Sun",
+      "url": "https://jasmi.news/p/ai-polls?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI에 대한 여론과 정책 우선순위 사이에 간극이 있다.",
+        "what": "여론조사를 바탕으로 AI에 대한 대중 정서를 분석한 글이다. 사람들은 현재 AI 기능에는 대체로 만족하지만 앞으로의 발전에는 불안해한다. 반면 국가 정책 결정자들은 대중이 지지하지 않는 미·중 경쟁 구도를 우선시한다.",
+        "points": [
+          "현재 AI 기능에 대한 대체로 긍정적 인식",
+          "미래 AI 발전에 대한 불안",
+          "정책 당국은 미·중 경쟁을 최우선시",
+          "그 경쟁 프레임은 대중의 지지가 부족"
+        ],
+        "why": [
+          "AI 규제·정책 방향에 여론이 미칠 영향을 가늠하게 함"
+        ]
+      }
+    },
+    {
+      "id": "tech-xbox-return-to-growth",
+      "title": "Xbox 수장 아샤 샤르마, 사내 타운홀서 '성장 복귀' 언급",
+      "summary": "Xbox 리더십이 퍼스트파티 부문의 성장 회복과 2026년 초 하락 이후 사용자 참여 안정화를 보고했다고 전해졌다.",
+      "source": "GamesIndustry.biz",
+      "url": "https://www.gamesindustry.biz/asha-sharma-reportedly-informs-staff-that-xbox-has-started-to-return-to-growth-during-internal-town-hall?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "부진하던 Xbox가 퍼스트파티 중심으로 반등 신호를 보이고 있다.",
+        "what": "Asha Sharma가 사내 타운홀에서 Xbox가 '성장으로 돌아서기 시작했다'고 직원들에게 말한 것으로 보도됐다. 퍼스트파티 부문이 회복세이고, 2026년 초 감소했던 사용자 참여도도 안정됐다는 내용이다.",
+        "points": [
+          "사내 타운홀에서 성장 복귀 발언",
+          "퍼스트파티 부문 성장 회복",
+          "2026년 초 하락 이후 사용자 참여 안정화"
+        ],
+        "why": [
+          "Microsoft 게임 사업 전략의 성과를 가늠하는 지표"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-verified-photography",
+      "title": "Apple의 인증 사진 시스템 'Reference Image'",
+      "summary": "Apple의 Reference Image 시스템은 아이폰으로 촬영한 이미지를 특정 기기나 촬영자와 연결하지 않고 인증한다.",
+      "source": "Schneier on Security",
+      "url": "https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "사진의 진위 증명과 촬영자 프라이버시를 동시에 노린 설계다.",
+        "what": "Bruce Schneier가 Apple의 'Reference Image' 시스템을 소개했다. 이 시스템은 아이폰으로 촬영된 이미지를 인증하지만, 검증 결과를 특정 기기나 사진가와 연결하지 않는다.",
+        "points": [
+          "아이폰 촬영 이미지의 진위 인증",
+          "검증 정보가 특정 기기에 연결되지 않음",
+          "촬영자 신원과도 분리"
+        ],
+        "why": [
+          "AI 생성 이미지 시대에 사진 진위 확인 수요 대응",
+          "인증과 익명성의 균형을 잡은 사례"
+        ]
+      }
+    },
+    {
+      "id": "tech-starlink-ephemeris-sharing",
+      "title": "스타링크의 궤도 근접 회피안: 궤도력 데이터 공유",
+      "summary": "SpaceX가 위성 운영사들이 궤도력(ephemeris) 데이터를 공유해 회피 기동을 조율하고 충돌을 막자고 제안했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/offbeat/2026/10/07/starlinks-plan-to-avoid-orbital-near-misses-ephemeris-sharing/5301650?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "위성 충돌 위험을 줄이려면 사업자 간 궤도 데이터 공유가 필요하다는 주장이다.",
+        "what": "SpaceX가 위성 운영사들 사이에서 궤도력 데이터를 공유하자고 제안했다. 이를 통해 회피 기동을 조율하고 위성 간 충돌을 예방하자는 것이다.",
+        "points": [
+          "궤도력 데이터 공유 제안",
+          "운영사 간 회피 기동 조율",
+          "충돌 예방 목적"
+        ],
+        "why": [
+          "저궤도 위성 급증에 따른 우주 교통 관리 이슈"
+        ]
+      }
+    },
+    {
+      "id": "tech-when-hypotheses-become-cheap",
+      "title": "가설이 싸질 때",
+      "summary": "가설 검증 비용이 낮아지면서 실증적 증거와 데이터 기반 의사결정의 중요성이 커진다는 글.",
+      "source": "CipherTalk",
+      "url": "https://ciphertalk.substack.com/p/when-hypotheses-become-cheap?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "가설 생성이 쉬워질수록 차별점은 증거로 옮겨간다.",
+        "what": "가설을 세우고 검증하는 비용이 줄어드는 상황을 다룬 에세이다. 필자는 이 때문에 실증적 증거와 데이터 기반 의사결정의 가치가 더 높아진다고 주장한다.",
+        "points": [
+          "가설 검증 비용 하락",
+          "실증적 증거의 중요성 상승",
+          "데이터 기반 의사결정 강조"
+        ],
+        "why": [
+          "AI로 아이디어 생산이 쉬워진 환경에서 판단 기준을 재정립"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-strategy-commoditized-models",
+      "title": "모델이 범용화된다면: AI 전략의 변화",
+      "summary": "Tom Tunguz는 AI 연구소들이 모델 파트너십과 재판매, UI 장악, 라우팅 메타데이터 활용에 집중해야 한다고 주장한다.",
+      "source": "Tom Tunguz",
+      "url": "https://tomtunguz.com/what-if-the-models-are-commoditized?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "모델이 범용화되면 경쟁력은 유통과 사용자 접점에서 나온다.",
+        "what": "Tom Tunguz가 AI 모델이 범용화될 경우의 전략을 제시했다. AI 연구소는 모델 파트너십과 재판매를 우선하고, 사용자 인터페이스를 유통 우위로 확보해야 한다. 또 라우팅 메타데이터를 활용해 향후 학습 비용을 줄일 수 있다고 본다.",
+        "points": [
+          "모델 파트너십·재판매 우선",
+          "UI 장악을 유통 우위로 활용",
+          "라우팅 메타데이터로 학습 비용 절감"
+        ],
+        "why": [
+          "모델 성능 격차가 줄어드는 시장에서 AI 기업의 해자 논의"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "name": "핀테크",
+  "source": "TLDR Fintech",
+  "icon": "💳",
+  "color": "#c6e36a",
+  "bg": "#2a3012",
+  "items": [
+    {
+      "id": "fintech-plaid-risk-ai-models",
+      "title": "Plaid, 신용·사기·결제 리스크 AI 모델 출시",
+      "summary": "Plaid가 대출 심사, 사기 탐지, 결제 리스크 감소를 위한 AI 모델을 공개했으며, 현금흐름 데이터로 기존 신용점수 밖의 차입자를 평가합니다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/newsarticle/48545/plaid-launches-credit-fraud-and-payment-risk-ai-models?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Plaid가 데이터 연결을 넘어 리스크 판단 모델 사업으로 확장한다.",
+        "what": "Plaid가 대출 결정, 사기 탐지, 결제 리스크 감소를 위한 AI 모델을 출시했습니다. 현금흐름 데이터를 활용해 전통적 신용점수 체계 밖의 차입자도 평가할 수 있게 합니다.",
+        "points": [
+          "신용·사기·결제 리스크 3개 영역 AI 모델",
+          "현금흐름 데이터 기반 심사",
+          "전통 신용점수 밖의 차입자 평가 가능"
+        ],
+        "why": [
+          "오픈뱅킹 데이터 사업자가 의사결정 레이어까지 수직 확장하는 흐름",
+          "신파일러 대상 대출 확대 가능성"
+        ]
+      }
+    },
+    {
+      "id": "fintech-valon-series-d",
+      "title": "Valon, 기업가치 23억 달러로 1.5억 달러 시리즈 D 유치",
+      "summary": "Valon이 Ribbit Capital 주도로 1억 5천만 달러를 조달했으며, ValonOS는 미국 모기지 6건 중 1건을 운영하고 Ditto AI 에이전트가 고객 응대와 에스크로 분석을 자동화합니다.",
+      "source": "Valon",
+      "url": "https://www.valon.ai/blog/series-d-deploying-valonos-and-ai-to-the-mortgage-industry?utm_source=tldrfintech",
+      "report": {
+        "tldr": "모기지 서비싱 인프라에 AI 에이전트를 얹은 Valon이 대형 투자를 받았다.",
+        "what": "Valon이 Ribbit Capital 주도로 기업가치 23억 달러에 1억 5천만 달러 시리즈 D를 유치했습니다. 자사 ValonOS는 미국 모기지 6건 중 1건을 운영하며, Ditto AI 에이전트가 주택 소유자 커뮤니케이션과 에스크로 분석을 자동화합니다.",
+        "points": [
+          "1억 5천만 달러 시리즈 D, 기업가치 23억 달러",
+          "Ribbit Capital 주도",
+          "ValonOS가 미국 모기지 6건 중 1건 운영",
+          "Ditto AI 에이전트로 고객 응대·에스크로 분석 자동화"
+        ],
+        "why": [
+          "레거시가 강한 모기지 서비싱 시장에서 AI 운영 자동화의 규모 검증"
+        ]
+      }
+    },
+    {
+      "id": "fintech-pine-labs-singapore",
+      "title": "Pine Labs, 싱가포르에서 가맹점 통합 플랫폼 출시",
+      "summary": "Pine Labs가 싱가포르에서 결제 수납, 매입, 할부, 고객 관리 기능을 통합한 가맹점 플랫폼을 출시했습니다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/pressarticle/111148/pine-labs-launches-unified-platform-for-merchants-in-singapore?utm_source=tldrfintech",
+      "report": {
+        "tldr": "인도 결제사 Pine Labs가 동남아에서 올인원 가맹점 플랫폼으로 확장한다.",
+        "what": "Pine Labs가 싱가포르 가맹점을 위한 통합 플랫폼을 발표했습니다. 결제 수납, 매입(acquiring), 할부 결제, 고객 참여 기능을 하나로 묶었습니다.",
+        "points": [
+          "싱가포르 가맹점 대상 출시",
+          "결제 수납·매입·할부·고객 참여 통합",
+          "단일 플랫폼 형태 제공"
+        ],
+        "why": [
+          "동남아 가맹점 결제 시장에서 통합형 서비스 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "fintech-collison-agents-commerce",
+      "title": "John Collison, 'AI 에이전트가 인터넷 상거래를 재편한다'",
+      "summary": "Stripe 공동창업자 John Collison은 AI 에이전트가 온라인 상거래의 주요 행위자로 인간을 대체해 나가며, 스테이블코인과 지갑 등 인프라 재설계가 필요하다고 주장했습니다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2107108798607536563.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Stripe는 기계가 주도하는 거래를 위한 결제 인프라 재설계를 예고한다.",
+        "what": "Stripe 공동창업자 John Collison은 AI 에이전트가 점점 인간을 대신해 온라인 상거래의 주된 주체가 될 것이라고 밝혔습니다. 이에 따라 스테이블코인과 지갑 등 결제 인프라를 기계 간 거래에 맞게 재설계해야 한다고 강조했습니다.",
+        "points": [
+          "AI 에이전트가 온라인 상거래의 주요 행위자로 부상",
+          "기계 주도 거래를 위한 인프라 재설계 필요",
+          "스테이블코인과 지갑이 핵심 레일로 거론"
+        ],
+        "why": [
+          "Stripe의 에이전틱 커머스 전략 방향을 보여주는 신호",
+          "같은 날 Stripe 크립토 전략 인사와도 맞물림"
+        ]
+      }
+    },
+    {
+      "id": "fintech-cftc-crypto-exchanges",
+      "title": "CFTC, 크립토 거래소를 연방 감독 아래 두는 방안 공개",
+      "summary": "CFTC가 크립토 거래소의 연방 등록을 허용하는 규제 틀을 제안했으며, 레버리지 제공 여부를 연방 감독의 기준으로 삼고 비레버리지 거래소는 주 라이선스를 유지하게 합니다.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380090/cftc-plan-crypto-exchanges-federal-oversight-leverage?utm_source=tldrfintech",
+      "report": {
+        "tldr": "레버리지가 크립토 거래소 연방 규제의 분기점이 된다.",
+        "what": "CFTC가 크립토 거래소가 연방에 등록할 수 있는 규제 프레임워크를 제안했습니다. 레버리지 제공이 연방 감독의 주요 기준이 되며, 레버리지를 제공하지 않는 거래소는 기존처럼 주 단위 라이선스로 운영됩니다.",
+        "points": [
+          "크립토 거래소 연방 등록 경로 제시",
+          "레버리지 제공 여부가 연방 감독 트리거",
+          "비레버리지 거래소는 주 라이선스 유지"
+        ],
+        "why": [
+          "미국 크립토 거래소의 규제 지형과 상품 전략(레버리지 제공 여부)에 직접 영향"
+        ]
+      }
+    },
+    {
+      "id": "fintech-cloudflare-machine-payments",
+      "title": "Cloudflare의 2천억 달러짜리 머신 결제 베팅, 0.30달러씩",
+      "summary": "Cloudflare가 에이전트가 요청 단위로 결제할 수 있게 하면서, 소프트웨어 경제가 구독에서 토큰 기반 추론 비용으로 이동하는 흐름을 분석한 글입니다.",
+      "source": "Lex",
+      "url": "https://lex.substack.com/p/ai-cloudflares-200b-shot-at-machine?utm_source=tldrfintech",
+      "report": {
+        "tldr": "요청당 과금이 에이전트 시대의 새로운 결제 단위가 될 수 있다.",
+        "what": "Cloudflare는 AI 에이전트가 요청마다 비용을 지불할 수 있도록 지원합니다. 분석은 자율 시스템 시대에 소프트웨어 경제가 구독 모델에서 토큰 기반 추론 비용 모델로 옮겨가고 있다고 봅니다.",
+        "points": [
+          "Cloudflare가 에이전트의 요청당 결제 지원",
+          "구독에서 토큰 기반 추론 비용으로의 전환",
+          "자율 시스템을 위한 마이크로페이먼트 모델"
+        ],
+        "why": [
+          "인터넷 인프라 사업자가 머신 결제 레일의 주도권을 노리는 움직임"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stuut-series-b",
+      "title": "Stuut, 송장 수금 자동화로 5,250만 달러 시리즈 B 유치",
+      "summary": "Stuut이 5,250만 달러 시리즈 B를 유치해 매출채권 자동화 AI 에이전트 플랫폼을 신용, 대출, 해외 결제 운영으로 확장합니다.",
+      "source": "Axios",
+      "url": "https://www.axios.com/pro/fintech-deals/2026/10/07/stuut-52-5-million-series-b-insight-partners?utm_source=tldrfintech",
+      "report": {
+        "tldr": "AR 자동화 에이전트가 재무 운영 전반으로 확장을 노린다.",
+        "what": "Stuut이 5,250만 달러 규모의 시리즈 B 투자를 유치했습니다. 매출채권 자동화에서 출발한 AI 에이전트 플랫폼을 신용, 대출, 해외 송금 운영으로 넓힐 계획입니다.",
+        "points": [
+          "5,250만 달러 시리즈 B",
+          "매출채권(수금) 자동화 AI 에이전트 플랫폼",
+          "신용·대출·해외 결제 운영으로 확장 계획"
+        ],
+        "why": [
+          "기업 재무(CFO 오피스) 업무에 AI 에이전트 도입이 빠르게 확산"
+        ]
+      }
+    },
+    {
+      "id": "fintech-modern-treasury-trust-bank",
+      "title": "Modern Treasury, 국법 신탁은행 설립 신청",
+      "summary": "Modern Treasury가 OCC에 디지털 자산 수탁과 법정화폐 서비스를 결제 플랫폼과 통합 제공하는 제한목적 국법 신탁은행 설립 승인을 신청했습니다.",
+      "source": "Modern Treasury",
+      "url": "https://www.moderntreasury.com/newsroom/press-releases/modern-treasury-applies-to-establish-national-trust-bank?utm_source=tldrfintech",
+      "report": {
+        "tldr": "결제 인프라 핀테크가 은행 인가로 디지털 자산 수탁까지 직접 하려 한다.",
+        "what": "Modern Treasury가 OCC에 제한목적 국법 신탁은행 설립 승인을 신청했습니다. 승인 시 디지털 자산 수탁과 법정화폐 서비스를 자사 결제 플랫폼과 통합해 제공할 계획입니다.",
+        "points": [
+          "OCC에 제한목적 국법 신탁은행 인가 신청",
+          "디지털 자산 수탁 서비스 제공 목표",
+          "법정화폐 서비스와 결제 플랫폼 통합"
+        ],
+        "why": [
+          "핀테크·크립토 기업들의 OCC 신탁은행 인가 신청 행렬에 합류",
+          "스테이블코인 결제 인프라 경쟁에서 규제 우위 확보 시도"
+        ]
+      }
+    },
+    {
+      "id": "fintech-stripe-henri-stern-crypto",
+      "title": "Henri Stern, Stripe의 크립토·스테이블코인 전략 총괄",
+      "summary": "Privy CEO Henri Stern이 Stripe에서 역할을 넓혀 지갑, 법정화폐 레일, 스테이블코인 인프라를 잇는 개방형 글로벌 개발자 플랫폼에 집중합니다.",
+      "source": "X",
+      "url": "https://x.com/sternhenri/status/2107113519564922897?utm_source=tldrfintech",
+      "report": {
+        "tldr": "Stripe가 Privy 창업자에게 크립토 전략을 맡겨 스테이블코인 플랫폼화를 가속한다.",
+        "what": "Stripe에 인수된 Privy의 CEO Henri Stern이 Stripe의 크립토 및 스테이블코인 전략을 맡게 됐습니다. 지갑, 법정화폐 레일, 스테이블코인 인프라를 연결하는 개방형 글로벌 개발자 플랫폼 구축에 집중한다고 밝혔습니다.",
+        "points": [
+          "Privy CEO Henri Stern의 역할 확대",
+          "Stripe 크립토·스테이블코인 전략 총괄",
+          "지갑·법정화폐 레일·스테이블코인을 잇는 개발자 플랫폼 지향"
+        ],
+        "why": [
+          "Stripe의 스테이블코인 사업이 조직적으로 강화되고 있음을 시사"
+        ]
+      }
+    },
+    {
+      "id": "fintech-agents-pay-wrong-party",
+      "title": "에이전트가 엉뚱한 상대에게 결제할 때: 2026년 공개 기록 분석",
+      "summary": "에이전틱 커머스의 결제 실패 사례를 분석한 결과, 확인된 실제 손실 총액 데이터는 아직 드물어 AI 에이전트 결제 리스크의 문서화가 부족하다는 지적입니다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/blogposting/33090/when-agents-pay-the-wrong-party-what-the-sourced-public-record-shows-so-far-in-2026?utm_source=tldrfintech",
+      "report": {
+        "tldr": "에이전트 결제 오류의 실제 피해 규모는 아직 제대로 집계되지 않고 있다.",
+        "what": "글은 2026년 지금까지 공개된 자료를 바탕으로 AI 에이전트가 잘못된 상대에게 결제한 사례를 정리합니다. 확인된 실제 손실 총액은 여전히 드물어 리스크 문서화 수준에 의문을 제기합니다.",
+        "points": [
+          "에이전틱 커머스 결제 실패 사례 분석",
+          "확인된 프로덕션 손실 총액은 아직 희소",
+          "AI 에이전트 결제 리스크 문서화 부족"
+        ],
+        "why": [
+          "에이전트 결제 확산에 앞서 책임 소재와 사고 보고 체계가 필요"
+        ]
+      }
+    },
+    {
+      "id": "fintech-end-of-multi-day-payment",
+      "title": "다일(多日) 결제의 종말이 보이는가",
+      "summary": "국경 간 결제의 빠른 정산 압박이 커지면서 은행들이 기관 결제 전략에 스테이블코인을 점점 더 편입하고 있습니다.",
+      "source": "Finextra",
+      "url": "https://www.finextra.com/blogposting/33098/is-the-end-of-the-multi-day-payment-finally-in-sight?utm_source=tldrfintech",
+      "report": {
+        "tldr": "스테이블코인이 은행의 국경 간 정산 단축 수단으로 부상한다.",
+        "what": "글은 국경 간 결제의 다일 정산 관행이 끝나가는지 살펴봅니다. 더 빠른 정산에 대한 압박이 커지면서 은행들이 기관 결제 전략에 스테이블코인을 점점 더 포함시키고 있습니다.",
+        "points": [
+          "국경 간 결제의 빠른 정산 압박 증가",
+          "은행들의 기관 결제 전략에 스테이블코인 편입 확대"
+        ],
+        "why": [
+          "기존 코레스 은행 체계의 정산 지연을 대체할 경쟁 구도 형성"
+        ]
+      }
+    },
+    {
+      "id": "fintech-fintech-is-dead-agents-tokens",
+      "title": "'핀테크는 끝났다, 다음 물결은 에이전트와 토큰'",
+      "summary": "클라우드와 모바일 기반의 전통적 핀테크는 성숙 단계에 들어섰고, 에이전트와 토큰이 새로운 혁신의 최전선이라는 주장입니다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2107157478810997027.html?utm_source=tldrfintech",
+      "report": {
+        "tldr": "핀테크의 다음 성장 축은 에이전트와 토큰화라는 시각이다.",
+        "what": "글은 클라우드와 모바일 인프라 위에 세워진 기존 핀테크가 이미 성숙했다고 진단합니다. 그 대신 AI 에이전트와 토큰이 새로운 혁신의 최전선이 될 것이라고 주장합니다.",
+        "points": [
+          "클라우드·모바일 기반 핀테크는 성숙 단계",
+          "에이전트와 토큰이 새로운 혁신 프런티어"
+        ],
+        "why": [
+          "오늘 Stripe·Cloudflare 관련 소식과 같은 방향의 업계 담론"
+        ]
+      }
+    }
+  ]
+}

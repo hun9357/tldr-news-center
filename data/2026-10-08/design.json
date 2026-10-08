@@ -1,0 +1,301 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-pinterest-ai-beauty-guides",
+      "title": "핀터레스트 AI, 뷰티 핀을 실행 가능한 가이드로 변환",
+      "summary": "핀터레스트 Beauty Guides가 저장한 스타일링 핀을 전문 용어·가격·관리 정보가 담긴 미용실용 지침으로 바꿔준다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "시각적 영감을 실행 단계로 번역하는 AI 기능이 핀터레스트에 도입됐다.",
+        "what": "핀터레스트가 Beauty Guides를 출시했다. 사용자가 저장한 뷰티 핀을 분석해 미용실에서 바로 쓸 수 있는 지침으로 변환하며, 시각 레퍼런스를 전문 용어로 옮기고 가격과 유지 관리 정보까지 제공한다.",
+        "points": [
+          "저장된 스타일링 핀을 미용실용 지침으로 변환",
+          "시각 레퍼런스를 전문 용어로 번역",
+          "가격과 유지 관리 정보 포함"
+        ],
+        "why": [
+          "영감 수집 플랫폼이 실제 행동(구매·예약)으로 이어지는 흐름을 설계하는 사례",
+          "이미지 기반 서비스에서 AI가 '번역자' 역할을 하는 UX 패턴"
+        ]
+      }
+    },
+    {
+      "id": "design-figma-agent-ga",
+      "title": "Figma 에이전트 정식 출시",
+      "summary": "Figma 에이전트가 베타를 마치고 성능 개선, 검색 강화, 디자인 라이브러리 컨텍스트, 실시간 팀 협업, 신규 플러그인 기능과 함께 정식 출시됐다.",
+      "source": "Figma",
+      "url": "https://www.figma.com/release-notes/?title=the-figma-agent-is-generally-available&utm_source=tldrdesign",
+      "report": {
+        "tldr": "Figma의 AI 에이전트가 베타를 졸업하고 정식 기능이 됐다.",
+        "what": "Figma가 에이전트 기능을 정식 출시(GA)했다. 베타 대비 성능이 개선됐고 검색 기능, 디자인 라이브러리 컨텍스트 옵션, 실시간 팀 협업, 새로운 플러그인 기능이 추가됐다.",
+        "points": [
+          "베타 종료 후 정식 출시",
+          "성능 개선 및 검색 기능 강화",
+          "디자인 라이브러리 컨텍스트 옵션 제공",
+          "실시간 팀 협업과 신규 플러그인 기능"
+        ],
+        "why": [
+          "주요 디자인 툴 내 AI 에이전트가 실무 표준 워크플로로 편입되는 신호",
+          "디자인 시스템 라이브러리를 에이전트 컨텍스트로 쓰면 결과물 일관성이 높아질 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "design-apple-lg-smart-home-leak",
+      "title": "유출 이미지로 드러난 애플·LG 공동 스마트홈 제품",
+      "summary": "애플과 LG가 공동 개발한 키패드 도어락, 온도조절기, 센서, 보안 장비 등 LG 브랜드 스마트홈 제품 이미지가 유출됐다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/07/leaked-images-reveal-apples-new-home-smart-lock-thermostat-more-for-lg/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "애플이 LG 브랜드로 스마트홈 하드웨어를 공동 개발 중인 정황이 포착됐다.",
+        "what": "유출된 이미지를 통해 애플과 LG가 공동 개발한 스마트홈 제품군이 공개됐다. 키패드 잠금장치, 온도 조절기, 센서, 보안 장비 등이 포함되며 LG 브랜드로 출시되는 것으로 보인다.",
+        "points": [
+          "애플·LG 공동 개발 스마트홈 제품군 유출",
+          "키패드 도어락, 온도조절기, 센서, 보안 장비 포함",
+          "LG 브랜드로 표기"
+        ],
+        "why": [
+          "애플이 파트너 브랜드를 통해 홈 생태계를 확장하는 전략으로 해석 가능",
+          "스마트홈 기기 디자인 언어의 협업 방식에 주목할 만함"
+        ]
+      }
+    },
+    {
+      "id": "design-wait-for-research-before-ui",
+      "title": "리서치로 필요성이 입증될 때까지 UI 요소를 추가하지 않는 이유",
+      "summary": "근거 없이 UI 요소를 먼저 추가하면 사용자 이점은 확인되지 않은 채 인지 부하만 늘어나므로, 사용자 리서치로 필요성이 증명된 뒤 추가해야 한다는 주장.",
+      "source": "adamsilver.io",
+      "url": "https://adamsilver.io/blog/why-i-wait-for-research-to-prove-something-is-needed-before-its-added-to-the-ui/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "UI는 '혹시 몰라서'가 아니라 리서치가 증명한 필요에 따라 추가해야 한다.",
+        "what": "Adam Silver는 UI 요소 추가를 사용자 리서치가 필요성을 입증할 때까지 미뤄야 한다고 주장한다. 성급한 추가는 실제 사용자 이점을 확인하지 못한 채 인지 부하만 키운다는 것이다.",
+        "points": [
+          "UI 요소 추가는 리서치 근거 확보 후로",
+          "성급한 추가는 인지 부하 증가",
+          "사용자 이점이 확인되지 않은 기능은 비용"
+        ],
+        "why": [
+          "기능 과잉(feature creep)을 막는 실용적 의사결정 원칙",
+          "디자인 리뷰에서 '근거'를 요구하는 문화 정착에 도움"
+        ]
+      }
+    },
+    {
+      "id": "design-good-enough-for-designers",
+      "title": "디자이너에게 '충분히 좋은'의 의미는 무엇인가",
+      "summary": "AI의 속도가 완성도 높은 산출물에 대한 압박을 키우지만, '충분히 좋은' 수준은 피드백·견적·승인 등 구체적 목표에 맞춰 충실도를 정해야 한다는 글.",
+      "source": "The Designer's Field Guide",
+      "url": "https://thedesignersfieldguide.substack.com/p/what-does-good-enough-actually-mean?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 시대에도 산출물의 충실도는 목적에 맞춰 정해야 한다.",
+        "what": "AI 덕분에 빠르게 완성도 높은 결과물을 만들 수 있게 되면서 디자이너에게 더 다듬어진 산출물에 대한 압박이 커졌다. 글은 '충분히 좋은' 기준을 피드백 확보, 견적, 승인 등 해당 단계의 목표에 맞춰야 한다고 제안한다.",
+        "points": [
+          "AI 속도로 인해 완성도 압박 증가",
+          "충실도는 단계별 목표(피드백·견적·승인)에 맞춰야",
+          "과도한 폴리싱은 목적을 흐릴 수 있음"
+        ],
+        "why": [
+          "AI 도구 확산 속에서 디자이너의 시간 배분 기준을 제시",
+          "이해관계자 기대치 관리에 활용 가능한 프레임"
+        ]
+      }
+    },
+    {
+      "id": "design-granola-onboarding-test",
+      "title": "Granola의 온보딩 부재가 '시험 사용' 때 역효과를 내는 이유",
+      "summary": "첫 사용자는 실제 사용 전에 녹음 앱을 시험해보는 경향이 있어, Granola는 전사 기능을 보여주는 전용 데모 모드가 있으면 좋다는 분석.",
+      "source": "Built for Mars",
+      "url": "https://builtformars.com/case-studies/granola?utm_source=tldrdesign",
+      "report": {
+        "tldr": "사용자는 먼저 '시험'해본다 — 온보딩은 그 행동을 고려해야 한다.",
+        "what": "Built for Mars는 AI 노트 앱 Granola의 UX를 분석했다. 처음 쓰는 사용자는 실제 회의 전에 앱을 시험해보는데, 온보딩이 없어 이 과정에서 가치를 체감하기 어렵다며 전사 기능을 보여주는 데모 모드를 제안했다.",
+        "points": [
+          "첫 사용자는 실사용 전 녹음 앱을 시험해봄",
+          "Granola는 별도 온보딩이 없음",
+          "전사 기능을 시연하는 데모 모드 제안"
+        ],
+        "why": [
+          "미니멀한 온보딩이 항상 정답은 아니라는 사례",
+          "실제 사용자 행동 관찰 기반 온보딩 설계의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "design-flowbase-component-library",
+      "title": "Flowbase: 크리에이터용 컴포넌트·템플릿 라이브러리",
+      "summary": "Flowbase는 Webflow, Figma, Framer용 컴포넌트를 제공하는 대규모 프리미엄 라이브러리다.",
+      "source": "Flowbase",
+      "url": "https://www.flowbase.co/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "Webflow·Figma·Framer를 아우르는 프리미엄 컴포넌트 라이브러리.",
+        "what": "Flowbase는 Webflow, Figma, Framer 플랫폼 전반에서 쓸 수 있는 컴포넌트와 템플릿을 제공한다. 스스로를 세계 최대 규모의 프리미엄 라이브러리로 소개한다.",
+        "points": [
+          "Webflow, Figma, Framer 지원",
+          "컴포넌트와 템플릿 제공",
+          "프리미엄 라이브러리"
+        ],
+        "why": [
+          "여러 노코드·디자인 툴을 오가는 팀의 제작 속도 향상"
+        ]
+      }
+    },
+    {
+      "id": "design-details-so-web-inspiration",
+      "title": "Details.so: 실제 웹사이트 기반 디자인 영감 큐레이션",
+      "summary": "헤더, 내비게이션, 로딩 시퀀스, 전환 효과 등 실제 웹사이트 섹션을 매주 업데이트하는 큐레이션 영감 모음.",
+      "source": "Details.so",
+      "url": "https://www.details.so/inspo?utm_source=tldrdesign",
+      "report": {
+        "tldr": "실제 사이트의 섹션 단위 디자인 레퍼런스를 매주 갱신하는 아카이브.",
+        "what": "Details.so가 실제 웹사이트에서 가져온 디자인 영감을 큐레이션해 매주 업데이트한다. 헤더, 내비게이션 영역, 로딩 시퀀스, 시각적 전환 등 섹션 단위로 정리돼 있다.",
+        "points": [
+          "실제 웹사이트 섹션 기반 레퍼런스",
+          "헤더·내비게이션·로딩·전환 효과 분류",
+          "매주 업데이트"
+        ],
+        "why": [
+          "섹션 단위 레퍼런스로 컴포넌트 설계 시 빠르게 참고 가능"
+        ]
+      }
+    },
+    {
+      "id": "design-astryx-open-source-design-system",
+      "title": "Astryx: 에이전트 친화적 오픈소스 디자인 시스템",
+      "summary": "속도와 유연성을 위해 만들어진 커스터마이즈 가능한 오픈소스 디자인 시스템으로, AI 에이전트와 호환되며 표준화보다 워크플로 적합성을 우선한다.",
+      "source": "Astryx",
+      "url": "https://astryx.atmeta.com/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 에이전트와 함께 쓰도록 설계된 오픈소스 디자인 시스템.",
+        "what": "Astryx는 완전히 커스터마이즈 가능한 오픈소스 디자인 시스템이다. 속도와 유연성을 중시하며 AI 에이전트와 호환되고, 획일적 표준화보다 팀 워크플로에 맞추는 것을 우선한다.",
+        "points": [
+          "오픈소스, 완전 커스터마이즈 가능",
+          "AI 에이전트 호환(agent ready)",
+          "표준화보다 워크플로 적합성 우선"
+        ],
+        "why": [
+          "디자인 시스템이 사람뿐 아니라 에이전트 소비를 고려하기 시작했다는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "design-adobe-designing-space-for-creativity",
+      "title": "생산성을 넘어: 창의성을 위한 공간 설계",
+      "summary": "창작 번아웃을 막으려면 계획된 휴식, 의도적인 즐거움, 디지털 경계가 필요하며, 창의성은 게으름이 아니라 과부하로 죽는다는 Adobe Design의 글.",
+      "source": "Adobe Design",
+      "url": "https://adobe.design/ideas/beyond-productivity-designing-space-for-creativity?utm_source=tldrdesign",
+      "report": {
+        "tldr": "창의성은 과부하로 죽는다 — 의도적 휴식이 필요하다.",
+        "what": "Adobe Design은 창작 번아웃 대응법으로 일정에 넣은 휴식, 의도적인 즐거움, 디지털 경계 설정을 제시한다. 목적 있는 휴식과 배울 수 있는 여유가 창의성을 지킨다는 주장이다.",
+        "points": [
+          "예약된 휴식과 의도적 즐거움",
+          "디지털 경계 설정",
+          "창의성의 적은 게으름이 아닌 과부하"
+        ],
+        "why": [
+          "AI로 작업 속도가 빨라질수록 디자이너의 번아웃 관리가 중요"
+        ]
+      }
+    },
+    {
+      "id": "design-microsoft-copilot-icon-redesign",
+      "title": "마이크로소프트, Copilot 아이콘 리디자인 — '마크 이상의 것'",
+      "summary": "마이크로소프트가 기하학적 형태로 Copilot 아이콘을 재설계해 Windows와 Office 전반에서 처리 상태를 전달하는 동적 모션 언어를 만들었다.",
+      "source": "Microsoft Design",
+      "url": "https://microsoft.design/articles/more-than-a-mark/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "Copilot 아이콘이 정적 로고를 넘어 상태를 전달하는 모션 시스템이 됐다.",
+        "what": "마이크로소프트가 Copilot 아이콘을 기하학적 형태 기반으로 재설계했다. 새 아이콘은 동적 모션 언어를 갖춰 Windows와 Office 앱 전반에서 AI의 처리 상태를 시각적으로 전달한다.",
+        "points": [
+          "기하학적 형태로 Copilot 아이콘 재설계",
+          "동적 모션 언어 도입",
+          "Windows·Office 전반에서 처리 상태 표시"
+        ],
+        "why": [
+          "AI 제품에서 브랜드 마크가 UI 피드백 요소로 확장되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-jaguar-type-01-rebrand",
+      "title": "재규어의 논란 많던 리브랜드, Type 01 공개로 의미를 찾다",
+      "summary": "2024년 재규어의 논쟁적 리브랜드는 Type 01 전기차를 위한 사전 작업이었으며, 대중성보다 차별성으로 디자인 감각 있는 럭셔리 구매자를 겨냥했다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/product-design/jaguars-dramatic-type-01-finally-makes-sense-of-the-controversial-rebrand?utm_source=tldrdesign",
+      "report": {
+        "tldr": "재규어 리브랜드는 Type 01 EV를 위한 의도된 포석이었다.",
+        "what": "재규어가 Type 01 전기차를 공개하면서 2024년 큰 논란을 낳았던 리브랜드의 맥락이 드러났다. 브랜드는 대중적 호소보다 독특함을 통해 디자인에 민감한 럭셔리 구매층을 의도적으로 겨냥했다.",
+        "points": [
+          "2024년 리브랜드는 Type 01 EV의 전조",
+          "주류 대신 차별화된 디자인으로 승부",
+          "디자인 지향 럭셔리 고객 타깃"
+        ],
+        "why": [
+          "제품 공개 전 브랜드를 먼저 바꾸는 장기 전략의 성패를 볼 수 있는 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-naming-is-the-argument",
+      "title": "이름 짓기가 곧 논쟁이다: 디자인 토큰 네이밍",
+      "summary": "디자인 토큰 이름은 바꿀 수 있는 것으로 다뤄야 하며, 유연한 리네이밍으로 분석 마비와 토큰 과잉을 피해야 한다는 글.",
+      "source": "Baseline Design",
+      "url": "https://newsletter.baselinedesign.com/naming-is-the-argument/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "토큰 이름은 영구 결정이 아니다 — 바꿀 수 있다고 전제하라.",
+        "what": "Baseline Design은 팀이 디자인 토큰 이름을 변경 가능한 것으로 취급해야 한다고 주장한다. 완벽한 이름을 찾느라 분석 마비에 빠지거나 토큰을 과도하게 늘리는 대신 유연하게 리네이밍하라는 제안이다.",
+        "points": [
+          "토큰 이름은 변경 가능한 것으로 취급",
+          "분석 마비 회피",
+          "토큰 과잉 증식 방지"
+        ],
+        "why": [
+          "디자인 시스템 운영 속도와 유지보수성에 직접 영향"
+        ]
+      }
+    },
+    {
+      "id": "design-iphone-18-pro-wider-aperture",
+      "title": "아이폰 18 Pro의 더 넓은 조리개가 만드는 차이",
+      "summary": "아이폰 18 Pro의 f/1.48 조리개가 f/1.8 대비 연산 기반 인물 모드 없이도 배경 분리를 개선한다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/06/see-for-yourself-the-difference-the-wider-aperture-of-the-iphone-18-pro-makes/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "f/1.48 조리개로 광학적 배경 분리가 좋아졌다.",
+        "what": "9to5Mac이 아이폰 18 Pro의 f/1.48 조리개와 기존 f/1.8을 비교했다. 더 넓은 조리개 덕분에 연산 기반 인물 모드에 의존하지 않고도 배경 분리가 개선된다.",
+        "points": [
+          "아이폰 18 Pro 조리개 f/1.48",
+          "기존 f/1.8 대비 배경 분리 개선",
+          "인물 모드 없이 광학적 보케"
+        ],
+        "why": [
+          "모바일 사진·콘텐츠 제작자에게 광학 품질 향상의 의미"
+        ]
+      }
+    },
+    {
+      "id": "design-photoshop-relight-ai",
+      "title": "포토샵의 논란 많은 새 AI 도구 Relight",
+      "summary": "포토샵 Relight 베타는 이미지에 최대 3개의 인공 광원을 생성하며, 효율적 리터칭이라는 평가와 비현실적 결과라는 비판이 엇갈린다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/graphic-design/photoshops-newest-ai-tool-is-immediately-dividing-opinion?utm_source=tldrdesign",
+      "report": {
+        "tldr": "포토샵 Relight가 AI 리라이팅의 효율성과 사실성 논쟁을 불렀다.",
+        "what": "어도비가 포토샵에 Relight 베타를 추가했다. 이미지에 최대 3개의 인공 광원을 생성할 수 있으며, 리터칭을 효율화한다는 평가와 비현실적 결과를 낸다는 비판으로 의견이 갈린다.",
+        "points": [
+          "Relight 베타, 최대 3개 인공 광원 생성",
+          "리터칭 효율화 기대",
+          "비현실적 결과라는 비판도 존재"
+        ],
+        "why": [
+          "생성형 AI 편집 도구의 품질 기준을 둘러싼 크리에이터 커뮤니티의 반응 지표"
+        ]
+      }
+    }
+  ]
+}

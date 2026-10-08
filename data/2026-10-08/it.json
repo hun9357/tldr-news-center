@@ -1,0 +1,246 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-personal-agent-protocol",
+      "title": "메타·Sierra, 개인 AI 에이전트 표준 Personal Agent Protocol 발표",
+      "summary": "메타와 Sierra가 Shopify, Stripe, Walmart 등과 함께 개인 AI 에이전트가 기업과 상호작용하는 방식을 정의하는 개방형 표준 Personal Agent Protocol을 발표했다.",
+      "source": "Sierra AI",
+      "url": "https://sierra.ai/blog/introducing-personal-agent-protocol?utm_source=tldrit",
+      "report": {
+        "tldr": "개인 에이전트와 기업 간 인증·상호작용 표준을 업계가 함께 만든다.",
+        "what": "메타와 Sierra는 Genesys, Instinct, Rocket, Shopify, Stripe, Walmart 등과 Personal Agent Protocol을 발표했다. 이 개방형 표준은 개인 AI 에이전트의 인증을 처리하고 소비자 권한을 높이며, 기업이 웹사이트·API·자사 에이전트 전반에서 에이전트 활동을 파악·통제할 수 있게 한다.",
+        "points": [
+          "주도: 메타와 Sierra",
+          "참여: Genesys, Instinct, Rocket, Shopify, Stripe, Walmart",
+          "범위: 에이전트 인증, 소비자 권한, 기업의 가시성·통제",
+          "웹사이트, API, 기업 에이전트 채널 전반 적용"
+        ],
+        "why": [
+          "에이전트 커머스의 상호운용성 표준 경쟁이 본격화된다",
+          "기업 IT는 외부 에이전트 접근을 관리할 체계가 필요해진다"
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-cyber-verification-program",
+      "title": "앤트로픽, Cyber Verification Program 확대",
+      "summary": "앤트로픽이 기존 프로그램을 Defense, Red Team, Specialized Access의 세 등급으로 통합해 검증된 보안 전문가에게 고급 사이버 역량을 제공한다. Claude Platform, Vertex AI, Microsoft Foundry에서 이용할 수 있다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/cyber-verification-program?utm_source=tldrit",
+      "report": {
+        "tldr": "검증된 보안 전문가에게 차단 분류기를 완화한 모델 접근을 단계별로 연다.",
+        "what": "앤트로픽은 기존 노력을 세 접근 등급으로 통합한 확대판 Cyber Verification Program을 출시했다. 자격을 갖춘 보안 전문가는 고급 사이버 역량과 완화된 차단 분류기를 이용할 수 있으며, 오용 감시를 위한 데이터 보존 요건이 적용된다.",
+        "points": [
+          "등급: Defense Access, Red Team Access, Specialized Access",
+          "플랫폼: Claude Platform, Google Cloud Vertex AI, Microsoft Foundry",
+          "오용 감시를 위한 데이터 보존 요건",
+          "CyScenarioBench 평가로 차단과 과제 완수의 균형 확인"
+        ],
+        "why": [
+          "보안 조직이 주요 클라우드에서 고급 AI 보안 역량을 쓸 수 있는 길이 열린다"
+        ]
+      }
+    },
+    {
+      "id": "it-surface-laptop-ultra",
+      "title": "마이크로소프트, 엔비디아 칩 탑재 Surface Laptop Ultra 공개",
+      "summary": "마이크로소프트가 엔비디아 RTX Spark 칩과 최대 128GB 통합 메모리를 갖춘 Surface Laptop Ultra를 2,599.99달러부터 내놨다. 에이전트 접근 범위를 제한하는 Execution Containers도 정식 출시했다.",
+      "source": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?utm_source=tldrit",
+      "report": {
+        "tldr": "로컬 AI 작업용 고사양 서피스와 에이전트 격리 기능이 함께 나왔다.",
+        "what": "Surface Laptop Ultra는 엔비디아 RTX Spark 칩과 최대 128GB 통합 메모리로 로컬 AI 워크로드를 겨냥한다. 마이크로소프트는 개발자가 에이전트의 파일·네트워크 등 자원 접근 경계를 정의·강제하는 Execution Containers를 정식 출시했다.",
+        "points": [
+          "가격: 2,599.99달러부터",
+          "엔비디아 RTX Spark 칩, 최대 128GB 통합 메모리",
+          "Execution Containers 정식 출시",
+          "에이전트의 파일·네트워크 접근 경계 설정"
+        ],
+        "why": [
+          "기업 PC에서 로컬 AI 실행 수요를 겨냥한 하드웨어 전략이다",
+          "에이전트 격리 기능은 엔드포인트 보안 정책에 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "it-agents-network-effects",
+      "title": "에이전트에도 네트워크 효과가 생길까",
+      "summary": "범용 AI 에이전트가 사용자 콘텐츠를 바이럴 객체로 바꾸고 신원·신뢰·평판을 중앙화하며 강한 네트워크 효과를 만들 수 있다는 분석이다. 승자독식 또는 상호운용 생태계로의 분화 가능성을 다룬다.",
+      "source": "Andrew Chen Substack",
+      "url": "https://andrewchen.substack.com/p/will-agents-have-network-effects?utm_source=tldrit",
+      "report": {
+        "tldr": "신원과 평판의 중앙화가 에이전트 시장의 승자독식을 부를 수 있다.",
+        "what": "Andrew Chen은 범용 AI 에이전트가 사용자 생성 콘텐츠를 바이럴 객체로 만들고 신원·신뢰·평판을 중앙화해 강한 네트워크 효과를 낼 수 있다고 본다. 그 결과 승자독식 플랫폼이 나올 수도, 개방형·모듈형 네트워크 계층 덕에 시장이 분화될 수도 있다.",
+        "points": [
+          "네트워크 효과 원천: 바이럴 콘텐츠, 신원·신뢰·평판 중앙화",
+          "시나리오 1: 승자독식 플랫폼",
+          "시나리오 2: 상호운용 도구로 분화된 시장"
+        ],
+        "why": [
+          "기업의 에이전트 플랫폼 선택이 장기적 종속으로 이어질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-open-source-ai-contribution-ban",
+      "title": "오픈소스 프로젝트는 AI 기여를 금지해야 하나",
+      "summary": "System76의 COSMIC 데스크톱이 AI 생성 코드·주석·기여 설명을 금지한 반면, GNOME 개발자는 AI 보조 취약점 보고는 받아야 한다고 주장했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/software/2026/10/07/cosmic-shuts-the-door-on-ai-code-as-gnome-debates-letting-bug-reports-in/5301141?utm_source=tldrit",
+      "report": {
+        "tldr": "오픈소스에서 AI 기여의 경계를 어디에 그을지 논쟁이 커지고 있다.",
+        "what": "System76의 COSMIC 데스크톱은 AI가 생성한 코드, 주석, 기여 설명을 금지했다. 반면 GNOME 개발자는 프로젝트가 AI 보조 취약점 보고를 받아들여야 한다고 주장한다.",
+        "points": [
+          "COSMIC: AI 생성 코드·주석·기여 설명 금지",
+          "GNOME: AI 보조 취약점 보고 수용 논의",
+          "버그 발견·분류·수정 사이 경계 설정이 어렵다"
+        ],
+        "why": [
+          "오픈소스 의존 기업은 업스트림의 AI 정책 변화를 주시해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "it-ai-security-story-gradient-flow",
+      "title": "AI 보안 이야기에서 계속 곱씹게 되는 부분",
+      "summary": "AI 에이전트가 취약점 탐색을 자동화해 공격을 더 싸고 확장 가능하게 만든다는 분석이다. 기업은 에이전트 시스템 전체 보안, 엄격한 신원 통제, 프롬프트 인젝션 성공 대비가 필요하다.",
+      "source": "Gradient Flow Substack",
+      "url": "https://gradientflow.substack.com/p/the-part-of-the-ai-security-story?utm_source=tldrit",
+      "report": {
+        "tldr": "에이전트 시대 보안은 차단보다 격리와 빠른 봉쇄 역량이 관건이다.",
+        "what": "AI 에이전트는 지속적인 취약점 탐색을 자동화해 사이버 공격을 더 저렴하고 확장 가능하게 만든다. 기업은 에이전트 시스템 전체를 보호하고 엄격한 신원 통제를 적용하며, 프롬프트 인젝션이 성공할 것을 전제로 대비해야 한다.",
+        "points": [
+          "공격 비용 하락과 규모 확대",
+          "에이전트 시스템 전체 보안과 엄격한 신원 통제",
+          "프롬프트 인젝션 성공을 전제로 한 설계",
+          "예기치 않은 에이전트 행동의 봉쇄 속도 측정"
+        ],
+        "why": [
+          "보안 지표를 예방에서 봉쇄 시간 중심으로 옮길 필요를 제기한다"
+        ]
+      }
+    },
+    {
+      "id": "it-hpe-proliant-gen13-amd",
+      "title": "HPE, AMD EPYC 기반 ProLiant Gen13 서버 공개",
+      "summary": "HPE가 6세대 AMD EPYC 프로세서를 탑재한 ProLiant Gen13 서버 4종을 발표했다. 메모리 대역폭, 연산 밀도, 가속기 지원을 강화했고 2026년 말부터 2027년까지 순차 출시된다.",
+      "source": "Business Wire",
+      "url": "https://www.businesswire.com/news/home/20261007498592/en/HPE-Accelerates-Enterprise-AI-Innovation-With-Next-Generation-AMD-CPU-Powered-Servers?utm_source=tldrit",
+      "report": {
+        "tldr": "HPE가 AI와 전통 워크로드를 겨냥한 AMD 기반 신형 서버를 내놨다.",
+        "what": "HPE는 6세대 AMD EPYC 프로세서 기반 ProLiant Gen13 서버 4종을 발표해 메모리 대역폭, 연산 밀도, 가속기 지원을 확대했다. 자동 드라이브 암호화와 민감 작업에 대한 2인 승인 같은 관리·보안 기능도 추가됐다.",
+        "points": [
+          "ProLiant Gen13 서버 4종, 6세대 AMD EPYC",
+          "메모리 대역폭·연산 밀도·가속기 지원 확대",
+          "자동 드라이브 암호화, 민감 작업 2인 승인",
+          "2026년 말부터 2027년까지 순차 출시"
+        ],
+        "why": [
+          "온프레미스 AI 인프라 교체 주기 계획에 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "it-atlassian-openai-partnership",
+      "title": "아틀라시안·OpenAI, 기업 지식 활용 위한 파트너십 확대",
+      "summary": "아틀라시안과 OpenAI가 파트너십을 확대해 OpenAI 최신 모델을 아틀라시안 플랫폼과 Rovo 전반에 통합한다. 아틀라시안은 GPT-6 Astra와 GPT-5.6 시리즈 등에 확대된 접근권을 얻는다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/atlassian-partnership/?utm_source=tldrit",
+      "report": {
+        "tldr": "아틀라시안 업무 도구에 OpenAI 프런티어 모델이 깊게 들어간다.",
+        "what": "아틀라시안과 OpenAI는 OpenAI 프런티어 모델을 아틀라시안 플랫폼과 Rovo 전반에 통합하기로 했다. 아틀라시안은 GPT-6 Astra와 GPT-5.6 시리즈에 대한 확대된 접근권으로 AI 에이전트와 추론 기능을 강화한다.",
+        "points": [
+          "통합 대상: 아틀라시안 플랫폼과 Rovo",
+          "모델: GPT-6 Astra, GPT-5.6 시리즈",
+          "아틀라시안 내 Codex와 ChatGPT Enterprise 도입 확대",
+          "Teamwork Graph로 기업 맥락 제공"
+        ],
+        "why": [
+          "Jira·Confluence 사용 기업의 AI 에이전트 활용 방식이 바뀔 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-project-zero-emergency-patching",
+      "title": "Project Zero: 긴급 패치 전달 체계 개관",
+      "summary": "Project Zero가 대형 소프트웨어 벤더가 표준 업데이트보다 빠르게 긴급 취약점을 고치는 데 쓰는 네 가지 방법을 정리했다. 속도와 테스트, 안정성 사이의 운영상 트레이드오프도 짚었다.",
+      "source": "Project Zero",
+      "url": "https://projectzero.google/2026/10/emergency-patching.html?utm_source=tldrit",
+      "report": {
+        "tldr": "긴급 패치는 속도와 안정성 사이의 줄타기다.",
+        "what": "Project Zero는 대형 벤더들이 긴급 취약점을 표준 업데이트 절차보다 빠르게 해결하기 위해 쓰는 체계를 소개했다. 기능 플래그, 필터링, 대체 채널, 핫패칭의 네 가지 방법과 각각의 운영상 트레이드오프를 다룬다.",
+        "points": [
+          "방법: 기능 플래그, 필터링, 대체 채널, 핫패칭",
+          "표준 업데이트보다 빠른 완화 가능",
+          "속도·충분한 테스트·안정성 위험 간 트레이드오프"
+        ],
+        "why": [
+          "IT 운영팀이 긴급 대응 체계를 설계할 때 참고할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-github-git-infra-agent-scale",
+      "title": "GitHub, 에이전트 규모 개발을 위한 Git 인프라 재구축",
+      "summary": "GitHub이 에이전트 개발이 유발하는 대량 동시 읽기·쓰기를 감당하도록 Git 인프라를 재설계했다. 스토리지와 컴퓨트를 분리해 쓰기 처리량을 최대 35배 높였다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/?utm_source=tldrit",
+      "report": {
+        "tldr": "에이전트 트래픽에 맞춰 GitHub이 Git 저장 구조를 갈아엎었다.",
+        "what": "GitHub은 에이전트 기반 개발로 늘어난 동시 읽기·쓰기에 대응해 Git 인프라를 재구축하고 있다. 푸시 시 조율을 최소화하고 무거운 유지보수를 서빙 경로 밖으로 옮겼으며, 내구성은 Azure Blob Storage에 맡겨 스토리지와 컴퓨트를 분리했다.",
+        "points": [
+          "푸시 시 조율 최소화, 유지보수 작업을 서빙 경로에서 분리",
+          "Azure Blob Storage로 스토리지·컴퓨트 분리",
+          "내부 벤치마크상 쓰기 처리량 최대 35배",
+          "읽기 용량은 독립적으로 확장"
+        ],
+        "why": [
+          "AI 에이전트가 개발 인프라 부하 패턴 자체를 바꾸고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "it-dell-ai-data-platform-update",
+      "title": "델, AI 데이터 플랫폼에 데이터 맥락·준비·스토리지 기능 추가",
+      "summary": "델이 AI 데이터 플랫폼에 Unified Semantic Layer, Enterprise Knowledge Graph, Knowledge Agents를 추가했다. 엔비디아 기술로 정형·비정형 데이터 전반의 정의를 일관되게 유지한다.",
+      "source": "Next Platform",
+      "url": "https://www.nextplatform.com/store/2026/10/06/dell-adds-data-context-prep-and-storage-features-to-its-ai-data-platform/5301356?utm_source=tldrit",
+      "report": {
+        "tldr": "델이 기업 AI용 데이터 의미 계층과 지식 그래프를 플랫폼에 넣었다.",
+        "what": "델 AI 데이터 플랫폼 업데이트에는 Unified Semantic Layer, Enterprise Knowledge Graph, Knowledge Agents가 포함됐다. 엔비디아 기술을 활용해 정형·비정형 데이터 전반에서 일관된 정의를 유지한다.",
+        "points": [
+          "Unified Semantic Layer 추가",
+          "Enterprise Knowledge Graph 추가",
+          "엔비디아 기술 기반 Knowledge Agents"
+        ],
+        "why": [
+          "기업 AI 도입의 병목인 데이터 맥락 문제를 인프라 업체가 직접 공략한다"
+        ]
+      }
+    },
+    {
+      "id": "it-google-synthid-detector-public",
+      "title": "구글, SynthID Detector 전면 공개",
+      "summary": "구글이 이미지·영상·오디오에서 구글과 참여 파트너의 SynthID 워터마크를 확인하는 탐지기를 누구나 쓸 수 있게 했다. 범용 AI 생성물 탐지기는 아니다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content?utm_source=tldrit",
+      "report": {
+        "tldr": "SynthID 워터마크 확인 도구가 일반에 열렸지만 범용 AI 탐지기는 아니다.",
+        "what": "구글의 공개 탐지기는 이미지, 영상, 오디오에서 구글과 참여 파트너가 삽입한 SynthID 워터마크를 확인한다. 모든 AI 생성 콘텐츠를 탐지하는 범용 도구가 아니라 워터마크 확인 도구다.",
+        "points": [
+          "지원 형식: 이미지, 영상, 오디오",
+          "대상: 구글과 참여 파트너의 SynthID 워터마크",
+          "범용 AI 생성물 탐지기가 아님"
+        ],
+        "why": [
+          "콘텐츠 진위 확인 수단이 늘지만 워터마크 없는 생성물은 여전히 걸러내지 못한다"
+        ]
+      }
+    }
+  ]
+}

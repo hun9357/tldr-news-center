@@ -1,0 +1,304 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-ably-token-not-message",
+      "title": "토큰은 메시지가 아니다: AI 응답을 이벤트 로그처럼 저장하지 말 것",
+      "summary": "스트리밍 AI 응답을 토큰 단위로 기록하기보다 메시지 append 방식으로 저장하는 편이 성능과 UX 모두 낫다는 주장이다.",
+      "source": "Ably",
+      "url": "https://ably.com/blog/store-streamed-ai-responses?utm_source=tldrdev",
+      "report": {
+        "tldr": "스트리밍 AI 응답은 토큰 로그가 아닌 메시지 단위로 저장하라.",
+        "what": "Ably는 스트리밍되는 AI 응답의 저장 패턴을 비교했다. 토큰마다 이벤트로 기록하는 방식보다 메시지에 append하는 방식이 성능과 사용자 경험에서 유리하다고 주장한다.",
+        "points": [
+          "토큰 단위 이벤트 로깅 vs 메시지 append 비교",
+          "메시지 append가 성능상 유리",
+          "재접속·히스토리 등 사용자 경험도 개선"
+        ],
+        "why": [
+          "LLM 채팅 앱의 저장 설계 기본값을 재고할 근거"
+        ]
+      }
+    },
+    {
+      "id": "dev-cortex-postgres-text-search",
+      "title": "Postgres 전문 검색 히치하이커 가이드",
+      "summary": "Cortex가 Lucene 검색을 PostgreSQL 전문 검색으로 교체해 공개 API p95 지연을 13.3초에서 1.54초로 줄였다.",
+      "source": "Cortex",
+      "url": "https://builders.cortex.io/blog/a-hitchhikers-guide-to-postgres-text-search/?utm_source=tldrdev",
+      "report": {
+        "tldr": "별도 검색 엔진 없이 Postgres만으로 지연을 약 9분의 1로 줄였다.",
+        "what": "Cortex는 Lucene 기반 검색을 PostgreSQL 전문 검색으로 대체한 과정을 공유했다. 그 결과 공개 API의 p95 지연이 13.3초에서 1.54초로 감소했다.",
+        "points": [
+          "Lucene → PostgreSQL 전문 검색 전환",
+          "공개 API p95 지연 13.3초 → 1.54초",
+          "검색 인프라를 기존 DB로 통합"
+        ],
+        "why": [
+          "많은 서비스에서 전용 검색 엔진이 과잉일 수 있음을 보여줌",
+          "운영 구성요소 축소로 복잡도 절감"
+        ]
+      }
+    },
+    {
+      "id": "dev-software-blogging-anti-patterns",
+      "title": "소프트웨어 블로깅의 안티패턴",
+      "summary": "장황한 서술과 불분명한 전제를 피하고, 제목에 명확한 효용을 담고 대상 독자를 정하라고 조언한다.",
+      "source": "Refactoring English",
+      "url": "https://refactoringenglish.com/blog/anti-patterns-software-blogging/?utm_source=tldrdev",
+      "report": {
+        "tldr": "좋은 기술 글은 독자와 효용을 먼저 정한다.",
+        "what": "Refactoring English는 소프트웨어 블로그 글에서 흔한 안티패턴을 정리했다. 장황한 전개와 불분명한 가정을 피하고 제목에 명확한 효용을 제시하며 구체적 독자 페르소나를 겨냥하라고 권한다.",
+        "points": [
+          "장황하게 돌아가는 서술 지양",
+          "암묵적 전제를 명시",
+          "제목에 명확한 효용 제시",
+          "대상 독자 페르소나 설정"
+        ],
+        "why": [
+          "개발자 글쓰기의 도달률과 가독성 향상에 바로 적용 가능"
+        ]
+      }
+    },
+    {
+      "id": "dev-chrome-jpeg-xl",
+      "title": "JPEG XL, 드디어 크롬에 탑재",
+      "summary": "Chrome 155가 Rust로 작성된 메모리 안전 JPEG XL 디코더를 탑재해 포맷 대중화가 기대된다.",
+      "source": "Toni Sagrista",
+      "url": "https://tonisagrista.com/blog/2026/chrome-jpegxl/?utm_source=tldrdev",
+      "report": {
+        "tldr": "크롬 지원으로 JPEG XL이 주류 이미지 포맷이 될 길이 열렸다.",
+        "what": "Chrome 155에 Rust로 작성된 메모리 안전 JPEG XL 디코더가 탑재된다. 한때 크롬에서 제거됐던 포맷이 돌아오면서 웹 표준 이미지 포맷으로 자리 잡을 가능성이 커졌다.",
+        "points": [
+          "Chrome 155에서 JPEG XL 지원",
+          "Rust 기반 메모리 안전 디코더",
+          "포맷 대중화 계기 기대"
+        ],
+        "why": [
+          "웹 이미지 압축·품질 선택지 확대",
+          "브라우저 코덱에 메모리 안전 언어 채택 확산"
+        ]
+      }
+    },
+    {
+      "id": "dev-reasons-dislike-ai-coding",
+      "title": "AI 코딩을 싫어하는 이유들",
+      "summary": "AI 보조 코딩에 대한 다섯 가지 반론을 검토하고 노동 관계와 생산 통제가 가장 강력한 우려라고 결론짓는다.",
+      "source": "Sicpers",
+      "url": "https://www.sicpers.info/2026/10/reasons-to-dislike-ai-coding/?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 코딩의 핵심 쟁점은 기술보다 노동과 통제의 문제다.",
+        "what": "글쓴이는 AI 보조 코딩에 대한 다섯 가지 반대 논거를 차례로 검토한다. 그중 노동 관계와 생산 수단에 대한 통제 문제가 인간 입장에서 가장 강력한 우려라고 결론 내린다.",
+        "points": [
+          "AI 코딩 반론 다섯 가지 검토",
+          "가장 강력한 우려: 노동 관계",
+          "생산 통제권 문제도 핵심"
+        ],
+        "why": [
+          "AI 도입 논의를 생산성 너머 조직·노동 관점으로 확장"
+        ]
+      }
+    },
+    {
+      "id": "dev-openai-gpt-6-intelligent-ui",
+      "title": "GPT-6와 모두를 위한 Intelligent UI",
+      "summary": "OpenAI가 텍스트·그래픽·폼·인터랙티브 도구를 결합한 Intelligent UI와 함께 GPT-6를 출시했다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/gpt-6-for-everyone/?utm_source=tldrdev",
+      "report": {
+        "tldr": "GPT-6는 텍스트 답변을 넘어 상호작용형 UI를 생성한다.",
+        "what": "OpenAI가 GPT-6를 배포하며 텍스트, 그래픽, 폼, 인터랙티브 도구를 결합한 Intelligent UI를 선보였다. 유료와 무료 등급에는 서로 다른 모델 변형이 제공된다.",
+        "points": [
+          "GPT-6 정식 배포",
+          "Intelligent UI: 텍스트+그래픽+폼+인터랙티브 도구",
+          "유료/무료 등급별 다른 모델 변형"
+        ],
+        "why": [
+          "생성형 UI가 챗봇 인터페이스의 기본으로 이동",
+          "앱 개발자에게 생성형 인터페이스 경쟁 압력"
+        ]
+      }
+    },
+    {
+      "id": "dev-anthropic-claude-haiku-5-5",
+      "title": "Anthropic, Claude Haiku 5.5 출시",
+      "summary": "지연에 민감한 애플리케이션용 경량 모델로, 평균 운영 비용이 Haiku 4.5 대비 약 75% 낮다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=tldrdev",
+      "report": {
+        "tldr": "저지연·저비용 경량 모델의 가성비가 크게 좋아졌다.",
+        "what": "Anthropic이 지연 시간에 민감한 애플리케이션을 겨냥한 경량 모델 Claude Haiku 5.5를 공개했다. 평균 실행 비용은 Haiku 4.5보다 약 75% 낮다.",
+        "points": [
+          "지연 민감 워크로드 대상 경량 모델",
+          "평균 운영 비용 Haiku 4.5 대비 약 75% 절감",
+          "Haiku 라인업 세대 교체"
+        ],
+        "why": [
+          "대량 호출 에이전트·서브에이전트 비용 구조 개선",
+          "경량 모델 시장 가격 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "dev-docker-agent",
+      "title": "Docker Agent: 선언형 YAML로 AI 에이전트 실행",
+      "summary": "Docker가 선언형 YAML로 AI 에이전트를 정의·실행하고 멀티 에이전트 오케스트레이션을 지원하는 CLI 플러그인을 공개했다.",
+      "source": "Docker (GitHub)",
+      "url": "https://github.com/docker/docker-agent?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 정의를 컨테이너처럼 선언형으로 다룬다.",
+        "what": "Docker Agent는 선언형 YAML로 AI 에이전트를 정의하고 실행하는 CLI 플러그인이다. 멀티 에이전트 오케스트레이션과 도구 지원을 제공한다.",
+        "points": [
+          "Docker CLI 플러그인 형태",
+          "선언형 YAML로 에이전트 정의",
+          "멀티 에이전트 오케스트레이션",
+          "도구 연동 지원"
+        ],
+        "why": [
+          "에이전트 구성의 재현성·이식성 향상",
+          "Docker 생태계의 에이전트 인프라 진입"
+        ]
+      }
+    },
+    {
+      "id": "dev-agentic-development-loop",
+      "title": "에이전트 개발 루프와 린팅",
+      "summary": "에이전트 개발 시대에 이상적인 린팅 방식을 탐구하며, 빠른 도구와 엄격한 규칙을 결합하되 인간 판단 영역은 남겨두라고 제안한다.",
+      "source": "Hayden Bleasel",
+      "url": "https://haydenbleasel.com/writing/ultracite?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트가 코드를 쓸수록 빠르고 엄격한 린터가 가드레일이 된다.",
+        "what": "Hayden Bleasel은 에이전트 기반 개발이 린팅 관행을 어떻게 바꾸는지 다룬다. 빠른 도구와 엄격한 규칙을 짝지으면서도 인간의 판단이 필요한 영역은 보존해야 한다고 말한다.",
+        "points": [
+          "에이전트 개발이 린팅 요구사항을 바꿈",
+          "빠른 도구 + 엄격한 규칙 조합",
+          "인간 판단 영역은 의도적으로 보존"
+        ],
+        "why": [
+          "AI 생성 코드 품질 관리의 실용적 방법론"
+        ]
+      }
+    },
+    {
+      "id": "dev-upstash-grok-remote-computer",
+      "title": "Grok 봇에 원격 컴퓨터를 붙여보다",
+      "summary": "Upstash Box를 MCP로 연동해 Grok 봇에 셸 접근, 파일시스템 영속성, GitHub 자동화 기능을 부여했다.",
+      "source": "Upstash",
+      "url": "https://upstash.com/blog/i-gave-grok-bot-a-remote-computer?utm_source=tldrdev",
+      "report": {
+        "tldr": "MCP로 원격 샌드박스를 붙이면 챗봇이 작업 환경을 갖는다.",
+        "what": "Upstash는 원격 Upstash Box를 Grok 봇과 통합한 사례를 소개했다. 모델 컨텍스트 프로토콜(MCP)을 통해 셸 접근, 파일시스템 영속성, GitHub 자동화가 가능해졌다.",
+        "points": [
+          "Upstash Box 원격 환경 연동",
+          "셸 접근과 파일시스템 영속성",
+          "GitHub 자동화",
+          "MCP 기반 통합"
+        ],
+        "why": [
+          "에이전트용 원격 실행 환경 수요 증가 반영"
+        ]
+      }
+    },
+    {
+      "id": "dev-password-maxlength-vanguard",
+      "title": "input maxlength=\"20\" 때문에 Vanguard에 로그인하지 못한 사연",
+      "summary": "Vanguard 비밀번호 필드가 붙여넣은 자격증명을 조용히 잘라내 로그인이 실패했으며, 길이 제한에는 눈에 보이는 검증이 필요하다는 교훈이다.",
+      "source": "Tanin Nanakorn",
+      "url": "https://tanin.nanakorn.com/input-type-password-maxlength-20-is-considered-harmful-and-why-i-couldnt-login-into-vanguard/?utm_source=tldrdev",
+      "report": {
+        "tldr": "비밀번호 필드의 maxlength는 사용자를 조용히 잠근다.",
+        "what": "Vanguard의 비밀번호 입력 필드가 maxlength=20 속성 때문에 붙여넣은 비밀번호를 경고 없이 잘라냈다. 글쓴이는 길이 제한이 있다면 눈에 보이는 JavaScript 검증으로 알려야 한다고 주장한다.",
+        "points": [
+          "maxlength가 붙여넣은 비밀번호를 조용히 절단",
+          "사용자는 원인을 모른 채 로그인 실패",
+          "길이 제한은 가시적 검증으로 안내해야 함"
+        ],
+        "why": [
+          "긴 비밀번호·패스워드 매니저 사용을 막는 보안 UX 결함",
+          "금융 서비스의 흔한 프런트엔드 실수"
+        ]
+      }
+    },
+    {
+      "id": "dev-firestore-migration-slow-page",
+      "title": "Firestore를 떠났지만 느린 페이지는 그대로였다",
+      "summary": "DB 마이그레이션만으로는 개선이 없었고, 집계를 서버로 옮긴 뒤에야 10년치 뷰가 56초에서 3.7초로 빨라졌다.",
+      "source": "IO Digital Tech Hub",
+      "url": "https://techhub.iodigital.com/articles/migrating-from-firestore-to-firebase-sql-connect?utm_source=tldrdev",
+      "report": {
+        "tldr": "병목은 DB가 아니라 집계 위치였다.",
+        "what": "팀은 Firestore에서 Firebase SQL Connect로 이전했지만 느린 페이지는 개선되지 않았다. 집계를 서버 측으로 옮긴 후에야 10년치 뷰 로딩이 56초에서 3.7초로 줄었다.",
+        "points": [
+          "Firestore → Firebase SQL Connect 마이그레이션",
+          "DB 교체만으로는 성능 변화 없음",
+          "서버 측 집계로 56초 → 3.7초"
+        ],
+        "why": [
+          "마이그레이션 전 실제 병목 측정의 중요성"
+        ]
+      }
+    },
+    {
+      "id": "dev-rea-reverse-engineering-agent",
+      "title": "REA: 코딩 에이전트용 리버스 엔지니어링 도구 연결",
+      "summary": "코딩 에이전트를 로컬 도구에 연결해 웹사이트, 앱, 어셈블리, 네이티브 바이너리를 리버스 엔지니어링하게 하는 저장소다.",
+      "source": "GitHub",
+      "url": "https://github.com/morluto/rea?utm_source=tldrdev",
+      "report": {
+        "tldr": "코딩 에이전트에 리버스 엔지니어링 도구 체인을 쥐여준다.",
+        "what": "REA는 코딩 에이전트를 로컬 리버스 엔지니어링 도구와 연결하는 오픈소스 저장소다. 웹사이트, 앱, 어셈블리, 네이티브 바이너리 분석을 지원한다.",
+        "points": [
+          "코딩 에이전트-로컬 도구 연결",
+          "웹사이트·앱 분석",
+          "어셈블리·네이티브 바이너리 분석"
+        ],
+        "why": [
+          "에이전트 활용 범위가 보안 분석·RE 영역으로 확장"
+        ]
+      }
+    },
+    {
+      "id": "dev-react-visual-notation",
+      "title": "React 부모 트리와 오너 트리를 위한 시각적 표기법",
+      "summary": "React 컴포넌트의 부모 관계와 오너 관계를 구분하는 다이어그램 표기법을 제안한다.",
+      "source": "Jules Blom",
+      "url": "https://julesblom.com/writing/react-visual-notation?utm_source=tldrdev",
+      "report": {
+        "tldr": "부모와 오너를 구분해 그리면 React 구조가 명확해진다.",
+        "what": "Jules Blom은 React 컴포넌트의 부모(parent) 관계와 오너(owner) 관계를 시각적으로 구분하는 다이어그램 표기법을 소개했다. 컴포넌트 구조를 더 명확히 이해하도록 돕는 것이 목적이다.",
+        "points": [
+          "부모 트리와 오너 트리 구분",
+          "전용 시각 표기법 제안",
+          "컴포넌트 구조 이해 향상"
+        ],
+        "why": [
+          "props 흐름과 렌더링 책임을 설명·문서화할 때 유용"
+        ]
+      }
+    },
+    {
+      "id": "dev-size-limit",
+      "title": "Size Limit: JavaScript 성능 예산을 CI에서 강제",
+      "summary": "번들 크기, 의존성 비용, 실행 시간 추정치 등 JavaScript 성능 예산을 CI에서 강제하는 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/ai/size-limit?utm_source=tldrdev",
+      "report": {
+        "tldr": "번들 비대화를 CI 단계에서 차단한다.",
+        "what": "Size Limit은 JavaScript 성능 예산을 CI에서 검사하는 도구다. 번들 크기, 의존성 비용, 실행 시간 추정치를 기준으로 예산 초과 시 빌드를 막는다.",
+        "points": [
+          "번들 크기 예산 검사",
+          "의존성 추가 비용 측정",
+          "실행 시간 추정",
+          "CI 통합"
+        ],
+        "why": [
+          "프런트엔드 성능 회귀를 자동으로 예방"
+        ]
+      }
+    }
+  ]
+}
