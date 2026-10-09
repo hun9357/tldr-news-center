@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-09",
+  "weekday": "금",
+  "headline": "AWS, 오픈소스 에이전트 샌드박스 'Strands Box' 공개 — AI 에이전트 격리 경쟁",
+  "subtitle": "Tensorlake npm '인질' 웜 · OpenAI GPT-6.1 Sol Ultrafast 모드 · SpaceX 80억 달러 주파수 매입",
+  "keyword": "에이전트 샌드박스 · npm 웜 · Ultrafast · 양자 위협",
+  "bigStoryId": "infosec-aws-strands-box-sandbox",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "devops",
+    "founders",
+    "hardware",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:08 CDT",
+  "syncedAt": "2026-10-09T14:08:35Z",
+  "stats": {
+    "companies": 49,
+    "security": 15,
+    "deals": 3,
+    "policy": 10
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "에이전트 격리가 기본 인프라로",
+      "body": "AWS Strands Box가 infosec·IT 두 에디션에 동시에 실렸고, Microsoft Quicksand(QEMU VM API)와 Windows·Copilot 샌드박스 도구, ZeroQuarry 4중 격리 구조까지 같은 날 공개됐다. 'YOLO 모드' 에이전트의 사고를 막는 실행 격리가 각 플랫폼의 기본 계층으로 자리 잡고 있다."
+    },
+    {
+      "kind": "market",
+      "title": "통신·반도체로 몰리는 대형 자금",
+      "body": "SpaceX가 약 80억 달러 현금으로 미국 800MHz 주파수를 매입해 이동통신사 진출을 노린다. TSMC 9월 매출은 AI 칩 수요로 전년 대비 54.6% 늘었고, IBM 분사 Anderon은 CHIPS Act에서 최대 10억 달러를 확보해 양자 칩 파운드리를 추진한다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "10월 11일 DNS 루트 KSK-2024 교체 이후 DNSSEC 검증 실패 여부, Tensorlake npm 웜의 추가 패키지 확산, React RSC DoS(19.0.6·19.1.7·19.2.6) 패치 적용, 시스코 Nexus 치명적 취약점 대응, AI의 ECDSA 위협을 둘러싼 이더리움 서명 전환 논쟁을 추적."
+    }
+  ]
+}

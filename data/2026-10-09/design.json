@@ -1,0 +1,263 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-chatgpt-intelligent-ui",
+      "title": "ChatGPT, 다이어그램·차트·버튼을 띄우는 'Intelligent UI' 도입",
+      "summary": "OpenAI가 텍스트와 인터랙티브 다이어그램, 차트, 버튼, 작업별 도구를 결합하는 Intelligent UI를 GPT-6와 함께 유료·무료 사용자에게 배포한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/07/chatgpt-is-getting-a-lot-more-visual-with-the-launch-of-a-new-interface/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "챗봇 응답이 텍스트에서 질문에 맞춰 변하는 인터랙티브 UI로 진화한다.",
+        "what": "OpenAI가 ChatGPT에 Intelligent UI를 도입해 대화 안에서 다이어그램, 차트, 버튼, 계산기 같은 작업별 도구를 함께 보여준다. 레이아웃은 질문에 따라 달라지며, GPT-6와 함께 유료·무료 등급 모두에 순차 배포된다.",
+        "points": [
+          "사용자가 설명을 탐색하고 입력값을 조정하며 내장 계산기를 대화 안에서 사용 가능",
+          "질문 유형에 따라 레이아웃이 동적으로 바뀜",
+          "더 단순한 응답을 원하면 시각 요소를 줄일 수 있음",
+          "GPT-6 출시와 함께 유료·무료 등급에 롤아웃"
+        ],
+        "why": [
+          "생성형 UI가 주류 제품에 들어오면서 디자이너의 역할이 고정 화면 설계에서 동적 컴포넌트 시스템 설계로 이동",
+          "대화형 인터페이스와 전통적 앱 UI의 경계가 흐려짐"
+        ]
+      }
+    },
+    {
+      "id": "design-nano-banana-2-1",
+      "title": "구글, 이미지 생성·편집 모델 Nano Banana 2.1 공개",
+      "summary": "Gemini API에 Nano Banana 2.1이 추가돼 1K·2K·4K 해상도에서 텍스트 렌더링, 프롬프트 준수, 캐릭터 일관성이 개선됐다.",
+      "source": "UX News",
+      "url": "https://ux-news.com/google-nano-banana-2-1-image-editing/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "구글이 이미지 모델을 업데이트하며 텍스트 렌더링과 편집 일관성을 끌어올렸다.",
+        "what": "구글의 Nano Banana 2.1이 Gemini API에서 이미지 생성·편집용으로 제공된다. 1K, 2K, 4K 해상도를 지원하며 텍스트 렌더링, 프롬프트 준수, 편집 간 캐릭터 일관성이 개선됐다.",
+        "points": [
+          "와이드·파노라마 포맷의 타일링 아티팩트 문제 수정",
+          "모델명은 gemini-nano-banana-2.1",
+          "gemini-3.1-flash-image는 지원 중단(deprecated) 처리됐으나 종료 일정은 미발표"
+        ],
+        "why": [
+          "이미지 내 텍스트 품질 개선으로 디자인 목업·시안 제작 활용도가 높아짐",
+          "기존 flash-image 모델을 쓰는 팀은 마이그레이션 계획이 필요"
+        ]
+      }
+    },
+    {
+      "id": "design-chatgpt-cartoonist-signatures",
+      "title": "ChatGPT, 뉴요커 만화가 화풍 모방에 서명까지 생성",
+      "summary": "ChatGPT가 15명 이상의 뉴요커 기고 만화가 서명이 들어간 만화를 생성해 AI 작품이 실제 작가 것으로 오인될 위험이 제기됐다.",
+      "source": "Digital Trends",
+      "url": "https://www.digitaltrends.com/computing/chatgpt-can-imitate-a-cartoonist-now-its-signing-their-name-too/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 화풍 모방이 '허위 저작자 표시' 문제로 번지고 있다.",
+        "what": "ChatGPT가 뉴요커 기고 만화가 15명 이상의 서명이 들어간 만화를 당사자 관여 없이 생성한 사례가 확인됐다. Brendan Loper, Emily Flake 등은 자신의 이름을 알아볼 수 있는 서명이 담긴 생성 이미지를 접했다.",
+        "points": [
+          "OpenAI는 일부 뉴요커 스타일 요청에 경고를 도입",
+          "그럼에도 서명이 포함된 결과물이 계속 나온다는 보고",
+          "AI 생성물이 실제 작가의 작품으로 잘못 귀속될 위험"
+        ],
+        "why": [
+          "스타일 모방을 넘어 이름까지 도용되며 창작자 권리 논쟁이 확대",
+          "생성형 AI 서비스의 저작자 표시 안전장치 미흡이 드러남"
+        ]
+      }
+    },
+    {
+      "id": "design-imperfection-personal-site",
+      "title": "개인 웹사이트에서 '불완전함'이 주는 가치",
+      "summary": "가짜 게임 카트리지, 드래그 가능한 사진, 종이 질감 셰이더 등 실용성 없는 디테일로 개인 사이트를 재디자인한 경험을 통해 비최적화가 만드는 개성을 이야기한다.",
+      "source": "mamuso.dev",
+      "url": "https://mamuso.dev/note/imperfection?utm_source=tldrdesign",
+      "report": {
+        "tldr": "최적화되지 않은 디테일이 오히려 개성을 만든다.",
+        "what": "한 디자이너가 개인 웹사이트를 재디자인하며 가짜 게임 카트리지, 드래그 가능한 사진 인화물, 종이 같은 셰이더, 애니메이션 라벨, 독특한 링크 같은 장난스러운 디테일을 실험했다. 실용적 목적은 거의 없지만 그 비최적화가 개성을 만든다는 것이 핵심이다.",
+        "points": [
+          "실용성보다 재미를 우선한 인터랙션 디테일 실험",
+          "개인 프로젝트는 업무에서 불가능한 실험의 장",
+          "불필요한 디테일, 불완전함, 오랜 만지작거림 자체가 가치"
+        ],
+        "why": [
+          "효율·전환율 중심 디자인에 대한 반작용으로 '취향 있는 웹'의 의미를 환기"
+        ]
+      }
+    },
+    {
+      "id": "design-slack-content-design-ai",
+      "title": "AI 시대 Slack의 콘텐츠 디자인",
+      "summary": "Slack은 AI가 작성한 UI 문구가 사람 수준에 근접했지만, 신뢰 격차를 메우는 역할은 콘텐츠 디자이너에게 있다고 말한다.",
+      "source": "Slack Design",
+      "url": "https://slack.design/articles/slack-content-design-in-the-age-of-ai/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI가 문구를 쓰는 시대, 콘텐츠 디자이너의 일은 '신뢰 설계'다.",
+        "what": "Slack은 AI가 초안을 쓴 UI 문구가 사람 품질에 거의 근접했다고 밝혔다. Slackbot이 비공개 정보를 유출한 것처럼 보인 사건(실제로는 환각)을 계기로, 팀은 올바른 데이터를 가져오고 LLM의 한계를 설명하도록 UX를 재설계했다.",
+        "points": [
+          "AI 작성 UI 카피 품질이 사람 수준에 근접",
+          "환각이 정보 유출처럼 보인 사례 후 UX 재설계",
+          "3원칙: 제품으로서의 신뢰, 대체 불가능한 인간 판단, AI 에이전트의 인프라로서의 언어"
+        ],
+        "why": [
+          "AI 기능에서 문구와 설명 방식이 사용자 신뢰를 좌우함",
+          "콘텐츠 디자이너의 역할이 카피 작성에서 AI 동작 설명·신뢰 관리로 이동"
+        ]
+      }
+    },
+    {
+      "id": "design-github-accessibility-agent",
+      "title": "GitHub의 범용 접근성 에이전트 구축기",
+      "summary": "GitHub의 실험적 접근성 에이전트가 PR 3,535건을 리뷰해 68%의 해결률을 기록했으며, 복잡한 컴포넌트는 사람 전문가에게 넘긴다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/ai-and-ml/github-copilot/building-a-general-purpose-accessibility-agent-and-what-we-learned-in-the-process/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "접근성 검토를 AI 에이전트가 PR 단계에서 상당 부분 자동화한다.",
+        "what": "GitHub의 실험적 접근성 에이전트가 3,535건의 풀 리퀘스트를 검토해 68%의 해결률을 보였다. Copilot CLI와 VS Code에서 실시간 가이드를 제공하고, 단순한 문제는 프로덕션 전에 수정한다.",
+        "points": [
+          "부모 에이전트가 수동 리뷰어·능동 구현자 하위 에이전트를 지휘하는 구조",
+          "드래그 앤 드롭, 데이터 그리드, 리치 텍스트 에디터는 사람 전문가에게 에스컬레이션",
+          "Copilot CLI·VS Code에서 실시간 안내"
+        ],
+        "why": [
+          "접근성 이슈를 출시 전 개발 흐름 안에서 잡는 실용적 모델",
+          "AI와 사람 전문가의 역할 분담 기준을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "design-siteprint",
+      "title": "Siteprint: 웹사이트 디자인을 AI용 프롬프트로 변환",
+      "summary": "아무 웹사이트의 색상, 타이포그래피, 간격, 레이아웃을 측정해 코딩 에이전트용 구조화 프롬프트로 전달하는 Mac용 Safari 확장이다.",
+      "source": "Siteprint",
+      "url": "https://siteprint.app/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "레퍼런스 사이트의 디자인 수치를 코딩 에이전트에 바로 넘긴다.",
+        "what": "Siteprint는 Mac용 Safari 확장 프로그램으로, 웹사이트의 색상, 타입, 간격, 레이아웃을 측정한다. 측정값은 코딩 에이전트가 쓸 수 있는 구조화된 프롬프트 형태로 제공된다.",
+        "points": [
+          "Mac Safari 확장 형태",
+          "색상·타이포·간격·레이아웃 측정",
+          "결과를 코딩 에이전트용 구조화 프롬프트로 출력"
+        ],
+        "why": [
+          "디자인 레퍼런스를 AI 코딩 워크플로에 연결하는 도구 흐름의 한 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-energy-icons",
+      "title": "Energy Icons: 에너지 전환 분야 오픈소스 아이콘 1,200여 종",
+      "summary": "재생에너지, 전력, 교통, 건물, 탈탄소 등 에너지·기후 제품용 아이콘 1,200개 이상을 두 가지 광학 크기와 두 가지 굵기로 제공한다.",
+      "source": "Energy Icons",
+      "url": "https://energyicons.com/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "기후·에너지 제품을 위한 전문 오픈소스 아이콘 세트.",
+        "what": "Energy Icons는 에너지·기후 제품을 위한 오픈소스 아이콘 라이브러리로 1,200개 이상의 아이콘을 담고 있다. 재생에너지, 전기, 교통, 건물, 탈탄소 영역을 아우른다.",
+        "points": [
+          "1,200개 이상 아이콘, 오픈소스",
+          "두 가지 광학 크기와 두 가지 굵기",
+          "재생에너지·전력·교통·건물·탈탄소 카테고리"
+        ],
+        "why": [
+          "범용 아이콘 세트에 없는 도메인 특화 아이콘 수요를 충족"
+        ]
+      }
+    },
+    {
+      "id": "design-autonomyware",
+      "title": "Autonomyware: 아이디어로 물리적 제품을 자율 설계",
+      "summary": "일상용품부터 복잡한 시스템, 조각, 장난감까지 사용자 아이디어로부터 물리적 제품을 자율적으로 엔지니어링하는 플랫폼이다.",
+      "source": "Autonomyware",
+      "url": "https://www.autonomyware.ai/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "AI 생성이 화면을 넘어 물리 제품 설계로 확장된다.",
+        "what": "Autonomyware는 사용자의 아이디어를 바탕으로 물리적 제품을 자율적으로 설계하는 플랫폼이다. 일상용품, 복잡한 시스템, 조각품, 장난감 등을 대상으로 한다.",
+        "points": [
+          "아이디어 입력 기반 자율 엔지니어링",
+          "일상용품·복잡한 시스템·조각·장난감까지 범위",
+          "제품 디자인 영역으로의 생성형 AI 확장"
+        ],
+        "why": [
+          "산업·제품 디자이너의 초기 설계 프로세스가 바뀔 가능성"
+        ]
+      }
+    },
+    {
+      "id": "design-ipad-air-m4-artist-review",
+      "title": "멀티 분야 아티스트가 써본 iPad Air M4",
+      "summary": "12GB 통합 메모리를 갖춘 M4 iPad Air가 대용량 Procreate 파일, 약 2천만 폴리곤 3D 모델, ProRes 편집을 소화하며 iPad Pro에 가까워졌다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/tech/phones-tablets/testing-the-ipad-air-m4-as-a-multi-disciplinary-artist-does-it-stack-up?utm_source=tldrdesign",
+      "report": {
+        "tldr": "iPad Air M4는 크리에이티브 작업에서 Pro와의 격차를 크게 좁혔다.",
+        "what": "M4 iPad Air는 12GB 통합 메모리로 대용량 Procreate 파일, 2천만 폴리곤에 가까운 3D 모델, ProRes 영상 편집을 처리한다. M2 Air 대비 Geekbench 싱글코어 약 42%, 멀티코어 약 44% 높은 성능을 보였다.",
+        "points": [
+          "12GB 통합 메모리로 무거운 크리에이티브 작업 대응",
+          "M2 Air 대비 싱글 약 42%, 멀티 약 44% 성능 향상",
+          "Apple Pencil Pro 지원",
+          "iPad Pro 우위: OLED, 나노 텍스처 글래스, 더 큰 메모리"
+        ],
+        "why": [
+          "Pro 대신 Air로도 전문 크리에이티브 작업이 가능해져 구매 선택지가 넓어짐"
+        ]
+      }
+    },
+    {
+      "id": "design-mother-ms-packaging",
+      "title": "Mother Design, M&S 패키지 시스템에서 '절제'를 택하다",
+      "summary": "Mother Design이 경쟁하던 하위 브랜드와 위계를 없애고 M&S 홈·란제리 수천 개 제품을 위한 절제된 패키징 시스템을 만들었다.",
+      "source": "Design Week",
+      "url": "https://www.designweek.co.uk/mother-design-exercises-restraint-with-new-ms-pack-system/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "하위 브랜드를 걷어낸 단순한 시스템이 수천 개 제품의 탐색성을 높인다.",
+        "what": "Mother Design은 M&S 홈·란제리 제품 수천 개를 위한 패키징 시스템을 설계하며 서로 경쟁하던 하위 브랜드와 위계를 제거했다. MS London 서체를 표준화하고 MS London Geo 숫자체를 새로 도입했다.",
+        "points": [
+          "하위 브랜드·위계 제거로 일관성 확보",
+          "MS London 서체 표준화, MS London Geo 숫자체 도입",
+          "그리드, 일관된 위계, 절제된 색상, 색상 코드 사이즈 표기"
+        ],
+        "why": [
+          "대규모 SKU 패키징에서 브랜드 표현보다 정보 탐색성을 우선한 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-demsky-neon-graffiti",
+      "title": "그래피티 글자를 네온 포털로 바꾼 거리 예술가",
+      "summary": "1990년대 초 그래피티로 시작한 스페인 작가 Javier Demsky가 자신의 이름 글자를 타이포그래피·건축·SF가 만나는 빛나는 구조물로 변형한다.",
+      "source": "Design You Trust",
+      "url": "https://designyoutrust.com/2026/10/street-artist-turns-graffiti-letters-into-neon-portals-where-typography-architecture-and-science-fiction-collide/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "타이포그래피를 건축적 SF 풍경으로 확장한 작업.",
+        "what": "스페인 작가 Javier Demsky는 1990년대 초 그래피티로 활동을 시작했다. 그는 자신의 이름 글자를 구부려 타이포그래피, 건축, SF가 충돌하는 빛나는 구조물로 표현한다.",
+        "points": [
+          "1990년대 초 그래피티에서 출발한 작가",
+          "이름 글자를 네온 포털 같은 구조물로 변형",
+          "타이포그래피·건축·SF의 결합"
+        ],
+        "why": [
+          "레터링을 공간·세계관 디자인으로 확장하는 영감 레퍼런스"
+        ]
+      }
+    },
+    {
+      "id": "design-ia-different-scales",
+      "title": "정보 구조(IA)는 서로 다른 스케일에서 작동한다",
+      "summary": "정보 구조를 평가하려면 조직, 플랫폼, 사이트, 인터페이스, 인터랙션 중 어느 스케일인지 이해해야 하며 같은 스케일끼리만 비교할 수 있다.",
+      "source": "AGUX",
+      "url": "https://www.agux.co/information-architecture/talking-about-ia/ia-works-at-different-scales?utm_source=tldrdesign",
+      "report": {
+        "tldr": "IA 평가는 먼저 '어떤 스케일인가'부터 정해야 한다.",
+        "what": "정보 구조는 조직, 플랫폼, 사이트, 인터페이스, 인터랙션 등 여러 스케일에서 작동한다. 글은 같은 스케일의 IA끼리만 의미 있게 비교할 수 있다고 주장한다.",
+        "points": [
+          "IA의 다섯 가지 스케일: 조직·플랫폼·사이트·인터페이스·인터랙션",
+          "평가 전 스케일 구분이 필수",
+          "동일 스케일 간에만 비교가 유효"
+        ],
+        "why": [
+          "IA 논의에서 서로 다른 층위를 섞어 비교하는 혼선을 줄여줌"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-microsoft-infinite-saas-factory",
+      "title": "마이크로소프트의 '무한 SaaS 공장'",
+      "summary": "마이크로소프트가 Dynamics 365 전반에 30개 이상 Copilot 스킬과 사내 환경에서 코드를 안전 실행하는 Copilot Managed Runtime을 발표했다.",
+      "source": "X (Satya Nadella)",
+      "url": "https://x.com/satyanadella/status/2108213283144810958?utm_source=tldrfounders",
+      "report": {
+        "tldr": "MS는 에이전트가 업무 앱을 찍어내는 '무한 SaaS 공장'을 노린다.",
+        "what": "마이크로소프트는 Dynamics 365 Sales, Service, Customer Insights 전반에 30개 이상의 새 Copilot 스킬을 발표했다. 기업 환경 내에서 코드를 안전하게 실행하는 Microsoft Copilot Managed Runtime도 함께 공개하며 이를 '무한 SaaS 공장'이라 불렀다.",
+        "points": [
+          "Dynamics 365 Sales·Service·Customer Insights에 30개+ Copilot 스킬",
+          "기업 환경 내 안전 코드 실행용 Copilot Managed Runtime",
+          "'무한 SaaS 공장'이라는 비전 제시"
+        ],
+        "why": [
+          "버티컬 SaaS 스타트업에 빅테크 에이전트 플랫폼의 직접 경쟁 압력",
+          "기업용 에이전트 실행 환경 표준 경쟁 본격화"
+        ]
+      }
+    },
+    {
+      "id": "founders-a16z-new-cfo",
+      "title": "a16z: 새로운 CFO가 필요하다",
+      "summary": "AI 도구가 CFO 역할을 데이터 관리에서 전략적 비즈니스 설계로 바꾸며, 작은 재무팀도 상시 예측과 실시간 의사결정이 가능해진다는 분석.",
+      "source": "a16z News",
+      "url": "https://www.a16z.news/p/you-need-a-new-cfo?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 시대 CFO는 숫자 관리자에서 비즈니스 설계자로 바뀐다.",
+        "what": "a16z는 AI 기반 도구가 CFO의 역할을 데이터 관리 중심에서 전략적 비즈니스 아키텍처 중심으로 바꾸고 있다고 본다. 더 작은 재무팀으로도 지속적 예측과 실시간 의사결정이 가능해진다.",
+        "points": [
+          "CFO 역할이 데이터 관리→전략 설계로 이동",
+          "린한 재무팀으로 상시 예측 가능",
+          "실시간 의사결정 체계로 전환"
+        ],
+        "why": [
+          "스타트업 재무 조직 설계와 채용 기준 재검토 필요"
+        ]
+      }
+    },
+    {
+      "id": "founders-references-hiring",
+      "title": "레퍼런스 체크는 가장 과소평가된 채용 도구",
+      "summary": "2차 면접 이후 레퍼런스 콜을 시작하고, 역할 맞춤 질문 10개를 준비하며, 형용사보다 사례와 비교를 요청하라는 실전 조언.",
+      "source": "X (Brett Berson)",
+      "url": "https://x.com/brettberson/status/2107861788557762941?utm_source=tldrfounders",
+      "report": {
+        "tldr": "레퍼런스에선 형용사 말고 이야기와 비교를 받아내라.",
+        "what": "Brett Berson은 레퍼런스 체크를 2차 면접 이후 시작하고, 역할 요구에 맞춘 질문 10개를 준비하라고 조언한다. 형용사 대신 구체적 사례와 비교를 요청하고, 추가 레퍼런스에 연락하기 전 허락을 받아야 한다.",
+        "points": [
+          "2차 면접 이후 레퍼런스 콜 시작",
+          "역할 맞춤형 질문 10개 준비",
+          "형용사 대신 사례·비교 요청",
+          "추가 레퍼런스 연락 전 후보자 허락"
+        ],
+        "why": [
+          "채용 실패 비용이 큰 초기 스타트업에 즉시 적용 가능한 방법"
+        ]
+      }
+    },
+    {
+      "id": "founders-marketing-engineers",
+      "title": "마케팅 엔지니어: AI 에이전트로 실험 100배",
+      "summary": "고객을 깊이 이해하고 직접 만들 줄 아는 '마케팅 엔지니어'가 차세대 핵심 인재이며, 미래 팀은 1~2명이 수십 개 에이전트를 운용할 것이라는 주장.",
+      "source": "X (Greg Isenberg)",
+      "url": "https://x.com/gregisenberg/status/2108188646973313195?utm_source=tldrfounders",
+      "report": {
+        "tldr": "마케터와 빌더를 겸한 인재가 에이전트로 실험 규모를 키운다.",
+        "what": "Greg Isenberg는 마케터이자 빌더인 '마케팅 엔지니어'가 고객을 깊이 이해하고 가장 빠르게 실행하는 차세대 고성과 인재라고 말한다. 미래의 고성과 팀은 마케팅 엔지니어 1~2명이 수십 개의 에이전트를 관리하는 형태가 될 것이라 전망한다.",
+        "points": [
+          "마케팅 엔지니어 = 마케터 + 빌더",
+          "고객 이해와 실행 속도가 강점",
+          "1~2명이 수십 개 에이전트 운용하는 팀 구조 전망"
+        ],
+        "why": [
+          "그로스 조직 채용·구성 방식 변화의 신호"
+        ]
+      }
+    },
+    {
+      "id": "founders-product-definition",
+      "title": "프로덕트 정의란 무엇인가",
+      "summary": "사람과 에이전트 모두가 올바른 제품을 만들 수 있도록 요구사항·기능·맥락을 명확히 표현하는 것이 프로덕트 정의라는 Ravi Mehta의 글.",
+      "source": "Ravi Mehta's Blog",
+      "url": "https://blog.ravi-mehta.com/p/product-definition?utm_source=tldrfounders",
+      "report": {
+        "tldr": "에이전트 시대엔 명확한 제품 정의가 더 중요해진다.",
+        "what": "Ravi Mehta는 프로덕트 정의를 사람과 에이전트가 올바른 제품을 전달할 수 있도록 요구사항, 기능, 맥락을 명확히 표현하는 일로 정의한다. 이는 교차 기능 협업, 결과 선정, 완벽한 실행을 요구한다.",
+        "points": [
+          "요구사항·기능·맥락의 명확한 표현",
+          "사람과 에이전트 모두를 위한 정의",
+          "교차 기능 협업과 결과 선택, 실행이 핵심"
+        ],
+        "why": [
+          "에이전트에 일을 맡기는 팀일수록 명세 품질이 성과를 좌우"
+        ]
+      }
+    },
+    {
+      "id": "founders-claude-haiku-5-5",
+      "title": "앤트로픽 Claude Haiku 5.5 출시",
+      "summary": "대량 요약, 분류, 코딩, 고객지원, 브라우저 작업을 효율적으로 처리하는 앤트로픽의 경량 모델.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=tldrfounders",
+      "report": {
+        "tldr": "대량·반복 작업용 경량 모델 선택지가 추가됐다.",
+        "what": "앤트로픽이 Claude Haiku 5.5를 공개했다. 대량 요약, 분류, 코딩, 고객지원, 브라우저 작업 등 처리량이 많은 업무를 효율적으로 수행하도록 설계됐다.",
+        "points": [
+          "대량 요약·분류 작업 대상",
+          "코딩·고객지원·브라우저 작업 지원",
+          "효율 중심 경량 모델"
+        ],
+        "why": [
+          "대량 처리 워크로드의 비용 구조 재검토 계기"
+        ]
+      }
+    },
+    {
+      "id": "founders-openai-ultrafast-mode",
+      "title": "OpenAI API 'Ultrafast mode' 출시",
+      "summary": "OpenAI가 GPT-6 Astra와 GPT-6.1 Sol에서 쓸 수 있는 지연 민감형 API 서비스 티어를 별도 레이트 리밋으로 내놨다.",
+      "source": "OpenAI Developers",
+      "url": "https://developers.openai.com/api/docs/guides/ultrafast-mode?utm_source=tldrfounders",
+      "report": {
+        "tldr": "속도가 비용보다 중요한 작업용 프리미엄 티어가 생겼다.",
+        "what": "OpenAI가 지연 시간에 민감한 작업을 위한 API 서비스 티어인 Ultrafast mode를 출시했다. GPT-6 Astra와 GPT-6.1 Sol에서 사용할 수 있으며 별도의 레이트 리밋이 적용된다.",
+        "points": [
+          "GPT-6 Astra, GPT-6.1 Sol 지원",
+          "별도 레이트 리밋 적용",
+          "더 높은 비용을 감수할 만한 속도 중시 작업 대상"
+        ],
+        "why": [
+          "실시간 UX가 중요한 제품의 모델 서빙 선택지 확대"
+        ]
+      }
+    },
+    {
+      "id": "founders-google-gemini-agent",
+      "title": "구글, 범용 업무 에이전트 'Gemini agent' 공개",
+      "summary": "비즈니스 맥락을 수집해 지식 업무부터 코딩까지 처리하고, 최적 모델 선택과 보안·거버넌스 정책을 적용하는 구글 클라우드의 범용 업무 에이전트.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?linkId=64057297&utm_source=tldrfounders",
+      "report": {
+        "tldr": "구글도 기업용 범용 에이전트 경쟁에 정면 진입했다.",
+        "what": "구글 클라우드가 Gemini at Work 2026에서 범용 업무 에이전트 Gemini agent를 공개했다. 비즈니스 맥락을 모아 지식 업무에서 코딩까지 작업을 완수하며, 최적 모델을 선택하고 보안·거버넌스·관리 정책을 적용한다.",
+        "points": [
+          "비즈니스 맥락 수집 후 작업 수행",
+          "지식 업무부터 코딩까지 범용 처리",
+          "모델 자동 선택과 보안·거버넌스 정책 적용"
+        ],
+        "why": [
+          "MS Copilot 발표와 같은 날 나와 기업 에이전트 플랫폼 경쟁 심화",
+          "업무 자동화 스타트업에 플랫폼 리스크"
+        ]
+      }
+    },
+    {
+      "id": "founders-ai-vs-vendor-lockin",
+      "title": "AI가 벤더 락인을 깬다",
+      "summary": "AI가 코드와 데이터를 함께 옮기는 맞춤형 변환기·에이전트를 가능케 해 마이그레이션 비용을 크게 낮추고, 비싸진 벤더에서 벗어날 출구를 제공한다는 분석.",
+      "source": "Michael Nygard's Blog",
+      "url": "https://www.michaelnygard.com/blog/2026/10/ai-versus-vendor-lock-in/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "전환 비용이 무너지면 락인 기반 해자도 약해진다.",
+        "what": "Michael Nygard는 AI가 목적형 변환기와 에이전트를 통해 코드와 데이터를 모두 이전할 수 있게 하면서 마이그레이션 비용을 극적으로 낮췄다고 본다. 이로써 기업은 잔류 비용이 너무 커질 때 현실적인 탈출 경로를 갖게 됐다.",
+        "points": [
+          "AI 기반 맞춤 변환기로 코드·데이터 이전",
+          "마이그레이션 비용 급감",
+          "비싼 벤더에서의 현실적 출구 확보"
+        ],
+        "why": [
+          "락인에 의존한 SaaS 비즈니스 모델에 위협",
+          "도전자 스타트업에는 고객 이전 장벽 하락 기회"
+        ]
+      }
+    },
+    {
+      "id": "founders-compute-capital-markets",
+      "title": "컴퓨트 자본시장의 부상",
+      "summary": "컴퓨트는 칩·메모리·인프라 공급이 제약된 가장 빠르게 성장하는 자산군이며, 크립토 레일 기반 시장이 컴퓨트 노출을 가격 책정·금융·헤지할 수 있다는 Multicoin의 주장.",
+      "source": "Multicoin Capital",
+      "url": "https://multicoin.capital/2026/10/08/compute-capital-markets/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "컴퓨트가 금융화 가능한 자산군으로 다뤄지기 시작했다.",
+        "what": "Multicoin Capital은 컴퓨트를 칩, 메모리, 인프라 전반에서 공급이 제약된 가장 빠르게 성장하는 자산군으로 규정한다. 크립토 레일을 활용한 신흥 시장이 컴퓨트 익스포저의 가격 책정, 자금 조달, 헤지를 가능하게 할 수 있다고 본다.",
+        "points": [
+          "컴퓨트 = 가장 빠르게 성장하는 자산군",
+          "칩·메모리·인프라 공급 제약",
+          "크립토 레일로 가격 책정·금융·헤지 가능성"
+        ],
+        "why": [
+          "GPU 비용이 큰 AI 스타트업의 조달·헤지 방식 변화 가능성"
+        ]
+      }
+    },
+    {
+      "id": "founders-usage-based-ai-pricing",
+      "title": "AI 수익화 논쟁, 다시 방향 전환",
+      "summary": "사용량 기반 영업 보상은 신규 고객보다 계정 확장에 치우칠 수 있어, 신규 고객 결제와 실제 사용량 정산의 균형을 잡는 법을 설명한 가이드.",
+      "source": "Growth Unhinged",
+      "url": "https://www.growthunhinged.com/p/usage-based-pricing-for-ai?utm_source=tldrfounders",
+      "report": {
+        "tldr": "사용량 기반 가격은 영업 보상 설계까지 바꿔야 한다.",
+        "what": "Growth Unhinged는 사용량 기반 영업 보상이 신규 고객 확보보다 기존 계정 확장을 강조하게 될 수 있다고 지적한다. 신규 고객 결제와 실제 사용량 정산 사이 균형을 맞추는 방법을 안내한다.",
+        "points": [
+          "사용량 기반 보상은 확장 편향 가능",
+          "신규 결제와 사용량 정산의 균형 필요",
+          "AI 제품 가격 모델 논쟁의 최신 흐름"
+        ],
+        "why": [
+          "AI 제품 가격·영업 보상 체계 설계에 직접적 시사점"
+        ]
+      }
+    },
+    {
+      "id": "founders-moat-is-dead",
+      "title": "해자는 죽었다: 누구나 당신의 제품을 다시 만들 수 있다",
+      "summary": "한 팀이 Rust 기반 오픈소스 포토샵 클론 PhotoCraft를 만들어 기능 중심 소프트웨어가 얼마나 쉽게 복제되는지 보여줬다.",
+      "source": "The Tech Founder Stack",
+      "url": "https://www.techfounderstack.com/p/your-moat-is-dead-anyone-can-rebuild?utm_source=tldrfounders",
+      "report": {
+        "tldr": "기능만으로는 더 이상 해자가 되지 않는다.",
+        "what": "한 팀이 Rust로 작성된 오픈소스 포토샵 클론 PhotoCraft를 만들었다. 글은 이를 근거로 기능 기반 소프트웨어가 얼마나 쉽게 복제될 수 있는지 보여준다.",
+        "points": [
+          "Rust 기반 오픈소스 포토샵 클론 PhotoCraft",
+          "기능 중심 소프트웨어의 복제 용이성 입증",
+          "기능 외 차별화 요소의 필요성"
+        ],
+        "why": [
+          "창업자는 데이터·유통·브랜드 등 복제 어려운 해자를 고민해야 함"
+        ]
+      }
+    },
+    {
+      "id": "founders-lessons-building-ai-startups",
+      "title": "AI 시스템·제품·스타트업 구축의 교훈",
+      "summary": "우수한 기술이 영업 저항에 부딪히는 이유와 초기 고객 요구가 스타트업을 컨설팅 회사로 바꾸는 순간을 알아차리는 법에 대한 Irina Calciu의 통찰.",
+      "source": "SK Murphy's Blog",
+      "url": "https://www.skmurphy.com/blog/2026/10/07/irina-calciu-lessons-from-building-ai-systems-products-startups/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "고객 요구에 끌려가다 컨설팅이 되는 순간을 경계하라.",
+        "what": "SK Murphy 블로그가 Irina Calciu의 AI 시스템·제품·스타트업 구축 경험을 정리했다. 기술적으로 우월해도 판매 저항을 겪는 이유와, 초기 고객 요구 때문에 스타트업이 컨설팅 서비스로 변질되는 시점을 인식하는 법을 다룬다.",
+        "points": [
+          "우수한 기술도 영업 저항에 직면",
+          "초기 고객 요구로 컨설팅화되는 위험 신호",
+          "AI 제품을 고객에게 전달하는 실무 교훈"
+        ],
+        "why": [
+          "B2B AI 창업자의 제품화 vs 맞춤 개발 판단에 참고"
+        ]
+      }
+    },
+    {
+      "id": "founders-ai-cognitive-atrophy",
+      "title": "AI 인지 위축",
+      "summary": "비판적 사고 없이 LLM에 과도하게 의존하면 전문가의 인지 역량이 약해지고 개인의 책임감과 주인의식이 무너진다는 Deb Liu의 경고.",
+      "source": "Deb Liu's Substack",
+      "url": "https://debliu.substack.com/p/own-every-word?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI가 쓴 글이라도 모든 단어에 책임을 져야 한다.",
+        "what": "Deb Liu는 비판적 사고 없이 LLM에 크게 의존하는 것이 전문가들의 인지 능력을 떨어뜨리고 개인의 책임과 주인의식을 약화한다고 지적한다.",
+        "points": [
+          "LLM 과의존이 인지 역량 저하로 이어짐",
+          "개인 책임과 주인의식 약화",
+          "결과물의 모든 단어를 스스로 소유해야 한다는 메시지"
+        ],
+        "why": [
+          "AI 활용이 일상화된 조직의 문화·평가 기준 점검 필요"
+        ]
+      }
+    },
+    {
+      "id": "founders-personal-agents-platform-shift",
+      "title": "다음 거대한 플랫폼 전환: 개인 에이전트",
+      "summary": "각 플랫폼 진화는 인간과 인터페이스의 상호작용 방식을 바꿨지만, 개인 에이전트는 인터페이스에서 인간을 아예 제거한다는 주장.",
+      "source": "Dead Neurons Substack",
+      "url": "https://deadneurons.substack.com/p/the-next-great-platform-shift-personal?utm_source=tldrfounders",
+      "report": {
+        "tldr": "개인 에이전트 시대엔 사람이 UI를 직접 쓰지 않는다.",
+        "what": "Dead Neurons는 지금까지의 플랫폼 진화가 인간이 인터페이스와 상호작용하는 방식을 바꿔왔다면, 개인 에이전트는 인간을 인터페이스 방정식에서 근본적으로 제거한다고 주장한다.",
+        "points": [
+          "과거 플랫폼 전환은 인터페이스 방식의 변화",
+          "개인 에이전트는 인간을 인터페이스에서 제거",
+          "새로운 플랫폼 전환으로 규정"
+        ],
+        "why": [
+          "사람이 아닌 에이전트를 '사용자'로 설계해야 할 제품 전략적 함의"
+        ]
+      }
+    }
+  ]
+}

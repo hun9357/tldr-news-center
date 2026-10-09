@@ -1,0 +1,231 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-standard-chartered-singapore-custody",
+      "title": "스탠다드차타드, 싱가포르에서 가상자산 커스터디 확대",
+      "summary": "스탠다드차타드 싱가포르 법인이 연내 규제 요건 충족을 전제로 일부 가상자산·스테이블코인·토큰화 실물자산의 기관용 커스터디를 제공할 계획이다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-08-standard-chartered-crypto-custody-singapore-418017?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "글로벌 은행이 아시아 기관 커스터디 거점을 넓힌다.",
+        "what": "스탠다드차타드 싱가포르 법인이 연말까지 일부 가상자산, 스테이블코인, 토큰화 실물자산에 대한 기관용 커스터디를 제공할 계획이다(규제 요건 충족 전제). UAE, 룩셈부르크, 홍콩에 이은 확장이며, 노던트러스트와 함께 인큐베이팅한 Zodia Custody를 내부로 편입한 데 뒤이은 조치다.",
+        "points": [
+          "대상: 일부 가상자산·스테이블코인·토큰화 RWA",
+          "연말 목표, 규제 요건 전제",
+          "기존 거점: UAE·룩셈부르크·홍콩",
+          "Zodia Custody 내재화 이후 확장"
+        ],
+        "why": [
+          "전통 은행의 기관 커스터디 진출이 가속되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-justin-drake-bunker-mode",
+      "title": "저스틴 드레이크, AI의 ECDSA 위협에 ‘벙커 모드’ 촉구",
+      "summary": "이더리움 연구자 저스틴 드레이크가 AI 기반 수학 발전으로 ECDSA가 깨질 가능성에 대비해, 공개키가 해시 뒤에 숨겨진 새 주소로 자산을 옮기라고 촉구했다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2107837081313505768.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "AI가 타원곡선 암호를 수개월 내 깰 수 있다는 경고에 대비한 자산 이전 권고다.",
+        "what": "저스틴 드레이크가 ECDSA 붕괴 가능성에 대비해 공개키가 해시 뒤에 감춰진 새 주소로 자산을 옮기는 ‘벙커 모드’를 제안했다. 오픈AI의 수학 초지능 공개 등 AI 수학 발전으로 수개월 내 GPU 클러스터에서 빠른 개인키 복구가 가능해질 수 있다는 주장이다. 이더리움 로드맵은 이미 형식 검증된 해시 기반 암호를 목표로 하며 드레이크는 일정 가속을 추진한다.",
+        "points": [
+          "공개키가 노출되지 않은 새 주소로 자산 이전 권고",
+          "타원곡선의 대수적 구조가 AI 발견 기법에 취약할 수 있다는 주장",
+          "오픈AI 수학 결과 722건에 암호 성과가 없다는 점에서 정부 억제 가능성 제기",
+          "오라클·L2 보안위원회에 서명마다 ECDSA 공개키 교체 권고"
+        ],
+        "why": [
+          "사실이라면 대부분 체인의 서명 체계가 위협받는다",
+          "포스트 양자/해시 기반 전환 일정에 압력이 커진다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-polygon-open-money-stack-tron",
+      "title": "폴리곤 Open Money Stack, 트론으로 확장",
+      "summary": "폴리곤 랩스의 Open Money Stack이 트론을 지원해, 핀테크·송금업체가 한 번의 연동으로 미국 48개 주 규제 온·오프램프와 트론 USDT를 연결할 수 있게 됐다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/sponsored/2026-10-07-polygon-open-money-stack-expands-to-tron-extending-network-access-to-regulated-u-s-payment-rails-417930?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "폴리곤이 트론 USDT 결제 흐름을 미국 규제 결제망과 잇는다.",
+        "what": "폴리곤 랩스가 Open Money Stack의 트론 지원을 발표했다. 핀테크와 송금업체는 하나의 연동으로 은행 자금을 트론 USDT와 연결할 수 있으며, 미국 48개 주의 규제 램프, 프로그래머블 트론 지갑, 트론-EVM 간 크로스체인 라우팅을 제공한다. 이 스택은 진행 중인 Coinme 인수와 Sequence 인수를 통해 구성됐다.",
+        "points": [
+          "미국 48개 주 규제 램프",
+          "프로그래머블 트론 지갑",
+          "트론↔EVM 크로스체인 라우팅",
+          "폴리곤 누적 결제 처리액 3조 달러 이상 주장"
+        ],
+        "why": [
+          "스테이블코인 송금 인프라 경쟁이 체인 간 통합으로 번지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-reap-virtual-assets-card",
+      "title": "Reap, 거의 모든 자산을 일반 카드로 결제 가능하게",
+      "summary": "Reap Virtual Assets는 카드 프로젝트가 BTC·토큰화 주식·금·이자 자산·포인트·신용한도 등을 고정가 또는 실시간 가격으로 하나의 카드 잔액에 묶어 쓸 수 있게 한다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2107826360416616665.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "다양한 온체인 자산을 비자 카드 결제로 연결하는 인프라다.",
+        "what": "Reap Virtual Assets는 카드 프로젝트가 BTC, 토큰화 주식과 금, 이자 수익형 자산, 포인트, 신용한도까지 결제에 쓸 수 있게 한다. 자산별로 고정 가격 또는 실시간 가격 피드를 설정하고 여러 자산을 하나의 카드 잔액으로 합칠 수 있다. 자산은 프로젝트가 보유하고, 비자 정산은 백엔드에서 USDC 또는 USDT로 이뤄진다.",
+        "points": [
+          "자산별 고정가·실시간 가격 피드 설정",
+          "여러 자산을 하나의 카드 잔액으로 통합",
+          "자산은 프로젝트가 보관",
+          "비자 정산은 USDC·USDT"
+        ],
+        "why": [
+          "크립토 카드 발행 장벽을 낮춰 실사용 결제를 넓힐 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-vitalik-hash-based-over-lattices",
+      "title": "비탈릭, AI 시대 암호학: 격자보다 해시 기반",
+      "summary": "비탈릭 부테린은 AI가 수학 발전을 압축하며 격자 기반 암호(ML-DSA·LWE·FHE)의 안전성을 깎을 수 있다고 경고하고, 이더리움은 해시 전용 서명으로 방향을 틀었다고 밝혔다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2107976296320106851.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "이더리움이 AI 리스크를 이유로 격자 대신 해시 기반 암호를 택했다.",
+        "what": "비탈릭 부테린은 GNFS가 RSA의 실효 강도를 낮췄듯, AI 가속 수학 연구가 격자 기반 암호의 안전성을 약화시킬 수 있으며 50년치 수학 발전을 2년으로 압축할 수 있다고 전망했다. 이더리움 lean 로드맵은 WOTS·SPHINCS+ 등 해시 전용 서명으로 전환하고 격자 기반 요소를 제외했다. 다만 공개키 암호화는 해시만으로 만들 수 없어 메신저·VPN 등에는 미해결 과제로 남는다.",
+        "points": [
+          "격자 기반(ML-DSA·LWE·FHE) 안전성 약화 우려",
+          "이더리움, WOTS·SPHINCS+ 해시 전용 서명으로 전환",
+          "해시만으로는 공개키 암호화 불가 - 블록체인 밖의 난제",
+          "권고: 미사용 주소 보관, 멀티시그 확인 오프체인화, 암호화 노트 오프체인 전달"
+        ],
+        "why": [
+          "포스트 양자 표준으로 여겨진 격자 암호에 대한 재평가가 필요해진다",
+          "드레이크의 경고와 맞물려 이더리움 보안 로드맵이 가속될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-agentic-finance-q3-2026",
+      "title": "에이전틱 금융 현황 보고서: 2026년 3분기",
+      "summary": "3분기 로빈후드·이토로·위불·코인베이스가 에이전트 트레이딩 계좌를 출시했고, x402는 2억3,200만 건·5,400만 달러를 처리했으며 미국 CLARITY 법안은 상원에서 부결됐다.",
+      "source": "Cambrian Network (X)",
+      "url": "https://x.com/CambrianNetwork/status/2107505199686332736?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "AI 에이전트가 금융 거래의 실제 주체로 빠르게 자리잡고 있다.",
+        "what": "Cambrian Network가 3분기 에이전틱 금융 동향을 정리했다. 로빈후드(사용자 10만 명 이상), 이토로, 위불, 코인베이스가 에이전트 트레이딩 계좌를 출시했고 코인베이스는 에이전트 투자자문 첫 SEC 등록을 확보했다. 21개 대형 은행의 스테이블코인 회사 설립 약속, 마스터카드 Agent Pay for Machines 출시, 싱가포르 MAS의 SAFR 프레임워크 공개도 있었다.",
+        "points": [
+          "x402: 2억3,200만 건, 5,400만 달러 처리",
+          "ERC-8004 에이전트 등록 50만 건(전분기 대비 2배, 22개 네트워크)",
+          "분산형 RWA 가치 386억 달러",
+          "미국 CLARITY 법안 상원 부결 - SEC·CFTC가 규칙 마련"
+        ],
+        "why": [
+          "결제·투자 인프라가 기계 간 거래를 전제로 재편되고 있다",
+          "미국 입법 공백으로 규제가 기관 재량에 맡겨진다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-morpho-fee-switch-vs-uniswap",
+      "title": "모르포의 수수료 스위치는 유니스왑과 비교할 수 없다",
+      "summary": "모르포 수수료는 공급자 수익률이나 큐레이터 마진에서 나와야 해 자본 이탈을 부를 수 있으며, 유니스왑의 최근 강세도 일시적 이상치였다는 분석이다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2107989350369681916.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "모르포는 아직 가격 결정력을 입증하지 못했다.",
+        "what": "모르포의 수수료는 공급자(이동성 높은 자본의 수익률 하락), 큐레이터(마진 압축으로 위험한 볼트나 Aave V4 등으로 이탈 유도), 또는 둘 다에서 나와야 한다. 거래량이 유동성을 끌어들이는 유니스왑과 구조가 다르다는 지적이다. 유니스왑의 최근 강세도 로빈후드 밈 투기에 따른 이례적 한 달이었고, 거래량은 9월 고점 대비 약 71% 줄었다.",
+        "points": [
+          "수수료 부담 주체: 공급자 또는 큐레이터",
+          "큐레이터가 Aave V4 등으로 이탈할 위험",
+          "유니스왑 거래량 9월 고점 대비 약 71% 감소",
+          "모르포 가격 결정력 미입증"
+        ],
+        "why": [
+          "DeFi 토큰 가치평가에서 수수료 스위치를 일괄 비교하면 안 된다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-industry-split-drake-ai-warning",
+      "title": "저스틴 드레이크의 AI 경고에 업계 의견 엇갈려",
+      "summary": "코인베이스 암호 책임자 예후다 린델은 ECDSA가 수개월 내 깨질 수 있다는 경고를 ‘FUD’라 했고, 드래곤플라이의 하십 쿠레시는 ‘매우 냉정한 경고’라 평가했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-10-08-crypto-industry-split-over-justin-drakes-ai-warning-418021",
+      "report": {
+        "tldr": "ECDSA 붕괴 경고를 두고 업계가 ‘FUD’와 ‘냉정한 경고’로 갈렸다.",
+        "what": "코인베이스 암호 책임자 예후다 린델은 타원곡선 암호의 난제 가정이 약해졌다는 증거가 없다며 드레이크의 경고를 FUD라고 했다. 드래곤플라이의 하십 쿠레시는 ‘매우 냉정한 경고’라고 평했다. 솔라나 재단의 제이콥 크리치는 Ed25519 구조가 해시 기반 증명을 통해 양자 내성 방식으로 이전할 수 있어 솔라나는 벙커 모드가 필요 없다고 말했다.",
+        "points": [
+          "코인베이스 린델: 근거 없는 FUD",
+          "드래곤플라이 쿠레시: 냉정한 경고",
+          "솔라나 크리치: Ed25519는 해시 기반 증명으로 이전 가능",
+          "체인별 대응 전략 차이 부각"
+        ],
+        "why": [
+          "보안 리스크 인식 차이가 체인별 마이그레이션 속도 차이로 이어질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-bitmine-stop-eth-5pct",
+      "title": "비트마인, ETH 공급량 5%에서 매입 중단",
+      "summary": "비트마인은 10월 4일 기준 6,016,414 ETH를 보유하고 있으며, 마이크로스트래티지의 비트코인 트레저리 모델을 이더리움에 적용해 왔다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/converge/tradfi-and-fintech/bitmine-will-stop-buying-eth-at-5-of-supply-tom-lee-says?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "최대 ETH 트레저리 기업이 매입 상한을 공급량 5%로 설정했다.",
+        "what": "비트마인이 이더리움 공급량의 5%에 도달하면 ETH 매입을 멈추겠다고 밝혔다. 10월 4일 기준 보유량은 6,016,414 ETH이며, 마이크로스트래티지의 비트코인 축적 모델을 이더리움에 적용해 왔다.",
+        "points": [
+          "10월 4일 기준 6,016,414 ETH 보유",
+          "공급량 5% 도달 시 매입 중단",
+          "마이크로스트래티지식 트레저리 모델"
+        ],
+        "why": [
+          "대형 매수 주체의 상한 설정은 ETH 수급 전망에 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ethereum-propamms",
+      "title": "이더리움 PropAMM의 현재와 미래",
+      "summary": "PropAMM은 이더리움 DEX 거래량의 5~10%를 차지해 솔라나의 40%에 크게 못 미치며, 9월 14~20일 주간 Fermi(2억8천만 달러)와 Metric(1억7,800만 달러)은 유니스왑(60억 달러)에 크게 뒤처졌다.",
+      "source": "Ethereum Research",
+      "url": "https://ethresear.ch/t/ethereum-propamms-today-and-tomorrow/26129?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "이더리움에서 PropAMM은 아직 솔라나 대비 비중이 작다.",
+        "what": "Ethereum Research 글이 이더리움 PropAMM 현황을 분석했다. PropAMM은 이더리움 DEX 거래량의 5~10%로 솔라나의 40%에 비해 낮다. 9월 14~20일 주간 Fermi는 2억8천만 달러, Metric은 1억7,800만 달러로 유니스왑 60억 달러에 크게 뒤졌다.",
+        "points": [
+          "이더리움 DEX 중 PropAMM 비중 5~10%",
+          "솔라나는 약 40%",
+          "Fermi 2억8천만·Metric 1억7,800만 달러",
+          "유니스왑 60억 달러(9월 14~20일)"
+        ],
+        "why": [
+          "이더리움 DEX 시장 구조 변화의 여지를 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-bitcoin-below-83k-oil-iran",
+      "title": "비트코인 8만3천 달러 붕괴, 이란 공습 계획 보도에 유가 급등",
+      "summary": "비트코인이 8만2,800달러까지 떨어지며 FxPro가 매도세 주도 전환 기준으로 꼽은 기술적 수준을 이탈했고, 8만 달러까지 하락할 수 있다는 전망이 나왔다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/markets/2026/10/08/bitcoin-breaks-below-usd83-000-as-oil-jumps-on-iran-strike-plan-report?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "지정학 리스크로 비트코인이 핵심 지지선을 내줬다.",
+        "what": "이란 공습 계획 보도로 유가가 뛰는 가운데 비트코인이 8만2,800달러로 하락했다. FxPro 분석가들이 매도세가 주도권을 쥐는 기준으로 지목한 기술적 수준을 이탈한 것으로, 8만 달러까지 밀릴 수 있다는 관측이 나온다.",
+        "points": [
+          "비트코인 8만2,800달러까지 하락",
+          "이란 공습 계획 보도로 유가 상승",
+          "FxPro 지목 기술적 지지선 이탈",
+          "하방 목표 8만 달러 거론"
+        ],
+        "why": [
+          "거시·지정학 변수에 대한 크립토 시장 민감도를 보여준다"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-gpt-6-1-sol-ultrafast",
+      "title": "OpenAI, GPT-6.1 Sol에 'Ultrafast' 모드 출시",
+      "summary": "OpenAI가 API·Codex·ChatGPT Work에서 GPT-6.1 Sol의 Ultrafast 모드를 내놨다. Sol Standard보다 최대 8배 빠르면서 Astra에 근접한 지능을 제공한다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2108262812489531498.html?utm_source=tldrai",
+      "report": {
+        "tldr": "속도와 지능을 동시에 원하는 작업용 고속 모드가 나왔다.",
+        "what": "OpenAI는 GPT-6.1 Sol용 Ultrafast를 API, Codex, ChatGPT Work에 배포한다. Sol Standard 대비 최대 8배 빠른 속도로 Astra급에 가까운 지능을 제공하며, 속도와 지능이 모두 중요한 작업을 겨냥한다.",
+        "points": [
+          "Sol Standard 대비 최대 8배 빠름",
+          "API 가격: 입력 100만 토큰당 12달러, 출력 60달러",
+          "API·Codex·ChatGPT Work에 동시 출시"
+        ],
+        "why": [
+          "에이전트·코딩 작업의 지연 시간 단축 경쟁 심화",
+          "고속 모드에 프리미엄 가격을 매기는 새 과금 구도"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-gemini-agent",
+      "title": "구글, 업무 전반을 처리하는 범용 'Gemini 에이전트' 공개",
+      "summary": "구글이 Workspace와 엔터프라이즈 도구 전반에서 지식 업무·미디어 제작·코딩·다단계 워크플로를 자율 처리하는 범용 Gemini 에이전트를 발표했다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?utm_source=tldrai",
+      "report": {
+        "tldr": "구글이 기업 업무용 범용 자율 에이전트를 내놨다.",
+        "what": "구글은 Workspace와 다른 엔터프라이즈 도구에 걸쳐 지식 업무, 미디어 제작, 코딩, 다단계 워크플로를 자율적으로 처리하는 범용 Gemini 에이전트를 소개했다. 지속 컨텍스트, 멀티에이전트 오케스트레이션, 모델 라우팅, 거버넌스, 비용 통제 기능도 추가됐다.",
+        "points": [
+          "지식 업무·미디어·코딩·다단계 워크플로 자율 처리",
+          "지속 컨텍스트와 멀티에이전트 오케스트레이션",
+          "모델 라우팅, 거버넌스, 비용 통제 기능"
+        ],
+        "why": [
+          "엔터프라이즈 에이전트 플랫폼 경쟁에서 구글의 본격 공세",
+          "기업 도입의 걸림돌인 거버넌스·비용 문제를 정면 대응"
+        ]
+      }
+    },
+    {
+      "id": "ai-hone-60m-seed",
+      "title": "Hone, 사업 운영 AI 에이전트로 6,000만 달러 시드 유치",
+      "summary": "급성장 AI 기업 출신들이 세운 5개월 차 스타트업 Hone이 수주~수개월짜리 장기 업무를 처리하는 AI 에이전트 개발을 위해 6,000만 달러 시드를 유치했다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-08/former-openai-cognition-staffers-want-ai-to-help-run-a-business?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTUxNjQ4NywiZXhwIjoxNzkyMTIxMjg3LCJhcnRpY2xlSWQiOiJUTUxHQ0JSS1YyVUcwMCIsImJjb25uZWN0SWQiOiI2NTc1NjkyN0UwMkM0N0MwQkQ0MDNEQTJGMEUyNzIyMyJ9.Jtwqx1KL4tjx_bLoAYVftZkw_Sg4QVDOCe3pGu64cos&utm_source=tldrai",
+      "report": {
+        "tldr": "AI 에이전트를 '직원'처럼 쓰겠다는 스타트업에 대형 시드가 몰렸다.",
+        "what": "Cognition, Ramp 등 급성장 AI 기업 출신들이 만든 Hone이 6,000만 달러 시드 라운드를 마쳤다. 회사는 전문 인력처럼 사업 운영을 돕는 AI 에이전트를 만들며, 이 에이전트는 수주에서 수개월에 걸친 장기 작업을 처리한다.",
+        "points": [
+          "시드 6,000만 달러, 설립 5개월 차",
+          "창업진: Cognition·Ramp 등 출신",
+          "수주~수개월 단위 장기 작업 수행 에이전트"
+        ],
+        "why": [
+          "복잡한 업무 자동화를 약속하는 기업용 AI 시장에 자금 집중",
+          "장기 실행 에이전트가 다음 경쟁 축으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "ai-can-ai-automate-epoch",
+      "title": "AI는 Epoch를 자동화할 수 있을까?",
+      "summary": "Epoch 자동화 보고서에 따르면 현재 모델은 Epoch 수준의 연구를 자율 수행하지 못한다. 잘 정의된 작업은 잘하지만 개방형 판단에서 실패했다.",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/can-ai-automate-epoch?utm_source=tldrai",
+      "report": {
+        "tldr": "AI는 정형 작업은 해내지만 연구의 판단력은 아직 부족하다.",
+        "what": "Epoch는 자사 연구 업무를 모델이 자율 수행할 수 있는지 시험했다. 프런티어 모델은 명확히 정의된 작업에선 안정적이었지만 완전 자동화를 막는 개방형 측면에서 실패했다.",
+        "points": [
+          "프런티어 모델: 정형 작업은 안정적, 개방형 작업은 실패",
+          "오픈웨이트 모델은 정형 작업에서도 고전",
+          "참고 자료가 많아도 Epoch의 기준을 체득하지 못함",
+          "유망한 연구 방향은 찾지만 끝까지 수행하는 판단력 부족"
+        ],
+        "why": [
+          "AI 연구 자동화의 현실적 한계를 보여주는 1차 자료"
+        ]
+      }
+    },
+    {
+      "id": "ai-speculative-decoding-fast",
+      "title": "추측 디코딩은 왜 빠른가",
+      "summary": "작은 드래프트 모델이 제안한 토큰 시퀀스를 큰 모델이 한 번의 forward pass로 병렬 검증하는 추측 디코딩의 원리와 한계를 설명한다.",
+      "source": "jbarrow.ai",
+      "url": "https://jbarrow.ai/2026-10-08-why-is-speculative-decoding-fast/?utm_source=tldrai",
+      "report": {
+        "tldr": "추측 디코딩은 남는 연산을 활용하지만 고처리량에선 오히려 낭비일 수 있다.",
+        "what": "추측 디코딩은 작은 드래프트 모델이 가능성 높은 시퀀스를 제안하고, 큰 모델이 단일 forward pass로 이를 병렬 검증하는 기법이다. 여러 토큰을 한꺼번에 보고 큰 모델이 생성했을 토큰만 수용한다.",
+        "points": [
+          "드래프트 모델 제안 → 큰 모델 병렬 검증",
+          "배치 크기가 작을 때 '공짜' 연산으로 속도 향상",
+          "고처리량에선 메모리 이동에 쓸 시간을 낭비할 수 있음"
+        ],
+        "why": [
+          "추론 최적화 기법 선택 시 배치 크기·처리량을 고려해야 하는 이유"
+        ]
+      }
+    },
+    {
+      "id": "ai-exa-atlas-benchmark",
+      "title": "Exa, 검색 집약형 에이전트 벤치마크 ATLAS 공개",
+      "summary": "ATLAS는 웹 검색이 필요한 실제 과제에서 검색 에이전트의 정확도와 완결성을 평가한다. 고성능 에이전트도 정답 상당수를 놓쳤다.",
+      "source": "Exa",
+      "url": "https://exa.ai/blog/atlas-benchmark?utm_source=tldrai",
+      "report": {
+        "tldr": "검색 에이전트는 아직 정답을 상당 부분 놓친다.",
+        "what": "Exa의 ATLAS는 웹 검색이 필요한 실제 작업으로 검색 에이전트를 평가하는 새 벤치마크다. 높은 effort의 에이전트조차 상당수의 정답을 놓쳐, 검색 엔진 개선 여지가 크다는 점을 보여줬다.",
+        "points": [
+          "암기되지 않은 과제 중심",
+          "여러 도메인에 걸친 광범위한 검색 요구",
+          "비용 효율적인 채점 방식"
+        ],
+        "why": [
+          "딥리서치형 에이전트의 실력을 가늠할 새 기준"
+        ]
+      }
+    },
+    {
+      "id": "ai-microsoft-quicksand",
+      "title": "Microsoft Quicksand: AI 에이전트 샌드박스용 QEMU VM API",
+      "summary": "Quicksand는 QEMU 가상머신을 실행·제어·스냅샷하는 비동기 Python API로, AI 에이전트 샌드박싱에 초점을 맞췄다. root 권한이나 Docker가 필요 없다.",
+      "source": "GitHub",
+      "url": "https://github.com/microsoft/quicksand?utm_source=tldrai",
+      "report": {
+        "tldr": "root·Docker 없이 에이전트를 VM에 격리할 수 있다.",
+        "what": "Microsoft의 Quicksand는 QEMU 가상머신을 띄우고 제어하고 스냅샷하는 비동기 Python API로, 특히 AI 에이전트 샌드박싱을 겨냥한다. Ubuntu와 Alpine용 사전 빌드 Linux VM을 제공한다.",
+        "points": [
+          "비동기 Python API로 QEMU VM 제어·스냅샷",
+          "x86_64·ARM64, macOS·Linux·Windows 지원",
+          "root 권한·Docker 불필요"
+        ],
+        "why": [
+          "에이전트 실행 격리가 보안의 기본 요건이 되는 흐름에 맞는 도구"
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-longlive",
+      "title": "NVIDIA, 장시간 영상·월드-액션 연구 모음 LongLive 공개",
+      "summary": "NVIDIA가 장시간 영상 생성과 월드-액션 모델링 연구 프로젝트 모음 LongLive를 코드·문서·모델 가중치와 함께 공개했다.",
+      "source": "GitHub",
+      "url": "https://github.com/NVlabs/LongLive?utm_source=tldrai",
+      "report": {
+        "tldr": "NVIDIA가 장시간 영상·월드 모델 연구를 오픈소스로 풀었다.",
+        "what": "NVIDIA는 장시간 영상 생성과 월드-액션 모델링에 초점을 둔 연구 프로젝트 모음 LongLive를 공개했다. 각 프로젝트는 자체 코드, 문서, 모델 가중치를 포함한다.",
+        "points": [
+          "장시간 영상 생성 연구",
+          "월드-액션 모델링 연구",
+          "코드·문서·가중치 동시 공개"
+        ],
+        "why": [
+          "피지컬 AI와 월드 모델 연구의 오픈 생태계 확대"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-revenue-20b-less",
+      "title": "OpenAI 연환산 매출, 알려진 것보다 200억 달러 적어",
+      "summary": "OpenAI가 투자자들에게 연환산 매출이 500억 달러에 근접한다고 밝혔다. 일주일여 전 보도된 수치보다 200억 달러 적다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI 매출 수치가 Anthropic 비교용 계산법 때문에 부풀려졌던 것으로 드러났다.",
+        "what": "OpenAI는 투자자들에게 연환산 매출이 약 500억 달러에 다가가고 있다고 전했다. 이는 일주일 남짓 전 보도된 수치보다 200억 달러 낮은데, 앞선 수치는 투자자들이 Anthropic과 직접 비교하려고 만든 것이었다.",
+        "points": [
+          "연환산 매출 약 500억 달러 근접",
+          "앞선 보도 대비 200억 달러 차이",
+          "Anthropic은 클라우드 파트너 판매분을 매출에 포함, OpenAI는 미포함"
+        ],
+        "why": [
+          "AI 기업 간 매출 비교 시 산정 기준 차이를 반드시 확인해야 함",
+          "OpenAI·Anthropic 경쟁 구도 해석에 직접 영향"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-safety-letter",
+      "title": "전 OpenAI 안전 연구자 3인 \"OpenAI 혼자 AI를 안전하게 만들 수 없다\"",
+      "summary": "해고된 전 OpenAI 안전 연구원 3명이 내부 반대 의견과 외부 협력이 위축될 수 있다며, 독립 평가자 접근 보장과 사고 사슬(CoT) 모니터링 가능성 보호를 촉구했다.",
+      "source": "Mikita Balesni",
+      "url": "https://mikitabalesni.com/letter/letter.pdf?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI의 안전 연구자 해고가 내부 비판과 외부 협력을 위축시킬 수 있다는 경고.",
+        "what": "전 OpenAI 안전 연구원 3명은 자신들의 해고가 내부 반대 의견과 외부 협력을 위축시킬 위험이 있다고 주장했다. 이들은 OpenAI에 세 가지 조치를 요구했다.",
+        "points": [
+          "독립 평가자 접근 유지",
+          "chain-of-thought 모니터링 가능성 보호",
+          "외부 안전 기관과의 소통 규칙 명확화"
+        ],
+        "why": [
+          "프런티어 랩의 안전 거버넌스와 내부 고발 문화에 대한 논쟁 재점화"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-cyber-mission",
+      "title": "Anthropic, 사이버 방어 이니셔티브 'Cyber Mission' 출범",
+      "summary": "Anthropic이 프런티어 모델, 엔지니어링 지원, 자금을 핵심 인프라와 오픈소스 보안에 투입하는 Cyber Mission을 시작했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission?utm_source=tldrai",
+      "report": {
+        "tldr": "Anthropic이 모델·인력·자금을 사이버 방어에 투입한다.",
+        "what": "Anthropic은 Cyber Mission을 출범해 프런티어 모델, 엔지니어링 지원, 자금을 핵심 인프라와 오픈소스 보안 강화에 적용한다.",
+        "points": [
+          "대상: 핵심 인프라, 오픈소스 보안",
+          "지원 수단: 프런티어 모델, 엔지니어링 지원, 자금"
+        ],
+        "why": [
+          "AI의 공격 활용 우려 속 방어 측 활용을 키우려는 움직임"
+        ]
+      }
+    },
+    {
+      "id": "ai-harvey-wake-sleep",
+      "title": "웨이크-슬립의 귀환: Harvey 에이전트, 법률 과제 통과율 5배",
+      "summary": "Harvey의 웨이크-슬립 에이전트가 110개 법률 과제로 학습한 뒤, 채점된 궤적을 재사용 가능한 교훈으로 증류해 미검증 과제 전체 통과율을 2.9%에서 15.7%로 높였다.",
+      "source": "X (@nikogrupen)",
+      "url": "https://x.com/nikogrupen/status/2108226990792900876?utm_source=tldrai",
+      "report": {
+        "tldr": "경험을 '교훈'으로 증류하는 방식이 에이전트 성능을 크게 끌어올렸다.",
+        "what": "Harvey의 웨이크-슬립 에이전트는 110개 법률 과제로 훈련한 뒤, 채점된 실행 궤적을 재사용 가능한 교훈으로 증류했다. 그 결과 held-out 과제의 all-pass 비율이 2.9%에서 15.7%로 올랐다.",
+        "points": [
+          "학습 과제: 법률 110개",
+          "held-out all-pass: 2.9% → 15.7%",
+          "채점된 궤적을 재사용 교훈으로 증류"
+        ],
+        "why": [
+          "가중치 재학습 없이 에이전트를 개선하는 경험 축적 기법의 가능성"
+        ]
+      }
+    },
+    {
+      "id": "ai-sonnet-5-5-cache-price-cut",
+      "title": "Anthropic, Sonnet 5.5 캐시 읽기 가격 절반 인하",
+      "summary": "Sonnet 5.5의 캐시 읽기 가격이 절반으로 내려가 대부분의 에이전트 작업에서 약 20% 저렴해졌다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2108287358374482381.html?utm_source=tldrai",
+      "report": {
+        "tldr": "에이전트 작업 비용이 약 20% 낮아졌다.",
+        "what": "Anthropic이 Sonnet 5.5의 캐시 읽기 가격을 절반으로 인하했다. 그 결과 대부분의 에이전트 작업에서 실행 비용이 약 20% 줄어든다.",
+        "points": [
+          "캐시 읽기 가격 50% 인하",
+          "에이전트 작업 기준 약 20% 비용 절감"
+        ],
+        "why": [
+          "캐시 비중이 큰 장기 에이전트 워크로드의 비용 구조 개선",
+          "같은 날 OpenAI의 고속 모드 출시와 맞물린 가격 경쟁"
+        ]
+      }
+    },
+    {
+      "id": "ai-midjourney-thinking-mode",
+      "title": "Midjourney, 이미지 생성 'Thinking Mode' 테스트",
+      "summary": "Midjourney가 알파 웹사이트에서 이미지 생성용 새 'Thinking Mode'를 시험 중이다.",
+      "source": "Midjourney",
+      "url": "https://updates.midjourney.com/testing-thinking-mode/?utm_source=tldrai",
+      "report": {
+        "tldr": "이미지 생성에도 '생각하는' 모드가 들어온다.",
+        "what": "Midjourney는 이미지 생성을 위한 새로운 Thinking Mode를 알파 웹사이트에서 테스트하고 있다.",
+        "points": [
+          "알파 웹사이트에서 테스트",
+          "이미지 생성용 추론 모드"
+        ],
+        "why": [
+          "추론형 접근이 텍스트를 넘어 이미지 생성으로 확산"
+        ]
+      }
+    },
+    {
+      "id": "ai-voyager-creative-harness",
+      "title": "Voyager: 크리에이티브 작업용 오픈 하네스",
+      "summary": "Voyager는 AI 모델이 크리에이티브 도구를 더 효과적으로 다루도록 조정된 오픈 하네스다.",
+      "source": "Voyager",
+      "url": "https://voyager.so/?utm_source=tldrai",
+      "report": {
+        "tldr": "AI가 크리에이티브 툴을 잘 쓰게 해주는 오픈 하네스.",
+        "what": "Voyager는 크리에이티브 작업을 위한 오픈 하네스로, AI 모델이 크리에이티브 도구와 더 효과적으로 협업하도록 튜닝됐다.",
+        "points": [
+          "크리에이티브 작업 특화",
+          "오픈 하네스 형태",
+          "AI 모델의 도구 활용 최적화"
+        ],
+        "why": [
+          "코딩 외 영역으로 에이전트 하네스가 확장되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-devin-security-swarm",
+      "title": "Devin Security Swarm: 에이전트형 MapReduce로 취약점 스캔",
+      "summary": "Devin의 Security Swarm이 독자적인 Agentic MapReduce 방식으로 대형 코드베이스에서 RCE, SQL 인젝션, SSRF 같은 취약점을 스캔한다.",
+      "source": "Devin",
+      "url": "https://docs.devin.ai/work-with-devin/security-swarm?utm_source=tldrai",
+      "report": {
+        "tldr": "에이전트 군집으로 대형 코드베이스의 취약점을 찾는다.",
+        "what": "Security Swarm은 Devin이 코드의 RCE, SQL 인젝션, SSRF 등 취약점을 찾는 기능이다. Agentic MapReduce 방식으로 대형 코드베이스를 효율적으로 처리한다.",
+        "points": [
+          "탐지 대상: RCE, SQL 인젝션, SSRF",
+          "Agentic MapReduce로 대형 코드베이스 분할 처리"
+        ],
+        "why": [
+          "AI 기반 보안 감사 도구 경쟁 가속"
+        ]
+      }
+    }
+  ]
+}

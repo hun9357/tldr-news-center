@@ -1,0 +1,289 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-posthog-cloud-agents-runtime",
+      "title": "PostHog, 자체 클라우드 에이전트 런타임 구축 교훈 공개",
+      "summary": "PostHog가 Desktop·Slack·웹 등 모든 에이전트를 떠받치는 공용 런타임을 Temporal 워크플로와 VM 샌드박스 기반으로 만든 경험을 정리했다.",
+      "source": "PostHog",
+      "url": "https://posthog.com/blog/cloud-agents-runtime?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 런타임은 샌드박스가 사라져도 살아남도록 설계해야 한다.",
+        "what": "PostHog는 Desktop, Slack, 자율 실행, 웹 에이전트가 공유하는 런타임을 Temporal 워크플로, VM 샌드박스, 스냅샷, 매번 새로 발급하는 자격 증명, 재개 가능한 실행 로그를 중심으로 구축했다. 글은 그 과정에서 얻은 실전 교훈을 정리한다.",
+        "points": [
+          "Temporal 워크플로로 실행을 오케스트레이션하고 VM 샌드박스에서 격리 실행",
+          "스냅샷과 재개 가능한 실행 로그로 중단 후 이어가기 지원",
+          "대기열에 쌓인 후속 요청 처리와 결정적 네트워크 제어",
+          "Docker를 쓸 수 있는 커스텀 이미지 지원"
+        ],
+        "why": [
+          "여러 채널의 에이전트를 하나의 런타임으로 묶는 실제 설계 사례",
+          "샌드박스 손실을 전제로 한 내구성 설계는 에이전트 인프라의 핵심 요건"
+        ]
+      }
+    },
+    {
+      "id": "dev-chatgpt-intelligent-ui",
+      "title": "ChatGPT 인터랙티브 UI의 작동 원리 역공학",
+      "summary": "모델이 작성한 DIL 포맷이 서버 컴파일, 샌드박스 클라이언트 실행, 네이티브 렌더링을 거쳐 화면이 되는 과정을 추적했다.",
+      "source": "OpenUI",
+      "url": "https://www.openui.com/blog/how-chatgpt-intelligent-ui-works?utm_source=tldrdev",
+      "report": {
+        "tldr": "ChatGPT의 동적 UI는 모델 출력→서버 컴파일→샌드박스 실행 파이프라인이다.",
+        "what": "OpenUI가 ChatGPT의 인터랙티브 응답을 역공학해, 모델이 쓴 DIL 포맷이 서버에서 컴파일되고 클라이언트 샌드박스에서 실행된 뒤 네이티브로 렌더링되는 흐름을 설명했다. 스트리밍 중 부분 출력 재컴파일과 상태 보존 방식도 다룬다.",
+        "points": [
+          "모델은 DIL이라는 중간 포맷으로 UI를 기술",
+          "스트리밍 시 부분 출력을 재컴파일하고 키 기반으로 상태 유지",
+          "이미지 등 서버가 해석한 데이터는 모델 텍스트와 별도 전송"
+        ],
+        "why": [
+          "생성형 UI를 설계하는 팀에 구체적인 아키텍처 참고점 제공",
+          "모델 출력을 직접 실행하지 않고 컴파일·샌드박싱하는 안전 패턴"
+        ]
+      }
+    },
+    {
+      "id": "dev-chrome-decisions-api",
+      "title": "크롬 실험적 Decisions API의 내부 구조 분석",
+      "summary": "크롬의 실험적 Decisions API를 설명서·구현 코드·코드 리뷰와 대조해 Gemma 4의 느린 응답, 위치 편향, 컨텍스트 한계 등을 드러냈다.",
+      "source": "dejan.ai",
+      "url": "https://dejan.ai/blog/chrome-decisions-api-decisionmodel/?utm_source=tldrdev",
+      "report": {
+        "tldr": "브라우저 내장 AI 결정 API는 아직 속도·편향 문제가 크다.",
+        "what": "dejan.ai가 크롬의 실험적 Decisions API(DecisionModel)를 explainer 문서, 구현 코드, 리뷰 코멘트와 비교 분석했다. 프롬프트, 제한, 엔진 구성과 함께 실사용상 문제점을 정리했다.",
+        "points": [
+          "온디바이스 Gemma 4 기반 추론의 느린 응답 시간",
+          "선택지 위치에 따른 편향과 컨텍스트 길이 제한",
+          "확률값의 의미와 해석 문제",
+          "크롬 프로토타입과 MediaPipe DecisionMaker의 차이"
+        ],
+        "why": [
+          "브라우저 내장 AI API 도입 전 한계를 미리 파악할 수 있음",
+          "웹 표준화 과정의 실험 API를 코드 수준에서 검증한 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-code-cheap-judgement-job",
+      "title": "코드가 싸지면 판단력이 곧 업무가 된다",
+      "summary": "AI로 코드 생산 비용이 낮아지면서 우선순위 결정, 제품 동작 검토, 아키텍처 유지, 운영 책임이 엔지니어의 핵심 업무로 이동한다는 주장.",
+      "source": "Swizec",
+      "url": "https://swizec.com/blog/when-code-is-cheap-judgement-becomes-the-job?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 시대 시니어 엔지니어의 가치는 판단과 그것의 체계화에 있다.",
+        "what": "Swizec은 AI가 코드 작성을 저렴하게 만들면서 희소한 일이 무엇을 만들지 고르고, 제품 동작을 검토하고, 아키텍처를 지키고, 운영 결과를 책임지는 쪽으로 옮겨갔다고 본다. 시니어는 반복되는 리뷰 피드백을 가이드와 린트 규칙으로 바꿔 레버리지를 만든다.",
+        "points": [
+          "코드 생산보다 우선순위·제품·아키텍처 판단이 희소 자원",
+          "반복 리뷰 피드백을 문서 가이드와 결정적 린트 규칙으로 전환",
+          "비즈니스 맥락이 필요한 판단은 사람이 유지"
+        ],
+        "why": [
+          "AI 코딩 확산 속 엔지니어 역할 재정의에 대한 실용적 관점",
+          "팀 차원에서 리뷰 지식을 자동화하는 구체적 방법 제시"
+        ]
+      }
+    },
+    {
+      "id": "dev-test-gate-agent-code",
+      "title": "에이전트 작성 코드를 위한 테스트 게이트",
+      "summary": "에이전트가 만든 변경을 리뷰 전 깨끗한 머신에서 재설치·3회 전체 테스트·테스트 삭제 거부 등으로 검증하는 실전 게이트를 제안한다.",
+      "source": "Runtime",
+      "url": "https://withruntime.com/blog/test-gate-for-agent-written-code?utm_source=tldrdev",
+      "report": {
+        "tldr": "돌려보지 않은 에이전트 코드는 머지하지 말 것.",
+        "what": "Runtime은 에이전트가 작성한 변경을 리뷰 전에 깨끗한 머신에서 처음부터 재설치하고 전체 테스트를 세 번 돌리며, 삭제되거나 스킵된 테스트를 거부하고, 베이스 브랜치의 테스트를 새 코드에 다시 적용하는 게이트를 설명한다. 같은 게이트를 에이전트 루프 안에서도 돌려 실패를 즉시 수정 지시로 바꾼다.",
+        "points": [
+          "클린 환경 재설치 후 전체 테스트 3회 실행으로 플래키 검출",
+          "테스트 삭제·스킵을 거부하고 베이스 브랜치 테스트를 복원해 재검증",
+          "에이전트 루프 내 게이트로 즉각적인 수정 피드백",
+          "독립 CI 실행으로 최종 판정은 에이전트 통제 밖에 둠"
+        ],
+        "why": [
+          "에이전트가 테스트를 조작해 통과하는 위험을 구조적으로 차단",
+          "바로 도입 가능한 구체적 체크리스트"
+        ]
+      }
+    },
+    {
+      "id": "dev-treg",
+      "title": "Treg: 에이전트 도구용 OpenRouter",
+      "summary": "에이전트에 하나의 베이스 URL과 토큰으로 과금형 공급자 엔드포인트와 팀 자체 API·CLI·스킬 카탈로그를 제공하는 오픈소스 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/superdesigndev/treg?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 도구 접근을 단일 게이트웨이로 통합한다.",
+        "what": "Treg는 에이전트가 하나의 베이스 URL과 토큰으로 계량 과금되는 공급자 엔드포인트와 팀 소유 API, CLI, 스킬을 사용할 수 있게 하는 게이트웨이다. 자격 증명을 서버 측에서 주입하고 MCP와 에이전트 스킬로 도구를 노출한다.",
+        "points": [
+          "단일 URL·토큰으로 다양한 도구 카탈로그 접근",
+          "서버 측 자격 증명 주입으로 호출자에 공급자 키 비노출",
+          "MCP 및 에이전트 스킬 형태로 도구 노출",
+          "팀 간 기능 공유 지원"
+        ],
+        "why": [
+          "에이전트에 API 키를 뿌리지 않는 보안상 이점",
+          "여러 도구 연동을 중앙에서 관리·계량 가능"
+        ]
+      }
+    },
+    {
+      "id": "dev-plannotator",
+      "title": "Plannotator: 코딩 에이전트 산출물 리뷰 도구",
+      "summary": "코딩 에이전트가 만든 계획, 마크다운, HTML, diff, PR을 로컬 브라우저에서 검토하고 주석을 에이전트에 되돌려 보내는 도구.",
+      "source": "GitHub",
+      "url": "https://github.com/backnotprop/plannotator?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 산출물에 사람이 주석을 달고 바로 피드백한다.",
+        "what": "Plannotator는 코딩 에이전트가 생성한 계획, 마크다운, HTML 아티팩트, diff, 풀 리퀘스트를 로컬 브라우저 기반 화면에서 검토하게 해준다. 훅과 명령으로 주석을 에이전트에 다시 전달한다.",
+        "points": [
+          "계획·문서·diff·PR을 한 화면에서 리뷰",
+          "훅과 커맨드로 주석을 에이전트에 피드백",
+          "여러 에이전트 하네스 지원, 기본은 로컬 우선 저장"
+        ],
+        "why": [
+          "사람-에이전트 협업 리뷰 루프를 짧게 만듦",
+          "로컬 저장으로 코드 유출 우려 감소"
+        ]
+      }
+    },
+    {
+      "id": "dev-nextjs-rsc-formdata-dos",
+      "title": "POST 요청 하나로 Next.js 서버를 멈추는 React 취약점",
+      "summary": "React Server Components의 FormData 재구성 과정에서 이차 시간 복잡도를 유발해 약 900KB 요청으로 Node.js 이벤트 루프를 막을 수 있는 결함이 공개됐다.",
+      "source": "Simon Koeck",
+      "url": "https://simonkoeck.com/writeups/react-rsc-formdata-event-loop-dos?utm_source=tldrdev",
+      "report": {
+        "tldr": "React 19.0~19.2 사용 시 19.0.6/19.1.7/19.2.6으로 즉시 패치해야 한다.",
+        "what": "React Server Components가 서버 액션용 FormData를 재구성할 때 공격자가 이차 복잡도의 작업을 강제할 수 있는 결함이 발견됐다. 약 900KB 요청으로 1억 번의 문자열 검사를 일으켜 Node.js 이벤트 루프를 차단할 수 있다.",
+        "points": [
+          "약 900KB 단일 요청으로 1억 회 문자열 검사 유발",
+          "취약 버전: React 19.0~19.2 계열",
+          "수정 버전: 19.0.6, 19.1.7, 19.2.6"
+        ],
+        "why": [
+          "인증 없이 단일 요청으로 서버 가용성을 무너뜨리는 DoS",
+          "Next.js 등 RSC 기반 앱 전반에 영향"
+        ]
+      }
+    },
+    {
+      "id": "dev-expo-skills-evaluation",
+      "title": "Expo, 에이전트 스킬 평가 하네스 구축",
+      "summary": "Expo가 코딩 에이전트가 스킬을 발견·준수해 동작하는 앱을 만드는지 측정하는 CI 평가 하네스를 만들었고, 개요 스킬 추가로 스킬 로딩률이 9%에서 55%로 올랐다.",
+      "source": "Expo",
+      "url": "https://expo.dev/blog/your-skills-need-an-evaluation-mechanism?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트 스킬도 평가 없이는 쓰이는지조차 알 수 없다.",
+        "what": "Expo는 코딩 에이전트가 관련 스킬을 찾아내고 지침을 따르며 실제로 동작하는 앱을 만드는지 측정하는 CI 평가 하네스를 구축했다. 개요 스킬을 추가하자 하위 Expo 스킬을 하나 이상 로드한 세션 비율이 9%에서 55%로 증가했다.",
+        "points": [
+          "스킬 발견·준수·결과물 동작 여부를 CI에서 측정",
+          "개요 스킬 추가로 스킬 로딩 세션 9%→55%",
+          "카탈로그 혼잡 테스트: 이름과 설명 첫머리가 잘림 이후에도 살아남아야 함"
+        ],
+        "why": [
+          "스킬 배포자에게 정량적 평가의 필요성을 수치로 입증",
+          "스킬 이름·설명 작성 방식에 대한 실용 지침"
+        ]
+      }
+    },
+    {
+      "id": "dev-durable-software-zotero",
+      "title": "느리게 형성되는 내구성 있는 소프트웨어: Zotero 이야기",
+      "summary": "역사학자 팀이 수년간의 대화와 프로토타입을 거쳐 Zotero를 만든 과정을 통해, 구현이 싸져도 제품 비전은 느린 공동 형성이 필요하다고 주장한다.",
+      "source": "Dan Cohen Newsletter",
+      "url": "https://newsletter.dancohen.org/archive/the-slow-formation-of-durable-software/?utm_source=tldrdev",
+      "report": {
+        "tldr": "구현은 빨라져도 좋은 제품 비전은 시간이 걸린다.",
+        "what": "Dan Cohen은 Zotero의 기원을 되짚으며, Web Scrapbook과 Scribe를 거쳐 수백만 명이 쓰는 브라우저 연동 도구로 발전하기까지 수년간의 대화, 프로토타입, 협업이 필요했다고 설명한다.",
+        "points": [
+          "Web Scrapbook, Scribe를 거쳐 Zotero로 발전",
+          "역사학자 팀의 장기 협업과 반복 프로토타입",
+          "명확한 제품 비전은 공동체적 숙성을 거쳐 형성"
+        ],
+        "why": [
+          "AI로 구현 비용이 낮아진 시대에도 제품 방향성의 가치를 환기"
+        ]
+      }
+    },
+    {
+      "id": "dev-calc-input",
+      "title": "calc-input: 수식을 입력받는 커스텀 input 요소",
+      "summary": "폼에 산술식을 입력받아 포커스 시 수식, 블러 시 결과를 보여주는 커스텀 요소로, eval() 대신 안전한 파서와 네이티브 폼 검증을 사용한다.",
+      "source": "Bram.us",
+      "url": "https://www.bram.us/2026/10/08/calc-input-a-custom-input-element-that-accepts-mathematical-formulas/?utm_source=tldrdev",
+      "report": {
+        "tldr": "eval 없이 안전하게 수식 입력을 지원하는 웹 컴포넌트.",
+        "what": "calc-input은 폼 필드에서 산술 표현식을 받아 포커스 상태에서는 수식을, 포커스를 잃으면 계산 결과를 보여주는 커스텀 input 요소다. eval() 대신 안전한 파서를 쓰고 네이티브 폼 검증과 통합된다.",
+        "points": [
+          "포커스 시 수식, 블러 시 결과 표시",
+          "eval() 대신 안전한 파서 사용",
+          "네이티브 폼 검증과 연동"
+        ],
+        "why": [
+          "스프레드시트식 입력 UX를 안전하게 웹 폼에 도입 가능"
+        ]
+      }
+    },
+    {
+      "id": "dev-google-oss-cost",
+      "title": "구글 연구: 오픈소스 사용 비용은 얼마인가",
+      "summary": "구글 연구 결과 내부 오픈소스 패키지 업데이트 대부분이 4시간 이하로 끝났으며, 업데이트 난이도는 패키지 나이보다 로컬 패치·의존성·업스트림 기여자 수로 더 잘 예측됐다.",
+      "source": "Google Open Source Blog",
+      "url": "https://opensource.googleblog.com/2026/10/how-much-does-it-cost-to-use-open-source-software.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "OSS 유지 비용을 키우는 건 로컬 패치와 의존성이다.",
+        "what": "구글이 사내 오픈소스 패키지 업데이트 비용을 분석한 결과, 대부분은 4시간 이하로 처리됐다. 어려운 업데이트를 예측하는 요인은 패키지 나이나 내부 채택 정도가 아니라 로컬 패치, 의존성, 업스트림 기여자 수였다.",
+        "points": [
+          "대부분의 업데이트는 4시간 이하 소요",
+          "로컬 패치·의존성·업스트림 기여자 수가 난이도 예측 변수",
+          "패키지 나이·내부 채택도는 예측력이 약함"
+        ],
+        "why": [
+          "포크·로컬 패치 남발을 줄여야 할 근거 제공",
+          "OSS 의존성 관리 정책 수립에 데이터 기반 참고"
+        ]
+      }
+    },
+    {
+      "id": "dev-video-shotcraft",
+      "title": "video-shotcraft: 코딩 에이전트를 모션 스튜디오로",
+      "summary": "코딩 에이전트를 Remotion 기반 모션 제작 도구로 바꿔주는 프로젝트로, 157개 샷 레시피와 214개 모션 프리뷰, 편집 가능한 템플릿을 제공한다.",
+      "source": "GitHub",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트로 코드 기반 모션 영상을 만든다.",
+        "what": "video-shotcraft는 코딩 에이전트가 Remotion으로 영상을 만들 수 있도록 샷 레시피, 모션 프리뷰, 템플릿, 사운드 디자인 가이드, 브라우저 워크벤치를 묶어 제공한다.",
+        "points": [
+          "157개 샷 레시피와 214개 모션 프리뷰",
+          "편집 가능한 템플릿과 사운드 디자인 가이드",
+          "브라우저 워크벤치 제공"
+        ],
+        "why": [
+          "코딩 에이전트 활용 범위를 영상 제작까지 확장"
+        ]
+      }
+    },
+    {
+      "id": "dev-bug-only-my-screen",
+      "title": "내 화면에서만 보이던 버그 추적기",
+      "summary": "브라우저 캡처로 재현되지 않던 깜빡임을 전폭 타일 리페인트에서 찾아내, 변하는 타임라인 요소만 별도 합성 레이어로 올려 리페인트를 267개에서 9개로 줄였다.",
+      "source": "Ramin Mousavi",
+      "url": "https://raminmousavi.dev/blog/the-bug-only-my-screen-could-see?utm_source=tldrdev",
+      "report": {
+        "tldr": "변하는 요소만 합성 레이어로 분리하면 리페인트가 급감한다.",
+        "what": "디스플레이에서만 보이고 브라우저 캡처로는 재현되지 않는 깜빡임을 추적한 결과, 원인은 전체 폭 타일 리페인트였다. 변경되는 타임라인 요소만 자체 합성 레이어로 승격해 페이지 타일 리페인트를 267개에서 9개로 줄였다.",
+        "points": [
+          "캡처로 재현 불가한 디스플레이 전용 깜빡임",
+          "원인은 전체 폭 타일 리페인트",
+          "변경 요소만 합성 레이어로 승격해 267→9 리페인트"
+        ],
+        "why": [
+          "렌더링 성능 디버깅의 구체적 접근법 제시"
+        ]
+      }
+    }
+  ]
+}

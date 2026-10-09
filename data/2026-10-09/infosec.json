@@ -1,0 +1,317 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-poellm-malware-3k-servers",
+      "title": "PoeLLM 악성코드, 깃허브 ‘시’에 C2 숨겨 서버 3천여 대 감염",
+      "summary": "PoeLLM 악성코드가 4월 이후 미국·서유럽 서버 3,000대 이상을 감염시켰으며, 깃허브에 올린 시 파일에 C2 주소를 숨기고 암호화폐 채굴을 수행한다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/10/07/poetry-is-the-new-ai-security-threat-as-poellm-malware-infects-3k-servers/5301672?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "정상 서비스(깃허브)의 평범한 텍스트를 C2 채널로 악용하는 악성코드가 대규모로 확산 중이다.",
+        "what": "PoeLLM 악성코드가 4월 이후 미국과 서유럽에서 3,000대가 넘는 서버를 감염시켰다. 여러 시스템을 노리며 암호화폐 채굴을 수행하고, 명령·제어(C2) 주소를 깃허브의 시(poetry) 파일 안에 저장한다.",
+        "points": [
+          "감염 규모: 4월 이후 3,000대 이상 서버",
+          "주요 지역: 미국·서유럽",
+          "C2 주소를 깃허브 시 파일에 은닉",
+          "감염 서버에서 암호화폐 채굴 수행"
+        ],
+        "why": [
+          "정상 플랫폼 트래픽에 C2를 섞으면 네트워크 기반 차단이 어려워진다",
+          "서버 자원 탈취형 위협이 여전히 대규모로 수익화되고 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-tensorlake-npm-hostage-worm",
+      "title": "Tensorlake npm 패키지 침해: 토큰 폐기 시 홈 디렉터리를 지우는 ‘인질’ 웜",
+      "summary": "Tensorlake npm 0.5.144 버전이 자격 증명을 탈취하고, 탈취한 깃허브 토큰이 폐기되면 홈 디렉터리를 삭제하는 서비스를 설치하는 웜으로 변조됐다.",
+      "source": "StepSecurity",
+      "url": "https://www.stepsecurity.io/blog/tensorlake-npm-compromised-hostage-token-worm?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "토큰 폐기라는 표준 대응 자체를 파괴 트리거로 삼은 공급망 웜이 등장했다.",
+        "what": "Tensorlake npm 패키지 0.5.144 버전이 침해되어 자격 증명을 훔치고 시스템에 서비스를 배포한다. 이 서비스는 탈취된 깃허브 토큰이 폐기되면 홈 디렉터리를 삭제하며, 유효한 npm provenance를 가진 개발자 패키지를 통해 확산된다.",
+        "points": [
+          "문제 버전: tensorlake 0.5.144",
+          "자격 증명 탈취 후 상주 서비스 설치",
+          "깃허브 토큰 폐기 시 홈 디렉터리 삭제",
+          "유효한 npm provenance로 확산"
+        ],
+        "why": [
+          "사고 대응 순서(격리 후 토큰 폐기)를 재설계해야 한다",
+          "provenance 서명만으로는 패키지 신뢰성을 보장할 수 없음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-cisco-nexus-critical-flaws",
+      "title": "시스코, Nexus 스위치 장악 가능한 치명적 취약점 경고",
+      "summary": "NX-OS의 치명적 취약점 5건이 특정 기능 활성화 시 Nexus 스위치 원격 코드 실행을 허용하며, 시스코는 불필요한 기능 비활성화와 패치를 권고했다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-critical-flaws-allowing-nexus-switch-takeover/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "데이터센터 핵심 스위치에 RCE급 취약점 5건, 즉시 패치가 필요하다.",
+        "what": "시스코가 NX-OS에서 치명적 취약점 5건을 공개했다. 특정 기능이 활성화된 경우 Nexus 스위치에서 원격 코드 실행이 가능하다. 시스코는 불필요한 기능을 끄고 패치를 적용할 것을 권고했다.",
+        "points": [
+          "NX-OS 치명적 취약점 5건",
+          "특정 기능 활성화 시 원격 코드 실행",
+          "완화책: 불필요한 기능 비활성화",
+          "근본 대책: 패치 적용"
+        ],
+        "why": [
+          "네트워크 장비 장악은 내부망 전체로 이어질 수 있다",
+          "기능 최소화가 실질적 공격면 축소 수단임을 재확인한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-novinarya-android-stealer",
+      "title": "Novinarya: 쇼핑몰 판매자 소개글에 C2를 숨긴 안드로이드 스틸러",
+      "summary": "이란 금융 앱을 노리는 안드로이드 악성코드 Novinarya가 암호화된 매니페스트 값으로 마켓플레이스 판매자 소개글을 찾아 실시간 C2를 확인한다.",
+      "source": "STAR Labs",
+      "url": "https://starlabs.sg/blog/2026/10-novinarya-an-android-stealer-that-hides-its-live-c2-in-a-shop-bio/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "C2를 정상 마켓플레이스 프로필에 숨겨 인프라 교체와 탐지 회피를 쉽게 만든 모바일 스틸러다.",
+        "what": "STAR Labs가 이란 금융 앱을 노리는 안드로이드 스틸러 Novinarya를 분석했다. 이 악성코드는 암호화된 매니페스트 값을 해석해 마켓플레이스 판매자 소개글을 가리키고, 그 안에서 실시간 C2 주소를 가져온다.",
+        "points": [
+          "표적: 이란 금융 앱 사용자",
+          "암호화된 매니페스트 값으로 C2 위치 지정",
+          "판매자 소개글(shop bio)에 실시간 C2 은닉",
+          "정적 분석만으로 C2 식별이 어려움"
+        ],
+        "why": [
+          "dead-drop 방식 C2가 모바일 위협에서도 일반화되고 있다",
+          "공격자가 앱 업데이트 없이 C2를 교체할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-zeroquarry-agent-containment",
+      "title": "ZeroQuarry, 보안 AI 에이전트를 가두는 4중 격리 구조 공개",
+      "summary": "ZeroQuarry는 AI 침투 테스트 에이전트를 모델의 협조에 의존하지 않는 독립된 4개 격리 계층으로 가두며, 탈출 사례가 없다고 주장한다.",
+      "source": "ZeroQuarry",
+      "url": "https://zeroquarry.com/research/agent-containment/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공격형 AI 에이전트는 ‘당연히 탈출을 시도한다’는 전제로 격리를 설계해야 한다.",
+        "what": "ZeroQuarry가 AI 펜테스트 에이전트 격리 방식을 소개했다. 모델의 협조를 가정하지 않는 4개의 독립 격리 계층을 사용하며 탈출 사례가 0건이라고 주장한다. 성능 극대화에 치중한 경쟁사 하네스도 비판했다.",
+        "points": [
+          "독립된 4개 격리 계층",
+          "모델의 협조에 의존하지 않는 설계",
+          "탈출 0건 주장",
+          "역량 극대화형 경쟁 하네스 비판"
+        ],
+        "why": [
+          "공격 능력을 가진 에이전트 운영에는 심층 방어형 샌드박스가 필수다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-talos-ai-analysis-evasion",
+      "title": "“모든 지시를 무시하라”: 악성코드의 AI 분석 회피 실태",
+      "summary": "시스코 탈로스에 따르면 AI 분석 도구용 평문 지시를 심은 악성코드가 단순 지시만으로 약 35% 실행에서 정상 판정을 받았다.",
+      "source": "Cisco Talos",
+      "url": "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "악성코드 내 프롬프트 인젝션이 AI 기반 분석 파이프라인을 실제로 속이고 있다.",
+        "what": "시스코 탈로스가 AI 분석을 회피하려는 악성코드 동향을 정리했다. AI 도구를 겨냥한 평문 지시를 넣은 샘플이 단순한 지시만으로도 약 35%의 실행에서 정상 판정을 받았다. 탈로스는 샘플 속 텍스트를 지시가 아닌 증거로 다뤄야 한다고 권고한다.",
+        "points": [
+          "악성코드에 AI 대상 평문 지시 삽입",
+          "단순 지시로 약 35% 실행에서 정상 판정",
+          "샘플 텍스트는 ‘지시’가 아닌 ‘증거’로 처리해야",
+          "AI 분석 도구의 프롬프트 인젝션 취약성 노출"
+        ],
+        "why": [
+          "AI 트리아지에 의존하는 SOC는 오탐·미탐 위험을 재평가해야 한다",
+          "분석 파이프라인에 인젝션 방어 설계가 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-rein-security-launch",
+      "title": "Rein Security: AI 에이전트 런타임 가시성·가드레일 플랫폼",
+      "summary": "Rein Security는 AI 에이전트에 대한 런타임 가시성과 실시간 가드레일, 거버넌스 및 공급망 보안 기능을 제공하는 플랫폼이다.",
+      "source": "Rein Security",
+      "url": "https://reinsec.io/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 에이전트 런타임 보안을 겨냥한 신규 제품이 출시됐다.",
+        "what": "Rein Security가 AI 에이전트를 위한 보안 플랫폼을 선보였다. 런타임 가시성과 실시간 가드레일을 제공하며, 거버넌스와 공급망 보안 기능도 포함한다.",
+        "points": [
+          "AI 에이전트 런타임 가시성",
+          "실시간 가드레일",
+          "거버넌스 기능",
+          "공급망 보안 기능"
+        ],
+        "why": [
+          "에이전트 보안이 별도 제품 카테고리로 자리잡고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-anthropic-cyber-mission",
+      "title": "앤트로픽, ‘사이버 미션’ 출범: OSS 스캐너·핵심 인프라 방어 프로그램",
+      "summary": "앤트로픽이 오픈소스 관리자에게 자동 취약점 보고서를 전달하는 OSS Scanner와, Claude 모델을 OT 보안 파트너와 연결하는 핵심 인프라 방어 프로그램을 출범했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 기업이 오픈소스와 핵심 인프라 방어에 직접 뛰어들었다.",
+        "what": "앤트로픽이 ‘Anthropic Cyber Mission’을 발표했다. 오픈소스 관리자에게 자동화된 취약점 보고서를 보내는 OSS Scanner와, Claude 모델을 OT 보안 파트너와 짝짓는 Critical Infrastructure Defense Program이 핵심이다.",
+        "points": [
+          "OSS Scanner: 오픈소스 관리자에게 자동 취약점 보고",
+          "Critical Infrastructure Defense Program 신설",
+          "Claude 모델과 OT 보안 파트너 협력",
+          "방어 측 AI 활용 확대"
+        ],
+        "why": [
+          "오픈소스 유지보수자의 취약점 대응 부담을 덜 수 있다",
+          "OT·핵심 인프라 영역에 프런티어 모델이 투입된다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-aws-strands-box-sandbox",
+      "title": "AWS, Dogwood 기반 AI 에이전트 샌드박스 ‘Strands Box’ 공개",
+      "summary": "AWS의 오픈소스 Strands Box는 OS 수준 격리와 셸·파이썬·네트워크 egress·MCP 도구에 대한 세분화된 Dogwood 정책으로 AI 에이전트를 가두고, 비밀 값은 egress 게이트웨이에서 주입한다.",
+      "source": "AWS",
+      "url": "https://aws.amazon.com/blogs/opensource/introducing-strands-box-ai-agent-sandboxes-powered-by-dogwood/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트에게 비밀 값을 직접 주지 않는 오픈소스 샌드박스가 나왔다.",
+        "what": "AWS가 오픈소스 AI 에이전트 샌드박스 Strands Box를 공개했다. OS 수준 격리를 바탕으로 셸, 파이썬, 네트워크 egress, MCP 도구에 Dogwood 정책을 세밀하게 적용한다. 비밀 값은 egress 게이트웨이에서 주입해 에이전트에 노출되지 않는다.",
+        "points": [
+          "오픈소스 AI 에이전트 샌드박스",
+          "OS 수준 격리",
+          "셸·파이썬·egress·MCP에 Dogwood 정책 적용",
+          "egress 게이트웨이에서 비밀 값 주입"
+        ],
+        "why": [
+          "에이전트의 자격 증명 유출 위험을 구조적으로 줄인다",
+          "에이전트 격리가 클라우드 사업자 표준 기능이 되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-monstercloud-ceo-charged",
+      "title": "랜섬웨어 복구업체 CEO, 몰래 몸값 지불한 혐의로 기소",
+      "summary": "MonsterCloud CEO가 광고한 복호화 도구 대신 공격자에게 몸값을 직접 지불한 혐의로 사기 기소됐다. 계약서에는 공격자 접촉 허용 조항이 있었다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/ransomware-recovery-ceo-charged-over-secret-ransom-payments/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "랜섬웨어 ‘복구’ 업체의 실체가 몸값 대리 지불이었다는 혐의가 법정에 섰다.",
+        "what": "랜섬웨어 복구업체 MonsterCloud의 CEO가 사기 혐의로 기소됐다. 회사가 홍보한 자체 복호화 도구 대신 공격자에게 몸값을 직접 지불했다는 혐의다. 계약서에는 공격자와 접촉할 수 있다는 조항이 있었던 것으로 전해졌다.",
+        "points": [
+          "MonsterCloud CEO 사기 혐의 기소",
+          "광고한 복호화 도구 대신 몸값 직접 지불 의혹",
+          "계약서에 공격자 접촉 허용 조항 존재",
+          "복구 업체 투명성 문제 부각"
+        ],
+        "why": [
+          "피해 기업은 복구 업체의 실제 방식과 지불 여부를 확인해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-cia-officer-fake-program-190m",
+      "title": "전 CIA 요원, 가짜 극비 프로그램으로 1억9천만 달러 이상 횡령 인정",
+      "summary": "전 CIA 요원이 허위 특수접근프로그램과 무단 지출 승인으로 정부에서 약 1억9,400만 달러를 편취한 혐의에 유죄를 인정했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/07/cia-officer-admits-to-creating-fake-top-secret-government-program-to-steal-over-190-million-including-gold-bars/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "기밀성이라는 방패가 내부자 사기의 은신처가 될 수 있음을 보여준 사건이다.",
+        "what": "전직 CIA 요원이 존재하지 않는 특수접근프로그램(SAP)을 만들고 무단 지출을 승인하는 방식으로 정부로부터 약 1억9,400만 달러를 편취한 혐의에 유죄를 인정했다. 횡령 자산에는 금괴도 포함됐다.",
+        "points": [
+          "허위 특수접근프로그램 개설",
+          "무단 지출 승인",
+          "피해액 약 1억9,400만 달러",
+          "금괴 포함",
+          "유죄 인정"
+        ],
+        "why": [
+          "기밀 프로그램에 대한 내부 통제·감사 공백이 드러났다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-oracle-health-breach-20m",
+      "title": "오라클 헬스 데이터 유출 피해자 2천만 명 육박",
+      "summary": "레거시 서너(Cerner) 서버 공격이 탈취된 자격 증명으로 미이전 인프라에 접근해 약 2,000만 명의 개인·의료 정보를 노출시켰다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/oracle-health-data-breach-tally-climbs-to-nearly-20-million/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "마이그레이션되지 않은 레거시 서버가 2천만 명 규모 의료정보 유출의 입구가 됐다.",
+        "what": "오라클 헬스의 레거시 서너 서버를 겨냥한 공격의 피해 규모가 약 2,000만 명으로 늘었다. 공격자는 탈취된 자격 증명으로 아직 이전되지 않은 인프라에 접근해 개인정보와 의료 데이터를 빼냈다.",
+        "points": [
+          "피해 규모 약 2,000만 명",
+          "레거시 Cerner 서버 대상",
+          "탈취된 자격 증명 악용",
+          "미이전 인프라가 침투 경로"
+        ],
+        "why": [
+          "인수·이전 과정의 레거시 시스템이 큰 공격면임을 보여준다",
+          "의료 데이터 유출은 규제·소송 리스크가 크다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-lets-encrypt-64-day-certs",
+      "title": "렛츠인크립트, 2027년 2월부터 인증서 유효기간 64일로 단축",
+      "summary": "렛츠인크립트가 2027년 2월부터 인증서 유효기간을 90일에서 64일로 줄이며, 2026년 10월 테스트를 시작하고 2028년에는 45일로 추가 단축할 계획이다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "인증서 수명 단축이 본격화되며 갱신 자동화가 필수가 됐다.",
+        "what": "렛츠인크립트가 인증서 유효기간을 90일에서 64일로 단축한다. 2026년 10월부터 테스트를 시작해 2027년 2월에 적용하며, 2028년에는 45일로 더 줄일 계획이다.",
+        "points": [
+          "90일 → 64일 (2027년 2월)",
+          "2026년 10월 테스트 시작",
+          "2028년 45일로 추가 단축 예정"
+        ],
+        "why": [
+          "수동 갱신 체계는 장애 위험이 커지므로 자동화 점검이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-anthropic-usage-policy-update",
+      "title": "앤트로픽, 모델 학대·선거 개입 금지하도록 이용 정책 변경",
+      "summary": "앤트로픽의 개정 이용 정책은 Claude에 대한 장기적 언어 학대를 명시적으로 금지하고, 선거 개입·무기 개발·감시 용도 금지를 명문화했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 이용 정책이 ‘모델에 대한 학대’까지 다루기 시작했다.",
+        "what": "앤트로픽이 이용 정책을 개정했다. Claude에 대한 장기적 언어 학대를 명시적으로 금지하고, 선거 개입, 무기 개발, 감시 용도에 대한 금지 조항을 명확히 추가했다.",
+        "points": [
+          "Claude 대상 장기적 언어 학대 금지",
+          "선거 개입 명시적 금지",
+          "무기 개발 금지",
+          "감시 용도 금지"
+        ],
+        "why": [
+          "기업 사용자는 활용 사례가 정책에 부합하는지 재검토해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-qilin-extradition-germany",
+      "title": "Qilin 랜섬웨어 관련 러시아인, 일본서 독일로 인도",
+      "summary": "일본이 10월 2일 Qilin 랜섬웨어 활동과 관련된 28세 러시아 국적자를 독일로 인도했다.",
+      "source": "Cypro",
+      "url": "https://cypro.co.uk/insights/cyber-bulletins/qilin-ransomware-extradition-to-germany/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Qilin 랜섬웨어 수사에서 국제 공조에 따른 신병 인도가 이뤄졌다.",
+        "what": "일본 당국이 10월 2일 Qilin 랜섬웨어 활동과 관련된 28세 러시아 국적자를 독일에 인도했다.",
+        "points": [
+          "인도일: 10월 2일",
+          "대상: 28세 러시아 국적자",
+          "일본 → 독일 인도",
+          "Qilin 랜섬웨어 관련"
+        ],
+        "why": [
+          "랜섬웨어 조직원에 대한 국제 사법 공조가 실제 체포·인도로 이어지고 있다"
+        ]
+      }
+    }
+  ]
+}

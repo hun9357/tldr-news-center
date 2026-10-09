@@ -1,0 +1,133 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-claude-haiku-5-5",
+      "title": "앤트로픽, 가장 빠르고 저렴한 소형 모델 Claude Haiku 5.5 출시",
+      "summary": "Claude Haiku 5.5는 요약·DB 쿼리·분류 같은 대량·저비용 작업용으로, Haiku 4.5 대비 운영 비용이 약 75% 낮고 AWS·구글 클라우드·애저에서 제공된다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5?utm_source=tldrit",
+      "report": {
+        "tldr": "대량 처리용 AI 작업의 단가가 크게 내려갔다.",
+        "what": "앤트로픽이 지금까지 가장 빠르고 저렴한 소형 모델 Claude Haiku 5.5를 출시했다. 요약, 데이터베이스 쿼리, 분류 등 대량·비용 민감 작업을 겨냥하며 Haiku 4.5보다 운영 비용이 약 75% 낮다. 함께 Sonnet 5.5 캐시 읽기 가격을 절반으로 내리고 Max·Team 구독자에게 월간 API 크레딧을 도입했다.",
+        "points": [
+          "Haiku 4.5 대비 비용 약 75% 절감",
+          "AWS·Google Cloud·Azure에서 제공",
+          "Sonnet 5.5 캐시 읽기 가격 50% 인하",
+          "Max·Team 구독자 월간 API 크레딧 도입"
+        ],
+        "why": [
+          "대량 자동화 워크로드의 비용 구조가 바뀐다",
+          "멀티클라우드 제공으로 기업 도입 장벽이 낮다"
+        ]
+      }
+    },
+    {
+      "id": "it-decider-gated-memory",
+      "title": "에이전트가 정말 기억을 찾아봐야 할까? 결정 모델로 메모리 호출 줄이기",
+      "summary": "분류기 기반 결정 모델로 AI 에이전트의 장기 기억 조회 여부를 판단하면, 정확도 손실 없이 주입 컨텍스트를 85% 줄이고 메모리 호출 8건 중 5건을 없앨 수 있었다.",
+      "source": "Mike G Chambers",
+      "url": "https://blog.mikegchambers.com/posts/decider-gated-memory/?utm_source=tldrit",
+      "report": {
+        "tldr": "‘언제 기억을 꺼낼지’를 먼저 판단하면 토큰 비용을 크게 아낄 수 있다.",
+        "what": "결정 모델이 AI 에이전트가 장기 기억을 조회해야 하는 시점을 효율적으로 판단할 수 있다는 분석이다. 잘 설계된 분류기를 쓰자 정확도를 해치지 않으면서 주입 컨텍스트가 85% 줄고 메모리 호출 8건 중 5건이 사라졌다.",
+        "points": [
+          "분류기로 메모리 조회 필요 여부 판단",
+          "주입 컨텍스트 85% 감소",
+          "메모리 호출 8건 중 5건 제거",
+          "정확도 유지"
+        ],
+        "why": [
+          "에이전트 운영 비용과 지연을 줄이는 실용적 패턴이다"
+        ]
+      }
+    },
+    {
+      "id": "it-copilot-local-models-sandbox",
+      "title": "윈도우·깃허브 코파일럿에 로컬 모델과 샌드박스 도구 실행 도입",
+      "summary": "깃허브 코파일럿이 윈도우에서 로컬 추론 모델과 샌드박스 도구 실행을 지원하고 클라우드 모델과 자동 조율하며, 이를 위해 양자화된 MAI Code 1.1 Flash와 Microsoft Execution Containers가 쓰인다.",
+      "source": "Microsoft",
+      "url": "https://commandline.microsoft.com/local-models-sandboxed-tools-github-windows/?utm_source=tldrit",
+      "report": {
+        "tldr": "코딩 에이전트가 로컬 추론과 OS 수준 샌드박스를 결합한 하이브리드 구조로 간다.",
+        "what": "깃허브 코파일럿이 윈도우 기기에서 로컬 추론 모델과 샌드박스 도구 실행을 지원하며, 지능형 오케스트레이션으로 클라우드 모델과 자동 조율한다. 마이크로소프트 AI는 이를 위해 코딩 특화 MAI Code 1.1 Flash의 양자화 로컬 버전을 NVIDIA RTX Spark 하드웨어용으로 개발했다. Microsoft Execution Containers는 에이전트 작업 중 셸 명령과 로컬 서버 상호작용을 OS 수준에서 격리한다.",
+        "points": [
+          "로컬 추론 + 클라우드 모델 자동 조율",
+          "양자화된 MAI Code 1.1 Flash 로컬 버전",
+          "NVIDIA RTX Spark(통합 메모리) 대상",
+          "Microsoft Execution Containers로 OS 수준 샌드박스"
+        ],
+        "why": [
+          "코드가 기기를 떠나지 않는 옵션이 생겨 보안·비용 측면 선택지가 넓어진다",
+          "에이전트 실행 격리가 OS 기본 기능으로 들어온다"
+        ]
+      }
+    },
+    {
+      "id": "it-sap-pay-stablecoin-settlement",
+      "title": "SAP, 클라우드 ERP에 스테이블코인 결제 ‘SAP Pay’ 탑재",
+      "summary": "SAP가 Cloud ERP에 USDC·EURC 기관용 스테이블코인 정산을 지원하는 SAP Pay를 도입해, 다국적 기업이 89개 결제 경로에서 기존 업무 흐름 안에서 송장을 정산할 수 있게 했다.",
+      "source": "Forkast",
+      "url": "https://forkast.news/sap-just-added-stablecoin-settlement-to-the-software-that-runs-84-of-global-commerce/?utm_source=tldrit",
+      "report": {
+        "tldr": "세계 상거래 84%를 처리하는 ERP에 스테이블코인 정산이 기본 기능으로 들어왔다.",
+        "what": "SAP가 SAP Cloud ERP에 내장된 회계 업그레이드 SAP Pay를 공개했다. Tereina, Circle과 협력해 개발했으며 USDC·EURC로 기관용 스테이블코인 정산을 지원한다. Circle의 Arc 블록체인을 기반으로 하며, 향후 자율 결제를 수행할 Joule AI 에이전트가 뒷받침한다.",
+        "points": [
+          "USDC·EURC 기관 정산 지원",
+          "89개 글로벌 결제 경로",
+          "Tereina·Circle 협력, Circle Arc 블록체인 기반",
+          "Joule AI 에이전트의 자율 결제 예정"
+        ],
+        "why": [
+          "기업 재무 부서가 별도 시스템 없이 스테이블코인을 쓰게 된다",
+          "ERP-블록체인 결합이 B2B 결제 구조를 바꿀 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-windows-hybrid-intelligence",
+      "title": "마이크로소프트, 윈도우를 ‘하이브리드 인텔리전스’ 플랫폼으로 확장",
+      "summary": "마이크로소프트가 로컬 AI와 클라우드를 결합하는 윈도우 전략을 발표하며 에이전트 격리용 Microsoft Execution Containers 정식 출시, Windows ML·llama.cpp 로컬 모델 지원, NVIDIA 기반 빌더 PC 생태계 확대를 내놨다.",
+      "source": "Microsoft",
+      "url": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/?utm_source=tldrit",
+      "report": {
+        "tldr": "윈도우가 로컬·클라우드 AI 에이전트 실행 플랫폼으로 재정의되고 있다.",
+        "what": "마이크로소프트가 로컬 AI 처리와 클라우드를 결합한 ‘하이브리드 인텔리전스’ 플랫폼으로 윈도우를 확장한다고 발표했다. 에이전트 격리용 Microsoft Execution Containers가 정식 출시됐고, Windows ML과 llama.cpp를 통한 로컬 모델 지원이 추가됐다. NVIDIA 기술 기반 빌더 PC와 데스크톱 슈퍼컴퓨터 생태계도 확대된다.",
+        "points": [
+          "Microsoft Execution Containers 정식 출시",
+          "Windows ML·llama.cpp 로컬 모델 지원",
+          "강화된 보안 통제",
+          "NVIDIA 기반 빌더 PC·데스크톱 슈퍼컴퓨터 확대"
+        ],
+        "why": [
+          "IT 관리자는 엔드포인트에서 에이전트 실행을 관리·통제할 수단을 얻는다",
+          "로컬 AI 하드웨어 수요가 커질 전망이다"
+        ]
+      }
+    },
+    {
+      "id": "it-aws-strands-box",
+      "title": "AWS, ‘YOLO 모드’ 사고 막는 오픈소스 에이전트 샌드박스 Strands Box 출시",
+      "summary": "Strands Box는 Dogwood Local Engine, Strands Shell, 파이썬 인터프리터를 통합해 정책 엔진이 이전 행동을 기억하고 파일 삭제·API 호출·슬랙 게시를 감시·제한할 수 있게 한다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/07/aws-launches-open-source-ai-agent-sandbox-to-prevent-yolo-mode-disasters/5301687?utm_source=tldrit",
+      "report": {
+        "tldr": "에이전트의 과거 행동까지 고려하는 ‘시간 인식’ 정책 엔진이 핵심이다.",
+        "what": "AWS가 오픈소스 AI 에이전트 샌드박스 Strands Box를 출시했다. Dogwood Local Engine, Strands Shell, 파이썬 인터프리터를 통합해 정책 엔진에 시간 인식 능력을 부여한다. 개발자는 이전 행동에 근거해 파일 삭제, API 호출, 슬랙 게시 등을 감시하고 제한할 수 있다.",
+        "points": [
+          "오픈소스 에이전트 샌드박스",
+          "Dogwood Local Engine·Strands Shell·파이썬 인터프리터 통합",
+          "이전 행동 기반 시간 인식 정책",
+          "파일 삭제·API 호출·슬랙 게시 제어"
+        ],
+        "why": [
+          "권한을 넓게 준 에이전트의 파괴적 실수를 줄일 수 있다"
+        ]
+      }
+    }
+  ]
+}

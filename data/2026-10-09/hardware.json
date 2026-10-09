@@ -1,0 +1,201 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-tsmc-september-sales",
+      "title": "TSMC 9월 매출 전년 대비 54.6% 급증… AI 칩 수요 견인",
+      "summary": "TSMC의 9월 매출이 5,118억 6,000만 대만달러로 전년 대비 54.6% 늘었다. Nvidia·Apple의 첨단 AI 칩 수요가 성장을 이끌었다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/08/tsmc-september-sales-hit-another-record-as-ai-boom-rolls-on.html?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 칩 수요로 TSMC 매출이 또 기록을 썼다.",
+        "what": "TSMC는 9월 매출로 5,118억 6,000만 대만달러를 기록해 전년 동월 대비 54.6% 증가했다. Nvidia, Apple 등 고객의 첨단 AI 칩 수요가 매출을 끌어올렸다.",
+        "points": [
+          "9월 매출 5,118.6억 대만달러, 전년 대비 +54.6%",
+          "Nvidia·Apple 등 AI 칩 수요가 주도",
+          "ASML 첨단 리소그래피 장비 도입 확약"
+        ],
+        "why": [
+          "AI 반도체 붐이 파운드리 실적으로 계속 확인되는 지표"
+        ]
+      }
+    },
+    {
+      "id": "hardware-amazon-leo-27-per-week",
+      "title": "아마존 Leo 위성 주 27기 생산… 궤도엔 396기뿐",
+      "summary": "아마존이 커클랜드 공장에서 1,000번째 Leo 위성을 만들고 주 27기 생산 체제에 올랐지만, 필요한 3,232기 중 궤도 배치는 396기에 그쳐 발사가 병목이다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout?utm_source=tldrhardware",
+      "report": {
+        "tldr": "아마존 Leo의 병목은 생산이 아니라 발사다.",
+        "what": "아마존은 워싱턴주 커클랜드 공장에서 1,000번째 Leo 광대역 위성을 생산했다. 첫 27기를 만드는 데 6개월이 걸렸던 공장은 이제 주당 27기를 만들며, 추진계를 자체 제작하고 소비자 전자제품 방식을 차용해 수주 걸리던 시험을 수시간으로 줄였다.",
+        "points": [
+          "생산 속도: 주 27기",
+          "궤도 배치 396기 / 필요 3,232기",
+          "Vulcan 운항 중단·New Glenn 발사대 폭발로 FCC 주파수 우선권 상실"
+        ],
+        "why": [
+          "발사 역량이 위성 인터넷 경쟁의 핵심 제약임을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "hardware-anderon-quantum-fab",
+      "title": "IBM 분사 Anderon, 양자 칩 제조 산업화 추진",
+      "summary": "IBM 분사 기업 Anderon이 최대 10억 달러 CHIPS R&D 지원을 확정받고 IBM도 10억 달러를 매칭한다. 300mm Albany 라인으로 외부 개발자용 파운드리 서비스를 계획한다.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/anderon-quantum-fab?utm_source=tldrhardware",
+      "report": {
+        "tldr": "양자 칩도 파운드리 모델로 산업화하려는 시도가 본격화됐다.",
+        "what": "IEEE Spectrum은 IBM 분사 기업 Anderon이 9월 확정받은 최대 10억 달러 규모 CHIPS R&D 지원을 조명했다. IBM은 10억 달러를 매칭 투자하며, Anderon은 300mm Albany 라인을 활용해 외부 개발자용 파운드리 서비스와 공정 설계 키트(PDK)를 제공할 계획이다.",
+        "points": [
+          "CHIPS R&D 최대 10억 달러 + IBM 10억 달러 매칭",
+          "300mm Albany 라인 기반 파운드리·PDK 제공",
+          "핵심 과제: 조셉슨 접합 제어 등 반복 가능한 제조"
+        ],
+        "why": [
+          "양자 하드웨어의 병목이 웨이퍼 용량이 아닌 재현성 있는 공정임을 시사",
+          "미국 정부의 양자 제조 역량 투자"
+        ]
+      }
+    },
+    {
+      "id": "hardware-google-ml-drift",
+      "title": "구글, 단일 셰이더로 여러 GPU 백엔드 지원하는 ML Drift 오픈소스화",
+      "summary": "구글의 ML Drift는 텐서의 논리 레이아웃과 물리 GPU 할당을 분리해 OpenCL·Metal·WebGPU·OpenGL ES를 하나의 셰이더 템플릿으로 지원한다. YouTube Shorts 프레임 지연을 최대 40% 줄였다.",
+      "source": "Google Developers Blog",
+      "url": "https://developers.googleblog.com/ml-drift-next-gen-gpu-aiml-inference-at-the-edge?utm_source=tldrhardware",
+      "report": {
+        "tldr": "엣지 GPU 추론을 하나의 코드베이스로 통합하는 엔진이 공개됐다.",
+        "what": "ML Drift는 텐서 가상화로 텐서의 논리 레이아웃과 물리 GPU 할당을 분리해, 백엔드별 코드 대신 하나의 셰이더 템플릿을 쓴다. 엣지 LLM에선 연산 집약적 prefill과 메모리 집약적 decode 사이에서 커널을 전환한다.",
+        "points": [
+          "OpenCL·Metal·WebGPU·OpenGL ES 단일 셰이더 지원",
+          "합성곱 정렬 KV 캐시 레이아웃, 커널 내 활성값 양자화",
+          "YouTube Shorts 프레임 지연 최대 40% 감소",
+          "Arm·Intel·Qualcomm GPU와 공동 최적화"
+        ],
+        "why": [
+          "온디바이스 AI 추론의 이식성과 성능을 동시에 개선"
+        ]
+      }
+    },
+    {
+      "id": "hardware-cement-supercapacitor",
+      "title": "스스로 전력을 저장하는 건물 위한 시멘트 슈퍼커패시터",
+      "summary": "하얼빈공업대 연구진이 탄소나노튜브와 시멘트로 만든 3D 프린팅 전극 잉크로 LED 같은 소형 기기를 구동하는 시멘트 기반 슈퍼커패시터를 개발했다.",
+      "source": "New Atlas",
+      "url": "https://newatlas.com/energy/cement-based-supercapacitor/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "건물 자체를 에너지 저장 장치로 만드는 연구가 진전됐다.",
+        "what": "하얼빈공업대 연구진은 소형 기기를 구동할 수 있는 시멘트 기반 슈퍼커패시터를 개발했다. 탄소나노튜브와 시멘트로 만든 3D 프린팅 전극 잉크를 사용해 빠른 방전이 가능하다.",
+        "points": [
+          "탄소나노튜브+시멘트 3D 프린팅 전극 잉크",
+          "LED 등 소형 기기 구동 가능",
+          "향후 저온 성능 개선 연구 예정"
+        ],
+        "why": [
+          "스마트 빌딩의 구조체 일체형 에너지 저장 가능성"
+        ]
+      }
+    },
+    {
+      "id": "hardware-quantum-startups-shakeout",
+      "title": "가트너 \"양자 스타트업 절반 이상 2030년까지 도태\"",
+      "summary": "가트너는 시장이 충분한 매출을 만들지 못해 양자 스타트업의 절반 이상이 2030년까지 실패할 것으로 전망했다. 다만 공공·금융 부문의 투자는 늘어난다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/systems/2026/10/08/too-many-quantum-startups-too-little-money-to-keep-them-alive/5302025?utm_source=tldrhardware",
+      "report": {
+        "tldr": "양자 컴퓨팅 업계에 구조조정이 다가온다.",
+        "what": "가트너는 양자 시장이 충분한 매출을 내지 못해 2030년까지 양자 스타트업의 절반 이상이 실패할 것이라고 예측했다. 그럼에도 기업들은 기술 성숙을 기다리기보다 전문성 구축을 위해 투자를 이어가고 있다.",
+        "points": [
+          "2030년까지 양자 스타트업 절반 이상 실패 전망",
+          "공공 부문 지출 2027년 2억 4,500만 달러",
+          "금융 부문 지출 2028년 2억 8,900만 달러"
+        ],
+        "why": [
+          "양자 투자 과열 속 옥석 가리기 신호",
+          "같은 날 Anderon의 대규모 지원과 대비"
+        ]
+      }
+    },
+    {
+      "id": "hardware-apple-rampocalypse-upside",
+      "title": "램 가격 폭등 속 애플 PC 점유율은 오히려 상승",
+      "summary": "RAM 가격 급등으로 전체 PC 출하량이 20% 줄었지만 애플은 경쟁사보다 타격이 적어 점유율이 전년 대비 1%p 올랐다.",
+      "source": "AppleInsider",
+      "url": "https://appleinsider.com/articles/26/10/08/theres-a-hidden-upside-to-the-rampocalypse-for-apple?utm_source=tldrhardware",
+      "report": {
+        "tldr": "메모리 가격 쇼크가 오히려 애플의 상대적 우위를 키웠다.",
+        "what": "RAM 가격 상승으로 전체 PC 출하량이 20% 감소한 가운데, 애플은 대부분의 경쟁사보다 영향을 덜 받아 점유율이 전년 대비 1%p 올랐다. 가격이 더 오를 것으로 예상되는 가운데 충성 고객층이 버팀목 역할을 했다.",
+        "points": [
+          "전체 PC 출하량 20% 감소",
+          "애플 점유율 전년 대비 +1%p",
+          "RAM 가격 추가 상승 전망"
+        ],
+        "why": [
+          "메모리 가격 상승이 PC 시장 판도를 바꾸는 변수로 작용"
+        ]
+      }
+    },
+    {
+      "id": "hardware-nvidia-halos-physical-ai",
+      "title": "NVIDIA, 피지컬 AI 안전 스택 Halos를 로봇으로 확장",
+      "summary": "NVIDIA가 자율주행차용 Halos 안전 시스템을 6월 출시한 Halos for Robotics로 로봇 영역까지 확장했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "NVIDIA가 로보택시·휴머노이드용 안전 스택을 키운다.",
+        "what": "NVIDIA는 자율주행차를 위한 Halos 안전 시스템을 로봇으로 넓혀 6월 Halos for Robotics를 내놨다.",
+        "points": [
+          "Halos: 자율주행차용 안전 시스템",
+          "Halos for Robotics로 로봇까지 확장(6월)"
+        ],
+        "why": [
+          "피지컬 AI 상용화의 관건인 안전성 표준 선점 시도"
+        ]
+      }
+    },
+    {
+      "id": "hardware-aws-physical-ai-toolchain",
+      "title": "AWS, 로봇용 오픈소스 피지컬 AI 툴체인 공개",
+      "summary": "AWS가 합성 데이터 생성, 학습, 시뮬레이션·검증, 엣지 배포, 지속 개선까지 아우르는 오픈소스 로봇 툴체인을 내놨다.",
+      "source": "The Robot Report",
+      "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AWS가 로봇 개발 전 주기를 오픈소스로 지원한다.",
+        "what": "AWS가 로보틱스용 오픈소스 피지컬 AI 툴체인을 출시했다. 합성 데이터 생성부터 학습, 시뮬레이션과 검증, 엣지 배포, 지속 개선까지 포괄한다.",
+        "points": [
+          "합성 데이터 생성·학습",
+          "시뮬레이션·검증",
+          "엣지 배포·지속 개선"
+        ],
+        "why": [
+          "클라우드 사업자 간 피지컬 AI 생태계 경쟁 확대"
+        ]
+      }
+    },
+    {
+      "id": "hardware-surface-laptop-ultra",
+      "title": "Microsoft Surface Laptop Ultra, Nvidia RTX Spark 탑재 2,600달러",
+      "summary": "15인치 Surface Laptop Ultra가 최대 20코어 Grace CPU와 Blackwell 그래픽, 최대 128GB 통합 메모리를 갖춘 Nvidia RTX Spark 슈퍼칩을 탑재해 120B 파라미터 모델의 로컬 에이전트를 돌릴 수 있다.",
+      "source": "Microsoft",
+      "url": "https://www.microsoft.com/en-us/surface/devices/surface-laptop-ultra?utm_source=tldrhardware",
+      "report": {
+        "tldr": "노트북에서 120B급 모델을 로컬로 돌리는 시대가 열린다.",
+        "what": "Microsoft의 15인치 Surface Laptop Ultra는 Nvidia RTX Spark 슈퍼칩을 탑재했다. 최대 20코어 Grace CPU와 Blackwell 그래픽, 최대 128GB 통합 메모리를 결합해 최대 120B 파라미터 모델 기반 로컬 에이전트를 구동할 수 있다.",
+        "points": [
+          "가격 2,600달러, 15인치",
+          "최대 20코어 Grace CPU + Blackwell GPU",
+          "최대 128GB 통합 메모리, 120B 모델 로컬 구동"
+        ],
+        "why": [
+          "Nvidia의 Windows 노트북 SoC 진출과 온디바이스 AI PC 경쟁 본격화"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-cncf-faster-graduations",
+      "title": "CNCF, AI 에이전트 도움으로 프로젝트 졸업 가속",
+      "summary": "CNCF 조너선 브라이스 사무총장은 지난 18개월간 프로젝트 졸업이 빨라졌으며 AI 에이전트가 실사 작업을 돕고 있다고 밝혔다.",
+      "source": "The New Stack",
+      "url": "https://thenewstack.io/open-source-ai-kubernetes/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI와 오픈소스가 서로를 키우며 CNCF 운영 속도도 올라갔다.",
+        "what": "KubeCon 솔트레이크시티를 앞두고 CNCF 사무총장 조너선 브라이스는 AI와 오픈소스가 서로를 강화한다고 강조했다. 지난 18개월간 프로젝트 졸업 속도가 빨라졌고 AI 에이전트가 실사(due diligence)를 보조하고 있다.",
+        "points": [
+          "지난 18개월간 CNCF 프로젝트 졸업 가속",
+          "AI 에이전트가 졸업 실사 작업 보조",
+          "KubeCon 솔트레이크시티 앞두고 나온 발언"
+        ],
+        "why": [
+          "클라우드 네이티브 거버넌스에 AI가 실무적으로 투입되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-dns-root-ksk-2024-rollover",
+      "title": "10월 11일 DNS 루트 KSK-2024 교체, 준비됐나",
+      "summary": "DNS 루트가 10월 11일 KSK-2024로 전환되며, 새 신뢰 앵커가 없는 DNSSEC 검증 리졸버는 실패할 위험이 있다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/root-ksk-2024-rollover/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "DNSSEC 검증 리졸버의 KSK-2024 신뢰 앵커를 지금 확인하라.",
+        "what": "DNS 루트 존의 서명 키가 10월 11일 KSK-2024로 교체된다. 새 신뢰 앵커를 갖추지 않은 DNSSEC 검증 리졸버는 이름 해석에 실패할 수 있으며, 운영자는 RFC 8509 센티넬 쿼리로 준비 상태를 확인할 수 있다.",
+        "points": [
+          "전환일: 10월 11일, 새 루트 키는 KSK-2024",
+          "신뢰 앵커 미갱신 리졸버는 검증 실패 위험",
+          "RFC 8509 센티넬 쿼리로 준비 상태 점검 가능"
+        ],
+        "why": [
+          "자체 리졸버 운영 조직은 인터넷 전반 이름 해석 장애로 이어질 수 있음",
+          "날짜가 임박해 즉각적 점검 필요"
+        ]
+      }
+    },
+    {
+      "id": "devops-kubelet-inodes",
+      "title": "Kubelet은 inode를 비상시에만 본다",
+      "summary": "Kubelet 가비지 컬렉션은 디스크 바이트만 감시해 inode를 많이 쓰는 워크로드는 파드 축출 직전까지 무방비라는 분석.",
+      "source": "CNCF Blog",
+      "url": "https://www.cncf.io/blog/2026/10/05/kubelet-watches-inodes-just-not-until-its-an-emergency/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "inode 고갈은 kubelet GC가 막아주지 않으니 별도 알림이 필요하다.",
+        "what": "Kubelet의 가비지 컬렉션은 디스크 바이트 사용량만 기준으로 동작해, 작은 파일이 많은 워크로드는 파드 축출 단계에 이르러서야 inode 문제가 드러난다. 멀티 스테이지 Dockerfile과 inode 사용률 80% Prometheus 알림으로 예방할 수 있다.",
+        "points": [
+          "GC 기준은 디스크 바이트, inode는 축출 시점에야 반영",
+          "멀티 스테이지 Dockerfile로 이미지 내 파일 수 축소",
+          "inode 사용률 80% Prometheus 알림 권장"
+        ],
+        "why": [
+          "예고 없는 파드 축출을 막는 실용적 운영 팁"
+        ]
+      }
+    },
+    {
+      "id": "devops-airbnb-db-workload-replay",
+      "title": "에어비앤비, 실제 DB 워크로드 캡처·재생으로 테스트",
+      "summary": "에어비앤비가 ProxySQL에서 운영 SQL 트래픽을 캡처해 테스트 DB에 재생, 용량 계획과 성능 회귀 탐지에 활용한다.",
+      "source": "Airbnb Engineering",
+      "url": "https://airbnb.tech/infrastructure/beyond-synthetic-testing-capturing-and-replaying-real-database-workloads-at-airbnb/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "합성 테스트 대신 실제 트래픽 재생으로 DB 변경을 검증한다.",
+        "what": "에어비앤비는 ProxySQL 계층에서 실제 운영 SQL 트래픽을 수집해 테스트 데이터베이스에 재생하는 체계를 만들었다. 이를 통해 용량 계획을 세우고 성능 회귀를 사전에 발견한다.",
+        "points": [
+          "ProxySQL에서 운영 SQL 트래픽 캡처",
+          "테스트 DB에 재생해 실제 부하 재현",
+          "용량 계획과 성능 회귀 탐지에 활용"
+        ],
+        "why": [
+          "합성 벤치마크로는 놓치는 실제 쿼리 패턴 문제를 잡을 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "devops-harness-iast",
+      "title": "IAST(인터랙티브 애플리케이션 보안 테스트)란",
+      "summary": "IAST는 실행 중인 애플리케이션을 계측해 SQL 인젝션·XSS 등을 오탐 적게 찾아내지만, SAST·SCA와 병행할 때 가장 효과적이다.",
+      "source": "Harness Blog",
+      "url": "https://www.harness.io/blog/what-is-interactive-application-security-testing-iast?utm_source=tldrdevops",
+      "report": {
+        "tldr": "IAST는 오탐을 줄이지만 SAST·SCA를 대체하진 않는다.",
+        "what": "Harness는 IAST가 실행 중인 애플리케이션 내부를 계측해 SQL 인젝션, XSS 같은 취약점을 찾아내며 오탐이 적다고 설명한다. 다만 정적 분석(SAST), 구성요소 분석(SCA)과 함께 쓸 때 가장 효과적이다.",
+        "points": [
+          "런타임 계측 기반 취약점 탐지",
+          "SQL 인젝션·XSS 등 탐지, 오탐 감소",
+          "SAST·SCA와 병행 권장"
+        ],
+        "why": [
+          "파이프라인 보안 테스트 조합을 설계할 때 참고"
+        ]
+      }
+    },
+    {
+      "id": "devops-claude-mem",
+      "title": "claude-mem: 세션 간 컨텍스트 보존 도구",
+      "summary": "도구 사용 관찰을 기록하고 의미 요약을 생성해 여러 AI 코딩 플랫폼에서 세션 간 컨텍스트를 재사용하게 하는 오픈소스.",
+      "source": "GitHub",
+      "url": "https://github.com/thedotmack/claude-mem?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 코딩 에이전트에 세션 간 기억을 붙인다.",
+        "what": "claude-mem은 에이전트의 도구 관찰 내용을 캡처하고 의미 요약을 만들어, 다음 세션에서 컨텍스트로 재사용할 수 있게 한다. 여러 AI 코딩 플랫폼을 지원한다.",
+        "points": [
+          "도구 관찰 결과 캡처",
+          "의미 요약 생성 후 세션 간 재사용",
+          "다수 AI 코딩 플랫폼 지원"
+        ],
+        "why": [
+          "매 세션마다 맥락을 재설명하는 비용을 줄임"
+        ]
+      }
+    },
+    {
+      "id": "devops-raddebugger",
+      "title": "에픽게임즈 RAD Debugger",
+      "summary": "에픽게임즈의 네이티브 그래픽 디버거로 알파 단계이며 Windows x64를 지원하고, 함께 제공되는 RAD Linker는 링크 시간을 50% 단축한다.",
+      "source": "GitHub",
+      "url": "https://github.com/EpicGames/raddebugger?utm_source=tldrdevops",
+      "report": {
+        "tldr": "에픽게임즈가 빠른 네이티브 디버거·링커를 오픈소스로 제공한다.",
+        "what": "에픽게임즈의 RAD Debugger는 알파 단계의 네이티브 그래픽 디버거로 Windows x64 디버깅을 지원한다. 함께 제공되는 RAD Linker는 디버그 정보가 많은 프로젝트에서 링크 시간을 50% 줄인다.",
+        "points": [
+          "알파 단계 네이티브 그래픽 디버거",
+          "Windows x64 디버깅 지원",
+          "RAD Linker로 디버그 중심 프로젝트 링크 시간 50% 단축"
+        ],
+        "why": [
+          "대형 C/C++ 프로젝트의 빌드·디버그 반복 속도 개선 가능"
+        ]
+      }
+    },
+    {
+      "id": "devops-datadog-warehouse-data-quality",
+      "title": "파이프라인 상태를 넘어 웨어하우스 데이터 품질 모니터링",
+      "summary": "파이프라인 성공이 데이터 정확성을 보장하지 않으므로 테이블·컬럼·스키마·커스텀 SQL 검사와 이상 탐지, 계보 추적을 갖춰야 한다는 Datadog의 가이드.",
+      "source": "Datadog Blog",
+      "url": "https://www.datadoghq.com/blog/monitor-warehouse-data-quality-beyond-pipeline-health/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "파이프라인이 초록불이어도 데이터는 틀릴 수 있다.",
+        "what": "Datadog은 파이프라인이 성공해도 데이터가 정확하다는 보장은 없다고 지적한다. 테이블, 컬럼, 스키마, 커스텀 SQL 검사를 이상 탐지와 계보 추적과 결합해 포괄적인 품질 모니터링을 구성할 것을 권한다.",
+        "points": [
+          "파이프라인 성공 ≠ 데이터 정확성",
+          "테이블·컬럼·스키마·커스텀 SQL 수준 검사",
+          "이상 탐지와 데이터 계보 추적 결합"
+        ],
+        "why": [
+          "데이터 신뢰성 사고를 사전에 잡는 관측성 설계 참고"
+        ]
+      }
+    },
+    {
+      "id": "devops-linaro-real-hardware-ci",
+      "title": "리나로, 실기기 CI 15년 운영 교훈",
+      "summary": "공유 인프라 구성요소가 CI 작업 전반에 연쇄 장애를 일으킬 수 있어, 리나로는 전용 자동화 장비와 사설 네트워크로 기기를 격리해 재현성을 확보한다.",
+      "source": "Linaro Blog",
+      "url": "https://www.linaro.org/blog/building-reliable-real-hardware-ci-lessons-from-15-years-of-test-labs?utm_source=tldrdevops",
+      "report": {
+        "tldr": "실기기 CI 신뢰성의 핵심은 공유 지점 제거와 격리다.",
+        "what": "리나로는 15년간 테스트 랩을 운영하며 공유 인프라 하나가 여러 CI 작업에 연쇄 장애를 일으킨다는 점을 배웠다. 이를 막기 위해 기기마다 전용 자동화 장비와 사설 네트워크를 두어 재현 가능한 테스트를 구현한다.",
+        "points": [
+          "공유 인프라는 CI 연쇄 장애의 원인",
+          "기기별 전용 자동화 장비로 격리",
+          "사설 네트워크로 재현성 확보"
+        ],
+        "why": [
+          "임베디드·하드웨어 CI를 구축하는 팀에 검증된 설계 원칙"
+        ]
+      }
+    },
+    {
+      "id": "devops-mirelo-kiro-mcp",
+      "title": "Mirelo AI, MCP와 Kiro powers로 IDE에 사운드 디자인 도입",
+      "summary": "Mirelo AI가 MCP 서버를 Kiro power로 패키징해 개발자가 IDE 안에서 자연어로 프로덕션급 효과음을 생성할 수 있게 했다.",
+      "source": "AWS DevOps Blog",
+      "url": "https://aws.amazon.com/blogs/devops/how-mirelo-ai-brought-sound-design-to-the-ide-with-mcp-and-kiro-powers/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "MCP로 IDE 안에서 효과음까지 생성한다.",
+        "what": "Mirelo AI는 자사 MCP 서버를 AWS Kiro의 power 형식으로 패키징했다. 개발자는 IDE를 벗어나지 않고 자연어 프롬프트로 프로덕션 수준의 효과음을 생성할 수 있다.",
+        "points": [
+          "MCP 서버를 Kiro power로 패키징",
+          "자연어 프롬프트로 효과음 생성",
+          "IDE 내 워크플로 통합"
+        ],
+        "why": [
+          "MCP 생태계가 개발 외 창작 도구로 확장되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "devops-crossplane-runtime-v2-4",
+      "title": "crossplane-runtime v2.4, 프로바이더 메모리 80% 절감",
+      "summary": "runtime v2.4.0과 클라이언트 캐싱을 적용한 Crossplane 프로바이더는 약 2,000개 CRD 클러스터에서 메모리 사용량이 약 80~95% 줄었다.",
+      "source": "Crossplane Blog",
+      "url": "https://blog.crossplane.io/cutting-provider-memory-by-80-crossplane-runtime-v2-4-and-client-caching/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Crossplane 사용자는 v2.4로 올리면 메모리를 크게 아낀다.",
+        "what": "Crossplane은 crossplane-runtime v2.4.0과 클라이언트 캐싱 개선으로 프로바이더 메모리를 대폭 줄였다. CRD가 약 2,000개인 클러스터에서 메모리 사용량이 대략 80~95% 감소했다.",
+        "points": [
+          "crossplane-runtime v2.4.0 릴리스",
+          "클라이언트 캐싱 개선이 핵심",
+          "약 2,000 CRD 클러스터에서 메모리 80~95% 감소"
+        ],
+        "why": [
+          "대규모 Crossplane 운영 비용과 안정성 개선"
+        ]
+      }
+    },
+    {
+      "id": "devops-atlassian-incident-detection",
+      "title": "아틀라시안, 장애 탐지 지연 40초에서 10초 미만으로",
+      "summary": "아틀라시안이 OpenTelemetry·Kafka·Flink on Kubernetes로 장애 탐지 아키텍처를 재구축해 지연을 40초 이상에서 10초 미만으로 줄이고 VM 90대를 파드 4개로 통합했다.",
+      "source": "CNCF Blog",
+      "url": "https://www.cncf.io/blog/2026/09/30/from-40-seconds-to-under-10-rebuilding-incident-detection-on-opentelemetry-apache-kafka-and-apache-flink-on-kubernetes/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "스트리밍 기반 재설계로 탐지 속도와 인프라 효율을 동시에 잡았다.",
+        "what": "아틀라시안은 장애 탐지 시스템을 OpenTelemetry, Apache Kafka, Apache Flink를 쿠버네티스 위에서 돌리는 구조로 재구축했다. 탐지 지연은 40초 이상에서 10초 미만으로 줄었고 VM 90대가 쿠버네티스 파드 4개로 통합됐다.",
+        "points": [
+          "OpenTelemetry + Kafka + Flink on Kubernetes 구성",
+          "탐지 지연 40초+ → 10초 미만",
+          "VM 90대 → 파드 4개로 통합"
+        ],
+        "why": [
+          "대규모 관측성 파이프라인 재설계의 정량적 성과 사례"
+        ]
+      }
+    }
+  ]
+}
