@@ -1,0 +1,261 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-oxide-series-d",
+      "title": "Oxide Computer, 4억4,500만 달러 시리즈 D 유치",
+      "summary": "Oxide Computer가 Eclipse 주도, Jane Street·Atreides·AMD 참여로 4억4,500만 달러 시리즈 D를 마감했다. 자금은 제조 확대와 원자재 재고, 클라우드 랙 주문 이행에 쓰인다.",
+      "source": "Oxide Computer Company",
+      "url": "https://oxide.computer/blog/our-445m-series-d?utm_source=tldrhardware",
+      "report": {
+        "tldr": "온프레미스 클라우드 랙 업체 Oxide가 대형 투자로 양산을 키운다.",
+        "what": "Oxide Computer Company가 4억4,500만 달러 규모 시리즈 D를 마감했다. Eclipse가 주도했고 AMD도 참여했으며, 자금은 제조 역량과 주문 처리에 투입된다.",
+        "points": [
+          "4억4,500만 달러 시리즈 D",
+          "Eclipse 주도, Jane Street·Atreides·AMD 참여",
+          "제조 확대와 원자재 재고 확보",
+          "상용 클라우드 컴퓨터 랙 주문 이행"
+        ],
+        "why": [
+          "퍼블릭 클라우드 대안인 온프레미스 통합 랙 수요를 보여준다",
+          "AMD의 전략적 참여로 공급망 협력이 강화될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-spacex-800mhz-spectrum",
+      "title": "SpaceX, 800MHz 저대역 주파수 매입… 지상 기지국과 Starlink 결합",
+      "summary": "SpaceX가 최대 14MHz의 800MHz 페어 저대역 주파수를 사들여 타워·옥상 안테나를 설치한다. FCC는 2GHz 최적화 Starlink 위성 1만5,000기 추가를 승인했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/networks/2026/10/09/spacex-to-buy-key-spectrum-that-could-help-starlink-mobile-become-major-us-cell-carrier/5302393?utm_source=tldrhardware",
+      "report": {
+        "tldr": "SpaceX가 지상+위성 하이브리드 이동통신사로 향한다.",
+        "what": "SpaceX가 800MHz 저대역 주파수 매입에 합의하고 지상 안테나를 배치할 계획이다. FCC의 2GHz Starlink 위성 추가 승인과 맞물려 하이브리드 망 전략이 드러났다.",
+        "points": [
+          "최대 14MHz 페어 800MHz 주파수 매입",
+          "타워·옥상에 지상 안테나 배치",
+          "FCC, 2GHz 최적화 위성 1만5,000기 추가 승인",
+          "지상-위성 하이브리드 네트워크 전략"
+        ],
+        "why": [
+          "Starlink Mobile이 미국 주요 이동통신사로 부상할 가능성이 커졌다",
+          "기존 통신사와의 경쟁 구도가 바뀔 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-nvidia-foxconn-digital-twins",
+      "title": "기계를 만드는 기계: NVIDIA·Foxconn 산업용 디지털 트윈",
+      "summary": "Foxconn이 NVIDIA Omniverse·Isaac·Metropolis로 AI 서버 조립 공장의 물리적으로 정확한 디지털 트윈을 만들어 레이아웃과 로봇 시스템을 가상 검증한다.",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/the-machines-that-make-the-machines/?ncid=so-link-873291&utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 서버 공장을 짓기 전에 가상으로 먼저 검증한다.",
+        "what": "NVIDIA 블로그는 Foxconn이 AI 서버 조립 공장을 디지털 트윈으로 설계·검증하는 사례를 소개했다. 물리 배치 전에 레이아웃과 로봇을 가상에서 시험한다.",
+        "points": [
+          "Omniverse·Isaac·Metropolis 플랫폼 활용",
+          "물리적으로 정확한 공장 디지털 트윈",
+          "공장 레이아웃 가상 검증",
+          "로봇 시스템 사전 테스트"
+        ],
+        "why": [
+          "AI 서버 생산 확대 속도를 높이는 제조 혁신이다",
+          "디지털 트윈이 실제 대형 제조 현장에 정착하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-blue-origin-lc36-rebuild",
+      "title": "Blue Origin, LC-36 재건… 12월 New Glenn 복귀 목표",
+      "summary": "5월 발사대 폭발 이후 Blue Origin이 LC-36을 New Glenn 수직 통합용으로 재건하고 있다. 타워를 해체·재조립하고 지상 극저온 배관을 개조하며, 베이조스는 12월 발사를 예상했다.",
+      "source": "NASASpaceflight",
+      "url": "https://www.nasaspaceflight.com/2026/10/blue-origin-lc-36-rebuild-new-glenn/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "폭발 사고 후 Blue Origin이 발사대를 수직 통합 방식으로 다시 짓는다.",
+        "what": "NASASpaceflight에 따르면 Blue Origin은 5월 폭발로 손상된 LC-36을 재건 중이다. New Glenn을 수직으로 통합하도록 설계를 바꾸고 있다.",
+        "points": [
+          "5월 발사대 폭발 이후 재건",
+          "New Glenn 수직 통합 방식 전환",
+          "타워 해체·재조립과 극저온 배관 개조",
+          "12월 발사 목표"
+        ],
+        "why": [
+          "New Glenn 발사 재개 시점이 대형 발사체 경쟁에 영향을 준다",
+          "수직 통합 전환은 운영 방식의 큰 변화다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-photonic-in-situ-learning",
+      "title": "제작 후 스스로 광학 기울기를 측정해 학습하는 포토닉 칩",
+      "summary": "포토닉 집적회로가 제작 후 광학 기울기를 직접 측정하는 인시투 학습으로 정밀한 디지털 칩 모델 없이도 학습할 수 있음이 소개됐다.",
+      "source": "Nature Computational Science",
+      "url": "https://www.nature.com/articles/s43588-026-01071-0?utm_source=tldrhardware",
+      "report": {
+        "tldr": "포토닉 칩이 제조 편차를 스스로 보정하며 학습한다.",
+        "what": "Nature 브리핑은 포토닉 집적회로가 제작 이후 자신의 광학 기울기를 측정해 학습하는 방법을 다뤘다. 연구진은 행렬 설계와 다파장 연산을 시연했다.",
+        "points": [
+          "제작 후 광학 기울기 직접 측정",
+          "완전한 디지털 칩 모델 불필요",
+          "행렬 설계 시연",
+          "다파장 연산 시연"
+        ],
+        "why": [
+          "광 컴퓨팅의 제조 편차 문제를 우회하는 접근이다",
+          "저전력 AI 가속기 연구에 기여할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-scarf-slam",
+      "title": "ScaRF-SLAM: 피드포워드 모델과 고전 SLAM 결합한 스케일 일관 3D 재구성",
+      "summary": "ScaRF-SLAM은 고전 비주얼 SLAM의 안정성과 기하 파운데이션 모델을 결합해 실시간 3D 재구성을 하며, 카메라 추적과 깊이 추정을 분리해 미터 스케일 지도를 만든다.",
+      "source": "Oxford Robot Dynamics Lab",
+      "url": "https://dynamic.robots.ox.ac.uk/projects/scarf-slam/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "고전 SLAM과 파운데이션 모델의 장점을 합쳤다.",
+        "what": "옥스퍼드 연구진이 ScaRF-SLAM을 공개했다. 카메라 추적은 고전 SLAM이, 깊이는 기하 파운데이션 모델이 맡아 다양한 센서에서 미터 스케일 지도를 만든다.",
+        "points": [
+          "고전 비주얼 SLAM + 기하 파운데이션 모델",
+          "카메라 추적과 깊이 추정 분리",
+          "실시간 3D 재구성",
+          "다양한 센서에서 미터 스케일 지도"
+        ],
+        "why": [
+          "로봇·AR의 지도 작성 정확도를 높일 수 있다",
+          "학습 기반과 고전 기법 하이브리드의 실용성을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-q8botone",
+      "title": "Q8botOne: 손바닥 크기 오픈소스 4족 로봇",
+      "summary": "ZeroWire Robotics가 PCB 자체를 구조 프레임으로 쓰는 무배선 섀시의 스마트폰 크기 4족 로봇 Q8botOne을 출시했다. ESP32-C3와 DYNAMIXEL 액추에이터 8개로 구동한다.",
+      "source": "CNX Software",
+      "url": "https://www.cnx-software.com/2026/10/08/q8botone-a-palm-sized-open-source-quadruped-robot-with-esp32-c3-dynamixel-smart-actuators/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "PCB를 몸체로 쓴 초소형 오픈소스 4족 로봇이다.",
+        "what": "ZeroWire Robotics가 Q8botOne을 공개했다. 배선 없이 PCB가 프레임 역할을 하며, 걷기·속보·점프와 자기 무게 2배 운반이 가능하다.",
+        "points": [
+          "PCB가 구조 프레임인 무배선 섀시",
+          "ESP32-C3 + DYNAMIXEL 액추에이터 8개",
+          "걷기·속보·점프 지원",
+          "자기 무게 2배 운반"
+        ],
+        "why": [
+          "교육·연구용 소형 보행 로봇의 진입 장벽을 낮춘다",
+          "PCB 일체형 설계는 조립 단순화의 좋은 사례다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-ledger-tampered-wallet-implant",
+      "title": "Ledger, 변조 지갑의 하드웨어 임플란트 확인… 피해 추정 9,300만 달러",
+      "summary": "Ledger가 동남아 리셀러 CryptoBilis에서 구매된 기기에서 무단 하드웨어 임플란트를 확인했다. 화면 뒤 소형 보드와 셀룰러 부품이 설정 중 복구 문구를 탈취하는 구조다.",
+      "source": "Coin Tribune",
+      "url": "https://www.cointribune.com/en/crypto-ledger-investigates-tampered-wallets-after-93-million-in-loses/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "보안 칩을 건드리지 않고도 공급망 변조로 시드를 훔쳤다.",
+        "what": "Ledger가 서드파티 리셀러를 통해 판매된 변조 지갑에서 하드웨어 임플란트를 확인했다. 피해 추정액은 9,300만 달러에 이른다.",
+        "points": [
+          "동남아 리셀러 CryptoBilis 구매 기기",
+          "화면 뒤 소형 보드·셀룰러 부품 삽입",
+          "설정 중 복구 문구 탈취",
+          "보안 요소(secure element)는 우회하지 않음",
+          "피해 추정 약 9,300만 달러"
+        ],
+        "why": [
+          "하드웨어 지갑의 공급망 공격 위험을 실증한다",
+          "공식 채널 구매의 중요성을 다시 일깨운다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-supermicro-fixer-guilty-plea",
+      "title": "슈퍼마이크로 사건 '해결사', 25억 달러 엔비디아 서버 중국 우회 수출 유죄 인정",
+      "summary": "Ting-Wei Sun이 약 25억 달러 규모의 엔비디아 기반 서버를 동남아 중개업체를 거쳐 중국 구매자에게 넘긴 혐의 등 4건에 유죄를 인정했다.",
+      "source": "The Next Web",
+      "url": "https://thenextweb.com/news/super-micro-case-fixer-pleads-guilty-to-sending-ai-servers-to-china?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 서버 대중 수출 통제 위반 사건에서 유죄 인정이 나왔다.",
+        "what": "슈퍼마이크로 관련 사건에서 Ting-Wei Sun이 수출통제 공모 등 4개 혐의에 유죄를 인정했다. 동남아를 경유해 약 25억 달러어치 엔비디아 서버를 중국으로 보낸 혐의다.",
+        "points": [
+          "수출통제 공모 포함 4개 혐의 유죄 인정",
+          "약 25억 달러 규모 엔비디아 서버",
+          "동남아 중개업체 경유",
+          "중국 구매자에게 전달"
+        ],
+        "why": [
+          "미국 AI 칩 수출 통제 집행이 강화되고 있음을 보여준다",
+          "서버 OEM의 유통망 관리 책임이 커진다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-asml-spare-parts-price-hike",
+      "title": "ASML, 삼성·SK하이닉스 대상 EUV·DUV 예비 부품 가격 10% 인상",
+      "summary": "ASML이 2027년 1월 인도분부터 한국에 공급하는 모든 EUV·DUV 교체 부품 가격을 10% 올리며, 삼성과 SK하이닉스는 이를 수용했다.",
+      "source": "The Elec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14518&utm_source=tldrhardware",
+      "report": {
+        "tldr": "ASML의 가격 결정력이 한국 메모리 업체에 그대로 전가된다.",
+        "what": "The Elec에 따르면 ASML이 한국향 EUV·DUV 예비 부품 가격을 10% 인상한다. 2027년 1월 인도분부터 적용되며 삼성과 SK하이닉스가 받아들였다.",
+        "points": [
+          "EUV·DUV 교체 부품 전 품목 10% 인상",
+          "2027년 1월 인도분부터 적용",
+          "한국 공급분 대상",
+          "삼성·SK하이닉스 수용"
+        ],
+        "why": [
+          "반도체 장비 독점 공급자의 협상력을 보여준다",
+          "메모리 업체의 팹 운영비 상승 요인이다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-easynav-0-5",
+      "title": "ROS 2용 내비게이션 스택 EasyNav 0.5.0 출시",
+      "summary": "EasyNav 0.5.0이 경로 계획 개선, 복구 동작 강화, 연산 부하 감소를 담아 ROS 2 Humble·Jazzy·Kilted·Lyrical용으로 출시됐다.",
+      "source": "Open Robotics Discourse",
+      "url": "https://discourse.openrobotics.org/t/easynav-0-5-0-released-for-humble-jazzy-kilted-and-lyrical/58721?utm_source=tldrhardware",
+      "report": {
+        "tldr": "가벼운 ROS 2 내비게이션 대안이 업데이트됐다.",
+        "what": "오픈소스 내비게이션 스택 EasyNav가 0.5.0을 출시했다. 여러 ROS 2 배포판을 지원하며 경로 계획과 복구 동작을 개선했다.",
+        "points": [
+          "경로 계획 업그레이드",
+          "복구 동작 강화",
+          "연산 오버헤드 감소",
+          "Humble·Jazzy·Kilted·Lyrical 지원"
+        ],
+        "why": [
+          "저사양 로봇에서도 쓰기 쉬운 내비게이션 선택지다",
+          "ROS 2 생태계의 도구 다양화를 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "hardware-jumper-crab-robot",
+      "title": "Jumper: 걷고 점프하는 오픈소스 게 로봇",
+      "summary": "Jumper는 옆으로 걷는 다리 보행과 스프링 보조 점프를 결합해 게의 이동 방식을 모방한 오픈소스 생체모방 로봇이다.",
+      "source": "GitHub",
+      "url": "https://github.com/KingKongRobotics/jumper?utm_source=tldrhardware",
+      "report": {
+        "tldr": "게의 보행과 점프를 재현한 오픈소스 로봇이다.",
+        "what": "KingKongRobotics가 GitHub에 Jumper를 공개했다. 게처럼 옆으로 걷는 다족 보행과 스프링을 이용한 점프 메커니즘을 결합했다.",
+        "points": [
+          "게 이동 방식을 모방한 생체모방 설계",
+          "옆걸음 다족 보행",
+          "스프링 보조 점프",
+          "오픈소스 공개"
+        ],
+        "why": [
+          "생체모방 로봇 연구·교육용 레퍼런스가 된다"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-meta-muse-ai-agent-decision",
+      "title": "저커버그가 Meta AI 에이전트 'Muse' 출시를 결단한 내막",
+      "summary": "수개월 지연되던 Meta의 Muse AI 에이전트가 스타트업 경쟁사의 성공에 자극받아 출시됐고, 일부 안전 문제에도 대체로 성공적이라는 평가다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/09/technology/inside-mark-zuckerbergs-decision-to-pull-the-trigger-on-metas-ai-agent.html?unlocked_article_code=1.IFE.3m8j.FbOfjIqvdFLM&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "경쟁 압박이 Meta의 AI 에이전트 출시 결정을 앞당겼다.",
+        "what": "Meta의 AI 에이전트 Muse는 수개월간 출시가 미뤄졌다. 한 스타트업 경쟁사가 성공을 거두자 저커버그가 출시를 결정했고, 롤아웃은 일부 안전 이슈에도 대체로 순조로웠다.",
+        "points": [
+          "Muse 출시가 수개월 지연된 끝에 이뤄짐",
+          "스타트업 경쟁사의 성공이 결정적 계기",
+          "롤아웃은 대체로 성공적",
+          "일부 안전 문제는 존재"
+        ],
+        "why": [
+          "빅테크의 AI 출시 타이밍이 내부 준비도보다 경쟁 상황에 좌우됨을 보여줌",
+          "속도 경쟁 속 안전성 관리가 계속 과제로 남음"
+        ]
+      }
+    },
+    {
+      "id": "tech-apple-homeview-smart-home",
+      "title": "애플, 스마트홈 허브 'HomeView'로 생태계 최대 공백 메운다",
+      "summary": "애플의 HomeView는 가정용 Siri 지휘 센터 역할을 하는 스마트홈 허브로, 탁상형과 벽걸이형으로 나오며 서드파티 앱스토어는 없다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/newsletters/2026-10-11/apple-smart-home-launch-oct-13-plans-homeview-has-mid-november-release?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5MTc3NDc4NCwiZXhwIjoxNzkyMzc5NTg0LCJhcnRpY2xlSWQiOiJUTVFYSzJOM04wOFowMCIsImJjb25uZWN0SWQiOiI2NTc1NjkyN0UwMkM0N0MwQkQ0MDNEQTJGMEUyNzIyMyJ9.VpLYB31tmlC9YKzhenXXqPdvFv297p02RZ_WTDk3s8g&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "애플이 Siri 중심 스마트홈 허브로 홈 시장 공백을 메우려 한다.",
+        "what": "애플이 곧 공개할 HomeView는 가정 내 Siri 명령의 중심 허브다. 탁상형과 벽걸이형 두 가지로 나오며 내장 앱은 제한적이고 서드파티 앱스토어는 지원하지 않는다.",
+        "points": [
+          "HomeView는 가정용 Siri 커맨드 센터",
+          "탁상형·벽걸이형 두 가지 폼팩터",
+          "내장 앱 제한적",
+          "서드파티 App Store 미지원"
+        ],
+        "why": [
+          "스마트홈은 애플 생태계에서 가장 큰 공백으로 꼽혀 왔음",
+          "폐쇄형 접근이 Amazon·Google 허브와의 경쟁에서 변수"
+        ]
+      }
+    },
+    {
+      "id": "tech-china-delivery-robots-night-shift",
+      "title": "중국 배송 로봇, 야간 근무에 나선다",
+      "summary": "선전시가 3월부터 야간 자율주행 배송을 허용하면서 유휴 차량을 활용하고 혼잡과 소음을 줄이고 있다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/features/2026-10-08/china-s-delivery-robots-are-learning-to-tackle-the-night-shift?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IlN1YnNjcmliZXJHaWZ0ZWRBcnRpY2xlIiwiaWF0IjoxNzkxNzc0ODM3LCJleHAiOjE3OTIzNzk2MzcsImFydGljbGVJZCI6IlRNTTJLRlZUVENaVjAwIiwiYmNvbm5lY3RJZCI6IkE4QTFEOEVBMjk5NzQ5NEZBNDVBQTZEQkEyMDA1MzcxIn0.qKwaxiQA41bCTyhO89iik9g1DsGnuCz_-BYe0uX0X2o&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "선전의 야간 자율배송 허용이 로봇 물류의 가동률을 끌어올리고 있다.",
+        "what": "중국 선전시는 3월부터 야간 자율주행 배송을 허용했다. 이로써 낮에 쉬던 차량이 밤에도 운행하고, 도로 혼잡과 소음도 줄어든다. 로봇은 인건비를 없애는 효과도 있다.",
+        "points": [
+          "선전, 3월부터 야간 자율배송 허용",
+          "유휴 차량의 생산적 활용",
+          "혼잡·소음 감소 효과",
+          "인건비 제거로 비용 구조 변화"
+        ],
+        "why": [
+          "규제 완화가 자율배송 상용화 속도를 좌우함",
+          "물류 노동 시장에 대한 영향이 커질 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-finds-solutions-22-fields",
+      "title": "22개 과학 분야의 숨은 해법, AI가 찾아냈다",
+      "summary": "AI 도구 BootLoops가 서로 무관해 보이는 연구 분야 간 공통 수학 구조를 찾아내 흑점 분석부터 중세 필사본 해독까지 36편의 프리프린트를 냈다.",
+      "source": "Science Magazine",
+      "url": "https://www.science.org/content/article/problems-22-scientific-fields-had-solutions-hiding-plain-sight-ai-has-found-them?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI가 분야 간 공통 수학 구조를 연결해 과학적 해법을 발굴했다.",
+        "what": "BootLoops라는 AI 도구는 겉보기에 관련 없는 연구 분야들이 공유하는 수학적 구조를 식별한다. 최근 이를 통해 22개 분야에 걸쳐 36편의 프리프린트가 나왔으며, 주제는 흑점 분석부터 중세 필사본 해독까지 다양하다.",
+        "points": [
+          "BootLoops는 분야 간 공통 수학 구조 탐지",
+          "36편의 프리프린트 생산",
+          "흑점 분석·중세 필사본 해독 등 다양한 주제",
+          "기존 해법을 다른 분야 문제에 이식"
+        ],
+        "why": [
+          "AI가 학제 간 지식 전이를 자동화하는 사례",
+          "이미 존재하는 해법의 재발견만으로도 연구 생산성이 커질 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-experiment-or-be-replaced",
+      "title": "AI 실험할 시간 없는 팀, 대체될 준비를 하는 셈",
+      "summary": "고용 시장이 AI 역량을 점점 더 중시하는 만큼, 실험을 피하는 팀은 AI에 능숙한 인력에 대체될 위험이 크다는 주장이다.",
+      "source": "G. Huntley",
+      "url": "https://ghuntley.com/replaced/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 숙련도 투자를 미루는 것은 커리어 리스크다.",
+        "what": "G. Huntley는 팀이 '본업'에 바빠 AI를 실험하지 못하는 상황을 경고한다. 고용 시장이 AI 역량을 점점 더 높이 평가하므로, 실험하지 않는 팀은 AI를 잘 쓰는 인력에게 밀려날 수 있다는 것이다.",
+        "points": [
+          "고용 시장의 AI 역량 가치 상승",
+          "본업 우선 문화가 AI 학습을 가로막음",
+          "실험 회피 팀은 대체 위험에 노출",
+          "관리자의 실험 시간 확보 책임 강조"
+        ],
+        "why": [
+          "엔지니어링 리더가 AI 학습 시간을 의도적으로 배정해야 함을 시사"
+        ]
+      }
+    },
+    {
+      "id": "tech-github-spokes-storage-rewrite",
+      "title": "GitHub, 'Spokes' 대체하는 Git 스토리지 재작성으로 안정성 회복",
+      "summary": "GitHub가 Git 스토리지 아키텍처를 처음부터 다시 만들어 읽기·쓰기를 분리하고 쓰기 성능을 35배 높였다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/devops/2026/10/09/so-long-spokes-github-rewrites-storage-to-restore-reliability-just-in-time-for-agentic-hordes/5302148?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "GitHub가 에이전트 시대 트래픽에 대비해 Git 스토리지를 전면 재구축했다.",
+        "what": "GitHub는 기존 Spokes 기반 Git 스토리지를 처음부터 재설계하고 있다. 읽기와 쓰기를 분리해 쓰기 성능을 35배 개선했으며, 개발자 경험은 그대로 유지된다.",
+        "points": [
+          "Git 스토리지 아키텍처 전면 재작성",
+          "읽기·쓰기 분리 설계",
+          "쓰기 성능 35배 향상",
+          "개발자에게는 투명하게 적용"
+        ],
+        "why": [
+          "코딩 에이전트 확산으로 늘어나는 부하에 대응",
+          "최근 GitHub 안정성 문제에 대한 근본 대책"
+        ]
+      }
+    },
+    {
+      "id": "tech-ai-compute-crunch-rivals-partners",
+      "title": "AI 컴퓨팅 부족이 경쟁자를 파트너로 만든다",
+      "summary": "Anthropic과 SpaceX의 450억 달러 컴퓨팅 계약처럼, 수요가 공급을 앞지르면서 경쟁사끼리도 손을 잡고 있다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/articles/the-ai-computing-crunch-is-making-rivals-into-partners-09431721?st=vsq7AV&reflink=desktopwebshare_permalink&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "희소한 컴퓨트 확보 경쟁이 업계 지형을 제휴 중심으로 재편하고 있다.",
+        "what": "WSJ는 AI 컴퓨팅 자원 부족이 업계 전반에 절박함을 낳고 있다고 분석한다. Anthropic의 SpaceX와의 450억 달러 컴퓨팅 계약이 대표 사례로, 수요가 공급을 앞서며 경쟁사 간 제휴가 늘고 있다.",
+        "points": [
+          "Anthropic-SpaceX 450억 달러 컴퓨팅 계약",
+          "컴퓨트 수요가 공급을 초과",
+          "경쟁사 간 파트너십 증가",
+          "업계 전반의 자원 확보 절박감"
+        ],
+        "why": [
+          "컴퓨트가 AI 경쟁의 핵심 병목임을 재확인",
+          "전통적 경쟁 구도가 자원 중심 동맹으로 바뀌는 중"
+        ]
+      }
+    },
+    {
+      "id": "tech-build-wealth-career-person",
+      "title": "직장인으로서 부를 쌓는 법",
+      "summary": "소득·교육·인맥·연금·지분 같은 혜택을 축적하는 커리어 기반 자산 형성이 소유 중심 전략의 대안이 될 수 있다는 글이다.",
+      "source": "Asher Adeniyi",
+      "url": "https://asheradeniyi.com/2026/04/10/how-to-build-wealth-as-a-career-person/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "창업·소유만이 부의 길은 아니며, 커리어 축적도 유효한 경로다.",
+        "what": "저자는 소득, 훈련, 관계, 연금·지분 같은 혜택을 꾸준히 쌓는 커리어 기반 자산 형성을 제시한다. 이는 사업 소유에 집중하는 전략과 다른 번영 경로다.",
+        "points": [
+          "축적된 소득·훈련·관계가 자산의 기반",
+          "연금·지분 등 복리후생의 가치",
+          "소유 중심 전략의 대안 제시"
+        ],
+        "why": [
+          "창업을 하지 않는 대다수 직장인에게 현실적 프레임 제공"
+        ]
+      }
+    },
+    {
+      "id": "tech-deno-joins-cloudflare",
+      "title": "Deno 팀, Cloudflare 합류",
+      "summary": "Deno 팀이 Cloudflare에 합류해 Workers와 Durable Objects의 셀프호스팅을 크게 단순화하는 작업을 맡는다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Deno 팀이 Cloudflare로 들어가 Workers 셀프호스팅에 집중한다.",
+        "what": "Cloudflare는 Deno 팀이 합류한다고 발표했다. 합류 목적은 Workers와 Durable Objects의 셀프호스팅을 근본적으로 단순화하는 것이다.",
+        "points": [
+          "Deno 팀의 Cloudflare 합류",
+          "Workers·Durable Objects 셀프호스팅 단순화 목표",
+          "JS 런타임 생태계 통합 흐름"
+        ],
+        "why": [
+          "Deno 사용자에게는 런타임 향방의 변화 신호",
+          "Cloudflare의 개발자 플랫폼 강화"
+        ]
+      }
+    },
+    {
+      "id": "tech-unreal-editor-faster-hash",
+      "title": "불필요한 보안 해시를 빼서 Unreal 에디터 속도 높이기",
+      "summary": "민감하지 않은 데이터에는 암호학적으로 안전한 해시가 필요 없으며, 이를 바꾸면 Unreal 에디터 성능이 좋아진다는 분석이다.",
+      "source": "Lars Tofus",
+      "url": "https://larstofus.com/2026/10/11/speeding-up-the-unreal-editor-by-not-using-unnecessarily-secure-hash-methods/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "용도에 맞지 않는 암호학적 해시가 성능을 갉아먹는다.",
+        "what": "저자는 Unreal 에디터가 민감하지 않은 데이터 처리에도 암호학적으로 안전한 해시를 쓰고 있음을 지적한다. 이를 더 가벼운 해시로 바꾸면 성능을 개선할 수 있다.",
+        "points": [
+          "비민감 데이터에 보안 해시는 과잉",
+          "해시 교체로 에디터 성능 향상",
+          "용도별 해시 선택의 중요성"
+        ],
+        "why": [
+          "일상적 도구 성능 병목이 사소한 설계 선택에서 생길 수 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "tech-browser-fingerprinting-new-cookies",
+      "title": "핑거프린트가 새로운 쿠키다",
+      "summary": "브라우저 핑거프린팅이 프라이버시 우려로 떠오르는 가운데 고급 방어를 갖춘 브라우저는 Brave, Tor, Mullvad뿐이다.",
+      "source": "Roy Fish",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "쿠키 없이도 사용자를 추적하는 핑거프린팅에 대한 방어가 부족하다.",
+        "what": "브라우저 핑거프린팅이 쿠키를 대신하는 추적 수단으로 부상하고 있다. 저자에 따르면 핑거프린팅에 대한 고급 보호 기능을 구현한 브라우저는 Brave, Tor, Mullvad뿐이다.",
+        "points": [
+          "핑거프린팅이 쿠키 대체 추적 수단으로 부상",
+          "고급 방어는 Brave·Tor·Mullvad만 제공",
+          "주류 브라우저의 방어 미흡"
+        ],
+        "why": [
+          "쿠키 차단만으로는 프라이버시가 보장되지 않음"
+        ]
+      }
+    },
+    {
+      "id": "tech-below-frontier-good-enough-ai",
+      "title": "프런티어 아래의 전쟁: '충분히 좋은' AI",
+      "summary": "프런티어 AI 랩이 고난도 작업 매출을 대부분 가져가지만, 덜 까다로운 용도를 겨냥한 비프런티어 AI에도 큰 사업 기회가 있다는 분석이다.",
+      "source": "Eastwind Substack",
+      "url": "https://eastwind.substack.com/p/below-the-frontier-the-battle-for?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 시장의 큰 몫은 '충분히 좋은' 모델에서 나올 수 있다.",
+        "what": "프런티어 랩은 가장 까다로운 작업의 매출 대부분을 차지한다. 그러나 요구 수준이 낮은 애플리케이션을 겨냥한 비프런티어 AI 솔루션에도 상당한 비즈니스 기회가 존재한다는 주장이다.",
+        "points": [
+          "고난도 작업 매출은 프런티어 랩이 독식",
+          "저난도 용도에 비프런티어 모델 기회",
+          "가격·효율 경쟁이 핵심"
+        ],
+        "why": [
+          "저렴한 모델 시장의 성장 가능성 시사"
+        ]
+      }
+    },
+    {
+      "id": "tech-we-dont-know-how-to-hire",
+      "title": "우리는 채용하는 법을 모른다, 단지 자신만만할 뿐",
+      "summary": "기술 역량과 함께 성품과 대인 관계 자질이 팀 협업과 업무 성과의 기초 가치라는 글이다.",
+      "source": "Nibzard",
+      "url": "https://www.nibzard.com/hiring?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "채용은 기술력만큼 성품을 봐야 한다.",
+        "what": "저자는 채용 과정의 과신을 비판하며, 기술 역량 외에 성품과 대인 관계 자질이 팀 협업과 효과적인 업무 수행의 기초 가치를 제공한다고 말한다.",
+        "points": [
+          "채용 판단에 대한 과도한 확신 비판",
+          "성품·대인 관계 자질의 중요성",
+          "기술 역량과 병행 평가 필요"
+        ],
+        "why": [
+          "AI로 기술 격차가 줄수록 협업 역량의 비중이 커질 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "tech-global-pc-shipments-drop-20",
+      "title": "글로벌 PC 출하량 20% 급감, 가격 상승이 수요 강타",
+      "summary": "AI발 메모리 부족으로 PC 가격이 오르자 소비자들이 교체를 미루고 기존 기기를 계속 쓰고 있다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/personal-tech/2026/10/09/global-pc-shipments-crater-20-as-rising-prices-hammer-demand/5302264?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 메모리 수요가 PC 시장을 위축시키고 있다.",
+        "what": "글로벌 PC 출하량이 20% 급감했다. AI로 인한 메모리 부족이 PC 가격을 끌어올렸고, 소비자들은 업그레이드 대신 기존 시스템을 유지하고 있다.",
+        "points": [
+          "PC 출하량 20% 감소",
+          "AI발 메모리 부족이 가격 상승 원인",
+          "소비자 교체 수요 위축"
+        ],
+        "why": [
+          "AI 인프라 붐이 소비자 하드웨어 시장에 부작용을 낳음"
+        ]
+      }
+    },
+    {
+      "id": "tech-lets-encrypt-64-day-certs",
+      "title": "Let's Encrypt, 사상 첫 유효기간 단축: 64일 인증서",
+      "summary": "Let's Encrypt가 10월 14일부터 64일짜리 인증서 발급을 시작하며 처음으로 유효기간을 줄인다.",
+      "source": "Scott Helme",
+      "url": "https://scotthelme.co.uk/the-first-reduction-in-their-history-64-day-lets-encrypt-certificates/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "인증서 유효기간 단축으로 자동 갱신이 더 중요해진다.",
+        "what": "Let's Encrypt가 10월 14일부터 64일 유효 인증서를 발급한다. 이는 Let's Encrypt 역사상 첫 유효기간 단축이다.",
+        "points": [
+          "10월 14일부터 64일 인증서 발급",
+          "사상 첫 유효기간 단축",
+          "갱신 주기 단축 필요"
+        ],
+        "why": [
+          "수동 갱신 운영 환경은 자동화 점검 필요"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-treasury-withdraws-mixing-rule",
+      "title": "미 재무부, 크립토 믹싱 규제안 철회",
+      "summary": "FinCEN이 국제 크립토 믹싱을 '주요 자금세탁 우려'로 지정하려던 2023년 제안을 철회하며 정의가 지나치게 넓고 합법적 프라이버시 이용자도 있다는 점을 들었다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-05-fincen-drops-crypto-mixing-rule-self-hosted-wallet-proposal-417690?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "FinCEN, 믹서의 합법적 프라이버시 용도를 인정하며 규제안 철회",
+        "what": "FinCEN은 국제 크립토 믹싱을 '주요 자금세탁 우려'로 지정하려던 2023년 제안을 철회한다. 규칙의 믹싱 정의가 지나치게 광범위하다는 우려와 함께 합법적 프라이버시 이용자도 믹서를 쓸 수 있음을 인정했다.",
+        "points": [
+          "2023년 믹싱 규제 제안 철회",
+          "철회 사유: 과도하게 넓은 정의",
+          "합법적 프라이버시 이용 인정"
+        ],
+        "why": [
+          "미국 규제 기조가 프라이버시 도구에 대해 완화되고 있음을 보여준다",
+          "믹싱 관련 서비스·프로토콜의 법적 리스크가 줄어든다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-henri-stern-stripe-crypto",
+      "title": "Privy 창업자 Henri Stern, Stripe 크립토·스테이블코인 총괄",
+      "summary": "Privy 창업자 Henri Stern이 Stripe에서 크립토와 스테이블코인을 함께 이끄는 역할을 맡았으며 Stripe는 법정화폐와 크립토를 상호운용 계층으로 다룬다.",
+      "source": "X (Henri Stern)",
+      "url": "https://x.com/sternhenri/status/2107113519564922897?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Stripe 크립토 전략의 키를 Privy 창업자가 잡았다",
+        "what": "Privy 창업자 Henri Stern이 Stripe에서 크립토와 스테이블코인을 총괄하는 이중 역할을 맡았다. Stripe 플랫폼은 여러 도구를 통합해 기업에 법정화폐와 크립토를 상호운용 가능한 계층으로 제공한다.",
+        "points": [
+          "Henri Stern이 크립토·스테이블코인 이중 역할",
+          "Stripe의 여러 크립토 도구 통합",
+          "법정화폐와 크립토를 상호운용 계층으로 취급"
+        ],
+        "why": [
+          "결제 대기업의 스테이블코인 사업이 조직 차원에서 본격화되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-polymarket-protocol-v2",
+      "title": "Polymarket Protocol V2, 처음부터 다시 만든 프로토콜",
+      "summary": "Polymarket이 2019년 Gnosis Conditional Tokens Framework를 대체하는 Protocol V2를 내놓고 포지션 컨트랙트, 담보 토큰, 거래소, 라우터를 각각 하나로 통합했다.",
+      "source": "X (0xrajath)",
+      "url": "https://x.com/0xrajath/status/2107122541219205344?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Gnosis CTF를 떠나 자체 스택으로 재구축",
+        "what": "Polymarket은 2019년부터 써온 Gnosis Conditional Tokens Framework를 처음부터 다시 만든 Protocol V2로 교체한다. 새 버전은 인프라를 단일 포지션 컨트랙트, 담보 토큰, 거래소, 라우터로 통합한다.",
+        "points": [
+          "2019년 Gnosis CTF 대체",
+          "그라운드업 재구축",
+          "단일 포지션 컨트랙트·담보 토큰·거래소·라우터로 통합"
+        ],
+        "why": [
+          "최대 예측시장의 인프라 교체로 통합 서비스·개발자에게 영향이 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-zcash-25-second-blocks-testnet",
+      "title": "Zcash 25초 블록, 예정보다 일찍 퍼블릭 테스트넷 가동",
+      "summary": "Zcash가 퍼블릭 테스트넷에서 NU7 업그레이드를 활성화해 목표 블록 시간을 75초에서 25초로 줄이고 초기 차폐 결제 프로토콜 Sprout을 퇴역시켰다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/05/zcash-s-25-second-blocks-go-live-on-public-testnet-ahead-of-schedule?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Zcash 블록 시간 75초→25초, NU7 테스트넷 활성화",
+        "what": "Zcash는 퍼블릭 테스트넷에서 NU7 업그레이드를 예정보다 일찍 활성화했다. 목표 블록 시간을 75초에서 25초로 단축했으며, 최초의 차폐 결제 프로토콜인 Sprout도 퇴역시켰다.",
+        "points": [
+          "NU7 업그레이드 테스트넷 활성화",
+          "목표 블록 시간 75초 → 25초",
+          "Sprout 차폐 프로토콜 퇴역",
+          "예정보다 앞선 일정"
+        ],
+        "why": [
+          "결제 확정 속도 개선으로 프라이버시 코인의 실사용성이 높아진다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-chainalysis-ai-bitget-hack-north-korea",
+      "title": "Chainalysis, AI로 Bitget 해킹을 북한 소행으로 추적",
+      "summary": "Chainalysis가 9월 24일 Bitget 침해를 북한 행위자 소행으로 지목했으며 자체 AI 도구로 브리지 대사 작업을 20시간 이상에서 10분 미만으로 줄였다.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380005/chainalysis-ai-87m-bitget-hack-north-korea?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "AI가 온체인 포렌식 시간을 20시간에서 10분으로 단축",
+        "what": "Chainalysis는 9월 24일 발생한 Bitget 침해를 북한 공격자의 소행으로 결론 내렸다. 맞춤형 AI 도구를 사용해 브리지 거래 대사 작업을 20시간 이상에서 10분 미만으로 줄였다.",
+        "points": [
+          "9월 24일 Bitget 침해 사건",
+          "북한 행위자로 귀속",
+          "AI 도구로 브리지 대사 작업 20시간+ → 10분 미만"
+        ],
+        "why": [
+          "북한의 거래소 공격이 계속되고 있음을 보여준다",
+          "AI가 블록체인 포렌식 속도를 크게 높이고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-near-intents-recovers-funds",
+      "title": "Near Intents, 48시간 최후통첩 끝에 380만 달러 전액 회수",
+      "summary": "Near Intents가 크로스체인 입출금 계층 결함을 노린 익스플로잇으로 도난당한 380만 달러를 48시간 안에 전액 회수했다.",
+      "source": "Decrypt",
+      "url": "https://decrypt.co/380014/near-intents-recovers-3-8-million-after-48-hour-ultimatum?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "크로스체인 계층 해킹 자금, 48시간 만에 전액 반환",
+        "what": "Near Intents는 도난당한 380만 달러 전액을 48시간 안에 회수했다. 이번 익스플로잇은 플랫폼의 크로스체인 입출금 계층의 결함을 노렸다.",
+        "points": [
+          "피해액 380만 달러 전액 회수",
+          "48시간 최후통첩 이후 회수",
+          "크로스체인 입출금 계층 결함이 공격 대상"
+        ],
+        "why": [
+          "크로스체인 브리지·입출금 계층이 여전히 주요 공격 표면이다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ondo-private-markets",
+      "title": "Ondo, AI 기업부터 비상장사 온체인 투자 상품 출시",
+      "summary": "Ondo Private Markets가 선별된 비상장 기업에 연동된 토큰화 노트를 제공하며, 토큰화 주식 시장 규모는 420억 달러를 넘는다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-06-ondo-launches-onchain-private-company-exposure-starting-with-ai-417762?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "비상장 AI 기업 투자 기회를 토큰으로",
+        "what": "Ondo는 선별된 비상장 기업과 연동된 토큰화 노트를 제공하는 Ondo Private Markets를 출시했으며 첫 대상은 AI 기업이다. 토큰화 주식 시장의 총 시가총액은 420억 달러를 넘었다.",
+        "points": [
+          "Ondo Private Markets 출시",
+          "비상장 기업 연동 토큰화 노트",
+          "첫 대상은 AI 기업",
+          "토큰화 주식 시장 420억 달러 초과"
+        ],
+        "why": [
+          "RWA 토큰화가 공개시장을 넘어 사모 시장으로 확장되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-zachxbt-infiltrated-launderers",
+      "title": "ZachXBT, 34만9,700달러 대고 자금세탁 조직 잠입",
+      "summary": "ZachXBT가 고객으로 위장해 349,700 USDC를 넣고 자금세탁 조직에 잠입해 1,200만 달러 이상의 도난 자금을 추적하고 북한 관련 7,500만 달러 동결에 기여했다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/defi/2026-10-06-zachxbt-infiltrated-chinese-launderers-lazarus-hack-417767?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "사비를 건 잠입 수사로 북한 연계 자금 7,500만 달러 동결",
+        "what": "온체인 탐정 ZachXBT는 고객으로 위장해 한 주소에 349,700 USDC를 입금하며 자금세탁 조직에 잠입했다고 밝혔다. 이 조사로 1,200만 달러 이상의 도난 자금을 추적했고 북한 관련 사건과 연계된 7,500만 달러가 동결됐다.",
+        "points": [
+          "고객 위장 후 349,700 USDC 입금",
+          "1,200만 달러 이상 도난 자금 추적",
+          "북한 관련 7,500만 달러 동결"
+        ],
+        "why": [
+          "북한 해킹 자금의 세탁 경로가 장외 브로커에 의존함을 드러낸다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-true-cashback-calculator",
+      "title": "크립토 카드 실질 캐시백 계산기",
+      "summary": "'5%' 같은 크립토 카드 헤드라인 캐시백률은 한도, 환전 비용, 카드·구독 수수료를 무시한다며 이를 반영한 계산기가 소개됐다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2107420705184751819.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "광고 캐시백률이 아닌 실질 수익률을 따져야",
+        "what": "크립토 카드가 내세우는 '5%' 같은 캐시백률은 캐시백 한도, 환전(FX) 비용, 카드 및 구독 수수료를 반영하지 않는다. 소개된 True Cashback Calculator는 이 요소들을 포함해 실질 캐시백을 계산한다.",
+        "points": [
+          "헤드라인 캐시백률의 한계 지적",
+          "한도·FX 비용·카드/구독 수수료 반영",
+          "실질 캐시백 계산 도구"
+        ],
+        "why": [
+          "크립토 카드 비교 시 숨은 비용을 고려하게 해준다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-okx-ice-tokenized-nyse-stocks",
+      "title": "OKX·ICE, NYSE 상장주 63종 온체인화 SEC 신청",
+      "summary": "OKX와 NYSE 모회사 ICE가 합작사 OKXICE를 통해 NYSE 상장사 63곳의 토큰화 주식을 제공하겠다며 SEC에 신청했다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2106949501290422660.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "NYSE 운영사가 직접 주식 토큰화에 나섰다",
+        "what": "OKX와 NYSE 소유주 ICE는 합작법인 OKXICE를 통해 NYSE 상장 기업 63곳의 토큰화 주식을 제공하기 위해 SEC에 신청서를 제출했다.",
+        "points": [
+          "합작법인 OKXICE를 통한 신청",
+          "NYSE 상장사 63곳 대상",
+          "SEC 승인 필요"
+        ],
+        "why": [
+          "전통 거래소 운영사의 참여로 토큰화 주식의 제도권 편입이 가속될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-ethereum-first-atomic-l1-l2",
+      "title": "이더리움, L1–L2 간 첫 원자적 트랜잭션 완료",
+      "summary": "이더리움 메인넷에서 L1과 L2 사이의 첫 원자적 트랜잭션이 완료돼 두 계층이 단일 트랜잭션 안에서 조율할 수 있게 됐다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2107383895142670633.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "L1과 L2가 하나의 트랜잭션으로 묶였다",
+        "what": "이더리움 메인넷이 L1과 L2 사이의 첫 원자적 트랜잭션을 완료했다. 이제 두 계층이 하나의 트랜잭션 안에서 함께 조율될 수 있다.",
+        "points": [
+          "메인넷 최초 L1–L2 원자적 트랜잭션",
+          "단일 트랜잭션 내 계층 간 조율",
+          "롤업 생태계 상호운용성 진전"
+        ],
+        "why": [
+          "L2 파편화 문제를 줄이고 조합성(composability)을 회복하는 방향이다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-cftc-anprm-public-comment",
+      "title": "CFTC, 크립토 자산 규칙 제정 관련 공개 의견 수렴",
+      "summary": "CFTC가 크립토 자산 거래와 시장 규제에 대한 사전 규칙제정 공고(ANPRM)를 내고 공개 의견을 받는다.",
+      "source": "Thread Reader App",
+      "url": "https://threadreaderapp.com/thread/2107135333201432465.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "CFTC가 크립토 시장 규칙 마련에 시동",
+        "what": "CFTC는 크립토 자산 거래와 시장 규제에 관한 사전 규칙제정 공고(ANPRM)를 발표하고 공개 의견을 요청했다.",
+        "points": [
+          "사전 규칙제정 공고(ANPRM) 발표",
+          "대상: 크립토 자산 거래 및 시장 규제",
+          "공개 의견 수렴 단계"
+        ],
+        "why": [
+          "업계가 규칙 형성에 의견을 낼 수 있는 초기 창구다",
+          "CFTC의 크립토 관할 확대 신호로 읽힌다"
+        ]
+      }
+    }
+  ]
+}

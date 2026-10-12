@@ -1,0 +1,203 @@
+{
+  "name": "마케팅",
+  "source": "TLDR Marketing",
+  "icon": "📣",
+  "color": "#7ee0a4",
+  "bg": "#163021",
+  "items": [
+    {
+      "id": "marketing-big-brands-ai-crawler-study",
+      "title": "미국 대형 브랜드 56곳 조사: 언론사는 AI를 막고, 나머지는 문을 열어뒀다",
+      "summary": "미국 주요 브랜드의 68%가 AI 전용 크롤링 규칙이 없으며, 언론사는 AI 접근을 더 자주 제한하는 것으로 나타났다.",
+      "source": "Clicks Dynasty",
+      "url": "https://www.clicksdynasty.com/big-brand-ai-crawler-study.html?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "대부분의 브랜드는 AI 크롤러 정책 자체가 없다.",
+        "what": "Clicks Dynasty가 미국 대형 브랜드 56곳의 robots.txt를 조사했다. 68%는 AI 전용 크롤링 규칙이 없었고, 언론사는 AI 접근을 더 자주 차단했다. robots.txt가 있어도 OpenAI·Anthropic 크롤러 차단은 일관성이 없었다.",
+        "points": [
+          "대형 브랜드 68%가 AI 전용 크롤링 규칙 없음",
+          "언론사는 AI 접근을 더 자주 제한",
+          "OpenAI·Anthropic 크롤러 차단이 비일관적"
+        ],
+        "why": [
+          "AI 검색 노출과 콘텐츠 보호 사이에서 브랜드의 명확한 전략이 부족함을 보여준다",
+          "AI 검색 가시성을 원한다면 크롤러 정책 점검이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-deloitte-halloween-survey-2026",
+      "title": "2026 딜로이트 할로윈 설문",
+      "summary": "가구의 92%가 할로윈을 기념할 계획이며 평균 지출은 285달러, 쇼핑객의 32%는 상품 선택에 생성형 AI를 쓸 예정이다.",
+      "source": "Deloitte",
+      "url": "https://www.deloitte.com/content/dam/insights/articles/2026/amer189384_cic-halloween-spending/pdf/DI_Halloween-spending-final.pdf?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "할로윈 쇼핑에서도 생성형 AI가 구매 가이드로 자리 잡는다.",
+        "what": "딜로이트의 2026 할로윈 설문에 따르면 가구의 92%가 할로윈을 기념할 계획이며 평균 지출액은 285달러다. 일찍 쇼핑하는 사람은 1.7배 더 지출한다. 쇼핑객의 32%는 상품 선택에 생성형 AI를 활용할 것으로 예상했다.",
+        "points": [
+          "92% 가구가 할로윈 기념 계획",
+          "평균 지출 285달러",
+          "얼리 쇼퍼는 1.7배 더 지출",
+          "32%가 상품 선택에 생성형 AI 활용 예상"
+        ],
+        "why": [
+          "시즌 캠페인은 조기 쇼퍼를 겨냥해야 효과가 크다",
+          "AI 어시스턴트 내 상품 노출이 새로운 경쟁 지점이 된다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-churn-happens-early",
+      "title": "이탈은 초기에 일어난다",
+      "summary": "SaaS 이탈은 가입과 초기 사용 단계에 집중되므로 초기 마찰을 줄이는 것이 이후 퍼널 개선보다 훨씬 큰 가치를 만든다.",
+      "source": "Value Paths",
+      "url": "https://www.valuepaths.com/activation/churn-happens-early/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "온보딩 마찰 제거가 가장 레버리지 큰 리텐션 전략이다.",
+        "what": "SaaS의 이탈은 가입과 초기 사용 단계에 몰려 있다. 코호트 리텐션을 추적하면 영향력이 큰 개입 지점을 찾을 수 있다. 초기 마찰을 줄이는 것이 이후 퍼널 문제 해결보다 훨씬 큰 하류 가치를 만든다.",
+        "points": [
+          "이탈은 가입·초기 사용 단계에 집중",
+          "코호트 리텐션 추적으로 개입 지점 파악",
+          "초기 마찰 감소가 후반 개선보다 효과적"
+        ],
+        "why": [
+          "리텐션 예산과 실험 우선순위를 온보딩에 두어야 함을 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-orders-up-9-without-discount",
+      "title": "할인 코드 없이 주문을 9% 늘린 방법",
+      "summary": "한 선물 소매업체가 결제 요약에 선물 포장·만족 보장 같은 무료 서비스를 강조해 가격보다 혜택에 주목하게 만들어 주문을 늘렸다.",
+      "source": "Conversion Rate Experts",
+      "url": "https://conversion-rate-experts.com/two-free-services-win-report/?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "할인 대신 이미 제공하는 혜택을 보이게 하라.",
+        "what": "한 선물 소매업체가 할인 코드 없이 주문을 9% 늘렸다. 결제 요약 화면에 선물 포장과 만족 보장 등 번들 무료 서비스를 강조해 가치 인식을 재구성했다. 고객의 관심이 가격에서 받는 혜택으로 옮겨갔다.",
+        "points": [
+          "할인 없이 주문 9% 증가",
+          "결제 요약에 무료 서비스(선물 포장·만족 보장) 강조",
+          "가격에서 혜택으로 관심 전환"
+        ],
+        "why": [
+          "마진을 희생하지 않는 전환율 개선 방법이다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-substack-sponsorships",
+      "title": "서브스택, 스폰서십 새 형식 도입",
+      "summary": "서브스택이 브랜드가 무료 구독·페이월 해제·큐레이션 컬렉션을 후원하는 확장된 스폰서십 형식을 출시하고 칸타와 브랜드 효과를 측정한다.",
+      "source": "Substack",
+      "url": "https://on.substack.com/p/a-new-vision-for-sponsorships",
+      "report": {
+        "tldr": "뉴스레터 플랫폼이 브랜드 광고 상품을 본격화한다.",
+        "what": "서브스택이 확장된 스폰서십 형식을 선보였다. 브랜드는 무료 구독, 페이월 해제, 큐레이션 컬렉션에 자금을 댈 수 있다. 칸타(Kantar)와 협력해 일반 참여 지표를 넘어 브랜드 영향까지 측정한다.",
+        "points": [
+          "브랜드 후원 무료 구독·페이월 해제",
+          "큐레이션 컬렉션 스폰서십",
+          "칸타 협업으로 브랜드 영향 측정"
+        ],
+        "why": [
+          "크리에이터 이코노미에서 브랜드 마케터의 새 채널이 열린다",
+          "독자 경험을 해치지 않는 후원형 광고 모델을 시험한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-claude-citations-query-format",
+      "title": "Claude는 질문과 닮은 페이지를 인용한다",
+      "summary": "Claude의 인용은 질문 형식을 그대로 따라 'Best-X' 질문은 90% 리스티클을, 비교 질문은 전용 비교 페이지를 인용했다.",
+      "source": "Cue Scout",
+      "url": "https://cuescout.com/blog/claude-citations?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "AI 검색 노출은 질문 형식에 맞춘 페이지 유형이 좌우한다.",
+        "what": "Cue Scout 분석에 따르면 Claude의 인용 패턴은 질문 형식을 밀접하게 따른다. 'Best-X' 질문은 90%가 리스티클을 인용했고, 비교 질문은 전용 비교 페이지를 선호했다. 가시성을 유지하려면 경쟁사 비교 콘텐츠를 다뤄야 한다.",
+        "points": [
+          "'Best-X' 질문의 90%가 리스티클 인용",
+          "비교 질문은 전용 비교 페이지 선호",
+          "경쟁사 비교 콘텐츠가 가시성에 중요"
+        ],
+        "why": [
+          "AI 검색 최적화(GEO) 콘텐츠 전략에 구체적인 기준을 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-talk-to-customers-launch",
+      "title": "다음에 뭘 출시할지 모르겠다면 고객과 대화하라",
+      "summary": "제품 혁신은 트렌드 추종이 아니라 고객의 우회 방법과 미충족 니즈 관찰에서 나온다.",
+      "source": "Substack",
+      "url": "https://fatemaraja.substack.com/p/most-brands-are-built-on-trends-the?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "트렌드보다 고객의 '우회 방법'이 더 좋은 제품 신호다.",
+        "what": "글은 제품 혁신이 트렌드를 좇기보다 고객이 문제를 우회하는 방식과 충족되지 않은 니즈를 관찰하는 데서 나온다고 주장한다. 고객과의 직접 대화로 기능적 문제를 먼저 파악한 뒤 디자인을 다듬어야 한다.",
+        "points": [
+          "트렌드보다 고객 관찰이 혁신의 원천",
+          "고객의 우회 방법과 미충족 니즈에 주목",
+          "기능 문제 해결 후 디자인 개선"
+        ],
+        "why": [
+          "출시 실패 위험을 줄이는 실용적인 제품 기획 원칙이다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-brand-audit-before-rebrand",
+      "title": "리브랜딩 전에: 브랜드 감사로 진짜 바꿔야 할 것 찾기",
+      "summary": "리브랜딩 전 감사는 내부 전략과 고객 인식을 비교해 메시지 문제인지 아이덴티티 문제인지를 구분해준다.",
+      "source": "Dribbble",
+      "url": "https://dribbble.com/stories/2026/10/09/cl-quincy-samycia-the-branded-agency-brand-audit?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "리브랜딩이 필요한지, 메시지 정리가 필요한지부터 진단하라.",
+        "what": "리브랜딩 전 브랜드 감사는 메시지 격차와 아이덴티티 문제를 구분해준다. 내부 전략과 고객 인식을 비교하면 커뮤니케이션 명확화로 충분한지, 시각·구조적 재설계가 필요한지 판단할 수 있다.",
+        "points": [
+          "메시지 격차와 아이덴티티 문제 구분",
+          "내부 전략 vs 고객 인식 비교",
+          "필요한 수정 범위 판단"
+        ],
+        "why": [
+          "불필요한 리브랜딩 비용과 브랜드 자산 손실을 막을 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-human-or-ai-job",
+      "title": "사람의 일인가, AI의 일인가?",
+      "summary": "켈로그의 HUMAN 프레임워크는 특정 업무를 AI 자동화와 사람 중 누구에게 맡길지 판단하는 기준을 제시한다.",
+      "source": "Kellogg Insight",
+      "url": "https://insight.kellogg.northwestern.edu/article/is-this-a-job-for-a-human-or-ai?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "업무 단위로 AI와 사람의 역할을 나누는 의사결정 프레임워크.",
+        "what": "노스웨스턴대 켈로그 경영대학원이 HUMAN 프레임워크를 소개했다. 이 프레임워크는 개별 업무를 AI 자동화에 맡길지 사람이 수행할지 결정하는 기준을 제공한다.",
+        "points": [
+          "HUMAN 프레임워크 제시",
+          "업무 단위의 AI·사람 배분 기준",
+          "자동화 의사결정 지원"
+        ],
+        "why": [
+          "마케팅 조직의 AI 도입 범위를 정할 때 참고할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "marketing-youtube-b2b-leads",
+      "title": "B2B에서 유튜브로 리드 얻는 법",
+      "summary": "구매자 중심 콘텐츠, 타깃 리드 마그넷, 이메일 너처링 등 유튜브 B2B 리드 생성 전술 12가지를 정리했다.",
+      "source": "Pierre Herubel (Substack)",
+      "url": "https://pierreherubel.substack.com/p/how-to-get-leads-from-youtube-in?utm_source=tldrmarketing",
+      "report": {
+        "tldr": "유튜브도 B2B 리드 채널이 될 수 있다.",
+        "what": "글은 유튜브를 통한 B2B 리드 생성 전술 12가지를 소개한다. 구매자에 초점을 맞춘 콘텐츠 제작, 타깃 리드 마그넷, 이메일 너처링 시퀀스 등이 포함된다.",
+        "points": [
+          "유튜브 B2B 리드 생성 전술 12가지",
+          "구매자 중심 콘텐츠 제작",
+          "타깃 리드 마그넷과 이메일 너처링"
+        ],
+        "why": [
+          "영상 채널을 브랜딩을 넘어 파이프라인 창출로 연결하는 방법을 제시한다"
+        ]
+      }
+    }
+  ]
+}

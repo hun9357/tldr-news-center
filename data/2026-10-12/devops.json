@@ -1,0 +1,260 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-flux9s-ga",
+      "title": "flux9s 1.0 GA: 터미널에서 보는 Flux 클러스터 상태",
+      "summary": "K9s에서 영감을 받은 Rust 기반 Flux 터미널 UI flux9s가 1.0에 도달했다. 의존성 그래프와 조정(reconciliation) 이력, 클러스터 헬스 대시보드를 제공한다.",
+      "source": "Flux CD",
+      "url": "https://fluxcd.io/blog/2026/10/flux9s-ga/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "GitOps 운영자를 위한 읽기 전용 기본값의 Flux 전용 TUI가 정식 출시됐다.",
+        "what": "Flux용 터미널 UI flux9s가 1.0 GA를 맞았다. Rust로 작성됐으며 K9s의 사용 경험을 Flux 리소스에 옮겨왔다.",
+        "points": [
+          "의존성 그래프와 reconciliation 이력 시각화",
+          "클러스터 헬스 펄스 대시보드 추가",
+          "Flagger·tofu-controller 탐색은 옵트인",
+          "기본 동작은 읽기 전용"
+        ],
+        "why": [
+          "Flux 상태 확인을 kubectl 조합 대신 단일 TUI로 처리할 수 있다",
+          "읽기 전용 기본값으로 운영 환경에서도 부담 없이 쓸 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-digitalocean-microvms",
+      "title": "DigitalOcean, AI 에이전트용 MicroVM 퍼블릭 프리뷰",
+      "summary": "DigitalOcean이 유휴 시 일시정지하고 밀리초 단위로 재개되는 격리형 MicroVM을 퍼블릭 프리뷰로 공개했다. 초 단위 과금이며 정지 중에는 스토리지 비용만 든다.",
+      "source": "DigitalOcean",
+      "url": "https://www.digitalocean.com/blog/microvms-public-preview?utm_source=tldrdevops",
+      "report": {
+        "tldr": "에이전트 샌드박스 수요를 겨냥한 저가 격리 컴퓨트가 등장했다.",
+        "what": "DigitalOcean이 MicroVM을 퍼블릭 프리뷰로 출시했다. 유휴 시 자동 일시정지 후 밀리초 내 재개되는 격리 VM으로 AI 에이전트 인프라를 겨냥한다.",
+        "points": [
+          "vCPU-시간당 $0.022, GiB-시간당 $0.0085",
+          "초 단위 과금",
+          "일시정지 상태에선 스토리지 요금만 부과",
+          "VM 수준 격리 제공"
+        ],
+        "why": [
+          "에이전트가 코드를 실행할 격리 환경의 비용·지연 부담을 낮춘다",
+          "클라우드 업체 간 에이전트 샌드박스 경쟁이 본격화되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-new-relic-ai-evaluation",
+      "title": "New Relic, LLM-as-judge 기반 'AI Evaluation' 출시",
+      "summary": "New Relic이 AI Observability 플랫폼에 LLM 심판 방식으로 실시간 프롬프트·응답의 안전성과 정확도를 채점하는 AI Evaluation을 추가했다.",
+      "source": "New Relic",
+      "url": "https://newrelic.com/blog/news/introducing-ai-evaluation?utm_source=tldrdevops",
+      "report": {
+        "tldr": "AI 품질 평가가 분산 트레이스 안으로 들어왔다.",
+        "what": "New Relic이 AI Evaluation 기능을 공개했다. LLM을 심판으로 써서 운영 중인 프롬프트와 응답을 채점하고 결과를 트레이스에 붙인다.",
+        "points": [
+          "프롬프트 인젝션·데이터 유출·환각 탐지",
+          "0~1 점수를 분산 트레이스에 첨부",
+          "실시간 트래픽 대상 평가",
+          "기존 AI Observability 플랫폼에 통합"
+        ],
+        "why": [
+          "관측성 도구가 성능뿐 아니라 AI 출력 품질까지 다루기 시작했다",
+          "운영 중 LLM 리스크를 별도 툴 없이 추적할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-agentevals",
+      "title": "에이전트 평가(agentevals): AI 에이전트 품질·성능·안전 벤치마크",
+      "summary": "Solo.io가 AI 에이전트가 작업을 올바르고 안전하게 수행하는지 검증하는 agentevals 개념을 소개했다. 에이전트 트레이스를 성능·출력 품질·안전 기준으로 채점한다.",
+      "source": "Solo.io",
+      "url": "https://www.solo.io/blog/agentic-quality-benchmarking-with-agent-evals?utm_source=tldrdevops",
+      "report": {
+        "tldr": "에이전트는 최종 답이 아니라 실행 트레이스 전체로 평가해야 한다.",
+        "what": "Solo.io 블로그가 agentevals라는 에이전트 평가 방식을 다뤘다. TLDR 요약은 이를 Anthropic이 도입한 개념으로 소개하며, 도구는 에이전트 트레이스를 기준별로 채점한다.",
+        "points": [
+          "에이전트 트레이스 단위 채점",
+          "성능·출력 품질·안전성 기준",
+          "작업 수행의 정확성과 안전성 검증",
+          "벤치마크 형태로 품질 비교"
+        ],
+        "why": [
+          "에이전트를 운영 환경에 넣기 전 회귀 검증 체계가 필요하다",
+          "단일 응답 평가로는 다단계 에이전트의 실패를 잡기 어렵다"
+        ]
+      }
+    },
+    {
+      "id": "devops-zero-downtime-postgres-migrations",
+      "title": "무중단 PostgreSQL 마이그레이션 프로덕션 플레이북",
+      "summary": "확장·백필·트래픽 전환·정리를 분리해 구·신 애플리케이션 버전이 배포 중에도 호환되도록 하는 PostgreSQL 스키마 변경 방법을 정리했다.",
+      "source": "Boundlayer",
+      "url": "https://boundlayer.io/blog/zero-downtime-postgresql-migrations?utm_source=tldrdevops",
+      "report": {
+        "tldr": "스키마 변경은 단계를 쪼개고 락을 짧게 가져가는 것이 핵심이다.",
+        "what": "Boundlayer가 무중단 PostgreSQL 스키마 변경 플레이북을 공개했다. expand-backfill-switch-cleanup 단계를 분리해 배포 중 버전 호환성을 유지한다.",
+        "points": [
+          "짧은 lock timeout 설정",
+          "인덱스는 CONCURRENTLY로 생성",
+          "제약조건은 별도로 VALIDATE",
+          "백필은 스로틀링해 부하 제한"
+        ],
+        "why": [
+          "대형 테이블 마이그레이션 장애를 예방하는 실무 체크리스트다",
+          "롤링 배포와 스키마 변경을 안전하게 병행할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-planetscale-leaky-buckets",
+      "title": "청동기 시대 물시계와 현대 소프트웨어: 리키 버킷 해설",
+      "summary": "PlanetScale이 백그라운드 타이머 없이 경과 시간으로 가용 용량을 계산하는 리키 버킷 방식을 설명하고, 이를 Postgres 쿼리 예산에 적용한 사례를 소개했다.",
+      "source": "PlanetScale",
+      "url": "https://planetscale.com/blog/leaky-buckets-in-software-explained?utm_source=tldrdevops",
+      "report": {
+        "tldr": "경과 시간 계산만으로 싸고 정확한 admission control이 가능하다.",
+        "what": "PlanetScale이 리키 버킷 알고리즘의 원리를 고대 물시계에 빗대 설명했다. 자사는 유사한 토큰 버킷 예산을 Postgres 쿼리에 적용한다.",
+        "points": [
+          "백그라운드 타이머 없이 경과 시간으로 용량 산출",
+          "실행 전 쿼리 리소스 비용 추정",
+          "실행 후 실제 비용으로 정산",
+          "토큰 버킷 기반 쿼리 예산"
+        ],
+        "why": [
+          "DB 과부하를 사전에 차단하는 저비용 레이트 리미팅 패턴이다",
+          "멀티테넌트 DB 운영의 공정성 확보에 응용할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-airllm",
+      "title": "AirLLM: 4GB GPU 한 장으로 70B 모델 구동",
+      "summary": "AirLLM은 양자화 없이 70B LLM을 4GB GPU 하나에서 실행하게 해주는 오픈소스 도구다. GPU에 한 번에 한 레이어만 올리는 방식을 쓴다.",
+      "source": "GitHub",
+      "url": "https://github.com/lyogavin/airllm?utm_source=tldrdevops",
+      "report": {
+        "tldr": "레이어 단위 로딩으로 초대형 모델을 저사양 GPU에서 돌린다.",
+        "what": "AirLLM은 GPU 메모리에 레이어 하나씩만 올려 추론하는 방식으로 대형 모델의 VRAM 요구량을 크게 줄인다. 양자화 없이 동작한다.",
+        "points": [
+          "70B 모델을 4GB GPU에서 실행",
+          "Kimi K3(2.8T)를 4GB 미만 VRAM에서 구동",
+          "DeepSeek-V3(671B)는 약 12GB",
+          "한 번에 한 레이어만 GPU에 적재"
+        ],
+        "why": [
+          "저사양 하드웨어로 대형 모델 실험이 가능해진다",
+          "속도보다 접근성을 우선하는 로컬 추론 선택지다"
+        ]
+      }
+    },
+    {
+      "id": "devops-context-mode",
+      "title": "Context Mode: AI 코딩 에이전트 컨텍스트 사용량 98% 절감 MCP 서버",
+      "summary": "Context Mode는 도구 출력을 샌드박스에 저장해 원시 데이터가 대화에 들어가지 않게 하는 MCP 서버로, 315KB 출력을 5.4KB로 줄인다.",
+      "source": "GitHub",
+      "url": "https://github.com/mksglu/context-mode?utm_source=tldrdevops",
+      "report": {
+        "tldr": "도구 출력을 컨텍스트 밖에 두는 것만으로 토큰을 대폭 아낀다.",
+        "what": "Context Mode는 AI 코딩 에이전트용 MCP 서버다. 도구 실행 결과를 샌드박스에 보관하고 필요한 부분만 대화에 전달한다.",
+        "points": [
+          "컨텍스트 윈도 사용량 98% 감소",
+          "315KB 출력을 5.4KB로 축소",
+          "원시 데이터는 샌드박스에 저장",
+          "MCP 서버 형태로 제공"
+        ],
+        "why": [
+          "긴 세션에서 컨텍스트 한도와 비용 문제를 완화한다",
+          "에이전트 도구 설계에서 출력 관리가 핵심 과제가 되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-atlassian-openai-partnership",
+      "title": "Atlassian·OpenAI 파트너십 확대",
+      "summary": "Atlassian이 GPT-6 Astra와 GPT-5.6 시리즈를 자사 플랫폼과 Rovo, Teamwork Graph에 도입한다. Atlassian 개발자 3,000명 이상이 이미 Codex를 쓰고 있다.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/atlassian-partnership/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Jira·Confluence 업무를 AI 에이전트에 직접 할당하는 시대가 다가온다.",
+        "what": "Atlassian과 OpenAI가 파트너십을 확대했다. OpenAI 최신 모델이 Atlassian 플랫폼과 Rovo에 들어가며, 향후 팀이 AI 에이전트에 직접 작업을 배정할 수 있게 된다.",
+        "points": [
+          "GPT-6 Astra·GPT-5.6 시리즈 도입",
+          "Rovo와 Teamwork Graph에 통합",
+          "Atlassian 개발자 3,000명 이상 Codex 사용",
+          "에이전트에 작업 직접 할당 기능 예정"
+        ],
+        "why": [
+          "협업 도구에 에이전트 워크플로가 기본 탑재되는 흐름이다",
+          "엔터프라이즈 AI 공급 경쟁에서 OpenAI의 입지를 강화한다"
+        ]
+      }
+    },
+    {
+      "id": "devops-cloudflare-workers-profiling",
+      "title": "Cloudflare, Workers·Durable Objects 온디맨드 CPU·메모리 프로파일링",
+      "summary": "Cloudflare가 Workers와 Durable Objects에 프로덕션 온디맨드 CPU·메모리 프로파일링과 인터랙티브 플레임그래프를 추가했다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/workers-on-demand-profiling/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "서버리스에서도 프로덕션 프로파일링이 가능해졌다.",
+        "what": "Cloudflare가 Workers와 Durable Objects용 온디맨드 프로파일링을 출시했다. 플레임그래프와 다운로드 가능한 프로파일을 제공하며, 내부 적용으로 비효율 코드를 찾아냈다.",
+        "points": [
+          "프로덕션 온디맨드 CPU·메모리 프로파일링",
+          "인터랙티브 플레임그래프",
+          "프로파일 다운로드 지원",
+          "내부에서 중복 JSON 처리·불필요한 메트릭 코드 발견"
+        ],
+        "why": [
+          "서버리스 성능 문제의 원인 추적이 쉬워진다",
+          "실제 사례로 프로파일링의 비용 절감 효과를 보여줬다"
+        ]
+      }
+    },
+    {
+      "id": "devops-codex-cloud-tailscale",
+      "title": "Codex Cloud, Tailscale 지원 탑재",
+      "summary": "Codex Cloud의 Tailscale 통합으로 클라우드 코딩 환경이 태그된 임시 디바이스를 통해 사설 API와 테스트 서비스에 접근할 수 있다.",
+      "source": "Tailscale",
+      "url": "https://tailscale.com/blog/codex-cloud-tailscale?utm_source=tldrdevops",
+      "report": {
+        "tldr": "클라우드 에이전트가 사설망 리소스에 안전하게 붙을 수 있게 됐다.",
+        "what": "Tailscale은 Codex Cloud가 자사 통합을 지원한 채 출시됐다고 밝혔다. 클라우드 코딩 환경을 tailnet 접근 규칙 아래 사설 서비스에 연결한다.",
+        "points": [
+          "태그된 임시(ephemeral) 디바이스 사용",
+          "tailnet ACL로 접근 통제",
+          "사설 API·테스트 서비스 연결",
+          "Codex Cloud 환경에 내장"
+        ],
+        "why": [
+          "클라우드 에이전트의 사내 리소스 접근 보안 문제를 해결한다",
+          "에이전트 네트워킹이 새로운 인프라 영역으로 부상하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "devops-deno-joins-cloudflare",
+      "title": "Deno 팀, Cloudflare 합류",
+      "summary": "Deno 팀이 Cloudflare에 합류해 Workers와 Durable Objects의 셀프호스팅을 단순화하는 작업을 맡는다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/deno-joins-cloudflare/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "JS 런타임 Deno 팀이 Cloudflare로 흡수됐다.",
+        "what": "Cloudflare가 Deno 팀의 합류를 발표했다. 합류 팀은 Workers와 Durable Objects를 셀프호스팅하기 쉽게 만드는 데 집중한다.",
+        "points": [
+          "Deno 팀 Cloudflare 합류",
+          "Workers·Durable Objects 셀프호스팅 단순화 목표",
+          "JS 런타임 생태계 재편"
+        ],
+        "why": [
+          "Cloudflare 플랫폼 종속 우려를 셀프호스팅으로 완화하려는 행보다",
+          "독립 JS 런타임 업체의 지속 가능성에 대한 신호이기도 하다"
+        ]
+      }
+    }
+  ]
+}

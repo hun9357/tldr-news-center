@@ -1,0 +1,317 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-build-your-own-decision-model",
+      "title": "나만의 의사결정 모델 만들기",
+      "summary": "파인튜닝으로 CommonsenseQA 1,221문항 샘플에서 정확도를 59.4%에서 62.4%로 높인 과정을 다룬다.",
+      "source": "Nishtahir",
+      "url": "https://nishtahir.com/build-your-own-decision-model/?utm_source=tldrdev",
+      "report": {
+        "tldr": "작은 파인튜닝으로도 의사결정 정확도를 끌어올릴 수 있다.",
+        "what": "저자는 직접 의사결정 모델을 만드는 과정을 소개한다. 파인튜닝을 통해 CommonsenseQA 1,221문항 샘플에서 정확도가 59.4%에서 62.4%로 향상됐다.",
+        "points": [
+          "CommonsenseQA 1,221문항 샘플로 평가",
+          "정확도 59.4% → 62.4%",
+          "파인튜닝 기반 접근"
+        ],
+        "why": [
+          "의사결정 특화 모델 열풍 속 DIY 대안 제시"
+        ]
+      }
+    },
+    {
+      "id": "dev-cockroach-bugs-as-patients",
+      "title": "버그는 환자, 코딩 에이전트는 의료진: 5개월 실험",
+      "summary": "병원 모델을 본뜬 구조화된 코딩 에이전트 프레임워크로 100만 줄 이상을 배포하며 리버트는 7건에 그쳤다.",
+      "source": "Cockroach Labs",
+      "url": "https://www.cockroachlabs.com/blog/experiment-running-hospital-code/?utm_source=tldrdev",
+      "report": {
+        "tldr": "병원식 역할 분담 구조가 코딩 에이전트의 신뢰성을 높였다.",
+        "what": "Cockroach Labs는 버그를 환자처럼, 코딩 에이전트를 의료진처럼 다루는 구조화 프레임워크를 5개월간 운영했다. 그 결과 100만 줄 이상의 코드를 배포했고 리버트는 7건뿐이었다.",
+        "points": [
+          "병원 모델 기반 에이전트 역할 구조",
+          "5개월간 운영",
+          "100만 줄 이상 배포",
+          "리버트 7건"
+        ],
+        "why": [
+          "대규모 에이전트 코딩의 실전 운영 사례",
+          "구조화된 프로세스가 품질을 담보함을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "dev-debug-when-you-dont-understand-code",
+      "title": "더 이상 코드를 이해하지 못할 때 효과적으로 디버깅하는 법",
+      "summary": "런타임 증거를 활용하고 사실과 가설을 분리하는 방식으로 낯선 시스템을 디버깅하는 프레임워크다.",
+      "source": "Copy Construct (Medium)",
+      "url": "https://copyconstruct.medium.com/how-to-effectively-debug-when-you-no-longer-understand-the-code-bd3dcb2c5f7b?utm_source=tldrdev",
+      "report": {
+        "tldr": "이해하지 못한 코드는 런타임 증거로 디버깅하라.",
+        "what": "저자는 코드를 더 이상 이해하지 못하는 상황에서의 디버깅 프레임워크를 제시한다. 핵심은 런타임 증거를 수집하고 사실과 가설을 명확히 분리하는 것이다.",
+        "points": [
+          "런타임 증거 중심 접근",
+          "사실과 가설의 분리",
+          "낯선 시스템 디버깅용 프레임워크"
+        ],
+        "why": [
+          "AI 생성 코드 비중이 커질수록 필요한 디버깅 역량"
+        ]
+      }
+    },
+    {
+      "id": "dev-you-still-have-to-think",
+      "title": "미안하지만, 여전히 생각은 해야 한다",
+      "summary": "AI가 코드를 다시 쓰면 다른 트레이드오프를 선택하므로, 엔지니어는 코드를 검토하고 실패 모드를 정의해야 한다는 주장이다.",
+      "source": "It's All About The Bit",
+      "url": "https://itsallaboutthebit.com/i-am-sorry-but-you-still-have-to-think/?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 시대에도 설계 판단과 검토 책임은 엔지니어에게 있다.",
+        "what": "저자는 AI가 코드를 재작성할 때 원래와 다른 트레이드오프를 택한다고 지적한다. 따라서 엔지니어는 코드를 직접 검사하고 실패 모드를 정의해야 한다.",
+        "points": [
+          "AI 재작성은 다른 트레이드오프를 선택",
+          "코드 검사 필수",
+          "실패 모드 정의는 엔지니어 몫"
+        ],
+        "why": [
+          "에이전트 의존 개발의 품질 리스크 경고"
+        ]
+      }
+    },
+    {
+      "id": "dev-deepseek-4-1-flash",
+      "title": "왜 업계는 DeepSeek 4.1 Flash에 놀라지 않나?",
+      "summary": "저렴한 모델이 일상 작업을 충분히 처리하며, 낮은 비용 덕분에 탐색적 테스트가 가능해진다는 분석이다.",
+      "source": "DGT",
+      "url": "https://www.dgt.is/blog/2026-10-07-deepseek-freek-out/?utm_source=tldrdev",
+      "report": {
+        "tldr": "싼 모델이 일상 개발 작업의 판도를 바꿀 수 있다.",
+        "what": "저자는 DeepSeek 4.1 Flash 같은 저가 모델이 루틴 작업을 효과적으로 처리한다고 본다. 비용이 낮아지면 탐색적 테스트처럼 이전엔 비싸던 시도가 가능해진다.",
+        "points": [
+          "저가 모델의 루틴 작업 처리 능력",
+          "낮은 비용이 탐색적 테스트를 가능케 함",
+          "업계 반응이 과소하다는 문제 제기"
+        ],
+        "why": [
+          "모델 선택에서 비용 효율이 핵심 기준이 되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "dev-grieving-loss-of-details",
+      "title": "디테일을 잃는 것에 대한 애도",
+      "summary": "AI로 저수준 기술 디테일에 대한 집중이 줄면서 겪는 직업적 정체성 변화에 대한 개인적 성찰이다.",
+      "source": "Purple Syringa",
+      "url": "https://purplesyringa.moe/blog/grieving-the-loss-of-details/?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI가 개발자의 정체성이던 디테일 작업을 바꾸고 있다.",
+        "what": "저자는 AI 때문에 저수준 기술 디테일에 몰두할 일이 줄어드는 상황에서 느끼는 상실감을 털어놓는다. 이는 개발자의 직업적 정체성 변화에 대한 성찰이다.",
+        "points": [
+          "저수준 디테일 작업의 감소",
+          "직업적 정체성 변화",
+          "개인적 상실감에 대한 성찰"
+        ],
+        "why": [
+          "AI 전환기 개발자 심리를 대변하는 글"
+        ]
+      }
+    },
+    {
+      "id": "dev-big-arrow-on-the-screen",
+      "title": "Big Arrow on the Screen: 에이전트용 화면 화살표 오버레이",
+      "summary": "코딩 에이전트가 클릭 위치를 표시하는 임시 시각 오버레이를 그릴 수 있는 macOS 커맨드라인 도구다.",
+      "source": "GitHub",
+      "url": "https://github.com/franzenzenhofer/big-arrow-on-the-screen?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트가 화면에 '여기'를 가리킬 수 있게 해주는 도구다.",
+        "what": "Big Arrow on the Screen은 macOS용 CLI 도구다. 코딩 에이전트가 클릭할 위치를 알려주는 임시 시각 오버레이를 화면에 그릴 수 있게 해준다.",
+        "points": [
+          "macOS 커맨드라인 도구",
+          "클릭 위치를 가리키는 임시 오버레이",
+          "코딩 에이전트용 설계"
+        ],
+        "why": [
+          "에이전트와 사람 간 시각적 소통 수단 제공"
+        ]
+      }
+    },
+    {
+      "id": "dev-rea-reverse-engineering-agents",
+      "title": "REA: 코딩 에이전트용 리버스 엔지니어링 도구",
+      "summary": "코딩 에이전트가 네이티브 바이너리와 애플리케이션을 리버스 엔지니어링해 로직을 복원할 수 있게 하는 툴셋이다.",
+      "source": "REA",
+      "url": "https://rea.tools/?utm_source=tldrdev",
+      "report": {
+        "tldr": "에이전트가 바이너리에서 로직을 복원할 수 있게 됐다.",
+        "what": "REA는 코딩 에이전트가 네이티브 바이너리와 애플리케이션을 리버스 엔지니어링하도록 돕는 툴셋이다. 이를 통해 원래 로직을 복원할 수 있다.",
+        "points": [
+          "네이티브 바이너리 분석",
+          "애플리케이션 로직 복원",
+          "코딩 에이전트 연동"
+        ],
+        "why": [
+          "레거시·소스 없는 시스템 분석 자동화 가능성"
+        ]
+      }
+    },
+    {
+      "id": "dev-talorys-cloudflare-assistant",
+      "title": "Talorys: Cloudflare 위에서 돌아가는 1인용 AI 비서",
+      "summary": "채팅·메모리·작업·오프라인 기능을 갖추고 Cloudflare에서 실행되는 단일 사용자 AI 어시스턴트다.",
+      "source": "GitHub",
+      "url": "https://github.com/rociiu/talorys?utm_source=tldrdev",
+      "report": {
+        "tldr": "Cloudflare에 셀프호스팅하는 개인 AI 비서다.",
+        "what": "Talorys는 Cloudflare 위에서 동작하는 단일 사용자용 AI 어시스턴트다. 채팅, 메모리, 작업 관리, 오프라인 기능을 제공한다.",
+        "points": [
+          "단일 사용자용 설계",
+          "Cloudflare 기반 실행",
+          "채팅·메모리·작업·오프라인 지원"
+        ],
+        "why": [
+          "개인용 AI 비서 셀프호스팅 선택지"
+        ]
+      }
+    },
+    {
+      "id": "dev-deno-joining-cloudflare",
+      "title": "Deno, Cloudflare 합류… Deno 런타임·Deploy 종료 예정",
+      "summary": "Deno 런타임 개발은 1년간 버그 수정과 보안 업데이트 후 종료되고, Deno Deploy는 6개월 뒤 문을 닫는다.",
+      "source": "Deno",
+      "url": "https://deno.com/blog/cloudflare?utm_source=tldrdev",
+      "report": {
+        "tldr": "Deno의 Cloudflare 합류로 Deno 런타임과 Deploy가 단계적으로 종료된다.",
+        "what": "Deno가 Cloudflare에 합류한다고 발표했다. Deno 런타임 개발은 1년간 버그 수정과 보안 업데이트를 제공한 뒤 종료되고, Deno Deploy는 6개월 후 서비스를 종료한다.",
+        "points": [
+          "Deno 팀 Cloudflare 합류",
+          "런타임은 1년간 버그·보안 업데이트 후 개발 종료",
+          "Deno Deploy 6개월 후 종료"
+        ],
+        "why": [
+          "Deno 사용자는 마이그레이션 계획 수립 필요",
+          "JS 런타임 시장 재편"
+        ]
+      }
+    },
+    {
+      "id": "dev-dirty-pages-read-only-query",
+      "title": "더티 페이지의 함정: 읽기 전용 쿼리가 테라바이트를 쓸 때",
+      "summary": "MonetDB 쿼리의 스크래치 파일을 tmpfs로 옮기자 실행 시간이 73분에서 97초로 줄었다.",
+      "source": "Swingbit",
+      "url": "https://swingbit.github.io/dirty_pages/?utm_source=tldrdev",
+      "report": {
+        "tldr": "읽기 전용 쿼리도 디스크 쓰기 병목에 걸릴 수 있다.",
+        "what": "MonetDB에서 읽기 전용 쿼리가 스크래치 파일 때문에 테라바이트 단위의 쓰기를 일으켰다. 스크래치 파일을 tmpfs로 옮기자 실행 시간이 73분에서 97초로 단축됐다.",
+        "points": [
+          "읽기 전용 쿼리가 대량 쓰기 유발",
+          "원인은 스크래치 파일의 더티 페이지",
+          "tmpfs 이전으로 73분 → 97초"
+        ],
+        "why": [
+          "DB 성능 분석 시 OS 페이지 캐시 동작까지 봐야 함"
+        ]
+      }
+    },
+    {
+      "id": "dev-speculative-decoding-guessing-well",
+      "title": "추측 디코딩: 잘 추측하는 기술",
+      "summary": "LLM 생성 속도를 높이기 위한 토큰 초안 작성과 검증 방법을 다룬 기술 가이드다.",
+      "source": "Astralord",
+      "url": "https://astralord.github.io/posts/speculative-decoding-the-art-of-guessing-well/?utm_source=tldrdev",
+      "report": {
+        "tldr": "초안 생성과 검증으로 LLM 추론을 가속하는 기법을 정리했다.",
+        "what": "이 가이드는 추측 디코딩의 핵심인 토큰 초안 작성과 검증 방식을 설명한다. 이를 통해 LLM 생성 속도를 높이는 다양한 방법을 다룬다.",
+        "points": [
+          "토큰 초안 작성 기법",
+          "검증 단계 설계",
+          "LLM 생성 가속"
+        ],
+        "why": [
+          "추론 비용 최적화에 실용적인 기술 정리"
+        ]
+      }
+    },
+    {
+      "id": "dev-postgres-uuidv7-vs-uuidv4",
+      "title": "PostgreSQL에서 UUIDv7 키는 bigint만큼 빠르고, UUIDv4는 두 배 느렸다",
+      "summary": "PostgreSQL 18 벤치마크에서 로딩 시간이 UUIDv7 32.3초, bigint 29.7초, UUIDv4 60.7초로 나타났다.",
+      "source": "Import Static",
+      "url": "https://importstatic.com/databases/postgres-uuidv7-vs-uuidv4-bigint?utm_source=tldrdev",
+      "report": {
+        "tldr": "PK로 UUID를 쓴다면 v4 대신 v7을 써야 한다.",
+        "what": "PostgreSQL 18에서 기본 키 유형별 로딩 성능을 비교했다. UUIDv7은 32.3초로 bigint(29.7초)에 근접했지만 UUIDv4는 60.7초로 약 두 배 걸렸다.",
+        "points": [
+          "PostgreSQL 18 벤치마크",
+          "UUIDv7 32.3초",
+          "bigint 29.7초",
+          "UUIDv4 60.7초"
+        ],
+        "why": [
+          "시간순 정렬 UUID가 인덱스 효율을 크게 개선"
+        ]
+      }
+    },
+    {
+      "id": "dev-how-big-is-a-git-commit",
+      "title": "Git 커밋은 얼마나 클까?",
+      "summary": "Git 커밋의 저장 용량이 파일시스템 구조와 압축에 어떻게 좌우되는지 분석한 글이다.",
+      "source": "Ratfactor",
+      "url": "https://ratfactor.com/cards/git-commit-size?utm_source=tldrdev",
+      "report": {
+        "tldr": "Git 커밋 크기는 파일시스템 구조와 압축에 달려 있다.",
+        "what": "저자는 Git 커밋 하나가 실제로 차지하는 저장 공간을 분석한다. 그 크기는 파일시스템 구조와 압축 방식에 따라 달라진다.",
+        "points": [
+          "커밋 저장 크기 분석",
+          "파일시스템 구조의 영향",
+          "압축의 영향"
+        ],
+        "why": [
+          "Git 내부 저장 모델에 대한 이해를 높여줌"
+        ]
+      }
+    },
+    {
+      "id": "dev-microsoft-decision-1",
+      "title": "Microsoft-Decision-1: 빠른 의사결정 모델",
+      "summary": "고정된 선택지 안에서 라우팅·분류·워크플로 제어를 한 번의 패스로 수행하는 모델이다.",
+      "source": "Microsoft",
+      "url": "https://commandline.microsoft.com/microsoft-decision-1-model-foundry/?utm_source=tldrdev",
+      "report": {
+        "tldr": "Microsoft가 단일 패스 의사결정 모델을 내놨다.",
+        "what": "Microsoft-Decision-1은 고정된 옵션 집합에 대해 라우팅, 분류, 워크플로 제어를 단일 패스로 처리하는 모델이다.",
+        "points": [
+          "단일 패스 추론",
+          "라우팅·분류·워크플로 제어",
+          "고정 선택지 기반 판단"
+        ],
+        "why": [
+          "에이전트 파이프라인의 저지연 판단 계층으로 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "dev-software-centaur-age",
+      "title": "소프트웨어의 '켄타우로스 시대'는 수십 년 갈 수 있다",
+      "summary": "사람과 AI가 협업하는 팀이 앞으로 10~20년간 소프트웨어 개발의 최적 형태로 남을 수 있다는 주장이다.",
+      "source": "Sean Goedecke",
+      "url": "https://www.seangoedecke.com/softwares-centaur-age-may-last-decades/?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI가 개발자를 완전히 대체하기보다 협업 시대가 길게 이어질 수 있다.",
+        "what": "Sean Goedecke는 인간과 AI가 함께 일하는 '켄타우로스' 팀이 소프트웨어 개발에서 앞으로 10~20년간 최적일 수 있다고 주장한다.",
+        "points": [
+          "인간-AI 협업 팀 모델",
+          "향후 10~20년 지속 가능성",
+          "완전 자동화 낙관론에 대한 반론"
+        ],
+        "why": [
+          "개발자 커리어 전망에 대한 균형 잡힌 시각"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,296 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-software-centaur-age",
+      "title": "소프트웨어의 '켄타우로스 시대'는 수십 년 갈 수 있다",
+      "summary": "AI 코딩 시스템과 짝을 이룬 인간 엔지니어가 각각 단독일 때보다 효과적이며, 이 사실은 향후 10~20년간 유지될 것이라는 주장이다.",
+      "source": "Sean Goedecke",
+      "url": "https://www.seangoedecke.com/softwares-centaur-age-may-last-decades/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "인간+AI 조합이 당분간 최선이라는 전망이다.",
+        "what": "Sean Goedecke는 인간 엔지니어와 AI 코딩 시스템의 결합이 각자보다 낫다고 주장한다. 그는 이 '켄타우로스' 구도가 10~20년은 지속될 것으로 본다.",
+        "points": [
+          "인간+AI가 단독 인간·단독 AI보다 효과적",
+          "이 구도가 10~20년 지속될 전망",
+          "완전 자동화보다 협업 모델에 무게"
+        ],
+        "why": [
+          "엔지니어링 조직 설계와 채용 전략의 전제가 된다",
+          "AI 전면 대체론에 대한 반론이다"
+        ]
+      }
+    },
+    {
+      "id": "founders-developer-hiring-rebound-seniors",
+      "title": "개발자 채용 반등, 시니어에 쏠려",
+      "summary": "측정된 개발자 고용 증가분의 대부분이 시니어 직무였으며, 22~25세 개발자 고용은 여전히 압박을 받고 있다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/11/ai-software-developer-jobs.html?utm_source=tldrfounders",
+      "report": {
+        "tldr": "채용은 살아나지만 주니어는 소외되고 있다.",
+        "what": "CNBC는 개발자 고용이 반등했지만 증가분 대부분이 시니어 직무에서 나왔다고 보도했다. 22~25세 개발자 고용은 계속 부진하다.",
+        "points": [
+          "고용 증가분 대부분이 시니어 직무",
+          "22~25세 개발자 고용은 압박 지속",
+          "AI 시대 채용 구조 변화 반영"
+        ],
+        "why": [
+          "주니어 육성 파이프라인 단절 위험이 커진다",
+          "스타트업은 경력직 확보 경쟁 심화에 대비해야 한다"
+        ]
+      }
+    },
+    {
+      "id": "founders-coinbase-fraud-agent",
+      "title": "Coinbase, 사기 탐지 에이전트를 자체 구축·사후학습",
+      "summary": "Coinbase가 LLM 리스크 에이전트를 만들어 실험에서 사기 거래 30%, 사기 금액 22% 감소를 확인했다. 사후학습 모델은 모든 지표에서 Opus 4.5를 앞섰다.",
+      "source": "Coinbase",
+      "url": "https://www.coinbase.com/blog/part-one-how-coinbase-built-evaluated-and-post-trained-a-fraud-agent?utm_source=tldrfounders",
+      "report": {
+        "tldr": "도메인 특화 사후학습 모델이 프런티어 모델을 이겼다.",
+        "what": "Coinbase가 'Owning Intelligence' 3부작 첫 편에서 사기 탐지 LLM 에이전트의 구축·평가·사후학습 과정을 공개했다. 실험에서 사기 지표가 크게 줄었다.",
+        "points": [
+          "사기 거래 30% 감소",
+          "사기 금액 22% 감소",
+          "사후학습 모델이 Opus 4.5를 전 지표에서 능가",
+          "3부작 시리즈의 1편"
+        ],
+        "why": [
+          "자체 데이터로 사후학습한 모델의 실익을 수치로 보여준다",
+          "핀테크의 'AI 내재화' 전략 사례다"
+        ]
+      }
+    },
+    {
+      "id": "founders-you-didnt-do-it-right",
+      "title": "\"제대로 안 해서 그래\": OKR 도입 실패에서 배운 것",
+      "summary": "WP Engine은 외부 코칭을 받아 OKR을 네 번 시도했다. 성공은 한 팀이 통제 가능한 단일 측정 지표를 골라 한 분기 동안 따랐을 때 왔다.",
+      "source": "A Smart Bear",
+      "url": "https://longform.asmartbear.com/you-didnt-do-it-right/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "프레임워크보다 하나의 통제 가능한 지표가 효과적이다.",
+        "what": "Jason Cohen은 WP Engine의 OKR 도입 실패 경험을 회고했다. 네 번의 시도 끝에 한 팀이 단일 지표에 집중한 방식이 통했다.",
+        "points": [
+          "외부 코칭 포함 OKR 4회 시도",
+          "성공 조건은 팀이 통제 가능한 단일 지표",
+          "한 분기 동안 꾸준히 추적",
+          "'제대로 안 했다'는 변명의 한계"
+        ],
+        "why": [
+          "목표관리 프레임워크를 단순하게 적용하라는 실무 교훈이다",
+          "스타트업의 과도한 프로세스 도입을 경계하게 한다"
+        ]
+      }
+    },
+    {
+      "id": "founders-churn-comp-plan",
+      "title": "이탈 문제는 보상 설계에서 시작됐다",
+      "summary": "영업 담당자의 목표 달성이 고객 유지를 보장하지 않는다. 단기 계약을 우대하는 보상 구조가 판매 후 이탈을 키운다.",
+      "source": "Stage2 Capital",
+      "url": "https://gtm.stage2.capital/p/your-churn-problem-started-in-the?utm_source=tldrfounders",
+      "report": {
+        "tldr": "영업 보상이 고객 질을 무시하면 이탈로 돌아온다.",
+        "what": "Stage2 Capital은 이탈(churn)의 뿌리를 영업 보상 플랜에서 찾는다. 단기 딜에 보상을 주는 구조가 질 낮은 고객을 끌어들인다는 분석이다.",
+        "points": [
+          "목표 달성과 고객 유지는 별개",
+          "단기 딜 중심 보상이 이탈 유발",
+          "고객 품질을 보상에 반영할 필요"
+        ],
+        "why": [
+          "SaaS 순매출유지율 개선의 출발점이 GTM 설계임을 보여준다",
+          "영업·CS 간 인센티브 정렬이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "founders-open-intelligent-ui",
+      "title": "CopilotKit, ChatGPT Intelligent UI의 오픈소스 대안 공개",
+      "summary": "Open Intelligent UI는 차트·지도·인터랙티브 도구가 포함된 인터페이스를 생성한다. 코드는 승인된 CDN 라이브러리만 쓰는 격리 iframe에서 실행된다.",
+      "source": "CopilotKit",
+      "url": "https://www.copilotkit.ai/blog/introducing-open-intelligent-ui?utm_source=tldrfounders",
+      "report": {
+        "tldr": "생성형 UI를 오픈소스로 자체 앱에 넣을 수 있게 됐다.",
+        "what": "CopilotKit이 Open Intelligent UI를 발표했다. AI가 차트나 지도 같은 UI를 직접 생성하며, 보안을 위해 격리된 iframe에서 실행한다.",
+        "points": [
+          "차트·지도·인터랙티브 도구 생성",
+          "격리 iframe에서 코드 실행",
+          "승인된 CDN 라이브러리만 접근",
+          "ChatGPT Intelligent UI의 오픈소스 대안"
+        ],
+        "why": [
+          "채팅 중심 AI 앱의 UX를 풍부하게 만드는 선택지다",
+          "특정 플랫폼 종속 없이 생성형 UI를 도입할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "founders-claude-dashboards-motion",
+      "title": "Claude, Dashboards·Motion 베타 출시",
+      "summary": "Claude Dashboards는 데이터 플랫폼에 연결해 동적 시각화를 제공하고, Claude Motion은 보고서를 팀 편집·내보내기가 가능한 애니메이션 설명 영상으로 바꾼다.",
+      "source": "TestingCatalog",
+      "url": "https://www.testingcatalog.com/claude-launches-dashboards-and-motion-in-beta/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Claude가 분석·보고 산출물 영역으로 확장한다.",
+        "what": "TestingCatalog에 따르면 Anthropic이 Claude에 Dashboards와 Motion을 베타로 추가했다. 데이터 시각화와 애니메이션 설명 콘텐츠 제작을 지원한다.",
+        "points": [
+          "Dashboards: 데이터 플랫폼 연결·동적 시각화",
+          "Motion: 보고서를 애니메이션 설명으로 변환",
+          "팀 편집과 내보내기 지원",
+          "베타 단계"
+        ],
+        "why": [
+          "BI·프레젠테이션 도구 시장과 직접 경쟁하는 행보다",
+          "AI 어시스턴트가 결과물 제작 툴로 진화하고 있다"
+        ]
+      }
+    },
+    {
+      "id": "founders-china-venture-ecosystem",
+      "title": "중국 벤처 생태계는 어떻게 돌아가나",
+      "summary": "중국 벤처 생태계는 투자자 상환 조항과 제한적인 M&A 시장 때문에 IPO를 서두르는 구조이며, 정부 지원과 산업 정책의 영향을 받는다.",
+      "source": "X (Lou Bohan)",
+      "url": "https://x.com/loubohan/status/2082143914924851449?utm_source=tldrfounders",
+      "report": {
+        "tldr": "중국 VC는 상환 조항과 정책 때문에 IPO 중심으로 움직인다.",
+        "what": "Lou Bohan이 중국 벤처 생태계의 작동 방식을 정리했다. 투자자 상환 조항, 좁은 M&A 시장, 정부 주도 산업 정책이 엑시트 구조를 결정한다.",
+        "points": [
+          "투자자 상환(redemption) 조항이 IPO 압박",
+          "M&A 시장이 제한적",
+          "정부 자금과 산업 정책의 영향력",
+          "IPO 가속화 경향"
+        ],
+        "why": [
+          "미국식 VC 모델과의 구조적 차이를 이해하는 데 유용하다",
+          "중국 투자·경쟁사 분석의 배경 지식이다"
+        ]
+      }
+    },
+    {
+      "id": "founders-models-insider-risks",
+      "title": "초지능 시대, 모델은 내부자 위험이다",
+      "summary": "지능은 권한과 분리돼야 하며, 모델은 결정론적 시스템 설계와 인간 통제, 신뢰할 수 있는 절차로 둘러싸여야 한다는 주장이다.",
+      "source": "X (Satya Nadella)",
+      "url": "https://x.com/satyanadella/status/2108931348857827686?utm_source=tldrfounders",
+      "report": {
+        "tldr": "모델에게 지능은 주되 권한은 통제하라.",
+        "what": "Satya Nadella는 AI 모델을 내부자 위험처럼 다뤄야 한다고 주장했다. 지능과 권한을 분리하고 결정론적 시스템과 인간 통제로 감싸야 한다는 것이다.",
+        "points": [
+          "지능과 권한의 분리",
+          "결정론적 시스템 설계 필요",
+          "인간 통제와 신뢰 가능한 절차",
+          "모델을 내부자 위험으로 간주"
+        ],
+        "why": [
+          "에이전트 권한 설계의 원칙으로 참고할 만하다",
+          "빅테크 CEO가 제시한 AI 거버넌스 관점이다"
+        ]
+      }
+    },
+    {
+      "id": "founders-cache-is-new-egress",
+      "title": "Clouded Judgement: 캐시는 새로운 이그레스다",
+      "summary": "모델 캐시는 클라우드 이그레스 비용과 유사한 전환 비용을 만든다. 세션 중간에 모델을 바꾸면 캐시 데이터를 다시 구축해야 한다.",
+      "source": "Clouded Judgement",
+      "url": "https://cloudedjudgement.substack.com/p/clouded-judgement-10926-cache-is?utm_source=tldrfounders",
+      "report": {
+        "tldr": "프롬프트 캐시가 AI 모델 공급자 락인의 새 수단이 된다.",
+        "what": "Jamin Ball의 Clouded Judgement는 모델 캐시가 클라우드 이그레스처럼 전환 비용을 만든다고 분석했다. 모델 교체 시 캐시를 재구축해야 하기 때문이다.",
+        "points": [
+          "모델 캐시가 전환 비용 형성",
+          "세션 중 모델 교체 시 캐시 재구축 필요",
+          "클라우드 이그레스와 유사한 락인 구조"
+        ],
+        "why": [
+          "멀티모델 전략의 숨은 비용을 고려해야 한다",
+          "AI 공급자 선택이 장기 종속으로 이어질 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "founders-double-counted-future",
+      "title": "이중으로 계산된 미래",
+      "summary": "조직들은 AI로 직원당 생산성이 오르면서 전체 생산성이 높아진다는 기대에 따라 인력 수요 전망을 낮추고 있다.",
+      "source": "Yusuf Aytas",
+      "url": "https://yusufaytas.com/the-double-counted-future?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 생산성 이득이 인력 계획에서 중복 계산되고 있을 수 있다.",
+        "what": "Yusuf Aytas는 조직이 AI로 인한 1인당 생산성 향상을 근거로 인력 기대치를 줄이는 현상을 짚었다. 제목은 그 기대가 이중 계산됐을 가능성을 시사한다.",
+        "points": [
+          "AI로 1인당 생산성 상승 기대",
+          "이에 따라 인력 수요 전망 축소",
+          "생산성 이득의 과대평가 가능성"
+        ],
+        "why": [
+          "AI 기반 인력 감축 계획을 재점검하게 한다",
+          "채용 계획 수립 시 생산성 가정의 근거가 중요하다"
+        ]
+      }
+    },
+    {
+      "id": "founders-figma-ai-adoption-rituals",
+      "title": "AI 도입을 이끄는 4가지 팀 의식",
+      "summary": "초보자와 숙련자가 함께 AI 기술을 연습하고 다듬는 부담 없는 동료 포럼이 조직 전반의 AI 도입을 이끈다.",
+      "source": "Figma",
+      "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 도입은 툴 배포보다 동료 학습 문화가 좌우한다.",
+        "what": "Figma가 사내 AI 도입을 촉진한 팀 의식 4가지를 소개했다. 핵심은 부담 없이 서로 배우는 동료 포럼이다.",
+        "points": [
+          "저부담 동료 포럼 운영",
+          "초보자와 전문가가 함께 연습",
+          "AI 스킬을 지속적으로 다듬는 구조",
+          "조직 전체 확산 효과"
+        ],
+        "why": [
+          "AI 툴 라이선스만 사고 활용이 저조한 문제의 해법이다",
+          "작은 팀도 바로 적용 가능한 실무 방법이다"
+        ]
+      }
+    },
+    {
+      "id": "founders-postiz-self-hosting",
+      "title": "Postiz 창업자: 셀프호스팅 제한은 성장을 해친다",
+      "summary": "셀프호스팅을 제한하면 튜토리얼 제작자와 자연 성장을 잃고, 유료 옵션으로 내몰린 사용자는 이탈하기 쉽다는 주장이다.",
+      "source": "X (Postiz founder)",
+      "url": "https://x.com/wickedguro/status/2109169795820081232?utm_source=tldrfounders",
+      "report": {
+        "tldr": "오픈소스 셀프호스팅은 유입 채널이므로 막지 말라.",
+        "what": "오픈소스 Postiz 창업자가 LLM으로 셀프호스팅 설치가 쉬워진 현실을 언급하며 셀프호스팅 제한의 부작용을 지적했다.",
+        "points": [
+          "셀프호스팅 제한 시 튜토리얼 제작자 이탈",
+          "자연 성장 경로 상실",
+          "강제 유료 전환 사용자는 이탈하기 쉬움",
+          "LLM으로 설치 장벽이 낮아짐"
+        ],
+        "why": [
+          "오픈소스 기반 스타트업의 수익화 전략에 시사점이 있다",
+          "커뮤니티 성장과 매출 사이 균형 문제를 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "founders-0-100m-views",
+      "title": "월 0에서 1억 뷰까지 가는 법",
+      "summary": "월 1억 오가닉 조회수를 달성하기 위한 실전 확장 가이드다.",
+      "source": "X (Dom Schats)",
+      "url": "https://x.com/domschats/status/2109071150089445424?utm_source=tldrfounders",
+      "report": {
+        "tldr": "오가닉 콘텐츠 성장을 위한 전술 가이드.",
+        "what": "X에 공유된 스레드로, 월 1억 오가닉 조회수까지 콘텐츠를 키우는 전술을 정리했다.",
+        "points": [
+          "오가닉 조회수 확장 전술",
+          "월 1억 뷰 목표",
+          "실전 중심 가이드"
+        ],
+        "why": [
+          "유료 광고 없이 인지도를 키우려는 창업자에게 참고가 된다"
+        ]
+      }
+    }
+  ]
+}

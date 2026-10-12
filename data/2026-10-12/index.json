@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-12",
+  "weekday": "월",
+  "headline": "Deno, Cloudflare 합류 — Deno 런타임·Deploy 단계적 종료",
+  "subtitle": "월가 600억 달러 Anthropic 칩 금융 · Ledger 지갑 하드웨어 임플란트 · Amazon, Decart 70억 달러 인수 협상",
+  "keyword": "Deno · Cloudflare · AI 컴퓨팅 금융 · 공급망 공격",
+  "bigStoryId": "dev-deno-joining-cloudflare",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "devops",
+    "founders",
+    "hardware",
+    "data",
+    "fintech",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:08 CDT",
+  "syncedAt": "2026-10-12T14:08:53Z",
+  "stats": {
+    "companies": 56,
+    "security": 15,
+    "deals": 13,
+    "policy": 12
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "JS 런타임 경쟁, 플랫폼 흡수로",
+      "body": "Deno 팀의 Cloudflare 합류가 tech·IT·개발·데브옵스 네 에디션에 동시에 실렸다. Deno 런타임은 1년간 버그·보안 수정만 받은 뒤 개발이 끝나고 Deno Deploy는 6개월 후 종료되므로, Deno 기반 서비스는 Workers 등으로의 이전 계획이 필요하다."
+    },
+    {
+      "kind": "market",
+      "title": "AI 컴퓨팅에 몰리는 초대형 자금",
+      "body": "Bank of America·Citi·Morgan Stanley가 Anthropic의 구글 칩 리스를 위해 420억 달러 선순위·180억 달러 후순위 등 사상 최대 600억 달러 금융을 주선한다. Amazon은 Decart를 약 70억 달러에 인수하는 협상을 벌이고 있고, Nvidia는 Reflection AI 추가 투자를 논의 중이며, Oxide는 4억4,500만 달러 시리즈 D를 마감했다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "리셀러 CryptoBilis를 거친 Ledger 지갑 하드웨어 임플란트의 피해 규모 확정, my-github[.]com을 이용한 GhostAction 피싱의 OAuth 승인 탈취 확산, Deno Deploy 이전 가이드, FinCEN의 믹싱 규칙 철회 이후 반응, OKX·ICE 토큰화 주식 신청에 대한 SEC 반응을 추적."
+    }
+  ]
+}
