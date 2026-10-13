@@ -1,0 +1,259 @@
+{
+  "name": "디자인",
+  "source": "TLDR Design",
+  "icon": "🎨",
+  "color": "#ff9ed8",
+  "bg": "#3a1f33",
+  "items": [
+    {
+      "id": "design-google-synthid-detector",
+      "title": "구글, AI 생성 콘텐츠 판별 'SynthID Detector' 공개… 한계도 뚜렷",
+      "summary": "구글이 누구나 로그인만 하면 쓸 수 있는 웹 기반 SynthID Detector를 내놨지만, SynthID 워터마크가 없는 AI 콘텐츠는 잡아내지 못한다.",
+      "source": "SiliconANGLE",
+      "url": "https://siliconangle.com/2026/10/07/google-debuts-synthid-detector-tool-for-flagging-ai-generated-content-but-its-far-from-perfect/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "워터마크 기반 탐지는 공통 표준 없이는 반쪽짜리에 그친다.",
+        "what": "구글이 이미지·영상·오디오가 구글, OpenAI, 엔비디아, 카카오 모델로 생성됐는지 확인해 주는 웹 도구 SynthID Detector를 공개했다. 그러나 Claude, Grok, 중국 오픈웨이트 모델처럼 SynthID 워터마크가 없는 결과물은 탐지하지 못한다.",
+        "points": [
+          "로그인한 누구나 웹에서 AI 콘텐츠 여부 확인 가능",
+          "구글·OpenAI·엔비디아·카카오 모델 산출물만 플래그",
+          "완전 생성 미디어와 AI로 편집한 미디어를 구분하지 못함"
+        ],
+        "why": [
+          "주요 모델 업체 전체를 아우르는 워터마크 표준 없이는 신뢰할 만한 AI 콘텐츠 탐지가 어렵다",
+          "디자이너·크리에이터는 탐지 결과를 진위의 결정적 증거로 쓰면 안 된다"
+        ]
+      }
+    },
+    {
+      "id": "design-figma-mobile-app-update",
+      "title": "피그마 모바일 앱, 협업·탐색 기능 개선",
+      "summary": "피그마 모바일 앱에 페이지 드롭다운, 프레임 미리보기 슬라이더, 특정 페이지·프레임 공유 링크가 추가됐다.",
+      "source": "Figma",
+      "url": "https://www.figma.com/release-notes/?title=smoother-design-collaboration&utm_source=tldrdesign",
+      "report": {
+        "tldr": "모바일에서도 피그마 파일 검토·공유가 한층 수월해졌다.",
+        "what": "피그마가 모바일 앱에 페이지 드롭다운과 프레임 미리보기 슬라이더, 정확한 페이지·프레임으로 연결되는 공유 링크를 추가했다. 개별 프레임과 이미지를 형식·크기를 골라 휴대폰으로 내보낼 수 있고, 앱은 마지막 작업 위치에서 다시 열린다.",
+        "points": [
+          "페이지 드롭다운·프레임 미리보기 슬라이더 추가",
+          "특정 페이지·프레임 단위 공유 링크",
+          "프레임·이미지를 형식·크기 옵션과 함께 폰으로 내보내기",
+          "마지막 위치에서 앱 재개"
+        ],
+        "why": [
+          "이동 중 디자인 리뷰·피드백 흐름이 데스크톱에 더 가까워진다"
+        ]
+      }
+    },
+    {
+      "id": "design-iphone-air-2-rumors",
+      "title": "아이폰 에어 2, 2027년 봄 출시설… 초박형 단점 보완",
+      "summary": "2세대 아이폰 에어가 2027년 봄 출시될 것으로 알려졌으며, 초광각 카메라 추가와 배터리·칩 개선으로 1세대의 타협점을 보완할 전망이다.",
+      "source": "9to5Mac",
+      "url": "https://9to5mac.com/2026/10/12/iphone-air-2-is-coming-heres-everything-we-know-so-far/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "애플이 초박형 폼팩터의 약점을 하드웨어로 메우려 한다.",
+        "what": "보도에 따르면 애플의 2세대 아이폰 에어가 2027년 봄 출시된다. 후면 초광각 카메라가 추가되고 3,500mAh 배터리와 2nm A20 Pro 칩으로 배터리 수명이 개선될 것으로 예상된다.",
+        "points": [
+          "후면 카메라에 초광각 추가",
+          "3,500mAh 배터리와 2nm A20 Pro 칩 탑재 전망",
+          "베이퍼 챔버 냉각으로 발열·지속 성능 개선 예상"
+        ],
+        "why": [
+          "얇은 디자인과 성능·배터리 사이의 트레이드오프를 애플이 어떻게 푸는지 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-being-anything-other-than-designer",
+      "title": "디자이너가 아닌 다른 무엇이 되려 했던 1년",
+      "summary": "AI 시대가 인간 중심 디자이너에게 가혹한 가운데, 조직의 혼란을 떠안는 '글루 워크'와 팀 역량 구축의 필요성을 짚는 에세이다.",
+      "source": "Ron Bronson",
+      "url": "https://blog.ronbronson.com/on-being-anything-other-than-a-designer?utm_source=tldrdesign",
+      "report": {
+        "tldr": "영웅적 제너럴리스트보다 팀 자체의 역량을 키워야 한다.",
+        "what": "필자는 디자이너가 아닌 다른 무언가가 되려 했던 1년을 돌아보며, AI 시대가 특히 대기업 밖의 인간 중심 디자이너에게 냉혹하다고 말한다. 어느 회사에나 보상도 직함도 없이 조직의 혼란을 흡수하는 '글루 워크' 담당자가 있다고 지적한다.",
+        "points": [
+          "AI 시대는 대기업 밖 인간 중심 디자이너에게 특히 불리",
+          "글루 워크는 보상·직함 없이 조직의 혼란을 흡수",
+          "해법은 또 다른 영웅적 제너럴리스트가 아님"
+        ],
+        "why": [
+          "고객 니즈 이해, 기술 실험, 중복 문제 해결 방지를 팀 단위 역량으로 내재화해야 한다는 제언"
+        ]
+      }
+    },
+    {
+      "id": "design-ai-needs-mascots",
+      "title": "AI에는 마스코트가 필요하고, 그건 사람만 만들 수 있다",
+      "summary": "AI 기업들이 추상적 기술을 친근한 캐릭터로 바꾸는 가운데, 강한 마스코트는 관찰·공감·타이밍 같은 인간의 기술이 필요한 스토리텔링 시스템이라는 주장이다.",
+      "source": "It's Nice That",
+      "url": "https://www.itsnicethat.com/articles/pov-ai-needs-mascots-and-only-humans-can-make-them-animation-121026?utm_source=tldrdesign",
+      "report": {
+        "tldr": "좋은 AI 마스코트는 팔 달린 로고가 아니라 성격을 가진 이야기 체계다.",
+        "what": "Muse, Dots, Claw'd, 노션의 애니메이션 얼굴처럼 AI 기업들이 낯선 시스템에 성격을 입히는 마스코트를 늘리고 있다. 애니메이션은 단순한 도형만으로도 생각하고 망설이고 반응하는 캐릭터를 만들어낸다.",
+        "points": [
+          "의인화는 연결감과 예측 가능성에 대한 욕구를 충족",
+          "애니메이션이 단순한 형태에 사고·망설임·반응을 부여",
+          "강한 마스코트는 로고가 아닌 스토리텔링 시스템"
+        ],
+        "why": [
+          "관찰·공감·타이밍·유머·절제 등 인간 고유의 역량이 AI 브랜딩에서 여전히 핵심이다"
+        ]
+      }
+    },
+    {
+      "id": "design-convergence-of-design",
+      "title": "디자인의 수렴",
+      "summary": "제품은 목적이 명확해지고 기술이 성숙하면서 비슷한 형태로 수렴하며, 소프트웨어는 그 속도가 더 빠르다는 루크 로블르스키의 분석이다.",
+      "source": "LukeW",
+      "url": "https://www.lukew.com/ff/2166/the-convergence-of-design?utm_source=tldrdesign",
+      "report": {
+        "tldr": "성공한 형태는 서로 닮아가다가 목적이나 기술이 바뀔 때 다시 갈라진다.",
+        "what": "물리적 제약, 경제성, 표준, 경쟁이 실용적 디자인의 폭을 좁히면서 제품은 비슷한 형태로 수렴한다. ChatGPT 이후 채팅 인터페이스가 급속히 퍼진 것처럼 소프트웨어는 더 빠르게 수렴하는 반면, AI 하드웨어는 핀·안경·이어버드·펜던트 등 아직 실험 단계다.",
+        "points": [
+          "목적 명확화·기술 성숙·제약·경쟁이 수렴을 이끔",
+          "ChatGPT 이후 채팅 UI의 급속한 확산",
+          "AI 하드웨어는 아직 다양한 폼팩터를 실험 중"
+        ],
+        "why": [
+          "AI 제품 디자인이 어디로 수렴할지, 언제 새 형태가 열릴지 가늠하는 틀을 제공한다"
+        ]
+      }
+    },
+    {
+      "id": "design-neopress-ai-website-builder",
+      "title": "NeoPress: AI 어시스턴트로 웹사이트 구축·발행·성장",
+      "summary": "AI와 대화하며 페이지를 만들고 콘텐츠를 발행하고 트래픽을 분석할 수 있는 웹사이트 도구다.",
+      "source": "NeoPress",
+      "url": "https://neopress.ai/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "웹사이트 제작부터 분석까지 대화형 AI로 처리한다.",
+        "what": "NeoPress는 AI와 채팅하는 방식으로 페이지를 만들고 콘텐츠를 발행하며 웹사이트 트래픽을 파악하도록 돕는 도구다.",
+        "points": [
+          "채팅으로 페이지 생성",
+          "콘텐츠 발행 지원",
+          "트래픽 이해·분석 기능"
+        ],
+        "why": [
+          "웹 제작의 진입 장벽을 낮추는 대화형 빌더 흐름의 한 사례"
+        ]
+      }
+    },
+    {
+      "id": "design-contralabs-creative-ai-report",
+      "title": "크리에이티브 업계 최대 규모 AI 도입 보고서",
+      "summary": "Contralabs가 15만 명 이상의 현업 크리에이터를 설문해 AI가 창작 업무를 어떻게 바꾸는지 조사했다.",
+      "source": "Contra Labs",
+      "url": "https://contralabs.com/creative-intelligence-report-2026?utm_source=tldrdesign",
+      "report": {
+        "tldr": "15만 명 넘는 크리에이터 데이터로 AI 도입 실태를 본다.",
+        "what": "Contralabs가 15만 명 이상의 현업 크리에이터를 대상으로 AI가 창작 작업을 어떻게 변화시키는지 조사한 보고서를 공개했다.",
+        "points": [
+          "15만 명 이상 현업 크리에이터 설문",
+          "AI가 창작 업무에 미치는 변화 조사",
+          "크리에이티브 업계 최대 규모를 표방"
+        ],
+        "why": [
+          "디자이너가 업계 전반의 AI 활용 현황과 자신의 위치를 비교할 수 있는 자료"
+        ]
+      }
+    },
+    {
+      "id": "design-cakie-screen-recording-for-ai",
+      "title": "CAKIE: AI를 위한 화면 녹화",
+      "summary": "CAKIE는 화면 녹화에 트랜스크립트와 스크린샷 하이라이트를 붙여 AI가 내용을 따라갈 수 있게 해준다.",
+      "source": "CAKIE",
+      "url": "https://www.cakie.ai/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "화면 녹화를 AI가 읽을 수 있는 형태로 바꿔준다.",
+        "what": "CAKIE는 화면 녹화물에 트랜스크립트와 스크린샷 하이라이트를 추가해 AI가 녹화 내용을 이해하고 따라갈 수 있도록 한다.",
+        "points": [
+          "화면 녹화에 트랜스크립트 자동 추가",
+          "스크린샷 하이라이트 생성",
+          "AI 입력용 맥락 제공이 목적"
+        ],
+        "why": [
+          "영상 기반 작업 지시나 버그 리포트를 AI 에이전트에 넘기기 쉬워진다"
+        ]
+      }
+    },
+    {
+      "id": "design-jev-for-designers",
+      "title": "디자이너를 위한 Jev",
+      "summary": "TypeSafe의 Jev는 텍스트 대신 선택지별 확률로 답하는 모델로, 디자인 작업에 필요한 보정된 불확실성을 제공한다.",
+      "source": "Marie Claire Dean",
+      "url": "https://marieclairedean.substack.com/p/jev-for-designers?utm_source=tldrdesign",
+      "report": {
+        "tldr": "확신에 찬 답보다 정직한 확률이 디자인 판단에 더 유용하다.",
+        "what": "TypeSafe의 Jev는 선택형·점수형·예/아니오 질문에 각 선택지의 확률로 답하며, 그럴듯한 답보다 정직한 확률을 보상하도록 학습됐다. 새 데모는 HeyStefan의 이모지 분류기에 '보류 구역'을 추가해 166개 중 애매한 이모지를 따로 모은다.",
+        "points": [
+          "텍스트 생성 대신 선택지별 확률 출력",
+          "정직한 확률을 보상하는 학습 방식",
+          "텍스트만 읽고 질문을 문자 그대로 해석하는 한계",
+          "이모지 분류 데모에 '보류 구역' 추가"
+        ],
+        "why": [
+          "불확실성을 드러내는 AI는 디자이너가 판단의 여지를 설계하는 데 도움이 된다"
+        ]
+      }
+    },
+    {
+      "id": "design-louise-laborie-illustration",
+      "title": "루이즈 라보리가 그린 미국의 고독하고 영화 같은 경계 공간",
+      "summary": "프랑스 일러스트레이터 루이즈 라보리는 수채와 목탄으로 해 질 녘 미국의 모텔·고속도로·스케이트파크와 그 속의 십대를 그린다.",
+      "source": "Creative Boom",
+      "url": "https://www.creativeboom.com/work/louise-laborie-draws-the-lonely-cinematic-and-in-between-parts-of-america/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "경계 공간과 경계의 나이를 겹쳐 조용한 영화적 장면을 만든다.",
+        "what": "프랑스 일러스트레이터 루이즈 라보리는 수채화와 목탄으로 미국의 모텔, 고속도로, 스케이트파크 같은 전이 공간을 해 질 녘 풍경으로 그린다. 그 안에 아이와 어른 사이의 십대를 배치해 고독·음악·기억이 깃든 장면을 만든다.",
+        "points": [
+          "수채화와 목탄 사용",
+          "모텔·고속도로·스케이트파크 등 전이 공간이 소재",
+          "어른이 되기 직전 십대를 등장시킴"
+        ],
+        "why": [
+          "분위기와 서사를 시각화하는 일러스트 레퍼런스로 참고할 만하다"
+        ]
+      }
+    },
+    {
+      "id": "design-year-of-canceled-ad",
+      "title": "2026년은 '취소된 광고'의 해",
+      "summary": "2026년에는 펩시, Novig, 옥스퍼드 유나이티드, 컨버스 등 여러 브랜드가 광고 역풍을 맞았다.",
+      "source": "Creative Bloq",
+      "url": "https://www.creativebloq.com/design/advertising/2026-is-the-year-of-the-cancelled-ad?utm_source=tldrdesign",
+      "report": {
+        "tldr": "의도했든 아니든 논란형 광고가 잇따라 철회됐다.",
+        "what": "Creative Bloq은 2026년을 '취소된 광고의 해'로 규정했다. 펩시, Novig, 옥스퍼드 유나이티드, 컨버스, 한 골프 브랜드가 반발에 직면했으며 일부는 실수, 일부는 의도된 것이었다.",
+        "points": [
+          "펩시·Novig·옥스퍼드 유나이티드·컨버스 등 역풍",
+          "실수로 인한 논란과 의도적 도발이 혼재",
+          "한 해 동안 철회 사례가 누적"
+        ],
+        "why": [
+          "광고 크리에이티브의 리스크 검토가 더 중요해졌음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "design-cris-cian-cosmic-art",
+      "title": "사진 합성과 디지털 페인팅으로 그린 고독과 경이의 우주",
+      "summary": "디지털 아티스트 CriS Cian은 사진 합성과 디지털 페인팅으로 지구 밖 탐험과 조우를 그린 평화롭고 시적인 우주 장면을 만든다.",
+      "source": "Design You Trust",
+      "url": "https://designyoutrust.com/2026/10/digital-artist-turns-photo-manipulation-and-digital-painting-into-cosmic-sanctuaries-of-solitude-and-wonder/?utm_source=tldrdesign",
+      "report": {
+        "tldr": "사진 합성으로 시적인 미래 우주 탐험을 그린다.",
+        "what": "CriS Cian은 사진 합성과 디지털 페인팅을 결합해 미래의 우주 탐험과 지구 밖 조우를 담은 평화롭고 시적인 장면을 만든다.",
+        "points": [
+          "사진 합성과 디지털 페인팅 결합",
+          "미래 탐험·외계 조우가 주제",
+          "고독과 경이의 정서를 강조"
+        ],
+        "why": [
+          "SF 비주얼 무드보드용 레퍼런스로 활용 가능"
+        ]
+      }
+    }
+  ]
+}

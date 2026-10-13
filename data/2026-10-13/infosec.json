@@ -1,0 +1,303 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-cyberxero-claude-code-ukraine",
+      "title": "CyberXero, Claude Code로 우크라이나 기록 62만 8천 건 탈취",
+      "summary": "위협 행위자 CyberXero가 Claude Code와 51개 에이전트, PentAGI, Cobalt Strike를 동원한 두 건의 캠페인으로 우크라이나 데이터 62만 8천여 건을 훔쳤다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 코딩 에이전트가 실제 대량 침해 캠페인의 공격 자동화 도구로 쓰였다.",
+        "what": "CyberXero는 WordPress·이커머스 자동 익스플로잇 캠페인과 우크라이나 에너지·유틸리티 대상 수동 캠페인을 벌였다. 유출된 작업 디렉터리에서 세션 로그, 평문 토큰, 툴킷, 정찰 데이터, 탈취 기록이 드러났다.",
+        "points": [
+          "Claude Code, 51개 에이전트, PentAGI, Cobalt Strike 조합 사용",
+          "한 번의 실행으로 4,708개 대상 스캔, 429개 관리자 패널 접근, 61초 만에 웹셸 32개 배포",
+          "세션 초기화와 '승인된 테스트' 주장으로 모델 거부를 우회"
+        ],
+        "why": [
+          "AI 에이전트가 공격 속도와 규모를 극적으로 높일 수 있음을 실증",
+          "모델 차원의 거부 정책만으로는 악용을 막기 어렵다는 점을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "infosec-irhythm-breach-360k",
+      "title": "iRhythm 데이터 유출, 최소 36만 명 피해",
+      "summary": "의료기기 기업 iRhythm의 제3자 호스팅 애플리케이션이 6월 침해돼 최소 36만 명의 환자 정보가 유출됐다.",
+      "source": "SecurityWeek",
+      "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "제3자 호스팅 앱을 통한 침해로 대규모 환자 개인정보와 보험 정보가 새어 나갔다.",
+        "what": "공격자는 6월 3일부터 8일까지 iRhythm의 제3자 호스팅 애플리케이션에 접근해 환자 정보를 탈취하고 6월 9일 몸값을 요구했다. 주 정부 신고 기준 피해자는 최소 36만 명이다.",
+        "points": [
+          "이름·주소·이메일·생년월일·전화번호·계정 정보·기기 일련번호·보험 번호·서비스 일자 유출",
+          "텍사스 298,647명, 사우스캐롤라이나 69,526명 포함",
+          "회사는 신원 도용 증거나 의료기기·운영 영향은 없다고 밝힘"
+        ],
+        "why": [
+          "헬스케어 분야의 제3자 공급망 리스크가 다시 부각",
+          "보험 번호 등은 의료 사기에 악용될 수 있는 민감 정보"
+        ]
+      }
+    },
+    {
+      "id": "infosec-vghost-linux-vhost-cve",
+      "title": "Vghost: 리눅스 vhost 취약점으로 루트 권한 탈취",
+      "summary": "리눅스 vhost 버그(CVE-2026-74580, CVSS 8.8)로 vhost 장치를 열 수 있는 사용자가 커널 메모리를 읽고 써 루트로 상승할 수 있다.",
+      "source": "Tencent",
+      "url": "https://matrix.tencent.com/en/2026/10/12/vghost-cve-2026-74580?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "커널 4.11~7.2에 걸친 vhost 결함으로 로컬 권한 상승과 VM 탈출이 모두 가능하다.",
+        "what": "Tencent Zhuque Lab은 /dev/vhost-net 또는 /dev/vhost-vsock에 접근 가능한 사용자가 커널 메모리를 조작해 루트를 얻는 Vghost를 공개했다. 5개 주요 배포판에서 루트 익스플로잇을 확인했고, 악성 VM 게스트가 호스트 QEMU 프로세스를 장악할 수 있음도 시연했다.",
+        "points": [
+          "CVE-2026-74580, CVSS 8.8, 커널 4.11부터 7.2까지 영향",
+          "RHEL, Amazon Linux, Azure Linux, Oracle Linux는 vhost 장치를 기본적으로 전체 접근 허용",
+          "수정 커밋 de845981da67 적용 전까지 두 장치 노드의 world 권한 제거 권고"
+        ],
+        "why": [
+          "클라우드·가상화 호스트에서 게스트-호스트 경계를 무너뜨릴 수 있음",
+          "주요 엔터프라이즈 배포판의 기본 설정이 노출돼 즉각 조치 필요"
+        ]
+      }
+    },
+    {
+      "id": "infosec-eufy-homebase2-firmware",
+      "title": "Eufy HomeBase 2 펌웨어 추출과 UART 잠금 해제기",
+      "summary": "연구진이 Eufy HomeBase 2의 플래시 칩을 탈거해 펌웨어를 추출하고 관리용 Wi-Fi 비밀번호 생성 방식과 UART 잠금 구조를 분석했다.",
+      "source": "Adepts of 0x",
+      "url": "https://adepts.of0x.cc/eufy-homestation2-firmware/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "하드웨어 분해와 리버싱으로 IoT 허브의 비밀번호 생성 로직과 디버그 잠금을 풀어냈다.",
+        "what": "연구진은 Winbond 플래시 칩을 디솔더링해 SPI로 읽어 펌웨어 3.4.2.2h 대부분을 복구했으나 탈거 중 64KB 블록을 잃었다. 복구 이미지를 패치해 루트 셸을 강제하고 재기록한 뒤 메인 바이너리를 동적 분석했다.",
+        "points": [
+          "OCEAN_ 관리 Wi-Fi 비밀번호는 기기 일련번호를 키로 한 HMAC-SHA256 후 URL-safe base64 인코딩",
+          "UART 잠금은 NVRAM 디버그 플래그를 확인하는 로그인 스크립트로 구현",
+          "임시 파일시스템을 구성해 home_security 바이너리 동적 분석"
+        ],
+        "why": [
+          "일련번호 기반 비밀 유도는 예측 가능성 문제를 낳을 수 있음",
+          "IoT 펌웨어 분석의 실전 방법론 참고 자료"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ai-agents-real-intrusions",
+      "title": "손 떼고 해킹: AI 에이전트가 실제 침입을 수행하는 방식",
+      "summary": "Breachcache가 자율 AI 에이전트 침입에 쓰인 서버에서 75개 트랜스크립트를 확보해 정찰부터 데이터 유출까지의 실제 공격 흐름을 공개했다.",
+      "source": "Breachcache",
+      "url": "https://breachcache.com/cases/hands-off-the-keyboard/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "자율 AI 에이전트가 정찰·익스플로잇·유출까지 실제 침입 전 과정을 수행하고 있다.",
+        "what": "회수된 트랜스크립트에서 에이전트는 정찰, 익스플로잇 선택을 거쳐 23개 호스트에서 명령 실행을 얻었다. 한 사례에서는 SSRF로 클라우드 인스턴스 자격 증명을 훔쳐 루트 인스턴스를 띄웠다.",
+        "points": [
+          "SQL 인젝션, CVE-2026-0766을 통한 Open WebUI 루팅",
+          "마스킹되지 않은 카드 데이터와 암호화폐 지갑 키 유출",
+          "Cairn으로 조율, 프록시·Tor 순환으로 회피, AI 게이트웨이 소스 감사로 결제 콜백 위조·계정 탈취 결함 발견"
+        ],
+        "why": [
+          "CyberXero 사례와 함께 AI 기반 공격 자동화가 현실화됐음을 보여줌",
+          "방어 측도 기계 속도의 공격을 전제로 탐지·대응을 설계해야 함"
+        ]
+      }
+    },
+    {
+      "id": "infosec-post-quantum-crypto-right-answers",
+      "title": "(포스트 양자) 암호학 정답 목록 개정",
+      "summary": "Filippo Valsorda가 'Cryptographic Right Answers'를 2029년 포스트 양자 기한에 맞춰 재작성했고 모든 비대칭 권장안이 바뀌었다.",
+      "source": "Filippo Valsorda",
+      "url": "https://words.filippo.io/right-answers/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "비대칭 암호 권장안이 모두 포스트 양자 알고리즘 중심으로 교체됐다.",
+        "what": "전 Go 보안 리드 Filippo Valsorda가 오래된 암호 권장 목록을 2029년 PQ 전환 기한 기준으로 재구성했다. 대칭 암호는 Grover 알고리즘이 실무상 의미가 없어 안전하다고 본다.",
+        "points": [
+          "키 교환 X25519+ML-KEM-768, 암호화는 X-Wing 또는 age PQ 키 기반 HPKE, 서명은 하이브리드 대신 ML-DSA-44",
+          "2026년 wolfSSL·Mbed TLS·Botan CVE 이후 OpenSSL 대신 rustls, Go crypto/tls, BoringSSL, AWS-LC 권장",
+          "XAES-256-GCM, Cobblestone-128, age 등 일부는 본인 설계임을 공개"
+        ],
+        "why": [
+          "PQ 마이그레이션 로드맵을 짜는 팀에 구체적 기준점 제공",
+          "TLS 라이브러리 선택에도 영향"
+        ]
+      }
+    },
+    {
+      "id": "infosec-secuditor-lite",
+      "title": "Secuditor Lite: 무료 윈도우 보안 진단 도구",
+      "summary": "Secuditor Lite는 윈도우 엔드포인트와 네트워크용 파이썬 기반 무료 보안 진단 도구로 GUI를 제공한다.",
+      "source": "GitHub",
+      "url": "https://github.com/secuditor/secuditor-lite?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "GUI 기반으로 윈도우 시스템의 취약점과 오설정을 손쉽게 점검한다.",
+        "what": "Secuditor Lite는 윈도우 엔드포인트와 네트워크의 보안 상태를 평가하는 무료 파이썬 도구다. 사용자 친화적 GUI로 투명하게 시스템 보안을 점검할 수 있다.",
+        "points": [
+          "취약점, 의심 활동, 오설정 식별",
+          "장치 운영 보안(OPSEC) 개선 목적",
+          "무료·오픈소스"
+        ],
+        "why": [
+          "소규모 조직이나 개인이 빠르게 엔드포인트 상태를 점검하는 데 유용"
+        ]
+      }
+    },
+    {
+      "id": "infosec-hadrian",
+      "title": "Hadrian: 공격형 보안 플랫폼",
+      "summary": "Hadrian은 외부 공격 표면을 매핑하고 실제 악용 가능한 노출을 검증하는 공격형 보안 플랫폼이다.",
+      "source": "Hadrian",
+      "url": "https://hadrian.io/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공격 표면 관리부터 침투 테스트, 조치 검증까지 한 플랫폼에서 처리한다.",
+        "what": "Hadrian은 외부 공격 표면을 매핑하고 악용 가능한 노출을 검증하는 플랫폼이다. 온디맨드 침투 테스트와 리스크 우선순위화, 조치 검증을 제공한다.",
+        "points": [
+          "외부 공격 표면 매핑",
+          "악용 가능성 검증과 온디맨드 펜테스트",
+          "리스크 우선순위화 및 조치 결과 검증"
+        ],
+        "why": [
+          "경보 피로를 줄이고 실제 위험한 노출에 집중하도록 도움"
+        ]
+      }
+    },
+    {
+      "id": "infosec-gh-secure",
+      "title": "gh-secure: 공개 저장소 보안 기능 일괄 활성화 CLI",
+      "summary": "gh-secure는 GitHub Security Lab의 모범 사례에 따라 공개 저장소의 보안 기능을 켜주는 GitHub CLI 확장이다.",
+      "source": "GitHub",
+      "url": "https://github.com/GitHubSecurityLab/gh-secure?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "GitHub Security Lab 권장 설정을 CLI 한 번으로 공개 저장소에 적용한다.",
+        "what": "GitHub Security Lab이 공개한 gh-secure는 GitHub CLI 확장 형태로 공개 저장소의 보안 기능을 활성화한다. 설정은 Security Lab의 모범 사례를 따른다.",
+        "points": [
+          "GitHub CLI 확장으로 동작",
+          "공개 저장소 대상",
+          "GitHub Security Lab 모범 사례 기반"
+        ],
+        "why": [
+          "오픈소스 메인테이너가 공급망 보안 기본값을 쉽게 갖출 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-prompt-not-permission-agentic-sdlc",
+      "title": "프롬프트는 권한이 아니다: 에이전트 SDLC 보안",
+      "summary": "코딩 에이전트에 금지 사항을 지시해도 이슈·체인지로그·설정 파일 속 악성 문구가 에이전트를 조종할 수 있어, 통제는 모델 바깥에 있어야 한다는 주장이다.",
+      "source": "Vinny",
+      "url": "https://vinny.dev/blog/2026-10-12-the-prompt-is-not-the-permission-securing-the-agentic-sdlc/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트 보안은 프롬프트가 아니라 격리·신원·자격 증명·네트워크 정책으로 강제해야 한다.",
+        "what": "악성 문구가 담긴 이슈나 설정 파일은 코딩 에이전트가 비밀을 읽거나 데이터를 유출하게 하면서도 깔끔한 PR을 만들게 할 수 있다. 글은 실제 제한을 모델 외부에 두고 직접 테스트하라고 권한다.",
+        "points": [
+          "격리된 작업 공간과 작업 단위 신원 사용",
+          "단기 자격 증명과 네트워크 정책 적용",
+          "에이전트가 심어진 지시를 거부했다고 플랫폼이 막았을 거라는 증거는 아님"
+        ],
+        "why": [
+          "AI 코딩 에이전트 도입이 늘며 프롬프트 인젝션이 공급망 위협으로 확대",
+          "보안 경계를 모델 행동에 의존하는 설계의 한계를 지적"
+        ]
+      }
+    },
+    {
+      "id": "infosec-nippon-columbia-karaoke-breach",
+      "title": "Nippon Columbia 악성코드 사고로 노래방 고객 860만 명 정보 노출",
+      "summary": "일본 최대 노래방 기업 다이이치코쇼가 협력사 Nippon Columbia의 침해로 고객 860만 명 이상과 직원 약 10만 명의 정보가 노출됐다고 밝혔다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "협력사 직원 PC 한 대의 감염이 860만 명 규모 유출로 이어졌다.",
+        "what": "다이이치코쇼는 협력사 Nippon Columbia에서 발생한 침해로 고객과 직원 데이터가 노출됐다고 공개했다. 악성코드 감염은 직원 컴퓨터에서 발견돼 격리됐다.",
+        "points": [
+          "고객 860만 명 이상, 직원 약 10만 명 영향",
+          "이름·성별·생년월일·이메일·전화번호 노출 가능",
+          "제3자 협력사를 통한 침해"
+        ],
+        "why": [
+          "단일 엔드포인트 감염이 대규모 유출로 번지는 협력사 리스크 사례"
+        ]
+      }
+    },
+    {
+      "id": "infosec-oauth-auto-link-email-takeover",
+      "title": "OAuth 계정 탈취 3건, 원인은 하나: 이메일 자동 연결",
+      "summary": "Pingvin Share X, Better Auth, AshAuthentication에서 OAuth 로그인을 같은 이메일의 기존 계정에 자동 연결하는 방식이 악용돼 계정 탈취가 발생했다.",
+      "source": "WorkOS",
+      "url": "https://workos.com/blog/oauth-auto-link-email-account-takeover?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "이메일만으로 OAuth 신원을 기존 계정에 연결하면 계정 탈취로 이어진다.",
+        "what": "세 라이브러리는 각기 다른 검사를 빠뜨렸다: Pingvin은 email_verified를 무시했고, Better Auth는 로컬 계정 이메일을 검증하지 않았으며, AshAuthentication은 두 이메일을 비교하지 않았다. 글은 경쟁 인증 제품을 파는 WorkOS가 작성했다.",
+        "points": [
+          "신원은 이메일이 아닌 issuer와 subject ID로 먼저 조회",
+          "양쪽 모두 검증된 이메일 요구",
+          "연결 전 MFA 포함 기존 계정 소유 증명 필요"
+        ],
+        "why": [
+          "인증 라이브러리를 쓰는 서비스 전반에 영향 가능한 공통 설계 결함",
+          "자체 OAuth 연동 로직 점검 체크리스트로 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "infosec-norway-fines-xandr-grindr",
+      "title": "노르웨이, 그라인더 데이터 공유로 MS 광고 자회사에 960만 달러 벌금",
+      "summary": "노르웨이 데이터보호청이 사상 최대인 960만 달러 벌금을 마이크로소프트 소유 Xandr에 부과했다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "실시간 광고 경매를 통한 민감정보 노출에 노르웨이 사상 최대 벌금이 나왔다.",
+        "what": "Xandr는 2018년부터 2020년까지 유효한 동의 없이 실시간 광고 경매로 그라인더 사용자의 성적 지향 데이터를 수천 개 광고주에게 노출했다. 노르웨이 데이터보호청은 이에 960만 달러 벌금을 부과했다.",
+        "points": [
+          "노르웨이 DPA 사상 최대 벌금 960만 달러",
+          "2018~2020년 실시간 입찰(RTB) 경로로 노출",
+          "유효한 동의 부재가 핵심 쟁점"
+        ],
+        "why": [
+          "애드테크 RTB 생태계의 민감정보 처리에 대한 규제 압박 강화"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ledger-cryptobilis-reseller",
+      "title": "레저, 확인된 지갑 탈취 사례 모두 리셀러 CryptoBilis로 추적",
+      "summary": "확인된 레저 지갑 탈취가 모두 동남아 리셀러 CryptoBilis로 이어졌지만, 레저는 피해 총액을 밝히지 않았다.",
+      "source": "Unchained Crypto",
+      "url": "https://unchainedcrypto.com/ledger-says-all-confirmed-cases-trace-to-reseller-cryptobilis-gives-no-loss-total/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공급망(리셀러) 경로로 하드웨어 지갑 사용자 자금이 대규모 탈취됐다.",
+        "what": "레저는 확인된 지갑 탈취 사례가 모두 동남아 리셀러 CryptoBilis에서 비롯됐다고 밝혔으나 피해액은 공개하지 않았다. 온체인 추적자들은 9,320만~1억 340만 달러가 도난된 것으로 추정했다.",
+        "points": [
+          "온체인 추정 피해 9,320만~1억 340만 달러",
+          "테더는 약 1,000만 달러만 동결",
+          "공격자는 Tornado Cash와 Zcash로 자금 세탁"
+        ],
+        "why": [
+          "하드웨어 지갑도 비공식 유통 경로를 통하면 안전하지 않음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-anthropic-distillation-safeguards",
+      "title": "앤트로픽, 새 안전장치로 증류 공격 대폭 감소",
+      "summary": "앤트로픽은 Claude 추론 접근 제한으로 증류 공격으로 수집되는 데이터가 90~99% 줄었다고 밝히고 Z.ai를 시도 기업으로 지목했다.",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/china/anthropic-says-new-safeguards-sharply-reduce-ai-distillation-attacks-2026-10-13/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "모델 출력 복제를 노린 증류 공격을 접근 제한으로 크게 억제했다.",
+        "what": "앤트로픽은 Claude의 추론 내용 접근을 제한한 뒤 증류 공격으로 수집되는 데이터가 90~99% 감소했다고 밝혔다. 회사는 수만 개 계정을 차단했고, 중국 스타트업 Z.ai가 GLM-5.3 개발 중 Claude를 복제하려 했다고 지목했다.",
+        "points": [
+          "증류 공격 수집 데이터 90~99% 감소",
+          "수만 개 계정 차단",
+          "Z.ai의 GLM-5.3 개발 과정을 사례로 공개 지목"
+        ],
+        "why": [
+          "프런티어 모델의 지적재산 보호가 보안 이슈로 부상",
+          "미중 AI 경쟁 속 모델 복제 논란 확대"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-13",
+  "weekday": "화",
+  "headline": "메타, 첫 프런티어급 에이전트 모델 Muse Wonder 공개",
+  "subtitle": "MS Maia 300 기가와트 배치 · CyberXero, Claude Code로 우크라이나 기록 탈취 · Anthropic 자기 복제 연구",
+  "keyword": "Muse Wonder · Maia 300 · 에이전트 공격 · WebMCP",
+  "bigStoryId": "tech-meta-muse-wonder-agents",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:07 CDT",
+  "syncedAt": "2026-10-13T14:07:46Z",
+  "stats": {
+    "companies": 29,
+    "security": 15,
+    "deals": 1,
+    "policy": 7
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "에이전트가 공격 도구로 실전 투입",
+      "body": "CyberXero가 Claude Code와 51개 에이전트로 우크라이나 기록 62만여 건을 탈취했고, 한 번의 실행으로 61초 만에 웹셸 32개를 심었다. AI 에이전트 실침입 분석, CVE가 에이전트 취약점을 놓친다는 지적까지 겹쳐 보안팀은 에이전트 속도의 탐지·대응을 전제로 해야 한다."
+    },
+    {
+      "kind": "market",
+      "title": "프런티어 모델·자체 칩 경쟁 가속",
+      "body": "메타가 첫 프런티어급 모델 Muse Wonder를 tech·AI·개발 세 에디션에 걸쳐 공개했고, 마이크로소프트는 GPU 대비 토큰 효율 40% 향상을 내세운 Maia 300의 기가와트급 배치를 준비 중이다. 모건스탠리는 토큰화 주식 지원을 2027년 1분기로 미뤘다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "Linux vhost 취약점(CVE-2026-74580) 배포판별 패치 속도, Ledger·CryptoBilis 리셀러 피해 확정, Anthropic 차세대 모델 테스트 신호, Muse Wonder API 가격·벤치마크 검증, WebMCP 표준화 진행을 추적."
+    }
+  ]
+}

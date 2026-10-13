@@ -1,0 +1,238 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-orsted-firewall-automation",
+      "title": "외르스테드, 컴플라이언스 내장 자동화로 방화벽 변경 가속",
+      "summary": "에너지 기업 외르스테드가 Nautobot으로 방화벽 변경 관리를 자동화해 일부 요청 처리를 수 주에서 약 10분으로 단축했다.",
+      "source": "Network World",
+      "url": "https://www.networkworld.com/article/4229048/orsted-builds-compliance-into-automation-speeds-firewall-changes.html?utm_source=tldrit",
+      "report": {
+        "tldr": "정책 검증과 감사 추적을 자동화에 넣어 속도와 컴플라이언스를 함께 잡았다.",
+        "what": "외르스테드는 Nautobot 기반으로 방화벽 변경 관리를 자동화했다. 일부 요청은 수 주에서 약 10분으로 줄었다.",
+        "points": [
+          "Nautobot 기반 네트워크 자동화",
+          "정책 검증, 승인, 감사 추적을 워크플로에 통합",
+          "일부 요청 처리 수 주 → 약 10분"
+        ],
+        "why": [
+          "규제 산업에서도 자동화가 컴플라이언스를 해치지 않고 속도를 높일 수 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "it-exchange-admin-center-outage",
+      "title": "MS, Exchange 관리 센터 장애 원인으로 구성 변경 지목",
+      "summary": "마이크로소프트가 관리자들이 Exchange 관리 센터에 접속하지 못한 장애 후 해당 구성 변경을 롤백했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/saas/2026/10/12/microsoft-blames-a-configuration-change-for-exchange-admin-center-tumble/5302698?utm_source=tldrit",
+      "report": {
+        "tldr": "또 한 번의 배포 관련 장애로 Exchange 관리 센터 접근이 끊겼다.",
+        "what": "월요일 관리자들이 Exchange 관리 센터에 접근하지 못하자 마이크로소프트가 구성 변경을 롤백했다. 접근은 복구됐고 회사는 변경 내용과 모니터링을 검토 중이다.",
+        "points": [
+          "원인은 구성 변경, 롤백으로 복구",
+          "MS는 변경 절차와 모니터링 재검토",
+          "배포 관련 장애가 반복되는 흐름"
+        ],
+        "why": [
+          "SaaS 관리 콘솔 의존도가 높은 IT 조직에 운영 리스크 상기"
+        ]
+      }
+    },
+    {
+      "id": "it-french-supermarket-fridge-attack",
+      "title": "사이버 공격으로 프랑스 슈퍼마켓 냉장 설비 정지",
+      "summary": "공격자들이 프랑스 슈퍼마켓 수백 곳의 냉장 컨트롤러를 조작해 제상 사이클을 유발하고 식품을 상하게 한 것으로 알려졌다.",
+      "source": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/?utm_source=tldrit",
+      "report": {
+        "tldr": "OT·위탁 관리 시스템 침해가 곧바로 물리적 피해로 이어졌다.",
+        "what": "공격자들은 프랑스 슈퍼마켓 수백 곳의 냉장 컨트롤러를 조작해 제상 사이클을 강제로 돌렸다. 그 결과 식품이 변질되는 피해가 발생했다.",
+        "points": [
+          "수백 개 매장의 냉장 컨트롤러 조작",
+          "제상 사이클 유발로 식품 손상",
+          "제3자 관리 시스템이 침해 경로로 지목"
+        ],
+        "why": [
+          "운영기술(OT) 보안이 유통업에서도 즉각적 손실로 직결"
+        ]
+      }
+    },
+    {
+      "id": "it-below-the-frontier-good-enough-ai",
+      "title": "프런티어 아래: '충분히 좋은 AI'를 둘러싼 전쟁",
+      "summary": "프런티어 모델보다 일상 기업 지식 업무용 저비용 모델 시장이 미래 매출의 핵심 격전지가 될 것이라는 분석이다.",
+      "source": "Eastwind",
+      "url": "https://eastwind.substack.com/p/below-the-frontier-the-battle-for?utm_source=tldrit",
+      "report": {
+        "tldr": "진짜 큰 시장은 프런티어가 아니라 '충분히 좋은' 기업용 AI 계층에 있다.",
+        "what": "오픈 웨이트·저가 클라우드·온디바이스 모델이 한정된 업무를 처리할 수 있게 되면서 일상 비즈니스 앱 시장이 커질 것이라는 주장이다. 이 '스위스' 계층에서 이기려면 여러 트레이드오프를 다뤄야 한다.",
+        "points": [
+          "헤드라인은 소비자 에이전트·프런티어 코딩 모델이 차지",
+          "오픈 웨이트·온디바이스 모델이 한정 업무를 감당할 수준 도달",
+          "데이터 주권, 로컬 vs 클라우드 추론, 소프트웨어 통합이 승부처"
+        ],
+        "why": [
+          "IT 조직의 모델 선택이 최고 성능보다 비용·주권·통합 중심으로 이동할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "it-standout-cio-skills",
+      "title": "기업이 원하는 CIO 핵심 역량 12가지",
+      "summary": "IT 리더에게는 기술 전문성 외에 재무 판단, 운영 이해, 소통, 팀 구축 능력이 필요하다는 정리다.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4064309/7-standout-cio-skills-every-company-wants.html?utm_source=tldrit",
+      "report": {
+        "tldr": "CIO 역량의 핵심은 투자를 측정 가능한 사업 성과에 연결하는 것이다.",
+        "what": "기술 지식은 CIO 업무의 일부일 뿐이며 재무 판단, 운영 이해, 명확한 소통, 효과적인 팀 구축이 요구된다. 모든 요청을 백로그로 쌓지 말고 의도적인 트레이드오프를 하라고 강조한다.",
+        "points": [
+          "재무 판단과 운영 이해",
+          "명확한 커뮤니케이션과 팀 빌딩",
+          "투자를 측정 가능한 사업 성과와 연결"
+        ],
+        "why": [
+          "IT 리더십의 평가 기준이 기술에서 사업 성과로 이동"
+        ]
+      }
+    },
+    {
+      "id": "it-releasing-ai-generated-software",
+      "title": "AI가 생성한 소프트웨어 출시하기",
+      "summary": "사람의 코드 리뷰 없는 완전 AI 생성 소프트웨어도 극단적 제약과 자동 테스트가 있으면 가능하지만, 법적 책임 체계는 준비가 안 됐다는 글이다.",
+      "source": "ploeh blog",
+      "url": "https://blog.ploeh.dk/2026/10/12/releasing-ai-generated-software/?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 생성 코드 출시는 기술보다 책임 소재 문제가 더 큰 장벽이다.",
+        "what": "저자는 자율주행차 논리처럼 극단적 제약과 자동화 테스트가 뒷받침되면 리뷰 없는 AI 생성 소프트웨어도 실현 가능하다고 본다. 다만 기존 법·책임 모델은 사람 개발자를 겨냥해 아무도 코드를 쓰지 않은 시스템에 맞지 않는다.",
+        "points": [
+          "극단적 제약과 자동 테스트가 전제 조건",
+          "자율주행차 논쟁과 유사한 구조",
+          "기존 책임 모델은 사람 작성자를 전제"
+        ],
+        "why": [
+          "AI 코딩 확산 속 거버넌스·책임 정책 마련 필요성 제기"
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-cyber-mission",
+      "title": "앤트로픽, 'Cyber Mission'으로 핵심 기반시설 방어 프로그램 출범",
+      "summary": "앤트로픽이 수도·전력망·교통 등 OT 환경 보호를 위한 Critical Infrastructure Defense Program과 오픈소스용 OSS Scanner를 발표했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-cyber-mission?utm_source=tldrit",
+      "report": {
+        "tldr": "Claude를 핵심 기반시설 취약점 평가와 패치에 투입한다.",
+        "what": "앤트로픽은 CrowdShield, Dragos, Nozomi Networks, Rockwell Automation 등 보안·제조 기업과 협력해 Claude 모델과 위협 연구를 OT 취약점 평가·패치에 활용한다. 오픈소스 메인테이너에게 자동 취약점 보고서를 제공하는 OSS Scanner도 함께 내놨다.",
+        "points": [
+          "수도·전력망·교통 등 OT 분야 대상",
+          "Dragos, Nozomi Networks, Rockwell Automation 등과 파트너십",
+          "OSS Scanner로 오픈소스 취약점 자동 보고"
+        ],
+        "why": [
+          "AI 기업이 방어형 보안과 기반시설 영역으로 진출",
+          "AI 악용 공격 증가에 대한 대응 성격"
+        ]
+      }
+    },
+    {
+      "id": "it-raspberry-pi-desktop-debian-13",
+      "title": "Raspberry Pi Desktop, 4년 만에 데비안 13 기반으로 복귀",
+      "summary": "PC·인텔 맥용 경량 OS인 Raspberry Pi Desktop이 Wayland 데스크톱을 갖춘 데비안 13 기반 버전으로 돌아왔다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/os-platforms/2026/10/12/raspberry-pi-desktop-catches-up-with-debian-13-after-4-year-wait/5301693?utm_source=tldrit",
+      "report": {
+        "tldr": "4년 공백 끝에 x86용 Raspberry Pi Desktop이 최신 데비안으로 갱신됐다.",
+        "what": "Raspberry Pi의 PC·인텔 맥용 경량 데스크톱 OS가 데비안 13 기반으로 출시됐다. Wayland 데스크톱과 Raspberry Pi Connect 원격 접속을 포함한다.",
+        "points": [
+          "데비안 13 기반, Wayland 데스크톱",
+          "Raspberry Pi Connect 원격 접속 포함",
+          "새로 설치 필요, 64비트 x86만 지원(애플 실리콘 미지원)"
+        ],
+        "why": [
+          "구형 PC 재활용·교육용 경량 OS 선택지 갱신"
+        ]
+      }
+    },
+    {
+      "id": "it-why-webmcp-matters",
+      "title": "WebMCP가 중요한 이유",
+      "summary": "WebMCP는 사이트가 명시적 스키마를 가진 JavaScript 도구를 AI 에이전트에 직접 제공해, DOM·스크린샷 파싱보다 빠르고 저렴한 상호작용을 가능케 한다.",
+      "source": "Yoav Weiss",
+      "url": "https://blog.yoav.ws/posts/why_webmcp_matters/?utm_source=tldrit",
+      "report": {
+        "tldr": "WebMCP는 AI 에이전트가 웹과 상호작용하는 핵심 기본 요소가 될 수 있다.",
+        "what": "WebMCP는 공동 브라우징 모델에서 AI 에이전트가 웹과 상호작용하도록 하는 기본 요소다. 사이트가 스키마가 명시된 JS 도구를 제공해 기존 방식보다 효율적이다.",
+        "points": [
+          "명시적 스키마를 갖춘 JavaScript 도구 제공",
+          "DOM·스크린샷 파싱 대비 빠르고 저렴",
+          "다단계 작업에는 선언형 HTML을 보완하는 명령형 도구가 필요"
+        ],
+        "why": [
+          "웹 사이트 운영자가 에이전트 친화적 인터페이스를 고려해야 할 시점"
+        ]
+      }
+    },
+    {
+      "id": "it-tcp-ip-pragmatism",
+      "title": "세계를 연결한 TCP/IP의 실용주의를 기리며",
+      "summary": "수많은 경쟁 기술이 사라지는 동안 TCP/IP가 살아남은 이유를 개방 표준과 점진적 개선에서 찾는 칼럼이다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/columnists/2026/10/12/celebrating-the-brilliant-pragmatism-of-tcp/ip-the-wiring-of-the-world/5302202?utm_source=tldrit",
+      "report": {
+        "tldr": "TCP/IP의 생존 비결은 완벽함이 아닌 개방성과 실용적 점진주의였다.",
+        "what": "칼럼은 TCP/IP가 수십 년의 폭발적 성장을 견딘 이유를 살핀다. 핵심은 개방 표준, 상호운용성, 그리고 전면 교체를 요구하지 않는 점진적 개선이다.",
+        "points": [
+          "개방 표준과 상호운용성",
+          "전면 교체 대신 점진적 개선",
+          "경쟁 기술 다수는 소멸"
+        ],
+        "why": [
+          "새 기술 표준 설계·도입 시 참고할 교훈"
+        ]
+      }
+    },
+    {
+      "id": "it-cve-misses-ai-agent-vulns",
+      "title": "CVE 프로그램이 AI 에이전트 취약점 대부분을 놓치는 이유",
+      "summary": "에이전트 보안 연구자가 취약점 추적을 CVE 너머 에이전트 권한, 프롬프트 인젝션, 공유 신원, 도구 간 상호작용까지 넓혀야 한다고 설명한다.",
+      "source": "aminrj.com",
+      "url": "https://aminrj.com/posts/why-cve-programs-miss-most-ai-agent-vulnerabilities/?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 에이전트 위험은 CVE 체계로 잡히지 않는 영역에 몰려 있다.",
+        "what": "연구자는 기존 CVE 중심 취약점 관리가 AI 에이전트 위험을 대부분 놓친다고 지적한다. 추적 범위를 권한, 프롬프트 인젝션, 공유 신원, 도구 상호작용으로 확장해야 한다고 주장한다.",
+        "points": [
+          "에이전트 권한 관리",
+          "프롬프트 인젝션",
+          "공유 신원과 도구 간 상호작용"
+        ],
+        "why": [
+          "취약점 관리 프로그램의 범위 재설계 필요"
+        ]
+      }
+    },
+    {
+      "id": "it-tinyjs-desktop-apps",
+      "title": "작은 데스크톱 앱이 필요할 때: TinyJS",
+      "summary": "TinyJS는 브라우저 엔진을 번들하지 않고 OS 기본 웹뷰로 작은 JavaScript 데스크톱 앱을 만든다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/devops/2026/10/12/when-you-just-need-to-build-a-tiny-desktop-app-tinyjs/5302502?utm_source=tldrit",
+      "report": {
+        "tldr": "네이티브 웹뷰로 Electron보다 가벼운 데스크톱 앱을 만든다.",
+        "what": "TinyJS는 운영체제의 네이티브 웹뷰를 활용해 소형 JavaScript 데스크톱 애플리케이션을 빌드한다. 앱마다 브라우저 엔진 전체를 포함하지 않는다.",
+        "points": [
+          "OS 네이티브 웹뷰 사용",
+          "브라우저 엔진 번들 불필요",
+          "소규모 데스크톱 앱 대상"
+        ],
+        "why": [
+          "사내 도구 등 경량 앱 배포 크기와 자원 사용을 줄일 수 있음"
+        ]
+      }
+    }
+  ]
+}
