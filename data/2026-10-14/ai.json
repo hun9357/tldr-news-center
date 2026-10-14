@@ -1,0 +1,302 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-openai-employee-arrested-recording-device",
+      "title": "OpenAI, 임원 회의실 도청장치 적발…직원 체포",
+      "summary": "OpenAI가 임원 회의실에서 은닉 녹음장치를 발견해 직원을 해고했고 해당 직원은 체포됐다. 회사는 모델 가중치·소스코드·고객 데이터 접근 증거는 없다고 밝혔다.",
+      "source": "OpenAI Newsroom (X)",
+      "url": "https://x.com/OpenAINewsroom/status/2110095403198849132?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI가 내부자 도청 사건을 공식 확인하며 핵심 자산 유출은 없었다고 선을 그었다.",
+        "what": "OpenAI는 임원 회의실에서 은닉 녹음장치를 발견했다고 밝혔다. 이로 인해 직원 Abdulrahman Alfozan이 해고되고 체포됐다. 회사는 모델 가중치, 소스코드, 고객 데이터가 접근됐다는 증거는 없다고 강조했다.",
+        "points": [
+          "임원 회의실에서 은닉 녹음장치 발견",
+          "관련 직원 해고 및 체포",
+          "모델 가중치·소스코드·고객 데이터 접근 증거 없음"
+        ],
+        "why": [
+          "프런티어 연구소가 국가 차원의 정보 수집 표적이 되고 있음을 시사",
+          "AI 기업 내부 보안 기준 강화 압력"
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-4-argon-google-cloud",
+      "title": "Gemini 4 Argon, 구글 클라우드에 출시",
+      "summary": "구글이 장시간 맥락이 필요한 엔터프라이즈 업무용 프런티어 모델 Gemini 4 Argon을 구글 클라우드에 내놨다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud?utm_source=tldrai",
+      "report": {
+        "tldr": "구글의 최상위 모델이 엔터프라이즈 클라우드 채널로 본격 공급된다.",
+        "what": "구글이 Gemini 4 Argon을 구글 클라우드에서 제공하기 시작했다. 지속적인 맥락 유지가 필요한 엔터프라이즈 작업을 겨냥한 프런티어 모델이다. 소프트웨어 개발, 금융, 법률, 사이버보안이 주요 용도로 제시됐다.",
+        "points": [
+          "구글 클라우드를 통한 Gemini 4 Argon 제공",
+          "장시간 맥락 유지가 필요한 업무에 초점",
+          "개발·금융·법률·보안 용도 강조"
+        ],
+        "why": [
+          "기업 고객 대상 프런티어 모델 경쟁에서 구글의 클라우드 유통력 활용"
+        ]
+      }
+    },
+    {
+      "id": "ai-zvi-ai-consciousness-arguments",
+      "title": "AI 의식 논쟁, 여전히 동기화되고 과신에 차 있다",
+      "summary": "AI 의식 논쟁은 근거가 약한 채 제자리걸음이라는 Zvi의 분석. Anthropic은 AI에 대한 학대적 대우를 이용약관 위반으로 분류한다.",
+      "source": "Zvi Mowshowitz",
+      "url": "https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 의식 논쟁은 양쪽 모두 근거보다 동기에 끌려가고 있다.",
+        "what": "Zvi는 AI 의식에 관한 논쟁이 진전이 거의 없고 증거도 약하다고 평가한다. Anthropic은 AI 시스템에 대한 학대적 대우를 약관 위반으로 분류하는 정책을 두고 있다. 다만 현재 AI가 의식을 가졌는지에 대해서는 회의론이 여전하다.",
+        "points": [
+          "AI 의식 논쟁의 진전과 증거 모두 부족",
+          "Anthropic: AI 학대적 대우를 약관 위반으로 분류",
+          "현 AI의 의식 보유에 대한 회의론 지속"
+        ],
+        "why": [
+          "모델 복지 정책이 실제 서비스 약관에 반영되기 시작한 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-dynamic-workflows",
+      "title": "Anthropic 동적 워크플로, 클로드 에이전트를 어떻게 조율하나",
+      "summary": "Anthropic의 동적 워크플로는 클로드가 멀티에이전트 조율을 맡게 한다. 비용은 단일 에이전트보다 늘어난다.",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/p/claude-dynamic-workflows?utm_source=tldrai",
+      "report": {
+        "tldr": "멀티에이전트 오케스트레이션이 제품 기능으로 들어왔지만 비용 트레이드오프가 따른다.",
+        "what": "Anthropic의 동적 워크플로는 클로드가 여러 에이전트 간 협업을 관리하도록 한다. 시연에서는 별도 에이전트들이 주가 데이터를 분석한 뒤 보고서를 만들었다. 다만 이 방식은 단일 에이전트 대비 비용이 증가한다.",
+        "points": [
+          "클로드가 멀티에이전트 조율을 직접 관리",
+          "시연: 에이전트별 주가 분석 후 보고서 생성",
+          "단일 에이전트 대비 비용 증가"
+        ],
+        "why": [
+          "복잡한 작업을 분할·병렬 처리하는 에이전트 설계의 실용화",
+          "도입 시 품질 향상과 비용 증가를 함께 따져야 함"
+        ]
+      }
+    },
+    {
+      "id": "ai-liquid-lfm2-5-24b-a2b",
+      "title": "Liquid AI, 온디바이스용 LFM2.5-24B-A2B 공개",
+      "summary": "총 240억, 활성 20억 파라미터의 추론 모델로, 8개 벤치마크 중 5개에서 Qwen3.6-35B-A3B와 같거나 앞서며 최대 1.7배 빠르다.",
+      "source": "Liquid AI",
+      "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b?utm_source=tldrai",
+      "report": {
+        "tldr": "작은 활성 파라미터로 온디바이스 에이전트를 노리는 효율형 MoE 모델.",
+        "what": "Liquid AI가 240억 파라미터 중 20억만 활성화되는 추론 모델 LFM2.5-24B-A2B를 공개했다. 빠르고 프라이빗한 온디바이스 에이전트 배포를 목표로 설계됐다. 8개 벤치마크 중 5개에서 Qwen3.6-35B-A3B 같은 더 큰 모델과 같거나 앞서며 최대 1.7배 빠르다.",
+        "points": [
+          "총 24B·활성 2B 파라미터 구조",
+          "온디바이스·프라이빗 에이전트 배포 지향",
+          "8개 중 5개 벤치마크에서 Qwen3.6-35B-A3B와 동등 이상",
+          "최대 1.7배 빠른 속도"
+        ],
+        "why": [
+          "엣지 기기에서 돌아가는 에이전트 모델 경쟁 가속"
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-runai-open-source",
+      "title": "NVIDIA, Run:ai 오픈소스화…DSX AI 팩토리 플랫폼 일부로",
+      "summary": "NVIDIA가 KAI 스케줄러, GPU 분할 오퍼레이터 등 Run:ai 플랫폼을 오픈소스로 공개해 GPU 활용률 개선을 노린다.",
+      "source": "NVIDIA Developer Blog",
+      "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform?utm_source=tldrai",
+      "report": {
+        "tldr": "인수했던 GPU 오케스트레이션 스택을 NVIDIA가 통째로 열었다.",
+        "what": "NVIDIA가 Run:ai 플랫폼을 오픈소스로 공개했다. KAI 스케줄러, GPU 분할(Fractioning) 오퍼레이터, 자원 관리 도구가 포함된다. GPU 활용률과 인프라 효율을 높이는 것이 목적이며 DSX AI 팩토리 플랫폼의 일부로 제공된다.",
+        "points": [
+          "Run:ai 플랫폼 오픈소스 공개",
+          "KAI 스케줄러·GPU 분할 오퍼레이터·자원 관리 도구 포함",
+          "DSX AI 팩토리 플랫폼 구성 요소"
+        ],
+        "why": [
+          "GPU 클러스터 운영 도구의 표준화를 NVIDIA 주도로 끌어가려는 전략",
+          "기업이 GPU 유휴 자원을 줄일 수 있는 무료 도구 확보"
+        ]
+      }
+    },
+    {
+      "id": "ai-physical-intelligence-pi-api-beta",
+      "title": "Physical Intelligence, 로봇 파운데이션 모델 Pi API 베타 출시",
+      "summary": "Physical Intelligence가 관리형 ML 인프라, 파인튜닝, 호스팅 추론 게이트웨이를 갖춘 Pi API 베타를 열었다.",
+      "source": "Physical Intelligence",
+      "url": "https://www.pi.website/blog/api-beta?utm_source=tldrai",
+      "report": {
+        "tldr": "로봇 파운데이션 모델이 API 형태로 외부 개발자에게 열렸다.",
+        "what": "Physical Intelligence가 로봇 파운데이션 모델에 접근할 수 있는 Pi API 베타를 출시했다. 관리형 ML 인프라, 파인튜닝 기능, 호스팅 추론 게이트웨이를 제공한다.",
+        "points": [
+          "로봇 파운데이션 모델 API 베타",
+          "관리형 ML 인프라와 파인튜닝 지원",
+          "호스팅 추론 게이트웨이 제공"
+        ],
+        "why": [
+          "로봇 기업이 자체 모델 학습 없이 범용 로봇 지능을 활용할 길이 열림"
+        ]
+      }
+    },
+    {
+      "id": "ai-opencode-2-0",
+      "title": "OpenCode 2.0 출시",
+      "summary": "오픈소스 코딩 에이전트 OpenCode 2.0이 백그라운드 프로세스 자동 실행, SDK 라이브러리 지원, 클라이언트 자동 탐색 등을 추가했다.",
+      "source": "Anomaly",
+      "url": "https://anoma.ly/notes/opencode-2-0/?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenCode가 메이저 업데이트로 프로그래밍 가능한 에이전트 플랫폼에 가까워졌다.",
+        "what": "OpenCode 2.0은 백그라운드 프로세스 자동 실행, SDK 라이브러리 지원, 프로그래밍 방식의 클라이언트 자동 탐색을 도입했다. 여러 성능 개선과 버그 수정도 포함됐다.",
+        "points": [
+          "백그라운드 프로세스 자동 실행",
+          "SDK 라이브러리 지원",
+          "프로그래밍 방식 클라이언트 자동 탐색",
+          "성능 개선·버그 수정"
+        ],
+        "why": [
+          "오픈소스 코딩 에이전트 생태계의 경쟁력 강화"
+        ]
+      }
+    },
+    {
+      "id": "ai-ramp-glass",
+      "title": "Ramp, AI 워크스페이스 Glass 공개",
+      "summary": "Ramp가 지식 공유·협업용 AI 워크스페이스 Glass를 출시했다. 직원 지식 편집 6,500건 이상, 모델 라우팅으로 AI 비용 30% 절감을 기록했다.",
+      "source": "X (Eric Glyman)",
+      "url": "https://x.com/eglyman/status/2110007713396613568?utm_source=tldrai",
+      "report": {
+        "tldr": "핀테크 Ramp가 사내 AI 활용 경험을 워크스페이스 제품으로 내놨다.",
+        "what": "Ramp가 지식 공유와 협업을 위한 AI 워크스페이스 Glass를 출시했다. 직원들은 6,500건 이상의 지식 편집을 했고 모델 라우팅으로 AI 비용을 30% 줄였다. 자동화 워크플로로 기능 요청 추적도 개선됐다.",
+        "points": [
+          "지식 공유·협업용 AI 워크스페이스",
+          "직원 지식 편집 6,500건 이상",
+          "모델 라우팅으로 AI 비용 30% 절감",
+          "자동화 워크플로로 기능 요청 추적 개선"
+        ],
+        "why": [
+          "모델 라우팅이 기업 AI 비용 절감의 실질적 수단임을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "ai-character-ai-chapter-11",
+      "title": "Character.ai, 챕터 11 파산보호 신청",
+      "summary": "Character.ai가 법적·규제·운영 압박 속에 법원 감독 하의 매각을 위해 자발적 챕터 11을 신청했다. 서비스 지속 여부는 인수자 확보에 달렸다.",
+      "source": "Character.ai",
+      "url": "https://blog.character.ai/an-update-on-character-ai/?utm_source=tldrai",
+      "report": {
+        "tldr": "AI 컴패니언 선두 주자가 소송·규제 부담을 못 이기고 매각 절차에 들어갔다.",
+        "what": "Character.ai가 자발적 챕터 11 파산보호를 신청하고 법원 감독 하의 매각을 추진한다. 법적, 규제적, 운영상 압박이 배경이다. 플랫폼의 지속 여부는 적절한 인수자를 찾는지에 달려 있다.",
+        "points": [
+          "자발적 챕터 11 신청",
+          "법원 감독 하의 매각 추진",
+          "법적·규제·운영 압박이 원인",
+          "서비스 존속은 인수자 확보에 좌우"
+        ],
+        "why": [
+          "AI 컴패니언 서비스에 대한 규제·소송 리스크가 사업 존립을 위협함을 보여줌",
+          "소비자 AI 스타트업의 생존 조건에 대한 경고"
+        ]
+      }
+    },
+    {
+      "id": "ai-gpt-6-1-sol-500k-context",
+      "title": "GPT 6.1 Sol, 기본 컨텍스트 창 50만 토큰으로 확대",
+      "summary": "GPT 6.1 Sol의 기본 컨텍스트가 50만 토큰으로 늘어 장기 작업의 컴팩션이 줄고 작업 완료가 빨라진다.",
+      "source": "Thread Reader (X)",
+      "url": "https://threadreaderapp.com/thread/2109543080609165508.html?utm_source=tldrai",
+      "report": {
+        "tldr": "긴 에이전트 작업에서 컨텍스트 압축 빈도가 줄어든다.",
+        "what": "GPT 6.1 Sol의 기본 컨텍스트 창이 이날부터 50만 토큰으로 설정됐다. 확대된 컨텍스트로 장시간 작업 중 컴팩션이 줄고 전체 작업 완료 속도가 빨라진다.",
+        "points": [
+          "기본 컨텍스트 50만 토큰",
+          "장기 작업 중 컴팩션 감소",
+          "엔드투엔드 작업 완료 가속"
+        ],
+        "why": [
+          "장기 실행 에이전트의 안정성과 효율 개선"
+        ]
+      }
+    },
+    {
+      "id": "ai-moondream-joins-prime-intellect",
+      "title": "Moondream 팀, Prime Intellect 합류",
+      "summary": "Moondream 창업팀이 Prime Intellect에 합류해 추론 확장과 멀티모달 모델 개발을 이끈다.",
+      "source": "Prime Intellect",
+      "url": "https://www.primeintellect.ai/blog/moondream?utm_source=tldrai",
+      "report": {
+        "tldr": "소형 비전 모델 팀이 탈중앙 학습 기업으로 흡수됐다.",
+        "what": "Moondream의 창업팀이 Prime Intellect에 합류했다. 이들은 추론 스케일링 작업을 이끌고 멀티모달 모델 개발을 진전시킬 예정이다.",
+        "points": [
+          "Moondream 창업팀 Prime Intellect 합류",
+          "추론 스케일링 담당",
+          "멀티모달 모델 개발 강화"
+        ],
+        "why": [
+          "오픈 AI 진영의 인재·역량 결집 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-spacexsi-x-subscription-bundle",
+      "title": "SpaceXSI, X 프리미엄·Grok·Cursor 묶은 통합 구독 출시",
+      "summary": "SpaceXSI가 X 프리미엄, Grok, Cursor를 하나로 묶은 'The X Subscription'을 선보였다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/13/spacexsi-bundles-x-premium-grok-and-cursor-into-one-subscription/?utm_source=tldrai",
+      "report": {
+        "tldr": "머스크 진영이 소셜·AI·코딩 도구를 하나의 구독으로 묶었다.",
+        "what": "SpaceXSI가 'The X Subscription'을 출시했다. X 프리미엄, Grok AI, Cursor를 하나의 통합 요금제로 제공한다.",
+        "points": [
+          "X 프리미엄·Grok·Cursor 번들",
+          "단일 통합 구독 'The X Subscription'",
+          "소셜·챗봇·코딩 도구 결합"
+        ],
+        "why": [
+          "AI 구독 시장에서 번들링 경쟁이 본격화되는 신호"
+        ]
+      }
+    },
+    {
+      "id": "ai-fish-audio-drama-3",
+      "title": "Fish Audio, TTS 모델 Drama 3 공개",
+      "summary": "Fish Audio가 연출 지시에 따른 음성 출력을 위해 설계한 텍스트-음성 변환 모델 Drama 3를 내놨다.",
+      "source": "Fish Audio",
+      "url": "https://fish.audio/drama-3?utm_source=tldrai",
+      "report": {
+        "tldr": "감정·연출 제어를 앞세운 TTS 모델.",
+        "what": "Fish Audio가 텍스트-음성 변환 모델 Drama 3를 공개했다. 연출 방향을 지시할 수 있는 음성 출력을 목표로 설계됐다.",
+        "points": [
+          "Fish Audio의 TTS 모델",
+          "연출 지시 기반 음성 출력 설계",
+          "드라마·콘텐츠 제작 용도 지향"
+        ],
+        "why": [
+          "음성 생성 경쟁이 품질에서 표현 제어로 이동"
+        ]
+      }
+    },
+    {
+      "id": "ai-copilotkit-clif",
+      "title": "CopilotKit, 풀스택 궤적 기반 지속 학습 도구 CLiF 공개",
+      "summary": "CopilotKit이 AG-UI 프로토콜로 풀스택 에이전트 트레이스와 사용자 행동에서 지속 학습하는 CLiF를 내놨다.",
+      "source": "CopilotKit",
+      "url": "https://www.copilotkit.ai/blog/introducing-clif?utm_source=tldrai",
+      "report": {
+        "tldr": "에이전트가 실제 사용 기록에서 계속 배우게 하는 도구.",
+        "what": "CopilotKit이 CLiF(Continual Learning from Full-Stack Trajectories)를 출시했다. AG-UI 프로토콜을 활용해 풀스택 에이전트 트레이스와 사용자 행동으로부터 지속 학습을 가능하게 한다.",
+        "points": [
+          "풀스택 에이전트 트레이스 기반 지속 학습",
+          "사용자 행동 데이터 활용",
+          "AG-UI 프로토콜 기반"
+        ],
+        "why": [
+          "배포 후에도 개선되는 에이전트 구축을 위한 인프라"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-amd-helion-rack",
+      "title": "AMD, 랙 스케일 에이전틱 AI 컴퓨트 'Helion' 공개",
+      "summary": "AMD Helion 랙은 CPU 전용부터 GPU 통합까지 유연한 구성을 지원하며 OCP 오픈 블루프린트의 일부로 11월 출시된다.",
+      "source": "AMD",
+      "url": "https://newsroom.amd.com/news/open-rack-blueprint-scale-agentic-ai/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AMD가 에이전트 워크로드용 개방형 랙 설계로 데이터센터 공략을 넓힌다.",
+        "what": "AMD가 에이전틱 AI용 랙 Helion을 공개했다. CPU 전용 시스템과 GPU 통합 시스템 등 유연한 구성을 지원해 하이퍼스케일·엔터프라이즈 배포를 겨냥한다. OCP 오픈 블루프린트의 일부로 11월에 출시된다.",
+        "points": [
+          "CPU 전용·GPU 통합 등 유연한 랙 구성",
+          "하이퍼스케일·엔터프라이즈 대상",
+          "OCP 오픈 블루프린트 기반, 11월 출시"
+        ],
+        "why": [
+          "에이전트 워크로드에서 CPU 비중이 커지는 흐름을 반영",
+          "NVIDIA 폐쇄형 랙에 맞선 개방형 대안"
+        ]
+      }
+    },
+    {
+      "id": "hardware-microsoft-maia-multi-gigawatt",
+      "title": "마이크로소프트, Maia를 수 GW 규모로 확대…자사 제품 기본 추론 칩으로",
+      "summary": "마이크로소프트가 2027년부터 Maia를 수 기가와트 규모로 배치하며, 차세대 Maia 300은 TSMC N2P 칩렛으로 장문맥·다단계 에이전트를 겨냥한다.",
+      "source": "Microsoft",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments?utm_source=tldrhardware",
+      "report": {
+        "tldr": "마이크로소프트가 자체 칩을 추론의 기본값으로 삼아 NVIDIA 의존을 낮춘다.",
+        "what": "마이크로소프트가 2027년부터 Maia 시스템을 수 기가와트 규모로 배치한다. Maia는 자사 제품의 기본 추론 칩이 된다. 차세대 Maia 300은 TSMC N2P 컴퓨트 칩렛을 쓰며 장문맥·다단계 에이전트 워크로드를 겨냥한다.",
+        "points": [
+          "2027년부터 수 GW 규모 Maia 배치",
+          "자사 제품의 기본 추론 칩으로 지정",
+          "Maia 300: TSMC N2P 컴퓨트 칩렛",
+          "장문맥·다단계 에이전트 워크로드 타깃"
+        ],
+        "why": [
+          "하이퍼스케일러 자체 실리콘이 추론 시장의 주류로 이동",
+          "NVIDIA GPU 수요 구조에 영향"
+        ]
+      }
+    },
+    {
+      "id": "hardware-gpu-compiler-from-scratch",
+      "title": "PyTorch에서 CUDA까지, GPU 컴파일러 직접 만들기",
+      "summary": "Emmy 컴파일러 프레임워크로 PyTorch 연산이 5단계 로워링을 거쳐 CUDA가 되는 과정을 추적하며 연산자 퓨전과 스케줄 선택을 설명한다.",
+      "source": "Kernelspace",
+      "url": "https://kernelspace.substack.com/p/building-a-gpu-compiler-from-scratch?utm_source=tldrhardware",
+      "report": {
+        "tldr": "Triton류 스택 내부의 핵심 기법을 직접 구현으로 보여주는 딥다이브.",
+        "what": "Emmy 컴파일러 프레임워크를 사용해 PyTorch 연산이 다섯 단계의 로워링을 거쳐 CUDA로 변환되는 과정을 추적한다. 연산자 퓨전과 스케줄 선택 기법을 시연하며, 이는 Triton 같은 스택의 기반 기술이다.",
+        "points": [
+          "Emmy 프레임워크 기반 실습",
+          "PyTorch→CUDA 5단계 로워링",
+          "연산자 퓨전·스케줄 선택 시연",
+          "Triton형 스택의 기반 원리 해설"
+        ],
+        "why": [
+          "ML 컴파일러 내부를 이해하려는 엔지니어에게 실전 학습 자료"
+        ]
+      }
+    },
+    {
+      "id": "hardware-physical-intelligence-api-beta",
+      "title": "Physical Intelligence, π 로봇 모델 파인튜닝·호스팅 API 베타",
+      "summary": "시연 데이터를 올려 Pi 관리 컴퓨트에서 파인튜닝하고 호스팅 추론으로 로봇 하드웨어에서 실행하는 베타 API가 열렸다.",
+      "source": "Physical Intelligence",
+      "url": "https://www.pi.website/blog/api-beta?utm_source=tldrhardware",
+      "report": {
+        "tldr": "로봇 기업이 데모 데이터만으로 π 모델을 자사 하드웨어에 적용할 수 있게 됐다.",
+        "what": "Physical Intelligence의 베타 API로 시연 데이터를 업로드하고 Pi가 관리하는 컴퓨트에서 파인튜닝할 수 있다. 결과 모델은 호스팅 추론을 통해 로봇 하드웨어에서 실행된다. 초기 파트너들은 자율 로더와 양팔 매니퓰레이터를 배치하고 있다.",
+        "points": [
+          "시연 데이터 업로드 후 관리형 파인튜닝",
+          "호스팅 추론으로 실제 로봇 구동",
+          "초기 파트너: 자율 로더·양팔 매니퓰레이터"
+        ],
+        "why": [
+          "로봇 파운데이션 모델의 상용 유통 경로 확립"
+        ]
+      }
+    },
+    {
+      "id": "hardware-apple-minions-idle-macs",
+      "title": "애플 'Minions', 유휴 맥을 묶어 가상 GPU 클라우드로",
+      "summary": "Minions는 여러 대의 애플 실리콘 GPU를 하나의 가상 클라우드로 묶어 대형 ML 추론을 돌리는 연구로, 내결함성과 유연한 스케줄링을 제공한다.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2610.12970?utm_source=tldrhardware",
+      "report": {
+        "tldr": "값비싼 중앙 GPU 대신 놀고 있는 맥으로 추론 클러스터를 만든다.",
+        "what": "Minions는 여러 기기에 걸친 애플 실리콘 GPU 용량을 하나의 가상 클라우드로 결합해 대형 ML 추론을 실행한다. 내결함성과 유연한 스케줄링을 제공한다. 비싼 중앙집중식 용량 대신 기존 하드웨어를 활용하는 것이 핵심이다.",
+        "points": [
+          "애플 실리콘 GPU를 다중 기기로 풀링",
+          "대형 ML 추론 실행",
+          "내결함성·유연한 스케줄링",
+          "기존 하드웨어 재활용"
+        ],
+        "why": [
+          "사내 유휴 자원을 활용한 저비용 추론 인프라 가능성"
+        ]
+      }
+    },
+    {
+      "id": "hardware-anthropic-iot-self-replication",
+      "title": "Anthropic, 55달러 TV 박스 15대로 26B 모델 구동해 IoT 자가복제 위험 실험",
+      "summary": "Anthropic 프런티어 레드팀이 4GB RAM 안드로이드 TV 박스 15대에 파이프라인 병렬로 Gemma4-26B-A4B를 돌려 저가 IoT로의 모델 확산 가능성을 시험했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/self-replicating-ai?utm_source=tldrhardware",
+      "report": {
+        "tldr": "값싼 IoT 기기만으로도 대형 모델이 퍼져나갈 수 있다는 우려스러운 결과.",
+        "what": "Anthropic 프런티어 레드팀이 4GB RAM 안드로이드 TV 박스 15대에서 파이프라인 병렬화로 Gemma4-26B-A4B를 실행했다. 작은 모델이 값싼 IoT 하드웨어로 확산될 수 있는지를 시험한 것이다. 결과는 우려할 만한 능력적 함의를 보였다.",
+        "points": [
+          "대당 55달러, 4GB RAM 안드로이드 TV 박스 15대 사용",
+          "파이프라인 병렬로 Gemma4-26B-A4B 실행",
+          "IoT 기기 통한 AI 자가복제 가능성 검증"
+        ],
+        "why": [
+          "AI 자가복제 위험의 하드웨어 문턱이 매우 낮음을 시사",
+          "IoT 보안과 AI 안전 정책을 함께 고려해야 함"
+        ]
+      }
+    },
+    {
+      "id": "hardware-1gw-data-center-cost",
+      "title": "1GW AI 데이터센터 비용 약 300억 달러, 그중 170억 달러가 칩",
+      "summary": "애빌린급 인프라에는 칩·서버 약 170억 달러, 전력 인프라 30억 달러, 건설 24억 달러가 들며 변압기·냉각 장비 리드타임이 길다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/features/2026-ai-data-center-build-costs/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "AI 데이터센터 비용의 절반 이상이 칩에 들어간다.",
+        "what": "블룸버그가 1GW급 AI 데이터센터의 비용 구조를 분석했다. 애빌린 규모 인프라에는 칩과 서버에 약 170억 달러, 전력 인프라에 30억 달러, 건설에 24억 달러가 필요하다. 변압기와 냉각 장비는 공급 리드타임이 길어지고 있다.",
+        "points": [
+          "1GW당 총 약 300억 달러",
+          "칩·서버 약 170억 달러",
+          "전력 인프라 30억·건설 24억 달러",
+          "변압기·냉각 장비 리드타임 장기화"
+        ],
+        "why": [
+          "AI 인프라 투자 규모와 칩 업체로의 가치 집중을 수치로 보여줌",
+          "전력 장비 공급망이 병목으로 부상"
+        ]
+      }
+    },
+    {
+      "id": "hardware-apple-home-collection",
+      "title": "애플 Home Collection, LG·슈나이더와 카메라·도어락·온도조절기 출시",
+      "summary": "애플이 LG, 슈나이더 일렉트릭과 손잡고 Thread·Matter·Aliro 기반 카메라, 온도조절기, 센서, 초인종, 데드볼트를 199.95~399.95달러에 내놓는다.",
+      "source": "Apple Newsroom",
+      "url": "https://www.apple.com/newsroom/2026/10/introducing-apple-home-collection-a-new-lineup-of-smart-home-accessories/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "애플이 파트너 제조사와 함께 자체 브랜드급 스마트홈 액세서리 라인업을 꾸렸다.",
+        "what": "애플이 LG, 슈나이더 일렉트릭과의 파트너십으로 Apple Home Collection을 발표했다. 카메라, 온도조절기, 센서, 초인종, 데드볼트를 포함하며 Thread, Matter, Aliro 프로토콜을 쓴다. 로컬 저장 백업을 지원하고 가격은 199.95~399.95달러다.",
+        "points": [
+          "LG·슈나이더 일렉트릭 제조 파트너십",
+          "카메라·온도조절기·센서·초인종·데드볼트",
+          "Thread·Matter·Aliro 표준 지원, 로컬 저장 백업",
+          "가격 199.95~399.95달러"
+        ],
+        "why": [
+          "HomeView 태블릿과 함께 애플 스마트홈 생태계 확장의 양축"
+        ]
+      }
+    },
+    {
+      "id": "hardware-intel-gpu-d-series",
+      "title": "인텔, Crescent Island를 'GPU D-Series'로 명명…FP8 1.3 PFLOPS·LPDDR5X 최대 480GB",
+      "summary": "인텔의 데이터센터 추론 GPU Crescent Island가 GPU D-Series라는 이름과 사양을 공개했다.",
+      "source": "ServeTheHome",
+      "url": "https://www.servethehome.com/intels-crescent-island-ai-server-gpu-gets-a-name-and-specs-meet-the-intel-gpu-d-series?utm_source=tldrhardware",
+      "report": {
+        "tldr": "인텔이 대용량 LPDDR5X를 앞세운 추론 전용 GPU로 재도전한다.",
+        "what": "인텔의 데이터센터 추론용 GPU Crescent Island가 GPU D-Series로 출시명을 확정했다. FP8 기준 1.3 PFLOPS 성능과 최대 480GB LPDDR5X 메모리 사양이 공개됐다.",
+        "points": [
+          "제품명 GPU D-Series 확정",
+          "FP8 1.3 PFLOPS",
+          "최대 480GB LPDDR5X",
+          "데이터센터 추론 전용"
+        ],
+        "why": [
+          "HBM 대신 LPDDR로 용량·비용을 노리는 추론 칩 전략"
+        ]
+      }
+    },
+    {
+      "id": "hardware-meta-ai-networks-icepack",
+      "title": "메타의 AI 네트워크: IcePack, Tahan, 오픈소스 MetaRoCE",
+      "summary": "메타가 OCP 서밋 2026에서 액체냉각 102.4T 네트워크 랙 IcePack과 IceCube 스위치 플랫폼을 공개했다.",
+      "source": "Meta Engineering",
+      "url": "https://engineering.fb.com/2026/10/12/open-source/ocp-summit-2026-powering-ai-with-open-innovations-in-scale-up-scale-out-and-scale-across-networks?utm_source=tldrhardware",
+      "report": {
+        "tldr": "메타가 AI 클러스터 네트워크 설계를 OCP로 공개했다.",
+        "what": "메타가 OCP 서밋 2026에서 AI 인프라용 네트워크 혁신을 소개했다. 액체냉각 102.4T 네트워크 랙 IcePack과 IceCube 스위치 플랫폼을 선보였고, 제목에 따르면 Tahan과 오픈소스 MetaRoCE도 함께 다뤘다.",
+        "points": [
+          "액체냉각 102.4T 네트워크 랙 IcePack",
+          "IceCube 스위치 플랫폼",
+          "오픈소스 MetaRoCE",
+          "OCP 서밋 2026 발표"
+        ],
+        "why": [
+          "AI 클러스터의 스케일업·스케일아웃 네트워크가 핵심 경쟁 요소로 부상"
+        ]
+      }
+    },
+    {
+      "id": "hardware-sk-hynix-h-tpu",
+      "title": "SK하이닉스 H-TPU, SSD 컨트롤러 작업을 100여 개 자체 코어로 분산",
+      "summary": "SK하이닉스 H-TPU는 4단 파이프라인을 갖춘 100개 이상의 맞춤 코어에 스토리지 컨트롤러 작업을 분산해 범용 CPU 기능을 대체한다.",
+      "source": "TheLec",
+      "url": "https://www.thelec.net/news/articleView.html?idxno=14536&utm_source=tldrhardware",
+      "report": {
+        "tldr": "SSD 컨트롤러 설계가 범용 CPU에서 대규모 소형 코어 구조로 바뀐다.",
+        "what": "SK하이닉스의 H-TPU는 스토리지 컨트롤러 작업을 100개 이상의 자체 설계 코어에 분산한다. 각 코어는 4단 파이프라인 구조이며, 범용 CPU가 하던 기능을 대체한다.",
+        "points": [
+          "100개 이상의 자체 소형 코어",
+          "4단 파이프라인 구조",
+          "범용 CPU 기능 대체"
+        ],
+        "why": [
+          "AI 시대 고성능 SSD 수요에 맞춘 컨트롤러 아키텍처 혁신"
+        ]
+      }
+    },
+    {
+      "id": "hardware-pebble-round-2-shipping",
+      "title": "Pebble Round 2 출하 시작",
+      "summary": "199달러 오픈소스 스마트워치 Pebble Round 2가 컬러 e-페이퍼, PebbleOS, 약 8일 배터리로 출하를 시작했다.",
+      "source": "Linuxiac",
+      "url": "https://linuxiac.com/pebble-round-2-open-source-smartwatch-finally-starts-shipping?utm_source=tldrhardware",
+      "report": {
+        "tldr": "부활한 페블이 원형 오픈소스 워치를 실제 출하했다.",
+        "what": "199달러짜리 오픈소스 스마트워치 Pebble Round 2가 출하를 시작했다. 컬러 e-페이퍼 디스플레이와 PebbleOS를 탑재했고 배터리는 약 8일간 지속된다.",
+        "points": [
+          "가격 199달러",
+          "컬러 e-페이퍼 디스플레이",
+          "PebbleOS 기반 오픈소스",
+          "약 8일 배터리"
+        ],
+        "why": [
+          "긴 배터리·오픈소스를 원하는 틈새 수요를 겨냥"
+        ]
+      }
+    },
+    {
+      "id": "hardware-walmart-warehouse-robots-trouble",
+      "title": "월마트 창고 로봇, 난관에 부딪히다",
+      "summary": "미국 창고 약 200곳을 로봇으로 자동화하려는 월마트의 10년 계획이 운영상 문제에 직면했다.",
+      "source": "Wall Street Journal",
+      "url": "https://www.wsj.com/business/logistics/walmart-automation-robots-warehouses-65f016b2?st=ps9bCm&reflink=desktopwebshare_permalink&utm_source=tldrhardware",
+      "report": {
+        "tldr": "대규모 물류 자동화가 계획만큼 순조롭지 않다.",
+        "what": "월마트는 약 10년에 걸쳐 미국 내 약 200개 창고를 로봇으로 자동화하려 해왔다. WSJ에 따르면 이 노력이 운영상 어려움에 부딪히고 있다.",
+        "points": [
+          "미국 창고 약 200곳 자동화 추진",
+          "10년 단위 장기 계획",
+          "운영상 문제 발생"
+        ],
+        "why": [
+          "창고 로봇 도입의 현실적 한계를 보여주는 대형 사례"
+        ]
+      }
+    }
+  ]
+}

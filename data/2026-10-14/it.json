@@ -1,0 +1,228 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-microsoft-azure-maia-multi-gigawatt",
+      "title": "Microsoft, Azure Maia 시스템을 멀티 기가와트 규모로 확대",
+      "summary": "Microsoft가 2027년부터 자체 실리콘 Azure Maia를 멀티 기가와트 규모로 배치해 자사 제품의 주력 추론 시스템으로 삼는다. Maia 200은 Copilot 등에 가동 중이고 Maia 300이 뒤를 잇는다.",
+      "source": "Microsoft",
+      "url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/?utm_source=tldrit",
+      "report": {
+        "tldr": "Microsoft가 추론 인프라의 중심을 자체 칩 Maia로 옮긴다.",
+        "what": "Microsoft가 2027년부터 Azure Maia 커스텀 실리콘 시스템을 멀티 기가와트 규모로 확대해 자사 제품의 주력 추론 시스템으로 만들 계획을 발표했다. Maia 200은 현재 Microsoft Copilot 등 워크로드에 생산 투입돼 있다. 차기 Maia 300은 장문 컨텍스트·다단계 에이전트 작업에서 효율과 처리량을 크게 높이도록 설계됐다.",
+        "points": [
+          "2027년부터 멀티 기가와트 규모 배치",
+          "Maia를 자사 제품의 주력 추론 시스템으로",
+          "Maia 200은 Copilot 등에 이미 가동",
+          "Maia 300은 장문 컨텍스트·에이전트 작업 최적화"
+        ],
+        "why": [
+          "하이퍼스케일러의 GPU 의존도 축소와 자체 칩 경쟁이 본격화된다",
+          "에이전트 워크로드가 추론 하드웨어 설계를 이끌고 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-intel-cps-ipv6-failures",
+      "title": "Intel Connectivity Performance Suite가 IPv6 연결 장애 유발",
+      "summary": "사용자들이 Intel Connectivity Performance Suite와 연관된 IPv6 연결 실패를 보고했다. OneDrive·OneNote 등에서 간헐적 문제가 발생했고 소프트웨어 제거·업데이트로 해결됐다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/networks/2026/10/13/intel-optimizes-ipv6-networking-into-nothingness-say-users/5302622?utm_source=tldrit",
+      "report": {
+        "tldr": "벤더 네트워크 '최적화' 유틸리티가 진단하기 어려운 장애의 원인이 됐다.",
+        "what": "사용자들이 Intel Connectivity Performance Suite와 관련된 IPv6 연결 실패를 보고하고 있으며, OneDrive와 OneNote 등 서비스에서 간헐적 문제가 발생했다. 문제 소프트웨어를 제거하거나 업데이트하면 해결된 것으로 보고됐다.",
+        "points": [
+          "원인: Intel Connectivity Performance Suite",
+          "증상: IPv6 연결 실패, 간헐적 서비스 장애",
+          "OneDrive·OneNote 영향 보고",
+          "제거 또는 업데이트로 해결"
+        ],
+        "why": [
+          "엔드포인트 이미지에 포함된 OEM 유틸리티가 기업 네트워크 장애의 숨은 원인이 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-human-pr-review-is-next",
+      "title": "다음은 사람의 PR 리뷰 차례다",
+      "summary": "AI 생성 코드가 늘면서 줄 단위 사람 PR 리뷰가 비현실적이 되고, 품질 보증이 자동 검사·가드레일·테스트 기반 검증으로 이동하고 있다는 주장이다.",
+      "source": "Science is Neato",
+      "url": "https://scienceisneato.substack.com/p/human-pr-review-is-next?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 코드 시대의 품질 보증은 코드 읽기에서 검증 체계로 옮겨간다.",
+        "what": "AI 생성 코드로 인해 전통적인 줄 단위 사람 PR 리뷰가 덜 실용적이 되면서 품질 보증이 자동 검사, 가드레일, 테스트 주도 검증으로 이동하고 있다. 저자는 사전 코드 규칙, 멀티 모델 리뷰 봇, 사용자 인수 테스트를 통해 구현을 읽지 않고도 품질을 유지할 수 있다고 본다.",
+        "points": [
+          "줄 단위 사람 리뷰의 실용성 감소",
+          "자동 검사·가드레일·테스트 주도 검증으로 이동",
+          "사전 코드 규칙과 멀티 모델 리뷰 봇 활용",
+          "사용자 인수 테스트로 최종 확인"
+        ],
+        "why": [
+          "엔지니어링 조직의 리뷰 프로세스와 역할 재설계가 필요해진다"
+        ]
+      }
+    },
+    {
+      "id": "it-no-room-for-bugs",
+      "title": "버그가 설 자리를 줄이는 세 가지 방법",
+      "summary": "소프트웨어 정확성 도구는 바닥 올리기(타입·메모리 안전), 벽 밀어넣기(SMT 검증), 남은 버그 탐지(모델 체킹·퍼징)로 버그 공간을 줄인다. Hydro는 배포된 코드에 직접 검사를 실행한다.",
+      "source": "Joseph Hellerstein's Blog",
+      "url": "https://jhellerstein.github.io/blog/no-room-for-bugs/?utm_source=tldrit",
+      "report": {
+        "tldr": "별도 모델에 의존하는 검증은 실제 코드와 어긋날 수 있다.",
+        "what": "소프트웨어 정확성 도구는 세 가지 방식으로 버그 공간을 줄인다: 타입 시스템·메모리 안전 같은 구성상 정확성으로 바닥을 올리고, SMT 솔버 같은 검증 도구로 벽을 안쪽으로 밀며, 모델 체킹과 퍼징으로 남은 버그를 탐지한다. 별도 모델에 의존하는 도구는 모델이 실제 코드와 달라지는 구현 드리프트 위험이 있다. Hydro는 배포된 코드에 직접 정확성 검사를 실행해 이 한계를 해결한다.",
+        "points": [
+          "바닥 올리기: 타입 시스템·메모리 안전",
+          "벽 밀어넣기: SMT 솔버 등 검증",
+          "잔여 버그 탐지: 모델 체킹·퍼징",
+          "Hydro: 배포 코드 대상 직접 검사로 구현 드리프트 회피"
+        ],
+        "why": [
+          "AI 생성 코드가 늘수록 자동화된 정확성 보장 수단의 가치가 커진다"
+        ]
+      }
+    },
+    {
+      "id": "it-cio-6-it-wins-before-year-end",
+      "title": "연말 전에 달성할 6가지 IT 성과",
+      "summary": "IT 리더들이 4분기에 약속한 프로젝트 완료와 측정 가능한 비즈니스 가치 입증을 우선순위로 꼽았다. 의미 있는 마무리와 생산성 향상으로 내년 투자 신뢰를 확보하라는 조언이다.",
+      "source": "CIO.com",
+      "url": "https://www.cio.com/article/4232788/6-it-wins-to-deliver-before-the-year-ends.html?utm_source=tldrit",
+      "report": {
+        "tldr": "4분기 성과가 내년 IT 예산 협상의 근거가 된다.",
+        "what": "IT 리더들이 마지막 분기에 우선하는 과제를 공유했다. 이미 약속한 프로젝트를 완료하는 것부터 측정 가능한 비즈니스 가치를 입증하는 것까지 포함된다. 권고는 의미 있는 작업 마무리, 생산성 개선, 내년 투자를 위한 신뢰 구축에 초점을 둔다.",
+        "points": [
+          "약속한 프로젝트의 연내 완료",
+          "측정 가능한 비즈니스 가치 입증",
+          "생산성 개선",
+          "내년 투자를 위한 신뢰 확보"
+        ],
+        "why": [
+          "예산 시즌을 앞둔 CIO들의 실행 우선순위를 엿볼 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-broadcom-vmware-hyperarmor",
+      "title": "Broadcom, 하이퍼바이저 보호 솔루션 VMware HyperArmor 공개",
+      "summary": "VMware HyperArmor는 가상 패치, 애플리케이션 허용 목록, 하이퍼바이저 수준 MFA로 VMware Cloud Foundation 하이퍼바이저를 AI 가속 공격으로부터 다운타임 없이 보호한다.",
+      "source": "Broadcom Investor Relations",
+      "url": "https://investors.broadcom.com/news-releases/news-release-details/broadcom-introduces-vmware-hyperarmor-expanding-hypervisor?utm_source=tldrit",
+      "report": {
+        "tldr": "하이퍼바이저를 패치 없이 보호하는 레이어로 랜섬웨어 표적에 대응한다.",
+        "what": "Broadcom의 VMware HyperArmor는 AI 가속 사이버 공격, 탈취된 자격 증명, 미패치 취약점으로부터 VMware Cloud Foundation 하이퍼바이저를 보호한다. 가상 패치, 애플리케이션 허용 목록, 하이퍼바이저 수준 MFA를 결합해 다운타임·소프트웨어 업그레이드·게스트 VM 에이전트 없이 위협을 차단한다.",
+        "points": [
+          "대상: VMware Cloud Foundation 하이퍼바이저",
+          "가상 패치·애플리케이션 허용 목록·하이퍼바이저 MFA",
+          "다운타임·업그레이드·게스트 에이전트 불필요",
+          "AI 가속 공격과 탈취 자격 증명 대응"
+        ],
+        "why": [
+          "ESXi는 랜섬웨어의 주요 표적이라 패치 공백을 메우는 방어가 중요하다"
+        ]
+      }
+    },
+    {
+      "id": "it-workday-acquires-c1-ai",
+      "title": "Workday, 에이전트 아이덴티티 플랫폼 C1.ai 인수",
+      "summary": "Workday가 C1.ai 인수에 합의해 직원과 AI 에이전트 모두를 위한 아이덴티티 거버넌스로 확장한다. 인사 이벤트를 앱 프로비저닝·권한 변경·접근 해제와 직접 연결한다.",
+      "source": "Workday Investor Relations",
+      "url": "https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx?utm_source=tldrit",
+      "report": {
+        "tldr": "HR 시스템이 사람과 에이전트의 접근 권한 원천이 되려 한다.",
+        "what": "Workday가 C1.ai 인수 계약을 발표하며 직원과 AI 에이전트를 위한 아이덴티티 거버넌스로 영역을 넓힌다. 제안된 통합은 직원 생애주기 이벤트를 기업 시스템 전반의 애플리케이션 프로비저닝, 권한 변경, 접근 해제와 직접 연결한다.",
+        "points": [
+          "Workday, C1.ai 인수 합의",
+          "직원과 AI 에이전트 모두의 아이덴티티 거버넌스",
+          "인사 이벤트를 프로비저닝·권한 변경·접근 해제와 연동"
+        ],
+        "why": [
+          "AI 에이전트 권한 관리가 IAM 시장의 새 격전지가 됐다",
+          "HR 데이터와 IAM의 결합으로 접근 관리 자동화가 가속된다"
+        ]
+      }
+    },
+    {
+      "id": "it-apple-mac-minions-gpu-pooling",
+      "title": "Apple, Mac 유휴 GPU를 모아 AI 작업 돌리는 'Minions' 개발",
+      "summary": "Apple 연구진이 Apple Silicon Mac들의 유휴 GPU를 묶어 AI 워크로드에 쓰는 분산 시스템 Minions를 개발했다. 일부 내부 추론 작업 대기 시간이 10시간 이상에서 몇 분으로 줄었다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/13/apple-unleashes-a-swarm-of-mac-minions-to-share-gpu-resources-for-large-ai-tasks/5302891?utm_source=tldrit",
+      "report": {
+        "tldr": "사내 Mac 함대를 AI 컴퓨팅 풀로 재활용하는 접근이다.",
+        "what": "Apple 연구진이 Apple Silicon Mac 전반의 사용되지 않는 GPU 용량을 모아 AI 워크로드에 활용하는 분산 시스템 Minions를 개발했다. 이 방식으로 일부 내부 추론 작업의 대기 시간이 10시간 이상에서 몇 분으로 줄어든 것으로 알려졌다.",
+        "points": [
+          "Apple Silicon Mac의 유휴 GPU 풀링",
+          "AI 워크로드용 분산 시스템",
+          "내부 추론 대기 10시간 이상에서 수 분으로 단축"
+        ],
+        "why": [
+          "GPU 부족 속에서 기존 엔드포인트 자원을 활용하는 대안이 될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "it-aws-priming-hybrid-models",
+      "title": "AWS, 처음부터 재학습 없이 모델 아키텍처 바꾸는 'priming' 공개",
+      "summary": "AWS 연구진이 사전학습된 Transformer 가중치를 재사용해 하이브리드 상태공간 모델의 사전학습 비용을 99% 이상 줄이는 priming을 소개했다. 디코딩은 최대 2배 빠르다.",
+      "source": "Amazon Web Services",
+      "url": "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch?utm_source=tldrit",
+      "report": {
+        "tldr": "기존 Transformer를 재활용해 더 빠른 하이브리드 모델로 저렴하게 전환한다.",
+        "what": "AWS 연구진이 사전학습된 Transformer 가중치를 재사용해 하이브리드 상태공간 모델의 사전학습 비용을 99% 넘게 줄이는 priming 기법을 공개했다. 일부 어텐션 레이어를 Gated KalmaNet 같은 상태공간 레이어로 교체해 Transformer 메모리 부담을 해결하며, 원본 Transformer의 추론 벤치마크를 맞추면서 디코딩은 최대 2배 빠르다. 연구팀은 프라이밍된 하이브리드 모델, 학습 코드, vLLM 서빙 플러그인을 Apache 2.0으로 공개했다.",
+        "points": [
+          "사전학습 비용 99% 이상 절감",
+          "어텐션 일부를 Gated KalmaNet 등 상태공간 레이어로 교체",
+          "원본 수준 추론 성능, 디코딩 최대 2배",
+          "모델·학습 코드·vLLM 플러그인 Apache 2.0 공개"
+        ],
+        "why": [
+          "추론 비용을 낮추려는 기업에 아키텍처 전환의 진입 장벽을 낮춘다"
+        ]
+      }
+    },
+    {
+      "id": "it-chaos-or-death-ai-adoption",
+      "title": "혼돈 아니면 죽음: AI 도입에 필요한 리더십",
+      "summary": "AI는 무질서를 쉽게 만들지만 질서 유지 노력은 줄여주지 않는다. 성공적인 AI 도입에는 지속적인 리더십, 명확한 의사결정, 확립된 루틴이 필요하다는 주장이다.",
+      "source": "Better Than Good",
+      "url": "https://betterthangood.xyz/blog/chaos-or-death/?utm_source=tldrit",
+      "report": {
+        "tldr": "AI 도입의 병목은 기술이 아니라 조직 운영 규율이다.",
+        "what": "성공적인 AI 도입에는 지속적인 리더십, 명확한 의사결정, 확립된 루틴이 필요하다. AI는 무질서를 만들어내기는 쉽게 하지만 질서를 유지하는 데 드는 노력은 줄여주지 않기 때문에, 커지는 조직 복잡성을 관리해야 한다.",
+        "points": [
+          "AI는 무질서 생성을 쉽게 만든다",
+          "질서 유지 노력은 줄지 않는다",
+          "지속적 리더십·명확한 의사결정·루틴 필요"
+        ],
+        "why": [
+          "AI 확산 단계의 조직이 거버넌스 체계를 먼저 갖춰야 하는 이유를 짚는다"
+        ]
+      }
+    },
+    {
+      "id": "it-google-meet-post-meeting-routines",
+      "title": "Google Meet, Gemini 기반 회의 후 루틴 도입",
+      "summary": "Google Meet이 회의록 기능이 켜져 있으면 후속 이메일 초안 작성과 액션 아이템의 Google Tasks 내보내기를 자동화하는 Gemini 기반 회의 후 루틴을 도입한다.",
+      "source": "Google Workspace Updates",
+      "url": "https://workspaceupdates.googleblog.com/2026/10/find-your-routine-next-steps-on-post-meeting-screen-in-Google-Meet.html?utm_source=tldrit",
+      "report": {
+        "tldr": "회의 후속 업무를 Gemini가 자동으로 처리한다.",
+        "what": "Google Meet이 Gemini 기반 회의 후 루틴을 도입한다. 회의록 기능이 활성화된 경우 후속 이메일 초안을 자동 작성하고 액션 아이템을 Google Tasks로 내보낼 수 있다.",
+        "points": [
+          "Gemini 기반 회의 후 루틴",
+          "후속 이메일 초안 자동 작성",
+          "액션 아이템을 Google Tasks로 내보내기",
+          "회의록 기능 활성화 시 동작"
+        ],
+        "why": [
+          "Workspace 관리자는 회의록·자동화 기능의 데이터 정책을 점검할 필요가 있다"
+        ]
+      }
+    }
+  ]
+}

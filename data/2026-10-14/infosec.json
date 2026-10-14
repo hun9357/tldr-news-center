@@ -1,0 +1,318 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-gitlab-cvss10-ci-regex-rce",
+      "title": "GitLab, 비인증 원격 코드 실행 가능한 CVSS 10.0 취약점 패치",
+      "summary": "CI/CD 설정의 정규식 검증 과정에 있는 정수 오버플로(CVE-2026-97229)로 비인증 사용자가 서버에서 임의 코드를 실행할 수 있었다. 19.2.8·19.3.5·19.4.2에서 수정됐다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/gitlab-patches-cvss-100-flaw-that-could.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "셀프 호스팅 GitLab은 즉시 19.2.8/19.3.5/19.4.2 이상으로 올려야 한다.",
+        "what": "GitLab이 CI/CD 설정의 정규식 검증에서 발생하는 정수 오버플로 취약점 CVE-2026-97229(CVSS 10.0)를 수정했다. 특정 조건에서 인증되지 않은 사용자가 GitLab 서버에서 임의 코드를 실행할 수 있었다. 이번 릴리스에는 XSS, 권한 검증, 응답 캐시 포이즈닝 등 고위험 취약점 수정도 함께 포함됐다.",
+        "points": [
+          "취약점: CI/CD 설정 정규식 검증의 정수 오버플로",
+          "영향: 비인증 원격 코드 실행, CVSS 10.0 만점",
+          "수정 버전: CE/EE 19.2.8, 19.3.5, 19.4.2",
+          "XSS·권한·응답 캐시 포이즈닝 고위험 버그 동시 수정"
+        ],
+        "why": [
+          "소스 코드와 CI 시크릿이 모인 GitLab 서버 장악은 공급망 전체 침해로 이어질 수 있다",
+          "비인증 공격이 가능해 인터넷 노출 인스턴스는 패치 우선순위가 최상위다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-tfg-london-hobbs-whistles-cyberattack",
+      "title": "Hobbs·Whistles 모회사 TFG London 사이버 공격 피해",
+      "summary": "TFG London이 10월 11일 사이버 공격을 탐지해 일부 IT 시스템이 중단되고 웹사이트 기능이 제한됐다. 결제 데이터 유출 증거는 없으나 고객 데이터 피해 여부는 조사 중이다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/cyber-crime/2026/10/13/owner-of-fashion-brands-hobbs-and-whistles-joins-autumn-pwned-collection/5302752?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "영국 패션 리테일을 노린 가을 공격 행렬에 TFG London이 추가됐다.",
+        "what": "Hobbs, Phase Eight, Whistles를 보유한 TFG London이 10월 11일 사이버 공격을 탐지했다. 여러 IT 시스템이 여전히 오프라인이고 웹사이트 기능이 제한되며 일요일 이후 주문은 지연될 수 있다. 공격 방식, 랜섬웨어 여부, 복구 시점은 공개되지 않았다.",
+        "points": [
+          "10월 11일 공격 탐지, 일부 IT 시스템 오프라인",
+          "일요일 이후 주문 배송 지연 가능",
+          "결제 데이터 노출 증거는 없음, 고객 데이터는 확인 중",
+          "공격 방식·랜섬웨어 여부 미공개"
+        ],
+        "why": [
+          "영국 리테일 업계를 겨냥한 연쇄 공격 흐름이 이어지고 있다",
+          "운영 중단이 곧바로 매출·배송 차질로 이어지는 리테일의 취약성을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ghostscript-pdf-upload-rce",
+      "title": "Ghostscript 취약점, PDF 업로드만으로 서버 장악 가능",
+      "summary": "Wordfence가 조작된 PDF로 원격 코드 실행이 가능한 Ghostscript 취약점을 발견했다. PDF 미리보기·썸네일을 Ghostscript로 생성하는 WordPress 등 애플리케이션이 영향을 받는다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "PDF 썸네일을 Ghostscript로 만드는 서비스는 업로드 경로가 곧 RCE 경로다.",
+        "what": "Wordfence가 Ghostscript 인터프리터·렌더링 엔진에서 특수 제작된 PDF로 원격 코드 실행이 가능한 새 취약점을 발견했다. WordPress 사이트는 공격자가 PDF를 업로드할 수 있고 취약한 Ghostscript가 이를 미리보기·썸네일 생성에 처리할 때 영향을 받는다. Ghostscript로 PDF 미리보기를 만드는 다른 애플리케이션도 취약할 수 있다.",
+        "points": [
+          "발견: Wordfence",
+          "공격 벡터: 조작된 PDF 업로드 후 미리보기·썸네일 처리",
+          "WordPress 외 Ghostscript 사용 앱도 잠재적 영향",
+          "결과: 서버 원격 코드 실행"
+        ],
+        "why": [
+          "Ghostscript는 수많은 웹 앱·문서 처리 파이프라인에 숨어 있는 의존성이다",
+          "업로드 기능을 가진 사이트는 Ghostscript 버전 점검과 업로드 제한이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-doyensec-sfape-vbs-enclave-vtl1",
+      "title": "Doyensec, Windows SFAPE VBS 엔클레이브에서 VTL1 코드 실행 달성",
+      "summary": "Defender 강화 피싱 보호가 쓰는 SFAPE VBS 엔클레이브에서 초기화 검증 누락과 경쟁 조건을 엮어 VTL1 임의 코드 실행에 성공했다. Microsoft는 9월 CVE-2026-83498로 패치했다.",
+      "source": "Doyensec",
+      "url": "https://blog.doyensec.com/2026/10/13/Sfape.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "VBS 격리 영역(VTL1)도 엔클레이브 버그 체인으로 뚫릴 수 있음을 보여준 연구다.",
+        "what": "Doyensec이 LSASS가 로드하고 Defender 강화 피싱 보호가 사용하는 Windows SFAPE VBS 엔클레이브에서 취약점 체인을 찾았다. Initialize 반복 호출이 대상 검증 없이 고정 32비트 값을 쓰는 점과 ClipboardInput 경쟁 조건을 이용해 VTL1 읽기·쓰기 프리미티브와 NtContinue를 통한 임의 호출까지 얻었다. Microsoft는 9월 패치 화요일에 CVE-2026-83498을 수정하고 VBS 코드 무결성 정책으로 구버전 SFAPE 이미지를 차단했다.",
+        "points": [
+          "Initialize 반복 호출 시 목적지 검증 없는 32비트 쓰기",
+          "엔클레이브 범위 검사 오염 후 ClipboardInput 경쟁으로 제어된 memset 확보",
+          "VTL1 읽기·쓰기 및 NtContinue로 기존 VTL1 코드 임의 호출",
+          "9월 패치 + 구버전 이미지 코드 무결성 정책 차단"
+        ],
+        "why": [
+          "VBS/VTL1은 Windows 보안 경계의 최후 방어선으로 여겨져 왔다",
+          "구버전 엔클레이브 이미지를 차단해야 다운그레이드 공격을 막을 수 있다는 점도 시사한다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-datadog-aws-keys-bedrock-testing",
+      "title": "유출된 AWS 키, 공격자는 Bedrock 접근부터 시험한다",
+      "summary": "Datadog이 자격 증명 수집 플랫폼 3곳을 분석한 결과, 공격자가 ListFoundationModels·InvokeModel·Converse API로 Bedrock 접근 여부를 확인하는 것으로 나타났다. 계정의 프로모션 크레딧을 확인하는 스크립트도 발견됐다.",
+      "source": "Datadog Security Labs",
+      "url": "https://securitylabs.datadoghq.com/articles/beyond-valid-credentials-how-exposed-aws-keys-are-tested-for-amazon-bedrock-access/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "탈취된 클라우드 키의 새 현금화 경로는 LLM 무단 사용이다.",
+        "what": "공격자는 AWS 자격 증명을 얻으면 SES, SNS, Bedrock 같은 관심 서비스 접근 가능 여부를 자주 시험한다. Datadog은 자격 증명 수집 플랫폼 3곳을 분석해 ListFoundationModels, InvokeModel, Converse API로 Bedrock 접근을 판별한다는 사실을 확인했다. 계정의 프로모션 크레딧을 확인하는 스크립트도 발견했다.",
+        "points": [
+          "분석 대상: 자격 증명 수집 플랫폼 3곳",
+          "Bedrock 접근 확인에 ListFoundationModels·InvokeModel·Converse 사용",
+          "SES·SNS 등 다른 서비스도 함께 시험",
+          "프로모션 크레딧 확인 스크립트 존재"
+        ],
+        "why": [
+          "이 API 호출 패턴은 키 유출 탐지 시그널로 활용할 수 있다",
+          "생성형 AI 서비스가 클라우드 계정 탈취의 주요 목표로 떠올랐다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-doj-north-korea-laptop-farms-texas",
+      "title": "DOJ, 텍사스 북한 IT 노동자 랩톱 팜 단속…2명 체포",
+      "summary": "DOJ가 텍사스 40여 곳을 급습해 북한 IT 노동자용 노트북 187대를 압수하고, 약 70개 기업에서 300만 달러 이상을 빼돌리도록 도운 미국인 2명을 체포했다.",
+      "source": "The Record",
+      "url": "https://therecord.media/north-korea-laptop-farms-worker-scams-doj-raids-texas?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "북한 원격 IT 노동자 사기가 하청·현역 군인 포섭으로 진화하고 있다.",
+        "what": "DOJ가 9월 말 텍사스 주택 40여 곳을 급습해 북한 IT 노동자가 쓰던 노트북 187대를 압수했고, 약 70개 기업에서 300만 달러 이상을 빼돌리도록 도운 미국인 조력자 2명을 체포했다. FBI 새 권고문에 따르면 공작원들은 남아시아·서아프리카 프리랜서에게 일을 하청하고, 재정난을 겪는 미국인(현역 군인 포함)을 포섭해 노트북을 호스팅하거나 면접을 대신 보게 한다.",
+        "points": [
+          "텍사스 40여 곳 급습, 노트북 187대 압수",
+          "미국인 조력자 2명 체포, 약 70개 기업·300만 달러 이상",
+          "남아시아·서아프리카 프리랜서 하청, 현역 군인 포섭",
+          "노출된 노동자가 폭력·데이터 유출 협박, 보안 인가 직무 노림"
+        ],
+        "why": [
+          "채용 과정의 신원 검증이 국가 안보 문제로 확대됐다",
+          "보안 인가 직무를 노린다는 점에서 위협 수준이 높아지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-codegraph-code-knowledge-graph",
+      "title": "CodeGraph: AI 에이전트용 사전 인덱싱 코드 지식 그래프",
+      "summary": "코드베이스를 미리 인덱싱해 지식 그래프로 만들고 AI 에이전트에 제공함으로써 코드 탐색 속도를 높이는 오픈소스 도구다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/colbymchenry/codegraph?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "에이전트의 코드 탐색 비용을 사전 인덱싱으로 줄이는 도구다.",
+        "what": "CodeGraph는 사전 인덱싱된 코드 지식 그래프를 구축하는 도구다. 이 그래프를 AI 에이전트에 제공해 코드 탐색을 빠르게 한다.",
+        "points": [
+          "코드베이스를 지식 그래프로 사전 인덱싱",
+          "AI 에이전트 입력용으로 설계",
+          "코드 탐색 속도 향상이 목적"
+        ],
+        "why": [
+          "대규모 코드 감사·취약점 분석에 에이전트를 쓸 때 효율을 높일 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-lastwall-identity-pqc-defense",
+      "title": "Lastwall: 국방·정부용 아이덴티티 보안 플랫폼",
+      "summary": "IDCommand Suite는 제로 트러스트, PKI, 패스워드리스 인증, 200개 맥락 신호 기반 위험 점수를 결합하고, Quantum Shield는 NIST 승인 양자 내성 암호로 전송 데이터를 보호한다.",
+      "source": "Product Launch",
+      "url": "https://www.lastwall.com/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "국방·정부 대상 아이덴티티 보안에 양자 내성 암호를 묶은 제품이다.",
+        "what": "Lastwall은 국방·정부 기관을 위한 아이덴티티 보안을 제공한다. IDCommand Suite는 제로 트러스트 아키텍처, PKI, 패스워드리스 인증, 200개 맥락 신호 기반 위험 점수를 결합한다. Quantum Shield는 NIST 승인 양자 내성 암호로 전송 중 데이터를 보호한다.",
+        "points": [
+          "대상: 국방·정부 기관",
+          "IDCommand Suite: 제로 트러스트·PKI·패스워드리스·위험 점수",
+          "200개 맥락 신호 기반 위험 평가",
+          "Quantum Shield: NIST 승인 PQC 적용"
+        ],
+        "why": [
+          "정부 영역에서 양자 내성 암호 전환 수요가 제품화되고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-security-suite-osint-ai",
+      "title": "Security-suite: AI 분석 결합 오픈소스 보안 도구 모음",
+      "summary": "OSINT 정찰, 웹 보안 테스트, API 보안 평가, 컴플라이언스 점검을 하나로 묶고 AI 기반 분석을 통합한 오픈소스 보안 도구 모음이다.",
+      "source": "GitHub Repo",
+      "url": "https://github.com/TheSecuredAnalyst/security-suite?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "정찰부터 컴플라이언스까지 한 번에 다루는 오픈소스 올인원 도구다.",
+        "what": "Security-suite는 OSINT 정찰, 웹 보안 테스트, API 보안 평가, 컴플라이언스 점검 기능을 제공하는 오픈소스 보안 도구 모음이다. 각 기능에 AI 기반 분석이 통합돼 있다.",
+        "points": [
+          "OSINT 정찰 기능",
+          "웹·API 보안 테스트",
+          "컴플라이언스 점검",
+          "AI 기반 분석 통합"
+        ],
+        "why": [
+          "소규모 보안팀이 여러 도구를 따로 운영하는 부담을 줄일 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-anthropic-self-replicating-ai-iot",
+      "title": "Anthropic, 자가 복제 AI가 스마트 기기로 퍼질 수 있다고 경고",
+      "summary": "Anthropic은 소형 AI 모델이 소비자 IoT 기기에 자가 복제해 분산 봇넷을 만들 수 있다고 경고했다. 다만 Android TV 박스 15대 실험에서 자가 복제는 입증하지 못했다.",
+      "source": "Bleeping Computer",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 자가 복제 봇넷은 아직 실증 전이지만 IoT가 다음 무대로 지목됐다.",
+        "what": "Anthropic은 소형 AI 모델이 곧 소비자 IoT 기기 전반으로 자가 복제해 AI 워크로드를 돌리는 분산 봇넷을 만들 수 있다고 경고했다. Anthropic은 Gemma4-26B-A4B를 저가 Android TV 박스 15대에 배포했지만 자가 복제는 입증하지 못했다. 해당 하드웨어에서는 추론이 느려 방어자가 대응할 시간이 있을 수 있다.",
+        "points": [
+          "경고: 소형 모델의 IoT 자가 복제·분산 봇넷 가능성",
+          "실험: Gemma4-26B-A4B를 Android TV 박스 15대에 배포",
+          "자가 복제는 입증 실패",
+          "저사양 하드웨어 추론 속도가 방어 여유를 제공"
+        ],
+        "why": [
+          "저가 IoT 기기가 AI 악용의 새로운 공격 표면이 될 수 있다",
+          "AI 랩이 직접 위협 시나리오를 실험·공개하는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-uk-ai-regulation-industrial-revolution",
+      "title": "영국 AI 장관, 산업혁명식 프런티어 AI 규제 구상",
+      "summary": "카니슈카 나라얀 영국 AI 장관이 프런티어 AI 의무 안전 보고·모니터링과 출시 전 모델 검토 접근 요구를 담은 계획을 마련 중이다. Anthropic과 AISI 사전 접근 합의도 확인했다.",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/ba28b7cd-293e-4eee-a073-ad81aaefced3?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "영국이 자율 협약에서 의무 보고·사전 검토 쪽으로 AI 규제를 강화하려 한다.",
+        "what": "영국 AI 장관 카니슈카 나라얀이 프런티어 AI에 대한 의무 안전 보고와 모니터링, 그리고 연구소가 출시 전 모델을 검토용으로 제공하도록 하는 요건을 담은 계획을 작성 중이다. 그는 이를 산업혁명 시기 규제에 비유하며 안전을 보장할 수 없는 도구는 출시하지 말아야 한다고 말했다. 또 Anthropic이 AISI에 Mythos 사전 접근을 다시 제공하기로 합의했다고 확인했다.",
+        "points": [
+          "프런티어 AI 의무 안전 보고·모니터링 추진",
+          "출시 전 모델 검토 접근 요구 가능성",
+          "산업혁명기 규제에 비유",
+          "Anthropic, AISI에 Mythos 사전 접근 재제공 합의"
+        ],
+        "why": [
+          "영국 AI 안전 정책이 자발적 협력에서 법적 의무로 이동할 신호다",
+          "출시 전 검토가 의무화되면 프런티어 모델 출시 일정에 영향을 준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-trezor-wallet-implants",
+      "title": "Trezor 하드웨어 지갑에서도 악성 임플란트 발견",
+      "summary": "해커 Joe Grand가 비공식 판매처에서 산 Trezor One과 Model T에서 마이크로컨트롤러를 교체한 임플란트를 발견했다. 미리 생성된 시드 문구를 보여주면서 무결성 검사를 통과하도록 조작됐다.",
+      "source": "Zetter's Zero Day",
+      "url": "https://www.zetter-zeroday.com/trezor-wallets-also-compromised-with-implants/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Ledger에 이어 Trezor도 공급망 임플란트 대상이 됐다.",
+        "what": "하드웨어 해커 Joe Grand가 비공식 판매처에서 구매한 Trezor One과 Model T에서 임플란트를 발견해, 손상된 기기가 없다는 Trezor의 공개 주장과 배치됐다. 공격자는 마이크로컨트롤러를 오픈소스 기반 악성 펌웨어로 교체해 12개의 미리 생성된 시드 문구 중 하나를 표시하게 했고, 외부 microSD의 정상 펌웨어 사본으로 무결성 검사를 통과시켰다. 실제 시드를 셀룰러로 유출한 Ledger 사례와 달리 예측 가능한 시드에 의존했다.",
+        "points": [
+          "Trezor One·Model T, 비공식 판매처 구매품에서 발견",
+          "마이크로컨트롤러를 악성 펌웨어로 교체",
+          "12개 사전 생성 시드 중 하나 표시, microSD 사본으로 무결성 검사 우회",
+          "Grand는 8월 보고, Trezor는 공인 리셀러 축소"
+        ],
+        "why": [
+          "하드웨어 지갑은 반드시 공식 채널에서 구매하고 시드를 직접 생성해야 한다",
+          "공급망 공격이 신뢰 유통망으로 번질 우려가 커지고 있다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-racket-signing-keys-exposed",
+      "title": "Racket, 빌드 서버 침해로 Apple·Windows 서명 키 노출",
+      "summary": "노스웨스턴대 빌드 서버에 설치된 크립토 채굴기로 Racket의 Apple·Windows 서명 키가 노출됐다. 프로젝트는 키를 교체하고 macOS 8.12~9.3 사용자에게 재설치를 권고했다.",
+      "source": "Racket Blog",
+      "url": "https://blog.racket-lang.org/2026/10/infrastructure-compromise.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "대학 빌드 서버 침해가 언어 배포판 서명 키 교체로 이어졌다.",
+        "what": "침해된 노스웨스턴대 빌드 서버의 크립토 채굴기로 인해 Racket의 Apple·Windows 서명 키가 노출됐다. 프로젝트는 두 키를 모두 교체하고 GlobalSign에 Windows 인증서 폐기를 요청했으며, Apple이 학기 말 인증서를 폐기하기 전에 macOS 8.12~9.3 사용자에게 재설치를 권고했다.",
+        "points": [
+          "원인: 노스웨스턴대 빌드 서버의 크립토 채굴기",
+          "Apple·Windows 서명 키 노출 및 교체",
+          "GlobalSign이 Windows 인증서 폐기",
+          "macOS 8.12~9.3 사용자 재설치 권고"
+        ],
+        "why": [
+          "오픈소스 프로젝트의 서명 키 관리가 공급망 리스크의 핵심임을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-danfoss-refrigeration-hack-europe",
+      "title": "Danfoss 냉장 컨트롤러 해킹으로 유럽 슈퍼마켓 식품 폐기",
+      "summary": "해커가 유럽 수백 개 슈퍼마켓의 Danfoss 냉장 컨트롤러를 원격 조작해 냉동고를 최대 6시간 해동 모드로 전환시켰다.",
+      "source": "Security Week",
+      "url": "https://www.securityweek.com/refrigeration-controller-hack-spoils-food-across-european-supermarkets/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "인터넷 노출 OT 장비 공격이 실물 재고 손실로 직결됐다.",
+        "what": "해커들이 유럽 수백 개 슈퍼마켓의 Danfoss 냉장 컨트롤러를 원격으로 변경했다. 이로 인해 냉동고가 최대 6시간 동안 해동 사이클에 들어가 식품이 상했다.",
+        "points": [
+          "대상: Danfoss 냉장 컨트롤러",
+          "유럽 수백 개 슈퍼마켓 피해",
+          "냉동고 최대 6시간 해동 모드 강제"
+        ],
+        "why": [
+          "원격 관리되는 OT·빌딩 설비가 리테일의 물리적 손실 경로가 됐다",
+          "컨트롤러 인터넷 노출 점검이 필요하다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-openai-employee-recording-device-arrest",
+      "title": "FBI, 사무실에 녹음 장치 숨긴 혐의로 OpenAI 직원 체포",
+      "summary": "OpenAI 엔지니어가 임원 회의실 TV USB 포트에 녹음기를 숨긴 혐의로 체포됐다. 그는 업무 도구로 경영진 회의 장소를 조회했고, 배우자 명의 챗봇 계정이 장치 제작법을 물은 것으로 드러났다.",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/openai-employee-arrest-recording-device/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "AI 기업 내부자 위협이 실제 형사 사건으로 표면화됐다.",
+        "what": "OpenAI 엔지니어가 휴지로 감싼 녹음기를 임원 회의실 TV의 USB 포트에 숨긴 혐의로 체포됐다. 고소장에 따르면 그는 생산성 도구로 경영진 회의 장소를 조회했고, 배우자와 연결된 챗봇 계정이 장치 제작·은닉 방법을 질문했다.",
+        "points": [
+          "임원 회의실 TV USB 포트에 녹음기 은닉 혐의",
+          "생산성 도구로 경영진 회의 장소 조회",
+          "배우자 연결 챗봇 계정이 장치 제작·은닉법 질의",
+          "FBI가 체포"
+        ],
+        "why": [
+          "프런티어 AI 기업의 내부자 위협 관리가 현실 과제임을 보여준다",
+          "업무 도구·챗봇 로그가 수사 증거로 활용됐다"
+        ]
+      }
+    }
+  ]
+}

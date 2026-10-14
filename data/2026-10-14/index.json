@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "weekday": "수",
+  "headline": "구글, Gemini 4 Argon 정식 출시…API 가격 한시 인하",
+  "subtitle": "OpenAI 직원 도청장치 설치 혐의 FBI 체포 · Anthropic, git 버리고 자체 VCS Scion 도입 · GitLab CVSS 10.0 RCE 패치",
+  "keyword": "Gemini 4 Argon · 내부자 위협 · Scion · GitLab RCE",
+  "bigStoryId": "tech-gemini-4-argon-ga",
+  "editions": [
+    "tech",
+    "ai",
+    "infosec",
+    "it",
+    "crypto",
+    "dev",
+    "devops",
+    "founders",
+    "hardware",
+    "design",
+    "marketing"
+  ],
+  "lastUpdated": "09:08 CDT",
+  "syncedAt": "2026-10-14T14:08:31Z",
+  "stats": {
+    "companies": 56,
+    "security": 16,
+    "deals": 7,
+    "policy": 8
+  },
+  "signals": [
+    {
+      "kind": "primary",
+      "title": "AI 랩 내부자 위협과 CI/CD 최고 위험 취약점",
+      "body": "OpenAI 사무실에 암호화 녹음 장치를 심은 혐의로 엔지니어가 FBI에 체포돼 tech·AI·개발·보안 네 에디션에 걸쳐 보도됐다. 같은 날 GitLab은 비인증 원격 코드 실행이 가능한 CVSS 10.0 취약점(CVE-2026-97229)을 패치했다. 자체 호스팅 GitLab은 19.2.8·19.3.5·19.4.2로 즉시 올려야 한다."
+    },
+    {
+      "kind": "market",
+      "title": "프런티어 모델 가격 경쟁과 자체 칩 확대",
+      "body": "구글은 Gemini 4 Argon을 정식 출시하면서 11월 30일까지 API 가격을 한시 인하했고, 마이크로소프트는 2027년부터 자체 칩 Maia를 멀티 기가와트 규모의 주력 추론 시스템으로 삼는다. 반면 Character.ai는 챕터 11 매각 절차에 들어갔고, Blur는 NFT 거래량이 99.5% 급감하자 폐쇄를 결정했다."
+    },
+    {
+      "kind": "watchlist",
+      "title": "다음 48시간 모니터링",
+      "body": "다음 항목을 추적한다: Gemini 4 Argon 벤치마크와 할인 종료 후 가격, OpenAI 도청 사건 기소 내용과 유출 범위, GitLab CVE-2026-97229의 실제 악용 여부, Character.ai 인수자 윤곽, 메타의 틱톡 광고 차단 시장 확대 여부."
+    }
+  ]
+}

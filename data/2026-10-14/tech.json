@@ -1,0 +1,285 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-apple-homeview-tablet",
+      "title": "애플, 299달러 가정용 태블릿 'HomeView' 공개",
+      "summary": "애플이 가족 구성원을 인식해 화면을 바꾸는 7인치 가정용 태블릿 HomeView를 299달러에 내놓는다. 11월 13일 출시된다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/13/technology/apple-homeview-tablet.html?unlocked_article_code=1.IlE.cQEC.vtkkfVCSfSUv&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "애플이 스마트홈 허브를 겨냥한 저가 7인치 태블릿으로 거실 공략에 나섰다.",
+        "what": "애플이 7인치 태블릿 HomeView를 299달러부터 판매한다고 발표했다. 최대 6명의 가구 구성원을 인식해 사용자별로 콘텐츠를 바꾼다. 조리대 거치형과 벽걸이형 두 가지로 나오며 11월 13일부터 구매할 수 있다.",
+        "points": [
+          "시작가 299달러의 7인치 디스플레이",
+          "가구 구성원 최대 6명 인식 및 개인화 화면",
+          "카운터탑형·벽걸이형 두 가지 폼팩터",
+          "11월 13일 판매 시작"
+        ],
+        "why": [
+          "아마존 Echo Show·구글 Nest Hub와 정면 경쟁하는 애플의 홈 허브 진입",
+          "같은 날 공개된 Apple Home Collection 액세서리와 함께 스마트홈 생태계 확장 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-gemini-4-argon-ga",
+      "title": "구글, Gemini 4 Argon 정식 출시…한시적 API 할인",
+      "summary": "구글의 플래그십 멀티모달 모델 Gemini 4 Argon이 광범위하게 제공되며, API 가격이 한시적으로 크게 인하됐다.",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/google-makes-gemini-4-argon-broadly-available-with-limited-time-low-api-pricing-of-2-10-per-1m-token?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "구글이 최상위 모델을 정식 공개하며 가격 공세로 개발자·기업 수요를 끌어모은다.",
+        "what": "구글이 플래그십 멀티모달 언어 모델 Gemini 4 Argon을 일반에 폭넓게 공개했다. 소프트웨어 엔지니어링, 금융 분석, 법률, 사이버보안, 과학 연구 등 고난도 업무를 겨냥한다. 출시와 함께 API 가격을 한시적으로 대폭 할인했다.",
+        "points": [
+          "플래그십 멀티모달 모델의 광범위 제공(GA)",
+          "코딩·금융·법률·보안·연구 등 엔터프라이즈 용도 강조",
+          "한시적 API 가격 대폭 할인(제목 기준 100만 토큰당 2/10달러)"
+        ],
+        "why": [
+          "프런티어 모델 간 가격 경쟁이 한층 치열해지는 신호",
+          "기업 고객 확보를 위한 구글의 공격적 프로모션"
+        ]
+      }
+    },
+    {
+      "id": "tech-spacex-456-starship-launches",
+      "title": "SpaceX, 텍사스에서 연 456회 스타십 발사 계획 심사 중",
+      "summary": "SpaceX가 텍사스 시설에서 연간 최대 456회 발사와 912회 착륙을 하겠다는 계획이 당국 심사를 받고 있다.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-10-13/spacex-plan-to-launch-456-starships-a-year-in-texas-under-review?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "스타십을 '항공기처럼' 쏘겠다는 SpaceX의 목표가 규제 심사 단계에 들어섰다.",
+        "what": "SpaceX가 텍사스 시설에서 연간 최대 456회 발사, 912회 착륙을 수행하는 계획을 제출해 심사를 받고 있다. 일론 머스크는 스타십을 최대한 빠르게 발사하겠다는 의도를 공공연히 밝혀왔다. 그는 10년 안에 한 시간에 한 번 이상 스타십을 발사할 수 있다고 주장했다.",
+        "points": [
+          "연간 최대 456회 발사·912회 착륙 계획",
+          "텍사스 시설 대상 규제 심사 진행",
+          "머스크, 10년 내 시간당 1회 이상 발사 목표 제시"
+        ],
+        "why": [
+          "발사 빈도가 현실화되면 우주 운송 비용 구조가 근본적으로 바뀜",
+          "환경·지역사회 영향 심사 결과가 일정의 핵심 변수"
+        ]
+      }
+    },
+    {
+      "id": "tech-science-corp-prima-stargardt",
+      "title": "Science Corp, 시력 복원 칩 PRIMA 첫 스타가르트병 환자에 이식",
+      "summary": "유럽에서 황반변성용으로 상용화된 Science Corporation의 시력 복원 칩 PRIMA가 유전성 안질환인 스타가르트병 환자에게 처음 이식됐다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "뇌-기계 인터페이스 기업의 시력 복원 칩이 적용 질환을 넓히기 시작했다.",
+        "what": "Science Corporation의 시력 복원 칩 PRIMA는 진행성 노인성 황반변성으로 시력을 잃은 환자를 대상으로 유럽에서 상용 판매 중이다. 회사는 이 방식이 여러 질환에 적용될 수 있다고 보고, 최근 스타가르트병 환자에게 칩을 이식했다. 스타가르트병은 중심 시력을 점차 파괴하는 유전성 안질환이다.",
+        "points": [
+          "PRIMA는 유럽에서 황반변성 대상 상용화 상태",
+          "첫 스타가르트병 환자 이식 진행",
+          "다질환 적용 가능성 검증 단계"
+        ],
+        "why": [
+          "신경 임플란트의 적응증 확장은 시장 규모를 키우는 핵심 단계",
+          "유전성 실명 환자에게 새로운 치료 옵션 가능성"
+        ]
+      }
+    },
+    {
+      "id": "tech-how-to-be-more-ambitious",
+      "title": "AI 모델과 함께 더 야심차게 일하는 법: 네 가지 야망",
+      "summary": "펠릭스 리세버그가 AI 시대의 야망을 속도·고도·깊이·범위의 네 유형으로 나눠 설명한다.",
+      "source": "Felix Rieseberg",
+      "url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "모델을 쓰면 '빨리'만이 아니라 '더 높게, 더 깊게, 더 넓게' 일할 수 있다.",
+        "what": "글은 야망을 네 가지로 구분한다. 속도는 같은 일을 더 짧게 끝내는 것, 고도는 추상화 수준을 올려 개별 작업보다 결과를 보는 것이다. 깊이는 분야 최고 전문가처럼 한 단계 더 내려가 데이터·도구·문제를 직접 다루는 것, 범위는 여러 분야를 끌어오는 것이다.",
+        "points": [
+          "속도: 같은 작업을 더 짧은 시간에",
+          "고도: 작업이 아닌 결과 중심으로 추상화 상승",
+          "깊이: 전문가 수준으로 근본 데이터·도구까지 파고들기",
+          "범위: 표면 분야를 넘어 여러 분야 결합"
+        ],
+        "why": [
+          "AI 활용을 생산성(속도)에만 한정하지 말라는 실무 프레임",
+          "개인·팀의 AI 도입 목표 설정에 참고할 만함"
+        ]
+      }
+    },
+    {
+      "id": "tech-anthropic-scion-source-control",
+      "title": "Anthropic, 자체 버전관리 시스템 Scion으로 git 탈출",
+      "summary": "Anthropic이 인간 규모에 맞춰진 개발 인프라 병목을 넘기 위해 자체 VCS Scion을 만들고 모노레포를 5개월 만에 git에서 이전했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 에이전트 시대의 코드량을 감당하려 Anthropic이 소스 관리 스택을 통째로 새로 만들었다.",
+        "what": "Anthropic은 인간 규모를 전제로 한 개발 인프라가 병목이 되자 사내 버전관리 시스템 Scion을 구축했다. 모노레포를 git에서 5개월 만에 완전히 이전했다. 같은 기간 코드 리뷰 화면, 코드 검색, 소스 관리 IAM, 대량의 리뷰된 코드를 관리·머지하는 새 방식 등도 함께 출시했다.",
+        "points": [
+          "자체 VCS Scion 구축, 모노레포를 git에서 5개월 만에 이전",
+          "코드 리뷰·코드 검색·IAM 시스템 동시 구축",
+          "대규모 리뷰 코드 랜딩을 위한 새 방식 도입"
+        ],
+        "why": [
+          "에이전트가 쏟아내는 코드량이 git 같은 기존 도구의 한계를 드러내는 사례",
+          "AI 네이티브 개발 인프라라는 새 카테고리의 등장 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-blue-collar-developers",
+      "title": "개발자는 원래 블루칼라였을까?",
+      "summary": "소프트웨어 개발자도 전기기사·목수처럼 오랜 숙련으로 무언가를 만들고 고치는 직업이라는 에세이.",
+      "source": "Peter Bryant",
+      "url": "https://ptrbrynt.com/posts/were-we-blue-collar-workers-all-along?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "개발은 원자 대신 비트를 다루는 '손기술' 직업이라는 시각.",
+        "what": "블루칼라는 보통 무언가를 만들거나 고치는 손노동을 한다. 개발자들은 이 범주와 거리를 두려 했지만, 비트로 만들고 고친다는 점에서 본질은 같다고 글은 주장한다. 전기기사나 목수처럼 개발자도 숙련되고 찾는 인재가 되려면 수년간 기술을 연마해야 한다.",
+        "points": [
+          "개발자의 일도 '만들고 고치는' 작업",
+          "원자 대신 비트를 다룰 뿐이라는 비유",
+          "숙련까지 수년의 연마가 필요한 장인 직업"
+        ],
+        "why": [
+          "AI 시대 개발 직업의 정체성과 가치를 다시 생각하게 하는 관점"
+        ]
+      }
+    },
+    {
+      "id": "tech-fbi-arrests-openai-employee",
+      "title": "FBI, OpenAI 사무실에 도청장치 설치한 직원 체포",
+      "summary": "OpenAI 사무실에서 탐지를 피하도록 설계된 암호화 녹음 장치가 발견됐고, 이를 설치한 혐의로 제품팀 엔지니어가 FBI에 체포됐다.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/10/13/technology/openai-worker-arrested-bugging.html?unlocked_article_code=1.IlE.2dS1.0tjJ0NPwfkW5&smid=url-share&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "프런티어 AI 연구소를 겨냥한 내부자 위협이 현실화됐다.",
+        "what": "OpenAI가 사무실 한 곳에서 숨겨진 녹음 장치를 발견했다. 장치는 2025년 7월 제품팀 엔지니어로 입사한 사우디아라비아 국적의 Abdulrahman Alfozan에게 추적됐고, 그는 FBI에 체포됐다. 장치는 탐지를 피하도록 제작됐으며 고급 암호화를 사용했다.",
+        "points": [
+          "사무실에서 은닉형 녹음 장치 발견",
+          "2025년 7월 입사한 제품팀 엔지니어가 FBI에 체포",
+          "탐지 회피 설계와 고급 암호화 적용"
+        ],
+        "why": [
+          "AI 연구소의 내부자 보안·산업 스파이 리스크를 부각",
+          "업계 전반의 채용·물리 보안 강화로 이어질 가능성"
+        ]
+      }
+    },
+    {
+      "id": "tech-silicon-valley-seen-from-beijing",
+      "title": "베이징에서 본 실리콘밸리",
+      "summary": "베이 지역 프런티어 연구소 연구자들조차 중국 모델을 이길 수 없다고 말한다는 관찰.",
+      "source": "Crossing River",
+      "url": "https://crossingriver.substack.com/p/silicon-valley-seen-from-beijing?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "미·중 AI 격차에 대한 실리콘밸리 내부의 위기감을 전한다.",
+        "what": "중국 시각에서 실리콘밸리를 바라본 에세이다. 베이 지역 프런티어 연구소 연구자들이 중국 모델을 이길 수 없다고 말한다는 내용을 전한다.",
+        "points": [
+          "중국 관점에서 본 실리콘밸리 AI 생태계",
+          "미국 연구자들 사이의 중국 모델 경쟁력 인식",
+          "미·중 AI 경쟁 구도에 대한 정성적 관찰"
+        ],
+        "why": [
+          "미국 AI 우위론에 대한 반론적 시각 제공"
+        ]
+      }
+    },
+    {
+      "id": "tech-bumble-1-3b-acquisition",
+      "title": "범블, 13억 달러에 인수돼 비상장 전환",
+      "summary": "Ithaca Holdings가 범블을 13억 달러에 인수해 비상장사로 만들고 온라인 데이팅 경험을 재설계한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/13/bumble-agrees-to-a-1-3b-acquisition-deal-as-online-dating-faces-a-reset/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "부진한 데이팅 앱 시장에서 범블이 상장 압박을 벗어나 재정비에 들어간다.",
+        "what": "범블이 Ithaca Holdings와 13억 달러 규모의 인수 계약에 합의했다. Ithaca는 범블을 비상장사로 전환해 공개 시장의 압박에서 벗어나 온라인 데이팅 경험을 재고할 계획이다.",
+        "points": [
+          "인수 규모 13억 달러",
+          "인수자 Ithaca Holdings, 비상장 전환",
+          "온라인 데이팅 경험 재설계가 목표"
+        ],
+        "why": [
+          "온라인 데이팅 산업의 구조적 리셋을 상징하는 거래"
+        ]
+      }
+    },
+    {
+      "id": "tech-are-harnesses-worth-the-cost",
+      "title": "AI 하네스, 비용만큼 가치가 있을까",
+      "summary": "행동 하네스가 모든 모델·모든 작업에서 자동으로 이득이 되는 것은 아니라는 마틴 파울러 사이트의 분석.",
+      "source": "Martin Fowler",
+      "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "에이전트 하네스는 모델·작업별로 효과를 따져 써야 한다.",
+        "what": "martinfowler.com에 실린 글로, 코딩 에이전트를 둘러싼 행동 하네스의 비용 대비 효과를 검토한다. 핵심 결론은 하네스가 모든 모델과 모든 작업에서 자동으로 이득이 되지 않는다는 것이다.",
+        "points": [
+          "행동 하네스의 효과는 모델과 작업에 따라 다름",
+          "하네스 도입에는 비용이 따름",
+          "일괄 적용보다 상황별 평가가 필요"
+        ],
+        "why": [
+          "에이전트 엔지니어링에서 '더 많은 가드레일=더 좋음'이라는 가정에 제동"
+        ]
+      }
+    },
+    {
+      "id": "tech-rise-of-deploycos",
+      "title": "'DeployCo'의 부상",
+      "summary": "엔지니어를 기업 내부에 파견해 AI 에이전트를 실제 업무에 정착시키는 '배포 회사'가 새 업종으로 떠오른다.",
+      "source": "Tanay Jaipuria",
+      "url": "https://www.tanayj.com/p/the-rise-of-deploycos?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 도입의 병목이 모델이 아니라 현장 배포로 옮겨가고 있다.",
+        "what": "DeployCo는 기업 내부에 엔지니어를 상주시켜 AI 에이전트 도입을 돕고 실제 워크플로에서 작동하게 만드는 회사를 말한다. 글은 이런 형태의 회사가 늘어나는 흐름을 분석한다.",
+        "points": [
+          "DeployCo: 엔지니어를 고객사에 임베드하는 모델",
+          "목표는 AI 에이전트를 실제 워크플로에 정착",
+          "기술 제공보다 배포·통합 역량이 가치의 중심"
+        ],
+        "why": [
+          "AI 시장에서 서비스형 배포 역량이 새 사업 기회로 부상"
+        ]
+      }
+    },
+    {
+      "id": "tech-claude-dont-touch-my-lump",
+      "title": "클로드, 내 혹은 건드리지 마",
+      "summary": "우리는 삶의 절반만 현재에 살고 나머지 절반은 내일을 걱정하며 보낸다는 Experimental History의 에세이.",
+      "source": "Experimental History",
+      "url": "https://www.experimental-history.com/p/claude-dont-touch-my-lump?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 시대에도 인간이 미래를 끌어안고 사는 방식에 대한 성찰.",
+        "what": "Experimental History의 에세이로, 인간은 존재의 절반만 현재를 살고 나머지 절반은 내일, 혹은 그 다음 날에 쓴다는 문장으로 요약된다. 제목처럼 클로드와의 상호작용을 소재로 삼는다.",
+        "points": [
+          "인간은 삶의 절반을 미래에 대한 생각으로 보낸다는 관찰",
+          "AI(클로드)와의 관계를 소재로 한 에세이",
+          "기술보다 인간 심리에 초점"
+        ],
+        "why": [
+          "AI를 일상에 들이는 방식에 대한 인문학적 시각"
+        ]
+      }
+    },
+    {
+      "id": "tech-google-play-vibe-coded-apps",
+      "title": "구글, 바이브 코딩 개인 앱을 플레이스토어에 호스팅",
+      "summary": "AI Studio 사용자가 만든 앱을 플레이스토어의 개인 라이브러리로 보내 자신의 기기에서 쓸 수 있게 된다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "구글이 '나만 쓰는 AI 생성 앱'의 배포 통로로 플레이스토어를 연다.",
+        "what": "구글 AI Studio 사용자는 곧 자신이 만든 앱을 플레이스토어의 개인 라이브러리로 보낼 수 있게 된다. 이 라이브러리는 사용자 기기의 앱스토어 클라이언트에서 접근할 수 있다.",
+        "points": [
+          "AI Studio에서 만든 앱을 플레이스토어 개인 라이브러리로 전송",
+          "자신의 기기 앱스토어 클라이언트에서 설치 가능",
+          "공개 출시가 아닌 개인용 배포"
+        ],
+        "why": [
+          "바이브 코딩 앱의 사이드로딩 장벽을 없애는 조치",
+          "개인화 소프트웨어 시대를 겨냥한 플랫폼 전략"
+        ]
+      }
+    }
+  ]
+}

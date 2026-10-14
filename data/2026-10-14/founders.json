@@ -1,0 +1,307 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-hunter-walk-pro-rata-conflicts",
+      "title": "Hunter Walk: 프로라타 갈등은 더 늘어난다",
+      "summary": "초기 펀드가 커지며 여러 라운드에서 프로라타를 행사하고, 세컨더리·SPV 등으로 이를 현금화할 수 있게 되면서 라운드 간 충돌이 늘 것이라는 분석.",
+      "source": "Hunter Walk",
+      "url": "https://hunterwalk.com/2026/10/12/why-there-will-be-more-pro-rata-conflicts/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "초기 투자자의 프로라타 행사 증가가 후속 라운드 배분 갈등을 키운다.",
+        "what": "Hunter Walk는 초기 단계 펀드가 성장하면서 아웃라이어 기업의 큰 상승 여력을 노려 여러 라운드에 걸쳐 프로라타 권리를 행사하는 경우가 늘고 있다고 분석했다. 세컨더리 시장과 펀드 오브 펀드, SPV 같은 수단이 소형 펀드의 프로라타 현금화를 돕고, 빨라진 라운드 속도도 갈등을 키운다.",
+        "points": [
+          "초기 펀드의 다회 라운드 프로라타 행사 증가",
+          "세컨더리, 펀드 오브 펀드, SPV가 프로라타 현금화 지원",
+          "투자 기간 내 빨라진 라운드 속도가 갈등 요인"
+        ],
+        "why": [
+          "창업자는 후속 라운드 배분 협상을 미리 준비해야 함",
+          "리드 투자자와 기존 투자자 간 지분 경쟁 심화"
+        ]
+      }
+    },
+    {
+      "id": "founders-stripe-alien-economics-ai-monetization",
+      "title": "Stripe: AI 수익화의 '외계적' 경제학",
+      "summary": "Forbes AI 50의 3분의 2가 사용량 기반 가격을 쓰며, 선도 AI 기업들은 가격을 더 빨리 바꾸고 ARR보다 점유율을 우선하며 여러 GTM을 동시에 추진한다.",
+      "source": "Stripe",
+      "url": "https://stripe.com/blog/economics-of-ai-monetization?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 기업은 전통 SaaS 공식과 다른 방식으로 가격과 성장을 운영한다.",
+        "what": "Stripe가 AI 기업들의 수익화 방식을 분석했다. Forbes AI 50 기업의 3분의 2가 사용량 기반 가격을 쓰며, 가변 비용과 예측하기 어려운 수요 때문에 가격을 더 빨리 반복하고 ARR보다 시장 점유율을 우선하며 여러 GTM 전략을 동시에 추진한다.",
+        "points": [
+          "Forbes AI 50의 3분의 2가 사용량 기반 가격",
+          "가격 정책을 더 빠르게 반복",
+          "ARR보다 시장 점유율 우선",
+          "복수의 GTM 전략 병행",
+          "TLDR Dev에도 같은 글이 실림"
+        ],
+        "why": [
+          "AI 스타트업 창업자는 SaaS 벤치마크를 그대로 적용하면 안 됨",
+          "가격 실험 속도 자체가 경쟁력"
+        ]
+      }
+    },
+    {
+      "id": "founders-grow-massive-brand-masterclass",
+      "title": "거대한 브랜드를 키우는 법 (2026 마스터클래스)",
+      "summary": "창업자 계정과 회사 계정의 콘텐츠를 분리하고, 인지도·신뢰·구매 유도 게시물을 구분해 즉각적 매출이 아닌 맥락으로 성과를 평가하라는 가이드.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/ryangrowthh/status/2109644746465726929?utm_source=tldrfounders",
+      "report": {
+        "tldr": "창업자 브랜드와 회사 브랜드는 다른 역할을 맡아야 한다.",
+        "what": "창업자 계정과 회사 계정이 같은 콘텐츠를 올릴 필요가 없다는 브랜드 성장 가이드다. 창업자는 신념·교훈·구축 경험을, 회사는 제품·출시를 다루고, 게시물을 인지도·신뢰·구매 유도 목적별로 나눠 평가하라고 제안한다.",
+        "points": [
+          "창업자 콘텐츠: 신념, 교훈, 구축 경험",
+          "회사 콘텐츠: 제품, 출시",
+          "게시물 목적 구분: 인지도 / 신뢰 / 구매 유도",
+          "즉각적 매출 지표가 아닌 목적별 성과 평가"
+        ],
+        "why": [
+          "초기 스타트업의 소셜 채널 운영 원칙을 정리하는 데 실용적"
+        ]
+      }
+    },
+    {
+      "id": "founders-posthog-38-lessons-ai-products",
+      "title": "PostHog가 AI 제품 10개를 만들며 배운 38가지",
+      "summary": "PostHog는 4년간 PostHog AI, 설치 Wizard, Replay Vision, Scouts 등 10개 AI 제품을 만들었고 월 10만 명 가까이 사용한다.",
+      "source": "PostHog",
+      "url": "https://newsletter.posthog.com/p/38-things-weve-learned-about-building?utm_source=tldrfounders",
+      "report": {
+        "tldr": "실사용 10만 명 규모의 AI 제품 10개에서 나온 현장 교훈.",
+        "what": "PostHog가 4년 동안 10개의 AI 제품을 만들며 얻은 교훈 38가지를 정리했다. PostHog AI, 설치 Wizard, Replay Vision, Scouts 등이 포함되며 월 사용자는 10만 명에 가깝다.",
+        "points": [
+          "4년간 AI 제품 10개 구축",
+          "PostHog AI, 설치 Wizard, Replay Vision, Scouts",
+          "월 사용자 약 10만 명"
+        ],
+        "why": [
+          "기존 SaaS에 AI 기능을 붙이는 팀에게 실전 참고자료",
+          "여러 번의 시도로 축적된 제품 판단 기준"
+        ]
+      }
+    },
+    {
+      "id": "founders-onlycfo-arr-vs-gaap-revenue",
+      "title": "ARR vs GAAP 매출: 'ARR 거짓말' 가려내기",
+      "summary": "ARR이 매출과 현금으로 이어지지 않으면 가짜 지표이며, AI 시대에는 ARR이 지체 없이 GAAP 매출로 전환되도록 정의를 다듬어야 한다.",
+      "source": "OnlyCFO",
+      "url": "https://www.onlycfo.io/p/arr-vs-gaap-revenue-spotting-arr?utm_source=tldrfounders",
+      "report": {
+        "tldr": "매출과 현금으로 이어지지 않는 ARR은 의미가 없다.",
+        "what": "OnlyCFO가 ARR 정의의 정확성을 강조했다. ARR이 결국 매출과 현금으로 이어지지 않으면 가짜 지표이며, 대부분의 기업은 AI 시대에 맞춰 ARR이 오래 지연되지 않고 GAAP 매출로 전환되도록 정의를 재정비해야 한다고 말한다.",
+        "points": [
+          "ARR은 매출·현금으로 이어져야 함",
+          "AI 시대에 맞춘 ARR 정의 재정비 필요",
+          "ARR→GAAP 매출 전환 지연을 경계"
+        ],
+        "why": [
+          "사용량 기반 매출이 많은 AI 기업의 지표 부풀리기에 대한 경고",
+          "투자자 실사에서 ARR 정의가 검증 대상이 됨"
+        ]
+      }
+    },
+    {
+      "id": "founders-gemini-4-argon-google-cloud",
+      "title": "Gemini 4 Argon, Google Cloud에 출시",
+      "summary": "장기·다단계 작업에 특화된 Gemini 4 Argon이 Google Cloud에 나왔고, 11월 30일까지 입력 100만 토큰당 2달러, 출력 10달러, 캐시 입력 95% 할인의 도입가가 적용된다.",
+      "source": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Gemini 4 Argon이 공격적인 도입 가격으로 기업 시장에 나왔다.",
+        "what": "Google Cloud가 Gemini 4 Argon을 출시했다. 확장된 다단계 작업에서 깊이와 정밀성, 검증 가능한 결과를 내도록 훈련됐으며, 11월 30일까지 입력 100만 토큰당 2달러, 출력 100만 토큰당 10달러, 캐시 입력은 95% 할인된 도입 가격이 적용된다.",
+        "points": [
+          "장기·다단계 작업에 특화",
+          "도입가: 입력 $2 / 출력 $10 (100만 토큰당)",
+          "캐시 입력 95% 할인",
+          "11월 30일 이후 표준 요금 적용",
+          "TLDR Dev에도 모델 공개 소식이 실림"
+        ],
+        "why": [
+          "스타트업이 프런티어 모델을 저렴하게 시험할 기간이 열림",
+          "프로모션 종료 후 비용 변동을 미리 계산해 둘 필요"
+        ]
+      }
+    },
+    {
+      "id": "founders-stripe-workflows-recurring-jobs",
+      "title": "Stripe Workflows, 크론 서버 없이 반복 작업 실행",
+      "summary": "Stripe Workflows가 반복 일정 트리거를 지원해 지정 시간에 Stripe가 실행을 시작하며, 리스트 액션·루프와 함께 쓰고 대시보드에서 관리할 수 있다.",
+      "source": "Stripe",
+      "url": "https://stripe.dev/blog/run-recurring-jobs-on-stripe-workflows?utm_source=tldrfounders",
+      "report": {
+        "tldr": "결제 관련 정기 작업을 별도 인프라 없이 Stripe 안에서 돌릴 수 있게 됐다.",
+        "what": "Stripe Workflows가 반복 일정 트리거를 새로 지원한다. 사용자가 실행 시각을 지정하면 Stripe가 실행을 시작하며, 리스트 액션과 루프와 결합할 수 있고 대시보드에서 팀이 워크플로를 확인·수정할 수 있다.",
+        "points": [
+          "반복 일정(schedule) 트리거 지원",
+          "리스트 액션·루프와 결합",
+          "대시보드에서 팀 단위 관리"
+        ],
+        "why": [
+          "소규모 팀의 백오피스 자동화 인프라 부담 감소",
+          "Stripe가 결제를 넘어 운영 자동화 플랫폼으로 확장"
+        ]
+      }
+    },
+    {
+      "id": "founders-chatbase-lean-team-rethink",
+      "title": "AI 시대 린 팀 신념을 철회한 Chatbase 창업자",
+      "summary": "Chatbase는 직원 40명으로 늘었고 6개월 내 두 배로 늘릴 계획이며, 만들기가 쉬워진 만큼 덜 만드는 기회비용이 커졌다고 말한다.",
+      "source": "Thread Reader",
+      "url": "https://threadreaderapp.com/thread/2109719352450924902.html?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI가 있어도 더 많이 만들고 성장하려면 여전히 사람을 뽑아야 한다.",
+        "what": "AI 시대에는 작은 팀으로 충분하다고 믿었던 Chatbase 창업자가 입장을 바꿨다. 회사는 40명으로 성장했고 6개월 안에 인원을 두 배로 늘릴 계획이며, 만들기가 쉬워진 만큼 개발을 제한하는 기회비용이 커졌다고 설명한다.",
+        "points": [
+          "Chatbase 현재 직원 40명",
+          "6개월 내 인원 두 배 계획",
+          "빌드가 쉬워질수록 제약된 개발의 기회비용 증가",
+          "빌드 루프 곳곳에 여전히 사람이 필요"
+        ],
+        "why": [
+          "'AI로 초소형 팀' 서사에 대한 현장의 반론",
+          "같은 날 '채용으로 오히려 느려졌다'는 반대 사례도 소개됨"
+        ]
+      }
+    },
+    {
+      "id": "founders-capital-stacks-for-atoms",
+      "title": "원자(물리) 기업을 위한 자본 구조",
+      "summary": "물리 세계 추론 병목을 노린 투자로 에너지·제조·우주·로보틱스 등 하드 자산 기업에 자본이 쏠리며, 이들은 매출 배수가 아닌 현금흐름 묶음으로 평가받는다.",
+      "source": "Akash Bajwa",
+      "url": "https://www.akashbajwa.co/p/capital-stacks-for-atoms?utm_source=tldrfounders",
+      "report": {
+        "tldr": "하드 자산 스타트업은 소프트웨어와 다른 자본 조달 방식이 필요하다.",
+        "what": "Akash Bajwa는 투자자들이 물리 세계의 추론 병목을 해결하려 하면서 최근 자본이 원자 기반 사업으로 이동했다고 분석했다. 에너지, 제조, 우주, 로보틱스 등 신흥 코호트는 매출 배수가 아닌 현금흐름 묶음으로 평가받아 생애주기 전반에서 다른 자본 형성 방식이 필요하다.",
+        "points": [
+          "자본이 물리(원자) 기반 사업으로 이동",
+          "분야: 에너지, 제조, 우주, 로보틱스",
+          "평가 기준: 매출 배수 → 현금흐름 묶음",
+          "생애주기별 다른 자본 형성 필요"
+        ],
+        "why": [
+          "딥테크 창업자는 지분 외에 부채·프로젝트 금융 등 자본 스택 설계가 중요",
+          "VC 단독 조달 모델의 한계"
+        ]
+      }
+    },
+    {
+      "id": "founders-friction-saranormous",
+      "title": "마찰: AI가 미뤄 둔 일을 해치우게 한다",
+      "summary": "AI 덕분에 그동안 미뤄 왔던 일들을 실제로 끝낼 수 있게 됐다는 짧은 관찰.",
+      "source": "X (Twitter)",
+      "url": "https://x.com/saranormous/status/2109659238809395333?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI는 시작의 마찰을 줄여 미뤄 둔 일을 실행하게 만든다.",
+        "what": "투자자 Sarah Guo(@saranormous)의 짧은 글로, AI가 작업 착수의 마찰을 낮춰 그동안 미뤄 왔던 일을 해낼 수 있게 한다는 관찰이다.",
+        "points": [
+          "AI가 착수 마찰을 낮춤",
+          "미뤄 둔 작업의 실행 가능성 증가"
+        ],
+        "why": [
+          "생산성 향상의 상당 부분이 '시작 비용' 감소에서 온다는 관점"
+        ]
+      }
+    },
+    {
+      "id": "founders-incentives-drive-behaviour",
+      "title": "인센티브가 행동을 만든다: 엔젤 투자자의 판단 방식",
+      "summary": "엔젤 투자자는 외부 압력 없이 개인 자본을 투자하기에 지표보다 창업자의 서사와 확신을 중시한다.",
+      "source": "Andy Ayim Substack",
+      "url": "https://andyayim.substack.com/p/incentives-drive-behaviour?utm_source=tldrfounders",
+      "report": {
+        "tldr": "엔젤은 숫자보다 창업자의 이야기와 확신에 투자한다.",
+        "what": "Andy Ayim은 엔젤 투자자가 외부 압력과 무관하게 개인 자본을 투자하기 때문에 지표보다 창업자의 서사와 확신을 강조한다고 설명한다. 투자자 유형별 인센티브가 판단 기준을 결정한다는 주장이다.",
+        "points": [
+          "엔젤은 개인 자본을 투자",
+          "외부(LP) 압력에서 자유로움",
+          "지표보다 창업자 서사와 확신 중시"
+        ],
+        "why": [
+          "초기 자금 조달 시 투자자 유형에 맞춰 피치를 조정해야 함"
+        ]
+      }
+    },
+    {
+      "id": "founders-more-features-wont-save-startup",
+      "title": "기능을 더한다고 스타트업이 살아나지 않는다",
+      "summary": "어려움을 겪는 스타트업에게 기능 추가는 보장된 해법이 아니라는 글.",
+      "source": "Jason Sherman Blog",
+      "url": "https://blog.jasonsherman.org/2026/10/12/why-more-features-wont-save-your-startup/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "부진의 원인은 기능 부족이 아닐 가능성이 크다.",
+        "what": "Jason Sherman은 고전하는 스타트업이 기능 추가로 문제를 해결하려는 경향을 경계했다. 기능을 늘리는 것은 보장된 처방이 아니라는 주장이다.",
+        "points": [
+          "기능 추가는 확실한 해법이 아님",
+          "부진의 근본 원인을 먼저 진단해야 함"
+        ],
+        "why": [
+          "AI로 기능 개발이 쉬워질수록 '기능 과잉' 함정이 커짐"
+        ]
+      }
+    },
+    {
+      "id": "founders-hired-our-way-into-going-slower",
+      "title": "채용으로 오히려 느려졌다",
+      "summary": "창업자는 불편하더라도 집중력, 주의, 실행 역량을 의도적으로 지켜야 한다는 경험담.",
+      "source": "Xiaofei Du",
+      "url": "https://xiaofeidu.com/posts/premature-scale/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "이른 확장은 속도를 높이기보다 떨어뜨릴 수 있다.",
+        "what": "Xiaofei Du가 섣부른 채용으로 팀이 오히려 느려진 경험을 공유했다. 창업자는 불편하더라도 집중력, 주의, 실행 역량을 의도적으로 보호해야 한다고 강조한다.",
+        "points": [
+          "섣부른 확장(premature scale)의 부작용",
+          "집중력·주의·실행 역량 보호",
+          "불편함을 감수한 의도적 선택 필요"
+        ],
+        "why": [
+          "같은 날 실린 Chatbase의 '채용 확대' 사례와 대조되는 관점"
+        ]
+      }
+    },
+    {
+      "id": "founders-death-of-vc-short-kings",
+      "title": "벤처캐피털 '쇼트 킹'의 종말",
+      "summary": "소형 VC 펀드들이 후속 라운드에서 포트폴리오 투자와 영향력을 유지하기 위해 규모 확대 압박을 받고 있다.",
+      "source": "K.W. Harrison",
+      "url": "https://www.kwharrison13.com/essays/the-death-of-venture-capitals-short?utm_source=tldrfounders",
+      "report": {
+        "tldr": "작은 펀드로 남는 전략이 점점 어려워지고 있다.",
+        "what": "K.W. Harrison은 소형 VC 펀드들이 규모를 키우라는 압력을 받고 있다고 분석했다. 펀드가 커야 포트폴리오에 계속 투자하고 후속 라운드에서 영향력을 유지할 수 있기 때문이다.",
+        "points": [
+          "소형 펀드의 규모 확대 압박",
+          "후속 투자 여력 확보 필요",
+          "후속 라운드 영향력 유지가 목적"
+        ],
+        "why": [
+          "같은 날 Hunter Walk의 프로라타 갈등 글과 맞물리는 VC 구조 변화"
+        ]
+      }
+    },
+    {
+      "id": "founders-dont-diagnose-your-opponents",
+      "title": "반대하는 동료를 진단하지 마라",
+      "summary": "동료의 반대를 변화 거부로 규정한다고 해서 그 반대가 타당한지 여부가 밝혀지지는 않는다.",
+      "source": "Sean Goedecke",
+      "url": "https://www.seangoedecke.com/dont-diagnose-your-opponents/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "반대 의견은 동기가 아니라 내용으로 평가해야 한다.",
+        "what": "Sean Goedecke는 계획에 반대하는 동료를 '변화를 싫어하는 사람'으로 진단하는 태도를 비판했다. 그런 진단은 반대 논거가 타당한지에 대해 아무것도 알려주지 않는다는 주장이다.",
+        "points": [
+          "반대자의 동기를 단정하는 태도 비판",
+          "반대 의견의 타당성은 논거로 판단",
+          "변화 거부 프레임의 함정"
+        ],
+        "why": [
+          "리더가 의사결정 품질을 높이려면 반대 의견을 실질적으로 검토해야 함"
+        ]
+      }
+    }
+  ]
+}

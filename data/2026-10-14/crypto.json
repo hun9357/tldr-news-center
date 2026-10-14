@@ -1,0 +1,247 @@
+{
+  "name": "크립토",
+  "source": "TLDR Crypto",
+  "icon": "🪙",
+  "color": "#f6c453",
+  "bg": "#332a12",
+  "items": [
+    {
+      "id": "crypto-cftc-framework-2028-deadline",
+      "title": "CFTC 크립토 프레임워크, 2028년 대선이 마감 시한 될 수도",
+      "summary": "CFTC의 레버리지·마진 크립토 거래 사전 공지는 2027년 1~2분기에야 제안으로 이어지고 2028년 초 확정될 전망이라, 2028년 대선 전 확정이 불확실하다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/regulation/2026-10-12-cftcs-new-crypto-framework-could-face-2028-election-deadline-td-cowen-418358?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "CFTC 크립토 규칙은 정치 일정과의 경주에 들어갔다.",
+        "what": "CFTC의 레버리지·마진 크립토 거래에 대한 사전 공지는 2027년 1분기 말~2분기 초에야 제안이 나오고 2028년 초에 확정될 가능성이 높아, 2028년 대선 전에 확정되지 못할 위험이 있다. 속도를 높이면 절차상 이유로 법원이 막을 위험이 커지고 법적 다툼은 2028년 이후까지 이어질 수 있다. 제안에는 준비금 증명 감사 의무와 주 인가 플랫폼에 대한 CFTC 권한이 포함된다.",
+        "points": [
+          "제안 시점: 2027년 1분기 말~2분기 초 예상",
+          "확정: 2028년 초, 대선 전 확정 불확실",
+          "패스트트랙 시 절차적 소송 리스크",
+          "준비금 증명 감사·주 인가 플랫폼 관할 포함"
+        ],
+        "why": [
+          "정권 교체 시 규칙이 무산될 수 있어 업계의 규제 확실성이 제한된다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-binance-hedge-funds-arbitrage",
+      "title": "Binance VIP 책임자 \"헤지펀드, 크립토 차익거래 탐색 중\"",
+      "summary": "Binance의 캐서린 첸은 전통 헤지펀드가 주식·무기한 선물 등 TradFi 상품 차익거래와 24/7 가격 발견에 끌려 크립토 거래소를 적극 탐색 중이라고 말했다. 현물 주식 AUM은 14억 달러로 늘었다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-13-binance-vip-head-hedge-funds-exploring-arbitrage-418389?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "TradFi 상품이 헤지펀드를 크립토 거래소로 끌어들이고 있다.",
+        "what": "Binance VIP·기관 부문 책임자 캐서린 첸은 전통 헤지펀드가 현물 주식·무기한 선물 같은 TradFi 상품의 차익거래, 개선된 호가 깊이, 주말 24/7 가격 발견에 끌려 크립토 거래소를 더 적극적으로 탐색하고 있다고 말했다. Binance의 현물 주식 운용자산은 약 8억~9억 달러에서 14억 달러로 늘었고, TradFi 무기한 선물 거래량은 출시 당시 월 200억~300억 달러에서 30일당 약 4,000억 달러로 증가했다. 그는 아직 초기이며 향후 12~18개월을 지켜봐야 한다고 했다.",
+        "points": [
+          "현물 주식 AUM: 약 8억~9억 달러에서 14억 달러로",
+          "TradFi 무기한 선물: 월 200억~300억 달러에서 약 4,000억 달러",
+          "차익거래·호가 깊이·주말 가격 발견이 유인",
+          "참여는 아직 초기, 12~18개월 관찰 필요"
+        ],
+        "why": [
+          "크립토 거래소가 전통 자산 거래 인프라로 확장되는 흐름을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-binance-ai-trading-tool-global",
+      "title": "Binance, AI 트레이딩 인터페이스 글로벌 출시",
+      "summary": "Binance가 15만 명이 참여한 베타를 거쳐 10월 12일 AI 트레이딩 인터페이스를 전 세계 영어 사용자에게 출시했다. 포트폴리오 요약, 음성 알림, 맞춤형 생성 UI 등을 무료 제공한다.",
+      "source": "The Block",
+      "url": "https://www.theblock.co/news/business/2026-10-12-binance-ai-trading-interface-global-rollout-418349?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Binance가 AI를 초보 트레이더 온보딩·유지 레이어로 쓴다.",
+        "what": "Binance가 9월 7일부터 5주간 15만 명이 참여한 베타에 이어 10월 12일 AI 기반 트레이딩 인터페이스를 전 세계 영어 사용자에게 출시했다. 무료 제품군에는 AI 포트폴리오 요약, 상위 변동 종목 분석, 음성 알림, 텍스트·오디오 시장 브리핑, 사용자 관심사와 경험 수준에 맞춰 바뀌는 생성형 UI가 포함된다. 슈퍼앱 전략의 연장선이며 추가 언어 지원이 진행 중이다.",
+        "points": [
+          "10월 12일 글로벌 영어 사용자 대상 출시",
+          "베타 참여 15만 명(9월 7일부터 5주)",
+          "포트폴리오 요약·음성 알림·시장 브리핑·생성형 UI",
+          "무료 제공, 추가 언어 순차 지원"
+        ],
+        "why": [
+          "거래소 경쟁이 수수료에서 AI 기반 사용자 경험으로 옮겨가고 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-informed-diffusion-home-builders",
+      "title": "Informed Diffusion: 홈 빌더 페이로드 전파를 10배 빠르게",
+      "summary": "4단계 가십 프로토콜 Informed Diffusion이 홈 빌더 페이로드 전달 시간을 P99 기준 6.3초에서 0.63초로 줄였다. 메시 토폴로지 변경 없이 HAVE 비트맵만 추가한다.",
+      "source": "ETH Research",
+      "url": "https://ethresear.ch/t/informed-diffusion-making-home-builders-publish-fast/26151?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "가정용 빌더도 데이터센터급 속도로 블록을 전파할 수 있게 하는 제안이다.",
+        "what": "Informed Diffusion은 홈 빌더의 페이로드 전달을 P99 기준 6.3초에서 0.63초로 줄이는 4단계 가십 프로토콜로, 데이터센터 빌더의 1.8초 벤치마크를 넘어선다. 파이프라이닝, 푸시/풀 청크 공지, 이레이저 코딩, 페이로드별 HAVE 비트맵 기반 이웃 인지 스케줄링으로 대역폭 사용을 4.4에서 1.7 페이로드 사본으로 줄이고, 50% 보류 노드와 10Mbps 업링크에서도 3초 예산을 지킨다. 유일한 와이어 프로토콜 추가는 기존 gossipsub 제어 메시지에 실리는 HAVE 비트맵이다.",
+        "points": [
+          "P99 전달 시간 6.3초에서 0.63초로",
+          "데이터센터 빌더 1.8초 벤치마크 상회",
+          "대역폭 4.4에서 1.7 사본으로 절감",
+          "와이어 변경은 HAVE 비트맵뿐, 토폴로지 변경 불필요"
+        ],
+        "why": [
+          "홈 빌더의 경쟁력을 높여 이더리움 블록 생성 탈중앙화에 기여할 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-blur-shutting-down",
+      "title": "NFT 마켓 Blur, 거래량 99% 급감 끝에 폐쇄",
+      "summary": "Blur가 11월 12일 마켓플레이스와 대출 서비스 Blend를 종료한다. 이더리움 NFT 월 거래량은 2023년 3월 정점 14.3억 달러에서 700만 달러 미만으로 99.5% 줄었다.",
+      "source": "CoinDesk",
+      "url": "https://www.coindesk.com/tech/2026/10/13/once-largest-ethereum-nft-marketplace-blur-is-shutting-down-after-volumes-collapse-99?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "수수료 없는 성장 모델이 NFT 침체 속에 한계를 드러냈다.",
+        "what": "Blur가 11월 12일 마켓플레이스와 대출 부문 Blend를 닫는다. 이더리움 NFT 월 거래량은 Blur가 점유율 70% 이상을 차지하던 2023년 3월 정점 14.3억 달러에서 700만 달러 미만으로 99.5% 감소했다. Token Terminal 기준 3년간 프로토콜 수익은 0이었으며, 같은 창업자(Pacman)의 Blast 종료 열흘 뒤의 발표로 BLUR 토큰은 20% 넘게 하락했다.",
+        "points": [
+          "11월 12일 마켓플레이스·Blend 종료",
+          "ETH NFT 월 거래량 14.3억 달러에서 700만 달러 미만",
+          "무수수료 모델로 3년간 프로토콜 수익 0",
+          "Blast 종료 열흘 뒤, BLUR 20% 이상 하락"
+        ],
+        "why": [
+          "한때 최대 NFT 마켓의 퇴장은 NFT 시장 침체의 상징이다",
+          "토큰 인센티브로 쌓은 점유율이 지속 가능한 수익으로 이어지지 않았다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-death-of-the-interface-headless-money",
+      "title": "데이비드 마커스 \"인터페이스의 종말, 헤드리스 머니의 시대\"",
+      "summary": "Lightspark의 데이비드 마커스는 AI 에이전트와 스테이블코인 법이 함께 도래해 앱·버튼이 사라지고, 에이전트가 API로 돈을 옮기는 '헤드리스 머니'가 필요하다고 주장했다.",
+      "source": "Twitter/X",
+      "url": "https://x.com/davidmarcus/status/2109690025336242608?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "결제는 UI에서 에이전트용 API로 옮겨가야 한다는 주장이다.",
+        "what": "Meta의 M과 Libra를 이끌었고 현재 Lightspark를 운영하는 데이비드 마커스는 AI 모델과 스테이블코인 법이 함께 도래해 앱·웹사이트·버튼이 대화형 에이전트로 대체될 것이라고 주장했다. 현재 결제는 사람의 개입을 전제하므로 돈이 UI를 거치지 않고 움직여야 한다. 스테이블코인은 빠른 정산망, 임베디드 지갑, 법정화폐 연결, 카드 네트워크와 결합한 '헤드리스 머니' API가 돼야 하며, 결제 스택보다 승리한 에이전트 운영사가 훨씬 큰 가치를 가져갈 것이라고 봤다.",
+        "points": [
+          "앱·버튼이 대화형 에이전트로 대체될 것",
+          "현재 결제 흐름은 사람 개입 전제",
+          "헤드리스 머니: 에이전트용 결제 API, 철회 가능한 한도와 책임 명확화",
+          "결제 스택 수익은 1~300bp, 에이전트 운영사가 더 큰 가치 확보"
+        ],
+        "why": [
+          "에이전트 커머스 시대 스테이블코인 인프라의 방향을 제시한다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-realist-knifepoint-robbery-uk",
+      "title": "크립토 트레이더 'Realist', 영국 자택서 흉기 강도 피해",
+      "summary": "영국 트레이더 'Realist'가 약 80만 달러 규모 흉기 강도를 당했다고 밝혔고, 온체인 기록(솔라나 주소로 이체된 719,000 USDC)이 이를 뒷받침했다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/hacks/crypto-trader-realist-reports-knifepoint-robbery-at-uk-home?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "온체인 투명성이 물리적 '렌치 공격'의 표적 선정에 악용되고 있다.",
+        "what": "영국 크립토 트레이더 'Realist'가 약 80만 달러 규모의 자택 흉기 강도를 당했다고 보고했으며, 식별된 솔라나 주소로 719,000 USDC가 이체된 온체인 기록이 이를 뒷받침했다. 지갑 잔고와 신원이 온체인에서 연결되는 트레이더를 노린 물리적 공격 패턴의 연장선이다. 공격자는 블록체인 투명성으로 고액 대상을 찾고 기술적 해킹 대신 물리적 강압으로 자산을 이체시킨다.",
+        "points": [
+          "피해 규모 약 80만 달러",
+          "719,000 USDC 솔라나 주소 이체로 온체인 확인",
+          "신원·지갑 연결 트레이더 대상 물리 공격 패턴",
+          "'5달러 렌치 공격'은 암호학적 보안을 우회"
+        ],
+        "why": [
+          "고액 보유자는 온라인 신원과 지갑의 연결 고리 노출을 줄여야 한다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-robinhood-chain-15b-stock-tokens",
+      "title": "Robinhood 체인 100일, 주식 토큰 거래 150억 달러",
+      "summary": "Robinhood 블록체인이 100일 만에 주식 토큰 거래량 150억 달러, 토큰 보유자 20만 명을 기록했다. 체인 위 Morpho에는 약 11억 달러 예치금이 모였다.",
+      "source": "The Defiant",
+      "url": "https://thedefiant.io/news/blockchains/robinhood-reports-15b-in-stock-token-trading-as-chain-passes-100-days?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "토큰화 주식이 담보로 쓰이는 DeFi 자산이 되고 있다.",
+        "what": "Robinhood의 블록체인이 운영 100일을 넘기며 주식 토큰 거래량 150억 달러와 토큰 보유자 20만 명을 기록해, 규제 브로커의 토큰화 주식 배포 중 최대 규모에 속하게 됐다. 체인 위 Morpho 배포에는 약 11억 달러 예치금이 몰렸다. 거래량과 온체인 신용 수요를 함께 보면 사용자가 토큰화 주식을 단순 보유가 아닌 조합 가능한 담보로 쓰고 있음을 시사한다.",
+        "points": [
+          "100일간 주식 토큰 거래량 150억 달러",
+          "토큰 보유자 20만 명",
+          "Morpho 예치금 약 11억 달러",
+          "토큰화 주식의 담보 활용 신호"
+        ],
+        "why": [
+          "규제 브로커 주도의 토큰화 주식이 DeFi와 결합하는 첫 대규모 사례다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-aave-app-30m-deposits",
+      "title": "Aave 앱, 출시 두 달 만에 예치금 3,000만 달러 돌파",
+      "summary": "Aave 앱이 출시 두 달도 안 돼 예치금 3,000만 달러를 넘겼다. 은행들이 언젠가 Aave 위에 자체 프론트엔드를 출시할 수 있음을 시사한다.",
+      "source": "Thread Reader/Twitter",
+      "url": "https://threadreaderapp.com/thread/2109812614394150952.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Aave가 소비자 앱으로도 유입을 만들고 있다.",
+        "what": "Aave 앱이 출시 후 두 달이 채 안 돼 예치금 3,000만 달러를 넘었다. 이는 은행들이 결국 Aave 위에 자체 프론트엔드를 출시할 수 있음을 보여주는 신호로 해석된다.",
+        "points": [
+          "출시 두 달 미만에 예치금 3,000만 달러 돌파",
+          "Aave의 소비자용 앱",
+          "은행 프론트엔드 가능성 시사"
+        ],
+        "why": [
+          "DeFi 프로토콜이 금융기관의 백엔드 인프라가 될 수 있음을 보여준다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-us-government-17733-btc-custody",
+      "title": "미국 정부 17,733 BTC 이동, 수탁 관련일 가능성",
+      "summary": "미국 정부 연관 지갑이 10월 초 약 17,733 BTC를 Coinbase Prime으로 옮겼다. 이 중 12,267 BTC는 Bitfinex 해킹 관련분이며, 표시된 정부 보유량은 306,795 BTC로 줄었다.",
+      "source": "Thread Reader/Twitter",
+      "url": "https://threadreaderapp.com/thread/2109933273480867877.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "대규모 정부 BTC 이동은 매도보다 수탁 이전일 가능성이 크다.",
+        "what": "미국 정부 연관 지갑이 10월 초 약 17,733 BTC를 Coinbase Prime으로 이동했으며, 이 중 12,267 BTC는 Bitfinex 해킹과 연관된 물량이다. 표시된 정부 보유량은 324,527 BTC에서 306,795 BTC로 줄었다.",
+        "points": [
+          "약 17,733 BTC를 Coinbase Prime으로 이동",
+          "12,267 BTC는 Bitfinex 해킹 관련",
+          "정부 보유 표시량 324,527에서 306,795 BTC로",
+          "수탁 관련 이동으로 해석"
+        ],
+        "why": [
+          "정부 지갑 이동은 매도 공포를 일으키지만 이번엔 수탁 목적일 가능성이 제기됐다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-south-korea-blocks-27-exchanges",
+      "title": "한국 FIU, 미신고 해외 거래소 27곳 접속 차단 명령",
+      "summary": "한국 금융정보분석원이 10월 6~7일 심의 후 KuCoin, MEXC, Phemex, Bitrue, Poloniex, BTCC, BingX, BitMart 등 미신고 해외 거래소 27곳의 국내 접속 차단을 명령했다.",
+      "source": "Thread Reader/Twitter",
+      "url": "https://threadreaderapp.com/thread/2109820222190575666.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "한국이 미신고 해외 거래소에 대한 접근 차단을 대폭 확대했다.",
+        "what": "한국 금융정보분석원(FIU)은 10월 6~7일 심의를 거쳐 미신고 해외 크립토 거래소 사이트 27곳에 대한 국내 접속 차단을 명령했다고 밝혔다. 대상에는 KuCoin, MEXC, Phemex, Bitrue, Poloniex, BTCC, BingX, BitMart 등이 포함됐다.",
+        "points": [
+          "미신고 해외 거래소 27곳 접속 차단",
+          "KuCoin·MEXC·Phemex·Bitrue·Poloniex·BTCC·BingX·BitMart 등 포함",
+          "10월 6~7일 심의 후 결정"
+        ],
+        "why": [
+          "국내 투자자의 해외 거래소 이용이 더 어려워지고 국내 거래소 집중이 강화될 수 있다"
+        ]
+      }
+    },
+    {
+      "id": "crypto-token49-takeaways",
+      "title": "Token49 행사 관전평",
+      "summary": "Token49는 Web2 VC와 기업이 크립토에서 성장하려고 등장한 첫 행사였지만, 흥미로운 스타트업 출시는 적었고 상당수가 Polymarket·Hyperliquid 복제판이었다.",
+      "source": "Thread Reader/Twitter",
+      "url": "https://threadreaderapp.com/thread/2109920210060755137.html?utm_source=tldrcrypto",
+      "report": {
+        "tldr": "Web2 자본은 들어왔지만 혁신적인 신규 프로젝트는 부족했다.",
+        "what": "Token49는 Web2 VC와 기업이 크립토 안에서 성장하기 위해 참여한 첫 행사였다. 그러나 흥미로운 스타트업 출시는 적었고, 상당수가 Polymarket이나 Hyperliquid를 모방한 프로젝트였다.",
+        "points": [
+          "Web2 VC·기업의 본격 참여",
+          "흥미로운 스타트업 출시는 소수",
+          "다수가 Polymarket·Hyperliquid 복제"
+        ],
+        "why": [
+          "크립토 스타트업 생태계의 독창성 부족과 성공 모델 쏠림을 보여준다"
+        ]
+      }
+    }
+  ]
+}

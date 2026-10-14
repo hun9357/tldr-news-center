@@ -1,0 +1,315 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-cloudflare-rewinding-the-exponential",
+      "title": "Cloudflare, 초당 20억 이벤트 파이프라인의 하드웨어 증설을 되감다",
+      "summary": "Cloudflare가 초당 20억 건 이벤트를 처리하는 데이터 파이프라인에서 압축·샘플링·집계로 약 2년 반치 하드웨어 증설 수요를 줄였다.",
+      "source": "Cloudflare",
+      "url": "https://blog.cloudflare.com/rewinding-the-exponential?utm_source=tldrdev",
+      "report": {
+        "tldr": "트래픽이 기하급수로 늘어도 데이터 처리 방식을 바꾸면 하드웨어 증설을 수년 미룰 수 있다.",
+        "what": "Cloudflare가 초당 20억 건의 이벤트를 다루는 데이터 파이프라인의 하드웨어 사용량을 억제한 방법을 공개했다. 압축, 샘플링, 집계를 조합해 약 2년 반 분량의 하드웨어 확장 필요를 상쇄했다.",
+        "points": [
+          "처리 규모: 초당 20억 이벤트",
+          "압축·샘플링·집계를 파이프라인에 적용",
+          "효과: 하드웨어 확장 수요 약 2년 반치 절감",
+          "같은 글이 TLDR DevOps에도 실림(복제를 하류로 이동, 샘플링·집계를 앞단으로)"
+        ],
+        "why": [
+          "대규모 텔레메트리 비용은 장비 추가보다 데이터 설계로 먼저 잡아야 한다는 사례",
+          "샘플링·사전 집계는 관측성 파이프라인 전반에 바로 적용 가능한 패턴"
+        ]
+      }
+    },
+    {
+      "id": "dev-anthropic-scion-source-control",
+      "title": "Anthropic, Git을 버리고 자체 소스 관리 시스템 Scion으로 전환",
+      "summary": "일일 머지가 3만 건을 넘자 Anthropic은 Git을 Scion으로 대체해 CPU·메모리 사용량을 200분의 1로 줄이고 CI CPU 용량의 25%를 확보했다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/engineering/redesigning-source-control?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 에이전트 시대의 머지 폭증이 Git의 한계를 드러냈고, Anthropic은 소스 관리를 다시 설계했다.",
+        "what": "Anthropic이 하루 머지 건수가 3만 건을 넘어서면서 Git을 자체 시스템 Scion으로 교체했다. 그 결과 CPU·메모리 사용량이 200배 줄고 CI CPU 용량의 25%가 확보됐다.",
+        "points": [
+          "전환 계기: 일일 머지 3만 건 초과",
+          "CPU·메모리 사용량 200배 감소",
+          "CI CPU 용량의 25% 확보",
+          "Git을 대체하는 사내 시스템 Scion"
+        ],
+        "why": [
+          "에이전트가 코드를 대량 생산하는 조직에서 버전 관리가 새로운 병목이 될 수 있음을 보여줌",
+          "모노레포·대규모 CI 운영 팀에게 참고할 만한 설계 방향"
+        ]
+      }
+    },
+    {
+      "id": "dev-relace-fast-apply-10k-tps",
+      "title": "Relace, 초당 1만 토큰으로 코드 편집을 적용하는 소형 모델",
+      "summary": "Relace가 파인튜닝·양자화·추측 디코딩으로 코드 편집을 초당 1만 토큰 속도로 적용하는 소형 모델을 만든 1년간의 과정을 공유했다.",
+      "source": "Relace",
+      "url": "https://relace.ai/old/blog/relace-apply-3?utm_source=tldrdev",
+      "report": {
+        "tldr": "코드 편집 '적용' 단계는 작고 빠른 전용 모델로 분리하는 것이 효율적이다.",
+        "what": "Relace가 코드 수정안을 실제 파일에 적용하는 Fast Apply 모델을 초당 1만 토큰까지 끌어올린 과정을 정리했다. 파인튜닝, 양자화, 추측 디코딩을 결합했고 25만 6천 토큰 컨텍스트를 지원한다.",
+        "points": [
+          "속도: 초당 10,000 토큰",
+          "기법: 파인튜닝, 양자화, 추측 디코딩",
+          "컨텍스트: 256,000 토큰 지원",
+          "대형 모델 대신 소형 전용 모델 사용"
+        ],
+        "why": [
+          "코딩 에이전트의 체감 지연을 줄이는 핵심 구성요소",
+          "대형 모델은 계획, 소형 모델은 적용이라는 분업 구조의 실전 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-recreational-programming",
+      "title": "재미를 위한 프로그래밍의 가치",
+      "summary": "작은 실험, 장난감 구현, 언어 탐구처럼 상업적 결과를 요구하지 않는 '레크리에이션 프로그래밍'이 개발 동기를 되살린다는 발표.",
+      "source": "C.P. Hiri",
+      "url": "https://www.cphiri.dev/presentations/recreational-programming?utm_source=tldrdev",
+      "report": {
+        "tldr": "결과물 압박 없는 코딩이 개발자의 동기와 감각을 회복시킨다.",
+        "what": "C.P. Hiri가 즐거움을 위해 하는 프로그래밍을 주제로 발표했다. 작은 실험, 장난감 구현, 새로운 언어 탐구가 상업적 성과 없이도 동기를 회복시킨다고 주장한다.",
+        "points": [
+          "대상: 작은 실험, 토이 구현, 언어 탐구",
+          "상업적 성과를 요구하지 않는 것이 핵심",
+          "번아웃된 개발자의 동기 회복 수단으로 제시"
+        ],
+        "why": [
+          "AI가 업무 코딩을 대신하는 시기에 '직접 만드는 즐거움'을 지키는 방법",
+          "학습과 탐구의 장으로서 사이드 프로젝트의 의미를 재확인"
+        ]
+      }
+    },
+    {
+      "id": "dev-felix-rieseberg-more-ambitious",
+      "title": "AI 모델과 함께 더 야심차게 일하는 법",
+      "summary": "Felix Rieseberg는 AI를 고급스럽게 활용하려면 더 높은 수준의 결과를 노리고, 전문가 방법을 원천 데이터에 적용하거나 여러 분야를 결합하되 검증을 거쳐야 한다고 말한다.",
+      "source": "Felix Rieseberg",
+      "url": "https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI를 쓸 때는 작업 단위가 아니라 더 큰 결과를 목표로 잡아야 한다.",
+        "what": "Felix Rieseberg가 사람이 AI 모델과 함께 목표를 키우는 방법을 튜토리얼 형식으로 정리했다. 더 높은 수준의 결과 추구, 원천 데이터에 전문가 방법 적용, 여러 분야 아이디어 결합을 제안하며 검증을 강조한다.",
+        "points": [
+          "더 높은 수준의 결과를 목표로 설정",
+          "원천 데이터에 전문가 수준의 방법을 적용",
+          "여러 분야의 아이디어를 결합",
+          "결과는 반드시 검증"
+        ],
+        "why": [
+          "모델 활용이 단순 자동화에서 역량 확장으로 넘어가고 있음을 시사",
+          "검증 없는 야심은 위험하다는 균형 잡힌 관점"
+        ]
+      }
+    },
+    {
+      "id": "dev-tanstack-start-1-0",
+      "title": "TanStack Start 1.0 정식 출시",
+      "summary": "TanStack Start가 1.0으로 안정화되어 타입 안전 라우팅, 서버 렌더링, 타입이 지정된 서버 함수, 클라이언트·서버를 아우르는 미들웨어를 결합한 프로덕션용 프레임워크가 됐다.",
+      "source": "TanStack",
+      "url": "https://tanstack.com/blog/tanstack-start-1-0?utm_source=tldrdev",
+      "report": {
+        "tldr": "TanStack Start가 1.0에 도달해 Next.js 대안 풀스택 프레임워크로 프로덕션 투입이 가능해졌다.",
+        "what": "TanStack이 풀스택 프레임워크 TanStack Start 1.0을 안정 버전으로 발표했다. 타입 안전 라우팅과 서버 렌더링, 타입 지정 서버 함수, 클라이언트와 서버에 걸친 미들웨어를 하나로 묶었다.",
+        "points": [
+          "타입 안전 라우팅 + 서버 렌더링",
+          "타입이 지정된 서버 함수",
+          "클라이언트·서버를 아우르는 미들웨어",
+          "1.0 안정판으로 프로덕션 사용 가능"
+        ],
+        "why": [
+          "React 풀스택 생태계에서 타입 안정성을 중시하는 팀의 선택지 확대",
+          "Next.js 중심 구도에 대한 실질적 대안 등장"
+        ]
+      }
+    },
+    {
+      "id": "dev-gemini-4-argon",
+      "title": "Google DeepMind, 100만 토큰 출력 창의 Gemini 4 Argon 공개",
+      "summary": "Gemini 4 Argon은 100만 토큰 출력 창을 제공하며 소프트웨어 엔지니어링, 연구, 로보틱스, 전문 업무를 겨냥한다.",
+      "source": "Google DeepMind",
+      "url": "https://deepmind.google/models/gemini/?utm_source=tldrdev",
+      "report": {
+        "tldr": "출력 한도 100만 토큰은 대규모 코드·문서 생성 작업의 한계를 크게 넓힌다.",
+        "what": "Google DeepMind가 새 모델 Gemini 4 Argon을 공개했다. 100만 토큰 출력 창을 갖췄으며 소프트웨어 엔지니어링, 연구, 로보틱스, 전문 업무 흐름을 대상으로 한다.",
+        "points": [
+          "출력 창: 100만 토큰",
+          "대상: 소프트웨어 엔지니어링, 연구, 로보틱스, 전문 업무",
+          "TLDR Founders에서는 Google Cloud 출시와 도입 가격이 함께 소개됨"
+        ],
+        "why": [
+          "입력이 아닌 출력 한도 확대는 대형 리팩터링·문서 생성에 직접적 영향",
+          "프런티어 모델 경쟁이 장기 작업 수행 능력으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "dev-physical-intelligence-pi-api-beta",
+      "title": "Physical Intelligence, 로봇용 프런티어 모델 Pi API 베타",
+      "summary": "Physical Intelligence가 개발자가 시연 데이터를 올리고 관리형 인프라에서 로봇 제어 모델을 파인튜닝할 수 있는 Pi API 베타를 발표했다.",
+      "source": "Physical Intelligence",
+      "url": "https://www.pi.website/blog/api-beta?utm_source=tldrdev",
+      "report": {
+        "tldr": "로봇 파운데이션 모델이 API 형태로 개발자에게 열리기 시작했다.",
+        "what": "Physical Intelligence가 Pi API 베타를 공개했다. 개발자는 시연 데이터를 업로드하고 관리형 인프라에서 모델을 파인튜닝해 로봇 제어 애플리케이션에 활용할 수 있다.",
+        "points": [
+          "시연(demonstration) 데이터 업로드",
+          "관리형 인프라에서 파인튜닝",
+          "로봇 제어 애플리케이션 대상",
+          "현재 베타 단계"
+        ],
+        "why": [
+          "로봇 AI 도입 장벽을 자체 학습 인프라 없이 낮춤",
+          "LLM API처럼 로봇 모델도 플랫폼화되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "dev-stripe-alien-economics-ai-monetization",
+      "title": "Stripe: AI 수익화의 '외계적' 경제학",
+      "summary": "Forbes AI 50 기업의 3분의 2가 사용량 기반 가격을 쓰며, 가변 비용 때문에 하이브리드 가격 모델과 유연한 패키징으로 이동하고 있다.",
+      "source": "Stripe",
+      "url": "https://stripe.com/blog/economics-of-ai-monetization?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 기업의 가격 정책은 전통 SaaS와 다른 규칙으로 움직인다.",
+        "what": "Stripe가 AI 기업의 수익화 방식을 분석했다. Forbes AI 50 기업의 3분의 2가 어떤 형태로든 사용량 기반 가격을 적용하며, 가변 비용 구조 탓에 하이브리드 모델과 유연한 패키징이 늘고 있다.",
+        "points": [
+          "Forbes AI 50의 3분의 2가 사용량 기반 가격 사용",
+          "가변 비용이 가격 구조 변화를 견인",
+          "하이브리드 가격과 유연한 패키징 확산",
+          "TLDR Founders에도 같은 글이 실림"
+        ],
+        "why": [
+          "AI 제품을 만드는 팀은 좌석 기반 SaaS 가격 모델을 그대로 쓰기 어렵다",
+          "과금·미터링 인프라 설계가 제품 경쟁력의 일부가 됨"
+        ]
+      }
+    },
+    {
+      "id": "dev-openai-engineer-arrested-bugging",
+      "title": "OpenAI 엔지니어, 임원 회의실 도청 혐의로 체포",
+      "summary": "연방 검찰이 OpenAI 엔지니어를 대화 도청 혐의로 기소했으며, OpenAI는 모델 가중치·소스코드·고객 데이터에 대한 무단 접근은 없었다고 밝혔다.",
+      "source": "SF Standard",
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 기업 내부자 위협이 현실 사건으로 드러났다.",
+        "what": "연방 검찰이 OpenAI 엔지니어를 임원 회의실 대화를 가로챈 혐의로 기소했다. OpenAI는 모델 가중치, 소스코드, 고객 데이터에 대한 무단 접근은 없었다고 밝혔다.",
+        "points": [
+          "혐의: 임원 회의실 대화 도청",
+          "연방 검찰이 기소",
+          "OpenAI: 가중치·소스코드·고객 데이터 무단 접근 없음"
+        ],
+        "why": [
+          "프런티어 AI 기업의 내부자 보안 관리가 핵심 리스크임을 보여줌",
+          "물리적 보안까지 포함한 위협 모델 점검 필요성 부각"
+        ]
+      }
+    },
+    {
+      "id": "dev-martin-fowler-harnesses-worth-cost",
+      "title": "Martin Fowler: 하네스는 비용만큼 가치가 있나",
+      "summary": "행동 하네스를 씌운 GPT-6 Luna의 수용률이 30%에서 100%로 오르고, 하네스 없는 Sol보다 실행당 비용이 33% 낮았다는 분석.",
+      "source": "Martin Fowler",
+      "url": "https://martinfowler.com/articles/are-harnesses-worth-the-cost.html?utm_source=tldrdev",
+      "report": {
+        "tldr": "좋은 하네스는 더 작은 모델로 더 큰 모델보다 싸고 정확한 결과를 낼 수 있다.",
+        "what": "martinfowler.com에 실린 글이 코딩 에이전트에 행동 하네스를 씌우는 것이 비용 대비 가치가 있는지 실험했다. 하네스를 적용한 GPT-6 Luna는 수용률이 30%에서 100%로 올랐고, 하네스 없는 Sol보다 실행당 비용이 33% 낮았다.",
+        "points": [
+          "GPT-6 Luna 수용률 30% → 100%",
+          "하네스 없는 Sol 대비 실행당 비용 33% 절감",
+          "비교 축: 모델 크기 vs 하네스 품질"
+        ],
+        "why": [
+          "모델 업그레이드보다 하네스 설계가 ROI가 높을 수 있다는 근거",
+          "에이전트 도입 팀의 투자 우선순위 판단에 직접 참고 가능"
+        ]
+      }
+    },
+    {
+      "id": "dev-rise-of-deploycos",
+      "title": "배치 전문 기업 'DeployCo'의 부상",
+      "summary": "엔지니어를 기업 내부에 파견해 모델을 업무 흐름에 연결하고 조직 도입을 관리하는 '디플로이 컴퍼니'가 늘고 있다는 분석.",
+      "source": "Tanay Jaipuria",
+      "url": "https://www.tanayj.com/p/the-rise-of-deploycos?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 도입의 병목은 모델이 아니라 현장 배치다.",
+        "what": "Tanay Jaipuria가 기업에 엔지니어를 상주시켜 AI 모델을 실제 워크플로에 연결하는 'DeployCo' 유형의 회사를 분석했다. 이들은 기술 연결뿐 아니라 조직 차원의 도입 관리까지 맡는다.",
+        "points": [
+          "엔지니어를 고객 기업 내부에 배치",
+          "모델과 기존 워크플로 연결",
+          "조직 차원의 도입·변화 관리 담당"
+        ],
+        "why": [
+          "전방 배치 엔지니어(FDE) 모델이 AI 시대의 주요 사업 형태로 자리잡는 중",
+          "AI 서비스 기업과 SaaS의 경계가 흐려짐"
+        ]
+      }
+    },
+    {
+      "id": "dev-pulse-local-budgeting",
+      "title": "Pulse Local: 데이터와 AI를 기기에 두는 가계부 앱",
+      "summary": "Pulse Local은 금융 데이터와 AI 모델을 사용자 기기에 로컬로 유지해 프라이버시를 지키는 예산 관리 앱이다.",
+      "source": "Pulse Local",
+      "url": "https://pulseos.finance/?utm_source=tldrdev",
+      "report": {
+        "tldr": "민감한 금융 데이터에 로컬 AI를 적용한 프라이버시 우선 앱.",
+        "what": "Pulse Local은 예산 관리 앱으로, 금융 데이터와 AI 모델을 모두 사용자 기기에서 로컬로 실행한다. 데이터를 외부로 보내지 않는 것이 핵심 설계다.",
+        "points": [
+          "예산 관리 애플리케이션",
+          "금융 데이터 로컬 저장",
+          "AI 모델도 기기에서 실행"
+        ],
+        "why": [
+          "온디바이스 AI가 민감 데이터 영역의 차별화 포인트가 됨"
+        ]
+      }
+    },
+    {
+      "id": "dev-hn-post-ai-bot-traffic-flood",
+      "title": "HN에 글을 올리자 AI 봇 트래픽이 사이트를 덮쳤다",
+      "summary": "대량의 자동화 트래픽으로 서비스가 저하되자 엔드포인트 로깅, 봇 차단, 속도 제한, 인프라 개선으로 대응한 경험담.",
+      "source": "Sammy Straus",
+      "url": "https://www.sammystraus.com/#i-posted-to-hn-and-then-my-website-was-flooded-with-ai-bot-traffic?utm_source=tldrdev",
+      "report": {
+        "tldr": "개인 사이트도 AI 크롤러 트래픽에 대비해야 하는 시대다.",
+        "what": "Sammy Straus가 Hacker News에 글을 올린 뒤 AI 봇 트래픽이 몰려 사이트 성능이 떨어진 경험을 공유했다. 엔드포인트 로깅, 봇 차단, 속도 제한, 인프라 개선으로 대응했다.",
+        "points": [
+          "원인: 대량의 자동화(AI 봇) 트래픽",
+          "대응: 엔드포인트 로깅, 봇 차단",
+          "대응: 속도 제한, 인프라 개선"
+        ],
+        "why": [
+          "AI 크롤러가 소규모 사이트 운영 비용을 키우는 현실",
+          "레이트 리밋·봇 관리가 기본 운영 항목이 됨"
+        ]
+      }
+    },
+    {
+      "id": "dev-bifrost-ai-gateway",
+      "title": "Bifrost: 오픈소스 AI 게이트웨이",
+      "summary": "Bifrost는 OpenAI 호환 API, 프로바이더 장애 조치, 로드 밸런싱, 시맨틱 캐싱, 가상 키, 예산, MCP를 지원하는 오픈소스 AI 게이트웨이다.",
+      "source": "GitHub",
+      "url": "https://github.com/maximhq/bifrost?utm_source=tldrdev",
+      "report": {
+        "tldr": "여러 LLM 프로바이더를 한 API 뒤에 묶는 오픈소스 게이트웨이.",
+        "what": "Bifrost는 LLM 호출을 중계하는 오픈소스 AI 게이트웨이다. OpenAI 호환 API를 제공하며 프로바이더 장애 조치, 로드 밸런싱, 시맨틱 캐싱, 가상 키, 예산 관리, MCP를 지원한다.",
+        "points": [
+          "OpenAI 호환 API",
+          "프로바이더 장애 조치·로드 밸런싱",
+          "시맨틱 캐싱, 가상 키, 예산 관리",
+          "MCP 지원"
+        ],
+        "why": [
+          "멀티 모델 운영 시 비용·가용성 관리를 한곳에서 처리 가능"
+        ]
+      }
+    }
+  ]
+}
