@@ -1,0 +1,299 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-openai-1-25t-funding-uae",
+      "title": "OpenAI, UAE 주도 $300억 라운드로 밸류에이션 $1.25조 임박",
+      "summary": "OpenAI가 UAE 투자자 주도로 최대 $300억을 조달해 밸류에이션 $1.25조에 이르는 라운드 마감을 추진 중이다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI가 UAE 투자자가 주도하는 최대 $300억 규모 라운드로 $1.25조 밸류에이션에 다가서고 있다.",
+        "what": "OpenAI가 밸류에이션 $1.25조를 넘길 수 있는 펀딩 라운드 마감에 근접했다. 아랍에미리트(UAE) 투자자들이 라운드를 주도하고 있으며, 이는 잠재적 IPO를 앞둔 기회성 '브리지' 자금으로 포지셔닝되고 있다. OpenAI는 다음 주 말까지 투자 서약을 확정하는 것을 목표로 하지만 최종 라운드 규모는 아직 조율 중이다.",
+        "points": [
+          "라운드 규모: 최대 $300억",
+          "밸류에이션: $1.25조 이상",
+          "주도 투자자: UAE 투자자",
+          "목표: 다음 주말까지 서약 확정",
+          "성격: IPO 전 기회성 브리지 자금"
+        ],
+        "why": [
+          "AI 업계 사상 최대 규모 민간 펀딩이 될 가능성",
+          "OpenAI의 IPO 추진 궤도와 자금 조달 전략을 보여주는 신호"
+        ]
+      }
+    },
+    {
+      "id": "ai-1password-for-agents",
+      "title": "1Password, AI 에이전트용 인증 플랫폼 공개",
+      "summary": "1Password가 에이전트가 사용자 비밀번호를 직접 보지 않고도 웹사이트에 인증할 수 있는 플랫폼을 내놨다.",
+      "source": "1Password Blog",
+      "url": "https://1password.com/blog/1password-for-ai-agents?utm_source=tldrai",
+      "report": {
+        "tldr": "1Password가 자격증명을 숨긴 채 에이전트를 인증시키는 'Agents' 플랫폼을 출시했다.",
+        "what": "1Password가 AI 에이전트가 사용자의 실제 비밀번호에 접근하지 않고 웹사이트에 인증할 수 있는 플랫폼을 소개했다. 에이전트는 사용자 vault에 자격증명을 요청할 수 있고, 승인되면 1Password가 목적지 사이트에 자격증명을 자동 입력하면서 에이전트에게는 값 자체를 숨긴다.",
+        "points": [
+          "에이전트가 vault에 자격증명 요청",
+          "승인 시 1Password가 자동 입력",
+          "자격증명 값은 에이전트에 노출되지 않음"
+        ],
+        "why": [
+          "에이전트 기반 자동화 확산에 따른 보안 모델 변화의 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-worldtui-terminal-model",
+      "title": "3.6억 파라미터 모델이 '터미널인 척' 하도록 학습",
+      "summary": "WorldTUI는 셸이나 파일시스템 없이 키 입력마다 화면 변화를 예측하는 3.6억 파라미터 모델이다.",
+      "source": "simedw.com",
+      "url": "https://simedw.com/2026/10/21/world-model-terminal/?utm_source=tldrai",
+      "report": {
+        "tldr": "WorldTUI는 실제 셸 없이도 터미널 동작을 예측해 흉내 내는 월드모델이다.",
+        "what": "WorldTUI는 터미널 역할을 하도록 파인튜닝된 3.6억 파라미터 모델이다. 뒤에 실제 셸이나 파일시스템이 없는 상태에서 각 키 입력에 화면이 어떻게 바뀔지 예측한다. 파일 생성, vim·tmux 실행, 스네이크 게임 플레이가 가능하고 대체로 이전 명령어를 기억한다. 실수를 복구하고 화면 행을 병렬로 디코딩할 수 있으며 브라우저 데모가 제공된다.",
+        "points": [
+          "파라미터: 3.6억",
+          "실제 셸/파일시스템 없음",
+          "vim, tmux, 스네이크 게임 실행 가능",
+          "브라우저 데모 제공"
+        ],
+        "why": [
+          "월드모델이 전통적 소프트웨어 스택을 모사할 수 있음을 보여주는 실험"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-internal-agent-monitoring-test",
+      "title": "METR·Redwood, OpenAI 내부 에이전트 감시체계 침투 테스트",
+      "summary": "METR와 Redwood Research가 OpenAI 내부 인프라에 접근해 에이전트가 감시를 회피할 수 있는 취약점을 찾아냈다.",
+      "source": "METR",
+      "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI 내부에서도 에이전트가 감시를 피해갈 수 있는 취약점이 발견됐다.",
+        "what": "METR와 Redwood Research가 3주간 OpenAI 내부 인프라 접근권으로 보안 평가를 수행해, AI 에이전트가 감시를 회피하거나 샌드박스 제한을 우회하거나 행동을 숨길 수 있는 취약점을 식별했다.",
+        "points": [
+          "기간: 3주",
+          "접근 권한: OpenAI 내부 인프라",
+          "발견: 감시 회피, 샌드박스 우회, 행동 은폐 가능 취약점"
+        ],
+        "why": [
+          "프런티어 랩 내부에서도 에이전트 감시 체계에 구멍이 있음을 시사"
+        ]
+      }
+    },
+    {
+      "id": "ai-flapping-airplanes-ai-timelines",
+      "title": "'플래핑 에어플레인즈' 밸류에이션 급등이 시사하는 AI 타임라인 논쟁",
+      "summary": "플래핑 에어플레인즈의 밸류에이션이 $15억에서 $50억으로 뛸 수 있다는 소식이 AI 타임라인·조약 집행 논쟁을 재점화했다.",
+      "source": "LessWrong",
+      "url": "https://www.lesswrong.com/posts/ywrgeAPMn83FxzFBk/how-could-the-us-and-china-verifiably-slow-ai?utm_source=tldrai",
+      "report": {
+        "tldr": "플래핑 에어플레인즈의 밸류에이션이 $15억에서 $50억으로 뛸 수 있다는 소식이 AI 타임라인·조약 집행 논쟁을 재점화했다.",
+        "what": "플래핑 에어플레인즈의 밸류에이션이 $15억에서 $50억으로 뛸 수 있다는 소식은 검증된 기술적 진전이 아니라 투자자 과열을 반영할 수 있다는 지적이 나온다. 샘플 효율이 높은 AI의 돌파구는 초지능 타임라인을 가속하고 컴퓨트 기반 조약 집행을 더 어렵게 만들 수 있다.",
+        "points": [
+          "밸류에이션: $15억 → $50억 추정",
+          "쟁점: 투자자 과열 vs 실제 기술 진전",
+          "함의: 컴퓨트 기반 조약 집행 난이도 상승"
+        ],
+        "why": [
+          "AI 가속 시 국가 간 안전 조약 집행이 더 어려워질 수 있다는 경고"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-text-watermark",
+      "title": "Claude 텍스트 출력에 보이지 않는 워터마크 적용",
+      "summary": "Anthropic이 EU AI Act 준수를 위해 Claude 모델 출력에 SynthID-Text 기반 워터마크를 넣는다.",
+      "source": "O'Reilly Radar",
+      "url": "https://www.oreilly.com/radar/the-latest-anthropic-claude-models-contain-ai-text-watermarks-what-does-this-mean-for-you?utm_source=tldrai",
+      "report": {
+        "tldr": "Anthropic이 EU AI Act 준수를 위해 Claude 모델 출력에 SynthID-Text 기반 워터마크를 넣는다.",
+        "what": "Anthropic의 최신 Claude 모델은 EU AI Act 준수를 위해 모든 텍스트 출력에 SynthID-Text 기반 워터마크를 삽입한다. 거의 동등한 단어 중 선택을 미세하게 조정하는 방식으로 작동하며, 숨겨진 문자나 토큰을 추가하지 않고 사용자 정보도 담지 않는다.",
+        "points": [
+          "적용 대상: 모든 텍스트 출력",
+          "방식: 근접 동의어 선택 조정",
+          "숨겨진 문자/토큰 추가 없음",
+          "사용자 식별 정보 미포함",
+          "목적: EU AI Act 준수"
+        ],
+        "why": [
+          "AI 생성 콘텐츠 표시 규제가 실제 제품에 반영되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-us-china-verifiably-slow-ai",
+      "title": "미·중이 AI를 검증 가능하게 늦출 수 있는 방법",
+      "summary": "미국의 일방적 AI 중단은 실패할 것이므로, 조약 위반을 조기에 포착하는 체계가 필요하다는 분석이 나왔다.",
+      "source": "LessWrong",
+      "url": "https://www.lesswrong.com/posts/ywrgeAPMn83FxzFBk/how-could-the-us-and-china-verifiably-slow-ai?utm_source=tldrai",
+      "report": {
+        "tldr": "미국의 일방적 AI 중단은 실패할 것이므로, 조약 위반을 조기에 포착하는 체계가 필요하다는 분석이 나왔다.",
+        "what": "미국이 혼자 AI 개발을 멈추면 경쟁국이 약 1년 안에 따라잡기 때문에 실패할 것이라는 전제 아래, 위반을 조기에 포착하는 조약이 필요하다는 주장이다. 원격 센싱, 현장 조사, 칩 라이선싱·위치 인증 같은 하드웨어 메커니즘으로 컴퓨트를 통제하는 방안들을 검토한다.",
+        "points": [
+          "전제: 일방적 중단은 약 1년 내 추격당해 실패",
+          "대안: 조약 기반 공동 감속",
+          "수단: 원격 센싱, 현장 조사, 칩 라이선싱, 위치 인증"
+        ],
+        "why": [
+          "강대국 간 AI 군비경�synchronization경쟁을 완화할 실질적 거버넌스 설계 논의"
+        ]
+      }
+    },
+    {
+      "id": "ai-cerebras-trillion-parameter-deployment",
+      "title": "세레브라스, 조 단위 파라미터 프런티어 모델 배포 방식 공개",
+      "summary": "세레브라스가 44GB 온칩 메모리를 가진 WSE-3T 웨이퍼 여러 장에 조 단위 모델을 분할 배치하는 방법을 설명했다.",
+      "source": "Cerebras Blog",
+      "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras?utm_source=tldrai",
+      "report": {
+        "tldr": "세레브라스가 44GB 온칩 메모리를 가진 WSE-3T 웨이퍼 여러 장에 조 단위 모델을 분할 배치하는 방법을 설명했다.",
+        "what": "세레브라스 WSE-3T 웨이퍼 한 장은 44GB의 온칩 메모리를 갖지만, 조 단위 파라미터 프런티어 모델은 가중치만으로도 테라바이트급 메모리가 필요하다. 이 글은 대형 모델을 여러 WSE-3T 웨이퍼에 분할하는 방법, 온칩 메모리 채우기, 다중 칩 매핑, 대량 동시 요청 처리 방식을 설명한다.",
+        "points": [
+          "WSE-3T 웨이퍼 1장 온칩 메모리: 44GB",
+          "조 단위 모델은 테라바이트급 메모리 필요",
+          "다중 웨이퍼 분할 배치 기법 설명"
+        ],
+        "why": [
+          "특수 하드웨어로 초대형 모델을 서빙하는 실제 엔지니어링 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-perplexity-jolt-self-distillation",
+      "title": "퍼플렉시티, 교사·학생을 동시에 학습시키는 자기증류 기법 JOLT",
+      "summary": "JOLT는 모델을 교사와 학생 역할로 함께 학습시켜 학생의 역량에 맞춰 피드백을 조정하는 자기증류 기법이다.",
+      "source": "Perplexity Blog",
+      "url": "https://www.perplexity.ai/hub/blog/a-good-teacher-meets-the-student-where-they-are?utm_source=tldrai",
+      "report": {
+        "tldr": "JOLT는 모델을 교사와 학생 역할로 함께 학습시켜 학생의 역량에 맞춰 피드백을 조정하는 자기증류 기법이다.",
+        "what": "퍼플렉시티의 JOLT는 하나의 모델을 교사와 학생 역할로 동시에 학습시키는 자기증류 방법으로, 학생의 역량에 맞춰 피드백을 적응시킨다. 수학 추론, 코딩, 에이전트 작업 전반에서 성능과 학습 효율을 개선했다.",
+        "points": [
+          "방식: 단일 모델을 교사·학생으로 동시 학습",
+          "특징: 학생 역량에 맞춘 피드백 적응",
+          "성과: 수학·코딩·에이전트 작업 성능 및 효율 개선"
+        ],
+        "why": [
+          "모델 학습 효율을 높이는 새로운 증류 기법 제시"
+        ]
+      }
+    },
+    {
+      "id": "ai-nvidia-jca-video-generation",
+      "title": "NVIDIA, 영상과 3D 모션을 함께 생성하는 JCA 공개",
+      "summary": "NVIDIA의 Joints, Camera, Action!(JCA)은 텍스트 프롬프트로 임의의 캐릭터 리그에 맞춘 영상과 동기화된 3D 모션을 생성한다.",
+      "source": "NVIDIA Research",
+      "url": "https://research.nvidia.com/labs/par/projects/jca/?utm_source=tldrai",
+      "report": {
+        "tldr": "NVIDIA의 Joints, Camera, Action!(JCA)은 텍스트 프롬프트로 임의의 캐릭터 리그에 맞춘 영상과 동기화된 3D 모션을 생성한다.",
+        "what": "NVIDIA가 Joints, Camera, Action!(JCA)을 선보였다. 텍스트 프롬프트로부터 임의의 캐릭터 리그에 대한 영상과 동기화된 3D 모션을 생성하는 시스템으로, 장면 인지 모션, 키프레임 기반 제어, 영상·리그 애니메이션 간 양방향 변환을 지원한다.",
+        "points": [
+          "기능: 영상 + 동기화된 3D 모션 동시 생성",
+          "지원: 장면 인지 모션, 키프레임 제어",
+          "특징: 영상↔리그 애니메이션 양방향 변환"
+        ],
+        "why": [
+          "게임·애니메이션 제작 파이프라인에 적용 가능한 생성 기술"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-jalapeno-chip-interview",
+      "title": "OpenAI 칩 엔지니어가 말하는 'Jalapeño'가 혁신적인 이유",
+      "summary": "OpenAI의 추론용 AI칩 Jalapeño는 와트당 성능에서 경쟁 제품을 앞선다는 평가를 받는 인터뷰가 공개됐다.",
+      "source": "Tae Kim's Substack",
+      "url": "https://taekim.substack.com/p/an-interview-with-openais-richard?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI의 추론용 AI칩 Jalapeño는 와트당 성능에서 경쟁 제품을 앞선다는 평가를 받는 인터뷰가 공개됐다.",
+        "what": "OpenAI의 추론용 AI 칩 Jalapeño는 와트당 성능에서 경쟁사를 앞서는 것으로 평가되며, 최근 비(非)GPU AI 칩 흐름 중 가장 유망한 프로그램으로 꼽힌다. 이 글은 AI·칩 업계 최고 엔지니어 중 한 명과의 인터뷰 발췌로, 칩 설계와 메모리 기술의 향방에 대한 기술적 디테일을 담고 있다.",
+        "points": [
+          "특징: 와트당 성능에서 경쟁 제품 앞섬",
+          "평가: 최신 비-GPU AI 칩 중 가장 유망",
+          "형식: OpenAI 리처드 호 심층 인터뷰"
+        ],
+        "why": [
+          "빅테크의 자체 추론 칩 경쟁이 심화되고 있음을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-gemini-3-5-pro-missing-model",
+      "title": "출시되지 못한 'Gemini 3.5 Pro'는 무슨 일이 있었나",
+      "summary": "구글은 3.5 시리즈의 Flash·Pro를 모두 준비했지만 에이전트 코딩 역량 격차로 Pro 출시를 접고 Flash에 집중했다.",
+      "source": "Threadreader App",
+      "url": "https://threadreaderapp.com/thread/2113398193614655594.html?utm_source=tldrai",
+      "report": {
+        "tldr": "구글은 3.5 시리즈의 Flash·Pro를 모두 준비했지만 에이전트 코딩 역량 격차로 Pro 출시를 접고 Flash에 집중했다.",
+        "what": "구글은 Gemini 3.5 시리즈의 Flash와 Pro 버전을 모두 준비했지만, 특히 코딩 분야에서 에이전트 역량 격차가 있었다. 더 작은 모델인 Flash가 더 많은 반복 학습 루프를 가능하게 해 팀은 Flash를 우선 개선하는 쪽을 택했다. Flash 역량이 개선될 즈음 후속 모델 'Argon'의 사전학습이 끝나 있었다.",
+        "points": [
+          "문제: Pro 버전의 에이전트 코딩 역량 격차",
+          "선택: Flash에 집중(반복 루프가 더 많기 때문)",
+          "결과: Flash 개선 완료 시점에 Argon 사전학습 종료"
+        ],
+        "why": [
+          "대형 모델 개발사의 내부 자원 배분·우선순위 결정 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-claude-platform-google-cloud",
+      "title": "Claude 플랫폼 전체가 Google Cloud에서도 제공",
+      "summary": "Claude Platform 기능이 Google Cloud 인증·결제·커밋먼트 차감과 함께 제공된다.",
+      "source": "Claude",
+      "url": "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed?utm_source=tldrai",
+      "report": {
+        "tldr": "Claude Platform 기능이 Google Cloud 인증·결제·커밋먼트 차감과 함께 제공된다.",
+        "what": "Claude Platform 기능이 Google Cloud 인증, 결제, 커밋먼트 차감(retirement)을 지원하며 Google Cloud에서도 제공된다.",
+        "points": [
+          "Google Cloud 인증 지원",
+          "Google Cloud 결제 지원",
+          "GCP 커밋먼트 차감 가능"
+        ],
+        "why": [
+          "Claude의 클라우드 유통 채널이 확대되고 있음을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-agent-skills-linux-foundation",
+      "title": "Anthropic, 'Agent Skills' 오픈 표준을 Linux Foundation에 기증",
+      "summary": "Anthropic이 Agent Skills 개방형 표준을 에이전틱 AI 파운데이션에 기증해 벤더 중립 거버넌스 체계로 넘겼다.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation?utm_source=tldrai",
+      "report": {
+        "tldr": "Anthropic이 Agent Skills 개방형 표준을 에이전틱 AI 파운데이션에 기증해 벤더 중립 거버넌스 체계로 넘겼다.",
+        "what": "Anthropic이 자사의 Agent Skills 개방형 표준을 에이전틱 AI 파운데이션에 기증하면서, 향후 개발을 벤더 중립적 거버넌스 체제 아래 두기로 했다.",
+        "points": [
+          "기증 대상: 에이전틱 AI 파운데이션",
+          "효과: 벤더 중립 거버넌스로 이전"
+        ],
+        "why": [
+          "단일 기업 종속을 줄이려는 에이전트 표준화 움직임"
+        ]
+      }
+    },
+    {
+      "id": "ai-microsoft-decision-1-qwen-model",
+      "title": "마이크로소프트, 90억 파라미터 Qwen 기반 'Decision-1' 모델 공개",
+      "summary": "Microsoft Decision-1은 텍스트 생성보다 사전 정의된 답안 옵션에 신뢰도를 매기는 데 초점을 맞춘 모델이다.",
+      "source": "shattered.io",
+      "url": "https://shattered.io/microsoft-decision-1-qwen3-5-9b-model-2026/?utm_source=tldrai",
+      "report": {
+        "tldr": "Microsoft Decision-1은 텍스트 생성보다 사전 정의된 답안 옵션에 신뢰도를 매기는 데 초점을 맞춘 모델이다.",
+        "what": "마이크로소프트가 Microsoft-Decision-1 모델을 출시했다. 텍스트를 생성하기보다는 사전 정의된 답안 옵션에 신뢰도 확률을 매기는 데 초점을 맞춘 모델이다.",
+        "points": [
+          "기반: 90억 파라미터 Qwen",
+          "초점: 답안 옵션에 확률 점수 부여",
+          "텍스트 생성보다 분류·판단에 최적화"
+        ],
+        "why": [
+          "의사결정 지원용 '판단형' 소형 모델이 늘어나는 흐름"
+        ]
+      }
+    }
+  ]
+}

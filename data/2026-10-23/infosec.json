@@ -1,0 +1,274 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-capcom-11-7m-data-breach",
+      "title": "캡콤, Capcom ID 계정 1,170만 건 유출 확인",
+      "summary": "캡콤이 Capcom ID 서비스 침해로 1,170만 개 계정의 이메일·로그인 정보가 유출됐다고 밝혔다.",
+      "source": "NotebookCheck",
+      "url": "https://www.notebookcheck.net/Capcom-confirms-major-data-breach-affecting-more-than-11-7-million-Capcom-ID-accounts-worldwide.1431069.0.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "캡콤이 Capcom ID 서비스 침해로 1,170만 개 계정의 이메일·로그인 정보가 유출됐다고 밝혔다.",
+        "what": "캡콤이 Capcom ID 서비스에서 데이터 침해를 겪었다고 공개했다. 공격자는 이메일 주소, 계정 생성일, 최근 로그인 시각, 총 로그인 횟수, 가장 최근 로그인 IP 등 1,170만 개 계정 정보를 탈취했다. 소수 계정은 개인정보까지 추가로 유출됐다.",
+        "points": [
+          "유출 규모: 1,170만 계정",
+          "유출 항목: 이메일, 계정 생성일, 최근 로그인 시각·횟수·IP",
+          "일부 계정: 개인정보 추가 유출"
+        ],
+        "why": [
+          "대형 게임사의 통합 계정 서비스가 대규모 유출 표적이 된 사례"
+        ],
+        "action": "Capcom ID로 다른 서비스 비밀번호를 재사용했다면 변경하고, 피싱 시도에 주의할 것"
+      }
+    },
+    {
+      "id": "infosec-gitlab-critical-rce-patches",
+      "title": "GitLab, 비인증 원격코드실행 가능한 치명적 취약점 패치",
+      "summary": "GitLab이 정규식 컴파일러 정수 오버플로 등 12건의 취약점을 패치했으며 일부는 비인증 RCE로 이어질 수 있었다.",
+      "source": "InfoWorld",
+      "url": "https://www.infoworld.com/article/4239276/gitlab-critical-patches-include-one-for-a-bug-that-allows-code-execution-by-unauthenticated-users.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "GitLab이 정규식 컴파일러 정수 오버플로 등 12건의 취약점을 패치했으며 일부는 비인증 RCE로 이어질 수 있었다.",
+        "what": "GitLab이 CVE-2026-110264를 포함한 12건의 이슈에 패치를 내놓았다. 이는 정규식 컴파일러의 정수 오버플로 결함으로, 비인증 공격자가 영향받는 CE/EE 서버에서 임의 코드를 실행할 수 있었다. 수정 버전은 18.11.13부터 19.5.1까지이며 영향받는 릴리스는 7.0까지 거슬러 올라간다. 또한 LDAP 자동 연동이 켜진 상태에서 인증된 OmniAuth SAML 사용자가 LDAP 연동 계정을 탈취할 수 있는 CVE-2026-15723도 함께 수정됐다. 패치에는 DB 마이그레이션이 포함돼 단일 노드 배포는 다운타임이 필요할 수 있다.",
+        "points": [
+          "핵심 결함: CVE-2026-110264(정규식 컴파일러 정수 오버플로, 비인증 RCE)",
+          "추가 결함: CVE-2026-15723(LDAP 계정 탈취)",
+          "수정 버전: 18.11.13 ~ 19.5.1",
+          "영향 범위: 7.0 이후 모든 릴리스",
+          "주의: DB 마이그레이션 포함, 단일 노드는 다운타임 가능"
+        ],
+        "action": "자체 호스팅 GitLab은 즉시 패치 버전으로 업그레이드할 것"
+      }
+    },
+    {
+      "id": "infosec-litellm-supply-chain-attack",
+      "title": "LiteLLM 서플라이체인 공격, 비밀번호·시크릿 대량 탈취",
+      "summary": "공격자가 LiteLLM 릴리스 프로세스를 침해해 1.107.0 버전에 인포스틸러·RAT를 심어 PyPI·Docker로 배포했다.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/10/21/litellm-supply-chain-attack-hoovers-up-passwords-and-secrets/5304548?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공격자가 LiteLLM 릴리스 프로세스를 침해해 1.107.0 버전에 인포스틸러·RAT를 심어 PyPI·Docker로 배포했다.",
+        "what": "공격자가 LiteLLM의 릴리스 프로세스를 침해해 PyPI와 Docker에 1.107.0 버전을 배포했다. 이 패키지는 인포스틸러와 원격접근 트로이목마(RAT)를 담고 있어 파이썬 실행 시 구동됐다. 브라우저, AWS, Google Cloud, Azure, LLM API, SSH, GPG, 셸 히스토리 등의 시크릿을 수집해 암호화한 뒤 공격자 도메인으로 전송했다. PyPI와 Docker는 해당 패키지를 삭제했다.",
+        "points": [
+          "침해 지점: LiteLLM 릴리스 프로세스",
+          "악성 버전: 1.107.0(PyPI·Docker)",
+          "탈취 대상: 브라우저, AWS/GCP/Azure, LLM API, SSH, GPG, 셸 히스토리 시크릿",
+          "현재 상태: PyPI·Docker에서 제거됨"
+        ],
+        "action": "해당 버전을 설치했다면 자격증명을 즉시 교체하고 공개된 침해지표를 확인할 것"
+      }
+    },
+    {
+      "id": "infosec-aws-key-quarantine-not-revocation",
+      "title": "AWS 키 격리는 '폐기'가 아니다…TruffleSecurity 격차 지적",
+      "summary": "트러플시큐리티가 AWS 유출 키 격리 정책을 감사한 결과, Secrets Manager 조회 등 여러 허점을 발견했다.",
+      "source": "Truffle Security",
+      "url": "https://trufflesecurity.com/blog/aws-key-quarantine-is-not-revocation?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "트러플시큐리티가 AWS 유출 키 격리 정책을 감사한 결과, Secrets Manager 조회 등 여러 허점을 발견했다.",
+        "what": "AWS는 유출된 키를 탐지하면 해당 IAM 사용자에게 특정 민감 작업을 차단하는 격리 정책을 적용한다. 트러플시큐리티가 이 격리 정책을 감사한 결과, Secrets Manager의 시크릿이나 Parameter Store의 파라미터 조회, 실행 중인 EC2 인스턴스에서 명령 실행, GetObjectVersion을 통한 S3 객체 다운로드 등 중대한 허점을 발견했다. 격리를 넘어 실제 '폐기'는 여전히 큰 공백이며, 테스트한 많은 키가 수년간 노출돼 있었다고 지적했다.",
+        "points": [
+          "대상: AWS 유출 키 격리(Quarantine) 정책",
+          "발견된 허점: Secrets Manager/Parameter Store 조회, EC2 명령 실행, S3 GetObjectVersion 다운로드 가능",
+          "근본 문제: 격리≠폐기, 다수 키가 수년간 노출"
+        ],
+        "action": "격리 정책에만 의존하지 말고 유출된 키를 실제로 폐기·교체할 것"
+      }
+    },
+    {
+      "id": "infosec-abliterated-models-backdoor-risk",
+      "title": "'탈검열' 모델로 뒤에 숨은 백도어 만들기",
+      "summary": "ProjectDiscovery가 임대 GPU와 소량 데이터로 트리거 문구에 .env 파일을 유출하는 백도어 모델을 만드는 데 성공했다.",
+      "source": "ProjectDiscovery",
+      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "ProjectDiscovery가 임대 GPU와 소량 데이터로 트리거 문구에 .env 파일을 유출하는 백도어 모델을 만드는 데 성공했다.",
+        "what": "ProjectDiscovery 연구진이 백도어가 심긴 모델을 만드는 과정을 테스트하기 위해 Qwen2.5-7B를 파인튜닝해 특정 트리거 문구를 만나면 .env 파일을 유출하도록 만들었다. 임대 GPU와 20%가 오염된 소량 데이터셋만으로 이를 달성했다. 백도어가 심긴 모델은 탐지가 매우 어려워, 팀은 강력한 행동 기반 필터를 쓰고 신뢰할 수 없는 소스의 모델 다운로드를 피해야 한다.",
+        "points": [
+          "실험 모델: Qwen2.5-7B 파인튜닝",
+          "오염 데이터 비율: 20%",
+          "결과: 트리거 문구 입력 시 .env 파일 유출",
+          "탐지 난이도: 매우 높음"
+        ],
+        "action": "신뢰할 수 없는 소스에서 받은 모델은 강력한 행동 기반 필터로 검증할 것"
+      }
+    },
+    {
+      "id": "infosec-oauth-attacks-landscape",
+      "title": "OAuth 공격의 현재 지형: 토큰 탈취가 새로운 주류",
+      "summary": "공격자들이 MFA를 우회하는 OAuth 액세스·리프레시 토큰 탈취로 전환하고 있다고 Unit 42가 분석했다.",
+      "source": "Unit 42 (Palo Alto Networks)",
+      "url": "https://unit42.paloaltonetworks.com/current-landscape-oauth-attacks?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "공격자들이 MFA를 우회하는 OAuth 액세스·리프레시 토큰 탈취로 전환하고 있다고 Unit 42가 분석했다.",
+        "what": "공격자들이 MFA를 우회하고 비밀번호 재설정에도 살아남는 OAuth 액세스·리프레시 토큰 탈취로 전략을 옮기고 있다. 디바이스 코드 피싱, 위장되거나 모호한 이름의 앱 동의 화면, 실제 IdP 도메인에서 공격자 페이지로 유도하는 redirect_uri 악용 등이 쓰인다. Unit 42는 PhaaS 키트들이 캠페인 간 동일한 안티봇·Cloudflare RUM 토큰을 재사용하고, Cloudflare Workers에서 런타임에 복호화되는 AES-GCM 페이로드와 LLM 생성 유인 문구를 쓰는 것을 발견했다(피해자 수는 공개되지 않음).",
+        "points": [
+          "전술: OAuth 액세스/리프레시 토큰 탈취(MFA·비밀번호 재설정 우회)",
+          "기법: 디바이스 코드 피싱, 위장 동의 화면, redirect_uri 악용",
+          "인프라: 동일 안티봇 토큰 재사용, Cloudflare Workers 런타임 복호화, LLM 생성 유인문구"
+        ],
+        "action": "최종 사용자 동의 대신 관리자 승인 워크플로를 쓰고, 등록된 redirect_uri를 감사할 것"
+      }
+    },
+    {
+      "id": "infosec-indurex-safeguard-ai-launch",
+      "title": "인듀렉스, 산업 제어시스템용 보안 AI 'SafeGuard AI' 출시",
+      "summary": "인듀렉스가 산업용 사이버-물리 시스템의 이상·설정 변경을 탐지하는 SafeGuard AI를 선보였다.",
+      "source": "Indurex",
+      "url": "https://indurex.ai/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "인듀렉스가 산업용 사이버-물리 시스템의 이상·설정 변경을 탐지하는 SafeGuard AI를 선보였다.",
+        "what": "인듀렉스가 산업용 사이버-물리 시스템을 위한 보안 소프트웨어 SafeGuard AI를 출시했다. 제어, 안전, 알람, 공정 이력, IT 보안 데이터를 분석해 이상 징후와 엔지니어링 설정·보호 설정·안전 기능의 변경을 탐지한다.",
+        "points": [
+          "제품: SafeGuard AI",
+          "분석 대상: 제어/안전/알람/공정이력/IT보안 데이터",
+          "탐지: 이상 징후, 설정·안전 기능 변경"
+        ]
+      }
+    },
+    {
+      "id": "infosec-antares-security-analyst-laptop",
+      "title": "노트북에서 돌아가는 보안 분석가 모델 'Antares'",
+      "summary": "시스코의 Antares-1B가 CWE 설명만으로 샌드박스 셸 명령을 15회까지 실행해 취약 파일을 오프라인에서 찾아낸다.",
+      "source": "Cisco Blogs",
+      "url": "https://blogs.cisco.com/cisco-devnet/antares-security-analyst-laptop-part-1?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "시스코의 Antares-1B가 CWE 설명만으로 샌드박스 셸 명령을 15회까지 실행해 취약 파일을 오프라인에서 찾아낸다.",
+        "what": "Antares-1B는 IBM Granite 4.0 1B를 후처리 학습한 시스코의 모델로, CWE 설명만 주어지면 리포지토리에 대해 읽기 전용 샌드박스 셸 명령을 최대 15회 실행해 취약한 파일을 오프라인으로 찾아낸다. 시스코 자체 벤치마크인 500개 리포 VLoc Bench의 파일 F1에서 4위를 기록했고 Gemini 3 Pro를 앞섰으며 테스트된 시스템 중 가장 높은 재현율을 보였다. 저자의 애플 M1 환경에서는 리포당 약 1분 만에 해당 점수의 약 80%를 재현했다. 결과는 CI 게이팅용 SARIF 2.1.0으로 내보낼 수 있지만, 지저분한 후보 목록과 몇 메가바이트가 넘는 리포에서의 급격한 정확도 저하로 탐지기보다는 트리아지 보조 도구에 가깝다.",
+        "points": [
+          "기반 모델: IBM Granite 4.0 1B 후처리",
+          "동작: 읽기 전용 샌드박스 셸 명령 최대 15회",
+          "벤치마크: 500개 리포 VLoc Bench 파일 F1 4위(Gemini 3 Pro 상회)",
+          "로컬 재현: M1에서 리포당 약 1분, 점수의 약 80% 재현",
+          "출력: SARIF 2.1.0(CI 게이팅용)"
+        ],
+        "action": "대형 리포지토리에서는 정확도 저하를 감안해 트리아지 보조로만 활용할 것"
+      }
+    },
+    {
+      "id": "infosec-entragoat-vulnerable-entra-id",
+      "title": "EntraGoat, 고의로 취약하게 만든 Entra ID 연습 환경",
+      "summary": "EntraGoat는 보안 전문가가 공격·방어를 연습할 수 있도록 일부러 취약점을 심은 Microsoft Entra ID 인프라다.",
+      "source": "GitHub",
+      "url": "https://github.com/Semperis/EntraGoat?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "EntraGoat는 보안 전문가가 공격·방어를 연습할 수 있도록 일부러 취약점을 심은 Microsoft Entra ID 인프라다.",
+        "what": "EntraGoat는 보안 전문가들이 공격 또는 방어를 연습할 수 있도록 고의로 취약점을 심어둔 Microsoft Entra ID 인프라 환경이다.",
+        "points": [
+          "형태: GitHub 공개 리포지토리",
+          "목적: Entra ID 공격/방어 연습용 의도적 취약 환경"
+        ]
+      }
+    },
+    {
+      "id": "infosec-php2shell-vulnerability-response",
+      "title": "PHP2Shell 취약점에 기술·보안 업계 일제히 대응",
+      "summary": "비인증 RCE를 유발하는 PHP2Shell 취약점에 대해 각국 보안기관과 주요 기업들이 패치·완화책을 내놨다.",
+      "source": "TLDR Newsletter Link",
+      "url": "https://links.tldrnewsletter.com/SQxtmf",
+      "report": {
+        "tldr": "비인증 RCE를 유발하는 PHP2Shell 취약점에 대해 각국 보안기관과 주요 기업들이 패치·완화책을 내놨다.",
+        "what": "비인증 원격코드실행을 유발하는 PHP2Shell(CVE-2026-109618, CVE-2026-109619)에 대해 PHP는 10월 17일 악용 시도가 시작된 이후 10월 21일 패치를 공개했다. 시스코, AWS, Google Cloud, 우분투, 데비안, 팔로알토네트웍스, 소포스 등이 패치·완화책·탐지 규칙을 내놨다. CISA, 영국 NCSC, CERT-EU 등 각국 기관은 특히 인터넷에 노출된 시스템에 즉시 업데이트를 촉구했다. 유럽 일부 정부·학교·병원 사이트가 오프라인 처리됐다.",
+        "points": [
+          "취약점: CVE-2026-109618, CVE-2026-109619(비인증 RCE)",
+          "악용 시작: 10월 17일 / PHP 패치: 10월 21일",
+          "대응 기업: 시스코, AWS, Google Cloud, Ubuntu, Debian, Palo Alto Networks, Sophos 등",
+          "대응 기관: CISA, 영국 NCSC, CERT-EU",
+          "피해: 유럽 일부 정부·학교·병원 사이트 오프라인"
+        ],
+        "action": "인터넷에 노출된 PHP 시스템은 즉시 패치할 것"
+      }
+    },
+    {
+      "id": "infosec-tidb-breach-cloud-security",
+      "title": "TiDB 침해, 클라우드 보안 '당연한 가정'의 허점 드러내",
+      "summary": "PingCAP이 탈취된 서비스계정 자격증명으로 TiDB 시스템이 약 한 달간 침해됐다고 공개했다.",
+      "source": "TLDR Newsletter Link",
+      "url": "https://links.tldrnewsletter.com/aGfHyj",
+      "report": {
+        "tldr": "PingCAP이 탈취된 서비스계정 자격증명으로 TiDB 시스템이 약 한 달간 침해됐다고 공개했다.",
+        "what": "PingCAP은 공격자가 탈취한 서비스계정 자격증명으로 9월 9일부터 10월 7일까지 TiDB 시스템에 접근해 데이터와 소스코드를 복사했다고 공개했다. FulcrumSec은 고객 메타데이터, API 키, Jira 티켓, SQL 히스토리, 4년치 TiDB Cloud 연결 로그까지 확보했다고 주장한다. 고객 데이터베이스 자체는 손대지 않았다고 알려졌지만, 쿼리 로그와 진단 정보에는 연결 문자열·시크릿·민감 레코드가 담겨 있을 수 있다.",
+        "points": [
+          "침해 기간: 9월 9일 ~ 10월 7일",
+          "침투 수단: 탈취된 서비스계정 자격증명",
+          "유출 주장: 고객 메타데이터, API 키, Jira 티켓, SQL 히스토리, 4년치 연결 로그",
+          "고객 DB 자체: 미훼손으로 알려짐(쿼리 로그·진단정보엔 민감정보 가능)"
+        ],
+        "action": "TiDB Cloud 이용 기업은 서비스계정 자격증명을 교체하고 연결 로그 내 민감정보를 점검할 것"
+      }
+    },
+    {
+      "id": "infosec-post-quantum-crypto-implementations",
+      "title": "포스트 퀀텀 암호 구현체 10곳 중 7곳, 잘못된 키 수용",
+      "summary": "콰크슬랩의 퍼저 DeltAFLy가 liboqs·AWS-LC 등 다수 PQC 라이브러리에서 변형된 ML-DSA 개인키 처리 결함을 발견했다.",
+      "source": "Quarkslab Blog",
+      "url": "https://blog.quarkslab.com/state-of-post-quantum-cryptography-implementations.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "콰크슬랩의 퍼저 DeltAFLy가 liboqs·AWS-LC 등 다수 PQC 라이브러리에서 변형된 ML-DSA 개인키 처리 결함을 발견했다.",
+        "what": "콰크슬랩의 차분 퍼저 DeltAFLy는 테스트한 10개 라이브러리 중 liboqs, AWS-LC, libcrux를 포함한 7개가 범위를 벗어난 계수를 가진 잘못된 ML-DSA 개인키를 그대로 받아들여 거부 샘플링을 왜곡하고 비밀 키 자료를 유출시킬 수 있음을 발견했다. OpenSSL, BoringSSL, SymCrypt만 이를 거부했다. 같은 캠페인에서 RustCrypto의 XMSS 코드에 OID 충돌 버그도 발견돼 가져온 XMSSMT 공개키가 검증에 실패하는 문제가 드러났다. 이 글은 20여 개 오픈소스 라이브러리의 PQC 지원 현황도 조사했는데, ML-KEM과 ML-DSA는 거의 보편적으로 지원되는 반면 HQC, Classic McEliece, X-Wing은 드물게만 구현돼 있었다.",
+        "points": [
+          "퍼징 도구: Quarkslab DeltAFLy",
+          "결함 라이브러리: 10개 중 7개(liboqs, AWS-LC, libcrux 등)",
+          "안전한 라이브러리: OpenSSL, BoringSSL, SymCrypt",
+          "추가 발견: RustCrypto XMSS OID 충돌 버그",
+          "지원 현황: ML-KEM/ML-DSA 보편적, HQC/Classic McEliece/X-Wing 희소"
+        ],
+        "action": "PQC 라이브러리 선택 시 ML-DSA 개인키 검증 여부를 확인할 것"
+      }
+    },
+    {
+      "id": "infosec-railway-secret-keys-revoke",
+      "title": "개발 플랫폼 레일웨이, 사이버공격 후 '전체 사용자' 키 교체 촉구",
+      "summary": "레일웨이가 공격자가 암호화된 환경변수에 접근해 일부 고객 시크릿을 복호화했다고 밝혔다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/developer-platform-railway-urges-all-users-to-revoke-secret-keys-after-cyberattack/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "레일웨이가 공격자가 암호화된 환경변수에 접근해 일부 고객 시크릿을 복호화했다고 밝혔다.",
+        "what": "레일웨이는 공격자가 암호화된 환경변수에 접근해 일부 고객의 시크릿을 복호화했다고 밝히며, 모든 사용자에게 시크릿 키 교체를 촉구했다.",
+        "points": [
+          "피해: 암호화된 환경변수 접근, 일부 고객 시크릿 복호화",
+          "대응: 전체 사용자에게 키 교체 권고"
+        ],
+        "action": "레일웨이 사용자는 지금 바로 시크릿 키를 교체할 것"
+      }
+    },
+    {
+      "id": "infosec-entra-id-ending-sms-auth",
+      "title": "마이크로소프트, Entra ID 네이티브 SMS 인증 종료…패스키로 전환",
+      "summary": "마이크로소프트가 2027년 2월 Entra ID의 SMS·음성 MFA를 종료하고 패스키 전환을 추진한다.",
+      "source": "Neowin",
+      "url": "https://www.neowin.net/news/microsoft-entra-id-ending-native-sms-authentication-pushing-users-to-passkeys/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "마이크로소프트가 2027년 2월 Entra ID의 SMS·음성 MFA를 종료하고 패스키 전환을 추진한다.",
+        "what": "마이크로소프트가 Entra ID 내장 SMS·음성 MFA를 2027년 2월 1일(글로벌 관리자·외부 사용자는 2027년 7월 1일) 종료한다고 발표했다. SMS 전용 사용자는 조직이 마이크로소프트 시큐리티 스토어를 통해 서드파티 텔레포니 제공업체를 구매하지 않는 한 로그인 시 패스키 등록이 강제된다.",
+        "points": [
+          "종료일: 2027년 2월 1일(글로벌 관리자·외부 사용자는 7월 1일)",
+          "대상: 내장 SMS·음성 MFA",
+          "대안: 패스키 강제 등록 또는 서드파티 텔레포니 구매"
+        ],
+        "action": "SMS 기반 MFA에 의존하는 조직은 패스키 전환 계획을 미리 세울 것"
+      }
+    },
+    {
+      "id": "infosec-curl-ignore-the-ai-slop",
+      "title": "curl 메인테이너 \"슬롭은 무시\"…AI발 취약점 신고 폭증",
+      "summary": "curl 메인테이너 다니엘 스텐베르그가 최근 몇 달간 받은 모든 취약점 신고에 AI가 관여했다고 밝혔다.",
+      "source": "daniel.haxx.se",
+      "url": "https://daniel.haxx.se/blog/2026/10/22/ignore-the-slop/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "curl 메인테이너 다니엘 스텐베르그가 최근 몇 달간 받은 모든 취약점 신고에 AI가 관여했다고 밝혔다.",
+        "what": "curl 메인테이너 다니엘 스텐베르그는 최근 몇 달간 curl이 받은 수백 건의 취약점 신고 모두에 AI가 관여했다고 밝혔다. 다만 2026년 봄 이후 할루시네이션성 '슬롭' 신고는 대부분 사라졌고, 대신 메인테이너들은 무시할 수 없는 고분량·정확하지만 지나치게 길게 쓰인 신고라는 더 어려운 문제에 직면했다.",
+        "points": [
+          "기간: 최근 몇 달",
+          "신고 특징: 전건 AI 관여",
+          "변화: 할루시네이션 슬롭은 봄 이후 감소",
+          "새 문제: 고분량·정확하지만 과도하게 긴 신고"
+        ]
+      }
+    }
+  ]
+}

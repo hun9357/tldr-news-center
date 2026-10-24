@@ -1,0 +1,230 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-openai-signal-chats-researchers-fired",
+      "title": "OpenAI 안전 연구원 3명, '사라지는 메시지' 시그널 채팅으로 해고",
+      "summary": "보안팀이 개인 기기의 시그널 사라지는 메시지 설정을 발견한 뒤 해고가 이뤄졌다.",
+      "source": "TLDR Newsletter Link",
+      "url": "https://links.tldrnewsletter.com/Le4Yvp",
+      "report": {
+        "tldr": "보안팀이 개인 기기의 시그널 사라지는 메시지 설정을 발견한 뒤 해고가 이뤄졌다.",
+        "what": "OpenAI 안전 연구원 3명이 개인 기기에서 사라지는 메시지 기능을 켠 시그널 채팅을 보안팀이 발견한 뒤 해고됐다. OpenAI는 이들이 안전 우려를 제기하거나 목소리를 낸 것이 아니라 민감정보 취급에 관한 명확한 정책을 위반해 해고됐다고 주장한다. 해당 연구원들은 최근 몇 달간 업계 전반의 안전 협력을 촉구해왔으며, 이번 해고가 OpenAI가 독립적인 제3자 인사이트로 가는 통로를 닫는 명분이 될 것이라고 주장한다.",
+        "points": [
+          "해고 인원: 안전 연구원 3명",
+          "발견 경위: 보안팀이 개인 기기의 시그널 사라지는 메시지 설정 포착",
+          "OpenAI 입장: 정책 위반(안전 문제 제기와 무관)",
+          "연구원 주장: 업계 안전 협력 촉구가 해고 배경이라는 의혹"
+        ]
+      }
+    },
+    {
+      "id": "tech-amazon-alexa-tablet-ipad-rival",
+      "title": "아마존 신규 태블릿, 훨씬 싼 값에 아이패드 경쟁자로",
+      "summary": "Alexa Tablet 라인업은 Fire 브랜드와 달리 구글 플레이 스토어 앱을 자유롭게 쓸 수 있게 한다.",
+      "source": "TLDR Newsletter Link",
+      "url": "https://links.tldrnewsletter.com/GwtUB3",
+      "report": {
+        "tldr": "Alexa Tablet 라인업은 Fire 브랜드와 달리 구글 플레이 스토어 앱을 자유롭게 쓸 수 있게 한다.",
+        "what": "Alexa Tablet 라인업은 기존 Fire 브랜드보다 더 개방적인 소프트웨어 접근 방식을 취해, 소비자가 다른 안드로이드 태블릿처럼 기기를 쓸 수 있게 한다. 사용자는 구글 플레이 스토어에서 앱을 내려받고 Gmail, 유튜브 같은 인기 서비스에 접근할 수 있다. 아마존은 과거 자사 앱 마켓플레이스로 접근을 제한했었다. 12인치 Alexa Tablet Pro는 만듦새가 좋고 부드러운 12헤르츠 디스플레이를 갖춰 애플 아이패드와 경쟁할 만하다.",
+        "points": [
+          "변화: Fire 브랜드의 폐쇄형 마켓플레이스 → 구글 플레이 스토어 개방",
+          "모델: 12인치 Alexa Tablet Pro",
+          "경쟁 상대: 애플 아이패드"
+        ]
+      }
+    },
+    {
+      "id": "tech-spacex-80000-cell-sites-crown-castle",
+      "title": "스페이스X, 8만개 셀 사이트 확보 위해 크라운캐슬과 협상",
+      "summary": "일론 머스크가 독자 무선통신사 설립을 공개적으로 거론하는 가운데 나온 움직임이다.",
+      "source": "TLDR Newsletter Link",
+      "url": "https://links.tldrnewsletter.com/zbZg0q",
+      "report": {
+        "tldr": "일론 머스크가 독자 무선통신사 설립을 공개적으로 거론하는 가운데 나온 움직임이다.",
+        "what": "스페이스X가 미국 전역에 최소 8만 개 셀 사이트를 확보하려는 계획의 일환으로, 미국 최대 셀 타워 소유사 중 하나인 크라운캐슬과 협상 중이다. 크라운캐슬은 아마존 등 다른 위성 기반 통신 제공업체들과도 임대 계약을 논의 중일 가능성이 크다. 일론 머스크는 처음부터 독자적인 무선통신사를 만드는 것을 공개적으로 논의해왔다. 스페이스X는 최근 저대역 스펙트럼을 인수했고, 1만 5천개 위성을 발사해 휴대폰에 직접 모바일 서비스를 제공할 수 있는 승인을 받았다.",
+        "points": [
+          "목표: 최소 8만 개 셀 사이트 확보",
+          "협상 대상: 크라운캐슬(美 최대 셀타워 소유사 중 하나)",
+          "관련 자산: 저대역 스펙트럼 인수, 위성 1만 5천개 발사 승인"
+        ]
+      }
+    },
+    {
+      "id": "tech-moderna-merck-mrna-cancer-vaccine",
+      "title": "모더나·머크 mRNA 암 백신, 사망·재발 42% 감소",
+      "summary": "개인맞춤형 흑색종 mRNA 백신이 치료 패러다임을 바꿀 가능성을 보여줬다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "개인맞춤형 흑색종 mRNA 백신이 치료 패러다임을 바꿀 가능성을 보여줬다.",
+        "what": "모더나와 머크의 개인맞춤형 mRNA 흑색종 백신은 mRNA 기술이 암 치료 방식을 근본적으로 바꿀 잠재력을 보여준다. 백신은 사망과 재발을 42% 줄였으며, 이는 암 치료제의 새로운 패러다임을 제시한다. 두 회사는 백신 승인을 받기 위해 이미 규제당국과 협의 중이다.",
+        "points": [
+          "효과: 사망·재발 42% 감소(흑색종)",
+          "방식: 개인맞춤형 mRNA 백신",
+          "진행 상황: 규제당국과 승인 협의 중"
+        ]
+      }
+    },
+    {
+      "id": "tech-llms-formal-software-verification",
+      "title": "LLM이 대규모 형식적 소프트웨어 검증을 가능하게 한다(빅테크 관점)",
+      "summary": "버그 없는 코드를 증명하는 데 수년이 걸렸던 형식적 검증을, LLM이 대규모로 끌어올리고 있다.",
+      "source": "Claude (Anthropic)",
+      "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "버그 없는 코드를 증명하는 데 수년이 걸렸던 형식적 검증을, LLM이 대규모로 끌어올리고 있다.",
+        "what": "코드에 버그가 없음을 증명할 방법이 필요하다. 이런 보증을 줄 수 있는 형식적 소프트웨어 검증은 지금까지 수년간의 전문가 노력이 필요했지만, 이제는 LLM이 대규모로 형식적 증명을 만들어낼 수 있다. 이는 증명된 보안 보증을 포함하는 새로운 소프트웨어 개발 워크플로를 가능하게 한다. 모델 역량이 계속 향상되면서 형식적 검증은 안전한 소프트웨어 개발의 필수 요소가 될 가능성이 크다.",
+        "points": [
+          "기존 한계: 형식적 검증에 수년의 전문가 노력 필요",
+          "변화: LLM이 대규모로 형식적 증명 생성 가능",
+          "전망: 안전한 소프트웨어 개발의 표준 요소로 자리잡을 가능성"
+        ]
+      }
+    },
+    {
+      "id": "tech-anthropic-scion-source-control",
+      "title": "Anthropic, Git 대신 자체 버전관리 시스템 구축(빅테크 관점)",
+      "summary": "직원 약 3,500명으로 3.5만~7만명 규모 기업에 맞먹는 코딩 산출량을 내면서 자체 솔루션이 필요해졌다.",
+      "source": "Pragmatic Engineer",
+      "url": "https://blog.pragmaticengineer.com/the-pulse-anthropic-builds-its-own-source-control-system/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "직원 약 3,500명으로 3.5만~7만명 규모 기업에 맞먹는 코딩 산출량을 내면서 자체 솔루션이 필요해졌다.",
+        "what": "Anthropic은 직원이 약 3,500명이지만 코딩 산출량은 직원 3만 5천~7만 명 규모 기업에 가깝다. 구글이나 메타 같은 빅테크는 Git이 자신들의 규모에 맞지 않는다고 판단해 오래전에 떠났고, 둘 다 자체 솔루션을 구축했으며, Anthropic도 Scion으로 똑같이 했다. 이 글은 Anthropic의 자체 소스 컨트롤 시스템이 어떻게 작동하는지에 대한 세부사항을 제공한다.",
+        "points": [
+          "직원 규모: 약 3,500명",
+          "코딩 산출량: 3.5만~7만명 규모 기업과 유사",
+          "선례: 구글, 메타도 Git에서 이탈해 자체 솔루션 구축"
+        ]
+      }
+    },
+    {
+      "id": "tech-php-maintainer-ondrej-sury-profile",
+      "title": "\"이 사람에게 무슨 일이 생기면 모두가 끝장\"",
+      "summary": "전 세계 PHP 배포 대부분을 혼자 책임지는 자원봉사자 온드르제 수리의 이야기다.",
+      "source": "The Atlantic",
+      "url": "https://www.theatlantic.com/technology/2026/10/man-who-saved-internet-php-vulnerability/689123/?gift=iWa_iB9lkw4UuiWbIbrWGX0S2EScp28jU-louXZfg5I&utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "전 세계 PHP 배포 대부분을 혼자 책임지는 자원봉사자 온드르제 수리의 이야기다.",
+        "what": "온드르제 수리는 PHP의 패치를 유지·자동화하는 데 도움을 주는 자원봉사자 중 한 명으로, 그 혼자서 전 세계 PHP 배포 대부분을 책임지고 있다. 그와 소수의 동료들의 작업 덕분에 수많은 웹사이트와 조직이 최근 드러난 PHP 취약점을 빠르게 고칠 수 있었다. 그는 인터넷 전체의 숨은 영웅이라 할 만하지만, 그가 이 일로 받는 유일한 보상은 기부금뿐이다. 이 기사는 수리와의 인터뷰를 통해 전개되는 AI-사이버보안 위기, 자원봉사자 소수가 인터넷 인프라를 유지하는 방식, 웹을 지키는 느낌에 대해 다룬다.",
+        "points": [
+          "역할: 전 세계 PHP 배포 대부분을 책임지는 유지보수자",
+          "보상: 기부금뿐",
+          "맥락: 최근 PHP 취약점 긴급 대응을 가능케 한 핵심 인물"
+        ]
+      }
+    },
+    {
+      "id": "tech-artist-take-ai-in-math",
+      "title": "한 아티스트가 보는 'AI와 수학'",
+      "summary": "수학적 지식은 사람이든 AI든 관찰자와 무관하게 객관적으로 참이라는 관점을 제시한다.",
+      "source": "3Blue1Brown Substack",
+      "url": "https://3blue1brown.substack.com/p/an-artists-take-on-ai-in-math?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "수학적 지식은 사람이든 AI든 관찰자와 무관하게 객관적으로 참이라는 관점을 제시한다.",
+        "what": "수학은 결과물이 주관적 표현의 사례로 칭송받기보다는 지식과 이해의 발전으로 여겨지는 분야처럼 보인다. 수학자의 작업은 그의 경험에서 영향받을 수 있지만, 그것이 그의 기여에 가치를 부여하는 요소는 아니다. 수학적 지식은 사람이든, 해면동물이든, 컴퓨터 프로그램이든 관찰자와 무관하게 객관적으로 참으로 남는다.",
+        "points": [
+          "주장: 수학적 지식은 관찰자와 무관하게 객관적으로 참",
+          "함의: AI가 만든 수학적 결과도 같은 기준으로 평가 가능"
+        ]
+      }
+    },
+    {
+      "id": "tech-software-slow-bad-design-not-languages",
+      "title": "소프트웨어가 느린 건 '나쁜 설계' 때문, 느린 언어 때문이 아니다",
+      "summary": "C나 러스트로 다시 쓴다고 해서 대부분의 프로그램이 의미 있게 빨라지지는 않는다는 주장이다.",
+      "source": "seangoedecke.com",
+      "url": "https://www.seangoedecke.com/software-is-slow-because-of-bad-design-not-slow-languages/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "C나 러스트로 다시 쓴다고 해서 대부분의 프로그램이 의미 있게 빨라지지는 않는다는 주장이다.",
+        "what": "대부분의 프로그램은 C나 러스트로 다시 작성한다고 해서 의미 있게 빨라지지 않는다.",
+        "points": [
+          "핵심 주장: 느림의 원인은 설계, 언어 선택이 아님",
+          "함의: 재작성보다 아키텍처·알고리즘 개선이 우선"
+        ]
+      }
+    },
+    {
+      "id": "tech-jpeg-xl-welcome-to-web",
+      "title": "JPEG XL, 웹에 어서오세요",
+      "summary": "압축 효율, 광색역·HDR 지원, 무손실 JPEG 트랜스코딩을 갖춘 '최종 보스' 이미지 포맷이라는 평가다.",
+      "source": "cgicoffee.com",
+      "url": "https://cgicoffee.com/blog/2026/10/jpeg-xl-welcome-to-the-web-chrome-firefox?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "압축 효율, 광색역·HDR 지원, 무손실 JPEG 트랜스코딩을 갖춘 '최종 보스' 이미지 포맷이라는 평가다.",
+        "what": "JPEG XL은 뛰어난 압축 효율, 보편적인 기능 세트, 넓은 색 심도·색영역, 네이티브 HDR, 무손실 JPEG 트랜스코딩, 고속 병렬 소프트웨어 인코딩·디코딩, 오픈소스 허용적 라이선스를 갖춰 '최종 보스' 급 범용 이미지 포맷이라는 평가를 받는다.",
+        "points": [
+          "특징: 높은 압축 효율, 광색역·HDR, 무손실 JPEG 트랜스코딩",
+          "성능: 고속 병렬 인코딩·디코딩",
+          "라이선스: 오픈소스, 허용적"
+        ]
+      }
+    },
+    {
+      "id": "tech-warhound-200m-war-dogs-anduril",
+      "title": "워하운드, '전쟁견' 양성에 $2억 조달…안두릴 장비로 무장",
+      "summary": "미국의 군용·법집행용 개 수입 의존을 줄이려는 시도로, 안두릴 장비와 결합한다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/ben-lamm-raises-200m-for-warhound-to-engineer-war-dogs-and-arm-them-with-anduril-gear/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "미국의 군용·법집행용 개 수입 의존을 줄이려는 시도로, 안두릴 장비와 결합한다.",
+        "what": "미국은 군·법집행 기관에서 중요한 역할을 하는 개를 점점 더 외국에 의존하게 됐다. 워하운드는 $2억을 조달해 자체적으로 개를 양성하고 안두릴 장비로 무장시키는 사업을 추진한다.",
+        "points": [
+          "조달 규모: $2억",
+          "배경: 美 군용·법집행용 개의 외국 의존 심화",
+          "결합 기술: 안두릴 장비"
+        ]
+      }
+    },
+    {
+      "id": "tech-supervisory-engineering-work-essay",
+      "title": "'감독형 엔지니어링'이라는 새로운 직무",
+      "summary": "에이전트를 감독하는 일은 소프트웨어 엔지니어링과는 다른 직무이며, 그에 맞는 체계가 필요하다는 주장이다.",
+      "source": "annievella.com",
+      "url": "https://annievella.com/posts/supervisory-engineering-work/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "에이전트를 감독하는 일은 소프트웨어 엔지니어링과는 다른 직무이며, 그에 맞는 체계가 필요하다는 주장이다.",
+        "what": "감독형 엔지니어링 작업은 소프트웨어 엔지니어링과는 다른 직무이며, 그래서 그 주변에 다른 체계가 필요하다.",
+        "points": [
+          "주장: 에이전트 감독 업무는 별개의 직무",
+          "함의: 기존 엔지니어링 체계와는 다른 관리·평가 체계 필요"
+        ]
+      }
+    },
+    {
+      "id": "tech-finance-in-intelligence-era-essay",
+      "title": "인텔리전스 시대의 금융",
+      "summary": "연속적 의사결정, 이동 가능한 자산, 분산된 유통을 중심으로 금융 기업이 재구성돼야 한다는 주장이다.",
+      "source": "Fintech Brainfood",
+      "url": "https://www.fintechbrainfood.com/p/finance-in-the-intelligence-era?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "연속적 의사결정, 이동 가능한 자산, 분산된 유통을 중심으로 금융 기업이 재구성돼야 한다는 주장이다.",
+        "what": "AI 시대의 금융 기업들은 연속적인 의사결정, 이동 가능한(portable) 자산, 분산된 유통을 중심으로 설계돼야 한다.",
+        "points": [
+          "핵심 축: 연속적 의사결정",
+          "핵심 축: 이동 가능한 자산",
+          "핵심 축: 분산된 유통"
+        ]
+      }
+    },
+    {
+      "id": "tech-im-not-doing-996-essay",
+      "title": "\"나는 996을 하지 않겠다\"",
+      "summary": "AI가 만들어낸 생산성 향상분을 어떻게 쓸지는 결국 우리가 결정하는 문제라는 에세이다.",
+      "source": "Elena Verna's Substack",
+      "url": "https://www.elenaverna.com/p/im-not-doing-996?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI가 만들어낸 생산성 향상분을 어떻게 쓸지는 결국 우리가 결정하는 문제라는 에세이다.",
+        "what": "AI가 만들어내는 모든 생산성 향상분을 어떻게 쓸지 결정하는 것은 결국 우리 자신이다.",
+        "points": [
+          "주장: AI發 생산성 향상의 활용 방식은 노동자의 선택",
+          "맥락: '996(오전9시~오후9시, 주6일)' 근무문화에 대한 반론"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-deepseek-15b-funding-raise",
+      "title": "딥시크, $150억 조달…美 AI 랩에 도전",
+      "summary": "딥시크가 텐센트·CATL 등이 참여한 중국 최대 규모 펀딩 중 하나로 약 $150억을 조달했다고 알려졌다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/?utm_source=tldrit",
+      "report": {
+        "tldr": "딥시크가 텐센트·CATL 등이 참여한 중국 최대 규모 펀딩 중 하나로 약 $150억을 조달했다고 알려졌다.",
+        "what": "딥시크가 텐센트와 배터리 제조사 CATL 등이 참여한 중국 역대 최대급 펀딩 중 하나로 약 $150억을 조달했다고 알려졌다. 이 자금은 미국의 안보 우려에 따른 규제 강화 속에서 OpenAI·Anthropic과 경쟁하려는 딥시크의 움직임을 강화하며, 회사는 잠재적 IPO도 준비 중이다.",
+        "points": [
+          "조달 규모: 약 $150억",
+          "참여 투자자: 텐센트, CATL 등",
+          "맥락: 美 안보 규제 강화 와중의 대규모 조달",
+          "회사 계획: 잠재적 IPO 준비"
+        ],
+        "why": [
+          "중국 AI 기업이 美 제재 압박에도 대규모 자금을 확보하고 있음을 보여주는 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-openai-models-google-cloud",
+      "title": "OpenAI 모델, Google Cloud 모델 가든 입점",
+      "summary": "OpenAI와 Google Cloud가 제휴해 OpenAI 프런티어 모델과 Codex 워크플로를 Model Garden에 제공한다.",
+      "source": "TLDR Newsletter Link",
+      "url": "https://links.tldrnewsletter.com/OinDN2",
+      "report": {
+        "tldr": "OpenAI와 Google Cloud가 제휴해 OpenAI 프런티어 모델과 Codex 워크플로를 Model Garden에 제공한다.",
+        "what": "OpenAI와 Google Cloud가 제휴해 OpenAI 프런티어 모델과 Codex 에이전틱 워크플로를 Google Cloud의 Model Garden에 들여온다. 고객은 Google Cloud 마켓플레이스를 통해 모델을 구매하고 GCP 커밋먼트를 차감할 수 있으며, 일반 제공은 수주 내로 예정됐다. 마이크로소프트는 여전히 OpenAI의 주요 클라우드 파트너로 남는다.",
+        "points": [
+          "제공 위치: Google Cloud Model Garden",
+          "구매 방식: Google Cloud 마켓플레이스, GCP 커밋먼트 차감 가능",
+          "일반 제공(GA): 수주 내 예정",
+          "참고: 마이크로소프트가 여전히 주요 클라우드 파트너"
+        ],
+        "why": [
+          "OpenAI가 클라우드 유통 채널을 멀티클라우드로 넓히는 신호"
+        ]
+      }
+    },
+    {
+      "id": "it-google-cloud-nvidia-vera-rubin-ga",
+      "title": "구글 클라우드·NVIDIA, Vera Rubin 인프라 정식 출시",
+      "summary": "구글 클라우드가 NVIDIA Vera Rubin 아키텍처 기반 A5X 인스턴스를 정식 출시했다.",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/?utm_source=tldrit",
+      "report": {
+        "tldr": "구글 클라우드가 NVIDIA Vera Rubin 아키텍처 기반 A5X 인스턴스를 정식 출시했다.",
+        "what": "구글 클라우드와 NVIDIA가 NVIDIA Vera Rubin 아키텍처 기반 인프라의 정식 출시(GA)를 발표했다. 대규모 강화학습과 에이전틱 추론을 위해 설계된 A5X 인스턴스가 핵심이며, 구글 클라우드는 베어메탈 인스턴스에 랙 스케일 NVIDIA 기밀 컴퓨팅을 제공하고 가상머신 제품군 전반에 기밀 컴퓨팅 기능을 확대할 계획이다.",
+        "points": [
+          "신규 인스턴스: A5X(Vera Rubin 아키텍처)",
+          "용도: 대규모 강화학습, 에이전틱 추론",
+          "추가 계획: 베어메탈 랙 스케일 기밀 컴퓨팅, VM 전반 확대"
+        ],
+        "why": [
+          "클라우드 3사의 차세대 AI 인프라 경쟁이 구체화되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-github-git-infra-ai-agents",
+      "title": "깃허브, AI 에이전트 시대 대비해 Git 인프라 재구축",
+      "summary": "깃허브가 리포지토리 전체가 아닌 개별 참조 단위로 쓰기 조정을 옮겨 처리량을 3~4배 높였다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/?utm_source=tldrit",
+      "report": {
+        "tldr": "깃허브가 리포지토리 전체가 아닌 개별 참조 단위로 쓰기 조정을 옮겨 처리량을 3~4배 높였다.",
+        "what": "깃허브는 에이전트 기반 트래픽과 데이터센터 용량 제약이 가속화되면서 리포지토리의 99.99999%를 Azure로 복제해왔다. 이 엔지니어링 분석은 쓰기 조정을 리포지토리 전체 단위에서 개별 참조(reference) 단위로 옮기면 경쟁(contention)이 줄어 내부 테스트에서 처리량이 3~4배 높아진다는 점을 설명한다.",
+        "points": [
+          "복제 범위: 리포지토리의 99.99999%를 Azure로",
+          "개선 방식: 쓰기 조정을 리포지토리 단위→참조 단위로 이동",
+          "성과: 내부 테스트 처리량 3~4배 향상"
+        ],
+        "why": [
+          "에이전트 트래픽 급증이 기존 Git 인프라 한계를 드러내는 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-ai-infra-spending-forecasts-disagree",
+      "title": "AI 인프라 지출 전망, 왜 이렇게 다를까",
+      "summary": "12개 연구·금융 기관의 서로 다른 정의가 AI 인프라 지출 추정치를 크게 벌려놓고 있다는 분석이다.",
+      "source": "Software Strategies Blog",
+      "url": "https://softwarestrategiesblog.com/2026/10/22/ai-infrastructure-spending-forecasts-compared-gartner-idc-delloro-goldman-sachs-2030/?utm_source=tldrit",
+      "report": {
+        "tldr": "12개 연구·금융 기관의 서로 다른 정의가 AI 인프라 지출 추정치를 크게 벌려놓고 있다는 분석이다.",
+        "what": "이 비교 분석은 가트너, IDC, 델오로, 골드만삭스 등 12개 연구·금융 기관의 전망을 살펴보며, 서로 다른 정의가 AI 인프라 지출 추정치를 크게 벌려놓는 과정을 설명한다. 이런 전망들을 하이퍼스케일러 예산, 전력 가용성, 그리고 투자 확대를 정당화하는 데 필요한 매출 규모와 연결짓는다.",
+        "points": [
+          "비교 대상: 가트너, IDC, 델오로, 골드만삭스 등 12개 기관",
+          "원인: 지출 범위에 대한 서로 다른 정의",
+          "연결 요소: 하이퍼스케일러 예산, 전력 가용성, 필요 매출"
+        ],
+        "why": [
+          "AI 붐의 규모를 둘러싼 숫자 논쟁 자체가 하나의 이야기가 된 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-claude-duet-intro",
+      "title": "Anthropic, 독립 실행형 에이전트 앱 'Claude Duet' 리서치 프리뷰 공개",
+      "summary": "Claude Duet은 Opus 5.5 기반으로 백그라운드에서 독립 작동하며 업무를 처리하는 프로액티브 에이전트 앱이다.",
+      "source": "Claude",
+      "url": "https://claude.com/resources/articles/claude-duet?utm_source=tldrit",
+      "report": {
+        "tldr": "Claude Duet은 Opus 5.5 기반으로 백그라운드에서 독립 작동하며 업무를 처리하는 프로액티브 에이전트 앱이다.",
+        "what": "Anthropic이 전문직·소규모 사업자를 위한 프로액티브 에이전트 앱 'Claude Duet' 리서치 프리뷰를 발표했다. Claude Opus 5.5 기반으로 자체 브라우저를 가진 가상머신에서 백그라운드에 독립적으로 작동하며 업무 관리, 일일 브리핑 발송, 연동 앱 모니터링을 수행한다. 사용자를 대신해 행동하기 전에 민감 정보를 보호하는 보안 프레임워크와 안전 분류기도 포함돼 있다.",
+        "points": [
+          "기반 모델: Claude Opus 5.5",
+          "작동 방식: 자체 브라우저 포함 가상머신에서 백그라운드 독립 실행",
+          "기능: 업무 관리, 일일 브리핑, 연동 앱 모니터링",
+          "보호 장치: 보안 프레임워크, 안전 분류기"
+        ],
+        "why": [
+          "독립적으로 작업을 수행하는 '프로액티브' 에이전트 앱 경쟁의 신호탄"
+        ]
+      }
+    },
+    {
+      "id": "it-servicenow-nvidia-arc-agent",
+      "title": "서비스나우·NVIDIA, 엔터프라이즈용 개인 AI 에이전트 'Arc' 출시",
+      "summary": "Arc는 NVIDIA RTX Spark 기기나 OpenShell에서 로컬로 실행되는 장기 실행 개인 AI 에이전트다.",
+      "source": "ZDNet",
+      "url": "https://www.zdnet.com/innovation/exclusive-servicenow-and-nvidia-launch-arc-a-new-ai-agent-for-enterprise/?utm_source=tldrit",
+      "report": {
+        "tldr": "Arc는 NVIDIA RTX Spark 기기나 OpenShell에서 로컬로 실행되는 장기 실행 개인 AI 에이전트다.",
+        "what": "서비스나우와 NVIDIA가 엔터프라이즈용 장기 실행 개인 AI 에이전트 Arc를 출시했다. NVIDIA RTX Spark 기기나 NVIDIA OpenShell 내에서 로컬로 실행되도록 설계됐으며 이메일, 마이크로소프트 팀즈 같은 생산성 도구로 일상 업무를 돕는다. 양사는 서비스나우의 Super Intelligence Control Tower, NVIDIA OpenShell, AI Passport를 활용한 다단계 보안 프레임워크로 런타임·하드웨어 계층 정책을 적용하고 에이전트 권한을 관리한다고 강조한다.",
+        "points": [
+          "실행 환경: NVIDIA RTX Spark 기기 또는 NVIDIA OpenShell(로컬)",
+          "용도: 이메일·팀즈 등 일상 업무 보조",
+          "보안: Super Intelligence Control Tower + OpenShell + AI Passport 다단계 프레임워크"
+        ],
+        "why": [
+          "로컬 실행 기반 엔터프라이즈 에이전트가 늘어나는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "it-entra-id-ending-sms-auth",
+      "title": "마이크로소프트, Entra ID SMS 인증 종료 발표(IT 운영 관점)",
+      "summary": "2026년 10월 30일부터 조직은 서드파티 텔레포니 제공업체를 선택할 수 있으며, 마이크로소프트는 패스키 전환을 권고한다.",
+      "source": "Neowin",
+      "url": "https://www.neowin.net/news/microsoft-entra-id-ending-native-sms-authentication-pushing-users-to-passkeys/?utm_source=tldrit",
+      "report": {
+        "tldr": "2026년 10월 30일부터 조직은 서드파티 텔레포니 제공업체를 선택할 수 있으며, 마이크로소프트는 패스키 전환을 권고한다.",
+        "what": "마이크로소프트가 대부분 고객에 대해 2027년 2월 1일(글로벌 관리자·외부 사용자는 2027년 7월 1일) Entra ID의 네이티브 SMS·음성 인증을 종료한다고 발표했다. 10월 30일부터 조직은 마이크로소프트 시큐리티 스토어를 통해 서드파티 텔레포니 제공업체를 선택할 수 있다. 마이크로소프트는 텔레포니 기반 인증 대신 피싱에 강한 패스키로 전환할 것을 권고한다.",
+        "points": [
+          "종료일: 2027년 2월 1일(일부 2027년 7월 1일)",
+          "전환 시작: 2026년 10월 30일부터 서드파티 텔레포니 선택 가능",
+          "권고: 패스키로 전환"
+        ]
+      }
+    },
+    {
+      "id": "it-crusoe-paraguay-hydropower-compute",
+      "title": "크루소, 파라과이 이타이푸 수력발전으로 AI 컴퓨트 확대",
+      "summary": "크루소와 아라이코가 이타이푸 수력댐 전력을 활용한 AI 클라우드 인프라를 2027년 중반 초기 가동 목표로 추진한다.",
+      "source": "Crusoe Newsroom",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-araico-hydroelectric-ai-infrastructure-partnership?utm_source=tldrit",
+      "report": {
+        "tldr": "크루소와 아라이코가 이타이푸 수력댐 전력을 활용한 AI 클라우드 인프라를 2027년 중반 초기 가동 목표로 추진한다.",
+        "what": "크루소와 아라이코가 파라과이 이타이푸 수력발전 댐 전력을 활용한 AI 클라우드 인프라 구축을 계획하며, 2027년 중반 초기 가동을 목표로 한다. 이 프로젝트는 최대 106MW IT 용량까지 확장할 경로를 갖고 있으며 미국 고객과 중남미 전역 수요를 함께 서비스할 예정이다.",
+        "points": [
+          "파트너: 크루소, 아라이코",
+          "전력원: 이타이푸 수력발전 댐",
+          "초기 가동: 2027년 중반 목표",
+          "확장 경로: 최대 106MW IT 용량"
+        ],
+        "why": [
+          "저전력비용 지역으로 AI 데이터센터가 확산되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "it-amazon-madpot-php2shell-detection",
+      "title": "아마존 위협 인텔리전스, PHP2Shell 공개 전부터 악용 포착",
+      "summary": "아마존이 자사 MadPot 허니포트로 PHP2Shell 악용을 공개 발표 이전부터 식별했다고 밝혔다.",
+      "source": "AWS Security Blog",
+      "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/?utm_source=tldrit",
+      "report": {
+        "tldr": "아마존이 자사 MadPot 허니포트로 PHP2Shell 악용을 공개 발표 이전부터 식별했다고 밝혔다.",
+        "what": "아마존은 MadPot 허니포트 시스템을 통해 PHP2Shell 취약점의 악용을 공개 발표 이전부터 식별했다고 밝혔다. 보안팀에 완화 시한을 '일' 단위가 아닌 '시간' 단위로 측정하고, 알려진 가장 초기 악용 시점부터 조사를 시작하며, 시그니처에 의존하지 않는 탐지에 투자하라고 권고한다.",
+        "points": [
+          "탐지 수단: 아마존 MadPot 허니포트",
+          "특징: 공개 발표 이전 악용 포착",
+          "권고: 완화 시한을 시간 단위로, 최초 악용일부터 조사, 시그니처 독립적 탐지 투자"
+        ],
+        "action": "완화 조치는 시간 단위로 측정하고 시그니처 독립적 탐지에 투자할 것"
+      }
+    },
+    {
+      "id": "it-github-copilot-global-defaults",
+      "title": "깃허브, 코파일럿 전역 기본값 적용 시작",
+      "summary": "깃허브가 10월 26일까지 조직의 전역 기본 정책에 따라 설정되지 않은 코파일럿 기능을 일괄 적용한다.",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-22-global-default-for-copilot-features-generally-available/?utm_source=tldrit",
+      "report": {
+        "tldr": "깃허브가 10월 26일까지 조직의 전역 기본 정책에 따라 설정되지 않은 코파일럿 기능을 일괄 적용한다.",
+        "what": "깃허브는 10월 26일까지, 자격이 있으면서 아직 설정되지 않은 코파일럿 기능을 조직의 전역 기본 정책에 맞춰 적용하는 롤아웃을 진행한다. 관리자가 명시적으로 선택한 설정은 그대로 유지된다.",
+        "points": [
+          "적용 기한: 10월 26일까지",
+          "적용 대상: 자격 있고 미설정된 코파일럿 기능",
+          "원칙: 관리자 명시적 선택은 유지"
+        ]
+      }
+    }
+  ]
+}

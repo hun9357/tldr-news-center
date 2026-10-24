@@ -1,0 +1,206 @@
+{
+  "name": "데브옵스",
+  "source": "TLDR DevOps",
+  "icon": "⚙️",
+  "color": "#79e0d0",
+  "bg": "#103029",
+  "items": [
+    {
+      "id": "devops-harness-ai-budgets-launch",
+      "title": "하네스, AI 비용 정책을 강제 주간 지출 한도로 전환",
+      "summary": "100% 도달 시 접근이 중단되며, 내부 테스트에서 개발자당 주간 AI 지출이 약 37% 줄었다.",
+      "source": "Harness Blog",
+      "url": "https://www.harness.io/blog/introducing-ai-budgets?utm_source=tldrdevops",
+      "report": {
+        "tldr": "100% 도달 시 접근이 중단되며, 내부 테스트에서 개발자당 주간 AI 지출이 약 37% 줄었다.",
+        "what": "하네스 AI 버짓은 팀, 개발자, 모델, 프로젝트 단위로 범위를 지정한 강제 주간 지출 한도로 AI 비용 정책을 전환한다. 100%에 도달하면 주간 리셋이나 승인된 증액 전까지 접근이 중단된다. 하네스 내부 테스트에서 개발자당 주간 AI 지출이 약 37% 줄었다.",
+        "points": [
+          "기능: 팀/개발자/모델/프로젝트별 주간 지출 한도 강제",
+          "도달 시: 리셋 또는 승인된 증액까지 접근 중단",
+          "내부 테스트 결과: 개발자당 주간 지출 약 37% 감소"
+        ]
+      }
+    },
+    {
+      "id": "devops-observabilitycon-2026-grafana-announcements",
+      "title": "ObservabilityCon 2026, 그라파나 랩스 발표 총정리",
+      "summary": "Assistant Watchers가 정식 출시됐고 Adaptive Telemetry 고객은 평균 30~50% 비용을 줄였다.",
+      "source": "Grafana Blog",
+      "url": "https://grafana.com/blog/observabilitycon-2026-announcements/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "Assistant Watchers가 정식 출시됐고 Adaptive Telemetry 고객은 평균 30~50% 비용을 줄였다.",
+        "what": "그라파나 랩스가 AI 운영, 비용 통제, 풀스택 컨텍스트를 아우르는 그라파나 클라우드 업데이트를 발표했다. Assistant Watchers가 정식 출시(GA)됐고, Adaptive Telemetry 고객들은 평균 30~50%의 비용 절감을 보고했으며, 30개 이상의 플러그인을 갖춘 그라파나 마켓플레이스도 함께 출범했다.",
+        "points": [
+          "GA 전환: Assistant Watchers",
+          "비용 절감: Adaptive Telemetry 고객 평균 30~50%",
+          "신규 출범: 30개+ 플러그인을 갖춘 그라파나 마켓플레이스"
+        ]
+      }
+    },
+    {
+      "id": "devops-php-rce-critical-patch-now",
+      "title": "치명적 PHP RCE 취약점, 지금 당장 패치해야",
+      "summary": "CVE-2026-109618·109619는 PHP 5 이후 모든 버전에 영향을 주며 PoC 익스플로잇 코드까지 공개됐다.",
+      "source": "DigitalOcean Blog",
+      "url": "https://www.digitalocean.com/blog/critical-php-rce-vulnerabilities-patch-now?utm_source=tldrdevops",
+      "report": {
+        "tldr": "CVE-2026-109618·109619는 PHP 5 이후 모든 버전에 영향을 주며 PoC 익스플로잇 코드까지 공개됐다.",
+        "what": "10월 21일 공개된 두 건의 치명적 원격코드실행 취약점 CVE-2026-109618·CVE-2026-109619는 PHP 5 이후 모든 버전에 영향을 준다. PoC 익스플로잇 코드가 공개돼 있다. 디지털오션은 Cloudways 매니지드 상품의 워드프레스 인스턴스를 자동 패치하지만, Droplets나 다른 비관리형 서비스에서 PHP를 운영하는 고객은 즉시 PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12로 업데이트해야 한다. PHP 8.1 이하에는 패치가 없다.",
+        "points": [
+          "취약점: CVE-2026-109618, CVE-2026-109619",
+          "영향 범위: PHP 5 이후 전 버전",
+          "공개: 10월 21일, PoC 익스플로잇 존재",
+          "필수 업데이트 버전: 8.2.35 / 8.3.36 / 8.4.27 / 8.5.12",
+          "패치 없음: PHP 8.1 이하"
+        ],
+        "action": "비관리형 환경의 PHP는 지금 즉시 패치 버전으로 올릴 것"
+      }
+    },
+    {
+      "id": "devops-dora-ai-amplifier-presentation",
+      "title": "DORA: \"AI는 증폭기다, 고성과를 확장하거나 역기능을 확장한다\"",
+      "summary": "구글 클라우드 DORA팀이 거의 5,000명 응답자의 2025년 설문 결과와 DORA AI 역량 모델을 발표했다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/presentations/dora-ai-adoption-engineering-performance/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "구글 클라우드 DORA팀이 거의 5,000명 응답자의 2025년 설문 결과와 DORA AI 역량 모델을 발표했다.",
+        "what": "구글 클라우드 DORA팀의 네이슨 하비가 거의 5,000명(약 90%가 업무상 AI 사용)의 2025년 설문 결과를 발표했다. AI는 조직이 이미 가진 강점과 역기능을 그대로 증폭한다고 주장하며, DORA AI 역량 모델을 소개했다.",
+        "points": [
+          "설문 대상: 약 5,000명(약 90% 업무상 AI 사용)",
+          "핵심 주장: AI는 기존 강점·역기능을 증폭",
+          "발표: DORA AI 역량 모델"
+        ]
+      }
+    },
+    {
+      "id": "devops-scaling-gitops-release-promotion",
+      "title": "릴리스 프로모션으로 GitOps 확장하기",
+      "summary": "게이트 없이 모든 머지를 전체 클러스터에 동기화하던 200여 클러스터 환경의 개선 방안이다.",
+      "source": "Cloud Native Now",
+      "url": "https://cloudnativenow.com/contributed-content/scaling-gitops-with-release-promotion/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "게이트 없이 모든 머지를 전체 클러스터에 동기화하던 200여 클러스터 환경의 개선 방안이다.",
+        "what": "아큐이티의 제시 수엔은 게이트 없이 모든 머지가 모든 곳에 동기화되던 200개 이상의 클러스터 플릿을 설명한다. 동기화 도구는 릴리스 추적이나 프로모션 결정을 다루지 못한다고 주장하며, 단계적으로 웨이브별 롤아웃을 하고 실패한 체크에서 멈추는 단계적 프로모션을 권장한다.",
+        "points": [
+          "환경 규모: 클러스터 200개 이상",
+          "기존 문제: 게이트 없는 전체 동기화",
+          "권장안: 웨이브별 단계적 프로모션, 실패 시 중단"
+        ]
+      }
+    },
+    {
+      "id": "devops-dont-trust-on-delete-cascade",
+      "title": "'온 딜리트 캐스케이드'를 믿지 않는 이유",
+      "summary": "대규모 캐스케이드 삭제가 마이그레이션 중 락을 쥔 채 대기해 장애로 이어질 수 있다는 경고다.",
+      "source": "PlanetScale Blog",
+      "url": "https://planetscale.com/blog/i-dont-like-delete-cascade?utm_source=tldrdevops",
+      "report": {
+        "tldr": "대규모 캐스케이드 삭제가 마이그레이션 중 락을 쥔 채 대기해 장애로 이어질 수 있다는 경고다.",
+        "what": "대규모 캐스케이드 삭제는 평범한 스키마 마이그레이션을 장애로 바꿔놓을 수 있는데, 마이그레이션이 락을 쥔 채 대기하는 동안 새 쿼리들이 그 뒤에 쌓이기 때문이다. 소프트 삭제 후 범위를 제한한 백그라운드 정리 작업을 쓰면 트랜잭션을 더 작게 유지할 수 있으며, 인덱스 없는 외래키나 논리적 복제와 관련한 추가 함정도 있다.",
+        "points": [
+          "위험: 캐스케이드 삭제가 락을 쥔 채 대기 → 쿼리 적체 → 장애",
+          "대안: 소프트 삭제 + 범위 제한된 백그라운드 정리",
+          "추가 함정: 인덱스 없는 외래키, 논리적 복제"
+        ]
+      }
+    },
+    {
+      "id": "devops-claude-how-to-github-guide",
+      "title": "Claude Code 활용법 10개 모듈로 정리한 'claude-how-to'",
+      "summary": "슬래시 커맨드, 훅, 스킬, MCP 서버를 다루며 복붙 가능한 템플릿과 자가진단 퀴즈를 제공한다.",
+      "source": "GitHub",
+      "url": "https://github.com/luongnv89/claude-howto?utm_source=tldrdevops",
+      "report": {
+        "tldr": "슬래시 커맨드, 훅, 스킬, MCP 서버를 다루며 복붙 가능한 템플릿과 자가진단 퀴즈를 제공한다.",
+        "what": "MIT 라이선스의 이 가이드는 슬래시 커맨드, 훅, 스킬, MCP 서버를 다루는 10개 모듈로 Claude Code 사용법을 가르친다. 사용자는 템플릿을 프로젝트에 바로 복사하거나 자가진단 퀴즈를 따라 맞춤형 로드맵을 받을 수 있다. 현재 버전 v2.1.302는 Claude Code 2.1+와 호환되며 Claude Opus 5.5, Claude Sonnet 5.5를 포함한 모델용 복붙 템플릿을 담고 있다.",
+        "points": [
+          "라이선스: MIT",
+          "구성: 10개 모듈(슬래시 커맨드/훅/스킬/MCP)",
+          "버전: v2.1.302(Claude Code 2.1+ 호환)",
+          "포함: Claude Opus 5.5, Claude Sonnet 5.5용 템플릿"
+        ]
+      }
+    },
+    {
+      "id": "devops-github-actions-workflow-lockfiles",
+      "title": "깃허브 액션 워크플로 락파일, 퍼블릭 프리뷰 시작",
+      "summary": "액션과 전이 종속성을 리뷰된 커밋에 고정하면서 워크플로 파일의 읽기 쉬운 태그는 유지한다.",
+      "source": "GitHub Changelog",
+      "url": "https://github.blog/changelog/2026-10-14-github-actions-workflow-lockfiles-in-public-preview/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "액션과 전이 종속성을 리뷰된 커밋에 고정하면서 워크플로 파일의 읽기 쉬운 태그는 유지한다.",
+        "what": "깃허브 액션 워크플로 락파일은 액션과 그 전이 종속성을 리뷰된 커밋에 고정하면서도 워크플로 파일 안의 읽기 쉬운 태그는 그대로 유지한다. 퍼블릭 프리뷰에는 락파일을 생성하는 깃허브 CLI 확장, 이를 갱신하는 Dependabot 연동, 워크플로가 락파일을 쓰도록 요구하는 정책이 포함된다.",
+        "points": [
+          "목적: 액션·전이 종속성을 리뷰된 커밋에 고정",
+          "포함: CLI 확장(생성), Dependabot 연동(갱신), 강제 정책"
+        ]
+      }
+    },
+    {
+      "id": "devops-ai-sre-context-evaluation",
+      "title": "AI SRE 평가 전, 기존 에이전트에 컨텍스트부터 줘보라",
+      "summary": "컨텍스트를 더한 에이전트는 50개 장애 시나리오 중 86%에서 2분 내 정확히 진단했다.",
+      "source": "CNCF Blog",
+      "url": "https://www.cncf.io/blog/2026/10/21/before-you-evaluate-an-ai-sre-give-your-existing-agent-context/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "컨텍스트를 더한 에이전트는 50개 장애 시나리오 중 86%에서 2분 내 정확히 진단했다.",
+        "what": "레이더의 엔지니어들은 코딩 에이전트에 컨텍스트를 추가하는 것이 쿠버네티스 진단을 개선하는지 테스트했다. 50개 장애 시나리오를 돌린 결과, 컨텍스트를 더한 에이전트는 86%의 장애에서 2분 내 정확한 진단에 도달했고, 표준 셸만 쓴 에이전트는 60%에 그쳤다. 정확도는 컨텍스트로 소폭만 개선됐지만 시간 절감은 상당했다. 테스트는 Claude Code와 마이크로소프트의 SREGym 벤치마크를 실제 아마존 EKS 클러스터에서 사용했다.",
+        "points": [
+          "장애 시나리오: 50개",
+          "컨텍스트 추가 에이전트: 86%가 2분 내 정확 진단",
+          "표준 셸 에이전트: 60%",
+          "테스트 도구: Claude Code + 마이크로소프트 SREGym, 실제 Amazon EKS 클러스터"
+        ]
+      }
+    },
+    {
+      "id": "devops-emudhra-certificates-compromised",
+      "title": "eMudhra 인증서 8종 유출…무엇을 알아야 하나",
+      "summary": "10월 19일 유출된 중간 인증서 개인키로 공격자가 임의 도메인의 인증서를 위조할 수 있게 됐다.",
+      "source": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/emudhra-certificate-compromise/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "10월 19일 유출된 중간 인증서 개인키로 공격자가 임의 도메인의 인증서를 위조할 수 있게 됐다.",
+        "what": "10월 19일, 널리 신뢰받는 eMudhra 중간 인증서 8종의 개인키가 유출돼 공격자가 임의 도메인의 인증서를 위조할 수 있게 됐다. 클라우드플레어는 CDN, Zero Trust, Tunnel 제품에 패치를 적용했다. 고객들은 보호를 유지하려면 Cloudflare One Client와 1.1.1.1 앱을 특정 버전으로 업데이트해야 한다.",
+        "points": [
+          "유출일: 10월 19일",
+          "유출 대상: eMudhra 중간 인증서 8종 개인키",
+          "위험: 임의 도메인 인증서 위조 가능",
+          "클라우드플레어 대응: CDN/Zero Trust/Tunnel 패치"
+        ],
+        "action": "Cloudflare One Client와 1.1.1.1 앱을 지정된 버전으로 즉시 업데이트할 것"
+      }
+    },
+    {
+      "id": "devops-github-actions-runner-controller-0-15",
+      "title": "깃허브 액션 러너 컨트롤러 0.15.0, 대규모 안정성 강화",
+      "summary": "더 작은 패치 요청을 보내고 러너 상태 집계를 메트릭으로 옮겨 쿠버네티스 API 업데이트를 줄인다.",
+      "source": "InfoQ",
+      "url": "https://www.infoq.com/news/2026/10/github-runner-controller-0-15/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "더 작은 패치 요청을 보내고 러너 상태 집계를 메트릭으로 옮겨 쿠버네티스 API 업데이트를 줄인다.",
+        "what": "깃허브가 Actions Runner Controller 0.15.0을 출시했다. 더 작은 패치 요청을 보내고 러너 상태 집계를 메트릭으로 옮겨 쿠버네티스 API 업데이트를 줄인다.",
+        "points": [
+          "버전: 0.15.0",
+          "개선: 더 작은 패치 요청",
+          "개선: 러너 상태 집계를 메트릭으로 이동 → API 업데이트 감소"
+        ]
+      }
+    },
+    {
+      "id": "devops-pulumi-aicr-provider-launch",
+      "title": "풀루미, NVIDIA AICR 프로바이더로 AI 인프라 '구독형'으로",
+      "summary": "개발자가 자체 호스팅 AI 인프라를 배포하도록 돕는 NVIDIA AI 클러스터 런타임 프로바이더가 나왔다.",
+      "source": "Pulumi Blog",
+      "url": "https://www.pulumi.com/blog/self-hosted-ai-infrastructure-pulumi-aicr/?utm_source=tldrdevops",
+      "report": {
+        "tldr": "개발자가 자체 호스팅 AI 인프라를 배포하도록 돕는 NVIDIA AI 클러스터 런타임 프로바이더가 나왔다.",
+        "what": "풀루미가 개발자들이 자체 호스팅 AI 인프라를 배포하도록 돕는 NVIDIA AI Cluster Runtime(AICR) 프로바이더를 출시했다.",
+        "points": [
+          "제품: NVIDIA AICR 프로바이더",
+          "목적: 자체 호스팅 AI 인프라 배포 지원"
+        ]
+      }
+    }
+  ]
+}

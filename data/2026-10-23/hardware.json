@@ -1,0 +1,229 @@
+{
+  "name": "하드웨어",
+  "source": "TLDR Hardware",
+  "icon": "🔧",
+  "color": "#9fb8d9",
+  "bg": "#1e2733",
+  "items": [
+    {
+      "id": "hardware-agility-digit5-nvidia-nasdaq",
+      "title": "어질리티 로보틱스, Digit 5 전량에 NVIDIA 탑재…나스닥 상장 추진",
+      "summary": "어질리티 로보틱스가 범용판 Digit 5 휴머노이드의 전용 온보드 컴퓨터로 NVIDIA IGX Thor를 채택하고 나스닥 상장을 추진한다.",
+      "source": "TheNextWeb",
+      "url": "https://thenextweb.com/news/agility-robotics-digit-5-nvidia-igx-thor?utm_source=tldrhardware",
+      "report": {
+        "tldr": "어질리티 로보틱스가 범용판 Digit 5 휴머노이드의 전용 온보드 컴퓨터로 NVIDIA IGX Thor를 채택하고 나스닥 상장을 추진한다.",
+        "what": "어질리티 로보틱스가 범용 판매용 Digit 5의 전용 온보드 컴퓨터로 NVIDIA IGX Thor 모듈을 채택했다. 2027년 상반기부터 얼리 액세스를 시작하며, NVIDIA의 안전 플랫폼 Halos 일부도 도입해 Digit의 안전 소프트웨어를 외부 인증 전에 자체 검사한다. 어질리티는 Digit 5에 대해 다년 계약 기준 $3억 이상의 주문, 신규 고객 4곳, 피츠버그 신규 거점을 보고하며 처칠 캐피털 코프 XI와의 합병을 통한 나스닥 상장을 준비 중이다.",
+        "points": [
+          "온보드 컴퓨터: NVIDIA IGX Thor(독점)",
+          "얼리 액세스: 2027년 상반기",
+          "다년 주문: $3억 이상",
+          "신규 고객 4곳, 피츠버그 신규 거점",
+          "상장 경로: 처칠 캐피털 코프 XI와 합병"
+        ],
+        "why": [
+          "휴머노이드 로봇 상용화와 반도체·안전 플랫폼 결합이 동시에 진행되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "hardware-intel-cto-chip-output-dwarkesh",
+      "title": "인텔 CTO \"장비로는 첨단 칩 생산량 2배가 한계\"…AI 수요는 연 3배",
+      "summary": "드워케시 파텔의 인텔 팹 투어·인터뷰에서 CTO 푸슈카르 라나데가 첨단 공정 장비 한계와 기술 로드맵을 설명했다.",
+      "source": "Dwarkesh Podcast",
+      "url": "https://www.dwarkesh.com/p/intel-tour?utm_source=tldrhardware",
+      "report": {
+        "tldr": "드워케시 파텔의 인텔 팹 투어·인터뷰에서 CTO 푸슈카르 라나데가 첨단 공정 장비 한계와 기술 로드맵을 설명했다.",
+        "what": "드워케시 파텔이 인텔 팹을 둘러보고 경영진을 인터뷰했다. CTO 푸슈카르 라나데는 현재 장비로는 첨단 공정 생산량을 대략 2배까지만 늘릴 수 있을 뿐 10배는 불가능하다고 말했다. 백사이드 파워 덕분에 인텔 14A는 단일 High-NA 패스로 프린트할 수 있는 반면 TSMC는 여전히 더블 패터닝 EUV가 필요하다. 루테늄 배선, CFET 종횡비·발열 문제, 0.45마이크론으로 좁아지는 하이브리드 본딩 피치, 테라팹 파트너십도 논의됐다.",
+        "points": [
+          "장비 한계: 첨단 공정 생산량 최대 2배 증설(AI 수요는 연 3배 성장)",
+          "인텔 14A: 백사이드 파워로 단일 High-NA 패스 프린트 가능",
+          "TSMC: 여전히 더블 패터닝 EUV 필요",
+          "~20nm 피치 이하 루테늄 배선, CFET 종횡비·발열 과제",
+          "하이브리드 본딩 피치 0.45마이크론대로 축소 중"
+        ],
+        "why": [
+          "반도체 공급이 AI 수요 증가 속도를 따라가지 못할 수 있다는 구조적 경고"
+        ]
+      }
+    },
+    {
+      "id": "hardware-regent-viceroy-seaglider",
+      "title": "전기 시글라이더, 2028년 더 빠른 해안 이동 약속",
+      "summary": "리젠트의 Viceroy 시글라이더가 유인 비행에 성공한 최대 규모 지면효과 전기 비행정으로, 상업 생산을 2027년 말로 계획 중이다.",
+      "source": "IEEE Spectrum",
+      "url": "https://spectrum.ieee.org/ground-effect-vehicle?utm_source=tldrhardware",
+      "report": {
+        "tldr": "리젠트의 Viceroy 시글라이더가 유인 비행에 성공한 최대 규모 지면효과 전기 비행정으로, 상업 생산을 2027년 말로 계획 중이다.",
+        "what": "리젠트의 Viceroy 시글라이더는 사람을 태우고 비행한 지면효과 전기 비행정 중 가장 큰 기체로, 9월 2일 첫 비행에서 수면 위 약 10m 높이로 30초간 596m를 비행했다. 16.8m 길이 기체는 최대 290km/h로 승객 12명을 태우고 290km를 운항할 수 있으며, 미국 법상 해양 선박으로 분류돼 eVTOL이 겪는 FAA 인증 지연 문제를 피해간다. 리젠트는 $3.4억 이상을 조달했고 $100억 규모 주문 잔량을 보유했다고 주장하며, 2027년 말 상업 생산을 계획 중이다.",
+        "points": [
+          "첫 비행: 9월 2일, 596m / 30초 / 고도 약 10m",
+          "기체: 16.8m, 승객 12명, 최대 290km/h, 항속 290km",
+          "법적 분류: 해양 선박(FAA eVTOL 인증 회피)",
+          "누적 투자: $3.4억 이상",
+          "주장하는 주문 잔량: $100억"
+        ],
+        "why": [
+          "eVTOL 인증 지연을 피해가는 대안 항공 모빌리티 전략"
+        ]
+      }
+    },
+    {
+      "id": "hardware-brookhaven-superconducting-fusion-chip",
+      "title": "핵융합 플라즈마 제어 위한 초전도 칩 공개",
+      "summary": "브룩헤이븐 국립연구소가 신경모방 신경망으로 플라즈마 불안정 조짐을 실시간 포착하는 초전도 칩을 선보였다.",
+      "source": "Scientific American",
+      "url": "https://www.scientificamerican.com/article/new-superconducting-chip-aims-to-help-tame-fusion-plasma/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "브룩헤이븐 국립연구소가 신경모방 신경망으로 플라즈마 불안정 조짐을 실시간 포착하는 초전도 칩을 선보였다.",
+        "what": "브룩헤이븐 국립연구소가 미국 에너지부 산하 다른 시설들, AI 하드웨어 스타트업 Great Sky와 함께 플라즈마를 실시간 모니터링하는 초전도 칩을 공개했다. 이 칩은 초고온 플라즈마가 불안정해지려는 조짐을 포착하도록 설계된 신경모방 신경망을 구동한다. 개발진은 이 하드웨어가 붕괴가 발생하기 전에 플라즈마를 제어하는 데 충분히 빠르길 기대하는데, 이는 실용적 핵융합 발전의 전제조건이다.",
+        "points": [
+          "개발: 브룩헤이븐 국립연구소 + 에너지부 산하 시설 + Great Sky",
+          "기술: 신경모방 신경망 기반 실시간 플라즈마 모니터링",
+          "목표: 불안정 조짐을 붕괴 전에 포착"
+        ],
+        "why": [
+          "핵융합 상용화를 가로막는 플라즈마 제어 난제에 AI 하드웨어가 투입되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "hardware-nvidia-cosmos-world-simulation",
+      "title": "NVIDIA Cosmos, 피지컬 AI용 실시간 월드 시뮬레이션 지원",
+      "summary": "NVIDIA Cosmos 3가 실시간·상호작용형 월드 시뮬레이션을 지원하는 신규 모델들을 선보였다.",
+      "source": "NVIDIA Research",
+      "url": "https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/?utm_source=tldrhardware",
+      "report": {
+        "tldr": "NVIDIA Cosmos 3가 실시간·상호작용형 월드 시뮬레이션을 지원하는 신규 모델들을 선보였다.",
+        "what": "NVIDIA Cosmos 3는 Cosmos3-Nano-Sim-Bimanual, -Transfer, -Auto 등의 모델을 통해 실시간·상호작용형 월드 시뮬레이션을 지원한다. 행동 조건부 동역학, 고품질 시각 출력을 위한 공간 제어, 자율주행 등 작업을 위한 멀티뷰 동기화 영상을 지원하며, 깊이·엣지·영상 품질 지표에서 기존 벤치마크를 넘어선다.",
+        "points": [
+          "모델: Cosmos3-Nano-Sim-Bimanual / -Transfer / -Auto",
+          "지원: 행동 조건부 동역학, 공간 제어, 멀티뷰 동기화 영상",
+          "성능: 깊이·엣지·영상 품질 지표에서 벤치마크 상회"
+        ],
+        "why": [
+          "로보틱스·자율주행 학습용 시뮬레이션 인프라 경쟁이 가속되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "hardware-commerce-389m-power-semiconductors",
+      "title": "美 상무부, 전력반도체에 $3.89억 투입하며 정부 지분 확보",
+      "summary": "상무부가 헬리온·CFS·버티컬 세미컨덕터·시벨코 등에 전력반도체 지원금을 지급하며 지분을 받는다.",
+      "source": "TLDR Newsletter Link",
+      "url": "https://links.tldrnewsletter.com/itocfG",
+      "report": {
+        "tldr": "상무부가 헬리온·CFS·버티컬 세미컨덕터·시벨코 등에 전력반도체 지원금을 지급하며 지분을 받는다.",
+        "what": "상무부가 4건의 지원을 계획 중이다: 헬리온의 핵융합용 고전압 전력반도체·모듈에 최대 $1.75억, 커먼웰스 퓨전 시스템스의 플라즈마 가열·내방사선 전자장비에 $8,500만, 버티컬 세미컨덕터의 AI 랙용 수직형 질화갈륨 소자에 $7,300만을 배정한다. 시벨코는 초고순도 석영 정제에 $5,600만을 받는다.",
+        "points": [
+          "헬리온: 최대 $1.75억(핵융합용 전력반도체)",
+          "커먼웰스 퓨전 시스템스: $8,500만(플라즈마 가열·전자장비)",
+          "버티컬 세미컨덕터: $7,300만(AI 랙용 질화갈륨)",
+          "시벨코: $5,600만(초고순도 석영)",
+          "방식: 지원금 대신 정부 지분 확보"
+        ],
+        "why": [
+          "정부가 지분을 받는 형태로 전력반도체·핵융합 공급망에 직접 개입하는 사례"
+        ]
+      }
+    },
+    {
+      "id": "hardware-spacex-boring-co-gain",
+      "title": "스페이스X, 보링컴퍼니 지분에서 $5.61억 미실현 이익 인식",
+      "summary": "스페이스X가 보링컴퍼니 소수지분 가치 상승으로 3분기에 $5.61억의 비현금 이익을 기록했다.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/22/spacex-records-561-million-investment-gain-from-stake-in-boring-co.html?utm_source=tldrhardware",
+      "report": {
+        "tldr": "스페이스X가 보링컴퍼니 소수지분 가치 상승으로 3분기에 $5.61억의 비현금 이익을 기록했다.",
+        "what": "스페이스X가 보링컴퍼니 소수지분에서 3분기에 $5.61억의 비현금 이익을 기록했으며, 이는 '기타 수익'의 절반 이상을 차지해 순이익을 $40억 조금 넘는 수준으로 끌어올렸다. 이번 가치 상승은 보링컴퍼니가 지난달 UAE 투자자 지원으로 $230억 밸류에이션에 $30억을 조달한 데 따른 것이다. 보링컴퍼니는 2017년 스페이스X 내부에서 시작해 1년 뒤 분사했다.",
+        "points": [
+          "스페이스X 3분기 비현금 이익: $5.61억(보링컴퍼니 지분)",
+          "스페이스X 3분기 순이익: 약 $40억 이상",
+          "계기: 보링컴퍼니 $30억 조달, 밸류에이션 $230억",
+          "보링컴퍼니: 2017년 스페이스X 내부 시작, 1년 뒤 분사"
+        ],
+        "why": [
+          "머스크 계열사 간 지분 가치가 서로의 실적에 영향을 주는 구조"
+        ]
+      }
+    },
+    {
+      "id": "hardware-apple-iphone-duo-foldable-launch",
+      "title": "$1,999 아이폰 듀오 폴더블, 첫 고객 손에…재고 빠듯",
+      "summary": "애플의 $1,999 폴더블 아이폰 듀오가 호주·뉴질랜드에서 첫 고객에게 전달되며 출시 첫날 품절이 예상된다.",
+      "source": "MacRumors",
+      "url": "https://www.macrumors.com/2026/10/22/iphone-duo-australia-launch?utm_source=tldrhardware",
+      "report": {
+        "tldr": "애플의 $1,999 폴더블 아이폰 듀오가 호주·뉴질랜드에서 첫 고객에게 전달되며 출시 첫날 품절이 예상된다.",
+        "what": "$1,999 아이폰 듀오가 호주·뉴질랜드 첫 고객들에게 도착했고, 출시는 아시아, 중동, 유럽, 북미 순으로 확대된다. 초기 사용자들은 매트 처리된 7.6인치 내부 디스플레이와 거의 보이지 않는 접힘선을 호평했으며, 화면 아래 카메라가 간혹 보인다는 점과 Face ID 대신 Touch ID가 탑재된 점을 지적했다. 애플은 출시 첫날 품절을 예상하며, 온라인 배송 예상일은 1월 25일로 늦춰졌다.",
+        "points": [
+          "가격: $1,999",
+          "출시 순서: 호주·뉴질랜드 → 아시아 → 중동 → 유럽 → 북미",
+          "디스플레이: 7.6인치 매트, 거의 보이지 않는 크리스",
+          "인증: Touch ID(Face ID 아님)",
+          "온라인 배송 예상일: 1월 25일로 지연"
+        ],
+        "why": [
+          "폴더블 아이폰 수요가 공급을 초과하는 초기 흥행 신호"
+        ]
+      }
+    },
+    {
+      "id": "hardware-kaist-blue-oled-lifetime-test",
+      "title": "KAIST, 자기장으로 블루 OLED 수명 예측하는 방법 개발",
+      "summary": "KAIST 연구팀이 자기장 하 미세한 밝기 변화를 측정해 블루 OLED 수명을 예측하는 방법을 개발했다.",
+      "source": "Tech Xplore",
+      "url": "https://techxplore.com/news/2026-10-magnetic-field-blue-oled-lifetimes.html?utm_source=tldrhardware",
+      "report": {
+        "tldr": "KAIST 연구팀이 자기장 하 미세한 밝기 변화를 측정해 블루 OLED 수명을 예측하는 방법을 개발했다.",
+        "what": "KAIST 연구진이 자기장 아래에서의 미세한 밝기 변화를 측정해 블루 OLED의 수명을 예측하는 방법을 개발했다.",
+        "points": [
+          "연구 기관: KAIST",
+          "방법: 자기장 하 미세 밝기 변화 측정",
+          "대상: 블루 OLED 수명 예측"
+        ],
+        "why": [
+          "디스플레이 업계의 만성 과제인 블루 OLED 수명 문제에 대한 진전"
+        ]
+      }
+    },
+    {
+      "id": "hardware-oura-sues-ultrahuman-ring-pro",
+      "title": "오우라, 울트라휴먼 재설계 Ring Pro 또 특허 소송",
+      "summary": "오우라가 울트라휴먼의 재설계된 Ring Pro 내부 구조가 자사 특허 두 건을 침해했다며 재차 소송을 제기했다.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback?utm_source=tldrhardware",
+      "report": {
+        "tldr": "오우라가 울트라휴먼의 재설계된 Ring Pro 내부 구조가 자사 특허 두 건을 침해했다며 재차 소송을 제기했다.",
+        "what": "오우라가 울트라휴먼을 상대로 다시 소송을 제기했다. 재설계된 Ring Pro가 곡선형 배터리, 회로기판, 마그넷, 센서 등 반지 디자인·내부 구조에 관한 특허 두 건을 침해했다는 주장이다.",
+        "points": [
+          "소송 대상: 울트라휴먼 재설계 Ring Pro",
+          "침해 주장 특허: 2건(곡선형 배터리, 회로기판, 마그넷, 센서 등)"
+        ],
+        "why": [
+          "스마트링 시장 경쟁이 특허 분쟁으로 번지는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "hardware-spacex-40b-chip-debt-pricing",
+      "title": "스페이스X $400억 칩 담보 부채, AI 우려 속 최고 8.3% 금리",
+      "summary": "스페이스X의 $400억 조달 중 최하위 등급 트랜치가 약 8.3%, 칩 담보 트랜치는 약 7.75%로 가격이 매겨지고 있다.",
+      "source": "Semafor",
+      "url": "https://www.semafor.com/article/10/22/2026/spacex-40b-debt-deal-will-cost-it-as-ai-fears-spread?utm_source=tldrhardware",
+      "report": {
+        "tldr": "스페이스X의 $400억 조달 중 최하위 등급 트랜치가 약 8.3%, 칩 담보 트랜치는 약 7.75%로 가격이 매겨지고 있다.",
+        "what": "아폴로와 골드만삭스가 주도하는 스페이스X의 $400억 조달 중 최하위 등급 트랜치가 약 8.3%, 일부 자사 칩을 담보로 하는 더 안전한 트랜치는 약 7.75%로 가격이 형성되고 있다.",
+        "points": [
+          "총 조달 규모: $400억",
+          "주관: 아폴로, 골드만삭스",
+          "최하위 등급 트랜치 금리: 약 8.3%",
+          "칩 담보 트랜치 금리: 약 7.75%"
+        ],
+        "why": [
+          "AI 인프라 투자 과열 우려가 조달 비용에 반영되는 신호"
+        ]
+      }
+    }
+  ]
+}
