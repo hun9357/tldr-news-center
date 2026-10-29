@@ -1,0 +1,253 @@
+{
+  "name": "IT",
+  "source": "TLDR IT",
+  "icon": "🖥️",
+  "color": "#b48cff",
+  "bg": "#26203a",
+  "items": [
+    {
+      "id": "it-google-oracle-tpu-partnership",
+      "title": "구글·오라클 제휴로 오라클 클라우드에 구글 TPU 도입",
+      "summary": "오라클은 구글 외 하이퍼스케일러 중 처음으로 TPU를 제공하게 되며, 2027년 배치가 시작된다.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/infrastructure/bringing-google-tpus-to-oracle-cloud-infrastructure?utm_source=tldrit",
+      "report": {
+        "tldr": "구글 클라우드와 오라클이 제휴해 구글 텐서처리장치(TPU)를 오라클 클라우드 인프라(OCI)에 도입한다.",
+        "what": "이로써 OCI는 구글 외 하이퍼스케일러 중 TPU를 제공하는 첫 사례가 된다. 양사는 AI 밀도를 고려해 설계된 데이터센터 전역에서 조직들이 AI 워크로드를 확장할 수 있도록 2027년부터 TPU 용량을 배치할 계획이다.",
+        "points": [
+          "제휴 내용: 구글 TPU를 OCI에 제공",
+          "의미: 구글 외 하이퍼스케일러 중 TPU 제공 최초 사례",
+          "일정: 2027년 TPU 용량 배치 시작"
+        ],
+        "why": [
+          "AI 칩 공급이 구글 생태계 밖으로 확장되며 클라우드 인프라 경쟁 구도가 재편되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "it-microsoft-azure-cloud-revenue-beat",
+      "title": "마이크로소프트, 분기 클라우드 매출 전망치 상회",
+      "summary": "애저 매출 $331.7억, 전년 대비 48% 성장 — 이번부터 달러 단위로 공개.",
+      "source": "CNA",
+      "url": "https://www.channelnewsasia.com/business/microsoft-beats-quarterly-cloud-revenue-estimates-6501191?utm_source=tldrit",
+      "report": {
+        "tldr": "마이크로소프트의 애저 클라우드 사업이 분기 매출 $331.7억을 기록하며 전년 대비 48% 성장, 애널리스트 전망을 상회했다.",
+        "what": "마이크로소프트는 이번부터 애저 매출을 달러 단위로 공개하기 시작해 클라우드 실적에 대한 투명성을 높였으며, AI 인프라에 대한 대규모 투자를 지속하고 있다.",
+        "points": [
+          "애저 분기 매출: $331.7억",
+          "전년 대비 성장률: 48%",
+          "변화: 애저 매출을 달러 단위로 공개 시작"
+        ],
+        "why": [
+          "AI 인프라 투자가 실제 클라우드 매출 성장으로 이어지고 있음을 보여주는 지표"
+        ]
+      }
+    },
+    {
+      "id": "it-openai-buy-google-tpu-chips",
+      "title": "OpenAI, 구글 AI 칩 구매 추진 — 더인포메이션 보도",
+      "summary": "기존 칩 렌탈 계약을 넘어 구글 TPU를 직접 구매하는 방안을 검토 중이라고 알려졌다.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/dcOmE4?utm_source=tldrit",
+      "report": {
+        "tldr": "OpenAI가 구글의 텐서처리장치(TPU)를 구매하는 방안을 검토 중인 것으로 알려졌다.",
+        "what": "이는 기존 칩 렌탈 계약을 넘어서는 확장이며, OpenAI는 NVIDIA GPU와 브로드컴과의 자체 칩 개발 노력 외에 또 다른 컴퓨팅 공급원을 확보하는 동시에 AI 인프라 시장에서 구글의 입지를 강화하는 효과도 있다.",
+        "points": [
+          "검토 내용: 구글 TPU 구매 (기존 렌탈 계약 확장)",
+          "기존 공급원: NVIDIA GPU, 브로드컴과의 자체 칩 개발",
+          "효과: AI 인프라 시장에서 구글의 입지 강화"
+        ],
+        "why": [
+          "AI 칩 공급망이 NVIDIA 중심에서 복수 공급사 체제로 다변화되는 신호"
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-ipo-vendor-dependency-lessons",
+      "title": "앤트로픽 IPO 신고서가 보여주는 '벤더 의존도' 교훈",
+      "summary": "매출 거의 절반이 아마존·구글 클라우드 파트너를 거쳐 발생 — 공급망 집중 리스크 부각.",
+      "source": "ITPro",
+      "url": "https://www.itpro.com/business/what-enterprises-can-learn-from-anthropics-ipo-prospectus-about-vendor-dependency?utm_source=tldrit",
+      "report": {
+        "tldr": "앤트로픽의 IPO 신고서는 매출의 거의 절반이 아마존·구글 클라우드 파트너를 통해 발생한다는 상당한 벤더 의존도를 드러냈다.",
+        "what": "업계 전문가들은 기업 CIO들에게 AI 조달을 공급사의 공급망까지 따져보는 회복력(resilience) 관점의 대화로 다루고, 데이터·워크플로 이동성을 확보하라고 권고한다.",
+        "points": [
+          "핵심 수치: 매출의 거의 절반이 아마존·구글 클라우드 파트너 경유",
+          "권고: AI 조달을 '회복력' 관점에서 평가, 공급사의 공급망까지 질문",
+          "권고: 데이터·워크플로 이동성(portability) 확보"
+        ],
+        "why": [
+          "AI 서비스 도입 시 클라우드 파트너 집중 리스크를 CIO들이 직접 고려해야 한다는 경고"
+        ]
+      }
+    },
+    {
+      "id": "it-information-overload-enterprise-productivity",
+      "title": "파편화된 사내 커뮤니케이션, 생산성 저해 — Forrester 연구",
+      "summary": "48%가 효율 저하, 44%는 오류·마감 지연 증가를 체감.",
+      "source": "ITPro",
+      "url": "https://www.itpro.com/software/business-apps/information-overload-is-harming-enterprise-productivity-heres-how-it-leaders-can-solve-that?utm_source=tldrit",
+      "report": {
+        "tldr": "Staffbase가 의뢰한 Forrester 연구에 따르면 파편화된 업무 커뮤니케이션이 직원 생산성에 영향을 주고 있다.",
+        "what": "응답자의 48%가 효율 저하를, 44%는 오류 증가나 마감 지연을 더 많이 경험한다고 답했다. 연구는 정보 통합과 업무용 앱 연결이 불필요한 맥락 전환을 줄일 수 있다고 제안한다.",
+        "points": [
+          "효율 저하 경험: 48%",
+          "오류·마감 지연 증가 경험: 44%",
+          "제안: 정보 통합 + 앱 연결로 맥락 전환 감소"
+        ],
+        "why": [
+          "도구 파편화가 AI 도입 효과를 상쇄할 수 있는 숨은 생산성 저해 요인으로 지목됨"
+        ]
+      }
+    },
+    {
+      "id": "it-snowflake-oracle-ai-data-cloud",
+      "title": "스노우플레이크·오라클, 'AI 데이터 클라우드'를 OCI 네이티브로 확장",
+      "summary": "오라클을 통해 직접 구매·과금되는 퍼스트파티 서비스로 제공된다.",
+      "source": "Snowflake Blog",
+      "url": "https://www.snowflake.com/en/blog/snowflake-oracle-partnership-ai-data-cloud-oci/?utm_source=tldrit",
+      "report": {
+        "tldr": "스노우플레이크와 오라클이 파트너십을 확대해 스노우플레이크의 AI 데이터 클라우드를 OCI 네이티브 서비스로 제공한다.",
+        "what": "오라클을 통해 직접 구매·과금되는 통합 서비스로 설계되어, 오라클 애플리케이션·데이터베이스의 엔터프라이즈 데이터를 다른 소스와 연결해 분석·AI 워크플로를 지원한다.",
+        "points": [
+          "제공 형태: 오라클을 통한 직접 구매·과금, OCI 네이티브(퍼스트파티)",
+          "목적: 오라클 데이터와 외부 소스를 연결한 분석·AI 워크플로 지원"
+        ],
+        "why": [
+          "데이터 플랫폼들이 특정 클라우드에 '네이티브'로 통합되는 경쟁이 가속화"
+        ]
+      }
+    },
+    {
+      "id": "it-nvidia-oracle-vera-rubin-expansion",
+      "title": "NVIDIA·오라클, 베라 루빈을 멀티기가와트 규모로 확장",
+      "summary": "OCI 수퍼클러스터에 Vera Rubin NVL72 시스템을 도입, OpenAI도 OCI의 블랙웰 GPU로 모델을 훈련·서빙 중.",
+      "source": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure?utm_source=tldrit",
+      "report": {
+        "tldr": "NVIDIA와 오라클이 OCI 수퍼클러스터를 NVIDIA Vera Rubin NVL72 시스템으로 멀티기가와트 규모까지 확장한다고 발표했다.",
+        "what": "양사는 또한 NVIDIA Vera CPU와 Vera Rubin GPU를 OCI에 도입해 AI 트레이닝, 추론, 에이전틱 워크로드를 지원한다. OpenAI 역시 NVIDIA 블랙웰 GPU 기반 OCI 인프라에서 프런티어 모델을 훈련·서빙해왔다고 언급됐다.",
+        "points": [
+          "확장 규모: 멀티기가와트급",
+          "도입 하드웨어: Vera Rubin NVL72 시스템, Vera CPU, Rubin GPU",
+          "활용 사례: OpenAI가 OCI의 블랙웰 GPU로 프런티어 모델 훈련·서빙"
+        ],
+        "why": [
+          "AI 인프라 투자 경쟁이 '기가와트' 단위로 넘어가며 규모의 경쟁이 심화"
+        ]
+      }
+    },
+    {
+      "id": "it-github-universe-2026",
+      "title": "깃허브 유니버스 2026: 스택 전 계층을 다시 설계",
+      "summary": "코딩 작업을 모델·에이전트 워크플로 전반에 라우팅하는 신규 Copilot 앱 'Copilot Fusion' 발표.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/?utm_source=tldrit",
+      "report": {
+        "tldr": "GitHub Universe 2026에서 깃허브는 코딩 작업을 여러 AI 모델과 에이전트 워크플로에 자동 라우팅하는 신규 Copilot 앱 'Copilot Fusion'을 발표했다.",
+        "what": "또한 엔터프라이즈 고객은 별도 구독 없이 Copilot 기능을 이용할 수 있게 되며, 사용량은 AI 크레딧으로 과금된다.",
+        "points": [
+          "신규 발표: Copilot Fusion — 코딩 작업을 모델/에이전트 워크플로에 자동 라우팅",
+          "요금 변화: 엔터프라이즈는 별도 구독 없이 Copilot 이용, AI 크레딧 과금"
+        ],
+        "why": [
+          "GitHub이 개발 스택 전반을 '에이전트 우선'으로 재편하려는 의지를 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "it-anthropic-claude-vulnerability-discovery",
+      "title": "앤트로픽, 클로드로 실제 소프트웨어의 치명적 취약점 발견·악용체인 구성",
+      "summary": "브라우저·모바일 OS·커널 네트워킹 스택에서 원격코드실행·샌드박스 탈출 등을 찾아내 벤더에 책임 공개.",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude?utm_source=tldrit",
+      "report": {
+        "tldr": "앤트로픽 연구진이 내부 연구용 모델을 활용해 브라우저, 모바일 OS, 커널 네트워킹 스택 등 널리 쓰이는 소프트웨어에서 치명적 취약점을 발견하고 다단계 악용 체인을 구성했다.",
+        "what": "모델은 원격코드실행, 샌드박스 탈출, 잠금화면 우회 등의 문제를 식별했으며, 영향받은 벤더에 책임 있는 공개(coordinated disclosure) 절차로 보고됐다. 앤트로픽은 AI 기반 취약점 발견이 공격자보다 먼저 방어자가 결함을 찾아 패치하는 데 도움이 될 수 있다고 주장한다.",
+        "points": [
+          "대상 소프트웨어: 브라우저, 모바일 OS, 커널 네트워킹 스택",
+          "발견 유형: 원격코드실행, 샌드박스 탈출, 잠금화면 우회",
+          "공개 방식: 영향받은 벤더에 책임있는 공개(coordinated disclosure)"
+        ],
+        "why": [
+          "AI를 활용한 취약점 발견이 공격·방어 양쪽에서 속도 경쟁의 핵심 변수로 부상"
+        ]
+      }
+    },
+    {
+      "id": "it-oracle-acceleron-networking",
+      "title": "오라클 클라우드 액셀러론, AI 지원 네트워킹 기능 추가",
+      "summary": "프런트엔드 컴퓨트용 RDMA, 확장된 NVMe 블록스토리지, 경로 장애 시 분산 AI 워크로드 유지 통신 라이브러리 포함.",
+      "source": "SDxCentral",
+      "url": "https://www.sdxcentral.com/news/oracle-cloud-acceleron-adds-ai-assisting-networking-enhancements/?utm_source=tldrit",
+      "report": {
+        "tldr": "오라클이 AI·고성능컴퓨팅 워크로드를 위해 Acceleron 네트워킹 플랫폼에 신규 기능을 추가했다.",
+        "what": "업데이트에는 프런트엔드 컴퓨트용 RDMA 연결, 확장된 NVMe 블록스토리지 옵션, 네트워크 경로 장애 시에도 분산 AI 워크로드를 유지하도록 설계된 통신 라이브러리가 포함된다.",
+        "points": [
+          "신규 기능: 프런트엔드 컴퓨트 RDMA 연결",
+          "스토리지: 확장된 NVMe 블록스토리지 옵션",
+          "안정성: 경로 장애 시에도 분산 AI 워크로드 유지하는 통신 라이브러리"
+        ],
+        "why": [
+          "대규모 AI 트레이닝 인프라의 네트워크 안정성이 핵심 경쟁력으로 떠오름"
+        ]
+      }
+    },
+    {
+      "id": "it-gemini-robotics-er2-google-cloud",
+      "title": "제미나이 로보틱스 '임바디드 리즈닝 2', 구글 클라우드에서 제공 시작",
+      "summary": "시공간 영상 이해·장기 계획·에이전틱 툴 오케스트레이션을 결합한 로봇용 고차원 '두뇌' 모델.",
+      "source": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud?utm_source=tldrit",
+      "report": {
+        "tldr": "Gemini Robotics Embodied Reasoning 2가 구글 클라우드에서 제공되기 시작했다.",
+        "what": "이 특화 모델은 다양한 물리적 형태의 로봇을 위한 고차원 '두뇌' 역할을 하며, 시공간 영상 이해, 장기 계획, 에이전틱 툴 오케스트레이션을 결합해 엔터프라이즈 생산 환경에 대응한다.",
+        "points": [
+          "역할: 다양한 로봇 형태를 위한 고차원 추론 '두뇌'",
+          "핵심 기능: 시공간 영상 이해 + 장기 계획 + 에이전틱 툴 오케스트레이션",
+          "제공: 구글 클라우드"
+        ],
+        "why": [
+          "AI 모델이 디지털 영역을 넘어 물리적 로봇 제어로 본격 확장되는 사례"
+        ]
+      }
+    },
+    {
+      "id": "it-tesco-vmware-alternative-proxmox",
+      "title": "테스코, VMware 대체재로 오픈소스 프록스목스 검토",
+      "summary": "브로드컴의 라이선스 정책 변화 속에 엣지 가상화 인프라 이전을 모색하는 채용공고가 포착됐다.",
+      "source": "ITPro",
+      "url": "https://www.itpro.com/software/open-source/tesco-eyes-open-source-vmware-alternative-amid-long-running-spat?utm_source=tldrit",
+      "report": {
+        "tldr": "테스코의 엔지니어링 채용공고에서 엣지 가상화 인프라를 VMware에서 Proxmox로 이전하려는 계획이 드러났다.",
+        "what": "이는 브로드컴의 라이선스 정책 변화 속에서 VMware 대안을 검토하는 또 하나의 기업 사례다.",
+        "points": [
+          "검토 대상: VMware → Proxmox (오픈소스) 이전",
+          "범위: 엣지 가상화 인프라",
+          "배경: 브로드컴 라이선스 정책 변화를 둘러싼 장기 갈등"
+        ],
+        "why": [
+          "VMware 라이선스 정책에 대한 기업들의 반발이 오픈소스 대안 채택으로 이어지고 있음"
+        ]
+      }
+    },
+    {
+      "id": "it-microsoft-entra-id-passkeys-migration",
+      "title": "마이크로소프트, Entra ID 관리자에 패스키 전환 촉구",
+      "summary": "2027년 2월 SMS·음성 인증 지원 종료를 앞두고 사전 준비를 당부.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/vmR5pX?utm_source=tldrit",
+      "report": {
+        "tldr": "마이크로소프트가 Entra ID 관리자들에게 2027년 2월로 예정된 마이크로소프트 제공 SMS·음성 인증 종료에 대비해 사용자를 패스키로 전환하라고 안내했다.",
+        "what": "이는 사전 공지 형태로, 관리자들이 미리 마이그레이션을 준비하도록 유도하는 조치다.",
+        "points": [
+          "종료 예정: 2027년 2월, Microsoft 제공 SMS·음성 인증",
+          "권장 조치: 사용자를 패스키로 마이그레이션"
+        ],
+        "why": [
+          "SMS 기반 인증의 단계적 폐지가 엔터프라이즈 ID 관리의 표준 수순이 되고 있음"
+        ]
+      }
+    }
+  ]
+}

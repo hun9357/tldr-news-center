@@ -1,0 +1,294 @@
+{
+  "name": "개발",
+  "source": "TLDR Dev",
+  "icon": "💻",
+  "color": "#5ec6ff",
+  "bg": "#14283a",
+  "items": [
+    {
+      "id": "dev-nextjs-ship-less-javascript",
+      "title": "Next.js, AI 에이전트로 불필요한 클라이언트 JS 제거하는 스킬 추가",
+      "summary": "터보팩 모듈 그래프로 중복 의존성·불필요 임포트를 찾아내 v0·vercel.com에서 2MB 가까이 줄였다.",
+      "source": "Next.js Blog",
+      "url": "https://nextjs.org/blog/ship-less-javascript-with-ai?utm_source=tldrdev",
+      "report": {
+        "tldr": "Next.js 16.4가 터보팩의 모듈 그래프를 이용해 불필요한 클라이언트 JavaScript를 찾아내는 에이전트 스킬을 추가했다.",
+        "what": "이 스킬은 즉시 로드(eager) 임포트, 중복 의존성, 누락된 트리쉐이킹 등을 찾아낸다. Vercel은 v0와 vercel.com 전반에서 압축된 JavaScript를 거의 2MB 가까이 제거하거나 지연 로드했다고 밝혔으며, 각 변경을 스냅샷 비교로 검증했다.",
+        "points": [
+          "버전: Next.js 16.4",
+          "기술: 터보팩 모듈 그래프 분석",
+          "탐지 대상: eager 임포트, 중복 의존성, 미흡한 트리쉐이킹",
+          "성과: v0·vercel.com에서 압축 JS 약 2MB 제거/지연로드"
+        ],
+        "why": [
+          "프런트엔드 성능 최적화 작업을 AI 에이전트가 대신 수행하는 사례가 프레임워크 차원에서 공식화"
+        ]
+      }
+    },
+    {
+      "id": "dev-postmessage-type-safe-350-bytes",
+      "title": "350바이트 미만으로 postMessage를 타입세이프하게 만들기",
+      "summary": "워커·iframe·이벤트버스 경계 양쪽을 타입스크립트로 검증하는 초소형 라이브러리.",
+      "source": "Evil Martians",
+      "url": "https://evilmartians.com/chronicles/how-to-make-postmessage-type-safe-in-under-350-bytes?utm_source=tldrdev",
+      "report": {
+        "tldr": "typed-channel은 메시지 이름과 페이로드를 한 번만 정의해 TypeScript가 경계 양쪽을 모두 검증할 수 있게 하는 초소형 라이브러리다.",
+        "what": "워커, iframe, 이벤트버스 경계에서 사용할 수 있으며, 핵심 로직과 postMessage 트랜스포트를 합쳐 Brotli 압축 기준 341바이트에 불과하다. 별도의 요청 API를 추가하면 타입이 지정된 응답과 핸들러까지 전파되는 취소(cancellation) 기능도 제공된다.",
+        "points": [
+          "크기: 핵심+전송 레이어 Brotli 압축 341바이트",
+          "적용 대상: 워커, iframe, 이벤트버스 경계",
+          "추가 기능(옵션): 타입드 응답 + 전파되는 취소 기능"
+        ],
+        "why": [
+          "극소 크기의 유틸리티로 메시지 패싱의 타입 안전성을 확보할 수 있다는 실용적 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-cost-javascript-frameworks",
+      "title": "AI가 알려주는 JS 프레임워크별 '비용': Hono+htmx·Astro·Nuxt가 저렴",
+      "summary": "Opus 5.5로 동일한 포켓몬 앱을 여러 프레임워크로 만들어 비용·시간·접근성을 비교.",
+      "source": "Nolan Lawson",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks?utm_source=tldrdev",
+      "report": {
+        "tldr": "한 벤치마크가 Opus 5.5에게 여러 JavaScript 프레임워크로 동일한 포켓몬 앱을 만들도록 시킨 뒤 비용·시간·스펙 준수·성능·접근성을 반복 측정했다.",
+        "what": "이 실험에서는 Hono+htmx, Astro, Nuxt가 가장 저렴한 프레임워크군에 속했지만, 실행마다 상당한 편차가 있었고 테스트 앱이 주로 콘텐츠 중심이라는 점에서 이 순위를 얼마나 넓게 일반화할 수 있는지는 제한적이다.",
+        "points": [
+          "테스트 모델: Opus 5.5",
+          "비교 항목: 비용, 시간, 스펙 준수, 성능, 접근성",
+          "저비용 그룹: Hono+htmx, Astro, Nuxt",
+          "한계: 실행별 편차 큼, 콘텐츠 중심 앱이라 일반화 제한적"
+        ],
+        "why": [
+          "'AI에게 코드를 맡기는 비용'이 프레임워크 선택의 새로운 평가축으로 등장"
+        ]
+      }
+    },
+    {
+      "id": "dev-website-migration-costs-zero",
+      "title": "웹사이트 마이그레이션 비용이 '0'에 가까워진다",
+      "summary": "기존 사이트를 기준선으로 삼아 차등 테스트하는 AI 에이전트가 기술적 이전을 거의 무료로 만들 수 있다.",
+      "source": "dri.es (Dries Buytaert)",
+      "url": "https://dri.es/website-migration-costs-are-going-to-zero?utm_source=tldrdev",
+      "report": {
+        "tldr": "AI 에이전트가 기존 사이트를 기준선으로 삼아 페이지와 퍼블리싱 워크플로를 차등 테스트함으로써 기술적 웹사이트 마이그레이션을 거의 무료로 만들 수 있다는 전망이다.",
+        "what": "이 예측은 잠금 효과(lock-in)의 지속적인 원천을 계약, 조달 승인, 에이전트 메모리 쪽으로 이동시켜, 이동 가능한 요구사항 문서와 의사결정 로그의 가치를 더 높인다.",
+        "points": [
+          "예측: AI 에이전트가 기존 사이트를 기준선으로 차등 테스트해 마이그레이션 비용을 거의 0으로",
+          "잠금효과 이동: 기술 → 계약·조달 승인·에이전트 메모리"
+        ],
+        "why": [
+          "벤더 lock-in의 성격이 기술적 장벽에서 조직·계약적 장벽으로 이동할 수 있음을 시사"
+        ]
+      }
+    },
+    {
+      "id": "dev-local-first-three-meanings",
+      "title": "'로컬퍼스트'는 서로 다른 세 가지를 의미한다",
+      "summary": "오프라인 지원, 반응성 좋은 UI, 데이터 소유권 — 각기 다른 아키텍처로 이어진다.",
+      "source": "Hologram",
+      "url": "https://hologram.page/blog/local-first-means-three-different-things?utm_source=tldrdev",
+      "report": {
+        "tldr": "'로컬퍼스트'는 오프라인 지원, 빠른 낙관적(optimistic) 인터페이스, 사용자의 데이터 소유권이라는 서로 다른 세 가지 약속을 의미할 수 있으며, 그 약속들은 각기 다른 아키텍처로 이어진다.",
+        "what": "Hologram은 서버를 유지해 권한과 비즈니스 규칙을 강제하면서도, 반응성 좋은 로컬 인터페이스와 오프라인 지원을 우선하는 방식을 택했다.",
+        "points": [
+          "로컬퍼스트의 세 의미: 오프라인 지원, 낙관적 UI, 데이터 소유권",
+          "사례: Hologram — 서버는 유지(권한·규칙 강제), 로컬 인터페이스·오프라인은 우선"
+        ],
+        "why": [
+          "'로컬퍼스트'라는 용어를 쓸 때 실제로 무엇을 원하는지 구체화해야 아키텍처 선택을 올바르게 할 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "dev-gemini-4-carbon-coding-security",
+      "title": "제미나이 4 카본: 코딩·보안 특화 프런티어 모델, 입력 $2·출력 $10/백만토큰",
+      "summary": "SEC-bench Pro 88.2%, CWE-bench 71.0% — 선정된 사이버 디펜더부터 우선 제공.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=tldrdev",
+      "report": {
+        "tldr": "구글이 지속적인 코딩 작업과 사이버보안에 특화된 Gemini 4 Carbon을 발표하며 SEC-bench Pro 88.2%, CWE-bench 71.0%의 성적을 공개했다.",
+        "what": "접근은 선정된 사이버 디펜더와 신뢰받는 Fairwind 파트너부터 시작하며, 더 넓은 공개는 추후 예정이다. 도입가는 입력 토큰 100만개당 $2, 출력 토큰 100만개당 $10로 발표됐다.",
+        "points": [
+          "특화 영역: 지속적인 코딩 작업, 사이버보안",
+          "벤치마크: SEC-bench Pro 88.2%(취약점 발견), CWE-bench 71.0%(패칭)",
+          "초기 접근: 선정된 사이버 디펜더, 신뢰받는 Fairwind 파트너",
+          "도입 가격: 입력 $2/백만 토큰, 출력 $10/백만 토큰"
+        ],
+        "why": [
+          "프런티어 모델이 범용 성능 경쟁을 넘어 '보안 특화'라는 세분화된 시장을 공략하기 시작"
+        ]
+      }
+    },
+    {
+      "id": "dev-nuxt-devtools-v4",
+      "title": "Nuxt DevTools v4, 프레임워크 중립적 'Devframe' 기반으로 전환",
+      "summary": "Vite DevTools 생태계를 재사용할 수 있게 되며, 레거시 모듈용 전환 쉬임도 제공.",
+      "source": "Nuxt Blog",
+      "url": "https://nuxt.com/blog/devtools-v4?utm_source=tldrdev",
+      "report": {
+        "tldr": "Nuxt DevTools v4가 프레임워크에 중립적인 Devframe과 Vite DevTools 기반으로 이전했다.",
+        "what": "이를 통해 Vite·Vue 툴링 생태계를 재사용할 수 있게 됐으며, 레거시 모듈이 새로운 Devframe API로 마이그레이션하는 동안 사용할 수 있는 전환 쉬임(shim)도 지원한다.",
+        "points": [
+          "기반 전환: 프레임워크 중립 Devframe + Vite DevTools",
+          "효과: Vite·Vue 툴링 생태계 재사용 가능",
+          "호환성: 레거시 모듈용 전환 쉬임 제공"
+        ],
+        "why": [
+          "프레임워크별 개발자 도구가 공유 가능한 공통 기반으로 수렴하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "dev-vercel-ci-beta",
+      "title": "버셀 CI 베타 출시, 터보레포 기반 선택적 실행으로 2~6배 빨라져",
+      "summary": "변경에 영향받는 작업만 실행하고 리모트 캐싱을 활용해 별도 CI 워크플로 설정 필요성을 줄인다.",
+      "source": "Vercel Blog",
+      "url": "https://vercel.com/blog/introducing-vercel-ci?utm_source=tldrdev",
+      "report": {
+        "tldr": "Vercel CI가 베타로 출시됐으며, Turborepo 기반 작업 선택과 리모트 캐싱을 통해 변경으로 영향받는 작업만 실행한다.",
+        "what": "Vercel은 push부터 체크 통과까지 걸리는 시간이 2~6배 빨라졌다고 보고했으며, 별도의 CI 워크플로 설정이 필요한 경우를 줄여준다고 밝혔다.",
+        "points": [
+          "기반 기술: Turborepo 기반 작업 선택 + 리모트 캐싱",
+          "성과: push→체크 통과 시간 2~6배 단축",
+          "부가 효과: 별도 CI 워크플로 설정 필요성 감소"
+        ],
+        "why": [
+          "모노레포·에이전트 기반 개발이 늘면서 '변경분만 테스트하는' CI가 표준이 되어가는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "dev-ai-agent-same-sql-query-254-times",
+      "title": "AI 에이전트가 같은 성공한 SQL 쿼리를 254번 반복 실행한 사건",
+      "summary": "모델 비교 테스트 중 작업을 마치지 않고 같은 쿼리를 계속 실행한 사례.",
+      "source": "armincat.com",
+      "url": "https://armincat.com/articles/ai-agent-executed-same-query-254-times?utm_source=tldrdev",
+      "report": {
+        "tldr": "Funnel에서 진행한 모델 비교 테스트 중 내부 데이터 에이전트가 작업을 끝내지 않고 이미 성공한 SQL 쿼리를 반복 실행했다.",
+        "what": "이 실패 사례는 모델을 교체할 때 전체 시스템 수준의 평가, 명시적인 툴 계약, 반복 행동에 대한 한계 설정이 왜 필요한지를 보여준다.",
+        "points": [
+          "사건: 이미 성공한 SQL 쿼리를 254회 반복 실행",
+          "맥락: 모델 비교 테스트 중 발생",
+          "시사점: 전체 시스템 수준 평가 + 명시적 툴 계약 + 반복 행동 제한 필요"
+        ],
+        "why": [
+          "모델 교체가 예상치 못한 에이전트 행동 패턴을 유발할 수 있다는 실제 장애 사례"
+        ]
+      }
+    },
+    {
+      "id": "dev-fingerprinting-script-bioweapons-prompts",
+      "title": "브라우저 핑거프린팅 스크립트가 왜 '생화학무기' 문구를 숨기고 있나",
+      "summary": "LLM 안전필터를 혼란시키려는 변수명·프롬프트 아래 평범한 WebGL 핑거프린팅 로직이 숨어 있었다.",
+      "source": "nullpt.rs",
+      "url": "https://nullpt.rs/fingerprinting-bioweapons?utm_source=tldrdev",
+      "report": {
+        "tldr": "한 브라우저 핑거프린팅 스크립트가 LLM 안전 필터를 작동시키고 자동화된 분석을 방해하기 위한 자극적인 프롬프트와 변수명을 숨기고 있는 것이 발견됐다.",
+        "what": "이러한 안티-LLM 난독화 아래에는 일반적인 브라우저·WebGL 신호를 수집하는 평범한 로직과, 시스템 정보를 수집하는 게이트된 Node.js 루틴이 들어 있었다.",
+        "points": [
+          "표면적 특징: LLM 안전필터를 자극하는 문구·변수명(안티-LLM 난독화)",
+          "실제 기능: 일반적인 브라우저·WebGL 핑거프린팅",
+          "추가 기능: 게이트된 Node.js 시스템 정보 수집 루틴"
+        ],
+        "why": [
+          "AI 기반 코드 분석 도구를 역이용해 탐지를 회피하려는 새로운 난독화 기법의 등장"
+        ]
+      }
+    },
+    {
+      "id": "dev-october-inflection-vibe-game-dev",
+      "title": "'바이브 게임 개발'의 변곡점, 10월에 찾아오다",
+      "summary": "Opus 5.5가 3D 모델·음악·재미있는 게임플레이 생성 능력에서 뚜렷한 개선을 보였다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/?utm_source=tldrdev",
+      "report": {
+        "tldr": "Opus 5.5는 3D 모델, 음악, 재미있는 게임플레이 생성 능력에서 개선을 보였다.",
+        "what": "단순한 지시만으로도 실제로 작동하는 게임을 만들 수 있게 됐지만, 더 야심찬 프로젝트는 여전히 게임플레이 문제를 고치기 위한 플레이테스트와 반복 작업이 필요하다.",
+        "points": [
+          "개선 영역: 3D 모델, 음악, 게임플레이의 '재미'",
+          "가능해진 것: 단순 지시로 작동하는 게임 생성",
+          "여전히 필요한 것: 야심찬 프로젝트는 플레이테스트·반복 작업"
+        ],
+        "why": [
+          "AI 게임 생성이 '작동은 하지만 재미없던' 단계를 지나 실질적 게임성 구현 단계로 이동 중"
+        ]
+      }
+    },
+    {
+      "id": "dev-nodejs-26-13-lts",
+      "title": "Node.js 26.13.0, 장기지원(LTS) 'Lithium'으로 전환",
+      "summary": "2029년 4월까지 장기지원이 제공된다.",
+      "source": "Node.js Blog",
+      "url": "https://nodejs.org/en/blog/release/v26.13.0?utm_source=tldrdev",
+      "report": {
+        "tldr": "Node.js 26이 코드명 'Lithium'으로 장기지원(LTS) 단계에 들어갔다.",
+        "what": "지원 기간은 2029년 4월까지다.",
+        "points": [
+          "버전: Node.js 26 (코드명 Lithium)",
+          "LTS 지원 종료: 2029년 4월"
+        ],
+        "why": [
+          "프로덕션 환경의 Node.js 버전 업그레이드 계획에 직접적인 참고가 되는 소식"
+        ]
+      }
+    },
+    {
+      "id": "dev-body-parser-dos-vulnerability",
+      "title": "body-parser에서 발견된 서비스거부(DoS) 취약점",
+      "summary": "압축 해제 오류 하나로 요청 한 번에 서버가 크래시될 수 있다.",
+      "source": "Express.js Blog",
+      "url": "https://expressjs.com/en/blog/2026-10-28-cve-2026-111181?utm_source=tldrdev",
+      "report": {
+        "tldr": "영향받는 버전의 body-parser에서 압축 해제 오류로 인해 단 한 번의 요청으로 서버를 크래시시킬 수 있는 취약점이 발견됐다.",
+        "what": "해당 결함은 압축 해제 처리 과정의 오류 처리 미흡에서 비롯된다.",
+        "points": [
+          "영향: 서비스거부(DoS), 단일 요청으로 서버 크래시",
+          "원인: 압축 해제(decompression) 오류 처리 미흡"
+        ],
+        "why": [
+          "널리 쓰이는 Node.js 미들웨어의 결함은 파급 범위가 매우 넓어 신속한 패치가 필요"
+        ],
+        "action": "영향받는 body-parser 버전을 사용 중이라면 패치된 버전으로 즉시 업그레이드할 것."
+      }
+    },
+    {
+      "id": "dev-yavashark-rust-js-engine",
+      "title": "러스트로 만든 새 임베더블 자바스크립트 엔진, '야바샤크'",
+      "summary": "test262 통과율 82%, Temporal·Intl·TypeScript 실행까지 CLI로 지원.",
+      "source": "yavashark.dev",
+      "url": "https://yavashark.dev/blog/announcing-yavashark?utm_source=tldrdev",
+      "report": {
+        "tldr": "Yavashark는 Rust로 작성된 임베더블 JavaScript 엔진으로 test262의 82%를 통과한다.",
+        "what": "Temporal, Intl, TypeScript 실행을 자체 CLI를 통해 지원한다.",
+        "points": [
+          "구현 언어: Rust",
+          "test262 통과율: 82%",
+          "지원 기능: Temporal, Intl, TypeScript 실행 (CLI 경유)"
+        ],
+        "why": [
+          "Rust 생태계에서 임베더블 JS 런타임에 대한 선택지가 늘어나고 있음"
+        ]
+      }
+    },
+    {
+      "id": "dev-ghostty-1-4",
+      "title": "고스티 1.4, 키티 그래픽 완전 지원 등 터미널 성능 개선",
+      "summary": "스크롤백 압축, 더 빠른 터미널 처리, 개선된 SSH 연동, 보안 수정 포함.",
+      "source": "Ghostty",
+      "url": "https://ghostty.org/docs/install/release-notes/1-4-0?utm_source=tldrdev",
+      "report": {
+        "tldr": "Ghostty 1.4는 Kitty 그래픽 프로토콜을 완전히 지원하며 스크롤백 압축, 더 빠른 터미널 처리, 개선된 SSH 연동, 보안 수정을 포함한다.",
+        "what": "터미널 에뮬레이터의 성능과 호환성을 전반적으로 개선한 업데이트다.",
+        "points": [
+          "신규 지원: Kitty 그래픽 프로토콜 완전 지원",
+          "개선: 스크롤백 압축, 터미널 처리 속도, SSH 연동",
+          "보안: 보안 수정 포함"
+        ],
+        "why": [
+          "오픈소스 터미널 에뮬레이터 경쟁에서 Ghostty가 꾸준히 기능 격차를 좁히고 있음"
+        ]
+      }
+    }
+  ]
+}

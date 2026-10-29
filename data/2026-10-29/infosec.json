@@ -1,0 +1,300 @@
+{
+  "name": "보안",
+  "source": "TLDR Information Security",
+  "icon": "🛡️",
+  "color": "#ff7a7a",
+  "bg": "#3a1f1f",
+  "items": [
+    {
+      "id": "infosec-uefi-firmware-flaw",
+      "title": "지구상 대부분의 서버를 위협하는 UEFI 펌웨어 코드실행 결함",
+      "summary": "16년 묵은 버퍼오버플로(CVE-2026-97631, CVSS 9.5)가 Secure Boot·TPM 체인보다 먼저 ring 0 코드 실행을 허용했다.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "대부분의 서버 펌웨어 기반인 TianoCore EDK2의 PXE Base Code 드라이버에서 16년된 버퍼오버플로(CVE-2026-97631, CVSS 9.5)가 발견됐다.",
+        "what": "공격자는 네트워크 부팅 중 크기가 조작된 ICMP 오류를 보내 Secure Boot와 TPM 체인오브트러스트가 로드되기 전에 ring 0 코드를 실행할 수 있었다. AMI의 한 풀 리퀘스트가 1월 공동 공개 예정보다 몇 달 앞서 패치 내용을 유출시켰지만, 실제 악용에는 로컬 네트워크 접근과 모델별 주소 튜닝이 필요했다.",
+        "points": [
+          "CVE: CVE-2026-97631 (CVSS 9.5)",
+          "대상: TianoCore EDK2 PXE Base Code 드라이버 (참조 UEFI 코드)",
+          "취약점 연령: 약 16년",
+          "공격 방식: 네트워크 부팅 중 오버사이즈 ICMP 오류로 ring 0 코드 실행, Secure Boot/TPM보다 먼저 작동",
+          "제약 조건: 로컬 네트워크 접근 + 모델별 주소 튜닝 필요",
+          "유출: AMI 풀 리퀘스트가 1월 공동공개 전에 패치 노출"
+        ],
+        "why": [
+          "대부분의 서버 펌웨어가 공유하는 참조 코드의 결함이라 파급 범위가 매우 넓음"
+        ],
+        "action": "UEFI 벤더에 패치된 펌웨어를 요청하고, 가능하면 PXE 부팅을 비활성화하며, 네트워크 부팅 세그먼트의 비정상 ICMP 트래픽을 모니터링할 것."
+      }
+    },
+    {
+      "id": "infosec-fec-hack-system-shutdown",
+      "title": "美 연방선거위원회(FEC), 사이버공격으로 온라인 시스템 셧다운",
+      "summary": "중간선거를 며칠 앞두고 자금 신고 시스템에 장애가 발생했다.",
+      "source": "Cybersecurity News",
+      "url": "https://cybersecuritynews.com/hackers-target-u-s-election-commission-forcing-online-system-shutdown/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "미국 연방선거위원회(FEC)가 사이버공격으로 신고 시스템에 장애가 발생했다고 보고했다.",
+        "what": "이번 장애는 투표 자체에는 영향을 주지 않으며, 선거 캠페인의 자금 유입 신고 방식에만 영향을 준다. FEC는 데이터 유출 여부에 대한 세부사항을 아직 공개하지 않았다.",
+        "points": [
+          "영향: 선거 캠페인 자금 신고 시스템 (투표 시스템은 영향 없음)",
+          "시점: 중간선거를 며칠 앞둔 시점",
+          "데이터 유출 여부: 미공개"
+        ],
+        "why": [
+          "선거 관련 핵심 공공기관이 중요 시점에 사이버공격 표적이 되는 추세가 지속"
+        ]
+      }
+    },
+    {
+      "id": "infosec-sony-sonet-data-breach",
+      "title": "소니 ISP 자회사 So-net, 250만 건 고객정보 유출",
+      "summary": "이름·전화번호·이메일·생년월일 등과 함께 5.4만 건의 이메일 계정 비밀번호도 노출됐다.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/Bu2DIi",
+      "report": {
+        "tldr": "소니의 인터넷 서비스 자회사 Sony Network Communications가 So-net 회원 DB에서 250만 건의 기록이 무단 접근됐다고 공개했다.",
+        "what": "유출된 정보에는 전체 이름, 전화번호, 이메일 주소, 사용자 ID, 생년월일, 성별, 인터넷 연결 ID가 포함됐다. 추가로 여러 이메일 서비스에서 5.4만 건의 이메일 주소와 계정 비밀번호도 노출됐다.",
+        "points": [
+          "유출 규모: 250만 건 (So-net 회원 DB)",
+          "유출 항목: 이름, 전화번호, 이메일, 사용자ID, 생년월일, 성별, 인터넷 연결ID",
+          "추가 유출: 이메일 계정 5.4만 건 (이메일+비밀번호)"
+        ],
+        "why": [
+          "ISP 자회사의 회원 DB 침해는 2차 피싱·계정탈취 리스크로 직결될 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ai-attacks-targeting-japan",
+      "title": "일본 겨냥 공격에서 드러난 AI 활용의 세 단계",
+      "summary": "자율 공격부터 AI지원 기획, AI 작성 추정 도구까지 — 44개 에이전트가 19개 조직을 노린 사례도 확인됐다.",
+      "source": "TrendAI Security",
+      "url": "https://www.trendaisecurity.com/en-us/resources-insights/deep-research/not-only-artex-the-different-levels-ai-is-used-in-attacks-targeting-japan?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "TrendAI가 일본을 겨냥한 3개 공격 인프라를 분석해 자율 공격, AI지원 기획, AI 작성 추정 도구까지 다양한 수준의 AI 활용을 확인했다.",
+        "what": "CyberStrikeAI는 최소 19개 조직을 겨냥해 44개의 에이전트를 조율했고, 다른 공격자는 6천 개의 일본 IP를 스캔해 기본 자격증명을 통해 수십만 건의 레코드를 탈취했다. 세 번째 공격자는 복구된 VPN 자격증명으로 기업 네트워크에 침입했다. 증거는 노출된 공격자 파일에서 확보됐으나, 피해자 측 확인은 아직 불완전하다.",
+        "points": [
+          "CyberStrikeAI: 44개 에이전트로 19개+ 조직 조율 공격",
+          "두 번째 공격자: 6,000개 일본 IP 스캔, 기본 자격증명으로 수십만 건 탈취",
+          "세 번째 공격자: 복구된 VPN 자격증명으로 기업망 침입",
+          "한계: 피해자 측 확인은 아직 불완전"
+        ],
+        "why": [
+          "공격 자동화에 AI를 활용하는 수준이 '보조'에서 '자율 조율'까지 다양화되고 있음을 시사"
+        ]
+      }
+    },
+    {
+      "id": "infosec-anchorage-turnkey-aws-nitro-enclaves",
+      "title": "앵커리지 디지털·턴키, AWS 니트로 엔클레이브로 코드 검증",
+      "summary": "오픈소스 VisualSign 파서를 엔클레이브에서 돌려 어테스테이션 문서로 서명 신뢰를 네트워크 신원이 아닌 코드 자체로 전환.",
+      "source": "AWS Blog",
+      "url": "https://aws.amazon.com/blogs/architecture/how-anchorage-digital-and-turnkey-verify-code-with-aws-nitro-enclaves/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Anchorage Digital과 Turnkey가 오픈소스 트랜잭션 파서 VisualSign을 AWS 니트로 엔클레이브 안에서 실행해 파싱 결과마다 서명과 어테스테이션을 붙였다.",
+        "what": "각 파싱 결과는 임시 P-256 키로 서명되고, 월렛이 재현 가능한 빌드와 대조해 검증할 수 있는 PCR 값을 담은 니트로 어테스테이션 문서와 함께 묶인다. 이 설계는 월렛이 수정되지 않은, 감사된 코드가 트랜잭션을 디코딩했음을 증명할 수 있게 해 네트워크 신원이나 운영자 신뢰가 아니라 검증 가능한 어테스테이션에 의존하도록 만든다. 오픈소스 awsnitroverifier Go 라이브러리가 인증서 체인·PCR 검증을 처리하며, 어떤 조직도 AWS 니트로에서 돌아가는 자사 서비스를 검증하는 데 사용할 수 있다.",
+        "points": [
+          "핵심 기술: AWS Nitro Enclaves + 오픈소스 VisualSign 파서",
+          "서명: 임시 P-256 키 + 니트로 어테스테이션 문서(PCR 포함)",
+          "효과: 네트워크 신원·운영자 신뢰가 아닌 코드 자체의 검증 가능한 증명",
+          "공개 도구: awsnitroverifier (Go 라이브러리, 인증서 체인·PCR 검증)"
+        ],
+        "why": [
+          "크립토 트랜잭션 서명의 신뢰 모델을 '신원 기반'에서 '검증 가능한 코드 증명'으로 전환하는 사례"
+        ]
+      }
+    },
+    {
+      "id": "infosec-what-are-security-logs",
+      "title": "보안 로그란 무엇인가: 포맷부터 정규화까지",
+      "summary": "JSON·CSV·Syslog·윈도우 이벤트 로그 등 다양한 포맷을 정규화해야 교차 탐지가 가능하다.",
+      "source": "Detection Engineering",
+      "url": "https://www.detectionengineering.net/p/what-are-security-logs-part-1?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "보안 로그는 JSON, CSV, Syslog, 윈도우 이벤트 로그 등 다양한 포맷으로 기록되는 구조화된 보안 이벤트 레코드다.",
+        "what": "보안 엔지니어는 이러한 다양한 포맷과 필드에 변환을 적용해 데이터를 균일하게 만들어야, 비로소 교차 상관분석과 복합 탐지 룰을 적용할 수 있다.",
+        "points": [
+          "로그 포맷 예: JSON, CSV, Syslog, 윈도우 이벤트 로그",
+          "필요 작업: 포맷·필드 정규화",
+          "목적: 교차 상관분석 및 복합 탐지 가능"
+        ],
+        "why": [
+          "탐지 엔지니어링의 기초가 되는 로그 정규화 역량이 보안 운영 성숙도를 가른다"
+        ]
+      }
+    },
+    {
+      "id": "infosec-snort3-github",
+      "title": "스노트 3, 200개 이상 플러그인으로 네트워크 침입탐지 고도화",
+      "summary": "성능·확장성이 개선된 오픈소스 침입방지시스템(IPS)의 최신 버전.",
+      "source": "GitHub",
+      "url": "https://github.com/snort3/snort3?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Snort 3는 성능·처리 속도·확장성이 개선되고 200개 이상의 플러그인을 지원하는 오픈소스 침입방지시스템(IPS)이다.",
+        "what": "사용자는 200개 이상의 플러그인을 통해 자신의 네트워크에 맞는 커스텀 설정을 구성할 수 있다.",
+        "points": [
+          "유형: 오픈소스 침입방지시스템(IPS)",
+          "개선점: 성능, 처리속도, 확장성",
+          "플러그인: 200개 이상"
+        ],
+        "why": [
+          "오픈소스 네트워크 보안 도구의 지속적인 업데이트는 자체 보안 운영팀에게 실질적 옵션"
+        ]
+      }
+    },
+    {
+      "id": "infosec-infisical-product-launch",
+      "title": "인피지컬, AI 에이전트로부터 자격증명을 보호하는 '에이전트 볼트' 출시",
+      "summary": "클라우드·온프레미스 전반의 시크릿·암호화키·인증서·권한 접근을 관리하는 플랫폼.",
+      "source": "Infisical",
+      "url": "https://infisical.com/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Infisical은 클라우드와 온프레미스 인프라 전반에 걸쳐 시크릿, 암호화 키, 디지털 인증서, 권한 접근을 관리한다.",
+        "what": "Infisical의 Agent Vault는 프록시를 통해 자격증명을 주입함으로써 AI 에이전트가 자격증명을 직접 보지 못하게 한다.",
+        "points": [
+          "관리 대상: 시크릿, 암호화 키, 디지털 인증서, 권한 접근",
+          "범위: 클라우드 + 온프레미스",
+          "신규 기능: Agent Vault — 프록시 기반 자격증명 주입으로 AI 에이전트 노출 차단"
+        ],
+        "why": [
+          "AI 에이전트의 자격증명 노출 리스크를 막는 전용 보안 레이어가 등장하고 있음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-crebench-github",
+      "title": "크리벤치: LLM의 암호 바이너리 리버스엔지니어링 역량 평가 벤치마크",
+      "summary": "알고리즘 식별, 키·IV 추출, 코드 재구현, 플래그 복구까지 평가한다.",
+      "source": "GitHub",
+      "url": "https://github.com/wangyu-ovo/CREBench?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "CREBench는 LLM의 암호 바이너리 리버스엔지니어링 성능을 평가하는 벤치마크다.",
+        "what": "알고리즘 식별, 키(IV) 추출, 래퍼 수준 코드 재구현, 플래그 복구 등 여러 영역에서 모델을 평가한다.",
+        "points": [
+          "평가 영역: 알고리즘 식별, 키/IV 추출, 코드 재구현, 플래그 복구"
+        ],
+        "why": [
+          "LLM의 보안 리버스엔지니어링 역량을 체계적으로 측정하려는 시도"
+        ]
+      }
+    },
+    {
+      "id": "infosec-ai-hacker-epics-base-bugs",
+      "title": "AI '해커', 4시간 만에 산업제어 소프트웨어 중대 결함 4건 발견",
+      "summary": "원격코드실행 가능한 CVSS 9.8 정수 오버플로 포함, 입자가속기·핵융합 실험 설비까지 통제하는 EPICS Base에서 발견.",
+      "source": "The Register",
+      "url": "https://www.theregister.com/security/2026/10/27/ai-hacker-finds-4-severe-bugs-in-popular-industrial-control-software-in-under-4-hours/5305811?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Causal Security의 AI 해킹 도구 'Cipher'가 3시간 49분 만에 EPICS Base에서 취약점 4건을 발견했다.",
+        "what": "이 중 하나는 원격코드실행이 가능한 CVSS 9.8 등급의 정수 오버플로였고, 나머지 3건의 고위험 결함은 크래시, 메모리 손상, 정보 노출을 허용한다. 악용에는 취약한 EPICS 서비스에 대한 네트워크 접근이 필요하다. EPICS는 입자가속기와 핵융합 실험 설비 등 장비를 제어하는 소프트웨어다.",
+        "points": [
+          "도구: Causal Security의 Cipher",
+          "소요 시간: 3시간 49분",
+          "발견 건수: 4건 (1건 CVSS 9.8 포함)",
+          "대상: EPICS Base (입자가속기·핵융합 실험 설비 제어 소프트웨어)",
+          "악용 조건: 취약 EPICS 서비스에 네트워크 접근 필요"
+        ],
+        "why": [
+          "AI 기반 취약점 탐지가 핵심 인프라·과학시설 제어 소프트웨어까지 빠르게 커버하고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "infosec-skyw4lker-device-code-phishing",
+      "title": "美 제조·기술·헬스케어 기업 겨냥한 '디바이스 코드 피싱' 캠페인",
+      "summary": "Skyw4lker가 정상적인 마이크로소프트 인증 흐름을 악용해 M365 토큰을 탈취한다.",
+      "source": "The Hacker News",
+      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "Skyw4lker는 디바이스 코드 피싱으로 미국의 제조·기술·헬스케어 조직을 겨냥한다.",
+        "what": "비밀번호로 보호된 계약서나 제안서가 피해자를 구글 사이트를 거쳐 정상적인 마이크로소프트 인증 흐름으로 유도하며, 공격자가 시작한 인증 승인을 완료하면 공격자가 Microsoft 365 토큰을 얻게 된다. ANY.RUN은 난독화된 JavaScript와 피해자 세션·IP·위치를 추적하는 PHP 백엔드를 확인했으며, 이 백엔드는 인증 완료 여부를 반복적으로 폴링한다.",
+        "points": [
+          "표적: 美 제조·기술·헬스케어 조직",
+          "유인: 비밀번호 보호 계약서/제안서 → 구글 사이트 → 정상 MS 인증 흐름",
+          "탈취 대상: Microsoft 365 토큰",
+          "백엔드: 난독화 JavaScript + PHP (세션/IP/위치 추적, 인증 완료 폴링)"
+        ],
+        "why": [
+          "정상 인증 흐름을 그대로 악용하는 피싱 수법은 기존 방어 체계를 우회하기 쉬움"
+        ]
+      }
+    },
+    {
+      "id": "infosec-gps-spoofing-cargo-theft",
+      "title": "GPS 스푸핑으로 데이터센터용 화물 수백억 원어치 탈취하는 하이웨이 도둑들",
+      "summary": "6월 이후 $1억 이상 피해, 보안 호송차량 충돌 사고도 2건 발생.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "6월 이후 $1억 넘는 데이터센터 장비가 도난당했으며, 범인들은 악성 링크로 화물 계정을 탈취해 운송을 낙찰받는다.",
+        "what": "가짜 면허를 가진 공모자가 운전기사로 고용되는 방식이며, 두 건의 절도에서는 보안 호송차량을 들이받는 사고도 있었다. $1000만 규모의 한 화물은 추적 좌표가 스푸핑된 것으로 보이는 가운데 사라졌다.",
+        "points": [
+          "피해 규모: 6월 이후 $1억 이상",
+          "수법: 악성 링크로 화물 계정 탈취 → 하이재킹된 신원으로 운송 낙찰 → 가짜 면허 운전기사 투입",
+          "사건: 보안 호송차량 충돌 2건, $1000만 화물 GPS 스푸핑 추정 실종"
+        ],
+        "why": [
+          "물리적 화물 범죄가 GPS 스푸핑 같은 사이버 기법과 결합해 고도화되고 있음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-boa-ai-banking-password-warning",
+      "title": "뱅크오브아메리카, 'AI 비서에 은행 비밀번호 공유하지 말라' 경고",
+      "summary": "자격증명 공유 시 무단거래·부정거래 계정잠금·비서 취약점으로 인한 유출 위험을 경고.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/27/bank-of-america-kindly-asks-that-you-dont-share-your-banking-password-with-your-ai-assistant/?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "뱅크오브아메리카가 고객들에게 은행 자격증명을 AI 비서나 외부 서비스에 공유하지 말라고 이메일로 경고했다.",
+        "what": "자격증명 공유는 계정을 무단 거래, 부정거래로 인한 계정 잠금, 혹은 비서 자체의 취약점으로 인한 비밀번호 유출 위험에 노출시킬 수 있다는 설명이다.",
+        "points": [
+          "경고 대상: AI 비서 및 외부 서비스에 은행 자격증명 공유",
+          "리스크: 무단 거래, 부정거래로 인한 계정 잠금, 비서 취약점으로 인한 유출"
+        ],
+        "why": [
+          "AI 에이전트의 금융 계정 접근 확대에 대응해 금융기관들이 선제적으로 경고에 나서고 있음"
+        ]
+      }
+    },
+    {
+      "id": "infosec-uk-software-liability-cyber-breaches",
+      "title": "英, 소프트웨어 기업에 사이버 침해 책임 묻는 방안 검토",
+      "summary": "£1.54억 규모 AI 사이버방어 투자와 함께 벤더 책임 체계 논의를 공식화.",
+      "source": "The Record",
+      "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "영국 정부가 사이버 침해에 대한 책임을 어디에 둘지 내년에 논의하기로 최신 예산안에 명시했다.",
+        "what": "이는 보안이 취약한 제품에 대해 소프트웨어 벤더의 책임을 묻는 첫 공식적인 조치이며, £1.54억 규모의 AI 기반 사이버 방어 투자가 함께 포함됐다. 여기에는 £7000만 규모의 NCSC 취약점 노출 센터도 포함된다.",
+        "points": [
+          "조치: 사이버 침해 책임 소재에 대한 내년 공식 컨설테이션",
+          "투자: AI 기반 사이버 방어에 £1.54억",
+          "세부: NCSC 취약점 노출 센터에 £7000만"
+        ],
+        "why": [
+          "소프트웨어 벤더 책임론이 정부 정책 의제로 공식화되는 첫 신호"
+        ]
+      }
+    },
+    {
+      "id": "infosec-nist-ir8547-post-quantum-crypto",
+      "title": "NIST, 양자내성암호(PQC) 전환 로드맵 'IR 8547' 확정",
+      "summary": "연방 고가치 시스템은 2030년까지 PQC 키 수립, 2031년까지 서명 체계 도입이 요구된다.",
+      "source": "NIST CSRC",
+      "url": "https://csrc.nist.gov/pubs/ir/8547/final?utm_source=tldrinfosec",
+      "report": {
+        "tldr": "NIST가 양자내성에 취약한 공개키 알고리즘을 단계적으로 폐지하고 PQC 표준으로 전환하는 로드맵을 확정했다.",
+        "what": "이는 지난 6월 행정명령을 뒷받침하는 조치로, 연방 고가치 시스템은 2030년까지 PQC 키 수립, 2031년까지 서명 체계를 도입해야 한다.",
+        "points": [
+          "문서: NIST IR 8547 (최종)",
+          "근거: 6월 행정명령",
+          "일정: 2030년까지 PQC 키 수립, 2031년까지 서명 도입 (연방 고가치 시스템)"
+        ],
+        "why": [
+          "양자내성암호 전환이 권고 단계를 넘어 구체적 마감 기한을 가진 의무로 전환되고 있음"
+        ]
+      }
+    }
+  ]
+}

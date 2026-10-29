@@ -1,0 +1,274 @@
+{
+  "name": "파운더스",
+  "source": "TLDR Founders",
+  "icon": "🚀",
+  "color": "#ffb877",
+  "bg": "#33220f",
+  "items": [
+    {
+      "id": "founders-future-of-the-firm",
+      "title": "'회사의 미래': AI 시대 조직도는 어떻게 바뀌나",
+      "summary": "OpenAI에서 24명 규모 에이전트 팀을 운영한 두 사람이 그려보는 관리 구조 변화.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/R48o6W?utm_source=tldrfounders",
+      "report": {
+        "tldr": "OpenAI에서 24명 규모의 에이전트 팀을 운영했던 두 사람이 AI가 회사 조직도에 미칠 영향을 전망한다.",
+        "what": "가장 단순한 시나리오에서는 아무도 자리를 바꾸지 않고 모두가 '매니저'가 된다 — 예를 들어 회계사는 여전히 회계를 책임지지만 스프레드시트 작업은 에이전트가 수행한다. 회사의 나머지 부서가 생산성이 높아지면서 이전보다 더 많은 회계 처리가 필요해지기 때문에, 회계팀 규모도 줄지 않는다는 관측이다.",
+        "points": [
+          "시나리오: 직무는 유지, 모두가 '매니저'化",
+          "예시: 회계사는 회계 책임 유지, 스프레드시트 작업은 에이전트가 수행",
+          "결론: 전사 생산성 증가로 회계 등 지원 부서 수요도 함께 증가"
+        ],
+        "why": [
+          "AI 도입이 반드시 조직 축소로 이어지지 않을 수 있다는 반직관적 관측"
+        ]
+      }
+    },
+    {
+      "id": "founders-databricks-future-of-the-firm",
+      "title": "데이터브릭스가 보는 '회사의 미래': 진짜 병목은 '맥락'",
+      "summary": "에이전트에 내부 지식·암묵적 프로세스·권한·피드백을 제공하는 공유 시스템 오브 레코드가 핵심.",
+      "source": "a16z",
+      "url": "https://a16z.com/databricks-the-future-of-the-firm/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "대부분의 기업은 더 똑똑한 AI 모델이 아니라 '맥락'의 부재가 생산성 향상의 더 큰 병목이라는 분석이다.",
+        "what": "모델은 내부 지식, 문서화되지 않은 프로세스, 직원 머릿속의 판단력에 접근하지 못한다. 데이터브릭스는 에이전트에게 이 맥락과 권한, 작업 피드백을 함께 제공하는 공유 시스템 오브 레코드를 구축 중이다. 이는 정보 이동을 담당하는 관리 계층을 줄이는 동시에, 직원들을 작업 정의·실행 위임·결과 판단 쪽으로 이동시킬 수 있다. 지속적인 경쟁우위는 모델을 바꿔도 회사가 학습한 것을 보존해 AI 시스템이 계속 개선되도록 '회사가 배운 것을 포착'하는 데서 나온다는 전망이다.",
+        "points": [
+          "핵심 병목: 더 똑똑한 모델이 아니라 '맥락'(내부 지식·프로세스·판단)의 부재",
+          "해법: 권한·피드백을 포함한 공유 시스템 오브 레코드",
+          "조직 변화: 관리 계층 축소, 직원은 작업 정의·위임·판단 역할로 이동",
+          "경쟁우위 원천: 모델 전환에도 유지되는 '회사가 학습한 것'의 축적"
+        ],
+        "why": [
+          "AI 투자의 ROI가 모델 성능이 아니라 기업 고유의 맥락 데이터 구축에서 나온다는 시사점"
+        ]
+      }
+    },
+    {
+      "id": "founders-what-comes-after-selling-work",
+      "title": "'일 자체를 파는' AI 스타트업들, 그 다음 단계는?",
+      "summary": "서비스:소프트웨어 지출 비율이 6:1인 시장에서 로펌 역할을 대신하려는 움직임.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/mCbu6d?utm_source=tldrfounders",
+      "report": {
+        "tldr": "기업들이 서비스에 쓰는 돈이 소프트웨어의 6배에 달하면서, 많은 AI 스타트업이 소프트웨어를 파는 대신 '로펌 그 자체'가 되려 하고 있다.",
+        "what": "서비스를 파는 것은 첫 단계일 뿐일 수 있다는 지적이다. 대형 로펌들(예: Kirkland & Ellis가 자체 스택에 $5억 투자)도 자체 AI를 구축하고 있어, 서비스 자체는 무료로 제공하고 그 위에서 발생하는 거래·데이터로 돈을 버는 전략이 부상한다. 예를 들어 Rockwell은 중견기업 직원들에게 무료 복지 컨시어지를 운영하며 그들의 헬스케어 지출 흐름 앞에 자리잡는다.",
+        "points": [
+          "시장 구조: 서비스:소프트웨어 지출 비율 약 6:1",
+          "흐름: AI 스타트업이 소프트웨어 판매 대신 '서비스 제공자' 역할로 이동",
+          "대형 로펌 대응: Kirkland & Ellis, 자체 AI 스택에 $5억 투자",
+          "사례: Rockwell의 무료 복지 컨시어지 → 헬스케어 지출 흐름 선점"
+        ],
+        "why": [
+          "소프트웨어 판매 모델에서 '서비스+데이터 수익화' 모델로의 전환이 AI 스타트업의 다음 전략이 될 수 있음"
+        ]
+      }
+    },
+    {
+      "id": "founders-design-dinner-for-followup",
+      "title": "'팔로우업을 위한 저녁식사' 설계로 $400만 매출 만든 법",
+      "summary": "좌석 배치 하나로 리콜.ai의 콘퍼런스 디너가 거래로 이어진 사례.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/PkqB7A?utm_source=tldrfounders",
+      "report": {
+        "tldr": "한 콘퍼런스 디너가 Recall.ai에 $400만 매출로 이어졌는데, 핵심은 좌석 배치였다.",
+        "what": "담당 영업직원이 테이블마다 배치돼 고객을 잠재고객 옆에 앉히는 것만을 임무로 삼아, 잠재고객이 이미 제품을 신뢰하는 사람으로부터 직접 이야기를 듣게 했다. 영업직원은 이후 각 잠재고객에게 디너에서 옆에 앉았던 고객을 소개하는 이메일(\"두 분이 디너에서 X에 대해 얘기하셨죠\")을 보냈는데, 이는 흔한 '만나서 반가웠습니다' 이메일보다 훨씬 무시하기 어렵다.",
+        "points": [
+          "기존 방식의 문제: 디너 당일 위주 설계, 사후 이메일은 대부분 무시됨",
+          "새 방식: 영업직원을 테이블에 배치해 고객-잠재고객을 옆자리로 매칭",
+          "팔로우업: '두 분이 X에 대해 얘기하셨죠' 식의 개인화된 소개 이메일",
+          "성과: 콘퍼런스 디너 1회로 $400만 매출"
+        ],
+        "why": [
+          "오프라인 네트워킹 이벤트의 ROI를 설계로 극대화할 수 있다는 구체적 전술"
+        ]
+      }
+    },
+    {
+      "id": "founders-claude-enterprise-smart-reports-pooled-budgets",
+      "title": "클로드 엔터프라이즈, '스마트 리포트'·서베이·풀드 그룹 예산 도입",
+      "summary": "팀의 AI 활용 성과와 비용을 보여주고, 공유 월간 예산으로 지출을 관리할 수 있게 됐다.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets?open_in_browser=1&utm_source=tldrfounders",
+      "report": {
+        "tldr": "앤트로픽이 클로드 엔터프라이즈에 '스마트 리포트', 서베이, 풀드 그룹 예산 기능을 추가했다.",
+        "what": "스마트 리포트는 팀이 클로드로 무엇을 해내고 있으며 그 작업이 얼마의 비용이 드는지 보여준다. 관리자는 팀이 AI와 어떻게 협업하고 있는지 피드백을 받는 서베이를 만들 수 있게 됐고, 풀드 그룹 예산은 팀에게 공유 월간 예산을 부여한다. 단, 개별 사용자의 과도한 사용을 막는 가드레일로 멤버별 한도도 여전히 유지된다.",
+        "points": [
+          "스마트 리포트: 팀의 작업 성과 + 비용 가시화",
+          "서베이: AI 협업 방식에 대한 팀 피드백 수집",
+          "풀드 그룹 예산: 팀 단위 공유 월간 예산",
+          "가드레일: 멤버별 사용 한도 유지"
+        ],
+        "why": [
+          "AI 지출 관리·거버넌스 기능이 엔터프라이즈 도입의 핵심 요구사항으로 자리잡고 있음"
+        ]
+      }
+    },
+    {
+      "id": "founders-slack-code-api",
+      "title": "슬랙 코드 API: 에이전트·팀이 하나의 '코드 채널'에서 협업",
+      "summary": "에이전트가 직접 코드 채널을 열고 사람을 초대하며 작업 완료 후 보관까지 처리한다.",
+      "source": "Slack Blog",
+      "url": "https://slack.com/blog/developers/slack-code-api?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Slack Code API는 에이전트가 코드 채널을 열고 관련 인물·파일을 추가하며 작업 진행상황을 올리고 작업 완료 후 채널을 보관할 수 있게 한다.",
+        "what": "이를 통해 팀은 에이전트와 같은 맥락을 공유하며 작업을 함께 진행할 수 있다. 사용자는 에이전트가 정확히 무엇을 하고 있는지, 누가 승인했는지 볼 수 있으며, 워크스페이스 통제와 데이터 경계가 기본으로 내재돼 있다. 사용자는 필요에 맞게 어떤 에이전트와 모델을 쓸지 선택할 수 있다.",
+        "points": [
+          "핵심 기능: 에이전트가 코드 채널 생성·관리·보관",
+          "가시성: 에이전트의 작업 내역과 승인자를 투명하게 확인 가능",
+          "통제: 워크스페이스 통제·데이터 경계 기본 내재",
+          "유연성: 에이전트·모델 선택 가능"
+        ],
+        "why": [
+          "협업 플랫폼이 '사람 중심 채널'을 넘어 '에이전트가 주도하는 작업 공간'으로 확장"
+        ]
+      }
+    },
+    {
+      "id": "founders-vercel-ai-traffic-insights",
+      "title": "버셀 옵저버빌리티, 'AI 트래픽 인사이트' 추가",
+      "summary": "어떤 페이지를 AI 비서가 가져가는지, 어디서 오류가 나는지 확인 가능.",
+      "source": "Vercel Changelog",
+      "url": "https://vercel.com/changelog/ai-traffic-insights-now-available-in-vercel-observability?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Vercel이 자사 사이트를 AI 봇이 어떻게 이용하는지 보여주는 'AI 트래픽 인사이트'를 Observability에 추가했다.",
+        "what": "이를 통해 누군가 AI 비서에게 질문했을 때 어떤 페이지를 가져오는지, 어떤 페이지가 봇에게 오류를 반환하는지 확인할 수 있다. CLI를 통한 수치 조회에는 Observability Plus가 필요하다.",
+        "points": [
+          "기능: AI 비서가 가져가는 페이지 + 오류 반환 페이지 확인",
+          "제약: CLI로 수치 조회 시 Observability Plus 필요"
+        ],
+        "why": [
+          "AI 챗봇이 웹사이트 트래픽의 새로운 '방문자'로 자리잡으며 이를 측정하는 관측 도구가 등장"
+        ]
+      }
+    },
+    {
+      "id": "founders-spawn-ai-pilled-company",
+      "title": "'세상에서 가장 AI에 몰입한 회사' 스폰, 10명이 페이롤의 30배를 AI 토큰에 지출",
+      "summary": "영구적인 AI 에이전트 플릿이 회사 각 부분을 소유하며 30일간 7.7만 건의 실질적 변경을 만들어낸다.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/lP1BDf?utm_source=tldrfounders",
+      "report": {
+        "tldr": "10명 규모의 회사 Spawn이 페이롤의 30배를 AI 토큰에 지출하며, 거의 앤트로픽만큼 많은 양을 출시하고 있다.",
+        "what": "최근 30일간 7만7000건의 실질적인 변경이 이뤄졌다. 작업은 각기 회사의 일부를 소유하는 영구적인 AI 에이전트 플릿이 수행하며, 모델 성능이 개선될 때마다 팀의 속도와 일관성이 함께 향상되면서 회사의 생산성 방향이 더 긍정적으로 움직이고 있다.",
+        "points": [
+          "회사 규모: 10명",
+          "AI 토큰 지출: 페이롤의 30배",
+          "30일간 실질 변경: 7만7000건",
+          "구조: 영구적 AI 에이전트 플릿이 회사 각 부분을 소유"
+        ],
+        "why": [
+          "극단적인 'AI 퍼스트' 조직 운영 모델의 실제 사례로, 소규모 팀의 생산성 상한선을 재정의"
+        ]
+      }
+    },
+    {
+      "id": "founders-90-percent-gross-margin-era-over",
+      "title": "'90% 그로스마진 시대'는 끝났다 — AI 기업의 새 경제학",
+      "summary": "고객별·가격코호트별로 마진을 나눠 보여줘야 투자자를 설득할 수 있다.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/RLb9rt?utm_source=tldrfounders",
+      "report": {
+        "tldr": "AI 기업은 고객 서비스 비용이 훨씬 높아지면서 경제성을 새로운 방식으로 투자자에게 설명해야 한다.",
+        "what": "기업은 고객별 그로스마진과 가격 코호트별 그로스마진을 분리해서 봐야 한다. 가격 정책을 바꿀 때는 새 모델을 쓰는 고객의 마진이 이전 모델 고객보다 높고, 그 격차가 계속 벌어지고 있다는 것을 투자자에게 보여주는 것이 이상적이다.",
+        "points": [
+          "배경: AI로 인한 고객 서비스 비용 상승",
+          "필요한 분리 지표: 고객별 그로스마진, 가격 코호트별 그로스마진",
+          "투자자 설득 포인트: 신규 가격 모델 고객의 마진이 더 높고 격차가 확대 중임을 입증"
+        ],
+        "why": [
+          "AI 기업의 전통적인 SaaS식 그로스마진 설명 방식이 더는 통하지 않음을 시사"
+        ]
+      }
+    },
+    {
+      "id": "founders-webflow-ai-tool-tracking",
+      "title": "개발자들은 AI에게 '어떤 툴을 쓸지' 묻는다 — 웹플로우의 추적 사례",
+      "summary": "이름이 알려지는 것은 쉽지만 '정확하게 설명되는 것'은 노력이 필요하다.",
+      "source": "Webflow Blog",
+      "url": "https://webflow.com/blog/track-mcp-ai-visibility?utm_source=tldrfounders",
+      "report": {
+        "tldr": "개발자들이 어떤 개발 툴을 써야 할지 AI에게 묻는 경향이 늘면서, 브랜드가 AI 답변에 어떻게 묘사되는지 추적하는 일이 중요해지고 있다.",
+        "what": "이름이 AI에게 알려지는 것 자체는 어렵지 않지만, AI가 브랜드를 정확하고 유리하게 설명하도록 만드는 데는 상당한 노력이 필요하다는 것이 웹플로우의 결론이다.",
+        "points": [
+          "트렌드: 개발자가 '어떤 툴을 쓸지'를 AI에게 질의",
+          "과제: AI 답변 속에서 브랜드가 정확히 설명되도록 만드는 것"
+        ],
+        "why": [
+          "AEO(AI 답변 최적화)가 개발자 도구 마케팅에서도 핵심 과제로 부상"
+        ]
+      }
+    },
+    {
+      "id": "founders-system-of-action-essays",
+      "title": "'시스템 오브 액션': AI 시대 수직 소프트웨어가 승리하는 법",
+      "summary": "버티컬 소프트웨어가 AI 시대에 경쟁우위를 지키기 위한 조건을 다룬 에세이 시리즈.",
+      "source": "Tidemark Capital",
+      "url": "https://tidemarkcap.com/system-of-action/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "'System of Action'은 AI 시대에 버티컬(수직) 소프트웨어가 시장에서 승리하기 위해 필요한 조건을 다루는 에세이 시리즈다.",
+        "what": "시리즈는 AI가 소프트웨어 경쟁의 구조를 바꾸는 가운데, 특정 산업에 특화된 소프트웨어가 어떻게 방어가능한 위치를 유지할 수 있는지를 다룬다.",
+        "points": [
+          "형식: 에세이 시리즈",
+          "주제: AI 시대 버티컬 소프트웨어의 경쟁우위 조건"
+        ],
+        "why": [
+          "범용 AI 툴이 늘어날수록 버티컬 소프트웨어의 차별화 전략에 대한 관심이 커짐"
+        ]
+      }
+    },
+    {
+      "id": "founders-solo-developer-business-moats",
+      "title": "1인 개발자가 만들 수 있는 '비즈니스 해자'는 무엇인가",
+      "summary": "제안된 해자가 매주 요구하는 작업량과, 고객이 그만큼의 가치를 인정하는지를 함께 따져봐야 한다.",
+      "source": "flaviocopes.com",
+      "url": "https://flaviocopes.com/indie-business-moats/?utm_source=tldrfounders",
+      "report": {
+        "tldr": "1인 개발자가 구축할 수 있는 비즈니스 해자를 평가하려면, 그 해자가 매주 요구하는 작업량과 고객이 그 결과에 부여하는 가치를 함께 따져봐야 한다.",
+        "what": "해자를 유지하는 데 드는 반복적인 노력과, 고객이 실제로 그 결과를 지불할 만큼 가치있게 여기는지를 비교해 지속가능성을 판단해야 한다는 조언이다.",
+        "points": [
+          "평가 기준 1: 해자 유지에 매주 드는 작업량",
+          "평가 기준 2: 고객이 그 결과에 지불 의사가 있는 가치"
+        ],
+        "why": [
+          "1인/소규모 개발자가 AI로 쉽게 복제 가능한 기능이 아닌, 지속가능한 해자를 선택하는 데 유용한 기준"
+        ]
+      }
+    },
+    {
+      "id": "founders-steal-competitors-customers-under-100",
+      "title": "100달러 이하로 경쟁사 고객을 데려오는 법",
+      "summary": "Wispr Flow와 Granola가 서로의 유료 사용자를 추천 보상으로 유치 중.",
+      "source": "marketingideas.com",
+      "url": "https://www.marketingideas.com/p/steal-your-competitors-customers?utm_source=tldrfounders",
+      "report": {
+        "tldr": "Wispr Flow는 추천인에게 $35를 지급해 Granola의 유료 사용자를 데려오고, Granola는 $20을 지급해 신규 사용자를 모집하고 있다.",
+        "what": "두 경쟁 제품이 추천 보상을 통해 상대방의 사용자 기반을 직접 겨냥하는 저비용 고객 획득 전술을 쓰고 있다.",
+        "points": [
+          "Wispr Flow: 추천 보상 $35 (Granola 유료 사용자 대상)",
+          "Granola: 추천 보상 $20 (신규 사용자 모집)"
+        ],
+        "why": [
+          "경쟁사의 기존 유료 고객을 직접 타겟팅하는 추천 마케팅이 저비용 성장 전술로 활용됨"
+        ]
+      }
+    },
+    {
+      "id": "founders-rollup-targets-not-just-cheap",
+      "title": "'롤업' 인수 대상, 싼 것만 보면 안 되는 이유",
+      "summary": "한 인수 대상 기업은 직원 부족으로 전년 매출의 4~5배에 달하는 일을 거절하고 있었다.",
+      "source": "Substack (readonpaper)",
+      "url": "https://readonpaper.substack.com/p/roll-up-targets-shouldnt-just-be?utm_source=tldrfounders",
+      "report": {
+        "tldr": "롤업(연쇄 인수) 대상을 평가할 때 가격만 봐서는 안 된다는 사례가 소개됐다.",
+        "what": "한 인수 대상 기업은 인력 부족으로 전년도 매출의 4~5배에 달하는 일감을 거절하고 있었는데, 이는 가격표 밖에서 드러나는 '숨겨진 성장 잠재력'을 보여준다.",
+        "points": [
+          "사례: 인력 부족으로 전년 매출 4~5배 규모의 일감을 거절 중이던 인수 대상"
+        ],
+        "why": [
+          "롤업 전략에서 재무제표만으로 드러나지 않는 미실현 수요를 포착하는 것이 핵심 가치 창출 포인트"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "name": "AI",
+  "source": "TLDR AI",
+  "icon": "🤖",
+  "color": "#7aa2ff",
+  "bg": "#1d2942",
+  "items": [
+    {
+      "id": "ai-gemini-4-carbon",
+      "title": "구글, 에너지 효율 높인 '제미나이 4 카본' 공개",
+      "summary": "구글이 탄소 발자국을 줄이면서 자연어 처리 성능을 끌어올린 신모델 Gemini 4 Carbon을 발표했다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/?utm_source=tldrai",
+      "report": {
+        "tldr": "구글이 에너지 효율을 높인 신모델 Gemini 4 Carbon을 공개했다.",
+        "what": "구글이 자연어 처리 성능을 끌어올리면서도 탄소 발자국을 줄이는 데 초점을 맞춘 Gemini 4 Carbon을 발표했다. AI 개발의 지속가능성 문제를 겨냥한 모델로, 친환경 AI의 새로운 업계 기준을 세우는 것을 목표로 한다.",
+        "points": [
+          "모델명: Gemini 4 Carbon",
+          "핵심 포인트: 에너지 효율 개선 + 자연어 처리 성능 향상",
+          "같은 모델이 TLDR Dev·TLDR(빅테크) 에디션에도 코딩·보안 특화 버전으로 소개됨"
+        ],
+        "why": [
+          "AI 모델 경쟁이 성능 외에 '에너지 효율'이라는 축으로도 확장되고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "ai-nemotron-transcribe-granary",
+      "title": "NVIDIA, 다국어 음성전사 오픈모델 '네모트론 3.5 트랜스크라이브' 공개",
+      "summary": "NVIDIA의 Nemotron 3.5 Transcribe가 다국어 전사·화자분리 리더보드에서 1위를 차지했다.",
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary?utm_source=tldrai",
+      "report": {
+        "tldr": "NVIDIA의 오픈 웨이트 모델 Nemotron 3.5 Transcribe가 다국어 전사·화자분리·오디오 Q&A에서 1위에 올랐다.",
+        "what": "Nemotron 3.5 Transcribe는 다국어 전사, 번역, 화자 분리(speaker attribution), 오디오 질의응답을 지원하는 오픈 웨이트 모델로 여러 전사·화자분리 리더보드에서 1위를 기록했다. 최대 40개 언어를 낮은 오류율로 지원하며, 함께 공개된 Granary v2는 재사용 가능한 데이터 파이프라인과 파인튜닝 옵션을 제공해 다양한 어휘와 특화 응용에 맞춘 커스터마이징을 지원한다.",
+        "points": [
+          "지원 언어: 최대 40개",
+          "특징: 전사·번역·화자분리·오디오 Q&A 지원, 오픈 웨이트",
+          "순위: 여러 전사·화자분리 리더보드 1위",
+          "동반 공개: Granary v2 (재사용 가능한 데이터 파이프라인 + 파인튜닝)"
+        ],
+        "why": [
+          "오픈 웨이트 모델이 상용 서비스 수준의 다국어 전사 품질에 도달했음을 시사"
+        ]
+      }
+    },
+    {
+      "id": "ai-artificial-analysis-v5-benchmarkers-dilemma",
+      "title": "독립 AI 벤치마크의 딜레마: '트릴리언 달러 시장'의 승자를 가르는 숫자들",
+      "summary": "독립 평가기관이 내놓는 벤치마크 숫자가 모델 개발 방향까지 좌우하는 현실을 다룬 분석.",
+      "source": "Interconnects (Nathan Lambert)",
+      "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers?utm_source=tldrai",
+      "report": {
+        "tldr": "독립적인 언어모델 평가는 바이브체크·커뮤니티 여론·과학적 분석을 동시에 만족시키기 어려운 구조적 난제에 부딫힌다.",
+        "what": "현재 모델을 대표하면서도 3개월 내 낙후되지 않을 만큼 미래지향적인 단일 숫자를 만드는 일은 본질적으로 어렵다. 독립 평가기관은 수조 달러 규모 시장의 승자와 패자를 가르는 영향력을 갖게 되며, 이는 모델 개발의 방향 자체에도 압박을 가한다.",
+        "points": [
+          "과제: '대표성'과 '미래지향성'을 동시에 만족하는 벤치마크 설계",
+          "영향력: 독립 평가기관이 트릴리언 달러 시장의 승자·패자를 결정",
+          "부작용: 평가 지표가 모델 개발 방향에 역으로 영향을 미치는 압박 발생"
+        ],
+        "why": [
+          "벤치마크 신뢰도 문제는 AI 업계 전체의 투자·채택 판단에 직결되는 이슈"
+        ]
+      }
+    },
+    {
+      "id": "ai-qwenputer-risc-v-cpu-qwen35",
+      "title": "Qwen3.5 안에서 돌아가는 완전한 RISC-V CPU, '큐엔퓨터'",
+      "summary": "모델의 Gated DeltaNet 레이어를 RAM처럼 활용해 외부 런타임 없이 연산을 수행하는 실험적 구현.",
+      "source": "divagr.com",
+      "url": "https://divagr.com/blog/qwenputer?utm_source=tldrai",
+      "report": {
+        "tldr": "Qwenputer는 Qwen3.5 모델 내부에서 작동하는 결정론적(deterministic) RISC-V CPU 구현체다.",
+        "what": "Qwenputer는 Qwen3.5의 Gated DeltaNet(GDN) 레이어를 RAM처럼 사용해 외부 런타임이나 툴 호출 없이 산술 연산과 C, MicroPython 코드를 실행할 수 있는 완전한 RISC-V CPU다. 개발자는 모델 안에 실험적인 파일 저장소까지 구현해 넣었다.",
+        "points": [
+          "구현 대상: 결정론적 RISC-V CPU",
+          "메모리 활용: GDN 레이어를 RAM으로 사용",
+          "실행 가능: 산술 연산, C, MicroPython 코드 (외부 런타임 불필요)",
+          "추가 기능: 모델 내 실험적 파일 저장소"
+        ],
+        "why": [
+          "LLM 내부 구조를 범용 계산 장치로 활용할 수 있다는 점을 보여준 실험적 사례"
+        ]
+      }
+    },
+    {
+      "id": "ai-decagon-self-improving-inference-stack",
+      "title": "스스로 개선하는 추론 스택: Decagon의 AutoResearch 에이전트",
+      "summary": "프로덕션 트래픽으로 최적화를 테스트해 처리량을 최대 2.5배 끌어올린 사례.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/3vHagX",
+      "report": {
+        "tldr": "Decagon의 AutoResearch 에이전트가 추론 병목을 진단하고 실제 프로덕션 트래픽 재현으로 최적화를 검증해 처리량을 최대 2.5배 끌어올렸다.",
+        "what": "AutoResearch 에이전트는 추론 병목을 자동으로 진단하고, 프로덕션 트래픽 재현(replay)으로 최적화를 테스트하며, 실험 간 결과를 보존한다. 양자화, 스케줄링, 엔진 패치, 스펙큘레이티브 디코딩을 통해 지연시간 요구사항을 지키면서 처리량을 최대 2.5배까지 개선했다고 보고됐다. 단, 프로덕션 반영 전에는 사람의 승인이 필요하다.",
+        "points": [
+          "처리량 개선: 최대 2.5배",
+          "최적화 기법: 양자화, 스케줄링, 엔진 패치, 스펙큘레이티브 디코딩",
+          "검증 방식: 프로덕션 트래픽 재현으로 테스트",
+          "안전장치: 프로덕션 변경은 사람 승인 필요"
+        ],
+        "why": [
+          "AI 에이전트가 AI 인프라 자체의 운영·최적화까지 담당하는 흐름을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "ai-vercel-ci",
+      "title": "코딩 에이전트 속도 따라잡는 CI, 'Vercel CI' 베타 출시",
+      "summary": "변경된 코드에 영향받는 작업만 실행해 CI 통과 시간을 2~6배 단축.",
+      "source": "Vercel Blog",
+      "url": "https://vercel.com/blog/introducing-vercel-ci?utm_source=tldrai",
+      "report": {
+        "tldr": "Vercel이 코딩 에이전트의 속도에 맞춘 CI 시스템을 베타로 출시했다.",
+        "what": "Vercel CI는 코드 변경으로 영향을 받는 작업만 실행하고, 해당 체크에 필요한 컴퓨트만 가동한다. Vercel 내부에서는 git push부터 'CI pass'까지 걸리는 시간을 2~6배 단축했다고 밝혔다.",
+        "points": [
+          "상태: 베타 출시",
+          "핵심 기능: 영향받은 작업만 선택 실행 + 필요 컴퓨트만 가동",
+          "효과: push→CI pass 시간 2~6배 단축"
+        ],
+        "why": [
+          "코딩 에이전트가 생성하는 커밋 빈도가 늘면서 CI 인프라도 에이전트 속도에 맞춰 재설계되는 추세"
+        ]
+      }
+    },
+    {
+      "id": "ai-microsoft-copilot-harness",
+      "title": "마이크로소프트, 멀티모델 에이전트 작업의 기반 '코파일럿 하네스' 공개",
+      "summary": "Copilot Code·Studio·CLI·VS Code를 구동하는 공통 엔진을 Microsoft Foundry로 제공.",
+      "source": "Microsoft Blog",
+      "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/?utm_source=tldrai",
+      "report": {
+        "tldr": "마이크로소프트 코파일럿 하네스가 Copilot 제품군 전체를 구동하는 공통 엔진으로 Microsoft Foundry를 통해 제공된다.",
+        "what": "코파일럿 하네스는 Copilot Code, Copilot Studio, GitHub Copilot 앱, CLI, VS Code 등을 구동하는 공통 엔진으로, 이제 Microsoft Foundry를 통해 제공된다. 개발자와 엔터프라이즈 고객이 추론하고 툴을 사용하며 장시간 복잡한 작업을 완수하는 에이전트를 구축할 수 있는 완전관리형 방식을 제공하며, 여러 모델 패밀리에 걸쳐 동작하도록 설계됐다.",
+        "points": [
+          "구동 제품: Copilot Code, Copilot Studio, GitHub Copilot 앱, CLI, VS Code 등",
+          "제공 경로: Microsoft Foundry",
+          "특징: 멀티모델 호환, 완전관리형, 다양한 앱/에이전트/서비스에 맞춘 유연한 구성"
+        ],
+        "why": [
+          "마이크로소프트가 Copilot 제품군 전반의 에이전트 인프라를 표준화하려는 움직임"
+        ]
+      }
+    },
+    {
+      "id": "ai-github-copilot-fusion",
+      "title": "코파일럿이 작업마다 모델을 골라주는 '깃허브 코파일럿 퓨전'",
+      "summary": "작업별 최적 모델을 자동 선택·오케스트레이션하며 관리자가 사용 가능 모델을 제어할 수 있다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/?utm_source=tldrai",
+      "report": {
+        "tldr": "GitHub Copilot Fusion은 작업마다 적절한 모델을 자동으로 라우팅·오케스트레이션한다.",
+        "what": "Copilot Fusion은 Project HydraFusion의 멀티모델 오케스트레이션과 Copilot 자동 모델 선택의 장점을 결합해 성능과 비용 효율의 균형을 맞춘다. 사용자가 선택한 노력(effort) 수준에 따라 어떤 모델을 어떻게 조합할지 결정하며, 관리자는 사용 가능한 모델과 Fusion의 기본 적용 여부를 제어할 수 있다.",
+        "points": [
+          "기반 기술: Project HydraFusion 멀티모델 오케스트레이션 + Copilot 자동 모델 선택",
+          "동작 방식: 사용자가 설정한 노력 수준에 따라 모델 조합 결정",
+          "관리 기능: 관리자가 사용 가능 모델·기본 적용 여부 제어"
+        ],
+        "why": [
+          "'어떤 모델을 쓸지'를 사용자가 아니라 시스템이 자동으로 최적화하는 방향으로 코딩 도구가 진화"
+        ]
+      }
+    },
+    {
+      "id": "ai-meta-waddle-world-pet-app",
+      "title": "메타, 다마고치 같은 AI 반려동물 앱 '와들 월드' 출시",
+      "summary": "필리핀에서 iOS·안드로이드로 먼저 공개된 디지털 펫 겸 개인 저널 앱.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/?utm_source=tldrai",
+      "report": {
+        "tldr": "메타가 다마고치 형태의 AI 반려동물 앱 '와들 월드'를 필리핀에서 먼저 출시했다.",
+        "what": "와들 월드는 생산성 도구나 챗봇과 달리 디지털 펫 겸 개인 저널 역할을 하며, 사용자가 부담 없이 상호작용하고 미니게임을 즐길 수 있도록 설계됐다. 다른 AI 컴패니언 앱들이 겪은 법적 문제를 의식한 메타의 신중한 접근을 반영한다는 평가다.",
+        "points": [
+          "출시 지역: 필리핀 (iOS·안드로이드)",
+          "형태: 디지털 펫 + 개인 저널, 다마고치 방식",
+          "맥락: 타사 AI 컴패니언 앱의 법적 리스크를 의식한 신중한 접근"
+        ],
+        "why": [
+          "빅테크가 AI 컴패니언 시장에 진입하는 방식에서 리스크 관리가 핵심 변수가 되고 있음을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "ai-anthropic-ai-spending-tools",
+      "title": "앤트로픽, 기업용 'AI 지출 추적' 도구 출시",
+      "summary": "생산성·비용·개선 권고까지 보여주는 리포팅 도구로 엔터프라이즈 고객의 지출 불확실성 해소 노림수.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/?utm_source=tldrai",
+      "report": {
+        "tldr": "앤트로픽이 기업이 Claude 등에 지출하는 AI 비용 대비 성과를 측정·최적화하는 리포팅 도구를 출시했다.",
+        "what": "이 도구는 생산성, 비용, 개선 권고에 대한 세부 인사이트를 제공해 엔터프라이즈 고객의 핵심 우려인 'AI 지출이 실제로 무엇을 사오는가'를 해소하려 한다. OpenAI 등 경쟁 모델의 압박 속에서도 앤트로픽은 강력한 엔터프라이즈 입지와 끈끈한 워크플로를 바탕으로 도입과 지출 성장을 이어가고 있다.",
+        "points": [
+          "기능: 생산성·비용 인사이트 + 최적화 권고",
+          "목적: 엔터프라이즈 고객의 AI 지출 투명성 확보",
+          "경쟁 구도: OpenAI 'Astra' 등과 경쟁 속 엔터프라이즈 입지 유지"
+        ],
+        "why": [
+          "AI 지출의 ROI 증명이 엔터프라이즈 영업의 새로운 핵심 과제로 부상"
+        ]
+      }
+    },
+    {
+      "id": "ai-copilot-automations-self-improve",
+      "title": "깃허브 코파일럿 오토메이션, 실제 결과로부터 스스로 학습",
+      "summary": "실행 결과를 학습해 자동화 품질을 스스로 개선하는 기능이 추가됐다.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/changelog/2026-10-28-copilot-automations-now-learn-from-outcomes-and-self-improve/?utm_source=tldrai",
+      "report": {
+        "tldr": "GitHub Copilot Automations가 실제 작업 결과를 학습해 스스로 개선하는 기능을 갖추게 됐다.",
+        "what": "Copilot Automations는 이제 GitHub 상의 실제 결과를 바탕으로 학습해 자동화 로직을 스스로 개선한다.",
+        "points": [
+          "기능: 실행 결과 기반 자기개선 학습"
+        ],
+        "why": [
+          "자동화 도구가 정적 규칙에서 '경험으로 학습하는' 방향으로 진화 중"
+        ]
+      }
+    },
+    {
+      "id": "ai-openai-text-dot-agent",
+      "title": "OpenAI, 문자로 말 거는 'Dot 에이전트' 지원",
+      "summary": "미국 Pro 사용자는 iMessage·RCS로 텍스트·사진·음성 메모를 보내 에이전트에 지시할 수 있다.",
+      "source": "Engadget",
+      "url": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/?utm_source=tldrai",
+      "report": {
+        "tldr": "OpenAI가 미국 Pro 사용자에게 iMessage·RCS로 Dot 에이전트에 문자 지시를 보낼 수 있는 기능을 제공한다.",
+        "what": "사용자는 텍스트, 사진, 음성 메모를 통해 Dot 에이전트에 지시할 수 있다.",
+        "points": [
+          "대상: 미국 Pro 사용자",
+          "채널: iMessage, RCS",
+          "입력 형식: 텍스트·사진·음성 메모"
+        ],
+        "why": [
+          "AI 에이전트 접점이 전용 앱을 넘어 기본 메시징 채널로 확장되는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "ai-google-connected-apps-platform",
+      "title": "구글, 커넥티드 앱을 한곳에서 빌드·관리하는 플랫폼 공개",
+      "summary": "구글이 연결된 앱을 구축·관리할 수 있는 중앙화 플랫폼을 선보였다.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/?utm_source=tldrai",
+      "report": {
+        "tldr": "구글이 커넥티드 앱을 구축·관리할 수 있는 중앙화 플랫폼을 도입했다.",
+        "what": "해당 플랫폼은 여러 커넥티드 앱을 한 곳에서 구축하고 관리할 수 있게 해준다.",
+        "points": [
+          "핵심: 커넥티드 앱 빌드·관리 중앙화"
+        ],
+        "why": [
+          "에이전트·앱 생태계가 늘어나면서 통합 관리 플랫폼의 필요성이 커지고 있음"
+        ]
+      }
+    },
+    {
+      "id": "ai-elevenlabs-cue",
+      "title": "일레븐랩스, 글자 단위 오디오 타이밍 모델 '큐' 공개",
+      "summary": "오디오 파일 내 정밀한 캐릭터 단위 타이밍을 맞추는 강제 정렬(forced alignment) 모델.",
+      "source": "ElevenLabs Blog",
+      "url": "https://elevenlabs.io/blog/cue-aligner?utm_source=tldrai",
+      "report": {
+        "tldr": "ElevenLabs의 Cue는 오디오 파일에서 글자 단위의 정밀한 타이밍을 맞추는 강제 정렬 모델이다.",
+        "what": "Cue는 오디오 파일 내 캐릭터 단위의 정밀한 타이밍 정렬을 제공하는 forced alignment 모델이다.",
+        "points": [
+          "기능: 캐릭터 단위(character-level) 오디오 타이밍 정렬",
+          "분류: forced alignment 모델"
+        ],
+        "why": [
+          "자막·더빙·음성 합성 등 정밀 타이밍이 필요한 미디어 워크플로에 활용 가능"
+        ]
+      }
+    },
+    {
+      "id": "ai-mirendil-lor-research-automation",
+      "title": "미렌딜, AI 연구 자동화 시스템 '로어' 공개",
+      "summary": "수백 개의 병렬 워커가 며칠간 코드를 작성·실험·반복하는 연구 자동화 시스템.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/Gjr8EV",
+      "report": {
+        "tldr": "Lor는 에이전트들이 코드를 작성하고 실험을 실행하며 며칠간 반복 개선하는 AI 연구 자동화 시스템이다.",
+        "what": "Lor의 에이전트들은 수백 개의 병렬 워커에 걸쳐 코드를 작성하고 실험을 실행하며 수일간 반복적으로 개선 작업을 수행한다.",
+        "points": [
+          "구조: 수백 개 병렬 워커",
+          "작업: 코드 작성, 실험 실행, 수일간 반복 개선"
+        ],
+        "why": [
+          "AI 연구·개발 자체를 장기간 자율적으로 수행하는 에이전트 시스템이 늘어나는 추세"
+        ]
+      }
+    }
+  ]
+}

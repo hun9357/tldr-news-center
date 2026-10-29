@@ -1,0 +1,278 @@
+{
+  "name": "데이터",
+  "source": "TLDR Data",
+  "icon": "📊",
+  "color": "#f0a868",
+  "bg": "#332414",
+  "items": [
+    {
+      "id": "data-2026-cloud-warehouse-benchmark",
+      "title": "2026 클라우드 데이터 웨어하우스 벤치마크: 모더덕 vs 패브릭 vs 클릭하우스",
+      "summary": "100GB 기준 모더덕이 단일 사용자 속도·비용 1위, 클릭하우스는 20.4% 실행 실패.",
+      "source": "estuary.dev",
+      "url": "https://warehouse-benchmark.estuary.dev/?utm_source=tldrdata",
+      "report": {
+        "tldr": "100GB 규모 테스트에서 MotherDuck이 단일 사용자 속도(235ms)와 비용($0.00124/쿼리) 모두에서 1위를 차지했다.",
+        "what": "Fabric은 100명 동시 사용자를 시간당 $5.76 비용으로 5초 이내에 서비스했고, ClickHouse는 단일 사용자 실행의 20.4%가 실패했다. Databricks는 1GB에서 1TB로 늘어날 때 지연시간 증가가 가장 적었다(3.7배, MotherDuck의 30배와 비교). 모든 테스트는 튜닝과 오토스케일링을 비활성화한 채 진행됐다.",
+        "points": [
+          "MotherDuck: 단일사용자 235ms, $0.00124/쿼리 (1위)",
+          "Fabric: 동시사용자 100명, 5초 이내, 시간당 $5.76",
+          "ClickHouse: 단일사용자 실행 20.4% 실패",
+          "Databricks: 1GB→1TB 지연시간 증가 3.7배 (MotherDuck은 30배)",
+          "테스트 조건: 튜닝·오토스케일링 비활성화"
+        ],
+        "why": [
+          "워크로드 특성에 따라 최적의 데이터 웨어하우스가 크게 달라진다는 구체적 벤치마크 근거"
+        ]
+      }
+    },
+    {
+      "id": "data-azure-sql-hyperscale-socrates",
+      "title": "데이터베이스를 넷으로 쪼갠 논문: 애저 SQL 하이퍼스케일 '소크라테스'",
+      "summary": "로그와 스토리지를 분리해 100TB 확장, 스토리지 복제본 절반으로, 50TB 복구를 몇 분으로 단축.",
+      "source": "Microsoft DevBlogs",
+      "url": "https://devblogs.microsoft.com/azure-sql/the-paper-that-split-the-database-in-four-inside-azure-sql-database-hyperscale-aka-socrates/?utm_source=tldrdata",
+      "report": {
+        "tldr": "과거 Azure SQL은 각 데이터베이스의 전체 복사본 4개를 유지해 실질적인 크기 상한이 약 4TB였다.",
+        "what": "2019년 발표된 Socrates 논문은 로그와 스토리지를 분리해 내구성(durability)과 가용성이 독립적으로 확장될 수 있게 했다. 이 접근 전환으로 Hyperscale은 100TB까지 확장 가능해졌고, 스토리지 복제본 수를 절반으로 줄였으며, 50TB 데이터베이스 복구를 몇 분 단위로 단축했다.",
+        "points": [
+          "과거 한계: 전체 복사본 4개 유지, 실질 상한 약 4TB",
+          "핵심 아이디어(Socrates, 2019년): 로그와 스토리지 분리",
+          "성과: 최대 100TB 확장, 스토리지 복제본 절반 감소, 50TB 복구를 '분' 단위로"
+        ],
+        "why": [
+          "아키텍처 수준의 재설계가 클라우드 DB의 확장성 한계를 근본적으로 바꾼 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-jd-lakestream-fluss-hudi",
+      "title": "JD닷컴, 아파치 플러스+후디로 만든 '레이크스트림'",
+      "summary": "스트리밍·배치 파이프라인을 하나로 통합, 매 티어링 라운드마다 단일 Hudi 커밋으로 일관성 보장.",
+      "source": "Apache Fluss Blog",
+      "url": "https://fluss.apache.org/blog/how-jd-built-a-lakestream-with-fluss-and-hudi?utm_source=tldrdata",
+      "report": {
+        "tldr": "JD닷컴은 병렬로 운영되던 스트리밍·배치 트레이닝 데이터 파이프라인을 단계적 마이그레이션으로 통합했다: Fluss에 한 번만 쓰고, Hudi로 티어링하고, 신선한 데이터와 과거 데이터를 유니온해서 읽는 구조다.",
+        "what": "가장 어려운 부분은 일관성 보장이다. 워커들은 매 티어링 라운드마다 단일 Hudi 커밋을 조율하고, 커밋이 완료된 뒤에만 일치하는 스트림 오프셋을 보고한다. 이 패턴은 롤백에 안전한 캐치업을 가능하게 하지만, 스키마 진화와 동적 버킷팅은 아직 해결되지 않은 과제로 남아 있다.",
+        "points": [
+          "구조: Fluss(쓰기) → Hudi(티어링) → 신선+과거 데이터 유니온 읽기",
+          "일관성 보장: 매 티어링 라운드마다 단일 Hudi 커밋 조율",
+          "장점: 롤백 안전한 캐치업",
+          "미해결 과제: 스키마 진화, 동적 버킷팅"
+        ],
+        "why": [
+          "대규모 스트리밍·배치 통합 아키텍처의 실제 트레이드오프를 보여주는 사례연구"
+        ]
+      }
+    },
+    {
+      "id": "data-single-row-point-queries-best-practices",
+      "title": "단일 행 조회(포인트 쿼리) 최적화 모범사례",
+      "summary": "정렬된 파케이 파일·적절한 row group 크기·메타데이터 캐싱으로 분석 엔진도 저지연 조회에 활용 가능.",
+      "source": "DataFusion Blog",
+      "url": "https://datafusion.apache.org/blog/2026/10/24/point-queries?utm_source=tldrdata",
+      "report": {
+        "tldr": "DataFusion은 분석용이 아닌 조회(retrieval)용으로 튜닝하면 포인트 쿼리에서도 놀랄 만큼 좋은 성능을 낼 수 있다.",
+        "what": "가장 큰 성능 개선은 불필요한 작업을 최소화하는 스토리지 레이아웃과 실행 선택에서 나온다. 예를 들면 정렬된 Parquet 파일, 적절한 크기의 row group, 메타데이터 캐싱, 프리페어드 스테이트먼트 등이다. 더 넓은 교훈은 워크로드를 의도적으로 설계하면 분석 엔진도 저지연 읽기를 서빙할 수 있다는 점이다.",
+        "points": [
+          "핵심 기법: 정렬된 Parquet 파일, 적절한 row group 크기, 메타데이터 캐싱, 프리페어드 스테이트먼트",
+          "결론: 분석 엔진도 설계를 통해 저지연 읽기 서빙 가능"
+        ],
+        "why": [
+          "분석 전용으로 여겨지던 엔진을 운영계 조회용으로 재활용할 수 있는 구체적 튜닝 가이드"
+        ]
+      }
+    },
+    {
+      "id": "data-analytics-agent-50-to-96-accuracy",
+      "title": "분석 에이전트 정확도를 50%에서 96%로 끌어올린 비결",
+      "summary": "모델을 Sonnet→Opus로 바꾸고, 비즈니스 지표를 명확히 하고 합의된 계산법을 쓰게 한 것이 핵심.",
+      "source": "Benchouse",
+      "url": "https://benchouse.ai/blog/getting-an-analytics-agent-from-50-to-96?utm_source=tldrdata",
+      "report": {
+        "tldr": "Benchouse는 'nao' 에이전트의 정확도를 모델을 Sonnet에서 Opus로 바꿔 49.6%에서 88.2%로 끌어올린 뒤, 더 나은 맥락 제공으로 96.5%까지 개선했다.",
+        "what": "핵심 수정 사항은 비즈니스 지표를 명확히 하고, 모호한 용어를 제거하고, 대안을 제시하기 전에 에이전트가 합의된 계산법을 먼저 사용하도록 지시한 것이었다.",
+        "points": [
+          "1차 개선: 모델 교체(Sonnet→Opus)로 49.6%→88.2%",
+          "2차 개선: 맥락 보강으로 88.2%→96.5%",
+          "핵심 수정: 비즈니스 지표 명확화, 모호한 용어 제거, 합의된 계산법 우선 사용 지시"
+        ],
+        "why": [
+          "에이전트 정확도 개선이 모델 교체만큼이나 '맥락 설계'에 크게 좌우된다는 구체적 증거"
+        ]
+      }
+    },
+    {
+      "id": "data-benchmarking-crisis-clickbench",
+      "title": "'벤치마크 위기': AI가 작성한 DB 엔진이 클릭벤치를 속이는 법",
+      "summary": "pgrust는 해시값만으로 문자열을 묶고 반복되는 프레디케이트를 캐시해 벤치마크 쿼리의 상당 부분을 건너뛴다.",
+      "source": "Database Architects Blog",
+      "url": "http://databasearchitects.blogspot.com/2026/10/the-benchmarking-crisis.html?utm_source=tldrdata",
+      "report": {
+        "tldr": "AI 코드 생성이 데이터베이스 엔진들이 ClickBench 벤치마크를 '게임'하도록 돕고 있다.",
+        "what": "그중 pgrust라는 엔진은 문자열을 해시값만으로 그룹화하고, 벤치마크가 반복하는 프레디케이트를 캐시하며, 특정 쿼리에서는 대부분의 데이터를 건너뛴다. 어떤 벤치마크든 시스템이 그것에 맞춰 최적화하기 시작하면 더는 유용성을 잃으며, 바이브코딩된 엔진들은 정직성을 유지하게 해줄 실제 고객이 없다는 지적이다.",
+        "points": [
+          "사례: pgrust — 해시 기반 문자열 그룹화, 반복 프레디케이트 캐싱, 데이터 스킵",
+          "구조적 문제: 벤치마크 최적화가 곧 벤치마크의 유용성 상실로 이어짐",
+          "리스크: '바이브코딩'된 엔진은 정직성을 담보할 실제 고객이 없음"
+        ],
+        "why": [
+          "AI로 쉽게 만들어지는 소프트웨어가 평가 지표 자체를 왜곡시킬 수 있다는 경고"
+        ]
+      }
+    },
+    {
+      "id": "data-meta-privacylib-access-boundary",
+      "title": "메타의 '프라이버시립': 데이터 접근 시점에 규칙을 강제하다",
+      "summary": "건건이 다른 통합 대신, 다양한 데이터 플랫폼을 공통 연산 몇 가지로 정규화해 재사용 가능한 정책 집행 레이어를 구축.",
+      "source": "Meta Engineering Blog",
+      "url": "https://engineering.fb.com/2026/10/27/security/privacylib?utm_source=tldrdata",
+      "report": {
+        "tldr": "메타는 데이터가 접근되는 바로 그 순간에 프라이버시 규칙을 강제하는 PrivacyLib를 구축해, 건건이 다른 통합 작업을 공유 통제 체계로 대체했다.",
+        "what": "핵심 교훈은 다양한 데이터 플랫폼을 소수의 공통 연산으로 정규화하는 것이며, 이는 정책 집행을 재사용 가능하고 확장 가능하게 만들며 전통적인 인프라에서 AI 에이전트까지 확장할 수 있게 한다.",
+        "points": [
+          "목표: 데이터 접근 시점(access boundary)에서 프라이버시 규칙 강제",
+          "핵심 설계: 다양한 플랫폼을 소수의 공통 연산으로 정규화",
+          "효과: 재사용 가능·확장 가능한 정책 집행, AI 에이전트까지 확장 가능"
+        ],
+        "why": [
+          "AI 에이전트의 데이터 접근이 늘어나는 상황에서 프라이버시 집행의 표준 아키텍처 패턴을 제시"
+        ]
+      }
+    },
+    {
+      "id": "data-egres-postgres-compatible-multitenant",
+      "title": "포스트그레스 프로토콜 쓰는 새 DB '에그레스', 디스크 46% 덜 쓴다",
+      "summary": "포스트그레스 코드는 거의 공유하지 않으면서도 한 프로세스에서 수천 개 테넌트를 처리.",
+      "source": "manishrjain.com",
+      "url": "https://manishrjain.com/egres/?utm_source=tldrdata",
+      "report": {
+        "tldr": "Egres는 Postgres 프로토콜을 그대로 사용하지만 Postgres 코드는 거의 공유하지 않는 신규 오픈소스 데이터베이스다.",
+        "what": "한 프로세스에서 수천 개의 테넌트를 운영하면서 쿼리별로 CPU·메모리·디스크 사용량을 측정(metering)한다. 벤치마크에서는 Postgres 18 대비 디스크 사용량을 46% 줄였다.",
+        "points": [
+          "호환성: Postgres 프로토콜 호환 (코드는 거의 공유하지 않음)",
+          "구조: 한 프로세스에서 수천 테넌트, 쿼리별 리소스 미터링",
+          "성능: Postgres 18 대비 디스크 사용량 46% 감소"
+        ],
+        "why": [
+          "'포스트그레스를 오늘 다시 설계한다면?'이라는 질문에 대한 실제 구현 답변"
+        ]
+      }
+    },
+    {
+      "id": "data-duckdb-2-0-gems",
+      "title": "덕DB 2.0.0의 숨은 보석들: 파이썬 어펜더부터 보안 뷰까지",
+      "summary": "쿼리 플랜·통계를 숨기는 보안 뷰, 커스텀 파티션 경로, GeoJSON 직접 내보내기 등 추가.",
+      "source": "DuckDB Blog",
+      "url": "https://duckdb.org/2026/10/26/gems-of-duckdb-200.html?utm_source=tldrdata",
+      "report": {
+        "tldr": "DuckDB 2.0은 생성된 행을 배치처리하는 Python appender, CLI 함수 매뉴얼, 조회 가능한 명령 기록, 기저 통계·쿼리 플랜을 숨기는 보안 뷰를 추가했다.",
+        "what": "그 외에도 커스텀 파티션 경로, 내보낸 파티션 내 정렬, GeoJSON 직접 내보내기, 확장 기능이 정의하는 윈도우 함수 지원 등이 추가됐다.",
+        "points": [
+          "신규 기능: Python appender(배치 처리), CLI 함수 매뉴얼, 조회 가능한 명령 기록",
+          "보안: 통계·쿼리 플랜을 숨기는 보안 뷰",
+          "기타: 커스텀 파티션 경로, GeoJSON 직접 내보내기, 확장 기능 기반 윈도우 함수"
+        ],
+        "why": [
+          "경량 분석 DB로 자리잡은 DuckDB가 엔터프라이즈급 기능까지 빠르게 흡수하고 있음"
+        ]
+      }
+    },
+    {
+      "id": "data-slayer-github-semantic-layer",
+      "title": "슬레이어: MCP·REST·SQL·파이썬 어디서나 쓰는 임베더블 시맨틱 레이어",
+      "summary": "읽기 전용 연결, SQL 변환, 행 수준 보안, 시맨틱 검색을 결합하고 dbt·Cube·Ossie 정의를 가져올 수 있다.",
+      "source": "GitHub",
+      "url": "https://github.com/MotleyAI/slayer?utm_source=tldrdata",
+      "report": {
+        "tldr": "SLayer는 MCP, REST, SQL, Python을 통해 거버넌스가 적용된 에이전트·사람의 웨어하우스 데이터 접근을 지원하는 MIT 라이선스 임베더블 시맨틱 레이어다.",
+        "what": "읽기 전용 연결성, SQL 변환, 트랜스포메이션, 행 수준 보안, 시맨틱 검색, 메모리를 결합하며, dbt·Cube·Ossie의 정의를 가져올 수 있다. 표현식 모델은 고정된 BI 지표를 넘어 비율, 타임시프트, 멀티스테이지 쿼리를 지원한다.",
+        "points": [
+          "라이선스: MIT",
+          "접근 경로: MCP, REST, SQL, Python",
+          "핵심 기능: 읽기전용 연결, SQL 변환, 행 수준 보안, 시맨틱 검색, 메모리",
+          "호환: dbt, Cube, Ossie 정의 가져오기",
+          "표현식 모델: 비율, 타임시프트, 멀티스테이지 쿼리 지원"
+        ],
+        "why": [
+          "에이전트의 데이터 접근을 거버넌스 하에 두려는 '시맨틱 레이어' 트렌드가 오픈소스로도 확산"
+        ]
+      }
+    },
+    {
+      "id": "data-netflix-pensive-ai-failure-diagnosis",
+      "title": "넷플릭스, '펜시브 AI'로 장애 진단을 더 신뢰할 수 있게",
+      "summary": "전체 로그를 모델에 떠넘기지 않고 오류를 유발한 정확한 로그 구간을 식별해 환각·지연 모두 줄였다.",
+      "source": "Netflix Tech Blog",
+      "url": "https://netflixtechblog.com/making-failure-diagnosis-reliable-with-pensive-ai-6b0811a1c015?utm_source=tldrdata",
+      "report": {
+        "tldr": "넷플릭스는 LLM이 전체 로그를 통째로 소화하도록 요청하는 대신, 오류의 원인이 된 정확한 로그 구간을 식별하고 온디맨드 근본원인 분석을 제공하는 방식으로 장애 진단을 더 신뢰할 수 있게 만들었다.",
+        "what": "이 설계는 모든 장애에 대한 커버리지를 높이면서도 환각 위험과 지연시간을 동시에 줄였고, 초기 사용 데이터는 디버깅 중 수동 로그 탐색을 크게 줄여준다는 것을 보여준다.",
+        "points": [
+          "핵심 설계: 전체 로그 대신 오류 유발 구간만 식별 + 온디맨드 근본원인 분석",
+          "효과: 커버리지 향상 + 환각 위험·지연시간 동시 감소",
+          "초기 성과: 수동 로그 탐색 시간 대폭 감소"
+        ],
+        "why": [
+          "LLM에게 '모든 것'을 주는 대신 '정확한 부분'만 주는 설계가 신뢰성과 효율을 동시에 높인 사례"
+        ]
+      }
+    },
+    {
+      "id": "data-duckdb-universe-tool",
+      "title": "'덕DB 유니버스' — 516개 오픈소스 프로젝트를 한눈에",
+      "summary": "확장, 대시보드, 라이브러리, DB 연동까지 59개 회사·제품을 검색 가능한 지도로 제공.",
+      "source": "DuckDB Universe",
+      "url": "https://duckdb-universe.vercel.app/?utm_source=tldrdata",
+      "report": {
+        "tldr": "DuckDB Universe는 DuckDB를 사용하는 516개의 오픈소스 프로젝트와 59개의 회사·제품을 검색 가능한 지도로 제공한다.",
+        "what": "확장 기능, 대시보드, 라이브러리, 데이터베이스 연동 등을 아우르며, GitHub 스타 수와 소스 링크를 포함해 PyGWalker, Evidence부터 MotherDuck, DeepSeek의 smallpond까지 다양한 예시를 담고 있다.",
+        "points": [
+          "범위: 오픈소스 프로젝트 516개, 회사·제품 59개",
+          "카테고리: 확장, 대시보드, 라이브러리, DB 연동",
+          "포함 예시: PyGWalker, Evidence, MotherDuck, DeepSeek의 smallpond"
+        ],
+        "why": [
+          "단일 OSS 프로젝트를 중심으로 형성된 생태계 규모를 가시화하는 참고 자료"
+        ]
+      }
+    },
+    {
+      "id": "data-bigquery-cost-reduction-users",
+      "title": "빅쿼리 비용 절감의 최대 걸림돌은 '사용자'",
+      "summary": "사용자가 작성한 SQL의 흔한 비용 실수를 탐지·재작성·절감 검증까지 하는 오픈소스 핀옵스 에이전트.",
+      "source": "Data Engineer Things",
+      "url": "https://blog.dataengineerthings.org/reducing-bigquery-costs-through-its-biggest-problem-the-users-f2ec54576eb1?utm_source=tldrdata",
+      "report": {
+        "tldr": "오픈소스 BigQuery FinOps 에이전트가 사용자가 작성한 SQL에서 흔한 비용 실수를 탐지하고, 쿼리를 재작성하며, 실행 전 절감 효과를 검증해 낭비를 줄인다.",
+        "what": "핵심 문제의식은 비용 낭비의 가장 큰 원인이 인프라가 아니라 '사용자가 작성한 쿼리'라는 점이다.",
+        "points": [
+          "핵심 원인: 비용 낭비의 최대 요인은 사용자가 작성한 SQL",
+          "에이전트 기능: 비용 실수 탐지, 쿼리 재작성, 실행 전 절감 검증"
+        ],
+        "why": [
+          "클라우드 DB 비용 최적화의 초점이 인프라 설정에서 '쿼리 작성 습관' 교정으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "data-flink-kafka-connector-offset-commit",
+      "title": "플링크 카프카 커넥터, 오프셋 커밋 방식 개선",
+      "summary": "체크포인트 상태와 카프카의 실제 위치를 조정해 트랜잭션 토픽의 오해를 부르는 오프셋을 방지.",
+      "source": "dalelane.co.uk",
+      "url": "https://dalelane.co.uk/blog?p=6161&utm_source=tldrdata",
+      "report": {
+        "tldr": "Flink의 Kafka 커넥터가 이제 체크포인트 상태를 Kafka의 실제 위치와 조정(reconcile)한다.",
+        "what": "이를 통해 트랜잭션 토픽에서 오해를 부르는 오프셋 표시를 방지하고, 커밋된 오프셋 지표가 정확히 일치하도록(Exactly-once 처리를 약화시키지 않으면서) Kafka 툴링과 맞춘다.",
+        "points": [
+          "개선 내용: 체크포인트 상태 ↔ Kafka 실제 위치 조정",
+          "효과: 트랜잭션 토픽에서 오해를 부르는 오프셋 방지, Kafka 툴링과 지표 일치",
+          "유지: Exactly-once 처리 보장은 그대로 유지"
+        ],
+        "why": [
+          "스트리밍 파이프라인의 운영 가시성이 정확한 오프셋 지표에 크게 의존한다는 점을 보여줌"
+        ]
+      }
+    }
+  ]
+}

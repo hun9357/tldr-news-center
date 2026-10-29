@@ -1,0 +1,272 @@
+{
+  "name": "빅테크",
+  "source": "TLDR",
+  "icon": "📱",
+  "color": "#6ec7b2",
+  "bg": "#15302a",
+  "items": [
+    {
+      "id": "tech-apple-touchscreen-macbook-pro",
+      "title": "애플, OLED 터치스크린 탑재한 맥북 프로 발표",
+      "summary": "최대 밝기 2000니트, 명암비 1000만:1 주장, 무게는 이전 모델보다 가벼운 3파운드.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "애플이 OLED 터치스크린 디스플레이를 탑재한 새 맥북 프로를 발표했다.",
+        "what": "디스플레이는 최대 2000니트 밝기를 낼 수 있고, 애플은 명암비가 1000만:1에 달한다고 주장한다. 새 노트북은 이전 모델보다 가벼운 3파운드다. 화면 상단의 카메라 노치는 다이나믹 아일랜드로 대체됐고, 덮개 뒷면의 애플 로고는 과거 모델처럼 빛나도록 복원됐다.",
+        "points": [
+          "디스플레이: OLED 터치스크린, 최대 2000니트, 명암비 1000만:1(주장)",
+          "무게: 3파운드 (이전 모델보다 가벼움)",
+          "디자인: 카메라 노치 → 다이나믹 아일랜드, 발광 애플 로고 복원"
+        ],
+        "why": [
+          "애플이 수년간 보류해온 '터치스크린 맥'을 마침내 현실화한 상징적 변화"
+        ]
+      }
+    },
+    {
+      "id": "tech-gemini-4-carbon-benchmark-no1",
+      "title": "구글 '제미나이 4 카본', 더 어려워진 벤치마크에서 세계 1위 재탈환",
+      "summary": "접근은 제한적 — 가드레일 개선 후 더 넓은 출시, 도입가는 입력 $2·출력 $10/백만토큰",
+      "source": "VentureBeat",
+      "url": "https://venturebeat.com/technology/google-unveils-gemini-4-carbon-retaking-the-worlds-no-1-spot-on-updated-harder-benchmarks-but-access-is-limited?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "구글이 사이버보안·복잡한 소프트웨어 엔지니어링에서 개선을 약속하는 Gemini 4 Carbon을 공개해 더 어려워진 벤치마크에서 세계 1위를 재탈환했다.",
+        "what": "현재는 선정된 사이버보안 디펜더에게만 제공되며, 구글이 피드백을 반영해 가드레일을 개선한 뒤 더 넓은 출시가 예정돼 있다. 도입 가격은 입력 토큰 100만개당 $2, 출력 토큰 100만개당 $10이며 캐시된 입력에는 95% 할인이 적용된다. 도입 기간이 끝나면 가격은 입력 $4, 출력 $20으로 복귀한다.",
+        "points": [
+          "순위: 업데이트된(더 어려워진) 벤치마크에서 세계 1위 재탈환",
+          "초기 접근: 선정된 사이버보안 디펜더",
+          "도입가: 입력 $2 / 출력 $10 (백만 토큰당), 캐시 입력 95% 할인",
+          "정식가(도입기 종료 후): 입력 $4 / 출력 $20"
+        ],
+        "why": [
+          "벤치마크 난이도를 높여가며 경쟁하는 프런티어 모델 레이스가 가격·접근성 경쟁까지 동반하고 있음"
+        ]
+      }
+    },
+    {
+      "id": "tech-the-grid-pcb-factory-robot",
+      "title": "'더 그리드': 선전보다 2배 빠른 美 현지 PCB 제조 로봇",
+      "summary": "보드마다 독립 경로로 흐르는 공장형 로봇이 프로토타입과 양산을 같은 설비에서 처리.",
+      "source": "CircuitHub",
+      "url": "https://www.circuithub.com/post/unveiling-the-grid?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "The Grid는 주문형으로 회로기판을 만들 수 있는 공장 규모의 로봇으로, 선전보다 2배 빠른 속도로 미국 내에서 PCB를 생산한다.",
+        "what": "각 기판은 솔더 페이스트를 인쇄하고 부품을 배치하고 리플로우·솔더링·검사를 수행하는 기계들을 거쳐 공장 내 자신만의 경로로 이동한다. The Grid를 이용하면 100종 설계를 1개씩 찍는 것이 100개의 동일 설계를 찍는 것만큼 쉬워지며, 프로토타입과 양산 배치가 같은 기계에서 돌아간다. 이는 기업들이 소량·다품종 기판을 대량으로 제조할 수 있게 하며, 제조업을 미국으로 되돌리는 데 기여할 수 있다.",
+        "points": [
+          "속도: 선전 대비 2배 빠른 생산",
+          "특징: 보드마다 독립 경로, 프로토타입과 양산을 동일 설비에서 처리",
+          "효과: 소량·다품종 기판의 대량 제조 가능",
+          "의의: 美 제조업 리쇼어링에 기여할 수 있는 모델"
+        ],
+        "why": [
+          "하드웨어 제조의 자동화가 전자산업의 공급망 지형을 바꿀 수 있는 잠재력을 보여줌"
+        ]
+      }
+    },
+    {
+      "id": "tech-virgin-galactic-apeiron-spaceport",
+      "title": "우주관광의 '마지막 희망' 아페이론, 애리조나 공장서 활주로로 이동",
+      "summary": "버진 갤럭틱의 델타급 준궤도 우주선, 2027년 2분기 첫 상업 비행 목표.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/10/the-last-best-hope-for-space-tourism-just-rolled-onto-a-runway-in-arizona/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "버진 갤럭틱의 델타급 준궤도 우주선 '아페이론'이 애리조나 메사의 Spaceship Factory에서 뉴멕시코 Spaceport America로 이송 중이다.",
+        "what": "도착 후에는 항공 엔지니어와 기술자들이 비행 전자장치와 비행 소프트웨어 작업을 마무리한다. 아페이론은 자유비행에 앞서 여러 차례의 지상 테스트와 시험비행을 거쳐야 하며, 버진 갤럭틱은 아페이론의 첫 상업 우주비행이 2027년 2분기 초에 이뤄질 것으로 기대한다.",
+        "points": [
+          "기종: 델타급 준궤도 우주선 아페이론",
+          "이송 경로: 애리조나 메사(Spaceship Factory) → 뉴멕시코 Spaceport America",
+          "남은 절차: 비행전자·소프트웨어 마무리, 지상 테스트, 시험비행",
+          "목표: 2027년 2분기 초 첫 상업 우주비행"
+        ],
+        "why": [
+          "우주관광 산업의 회복 여부를 가늠할 주요 이정표로 주목받는 프로그램"
+        ]
+      }
+    },
+    {
+      "id": "tech-slack-code-api-launch",
+      "title": "슬랙, 에이전트가 직접 여는 '코드 채널'로 개발 협업 재편",
+      "summary": "에이전트가 채널을 만들고 사람을 초대하고 진행상황을 공유하며 작업 종료 후 보관까지 처리.",
+      "source": "Slack Blog",
+      "url": "https://slack.com/blog/developers/slack-code-api?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "Slack Code API는 에이전트가 코드 채널을 열고 관련자·파일을 추가하고 작업 진행상황을 공유하며 작업 완료 후 채널을 보관할 수 있게 한다.",
+        "what": "팀은 에이전트와 같은 맥락을 공유하며 함께 작업할 수 있으며, 사용자는 에이전트가 정확히 무엇을 하는지와 누가 승인했는지 볼 수 있다. 워크스페이스 통제와 데이터 경계가 기본 내장되어 있고, 사용자는 필요에 맞는 에이전트·모델을 선택할 수 있다.",
+        "points": [
+          "핵심 기능: 에이전트가 코드 채널 생성·관리·보관",
+          "투명성: 작업 내역·승인자 가시화",
+          "보안: 워크스페이스 통제·데이터 경계 기본 내장"
+        ],
+        "why": [
+          "협업 도구의 중심이 '사람이 여는 채널'에서 '에이전트가 여는 작업 공간'으로 이동"
+        ]
+      }
+    },
+    {
+      "id": "tech-october-inflection-vibe-game-dev",
+      "title": "AI 게임 개발의 변곡점: '재미있는' 게임을 만들기 시작했다",
+      "summary": "한동안 게임처럼 보이는 것은 가능했지만, 최신 모델 세대는 새롭고 매력적인 게임플레이 루프를 만들어낸다.",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "모델들은 한동안 게임처럼 보이는 것을 만들어낼 수 있었지만, 그 게임들은 재미가 없었다.",
+        "what": "최신 세대 모델은 게임 디자인에서 의미 있는 개선을 보여주며, 새롭고 매력적인 게임플레이 루프를 만들어낼 수 있게 됐다. 이제 과제는 AI 도움 없이는 존재할 수 없었을 게임 콘셉트를 떠올리는 쪽으로 옮겨가고 있다.",
+        "points": [
+          "과거 한계: 게임처럼 보이지만 재미없음",
+          "현재 개선: 새롭고 매력적인 게임플레이 루프 생성 가능",
+          "새로운 과제: 'AI 없이는 존재할 수 없는' 게임 콘셉트 발굴"
+        ],
+        "why": [
+          "생성형 AI의 게임 개발 활용이 '겉모습 복제'에서 '게임성 창조' 단계로 넘어가는 분기점"
+        ]
+      }
+    },
+    {
+      "id": "tech-google-shares-fall-search-slowdown",
+      "title": "구글 검색 매출 성장 둔화에 주가 10% 급락",
+      "summary": "클라우드는 애널리스트 전망치($307억)를 넘겼지만 핵심 검색광고 성장은 둔화됐다.",
+      "source": "WSJ",
+      "url": "https://www.wsj.com/tech/ai/alphabet-googl-q3-earnings-report-2026-stock-fa41392d?st=JmRqzS&reflink=desktopwebshare_permalink",
+      "report": {
+        "tldr": "알파벳의 3분기 광고 사업이 애널리스트 전망치를 밑돌며 구글 주가가 10% 하락했다.",
+        "what": "회사는 AI를 핵심 웹검색 사업의 더 빠른 매출 성장으로 전환하는 방법을 여전히 찾아가는 중이다. 알파벳은 분기 매출 25% 성장을 보고했지만 검색광고 매출 성장은 둔화됐다. 반면 클라우드 사업은 애널리스트 전망을 넘어서며 알파벳 전체 매출 $1276억 중 $307억을 끌어왔다.",
+        "points": [
+          "주가: 10% 하락",
+          "전체 매출 성장률: 25% (전년 대비)",
+          "검색광고 매출 성장: 둔화",
+          "클라우드 매출: $307억 (전망치 상회, 전체 매출 $1276억 중)"
+        ],
+        "why": [
+          "AI 투자가 검색 광고 매출의 성장 둔화를 아직 완전히 상쇄하지 못하고 있다는 신호"
+        ]
+      }
+    },
+    {
+      "id": "tech-the-sane-asylum-turbopuffer",
+      "title": "'새니 어사일럼': 모금·고용 없이 큰 영향력을 내는 턴보퍼퍼의 창업 이야기",
+      "summary": "AI 시대 창업자들이 원하는 규모·속도·방식으로 재정적 자유를 만들 수 있는 길을 조명.",
+      "source": "Colossus",
+      "url": "https://colossus.com/article/sane-asylum-turbopuffer/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "이제는 대규모 모금이나 고용 없이도 상당한 규모의 수익성 높은 비즈니스를 만들 수 있게 됐다.",
+        "what": "창업자들은 새로운 AI 툴을 활용해 재정적 자유를 얻고, 원하는 사람들과 원하는 속도·규모·야망으로 일할 수 있는 조직을 만들 수 있다. 이 기사는 많은 AI 기업의 검색 인프라를 지원하는 스타트업 turbopuffer의 창업자들이 회사를 어떻게 세웠는지를 통해, AI 시대의 삶과 일이 어떤 모습일 수 있는지, 그리고 야심찬 빌더·창업자들이 이를 어떻게 스스로 시도할 수 있는지를 보여준다.",
+        "points": [
+          "주제: 모금·고용 최소화로도 가능한 고수익 비즈니스",
+          "사례: turbopuffer (다수 AI 기업의 검색 인프라 지원 스타트업)"
+        ],
+        "why": [
+          "AI 툴이 창업의 자본·인력 요건 자체를 낮추고 있다는 사례 기반 주장"
+        ]
+      }
+    },
+    {
+      "id": "tech-github-universe-2026-stack",
+      "title": "깃허브 유니버스 2026: 소프트웨어 배포 시스템 재구축 선언",
+      "summary": "신제품 출시와 인프라 재설계로 '가장 포괄적인 소프트웨어 배포 시스템'을 목표로 제시.",
+      "source": "GitHub Blog",
+      "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "GitHub이 세계에서 가장 포괄적인 소프트웨어 배포 시스템이 되기 위해 신제품을 선보이고 인프라를 재구축하고 있다.",
+        "what": "GitHub Universe 2026에서 발표된 내용들은 코드 작성부터 배포까지 스택의 여러 계층에 걸친 변화를 포함한다.",
+        "points": [
+          "목표: '가장 포괄적인 소프트웨어 배포 시스템'",
+          "범위: 신제품 출시 + 인프라 재구축"
+        ],
+        "why": [
+          "GitHub이 단순 코드 저장소를 넘어 전체 소프트웨어 공급망의 허브로 포지셔닝을 확대"
+        ]
+      }
+    },
+    {
+      "id": "tech-confessions-slopaholics-anonymous",
+      "title": "'슬로퍼홀릭 어나니머스'의 고백: AI 과사용을 자각하기 어려운 이유",
+      "summary": "누군가 작업의 디테일을 직접 들여다보기 전까지는 과사용 여부를 스스로 판단하기 어렵다.",
+      "source": "thomasjiralerspong.substack.com",
+      "url": "https://thomasjiralerspong.substack.com/p/chasing-the-karpathy-peak?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "누군가가 작업의 디테일을 직접 들여다보기 전까지는 AI를 과도하게 쓰고 있는지 판단하기 어렵다.",
+        "what": "이 에세이는 AI 의존도가 자기 인식만으로는 파악하기 어려운 이유와, 외부의 직접적인 검토가 왜 필요한지를 다룬다.",
+        "points": [
+          "핵심 주장: AI 과사용 여부는 자가진단이 어려움",
+          "필요 조치: 작업 디테일에 대한 외부(타인)의 직접 검토"
+        ],
+        "why": [
+          "AI 의존도 관리가 개인의 자기평가만으로는 충분하지 않다는 성찰"
+        ]
+      }
+    },
+    {
+      "id": "tech-reddit-for-you-feed",
+      "title": "레딧도 '포유' 피드 도입 — 알고리즘 추천 확대",
+      "summary": "기존에 팔로우하는 커뮤니티를 넘어서는 콘텐츠 참여를 유도하는 재설계.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/28/reddit-is-the-latest-platform-to-embrace-the-for-you-feed/?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "레딧이 재설계된 피드로 사용자가 이미 팔로우하는 커뮤니티를 넘어선 콘텐츠에 참여하도록 유도하고 있다.",
+        "what": "이는 '포유(For You)' 알고리즘 피드를 도입한 플랫폼 중 가장 최근 사례로, 사용자의 체류시간과 콘텐츠 발견 범위를 늘리려는 시도다.",
+        "points": [
+          "변화: 알고리즘 기반 '포유' 피드 도입",
+          "목적: 팔로우한 커뮤니티 밖의 콘텐츠 참여 유도"
+        ],
+        "why": [
+          "커뮤니티 기반 플랫폼들도 틱톡식 알고리즘 추천 피드로 점차 수렴하는 흐름"
+        ]
+      }
+    },
+    {
+      "id": "tech-9bit-aes-key-pdf-encryption",
+      "title": "'9비트 AES 키' 사건: PDF 암호화가 허술했던 이유",
+      "summary": "암호학적으로 부실한 난수 생성으로 보호된 PDF를 비밀번호 없이 해독할 수 있었다.",
+      "source": "v12.sh",
+      "url": "https://v12.sh/blog/the-case-of-the-9bit-aes-key?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "PDF 암호화에 사용되는 난수 생성이 흔히 매우 허술하게 이뤄져, 보호된 PDF를 비밀번호 없이 해독할 수 있는 경우가 있다.",
+        "what": "이 사례는 특정 PDF 암호화 구현에서 사용된 난수 생성 방식의 취약점을 추적해 암호 해독 가능성을 입증한다.",
+        "points": [
+          "문제: PDF 암호화의 난수 생성 방식이 암호학적으로 취약",
+          "결과: 비밀번호 없이 보호된 PDF 복호화 가능"
+        ],
+        "why": [
+          "문서 보안에서 흔히 간과되는 난수 생성 품질이 실제 보안 수준을 좌우한다는 경고"
+        ]
+      }
+    },
+    {
+      "id": "tech-git-for-us-code",
+      "title": "미국 법전에도 'Git'이 필요하다",
+      "summary": "변호사들에게도 편리한 시스템 오브 레코드가 필요하다는 제안.",
+      "source": "LexiFina",
+      "url": "https://lexifina.com/blog/git-for-the-us-code?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "변호사들도 법전 변경을 추적·관리할 편리한 시스템 오브 레코드가 필요하다는 주장이다.",
+        "what": "소프트웨어 개발의 버전관리 개념을 법률 문서 관리에 적용하자는 제안이다.",
+        "points": [
+          "제안: 버전관리(Git) 개념을 미국 법전 관리에 적용"
+        ],
+        "why": [
+          "소프트웨어 개발 도구의 개념이 법률 등 비기술 분야로 확장되는 흥미로운 사례"
+        ]
+      }
+    },
+    {
+      "id": "tech-chip-sellers-revenge-on-apple",
+      "title": "플래시메모리 가격 5배 폭등, 애플에 '복수'하는 칩 판매사들",
+      "summary": "AI 하이퍼스케일러 수요가 애플이 '푼돈'에 사오던 메모리 가격을 끌어올렸다.",
+      "source": "TLDR Newsletter (링크)",
+      "url": "https://links.tldrnewsletter.com/fwLli9?utm_source=tldrnewsletter",
+      "report": {
+        "tldr": "AI 하이퍼스케일러들의 수요가 플래시메모리 가격을 5배로 끌어올렸는데, 이는 애플이 과거 거의 '푼돈'에 사들였던 부품이다.",
+        "what": "메모리 공급사들은 AI 데이터센터向 수요 폭증으로 이제 가격 결정권을 쥐게 됐으며, 이는 과거 협상력에서 열세였던 칩 판매사들에게 '복수'의 기회가 되고 있다는 평가다.",
+        "points": [
+          "가격 변화: 플래시메모리 가격 약 5배 상승",
+          "원인: AI 하이퍼스케일러의 메모리 수요 폭증",
+          "영향: 애플 등 기존 대형 바이어의 원가 부담 증가"
+        ],
+        "why": [
+          "AI 데이터센터 투자가 메모리 공급망 전체의 가격 결정권 구도를 바꾸고 있음"
+        ]
+      }
+    }
+  ]
+}
